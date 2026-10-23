@@ -17783,21 +17783,36 @@
   {
     "record_id": "held-e-40820a47a642",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: David Glasgow, 23 May 1742, record SCOT/OPR/BAP/4151485",
+    "date": "23 May 1742",
+    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "association": "David Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
     "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: David Glasgow, 23 May 1742, record SCOT/OPR/BAP/4151485",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151485&tab=this",
     "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
     "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "status": "Inspected provider transcript; original register image not inspected",
     "profiles": {
       "Glasgow-1228": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Subject: existing David, exact provider record already held",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1227": {
+        "role": "Named Abraham father; existing adult-profile assessment 95% preserved",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Cunningham-20925": {
+        "role": "Named Janet Cunnyngham mother; existing family comparison",
+        "timeline_group": "Records mentioning this person"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review7-2026-10-22.json"
+    "note": "David Glasgow birth 12 May 1742, baptism 23 May 1742, Livingston, residence Daviston, Abraham Glasgow and Janet Cunnyngham; OPR 669/1 item 4. Exact provider record already belongs to Glasgow-1228. Refine the former before-23-May birth to the separately indexed 12 May; baptism remains 23 May. No relationship regrading; father remains 95%. Place/residence does not independently prove birthplace. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; Archive reference = OPR 669/1; Baptism date = 23 May 1742; Baptism year = 1742; Birth date = 12 May 1742; Birth year = 1742; County = Linlithgowshire (West Lothian); Father's first name(s) = Abraham; Father's last name = Glasgow; First name(s) = David; Item = 4; Last name = Glasgow; Mother's first name(s) = Janet; Mother's last name = Cunnyngham; Place = Livingston; Register year range = 1639-1854; Residence = Daviston. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "provider_record_id": "SCOT/OPR/BAP/4151485",
+    "person": "David Glasgow",
+    "year": 1742,
+    "country": "scotland",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
   },
   {
     "record_id": "held-e-b03c42bdcb41",
@@ -32795,6 +32810,481 @@
         "timeline_group": "Records for identity comparison"
       }
     },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-692403358",
+    "provider_record_id": "R_692403358",
+    "association": "Catharine Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Catharine Glasgow",
+    "date": "31 Aug 1780",
+    "year": 1780,
+    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692403358&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "Companion index of Catharine’s 31 August 1780 Livingston baptism, father Thomas Glasgow and mother Christian Davidson. The detailed OPR SCOT/OPR/BAP/4152175 separately gives birth 20 August. This entry adds no new birth date or relationship; the adult Thomas identification retains its current assessment. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; First name(s) = Catharine; Mother's first name(s) = Christian; Last name = Glasgow; Mother's last name = Davidson; Sex = Female; Place = Livingston; Birth year = 1780; County = Linlithgowshire (West Lothian); Baptism year = 1780; Baptism date = 31 Aug 1780; Baptism place = LIVINGSTON, WEST LOTHIAN, SCOTLAND; Father's first name(s) = Thomas; Father's last name = Glasgow. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1451": {
+        "role": "Subject: existing Catharine, companion baptism index; exact birth is separately indexed 20 August 1780",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1382": {
+        "role": "Named Thomas father; existing assessed adult-profile comparison retained without regrading",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Davidson-14073": {
+        "role": "Named Christian Davidson mother; existing family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-687412119",
+    "provider_record_id": "R_687412119",
+    "association": "Catherine Lang Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Catherine Lang Glasgow",
+    "date": "12 Mar 1796",
+    "year": 1796,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_687412119&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Two entries index one Catherine Lang Glasgow baptism on 12 March 1796 at Glasgow; parents are blank and no distinct birth date is given. The indexed 1796 birth year may be baptism-derived. Catharine Glasgow-1451 was born in 1780 and could undergo a later baptism, but Lang and repeat baptism are unexplained. Catherine Glasgow-1224 has a broad pre-1805 birth bound and a later Kirknewton baptism; neither missing parents nor uncertain dates exclude her. Original entry must resolve age, natal/married name and family. No new person is proposed. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; First name(s) = Catherine Lang; Residence = Glasgow, Lanarkshire, Scotland; Last name = Glasgow; Place = Glasgow; Sex = Female; County = Lanarkshire; Birth year = 1796; Baptism year = 1796; Baptism date = 12 Mar 1796; Baptism place = GLASGOW, LANARK, SCOTLAND; Father's first name(s) = -; Mother's first name(s) = -. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1451": {
+        "role": "Weak compatible candidate only; no event or parent assignment",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1224": {
+        "role": "Weak compatible candidate only; no event or parent assignment",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-689717829",
+    "provider_record_id": "R_689717829",
+    "association": "Catherine Lang Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Catherine Lang Glasgow",
+    "date": "12 Mar 1796",
+    "year": 1796,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_689717829&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Two entries index one Catherine Lang Glasgow baptism on 12 March 1796 at Glasgow; parents are blank and no distinct birth date is given. The indexed 1796 birth year may be baptism-derived. Catharine Glasgow-1451 was born in 1780 and could undergo a later baptism, but Lang and repeat baptism are unexplained. Catherine Glasgow-1224 has a broad pre-1805 birth bound and a later Kirknewton baptism; neither missing parents nor uncertain dates exclude her. Original entry must resolve age, natal/married name and family. No new person is proposed. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; First name(s) = Catherine Lang; Mother's first name(s) = -; Last name = Glasgow; Place = Glasgow; Sex = Female; County = Lanarkshire; Birth year = 1796; Baptism year = 1796; Baptism date = 12 Mar 1796; Baptism place = GLASGOW, LANARK, SCOTLAND; Father's first name(s) = -. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1451": {
+        "role": "Weak compatible candidate only; no event or parent assignment",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1224": {
+        "role": "Weak compatible candidate only; no event or parent assignment",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-anz-bmd-victoriadeath-179537",
+    "provider_record_id": "ANZ/BMD/VICTORIADEATH/179537",
+    "association": "Charles Glasgow — Australia, Civil Deaths & Burials 1780-1985",
+    "person": "Charles Glasgow",
+    "date": "1870",
+    "year": 1870,
+    "place": "Victoria, Australia",
+    "country": "australia",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=ANZ%2FBMD%2FVICTORIADEATH%2F179537&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Charles Glasgow, male, death/registration in Victoria in 1870, reported age 75, registration 10369; birth 1795 is age-derived. No death locality, parents, birthplace or natal-surname statement is supplied. The 1740 Kilbirnie Charles Glasgow-1515 and 1686 Charles Glasgow-2917 have major generation conflicts with the reported age; the index does not establish another person or exhaust compatible identities. No new person is proposed; inspect registration 10369 for family and birthplace. Transcript fields: Death place = -; Mother's name = -; First name(s) = Charles; State = Victoria; Last name = Glasgow; Registration number = 10369; Age = 75; Record set = Australia, Civil Deaths & Burials 1780-1985; Sex = Male; Category = Birth, Marriage, Death & Parish Records; Birth year = 1795; Subcategory = Civil Deaths & Burials; Death year = 1870; Collections from = Australasia, Australia; Father's name = -. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-bmd-d-1872-4-az-000120-270",
+    "provider_record_id": "BMD/D/1872/4/AZ/000120/270",
+    "association": "Charlotte Glasgow — England & Wales Deaths 1837-2007",
+    "person": "Charlotte Glasgow",
+    "date": "Q4 1872",
+    "year": 1872,
+    "place": "Marylebone, London, England",
+    "country": "england",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1872%2F4%2FAZ%2F000120%2F270&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Charlotte Glasgow’s death was registered in fourth quarter 1872 in Marylebone district, age 80, volume 1A page 348. The indexed 1792 birth is calculated from age; Glasgow at death does not prove natal Glasgow. Charlotte (Unknown) Glasgow, Unknown-695645, is a weak surviving comparison: her c.1761 birth is an uncertain estimate and no Marylebone bridge is held. Charlotte Marie Cecilia Glasgow-3003 has a separately evidenced 1827 birth, a major age conflict. Registration district is not exact death place. No new person is proposed. Transcript fields: First name(s) = Charlotte; County = London; Last name = Glasgow; Volume = 1A; Sex = Female; Page = 348; Birth year = 1792; Country = England; Age = 80; Record set = England & Wales Deaths 1837-2007; Death quarter = 4; Category = Birth, Marriage, Death & Parish Records; Death year = 1872; Subcategory = Civil Deaths & Burials; District = Marylebone; Collections from = Great Britain, England. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Unknown-695645": {
+        "role": "Weak compatible married-name candidate; no death identity assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690417020",
+    "provider_record_id": "R_690417020",
+    "association": "Christian Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Christian Glasgow",
+    "date": "Oct 1781",
+    "year": 1781,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690417020&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Christian Glasgow baptism, October 1781, Glasgow; no day, age, separate birth date or parents. The indexed birth year may derive from baptism and does not establish infancy or natal surname. Christian Meek-3817 (estimated c.1730, married Glasgow), Glasgow-3328 (1740 Larne household), Glasgow-1337 (1713 baptism) and Glasgow-3492 (1708 baptism) are unexcluded adult-baptism comparisons with no identifying Scottish family/residence bridge. No event or parents are assigned to them and no new person is proposed. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; First name(s) = Christian; Mother's first name(s) = -; Last name = Glasgow; Place = Glasgow; Sex = Female; County = Lanarkshire; Birth year = 1781; Baptism year = 1781; Baptism date = Oct 1781; Baptism place = GLASGOW,LANARK,SCOTLAND; Father's first name(s) = -. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Meek-3817": {
+        "role": "Weak compatible married-name/adult-baptism candidate only",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3328": {
+        "role": "Weak compatible adult-baptism candidate only",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1337": {
+        "role": "Remote compatible adult-baptism candidate only",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3492": {
+        "role": "Remote compatible adult-baptism candidate only",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-617348038",
+    "provider_record_id": "IRE/BMD/D/617348038",
+    "association": "Daniel Glasgow — Irish Deaths 1864 - 1958",
+    "person": "Daniel Glasgow",
+    "date": "1871",
+    "year": 1871,
+    "place": "Ballymoney, Antrim, Londonderry (Derry), Ireland",
+    "country": "ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617348038&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "Probable index of Daniel Glasgow-3896’s already inspected 16 October 1871 Kilrea death: name Daniel, age 75, year and Ballymoney district agree. This index records volume 16 page 112, no exact death date or family. Its 1796 birth year is age-derived; retain the official return’s exact death, widowed watchmaker occupation and Kate Glasgow informant without treating this index as independent corroboration. Transcript fields: First name(s) = Daniel; Country = Ireland; Last name = Glasgow; Volume = 16; Birth year = 1796; Page = 112; Age = 75; Record set = Irish Deaths 1864 - 1958; Registration year = 1871; Category = Birth, Marriage, Death & Parish Records; Registration quarter & year = 1871; Subcategory = Civil Deaths & Burials; Registration district = Ballymoney; Collections from = Ireland; County = Antrim, Londonderry (Derry). Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3896": {
+        "role": "Strong same-death index match to existing Daniel; exact details governed by previously inspected official return",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-692915698",
+    "provider_record_id": "R_692915698",
+    "association": "David Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "David Glasgow",
+    "date": "29 Jul 1744",
+    "year": 1744,
+    "place": "Ayr, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692915698&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "David Glasgow baptism 29 July 1744, Ayr, Robert Glasgow and Mary Borland, matches the existing 1744 family account for Glasgow-3456. This transcript gives birth year only; it does not prove or refute the catalogue’s separate 20 July birth. Preserve that field with its source question. Named Mary Borland is not a newly identified mother profile. Robert’s adult-profile assessment remains 55%. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; Baptism date = 29 Jul 1744; Baptism place = AYR,AYR,SCOTLAND; Baptism year = 1744; Birth year = 1744; County = Ayrshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = David; Last name = Glasgow; Mother's first name(s) = Mary; Mother's last name = Borland; Place = Ayr; Sex = Male. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3456": {
+        "role": "Probable existing record-child match; separate 20 July birth remains unresolved",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3457": {
+        "role": "Named Robert father; existing possible adult-profile assessment 55% preserved",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0729726",
+    "provider_record_id": "SCOT/OPR/BAP/0729726",
+    "association": "David Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "David Glasgow",
+    "date": "02 Nov 1765",
+    "year": 1765,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0729726&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "David Glasgow birth 24 October 1765, baptism 2 November 1765, Edinburgh, Pleasance residence, Abraham Glasgow, wright, and May Ormiston; OPR 685_2/8 item 3 page 212. Correct existing 24 November birth to 24 October and retain distinct baptism. Adult Abraham identification remains 66%; place/residence does not separately prove birthplace. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; Archive reference = OPR 685_2/8; Baptism date = 02 Nov 1765; Baptism year = 1765; Birth date = 24 Oct 1765; Birth year = 1765; County = Midlothian; Father's first name(s) = Abraham; Father's last name = Glasgow; Father's occupation = Wright; First name(s) = David; Item = 3; Last name = Glasgow; Mother's first name(s) = May; Mother's last name = Ormiston; Page = 212; Place = Edinburgh; Register year range = 1760-1771; Residence = Pleasance. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3458": {
+        "role": "Subject: existing David in Abraham/May Ormiston household",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1235": {
+        "role": "Named Abraham father; existing probable adult-profile assessment 66% preserved",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Ormistoun-12": {
+        "role": "Named May Ormiston mother; existing family comparison",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478206",
+    "provider_record_id": "SCOT/OPR/BAP/4478206",
+    "association": "David Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "David Glasgow",
+    "date": "22 Jun 1798",
+    "year": 1798,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478206&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; First name(s) = David; Mother's first name(s) = Mary; Last name = Glasgow; Mother's last name = Chapman; Birth year = 1798; Archive reference = OPR 690/3; Birth date = 22 Jun 1798; Register year range = 1766-1819; Baptism year = -; Item = 2; Residence = Clifton; Page = 45; Place = Kirknewton & East Calder; County = Midlothian; Father's first name(s) = Thos; Father's last name = Glasgow. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3348": {
+        "role": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1620": {
+        "role": "Named Thomas father; existing adult-profile assessment 96% preserved",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4477035",
+    "provider_record_id": "SCOT/OPR/BAP/4477035",
+    "association": "David Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "David Glasgow",
+    "date": "10 Jul 1798",
+    "year": 1798,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477035&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented. Transcript fields: Country = Scotland; Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; Archive reference = OPR 690/3; Baptism date = 10 Jul 1798; Baptism year = 1798; Birth date = 22 Jun 1798; Birth year = 1798; County = Midlothian; Father's first name(s) = Thos; Father's last name = Glasgow; Father's occupation = Plowman; First name(s) = David; Item = 2; Last name = Glasgow; Mother's first name(s) = Mary; Mother's last name = Chapman; Page = 15; Place = Kirknewton & East Calder; Register year range = 1766-1819; Residence = Clifton. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3348": {
+        "role": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1620": {
+        "role": "Named Thomas father; existing adult-profile assessment 96% preserved",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686208988",
+    "provider_record_id": "R_686208988",
+    "association": "David Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "David Glasgow",
+    "date": "10 Jul 1798",
+    "year": 1798,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686208988&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented. Transcript fields: Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; Baptism date = 10 Jul 1798; Baptism place = KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1798; Birth year = 1798; Country = Scotland; County = Midlothian; Father's first name(s) = Thomas; Father's last name = Glasgow; First name(s) = David; Last name = Glasgow; Mother's first name(s) = Mary Or Margaret; Mother's last name = Chapman; Place = Kirknewton and East Calder; Sex = Male; Residence = Kirknewton, Midlothian, Scotland. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3348": {
+        "role": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1620": {
+        "role": "Named Thomas father; existing adult-profile assessment 96% preserved",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691906855",
+    "provider_record_id": "R_691906855",
+    "association": "David Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "David Glasgow",
+    "date": "10 Jul 1798",
+    "year": 1798,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691906855&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented. Transcript fields: Record set = Scotland, Parish Births & Baptisms 1564-1929; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Baptisms; Collections from = Great Britain, Scotland; Baptism date = 10 Jul 1798; Baptism place = KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND; Baptism year = 1798; Birth year = 1798; Country = Scotland; County = Midlothian; Father's first name(s) = Thomas; Father's last name = Glasgow; First name(s) = David; Last name = Glasgow; Mother's first name(s) = Mary Or Margaret; Mother's last name = Chapman; Place = Kirknewton and East Calder; Sex = Male. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3348": {
+        "role": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1620": {
+        "role": "Named Thomas father; existing adult-profile assessment 96% preserved",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1683792",
+    "provider_record_id": "SCOT/OPR/BUR/1683792",
+    "association": "David Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "David Glasgow",
+    "date": "15 Oct 1822",
+    "year": 1822,
+    "place": "Leith, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1683792&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — David Glasgow, coach man, No 50 North Back of Canongate, buried 15 October 1822 at Leith, age 60, OPR 692/2/33 item 2 page 127. No exact death date or relatives. Birth 1762 is age-derived. Glasgow-3458’s now-refined 24 October 1765 birth would make him 56, nearly 57; reported age alone need not exclude him, but no trade/address bridge identifies him. Glasgow-1218 is a weak earlier-born alternative; Glasgow-1228’s exact 1742 birth gives age 80, a major mismatch. Undated holding points Glasgow-145/Glasgow-981 remain unexcluded but have no discriminating details. Country is literally blank in the index; Scotland is a reviewed geographic classification from Leith/Midlothian. No new person is proposed. Transcript fields: Record set = Scotland, Parish Deaths & Burials 1564-2017; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Burials; Collections from = Great Britain, Scotland; Age = 60; Archive reference = OPR 692/2/33; Birth year = 1762; Burial date = 15 Oct 1822; Burial year = 1822; Country = -; County = Midlothian; Death year = -; First name(s) = David; Item = 2; Last name = Glasgow; Occupation = Coach man; Page = 127; Place = Leith; Residence = No 50 North Back of Canongate; Year Range = 1819-1831. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3458": {
+        "role": "Leading compatible candidate only; no 1822 death or coachman role assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1218": {
+        "role": "Weak alternative candidate only; no death assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1228": {
+        "role": "Very weak comparison with major reported-age conflict; no death assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1293359",
+    "provider_record_id": "SCOT/OPR/BUR/1293359",
+    "association": "David Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "David Glasgow",
+    "date": "13 Jan 1843",
+    "year": 1843,
+    "place": "Currie, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1293359&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Companion indexes describe David Glasgow, Balerno, Currie, death 13 January 1843, age 48, OPR 682/3 item/book 4 page 17. No exact burial date, occupation or kin. Glasgow-3348’s exact 22 June 1798 birth would make him 44; nearby family geography supports a comparison but no household bridge identifies him. Glasgow-3543 (1804 Bute child, later Manchester family) is a weaker alternative; a return to Scotland is not disproved. Glasgow-2972 is excluded if his inspected 1851 Irvine census identity holds. Undated Glasgow-145/Glasgow-981 lack discriminating information and are not excluded. OPR Country is literally blank; Lothian index says Scotland. Age-derived 1795 is not an exact birth. No new person is proposed. Transcript fields: Record set = Scotland, Parish Deaths & Burials 1564-2017; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Burials; Collections from = Great Britain, Scotland; Age = 48; Archive reference = OPR 682/3; Birth year = 1795; Burial year = 1843; Country = -; County = Midlothian; Death date = 13 Jan 1843; Death year = 1843; First name(s) = David; Item = 4; Last name = Glasgow; Page = 17; Place = Currie; Residence = Balerno; Year Range = 1820-1854. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3348": {
+        "role": "Leading compatible candidate only; no 1843 death assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3543": {
+        "role": "Weak alternative candidate only; no 1843 death assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-lothian-fhs-bur-001072",
+    "provider_record_id": "GBPRS/LOTHIAN/FHS/BUR/001072",
+    "association": "David Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "David Glasgow",
+    "date": "13 Jan 1843",
+    "year": 1843,
+    "place": "Currie, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001072&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Companion indexes describe David Glasgow, Balerno, Currie, death 13 January 1843, age 48, OPR 682/3 item/book 4 page 17. No exact burial date, occupation or kin. Glasgow-3348’s exact 22 June 1798 birth would make him 44; nearby family geography supports a comparison but no household bridge identifies him. Glasgow-3543 (1804 Bute child, later Manchester family) is a weaker alternative; a return to Scotland is not disproved. Glasgow-2972 is excluded if his inspected 1851 Irvine census identity holds. Undated Glasgow-145/Glasgow-981 lack discriminating information and are not excluded. OPR Country is literally blank; Lothian index says Scotland. Age-derived 1795 is not an exact birth. No new person is proposed. Transcript fields: Record set = Scotland, Parish Deaths & Burials 1564-2017; Category = Birth, Marriage, Death & Parish Records; Subcategory = Parish Burials; Collections from = Great Britain, Scotland; Additional information = -; Age = 48; Birth year = 1795; Book = 4; Burial place = Currie; Burial year = 1843; Country = Scotland; County = Midlothian; Death date = 13 Jan 1843; Death year = 1843; First name(s) = David; Last name = Glasgow; Page = 17; Parish number = 682; Place = Currie; Residence = Balerno. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3348": {
+        "role": "Leading compatible candidate only; no 1843 death assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3543": {
+        "role": "Weak alternative candidate only; no 1843 death assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-civil-death-0011919",
+    "provider_record_id": "SCOT/CIVIL/DEATH/0011919",
+    "association": "David Glasgow — Scotland, Modern And Civil Deaths & Burials 1855-2024",
+    "person": "David Glasgow",
+    "date": "15 Jan 1854",
+    "year": 1854,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCIVIL%2FDEATH%2F0011919&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — David Glasgow died 15 January 1854 and was buried 20 January in Irvine Cemetery, reported age 70, Ayrshire Archives GR1/36/2-3. Glasgow-2972, Irvine barber in the 1851 census, is a strong compatible candidate by town and approximate chronology; his 1841 and 1851 ages differ. The burial transcript supplies no trade, address, spouse or kin to establish identity. Its 1784 birth year is age-derived. Undated Glasgow-145/Glasgow-981 have no discriminating information and remain unexcluded. The collection title begins 1855 but the transcript explicitly dates this entry 1854; retain this metadata discrepancy. No new person is proposed. Transcript fields: Record set = Scotland, Modern And Civil Deaths & Burials 1855-2024; Category = Birth, Marriage, Death & Parish Records; Subcategory = Civil Deaths & Burials; Collections from = Great Britain, Scotland; Age at death = 70; Archive = Ayrshire Archives; Archive reference = GR1/36/2-3; Birth year = 1784; Burial date = 20 Jan 1854; Burial place = Irvine Cemetery; Burial year = 1854; Country = Scotland; County = Ayrshire; Death date = 15 Jan 1854; Death year = 1854; First name(s) = David; Last name = Glasgow; Place = Irvine; Source = Irvine Cemetery Burial Registers. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2972": {
+        "role": "Strong compatible Irvine candidate only; no 1854 death assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693244874",
+    "provider_record_id": "R_693244874",
+    "association": "Dougal Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Dougal Glasgow",
+    "date": "1785",
+    "year": 1785,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693244874&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Dougal Glasgow, indexed birth year 1785 and birth place Glasgow,Lanark,Scotland. Last name is explicitly indexed Glasgow as well as the place name, but no exact date, baptism year or parents are supplied and the original is unseen. No exact historical local profile is identified; later Bryan Dougal Glasgow-2787, born 1920, is chronologically excluded, which does not exhaust earlier identities or prove a new child. Confirm original surname/event and compare Dougal/Dugald variants. No new person is proposed. Transcript fields: Baptism year = -; Birth place = Glasgow,Lanark,Scotland; Birth year = 1785; Category = Birth, Marriage, Death & Parish Records; Collections from = Great Britain, Scotland; Country = Scotland; County = Lanarkshire; Father's first name(s) = -; First name(s) = Dougal; Last name = Glasgow; Mother's first name(s) = -; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male; Subcategory = Parish Baptisms. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-269199907",
+    "provider_record_id": "R_269199907",
+    "association": "Edward George Glasgow — England Deaths & Burials 1538-1991",
+    "person": "Edward George Glasgow",
+    "date": "17 Aug 1843",
+    "year": 1843,
+    "place": "Shoreditch, Middlesex, England",
+    "country": "england",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_269199907&tab=this",
+    "status": "Inspected provider transcript; original register image not inspected",
+    "note": "HOLD — Edward George Glasgow, buried 17 August 1843 in Shoreditch, age 47, Finsbury Market address. Indexed birth 1796 is age-derived; no death date, service, spouse or parents are supplied. Retain as an unproved comparison in the existing officer subject account /research/subjects/newspapers-irish-1800-1850/#edward-george-army; shared full name and age do not establish the 1825–26 officer identity. Glasgow-3501’s represented 1850 New York arrival and Glasgow-2074’s 1860 North Carolina death conflict with the burial if those attributions hold; neither was newly verified here. The reported 1849 widow notice remains unverified. No separate person or profile death is proposed. Transcript fields: Age at death = 47y; Birth year = 1796; Burial date = 17 Aug 1843; Burial place = Shoreditch, Middlesex, England; Burial year = 1843; Category = Birth, Marriage, Death & Parish Records; Collections from = England, Great Britain; Country = England; County = Middlesex; Event year = 1843; First name(s) = Edward George; Last name = Glasgow; Place = Shoreditch; Record set = England Deaths & Burials 1538-1991; Sex = Male; Street address = Finsbury Market; Subcategory = Parish Burials. Source level: Inspected provider transcript; original register image not inspected. Companion entries of the same event are not independent corroboration.",
+    "profiles": {},
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
     "reviewed_on": "2026-10-23",
     "publish_to_record_index": true

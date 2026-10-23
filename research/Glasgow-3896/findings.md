@@ -6,6 +6,8 @@ Last updated: 2026-10-07
 
 Current father assessment (22 October 2026): **55% (possible)** for [Glasgow-3904](https://www.wikitree.com/wiki/Glasgow-3904). Possible 55%; the proved sibling link supports extending the hypothesis, without turning testimony into a contemporary parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Daniel Glasgow was a watchmaker of Church Street, Kilrea, who died there a widower on 16 October 1871, aged 75 according to his civil death registration. His 1871 will names his son David Glasgow (Glasgow-3899) of the City of London and his late brother Thomas, shown by his nephew Daniel Neely Glasgow's 1888 marriage to be Thomas Glasgow (Glasgow-987) of Lisnagaver. An 1827 baptism names his son Robert (Glasgow-3897) by Margaret Irwin, and an 1853 death notice calls James Glasgow (Glasgow-3898) his third son. His parents are not established: Alexander Glasgow (Glasgow-3904) and Rosanna (Unknown-761034) are uncertain working parents drawn from descendant testimony about Thomas.
 
@@ -301,3 +303,13 @@ Next useful test: Search the proved brothers jointly for an older family or hold
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Peter, Trying to find Glasgow, Genes Reunited discussion, 25 January 2007 and later replies; descendant testimony naming Alexander and Rosanna as Thomas’s parents](https://www.genesreunited.co.uk/boards/board/general_topics/thread/465937)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Strong same-death index match to existing Daniel; exact details governed by previously inspected official return. Probable index of Daniel Glasgow-3896’s already inspected 16 October 1871 Kilrea death: name Daniel, age 75, year and Ballymoney district agree. This index records volume 16 page 112, no exact death date or family. Its 1796 birth year is age-derived; retain the official return’s exact death, widowed watchmaker occupation and Kate Glasgow informant without treating this index as independent corroboration.
+
+- [Findmypast IRE/BMD/D/617348038](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617348038&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

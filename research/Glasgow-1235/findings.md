@@ -26,6 +26,8 @@ Reviewed: 22 October 2026.
 
 The two inspected indexes record Abraham Glasgow buried 16 July 1818, aged 89, at St Mary, Birmingham; one adds Hill Street. Birth about 1729 is calculated from that age. This profile’s birth is explicitly before 18 August 1745, not an exact birth on that day. No death or Birmingham-excluding life course is established. Retain this profile and [Glasgow-1227](/people/glasgow-1227.html) as unproved candidates. Do not assign the burial or calculated birth to either.
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 <!-- BEGIN FMP-BIRTH-SCOPE-20261022 -->
 ## Source findings — Birmingham burial remains a candidate, 1818, 22 October 2026
 
@@ -61,3 +63,13 @@ Next useful test: Check the register image for any naming or date conflict.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Abraham Glasgow, 18 Aug 1745, record SCOT/OPR/BAP/4151549](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151549&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Named Abraham father; existing probable adult-profile assessment 66% preserved. David Glasgow birth 24 October 1765, baptism 2 November 1765, Edinburgh, Pleasance residence, Abraham Glasgow, wright, and May Ormiston; OPR 685_2/8 item 3 page 212. Correct existing 24 November birth to 24 October and retain distinct baptism. Adult Abraham identification remains 66%; place/residence does not separately prove birthplace.
+
+- [Findmypast SCOT/OPR/BAP/0729726](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0729726&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

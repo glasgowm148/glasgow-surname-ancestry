@@ -54708,6 +54708,338 @@
       "provenance": [
         "research/ancestry-connections/parish-household-review-2026-10-23.json"
       ]
+    },
+    {
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "id": "fmp-page7-david-birth-dates-20261023",
+      "finding": "Three inspected David Glasgow transcripts distinguish birth from baptism: Glasgow-1228,12 May 1742; Glasgow-3458,24 October 1765; Glasgow-3348,22 June 1798.",
+      "qualification": "Current catalogue/model dates and complete proposed biographies are refined. The 1744 Ayrentry adds a 29 Julybaptism but does not establish or refute Glasgow-3456’s 20 Julybirth. The 1798 OPR says MaryChapman while companions say MaryOrMargaret; attachedMargaret’s identity remains qualified. Father assessments 95%,55%,66%,96% are preserved; original register images uninspected.",
+      "people": [
+        {
+          "id": "Glasgow-1228",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-1228.html",
+          "role": "Subject: existing David, exact provider record already held"
+        },
+        {
+          "id": "Glasgow-1227",
+          "name": "Abraham Glasgow",
+          "url": "/people/glasgow-1227.html",
+          "role": "Named Abraham father; existing adult-profile assessment 95% preserved"
+        },
+        {
+          "id": "Cunningham-20925",
+          "name": "Janet (Cunningham) Glasgow",
+          "url": "/people/cunningham-20925.html",
+          "role": "Named Janet Cunnyngham mother; existing family comparison"
+        },
+        {
+          "id": "Glasgow-3456",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3456.html",
+          "role": "Probable existing record-child match; separate 20 July birth remains unresolved"
+        },
+        {
+          "id": "Glasgow-3457",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3457.html",
+          "role": "Named Robert father; existing possible adult-profile assessment 55% preserved"
+        },
+        {
+          "id": "Glasgow-3458",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3458.html",
+          "role": "Subject: existing David in Abraham/May Ormiston household"
+        },
+        {
+          "id": "Glasgow-1235",
+          "name": "Abraham Glasgow",
+          "url": "/people/glasgow-1235.html",
+          "role": "Named Abraham father; existing probable adult-profile assessment 66% preserved"
+        },
+        {
+          "id": "Ormistoun-12",
+          "name": "May Ormistoun",
+          "url": "/people/ormistoun-12.html",
+          "role": "Named May Ormiston mother; existing family comparison"
+        },
+        {
+          "id": "Glasgow-3348",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3348.html",
+          "role": "Subject: existing David; one birth/baptism cluster in four derivative entries"
+        },
+        {
+          "id": "Glasgow-1620",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1620.html",
+          "role": "Named Thomas father; existing adult-profile assessment 96% preserved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4151485",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151485&tab=this"
+        },
+        {
+          "title": "Findmypast R_692915698",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692915698&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/0729726",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0729726&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478206",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478206&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4477035",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477035&tab=this"
+        },
+        {
+          "title": "Findmypast R_686208988",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686208988&tab=this"
+        },
+        {
+          "title": "Findmypast R_691906855",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691906855&tab=this"
+        }
+      ]
+    },
+    {
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "id": "fmp-page7-matched-existing-records-20261023",
+      "finding": "Page 7 adds a companion baptism index to Catharine Glasgow-1451 and a same-death index comparison to Daniel Glasgow-3896.",
+      "qualification": "Catharine’s separately sourced 20 August 1780 birth and 31 Augustbaptism remain distinct. Daniel’s 1871 index is governed by the previously inspected 16 OctoberKilreaofficialreturn; its 1796 birthyear is age-derived. These derivative indexes add no independent event or relationship.",
+      "people": [
+        {
+          "id": "Glasgow-1451",
+          "name": "Catharine Glasgow",
+          "url": "/people/glasgow-1451.html",
+          "role": "Subject: existing Catharine, companion baptism index; exact birth is separately indexed 20 August 1780"
+        },
+        {
+          "id": "Glasgow-1382",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1382.html",
+          "role": "Named Thomas father; existing assessed adult-profile comparison retained without regrading"
+        },
+        {
+          "id": "Davidson-14073",
+          "name": "Christine (Davidson) Glasgow",
+          "url": "/people/davidson-14073.html",
+          "role": "Named Christian Davidson mother; existing family comparison"
+        },
+        {
+          "id": "Glasgow-3896",
+          "name": "Daniel Glasgow",
+          "url": "/people/glasgow-3896.html",
+          "role": "Strong same-death index match to existing Daniel; exact details governed by previously inspected official return"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_692403358",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692403358&tab=this"
+        },
+        {
+          "title": "Findmypast IRE/BMD/D/617348038",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617348038&tab=this"
+        }
+      ]
+    },
+    {
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "id": "fmp-page7-identity-holds-20261023",
+      "finding": "Eleven page 7 transcripts remain qualified identity or birth-surname HOLDs in nine documentary groups, without new-person proposals.",
+      "qualification": "CatherineLang,Christian,Charlotte and the David death subjects retain compatible existing candidates. Charles and Dougal remain source-only holds; EdwardGeorge’s 1843 burial is an unproved comparison in the existing officer subject account. Age-derived and baptism-derived years do not prove natal facts. Coverage remains INCOMPLETE: pages 1–7 contain 140 rows plus one supporting transcript; nextpage 8 of 294 nominal.",
+      "people": [
+        {
+          "id": "Glasgow-1451",
+          "name": "Catharine Glasgow",
+          "url": "/people/glasgow-1451.html",
+          "role": "Weak compatible candidate only; no event or parent assignment"
+        },
+        {
+          "id": "Glasgow-1224",
+          "name": "Catherine Glasgow",
+          "url": "/people/glasgow-1224.html",
+          "role": "Weak compatible candidate only; no event or parent assignment"
+        },
+        {
+          "id": "Unknown-695645",
+          "name": "Charlotte (Unknown) Glasgow",
+          "url": "/people/unknown-695645.html",
+          "role": "Weak compatible married-name candidate; no death identity assigned"
+        },
+        {
+          "id": "Meek-3817",
+          "name": "Christian (Meek) Glasgow",
+          "url": "/people/meek-3817.html",
+          "role": "Weak compatible married-name/adult-baptism candidate only"
+        },
+        {
+          "id": "Glasgow-3328",
+          "name": "Christian Glasgow",
+          "url": "/people/glasgow-3328.html",
+          "role": "Weak compatible adult-baptism candidate only"
+        },
+        {
+          "id": "Glasgow-1337",
+          "name": "Christian Glasgow",
+          "url": "/people/glasgow-1337.html",
+          "role": "Remote compatible adult-baptism candidate only"
+        },
+        {
+          "id": "Glasgow-3492",
+          "name": "Christian Glasgow",
+          "url": "/people/glasgow-3492.html",
+          "role": "Remote compatible adult-baptism candidate only"
+        },
+        {
+          "id": "Glasgow-3458",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3458.html",
+          "role": "Leading compatible candidate only; no 1822 death or coachman role assigned"
+        },
+        {
+          "id": "Glasgow-1218",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-1218.html",
+          "role": "Weak alternative candidate only; no death assigned"
+        },
+        {
+          "id": "Glasgow-1228",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-1228.html",
+          "role": "Very weak comparison with major reported-age conflict; no death assigned"
+        },
+        {
+          "id": "Glasgow-3348",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3348.html",
+          "role": "Leading compatible candidate only; no 1843 death assigned"
+        },
+        {
+          "id": "Glasgow-3543",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3543.html",
+          "role": "Weak alternative candidate only; no 1843 death assigned"
+        },
+        {
+          "id": "Glasgow-2972",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-2972.html",
+          "role": "Strong compatible Irvine candidate only; no 1854 death assigned"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_687412119",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_687412119&tab=this"
+        },
+        {
+          "title": "Findmypast R_689717829",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_689717829&tab=this"
+        },
+        {
+          "title": "Findmypast ANZ/BMD/VICTORIADEATH/179537",
+          "url": "https://www.findmypast.co.uk/transcript?id=ANZ%2FBMD%2FVICTORIADEATH%2F179537&tab=this"
+        },
+        {
+          "title": "Findmypast BMD/D/1872/4/AZ/000120/270",
+          "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1872%2F4%2FAZ%2F000120%2F270&tab=this"
+        },
+        {
+          "title": "Findmypast R_690417020",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_690417020&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BUR/1683792",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1683792&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BUR/1293359",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1293359&tab=this"
+        },
+        {
+          "title": "Findmypast GBPRS/LOTHIAN/FHS/BUR/001072",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001072&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/CIVIL/DEATH/0011919",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCIVIL%2FDEATH%2F0011919&tab=this"
+        },
+        {
+          "title": "Findmypast R_693244874",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_693244874&tab=this"
+        },
+        {
+          "title": "Findmypast R_269199907",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_269199907&tab=this"
+        }
+      ]
+    },
+    {
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_paternal_joins": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/catalogue-integration-overrides.json",
+      "id": "fmp-agnes-existing-profile-reconciliation-20261023",
+      "finding": "The stale Libberton Agnes Glasgow creation case is reconciled to existing Glasgow-4133 using exact provider record SCOT/OPR/BAP/4033335.",
+      "qualification": "The retired case and source evidence remain inspectable as history. This is catalogue reconciliation, not a new person, relationship or original inspection. Katherine Wilson’s identification with Watson-53558 remains unresolved; genuine pending profile amendments remain open.",
+      "people": [
+        {
+          "id": "Glasgow-4133",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-4133.html",
+          "role": "Existing profile for the indexed1720Libbertonbaptism"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4033335",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this"
+        }
+      ]
     }
   ]
 }

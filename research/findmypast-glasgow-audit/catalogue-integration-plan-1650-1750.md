@@ -1,20 +1,20 @@
 # Findmypast Glasgow catalogue integration plan 1650–1750
 
-Source snapshot: `36e31daedf9e9ce5c14caf3d77cb6f23b736f36b44d7bf387fffe496219e9898`; latest detail capture: `2026-09-03T23:47:25.602Z`.
+Source snapshot: `602c82b00f1e5706f8fc2d2f04264a8e2b282c6035487c3e9473448097f5ae4c`; latest detail capture: `2026-09-03T23:47:25.602Z`.
 
 Source scrape/transcript audit: **INCOMPLETE**. This is a scoped integration of currently transcript-validated records 1650–1750; it does not claim that the Findmypast scrape or transcript review is complete.
 
 **APPLY READY**
 
-Validated person groups: **174**; WikiTree-audited groups: **174**; human overrides: **164**.
+Validated person groups: **174**; WikiTree-audited groups: **174**; human overrides: **165**.
 
 ## Outcome counts
 
 | Outcome and status | Groups |
 | --- | ---: |
-| existing_profile:n/a | 140 |
+| existing_profile:n/a | 141 |
 | free_space:READY | 2 |
-| new_person:HOLD | 10 |
+| new_person:HOLD | 9 |
 | new_person:READY | 22 |
 
 ## Person-group plan
@@ -158,7 +158,7 @@ Validated person groups: **174**; WikiTree-audited groups: **174**; human overri
 | `fmp-glasgow-cc9a54fb3b86` | James Glasgow, 7 May 1690, Edinburgh | new_person | surname-research/new-people/1690_Scotland_Edinburgh_James_Glasgow.md | human_override |
 | `fmp-glasgow-cd18f5e7916d` | John Glasgow, 1738, Edrom | new_person | surname-research/new-people/1738_Scotland_Edrom_John_Glasgow.md | human_override |
 | `fmp-glasgow-cdbfe8e4475a` | Hugh Glasgow, 08 Dec 1713, Irvine | existing_profile | Glasgow-1426 | human_override |
-| `fmp-glasgow-ce7a886e0868` | Agnes Glasgow, 21 Aug 1720, Libberton | new_person | surname-research/new-people/1720_Scotland_Libberton_Agnes_Glasgow.md | unresolved_candidate_audit |
+| `fmp-glasgow-ce7a886e0868` | Agnes Glasgow, 21 Aug 1720, Libberton | existing_profile | Glasgow-4133 | human_override |
 | `fmp-glasgow-cf86ca3898e2` | Margaret Glasgow, ? Aug 1712, Kilwinning | existing_profile | Glasgow-2465 | human_override |
 | `fmp-glasgow-d086eba57157` | Thomas Glasgow, 02/03/1692, Dublin | existing_profile | Glasgow-3556 | human_override |
 | `fmp-glasgow-d33ed1d5cc49` | Robert Glasgow, 17 Oct 1693, Kilbirnie | existing_profile | Glasgow-1075 | human_override |

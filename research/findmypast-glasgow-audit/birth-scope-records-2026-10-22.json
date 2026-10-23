@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-22",
+  "reviewed_on": "2026-10-23",
   "scope": {
     "surname_at_birth": "Glasgow",
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 121,
+    "inspected_transcripts": 141,
     "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
@@ -111,7 +111,24 @@
       "US/BMD/PENN-BUR/01390780",
       "SCOT/OPR/BAP/3839087",
       "SCOT/OPR/BAP/4152175",
-      "R_685841001"
+      "R_685841001",
+      "BMD/D/1872/4/AZ/000120/270",
+      "GBPRS/LOTHIAN/FHS/BUR/001072",
+      "IRE/BMD/D/617348038",
+      "R_686208988",
+      "R_687412119",
+      "R_689717829",
+      "R_690417020",
+      "R_691906855",
+      "R_692403358",
+      "R_692915698",
+      "SCOT/CIVIL/DEATH/0011919",
+      "SCOT/OPR/BAP/0729726",
+      "SCOT/OPR/BAP/4151485",
+      "SCOT/OPR/BAP/4477035",
+      "SCOT/OPR/BAP/4478206",
+      "SCOT/OPR/BUR/1293359",
+      "SCOT/OPR/BUR/1683792"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -131,10 +148,13 @@
       "GBPRS/D/449094191/1",
       "XAUTO/FHS/MONTGOMERYSHIRE/MIS/00036943",
       "PRS/ROMCATH/BUR/WESTM/PH3/000765",
-      "US/BMD/PENN-BAP/01263451"
+      "US/BMD/PENN-BAP/01263451",
+      "ANZ/BMD/VICTORIADEATH/179537",
+      "R_693244874",
+      "R_269199907"
     ],
-    "next_query_page": 7,
-    "integration_scope": "All 121 captured provider transcripts are indexed; existing-person identifications, comparison-only roles and unassigned natal/identity HOLDs remain distinct.",
+    "next_query_page": 8,
+    "integration_scope": "All 141 captured provider transcripts indexed once locally and source readers checked. Existing-person matches, comparison-only links, source-only natal/identity HOLDs and draft-account comparisons remain distinct. No new relationship or live profile creation. Local build verified, not deployed.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -256,17 +276,39 @@
       "PRS/ROMCATH/BUR/WESTM/PH3/000765",
       "US/BMD/PENN-BAP/01263451",
       "SCOT/OPR/BAP/4152175",
-      "R_685841001"
+      "R_685841001",
+      "R_692403358",
+      "R_687412119",
+      "R_689717829",
+      "ANZ/BMD/VICTORIADEATH/179537",
+      "BMD/D/1872/4/AZ/000120/270",
+      "R_690417020",
+      "IRE/BMD/D/617348038",
+      "SCOT/OPR/BAP/4478206",
+      "SCOT/OPR/BAP/4151485",
+      "R_692915698",
+      "SCOT/OPR/BAP/0729726",
+      "SCOT/OPR/BAP/4477035",
+      "R_686208988",
+      "R_691906855",
+      "SCOT/OPR/BUR/1683792",
+      "SCOT/OPR/BUR/1293359",
+      "GBPRS/LOTHIAN/FHS/BUR/001072",
+      "SCOT/CIVIL/DEATH/0011919",
+      "R_693244874",
+      "R_269199907"
     ],
-    "records_with_profile_or_draft_context": 103,
+    "records_with_profile_or_draft_context": 121,
     "remaining_coverage": [
-      "Pages 7–294 of the current 1719–1799 birth-filtered BMD query",
-      "Earlier birth windows, later-life records and other categories",
-      "Surname variants and unresolved birth-surname/record identities",
+      "Pages 8–294 nominal of current1719–1799 birth-filtered BMD query; provider caps may require partitioning",
+      "Earlier birth windows, later-life records lacking indexed birth, and other categories",
+      "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results"
     ],
-    "verification_report": "output/findmypast-birth-scope-pages4-6-20261023-verification.json",
-    "verified_on": "2026-10-23"
+    "verification_report": "output/findmypast-birth-scope-page7-20261023-verification.json",
+    "verified_on": "2026-10-23",
+    "indexed_provider_record_count": 141,
+    "next_action": "Reconcile the 65 eligible-priority  saved transcripts before more browser capture; then resume page 8 of current 1719–1799 BMD query with exact-ID preflight."
   },
   "search_pages": [
     {
@@ -1684,6 +1726,251 @@
         "Surname-only World search; page 6 of 294. Birth estimate fields are not proof of actual birth year or natal surname.",
         "Provider transcripts inspected; original registers not inspected."
       ]
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=7&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=999",
+      "birth_query_range": [
+        1719,
+        1799
+      ],
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        7
+      ],
+      "captured_rows": 20,
+      "rows": [
+        {
+          "record_id": "R_692403358",
+          "first_name": "Catharine",
+          "birth_year": "1780",
+          "death_year": "—",
+          "event_year": "1780",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_687412119",
+          "first_name": "Catherine Lang",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_689717829",
+          "first_name": "Catherine Lang",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "ANZ/BMD/VICTORIADEATH/179537",
+          "first_name": "Charles",
+          "birth_year": "1795",
+          "death_year": "—",
+          "event_year": "1870",
+          "record_set": "Australia, Civil Deaths & Burials 1780-1985",
+          "location": "Victoria, Australia",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "BMD/D/1872/4/AZ/000120/270",
+          "first_name": "Charlotte",
+          "birth_year": "1792",
+          "death_year": "1872",
+          "event_year": "1872",
+          "record_set": "England & Wales Deaths 1837-2007",
+          "location": "Marylebone, London, England",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_690417020",
+          "first_name": "Christian",
+          "birth_year": "1781",
+          "death_year": "—",
+          "event_year": "1781",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "IRE/BMD/D/617348038",
+          "first_name": "Daniel",
+          "birth_year": "1796",
+          "death_year": "1871",
+          "event_year": "1871",
+          "record_set": "Irish Deaths 1864 - 1958",
+          "location": "Ballymoney, Antrim & Londonderry (Derry), Ireland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4478206",
+          "first_name": "David",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4151485",
+          "first_name": "David",
+          "birth_year": "1742",
+          "death_year": "—",
+          "event_year": "1742",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Livingston, Linlithgowshire (West Lothian), Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_692915698",
+          "first_name": "David",
+          "birth_year": "1744",
+          "death_year": "—",
+          "event_year": "1744",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/0729726",
+          "first_name": "David",
+          "birth_year": "1765",
+          "death_year": "—",
+          "event_year": "1765",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Edinburgh, Midlothian, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4477035",
+          "first_name": "David",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_686208988",
+          "first_name": "David",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_691906855",
+          "first_name": "David",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/1683792",
+          "first_name": "David",
+          "birth_year": "1762",
+          "death_year": "—",
+          "event_year": "1822",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Leith, Midlothian",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/1293359",
+          "first_name": "David",
+          "birth_year": "1795",
+          "death_year": "1843",
+          "event_year": "1843",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Currie, Midlothian",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "GBPRS/LOTHIAN/FHS/BUR/001072",
+          "first_name": "David",
+          "birth_year": "1795",
+          "death_year": "1843",
+          "event_year": "1843",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Currie, Midlothian, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "SCOT/CIVIL/DEATH/0011919",
+          "first_name": "David",
+          "birth_year": "1784",
+          "death_year": "1854",
+          "event_year": "1854",
+          "record_set": "Scotland, Modern And Civil Deaths & Burials 1855-2024",
+          "location": "Irvine, Ayrshire, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_693244874",
+          "first_name": "Dougal",
+          "birth_year": "1785",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "last_name": "Glasgow"
+        },
+        {
+          "record_id": "R_269199907",
+          "first_name": "Edward George",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1843",
+          "record_set": "England Deaths & Burials 1538-1991",
+          "location": "Shoreditch, Middlesex, England",
+          "last_name": "Glasgow"
+        }
+      ],
+      "limits": [
+        "Surname-only World BMD search; page 7 of 294 nominal pages. Indexed birth estimates do not prove birth date or natal surname.",
+        "Provider transcripts inspected; no original registers inspected."
+      ],
+      "capture_transfer": {
+        "algorithm": "FNV-1a-32 over compact JSON [requested_url,final_url,title,captured_at,sorted transcript_fields entries]; UTF-16 code units, ASCII fields in this batch",
+        "checksums": [
+          "fc902aaa",
+          "d37c8a64",
+          "d9bf3d01",
+          "777fc167",
+          "704fbef3",
+          "df9af919",
+          "41dda88c",
+          "22a98981",
+          "69853cde",
+          "00b6e400",
+          "6b88f347",
+          "71616781",
+          "3a6ad370",
+          "dd41111b",
+          "7e9a8b88",
+          "49cd1e0d",
+          "0d849e45",
+          "4f1eff3b",
+          "b2d3a6ae",
+          "f6d74bd4"
+        ],
+        "status": "20/20 matched browser capture; transfer integrity only, not source authenticity"
+      }
     }
   ],
   "records": {
@@ -5827,6 +6114,672 @@
       "surname_status": "confirmed",
       "birth_surname_status": "confirmed",
       "surname_review_basis": "Birth/baptism index subject surnamed Glasgow; birth-year interpretation and modern identity require comparison."
+    },
+    "R_692403358": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:28.486Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_692403358",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_692403358&tab=this",
+      "title": "Catharine Glasgow in 1780",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "First name(s)": "Catharine",
+        "Mother's first name(s)": "Christian",
+        "Last name": "Glasgow",
+        "Mother's last name": "Davidson",
+        "Sex": "Female",
+        "Place": "Livingston",
+        "Birth year": "1780",
+        "County": "Linlithgowshire (West Lothian)",
+        "Baptism year": "1780",
+        "Baptism date": "31 Aug 1780",
+        "Baptism place": "LIVINGSTON, WEST LOTHIAN, SCOTLAND",
+        "Father's first name(s)": "Thomas",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "R_687412119": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:30.067Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_687412119",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_687412119&tab=this",
+      "title": "Catherine Lang Glasgow in 1796",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "First name(s)": "Catherine Lang",
+        "Residence": "Glasgow, Lanarkshire, Scotland",
+        "Last name": "Glasgow",
+        "Place": "Glasgow",
+        "Sex": "Female",
+        "County": "Lanarkshire",
+        "Birth year": "1796",
+        "Baptism year": "1796",
+        "Baptism date": "12 Mar 1796",
+        "Baptism place": "GLASGOW, LANARK, SCOTLAND",
+        "Father's first name(s)": "-",
+        "Mother's first name(s)": "-"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "identity_hold"
+    },
+    "R_689717829": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:31.298Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_689717829",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_689717829&tab=this",
+      "title": "Catherine Lang Glasgow in 1796",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "First name(s)": "Catherine Lang",
+        "Mother's first name(s)": "-",
+        "Last name": "Glasgow",
+        "Place": "Glasgow",
+        "Sex": "Female",
+        "County": "Lanarkshire",
+        "Birth year": "1796",
+        "Baptism year": "1796",
+        "Baptism date": "12 Mar 1796",
+        "Baptism place": "GLASGOW, LANARK, SCOTLAND",
+        "Father's first name(s)": "-"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "identity_hold"
+    },
+    "ANZ/BMD/VICTORIADEATH/179537": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:32.672Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=ANZ%2FBMD%2FVICTORIADEATH%2F179537",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=ANZ%2FBMD%2FVICTORIADEATH%2F179537&tab=this",
+      "title": "Charles Glasgow in 1870",
+      "transcript_fields": {
+        "Death place": "-",
+        "Mother's name": "-",
+        "First name(s)": "Charles",
+        "State": "Victoria",
+        "Last name": "Glasgow",
+        "Registration number": "10369",
+        "Age": "75",
+        "Record set": "Australia, Civil Deaths & Burials 1780-1985",
+        "Sex": "Male",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Birth year": "1795",
+        "Subcategory": "Civil Deaths & Burials",
+        "Death year": "1870",
+        "Collections from": "Australasia, Australia",
+        "Father's name": "-"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "scope_hold"
+    },
+    "BMD/D/1872/4/AZ/000120/270": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:34.507Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1872%2F4%2FAZ%2F000120%2F270",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1872%2F4%2FAZ%2F000120%2F270&tab=this",
+      "title": "Charlotte Glasgow in 1872",
+      "transcript_fields": {
+        "First name(s)": "Charlotte",
+        "County": "London",
+        "Last name": "Glasgow",
+        "Volume": "1A",
+        "Sex": "Female",
+        "Page": "348",
+        "Birth year": "1792",
+        "Country": "England",
+        "Age": "80",
+        "Record set": "England & Wales Deaths 1837-2007",
+        "Death quarter": "4",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Death year": "1872",
+        "Subcategory": "Civil Deaths & Burials",
+        "District": "Marylebone",
+        "Collections from": "Great Britain, England"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "scope_hold"
+    },
+    "R_690417020": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:36.092Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_690417020",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_690417020&tab=this",
+      "title": "Christian Glasgow in 1781",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "First name(s)": "Christian",
+        "Mother's first name(s)": "-",
+        "Last name": "Glasgow",
+        "Place": "Glasgow",
+        "Sex": "Female",
+        "County": "Lanarkshire",
+        "Birth year": "1781",
+        "Baptism year": "1781",
+        "Baptism date": "Oct 1781",
+        "Baptism place": "GLASGOW,LANARK,SCOTLAND",
+        "Father's first name(s)": "-"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "scope_hold"
+    },
+    "IRE/BMD/D/617348038": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:37.283Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617348038",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617348038&tab=this",
+      "title": "Daniel Glasgow in 1871",
+      "transcript_fields": {
+        "First name(s)": "Daniel",
+        "Country": "Ireland",
+        "Last name": "Glasgow",
+        "Volume": "16",
+        "Birth year": "1796",
+        "Page": "112",
+        "Age": "75",
+        "Record set": "Irish Deaths 1864 - 1958",
+        "Registration year": "1871",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Registration quarter & year": "1871",
+        "Subcategory": "Civil Deaths & Burials",
+        "Registration district": "Ballymoney",
+        "Collections from": "Ireland",
+        "County": "Antrim, Londonderry (Derry)"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "matched"
+    },
+    "SCOT/OPR/BAP/4478206": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:15:38.642Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478206",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478206&tab=this",
+      "title": "David Glasgow",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "First name(s)": "David",
+        "Mother's first name(s)": "Mary",
+        "Last name": "Glasgow",
+        "Mother's last name": "Chapman",
+        "Birth year": "1798",
+        "Archive reference": "OPR 690/3",
+        "Birth date": "22 Jun 1798",
+        "Register year range": "1766-1819",
+        "Baptism year": "-",
+        "Item": "2",
+        "Residence": "Clifton",
+        "Page": "45",
+        "Place": "Kirknewton & East Calder",
+        "County": "Midlothian",
+        "Father's first name(s)": "Thos",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "SCOT/OPR/BAP/4151485": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:17:53.390Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151485",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151485&tab=this",
+      "title": "David Glasgow in 1742",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Archive reference": "OPR 669/1",
+        "Baptism date": "23 May 1742",
+        "Baptism year": "1742",
+        "Birth date": "12 May 1742",
+        "Birth year": "1742",
+        "County": "Linlithgowshire (West Lothian)",
+        "Father's first name(s)": "Abraham",
+        "Father's last name": "Glasgow",
+        "First name(s)": "David",
+        "Item": "4",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Janet",
+        "Mother's last name": "Cunnyngham",
+        "Place": "Livingston",
+        "Register year range": "1639-1854",
+        "Residence": "Daviston"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "R_692915698": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:18:36.271Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_692915698",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_692915698&tab=this",
+      "title": "David Glasgow in 1744",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Baptism date": "29 Jul 1744",
+        "Baptism place": "AYR,AYR,SCOTLAND",
+        "Baptism year": "1744",
+        "Birth year": "1744",
+        "County": "Ayrshire",
+        "Father's first name(s)": "Robert",
+        "Father's last name": "Glasgow",
+        "First name(s)": "David",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Mary",
+        "Mother's last name": "Borland",
+        "Place": "Ayr",
+        "Sex": "Male"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "SCOT/OPR/BAP/0729726": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:18:37.911Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0729726",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0729726&tab=this",
+      "title": "David Glasgow in 1765",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Archive reference": "OPR 685_2/8",
+        "Baptism date": "02 Nov 1765",
+        "Baptism year": "1765",
+        "Birth date": "24 Oct 1765",
+        "Birth year": "1765",
+        "County": "Midlothian",
+        "Father's first name(s)": "Abraham",
+        "Father's last name": "Glasgow",
+        "Father's occupation": "Wright",
+        "First name(s)": "David",
+        "Item": "3",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "May",
+        "Mother's last name": "Ormiston",
+        "Page": "212",
+        "Place": "Edinburgh",
+        "Register year range": "1760-1771",
+        "Residence": "Pleasance"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "SCOT/OPR/BAP/4477035": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:18:39.182Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477035",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477035&tab=this",
+      "title": "David Glasgow in 1798",
+      "transcript_fields": {
+        "Country": "Scotland",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Archive reference": "OPR 690/3",
+        "Baptism date": "10 Jul 1798",
+        "Baptism year": "1798",
+        "Birth date": "22 Jun 1798",
+        "Birth year": "1798",
+        "County": "Midlothian",
+        "Father's first name(s)": "Thos",
+        "Father's last name": "Glasgow",
+        "Father's occupation": "Plowman",
+        "First name(s)": "David",
+        "Item": "2",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Mary",
+        "Mother's last name": "Chapman",
+        "Page": "15",
+        "Place": "Kirknewton & East Calder",
+        "Register year range": "1766-1819",
+        "Residence": "Clifton"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "R_686208988": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:20:04.774Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686208988",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686208988&tab=this",
+      "title": "David Glasgow in 1798",
+      "transcript_fields": {
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Baptism date": "10 Jul 1798",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Baptism year": "1798",
+        "Birth year": "1798",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "Thomas",
+        "Father's last name": "Glasgow",
+        "First name(s)": "David",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Mary Or Margaret",
+        "Mother's last name": "Chapman",
+        "Place": "Kirknewton and East Calder",
+        "Sex": "Male",
+        "Residence": "Kirknewton, Midlothian, Scotland"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "R_691906855": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:20:06.673Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691906855",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691906855&tab=this",
+      "title": "David Glasgow in 1798",
+      "transcript_fields": {
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Baptisms",
+        "Collections from": "Great Britain, Scotland",
+        "Baptism date": "10 Jul 1798",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Baptism year": "1798",
+        "Birth year": "1798",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "Thomas",
+        "Father's last name": "Glasgow",
+        "First name(s)": "David",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Mary Or Margaret",
+        "Mother's last name": "Chapman",
+        "Place": "Kirknewton and East Calder",
+        "Sex": "Male"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "supported_by_matched_child_record",
+      "matching_status": "matched"
+    },
+    "SCOT/OPR/BUR/1683792": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:20:08.369Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1683792",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1683792&tab=this",
+      "title": "David Glasgow in 1822",
+      "transcript_fields": {
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Burials",
+        "Collections from": "Great Britain, Scotland",
+        "Age": "60",
+        "Archive reference": "OPR 692/2/33",
+        "Birth year": "1762",
+        "Burial date": "15 Oct 1822",
+        "Burial year": "1822",
+        "Country": "-",
+        "County": "Midlothian",
+        "Death year": "-",
+        "First name(s)": "David",
+        "Item": "2",
+        "Last name": "Glasgow",
+        "Occupation": "Coach man",
+        "Page": "127",
+        "Place": "Leith",
+        "Residence": "No 50 North Back of Canongate",
+        "Year Range": "1819-1831"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "identity_hold"
+    },
+    "SCOT/OPR/BUR/1293359": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:20:16.287Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1293359",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1293359&tab=this",
+      "title": "David Glasgow in 1843",
+      "transcript_fields": {
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Burials",
+        "Collections from": "Great Britain, Scotland",
+        "Age": "48",
+        "Archive reference": "OPR 682/3",
+        "Birth year": "1795",
+        "Burial year": "1843",
+        "Country": "-",
+        "County": "Midlothian",
+        "Death date": "13 Jan 1843",
+        "Death year": "1843",
+        "First name(s)": "David",
+        "Item": "4",
+        "Last name": "Glasgow",
+        "Page": "17",
+        "Place": "Currie",
+        "Residence": "Balerno",
+        "Year Range": "1820-1854"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "identity_hold"
+    },
+    "GBPRS/LOTHIAN/FHS/BUR/001072": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:20:17.870Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001072",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001072&tab=this",
+      "title": "David Glasgow in 1843",
+      "transcript_fields": {
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Parish Burials",
+        "Collections from": "Great Britain, Scotland",
+        "Additional information": "-",
+        "Age": "48",
+        "Birth year": "1795",
+        "Book": "4",
+        "Burial place": "Currie",
+        "Burial year": "1843",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Death date": "13 Jan 1843",
+        "Death year": "1843",
+        "First name(s)": "David",
+        "Last name": "Glasgow",
+        "Page": "17",
+        "Parish number": "682",
+        "Place": "Currie",
+        "Residence": "Balerno"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "identity_hold"
+    },
+    "SCOT/CIVIL/DEATH/0011919": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:20:19.322Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCIVIL%2FDEATH%2F0011919",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCIVIL%2FDEATH%2F0011919&tab=this",
+      "title": "David Glasgow in 1854",
+      "transcript_fields": {
+        "Record set": "Scotland, Modern And Civil Deaths & Burials 1855-2024",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Subcategory": "Civil Deaths & Burials",
+        "Collections from": "Great Britain, Scotland",
+        "Age at death": "70",
+        "Archive": "Ayrshire Archives",
+        "Archive reference": "GR1/36/2-3",
+        "Birth year": "1784",
+        "Burial date": "20 Jan 1854",
+        "Burial place": "Irvine Cemetery",
+        "Burial year": "1854",
+        "Country": "Scotland",
+        "County": "Ayrshire",
+        "Death date": "15 Jan 1854",
+        "Death year": "1854",
+        "First name(s)": "David",
+        "Last name": "Glasgow",
+        "Place": "Irvine",
+        "Source": "Irvine Cemetery Burial Registers"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "identity_hold"
+    },
+    "R_693244874": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:21:06.766Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693244874",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693244874&tab=this",
+      "title": "Dougal Glasgow",
+      "transcript_fields": {
+        "Baptism year": "-",
+        "Birth place": "Glasgow,Lanark,Scotland",
+        "Birth year": "1785",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Lanarkshire",
+        "Father's first name(s)": "-",
+        "First name(s)": "Dougal",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "-",
+        "Place": "Glasgow",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Male",
+        "Subcategory": "Parish Baptisms"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "scope_hold"
+    },
+    "R_269199907": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-23T13:21:08.233Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_269199907",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_269199907&tab=this",
+      "title": "Edward George Glasgow in 1843",
+      "transcript_fields": {
+        "Age at death": "47y",
+        "Birth year": "1796",
+        "Burial date": "17 Aug 1843",
+        "Burial place": "Shoreditch, Middlesex, England",
+        "Burial year": "1843",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "England, Great Britain",
+        "Country": "England",
+        "County": "Middlesex",
+        "Event year": "1843",
+        "First name(s)": "Edward George",
+        "Last name": "Glasgow",
+        "Place": "Shoreditch",
+        "Record set": "England Deaths & Burials 1538-1991",
+        "Sex": "Male",
+        "Street address": "Finsbury Market",
+        "Subcategory": "Parish Burials"
+      },
+      "source_level": "Inspected provider transcript; original register image not inspected",
+      "reviewed_on": "2026-10-23",
+      "surname_status": "indexed_subject_surname",
+      "surname_review_basis": "Provider explicitly indexes the subject Last name as Glasgow; natal surname and actual birth eligibility remain qualified as stated in the matching review.",
+      "birth_surname_status": "unresolved",
+      "matching_status": "scope_hold"
     }
   },
   "identity_clusters": [
@@ -6105,6 +7058,32 @@
         "XAUTO/FHS/MONTGOMERYSHIRE/MIS/00036943"
       ],
       "reason": "HOLD — Welshpool burial indexes: Ann Glasgow age 83, buried 1 Feb 1825 at St Mary; Pool Town residence. Monumental inscription memorial 205 calls Ann GLASSCOW widow of Captain GLASSCOW Royal Artillery and sister of Ambrose GETHYN, suggesting natal Gethyn but not proving it; it says death 27 Feb 1825, after the indexed burial, a conflict to preserve. No checked identity. Canonical place country Wales; retain literal NBI Country=England as a source field only. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.",
+      "grouping_status": "compatible_documentary_group_identity_unresolved"
+    },
+    {
+      "record_ids": [
+        "R_687412119",
+        "R_689717829"
+      ],
+      "reason": "HOLD — Two entries index one Catherine Lang Glasgow baptism on 12 March 1796 at Glasgow; parents are blank and no distinct birth date is given. The indexed 1796 birth year may be baptism-derived. Catharine Glasgow-1451 was born in 1780 and could undergo a later baptism, but Lang and repeat baptism are unexplained. Catherine Glasgow-1224 has a broad pre-1805 birth bound and a later Kirknewton baptism; neither missing parents nor uncertain dates exclude her. Original entry must resolve age, natal/married name and family. No new person is proposed.",
+      "grouping_status": "compatible_documentary_group_identity_unresolved"
+    },
+    {
+      "record_ids": [
+        "SCOT/OPR/BAP/4478206",
+        "SCOT/OPR/BAP/4477035",
+        "R_686208988",
+        "R_691906855"
+      ],
+      "reason": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented.",
+      "grouping_status": "same_event"
+    },
+    {
+      "record_ids": [
+        "SCOT/OPR/BUR/1293359",
+        "GBPRS/LOTHIAN/FHS/BUR/001072"
+      ],
+      "reason": "HOLD — Companion indexes describe David Glasgow, Balerno, Currie, death 13 January 1843, age 48, OPR 682/3 item/book 4 page 17. No exact burial date, occupation or kin. Glasgow-3348’s exact 22 June 1798 birth would make him 44; nearby family geography supports a comparison but no household bridge identifies him. Glasgow-3543 (1804 Bute child, later Manchester family) is a weaker alternative; a return to Scotland is not disproved. Glasgow-2972 is excluded if his inspected 1851 Irvine census identity holds. Undated Glasgow-145/Glasgow-981 lack discriminating information and are not excluded. OPR Country is literally blank; Lothian index says Scotland. Age-derived 1795 is not an exact birth. No new person is proposed.",
       "grouping_status": "compatible_documentary_group_identity_unresolved"
     }
   ],
@@ -7134,6 +8113,205 @@
         "assessment": "HOLD — Yorkshire bishop’s transcript index: Ann Glasgow age 66, buried 20 Mar 1830 at Felixkirk; indexed birth 1764 is age-derived. Existing candidates remain unresolved; no new person from this burial. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.",
         "new_person_proposed": false,
         "reviewed_on": "2026-10-23"
+      },
+      "R_692403358": {
+        "catalogue_profiles": {
+          "Glasgow-1451": "Subject: existing Catharine, companion baptism index; exact birth is separately indexed 20 August 1780",
+          "Glasgow-1382": "Named Thomas father; existing assessed adult-profile comparison retained without regrading",
+          "Davidson-14073": "Named Christian Davidson mother; existing family comparison"
+        },
+        "status": "matched",
+        "assessment": "Companion index of Catharine’s 31 August 1780 Livingston baptism, father Thomas Glasgow and mother Christian Davidson. The detailed OPR SCOT/OPR/BAP/4152175 separately gives birth 20 August. This entry adds no new birth date or relationship; the adult Thomas identification retains its current assessment.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_687412119": {
+        "catalogue_profiles": {
+          "Glasgow-1451": "Weak compatible candidate only; no event or parent assignment",
+          "Glasgow-1224": "Weak compatible candidate only; no event or parent assignment"
+        },
+        "status": "identity_hold",
+        "assessment": "HOLD — Two entries index one Catherine Lang Glasgow baptism on 12 March 1796 at Glasgow; parents are blank and no distinct birth date is given. The indexed 1796 birth year may be baptism-derived. Catharine Glasgow-1451 was born in 1780 and could undergo a later baptism, but Lang and repeat baptism are unexplained. Catherine Glasgow-1224 has a broad pre-1805 birth bound and a later Kirknewton baptism; neither missing parents nor uncertain dates exclude her. Original entry must resolve age, natal/married name and family. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_689717829": {
+        "catalogue_profiles": {
+          "Glasgow-1451": "Weak compatible candidate only; no event or parent assignment",
+          "Glasgow-1224": "Weak compatible candidate only; no event or parent assignment"
+        },
+        "status": "identity_hold",
+        "assessment": "HOLD — Two entries index one Catherine Lang Glasgow baptism on 12 March 1796 at Glasgow; parents are blank and no distinct birth date is given. The indexed 1796 birth year may be baptism-derived. Catharine Glasgow-1451 was born in 1780 and could undergo a later baptism, but Lang and repeat baptism are unexplained. Catherine Glasgow-1224 has a broad pre-1805 birth bound and a later Kirknewton baptism; neither missing parents nor uncertain dates exclude her. Original entry must resolve age, natal/married name and family. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "ANZ/BMD/VICTORIADEATH/179537": {
+        "catalogue_profiles": {},
+        "status": "scope_hold",
+        "assessment": "HOLD — Charles Glasgow, male, death/registration in Victoria in 1870, reported age 75, registration 10369; birth 1795 is age-derived. No death locality, parents, birthplace or natal-surname statement is supplied. The 1740 Kilbirnie Charles Glasgow-1515 and 1686 Charles Glasgow-2917 have major generation conflicts with the reported age; the index does not establish another person or exhaust compatible identities. No new person is proposed; inspect registration 10369 for family and birthplace.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "BMD/D/1872/4/AZ/000120/270": {
+        "catalogue_profiles": {
+          "Unknown-695645": "Weak compatible married-name candidate; no death identity assigned"
+        },
+        "status": "scope_hold",
+        "assessment": "HOLD — Charlotte Glasgow’s death was registered in fourth quarter 1872 in Marylebone district, age 80, volume 1A page 348. The indexed 1792 birth is calculated from age; Glasgow at death does not prove natal Glasgow. Charlotte (Unknown) Glasgow, Unknown-695645, is a weak surviving comparison: her c.1761 birth is an uncertain estimate and no Marylebone bridge is held. Charlotte Marie Cecilia Glasgow-3003 has a separately evidenced 1827 birth, a major age conflict. Registration district is not exact death place. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_690417020": {
+        "catalogue_profiles": {
+          "Meek-3817": "Weak compatible married-name/adult-baptism candidate only",
+          "Glasgow-3328": "Weak compatible adult-baptism candidate only",
+          "Glasgow-1337": "Remote compatible adult-baptism candidate only",
+          "Glasgow-3492": "Remote compatible adult-baptism candidate only"
+        },
+        "status": "scope_hold",
+        "assessment": "HOLD — Christian Glasgow baptism, October 1781, Glasgow; no day, age, separate birth date or parents. The indexed birth year may derive from baptism and does not establish infancy or natal surname. Christian Meek-3817 (estimated c.1730, married Glasgow), Glasgow-3328 (1740 Larne household), Glasgow-1337 (1713 baptism) and Glasgow-3492 (1708 baptism) are unexcluded adult-baptism comparisons with no identifying Scottish family/residence bridge. No event or parents are assigned to them and no new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "IRE/BMD/D/617348038": {
+        "catalogue_profiles": {
+          "Glasgow-3896": "Strong same-death index match to existing Daniel; exact details governed by previously inspected official return"
+        },
+        "status": "matched",
+        "assessment": "Probable index of Daniel Glasgow-3896’s already inspected 16 October 1871 Kilrea death: name Daniel, age 75, year and Ballymoney district agree. This index records volume 16 page 112, no exact death date or family. Its 1796 birth year is age-derived; retain the official return’s exact death, widowed watchmaker occupation and Kate Glasgow informant without treating this index as independent corroboration.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BAP/4151485": {
+        "catalogue_profiles": {
+          "Glasgow-1228": "Subject: existing David, exact provider record already held",
+          "Glasgow-1227": "Named Abraham father; existing adult-profile assessment 95% preserved",
+          "Cunningham-20925": "Named Janet Cunnyngham mother; existing family comparison"
+        },
+        "status": "matched",
+        "assessment": "David Glasgow birth 12 May 1742, baptism 23 May 1742, Livingston, residence Daviston, Abraham Glasgow and Janet Cunnyngham; OPR 669/1 item 4. Exact provider record already belongs to Glasgow-1228. Refine the former before-23-May birth to the separately indexed 12 May; baptism remains 23 May. No relationship regrading; father remains 95%. Place/residence does not independently prove birthplace.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_692915698": {
+        "catalogue_profiles": {
+          "Glasgow-3456": "Probable existing record-child match; separate 20 July birth remains unresolved",
+          "Glasgow-3457": "Named Robert father; existing possible adult-profile assessment 55% preserved"
+        },
+        "status": "matched",
+        "assessment": "David Glasgow baptism 29 July 1744, Ayr, Robert Glasgow and Mary Borland, matches the existing 1744 family account for Glasgow-3456. This transcript gives birth year only; it does not prove or refute the catalogue’s separate 20 July birth. Preserve that field with its source question. Named Mary Borland is not a newly identified mother profile. Robert’s adult-profile assessment remains 55%.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BAP/0729726": {
+        "catalogue_profiles": {
+          "Glasgow-3458": "Subject: existing David in Abraham/May Ormiston household",
+          "Glasgow-1235": "Named Abraham father; existing probable adult-profile assessment 66% preserved",
+          "Ormistoun-12": "Named May Ormiston mother; existing family comparison"
+        },
+        "status": "matched",
+        "assessment": "David Glasgow birth 24 October 1765, baptism 2 November 1765, Edinburgh, Pleasance residence, Abraham Glasgow, wright, and May Ormiston; OPR 685_2/8 item 3 page 212. Correct existing 24 November birth to 24 October and retain distinct baptism. Adult Abraham identification remains 66%; place/residence does not separately prove birthplace.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BAP/4478206": {
+        "catalogue_profiles": {
+          "Glasgow-3348": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+          "Glasgow-1620": "Named Thomas father; existing adult-profile assessment 96% preserved"
+        },
+        "status": "matched",
+        "assessment": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BAP/4477035": {
+        "catalogue_profiles": {
+          "Glasgow-3348": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+          "Glasgow-1620": "Named Thomas father; existing adult-profile assessment 96% preserved"
+        },
+        "status": "matched",
+        "assessment": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_686208988": {
+        "catalogue_profiles": {
+          "Glasgow-3348": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+          "Glasgow-1620": "Named Thomas father; existing adult-profile assessment 96% preserved"
+        },
+        "status": "matched",
+        "assessment": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_691906855": {
+        "catalogue_profiles": {
+          "Glasgow-3348": "Subject: existing David; one birth/baptism cluster in four derivative entries",
+          "Glasgow-1620": "Named Thomas father; existing adult-profile assessment 96% preserved"
+        },
+        "status": "matched",
+        "assessment": "One David Glasgow, born 22 June 1798, baptised 10 July 1798, Kirknewton and East Calder, Clifton. OPR 690/3 item 2 page 45 indexes birth only; page 15 gives baptism and father Thos, plowman. Both name mother Mary Chapman; companions R_686208988/R_691906855 say Mary Or Margaret. Correct the catalogue birth from 10 July to 22 June, retain distinct baptism and current father 96%. Attached Margaret Chapman-28491’s identity remains qualified pending original image. Four entries are one documentary child/event cluster, not independent corroboration. External profile context: Chapman-28491 (Current mother comparison only; OPR Mary versus derivative Mary or Margaret remains unresolved), https://www.wikitree.com/wiki/Chapman-28491; no local destination invented.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BUR/1683792": {
+        "catalogue_profiles": {
+          "Glasgow-3458": "Leading compatible candidate only; no 1822 death or coachman role assigned",
+          "Glasgow-1218": "Weak alternative candidate only; no death assigned",
+          "Glasgow-1228": "Very weak comparison with major reported-age conflict; no death assigned"
+        },
+        "status": "identity_hold",
+        "assessment": "HOLD — David Glasgow, coach man, No 50 North Back of Canongate, buried 15 October 1822 at Leith, age 60, OPR 692/2/33 item 2 page 127. No exact death date or relatives. Birth 1762 is age-derived. Glasgow-3458’s now-refined 24 October 1765 birth would make him 56, nearly 57; reported age alone need not exclude him, but no trade/address bridge identifies him. Glasgow-1218 is a weak earlier-born alternative; Glasgow-1228’s exact 1742 birth gives age 80, a major mismatch. Undated holding points Glasgow-145/Glasgow-981 remain unexcluded but have no discriminating details. Country is literally blank in the index; Scotland is a reviewed geographic classification from Leith/Midlothian. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/OPR/BUR/1293359": {
+        "catalogue_profiles": {
+          "Glasgow-3348": "Leading compatible candidate only; no 1843 death assigned",
+          "Glasgow-3543": "Weak alternative candidate only; no 1843 death assigned"
+        },
+        "status": "identity_hold",
+        "assessment": "HOLD — Companion indexes describe David Glasgow, Balerno, Currie, death 13 January 1843, age 48, OPR 682/3 item/book 4 page 17. No exact burial date, occupation or kin. Glasgow-3348’s exact 22 June 1798 birth would make him 44; nearby family geography supports a comparison but no household bridge identifies him. Glasgow-3543 (1804 Bute child, later Manchester family) is a weaker alternative; a return to Scotland is not disproved. Glasgow-2972 is excluded if his inspected 1851 Irvine census identity holds. Undated Glasgow-145/Glasgow-981 lack discriminating information and are not excluded. OPR Country is literally blank; Lothian index says Scotland. Age-derived 1795 is not an exact birth. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "GBPRS/LOTHIAN/FHS/BUR/001072": {
+        "catalogue_profiles": {
+          "Glasgow-3348": "Leading compatible candidate only; no 1843 death assigned",
+          "Glasgow-3543": "Weak alternative candidate only; no 1843 death assigned"
+        },
+        "status": "identity_hold",
+        "assessment": "HOLD — Companion indexes describe David Glasgow, Balerno, Currie, death 13 January 1843, age 48, OPR 682/3 item/book 4 page 17. No exact burial date, occupation or kin. Glasgow-3348’s exact 22 June 1798 birth would make him 44; nearby family geography supports a comparison but no household bridge identifies him. Glasgow-3543 (1804 Bute child, later Manchester family) is a weaker alternative; a return to Scotland is not disproved. Glasgow-2972 is excluded if his inspected 1851 Irvine census identity holds. Undated Glasgow-145/Glasgow-981 lack discriminating information and are not excluded. OPR Country is literally blank; Lothian index says Scotland. Age-derived 1795 is not an exact birth. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "SCOT/CIVIL/DEATH/0011919": {
+        "catalogue_profiles": {
+          "Glasgow-2972": "Strong compatible Irvine candidate only; no 1854 death assigned"
+        },
+        "status": "identity_hold",
+        "assessment": "HOLD — David Glasgow died 15 January 1854 and was buried 20 January in Irvine Cemetery, reported age 70, Ayrshire Archives GR1/36/2-3. Glasgow-2972, Irvine barber in the 1851 census, is a strong compatible candidate by town and approximate chronology; his 1841 and 1851 ages differ. The burial transcript supplies no trade, address, spouse or kin to establish identity. Its 1784 birth year is age-derived. Undated Glasgow-145/Glasgow-981 have no discriminating information and remain unexcluded. The collection title begins 1855 but the transcript explicitly dates this entry 1854; retain this metadata discrepancy. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_693244874": {
+        "catalogue_profiles": {},
+        "status": "scope_hold",
+        "assessment": "HOLD — Dougal Glasgow, indexed birth year 1785 and birth place Glasgow,Lanark,Scotland. Last name is explicitly indexed Glasgow as well as the place name, but no exact date, baptism year or parents are supplied and the original is unseen. No exact historical local profile is identified; later Bryan Dougal Glasgow-2787, born 1920, is chronologically excluded, which does not exhaust earlier identities or prove a new child. Confirm original surname/event and compare Dougal/Dugald variants. No new person is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23"
+      },
+      "R_269199907": {
+        "catalogue_profiles": {},
+        "status": "scope_hold",
+        "assessment": "HOLD — Edward George Glasgow, buried 17 August 1843 in Shoreditch, age 47, Finsbury Market address. Indexed birth 1796 is age-derived; no death date, service, spouse or parents are supplied. Retain as an unproved comparison in the existing officer subject account /research/subjects/newspapers-irish-1800-1850/#edward-george-army; shared full name and age do not establish the 1825–26 officer identity. Glasgow-3501’s represented 1850 New York arrival and Glasgow-2074’s 1860 North Carolina death conflict with the burial if those attributions hold; neither was newly verified here. The reported 1849 widow notice remains unverified. No separate person or profile death is proposed.",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-23",
+        "subject_account": {
+          "id": "subject-newspapers-irish-1800-1850-edward-george-army",
+          "url": "/research/subjects/newspapers-irish-1800-1850/#edward-george-army",
+          "role": "Unproved burial comparison; no established-profile event assignment"
+        }
       }
     },
     "page2_review": {
@@ -7247,6 +8425,542 @@
         "Glasgow-1451"
       ],
       "note": "Allan1743 duplicate creation withdrawn in favour of existing4110. Four explicit birth dates distinguished from baptism. No new relationship or relationship confidence change."
+    },
+    "page7_review": {
+      "reviewed_on": "2026-10-23",
+      "result_rows": 20,
+      "provider_transcripts": 20,
+      "documentary_groups": 15,
+      "new_people": 0,
+      "matched_existing_record_ids": [
+        "IRE/BMD/D/617348038",
+        "R_686208988",
+        "R_691906855",
+        "R_692403358",
+        "R_692915698",
+        "SCOT/OPR/BAP/0729726",
+        "SCOT/OPR/BAP/4151485",
+        "SCOT/OPR/BAP/4477035",
+        "SCOT/OPR/BAP/4478206"
+      ],
+      "held_record_ids": [
+        "R_687412119",
+        "R_689717829",
+        "ANZ/BMD/VICTORIADEATH/179537",
+        "BMD/D/1872/4/AZ/000120/270",
+        "R_690417020",
+        "SCOT/OPR/BUR/1683792",
+        "SCOT/OPR/BUR/1293359",
+        "GBPRS/LOTHIAN/FHS/BUR/001072",
+        "SCOT/CIVIL/DEATH/0011919",
+        "R_693244874",
+        "R_269199907"
+      ],
+      "vital_refinements": [
+        "Glasgow-1228",
+        "Glasgow-3458",
+        "Glasgow-3348"
+      ],
+      "original_images_inspected": 0,
+      "relationship_changes": [],
+      "note": "Three exact birth dates separated from baptism. Edward George burial retained as a qualified comparison in existing officer subject account. Stale Agnes creationcase reconciled to existing4133, preserving genuine pending amendments and retired history. Captured batch source/search/publication/link checks passed locally; full provider coverage remains incomplete."
+    },
+    "workflow_audit_20261023": {
+      "page7_redundant_live_refetches": [
+        "SCOT/OPR/BAP/4151485",
+        "R_693244874"
+      ],
+      "page7_first_seen_transcript_ids": [
+        "R_692403358",
+        "R_687412119",
+        "R_689717829",
+        "ANZ/BMD/VICTORIADEATH/179537",
+        "BMD/D/1872/4/AZ/000120/270",
+        "R_690417020",
+        "IRE/BMD/D/617348038",
+        "SCOT/OPR/BAP/4478206",
+        "R_692915698",
+        "SCOT/OPR/BAP/0729726",
+        "SCOT/OPR/BAP/4477035",
+        "R_686208988",
+        "R_691906855",
+        "SCOT/OPR/BUR/1683792",
+        "SCOT/OPR/BUR/1293359",
+        "GBPRS/LOTHIAN/FHS/BUR/001072",
+        "SCOT/CIVIL/DEATH/0011919",
+        "R_269199907"
+      ],
+      "highlighted_fact_groups": 10,
+      "first_seen_in_available_audit_captures": 7,
+      "previously_held_newly_integrated": 3,
+      "correction": "Do not count duplicate indexes, repeated inspections or previously held facts as genuinely new discoveries.",
+      "next_step": "Offline exact-IDpreflight across all approved saved details, current canonical/public records and person findings before any transcript navigation. Existing access failure is not a cached transcript; identity HOLD is not a ban on resolving a genuinely missing detail."
+    },
+    "cached_offline_preflight": {
+      "reviewed_on": "2026-10-23",
+      "scope": "Saved accessible legacy receipts absent from current public provider index and this captured batch; next-review priority, not proven natal identity or new persons.",
+      "counts": {
+        "eligible": 65,
+        "review_needed": 67,
+        "not_eligible": 113
+      },
+      "candidates": [
+        {
+          "provider_id": "R_685663682",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_685663682",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_685856167",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_685856167",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690387615",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690387615",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690390677",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690390677",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690417298",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690417298",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690417644",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690417644",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690417779",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690417779",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690418273",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690418273",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690418812",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690418812",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690418813",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690418813",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690419416",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690419416",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690419744",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690419744",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690419975",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690419975",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_690425467",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_690425467",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_691308263",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_691308263",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_691313677",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_691313677",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_692420988",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_692420988",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693241153",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693241153",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693241487",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693241487",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693241488",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693241488",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693242590",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693242590",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693242591",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693242591",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693243351",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693243351",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693243862",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693243862",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693243863",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693243863",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693249282",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693249282",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693249828",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693249828",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693250432",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693250432",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693569752",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693569752",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693571192",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693571192",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693571691",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693571691",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693575445",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693575445",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693575446",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693575446",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693575447",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693575447",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693575866",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693575866",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_693576269",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_693576269",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_694107799",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_694107799",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_694107870",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_694107870",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_694107871",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_694107871",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_694110723",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_694110723",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_694111819",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_694111819",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_694112773",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_694112773",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "R_694113518",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/R_694113518",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0396092",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~10396092",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0396093",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~10396093",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0501646",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~10501646",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0627016",
+          "source_file": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~10627016",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3575824",
+          "source_file": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~13575824",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3575849",
+          "source_file": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~13575849",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478030",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14478030",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478077",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14478077",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478151",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14478151",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478163",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14478163",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478164",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14478164",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478189",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14478189",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478228",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14478228",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4884236",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14884236",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/5056630",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~15056630",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/5057434",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~15057434",
+          "priority_basis": "indexed_birth_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3572310",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~13572310",
+          "priority_basis": "dated_baptism_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3624989",
+          "source_file": "research/findmypast-glasgow-audit/record-details-remaining-b.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~13624989",
+          "priority_basis": "dated_baptism_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4473898",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14473898",
+          "priority_basis": "dated_baptism_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4585634",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14585634",
+          "priority_basis": "dated_baptism_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4585702",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14585702",
+          "priority_basis": "dated_baptism_before_1800",
+          "status": "pending_reconciliation"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4585815",
+          "source_file": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+          "source_pointer": "#/records/SCOT~1OPR~1BAP~14585815",
+          "priority_basis": "dated_baptism_before_1800",
+          "status": "pending_reconciliation"
+        }
+      ]
     }
   }
 }

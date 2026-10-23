@@ -8,6 +8,8 @@ Reviewed 23 October 2026.
 
 The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 ## Father confidence review, seventh batch — 22 October 2026
 
 [Glasgow-1382](https://www.wikitree.com/wiki/Glasgow-1382) remains the selected father, assessed **71% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -43,3 +45,17 @@ Catharine’s 1780 Livingston citation and the ordered local Thomas/Christine fa
 - [fmp-record-scot-opr-bap-4152175](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152175&tab=this).
 - [fmp-record-r-685841001](https://www.findmypast.co.uk/transcript?id=R_685841001&tab=this).
 - ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1R2-KBV : 11 February 2020), Catharine Glasgow, 1780.](https://familysearch.org/ark:/61903/1:1:X1R2-KBV).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Subject: existing Catharine, companion baptism index; exact birth is separately indexed 20 August 1780. Companion index of Catharine’s 31 August 1780 Livingston baptism, father Thomas Glasgow and mother Christian Davidson. The detailed OPR SCOT/OPR/BAP/4152175 separately gives birth 20 August. This entry adds no new birth date or relationship; the adult Thomas identification retains its current assessment.
+
+Role in this account: Weak compatible candidate only; no event or parent assignment. HOLD — Two entries index one Catherine Lang Glasgow baptism on 12 March 1796 at Glasgow; parents are blank and no distinct birth date is given. The indexed 1796 birth year may be baptism-derived. Catharine Glasgow-1451 was born in 1780 and could undergo a later baptism, but Lang and repeat baptism are unexplained. Catherine Glasgow-1224 has a broad pre-1805 birth bound and a later Kirknewton baptism; neither missing parents nor uncertain dates exclude her. Original entry must resolve age, natal/married name and family. No new person is proposed.
+
+- [Findmypast R_692403358](https://www.findmypast.co.uk/transcript?id=R_692403358&tab=this).
+- [Findmypast R_687412119](https://www.findmypast.co.uk/transcript?id=R_687412119&tab=this).
+- [Findmypast R_689717829](https://www.findmypast.co.uk/transcript?id=R_689717829&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

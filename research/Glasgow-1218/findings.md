@@ -10,6 +10,8 @@ Reviewed 23 October 2026.
 
 The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow and father David, Kelso militia list, 1798: Uncertain birth before 13 April 1744 at Stitchel and regional context are compatible with the father David. This is an upper birth bound, not an exact year; the public link to James-1222 is tree-only and no occupation bridge is checked. The original explicitly describes James as son of David Glasgow. James-1222 and David-1218 are compatible regional/chronological candidates, but neither identity is proved; their existing Wiki Tree father link does not independently identify this newspaper family. No certainty upgrade or live parent change is justified. No family or life-date change follows.
@@ -85,3 +87,13 @@ David Glasgow was the father of a family at Kelso; he is recorded as baptised at
 - [fmp-record-r-686575880](https://www.findmypast.co.uk/transcript?id=R_686575880&tab=this).
 - [Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-315304/andrew-glasgow-in-scotland-births-baptisms.](https://www.myheritage.com/research/record-30226-315304/andrew-glasgow-in-scotland-births-baptisms.).
 - [https://www.familysearch.org/ark:/61903/1:1:FMMQ-472](https://www.familysearch.org/ark:/61903/1:1:FMMQ-472).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Weak alternative candidate only; no death assigned. HOLD — David Glasgow, coach man, No 50 North Back of Canongate, buried 15 October 1822 at Leith, age 60, OPR 692/2/33 item 2 page 127. No exact death date or relatives. Birth 1762 is age-derived. Glasgow-3458’s now-refined 24 October 1765 birth would make him 56, nearly 57; reported age alone need not exclude him, but no trade/address bridge identifies him. Glasgow-1218 is a weak earlier-born alternative; Glasgow-1228’s exact 1742 birth gives age 80, a major mismatch. Undated holding points Glasgow-145/Glasgow-981 remain unexcluded but have no discriminating details. Country is literally blank in the index; Scotland is a reviewed geographic classification from Leith/Midlothian. No new person is proposed.
+
+- [Findmypast SCOT/OPR/BUR/1683792](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1683792&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

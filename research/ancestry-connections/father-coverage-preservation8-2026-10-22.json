@@ -292,15 +292,17 @@
     },
     "Glasgow-3348": {
       "current_sha256": "5f9558d2b399253bf1bc718d0b504a57c9d5a1b77096b7d8ca5fbadcf9ca4b02",
-      "proposed_sha256": "3e75874db8445365bd6236ef60b155020cf24d057993453680ad86bf007d660d",
+      "proposed_sha256": "f158a50c56b72c4cd368e28a5081d391bbcb0078b4ce3591802f381aa8260165",
       "previous_proposed_sha256": "5f9558d2b399253bf1bc718d0b504a57c9d5a1b77096b7d8ca5fbadcf9ca4b02",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-3348.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3348/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured 1798 David account and Thomas Glasgow-1620/Margaret Chapman-28491 links retained; complete prior 96% father assessment and FamilySearch VQ4K-TPD citation retained. Two Findmypast OPR 690/3 transcripts add 22 June birth, 10 July baptism, Thos Glasgow plowman, Mary Chapman and Clifton residence; companion indexes retain Mary-or-Margaret wording. The attached Margaret is stated as unresolved against recorded Mary; no parent amendment or father-confidence change. The captured Unsourced template is removed because direct record citations now source the biography.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-3096": {
       "current_sha256": "dd2df99f18eb07ed42e7165656cf10eec3cdadd03d5bcd80739de600269adf0c",

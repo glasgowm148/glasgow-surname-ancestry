@@ -6,6 +6,12 @@ Current father assessment (22 October 2026): **55% (possible)** for [Glasgow-345
 
 David’s specific 1744 index fits the inherited Robert/Mary Borland family and a plausible paternal age about twenty, but the father’s 1724 birth is unsupported and this account may duplicate another Robert/Borland family. Complete selected father-profile proposition; recorded role and adult identification distinguished below.
 
+The inspected Findmypast transcript records David's **29 July 1744 baptism** at Ayr and names Robert Glasgow and Mary Borland. It gives only birth year 1744, so the existing **20 July 1744 birth** is neither confirmed nor refuted and needs its separate source checked. The original register image remains uninspected; the father-to-adult profile assessment stays at 55% (possible).
+
+## Birth and baptism review — 23 October 2026
+
+[Findmypast parish transcript R_692915698](https://www.findmypast.co.uk/transcript?id=R_692915698&tab=this) indexes David Glasgow's baptism on 29 July 1744 in Ayr, with father Robert Glasgow and mother Mary Borland. It has no distinct birth day. Retain the recorded 20 July profile birth provisionally, seek its source, and do not use the baptism day as a replacement birth date. The named Robert's identification with [Glasgow-3457](https://www.wikitree.com/wiki/Glasgow-3457) remains possible at 55%; the mother's profile identity and attachment require separate assessment. Compare the original entry, Glasgow-2474, and the Borland profiles before making a structural change.
+
 ## Father confidence review, seventh batch — 22 October 2026
 
 [Glasgow-3457](https://www.wikitree.com/wiki/Glasgow-3457) remains the selected father, assessed **55% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.

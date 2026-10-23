@@ -3,18 +3,18 @@
   "blockers": [],
   "counts": {
     "decision_statuses": {
-      "existing_profile:n/a": 140,
+      "existing_profile:n/a": 141,
       "free_space:READY": 2,
-      "new_person:HOLD": 10,
+      "new_person:HOLD": 9,
       "new_person:READY": 22
     },
     "decisions": {
-      "existing_profile": 140,
+      "existing_profile": 141,
       "free_space": 2,
-      "new_person": 32
+      "new_person": 31
     },
     "matched_audit_groups": 174,
-    "override_groups": 164,
+    "override_groups": 165,
     "substantive_existing_amendments": 15,
     "validated_person_groups": 174
   },
@@ -2371,17 +2371,17 @@
     },
     {
       "candidate_count": 0,
-      "creation_status": "HOLD",
-      "decision_source": "unresolved_candidate_audit",
+      "creation_status": "",
+      "decision_source": "human_override",
       "event_year_start": 1720,
       "group_id": "fmp-glasgow-ce7a886e0868",
-      "handoff_path": "surname-research/new-people/1720_Scotland_Libberton_Agnes_Glasgow.md",
+      "handoff_path": "",
       "match_audit_present": true,
       "name": "Agnes Glasgow",
-      "notes": "Compatible candidates and identity-match review remain pending; a new-person recommendation requires reviewed concrete conflicts excluding existing people. Empty search results or missing fields do not establish a distinct person.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "Glasgow-4133 already represents Agnes Glasgow baptised 21 August 1720 at Libberton in Findmypast SCOT/OPR/BAP/4033335, OPR 650/1 item 3 p.11. The record names Robert Glasgow and Katherine Wilson and gives residence Gladhaimb; R_684955704 and R_693522269 index the same event. Retire the duplicate creation suggestion and retain its source evidence. Whether Watson-53558 represents the indexed Katherine Wilson is unresolved; this reconciliation proposes no parent attachment or vital change.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4133",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
       "supplement_id": "fmp-glasgow-ce7a886e0868"
@@ -3020,5 +3020,5 @@
   },
   "source_audit_complete_and_reconciled": false,
   "source_audit_label": "INCOMPLETE",
-  "source_snapshot_sha256": "36e31daedf9e9ce5c14caf3d77cb6f23b736f36b44d7bf387fffe496219e9898"
+  "source_snapshot_sha256": "602c82b00f1e5706f8fc2d2f04264a8e2b282c6035487c3e9473448097f5ae4c"
 }

@@ -11,6 +11,8 @@ Reviewed 23 October 2026.
 
 The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7184f110373c
 
 The transcript-validated baptism record for **Thomas Glasgow**, 02 Feb 1746, Livingston, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -53,3 +55,13 @@ Father reviewed22October2026: Glasgow-1023 remains selected at 98% (proved). Tho
 - [fmp-record-r-685841001](https://www.findmypast.co.uk/transcript?id=R_685841001&tab=this).
 - ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:X1R2-KBV : 11 February 2020), Catharine Glasgow, 1780.](https://familysearch.org/ark:/61903/1:1:X1R2-KBV).
 - [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Thomas Glasgow, 02 Feb 1746, record SCOT/OPR/BAP/4151556](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151556&tab=this).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Named Thomas father; existing assessed adult-profile comparison retained without regrading. Companion index of Catharine’s 31 August 1780 Livingston baptism, father Thomas Glasgow and mother Christian Davidson. The detailed OPR SCOT/OPR/BAP/4152175 separately gives birth 20 August. This entry adds no new birth date or relationship; the adult Thomas identification retains its current assessment.
+
+- [Findmypast R_692403358](https://www.findmypast.co.uk/transcript?id=R_692403358&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

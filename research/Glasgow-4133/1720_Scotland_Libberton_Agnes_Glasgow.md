@@ -1,9 +1,9 @@
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-ce7a886e0868 -->
-> **CREATED:** [Agnes Glasgow (Glasgow-4133)](https://www.wikitree.com/wiki/Glasgow-4133)
+> **RECONCILED 23 October 2026:** [Agnes Glasgow (Glasgow-4133)](https://www.wikitree.com/wiki/Glasgow-4133) already represents this record. This retained handoff is historical evidence, not a profile-creation draft.
 
 # Agnes Glasgow, 21 Aug 1720
 
-## Minimum creation fields
+## Recorded facts
 
 - **Name:** Agnes Glasgow
 - **Gender:** Female (existing uncertain field; R_ indexes state Female, detailed OPR transcript does not state sex)
@@ -15,7 +15,7 @@
 - **Stable research ID:** `fmp-glasgow-ce7a886e0868`
 - **Findmypast record IDs:** SCOT/OPR/BAP/4033335; R_684955704; R_693522269
 
-## Paste-ready biography
+## Biography evidence retained for the existing profile
 
 [[Category:Glasgow Name Study]]
 {{Estimated Date}}

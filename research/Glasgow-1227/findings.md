@@ -8,6 +8,8 @@ Abraham's 1741 marriage to Janet Cunningham has an indexed Scottish marriage lea
 
 The 1786 Abraham baptism remains compatible with this earlier man; identity is unresolved and the former new-person recommendation has been withdrawn.
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 ## Source findings
 
 [FamilySearch, “Scotland Marriages, 1561–1910,” Abraham Glasgow marriage, 1741](https://familysearch.org/ark:/61903/1:1:XY7B-CZV).
@@ -65,3 +67,13 @@ HOLD — no new person is proposed. The companion Glasgow indexes report birth y
 
 Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Named Abraham father; existing adult-profile assessment 95% preserved. David Glasgow birth 12 May 1742, baptism 23 May 1742, Livingston, residence Daviston, Abraham Glasgow and Janet Cunnyngham; OPR 669/1 item 4. Exact provider record already belongs to Glasgow-1228. Refine the former before-23-May birth to the separately indexed 12 May; baptism remains 23 May. No relationship regrading; father remains 95%. Place/residence does not independently prove birthplace.
+
+- [Findmypast SCOT/OPR/BAP/4151485](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151485&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

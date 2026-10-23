@@ -1,0 +1,83 @@
+{
+  "captured_records": 141,
+  "page7_records": 20,
+  "source_readers_checked": 141,
+  "held_1742_source_reused": "s-8b393c39a4f79440",
+  "birth_corrections": {
+    "Glasgow-1228": "1742-05-12",
+    "Glasgow-3458": "1765-10-24",
+    "Glasgow-3348": "1798-06-22"
+  },
+  "distinct_baptisms_checked": 4,
+  "selected_father_grades_preserved": {
+    "Glasgow-1228": 0.95,
+    "Glasgow-3456": 0.55,
+    "Glasgow-3458": 0.66,
+    "Glasgow-3348": 0.96
+  },
+  "global_search_rows_compared": 4870,
+  "retired_agnes_redirect": "Glasgow-4133",
+  "coverage": "INCOMPLETE",
+  "next_query_page": 8,
+  "publication_check": {
+    "selected_profile_ids": [
+      "Cunningham-20925",
+      "Davidson-14073",
+      "Glasgow-1218",
+      "Glasgow-1224",
+      "Glasgow-1227",
+      "Glasgow-1228",
+      "Glasgow-1235",
+      "Glasgow-1337",
+      "Glasgow-1382",
+      "Glasgow-1451",
+      "Glasgow-1620",
+      "Glasgow-2972",
+      "Glasgow-3328",
+      "Glasgow-3348",
+      "Glasgow-3456",
+      "Glasgow-3457",
+      "Glasgow-3458",
+      "Glasgow-3492",
+      "Glasgow-3543",
+      "Glasgow-3896",
+      "Glasgow-4133",
+      "Meek-3817",
+      "Ormistoun-12",
+      "Unknown-695645"
+    ],
+    "files_checked": 24,
+    "failing_items": 0,
+    "log": "/tmp/fmp-page7-publication-all.log"
+  },
+  "link_check": {
+    "exit_code": 0,
+    "log": "/tmp/fmp-page7-links-final.log",
+    "scope": "fulllocalbuiltwebsite;existingbaselinekept"
+  },
+  "workflow_audit": {
+    "page7_rows": 20,
+    "redundant_refetches": 2,
+    "previously_cached_ids": [
+      "SCOT/OPR/BAP/4151485",
+      "R_693244874"
+    ],
+    "first_seen_transcript_ids_in_this_page": 18,
+    "highlighted_first_seen_fact_groups": 7,
+    "previously_held_fact_groups_newly_integrated": 3,
+    "new_existing_profile_birth_corrections_total": 7,
+    "ready_new_person_drafts_in_birth_audit": 1,
+    "live_person_creations": 0,
+    "new_existing_profile_family_edges": 0,
+    "stale_creation_cases_reconciled": 6,
+    "next_offline_review_priorities": 65,
+    "overall_completion": "unproven/incomplete;2.4%appliestocurrent5872resultBMDqueryonly",
+    "workflow_fix_commit": "663846d02e6"
+  },
+  "source_levels": {
+    "provider_transcripts_in_captured_review": 141,
+    "derivative_abstract_images_inspected": 1,
+    "original_parish_register_images_inspected": 0,
+    "original_census_sheets_inspected": 0
+  }
+}

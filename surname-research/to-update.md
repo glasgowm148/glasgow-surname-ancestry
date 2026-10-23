@@ -4067,3 +4067,21 @@ Sixty provider transcripts are indexed under existing subjects, qualified candid
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3313) | OPEN | Add the interpreted parish household evidence. Existing father 51% → 82% (probable); retain the stated identity limits. |
 | [Ann (Glasgow) Douglas](https://www.wikitree.com/wiki/Glasgow-3468) | OPEN | Add the interpreted parish household evidence. Existing father 63% → 96% (confident); retain the stated identity limits. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-81) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
+
+## Findmypast page 7 — 23 October 2026
+
+Twenty provider transcripts are reviewed in fifteen documentary groups. Existing subjects, compatible comparisons and source-only identity/natal-surname HOLDs remain distinct; no new person is proposed. Three exact birth dates are separated from baptism. The stale Agnes creation case now resolves to existing Glasgow-4133, retaining genuine pending amendments. Search coverage remains INCOMPLETE:140 rows onpages 1–7 plus one supporting transcript; page 8 onward and other windows/categories remain.
+
+| [David Glasgow](https://www.wikitree.com/wiki/Glasgow-1228) | OPEN | David Glasgow-1228: indexed birth 1742-05-12; distinct indexed baptism 1742-05-23. Birth refined from before 1742-05-23. Retain complete sourced proposal and distinct baptism. |
+| [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3458) | OPEN | David Glasgow-3458: indexed birth 1765-10-24; distinct indexed baptism 1765-11-02. Birth refined from 1765-11-24. Retain complete sourced proposal and distinct baptism. |
+| [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3348) | OPEN | David Glasgow-3348: indexed birth 1798-06-22; distinct indexed baptism 1798-07-10. Birth refined from 1798-07-10. Retain complete sourced proposal and distinct baptism. |
+
+[Current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Local synchronization only; no live WikiTree edit or deployment.
+
+
+### Held family confidence review —23October2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Nancy Annie Glasgow](https://www.wikitree.com/wiki/Glasgow-370) | OPEN | Existing father James634: 73% →96% confident; complete sourced draft, retained birth/source limits; no live save. |
+| [Elizabeth Glasgow Martin](https://www.wikitree.com/wiki/Glasgow-2055) | OPEN | Existing father James634: 66% →93% confident; complete sourced draft, retained birth/source limits; no live save. |

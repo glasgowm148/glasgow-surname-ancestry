@@ -583,7 +583,7 @@ Source scrape/transcript audit remains **INCOMPLETE**; this section covers only 
 | `fmp-glasgow-a4ce003c4e60` | Abraham Glasgow, 29 Mar 1719, Uphall | `SCOT/OPR/BAP/4166341` | existing_profile: Glasgow-1227 |
 | `fmp-glasgow-4d80ed611866` | George Glasgow, 09 Oct 1719, Kilwinning | `SCOT/OPR/BAP/3626468` | existing_profile: Glasgow-1070 |
 | `fmp-glasgow-364d183e66d6` | Grizal Glasgow, 17 May 1719, Irvine | `SCOT/OPR/BAP/3573476` | existing_profile: Glasgow-1474 |
-| `fmp-glasgow-ce7a886e0868` | Agnes Glasgow, 21 Aug 1720, Libberton | `SCOT/OPR/BAP/4033335` | new_person: research/Glasgow-4133/1720_Scotland_Libberton_Agnes_Glasgow.md |
+| `fmp-glasgow-ce7a886e0868` | Agnes Glasgow, 21 Aug 1720, Libberton | `SCOT/OPR/BAP/4033335` | existing_profile: Glasgow-4133; retained [historical handoff](../../research/Glasgow-4133/1720_Scotland_Libberton_Agnes_Glasgow.md) |
 | `fmp-glasgow-ebd70b997fb0` | John Glasgow, 06 Mar 1720, Kilwinning | `SCOT/OPR/BAP/3626495` | existing_profile: Glasgow-1930 |
 | `fmp-glasgow-e8632f9cbc2d` | Margaret Glasgow, 17 Jan 1720, Irvine | `SCOT/OPR/BAP/3573536` | existing_profile: Glasgow-3424 |
 | `fmp-glasgow-c5f9840e310b` | James Glasgow, 11 Apr 1721, Irvine | `SCOT/OPR/BAP/3573667` | new_person: research/Glasgow-4129/1721_Scotland_Irvine_James_Glasgow.md |

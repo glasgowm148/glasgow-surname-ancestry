@@ -5,6 +5,8 @@
 <!-- site-audit-2026-10-07:overall-conclusion -->
 No record has yet been securely identified with this Robert Glasgow. Two newspaper subjects compared with him were withdrawn on 6 October 2026. The Robert Glasgow sentenced to death at the Old Bailey in 1751 was, according to the Ordinary's Account, a butcher aged 28 born at Chipping Ongar, Essex, who was hanged at Tyburn; the 1754 master of the snow John and Archibald of Glasgow is already the subject of another profile, Robert Glasgow (Glasgow-2867).
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 ## Current conclusion — original newspaper batch, 5 October 2026
 
 Robert Glasgow, Old Bailey and Newgate reports, 1751: Chronologically possible, about 27; no direct record linkage. Public dossier has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert. Earlier records are prior research context, not newly inspected originals. The two reports refer to the same named robbery case. No existing profile supplies an identity bridge. The 1754 master is kept as a separate documentary subject; the execution order does not prove Robert’s death. No relationship or life-date amendment follows.
@@ -65,3 +67,13 @@ The judgment and later order for execution are separate reports. An order for ex
 
 This may concern [Glasgow-3457](https://www.wikitree.com/wiki/Glasgow-3457). Chronologically possible, about 27; no direct record linkage. The account has a FamilySearch baptism citation for David Glasgow in 1744 and unverified tree spouse/child links; no occupational finding for Robert.
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Named Robert father; existing possible adult-profile assessment 55% preserved. David Glasgow baptism 29 July 1744, Ayr, Robert Glasgow and Mary Borland, matches the existing 1744 family account for Glasgow-3456. This transcript gives birth year only; it does not prove or refute the catalogue’s separate 20 July birth. Preserve that field with its source question. Named Mary Borland is not a newly identified mother profile. Robert’s adult-profile assessment remains 55%.
+
+- [Findmypast R_692915698](https://www.findmypast.co.uk/transcript?id=R_692915698&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

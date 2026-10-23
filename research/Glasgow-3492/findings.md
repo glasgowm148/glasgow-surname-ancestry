@@ -8,6 +8,8 @@ Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-301
 
 The 15 February 1708 Glencorse baptism directly names Christian's parents as Robert Glasgow and Margaret Davidson. It does not identify that Robert as `Glasgow-2867`, the 1754 master of the *John and Archibald*; retain that shipmaster identification as uncertain. `Glasgow-3011` is the probable Glencorse-father candidate, not a proved identification.
 
+Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
+
 ## Source findings
 
 | Source | Finding | Assessment |
@@ -35,3 +37,13 @@ Next useful test: Seek a 1704 marriage/baptism original identifying Robert’s o
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [“Scotland, Births and Baptisms, 1564–1950,” database, FamilySearch, Christian Glasgow, 15 February 1708 (https://www.familysearch.org/ark:/61903/1:1:VQ4J-CB3).](https://www.familysearch.org/ark:/61903/1:1:VQ4J-CB3)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+## Findmypast page 7 record review — 23 October 2026
+
+Role in this account: Remote compatible adult-baptism candidate only. HOLD — Christian Glasgow baptism, October 1781, Glasgow; no day, age, separate birth date or parents. The indexed birth year may derive from baptism and does not establish infancy or natal surname. Christian Meek-3817 (estimated c.1730, married Glasgow), Glasgow-3328 (1740 Larne household), Glasgow-1337 (1713 baptism) and Glasgow-3492 (1708 baptism) are unexcluded adult-baptism comparisons with no identifying Scottish family/residence bridge. No event or parents are assigned to them and no new person is proposed.
+
+- [Findmypast R_690417020](https://www.findmypast.co.uk/transcript?id=R_690417020&tab=this).
+
+[Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
+<!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->

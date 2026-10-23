@@ -299,15 +299,17 @@
     },
     "Glasgow-1228": {
       "current_sha256": "19330fadf049c69e3fe43e9da286e93f4b8a38c79aaae5ec39a871f399a4e1b9",
-      "proposed_sha256": "c8878157c97ae6434b9846c9331eaa33e442d134063b4e379fdcef3022d844ce",
+      "proposed_sha256": "f2d3b193022217fa8d47e77928177bbd90a6b7833ea9c33c801e9161bf8d8217",
       "previous_proposed_sha256": "19330fadf049c69e3fe43e9da286e93f4b8a38c79aaae5ec39a871f399a4e1b9",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1228.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1228/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured Abraham Glasgow-1227 and Janet Cunnyngham-118, about-1742 chronology, all three FamilySearch URLs and the complete prior father review retained. Findmypast OPR 669/1 transcript replaces the approximate birth statement with 12 May 1742 birth and 23 May baptism, Daviston residence and literal parent names. Father remains 95%; the 1719 Abraham child-to-adult bridge remains inferred. The builder retains the Estimated Date template present in the prior proposal, even though the revised prose now supplies an exact transcript birth date.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-1225": {
       "current_sha256": "16b2642bd84af24735a97377f5a0dcde0f31e1a4bf851af62ce6ff01a301d6a2",
@@ -419,15 +421,17 @@
     },
     "Glasgow-3456": {
       "current_sha256": "b77fee831afceebdfd8e1a11083db03124f9f6f75c44eb27f63b40390e6c7c5e",
-      "proposed_sha256": "ab53f23d3faf8436a398b4d66572194d2a335f9050d0143892041824db65bb3a",
+      "proposed_sha256": "6d5742042640abacc7f3680b5ff9fe14a96cc395aa404f9bb7a2d2a18883ab24",
       "previous_proposed_sha256": "b77fee831afceebdfd8e1a11083db03124f9f6f75c44eb27f63b40390e6c7c5e",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3456.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3456/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured 1744 David account and FamilySearch XY88-4FC citation retained; prior selected Robert Glasgow-3457 relationship, 55% assessment, duplicate-family caveat and source basis retained. Added 29 July 1744 Ayr baptism and recorded Robert Glasgow/Mary Borland from Findmypast R_692915698. The source gives no separate birth day, so existing profile date 20 July is retained explicitly as unverified and not promoted to a transcript fact. No parent attachment or father-confidence change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-3945": {
       "current_sha256": "a466e37ea068fbb58036f06f8f0b7c01895ebb35e5543394ac53c0d0dac5f634",
@@ -1070,15 +1074,17 @@
     },
     "Glasgow-3458": {
       "current_sha256": "921e61ffe27721483f1be3cf37262141c9f40c658bd7768c1cddb2366b06ce89",
-      "proposed_sha256": "6491b48c03b53174203b8e5cc11065f5fc37aa5e3a0776945d79ce647c61d112",
+      "proposed_sha256": "8c6965c68261b44e1d23fa8f57fcff2fcc76459c45a8802a255c3edb58808e33",
       "previous_proposed_sha256": "921e61ffe27721483f1be3cf37262141c9f40c658bd7768c1cddb2366b06ce89",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3458.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3458/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Captured 1765 David account, Abraham Glasgow-1235/May Ormistoun-12 links and FamilySearch XY7P-43J citation retained; prior 66% father assessment and adult-identity limit retained. Findmypast OPR 685_2/8 adds birth 24 October and baptism 2 November 1765, named parents Abraham Glasgow/May Ormiston, wright occupation and Pleasance residence. The prior imprecise year is superseded by the transcript; its Edinburgh place does not separately prove the exact birthplace or adult Abraham identity. The earlier St Cuthberts citation remains in the source basis.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     },
     "Glasgow-3292": {
       "current_sha256": "3a88cbfa42c74d0bbcf615504932d5a05195a3fd60dfffdb5f20db1c526e979a",

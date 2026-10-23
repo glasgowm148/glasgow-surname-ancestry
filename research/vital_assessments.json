@@ -874,6 +874,123 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "david-glasgow-1228-fmp-birth-20261023",
+      "subject": "Glasgow-1228",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date correction only",
+      "basis": "The maintained Findmypast citation is already assigned to Glasgow-1228; Abraham Glasgow and Janet Cunnyngham, Livingston and Daviston match its family account. Correct reviewed birth to 1742-05-12; retain baptism as 23 May 1742. Existing place should remain a separately qualified profile field because transcript Place/Residence do not explicitly label birthplace. Named parents in transcript; no new relationship grade or adult Abraham identification inferred. Original parish register image not inspected.",
+      "source": {
+        "url": "/people/glasgow-1228.json",
+        "section": "research_findings / Birth and baptism review — 23 October 2026"
+      },
+      "summary": "David Glasgow-1228: indexed birth 1742-05-12; distinct indexed baptism 1742-05-23. Birth refined from before 1742-05-23.",
+      "vitals": {
+        "birth": {
+          "date": "1742-05-12",
+          "place": "Livingston, West Lothian, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without independently asserting birthplace.",
+          "note": "The maintained Findmypast citation is already assigned to Glasgow-1228; Abraham Glasgow and Janet Cunnyngham, Livingston and Daviston match its family account. Correct reviewed birth to 1742-05-12; retain baptism as 23 May 1742. Existing place should remain a separately qualified profile field because transcript Place/Residence do not explicitly label birthplace. Named parents in transcript; no new relationship grade or adult Abraham identification inferred. Original parish register image not inspected.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151485&tab=this",
+          "source_level": "inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1742-05-12",
+        "birth_year": 1742,
+        "birth_note": "Exact birth date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without independently asserting birthplace.",
+        "date_years": [
+          1742
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "david-glasgow-3458-fmp-birth-20261023",
+      "subject": "Glasgow-3458",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date correction only",
+      "basis": "Abraham Glasgow, May Ormiston/Ormistoun, St Cuthberts/Edinburgh and the 1765 event match Glasgow-3458 and its existing FamilySearch source; the transcript adds father’s wright occupation and Pleasance residence. Correct reviewed birth from 1765-11-24 to 1765-10-24; record baptism as 2 November 1765. Keep the existing place qualified as Place/Residence, not independently proved birthplace. The named father and mother identify the record child; do not upgrade the adult father Abraham-1235 identification or its existing 66% probable grade. Original parish register image not inspected.",
+      "source": {
+        "url": "/people/glasgow-3458.json",
+        "section": "research_findings / Birth and baptism review — 23 October 2026"
+      },
+      "summary": "David Glasgow-3458: indexed birth 1765-10-24; distinct indexed baptism 1765-11-02. Birth refined from 1765-11-24.",
+      "vitals": {
+        "birth": {
+          "date": "1765-10-24",
+          "place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without independently asserting birthplace.",
+          "note": "Abraham Glasgow, May Ormiston/Ormistoun, St Cuthberts/Edinburgh and the 1765 event match Glasgow-3458 and its existing FamilySearch source; the transcript adds father’s wright occupation and Pleasance residence. Correct reviewed birth from 1765-11-24 to 1765-10-24; record baptism as 2 November 1765. Keep the existing place qualified as Place/Residence, not independently proved birthplace. The named father and mother identify the record child; do not upgrade the adult father Abraham-1235 identification or its existing 66% probable grade. Original parish register image not inspected.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0729726&tab=this",
+          "source_level": "inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1765-10-24",
+        "birth_year": 1765,
+        "birth_note": "Exact birth date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without independently asserting birthplace.",
+        "date_years": [
+          1765
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "david-glasgow-3348-fmp-birth-20261023",
+      "subject": "Glasgow-3348",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date correction only",
+      "basis": "Thomas/Thos Glasgow, Chapman mother, Kirknewton/East Calder and 10 July baptism match Glasgow-3348’s held FamilySearch citation. OPR page 45 birth-only transcript and page 15 baptism transcript give the same 22 June birth, parents and Clifton residence. Correct reviewed birth from baptism date 1798-07-10 to 1798-06-22; retain 10 July as baptism. Treat the four indexed entries as one child/event cluster, not four independent witnesses. OPR entries give mother Mary Chapman; derivative R_686208988 and R_691906855 say “Mary Or Margaret” and the attached profile is Margaret Chapman-28491. Preserve and qualify that maternal identity pending register-image review; do not alter father Thomas-1620 or his existing 96% proved grade. Original parish register image not inspected.",
+      "source": {
+        "url": "/people/glasgow-3348.json",
+        "section": "research_findings / Birth and baptism review — 23 October 2026"
+      },
+      "summary": "David Glasgow-3348: indexed birth 1798-06-22; distinct indexed baptism 1798-07-10. Birth refined from 1798-07-10.",
+      "vitals": {
+        "birth": {
+          "date": "1798-06-22",
+          "place": "Kirknewton and East Calder, Midlothian, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without independently asserting birthplace.",
+          "note": "Thomas/Thos Glasgow, Chapman mother, Kirknewton/East Calder and 10 July baptism match Glasgow-3348’s held FamilySearch citation. OPR page 45 birth-only transcript and page 15 baptism transcript give the same 22 June birth, parents and Clifton residence. Correct reviewed birth from baptism date 1798-07-10 to 1798-06-22; retain 10 July as baptism. Treat the four indexed entries as one child/event cluster, not four independent witnesses. OPR entries give mother Mary Chapman; derivative R_686208988 and R_691906855 say “Mary Or Margaret” and the attached profile is Margaret Chapman-28491. Preserve and qualify that maternal identity pending register-image review; do not alter father Thomas-1620 or his existing 96% proved grade. Original parish register image not inspected.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478206&tab=this",
+          "source_level": "inspected provider transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1798-06-22",
+        "birth_year": 1798,
+        "birth_note": "Exact birth date in inspected Findmypast derivative transcript; original parish register image uninspected. Existing place carried forward without independently asserting birthplace.",
+        "date_years": [
+          1798
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }
