@@ -53086,6 +53086,72 @@
           "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151237&tab=this"
         }
       ]
+    },
+    {
+      "id": "maryland-smith-county-family-review-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-2492.html",
+      "finding": "The inspected NCpedia family passages strengthen Secretary James-634’s existing father Patrick-635 from 47% to 95%, and son James-2492’s existing father from 65% to 94%. Select the Smith County James as Wesley Guynn-2476’s possible working father at 35%, joining his previously unattached household with explicit low confidence.",
+      "qualification": "The first two are stronger assessments of existing fathers, not new attachments. The third is a new contextual hypothesis, with no named-parent clause. Late biographical evidence and reused census citations have different evidential scope. No original will or census image was newly read; all vital, maternal and prior child fields remain unchanged. No live WikiTree save.",
+      "people": [
+        {
+          "id": "Glasgow-635",
+          "name": "Rev. Patrick Glasgow",
+          "url": "/people/glasgow-635.html"
+        },
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow, North Carolina secretary",
+          "url": "/people/glasgow-634.html"
+        },
+        {
+          "id": "Glasgow-2492",
+          "name": "James Glasgow, Smith County",
+          "url": "/people/glasgow-2492.html"
+        },
+        {
+          "id": "Glasgow-2476",
+          "name": "Wesley Guynn Glasgow",
+          "url": "/people/glasgow-2476.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986); NCpedia revision December 2022",
+          "url": "https://www.ncpedia.org/biography/glasgow-james"
+        },
+        {
+          "title": "Wesley’s retained 1850 Smith County census citation; image access blocked",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:MCDC-2BM"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-634",
+          "relative": "Glasgow-635",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "47% → 95%; existing father retained after inspecting the biographical family passages. Local assessment upgrade; no live WikiTree flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022c-glasgow-634-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2492",
+          "relative": "Glasgow-634",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "65% → 94%; existing father retained after inspecting the biographical family passages. Local assessment upgrade; no live WikiTree flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-2492-father assessment_history"
+          ]
+        }
+      ]
     }
   ]
 }

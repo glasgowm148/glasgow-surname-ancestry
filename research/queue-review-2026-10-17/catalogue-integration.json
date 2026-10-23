@@ -6293,8 +6293,8 @@
     },
     "Glasgow-634": {
       "draft_path": "research/Glasgow-634/father-confidence-2026-10-22c.wiki",
-      "summary": "Add the cited record accounts: Possible James Glasgow, Hackman affair witness, 1779; Possible James Glasgow, Lancaster postal addressee, 1773; Possible James Glasgow, Marsh creek Carlisle list, 1795; and 3 other record accounts. Retain the stated identity and relationship limits. Review existing father at 47% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the cited record accounts: Possible James Glasgow, Hackman affair witness, 1779; Possible James Glasgow, Lancaster postal addressee, 1773; Possible James Glasgow, Marsh creek Carlisle list, 1795; and 3 other record accounts. Retain the stated identity and relationship limits. Review existing father at 47% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question.",
+      "work_queue_summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -6311,19 +6311,19 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-634",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-635",
-          "status": "possible",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 47,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022c-glasgow-634-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Possible 47%; named pedigree retained, without promoting the Lancaster addressee as parent evidence."
+          "scope": "95% assesses the complete immediate father–child profile pair from a specific named-father statement and the already reviewed clerical identity. NCpedia is a late scholarly biography, not a contemporary baptism, and the church histories may be among its underlying sources. The minister’s unsupported circa-1680 Irish birth and possible 1700 West Kilbride identity remain separate. His selected upstream father stays at 26%. The article’s Martha Jones name differs from the retained Mary Jones mother label; no mother is renamed, attached or regraded. The 1819 will and eighteenth-century family originals were not inspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -6331,7 +6331,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "significance": 86
     },
     "Glasgow-649": {
       "queued_at": "2026-10-20",
@@ -22350,23 +22351,35 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-2492/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-2492/findings.md",
-      "summary": "Review existing father at 65% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 65% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause.",
+      "work_queue_summary": "Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-634",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 65,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022g-glasgow-2492-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+          "scope": "94% assesses this existing father–child profile pair, including the assignment of the named son to the Smith County adult. The article is one late secondary account; its son list and executor statement are not independent witnesses. The Smith County adult continuity is inferred, and a mistaken same-name assignment remains possible. The article cites Davidson County Wills and Inventories volume 7, 1816–1821, but the original 1819 will has not been read. Existing dates, mother and all other relatives are retained."
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-2476",
+          "status": "possible",
+          "probability_percent": 35,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "WikiTree Family section for Glasgow-2476 inspected 23 October 2026: both parents unknown; pre-batch local dossier has no retained father. The public biography and its cited sources were also checked.",
+          "assertion_id": "C-working-20261023-wesley2476-james2492",
+          "scope": "35% is a subjective, low-confidence estimate for the complete father-profile hypothesis. No inspected record calls Wesley James’s son, places them in one household, transfers land between them, or names Wesley’s parents. The cited 1820/1840/1850 census images and age-band counts were not newly inspected; FamilySearch required a security challenge and the linked Ancestry record required membership. Wesley’s memorial has no parent links, dates or photograph beyond an approximate birth/death note; it is not independent parent proof. Wesley’s identification with the indexed Neely and James’s earlier North Carolina ancestry are separate propositions. An uncle or other collateral relationship, another local James, an unrepresented father, and William-2130 (broad Tennessee context without a held Smith County association) remain alternatives. No mother is selected and no relative is moved solely because of a name, naming custom or Y-DNA premise."
         }
       ],
       "preserve_captured_detail": false,
@@ -22374,7 +22387,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "significance": 86
     },
     "Glasgow-2102": {
       "profile_id": "Glasgow-2102",
@@ -40294,6 +40308,61 @@
       "draft_path": "research/Glasgow-3612/calder-working-father-2026-10-23.wiki",
       "findings_path": "research/Glasgow-3612/findings.md",
       "preservation_review_path": "research/ancestry-connections/calder-alexander-parent-preservation-2026-10-23.json",
+      "significance": 86
+    },
+    "Glasgow-635": {
+      "queued_at": "2026-10-16",
+      "status": "OPEN",
+      "significance": 85,
+      "summary": "Existing son James-634 now 95% confident from the specific biographical father clause; preserve the selected upstream father at 26% and all prior sources.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-635/Glasgow-635.md",
+      "preservation_review_path": "research/ancestry-connections/west-kilbride-manokin-working-family-preservation-2026-10-16.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "status": "uncertain",
+          "relative_id": "Glasgow-3161",
+          "assertion_id": "C-working-20261016-west-kilbride-manokin-working-family-patrick-father"
+        }
+      ],
+      "work_queue_summary": "Existing son James-634 now 95% confident from the specific biographical father clause; preserve the selected upstream father at 26% and all prior sources.",
+      "biography_rechecked_at": "2026-10-23",
+      "findings_path": "research/Glasgow-635/findings.md"
+    },
+    "Glasgow-2476": {
+      "profile_id": "Glasgow-2476",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-2492",
+          "status": "possible",
+          "probability_percent": 35,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "WikiTree Family section for Glasgow-2476 inspected 23 October 2026: both parents unknown; pre-batch local dossier has no retained father. The public biography and its cited sources were also checked.",
+          "assertion_id": "C-working-20261023-wesley2476-james2492",
+          "scope": "35% is a subjective, low-confidence estimate for the complete father-profile hypothesis. No inspected record calls Wesley James’s son, places them in one household, transfers land between them, or names Wesley’s parents. The cited 1820/1840/1850 census images and age-band counts were not newly inspected; FamilySearch required a security challenge and the linked Ancestry record required membership. Wesley’s memorial has no parent links, dates or photograph beyond an approximate birth/death note; it is not independent parent proof. Wesley’s identification with the indexed Neely and James’s earlier North Carolina ancestry are separate propositions. An uncle or other collateral relationship, another local James, an unrepresented father, and William-2130 (broad Tennessee context without a held Smith County association) remain alternatives. No mother is selected and no relative is moved solely because of a name, naming custom or Y-DNA premise."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "summary": "New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence.",
+      "work_queue_summary": "New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence.",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-2476/smith-county-working-family-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-2476/findings.md",
+      "preservation_review_path": "research/ancestry-connections/maryland-smith-county-preservation-2026-10-23.json",
       "significance": 86
     }
   },

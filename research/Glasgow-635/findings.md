@@ -5,14 +5,7 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-Reviewed: 2026-10-16
-
-**Selected uncertain Ayrshire/Maryland route, 16 October 2026:** John-3161 is placed under John-3375 through possible identity with the 1679 Kilwinning child; Rev. Patrick-635 is placed under John-3161 through the possible 1700 West Kilbride childhood. Both fathers are uncertain; the inherited 1680 minister birth conflicts if literal and is not adopted as evidence for this route. [Evidence and alternatives](/branches/early-scottish-records/#west-kilbride-manokin-working-family).
-
-The records support Reverend Patrick Glasgow's Maryland ministry from 1736 and
-death in 1753, not a birth in Ireland about 1680. A major biographical source
-for his son calls the reverend a native of Scotland. The profile should be
-removed from the seventeenth-century Irish count unless an Irish event is found.
+**Reviewed 23 October 2026:** the existing son [James Glasgow-634](/people/glasgow-634.html) is **95% confident**, from 47%, following the explicit biographical father clause and the already reviewed All Hallows career. The selected father [John-3161](/people/glasgow-3161.html) remains uncertain at 26%; neither the 1700 Scottish identity nor the inherited circa-1680 Irish birth is proved. The earlier clerical, migration and childhood evidence below retains those limits.
 
 ## Source findings
 
@@ -69,3 +62,26 @@ John Glasgow-551, associated with County Tyrone in the William Melanchthon Glasg
 - [John/Margaret Cowan household, Stevenston 1701, child John: previously reviewed FamilySearch index](https://familysearch.org/ark:/61903/1:1:XYZK-MY7)
 - [John/Margaret Cowan household, Stevenston 1706, child Adam: previously reviewed FamilySearch index](https://familysearch.org/ark:/61903/1:1:XYZV-BNR)
 - [Gordon Patrick, 4 August 1667: previously reviewed child index; alternative account](https://www.familysearch.org/ark:/61903/1:1:XTBS-98C)
+
+## Son’s biographical father clause — 23 October 2026
+
+**Existing son James-634: 47% → 95% confident.** Holloman’s inspected NCpedia biography explicitly identifies the North Carolina secretary’s father as Reverend James Patrick Glasgow, rector of All Hallows at Snow Hill. This is the distinctive father role represented by Glasgow-635, rather than a generic Glasgow addressee. The retained ministerial biography supplies the career continuity from Manokin Presbyterian ministry to All Hallows Anglican ministry, explaining the two denominations without inventing a second minister. The son’s Maryland birth and later North Carolina public career identify Glasgow-634. The earlier 47% review used the inherited relationship and postal notices without this named-parent passage.
+
+95% assesses the complete immediate father–child profile pair from a specific named-father statement and the already reviewed clerical identity. NCpedia is a late scholarly biography, not a contemporary baptism, and the church histories may be among its underlying sources. The minister’s unsupported circa-1680 Irish birth and possible 1700 West Kilbride identity remain separate. His selected upstream father stays at 26%. The article’s Martha Jones name differs from the retained Mary Jones mother label; no mother is renamed, attached or regraded. The 1819 will and eighteenth-century family originals were not inspected.
+
+[Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986), NCpedia revision December 2022](https://www.ncpedia.org/biography/glasgow-james) was read on 23 October 2026. This is a newly inspected passage in an existing citation, not a new source discovery. The original will was not inspected.
+
+[Shared family argument](/branches/early-scottish-records/#west-kilbride-manokin-working-family).
+
+**Next useful test:** Inspect Davidson County Wills and Inventories volume 7 for the secretary’s 1819 will and the named son/executor; then trace the Smith County son through deeds and probate. Compare the original Maryland family entries before changing the maternal name.
+
+### Earlier conclusion retained as history
+
+Reviewed: 2026-10-16
+
+**Selected uncertain Ayrshire/Maryland route, 16 October 2026:** John-3161 is placed under John-3375 through possible identity with the 1679 Kilwinning child; Rev. Patrick-635 is placed under John-3161 through the possible 1700 West Kilbride childhood. Both fathers are uncertain; the inherited 1680 minister birth conflicts if literal and is not adopted as evidence for this route. [Evidence and alternatives](/branches/early-scottish-records/#west-kilbride-manokin-working-family).
+
+The records support Reverend Patrick Glasgow's Maryland ministry from 1736 and
+death in 1753, not a birth in Ireland about 1680. A major biographical source
+for his son calls the reverend a native of Scotland. The profile should be
+removed from the seventeenth-century Irish count unless an Irish event is found.

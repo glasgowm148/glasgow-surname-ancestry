@@ -1,0 +1,220 @@
+{
+  "reviewed": "2026-10-23",
+  "subjects": [
+    "Glasgow-635",
+    "Glasgow-634",
+    "Glasgow-2492",
+    "Glasgow-2476"
+  ],
+  "source": "https://www.ncpedia.org/biography/glasgow-james",
+  "published_secondary_page_inspected": true,
+  "primary_family_records_inspected": false,
+  "prior_canonical_record": {
+    "record_id": "held-e-6740793b6455",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Father's profile, James Glasgow by Charles R. Holloman, 1986. NCPedia (https://www.ncpedia.org/biography/glasgow-james)",
+    "source_title": "Father's profile, James Glasgow by Charles R. Holloman, 1986. NCPedia (https://www.ncpedia.org/biography/glasgow-james)",
+    "source_url": "https://www.ncpedia.org/biography/glasgow-james",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-2492": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review7-2026-10-22.json"
+  },
+  "existing_link_reviews": [
+    {
+      "assertion_id": "C-coverage-20261022c-glasgow-634-father",
+      "child": "Glasgow-634",
+      "father": "Glasgow-635",
+      "before": {
+        "status": "possible",
+        "probability_percent": 47,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The inherited account names James Patrick Glasgow as James’s father. A c1680 father could have a son in 1735, though at a late age; the held postal and later-life references do not establish the generation or a specific place-of-origin bridge.",
+        "record_scope": "Possible 47%; named pedigree retained, without promoting the Lancaster addressee as parent evidence.",
+        "source_ids": [
+          "held-e-c71735ac6fc8"
+        ]
+      },
+      "after": {
+        "value": 0.95,
+        "basis": "Holloman’s inspected NCpedia biography explicitly identifies the North Carolina secretary’s father as Reverend James Patrick Glasgow, rector of All Hallows at Snow Hill. This is the distinctive father role represented by Glasgow-635, rather than a generic Glasgow addressee. The retained ministerial biography supplies the career continuity from Manokin Presbyterian ministry to All Hallows Anglican ministry, explaining the two denominations without inventing a second minister. The son’s Maryland birth and later North Carolina public career identify Glasgow-634. The earlier 47% review used the inherited relationship and postal notices without this named-parent passage.",
+        "reviewed": "2026-10-23",
+        "source_ids": [
+          "held-e-c71735ac6fc8",
+          "held-e-6740793b6455",
+          "held-e-b6c20b2f0f1d"
+        ],
+        "scope": "95% assesses the complete immediate father–child profile pair from a specific named-father statement and the already reviewed clerical identity. NCpedia is a late scholarly biography, not a contemporary baptism, and the church histories may be among its underlying sources. The minister’s unsupported circa-1680 Irish birth and possible 1700 West Kilbride identity remain separate. His selected upstream father stays at 26%. The article’s Martha Jones name differs from the retained Mary Jones mother label; no mother is renamed, attached or regraded. The 1819 will and eighteenth-century family originals were not inspected."
+      },
+      "new_father_attachment": false
+    },
+    {
+      "assertion_id": "C-coverage-20261022g-glasgow-2492-father",
+      "child": "Glasgow-2492",
+      "father": "Glasgow-634",
+      "before": {
+        "status": "probable",
+        "probability_percent": 65,
+        "assessment_date": "2026-10-22",
+        "source_basis": "James’s circa-1776 North Carolina birth and later Smith County records fit a son of the secretary who died in Tennessee. The NCpedia father citation is relevant, but its child passage is not held; head-only censuses do not identify a father.",
+        "record_scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.",
+        "source_ids": [
+          "held-e-6740793b6455",
+          "held-e-cd3402e952fc",
+          "held-e-59559f15a3a4"
+        ]
+      },
+      "after": {
+        "value": 0.94,
+        "basis": "The inspected closing family paragraph of Holloman’s biography lists a son James born about 1776 and identifies a son James as an executor in 1819. Those specific family roles match the existing James-2492, whose original biography defines him as the secretary’s son and associates him with the later Smith County household. His approximate North Carolina birth, the described family’s removal to Tennessee and his retained Smith County records form a coherent adult sequence. This supplies the explicit child passage missing from the earlier 65% review, rather than treating a head-only census as proof of parentage.",
+        "reviewed": "2026-10-23",
+        "source_ids": [
+          "held-e-6740793b6455",
+          "held-e-cd3402e952fc",
+          "held-e-59559f15a3a4"
+        ],
+        "scope": "94% assesses this existing father–child profile pair, including the assignment of the named son to the Smith County adult. The article is one late secondary account; its son list and executor statement are not independent witnesses. The Smith County adult continuity is inferred, and a mistaken same-name assignment remains possible. The article cites Davidson County Wills and Inventories volume 7, 1816–1821, but the original 1819 will has not been read. Existing dates, mother and all other relatives are retained."
+      },
+      "new_father_attachment": false
+    }
+  ],
+  "new_working_father": {
+    "assertion_id": "C-working-20261023-wesley2476-james2492",
+    "child": "Glasgow-2476",
+    "father": "Glasgow-2492",
+    "percent": 35,
+    "prior": {
+      "status": "unknown",
+      "assessment_status": "unknown",
+      "probability_percent": null,
+      "father_attached": false,
+      "assessment_date": "2026-10-23",
+      "source_basis": "WikiTree Family section for Glasgow-2476 inspected 23 October 2026: both parents unknown; pre-batch local dossier has no retained father. The public biography and its cited sources were also checked."
+    },
+    "basis": "Select James Glasgow-2492, the older Smith County householder, as Wesley Guynn Glasgow-2476’s possible working father. Their maintained accounts cite James in Smith County in 1820 and 1840 and the younger Wesley/Neely household there in 1850. James’s approximate 1776 birth makes him about 42 at Wesley’s estimated 1818 birth, a comfortable direct generation. The older James is a specific existing local household, not an invented parent. This is the leading bounded catalogue comparison for the disconnected Wesley family; its same-county chronology is more specific than an otherwise unplaced Tennessee or Scottish Glasgow.",
+    "scope": "35% is a subjective, low-confidence estimate for the complete father-profile hypothesis. No inspected record calls Wesley James’s son, places them in one household, transfers land between them, or names Wesley’s parents. The cited 1820/1840/1850 census images and age-band counts were not newly inspected; FamilySearch required a security challenge and the linked Ancestry record required membership. Wesley’s memorial has no parent links, dates or photograph beyond an approximate birth/death note; it is not independent parent proof. Wesley’s identification with the indexed Neely and James’s earlier North Carolina ancestry are separate propositions. An uncle or other collateral relationship, another local James, an unrepresented father, and William-2130 (broad Tennessee context without a held Smith County association) remain alternatives. No mother is selected and no relative is moved solely because of a name, naming custom or Y-DNA premise."
+  },
+  "new_parent_attachments": 1,
+  "new_people": 0,
+  "vital_fields_changed": false,
+  "mother_selected": false,
+  "live_edit": false,
+  "previous_turn_classification": "progress: one new Calder father, improved individual findings classification and locally verified/committed integration",
+  "independent_agents": "Two bounded existing-evidence reviews found no new kinship clauses for the early 1150/1148/3187/3920 pairs. Their previously tested links were not regraded or claimed as discoveries.",
+  "verification": {
+    "new_parent_attachments": 1,
+    "new_father_percent": 35,
+    "joined_pre1850_family_size": 8,
+    "unknown_fathers_before": 394,
+    "unknown_fathers_after": 393,
+    "working_components_before": 403,
+    "working_components_after": 402,
+    "largest_working_family_before": 1151,
+    "largest_working_family_after": 1159,
+    "new_working_connected_pairs": 9208,
+    "confident_father_links_before": 681,
+    "confident_father_links_after": 683,
+    "existing_father_changes": [
+      {
+        "before": 47,
+        "after": 95
+      },
+      {
+        "before": 65,
+        "after": 94
+      }
+    ],
+    "supported_father_links_before": 1114,
+    "supported_father_links_after": 1115,
+    "pending_updates": 1582,
+    "full_compact_pending_flags_agree": true,
+    "old_history_preserved_one_snapshot_added": true,
+    "all_previous_draft_text_and_sources_preserved": true,
+    "unchanged_vitals_spouses_and_old_children": true,
+    "upstream_minister_father_26_preserved": true,
+    "all_father_fields": {
+      "checked": 1798,
+      "connectors": 2,
+      "models": {
+        "main": {
+          "checked_historical_profiles": 1800,
+          "matched_paternal_edges": 1398,
+          "changed_father_fields": 0,
+          "added_historical_profiles": [],
+          "individual_percentage_mismatches": 0,
+          "checked_public_dossier_father_fields": 1798,
+          "checked_documentary_connectors": 2,
+          "held_competing_father_cases": [
+            "Glasgow-2908",
+            "Glasgow-867",
+            "Glasgow-951"
+          ]
+        },
+        "standalone": {
+          "checked_historical_profiles": 1800,
+          "matched_paternal_edges": 1398,
+          "changed_father_fields": 0,
+          "added_historical_profiles": [],
+          "individual_percentage_mismatches": 0,
+          "checked_public_dossier_father_fields": 1798,
+          "checked_documentary_connectors": 2,
+          "held_competing_father_cases": [
+            "Glasgow-2908",
+            "Glasgow-867",
+            "Glasgow-951"
+          ]
+        },
+        "packed": {
+          "checked_historical_profiles": 1800,
+          "matched_paternal_edges": 1398,
+          "changed_father_fields": 0,
+          "added_historical_profiles": [],
+          "individual_percentage_mismatches": 0,
+          "checked_public_dossier_father_fields": 1798,
+          "checked_documentary_connectors": 2,
+          "held_competing_father_cases": [
+            "Glasgow-2908",
+            "Glasgow-867",
+            "Glasgow-951"
+          ]
+        }
+      },
+      "mismatches": [],
+      "held": [
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "indexed_article_source_quality": "secondary",
+    "indexed_article_source_id": "s-72054def14f3232e",
+    "primary_images_or_will_inspected": false,
+    "live_edit": false,
+    "individual_percentage_changes_through1850": 22,
+    "new_father_events_through1850": 6,
+    "main_tree_parent_35_visible": true,
+    "catalogue_parent_badge_35_target_verified": "https://www.wikitree.com/wiki/Glasgow-2492",
+    "biographies_95_and_94_visible": true,
+    "live_family_entries_rechecked": [
+      "Glasgow-634",
+      "Glasgow-2492",
+      "Glasgow-2476"
+    ],
+    "generated_progress_22_changes_and_6_new_connections_verified": true,
+    "progress_browser_recheck": "Timed out after successful catalogue, biography and main Whole tree browser checks",
+    "actual_new_wesley_father_35_badge_and_wikitree_link_verified": true,
+    "actual_existing_james_father_95_and_94_verified": true,
+    "new_publication_failures": 0,
+    "new_broken_link_pairs": 0,
+    "indexed_records_applied": true,
+    "source_quality_checks_passed": true
+  }
+}

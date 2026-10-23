@@ -22,6 +22,15 @@ His religious career is noted in several key historical works:
 It has been suggested that Patrick may descend from the Glasgows of Mid Calder, Scotland, where a ''' [[Glasgow-991|James Glasgow (abt. 1585)]] ''' is recorded with a son John. However, this connection remains speculative.
 
 == Research Notes ==
+=== Current Maryland and Smith County review, 23 October 2026 ===
+
+'''Existing son James-634: 47% → 95% confident.''' Holloman’s inspected NCpedia biography explicitly identifies the North Carolina secretary’s father as Reverend James Patrick Glasgow, rector of All Hallows at Snow Hill. This is the distinctive father role represented by Glasgow-635, rather than a generic Glasgow addressee. The retained ministerial biography supplies the career continuity from Manokin Presbyterian ministry to All Hallows Anglican ministry, explaining the two denominations without inventing a second minister. The son’s Maryland birth and later North Carolina public career identify Glasgow-634. The earlier 47% review used the inherited relationship and postal notices without this named-parent passage.
+
+95% assesses the complete immediate father–child profile pair from a specific named-father statement and the already reviewed clerical identity. NCpedia is a late scholarly biography, not a contemporary baptism, and the church histories may be among its underlying sources. The minister’s unsupported circa-1680 Irish birth and possible 1700 West Kilbride identity remain separate. His selected upstream father stays at 26%. The article’s Martha Jones name differs from the retained Mary Jones mother label; no mother is renamed, attached or regraded. The 1819 will and eighteenth-century family originals were not inspected.
+
+[https://www.ncpedia.org/biography/glasgow-james Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986), NCpedia revision December 2022] was read on 23 October 2026. This is a newly inspected passage in an existing citation, not a new source discovery. The original will was not inspected.
+
+=== Earlier assessments retained as history ===
 === Selected uncertain family — 16 October 2026 ===
 
 The West Kilbride John [[Glasgow-3161]] is the selected uncertain working father of Rev. Patrick [[Glasgow-635]], through possible identity with the indexed child Patrick [[Glasgow-3160]] of 1700. The minister’s church-history account calls him Patrick, and the previously reviewed biography of his son calls the father a native of Scotland. If the 1700 child became the minister, he would have been about thirty-five when son James was born in 1735, thirty-six when ordained at Manokin in 1736, and fifty-three at his death in 1753. That is a coherent adult career and family sequence. The recorded Scottish childhood and compatible dates make this a useful low-confidence choice; no ministerial, marriage or migration record identifies that child as the Maryland man.

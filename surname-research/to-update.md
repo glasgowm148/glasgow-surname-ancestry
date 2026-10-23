@@ -3983,3 +3983,11 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-3612) | OPEN | New possible father Andrew-1239,42%; retain Andrew-3052 as unselected32% alternative and all vital fields; live parents checked unknown. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1239) | OPEN | Possible son Alexander-3612,42%; existing fatherThomas99% unchanged. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3052) | OPEN | Add unselected32% Alexander comparison; no family attachment change. |
+
+
+## 23 October 2026 — Maryland and Smith County family
+
+| [Glasgow-635](https://www.wikitree.com/wiki/Glasgow-635) | OPEN | Existing son James-634 now 95% confident from the specific biographical father clause; preserve the selected upstream father at 26% and all prior sources. |
+| [Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634) | OPEN | Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. |
+| [Glasgow-2492](https://www.wikitree.com/wiki/Glasgow-2492) | OPEN | Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause. |
+| [Glasgow-2476](https://www.wikitree.com/wiki/Glasgow-2476) | OPEN | New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence. |

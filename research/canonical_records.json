@@ -19336,22 +19336,39 @@
   },
   {
     "record_id": "held-e-6740793b6455",
-    "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "Father's profile, James Glasgow by Charles R. Holloman, 1986. NCPedia (https://www.ncpedia.org/biography/glasgow-james)",
-    "source_title": "Father's profile, James Glasgow by Charles R. Holloman, 1986. NCPedia (https://www.ncpedia.org/biography/glasgow-james)",
+    "record_type": "Historical biography",
+    "date": "1986",
+    "place": "Maryland; North Carolina; Tennessee",
+    "association": "James Glasgow, North Carolina secretary: named father, son and executor passages",
+    "source_title": "Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986); NCpedia revision December 2022",
     "source_url": "https://www.ncpedia.org/biography/glasgow-james",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "Late scholarly biographical compilation",
+    "source_status": "Published secondary article inspected 23 October 2026; underlying family originals and 1819 will not inspected",
+    "status": "Named father and son clauses; assessed existing profile pairs 95% and 94%",
     "profiles": {
+      "Glasgow-635": {
+        "role": "Named clerical father; specific profile identity confidently inferred at 95%"
+      },
+      "Glasgow-634": {
+        "role": "Biographical subject; named son and named father in the family passages"
+      },
       "Glasgow-2492": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Named son and executor; Smith County adult-profile identification confidently inferred at 94%"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review7-2026-10-22.json"
+    "note": "The family passages name the secretary’s clerical father and a son James born about 1776, also an executor. Current assessments: Glasgow-634 → Glasgow-635 95%; Glasgow-2492 → Glasgow-634 94%. This late biography is not an original parish or probate record. It does not name Wesley or prove his proposed father. The original will remains to be inspected.",
+    "provenance": "research/ancestry-connections/maryland-smith-county-review-2026-10-23.json",
+    "year": 1986,
+    "source_classification": "late_compiled_history",
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-23",
+    "source_quality": "late_compiled_history",
+    "country": "United States",
+    "historical_basis": {
+      "latest_birth_year": 1800,
+      "source_url": "https://www.ncpedia.org/biography/glasgow-james",
+      "basis": "The youngest of these three identified generations, son James, was already married with a family by March 1800 in the inspected article; this is a historical eligibility bound, not a new exact birth date."
+    }
   },
   {
     "record_id": "held-e-cd3402e952fc",
@@ -30720,5 +30737,35 @@
     "source_type": "Original estate inventory",
     "provenance": "research/ancestry-connections/nottingham-probate-review-2026-10-23.json",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "held-e-b6c20b2f0f1d",
+    "record_type": "Previously held source citation",
+    "source_title": "Harry Pringle Ford, History of the Manokin Presbyterian Church (1910), pp.16–17; previously reviewed ministerial career",
+    "source_url": "https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf",
+    "source_type": "Previously held citation; original not newly inspected",
+    "source_status": "Retained profile citation; use limited by the individual assessment",
+    "profiles": {
+      "Glasgow-635": {
+        "role": "Previously cited subject; no additional family role asserted"
+      }
+    },
+    "note": "See the individual assessment for the difference between a cited record, a profile identity and an inferred parent.",
+    "provenance": "research/ancestry-connections/maryland-smith-county-review-2026-10-23.json"
+  },
+  {
+    "record_id": "held-e-b6f743914419",
+    "record_type": "Previously held source citation",
+    "source_title": "United States Census, 1850; previously cited Neely Glassgow, Smith, Tennessee",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:MCDC-2BM",
+    "source_type": "Previously held citation; original not newly inspected",
+    "source_status": "Retained profile citation; use limited by the individual assessment",
+    "profiles": {
+      "Glasgow-2476": {
+        "role": "Previously cited subject; no additional family role asserted"
+      }
+    },
+    "note": "See the individual assessment for the difference between a cited record, a profile identity and an inferred parent.",
+    "provenance": "research/ancestry-connections/maryland-smith-county-review-2026-10-23.json"
   }
 ]

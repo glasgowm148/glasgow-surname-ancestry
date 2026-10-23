@@ -2,10 +2,7 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **47% (possible)** for [Glasgow-635](https://www.wikitree.com/wiki/Glasgow-635). Possible 47%; named pedigree retained, without promoting the Lancaster addressee as parent evidence. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
-
-<!-- site-audit-2026-10-07:overall-conclusion -->
-James Glasgow was North Carolina's first Secretary of State, holding the office from 1777 to 1798, and a colonel of the Dobbs County militia; his profile gives his birth as about 1735 in Maryland and his death in 1819 in Tennessee. Newspapers naming the office, from proclamations he countersigned in January 1778 to his resignation reported in December 1798, are strong matches; Masonic, postal and petition notices are probable or possible. In December 1799 commissioners accused 'the late Secretary' of irregular military land warrants, and a legislative committee reported that he alone had been arrested. Secondary sources report his trial and conviction in 1800 (State v. Glasgow).
+**Reviewed 23 October 2026:** the existing father [Rev. Patrick Glasgow-635](/people/glasgow-635.html) is now **95% confident**, from 47%; existing son [James-2492](/people/glasgow-2492.html) is **94% confident**, from 65%. Holloman’s now-inspected family passages supply specific father and son roles, rather than postal-name comparisons. The earlier numerical father conclusion is superseded; its source basis is retained below. The minister’s upstream 26% ancestry and the Martha/Mary Jones maternal-name question remain separate. Existing vital fields are retained.
 
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
@@ -372,3 +369,26 @@ Next useful test: Locate James’s family or probate record naming his father.
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634)
+
+## Named father and son — 23 October 2026
+
+**Existing father 47% → 95% confident.** Holloman’s inspected NCpedia biography explicitly identifies the North Carolina secretary’s father as Reverend James Patrick Glasgow, rector of All Hallows at Snow Hill. This is the distinctive father role represented by Glasgow-635, rather than a generic Glasgow addressee. The retained ministerial biography supplies the career continuity from Manokin Presbyterian ministry to All Hallows Anglican ministry, explaining the two denominations without inventing a second minister. The son’s Maryland birth and later North Carolina public career identify Glasgow-634. The earlier 47% review used the inherited relationship and postal notices without this named-parent passage.
+
+95% assesses the complete immediate father–child profile pair from a specific named-father statement and the already reviewed clerical identity. NCpedia is a late scholarly biography, not a contemporary baptism, and the church histories may be among its underlying sources. The minister’s unsupported circa-1680 Irish birth and possible 1700 West Kilbride identity remain separate. His selected upstream father stays at 26%. The article’s Martha Jones name differs from the retained Mary Jones mother label; no mother is renamed, attached or regraded. The 1819 will and eighteenth-century family originals were not inspected.
+
+[Charles R. Holloman, “Glasgow, James,” Dictionary of North Carolina Biography (1986), NCpedia revision December 2022](https://www.ncpedia.org/biography/glasgow-james) was read on 23 October 2026. This is a newly inspected passage in an existing citation, not a new source discovery. The original will was not inspected.
+
+**Existing son James-2492: 65% → 94% confident.** The inspected closing family paragraph of Holloman’s biography lists a son James born about 1776 and identifies a son James as an executor in 1819. Those specific family roles match the existing James-2492, whose original biography defines him as the secretary’s son and associates him with the later Smith County household. His approximate North Carolina birth, the described family’s removal to Tennessee and his retained Smith County records form a coherent adult sequence. This supplies the explicit child passage missing from the earlier 65% review, rather than treating a head-only census as proof of parentage.
+
+94% assesses this existing father–child profile pair, including the assignment of the named son to the Smith County adult. The article is one late secondary account; its son list and executor statement are not independent witnesses. The Smith County adult continuity is inferred, and a mistaken same-name assignment remains possible. The article cites Davidson County Wills and Inventories volume 7, 1816–1821, but the original 1819 will has not been read. Existing dates, mother and all other relatives are retained.
+
+[Shared family argument](/branches/early-scottish-records/#west-kilbride-manokin-working-family).
+
+**Next useful test:** Inspect Davidson County Wills and Inventories volume 7 for the secretary’s 1819 will and the named son/executor; then trace the Smith County son through deeds and probate. Compare the original Maryland family entries before changing the maternal name.
+
+### Earlier conclusion retained as history
+
+Current father assessment (22 October 2026): **47% (possible)** for [Glasgow-635](https://www.wikitree.com/wiki/Glasgow-635). Possible 47%; named pedigree retained, without promoting the Lancaster addressee as parent evidence. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+<!-- site-audit-2026-10-07:overall-conclusion -->
+James Glasgow was North Carolina's first Secretary of State, holding the office from 1777 to 1798, and a colonel of the Dobbs County militia; his profile gives his birth as about 1735 in Maryland and his death in 1819 in Tennessee. Newspapers naming the office, from proclamations he countersigned in January 1778 to his resignation reported in December 1798, are strong matches; Masonic, postal and petition notices are probable or possible. In December 1799 commissioners accused 'the late Secretary' of irregular military land warrants, and a legislative committee reported that he alone had been arrested. Secondary sources report his trial and conviction in 1800 (State v. Glasgow).
