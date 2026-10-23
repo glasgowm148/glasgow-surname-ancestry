@@ -208,6 +208,13 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
             raise ValueError('Reviewed chronology subject absent from atlas: ' + ident)
         existing[ident].update({key: deepcopy(value) for key, value in fields.items()
                                if key in CHRONOLOGY_DISPLAY_FIELDS})
+    from tools.reviewed_vital_display import FIELDS as VITAL_DISPLAY_FIELDS
+    vital_display = fresh['meta'].get('reviewedVitalDisplay', {})
+    for ident, fields in vital_display.items():
+        if ident not in existing:
+            raise ValueError('Reviewed vital subject absent from atlas: ' + ident)
+        existing[ident].update({key: deepcopy(value) for key, value in fields.items()
+                               if key in VITAL_DISPLAY_FIELDS})
     captured_repairs = fresh['meta'].get('capturedParentIdentityRepairs', [])
     apply_parent_identity_repairs(existing, captured_repairs, incoming)
     result['people'] = list(existing.values())
@@ -232,6 +239,7 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                           workingParentAlternativeIds=sorted(alternative_parents),
                           workingMotherIds=sorted(working_mothers),
                           reviewedChronologyDisplay=deepcopy(chronology),
+                          reviewedVitalDisplay=deepcopy(vital_display),
                           maternalHypotheses=fresh['meta'].get('maternalHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),

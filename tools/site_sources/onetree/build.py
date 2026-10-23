@@ -1089,6 +1089,8 @@ def main() -> None:
             approved = entries().get('onetree/glasgow-one-tree-polished-3/model.json')
             if approved and approved['kind'] == 'atlas-model':
                 model = restored_model(model, json.loads(source(approved)))
+        from tools.reviewed_vital_display import apply as apply_reviewed_vital_display
+        apply_reviewed_vital_display(model, args.catalogue_data.parent.parent, location_for, LOCATION_BY_ID)
         from tools.relationship_probability import annotate_model
         annotate_model(model)
         checks = validate(model)
@@ -1107,6 +1109,8 @@ def main() -> None:
         if args.model.resolve() == (PUBLIC_DIR / 'model.json').resolve():
             from tools.sync_ancestry_atlas import sync
             sync(ROOT / 'www', model)
+            from tools.reviewed_vital_display import refresh_family_summaries
+            refresh_family_summaries(model, ROOT / 'www')
     except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
         parser.exit(1, f"Build failed: {exc}\n")
     print(f"Built {args.output} with {checks['people']:,} profiles and {model['meta']['hypotheses']:,} selected working hypothesis parent edges.")

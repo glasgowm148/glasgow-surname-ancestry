@@ -6,6 +6,24 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_explicit_vital_review_updates_retained_display_only(self):
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Person-1', 'kind': 'person', 'born': 1784,
+             'birthplace': 'Scotland', 'note': 'Retained account', 'parents': []}]}
+        fresh = deepcopy(old)
+        fields = dict(born=1774, birthDisplay='About 1774', birthplace='Ireland',
+                      bornApprox=True, birthLocationRegion='ireland')
+        fresh['people'][1].update(fields)
+        fresh['meta'].update(date='2026-10-23', reviewedVitalDisplay={'Person-1': fields})
+        result = overlay_model(old, fresh)
+        person = next(p for p in result['people'] if p['id'] == 'Person-1')
+        self.assertEqual(person['born'], 1774)
+        self.assertEqual(person['birthplace'], 'Ireland')
+        self.assertEqual(person['note'], 'Retained account')
+        self.assertEqual(person['parents'], [])
+        self.assertEqual(overlay_model(result, fresh), result)
+
     def test_existing_record_account_gets_real_urls_without_changing_dates(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@smaller-families', 'kind': 'group'},
