@@ -2739,6 +2739,23 @@ def _replace_main(text: str, profile_id: str) -> str:
     soup.body["data-g-path"] = f"/people/{profile_id.casefold()}.html"
     name_node = main.select_one("h1")
     name = name_node.get_text(" ", strip=True) if name_node else profile_id
+    try:
+        from tools.site_identity import page_title
+    except ModuleNotFoundError:
+        from site_identity import page_title
+    title = page_title(name)
+    if soup.title:
+        soup.title.string = title
+    for meta in soup.select('meta[property="og:title"], meta[name="twitter:title"]'):
+        meta['content'] = title
+    for script in soup.select('script[type="application/ld+json"]'):
+        try:
+            value = json.loads(script.string or '')
+        except (TypeError, ValueError):
+            continue
+        if isinstance(value, dict) and value.get('@type') == 'Person':
+            value['name'] = name
+            script.string = json.dumps(value, ensure_ascii=False)
     _set_top_bar_crumbs(soup, profile_id, name)
     for link in soup.select(".g-nav-link[aria-current]"):
         del link["aria-current"]

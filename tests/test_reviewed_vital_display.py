@@ -2,10 +2,23 @@ import json
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
+from unittest.mock import patch
 from tools.reviewed_vital_display import apply, refresh_family_summaries
 
 
 class ReviewedVitalDisplayTests(unittest.TestCase):
+    def test_person_metadata_uses_the_rendered_current_name(self):
+        from bs4 import BeautifulSoup
+        from tools import repair_person_hierarchy as renderer
+        html = '<html><head><title>Old label</title><meta property="og:title" content="Old label"><script type="application/ld+json">{"@type":"Person","name":"Old label","birthDate":"1700"}</script></head><body><main>Old account</main></body></html>'
+        with patch.object(renderer, 'render_person_dossier', return_value='<h1>Recorded Person</h1>'), patch.object(renderer, '_set_top_bar_crumbs'), patch.object(renderer, '_ensure_unified_person_shell', side_effect=lambda soup, ident:soup):
+            result = BeautifulSoup(renderer._replace_main(html, 'Example-1'), 'html.parser')
+        self.assertTrue(result.title.string.startswith('Recorded Person'))
+        self.assertEqual(result.title.string, result.select_one('meta[property="og:title"]')['content'])
+        data = json.loads(result.select_one('script[type="application/ld+json"]').string)
+        self.assertEqual('Recorded Person', data['name'])
+        self.assertEqual('1700', data['birthDate'])
+
     def test_explicit_name_review_preserves_dates_and_parents(self):
         with TemporaryDirectory() as tmp:
             root = Path(tmp)
