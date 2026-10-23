@@ -57,3 +57,17 @@ Two very uncertain local father hypotheses are selected from existing research; 
 ## Isabell’s selected father replacement — 22 October 2026
 
 [Isabell Glasgow-3370](/people/glasgow-3370.html) is now placed under [William Glasgow-4138](/people/glasgow-4138.html), probable 76%; [William Glasgow-1605](/people/glasgow-1605.html) is retained as the possible 38% alternative. Prefer William Glasgow-4138, documented at Cavers and Ormistoun in 1679–84, as the William who fathered Isabell at Cavers in December 1694. The repeated full name, same parish association, earlier adult activity and feasible father generation give this record-defined local adult a stronger fit than identifying the father directly with the 1658 Polwarth child Glasgow-1605. This is an inferred identification across the held records, not an explicit father-daughter statement in the Covenanter material. Probable 76% for the complete father-profile identification. The baptism names William but supplies no mother. No shared relative, precise abode, occupation or continuous identifying clause connects the Cavers baptism to the 1679–84 servant. The Polwarth child remains a possible 38% alternative and might itself be the Cavers adult; no identity merge is selected. Other local Williams remain possible. The two FreeREG transcriptions disagree between 2 and 8 December 1694; the parish index gives 2 December. No new source inspection, birth age, mother, migration or live WikiTree change is claimed.
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: leading identified Cavers Covenanter/wreck-survivor account; later Ulster identity remains possible only. Derivative Scottish Covenanter index names William Glasgow of Cavers among banished shipwreck survivors at Moul Head of Deerness. The 1679–1688 range belongs to collection, not a birth. Existing Cavers/Ormistoun account is maintained, but Cavers-to-Ulster identity and parentage remain separate.
+
+- [Findmypast GBPR/COVENANT/028559](https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028559&tab=this), saved 3 September 2026.
+
+Role in this account: documented William servant of Wm Lamb at Ormistoun in October 1684. Exact provider ID already canonicalized as cavers-ormistoun-servant-1684-held. PC8/8 and PC12/9A are variant lists for one October 1684 servant episode, not two independent people or births.
+
+- [Findmypast GBPR/COVENANT/028560](https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028560&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

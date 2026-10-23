@@ -106,3 +106,13 @@ Sources: [George Gunn (ed.), Records of the Baron Court of Stichill 1655–1807 
 
 - [fmp-record-scot-opr-bap-4884245](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884245&tab=this).
 - [https://www.familysearch.org/ark:/61903/1:1:FMMQ-472](https://www.familysearch.org/ark:/61903/1:1:FMMQ-472).
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: possible James/Elizabeth Tait household comparison only. OPR 808/1 item 5 has unnamed Glasgow child, father James, mother Elizabeth, Stitchell & Hume. 1640–1819 is the register year range, not event date. Without child name, date or maternal surname, no individual identity or father-profile assignment is supportable.
+
+- [Findmypast SCOT/OPR/BAP/5102894](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5102894&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

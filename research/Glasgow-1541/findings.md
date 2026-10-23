@@ -19,3 +19,13 @@ Next useful test: Seek Elizabeth's baptism and statutory death parent names.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-1541](https://www.wikitree.com/wiki/Glasgow-1541)
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: Near-year Barony profile candidate, but its current recorded parents are Robert Glasgow and Janet Gilmour, unlike this transcript’s John Glasgow and Elizabeth Campbell. Keep as a conflicting comparison, not a match.. Findmypast transcript/index records Elizabeth Glasgow, indexed birth year 1831, Glasgow; named father is John Glasgow, mother Elizabeth Campbell. John-2721 has an uncertain 1795 birth profile and a tree-listed spouse Elizabeth Campbell; no evidence ties this Elizabeth Glasgow event to their household. Candidate comparison only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only.
+
+- [Findmypast R_689709369](https://www.findmypast.co.uk/transcript?id=R_689709369&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

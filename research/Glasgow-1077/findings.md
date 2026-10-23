@@ -60,3 +60,13 @@ Scope: The 1690 child and minister household98%; the later provost, skipper and 
 Next useful test: Distinguish the adult Irvine officeholders without transferring proof from the baptism.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: recorded Rev John father comparison only, no grade change. Kilbirnie OPR 596/1 item 1 p.51 gives John, 03 May with year “?”, Revd Mr John Glasgow and Margarat Scot at Kirkland. Existing Glasgow-3551 citation gives 3 May 1713 for same couple, but ref 10/55 differs from derivative page 51. The register range 1688-1819 is not birth/baptism year. Do not assign exact year from this receipt alone or confuse later John-3553 baptized in 1717.
+
+- [Findmypast SCOT/OPR/BAP/3586169](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586169&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

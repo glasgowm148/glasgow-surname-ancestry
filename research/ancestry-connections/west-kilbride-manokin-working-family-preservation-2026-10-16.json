@@ -17,7 +17,7 @@
     },
     "Glasgow-635": {
       "current_sha256": "4bd9734d3a7da468c649ff90c68b5dca9be951a46030acf266b15083fd8ccaaf",
-      "proposed_sha256": "6640147f2647fe8eb2896813ba0288a20400e23635f394e729a8053674523767",
+      "proposed_sha256": "f19b510adf7686ff68250009696931c6a502a32bf929ed6de8a0cafbf4193455",
       "all_substantive_passages_accounted_for": true,
       "passages": [
         "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
@@ -34,10 +34,17 @@
       ],
       "full_comparison_withheld_for_privacy": false,
       "private_source_urls_retained_count": 0,
-      "previous_proposed_sha256": "c3ff576d5c227eb6193671ecbf680d6d1f0da47a3efbd655f5f6291d8827870a",
+      "previous_proposed_sha256": "6640147f2647fe8eb2896813ba0288a20400e23635f394e729a8053674523767",
       "draft_path": "research/Glasgow-635/Glasgow-635.md",
       "private_comparison": false,
-      "retained": "Complete previous draft and every citation retained; current source review added ahead of labelled historical assessments. All named people, source qualifications, hypotheses, dates, occupations and original wording survive unchanged. No family or vital statement removed."
+      "retained": "Complete previous draft and every citation retained; current source review added ahead of labelled historical assessments. All named people, source qualifications, hypotheses, dates, occupations and original wording survive unchanged. No family or vital statement removed.",
+      "gazette_index_conflict_review": {
+        "reviewed_on": "2026-10-23",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00191354&tab=this",
+        "prior_proposed_sha256": "6640147f2647fe8eb2896813ba0288a20400e23635f394e729a8053674523767",
+        "proposed_sha256": "f19b510adf7686ff68250009696931c6a502a32bf929ed6de8a0cafbf4193455",
+        "comparison": "Additive research note only: deleting the new dated section reproduces the entire previous complete proposal byte for byte. All existing passages, sources, chronology and relationship grades retained. No death field or parentage changed. Original notice remains uninspected."
+      }
     },
     "Glasgow-3375": {
       "current_sha256": "cd6fc16de8657755cd9b90fd935b9493e35c94ec13de9ae63a5a24cd6e30f509",

@@ -22,6 +22,10 @@ His religious career is noted in several key historical works:
 It has been suggested that Patrick may descend from the Glasgows of Mid Calder, Scotland, where a ''' [[Glasgow-991|James Glasgow (abt. 1585)]] ''' is recorded with a son John. However, this connection remains speculative.
 
 == Research Notes ==
+=== Maryland Gazette index date conflict, reviewed 23 October 2026 ===
+
+A previously saved Findmypast derivative index, ''Marriages & Deaths from the Maryland Gazette, 1727–1839'', names Patrick Glasgow at Allhallows, Worcester County, with event type Death, event date 15 March 1753 and death year 1753. This conflicts with the 23 March 1753 death reported by the retained church histories. The Gazette notice itself has not been inspected; whether the index date represents the notice, an issue date or an indexing error remains unresolved. Retain both readings and the existing death field pending the original notice. This record supplies no birth, parentage or new family attachment.<ref>[https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00191354&tab=this Findmypast, US/GPC/00191354], derivative Maryland Gazette marriages/deaths index; transcript saved 3 September 2026, reconciled 23 October 2026; original newspaper notice uninspected.</ref>
+
 === Current Maryland and Smith County review, 23 October 2026 ===
 
 '''Existing son James-634: 47% → 95% confident.''' Holloman’s inspected NCpedia biography explicitly identifies the North Carolina secretary’s father as Reverend James Patrick Glasgow, rector of All Hallows at Snow Hill. This is the distinctive father role represented by Glasgow-635, rather than a generic Glasgow addressee. The retained ministerial biography supplies the career continuity from Manokin Presbyterian ministry to All Hallows Anglican ministry, explaining the two denominations without inventing a second minister. The son’s Maryland birth and later North Carolina public career identify Glasgow-634. The earlier 47% review used the inherited relationship and postal notices without this named-parent passage.

@@ -45,3 +45,14 @@ Source: Old Parish Registers, banns and marriages; exact surname Glasgow through
 ## Source check — 20 October 2026
 
 [Findmypast R_694397346/1](https://www.findmypast.co.uk/transcript?id=R_694397346%2F1&tab=this), inspected transcript: John Glasgow and Bessie Smith, 30 July 1687, Kilwinning. The FamilySearch-derived transcript confirms the existing couple/date but supplies no age, parent, occupation or residence within the parish. Its marriage label does not resolve whether the original entry records banns or a ceremony. No new parent or WikiTree amendment is proposed from this supporting version. Original uninspected.
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: John/Bessie Smith household is only a possible companion; blank first names prevent assignment. Two derivative rows are the same 6 Aug 1687 Kilwinning Glasgow–Smith index event. Held Scotland’s People OPR 599/10/325 has both forenames blank; it follows John Glasgow–Bessie Smith 30 Jul 1687 OPR 599/10/324. Do not turn the blank party into John or an additional spouse.
+
+- [Findmypast R_694338931/1](https://www.findmypast.co.uk/transcript?id=R_694338931%2F1&tab=this), saved 3 September 2026.
+- [Findmypast R_694400402/1](https://www.findmypast.co.uk/transcript?id=R_694400402%2F1&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

@@ -105,3 +105,13 @@ This adds only the uncertain James son; the older Hugh identities, current paren
 
 A possible identification concerns Hugh Glasgow, preacher of the gospel, indexed 1677. Hugh Glasgow was described in a 1677 printed Register of Deeds index as “preacher of the gospel.” The index lists him as grantee in a deed abbreviated “Transl.”, recorded 8 March 1677 in the Durie Office, volume 42, page 148 (National Records of Scotland RD3/42, p. 148). The underlying deed has not been examined. The identification remains uncertain. (FamilySearch, *Scotland. Land Records 1677*, item #007830797, Item 3, image 48; printed *Register of Deeds, 1677. Name and Designation*, vol. XVII, p.80, Hugh Glasgow; Durie Office vol.42 p.148, National Records of Scotland RD3/42. [printed index image](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS39-S9V2-4?view=fullText&keywords=HUGH+Glasgow&searchForm=simple&lang=en&groupId=M9QN-ZQ3).)
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: older compatible Irvine sailor candidate only. Findmypast Dobson row incorrectly assigns 3 Feb 1733 to Hugh; printed Edinburgh testament index gives this Hugh sailor in Irvine, later London, 12 Mar 1751. Existing correction dossier and findings already record the error. Neither date is a birth.
+
+- [Findmypast GBOR/DOBSON/013379](https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F013379&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

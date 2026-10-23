@@ -4125,3 +4125,15 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | --- | --- | --- |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-958) | OPEN | Connect source-defined Rev. Samuel at95% after identity resolution; no numbered father selected. Complete sourced draft. |
 | [Rev. Samuel evidence draft](/people/record-rev-samuel-stamford.html) | HOLD | Consolidated father account; compare Niagara MG24-I39 and surviving profile candidates before creation. |
+
+## Saved Gazette index conflict — 23 October 2026
+
+| [Rev. Patrick Glasgow](https://www.wikitree.com/wiki/Glasgow-635) | OPEN | Add the qualified Maryland Gazette index conflict: 15 March 1753 versus church histories’ 23 March. Retain the existing death field, sources and family assessments; inspect the original notice before resolving it. Complete sourced proposal preserved. |
+
+### Huntingdon probable father connections — 23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Mary Wilson Glasgow](https://www.wikitree.com/wiki/Glasgow-3682) | OPEN | New probable father Samuel Glasgow-1984, 77%; checked 1914 family account, full existing-profile identity remains unproved. Complete sourced draft. |
+| [Benjamin Franklin Glasgow](https://www.wikitree.com/wiki/Glasgow-2637) | OPEN | New probable father Samuel Glasgow-1984, 71%; same parental couple, inherited memorial claim not freshly checked. Complete sourced draft. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1984) | OPEN | Add qualified Mary/Benjamin family discussion and source; no wife or upstream parent assignment. Complete draft. |

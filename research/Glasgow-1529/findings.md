@@ -90,3 +90,13 @@ Next useful test: Locate George’s baptism or death parent fields for James and
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-1529](https://www.wikitree.com/wiki/Glasgow-1529)
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: plausible George child of James/Mary Scott family; inherited c.1769 year is unverified. OPR 659/2 item 2 p.83 names George Glasgow, father Jas, mother Mary Scot, Lamington. The displayed baptism year 1715–1819 is the register range, not event year. The parental pair aligns with George-1529 inherited family but no date or adult identity is established.
+
+- [Findmypast SCOT/OPR/BAP/4102030](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4102030&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

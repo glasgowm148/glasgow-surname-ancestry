@@ -99,3 +99,14 @@ The Irish death index records Alexander Glasgow, Cork registration district, 187
 
 Provider transcripts inspected; original images uninspected. [Shared Scottish-records account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE3-20261022 -->
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: Compatible candidate parent profile only; no parent assignment or child identity conclusion.. Findmypast transcript/index records John Glasgow, indexed birth year 1827, Barony, Glasgow; named father is Alexander Glasgow, mother Helen Smith. Alexander-971 is an independently dated Barony-born profile with a tree-listed spouse Ellen (Smith) Glasgow. Transcript names mother Helen Smith and no matching child profile was found; comparison only, not assignment. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained.
+
+- [Findmypast R_693224767](https://www.findmypast.co.uk/transcript?id=R_693224767&tab=this), saved 3 September 2026.
+- [Findmypast SCOT/OPR/BAP/0416762](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0416762&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

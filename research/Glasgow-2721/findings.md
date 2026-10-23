@@ -19,3 +19,21 @@ Next useful test: Locate John’s own parent-naming record or a property success
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-2721](https://www.wikitree.com/wiki/Glasgow-2721)
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: Compatible candidate parent profile only; no parent assignment or child identity conclusion.. Findmypast transcript/index records Mary Glasgow, indexed birth year 1824, Glasgow; named father is John Glasgow, mother Elizabeth Campbell. John-2721 has an uncertain 1795 birth profile and a tree-listed spouse Elizabeth Campbell; no evidence ties this Mary Glasgow event to their household. Candidate comparison only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only.
+
+- [Findmypast R_689703252](https://www.findmypast.co.uk/transcript?id=R_689703252&tab=this), saved 3 September 2026.
+
+Role in this account: Compatible candidate parent profile only; no parent assignment or child identity conclusion.. Findmypast transcript/index records Lillias Glasgow, indexed birth year 1828, Glasgow; named father is John Glasgow, mother Elizabeth Campbell. John-2721 has an uncertain 1795 birth profile and a tree-listed spouse Elizabeth Campbell; no evidence ties this Lillias Glasgow event to their household. A separate local Glasgow child account has a different mother; do not force a match. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only.
+
+- [Findmypast R_689704934](https://www.findmypast.co.uk/transcript?id=R_689704934&tab=this), saved 3 September 2026.
+
+Role in this account: Compatible candidate parent profile only; no parent assignment or child identity conclusion.. Findmypast transcript/index records Elizabeth Glasgow, indexed birth year 1831, Glasgow; named father is John Glasgow, mother Elizabeth Campbell. John-2721 has an uncertain 1795 birth profile and a tree-listed spouse Elizabeth Campbell; no evidence ties this Elizabeth Glasgow event to their household. Candidate comparison only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only.
+
+- [Findmypast R_689709369](https://www.findmypast.co.uk/transcript?id=R_689709369&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

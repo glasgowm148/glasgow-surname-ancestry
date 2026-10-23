@@ -15676,21 +15676,32 @@
   {
     "record_id": "cavers-ormistoun-servant-1684-held",
     "record_type": "Previously held Covenanter transcript",
-    "date": "October 1684",
+    "date": "6–18 Oct 1684",
     "year": 1684,
     "place": "Ormistoun, Roxburghshire",
     "source_title": "William Glasgow, Ormistoun servant list, October 1684; Findmypast Scottish Covenanters, record GBPR/COVENANT/028560",
     "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028560&tab=this",
     "source_status": "Existing held transcript reused; no fresh original inspection",
-    "status": "Adult identity evidence; no paternity clause",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
     "profiles": {
       "Glasgow-4138": {
-        "role": "Documented servant; historical account already maintained"
+        "role": "documented William servant of Wm Lamb at Ormistoun in October 1684",
+        "timeline_group": "Records mentioning this person"
       },
       "Glasgow-3370": {
-        "role": "Associated paternal identity comparison; not named in this servant record"
+        "role": "associated later paternity comparison; not named in this record",
+        "timeline_group": "Records for identity comparison"
       }
-    }
+    },
+    "provider_record_id": "GBPR/COVENANT/028560",
+    "association": "His servant yr [of Wm Lamb in Ormistoune",
+    "person": "Wm Glasgow",
+    "country": "scotland",
+    "note": "Disposition: already integrated source. Exact provider ID already canonicalized as cavers-ormistoun-servant-1684-held. PC8/8 and PC12/9A are variant lists for one October 1684 servant episode, not two independent people or births. Indexed factual fields: Archive reference = PC8/8 and PC12/9A; Country = Scotland; County = Roxburghshire; County as transcribed = Roxburgh; First name(s) = Wm; Last name = Glasgow; Record set = Scottish Covenanters 1679-1688. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/GBPR~1COVENANT~1028560; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "range_in_source_description"
   },
   {
     "record_id": "held-e-1fb0a691b09c",
@@ -34997,5 +35008,1674 @@
     "source_quality": "archive_catalogue",
     "record_type": "Archive catalogue description",
     "association": "Samuel Glasgow of Niagara:unselected identity comparison with the Stamford minister"
+  },
+  {
+    "record_id": "fmp-record-gbor-dobson-013379",
+    "provider_record_id": "GBOR/DOBSON/013379",
+    "association": "Edinburgh testament register for Hugh, sometime sailor in Irvine and later London",
+    "person": "Hugh Glasgow, sailor; exact profile unresolved",
+    "date": "1751-03-12",
+    "year": 1751,
+    "place": "Irvine, Ayrshire, Scotland; later London, England",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F013379&tab=this",
+    "source_title": "Scotland, Occupations & Professions — Hugh Glasgow, sailor; exact profile unresolved",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Findmypast Dobson row incorrectly assigns 3 Feb 1733 to Hugh; printed Edinburgh testament index gives this Hugh sailor in Irvine, later London, 12 Mar 1751. Existing correction dossier and findings already record the error. Neither date is a birth. Reviewed correction source: https://archive.org/stream/scottishrecordso03scotuoft/scottishrecordso03scotuoft_djvu.txt. Findmypast row says 03 Feb 1733; that date belongs to adjacent James Glasgow entry. Printed testament index p.106 and two independent provider rows give Hugh 12 Mar 1751. Indexed factual fields: Country = Scotland; Event date = 03 Feb 1733; First name(s) = Hugh; Last name = Glasgow; Occupation = Seafarer; Record set = Scotland, Occupations & Professions; Year = 1733. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1426": {
+        "role": "compatible Irvine-age sailor candidate only",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3109": {
+        "role": "older compatible Irvine sailor candidate only",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-1701-1750-a.json#/records/GBOR~1DOBSON~1013379; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Wills and probate"
+  },
+  {
+    "record_id": "fmp-record-gbor-westminster-rateboo-9287384-2",
+    "provider_record_id": "GBOR/WESTMINSTER_RATEBOO/9287384/2",
+    "association": "Westminster rate-book owner/occupier entry",
+    "person": "widow or owner styled Widd Glasgow; natal surname unproved",
+    "date": "1674",
+    "year": 1674,
+    "place": "St Margaret, Westminster, London, England",
+    "country": "england",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9287384%2F2&tab=this",
+    "source_title": "Westminster Rate Books 1634-1900 — widow or owner styled Widd Glasgow; natal surname unproved",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. 1674 Westminster rate entry labels Widd Glasgow as owner at Petty Fran; Widd likely means widow, not a given name. A married surname cannot establish natal Glasgow or birth before 1800, and the rate year is not a birth year. Indexed factual fields: Address = Petty Fran; Country = England; County = London; Date = 1674; First name(s) = Widd; Folio number = 97; Last name = Glasgow; Notes = Poor Rate And Overseers Accounts 180-190, 293-397 1667-1682; Owner's first name(s) = Widd; Owner's last name = Glasgow; Parish = St Margaret, Westminster; Record set = Westminster Rate Books 1634-1900; Year = 1674. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/GBOR~1WESTMINSTER_RATEBOO~19287384~12; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Tax and civil lists"
+  },
+  {
+    "record_id": "fmp-record-gbor-westminster-rateboo-9494667-3",
+    "provider_record_id": "GBOR/WESTMINSTER_RATEBOO/9494667/3",
+    "association": "St Clement Danes rate-book house 7, folio 4",
+    "person": "Edward Glasgow",
+    "date": "1726",
+    "year": 1726,
+    "place": "St Clement Danes, Westminster, London, England",
+    "country": "england",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9494667%2F3&tab=this",
+    "source_title": "Westminster Rate Books 1634-1900 — Edward Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Two St Clement Danes Westminster rate assessments in 1726 name Edward Glasgow at house 7 folio 4 and house 6 folio 3; maintained findings group them with a third duplicate house-6 entry. No age or London birth is recorded. Indexed factual fields: Country = England; County = London; Date = 1726; First name(s) = Edward; Folio number = 4; House number = 7; Last name = Glasgow; Notes = Overseers Accounts 1726 Poor Rates 1859-1860; Occupier's first name(s) = Edward; Occupier's last name = Glasgow; Parish = St Clement Danes; Record set = Westminster Rate Books 1634-1900; Year = 1726. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-4136": {
+        "role": "existing Edward occupier account, not a 1726 child",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-1701-1750-a.json#/records/GBOR~1WESTMINSTER_RATEBOO~19494667~13; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Tax and civil lists"
+  },
+  {
+    "record_id": "fmp-record-gbor-westminster-rateboo-9497118-3",
+    "provider_record_id": "GBOR/WESTMINSTER_RATEBOO/9497118/3",
+    "association": "St Clement Danes rate-book house 6, folio 3",
+    "person": "Edward Glasgow",
+    "date": "1726",
+    "year": 1726,
+    "place": "St Clement Danes, Westminster, London, England",
+    "country": "england",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FWESTMINSTER_RATEBOO%2F9497118%2F3&tab=this",
+    "source_title": "Westminster Rate Books 1634-1900 — Edward Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Two St Clement Danes Westminster rate assessments in 1726 name Edward Glasgow at house 7 folio 4 and house 6 folio 3; maintained findings group them with a third duplicate house-6 entry. No age or London birth is recorded. Indexed factual fields: Country = England; County = London; Date = 1726; First name(s) = Edward; Folio number = 3; House number = 6; Last name = Glasgow; Notes = Overseers Accounts 1726 Poor Rates 1859-1860; Occupier's first name(s) = Edward; Occupier's last name = Glasgow; Parish = St Clement Danes; Record set = Westminster Rate Books 1634-1900; Year = 1726. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-4136": {
+        "role": "existing Edward occupier account, not a 1726 child",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-1701-1750-a.json#/records/GBOR~1WESTMINSTER_RATEBOO~19497118~13; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Tax and civil lists"
+  },
+  {
+    "record_id": "fmp-record-ire-court-exchequer-0001527519",
+    "provider_record_id": "IRE/COURT/EXCHEQUER/0001527519",
+    "association": "Exchequer equity bill-book plaintiff, vol.12 p.121",
+    "person": "Thomas Glasgow, Esq.",
+    "date": "1701-05-15",
+    "year": 1701,
+    "place": "Dublin, Ireland (court venue only)",
+    "country": "ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FCOURT%2FEXCHEQUER%2F0001527519&tab=this",
+    "source_title": "Ireland, Court Of Exchequer Bill Books 1627-1884 — Thomas Glasgow, Esq.",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Exchequer bill books vol. 5 p.102 (22 Jan 1684) and vol.12 p.121 (15 May 1701) are already assessed with original images in Thomas-3556 findings. Dublin is court venue, not birthplace/residence; case dates are not birth dates. Exact provider transcript IDs are not yet canonical/source-index IDs. Indexed factual fields: Archive = National Archives of Ireland; Bill book = Equity Exchequer Bill Books 1700-1701; Country = Ireland; County = Dublin; Date = 15/05/1701; First name(s) = Thomas; Last name = Glasgow; Occupation = Esqr; Page = 121; Place = Dublin; Record set = Ireland, Court Of Exchequer Bill Books 1627-1884; Volume = 12; Year = 1701. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3556": {
+        "role": "established Thomas of Lifford/Raphoe; 1684 defendant and 1701 plaintiff",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/IRE~1COURT~1EXCHEQUER~10001527519; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-ire-court-exchequer-0001584141",
+    "provider_record_id": "IRE/COURT/EXCHEQUER/0001584141",
+    "association": "Exchequer equity bill-book defendant, vol.5 p.102",
+    "person": "Thomas Glasgow",
+    "date": "1684-01-22",
+    "year": 1684,
+    "place": "Dublin, Ireland (court venue only)",
+    "country": "ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FCOURT%2FEXCHEQUER%2F0001584141&tab=this",
+    "source_title": "Ireland, Court Of Exchequer Bill Books 1627-1884 — Thomas Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Exchequer bill books vol. 5 p.102 (22 Jan 1684) and vol.12 p.121 (15 May 1701) are already assessed with original images in Thomas-3556 findings. Dublin is court venue, not birthplace/residence; case dates are not birth dates. Exact provider transcript IDs are not yet canonical/source-index IDs. Indexed factual fields: Archive = National Archives of Ireland; Bill book = Equity Exchequer Bill Books 1684-1686; Country = Ireland; County = Dublin; Date = 22/01/1684; First name(s) = Thomas; Last name = Glasgow; Page = 102; Place = Dublin; Record set = Ireland, Court Of Exchequer Bill Books 1627-1884; Volume = 5; Year = 1684. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3556": {
+        "role": "established Thomas of Lifford/Raphoe; 1684 defendant and 1701 plaintiff",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/IRE~1COURT~1EXCHEQUER~10001584141; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-r-694338931-1",
+    "provider_record_id": "R_694338931/1",
+    "association": "Kilwinning marriage/banns index, unnamed Glasgow–Smith pair",
+    "person": "unnamed Glasgow and unnamed Smith",
+    "date": "1687-08-06",
+    "year": 1687,
+    "place": "Kilwinning, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694338931%2F1&tab=this",
+    "source_title": "Scotland, Parish Marriages & Banns 1561-1893 — unnamed Glasgow and unnamed Smith",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Two derivative rows are the same 6 Aug 1687 Kilwinning Glasgow–Smith index event. Held Scotland’s People OPR 599/10/325 has both forenames blank; it follows John Glasgow–Bessie Smith 30 Jul 1687 OPR 599/10/324. Do not turn the blank party into John or an additional spouse. Indexed factual fields: Country = Scotland; County = Ayrshire; Last name = Glasgow; Marriage date = 06 Aug 1687; Marriage year = 1687; Place = Kilwinning; Record set = Scotland, Parish Marriages & Banns 1561-1893; Residence = Kilwinning, Ayrshire, Scotland; Spouse's last name = Smith. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3087": {
+        "role": "John/Bessie Smith household is only a possible companion; blank first names prevent assignment",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694338931~11; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Marriages"
+  },
+  {
+    "record_id": "fmp-record-r-694400402-1",
+    "provider_record_id": "R_694400402/1",
+    "association": "Kilwinning marriage/banns index, same unnamed Glasgow–Smith pair",
+    "person": "unnamed Glasgow and unnamed Smith",
+    "date": "1687-08-06",
+    "year": 1687,
+    "place": "Kilwinning, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694400402%2F1&tab=this",
+    "source_title": "Scotland, Parish Marriages & Banns 1561-1893 — unnamed Glasgow and unnamed Smith",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Two derivative rows are the same 6 Aug 1687 Kilwinning Glasgow–Smith index event. Held Scotland’s People OPR 599/10/325 has both forenames blank; it follows John Glasgow–Bessie Smith 30 Jul 1687 OPR 599/10/324. Do not turn the blank party into John or an additional spouse. Indexed factual fields: Country = Scotland; County = Ayrshire; Last name = Glasgow; Marriage date = 06 Aug 1687; Marriage year = 1687; Place = Kilwinning; Record set = Scotland, Parish Marriages & Banns 1561-1893; Spouse's last name = Smith. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3087": {
+        "role": "John/Bessie Smith household is only a possible companion; blank first names prevent assignment",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694400402~11; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Marriages"
+  },
+  {
+    "record_id": "fmp-record-r-694543859-1",
+    "provider_record_id": "R_694543859/1",
+    "association": "Strathblane marriage/banns index, incomplete parties",
+    "person": "unnamed Glasgow and Margaret (surname unrecorded)",
+    "date": "1679-07-24",
+    "year": 1679,
+    "place": "Strathblane, Stirlingshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694543859%2F1&tab=this",
+    "source_title": "Scotland, Parish Marriages & Banns 1561-1893 — unnamed Glasgow and Margaret (surname unrecorded)",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Strathblane 24 Jul 1679 marriage/banns index has blank Glasgow forename and Margaret with blank surname. Neither party is identified to an existing profile; the date is a marriage event, not natal evidence. Indexed factual fields: Country = Scotland; County = Stirlingshire; Last name = Glasgow; Marriage date = 24 Jul 1679; Marriage year = 1679; Place = Strathblane; Record set = Scotland, Parish Marriages & Banns 1561-1893; Spouse's first name(s) = Margaret. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694543859~11; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Marriages"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0226262",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0226262",
+    "association": "Court of Session CS130/343 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1734-05-08",
+    "year": 1734,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0226262&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS130/343, Glasgow and others v Davidson. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS130/343; Date = 8 May 1734; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1734. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-1701-1750-a.json#/records/SCOT~1CRIM~1COURTSESSION~10226262; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0226463",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0226463",
+    "association": "Court of Session CS130/460 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1735-11-12",
+    "year": 1735,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0226463&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS130/460, Reid v Glasgow. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS130/460; Date = 12 Nov 1735; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1735. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-1701-1750-a.json#/records/SCOT~1CRIM~1COURTSESSION~10226463; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0229939",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0229939",
+    "association": "Court of Session CS136/144 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1739-01-23",
+    "year": 1739,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0229939&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS136/144, Glasgow v Ker. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS136/144; Date = 23 Jan 1739; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1739. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1CRIM~1COURTSESSION~10229939; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0245597",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0245597",
+    "association": "Court of Session CS143/24 title deeds",
+    "person": "George Glasgow",
+    "date": "1724",
+    "year": 1724,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0245597&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — George Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. Court of Session CS143/24 title deeds name George Glasgow and Robert Crawford in 1724. Existing Glasgow-1090 findings and dossier preserve the separate legal file; no age, address or family links identify George with that child profile. Indexed factual fields: Archive Reference = CS143/24; Date = 1724; First name(s) = George; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1724. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1CRIM~1COURTSESSION~10245597; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0294276",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0294276",
+    "association": "Court of Session CS226/3897 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1736",
+    "year": 1736,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0294276&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS226/3897, Glasgow v Swinton. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS226/3897; Date = 1736; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1736. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1CRIM~1COURTSESSION~10294276; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0309272",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0309272",
+    "association": "Court of Session CS230/F/1/42 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1743",
+    "year": 1743,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0309272&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS230/F/1/42, Ferguson v Glasgow. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS230/F/1/42; Date = 1743; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1743. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1CRIM~1COURTSESSION~10309272; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0376456",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0376456",
+    "association": "Court of Session CS228/G/1/105 title",
+    "person": "George Glasgow",
+    "date": "1724",
+    "year": 1724,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0376456&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — George Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: existing source already integrated. CS228/G/1/105 names George Glasgow v Stevenson in 1724. Existing Glasgow-1090 findings and separate dossier retain it without identifying George-1090 (born c1627) as litigant. Indexed factual fields: Archive Reference = CS228/G/1/105; Date = 1724; First name(s) = George; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1724. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1CRIM~1COURTSESSION~10376456; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0440941",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0440941",
+    "association": "Court of Session CS232/G/1/19 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1702",
+    "year": 1702,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0440941&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS232/G/1/19, Glasgow and Waddell v Peirie. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS232/G/1/19; Date = 1702; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1702. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-1701-1750-a.json#/records/SCOT~1CRIM~1COURTSESSION~10440941; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0461173",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0461173",
+    "association": "Court of Session CS237/B/2/25 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1748",
+    "year": 1748,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0461173&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS237/B/2/25, Bankhead v Glasgow and others. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS237/B/2/25; Date = 1748; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1748. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1CRIM~1COURTSESSION~10461173; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0469143",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0469143",
+    "association": "Court of Session CS237/E/1/22 title",
+    "person": "unnamed Glasgow litigant",
+    "date": "1743",
+    "year": 1743,
+    "place": "Scotland (Court of Session; locality unspecified)",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0469143&tab=this",
+    "source_title": "Scotland, Court & Criminal Database — unnamed Glasgow litigant",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Court of Session file CS237/E/1/22, Earl of Eglinton v Glasgow. Glasgow could be a litigant surname but title gives no forename, age, natal name or home. Case date is not birth. Given name and party identity absent. Indexed factual fields: Archive Reference = CS237/E/1/22; Date = 1743; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1743. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1CRIM~1COURTSESSION~10469143; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-us-gpc-00191354",
+    "provider_record_id": "US/GPC/00191354",
+    "association": "Maryland Gazette-derived death index for rector at All Hallows",
+    "person": "Rev Patrick Glasgow",
+    "date": "1753-03-15",
+    "year": 1753,
+    "place": "All Hallows, Worcester County, Maryland, United States",
+    "country": "united states",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00191354&tab=this",
+    "source_title": "United States, Early American Vital Records Indexes — Rev Patrick Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched. Maryland Gazette derivative index reports Rev Patrick Glasgow, death 15 Mar 1753, residence Allhallows/Worcester County. Distinctive title and parish fit Glasgow-635, but maintained church history gives death 23 Mar 1753. Do not silently replace the held date; the newspaper row may be misdated/indexed. Death event supplies no natal origin or birth date. Indexed factual fields: Author = Barnes; Collection = United States, Early American Vital Records; Country = United States; Death year = 1753; Event date = 15 Mar 1753; Event place = Wor Co; Event place 2 = Allhallows In That County; Event type = Death; Event type 2 = Residence; Event year = 1753; First name(s) = Rev Patrick; Last name = Glasgow; Principal's first name(s) = Rev Patrick; Principal's last name = Glasgow; Record set = United States, Early American Vital Records Indexes; Relationship = Principal; Sex = Male; State = Maryland; Title = Marriages & Deaths From The Maryland Gazette, 1727-1839. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-635": {
+        "role": "probable existing Rev Patrick, All Hallows rector, Maryland",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/US~1GPC~100191354; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date"
+  },
+  {
+    "record_id": "fmp-record-us-gpc-02448029",
+    "provider_record_id": "US/GPC/02448029",
+    "association": "Transatlantic migration residence index; mixed place field",
+    "person": "Robert Glasgow",
+    "date": "1779",
+    "year": 1779,
+    "place": "Mountgreenan / Monmouth / St Vincent (index string; locations unresolved)",
+    "country": "other",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02448029&tab=this",
+    "source_title": "United States, Transatlantic Migration Indexes — Robert Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Dobson migration index calls Robert Glasgow resident at Mountgreenan, Monmouth, St Vincent in 1779. Robert-1076 later had St Vincent medical links and acquired Mountgreenan in Ayrshire about 1794; the multi-place field may combine localities or later designations. It does not prove 1779 Scottish estate ownership, natal surname origin or birth. The provider’s United States collection label is not evidence the indexed residence was in the United States. Provider country metadata and the named Scottish/Caribbean residences differ; the event country remains unresolved. Indexed factual fields: Author = Dobson; Collection = United States, Transatlantic Migration; Country = United States; Event place = Mountgreenan, Monmouth, St Vincent; Event type = Residence; Event year = 1779; First name(s) = Robert; Last name = Glasgow; Principal's first name(s) = Robert; Principal's last name = Glasgow; Record set = United States, Transatlantic Migration Indexes; Relationship = Principal; Residence year = 1779; Sex = Male; Title = Scots In The West Indies, 1707-1857, Vol 1. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1076": {
+        "role": "compatible Dr Robert of Mountgreenan/St Vincent candidate, not established by this index",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/US~1GPC~102448029; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "event_year_only"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-1656557",
+    "provider_record_id": "SCOT/OPR/BAP/1656557",
+    "association": "Aberdalgie OPR 323/1 p.27 baptism entry, event date unrecorded",
+    "person": "John Glasgow (dated identity unresolved)",
+    "date": "Undated",
+    "year": null,
+    "place": "Aberdalgie, Perthshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F1656557&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow (dated identity unresolved)",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. Aberdalgie OPR 323/1 p.27 says John Glasgow and father last name Glasgow, but Baptism year “1613-1819” merely repeats register range. No event year, date or parent forename; adult baptism and post-1800 event cannot be excluded. Indexed factual fields: Archive reference = OPR 323/1; Baptism year = 1613-1819; Country = Scotland; County = Perthshire; Father's last name = Glasgow; Father's occupation = ?; Father's suffix = ?; Father's title = ?; First name(s) = John; Last name = Glasgow; Page = 27; Place = Aberdalgie; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1613-1819. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~11656557; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1819,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F1656557&tab=this",
+      "reason": "OPR register coverage 1613-1819 bounds the indexed entry before 1900; it is not the event date or birth year."
+    }
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-1656560",
+    "provider_record_id": "SCOT/OPR/BAP/1656560",
+    "association": "Aberdalgie OPR 323/1 p.30 baptism entry, event date unrecorded",
+    "person": "Andrew Glasgow (dated identity unresolved)",
+    "date": "Undated",
+    "year": null,
+    "place": "Aberdalgie, Perthshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F1656560&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Andrew Glasgow (dated identity unresolved)",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. Aberdalgie OPR 323/1 p.30 says Andrew Glasgow but Baptism year “1613-1819” merely repeats register range. No event date or parents; adult baptism and post-1800 event cannot be excluded. Indexed factual fields: Archive reference = OPR 323/1; Baptism year = 1613-1819; Country = Scotland; County = Perthshire; First name(s) = Andrew; Last name = Glasgow; Page = 30; Place = Aberdalgie; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1613-1819. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~11656560; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1819,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F1656560&tab=this",
+      "reason": "OPR register coverage 1613-1819 bounds the indexed entry before 1900; it is not the event date or birth year."
+    }
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3572457",
+    "provider_record_id": "SCOT/OPR/BAP/3572457",
+    "association": "Irvine OPR 595/1 item 1 baptism entry, child/date unrecorded",
+    "person": "unnamed child of Michael Glasgow and Elizabeth Garven",
+    "date": "Undated",
+    "year": null,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3572457&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — unnamed child of Michael Glasgow and Elizabeth Garven",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: identity hold. Irvine OPR 595/1 item 1 names Michael Glasgow and Elizabeth Garven but blank child forename and “1687-1788” as baptism year, which is register coverage. The held Elizabeth-1418 entry has an explicitly assumed 1700 year; this receipt cannot prove it is Elizabeth rather than another child or set a birthday. Indexed factual fields: Archive reference = OPR 595/1; Baptism year = 1687-1788; Country = Scotland; County = Ayrshire; Father's first name(s) = Michael; Father's last name = Glasgow; Item = 1; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Garven; Place = Irvine; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1687-1788. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1418": {
+        "role": "compatible daughter Elizabeth of Michael Glasgow/Elizabeth Garven, but receipt has blank child forename and no date",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1406": {
+        "role": "recorded Michael father household comparison; no changed grade",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~13572457; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1788,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3572457&tab=this",
+      "reason": "OPR register coverage 1687-1788 bounds the indexed entry before 1900; it is not the event date or birth year."
+    }
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3586169",
+    "provider_record_id": "SCOT/OPR/BAP/3586169",
+    "association": "Kilbirnie OPR 596/1 item 1 p.51, John 03 May, year missing",
+    "person": "John Glasgow, son of Revd Mr John Glasgow and Margarat Scot",
+    "date": "Undated",
+    "year": null,
+    "place": "Kirkland, Kilbirnie, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586169&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow, son of Revd Mr John Glasgow and Margarat Scot",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched. Kilbirnie OPR 596/1 item 1 p.51 gives John, 03 May with year “?”, Revd Mr John Glasgow and Margarat Scot at Kirkland. Existing Glasgow-3551 citation gives 3 May 1713 for same couple, but ref 10/55 differs from derivative page 51. The register range 1688-1819 is not birth/baptism year. Do not assign exact year from this receipt alone or confuse later John-3553 baptized in 1717. Indexed factual fields: Archive reference = OPR 596/1; Baptism date = 03 May ?; Baptism year = 1688-1819; Country = Scotland; County = Ayrshire; Father's first name(s) = John; Father's last name = Glasgow; Father's title = Revd Mr; First name(s) = John; Item = 1; Last name = Glasgow; Mother's first name(s) = Margarat; Mother's last name = Scot; Page = 51; Place = Kilbirnie; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1688-1819; Residence = Kirkland. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3551": {
+        "role": "probable existing John child, 3 May 1713 on held NRS citation; derivative year missing",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1077": {
+        "role": "recorded Rev John father comparison only, no grade change",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13586169; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1819,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586169&tab=this",
+      "reason": "OPR register coverage 1688-1819 bounds the indexed entry before 1900; it is not the event date or birth year."
+    }
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3883586",
+    "provider_record_id": "SCOT/OPR/BAP/3883586",
+    "association": "Parents indexed as Robert Glasgow and Porteous",
+    "person": "James Glasgow",
+    "date": "Undated",
+    "year": null,
+    "place": "Crawford & Leadhills",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3883586&tab=this",
+    "source_title": "James Glasgow, undated Crawford & Leadhills OPR index",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: compatible candidate hold. OPR 635/1 item 1 indexes James, father Robert Glasgow, mother surname Porteous, Crawford and Leadhills. The value 1698–1819 is the register/baptism-year range, not James’s event date. It may be a companion to the held 1774 Crawford James index, but this transcript lacks year and mother forename, so do not conflate. Indexed factual fields: Archive reference = OPR 635/1; Baptism year = 1698-1819; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = James; Item = 1; Last name = Glasgow; Mother's last name = Porteous; Place = Crawford & Leadhills; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1698-1819. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3130": {
+        "role": "weak 1774 Crawford James comparison, not identified",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1572": {
+        "role": "same-year comparison with inherited different parents; not excluded by weak estimate",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~13883586; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1819,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3883586&tab=this",
+      "reason": "OPR register range ends in 1819; no child-specific date or year supplied. Baptism year field repeats coverage range."
+    }
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4102030",
+    "provider_record_id": "SCOT/OPR/BAP/4102030",
+    "association": "Parents indexed as Jas Glasgow and Mary Scot",
+    "person": "George Glasgow",
+    "date": "Undated",
+    "year": null,
+    "place": "Wandell & Lamington",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4102030&tab=this",
+    "source_title": "George Glasgow, undated Wandell & Lamington OPR index",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: compatible candidate hold. OPR 659/2 item 2 p.83 names George Glasgow, father Jas, mother Mary Scot, Lamington. The displayed baptism year 1715–1819 is the register range, not event year. The parental pair aligns with George-1529 inherited family but no date or adult identity is established. Indexed factual fields: Archive reference = OPR 659/2; Baptism year = 1715-1819; Country = Scotland; County = Lanarkshire; Father's first name(s) = Jas; Father's last name = Glasgow; First name(s) = George; Item = 2; Last name = Glasgow; Mother's first name(s) = Mary; Mother's last name = Scot; Page = 83; Place = Wandell & Lamington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1715-1819; Residence = Lamington. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1529": {
+        "role": "plausible George child of James/Mary Scott family; inherited c.1769 year is unverified",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1120": {
+        "role": "possible James adult father only; the OPR does not identify his 1738 childhood",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~14102030; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1819,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4102030&tab=this",
+      "reason": "OPR register range ends in 1819; no child-specific date or year supplied. Baptism year field repeats coverage range."
+    }
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-5102894",
+    "provider_record_id": "SCOT/OPR/BAP/5102894",
+    "association": "Parents indexed as James Glasgow and Elizabeth",
+    "person": "Unidentified Glasgow",
+    "date": "Undated",
+    "year": null,
+    "place": "Stitchell & Hume",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5102894&tab=this",
+    "source_title": "- Glasgow, undated Stitchell & Hume OPR index",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. OPR 808/1 item 5 has unnamed Glasgow child, father James, mother Elizabeth, Stitchell & Hume. 1640–1819 is the register year range, not event date. Without child name, date or maternal surname, no individual identity or father-profile assignment is supportable. Indexed factual fields: Archive reference = OPR 808/1; Baptism year = 1640-1819; Country = Scotland; County = Roxburghshire; Father's first name(s) = James; Father's last name = Glasgow; Item = 5; Last name = Glasgow; Mother's first name(s) = Elizabeth; Place = Stitchell & Hume; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1640-1819. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1238": {
+        "role": "possible James/Elizabeth Tait household comparison only",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15102894; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1819,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5102894&tab=this",
+      "reason": "OPR register range ends in 1819; no child-specific date or year supplied. Baptism year field repeats coverage range."
+    }
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0209102",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0209102",
+    "association": "Decreet, Glasgow vs Hamilton",
+    "person": "Unidentified Glasgow litigant",
+    "date": "30 Jul 1674",
+    "year": 1674,
+    "place": "",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0209102&tab=this",
+    "source_title": "Court-session index: Decreet, Glasgow vs Hamilton",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. Court-session index CS98/1167 has an unknown-forename Glasgow party in a 30 Jul 1674 proceeding ('Decreet, Glasgow vs Hamilton'). This is a court-event date and supplies no birth or identifiable person. The Glasgow role may be a surname, but exact litigant identity is unresolved. Indexed factual fields: Archive Reference = CS98/1167; Date = 30 Jul 1674; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1674. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/SCOT~1CRIM~1COURTSESSION~10209102; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "literal_court_event_date",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0209232",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0209232",
+    "association": "Decreet, Glasgow vs Anderson",
+    "person": "Unidentified Glasgow litigant",
+    "date": "22 Feb 1681",
+    "year": 1681,
+    "place": "",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0209232&tab=this",
+    "source_title": "Court-session index: Decreet, Glasgow vs Anderson",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. Court-session index CS98/1237 has an unknown-forename Glasgow party in a 22 Feb 1681 proceeding ('Decreet, Glasgow vs Anderson'). This is a court-event date and supplies no birth or identifiable person. The Glasgow role may be a surname, but exact litigant identity is unresolved. Indexed factual fields: Archive Reference = CS98/1237; Date = 22 Feb 1681; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1681. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/SCOT~1CRIM~1COURTSESSION~10209232; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "literal_court_event_date",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-scot-crim-courtsession-0236599",
+    "provider_record_id": "SCOT/CRIM/COURTSESSION/0236599",
+    "association": "Decreet, Glasgow and others vs Stewart and others",
+    "person": "Unidentified Glasgow litigant",
+    "date": "1694",
+    "year": 1694,
+    "place": "",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FCRIM%2FCOURTSESSION%2F0236599&tab=this",
+    "source_title": "Court-session index: Decreet, Glasgow and others vs Stewart and others",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. Court-session index CS138/2229 has an unknown-forename Glasgow party in a 1694 proceeding ('Decreet, Glasgow and others vs Stewart and others'). This is a court-event date and supplies no birth or identifiable person. The Glasgow role may be a surname, but exact litigant identity is unresolved. Indexed factual fields: Archive Reference = CS138/2229; Date = 1694; First name(s) = [unknown]; Last name = Glasgow; Link = Scottishindexes.com; Record set = Scotland, Court & Criminal Database; Year = 1694. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/SCOT~1CRIM~1COURTSESSION~10236599; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "literal_court_event_year",
+    "record_category": "Courts and legal records"
+  },
+  {
+    "record_id": "fmp-record-gbpr-covenant-028559",
+    "provider_record_id": "GBPR/COVENANT/028559",
+    "association": "-",
+    "person": "William Glasgow",
+    "date": "Undated",
+    "year": null,
+    "place": "Cavers",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028559&tab=this",
+    "source_title": "Covenanter index: William Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched existing person. Derivative Scottish Covenanter index names William Glasgow of Cavers among banished shipwreck survivors at Moul Head of Deerness. The 1679–1688 range belongs to collection, not a birth. Existing Cavers/Ormistoun account is maintained, but Cavers-to-Ulster identity and parentage remain separate. Indexed factual fields: Country = Scotland; County as transcribed = Merse & Teviotdale; First name(s) = William; Last name = Glasgow; Place = Cavers; Place as transcribed = Cavers; Record set = Scottish Covenanters 1679-1688. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-4138": {
+        "role": "leading identified Cavers Covenanter/wreck-survivor account; later Ulster identity remains possible only",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-591": {
+        "role": "possible later traditional Ulster account, not directly identified",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/GBPR~1COVENANT~1028559; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1688,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028559&tab=this",
+      "reason": "Covenanter collection is dated 1679–1688, but this shipwreck-survivor entry supplies no event-specific date."
+    }
+  },
+  {
+    "record_id": "fmp-record-gbpr-covenant-028561",
+    "provider_record_id": "GBPR/COVENANT/028561",
+    "association": "in Overbog",
+    "person": "Unidentified Glasgow",
+    "date": "Sep 1679",
+    "year": 1679,
+    "place": "-",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028561&tab=this",
+    "source_title": "Covenanter index: Unidentified Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: compatible candidate hold. Two September 1679 legal-list records mention an unnamed Glasgow in Overbog, in Irvine/Kilwinning area. They may concern one person across summons and absent-at-Ayr proceedings, but are separate document actions. No forename, birth or secure profile identity; do not interpret summons as guilt or Covenanter status. Indexed factual fields: Archive reference = JC10/19; Country = Scotland; County = Ayrshire; County as transcribed = Ayr; Last name = Glasgow; Place as transcribed = The Tounes and Parochines of Irving and Kilwinning and baronies yrin; Record set = Scottish Covenanters 1679-1688. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/GBPR~1COVENANT~1028561; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "month_in_source_description"
+  },
+  {
+    "record_id": "fmp-record-gbpr-covenant-028562",
+    "provider_record_id": "GBPR/COVENANT/028562",
+    "association": "in Overbog",
+    "person": "Unidentified Glasgow",
+    "date": "12–15 Sep 1679",
+    "year": 1679,
+    "place": "-",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028562&tab=this",
+    "source_title": "Covenanter index: Unidentified Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: compatible candidate hold. Two September 1679 legal-list records mention an unnamed Glasgow in Overbog, in Irvine/Kilwinning area. They may concern one person across summons and absent-at-Ayr proceedings, but are separate document actions. No forename, birth or secure profile identity; do not interpret summons as guilt or Covenanter status. Indexed factual fields: Archive reference = JC26/50/3/A; Country = Scotland; County = Ayrshire; County as transcribed = Ayr; Last name = Glasgow; Place as transcribed = The Tounes and Parochines of Irving and Kilwinning and baronies yrin; Record set = Scottish Covenanters 1679-1688. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/GBPR~1COVENANT~1028562; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "range_in_source_description"
+  },
+  {
+    "record_id": "fmp-record-ire-nai-genabs-00325438-1",
+    "provider_record_id": "IRE/NAI/GENABS/00325438/1",
+    "association": "Index Faminarum",
+    "person": "Glasgow surname heading",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00325438%2F1&tab=this",
+    "source_title": "Genealogy abstract: Glasgow surname heading",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. This NAI genealogy-abstract index shows Glasgow only as a surname/subject heading, with no first name, event year or person role. Notebook or series date ranges are coverage spans, not dates for a Glasgow individual. Betham's Genealogical Abstracts Dublin Marr. Lics. F-Y 1804-1806 Indexed factual fields: Archive = National Archives of Ireland; Collection = Betham's genealogical abstracts; Country = Ireland; Dead = No; Last name = Glasgow; Married = No; Notebook = Betham's Genealogical Abstracts Dublin Marr. Lics. F-Y 1804-1806; Record set = Betham Genealogical Abstracts; Series description = Genealogical abstracts, series 5: 18th century. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/IRE~1NAI~1GENABS~100325438~11; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1806,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00325438%2F1&tab=this",
+      "reason": "Notebook title bounds Dublin marriage-licence index to 1804–1806; no Glasgow individual or event date is supplied."
+    },
+    "record_category": "Family history"
+  },
+  {
+    "record_id": "fmp-record-ire-nai-genabs-00400857-1",
+    "provider_record_id": "IRE/NAI/GENABS/00400857/1",
+    "association": "Betham Genealogical Abstracts",
+    "person": "Glasgow surname heading",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00400857%2F1&tab=this",
+    "source_title": "Genealogy abstract: Glasgow surname heading",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. This NAI genealogy-abstract index shows Glasgow only as a surname/subject heading, with no first name, event year or person role. Notebook or series date ranges are coverage spans, not dates for a Glasgow individual. Betham's Genealogical Abstracts Prerog. Admons. (Int.) G. 1776-1800 H. 1595-1668. Indexed factual fields: Archive = National Archives of Ireland; Collection = Genealogical abstracts of records of the Prerogative Court of Armagh; Country = Ireland; Dead = No; Last name = Glasgow; Married = No; Notebook = Betham's Genealogical Abstracts Prerog. Admons. (Int.) G. 1776-1800 H. 1595-1668.; Record set = Betham Genealogical Abstracts. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/IRE~1NAI~1GENABS~100400857~11; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1800,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00400857%2F1&tab=this",
+      "reason": "Notebook title lists G administrations through 1800; no Glasgow individual or event date is supplied."
+    },
+    "record_category": "Family history"
+  },
+  {
+    "record_id": "fmp-record-ire-nai-genabs-00859808-1",
+    "provider_record_id": "IRE/NAI/GENABS/00859808/1",
+    "association": "Lands Index Co Antrim 1739-1810",
+    "person": "Glasgow surname heading",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00859808%2F1&tab=this",
+    "source_title": "Genealogy abstract: Glasgow surname heading",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: scope hold. This NAI genealogy-abstract index shows Glasgow only as a surname/subject heading, with no first name, event year or person role. Notebook or series date ranges are coverage spans, not dates for a Glasgow individual. Lands Index Co Antrim 1739-1810 Indexed factual fields: Archive = National Archives of Ireland; Collection = Crossle's genealogical abstracts collection; Country = Ireland; Dead = No; File = Mccance & Mckean; Last name = Glasgow; Married = No; Record set = Crossle Genealogical Abstracts; Series description = Crossle genealogical abstracts (Parcel 1A-32-23 v. M cont.). Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/IRE~1NAI~1GENABS~100859808~11; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1810,
+      "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00859808%2F1&tab=this",
+      "reason": "Lands Index source title bounds coverage to 1739–1810; no Glasgow individual or event date is supplied."
+    },
+    "record_category": "Family history"
+  },
+  {
+    "record_id": "fmp-record-us-gpc-02448030",
+    "provider_record_id": "US/GPC/02448030",
+    "association": "United States, Transatlantic Migration Indexes",
+    "person": "Robert Glasgow",
+    "date": "1784",
+    "year": 1784,
+    "place": "Montgreenan, Ayrshire",
+    "country": "other",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02448030&tab=this",
+    "source_title": "Robert Glasgow, 1784 compiled residence index",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: compatible candidate hold. Dobson derivative migration index combines Montgreenan/Ayrshire, Montgreen and Sans Souci in St Vincent, and St Vincent, with residence 1784, span 1784–1831 and 1795. The 1784 Montgreenan reading predates the maintained 1794 estate acquisition claim; treat coordinates as source-specific and not proof of ownership or exact travel. Distinctive estate and island fit Robert-1076, identity probable but compilation should be checked. Provider country metadata and the named Scottish/Caribbean residences differ; the event country remains unresolved. Indexed factual fields: Author = Dobson; Collection = United States, Transatlantic Migration; Country = United States; Event place = Montgreenan, Ayrshire; Event place 2 = Montgreen and Sans Souci, St Vincent; Event place 3 = St Vincent; Event type = Residence; Event type 2 = Residence; Event type 3 = Residence; Event year 2 = 1784-1831; Event year 3 = 1795; First name(s) = Robert; Last name = Glasgow; Principal's first name(s) = Robert; Principal's last name = Glasgow; Record set = United States, Transatlantic Migration Indexes; Relationship = Principal; Residence year = 1784; Sex = Male; Title = Scots In The West Indies, 1707-1857, Vol 1. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1076": {
+        "role": "probable Robert of Montgreenan/St Vincent comparison, but composite index does not independently establish every residence date",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/US~1GPC~102448030; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "literal_residence_year"
+  },
+  {
+    "record_id": "fmp-record-us-gpc-02500460",
+    "provider_record_id": "US/GPC/02500460",
+    "association": "United States, Transatlantic Migration Indexes",
+    "person": "Robert Glasgow",
+    "date": "1821",
+    "year": 1821,
+    "place": "Mount Greenan",
+    "country": "other",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02500460&tab=this",
+    "source_title": "Robert Glasgow, 1821 compiled residence index",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched existing person. Dobson vol.2 derivative index gives Robert Glasgow residence at Mount Greenan in 1821. The distinctive estate designation and 1821 chronology fit Glasgow-1076, but this is residence, not birth; original underlying citation remains unchecked. Provider country metadata and the named Scottish/Caribbean residences differ; the event country remains unresolved. Indexed factual fields: Author = Dobson; Collection = United States, Transatlantic Migration; Country = United States; Event place = Mount Greenan; Event type = Residence; Event year = 1821; First name(s) = Robert; Last name = Glasgow; Principal's first name(s) = Robert; Principal's last name = Glasgow; Record set = United States, Transatlantic Migration Indexes; Relationship = Principal; Residence year = 1821; Sex = Male; Title = Scots In The West Indies, 1707-1857, Vol 2. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1076": {
+        "role": "probable Robert of Mountgreenan adult; estate designation aligns with maintained evidence",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701-root.json#/records/US~1GPC~102500460; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "date_status": "literal_residence_year"
+  },
+  {
+    "record_id": "fmp-record-r-685327264",
+    "provider_record_id": "R_685327264",
+    "association": "George Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "George Glasgow",
+    "date": "1800",
+    "year": 1800,
+    "place": "Kilmarnock, Ayr, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685327264&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — George Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records George Glasgow, indexed birth year 1800, Kilmarnock, parents John Glasgow and Margaret Wyllie. Current catalogue child/profile and findings support existing subject Glasgow-3393 under Glasgow-3298. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-3298, current birth before 1755-04-19. Current identity qualifications are retained. Indexed factual fields: Baptism place = KILMARNOCK, AYR, SCOTLAND; Birth place = Kilmarnock, Ayr, Scotland; Birth year = 1800; Country = Scotland; County = Ayrshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = George; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Wyllie; Place = Kilmarnock; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = Kilmarnock, Ayrshire, Scotland; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3393": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-3298": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685327264; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686154294",
+    "provider_record_id": "R_686154294",
+    "association": "Peter Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Peter Glasgow",
+    "date": "1806",
+    "year": 1806,
+    "place": "Canongate, Edinburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686154294&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peter Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records Peter Glasgow, indexed birth year 1806, Edinburgh; named father is John Glasgow, mother Jean Brice. John-1460 is an Edinburgh-born c.1785 profile with Jean Bryce as spouse and an established child sequence. This 1806 Peter transcript has a compatible name/place pattern, but no exact child profile or unique event crosswalk. Candidate hold only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1460, current birth c. 1785. Current identity qualifications are retained. Indexed factual fields: Baptism place = CANONGATE, EDINBURGH, MIDLOTHIAN, SCOTLAND; Birth place = Canongate, Edinburgh, Midlothian, Scotland; Birth year = 1806; Country = Scotland; County = Midlothian; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Peter; Last name = Glasgow; Mother's first name(s) = Jean; Mother's last name = Brice; Place = Edinburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = Edinburgh, Midlothian, Scotland; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1460": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686154294; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693549797",
+    "provider_record_id": "R_693549797",
+    "association": "Peter Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Peter Glasgow",
+    "date": "1806",
+    "year": 1806,
+    "place": "Canongate, Edinburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693549797&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peter Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records Peter Glasgow, indexed birth year 1806, Edinburgh; named father is John Glasgow, mother Jean Brice. John-1460 is an Edinburgh-born c.1785 profile with Jean Bryce as spouse and an established child sequence. This 1806 Peter transcript has a compatible name/place pattern, but no exact child profile or unique event crosswalk. Candidate hold only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1460, current birth c. 1785. Current identity qualifications are retained. Indexed factual fields: Birth place = Canongate, Edinburgh, Midlothian, Scotland; Birth year = 1806; Country = Scotland; County = Midlothian; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Peter; Last name = Glasgow; Mother's first name(s) = Jean; Mother's last name = Brice; Place = Edinburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1460": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693549797; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686157069",
+    "provider_record_id": "R_686157069",
+    "association": "Peter Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Peter Glasgow",
+    "date": "1808",
+    "year": 1808,
+    "place": "Canongate, Edinburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686157069&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peter Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Peter Glasgow, indexed birth year 1808, Edinburgh, parents John Glasgow and Jean Bryce. Current catalogue child/profile and findings support existing subject Glasgow-1461 under Glasgow-1460. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1460, current birth c. 1785. Current identity qualifications are retained. Indexed factual fields: Baptism place = CANONGATE, EDINBURGH, MIDLOTHIAN, SCOTLAND; Birth place = Canongate, Edinburgh, Midlothian, Scotland; Birth year = 1808; Country = Scotland; County = Midlothian; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Peter; Last name = Glasgow; Mother's first name(s) = Jean; Mother's last name = Bryce; Place = Edinburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = Edinburgh, Midlothian, Scotland; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1461": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1460": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686157069; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693549798",
+    "provider_record_id": "R_693549798",
+    "association": "Peter Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Peter Glasgow",
+    "date": "1808",
+    "year": 1808,
+    "place": "Canongate, Edinburgh, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693549798&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peter Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Peter Glasgow, indexed birth year 1808, Edinburgh, parents John Glasgow and Jean Bryce. Current catalogue child/profile and findings support existing subject Glasgow-1461 under Glasgow-1460. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1460, current birth c. 1785. Current identity qualifications are retained. Indexed factual fields: Birth place = Canongate, Edinburgh, Midlothian, Scotland; Birth year = 1808; Country = Scotland; County = Midlothian; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Peter; Last name = Glasgow; Mother's first name(s) = Jean; Mother's last name = Bryce; Place = Edinburgh; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1461": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1460": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693549798; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686287158",
+    "provider_record_id": "R_686287158",
+    "association": "Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Glasgow",
+    "date": "23 Dec 1829",
+    "year": 1829,
+    "place": "South Leith, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686287158&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records - Glasgow, indexed birth year 1829, South Leith; named father is John Glasgow. John-1460 is a c.1785 Edinburgh profile with existing local family context, but this unnamed South Leith infant gives no mother or unique family detail. Candidate comparison only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Earlier-parent eligibility comparison: Glasgow-1460, current birth c. 1785. Current identity qualifications are retained. Indexed factual fields: Baptism place = SOUTH LEITH, MIDLOTHIAN, SCOTLAND; Birth place = South Leith, Midlothian, Scotland; Birth year = 1829; Country = Scotland; County = Midlothian; Death date = 23 Dec 1829; Death year = 1829; Father's first name(s) = John; Father's last name = Glasgow; Last name = Glasgow; Place = South Leith; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = South Leith, Midlothian, Scotland; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1460": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686287158; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686416985",
+    "provider_record_id": "R_686416985",
+    "association": "Robert Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Robert Glasgow",
+    "date": "1847",
+    "year": 1847,
+    "place": "Haddington, East Lothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686416985",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Robert Glasgow, indexed birth year 1847, Haddington, parents Peter Glasgow and Agnes Scott. Current catalogue child/profile and findings support existing subject Glasgow-1459 under Glasgow-1450. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1450, current birth before 1790-10-31. Current identity qualifications are retained. Indexed factual fields: Baptism place = HADDINGTON, EAST LOTHIAN, SCOTLAND; Birth place = Haddington, East Lothian, Scotland; Birth year = 1847; Country = Scotland; County = Haddingtonshire (East Lothian); Father's first name(s) = Peter; Father's last name = Glasgow; First name(s) = Robert; Last name = Glasgow; Mother's first name(s) = Agnes; Mother's last name = Scott; Place = Haddington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = Haddington, East Lothian, Scotland; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1459": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1450": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686416985; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686424418",
+    "provider_record_id": "R_686424418",
+    "association": "Isabella Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Isabella Glasgow",
+    "date": "1843",
+    "year": 1843,
+    "place": "Haddington, East Lothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686424418&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Isabella Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Isabella Glasgow, indexed birth year 1843, Haddington, parents Peter Glasgow and Agnes Scott. Current catalogue child/profile and findings support existing subject Glasgow-1458 under Glasgow-1450. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1450, current birth before 1790-10-31. Current identity qualifications are retained. Indexed factual fields: Baptism place = HADDINGTON, EAST LOTHIAN, SCOTLAND; Birth place = Haddington, East Lothian, Scotland; Birth year = 1843; Country = Scotland; County = Haddingtonshire (East Lothian); Father's first name(s) = Peter; Father's last name = Glasgow; First name(s) = Isabella; Last name = Glasgow; Mother's first name(s) = Agnes; Mother's last name = Scott; Place = Haddington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Residence = Haddington, East Lothian, Scotland; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1458": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1450": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686424418; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-689171318",
+    "provider_record_id": "R_689171318",
+    "association": "Isabella Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Isabella Glasgow",
+    "date": "1843",
+    "year": 1843,
+    "place": "Haddington, East Lothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_689171318&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Isabella Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Isabella Glasgow, indexed birth year 1843, Haddington, parents Peter Glasgow and Agnes Scott. Current catalogue child/profile and findings support existing subject Glasgow-1458 under Glasgow-1450. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1450, current birth before 1790-10-31. Current identity qualifications are retained. Indexed factual fields: Birth place = Haddington, East Lothian, Scotland; Birth year = 1843; Country = Scotland; County = Haddingtonshire (East Lothian); Father's first name(s) = Peter; Father's last name = Glasgow; First name(s) = Isabella; Last name = Glasgow; Mother's first name(s) = Agnes; Mother's last name = Scott; Place = Haddington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1458": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1450": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_689171318; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-689703252",
+    "provider_record_id": "R_689703252",
+    "association": "Mary Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Mary Glasgow",
+    "date": "1824",
+    "year": 1824,
+    "place": "Glasgow, Lanark, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_689703252&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Mary Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records Mary Glasgow, indexed birth year 1824, Glasgow; named father is John Glasgow, mother Elizabeth Campbell. John-2721 has an uncertain 1795 birth profile and a tree-listed spouse Elizabeth Campbell; no evidence ties this Mary Glasgow event to their household. Candidate comparison only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Earlier-parent eligibility comparison: Glasgow-2721, current birth 1795 (uncertain). Current identity qualifications are retained. Indexed factual fields: Birth place = Glasgow, Lanark, Scotland; Birth year = 1824; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Mary; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Campbell; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2721": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_689703252; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-689704934",
+    "provider_record_id": "R_689704934",
+    "association": "Lillias Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Lillias Glasgow",
+    "date": "1828",
+    "year": 1828,
+    "place": "Glasgow, Lanark, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_689704934&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Lillias Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records Lillias Glasgow, indexed birth year 1828, Glasgow; named father is John Glasgow, mother Elizabeth Campbell. John-2721 has an uncertain 1795 birth profile and a tree-listed spouse Elizabeth Campbell; no evidence ties this Lillias Glasgow event to their household. A separate local Glasgow child account has a different mother; do not force a match. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Earlier-parent eligibility comparison: Glasgow-2721, current birth 1795 (uncertain). Current identity qualifications are retained. Indexed factual fields: Birth place = Glasgow, Lanark, Scotland; Birth year = 1828; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Lillias; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Campbell; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2721": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1489": {
+        "role": "Same-name Gorbals/Glasgow profile with a before-16-Oct-1828 boundary, but its recorded parents are James Glasgow and Jean Cunningham, unlike this transcript’s John Glasgow and Elizabeth Campbell. Keep as a conflicting comparison, not a match.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_689704934; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-689709369",
+    "provider_record_id": "R_689709369",
+    "association": "Elizabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elizabeth Glasgow",
+    "date": "1831",
+    "year": 1831,
+    "place": "Glasgow, Lanark, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_689709369&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elizabeth Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records Elizabeth Glasgow, indexed birth year 1831, Glasgow; named father is John Glasgow, mother Elizabeth Campbell. John-2721 has an uncertain 1795 birth profile and a tree-listed spouse Elizabeth Campbell; no evidence ties this Elizabeth Glasgow event to their household. Candidate comparison only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Earlier-parent eligibility comparison: Glasgow-2721, current birth 1795 (uncertain). Current identity qualifications are retained. Indexed factual fields: Birth place = Glasgow, Lanark, Scotland; Birth year = 1831; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Elizabeth; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Campbell; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2721": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1541": {
+        "role": "Near-year Barony profile candidate, but its current recorded parents are Robert Glasgow and Janet Gilmour, unlike this transcript’s John Glasgow and Elizabeth Campbell. Keep as a conflicting comparison, not a match.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_689709369; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690427249",
+    "provider_record_id": "R_690427249",
+    "association": "Elisabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elisabeth Glasgow",
+    "date": "1804",
+    "year": 1804,
+    "place": "Barony,Lanark,Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690427249&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elisabeth Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Elisabeth Glasgow, indexed birth year 1804, Barony, Glasgow, parents John Glasgow and Helen Smith. Current catalogue child/profile and findings support existing subject Glasgow-1354 under Glasgow-1348. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1348, current birth c. 1770. Current identity qualifications are retained. Indexed factual fields: Birth place = Barony,Lanark,Scotland; Birth year = 1804; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Elisabeth; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1354": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1348": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690427249; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-690428295",
+    "provider_record_id": "R_690428295",
+    "association": "Jean Buchanan Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Buchanan Glasgow",
+    "date": "1809",
+    "year": 1809,
+    "place": "Barony,Lanark,Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690428295&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Buchanan Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Jean Buchanan Glasgow, indexed birth year 1809, Barony, Glasgow, parents John Glasgow and Helen Smith. Current catalogue child/profile and findings support existing subject Glasgow-1356 under Glasgow-1348. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1348, current birth c. 1770. Current identity qualifications are retained. Indexed factual fields: Birth place = Barony,Lanark,Scotland; Birth year = 1809; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Jean Buchanan; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1356": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1348": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690428295; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691314299",
+    "provider_record_id": "R_691314299",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "date": "1815",
+    "year": 1815,
+    "place": "Glasgow, Lanark, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691314299&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Jean Glasgow, indexed birth year 1815, Glasgow, parents James Glasgow and Jean Cunningham. Current catalogue child/profile and findings support existing subject Glasgow-1484 under Glasgow-1483. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1483, current birth c. 1790. Current identity qualifications are retained. Indexed factual fields: Birth place = Glasgow, Lanark, Scotland; Birth year = 1815; Country = Scotland; County = Lanarkshire; Father's first name(s) = James; Father's last name = Glasgow; First name(s) = Jean; Last name = Glasgow; Mother's first name(s) = Jean; Mother's last name = Cunningham; Place = Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1484": {
+        "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1483": {
+        "role": "Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_691314299; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693224767",
+    "provider_record_id": "R_693224767",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "1827",
+    "year": 1827,
+    "place": "Barony,Lanark,Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693224767&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records John Glasgow, indexed birth year 1827, Barony, Glasgow; named father is Alexander Glasgow, mother Helen Smith. Alexander-971 is an independently dated Barony-born profile with a tree-listed spouse Ellen (Smith) Glasgow. Transcript names mother Helen Smith and no matching child profile was found; comparison only, not assignment. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-971, current birth 1792-11-01. Current identity qualifications are retained. Indexed factual fields: Birth place = Barony,Lanark,Scotland; Birth year = 1827; Country = Scotland; County = Lanarkshire; Father's first name(s) = Alexander; Father's last name = Glasgow; First name(s) = John; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-971": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693224767; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0416762",
+    "provider_record_id": "SCOT/OPR/BAP/0416762",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "01 Jul 1827",
+    "year": 1827,
+    "place": "Barony",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0416762&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. Findmypast transcript/index records John Glasgow, indexed birth year 1827, Barony, Glasgow; named father is Alexander Glasgow, mother Helen Smith. Alexander-971 is an independently dated Barony-born profile with a tree-listed spouse Ellen (Smith) Glasgow. Transcript names mother Helen Smith and no matching child profile was found; comparison only, not assignment. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-971, current birth 1792-11-01. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 622/8; Birth date = 01 Jul 1827; Birth year = 1827; Country = Scotland; County = Lanarkshire; Father's first name(s) = Alexander; Father's last name = Glasgow; Father's occupation = Merchant; First name(s) = John; Item = 2; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Page = 294; Place = Barony; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1819-1829; Residence = Blythewood. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-971": {
+        "role": "Compatible candidate parent profile only; no parent assignment or child identity conclusion.",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10416762; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693251004",
+    "provider_record_id": "R_693251004",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "1801",
+    "year": 1801,
+    "place": "Barony,Lanark,Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693251004&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Current catalogue lists Glasgow-1535 (John Glasgow) under Glasgow-1530 (Robert Glasgow); the cached transcript gives the same named father, maternal household, child name and birth year. Record details vary in precision; do not treat a year-only receipt as an exact date. Cache also contains a likely companion receipt for the same indexed child event: SCOT/OPR/BAP/0398590. Treat as one event pending source comparison. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1530, current birth 1760 (uncertain; findings describe the 17 Feb 1760 baptism and retain adult identity as inferred). Current identity qualifications are retained. Indexed factual fields: Birth place = Barony,Lanark,Scotland; Birth year = 1801; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robert; Father's last name = Glasgow; First name(s) = John; Last name = Glasgow; Mother's first name(s) = Elizabeth; Mother's last name = Jack; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1530": {
+        "role": "Named father matched to existing catalogue father via the maintained matching child entry; no relationship grade change is proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1535": {
+        "role": "Existing child profile matching the record subject/name and birth year; used only as the maintained family bridge.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693251004; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0398590",
+    "provider_record_id": "SCOT/OPR/BAP/0398590",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "22 Mar 1801",
+    "year": 1801,
+    "place": "Barony",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0398590&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Current catalogue lists Glasgow-1535 (John Glasgow) under Glasgow-1530 (Robert Glasgow); the cached transcript gives the same named father, maternal household, child name and birth year. Record details vary in precision; do not treat a year-only receipt as an exact date. Cache also contains a likely companion receipt for the same indexed child event: SCOT/OPR/BAP/0398590. Treat as one event pending source comparison. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1530, current birth 1760 (uncertain; findings describe the 17 Feb 1760 baptism and retain adult identity as inferred). Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 622/4; Birth date = 22 Mar 1801; Birth year = 1801; Country = Scotland; County = Lanarkshire; Father's first name(s) = Robt; Father's last name = Glasgow; Father's occupation = Weaver; First name(s) = John; Item = 2; Last name = Glasgow; Mother's first name(s) = Eliz; Mother's last name = Jack; Page = 197; Place = Barony; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1797-1807; Residence = Bridgeton. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1530": {
+        "role": "Named father matched to existing catalogue father via the maintained matching child entry; no relationship grade change is proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1535": {
+        "role": "Existing child profile matching the record subject/name and birth year; used only as the maintained family bridge.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10398590; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693252390",
+    "provider_record_id": "R_693252390",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "1807",
+    "year": 1807,
+    "place": "Barony,Lanark,Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693252390&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Current catalogue lists Glasgow-1355 (John Glasgow) under Glasgow-1348 (John Glasgow); the cached transcript gives the same named father, maternal household, child name and birth year. Record details vary in precision; do not treat a year-only receipt as an exact date. Cache also contains a likely companion receipt for the same indexed child event: SCOT/OPR/BAP/0402993. Treat as one event pending source comparison. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1348, current birth about 1770 (estimated catalogue birth; findings retain uncertainty between competing John accounts). Current identity qualifications are retained. Indexed factual fields: Birth place = Barony,Lanark,Scotland; Birth year = 1807; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = John; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Male. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1348": {
+        "role": "Named father matched to existing catalogue father via the maintained matching child entry; no relationship grade change is proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1355": {
+        "role": "Existing child profile matching the record subject/name and birth year; used only as the maintained family bridge.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_693252390; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0402993",
+    "provider_record_id": "SCOT/OPR/BAP/0402993",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "13 Feb 1807",
+    "year": 1807,
+    "place": "Barony",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0402993&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: matched parent. Current catalogue lists Glasgow-1355 (John Glasgow) under Glasgow-1348 (John Glasgow); the cached transcript gives the same named father, maternal household, child name and birth year. Record details vary in precision; do not treat a year-only receipt as an exact date. Cache also contains a likely companion receipt for the same indexed child event: SCOT/OPR/BAP/0402993. Treat as one event pending source comparison. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained. Earlier-parent eligibility comparison: Glasgow-1348, current birth about 1770 (estimated catalogue birth; findings retain uncertainty between competing John accounts). Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 622/4; Birth date = 13 Feb 1807; Birth year = 1807; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = John; Item = 2; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Page = 465; Place = Barony; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1797-1807; Residence = Anderston. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1348": {
+        "role": "Named father matched to existing catalogue father via the maintained matching child entry; no relationship grade change is proposed.",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-1355": {
+        "role": "Existing child profile matching the record subject/name and birth year; used only as the maintained family bridge.",
+        "timeline_group": "Records mentioning this person"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10402993; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3589860",
+    "provider_record_id": "SCOT/OPR/BAP/3589860",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "date": "04 Aug 1836",
+    "year": 1836,
+    "place": "Kilbirnie",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3589860&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-803, current birth Current people-index birth_year=1788 (exact); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 596/2; Birth date = 04 Aug 1836; Birth year = 1836; Country = Scotland; County = Ayrshire; Father's first name(s) = James; Father's last name = Glasgow; Father's occupation = Weaver; First name(s) = John; Item = 2; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Anderson; Page = 45; Place = Kilbirnie; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854; Residence = Cockranstreet. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-803": {
+        "role": "candidate father: catalogue birth 1788 exact and associated spouse surname Anderson; no exact child match checked",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~13589860; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3609451",
+    "provider_record_id": "SCOT/OPR/BAP/3609451",
+    "association": "Thomas Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Thomas Glasgow",
+    "date": "01 Oct 1802",
+    "year": 1802,
+    "place": "Kilmarnock",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3609451&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-3298, current birth Current people-index birth_year=1755 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 597/4; Birth date = 01 Oct 1802; Birth year = 1802; Country = Scotland; County = Ayrshire; Father's first name(s) = John; Father's last name = Glasgow; Father's occupation = Shoemaker; First name(s) = Thomas; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Wyllie; Page = 21; Place = Kilmarnock; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3298": {
+        "role": "candidate only: current findings treat a local John/Margaret Wyllie household as a compatible adult lead, not proved identity",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~13609451; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3609971",
+    "provider_record_id": "SCOT/OPR/BAP/3609971",
+    "association": "Margaret Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Margaret Glasgow",
+    "date": "09 Feb 1805",
+    "year": 1805,
+    "place": "Kilmarnock",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3609971&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Margaret Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-3298, current birth Current people-index birth_year=1755 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 597/4; Birth date = 09 Feb 1805; Birth year = 1805; Country = Scotland; County = Ayrshire; Father's first name(s) = John; Father's last name = Glasgow; Father's occupation = Shoemaker; First name(s) = Margaret; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Wyllie; Page = 76; Place = Kilmarnock; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3298": {
+        "role": "candidate only: current findings treat a local John/Margaret Wyllie household as a compatible adult lead, not proved identity",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~13609971; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3610370",
+    "provider_record_id": "SCOT/OPR/BAP/3610370",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "date": "07 Feb 1807",
+    "year": 1807,
+    "place": "Kilmarnock",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3610370&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-3298, current birth Current people-index birth_year=1755 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 597/4; Birth date = 07 Feb 1807; Birth year = 1807; Country = Scotland; County = Ayrshire; Father's first name(s) = John; Father's last name = Glasgow; Father's occupation = Shoemaker; First name(s) = Jean; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Wyllie; Page = 113; Place = Kilmarnock; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-3298": {
+        "role": "candidate only: current findings treat a local John/Margaret Wyllie household as a compatible adult lead, not proved identity",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~13610370; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4099915",
+    "provider_record_id": "SCOT/OPR/BAP/4099915",
+    "association": "Marion Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Marion Glasgow",
+    "date": "25 Mar 1838",
+    "year": 1838,
+    "place": "Symington",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099915&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Marion Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 25 Mar 1838; Birth year = 1838; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = Marion; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854; Residence = Burnmouth of Covington. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2915": {
+        "role": "candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2876": {
+        "role": "candidate father: profile birth 1783 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~14099915; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4099916",
+    "provider_record_id": "SCOT/OPR/BAP/4099916",
+    "association": "William Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "William Glasgow",
+    "date": "17 Feb 1840",
+    "year": 1840,
+    "place": "Symington",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099916&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 17 Feb 1840; Birth year = 1840; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = William; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854; Residence = Culterhouse. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2915": {
+        "role": "candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2876": {
+        "role": "candidate father: profile birth 1783 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14099916; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4099917",
+    "provider_record_id": "SCOT/OPR/BAP/4099917",
+    "association": "Margaret Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Margaret Glasgow",
+    "date": "05 Apr 1845",
+    "year": 1845,
+    "place": "Symington",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099917&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Margaret Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 05 Apr 1845; Birth year = 1845; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = Margaret; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-2915": {
+        "role": "candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-2876": {
+        "role": "candidate father: profile birth 1783 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~14099917; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4695024",
+    "provider_record_id": "SCOT/OPR/BAP/4695024",
+    "association": "Isabella Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Isabella Glasgow",
+    "date": "22 May 1853",
+    "year": 1853,
+    "place": "Haddington",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4695024&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Isabella Glasgow",
+    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-1450, current birth Current people-index birth_year=1790 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 709/7; Birth date = 22 May 1853; Birth year = 1853; Country = Scotland; County = Haddingtonshire (East Lothian); Father's first name(s) = Peter; Father's last name = Glasgow; First name(s) = Isabella; Item = 3; Last name = Glasgow; Mother's first name(s) = Agnes; Mother's last name = Scott; Page = 338; Place = Haddington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "profiles": {
+      "Glasgow-1450": {
+        "role": "candidate only: catalogue birth 1790 uncertain and spouse Agnes Scott; no matching Isabella child/profile checked",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14695024; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true
   }
 ]

@@ -1,0 +1,193 @@
+{
+  "screened": 180,
+  "selected_provider_records": 69,
+  "documentary_groups": 62,
+  "not_indexed": 111,
+  "undated": 11,
+  "dossiers_checked": 41,
+  "source_readers_checked": 69,
+  "global_search_rows_compared": 4871,
+  "coverage": "INCOMPLETE",
+  "captured_provider_records": 275,
+  "next_query_page": 8,
+  "publication": {
+    "selected_accounts": 41,
+    "findings_files": 42,
+    "new_failing_items": 0,
+    "existing_baseline_items": 1,
+    "existing_baseline": "Glasgow-635: SOURCE_ONLY_IN_INTERNAL_SECTION",
+    "retained_nonfatal_warnings": [
+      "Two older conclusion dates on reused Hugh evidence",
+      "Seven overview age warnings"
+    ],
+    "privacy": "Existing Glasgow-4138 proposal withheld; safe new findings remain visible"
+  },
+  "tests": {
+    "command": ".venv/bin/python -m unittest tests.test_ingest_canonical_records tests.test_source_collection_index",
+    "passed": 47
+  },
+  "assets": {
+    "mode": "targeted source ingest and 41-account sync; reuse its scoped publication gate",
+    "source_head": "29ce9bfb0bc6cb1badaca445d35a3d472402f33f",
+    "latest": {
+      "latest_findings_assets": 1,
+      "latest_findings": 21,
+      "latest_findings_subject_pages": 25,
+      "tree_research_status": 1,
+      "profile_tree_links": 3
+    },
+    "study": {
+      "study_pages_updated": 1,
+      "study_pages": 1,
+      "authored_stories": 1
+    },
+    "backlinks": {
+      "output": "/Users/m/genealogy/wikitree-api-scrape/www/data/person-links.json",
+      "changed": false,
+      "people": 4863,
+      "people_withheld_skipped": 0,
+      "people_with_any_link": 4807,
+      "people_with_studies": 3950,
+      "people_with_places": 4391,
+      "people_with_sources": 4501,
+      "people_with_findings": 1653,
+      "people_with_research": 657,
+      "people_with_mentioned_by": 1101,
+      "study_pages": 347,
+      "place_pages": 1264,
+      "study_pages_with_places": 347,
+      "place_pages_with_studies": 1102,
+      "entries_dropped_by_privacy_screen": {},
+      "most_mentioned": [
+        {
+          "id": "Glasgow-951",
+          "name": "Alexander Glasgow",
+          "mentioned_by_people": 38,
+          "mentioning_sections": 95
+        },
+        {
+          "id": "Glasgow-991",
+          "name": "James Glasgow",
+          "mentioned_by_people": 29,
+          "mentioning_sections": 61
+        },
+        {
+          "id": "Glasgow-1073",
+          "name": "John Glasgow M.A",
+          "mentioned_by_people": 27,
+          "mentioning_sections": 48
+        },
+        {
+          "id": "Glasgow-1027",
+          "name": "Rot. Glasgow",
+          "mentioned_by_people": 25,
+          "mentioning_sections": 41
+        },
+        {
+          "id": "Glasgow-12",
+          "name": "Robert Glasgow",
+          "mentioned_by_people": 24,
+          "mentioning_sections": 45
+        },
+        {
+          "id": "Glasgow-822",
+          "name": "John Glasgow and Mary Arthur",
+          "mentioned_by_people": 22,
+          "mentioning_sections": 44
+        },
+        {
+          "id": "Glasgow-1026",
+          "name": "William Walter Glasgow",
+          "mentioned_by_people": 21,
+          "mentioning_sections": 36
+        },
+        {
+          "id": "Glasgow-1144",
+          "name": "James Glasgow",
+          "mentioned_by_people": 21,
+          "mentioning_sections": 29
+        },
+        {
+          "id": "Glascow-14",
+          "name": "Isaac Wesley (Glascow) Glasgow",
+          "mentioned_by_people": 20,
+          "mentioning_sections": 33
+        },
+        {
+          "id": "Glasgow-1024",
+          "name": "James Glasgow II",
+          "mentioned_by_people": 20,
+          "mentioning_sections": 38
+        }
+      ]
+    },
+    "site_search": {
+      "shared_search_assets": 1
+    },
+    "sitemap": {
+      "sitemap_urls": 23467,
+      "sitemap_reader_pages": 1255
+    },
+    "asset_write": {
+      "changed": 24444,
+      "original_stale_references": 24528
+    },
+    "asset_check": [
+      0,
+      0
+    ],
+    "late_source_preservation_versions": {
+      "method": "Completed clean full asset gate, then checked the changed manifest and its complete JS/HTML consumer closure, including ignored generated pages. No other asset changed.",
+      "changed_assets": [
+        "assets/research/core.js",
+        "assets/research/search-worker.js",
+        "assets/unified/data-versions.js"
+      ],
+      "js_writes": 2,
+      "html_consumers_checked": 24444,
+      "references_checked": 48882,
+      "html_writes": 24441,
+      "stale_after_targeted_check": 0
+    }
+  },
+  "resource_inventory": {
+    "browser_windows_opened": 0,
+    "tabs_opened": 0,
+    "task_owned_tabs_remaining": 0,
+    "preserved_existing_tab_ids": [
+      "236297975",
+      "236298062"
+    ],
+    "browser_processes_launched": 0,
+    "pdf_renderers_launched": 0,
+    "memory_free_percent_last_measured": 44,
+    "owned_background_jobs_remaining": 0
+  },
+  "new_provider_fetches": 0,
+  "new_people": 0,
+  "vital_changes": 0,
+  "relationship_changes": 0,
+  "matched_or_candidate_context_records": 47,
+  "source_only_records": 22,
+  "cumulative_records_with_context": 228,
+  "cumulative_source_only_records": 47,
+  "source_identity_preservation": "Covenant028560 retained its canonical ID, maintained place/title and qualified role; no demographics changed.",
+  "local_only": true,
+  "links": {
+    "command": "make check-links",
+    "exit_code": 0,
+    "pages": 25468,
+    "internal_references": 1345176,
+    "broken_links": 7,
+    "baseline_page_target_pairs": 4,
+    "new_pairs": 0,
+    "nongated_missing_person_anchors": 83,
+    "unreferenced_fragments_not_checked": 734
+  },
+  "status": "PASS: selected cached-record integration verified locally; full provider coverage remains INCOMPLETE",
+  "local_cases_manifest": {
+    "path": "data/wikitree/research-catalogue-cases.json",
+    "historical_include_entries_added": 27,
+    "storage": "Existing ignored local project data; retained in place, not force-added to Git."
+  }
+}

@@ -55295,6 +55295,38 @@
         "surname-research/new-people/1812_Canada_Stamford_Samuel_Glasgow.md",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "fmp-cached-gazette-date-conflict-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Rev. Patrick Glasgow: a saved Maryland Gazette derivative index gives 15 March 1753, conflicting with the church histories’ 23 March death date.",
+      "qualification": "Previously captured September evidence newly reconciled, not a new provider capture or original-notice inspection. Retain both readings and the current death field pending the original newspaper notice. No vital, person or relationship change.",
+      "detail_url": "/people/glasgow-635.html",
+      "people": [
+        {
+          "id": "Glasgow-635",
+          "name": "Rev. Patrick Glasgow",
+          "url": "/people/glasgow-635.html",
+          "role": "Existing minister account; date conflict unresolved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast US/GPC/00191354, derivative Maryland Gazette marriages/deaths index",
+          "url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00191354&tab=this"
+        },
+        {
+          "title": "Ford, History of Manokin Presbyterian Church (1910), printed p.16, PDF p.22; prior reviewed source",
+          "url": "https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf#page=22"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     }
   ]
 }

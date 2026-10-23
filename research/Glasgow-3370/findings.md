@@ -51,3 +51,13 @@ Probable 76% for the complete father-profile identification. The baptism names W
 Next useful test: Compare the original Cavers baptism and Ormistoun entries for residence, occupation, witnesses or a relative joining the named father to the documented servant.
 
 This is one selected father replacement, not a new paternal component join. The first 38% rating of the former father and its earlier uncertain/unrated provenance remain preserved in the structured alternative.
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: associated later paternity comparison; not named in this record. Exact provider ID already canonicalized as cavers-ormistoun-servant-1684-held. PC8/8 and PC12/9A are variant lists for one October 1684 servant episode, not two independent people or births.
+
+- [Findmypast GBPR/COVENANT/028560](https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028560&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

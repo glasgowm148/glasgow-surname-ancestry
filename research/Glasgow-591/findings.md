@@ -138,3 +138,13 @@ Sources: [History of the Glasgow Family, attributed to Melanchthon Glasgow: proj
 The source inspection used the existing scanned project copy. Online re-fetch was unavailable; no new contemporary parent record is claimed.
 
 [Full pedigree assessment and retained alternatives](/branches/research-irish-tamlaght/#tyrone-traditional-fathers).
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: possible later traditional Ulster account, not directly identified. Derivative Scottish Covenanter index names William Glasgow of Cavers among banished shipwreck survivors at Moul Head of Deerness. The 1679–1688 range belongs to collection, not a birth. Existing Cavers/Ormistoun account is maintained, but Cavers-to-Ulster identity and parentage remain separate.
+
+- [Findmypast GBPR/COVENANT/028559](https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028559&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

@@ -209,3 +209,17 @@ The next useful test is the original memorial 38213 (volume 57, p.235, agreement
 
 - [National Archives of Ireland, Equity Exchequer Bill Books 1712–1714, volume 18, p.47, image 393](https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635140%2F00393&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001409179)
 - [National Archives of Ireland, Equity Exchequer Bill Books, 24 January 1718, spread ending p.72, image 844](https://search.findmypast.co.uk/record?id=IRE%2FCOURT%2FEXCHEQUER%2F007635158%2F00844&parentid=IRE%2FCOURT%2FEXCHEQUER%2F0001725286)
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: established Thomas of Lifford/Raphoe; 1684 defendant and 1701 plaintiff. Exchequer bill books vol. 5 p.102 (22 Jan 1684) and vol.12 p.121 (15 May 1701) are already assessed with original images in Thomas-3556 findings. Dublin is court venue, not birthplace/residence; case dates are not birth dates. Exact provider transcript IDs are not yet canonical/source-index IDs.
+
+- [Findmypast IRE/COURT/EXCHEQUER/0001527519](https://www.findmypast.co.uk/transcript?id=IRE%2FCOURT%2FEXCHEQUER%2F0001527519&tab=this), saved 3 September 2026.
+
+Role in this account: established Thomas of Lifford/Raphoe; 1684 defendant and 1701 plaintiff. Exchequer bill books vol. 5 p.102 (22 Jan 1684) and vol.12 p.121 (15 May 1701) are already assessed with original images in Thomas-3556 findings. Dublin is court venue, not birthplace/residence; case dates are not birth dates. Exact provider transcript IDs are not yet canonical/source-index IDs.
+
+- [Findmypast IRE/COURT/EXCHEQUER/0001584141](https://www.findmypast.co.uk/transcript?id=IRE%2FCOURT%2FEXCHEQUER%2F0001584141&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

@@ -52,3 +52,13 @@ Next useful test: Compare 1713 occupation/residence with earlier Dean entries.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Hugh Glasgow, 08 Dec 1713, record SCOT/OPR/BAP/3573098](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573098&tab=this)
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: compatible Irvine-age sailor candidate only. Findmypast Dobson row incorrectly assigns 3 Feb 1733 to Hugh; printed Edinburgh testament index gives this Hugh sailor in Irvine, later London, 12 Mar 1751. Existing correction dossier and findings already record the error. Neither date is a birth.
+
+- [Findmypast GBOR/DOBSON/013379](https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F013379&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

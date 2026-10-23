@@ -180,3 +180,21 @@ Scope: Confident99%; the15/18 October event distinction and later exact death da
 Next useful test: Retain this named household anchor while testing outward and upstream joins.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: compatible Dr Robert of Mountgreenan/St Vincent candidate, not established by this index. Dobson migration index calls Robert Glasgow resident at Mountgreenan, Monmouth, St Vincent in 1779. Robert-1076 later had St Vincent medical links and acquired Mountgreenan in Ayrshire about 1794; the multi-place field may combine localities or later designations. It does not prove 1779 Scottish estate ownership, natal surname origin or birth. The provider’s United States collection label is not evidence the indexed residence was in the United States.
+
+- [Findmypast US/GPC/02448029](https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02448029&tab=this), saved 3 September 2026.
+
+Role in this account: probable Robert of Montgreenan/St Vincent comparison, but composite index does not independently establish every residence date. Dobson derivative migration index combines Montgreenan/Ayrshire, Montgreen and Sans Souci in St Vincent, and St Vincent, with residence 1784, span 1784–1831 and 1795. The 1784 Montgreenan reading predates the maintained 1794 estate acquisition claim; treat coordinates as source-specific and not proof of ownership or exact travel. Distinctive estate and island fit Robert-1076, identity probable but compilation should be checked.
+
+- [Findmypast US/GPC/02448030](https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02448030&tab=this), saved 3 September 2026.
+
+Role in this account: probable Robert of Mountgreenan adult; estate designation aligns with maintained evidence. Dobson vol.2 derivative index gives Robert Glasgow residence at Mount Greenan in 1821. The distinctive estate designation and 1821 chronology fit Glasgow-1076, but this is residence, not birth; original underlying citation remains unchecked.
+
+- [Findmypast US/GPC/02500460](https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F02500460&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

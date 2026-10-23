@@ -67,6 +67,10 @@ Repeat `--record-id` for a batch, or use a deliberately reviewed `--source-file`
 
 Review literal country/place conflicts explicitly. The Glasgow surname is not a Scottish-location signal. Age-derived and baptism-derived years need their real roles. Preserve both indexed values when unresolved.
 
+For a historically bounded receipt without an event date, use `year: null`, `date_status: "undated"`, a clear display label, and a cited `historical_basis` with an explanation and either `latest_event_year <= 1900` or an independently proved historical birth bound. A register or collection span can establish that bound; never turn its first year into the person's event year. Without a defensible bound, retain a scope HOLD without publishing potentially modern details.
+
+When enriching an existing canonical row, preserve its maintained place, source title and other substantive fields when the reused receipt is blank, a dash or less specific. Keep the literal blank separately from the reviewed account; do not erase an established location while reusing its record ID. Qualify actual conflicting readings explicitly.
+
 Follow `docs/website-research-sync.md` for targeted synchronization. Relevant maintained entry points include:
 
 - `tools/sync_catalogue_research.py --write <IDs>` for findings, proposals, public person accounts and browser search derivatives.

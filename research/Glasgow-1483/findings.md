@@ -61,3 +61,13 @@ Check the original Govan baptism, especially the date and any occupation or resi
 - [Contributed James Glasgow tree: Jane Cunningham family; useful parentage lead but conflicting circa-1850 death](https://www.ancestry.com/genealogy/records/james-glasgow-24-1tkzv0m)
 - [Contributed Lilias Stewart account; partner Samuel estimated 1763, birth source unverified](https://ancestors.familysearch.org/en/K81S-7JB/lilias-stewart-1766)
 - [Jean L. Nelson Siemens, Samuel Glasgow journal, FamilySearch book 395015, viewer image 28 / printed p.22; machine text only](https://www.familysearch.org/library/books/viewer/395015/?offset=0#page=28&viewer=picture&o=ocr)
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: Named Glasgow father in the current child-family assessment; reuse existing parent identity and scoped grade.. Findmypast transcript/index records Jean Glasgow, indexed birth year 1815, Glasgow, parents James Glasgow and Jean Cunningham. Current catalogue child/profile and findings support existing subject Glasgow-1484 under Glasgow-1483. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date.
+
+- [Findmypast R_691314299](https://www.findmypast.co.uk/transcript?id=R_691314299&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->

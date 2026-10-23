@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+The saved Maryland Gazette derivative index gives 15 March 1753, conflicting with the church histories’ 23 March. Retain the existing death field and both readings pending the original notice; this source does not change the son’s 95% or upstream father’s 26% assessment.
+
 **Reviewed 23 October 2026:** the existing son [James Glasgow-634](/people/glasgow-634.html) is **95% confident**, from 47%, following the explicit biographical father clause and the already reviewed All Hallows career. The selected father [John-3161](/people/glasgow-3161.html) remains uncertain at 26%; neither the 1700 Scottish identity nor the inherited circa-1680 Irish birth is proved. The earlier clerical, migration and childhood evidence below retains those limits.
 
 ## Source findings
@@ -85,3 +87,13 @@ The records support Reverend Patrick Glasgow's Maryland ministry from 1736 and
 death in 1753, not a birth in Ireland about 1680. A major biographical source
 for his son calls the reverend a native of Scotland. The profile should be
 removed from the seventeenth-century Irish count unless an Irish event is found.
+
+<!-- BEGIN FMP-CACHE-NEXT-20261023 -->
+## Saved Findmypast source and parent-role review — 23 October 2026
+
+Role in this account: probable existing Rev Patrick, All Hallows rector, Maryland. Maryland Gazette derivative index reports Rev Patrick Glasgow, death 15 Mar 1753, residence Allhallows/Worcester County. Distinctive title and parish fit Glasgow-635, but maintained church history gives death 23 Mar 1753. Do not silently replace the held date; the newspaper row may be misdated/indexed. Death event supplies no natal origin or birth date.
+
+- [Findmypast US/GPC/00191354](https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00191354&tab=this), saved 3 September 2026.
+
+Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-NEXT-20261023 -->
