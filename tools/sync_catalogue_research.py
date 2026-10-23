@@ -157,6 +157,27 @@ def write_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
 
+CATALOGUE_UPDATE_FIELDS = (
+    "needs_wikitree_update", "wikitree_update_summary",
+    "wikitree_update_relationship_changes", "wikitree_update_significance",
+)
+
+
+def merge_catalogue_updates(updates):
+    """Apply this sync's update fields to the latest shared rows, never its snapshot."""
+    path = WEB / "data/catalogue-search-index.json"
+    rows = read_json(path)
+    for row in rows:
+        changes = updates.get(row["id"], {})
+        row.update({key: changes[key] for key in CATALOGUE_UPDATE_FIELDS if key in changes})
+    write_json(path, rows)
+    (WEB / "data/people-index.js").write_text(
+        "window.glasgowPeopleIndex=" + json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n",
+        encoding="utf-8",
+    )
+    return rows
+
+
 def update_data(update):
     if not update:
         return None
@@ -439,6 +460,7 @@ def _run():
     manifest_path = ROOT / "data/wikitree/research-catalogue-cases.json"
     cases = read_json(manifest_path).get("cases", {}) if manifest_path.exists() else {}
     report, missing, checked, refreshed_profiles = {}, [], 0, []
+    catalogue_updates = {}
     branch_profiles = set()
     no_research_section = []
     updates_withheld = []
@@ -517,6 +539,7 @@ def _run():
                             wikitree_update_summary=update["summary"] if update else "",
                             wikitree_update_relationship_changes=(update or {}).get('relationship_changes') or [],
                             wikitree_update_significance=int(update["significance"]) if update else 0)
+        catalogue_updates[slug] = {key: by_slug[slug][key] for key in CATALOGUE_UPDATE_FIELDS}
         write_json(path, dossier)
         if not soup.select_one(".person-dossier-readable"):
             html_path.write_text(rendered, encoding="utf-8")
@@ -524,12 +547,12 @@ def _run():
         # updated dossier model; legacy pages keep their direct refresh.
         refreshed_profiles.append(dossier["id"])
     if args.write and report:
-        write_json(WEB / "data/catalogue-search-index.json", rows)
-        (WEB / "data/people-index.js").write_text("window.glasgowPeopleIndex=" + json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
+        rows = merge_catalogue_updates(catalogue_updates)
         # The hierarchy pass writes the approved presentation fields, then
         # refreshes the derived Bio/Marriage catalogue search fields.
         from repair_person_hierarchy import repair as repair_person_hierarchy
         repair_person_hierarchy(refreshed_profiles)
+        rows = read_json(WEB / "data/catalogue-search-index.json")
         refresh_catalogue_summaries(rows)
     branch_changes = refresh_family_branch_parents(branch_profiles, write=args.write)
     index_exit = 0
