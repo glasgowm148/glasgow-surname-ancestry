@@ -4,7 +4,7 @@
   "profiles": {
     "Glasgow-1367": {
       "current_sha256": "474bff955b867d19580cc1ca1336ae7bb59724575a8f11ab5e29b935defcafd6",
-      "proposed_sha256": "fcd268b90715260793524f1c2135bdebd2cf82844357893bbcfa7fafad404ead",
+      "proposed_sha256": "1340b1f7c699c883db7f71e57433b71ebc059af7c36d757e7f7b4ba77372565f",
       "all_substantive_passages_accounted_for": true,
       "all_prior_source_urls_retained": true,
       "previous_full_proposal_preserved": true,
@@ -12,11 +12,12 @@
       "previous_preservation_review": "research/ancestry-connections/glenleslie-brother-preservation-2026-10-18.json",
       "draft_path": "research/Glasgow-1367/glenleslie-father-review-2026-10-22.wiki",
       "private_comparison": false,
-      "preservation_basis": "The fresh captured biography matches the prior passage-level review. The entire previous complete proposal is retained, with only the new Glenleslie research note inserted; no prior narrative or sources removed."
+      "preservation_basis": "The complete previous draft is retained, with the original-reading correction and explicitly possible selection added before labelled earlier assessments. Original sources, relatives, vital facts and alternative identities remain. Private comparison stays private where already withheld.",
+      "previous_proposed_sha256": "fcd268b90715260793524f1c2135bdebd2cf82844357893bbcfa7fafad404ead"
     },
     "Glasgow-1022": {
       "current_sha256": "c2df07fa23f373746604e901dc8a71a503a10e357702664bea2b1191c50517b7",
-      "proposed_sha256": "314b84098e0ae21e3927530e6ae5bd5ba5c847bd6d9c0f0da98ff1243f91d6ad",
+      "proposed_sha256": "0295c977329c600f97b6b2d643f2990b452a1bce02cdf3fb327a2da7c7667fe0",
       "all_substantive_passages_accounted_for": true,
       "all_prior_source_urls_retained": true,
       "previous_full_proposal_preserved": true,
@@ -24,7 +25,8 @@
       "previous_preservation_review": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
       "draft_path": "data/private/high-impact-review-2026-10-22/Glasgow-1022.wiki",
       "private_comparison": true,
-      "preservation_basis": "The fresh captured biography matches the prior passage-level review. The entire previous complete proposal is retained, with only the new Glenleslie research note inserted; no prior narrative or sources removed."
+      "preservation_basis": "The complete previous draft is retained, with the original-reading correction and explicitly possible selection added before labelled earlier assessments. Original sources, relatives, vital facts and alternative identities remain. Private comparison stays private where already withheld.",
+      "previous_proposed_sha256": "314b84098e0ae21e3927530e6ae5bd5ba5c847bd6d9c0f0da98ff1243f91d6ad"
     }
   }
 }

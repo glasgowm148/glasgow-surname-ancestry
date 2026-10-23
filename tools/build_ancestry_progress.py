@@ -81,20 +81,30 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
             if value is None:
                 previous = state
                 continue
+            # An assessed alternative supplies the prior pair percentage, but
+            # was never a selected father finding in the measured pedigree.
+            if index != len(states)-1 and (state.get('lifecycle') == 'alternative'
+                                          or state.get('display') == 'alternative'):
+                previous = {**state, 'probability_percent': value}
+                continue
             prior_father = (previous or {}).get('relative_id') or (previous or {}).get('prior_selected_father')
             changed_father = bool(prior_father and prior_father != father)
             before = None if changed_father else percent(previous or {})
-            if before == value:
-                previous = state
-                continue
             probability = state.get('probability') or {}
             provenance = assertion.get('provenance') or {}
-            new = before is None and (changed_father or bool(provenance.get('new_local_documentary_person'))
-                                      or provenance.get('new_father_attachment') is True)
+            newly_selected = (index == len(states)-1
+                              and provenance.get('new_father_attachment') is True
+                              and (previous or {}).get('working_selection') is False)
+            new = newly_selected or (before is None and (
+                changed_father or bool(provenance.get('new_local_documentary_person'))
+                or provenance.get('new_father_attachment') is True))
+            if before == value and not newly_selected:
+                previous = state
+                continue
             rows.append(dict(
                 assertion_id=assertion['assertion_id'], child=person(child), father=person(father),
                 date=state.get('assessment_date') or state.get('reviewed') or probability.get('reviewed'),
-                saved_order=len(rows), kind='change' if before is not None else 'new' if new else 'first',
+                saved_order=len(rows), kind='new' if new else 'change' if before is not None else 'first',
                 before_percent=before, after_percent=value,
                 previous_assessment=saved_state(previous), assessment_status=state.get('status') or state.get('assessment_status'),
                 source_ids=state.get('source_ids') or probability.get('source_ids') or [],

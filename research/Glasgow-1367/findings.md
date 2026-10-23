@@ -1,34 +1,14 @@
 # Findings: Glasgow-1367
 
-Last updated: 2026-10-18
+Last updated: 2026-10-23
 
 ## Current conclusion
 
-Reviewed 22 October 2026. The Glenleslie John–Robert father comparison is individually assessed at **18%, uncertain and unselected**. The census transcription’s first-marriage field is a substantive counterweight. [Current comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
+**Reviewed 23 October 2026:** [John Glasgow-1022](/people/glasgow-1022.html) is now the selected **possible working father, 38%**, for the man recorded at Glenleslie in 1851. Previously John was an unselected 18% comparison and an unnamed uncertain scaffold occupied the father field. The original marriage heading weakens the express-first-marriage objection; compatible generation and neighbouring Antrim farming households support the selection. Only 1791 is reported and no parent statement joins the men, so the link remains weak. Unknown Glasgow-3905 is retained as an unselected uncertain alternative. No mother is assigned and the unresolved Lisnagaver identity is not adopted.
 
-Reviewed18 October2026: **Hugh Glasgow-3956 is selected as a probable brother,74%, of the1851 Glenleslie Robert; the old uncertain son interpretation is superseded locally. This does not resolve this account’s Lisnagaver identity or other attached children.**
+Hugh Glasgow-3956 remains a probable brother at 74%, with the niece/bride identity limitation; this does not automatically establish his father. Robert’s will still proves daughter Margaret-3955 and her children James and Mary Young, supports death about1852 and probate13February1854, and supplies no father for the Young children. Those established family findings and the alternative identities are retained below.
 
-The National Archives of Ireland copy of Robert Glasgow's will resolves the
-Young grandchildren and supplies a defensible death estimate. Robert made the
-will at Glenleslie on 3 February 1851. He directly named **his daughter
-Margaret Glasgow** and left her his farm and effects for life; after her death,
-the property was to pass equally to **James Young and Mary Young, the son and
-daughter of Margaret Glasgow**. The copy says Robert died in or about 1852 and
-that the will was proved on 13 February 1854.
-
-This proves the chain
-`Glasgow-1367` -> `Glasgow-3955` -> `Young-78755` and the same maternal link
-for James Young. The will does not name James and Mary's father. The similar
-`Young-23682`, born about 1837 in Ireland, remains a possible later identity for
-James, but no record links him to Glenleslie, so no separate profile or
-relationship has been added.
-
-[Primary source: Robert Glasgow of Glenleslie, will dated 3 February 1851,
-proved 13 February 1854, National Archives of Ireland copy, FamilySearch image
-229.](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-MQQJ?view=fullText)
-
-The live profile now gives Robert's documented County Antrim birthplace and an
-estimated death about 1852. His parents remain unproved.
+[Current shared comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
 
 ## Prior research context
 
@@ -122,7 +102,7 @@ missing bridge.
 | [PRONI Guide to Church Records](https://www.proni.gov.uk/files/proni/2026-01/PRONI%20Guide%20to%20Church%20Records.pdf), Rasharkin Presbyterian `MIC1P/292` | The surviving Rasharkin Presbyterian baptism register begins in 1834 and its marriage register in 1845. | Neither register can supply Robert's circa-1779 baptism or reported 1803 marriage. The absence of a parent record is a survival gap, not evidence for Adam. |
 | James McClure Glasgow's missionary journal, Warrnambool obituary transcription, and Victoria Gazette probate notice | A different Robert Glasgow, born about 1814 near Ballymena, was directly called brother by missionaries James and Adam Dickey Glasgow and died at Purnim, Victoria, in 1875. | Excluded collateral family. This Robert is already `Glasgow-1656`, son of the separate Clough/Ballymena household, and cannot support an Adam-of-Inishrush link for Robert of Glenleslie. See `research/Glasgow-1656/findings.md`. |
 
-## Parentage conclusion
+## Earlier parentage conclusion (superseded by the 23 October working selection)
 
 Robert is **unsupported and chronologically implausible** as Adam and Rose's son.
 John `Glasgow-1022` is only a weak locality candidate: houses 21 and 23 were
@@ -484,7 +464,7 @@ Seek a record carrying Mary or her father specifically between Glenleslie and th
 
 [Family comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-hugh-robert-brothers).
 
-## Glenleslie father comparison — 22 October 2026
+## Earlier Glenleslie father comparison — 22 October 2026 (superseded)
 
 John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall.
 
@@ -493,3 +473,45 @@ No parent is selected or replaced. The earlier possible but ungraded John compar
 Next useful test: Inspect John’s original Glenleslie household 21 return for age and every marriage-year entry, then seek a named-kin or holding-succession record joining him to Robert. Test collateral relationships and the older Alexander comparison separately.
 
 Source: [1851 census detailed transcription, field definitions PDF page 1 and Glenleslie households 21–23 PDF page 103](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf#page=103). The underlying Robert return is [National Archives of Ireland, Glenleslie household 23](https://nationalarchives.ie/collections/search-the-census/census-record/#id=31234&census_year=1851). [Full comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
+
+## Original Glenleslie return and working family — 23 October 2026
+
+The original 1851 Glenleslie household 21 return records John Glasgow as 100, Rose as 80, and 1791 for both. Its marriage heading asks “In what Year Married, or in what Years if more than once?” The detailed transcription’s first-marriage field is therefore an editorial description, not the literal question on this return. Only 1791 is entered: an earlier union is not documented, and the request for multiple years means its absence still weighs against a straightforward earlier-marriage explanation. The original also calls the forty-year-old John a nephew and gives his occupation as vagrant; the 1839 marriage belongs to him. The mortality table explicitly calls Andrew Glasgow, a thirty-year-old linen weaver who died of consumption in winter 1848, a son of the head. It does not name Andrew’s mother.
+
+[Original census, household 21, names, age and marriage columns; NAI image 007246515_00418](https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246515_00418&c19=true) · [Original mortality and absent-member schedules, image 007246515_00419](https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246515_00419&c19=true). Both one-page source PDFs were visually inspected on 23 October 2026. The [detailed transcription, PDF pages 1 and 103](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf#page=103) is retained as a derivative comparison, not an independent witness.
+
+**Unselected 18% → selected possible father 38%.** Select John Glasgow-1022 as the possible working father of the Glenleslie Robert represented by Glasgow-1367, at 38% subjective confidence. The original makes their reported age difference 28 years (100 versus 72), a comfortable father–son interval. They were Antrim-born Glasgow farmers in Glenleslie households 21 and 23, separated by the Hamill household. This is a specific nearby older family, and John is the best identified local father comparison already retained in the research. Reading the original marriage question removes the previous overstatement that it expressly records a first marriage in 1791. The combined generation and neighbouring-family argument is sufficient to select a weak working model rather than leave this preferred named comparison outside the tree; it is not a parent statement.
+
+38% assesses the complete John-to-Robert profile hypothesis, not the certainty of reading the census. Robert’s census-implied birth about 1778–1779 precedes the sole reported marriage year by roughly twelve years. An earlier union, nonmarital fatherhood or a reporting error would still be needed, and none is established. The original asks for multiple marriage years, so omission of an earlier year remains a real limitation. John’s exceptional age may be inaccurate. An uncle, cousin, other collateral relative or unrepresented father remains possible; the older Alexander comparison is not excluded. Rose’s reported age does not fit her as Robert’s mother, and no mother or earlier wife is assigned. The selection concerns the 1851 Glenleslie man only: it does not identify him with the Lisnagaver tithe occupier, validate every attached child, or prove a Y-DNA pedigree. Hugh-3956’s 74% brother hypothesis includes a separate identity uncertainty and is not automatically assigned this father; his estimated earlier generation also needs its own chronology test. The inherited Unknown Glasgow-3905 is preserved as an uncertain alternative with no invented percentage. No live WikiTree family field is changed.
+
+**Next useful test:** Seek a tenancy succession, church entry, will or named-sibling record joining the Glenleslie household heads; compare an earlier John union and the collateral/older-Alexander explanations. The household-21 original has now been inspected and is no longer an outstanding access task.
+
+### Earlier overall conclusion retained as history
+
+The following was the earlier overall conclusion. The new original reading and selected hypothesis above supersede its first-marriage premise and any instruction to leave Robert’s father unselected; other established facts and open identity questions remain.
+
+Reviewed 22 October 2026. The Glenleslie John–Robert father comparison is individually assessed at **18%, uncertain and unselected**. The census transcription’s first-marriage field is a substantive counterweight. [Current comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
+
+Reviewed18 October2026: **Hugh Glasgow-3956 is selected as a probable brother,74%, of the1851 Glenleslie Robert; the old uncertain son interpretation is superseded locally. This does not resolve this account’s Lisnagaver identity or other attached children.**
+
+The National Archives of Ireland copy of Robert Glasgow's will resolves the
+Young grandchildren and supplies a defensible death estimate. Robert made the
+will at Glenleslie on 3 February 1851. He directly named **his daughter
+Margaret Glasgow** and left her his farm and effects for life; after her death,
+the property was to pass equally to **James Young and Mary Young, the son and
+daughter of Margaret Glasgow**. The copy says Robert died in or about 1852 and
+that the will was proved on 13 February 1854.
+
+This proves the chain
+`Glasgow-1367` -> `Glasgow-3955` -> `Young-78755` and the same maternal link
+for James Young. The will does not name James and Mary's father. The similar
+`Young-23682`, born about 1837 in Ireland, remains a possible later identity for
+James, but no record links him to Glenleslie, so no separate profile or
+relationship has been added.
+
+[Primary source: Robert Glasgow of Glenleslie, will dated 3 February 1851,
+proved 13 February 1854, National Archives of Ireland copy, FamilySearch image
+229.](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ8-MQQJ?view=fullText)
+
+The live profile now gives Robert's documented County Antrim birthplace and an
+estimated death about 1852. His parents remain unproved.

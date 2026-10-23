@@ -65,7 +65,8 @@
     const person = value => `<a href="${esc(value.url)}">${esc(value.name)}</a>${value.wikitree_url ? ` · <a href="${esc(value.wikitree_url)}">WikiTree</a>` : ' · local account'} `;
     byId('findings-count').textContent = `${number(rows.length)} findings · ${byId('findings-all-cohorts').checked ? 'all available cohorts' : cohort === 'fixed' ? 'fixed baseline people' : `through ${cohort}`}`;
     byId('findings-rows').innerHTML = rows.length ? rows.map(row => {
-      const label = row.kind === 'change' ? `${row.before_percent}% → ${row.after_percent}%` : `${row.kind === 'new' ? 'New father connection' : 'First individual rating'} · ${row.after_percent}%`;
+      const percentage = row.before_percent == null ? `${row.after_percent}%` : `${row.before_percent}% → ${row.after_percent}%`;
+      const label = row.kind === 'change' ? percentage : `${row.kind === 'new' ? 'New father connection' : 'First individual rating'} · ${percentage}`;
       const prior = row.previous_assessment;
       return `<tr><td>${esc(row.date || 'Date not recorded')}</td><td>${person(row.child)}<br>Father: ${person(row.father)}${row.identity_hold ? '<br><strong>Identity HOLD · record-defined person; adult identity unresolved</strong>' : ''}</td><td><strong>${esc(label)}</strong>${prior ? `<br>Prior grade: ${esc(grade(prior.status || prior.assessment_status))}` : ''}<br>Reviewed grade: ${esc(grade(row.assessment_status))}</td><td><details><summary>Evidence and assessment reason</summary><p>${esc(row.reason)}</p>${row.limitations ? `<p>${esc(row.limitations)}</p>` : ''}${prior ? `<p>Prior basis: ${esc(prior.source_basis || prior.reason || prior.basis || 'not recorded')}</p>` : ''}<a href="${esc(row.child.url)}">Read the sourced biography</a></details></td></tr>`;
     }).join('') : '<tr><td colspan="4">No findings of this kind are recorded for this cohort. Choose another finding type or include beyond the selected cohort.</td></tr>';

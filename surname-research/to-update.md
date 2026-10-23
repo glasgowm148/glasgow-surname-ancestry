@@ -3991,3 +3991,10 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Glasgow-634](https://www.wikitree.com/wiki/Glasgow-634) | OPEN | Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. |
 | [Glasgow-2492](https://www.wikitree.com/wiki/Glasgow-2492) | OPEN | Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause. |
 | [Glasgow-2476](https://www.wikitree.com/wiki/Glasgow-2476) | OPEN | New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence. |
+
+
+## 23 October 2026 — Glenleslie original and possible father
+
+| [Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022) | OPEN | Add possible son Robert-1367 at38% after inspecting the original marriage heading; correct age100 and nephew John’s vagrant occupation. Preserve the private complete comparison. |
+| [Glasgow-1367](https://www.wikitree.com/wiki/Glasgow-1367) | OPEN | Replace unnamed uncertain father with John-1022 as a possible working father38%; retain the old scaffold as an alternative and qualify the Glenleslie identity. Correct the original census marriage heading and nephew occupation. |
+| [Glasgow-1050](https://www.wikitree.com/wiki/Glasgow-1050) | OPEN | Add the inspected1851 original mortality source explicitly naming Andrew as John’s son; retain99% father confidence, existing dates and all descendant identity limits. |

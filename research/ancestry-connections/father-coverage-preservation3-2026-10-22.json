@@ -517,12 +517,15 @@
     },
     "Glasgow-1050": {
       "current_sha256": "099ea972554cf5869a4c4e52807e3a6ba732110e82efa540eef57ebca10de6f7",
-      "proposed_sha256": "0f9952e1e0b9a3d6e6674f50acb8053f8e9d5a1f493c6a9726349ea454e7066c",
+      "proposed_sha256": "32ac3c1f2e4db265dd6242a1c67e060caa2c7758fe4f1a5eaba77377ed0fdeb0",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1050/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
       "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "0f9952e1e0b9a3d6e6674f50acb8053f8e9d5a1f493c6a9726349ea454e7066c",
+      "previous_full_proposal_preserved": true,
+      "preservation_basis": "The complete previous draft is retained, with the original-reading correction and explicitly possible selection added before labelled earlier assessments. Original sources, relatives, vital facts and alternative identities remain. Private comparison stays private where already withheld."
     },
     "Glasgow-1146": {
       "current_sha256": "1cb000a0a0326c1a9396df0980af270b4b7d76bf251a46c4c7f86171b9beac1b",

@@ -30239,25 +30239,33 @@
   },
   {
     "record_id": "glenleslie-census-john-robert-1851-review",
-    "record_type": "Census transcription and held original comparison",
+    "record_type": "Census return",
     "date": "1851",
     "place": "Glenleslie, Dunaghy, County Antrim, Ireland",
-    "association": "Household 21: John Glasgow, 99, farmer, Antrim-born, marriage year 1791. Household 23: Robert Glasgow, 72, farmer, Antrim-born, marriage year 1803. The transcription defines field 17 as first-marriage year. Neither entry states kinship between the heads.",
-    "source_title": "1851 Irish Census Returns, detailed comma-delimited transcription, field definitions PDF page 1 and Glenleslie households 21–23 PDF page 103",
-    "source_url": "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf#page=103",
-    "source_type": "Named transcription; same census, not an independent second witness",
-    "source_status": "Text and field definitions checked 22 October 2026; Robert’s held original also inspected, John’s original not newly inspected",
-    "status": "Recorded household facts; father relationship unproved",
+    "association": "John Glasgow, 100, farmer; Rose, 80; both marriage 1791. Header asks for year married or years if more than once. Andrew, 30, linen weaver, expressly son, died winter 1848. John, 40, vagrant, nephew, married  1839. Nearby Robert,72,farmer,household 23; no kinship between heads stated.",
+    "source_title": "1851 census of Ireland, Antrim, Dunaghy, Glenleslie household 21, original return, NAI images 007246515_00418–00419; comparison with household 23",
+    "source_url": "https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246515_00418&c19=true",
+    "source_type": "Original census manuscript return",
+    "source_status": "Original household-21 front and mortality schedules visually inspected 23 October 2026; household-23 original retained from earlier inspection",
+    "status": "Original household relationships; John–Robert fatherhood is a selected possible inference at 38%",
     "profiles": {
       "Glasgow-1022": {
-        "role": "Named head of household 21; not named as Robert’s father"
+        "role": "Named head of household21; no explicit father statement concerning Robert"
       },
       "Glasgow-1367": {
-        "role": "Named head of household 23; Glenleslie identity only"
+        "role": "Nearby household23 head; possible son by combined inference38%, not a son clause"
+      },
+      "Glasgow-1050": {
+        "role": "Explicit deceased son in household21 mortality schedule; existing father assessment99% retained"
       }
     },
-    "note": "The first-marriage field strengthens the counterevidence to fatherhood. Do not invent an earlier wife or promote household sequence into a parent clause.",
-    "provenance": "research/ancestry-connections/glenleslie-candidate-review-2026-10-22.json"
+    "note": "The original 1851 Glenleslie household 21 return records John Glasgow as 100, Rose as 80, and 1791 for both. Its marriage heading asks “In what Year Married, or in what Years if more than once?” The detailed transcription’s first-marriage field is therefore an editorial description, not the literal question on this return. Only 1791 is entered: an earlier union is not documented, and the request for multiple years means its absence still weighs against a straightforward earlier-marriage explanation. The original also calls the forty-year-old John a nephew and gives his occupation as vagrant; the 1839 marriage belongs to him. The mortality table explicitly calls Andrew Glasgow, a thirty-year-old linen weaver who died of consumption in winter 1848, a son of the head. It does not name Andrew’s mother. 38% assesses the complete John-to-Robert profile hypothesis, not the certainty of reading the census. Robert’s census-implied birth about 1778–1779 precedes the sole reported marriage year by roughly twelve years. An earlier union, nonmarital fatherhood or a reporting error would still be needed, and none is established. The original asks for multiple marriage years, so omission of an earlier year remains a real limitation. John’s exceptional age may be inaccurate. An uncle, cousin, other collateral relative or unrepresented father remains possible; the older Alexander comparison is not excluded. Rose’s reported age does not fit her as Robert’s mother, and no mother or earlier wife is assigned. The selection concerns the 1851 Glenleslie man only: it does not identify him with the Lisnagaver tithe occupier, validate every attached child, or prove a Y-DNA pedigree. Hugh-3956’s 74% brother hypothesis includes a separate identity uncertainty and is not automatically assigned this father; his estimated earlier generation also needs its own chronology test. The inherited Unknown Glasgow-3905 is preserved as an uncertain alternative with no invented percentage. No live WikiTree family field is changed.",
+    "provenance": "research/ancestry-connections/glenleslie-candidate-review-2026-10-22.json",
+    "year": 1851,
+    "source_classification": "original_manuscript",
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "source_quality": "original_manuscript"
   },
   {
     "record_id": "glasko-isaac-lucy-marriage-1800",

@@ -70,6 +70,24 @@ class IndividualFindingTests(unittest.TestCase):
         self.assertEqual(row['kind'], 'new')
         self.assertIsNone(row['before_percent'])
 
+    def test_selected_former_alternative_keeps_prior_pair_rating(self):
+        prior = dict(status='uncertain', probability_percent=18,
+                     assessment_date='2026-10-22', lifecycle='alternative',
+                     working_selection=False, relative_id='Glasgow-653')
+        for after in [18, 38]:
+            rows = self.rows([prior], after, provenance={'new_father_attachment': True})
+            self.assertEqual(len(rows), 1)
+            self.assertEqual((rows[0]['kind'], rows[0]['before_percent'], rows[0]['after_percent']),
+                             ('new', 18, after))
+            self.assertEqual(rows[0]['previous_assessment']['lifecycle'], 'alternative')
+
+    def test_existing_selected_percentage_change_is_not_new(self):
+        prior = dict(probability_percent=71, working_selection=True)
+        row = next(row for row in self.rows([prior], provenance={'new_father_attachment': True})
+                   if row['after_percent'] == 95)
+        self.assertEqual((row['kind'], row['before_percent'], row['after_percent']),
+                         ('change', 71, 95))
+
     def test_javascript_filters_changes_and_selected_baseline(self):
         script = """
 const {individualFindings:f} = require('./tools/ancestry_progress.js');

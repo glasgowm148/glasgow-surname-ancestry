@@ -1,6 +1,6 @@
 # Findings: Glasgow-1022
 
-Last updated: 2026-10-07
+Last updated: 2026-10-23
 
 ## Live profile correction — 30 August 2026
 
@@ -11,86 +11,9 @@ people and every census detail were retained.
 
 ## Current conclusion
 
-Reviewed 22 October 2026. The Glenleslie John–Robert father comparison is individually assessed at **18%, uncertain and unselected**. The census transcription’s first-marriage field is a substantive counterweight. [Current comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
+**Reviewed 23 October 2026:** John is selected as the **possible working father of [Robert Glasgow-1367](/people/glasgow-1367.html), 38%**, replacing an unselected 18% comparison. The original census records John as 100 and asks for marriage year(s), not expressly a first marriage. Only 1791 is entered, so an earlier union remains unproved and collateral kinship remains a serious alternative. This concerns Robert of Glenleslie, not an established Lisnagaver identity. John’s own selected father remains John-3959 at 27%. Andrew’s explicit son relationship remains 99%; his mother is not identified by the return.
 
-### Collateral update, 13 August 2026
-
-Two new original civil records extend the family without solving John's own
-parentage.
-
-- The 1851 mortality schedule directly identifies Andrew `Glasgow-1050` as
-  John's son. Samuel John `Glasgow-1419`'s 1866 marriage names his father as
-  **Andrew Glasgow, labourer**. The age and County Antrim context make Andrew
-  `Glasgow-1050` the strongest match, but the marriage omits the father's
-  residence, so the father-son identity remains probable rather than certain.
-- John `Glasgow-2407`, later farmer of Cross, named his father as **John
-  Glasgow, farmer** in his original 1865 marriage. He is not the 1851 nephew:
-  the nephew was married from 1839, whereas the 1865 groom was explicitly a
-  bachelor. John-1022 is a possible father, but John `Glasgow-1657` of Cross is
-  a geographically stronger competing candidate. Leave John-2407 parentless.
-
-These results distinguish the married nephew, Robert's son John in America, the
-Lisnagaver John/Samuel brother pair, and the Cross farmer as separate research
-lines.
-
-The newly reviewed Kilwaughter material supplies no evidence that this John was
-a son of Robert Glasgow-1143. The 17 May 1747 discipline entry names no woman or
-child. The 1 April 1772 petition places John under Larne, while Robert Glasgow,
-James Glasgow and Hugh Shannon occur consecutively under Kilwaughter. Remove any
-claim that the discipline case establishes John's father; the structured link
-to Robert-1143 remains unsupported.
-
-The records support two related-looking but not yet connected branches.
-
-- John `Glasgow-867` and Samuel `Glasgow-2908` are proved brothers. John's
-  original 1846 marriage names their likely father as **John Glasgow, farmer**.
-  A family gravestone places the younger John's birth about 1816/17, although
-  his 1851 age implies about 1801. John `Glasgow-1022` is a possible identity
-  for the father, but the later date would make him about sixty-five at the
-  birth and removes the basis for calling him the clear leading candidate. Keep
-  both relationships uncertain and leave their mother blank.
-- Alexander `Glasgow-951` should not be attached as John's son from the Mary
-  evidence. Mary Glasgow was 28 in 1871 and therefore cannot be John's
-  granddaughter Maryan, who was already 17 in 1851.
-- Robert `Glasgow-1367` is not the Robert at Gortereghy. Household adjacency at
-  Glenleslie is insufficient to make him John's son; leave Robert parentless.
-- Daniel `Glasgow-3896` and Thomas `Glasgow-987` are proved brothers. Younger
-  Alexander `Glasgow-951` is a possible brother or cousin. The Gortereghy Robert
-  was most likely Alexander's proved son Robert `Glasgow-938`; without the
-  Alexander–Thomas brother link, an uncle-nephew relationship is not proved.
-- The exact relationship between the John and older-Alexander branches remains
-  unknown. They may have been brothers, making the Lisnagaver heads cousins, but
-  father-son and more distant collateral relationships remain possible.
-
-The fuller 1851 Glenleslie return also exposes three unresolved branches which
-should be pursued rather than forced into existing children. Ann Glasgow, 18,
-and Mary Ann/`Maryan` Glasgow, 17, were explicitly John's granddaughters. Jane
-Grimes, 5, and James Grimes, nine months, were also his grandchildren, implying
-an unidentified child in a Grimes household. A married John Glasgow aged about
-40 was explicitly John's **nephew**, providing direct evidence that John-1022
-had at least one sibling or sibling-equivalent relationship still to identify.
-
-John `Glasgow-2056` is only a candidate for that nephew, not an identification.
-His original 1850 marriage names his father as **Henry Glasgow, farmer**. He can
-be the census nephew only if Henry is independently shown to be John-1022's
-brother or equivalent relative.
-
-The adjacent George household contains George's wife Sarah Alexander, while
-John's household contains his wife Rose Alexander, an unrelated-status visitor
-also named Sarah Alexander and John's brother-in-law William Alexander. This is
-a Glasgow-Alexander local network, but the record does not state how either
-additional Alexander was related to Rose. The earlier Ballyboggy records extend that
-network geographically and chronologically, but do not yet prove John-1022's
-parentage: John Glasgow co-leased Ballyboggy with James Wier in 1740, and James
-Glasgow plus James Glasgow junior occur there among Alexander and Wier occupiers
-in 1825. Ballyboggy directly adjoins Glenleslie.
-
-The current attachment to [[Glasgow-1505|William Glasgow of Larne]] remains a
-valid uncertain working hypothesis, but the 1740 [[Glasgow-3959|John Glasgow of
-Ballyboggy]] is the geographically stronger father-or-grandfather candidate.
-The two models should remain open: neither record names John-1022 as a child.
-
-See [family reconstruction](family_reconstruction.md).
+[Current shared comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
 
 ## Extended-family identity audit, 13 August 2026
 
@@ -388,7 +311,7 @@ Next useful test: Seek a Ballyboggy–Glenleslie succession or named-kin link.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
-## Glenleslie father comparison — 22 October 2026
+## Earlier Glenleslie father comparison — 22 October 2026 (superseded)
 
 John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall.
 
@@ -397,3 +320,100 @@ No parent is selected or replaced. The earlier possible but ungraded John compar
 Next useful test: Inspect John’s original Glenleslie household 21 return for age and every marriage-year entry, then seek a named-kin or holding-succession record joining him to Robert. Test collateral relationships and the older Alexander comparison separately.
 
 Source: [1851 census detailed transcription, field definitions PDF page 1 and Glenleslie households 21–23 PDF page 103](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf#page=103). The underlying Robert return is [National Archives of Ireland, Glenleslie household 23](https://nationalarchives.ie/collections/search-the-census/census-record/#id=31234&census_year=1851). [Full comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
+
+## Original Glenleslie return and working family — 23 October 2026
+
+The original 1851 Glenleslie household 21 return records John Glasgow as 100, Rose as 80, and 1791 for both. Its marriage heading asks “In what Year Married, or in what Years if more than once?” The detailed transcription’s first-marriage field is therefore an editorial description, not the literal question on this return. Only 1791 is entered: an earlier union is not documented, and the request for multiple years means its absence still weighs against a straightforward earlier-marriage explanation. The original also calls the forty-year-old John a nephew and gives his occupation as vagrant; the 1839 marriage belongs to him. The mortality table explicitly calls Andrew Glasgow, a thirty-year-old linen weaver who died of consumption in winter 1848, a son of the head. It does not name Andrew’s mother.
+
+[Original census, household 21, names, age and marriage columns; NAI image 007246515_00418](https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246515_00418&c19=true) · [Original mortality and absent-member schedules, image 007246515_00419](https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246515_00419&c19=true). Both one-page source PDFs were visually inspected on 23 October 2026. The [detailed transcription, PDF pages 1 and 103](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf#page=103) is retained as a derivative comparison, not an independent witness.
+
+**Unselected 18% → selected possible father 38%.** Select John Glasgow-1022 as the possible working father of the Glenleslie Robert represented by Glasgow-1367, at 38% subjective confidence. The original makes their reported age difference 28 years (100 versus 72), a comfortable father–son interval. They were Antrim-born Glasgow farmers in Glenleslie households 21 and 23, separated by the Hamill household. This is a specific nearby older family, and John is the best identified local father comparison already retained in the research. Reading the original marriage question removes the previous overstatement that it expressly records a first marriage in 1791. The combined generation and neighbouring-family argument is sufficient to select a weak working model rather than leave this preferred named comparison outside the tree; it is not a parent statement.
+
+38% assesses the complete John-to-Robert profile hypothesis, not the certainty of reading the census. Robert’s census-implied birth about 1778–1779 precedes the sole reported marriage year by roughly twelve years. An earlier union, nonmarital fatherhood or a reporting error would still be needed, and none is established. The original asks for multiple marriage years, so omission of an earlier year remains a real limitation. John’s exceptional age may be inaccurate. An uncle, cousin, other collateral relative or unrepresented father remains possible; the older Alexander comparison is not excluded. Rose’s reported age does not fit her as Robert’s mother, and no mother or earlier wife is assigned. The selection concerns the 1851 Glenleslie man only: it does not identify him with the Lisnagaver tithe occupier, validate every attached child, or prove a Y-DNA pedigree. Hugh-3956’s 74% brother hypothesis includes a separate identity uncertainty and is not automatically assigned this father; his estimated earlier generation also needs its own chronology test. The inherited Unknown Glasgow-3905 is preserved as an uncertain alternative with no invented percentage. No live WikiTree family field is changed.
+
+**Next useful test:** Seek a tenancy succession, church entry, will or named-sibling record joining the Glenleslie household heads; compare an earlier John union and the collateral/older-Alexander explanations. The household-21 original has now been inspected and is no longer an outstanding access task.
+
+### Earlier overall conclusion retained as history
+
+The following was the earlier overall conclusion. The new original reading and selected hypothesis above supersede its first-marriage premise and any instruction to leave Robert’s father unselected; other established facts and open identity questions remain.
+
+Reviewed 22 October 2026. The Glenleslie John–Robert father comparison is individually assessed at **18%, uncertain and unselected**. The census transcription’s first-marriage field is a substantive counterweight. [Current comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
+
+### Collateral update, 13 August 2026
+
+Two new original civil records extend the family without solving John's own
+parentage.
+
+- The 1851 mortality schedule directly identifies Andrew `Glasgow-1050` as
+  John's son. Samuel John `Glasgow-1419`'s 1866 marriage names his father as
+  **Andrew Glasgow, labourer**. The age and County Antrim context make Andrew
+  `Glasgow-1050` the strongest match, but the marriage omits the father's
+  residence, so the father-son identity remains probable rather than certain.
+- John `Glasgow-2407`, later farmer of Cross, named his father as **John
+  Glasgow, farmer** in his original 1865 marriage. He is not the 1851 nephew:
+  the nephew was married from 1839, whereas the 1865 groom was explicitly a
+  bachelor. John-1022 is a possible father, but John `Glasgow-1657` of Cross is
+  a geographically stronger competing candidate. Leave John-2407 parentless.
+
+These results distinguish the married nephew, Robert's son John in America, the
+Lisnagaver John/Samuel brother pair, and the Cross farmer as separate research
+lines.
+
+The newly reviewed Kilwaughter material supplies no evidence that this John was
+a son of Robert Glasgow-1143. The 17 May 1747 discipline entry names no woman or
+child. The 1 April 1772 petition places John under Larne, while Robert Glasgow,
+James Glasgow and Hugh Shannon occur consecutively under Kilwaughter. Remove any
+claim that the discipline case establishes John's father; the structured link
+to Robert-1143 remains unsupported.
+
+The records support two related-looking but not yet connected branches.
+
+- John `Glasgow-867` and Samuel `Glasgow-2908` are proved brothers. John's
+  original 1846 marriage names their likely father as **John Glasgow, farmer**.
+  A family gravestone places the younger John's birth about 1816/17, although
+  his 1851 age implies about 1801. John `Glasgow-1022` is a possible identity
+  for the father, but the later date would make him about sixty-five at the
+  birth and removes the basis for calling him the clear leading candidate. Keep
+  both relationships uncertain and leave their mother blank.
+- Alexander `Glasgow-951` should not be attached as John's son from the Mary
+  evidence. Mary Glasgow was 28 in 1871 and therefore cannot be John's
+  granddaughter Maryan, who was already 17 in 1851.
+- Robert `Glasgow-1367` is not the Robert at Gortereghy. Household adjacency at
+  Glenleslie is insufficient to make him John's son; leave Robert parentless.
+- Daniel `Glasgow-3896` and Thomas `Glasgow-987` are proved brothers. Younger
+  Alexander `Glasgow-951` is a possible brother or cousin. The Gortereghy Robert
+  was most likely Alexander's proved son Robert `Glasgow-938`; without the
+  Alexander–Thomas brother link, an uncle-nephew relationship is not proved.
+- The exact relationship between the John and older-Alexander branches remains
+  unknown. They may have been brothers, making the Lisnagaver heads cousins, but
+  father-son and more distant collateral relationships remain possible.
+
+The fuller 1851 Glenleslie return also exposes three unresolved branches which
+should be pursued rather than forced into existing children. Ann Glasgow, 18,
+and Mary Ann/`Maryan` Glasgow, 17, were explicitly John's granddaughters. Jane
+Grimes, 5, and James Grimes, nine months, were also his grandchildren, implying
+an unidentified child in a Grimes household. A married John Glasgow aged about
+40 was explicitly John's **nephew**, providing direct evidence that John-1022
+had at least one sibling or sibling-equivalent relationship still to identify.
+
+John `Glasgow-2056` is only a candidate for that nephew, not an identification.
+His original 1850 marriage names his father as **Henry Glasgow, farmer**. He can
+be the census nephew only if Henry is independently shown to be John-1022's
+brother or equivalent relative.
+
+The adjacent George household contains George's wife Sarah Alexander, while
+John's household contains his wife Rose Alexander, an unrelated-status visitor
+also named Sarah Alexander and John's brother-in-law William Alexander. This is
+a Glasgow-Alexander local network, but the record does not state how either
+additional Alexander was related to Rose. The earlier Ballyboggy records extend that
+network geographically and chronologically, but do not yet prove John-1022's
+parentage: John Glasgow co-leased Ballyboggy with James Wier in 1740, and James
+Glasgow plus James Glasgow junior occur there among Alexander and Wier occupiers
+in 1825. Ballyboggy directly adjoins Glenleslie.
+
+The current attachment to [[Glasgow-1505|William Glasgow of Larne]] remains a
+valid uncertain working hypothesis, but the 1740 [[Glasgow-3959|John Glasgow of
+Ballyboggy]] is the geographically stronger father-or-grandfather candidate.
+The two models should remain open: neither record names John-1022 as a child.
+
+See [family reconstruction](family_reconstruction.md).
