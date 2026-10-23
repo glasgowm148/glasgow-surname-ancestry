@@ -9007,25 +9007,50 @@
   },
   {
     "record_id": "held-paterson-puddevenholm-family",
-    "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "James Paterson, History of the County of Ayr, volII, pp252–253; Puddevenholm/Montgreenan family, read alongside retained 1747 baptism and 1803 trust references",
-    "source_title": "James Paterson, History of the County of Ayr, volII, pp252–253; Puddevenholm/Montgreenan family, read alongside retained 1747 baptism and 1803 trust references",
-    "source_url": "https://archive.org/details/historyofcountyoar02pateuoft/page/252/mode/2up",
-    "source_type": "Retained source readings and citations; no new original inspection",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "record_type": "Printed family history",
+    "date": "1852",
+    "place": "Kilbirnie; Kilwinning, Ayrshire, Scotland",
+    "association": "James Paterson, History of the County of Ayr, volII, pp.252–253; Puddevenholm/Montgreenan family, read alongside retained 1747 baptism and 1803 trust references",
+    "source_title": "James Paterson, History of the County of Ayr, volII(1852), printed p.252, Glasgow of Mountgreenan",
+    "source_url": "https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up",
+    "source_type": "Nineteenth-century compiled family history",
+    "source_status": "Printedp.252 visually inspected23 October 2026; original parish entries not newly inspected",
+    "status": "Ann named daughter of Robert of Puddockholm; exact Hugh Allan marriage identifies adult Anna at 95%",
     "profiles": {
       "Glasgow-1142": {
         "role": "Previously cited subject; relationship scope in the father assessment"
       },
       "Glasgow-1076": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-3005": {
+        "role": "Named daughter Ann; exact Hugh Allan marriage/date match identifies adult Anna at 95%"
+      },
+      "Glasgow-1075": {
+        "role": "Named father Robert of Puddockholm, chamberlain/surgeon; daughterAnn family clause"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json"
+    "note": "Printedp.252 names Ann among Robert/MargaretAllan’s children and gives Hugh Allan, Kilwinning,23 December 1757. The page prints Robert’s marriage 15 December 1726 and Jean’s birth 1727, correcting the earlier OCR account. Other legacy uses of this family history retain their individual scope; the book’s later no-issue statement is not accepted over contradictory trust evidence.",
+    "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json",
+    "year": 1852,
+    "country": "Scotland",
+    "source_quality": "late_compiled_history",
+    "source_classification": "late_compiled_history",
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-23",
+    "relationship_review": {
+      "reviewed": "2026-10-23",
+      "provenance": "research/ancestry-connections/anna-paterson-review-2026-10-23.json",
+      "assessments": [
+        {
+          "subject": "Glasgow-3005",
+          "assertion_id": "C-coverage-20261022g-glasgow-3005-father",
+          "percent": 95,
+          "scope": "95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save."
+        }
+      ],
+      "previous_source_url": "https://archive.org/details/historyofcountyoar02pateuoft/page/252/mode/2up"
+    }
   },
   {
     "record_id": "held-e-6a192aaf3185",

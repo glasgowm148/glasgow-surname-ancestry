@@ -2,11 +2,9 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **58% (possible)** for [Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+**Reviewed23 October 2026:** existing father [Robert Glasgow-1075](/people/glasgow-1075.html) is **95% confident**, from 58%. The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.
 
-Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement. Complete selected father-profile proposition; recorded role and adult identification distinguished below.
-
-The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
+95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save.
 
 ## Father confidence review, seventh batch — 22 October 2026
 
@@ -31,3 +29,21 @@ HOLD — Edinburgh OPR 685_2/31 item 2 p.279: Ann Glasgow of Pleasance, age 71, 
 
 [Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
 <!-- END FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+
+## Printed family account checked —23 October 2026
+
+**Existing father 58% → 95% confident.** The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.
+
+95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save.
+
+[James Paterson, History of the County of Ayr, volII(1852), printed p.252, IA leaf 268](https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up). The scanned printed page was visually inspected on23 October 2026.
+
+**Next useful test:** Inspect Anna’s own baptism, a family testament or the cited marriage images for independent identifying kinship; retain the printed family account as a compiled source.
+
+### Previous conclusion retained as history
+
+Current father assessment (22 October 2026): **58% (possible)** for [Glasgow-1075](https://www.wikitree.com/wiki/Glasgow-1075). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement. Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.

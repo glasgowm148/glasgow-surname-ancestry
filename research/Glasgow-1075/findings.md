@@ -17,6 +17,8 @@ This is a separate Kilbirnie generation. It does not identify the North Leith
 glassworks servant of 1694 or connect Robert of Paddockholm to Robert Glaskow of
 Larne.
 
+Daughter Anna-3005’s existing father relationship is now 95% confident from 58%, after checking Paterson’s original printed p.252 and the exact Hugh Allan marriage identity. Other family assessments retain their own scopes.
+
 ## Source findings
 - [National Records of Scotland, RH15/120/178](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=RH15%2F120%2F178), letter from Robert Glasgow, Paddockholm, to his brother James Glasgow, student of divinity at Glasgow, 22 November 1722.
 
@@ -60,9 +62,9 @@ Original image not inspected for this batch. The combined collection’s date do
 <!-- repo-integration-audit-2026-10-07:L08-005 -->
 ## Source findings — Paterson's account of the family, 1726–1764
 
-James Paterson, *History of the County of Ayr*, vol. II (1852), "Glasgow of Mountgreenan" ([archive.org text](https://archive.org/stream/historyofcountyo02pateuoft/historyofcountyo02pateuoft_djvu.txt); cited in `research/Glasgow-1076/findings.md` as pp.252–253), says that Robert Glasgow, baptised 17 October 1693, son of Rev. John Glasgow, minister of Kilbirnie, was **chamberlain to the Viscount of Garnock and surgeon at Kilbirnie**, was styled **of Puddockholm** ("sometimes called the Waters"), and **married Margaret Allan of Ladesyde on 10 December 1726**. They had nine children, "among whom were": Jean, married James White of Woodsyde, Kilwinning parish (the OCR gives 1 October 1750 with a birth year of 1757, so one figure is wrong); Ann, married Hugh Allan in Kilwinning, 23 December 1757; Janet, born 1736, married William Cochran, younger of Ladyland, 2 September 1756, with issue; Margaret, married Andrew Smith of Todholes, Dalry parish, 20 March 1764; Robert of Mountgreenan; and James, who went to St Vincent and died unmarried in Calder parish, near Edinburgh.
+James Paterson, *History of the County of Ayr*, vol. II (1852), "Glasgow of Mountgreenan" ([archive.org text](https://archive.org/stream/historyofcountyo02pateuoft/historyofcountyo02pateuoft_djvu.txt); cited in `research/Glasgow-1076/findings.md` as pp.252–253), says that Robert Glasgow, baptised 17 October 1693, son of Rev. John Glasgow, minister of Kilbirnie, was **chamberlain to the Viscount of Garnock and surgeon at Kilbirnie**, was styled **of Puddockholm** ("sometimes called the Waters"), and **married Margaret Allan of Ladesyde on 15 December 1726**. They had nine children, "among whom were": Jean, married James White of Woodsyde, Kilwinning parish (the printed page gives birth in 1727 and marriage on1 October 1750; the earlier 1757 birth reading was an OCR error); Ann, married Hugh Allan in Kilwinning, 23 December 1757; Janet, born 1736, married William Cochran, younger of Ladyland, 2 September 1756, with issue; Margaret, married Andrew Smith of Todholes, Dalry parish, 20 March 1764; Robert of Mountgreenan; and James, who went to St Vincent and died unmarried in Calder parish, near Edinburgh.
 
-Seen as: OCR text of the printed history pasted into the owner's notes; the printed page was not re-read in this audit. The numbered children appear in a separate part of the notes and are attributed to Paterson by their content. Paterson is a nineteenth-century secondary account, not record evidence: check the marriages in the Kilbirnie, Kilwinning and Dalry registers before any relationship status changes. His statement that Robert of Mountgreenan left no issue conflicts with the trust evidence in Glasgow-1076's findings. The Puddockholm (Paddockholm) designation agrees with the 1722 letter RH15/120/178 above.
+The earlier review used OCR text pasted into the owner’s notes. Printed p.252 was visually checked on 23 October 2026; the family list and the corrected numbers above are now verified readings of that printed page. The underlying parish records were not newly inspected. The numbered children appear in a separate part of the notes and are attributed to Paterson by their content. Paterson is a nineteenth-century secondary family account, rather than a contemporary parish entry. The exact Anna/Hugh Allan marriage match now supports the separately scoped 95% father assessment; the original register images remain a useful independent test. His statement that Robert of Mountgreenan left no issue conflicts with the trust evidence in Glasgow-1076's findings. The Puddockholm (Paddockholm) designation agrees with the 1722 letter RH15/120/178 above.
 
 Recorded in `archive/dump/TheGlasgows.md` (owner's checklist export of 10 March 2025); carried into this file on 7 October 2026.
 
@@ -77,3 +79,11 @@ Scope: The recorded1693 Robert and his named minister father. Paddockholm adult 
 Next useful test: Move effort to the minister’s uncertain parent and brother network, preserving this direct parent clause.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+## Printed family account checked —23 October 2026
+
+Daughter [Anna Glasgow-3005](/people/glasgow-3005.html), wife of Hugh Allan, is now **95% confident**, from 58%. The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.
+
+The page also corrects two errors in the earlier OCR-based source account: Robert’s marriage is printed **15 December 1726**, and Jean’s birth is **1727**. These are readings of Paterson, not new inspections of the underlying parish registers, and no structured vital field is changed. The book’s later no-issue claim for the Mountgreenan son remains in conflict with the already retained trust evidence.
+
+[James Paterson, History of the County of Ayr, volII(1852), printed p.252, IA leaf 268](https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up).

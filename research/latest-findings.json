@@ -55195,6 +55195,52 @@
       "new_paternal_joins": 0,
       "new_original_inspections": 0,
       "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "anna-allan-paterson-father-confidence-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/branches/early-scottish-records/#ayrshire-estates",
+      "provenance": "research/ancestry-connections/anna-paterson-review-2026-10-23.json",
+      "new_father_attachments": 0,
+      "new_original_inspections": 0,
+      "finding": "Anna Glasgow’s existing father Robert of Puddockholm strengthens58% → 95% confident after visual verification of the printed family account.",
+      "qualification": "The named daughter and exact Hugh Allan marriage match identify Anna. Paterson is a compiled history; original parish records were not newly inspected. Mother, vitals and upstream ancestry remain separately assessed.",
+      "people": [
+        {
+          "id": "Glasgow-3005",
+          "name": "Anna Glasgow",
+          "url": "/people/glasgow-3005.html",
+          "role": "Existing daughter"
+        },
+        {
+          "id": "Glasgow-1075",
+          "name": "Robert Glasgow of Puddockholm",
+          "url": "/people/glasgow-1075.html",
+          "role": "Existing father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Paterson1852, vol.II,printed p.252,IA leaf 268",
+          "url": "https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3005",
+          "relative": "Glasgow-1075",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "58% → 95%; printed family clause and exactmarriage identity support the existing father.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-3005-father assessment_history"
+          ]
+        }
+      ]
     }
   ]
 }

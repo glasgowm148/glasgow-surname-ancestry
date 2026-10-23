@@ -7904,7 +7904,15 @@
       },
       "reassessment": "Existing uncertain father → probable local assessment; no new attachment or live certainty change.",
       "identity_scope": "Faris’s Moneymore father core on Glasgow-1024; no upgrade to the Corvanaghan identity or imported biographical package."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Bounded complete-biography review found no new discriminant; confidence unchanged.",
+      "reopen_when": "Inspect the actual Faris passage and cited notes underlying James ofMoneymore; another catalogue description or uncited pedigree repetition is not new evidence."
+    },
+    "last_test": "23 October 2026: Complete adult/sibling accounts and1806letter already support85%; they add no father statement beyond the17October review.",
+    "next_test": "Inspect the actual Faris passage and cited notes underlying James ofMoneymore; another catalogue description or uncited pedigree repetition is not new evidence."
   },
   {
     "assertion_id": "C-review-20261017-moneymore-father-glasgow-649",
@@ -18701,7 +18709,15 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Complete profile placement73%; the recorded father role itself is explicit. This does not identify William with later Polwarth/Cavers or Ulster adults. Derivative transcript, no fresh original inspection."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Bounded complete-biography review found no new discriminant; confidence unchanged.",
+      "reopen_when": "Find a marriage,residence,occupation,witness or property bridge identifying the1612child with Inveresk Thomas, or resolve the1643–1644 overlapping households."
+    },
+    "last_test": "23 October 2026: Literal Thomas/AgnesThomsone Inveresk parent clause is already incorporated; parent profile still combines unbridged1612child and overlapping Linlithgow household.",
+    "next_test": "Find a marriage,residence,occupation,witness or property bridge identifying the1612child with Inveresk Thomas, or resolve the1643–1644 overlapping households."
   },
   {
     "assertion_id": "C-coverage-20261022-glasgow-1158-father",
@@ -52751,17 +52767,18 @@
       "Glasgow-3005",
       "Glasgow-1075"
     ],
-    "status": "possible",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement.",
-    "reason": "Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement.",
-    "claim": "Glasgow-1075 remains the selected father of Glasgow-3005, individually assessed 58%.",
-    "record_scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
-    "limitations": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+    "assessment_date": "2026-10-23",
+    "basis": "The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.",
+    "reason": "The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.",
+    "claim": "Anna Glasgow-3005 has existing father Robert Glasgow-1075, confidently assessed 95%.",
+    "record_scope": "95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save.",
+    "limitations": "95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save.",
     "source_ids": [
+      "held-paterson-puddevenholm-family",
       "held-e-05fbc29e50c0"
     ],
     "assessment_history": [
@@ -52774,17 +52791,28 @@
         "scope": null,
         "claim_id": "C-453905b77484",
         "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through1850 graph,22 October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 58,
+        "assessment_date": "2026-10-22",
+        "basis": "Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement.",
+        "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+        "source_ids": [
+          "held-e-05fbc29e50c0"
+        ],
+        "source_basis": "Saved22 October assessment before visual inspection of the printed Paterson page."
       }
     ],
     "perspectives": {
       "Glasgow-3005": {
         "relationship": "father",
-        "reason": "Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement."
+        "reason": "The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism."
       },
       "Glasgow-1075": {
         "relationship": "daughter",
-        "reason": "Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement."
+        "reason": "The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism."
       }
     },
     "analysis_links": [
@@ -52803,20 +52831,36 @@
         "scope": null,
         "claim_id": "C-453905b77484",
         "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "source_basis": "Pre-batch public dossier and selected through1850 graph,22 October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "research_reassessment": {
+        "previous_percent": 58,
+        "previous_status": "possible",
+        "review_path": "research/ancestry-connections/anna-paterson-review-2026-10-23.json",
+        "new_original_inspection": false,
+        "printed_page_visually_inspected": true
+      }
     },
     "probability": {
-      "value": 0.58,
-      "basis": "Ann is in the inherited surgeon family; her son’s 1781 Kilwinning baptism establishes her adult maternity and uses Glasgow in the child name. It does not name her father. Family locality and chronology support a plausible placement.",
-      "reviewed": "2026-10-22",
+      "value": 0.95,
+      "basis": "The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.",
+      "reviewed": "2026-10-23",
+      "scope": "95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save.",
       "source_ids": [
+        "held-paterson-puddevenholm-family",
         "held-e-05fbc29e50c0"
-      ],
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
-    }
+      ]
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-23",
+      "reason": "Printed family account and exact parish-cited marriage identity reconciled.",
+      "reopen_when": "Inspect Anna’s own baptism, a family testament or the cited marriage images for independent identifying kinship; retain the printed family account as a compiled source."
+    },
+    "last_test": "23 October 2026: printed Paterson1852, vol.IIp.252, IA leaf 268, visually checked; exactAnn/Hugh/date matched complete held biography.",
+    "next_test": "Inspect Anna’s own baptism, a family testament or the cited marriage images for independent identifying kinship; retain the printed family account as a compiled source."
   },
   {
     "assertion_id": "C-coverage-20261022g-glasgow-3423-father",

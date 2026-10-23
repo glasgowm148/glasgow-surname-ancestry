@@ -1,0 +1,81 @@
+{
+  "reviewed": "2026-10-23",
+  "father_confidence_changes": [
+    {
+      "subject": "Glasgow-3005",
+      "relative": "Glasgow-1075",
+      "assertion_id": "C-coverage-20261022g-glasgow-3005-father",
+      "before": 58,
+      "after": 95,
+      "status": "strongly_supported",
+      "basis": "The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.",
+      "scope": "95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save.",
+      "new_father_attachment": false
+    }
+  ],
+  "source_ids": [
+    "held-paterson-puddevenholm-family"
+  ],
+  "source_provenance": {
+    "printed_page": 252,
+    "ia_leaf": 268,
+    "source_url": "https://archive.org/details/historyofcountyo02pateuoft/page/n268/mode/1up",
+    "printed_page_visually_inspected": true,
+    "parish_original_newly_inspected": false
+  },
+  "verification": {
+    "all_historical_father_fields_checked": 1798,
+    "three_tree_models_agree": true,
+    "one_existing_father_crossed_confident": true,
+    "no_new_attachments": true,
+    "all_other_father_fields_unchanged": true,
+    "all_reviewed_vitals_unchanged": true,
+    "full_compact_update_membership_agrees": true,
+    "complete_draft_sources_preserved": true,
+    "individual_progress_changes_verified": true,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "http_routes_checked": 7,
+    "browser_verified": false,
+    "stale_asset_references": 0
+  },
+  "unchanged_high_impact_reviews": [
+    {
+      "subject": "Glasgow-12",
+      "relative": "Glasgow-1024",
+      "assertion_id": "C-review-20261017-moneymore-father-glasgow-12",
+      "finding": "Complete adult/sibling accounts and1806letter already support85%; they add no father statement beyond the17October review.",
+      "next_test": "Inspect the actual Faris passage and cited notes underlying James ofMoneymore; another catalogue description or uncited pedigree repetition is not new evidence.",
+      "confidence_changed": false,
+      "new_source_inspection": false
+    },
+    {
+      "subject": "Glasgow-2462",
+      "relative": "Glasgow-1103",
+      "assertion_id": "C-coverage-20261022-glasgow-2462-father",
+      "finding": "Literal Thomas/AgnesThomsone Inveresk parent clause is already incorporated; parent profile still combines unbridged1612child and overlapping Linlithgow household.",
+      "next_test": "Find a marriage,residence,occupation,witness or property bridge identifying the1612child with Inveresk Thomas, or resolve the1643–1644 overlapping households.",
+      "confidence_changed": false,
+      "new_source_inspection": false
+    },
+    {
+      "subject": "Glasgow-1081",
+      "relative": "Glasgow-3970",
+      "assertion_id": null,
+      "finding": "Complete child biography has no namedparent,spouse or provedchild; community roles/John3913 association cannot independently establish Robert as father.",
+      "next_test": "Inspect NRS GD154/514–515(c1653),525(c1690),530(1692),532(1693–1708) for namedGlasgow holding succession or explicitkin; catalogue descriptions are not contents.",
+      "confidence_changed": false,
+      "new_source_inspection": false
+    },
+    {
+      "subject": "Glasgow-3118",
+      "relative": "Glasgow-3610",
+      "assertion_id": null,
+      "finding": "1667Alexander/MargaretSmith household has no held EasterNewtoun bridge; existing parent review already tested the estimated sibling reconstruction.",
+      "next_test": "Inspect the1667marriage original context for residence,father,cautioner or witnesses linking Alexander to EasterNewtoun John and documentedchildren.",
+      "confidence_changed": false,
+      "new_source_inspection": false
+    }
+  ],
+  "wiki_amendment_reconciliation": "Anna’s former local downgrade proposal is resolved:95% agrees with the captured confident father mark. Keep the Paterson source/biography addition pending; remove the father regrade badge. No live save."
+}

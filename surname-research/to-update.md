@@ -4112,3 +4112,9 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | Profile | Status | Amendment |
 | --- | --- | --- |
 | [Anna Glasgow](https://www.wikitree.com/wiki/Glasgow-3005) | OPEN | Add the checked Paterson p.252 passage and exact Hugh Allan marriage identification. Local father confidence58% → 95% agrees with the captured confident mark; no parent or certainty amendment remains. Complete sourced draft; no live save. |
+
+### Anna Allan father review —23 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Anna Glasgow](https://www.wikitree.com/wiki/Glasgow-3005) | OPEN | Add the checked Paterson p.252 passage and exact Hugh Allan marriage identification. Local father confidence58% → 95% agrees with the captured confident mark; no parent or certainty amendment remains. Complete sourced draft; no live save. |
