@@ -553,16 +553,26 @@
       }
     },
     "Glasgow-1352": {
-      "current_sha256": "55bfa9c9d3b350bc0fac0aa1ef658b0d63b6fcb06996b451fa1dea7caccc73d7",
-      "proposed_sha256": "8fca3ddc5d773f84e29112897d9343840d1df37c85360e63772dca47cfd3da3a",
-      "previous_proposed_sha256": "55bfa9c9d3b350bc0fac0aa1ef658b0d63b6fcb06996b451fa1dea7caccc73d7",
-      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1352.wiki",
-      "all_substantive_passages_accounted_for": true,
+      "reviewed": "2026-10-23",
+      "profile_id": "Glasgow-1352",
       "draft_path": "research/Glasgow-1352/father-confidence-2026-10-22h.wiki",
+      "current_sha256": "55bfa9c9d3b350bc0fac0aa1ef658b0d63b6fcb06996b451fa1dea7caccc73d7",
+      "proposed_sha256": "ee7fb07245b313f738fa2b517b046b089f928f539fe9017552d0427345273c78",
+      "previous_proposed_sha256": "8fca3ddc5d773f84e29112897d9343840d1df37c85360e63772dca47cfd3da3a",
+      "previous_proposed_backup_path": "tmp/findmypast-pages9-11-20261023/previous-proposals/Glasgow-1352.wiki",
+      "all_substantive_passages_accounted_for": true,
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective captured/previous biography, category, parent links, held FamilySearch source, and full 22 October father review retained. Added sourced exact birth and separate baptism, with the original image limitation. Loader retains {{Estimated Date}} solely because captured death status is guess; this does not qualify the separately assessed birth date.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "deliberate_changes": [
+        "Update birth statement from before 1798 to 25 December 1797 and distinguish 1 January 1798 baptism.",
+        "Add Findmypast OPR 622/4 item 2 p.43 citation and derivative-source limitation.",
+        "Retain Estimated Date for inherited uncertain death status; the reviewed birth date remains exact."
+      ],
+      "identity_basis": "Exact name, Barony parish, named John Glasgow/Helen Smith parents, baptism boundary and father-1348 retained child-list date jointly support Helen Glasgow-1352; no competing same-household Helen shown.",
+      "source_receipt": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~10396291",
+      "previous_proposed_git_ref": "fcabdc4bade70e9cb7ee0d8b519c37d81e75e5fc:research/Glasgow-1352/father-confidence-2026-10-22h.wiki"
     },
     "Glasgow-3348": {
       "current_sha256": "5f9558d2b399253bf1bc718d0b504a57c9d5a1b77096b7d8ca5fbadcf9ca4b02",

@@ -11,6 +11,8 @@ Paths below are relative to the repository root. Use `.venv/bin/python` and `PYT
 5. After row-ID preflight, use the single working tab only for unresolved gaps. Open observed transcript/image links and save a durable receipt before navigating again: provider ID, requested/final URL, access status, capture time, literal labelled fields and source level. Keep interpretation separately from the literal field map. If packing/unpacking fields to reduce context, verify the transfer checksum and retain the original serialization specification; it is not proof of source authenticity.
 6. Reconcile dispositions as each documentary group is screened. Do not append a page twice or rerun an append-only temporary script. Save partial progress on interruption. Do not retry authentication, subscription or CAPTCHA problems as a navigation loop; retain the actual access disposition.
 
+After a timed-out capture, inspect the saved ledger and current tab before any retry. A detached debugger can leave the requested transcript fully loaded: supported native accessibility controls can save that page without another navigation. Readiness checks must accept trimmed labels (one collection uses `Last name `) and differing copyright footers; retain literal field values. In Chrome, closing a saved group's last tab may offer permanent group deletion. Cancel that prompt and use the group's non-destructive **Close group** action to release its task tab while preserving the saved group.
+
 At no more than ten navigations (or five applications), on errors/interruptions and before handoff, inventory owned tabs, render processes and memory pressure. Close owned temporary resources when finished; a retained handoff needs a concrete next action. Use `try/finally` for explicitly launched contexts/renderers, release large arrays and reset idle task runtimes when safe. Tab closure alone does not prove that a process/window or RAM was reclaimed. Never use blanket process kills.
 
 ## Reconcile each documentary group
@@ -50,7 +52,11 @@ Findings about one person belong in that person's account, cross-referenced from
 
 For a vital correction, update the approved current model and complete proposed biography, preserve distinct event dates, and queue the exact field action. Preserve unrelated life events, citations and relationship assessments. A revised biography can invalidate a preservation-review hash: compare the complete captured and revised texts, record justified retained/superseded content, then refresh the review. Never merely bless a new hash or bypass the guard.
 
+Before building, reconcile generic batch wording with the final approved changes. Replace “no vital change” or “pending integration” language in affected source notes, roles and person accounts once a date refinement or draft estimate is adopted; retain the earlier assessment explicitly as history.
+
 Before an expensive synchronization, validate each changed preservation review against the loader's normalized complete proposal, including restored references and stripped boundary whitespace; the raw draft-file hash can differ. Account for normalization changes and source preservation as well as the substantive edit.
+
+Normalization may restore an estimation template for another uncertain vital field, even when the newly reviewed birth is exact. Compare the complete normalized text and captured field statuses before updating its reviewed hash; do not remove a profile-wide template solely because one event is now exact.
 
 A newly established date can invalidate an earlier newspaper or other identity comparison. Reconcile its maintained review, subject draft, current findings, study and queued wording; retain the previous dated assessment as superseded history. Do not erase competing candidates or extend the exclusion to a different later event without evidence.
 
@@ -82,9 +88,13 @@ Follow `docs/website-research-sync.md` for targeted synchronization. Relevant ma
 
 Use the approved assessment resolver/projection for vital fields. Verify both standalone and main packed tree displays when dates change; do not rebuild family topology from unrelated pending research. Avoid a full catalogue/site rebuild for a small batch. Complete content first, then refresh data-version manifests and settle asset stamps once. With concurrent writers, inspect changed dependencies; do not restart completed builds or overwrite another task's changes blindly. Prefer atomic writes for regenerated artifacts.
 
+`stamp_asset_versions.stamp(write=True)` returns **original** stale-reference counts, not remaining failures, and orders dependencies to settle an acyclic graph in one write pass. Follow that completed pass with `stamp(write=False)`; do not repeat full write passes merely because the first returned a nonzero original count. Investigate an actual remaining mismatch or cycle before another mutation.
+
 ## Verify before committing
 
 Derive assertions from actual current schemas and the selected scope; use no hardcoded retired-alias abbreviations, assumed date formats or old result counts.
+
+Many generated JSON artifacts are Git-ignored. An empty `git diff` does not prove their content is unchanged: verify that a HEAD blob exists before comparing with HEAD, otherwise use a saved byte/model baseline and report that comparison scope.
 
 - For newly ingested or changed provider IDs, verify the public index/source mapping and inspect actual source-reader content: nonempty HTML, one main heading, correct provider link and visible HOLD/identity limits where applicable. File existence and an index entry are insufficient. Recheck prior records only when a changed shared source/person/rendering dependency affects them. Recover an empty reader from approved maintained metadata or the preserved original; never overwrite an unrelated authored account with a generic shell.
 - When search/index/vital data changed, compare affected full, fast and hydrated detail rows and the relevant `has_profile`, `missing_profile` and `needs_wikitree_update` memberships/counts. Do not rerun a global index check for unchanged dependencies. Open one representative affected UI flow when needed; a text search can also return people who mention the queried ID.
@@ -94,5 +104,7 @@ Derive assertions from actual current schemas and the selected scope; use no har
 - Verify unchanged relationship topology/grades when the batch only adds sources or refines dates. Distinguish new transcript captures, derivative-image inspections and original-record inspections, and new relationships from confirmations.
 
 Commit coherent verified work with a Conventional Commit; do not push. Stage selected JSON entries or hunks when shared files have concurrent changes. Keep unrelated source edits, styling, personal files and temporary captures out of the commit. Inventory task resources again and leave no owned browser/render/scanner work running after completion.
+
+For a large asset-version change, batch Git object reads with a finite request list and update the index in one operation. Stage a working page directly when only its asset versions changed; preserve the committed body for genuine unrelated edits. Avoid a separate `git show` and index rewrite for every generated page. Do not force-add ignored generated queues: keep their reviewed source entries in the maintained integration manifest.
 
 The handoff should identify the committed batch, local-site state, held questions, exact next search step and coverage still outstanding. Do not claim live publication or mark the full audit complete from a passing batch verifier.

@@ -24351,11 +24351,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-1352/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-1352/findings.md",
-      "summary": "Review existing father at 96% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 96% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Refine birth from before1January1798 to25December1797, distinct from1January1798 baptism; retain father review96% and source/identity limits.",
+      "work_queue_summary": "Refine birth from before1January1798 to25December1797, distinct from1January1798 baptism; retain father review96% and source/identity limits.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -24375,7 +24375,16 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "before": "before1798-01-01",
+          "after": "1797-12-25",
+          "basis": "The inspected Findmypast derivative transcript of Barony OPR 622/4, item 2, p.43 explicitly gives Helen Glasgow birth 25 December 1797 and baptism 1 January 1798, with father John Glasgow, mother Helen Smith, father occupation “Manufr”, residence “Andn”. Name, parents, parish, chronology and John Glasgow-1348’s existing child list identify Helen Glasgow-1352. Original register image uninspected. Barony is recorded parish, not independently proved exact birthplace. The father remains selected at 96%; the mother adult-profile identity remains separately ungraded.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396291&tab=this"
+        }
+      ]
     },
     "Glasgow-3348": {
       "profile_id": "Glasgow-3348",
@@ -42343,10 +42352,10 @@
       "source_subject_url": "https://www.newspapers.com/image/1050144942/",
       "research_subject_url": "/research/subjects/newspapers-irish-1800-1850/#george-senior-artillery",
       "draft_path": "research/queue-review-2026-10-17/drafts/later-newspapers/george-senior-artillery.md",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow appears among Royal Artillery colonels in June 1811.<ref>[https://www.newspapers.com/image/1050144942/ Freeman’s Journal, 10 June 1811, p. 4], original previously inspected on 4 October 2026.</ref> A War Office notice in September 1819 lists Major-General George Glasgow of the Royal Artillery among officers taking lieutenant-general rank by brevet.<ref>[https://www.newspapers.com/image/1050057308/ Freeman’s Journal, 6 September 1819, p. 4], original previously inspected on 4 October 2026.</ref>\n\nJohn W. Spurr’s biography records his appointment as an artillery cadet on 2 April 1771, colonel in 1806, major-general in July 1811 and lieutenant-general in August 1819. It gives his death as 28 October 1820 in London and names his late wife Margaret Green.<ref>[https://www.biographi.ca/en/bio/glasgow_george_5E.html John W. Spurr, “GLASGOW, GEORGE,” Dictionary of Canadian Biography, vol. 5], full English entry read on 17 October 2026.</ref>\n\n== Research Notes ==\n\nThe full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.\n\nThe English DCB says London; its French search snippet says Charlton, Gloucestershire. Keep the exact death place qualified. The earlier 1771 first lieutenant is not this officer’s cadet appointment.\n\n== Sources ==\n<references />",
-      "assessment": "The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow appears among Royal Artillery colonels in June 1811.<ref>[https://www.newspapers.com/image/1050144942/ Freeman’s Journal, 10 June 1811, p. 4], original previously inspected on 4 October 2026.</ref> A War Office notice in September 1819 lists Major-General George Glasgow of the Royal Artillery among officers taking lieutenant-general rank by brevet.<ref>[https://www.newspapers.com/image/1050057308/ Freeman’s Journal, 6 September 1819, p. 4], original previously inspected on 4 October 2026.</ref>\n\nJohn W. Spurr’s biography records his appointment as an artillery cadet on 2 April 1771, colonel in 1806, major-general in July 1811 and lieutenant-general in August 1819. It gives his death as 28 October 1820 in London and names his late wife Margaret Green.<ref>[https://www.biographi.ca/en/bio/glasgow_george_5E.html John W. Spurr, “GLASGOW, GEORGE,” Dictionary of Canadian Biography, vol. 5], full English entry read on 17 October 2026.</ref>\n\nThe likely burial entry for this officer records George Glasgow, aged 64, buried on 3 November 1820 at St Luke, Charlton by Greenwich, Kent. Two companion indexes supply the lieutenant-general title; Woolwich is recorded as residence. The age implies a birth about 1756, not an exact birthday. These are three index forms of one burial, and the original register has not been inspected.<ref>[https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F28050276&tab=this Findmypast GBPRS/D/28050276 — St Luke Charlton burial derivative transcript]; [https://findmypast.co.uk/transcript?id=BMD%2FNBI%2F12413020 Findmypast BMD/NBI/12413020 — St Luke Charlton burial derivative transcript]; [https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F963049679%2F1&tab=this Findmypast GBPRS/D/963049679/1 — St Luke Charlton burial derivative transcript], derivative transcripts inspected 23 October 2026; probably the same officer by title, locality and chronology.</ref>\n\n== Research Notes ==\n\nThe full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.\n\nThe English DCB says London; its French search snippet says Charlton, Gloucestershire. Keep the exact death place qualified. The earlier 1771 first lieutenant is not this officer’s cadet appointment.\n\nBurial on 3 November is distinct from death on 28 October. Charlton is the burial place; it does not resolve the retained London/Charlton death-place question.\n\n== Sources ==\n<references />",
+      "assessment": "The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet. Review23October2026: Three companion burial indexes record George Glasgow, aged64, buried on3November1820 at StLuke, Charlton by Greenwich, Kent; lieutenant-general rank and Woolwich residence occur in the transcripts. Probably the already researched artillery general: military title, Woolwich and chronology agree. These are companion indexes of one burial, not independent corroboration. Burial is separate from the DCB death on28October1820 in London. Age64 implies birth about1756 (roughly1755–1756), not an exact birthday or birthplace. The original register has not been inspected.",
       "creation_status": "creation_ready",
-      "reviewed_at": "2026-10-17",
+      "reviewed_at": "2026-10-23",
       "first_names": [
         "George"
       ],
@@ -42355,8 +42364,8 @@
       ],
       "last_names_current": [],
       "gender": "",
-      "birth": "",
-      "birth_note": "",
+      "birth": "c. 1756",
+      "birth_note": "Estimated from age64 at the probable3Nov1820burial (roughly1755–1756); exact birthday and birthplace unknown",
       "death": "1820-10-28",
       "birth_location": "",
       "birth_location_note": "",
@@ -42393,6 +42402,54 @@
           "evidence": "Documented record; identity qualifications retained",
           "record_precision": "Documented event context",
           "location_basis": "Record location; not automatically a birth or death place"
+        },
+        {
+          "year": "1820-11-03",
+          "filter_year": 1820,
+          "family_group": "Royal Artillery George Glasgow — existing consolidated draft",
+          "region": "England",
+          "record_location": "StLuke, Charlton by Greenwich, Kent",
+          "association": "Three companion burial indexes record George Glasgow, aged64, buried on3November1820 at StLuke, Charlton by Greenwich, Kent; lieutenant-general rank and Woolwich residence occur in the transcripts.",
+          "note": "Probably the already researched artillery general: military title, Woolwich and chronology agree. These are companion indexes of one burial, not independent corroboration. Burial is separate from the DCB death on28October1820 in London. Age64 implies birth about1756 (roughly1755–1756), not an exact birthday or birthplace. The original register has not been inspected.",
+          "source_title": "Findmypast GBPRS/D/28050276 — St Luke Charlton burial derivative transcript",
+          "source_url": "https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F28050276&tab=this",
+          "source_type": "Inspected derivative transcript",
+          "source_status": "Probable existing subject; companion indexes, original uninspected",
+          "evidence": "Qualified burial evidence",
+          "record_precision": "Burial date; birth estimated from age",
+          "location_basis": "Burial place and residence; not a birthplace or resolved death place"
+        },
+        {
+          "year": "1820-11-03",
+          "filter_year": 1820,
+          "family_group": "Royal Artillery George Glasgow — existing consolidated draft",
+          "region": "England",
+          "record_location": "StLuke, Charlton by Greenwich, Kent",
+          "association": "Three companion burial indexes record George Glasgow, aged64, buried on3November1820 at StLuke, Charlton by Greenwich, Kent; lieutenant-general rank and Woolwich residence occur in the transcripts.",
+          "note": "Probably the already researched artillery general: military title, Woolwich and chronology agree. These are companion indexes of one burial, not independent corroboration. Burial is separate from the DCB death on28October1820 in London. Age64 implies birth about1756 (roughly1755–1756), not an exact birthday or birthplace. The original register has not been inspected.",
+          "source_title": "Findmypast BMD/NBI/12413020 — St Luke Charlton burial derivative transcript",
+          "source_url": "https://findmypast.co.uk/transcript?id=BMD%2FNBI%2F12413020",
+          "source_type": "Inspected derivative transcript",
+          "source_status": "Probable existing subject; companion indexes, original uninspected",
+          "evidence": "Qualified burial evidence",
+          "record_precision": "Burial date; birth estimated from age",
+          "location_basis": "Burial place and residence; not a birthplace or resolved death place"
+        },
+        {
+          "year": "1820-11-03",
+          "filter_year": 1820,
+          "family_group": "Royal Artillery George Glasgow — existing consolidated draft",
+          "region": "England",
+          "record_location": "StLuke, Charlton by Greenwich, Kent",
+          "association": "Three companion burial indexes record George Glasgow, aged64, buried on3November1820 at StLuke, Charlton by Greenwich, Kent; lieutenant-general rank and Woolwich residence occur in the transcripts.",
+          "note": "Probably the already researched artillery general: military title, Woolwich and chronology agree. These are companion indexes of one burial, not independent corroboration. Burial is separate from the DCB death on28October1820 in London. Age64 implies birth about1756 (roughly1755–1756), not an exact birthday or birthplace. The original register has not been inspected.",
+          "source_title": "Findmypast GBPRS/D/963049679/1 — St Luke Charlton burial derivative transcript",
+          "source_url": "https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F963049679%2F1&tab=this",
+          "source_type": "Inspected derivative transcript",
+          "source_status": "Probable existing subject; companion indexes, original uninspected",
+          "evidence": "Qualified burial evidence",
+          "record_precision": "Burial date; birth estimated from age",
+          "location_basis": "Burial place and residence; not a birthplace or resolved death place"
         }
       ]
     },

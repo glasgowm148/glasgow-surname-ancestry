@@ -31,3 +31,14 @@ This is a preferred, revisable hypothesis, with 34% subjective confidence, not a
 
 Inspect Robert’s 1779 marriage and children’s original Eccles entries for residence, occupation and witnesses, then check Leitholm feu/tenancy and joiner apprenticeship records for a named father or master. Test the contributed John/Agnes Spark account against actual records before identifying it with any local person. Recheck the 1765 Swinton household independently. James Glasgow-1222 (1777 Kelso, attributed to David Glasgow and Janet Hood) is a nearby child-name comparison for the 1779 James, not a selected identity; retain both record accounts unless a record resolves the different parents.
 
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: Agnes Whitehead wife, probable named-family comparison. Monument gives Euphans death 7 Apr 1791 age5, Eccles; c1786 birth age-derived. Shared inscription names Robert joiner/feuar, sons Thomas, wife Agnes Whitehead; Robert death 1800 or 1809 ambiguous.
+
+Next question: Original monument/photograph and Eccles entries.
+
+- [Findmypast PRS/SCOTLAND/MI/ADD/5/00352695](https://findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00352695&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

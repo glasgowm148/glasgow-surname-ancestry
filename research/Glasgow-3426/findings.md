@@ -35,3 +35,15 @@ Next useful test: Inspect Irvine council/headstone or probate evidence connectin
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Hugh Glasgow, 09 Mar 1736, record SCOT/OPR/BAP/3574543](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574543&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: exact child match in existing finding; maintained birth 1736-03, Irvine; father Glasgow-1077 assessed 87% probable. Current research/Glasgow-3426/findings.md explicitly says the transcript-validated 09 Mar 1736 Irvine baptism is assigned to Glasgow-3426. Held exact Findmypast ID SCOT/OPR/BAP/3574543 (held-e-72ad2677095a); the new R_ record is a duplicate index. Current public vitals www/people/glasgow-3426.json give uncertain March 1736 birth. Existing selected father Glasgow-1077 87% remains unchanged. Date roles: {"baptism": "09 Mar 1736", "birth": "index year 1736; profile month uncertain"}
+
+Next question: Inspect the original source and the retained child/adult-parent identity questions; preserve the stated event dates and source discrepancies.
+
+- [Findmypast R_685312142](https://findmypast.co.uk/transcript?id=R_685312142&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

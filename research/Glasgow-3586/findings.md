@@ -52,3 +52,16 @@ James Richmond’s Irvine account in the Old Statistical Account,volume7,printed
 - [James Richmond, Old Statistical Account, Irvine,vol7,p170 / PDFpage2; geography only](https://stataccscot.ed.ac.uk/data/pdfs/account1/StAS.1.7.169.P.Ayrshire.Irvine.pdf#page=2)
 
 Inspect the original Irvine1724–1729 and Dundonald1732–1733 entries for the father’s occupation, residence and witnesses, and compare the Stevenston1700 entry with the adult’s later household. Seek a marriage, tenancy or kirk-session record distinguishing the Irvine father from William-3288 and William-1061. Test Mary versus Margaret independently; do not create a wife’s death to explain a later pairing.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: possible same adult as William-1055 at 56%; keep inferred identity qualified. Existing canonical held Irvine baptism, 09 Aug 1724; derivative rows agree on Grizell, William, Irvine, date, and mother Margaret Monfood (field-order variants only). Existing findings: research/Glasgow-1245, research/Glasgow-1055. Date roles: {"baptism": "09 Aug 1724", "birth": "indexed year 1724 only"}
+
+Next question: Inspect the original source and the retained child/adult-parent identity questions; preserve the stated event dates and source discrepancies.
+
+- [Findmypast R_685310913](https://findmypast.co.uk/transcript?id=R_685310913&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_688618823](https://findmypast.co.uk/transcript?id=R_688618823&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

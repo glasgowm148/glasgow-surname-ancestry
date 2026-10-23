@@ -1,0 +1,204 @@
+{
+  "pages": [
+    9,
+    10,
+    11
+  ],
+  "query_rows": 60,
+  "new_provider_records": 53,
+  "reused_provider_records": 7,
+  "documentary_groups": 30,
+  "new_source_defined_event_groups": 21,
+  "confirmed_existing_event_groups": 4,
+  "enriched_held_event_groups": 5,
+  "new_people": 0,
+  "relationship_grade_changes": 0,
+  "original_images": 0,
+  "existing_exact_birth_refinements": 1,
+  "existing_draft_birth_estimates_added": 1,
+  "source_readers_checked": 53,
+  "person_or_draft_accounts_checked": 20,
+  "ledger_records": 343,
+  "profile_context_records": 265,
+  "source_only_records": 78,
+  "reviewed_query_rows_total": 220,
+  "query_coverage_percent": 3.7,
+  "coverage": "INCOMPLETE",
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "vital_projection": {
+    "scope": "One approved Findmypast birth date",
+    "subjects": {
+      "Glasgow-1352": {
+        "date": "1797-12-25",
+        "assessment": "fmp-glasgow-1352-birth-20261023",
+        "relationships": "abb291c543d398cce8c38c90a4c2abc3a378446b1f1942b1c49ed644de89968e",
+        "tree_display": {
+          "born": 1797,
+          "year": 1797,
+          "birthDisplay": "1797-12-25",
+          "bornApprox": false
+        }
+      }
+    },
+    "changed": [
+      "www/assets/research/atlas-model-packed.json",
+      "www/assets/research/atlas-model.json",
+      "www/assets/research/people/glasgow-1352.json",
+      "www/data/catalogue-search-index.json",
+      "www/data/people-index.json",
+      "www/data/people.json",
+      "www/onetree/glasgow-one-tree-polished-3/index.html",
+      "www/onetree/glasgow-one-tree-polished-3/model.json"
+    ],
+    "models": {
+      "www/onetree/glasgow-one-tree-polished-3/model.json": {
+        "people": 4684,
+        "unchanged_other_people": 4683,
+        "unchanged_graph": true,
+        "previous_relationship_digest": "7cfcd5458a64d04e39be0ac18065a1a979a01cdb77145b6cffce2b7d1aa7a22f",
+        "current_relationship_digest": "7cfcd5458a64d04e39be0ac18065a1a979a01cdb77145b6cffce2b7d1aa7a22f"
+      },
+      "www/assets/research/atlas-model.json": {
+        "people": 4531,
+        "unchanged_other_people": 4530,
+        "unchanged_graph": true,
+        "previous_relationship_digest": "1cc5d9ea91ce70a681c9d66087d85e534fe2837fbb907fcc60450c5b2a72a999",
+        "current_relationship_digest": "1cc5d9ea91ce70a681c9d66087d85e534fe2837fbb907fcc60450c5b2a72a999"
+      }
+    },
+    "verified": {
+      "selected_births": 1,
+      "unrelated_person_rows_unchanged": true,
+      "family_graph_unchanged": true,
+      "embedded_standalone_matches_model": true,
+      "atlas_packed_matches_model": true,
+      "approved_resolver_used": true,
+      "selected_projection_applied": true
+    }
+  },
+  "preservation_review": {
+    "profile_id": "Glasgow-1352",
+    "guard": "_validate_profile_preservation_review invoked against exact loader-normalized profile; original guard raised stale proposed_sha256, no bypass or project write",
+    "current_sha256_verified": "55bfa9c9d3b350bc0fac0aa1ef658b0d63b6fcb06996b451fa1dea7caccc73d7",
+    "reviewed_draft_sha256": "180a83e13a20ae0bcfc5ab04616d31b4cde0fea3d01609c214868a708369a2b1",
+    "normalized_proposed_sha256": "ee7fb07245b313f738fa2b517b046b089f928f539fe9017552d0427345273c78",
+    "normalized_proposal_path": "/tmp/fmp-1352-normalized-proposal.wiki",
+    "input_capture": "data/wikitree/profile-evidence.json#/profiles/Glasgow-1352",
+    "reviewed_draft_path": "/tmp/fmp-1352-proposal.wiki",
+    "difference": "Loader prepends {{Estimated Date}} because captured DataStatus.DeathDate is guess; birth date is separately exact. Trailing final newline only otherwise.",
+    "diff": "--- reviewed-draft\n+++ loader-normalized\n@@ -1,3 +1,4 @@\n+{{Estimated Date}}\n <!-- REVIEWED FULL REPLACEMENT: birth-date refinement and retained father review, 2026-10-23 -->\n [[Category:Glasgow Name Study]]\n \n@@ -21,4 +22,4 @@\n \n == Sources ==\n <references />\n-* [https://www.familysearch.org/ark:/61903/1:1:X1S3-J8S Archived or supplementary source]\n+* [https://www.familysearch.org/ark:/61903/1:1:X1S3-J8S Archived or supplementary source]",
+    "passages_accounted_for": {
+      "captured_biography": true,
+      "previous_proposal": true,
+      "father_96_percent": true,
+      "mother_link_and_separate_grade": true,
+      "held_familysearch_source": true,
+      "new_findmypast_source": true,
+      "birth_and_baptism_distinguished": true,
+      "death_estimation_template_retained": true
+    },
+    "preservation_entry_patch": {
+      "proposed_sha256": "ee7fb07245b313f738fa2b517b046b089f928f539fe9017552d0427345273c78",
+      "retained": "Effective captured/previous biography, category, parent links, held FamilySearch source, and full 22 October father review retained. Added sourced exact birth and separate baptism, with the original image limitation. Loader retains {{Estimated Date}} solely because captured death status is guess; this does not qualify the separately assessed birth date.",
+      "all_substantive_passages_accounted_for": true
+    }
+  },
+  "already_indexed_query_records_reused_outside_capture_list": [
+    "SCOT/OPR/BAP/3574665",
+    "SCOT/OPR/BAP/3600403",
+    "SCOT/OPR/BAP/3626468",
+    "SCOT/OPR/BAP/3627149",
+    "SCOT/OPR/BAP/4151515"
+  ],
+  "distinct_provider_ids_across_capture_ledger_and_reviewed_query": 348,
+  "count_basis": "Capture-ledger total343 excludes five already-indexed query records whose original receipts remain in other maintained files. These348 are this audited union, not the whole catalogue or complete surname coverage.",
+  "asset_gate": {
+    "sitemap": {
+      "sitemap_urls": 23548,
+      "sitemap_reader_pages": 1260
+    },
+    "search": {
+      "search_indexes": 1,
+      "shared_search_assets": 1
+    },
+    "asset_write_passes": 1,
+    "changed_files": 24525,
+    "original_stale_references": 24528,
+    "stale_asset_references": 0
+  },
+  "link_gate": {
+    "pages": 25549,
+    "internal_references": 1347906,
+    "broken_references": 7,
+    "baseline_page_target_pairs": 4,
+    "new_failing_pairs": 0,
+    "non_gated_person_anchors": 86,
+    "unreferenced_fragment_or_reader_pages_not_scanned": 772
+  },
+  "publication_gate": {
+    "requested_existing_profiles": 19,
+    "reported_findings_files": 20,
+    "new_failures": 0,
+    "elapsed_seconds": 82.4,
+    "existing_warning": "Glasgow-3316 conclusion older than page8 source correction; no new failing item.",
+    "post_wording_recheck": {
+      "profile": "Glasgow-1352",
+      "elapsed_seconds": 8.6,
+      "failures": 0,
+      "scope": "Selected current queue/register/proposal inputs; original privacy, preservation and publication checks unchanged. Prior19-profile pass retained for the18 unchanged profiles."
+    }
+  },
+  "concurrent_head_reconciliation": {
+    "head": "fcabdc4bade70e9cb7ee0d8b519c37d81e75e5fc",
+    "retained_finding_id": "jane-dysart-father-20261023",
+    "source_fields_unchanged": true,
+    "visible_finding_qualification_detail_link": true,
+    "route": "/latest-findings/page/19/",
+    "subject_index_present": true
+  },
+  "scanner_tests": {
+    "framework": "unittest",
+    "command": "PYTHONPATH=. .venv/bin/python -m unittest tests.test_stamp_asset_versions -q",
+    "passed": 5,
+    "change": "Check source suffix before filesystem probing; same asset validation semantics."
+  },
+  "resources": {
+    "owned_tab": "236298090",
+    "owned_tabs_remaining": 0,
+    "personal_tabs_preserved": 3,
+    "browser_pid": 80580,
+    "native_fallback": "Debugger detached; existing tab native accessibility used without reload of saved records. Saved group closed non-destructively; task REPL reset.",
+    "final_inventory_owned_tabs": 0,
+    "final_inventory_personal_tabs_preserved": 3,
+    "browser_runtime_reset": true,
+    "new_browser_processes_launched": 0,
+    "headless_renderers_launched": 0,
+    "memory_free_percentage_at_last_inventory": 49
+  },
+  "relationship_scope": "No relationship-grade change by this batch. Baseline checks cover its20 accounts; tree graph equality in the projection audit describes that single approved birth projection, not independent concurrent research commits.",
+  "scope_status": "Verified coherent batch; full surname audit remains active and incomplete.",
+  "formatting_cleanup": {
+    "findings_ids": [
+      "Glasgow-1055",
+      "Glasgow-1245",
+      "Glasgow-3426",
+      "Glasgow-3513",
+      "Glasgow-3586"
+    ],
+    "generated_html_paths": [
+      "www/sources/census/ireland/1851/index.html",
+      "www/sources/census/ireland/index.html",
+      "www/sources/marriages/ireland/1850-1899/index.html",
+      "www/sources/marriages/ireland/index.html"
+    ],
+    "previous_proposal_exact_sha256": "8fca3ddc5d773f84e29112897d9343840d1df37c85360e63772dca47cfd3da3a",
+    "previous_proposal_git_ref": "fcabdc4bade70e9cb7ee0d8b519c37d81e75e5fc:research/Glasgow-1352/father-confidence-2026-10-22h.wiki",
+    "backup_path": "tmp/findmypast-pages9-11-20261023/previous-proposals/Glasgow-1352.wiki",
+    "semantic_changes": false,
+    "publication_profiles_rechecked": 6,
+    "publication_failures": 0,
+    "publication_seconds": 2.7,
+    "staged_whitespace_check": "passed",
+    "asset_and_link_gate_reuse": "Only trailing whitespace changed in four generated HTML tables; asset references, links and visible text are unchanged."
+  }
+}

@@ -55614,6 +55614,247 @@
         "research/ancestry-connections/jane-dysart-father-review-2026-10-23.json",
         "research/Glasglow-11/findings.md"
       ]
+    },
+    {
+      "id": "fmp-pages9-11-helen-1352-birth-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Helen Glasgow-1352 was born 25 December 1797 and baptised 1 January 1798; the matched Barony transcript distinguishes the two dates.",
+      "qualification": "Refines the previous before 1 January 1798 birth bound. Father 1348 remains 96%; maternity is independently ungraded. Original register uninspected; Barony remains the recorded parish, not a newly established exact birthplace.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1352",
+          "name": "Helen Glasgow",
+          "url": "/people/glasgow-1352.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/0396291 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396291&tab=this"
+        },
+        {
+          "title": "Findmypast R_690424761 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_690424761&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-pages9-11-general-george-burial-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The existing Royal Artillery George Glasgow draft gains a probable burial on 3 November 1820 at St Luke, Charlton by Greenwich, aged 64.",
+      "qualification": "Three companion indexes, title lieutenant-general, Woolwich and chronology support the existing draft. Death 28 October 1820 stays distinct; birth about 1756 is age-derived. No additional person suggestion; prior concrete duplicate exclusions and complete sourced biography retained.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "record-queue-newspapers-irish-1800-1850-george-senior-artillery",
+          "name": "George Glasgow, senior Royal Artillery officer, 1811–1819",
+          "url": "/people/record-queue-newspapers-irish-1800-1850-george-senior-artillery.html",
+          "role": "Existing subject/draft or explicitly qualified comparison",
+          "draft_url": "/research/subjects/newspapers-irish-1800-1850/#george-senior-artillery"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast GBPRS/D/28050276 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F28050276&tab=this"
+        },
+        {
+          "title": "Findmypast BMD/NBI/12413020 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=BMD%2FNBI%2F12413020"
+        },
+        {
+          "title": "Findmypast GBPRS/D/963049679/1 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F963049679%2F1&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-pages9-11-eccles-family-monument-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An Eccles monumental transcript names daughter Euphans and two sons Thomas in Robert Glasgow and Agnes Whitehead’s family account.",
+      "qualification": "Robert-3706 and Agnes Whitehead-9630 are qualified family comparisons. Euphans died 7 April 1791 aged 5; this does not identify a child profile. Robert’s indexed 1800-or 1809 death remains ambiguous; no relationship grade changes and no original monument image inspected.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-3706",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3706.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        },
+        {
+          "id": "Whitehead-9630",
+          "name": "Agnes (Whitehead) Glasgow",
+          "url": "/people/whitehead-9630.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast PRS/SCOTLAND/MI/ADD/5/00352695 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00352695&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-pages9-11-elizabeth-1327-date-conflict-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Seven new indexes expose additional date and residence disagreements in Elizabeth’s 1796 Kirknewton household account.",
+      "qualification": "Same child/William/Catharine Nisbet family is retained without inventing siblings. Birth 7/12 March, baptism 17/18/27 March or 10 October, Newlands/Newton and differing pages require original-register comparison; no exact date is selected. Mother’s external profile and separate adult identities remain qualified.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1327",
+          "name": "Elizabeth Glasgow",
+          "url": "/people/glasgow-1327.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        },
+        {
+          "id": "Glasgow-1223",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1223.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4476993 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476993&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4476980 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476980&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4477781 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477781&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-pages9-11-heling-3513-baptism-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two companion indexes give Heling Glasgow’s Stitchel baptism as 2 April 1750, separate from the maintained 4 February birth.",
+      "qualification": "Existing Helen-3513 child/event; literal Heling and Elizabath Tait are retained. This adds the baptism date to the source account without replacing the existing birth or changing father 1238’s 94% assessment.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-3513",
+          "name": "Helen Glasgow",
+          "url": "/people/glasgow-3513.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_686732786 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_686732786&tab=this"
+        },
+        {
+          "title": "Findmypast R_690833024 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_690833024&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-pages9-11-george-1529-wandell-date-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A dated companion indexes George Glasgow’s Wandell/Lamington baptism on 7 May 1769, with James Glasgow and Mary Scot.",
+      "qualification": "Compatible with the existing undated source account, whose profile assignment remains held. Archive equivalence is not proved; no birth date or profile identity is assigned. Separate from the Crawford Robert/Isabel Porteous group.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1529",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1529.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_684963490 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_684963490&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-pages9-11-george-3611-midcalder-20261023",
+      "found_on": "2026-10-23",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A Midcalder group separates George Glasgow’s birth 1 February 1777 from baptism 9 February 1777, naming Alexander and Emilia Glenduning.",
+      "qualification": "Glasgow-3611 is a compatible comparison; his inherited mother Agnes differs from Emilia in the transcripts. No profile birth or parent is assigned from these three companion indexes, and no new person is proposed.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-3611",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-3611.html",
+          "role": "Existing subject/draft or explicitly qualified comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4589513 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4589513&tab=this"
+        },
+        {
+          "title": "Findmypast R_686308662 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_686308662&tab=this"
+        },
+        {
+          "title": "Findmypast R_694111733 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_694111733&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     }
   ]
 }

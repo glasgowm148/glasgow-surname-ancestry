@@ -74,3 +74,16 @@ Role in this account: Named father Thomas profile already selected at 98% proved
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: Named Thomas father; existing 97% assessment retained.. Reuse the existing canonical source/event and person mappings; do not create another 1792 event. New receipts R_686210230 and R_691906535 are matching companion indexes. Preserve field-level name and date-role differences. Literal date/source roles: {"name": "George Glasgow", "record_date": "26 Aug 1792", "place": "Kirknewton & East Calder", "parents": "Thos/Thomas Glasgow and Mayt/Margaret Chapman", "roles": "canonical existing record labels Birth date and blank baptism year; new R-index aliases label Baptism date 26 Aug; held FamilySearch citation labels it christening"} External profile comparison: [Chapman-28491](https://www.wikitree.com/wiki/Chapman-28491) — Maternal comparison only; do not resolve Mayt/Margaret silently.. No local destination or maternal grade is invented.
+
+Next question: Inspect the original record for the retained identity, name and date-role questions; do not infer a second person from an index discrepancy.
+
+- [Findmypast R_686210230](https://findmypast.co.uk/transcript?id=R_686210230&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_691906535](https://findmypast.co.uk/transcript?id=R_691906535&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

@@ -34,3 +34,21 @@ Role in this account: probable existing child identity; William Glasgow/Catharin
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: existing William/Cath Nisbet child; exact date unresolved. Same 1796 Kirknewton Elizabeth/William/Catharine Nisbet subject, but OPR gives 7 Mar birth/17 Mar baptism p13 Newlands; 12 Mar birth/18 Mar baptism Newlands; 12 Mar birth/10 Oct baptism p15 Newton. Derivatives say 18 or 27 Mar baptism. Do not flatten discrepant register entries or invent siblings. External profile comparison: [Nisbet-3257](https://www.wikitree.com/wiki/Nisbet-3257) — Adult parent comparison only; adult mother candidate, separately qualified. No local destination or maternal grade is invented.
+
+Next question: Original OPR 690/3 pp13/15 and held pages 44/121/122/251.
+
+- [Findmypast SCOT/OPR/BAP/4476993](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476993&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast SCOT/OPR/BAP/4476980](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476980&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast SCOT/OPR/BAP/4477781](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477781&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_686209132](https://findmypast.co.uk/transcript?id=R_686209132), derivative transcript inspected 23 October 2026.
+- [Findmypast R_686209009](https://findmypast.co.uk/transcript?id=R_686209009), derivative transcript inspected 23 October 2026.
+- [Findmypast R_691905237](https://findmypast.co.uk/transcript?id=R_691905237&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_691905238](https://findmypast.co.uk/transcript?id=R_691905238), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

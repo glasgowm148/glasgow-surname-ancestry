@@ -78,3 +78,15 @@ Next question: No changed dependency requiring action. If the original register 
 
 No new person, vital replacement or relationship change follows. Birth, baptism, death and burial dates retain their distinct source roles. An additional derivative index does not raise an existing relationship percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGE8-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: Compatible spouse-surname comparison only; Ba Gardener/age40 do not identify the widow with this profile.. 25 Jan 1781 is indexed death date; burial year only. Age40 implies approximate 1741 birth, not exact. Relict of Ba Gardener; surname role uncertain.
+
+Next question: Original Ayr OPR 578/9 and spouse identity.
+
+- [Findmypast SCOT/OPR/BUR/0911580](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0911580&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

@@ -100,3 +100,15 @@ Role in this account: plausible George child of James/Mary Scott family; inherit
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: Compatible existing subject comparison only; its current findings cite an undated OPR index for George, Jas Glasgow and Mary Scot at Wandell/Lamington and explicitly hold the person assignment.. Reuse the existing person/source account as a compatibility check, but do not create a duplicate canonical event or claim a proven profile match yet. The new receipt labels baptism date 7 May 1769 and birth year 1769; it does not give an exact birth date. Literal date/source roles: {"name": "George Glasgow", "birth_year_indexed": 1769, "baptism_date": "07 May 1769", "place": "Wandell & Lamington", "parents": "James/Jas Glasgow and Mary Scot"}
+
+Next question: Inspect the original record for the retained identity, name and date-role questions; do not infer a second person from an index discrepancy.
+
+- [Findmypast R_684963490](https://findmypast.co.uk/transcript?id=R_684963490&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

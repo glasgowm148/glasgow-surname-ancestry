@@ -4,7 +4,7 @@ SOURCED DRAFT — no compatible profile identified within the stated completed a
 
 ## Minimum creation fields
 
-Name: George Glasgow. Sex: male. Birth date and birthplace unknown. Death: 28 October 1820, England; English DCB specifies London, with a conflicting French snippet retained for review. Occupation: Royal Artillery officer. Wife: Margaret Green, as stated by the DCB, predeceased him; no relative profile assigned. Do not join him to the earlier first lieutenant solely through name.
+Name: George Glasgow. Sex: male. Birth about1756, estimated from the probable burial age64; exact birthday and birthplace unknown. Death: 28 October 1820, England; English DCB specifies London, with a conflicting French snippet retained for review. Occupation: Royal Artillery officer. Wife: Margaret Green, as stated by the DCB, predeceased him; no relative profile assigned. Do not join him to the earlier first lieutenant solely through name.
 
 ## Duplicate audit — 17 October 2026
 
@@ -23,11 +23,15 @@ George Glasgow appears among Royal Artillery colonels in June 1811.<ref>[https:/
 
 John W. Spurr’s biography records his appointment as an artillery cadet on 2 April 1771, colonel in 1806, major-general in July 1811 and lieutenant-general in August 1819. It gives his death as 28 October 1820 in London and names his late wife Margaret Green.<ref>[https://www.biographi.ca/en/bio/glasgow_george_5E.html John W. Spurr, “GLASGOW, GEORGE,” Dictionary of Canadian Biography, vol. 5], full English entry read on 17 October 2026.</ref>
 
+The likely burial entry for this officer records George Glasgow, aged 64, buried on 3 November 1820 at St Luke, Charlton by Greenwich, Kent. Two companion indexes supply the lieutenant-general title; Woolwich is recorded as residence. The age implies a birth about 1756, not an exact birthday. These are three index forms of one burial, and the original register has not been inspected.<ref>[https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F28050276&tab=this Findmypast GBPRS/D/28050276 — St Luke Charlton burial derivative transcript]; [https://findmypast.co.uk/transcript?id=BMD%2FNBI%2F12413020 Findmypast BMD/NBI/12413020 — St Luke Charlton burial derivative transcript]; [https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F963049679%2F1&tab=this Findmypast GBPRS/D/963049679/1 — St Luke Charlton burial derivative transcript], derivative transcripts inspected 23 October 2026; probably the same officer by title, locality and chronology.</ref>
+
 == Research Notes ==
 
 The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.
 
 The English DCB says London; its French search snippet says Charlton, Gloucestershire. Keep the exact death place qualified. The earlier 1771 first lieutenant is not this officer’s cadet appointment.
+
+Burial on 3 November is distinct from death on 28 October. Charlton is the burial place; it does not resolve the retained London/Charlton death-place question.
 
 == Sources ==
 <references />

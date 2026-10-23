@@ -1229,6 +1229,45 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-glasgow-1352-birth-20261023",
+      "subject": "Glasgow-1352",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "scope": "birth date refinement only",
+      "basis": "The inspected Findmypast derivative transcript of Barony OPR 622/4, item 2, p.43 explicitly gives Helen Glasgow birth 25 December 1797 and baptism 1 January 1798, with father John Glasgow, mother Helen Smith, father occupation “Manufr”, residence “Andn”. Name, parents, parish, chronology and John Glasgow-1348’s existing child list identify Helen Glasgow-1352. Original register image uninspected. Barony is recorded parish, not independently proved exact birthplace. The father remains selected at 96%; the mother adult-profile identity remains separately ungraded.",
+      "source": {
+        "url": "/people/glasgow-1352.json",
+        "section": "research_findings / Birth and baptism review, 23 October 2026"
+      },
+      "summary": "Glasgow-1352: birth 1797-12-25 explicitly distinguished from baptism 1798-01-01; previous birth field before 1798-01-01.",
+      "vitals": {
+        "birth": {
+          "date": "1797-12-25",
+          "place": "Barony, Lanarkshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in inspected derivative Findmypast transcript; original register image uninspected. Existing Barony locality carried forward as parish without asserting exact birthplace.",
+          "note": "The inspected Findmypast derivative transcript of Barony OPR 622/4, item 2, p.43 explicitly gives Helen Glasgow birth 25 December 1797 and baptism 1 January 1798, with father John Glasgow, mother Helen Smith, father occupation “Manufr”, residence “Andn”. Name, parents, parish, chronology and John Glasgow-1348’s existing child list identify Helen Glasgow-1352. Original register image uninspected. Barony is recorded parish, not independently proved exact birthplace. The father remains selected at 96%; the mother adult-profile identity remains separately ungraded.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396291&tab=this",
+          "source_level": "inspected provider derivative transcript; original register image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1797-12-25",
+        "birth_year": 1797,
+        "birth_note": "Findmypast transcript explicitly labels birth 25 December 1797 and baptism 1 January 1798; original OPR image uninspected. Barony is the recorded parish; existing place retained.",
+        "date_years": [
+          1797
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

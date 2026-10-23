@@ -16729,8 +16729,8 @@
           "anchor": "george-senior-artillery",
           "name": "George Glasgow, senior Royal Artillery officer, 1811–1819",
           "status": "SUGGESTED NEW PROFILE — sourced draft",
-          "identity_note": "The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.",
-          "minimum_fields": "George Glasgow; Royal Artillery officer, listed under Colonels 1811 and Major-General taking Lieutenant-General brevet rank 1819. Birth/death/family/station unknown.",
+          "identity_note": "The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet. Review23October2026: Three companion burial indexes record George Glasgow, aged64, buried on3November1820 at StLuke, Charlton by Greenwich, Kent; lieutenant-general rank and Woolwich residence occur in the transcripts. Probably the already researched artillery general: military title, Woolwich and chronology agree. These are companion indexes of one burial, not independent corroboration. Burial is separate from the DCB death on28October1820 in London. Age64 implies birth about1756 (roughly1755–1756), not an exact birthday or birthplace. The original register has not been inspected.",
+          "minimum_fields": "George Glasgow; male Royal Artillery officer. Estimated birth about1756 from burial age64; no exact birth date or birthplace. Death28October1820 per the previously inspected DCB. Probable burial3November1820, StLuke Charlton by Greenwich, Kent; Woolwich residence. Wife Margaret Green per DCB; no relative profile assigned.",
           "facts": [
             {
               "finding_id": "george-senior-artillery-1811-06-10",
@@ -16753,6 +16753,25 @@
                   "url": "https://www.newspapers.com/image/1050057308/"
                 }
               ]
+            },
+            {
+              "finding_id": "george-senior-artillery-1820-11-03-burial",
+              "finding": "Three companion burial indexes record George Glasgow, aged64, buried on3November1820 at StLuke, Charlton by Greenwich, Kent; lieutenant-general rank and Woolwich residence occur in the transcripts.",
+              "qualification": "Probably the already researched artillery general: military title, Woolwich and chronology agree. These are companion indexes of one burial, not independent corroboration. Burial is separate from the DCB death on28October1820 in London. Age64 implies birth about1756 (roughly1755–1756), not an exact birthday or birthplace. The original register has not been inspected.",
+              "sources": [
+                {
+                  "title": "Findmypast GBPRS/D/28050276 — St Luke Charlton burial derivative transcript",
+                  "url": "https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F28050276&tab=this"
+                },
+                {
+                  "title": "Findmypast BMD/NBI/12413020 — St Luke Charlton burial derivative transcript",
+                  "url": "https://findmypast.co.uk/transcript?id=BMD%2FNBI%2F12413020"
+                },
+                {
+                  "title": "Findmypast GBPRS/D/963049679/1 — St Luke Charlton burial derivative transcript",
+                  "url": "https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F963049679%2F1&tab=this"
+                }
+              ]
             }
           ],
           "candidates": [],
@@ -16761,13 +16780,13 @@
             "Revalidation of the earlier bounded search scope recorded in the maintained subject/draft and supplied input; no fresh live name search claimed.",
             "Reused actual 6 October fully paged George Glasgow (87 results) and Glasco/Glascoe/Glascow duplicate search. Full DCB article freshly fetched by urllib on 17 October after web-tool HTTP 429; career and death text inspected."
           ],
-          "next_test": "Review the complete sourced suggestion and its recorded duplicate audit before live creation; preserve source-reading and family qualifications.",
+          "next_test": "Inspect the original StLuke Charlton burial to confirm rank, residence and age; preserve the prior duplicate exclusions and the unresolved exact death place. No new suggestion is added by this source extension.",
           "draft_sources": [
             "research/newspapers-degree-military-agents-2026-10-04.md",
             "surname-research/new-people/1811_United_Kingdom_Royal_Artillery_George_Glasgow.md",
             "research/queue-review-2026-10-17/drafts/later-newspapers/george-senior-artillery.md"
           ],
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow appears among Royal Artillery colonels in June 1811.<ref>[https://www.newspapers.com/image/1050144942/ Freeman’s Journal, 10 June 1811, p. 4], original previously inspected on 4 October 2026.</ref> A War Office notice in September 1819 lists Major-General George Glasgow of the Royal Artillery among officers taking lieutenant-general rank by brevet.<ref>[https://www.newspapers.com/image/1050057308/ Freeman’s Journal, 6 September 1819, p. 4], original previously inspected on 4 October 2026.</ref>\n\nJohn W. Spurr’s biography records his appointment as an artillery cadet on 2 April 1771, colonel in 1806, major-general in July 1811 and lieutenant-general in August 1819. It gives his death as 28 October 1820 in London and names his late wife Margaret Green.<ref>[https://www.biographi.ca/en/bio/glasgow_george_5E.html John W. Spurr, “GLASGOW, GEORGE,” Dictionary of Canadian Biography, vol. 5], full English entry read on 17 October 2026.</ref>\n\n== Research Notes ==\n\nThe full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.\n\nThe English DCB says London; its French search snippet says Charlton, Gloucestershire. Keep the exact death place qualified. The earlier 1771 first lieutenant is not this officer’s cadet appointment.\n\n== Sources ==\n<references />",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow appears among Royal Artillery colonels in June 1811.<ref>[https://www.newspapers.com/image/1050144942/ Freeman’s Journal, 10 June 1811, p. 4], original previously inspected on 4 October 2026.</ref> A War Office notice in September 1819 lists Major-General George Glasgow of the Royal Artillery among officers taking lieutenant-general rank by brevet.<ref>[https://www.newspapers.com/image/1050057308/ Freeman’s Journal, 6 September 1819, p. 4], original previously inspected on 4 October 2026.</ref>\n\nJohn W. Spurr’s biography records his appointment as an artillery cadet on 2 April 1771, colonel in 1806, major-general in July 1811 and lieutenant-general in August 1819. It gives his death as 28 October 1820 in London and names his late wife Margaret Green.<ref>[https://www.biographi.ca/en/bio/glasgow_george_5E.html John W. Spurr, “GLASGOW, GEORGE,” Dictionary of Canadian Biography, vol. 5], full English entry read on 17 October 2026.</ref>\n\nThe likely burial entry for this officer records George Glasgow, aged 64, buried on 3 November 1820 at St Luke, Charlton by Greenwich, Kent. Two companion indexes supply the lieutenant-general title; Woolwich is recorded as residence. The age implies a birth about 1756, not an exact birthday. These are three index forms of one burial, and the original register has not been inspected.<ref>[https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F28050276&tab=this Findmypast GBPRS/D/28050276 — St Luke Charlton burial derivative transcript]; [https://findmypast.co.uk/transcript?id=BMD%2FNBI%2F12413020 Findmypast BMD/NBI/12413020 — St Luke Charlton burial derivative transcript]; [https://findmypast.co.uk/transcript?id=GBPRS%2FD%2F963049679%2F1&tab=this Findmypast GBPRS/D/963049679/1 — St Luke Charlton burial derivative transcript], derivative transcripts inspected 23 October 2026; probably the same officer by title, locality and chronology.</ref>\n\n== Research Notes ==\n\nThe full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet.\n\nThe English DCB says London; its French search snippet says Charlton, Gloucestershire. Keep the exact death place qualified. The earlier 1771 first lieutenant is not this officer’s cadet appointment.\n\nBurial on 3 November is distinct from death on 28 October. Charlton is the burial place; it does not resolve the retained London/Charlton death-place question.\n\n== Sources ==\n<references />",
           "identity_review_history": [
             {
               "previous_status": "HOLD — newspaper person verified; profile identity unresolved",
@@ -16787,6 +16806,12 @@
               "status": "no_compatible_profile",
               "profile_ids": [],
               "assessment": "The full DCB entry, successfully read through urllib on 17 October, identifies a cadet appointed 2 April 1771, colonel from 24 July 1806, major-general from 4 July 1811, lieutenant-general in August 1819, died 28 October 1820. This joins the June 1811 colonel and September 1819 brevet notices. Actual candidate biographies exclude 1529 (baptised 1769, aged two at cadet appointment), 3611 (born 1777, died 1857) and 3345 (born 1792). Retain the documented 6 October fully paged George/variant duplicate audit; no compatible profile found. Earlier 1771 first-lieutenant evidence describes another officer and must not be conflated with this 1771 cadet."
+            },
+            {
+              "finding_id": "george-senior-artillery-1820-11-03-burial",
+              "status": "probable_existing_draft_subject",
+              "profile_ids": [],
+              "assessment": "Probably the already researched artillery general: military title, Woolwich and chronology agree. These are companion indexes of one burial, not independent corroboration. Burial is separate from the DCB death on28October1820 in London. Age64 implies birth about1756 (roughly1755–1756), not an exact birthday or birthplace. The original register has not been inspected. Reuses the existing consolidated subject and prior concrete duplicate exclusions; no new person case."
             }
           ]
         },

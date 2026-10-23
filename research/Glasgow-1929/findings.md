@@ -88,3 +88,15 @@ The evidence reviewed is the retained Findmypast transcript text captured 3 Sept
 - [fmp-record-r-685318866](https://www.findmypast.co.uk/transcript?id=R_685318866&tab=this).
 - [https://www.familysearch.org/en/tree/person/sources/2CTY-Z6Z](https://www.familysearch.org/en/tree/person/sources/2CTY-Z6Z).
 - [Findmypast, Scotland, Parish Births & Baptisms 1564–1929, Hugh Glasgow, 30 January/5 February 1710 (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625904&tab=this), Kilwinning, OPR 599/1, p. 70; FamilySearch record XYST-MFP (https://www.familysearch.org/ark:/61903/1:1:XYST-MFP).](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3625904&tab=this).
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: qualified existing comparison only: father Hugh, glover, indexed household has recorded children 1732, 1738 and 1742; no identity established for this 1752 child. Transcript names child Hugh; birth 05 Jul 1752, baptism 13 Jul 1752, Kilmarnock, father Hugh Glasgow, glover, mother Margaret McGechen, residence Kilmk, OPR 597/2 item2 p137. Existing canonical fmp-glasgow-120b52e4bd76 is a different Hugh child of the same named glover father and Margaret McGechan, born 1742; it is not this event/person. The 1710 Hugh Glasgow-1929 is a plausible father comparison but not a proven profile identity from this single transcript. Date roles: {"birth": "05 Jul 1752", "baptism": "13 Jul 1752"}  Source conflicts: Provider field 'Register year range: 1786-1819' is inconsistent with the 1752 event metadata; retain as a source metadata anomaly only, not an event date or range assertion.
+
+Next question: Inspect the original source and the retained child/adult-parent identity questions; preserve the stated event dates and source discrepancies.
+
+- [Findmypast SCOT/OPR/BAP/3601722](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3601722&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

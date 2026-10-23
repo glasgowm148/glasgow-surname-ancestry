@@ -50,7 +50,7 @@ def content_hash(path: Path) -> str:
 def _scan(site_root: Path, *, graph: bool = True):
     """Stream source contents; retain hashes and compact references, never text."""
     sources = sorted(path for path in site_root.rglob("*")
-                     if path.is_file() and path.suffix in SOURCE_SUFFIXES)
+                     if path.suffix in SOURCE_SUFFIXES and path.is_file())
     targets, hashes, mismatches = {}, {}, []
     resolved_assets = {}
     for source in sources:

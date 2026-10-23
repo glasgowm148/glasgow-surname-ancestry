@@ -15,3 +15,15 @@ Scope: Complete father-profile placement79%; the 1762 record father role is expl
 Next useful test: Seek a marriage, occupation or residence linking the Irvine John to Margaret Mill.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: Adult parent comparison only; Peter adult father plausible, his own childhood unbridged. 17 Jun 1787 baptism Bathgate, parents Peter Glasgow/Elizabeth Dick. Indexed 1787 birth year has no distinct birth date.
+
+Next question: Original Bathgate baptism and Peter/Dick marriage.
+
+- [Findmypast R_691841701](https://findmypast.co.uk/transcript?id=R_691841701&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

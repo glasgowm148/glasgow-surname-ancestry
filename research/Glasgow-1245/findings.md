@@ -35,3 +35,16 @@ Next useful test: Inspect OPR595/1 p35 for residence or occupation.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Grizell Glasgow, 09 Aug 1724, Irvine; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573951&tab=this)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: recorded baptized child Grizell; exact existing event. Existing canonical held Irvine baptism, 09 Aug 1724; derivative rows agree on Grizell, William, Irvine, date, and mother Margaret Monfood (field-order variants only). Existing findings: research/Glasgow-1245, research/Glasgow-1055. Date roles: {"baptism": "09 Aug 1724", "birth": "indexed year 1724 only"}
+
+Next question: Inspect the original source and the retained child/adult-parent identity questions; preserve the stated event dates and source discrepancies.
+
+- [Findmypast R_685310913](https://findmypast.co.uk/transcript?id=R_685310913&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_688618823](https://findmypast.co.uk/transcript?id=R_688618823&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

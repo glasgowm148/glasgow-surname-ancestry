@@ -32,3 +32,17 @@ Next useful test: Inspect George’s 1857 Newton death record, 696/14, for expli
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: ["Scotland, Civil Registration, 1855-1875, 1881, 1891", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:XS6P-KNHG : Tue Feb 04 18:05:29 UTC 2025), Entry for George Glasgow and Alexander Glasgow, 18 Jun 1857.](https://www.familysearch.org/ark:/61903/1:1:XS6P-KNHG); [Statutory Death Index Scotland (https://www.scotlandspeople.gov.uk/advanced-search/statutory-records/stat-deaths#form): Newton, Midlothian 1857 696 14 Age 80. Mother's maiden surname Glendinning](https://www.scotlandspeople.gov.uk/advanced-search/statutory-records/stat-deaths#form)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: Compatible same-year George Glasgow comparison only; current findings say no record had yet identified him.. Three index/transcript forms match one likely OPR event, with the OPR receipt supplying a separate birth date and baptism date. Keep date roles distinct. Do not assign to Glasgow-3611 or revise its existing father/mother assessments until the name discrepancy is resolved. Literal date/source roles: {"name": "George Glasgow", "birth_date_in_OPR": "01 Feb 1777", "baptism_date": "09 Feb 1777", "place": "Midcalder / Mid Calder", "parents": "Alexr/Alexander Glasgow and Emilia Glenduning/Glendining (as indexed)"}
+
+Next question: Inspect the original record for the retained identity, name and date-role questions; do not infer a second person from an index discrepancy.
+
+- [Findmypast R_686308662](https://findmypast.co.uk/transcript?id=R_686308662&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_694111733](https://findmypast.co.uk/transcript?id=R_694111733&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast SCOT/OPR/BAP/4589513](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4589513&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->

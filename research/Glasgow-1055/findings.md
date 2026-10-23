@@ -47,3 +47,16 @@ Next useful test: Resolve the event-date discrepancy from the original register 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [“Scotland Births and Baptisms, 1564-1950”, a database available on FamilySearch, where you can find William Glasgow’s christening record [https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ).](https://www.familysearch.org/ark:/61903/1:1:XYZK-3JZ)
+
+<!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+## Findmypast pages 9–11 source review — 23 October 2026
+
+Role in this account: named Irvine father William; existing father account. Existing canonical held Irvine baptism, 09 Aug 1724; derivative rows agree on Grizell, William, Irvine, date, and mother Margaret Monfood (field-order variants only). Existing findings: research/Glasgow-1245, research/Glasgow-1055. Date roles: {"baptism": "09 Aug 1724", "birth": "indexed year 1724 only"}
+
+Next question: Inspect the original source and the retained child/adult-parent identity questions; preserve the stated event dates and source discrepancies.
+
+- [Findmypast R_685310913](https://findmypast.co.uk/transcript?id=R_685310913&tab=this), derivative transcript inspected 23 October 2026.
+- [Findmypast R_688618823](https://findmypast.co.uk/transcript?id=R_688618823&tab=this), derivative transcript inspected 23 October 2026.
+
+Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
