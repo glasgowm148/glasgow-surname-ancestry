@@ -14,11 +14,12 @@ class ReviewedVitalDisplayTests(unittest.TestCase):
                      tree_projection=dict(name='Recorded Person', first='Recorded', surname='Person'))
             (root/'assets/research/assessments.json').write_text(json.dumps({'assessments': [a]}))
             (root/'people/example-1.json').write_text(json.dumps(dict(name='Recorded Person', research_assessments=[a])))
-            person = dict(id='Example-1', name='Wrong label', born=1700, parents=[{'id':'Example-2'}])
-            apply(dict(people=[person], meta={}), root, lambda place:'other', {})
+            person = dict(id='Example-1', name='Wrong label', born=1700, parents=[{'id':'Example-2'}], birthLocationRegion='birth', locationRegion='approved')
+            apply(dict(people=[person], meta={}), root, lambda place:'other', {'birth':dict(label='Birth region', color='red')})
             self.assertEqual('Recorded Person', person['name'])
             self.assertEqual(1700, person['born'])
             self.assertEqual([{'id':'Example-2'}], person['parents'])
+            self.assertEqual('approved', person['locationRegion'])
 
     def test_family_summary_and_packed_registry_follow_review(self):
         with TemporaryDirectory() as tmp:

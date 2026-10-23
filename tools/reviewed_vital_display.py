@@ -46,7 +46,7 @@ def apply(model, site_root, location_for, locations):
                 fields['year'] = int(year[1])
         birth_region = fields.get('birthLocationRegion', person.get('birthLocationRegion', 'other'))
         region = birth_region if birth_region != 'other' else fields.get('deathLocationRegion', person.get('deathLocationRegion', 'other'))
-        if region in locations:
+        if kinds & {'birth', 'death'} and region in locations:
             fields.update(locationRegion=region, locationLabel=locations[region]['label'], locationColor=locations[region]['color'])
         person.update(fields)
         displays[person['id']] = deepcopy(fields)
