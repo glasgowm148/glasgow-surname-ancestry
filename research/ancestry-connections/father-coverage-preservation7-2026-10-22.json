@@ -208,15 +208,17 @@
     },
     "Glasgow-3305": {
       "current_sha256": "0ad005d7eefa491cb5d82b014947a6c8cbe693ca93b65ac3220a0ba4dfd02f7d",
-      "proposed_sha256": "80051f83b6d3a60c20a1fd87bd9418d2b5f7f3fdadacf78cf25d85729afd9cd5",
-      "previous_proposed_sha256": "0ad005d7eefa491cb5d82b014947a6c8cbe693ca93b65ac3220a0ba4dfd02f7d",
+      "proposed_sha256": "95fe74e2c2b095c0ae5549b84f04d80f10e0cb8d843d7da87089e64c6f389bb9",
+      "previous_proposed_sha256": "80051f83b6d3a60c20a1fd87bd9418d2b5f7f3fdadacf78cf25d85729afd9cd5",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3305.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3305/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "All other previous proposal passages and distinct citations retained. The unverified Hawthorne section is replaced by the inspected abstract and qualified identity; Vicars citation is preserved. Resolved abstract-access questions are superseded by the nephew-identity test.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-23",
+      "source_review": "research/ancestry-connections/hawthorne-nephew-review-2026-10-23.json"
     },
     "Glasgow-1515": {
       "current_sha256": "6f90db9f73f7b8a505d5b5b8fd08b1aa79a6aed5f177c0fea3e38cb8af178f4c",

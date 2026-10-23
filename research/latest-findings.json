@@ -53189,6 +53189,34 @@
           "url": "https://nationalarchives.ie/collections/search-the-census/view-pdf/?doc=007246515_00419&c19=true"
         }
       ]
+    },
+    {
+      "id": "hawthorne-glasgow-nephew-original-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "finding": "Betham’s manuscript abstract confirms that James Hawthorne of Downpatrick named a nephew James Glasgow: will 20 November 1760, probate 29 January 1762. This resolves the previously unverified nephew claim associated with James-3305.",
+      "status": "qualified",
+      "qualification": "The nephew’s parents, age and residence are not given. Glasgow-3305 remains a compatible candidate, not a proved identification. Downpatrick is the testator’s locality. Existing father 12%, family attachments and vitals remain unchanged; no new father or connected branch is counted.",
+      "people": [
+        {
+          "id": "Glasgow-3305",
+          "name": "James Glasgow",
+          "role": "Compatible candidate for the named nephew; profile identity unproved",
+          "url": "/people/glasgow-3305.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William Betham, Series 1 vol.34, pp.136–137; NAI DGS007634324 image 00575, inspected 23 October 2026",
+          "url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634324%2F00575&parentid=IRE%2FNAI%2FGENABS%2F00275878%2F1"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#chapter-hawthorne-nephew-1760",
+      "provenance": [
+        "research/ancestry-connections/hawthorne-nephew-review-2026-10-23.json",
+        "research/Glasgow-3305/findings.md",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }

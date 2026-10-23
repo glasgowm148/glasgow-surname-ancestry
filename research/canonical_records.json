@@ -30775,5 +30775,35 @@
     },
     "note": "See the individual assessment for the difference between a cited record, a profile identity and an inferred parent.",
     "provenance": "research/ancestry-connections/maryland-smith-county-review-2026-10-23.json"
+  },
+  {
+    "record_id": "betham-hawthorne-james-glasgow-nephew-1760",
+    "provider_record_id": "IRE/NAI/GENABS/00275878/1",
+    "person": "James Glasgow",
+    "association": "James Glasgow, nephew in the Hawthorne estate; candidate identity",
+    "date": "20 November 1760; probate 29 January 1762",
+    "year": 1760,
+    "place": "Downpatrick, County Down, Ireland — testator’s locality; nephew’s residence unstated",
+    "country": "ireland",
+    "record_type": "Will abstract",
+    "source_title": "William Betham, genealogical abstracts of Prerogative wills, Series 1, vol.34, H 1753–1763, handwritten pp.136–137, James Hawthorne of Downpatrick; will 20 November 1760, probate annotation 29 January 1762. National Archives of Ireland microfilm DGS007634324, image00575",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00275878%2F1",
+    "source_urls": [
+      "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00275878%2F1",
+      "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634324%2F00575&parentid=IRE%2FNAI%2FGENABS%2F00275878%2F1"
+    ],
+    "source_type": "Betham manuscript abstract of a prerogative will",
+    "source_quality": "derivative",
+    "status": "Documented abstracted nephew relationship; compatible candidate profile identity",
+    "note": "The inspected Betham manuscript abstract names James Hawthorne of Downpatrick, County Down, and dates his will 20 November 1760, followed by the probate annotation 29 January 1762. The entry begins on handwritten page 136 and continues on page 137, where it expressly says “Nephew — James Glasgow”. The Glasgow surname and nephew relationship are legible. The abstract supplies no age, residence, occupation, wife, children or parents for the nephew. Downpatrick is the testator’s locality, not an established residence for James Glasgow. This is an original image of Betham’s later abstract, not the original will. Glasgow-3305 is the existing compatible candidate because its maintained research already identifies this very Hawthorne-nephew theory. The abstract now verifies the documentary nephew, but provides no identifier joining him to the Moneymore-labelled profile, the 1766 Drumearn householders, the 1775 Cookstown petitioner or the emigrant brothers. Other contemporary Irish James Glasgows are not excluded by missing fields. Retain this record on the existing candidate account; do not create a duplicate or select a new parent. James-1024 remains the uncertain father at 12%; Mary Harkness remains independently unproved. The kin term alone does not identify which parent or marriage produced the relationship, so it cannot supply a named Hawthorne mother.",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/hawthorne-nephew-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-3305": {
+        "role": "Compatible candidate for the named nephew; identity not established, no father named"
+      }
+    },
+    "record_category": "Wills and probate"
   }
 ]

@@ -3998,3 +3998,8 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Glasgow-1022](https://www.wikitree.com/wiki/Glasgow-1022) | OPEN | Add possible son Robert-1367 at38% after inspecting the original marriage heading; correct age100 and nephew John’s vagrant occupation. Preserve the private complete comparison. |
 | [Glasgow-1367](https://www.wikitree.com/wiki/Glasgow-1367) | OPEN | Replace unnamed uncertain father with John-1022 as a possible working father38%; retain the old scaffold as an alternative and qualify the Glenleslie identity. Correct the original census marriage heading and nephew occupation. |
 | [Glasgow-1050](https://www.wikitree.com/wiki/Glasgow-1050) | OPEN | Add the inspected1851 original mortality source explicitly naming Andrew as John’s son; retain99% father confidence, existing dates and all descendant identity limits. |
+
+
+## 23 October 2026 — Hawthorne nephew abstract
+
+| [James Glasgow (Glasgow-3305)](https://www.wikitree.com/wiki/Glasgow-3305) | OPEN | Add the inspected 1760 Hawthorne will/1762 probate abstract naming nephew James Glasgow; retain candidate identity and existing uncertain father 12%. No new father or vital-field change. |

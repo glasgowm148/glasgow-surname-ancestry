@@ -1,0 +1,85 @@
+{
+  "reviewed": "2026-10-23",
+  "record_id": "betham-hawthorne-james-glasgow-nephew-1760",
+  "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00275878%2F1",
+  "image_url": "https://search.findmypast.co.uk/record?id=S2%2FIRE%2FNAI%2F007634324%2F00575&parentid=IRE%2FNAI%2FGENABS%2F00275878%2F1",
+  "source_locator": "Betham Series1 vol34, handwritten pp136–137, DGS007634324 image00575",
+  "source_image_sha256": "2d83fdff1e16df54810fb0c0ed604a4f79fb92b09c48e719f781e4fb9dc9d652",
+  "source_image_bytes": 435518,
+  "source_image_publication": false,
+  "reading": "The inspected Betham manuscript abstract names James Hawthorne of Downpatrick, County Down, and dates his will 20 November 1760, followed by the probate annotation 29 January 1762. The entry begins on handwritten page 136 and continues on page 137, where it expressly says “Nephew — James Glasgow”. The Glasgow surname and nephew relationship are legible. The abstract supplies no age, residence, occupation, wife, children or parents for the nephew. Downpatrick is the testator’s locality, not an established residence for James Glasgow. This is an original image of Betham’s later abstract, not the original will.",
+  "identity_assessment": "Glasgow-3305 is the existing compatible candidate because its maintained research already identifies this very Hawthorne-nephew theory. The abstract now verifies the documentary nephew, but provides no identifier joining him to the Moneymore-labelled profile, the 1766 Drumearn householders, the 1775 Cookstown petitioner or the emigrant brothers. Other contemporary Irish James Glasgows are not excluded by missing fields. Retain this record on the existing candidate account; do not create a duplicate or select a new parent. James-1024 remains the uncertain father at 12%; Mary Harkness remains independently unproved. The kin term alone does not identify which parent or marriage produced the relationship, so it cannot supply a named Hawthorne mother.",
+  "next_test": "Identify the nephew through a fuller surviving Hawthorne will, estate distribution, or a deed/church record naming his parent, residence or another distinctive relative. Compare that identifier with the Cookstown/Drumearn and emigrant-family evidence before changing a father assessment. Full-will survival remains unresolved; the Betham-abstract access question is closed.",
+  "record_relationship": "James Glasgow is named as nephew of James Hawthorne",
+  "profile_identity": "compatible candidate, unresolved",
+  "father_probability_before": 12,
+  "father_probability_after": 12,
+  "father_links_added": 0,
+  "branches_joined": 0,
+  "full_original_will_inspected": false,
+  "full_original_will_survival": "unresolved",
+  "collection_search": {
+    "url": "https://www.findmypast.co.uk/search/results?lastName=Glasgow&datasetname=Betham+Genealogical+Abstracts&sid=117",
+    "surname": "Glasgow",
+    "variants": false,
+    "displayed_results": 8,
+    "pages": 1,
+    "scope": "Entire exact-surname result list enumerated; this batch inspected the1760 transcript and its manuscript image, not all8 transcripts"
+  },
+  "draft_preservation": {
+    "research/Glasgow-3305/father-confidence-2026-10-22g.wiki": {
+      "prior_sha256": "80051f83b6d3a60c20a1fd87bd9418d2b5f7f3fdadacf78cf25d85729afd9cd5",
+      "proposed_sha256": "95fe74e2c2b095c0ae5549b84f04d80f10e0cb8d843d7da87089e64c6f389bb9",
+      "replaced_section": "=== Hawthorne will theory ===\n\nThe reported claim that a 1766 Hawthorne will named a nephew James Glasgow has not been verified from an image, page or complete abstract. Arthur Vicars's prerogative-will index instead lists '''James Hawthorne, merchant of Downpatrick, in 1762'''; it has no corresponding 1766 entry for him.<ref name=\"Vicars\">Arthur Vicars, ''Index to the Prerogative Wills of Ireland, 1536–1810'' (1897), Hawthorne entries, [https://archive.org/stream/indextoprerogati00vica/indextoprerogati00vica_djvu.txt text edition].</ref>\n\nThe date discrepancy does not disprove the theory, since an old reference might confuse a will date, probate date, court or spelling. Until the complete Betham abstract is located, it establishes neither a Glasgow nephew nor this profile's identity.\n",
+      "retained_distinct_citation_urls": true
+    },
+    "research/Glasgow-3305/Glasgow-3305.md": {
+      "prior_sha256": "e96a060ce06856e2db15c9b470e6ded2a820d7f016b31cb9682f4535c8edbe77",
+      "proposed_sha256": "185b0a5f51927e5f87c5d7cc4f272bb5e37e0c299219ce7ee454a2d25f3cdaaf",
+      "replaced_section": "=== Hawthorne will theory ===\n\nThe reported claim that a 1766 Hawthorne will named a nephew James Glasgow has not been verified from an image, page or complete abstract. Arthur Vicars's prerogative-will index instead lists '''James Hawthorne, merchant of Downpatrick, in 1762'''; it has no corresponding 1766 entry for him.<ref name=\"Vicars\">Arthur Vicars, ''Index to the Prerogative Wills of Ireland, 1536–1810'' (1897), Hawthorne entries, [https://archive.org/stream/indextoprerogati00vica/indextoprerogati00vica_djvu.txt text edition].</ref>\n\nThe date discrepancy does not disprove the theory, since an old reference might confuse a will date, probate date, court or spelling. Until the complete Betham abstract is located, it establishes neither a Glasgow nephew nor this profile's identity.\n",
+      "retained_distinct_citation_urls": true
+    }
+  },
+  "verification": {
+    "all_historical_father_fields_unchanged": 1798,
+    "documentary_connectors_unchanged": 2,
+    "three_tree_models_agree": true,
+    "all_cohort_connectivity_and_confidence_metrics_unchanged": true,
+    "old_history_preserved": true,
+    "individual_percentage_findings_unchanged": true,
+    "full_compact_record_category_and_quality_agree": true,
+    "provider_record_unique": true,
+    "complete_draft_citations_preserved": true,
+    "current_findings_and_study_visible": true,
+    "vitals_unchanged": true,
+    "no_false_relationship_upgrade": true,
+    "source_document_id": "s-fa83d036ba19acc9",
+    "existing_held_tree_dossier_differences_preserved": [
+      "Glasgow-2908",
+      "Glasgow-867",
+      "Glasgow-951"
+    ],
+    "public_dossier_father_fields_matched": 1795,
+    "preserved_hold_source": "research/ancestry-connections/tree-publication-review-2026-10-23T063225-glenleslie.json",
+    "standard_analytics_restored": [
+      "branches/family-glasgow-1095/index.html",
+      "catalogue/advanced.html",
+      "catalogue/index.html",
+      "catalogue.html"
+    ],
+    "analytics_body_preservation_checked": true,
+    "stale_asset_references": 0,
+    "asset_only_version_changes_verified": 101,
+    "release_counts_consistent": true,
+    "source_reader_exists": true
+  },
+  "entry_boundary_check": {
+    "reviewed": "2026-10-23",
+    "following_image_url": "https://search.findmypast.co.uk/record/browse?id=s2%2fire%2fnai%2f007634324%2f00576",
+    "following_image_sha256": "89215315619e082ca01d938229f719c512c1977d9b3721314529eaaa06510301",
+    "following_image_bytes": 427529,
+    "reading": "The following spread begins at handwritten p.138 with the separate Edward Horner estate. The Hawthorne abstract ends on p.137 after the sister-in-law entry. No continuation assigning a parent or residence to nephew James Glasgow follows.",
+    "hawthorne_entry_span": "handwritten pp.136–137",
+    "source_image_publication": false
+  }
+}
