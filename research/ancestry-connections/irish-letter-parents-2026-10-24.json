@@ -332,8 +332,10 @@
     "publication_new_failures": 0,
     "link_new_failures": 0,
     "stale_asset_references": 0,
-    "live_published": false,
-    "latest_finding_render_pending": true
+    "latest_finding_visible": true,
+    "latest_finding_render_pending": false,
+    "study_detail_anchor_verified": true,
+    "live_published": false
   },
   "prior_letter_review": "2026-10-20",
   "new_original_parent_record": false,
