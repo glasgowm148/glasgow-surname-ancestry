@@ -1,0 +1,210 @@
+{
+  "reviewed": "2026-10-23",
+  "subjects": [
+    "Glasgow-3612",
+    "Glasgow-1239",
+    "Glasgow-3052"
+  ],
+  "selected_assertion": "C-working-20261023-alexander3612-andrew1239",
+  "selected_percent": 42,
+  "alternative_assertion": "C-alternative-20261023-alexander3612-andrew3052",
+  "alternative_percent": 32,
+  "previous_father": {
+    "status": "unknown",
+    "probability_percent": null,
+    "relative_id": null,
+    "assessment_date": "2026-10-23",
+    "source_basis": "Public WikiTree Family section inspected 23 October 2026: father and mother are both unknown; pre-batch local dossier also has no parents.",
+    "father_attached": false
+  },
+  "prior_canonical_record": {
+    "record_id": "fmp-record-r-686309236",
+    "provider_record_id": "R_686309236",
+    "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Alexander Glasgow",
+    "date": "17 Apr 1757",
+    "year": 1757,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686309236&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Alexander Glasgow-3612, with uncertain 1760 birth, Midlothian association and unknown parents, remains a compatible comparison. Andrew Glasgow-1239 and Glasgow-3052 are possible father comparisons by name, chronology and neighbouring parish context, with no family bridge identifying either. Retain both named parents as source assertions; do not replace a known wife, invent a modern mother or attach the child. No new person is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-3612": {
+        "role": "Compatible child candidate only; uncertain 1760 birth is not an exclusion",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1239": {
+        "role": "Compatible father candidate only; no child assigned",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3052": {
+        "role": "Alternative father candidate only; no child assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
+  },
+  "provider_transcript_rechecked": "https://www.findmypast.co.uk/transcript?id=R_686309236&tab=this",
+  "original_inspected": false,
+  "new_parent_attachments": 1,
+  "new_people": 0,
+  "vital_fields_changed": false,
+  "mother_selected": false,
+  "live_edit": false,
+  "reason": "Select Andrew Glasgow-1239 as the possible working father of Alexander Glasgow-3612. The inspected 17 April 1757 Mid Calder transcript names Alexander, father Andrew Glasgow and mother Janet Young. The adult Alexander’s uncertain 1760 birth and Newton/Midlothian family are compatible with this child: a 1757 child would be about 20 at his son George’s reported 1777 birth. The three-year difference from an uncertain birth field is not an exclusion. Andrew-1239’s 21 December 1729 Livingston baptism places a documented Andrew in the neighbouring parish and the right generation, aged about 27 in 1757. This is the preferred available regional and chronological reconstruction, rather than leaving the named-parent lead entirely outside the working tree.",
+  "scope": "42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged.",
+  "discarded_scan_leads": "Kilbirnie1748/1749 transcripts name non-Glasgow parental surnames already noted in existing cases; do not invent Glasgow fathers from their given names. No further claim or new record is inferred from this recheck.",
+  "prior_related_canonical_records": [
+    {
+      "record_id": "fmp-record-scot-opr-bap-4588936",
+      "provider_record_id": "SCOT/OPR/BAP/4588936",
+      "association": "Glasgow — unnamed record subject — Scotland, Parish Births & Baptisms 1564-1929",
+      "date": "17 ? 1757",
+      "year": 1757,
+      "place": "Midcalder",
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4588936&tab=this",
+      "status": "Inspected provider transcript; original uninspected — candidate identity only",
+      "note": "Unnamed child and unresolved baptism month; compare Andrew Glasgow–Janet Young household.",
+      "role": "Documentary source; subject/relative identification qualified",
+      "profiles": {
+        "Glasgow-1239": {
+          "role": "Compatible candidate only; record role not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      },
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "reviewed_on": "2026-10-22",
+      "publish_to_record_index": true,
+      "person": "Unnamed Glasgow child"
+    },
+    {
+      "record_id": "fmp-record-r-694112306",
+      "provider_record_id": "R_694112306",
+      "association": "Alexander Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+      "person": "Alexander Glasgow",
+      "date": "17 Apr 1757",
+      "year": 1757,
+      "place": "Mid Calder, Midlothian, Scotland",
+      "country": "Scotland",
+      "source_url": "https://www.findmypast.co.uk/transcript?id=R_694112306&tab=this",
+      "status": "Inspected provider transcript; original uninspected",
+      "note": "One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Alexander Glasgow-3612, with uncertain 1760 birth, Midlothian association and unknown parents, remains a compatible comparison. Andrew Glasgow-1239 and Glasgow-3052 are possible father comparisons by name, chronology and neighbouring parish context, with no family bridge identifying either. Retain both named parents as source assertions; do not replace a known wife, invent a modern mother or attach the child. No new person is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+      "role": "Documentary source; subject and relative identification qualified",
+      "profiles": {
+        "Glasgow-3612": {
+          "role": "Compatible child candidate only; uncertain 1760 birth is not an exclusion",
+          "timeline_group": "Records for identity comparison"
+        },
+        "Glasgow-1239": {
+          "role": "Compatible father candidate only; no child assigned",
+          "timeline_group": "Records for identity comparison"
+        },
+        "Glasgow-3052": {
+          "role": "Alternative father candidate only; no child assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      },
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "reviewed_on": "2026-10-22",
+      "publish_to_record_index": true
+    }
+  ],
+  "verification": {
+    "new_father_attachments": 1,
+    "unknown_fathers_before": 395,
+    "unknown_fathers_after": 394,
+    "working_links_before": 1396,
+    "working_links_after": 1397,
+    "working_components_before": 404,
+    "working_components_after": 403,
+    "largest_working_family_before": 1149,
+    "largest_working_family_after": 1151,
+    "new_working_connected_pairs": 2298,
+    "confident_and_supported_metrics_unchanged": true,
+    "existing_assertions_and_estimates_preserved": true,
+    "selected_father_42_and_alternative_32_visible": true,
+    "all_vitals_spouses_and_prior_sources_preserved": true,
+    "actual_update_membership": 1581,
+    "full_compact_pending_flags_agree": true,
+    "progress_kind": "new",
+    "old_history_preserved_one_snapshot_added": true,
+    "original_register_not_inspected": true,
+    "live_edit": false,
+    "all_father_fields": {
+      "checked": 1798,
+      "connectors": 2,
+      "models": {
+        "main": {
+          "checked_historical_profiles": 1800,
+          "matched_paternal_edges": 1397,
+          "changed_father_fields": 0,
+          "added_historical_profiles": [],
+          "individual_percentage_mismatches": 0,
+          "checked_public_dossier_father_fields": 1798,
+          "checked_documentary_connectors": 2,
+          "held_competing_father_cases": [
+            "Glasgow-2908",
+            "Glasgow-867",
+            "Glasgow-951"
+          ]
+        },
+        "standalone": {
+          "checked_historical_profiles": 1800,
+          "matched_paternal_edges": 1397,
+          "changed_father_fields": 0,
+          "added_historical_profiles": [],
+          "individual_percentage_mismatches": 0,
+          "checked_public_dossier_father_fields": 1798,
+          "checked_documentary_connectors": 2,
+          "held_competing_father_cases": [
+            "Glasgow-2908",
+            "Glasgow-867",
+            "Glasgow-951"
+          ]
+        },
+        "packed": {
+          "checked_historical_profiles": 1800,
+          "matched_paternal_edges": 1397,
+          "changed_father_fields": 0,
+          "added_historical_profiles": [],
+          "individual_percentage_mismatches": 0,
+          "checked_public_dossier_father_fields": 1798,
+          "checked_documentary_connectors": 2,
+          "held_competing_father_cases": [
+            "Glasgow-2908",
+            "Glasgow-867",
+            "Glasgow-951"
+          ]
+        }
+      },
+      "mismatches": [],
+      "held": [
+        "Glasgow-2908",
+        "Glasgow-867",
+        "Glasgow-951"
+      ]
+    },
+    "indexed_record_ids": [
+      "fmp-record-r-686309236",
+      "fmp-record-r-694112306",
+      "fmp-record-scot-opr-bap-4588936"
+    ],
+    "indexed_source_ids": [
+      "s-5169fd2377b17838",
+      "s-63b81887c361d94c",
+      "s-bae2d2024df65307"
+    ],
+    "new_publication_failures": 0,
+    "new_broken_link_pairs": 0,
+    "actual_progress_20_percentage_changes_and_5_new_fathers_verified": true,
+    "actual_william_71_to_95_with_biography_and_wikitree_links_verified": true,
+    "actual_alexander_new_possible_father_42_badge_link_verified": true,
+    "indexed_records_applied": true,
+    "source_quality_checks_passed": true
+  },
+  "connectivity_input_fingerprint": "8346cb52c7ab5118abd0d282213dd5b239f49f85bd0090ca391e75f0bb00b6a4"
+}

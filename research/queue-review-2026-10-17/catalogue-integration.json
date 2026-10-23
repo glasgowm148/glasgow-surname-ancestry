@@ -4079,8 +4079,8 @@
     },
     "Glasgow-3052": {
       "draft_path": "research/Glasgow-3052/father-confidence-2026-10-22.wiki",
-      "summary": "Review existing father at17% (uncertain); retain explicit source and identity limits. No new father attachment.",
-      "work_queue_summary": "Review existing father at17% (uncertain); retain explicit source and identity limits. No new father attachment.",
+      "summary": "Record the 32% unselected alternative for Alexander-3612; preserve the existing James father17%, wife and known child. No new child attachment is proposed for this alternative.",
+      "work_queue_summary": "Record the 32% unselected alternative for Alexander-3612; preserve the existing James father17%, wife and known child. No new child attachment is proposed for this alternative.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -4093,7 +4093,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-3052",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "remote_captured_at": "2026-09-07T21:05:55+00:00",
       "remote_wikitext": "== Research ==\n\n* Hypothetical person based on:\n* Another Andrew marries a Janet Clerk in the same area (and later in 1790 a John Glasgow marries an Ann Clerk in Lanark)\n* Couldnt be [[Glasgow-1336|Andrew Glasgow]] and [[Clerk-314|Isobel Clerk]]. son as an Alexander is born to an Andrew Glasgow and Janet Clerk in 1741<ref>https://www.familysearch.org/tree/person/sources/M5LQ-QCX</ref> putting Andrew's birth around 1720 which matches [[Glasgow-1336|Andrew Glasgow (abt.1714-)]]\n* Maybe Janet and Isobel are the same person? \n* Alternatively there are two Andrew's around the same age who are cousins and marry a Clerk in the same area. \n== Sources ==\n<references />",
       "relationship_changes": [],
@@ -4102,7 +4102,8 @@
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
-      "addition_wikitext": ""
+      "addition_wikitext": "",
+      "significance": 70
     },
     "Glasgow-3055": {
       "queued_at": "2026-10-22",
@@ -19209,11 +19210,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-1239/father-confidence-2026-10-22f.wiki",
       "findings_path": "research/Glasgow-1239/findings.md",
-      "summary": "Review existing father at 99% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 99% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add possible son Alexander-3612 at 42%; retain current Thomas father99% and all dates.",
+      "work_queue_summary": "Add possible son Alexander-3612 at 42%; retain current Thomas father99% and all dates.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -19226,6 +19227,18 @@
           "assertion_id": "C-coverage-20261022f-glasgow-1239-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Existing child-to-father link assessed from held public evidence; Thomas is defined by the Clarkson/Classon household; proposed 1675 childhood and upstream parents remain uncertain."
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-3612",
+          "status": "possible",
+          "probability_percent": 42,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Public WikiTree Family section inspected 23 October 2026: father and mother are both unknown; pre-batch local dossier also has no parents.",
+          "assertion_id": "C-working-20261023-alexander3612-andrew1239",
+          "scope": "42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged."
         }
       ],
       "preserve_captured_detail": false,
@@ -19233,7 +19246,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json",
+      "significance": 70
     },
     "Glasgow-3006": {
       "profile_id": "Glasgow-3006",
@@ -40249,6 +40263,38 @@
       "post_merge_replacements": [],
       "addition_wikitext": "",
       "preservation_review_path": "research/ancestry-connections/american-record-preservation-2026-10-23.json"
+    },
+    "Glasgow-3612": {
+      "profile_id": "Glasgow-3612",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-10-23",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1239",
+          "status": "possible",
+          "probability_percent": 42,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Public WikiTree Family section inspected 23 October 2026: father and mother are both unknown; pre-batch local dossier also has no parents.",
+          "assertion_id": "C-working-20261023-alexander3612-andrew1239",
+          "scope": "42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged."
+        }
+      ],
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "summary": "Add possible father Andrew-1239 at 42%, with unselected Andrew-3052 alternative32%; retain the 1760 estimate and independently assess the 1757 baptism identity.",
+      "work_queue_summary": "Add possible father Andrew-1239 at 42%, with unselected Andrew-3052 alternative32%; retain the 1760 estimate and independently assess the 1757 baptism identity.",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-3612/calder-working-father-2026-10-23.wiki",
+      "findings_path": "research/Glasgow-3612/findings.md",
+      "preservation_review_path": "research/ancestry-connections/calder-alexander-parent-preservation-2026-10-23.json",
+      "significance": 86
     }
   },
   "reviewed_on": "2026-10-22",

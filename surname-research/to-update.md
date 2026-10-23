@@ -3976,3 +3976,10 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Cunningham Ramsay Glasgow](https://www.wikitree.com/wiki/Glasgow-3742) | OPEN | Existing father Hugh: 83% → 97% confident from Gibson’s explicit adult-son account; exact dates and maternity unchanged. |
 | [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-2873) | OPEN | Existing father John-2871: 94% → 82% probable; original Gibson paternal dates conflict, tax succession remains circumstantial. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2871) | OPEN | Add separate 1789/1792 original estates, uncle-family comparison and corrected Gibson attribution; preserve parents and vital fields. |
+
+
+## 23 October 2026 — Mid Calder working parent
+
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-3612) | OPEN | New possible father Andrew-1239,42%; retain Andrew-3052 as unselected32% alternative and all vital fields; live parents checked unknown. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1239) | OPEN | Possible son Alexander-3612,42%; existing fatherThomas99% unchanged. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3052) | OPEN | Add unselected32% Alexander comparison; no family attachment change. |

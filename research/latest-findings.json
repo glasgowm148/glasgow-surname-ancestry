@@ -53046,6 +53046,46 @@
           "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=772936&page=247&repo=r-24f48cc6"
         }
       ]
+    },
+    {
+      "id": "midcalder-alexander-andrew-working-father-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-3612.html",
+      "finding": "Select Andrew Glasgow-1239 as Alexander Glasgow-3612’s possible working father at 42%, using the held 1757 Mid Calder baptism naming Andrew Glasgow and Janet Young, compatible adult chronology and Andrew’s neighbouring Livingston childhood. This adds a previously absent local father; Andrew-3052 remains an unselected 32% alternative.",
+      "qualification": "42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged. This is a new interpretation of held evidence, not a new register discovery or confident parent claim. The public WikiTree father was checked as unknown; no live edit made.",
+      "people": [
+        {
+          "id": "Glasgow-3612",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-3612.html",
+          "role": "Adult child identity possible; new selected father42%"
+        },
+        {
+          "id": "Glasgow-1239",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1239.html",
+          "role": "Selected possible father identity42%"
+        },
+        {
+          "id": "Glasgow-3052",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3052.html",
+          "role": "Unselected father alternative32%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast, Scotland Parish Births & Baptisms: Alexander Glasgow, 17 April 1757, Mid Calder; transcript rechecked 23 October 2026",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686309236&tab=this"
+        },
+        {
+          "title": "Andrew Glasgow, 21 December 1729, Livingston; held transcript, OPR 669/1 item 4",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151237&tab=this"
+        }
+      ]
     }
   ]
 }

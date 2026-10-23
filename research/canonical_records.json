@@ -7187,19 +7187,29 @@
     "year": 1757,
     "place": "Midcalder",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4588936&tab=this",
-    "status": "Inspected provider transcript; original uninspected — candidate identity only",
-    "note": "Unnamed child and unresolved baptism month; compare Andrew Glasgow–Janet Young household.",
+    "status": "Held transcript; same-event comparison and selected adult father pair possible42%, alternative32%; original uninspected",
+    "note": "This derivative literally leaves the child unnamed and gives “17 ? 1757”; the shared day, year, parish and Andrew Glasgow/Janet Young pair favour the same event as the named 17 April1757 Alexander indexes. Do not count another child or claim the unread month was read from an original. Select Andrew Glasgow-1239 as the possible working father of Alexander Glasgow-3612. The inspected 17 April 1757 Mid Calder transcript names Alexander, father Andrew Glasgow and mother Janet Young. The adult Alexander’s uncertain 1760 birth and Newton/Midlothian family are compatible with this child: a 1757 child would be about 20 at his son George’s reported 1777 birth. The three-year difference from an uncertain birth field is not an exclusion. Andrew-1239’s 21 December 1729 Livingston baptism places a documented Andrew in the neighbouring parish and the right generation, aged about 27 in 1757. This is the preferred available regional and chronological reconstruction, rather than leaving the named-parent lead entirely outside the working tree. 42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged.",
     "role": "Documentary source; subject/relative identification qualified",
     "profiles": {
+      "Glasgow-3612": {
+        "role": "Selected possible identity of the 1757 child; complete adult father pair42%",
+        "timeline_group": "Records for identity comparison"
+      },
       "Glasgow-1239": {
-        "role": "Compatible candidate only; record role not assigned",
+        "role": "Selected possible father-profile identity42%; named record father is explicitly Andrew Glasgow",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3052": {
+        "role": "Unselected possible father-profile alternative32%; not a second selected father",
         "timeline_group": "Records for identity comparison"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-22",
+    "reviewed_on": "2026-10-23",
     "publish_to_record_index": true,
-    "person": "Unnamed Glasgow child"
+    "person": "Unnamed Glasgow child",
+    "assessment": "Select Andrew Glasgow-1239 as the possible working father of Alexander Glasgow-3612. The inspected 17 April 1757 Mid Calder transcript names Alexander, father Andrew Glasgow and mother Janet Young. The adult Alexander’s uncertain 1760 birth and Newton/Midlothian family are compatible with this child: a 1757 child would be about 20 at his son George’s reported 1777 birth. The three-year difference from an uncertain birth field is not an exclusion. Andrew-1239’s 21 December 1729 Livingston baptism places a documented Andrew in the neighbouring parish and the right generation, aged about 27 in 1757. This is the preferred available regional and chronological reconstruction, rather than leaving the named-parent lead entirely outside the working tree. 42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged.",
+    "same_event_comparison": "fmp-record-r-686309236"
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4589248",
@@ -11104,26 +11114,27 @@
     "place": "Mid Calder, Midlothian, Scotland",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_686309236&tab=this",
-    "status": "Inspected provider transcript; original uninspected",
-    "note": "One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Alexander Glasgow-3612, with uncertain 1760 birth, Midlothian association and unknown parents, remains a compatible comparison. Andrew Glasgow-1239 and Glasgow-3052 are possible father comparisons by name, chronology and neighbouring parish context, with no family bridge identifying either. Retain both named parents as source assertions; do not replace a known wife, invent a modern mother or attach the child. No new person is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "status": "Provider transcript rechecked; selected profile father identity possible42%, alternative32%; original uninspected",
+    "note": "Select Andrew Glasgow-1239 as the possible working father of Alexander Glasgow-3612. The inspected 17 April 1757 Mid Calder transcript names Alexander, father Andrew Glasgow and mother Janet Young. The adult Alexander’s uncertain 1760 birth and Newton/Midlothian family are compatible with this child: a 1757 child would be about 20 at his son George’s reported 1777 birth. The three-year difference from an uncertain birth field is not an exclusion. Andrew-1239’s 21 December 1729 Livingston baptism places a documented Andrew in the neighbouring parish and the right generation, aged about 27 in 1757. This is the preferred available regional and chronological reconstruction, rather than leaving the named-parent lead entirely outside the working tree. 42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged.",
     "role": "Documentary source; subject and relative identification qualified",
     "profiles": {
       "Glasgow-3612": {
-        "role": "Compatible child candidate only; uncertain 1760 birth is not an exclusion",
+        "role": "Selected possible identity of the 1757 child; complete adult father pair42%",
         "timeline_group": "Records for identity comparison"
       },
       "Glasgow-1239": {
-        "role": "Compatible father candidate only; no child assigned",
+        "role": "Selected possible father-profile identity42%; named record father is explicitly Andrew Glasgow",
         "timeline_group": "Records for identity comparison"
       },
       "Glasgow-3052": {
-        "role": "Alternative father candidate only; no child assigned",
+        "role": "Unselected possible father-profile alternative32%; not a second selected father",
         "timeline_group": "Records for identity comparison"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-22",
-    "publish_to_record_index": true
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "assessment": "Select Andrew Glasgow-1239 as the possible working father of Alexander Glasgow-3612. The inspected 17 April 1757 Mid Calder transcript names Alexander, father Andrew Glasgow and mother Janet Young. The adult Alexander’s uncertain 1760 birth and Newton/Midlothian family are compatible with this child: a 1757 child would be about 20 at his son George’s reported 1777 birth. The three-year difference from an uncertain birth field is not an exclusion. Andrew-1239’s 21 December 1729 Livingston baptism places a documented Andrew in the neighbouring parish and the right generation, aged about 27 in 1757. This is the preferred available regional and chronological reconstruction, rather than leaving the named-parent lead entirely outside the working tree. 42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged."
   },
   {
     "record_id": "fmp-record-r-694112306",
@@ -11135,26 +11146,28 @@
     "place": "Mid Calder, Midlothian, Scotland",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_694112306&tab=this",
-    "status": "Inspected provider transcript; original uninspected",
-    "note": "One Mid Calder baptism on 17 April 1757 names Andrew Glasgow and Janet Young. Alexander Glasgow-3612, with uncertain 1760 birth, Midlothian association and unknown parents, remains a compatible comparison. Andrew Glasgow-1239 and Glasgow-3052 are possible father comparisons by name, chronology and neighbouring parish context, with no family bridge identifying either. Retain both named parents as source assertions; do not replace a known wife, invent a modern mother or attach the child. No new person is proposed. Source level: provider transcript only; companion indexes of one event are not independent corroboration.",
+    "status": "Held transcript; same-event comparison and selected adult father pair possible42%, alternative32%; original uninspected",
+    "note": "This is a second derivative of the same named 17 April1757 baptism, not an independent parent witness. Select Andrew Glasgow-1239 as the possible working father of Alexander Glasgow-3612. The inspected 17 April 1757 Mid Calder transcript names Alexander, father Andrew Glasgow and mother Janet Young. The adult Alexander’s uncertain 1760 birth and Newton/Midlothian family are compatible with this child: a 1757 child would be about 20 at his son George’s reported 1777 birth. The three-year difference from an uncertain birth field is not an exclusion. Andrew-1239’s 21 December 1729 Livingston baptism places a documented Andrew in the neighbouring parish and the right generation, aged about 27 in 1757. This is the preferred available regional and chronological reconstruction, rather than leaving the named-parent lead entirely outside the working tree. 42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged.",
     "role": "Documentary source; subject and relative identification qualified",
     "profiles": {
       "Glasgow-3612": {
-        "role": "Compatible child candidate only; uncertain 1760 birth is not an exclusion",
+        "role": "Selected possible identity of the 1757 child; complete adult father pair42%",
         "timeline_group": "Records for identity comparison"
       },
       "Glasgow-1239": {
-        "role": "Compatible father candidate only; no child assigned",
+        "role": "Selected possible father-profile identity42%; named record father is explicitly Andrew Glasgow",
         "timeline_group": "Records for identity comparison"
       },
       "Glasgow-3052": {
-        "role": "Alternative father candidate only; no child assigned",
+        "role": "Unselected possible father-profile alternative32%; not a second selected father",
         "timeline_group": "Records for identity comparison"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-22",
-    "publish_to_record_index": true
+    "reviewed_on": "2026-10-23",
+    "publish_to_record_index": true,
+    "assessment": "Select Andrew Glasgow-1239 as the possible working father of Alexander Glasgow-3612. The inspected 17 April 1757 Mid Calder transcript names Alexander, father Andrew Glasgow and mother Janet Young. The adult Alexander’s uncertain 1760 birth and Newton/Midlothian family are compatible with this child: a 1757 child would be about 20 at his son George’s reported 1777 birth. The three-year difference from an uncertain birth field is not an exclusion. Andrew-1239’s 21 December 1729 Livingston baptism places a documented Andrew in the neighbouring parish and the right generation, aged about 27 in 1757. This is the preferred available regional and chronological reconstruction, rather than leaving the named-parent lead entirely outside the working tree. 42% is a subjective assessment of the complete adult Alexander → Andrew-1239 profile pair, including both the 1757 child-to-adult identification and the identification of the named Andrew with the Livingston child. Neither identity is proved by a shared occupation, witness, holding or later parent clause. The record-defined father’s given name and surname are explicit; that does not make this later profile pair confident. Andrew-3052, associated with Janet Clerk and an earlier Alexander household, remains an unselected possible alternative at 32%; a different spouse is not an exclusion. Other or unrepresented Andrews remain possible. No percentages are multiplied, and the two Andrew hypotheses are not independent propositions. Janet Young is the recorded mother but no modern mother identity is assigned. All vital fields, spouses and existing child links remain unchanged.",
+    "same_event_comparison": "fmp-record-r-686309236"
   },
   {
     "record_id": "fmp-record-scot-opr-bur-1030663",
