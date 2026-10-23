@@ -684,6 +684,40 @@
       },
       "source_url": "https://www.wikitree.com/wiki/Glasgow-1241",
       "basis": "Live WikiTree profile inspected23October2026 names Philip Glasgow, son of Thomas Glasgow and Jean Duncan, baptised3June1711 at Uphall. The saved public profile fields and the inspected FMP baptism agree. Mary Glascow is a different Dublin namesake discussed in the biography, not this subject. Correct the imported display label; retain original label in reversible review provenance. No identity merge, vital change or family reattachment."
+    },
+    {
+      "id": "currituck-william-death-boundary-20261023",
+      "subject": "Glasgow-357",
+      "status": "approved",
+      "reviewed": "2026-10-23",
+      "basis": "The reported 14 August 1805 death is inconsistent with a will executed on 14 October 1805. Prefer the qualified lower boundary after 14 October 1805, with the will’s recording on 22 January 1806 separately stated. Recording is not an exact death date. Preserve the former August claim as superseded imported information; inspect the manuscript to verify the copied dates. Birth and death place are unchanged.",
+      "summary": "Will dated October contradicts the imported August death; exact death unknown.",
+      "source_url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1805.html",
+      "record_ids": [
+        "currituck-william-glasgow-will-1805"
+      ],
+      "vitals": {
+        "death": {
+          "date": "after 1805-10-14",
+          "display_date": "After 14 October 1805 (will recorded 22 January 1806)",
+          "place": "Currituck, Currituck Parish, North Carolina, United States",
+          "status": "after",
+          "source_url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1805.html",
+          "note": "The reported 14 August 1805 death is inconsistent with a will executed on 14 October 1805. Prefer the qualified lower boundary after 14 October 1805, with the will’s recording on 22 January 1806 separately stated. Recording is not an exact death date. Preserve the former August claim as superseded imported information; inspect the manuscript to verify the copied dates. Birth and death place are unchanged.",
+          "qualifier": "After the will date; exact death day not established by the transcript."
+        }
+      },
+      "catalogue_projection": {
+        "death": "After 14 October 1805 (will recorded 22 January 1806)",
+        "death_year": 1805,
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked",
+          "death": "after",
+          "death_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

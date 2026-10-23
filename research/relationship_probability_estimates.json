@@ -6123,15 +6123,28 @@
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-357",
       "relationship": "father",
-      "percent": 44,
-      "assessment_status": "possible",
+      "percent": 95,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022b-glascow-14-father",
-      "basis": "Isaac’s 1786 Currituck birth and selected William’s 1757 Currituck origin give a compatible29-year generation in the same county. The inherited pedigree identifies a specific father, but no held will, Bible entry or vital record establishes that transition.",
+      "basis": "The 1786 Currituck Isaac account fits the exact seven-child family. The will independently names Isaac and the other six children; the later Tennessee identification is not proved by this will. The skeletal Glasgow-2363 account remains a possible duplicate. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-95cb139f4bc3"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible44%; contributed pedigree and locality are correlated context, not independent proof. No genetic-match information is used."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged. The will names one son Isaac. The 1786 Currituck child account Glascow-14 is the preferred identification within this seven-child household. Glasgow-2363, a sparsely sourced Isaac account with estimated circa-1800 birth, no spouse and an attached son Enoch, remains a compatible alternative profile mapping or possible duplicate, not a second proved son. Its existing possible father rating stays 43%; the will alone does not distinguish its identity. Enoch’s later Tennessee setting fits either comparison without proving the bridge. The differing unsourced birth estimate does not exclude it. No merge or detachment is selected.",
+      "assessment_history": [
+        {
+          "percent": 44,
+          "assessment_status": "possible",
+          "basis": "Isaac’s 1786 Currituck birth and selected William’s 1757 Currituck origin give a compatible29-year generation in the same county. The inherited pedigree identifies a specific father, but no held will, Bible entry or vital record establishes that transition.",
+          "source_ids": [
+            "held-e-95cb139f4bc3"
+          ],
+          "scope": "Possible44%; contributed pedigree and locality are correlated context, not independent proof. No genetic-match information is used.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",
@@ -9927,15 +9940,28 @@
       "subject_id": "Glasgow-280",
       "relative_id": "Glasgow-357",
       "relationship": "father",
-      "percent": 59,
-      "assessment_status": "possible",
+      "percent": 98,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022c-glasgow-280-father",
-      "basis": "John Cooper’s exact1794 birth fits William-357’s1757 generation in the inherited Currituck family. The named pedigree is a specific plausible placement, but the saved GEDCOM-derived biography and database relationship table do not independently name the father in a retained record clause.",
+      "basis": "The named son John C. matches John Cooper within this distinctive seven-child household. The initial is compatible with Cooper; the will does not itself expand it or establish his later Tennessee identity. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-b4c029dfb127"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible59%; inherited family attribution, with no genetic material used and no parent original newly inspected."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged.",
+      "assessment_history": [
+        {
+          "percent": 59,
+          "assessment_status": "possible",
+          "basis": "John Cooper’s exact1794 birth fits William-357’s1757 generation in the inherited Currituck family. The named pedigree is a specific plausible placement, but the saved GEDCOM-derived biography and database relationship table do not independently name the father in a retained record clause.",
+          "source_ids": [
+            "held-e-b4c029dfb127"
+          ],
+          "scope": "Possible59%; inherited family attribution, with no genetic material used and no parent original newly inspected.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",
@@ -10930,12 +10956,25 @@
       "percent": 43,
       "assessment_status": "possible",
       "assertion_id": "C-coverage-20261022d-glasgow-2363-father",
-      "basis": "Isaac’s c 1800 birth is compatible with William’s 1757 generation and the inherited family placement. The account provides no specific competing father.",
+      "basis": "The will names one son Isaac. The 1786 Currituck child account Glascow-14 is the preferred identification within this seven-child household. Glasgow-2363, a sparsely sourced Isaac account with estimated circa-1800 birth, no spouse and an attached son Enoch, remains a compatible alternative profile mapping or possible duplicate, not a second proved son. Its existing possible father rating stays 43%; the will alone does not distinguish its identity. Enoch’s later Tennessee setting fits either comparison without proving the bridge. The differing unsourced birth estimate does not exclude it. No merge or detachment is selected. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-d72fd07a79c5"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible only: the held Isaac account lacks a parent clause, and chronology plus a contributed tree cannot establish paternity."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged. The will names one son Isaac. The 1786 Currituck child account Glascow-14 is the preferred identification within this seven-child household. Glasgow-2363, a sparsely sourced Isaac account with estimated circa-1800 birth, no spouse and an attached son Enoch, remains a compatible alternative profile mapping or possible duplicate, not a second proved son. Its existing possible father rating stays 43%; the will alone does not distinguish its identity. Enoch’s later Tennessee setting fits either comparison without proving the bridge. The differing unsourced birth estimate does not exclude it. No merge or detachment is selected.",
+      "assessment_history": [
+        {
+          "percent": 43,
+          "assessment_status": "possible",
+          "basis": "Isaac’s c 1800 birth is compatible with William’s 1757 generation and the inherited family placement. The account provides no specific competing father.",
+          "source_ids": [
+            "held-e-d72fd07a79c5"
+          ],
+          "scope": "Possible only: the held Isaac account lacks a parent clause, and chronology plus a contributed tree cannot establish paternity.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",
@@ -21981,15 +22020,28 @@
       "subject_id": "Glasgow-220",
       "relative_id": "Glasgow-357",
       "relationship": "father",
-      "percent": 53,
-      "assessment_status": "possible",
+      "percent": 98,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022g-glasgow-220-father",
-      "basis": "Caleb’s 1781 Currituck placement under William/Sarah has a plausible paternal age of 23 and an ordered four-child family, but all held evidence is the same contributed pedigree.",
+      "basis": "The named son Caleb matches the established eldest Currituck child account and his six co-listed siblings, not just a repeated Caleb name. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-48d9fd97a445"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged.",
+      "assessment_history": [
+        {
+          "percent": 53,
+          "assessment_status": "possible",
+          "basis": "Caleb’s 1781 Currituck placement under William/Sarah has a plausible paternal age of 23 and an ordered four-child family, but all held evidence is the same contributed pedigree.",
+          "source_ids": [
+            "held-e-48d9fd97a445"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",
@@ -22009,15 +22061,28 @@
       "subject_id": "Glasgow-334",
       "relative_id": "Glasgow-357",
       "relationship": "father",
-      "percent": 54,
-      "assessment_status": "possible",
+      "percent": 97,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022g-glasgow-334-father",
-      "basis": "Ruth’s 1782 Currituck placement fits William/Sarah’s ordered family and recurring family names, but the same Ancestry tree is the only source.",
+      "basis": "The named daughter Ruth matches the Currituck child and six siblings under the William/Sarah couple. Her later residence and lifespan remain separately sourced claims. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-7121d8c4b4a7"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged.",
+      "assessment_history": [
+        {
+          "percent": 54,
+          "assessment_status": "possible",
+          "basis": "Ruth’s 1782 Currituck placement fits William/Sarah’s ordered family and recurring family names, but the same Ancestry tree is the only source.",
+          "source_ids": [
+            "held-e-7121d8c4b4a7"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",
@@ -22241,15 +22306,28 @@
       "subject_id": "Glasgow-302",
       "relative_id": "Glasgow-357",
       "relationship": "father",
-      "percent": 52,
-      "assessment_status": "possible",
+      "percent": 98,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022g-glasgow-302-father",
-      "basis": "Love’s 1785 Currituck placement fits William/Sarah and a plausible paternal age of 28. Her distinctive name is testable, but the held evidence is a contributed tree alone.",
+      "basis": "The distinctive daughter Love, recorded as Bright, matches the Currituck Love account and its six siblings. The will establishes her married surname by October 1805, but does not identify her husband; witness Isaac Bright is not automatically assigned as husband. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-45b3c3a3e344"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged.",
+      "assessment_history": [
+        {
+          "percent": 52,
+          "assessment_status": "possible",
+          "basis": "Love’s 1785 Currituck placement fits William/Sarah and a plausible paternal age of 28. Her distinctive name is testable, but the held evidence is a contributed tree alone.",
+          "source_ids": [
+            "held-e-45b3c3a3e344"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",
@@ -22701,15 +22779,28 @@
       "subject_id": "Glasgow-339",
       "relative_id": "Glasgow-357",
       "relationship": "father",
-      "percent": 51,
-      "assessment_status": "possible",
+      "percent": 97,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022g-glasgow-339-father",
-      "basis": "Samuel’s 1790 Currituck placement continues a coherent William/Sarah family, but this later child has no independent record beyond the imported tree.",
+      "basis": "The named son Samuel matches the Currituck child and six siblings under William and Sarah. The will establishes fatherhood, not a later Halifax identity or exact birthday. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-7c1cab82f65d"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged.",
+      "assessment_history": [
+        {
+          "percent": 51,
+          "assessment_status": "possible",
+          "basis": "Samuel’s 1790 Currituck placement continues a coherent William/Sarah family, but this later child has no independent record beyond the imported tree.",
+          "source_ids": [
+            "held-e-7c1cab82f65d"
+          ],
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",
@@ -24131,15 +24222,28 @@
       "subject_id": "Glasgow-341",
       "relative_id": "Glasgow-357",
       "relationship": "father",
-      "percent": 56,
-      "assessment_status": "possible",
+      "percent": 98,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022h-glasgow-341-father",
-      "basis": "The imported GEDCOM/Public Member Trees account places Sophia, born 26 September 1801 Currituck, with William Glasgow and Sarah Cooper. William’s 1757 generation fits, but neither copied database references nor the 1825 marriage event supplies a held father clause.",
+      "basis": "The named daughter Sophia matches the youngest Currituck child account within the complete sibling set. Her estimated age of four at the will fits, but neither that exact birth nor later marriage is established by it. William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
       "source_ids": [
+        "currituck-william-glasgow-will-1805",
         "held-e-692de69278de"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Whole selected father-profile proposition; maternity and upstream ancestry assessed separately."
+      "reviewed": "2026-10-23",
+      "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged.",
+      "assessment_history": [
+        {
+          "percent": 56,
+          "assessment_status": "possible",
+          "basis": "The imported GEDCOM/Public Member Trees account places Sophia, born 26 September 1801 Currituck, with William Glasgow and Sarah Cooper. William’s 1757 generation fits, but neither copied database references nor the 1825 marriage event supplies a held father clause.",
+          "source_ids": [
+            "held-e-692de69278de"
+          ],
+          "scope": "Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-357",

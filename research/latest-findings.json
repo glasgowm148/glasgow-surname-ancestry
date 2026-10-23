@@ -53317,6 +53317,159 @@
       "provenance": [
         "research/ancestry-connections/uphall-marriage-review-2026-10-23.json"
       ]
+    },
+    {
+      "id": "currituck-william-seven-children-will-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "William Glasgow’s Currituck will, dated 14 October 1805 and recorded 22 January 1806, names wife Sarah, sons Caleb, Isaac, Samuel and John C., and daughters Ruth, Love Bright and Sophia. Its land divisions and household bequests identify one specific family. The named wife and all seven child names strongly identify the maintained William-357 family, with John C. compatible with John Cooper and Love now recorded under Bright; this conjunction outweighs the unsourced August death claim. The published transcription is by Judy Merrell Brickhouse, citing Currituck County Will Book 2, pp.279–280. The manuscript was not inspected. The will also transfers an enslaved boy; that clause does not add a biological family relationship.",
+      "qualification": "Seven existing father links become confident; the second Isaac account stays possible at 43% and may be a duplicate, not an eighth named child. No new father attachment or merge. Death is after the will date, not the imported August day; exact death, mothers and older ancestry remain separate.",
+      "people": [
+        {
+          "id": "Glasgow-357",
+          "name": "William Glasgow",
+          "role": "Testator",
+          "url": "/people/glasgow-357.html"
+        },
+        {
+          "id": "Glasgow-220",
+          "name": "Caleb Glasgow",
+          "role": "Named child within the identified household",
+          "url": "/people/glasgow-220.html"
+        },
+        {
+          "id": "Glascow-14",
+          "name": "Isaac Wesley (Glascow) Glasgow",
+          "role": "Named child within the identified household",
+          "url": "/people/glascow-14.html"
+        },
+        {
+          "id": "Glasgow-280",
+          "name": "John Cooper Glasgow",
+          "role": "Named child within the identified household",
+          "url": "/people/glasgow-280.html"
+        },
+        {
+          "id": "Glasgow-302",
+          "name": "Love Glasgow",
+          "role": "Named child within the identified household",
+          "url": "/people/glasgow-302.html"
+        },
+        {
+          "id": "Glasgow-334",
+          "name": "Ruth Glasgow",
+          "role": "Named child within the identified household",
+          "url": "/people/glasgow-334.html"
+        },
+        {
+          "id": "Glasgow-339",
+          "name": "Samuel Glasgow",
+          "role": "Named child within the identified household",
+          "url": "/people/glasgow-339.html"
+        },
+        {
+          "id": "Glasgow-341",
+          "name": "Sophia Glasgow",
+          "role": "Named child within the identified household",
+          "url": "/people/glasgow-341.html"
+        },
+        {
+          "id": "Glasgow-2363",
+          "name": "Issac Glasgow",
+          "role": "Possible duplicate of the single named Isaac son",
+          "url": "/people/glasgow-2363.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William Glasgow, Currituck will, 14 October 1805; recorded 22 January 1806; Will Book 2 pp.279–280, published transcription",
+          "url": "https://www.ncgenweb.us/currituck/wills/glasgowwilliam1805.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-357.html#research-findings",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-220",
+          "relative": "Glasgow-357",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "53% → 98%; same father retained after checking the will’s complete household. Local review; no live WikiTree certainty flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-220-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glascow-14",
+          "relative": "Glasgow-357",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "44% → 95%; same father retained after checking the will’s complete household. Local review; no live WikiTree certainty flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022b-glascow-14-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-280",
+          "relative": "Glasgow-357",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "59% → 98%; same father retained after checking the will’s complete household. Local review; no live WikiTree certainty flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022c-glasgow-280-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-302",
+          "relative": "Glasgow-357",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "52% → 98%; same father retained after checking the will’s complete household. Local review; no live WikiTree certainty flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-302-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-334",
+          "relative": "Glasgow-357",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "54% → 97%; same father retained after checking the will’s complete household. Local review; no live WikiTree certainty flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-334-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-339",
+          "relative": "Glasgow-357",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "51% → 97%; same father retained after checking the will’s complete household. Local review; no live WikiTree certainty flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022g-glasgow-339-father assessment_history"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-341",
+          "relative": "Glasgow-357",
+          "before": "possible",
+          "after": "certain",
+          "explanation": "56% → 98%; same father retained after checking the will’s complete household. Local review; no live WikiTree certainty flag changed.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022h-glasgow-341-father assessment_history"
+          ]
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/currituck-will-review-2026-10-23.json"
+      ]
     }
   ]
 }

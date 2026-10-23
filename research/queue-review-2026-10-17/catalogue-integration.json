@@ -10487,12 +10487,12 @@
       "profile_id": "Glasgow-357",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-357/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-357/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-357/findings.md",
-      "summary": "Review existing father at 29% (uncertain), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 29% (uncertain), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will naming Sarah and seven children, and replace the incompatible August death with a qualified boundary; father Caleb remains 29%.",
+      "work_queue_summary": "Add the 1805 will naming Sarah and seven children, and replace the incompatible August death with a qualified boundary; father Caleb remains 29%.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -10512,7 +10512,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-563": {
       "profile_id": "Glasgow-563",
@@ -10536,24 +10536,24 @@
       "profile_id": "Glascow-14",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "data/private/father-confidence-2026-10-22b/Glascow-14.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glascow-14/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glascow-14/findings.md",
-      "summary": "Review existing father at 44% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 44% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 44% → 95%. No new father attachment; exact birth and later identity separately assessed.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 44% → 95%. No new father attachment; exact birth and later identity separately assessed.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-357",
-          "status": "possible",
+          "status": "proved",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 44,
+          "previous_probability_percent": 44,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022b-glascow-14-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Possible44%; contributed pedigree and locality are correlated context, not independent proof. No genetic-match information is used."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 44% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged. The will names one son Isaac. The 1786 Currituck child account Glascow-14 is the preferred identification within this seven-child household. Glasgow-2363, a sparsely sourced Isaac account with estimated circa-1800 birth, no spouse and an attached son Enoch, remains a compatible alternative profile mapping or possible duplicate, not a second proved son. Its existing possible father rating stays 43%; the will alone does not distinguish its identity. Enoch’s later Tennessee setting fits either comparison without proving the bridge. The differing unsourced birth estimate does not exclude it. No merge or detachment is selected."
         }
       ],
       "preserve_captured_detail": false,
@@ -10561,7 +10561,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json",
       "private_comparison": true,
       "public_addition_wikitext": "=== Individual father review, 22 October 2026 ===\n\nThe existing father [[Glasgow-357]] is assessed at 44% (possible). Isaac’s 1786 Currituck birth and selected William’s 1757 Currituck origin give a compatible29-year generation in the same county. The inherited pedigree identifies a specific father, but no held will, Bible entry or vital record establishes that transition.\n\nPossible44%; contributed pedigree and locality are correlated context, not independent proof. No genetic-match information is used.\n\nNext useful test: Read the cited pedigree’s underlying family record and William’s probate material.\n\nSource basis already held: [https://www.wikitree.com/wiki/Glascow-14 WikiTree profile export for Glascow-14]. No new original inspected; no new father attached.\n\n",
       "public_addition_path": "research/Glascow-14/father-confidence-2026-10-22b-addition.wiki"
@@ -13262,24 +13262,24 @@
       "profile_id": "Glasgow-280",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-280/father-confidence-2026-10-22c.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-280/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-280/findings.md",
-      "summary": "Review existing father at 59% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 59% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 59% → 98%. No new father attachment; exact birth and later identity separately assessed.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 59% → 98%. No new father attachment; exact birth and later identity separately assessed.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-357",
-          "status": "possible",
+          "status": "proved",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 59,
+          "previous_probability_percent": 59,
+          "probability_percent": 98,
           "assertion_id": "C-coverage-20261022c-glasgow-280-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Possible59%; inherited family attribution, with no genetic material used and no parent original newly inspected."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 59% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged."
         }
       ],
       "preserve_captured_detail": false,
@@ -13287,7 +13287,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-2963": {
       "profile_id": "Glasgow-2963",
@@ -14019,12 +14019,12 @@
       "profile_id": "Glasgow-2363",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2363/father-confidence-2026-10-22d.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-2363/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-2363/findings.md",
-      "summary": "Review existing father at 43% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 43% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 43% → 43%. Possible father stays 43%; this is an alternative mapping of the single Isaac role, not a second son. No merge.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 43% → 43%. Possible father stays 43%; this is an alternative mapping of the single Isaac role, not a second son. No merge.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -14032,11 +14032,11 @@
           "relative_id": "Glasgow-357",
           "status": "possible",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
+          "previous_probability_percent": 43,
           "probability_percent": 43,
           "assertion_id": "C-coverage-20261022d-glasgow-2363-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Possible only: the held Isaac account lacks a parent clause, and chronology plus a contributed tree cannot establish paternity."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 43% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged. The will names one son Isaac. The 1786 Currituck child account Glascow-14 is the preferred identification within this seven-child household. Glasgow-2363, a sparsely sourced Isaac account with estimated circa-1800 birth, no spouse and an attached son Enoch, remains a compatible alternative profile mapping or possible duplicate, not a second proved son. Its existing possible father rating stays 43%; the will alone does not distinguish its identity. Enoch’s later Tennessee setting fits either comparison without proving the bridge. The differing unsourced birth estimate does not exclude it. No merge or detachment is selected."
         }
       ],
       "preserve_captured_detail": false,
@@ -14044,7 +14044,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-2433": {
       "profile_id": "Glasgow-2433",
@@ -22732,24 +22732,24 @@
       "profile_id": "Glasgow-220",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-220/father-confidence-2026-10-22g.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-220/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-220/findings.md",
-      "summary": "Review existing father at 53% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 53% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 53% → 98%. No new father attachment; exact birth and later identity separately assessed.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 53% → 98%. No new father attachment; exact birth and later identity separately assessed.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-357",
-          "status": "possible",
+          "status": "proved",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 53,
+          "previous_probability_percent": 53,
+          "probability_percent": 98,
           "assertion_id": "C-coverage-20261022g-glasgow-220-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 53% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged."
         }
       ],
       "preserve_captured_detail": false,
@@ -22757,30 +22757,30 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-334": {
       "profile_id": "Glasgow-334",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-334/father-confidence-2026-10-22g.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-334/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-334/findings.md",
-      "summary": "Review existing father at 54% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 54% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 54% → 97%. No new father attachment; exact birth and later identity separately assessed.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 54% → 97%. No new father attachment; exact birth and later identity separately assessed.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-357",
-          "status": "possible",
+          "status": "proved",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 54,
+          "previous_probability_percent": 54,
+          "probability_percent": 97,
           "assertion_id": "C-coverage-20261022g-glasgow-334-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 54% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged."
         }
       ],
       "preserve_captured_detail": false,
@@ -22788,7 +22788,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-542": {
       "profile_id": "Glasgow-542",
@@ -22967,24 +22967,24 @@
       "profile_id": "Glasgow-302",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-302/father-confidence-2026-10-22g.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-302/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-302/findings.md",
-      "summary": "Review existing father at 52% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 52% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 52% → 98%. No new father attachment; exact birth and later identity separately assessed.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 52% → 98%. No new father attachment; exact birth and later identity separately assessed.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-357",
-          "status": "possible",
+          "status": "proved",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 52,
+          "previous_probability_percent": 52,
+          "probability_percent": 98,
           "assertion_id": "C-coverage-20261022g-glasgow-302-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 52% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged."
         }
       ],
       "preserve_captured_detail": false,
@@ -22992,7 +22992,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-1220": {
       "profile_id": "Glasgow-1220",
@@ -23410,24 +23410,24 @@
       "profile_id": "Glasgow-339",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-339/father-confidence-2026-10-22g.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-339/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-339/findings.md",
-      "summary": "Review existing father at 51% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 51% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 51% → 97%. No new father attachment; exact birth and later identity separately assessed.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 51% → 97%. No new father attachment; exact birth and later identity separately assessed.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-357",
-          "status": "possible",
+          "status": "proved",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 51,
+          "previous_probability_percent": 51,
+          "probability_percent": 97,
           "assertion_id": "C-coverage-20261022g-glasgow-339-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 51% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged."
         }
       ],
       "preserve_captured_detail": false,
@@ -23435,7 +23435,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-3906": {
       "profile_id": "Glasgow-3906",
@@ -24774,24 +24774,24 @@
       "profile_id": "Glasgow-341",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-341/father-confidence-2026-10-22h.wiki",
+      "queued_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-23",
+      "draft_path": "research/Glasgow-341/currituck-will-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-341/findings.md",
-      "summary": "Review existing father at 56% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 56% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the 1805 will; existing father confidence 56% → 98%. No new father attachment; exact birth and later identity separately assessed.",
+      "work_queue_summary": "Add the 1805 will; existing father confidence 56% → 98%. No new father attachment; exact birth and later identity separately assessed.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-357",
-          "status": "possible",
+          "status": "proved",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 56,
+          "previous_probability_percent": 56,
+          "probability_percent": 98,
           "assertion_id": "C-coverage-20261022h-glasgow-341-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Whole selected father-profile proposition; maternity and upstream ancestry assessed separately."
+          "previous_status_provenance": "Retained saved WikiTree mark plus the individually reviewed 56% assessment of 22 October 2026; source basis preserved in assessment_history.",
+          "scope": "These percentages assess each existing child-to-William profile pair from the combined named household, locality and compatible generation; they are subjective, not measured frequencies. The will proves the stated father roles through a checked transcription, not the children’s exact birthdays, later migrations, spouses or descendants. Sarah is named as William’s wife, not explicitly as every child’s mother, and her Cooper maiden surname is not supplied. All maternal assessments remain separate. William’s own Caleb-363 father hypothesis stays 29%. No father is newly attached and no profile is merged."
         }
       ],
       "preserve_captured_detail": false,
@@ -24799,7 +24799,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
     },
     "Glasgow-1306": {
       "profile_id": "Glasgow-1306",

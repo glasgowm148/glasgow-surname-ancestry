@@ -4016,3 +4016,16 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242) | OPEN | Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Clarkson adult’s proposed father confidence 22% → 30%; no new father selection or confident join. |
 | [Glasgow-1241](https://www.wikitree.com/wiki/Glasgow-1241) | OPEN | Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Existing father confidence 52% → 72%; Dublin identity remains uncertain. |
 | [Glasgow-3932](https://www.wikitree.com/wiki/Glasgow-3932) | OPEN | Correct the editorial Mary label in the Scottish comparison; junior’s selected father remains uncertain 18%, with no migration proof. |
+
+
+## 23 October 2026 — Currituck will and seven child roles
+
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-357) | OPEN | Add the 1805 will naming Sarah and seven children, and replace the incompatible August death with a qualified boundary; father Caleb remains 29%. |
+| [Caleb Glasgow](https://www.wikitree.com/wiki/Glasgow-220) | OPEN | Add the 1805 will; existing father confidence 53% → 98%. No new father attachment; exact birth and later identity separately assessed. |
+| [Isaac Wesley (Glascow) Glasgow](https://www.wikitree.com/wiki/Glascow-14) | OPEN | Add the 1805 will; existing father confidence 44% → 95%. No new father attachment; exact birth and later identity separately assessed. |
+| [John Cooper Glasgow](https://www.wikitree.com/wiki/Glasgow-280) | OPEN | Add the 1805 will; existing father confidence 59% → 98%. No new father attachment; exact birth and later identity separately assessed. |
+| [Love Glasgow](https://www.wikitree.com/wiki/Glasgow-302) | OPEN | Add the 1805 will; existing father confidence 52% → 98%. No new father attachment; exact birth and later identity separately assessed. |
+| [Ruth Glasgow](https://www.wikitree.com/wiki/Glasgow-334) | OPEN | Add the 1805 will; existing father confidence 54% → 97%. No new father attachment; exact birth and later identity separately assessed. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-339) | OPEN | Add the 1805 will; existing father confidence 51% → 97%. No new father attachment; exact birth and later identity separately assessed. |
+| [Sophia Glasgow](https://www.wikitree.com/wiki/Glasgow-341) | OPEN | Add the 1805 will; existing father confidence 56% → 98%. No new father attachment; exact birth and later identity separately assessed. |
+| [Issac Glasgow](https://www.wikitree.com/wiki/Glasgow-2363) | OPEN | Add the 1805 will; existing father confidence 43% → 43%. Possible father stays 43%; this is an alternative mapping of the single Isaac role, not a second son. No merge. |
