@@ -1509,10 +1509,10 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
     },
     "Glasgow-1226": {
-      "draft_path": "research/Glasgow-1226/queue-review-2026-10-17.wiki",
-      "summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.\n\nAdd the cited record account: Thomas Glasgow. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.\n\nAdd the cited record account: Thomas Glasgow. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-1226/uphall-marriage-review-2026-10-23.wiki",
+      "summary": "Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Clarkson adult’s proposed father confidence 22% → 30%; no new father selection or confident join. Show the existing new-parent proposal in the update queue; this repairs its missing publication flag.",
+      "work_queue_summary": "Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Clarkson adult’s proposed father confidence 22% → 30%; no new father selection or confident join. Show the existing new-parent proposal in the update queue; this repairs its missing publication flag.",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1226/findings.md",
@@ -1521,7 +1521,35 @@
         "subject-opr-thomas-marriages-thomas-glasgow"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments."
+      "prior_work_summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments.",
+      "profile_id": "Glasgow-1226",
+      "biography_rechecked_at": "2026-10-23",
+      "preservation_review_path": "research/ancestry-connections/uphall-marriage-preservation-2026-10-23.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1105",
+          "status": "possible",
+          "probability_percent": 30,
+          "assertion_id": "C-working-20261016-libberton-uphall-working-family-thomas-father",
+          "previous_status": "unknown",
+          "previous_status_provenance": "The 29 August 2026 public capture has no attached parents; the saved 16 October 2026 assessment explicitly records no prior selected parent and selects this hypothesis. This is a late publication/classification repair of that existing proposal, not a new attachment on 23 October.",
+          "scope": "30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Eastone-3",
+          "status": "uncertain",
+          "assertion_id": "C-working-20261016-libberton-uphall-working-family-thomas-mother",
+          "previous_status": "unknown",
+          "previous_status_provenance": "The 29 August 2026 public capture has no attached parents; the saved 16 October 2026 assessment explicitly records no prior selected parent and selects this hypothesis. This is a late publication/classification repair of that existing proposal, not a new attachment on 23 October.",
+          "scope": "Existing 16 October uncertain maternal proposal; paired 1675 child index, with the adult identity remaining uncertain. No new maternity rating in this batch."
+        }
+      ]
     },
     "Glasgow-1238": {
       "draft_path": "research/Glasgow-1238/stichill-court-family-2026-10-22.wiki",
@@ -10812,13 +10840,13 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
     },
     "Glasgow-1242": {
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "significance": 65,
-      "summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments. Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Clarkson adult’s proposed father confidence 22% → 30%; no new father selection or confident join.",
       "manual_update": true,
-      "draft_path": "research/Glasgow-1242/father-confidence-2026-10-22b.wiki",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
+      "draft_path": "research/Glasgow-1242/uphall-marriage-review-2026-10-23.wiki",
+      "preservation_review_path": "research/ancestry-connections/uphall-marriage-preservation-2026-10-23.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
@@ -10832,9 +10860,9 @@
       ],
       "profile_id": "Glasgow-1242",
       "pending": true,
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "findings_path": "research/Glasgow-1242/findings.md",
-      "work_queue_summary": "Review selected uncertain Libberton/Uphall parent hypotheses and full surviving identity alternatives. Robert’s mother remains unknown; Thomas’s two parent links share an uncertain 1675-child identity. Preserve source dates, existing child/couple records and all earlier amendments. Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Clarkson adult’s proposed father confidence 22% → 30%; no new father selection or confident join.",
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": ""
@@ -13652,13 +13680,13 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
     },
     "Glasgow-1241": {
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "significance": 65,
-      "summary": "Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade. Review existing father at 52% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Existing father confidence 52% → 72%; Dublin identity remains uncertain. Preliminary 82% was reduced to72% in independent weighting review; both actual review steps remain in history.",
       "manual_update": true,
-      "draft_path": "research/Glasgow-1241/father-confidence-2026-10-22d.wiki",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json",
+      "draft_path": "research/Glasgow-1241/uphall-marriage-review-2026-10-23.wiki",
+      "preservation_review_path": "research/ancestry-connections/uphall-marriage-preservation-2026-10-23.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
@@ -13666,20 +13694,20 @@
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1242",
-          "status": "possible",
+          "status": "probable",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 52,
+          "probability_percent": 72,
           "assertion_id": "C-coverage-20261022d-glasgow-1241-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied."
+          "scope": "72% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected."
         }
       ],
       "profile_id": "Glasgow-1241",
       "pending": true,
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "findings_path": "research/Glasgow-1241/findings.md",
-      "work_queue_summary": "Review selected uncertain Dublin/Irvine fathers, conditional Scottish watchmaker identity and retained younger Philip duplicates. Separate junior notices from the elder account; the 1772 elder death replaces an unsupported after 1772 inference locally. No new mother or confidence upgrade. Review existing father at 52% (possible), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Existing father confidence 52% → 72%; Dublin identity remains uncertain. Preliminary 82% was reduced to72% in independent weighting review; both actual review steps remain in history.",
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": ""
@@ -21017,20 +21045,20 @@
     },
     "Glasgow-3932": {
       "significance": 85,
-      "summary": "Replace the unrelated Robert-of-Kilrea1827 biography with the complete sourced Dublin watchmaker account; preserve actual current/replacement comparison and strong Glasco-147 identity for merge review. No live merge, new spouse or father-grade upgrade. Review existing father at 18% (uncertain), retaining source and identity limits; no new father attachment.",
-      "draft_path": "research/Glasgow-3932/father-confidence-2026-10-22g.wiki",
-      "queued_at": "2026-10-22",
+      "summary": "Correct the editorial Mary label in the Scottish comparison; junior’s selected father remains uncertain 18%, with no migration proof.",
+      "draft_path": "research/Glasgow-3932/uphall-marriage-review-2026-10-23.wiki",
+      "queued_at": "2026-10-23",
       "status": "OPEN",
       "manual_update": true,
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/uphall-marriage-preservation-2026-10-23.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [],
       "profile_id": "Glasgow-3932",
       "pending": true,
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "findings_path": "research/Glasgow-3932/findings.md",
-      "work_queue_summary": "Replace the unrelated Robert-of-Kilrea1827 biography with the complete sourced Dublin watchmaker account; preserve actual current/replacement comparison and strong Glasco-147 identity for merge review. No live merge, new spouse or father-grade upgrade. Review existing father at 18% (uncertain), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Correct the editorial Mary label in the Scottish comparison; junior’s selected father remains uncertain 18%, with no migration proof.",
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": ""

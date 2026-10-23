@@ -2,17 +2,7 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **52% (possible)** for [Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242). Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
-
-Reviewed: 2026-10-16
-
-**Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
-
-The Irish records define **two Dublin watchmakers named Philip Glasco**. The
-elder was established in Christ Church Lane by 1750 and died in 1772; Philip
-junior married Teresa Plunkett in 1768 and died in 1770. The live profile's
-Scottish baptism and the Dublin elder are chronologically compatible, but no
-reviewed record yet proves that the baptised child migrated to Dublin.
+Reviewed: 2026-10-23. Assess the existing Thomas Glasgow-1242 → Philip Glasgow-1241 father pair at 72%, previously 52%. The inspected 1711 entries name Philip and the specific Thomas/Jean Duncan couple; the 1701 Linlithgow banns and marriage now independently establish that named adult household. Philip’s maintained 3 June date and Uphall place match exactly. The Mary label that depressed the earlier review is not supported by these entries. Thomas-1242’s retained 1675 Linlithgow child identity gives a plausible age of 26 at the 1701 marriage and 36 at Philip’s baptism, and the same local family route is preferable to an otherwise unidentified Thomas. 72% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected.
 
 ## Source findings
 
@@ -102,3 +92,34 @@ Next useful test: Compare both 1711 register entries and identify which child th
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Philip at Uphall,3 June 1711: retained Thomas/Jean child index](https://www.familysearch.org/ark:/61903/1:1:VQ48-S7Z)
+
+
+## Uphall marriage and child review — 23 October 2026
+
+The newly inspected Findmypast transcripts establish Thomas Glasgow and Jean Duncan’s Linlithgow banns on 30 March 1701 (groom a servant; witnesses James Craw and William Duncan) and marriage on 4 May 1701. The banns leave both residences as question marks. A third Linlithgow register index names the same couple in 1701 without a day. These are related register entries, not three independent family identifications.
+
+Kirkliston banns dated 22 June 1716 name Thomas Glasgon, resident at Uphall, and Catharine Clerkson, resident at Kirkliston. The named couple, Uphall residence and Margaret’s following 1717 Uphall child entry identify the existing Clarkson household. The FamilySearch-derived duplicate calls this a marriage date; retain the more specific banns label from OPR 667/1, item 5, rather than asserting a ceremony on that day.
+
+Two Findmypast FamilySearch-derived entries name Philip Glasgow, male, baptised 3 June 1711 at Uphall, father Thomas Glasgow and mother Jean Duncan. They corroborate the maintained Scottish child account and do not identify a Mary. The older Mary label is an editorial inconsistency, not a second contemporary child. The separate family citation giving 21 October 1711/Linlithgow remains an unresolved index discrepancy: its underlying page was inaccessible and the present search did not find it. Duplicate transcriptions do not supply independent testimony.
+
+The 15 June 1715 Edinburgh child is already represented by Thomas Glasgow-1243, whose selected father is the Edinburgh baxter Thomas Glasgow-3285. His transcript explicitly calls the father a baxter and indweller. This citation must not be used as another Uphall/Duncan birth or evidence for the proposed Duncan-to-Clarkson succession. The recorded Edinburgh father is retained as a separately identified household; no record establishes its identity with the Uphall father.
+
+30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made.
+
+Inspect the original 1701 and 1716 entries for fuller residence, occupation and marital status; seek Jean Duncan’s burial or a property/probate passage connecting the two households. Reconcile the separate 21 October 1711 citation. An explicit age or family network could distinguish the 1675 child from younger local Thomas namesakes.
+
+[Thomas Glasgow and Jean Duncan, banns 30 March 1701; servant, witnesses James Craw and William Duncan, OPR 668/5 item 2](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0169122%2F1); [Thomas Glasgow and Jean Duncan, marriage 4 May 1701, Linlithgow, OPR 668/8 item 2 p.19](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0172540%2F1); [Thomas Glasgon of Uphall and Catharine Clerkson of Kirkliston, banns 22 June 1716, OPR 667/1 item 5](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1296215%2F1); [Philip Glasgow, baptised 3 June 1711, Uphall; Thomas Glasgow and Jean Duncan; FamilySearch-derived index](https://www.findmypast.co.uk/transcript?id=R_685856117); [Thomas Glasgow, Edinburgh baptism 15 June 1715; father Thomas, baxter indweller, OPR 685_1/16 item 3 p.53](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0606238)
+
+### Previous conclusion retained as history
+
+Current father assessment (22 October 2026): **52% (possible)** for [Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242). Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Reviewed: 2026-10-16
+
+**Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
+
+The Irish records define **two Dublin watchmakers named Philip Glasco**. The
+elder was established in Christ Church Lane by 1750 and died in 1772; Philip
+junior married Teresa Plunkett in 1768 and died in 1770. The live profile's
+Scottish baptism and the Dublin elder are chronologically compatible, but no
+reviewed record yet proves that the baptised child migrated to Dublin.

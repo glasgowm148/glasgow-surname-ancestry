@@ -5876,31 +5876,33 @@
       "Glasgow-1226": "Thomas Glasgow, Uphall/Livingston Clarkson household",
       "Glasgow-1105": "John Glasgow of Linlithgow"
     },
-    "status": "uncertain",
+    "status": "possible",
     "hypothesis_status": "possible",
     "working_selection": true,
     "allow_new_relationship": true,
     "publication_status": "approved",
-    "assessment_date": "2026-10-16",
+    "assessment_date": "2026-10-23",
     "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
-    "claim": "Selected uncertain father for Thomas Glasgow, Uphall/Livingston Clarkson household",
-    "basis": "Select John Glasgow-1105 and Agnes Eastone-3 as the uncertain working parents of Thomas Glasgow-1226, the father with Catherine Clarkson/Classon at Uphall from 1717 and Livingston by 1730. This selects possible identity with their named Linlithgow child Thomas Glasgow-1242 of 1675, while retaining both profile accounts. That child would be about 42 at the 1717 Margaret entry and about 60 at the 1735 Hellen entry: later fatherhood, but chronologically possible. The existing Glasgow-1242 account also represents a Thomas/Jean Duncan household at Uphall in 1704. Recurring Thomas name, the same Uphall parish and a plausible succession of households provide a more specific route than the removed Kilbirnie-minister parents. The 1675 parent clause belongs directly to the child account; transferring it to the Clarkson adult depends wholly on the uncertain identity.",
-    "limitations": "The 1675 child, the Duncan adult and the Clarkson adult may represent one, two or three men. There is no inspected age, occupation, marriage, widowhood or probate bridge. The 1701 Duncan marriage is reported family information, not a newly inspected register. No death of Jean, remarriage to Catherine or overlap resolution is invented. The differing Philip 1711 dates in the Thomas research compilation and the Glasgow-1242 biography, and the omission of a mother in the latter’s indexed child, do not establish a continuous Duncan household or certain maternity. They are not two independent confirmations. Catherine’s indexed surname variants remain as recorded. The before 1700 boundary for the Clarkson adult and the 2/21 February 1675 date discrepancy in the child account remain unchanged. The 1666 St Cuthbert’s Thomas-1311, child of Alexander and Issobell Anderson, remains a compatible identity alternative, albeit with fatherhood at about 51–69 in 1717–1735. His possible identification with the Edinburgh writer whose testament was indexed in 1691 is unproved and cannot be used to exclude him. The retained 1766 grave link is an unverified namesake comparison, not an established death for the Clarkson adult. The 1663 Thomas-3091 and an otherwise unrecorded local Thomas also remain possible. No identity merge or live attachment is performed. Two selected uncertain fathers and one separately assessed uncertain mother, using existing parish, testament and apprenticeship reviews. No new original inspection, certainty upgrade, identity merge, spouse change or vital-date alteration. Robert’s new mother remains unknown. The Thomas parent pair depends on possible child/adult identity; profile-based connectivity retains potentially duplicate accounts and is not a count of proved distinct ancestors.",
+    "claim": "Glasgow-1105 remains the selected father of Glasgow-1226, individually assessed 30%.",
+    "basis": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity.",
+    "limitations": "30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made.",
     "source_ids": [
+      "linlithgow-thomas-duncan-marriage-1701",
+      "kirkliston-thomas-clerkson-banns-1716",
       "linlithgow-thomas-eastone-child-1675",
       "uphill-thomas-clarkson-margaret-1717"
     ],
-    "model_note": "The 1675 child, the Duncan adult and the Clarkson adult may represent one, two or three men. There is no inspected age, occupation, marriage, widowhood or probate bridge. The 1701 Duncan marriage is reported family information, not a newly inspected register. No death of Jean, remarriage to Catherine or overlap resolution is invented. The differing Philip 1711 dates in the Thomas research compilation and the Glasgow-1242 biography, and the omission of a mother in the latter’s indexed child, do not establish a continuous Duncan household or certain maternity. They are not two independent confirmations. Catherine’s indexed surname variants remain as recorded. The before 1700 boundary for the Clarkson adult and the 2/21 February 1675 date discrepancy in the child account remain unchanged. The 1666 St Cuthbert’s Thomas-1311, child of Alexander and Issobell Anderson, remains a compatible identity alternative, albeit with fatherhood at about 51–69 in 1717–1735. His possible identification with the Edinburgh writer whose testament was indexed in 1691 is unproved and cannot be used to exclude him. The retained 1766 grave link is an unverified namesake comparison, not an established death for the Clarkson adult. The 1663 Thomas-3091 and an otherwise unrecorded local Thomas also remain possible. No identity merge or live attachment is performed. Two selected uncertain fathers and one separately assessed uncertain mother, using existing parish, testament and apprenticeship reviews. No new original inspection, certainty upgrade, identity merge, spouse change or vital-date alteration. Robert’s new mother remains unknown. The Thomas parent pair depends on possible child/adult identity; profile-based connectivity retains potentially duplicate accounts and is not a count of proved distinct ancestors.",
+    "model_note": "30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made.",
     "perspectives": {
       "Glasgow-1226": {
         "relationship": "father",
-        "status_label": "Uncertain father; selected working family",
-        "reason": "Select John Glasgow-1105 and Agnes Eastone-3 as the uncertain working parents of Thomas Glasgow-1226, the father with Catherine Clarkson/Classon at Uphall from 1717 and Livingston by 1730. This selects possible identity with their named Linlithgow child Thomas Glasgow-1242 of 1675, while retaining both profile accounts. That child would be about 42 at the 1717 Margaret entry and about 60 at the 1735 Hellen entry: later fatherhood, but chronologically possible. The existing Glasgow-1242 account also represents a Thomas/Jean Duncan household at Uphall in 1704. Recurring Thomas name, the same Uphall parish and a plausible succession of households provide a more specific route than the removed Kilbirnie-minister parents. The 1675 parent clause belongs directly to the child account; transferring it to the Clarkson adult depends wholly on the uncertain identity."
+        "status_label": "Possible father · 30%",
+        "reason": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity."
       },
       "Glasgow-1105": {
         "relationship": "son",
-        "status_label": "Uncertain son; selected working family",
-        "reason": "Select John Glasgow-1105 and Agnes Eastone-3 as the uncertain working parents of Thomas Glasgow-1226, the father with Catherine Clarkson/Classon at Uphall from 1717 and Livingston by 1730. This selects possible identity with their named Linlithgow child Thomas Glasgow-1242 of 1675, while retaining both profile accounts. That child would be about 42 at the 1717 Margaret entry and about 60 at the 1735 Hellen entry: later fatherhood, but chronologically possible. The existing Glasgow-1242 account also represents a Thomas/Jean Duncan household at Uphall in 1704. Recurring Thomas name, the same Uphall parish and a plausible succession of households provide a more specific route than the removed Kilbirnie-minister parents. The 1675 parent clause belongs directly to the child account; transferring it to the Clarkson adult depends wholly on the uncertain identity."
+        "status_label": "Possible son · 30%",
+        "reason": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity."
       }
     },
     "analysis_links": [
@@ -5912,16 +5914,59 @@
     "provenance": {
       "prior_assessment": "No selected parent on this account; existing local records and family-network reviews supplied the model.",
       "basis": "Existing Libberton, Mid Calder, Linlithgow and Uphall records; adult identities and maternal selection assessed separately.",
-      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
+      "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save.",
+      "confidence_reassessment": {
+        "previous_probability_percent": 22,
+        "reviewed": "2026-10-23",
+        "source_review": "Findmypast transcriptions inspected; no original parish image",
+        "live_edit": false,
+        "new_attachment": false
+      },
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-10-16",
+      "prior_absent_father_state": {
+        "captured_at": "2026-08-29T08:53:47+00:00",
+        "source": "data/wikitree/profile-evidence.json#/profiles/Glasgow-1226/relations/parents",
+        "parents": [],
+        "basis": "The 29 August 2026 public capture has no attached parents; the saved 16 October 2026 assessment explicitly records no prior selected parent and selects this hypothesis. This is a late publication/classification repair of that existing proposal, not a new attachment on 23 October."
+      }
     },
-    "last_test": "22 October 2026: the exact 1766 BillionGraves memorial was recovered, but HTTP 403 prevented reading its inscription. Retain 22%; no death date or identity is established.",
-    "next_test": "Obtain the inscription or photograph for BillionGraves memorial 3399144 and look for Catherine Clarkson, children or an age before joining the Duncan and Clarkson households. The inaccessible memorial is not a verified 1766 death.",
+    "last_test": "23 October 2026: inspected marriage/baptism transcripts; original registers uninspected.",
+    "next_test": "Inspect the original 1701 and 1716 entries for fuller residence, occupation and marital status; seek Jean Duncan’s burial or a property/probate passage connecting the two households. Reconcile the separate 21 October 1711 citation. An explicit age or family network could distinguish the 1675 child from younger local Thomas namesakes.",
     "evidence_test": {
       "reviewed": "2026-10-22",
       "summary": "22 October 2026: the exact 1766 BillionGraves memorial was recovered, but HTTP 403 prevented reading its inscription. Retain 22%; no death date or identity is established.",
       "source_url": "https://billiongraves.com/grave/Thomas-Glasgow/3399144",
       "new_record_discovery": false,
       "confidence_changed": false
+    },
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 22,
+        "assessment_date": "2026-10-17",
+        "source_basis": "Select John Glasgow-1105 and Agnes Eastone-3 as the uncertain working parents of Thomas Glasgow-1226, the father with Catherine Clarkson/Classon at Uphall from 1717 and Livingston by 1730. This selects possible identity with their named Linlithgow child Thomas Glasgow-1242 of 1675, while retaining both profile accounts. That child would be about 42 at the 1717 Margaret entry and about 60 at the 1735 Hellen entry: later fatherhood, but chronologically possible. The existing Glasgow-1242 account also represents a Thomas/Jean Duncan household at Uphall in 1704. Recurring Thomas name, the same Uphall parish and a plausible succession of households provide a more specific route than the removed Kilbirnie-minister parents. The 1675 parent clause belongs directly to the child account; transferring it to the Clarkson adult depends wholly on the uncertain identity.",
+        "source_ids": [
+          "linlithgow-thomas-eastone-child-1675",
+          "uphill-thomas-clarkson-margaret-1717"
+        ],
+        "record_scope": "The 1675 child, the Duncan adult and the Clarkson adult may represent one, two or three men. There is no inspected age, occupation, marriage, widowhood or probate bridge. The 1701 Duncan marriage is reported family information, not a newly inspected register. No death of Jean, remarriage to Catherine or overlap resolution is invented. The differing Philip 1711 dates in the Thomas research compilation and the Glasgow-1242 biography, and the omission of a mother in the latter’s indexed child, do not establish a continuous Duncan household or certain maternity. They are not two independent confirmations. Catherine’s indexed surname variants remain as recorded. The before 1700 boundary for the Clarkson adult and the 2/21 February 1675 date discrepancy in the child account remain unchanged. The 1666 St Cuthbert’s Thomas-1311, child of Alexander and Issobell Anderson, remains a compatible identity alternative, albeit with fatherhood at about 51–69 in 1717–1735. His possible identification with the Edinburgh writer whose testament was indexed in 1691 is unproved and cannot be used to exclude him. The retained 1766 grave link is an unverified namesake comparison, not an established death for the Clarkson adult. The 1663 Thomas-3091 and an otherwise unrecorded local Thomas also remain possible. No identity merge or live attachment is performed. Two selected uncertain fathers and one separately assessed uncertain mother, using existing parish, testament and apprenticeship reviews. No new original inspection, certainty upgrade, identity merge, spouse change or vital-date alteration. Robert’s new mother remains unknown. The Thomas parent pair depends on possible child/adult identity; profile-based connectivity retains potentially duplicate accounts and is not a count of proved distinct ancestors.",
+        "percentage_date_source": "Saved individual estimate reviewed 17 October 2026; the relationship grade itself dates to16 October."
+      }
+    ],
+    "reason": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity.",
+    "record_scope": "30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made.",
+    "probability": {
+      "value": 0.3,
+      "basis": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity.",
+      "reviewed": "2026-10-23",
+      "source_ids": [
+        "linlithgow-thomas-duncan-marriage-1701",
+        "kirkliston-thomas-clerkson-banns-1716",
+        "linlithgow-thomas-eastone-child-1675",
+        "uphill-thomas-clarkson-margaret-1717"
+      ],
+      "scope": "30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made."
     }
   },
   {
@@ -5943,12 +5988,12 @@
     "evidence_grade": "Low/very low-confidence locality, generation and family-network inference",
     "claim": "Selected uncertain mother for Thomas Glasgow, Uphall/Livingston Clarkson household",
     "basis": "Agnes’s maternity is assessed separately: the 1675 FamilySearch parent index explicitly identifies Agnes Eastone in Thomas Glesgow’s entry, while John is named as father in the paired child citation. This is a positive maternal source for that child, not merely John’s spouse field. Agnes’s attachment to the Clarkson adult remains uncertain because the child/adult identity is uncertain. Eastone/Daston readings, her estimated birth and John’s own child/adult identification remain qualified. These two new parent links share one identity premise and are correlated, not independent confirmations of the adult’s ancestry.",
-    "limitations": "The 1675 child, the Duncan adult and the Clarkson adult may represent one, two or three men. There is no inspected age, occupation, marriage, widowhood or probate bridge. The 1701 Duncan marriage is reported family information, not a newly inspected register. No death of Jean, remarriage to Catherine or overlap resolution is invented. The differing Philip 1711 dates in the Thomas research compilation and the Glasgow-1242 biography, and the omission of a mother in the latter’s indexed child, do not establish a continuous Duncan household or certain maternity. They are not two independent confirmations. Catherine’s indexed surname variants remain as recorded. The before 1700 boundary for the Clarkson adult and the 2/21 February 1675 date discrepancy in the child account remain unchanged. The 1666 St Cuthbert’s Thomas-1311, child of Alexander and Issobell Anderson, remains a compatible identity alternative, albeit with fatherhood at about 51–69 in 1717–1735. His possible identification with the Edinburgh writer whose testament was indexed in 1691 is unproved and cannot be used to exclude him. The retained 1766 grave link is an unverified namesake comparison, not an established death for the Clarkson adult. The 1663 Thomas-3091 and an otherwise unrecorded local Thomas also remain possible. No identity merge or live attachment is performed. Two selected uncertain fathers and one separately assessed uncertain mother, using existing parish, testament and apprenticeship reviews. No new original inspection, certainty upgrade, identity merge, spouse change or vital-date alteration. Robert’s new mother remains unknown. The Thomas parent pair depends on possible child/adult identity; profile-based connectivity retains potentially duplicate accounts and is not a count of proved distinct ancestors.",
+    "limitations": "30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made. Agnes is independently named in the paired 1675 child/parent index; the transfer to the Clarkson adult shares the uncertain identity premise. Her existing uncertain assessment is retained; this batch does not supply a separate individual maternity percentage.",
     "source_ids": [
       "linlithgow-thomas-eastone-child-1675",
       "uphill-thomas-clarkson-margaret-1717"
     ],
-    "model_note": "The 1675 child, the Duncan adult and the Clarkson adult may represent one, two or three men. There is no inspected age, occupation, marriage, widowhood or probate bridge. The 1701 Duncan marriage is reported family information, not a newly inspected register. No death of Jean, remarriage to Catherine or overlap resolution is invented. The differing Philip 1711 dates in the Thomas research compilation and the Glasgow-1242 biography, and the omission of a mother in the latter’s indexed child, do not establish a continuous Duncan household or certain maternity. They are not two independent confirmations. Catherine’s indexed surname variants remain as recorded. The before 1700 boundary for the Clarkson adult and the 2/21 February 1675 date discrepancy in the child account remain unchanged. The 1666 St Cuthbert’s Thomas-1311, child of Alexander and Issobell Anderson, remains a compatible identity alternative, albeit with fatherhood at about 51–69 in 1717–1735. His possible identification with the Edinburgh writer whose testament was indexed in 1691 is unproved and cannot be used to exclude him. The retained 1766 grave link is an unverified namesake comparison, not an established death for the Clarkson adult. The 1663 Thomas-3091 and an otherwise unrecorded local Thomas also remain possible. No identity merge or live attachment is performed. Two selected uncertain fathers and one separately assessed uncertain mother, using existing parish, testament and apprenticeship reviews. No new original inspection, certainty upgrade, identity merge, spouse change or vital-date alteration. Robert’s new mother remains unknown. The Thomas parent pair depends on possible child/adult identity; profile-based connectivity retains potentially duplicate accounts and is not a count of proved distinct ancestors.",
+    "model_note": "30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made. Agnes is independently named in the paired 1675 child/parent index; the transfer to the Clarkson adult shares the uncertain identity premise. Her existing uncertain assessment is retained; this batch does not supply a separate individual maternity percentage.",
     "perspectives": {
       "Glasgow-1226": {
         "relationship": "mother",
@@ -30369,17 +30414,18 @@
       "Glasgow-1241",
       "Glasgow-1242"
     ],
-    "status": "possible",
+    "status": "probable",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held account describes Philip baptized 3 June 1711 at Uphall, son of Thomas Glasgow and Jean Duncan; the selected Thomas’s generation and stated Jean Duncan marriage are compatible. However the saved subject label is Mary, while another family citation gives Philip at Linlithgow on 21 October 1711.",
-    "reason": "The held account describes Philip baptized 3 June 1711 at Uphall, son of Thomas Glasgow and Jean Duncan; the selected Thomas’s generation and stated Jean Duncan marriage are compatible. However the saved subject label is Mary, while another family citation gives Philip at Linlithgow on 21 October 1711.",
-    "claim": "Glasgow-1242 remains the selected father of Glasgow-1241, individually assessed 52%.",
-    "record_scope": "Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied.",
-    "limitations": "Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied.",
+    "assessment_date": "2026-10-23",
+    "basis": "Assess the existing Thomas Glasgow-1242 → Philip Glasgow-1241 father pair at 72%, previously 52%. The inspected 1711 entries name Philip and the specific Thomas/Jean Duncan couple; the 1701 Linlithgow banns and marriage now independently establish that named adult household. Philip’s maintained 3 June date and Uphall place match exactly. The Mary label that depressed the earlier review is not supported by these entries. Thomas-1242’s retained 1675 Linlithgow child identity gives a plausible age of 26 at the 1701 marriage and 36 at Philip’s baptism, and the same local family route is preferable to an otherwise unidentified Thomas. Final independent weighting review: the 1701 marriage and exact 1711 child/parental couple identify the Duncan adult well. Correcting the Mary label resolves the child label, not the father’s childhood identity. The connection from that adult to the 1675 Linlithgow child still rests on name, locality and compatible age; neither witnesses nor servant occupation connects him to John/Agnes. Assess the complete father-profile placement at 72%, retaining that identity uncertainty rather than assigning near-certain record-role confidence to the whole chain.",
+    "reason": "Assess the existing Thomas Glasgow-1242 → Philip Glasgow-1241 father pair at 72%, previously 52%. The inspected 1711 entries name Philip and the specific Thomas/Jean Duncan couple; the 1701 Linlithgow banns and marriage now independently establish that named adult household. Philip’s maintained 3 June date and Uphall place match exactly. The Mary label that depressed the earlier review is not supported by these entries. Thomas-1242’s retained 1675 Linlithgow child identity gives a plausible age of 26 at the 1701 marriage and 36 at Philip’s baptism, and the same local family route is preferable to an otherwise unidentified Thomas. Final independent weighting review: the 1701 marriage and exact 1711 child/parental couple identify the Duncan adult well. Correcting the Mary label resolves the child label, not the father’s childhood identity. The connection from that adult to the 1675 Linlithgow child still rests on name, locality and compatible age; neither witnesses nor servant occupation connects him to John/Agnes. Assess the complete father-profile placement at 72%, retaining that identity uncertainty rather than assigning near-certain record-role confidence to the whole chain.",
+    "claim": "Glasgow-1242 remains the selected father of Glasgow-1241, individually assessed 72%.",
+    "record_scope": "72% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected.",
+    "limitations": "72% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected.",
     "source_ids": [
+      "linlithgow-thomas-duncan-marriage-1701",
       "uphaul-philip-thomas-child-1711"
     ],
     "assessment_history": [
@@ -30393,16 +30439,40 @@
         "claim_id": "C-1240db0acecf",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 52,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held account describes Philip baptized 3 June 1711 at Uphall, son of Thomas Glasgow and Jean Duncan; the selected Thomas’s generation and stated Jean Duncan marriage are compatible. However the saved subject label is Mary, while another family citation gives Philip at Linlithgow on 21 October 1711.",
+        "source_ids": [
+          "uphaul-philip-thomas-child-1711"
+        ],
+        "record_scope": "Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 82,
+        "assessment_date": "2026-10-23",
+        "source_basis": "Assess the existing Thomas Glasgow-1242 → Philip Glasgow-1241 father pair at 82%, previously 52%. The inspected 1711 entries name Philip and the specific Thomas/Jean Duncan couple; the 1701 Linlithgow banns and marriage now independently establish that named adult household. Philip’s maintained 3 June date and Uphall place match exactly. The Mary label that depressed the earlier review is not supported by these entries. Thomas-1242’s retained 1675 Linlithgow child identity gives a plausible age of 26 at the 1701 marriage and 36 at Philip’s baptism, and the same local family route is preferable to an otherwise unidentified Thomas.",
+        "source_ids": [
+          "linlithgow-thomas-duncan-marriage-1701",
+          "uphaul-philip-thomas-child-1711"
+        ],
+        "record_scope": "82% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected.",
+        "review_note": "Preliminary batch assessment; reduced after independent weighting review on the same date."
       }
     ],
     "perspectives": {
       "Glasgow-1241": {
         "relationship": "father",
-        "reason": "The held account describes Philip baptized 3 June 1711 at Uphall, son of Thomas Glasgow and Jean Duncan; the selected Thomas’s generation and stated Jean Duncan marriage are compatible. However the saved subject label is Mary, while another family citation gives Philip at Linlithgow on 21 October 1711."
+        "reason": "Assess the existing Thomas Glasgow-1242 → Philip Glasgow-1241 father pair at 72%, previously 52%. The inspected 1711 entries name Philip and the specific Thomas/Jean Duncan couple; the 1701 Linlithgow banns and marriage now independently establish that named adult household. Philip’s maintained 3 June date and Uphall place match exactly. The Mary label that depressed the earlier review is not supported by these entries. Thomas-1242’s retained 1675 Linlithgow child identity gives a plausible age of 26 at the 1701 marriage and 36 at Philip’s baptism, and the same local family route is preferable to an otherwise unidentified Thomas. Final independent weighting review: the 1701 marriage and exact 1711 child/parental couple identify the Duncan adult well. Correcting the Mary label resolves the child label, not the father’s childhood identity. The connection from that adult to the 1675 Linlithgow child still rests on name, locality and compatible age; neither witnesses nor servant occupation connects him to John/Agnes. Assess the complete father-profile placement at 72%, retaining that identity uncertainty rather than assigning near-certain record-role confidence to the whole chain.",
+        "status_label": "Probable father · 72%"
       },
       "Glasgow-1242": {
         "relationship": "child",
-        "reason": "The held account describes Philip baptized 3 June 1711 at Uphall, son of Thomas Glasgow and Jean Duncan; the selected Thomas’s generation and stated Jean Duncan marriage are compatible. However the saved subject label is Mary, while another family citation gives Philip at Linlithgow on 21 October 1711."
+        "reason": "Assess the existing Thomas Glasgow-1242 → Philip Glasgow-1241 father pair at 72%, previously 52%. The inspected 1711 entries name Philip and the specific Thomas/Jean Duncan couple; the 1701 Linlithgow banns and marriage now independently establish that named adult household. Philip’s maintained 3 June date and Uphall place match exactly. The Mary label that depressed the earlier review is not supported by these entries. Thomas-1242’s retained 1675 Linlithgow child identity gives a plausible age of 26 at the 1701 marriage and 36 at Philip’s baptism, and the same local family route is preferable to an otherwise unidentified Thomas. Final independent weighting review: the 1701 marriage and exact 1711 child/parental couple identify the Duncan adult well. Correcting the Mary label resolves the child label, not the father’s childhood identity. The connection from that adult to the 1675 Linlithgow child still rests on name, locality and compatible age; neither witnesses nor servant occupation connects him to John/Agnes. Assess the complete father-profile placement at 72%, retaining that identity uncertainty rather than assigning near-certain record-role confidence to the whole chain.",
+        "status_label": "Probable child · 72%"
       }
     },
     "analysis_links": [
@@ -30424,17 +30494,34 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "confidence_reassessment": {
+        "previous_probability_percent": 52,
+        "reviewed": "2026-10-23",
+        "source_review": "Findmypast transcriptions inspected; no original parish image",
+        "live_edit": false,
+        "new_attachment": false
+      },
+      "independent_weighting_review": {
+        "reviewed": "2026-10-23",
+        "initial_percent": 82,
+        "final_percent": 72,
+        "basis": "Final independent weighting review: the 1701 marriage and exact 1711 child/parental couple identify the Duncan adult well. Correcting the Mary label resolves the child label, not the father’s childhood identity. The connection from that adult to the 1675 Linlithgow child still rests on name, locality and compatible age; neither witnesses nor servant occupation connects him to John/Agnes. Assess the complete father-profile placement at 72%, retaining that identity uncertainty rather than assigning near-certain record-role confidence to the whole chain."
+      }
     },
     "probability": {
-      "value": 0.52,
-      "basis": "The held account describes Philip baptized 3 June 1711 at Uphall, son of Thomas Glasgow and Jean Duncan; the selected Thomas’s generation and stated Jean Duncan marriage are compatible. However the saved subject label is Mary, while another family citation gives Philip at Linlithgow on 21 October 1711.",
-      "reviewed": "2026-10-22",
+      "value": 0.72,
+      "basis": "Assess the existing Thomas Glasgow-1242 → Philip Glasgow-1241 father pair at 72%, previously 52%. The inspected 1711 entries name Philip and the specific Thomas/Jean Duncan couple; the 1701 Linlithgow banns and marriage now independently establish that named adult household. Philip’s maintained 3 June date and Uphall place match exactly. The Mary label that depressed the earlier review is not supported by these entries. Thomas-1242’s retained 1675 Linlithgow child identity gives a plausible age of 26 at the 1701 marriage and 36 at Philip’s baptism, and the same local family route is preferable to an otherwise unidentified Thomas. Final independent weighting review: the 1701 marriage and exact 1711 child/parental couple identify the Duncan adult well. Correcting the Mary label resolves the child label, not the father’s childhood identity. The connection from that adult to the 1675 Linlithgow child still rests on name, locality and compatible age; neither witnesses nor servant occupation connects him to John/Agnes. Assess the complete father-profile placement at 72%, retaining that identity uncertainty rather than assigning near-certain record-role confidence to the whole chain.",
+      "reviewed": "2026-10-23",
       "source_ids": [
+        "linlithgow-thomas-duncan-marriage-1701",
         "uphaul-philip-thomas-child-1711"
       ],
-      "scope": "Possible for the current profile placement. The two baptism events and Mary/Philip label conflict must be reconciled; neither baptism alone identifies the later Dublin watchmaker. No name, date or parent replacement is applied."
-    }
+      "scope": "72% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected."
+    },
+    "model_note": "72% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected.",
+    "next_test": "Inspect the original 1701 and 1716 entries for fuller residence, occupation and marital status; seek Jean Duncan’s burial or a property/probate passage connecting the two households. Reconcile the separate 21 October 1711 citation. An explicit age or family network could distinguish the 1675 child from younger local Thomas namesakes.",
+    "last_test": "23 October 2026: inspected marriage/baptism transcripts; original registers uninspected."
   },
   {
     "assertion_id": "C-coverage-20261022d-glasgow-14-father",
@@ -55550,8 +55637,8 @@
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "The younger Dublin watchmaker shares the elder’s name, trade and address, but the selected father account is now labelled Mary and starts with conflicting 1711 Scottish entries. No source identifies that Scottish person as the elder Dublin father.",
-    "reason": "The younger Dublin watchmaker shares the elder’s name, trade and address, but the selected father account is now labelled Mary and starts with conflicting 1711 Scottish entries. No source identifies that Scottish person as the elder Dublin father.",
+    "basis": "The younger Dublin watchmaker shares the elder’s name, trade and address, but no source identifies the Scottish Philip-1241 as that elder Dublin father. The 1711 Uphall transcript identifies Philip, not Mary; the older Mary label is editorial and does not itself weigh against the Dublin hypothesis. The unproved Scottish-to-Dublin identity is the material limit. Existing 18% father confidence is unchanged.",
+    "reason": "The younger Dublin watchmaker shares the elder’s name, trade and address, but no source identifies the Scottish Philip-1241 as that elder Dublin father. The 1711 Uphall transcript identifies Philip, not Mary; the older Mary label is editorial and does not itself weigh against the Dublin hypothesis. The unproved Scottish-to-Dublin identity is the material limit. Existing 18% father confidence is unchanged.",
     "claim": "Glasgow-1241 remains the selected father of Glasgow-3932, individually assessed 18%.",
     "record_scope": "Complete selected father-profile proposition, with identity limits below.",
     "limitations": "Complete selected father-profile proposition, with identity limits below.",
@@ -55576,11 +55663,11 @@
     "perspectives": {
       "Glasgow-3932": {
         "relationship": "father",
-        "reason": "The younger Dublin watchmaker shares the elder’s name, trade and address, but the selected father account is now labelled Mary and starts with conflicting 1711 Scottish entries. No source identifies that Scottish person as the elder Dublin father."
+        "reason": "The younger Dublin watchmaker shares the elder’s name, trade and address, but no source identifies the Scottish Philip-1241 as that elder Dublin father. The 1711 Uphall transcript identifies Philip, not Mary; the older Mary label is editorial and does not itself weigh against the Dublin hypothesis. The unproved Scottish-to-Dublin identity is the material limit. Existing 18% father confidence is unchanged."
       },
       "Glasgow-1241": {
         "relationship": "son",
-        "reason": "The younger Dublin watchmaker shares the elder’s name, trade and address, but the selected father account is now labelled Mary and starts with conflicting 1711 Scottish entries. No source identifies that Scottish person as the elder Dublin father."
+        "reason": "The younger Dublin watchmaker shares the elder’s name, trade and address, but no source identifies the Scottish Philip-1241 as that elder Dublin father. The 1711 Uphall transcript identifies Philip, not Mary; the older Mary label is editorial and does not itself weigh against the Dublin hypothesis. The unproved Scottish-to-Dublin identity is the material limit. Existing 18% father confidence is unchanged."
       }
     },
     "analysis_links": [
@@ -55606,7 +55693,7 @@
     },
     "probability": {
       "value": 0.18,
-      "basis": "The younger Dublin watchmaker shares the elder’s name, trade and address, but the selected father account is now labelled Mary and starts with conflicting 1711 Scottish entries. No source identifies that Scottish person as the elder Dublin father.",
+      "basis": "The younger Dublin watchmaker shares the elder’s name, trade and address, but no source identifies the Scottish Philip-1241 as that elder Dublin father. The 1711 Uphall transcript identifies Philip, not Mary; the older Mary label is editorial and does not itself weigh against the Dublin hypothesis. The unproved Scottish-to-Dublin identity is the material limit. Existing 18% father confidence is unchanged.",
       "reviewed": "2026-10-22",
       "source_ids": [
         "held-e-152f1f4181f7",

@@ -3103,7 +3103,7 @@
     "source_title": "Philip at Uphall,3 June 1711: retained Thomas/Jean child index",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ48-S7Z",
     "status": "Previously reviewed child index; adult identity uncertain",
-    "note": "Father Thomas named. Do not make the Dublin migration or maternal transfer certain.",
+    "note": "Two Findmypast FamilySearch-derived entries name Philip Glasgow, male, baptised 3 June 1711 at Uphall, father Thomas Glasgow and mother Jean Duncan. They corroborate the maintained Scottish child account and do not identify a Mary. The older Mary label is an editorial inconsistency, not a second contemporary child. The separate family citation giving 21 October 1711/Linlithgow remains an unresolved index discrepancy: its underlying page was inaccessible and the present search did not find it. Duplicate transcriptions do not supply independent testimony. 72% is a subjective probable assessment of the complete existing father-profile pair, including the unproved identification of the 1675 child with the 1701 adult. It is not 99% merely because a transcript names a father Thomas. The alternative 21 October/Linlithgow citation remains unresolved. Philip’s Scottish child identity is the basis of this assessment; his later identification with the elder Dublin watchmaker remains uncertain and is not upgraded. No mother, parent selection, birth/death field or live WikiTree value changes. Original parish registers were not inspected.",
     "profiles": {
       "Glasgow-1241": {
         "role": "Scottish child account"
@@ -3112,9 +3112,28 @@
         "role": "named father; existing adult identity"
       },
       "Glasgow-3932": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Associated junior Dublin comparison only; not the named child"
+      },
+      "Duncan-16665": {
+        "role": "Named mother Jean Duncan"
       }
-    }
+    },
+    "source_urls": [
+      "https://www.familysearch.org/ark:/61903/1:1:VQ48-S7Z",
+      "https://www.findmypast.co.uk/transcript?id=R_685856117",
+      "https://www.findmypast.co.uk/transcript?id=R_692418335"
+    ],
+    "source_quality": "derivative",
+    "source_type": "FamilySearch-derived baptism index; repeated in Findmypast",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/uphall-marriage-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "person": "Philip Glasgow",
+    "association": "Philip, baptised 3 June 1711 at Uphall; Thomas Glasgow and Jean Duncan",
+    "country": "scotland",
+    "record_type": "Parish baptism index",
+    "record_category": "Baptisms",
+    "source_status": "FamilySearch-derived Findmypast index inspected 23 October 2026; original uninspected"
   },
   {
     "record_id": "dublin-philip-christchurch-watchmaker-1752",
@@ -30865,6 +30884,82 @@
     "profiles": {
       "Glasgow-2600": {
         "role": "Named deceased; reported age conflicts with typed memorial birth"
+      }
+    }
+  },
+  {
+    "country": "scotland",
+    "record_category": "Marriages",
+    "source_type": "Findmypast parish-register transcription; original uninspected",
+    "source_quality": "derivative",
+    "source_status": "Transcripts inspected 23 October 2026",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/uphall-marriage-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "record_id": "linlithgow-thomas-duncan-marriage-1701",
+    "provider_record_ids": [
+      "SCOT/OPR/MAR/0169122/1",
+      "SCOT/OPR/MAR/0172540/1",
+      "SCOT/OPR/MAR/0179011/1"
+    ],
+    "person": "Thomas Glasgow and Jean Duncan",
+    "association": "Linlithgow banns 30 March and marriage 4 May 1701; groom servant",
+    "date": "4 May 1701; banns 30 March 1701",
+    "year": 1701,
+    "place": "Linlithgow, West Lothian, Scotland",
+    "record_type": "Parish banns and marriage",
+    "source_title": "Linlithgow OPR 668/5 item 2; OPR 668/8 item 2 p.19; OPR 668/18 item 3 p.31",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0172540%2F1",
+    "source_urls": [
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0169122%2F1",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0172540%2F1",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0179011%2F1"
+    ],
+    "status": "Named couple and indexed dates established; groom’s childhood identity remains inferred",
+    "note": "The newly inspected Findmypast transcripts establish Thomas Glasgow and Jean Duncan’s Linlithgow banns on 30 March 1701 (groom a servant; witnesses James Craw and William Duncan) and marriage on 4 May 1701. The banns leave both residences as question marks. A third Linlithgow register index names the same couple in 1701 without a day. These are related register entries, not three independent family identifications.",
+    "profiles": {
+      "Glasgow-1242": {
+        "role": "Selected account of the Thomas/Jean Duncan groom; 1675-child identity qualified"
+      },
+      "Duncan-16665": {
+        "role": "Named bride Jean Duncan"
+      }
+    }
+  },
+  {
+    "country": "scotland",
+    "record_category": "Marriages",
+    "source_type": "Findmypast parish-register transcription; original uninspected",
+    "source_quality": "derivative",
+    "source_status": "Transcripts inspected 23 October 2026",
+    "reviewed_on": "2026-10-23",
+    "provenance": "research/ancestry-connections/uphall-marriage-review-2026-10-23.json",
+    "publish_to_record_index": true,
+    "record_id": "kirkliston-thomas-clerkson-banns-1716",
+    "provider_record_ids": [
+      "SCOT/OPR/MAR/1296215/1",
+      "R_695418572/1"
+    ],
+    "person": "Thomas Glasgon and Catharine Clerkson",
+    "association": "Thomas of Uphall; Catharine of Kirkliston; banns 22 June 1716",
+    "date": "22 June 1716",
+    "year": 1716,
+    "place": "Kirkliston, West Lothian, Scotland",
+    "record_type": "Parish banns",
+    "source_title": "Kirkliston OPR 667/1 item 5, register 1675–1731, page not supplied",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1296215%2F1",
+    "source_urls": [
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1296215%2F1",
+      "https://www.findmypast.co.uk/transcript?id=R_695418572%2F1"
+    ],
+    "status": "Existing Clarkson household identified; earlier Duncan marriage not proved to concern the same Thomas",
+    "note": "Kirkliston banns dated 22 June 1716 name Thomas Glasgon, resident at Uphall, and Catharine Clerkson, resident at Kirkliston. The named couple, Uphall residence and Margaret’s following 1717 Uphall child entry identify the existing Clarkson household. The FamilySearch-derived duplicate calls this a marriage date; retain the more specific banns label from OPR 667/1, item 5, rather than asserting a ceremony on that day.",
+    "profiles": {
+      "Glasgow-1226": {
+        "role": "Named groom, resident at Uphall"
+      },
+      "Clarkson-2169": {
+        "role": "Named bride, resident at Kirkliston"
       }
     }
   }

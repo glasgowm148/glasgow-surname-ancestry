@@ -53249,6 +53249,74 @@
         "research/Glasgow-2600/findings.md",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "uphall-marriages-household-review-20261023",
+      "found_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Linlithgow records date Thomas Glasgow and Jean Duncan’s banns to 30 March and marriage to 4 May 1701. Kirkliston banns place Thomas Glasgon at Uphall with Catharine Clerkson on 22 June 1716. The 1711 child index names Philip, not Mary.",
+      "qualification": "Transcripts, not original register images. Existing Philip father confidence 52% → 72%; Clarkson adult’s John-1105 hypothesis 22% → 30%. No father added, confident upgrade, proved remarriage or Dublin migration.",
+      "people": [
+        {
+          "id": "Glasgow-1226",
+          "name": "Thomas Glasgow",
+          "role": "Clarkson household; 1716 groom",
+          "url": "/people/glasgow-1226.html"
+        },
+        {
+          "id": "Glasgow-1242",
+          "name": "Thomas Glasgow",
+          "role": "Duncan household; 1701 groom, with childhood identity qualified",
+          "url": "/people/glasgow-1242.html"
+        },
+        {
+          "id": "Glasgow-1241",
+          "name": "Philip Glasgow",
+          "role": "Named Uphall child in 1711",
+          "url": "/people/glasgow-1241.html"
+        },
+        {
+          "id": "Duncan-16665",
+          "name": "Jean Duncan",
+          "role": "Named bride in 1701",
+          "url": "/people/duncan-16665.html"
+        },
+        {
+          "id": "Clarkson-2169",
+          "name": "Catherine Clarkson",
+          "role": "Named bride Catharine Clerkson in 1716",
+          "url": "/people/clarkson-2169.html"
+        },
+        {
+          "id": "Glasgow-1105",
+          "name": "John Glasgow",
+          "role": "Proposed father only; not named in these marriages",
+          "url": "/people/glasgow-1105.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Thomas Glasgow and Jean Duncan, banns 30 March 1701; servant, witnesses James Craw and William Duncan, OPR 668/5 item 2",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0169122%2F1"
+        },
+        {
+          "title": "Thomas Glasgow and Jean Duncan, marriage 4 May 1701, Linlithgow, OPR 668/8 item 2 p.19",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0172540%2F1"
+        },
+        {
+          "title": "Thomas Glasgon of Uphall and Catharine Clerkson of Kirkliston, banns 22 June 1716, OPR 667/1 item 5",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1296215%2F1"
+        },
+        {
+          "title": "Philip Glasgow, baptised 3 June 1711, Uphall; Thomas Glasgow and Jean Duncan; FamilySearch-derived index",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685856117"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#libberton-uphall-working-family",
+      "provenance": [
+        "research/ancestry-connections/uphall-marriage-review-2026-10-23.json"
+      ]
     }
   ]
 }

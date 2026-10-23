@@ -2,14 +2,7 @@
 
 ## Current conclusion
 
-Reviewed: 2026-10-16
-
-**Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
-
-Reviewed: 2026-10-16
-
-**Selected uncertain Libberton/Uphall families,16 October2026:** Robert of Libberton is placed under Johne-3093 through the conditional Mid Calder/Lindsaylands family route; Thomas of the Clarkson household is placed under John-1105 and Agnes Eastone through possible identity with the 1675 child. All three adult parent links are uncertain; existing dates and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#libberton-uphall-working-family).
-
+Reviewed: 2026-10-23. The newly inspected Findmypast transcripts establish Thomas Glasgow and Jean Duncan’s Linlithgow banns on 30 March 1701 (groom a servant; witnesses James Craw and William Duncan) and marriage on 4 May 1701. The banns leave both residences as question marks. A third Linlithgow register index names the same couple in 1701 without a day. These are related register entries, not three independent family identifications. Two Findmypast FamilySearch-derived entries name Philip Glasgow, male, baptised 3 June 1711 at Uphall, father Thomas Glasgow and mother Jean Duncan. They corroborate the maintained Scottish child account and do not identify a Mary. The older Mary label is an editorial inconsistency, not a second contemporary child. The separate family citation giving 21 October 1711/Linlithgow remains an unresolved index discrepancy: its underlying page was inaccessible and the present search did not find it. Duplicate transcriptions do not supply independent testimony. The 1675 child’s existing John-1105 father assessment stays 98%, scoped to that child. Philip-1241’s complete father-profile assessment is now 72%; the Clarkson adult’s John-1105 hypothesis is 30%. 30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made.
 
 ## Selected uncertain family — 16 October 2026
 
@@ -69,3 +62,30 @@ Scope: Recorded 1675 child98%; the2/21 February discrepancy and later Duncan/Cla
 Next useful test: Test Thomas’s later adult identities independently of the explicit child parentage.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+
+## Uphall marriage and child review — 23 October 2026
+
+The newly inspected Findmypast transcripts establish Thomas Glasgow and Jean Duncan’s Linlithgow banns on 30 March 1701 (groom a servant; witnesses James Craw and William Duncan) and marriage on 4 May 1701. The banns leave both residences as question marks. A third Linlithgow register index names the same couple in 1701 without a day. These are related register entries, not three independent family identifications.
+
+Kirkliston banns dated 22 June 1716 name Thomas Glasgon, resident at Uphall, and Catharine Clerkson, resident at Kirkliston. The named couple, Uphall residence and Margaret’s following 1717 Uphall child entry identify the existing Clarkson household. The FamilySearch-derived duplicate calls this a marriage date; retain the more specific banns label from OPR 667/1, item 5, rather than asserting a ceremony on that day.
+
+Two Findmypast FamilySearch-derived entries name Philip Glasgow, male, baptised 3 June 1711 at Uphall, father Thomas Glasgow and mother Jean Duncan. They corroborate the maintained Scottish child account and do not identify a Mary. The older Mary label is an editorial inconsistency, not a second contemporary child. The separate family citation giving 21 October 1711/Linlithgow remains an unresolved index discrepancy: its underlying page was inaccessible and the present search did not find it. Duplicate transcriptions do not supply independent testimony.
+
+The 15 June 1715 Edinburgh child is already represented by Thomas Glasgow-1243, whose selected father is the Edinburgh baxter Thomas Glasgow-3285. His transcript explicitly calls the father a baxter and indweller. This citation must not be used as another Uphall/Duncan birth or evidence for the proposed Duncan-to-Clarkson succession. The recorded Edinburgh father is retained as a separately identified household; no record establishes its identity with the Uphall father.
+
+30% is a subjective assessment of the complete Clarkson-adult → John-1105 proposition. Two identity bridges remain unproved: the 1675 child to the Duncan groom, and the Duncan father to the Clarkson groom. No widowhood, remarital status, age, trade or parent is given in the inspected marriage transcripts. Jean’s death is not established. An unrecorded younger local Thomas remains a serious alternative; Thomas-1311 (1666) and Thomas-3091 (1663) are older compatible rivals. The 1679 Carstairs/Spence groom is not an established identity for this adult. The unverified 1766 memorial contributes no weight. The 1715 Edinburgh citation is excluded from the supporting sequence. Both Thomas accounts remain separate and no biological or profile merge is made.
+
+Inspect the original 1701 and 1716 entries for fuller residence, occupation and marital status; seek Jean Duncan’s burial or a property/probate passage connecting the two households. Reconcile the separate 21 October 1711 citation. An explicit age or family network could distinguish the 1675 child from younger local Thomas namesakes.
+
+[Thomas Glasgow and Jean Duncan, banns 30 March 1701; servant, witnesses James Craw and William Duncan, OPR 668/5 item 2](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0169122%2F1); [Thomas Glasgow and Jean Duncan, marriage 4 May 1701, Linlithgow, OPR 668/8 item 2 p.19](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F0172540%2F1); [Thomas Glasgon of Uphall and Catharine Clerkson of Kirkliston, banns 22 June 1716, OPR 667/1 item 5](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1296215%2F1); [Philip Glasgow, baptised 3 June 1711, Uphall; Thomas Glasgow and Jean Duncan; FamilySearch-derived index](https://www.findmypast.co.uk/transcript?id=R_685856117); [Thomas Glasgow, Edinburgh baptism 15 June 1715; father Thomas, baxter indweller, OPR 685_1/16 item 3 p.53](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0606238)
+
+### Previous conclusion retained as history
+
+Reviewed: 2026-10-16
+
+**Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).
+
+Reviewed: 2026-10-16
+
+**Selected uncertain Libberton/Uphall families,16 October2026:** Robert of Libberton is placed under Johne-3093 through the conditional Mid Calder/Lindsaylands family route; Thomas of the Clarkson household is placed under John-1105 and Agnes Eastone through possible identity with the 1675 child. All three adult parent links are uncertain; existing dates and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#libberton-uphall-working-family).

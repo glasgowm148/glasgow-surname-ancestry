@@ -4008,3 +4008,11 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 ## 23 October 2026 — Ohio John’s Irish origin
 
 | [John Glasgow (Glasgow-2600)](https://www.wikitree.com/wiki/Glasgow-2600) | OPEN | Replace unsupported 1784 Bathgate birth with an estimated birth about 1774, Ireland, citing original1860 census; preserve monument age92 and modern-field conflict. Father remains unknown; reconcile Glenn marriage identities separately. |
+
+
+## 23 October 2026 — Uphall marriages and Philip identity
+
+| [Glasgow-1226](https://www.wikitree.com/wiki/Glasgow-1226) | OPEN | Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Clarkson adult’s proposed father confidence 22% → 30%; no new father selection or confident join. |
+| [Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242) | OPEN | Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Clarkson adult’s proposed father confidence 22% → 30%; no new father selection or confident join. |
+| [Glasgow-1241](https://www.wikitree.com/wiki/Glasgow-1241) | OPEN | Add the inspected 1701 Duncan marriage, 1716 Clarkson banns/residences and corrected 1711 Philip account. Existing father confidence 52% → 72%; Dublin identity remains uncertain. |
+| [Glasgow-3932](https://www.wikitree.com/wiki/Glasgow-3932) | OPEN | Correct the editorial Mary label in the Scottish comparison; junior’s selected father remains uncertain 18%, with no migration proof. |
