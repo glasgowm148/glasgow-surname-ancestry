@@ -1,0 +1,42 @@
+{
+  "reviewed": "2026-10-23",
+  "research_commit": "7946b39f555",
+  "genealogical_connections_added_by_release_repairs": 0,
+  "archive": {
+    "archive": "/Users/m/genealogy/wikitree-api-scrape/dist/glasgow-site-20261023-073530.tar.gz",
+    "bytes": 418431222,
+    "decimal_mb": 418.431222,
+    "sha256": "8c956ce3439f1d02b72d3a441a0c7b87db2aaafad9cbbeb200203c2ef4ff7c08",
+    "payload_files": 87297,
+    "all_payloads_match_manifest_and_current_site": true,
+    "all_payload_modes_644": true,
+    "gzip_integrity_passed": true,
+    "release_gates_passed": true,
+    "deployed": false,
+    "pushed": false
+  },
+  "gate_verification": {
+    "standard_release_command": "tools/deploy_site.py --bundle --no-stamp",
+    "completed_full_audit_log": "tmp/glenleslie-working-family-20261023/bundle-release-final.log",
+    "full_publication_boundary_failures": 0,
+    "remaining_analytics_failures": [],
+    "release_totals_consistent": true,
+    "atlas_destinations_checked": true,
+    "stale_asset_references": 0,
+    "standard_asset_versions_gate_passed": true,
+    "verification_scope": "The standard release command completed all current-site gates and created the local bundle. Earlier stale asset references were updated with the maintained stamper. The final full publication-boundary audit includes the restored eleven standard analytics tags and reports zero failures. No publication-approval rules or approved source manifests were changed.",
+    "deployed": false,
+    "pushed": false
+  },
+  "totals": {
+    "Historical people": 4872,
+    "Exported family roots": 163,
+    "People linked to a root": 2619,
+    "People with original evidence": 834,
+    "Creation-ready profiles": 69,
+    "Mapped records": 4960,
+    "Research places": 1264
+  },
+  "current_opening_synchronized": true,
+  "live_publication": false
+}

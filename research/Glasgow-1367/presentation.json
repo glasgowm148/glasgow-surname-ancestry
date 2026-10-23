@@ -1,11 +1,11 @@
 {
-  "assessment_date": "2026-08-25",
+  "assessment_date": "2026-10-23",
   "resolution_state": "conflict",
   "resolution_issue": "The Current conclusion identifies the Glenleslie census/will family, while the explicit Lisnagaver land-sequence correction retains Glasgow-1367 for the 1834 occupier without proving the connection. These scopes cannot safely be combined into one set of vital facts.",
   "principal_locality": "Lisnagaver occupier; Glenleslie identification unresolved",
-  "opening": "Robert held 35 acres at Lisnagaver in 1834. The land-sequence assessment retains this as his working profile scope, while another maintained conclusion describes the documented Glenleslie census-and-will family. No record yet bridges those identities. County Antrim is the Glenleslie man’s recorded birthplace; County Tyrone is an imported profile assertion, not a competing inspected birth record. Robert remains an open, unproved father candidate for Alexander. The earlier accepted pedigree attachment is superseded, but biological fatherhood has not been disproved.",
+  "opening": "John Glasgow-1022 is the selected possible working father (38%) of the Robert recorded at Glenleslie in 1851. The selection applies to that record identity and does not prove the Lisnagaver identification. Robert held 35 acres at Lisnagaver in 1834. The land-sequence assessment retains this as his working profile scope, while another maintained conclusion describes the documented Glenleslie census-and-will family. No record yet bridges those identities. County Antrim is the Glenleslie man’s recorded birthplace; County Tyrone is an imported profile assertion, not a competing inspected birth record. Robert remains an open, unproved father candidate for Alexander. The earlier accepted pedigree attachment is superseded, but biological fatherhood has not been disproved.",
   "position": {
-    "answer": "The Lisnagaver working identity and Glenleslie family account remain in conflict over profile scope; an open father hypothesis is not an established pedigree.",
+    "answer": "The Glenleslie family now has a selected possible father, John Glasgow-1022 at 38%. The Lisnagaver working identity and Glenleslie family account remain in conflict over profile scope; an open father hypothesis is not an established pedigree.",
     "points": []
   },
   "vital_assessment_id": "robert-1367-reviewed-vitals",
@@ -13,9 +13,10 @@
     "birth",
     "death"
   ],
-  "family_scope_note": "The Catherine, Margaret and Young-grandchild account belongs to the Glenleslie family. These retained family links must not be transferred to the 1834 Lisnagaver occupier until the identities are connected. Alexander’s possible father relationship is a separate hypothesis.",
+  "family_scope_note": "The Catherine, Margaret and Young-grandchild account belongs to the Glenleslie family. These retained family links must not be transferred to the 1834 Lisnagaver occupier until the identities are connected. Alexander’s possible father relationship is a separate hypothesis. The selected 38% John-1022 father hypothesis also belongs to the Glenleslie comparison and does not resolve the Lisnagaver identity.",
   "family_reasons": {
-    "Glasgow-951": "Robert remains a place-based possible father candidate for Alexander, but the Lisnagaver and Glenleslie identities are not bridged by a direct record."
+    "Glasgow-951": "Robert remains a place-based possible father candidate for Alexander, but the Lisnagaver and Glenleslie identities are not bridged by a direct record.",
+    "Glasgow-1022": "Possible working father,38%: neighbouring Antrim farming households and a compatible 28-year generation. The original asks for marriage year(s), not expressly a first marriage, but only1791 is reported and an earlier union remains unproved. An uncle, cousin or different father remains possible."
   },
   "family_sources": {
     "Glasgow-951": [
@@ -129,6 +130,6 @@
     }
   ],
   "deliberate_exclusions": [
-    "Adam and Rose are not active parents: the maintained Robert assessment finds the chronology and locality inconsistent, while John Glasgow remains only a weak locality candidate."
+    "Adam and Rose are not active parents: the maintained Robert assessment finds the chronology and locality inconsistent, while John Glasgow-1022 is now selected as a possible father at 38% for the Glenleslie man only."
   ]
 }
