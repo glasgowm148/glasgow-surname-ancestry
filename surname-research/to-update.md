@@ -3947,3 +3947,10 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Glasgow-2239](https://www.wikitree.com/wiki/Glasgow-2239) | OPEN | Existing Joseph father: local93% → 95%; saved unmarked → confident, original memoir family argument and explicit source limitations. |
 - [Robert Glasgow, son of William B.](/people/record-miami-robert-glasgow.html) — HOLD, complete sourced local account; existing-profile checks pending, no live creation.
 - [William Arthur Glasgow, son of William B.](/people/record-miami-william-arthur-glasgow.html) — HOLD, complete sourced local account; existing-profile checks pending, no live creation.
+
+
+## 23 October 2026 — Thompson family interviews
+
+| [Glasgow-16](https://www.wikitree.com/wiki/Glasgow-16) | OPEN | Existing father Glasgow-8: local 65% → 93% confident; saved unmarked control unchanged. Add named interview evidence and its limitations; no new father. |
+| [Glasgow-17](https://www.wikitree.com/wiki/Glasgow-17) | OPEN | Existing father Glasgow-8: local 79% → 90% confident; saved unmarked control unchanged. Add named interview evidence and its limitations; no new father. |
+| [Glasgow-2554](https://www.wikitree.com/wiki/Glasgow-2554) | OPEN | Existing father Glasgow-16: local 86% → 96% confident; saved unmarked control unchanged. Add named interview evidence and its limitations; no new father. |

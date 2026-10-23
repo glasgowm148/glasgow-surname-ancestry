@@ -369,12 +369,14 @@
     },
     "Glasgow-16": {
       "current_sha256": "e7a0f11c340e25c80f156fb87e73d9c82f01ea1680c696a9a006a0ebdecb86f0",
-      "proposed_sha256": "5867f42aa81e53b764a3621ecfb7bb7540c1d5d12b7f53a9380ea6590ad9da1a",
+      "proposed_sha256": "68871f23696b18b7b3495fc87fc7c377908e39eb802ef15f442734ba3ea9ad4f",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-16/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "All captured biography and previous sourced passages retained. Added named interview evidence and explicit source/identity limits; removed only the process comment and marked the old review historical.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "5867f42aa81e53b764a3621ecfb7bb7540c1d5d12b7f53a9380ea6590ad9da1a",
+      "reviewed": "2026-10-23"
     },
     "Glasgow-1684": {
       "current_sha256": "694d179f8b6da016e4aec49d39e2def58a0ee2ebfceaf02a9289cac2a02b027e",

@@ -3664,15 +3664,16 @@
     },
     "Glasgow-2554": {
       "current_sha256": "63d275202163c8573cf916b3cbf386b3fe41058601825e21746d785a5acf58d5",
-      "proposed_sha256": "a9989aae52910b3154cb65cf2709dc818c53359a8d177da95887d37bc9c1af6e",
-      "previous_proposed_sha256": "63d275202163c8573cf916b3cbf386b3fe41058601825e21746d785a5acf58d5",
+      "proposed_sha256": "054c310bdb2c69085f729b070f2c9886283408618cb4133409d8b70e1aabf1d9",
+      "previous_proposed_sha256": "a9989aae52910b3154cb65cf2709dc818c53359a8d177da95887d37bc9c1af6e",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage9-20261022/previous-proposals/Glasgow-2554.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2554/father-confidence-2026-10-22i.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "All captured biography and previous sourced passages retained. Added named interview evidence and explicit source/identity limits; removed only the process comment and marked the old review historical.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed": "2026-10-23"
     },
     "Glasgow-4023": {
       "current_sha256": "e288e7f141d4ff030f4f8e8f2787faa6d42e12496f15888b8b2b7be2a3e32644",

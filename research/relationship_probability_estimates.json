@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-22",
+  "reviewed": "2026-10-23",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -9087,29 +9087,59 @@
       "subject_id": "Glasgow-16",
       "relative_id": "Glasgow-8",
       "relationship": "father",
-      "percent": 65,
-      "assessment_status": "probable",
+      "percent": 93,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022c-glasgow-16-father",
-      "basis": "Robert Finley’s exact 1820 birth and Adams County family fit the selected Robert Barclay’s 1783 generation. The particular inherited household attribution is plausible within the compiled Glasgow family, but Robert Finley’s held biography and census references do not themselves name his father.",
+      "basis": "The 1 October 1926 Samuel Steele interview explicitly names Finley’s father as Robert Glasgow, husband of Rosanna Finley. The Campbell wife, Robert/William/John/Nancy child group, Nancy’s Dr J. A. Glasgow marriage, and Illinois migration identify the Finley represented by Glasgow-16. Ora’s separate 1925 interview ties that same family to Robert Washington and the Weldon death. The named spouse selects Robert Barclay Glasgow-8 rather than the older Robert-12/Rosannah Barclay couple. The 24 October 1925 recollection separately names Finley as a child of Robert and Rosanna Finley.",
       "source_ids": [
+        "thompson-samuel-glasgow-interview-1926",
+        "thompson-caskey-glasgow-interview-1925",
+        "thompson-ora-glasgow-interview-1925",
         "held-e-69a0ace4105e"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Probable 65%; specific existing family assignment, without a retained independent parent clause."
+      "reviewed": "2026-10-23",
+      "scope": "93% is a subjective confident assessment of the complete father–adult-profile identification, based on retrospective named testimony and family matching, not a contemporary birth record. Separate witnesses in one researcher’s transcript can share family tradition. The reported near-Peoria death is imprecise beside Weldon; the latter is retained. The exact 12 April 1820 birthday is NOT an identity anchor: the same source assigns it to the distinct Iowa Robert Glasgow-2175. All dates and other ancestry remain unchanged.",
+      "assessment_history": [
+        {
+          "percent": 65,
+          "assessment_status": "probable",
+          "basis": "Robert Finley’s exact 1820 birth and Adams County family fit the selected Robert Barclay’s 1783 generation. The particular inherited household attribution is plausible within the compiled Glasgow family, but Robert Finley’s held biography and census references do not themselves name his father.",
+          "source_ids": [
+            "held-e-69a0ace4105e"
+          ],
+          "scope": "Probable 65%; specific existing family assignment, without a retained independent parent clause.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-8",
       "relative_id": "Glasgow-16",
       "relationship": "child",
-      "percent": 65,
-      "assessment_status": "probable",
+      "percent": 93,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022c-glasgow-16-father",
-      "basis": "Robert Finley’s exact 1820 birth and Adams County family fit the selected Robert Barclay’s 1783 generation. The particular inherited household attribution is plausible within the compiled Glasgow family, but Robert Finley’s held biography and census references do not themselves name his father.",
+      "basis": "The 1 October 1926 Samuel Steele interview explicitly names Finley’s father as Robert Glasgow, husband of Rosanna Finley. The Campbell wife, Robert/William/John/Nancy child group, Nancy’s Dr J. A. Glasgow marriage, and Illinois migration identify the Finley represented by Glasgow-16. Ora’s separate 1925 interview ties that same family to Robert Washington and the Weldon death. The named spouse selects Robert Barclay Glasgow-8 rather than the older Robert-12/Rosannah Barclay couple. The 24 October 1925 recollection separately names Finley as a child of Robert and Rosanna Finley.",
       "source_ids": [
+        "thompson-samuel-glasgow-interview-1926",
+        "thompson-caskey-glasgow-interview-1925",
+        "thompson-ora-glasgow-interview-1925",
         "held-e-69a0ace4105e"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Probable 65%; specific existing family assignment, without a retained independent parent clause."
+      "reviewed": "2026-10-23",
+      "scope": "93% is a subjective confident assessment of the complete father–adult-profile identification, based on retrospective named testimony and family matching, not a contemporary birth record. Separate witnesses in one researcher’s transcript can share family tradition. The reported near-Peoria death is imprecise beside Weldon; the latter is retained. The exact 12 April 1820 birthday is NOT an identity anchor: the same source assigns it to the distinct Iowa Robert Glasgow-2175. All dates and other ancestry remain unchanged.",
+      "assessment_history": [
+        {
+          "percent": 65,
+          "assessment_status": "probable",
+          "basis": "Robert Finley’s exact 1820 birth and Adams County family fit the selected Robert Barclay’s 1783 generation. The particular inherited household attribution is plausible within the compiled Glasgow family, but Robert Finley’s held biography and census references do not themselves name his father.",
+          "source_ids": [
+            "held-e-69a0ace4105e"
+          ],
+          "scope": "Probable 65%; specific existing family assignment, without a retained independent parent clause.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1684",
@@ -10691,29 +10721,59 @@
       "subject_id": "Glasgow-17",
       "relative_id": "Glasgow-8",
       "relationship": "father",
-      "percent": 79,
-      "assessment_status": "probable",
+      "percent": 90,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022d-glasgow-17-father",
-      "basis": "Stewart Steele’s 13 April 1823 birth and distinctive middle name fit Robert Barclay Glasgow and Rosanna Finley’s Adams County family account, including the earlier William and Martha entries.",
+      "basis": "The 24 October 1925 household interview records Rosanna Finley, wife of Robert Glasgow, as mother of Finley and Stuart Glasgow. Finley is independently anchored to the Campbell-wife/Weldon family by the 1925 Ora and 1926 Samuel interviews. Stewart Steele Glasgow-17 is the existing 1823 Adams County to Peoria account with exactly this named couple and brother; no checked alternative Stuart has that family. This explicit combined family statement strengthens the inherited placement beyond its previous name-and-generation fit.",
       "source_ids": [
+        "thompson-caskey-glasgow-interview-1925",
+        "thompson-samuel-glasgow-interview-1926",
+        "thompson-ora-glasgow-interview-1925",
         "held-e-7d3486f88033"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Probable specific family placement; a transcribed contemporary parent record is not held in this capture."
+      "reviewed": "2026-10-23",
+      "scope": "90% is a subjective confident assessment for the complete Stewart-profile/father pair. Stuart is the literal source form. The recollection supplies neither his age nor wife; identification with the later Stewart remains inferred and is less fully anchored than Finley’s. The informant reports her mother’s recollection. Thompson’s ensuing inferred upper pedigree, including a Robert said to die about 1806, is not adopted. No other alleged sibling or older ancestor gains confidence from this review.",
+      "assessment_history": [
+        {
+          "percent": 79,
+          "assessment_status": "probable",
+          "basis": "Stewart Steele’s 13 April 1823 birth and distinctive middle name fit Robert Barclay Glasgow and Rosanna Finley’s Adams County family account, including the earlier William and Martha entries.",
+          "source_ids": [
+            "held-e-7d3486f88033"
+          ],
+          "scope": "Probable specific family placement; a transcribed contemporary parent record is not held in this capture.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-8",
       "relative_id": "Glasgow-17",
       "relationship": "child",
-      "percent": 79,
-      "assessment_status": "probable",
+      "percent": 90,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022d-glasgow-17-father",
-      "basis": "Stewart Steele’s 13 April 1823 birth and distinctive middle name fit Robert Barclay Glasgow and Rosanna Finley’s Adams County family account, including the earlier William and Martha entries.",
+      "basis": "The 24 October 1925 household interview records Rosanna Finley, wife of Robert Glasgow, as mother of Finley and Stuart Glasgow. Finley is independently anchored to the Campbell-wife/Weldon family by the 1925 Ora and 1926 Samuel interviews. Stewart Steele Glasgow-17 is the existing 1823 Adams County to Peoria account with exactly this named couple and brother; no checked alternative Stuart has that family. This explicit combined family statement strengthens the inherited placement beyond its previous name-and-generation fit.",
       "source_ids": [
+        "thompson-caskey-glasgow-interview-1925",
+        "thompson-samuel-glasgow-interview-1926",
+        "thompson-ora-glasgow-interview-1925",
         "held-e-7d3486f88033"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Probable specific family placement; a transcribed contemporary parent record is not held in this capture."
+      "reviewed": "2026-10-23",
+      "scope": "90% is a subjective confident assessment for the complete Stewart-profile/father pair. Stuart is the literal source form. The recollection supplies neither his age nor wife; identification with the later Stewart remains inferred and is less fully anchored than Finley’s. The informant reports her mother’s recollection. Thompson’s ensuing inferred upper pedigree, including a Robert said to die about 1806, is not adopted. No other alleged sibling or older ancestor gains confidence from this review.",
+      "assessment_history": [
+        {
+          "percent": 79,
+          "assessment_status": "probable",
+          "basis": "Stewart Steele’s 13 April 1823 birth and distinctive middle name fit Robert Barclay Glasgow and Rosanna Finley’s Adams County family account, including the earlier William and Martha entries.",
+          "source_ids": [
+            "held-e-7d3486f88033"
+          ],
+          "scope": "Probable specific family placement; a transcribed contemporary parent record is not held in this capture.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-2070",
@@ -36991,29 +37051,57 @@
       "subject_id": "Glasgow-2554",
       "relative_id": "Glasgow-16",
       "relationship": "father",
-      "percent": 86,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022i-glasgow-2554-father",
-      "basis": "Robert Washington is placed with his parents by the held 1850 census narrative and a sustained Scott Township record trail. Robert Finley’s 1847 Nancy Campbell marriage and family chronology fit, but no father field from Robert Washington’s death entry is quoted.",
+      "basis": "Idelma Ora’s 3 November 1925 interview identifies his father as Robert Washington Glasgow, husband of Phebe Jane Finley, and explicitly lists that father as a son of grandfather Finley by his Campbell first wife. The Scott Township family, distinctive full names, spouse and the grandfather’s Weldon death select Robert Washington Glasgow-2554 and Robert Finley Glasgow-16. Samuel’s 1926 interview independently recalls Finley’s son Robert and children Ora and Tina. These named descendant relationships strengthen the already held census/family chronology.",
       "source_ids": [
+        "thompson-ora-glasgow-interview-1925",
+        "thompson-samuel-glasgow-interview-1926",
         "held-e-0570576c77b5"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "reviewed": "2026-10-23",
+      "scope": "96% is a subjective confident whole-pair identification from a son’s retrospective family account and a separate relative’s testimony, available in a library transcription. These are not inspected birth/death certificates and may share family knowledge. Ora’s doubtful statement making Anderson a sibling of Finley is not imported; it does not erase his specific identification of his own father and grandfather. Maternity, dates and all other children retain their assessments.",
+      "assessment_history": [
+        {
+          "percent": 86,
+          "assessment_status": "probable",
+          "basis": "Robert Washington is placed with his parents by the held 1850 census narrative and a sustained Scott Township record trail. Robert Finley’s 1847 Nancy Campbell marriage and family chronology fit, but no father field from Robert Washington’s death entry is quoted.",
+          "source_ids": [
+            "held-e-0570576c77b5"
+          ],
+          "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-16",
       "relative_id": "Glasgow-2554",
       "relationship": "child",
-      "percent": 86,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022i-glasgow-2554-father",
-      "basis": "Robert Washington is placed with his parents by the held 1850 census narrative and a sustained Scott Township record trail. Robert Finley’s 1847 Nancy Campbell marriage and family chronology fit, but no father field from Robert Washington’s death entry is quoted.",
+      "basis": "Idelma Ora’s 3 November 1925 interview identifies his father as Robert Washington Glasgow, husband of Phebe Jane Finley, and explicitly lists that father as a son of grandfather Finley by his Campbell first wife. The Scott Township family, distinctive full names, spouse and the grandfather’s Weldon death select Robert Washington Glasgow-2554 and Robert Finley Glasgow-16. Samuel’s 1926 interview independently recalls Finley’s son Robert and children Ora and Tina. These named descendant relationships strengthen the already held census/family chronology.",
       "source_ids": [
+        "thompson-ora-glasgow-interview-1925",
+        "thompson-samuel-glasgow-interview-1926",
         "held-e-0570576c77b5"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "reviewed": "2026-10-23",
+      "scope": "96% is a subjective confident whole-pair identification from a son’s retrospective family account and a separate relative’s testimony, available in a library transcription. These are not inspected birth/death certificates and may share family knowledge. Ora’s doubtful statement making Anderson a sibling of Finley is not imported; it does not erase his specific identification of his own father and grandfather. Maternity, dates and all other children retain their assessments.",
+      "assessment_history": [
+        {
+          "percent": 86,
+          "assessment_status": "probable",
+          "basis": "Robert Washington is placed with his parents by the held 1850 census narrative and a sustained Scott Township record trail. Robert Finley’s 1847 Nancy Campbell marriage and family chronology fit, but no father field from Robert Washington’s death entry is quoted.",
+          "source_ids": [
+            "held-e-0570576c77b5"
+          ],
+          "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+          "reviewed": "2026-10-22"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-4023",
@@ -39490,6 +39578,62 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Whole Samuel Steele–William Barclay father pair, 99% confident. Published biographical statement and exact identity match, not a newly inspected civil birth record. The Maria/Marion McIntire name and1859/1855 maternal death discrepancy remains separate."
+    },
+    {
+      "subject_id": "Glasgow-16",
+      "relative_id": "Finley-134",
+      "relationship": "mother",
+      "percent": 93,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-review-20261023-glasgow-16-mother",
+      "basis": "The 24 October 1925 recollection explicitly names Rosanna Finley as mother of Finley and Stuart, independently of Robert’s spouse field. Identification with Glasgow-16 and Rosanna Finley-134 uses the specific Robert/Rosanna/Finley/Stuart family comparison; the whole child-profile identity has the same stated limits as its father review.",
+      "scope": "Retrospective named maternity, not a birth-register entry. This is a first individual maternal assessment, not a measured percentage increase. The shared identity argument means the parent percentages are not independent probabilities.",
+      "source_ids": [
+        "thompson-caskey-glasgow-interview-1925"
+      ],
+      "reviewed": "2026-10-23"
+    },
+    {
+      "subject_id": "Finley-134",
+      "relative_id": "Glasgow-16",
+      "relationship": "child",
+      "percent": 93,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-review-20261023-glasgow-16-mother",
+      "basis": "The 24 October 1925 recollection explicitly names Rosanna Finley as mother of Finley and Stuart, independently of Robert’s spouse field. Identification with Glasgow-16 and Rosanna Finley-134 uses the specific Robert/Rosanna/Finley/Stuart family comparison; the whole child-profile identity has the same stated limits as its father review.",
+      "scope": "Retrospective named maternity, not a birth-register entry. This is a first individual maternal assessment, not a measured percentage increase. The shared identity argument means the parent percentages are not independent probabilities.",
+      "source_ids": [
+        "thompson-caskey-glasgow-interview-1925"
+      ],
+      "reviewed": "2026-10-23"
+    },
+    {
+      "subject_id": "Glasgow-17",
+      "relative_id": "Finley-134",
+      "relationship": "mother",
+      "percent": 90,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-review-20261023-glasgow-17-mother",
+      "basis": "The 24 October 1925 recollection explicitly names Rosanna Finley as mother of Finley and Stuart, independently of Robert’s spouse field. Identification with Glasgow-17 and Rosanna Finley-134 uses the specific Robert/Rosanna/Finley/Stuart family comparison; the whole child-profile identity has the same stated limits as its father review.",
+      "scope": "Retrospective named maternity, not a birth-register entry. This is a first individual maternal assessment, not a measured percentage increase. The shared identity argument means the parent percentages are not independent probabilities.",
+      "source_ids": [
+        "thompson-caskey-glasgow-interview-1925"
+      ],
+      "reviewed": "2026-10-23"
+    },
+    {
+      "subject_id": "Finley-134",
+      "relative_id": "Glasgow-17",
+      "relationship": "child",
+      "percent": 90,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "C-review-20261023-glasgow-17-mother",
+      "basis": "The 24 October 1925 recollection explicitly names Rosanna Finley as mother of Finley and Stuart, independently of Robert’s spouse field. Identification with Glasgow-17 and Rosanna Finley-134 uses the specific Robert/Rosanna/Finley/Stuart family comparison; the whole child-profile identity has the same stated limits as its father review.",
+      "scope": "Retrospective named maternity, not a birth-register entry. This is a first individual maternal assessment, not a measured percentage increase. The shared identity argument means the parent percentages are not independent probabilities.",
+      "source_ids": [
+        "thompson-caskey-glasgow-interview-1925"
+      ],
+      "reviewed": "2026-10-23"
     }
   ]
 }

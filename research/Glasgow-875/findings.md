@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Named family testimony, 23 October 2026:** Samuel’s 1926 interview identifies his father William Barkley, the older half-brother of Finley Glasgow’s Campbell wife, and names William’s mother Nancy and her first husband Joseph. It also specifies two later Campbell daughters, consistent with treating the Breckenridge woman as a maternal half-sister rather than another Joseph child. This strengthens the source account while the existing 95% father assessment stays unchanged. The same Samuel may have supplied the 1919 memoir; these are not independent witnesses. [Joseph’s unresolved 1820/1856 death conflict](/people/glasgow-653.html#research-findings) remains explicit; no death field or Campbell identity is altered.
+
 Joseph Glasgow-653 is assessed as this person’s father at **95% confident**, increased from 71%. This strengthens an already attached father.
 
 William Barclay’s family is identified by Samuel Steele’s exact birthday, Joseph Anderson and Mary Elizabeth/Williams, the Kane daughter, his McIntire wife, Adams County farming and survival to 91. Robert A.’s place beside this William B. connects that specific adult to the Joseph/Nancy family. The remaining alternative is that the memoir mixed paternal as well as maternal sibling groups.
@@ -31,3 +33,11 @@ Held source basis: [WikiTree profile export for Glasgow-875](https://www.wikitre
 ## William’s children in the original memoir
 
 Besides [Samuel Steele Glasgow-2043](https://www.wikitree.com/wiki/Glasgow-2043), [Joseph Anderson Glasgow-2039](https://www.wikitree.com/wiki/Glasgow-2039) and [Mary Elizabeth Glasgow-2041](https://www.wikitree.com/wiki/Glasgow-2041), the memoir names two further sons: [Robert Glasgow, son of William B.](/people/record-miami-robert-glasgow.html); [William Arthur Glasgow, son of William B.](/people/record-miami-william-arthur-glasgow.html). Their complete local accounts carry 97% father links for the named record roles and remain on HOLD for existing-profile checks. The Kane daughter is called Mary Jane, plausibly [Nancy Jane Glasgow-874](https://www.wikitree.com/wiki/Glasgow-874); the given-name and J. J./John Kane discrepancy remains open. Maria H. McIntire’s reported 1859 death differs from [Marion McIntyre-4103](https://www.wikitree.com/wiki/McIntyre-4103), recorded 1855; no maternal change is made.
+
+## Source findings — Thompson interviews, 23 October 2026
+
+**Named family testimony, 23 October 2026:** Samuel’s 1926 interview identifies his father William Barkley, the older half-brother of Finley Glasgow’s Campbell wife, and names William’s mother Nancy and her first husband Joseph. It also specifies two later Campbell daughters, consistent with treating the Breckenridge woman as a maternal half-sister rather than another Joseph child. This strengthens the source account while the existing 95% father assessment stays unchanged. The same Samuel may have supplied the 1919 memoir; these are not independent witnesses. [Joseph’s unresolved 1820/1856 death conflict](/people/glasgow-653.html#research-findings) remains explicit; no death field or Campbell identity is altered.
+
+- [Josiah V. Thompson, Family Record, vol. 18, pp. 259–260; Samuel Steele Glasgow interview, 1 October 1926; library transcription, PDF pp. 1619–1620](https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=1619).
+
+Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.

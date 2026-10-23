@@ -30339,5 +30339,98 @@
       "https://digital.cincinnatilibrary.org/iiif/2/p16998coll15:18002/full/full/0/default.jpg"
     ],
     "image_derived_pdf_sha256": "02f1dd14aadaa1bab9154c77af656fb88520cc134973afcd66ef71e432869ad5"
+  },
+  {
+    "record_id": "thompson-samuel-glasgow-interview-1926",
+    "record_type": "Recorded family interview",
+    "date": "1926-10-01",
+    "place": "Oxford, Butler County, Ohio, United States",
+    "association": "Named family relationships; identity and source limits assessed individually.",
+    "source_title": "Josiah V. Thompson, Family Record, vol. 18, pp. 259–260; Samuel Steele Glasgow interview, 1 October 1926; library transcription, PDF pp. 1619–1620",
+    "source_url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=1619",
+    "source_type": "Library transcription of a historical research interview",
+    "source_quality": "transcribed_family_testimony",
+    "source_status": "Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.",
+    "status": "Family statements recorded; complete profile identifications explicitly assessed.",
+    "reviewed": "2026-10-23",
+    "assessment": "Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.",
+    "profiles": {
+      "Glasgow-16": {
+        "role": "Finley; named father Robert and wife Rosanna Finley; Campbell wife and children identify the adult"
+      },
+      "Glasgow-8": {
+        "role": "Robert, husband of Rosanna Finley, explicitly identified as Finley’s father"
+      },
+      "Finley-134": {
+        "role": "Named wife of Robert; maternity explicitly supplied by the separate 1925 recollection"
+      },
+      "Glasgow-2043": {
+        "role": "Interviewee, identified by exact 4 June 1851 birth and named parents"
+      },
+      "Glasgow-875": {
+        "role": "Interviewee’s father William Barkley; half-brother of Finley’s Campbell wife"
+      },
+      "Glasgow-653": {
+        "role": "Compatible Joseph identity in the widow-remarriage account; death-field conflict remains unresolved"
+      }
+    },
+    "provenance": "research/ancestry-connections/thompson-family-review-2026-10-23.json"
+  },
+  {
+    "record_id": "thompson-caskey-glasgow-interview-1925",
+    "record_type": "Recorded family interview",
+    "date": "1925-10-24",
+    "place": "Cherry Fork, Adams County, Ohio, United States",
+    "association": "Named family relationships; identity and source limits assessed individually.",
+    "source_title": "Josiah V. Thompson, Family Record, vol. 15, p. 101; Robert Arthur Glasgow household interview, 24 October 1925; library transcription, PDF p. 659",
+    "source_url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=659",
+    "source_type": "Library transcription of a historical research interview",
+    "source_quality": "transcribed_family_testimony",
+    "source_status": "Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.",
+    "status": "Family statements recorded; complete profile identifications explicitly assessed.",
+    "reviewed": "2026-10-23",
+    "assessment": "Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.",
+    "profiles": {
+      "Glasgow-16": {
+        "role": "Finley, named son of Robert Glasgow and Rosanna Finley"
+      },
+      "Glasgow-17": {
+        "role": "Stuart, named son of that couple and brother of Finley; later Stewart identity inferred"
+      },
+      "Glasgow-8": {
+        "role": "Robert, husband of Rosanna Finley; the distinct older-generation inference is not adopted"
+      },
+      "Finley-134": {
+        "role": "Rosanna Finley, expressly recalled as mother of Finley and Stuart"
+      },
+      "Glasgow-2175": {
+        "role": "Different Iowa Robert in the preceding obituary account, with the 12 April 1820 date also found in Finley’s current field"
+      }
+    },
+    "provenance": "research/ancestry-connections/thompson-family-review-2026-10-23.json"
+  },
+  {
+    "record_id": "thompson-ora-glasgow-interview-1925",
+    "record_type": "Recorded family interview",
+    "date": "1925-11-03",
+    "place": "Adams County, Ohio, United States",
+    "association": "Named family relationships; identity and source limits assessed individually.",
+    "source_title": "Josiah V. Thompson, Family Record, vol. 15, pp. 310–313; Idelma Ora Glasgow interview, 3 November 1925; library transcription, PDF pp. 759–761",
+    "source_url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=760",
+    "source_type": "Library transcription of a historical research interview",
+    "source_quality": "transcribed_family_testimony",
+    "source_status": "Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.",
+    "status": "Family statements recorded; complete profile identifications explicitly assessed.",
+    "reviewed": "2026-10-23",
+    "assessment": "Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted.",
+    "profiles": {
+      "Glasgow-16": {
+        "role": "Finley, grandfather; Campbell first wife, named children and Weldon death identify his family"
+      },
+      "Glasgow-2554": {
+        "role": "Robert Washington, explicitly the informant’s father and son of Finley; wife Phebe Jane Finley"
+      }
+    },
+    "provenance": "research/ancestry-connections/thompson-family-review-2026-10-23.json"
   }
 ]

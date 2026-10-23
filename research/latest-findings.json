@@ -52661,6 +52661,112 @@
           ]
         }
       ]
+    },
+    {
+      "id": "thompson-finley-stuart-parentage-20261023",
+      "found_on": "2026-10-23",
+      "reviewed_on": "2026-10-23",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-16.html",
+      "finding": "Newly inspected 1925–1926 family interviews name Robert Glasgow and Rosanna Finley as parents of Finley and Stuart, and name Robert Washington as Finley’s son. The complete existing father pairs strengthen 65% → 93%, 79% → 90%, and 86% → 96%.",
+      "qualification": "Library-hosted modern transcription of dated research interviews, visually inspected as rendered PDF pages on 23 October 2026; not manuscript facsimiles or birth-register originals. The witnesses give retrospective family information and may share family tradition. Thompson’s inferred upper pedigree and Ora’s doubtful Anderson sibling placement are not adopted. No parent is newly attached; the live controls remain unmarked. The distinct Iowa Robert shares the exact birthday currently attached to Finley, so that date is not used as an identity anchor. Upper pedigree and widow chronology conflicts remain unresolved.",
+      "people": [
+        {
+          "id": "Glasgow-16",
+          "name": "Robert Finley Glasgow",
+          "url": "/people/glasgow-16.html",
+          "role": "Named family member or checked identity comparison"
+        },
+        {
+          "id": "Glasgow-17",
+          "name": "Stewart Steele Glasgow",
+          "url": "/people/glasgow-17.html",
+          "role": "Named family member or checked identity comparison"
+        },
+        {
+          "id": "Glasgow-2554",
+          "name": "Robert Washington Glasgow",
+          "url": "/people/glasgow-2554.html",
+          "role": "Named family member or checked identity comparison"
+        },
+        {
+          "id": "Glasgow-8",
+          "name": "Robert Barclay Glasgow",
+          "url": "/people/glasgow-8.html",
+          "role": "Named family member or checked identity comparison"
+        },
+        {
+          "id": "Finley-134",
+          "name": "Rosanna Finley",
+          "url": "/people/finley-134.html",
+          "role": "Named family member or checked identity comparison"
+        },
+        {
+          "id": "Glasgow-2043",
+          "name": "Samuel Steele Glasgow",
+          "url": "/people/glasgow-2043.html",
+          "role": "Named family member or checked identity comparison"
+        },
+        {
+          "id": "Glasgow-2175",
+          "name": "Robert Anderson Glasgow",
+          "url": "/people/glasgow-2175.html",
+          "role": "Named family member or checked identity comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Josiah V. Thompson, Family Record, vol. 18, pp. 259–260; Samuel Steele Glasgow interview, 1 October 1926; library transcription, PDF pp. 1619–1620",
+          "url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=1619"
+        },
+        {
+          "title": "Josiah V. Thompson, Family Record, vol. 15, p. 101; Robert Arthur Glasgow household interview, 24 October 1925; library transcription, PDF p. 659",
+          "url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=659"
+        },
+        {
+          "title": "Josiah V. Thompson, Family Record, vol. 15, pp. 310–313; Idelma Ora Glasgow interview, 3 November 1925; library transcription, PDF pp. 759–761",
+          "url": "https://uniontownlib.org/wp-content/uploads/2020/08/JV_Thompson_Journals_Vo13_thru19.pdf#page=760"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-16",
+          "relative": "Glasgow-8",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Named interview evidence strengthens the complete existing pair 65% → 93%; live father still unmarked.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022c-glasgow-16-father assessment_history",
+            "research/Glasgow-16/findings.md earlier 22 October review"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-17",
+          "relative": "Glasgow-8",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Named interview evidence strengthens the complete existing pair 79% → 90%; live father still unmarked.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022d-glasgow-17-father assessment_history",
+            "research/Glasgow-17/findings.md earlier 22 October review"
+          ]
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2554",
+          "relative": "Glasgow-16",
+          "before": "probable",
+          "after": "certain",
+          "explanation": "Named interview evidence strengthens the complete existing pair 86% → 96%; live father still unmarked.",
+          "previous_status_provenance": [
+            "research/relationship_assessments.json#C-coverage-20261022i-glasgow-2554-father assessment_history",
+            "research/Glasgow-2554/findings.md earlier 22 October review"
+          ]
+        }
+      ]
     }
   ]
 }

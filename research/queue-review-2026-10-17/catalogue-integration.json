@@ -12630,23 +12630,37 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-16/father-confidence-2026-10-22c.wiki",
       "findings_path": "research/Glasgow-16/findings.md",
-      "summary": "Review existing father at 65% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 65% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark existing father Glasgow-8 confident (93%) from named Thompson interview evidence; local 65% → 93%. No new father or live edit.",
+      "work_queue_summary": "Mark existing father Glasgow-8 confident (93%) from named Thompson interview evidence; local 65% → 93%. No new father or live edit.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-8",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 65,
+          "probability_percent": 93,
           "assertion_id": "C-coverage-20261022c-glasgow-16-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable 65%; specific existing family assignment, without a retained independent parent clause."
+          "previous_status_provenance": "Anonymous live API 2026-10-23: same father attached, saved certainty unmarked. The local 65% assessment is preserved separately in assertion history; no live save.",
+          "scope": "93% is a subjective confident assessment of the complete father–adult-profile identification, based on retrospective named testimony and family matching, not a contemporary birth record. Separate witnesses in one researcher’s transcript can share family tradition. The reported near-Peoria death is imprecise beside Weldon; the latter is retained. The exact 12 April 1820 birthday is NOT an identity anchor: the same source assigns it to the distinct Iowa Robert Glasgow-2175. All dates and other ancestry remain unchanged.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 65
+        },
+        {
+          "action": "regrade",
+          "relationship": "mother",
+          "relative_id": "Finley-134",
+          "status": "strongly_supported",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 93,
+          "assertion_id": "C-review-20261023-glasgow-16-mother",
+          "previous_status_provenance": "Anonymous live parent control checked 2026-10-23; existing mother Finley-134 unchanged, unmarked.",
+          "scope": "Retrospective named maternity, not a birth-register entry. This is a first individual maternal assessment, not a measured percentage increase. The shared identity argument means the parent percentages are not independent probabilities."
         }
       ],
       "preserve_captured_detail": false,
@@ -12654,7 +12668,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "significance": 90
     },
     "Glasgow-1684": {
       "profile_id": "Glasgow-1684",
@@ -13847,23 +13862,37 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-17/father-confidence-2026-10-22d.wiki",
       "findings_path": "research/Glasgow-17/findings.md",
-      "summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark existing father Glasgow-8 confident (90%) from named Thompson interview evidence; local 79% → 90%. No new father or live edit.",
+      "work_queue_summary": "Mark existing father Glasgow-8 confident (90%) from named Thompson interview evidence; local 79% → 90%. No new father or live edit.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-8",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 79,
+          "probability_percent": 90,
           "assertion_id": "C-coverage-20261022d-glasgow-17-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable specific family placement; a transcribed contemporary parent record is not held in this capture."
+          "previous_status_provenance": "Anonymous live API 2026-10-23: same father attached, saved certainty unmarked. The local 79% assessment is preserved separately in assertion history; no live save.",
+          "scope": "90% is a subjective confident assessment for the complete Stewart-profile/father pair. Stuart is the literal source form. The recollection supplies neither his age nor wife; identification with the later Stewart remains inferred and is less fully anchored than Finley’s. The informant reports her mother’s recollection. Thompson’s ensuing inferred upper pedigree, including a Robert said to die about 1806, is not adopted. No other alleged sibling or older ancestor gains confidence from this review.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 79
+        },
+        {
+          "action": "regrade",
+          "relationship": "mother",
+          "relative_id": "Finley-134",
+          "status": "strongly_supported",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 90,
+          "assertion_id": "C-review-20261023-glasgow-17-mother",
+          "previous_status_provenance": "Anonymous live parent control checked 2026-10-23; existing mother Finley-134 unchanged, unmarked.",
+          "scope": "Retrospective named maternity, not a birth-register entry. This is a first individual maternal assessment, not a measured percentage increase. The shared identity argument means the parent percentages are not independent probabilities."
         }
       ],
       "preserve_captured_detail": false,
@@ -13871,7 +13900,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json",
+      "significance": 90
     },
     "Glasgow-2070": {
       "profile_id": "Glasgow-2070",
@@ -37614,23 +37644,25 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-23",
       "draft_path": "research/Glasgow-2554/father-confidence-2026-10-22i.wiki",
       "findings_path": "research/Glasgow-2554/findings.md",
-      "summary": "Review existing father at 86% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 86% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Mark existing father Glasgow-16 confident (96%) from named Thompson interview evidence; local 86% → 96%. No new father or live edit.",
+      "work_queue_summary": "Mark existing father Glasgow-16 confident (96%) from named Thompson interview evidence; local 86% → 96%. No new father or live edit.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-16",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 86,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022i-glasgow-2554-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+          "previous_status_provenance": "Anonymous live API 2026-10-23: same father attached, saved certainty unmarked. The local 86% assessment is preserved separately in assertion history; no live save.",
+          "scope": "96% is a subjective confident whole-pair identification from a son’s retrospective family account and a separate relative’s testimony, available in a library transcription. These are not inspected birth/death certificates and may share family knowledge. Ora’s doubtful statement making Anderson a sibling of Finley is not imported; it does not erase his specific identification of his own father and grandfather. Maternity, dates and all other children retain their assessments.",
+          "previous_local_status": "probable",
+          "previous_local_probability_percent": 86
         }
       ],
       "preserve_captured_detail": false,
@@ -37638,7 +37670,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json",
+      "significance": 90
     },
     "Glasgow-4023": {
       "profile_id": "Glasgow-4023",
