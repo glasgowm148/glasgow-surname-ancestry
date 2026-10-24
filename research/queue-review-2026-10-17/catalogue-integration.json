@@ -4080,9 +4080,9 @@
       "addition_wikitext": ""
     },
     "Glasgow-3000": {
-      "draft_path": "research/Glasgow-3000/queue-review-2026-10-17.wiki",
-      "summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3000 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 spouse of George Sherbrooke Airey (no profile yet) → add confident Add sourced facts: Married Lt George Sherbrooke Airey RN at Paisley on 25 Aug 1847; described as second daughter of the late Robert Glasgow Esq.\n\nAdd the cited record account: Paisley double marriage, 1847. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3000 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 spouse of George Sherbrooke Airey (no profile yet) → add confident Add sourced facts: Married Lt George Sherbrooke Airey RN at Paisley on 25 Aug 1847; described as second daughter of the late Robert Glasgow Esq.\n\nAdd the cited record account: Paisley double marriage, 1847. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-3000/father-review-2026-10-24.wiki",
+      "summary": "Review existing father Robert (Robertson) Glasgow: 96% confident. Prior confident recommendation retained; first exact percentage, not a new discovery. Add source and identity limits.",
+      "work_queue_summary": "Review existing father Robert (Robertson) Glasgow: 96% confident. Prior confident recommendation retained; first exact percentage, not a new discovery. Add source and identity limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -4091,12 +4091,33 @@
         "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3000 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 spouse of George Sherbrooke Airey (no profile yet) → add confident Add sourced facts: Married Lt George Sherbrooke Airey RN at Paisley on 25 Aug 1847; described as second daughter of the late Robert Glasgow Esq."
+      "prior_work_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3000 daughter of Robertson-30564 → upgrade to confident; Glasgow-3000 spouse of George Sherbrooke Airey (no profile yet) → add confident Add sourced facts: Married Lt George Sherbrooke Airey RN at Paisley on 25 Aug 1847; described as second daughter of the late Robert Glasgow Esq.",
+      "biography_rechecked_at": "2026-10-24",
+      "preservation_review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Robertson-30564",
+          "status": "confident",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 96,
+          "assertion_id": "C-064e0df7d288",
+          "previous_status_provenance": "Saved WikiTree certainty field unmarked; distinct from earlier qualitative research conclusion. No live edit.",
+          "scope": "Anne’s notice gives no age or birth date. Her inherited 1805 France birth fields remain unverified. The 6 October research already recommended a confident father: 96% is its first numerical expression, not a new confidence gain. The notice names no mother; this review makes no maternal assessment. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made."
+        }
+      ]
     },
     "Glasgow-3003": {
-      "draft_path": "research/Glasgow-3003/queue-review-2026-10-17.wiki",
-      "summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Glasgow-2874 → upgrade to confident Add sourced facts: Birth at Rome on 22 Nov 1827 announced as a daughter of 'Mrs Robertson Glasgow, of Montgreenan'.\n\nAdd the cited record account: Paisley double marriage, 1847. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Glasgow-2874 → upgrade to confident Add sourced facts: Birth at Rome on 22 Nov 1827 announced as a daughter of 'Mrs Robertson Glasgow, of Montgreenan'.\n\nAdd the cited record account: Paisley double marriage, 1847. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-3003/father-review-2026-10-24.wiki",
+      "summary": "Review existing father Robert (Robertson) Glasgow: 98% confident. Prior confident recommendation retained; first exact percentage, not a new discovery. Add source and identity limits.",
+      "work_queue_summary": "Review existing father Robert (Robertson) Glasgow: 98% confident. Prior confident recommendation retained; first exact percentage, not a new discovery. Add source and identity limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -4105,7 +4126,28 @@
         "subject-newspapers-irish-1800-1850-montgreenan-double-marriage-1847"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Glasgow-2874 → upgrade to confident Add sourced facts: Birth at Rome on 22 Nov 1827 announced as a daughter of 'Mrs Robertson Glasgow, of Montgreenan'."
+      "prior_work_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-3003 daughter of Glasgow-2874 → upgrade to confident Add sourced facts: Birth at Rome on 22 Nov 1827 announced as a daughter of 'Mrs Robertson Glasgow, of Montgreenan'.",
+      "biography_rechecked_at": "2026-10-24",
+      "preservation_review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Robertson-30564",
+          "status": "confident",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 98,
+          "assertion_id": "C-8cd066e1e1c2",
+          "previous_status_provenance": "Saved WikiTree certainty field unmarked; distinct from earlier qualitative research conclusion. No live edit.",
+          "scope": "The Rome notice leaves the daughter unnamed and paternity implicit. The cited Edinburgh baptism and gravestone have not been newly inspected. The 6 October research already recommended a confident father: 98% adds exact coverage, not a new confidence gain. Mother and vital fields are not reassessed. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made."
+        }
+      ]
     },
     "Glasgow-3014": {
       "significance": 58,
@@ -6118,9 +6160,9 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
     },
     "Glasgow-4123": {
-      "draft_path": "research/Glasgow-4123/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record accounts: Agnes Glasgow; Agnes Glasgow; Agnes Glasgow; and 1 other record accounts. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record accounts: Agnes Glasgow; Agnes Glasgow; Agnes Glasgow; and 1 other record accounts. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-4123/father-review-2026-10-24.wiki",
+      "summary": "Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits.",
+      "work_queue_summary": "Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -6133,7 +6175,28 @@
         "subject-opr-agnes-marriages-agnes-glasgow"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "biography_rechecked_at": "2026-10-24",
+      "preservation_review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-4175",
+          "status": "confident",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 95,
+          "assertion_id": "C-850523b509f1",
+          "previous_status_provenance": "Saved WikiTree certainty field unmarked; distinct from earlier qualitative research conclusion. No live edit.",
+          "scope": "The transcript is derivative and the original parish image is uninspected. The father biography repeats that source and is not independent corroboration. No mother, earlier generation or later-life identity is proved. This first individual percentage reviews existing documented parentage; it is not a new attachment or confidence discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made."
+        }
+      ]
     },
     "Glasgow-4124": {
       "draft_path": "research/Glasgow-4124/queue-review-2026-10-17.wiki",
@@ -41285,6 +41348,99 @@
       "preserve_captured_detail": false,
       "work_queue_summary": " Add24October derivative-record review with explicit event roles and identity limits.",
       "biography_rechecked_at": "2026-10-24"
+    },
+    "Glasgow-3021": {
+      "draft_path": "research/Glasgow-3021/father-review-2026-10-24.wiki",
+      "findings_path": "research/Glasgow-3021/findings.md",
+      "summary": "Review existing father Robert (Robertson) Glasgow: 45% possible. First individual rating; no newly attached father. Add source and identity limits.",
+      "work_queue_summary": "Review existing father Robert (Robertson) Glasgow: 45% possible. First individual rating; no newly attached father. Add source and identity limits.",
+      "biography_rechecked_at": "2026-10-24",
+      "preservation_review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "status": "OPEN",
+      "pending": true,
+      "private_comparison": false,
+      "queued_at": "2026-10-24",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Robertson-30564",
+          "status": "possible",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 45,
+          "assertion_id": "C-1c3aef1700d1",
+          "previous_status_provenance": "Saved WikiTree certainty field unmarked; distinct from earlier qualitative research conclusion. No live edit.",
+          "scope": "Only a copied household paragraph was read; no census image or exact archival reference is supplied. Robert’s compiled four-child list omits Mary, which is not an exclusion. The inherited 1804 France fields conflict with age 19 if both are literal; neither is verified. No original census or new family record was inspected, and this first rating is coverage rather than a newly discovered connection. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made."
+        }
+      ]
+    },
+    "Glasgow-3022": {
+      "draft_path": "research/Glasgow-3022/father-review-2026-10-24.wiki",
+      "findings_path": "research/Glasgow-3022/findings.md",
+      "summary": "Review existing father Robert (Robertson) Glasgow: 78% probable. First individual rating; no newly attached father. Add source and identity limits.",
+      "work_queue_summary": "Review existing father Robert (Robertson) Glasgow: 78% probable. First individual rating; no newly attached father. Add source and identity limits.",
+      "biography_rechecked_at": "2026-10-24",
+      "preservation_review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "status": "OPEN",
+      "pending": true,
+      "private_comparison": false,
+      "queued_at": "2026-10-24",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Robertson-30564",
+          "status": "probable",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 78,
+          "assertion_id": "C-5dc8ca93d3bc",
+          "previous_status_provenance": "Saved WikiTree certainty field unmarked; distinct from earlier qualitative research conclusion. No live edit.",
+          "scope": "The compiled family account and copied household are not independent original proof. The original census and a full-name record have not been inspected. The inherited 1804 France birth fields conflict with age 20 if literal; neither is verified. This is the first numerical rating of a retained unmarked father, not a new attachment or discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made."
+        }
+      ]
+    },
+    "Glasgow-4132": {
+      "draft_path": "research/Glasgow-4132/father-review-2026-10-24.wiki",
+      "findings_path": "research/Glasgow-4132/findings.md",
+      "summary": "Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits.",
+      "work_queue_summary": "Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits.",
+      "biography_rechecked_at": "2026-10-24",
+      "preservation_review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "status": "OPEN",
+      "pending": true,
+      "private_comparison": false,
+      "queued_at": "2026-10-24",
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "relative_id": "Glasgow-4177",
+          "status": "confident",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 95,
+          "assertion_id": "C-69fba0e7f5e0",
+          "previous_status_provenance": "Saved WikiTree certainty field unmarked; distinct from earlier qualitative research conclusion. No live edit.",
+          "scope": "The transcript leaves baptism year/date blank and gives no mother; an exact baptism date is not established. The original parish image is uninspected. The father biography repeats the same source rather than corroborating it independently. No vital field is changed. This first individual rating is coverage of documented parentage, not a newly discovered relationship. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made."
+        }
+      ]
     }
   },
   "reviewed_on": "2026-10-22",

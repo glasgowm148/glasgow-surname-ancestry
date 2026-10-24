@@ -4265,3 +4265,14 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3593) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
 | [Anne (Ford) Glasgow](https://www.wikitree.com/wiki/Ford-28175) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3592) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
+
+### Retained father coverage outside the surname graph — 24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Anne Glasgow](https://www.wikitree.com/wiki/Glasgow-3000) | OPEN | Review existing father Robert (Robertson) Glasgow: 96% confident. Prior confident recommendation retained; first exact percentage, not a new discovery. Add source and identity limits. |
+| [Charlotte Marie Cecilia (Glasgow) Drake](https://www.wikitree.com/wiki/Glasgow-3003) | OPEN | Review existing father Robert (Robertson) Glasgow: 98% confident. Prior confident recommendation retained; first exact percentage, not a new discovery. Add source and identity limits. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3021) | OPEN | Review existing father Robert (Robertson) Glasgow: 45% possible. First individual rating; no newly attached father. Add source and identity limits. |
+| [Jane Glasgow](https://www.wikitree.com/wiki/Glasgow-3022) | OPEN | Review existing father Robert (Robertson) Glasgow: 78% probable. First individual rating; no newly attached father. Add source and identity limits. |
+| [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4123) | OPEN | Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4132) | OPEN | Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits. |

@@ -4,7 +4,7 @@ Last updated: 2026-10-03
 
 ## Current conclusion
 
-The newspaper birth notice independently supports the recorded **22 November 1827, Rome** birth. It names the mother only as Mrs Robertson Glasgow of Montgreenan and does not give the daughter’s forename. The exact date, place and family designation make Charlotte’s existing profile a strong compatible identification; the notice alone cannot supply all her later names or her father’s forename.
+Reviewed 24 October 2026. The father relationship from Charlotte Marie Cecilia Glasgow-3003 to Robert Robertson, later Glasgow (Robertson-30564), is assessed 98% confident. The 1847 Paisley notice names Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow, Esq., of Montgreenan, Ayr. Her distinctive name and recorded Drake marriage match the profile; the 1827 Rome birth notice independently supports the exact date and place while leaving the daughter unnamed and the father implicit. Robertson-30564’s 1828 inheritance and surname change, Montgreenan designation, and 1845 death identify the named father. The prior qualitative confident recommendation dates to 6 October; this exact rating records no new discovery. The mother link and other vital fields are not reassessed.
 
 ## Source findings
 
@@ -33,7 +33,7 @@ The [Aberdeen Journal, 19 December 1827, p. 4](https://www.newspapers.com/image/
 Find a named marriage, baptism, household or succession record that discriminates between the compatible Robert identities and links the newspaper’s Charlotte to this profile.
 
 <!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
-## Current conclusion — newspaper identity review, 6 October 2026
+## Dated identity assessment — newspaper review, 6 October 2026
 
 - [Freeman’s Journal and Daily Commercial Advertiser, 1847-09-02, p.4](https://www.newspapers.com/image/401331272/): Charlotte Maria Cecilia (bride (youngest daughter)) — **strong** match. Distinctive forenames, the Drake married name, an existing spouse link to Rev George Drake, and a WikiTree father of Robertson-30564.
 
@@ -48,7 +48,7 @@ Find a named marriage, baptism, household or succession record that discriminate
 - Married Rev George Drake at Paisley on 25 Aug 1847. — Freeman's Journal 2 Sep 1847, image 401331272 ([Freeman’s Journal and Daily Commercial Advertiser, 1847-09-02, p.4](https://www.newspapers.com/image/401331272/))
 
 <!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
-## Current conclusion — newspaper identity review, 6 October 2026
+## Dated identity assessment — newspaper review, 6 October 2026
 
 - [Aberdeen Journal, and General Advertiser for the North of Scotland, 1827-12-19, p.4](https://www.newspapers.com/image/393027340/): (unnamed) daughter born at Rome 22 Nov 1827 (child) — **strong** match. Exact date and place: Glasgow-3003 Charlotte Marie Cecilia Glasgow, born 22 Nov 1827 at Rome, daughter of Robert Robertson (Glasgow) and Anne Glasgow. No other child of the family was born at Rome on that day.
 
@@ -74,3 +74,11 @@ The combination of the Montgreenan designation, Robert Robertson’s later Glasg
 
 Compatible family profiles are [Robert Robertson, later Glasgow](https://www.wikitree.com/wiki/Robertson-30564), [Anne Glasgow](https://www.wikitree.com/wiki/Glasgow-3000), [Charlotte Marie Cecilia Glasgow](https://www.wikitree.com/wiki/Glasgow-3003) and [Rev George Drake](https://www.wikitree.com/wiki/Drake-13873).
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Father assessment — 24 October 2026
+
+Recommendation: **98% confident** that [Charlotte Marie Cecilia Glasgow-3003](/people/glasgow-3003.html) was a daughter of [Robert Robertson, later Glasgow](/people/robertson-30564.html). The current WikiTree father link is unmarked (claim `C-8cd066e1e1c2`; no evidence IDs). The original [Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p. 4](https://www.newspapers.com/image/401331272/) names Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow, Esq., of Montgreenan, Ayr, and reports her marriage to Rev George Drake at Paisley. The name, recorded Drake marriage, locality, and father’s Montgreenan designation fit the existing profile. Robert Robertson’s captured biography records that he inherited the estate and adopted the Glasgow surname under the 1828 will; it records his 1845 death, before the 1847 notice.
+
+The [Aberdeen Journal, 19 December 1827, p. 4](https://www.newspapers.com/image/393027340/) reports a daughter born at Rome on 22 November to “Mrs Robertson Glasgow, of Montgreenan.” That exact date and place fit Charlotte’s profile, but the notice leaves the daughter unnamed and does not name the father. The 1847 notice and 1827 notice were already visually inspected on 5 October; the earlier findings already recommended a confident father relationship. This exact rating records no new discovery. The existing profile’s mother link to [Anne Glasgow-2874](/people/glasgow-2874.html), spouse link to [Rev George Drake](/people/drake-13873.html), and other vital fields are not reassessed here.
+
+Source pointers: `research/source-library/newspaper-clippings.json#/assets/400` (`image_id` 401331272) and `#/assets/95` (`image_id` 393027340), both visually checked originals; `data/wikitree/profile-evidence.json#/profiles/Robertson-30564/sources/0–2` records T71/892, T71/1266, and the 14 October 1828 will (SC 6/44/4/1). The father profile cites Charlotte’s Edinburgh baptism reference, GROS OPR Births 685/1 560 78, dated 20 July 1828; that is retained as a distinct source, not treated here as independently inspected. Existing amendment draft: `research/queue-review-2026-10-17/amendments/later-newspapers/Glasgow-3003.wiki`. Next discriminator: a named original baptism or family record tying Charlotte’s full name to her parents.

@@ -109112,5 +109112,476 @@
         "Glasgow-559"
       ]
     }
+  },
+  {
+    "assertion_id": "C-064e0df7d288",
+    "people": [
+      "Glasgow-3000",
+      "Robertson-30564"
+    ],
+    "profile_names": {
+      "Glasgow-3000": "Anne Glasgow",
+      "Robertson-30564": "Robert (Robertson) Glasgow"
+    },
+    "status": "strongly_supported",
+    "hypothesis_status": "strongly_supported",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-24",
+    "basis": "The inspected 1847 joint Paisley marriage notice explicitly calls Anne the second daughter of the late Robert Glasgow and Charlotte Maria Cecilia his youngest daughter, of Montgreenan. The shared family context, Robertson’s later Glasgow surname, Montgreenan succession and death in 1845 identify the father. Anne’s place in this family supports the retained profile match.",
+    "reason": "The inspected 1847 joint Paisley marriage notice explicitly calls Anne the second daughter of the late Robert Glasgow and Charlotte Maria Cecilia his youngest daughter, of Montgreenan. The shared family context, Robertson’s later Glasgow surname, Montgreenan succession and death in 1845 identify the father. Anne’s place in this family supports the retained profile match.",
+    "claim": "Existing father Robertson-30564 for Glasgow-3000: first individual rating 96%; strongly_supported.",
+    "record_scope": "Anne’s notice gives no age or birth date. Her inherited 1805 France birth fields remain unverified. The 6 October research already recommended a confident father: 96% is its first numerical expression, not a new confidence gain. The notice names no mother; this review makes no maternal assessment. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "limitations": "Anne’s notice gives no age or birth date. Her inherited 1805 France birth fields remain unverified. The 6 October research already recommended a confident father: 96% is its first numerical expression, not a new confidence gain. The notice names no mother; this review makes no maternal assessment. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "source_ids": [
+      "montgreenan-paisley-marriages-1847",
+      "montgreenan-robertson-family-account"
+    ],
+    "probability": {
+      "value": 0.96,
+      "basis": "The inspected 1847 joint Paisley marriage notice explicitly calls Anne the second daughter of the late Robert Glasgow and Charlotte Maria Cecilia his youngest daughter, of Montgreenan. The shared family context, Robertson’s later Glasgow surname, Montgreenan succession and death in 1845 identify the father. Anne’s place in this family supports the retained profile match.",
+      "reviewed": "2026-10-24",
+      "scope": "Anne’s notice gives no age or birth date. Her inherited 1805 France birth fields remain unverified. The 6 October research already recommended a confident father: 96% is its first numerical expression, not a new confidence gain. The notice names no mother; this review makes no maternal assessment. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+      "source_ids": [
+        "montgreenan-paisley-marriages-1847",
+        "montgreenan-robertson-family-account"
+      ]
+    },
+    "perspectives": {
+      "Glasgow-3000": {
+        "relationship": "father",
+        "reason": "The inspected 1847 joint Paisley marriage notice explicitly calls Anne the second daughter of the late Robert Glasgow and Charlotte Maria Cecilia his youngest daughter, of Montgreenan. The shared family context, Robertson’s later Glasgow surname, Montgreenan succession and death in 1845 identify the father. Anne’s place in this family supports the retained profile match."
+      },
+      "Robertson-30564": {
+        "relationship": "daughter",
+        "reason": "The inspected 1847 joint Paisley marriage notice explicitly calls Anne the second daughter of the late Robert Glasgow and Charlotte Maria Cecilia his youngest daughter, of Montgreenan. The shared family context, Robertson’s later Glasgow surname, Montgreenan succession and death in 1845 identify the father. Anne’s place in this family supports the retained profile match."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed father identity and source limits",
+        "href": "/people/glasgow-3000.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "confident",
+        "assessment_status": "confident",
+        "assessment_date": "2026-10-06",
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Confident father recommendation in dated6October findings; unmarked saved WikiTree field kept separately.",
+        "source_ids": [
+          "montgreenan-paisley-marriages-1847",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-064e0df7d288"
+      },
+      "initial_individual_rating": true,
+      "new_father_attachment": false,
+      "live_flag_changed": false,
+      "review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "source_basis_previously_held": true
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled held child records, current complete drafts and checked father account; no new independent record discovered.",
+      "next_test": "A marriage entry or later named-family record uniquely linking Anne to George Sherbrooke Airey and this profile.",
+      "resume_when": "The specified original or distinguishing named-family record becomes available."
+    }
+  },
+  {
+    "assertion_id": "C-8cd066e1e1c2",
+    "people": [
+      "Glasgow-3003",
+      "Robertson-30564"
+    ],
+    "profile_names": {
+      "Glasgow-3003": "Charlotte Marie Cecilia (Glasgow) Drake",
+      "Robertson-30564": "Robert (Robertson) Glasgow"
+    },
+    "status": "strongly_supported",
+    "hypothesis_status": "strongly_supported",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-24",
+    "basis": "The inspected 1847 notice identifies Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow of Montgreenan and bride of Rev George Drake. Her distinctive name, existing Drake connection and Montgreenan family context identify the retained profile and father. The 1827 Rome notice separately matches the recorded birth date, place and maternal designation.",
+    "reason": "The inspected 1847 notice identifies Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow of Montgreenan and bride of Rev George Drake. Her distinctive name, existing Drake connection and Montgreenan family context identify the retained profile and father. The 1827 Rome notice separately matches the recorded birth date, place and maternal designation.",
+    "claim": "Existing father Robertson-30564 for Glasgow-3003: first individual rating 98%; strongly_supported.",
+    "record_scope": "The Rome notice leaves the daughter unnamed and paternity implicit. The cited Edinburgh baptism and gravestone have not been newly inspected. The 6 October research already recommended a confident father: 98% adds exact coverage, not a new confidence gain. Mother and vital fields are not reassessed. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "limitations": "The Rome notice leaves the daughter unnamed and paternity implicit. The cited Edinburgh baptism and gravestone have not been newly inspected. The 6 October research already recommended a confident father: 98% adds exact coverage, not a new confidence gain. Mother and vital fields are not reassessed. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "source_ids": [
+      "montgreenan-paisley-marriages-1847",
+      "montgreenan-rome-daughter-birth-1827",
+      "montgreenan-robertson-family-account"
+    ],
+    "probability": {
+      "value": 0.98,
+      "basis": "The inspected 1847 notice identifies Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow of Montgreenan and bride of Rev George Drake. Her distinctive name, existing Drake connection and Montgreenan family context identify the retained profile and father. The 1827 Rome notice separately matches the recorded birth date, place and maternal designation.",
+      "reviewed": "2026-10-24",
+      "scope": "The Rome notice leaves the daughter unnamed and paternity implicit. The cited Edinburgh baptism and gravestone have not been newly inspected. The 6 October research already recommended a confident father: 98% adds exact coverage, not a new confidence gain. Mother and vital fields are not reassessed. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+      "source_ids": [
+        "montgreenan-paisley-marriages-1847",
+        "montgreenan-rome-daughter-birth-1827",
+        "montgreenan-robertson-family-account"
+      ]
+    },
+    "perspectives": {
+      "Glasgow-3003": {
+        "relationship": "father",
+        "reason": "The inspected 1847 notice identifies Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow of Montgreenan and bride of Rev George Drake. Her distinctive name, existing Drake connection and Montgreenan family context identify the retained profile and father. The 1827 Rome notice separately matches the recorded birth date, place and maternal designation."
+      },
+      "Robertson-30564": {
+        "relationship": "daughter",
+        "reason": "The inspected 1847 notice identifies Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow of Montgreenan and bride of Rev George Drake. Her distinctive name, existing Drake connection and Montgreenan family context identify the retained profile and father. The 1827 Rome notice separately matches the recorded birth date, place and maternal designation."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed father identity and source limits",
+        "href": "/people/glasgow-3003.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "confident",
+        "assessment_status": "confident",
+        "assessment_date": "2026-10-06",
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Confident father recommendation in dated6October findings; unmarked saved WikiTree field kept separately.",
+        "source_ids": [
+          "montgreenan-paisley-marriages-1847",
+          "montgreenan-rome-daughter-birth-1827",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-8cd066e1e1c2"
+      },
+      "initial_individual_rating": true,
+      "new_father_attachment": false,
+      "live_flag_changed": false,
+      "review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "source_basis_previously_held": true
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled held child records, current complete drafts and checked father account; no new independent record discovered.",
+      "next_test": "Inspect the cited Edinburgh baptism, GROS OPR Births 685/1 560 p.78, and retain the distinction between the named 1847 daughter and unnamed 1827 infant.",
+      "resume_when": "The specified original or distinguishing named-family record becomes available."
+    }
+  },
+  {
+    "assertion_id": "C-1c3aef1700d1",
+    "people": [
+      "Glasgow-3021",
+      "Robertson-30564"
+    ],
+    "profile_names": {
+      "Glasgow-3021": "Mary Glasgow",
+      "Robertson-30564": "Robert (Robertson) Glasgow"
+    },
+    "status": "possible",
+    "hypothesis_status": "possible",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-24",
+    "basis": "The copied 1841 Holly Walk household account places Mary Glasgow, aged 19, with Robert Glasgow and other members of the Robertson/Glasgow family. Shared surname, household and generation positively support the retained father candidate, but no daughter relationship is stated. This supports a possible family inference, not a demonstrated parentage.",
+    "reason": "The copied 1841 Holly Walk household account places Mary Glasgow, aged 19, with Robert Glasgow and other members of the Robertson/Glasgow family. Shared surname, household and generation positively support the retained father candidate, but no daughter relationship is stated. This supports a possible family inference, not a demonstrated parentage.",
+    "claim": "Existing father Robertson-30564 for Glasgow-3021: first individual rating 45%; possible.",
+    "record_scope": "Only a copied household paragraph was read; no census image or exact archival reference is supplied. Robert’s compiled four-child list omits Mary, which is not an exclusion. The inherited 1804 France fields conflict with age 19 if both are literal; neither is verified. No original census or new family record was inspected, and this first rating is coverage rather than a newly discovered connection. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "limitations": "Only a copied household paragraph was read; no census image or exact archival reference is supplied. Robert’s compiled four-child list omits Mary, which is not an exclusion. The inherited 1804 France fields conflict with age 19 if both are literal; neither is verified. No original census or new family record was inspected, and this first rating is coverage rather than a newly discovered connection. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "source_ids": [
+      "montgreenan-held-household-1841",
+      "montgreenan-robertson-family-account"
+    ],
+    "probability": {
+      "value": 0.45,
+      "basis": "The copied 1841 Holly Walk household account places Mary Glasgow, aged 19, with Robert Glasgow and other members of the Robertson/Glasgow family. Shared surname, household and generation positively support the retained father candidate, but no daughter relationship is stated. This supports a possible family inference, not a demonstrated parentage.",
+      "reviewed": "2026-10-24",
+      "scope": "Only a copied household paragraph was read; no census image or exact archival reference is supplied. Robert’s compiled four-child list omits Mary, which is not an exclusion. The inherited 1804 France fields conflict with age 19 if both are literal; neither is verified. No original census or new family record was inspected, and this first rating is coverage rather than a newly discovered connection. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+      "source_ids": [
+        "montgreenan-held-household-1841",
+        "montgreenan-robertson-family-account"
+      ]
+    },
+    "perspectives": {
+      "Glasgow-3021": {
+        "relationship": "father",
+        "reason": "The copied 1841 Holly Walk household account places Mary Glasgow, aged 19, with Robert Glasgow and other members of the Robertson/Glasgow family. Shared surname, household and generation positively support the retained father candidate, but no daughter relationship is stated. This supports a possible family inference, not a demonstrated parentage."
+      },
+      "Robertson-30564": {
+        "relationship": "daughter",
+        "reason": "The copied 1841 Holly Walk household account places Mary Glasgow, aged 19, with Robert Glasgow and other members of the Robertson/Glasgow family. Shared surname, household and generation positively support the retained father candidate, but no daughter relationship is stated. This supports a possible family inference, not a demonstrated parentage."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed father identity and source limits",
+        "href": "/people/glasgow-3021.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "montgreenan-held-household-1841",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-1c3aef1700d1"
+      },
+      "initial_individual_rating": true,
+      "new_father_attachment": false,
+      "live_flag_changed": false,
+      "review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "source_basis_previously_held": true
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled held child records, current complete drafts and checked father account; no new independent record discovered.",
+      "next_test": "Locate the 1841 Holly Walk, Leamington Priors original schedule and a baptism, marriage or estate account naming Mary’s relationship.",
+      "resume_when": "The specified original or distinguishing named-family record becomes available."
+    }
+  },
+  {
+    "assertion_id": "C-5dc8ca93d3bc",
+    "people": [
+      "Glasgow-3022",
+      "Robertson-30564"
+    ],
+    "profile_names": {
+      "Glasgow-3022": "Jane Glasgow",
+      "Robertson-30564": "Robert (Robertson) Glasgow"
+    },
+    "status": "probable",
+    "hypothesis_status": "probable",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-24",
+    "basis": "Robert’s captured compiled account names a daughter Philadelphia Jane; the copied 1841 household places Jane Robertson, aged 20, with Robert and the same family. The compatible name and specific family setting support identification of this profile with that daughter, while leaving the full identity provisional.",
+    "reason": "Robert’s captured compiled account names a daughter Philadelphia Jane; the copied 1841 household places Jane Robertson, aged 20, with Robert and the same family. The compatible name and specific family setting support identification of this profile with that daughter, while leaving the full identity provisional.",
+    "claim": "Existing father Robertson-30564 for Glasgow-3022: first individual rating 78%; probable.",
+    "record_scope": "The compiled family account and copied household are not independent original proof. The original census and a full-name record have not been inspected. The inherited 1804 France birth fields conflict with age 20 if literal; neither is verified. This is the first numerical rating of a retained unmarked father, not a new attachment or discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "limitations": "The compiled family account and copied household are not independent original proof. The original census and a full-name record have not been inspected. The inherited 1804 France birth fields conflict with age 20 if literal; neither is verified. This is the first numerical rating of a retained unmarked father, not a new attachment or discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "source_ids": [
+      "montgreenan-held-household-1841",
+      "montgreenan-robertson-family-account"
+    ],
+    "probability": {
+      "value": 0.78,
+      "basis": "Robert’s captured compiled account names a daughter Philadelphia Jane; the copied 1841 household places Jane Robertson, aged 20, with Robert and the same family. The compatible name and specific family setting support identification of this profile with that daughter, while leaving the full identity provisional.",
+      "reviewed": "2026-10-24",
+      "scope": "The compiled family account and copied household are not independent original proof. The original census and a full-name record have not been inspected. The inherited 1804 France birth fields conflict with age 20 if literal; neither is verified. This is the first numerical rating of a retained unmarked father, not a new attachment or discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+      "source_ids": [
+        "montgreenan-held-household-1841",
+        "montgreenan-robertson-family-account"
+      ]
+    },
+    "perspectives": {
+      "Glasgow-3022": {
+        "relationship": "father",
+        "reason": "Robert’s captured compiled account names a daughter Philadelphia Jane; the copied 1841 household places Jane Robertson, aged 20, with Robert and the same family. The compatible name and specific family setting support identification of this profile with that daughter, while leaving the full identity provisional."
+      },
+      "Robertson-30564": {
+        "relationship": "daughter",
+        "reason": "Robert’s captured compiled account names a daughter Philadelphia Jane; the copied 1841 household places Jane Robertson, aged 20, with Robert and the same family. The compatible name and specific family setting support identification of this profile with that daughter, while leaving the full identity provisional."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed father identity and source limits",
+        "href": "/people/glasgow-3022.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "montgreenan-held-household-1841",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-5dc8ca93d3bc"
+      },
+      "initial_individual_rating": true,
+      "new_father_attachment": false,
+      "live_flag_changed": false,
+      "review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "source_basis_previously_held": true
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled held child records, current complete drafts and checked father account; no new independent record discovered.",
+      "next_test": "Locate the original census and a record identifying Philadelphia Jane by full name, later surname or explicit father.",
+      "resume_when": "The specified original or distinguishing named-family record becomes available."
+    }
+  },
+  {
+    "assertion_id": "C-850523b509f1",
+    "people": [
+      "Glasgow-4123",
+      "Glasgow-4175"
+    ],
+    "profile_names": {
+      "Glasgow-4123": "Agnes Glasgow",
+      "Glasgow-4175": "James Glasgow"
+    },
+    "status": "strongly_supported",
+    "hypothesis_status": "strongly_supported",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-24",
+    "basis": "The held Findmypast transcript names James Glasgow as father of Agnes at Walston on 17 February 1712. The checked public James profile is explicitly defined by this same named child and entry, so this is the record-defined father account rather than an identification with an otherwise unrelated adult James.",
+    "reason": "The held Findmypast transcript names James Glasgow as father of Agnes at Walston on 17 February 1712. The checked public James profile is explicitly defined by this same named child and entry, so this is the record-defined father account rather than an identification with an otherwise unrelated adult James.",
+    "claim": "Existing father Glasgow-4175 for Glasgow-4123: first individual rating 95%; strongly_supported.",
+    "record_scope": "The transcript is derivative and the original parish image is uninspected. The father biography repeats that source and is not independent corroboration. No mother, earlier generation or later-life identity is proved. This first individual percentage reviews existing documented parentage; it is not a new attachment or confidence discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "limitations": "The transcript is derivative and the original parish image is uninspected. The father biography repeats that source and is not independent corroboration. No mother, earlier generation or later-life identity is proved. This first individual percentage reviews existing documented parentage; it is not a new attachment or confidence discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "source_ids": [
+      "walston-agnes-baptism-1712"
+    ],
+    "probability": {
+      "value": 0.95,
+      "basis": "The held Findmypast transcript names James Glasgow as father of Agnes at Walston on 17 February 1712. The checked public James profile is explicitly defined by this same named child and entry, so this is the record-defined father account rather than an identification with an otherwise unrelated adult James.",
+      "reviewed": "2026-10-24",
+      "scope": "The transcript is derivative and the original parish image is uninspected. The father biography repeats that source and is not independent corroboration. No mother, earlier generation or later-life identity is proved. This first individual percentage reviews existing documented parentage; it is not a new attachment or confidence discovery. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+      "source_ids": [
+        "walston-agnes-baptism-1712"
+      ]
+    },
+    "perspectives": {
+      "Glasgow-4123": {
+        "relationship": "father",
+        "reason": "The held Findmypast transcript names James Glasgow as father of Agnes at Walston on 17 February 1712. The checked public James profile is explicitly defined by this same named child and entry, so this is the record-defined father account rather than an identification with an otherwise unrelated adult James."
+      },
+      "Glasgow-4175": {
+        "relationship": "daughter",
+        "reason": "The held Findmypast transcript names James Glasgow as father of Agnes at Walston on 17 February 1712. The checked public James profile is explicitly defined by this same named child and entry, so this is the record-defined father account rather than an identification with an otherwise unrelated adult James."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed father identity and source limits",
+        "href": "/people/glasgow-4123.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "walston-agnes-baptism-1712"
+        ],
+        "claim_id": "C-850523b509f1"
+      },
+      "initial_individual_rating": true,
+      "new_father_attachment": false,
+      "live_flag_changed": false,
+      "review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "source_basis_previously_held": true
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled held child records, current complete drafts and checked father account; no new independent record discovered.",
+      "next_test": "Inspect Walston OPR 658/1 p.13 item5 for the complete father designation, mother or residence.",
+      "resume_when": "The specified original or distinguishing named-family record becomes available."
+    }
+  },
+  {
+    "assertion_id": "C-69fba0e7f5e0",
+    "people": [
+      "Glasgow-4132",
+      "Glasgow-4177"
+    ],
+    "profile_names": {
+      "Glasgow-4132": "John Glasgow",
+      "Glasgow-4177": "James Glasgow"
+    },
+    "status": "strongly_supported",
+    "hypothesis_status": "strongly_supported",
+    "publication_status": "approved",
+    "working_selection": false,
+    "allow_new_relationship": false,
+    "assessment_date": "2026-10-24",
+    "basis": "The held Findmypast Edrom entry with birth year 1738 explicitly names James Glasgow as John’s father. The checked public James profile is defined by this same child record; there is no competing independently defined adult identity being inferred from a name alone.",
+    "reason": "The held Findmypast Edrom entry with birth year 1738 explicitly names James Glasgow as John’s father. The checked public James profile is defined by this same child record; there is no competing independently defined adult identity being inferred from a name alone.",
+    "claim": "Existing father Glasgow-4177 for Glasgow-4132: first individual rating 95%; strongly_supported.",
+    "record_scope": "The transcript leaves baptism year/date blank and gives no mother; an exact baptism date is not established. The original parish image is uninspected. The father biography repeats the same source rather than corroborating it independently. No vital field is changed. This first individual rating is coverage of documented parentage, not a newly discovered relationship. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "limitations": "The transcript leaves baptism year/date blank and gives no mother; an exact baptism date is not established. The original parish image is uninspected. The father biography repeats the same source rather than corroborating it independently. No vital field is changed. This first individual rating is coverage of documented parentage, not a newly discovered relationship. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+    "source_ids": [
+      "edrom-john-indexed-entry-1738"
+    ],
+    "probability": {
+      "value": 0.95,
+      "basis": "The held Findmypast Edrom entry with birth year 1738 explicitly names James Glasgow as John’s father. The checked public James profile is defined by this same child record; there is no competing independently defined adult identity being inferred from a name alone.",
+      "reviewed": "2026-10-24",
+      "scope": "The transcript leaves baptism year/date blank and gives no mother; an exact baptism date is not established. The original parish image is uninspected. The father biography repeats the same source rather than corroborating it independently. No vital field is changed. This first individual rating is coverage of documented parentage, not a newly discovered relationship. The exact percentage is a subjective individual assessment, not a measured frequency. No live WikiTree edit or new attachment was made.",
+      "source_ids": [
+        "edrom-john-indexed-entry-1738"
+      ]
+    },
+    "perspectives": {
+      "Glasgow-4132": {
+        "relationship": "father",
+        "reason": "The held Findmypast Edrom entry with birth year 1738 explicitly names James Glasgow as John’s father. The checked public James profile is defined by this same child record; there is no competing independently defined adult identity being inferred from a name alone."
+      },
+      "Glasgow-4177": {
+        "relationship": "son",
+        "reason": "The held Findmypast Edrom entry with birth year 1738 explicitly names James Glasgow as John’s father. The checked public James profile is defined by this same child record; there is no competing independently defined adult identity being inferred from a name alone."
+      }
+    },
+    "analysis_links": [
+      {
+        "label": "Reviewed father identity and source limits",
+        "href": "/people/glasgow-4132.html#research-findings"
+      }
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "edrom-john-indexed-entry-1738"
+        ],
+        "claim_id": "C-69fba0e7f5e0"
+      },
+      "initial_individual_rating": true,
+      "new_father_attachment": false,
+      "live_flag_changed": false,
+      "review_path": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+      "source_basis_previously_held": true
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled held child records, current complete drafts and checked father account; no new independent record discovered.",
+      "next_test": "Inspect Edrom OPR 738/4 p.18 item5 to resolve the event date and full father designation.",
+      "resume_when": "The specified original or distinguishing named-family record becomes available."
+    }
   }
 ]

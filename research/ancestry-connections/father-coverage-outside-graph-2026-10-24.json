@@ -1,0 +1,383 @@
+{
+  "reviewed": "2026-10-24",
+  "scope": "All retained selected named fathers before1850, independently of surname-graph eligibility.",
+  "ratings": [
+    {
+      "child": "Glasgow-3000",
+      "father": "Robertson-30564",
+      "percent": 96,
+      "status": "strongly_supported",
+      "prior_status": "confident",
+      "prior_date": "2026-10-06",
+      "records": [
+        "montgreenan-paisley-marriages-1847",
+        "montgreenan-robertson-family-account"
+      ],
+      "basis": "The inspected 1847 joint Paisley marriage notice explicitly calls Anne the second daughter of the late Robert Glasgow and Charlotte Maria Cecilia his youngest daughter, of Montgreenan. The shared family context, Robertson’s later Glasgow surname, Montgreenan succession and death in 1845 identify the father. Anne’s place in this family supports the retained profile match.",
+      "limits": "Anne’s notice gives no age or birth date. Her inherited 1805 France birth fields remain unverified. The 6 October research already recommended a confident father: 96% is its first numerical expression, not a new confidence gain. The notice names no mother; this review makes no maternal assessment.",
+      "next_test": "A marriage entry or later named-family record uniquely linking Anne to George Sherbrooke Airey and this profile.",
+      "assertion_id": "C-064e0df7d288",
+      "prior_assessment": {
+        "status": "confident",
+        "assessment_status": "confident",
+        "assessment_date": "2026-10-06",
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Confident father recommendation in dated6October findings; unmarked saved WikiTree field kept separately.",
+        "source_ids": [
+          "montgreenan-paisley-marriages-1847",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-064e0df7d288"
+      },
+      "initial_rating_only": true,
+      "new_attachment": false
+    },
+    {
+      "child": "Glasgow-3003",
+      "father": "Robertson-30564",
+      "percent": 98,
+      "status": "strongly_supported",
+      "prior_status": "confident",
+      "prior_date": "2026-10-06",
+      "records": [
+        "montgreenan-paisley-marriages-1847",
+        "montgreenan-rome-daughter-birth-1827",
+        "montgreenan-robertson-family-account"
+      ],
+      "basis": "The inspected 1847 notice identifies Charlotte Maria Cecilia as the youngest daughter of the late Robert Glasgow of Montgreenan and bride of Rev George Drake. Her distinctive name, existing Drake connection and Montgreenan family context identify the retained profile and father. The 1827 Rome notice separately matches the recorded birth date, place and maternal designation.",
+      "limits": "The Rome notice leaves the daughter unnamed and paternity implicit. The cited Edinburgh baptism and gravestone have not been newly inspected. The 6 October research already recommended a confident father: 98% adds exact coverage, not a new confidence gain. Mother and vital fields are not reassessed.",
+      "next_test": "Inspect the cited Edinburgh baptism, GROS OPR Births 685/1 560 p.78, and retain the distinction between the named 1847 daughter and unnamed 1827 infant.",
+      "assertion_id": "C-8cd066e1e1c2",
+      "prior_assessment": {
+        "status": "confident",
+        "assessment_status": "confident",
+        "assessment_date": "2026-10-06",
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Confident father recommendation in dated6October findings; unmarked saved WikiTree field kept separately.",
+        "source_ids": [
+          "montgreenan-paisley-marriages-1847",
+          "montgreenan-rome-daughter-birth-1827",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-8cd066e1e1c2"
+      },
+      "initial_rating_only": true,
+      "new_attachment": false
+    },
+    {
+      "child": "Glasgow-3021",
+      "father": "Robertson-30564",
+      "percent": 45,
+      "status": "possible",
+      "prior_status": "unknown",
+      "prior_date": null,
+      "records": [
+        "montgreenan-held-household-1841",
+        "montgreenan-robertson-family-account"
+      ],
+      "basis": "The copied 1841 Holly Walk household account places Mary Glasgow, aged 19, with Robert Glasgow and other members of the Robertson/Glasgow family. Shared surname, household and generation positively support the retained father candidate, but no daughter relationship is stated. This supports a possible family inference, not a demonstrated parentage.",
+      "limits": "Only a copied household paragraph was read; no census image or exact archival reference is supplied. Robert’s compiled four-child list omits Mary, which is not an exclusion. The inherited 1804 France fields conflict with age 19 if both are literal; neither is verified. No original census or new family record was inspected, and this first rating is coverage rather than a newly discovered connection.",
+      "next_test": "Locate the 1841 Holly Walk, Leamington Priors original schedule and a baptism, marriage or estate account naming Mary’s relationship.",
+      "assertion_id": "C-1c3aef1700d1",
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "montgreenan-held-household-1841",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-1c3aef1700d1"
+      },
+      "initial_rating_only": true,
+      "new_attachment": false
+    },
+    {
+      "child": "Glasgow-3022",
+      "father": "Robertson-30564",
+      "percent": 78,
+      "status": "probable",
+      "prior_status": "unknown",
+      "prior_date": null,
+      "records": [
+        "montgreenan-held-household-1841",
+        "montgreenan-robertson-family-account"
+      ],
+      "basis": "Robert’s captured compiled account names a daughter Philadelphia Jane; the copied 1841 household places Jane Robertson, aged 20, with Robert and the same family. The compatible name and specific family setting support identification of this profile with that daughter, while leaving the full identity provisional.",
+      "limits": "The compiled family account and copied household are not independent original proof. The original census and a full-name record have not been inspected. The inherited 1804 France birth fields conflict with age 20 if literal; neither is verified. This is the first numerical rating of a retained unmarked father, not a new attachment or discovery.",
+      "next_test": "Locate the original census and a record identifying Philadelphia Jane by full name, later surname or explicit father.",
+      "assertion_id": "C-5dc8ca93d3bc",
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "montgreenan-held-household-1841",
+          "montgreenan-robertson-family-account"
+        ],
+        "claim_id": "C-5dc8ca93d3bc"
+      },
+      "initial_rating_only": true,
+      "new_attachment": false
+    },
+    {
+      "child": "Glasgow-4123",
+      "father": "Glasgow-4175",
+      "percent": 95,
+      "status": "strongly_supported",
+      "prior_status": "unknown",
+      "prior_date": null,
+      "records": [
+        "walston-agnes-baptism-1712"
+      ],
+      "basis": "The held Findmypast transcript names James Glasgow as father of Agnes at Walston on 17 February 1712. The checked public James profile is explicitly defined by this same named child and entry, so this is the record-defined father account rather than an identification with an otherwise unrelated adult James.",
+      "limits": "The transcript is derivative and the original parish image is uninspected. The father biography repeats that source and is not independent corroboration. No mother, earlier generation or later-life identity is proved. This first individual percentage reviews existing documented parentage; it is not a new attachment or confidence discovery.",
+      "next_test": "Inspect Walston OPR 658/1 p.13 item5 for the complete father designation, mother or residence.",
+      "assertion_id": "C-850523b509f1",
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "walston-agnes-baptism-1712"
+        ],
+        "claim_id": "C-850523b509f1"
+      },
+      "initial_rating_only": true,
+      "new_attachment": false
+    },
+    {
+      "child": "Glasgow-4132",
+      "father": "Glasgow-4177",
+      "percent": 95,
+      "status": "strongly_supported",
+      "prior_status": "unknown",
+      "prior_date": null,
+      "records": [
+        "edrom-john-indexed-entry-1738"
+      ],
+      "basis": "The held Findmypast Edrom entry with birth year 1738 explicitly names James Glasgow as John’s father. The checked public James profile is defined by this same child record; there is no competing independently defined adult identity being inferred from a name alone.",
+      "limits": "The transcript leaves baptism year/date blank and gives no mother; an exact baptism date is not established. The original parish image is uninspected. The father biography repeats the same source rather than corroborating it independently. No vital field is changed. This first individual rating is coverage of documented parentage, not a newly discovered relationship.",
+      "next_test": "Inspect Edrom OPR 738/4 p.18 item5 to resolve the event date and full father designation.",
+      "assertion_id": "C-69fba0e7f5e0",
+      "prior_assessment": {
+        "status": "unknown",
+        "assessment_status": "unknown",
+        "assessment_date": null,
+        "probability_percent": null,
+        "tree_status": "unmarked",
+        "basis": "Existing record-defined parentage or retained household hypothesis, not individually graded; no saved earlier percentage or qualitative confidence invented.",
+        "source_ids": [
+          "edrom-john-indexed-entry-1738"
+        ],
+        "claim_id": "C-69fba0e7f5e0"
+      },
+      "initial_rating_only": true,
+      "new_attachment": false
+    }
+  ],
+  "profiles": {
+    "Glasgow-4123": {
+      "new_draft_path": "research/Glasgow-4123/father-review-2026-10-24.wiki",
+      "new_draft_sha256": "9eab522a5247bfd47a5a5a9630032d65c4e9576595aedb02213ed457bdbbb249",
+      "captured_path": "data/wikitree/profile-evidence.json#/profiles/Glasgow-4123/biography_wikitext",
+      "captured_sha256": "d9b85c669d3a4e16ad095b16498e90e0f1f7b3443b9006f7dfd217bb69ab25a3",
+      "prior_pending_path": "research/Glasgow-4123/queue-review-2026-10-17.wiki",
+      "prior_pending_sha256": "8c57138bedde97597d7997a29c9b7e244112385808c94cd427fbc43dc2bd5dfc",
+      "captured_ref_bodies": [
+        "<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4100126&tab=this Findmypast transcript], Archive reference: OPR 658/1; Baptism date: 17 Feb 1712; Baptism year: 1712; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): Agnes; Item: 5; Last name: Glasgow; Page: 13; Place: Walston; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1679-1819; Residence: Walston; Subcategory: Parish Baptisms (captured 2026-09-03T23:47:07.740Z).</ref>"
+      ],
+      "prior_pending_ref_bodies": [
+        "<ref>Scotland’s People: Old Parish Registers — banns and marriages: OPR 690/10 / 55; [https://www.scotlandspeople.gov.uk/ record].</ref>",
+        "<ref>Scotland’s People: Old Parish Registers — banns and marriages: OPR 750/10 / 79; [https://www.scotlandspeople.gov.uk/ record].</ref>",
+        "<ref>Scotland’s People: Old Parish Registers — banns and marriages: OPR 690/10 / 64; [https://www.scotlandspeople.gov.uk/ record].</ref>",
+        "<ref>Scotland’s People: Old Parish Registers — banns and marriages: OPR 633/10 / 66; [https://www.scotlandspeople.gov.uk/ record].</ref>",
+        "<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4100126&tab=this Findmypast transcript], Archive reference: OPR 658/1; Baptism date: 17 Feb 1712; Baptism year: 1712; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Lanarkshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): Agnes; Item: 5; Last name: Glasgow; Page: 13; Place: Walston; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1679-1819; Residence: Walston; Subcategory: Parish Baptisms (captured 2026-09-03T23:47:07.740Z).</ref>"
+      ],
+      "captured_and_pending_fullrefs_preserved": true,
+      "captured_source_identity_keys_preserved": true,
+      "prior_source_identity_keys_preserved": true,
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "relationship_change": "existing father link assessed 95% confident; no attachment change",
+      "preservation_rechecked": true,
+      "draft_path": "research/Glasgow-4123/father-review-2026-10-24.wiki",
+      "current_sha256": "d9b85c669d3a4e16ad095b16498e90e0f1f7b3443b9006f7dfd217bb69ab25a3",
+      "proposed_sha256": "9eab522a5247bfd47a5a5a9630032d65c4e9576595aedb02213ed457bdbbb249",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false
+    },
+    "Glasgow-4132": {
+      "new_draft_path": "research/Glasgow-4132/father-review-2026-10-24.wiki",
+      "new_draft_sha256": "c715b8957aeebb5ff372eecc9bc9a3730228728f67de8fa1db40d9586311817f",
+      "captured_path": "data/wikitree/profile-evidence.json#/profiles/Glasgow-4132/biography_wikitext",
+      "captured_sha256": "8a46052265d33c3c4f4d65e151ff17a6443a1fc7f36466a66819341256f77b2c",
+      "prior_pending_path": null,
+      "prior_pending_sha256": null,
+      "captured_ref_bodies": [
+        "<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839748&tab=this Findmypast transcript], Archive reference: OPR 738/4; Baptism year: -; Birth year: 1738; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Berwickshire; Father's first name(s): James; Father's last name: Glasgow; First name(s): John; Item: 5; Last name: Glasgow; Page: 18; Place: Edrom; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1721-1854; Subcategory: Parish Baptisms (captured 2026-09-03T20:42:43.977Z).</ref>"
+      ],
+      "prior_pending_ref_bodies": [],
+      "captured_and_pending_fullrefs_preserved": true,
+      "captured_source_identity_keys_preserved": true,
+      "prior_source_identity_keys_preserved": false,
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "relationship_change": "existing father link assessed 95% confident; no attachment change",
+      "preservation_rechecked": true,
+      "draft_path": "research/Glasgow-4132/father-review-2026-10-24.wiki",
+      "current_sha256": "8a46052265d33c3c4f4d65e151ff17a6443a1fc7f36466a66819341256f77b2c",
+      "proposed_sha256": "c715b8957aeebb5ff372eecc9bc9a3730228728f67de8fa1db40d9586311817f",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false
+    },
+    "Glasgow-3000": {
+      "new_draft_path": "research/Glasgow-3000/father-review-2026-10-24.wiki",
+      "prior_pending_path": "research/Glasgow-3000/queue-review-2026-10-17.wiki",
+      "prior_pending_sha256": "1aae454d73c42760b4d117ff366bed58ab8ad911f02e892ee4acf4901cae8dd5",
+      "draft_path": "research/Glasgow-3000/father-review-2026-10-24.wiki",
+      "new_draft_sha256": "7d774af9403dead405b75178b5c76866b05f44b9d839d3fa29c9b5c83101f082",
+      "current_sha256": "50b8cfc89a1650aaec107db19ca439b179d78e64fcee8be77e71b06bcfb69610",
+      "proposed_sha256": "7d774af9403dead405b75178b5c76866b05f44b9d839d3fa29c9b5c83101f082",
+      "captured_and_pending_fullrefs_preserved": true,
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    },
+    "Glasgow-3003": {
+      "new_draft_path": "research/Glasgow-3003/father-review-2026-10-24.wiki",
+      "prior_pending_path": "research/Glasgow-3003/queue-review-2026-10-17.wiki",
+      "prior_pending_sha256": "ae8952a79725355331e3303a97e665f0c14fd394893eb284b160a82b1af7020d",
+      "draft_path": "research/Glasgow-3003/father-review-2026-10-24.wiki",
+      "new_draft_sha256": "6c3e9a4c7fa80d8cb3b1a714c5cc26574bbfb6fa5f13d88cd4025fdc5dd89d10",
+      "current_sha256": "3cba7a4eded6653fb6ac4881f3d6157668d808e3623747c5a170e2a238754013",
+      "proposed_sha256": "6c3e9a4c7fa80d8cb3b1a714c5cc26574bbfb6fa5f13d88cd4025fdc5dd89d10",
+      "captured_and_pending_fullrefs_preserved": true,
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    },
+    "Glasgow-3021": {
+      "new_draft_path": "research/Glasgow-3021/father-review-2026-10-24.wiki",
+      "prior_pending_path": null,
+      "prior_pending_sha256": null,
+      "draft_path": "research/Glasgow-3021/father-review-2026-10-24.wiki",
+      "new_draft_sha256": "30a6fd35dc1a1259fe9e979d19b28f5b7b7d7fead39190860b430f1462ad9854",
+      "current_sha256": "bc309c8937c2d842f399c6c7b07d2e6b5d0e78c123979333b76eb02765a19332",
+      "proposed_sha256": "30a6fd35dc1a1259fe9e979d19b28f5b7b7d7fead39190860b430f1462ad9854",
+      "captured_and_pending_fullrefs_preserved": true,
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    },
+    "Glasgow-3022": {
+      "new_draft_path": "research/Glasgow-3022/father-review-2026-10-24.wiki",
+      "prior_pending_path": null,
+      "prior_pending_sha256": null,
+      "draft_path": "research/Glasgow-3022/father-review-2026-10-24.wiki",
+      "new_draft_sha256": "8b4ac567ca7d22f700aaf83ea698bf13caa5d71c291e51bad8e4b99d534fb6ff",
+      "current_sha256": "8d52b5349f86ce904dd829cfba7aa5c7fab9d6029e06e45bd6ef6d7ebe7b4b9e",
+      "proposed_sha256": "8b4ac567ca7d22f700aaf83ea698bf13caa5d71c291e51bad8e4b99d534fb6ff",
+      "captured_and_pending_fullrefs_preserved": true,
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    }
+  },
+  "confidence_changes": [],
+  "new_attachments": 0,
+  "new_independent_records": 0,
+  "source_inspection": {
+    "held_original_crops_reread": [
+      "401331272",
+      "393027340"
+    ],
+    "findmypast_original_images_inspected": false,
+    "father4175_4177_public_identity_checked": true,
+    "original_census_inspected": false,
+    "archival_will_and_marriage_inspected": false
+  },
+  "raw_captures_published": false,
+  "live_published": false,
+  "verification": {
+    "three_tree_models_agree": true,
+    "historical_father_fields_checked": 1799,
+    "all_drafts_complete_and_preserved": true,
+    "current_named_father_coverage": {
+      "named_count": 1412,
+      "rated_count": 1412,
+      "unrated_count": 0,
+      "coverage_percent": 100.0
+    },
+    "graph_cohort_metrics_unchanged": true,
+    "initial_rating_rows": 6,
+    "new_research_events": 0,
+    "local_http_pages": 14,
+    "latest_url": "/latest-findings/page/20/#finding-retained-father-coverage-review-20261024",
+    "stale_asset_references": 0,
+    "publication_check": "passed",
+    "link_check": "passed",
+    "browser_check": {
+      "initial_coverage_text_observed": true,
+      "layout_screenshot_inspected": true,
+      "final_updated_count": "Generated HTML, JSON and rendering tests verified1412of1412; final accessibility capture timed out.",
+      "borrowed_tab_restored": "https://www.familysearch.org/en/home/portal/",
+      "original_tabs_preserved": true,
+      "new_tabs_or_windows": 0,
+      "unrelated_processes_killed": 0
+    }
+  },
+  "source_identity_mapping": {
+    "montgreenan-paisley-marriages-1847": {
+      "record_id": "montgreenan-paisley-marriages-1847",
+      "document_id": "s-a659148d3f73b585",
+      "source_url": "https://www.newspapers.com/image/401331272/"
+    },
+    "montgreenan-rome-daughter-birth-1827": {
+      "record_id": "montgreenan-rome-daughter-birth-1827",
+      "document_id": "s-be414abad7078c34",
+      "source_url": "https://www.newspapers.com/image/393027340/"
+    },
+    "montgreenan-held-household-1841": {
+      "record_id": "b8b20ec4f294940b",
+      "document_id": "s-5c14a61c64bcf01e",
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-3021"
+    },
+    "montgreenan-robertson-family-account": {
+      "record_id": "montgreenan-robertson-family-account",
+      "document_id": "s-41e2c60602629cc4",
+      "source_url": "https://www.wikitree.com/wiki/Robertson-30564"
+    },
+    "walston-agnes-baptism-1712": {
+      "record_id": "6e4605c5b8e6fbfd",
+      "document_id": "s-66f66c3254d4cb28",
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4100126&tab=this"
+    },
+    "edrom-john-indexed-entry-1738": {
+      "record_id": "31a8ba90fefb136c",
+      "document_id": "s-8c33f84ab089370c",
+      "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839748&tab=this"
+    }
+  }
+}

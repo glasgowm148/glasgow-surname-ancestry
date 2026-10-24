@@ -42767,5 +42767,181 @@
     "event_role": "child birth entry; secondary adult role comparison",
     "identity_status": "compatible_candidate",
     "documentary_group": "kelso-elizabeth-1813"
+  },
+  {
+    "record_id": "montgreenan-paisley-marriages-1847",
+    "association": "Anne and Charlotte: explicit daughter statements in the Paisley double marriage notice",
+    "date": "25 August 1847, inferred from notice of 2 September",
+    "year": 1847,
+    "place": "Paisley, Renfrewshire, Scotland",
+    "source_url": "https://www.newspapers.com/image/401331272/",
+    "source_title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p.4, marriages",
+    "source_quality": "original",
+    "record_category": "Marriages",
+    "status": "Held bounded original crop inspected previously and re-read 24 October; not a new discovery",
+    "note": "Anne, second daughter of the late Robert Glasgow, married George Sherbrooke Airey; Charlotte Maria Cecilia, youngest daughter of the late Robert Glasgow of Montgreenan, married Rev George Drake. The notice gives no mother. Profile identity is assessed separately; Anne96%, Charlotte98%. Both confident recommendations already existed on 6 October. Issue date/page come from the maintained verified source metadata, outside this bounded crop.",
+    "profiles": {
+      "Glasgow-3000": {
+        "role": "Anne, second daughter; retained profile identity assessed96%"
+      },
+      "Glasgow-3003": {
+        "role": "Charlotte Maria Cecilia, youngest daughter; retained profile identity assessed98%"
+      },
+      "Robertson-30564": {
+        "role": "Identified father, Robert Glasgow of Montgreenan; inherited Glasgow surname, not evidence of Glasgow paternal origin"
+      },
+      "Drake-13873": {
+        "role": "Named groom George Drake"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+    "source_status": "Held bounded original crop inspected previously and re-read 24 October; not a new discovery"
+  },
+  {
+    "record_id": "montgreenan-rome-daughter-birth-1827",
+    "association": "Unnamed daughter of Mrs Robertson Glasgow born at Rome",
+    "date": "22 November 1827, inferred from 22d ult. in the 19 December issue",
+    "year": 1827,
+    "place": "Rome, Italy",
+    "source_url": "https://www.newspapers.com/image/393027340/",
+    "source_title": "Aberdeen Journal and General Advertiser for the North of Scotland, 19 December 1827, p.4, births",
+    "source_quality": "original",
+    "record_category": "Births and baptisms",
+    "status": "Previously inspected bounded original crop re-read24October; daughter unnamed",
+    "note": "Mrs Robertson Glasgow of Montgreenan is reported delivered of a daughter at Rome. Date/place match Charlotte’s recorded birth, but the daughter and father are not named. Do not turn this into an explicit father statement or a newly discovered record.",
+    "profiles": {
+      "Glasgow-3003": {
+        "role": "Compatible identified daughter; exact date/place match, child unnamed in notice"
+      },
+      "Robertson-30564": {
+        "role": "Family context only; not explicitly named father in notice"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+    "source_status": "Previously inspected bounded original crop re-read24October; daughter unnamed"
+  },
+  {
+    "record_id": "montgreenan-held-household-1841",
+    "association": "Mary and Jane in a profile-reproduced Holly Walk household account",
+    "date": "1841, date attributed by copied account",
+    "year": 1841,
+    "place": "Holly Walk, Leamington Priors, Warwickshire, England",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3021",
+    "source_title": "Captured public WikiTree biographies of Mary Glasgow-3021 and Jane Glasgow-3022, reproducing an1841 household paragraph",
+    "source_quality": "derivative",
+    "record_category": "Census",
+    "status": "Copied household text reviewed; original census image and precise archival reference absent",
+    "note": "The copied paragraph lists Robert Glasgow65, AnnGlasgow40, MaryGlasgow19, AnnRobertson18, JaneRobertson20, CharlotteRobertson10 and WilhelminaRobertson1, plus servants. It does not state Mary’s or Jane’s relationship to Robert. Repetition in the two biographies is one dependent account. Mary45%possible; Jane78%probable with the compiled PhiladelphiaJane child statement. Inherited1804France fields remain unverified; no original census or family record newly inspected.",
+    "profiles": {
+      "Glasgow-3021": {
+        "role": "Mary, household member in copied account; daughter unproved"
+      },
+      "Glasgow-3022": {
+        "role": "Jane, household member; possible PhiladelphiaJane identity"
+      },
+      "Robertson-30564": {
+        "role": "Robert, household head in copied account; kinship must not be assumed"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+    "source_status": "Copied household text reviewed; original census image and precise archival reference absent"
+  },
+  {
+    "record_id": "montgreenan-robertson-family-account",
+    "association": "Compiled Robert Robertson family account and the later Glasgow surname",
+    "date": "1804 marriage;1828 surname change;1845 death, as reported in captured account",
+    "year": 1845,
+    "place": "Montgreenan, Ayrshire, Scotland",
+    "source_url": "https://www.wikitree.com/wiki/Robertson-30564",
+    "source_title": "Captured public WikiTree biography of Robert Robertson, later Glasgow, citing T71/892, T71/1266 and SC6/44/4/1",
+    "source_quality": "derivative",
+    "record_category": "Family history",
+    "status": "Compiled biography read; cited archival originals not independently inspected in this review",
+    "note": "The captured account reports marriage to AnneGlasgow1804, Montgreenan inheritance and surname change in1828 under DrRobertGlasgow’s will, and death1845. It names four children:Robert,PhiladelphiaJane,Anne,CharlotteMarieCecilia. Mary’s omission is not proof of exclusion. This account is an identity lead and copied family statement, not an original marriage/will inspection or evidence of a Glasgow male-line origin.",
+    "profiles": {
+      "Robertson-30564": {
+        "role": "Subject of compiled account; father identity assessed per child"
+      },
+      "Glasgow-3000": {
+        "role": "Retained child account; individual certainty and identity limits applied separately"
+      },
+      "Glasgow-3003": {
+        "role": "Retained child account; individual certainty and identity limits applied separately"
+      },
+      "Glasgow-3021": {
+        "role": "Retained child account; individual certainty and identity limits applied separately"
+      },
+      "Glasgow-3022": {
+        "role": "Retained child account; individual certainty and identity limits applied separately"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+    "source_status": "Compiled biography read; cited archival originals not independently inspected in this review"
+  },
+  {
+    "record_id": "walston-agnes-baptism-1712",
+    "association": "Agnes Glasgow, Walston baptism naming father James",
+    "date": "17 February1712",
+    "year": 1712,
+    "place": "Walston, Lanarkshire, Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4100126&tab=this",
+    "provider_record_id": "SCOT/OPR/BAP/4100126",
+    "source_title": "Findmypast, Scotland Parish Births & Baptisms1564–1929, Walston OPR658/1 p.13 item5",
+    "source_quality": "derivative",
+    "record_category": "Births and baptisms",
+    "status": "Held transcript inspected; original parish image uninspected",
+    "note": "Transcript names Agnes Glasgow, baptism17February1712, fatherJamesGlasgow, Walston. Glasgow-4175 is a record-defined father profile for this exact child and entry, checkedOpen/nonliving on24October. His biography repeats this source and is not independent corroboration. Existing father95%; no mother or earlier generation inferred.",
+    "profiles": {
+      "Glasgow-4123": {
+        "role": "Agnes, named child; existing father95%, identified with checked public WikiTree account Glasgow-4175"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+    "source_status": "Held transcript inspected; original parish image uninspected",
+    "analysis_links": [
+      {
+        "label": "Record-defined father James, checked public WikiTree account",
+        "href": "https://www.wikitree.com/wiki/Glasgow-4175"
+      }
+    ]
+  },
+  {
+    "record_id": "edrom-john-indexed-entry-1738",
+    "association": "John Glasgow, indexed Edrom entry naming father James",
+    "date": "1738 birth year; baptism date/year blank in transcript",
+    "year": 1738,
+    "place": "Edrom, Berwickshire, Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839748&tab=this",
+    "provider_record_id": "SCOT/OPR/BAP/4839748",
+    "source_title": "Findmypast, Scotland Parish Births & Baptisms1564–1929, Edrom OPR738/4 p.18 item5",
+    "source_quality": "derivative",
+    "record_category": "Births and baptisms",
+    "status": "Held transcript inspected; original parish image uninspected; exact baptism date unestablished",
+    "note": "Transcript names JohnGlasgow and fatherJamesGlasgow, birthyear1738; baptismyear is blank. Glasgow-4177 is explicitly a father profile defined by this child/entry, checkedOpen/nonliving24October. The repeated father biography is not independent corroboration. Existing father95%; no mother or earlier generation inferred; vital fields retained.",
+    "profiles": {
+      "Glasgow-4132": {
+        "role": "John, named child; existing father95%, identified with checked public WikiTree account Glasgow-4177"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json",
+    "source_status": "Held transcript inspected; original parish image uninspected; exact baptism date unestablished",
+    "analysis_links": [
+      {
+        "label": "Record-defined father James, checked public WikiTree account",
+        "href": "https://www.wikitree.com/wiki/Glasgow-4177"
+      }
+    ]
   }
 ]

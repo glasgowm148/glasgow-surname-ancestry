@@ -57931,6 +57931,82 @@
         "research/vital_assessments.json",
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ]
+    },
+    {
+      "id": "retained-father-coverage-review-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Six retained father relationships receive exact assessments: Anne96%, Charlotte98%, Agnes95%, John95%, Jane78%, Mary45%.",
+      "qualification": "These are first numerical ratings of existing links using held sources, not six new fathers or discoveries. Anne and Charlotte were already recommended confident on6October. Mary and Jane retain provisional household identities; original census and parish images remain uninspected. Robertson’s later Glasgow surname is not evidence of a Glasgow paternal origin.",
+      "people": [
+        {
+          "id": "Glasgow-3000",
+          "name": "Anne Glasgow",
+          "url": "/people/glasgow-3000.html",
+          "role": "Existing father rating 96%"
+        },
+        {
+          "id": "Glasgow-3003",
+          "name": "Charlotte Marie Cecilia (Glasgow) Drake",
+          "url": "/people/glasgow-3003.html",
+          "role": "Existing father rating 98%"
+        },
+        {
+          "id": "Glasgow-3021",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3021.html",
+          "role": "Existing father rating 45%"
+        },
+        {
+          "id": "Glasgow-3022",
+          "name": "Jane Glasgow",
+          "url": "/people/glasgow-3022.html",
+          "role": "Existing father rating 78%"
+        },
+        {
+          "id": "Glasgow-4123",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-4123.html",
+          "role": "Existing father rating 95%"
+        },
+        {
+          "id": "Glasgow-4132",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4132.html",
+          "role": "Existing father rating 95%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Freeman’s Journal and Daily Commercial Advertiser, 2 September 1847, p.4, marriages",
+          "url": "https://www.newspapers.com/image/401331272/"
+        },
+        {
+          "title": "Aberdeen Journal and General Advertiser for the North of Scotland, 19 December 1827, p.4, births",
+          "url": "https://www.newspapers.com/image/393027340/"
+        },
+        {
+          "title": "Captured public WikiTree biographies of Mary Glasgow-3021 and Jane Glasgow-3022, reproducing an1841 household paragraph",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3021"
+        },
+        {
+          "title": "Captured public WikiTree biography of Robert Robertson, later Glasgow, citing T71/892, T71/1266 and SC6/44/4/1",
+          "url": "https://www.wikitree.com/wiki/Robertson-30564"
+        },
+        {
+          "title": "Findmypast, Scotland Parish Births & Baptisms1564–1929, Walston OPR658/1 p.13 item5",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4100126&tab=this"
+        },
+        {
+          "title": "Findmypast, Scotland Parish Births & Baptisms1564–1929, Edrom OPR738/4 p.18 item5",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839748&tab=this"
+        }
+      ],
+      "detail_url": "/onetree/progress/#individual-findings",
+      "provenance": [
+        "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json"
+      ]
     }
   ]
 }
