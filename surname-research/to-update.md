@@ -4285,3 +4285,17 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Robert Glasgow II](https://www.wikitree.com/wiki/Glasgow-1157) | OPEN | Clarify Daniel’s inherited Robert hyperlink: intended compiled account1157, not Duddingston1156; parentage and all grades unchanged. |
 | [Robert Glasgow I](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Clarify Daniel’s inherited Robert hyperlink: intended compiled account1157, not Duddingston1156; parentage and all grades unchanged. |
 | [James Albert Glasgow](https://www.wikitree.com/wiki/Glasgow-45) | OPEN | Reconcile Chester testator identity already resolved98%; James’s father remains unknown. Test John-1549’s1825 will next. |
+
+### Huntingdon original will and named sons — 24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1549) | OPEN | Reconcile nine named children in the original 1825 will; four confident sons, probable Cambria John and new probable Samuel and James; own father remains21%. |
+| [Richard Glasgow](https://www.wikitree.com/wiki/Glasgow-1551) | OPEN | Improve father confidence John Glasgow: 72% → 97%; original 1825 will inspected. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1552) | OPEN | Improve father confidence John Glasgow: 65% → 96%; original 1825 will inspected. |
+| [Matthew Glasgow](https://www.wikitree.com/wiki/Glasgow-1553) | OPEN | Improve father confidence John Glasgow: 64% → 96%; original 1825 will inspected. |
+| [Taylor Wilson Glasgow](https://www.wikitree.com/wiki/Glasgow-36) | OPEN | Improve father confidence John Glasgow: 64% → 98%; original 1825 will inspected. |
+| [John S. Glasgow Jr.](https://www.wikitree.com/wiki/Glasgow-664) | OPEN | Improve father confidence John Glasgow: 57% → 86%; original 1825 will inspected. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1984) | OPEN | Add new probable father John Glasgow: Unknown → 88%; original 1825 will inspected. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2577) | OPEN | Add new probable father John Glasgow: Unknown → 80%; original 1825 will inspected. |
+| [James Albert Glasgow](https://www.wikitree.com/wiki/Glasgow-45) | OPEN | Original1825 Huntingdon will names James; executor identity remains unproved, father stays unknown. |

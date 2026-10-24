@@ -58103,6 +58103,173 @@
       "provenance": [
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ]
+    },
+    {
+      "id": "huntingdon-will-named-sons-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Original 1825 will confirms four sons of John Glasgow, strengthens the Cambria John connection, and supports new probable fathers for Samuel and James.",
+      "qualification": "Original register pages 139–140 inspected: Richard 72% → 97%, William 65% → 96%, Matthew 64% → 96%, Taylor 64% → 98%, Cambria John 57% → 86%; Samuel’s father Unknown → 88%; James-2577’s father Unknown → 80%. The Cambria John, Samuel and James adult identifications remain probable. Missouri James remains an unselected alternative. No mother, vital-date correction or earlier Scottish generation is established.",
+      "people": [
+        {
+          "id": "Glasgow-1549",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1549.html",
+          "role": "Named testator"
+        },
+        {
+          "id": "Glasgow-1551",
+          "name": "Richard Glasgow",
+          "url": "/people/glasgow-1551.html",
+          "role": "Father confidence 72% → 97%"
+        },
+        {
+          "id": "Glasgow-1552",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1552.html",
+          "role": "Father confidence 65% → 96%"
+        },
+        {
+          "id": "Glasgow-1553",
+          "name": "Matthew Glasgow",
+          "url": "/people/glasgow-1553.html",
+          "role": "Father confidence 64% → 96%"
+        },
+        {
+          "id": "Glasgow-36",
+          "name": "Taylor Wilson Glasgow",
+          "url": "/people/glasgow-36.html",
+          "role": "Father confidence 64% → 98%"
+        },
+        {
+          "id": "Glasgow-664",
+          "name": "John S. Glasgow Jr.",
+          "url": "/people/glasgow-664.html",
+          "role": "Father confidence 57% → 86%"
+        },
+        {
+          "id": "Glasgow-1984",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-1984.html",
+          "role": "New probable father 88%"
+        },
+        {
+          "id": "Glasgow-2577",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-2577.html",
+          "role": "New probable father 80%"
+        },
+        {
+          "id": "Glasgow-45",
+          "name": "James Albert Glasgow",
+          "url": "/people/glasgow-45.html",
+          "role": "Unselected identity candidate; father unknown"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Huntingdon County, Pennsylvania, Wills 1822–1847, volumes 3–4, register pp. 139–140; John Glasgow of Antis Township, will 21 January 1825, proved 12 March 1825; FamilySearch, Pennsylvania Probate Records, image 103 of 607. Original full page and both page details inspected 24 October 2026.",
+          "url": "https://familysearch.org/ark:/61903/3:1:3QS7-L99B-T8NH?cc=1999196&wc=9PM6-7MN%3A268496101%2C268530601"
+        }
+      ],
+      "detail_url": "/people/glasgow-1549.html#research-findings",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1551",
+          "relative": "Glasgow-1549",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 72,
+          "probability_percent": 97,
+          "explanation": "The original 1825 will explicitly names Richard among John’s children and gives him a $200 legacy. The existing Richard account represents the son in this same Sinking Valley family, with a compatible circa-1778 generation and later Blair County life. The original named-child clause replaces reliance on the unsourced migration narrative; that narrative’s precise Scottish birth and travel details remain unverified.",
+          "assertion_id": "C-coverage-20261022g-glasgow-1551-father",
+          "previous_status_provenance": "Maintained 2026-10-22 assessment C-coverage-20261022g-glasgow-1551-father: 72%; its complete source basis is retained in assessment_history and before_original_will_review provenance."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1552",
+          "relative": "Glasgow-1549",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 65,
+          "probability_percent": 96,
+          "explanation": "The original 1825 will explicitly names William among John’s children and gives him a $200 legacy. The existing William account is the compatible circa-1781 son already represented in this family. This is direct evidence for the family relationship, while the at-sea birth and exact later adult dates remain inherited claims rather than facts established by the will.",
+          "assertion_id": "C-coverage-20261022d-glasgow-1552-father",
+          "previous_status_provenance": "Maintained 2026-10-22 assessment C-coverage-20261022d-glasgow-1552-father: 65%; its complete source basis is retained in assessment_history and before_original_will_review provenance."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1553",
+          "relative": "Glasgow-1549",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 64,
+          "probability_percent": 96,
+          "explanation": "The original 1825 will explicitly names Matthew among John’s children and gives him a $200 legacy. The existing Matthew account has the same family placement and a compatible circa-1787 Antis generation. The father identification is now supported by an original parent statement rather than a census slot or contributed child list; the will does not verify Matthew’s exact birth or later death.",
+          "assertion_id": "C-coverage-20261022g-glasgow-1553-father",
+          "previous_status_provenance": "Maintained 2026-10-22 assessment C-coverage-20261022g-glasgow-1553-father: 64%; its complete source basis is retained in assessment_history and before_original_will_review provenance."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-36",
+          "relative": "Glasgow-1549",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 64,
+          "probability_percent": 98,
+          "explanation": "The original will names Taylor as John’s son, gives him a wagon and a joint share of the Antis home tract with James, and appoints James and Taylor executors. The existing Taylor Wilson account’s Antis household and reproduced 1889 obituary describing his removal with his father to a local farm in 1810 strongly identify this son. The obituary is a held transcription, not a newly inspected newspaper image. Conflicting inherited birth and death dates remain unchanged.",
+          "assertion_id": "C-coverage-20261022d-glasgow-36-father",
+          "previous_status_provenance": "Maintained 2026-10-22 assessment C-coverage-20261022d-glasgow-36-father: 64%; its complete source basis is retained in assessment_history and before_original_will_review provenance."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-664",
+          "relative": "Glasgow-1549",
+          "action": "regrade",
+          "before": "possible",
+          "after": "probable",
+          "previous_probability_percent": 57,
+          "probability_percent": 86,
+          "explanation": "The original will now proves that the Antis/Sinking Valley John had a son John. This independently supports the previously compiled report of a young emigrant son John. The Cambria adult’s reported 1777 Scottish generation, 1820 Allegheny Township household and central Pennsylvania continuity make him the leading checked identity for that son. The will supplies no residence, wife or age for its John, so identification with the Cambria adult remains a probable inference. Daill and Glasgow birthplace claims are not equated or verified.",
+          "assertion_id": "C-working-20261017-huntingdon-john1549-john664",
+          "previous_status_provenance": "Maintained 2026-10-17 assessment C-working-20261017-huntingdon-john1549-john664: 57%; its complete source basis is retained in assessment_history and before_original_will_review provenance."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1984",
+          "relative": "Glasgow-1549",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "previous_probability_percent": null,
+          "probability_percent": 88,
+          "explanation": "The original will explicitly names a son Samuel and gives him a $50 legacy. Samuel Glasgow-1984’s reported circa-1786 Antis birth and 1829 Huntingdon death fit the testator’s Antis household and father generation. The previously suggested John family is now supported by an actual named-son clause and a specific locality match. The bounded catalogue comparison found no stronger same-generation Antis Samuel. The will gives no Samuel residence, age or spouse, and his profile dates remain derivative, so the complete identity and father proposition is probable at 88%, not certain. Samuel’s reported death before the legacy’s 1832 due date is not a contradiction: the will provides for a deceased child’s issue.",
+          "assertion_id": "C-working-20261024-huntingdon-1984-father",
+          "previous_status_provenance": "Pre-review public dossier had no retained named father. This new working hypothesis follows inspection of the original1825 will and explicit comparison with compatible local adults; no earlier percentage is invented."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2577",
+          "relative": "Glasgow-1549",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "previous_probability_percent": null,
+          "probability_percent": 80,
+          "explanation": "The original will names James as a son, joint devisee of the Antis home tract and executor with Taylor. James Glasgow-2577 is the strongest checked adult match: reported born in Blair County on 4 October 1793, with a daughter Mary Ellen reported born there in 1829 and eventual Logan Valley Cemetery burial. His age about31 at probate fits. These profile and daughter details are derivative and their memorial originals were not inspected. The bounded public-catalogue comparison found no closer local same-generation James. The Missouri James-45 remains a compatible alternative by name, generation and broad Pennsylvania origin, but his probable Downington birth and later Missouri household are a weaker locality match. The will supplies no age, wife or residence for its James; select2577 as an80% probable working father connection, retaining the alternative and all vital fields.",
+          "assertion_id": "C-working-20261024-huntingdon-2577-father",
+          "previous_status_provenance": "Pre-review public dossier had no retained named father. This new working hypothesis follows inspection of the original1825 will and explicit comparison with compatible local adults; no earlier percentage is invented."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/huntingdon-will-review-2026-10-24.json"
+      ]
     }
   ]
 }

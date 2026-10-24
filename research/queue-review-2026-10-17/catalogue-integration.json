@@ -6668,9 +6668,9 @@
       "addition_wikitext": ""
     },
     "Glasgow-664": {
-      "draft_path": "research/Glasgow-664/queue-review-2026-10-17.wiki",
-      "summary": "Add John Glasgow-1549 of Sinking Valley as possible father (57%) of John Glasgow-664; explain the contributed son report and identity limits.",
-      "work_queue_summary": "Add John Glasgow-1549 of Sinking Valley as possible father (57%) of John Glasgow-664; explain the contributed son report and identity limits.",
+      "draft_path": "research/Glasgow-664/huntingdon-original-will-2026-10-24.wiki",
+      "summary": "Improve father confidence John Glasgow: 57% → 86%; original 1825 will inspected.",
+      "work_queue_summary": "Improve father confidence John Glasgow: 57% → 86%; original 1825 will inspected.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -6686,7 +6686,7 @@
       "remote_wikitext": "== Biography == \n\nJohn was born about 1790 ''(date of birth is a placeholder / guess)''.  John S. Glasgow married Elizabeth Jane Bell.<ref>See references for his children,</ref>\nJohn was born in 1777. He passed away in 1845. \n\n:Name:\tJohn Glasgow\n:Home in 1820 <ref>1820 U S Census; Census Place: Allegheny, Cambria, Pennsylvania; Page: 174; NARA Roll: M33_98; Image: 189</ref>:\tAllegheny, Cambria, Pennsylvania\n::Enumeration Date:\tAugust 7, 1820\n:: Males - Under 10:\t2\n:: Males - 26 thru 44:\t2\n:: Females - Under 10:\t3\n:: Females - 10 thru 15:\t1\n:: Foreigners not Naturalized:\t1\n:: All Other Persons Except Indians not Taxed:\t9\n\n== Sources ==\n<references />\n\n\n* Robert E. Black",
       "manual_update": true,
       "significance": 80,
-      "preservation_review_path": "research/ancestry-connections/huntingdon-cambria-working-family-preservation-2026-10-17.json",
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
@@ -6694,11 +6694,16 @@
           "action": "add",
           "relationship": "father",
           "relative_id": "Glasgow-1549",
-          "status": "possible",
+          "status": "probable",
           "assertion_id": "C-working-20261017-huntingdon-john1549-john664",
-          "scope": "57% subjective belief in the reported missing son’s identification with the Cambria adult; no inspected parent clause in a primary record."
+          "scope": "The original will now proves that the Antis/Sinking Valley John had a son John. This independently supports the previously compiled report of a young emigrant son John. The Cambria adult’s reported 1777 Scottish generation, 1820 Allegheny Township household and central Pennsylvania continuity make him the leading checked identity for that son. The will supplies no residence, wife or age for its John, so identification with the Cambria adult remains a probable inference. Daill and Glasgow birthplace claims are not equated or verified. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made.",
+          "probability_percent": 86
         }
-      ]
+      ],
+      "biography_rechecked_at": "2026-10-24",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     },
     "Glasgow-804": {
       "draft_path": "research/Glasgow-804/queue-review-2026-10-17.wiki",
@@ -8168,19 +8173,19 @@
       "profile_id": "Glasgow-1549",
       "remote_captured_at": "2026-08-07T09:54:35+00:00",
       "remote_revision": "20230608200141",
-      "draft_path": "research/Glasgow-1549/father-confidence-2026-10-22b.wiki",
-      "summary": "Add the possible Cambria son John Glasgow-664 (57%); preserve the contributed family account and distinguish the uninspected will citation. Review existing father at 21% (uncertain), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the possible Cambria son John Glasgow-664 (57%); preserve the contributed family account and distinguish the uninspected will citation. Review existing father at 21% (uncertain), retaining source and identity limits; no new father attachment.",
+      "draft_path": "research/Glasgow-1549/huntingdon-original-will-2026-10-24.wiki",
+      "summary": "Reconcile nine named children in the original 1825 will; four confident sons, probable Cambria John and new probable Samuel and James; own father remains21%.",
+      "work_queue_summary": "Reconcile nine named children in the original 1825 will; four confident sons, probable Cambria John and new probable Samuel and James; own father remains21%.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
       "significance": 60,
       "findings_path": "research/Glasgow-1549/findings.md",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -8197,7 +8202,8 @@
       ],
       "replacements": [],
       "post_merge_replacements": [],
-      "addition_wikitext": ""
+      "addition_wikitext": "",
+      "private_comparison": false
     },
     "Glasgow-3094": {
       "profile_id": "Glasgow-3094",
@@ -14200,23 +14206,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1552/father-confidence-2026-10-22d.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-1552/huntingdon-original-will-2026-10-24.wiki",
       "findings_path": "research/Glasgow-1552/findings.md",
-      "summary": "Review existing father at 65% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 65% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Improve father confidence John Glasgow: 65% → 96%; original 1825 will inspected.",
+      "work_queue_summary": "Improve father confidence John Glasgow: 65% → 96%; original 1825 will inspected.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1549",
-          "status": "probable",
+          "status": "confident",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 65,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022d-glasgow-1552-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable from the family account, without a held parent-naming record for William. The selected John’s own ancestry is a separate question."
+          "scope": "The original 1825 will explicitly names William among John’s children and gives him a $200 legacy. The existing William account is the compatible circa-1781 son already represented in this family. This is direct evidence for the family relationship, while the at-sea birth and exact later adult dates remain inherited claims rather than facts established by the will. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made."
         }
       ],
       "preserve_captured_detail": false,
@@ -14224,7 +14230,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
+      "private_comparison": false
     },
     "Glasgow-1598": {
       "profile_id": "Glasgow-1598",
@@ -14553,23 +14560,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-36/father-confidence-2026-10-22d.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-36/huntingdon-original-will-2026-10-24.wiki",
       "findings_path": "research/Glasgow-36/findings.md",
-      "summary": "Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Improve father confidence John Glasgow: 64% → 98%; original 1825 will inspected.",
+      "work_queue_summary": "Improve father confidence John Glasgow: 64% → 98%; original 1825 will inspected.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1549",
-          "status": "probable",
+          "status": "confident",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 64,
+          "probability_percent": 98,
           "assertion_id": "C-coverage-20261022d-glasgow-36-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable but dependent on the contributed family account; no held record explicitly names Taylor’s father."
+          "scope": "The original will names Taylor as John’s son, gives him a wagon and a joint share of the Antis home tract with James, and appoints James and Taylor executors. The existing Taylor Wilson account’s Antis household and reproduced 1889 obituary describing his removal with his father to a local farm in 1810 strongly identify this son. The obituary is a held transcription, not a newly inspected newspaper image. Conflicting inherited birth and death dates remain unchanged. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made."
         }
       ],
       "preserve_captured_detail": false,
@@ -14577,7 +14584,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
+      "private_comparison": false
     },
     "Glasgow-3739": {
       "profile_id": "Glasgow-3739",
@@ -22997,23 +23005,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1551/father-confidence-2026-10-22g.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-1551/huntingdon-original-will-2026-10-24.wiki",
       "findings_path": "research/Glasgow-1551/findings.md",
-      "summary": "Review existing father at 72% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 72% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Improve father confidence John Glasgow: 72% → 97%; original 1825 will inspected.",
+      "work_queue_summary": "Improve father confidence John Glasgow: 72% → 97%; original 1825 will inspected.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1549",
-          "status": "probable",
+          "status": "confident",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 72,
+          "probability_percent": 97,
           "assertion_id": "C-coverage-20261022g-glasgow-1551-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+          "scope": "The original 1825 will explicitly names Richard among John’s children and gives him a $200 legacy. The existing Richard account represents the son in this same Sinking Valley family, with a compatible circa-1778 generation and later Blair County life. The original named-child clause replaces reliance on the unsourced migration narrative; that narrative’s precise Scottish birth and travel details remain unverified. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made."
         }
       ],
       "preserve_captured_detail": false,
@@ -23021,7 +23029,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
+      "private_comparison": false
     },
     "Glasgow-1451": {
       "profile_id": "Glasgow-1451",
@@ -23539,23 +23548,23 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-1553/father-confidence-2026-10-22g.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-1553/huntingdon-original-will-2026-10-24.wiki",
       "findings_path": "research/Glasgow-1553/findings.md",
-      "summary": "Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 64% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Improve father confidence John Glasgow: 64% → 96%; original 1825 will inspected.",
+      "work_queue_summary": "Improve father confidence John Glasgow: 64% → 96%; original 1825 will inspected.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1549",
-          "status": "probable",
+          "status": "confident",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
-          "probability_percent": 64,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022g-glasgow-1553-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+          "scope": "The original 1825 will explicitly names Matthew among John’s children and gives him a $200 legacy. The existing Matthew account has the same family placement and a compatible circa-1787 Antis generation. The father identification is now supported by an original parent statement rather than a census slot or contributed child list; the will does not verify Matthew’s exact birth or later death. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made."
         }
       ],
       "preserve_captured_detail": false,
@@ -23563,7 +23572,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
+      "private_comparison": false
     },
     "Glasgow-2874": {
       "significance": 80,
@@ -40856,10 +40866,10 @@
       "pending": true,
       "queued_at": "2026-10-23",
       "biography_rechecked_at": "2026-10-24",
-      "draft_path": "research/Glasgow-45/source-reconciliation-2026-10-24.wiki",
+      "draft_path": "research/Glasgow-45/huntingdon-original-will-2026-10-24.wiki",
       "findings_path": "research/Glasgow-45/findings.md",
-      "summary": "Reconcile Chester testator identity already resolved98%; James’s father remains unknown. Test John-1549’s1825 will next.",
-      "work_queue_summary": "Reconcile Chester testator identity already resolved98%; James’s father remains unknown. Test John-1549’s1825 will next.",
+      "summary": "Original1825 Huntingdon will names James; executor identity remains unproved, father stays unknown.",
+      "work_queue_summary": "Original1825 Huntingdon will names James; executor identity remains unproved, father stays unknown.",
       "significance": 84,
       "relationship_changes": [],
       "preserve_captured_detail": false,
@@ -40867,7 +40877,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/large-join-source-review-2026-10-24.json",
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
       "private_comparison": false
     },
     "Glasgow-62": {
@@ -41029,14 +41039,32 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-23",
-      "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-1984/huntingdon-family-2026-10-23.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-1984/huntingdon-original-will-2026-10-24.wiki",
       "findings_path": "research/Glasgow-1984/findings.md",
-      "summary": "Add qualified probable children: Mary 77%, Benjamin 71%; new family account citation, no upstream parent or spouse assignment.",
-      "relationship_changes": [],
+      "summary": "Add new probable father John Glasgow: Unknown → 88%; original 1825 will inspected.",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1549",
+          "status": "probable",
+          "assertion_id": "C-working-20261024-huntingdon-1984-father",
+          "probability_percent": 88,
+          "scope": "The original will explicitly names a son Samuel and gives him a $50 legacy. Samuel Glasgow-1984’s reported circa-1786 Antis birth and 1829 Huntingdon death fit the testator’s Antis household and father generation. The previously suggested John family is now supported by an actual named-son clause and a specific locality match. The bounded catalogue comparison found no stronger same-generation Antis Samuel. The will gives no Samuel residence, age or spouse, and his profile dates remain derivative, so the complete identity and father proposition is probable at 88%, not certain. Samuel’s reported death before the legacy’s 1832 due date is not a contradiction: the will provides for a deceased child’s issue. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made.",
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "No retained named father before24October2026; new working hypothesis from original will and local identity comparison."
+        }
+      ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/huntingdon-family-review-2026-10-23.json"
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
+      "work_queue_summary": "Add new probable father John Glasgow: Unknown → 88%; original 1825 will inspected.",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "private_comparison": false
     },
     "Glasgow-2637": {
       "profile_id": "Glasgow-2637",
@@ -41463,6 +41491,37 @@
       "post_merge_replacements": [],
       "addition_wikitext": "",
       "private_comparison": false
+    },
+    "Glasgow-2577": {
+      "profile_id": "Glasgow-2577",
+      "draft_path": "research/Glasgow-2577/huntingdon-original-will-2026-10-24.wiki",
+      "findings_path": "research/Glasgow-2577/findings.md",
+      "summary": "Add new probable father John Glasgow: Unknown → 80%; original 1825 will inspected.",
+      "work_queue_summary": "Add new probable father John Glasgow: Unknown → 80%; original 1825 will inspected.",
+      "status": "OPEN",
+      "pending": true,
+      "biography_rechecked_at": "2026-10-24",
+      "preservation_review_path": "research/ancestry-connections/huntingdon-will-review-2026-10-24.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "private_comparison": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1549",
+          "status": "probable",
+          "assertion_id": "C-working-20261024-huntingdon-2577-father",
+          "probability_percent": 80,
+          "scope": "The original will names James as a son, joint devisee of the Antis home tract and executor with Taylor. James Glasgow-2577 is the strongest checked adult match: reported born in Blair County on 4 October 1793, with a daughter Mary Ellen reported born there in 1829 and eventual Logan Valley Cemetery burial. His age about31 at probate fits. These profile and daughter details are derivative and their memorial originals were not inspected. The bounded public-catalogue comparison found no closer local same-generation James. The Missouri James-45 remains a compatible alternative by name, generation and broad Pennsylvania origin, but his probable Downington birth and later Missouri household are a weaker locality match. The will supplies no age, wife or residence for its James; select2577 as an80% probable working father connection, retaining the alternative and all vital fields. The exact percentage assesses the complete father–child identification and is subjective. The original establishes the named family roles; identification of later adults, precise vital dates, maternal parentage and earlier Scottish ancestry require their own evidence. No live WikiTree save or vital-field change is made.",
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "No retained named father before24October2026; new working hypothesis from original will and local identity comparison."
+        }
+      ]
     }
   },
   "reviewed_on": "2026-10-22",
