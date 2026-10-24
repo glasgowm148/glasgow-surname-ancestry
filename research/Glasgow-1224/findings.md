@@ -10,6 +10,8 @@ Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qu
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
+Cached-source review,24 October 2026: The cached Findmypast transcript explicitly labels 19 August 1805 as Catherine’s birth, separate from the held 9 September 1805 baptism account. It names Wm Glasgow and Cath Nisbet at Mead Beek, Kirknewton & East Calder (OPR 690/3 item 2 p 47). This supports the existing child/event and fits the maintained before-9-September birth bound, which remains unchanged. Father Glasgow-1223 stays 87% probable; adult-profile placement and maternity remain qualified. The transcript supplies no baptism date.
+
 ## Father confidence review, eighth batch — 22 October 2026
 
 [Glasgow-1223](https://www.wikitree.com/wiki/Glasgow-1223) remains the selected father, assessed **87% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -44,3 +46,13 @@ Role in this account: recorded later sibling-family comparator Catherine, not th
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+<!-- BEGIN FMP-CACHE-FAMILY-20261024 -->
+## Cached source findings — 24 October 2026
+
+The cached Findmypast transcript explicitly labels 19 August 1805 as Catherine’s birth, separate from the held 9 September 1805 baptism account. It names Wm Glasgow and Cath Nisbet at Mead Beek, Kirknewton & East Calder (OPR 690/3 item 2 p 47). This supports the existing child/event and fits the maintained before-9-September birth bound, which remains unchanged. Father Glasgow-1223 stays 87% probable; adult-profile placement and maternity remain qualified. The transcript supplies no baptism date.
+
+- [Findmypast SCOT/OPR/BAP/4478341](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478341&tab=this) — birth transcript.
+
+These derivative transcripts were captured 3 September 2026 and reviewed from saved receipts 24 October; no new source capture or original-register inspection. The birth dates remain distinct from baptism. Compare the original pages and held FamilySearch/OPR sources before any vital correction. Adult identities and existing grades retain their stated scope. [Shared study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-FAMILY-20261024 -->

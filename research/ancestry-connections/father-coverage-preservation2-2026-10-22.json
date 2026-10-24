@@ -167,13 +167,19 @@
     },
     "Glasgow-3314": {
       "current_sha256": "32c62b0a1714752c19240866a4388b68d944bcea93133d212cfe3453bb508817",
-      "proposed_sha256": "c332d699fa799a149a7f7d2bbda96290f6257d11a73e649c679d05151e07b105",
-      "previous_proposed_sha256": "cebb281249de38785d4181e7136cc346c89adffcfd08bf31dbe2af64a7dd66a7",
+      "proposed_sha256": "f5d3134987e527b792e126932cfea077adbb8007daa76483dd6fcae97bb8ddb6",
+      "previous_proposed_sha256": "c332d699fa799a149a7f7d2bbda96290f6257d11a73e649c679d05151e07b105",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3314/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Complete captured biography and previous full proposal retained, including all family discussion, child table, named references, source URLs, 28 March structured-date claim and 84% father review. Added a cited research note that contrasts the held FamilySearch 28 March index with the saved Findmypast birth 20 April and baptism 30 April 1740; no vital, parent grade, or identity conclusion changed. Original register and FamilySearch date role remain uninspected together.",
-      "restored_source_passage_count": 0
+      "retained": "Complete prior biography, family, sources and named refs retained. New saved-transcript birth/maternal readings and explicit date conflicts are qualified. John3314 child-table source descriptions and former mother-unstated paragraph are superseded by cited Margaret Mill readings; every prior source identity remains. Whitespace normalized in additions. Existing vital fields and relationship grades retained.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_git_reference": "8dfc6ce01ee787f12d71976efb53591ca18d16f8:research/Glasgow-3314/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        "| Indexed record names John Glasgow as father.<ref name=\"Issobel1773\">\"Scotland, Births and Baptisms, 1564–1950,\" database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-CHL : accessed 28 July 2026), John Glasgow in entry for Issobel Glasgow, 30 October 1773.</ref>",
+        "The supplied extracts for Andrew, Margaret, Agnes, Issobel and Janet identify John as their father but do not display their mother's name. Their dates and placement with the same FamilySearch family make Margaret Mill the probable mother, but the original entries should be checked."
+      ]
     },
     "Glasgow-2844": {
       "current_sha256": "ab876360307788a5b5383e7cf7e75447d791b0b4720bea8d849f68c3381c48bc",
@@ -670,12 +676,16 @@
     },
     "Glasgow-1304": {
       "current_sha256": "7c5331c6005c6f7797ff8dc6c7249ec41a9e4e7a2e88a4797950e722edc65f03",
-      "proposed_sha256": "6257b5a25dd05d1cdf9387d881c4505eb795cb838f0facd446a5e0d033eccaf0",
+      "proposed_sha256": "d4ea200e8d49fc49bea4ff05dfbedeb1eb192b7f293bd52377078d294ef5d6cf",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1304/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete prior biography, family, sources and named refs retained. New saved-transcript birth/maternal readings and explicit date conflicts are qualified. John3314 child-table source descriptions and former mother-unstated paragraph are superseded by cited Margaret Mill readings; every prior source identity remains. Whitespace normalized in additions. Existing vital fields and relationship grades retained.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "6257b5a25dd05d1cdf9387d881c4505eb795cb838f0facd446a5e0d033eccaf0",
+      "previous_proposed_git_reference": "8dfc6ce01ee787f12d71976efb53591ca18d16f8:research/Glasgow-1304/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-1450": {
       "current_sha256": "2fc1f0c67e1b5f2dbf88de52392c887375972c96a3d76020446126537069657d",

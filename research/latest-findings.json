@@ -56931,6 +56931,150 @@
         "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
         "research/Glasgow-1675/glendinning-memorial-2026-10-24.md"
       ]
+    },
+    {
+      "id": "fmp-cache-bathgate-mill-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Bathgate Janet 1776 transcript explicitly names Margt Mill as mother and separates birth 7 December from baptism 9 December.",
+      "qualification": "The existing John draft previously cited a father-only baptism extract. The companion spells Margaret; the 1773 Issobel indexes also name Margaret Mill. John-3314/Mill-757 remain compatible adult comparisons and both children unassigned. Existing 1740 date conflict and 84%father assessment are unchanged. Saved derivative transcripts reviewed 24 October 2026; this is cached-source integration, not new capture or original-register inspection.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-3314",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3314.html"
+        },
+        {
+          "id": "Mill-757",
+          "name": "Margaret (Mill) Glasgow",
+          "url": "/people/mill-757.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4121234 — saved derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121234&tab=this"
+        },
+        {
+          "title": "Findmypast R_691841702 — saved derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_691841702&tab=this"
+        },
+        {
+          "title": "Findmypast R_686350090 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686350090&tab=this"
+        },
+        {
+          "title": "Findmypast R_687775452 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_687775452&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-cache-meikle-births-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Cached Kirknewton records explicitly give George’s birth 25 January 1811 and Jane’s 14 January 1814; John’s 2 December 1808 conflicts with his maintained 18 December date.",
+      "qualification": "These are birth fields, with no baptism dates. George’s two provider entries may index one event despite page 29/49 and residence differences. Meikle/Muckle and adult identities remain qualified. Existing child bounds and father grades 96%,94%,93% are retained pending original comparison. Saved derivative transcripts reviewed 24 October 2026; this is cached-source integration, not new capture or original-register inspection.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1304",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1304.html"
+        },
+        {
+          "id": "Muckle-67",
+          "name": "Margaret (Muckle) Glasgow",
+          "url": "/people/muckle-67.html"
+        },
+        {
+          "id": "Glasgow-3601",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3601.html"
+        },
+        {
+          "id": "Glasgow-1307",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1307.html"
+        },
+        {
+          "id": "Glasgow-1308",
+          "name": "Jane (Glasgow) Massarini",
+          "url": "/people/glasgow-1308.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478397 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478397&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4477292 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477292&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478456 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478456&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478529 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478529&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-cache-nisbet-births-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two cached Kirknewton transcripts explicitly give James’s birth 24 December 1803 and Catherine’s 19 August 1805, naming Wm Glasgow and Cath Nisbet at Mead Beek.",
+      "qualification": "The dates fit the existing children’s birth bounds. They supplement separately held 1804/1805 baptism accounts; the transcripts leave baptism blank. William-1223’s adult bridge and maternal identity remain qualified, with current bounds and 85%/87%father assessments unchanged. Saved derivative transcripts reviewed 24 October 2026; this is cached-source integration, not new capture or original-register inspection.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1223",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1223.html"
+        },
+        {
+          "id": "Glasgow-1325",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1325.html"
+        },
+        {
+          "id": "Glasgow-1224",
+          "name": "Catherine Glasgow",
+          "url": "/people/glasgow-1224.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478299 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478299&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4478341 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478341&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     }
   ]
 }

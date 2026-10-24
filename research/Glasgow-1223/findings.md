@@ -8,6 +8,8 @@ William’s 1765 Swinton and Simprin child account names James Glasgow and Eliza
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
+Cached-source review,24 October 2026: Cached Kirknewton birth transcripts for James (24 December 1803) and Catherine (19 August 1805) name Wm Glasgow and Cath Nisbet at Mead Beek. Their child identities fit the existing household and birth bounds. The named father is a compatible comparison to this profile, whose Swinton-child-to-Kirknewton-adult continuity remains qualified. The 98% assessment concerns William’s own recorded father; it does not prove that later adult bridge. No vital or relationship grade is changed.
+
 ## Father confidence review, third batch — 22 October 2026
 
 [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -44,9 +46,9 @@ Role in this account: plausible adult father William Glasgow of Catherine Nisbet
 <!-- BEGIN FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
 ## Findmypast pages 9–11 source review — 23 October 2026
 
-Role in this account: Adult parent comparison only; plausible adult father, childhood separate. Same 1796 Kirknewton Elizabeth/William/Catharine Nisbet subject, but OPR gives 7 Mar birth/17 Mar baptism p13 Newlands; 12 Mar birth/18 Mar baptism Newlands; 12 Mar birth/10 Oct baptism p15 Newton. Derivatives say 18 or 27 Mar baptism. Do not flatten discrepant register entries or invent siblings. External profile comparison: [Nisbet-3257](https://www.wikitree.com/wiki/Nisbet-3257) — Adult parent comparison only; adult mother candidate, separately qualified. No local destination or maternal grade is invented.
+Role in this account: Adult parent comparison only; plausible adult father, childhood separate. Same 1796 Kirknewton Elizabeth/William/Catharine Nisbet subject, but OPR gives 7 Mar birth/17 Mar baptism p 13 Newlands; 12 Mar birth/18 Mar baptism Newlands; 12 Mar birth/10 Oct baptism p 15 Newton. Derivatives say 18 or 27 Mar baptism. Do not flatten discrepant register entries or invent siblings. External profile comparison: [Nisbet-3257](https://www.wikitree.com/wiki/Nisbet-3257) — Adult parent comparison only; adult mother candidate, separately qualified. No local destination or maternal grade is invented.
 
-Next question: Original OPR 690/3 pp13/15 and held pages 44/121/122/251.
+Next question: Original OPR 690/3 pp 13/15 and held pages 44/121/122/251.
 
 - [Findmypast SCOT/OPR/BAP/4476993](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476993&tab=this), derivative transcript inspected 23 October 2026.
 - [Findmypast SCOT/OPR/BAP/4476980](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476980&tab=this), derivative transcript inspected 23 October 2026.
@@ -58,3 +60,14 @@ Next question: Original OPR 690/3 pp13/15 and held pages 44/121/122/251.
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+
+<!-- BEGIN FMP-CACHE-FAMILY-20261024 -->
+## Cached source findings — 24 October 2026
+
+Cached Kirknewton birth transcripts for James (24 December 1803) and Catherine (19 August 1805) name Wm Glasgow and Cath Nisbet at Mead Beek. Their child identities fit the existing household and birth bounds. The named father is a compatible comparison to this profile, whose Swinton-child-to-Kirknewton-adult continuity remains qualified. The 98% assessment concerns William’s own recorded father; it does not prove that later adult bridge. No vital or relationship grade is changed.
+
+- [Findmypast SCOT/OPR/BAP/4478299](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478299&tab=this) — birth transcript.
+- [Findmypast SCOT/OPR/BAP/4478341](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478341&tab=this) — birth transcript.
+
+These derivative transcripts were captured 3 September 2026 and reviewed from saved receipts 24 October; no new source capture or original-register inspection. The birth dates remain distinct from baptism. Compare the original pages and held FamilySearch/OPR sources before any vital correction. Adult identities and existing grades retain their stated scope. [Shared study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-CACHE-FAMILY-20261024 -->

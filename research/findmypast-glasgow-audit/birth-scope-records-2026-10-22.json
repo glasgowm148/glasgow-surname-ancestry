@@ -316,7 +316,9 @@
       "R_691880108",
       "R_691905239",
       "R_692403113",
-      "SCOT/OPR/BAP/4476992"
+      "SCOT/OPR/BAP/4476992",
+      "SCOT/OPR/BAP/4121234",
+      "R_691841702"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -446,8 +448,6 @@
       "SCOT/OPR/BAP/3838724",
       "GBPRS/GLASGOW/BUR/093135",
       "R_691306812",
-      "SCOT/OPR/BAP/4121234",
-      "R_691841702",
       "R_690418970",
       "SCOT/OPR/BAP/4108081",
       "R_685771856",
@@ -460,7 +460,7 @@
       "SCOT/OPR/BUR/0109898"
     ],
     "next_query_page": 18,
-    "integration_scope": "447 retained provider receipts indexed; page17 adds20 provider records across12 provisional groups. Two existing-child confirmations and one compatible Janet-1448 candidate account are retained; nine groups remain source-only. No new people, vital changes, relationship regrades or original-register inspections. Full provider coverage remains INCOMPLETE.",
+    "integration_scope": "447 retained ledger receipts indexed;310 have qualified person/draft context and137 are source-only. Six additional cached later-child receipts are newly indexed by their original saved pointers as secondary-role sources for pre-1800 father candidates. No new people, vital changes, relationship regrades or original-register inspections. Full provider coverage remains INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -910,7 +910,7 @@
       "R_689425253",
       "SCOT/OPR/BUR/0109898"
     ],
-    "records_with_profile_or_draft_context": 308,
+    "records_with_profile_or_draft_context": 310,
     "remaining_coverage": [
       "Pages18–294 nominal of current1719–1799 birth-filtered BMD query;61 saved transcript gaps on pages18–21, then capture page22; provider caps may require partitioning",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
@@ -918,10 +918,10 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-page17-20261024-verification.json",
+    "verification_report": "output/findmypast-cache-family-20261024-verification.json",
     "verified_on": "2026-10-24",
     "indexed_provider_record_count": 447,
-    "next_action": "Resume saved page18 at GBPRS/GLASGOW/BUR/093167, using its saved search row and exact-ID preflight;61 transcript gaps remain across pages18–21. Next uncaptured search page22 of294. Do not refetch sufficient receipts.",
+    "next_action": "Review remaining cached secondary-role households first; do not refetch sufficient receipts. Then resume saved page18 at GBPRS/GLASGOW/BUR/093167;61 detail gaps across pages18–21 remain. Next uncaptured search page22 of294.",
     "recent_query_transcripts": 312,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
@@ -936,7 +936,9 @@
     "contiguous_query_rows_reviewed": 340,
     "recent_query_detail_gaps": 61,
     "unindexed_captured_record_ids": [],
-    "pending_transcript_matching": 0
+    "pending_transcript_matching": 0,
+    "supplemental_cached_records_indexed": 6,
+    "total_indexed_reviewed_provider_ids": 453
   },
   "search_pages": [
     {
@@ -21795,7 +21797,7 @@
       "access_status": "accessible",
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Native Chrome accessibility transcript table",
-      "matching_status": "source_only_hold",
+      "matching_status": "parent_candidate_hold",
       "image_url": null,
       "reviewed_on": "2026-10-24",
       "birth_surname_status": "Indexed baptism surname; child/adult identity separately assessed"
@@ -21829,7 +21831,7 @@
       "access_status": "accessible",
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Native Chrome accessibility transcript table",
-      "matching_status": "source_only_hold",
+      "matching_status": "parent_candidate_hold",
       "image_url": null,
       "reviewed_on": "2026-10-24",
       "birth_surname_status": "Indexed baptism surname; child/adult identity separately assessed"
@@ -31917,16 +31919,28 @@
           "assessment": "A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved."
         },
         "SCOT/OPR/BAP/4477292": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "cached_secondary_role_indexed",
+          "reviewed_on": "2026-10-24",
           "new_provider_fetch": false,
           "new_person_proposed": false,
           "receipt_provenance": {
             "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
             "pointer": "#/records/SCOT~1OPR~1BAP~14477292"
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "indexed": true,
+          "reason": "Prior pending parent-role review is superseded by the qualified current canonical household account; adult identity remains qualified, with no new vital or relationship assessment.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "canonical_record_id": "fmp-record-scot-opr-bap-4477292",
+          "catalogue_profiles": {
+            "Glasgow-1307": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+            "Glasgow-1304": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+            "Muckle-67": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed."
+          },
+          "assessment": "24 October follow-up supersedes the old unresolved parent comparison: qualified linked-child household context is now recorded in the canonical account and public source reader. Explicit source birth fields are preserved separately from baptism; no vital or parent-grade change."
         },
         "SCOT/OPR/BAP/4478285": {
           "status": "no_eligible_role_proved",
@@ -31941,64 +31955,122 @@
           "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
         },
         "SCOT/OPR/BAP/4478299": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "cached_secondary_role_indexed",
+          "reviewed_on": "2026-10-24",
           "new_provider_fetch": false,
           "new_person_proposed": false,
           "receipt_provenance": {
             "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
             "pointer": "#/records/SCOT~1OPR~1BAP~14478299"
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "indexed": true,
+          "reason": "Prior pending parent-role review is superseded by the qualified current canonical household account; adult identity remains qualified, with no new vital or relationship assessment.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "canonical_record_id": "fmp-record-scot-opr-bap-4478299",
+          "catalogue_profiles": {
+            "Glasgow-1325": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+            "Glasgow-1223": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved."
+          },
+          "assessment": "24 October follow-up supersedes the old unresolved parent comparison: qualified linked-child household context is now recorded in the canonical account and public source reader. Explicit source birth fields are preserved separately from baptism; no vital or parent-grade change."
         },
         "SCOT/OPR/BAP/4478341": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "cached_secondary_role_indexed",
+          "reviewed_on": "2026-10-24",
           "new_provider_fetch": false,
           "new_person_proposed": false,
           "receipt_provenance": {
             "path": "research/findmypast-glasgow-audit/record-details-retries.json",
             "pointer": "#/records/SCOT~1OPR~1BAP~14478341"
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "indexed": true,
+          "reason": "Prior pending parent-role review is superseded by the qualified current canonical household account; adult identity remains qualified, with no new vital or relationship assessment.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "canonical_record_id": "fmp-record-scot-opr-bap-4478341",
+          "catalogue_profiles": {
+            "Glasgow-1224": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+            "Glasgow-1223": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved."
+          },
+          "assessment": "24 October follow-up supersedes the old unresolved parent comparison: qualified linked-child household context is now recorded in the canonical account and public source reader. Explicit source birth fields are preserved separately from baptism; no vital or parent-grade change."
         },
         "SCOT/OPR/BAP/4478397": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "cached_secondary_role_indexed",
+          "reviewed_on": "2026-10-24",
           "new_provider_fetch": false,
           "new_person_proposed": false,
           "receipt_provenance": {
             "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
             "pointer": "#/records/SCOT~1OPR~1BAP~14478397"
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "indexed": true,
+          "reason": "Prior pending parent-role review is superseded by the qualified current canonical household account; adult identity remains qualified, with no new vital or relationship assessment.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "canonical_record_id": "fmp-record-scot-opr-bap-4478397",
+          "catalogue_profiles": {
+            "Glasgow-3601": "Compatible existing child comparison; 2 December birth conflicts with maintained 18 December 1808. Identity and date remain on HOLD.",
+            "Glasgow-1304": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+            "Muckle-67": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed."
+          },
+          "assessment": "24 October follow-up supersedes the old unresolved parent comparison: qualified linked-child household context is now recorded in the canonical account and public source reader. Explicit source birth fields are preserved separately from baptism; no vital or parent-grade change."
         },
         "SCOT/OPR/BAP/4478456": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "cached_secondary_role_indexed",
+          "reviewed_on": "2026-10-24",
           "new_provider_fetch": false,
           "new_person_proposed": false,
           "receipt_provenance": {
             "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
             "pointer": "#/records/SCOT~1OPR~1BAP~14478456"
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "indexed": true,
+          "reason": "Prior pending parent-role review is superseded by the qualified current canonical household account; adult identity remains qualified, with no new vital or relationship assessment.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "canonical_record_id": "fmp-record-scot-opr-bap-4478456",
+          "catalogue_profiles": {
+            "Glasgow-1307": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+            "Glasgow-1304": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+            "Muckle-67": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed."
+          },
+          "assessment": "24 October follow-up supersedes the old unresolved parent comparison: qualified linked-child household context is now recorded in the canonical account and public source reader. Explicit source birth fields are preserved separately from baptism; no vital or parent-grade change."
         },
         "SCOT/OPR/BAP/4478529": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "cached_secondary_role_indexed",
+          "reviewed_on": "2026-10-24",
           "new_provider_fetch": false,
           "new_person_proposed": false,
           "receipt_provenance": {
             "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
             "pointer": "#/records/SCOT~1OPR~1BAP~14478529"
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "indexed": true,
+          "reason": "Prior pending parent-role review is superseded by the qualified current canonical household account; adult identity remains qualified, with no new vital or relationship assessment.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "canonical_record_id": "fmp-record-scot-opr-bap-4478529",
+          "catalogue_profiles": {
+            "Glasgow-1308": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+            "Glasgow-1304": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+            "Muckle-67": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed."
+          },
+          "assessment": "24 October follow-up supersedes the old unresolved parent comparison: qualified linked-child household context is now recorded in the canonical account and public source reader. Explicit source birth fields are preserved separately from baptism; no vital or parent-grade change."
         },
         "SCOT/OPR/BAP/4479548": {
           "status": "no_eligible_role_proved",
@@ -46291,8 +46363,11 @@
             "SCOT/OPR/BAP/4121234",
             "R_691841702"
           ],
-          "status": "source_only_hold",
-          "profiles": {},
+          "status": "parent_candidate_hold",
+          "profiles": {
+            "Glasgow-3314": "Compatible existing father comparison; Janet child unassigned",
+            "Mill-757": "Compatible existing mother comparison; adult identity unproved"
+          },
           "literal_facts_and_provenance": [
             {
               "provider_id": "SCOT/OPR/BAP/4121234",
@@ -46341,10 +46416,10 @@
               }
             }
           ],
-          "assessment": "Bathgate Janet: OPR gives birth 7 Dec 1776 and baptism 9 Dec; names John Glasgow and mother Margt Mill. Companion derivative names mother Margaret Mill but omits exact birth date. Do not infer a distinct adult father identity from the common name; no exact daughter profile proven. Check Janet/Jannet/Jennet cluster and known Bathgate household candidates.",
+          "assessment": "Janet Glasgow is explicitly born 7 December 1776 and baptised 9 December at Bathgate, John Glasgow and Margt Mill; the companion gives baptism and Margaret Mill but no exact birth date. The existing Glasgow-3314 complete draft already listed the father-only Janet baptism. The new maternal reading and separate birth date enrich that account. Glasgow-3314/Mill-757 are compatible adult comparisons: same couple, linked West Calder children1762–1770, held1773Issobel and coherent chronology; Margaret’s circa1740 Bathgate origin is an inherited tree claim. No original or direct household bridge proves the named adults to be these profiles. Janet remains an unassigned child; no new person, vital or relationship regrade. Compare original1773/1776 entries and marriage/residence/occupation evidence.",
           "novelty": "new_source_defined",
           "existing_canonical_events": "No matched child profile/current vital field; father/mother are record-named only.",
-          "next_test": "Check Janet/Jannet/Jennet receipts arriving later against this event by exact birth/baptism date, named parents and parish; do not create a person or transfer adult parent identity from absence of conflicting records."
+          "next_test": "Compare original1773/1776 registers and the WestCalder/Bathgate household bridge"
         },
         {
           "record_ids": [
@@ -46912,7 +46987,445 @@
         "previous_receipt_ids_verified_in_public_index": 427,
         "new_provider_ids": 20,
         "note": "Historical mappings were already present; correcting the ID list is not221 new records."
-      }
+      },
+      "followup_20261024": "Bathgate Janet now has qualified existing parent context; child remains unassigned. Historical page17 counts describe original publication; current scope has310 context receipts/137source-only."
+    },
+    "cached_secondary_role_review_20261024": {
+      "reviewed_on": "2026-10-24",
+      "status": "Current reviewed integration; source receipts retained at original pointers, not copied into literal capture ledger",
+      "new_provider_captures": 0,
+      "newly_indexed_cached_provider_records": 6,
+      "documentary_child_events": 5,
+      "records": [
+        {
+          "provider_id": "SCOT/OPR/BAP/4478397",
+          "canonical_id": "fmp-record-scot-opr-bap-4478397",
+          "receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478397",
+          "profiles": {
+            "Glasgow-3601": {
+              "role": "Compatible existing child comparison; 2 December birth conflicts with maintained 18 December 1808. Identity and date remain on HOLD.",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1304": {
+              "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+              "timeline_group": "Qualified source records"
+            },
+            "Muckle-67": {
+              "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "disposition": "newly_indexed_cached_secondary_role",
+          "captured_at": "2026-09-03T20:42:56.463Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4477292",
+          "canonical_id": "fmp-record-scot-opr-bap-4477292",
+          "receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14477292",
+          "profiles": {
+            "Glasgow-1307": {
+              "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1304": {
+              "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+              "timeline_group": "Qualified source records"
+            },
+            "Muckle-67": {
+              "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "disposition": "newly_indexed_cached_secondary_role",
+          "captured_at": "2026-09-03T20:41:11.630Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478456",
+          "canonical_id": "fmp-record-scot-opr-bap-4478456",
+          "receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478456",
+          "profiles": {
+            "Glasgow-1307": {
+              "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1304": {
+              "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+              "timeline_group": "Qualified source records"
+            },
+            "Muckle-67": {
+              "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "disposition": "newly_indexed_cached_secondary_role",
+          "captured_at": "2026-09-03T20:41:19.977Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478529",
+          "canonical_id": "fmp-record-scot-opr-bap-4478529",
+          "receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478529",
+          "profiles": {
+            "Glasgow-1308": {
+              "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1304": {
+              "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+              "timeline_group": "Qualified source records"
+            },
+            "Muckle-67": {
+              "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "disposition": "newly_indexed_cached_secondary_role",
+          "captured_at": "2026-09-03T20:42:23.716Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478299",
+          "canonical_id": "fmp-record-scot-opr-bap-4478299",
+          "receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478299",
+          "profiles": {
+            "Glasgow-1325": {
+              "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1223": {
+              "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "disposition": "newly_indexed_cached_secondary_role",
+          "captured_at": "2026-09-03T20:42:19.601Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4478341",
+          "canonical_id": "fmp-record-scot-opr-bap-4478341",
+          "receipt": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~14478341",
+          "profiles": {
+            "Glasgow-1224": {
+              "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1223": {
+              "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "disposition": "newly_indexed_cached_secondary_role",
+          "captured_at": "2026-09-03T22:07:18.537Z"
+        }
+      ],
+      "bathgate_parent_followup": {
+        "record_ids": [
+          "SCOT/OPR/BAP/4121234",
+          "R_691841702",
+          "R_686350090",
+          "R_687775452"
+        ],
+        "profiles": [
+          "Glasgow-3314",
+          "Mill-757"
+        ],
+        "assessment": "Janet Glasgow is explicitly born 7 December 1776 and baptised 9 December at Bathgate, John Glasgow and Margt Mill; the companion gives baptism and Margaret Mill but no exact birth date. The existing Glasgow-3314 complete draft already listed the father-only Janet baptism. The new maternal reading and separate birth date enrich that account. Glasgow-3314/Mill-757 are compatible adult comparisons: same couple, linked West Calder children1762–1770, held1773Issobel and coherent chronology; Margaret’s circa1740 Bathgate origin is an inherited tree claim. No original or direct household bridge proves the named adults to be these profiles. Janet remains an unassigned child; no new person, vital or relationship regrade. Compare original1773/1776 entries and marriage/residence/occupation evidence.",
+        "prior_disposition": "Janet pair source-only; Issobel pair qualified John comparison with unmapped literal mother",
+        "child_identity_status": "Both child profiles remain unassigned; no new person proposed"
+      },
+      "whitburn_household": {
+        "record_ids": [
+          "SCOT/OPR/BAP/4171811",
+          "SCOT/OPR/BAP/4171812",
+          "SCOT/OPR/BAP/4171813"
+        ],
+        "status": "Source-only sibling leads; parent IDs unproved"
+      },
+      "new_people": 0,
+      "vital_changes": [],
+      "relationship_changes": [],
+      "original_images_inspected": 0,
+      "verification_report": "output/findmypast-cache-family-20261024-verification.json"
+    },
+    "cached_inventory_20261024": {
+      "reviewed_on": "2026-10-24",
+      "scope": "Read-only exact-provider-ID audit of accessible receipt records in approved research/findmypast-glasgow-audit/record-details*.json and birth-scope-records*.json against research/canonical_records.json and www/data/records-index.json. No browser/build/project writes.",
+      "source_files": [
+        "record-details-remaining-a.json",
+        "record-details-1701-1750-a.json",
+        "record-details-retries.json",
+        "record-details-pre1701.json",
+        "record-details-pre1701-root.json",
+        "record-details-remaining-b.json",
+        "birth-scope-records-2026-10-22.json"
+      ],
+      "counts_before": {
+        "accessible_unique_provider_ids_checked": 776,
+        "already_indexed_exact_provider_id": 664,
+        "unindexed_accessible": 112,
+        "exact_field_duplicate_clusters": 15,
+        "duplicate_extra_provider_rows": 20,
+        "candidate_detail_cap": 20,
+        "candidate_records_detailed": 20,
+        "direct_under_1800_birth_events_found": 0,
+        "unindexed_eligible_direct_births": 0,
+        "potential_secondary_role_rows_not_identity_resolved": 67,
+        "remaining_OPR_rows_not_detailed": 54,
+        "unindexed_other_record_set_count": 40
+      },
+      "newly_integrated_provider_ids": [
+        "SCOT/OPR/BAP/4478397",
+        "SCOT/OPR/BAP/4477292",
+        "SCOT/OPR/BAP/4478456",
+        "SCOT/OPR/BAP/4478529",
+        "SCOT/OPR/BAP/4478299",
+        "SCOT/OPR/BAP/4478341"
+      ],
+      "remaining_unindexed_cached_provider_ids": 106,
+      "remaining_secondary_role_rows": 61,
+      "scope_exclusions_and_holds": [
+        {
+          "category": "title/place Glasgow, not evidenced Glasgow surname",
+          "provider_ids": [
+            "GBPRS/HRH/90006775/1",
+            "GBPRS/HRH/90006779/1",
+            "GBPRS/HRH/90006781/1",
+            "GBPRS/HRH/90006783/1",
+            "GBPRS/HRH/90006790/1",
+            "GBPRS/HRH/90006810/1",
+            "GBPRS/HRH/90006935/1",
+            "GBPRS/HRH/90007090/1",
+            "GBPRS/HRH/90007339/1"
+          ],
+          "basis": "Royal Household entries label offices/titles Bishop/Archdeacon/Earl of Glasgow; “Glasgow” is the office/location in the indexed name, not evidence of a Glasgow-surnamed target."
+        },
+        {
+          "category": "institutional/legal records",
+          "provider_ids": [
+            "SCOT/CRIM/COURTSESSION/0213278",
+            "SCOT/CRIM/COURTSESSION/0264068",
+            "SCOT/CRIM/COURTSESSION/0264080",
+            "SCOT/CRIM/COURTSESSION/0264458",
+            "SCOT/CRIM/COURTSESSION/0267376",
+            "SCOT/CRIM/COURTSESSION/0267377",
+            "SCOT/CRIM/COURTSESSION/0268483",
+            "GBPR/COVENANT/028563"
+          ],
+          "basis": "Fields identify University/Physicians of Glasgow, a hatter located in Glasgow, or college landholders; not a personal Glasgow birth record. 0267376 and 0267377 are exact-field duplicate court rows."
+        },
+        {
+          "category": "ambiguous office/index extraction; retain scope hold",
+          "provider_ids": [
+            "SCOT/BURGESS/0025936",
+            "SCOT/BURGESS/0025937",
+            "SCOT/BURGESS/0025938",
+            "SCOT/BURGESS/0052718",
+            "SCOT/BURGESS/1009522",
+            "IRE/NAI/GENABS/00612100/1"
+          ],
+          "basis": "Burgess rows mostly say Archbishop/Earl of Glasgow; exact personal surname status is not established. Crossle abstract has no first name and no year. Do not count as eligible Glasgow people from the index label alone."
+        },
+        {
+          "category": "post-cutoff or modern/living scope",
+          "provider_ids": [
+            "GBM/WO416/011514",
+            "GBM/WO416/011515",
+            "GBM/WO416/011516",
+            "GBM/WO416/011517",
+            "R_106139004438/1",
+            "R_106139084126/1",
+            "R_106139530318/2",
+            "R_106139730035/2",
+            "R_106140524175/2",
+            "R_106140634472/1",
+            "R_106140646620/2",
+            "R_106140771397/1",
+            "R_106140779732/1",
+            "FS/MAR/30998318/2"
+          ],
+          "basis": "POW records concern births 1902–1924; US marriage entries are modern year/age records; Bridget Glasgow/Kansas receipt has no event date and no historical identity bridge."
+        },
+        {
+          "category": "undated personal-name leads, not yet eligible matches",
+          "provider_ids": [
+            "IRE/DIOC/WILL/00377282"
+          ],
+          "basis": "William Glasgow will-index row has no year; no birth/origin or specific eligible profile relationship established."
+        }
+      ],
+      "duplicate_cohorts": [
+        {
+          "provider_ids": [
+            "R_106140634472/1",
+            "R_106140771397/1"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_685030170",
+            "R_690135248"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_685232562",
+            "R_688269282"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_685307756",
+            "R_688616652"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_685308116",
+            "R_688617841"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_685539365",
+            "R_688892582"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_685858233",
+            "R_692418843"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_686124252",
+            "R_691381819"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_686320182",
+            "R_694113950"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_686350969",
+            "R_687779707"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_686711246",
+            "R_690795906",
+            "R_690796739"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_691844705",
+            "R_691844706",
+            "R_691845433",
+            "R_691845434"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "R_694082635",
+            "R_694083942"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "SCOT/CRIM/COURTSESSION/0264068",
+            "SCOT/CRIM/COURTSESSION/0264080",
+            "SCOT/CRIM/COURTSESSION/0264458",
+            "SCOT/CRIM/COURTSESSION/0268483"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        },
+        {
+          "provider_ids": [
+            "SCOT/CRIM/COURTSESSION/0267376",
+            "SCOT/CRIM/COURTSESSION/0267377"
+          ],
+          "interpretation": "Exact same selected transcript fields; treat as same event/index duplicate cohort, not independent evidence."
+        }
+      ],
+      "remaining_opr_provider_ids": [
+        "R_685030170",
+        "R_685232562",
+        "R_685307756",
+        "R_685308116",
+        "R_685539365",
+        "R_686124252",
+        "R_686320182",
+        "R_686711246",
+        "R_687777343",
+        "R_688269282",
+        "R_688616652",
+        "R_688617841",
+        "R_688892582",
+        "R_689699647",
+        "R_689724723",
+        "R_689725510",
+        "R_690135248",
+        "R_690420455",
+        "R_690422173",
+        "R_690795906",
+        "R_690796739",
+        "R_691381819",
+        "R_691844705",
+        "R_691844706",
+        "R_691845433",
+        "R_691845434",
+        "R_692593769",
+        "R_692599336",
+        "R_692647260",
+        "R_692708655",
+        "R_693244723",
+        "R_693244934",
+        "R_693982333",
+        "R_694082635",
+        "R_694083942",
+        "R_694113950",
+        "SCOT/OPR/BAP/0400859",
+        "SCOT/OPR/BAP/0435600",
+        "SCOT/OPR/BAP/0437549",
+        "SCOT/OPR/BAP/0441539",
+        "SCOT/OPR/BAP/2708778",
+        "SCOT/OPR/BAP/3450996",
+        "SCOT/OPR/BAP/3452913",
+        "SCOT/OPR/BAP/3452914",
+        "SCOT/OPR/BAP/3452915",
+        "SCOT/OPR/BAP/3590951",
+        "SCOT/OPR/BAP/3590965",
+        "SCOT/OPR/BAP/4479548",
+        "SCOT/OPR/BAP/4590485",
+        "SCOT/OPR/BAP/4600209",
+        "SCOT/OPR/BAP/4816038",
+        "SCOT/OPR/BAP/5058867",
+        "SCOT/OPR/BAP/5059061",
+        "SCOT/OPR/BAP/5059684"
+      ],
+      "status": "Bounded cache audit, not complete identity review;67 named-parent rows before this six-record batch. Remaining later-born subjects require per-parent birth-scope screening. 40 other record-set rows retain explicit exclusions/HOLDs; duplicate cohorts are not independent evidence.",
+      "prior_hold_reconciliation": "The six records already had23October no_eligible_role_proved dispositions, now superseded by positive existing-family comparisons; earlier HOLDs for other IDs remain current. The preflight report missed dictionary-keyed record_dispositions; absence of its explicit hold flag was not evidence of no prior review.",
+      "superseded_preflight_hold_count": {
+        "reported": 0,
+        "status": "Invalid as a prior-review count: old scanner omitted keyed record_dispositions. Six selected sources had explicit prior pending-parent dispositions; these are preserved and superseded by qualified family comparisons."
+      },
+      "preflight_fix_commit": "1f4191cea1dce8acd5bb243a4d1fe2fb710cdcee"
     }
   }
 }

@@ -38999,10 +38999,14 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_686350090&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Issobel Glasgow",
     "status": "Inspected derivative transcript; parent_candidate_hold",
-    "note": "Two indexes describe one event: Issobel Glasgow, baptism 30 Oct 1773 at West Calder, father John Glasgow, mother Margaret Mill; no explicit birth date (birth year 1773 only). Existing John/Margaret Mill household records run through 1770, making a later child a family-context lead, not an automatic extension or profile match. Unmapped named role: Margaret Mill — Literal mother field only; not assigned to a modern profile.. Next question: Compare the original record and the existing West Calder family’s later records; retain maternal name as literal and do not grade a new relationship. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Profile comparison roles retain their explicit limits; no unproved adult identity or parent attachment is adopted. Indexed factual fields: First name(s) = Issobel; Mother's last name = Mill; Last name = Glasgow; Residence = West Calder, Midlothian, Scotland; Sex = Female; Place = West Calder; Birth year = 1773; County = Midlothian; Baptism year = 1773; Country = Scotland; Baptism date = 30 Oct 1773; Record set = Scotland, Parish Births & Baptisms 1564-1929; Baptism place = WEST CALDER, MIDLOTHIAN, SCOTLAND; Father's first name(s) = John; Father's last name = Glasgow; Mother's first name(s) = Margaret.",
+    "note": "Two indexes describe one event: Issobel Glasgow, baptism 30 Oct 1773 at West Calder, father John Glasgow, mother Margaret Mill; no explicit birth date (birth year 1773 only). Existing John/Margaret Mill household records run through 1770, making a later child a family-context lead, not an automatic extension or profile match. 24 October follow-up: Mill-757 is retained as a compatible adult mother comparison, not an identification; the later Bathgate Janet pair has the same named couple. Next question: Compare the original record and the existing West Calder family’s later records; retain maternal name as literal and do not grade a new relationship. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Profile comparison roles retain their explicit limits; no unproved adult identity or parent attachment is adopted. Indexed factual fields: First name(s) = Issobel; Mother's last name = Mill; Last name = Glasgow; Residence = West Calder, Midlothian, Scotland; Sex = Female; Place = West Calder; Birth year = 1773; County = Midlothian; Baptism year = 1773; Country = Scotland; Baptism date = 30 Oct 1773; Record set = Scotland, Parish Births & Baptisms 1564-1929; Baptism place = WEST CALDER, MIDLOTHIAN, SCOTLAND; Father's first name(s) = John; Father's last name = Glasgow; Mother's first name(s) = Margaret.",
     "profiles": {
       "Glasgow-3314": {
-        "role": "Compatible adult John Glasgow family comparison only; the record-defined father has not been proved to be this profile.",
+        "role": "Compatible adult father comparison in the existing John Glasgow/Margaret Mill household; child identity and household continuity unproved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Mill-757": {
+        "role": "Compatible adult mother comparison in the existing John Glasgow/Margaret Mill household; literal mother name is supported, adult identity and child attachment unproved.",
         "timeline_group": "Qualified source records"
       }
     },
@@ -39022,10 +39026,14 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_687775452&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Issobel Glasgow",
     "status": "Inspected derivative transcript; parent_candidate_hold",
-    "note": "Two indexes describe one event: Issobel Glasgow, baptism 30 Oct 1773 at West Calder, father John Glasgow, mother Margaret Mill; no explicit birth date (birth year 1773 only). Existing John/Margaret Mill household records run through 1770, making a later child a family-context lead, not an automatic extension or profile match. Unmapped named role: Margaret Mill — Literal mother field only; not assigned to a modern profile.. Next question: Compare the original record and the existing West Calder family’s later records; retain maternal name as literal and do not grade a new relationship. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Profile comparison roles retain their explicit limits; no unproved adult identity or parent attachment is adopted. Indexed factual fields: First name(s) = Issobel; Mother's first name(s) = Margaret; Last name = Glasgow; Mother's last name = Mill; Sex = Female; Place = West Calder; Birth year = 1773; County = Midlothian; Baptism year = 1773; Country = Scotland; Baptism date = 30 Oct 1773; Record set = Scotland, Parish Births & Baptisms 1564-1929; Baptism place = WEST CALDER, MIDLOTHIAN, SCOTLAND; Father's first name(s) = John; Father's last name = Glasgow.",
+    "note": "Two indexes describe one event: Issobel Glasgow, baptism 30 Oct 1773 at West Calder, father John Glasgow, mother Margaret Mill; no explicit birth date (birth year 1773 only). Existing John/Margaret Mill household records run through 1770, making a later child a family-context lead, not an automatic extension or profile match. 24 October follow-up: Mill-757 is retained as a compatible adult mother comparison, not an identification; the later Bathgate Janet pair has the same named couple. Next question: Compare the original record and the existing West Calder family’s later records; retain maternal name as literal and do not grade a new relationship. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Profile comparison roles retain their explicit limits; no unproved adult identity or parent attachment is adopted. Indexed factual fields: First name(s) = Issobel; Mother's first name(s) = Margaret; Last name = Glasgow; Mother's last name = Mill; Sex = Female; Place = West Calder; Birth year = 1773; County = Midlothian; Baptism year = 1773; Country = Scotland; Baptism date = 30 Oct 1773; Record set = Scotland, Parish Births & Baptisms 1564-1929; Baptism place = WEST CALDER, MIDLOTHIAN, SCOTLAND; Father's first name(s) = John; Father's last name = Glasgow.",
     "profiles": {
       "Glasgow-3314": {
-        "role": "Compatible adult John Glasgow family comparison only; the record-defined father has not been proved to be this profile.",
+        "role": "Compatible adult father comparison in the existing John Glasgow/Margaret Mill household; child identity and household continuity unproved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Mill-757": {
+        "role": "Compatible adult mother comparison in the existing John Glasgow/Margaret Mill household; literal mother name is supported, adult identity and child attachment unproved.",
         "timeline_group": "Qualified source records"
       }
     },
@@ -39636,7 +39644,7 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171813&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — James Glasgow",
     "status": "Inspected derivative transcript; source_only_identity_hold",
-    "note": "James born and baptized 8 Oct 1799 Whitburn, John Glasgow/Elizabeth Meek, Burnhead. Distinct from Kilbirnie James. Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Subject identity unresolved; missing fields and no-hit searches are not exclusions. Indexed factual fields: First name(s) = James; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Elizabeth; Birth year = 1799; Mother's last name = Meek; Birth date = 08 Oct 1799; Archive reference = OPR 673/1; Baptism year = 1799; Register year range = 1719-1819; Baptism date = 08 Oct 1799; Item = 3; Residence = Burnhead; Record set = Scotland, Parish Births & Baptisms 1564-1929; Place = Whitburn; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John.",
+    "note": "James born and baptized 8 Oct 1799 Whitburn, John Glasgow/Elizabeth Meek, Burnhead. Distinct from Kilbirnie James. Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Subject identity unresolved; missing fields and no-hit searches are not exclusions. Indexed factual fields: First name(s) = James; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Elizabeth; Birth year = 1799; Mother's last name = Meek; Birth date = 08 Oct 1799; Archive reference = OPR 673/1; Baptism year = 1799; Register year range = 1719-1819; Baptism date = 08 Oct 1799; Item = 3; Residence = Burnhead; Record set = Scotland, Parish Births & Baptisms 1564-1929; Place = Whitburn; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John. Follow-up, 24 October 2026: the source-defined Burnhead/Whitburn John Glasgow and Elizabeth Meek household has Jane birth/baptism 18 December 1793 (4171811), Janet birth/baptism 17 April 1797 (4171812), and James birth/baptism 8 October 1799 (4171813), OPR 673/1 item 3. These are sibling leads from the same named parents/residence, not proved adult-profile identities. Thomas 1790 companion indexes R_685856167/R_692420988 are a separate same-parent comparison without an exact date; do not extend the household automatically. Keep the three children source-only and seek original register identifiers and a parent-profile bridge.",
     "profiles": {},
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14171813",
     "reviewed_on": "2026-10-23",
@@ -40053,7 +40061,7 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171811&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jane Glasgow",
     "status": "Inspected derivative transcript; source_only_identity_hold",
-    "note": "Jane born and baptized 18 Dec 1793 Whitburn, John Glasgow/Elizabeth Meek, Burnhead. Same couple as separate 1799 James Whitburn entry; adult parent IDs unproved. Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Subject identity unresolved; missing fields and no-hit searches are not exclusions. Indexed factual fields: First name(s) = Jane; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Elizabeth; Birth year = 1793; Mother's last name = Meek; Birth date = 18 Dec 1793; Archive reference = OPR 673/1; Baptism year = 1793; Register year range = 1719-1819; Baptism date = 18 Dec 1793; Item = 3; Residence = Burnhead; Record set = Scotland, Parish Births & Baptisms 1564-1929; Place = Whitburn; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John.",
+    "note": "Jane born and baptized 18 Dec 1793 Whitburn, John Glasgow/Elizabeth Meek, Burnhead. Same couple as separate 1799 James Whitburn entry; adult parent IDs unproved. Next question: Compare the original entry and existing household sources for identity identifiers; saved transcript fields have been reviewed. Original image/register not inspected; companion indexes are not independent corroboration. No new person or relationship-grade change follows. HOLD: Subject identity unresolved; missing fields and no-hit searches are not exclusions. Indexed factual fields: First name(s) = Jane; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Elizabeth; Birth year = 1793; Mother's last name = Meek; Birth date = 18 Dec 1793; Archive reference = OPR 673/1; Baptism year = 1793; Register year range = 1719-1819; Baptism date = 18 Dec 1793; Item = 3; Residence = Burnhead; Record set = Scotland, Parish Births & Baptisms 1564-1929; Place = Whitburn; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John. Follow-up, 24 October 2026: the source-defined Burnhead/Whitburn John Glasgow and Elizabeth Meek household has Jane birth/baptism 18 December 1793 (4171811), Janet birth/baptism 17 April 1797 (4171812), and James birth/baptism 8 October 1799 (4171813), OPR 673/1 item 3. These are sibling leads from the same named parents/residence, not proved adult-profile identities. Thomas 1790 companion indexes R_685856167/R_692420988 are a separate same-parent comparison without an exact date; do not extend the household automatically. Keep the three children source-only and seek original register identifiers and a parent-profile bridge.",
     "profiles": {},
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14171811",
     "reviewed_on": "2026-10-23",
@@ -40480,10 +40488,19 @@
     "place": "Bathgate, Linlithgowshire (West Lothian), Scotland",
     "country": "Scotland",
     "source_url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121234&tab=this",
-    "status": "Inspected derivative transcript; source_only_hold",
+    "status": "Inspected derivative transcript; parent_candidate_hold",
     "source_quality": "provider_derivative",
-    "note": "Bathgate Janet: OPR gives birth 7 Dec 1776 and baptism 9 Dec; names John Glasgow and mother Margt Mill. Companion derivative names mother Margaret Mill but omits exact birth date. Do not infer a distinct adult father identity from the common name; no exact daughter profile proven. Check Janet/Jannet/Jennet cluster and known Bathgate household candidates. Next question: Check Janet/Jannet/Jennet receipts arriving later against this event by exact birth/baptism date, named parents and parish; do not create a person or transfer adult parent identity from absence of conflicting records. Original register images uninspected; companion indexes of one event are not independent corroboration. No new person, vital-field correction or relationship regrade follows. HOLD: Existing subject identity remains unresolved; missing fields and no-hit searches do not justify a new person. Indexed factual fields: First name(s) = Janet; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Margt; Birth year = 1776; Mother's last name = Mill; Birth date = 07 Dec 1776; Archive reference = OPR 662/2; Baptism year = 1776; Register year range = 1769-1819; Baptism date = 09 Dec 1776; Item = 1; Place = Bathgate; Record set = Scotland, Parish Births & Baptisms 1564-1929; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John.",
-    "profiles": {},
+    "note": "Janet Glasgow is explicitly born 7 December 1776 and baptised 9 December at Bathgate, John Glasgow and Margt Mill; the companion gives baptism and Margaret Mill but no exact birth date. The existing Glasgow-3314 complete draft already listed the father-only Janet baptism. The new maternal reading and separate birth date enrich that account. Glasgow-3314/Mill-757 are compatible adult comparisons: same couple, linked West Calder children 1762–1770, held 1773 Issobel and coherent chronology; Margaret’s circa 1740 Bathgate origin is an inherited tree claim. No original or direct household bridge proves the named adults to be these profiles. Janet remains an unassigned child; no new person, vital or relationship regrade. Compare original 1773/1776 entries and marriage/residence/occupation evidence. Companion indexes are one event, not independent evidence. Indexed factual fields: First name(s) = Janet; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Margt; Birth year = 1776; Mother's last name = Mill; Birth date = 07 Dec 1776; Archive reference = OPR 662/2; Baptism year = 1776; Register year range = 1769-1819; Baptism date = 09 Dec 1776; Item = 1; Place = Bathgate; Record set = Scotland, Parish Births & Baptisms 1564-1929; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John.",
+    "profiles": {
+      "Mill-757": {
+        "role": "Compatible adult mother comparison in the existing John Glasgow/Margaret Mill household; literal mother name is supported, adult identity and child attachment unproved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3314": {
+        "role": "Compatible adult father comparison in the existing John Glasgow/Margaret Mill household; child identity and household continuity unproved.",
+        "timeline_group": "Qualified source records"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14121234",
     "reviewed_on": "2026-10-24",
     "publish_to_record_index": true,
@@ -40500,10 +40517,19 @@
     "place": "Bathgate, Linlithgowshire (West Lothian), Scotland",
     "country": "Scotland",
     "source_url": "https://findmypast.co.uk/transcript?id=R_691841702&tab=this",
-    "status": "Inspected derivative transcript; source_only_hold",
+    "status": "Inspected derivative transcript; parent_candidate_hold",
     "source_quality": "provider_derivative",
-    "note": "Bathgate Janet: OPR gives birth 7 Dec 1776 and baptism 9 Dec; names John Glasgow and mother Margt Mill. Companion derivative names mother Margaret Mill but omits exact birth date. Do not infer a distinct adult father identity from the common name; no exact daughter profile proven. Check Janet/Jannet/Jennet cluster and known Bathgate household candidates. Next question: Check Janet/Jannet/Jennet receipts arriving later against this event by exact birth/baptism date, named parents and parish; do not create a person or transfer adult parent identity from absence of conflicting records. Original register images uninspected; companion indexes of one event are not independent corroboration. No new person, vital-field correction or relationship regrade follows. HOLD: Existing subject identity remains unresolved; missing fields and no-hit searches do not justify a new person. Indexed factual fields: First name(s) = Janet; Mother's first name(s) = Margaret; Last name = Glasgow; Mother's last name = Mill; Sex = Female; Place = Bathgate; Birth year = 1776; County = Linlithgowshire (West Lothian); Baptism year = 1776; Country = Scotland; Baptism date = 09 Dec 1776; Record set = Scotland, Parish Births & Baptisms 1564-1929; Baptism place = BATHGATE, WEST LOTHIAN, SCOTLAND; Father's first name(s) = John; Father's last name = Glasgow.",
-    "profiles": {},
+    "note": "Janet Glasgow is explicitly born 7 December 1776 and baptised 9 December at Bathgate, John Glasgow and Margt Mill; the companion gives baptism and Margaret Mill but no exact birth date. The existing Glasgow-3314 complete draft already listed the father-only Janet baptism. The new maternal reading and separate birth date enrich that account. Glasgow-3314/Mill-757 are compatible adult comparisons: same couple, linked West Calder children 1762–1770, held 1773 Issobel and coherent chronology; Margaret’s circa 1740 Bathgate origin is an inherited tree claim. No original or direct household bridge proves the named adults to be these profiles. Janet remains an unassigned child; no new person, vital or relationship regrade. Compare original 1773/1776 entries and marriage/residence/occupation evidence. Companion indexes are one event, not independent evidence. Indexed factual fields: First name(s) = Janet; Mother's first name(s) = Margaret; Last name = Glasgow; Mother's last name = Mill; Sex = Female; Place = Bathgate; Birth year = 1776; County = Linlithgowshire (West Lothian); Baptism year = 1776; Country = Scotland; Baptism date = 09 Dec 1776; Record set = Scotland, Parish Births & Baptisms 1564-1929; Baptism place = BATHGATE, WEST LOTHIAN, SCOTLAND; Father's first name(s) = John; Father's last name = Glasgow.",
+    "profiles": {
+      "Mill-757": {
+        "role": "Compatible adult mother comparison in the existing John Glasgow/Margaret Mill household; literal mother name is supported, adult identity and child attachment unproved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3314": {
+        "role": "Compatible adult father comparison in the existing John Glasgow/Margaret Mill household; child identity and household continuity unproved.",
+        "timeline_group": "Qualified source records"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691841702",
     "reviewed_on": "2026-10-24",
     "publish_to_record_index": true,
@@ -40853,7 +40879,7 @@
     "source_url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171812&tab=this",
     "status": "Inspected derivative transcript; source_only_hold",
     "source_quality": "provider_derivative",
-    "note": "Whitburn Janet: birth and baptism both 17 Apr 1797; father John Glasgow, mother Elizabeth Meek; residence Burnhead. No exact child profile or adult parent identity established. Distinct from Rothesay child, despite same year and father forename/surname. Next question: Check Janet/Jannet/Jennet receipts arriving later against this event by exact birth/baptism date, named parents and parish; do not create a person or transfer adult parent identity from absence of conflicting records. Original register images uninspected; companion indexes of one event are not independent corroboration. No new person, vital-field correction or relationship regrade follows. HOLD: Existing subject identity remains unresolved; missing fields and no-hit searches do not justify a new person. Indexed factual fields: First name(s) = Janet; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Elizabeth; Birth year = 1797; Mother's last name = Meek; Birth date = 17 Apr 1797; Archive reference = OPR 673/1; Baptism year = 1797; Register year range = 1719-1819; Baptism date = 17 Apr 1797; Item = 3; Residence = Burnhead; Record set = Scotland, Parish Births & Baptisms 1564-1929; Place = Whitburn; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John.",
+    "note": "Whitburn Janet: birth and baptism both 17 Apr 1797; father John Glasgow, mother Elizabeth Meek; residence Burnhead. No exact child profile or adult parent identity established. Distinct from Rothesay child, despite same year and father forename/surname. Next question: Check Janet/Jannet/Jennet receipts arriving later against this event by exact birth/baptism date, named parents and parish; do not create a person or transfer adult parent identity from absence of conflicting records. Original register images uninspected; companion indexes of one event are not independent corroboration. No new person, vital-field correction or relationship regrade follows. HOLD: Existing subject identity remains unresolved; missing fields and no-hit searches do not justify a new person. Indexed factual fields: First name(s) = Janet; Father's last name = Glasgow; Last name = Glasgow; Mother's first name(s) = Elizabeth; Birth year = 1797; Mother's last name = Meek; Birth date = 17 Apr 1797; Archive reference = OPR 673/1; Baptism year = 1797; Register year range = 1719-1819; Baptism date = 17 Apr 1797; Item = 3; Residence = Burnhead; Record set = Scotland, Parish Births & Baptisms 1564-1929; Place = Whitburn; County = Linlithgowshire (West Lothian); Country = Scotland; Father's first name(s) = John. Follow-up, 24 October 2026: the source-defined Burnhead/Whitburn John Glasgow and Elizabeth Meek household has Jane birth/baptism 18 December 1793 (4171811), Janet birth/baptism 17 April 1797 (4171812), and James birth/baptism 8 October 1799 (4171813), OPR 673/1 item 3. These are sibling leads from the same named parents/residence, not proved adult-profile identities. Thomas 1790 companion indexes R_685856167/R_692420988 are a separate same-parent comparison without an exact date; do not extend the household automatically. Keep the three children source-only and seek original register identifiers and a parent-profile bridge.",
     "profiles": {},
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14171812",
     "reviewed_on": "2026-10-24",
@@ -40899,5 +40925,195 @@
     "reviewed_on": "2026-10-24",
     "publish_to_record_index": true,
     "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Janet Glasgow"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478397",
+    "provider_record_id": "SCOT/OPR/BAP/4478397",
+    "person": "John Glasgow",
+    "association": "John Glasgow — birth transcript",
+    "event_role": "birth transcript",
+    "date": "02 Dec 1808",
+    "year": 1808,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478397&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Reviewed cached derivative transcript; qualified existing household account",
+    "source_quality": "provider_derivative",
+    "note": "The saved provider transcript SCOT/OPR/BAP/4478397 calls 2 December 1808 a birth date and records Kirknewton & East Calder, residence Ormiston, father John Glasgow, mother Mt Meikle. Current profile JSON records an exact birth of 18 December 1808 at Kirknewton. The 16-day conflict is explicit; retain both claims pending original-register and held-index reconciliation. The transcript supplies no baptism date. No date or parent assessment is changed. OPR 690/3, item 2, page 48; residence Ormiston. The baptism field is blank; these dates are explicitly birth dates. Captured 2026-09-03; reviewed from the saved receipt on 24 October 2026. Original register uninspected. A later-born child is secondary-role evidence for a potentially pre-1800-born Glasgow father, not a directly eligible child.",
+    "profiles": {
+      "Glasgow-3601": {
+        "role": "Compatible existing child comparison; 2 December birth conflicts with maintained 18 December 1808. Identity and date remain on HOLD.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1304": {
+        "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Muckle-67": {
+        "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478397",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4477292",
+    "provider_record_id": "SCOT/OPR/BAP/4477292",
+    "person": "George Glasgow",
+    "association": "George Glasgow — birth transcript",
+    "event_role": "birth transcript",
+    "date": "25 Jan 1811",
+    "year": 1811,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477292&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — George Glasgow",
+    "status": "Reviewed cached derivative transcript; qualified existing household account",
+    "source_quality": "provider_derivative",
+    "note": "Two saved provider transcripts give George Glasgow birth 25 January 1811, Kirknewton & East Calder, father John Glasgow and mother Margt/Mt Meikle. Current profile JSON records an uncertain birth bound before 17 February 1811 at Kirknewton, so the transcript date fits that bound. Differing page/residence metadata mean the two indexes may be variants of one event; count once pending original-page comparison. No vital or adult parent identity change. OPR 690/3, item 2, page 29. The baptism field is blank; these dates are explicitly birth dates. Captured 2026-09-03; reviewed from the saved receipt on 24 October 2026. Original register uninspected. A later-born child is secondary-role evidence for a potentially pre-1800-born Glasgow father, not a directly eligible child.",
+    "profiles": {
+      "Glasgow-1307": {
+        "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1304": {
+        "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Muckle-67": {
+        "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14477292",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478456",
+    "provider_record_id": "SCOT/OPR/BAP/4478456",
+    "person": "George Glasgow",
+    "association": "George Glasgow — birth transcript",
+    "event_role": "birth transcript",
+    "date": "25 Jan 1811",
+    "year": 1811,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478456&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — George Glasgow",
+    "status": "Reviewed cached derivative transcript; qualified existing household account",
+    "source_quality": "provider_derivative",
+    "note": "Two saved provider transcripts give George Glasgow birth 25 January 1811, Kirknewton & East Calder, father John Glasgow and mother Margt/Mt Meikle. Current profile JSON records an uncertain birth bound before 17 February 1811 at Kirknewton, so the transcript date fits that bound. Differing page/residence metadata mean the two indexes may be variants of one event; count once pending original-page comparison. No vital or adult parent identity change. OPR 690/3, item 2, page 49; residence Millings. The baptism field is blank; these dates are explicitly birth dates. Captured 2026-09-03; reviewed from the saved receipt on 24 October 2026. Original register uninspected. A later-born child is secondary-role evidence for a potentially pre-1800-born Glasgow father, not a directly eligible child.",
+    "profiles": {
+      "Glasgow-1307": {
+        "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1304": {
+        "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Muckle-67": {
+        "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478456",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478529",
+    "provider_record_id": "SCOT/OPR/BAP/4478529",
+    "person": "Jane Glasgow",
+    "association": "Jane Glasgow — birth transcript",
+    "event_role": "birth transcript",
+    "date": "14 Jan 1814",
+    "year": 1814,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478529&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jane Glasgow",
+    "status": "Reviewed cached derivative transcript; qualified existing household account",
+    "source_quality": "provider_derivative",
+    "note": "Saved provider transcript SCOT/OPR/BAP/4478529 explicitly gives Jane Glasgow birth 14 January 1814, residence Milling, Kirknewton & East Calder, father John Glasgow and mother Mt Meikle. Current profile JSON records an uncertain birth bound before 6 February 1814 at Kirknewton; the date is compatible. This record does not independently identify adult parent profiles or substantiate a death. No vital or relationship change. OPR 690/3, item 2, page 50; residence Milling. The baptism field is blank; these dates are explicitly birth dates. Captured 2026-09-03; reviewed from the saved receipt on 24 October 2026. Original register uninspected. A later-born child is secondary-role evidence for a potentially pre-1800-born Glasgow father, not a directly eligible child.",
+    "profiles": {
+      "Glasgow-1308": {
+        "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1304": {
+        "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+        "timeline_group": "Qualified source records"
+      },
+      "Muckle-67": {
+        "role": "Compatible adult mother comparison only: transcript Meikle versus profile Muckle retained; no maternity assessment changed.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478529",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478299",
+    "provider_record_id": "SCOT/OPR/BAP/4478299",
+    "person": "James Glasgow",
+    "association": "James Glasgow — birth transcript",
+    "event_role": "birth transcript",
+    "date": "24 Dec 1803",
+    "year": 1803,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478299&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — James Glasgow",
+    "status": "Reviewed cached derivative transcript; qualified existing household account",
+    "source_quality": "provider_derivative",
+    "note": "Birth date 24 Dec 1803; place Kirknewton & East Calder, Midlothian; father Wm Glasgow; mother Cath Nisbet; residence Mead Beek; OPR 690/3, item 2, p. 47; baptism year/date blank. This supports the existing Glasgow-1325 household account and fits its current birth bound. The adult Wm Glasgow remains a qualified comparison to Glasgow-1223; Catherine Nisbet-3257 is an external spouse comparison, not a newly established maternal identity. No vital or relationship grade changes. OPR 690/3, item 2, page 47; residence Mead Beek. The baptism field is blank; these dates are explicitly birth dates. Captured 2026-09-03; reviewed from the saved receipt on 24 October 2026. Original register uninspected. A later-born child is secondary-role evidence for a potentially pre-1800-born Glasgow father, not a directly eligible child.",
+    "profiles": {
+      "Glasgow-1325": {
+        "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1223": {
+        "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478299",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4478341",
+    "provider_record_id": "SCOT/OPR/BAP/4478341",
+    "person": "Catherine Glasgow",
+    "association": "Catherine Glasgow — birth transcript",
+    "event_role": "birth transcript",
+    "date": "19 Aug 1805",
+    "year": 1805,
+    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478341&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Catherine Glasgow",
+    "status": "Reviewed cached derivative transcript; qualified existing household account",
+    "source_quality": "provider_derivative",
+    "note": "Birth date 19 Aug 1805; place Kirknewton & East Calder, Midlothian; father Wm Glasgow; mother Cath Nisbet; residence Mead Beek; OPR 690/3, item 2, p. 47; baptism year/date blank. This supports the existing Glasgow-1224 household account and fits its current birth bound. The adult Wm Glasgow remains a qualified comparison to Glasgow-1223; Catherine Nisbet-3257 is an external spouse comparison, not a newly established maternal identity. No vital or relationship grade changes. OPR 690/3, item 2, page 47; residence Mead Beek. The baptism field is blank; these dates are explicitly birth dates. Captured 2026-09-03; reviewed from the saved receipt on 24 October 2026. Original register uninspected. A later-born child is secondary-role evidence for a potentially pre-1800-born Glasgow father, not a directly eligible child.",
+    "profiles": {
+      "Glasgow-1224": {
+        "role": "Existing child/event account supported by paired parental names, parish and compatible maintained birth bound; current vital and adult-parent qualifications retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1223": {
+        "role": "Compatible record-named father comparison in the existing linked-child household; adult identity and upstream childhood placement are not newly proved.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~14478341",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
   }
 ]

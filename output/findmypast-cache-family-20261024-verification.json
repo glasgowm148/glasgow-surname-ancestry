@@ -1,0 +1,193 @@
+{
+  "reviewed_on": "2026-10-24",
+  "new_provider_captures": 0,
+  "newly_indexed_cached_provider_records": 6,
+  "provisional_child_event_groups": 5,
+  "new_people": 0,
+  "vital_field_changes": 0,
+  "relationship_grade_changes": 0,
+  "original_register_images_inspected": 0,
+  "selected_canonical_records": 13,
+  "source_readers_checked": 13,
+  "person_accounts_checked": 10,
+  "complete_preserved_proposals_checked": 8,
+  "all_selected_full_compact_records_and_full_fast_hydrated_people_agree": true,
+  "vital_and_relationship_models_unchanged": true,
+  "literal_capture_ledger_receipts": 447,
+  "ledger_profile_context_receipts": 310,
+  "ledger_source_only_receipts": 137,
+  "additional_indexed_cached_supporting_receipts_at_original_pointers": 6,
+  "ledger_plus_support_indexed_provider_union": 453,
+  "query_rows_with_dispositions": 359,
+  "query_total": 5872,
+  "query_disposition_percent": 6.1,
+  "contiguous_query_rows_reviewed": 340,
+  "completed_query_pages": "1–17",
+  "saved_detail_gaps": 61,
+  "next_missing_provider_id": "GBPRS/GLASGOW/BUR/093167",
+  "next_uncaptured_search_page": 22,
+  "coverage": "INCOMPLETE; overall percentage unknown",
+  "source_ids": {
+    "SCOT/OPR/BAP/4478397": "s-eaae7fa11e215b13",
+    "SCOT/OPR/BAP/4477292": "s-a8f03d0477f08b5c",
+    "SCOT/OPR/BAP/4478456": "s-2b82c431125e6224",
+    "SCOT/OPR/BAP/4478529": "s-2f0e55291161f988",
+    "SCOT/OPR/BAP/4478299": "s-8a0b4003b6db18b0",
+    "SCOT/OPR/BAP/4478341": "s-4d74b753e1a29388",
+    "SCOT/OPR/BAP/4121234": "s-f8afd0bb442cc3d0",
+    "R_691841702": "s-7599865e68a74fb0",
+    "R_686350090": "s-403eff7bfa1b98b3",
+    "R_687775452": "s-52df0078ba5af359",
+    "SCOT/OPR/BAP/4171811": "s-11128006e6e264f5",
+    "SCOT/OPR/BAP/4171812": "s-c65ac4dea125b384",
+    "SCOT/OPR/BAP/4171813": "s-e6cb63bc41eda7b4"
+  },
+  "input_qa": {
+    "scope": "Read-only QA of /tmp/fmp-cache-family-plan.json, its 13 selected canonical rows, three selected latest-findings entries, and eight complete profile proposals. No source/site edits or build.",
+    "result": "No material factual or local-link error found in the inspected selected inputs.",
+    "checks": {
+      "canonical_rows": "All 13 planned record IDs exist and map to one of the selected 13 provider IDs; all source role text is compatible with transcript fields reviewed.",
+      "birth_baptism": "No material birth/baptism conflation found. 4478397/4477292/4478456/4478529 and 4478299/4478341 are explicitly birth-date records with baptism blank; 4121234 gives separate birth 7 Dec and baptism 9 Dec; R_691841702 gives baptism 9 Dec without a separate birth date; Issobel 1773 rows remain baptism records with no explicit DOB; the three Whitburn rows label the stated birth/baptism fields distinctly (same-day where the transcript gives both).",
+      "john_3601": "Conflict is correctly preserved: provider SCOT/OPR/BAP/4478397 says birth 2 Dec 1808, residence Ormiston, father John Glasgow, mother Mt Meikle; maintained www/assets/research/people/glasgow-3601.json (build 2026-09-08.3-repair) says exact birth 18 Dec 1808 at Kirknewton. Proposal keeps both and requests original-page/citation comparison; no date is silently overwritten.",
+      "other_child_vitals": "Maintained public JSON snapshots give Glasgow-1307 birth before 17 Feb 1811 at Kirknewton, compatible with provider DOB 25 Jan; the two George records’ p.29/no residence versus p.49/Millings differences are noted and grouped as one possible event pending original review. Glasgow-1308 is before 6 Feb 1814 at Kirknewton, compatible with provider DOB 14 Jan/Milling. James-1325 and Catherine-1224 provider DOBs fit their maintained bounds.",
+      "adult_identity": "Adult parent roles remain qualified. The records name John Glasgow and Meikle/Mt Meikle; selected rows do not assert adult Glasgow-1304 or Muckle-67 identity/maternity as proved. Bathgate/West Calder John-3314 and Mill-757 remain adult-profile comparisons only; children are unassigned. Nisbet household adult bridge remains qualified.",
+      "current_assessments": "Current structured estimates checked: Glasgow-3601→1304 96%; 1307→1304 94%; 1308→1304 93%; Glasgow-3314→Glasgow-1058 84%; Glasgow-1325→1223 85%; Glasgow-1224→1223 87%. These match the proposed unchanged-assessment language. Public people JSON relationship statuses themselves are raw tree statuses, so grades were checked in the current structured assessment data.",
+      "local_references": "All selected profile destinations resolve locally in the catalogue/public people pages. The three findings detail links resolve to www/branches/early-scottish-records/index.html and the named anchor exists. All eight proposed source drafts and their preservation files exist."
+    },
+    "material_issues": [],
+    "caveats": [
+      "Original register images remain uninspected; this QA checked saved derivative transcripts only.",
+      "The 1808 date conflict remains a substantive unresolved source/profile discrepancy.",
+      "The George duplicate interpretation is provisional pending page/image comparison; it is properly not counted as independent confirmation."
+    ],
+    "sources_checked": [
+      "/tmp/fmp-cache-family-plan.json",
+      "research/canonical_records.json",
+      "research/findmypast-glasgow-audit/record-details-pre1701.json",
+      "research/latest-findings.json",
+      "www/assets/research/people/{glasgow-1304,muckle-67,glasgow-3601,glasgow-1307,glasgow-1308}.json",
+      "research/relationship_probability_estimates.json",
+      "/tmp/fmp-cache-batch-proposals/*"
+    ]
+  },
+  "preservation": {
+    "Glasgow-3314": {
+      "current_sha256": "32c62b0a1714752c19240866a4388b68d944bcea93133d212cfe3453bb508817",
+      "proposed_sha256": "f5d3134987e527b792e126932cfea077adbb8007daa76483dd6fcae97bb8ddb6",
+      "previous_proposed_sha256": "c332d699fa799a149a7f7d2bbda96290f6257d11a73e649c679d05151e07b105",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": [
+        "| Indexed record names John Glasgow as father.<ref name=\"Issobel1773\">\"Scotland, Births and Baptisms, 1564–1950,\" database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-CHL : accessed 28 July 2026), John Glasgow in entry for Issobel Glasgow, 30 October 1773.</ref>",
+        "The supplied extracts for Andrew, Margaret, Agnes, Issobel and Janet identify John as their father but do not display their mother's name. Their dates and placement with the same FamilySearch family make Margaret Mill the probable mother, but the original entries should be checked."
+      ]
+    },
+    "Glasgow-1304": {
+      "current_sha256": "7c5331c6005c6f7797ff8dc6c7249ec41a9e4e7a2e88a4797950e722edc65f03",
+      "proposed_sha256": "d4ea200e8d49fc49bea4ff05dfbedeb1eb192b7f293bd52377078d294ef5d6cf",
+      "previous_proposed_sha256": "6257b5a25dd05d1cdf9387d881c4505eb795cb838f0facd446a5e0d033eccaf0",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": []
+    },
+    "Glasgow-3601": {
+      "current_sha256": "1a30a90ea2ce78ee9dfee250f7ebc01fd6e0740620558ca8197350867db22420",
+      "proposed_sha256": "26feeafd363e4ab492032134edabbc2dd8df2a7353275f6e073593b882c46856",
+      "previous_proposed_sha256": "fcc57eeea62a33d1bb5d77001c8a1b085212bf207fa4409ba0c4251d474a061d",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": []
+    },
+    "Glasgow-1307": {
+      "current_sha256": "c05aab9a3bec29bfdc162a7a640f0758c65c340971c76c4f6e04752bd9d6b956",
+      "proposed_sha256": "2099c58c6aabf768424dfc57a5bd6899c35637a65df9bfa3c1c01af912fbeeaf",
+      "previous_proposed_sha256": "bbd707df382f0dabc02959bd12fcd5f1d1e32a643de696aeed0aa818e32579b6",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": []
+    },
+    "Glasgow-1308": {
+      "current_sha256": "d6a586ca6475e6735286a0fbb25b18273b1c4315b7ec4049f6cef93bd2e47c4d",
+      "proposed_sha256": "487d9d2333894e1b825acceaea1a4c9943cd862d1bb5a5d7f77b324afd6b875e",
+      "previous_proposed_sha256": "e0404b331b72a3d0ac887b6e6e6b5b5aae7a6a9cb9ac3707731ae7e871c06151",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": []
+    },
+    "Glasgow-1223": {
+      "current_sha256": "2f002e2ce64f8ad47d271ea903767adf3219c1890bc1811aa2f01ca1606c7c0b",
+      "proposed_sha256": "a742895075d0f83d4cd51e5582e9d51d6bf2c3897107606cc27a79dcf27e3aa8",
+      "previous_proposed_sha256": "6782d26859a8c617c33a10a15aa29a8bb393774ad22c2d7fe65b248146582c5c",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": []
+    },
+    "Glasgow-1325": {
+      "current_sha256": "43e176b64bb1ca9ee1bff5c3ce557b3b9d26065b7f7a161ce47ef727721d581c",
+      "proposed_sha256": "256b807111415c39dd4198520ead4eb5408e6048ab7288aa925e1bc084b948f0",
+      "previous_proposed_sha256": "14ad844a839c1f82d06382c04d76d297ab72b2dc77613d4747ac2d9dd31338d2",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": []
+    },
+    "Glasgow-1224": {
+      "current_sha256": "9727a913b82189eaeeabdb11d85c3e2786df6aaa233457faf7c328e48c22927c",
+      "proposed_sha256": "0f758264a94884ce465d5a66f0f9288e566ecf9aadd878698b2c17614e9fe622",
+      "previous_proposed_sha256": "f8defaa25653c6a21c0396e95744c8f9d6ac4a1a1fc2e81168f53bafbc375e14",
+      "all_substantive_passages_accounted_for": true,
+      "superseded_passages": []
+    }
+  },
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "new_source_routes_in_xml_and_source_directory": 6,
+  "reader_sitemap_sources_link_checked": true,
+  "publication_gate": {
+    "exit": 0,
+    "subjects": 10,
+    "register_parser_used": true,
+    "all_selected_original_guards_used": true,
+    "initial_scoped_check": "Initial core run excluded register parsing and reported8dropped-register false failures. Rerun used the real register parser, original selected preservation guards and all10subjects:0new failures; no baseline changes."
+  },
+  "asset_finalization": {
+    "sitemap": {
+      "sitemap_urls": 23664,
+      "sitemap_reader_pages": 1262
+    },
+    "search": {
+      "shared_search_assets": 1
+    },
+    "asset_write_passes": 1,
+    "changed_files": 0,
+    "original_stale_references": 903,
+    "stale_asset_references": 0,
+    "note": "One write pass and one final read-only check.903initial stale references; write phase changed0files, final check0stale. Other unowned Python work was observed during this interval; it was not interrupted."
+  },
+  "links": {
+    "exit": 0,
+    "pages": 25667,
+    "internal_references": 1351354,
+    "existing_broken_links": 7,
+    "existing_broken_pairs": 4,
+    "new_broken_pairs": 0,
+    "non_gated_missing_person_anchors": 87,
+    "person_anchors_checked": 7562,
+    "unlinked_fragments_or_readers": 860,
+    "seconds": 77.8
+  },
+  "workflow_fix": {
+    "commit": "1f4191cea1dce8acd5bb243a4d1fe2fb710cdcee",
+    "preflight_tests_passed": 16,
+    "py_compile_passed": true,
+    "change": "Current dictionary-keyed review HOLDs are retained; superseded snapshots are not resurrected. Reusable receipts still skip retrieval. Project skill and runbook updated."
+  },
+  "local_genealogy_index_refresh": "Completed successfully during selected sync",
+  "resources": {
+    "task_browser_tabs_opened": 0,
+    "task_browser_tabs_remaining": 0,
+    "personal_tabs_preserved": 3,
+    "last_tab_inventory": [
+      "236298086",
+      "236297975",
+      "236298062"
+    ],
+    "new_browser_processes_windows_or_profiles": 0,
+    "task_cua_runtime": "Reset after verifying personal tabs only",
+    "browser_or_pdf_renderers_launched": 0,
+    "unrelated_processes_stopped": 0,
+    "cpu_or_system_settings_changed": false,
+    "memory_pressure_latest": 1
+  }
+}

@@ -69,12 +69,16 @@
     },
     "Glasgow-1223": {
       "current_sha256": "2f002e2ce64f8ad47d271ea903767adf3219c1890bc1811aa2f01ca1606c7c0b",
-      "proposed_sha256": "6782d26859a8c617c33a10a15aa29a8bb393774ad22c2d7fe65b248146582c5c",
+      "proposed_sha256": "a742895075d0f83d4cd51e5582e9d51d6bf2c3897107606cc27a79dcf27e3aa8",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1223/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete prior biography, family, sources and named refs retained. New saved-transcript birth/maternal readings and explicit date conflicts are qualified. John3314 child-table source descriptions and former mother-unstated paragraph are superseded by cited Margaret Mill readings; every prior source identity remains. Whitespace normalized in additions. Existing vital fields and relationship grades retained.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "6782d26859a8c617c33a10a15aa29a8bb393774ad22c2d7fe65b248146582c5c",
+      "previous_proposed_git_reference": "8dfc6ce01ee787f12d71976efb53591ca18d16f8:research/Glasgow-1223/father-confidence-2026-10-22c.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-1400": {
       "current_sha256": "21d2aaf6b97d33775c67e7585a5552a4129f4202bc6f138ba58f821bb9f54e83",
