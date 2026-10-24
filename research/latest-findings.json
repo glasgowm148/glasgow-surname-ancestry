@@ -57811,6 +57811,58 @@
       "new_mother_attachments": 0,
       "new_original_inspections": 0,
       "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "nancy-robert-quoted-father-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Nancy (Glasgow) McClelland’s existing Robert father assessment improves from 81% to 91% after reconciling an overlooked explicit child designation in a reproduced Faris passage.",
+      "qualification": "The book page itself was not inspected: the evidence actually read is a quotation attributed to Faris in a captured public WikiTree biography and preserved pending draft. The quotation, child list, memorial and later family histories may share information and are not independent corroborations. Nancy’s retained 1780/1781 birth-year discrepancy remains unresolved. No original birth, marriage, Bible, probate or migration record was newly inspected; no exact vital date or mother is newly verified. This is an existing father, already marked confident in the saved WikiTree data; there is no pending father certainty-mark change, new attachment or live save. Robert’s own proposed James father remains 35% and is not strengthened. The 91% is an individual subjective assessment, not a statistical measurement.",
+      "people": [
+        {
+          "id": "Glasgow-2003",
+          "name": "Nancy (Glasgow) McClelland",
+          "url": "/people/glasgow-2003.html",
+          "role": "Existing daughter: 81% → 91% research confidence"
+        },
+        {
+          "id": "Glasgow-12",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-12.html",
+          "role": "Father; own father 35% unchanged"
+        },
+        {
+          "id": "Glasgow-563",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-563.html",
+          "role": "Named co-child; father 95% unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Captured public biography quoting Faris (1990), p. 18; original page uninspected",
+          "url": "https://www.wikitree.com/wiki/Glasgow-12"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#nancy-faris-quoted-father",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2003",
+          "relative": "Glasgow-12",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 81,
+          "probability_percent": 91,
+          "explanation": "The passage reproduced in Robert Glasgow-12’s captured and pending biography, attributed to Faris p. 18, explicitly identifies Nancy (Glasgow) McClelland and William Glasgow as children of Robert who moved to Adams County in 1805. Nancy’s distinctive married surname, established Thomas McClelland association and Virginia-to-Adams family context identify the existing daughter account. William is the independently maintained son account Glasgow-563, whose existing father assessment remains 95%. The earlier 81% review considered Nancy’s p. 34 citation and memorial without acknowledging this explicit child designation. The combined named-family and identity argument supports a 91% confident inference.",
+          "previous_status_provenance": "22 October 2026 reviewed 81% probable assessment; saved WikiTree confident mark retained independently, not first rating or new attachment."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/nancy-father-confidence-2026-10-24.json"
+      ]
     }
   ]
 }

@@ -4250,3 +4250,10 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-841) | OPEN | Existing father Robert Barclay Glasgow: 77% → 95% confident inference. Family history calls her Sarah Margaret; correct male pronouns, retaining structured name and vitals. |
 | [Susanna Rachel Glasgow](https://www.wikitree.com/wiki/Glasgow-2228) | OPEN | Existing father Robert Barclay Glasgow: 87% → 96% confident inference. |
 | [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-835) | OPEN | Eight existing child relationships now confident; Rhoda remains probable 85% with her birth conflict retained. Robert’s own William father remains 94%; no new attachment. |
+
+### Nancy McClelland: copied-source father review — 24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Nancy (Glasgow) McClelland](https://www.wikitree.com/wiki/Glasgow-2003) | OPEN | Nancy’s existing Robert father: research confidence 81% → 91%; add copied-source qualification. WikiTree already marks this father confident, so no certainty-mark amendment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-12) | OPEN | Reconcile daughter Nancy’s overlooked explicit child designation: 81% → 91% research confidence. Original Faris page uninspected; Robert’s own father stays 35%. |

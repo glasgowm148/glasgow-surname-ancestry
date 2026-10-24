@@ -1,0 +1,224 @@
+{
+  "reviewed": "2026-10-24",
+  "source_scope": "Exact held profile-reproduced p. 18 quotation read; original book page uninspected.",
+  "limitations": "The book page itself was not inspected: the evidence actually read is a quotation attributed to Faris in a captured public WikiTree biography and preserved pending draft. The quotation, child list, memorial and later family histories may share information and are not independent corroborations. Nancy’s retained 1780/1781 birth-year discrepancy remains unresolved. No original birth, marriage, Bible, probate or migration record was newly inspected; no exact vital date or mother is newly verified. This is an existing father, already marked confident in the saved WikiTree data; there is no pending father certainty-mark change, new attachment or live save. Robert’s own proposed James father remains 35% and is not strengthened. The 91% is an individual subjective assessment, not a statistical measurement.",
+  "sources": [
+    {
+      "url": "https://www.wikitree.com/wiki/Glasgow-12",
+      "attributed_printed_page": 18,
+      "printed_page_visually_inspected": false,
+      "held_quotation_inspected": true,
+      "capture_pointer": "data/wikitree/profile-evidence.json#/profiles/Glasgow-12/biography_wikitext"
+    }
+  ],
+  "relationship_changes": [
+    {
+      "subject": "Glasgow-2003",
+      "relative": "Glasgow-12",
+      "before_percent": 81,
+      "after_percent": 91,
+      "before": "probable",
+      "after": "certain",
+      "basis": "The passage reproduced in Robert Glasgow-12’s captured and pending biography, attributed to Faris p. 18, explicitly identifies Nancy (Glasgow) McClelland and William Glasgow as children of Robert who moved to Adams County in 1805. Nancy’s distinctive married surname, established Thomas McClelland association and Virginia-to-Adams family context identify the existing daughter account. William is the independently maintained son account Glasgow-563, whose existing father assessment remains 95%. The earlier 81% review considered Nancy’s p. 34 citation and memorial without acknowledging this explicit child designation. The combined named-family and identity argument supports a 91% confident inference.",
+      "limits": "The book page itself was not inspected: the evidence actually read is a quotation attributed to Faris in a captured public WikiTree biography and preserved pending draft. The quotation, child list, memorial and later family histories may share information and are not independent corroborations. Nancy’s retained 1780/1781 birth-year discrepancy remains unresolved. No original birth, marriage, Bible, probate or migration record was newly inspected; no exact vital date or mother is newly verified. This is an existing father, already marked confident in the saved WikiTree data; there is no pending father certainty-mark change, new attachment or live save. Robert’s own proposed James father remains 35% and is not strengthened. The 91% is an individual subjective assessment, not a statistical measurement.",
+      "new_attachment": false
+    }
+  ],
+  "profiles": {
+    "Glasgow-2003": {
+      "prior_pending_path": "research/Glasgow-2003/father-confidence-2026-10-22g.wiki",
+      "prior_pending_sha256": "aecc05b87117e301c63ec466dabd8fd94ff2907117c9baa9843cd9204c3ccb16",
+      "captured_profile_path": "data/wikitree/profile-evidence.json#/profiles/Glasgow-2003/biography_wikitext",
+      "captured_biography_sha256": "8e1df70d1124ef16143a6d24b1265a3c44baa29eee52cd8c5ac103a90738c348",
+      "new_draft_path": "research/Glasgow-2003/nancy-father-review-2026-10-24.wiki",
+      "new_draft_sha256": "613309c711667bd5551ef80a28667de23b6d860c873622c42e502506f38531f6",
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "captured_full_ref_count": 2,
+      "pending_full_ref_count": 2,
+      "all_captured_and_pending_full_ref_bodies_exactly_preserved": true,
+      "captured_and_pending_source_identity_keys_preserved": true,
+      "closed_refs": 3,
+      "full_ref_count_in_new_draft": 3,
+      "prior_pending_draft_path": "research/Glasgow-2003/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-2003/nancy-father-review-2026-10-24.wiki",
+      "current_sha256": "8e1df70d1124ef16143a6d24b1265a3c44baa29eee52cd8c5ac103a90738c348",
+      "proposed_sha256": "cc9904d83b7a2cac78a55d7ffb055f78bcb7ddd452976bacd21524b1569a0a91",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "retained": "All captured and previous pending references and previous narrative lines retained; appended the qualified 91% Nancy review. No prior mother or vital field changed."
+    },
+    "Glasgow-12": {
+      "prior_pending_path": "research/Glasgow-12/irish-family-context-2026-10-24.wiki",
+      "prior_pending_sha256": "65f99d30a66a44df79be133ee5925323820174d213bcfc483398f58bc82fd4d2",
+      "captured_profile_path": "data/wikitree/profile-evidence.json#/profiles/Glasgow-12/biography_wikitext",
+      "captured_biography_sha256": "d10f9927baf0ac18c33de55033d5420153da08104cf52e92d340fda25c1cfed1",
+      "new_draft_path": "research/Glasgow-12/nancy-father-review-2026-10-24.wiki",
+      "new_draft_sha256": "76cae8190b2d3a85b5366bba956a8f091fc5ff330941da4df0fa49554ec63e56",
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "captured_full_ref_count": 41,
+      "pending_full_ref_count": 46,
+      "all_captured_and_pending_full_ref_bodies_exactly_preserved": true,
+      "captured_and_pending_source_identity_keys_preserved": true,
+      "closed_refs": 47,
+      "full_ref_count_in_new_draft": 48,
+      "prior_pending_draft_path": "research/Glasgow-12/irish-family-context-2026-10-24.wiki",
+      "draft_path": "research/Glasgow-12/nancy-father-review-2026-10-24.wiki",
+      "current_sha256": "d10f9927baf0ac18c33de55033d5420153da08104cf52e92d340fda25c1cfed1",
+      "proposed_sha256": "76cae8190b2d3a85b5366bba956a8f091fc5ff330941da4df0fa49554ec63e56",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "retained": "All captured and previous pending references and previous narrative lines retained; appended the qualified 91% Nancy review. No prior mother or vital field changed."
+    }
+  },
+  "verification": {
+    "three_tree_models_agree": true,
+    "stale_asset_references": 0,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "source_documents": [
+      "s-d85aa77d56fbcc8b"
+    ],
+    "complete_drafts_and_sources_preserved": true,
+    "one_existing_confidence_change_no_attachment": true,
+    "pending_father_certainty_change_absent": true,
+    "biography_updates_pending": true,
+    "full_compact_agree": true,
+    "all_1850_cohort_historical_father_fields_match_dossiers": true,
+    "all_standalone_1850_overlap_historical_father_fields_agree": true,
+    "cutoff_deltas": {
+      "1500": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1550": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1600": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1650": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1700": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1750": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1800": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          1,
+          -1
+        ]
+      },
+      "1850": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          1,
+          -1
+        ]
+      }
+    },
+    "confident_connected_pair_gain_1850": 70,
+    "latest_finding_and_study_verified": true,
+    "original_page_visually_inspected": false,
+    "saved_wikitree_father_confident_retained": true,
+    "raw_captures_published": false,
+    "live_published": false,
+    "actual_local_http_pages_checked": 7,
+    "original_moneymore_citation_and_event_remain_unassessed": true
+  },
+  "raw_captures_published": false,
+  "live_published": false,
+  "saved_wikitree_father_already_confident": true,
+  "pending_father_mark_amendment": false,
+  "source_identity_reuse": {
+    "record_id": "96635efa85f8f796",
+    "document_id": "s-d85aa77d56fbcc8b",
+    "reason": "The ingester recognised the existing WikiTree-12 provider URL. Reuse its current public record/source IDs, preserving its original mapped Moneymore event and citation with their unverified scope; no duplicate source created."
+  }
+}

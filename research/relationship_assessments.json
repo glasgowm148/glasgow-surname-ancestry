@@ -61273,19 +61273,20 @@
       "Glasgow-2003",
       "Glasgow-12"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Nancy’s 1781 Virginia/1806 Adams County sequence fits Robert’s documented route and has a specific Faris p.34 citation plus memorial. Those locators have not supplied literal parent wording here.",
-    "reason": "Nancy’s 1781 Virginia/1806 Adams County sequence fits Robert’s documented route and has a specific Faris p.34 citation plus memorial. Those locators have not supplied literal parent wording here.",
-    "claim": "Glasgow-12 remains the selected father of Glasgow-2003, individually assessed 81%.",
-    "record_scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.",
-    "limitations": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.",
+    "assessment_date": "2026-10-24",
+    "basis": "The passage reproduced in Robert Glasgow-12’s captured and pending biography, attributed to Faris p. 18, explicitly identifies Nancy (Glasgow) McClelland and William Glasgow as children of Robert who moved to Adams County in 1805. Nancy’s distinctive married surname, established Thomas McClelland association and Virginia-to-Adams family context identify the existing daughter account. William is the independently maintained son account Glasgow-563, whose existing father assessment remains 95%. The earlier 81% review considered Nancy’s p. 34 citation and memorial without acknowledging this explicit child designation. The combined named-family and identity argument supports a 91% confident inference.",
+    "reason": "The passage reproduced in Robert Glasgow-12’s captured and pending biography, attributed to Faris p. 18, explicitly identifies Nancy (Glasgow) McClelland and William Glasgow as children of Robert who moved to Adams County in 1805. Nancy’s distinctive married surname, established Thomas McClelland association and Virginia-to-Adams family context identify the existing daughter account. William is the independently maintained son account Glasgow-563, whose existing father assessment remains 95%. The earlier 81% review considered Nancy’s p. 34 citation and memorial without acknowledging this explicit child designation. The combined named-family and identity argument supports a 91% confident inference.",
+    "claim": "Existing Robert Glasgow-12 father for Nancy Glasgow-2003: 81% → 91% confident inference; copied Faris passage, original page uninspected.",
+    "record_scope": "The book page itself was not inspected: the evidence actually read is a quotation attributed to Faris in a captured public WikiTree biography and preserved pending draft. The quotation, child list, memorial and later family histories may share information and are not independent corroborations. Nancy’s retained 1780/1781 birth-year discrepancy remains unresolved. No original birth, marriage, Bible, probate or migration record was newly inspected; no exact vital date or mother is newly verified. This is an existing father, already marked confident in the saved WikiTree data; there is no pending father certainty-mark change, new attachment or live save. Robert’s own proposed James father remains 35% and is not strengthened. The 91% is an individual subjective assessment, not a statistical measurement.",
+    "limitations": "The book page itself was not inspected: the evidence actually read is a quotation attributed to Faris in a captured public WikiTree biography and preserved pending draft. The quotation, child list, memorial and later family histories may share information and are not independent corroborations. Nancy’s retained 1780/1781 birth-year discrepancy remains unresolved. No original birth, marriage, Bible, probate or migration record was newly inspected; no exact vital date or mother is newly verified. This is an existing father, already marked confident in the saved WikiTree data; there is no pending father certainty-mark change, new attachment or live save. Robert’s own proposed James father remains 35% and is not strengthened. The 91% is an individual subjective assessment, not a statistical measurement.",
     "source_ids": [
       "held-e-68bd7f4c26b1",
-      "held-e-4fe1e60393b3"
+      "held-e-4fe1e60393b3",
+      "96635efa85f8f796"
     ],
     "assessment_history": [
       {
@@ -61298,22 +61299,34 @@
         "claim_id": "C-25ba36fc9bd4",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 81,
+        "basis": "Nancy’s 1781 Virginia/1806 Adams County sequence fits Robert’s documented route and has a specific Faris p.34 citation plus memorial. Those locators have not supplied literal parent wording here.",
+        "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.",
+        "source_ids": [
+          "held-e-68bd7f4c26b1",
+          "held-e-4fe1e60393b3"
+        ],
+        "source_basis": "Exact 22 October 2026 reviewed probability before the overlooked profile-reproduced p. 18 child statement was reconciled; original saved confident flag retained separately."
       }
     ],
     "perspectives": {
       "Glasgow-2003": {
         "relationship": "father",
-        "reason": "Nancy’s 1781 Virginia/1806 Adams County sequence fits Robert’s documented route and has a specific Faris p.34 citation plus memorial. Those locators have not supplied literal parent wording here."
+        "reason": "The passage reproduced in Robert Glasgow-12’s captured and pending biography, attributed to Faris p. 18, explicitly identifies Nancy (Glasgow) McClelland and William Glasgow as children of Robert who moved to Adams County in 1805. Nancy’s distinctive married surname, established Thomas McClelland association and Virginia-to-Adams family context identify the existing daughter account. William is the independently maintained son account Glasgow-563, whose existing father assessment remains 95%. The earlier 81% review considered Nancy’s p. 34 citation and memorial without acknowledging this explicit child designation. The combined named-family and identity argument supports a 91% confident inference."
       },
       "Glasgow-12": {
         "relationship": "daughter",
-        "reason": "Nancy’s 1781 Virginia/1806 Adams County sequence fits Robert’s documented route and has a specific Faris p.34 citation plus memorial. Those locators have not supplied literal parent wording here."
+        "reason": "The passage reproduced in Robert Glasgow-12’s captured and pending biography, attributed to Faris p. 18, explicitly identifies Nancy (Glasgow) McClelland and William Glasgow as children of Robert who moved to Adams County in 1805. Nancy’s distinctive married surname, established Thomas McClelland association and Virginia-to-Adams family context identify the existing daughter account. William is the independently maintained son account Glasgow-563, whose existing father assessment remains 95%. The earlier 81% review considered Nancy’s p. 34 citation and memorial without acknowledging this explicit child designation. The combined named-family and identity argument supports a 91% confident inference."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-2003.html#research-findings"
+        "label": "Nancy’s named-family evidence and copied-source limits",
+        "href": "/branches/research-irish-moneymore/#nancy-faris-quoted-father"
       }
     ],
     "provenance": {
@@ -61329,17 +61342,34 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 81,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/nancy-father-confidence-2026-10-24.json",
+        "original_record_inspected": false,
+        "printed_page_visually_inspected": false,
+        "held_quotation_inspected": true
+      }
     },
     "probability": {
-      "value": 0.81,
-      "basis": "Nancy’s 1781 Virginia/1806 Adams County sequence fits Robert’s documented route and has a specific Faris p.34 citation plus memorial. Those locators have not supplied literal parent wording here.",
-      "reviewed": "2026-10-22",
+      "value": 0.91,
+      "basis": "The passage reproduced in Robert Glasgow-12’s captured and pending biography, attributed to Faris p. 18, explicitly identifies Nancy (Glasgow) McClelland and William Glasgow as children of Robert who moved to Adams County in 1805. Nancy’s distinctive married surname, established Thomas McClelland association and Virginia-to-Adams family context identify the existing daughter account. William is the independently maintained son account Glasgow-563, whose existing father assessment remains 95%. The earlier 81% review considered Nancy’s p. 34 citation and memorial without acknowledging this explicit child designation. The combined named-family and identity argument supports a 91% confident inference.",
+      "reviewed": "2026-10-24",
+      "scope": "The book page itself was not inspected: the evidence actually read is a quotation attributed to Faris in a captured public WikiTree biography and preserved pending draft. The quotation, child list, memorial and later family histories may share information and are not independent corroborations. Nancy’s retained 1780/1781 birth-year discrepancy remains unresolved. No original birth, marriage, Bible, probate or migration record was newly inspected; no exact vital date or mother is newly verified. This is an existing father, already marked confident in the saved WikiTree data; there is no pending father certainty-mark change, new attachment or live save. Robert’s own proposed James father remains 35% and is not strengthened. The 91% is an individual subjective assessment, not a statistical measurement.",
       "source_ids": [
         "held-e-68bd7f4c26b1",
-        "held-e-4fe1e60393b3"
-      ],
-      "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
+        "held-e-4fe1e60393b3",
+        "96635efa85f8f796"
+      ]
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Compared the exact profile-reproduced p. 18 child wording with Nancy’s current assessment, distinctive married identity and Robert’s family account.",
+      "next_test": "Check Faris printed pp. 18 and 34 against the copied passage and its underlying family authority; seek an independent contemporary named-kin record.",
+      "resume_when": "The underlying book page or an independent identifying family record is inspected; another copy of this quotation is not independent evidence."
     }
   },
   {

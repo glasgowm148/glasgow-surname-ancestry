@@ -1540,10 +1540,10 @@
       "queued_at": "2026-10-20",
       "status": "OPEN",
       "significance": 95,
-      "summary": "Robert → James-1024 remains 35% (possible). Reconcile Irish-family context: James/Samuel/William/Robert → James-1025 now 78/76/84/77% probable; the earlier Irish18/23% scope is historical. Retain American sibling/mother assessments, prior substantive amendments and Scottish William32%; no American father upgrade.",
+      "summary": "Reconcile daughter Nancy’s overlooked explicit child designation: 81% → 91% research confidence. Original Faris page uninspected; Robert’s own father stays 35%.",
       "manual_update": true,
-      "draft_path": "research/Glasgow-12/irish-family-context-2026-10-24.wiki",
-      "preservation_review_path": "research/ancestry-connections/irish-letter-parents-2026-10-24.json",
+      "draft_path": "research/Glasgow-12/nancy-father-review-2026-10-24.wiki",
+      "preservation_review_path": "research/ancestry-connections/nancy-father-confidence-2026-10-24.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
@@ -1561,7 +1561,7 @@
           "relative_url": "https://www.wikitree.com/wiki/Glasgow-1024"
         }
       ],
-      "work_queue_summary": "Robert → James-1024 remains 35% (possible). Reconcile Irish-family context: James/Samuel/William/Robert → James-1025 now 78/76/84/77% probable; the earlier Irish18/23% scope is historical. Retain American sibling/mother assessments, prior substantive amendments and Scottish William32%; no American father upgrade.",
+      "work_queue_summary": "Reconcile daughter Nancy’s overlooked explicit child designation: 81% → 91% research confidence. Original Faris page uninspected; Robert’s own father stays 35%.",
       "pending": true,
       "findings_path": "research/Glasgow-12/findings.md",
       "review_ids": [
@@ -23054,31 +23054,18 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2003/father-confidence-2026-10-22g.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-2003/nancy-father-review-2026-10-24.wiki",
       "findings_path": "research/Glasgow-2003/findings.md",
-      "summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 81% (probable), retaining source and identity limits; no new father attachment.",
-      "relationship_changes": [
-        {
-          "action": "regrade",
-          "relationship": "father",
-          "relative_id": "Glasgow-12",
-          "status": "probable",
-          "previous_status": "confident",
-          "previous_probability_percent": null,
-          "probability_percent": 81,
-          "assertion_id": "C-coverage-20261022g-glasgow-2003-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
-        }
-      ],
+      "summary": "Nancy’s existing Robert father: research confidence 81% → 91%; add copied-source qualification. WikiTree already marks this father confident, so no certainty-mark amendment.",
+      "work_queue_summary": "Nancy’s existing Robert father: research confidence 81% → 91%; add copied-source qualification. WikiTree already marks this father confident, so no certainty-mark amendment.",
+      "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/nancy-father-confidence-2026-10-24.json"
     },
     "Glasgow-220": {
       "profile_id": "Glasgow-220",
