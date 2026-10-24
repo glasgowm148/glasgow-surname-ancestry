@@ -140,6 +140,59 @@ class FmpPreflightTests(unittest.TestCase):
         self.assertTrue(result["matching_hold"])
         self.assertTrue(any("record_assignments" in item["json_pointer"] for item in result["matching_hold_evidence"]))
 
+    def test_nested_no_eligible_role_disposition_is_exposed_without_blocking_receipt(self):
+        self.detail("R_11", {
+            "access_status": "accessible",
+            "transcript_fields": {"First name(s)": "Child", "Father's last name": "Glasgow"},
+        })
+        self.write_json("research/findmypast-glasgow-audit/birth-scope-records-review.json", {
+            "matching_review": {
+                "cached180_review": {
+                    "record_dispositions": {
+                        "R_11": {
+                            "status": "no_eligible_role_proved",
+                            "reason": "Named parent has no established eligible profile yet.",
+                            "previous_disposition_2026": {"status": "out_of_scope"},
+                        }
+                    }
+                }
+            }
+        })
+        result = self.run_one("R_11")
+        self.assertEqual(result["disposition"], "reusable_receipt")
+        self.assertTrue(result["matching_hold"])
+        evidence = result["matching_hold_evidence"]
+        self.assertEqual(len(evidence), 1)
+        self.assertEqual(evidence[0]["matching_status"], "no_eligible_role_proved")
+        self.assertEqual(evidence[0]["reason"], "Named parent has no established eligible profile yet.")
+        self.assertEqual(
+            evidence[0]["json_pointer"],
+            "#/matching_review/cached180_review/record_dispositions/R_11",
+        )
+
+    def test_indexed_followup_does_not_resurrect_historical_hold(self):
+        self.detail("R_12", {"access_status": "accessible", "transcript_fields": {"Last name": "Glasgow"}})
+        self.write_json("research/findmypast-glasgow-audit/birth-scope-records-review.json", {
+            "matching_review": {
+                "cached_review": {
+                    "record_dispositions": {
+                        "R_12": {
+                            "status": "cached_secondary_role_indexed",
+                            "indexed": True,
+                            "previous_disposition_2026": {
+                                "status": "no_eligible_role_proved",
+                                "reason": "Old pending parent review.",
+                            },
+                        }
+                    }
+                }
+            }
+        })
+        result = self.run_one("R_12")
+        self.assertEqual(result["disposition"], "reusable_receipt")
+        self.assertFalse(result["matching_hold"])
+        self.assertEqual(result["matching_hold_evidence"], [])
+
     def test_percent_encoded_selection_id_normalizes_to_provider_id(self):
         self.detail("SCOT/OPR/BAP/43", {"access_status": "accessible", "transcript_fields": {"Last name": "Glasgow"}})
         result = self.run_one("SCOT%2FOPR%2FBAP%2F43")

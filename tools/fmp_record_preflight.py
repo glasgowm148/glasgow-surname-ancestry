@@ -100,6 +100,14 @@ def _receipt_candidates(audit_dir: Path) -> dict[str, list[dict]]:
 
 def _scope_holds(audit_dir: Path) -> dict[str, list[dict]]:
     holds: dict[str, list[dict]] = {}
+    reviewed_hold_statuses = {
+        "identity_hold",
+        "parent_candidate_hold",
+        "compatible_candidate_hold",
+        "scope_hold",
+        "scope_private_hold",
+        "no_eligible_role_proved",
+    }
     for path in sorted(audit_dir.glob(SCOPE_GLOB)):
         data = _read(path)
         if not isinstance(data, dict):
@@ -138,6 +146,34 @@ def _scope_holds(audit_dir: Path) -> dict[str, list[dict]]:
                         "json_pointer": "#/matching_review/record_assignments/" + _pointer_token(str(record_id)),
                         "matching_status": status or "scope_hold",
                         "reason": assessment or f"Assignment status: {status}",
+                    })
+        matching_review = data.get("matching_review") or {}
+        if isinstance(matching_review, dict):
+            for review_name, review in matching_review.items():
+                if not isinstance(review, dict):
+                    continue
+                dispositions = review.get("record_dispositions")
+                if not isinstance(dispositions, dict):
+                    continue
+                for record_id, disposition in dispositions.items():
+                    if not isinstance(disposition, dict):
+                        continue
+                    # Read only the current disposition. Historical
+                    # previous_disposition_* snapshots must not resurrect a
+                    # HOLD that a later indexed/closed status superseded.
+                    status = str(disposition.get("status") or "").casefold()
+                    if status not in reviewed_hold_statuses:
+                        continue
+                    key = _findmypast_key(str(record_id))
+                    if key[0] != "findmypast":
+                        continue
+                    holds.setdefault(key[1], []).append({
+                        "path": str(path),
+                        "json_pointer": "#/matching_review/" + _pointer_token(str(review_name))
+                        + "/record_dispositions/" + _pointer_token(str(record_id)),
+                        "matching_status": disposition.get("status"),
+                        "reason": (disposition.get("assessment") or disposition.get("reason")
+                                   or f"Current review disposition: {disposition.get('status')}"),
                     })
     return holds
 
