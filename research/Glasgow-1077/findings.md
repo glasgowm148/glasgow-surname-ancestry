@@ -7,6 +7,8 @@ Last updated: 2026-10-07
 
 Father reviewed22October2026: Glasgow-1073 remains selected at 98% (proved). The validated9 December 1690 Kilbirnie child event belongs to John-1077 and the established minister John/Jean Cunningham family. The father’s parish career, exact household and neighbouring child entries identify a specific father account. The 1690 child and minister household98%; the later provost, skipper and 1740 bailie records retain their distinct identity questions. Original not newly inspected.
 
+Follow-up, 24 October 2026: Existing selected adult John father for this specific Irvine/Agnes household; 98% prior assessment retained, not newly proved by independent source.. The companion index repeats John Glasgow’s known Irvine baptism on 27 June 1721, naming John Glasgow and Agnes Fergusone, with male sex and broad Irvine residence. The event is already held under SCOT/OPR/BAP/3573689 for Glasgow-1139. The existing John-1077/Agnes Ferguson-15168 household remains qualified as previously assessed; the selected father is 98% and maternity is unassessed. No exact birth is supplied. The child remains distinct from adult John-4163, whose earlier erroneous merge was reversed.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-797144230166
 
 The transcript-validated baptism record for **John Glasgow**, 09 Dec 1690, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -70,3 +72,13 @@ Role in this account: recorded Rev John father comparison only, no grade change.
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-PAGE19-20261024 -->
+## Findmypast record review — 24 October 2026
+
+Existing selected adult John father for this specific Irvine/Agnes household; 98% prior assessment retained, not newly proved by independent source.. The companion index repeats John Glasgow’s known Irvine baptism on 27 June 1721, naming John Glasgow and Agnes Fergusone, with male sex and broad Irvine residence. The event is already held under SCOT/OPR/BAP/3573689 for Glasgow-1139. The existing John-1077/Agnes Ferguson-15168 household remains qualified as previously assessed; the selected father is 98% and maternity is unassessed. No exact birth is supplied. The child remains distinct from adult John-4163, whose earlier erroneous merge was reversed.
+
+- [Findmypast R_685314994](https://www.findmypast.co.uk/transcript?id=R_685314994&tab=this)
+
+Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE19-20261024 -->

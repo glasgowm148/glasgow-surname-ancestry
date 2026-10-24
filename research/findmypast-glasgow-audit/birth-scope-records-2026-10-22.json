@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 467,
+    "inspected_transcripts": 480,
     "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
@@ -333,7 +333,18 @@
       "R_686332349",
       "R_687756606",
       "R_686210587",
-      "R_691904644"
+      "R_691904644",
+      "SCOT/OPR/BAP/0628041",
+      "SCOT/OPR/BAP/4363159",
+      "R_686349922",
+      "R_687775517",
+      "SCOT/OPR/BAP/4222327",
+      "R_688347191",
+      "SCOT/OPR/BAP/5055887",
+      "GBPRS/SCOT/MIS/511323",
+      "SCOT/OPR/BUR/1128679",
+      "R_685314994",
+      "R_684956583"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -477,10 +488,12 @@
       "R_687293281",
       "R_686207991",
       "R_691902719",
-      "R_693603370"
+      "R_693603370",
+      "R_690037131",
+      "GBPRS/LOTHIAN/SGS/BUR/032213"
     ],
-    "next_query_page": 19,
-    "integration_scope": "467ledger receipts indexed:325qualified profile-context,142source-only. Six supporting cached receipts remain at original pointers (473indexed union).20new provider captures/11groups;4existing-event confirmations,7new source-defined/conflict leads. No new people, vital changes, regrades or original-record inspections. Full audit INCOMPLETE.",
+    "next_query_page": 20,
+    "integration_scope": "480 ledger receipts indexed:336 qualified profile-context,144 source-only. Six supporting receipts remain at original pointers (486 indexed union). This batch13provider entries/10documentarygroups:4known-event confirmations,1birth-date correction,5new source-defined/conflict leads. No new people, regrades or original inspections. Full audit INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -948,37 +961,50 @@
       "R_686332349",
       "R_687756606",
       "R_686210587",
-      "R_691904644"
+      "R_691904644",
+      "SCOT/OPR/BAP/0628041",
+      "SCOT/OPR/BAP/4363159",
+      "R_686349922",
+      "R_687775517",
+      "SCOT/OPR/BAP/4222327",
+      "R_688347191",
+      "SCOT/OPR/BAP/5055887",
+      "GBPRS/SCOT/MIS/511323",
+      "R_690037131",
+      "SCOT/OPR/BUR/1128679",
+      "GBPRS/LOTHIAN/SGS/BUR/032213",
+      "R_685314994",
+      "R_684956583"
     ],
-    "records_with_profile_or_draft_context": 325,
+    "records_with_profile_or_draft_context": 336,
     "remaining_coverage": [
-      "Pages19–294 nominal of current1719–1799 birth-filtered BMD query;41 saved transcript gaps on pages19–21, then capture page22; provider caps may require partitioning",
+      "Pages20–294 nominal of current1719–1799 birth-filtered BMD query;28 saved transcript gaps on pages20–21, then capture page22; provider caps may require partitioning",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
       "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-page18-20261024-verification.json",
+    "verification_report": "output/findmypast-page19-20261024-verification.json",
     "verified_on": "2026-10-24",
-    "indexed_provider_record_count": 467,
-    "next_action": "Continue saved page19 frontier at SCOT/OPR/BAP/0628041 (Jean1753), after exact-ID preflight;41detail gaps remain across saved pages19–21. Reuse sufficient saved receipts. Next uncaptured searchpage22of294; remaining cached secondary-role HOLDs need per-parent review.",
-    "recent_query_transcripts": 332,
+    "indexed_provider_record_count": 480,
+    "next_action": "Continue saved page20 frontier at R_686209974 (John1727), after exact-ID preflight;28detail gaps remain across saved pages20–21. Reuse sufficient receipts. Next uncaptured searchpage22of294; other scope windows/categories/variants and secondary roles remain.",
+    "recent_query_transcripts": 345,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 379,
-    "capture_ledger_note": "467 saved/indexed derivative transcript receipts, not467people;332 newly captured query transcripts. Six indexed cached supporting receipts remain at their original pointers.",
-    "capture_count_basis": "467 indexed ledger receipts; unchanged534 distinct provider IDs in capture/saved-query union. These are neither people nor whole-provider coverage.",
+    "recent_query_rows_reviewed": 392,
+    "capture_ledger_note": "480 saved/indexed derivative transcript receipts, not480people;345 newly captured query transcripts. Six indexed supporting receipts remain at original pointers.",
+    "capture_count_basis": "480 indexed ledger receipts; capture totals differ from query dispositions and people. Six supporting receipts are indexed outside this literal ledger.",
     "recent_query_receipt_reuses": 41,
     "recent_query_existing_index_reuses": 1,
     "recent_query_access_holds": 5,
     "next_search_page_to_capture": 22,
     "recent_query_rows_captured": 420,
-    "contiguous_query_rows_reviewed": 365,
-    "recent_query_detail_gaps": 41,
+    "contiguous_query_rows_reviewed": 388,
+    "recent_query_detail_gaps": 28,
     "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 6,
-    "total_indexed_reviewed_provider_ids": 473
+    "total_indexed_reviewed_provider_ids": 486
   },
   "search_pages": [
     {
@@ -5503,9 +5529,30 @@
       ],
       "captured_rows": 20,
       "captured_at": "2026-10-23T22:59:32.512Z",
-      "review_status": "partial_review",
-      "reviewed_cached_rows": 5,
-      "remaining_detail_rows": 11,
+      "review_status": "Reviewed and locally integrated pending final checks",
+      "reviewed_cached_rows": [
+        "R_686332349",
+        "R_687756606",
+        "R_686210587",
+        "R_691904644",
+        "SCOT/OPR/BAP/4221935",
+        "SCOT/OPR/BAP/0628041",
+        "SCOT/OPR/BAP/4363159",
+        "R_686349922",
+        "R_687775517",
+        "SCOT/OPR/BAP/4222327",
+        "R_688347191",
+        "SCOT/OPR/BAP/5055887",
+        "GBPRS/SCOT/MIS/511323",
+        "R_690037131",
+        "SCOT/OPR/BUR/1128679",
+        "SCOT/OPR/BAP/4602253",
+        "R_690418273",
+        "GBPRS/LOTHIAN/SGS/BUR/032213",
+        "R_692914424",
+        "SCOT/OPR/BAP/4839748"
+      ],
+      "remaining_detail_rows": [],
       "reviewed_transcript_rows": 4,
       "reviewed_rows": 9
     },
@@ -5744,9 +5791,31 @@
       ],
       "captured_rows": 20,
       "captured_at": "2026-10-23T23:01:17.504Z",
-      "review_status": "partial_cached_review",
-      "reviewed_cached_rows": 10,
-      "remaining_detail_rows": 10
+      "review_status": "Partially reviewed; continue at R_686209974",
+      "reviewed_cached_rows": [
+        "R_693242590",
+        "R_693242591",
+        "SCOT/OPR/BAP/4478030",
+        "SCOT/OPR/BAP/4478189",
+        "SCOT/OPR/BAP/3626495",
+        "R_685314994",
+        "SCOT/OPR/BAP/3626585",
+        "R_684956583",
+        "SCOT/OPR/BAP/3574782",
+        "SCOT/OPR/BAP/3574953",
+        "SCOT/OPR/BAP/3575071",
+        "SCOT/OPR/BAP/4588751"
+      ],
+      "remaining_detail_rows": [
+        "R_686209974",
+        "R_691906011",
+        "R_688617368",
+        "R_685315512",
+        "R_685314427",
+        "R_685314540",
+        "R_686310853",
+        "R_694113519"
+      ]
     },
     {
       "rows": [
@@ -5982,8 +6051,31 @@
         21
       ],
       "captured_rows": 20,
-      "review_status": "preflight_saved_identity_review_pending",
-      "captured_at": "2026-10-23T23:14:30.687928+00:00"
+      "review_status": "Partially reviewed; continue at R_686207931",
+      "captured_at": "2026-10-23T23:14:30.687928+00:00",
+      "reviewed_cached_rows": [],
+      "remaining_detail_rows": [
+        "R_686207931",
+        "R_691903896",
+        "R_22094613969",
+        "R_686211396",
+        "R_691905867",
+        "GBPRS/GLASGOW/BUR/093142",
+        "R_692644328",
+        "SCOT/OPR/BUR/1025643",
+        "GBPRS/GLASGOW/BUR/093137",
+        "SCOT/OPR/BAP/3839025",
+        "R_686707056",
+        "R_690798614",
+        "GBPRS/GLASGOW/BUR/093143",
+        "R_693207798",
+        "GBPRS/WSMTN/BAP/0284722",
+        "GBPRS/B/491836340/1",
+        "R_864628876",
+        "SCOT/OPR/BAP/4884269",
+        "R_686312199",
+        "SCOT/OPR/BAP/0735490"
+      ]
     }
   ],
   "records": {
@@ -23101,6 +23193,501 @@
       "capture_method": "Cua Chrome DOM transcript table",
       "matching_status": "existing_event_confirmation",
       "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/0628041": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:17:17.329Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0628041",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0628041&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0628041&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Jean",
+        "Father's occupation": "Journeyman",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Elizt",
+        "Birth year": "1753",
+        "Mother's last name": "Morison",
+        "Birth date": "13 Mar 1753",
+        "Archive reference": "OPR 685_1/28",
+        "Baptism year": "1753",
+        "Register year range": "1753-1755",
+        "Baptism date": "15 Apr 1753",
+        "Item": "4",
+        "Residence": "N E P",
+        "Page": "29",
+        "Place": "Edinburgh",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County": "Midlothian",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Country": "Scotland",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "John",
+        "Collections from": "Great Britain, Scotland",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/4363159": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:17:32.303Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4363159",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4363159&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4363159&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Archive reference": "OPR 685_1/28",
+        "Baptism date": "15 Apr 1753",
+        "Baptism year": "1753",
+        "Birth date": "13 Mar 1753",
+        "Birth year": "1753",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "Father's occupation": "Journeyman",
+        "First name(s)": "Jean",
+        "Item": "4",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Elizt",
+        "Mother's last name": "Morison",
+        "Page": "29",
+        "Place": "Edinburgh",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Register year range": "1753-1755",
+        "Residence": "N E P",
+        "Subcategory": "Parish Baptisms"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686349922": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:17:48.330Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686349922",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686349922&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686349922&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Baptism date": "30 Nov 1755",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Baptism year": "1755",
+        "Birth year": "1755",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Jean",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Anderson",
+        "Place": "West Calder",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Residence": "West Calder, Midlothian, Scotland",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_687775517": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:18:02.036Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_687775517",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_687775517&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_687775517&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Baptism date": "30 Nov 1755",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Baptism year": "1755",
+        "Birth year": "1755",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Jean",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Anderson",
+        "Place": "West Calder",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Female",
+        "Subcategory": "Parish Baptisms"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/4222327": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:19:27.782Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Baptism date": "31 Jul 1757",
+        "Baptism year": "1757",
+        "Birth year": "1757",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Jean",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Mary",
+        "Mother's last name": "Robertson",
+        "Place": "Currie",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Subcategory": "Parish Baptisms",
+        "Archive reference": "OPR 682/2",
+        "Birth date": "24 Jul 1757",
+        "Item": "2",
+        "Register year range": "1746-1819"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "matched_existing_birth_refinement",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "R_687775517",
+        "field_count": 20,
+        "checksum": "1313c240",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "R_688347191": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:19:39.823Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688347191",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688347191&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688347191&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Baptism date": "31 Jul 1757",
+        "Baptism year": "1757",
+        "Birth year": "1757",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Jean",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Mary",
+        "Mother's last name": "Robertson",
+        "Place": "Currie by Edinburgh",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Subcategory": "Parish Baptisms",
+        "Baptism place": "Currie by Edinburgh, Midlothian, Scotland",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "matched_existing_birth_refinement",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "SCOT/OPR/BAP/4222327",
+        "field_count": 18,
+        "checksum": "fafb4605",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "SCOT/OPR/BAP/5055887": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:19:54.427Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5055887",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5055887&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5055887&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Baptism date": "12 Jun 1768",
+        "Baptism year": "1768",
+        "Birth year": "1768",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Roxburghshire",
+        "Father's first name(s)": "David",
+        "Father's last name": "Glasgow",
+        "First name(s)": "Jean",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Janet",
+        "Mother's last name": "Hood",
+        "Place": "Kelso",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Subcategory": "Parish Baptisms",
+        "Archive reference": "OPR 793/3",
+        "Birth date": "12 May 1768",
+        "Item": "1",
+        "Page": "98",
+        "Register year range": "1745-1786"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "R_688347191",
+        "field_count": 21,
+        "checksum": "a0f1c39e",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "GBPRS/SCOT/MIS/511323": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:20:25.551Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511323",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511323&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511323&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "transcript_fields": {
+        "Birth year": "1766",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "First name(s)": "Jean",
+        "Last name": "Glasgow",
+        "Place": "Kirknewton",
+        "Record set": "Scotland Monumental Inscriptions",
+        "Subcategory": "Parish Burials",
+        "Age": "73",
+        "Alternative last name": "Kirk",
+        "Cemetery": "Kirknewton Churchyard",
+        "Death year": "1839",
+        "Inscription": "Erected by James Kirk to the memory of 2 of his children Jean *** aged ** weeks. Also Harriet Kirk d. ***. Also Mary Rodger his step daughter d. 20.2.1838 aged 49y. Also the foresaid James Kirk d. 10.6.1838 aged 73y. Also Jean Glasgow his spouse d. 12.6.1839 aged 73."
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "SCOT/OPR/BAP/5055887",
+        "field_count": 15,
+        "checksum": "c6ea142b",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "R_690037131": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:20:42.460Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_690037131",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_690037131&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_690037131&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Birth year": "1755",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Ayrshire",
+        "First name(s)": "Jean Mckenzie",
+        "Last name": "Glasgow",
+        "Place": "Ayr",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Subcategory": "Parish Baptisms",
+        "Baptism date": "08 Oct 1755",
+        "Baptism place": "AYR,AYR,SCOTLAND",
+        "Baptism year": "1755",
+        "Father's first name(s)": "Mckinzie",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Davidson",
+        "Sex": "Female"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "GBPRS/SCOT/MIS/511323",
+        "field_count": 18,
+        "checksum": "fa52a472",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "SCOT/OPR/BUR/1128679": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:21:03.077Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1128679",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1128679&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1128679&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "transcript_fields": {
+        "Birth year": "1763",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "-",
+        "County": "Lanarkshire",
+        "First name(s)": "Jennet",
+        "Last name": "Glasgow",
+        "Place": "Glasgow",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Subcategory": "Parish Burials",
+        "Age": "30",
+        "Archive reference": "OPR 644/60",
+        "Burial date": "13 Oct 1793",
+        "Burial year": "1793",
+        "Death year": "-",
+        "Item": "5",
+        "Page": "127",
+        "Year Range": "1788-1808"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "R_690037131",
+        "field_count": 18,
+        "checksum": "4e44fe91",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "GBPRS/LOTHIAN/SGS/BUR/032213": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:21:25.050Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FSGS%2FBUR%2F032213",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FSGS%2FBUR%2F032213&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FSGS%2FBUR%2F032213&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "transcript_fields": {
+        "Birth year": "1780",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "First name(s)": "Johan Neaper",
+        "Last name": "Glasgow",
+        "Place": "Edinburgh",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Subcategory": "Parish Burials",
+        "Age": "3 years 2 months",
+        "Burial date": "16 Aug 1783",
+        "Burial year": "1783",
+        "Death year": "-",
+        "Cause of death": "A Fivor",
+        "Cemetery": "St Cuthbert's, Edinburgh",
+        "Dataset Title": "St Cuthbert's, Edinburgh Death & Burial Register",
+        "Notes": "doughtr to Mr Georg Glasgow",
+        "Reference": "685/2/24"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "SCOT/OPR/BUR/1128679",
+        "field_count": 19,
+        "checksum": "782f3e21",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "R_685314994": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:21:56.811Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685314994",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685314994&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685314994&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Birth year": "1721",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Ayrshire",
+        "First name(s)": "John",
+        "Last name": "Glasgow",
+        "Place": "Irvine",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Subcategory": "Parish Baptisms",
+        "Baptism date": "27 Jun 1721",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Baptism year": "1721",
+        "Father's first name(s)": "John",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Agnes",
+        "Mother's last name": "Fergusone",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Male"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "GBPRS/LOTHIAN/SGS/BUR/032213",
+        "field_count": 19,
+        "checksum": "e0427e65",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
+    },
+    "R_684956583": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T03:22:19.846Z",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_684956583",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_684956583&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_684956583&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Birth year": "1722",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Lanarkshire",
+        "First name(s)": "John",
+        "Last name": "Glasgow",
+        "Place": "Libberton",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Subcategory": "Parish Baptisms",
+        "Baptism date": "23 Sep 1722",
+        "Baptism place": "LIBBERTON, LANARK, SCOTLAND",
+        "Baptism year": "1722",
+        "Father's first name(s)": "Robert",
+        "Father's last name": "Glasgow",
+        "Mother's first name(s)": "Katharin",
+        "Mother's last name": "Wilson",
+        "Residence": "Libberton, Lanarkshire, Scotland",
+        "Sex": "Male"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24",
+      "capture_transfer": {
+        "encoding": "JSON.stringify(sorted [label,value] pairs), FNV1a32 over JS UTF16 code units",
+        "base_provider_id": "R_685314994",
+        "field_count": 19,
+        "checksum": "c0c3d10f",
+        "checksum_scope": "Lossless transfer check, not source authenticity"
+      }
     }
   },
   "identity_clusters": [
@@ -48423,6 +49010,285 @@
       },
       "verification_report": "output/findmypast-page18-20261024-verification.json",
       "publication": "Verified local integration; no deployment or live WikiTree save"
+    },
+    "page19_review": {
+      "reviewed_on": "2026-10-24",
+      "new_provider_transcripts": 13,
+      "provider_records_newly_indexed": 13,
+      "documentary_groups": 10,
+      "existing_event_confirmation_groups": 4,
+      "birth_date_corrections": 1,
+      "new_source_defined_or_conflict_lead_groups": 5,
+      "independent_original_record_inspections": 0,
+      "new_people": 0,
+      "relationship_changes": [],
+      "groups": [
+        {
+          "record_ids": [
+            "SCOT/OPR/BAP/0628041",
+            "SCOT/OPR/BAP/4363159"
+          ],
+          "status": "identity_hold",
+          "profiles": {
+            "Glasgow-3582": "father comparison only, HOLD",
+            "Morrison-24595": "mother comparison only, HOLD",
+            "Glasgow-4109": "related family context only"
+          },
+          "assessment": "Two companion Edinburgh OPR 685_1/28, item 4, p.29 transcripts record Jean Glasgow’s birth on 13 March 1753 and baptism on 15 April. They name father John Glasgow, a journeyman, mother “Elizt Morison”, and residence “N E P”. The held 1751 Mary entry shares those literal household details. Glasgow-3582, Morrison-24595 and Glasgow-4109 remain family-context comparisons; Jean and the adults are not assigned to profiles from this match alone.",
+          "novelty": "new_source_defined_or_conflict_lead"
+        },
+        {
+          "record_ids": [
+            "R_686349922",
+            "R_687775517"
+          ],
+          "status": "existing_event_confirmation",
+          "profiles": {
+            "Glasgow-1922": "strong child/event match",
+            "Glasgow-2847": "current father 98%; retain",
+            "Anderson-83671": "mother unassessed; retain"
+          },
+          "assessment": "Two companion transcripts repeat Jean Glasgow’s known West Calder baptism on 30 November 1755, naming John Glasgow and Margaret Anderson. They strongly match the event already held for Glasgow-1922. No separate birth date is supplied: the maintained exact 30 November birth field is inherited and not independently proved by these rows. The selected father Glasgow-2847 remains 98%; Anderson-83671 is an unassessed mother-profile reference.",
+          "novelty": "existing_event_confirmation"
+        },
+        {
+          "record_ids": [
+            "SCOT/OPR/BAP/4222327",
+            "R_688347191"
+          ],
+          "status": "matched_existing_birth_refinement",
+          "profiles": {
+            "Glasgow-1619": "strong child/event match; current birth 31 Jul should be corrected to explicit DOB 24 Jul if integrating",
+            "Glasgow-1343": "compatible father profile; retain 78%",
+            "Robertson-20326": "compatible mother profile; retain unassessed"
+          },
+          "assessment": "The Currie OPR 682/2, item 2 transcript explicitly records Jean Glasgow’s birth on 24 July 1757 and baptism on 31 July, naming John Glasgow and Mary Robertson; the companion index repeats the baptism and parents. Name, parish and baptism identify the existing child Glasgow-1619. The approved birth is corrected from 31 July to 24 July, with baptism retained separately. The selected father Glasgow-1343 remains 78% probable and mother-profile Robertson-20326 remains unassessed.",
+          "novelty": "birth_date_correction"
+        },
+        {
+          "record_ids": [
+            "SCOT/OPR/BAP/5055887"
+          ],
+          "status": "identity_hold",
+          "profiles": {
+            "Glasgow-1221": "same-event candidate, but John/Jean name conflict; hold",
+            "Glasgow-1218": "existing father profile candidate; 97% applies to John account",
+            "Hood-6028": "existing mother profile candidate; no change"
+          },
+          "assessment": "The Kelso OPR 793/3, item 1, p.98 transcript records Jean Glasgow’s birth on 12 May 1768 and baptism on 12 June, naming David Glasgow and Janet Hood. The existing John Glasgow-1221 account has the same baptism date, parish and compatible parents, but the Jean/John name discrepancy remains unresolved. No 12 May birth is assigned to John and no second child is proposed. The prior 97% father assessment concerns the existing John account; it does not resolve the new transcript’s identity.",
+          "novelty": "new_source_defined_or_conflict_lead"
+        },
+        {
+          "record_ids": [
+            "GBPRS/SCOT/MIS/511323"
+          ],
+          "status": "identity_hold",
+          "profiles": {
+            "Glasgow-1922": "Qualified comparison only: current model is Jean (Glasgow) Kirk, born 30 Nov 1755 West Calder; James Kirk is an existing tree spouse. Memorial transcript names James Kirk, spouse Jean Glasgow, and says she died 12 Jun 1839 aged 73 (age-derived c.1766). The spouse/name/death context is meaningful, but the age conflicts with her exact maintained birth by about 11 years; do not assign or alter vitals without original inscription review."
+          },
+          "assessment": "The Kirknewton Churchyard derivative inscription records James Kirk’s spouse Jean Glasgow as dying on 12 June 1839 aged 73; it also names stepdaughter Mary Rodger, who died on 20 February 1838 aged 49. Jean Glasgow-1922 is a meaningful name/spouse comparison, but the age-derived birth around 1766 disagrees with her maintained 1755 field. Identity remains on hold. The age is not an exact birth, and this one memorial is not independent corroboration of its own family claims.",
+          "novelty": "new_source_defined_or_conflict_lead"
+        },
+        {
+          "record_ids": [
+            "R_690037131"
+          ],
+          "status": "identity_hold",
+          "profiles": {},
+          "assessment": "The Ayr derivative transcript records Jean Mckenzie Glasgow’s baptism on 8 October 1755, with parents transcribed as Mckinzie Glasgow and Margaret Davidson. It supplies no separate birth date. Child and adult-profile identities remain unresolved; this is a source-defined household lead, with no proposed new person.",
+          "novelty": "new_source_defined_or_conflict_lead"
+        },
+        {
+          "record_ids": [
+            "SCOT/OPR/BUR/1128679"
+          ],
+          "status": "existing_event_confirmation",
+          "profiles": {
+            "Glasgow-3071": "Strong confirmation of an already-reviewed compatible burial: same name variant, Glasgow, age 30, and 1793 burial context as existing canonical record fmp-record-gbprs-glasgow-bur-093164. Do not treat as an independent event/source or refine current uncertain 1763/1793 vitals."
+          },
+          "assessment": "The Glasgow OPR 644/60, item 5, p.127 index records Jennet Glasgow, aged 30, buried on 13 October 1793. This is a likely companion derivative of the already held Ramshorn Jannet Glasgow burial for Glasgow-3071, rather than another event. Age suggests roughly 1763, not an exact birthday; burial is not an exact death date. This index supplies no cause-of-death field. Current uncertain vitals are retained.",
+          "novelty": "existing_event_confirmation"
+        },
+        {
+          "record_ids": [
+            "GBPRS/LOTHIAN/SGS/BUR/032213"
+          ],
+          "status": "identity_hold",
+          "profiles": {},
+          "assessment": "The St Cuthbert’s Edinburgh burial transcript records Johan Neaper Glasgow, aged 3 years 2 months, buried on 16 August 1783. Its note reads “doughtr to Mr Georg Glasgow” and cause “A Fivor” (reference 685/2/24). Age suggests roughly June 1780, not an exact birth. Child and father-profile identities remain unresolved; no new person is proposed.",
+          "novelty": "new_source_defined_or_conflict_lead"
+        },
+        {
+          "record_ids": [
+            "R_685314994"
+          ],
+          "status": "existing_event_confirmation",
+          "profiles": {
+            "Glasgow-1139": "Glasgow-1139, recorded Irvine child only",
+            "Glasgow-1077": "Existing selected adult John father for this specific Irvine/Agnes household; 98% prior assessment retained, not newly proved by independent source.",
+            "Ferguson-15168": "Existing Agnes Ferguson mother in family; derivative Fergusone spelling compatible; no new mother assignment."
+          },
+          "assessment": "The companion index repeats John Glasgow’s known Irvine baptism on 27 June 1721, naming John Glasgow and Agnes Fergusone, with male sex and broad Irvine residence. The event is already held under SCOT/OPR/BAP/3573689 for Glasgow-1139. The existing John-1077/Agnes Ferguson-15168 household remains qualified as previously assessed; the selected father is 98% and maternity is unassessed. No exact birth is supplied. The child remains distinct from adult John-4163, whose earlier erroneous merge was reversed.",
+          "novelty": "existing_event_confirmation"
+        },
+        {
+          "record_ids": [
+            "R_684956583"
+          ],
+          "status": "existing_event_confirmation",
+          "profiles": {
+            "Glasgow-2870": "Glasgow-2870 as Scottish record-defined baptised child only; his later American/Nottingham identity remains unproved.",
+            "Glasgow-3407": "Existing selected Robert Wilson-household father for Scottish child; do not equate with Glasgow-4168 Gibson/Watson account.",
+            "Wilson-127539": "Existing Katherine Wilson mother of Scottish child; Katharin indexed spelling variant, no new mother/ancestry."
+          },
+          "assessment": "The companion index repeats the known Libberton baptism on 23 September 1722, naming Robert Glasgow and Katharin Wilson, with male sex and broad Libberton residence. It matches the Scottish record-defined child account under Glasgow-2870 and the held SCOT/OPR/BAP/4033399 event; its broad locality does not supersede the held Sandyburgh detail. Glasgow-3407 and Wilson-127539 are the retained Scottish parent-profile roles. Neither index establishes an exact birth or bridges the Scottish child to the later Nottingham/Pennsylvania adult. The inherited exact birth field is retained pending its separate basis review.",
+          "novelty": "existing_event_confirmation"
+        }
+      ],
+      "record_dispositions": {
+        "SCOT/OPR/BAP/0628041": {
+          "status": "identity_hold",
+          "assessment": "Two companion Edinburgh OPR 685_1/28, item 4, p.29 transcripts record Jean Glasgow’s birth on 13 March 1753 and baptism on 15 April. They name father John Glasgow, a journeyman, mother “Elizt Morison”, and residence “N E P”. The held 1751 Mary entry shares those literal household details. Glasgow-3582, Morrison-24595 and Glasgow-4109 remain family-context comparisons; Jean and the adults are not assigned to profiles from this match alone.",
+          "profiles": {
+            "Glasgow-3582": "father comparison only, HOLD",
+            "Morrison-24595": "mother comparison only, HOLD",
+            "Glasgow-4109": "related family context only"
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~10628041"
+        },
+        "SCOT/OPR/BAP/4363159": {
+          "status": "identity_hold",
+          "assessment": "Two companion Edinburgh OPR 685_1/28, item 4, p.29 transcripts record Jean Glasgow’s birth on 13 March 1753 and baptism on 15 April. They name father John Glasgow, a journeyman, mother “Elizt Morison”, and residence “N E P”. The held 1751 Mary entry shares those literal household details. Glasgow-3582, Morrison-24595 and Glasgow-4109 remain family-context comparisons; Jean and the adults are not assigned to profiles from this match alone.",
+          "profiles": {
+            "Glasgow-3582": "father comparison only, HOLD",
+            "Morrison-24595": "mother comparison only, HOLD",
+            "Glasgow-4109": "related family context only"
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14363159"
+        },
+        "R_686349922": {
+          "status": "existing_event_confirmation",
+          "assessment": "Two companion transcripts repeat Jean Glasgow’s known West Calder baptism on 30 November 1755, naming John Glasgow and Margaret Anderson. They strongly match the event already held for Glasgow-1922. No separate birth date is supplied: the maintained exact 30 November birth field is inherited and not independently proved by these rows. The selected father Glasgow-2847 remains 98%; Anderson-83671 is an unassessed mother-profile reference.",
+          "profiles": {
+            "Glasgow-1922": "strong child/event match",
+            "Glasgow-2847": "current father 98%; retain",
+            "Anderson-83671": "mother unassessed; retain"
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686349922"
+        },
+        "R_687775517": {
+          "status": "existing_event_confirmation",
+          "assessment": "Two companion transcripts repeat Jean Glasgow’s known West Calder baptism on 30 November 1755, naming John Glasgow and Margaret Anderson. They strongly match the event already held for Glasgow-1922. No separate birth date is supplied: the maintained exact 30 November birth field is inherited and not independently proved by these rows. The selected father Glasgow-2847 remains 98%; Anderson-83671 is an unassessed mother-profile reference.",
+          "profiles": {
+            "Glasgow-1922": "strong child/event match",
+            "Glasgow-2847": "current father 98%; retain",
+            "Anderson-83671": "mother unassessed; retain"
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687775517"
+        },
+        "SCOT/OPR/BAP/4222327": {
+          "status": "matched_existing_birth_refinement",
+          "assessment": "The Currie OPR 682/2, item 2 transcript explicitly records Jean Glasgow’s birth on 24 July 1757 and baptism on 31 July, naming John Glasgow and Mary Robertson; the companion index repeats the baptism and parents. Name, parish and baptism identify the existing child Glasgow-1619. The approved birth is corrected from 31 July to 24 July, with baptism retained separately. The selected father Glasgow-1343 remains 78% probable and mother-profile Robertson-20326 remains unassessed.",
+          "profiles": {
+            "Glasgow-1619": "strong child/event match; current birth 31 Jul should be corrected to explicit DOB 24 Jul if integrating",
+            "Glasgow-1343": "compatible father profile; retain 78%",
+            "Robertson-20326": "compatible mother profile; retain unassessed"
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14222327"
+        },
+        "R_688347191": {
+          "status": "matched_existing_birth_refinement",
+          "assessment": "The Currie OPR 682/2, item 2 transcript explicitly records Jean Glasgow’s birth on 24 July 1757 and baptism on 31 July, naming John Glasgow and Mary Robertson; the companion index repeats the baptism and parents. Name, parish and baptism identify the existing child Glasgow-1619. The approved birth is corrected from 31 July to 24 July, with baptism retained separately. The selected father Glasgow-1343 remains 78% probable and mother-profile Robertson-20326 remains unassessed.",
+          "profiles": {
+            "Glasgow-1619": "strong child/event match; current birth 31 Jul should be corrected to explicit DOB 24 Jul if integrating",
+            "Glasgow-1343": "compatible father profile; retain 78%",
+            "Robertson-20326": "compatible mother profile; retain unassessed"
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688347191"
+        },
+        "SCOT/OPR/BAP/5055887": {
+          "status": "identity_hold",
+          "assessment": "The Kelso OPR 793/3, item 1, p.98 transcript records Jean Glasgow’s birth on 12 May 1768 and baptism on 12 June, naming David Glasgow and Janet Hood. The existing John Glasgow-1221 account has the same baptism date, parish and compatible parents, but the Jean/John name discrepancy remains unresolved. No 12 May birth is assigned to John and no second child is proposed. The prior 97% father assessment concerns the existing John account; it does not resolve the new transcript’s identity.",
+          "profiles": {
+            "Glasgow-1221": "same-event candidate, but John/Jean name conflict; hold",
+            "Glasgow-1218": "existing father profile candidate; 97% applies to John account",
+            "Hood-6028": "existing mother profile candidate; no change"
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~15055887"
+        },
+        "GBPRS/SCOT/MIS/511323": {
+          "status": "identity_hold",
+          "assessment": "The Kirknewton Churchyard derivative inscription records James Kirk’s spouse Jean Glasgow as dying on 12 June 1839 aged 73; it also names stepdaughter Mary Rodger, who died on 20 February 1838 aged 49. Jean Glasgow-1922 is a meaningful name/spouse comparison, but the age-derived birth around 1766 disagrees with her maintained 1755 field. Identity remains on hold. The age is not an exact birth, and this one memorial is not independent corroboration of its own family claims.",
+          "profiles": {
+            "Glasgow-1922": "Qualified comparison only: current model is Jean (Glasgow) Kirk, born 30 Nov 1755 West Calder; James Kirk is an existing tree spouse. Memorial transcript names James Kirk, spouse Jean Glasgow, and says she died 12 Jun 1839 aged 73 (age-derived c.1766). The spouse/name/death context is meaningful, but the age conflicts with her exact maintained birth by about 11 years; do not assign or alter vitals without original inscription review."
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1SCOT~1MIS~1511323"
+        },
+        "R_690037131": {
+          "status": "identity_hold",
+          "assessment": "The Ayr derivative transcript records Jean Mckenzie Glasgow’s baptism on 8 October 1755, with parents transcribed as Mckinzie Glasgow and Margaret Davidson. It supplies no separate birth date. Child and adult-profile identities remain unresolved; this is a source-defined household lead, with no proposed new person.",
+          "profiles": {},
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690037131"
+        },
+        "SCOT/OPR/BUR/1128679": {
+          "status": "existing_event_confirmation",
+          "assessment": "The Glasgow OPR 644/60, item 5, p.127 index records Jennet Glasgow, aged 30, buried on 13 October 1793. This is a likely companion derivative of the already held Ramshorn Jannet Glasgow burial for Glasgow-3071, rather than another event. Age suggests roughly 1763, not an exact birthday; burial is not an exact death date. This index supplies no cause-of-death field. Current uncertain vitals are retained.",
+          "profiles": {
+            "Glasgow-3071": "Strong confirmation of an already-reviewed compatible burial: same name variant, Glasgow, age 30, and 1793 burial context as existing canonical record fmp-record-gbprs-glasgow-bur-093164. Do not treat as an independent event/source or refine current uncertain 1763/1793 vitals."
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11128679"
+        },
+        "GBPRS/LOTHIAN/SGS/BUR/032213": {
+          "status": "identity_hold",
+          "assessment": "The St Cuthbert’s Edinburgh burial transcript records Johan Neaper Glasgow, aged 3 years 2 months, buried on 16 August 1783. Its note reads “doughtr to Mr Georg Glasgow” and cause “A Fivor” (reference 685/2/24). Age suggests roughly June 1780, not an exact birth. Child and father-profile identities remain unresolved; no new person is proposed.",
+          "profiles": {},
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1LOTHIAN~1SGS~1BUR~1032213"
+        },
+        "R_685314994": {
+          "status": "existing_event_confirmation",
+          "assessment": "The companion index repeats John Glasgow’s known Irvine baptism on 27 June 1721, naming John Glasgow and Agnes Fergusone, with male sex and broad Irvine residence. The event is already held under SCOT/OPR/BAP/3573689 for Glasgow-1139. The existing John-1077/Agnes Ferguson-15168 household remains qualified as previously assessed; the selected father is 98% and maternity is unassessed. No exact birth is supplied. The child remains distinct from adult John-4163, whose earlier erroneous merge was reversed.",
+          "profiles": {
+            "Glasgow-1139": "Glasgow-1139, recorded Irvine child only",
+            "Glasgow-1077": "Existing selected adult John father for this specific Irvine/Agnes household; 98% prior assessment retained, not newly proved by independent source.",
+            "Ferguson-15168": "Existing Agnes Ferguson mother in family; derivative Fergusone spelling compatible; no new mother assignment."
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314994"
+        },
+        "R_684956583": {
+          "status": "existing_event_confirmation",
+          "assessment": "The companion index repeats the known Libberton baptism on 23 September 1722, naming Robert Glasgow and Katharin Wilson, with male sex and broad Libberton residence. It matches the Scottish record-defined child account under Glasgow-2870 and the held SCOT/OPR/BAP/4033399 event; its broad locality does not supersede the held Sandyburgh detail. Glasgow-3407 and Wilson-127539 are the retained Scottish parent-profile roles. Neither index establishes an exact birth or bridges the Scottish child to the later Nottingham/Pennsylvania adult. The inherited exact birth field is retained pending its separate basis review.",
+          "profiles": {
+            "Glasgow-2870": "Glasgow-2870 as Scottish record-defined baptised child only; his later American/Nottingham identity remains unproved.",
+            "Glasgow-3407": "Existing selected Robert Wilson-household father for Scottish child; do not equate with Glasgow-4168 Gibson/Watson account.",
+            "Wilson-127539": "Existing Katherine Wilson mother of Scottish child; Katharin indexed spelling variant, no new mother/ancestry."
+          },
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_684956583"
+        }
+      },
+      "verification_report": "output/findmypast-page19-20261024-verification.json",
+      "unassigned_note_searches": {
+        "date": "2026-10-24",
+        "queries": [
+          {
+            "type": "lex",
+            "query": "Jean Mckenzie Glasgow Mckinzie Margaret Davidson",
+            "rerank": false,
+            "limit": 5,
+            "results": [],
+            "finding": "No concrete compatible existing-profile lead in approved QMD notes."
+          },
+          {
+            "type": "lex",
+            "query": "Johan Neaper Georg Glasgow",
+            "rerank": false,
+            "limit": 5,
+            "results": [],
+            "finding": "No concrete compatible existing-profile lead in approved QMD notes."
+          }
+        ],
+        "scope": "Only two lexical queries for R_690037131 and GBPRS/LOTHIAN/SGS/BUR/032213; no new-person or relationship assignment implied."
+      },
+      "verification_complete": true
     }
   }
 }

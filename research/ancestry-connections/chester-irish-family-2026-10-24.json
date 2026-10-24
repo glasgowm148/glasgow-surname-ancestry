@@ -76,13 +76,22 @@
     },
     "Glasgow-2870": {
       "current_sha256": "0664b15c6cf47b7043834bc18cfae979a3b2e4283260d5f36f7f54cc4a56356a",
-      "proposed_sha256": "f01a5d01eb0742cad0c59fa05c105331c7ad84961b26d24b0c9e88c0c707863b",
+      "proposed_sha256": "594d98e81acdd8ba9ff1ff9994a17d97aef194d9883faa5c553c821496f88f5e",
       "prior_pending_draft_path": "research/Glasgow-2870/queue-review-2026-10-17.wiki",
       "prior_pending_sha256": "7675b3e2bbe26761a4a9ae562c11adc9c36d707aaef70736de3746f3090c1b40",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2870/chester-irish-family-2026-10-24.wiki",
       "private_comparison": false,
-      "retained": "Agent and parent checked all captured and prior pending source identities; scoped historical claims preserved."
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "previous_proposed_sha256": "f01a5d01eb0742cad0c59fa05c105331c7ad84961b26d24b0c9e88c0c707863b",
+      "previous_proposed_git_reference": "99c9a32d5eb9220ac32c92e62a4d300380d68aa0:research/Glasgow-2870/chester-irish-family-2026-10-24.wiki",
+      "superseded_passages": [],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     }
   },
   "verification": {

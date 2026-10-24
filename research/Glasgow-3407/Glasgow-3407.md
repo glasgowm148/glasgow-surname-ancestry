@@ -38,6 +38,14 @@ Johne [[Glasgow-3093]] remains an unselected alternative father for the Carnwath
 
 * Another Robert Glasgow ([[Glasgow-1143|Robert Glasgow (abt.1710–abt.1772)]]) married [[Wilson-78088|Rachel (Wilson) Glasgow (abt.1680–)]] at Kilwaughter, Antrim. Their connection, if any, is unclear.
 * There is also [[Glasgow-3179|Geillis (Glasgow) Wilson (1565-1603)]]
+<!-- BEGIN FMP-PAGE19-20261024 -->
+=== Findmypast record review, 24 October 2026 ===
+
+Existing selected Robert Wilson-household father for Scottish child; do not equate with Glasgow-4168 Gibson/Watson account.. The companion index repeats the known Libberton baptism on 23 September 1722, naming Robert Glasgow and Katharin Wilson, with male sex and broad Libberton residence. It matches the Scottish record-defined child account under Glasgow-2870 and the held SCOT/OPR/BAP/4033399 event; its broad locality does not supersede the held Sandyburgh detail. Glasgow-3407 and Wilson-127539 are the retained Scottish parent-profile roles. Neither index establishes an exact birth or bridges the Scottish child to the later Nottingham/Pennsylvania adult. The inherited exact birth field is retained pending its separate basis review.<ref name="FMP19Glasgow34070">Findmypast, Scotland, Parish Births & Baptisms 1564-1929, [https://www.findmypast.co.uk/transcript?id=R_684956583&tab=this R_684956583]; derivative transcript inspected 24 October 2026; original uninspected.</ref>
+
+Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births.
+<!-- END FMP-PAGE19-20261024 -->
+
 == Sources ==
 <references />
 See also:

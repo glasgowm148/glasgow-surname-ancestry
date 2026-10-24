@@ -15,25 +15,53 @@
     },
     "Glasgow-3407": {
       "current_sha256": "6088f8392dffd65b722014520653c2f693593f55ba08c786fe0a4ef5e2ff0403",
-      "proposed_sha256": "88e8cc5464cadfc312c19d226c678ecb83b5956be6998a300a3fc93a598948be",
+      "proposed_sha256": "e0b8174afd687a9953de26cef58778873aef4cc4226e339a4de1901b5abbb89d",
       "all_substantive_passages_accounted_for": true,
       "complete_current_and_prior_proposals_preserved": true,
       "private_comparison": false,
       "passages": [
         "Captured and earlier maintained complete texts preserved, with an additive dated identity assessment.",
         "Captured WikiTree dates, places, family fields and saved certainty flags are preserved; the Scottish record-parent assessments are new."
-      ]
+      ],
+      "previous_proposed_sha256": "88e8cc5464cadfc312c19d226c678ecb83b5956be6998a300a3fc93a598948be",
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-3407/Glasgow-3407.md",
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "superseded_passages": [],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Wilson-127539": {
       "current_sha256": "99aec7ede8b20701efac7236e08c236d07bbb88b17ca5e5075e464feca434b22",
-      "proposed_sha256": "33ef9a09f147068353e519f14e4be4b4bd91bfc5e1356caf71ccd6f67fa4eaa3",
+      "proposed_sha256": "5c405d273c78046d9e4b848a7987dcba1e583781206979b0d60e022f567c748d",
       "all_substantive_passages_accounted_for": true,
       "complete_current_and_prior_proposals_preserved": true,
       "private_comparison": false,
       "passages": [
         "Captured and earlier maintained complete texts preserved, with an additive dated identity assessment.",
         "Captured WikiTree dates, places, family fields and saved certainty flags are preserved; the Scottish record-parent assessments are new."
-      ]
+      ],
+      "previous_proposed_sha256": "33ef9a09f147068353e519f14e4be4b4bd91bfc5e1356caf71ccd6f67fa4eaa3",
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Wilson-127539/Wilson-127539.md",
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "superseded_passages": [
+        {
+          "profile": "Wilson-127539",
+          "path": "research/Wilson-127539/Wilson-127539.md",
+          "before": "** Parents: Robert Glasgow and Katharin Wilson<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms.</ref>\n\nKatherine Wilson was born about 1690. She married Robert Glasgow in 1713 at Carnwath, Lanark, Scotland.<ref>Scotland, Marriages, 1561-1910. Indexing Project (Batch) Number: M11632-4, System Origin: Scotland-ODM, GS Film Number: 1042971, 0102895.</ref>\n\nTheir son John Glasgow was christened on 23 September 1722 at Libberton, Lanark, Scotland.<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms.</ref>",
+          "after": "A 1722 Libberton baptism names Robert Glasgow and Katharin Wilson as parents of John Glasgow and records Katharin as his mother; it does not state her own parentage.<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms.</ref> The previous opening label ‘Parents: Robert Glasgow and Katharin Wilson’ is retained here as superseded wording for John’s parent clause, not Katherine’s own parents.\n\nKatherine Wilson was born about 1690. She married Robert Glasgow in 1713 at Carnwath, Lanark, Scotland.<ref>Scotland, Marriages, 1561-1910. Indexing Project (Batch) Number: M11632-4, System Origin: Scotland-ODM, GS Film Number: 1042971, 0102895.</ref>\n\nTheir son John Glasgow was christened on 23 September 1722 at Libberton, Lanark, Scotland.<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms.</ref>",
+          "rationale": "Clarifies that the named couple are John’s parents and Katherine is his mother; keeps her own parentage unassigned and preserves all prior citations and unrelated narrative."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     }
   }
 }

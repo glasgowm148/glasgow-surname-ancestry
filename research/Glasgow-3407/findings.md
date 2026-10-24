@@ -21,6 +21,7 @@ identity with this Robert.
 
 See the [graph-claim audit](../../surname-research/pre-1700/graph-claim-audit-2026-07-27.md).
 
+Follow-up, 24 October 2026: Existing selected Robert Wilson-household father for Scottish child; do not equate with Glasgow-4168 Gibson/Watson account.. The companion index repeats the known Libberton baptism on 23 September 1722, naming Robert Glasgow and Katharin Wilson, with male sex and broad Libberton residence. It matches the Scottish record-defined child account under Glasgow-2870 and the held SCOT/OPR/BAP/4033399 event; its broad locality does not supersede the held Sandyburgh detail. Glasgow-3407 and Wilson-127539 are the retained Scottish parent-profile roles. Neither index establishes an exact birth or bridges the Scottish child to the later Nottingham/Pennsylvania adult. The inherited exact birth field is retained pending its separate basis review.
 
 ## Selected uncertain family — 16 October 2026
 
@@ -54,3 +55,13 @@ The existing working branch below John contains 14 retained pre-1850 profile acc
 Sources: [Findmypast, Scotland Parish Births & Baptisms, John Glasgow, 23 September 1722, Libberton, Sandyburgh; Robert Glasgow and Katherin Wilson; OPR 650/1 p.17 item3, SCOT/OPR/BAP/4033399; transcript captured 3 September 2026, re-reviewed here](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033399&tab=this); [MyHeritage Scotland Births and Baptisms index, John Glasgow, Libberton 1722, Robert and Katharin Wilson; alternative presentation of the same register event](https://www.myheritage.com/research/record-30226-745324/john-glasgow-in-scotland-births-baptisms).
 
 [Full record-parent assessment and identity limits](/branches/early-scottish-records/#chapter-libberton-record-parents-confidence).
+
+<!-- BEGIN FMP-PAGE19-20261024 -->
+## Findmypast record review — 24 October 2026
+
+Existing selected Robert Wilson-household father for Scottish child; do not equate with Glasgow-4168 Gibson/Watson account.. The companion index repeats the known Libberton baptism on 23 September 1722, naming Robert Glasgow and Katharin Wilson, with male sex and broad Libberton residence. It matches the Scottish record-defined child account under Glasgow-2870 and the held SCOT/OPR/BAP/4033399 event; its broad locality does not supersede the held Sandyburgh detail. Glasgow-3407 and Wilson-127539 are the retained Scottish parent-profile roles. Neither index establishes an exact birth or bridges the Scottish child to the later Nottingham/Pennsylvania adult. The inherited exact birth field is retained pending its separate basis review.
+
+- [Findmypast R_684956583](https://www.findmypast.co.uk/transcript?id=R_684956583&tab=this)
+
+Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE19-20261024 -->

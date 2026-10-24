@@ -8,6 +8,7 @@ Reviewed: 2026-10-16
 
 **Selected uncertain West Calder family, 16 October 2026:** John Glasgow-2847, husband of Margaret Anderson, is placed under James Glasgow-3526 through possible identity with the 1717 Kirknewton child John Glasgow-3525. James Glasgow-1547 remains an alternative father account. The adult’s circa 1730 birth is an estimate; no mother or new vital date is supplied. [Evidence and alternatives](/branches/early-scottish-records/#west-calder-anderson-working-family).
 
+Follow-up, 24 October 2026: current father 98%; retain. Two companion transcripts repeat Jean Glasgow’s known West Calder baptism on 30 November 1755, naming John Glasgow and Margaret Anderson. They strongly match the event already held for Glasgow-1922. No separate birth date is supplied: the maintained exact 30 November birth field is inherited and not independently proved by these rows. The selected father Glasgow-2847 remains 98%; Anderson-83671 is an unassessed mother-profile reference.
 
 ## Selected uncertain family — 16 October 2026
 
@@ -46,3 +47,14 @@ Next question: No relationship or vitality change; preserve baptism as distinct 
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+
+<!-- BEGIN FMP-PAGE19-20261024 -->
+## Findmypast record review — 24 October 2026
+
+current father 98%; retain. Two companion transcripts repeat Jean Glasgow’s known West Calder baptism on 30 November 1755, naming John Glasgow and Margaret Anderson. They strongly match the event already held for Glasgow-1922. No separate birth date is supplied: the maintained exact 30 November birth field is inherited and not independently proved by these rows. The selected father Glasgow-2847 remains 98%; Anderson-83671 is an unassessed mother-profile reference.
+
+- [Findmypast R_686349922](https://www.findmypast.co.uk/transcript?id=R_686349922&tab=this)
+- [Findmypast R_687775517](https://www.findmypast.co.uk/transcript?id=R_687775517&tab=this)
+
+Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE19-20261024 -->

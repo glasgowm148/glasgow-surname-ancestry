@@ -660,15 +660,31 @@
     },
     "Glasgow-4109": {
       "current_sha256": "b2365597e714dfcd255a06d329efee4456f9ee829c8e6eaa7005878f062def52",
-      "proposed_sha256": "e99f2622fbed2695c5db07076b6ed407b4fa7ba91b8b946195606f9bcf2290fa",
-      "previous_proposed_sha256": "b2365597e714dfcd255a06d329efee4456f9ee829c8e6eaa7005878f062def52",
+      "proposed_sha256": "26401f90f0bfaee323d551eb4c7275e13847ee367b6798bb64168e77607c25c2",
+      "previous_proposed_sha256": "e99f2622fbed2695c5db07076b6ed407b4fa7ba91b8b946195606f9bcf2290fa",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-4109.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-4109/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-4109/father-confidence-2026-10-22g.wiki",
+      "superseded_passages": [
+        {
+          "profile": "Glasgow-4109",
+          "path": "research/Glasgow-4109/father-confidence-2026-10-22g.wiki",
+          "before": "'''Thomas Glasgow''' was born on 12 Jan 1749 and baptised at Edinburgh, Midlothian, on 09 Feb 1749. The parish register names his father as [[Glasgow-3582|John Glasgow]] and his mother as [[Morrison-24595|Eliz Morison]].<ref name=\"FMP1\" /> The register records both dates; Edinburgh is inferred from the baptism and is not independently recorded.",
+          "after": "'''Thomas Glasgow''' was born on 12 Jan 1749 and baptised at Edinburgh, Midlothian, on 09 Feb 1749. The parish register names his father as [[Glasgow-3582|John Glasgow]] and records his mother as ‘Elizt Morison’.<ref name=\"FMP1\" /> The mother’s profile identity remains unassessed. The previous draft linked the named mother to [[Morrison-24595|Eliz Morison]]; retain that as a superseded candidate mapping, not an established identity. The register records both dates; Edinburgh is inferred from the baptism and is not independently recorded.",
+          "rationale": "Preserves exact prior dates, father link, reference and narrative; corrects literal spelling and labels mother profile mapping unassessed."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Glasgow-1331": {
       "current_sha256": "973a4874593d05f65a5267f5b0d7dec9cb3f701f9c8cdd30460f210ba096fe69",
@@ -986,15 +1002,31 @@
     },
     "Glasgow-1922": {
       "current_sha256": "27de2071a9813cf1ed535ea047b4614487a72e0e220e518f67d946016956577e",
-      "proposed_sha256": "dac3019181e825826c6b32c566511510c0b7a84958dcaf25d884f67ac3cf1fb8",
-      "previous_proposed_sha256": "27de2071a9813cf1ed535ea047b4614487a72e0e220e518f67d946016956577e",
+      "proposed_sha256": "0a334db54996635de2e713968ebc835d263ac7ecc6ba7c3a97c9fa86c7c730e0",
+      "previous_proposed_sha256": "dac3019181e825826c6b32c566511510c0b7a84958dcaf25d884f67ac3cf1fb8",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1922.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1922/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-1922/father-confidence-2026-10-22g.wiki",
+      "superseded_passages": [
+        {
+          "profile": "Glasgow-1922",
+          "path": "research/Glasgow-1922/father-confidence-2026-10-22g.wiki",
+          "before": "Jean was born 1755.",
+          "after": "Jean Glasgow’s West Calder entry records a baptism on 30 November 1755; no separate birth date is stated. The previous draft said she was born in 1755, a wording now superseded by the event-specific account.",
+          "rationale": "Corrects event-role wording only and preserves the following ScotlandsPeople citation, vital field and grades."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Glasgow-3482": {
       "current_sha256": "a7acb0723371942efc5147893273ff6388cda6538baf4f2bf047aeb50b0509a6",
@@ -1065,15 +1097,31 @@
     },
     "Glasgow-1619": {
       "current_sha256": "b31425c4699e31fc581c954928308b15e2fd99729f164b42ff0a50de6b3d4dbc",
-      "proposed_sha256": "872de3b2f1685761718c6e717b5cf2c05c631d41cd445bce88fa7f9c76ac49c6",
-      "previous_proposed_sha256": "b31425c4699e31fc581c954928308b15e2fd99729f164b42ff0a50de6b3d4dbc",
+      "proposed_sha256": "b8527abf19cd342c7921a55aa22b062d881e9e82cbc9ed35ba473f39e3b840b1",
+      "previous_proposed_sha256": "872de3b2f1685761718c6e717b5cf2c05c631d41cd445bce88fa7f9c76ac49c6",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1619.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1619/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-1619/father-confidence-2026-10-22g.wiki",
+      "superseded_passages": [
+        {
+          "profile": "Glasgow-1619",
+          "path": "research/Glasgow-1619/father-confidence-2026-10-22g.wiki",
+          "before": "Jean was born in 1757. She is the daughter of [[Glasgow-1606|John Glasgow]] and [[Robertson-20326|Mary Robertson]]. ",
+          "after": "Jean Glasgow was born on 24 July 1757 and baptised on 31 July 1757 at Currie. Her OPR entry names John Glasgow and Mary Robertson.<ref name=\"JeanBirthBaptism1757\">Findmypast, Scotland, Parish Births & Baptisms 1564–1929, Currie OPR 682/2 item 2, record SCOT/OPR/BAP/4222327 (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327&tab=this); companion transcript R_688347191 (https://www.findmypast.co.uk/transcript?id=R_688347191&tab=this). Transcript explicitly distinguishes birth and baptism; original image uninspected.</ref> The earlier year-only birth statement is superseded by these separate dates. The previous draft linked the named father to [[Glasgow-1606|John Glasgow]]; that profile assignment is superseded because the entry does not identify a WikiTree profile. The current father-profile assessment remains [[Glasgow-1343]] at 78%; the mother-profile candidate [[Robertson-20326|Mary Robertson]] remains unassessed.",
+          "rationale": "Adds approved DOB 24 July while preserving 31 July as baptism, retains the old father ID as explicitly superseded, and leaves existing parent assessments unchanged."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Glasgow-3290": {
       "current_sha256": "072cc46699ef0132f1f815c2b0ceb61b1036f75d2792440afec9b75827636b2a",

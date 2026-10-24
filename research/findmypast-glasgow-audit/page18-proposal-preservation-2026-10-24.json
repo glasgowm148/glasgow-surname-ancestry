@@ -3,26 +3,19 @@
   "profiles": {
     "Glasgow-3071": {
       "current_sha256": "18d99bd3df32cdb99048914c5b40da940a352f6c4e2c7bf26ad0db931ba9fb7d",
-      "proposed_sha256": "132456d8d41b27982913c824dfa4e5cac43f1b4fa7f607ec42a20ed159222927",
-      "previous_proposed_sha256": "09f6ef393cb2367d7e80929dacf9af01383a566ff953a68ab6a28a789e7fe211",
+      "proposed_sha256": "7e99f5a0826c29999ffe38621c5b054b8602ddf513d379f642fe62c486fb56fc",
+      "previous_proposed_sha256": "132456d8d41b27982913c824dfa4e5cac43f1b4fa7f607ec42a20ed159222927",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3071/burial-source-review-2026-10-24.wiki",
-      "retained": "Every prior source identity and unrelated biography/research passage retained. Stale initial biography claims are explicitly superseded by the already-maintained vital/relationship account; their original wording and rationale remain in superseded_passages. No vital field, relative selection or percentage is changed by this prose reconciliation.",
-      "superseded_passages": [
-        {
-          "before": "Janet was born in 1763.  She passed away in 1793.",
-          "after": "Janet was born about 1763 and died in 1793 in Glasgow; both years remain uncertain in the retained profile. A saved Findmypast derivative records Jannet Glasgow, aged 30, buried on 13 October 1793 at Ramshorn & Blackfriars, with consumption noted. The age-derived birth year is compatible but does not establish an exact birth, and the burial date is separate evidence rather than an exact death date. The earlier biography's 1763 and 1793 years remain approximate claims, not exact dates.",
-          "rationale": "Current profile vitals mark both years uncertain. The derivative has age 30, year 1793 and burial 13 October, not an exact birth or death date; the review says no vital fields change."
-        }
-      ],
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "superseded_passages": [],
       "normalization_review": "Normalized prior adds the project Name Study category and empty Research Notes heading; captured biography and every source passage remain unchanged. Raw captured hash remains current_sha256.",
-      "previous_proposed_git_reference": "data/wikitree/profile-evidence.json#/profiles/Glasgow-3071/biography_wikitext",
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-3071/burial-source-review-2026-10-24.wiki",
       "reviewed_on": "2026-10-24",
       "draft_consistency_review": {
-        "source": "Current maintained public person model and existing reviewed assessments; no new relationship/vital decision",
-        "reviewed_on": "2026-10-24",
-        "intermediate_additive_proposal_sha256": "969b3a1a81ae99077e0a257e6cbbc7789229f20dbf979ac7c510500a7257660d",
-        "all_prior_source_identities_retained": true
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
       }
     }
   }

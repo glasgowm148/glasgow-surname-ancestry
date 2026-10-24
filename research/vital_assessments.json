@@ -1346,6 +1346,45 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-glasgow-1619-birth-20261024",
+      "subject": "Glasgow-1619",
+      "status": "approved",
+      "reviewed": "2026-10-24",
+      "scope": "birth date refinement only",
+      "basis": "The inspected derivative OPR682/2,item2 transcript gives Jean Glasgow birth24July1757 and baptism31July1757 at Currie, naming John Glasgow and Mary Robertson. Child name, parish, parents and existing31July baptism identify Glasgow-1619. This corrects the imported exact31July birth field; original register image uninspected. Selected father Glasgow-1343 remains78% probable; mother Robertson-20326 remains unassessed.",
+      "source": {
+        "url": "/people/glasgow-1619.json",
+        "section": "research_findings / Findmypast record review —24October2026"
+      },
+      "summary": "Jean Glasgow: birth24July1757, distinct from31July baptism; prior exact birth31July1757.",
+      "vitals": {
+        "birth": {
+          "date": "1757-07-24",
+          "place": "Currie, Midlothian, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Explicit birth field in inspected provider derivative transcript; original register uninspected. Existing parish locality retained without independently asserting exact birthplace.",
+          "note": "The inspected derivative OPR682/2,item2 transcript gives Jean Glasgow birth24July1757 and baptism31July1757 at Currie, naming John Glasgow and Mary Robertson. Child name, parish, parents and existing31July baptism identify Glasgow-1619. This corrects the imported exact31July birth field; original register image uninspected. Selected father Glasgow-1343 remains78% probable; mother Robertson-20326 remains unassessed.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327&tab=this",
+          "source_level": "inspected provider derivative transcript; original register uninspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1757-07-24",
+        "birth_year": 1757,
+        "birth_note": "The inspected derivative OPR682/2,item2 transcript gives Jean Glasgow birth24July1757 and baptism31July1757 at Currie, naming John Glasgow and Mary Robertson. Child name, parish, parents and existing31July baptism identify Glasgow-1619. This corrects the imported exact31July birth field; original register image uninspected. Selected father Glasgow-1343 remains78% probable; mother Robertson-20326 remains unassessed.",
+        "date_years": [
+          1757
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

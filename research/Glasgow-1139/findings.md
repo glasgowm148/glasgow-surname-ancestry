@@ -7,6 +7,8 @@ Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1077]
 
 John’s 27 June 1721 Irvine baptism names John Glasgow and Agnes Ferguson, matching the selected John MA’s family. The full couple separates him from the July 1721 Kilwinning John.
 
+Follow-up, 24 October 2026: Glasgow-1139, recorded Irvine child only. The companion index repeats John Glasgow’s known Irvine baptism on 27 June 1721, naming John Glasgow and Agnes Fergusone, with male sex and broad Irvine residence. The event is already held under SCOT/OPR/BAP/3573689 for Glasgow-1139. The existing John-1077/Agnes Ferguson-15168 household remains qualified as previously assessed; the selected father is 98% and maternity is unassessed. No exact birth is supplied. The child remains distinct from adult John-4163, whose earlier erroneous merge was reversed.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-b4821b754264
 
 The transcript-validated baptism record for **John Glasgow**, 27 Jun 1721, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -44,3 +46,13 @@ Next useful test: Compare exact parish and parents in any later adult identifica
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 27 Jun 1721, record SCOT/OPR/BAP/3573689](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573689&tab=this)
+
+<!-- BEGIN FMP-PAGE19-20261024 -->
+## Findmypast record review — 24 October 2026
+
+Glasgow-1139, recorded Irvine child only. The companion index repeats John Glasgow’s known Irvine baptism on 27 June 1721, naming John Glasgow and Agnes Fergusone, with male sex and broad Irvine residence. The event is already held under SCOT/OPR/BAP/3573689 for Glasgow-1139. The existing John-1077/Agnes Ferguson-15168 household remains qualified as previously assessed; the selected father is 98% and maternity is unassessed. No exact birth is supplied. The child remains distinct from adult John-4163, whose earlier erroneous merge was reversed.
+
+- [Findmypast R_685314994](https://www.findmypast.co.uk/transcript?id=R_685314994&tab=this)
+
+Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE19-20261024 -->

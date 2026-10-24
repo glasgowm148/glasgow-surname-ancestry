@@ -59,12 +59,36 @@
     },
     "Glasgow-1343": {
       "current_sha256": "1091d25338291eeff8eaf7f24a80b711d15d3aff5556fbceebb06d5086996cf2",
-      "proposed_sha256": "99249b1b270dcedcd9aaeb2a79e1b68fe0f7e61c3022b123588be1cb5949e8eb",
+      "proposed_sha256": "bc5b15719e596b8ab5fb35e4800250e63af232c28dd097864a559f93d97125b5",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1343/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "99249b1b270dcedcd9aaeb2a79e1b68fe0f7e61c3022b123588be1cb5949e8eb",
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-1343/father-confidence-2026-10-22b.wiki",
+      "superseded_passages": [
+        {
+          "profile": "Glasgow-1343",
+          "path": "research/Glasgow-1343/father-confidence-2026-10-22b.wiki",
+          "before": "John Glasgow was christened on 14 February 1727 in the parish of Kirknewton and East Calder, Midlothian, Scotland. He was the son of [[Glasgow-1141|Alexander Glasgow]] and [[Mubrie-1|Margaret Mutrie]].<ref name=\"Birth1727\">\"Scotland, Births and Baptisms, 1564-1950\", database, ''FamilySearch'' (https://familysearch.org/ark:/61903/1:1:VQ4K-PMV : 12 February 2020), John Glasgow, 1727.</ref>",
+          "after": "John Glasgow was christened on 14 February 1727 in the parish of Kirknewton and East Calder, Midlothian, Scotland. The index names his father as [[Glasgow-1141|Alexander Glasgow]] and records his mother as Margaret Mutrie. The current mother-profile candidate is [[Moultrie-158|Margaret (Moultrie) Glasgow]], but this profile identification remains unassessed. The prior draft’s link to [[Mubrie-1|Margaret Mutrie]] is retained as explicitly superseded history, not as a separate mother.<ref name=\"Birth1727\">\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4K-PMV : 12 February 2020), John Glasgow, 1727.</ref>",
+          "rationale": "Keeps the date as christening and exact citation; uses current parent candidate IDs and leaves maternity unassessed, with the old mother ID explicitly superseded."
+        },
+        {
+          "profile": "Glasgow-1343",
+          "path": "research/Glasgow-1343/father-confidence-2026-10-22b.wiki",
+          "before": "* '''Jean Glasgow''', christened 31 July 1757 in the parish of Currie, Midlothian.<ref name=\"Jean1757\">\"Scotland, Births and Baptisms, 1564-1950\", database, ''FamilySearch'' (https://www.familysearch.org/ark:/61903/1:1:VQ4X-935 : 16 September 2021), John Glasgow in entry for Jean Glasgow, 1757.</ref>",
+          "after": "* Jean Glasgow’s Currie OPR entry records birth on 24 July 1757 and baptism on 31 July 1757. It names John Glasgow and Mary Robertson; the current profile-level link of the named father to [[Glasgow-1343]] remains at 78% probable, and the mother-profile identity remains unassessed.<ref name=\"Jean1757\">\"Scotland, Births and Baptisms, 1564-1950\", database, ''FamilySearch'' (https://www.familysearch.org/ark:/61903/1:1:VQ4X-935 : 16 September 2021), John Glasgow in entry for Jean Glasgow, 1757.</ref><ref name=\"JeanBirthBaptism1757\">Findmypast, Scotland, Parish Births & Baptisms 1564–1929, Currie OPR 682/2 item 2, SCOT/OPR/BAP/4222327 (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327&tab=this), companion transcript R_688347191 (https://www.findmypast.co.uk/transcript?id=R_688347191&tab=this); birth 24 July, baptism 31 July 1757; original image uninspected.</ref>",
+          "rationale": "Adds the approved exact birth date while retaining baptism and the existing FamilySearch citation; parent profile assignment remains qualified and grades unchanged."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Glasgow-1022": {
       "current_sha256": "c2df07fa23f373746604e901dc8a71a503a10e357702664bea2b1191c50517b7",
@@ -273,12 +297,29 @@
     },
     "Glasgow-1221": {
       "current_sha256": "c5abc598b8e28afadbca2bade0174cd1e13de8818edcabf117f96e83f3420525",
-      "proposed_sha256": "b7cd55046def99b558be146ef23d61e6ba09faaba2fba6689e8829475e9dabfb",
+      "proposed_sha256": "bb93a7d4b2325739dced6663b42890a8b65b7eb647d00d833a8e19a54164730d",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1221/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "b7cd55046def99b558be146ef23d61e6ba09faaba2fba6689e8829475e9dabfb",
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-1221/father-confidence-2026-10-22b.wiki",
+      "superseded_passages": [
+        {
+          "profile": "Glasgow-1221",
+          "path": "research/Glasgow-1221/father-confidence-2026-10-22b.wiki",
+          "before": "John Glasgow was born about 1768. He was the son of [[Glasgow-1218|David Glasgow]] and [[Glasgow-1219|Janet Glasgow]].<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-5947402/john-glasgow-in-scotland-births-baptisms.</ref> He was christened on 12 June 1768 in Kelso, Roxburghshire, Scotland.<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-5947402/john-glasgow-in-scotland-births-baptisms.</ref>",
+          "after": "John Glasgow’s existing Kelso account records a baptism on 12 June 1768 and names David Glasgow and Janet Glasgow as his parents.<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-5947402/john-glasgow-in-scotland-births-baptisms.</ref> The current mother-profile candidate is [[Hood-6028|Janet (Hood) Glasgow]], whose identity remains unassessed. The previous draft linked Janet to Glasgow-1219; retain that ID as superseded draft history, since it is not the current model mapping. A separate Kelso OPR transcript for a 12 June 1768 baptism names the child Jean and gives birth as 12 May. Whether that entry is John or a distinct Jean remains unresolved, so its birth date is not assigned to this John.<ref>Scotland’s Parish Births & Baptisms, Kelso OPR 793/3 item 1 p.98, SCOT/OPR/BAP/5055887 (https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5055887&tab=this); original register image uninspected.</ref> His earlier approximate 1768 birth remains an estimate; the new Jean transcript does not establish John’s birthday.",
+          "rationale": "Retains John’s extant 1768 event and citations, replaces stale mother ID with current qualified candidate, records Glasgow-1219 as superseded, and keeps the Jean/John conflict from transferring a date or grade."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Glasgow-1382": {
       "current_sha256": "ff9642814348c6f287349c10b707bc87a169513e1d9594f253822c65acfc5b35",
@@ -473,12 +514,21 @@
     },
     "Glasgow-1077": {
       "current_sha256": "d650151a17c54d8ecc9dfbc9317278e9e1386b5ac84cf0e8c947d1cdd0334f26",
-      "proposed_sha256": "4a059e1e7eb6022cb3e9e2d4614e946f360fd124ee3ccc6062f17282b2812126",
+      "proposed_sha256": "46b848304eae172f37751c17a16e1a95aad38b6352432447786de4a19b3d6643",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1077/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "4a059e1e7eb6022cb3e9e2d4614e946f360fd124ee3ccc6062f17282b2812126",
+      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-1077/father-confidence-2026-10-22b.wiki",
+      "superseded_passages": [],
+      "reviewed_on": "2026-10-24",
+      "draft_consistency_review": {
+        "source": "Current www/people models and reviewed source fields; prior queued amendment retained from actual queue",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Glasgow-1087": {
       "current_sha256": "88de76f4488ee106190164e1af64738ecfb810ad4ffdc0020675fe08bd9bcc35",

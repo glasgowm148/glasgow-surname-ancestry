@@ -57623,6 +57623,194 @@
       "provenance": [
         "research/ancestry-connections/robert-children-confidence-2026-10-24.json"
       ]
+    },
+    {
+      "id": "fmp-jean-currie-birth-1757-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Jean Glasgow’s Currie transcript separates birth on 24 July 1757 from baptism on 31 July.",
+      "qualification": "The catalogue birth is corrected from 31 July to 24 July. John Glasgow and Mary Robertson are explicitly named; the selected father remains Glasgow-1343 at 78%, and the mother-profile identity remains unassessed. Original registers and inscriptions remain uninspected. Companion derivatives of one event are not independent corroboration.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1619",
+          "name": "Jean Glasgow",
+          "url": "/people/glasgow-1619.html"
+        },
+        {
+          "id": "Glasgow-1343",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1343.html"
+        },
+        {
+          "id": "Robertson-20326",
+          "name": "Mary (Robertson) Glasgow",
+          "url": "/people/robertson-20326.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4222327 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222327&tab=this"
+        },
+        {
+          "title": "Findmypast R_688347191 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_688347191&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-jean-edinburgh-1753-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An Edinburgh transcript records Jean Glasgow’s birth on 13 March 1753 and baptism on 15 April, to John Glasgow and Elizt Morison.",
+      "qualification": "The father is a journeyman and residence is “N E P”, matching the literal household in the held 1751 Mary entry. Glasgow-3582, Morrison-24595 and Glasgow-4109 are family-context comparisons only; Jean’s identity and the adults’ profile assignments remain unresolved. Original registers and inscriptions remain uninspected. Companion derivatives of one event are not independent corroboration.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-3582",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3582.html"
+        },
+        {
+          "id": "Morrison-24595",
+          "name": "Elizabeth (Morrison) Glasgow",
+          "url": "/people/morrison-24595.html"
+        },
+        {
+          "id": "Glasgow-4109",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-4109.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/0628041 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0628041&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4363159 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4363159&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-kelso-jean-john-1768-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A Kelso OPR transcript reads Jean Glasgow, born 12 May 1768 and baptised 12 June, with David Glasgow and Janet Hood named as parents.",
+      "qualification": "The existing John Glasgow-1221 account has the same baptism date, parish and parents. The Jean/John discrepancy is unresolved, so the 12 May birth is not assigned to John and no second child is proposed. The existing 97% father assessment is retained within its prior scope. Original registers and inscriptions remain uninspected. Companion derivatives of one event are not independent corroboration.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1221",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1221.html"
+        },
+        {
+          "id": "Glasgow-1218",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-1218.html"
+        },
+        {
+          "id": "Hood-6028",
+          "name": "Janet (Hood) Glasgow",
+          "url": "/people/hood-6028.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/5055887 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5055887&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-kirknewton-jean-kirk-memorial-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A Kirknewton memorial transcript names James Kirk’s spouse Jean Glasgow, reportedly dead on 12 June 1839 aged 73.",
+      "qualification": "Jean Glasgow-1922 is a meaningful spouse/name comparison, but the age-derived birth around 1766 disagrees with the maintained 1755 field. The memorial also names stepdaughter Mary Rodger. Identity and dates remain on hold; the age does not independently establish a birth date. Original registers and inscriptions remain uninspected. Companion derivatives of one event are not independent corroboration.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1922",
+          "name": "Jean (Glasgow) Kirk",
+          "url": "/people/glasgow-1922.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast GBPRS/SCOT/MIS/511323 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511323&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-ayr-jean-mckenzie-1755-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An Ayr baptism transcript records Jean Mckenzie Glasgow on 8 October 1755, with Mckinzie Glasgow and Margaret Davidson named as parents.",
+      "qualification": "This is an unassigned source-defined household lead. No existing profile assignment is established; no separate birth date is supplied. Absence of an exact match does not justify proposing a new person. Original registers and inscriptions remain uninspected. Companion derivatives of one event are not independent corroboration.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [],
+      "sources": [
+        {
+          "title": "Findmypast R_690037131 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_690037131&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-edinburgh-johan-neaper-1783-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An Edinburgh burial transcript records Johan Neaper Glasgow, aged 3 years 2 months, buried on 16 August 1783.",
+      "qualification": "The St Cuthbert’s note calls the child “doughtr to Mr Georg Glasgow” and records “A Fivor”. The age suggests roughly June 1780, not an exact birth. Child and father remain unassigned pending identity evidence; no new person is proposed. Original registers and inscriptions remain uninspected. Companion derivatives of one event are not independent corroboration.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [],
+      "sources": [
+        {
+          "title": "Findmypast GBPRS/LOTHIAN/SGS/BUR/032213 — derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FSGS%2FBUR%2F032213&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     }
   ]
 }

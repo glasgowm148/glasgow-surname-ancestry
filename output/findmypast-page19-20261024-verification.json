@@ -1,0 +1,387 @@
+{
+  "reviewed_on": "2026-10-24",
+  "new_provider_transcript_captures": 13,
+  "newly_indexed_provider_transcripts": 13,
+  "documentary_groups": 10,
+  "independent_new_original_inspections": 0,
+  "new_people": 0,
+  "vital_field_changes": 1,
+  "vital_change": "Glasgow-1619 birth 1757-07-31 → 1757-07-24",
+  "relationship_grade_changes": 0,
+  "source_readers_checked": 13,
+  "person_accounts_checked": 19,
+  "complete_preserved_proposals_checked": 13,
+  "all_selected_full_compact_records_and_full_fast_hydrated_people_agree": true,
+  "other_vital_and_relationship_models_unchanged": true,
+  "literal_capture_ledger_receipts": 480,
+  "ledger_profile_context_receipts": 336,
+  "ledger_source_only_receipts": 144,
+  "additional_cached_supporting_receipts": 6,
+  "ledger_plus_support_indexed_provider_union": 486,
+  "query_rows_with_dispositions": 392,
+  "query_total": 5872,
+  "query_disposition_percent": 6.7,
+  "contiguous_query_rows_reviewed": 388,
+  "completed_query_pages": "1–19",
+  "saved_detail_gaps": 28,
+  "next_missing_provider_id": "R_686209974",
+  "next_uncaptured_search_page": 22,
+  "coverage": "INCOMPLETE; overall percentage unknown",
+  "source_ids": {
+    "SCOT/OPR/BAP/0628041": "s-21aace1731503bc5",
+    "SCOT/OPR/BAP/4363159": "s-4f047f70b4467370",
+    "R_686349922": "s-9a667b9f9bd88118",
+    "R_687775517": "s-cb922c064f40f1e5",
+    "SCOT/OPR/BAP/4222327": "s-87ac33732eec1fab",
+    "R_688347191": "s-d6498b01f951aacc",
+    "SCOT/OPR/BAP/5055887": "s-6ab95ed05cf5ba38",
+    "GBPRS/SCOT/MIS/511323": "s-e3bd96c548d1172f",
+    "R_690037131": "s-1503ff74414c2388",
+    "SCOT/OPR/BUR/1128679": "s-b8f066fdcdad8d3f",
+    "GBPRS/LOTHIAN/SGS/BUR/032213": "s-5e0d0736a8a3319d",
+    "R_685314994": "s-72089fc072f4e4b9",
+    "R_684956583": "s-426817ac68f3dd8b"
+  },
+  "tree": {
+    "main_people": 4871,
+    "main_atlas_people": 4532,
+    "standalone_people": 4685,
+    "five_tree_payloads_checked": true,
+    "selected_profiles_checked": 19,
+    "concurrent_tree_deltas": "/tmp/fmp-page19-concurrent-tree-deltas.json",
+    "concurrent_tree_runtime_check": "/tmp/fmp-page19-concurrent-tree-verification.json",
+    "runtime_projection_other_people_and_topology_preserved": true
+  },
+  "preservation": {
+    "Glasgow-1077": {
+      "current_sha256": "d650151a17c54d8ecc9dfbc9317278e9e1386b5ac84cf0e8c947d1cdd0334f26",
+      "previous_proposed_sha256": "4a059e1e7eb6022cb3e9e2d4614e946f360fd124ee3ccc6062f17282b2812126",
+      "proposed_sha256": "46b848304eae172f37751c17a16e1a95aad38b6352432447786de4a19b3d6643",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 0
+    },
+    "Glasgow-1139": {
+      "current_sha256": "90d8e46ca528b443c6852d5b51d8fd7bd38cd234a35782040a097d4e7be790f8",
+      "previous_proposed_sha256": "532b45049c4bffcb3a72a18a1cc443c4ff84a70b4423c945152a2a42408c5ff0",
+      "proposed_sha256": "6c59d6a7487b1c4663e742cd3dd68d405ed0ebb83af03ba2efa349fe64c9814f",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 1
+    },
+    "Glasgow-1218": {
+      "current_sha256": "4f759f3d5f97931164c42eddbf91d456718bfdb46262f18655ba9aca7f65684f",
+      "previous_proposed_sha256": "cc375eec997d98b42f8da3a31163acf82b580bcd1d63d717f3a1d9844c91ea17",
+      "proposed_sha256": "01da803353f9dcf52386d3f1972183ceb4357320c9379b23e8afb121248a1cab",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 0
+    },
+    "Glasgow-1221": {
+      "current_sha256": "c5abc598b8e28afadbca2bade0174cd1e13de8818edcabf117f96e83f3420525",
+      "previous_proposed_sha256": "b7cd55046def99b558be146ef23d61e6ba09faaba2fba6689e8829475e9dabfb",
+      "proposed_sha256": "bb93a7d4b2325739dced6663b42890a8b65b7eb647d00d833a8e19a54164730d",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 1
+    },
+    "Glasgow-1343": {
+      "current_sha256": "1091d25338291eeff8eaf7f24a80b711d15d3aff5556fbceebb06d5086996cf2",
+      "previous_proposed_sha256": "99249b1b270dcedcd9aaeb2a79e1b68fe0f7e61c3022b123588be1cb5949e8eb",
+      "proposed_sha256": "bc5b15719e596b8ab5fb35e4800250e63af232c28dd097864a559f93d97125b5",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 2
+    },
+    "Glasgow-1619": {
+      "current_sha256": "b31425c4699e31fc581c954928308b15e2fd99729f164b42ff0a50de6b3d4dbc",
+      "previous_proposed_sha256": "872de3b2f1685761718c6e717b5cf2c05c631d41cd445bce88fa7f9c76ac49c6",
+      "proposed_sha256": "b8527abf19cd342c7921a55aa22b062d881e9e82cbc9ed35ba473f39e3b840b1",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 1
+    },
+    "Glasgow-1922": {
+      "current_sha256": "27de2071a9813cf1ed535ea047b4614487a72e0e220e518f67d946016956577e",
+      "previous_proposed_sha256": "dac3019181e825826c6b32c566511510c0b7a84958dcaf25d884f67ac3cf1fb8",
+      "proposed_sha256": "0a334db54996635de2e713968ebc835d263ac7ecc6ba7c3a97c9fa86c7c730e0",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 1
+    },
+    "Glasgow-2847": {
+      "current_sha256": "0f293f074c19315d93da9f40a5a1aee661c4a4217dc0c86a71f7a7cfe4ed3438",
+      "previous_proposed_sha256": "947c79c6503ee56122fea05093649004a422960041f668b9670e32884c453913",
+      "proposed_sha256": "7c3e2178ade0b5e831fda3a956ce5bdaff2d269bf71a8825b8851f7fdbfafaf8",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 0
+    },
+    "Glasgow-2870": {
+      "current_sha256": "0664b15c6cf47b7043834bc18cfae979a3b2e4283260d5f36f7f54cc4a56356a",
+      "previous_proposed_sha256": "f01a5d01eb0742cad0c59fa05c105331c7ad84961b26d24b0c9e88c0c707863b",
+      "proposed_sha256": "594d98e81acdd8ba9ff1ff9994a17d97aef194d9883faa5c553c821496f88f5e",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 0
+    },
+    "Glasgow-3071": {
+      "current_sha256": "18d99bd3df32cdb99048914c5b40da940a352f6c4e2c7bf26ad0db931ba9fb7d",
+      "previous_proposed_sha256": "132456d8d41b27982913c824dfa4e5cac43f1b4fa7f607ec42a20ed159222927",
+      "proposed_sha256": "7e99f5a0826c29999ffe38621c5b054b8602ddf513d379f642fe62c486fb56fc",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 0
+    },
+    "Glasgow-3407": {
+      "current_sha256": "6088f8392dffd65b722014520653c2f693593f55ba08c786fe0a4ef5e2ff0403",
+      "previous_proposed_sha256": "88e8cc5464cadfc312c19d226c678ecb83b5956be6998a300a3fc93a598948be",
+      "proposed_sha256": "e0b8174afd687a9953de26cef58778873aef4cc4226e339a4de1901b5abbb89d",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 0
+    },
+    "Glasgow-4109": {
+      "current_sha256": "b2365597e714dfcd255a06d329efee4456f9ee829c8e6eaa7005878f062def52",
+      "previous_proposed_sha256": "e99f2622fbed2695c5db07076b6ed407b4fa7ba91b8b946195606f9bcf2290fa",
+      "proposed_sha256": "26401f90f0bfaee323d551eb4c7275e13847ee367b6798bb64168e77607c25c2",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 1
+    },
+    "Wilson-127539": {
+      "current_sha256": "99aec7ede8b20701efac7236e08c236d07bbb88b17ca5e5075e464feca434b22",
+      "previous_proposed_sha256": "33ef9a09f147068353e519f14e4be4b4bd91bfc5e1356caf71ccd6f67fa4eaa3",
+      "proposed_sha256": "5c405d273c78046d9e4b848a7987dcba1e583781206979b0d60e022f567c748d",
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_identities_retained": true,
+      "opening_corrections": 1
+    }
+  },
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "existing_event_confirmation_groups": 4,
+  "birth_date_correction_groups": 1,
+  "new_source_defined_or_conflict_lead_groups": 5,
+  "source_ingest": {
+    "source_ingest": {
+      "selected_records": 13,
+      "changed_files": 206
+    },
+    "sync_exit": 0,
+    "seconds": 750.8
+  },
+  "research_publication_check": {
+    "selected_accounts": 19,
+    "new_failing_items": 0,
+    "non_gated_warning": "Glasgow-3407 retains its16October assessment heading;24October companion confirmation is explicitly included in its current conclusion, with no new correction to that assessment."
+  },
+  "links": {
+    "pages": 25704,
+    "internal_references": 1353074,
+    "broken_references": 7,
+    "page_target_pairs": 4,
+    "new_pairs": 0,
+    "fixed_pairs": 0,
+    "missing_person_anchors": 87,
+    "person_anchor_references": 7585,
+    "anchor_check_gated": false,
+    "unlinked_legacy_fragment_or_reader_pages": 876
+  },
+  "asset_finalization": {
+    "asset_write_passes": 1,
+    "changed_files": 24682,
+    "original_stale_references": 24746,
+    "initial_postwrite_stale_references": 18977,
+    "subsequent_independent_read_only_scan": {
+      "files": 25757,
+      "checked": 428107,
+      "bad": 0,
+      "groups": [],
+      "examples": []
+    },
+    "selected_batch_stale_asset_references": 0,
+    "global_stale_asset_references_at_last_check": 0,
+    "outside_batch_stale_references": [],
+    "concurrent_update_evidence": "Independent scan was clear at04:03:27UTC; unrelated Glasgow-2221/2222 pages were regenerated at04:06:41/42UTC after this batch writer ended03:59:57UTC. No repeated global write pass.",
+    "sitemap": "Completed",
+    "shared_search": "Completed"
+  },
+  "complete_opening_corrections": {
+    "profiles": 7,
+    "reviewed_blocks": 8,
+    "source": "/tmp/fmp-page19-opening-corrections.json"
+  },
+  "unassigned_note_searches": {
+    "date": "2026-10-24",
+    "queries": [
+      {
+        "type": "lex",
+        "query": "Jean Mckenzie Glasgow Mckinzie Margaret Davidson",
+        "rerank": false,
+        "limit": 5,
+        "results": [],
+        "finding": "No concrete compatible existing-profile lead in approved QMD notes."
+      },
+      {
+        "type": "lex",
+        "query": "Johan Neaper Georg Glasgow",
+        "rerank": false,
+        "limit": 5,
+        "results": [],
+        "finding": "No concrete compatible existing-profile lead in approved QMD notes."
+      }
+    ],
+    "scope": "Only two lexical queries for R_690037131 and GBPRS/LOTHIAN/SGS/BUR/032213; no new-person or relationship assignment implied."
+  },
+  "resource_cleanup": {
+    "owned_research_tab": "236298104 closed through native Close group; saved group retained",
+    "owned_browser_tabs": 0,
+    "personal_tabs_at_cleanup": 3,
+    "browser_window": "Existing shared Chrome window/profile preserved",
+    "browser_or_pdf_renderers_launched": 0,
+    "cua_runtime": "Reset after tab cleanup",
+    "memory_pressure_last_checked": 1
+  },
+  "query_coverage_definition": "Recorded dispositions include access/scope/identity holds; rows and captures are not people or independent facts. This is a saved query snapshot, not overall provider completeness.",
+  "concurrent_tree_changes": {
+    "runtime_projection": "/tmp/fmp-page19-tree-projection.json",
+    "models": {
+      "www/data/people.json": {
+        "added_ids": [],
+        "removed_ids": [],
+        "outside_selected_changed_fields": {},
+        "selected_changed_fields": {
+          "Glasgow-1619": [
+            "birth",
+            "birth_note",
+            "birth_year",
+            "date_years",
+            "field_statuses",
+            "vital_review"
+          ]
+        }
+      },
+      "www/assets/research/atlas-model.json": {
+        "added_ids": [],
+        "removed_ids": [],
+        "outside_selected_changed_fields": {
+          "Glasgow-840": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2228": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-839": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2222": [
+            "parents"
+          ],
+          "Glasgow-835": [
+            "childrenRecorded"
+          ],
+          "Glasgow-837": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-841": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2227": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2221": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2223": [
+            "edge",
+            "parents"
+          ]
+        },
+        "selected_changed_fields": {
+          "Glasgow-1619": [
+            "birthDisplay"
+          ]
+        },
+        "selected_profiles_absent_by_design": [
+          "Anderson-83671"
+        ],
+        "other_section_changes": [
+          "meta",
+          "people",
+          "sections"
+        ],
+        "other_meta_changed_fields": [],
+        "other_reviewed_display_ids_changed": []
+      },
+      "www/onetree/glasgow-one-tree-polished-3/model.json": {
+        "added_ids": [],
+        "removed_ids": [],
+        "outside_selected_changed_fields": {
+          "Glasgow-840": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2228": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-839": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2222": [
+            "parents"
+          ],
+          "Glasgow-835": [
+            "childrenRecorded"
+          ],
+          "Glasgow-837": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-841": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2227": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2221": [
+            "edge",
+            "parents"
+          ],
+          "Glasgow-2223": [
+            "edge",
+            "parents"
+          ]
+        },
+        "selected_changed_fields": {
+          "Glasgow-1619": [
+            "birthDisplay"
+          ]
+        },
+        "other_section_changes": [
+          "meta",
+          "people",
+          "sections"
+        ],
+        "standalone_shell_changed_beyond_cache_versions": false,
+        "other_meta_changed_fields": [],
+        "other_reviewed_display_ids_changed": []
+      }
+    },
+    "source_provenance": [
+      "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "research/Glasgow-2221/findings.md",
+      "Faris pp. 46–47, FamilySearch image 1583"
+    ]
+  }
+}
