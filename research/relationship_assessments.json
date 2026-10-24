@@ -8560,7 +8560,16 @@
       },
       "reassessment": "Existing ungraded father → probable local assessment; no new attachment, live certainty change or contemporary father record.",
       "identity_scope": "Traditional William–John–Hugh roles only; no Scottish record, military, 1740 or Leitrim identity upgrade."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "The explicit John father clause is the already-reviewed late family history p.2; no named informant, Bible or correspondence authority is supplied. Later retellings are dependent.",
+      "next_test": "Locate the compiler’s manuscript, family correspondence or Bible authority for John and Hugh; a contemporary named-kin record would test the tradition.",
+      "resume_when": "Locate the compiler’s manuscript, family correspondence or Bible authority for John and Hugh; a contemporary named-kin record would test the tradition."
+    },
+    "last_test": "The explicit John father clause is the already-reviewed late family history p.2; no named informant, Bible or correspondence authority is supplied. Later retellings are dependent.",
+    "next_test": "Locate the compiler’s manuscript, family correspondence or Bible authority for John and Hugh; a contemporary named-kin record would test the tradition."
   },
   {
     "assertion_id": "C-review-20261017-tyrone-traditional-father-glasgow-551",
@@ -9100,7 +9109,16 @@
         "source_basis": "Anonymous Open/non-living refresh 17 October 2026 and pre-batch public dossier; no live edit."
       },
       "identity_scope": "Record-defined child and parent roles; later child/adult or ancestral identities not newly proved."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "The1667 marriage,1673 Alexander and1677 Agnes household argument was already included in the17October review and21October reconciliation. Neither child’s held index names Margaret Smith.",
+      "next_test": "Inspect Kirknewton OPR690/10/54,75,77 for residence, mother or witnesses linking the1667 couple to the1673 child; distinguish the Edinburgh Alexander/Issobell Anderson family.",
+      "resume_when": "Inspect Kirknewton OPR690/10/54,75,77 for residence, mother or witnesses linking the1667 couple to the1673 child; distinguish the Edinburgh Alexander/Issobell Anderson family."
+    },
+    "last_test": "The1667 marriage,1673 Alexander and1677 Agnes household argument was already included in the17October review and21October reconciliation. Neither child’s held index names Margaret Smith.",
+    "next_test": "Inspect Kirknewton OPR690/10/54,75,77 for residence, mother or witnesses linking the1667 couple to the1673 child; distinguish the Edinburgh Alexander/Issobell Anderson family."
   },
   {
     "assertion_id": "C-review-20261017-parish-glasgow-1071-father",
@@ -18904,7 +18922,16 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Existing father hypothesis only. Hugh’s documented wife, children and property establish his own household, not this upstream parent."
-    }
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Compared the1700–01 South Side congregational Robert with Hugh’s1736/1757 property and later family; no named-parent bridge in those held readings.",
+      "next_test": "Inspect NRS GD154/514–515,525,530,532 or the original Larne minutes for an identifying son/heir/tenancy succession; a Dublin1704 baptism alone needs a Larne identity bridge.",
+      "resume_when": "Inspect NRS GD154/514–515,525,530,532 or the original Larne minutes for an identifying son/heir/tenancy succession; a Dublin1704 baptism alone needs a Larne identity bridge."
+    },
+    "last_test": "Compared the1700–01 South Side congregational Robert with Hugh’s1736/1757 property and later family; no named-parent bridge in those held readings.",
+    "next_test": "Inspect NRS GD154/514–515,525,530,532 or the original Larne minutes for an identifying son/heir/tenancy succession; a Dublin1704 baptism alone needs a Larne identity bridge."
   },
   {
     "assertion_id": "C-coverage-20261022-glasgow-2462-father",
@@ -18992,11 +19019,11 @@
     "working_selection": false,
     "allow_new_relationship": false,
     "assessment_date": "2026-10-22",
-    "basis": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause.",
-    "reason": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause.",
+    "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
+    "reason": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
     "claim": "Glasgow-1157 is the selected father of Glasgow-1158; individually reviewed 12%.",
-    "record_scope": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke.",
-    "limitations": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke.",
+    "record_scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
+    "limitations": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
     "source_ids": [
       "held-e-a4ef12f70dfd"
     ],
@@ -19013,11 +19040,11 @@
     "perspectives": {
       "Glasgow-1158": {
         "relationship": "father",
-        "reason": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause."
+        "reason": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved."
       },
       "Glasgow-1157": {
         "relationship": "son",
-        "reason": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause."
+        "reason": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved."
       }
     },
     "analysis_links": [
@@ -19036,17 +19063,48 @@
         "source_basis": "Pre-batch public dossier and selected graph,22October2026; contributor mark retained independently; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "citation_target_review": {
+        "reviewed": "2026-10-24",
+        "prior_wording": {
+          "basis": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause.",
+          "reason": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause.",
+          "record_scope": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke.",
+          "limitations": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke.",
+          "probability": {
+            "value": 0.12,
+            "basis": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause.",
+            "source_ids": [
+              "held-e-a4ef12f70dfd"
+            ],
+            "reviewed": "2026-10-22",
+            "scope": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke."
+          }
+        },
+        "basis": "The opening sentence in Daniel’s captured WikiTree biography links Robert-1156, but its adjacent contributed-tree quotation describes Robert born1612, died1690 in Currituck, wifeAnn Johnson. Those are the compiled identity attributes of Robert-1157. Robert-1156 is the separate record-defined Duddingston man buried17January1647. The copied WikiTree hyperlink is therefore misdirected; the family-tree quotation does not support choosing1156 instead. This identifies the intended modern account, not the historical father, and does not establish the compiled dates, Scottish origin or identity with Virginia Robert Glascocke.",
+        "confidence_unchanged": true,
+        "underlying_contributed_tree_inspected": false,
+        "held_biography_quotation_read": true
+      }
     },
     "probability": {
       "value": 0.12,
-      "basis": "The inherited compiled tree asserts a Robert father for William Daniel, and an earlier Virginia Robert is chronologically possible. No held contemporary record establishes the relationship or securely identifies this Daniel. The cited tree names Robert-1156 while the selected father is1157, a concrete attribution discrepancy. The1653 and1612 dates and Scottish origin are unverified; landholding records do not supply the missing son clause.",
+      "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
       "source_ids": [
         "held-e-a4ef12f70dfd"
       ],
       "reviewed": "2026-10-22",
-      "scope": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke."
-    }
+      "scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed."
+    },
+    "research_state": {
+      "disposition": "ready",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled the copied biography’s misdirected1156 hyperlink with its1612–1690/Ann Johnson quotation; the intended account is1157. The1729 title-clause reading already withdrew a William predecessor.",
+      "next_test": "Trace the1693 Richford Swamp80-acre tract through subsequent conveyances separately from the1729 Slade tract and Currituck tax parcels; seek a named parent or uniquely identifying inheritance recital.",
+      "resume_when": "Attempt the specific1693 title-chain localization using the now-signed-in FamilySearch session; no fresh kinship reading is assumed."
+    },
+    "last_test": "Reconciled the copied biography’s misdirected1156 hyperlink with its1612–1690/Ann Johnson quotation; the intended account is1157. The1729 title-clause reading already withdrew a William predecessor.",
+    "next_test": "Trace the1693 Richford Swamp80-acre tract through subsequent conveyances separately from the1729 Slade tract and Currituck tax parcels; seek a named parent or uniquely identifying inheritance recital."
   },
   {
     "assertion_id": "C-coverage-20261022-glasgow-1143-father",

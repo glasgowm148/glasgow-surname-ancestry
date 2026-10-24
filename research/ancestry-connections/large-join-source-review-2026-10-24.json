@@ -1,0 +1,130 @@
+{
+  "reviewed": "2026-10-24",
+  "profiles": {
+    "Glasgow-1158": {
+      "new_draft_path": "research/Glasgow-1158/source-reconciliation-2026-10-24.wiki",
+      "draft_path": "research/Glasgow-1158/source-reconciliation-2026-10-24.wiki",
+      "prior_pending_path": "research/Glasgow-1158/father-confidence-2026-10-22.wiki",
+      "prior_pending_sha256": "b119446d4f303eee7e2ba4110fb80ca327858e8ff23c173d3ed06e9bcca883ec",
+      "current_sha256": "b2b29d6a80808e2edf9ef94eb3ddb4a1d9281911efc425852dd1e1fb204a31dc",
+      "proposed_sha256": "5a54df65abc9713c092c37d802ad7657ce1565a7c86720d3a80d41de70b2a4b9",
+      "new_draft_sha256": "5a54df65abc9713c092c37d802ad7657ce1565a7c86720d3a80d41de70b2a4b9",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    },
+    "Glasgow-1157": {
+      "new_draft_path": "research/Glasgow-1157/source-reconciliation-2026-10-24.wiki",
+      "draft_path": "research/Glasgow-1157/source-reconciliation-2026-10-24.wiki",
+      "prior_pending_path": null,
+      "prior_pending_sha256": null,
+      "current_sha256": "f39b76134bc1edd3909ff27c4ca809124e364e6df52920b110b2cd75f01b8a1f",
+      "proposed_sha256": "5817e32843faaf525bfe1d7a7a8214d2f6b1b0db7dafb90a4ede55c7fb43ddf1",
+      "new_draft_sha256": "5817e32843faaf525bfe1d7a7a8214d2f6b1b0db7dafb90a4ede55c7fb43ddf1",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    },
+    "Glasgow-1156": {
+      "new_draft_path": "research/Glasgow-1156/source-reconciliation-2026-10-24.wiki",
+      "draft_path": "research/Glasgow-1156/source-reconciliation-2026-10-24.wiki",
+      "prior_pending_path": "research/Glasgow-1156/early-review-2026-10-23.wiki",
+      "prior_pending_sha256": "aa1d901dbfc4768b893815cab69df712cf9b472dbec732c48a7cd082a255ef64",
+      "current_sha256": "154e8bca788c4ce3701275696bc3904ba8e6d7b9b62ddaf5c2b422ddfa0f2572",
+      "proposed_sha256": "babd52771c11cb6bb8d4e60d52f35f73e55a26e81d49db65944dd56eef179f46",
+      "new_draft_sha256": "babd52771c11cb6bb8d4e60d52f35f73e55a26e81d49db65944dd56eef179f46",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    },
+    "Glasgow-45": {
+      "new_draft_path": "research/Glasgow-45/source-reconciliation-2026-10-24.wiki",
+      "draft_path": "research/Glasgow-45/source-reconciliation-2026-10-24.wiki",
+      "prior_pending_path": "research/Glasgow-45/american-record-review-2026-10-23.wiki",
+      "prior_pending_sha256": "a74f1c7c215bf56fdd5bded1f56a062217bb90cce5369ca5813ed7226ae7354e",
+      "current_sha256": "7289ec1916e94949c5d3d815d81fa3020ec785b0203f31a0c29e3e788cc85dfa",
+      "proposed_sha256": "57ec6c52920d403c218e3167266bb3a58358b02ddf690340365c9e6caf3a2ba1",
+      "new_draft_sha256": "57ec6c52920d403c218e3167266bb3a58358b02ddf690340365c9e6caf3a2ba1",
+      "all_substantive_passages_accounted_for": true,
+      "all_reference_bodies_preserved": true,
+      "private_comparison": false,
+      "complete": true,
+      "normalizer_fixed_point": true
+    }
+  },
+  "source_scope": "The opening sentence in Daniel’s captured WikiTree biography links Robert-1156, but its adjacent contributed-tree quotation describes Robert born1612, died1690 in Currituck, wifeAnn Johnson. Those are the compiled identity attributes of Robert-1157. Robert-1156 is the separate record-defined Duddingston man buried17January1647. The copied WikiTree hyperlink is therefore misdirected; the family-tree quotation does not support choosing1156 instead. This identifies the intended modern account, not the historical father, and does not establish the compiled dates, Scottish origin or identity with Virginia Robert Glascocke.",
+  "confidence_changes": [],
+  "new_attachments": 0,
+  "unknown_fathers_selected": 0,
+  "held_quotation_only": true,
+  "readiness_reviews": [
+    {
+      "child": "Glasgow-1499",
+      "father": "Glasgow-1502",
+      "last_test": "Compared the1700–01 South Side congregational Robert with Hugh’s1736/1757 property and later family; no named-parent bridge in those held readings.",
+      "next_test": "Inspect NRS GD154/514–515,525,530,532 or the original Larne minutes for an identifying son/heir/tenancy succession; a Dublin1704 baptism alone needs a Larne identity bridge."
+    },
+    {
+      "child": "Glasgow-1157",
+      "father": "Glasgow-1557",
+      "last_test": "The17October patent/court review found no Scottish origin or named-son bridge from Inveresk Edward to Virginia Robert Glascocke.",
+      "next_test": "Obtain a contemporary origin, kinship or distinctive title-chain record joining the Virginia adult to Edward’s Inveresk family; another compiled pedigree does not reopen this link."
+    },
+    {
+      "child": "Glasgow-1158",
+      "father": "Glasgow-1157",
+      "last_test": "Reconciled the copied biography’s misdirected1156 hyperlink with its1612–1690/Ann Johnson quotation; the intended account is1157. The1729 title-clause reading already withdrew a William predecessor.",
+      "next_test": "Trace the1693 Richford Swamp80-acre tract through subsequent conveyances separately from the1729 Slade tract and Currituck tax parcels; seek a named parent or uniquely identifying inheritance recital."
+    },
+    {
+      "child": "Glasgow-548",
+      "father": "Glasgow-551",
+      "last_test": "The explicit John father clause is the already-reviewed late family history p.2; no named informant, Bible or correspondence authority is supplied. Later retellings are dependent.",
+      "next_test": "Locate the compiler’s manuscript, family correspondence or Bible authority for John and Hugh; a contemporary named-kin record would test the tradition."
+    },
+    {
+      "child": "Glasgow-1314",
+      "father": "Glasgow-3118",
+      "last_test": "The1667 marriage,1673 Alexander and1677 Agnes household argument was already included in the17October review and21October reconciliation. Neither child’s held index names Margaret Smith.",
+      "next_test": "Inspect Kirknewton OPR690/10/54,75,77 for residence, mother or witnesses linking the1667 couple to the1673 child; distinguish the Edinburgh Alexander/Issobell Anderson family."
+    },
+    {
+      "child": "Glasgow-1066",
+      "father": "Glasgow-1604",
+      "last_test": "The17October review already correlated Hew’s1676/1678 Kilwinning household; those entries identify Hew’s family but do not name his father.",
+      "next_test": "Seek a baptism, apprenticeship, property or other named-kin record identifying Hew’s father or a proved sibling; locality and estimated generations alone do not strengthen31%."
+    }
+  ],
+  "unknown_plans": [
+    "research/Glasgow-1657/research_plan.json",
+    "research/Glasgow-62/research_plan.json",
+    "research/Glasgow-45/research_plan.json"
+  ],
+  "verification": {
+    "three_tree_models_agree": true,
+    "historical_father_fields_checked": 1799,
+    "all_drafts_complete_and_preserved": true,
+    "confidence_percentages_unchanged": true,
+    "cohort_metrics_unchanged": true,
+    "new_research_events": 0,
+    "local_http_pages": 8,
+    "latest_url": "/latest-findings/page/21/#finding-compiled-robert-target-and-chester-question-20261024",
+    "stale_asset_references": 0,
+    "full_compact_filter_membership_agrees": true
+  },
+  "raw_captures_published": false,
+  "live_published": false,
+  "source_identity_mapping": {
+    "held-e-a4ef12f70dfd": {
+      "record_id": "held-e-a4ef12f70dfd",
+      "document_id": "s-5613d7599f097042",
+      "source_url": "https://www.myheritage.com/research/record-40001-1388724143/robert-glasgow-in-familysearch-family-tree"
+    }
+  }
+}

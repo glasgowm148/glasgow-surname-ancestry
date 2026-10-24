@@ -4276,3 +4276,12 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Jane Glasgow](https://www.wikitree.com/wiki/Glasgow-3022) | OPEN | Review existing father Robert (Robertson) Glasgow: 78% probable. First individual rating; no newly attached father. Add source and identity limits. |
 | [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4123) | OPEN | Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4132) | OPEN | Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits. |
+
+### Large-join source and completed-test reconciliation —24October2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [William Daniel Glasgow](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Clarify Daniel’s inherited Robert hyperlink: intended compiled account1157, not Duddingston1156; parentage and all grades unchanged. |
+| [Robert Glasgow II](https://www.wikitree.com/wiki/Glasgow-1157) | OPEN | Clarify Daniel’s inherited Robert hyperlink: intended compiled account1157, not Duddingston1156; parentage and all grades unchanged. |
+| [Robert Glasgow I](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Clarify Daniel’s inherited Robert hyperlink: intended compiled account1157, not Duddingston1156; parentage and all grades unchanged. |
+| [James Albert Glasgow](https://www.wikitree.com/wiki/Glasgow-45) | OPEN | Reconcile Chester testator identity already resolved98%; James’s father remains unknown. Test John-1549’s1825 will next. |

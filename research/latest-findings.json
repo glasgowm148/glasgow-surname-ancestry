@@ -58007,6 +58007,54 @@
       "provenance": [
         "research/ancestry-connections/father-coverage-outside-graph-2026-10-24.json"
       ]
+    },
+    {
+      "id": "compiled-robert-target-and-chester-question-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two inherited research questions reconciled: Daniel’s Robert hyperlink is misdirected; James’s candidate Chester testator identity was already resolved.",
+      "qualification": "The copied pedigree identifies Robert-1157 as the intended account; it supplies no new historical parentage evidence. Daniel’s father remains at 12%, Robert’s father at 5%, and James-45’s father remains unknown. Samuel’s 98% identity assessment was already recorded and is not a new gain in this batch.",
+      "people": [
+        {
+          "id": "Glasgow-1158",
+          "name": "William Daniel Glasgow",
+          "url": "/people/glasgow-1158.html",
+          "role": "Source-target or completed-test reconciliation; no grade change"
+        },
+        {
+          "id": "Glasgow-1157",
+          "name": "Robert Glasgow II",
+          "url": "/people/glasgow-1157.html",
+          "role": "Source-target or completed-test reconciliation; no grade change"
+        },
+        {
+          "id": "Glasgow-1156",
+          "name": "Robert Glasgow I",
+          "url": "/people/glasgow-1156.html",
+          "role": "Source-target or completed-test reconciliation; no grade change"
+        },
+        {
+          "id": "Glasgow-45",
+          "name": "James Albert Glasgow",
+          "url": "/people/glasgow-45.html",
+          "role": "Source-target or completed-test reconciliation; no grade change"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Held contributed-tree quotation in Daniel’s captured biography",
+          "url": "https://www.myheritage.com/research/record-40001-1388724143/robert-glasgow-in-familysearch-family-tree"
+        },
+        {
+          "title": "Samuel Glasgow’s Chester County will, estate 7520; existing identity review reused",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6"
+        }
+      ],
+      "detail_url": "/people/glasgow-1158.html#research-findings",
+      "provenance": [
+        "research/ancestry-connections/large-join-source-review-2026-10-24.json"
+      ]
     }
   ]
 }

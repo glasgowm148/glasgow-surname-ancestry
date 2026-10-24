@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Source reconciliation,24October2026:** The opening sentence in Daniel’s captured WikiTree biography links Robert-1156, but its adjacent contributed-tree quotation describes Robert born1612, died1690 in Currituck, wifeAnn Johnson. Those are the compiled identity attributes of Robert-1157. Robert-1156 is the separate record-defined Duddingston man buried17January1647. The copied WikiTree hyperlink is therefore misdirected; the family-tree quotation does not support choosing1156 instead. This identifies the intended modern account, not the historical father, and does not establish the compiled dates, Scottish origin or identity with Virginia Robert Glascocke. The earlier22October “resolve the attribution” question below is completed in this limited sense. The Virginia title-chain question remains open;12% is unchanged. The family-tree quotation was read as preserved in the biography; its underlying online tree was not independently inspected.
+
 Reviewed: 2026-10-20
 
 **Title-clause review, 20 October 2026:** The enlarged original of Daniel Glasco’s 1729 deed describes the land as now in Daniel’s tenure and occupation. It does not name William as a predecessor or identify a father. The earlier possible William reading is withdrawn. Mary is explicitly Daniel’s wife, and the tract is part of Henry Slade’s 330-acre patent. This remains a compatible comparison for Daniel Glasgow-3322, Mary Gamon’s husband in 1693, rather than a proved lifetime identity. The title chain from the Gamon property is still missing. Daniel Glasgow-1158 remains William Glasgow-428’s possible working father at 42%; this inspection supplies no additional paternity evidence.
@@ -46,3 +48,10 @@ Scope: Review of the existing confident contributor mark: uncertain12%, with fat
 Next useful test: Resolve the Robert1156/1157 attribution and Daniel’s Virginia title chain before testing Scottish ancestry.
 
 This is a first numerical review of an existing attachment, not a new father, new branch connection or original-source discovery. The prior contributor mark is retained in the structured assessment history.
+
+
+## Source and next-question reconciliation —24October2026
+
+The opening sentence in Daniel’s captured WikiTree biography links Robert-1156, but its adjacent contributed-tree quotation describes Robert born1612, died1690 in Currituck, wifeAnn Johnson. Those are the compiled identity attributes of Robert-1157. Robert-1156 is the separate record-defined Duddingston man buried17January1647. The copied WikiTree hyperlink is therefore misdirected; the family-tree quotation does not support choosing1156 instead. This identifies the intended modern account, not the historical father, and does not establish the compiled dates, Scottish origin or identity with Virginia Robert Glascocke. The earlier22October “resolve the attribution” question below is completed in this limited sense. The Virginia title-chain question remains open;12% is unchanged. The family-tree quotation was read as preserved in the biography; its underlying online tree was not independently inspected.
+
+[Held contributed-tree citation](https://www.myheritage.com/research/record-40001-1388724143/robert-glasgow-in-familysearch-family-tree); compared with the captured public biographies of [Daniel-1158](https://www.wikitree.com/wiki/Glasgow-1158), [Robert-1157](https://www.wikitree.com/wiki/Glasgow-1157) and [Robert-1156](https://www.wikitree.com/wiki/Glasgow-1156). The underlying contributed tree and new original parentage records were not inspected.

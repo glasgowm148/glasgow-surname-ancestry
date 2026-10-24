@@ -8245,21 +8245,43 @@
   {
     "record_id": "held-e-a4ef12f70dfd",
     "record_type": "extracted citation",
-    "date": null,
+    "date": "Undated compilation; reported1612–1690 life, dates unverified",
     "place": null,
     "association": "https://www.myheritage.com/research/record-40001-1388724143/robert-glasgow-in-familysearch-family-tree",
-    "source_title": "https://www.myheritage.com/research/record-40001-1388724143/robert-glasgow-in-familysearch-family-tree",
+    "source_title": "Robert Glasgow pedigree quotation reproduced in Daniel’s captured biography",
     "source_url": "https://www.myheritage.com/research/record-40001-1388724143/robert-glasgow-in-familysearch-family-tree",
-    "source_type": "Existing held citation; see source scope",
-    "source_status": "Previously held citation reviewed for father coverage; no new original inspection",
-    "status": "Retained source or tree claim; role and evidential limitations in relationship assessment",
+    "source_type": "Held quotation of a contributed family tree",
+    "source_status": "Held biography quotation read; underlying contributed tree and new original parentage records uninspected",
+    "status": "Intended modern account clarified; historical father remains12% uncertain",
     "profiles": {
       "Glasgow-1158": {
-        "role": "Previously cited subject; not a new source discovery"
+        "role": "Subject of inherited father claim; intended Robert account clarified, full father12% unchanged"
+      },
+      "Glasgow-1157": {
+        "role": "Intended compiled1612–1690/Ann Johnson account; historical fatherhood unproved"
+      },
+      "Glasgow-1156": {
+        "role": "Misdirected opening WikiTree hyperlink; Duddingston account, not the cited compiled life"
       }
     },
-    "note": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke.",
-    "provenance": "research/ancestry-connections/father-coverage-review-2026-10-22.json"
+    "note": "The opening sentence in Daniel’s captured WikiTree biography links Robert-1156, but its adjacent contributed-tree quotation describes Robert born1612, died1690 in Currituck, wifeAnn Johnson. Those are the compiled identity attributes of Robert-1157. Robert-1156 is the separate record-defined Duddingston man buried17January1647. The copied WikiTree hyperlink is therefore misdirected; the family-tree quotation does not support choosing1156 instead. This identifies the intended modern account, not the historical father, and does not establish the compiled dates, Scottish origin or identity with Virginia Robert Glascocke. Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
+    "provenance": "research/ancestry-connections/large-join-source-review-2026-10-24.json",
+    "prior_scope": {
+      "note": "Review of the existing confident contributor mark: uncertain12%, with father retained. The current evidence cannot allocate this profile to either Currituck Daniel Senior/Junior, or prove his relation to Robert Glascocke.",
+      "provenance": "research/ancestry-connections/father-coverage-review-2026-10-22.json",
+      "status": "Retained source or tree claim; role and evidential limitations in relationship assessment"
+    },
+    "source_quality": "derivative",
+    "date_status": "undated",
+    "year": null,
+    "record_category": "Family history",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1690,
+      "source_url": "https://www.wikitree.com/wiki/Glasgow-1158",
+      "reason": "The preserved historical pedigree describes its Robert as dead1690 and its son in the seventeenth century. This is a bound on the subject as represented in this quotation, not verification of those biographical dates."
+    }
   },
   {
     "record_id": "held-e-ca37f8bc2cf9",

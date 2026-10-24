@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Source reconciliation,24October2026:** The earlier compatible-only question about Chester estate7520’s testator has been superseded by the24October Samuel-2872 identity review: the combined memorial family names Judith,Tabitha and Margaret Ellen identify that testator at98%. This does not name the Missouri James as a son. Samuel’s own preferred father James-1025 is a separate67% inference, not evidence of James-45’s parentage. James’s father remains unknown and no percentage is assigned. Read Samuel’s current account before repeating its identity test. The next unperformed candidate test is the1825 Huntingdon will of John-1549; compare any named James and his residence/family with the drummer and Missouri household. The York Bible and immigrant-father tradition remain separate tests.
+
 **Original army record read 23 October 2026:** the probable 1818 enlistee was a drummer born “Downington,” Pennsylvania; Philadelphia is his enlistment place. His age 21 fits the Missouri man’s c1796 birth. The shared occupation and generation support the record match, but the entry supplies no Missouri home, wife or parent. The register’s 5 ft 5 in differs from 5 ft 4 in in the descendant narrative.
 
 The later identity remains probable. No father or mother is selected and all current vital/family fields are preserved. Read the source comparison below before treating Downington as the Missouri man’s established birthplace. Samuel Glasgow’s 1824 West Fallowfield estate, file 7520, is a specific test of a compatible Chester candidate, alongside the Philadelphia immigrant-father tradition.
@@ -25,3 +27,10 @@ The [official Chester County wills and administrations index](https://www.chesco
 ## Candidate estate read — 23 October 2026
 
 The original file was subsequently opened through the official Chrome portal and read: [will pp. 588–589](https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6) names wife Tabitha, infant daughter Margaret Ellen and three Glasgow brothers in Ireland. These are the testator’s relatives, not a proved identification with Samuel-2872. The inspected estate does not name James-45 as a son. [Full candidate comparison](/people/glasgow-2872.html#research-findings). The 17 May date is the will date; no death field is corrected from it.
+
+
+## Source and next-question reconciliation —24October2026
+
+The earlier compatible-only question about Chester estate7520’s testator has been superseded by the24October Samuel-2872 identity review: the combined memorial family names Judith,Tabitha and Margaret Ellen identify that testator at98%. This does not name the Missouri James as a son. Samuel’s own preferred father James-1025 is a separate67% inference, not evidence of James-45’s parentage. James’s father remains unknown and no percentage is assigned. Read Samuel’s current account before repeating its identity test. The next unperformed candidate test is the1825 Huntingdon will of John-1549; compare any named James and his residence/family with the drummer and Missouri household. The York Bible and immigrant-father tradition remain separate tests.
+
+[Existing Samuel identity review](/people/glasgow-2872.html#research-findings); original estate7520 reading and memorial comparison retained there.
