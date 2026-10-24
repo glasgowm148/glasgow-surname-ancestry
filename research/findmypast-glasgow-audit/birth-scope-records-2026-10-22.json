@@ -6,8 +6,8 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 508,
-    "catalogue_integration_complete": true,
+    "inspected_transcripts": 516,
+    "catalogue_integration_complete": false,
     "integrated_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -1034,7 +1034,7 @@
     ],
     "records_with_profile_or_draft_context": 353,
     "remaining_coverage": [
-      "Pages22–294 nominal of current1719–1799 birth-filtered BMD query;0saved detail gaps, nextcapturepage22; provider caps may require partitioning",
+      "Pages22–23 captured:8of40details reviewed but catalogue publication pending,32saved detail gaps; next transcript PRS/PERTHCEM/006408. Next uncaptured page24of294; provider caps may require partitioning.",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
       "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
@@ -1043,21 +1043,30 @@
     "verification_report": "output/findmypast-pages21-20261024-verification.json",
     "verified_on": "2026-10-24",
     "indexed_provider_record_count": 508,
-    "next_action": "Exact-ID-preflight and capture uncaptured searchpage22of294 of the current1719–1799birth-filtered BMD query. All420savedrows have dispositions, contiguous420with0saveddetailgaps. Retain identity/access/surname HOLDs and skip unchanged saved fields. Earlier birth windows, other categories/variants and later-life records without birth fields remain outstanding.",
-    "recent_query_transcripts": 373,
+    "next_action": "Resume page22 at PRS/PERTHCEM/006408 when memory pressure is normal. Pages22–23 saved:40rows,8receipts reviewed but not published,32detail gaps. Do not refetch these8; finish remaining32, review identities/natal-surname scope, then synchronize the40-row coherent batch. Next uncaptured searchpage24of294. Overall coverage INCOMPLETE.",
+    "recent_query_transcripts": 381,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 420,
-    "capture_ledger_note": "508 literal saved/indexed derivative receipts plus19supporting provider IDs at original pointers. Twenty-two provider captures and15documentary groups do not establish22newfacts or newpeople.",
+    "recent_query_rows_reviewed": 428,
+    "capture_ledger_note": "516 literal saved transcripts;508 indexed (353qualified profile context/155source-only),8new receipts reviewed but awaiting batched catalogue publication. Nineteen supporting indexed IDs remain at their original pointers. Record counts are not people or independent facts.",
     "capture_count_basis": "527 audited indexed provider IDs in the literal-ledger-plus-support scope. Current7-file source-aware inventory:837accessible IDs,744represented,93unindexed; neither denominator counts eligible people.",
     "recent_query_receipt_reuses": 41,
     "recent_query_existing_index_reuses": 1,
     "recent_query_access_holds": 5,
-    "next_search_page_to_capture": 22,
-    "recent_query_rows_captured": 420,
-    "contiguous_query_rows_reviewed": 420,
-    "recent_query_detail_gaps": 0,
-    "unindexed_captured_record_ids": [],
+    "next_search_page_to_capture": 24,
+    "recent_query_rows_captured": 460,
+    "contiguous_query_rows_reviewed": 428,
+    "recent_query_detail_gaps": 32,
+    "unindexed_captured_record_ids": [
+      "SCOT/OPR/BAP/4121535",
+      "SCOT/OPR/BAP/4108115",
+      "R_685771321",
+      "R_686210925",
+      "R_691906700",
+      "SCOT/OPR/BAP/3606913",
+      "GBPRS/B/612044547/1",
+      "R_693210715"
+    ],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 19,
     "total_indexed_reviewed_provider_ids": 527
@@ -6131,6 +6140,521 @@
         "SCOT/OPR/BAP/0735490"
       ],
       "remaining_detail_rows": []
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=22&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        22
+      ],
+      "captured_rows": 20,
+      "rows": [
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1783",
+          "death_year": "—",
+          "event_year": "1783",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Bathgate, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "SCOT/OPR/BAP/4121535",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121535"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1784",
+          "death_year": "—",
+          "event_year": "1784",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Wiston & Roberton, Lanarkshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/4108115",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108115"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1784",
+          "death_year": "—",
+          "event_year": "1784",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_685771321",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685771321"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1790",
+          "death_year": "—",
+          "event_year": "1790",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686210925",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686210925"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1790",
+          "death_year": "—",
+          "event_year": "1790",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691906700",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691906700"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1791",
+          "death_year": "—",
+          "event_year": "1791",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kilmarnock, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3606913",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3606913"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1795",
+          "death_year": "—",
+          "event_year": "1795",
+          "record_set": "Yorkshire Baptisms",
+          "location": "Yorkshire (North Riding), England",
+          "record_id": "GBPRS/B/612044547/1",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044547%2F1"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1795",
+          "death_year": "—",
+          "event_year": "1795",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_693210715",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693210715"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1778",
+          "death_year": "1797",
+          "event_year": "1797",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Great Britain",
+          "record_id": "PRS/PERTHCEM/006408",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FPERTHCEM%2F006408"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1797",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4477018",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477018"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1797",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686211386",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686211386"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "England Births & Baptisms 1538-1975",
+          "location": "Ashford, Kent, England",
+          "record_id": "R_949965490",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_949965490"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "England & Wales Non-Conformist Births And Baptisms",
+          "location": "Ashford, Kent, England",
+          "record_id": "TNA/RG4/BAP/637183",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=TNA%2FRG4%2FBAP%2F637183"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691906701",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691906701"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1799",
+          "death_year": "—",
+          "event_year": "1799",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Buteshire, Scotland",
+          "record_id": "R_685143621",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685143621"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1773",
+          "death_year": "—",
+          "event_year": "1810",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Edinburgh, Midlothian",
+          "record_id": "SCOT/OPR/BUR/0378432",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0378432"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1811",
+          "record_set": "England Births & Baptisms 1538-1975",
+          "location": "Sunderland, Durham, England",
+          "record_id": "R_957263505",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_957263505"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1833",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Edinburgh, Midlothian",
+          "record_id": "SCOT/OPR/BUR/0442975",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0442975"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "1836",
+          "event_year": "1836",
+          "record_set": "Antrim Cemetery Records",
+          "location": "Racavan, Antrim, Ireland",
+          "record_id": "IRE/BMD/D/ANT/202500373",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2FANT%2F202500373"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1783",
+          "death_year": "1853",
+          "event_year": "1853",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Edinburgh, Midlothian",
+          "record_id": "SCOT/OPR/BUR/1594695",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1594695"
+        }
+      ],
+      "captured_at": "2026-10-24T10:21:49.119969+00:00",
+      "review_status": "partial_captured_reviewed_publication_pending",
+      "reviewed_cached_rows": [
+        "SCOT/OPR/BAP/4121535",
+        "SCOT/OPR/BAP/4108115",
+        "R_685771321",
+        "R_686210925",
+        "R_691906700",
+        "SCOT/OPR/BAP/3606913",
+        "GBPRS/B/612044547/1",
+        "R_693210715"
+      ],
+      "remaining_detail_rows": [
+        "PRS/PERTHCEM/006408",
+        "SCOT/OPR/BAP/4477018",
+        "R_686211386",
+        "R_949965490",
+        "TNA/RG4/BAP/637183",
+        "R_691906701",
+        "R_685143621",
+        "SCOT/OPR/BUR/0378432",
+        "R_957263505",
+        "SCOT/OPR/BUR/0442975",
+        "IRE/BMD/D/ANT/202500373",
+        "SCOT/OPR/BUR/1594695"
+      ]
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=23&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        23
+      ],
+      "captured_rows": 20,
+      "rows": [
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1783",
+          "death_year": "1853",
+          "event_year": "1853",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Edinburgh, Midlothian",
+          "record_id": "SCOT/OPR/BUR/1608920",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1608920"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "—",
+          "event_year": "1866",
+          "record_set": "England, Newspaper Death Notices",
+          "location": "Manchester, Lancashire, England",
+          "record_id": "R_104260145210",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_104260145210"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "—",
+          "event_year": "1866",
+          "record_set": "England, Newspaper Death Notices",
+          "location": "Manchester, Lancashire, England",
+          "record_id": "R_104260084241",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_104260084241"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "—",
+          "event_year": "1866",
+          "record_set": "England, Newspaper Death Notices",
+          "location": "York, Yorkshire, England",
+          "record_id": "R_106286701097",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_106286701097"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "1866",
+          "event_year": "1866",
+          "record_set": "England & Wales Deaths 1837-2007",
+          "location": "Manchester, Lancashire, England",
+          "record_id": "BMD/D/1866/2/AZ/000130/127",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1866%2F2%2FAZ%2F000130%2F127"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "1866",
+          "event_year": "1866",
+          "record_set": "Lancashire Burials",
+          "location": "Manchester, Lancashire, England",
+          "record_id": "GBOR/MISCBMDS/DEA/000897892/1",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FMISCBMDS%2FDEA%2F000897892%2F1"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "1866",
+          "event_year": "1866",
+          "record_set": "Manchester Cemetery Records",
+          "location": "Lancashire, England",
+          "record_id": "GBPRS/D/51055003/1",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F51055003%2F1"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John",
+          "birth_year": "1766",
+          "death_year": "1866",
+          "event_year": "1866",
+          "record_set": "Manchester Cemetery Records",
+          "location": "Lancashire, England",
+          "record_id": "GBPRS/D/51018252/1",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F51018252%2F1"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John Bowes",
+          "birth_year": "1792",
+          "death_year": "—",
+          "event_year": "1792",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Forfarshire (Angus), Scotland",
+          "record_id": "R_693420096",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693420096"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John James",
+          "birth_year": "1789",
+          "death_year": "—",
+          "event_year": "1789",
+          "record_set": "Surrey Burials",
+          "location": "Chertsey, St Peter, Surrey, England",
+          "record_id": "PRS/SURREY/BUR/0349588",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSURREY%2FBUR%2F0349588"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "John James",
+          "birth_year": "1789",
+          "death_year": "1789",
+          "event_year": "1789",
+          "record_set": "National Burial Index For England & Wales",
+          "location": "Chertsey, Surrey, England",
+          "record_id": "BMD/NBI/15581721",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F15581721"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Judith",
+          "birth_year": "1798",
+          "death_year": "—",
+          "event_year": "1798",
+          "record_set": "Caribbean Birth & Baptism Index 1590-1928",
+          "location": "Barbados",
+          "record_id": "R_791034477",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_791034477"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Judith H",
+          "birth_year": "1767",
+          "death_year": "1812",
+          "event_year": "1812",
+          "record_set": "Historical Society Of Pennsylvania, Deaths & Burials",
+          "location": "Chester, Pennsylvania, United States",
+          "record_id": "US/BMD/PENN-BUR/00346206",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F00346206"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Katherine",
+          "birth_year": "1727",
+          "death_year": "—",
+          "event_year": "1727",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688618312",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688618312"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Katherine",
+          "birth_year": "1727",
+          "death_year": "—",
+          "event_year": "1727",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685316210",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685316210"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Katherine",
+          "birth_year": "1749",
+          "death_year": "—",
+          "event_year": "1749",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688618614",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688618614"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Katherine",
+          "birth_year": "1749",
+          "death_year": "—",
+          "event_year": "1749",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685315083",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685315083"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Lawrence",
+          "birth_year": "1747",
+          "death_year": "—",
+          "event_year": "1777",
+          "record_set": "Cheshire Marriage Licence Bonds And Allegations 1606-1905",
+          "location": "Saint Michael, Cheshire, England",
+          "record_id": "GBPRS/M/737045372/1",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FM%2F737045372%2F1"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Letitia",
+          "birth_year": "1790",
+          "death_year": "1871",
+          "event_year": "1871",
+          "record_set": "Irish Deaths 1864 - 1958",
+          "location": "Ballymoney, Antrim & Londonderry (Derry), Ireland",
+          "record_id": "IRE/BMD/D/617348041",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617348041"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Lord",
+          "birth_year": "1792",
+          "death_year": "1869",
+          "event_year": "1869",
+          "record_set": "New York City Death Notices, 1835-1880",
+          "location": "New York, United States",
+          "record_id": "US/BMD/NEWYORKDEATHS/90988",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FNEWYORKDEATHS%2F90988"
+        }
+      ],
+      "captured_at": "2026-10-24T10:21:49.121776+00:00",
+      "review_status": "captured_awaiting_details",
+      "reviewed_cached_rows": [],
+      "remaining_detail_rows": [
+        "SCOT/OPR/BUR/1608920",
+        "R_104260145210",
+        "R_104260084241",
+        "R_106286701097",
+        "BMD/D/1866/2/AZ/000130/127",
+        "GBOR/MISCBMDS/DEA/000897892/1",
+        "GBPRS/D/51055003/1",
+        "GBPRS/D/51018252/1",
+        "R_693420096",
+        "PRS/SURREY/BUR/0349588",
+        "BMD/NBI/15581721",
+        "R_791034477",
+        "US/BMD/PENN-BUR/00346206",
+        "R_688618312",
+        "R_685316210",
+        "R_688618614",
+        "R_685315083",
+        "GBPRS/M/737045372/1",
+        "IRE/BMD/D/617348041",
+        "US/BMD/NEWYORKDEATHS/90988"
+      ]
     }
   ],
   "records": {
@@ -24649,6 +25173,268 @@
       "capture_method": "Existing Chrome transcript DOM via Apple Events",
       "matching_status": "existing_person_qualified",
       "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/4121535": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:25:39.782970+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121535",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121535&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121535&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Father's last name": "Glasgow",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Elizabeth",
+        "Birth year": "1783",
+        "Mother's last name": "Dick",
+        "Birth date": "29 Jun 1783",
+        "Archive reference": "OPR 662/2",
+        "Baptism year": "1783",
+        "Register year range": "1769-1819",
+        "Baptism date": "06 Jul 1783",
+        "Item": "1",
+        "Place": "Bathgate",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County": "Linlithgowshire (West Lothian)",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Country": "Scotland",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "Patrick",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/4108115": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:26:42.917483+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108115",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108115&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108115&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Father's first name(s)": "James",
+        "Last name": "Glasgow",
+        "Father's last name": "Glasgow",
+        "Birth year": "1784",
+        "Archive reference": "OPR 660/1",
+        "Birth date": "26 Nov 1784",
+        "Register year range": "1689-1819",
+        "Baptism year": "1784",
+        "Item": "1",
+        "Baptism date": "30 Nov 1784",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Residence": "?Shield",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Place": "Wiston & Roberton",
+        "Subcategory": "Parish Baptisms",
+        "County": "Lanarkshire",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_685771321": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:27:13.825648+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685771321",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685771321&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685771321&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's first name(s)": "-",
+        "Last name": "Glasgow",
+        "Residence": "Wiston and Roberton, Lanarkshire, Scotland",
+        "Sex": "Male",
+        "Place": "Wiston and Roberton",
+        "Birth year": "1784",
+        "County": "Lanarkshire",
+        "Baptism year": "1784",
+        "Country": "Scotland",
+        "Baptism date": "30 Nov 1784",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "WISTON AND ROBERTON, LANARK, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "James",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686210925": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:27:39.887630+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686210925",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686210925&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686210925&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's last name": "Chapman",
+        "Last name": "Glasgow",
+        "Residence": "Kirknewton, Midlothian, Scotland",
+        "Sex": "Male",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1790",
+        "County": "Midlothian",
+        "Baptism year": "1790",
+        "Country": "Scotland",
+        "Baptism date": "15 Aug 1790",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Thomas",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_691906700": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:32:46.036076+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691906700",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691906700&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691906700&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's first name(s)": "Margaret",
+        "Last name": "Glasgow",
+        "Mother's last name": "Chapman",
+        "Sex": "Male",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1790",
+        "County": "Midlothian",
+        "Baptism year": "1790",
+        "Country": "Scotland",
+        "Baptism date": "15 Aug 1790",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Thomas",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/3606913": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:33:20.599168+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3606913",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3606913&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3606913&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Father's occupation": "Shoe Maker",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Birth year": "1791",
+        "Mother's last name": "Wyllie",
+        "Birth date": "24 Jan 1791",
+        "Archive reference": "OPR 597/3",
+        "Baptism year": "1791",
+        "Register year range": "1693-1819",
+        "Baptism date": "27 Jan 1791",
+        "Item": "3",
+        "Residence": "Kilmk",
+        "Page": "145",
+        "Place": "Kilmarnock",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County": "Ayrshire",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Country": "Scotland",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "John",
+        "Collections from": "Great Britain, Scotland",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
+    },
+    "GBPRS/B/612044547/1": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:33:42.356283+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044547%2F1",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044547%2F1&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044547%2F1&tab=this",
+      "title": "Record Transcription: Yorkshire Baptisms | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Relationship": "Son",
+        "Last name": "Glasgow",
+        "County": "Yorkshire (North Riding)",
+        "Birth year": "1795",
+        "Country": "England",
+        "Baptism year": "1795",
+        "Record set": "Yorkshire Baptisms",
+        "Baptism date": "07 Sep 1795",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Baptism place": "Richmond",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "William",
+        "Collections from": "England, Great Britain",
+        "Mother's first name(s)": "-"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_693210715": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T10:34:05.314932+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693210715",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693210715&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_693210715&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's first name(s)": "Lillias",
+        "Last name": "Glasgow",
+        "Mother's last name": "Stewart",
+        "Sex": "Male",
+        "Place": "Barony, Glasgow",
+        "Birth year": "1795",
+        "County": "Lanarkshire",
+        "Baptism year": "1795",
+        "Country": "Scotland",
+        "Baptism date": "11 Jan 1795",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "BARONY,LANARK,SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Samuel",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "reviewed_pending_catalogue_publication",
+      "reviewed_on": "2026-10-24"
     }
   },
   "identity_clusters": [
@@ -32138,6 +32924,114 @@
         },
         "assessment": "One 18 March baptism; companion derivatives, not independent births. Indexed birth year is not a birthday. Literal additional indexed fields: Birth year=1750; Father's first name(s)=Thomas; Father's last name=Glasgow; Mother's first name(s)=Janet; Mother's last name=Mill; Residence=Mid Calder, Midlothian, Scotland. Source level: inspected Findmypast provider derivative transcript; original register image not inspected. Companion entries are not independent original corroboration. No new person, vital change or relationship regrade.",
         "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686310853",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "SCOT/OPR/BAP/4121535": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-scot-opr-bap-4121535",
+        "documentary_group": "bathgate-john-1783",
+        "catalogue_profiles": {
+          "Glasgow-1460": {
+            "role": "Qualified Bathgate child-event comparison; later adult identity retains current uncertainty and conflicting birth readings.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "New FMP transcript states Birth date 29 Jun 1783, Baptism date 06 Jul 1783, Bathgate OPR 662/2 item 1, father Patrick, mother Elizabeth Dick. Same event/parents as held citation; birth date conflicts with FS-connected profile 7 Jun. Both are derivatives; original uninspected. Preserve discrepancy, no exact-vital correction or relationship regrade until original/source discrepancy reviewed.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14121535",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "SCOT/OPR/BAP/4108115": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-scot-opr-bap-4108115",
+        "documentary_group": "wiston-john-1784",
+        "catalogue_profiles": {},
+        "assessment": "FMP transcript says John Glasgow, birth 26 Nov 1784, baptism 30 Nov 1784, Wiston & Roberton, OPR 660/1 item 1, father James Glasgow, residence ?Shield; mother blank. Derivative only, original uninspected. This is a distinct event from the Dublin St Michan transcript (different parish/date/father) and should remain an identity comparison; do not merge to Glasgow-3946 or create an adult/person from row similarity. Need determine any independent candidate/household context only if later fields support it. Glasgow-3946 remains a qualified comparison: its Dublin identity is hypothetical, so differing documentary events do not prove a concrete conflict in that adult profile.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14108115",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_685771321": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-r-685771321",
+        "documentary_group": "wiston-john-1784",
+        "catalogue_profiles": {},
+        "assessment": "This companion transcript does not provide the 26 Nov birth date that 4108115 supplies; both name John Glasgow, father James, Wiston/Roberton, baptism 30 Nov 1784. Original uninspected. Glasgow-3946 remains a qualified comparison: its Dublin identity is hypothetical, so differing documentary events do not prove a concrete conflict in that adult profile.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685771321",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686210925": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-r-686210925",
+        "documentary_group": "kirknewton-john-1790",
+        "catalogue_profiles": {
+          "Glasgow-427": {
+            "role": "Existing John child baptized 15 Aug 1790, Thomas Glasgow and Margaret Chapman; companion derivative, not independent corroboration.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "R_686210925 and R_691906700 both say birth year 1790 and baptism 15 Aug 1790, name father Thomas Glasgow and mother Margaret Chapman, parish Kirknewton/East Calder; R_686210925 adds residence Kirknewton. They provide no explicit birth date. The existing separately saved FMP transcript 4478030 explicitly labels birth date 15 Aug and no baptism date; the held FamilySearch index separately labels the same day christening. Preserve this source-role distinction. Add these as companion reports of the already indexed event; no vital correction or parent regrade.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686210925",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_691906700": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-r-691906700",
+        "documentary_group": "kirknewton-john-1790",
+        "catalogue_profiles": {
+          "Glasgow-427": {
+            "role": "Existing John child baptized 15 Aug 1790, Thomas Glasgow and Margaret Chapman; companion derivative, not independent corroboration.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "R_686210925 and R_691906700 both say birth year 1790 and baptism 15 Aug 1790, name father Thomas Glasgow and mother Margaret Chapman, parish Kirknewton/East Calder; R_686210925 adds residence Kirknewton. They provide no explicit birth date. The existing separately saved FMP transcript 4478030 explicitly labels birth date 15 Aug and no baptism date; the held FamilySearch index separately labels the same day christening. Preserve this source-role distinction. Add these as companion reports of the already indexed event; no vital correction or parent regrade.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906700",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "SCOT/OPR/BAP/3606913": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-scot-opr-bap-3606913",
+        "documentary_group": "kilmarnock-john-1791",
+        "catalogue_profiles": {
+          "Glasgow-3051": {
+            "role": "Existing John child born 24 Jan and baptized 27 Jan 1791, John Glasgow and Margaret Wyllie; current father98% and mother assessment unchanged.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "FMP says John Glasgow; birth 24 Jan 1791, baptism 27 Jan 1791, Kilmarnock OPR 597/3, item 3, p.145; father John Glasgow, occupation Shoe Maker; mother Margaret Wyllie; residence Kilmk. Matches existing birth and held FamilySearch citation to 27 Jan baptism; source adds explicit birth/baptism distinction, occupation and residence. Derivative only; original uninspected. No new event, vital, or grade change.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13606913",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "GBPRS/B/612044547/1": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-gbprs-b-612044547-1",
+        "documentary_group": "richmond-john-1795",
+        "catalogue_profiles": {},
+        "assessment": "Yorkshire Baptisms transcript says John Glasgow, baptism 7 Sep 1795, Richmond, North Riding, Yorkshire; father William Glasgow; mother field blank; relationship Son; no explicit birth date, only birth year 1795. Original uninspected. Current Glasgow-2721 has a different recorded locality and possible father; Glasgow-3443 has Ireland birth place and blank parents. Treat as comparisons, not concrete identification; no new child/profile until checked against full source context and alternatives.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1B~1612044547~11",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_693210715": {
+        "status": "reviewed_pending_catalogue_publication",
+        "indexed": false,
+        "proposed_canonical_record_id": "fmp-record-r-693210715",
+        "documentary_group": "barony-john-1795",
+        "catalogue_profiles": {},
+        "assessment": "FMP says John Glasgow baptized 11 Jan 1795 at Barony, Glasgow; father Samuel Glasgow, mother Lillias Stewart; birth year only. This differs materially from Glasgow-2721’s Patrick/Lanarkshire vital and possible John-3034 father; do not assign the event or use it to force a new profile. No exact current matching child/profile found in current models; targeted QMD lexical query on exact full names/date/place returned no lead. Original register uninspected. Glasgow-2721 remains a compatible comparison: uncertain locality and a 33% possible John father are not concrete exclusions; no new person is proposed.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_693210715",
         "new_person_proposed": false,
         "reviewed_on": "2026-10-24"
       }
@@ -57038,6 +57932,1450 @@
       },
       "verification_status": "verified_local_source_person_tree_latest_study_backlink_sitemap_search",
       "verification_report": "output/findmypast-pages21-20261024-verification.json"
+    },
+    "pages22_23_partial_review_20261024": {
+      "reviewed_on": "2026-10-24",
+      "verification_status": "capture_checkpoint_only_catalogue_publication_pending",
+      "new_provider_transcripts": 8,
+      "documentary_groups_reviewed": 6,
+      "first_seen_documentary_entry_groups": 3,
+      "new_people": 0,
+      "newly_indexed_provider_records": 0,
+      "approved_decisions_pending_publication": [
+        {
+          "provider_record_id": "SCOT/OPR/BAP/4121535",
+          "status": "matched",
+          "association": "John Glasgow — bathgate-john-1783 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Place",
+          "documentary_group": "bathgate-john-1783",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14121535",
+          "profiles": {
+            "Glasgow-1460": {
+              "role": "Qualified Bathgate child-event comparison; later adult identity retains current uncertainty and conflicting birth readings.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "note": "New FMP transcript states Birth date 29 Jun 1783, Baptism date 06 Jul 1783, Bathgate OPR 662/2 item 1, father Patrick, mother Elizabeth Dick. Same event/parents as held citation; birth date conflicts with FS-connected profile 7 Jun. Both are derivatives; original uninspected. Preserve discrepancy, no exact-vital correction or relationship regrade until original/source discrepancy reviewed."
+        },
+        {
+          "provider_record_id": "SCOT/OPR/BAP/4108115",
+          "status": "identity_hold",
+          "association": "John Glasgow — wiston-john-1784 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Place",
+          "documentary_group": "wiston-john-1784",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14108115",
+          "profiles": {},
+          "note": "FMP transcript says John Glasgow, birth 26 Nov 1784, baptism 30 Nov 1784, Wiston & Roberton, OPR 660/1 item 1, father James Glasgow, residence ?Shield; mother blank. Derivative only, original uninspected. This is a distinct event from the Dublin St Michan transcript (different parish/date/father) and should remain an identity comparison; do not merge to Glasgow-3946 or create an adult/person from row similarity. Need determine any independent candidate/household context only if later fields support it. Glasgow-3946 remains a qualified comparison: its Dublin identity is hypothetical, so differing documentary events do not prove a concrete conflict in that adult profile."
+        },
+        {
+          "provider_record_id": "R_685771321",
+          "status": "identity_hold",
+          "association": "John Glasgow — wiston-john-1784 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Place",
+          "documentary_group": "wiston-john-1784",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685771321",
+          "profiles": {},
+          "note": "This companion transcript does not provide the 26 Nov birth date that 4108115 supplies; both name John Glasgow, father James, Wiston/Roberton, baptism 30 Nov 1784. Original uninspected. Glasgow-3946 remains a qualified comparison: its Dublin identity is hypothetical, so differing documentary events do not prove a concrete conflict in that adult profile."
+        },
+        {
+          "provider_record_id": "R_686210925",
+          "status": "matched",
+          "association": "John Glasgow — kirknewton-john-1790 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Place",
+          "documentary_group": "kirknewton-john-1790",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686210925",
+          "profiles": {
+            "Glasgow-427": {
+              "role": "Existing John child baptized 15 Aug 1790, Thomas Glasgow and Margaret Chapman; companion derivative, not independent corroboration.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "note": "R_686210925 and R_691906700 both say birth year 1790 and baptism 15 Aug 1790, name father Thomas Glasgow and mother Margaret Chapman, parish Kirknewton/East Calder; R_686210925 adds residence Kirknewton. They provide no explicit birth date. The existing separately saved FMP transcript 4478030 explicitly labels birth date 15 Aug and no baptism date; the held FamilySearch index separately labels the same day christening. Preserve this source-role distinction. Add these as companion reports of the already indexed event; no vital correction or parent regrade."
+        },
+        {
+          "provider_record_id": "R_691906700",
+          "status": "matched",
+          "association": "John Glasgow — kirknewton-john-1790 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Place",
+          "documentary_group": "kirknewton-john-1790",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906700",
+          "profiles": {
+            "Glasgow-427": {
+              "role": "Existing John child baptized 15 Aug 1790, Thomas Glasgow and Margaret Chapman; companion derivative, not independent corroboration.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "note": "R_686210925 and R_691906700 both say birth year 1790 and baptism 15 Aug 1790, name father Thomas Glasgow and mother Margaret Chapman, parish Kirknewton/East Calder; R_686210925 adds residence Kirknewton. They provide no explicit birth date. The existing separately saved FMP transcript 4478030 explicitly labels birth date 15 Aug and no baptism date; the held FamilySearch index separately labels the same day christening. Preserve this source-role distinction. Add these as companion reports of the already indexed event; no vital correction or parent regrade."
+        },
+        {
+          "provider_record_id": "SCOT/OPR/BAP/3606913",
+          "status": "matched",
+          "association": "John Glasgow — kilmarnock-john-1791 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Place",
+          "documentary_group": "kilmarnock-john-1791",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13606913",
+          "profiles": {
+            "Glasgow-3051": {
+              "role": "Existing John child born 24 Jan and baptized 27 Jan 1791, John Glasgow and Margaret Wyllie; current father98% and mother assessment unchanged.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "note": "FMP says John Glasgow; birth 24 Jan 1791, baptism 27 Jan 1791, Kilmarnock OPR 597/3, item 3, p.145; father John Glasgow, occupation Shoe Maker; mother Margaret Wyllie; residence Kilmk. Matches existing birth and held FamilySearch citation to 27 Jan baptism; source adds explicit birth/baptism distinction, occupation and residence. Derivative only; original uninspected. No new event, vital, or grade change."
+        },
+        {
+          "provider_record_id": "GBPRS/B/612044547/1",
+          "status": "identity_hold",
+          "association": "John Glasgow — richmond-john-1795 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Baptism place",
+          "documentary_group": "richmond-john-1795",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1B~1612044547~11",
+          "profiles": {},
+          "note": "Yorkshire Baptisms transcript says John Glasgow, baptism 7 Sep 1795, Richmond, North Riding, Yorkshire; father William Glasgow; mother field blank; relationship Son; no explicit birth date, only birth year 1795. Original uninspected. Current Glasgow-2721 has a different recorded locality and possible father; Glasgow-3443 has Ireland birth place and blank parents. Treat as comparisons, not concrete identification; no new child/profile until checked against full source context and alternatives."
+        },
+        {
+          "provider_record_id": "R_693210715",
+          "status": "identity_hold",
+          "association": "John Glasgow — barony-john-1795 baptism",
+          "event_role": "baptism transcript",
+          "date_field": "Baptism date",
+          "year_field": "Baptism year",
+          "place_field": "Place",
+          "documentary_group": "barony-john-1795",
+          "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_693210715",
+          "profiles": {},
+          "note": "FMP says John Glasgow baptized 11 Jan 1795 at Barony, Glasgow; father Samuel Glasgow, mother Lillias Stewart; birth year only. This differs materially from Glasgow-2721’s Patrick/Lanarkshire vital and possible John-3034 father; do not assign the event or use it to force a new profile. No exact current matching child/profile found in current models; targeted QMD lexical query on exact full names/date/place returned no lead. Original register uninspected. Glasgow-2721 remains a compatible comparison: uncertain locality and a 33% possible John father are not concrete exclusions; no new person is proposed."
+        }
+      ],
+      "novelty_review": {
+        "reviewed_on": "2026-10-24",
+        "scope": "Eight literal receipts available for rows 0–7 inspected against held canonical/source fields; other 32 remain search-row leads only. No browser, originals or shared files used.",
+        "baseline_sources": [
+          "research/canonical_records.json",
+          "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records",
+          "research/Glasgow-1472/findings.md",
+          "research/Glasgow-1417/findings.md",
+          "research/Glasgow-1055/findings.md"
+        ],
+        "counts": {
+          "search_rows": 40,
+          "new_provider_ids_relative_to_checked_canonical_and_old_receipts": 40,
+          "tentative_search_lead_clusters": 25,
+          "confirmed_new_documentary_groups": null,
+          "confirmed_new_facts": null,
+          "new_people": 0,
+          "literal_receipts_reviewed": 8,
+          "inspected_documentary_groups": 6,
+          "genuine_first_seen_documentary_entry_groups_among_eight": 3,
+          "held_event_groups_among_eight": 3,
+          "conflicting_derivative_assertion_groups_among_eight": 2,
+          "relationship_grade_changes": 0
+        },
+        "exact_provider_id_baseline": {
+          "canonical_matches": 0,
+          "older_full_receipt_matches": 0
+        },
+        "known_event_guards": [
+          "1790 Kirknewton Thomas/Margaret Chapman John already held, canonical #/1654; do not call same event new.",
+          "1797/98 Kirknewton William/Cath Neobet child already held, canonical #/1598; do not call same event new.",
+          "1727 Katherine Irvine baptism and 1749 Katherine Irvine baptism already held; compare new literal parents/dates before novelty."
+        ],
+        "lead_groups": [
+          {
+            "lead_group": "Bathgate John 1783",
+            "provider_ids": [
+              "SCOT/OPR/BAP/4121535"
+            ],
+            "grouping_status": "confirmed_one_documentary_event_for_available_receipts",
+            "entries": [
+              {
+                "row_index": 0,
+                "provider_record_id": "SCOT/OPR/BAP/4121535",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/0",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1783",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1783",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Bathgate, Linlithgowshire (West Lothian), Scotland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Father's last name": "Glasgow",
+                  "Last name": "Glasgow",
+                  "Mother's first name(s)": "Elizabeth",
+                  "Birth year": "1783",
+                  "Mother's last name": "Dick",
+                  "Birth date": "29 Jun 1783",
+                  "Archive reference": "OPR 662/2",
+                  "Baptism year": "1783",
+                  "Register year range": "1769-1819",
+                  "Baptism date": "06 Jul 1783",
+                  "Item": "1",
+                  "Place": "Bathgate",
+                  "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "County": "Linlithgowshire (West Lothian)",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Country": "Scotland",
+                  "Subcategory": "Parish Baptisms",
+                  "Father's first name(s)": "Patrick",
+                  "Collections from": "Great Britain, Scotland"
+                },
+                "actual_novelty": "held_event_conflicting_derivative_birth_assertion",
+                "held_event_or_companion_id": "held-e-7b76bd10ebda",
+                "verified_prior_paths": "research/canonical_records.json#/417; research/Glasgow-1460/findings.md",
+                "interpretation": "Same John/Patrick/Elizabeth Dick 6 Jul 1783 Bathgate baptism as held citation. New derivative explicitly calls birth 29 Jun; FS-connected profile says 7 Jun. Original OPR 662/2 uninspected; do not replace birth or regrade.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              }
+            ],
+            "actual_novelty": "held_event_conflicting_derivative_birth_assertion",
+            "new_person_decision": "none; existing identity comparisons retained"
+          },
+          {
+            "lead_group": "Lanarkshire John 1784, possible companions",
+            "provider_ids": [
+              "SCOT/OPR/BAP/4108115",
+              "R_685771321"
+            ],
+            "grouping_status": "confirmed_one_documentary_event_for_available_receipts",
+            "entries": [
+              {
+                "row_index": 1,
+                "provider_record_id": "SCOT/OPR/BAP/4108115",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/1",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1784",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1784",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Wiston & Roberton, Lanarkshire, Scotland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Father's first name(s)": "James",
+                  "Last name": "Glasgow",
+                  "Father's last name": "Glasgow",
+                  "Birth year": "1784",
+                  "Archive reference": "OPR 660/1",
+                  "Birth date": "26 Nov 1784",
+                  "Register year range": "1689-1819",
+                  "Baptism year": "1784",
+                  "Item": "1",
+                  "Baptism date": "30 Nov 1784",
+                  "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "Residence": "?Shield",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Place": "Wiston & Roberton",
+                  "Subcategory": "Parish Baptisms",
+                  "County": "Lanarkshire",
+                  "Collections from": "Great Britain, Scotland",
+                  "Country": "Scotland"
+                },
+                "actual_novelty": "first_seen_documentary_entry",
+                "held_event_or_companion_id": "none",
+                "verified_prior_paths": "research/Glasgow-3946/findings.md",
+                "interpretation": "Wiston & Roberton child to James Glasgow, born 26 Nov, baptised 30 Nov 1784, OPR 660/1; distinct from held Dublin St Michan Thomas/Eliza Hynes account. Adult identity unassigned.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              },
+              {
+                "row_index": 2,
+                "provider_record_id": "R_685771321",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/2",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1784",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1784",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Lanarkshire, Scotland"
+                },
+                "preexisting_event_status": "possible_not_confirmed",
+                "prior_record_or_source_id": "fmp-record-r-693242590; fmp-record-r-693242591",
+                "prior_source_paths": "research/canonical_records.json#/1644; research/canonical_records.json#/1649",
+                "prior_comparison": "Other John Glasgow indices in Glasgow, Lanarkshire, 1782/1783; broad county/year proximity only, no event equation.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Mother's first name(s)": "-",
+                  "Last name": "Glasgow",
+                  "Residence": "Wiston and Roberton, Lanarkshire, Scotland",
+                  "Sex": "Male",
+                  "Place": "Wiston and Roberton",
+                  "Birth year": "1784",
+                  "County": "Lanarkshire",
+                  "Baptism year": "1784",
+                  "Country": "Scotland",
+                  "Baptism date": "30 Nov 1784",
+                  "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "Baptism place": "WISTON AND ROBERTON, LANARK, SCOTLAND",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Father's first name(s)": "James",
+                  "Subcategory": "Parish Baptisms",
+                  "Father's last name": "Glasgow",
+                  "Collections from": "Great Britain, Scotland"
+                },
+                "actual_novelty": "companion_to_first_seen_entry",
+                "held_event_or_companion_id": "SCOT/OPR/BAP/4108115",
+                "verified_prior_paths": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14108115",
+                "interpretation": "Same 30 Nov Wiston/Roberton John and father James; this broad derivative adds no separate child. It omits exact 26 Nov birth.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              }
+            ],
+            "actual_novelty": "first_seen_documentary_entry; companion_to_first_seen_entry",
+            "new_person_decision": "none; existing identity comparisons retained"
+          },
+          {
+            "lead_group": "Midlothian John 1790, possible companions",
+            "provider_ids": [
+              "R_686210925",
+              "R_691906700"
+            ],
+            "grouping_status": "confirmed_one_documentary_event_for_available_receipts",
+            "entries": [
+              {
+                "row_index": 3,
+                "provider_record_id": "R_686210925",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/3",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1790",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1790",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Midlothian, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "fmp-record-scot-opr-bap-4478030",
+                "prior_source_paths": "research/canonical_records.json#/1654",
+                "prior_comparison": "Held explicit birth 15 Aug 1790 at Kirknewton and East Calder to Thomas Glasgow/Margaret Chapman, linked Glasgow-427/Glasgow-1620. New rows are broad Midlothian leads until parents/date seen.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Mother's last name": "Chapman",
+                  "Last name": "Glasgow",
+                  "Residence": "Kirknewton, Midlothian, Scotland",
+                  "Sex": "Male",
+                  "Place": "Kirknewton and East Calder",
+                  "Birth year": "1790",
+                  "County": "Midlothian",
+                  "Baptism year": "1790",
+                  "Country": "Scotland",
+                  "Baptism date": "15 Aug 1790",
+                  "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Father's first name(s)": "Thomas",
+                  "Subcategory": "Parish Baptisms",
+                  "Father's last name": "Glasgow",
+                  "Collections from": "Great Britain, Scotland",
+                  "Mother's first name(s)": "Margaret"
+                },
+                "actual_novelty": "held_event_date_role_discrepancy",
+                "held_event_or_companion_id": "fmp-record-scot-opr-bap-4478030",
+                "verified_prior_paths": "research/canonical_records.json#/1654; research/Glasgow-427/findings.md",
+                "interpretation": "Same John/Thomas/Margaret Chapman 15 Aug 1790 Kirknewton event; new pair calls day baptism and gives only birth year, whereas held OPR derivative calls day birth. Held FamilySearch calls it christening. New first derivative adds Kirknewton residence; original needed for date roles.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              },
+              {
+                "row_index": 4,
+                "provider_record_id": "R_691906700",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/4",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1790",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1790",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Midlothian, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "fmp-record-scot-opr-bap-4478030",
+                "prior_source_paths": "research/canonical_records.json#/1654",
+                "prior_comparison": "Same 1790 Midlothian lead; compare exact parents/date before calling novel.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Mother's first name(s)": "Margaret",
+                  "Last name": "Glasgow",
+                  "Mother's last name": "Chapman",
+                  "Sex": "Male",
+                  "Place": "Kirknewton and East Calder",
+                  "Birth year": "1790",
+                  "County": "Midlothian",
+                  "Baptism year": "1790",
+                  "Country": "Scotland",
+                  "Baptism date": "15 Aug 1790",
+                  "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Father's first name(s)": "Thomas",
+                  "Subcategory": "Parish Baptisms",
+                  "Father's last name": "Glasgow",
+                  "Collections from": "Great Britain, Scotland"
+                },
+                "actual_novelty": "held_event_date_role_discrepancy",
+                "held_event_or_companion_id": "fmp-record-scot-opr-bap-4478030",
+                "verified_prior_paths": "research/canonical_records.json#/1654; research/Glasgow-427/findings.md",
+                "interpretation": "Companion to R_686210925; same date, parish, parents; not independent event or birth-day proof.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              }
+            ],
+            "actual_novelty": "held_event_date_role_discrepancy",
+            "new_person_decision": "none; existing identity comparisons retained"
+          },
+          {
+            "lead_group": "Kilmarnock John 1791",
+            "provider_ids": [
+              "SCOT/OPR/BAP/3606913"
+            ],
+            "grouping_status": "confirmed_one_documentary_event_for_available_receipts",
+            "entries": [
+              {
+                "row_index": 5,
+                "provider_record_id": "SCOT/OPR/BAP/3606913",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/5",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1791",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1791",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Kilmarnock, Ayrshire, Scotland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Father's occupation": "Shoe Maker",
+                  "Last name": "Glasgow",
+                  "Mother's first name(s)": "Margaret",
+                  "Birth year": "1791",
+                  "Mother's last name": "Wyllie",
+                  "Birth date": "24 Jan 1791",
+                  "Archive reference": "OPR 597/3",
+                  "Baptism year": "1791",
+                  "Register year range": "1693-1819",
+                  "Baptism date": "27 Jan 1791",
+                  "Item": "3",
+                  "Residence": "Kilmk",
+                  "Page": "145",
+                  "Place": "Kilmarnock",
+                  "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "County": "Ayrshire",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Country": "Scotland",
+                  "Subcategory": "Parish Baptisms",
+                  "Father's first name(s)": "John",
+                  "Collections from": "Great Britain, Scotland",
+                  "Father's last name": "Glasgow"
+                },
+                "actual_novelty": "held_event_new_detail",
+                "held_event_or_companion_id": "held-e-8e7793dbc170",
+                "verified_prior_paths": "research/canonical_records.json#/433; research/Glasgow-3051/findings.md",
+                "interpretation": "Same known John Glasgow-3051 born 24 Jan/baptised 27 Jan 1791 Kilmarnock to John/Margaret Wyllie. New OPR derivative adds shoemaker occupation, Kilmk residence and OPR 597/3 p.145; no new vital/person/grade.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              }
+            ],
+            "actual_novelty": "held_event_new_detail",
+            "new_person_decision": "none; existing identity comparisons retained"
+          },
+          {
+            "lead_group": "Yorkshire John 1795",
+            "provider_ids": [
+              "GBPRS/B/612044547/1"
+            ],
+            "grouping_status": "confirmed_one_documentary_event_for_available_receipts",
+            "entries": [
+              {
+                "row_index": 6,
+                "provider_record_id": "GBPRS/B/612044547/1",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/6",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1795",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1795",
+                  "record_set": "Yorkshire Baptisms",
+                  "location": "Yorkshire (North Riding), England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Relationship": "Son",
+                  "Last name": "Glasgow",
+                  "County": "Yorkshire (North Riding)",
+                  "Birth year": "1795",
+                  "Country": "England",
+                  "Baptism year": "1795",
+                  "Record set": "Yorkshire Baptisms",
+                  "Baptism date": "07 Sep 1795",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Baptism place": "Richmond",
+                  "Subcategory": "Parish Baptisms",
+                  "Father's first name(s)": "William",
+                  "Collections from": "England, Great Britain",
+                  "Mother's first name(s)": "-"
+                },
+                "actual_novelty": "first_seen_documentary_entry",
+                "held_event_or_companion_id": "none",
+                "verified_prior_paths": "www/people/glasgow-2721.json; www/people/glasgow-3443.json",
+                "interpretation": "Richmond Yorkshire John baptised 7 Sep 1795, named father William, mother blank. Indexed birth year not exact birthday. Candidate identities unassigned; existing 1795 profiles are comparisons only.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              }
+            ],
+            "actual_novelty": "first_seen_documentary_entry",
+            "new_person_decision": "none; existing identity comparisons retained"
+          },
+          {
+            "lead_group": "Lanarkshire John 1795",
+            "provider_ids": [
+              "R_693210715"
+            ],
+            "grouping_status": "confirmed_one_documentary_event_for_available_receipts",
+            "entries": [
+              {
+                "row_index": 7,
+                "provider_record_id": "R_693210715",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/7",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1795",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1795",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Lanarkshire, Scotland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": false,
+                "literal_fields": {
+                  "First name(s)": "John",
+                  "Mother's first name(s)": "Lillias",
+                  "Last name": "Glasgow",
+                  "Mother's last name": "Stewart",
+                  "Sex": "Male",
+                  "Place": "Barony, Glasgow",
+                  "Birth year": "1795",
+                  "County": "Lanarkshire",
+                  "Baptism year": "1795",
+                  "Country": "Scotland",
+                  "Baptism date": "11 Jan 1795",
+                  "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "Baptism place": "BARONY,LANARK,SCOTLAND",
+                  "Category": "Birth, Marriage, Death & Parish Records",
+                  "Father's first name(s)": "Samuel",
+                  "Subcategory": "Parish Baptisms",
+                  "Father's last name": "Glasgow",
+                  "Collections from": "Great Britain, Scotland"
+                },
+                "actual_novelty": "first_seen_documentary_entry",
+                "held_event_or_companion_id": "none",
+                "verified_prior_paths": "www/people/glasgow-2721.json; research/Glasgow-2721/findings.md",
+                "interpretation": "Barony John baptised 11 Jan 1795 to Samuel Glasgow/Lillias Stewart. Birth year only, no natal day. Existing Glasgow-2721 same-year but differing locality/possible father is not assigned or concrete exclusion.",
+                "original_register_inspected": false,
+                "new_person": false,
+                "relationship_grade_change": false
+              }
+            ],
+            "actual_novelty": "first_seen_documentary_entry",
+            "new_person_decision": "none; existing identity comparisons retained"
+          },
+          {
+            "lead_group": "Perth cemetery John death 1797",
+            "provider_ids": [
+              "PRS/PERTHCEM/006408"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 8,
+                "provider_record_id": "PRS/PERTHCEM/006408",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/8",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1778",
+                  "death_year_indexed": "1797",
+                  "event_year_indexed": "1797",
+                  "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+                  "location": "Great Britain"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Kirknewton/Midlothian John 1797–98, possible companions",
+            "provider_ids": [
+              "SCOT/OPR/BAP/4477018",
+              "R_686211386",
+              "R_691906701"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 9,
+                "provider_record_id": "SCOT/OPR/BAP/4477018",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/9",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1797",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1798",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Kirknewton & East Calder, Midlothian, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "fmp-record-scot-opr-bap-4478189",
+                "prior_source_paths": "research/canonical_records.json#/1598",
+                "prior_comparison": "Held John explicitly born 30 Dec 1797 to William Glasgow/Cath Neobet at Kirknewton and East Calder, compatible with c.13 Jan 1798 baptism; Glasgow-1326/Glasgow-1223. Verify new row date/parents.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 10,
+                "provider_record_id": "R_686211386",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/10",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1797",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1798",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Midlothian, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "fmp-record-scot-opr-bap-4478189",
+                "prior_source_paths": "research/canonical_records.json#/1598",
+                "prior_comparison": "Broad Midlothian 1797/98 lead could accompany held William/Cath child; no identity claim.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 13,
+                "provider_record_id": "R_691906701",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/13",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1798",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1798",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Midlothian, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "fmp-record-scot-opr-bap-4478189",
+                "prior_source_paths": "research/canonical_records.json#/1598",
+                "prior_comparison": "Broad Midlothian 1798 lead could accompany held William/Cath child; no identity claim.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Ashford John 1798, possible companions",
+            "provider_ids": [
+              "R_949965490",
+              "TNA/RG4/BAP/637183"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 11,
+                "provider_record_id": "R_949965490",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/11",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1798",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1798",
+                  "record_set": "England Births & Baptisms 1538-1975",
+                  "location": "Ashford, Kent, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 12,
+                "provider_record_id": "TNA/RG4/BAP/637183",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/12",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1798",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1798",
+                  "record_set": "England & Wales Non-Conformist Births And Baptisms",
+                  "location": "Ashford, Kent, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Buteshire John 1799",
+            "provider_ids": [
+              "R_685143621"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 14,
+                "provider_record_id": "R_685143621",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/14",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1799",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1799",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Buteshire, Scotland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Edinburgh John burial 1810",
+            "provider_ids": [
+              "SCOT/OPR/BUR/0378432"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 15,
+                "provider_record_id": "SCOT/OPR/BUR/0378432",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/15",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1773",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1810",
+                  "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+                  "location": "Edinburgh, Midlothian"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Sunderland John 1811, possible later baptism",
+            "provider_ids": [
+              "R_957263505"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 16,
+                "provider_record_id": "R_957263505",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/16",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1798",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1811",
+                  "record_set": "England Births & Baptisms 1538-1975",
+                  "location": "Sunderland, Durham, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Edinburgh John burial 1833",
+            "provider_ids": [
+              "SCOT/OPR/BUR/0442975"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 17,
+                "provider_record_id": "SCOT/OPR/BUR/0442975",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/17",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1796",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1833",
+                  "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+                  "location": "Edinburgh, Midlothian"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Racavan John death 1836",
+            "provider_ids": [
+              "IRE/BMD/D/ANT/202500373"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 18,
+                "provider_record_id": "IRE/BMD/D/ANT/202500373",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/18",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "1836",
+                  "event_year_indexed": "1836",
+                  "record_set": "Antrim Cemetery Records",
+                  "location": "Racavan, Antrim, Ireland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Edinburgh John death/burial 1853, possible companions",
+            "provider_ids": [
+              "SCOT/OPR/BUR/1594695",
+              "SCOT/OPR/BUR/1608920"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 19,
+                "provider_record_id": "SCOT/OPR/BUR/1594695",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/19",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1783",
+                  "death_year_indexed": "1853",
+                  "event_year_indexed": "1853",
+                  "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+                  "location": "Edinburgh, Midlothian"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 20,
+                "provider_record_id": "SCOT/OPR/BUR/1608920",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/20",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1783",
+                  "death_year_indexed": "1853",
+                  "event_year_indexed": "1853",
+                  "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+                  "location": "Edinburgh, Midlothian"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Manchester/York John death 1866, candidate companion reports",
+            "provider_ids": [
+              "R_104260145210",
+              "R_104260084241",
+              "R_106286701097",
+              "BMD/D/1866/2/AZ/000130/127",
+              "GBOR/MISCBMDS/DEA/000897892/1",
+              "GBPRS/D/51055003/1",
+              "GBPRS/D/51018252/1"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 21,
+                "provider_record_id": "R_104260145210",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/21",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1866",
+                  "record_set": "England, Newspaper Death Notices",
+                  "location": "Manchester, Lancashire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 22,
+                "provider_record_id": "R_104260084241",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/22",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1866",
+                  "record_set": "England, Newspaper Death Notices",
+                  "location": "Manchester, Lancashire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 23,
+                "provider_record_id": "R_106286701097",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/23",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1866",
+                  "record_set": "England, Newspaper Death Notices",
+                  "location": "York, Yorkshire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 24,
+                "provider_record_id": "BMD/D/1866/2/AZ/000130/127",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/24",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "1866",
+                  "event_year_indexed": "1866",
+                  "record_set": "England & Wales Deaths 1837-2007",
+                  "location": "Manchester, Lancashire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 25,
+                "provider_record_id": "GBOR/MISCBMDS/DEA/000897892/1",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/25",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "1866",
+                  "event_year_indexed": "1866",
+                  "record_set": "Lancashire Burials",
+                  "location": "Manchester, Lancashire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 26,
+                "provider_record_id": "GBPRS/D/51055003/1",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/26",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "1866",
+                  "event_year_indexed": "1866",
+                  "record_set": "Manchester Cemetery Records",
+                  "location": "Lancashire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 27,
+                "provider_record_id": "GBPRS/D/51018252/1",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/27",
+                "search_fields": {
+                  "name": "John Glasgow",
+                  "birth_year_indexed": "1766",
+                  "death_year_indexed": "1866",
+                  "event_year_indexed": "1866",
+                  "record_set": "Manchester Cemetery Records",
+                  "location": "Lancashire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "John Bowes Glasgow 1792",
+            "provider_ids": [
+              "R_693420096"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 28,
+                "provider_record_id": "R_693420096",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/28",
+                "search_fields": {
+                  "name": "John Bowes Glasgow",
+                  "birth_year_indexed": "1792",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1792",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Forfarshire (Angus), Scotland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Chertsey John James burial 1789, possible companions",
+            "provider_ids": [
+              "PRS/SURREY/BUR/0349588",
+              "BMD/NBI/15581721"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 29,
+                "provider_record_id": "PRS/SURREY/BUR/0349588",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/29",
+                "search_fields": {
+                  "name": "John James Glasgow",
+                  "birth_year_indexed": "1789",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1789",
+                  "record_set": "Surrey Burials",
+                  "location": "Chertsey, St Peter, Surrey, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 30,
+                "provider_record_id": "BMD/NBI/15581721",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/30",
+                "search_fields": {
+                  "name": "John James Glasgow",
+                  "birth_year_indexed": "1789",
+                  "death_year_indexed": "1789",
+                  "event_year_indexed": "1789",
+                  "record_set": "National Burial Index For England & Wales",
+                  "location": "Chertsey, Surrey, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Judith Glasgow Barbados 1798",
+            "provider_ids": [
+              "R_791034477"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 31,
+                "provider_record_id": "R_791034477",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/31",
+                "search_fields": {
+                  "name": "Judith Glasgow",
+                  "birth_year_indexed": "1798",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1798",
+                  "record_set": "Caribbean Birth & Baptism Index 1590-1928",
+                  "location": "Barbados"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Judith H Glasgow Pennsylvania death 1812",
+            "provider_ids": [
+              "US/BMD/PENN-BUR/00346206"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 32,
+                "provider_record_id": "US/BMD/PENN-BUR/00346206",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/32",
+                "search_fields": {
+                  "name": "Judith H Glasgow",
+                  "birth_year_indexed": "1767",
+                  "death_year_indexed": "1812",
+                  "event_year_indexed": "1812",
+                  "record_set": "Historical Society Of Pennsylvania, Deaths & Burials",
+                  "location": "Chester, Pennsylvania, United States"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Katherine Glasgow Ayrshire 1727, possible companions",
+            "provider_ids": [
+              "R_688618312",
+              "R_685316210"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 33,
+                "provider_record_id": "R_688618312",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/33",
+                "search_fields": {
+                  "name": "Katherine Glasgow",
+                  "birth_year_indexed": "1727",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1727",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Ayrshire, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "SCOT/OPR/BAP/3574234",
+                "prior_source_paths": "research/Glasgow-1472/findings.md; research/Glasgow-1055/findings.md",
+                "prior_comparison": "Held Katherine Glasgow baptism 3 Sep 1727 Irvine; identified Glasgow-1472. Compare exact date/parish/parents.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 34,
+                "provider_record_id": "R_685316210",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/34",
+                "search_fields": {
+                  "name": "Katherine Glasgow",
+                  "birth_year_indexed": "1727",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1727",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Ayrshire, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "SCOT/OPR/BAP/3574234",
+                "prior_source_paths": "research/Glasgow-1472/findings.md; research/Glasgow-1055/findings.md",
+                "prior_comparison": "Second 1727 Ayrshire lead may be companion to held Katherine Irvine baptism; verify literal fields.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Katherine Glasgow Ayrshire 1749, possible companions",
+            "provider_ids": [
+              "R_688618614",
+              "R_685315083"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 35,
+                "provider_record_id": "R_688618614",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/35",
+                "search_fields": {
+                  "name": "Katherine Glasgow",
+                  "birth_year_indexed": "1749",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1749",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Ayrshire, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "held-e-9b8c5b887b55; SCOT/OPR/BAP/3575702",
+                "prior_source_paths": "research/canonical_records.json#/868; research/Glasgow-1417/findings.md",
+                "prior_comparison": "Held Katherine Glasgow baptism 3 Sep 1749 Irvine, father Michael Glasgow; Glasgow-1417. Compare exact fields.",
+                "new_literal_receipt_needed": true
+              },
+              {
+                "row_index": 36,
+                "provider_record_id": "R_685315083",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/36",
+                "search_fields": {
+                  "name": "Katherine Glasgow",
+                  "birth_year_indexed": "1749",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1749",
+                  "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+                  "location": "Ayrshire, Scotland"
+                },
+                "preexisting_event_status": "candidate_existing_event",
+                "prior_record_or_source_id": "held-e-9b8c5b887b55; SCOT/OPR/BAP/3575702",
+                "prior_source_paths": "research/canonical_records.json#/868; research/Glasgow-1417/findings.md",
+                "prior_comparison": "Second 1749 Ayrshire lead may be companion to held Katherine Irvine baptism; verify literal fields.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Lawrence Glasgow Cheshire marriage 1777",
+            "provider_ids": [
+              "GBPRS/M/737045372/1"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 37,
+                "provider_record_id": "GBPRS/M/737045372/1",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/37",
+                "search_fields": {
+                  "name": "Lawrence Glasgow",
+                  "birth_year_indexed": "1747",
+                  "death_year_indexed": "—",
+                  "event_year_indexed": "1777",
+                  "record_set": "Cheshire Marriage Licence Bonds And Allegations 1606-1905",
+                  "location": "Saint Michael, Cheshire, England"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Letitia Glasgow Ballymoney death 1871",
+            "provider_ids": [
+              "IRE/BMD/D/617348041"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 38,
+                "provider_record_id": "IRE/BMD/D/617348041",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/38",
+                "search_fields": {
+                  "name": "Letitia Glasgow",
+                  "birth_year_indexed": "1790",
+                  "death_year_indexed": "1871",
+                  "event_year_indexed": "1871",
+                  "record_set": "Irish Deaths 1864 - 1958",
+                  "location": "Ballymoney, Antrim & Londonderry (Derry), Ireland"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          },
+          {
+            "lead_group": "Lord Glasgow New York death 1869",
+            "provider_ids": [
+              "US/BMD/NEWYORKDEATHS/90988"
+            ],
+            "grouping_status": "tentative_search_row_cluster_only; split_or_merge_after_transcript",
+            "entries": [
+              {
+                "row_index": 39,
+                "provider_record_id": "US/BMD/NEWYORKDEATHS/90988",
+                "search_row_pointer": "/tmp/fmp-pages22-23-rows.json#/39",
+                "search_fields": {
+                  "name": "Lord Glasgow",
+                  "birth_year_indexed": "1792",
+                  "death_year_indexed": "1869",
+                  "event_year_indexed": "1869",
+                  "record_set": "New York City Death Notices, 1835-1880",
+                  "location": "New York, United States"
+                },
+                "preexisting_event_status": "unresolved_lead",
+                "prior_record_or_source_id": null,
+                "prior_source_paths": null,
+                "prior_comparison": "No exact provider ID in held canonical rows or approved older full receipt JSON; search-row name/year/place alone does not establish first-seen fact, person or event.",
+                "new_literal_receipt_needed": true
+              }
+            ],
+            "actual_novelty": "pending_literal_new_fields",
+            "new_person_decision": "none"
+          }
+        ],
+        "novelty_rule": "Provider ID novelty is not historical-event, fact, or person novelty. All groupings and event comparisons are provisional until inspected transcript fields. Missing matching profile is not a concrete exclusion or new-person warrant.",
+        "available_eight_conclusion": [
+          {
+            "group": "Bathgate 1783",
+            "status": "held event, conflicting derivative birth date 29 Jun vs held 7 Jun; baptism 6 Jul aligned"
+          },
+          {
+            "group": "Wiston & Roberton 1784",
+            "status": "one first-seen entry, two derivative receipts; child/adult profile unassigned"
+          },
+          {
+            "group": "Kirknewton 1790",
+            "status": "held event, birth/baptism date-role discrepancy across derivatives; Kirknewton residence added"
+          },
+          {
+            "group": "Kilmarnock 1791",
+            "status": "held event, new occupation/residence/reference detail"
+          },
+          {
+            "group": "Richmond Yorkshire 1795",
+            "status": "first-seen entry; identity held"
+          },
+          {
+            "group": "Barony 1795",
+            "status": "first-seen entry; identity held"
+          }
+        ]
+      },
+      "next_provider_id": "PRS/PERTHCEM/006408",
+      "resource_checkpoint": {
+        "memory_pressure_level": 2,
+        "temporary_native_tab_closed": 236298129,
+        "personal_tabs_preserved": [
+          236297975,
+          236298062,
+          236298086,
+          236298127
+        ],
+        "browser_process_launched": false,
+        "original_registers_inspected": 0
+      },
+      "notes": "Provisional file-based identity/event review completed for eight saved literal receipts. No new canonical rows, person amendments or public findings published in this checkpoint. Complete remaining32detail captures then review and publish pages22–23 as one coherent batch. Reuse saved fields; no refetch."
     }
   }
 }
