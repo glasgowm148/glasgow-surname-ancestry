@@ -29052,23 +29052,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3158/father-confidence-2026-10-22h.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-3158/glendinning-memorial-2026-10-24.wiki",
       "findings_path": "research/Glasgow-3158/findings.md",
-      "summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "97% (confident) for the existing William Glasgow-1675 father relationship. Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book.",
+      "work_queue_summary": "97% (confident) for the existing William Glasgow-1675 father relationship. Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1675",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 88,
+          "previous_probability_percent": 88,
+          "probability_percent": 97,
           "assertion_id": "C-coverage-20261022h-glasgow-3158-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+          "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+          "relative_name": "William Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-1675",
+          "previous_research_status": "probable"
         }
       ],
       "preserve_captured_detail": false,
@@ -29076,7 +29079,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+      "significance": 61
     },
     "Glasgow-3899": {
       "profile_id": "Glasgow-3899",
@@ -29447,23 +29451,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3146/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-3146/glendinning-memorial-2026-10-24.wiki",
       "findings_path": "research/Glasgow-3146/findings.md",
-      "summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "92% (confident) for the existing William Glasgow-1675 father relationship. The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources.",
+      "work_queue_summary": "92% (confident) for the existing William Glasgow-1675 father relationship. The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1675",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 83,
+          "previous_probability_percent": 83,
+          "probability_percent": 92,
           "assertion_id": "C-coverage-20261022i-glasgow-3146-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+          "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+          "relative_name": "William Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-1675",
+          "previous_research_status": "probable"
         }
       ],
       "preserve_captured_detail": false,
@@ -29471,7 +29478,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+      "significance": 61
     },
     "Glasgow-808": {
       "profile_id": "Glasgow-808",
@@ -29971,11 +29979,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3147/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-3147/glendinning-memorial-2026-10-24.wiki",
       "findings_path": "research/Glasgow-3147/findings.md",
-      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "86% (probable) for the existing William Glasgow-1675 father relationship. The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them.",
+      "work_queue_summary": "86% (probable) for the existing William Glasgow-1675 father relationship. The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -29983,11 +29991,14 @@
           "relative_id": "Glasgow-1675",
           "status": "probable",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 82,
+          "previous_probability_percent": 82,
+          "probability_percent": 86,
           "assertion_id": "C-coverage-20261022i-glasgow-3147-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+          "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+          "relative_name": "William Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-1675",
+          "previous_research_status": "probable"
         }
       ],
       "preserve_captured_detail": false,
@@ -29995,7 +30006,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+      "significance": 52
     },
     "Glasgow-1681": {
       "profile_id": "Glasgow-1681",
@@ -32050,11 +32062,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3151/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-3151/glendinning-memorial-2026-10-24.wiki",
       "findings_path": "research/Glasgow-3151/findings.md",
-      "summary": "Review existing father at 77% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 77% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "1903 Glendinning memorial explicitly names sonAdam, but adult1834/1840 identity and Ohio-bornAdam2387 rival remain unresolved. FatherWilliam1675 stays77% probable; no merge/mother/vital change.",
+      "work_queue_summary": "1903 Glendinning memorial explicitly names sonAdam, but adult1834/1840 identity and Ohio-bornAdam2387 rival remain unresolved. FatherWilliam1675 stays77% probable; no merge/mother/vital change.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -32074,7 +32086,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json"
     },
     "Glasgow-2185": {
       "profile_id": "Glasgow-2185",
@@ -35169,11 +35181,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-3150/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-3150/glendinning-memorial-2026-10-24.wiki",
       "findings_path": "research/Glasgow-3150/findings.md",
-      "summary": "Review existing father at 84% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 84% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "88% (probable) for the existing William Glasgow-1675 father relationship. The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected.",
+      "work_queue_summary": "88% (probable) for the existing William Glasgow-1675 father relationship. The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -35181,11 +35193,14 @@
           "relative_id": "Glasgow-1675",
           "status": "probable",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 84,
+          "previous_probability_percent": 84,
+          "probability_percent": 88,
           "assertion_id": "C-coverage-20261022i-glasgow-3150-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+          "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+          "relative_name": "William Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-1675",
+          "previous_research_status": "probable"
         }
       ],
       "preserve_captured_detail": false,
@@ -35193,7 +35208,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+      "significance": 52
     },
     "Glasgow-2229": {
       "profile_id": "Glasgow-2229",
@@ -36830,23 +36846,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2825/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-2825/glendinning-memorial-2026-10-24.wiki",
       "findings_path": "research/Glasgow-2825/findings.md",
-      "summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 85% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "95% (confident) for the existing William Glasgow-1675 father relationship. The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone.",
+      "work_queue_summary": "95% (confident) for the existing William Glasgow-1675 father relationship. The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1675",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 85,
+          "previous_probability_percent": 85,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022i-glasgow-2825-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+          "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+          "relative_name": "William Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-1675",
+          "previous_research_status": "probable"
         }
       ],
       "preserve_captured_detail": false,
@@ -36854,7 +36873,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+      "significance": 61
     },
     "Glasgow-1732": {
       "profile_id": "Glasgow-1732",
@@ -41028,6 +41048,23 @@
       "pending": true,
       "biography_rechecked_at": "2026-10-23",
       "work_queue_summary": "Original 1725 deed: collective Glasgows are adjoining occupiers, with no personal forename. Preserve the qualified traditional pedigree, Scottish comparisons and full prior biography."
+    },
+    "Glasgow-1675": {
+      "significance": 68,
+      "summary": "Inspected1903 Glendinning memorial PDFp17 names William/Nancy’s eight children; preserve existing News-Letter/Mercury and1858 amendments. William father remainsUnknown/unrated; no list-order dates.",
+      "work_queue_summary": "Inspected1903 Glendinning memorial PDFp17 names William/Nancy’s eight children; preserve existing News-Letter/Mercury and1858 amendments. William father remainsUnknown/unrated; no list-order dates.",
+      "draft_path": "research/Glasgow-1675/glendinning-memorial-2026-10-24.wiki",
+      "preserve_captured_detail": false,
+      "preservation_review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+      "manual_update": true,
+      "registered_update": true,
+      "biography_rechecked_at": "2026-10-24",
+      "reviewed_narrative_reduction": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "status": "OPEN",
+      "pending": true
     }
   },
   "reviewed_on": "2026-10-22",

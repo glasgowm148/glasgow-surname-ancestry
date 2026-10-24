@@ -23691,22 +23691,66 @@
   },
   {
     "record_id": "held-e-b1e03fda0e03",
-    "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "Space:A_Brief_Memorial_of_the_Deceased_Members_of_the_Glendinning_Family",
-    "source_title": "Space:A_Brief_Memorial_of_the_Deceased_Members_of_the_Glendinning_Family",
-    "source_url": "https://www.wikitree.com/wiki/Glasgow-3158",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "record_type": "Printed family account",
+    "date": "1903 publication; family described retrospectively",
+    "place": "Killycorragh, County Tyrone; Sandusky and Belle Center, Ohio",
+    "association": "William Glasgow and Nancy Glendinning’s named eight-child household",
+    "source_title": "Unsigned, A Brief Memorial of the Deceased Members of the Glendinning Family, from the Siege of Derry to the Present Time (1903), Glasgow–Glendinning Family, PDF p.17 (no printed page number)",
+    "source_url": "https://glendinning.name/history/irish_glendinning.pdf#page=17",
+    "source_type": "Retrospective compiled family memorial",
+    "source_status": "1903 cover and complete historical family paragraph visually checked 24 October 2026",
+    "status": "Named family roles verified; each later adult identity separately qualified",
     "profiles": {
       "Glasgow-3158": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glasgow-3146": {
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glasgow-2825": {
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glasgow-3150": {
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glasgow-3147": {
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glasgow-1675": {
+        "role": "Named father; his own father remains unknown"
+      },
+      "Glasgow-3151": {
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glasgow-3148": {
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glasgow-3149": {
+        "role": "Named child role; full profile identification separately assessed"
+      },
+      "Glendinning-340": {
+        "role": "Named mother in the historical family account"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review8-2026-10-22.json"
+    "note": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+    "provenance": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+    "record_category": "Family history",
+    "year": 1903,
+    "country": "Ireland and United States",
+    "source_quality": "family_memoir",
+    "historical_basis": {
+      "latest_birth_year": 1890,
+      "source_url": "https://glendinning.name/history/irish_glendinning.pdf#page=17",
+      "reason": "The historical paragraph lists the eight children before their mother’s explicitly dated20March1890death. This is a conservative privacy bound, not a new individual birth estimate; retained profile birth dates are1824–1844."
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "analysis_links": [
+      {
+        "label": "Current household study",
+        "href": "/branches/research-irish-derryloran/#glendinning-family-confidence"
+      }
+    ]
   },
   {
     "record_id": "held-e-f8af8c9e159d",

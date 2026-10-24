@@ -56806,6 +56806,131 @@
       "new_mother_attachments": 0,
       "new_original_inspections": 0,
       "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "glendinning-fathers-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The actual 1903 Glendinning memorial supports five higher existing father assessments: Mary 88→97%, Matilda 83→92%, Alexander 85→95%, Benjamin 84→88%, Jane 82→86%. Three now cross into confident; no new father is attached.",
+      "qualification": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+      "people": [
+        {
+          "id": "Glasgow-3158",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3158.html",
+          "role": "Existing father-family account"
+        },
+        {
+          "id": "Glasgow-3146",
+          "name": "Matilda (Glasgow) Ewing",
+          "url": "/people/glasgow-3146.html",
+          "role": "Existing father-family account"
+        },
+        {
+          "id": "Glasgow-2825",
+          "name": "Alexander Fleming Glasgow",
+          "url": "/people/glasgow-2825.html",
+          "role": "Existing father-family account"
+        },
+        {
+          "id": "Glasgow-3150",
+          "name": "Benjamin Glasgow",
+          "url": "/people/glasgow-3150.html",
+          "role": "Existing father-family account"
+        },
+        {
+          "id": "Glasgow-3147",
+          "name": "Jane Glasgow",
+          "url": "/people/glasgow-3147.html",
+          "role": "Existing father-family account"
+        },
+        {
+          "id": "Glasgow-1675",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1675.html",
+          "role": "Existing father-family account"
+        },
+        {
+          "id": "Glasgow-3151",
+          "name": "Adam Glasgow",
+          "url": "/people/glasgow-3151.html",
+          "role": "Existing father-family account"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1903 memorial,Glasgow–Glendinning Family,PDFp.17",
+          "url": "https://glendinning.name/history/irish_glendinning.pdf#page=17"
+        }
+      ],
+      "detail_url": "/branches/research-irish-derryloran/#glendinning-family-confidence",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3158",
+          "relative": "Glasgow-1675",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 88,
+          "probability_percent": 97,
+          "explanation": "Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book.",
+          "previous_status_provenance": "Saved 22 October individual probable assessment and exact percentage; existing father attachment retained."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3146",
+          "relative": "Glasgow-1675",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 83,
+          "probability_percent": 92,
+          "explanation": "The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources.",
+          "previous_status_provenance": "Saved 22 October individual probable assessment and exact percentage; existing father attachment retained."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2825",
+          "relative": "Glasgow-1675",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 85,
+          "probability_percent": 95,
+          "explanation": "The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone.",
+          "previous_status_provenance": "Saved 22 October individual probable assessment and exact percentage; existing father attachment retained."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3150",
+          "relative": "Glasgow-1675",
+          "action": "regrade",
+          "before": "probable",
+          "after": "probable",
+          "previous_probability_percent": 84,
+          "probability_percent": 88,
+          "explanation": "The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected.",
+          "previous_status_provenance": "Saved 22 October individual probable assessment and exact percentage; existing father attachment retained."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3147",
+          "relative": "Glasgow-1675",
+          "action": "regrade",
+          "before": "probable",
+          "after": "probable",
+          "previous_probability_percent": 82,
+          "probability_percent": 86,
+          "explanation": "The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them.",
+          "previous_status_provenance": "Saved 22 October individual probable assessment and exact percentage; existing father attachment retained."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+        "research/Glasgow-1675/glendinning-memorial-2026-10-24.md"
+      ]
     }
   ]
 }

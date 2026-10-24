@@ -1,0 +1,374 @@
+{
+  "reviewed": "2026-10-24",
+  "source_url": "https://glendinning.name/history/irish_glendinning.pdf#page=17",
+  "printed_source": "Unsigned, A Brief Memorial of the Deceased Members of the Glendinning Family, from the Siege of Derry to the Present Time (1903)",
+  "source_reading": {
+    "cover": "1903 date visually verified",
+    "page": "PDF p.17, no printed page number",
+    "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family.",
+    "scope": "Only the historical narrative and cover were used. Later annotated family tables were not used or published.",
+    "pdf_sha256": "c9913cc1206859c2d85b2741391d33877e36f5f749d065c56804b35ffd1a6169",
+    "printed_page_visually_inspected": true,
+    "original_parish_register_inspected": false
+  },
+  "limitations": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+  "relationship_changes": [
+    {
+      "subject": "Glasgow-3158",
+      "relative": "Glasgow-1675",
+      "assertion_id": "C-coverage-20261022h-glasgow-3158-father",
+      "before": "probable",
+      "before_percent": 88,
+      "after": "confident",
+      "after_percent": 97,
+      "basis": "Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book.",
+      "new_attachment": false
+    },
+    {
+      "subject": "Glasgow-3146",
+      "relative": "Glasgow-1675",
+      "assertion_id": "C-coverage-20261022i-glasgow-3146-father",
+      "before": "probable",
+      "before_percent": 83,
+      "after": "confident",
+      "after_percent": 92,
+      "basis": "The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources.",
+      "new_attachment": false
+    },
+    {
+      "subject": "Glasgow-2825",
+      "relative": "Glasgow-1675",
+      "assertion_id": "C-coverage-20261022i-glasgow-2825-father",
+      "before": "probable",
+      "before_percent": 85,
+      "after": "confident",
+      "after_percent": 95,
+      "basis": "The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone.",
+      "new_attachment": false
+    },
+    {
+      "subject": "Glasgow-3150",
+      "relative": "Glasgow-1675",
+      "assertion_id": "C-coverage-20261022i-glasgow-3150-father",
+      "before": "probable",
+      "before_percent": 84,
+      "after": "probable",
+      "after_percent": 88,
+      "basis": "The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected.",
+      "new_attachment": false
+    },
+    {
+      "subject": "Glasgow-3147",
+      "relative": "Glasgow-1675",
+      "assertion_id": "C-coverage-20261022i-glasgow-3147-father",
+      "before": "probable",
+      "before_percent": 82,
+      "after": "probable",
+      "after_percent": 86,
+      "basis": "The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them.",
+      "new_attachment": false
+    }
+  ],
+  "profiles": {
+    "Glasgow-3158": {
+      "current_sha256": "a0c7eadb1a1d72c6d99d9ed816e126ea77922e903b9d398356e4325a72f7131c",
+      "proposed_sha256": "6a0c15cfc283b4d928657b0d6aea1eb6e1b63943504c02c3b730b838a6630817",
+      "prior_pending_draft_path": "research/Glasgow-3158/father-confidence-2026-10-22h.wiki",
+      "prior_pending_sha256": "3910ab1aeb76547bf386bc72e6db16c5f725b8ccefb1192bdc1c85575bacde1e",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-3158/glendinning-memorial-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Captured and prior pending source identities preserved; prior grades retained as history.",
+      "normalization_review": {
+        "source_and_prior_ref_bodies_preserved": true,
+        "changes": "Whitespace normalization and bare source URL converted to a labeled WikiTree link only.",
+        "substantive_text_unchanged": true
+      }
+    },
+    "Glasgow-3146": {
+      "current_sha256": "7f25020603fe8285005efc1ecc052da9d825115d09fefa3d9b9e40eacc389c5c",
+      "proposed_sha256": "3829cc7e6bb4a8a54af658dc158cac657c4b3b9e7baf4845c53c3e2313b081b6",
+      "prior_pending_draft_path": "research/Glasgow-3146/father-confidence-2026-10-22i.wiki",
+      "prior_pending_sha256": "2277d046de0bdac49d436c2831603e14eff67cd5273c25f9f33de4ef3e9fe728",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-3146/glendinning-memorial-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Captured and prior pending source identities preserved; prior grades retained as history.",
+      "normalization_review": {
+        "source_and_prior_ref_bodies_preserved": true,
+        "changes": "Whitespace normalization and bare source URL converted to a labeled WikiTree link only.",
+        "substantive_text_unchanged": true
+      }
+    },
+    "Glasgow-2825": {
+      "current_sha256": "fe2d91ed6a4dd063523872b571ddadd7d92df2c1a6450cccdf07575166671db9",
+      "proposed_sha256": "ce660d9ce112b41d977e8fb2fa3629a7dda35253d6a1b42577fc0e710bddf183",
+      "prior_pending_draft_path": "research/Glasgow-2825/father-confidence-2026-10-22i.wiki",
+      "prior_pending_sha256": "6b48027ed683b2a837eda67ff820219a5574160a5dbb65be7cb0545f790810ca",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-2825/glendinning-memorial-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Captured and prior pending source identities preserved; prior grades retained as history.",
+      "normalization_review": {
+        "source_and_prior_ref_bodies_preserved": true,
+        "changes": "Whitespace normalization and bare source URL converted to a labeled WikiTree link only.",
+        "substantive_text_unchanged": true
+      }
+    },
+    "Glasgow-3150": {
+      "current_sha256": "ceca25cd3dc5612eabb17693d0e10d88596acb3ad7e86a79e815188794fb2d29",
+      "proposed_sha256": "1bee214041ae364b8b5f898c063a0bc2fb11e3e74c53ddd274390123ed8c7f2c",
+      "prior_pending_draft_path": "research/Glasgow-3150/father-confidence-2026-10-22i.wiki",
+      "prior_pending_sha256": "23e0c0e5c54db56bde5a27d649a2e2b66f42f203415de3e98a5e4b57e050ae6f",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-3150/glendinning-memorial-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Captured and prior pending source identities preserved; prior grades retained as history.",
+      "normalization_review": {
+        "source_and_prior_ref_bodies_preserved": true,
+        "changes": "Whitespace normalization and bare source URL converted to a labeled WikiTree link only.",
+        "substantive_text_unchanged": true
+      }
+    },
+    "Glasgow-3147": {
+      "current_sha256": "fe7d06a07f7415d840dcc61e838a0f70ddfd204e8507b1c3464c3a10aa0c2785",
+      "proposed_sha256": "c089ce80dc772a8f34583637ccb033f658f14893be0a1e03b52f4008736bdabb",
+      "prior_pending_draft_path": "research/Glasgow-3147/father-confidence-2026-10-22i.wiki",
+      "prior_pending_sha256": "369d62bf616059621a68de888ee54a473a77d0e67036cf01ce0f45a5b3710ae5",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-3147/glendinning-memorial-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Captured and prior pending source identities preserved; prior grades retained as history.",
+      "normalization_review": {
+        "source_and_prior_ref_bodies_preserved": true,
+        "changes": "Whitespace normalization and bare source URL converted to a labeled WikiTree link only.",
+        "substantive_text_unchanged": true
+      }
+    },
+    "Glasgow-1675": {
+      "current_sha256": "51486c7bc627e4bb56c11d6506f0a620e2392aa7142a16cb7a58a67eec2df671",
+      "proposed_sha256": "dc9d4382a388df3fa8beedfc56099a8a2322b9991c617aeca17fec0cdb45ef7a",
+      "prior_pending_draft_path": "research/william-newspaper-profile-drafts-2026-10-04/Glasgow-1675.wiki",
+      "prior_pending_sha256": "1144ca208bc52a566bda87e98cac6917fc5456df9c5b0194dc67dcce015a07f7",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1675/glendinning-memorial-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Captured and prior pending source identities preserved; prior grades retained as history.",
+      "normalization_review": {
+        "source_and_prior_ref_bodies_preserved": true,
+        "changes": "Whitespace normalization and bare source URL converted to a labeled WikiTree link only.",
+        "substantive_text_unchanged": true
+      }
+    },
+    "Glasgow-3151": {
+      "current_sha256": "ca44be08bca05d1e3d70b4ad9da0429ea1cabfb83f173d28f57c59e2b1b4f824",
+      "proposed_sha256": "eee5e178c4d38be8559334cbe03d2092612100f7456fe259dd4be9eb6a79ef9c",
+      "prior_pending_draft_path": "research/Glasgow-3151/father-confidence-2026-10-22i.wiki",
+      "prior_pending_sha256": "1cbdb2702cc984cf69068900d12b89514805f154f25a3063608f50900a5c6499",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-3151/glendinning-memorial-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Captured and prior pending source identities preserved; prior grades retained as history.",
+      "normalization_review": {
+        "source_and_prior_ref_bodies_preserved": true,
+        "changes": "Whitespace normalization and bare source URL converted to a labeled WikiTree link only.",
+        "substantive_text_unchanged": true
+      }
+    }
+  },
+  "verification": {
+    "three_tree_models_agree": true,
+    "all_father_ids_mothers_vitals_unchanged": true,
+    "five_exact_confidence_changes": true,
+    "three_confident_edges_added": true,
+    "prior_event_history_preserved": true,
+    "unknown_working_supported_unchanged": true,
+    "other_grades_unchanged_readiness_only": true,
+    "metric_changes": {
+      "1500": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1550": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1600": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1650": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1700": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1750": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1800": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1850": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 3,
+          "component_delta": -3
+        }
+      }
+    },
+    "full_compact_regrade_badges_agree": true,
+    "seven_complete_drafts_sources_preserved": true,
+    "ten_rendered_people_verified": true,
+    "source_documents": [
+      "s-55c7366d6f89741a"
+    ],
+    "http_routes_checked": 15,
+    "latest_finding_path": "www/latest-findings/index.html",
+    "study_and_edition_visible": true,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "stale_asset_references": 0,
+    "live_published": false
+  },
+  "raw_capture_published": false,
+  "live_published": false,
+  "dispatch_readiness": [
+    {
+      "assertion_id": "C-working-20261016-kilbirnie-john-father",
+      "pair": null,
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Reviewed held family roles; signed-in FamilySearch starting record XTVY-VL9 showed Image Unavailable. No 1689 original was inspected.",
+        "next_test": "Read Jannet’s 1 February 1689 Kilwinning baptism, parish599 frame75, for occupation, parish and witnesses; a missing Mr alone cannot exclude the minister.",
+        "resume_when": "The actual1689 entry or a different specific parent/identity record is available."
+      }
+    },
+    {
+      "assertion_id": "C-working-20261020-edward1557-murieston-george",
+      "pair": null,
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Reconciled the existing20October Fisherrow inference and18October archive follow-up; the manuscript sasines and NLS court transcript remain unread. No new kin statement was found.",
+        "next_test": "Read RS25/9/135, RS25/10/171 and RS25/33/258 for Edward’s capacity and kin wording, or the relevant MS.3724/3725 court entry.",
+        "resume_when": "A manuscript or court-text reading is available; a repeated printed index search is not a new test."
+      }
+    },
+    {
+      "assertion_id": null,
+      "pair": [
+        "Glasgow-3107",
+        "Glasgow-1084"
+      ],
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Signed-in FamilySearch1663 marriage record XTL8-X6D showed No Image Available. The held18October Annah1652 baptism is a real child occurrence, not proof that James was her sibling.",
+        "next_test": "Read James Glasgow/Agnes Waitte’s18June1663 Polwarth original,OPR754/10/62,FR37, for origin, occupation, parents or cautioners.",
+        "resume_when": "The original marriage entry or another specific household bridge is available."
+      }
+    }
+  ],
+  "prior_canonical_source": {
+    "record_id": "held-e-b1e03fda0e03",
+    "record_type": "Previously held source citation",
+    "date": null,
+    "place": null,
+    "association": "Space:A_Brief_Memorial_of_the_Deceased_Members_of_the_Glendinning_Family",
+    "source_title": "Space:A_Brief_Memorial_of_the_Deceased_Members_of_the_Glendinning_Family",
+    "source_url": "https://www.wikitree.com/wiki/Glasgow-3158",
+    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
+    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "profiles": {
+      "Glasgow-3158": {
+        "role": "Previously cited subject; relationship scope in the father assessment"
+      }
+    },
+    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+    "provenance": "research/ancestry-connections/father-coverage-review8-2026-10-22.json"
+  }
+}

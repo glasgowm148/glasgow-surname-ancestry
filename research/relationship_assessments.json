@@ -4577,6 +4577,13 @@
       "prior_assessment": "Glasgow-1078 attached uncertain; Glasgow-1604 recorded as possible and preferred in prose, with neither selected in the local graph.",
       "basis": "Existing minister chronology and Ayrshire family comparison. No named parent clause or new original inspection.",
       "resolution_note": "One selected uncertain father; old father retained as alternative; no merge, mother assignment or confident upgrade."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reviewed held family roles; signed-in FamilySearch starting record XTVY-VL9 showed Image Unavailable. No 1689 original was inspected.",
+      "next_test": "Read Jannet’s 1 February 1689 Kilwinning baptism, parish599 frame75, for occupation, parish and witnesses; a missing Mr alone cannot exclude the minister.",
+      "resume_when": "The actual1689 entry or a different specific parent/identity record is available."
     }
   },
   {
@@ -16513,6 +16520,13 @@
       "previous_parent_source": "captured_wikitree",
       "alternative_assertion_id": "C-review-20261017-edward1557-father",
       "reason": "Prefer the recorded George of Mureistoun as Edward Glasgow-1557’s uncertain working father at 26%, replacing the 18% Corsankell James selection. The preferred reconstruction makes Edward and James Glasgow-991 brothers. The 1624 Fisherrow index places Edward at the same RS25 9/135 reference as James the tailor and his son Alexander. Edward-1557 is the preferred 1624 identity at 56%; both Edward and the James family have Inveresk children in 1609, and James’s child Eduard supplies a compatible naming echo. A close local family explains this combined association better than the present unsupported Ayrshire-origin route. George is an already recorded older local candidate and James’s selected probable father at 82%; he is not an invented common ancestor. Brothers are the preferred degree for the two contemporary fathers, rather than a proved relationship."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Reconciled the existing20October Fisherrow inference and18October archive follow-up; the manuscript sasines and NLS court transcript remain unread. No new kin statement was found.",
+      "next_test": "Read RS25/9/135, RS25/10/171 and RS25/33/258 for Edward’s capacity and kin wording, or the relevant MS.3724/3725 court entry.",
+      "resume_when": "A manuscript or court-text reading is available; a repeated printed index search is not a new test."
     }
   },
   {
@@ -77521,16 +77535,16 @@
       "Glasgow-3158",
       "Glasgow-1675"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The Glendinning family memorial names Mary as William Glasgow and Nancy Glendinning’s daughter, agreeing with the family’s Ohio move and William’s 1855 Sandusky obituary. Her c.1824 birth is inferred from the memorial’s ordering, not an original dated birth.",
-    "reason": "The Glendinning family memorial names Mary as William Glasgow and Nancy Glendinning’s daughter, agreeing with the family’s Ohio move and William’s 1855 Sandusky obituary. Her c.1824 birth is inferred from the memorial’s ordering, not an original dated birth.",
-    "claim": "Glasgow-1675 remains the selected father of Glasgow-3158, individually assessed 88%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book.",
+    "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book.",
+    "claim": "Glasgow-3158’s existing father William Glasgow-1675 is assessed 97% (confident).",
+    "record_scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+    "limitations": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
     "source_ids": [
       "held-e-b1e03fda0e03"
     ],
@@ -77545,22 +77559,37 @@
         "claim_id": "C-834db2cf292e",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 88,
+        "basis": "The Glendinning family memorial names Mary as William Glasgow and Nancy Glendinning’s daughter, agreeing with the family’s Ohio move and William’s 1855 Sandusky obituary. Her c.1824 birth is inferred from the memorial’s ordering, not an original dated birth.",
+        "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+        "source_ids": [
+          "held-e-b1e03fda0e03"
+        ],
+        "source_basis": "Saved individual assessment before visual verification of the 1903 printed page."
       }
     ],
     "perspectives": {
       "Glasgow-3158": {
         "relationship": "father",
-        "reason": "The Glendinning family memorial names Mary as William Glasgow and Nancy Glendinning’s daughter, agreeing with the family’s Ohio move and William’s 1855 Sandusky obituary. Her c.1824 birth is inferred from the memorial’s ordering, not an original dated birth."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book."
       },
       "Glasgow-1675": {
         "relationship": "daughter",
-        "reason": "The Glendinning family memorial names Mary as William Glasgow and Nancy Glendinning’s daughter, agreeing with the family’s Ohio move and William’s 1855 Sandusky obituary. Her c.1824 birth is inferred from the memorial’s ordering, not an original dated birth."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book."
       }
     },
     "analysis_links": [
       {
         "label": "Father confidence review",
         "href": "/people/glasgow-3158.html#research-findings"
+      },
+      {
+        "label": "Glendinning household and individual father assessments",
+        "href": "/branches/research-irish-derryloran/#glendinning-family-confidence"
       }
     ],
     "provenance": {
@@ -77576,16 +77605,24 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "research_reassessment": {
+        "previous_percent": 88,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+        "printed_page_visually_inspected": true,
+        "original_parish_register_inspected": false
+      },
+      "new_father_attachment": false
     },
     "probability": {
-      "value": 0.88,
-      "basis": "The Glendinning family memorial names Mary as William Glasgow and Nancy Glendinning’s daughter, agreeing with the family’s Ohio move and William’s 1855 Sandusky obituary. Her c.1824 birth is inferred from the memorial’s ordering, not an original dated birth.",
-      "reviewed": "2026-10-22",
+      "value": 0.97,
+      "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. Mary represents the named daughter in the family account itself; there is no separately claimed later adult identity to bridge. Her circa-1824 birth remains an estimate, not a birth date supplied by this book.",
+      "reviewed": "2026-10-24",
       "source_ids": [
         "held-e-b1e03fda0e03"
       ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed."
     }
   },
   {
@@ -78543,18 +78580,19 @@
       "Glasgow-3146",
       "Glasgow-1675"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Matilda’s named William-and-Nancy parent pair, Irish 1826 birth and 1854 Sandusky marriage fit William’s documented migration and death there. Her held obituary description verifies dates but does not quote parents, leaving maternity and paternal attribution dependent on the family reconstruction.",
-    "reason": "Matilda’s named William-and-Nancy parent pair, Irish 1826 birth and 1854 Sandusky marriage fit William’s documented migration and death there. Her held obituary description verifies dates but does not quote parents, leaving maternity and paternal attribution dependent on the family reconstruction.",
-    "claim": "Glasgow-1675 remains the selected father of Glasgow-3146, individually assessed 83%.",
-    "record_scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
-    "limitations": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+    "assessment_date": "2026-10-24",
+    "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources.",
+    "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources.",
+    "claim": "Glasgow-3146’s existing father William Glasgow-1675 is assessed 92% (confident).",
+    "record_scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+    "limitations": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
     "source_ids": [
-      "held-e-bc37b68f9b8c"
+      "held-e-bc37b68f9b8c",
+      "held-e-b1e03fda0e03"
     ],
     "assessment_history": [
       {
@@ -78567,22 +78605,37 @@
         "claim_id": "C-0f2c50d4bdca",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 83,
+        "basis": "Matilda’s named William-and-Nancy parent pair, Irish 1826 birth and 1854 Sandusky marriage fit William’s documented migration and death there. Her held obituary description verifies dates but does not quote parents, leaving maternity and paternal attribution dependent on the family reconstruction.",
+        "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+        "source_ids": [
+          "held-e-bc37b68f9b8c"
+        ],
+        "source_basis": "Saved individual assessment before visual verification of the 1903 printed page."
       }
     ],
     "perspectives": {
       "Glasgow-3146": {
         "relationship": "father",
-        "reason": "Matilda’s named William-and-Nancy parent pair, Irish 1826 birth and 1854 Sandusky marriage fit William’s documented migration and death there. Her held obituary description verifies dates but does not quote parents, leaving maternity and paternal attribution dependent on the family reconstruction."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources."
       },
       "Glasgow-1675": {
         "relationship": "daughter",
-        "reason": "Matilda’s named William-and-Nancy parent pair, Irish 1826 birth and 1854 Sandusky marriage fit William’s documented migration and death there. Her held obituary description verifies dates but does not quote parents, leaving maternity and paternal attribution dependent on the family reconstruction."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources."
       }
     },
     "analysis_links": [
       {
         "label": "Father confidence review",
         "href": "/people/glasgow-3146.html#research-findings"
+      },
+      {
+        "label": "Glendinning household and individual father assessments",
+        "href": "/branches/research-irish-derryloran/#glendinning-family-confidence"
       }
     ],
     "provenance": {
@@ -78598,16 +78651,25 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "research_reassessment": {
+        "previous_percent": 83,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+        "printed_page_visually_inspected": true,
+        "original_parish_register_inspected": false
+      },
+      "new_father_attachment": false
     },
     "probability": {
-      "value": 0.83,
-      "basis": "Matilda’s named William-and-Nancy parent pair, Irish 1826 birth and 1854 Sandusky marriage fit William’s documented migration and death there. Her held obituary description verifies dates but does not quote parents, leaving maternity and paternal attribution dependent on the family reconstruction.",
-      "reviewed": "2026-10-22",
+      "value": 0.92,
+      "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The named daughter Matilda and the existing 22 December 1854 Sandusky marriage to James Ewing fit William’s specific Sandusky household before his 1855 death. The book does not name her husband, so that adult identification still combines sources.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-bc37b68f9b8c"
+        "held-e-bc37b68f9b8c",
+        "held-e-b1e03fda0e03"
       ],
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed."
     }
   },
   {
@@ -79934,14 +79996,15 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Jane’s 1828 birth and named William-and-Nancy family fit the Irish-born sibling sequence and Ohio cemetery context. Her memorial citation is not accompanied by a held parent inscription, so the attachment remains a strong reconstruction.",
-    "reason": "Jane’s 1828 birth and named William-and-Nancy family fit the Irish-born sibling sequence and Ohio cemetery context. Her memorial citation is not accompanied by a held parent inscription, so the attachment remains a strong reconstruction.",
-    "claim": "Glasgow-1675 remains the selected father of Glasgow-3147, individually assessed 82%.",
-    "record_scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
-    "limitations": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+    "assessment_date": "2026-10-24",
+    "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them.",
+    "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them.",
+    "claim": "Glasgow-3147’s existing father William Glasgow-1675 is assessed 86% (probable).",
+    "record_scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+    "limitations": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
     "source_ids": [
-      "held-e-30baf05a0d4e"
+      "held-e-30baf05a0d4e",
+      "held-e-b1e03fda0e03"
     ],
     "assessment_history": [
       {
@@ -79954,22 +80017,37 @@
         "claim_id": "C-e697f7f83fbb",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 82,
+        "basis": "Jane’s 1828 birth and named William-and-Nancy family fit the Irish-born sibling sequence and Ohio cemetery context. Her memorial citation is not accompanied by a held parent inscription, so the attachment remains a strong reconstruction.",
+        "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+        "source_ids": [
+          "held-e-30baf05a0d4e"
+        ],
+        "source_basis": "Saved individual assessment before visual verification of the 1903 printed page."
       }
     ],
     "perspectives": {
       "Glasgow-3147": {
         "relationship": "father",
-        "reason": "Jane’s 1828 birth and named William-and-Nancy family fit the Irish-born sibling sequence and Ohio cemetery context. Her memorial citation is not accompanied by a held parent inscription, so the attachment remains a strong reconstruction."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them."
       },
       "Glasgow-1675": {
         "relationship": "daughter",
-        "reason": "Jane’s 1828 birth and named William-and-Nancy family fit the Irish-born sibling sequence and Ohio cemetery context. Her memorial citation is not accompanied by a held parent inscription, so the attachment remains a strong reconstruction."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them."
       }
     },
     "analysis_links": [
       {
         "label": "Father confidence review",
         "href": "/people/glasgow-3147.html#research-findings"
+      },
+      {
+        "label": "Glendinning household and individual father assessments",
+        "href": "/branches/research-irish-derryloran/#glendinning-family-confidence"
       }
     ],
     "provenance": {
@@ -79985,16 +80063,25 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "research_reassessment": {
+        "previous_percent": 82,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+        "printed_page_visually_inspected": true,
+        "original_parish_register_inspected": false
+      },
+      "new_father_attachment": false
     },
     "probability": {
-      "value": 0.82,
-      "basis": "Jane’s 1828 birth and named William-and-Nancy family fit the Irish-born sibling sequence and Ohio cemetery context. Her memorial citation is not accompanied by a held parent inscription, so the attachment remains a strong reconstruction.",
-      "reviewed": "2026-10-22",
+      "value": 0.86,
+      "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a daughter Jane in this exact family. Identification with the 1828–1903 memorial remains less secure because no held spouse, parental inscription or explicit adult sibling clause bridges them.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-30baf05a0d4e"
+        "held-e-30baf05a0d4e",
+        "held-e-b1e03fda0e03"
       ],
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed."
     }
   },
   {
@@ -93380,14 +93467,15 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Benjamin’s 1841 Irish birth and named William-and-Nancy parents fit the sibling group extending through Alexander. His Northwood memorial provides identity context, but no literal parent inscription is held.",
-    "reason": "Benjamin’s 1841 Irish birth and named William-and-Nancy parents fit the sibling group extending through Alexander. His Northwood memorial provides identity context, but no literal parent inscription is held.",
-    "claim": "Glasgow-1675 remains the selected father of Glasgow-3150, individually assessed 84%.",
-    "record_scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
-    "limitations": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+    "assessment_date": "2026-10-24",
+    "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected.",
+    "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected.",
+    "claim": "Glasgow-3150’s existing father William Glasgow-1675 is assessed 88% (probable).",
+    "record_scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+    "limitations": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
     "source_ids": [
-      "held-e-efe58c6f6e08"
+      "held-e-efe58c6f6e08",
+      "held-e-b1e03fda0e03"
     ],
     "assessment_history": [
       {
@@ -93400,22 +93488,37 @@
         "claim_id": "C-8c7fb79d8617",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 84,
+        "basis": "Benjamin’s 1841 Irish birth and named William-and-Nancy parents fit the sibling group extending through Alexander. His Northwood memorial provides identity context, but no literal parent inscription is held.",
+        "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+        "source_ids": [
+          "held-e-efe58c6f6e08"
+        ],
+        "source_basis": "Saved individual assessment before visual verification of the 1903 printed page."
       }
     ],
     "perspectives": {
       "Glasgow-3150": {
         "relationship": "father",
-        "reason": "Benjamin’s 1841 Irish birth and named William-and-Nancy parents fit the sibling group extending through Alexander. His Northwood memorial provides identity context, but no literal parent inscription is held."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected."
       },
       "Glasgow-1675": {
         "relationship": "son",
-        "reason": "Benjamin’s 1841 Irish birth and named William-and-Nancy parents fit the sibling group extending through Alexander. His Northwood memorial provides identity context, but no literal parent inscription is held."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected."
       }
     },
     "analysis_links": [
       {
         "label": "Father confidence review",
         "href": "/people/glasgow-3150.html#research-findings"
+      },
+      {
+        "label": "Glendinning household and individual father assessments",
+        "href": "/branches/research-irish-derryloran/#glendinning-family-confidence"
       }
     ],
     "provenance": {
@@ -93431,16 +93534,25 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "research_reassessment": {
+        "previous_percent": 84,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+        "printed_page_visually_inspected": true,
+        "original_parish_register_inspected": false
+      },
+      "new_father_attachment": false
     },
     "probability": {
-      "value": 0.84,
-      "basis": "Benjamin’s 1841 Irish birth and named William-and-Nancy parents fit the sibling group extending through Alexander. His Northwood memorial provides identity context, but no literal parent inscription is held.",
-      "reviewed": "2026-10-22",
+      "value": 0.88,
+      "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The book establishes a son Benjamin in this exact family. Connecting him to the 1841–1916 Northwood adult still depends on the existing family attribution and sibling setting; no literal adult parent inscription has been inspected.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-efe58c6f6e08"
+        "held-e-efe58c6f6e08",
+        "held-e-b1e03fda0e03"
       ],
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed."
     }
   },
   {
@@ -97567,18 +97679,19 @@
       "Glasgow-2825",
       "Glasgow-1675"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Alexander Fleming’s 1844 Irish birth and named William-and-Nancy parent pair fit the family before William’s 1855 Ohio death. The distinctive name and Ohio sibling context support the reconstruction, although the held memorial citation does not quote parents.",
-    "reason": "Alexander Fleming’s 1844 Irish birth and named William-and-Nancy parent pair fit the family before William’s 1855 Ohio death. The distinctive name and Ohio sibling context support the reconstruction, although the held memorial citation does not quote parents.",
-    "claim": "Glasgow-1675 remains the selected father of Glasgow-2825, individually assessed 85%.",
-    "record_scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
-    "limitations": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+    "assessment_date": "2026-10-24",
+    "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone.",
+    "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone.",
+    "claim": "Glasgow-2825’s existing father William Glasgow-1675 is assessed 95% (confident).",
+    "record_scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
+    "limitations": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed.",
     "source_ids": [
-      "held-e-95dcce1beac1"
+      "held-e-95dcce1beac1",
+      "held-e-b1e03fda0e03"
     ],
     "assessment_history": [
       {
@@ -97591,22 +97704,37 @@
         "claim_id": "C-7edff14ffbe6",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 85,
+        "basis": "Alexander Fleming’s 1844 Irish birth and named William-and-Nancy parent pair fit the family before William’s 1855 Ohio death. The distinctive name and Ohio sibling context support the reconstruction, although the held memorial citation does not quote parents.",
+        "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.",
+        "source_ids": [
+          "held-e-95dcce1beac1"
+        ],
+        "source_basis": "Saved individual assessment before visual verification of the 1903 printed page."
       }
     ],
     "perspectives": {
       "Glasgow-2825": {
         "relationship": "father",
-        "reason": "Alexander Fleming’s 1844 Irish birth and named William-and-Nancy parent pair fit the family before William’s 1855 Ohio death. The distinctive name and Ohio sibling context support the reconstruction, although the held memorial citation does not quote parents."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone."
       },
       "Glasgow-1675": {
         "relationship": "son",
-        "reason": "Alexander Fleming’s 1844 Irish birth and named William-and-Nancy parent pair fit the family before William’s 1855 Ohio death. The distinctive name and Ohio sibling context support the reconstruction, although the held memorial citation does not quote parents."
+        "reason": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone."
       }
     },
     "analysis_links": [
       {
         "label": "Father confidence review",
         "href": "/people/glasgow-2825.html#research-findings"
+      },
+      {
+        "label": "Glendinning household and individual father assessments",
+        "href": "/branches/research-irish-derryloran/#glendinning-family-confidence"
       }
     ],
     "provenance": {
@@ -97622,16 +97750,25 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "research_reassessment": {
+        "previous_percent": 85,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/glendinning-family-confidence-2026-10-24.json",
+        "printed_page_visually_inspected": true,
+        "original_parish_register_inspected": false
+      },
+      "new_father_attachment": false
     },
     "probability": {
-      "value": 0.85,
-      "basis": "Alexander Fleming’s 1844 Irish birth and named William-and-Nancy parent pair fit the family before William’s 1855 Ohio death. The distinctive name and Ohio sibling context support the reconstruction, although the held memorial citation does not quote parents.",
-      "reviewed": "2026-10-22",
+      "value": 0.95,
+      "basis": "The visually checked 1903 family memorial, PDF p.17, explicitly names William Glasgow of Killycorragh and Nancy Glendinning as parents of five sons, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and three daughters, Mary, Matilda and Jane. Nancy’s reported April 1803 birth and 20 March 1890 Belle Center death anchor this particular family. The distinctive Alexander Fleming matches the book’s Alexander Flemming, with the existing Irish origin and Belle Center sibling context. This is a specific family identification rather than a shared first name alone.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-95dcce1beac1"
+        "held-e-95dcce1beac1",
+        "held-e-b1e03fda0e03"
       ],
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "scope": "This is a retrospective family publication, not an original baptism register. Earlier WikiTree Space citations derive from the same publication and are not independent witnesses. The list gives no dates or spouses for the children and does not establish an interleaved birth order. Each percentage concerns the specific father-profile pair, with later adult identity assessed separately. William’s own father remains unknown and unrated; Adam-3151 remains 77% probable because the 1834/1840 birth claims and Arthur’s Ohio-born son Adam-2387 are unresolved. Henry Cunningham-3148 and Isaac Watts-3149 remain 92%. No maternal assessment, structured vital field, selected father ID or live WikiTree flag is changed."
     }
   },
   {

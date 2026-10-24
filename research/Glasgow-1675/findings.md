@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+**Glendinning memorial review, 24 October 2026:** The 1903 family memorial, PDF p.17 (no printed page number), explicitly names William Glasgow of Killycorragh as Nancy Glendinning’s husband, describes him as a farmer and businessman and lists their eight children. This substantiates the named family, but gives no father or other Glasgow kin for William: his father remains **unknown and unrated**. The household’s Adam is explicit, while identifying that named son with the later adult Glasgow-3151 remains a separate question, assessed **77% probable**. No merge, maternal assessment, vital field or inferred child birth order changes. [1903 Glendinning memorial, PDF p.17](https://glendinning.name/history/irish_glendinning.pdf#page=17).
+
 William was a ruling elder from Killycurragh who emigrated to the United States
 and died at Sandusky, Ohio, in 1855. He is not a defensible identity for the
 William in PRONI T1959/3 whom the letter writer describes as a physician who
@@ -63,3 +65,17 @@ Sources: [Belfast Evening Telegraph, 4 September 1875, p.2](https://www.newspape
 [Full record account and comparison](/research/subjects/william-glasgow-irish-newspapers/#william-alexander-parsonstown). This assessment proposes no live WikiTree edit.
 
 <!-- queue-identity-review-2026-10-17:end -->
+
+## Glendinning family memorial — 24 October 2026
+
+The cover and relevant page of the 1903 publication, *A Brief Memorial of the Deceased Members of the Glendinning Family, from the Siege of Derry to the Present Time*, were visually inspected in the parent source review. **PDF p.17, without a printed page number**, identifies Nancy as the fifth daughter, born in April 1803, with mother Mary Bell, and records her marriage to William Glasgow of Killycorragh, described as a farmer and businessman. It names **five sons**, Henry Cunningham, Adam, Isaac Watts, Benjamin and Alexander Flemming, and **three daughters**, Mary, Matilda and Jane. These match the maintained family accounts [Henry-3148](/people/glasgow-3148.html), [Adam-3151](/people/glasgow-3151.html), [Isaac-3149](/people/glasgow-3149.html), [Benjamin-3150](/people/glasgow-3150.html), [Alexander-2825](/people/glasgow-2825.html), [Mary-3158](/people/glasgow-3158.html), [Matilda-3146](/people/glasgow-3146.html) and [Jane-3147](/people/glasgow-3147.html), with Adam’s adult identification separately qualified.
+
+The memorial discusses sons’ long railway service and the Nickleplate line without naming which sons performed the particular service. It also records Nancy’s death at Belle Center on **20 March 1890**, with reported age **87**. This is the publication’s attributed age, not a new age-derived birth correction; the stated April 1803 birth and reported age are retained as recorded. The order in which sons and daughters are listed does not establish their interleaved birth order or any child’s birth date.
+
+**Scope:** This is an inspected retrospective family publication, not an original birth register. It supplies named parent–child roles in the William/Nancy household, not William’s own parents. It does not identify the later adult Adam by birth date, death, occupation, military service or spouse. The 1834/1840 birth conflict and the Ohio-born [Adam Glasgow-2387](/people/glasgow-2387.html), son of Arthur, remain actual identity alternatives rather than reasons to disregard the book’s explicit son Adam. William’s father remains unknown/unrated; Adam-3151 → William-1675 remains **77% probable**. No person merge, maternal grade or vital field changes, and no estimated child date is inferred from list order.
+
+The separate sibling reviews now assess Mary at 97%, Matilda 92%, Alexander 95%, Benjamin 88% and Jane 86%; Henry and Isaac remain 92%. Those individual conclusions do not settle Adam’s adult identity or supply William with a father. The parent thread integrates those profiles separately.
+
+**Next useful test for Adam:** inspect his Cleveland death record and military-home admissions for parent names, birthplace, age and family contacts; compare them with Adam-2387’s Arthur household before resolving identity. Do not merge the men from matching names or a shared death year. For William’s ancestry, the memorial adds no named-parent test beyond the existing church, marriage and family-paper questions.
+
+**Original source:** [A Brief Memorial of the Deceased Members of the Glendinning Family, from the Siege of Derry to the Present Time (1903), PDF p.17](https://glendinning.name/history/irish_glendinning.pdf#page=17); cover and page visually verified 24 October 2026 by the parent, no printed page number on the entry. Retrospective published family narrative; manuscript family sources were not newly inspected.
