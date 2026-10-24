@@ -2,9 +2,10 @@
 import unittest
 import tempfile
 import json
+import hashlib
 from pathlib import Path
 
-from tools.research_preflight import build_preflight, findings_sections, record_needs_review, related_parent_account
+from tools.research_preflight import build_preflight, findings_sections, record_needs_review, related_parent_account, _safe_research_path
 
 
 def pair():
@@ -124,6 +125,112 @@ class ResearchPreflightTests(unittest.TestCase):
         assert any(r['record_id'] == 'fmp-record-r-686351978' for r in result['source_inventory']['items'])
         # Existing canonical relationship_review acknowledges the exact approved pair.
         assert not result['linked_parent_record_needs_review']
+
+    def test_parent_biography_faris_quote_has_capture_pointer_and_pending_draft(self):
+        result = build_preflight('Glasgow-2003', 'Glasgow-12')
+        parent = result['related_parent_account']['biographical_kinship_leads']
+        captured = [x for x in parent['items'] if x.get('source_kind') == 'captured_biography']
+        pending = [x for x in parent['items'] if x.get('source_kind') == 'pending_draft']
+        assert any(x.get('pointer') == '/profiles/Glasgow-12/biography_wikitext'
+                   and 'at least two children of Robert Glasgow' in x['excerpt']
+                   and 'Nancy (Glasgow) McClelland' in x['excerpt'] for x in captured)
+        assert pending and all(x.get('path', '').startswith('research/Glasgow-12/') for x in pending)
+        assert result['findings']['current_conclusion']
+
+    def test_biography_kinship_leads_are_private_bounded_and_independently_eligible(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data/wikitree').mkdir(parents=True)
+            (root / 'research/Glasgow-1').mkdir(parents=True)
+            (root / 'research/Glasgow-2').mkdir(parents=True)
+            child_text = ('In this account Nancy was the daughter of Robert Glasgow.\n\n' +
+                          'Glasgow-1 was a parent in an unrelated note.\n\n' +
+                          '\n\n'.join(f'Nancy was a child of Robert Glasgow in account {i}.' for i in range(4)))
+            parent_text = ('Nancy McClelland was one of Robert’s children.\n\n' +
+                           '\n\n'.join(f'Robert’s daughter Nancy appears in paragraph {i}.' for i in range(4)))
+            evidence = {'profiles': {
+                'Glasgow-1': {'privacy': 60, 'profile_fields': {'Name': 'Nancy McClelland', 'IsLiving': 0}, 'biography_wikitext': child_text},
+                'Glasgow-2': {'privacy': 60, 'profile_fields': {'Name': 'Robert Glasgow', 'IsLiving': 0}, 'biography_wikitext': parent_text},
+            }}
+            evidence_path = root / 'data/wikitree/profile-evidence.json'
+            evidence_path.write_text(json.dumps(evidence))
+            child_draft = root / 'research/Glasgow-1/review.wiki'
+            parent_draft = root / 'research/Glasgow-2/review.wiki'
+            child_draft.write_text(child_text)
+            parent_draft.write_text(parent_text)
+            integration = {'profile_updates': {'Glasgow-1': {'draft_path': 'research/Glasgow-1/review.wiki'},
+                                                'Glasgow-2': {'draft_path': 'research/Glasgow-2/review.wiki'}}}
+            integration_path = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
+            integration_path.parent.mkdir(parents=True, exist_ok=True)
+            integration_path.write_text(json.dumps(integration))
+            (root / 'research/Glasgow-1/findings.md').write_text('## Current conclusion\nExisting conclusion\n')
+            before = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in (evidence_path, child_draft, parent_draft)}
+            context = {'rows': {'Glasgow-1': {'Privacy': 60, 'IsLiving': 0, 'Name': 'Nancy McClelland'},
+                                'Glasgow-2': {'Privacy': 60, 'IsLiving': 0, 'Name': 'Robert Glasgow'}},
+                       'origins': {}, 'checked': {}, 'assessments': [], 'records': []}
+            packet = build_preflight('Glasgow-1', 'Glasgow-2', root=root, context=context)
+            leads = packet['biographical_kinship_leads']
+            assert packet['findings']['current_conclusion'][0]['value'] == 'Existing conclusion'
+            assert leads['total_matches'] >= 4 and leads['truncated'] and len(leads['items']) == 3
+            assert sum(len(x.get('excerpt', '')) for x in leads['items']) <= 2400
+            assert all('unrelated note' not in x['excerpt'] for x in leads['items'])
+            parent_leads = packet['related_parent_account']['biographical_kinship_leads']
+            quote = next(x for x in parent_leads['items'] if x.get('source_kind') == 'captured_biography')
+            assert quote['pointer'] == '/profiles/Glasgow-2/biography_wikitext'
+            assert 'Nancy McClelland was one of Robert’s children' in quote['excerpt']
+            assert quote['line'] == 1 and quote['char_offset'] == 0 and quote['source_context']
+            assert all(hashlib.sha256(p.read_bytes()).hexdigest() == digest for p, digest in before.items())
+
+            # A living parent is independently withheld, even though the child account is eligible.
+            context['rows']['Glasgow-2']['IsLiving'] = 1
+            withheld = related_parent_account('Glasgow-1', 'Glasgow-2', root=root, context=context)
+            assert withheld['withheld'] and 'biographical_kinship_leads' not in withheld
+            assert 'Robert’s daughter' not in json.dumps(withheld)
+            from tools.research_preflight import biography_kinship_leads
+            helper_withheld = biography_kinship_leads('Glasgow-2', 'Glasgow-1', root=root, context=context)
+            assert helper_withheld['withheld'] and not helper_withheld['items']
+
+    def test_pending_biography_path_traversal_and_symlink_are_denied(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'data/wikitree').mkdir(parents=True)
+            (root / 'research/Glasgow-1').mkdir(parents=True)
+            outside = root / 'secret.wiki'
+            outside.write_text('Nancy was a daughter of Robert SECRET.')
+            (root / 'data/wikitree/profile-evidence.json').write_text(json.dumps({'profiles': {
+                'Glasgow-1': {'profile_fields': {'Name': 'Nancy'}, 'biography_wikitext': 'Nancy was a child of Robert.'}}}))
+            integration_path = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
+            integration_path.parent.mkdir(parents=True, exist_ok=True)
+            integration_path.write_text(json.dumps({'profile_updates': {'Glasgow-1': {'draft_path': '../secret.wiki'}}}))
+            context = {'rows': {'Glasgow-1': {'Privacy': 60, 'IsLiving': 0, 'Name': 'Nancy'},
+                                'Glasgow-2': {'Privacy': 60, 'IsLiving': 0, 'Name': 'Robert'}},
+                       'checked': {}, 'assessments': [], 'records': []}
+            from tools.research_preflight import biography_kinship_leads
+            result = biography_kinship_leads('Glasgow-1', 'Glasgow-2', root=root, context=context)
+            assert 'SECRET' not in json.dumps(result)
+            assert result['sources']['pending_draft'] == 'withheld'
+            research_link = root / 'research/Glasgow-1/linked.wiki'
+            research_link.symlink_to(outside)
+            assert _safe_research_path(root, 'research/Glasgow-1/linked.wiki') is None
+            assert _safe_research_path(root, 'research/Glasgow-1') is None
+
+    def test_long_paragraph_window_centers_on_late_kinship_match_and_prioritizes_id(self):
+        from tools.research_preflight import _kinship_excerpts
+        text = 'An unrelated son. ' + 'unrelated padding ' * 200 + 'Nancy is the daughter of Glasgow-12.'
+        found = _kinship_excerpts(text, account_id='Glasgow-1', counterpart_id='Glasgow-12',
+                                  source_kind='captured_biography', source_path='capture.json',
+                                  counterpart_names={'Robert'}, max_excerpts=3, max_chars=2400)
+        item = found['items'][0]
+        assert 'daughter of Glasgow-12' in item['excerpt']
+        assert item['excerpt'].index('Nancy') < 800
+        assert text[item['char_offset']:item['char_offset'] + len(item['excerpt'])] == item['excerpt']
+        assert item['char_offset'] + item['excerpt'].index('Nancy') > 2400
+        ranked = _kinship_excerpts('Robert is Nancy’s father.\n\nNancy’s father is Glasgow-12.',
+                                   account_id='Glasgow-1', counterpart_id='Glasgow-12',
+                                   source_kind='pending_draft', source_path='research/Glasgow-1/draft.wiki',
+                                   counterpart_names={'Robert'}, max_excerpts=1, max_chars=100)
+        assert ranked['items'][0]['match_kind'] == 'counterpart_id'
+        assert 'Glasgow-12' in ranked['items'][0]['excerpt']
 
 
 if __name__ == "__main__":
