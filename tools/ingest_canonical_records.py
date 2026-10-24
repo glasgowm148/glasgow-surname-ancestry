@@ -47,6 +47,17 @@ def merge(rows, supplied, key):
     return [by_id.pop(r[key], r) for r in rows] + list(by_id.values())
 
 
+def merge_citations(rows, supplied):
+    """A shared evidence item may retain a separate citation for each person."""
+    def identity(row):
+        return row['evidence_id'], row['person']
+
+    by_id = {identity(row): row for row in supplied}
+    if len(by_id) != len(supplied) or len({identity(row) for row in rows}) != len(rows):
+        raise ValueError('Duplicate (evidence_id, person)')
+    return [by_id.pop(identity(row), row) for row in rows] + list(by_id.values())
+
+
 def main_body(shell, body):
     result, count = re.subn(r'(<main\b[^>]*>)[\s\S]*?(</main>)',
                           lambda m: m[1] + body + m[2], shell, count=1, flags=re.I)
@@ -277,7 +288,7 @@ def plan(root: Path, record_ids: list[str]):
                                   type=label, date=record['year'], place=record['record_location'],
                                   assertion=role + '. ' + note, status='unassessed', quality=quality,
                                   source={'title': source_title, 'url': url, 'reference': doc['reference']}, claims=[]))
-        doc['citations'] = merge(doc.get('citations', []), citations, 'evidence_id')
+        doc['citations'] = merge_citations(doc.get('citations', []), citations)
         doc['members'] = list(dict.fromkeys([*doc.get('members', []), *(p['id'] for p, _ in linked)]))
         selected_docs.add(sid)
         writes[web / f'assets/research/records/{rid}.json'] = record
