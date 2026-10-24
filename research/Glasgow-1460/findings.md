@@ -2,7 +2,7 @@
 
 ## Current conclusion
 
-The 1783 Bathgate index names Patrick as John’s father; the continuous local family with Elizabeth Dick uses Peter for the same parent in later children. Those full-household details support Peter-1466. The additional identification of this child with the Canongate shop porter remains circumstantial. Complete father-profile proposition89%; Peter/Patrick variation is supported by the wife and family sequence, not assumed from the names alone. Birth 1783 versus c 1785 is unresolved.
+The 1783 Bathgate index names Patrick as John’s father; the continuous local family with Elizabeth Dick uses Peter for the same parent in later children. Those full-household details support Peter-1466. The additional identification of this child with the Canongate shop porter remains circumstantial. Complete father-profile proposition89%; Peter/Patrick variation is supported by the wife and family sequence, not assumed from the names alone. Birth 1783 versus c 1785 is unresolved. Record follow-up, 24 October 2026: a new Findmypast derivative of OPR 662/2 item 1 reports birth 29 June 1783 and baptism 6 July 1783, naming Patrick Glasgow and Elizabeth Dick. The held FamilySearch citation also reports baptism 6 July but its connected profile gives birth 7 June. The exact birth-date conflict is unresolved; neither source is an inspected original. The current adult model remains an estimated c.1785 birth in Edinburgh, so this transcript does not establish that the Bathgate child is Glasgow-1460. Retain the 89% father assessment and mother-profile uncertainty.
 
 ## Father confidence review, second batch — 22 October 2026
 
@@ -35,3 +35,8 @@ Role in this account: Compatible candidate parent profile only; no parent assign
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+
+## Bathgate transcript comparison — 24 October 2026
+
+Findmypast [SCOT/OPR/BAP/4121535](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121535&tab=this) reports John Glasgow, birth date 29 June 1783, baptism 6 July 1783, Bathgate OPR 662/2 item 1; father Patrick Glasgow and mother Elizabeth Dick. This is the same named Bathgate baptism already represented by the held FamilySearch citation [X151-7QY](https://www.familysearch.org/ark:/61903/1:1:X151-7QY), which reports the 6 July baptism and cites connected-profile birth 7 June. The 7-versus-29 June difference remains unresolved; no original image was inspected. Current Glasgow-1460 remains estimated c.1785 in Edinburgh and is not assigned to this event by this transcript. The existing Glasgow-1466 father assessment remains 89% probable; the record-defined mother profile remains unassessed. No vital field, family link or relationship grade changes.

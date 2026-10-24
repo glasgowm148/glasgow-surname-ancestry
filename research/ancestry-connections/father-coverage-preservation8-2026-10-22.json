@@ -486,13 +486,13 @@
     },
     "Glasgow-1326": {
       "current_sha256": "544299d2468641747445a7346ee5eb126819765c172774cc4f4972c82c9fb669",
-      "proposed_sha256": "80495cf2507653abc3a5b87c8dd841cc1cd1af15aff0b05498c2cf345ce787aa",
-      "previous_proposed_sha256": "aab2dfe11fbe2dae67462705b8a590a905eb8f3d73eaed8c0c064c15dbc07fa6",
+      "proposed_sha256": "897dc42a9376245ac50192c74626b928a88c817ee0f4fc89ccaa159d6409684f",
+      "previous_proposed_sha256": "80495cf2507653abc3a5b87c8dd841cc1cd1af15aff0b05498c2cf345ce787aa",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1326.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1326/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
+      "retained": "Complete proposal and prior citations retained; added companion source account and clarified source/event roles without vital, identity or grade change.",
       "restored_source_passage_count": 0,
       "reference_repairs": [],
       "birth_transcript_review": {
@@ -558,6 +558,19 @@
           ],
           "all_captured_source_identities_retained": true
         }
+      },
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-1326/father-confidence-2026-10-22h.wiki",
+      "reviewed_on": "2026-10-24",
+      "source_overlay_review": {
+        "reviewed_on": "2026-10-24",
+        "new_source_ids": [
+          "SCOT/OPR/BAP/4477018",
+          "R_686211386",
+          "R_691906701"
+        ],
+        "all_previous_source_identity_keys_preserved": true,
+        "source_identity_key_count": 2,
+        "superseded_passages": []
       }
     },
     "Glasgow-1352": {
@@ -622,15 +635,31 @@
     },
     "Glasgow-3542": {
       "current_sha256": "9d40db15b6c1346c0c2d6d1d73f796a8cc881c60709b30a1fb2b827f2c0d570a",
-      "proposed_sha256": "8144501723b63a3e686af3dc785b70bcf2315b7a1bf8eb8ed212b9cf26629afb",
-      "previous_proposed_sha256": "9d40db15b6c1346c0c2d6d1d73f796a8cc881c60709b30a1fb2b827f2c0d570a",
+      "proposed_sha256": "c729728a8e32600a4462466a32696f72abd1da2ac16da6e29552081aed01a85b",
+      "previous_proposed_sha256": "8144501723b63a3e686af3dc785b70bcf2315b7a1bf8eb8ed212b9cf26629afb",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-3542.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3542/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete proposal and prior citations retained; added companion source account and clarified source/event roles without vital, identity or grade change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-3542/father-confidence-2026-10-22h.wiki",
+      "reviewed_on": "2026-10-24",
+      "source_overlay_review": {
+        "reviewed_on": "2026-10-24",
+        "new_source_ids": [
+          "R_685143621"
+        ],
+        "all_previous_source_identity_keys_preserved": true,
+        "source_identity_key_count": 1,
+        "superseded_passages": [
+          {
+            "text": "John was born in 1799. He is the son of [[Glasgow-1221|John Glasgow]] and [[Hunter-30137|Isabella Hunter]].",
+            "reason": "Replaced with explicit profile-field and documentary roles; father remains probable at 84%, mother remains tree-only/unassessed, and adult John identity remains unresolved."
+          }
+        ]
+      }
     },
     "Glasgow-2718": {
       "current_sha256": "4c2ef4f99c1eb1a0ca735c7b5a97d0b1c2ceb41bd23dac8d0a67402d8ab1470d",

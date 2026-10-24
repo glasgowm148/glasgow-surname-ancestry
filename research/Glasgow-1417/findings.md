@@ -62,3 +62,7 @@ Next useful test: Compare original p.66 and the earlier family residences.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Katherine Glasgow, 03 Sep 1749, record SCOT/OPR/BAP/3575702](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575702&tab=this)
+
+## Additional August derivative indexes, 24 October 2026
+
+[Findmypast R_688618614](https://www.findmypast.co.uk/transcript?id=R_688618614) and [R_685315083](https://www.findmypast.co.uk/transcript?id=R_685315083) both give 3 August 1749 for Katherine’s Irvine baptism and name father Michael Glasgow without naming a mother. They reinforce the already documented August derivative but do not resolve the held September reading in SCOT/OPR/BAP/3575702. Retain birth before baptism without exact date, the unresolved month, the qualified adult Michael identification, and selected father Glasgow-1410 at 87%. Inspect the original register.

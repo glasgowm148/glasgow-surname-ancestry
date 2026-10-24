@@ -5,6 +5,9 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+The inspected Findmypast Antrim cemetery index has John Glasgow at Racavan Burying Ground, reference R17-10, death year 1836 and age 70. It likely indexes the same Racavan memorial already cited for this family; the entry itself names no relatives and supplies no exact death day. The 28 July date and Cross family relationships retain their earlier sources. Birth year 1766 is age-derived, and the cemetery index is not independent family testimony or a new relationship basis. The original memorial image has not been inspected.
+
+
 **Cross and Bannside review, 23 October 2026:** PRONI’s D2003 collection introduction describes John as a Bannside weaver and his wife Jean McClure as coming from Drumack in the Braid. The two origins must be kept separate. James’s diary of 14 August 1858 supplies a specific landlord/payment trail through Mr Doads of Clough and the Crawfords, without naming John’s father or an exact holding. John’s upstream father remains unknown and unrated; James’s existing father link to John remains 96%. The diary does not identify its Crawford landlords with the later Crawford in-laws, and the survival of the payment correspondence within D2003 is unconfirmed. Sources and limits are set out in the dated section below.
 
 Reviewed 17 October 2026. **John's upstream father remains unselected and unrated.** The Cross/Broughshane household, the Racavan memorial and the Crawford family-paper description define his family but do not distinguish a named older father. The much earlier elder James Glasgow-3967 is a broad ancestral comparison requiring unrecorded intervening generations, not a father candidate. John Glasgow-4179 of Larne has only broad Antrim compatibility, an estimated birth and a reported 1769 marriage; no evidence identifies him as this John's father. Neither missing corroboration nor broad locality is treated as a concrete exclusion, but no upstream link is selected.
@@ -70,3 +73,11 @@ The [PRONI introduction](https://www.sommemidulster.org/dwd/pdfs/02002.pdf), **p
 **Next discriminating test:** check D2003’s detailed list for the Glasgow-family volumes and any Doads correspondence/receipt before 14 August 1858; if located, test the named holding and predecessor against John’s Bannside origin and Cross household. A lease or succession clause could distinguish a father, collateral relative or unrelated predecessor. Do not assume the correspondence survives or that a landlord was kin.
 
 **Source scope:** PRONI, *Crawford Papers (D2003), Introduction*, November 2007, printed pp.17–20 / PDF pp.18–21, public copy linked above; collection description inspected as text, manuscript family histories uninspected. James McClure Glasgow diary, p.29, 14 August 1858, public blog transcription saved at `research/Glasgow-1780/sources/james_mcclure_glasgow_journal.html`; original manuscript not newly inspected. This reuses held diary evidence and refines an existing catalogue lead, rather than announcing a newly discovered parent.
+
+## Saved source review — 24 October 2026
+
+The inspected Findmypast Antrim cemetery index has John Glasgow at Racavan Burying Ground, reference R17-10, death year 1836 and age 70. It likely indexes the same Racavan memorial already cited for this family; the entry itself names no relatives and supplies no exact death day. The 28 July date and Cross family relationships retain their earlier sources. Birth year 1766 is age-derived, and the cemetery index is not independent family testimony or a new relationship basis. The original memorial image has not been inspected.
+
+- [https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2FANT%2F202500373&tab=this Findmypast, Antrim Cemetery Records, Racavan Burying Ground, John Glasgow, death year 1836, age 70, ref. R17-10; derivative transcript inspected 24 October 2026]
+
+No vital, parent identity, or relationship grade change is proposed.

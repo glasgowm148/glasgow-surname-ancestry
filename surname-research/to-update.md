@@ -4299,3 +4299,15 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1984) | OPEN | Add new probable father John Glasgow: Unknown → 88%; original 1825 will inspected. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2577) | OPEN | Add new probable father John Glasgow: Unknown → 80%; original 1825 will inspected. |
 | [James Albert Glasgow](https://www.wikitree.com/wiki/Glasgow-45) | OPEN | Original1825 Huntingdon will names James; executor identity remains unproved, father stays unknown. |
+
+## 24 October 2026 — Findmypast pages22–23 derivative source review
+
+| [John Glasgow (Glasgow-1326)](https://www.wikitree.com/wiki/Glasgow-1326) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [Katherine Glasgow (Glasgow-1417)](https://www.wikitree.com/wiki/Glasgow-1417) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [John Glasgow (Glasgow-1460)](https://www.wikitree.com/wiki/Glasgow-1460) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [Katherine Glasgow (Glasgow-1472)](https://www.wikitree.com/wiki/Glasgow-1472) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [John Glasgow (Glasgow-1657)](https://www.wikitree.com/wiki/Glasgow-1657) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [John Glasgow (Glasgow-3051)](https://www.wikitree.com/wiki/Glasgow-3051) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [Letitia Glasgow (Glasgow-3477)](https://www.wikitree.com/wiki/Glasgow-3477) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [John Glasgow (Glasgow-3542)](https://www.wikitree.com/wiki/Glasgow-3542) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+| [John Glasgow (Glasgow-427)](https://www.wikitree.com/wiki/Glasgow-427) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |

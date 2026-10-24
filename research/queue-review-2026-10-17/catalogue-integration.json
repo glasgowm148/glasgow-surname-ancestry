@@ -2956,7 +2956,7 @@
     },
     "Glasgow-1657": {
       "draft_path": "research/Glasgow-1657/cross-source-review-2026-10-23.wiki",
-      "summary": "Add the cited record account: John Glasco, charged at Bow Street. Retain the stated identity and relationship limits. Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography. PRONI D2003 introduction identifies John as a Bannside weaver and Jean McClure as from Drumack in the Braid. The held diary, 14 August1858, p.29, names Crawford landlords and Mr Doads of Clough in a voluntary-payment matter; neither an exact holding nor John’s father is named. The collection introduction describes Glasgow-family volumes and later copies but does not identify a surviving receipt or specific file for that payment. John’s father remains unknown; James’s father John remains96%.",
+      "summary": "Add the cited record account: John Glasco, charged at Bow Street. Retain the stated identity and relationship limits. Reconcile the reviewed family/identity assessment, individual percentages and retained alternatives; preserve the complete sourced biography. PRONI D2003 introduction identifies John as a Bannside weaver and Jean McClure as from Drumack in the Braid. The held diary, 14 August1858, p.29, names Crawford landlords and Mr Doads of Clough in a voluntary-payment matter; neither an exact holding nor John’s father is named. The collection introduction describes Glasgow-family volumes and later copies but does not identify a surviving receipt or specific file for that payment. John’s father remains unknown; James’s father John remains96%. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -2968,10 +2968,10 @@
       "prior_work_summary": "",
       "preservation_review_path": "research/ancestry-connections/faris-source-review-2026-10-23.json",
       "significance": 50,
-      "biography_rechecked_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-24",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "work_queue_summary": " PRONI D2003 introduction identifies John as a Bannside weaver and Jean McClure as from Drumack in the Braid. The held diary, 14 August1858, p.29, names Crawford landlords and Mr Doads of Clough in a voluntary-payment matter; neither an exact holding nor John’s father is named. The collection introduction describes Glasgow-family volumes and later copies but does not identify a surviving receipt or specific file for that payment. John’s father remains unknown; James’s father John remains96%.",
+      "work_queue_summary": " PRONI D2003 introduction identifies John as a Bannside weaver and Jean McClure as from Drumack in the Braid. The held diary, 14 August1858, p.29, names Crawford landlords and Mr Doads of Clough in a voluntary-payment matter; neither an exact holding nor John’s father is named. The collection introduction describes Glasgow-family volumes and later copies but does not identify a surviving receipt or specific file for that payment. John’s father remains unknown; James’s father John remains96%. Pages22–23 source/date-role review retained; no relationship regrade.",
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": ""
@@ -11472,11 +11472,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-427/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-427/findings.md",
-      "summary": "Glasgow-427: saved transcript explicitly labels birth 1790-08-15; previous field before 1790-08-15. Original register image remains uninspected. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Glasgow-427: saved transcript explicitly labels birth 1790-08-15; previous field before 1790-08-15. Original register image remains uninspected. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Two companion Findmypast transcripts confirm the existing 1790 baptism event and add Kirknewton residence. Preserve the separate explicit birth-date source, existing exact vital and 98% father assessment; no new event or grade change. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Two companion Findmypast transcripts confirm the existing 1790 baptism event and add Kirknewton residence. Preserve the separate explicit birth-date source, existing exact vital and 98% father assessment; no new event or grade change. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11506,6 +11506,10 @@
           "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478030&tab=this",
           "assessment_id": "cached-fmp-glasgow-427-birth-20261023"
         }
+      ],
+      "source_review_ids": [
+        "R_686210925",
+        "R_691906700"
       ]
     },
     "Glasgow-539": {
@@ -12032,11 +12036,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-1460/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-1460/findings.md",
-      "summary": "Review existing father at 89% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 89% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Retain existing 89% probable father assessment. Companion OPR 662/2 transcript supports the 1783 Bathgate baptism, while 7 June vs 29 June birth readings and adult-profile link remain unresolved; no vital/relationship change. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Retain existing 89% probable father assessment. Companion OPR 662/2 transcript supports the 1783 Bathgate baptism, while 7 June vs 29 June birth readings and adult-profile link remain unresolved; no vital/relationship change. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -12056,7 +12060,10 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json",
+      "source_review_ids": [
+        "SCOT/OPR/BAP/4121535"
+      ]
     },
     "Glasgow-2603": {
       "profile_id": "Glasgow-2603",
@@ -12452,11 +12459,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-3051/father-confidence-2026-10-22c.wiki",
       "findings_path": "research/Glasgow-3051/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Correct only the proposed opening to the maintained exact 24 January 1791 birth and 27 January baptism. New transcript matches held event and adds shoemaker occupation/residence; father remains 98% proved, mother remains unassessed; no vital/grade change. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Correct only the proposed opening to the maintained exact 24 January 1791 birth and 27 January baptism. New transcript matches held event and adds shoemaker occupation/residence; father remains 98% proved, mother remains unassessed; no vital/grade change. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -12476,7 +12483,10 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "source_review_ids": [
+        "SCOT/OPR/BAP/3606913"
+      ]
     },
     "Glasgow-3896": {
       "significance": 96,
@@ -19524,11 +19534,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-1472/father-confidence-2026-10-22f.wiki",
       "findings_path": "research/Glasgow-1472/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21224,11 +21234,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-1417/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-1417/findings.md",
-      "summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -23828,11 +23838,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-3477/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-3477/findings.md",
-      "summary": "Review existing father at 29% (uncertain), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 29% (uncertain), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 29% (uncertain), retaining source and identity limits; no new father attachment. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Review existing father at 29% (uncertain), retaining source and identity limits; no new father attachment. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
@@ -24666,11 +24676,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-1326/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-1326/findings.md",
-      "summary": "Glasgow-1326: saved transcript explicitly labels birth 1797-12-30; previous field c. 1798-01-13. Original register image remains uninspected. Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Glasgow-1326: saved transcript explicitly labels birth 1797-12-30; previous field c. 1798-01-13. Original register image remains uninspected. Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Companion Kirknewton/East Calder transcripts repeat the existing 30 Dec 1797 birth / 13 Jan 1798 baptism and name William/Wm Glasgow and Catharine/Nisbet; page/residence/spelling variants remain for original-register comparison. Preserve exact birth, 87% probable father assessment and separate mother uncertainty; no new child or grade change. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Companion Kirknewton/East Calder transcripts repeat the existing 30 Dec 1797 birth / 13 Jan 1798 baptism and name William/Wm Glasgow and Catharine/Nisbet; page/residence/spelling variants remain for original-register comparison. Preserve exact birth, 87% probable father assessment and separate mother uncertainty; no new child or grade change. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -24700,6 +24710,11 @@
           "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478189&tab=this",
           "assessment_id": "cached-fmp-glasgow-1326-birth-20261023"
         }
+      ],
+      "source_review_ids": [
+        "SCOT/OPR/BAP/4477018",
+        "R_686211386",
+        "R_691906701"
       ]
     },
     "Glasgow-1352": {
@@ -24837,11 +24852,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-3542/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-3542/findings.md",
-      "summary": "Review existing father at 84% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 84% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Rothesay baptism transcript adds 22 Dec 1799 and recorded parents John Glasgow/Isobel Hunter to the held 1799 child account; the exact profile birth remains from existing profile evidence and adult father identity remains unresolved at 84% probable. Mother remains tree-only/unassessed; no vital or grade change. Add the qualified saved pages22–23 derivative-source account; preserve date conflicts and all current relationship assessments.",
+      "work_queue_summary": "Rothesay baptism transcript adds 22 Dec 1799 and recorded parents John Glasgow/Isobel Hunter to the held 1799 child account; the exact profile birth remains from existing profile evidence and adult father identity remains unresolved at 84% probable. Mother remains tree-only/unassessed; no vital or grade change. Pages22–23 source/date-role review retained; no relationship regrade.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -24861,7 +24876,10 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json",
+      "source_review_ids": [
+        "R_685143621"
+      ]
     },
     "Glasgow-2718": {
       "profile_id": "Glasgow-2718",

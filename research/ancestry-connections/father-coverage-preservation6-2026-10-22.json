@@ -951,15 +951,24 @@
     },
     "Glasgow-1472": {
       "current_sha256": "cf508ff469fddf70a568c09de290f50a7ae4395060a7e914ed8a7f5b600c4f36",
-      "proposed_sha256": "5e4187b2f94a8af6d7d0f0e9f540cd4d66fe8e1bbb6af6b3d48656db4ea612a3",
-      "previous_proposed_sha256": "cf508ff469fddf70a568c09de290f50a7ae4395060a7e914ed8a7f5b600c4f36",
+      "proposed_sha256": "7671dd262cac13047ebbc9f4606ae8cd15a802e874440240f0646e80b2ca2172",
+      "previous_proposed_sha256": "5e4187b2f94a8af6d7d0f0e9f540cd4d66fe8e1bbb6af6b3d48656db4ea612a3",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage6-20261022/previous-proposals/Glasgow-1472.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1472/father-confidence-2026-10-22f.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. The 24 October source note adds only the specified derivative record(s); prior dates, relationship-grade scope and unresolved identity limitations remain.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "superseded_passages": [
+        {
+          "before": "Katherine was the daughter of [[Glasgow-1055|William Glasgow]] and [[Montfort-406|Margaret Montfort]].",
+          "after": "Katherine’s father [[Glasgow-1055|William Glasgow]] remains assessed at 98% proved. The 3 September 1727 baptism transcripts name her mother Mary Monfodd; the currently attached [[Montfort-406|Margaret Montfort]] remains an unassessed maternal comparison, not a proved identification. The earlier opening claim, ‘Katherine was the daughter of William Glasgow and Margaret Montfort’, is retained here as an inherited profile claim requiring maternal reconciliation.",
+          "reason": "Qualify the complete opening against the actual maintained model and independent maternal/natal-surname uncertainty; retain inherited claim explicitly."
+        }
+      ],
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-1472/father-confidence-2026-10-22f.wiki",
+      "reviewed_on": "2026-10-24"
     },
     "Glasgow-3004": {
       "current_sha256": "6a34b9fe3d2d52530442271088f6e66c41c31267e473b3075438440eed223030",

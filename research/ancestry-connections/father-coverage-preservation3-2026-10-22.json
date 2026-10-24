@@ -127,12 +127,29 @@
     },
     "Glasgow-3051": {
       "current_sha256": "b9704e5d7da9825a1a5112713754d0bd215ca115860accc3b51006a406b1b231",
-      "proposed_sha256": "9ddb462b4fb9a607e34566b836946616437322420c31df3f69989b44bbdb14ce",
+      "proposed_sha256": "17c59899a3eefb8762da6faee4946b944cd59bce84aeb4d1b0d8d1032007aa2a",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3051/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Existing full draft and citations retained. New source passage reconciles transcript fields; no person assignment, vital amendment, or relationship grade change.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "9ddb462b4fb9a607e34566b836946616437322420c31df3f69989b44bbdb14ce",
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-3051/father-confidence-2026-10-22c.wiki",
+      "reviewed_on": "2026-10-24",
+      "source_overlay_review": {
+        "reviewed_on": "2026-10-24",
+        "new_source_ids": [
+          "SCOT/OPR/BAP/3606913"
+        ],
+        "all_previous_source_identity_keys_preserved": true,
+        "source_identity_key_count": 1,
+        "superseded_passages": [
+          {
+            "text": "John Glasgow was born about 1790 in Scotland.",
+            "reason": "Current maintained model and transcript support exact 24 January 1791 birth and 27 January baptism; prior opening preserved as superseded proposal."
+          }
+        ]
+      }
     },
     "Glasgow-3896": {
       "current_sha256": "b05afdccc14631ebc73784c72fd3165af9cf86a2305b0debc660696d2f5ffa2d",

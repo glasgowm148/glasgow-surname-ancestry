@@ -6,6 +6,11 @@ Current father assessment (22 October 2026): **33% (possible)** for [Glasgow-303
 
 John’s 1795 birth could fit John-3034’s estimated 1775 generation. The specific inherited attachment is chronologically possible, but the held 1836 child citation concerns John as father of Robert and supplies nothing about John’s own father. Possible 33%; estimated ages and a repeated name do not independently establish the selected generation.
 
+
+## Barony 1795 baptism comparison — 24 October 2026
+
+Findmypast [R_693210715](https://www.findmypast.co.uk/transcript?id=R_693210715&tab=this) reports a John Glasgow baptized 11 January 1795 at Barony, Glasgow, with Samuel Glasgow and Lillias Stewart named as parents. It provides baptism year, not an exact birth date, and the original was not inspected. Glasgow-2721 is a candidate with an uncertain 1795 Patrick/Lanarkshire birth and Glasgow-3034 as a 33% possible father. The Barony transcript does not establish that it is the same person or exclude Glasgow-2721; preserve it as a separate compatible-name comparison only. It does not change the existing 33% assessment or add a child/parent link.
+
 ## Father confidence review, third batch — 22 October 2026
 
 [Glasgow-3034](https://www.wikitree.com/wiki/Glasgow-3034) remains the selected father, assessed **33% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.

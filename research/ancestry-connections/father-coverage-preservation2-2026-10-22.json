@@ -384,9 +384,9 @@
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-427/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
+      "retained": "Existing full draft and citations retained. New source passage reconciles transcript fields; no person assignment, vital amendment, or relationship grade change.",
       "restored_source_passage_count": 0,
-      "previous_proposed_sha256": "003e9f07f06937edc1878cb833e1812582bcb23d8e94dcf39fb36bea111f5dc4",
+      "previous_proposed_sha256": "1da05a45bfc86e96dd1500d5dc341a59c3ba6c12488e2f9f43709fa84b77235c",
       "birth_transcript_review": {
         "reviewed_on": "2026-10-23",
         "prior_proposed_sha256": "003e9f07f06937edc1878cb833e1812582bcb23d8e94dcf39fb36bea111f5dc4",
@@ -511,6 +511,18 @@
           "normalized_diff": [],
           "all_captured_source_identities_retained": true
         }
+      },
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-427/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "source_overlay_review": {
+        "reviewed_on": "2026-10-24",
+        "new_source_ids": [
+          "R_686210925",
+          "R_691906700"
+        ],
+        "all_previous_source_identity_keys_preserved": true,
+        "source_identity_key_count": 6,
+        "superseded_passages": []
       }
     },
     "Glasgow-539": {
@@ -800,12 +812,29 @@
     },
     "Glasgow-1460": {
       "current_sha256": "0fe73854918f51883960c12f264e6727a44054b06e6dd371e3a1d65a4ca883aa",
-      "proposed_sha256": "275525463dc78df4df91f6115d254774c2569ca68f6893aeac41e5272c1ab061",
+      "proposed_sha256": "ce9eee26aee6508918cacb6a6933e440ee611c5cedaa12766bb6d29272cff671",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1460/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Existing full draft and citations retained. New source passage reconciles transcript fields; no person assignment, vital amendment, or relationship grade change.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "275525463dc78df4df91f6115d254774c2569ca68f6893aeac41e5272c1ab061",
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-1460/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "source_overlay_review": {
+        "reviewed_on": "2026-10-24",
+        "new_source_ids": [
+          "SCOT/OPR/BAP/4121535"
+        ],
+        "all_previous_source_identity_keys_preserved": true,
+        "source_identity_key_count": 33,
+        "superseded_passages": [
+          {
+            "text": "John was born about 1790.",
+            "reason": "This old proposed opening conflicts with the maintained c.1785 estimated model and is retained only in proposal history; current opening qualifies the profile-to-child link."
+          }
+        ]
+      }
     },
     "Glasgow-1983": {
       "current_sha256": "f5a8ebb27bd1fd2f8a56d0d7034a7601f43934c9dcd8f7856d10efc1c26be707",

@@ -35,3 +35,7 @@ Next useful test: Inspect p39 for Mary/Margaret and any distinguishing paternal 
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Katherine Glasgow, 03 Sep 1727, Irvine; held Findmypast transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574234&tab=this)
+
+## Additional Irvine index companions, 24 October 2026
+
+[Findmypast R_688618312](https://www.findmypast.co.uk/transcript?id=R_688618312) and [R_685316210](https://www.findmypast.co.uk/transcript?id=R_685316210) both index the same 3 September 1727 Irvine baptism already cited as SCOT/OPR/BAP/3574234. They name William Glasgow and Mary Monfodd; the Mary/Margaret maternal discrepancy stays open. Their year-only birth field is no exact birth date. Selected father Glasgow-1055 remains 98% within its stated adult-identity limits.

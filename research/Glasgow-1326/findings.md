@@ -35,3 +35,8 @@ Role in this account: probable existing John child; same Kirknewton and East Cal
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+
+## Companion Kirknewton baptism transcripts — 24 October 2026
+
+Three saved Findmypast derivatives describe the same John Glasgow event in Kirknewton and East Calder OPR 690/3, item 2: existing transcript SCOT/OPR/BAP/4478189 reports birth 30 December 1797, father Wm Glasgow, mother Cath Neobet and residence Meadbk (canonical record research/canonical_records.json#/33869); companion SCOT/OPR/BAP/4477018 reports the same birth and 13 January 1798 baptism, father Willm Glasgow (occupation Overseer), mother Catharine Nisbet, residence Lord Meadow Bank, page 14; R_686211386 and R_691906701 repeat the 13 January baptism and named parents, with R_686211386 adding Kirknewton residence. The derivative page references (45 versus 14), mother spelling and residence wording need comparison with the original register; none was inspected. The exact 30 December birth remains sourced to the existing indexed transcript. These companions do not add a child or independently establish adult William-1223’s identity. Existing father assessment (87% probable) and the separate, unassessed external mother comparison are unchanged.

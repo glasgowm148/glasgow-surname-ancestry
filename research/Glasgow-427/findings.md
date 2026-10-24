@@ -6,7 +6,7 @@ Current birth conclusion (23 October 2026): **1790-08-15**, explicitly indexed a
 
 John’s 1790 Kirknewton/East Calder parish record names Thomas Glasgow and Margaret Chapman. Thomas-1620’s 1789 marriage to Margaret Chapman in the same parish identifies that exact adult couple before the child. Recorded 1790 child and Chapman household98%; Thomas’s own earlier parent and John’s later New Monkland identity are separate. Original uninspected.
 
-Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship. Follow-up 24 October 2026: two companion Findmypast transcripts also label 15 August 1790 as baptism date and name Thomas Glasgow and Margaret Chapman; one adds residence Kirknewton. They confirm the existing event but do not supply a birth date. The separate FMP 4478030 transcript explicitly labels 15 August as birth date, so the maintained exact birth stays supported by that separate indexed field; no father/mother reassessment is proposed.
 
 ## Father confidence review, second batch — 22 October 2026
 
@@ -29,3 +29,8 @@ Role in this account: Existing John child/event and household account; later New
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+
+## Companion baptism transcripts — 24 October 2026
+
+Findmypast [R_686210925](https://www.findmypast.co.uk/transcript?id=R_686210925&tab=this) and [R_691906700](https://www.findmypast.co.uk/transcript?id=R_691906700&tab=this) report John Glasgow baptized 15 August 1790 at Kirknewton and East Calder, naming Thomas Glasgow and Margaret Chapman. The first also lists residence Kirknewton. These companion derivatives repeat the existing Glasgow-427 event; they provide baptism date, not an explicit birth date. The separate saved Findmypast transcript SCOT/OPR/BAP/4478030 explicitly labels 15 August as birth date. The current birth field therefore remains 1790-08-15; father Glasgow-1620 remains 98% proved for the recorded child/Chapman household and mother Chapman-28491 remains unassessed. No original register image was inspected; no vital or relationship grade change is proposed.

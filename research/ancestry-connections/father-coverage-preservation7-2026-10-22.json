@@ -658,15 +658,17 @@
     },
     "Glasgow-1417": {
       "current_sha256": "032d3d344bda1e397aa9baa0663422719dc4f87618f94302fb110effb6b82f5b",
-      "proposed_sha256": "e379bc1f7c6287f3e81393d68d99594f3791d38b77d9ae57169f3c500cb8fb62",
-      "previous_proposed_sha256": "032d3d344bda1e397aa9baa0663422719dc4f87618f94302fb110effb6b82f5b",
+      "proposed_sha256": "9a80ee0e161a8f4ee8b5c3139b746416483cee357c33aa9b81d442822039a97a",
+      "previous_proposed_sha256": "e379bc1f7c6287f3e81393d68d99594f3791d38b77d9ae57169f3c500cb8fb62",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1417.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1417/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. The 24 October source note adds only the specified derivative record(s); prior dates, relationship-grade scope and unresolved identity limitations remain.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-1417/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24"
     },
     "Glasgow-3468": {
       "current_sha256": "fe34de7dc576eca05f5169f35cb75e1053ffaf6f23a23188c2f78ec8fc582375",
@@ -1987,15 +1989,24 @@
     },
     "Glasgow-3477": {
       "current_sha256": "6be52933220fbc5177068b9f41993329635d8fab1688c11a04a5a28b0ade0a47",
-      "proposed_sha256": "94f10bc5164328ad6bef1275665b6247e9076667deb6d6ecc6d1769ee6c28ef4",
-      "previous_proposed_sha256": "6be52933220fbc5177068b9f41993329635d8fab1688c11a04a5a28b0ade0a47",
+      "proposed_sha256": "637e3ecd4897307f788164edf311c0db2f9d27b28ba6318c277b669a66d49aa8",
+      "previous_proposed_sha256": "94f10bc5164328ad6bef1275665b6247e9076667deb6d6ecc6d1769ee6c28ef4",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3477.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3477/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. The 24 October source note adds only the specified derivative record(s); prior dates, relationship-grade scope and unresolved identity limitations remain.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "superseded_passages": [
+        {
+          "before": "Letita was born in 1790. She was the daughter of [[Glasgow-2539|John Glasgow]]. She passed away in 1871.",
+          "after": "The maintained profile estimates Letitia’s birth around 1790 and death in 1871. A Ballymoney death-registration index names Letitia Glasgow aged 81; its birth year is age-derived, and neither birthplace nor natal surname is independently proved by that entry. The selected father [[Glasgow-2539|John Glasgow]] remains 29% uncertain. The earlier opening, ‘Letita was born in 1790. She was the daughter of John Glasgow. She passed away in 1871’, is retained as an inherited claim rather than a certain birth or parentage statement.",
+          "reason": "Qualify the complete opening against the actual maintained model and independent maternal/natal-surname uncertainty; retain inherited claim explicitly."
+        }
+      ],
+      "previous_proposed_git_reference": "4696c84eec004789231fac09ffa6f395408e43ba:research/Glasgow-3477/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24"
     },
     "Glasgow-3958": {
       "current_sha256": "dbf8177d941b669d2b772f348ef3a2e2b3a7b10499febc543deec1365434f6fb",

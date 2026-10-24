@@ -1,0 +1,175 @@
+{
+  "reviewed_on": "2026-10-24",
+  "records_checked": 40,
+  "source_readers_checked": 40,
+  "source_only_rows_checked": 25,
+  "profiles_checked": 12,
+  "complete_proposals_checked": 9,
+  "literal_receipts": 548,
+  "profile_context_receipts": 368,
+  "source_only_receipts": 180,
+  "query_rows_reviewed": 460,
+  "saved_detail_gaps": 0,
+  "next_page": 24,
+  "new_people": 0,
+  "vital_changes": 0,
+  "relationship_grade_changes": 0,
+  "source_ids": {
+    "SCOT/OPR/BAP/4121535": "s-2f3e4db7ff63966d",
+    "SCOT/OPR/BAP/4108115": "s-643716d2350bb256",
+    "R_685771321": "s-15521b3a6d74790f",
+    "R_686210925": "s-3389be1878734476",
+    "R_691906700": "s-101bf9ca9761aab6",
+    "SCOT/OPR/BAP/3606913": "s-a1bb8cbc1cfe16e2",
+    "GBPRS/B/612044547/1": "s-a5fb4b938865a7b2",
+    "R_693210715": "s-9ebb54b222de8c26",
+    "PRS/PERTHCEM/006408": "s-ee7ecfdda767c2c2",
+    "SCOT/OPR/BAP/4477018": "s-fb61f8a02400e9f9",
+    "R_686211386": "s-bf3127f2825535b7",
+    "R_949965490": "s-5c7b1b9b307a9254",
+    "TNA/RG4/BAP/637183": "s-b4c4b09573b6e78d",
+    "R_691906701": "s-b5997850441b7cce",
+    "R_685143621": "s-05bb1ddc71a7bd5e",
+    "SCOT/OPR/BUR/0378432": "s-4ce05059438b3ebe",
+    "R_957263505": "s-adf83e2c67f33238",
+    "SCOT/OPR/BUR/0442975": "s-29022e3b78d63e47",
+    "IRE/BMD/D/ANT/202500373": "s-7a1d794d03a31ab5",
+    "SCOT/OPR/BUR/1594695": "s-e56a9e65ecbabcef",
+    "SCOT/OPR/BUR/1608920": "s-8c174cc349a0b478",
+    "R_104260145210": "s-32c46a03cc3b566e",
+    "R_104260084241": "s-3f9b4f596222acd9",
+    "R_106286701097": "s-226328b40a59eba3",
+    "BMD/D/1866/2/AZ/000130/127": "s-30dd6d2361987598",
+    "GBOR/MISCBMDS/DEA/000897892/1": "s-2708bc962363977e",
+    "GBPRS/D/51055003/1": "s-5537f4e406db8ad2",
+    "GBPRS/D/51018252/1": "s-631ba517c2120641",
+    "R_693420096": "s-4f379433c86e1ba3",
+    "PRS/SURREY/BUR/0349588": "s-382d4a2b0ae5d31d",
+    "BMD/NBI/15581721": "s-4a35cbd25428844e",
+    "R_791034477": "s-7aa732832cb4be75",
+    "US/BMD/PENN-BUR/00346206": "s-73e6dc58c6a3a3ea",
+    "R_688618312": "s-868796751b629401",
+    "R_685316210": "s-a9b107982daf6301",
+    "R_688618614": "s-f0d9673a544ccbe3",
+    "R_685315083": "s-1bc74d938e4a39cf",
+    "GBPRS/M/737045372/1": "s-6b1d3bc651763a47",
+    "IRE/BMD/D/617348041": "s-9f29f8630d8b9b81",
+    "US/BMD/NEWYORKDEATHS/90988": "s-8474523ad2b2f121"
+  },
+  "preservation_hashes": {
+    "Glasgow-1460": "ce9eee26aee6508918cacb6a6933e440ee611c5cedaa12766bb6d29272cff671",
+    "Glasgow-427": "1da05a45bfc86e96dd1500d5dc341a59c3ba6c12488e2f9f43709fa84b77235c",
+    "Glasgow-3051": "17c59899a3eefb8762da6faee4946b944cd59bce84aeb4d1b0d8d1032007aa2a",
+    "Glasgow-1326": "897dc42a9376245ac50192c74626b928a88c817ee0f4fc89ccaa159d6409684f",
+    "Glasgow-3542": "c729728a8e32600a4462466a32696f72abd1da2ac16da6e29552081aed01a85b",
+    "Glasgow-1657": "7d34aab5450ff128909f18f3b67da2f77dc82f87843a9862640ef6b91fe7f655",
+    "Glasgow-1472": "7671dd262cac13047ebbc9f4606ae8cd15a802e874440240f0646e80b2ca2172",
+    "Glasgow-1417": "9a80ee0e161a8f4ee8b5c3139b746416483cee357c33aa9b81d442822039a97a",
+    "Glasgow-3477": "637e3ecd4897307f788164edf311c0db2f9d27b28ba6318c277b669a66d49aa8"
+  },
+  "filter_counts": {
+    "has_profile": 4776,
+    "missing_profile": 89,
+    "needs_wikitree_update": 1598
+  },
+  "retained_existing_pending_amendments": [
+    "Glasgow-2721"
+  ],
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "goal_status": "INCOMPLETE",
+  "batch": {
+    "pages": [
+      22,
+      23
+    ],
+    "newly_indexed_provider_records": 40,
+    "new_literal_captures_this_turn": 32,
+    "reused_checkpoint_receipts": 8,
+    "documentary_entry_groups": 26,
+    "first_seen_documentary_entry_groups": 16,
+    "first_seen_groups_with_additional_scope_qualifications": 3,
+    "held_event_groups": 10,
+    "new_people": 0,
+    "original_registers_or_images_inspected": 0,
+    "current_vital_or_relationship_grade_changes": 0,
+    "complete_existing_proposals_revised": 9,
+    "inherited_opening_claims_qualified": [
+      "Glasgow-1472 mother",
+      "Glasgow-3477 birth/father"
+    ],
+    "preserved_prior_pending_amendment": "Glasgow-2721 unchanged full proposal"
+  },
+  "coverage": {
+    "literal_receipts_indexed": 548,
+    "qualified_profile_context": 368,
+    "source_only_identity_or_scope_holds": 180,
+    "supporting_indexed_ids_at_original_pointers": 19,
+    "bounded_audited_indexed_id_union": 567,
+    "source_aware_inventory": {
+      "accessible_ids": 877,
+      "represented_ids": 784,
+      "remaining_unindexed": 93
+    },
+    "current_query_rows_reviewed": 460,
+    "current_query_total_as_observed": 5872,
+    "query_percent": 7.8,
+    "first_pages_reviewed": 23,
+    "saved_detail_gaps": 0,
+    "next_uncaptured_page": 24,
+    "overall_percent": null,
+    "remaining": [
+      "Pages 24–294 nominal of the current 1719–1799 birth-filtered BMD query; zero saved detail gaps, next capture page 24; provider caps may require partitioning.",
+      "Earlier birth windows, later-life records lacking indexed birth, and other categories",
+      "Surname variants and unresolved natal-surname/record identities",
+      "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
+      "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
+    ]
+  },
+  "publication_check": {
+    "profiles_checked": 12,
+    "failing_items": 0,
+    "log": "Selected publication gate passed; two Irish overview dates/content reconciled."
+  },
+  "projection_check": {
+    "selected_source_routes": 40,
+    "source_links_in_audit_chapter": 40,
+    "affected_studies_checked": 3,
+    "latest_finding": "fmp-pages22-23-20261024",
+    "approved_sitemap_files": 1,
+    "sitemap_source_routes_checked": 40,
+    "human_sitemap_sources_directory": true,
+    "deployment": "Local only; no live deployment",
+    "new_generated_directory_routes": [
+      "/sources/deaths/ireland/1800-1849/",
+      "/sources/marriages/england/before-1800/"
+    ],
+    "new_directories_in_sitemap_and_parent_navigation": true
+  },
+  "links": {
+    "pages": 25792,
+    "internal_references": 1357040,
+    "broken_existing": 7,
+    "existing_page_target_pairs": 4,
+    "new_pairs": 0,
+    "nongated_missing_person_anchors": 87
+  },
+  "cache": {
+    "independent_reference_check": {
+      "files": 25845,
+      "references": 429517,
+      "stale_references": 0,
+      "samples": [],
+      "manifest_before": "86f43960f5",
+      "manifest_after": "86f43960f5",
+      "manifest_stable": true
+    },
+    "manifest_entry_check": {
+      "manifest_version": "86f43960f5",
+      "entries": 70,
+      "mismatches": []
+    },
+    "write_passes": 1
+  },
+  "verification_status": "PASS_LOCAL_ONLY",
+  "deployment": "Not deployed; no live WikiTree edits or push"
+}

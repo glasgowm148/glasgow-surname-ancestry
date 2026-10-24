@@ -6,6 +6,8 @@ Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-3298]
 
 The retained Kilmarnock child citation places John, born24 January and christened27 January 1791, in John Glasgow and Margaret Wyllie’s family. John-3298 represents this particular couple, married in 1788 with an ordered local child sequence, strongly identifying the recorded father. Recorded 1791 child and Wyllie household; the older John’s 1755 childhood and the child’s later soldier/pensioner identity remain separate.
 
+
+Follow-up, 24 October 2026: Findmypast SCOT/OPR/BAP/3606913 reports John’s birth on 24 January and baptism on 27 January 1791, Kilmarnock OPR 597/3 item 3, p.145; father John Glasgow (occupation shoemaker), mother Margaret Wyllie, residence “Kilmk”. It matches the existing Glasgow-3051 event and held FamilySearch citation; it adds residence/occupation detail, not another event or child. Existing birth remains exact; father Glasgow-3298 remains 98% proved and mother Wyllie-1278 unassessed. Original register image uninspected; no grade change.
 ## Father confidence review, third batch — 22 October 2026
 
 [Glasgow-3298](https://www.wikitree.com/wiki/Glasgow-3298) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -19,3 +21,8 @@ Next useful test: Check the 1791 original and the child-to-pensioner continuity.
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Scotland, Births and Baptisms, 1564–1950, entry for John Glasgow, 27 Jan 1791; FamilySearch (accessed 21 Sep 2025) ARK:XTVR-Q89 (https://familysearch.org/ark:/61903/1:1:XTVR-Q89).](https://familysearch.org/ark:/61903/1:1:XTVR-Q89)
+
+
+## Kilmarnock baptism transcript detail — 24 October 2026
+
+The saved Findmypast [SCOT/OPR/BAP/3606913](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3606913&tab=this) gives John Glasgow’s birth as 24 January 1791 and baptism as 27 January 1791, Kilmarnock OPR 597/3 item 3, page 145. It names father John Glasgow, occupation shoemaker, and mother Margaret Wyllie; residence is indexed as “Kilmk”. These fields match the existing child and previously held FamilySearch baptism citation, adding source detail to the same event. No original image was inspected. Current exact birth and the 98% father assessment are unchanged; mother-profile Wyllie-1278 remains unassessed.
