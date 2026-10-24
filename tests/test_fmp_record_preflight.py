@@ -81,6 +81,30 @@ class FmpPreflightTests(unittest.TestCase):
         self.assertTrue(result["matching_hold"])
         self.assertEqual(result["matching_hold_evidence"][0]["matching_status"], "scope_hold")
 
+    def test_existing_source_library_without_supplemental_record_prevents_recapture(self):
+        self.write_json("www/assets/sources/collection-index.json", [{
+            "id": "s-held", "original_url": "https://www.findmypast.co.uk/transcript?id=US%2FBOOK%2F7&tab=this",
+            "members": ["record-old-alias"],
+        }])
+        result = self.run_one("US/BOOK/7")
+        self.assertEqual(result["disposition"], "review_existing_index")
+        self.assertTrue(result["already_indexed"])
+        self.assertEqual(result["public_record_ids"], [])
+        self.assertEqual(result["source_ids"], ["s-held"])
+        self.assertEqual(result["source_library_matches"][0]["profile_ids"], ["record-old-alias"])
+        self.assertIsNone(result["cached_receipt"])
+
+    def test_stronger_primary_source_retains_secondary_provider_identity(self):
+        url = "https://www.findmypast.co.uk/transcript?id=R_777"
+        self.write_json("research/canonical_records.json", [{
+            "record_id": "reviewed-event", "source_url": "https://archive.org/details/original",
+            "source_references": [{"url": url}, {"url": url}],
+        }])
+        result = self.run_one("R_777")
+        self.assertEqual(result["canonical_record_ids"], ["reviewed-event"])
+        self.assertTrue(result["already_indexed"])
+        self.assertEqual(result["disposition"], "review_existing_index")
+
     def test_non_allowlisted_files_are_not_read(self):
         (self.audit / "private-browser-capture.json").write_text("not valid json", encoding="utf-8")
         result = self.run_one("R_4")

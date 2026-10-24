@@ -13,6 +13,8 @@ Use the [project research skill](../wikitree-research/SKILL.md) for identity, ev
 
 ## Decisions that must survive reuse
 
+- Check exact provider URLs in the source library and secondary/reference citations even when a stronger primary source has replaced the provider URL. Reuse existing source and record IDs, and check retired person aliases before treating the entry as missing. Source-library presence alone does not resolve identity.
+- For an existing alias repair, inspect the targeted reconciler's writes before launching builders. If it already updates the source reader, record/source indexes and collection membership, and no source, category or route is added, verify those affected fields instead of repeating the full source-collection rebuild. Refresh other views only when their inputs changed.
 - Birth-surname eligibility is separate from a later-life Glasgow surname. Married-in women and age-derived birth years need explicit qualification. A search filter does not establish either fact.
 - Assess scope for each recorded role. A child born after the cutoff may have a pre-cutoff Glasgow parent whose evidence belongs in the catalogue. An out-of-scope indexed subject does not exclude the whole record; screen named relatives before skipping it.
 - Keep birth, baptism, death and burial as distinct assertions. Inspect the actual current vital fields before describing an existing date as exact or bounded. An indexed birth year attached to a baptism does not prove infant baptism or exclude an earlier adult. Uncertain estimates and missing corroboration are not concrete conflicts.

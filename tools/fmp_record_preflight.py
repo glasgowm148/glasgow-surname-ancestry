@@ -243,9 +243,16 @@ def _provider_index(rows: list[dict]) -> dict[str, list[dict]]:
     for row in rows:
         if not isinstance(row, dict):
             continue
-        key = _row_key(row)
-        if key[0] == "findmypast":
-            result.setdefault(key[1], []).append(row)
+        keys = {_row_key(row)}
+        urls = [row.get("supporting_source_url")]
+        urls += [reference.get("url") for reference in row.get("source_references", [])
+                 if isinstance(reference, dict)]
+        for url in urls:
+            if url:
+                keys.add(provider_key({"url": url}))
+        for key in keys:
+            if key[0] == "findmypast":
+                result.setdefault(key[1], []).append(row)
     return result
 
 
@@ -259,6 +266,14 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
         raise ValueError("canonical and public record indexes must be JSON arrays")
     canonical_by_provider = _provider_index(canonical)
     public_by_provider = _provider_index(public)
+    library_path = root / "www/assets/sources/collection-index.json"
+    library = _read(library_path) if library_path.exists() else []
+    if not isinstance(library, list):
+        raise ValueError("public source collection index must be a JSON array")
+    library_by_provider = _provider_index([
+        {**item, "source_url": item.get("original_url") or item.get("url") or ""}
+        for item in library if isinstance(item, dict)
+    ])
 
     output = []
     seen = set()
@@ -299,14 +314,16 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
 
         canonical_matches = canonical_by_provider.get(provider_id, [])
         public_matches = public_by_provider.get(provider_id, [])
-        source_ids = sorted({str(item.get("document_id")) for item in public_matches if item.get("document_id")})
+        library_matches = library_by_provider.get(provider_id, [])
+        source_ids = sorted({str(item.get("document_id")) for item in public_matches if item.get("document_id")}
+                            | {str(item["id"]) for item in library_matches if item.get("id")})
         indexed_record_ids = sorted({str(item.get("record_id")) for item in canonical_matches + public_matches if item.get("record_id")})
         hold_rows = holds.get(provider_id, [])
         matching_hold = bool(hold_rows)
 
-        if disposition != "blocked_receipt" and not successes and (canonical_matches or public_matches):
+        if disposition != "blocked_receipt" and not successes and (canonical_matches or public_matches or library_matches):
             disposition = "review_existing_index"
-            reason = "An exact provider record is already represented in canonical/public indexes; review that record before recapture."
+            reason = "An exact provider record is already represented in a canonical/public record or source-library index; review its source and person mapping before recapture."
         elif disposition != "blocked_receipt" and not successes:
             disposition = "detail_needed"
             if matching_hold:
@@ -330,8 +347,12 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
             "matching_hold_evidence": hold_rows,
             "canonical_record_ids": sorted({str(item.get("record_id")) for item in canonical_matches if item.get("record_id")}),
             "public_record_ids": sorted({str(item.get("record_id")) for item in public_matches if item.get("record_id")}),
-            "already_indexed": bool(indexed_record_ids),
+            "already_indexed": bool(indexed_record_ids or library_matches),
             "source_ids": source_ids,
+            "source_library_matches": [{"source_id": item["id"],
+                                        "profile_ids": item.get("members", []),
+                                        "source_url": item["source_url"]}
+                                       for item in library_matches if item.get("id")],
             "reason": reason,
             "reinspect": ({"requested": bool(reinspect_reason and receipt and _successful(receipt)),
                            "reason": reinspect_reason if reinspect_reason and receipt and _successful(receipt) else None}

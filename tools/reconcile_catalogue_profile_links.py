@@ -314,9 +314,21 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
                 'reason': link['evidence_note'], 'superseded_documentary_account': wrapper,
             })
         original_wrapper = wrapper.get('superseded_documentary_account', wrapper)
-        for record_id in original_wrapper.get('record_ids', []):
+        record_ids = list(original_wrapper.get('record_ids', []))
+        # A retired wrapper may have lost its record_ids while the compact
+        # index still owns a direct record reader. Include canonical rows too
+        # so a resumed repair finds readers after the index was rewired.
+        compact_records = web / 'assets/research/record-index.json'
+        if compact_records.exists():
+            record_ids.extend(row['id'] for row in read(compact_records)
+                              if row.get('p') in {old, slug} and row.get('id'))
+        seen_record_ids = set()
+        for record_id in record_ids:
             if not isinstance(record_id, str) or '/' in record_id or '..' in record_id:
                 raise ValueError(f'{old}: unsafe legacy record wrapper ID')
+            if record_id in seen_record_ids:
+                continue
+            seen_record_ids.add(record_id)
             path = web / f'assets/research/records/{record_id}.json'
             if path.exists():
                 put(path, rewire_documentary(read(path), old, slug, profile, reviewed=link['matched_at']))

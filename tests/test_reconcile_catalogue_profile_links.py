@@ -120,6 +120,27 @@ class ProjectionTests(unittest.TestCase):
         self.assertEqual(len(current['records']),1)
         self.assertEqual(current['records'][0]['source_status'],'Existing reviewed record')
 
+    def test_resumed_alias_repair_finds_direct_reader_without_wrapper_record_ids(self):
+        old = self.ids[0]
+        apply(self.root, [old], refresh=False)
+        self.put('www/assets/research/record-index.json', [
+            {'id': 'R0', 'p': 'glasgow-1'}, {'id': 'KEEP', 'p': 'unrelated'}])
+        self.put('www/assets/research/records/R0.json', {
+            'record_id': 'R0', 'catalogue_id': old, 'profile_ids': '',
+            'catalogue_url': f'/people/{old}.html',
+            'source_status': 'scoped integration new_person READY',
+            'source_url': 'https://www.findmypast.co.uk/transcript?id=RECORD0'})
+        self.put('www/assets/research/records/KEEP.json', {'catalogue_id': 'unrelated'})
+        current = self.read('www/people/glasgow-1.json')
+        apply(self.root, [old], refresh=False)
+        record = self.read('www/assets/research/records/R0.json')
+        self.assertEqual(record['catalogue_id'], 'glasgow-1')
+        self.assertEqual(record['catalogue_url'], '/people/glasgow-1.html')
+        self.assertEqual(record['profile_ids'], 'Glasgow-1')
+        self.assertNotIn('READY', record['source_status'])
+        self.assertEqual(self.read('www/assets/research/records/KEEP.json'), {'catalogue_id': 'unrelated'})
+        self.assertEqual(self.read('www/people/glasgow-1.json'), current)
+
     def add_legacy_fixture(self):
         old=self.ids[0]
         invented={'p':old,'id':'birth','kind':'personal','basis':'imported_vital','year':1680}

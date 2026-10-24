@@ -1,0 +1,237 @@
+{
+  "status": "passed",
+  "scope": "cached56 existing minister source reconciliation; no whole-site cache check",
+  "checks": [
+    {
+      "name": "source_reader",
+      "status": "passed",
+      "detail": {
+        "h1": 1,
+        "canonical_link": true,
+        "provider_link": true,
+        "text_preserved": true
+      }
+    },
+    {
+      "name": "full_source_members_and_citations",
+      "status": "passed",
+      "detail": {
+        "source_id": "s-a2d3d85cb32bd0c7",
+        "citation_count": 1,
+        "record_count": 1
+      }
+    },
+    {
+      "name": "direct_detail_and_compact_record",
+      "status": "passed",
+      "detail": {
+        "record_id": "016ed9accda5ebfb",
+        "catalogue_id": "glasgow-4127",
+        "profile_id": "Glasgow-4127"
+      }
+    },
+    {
+      "name": "canonical_record_preservation",
+      "status": "passed",
+      "detail": {
+        "canonical_record_id": "fmp-glasgow-baa0969903c8",
+        "references": 3,
+        "new_records": 0
+      }
+    },
+    {
+      "name": "source_ids_and_alias_route",
+      "status": "passed",
+      "detail": {
+        "source_ids_unchanged": true,
+        "retired_alias_valid": true
+      }
+    },
+    {
+      "name": "person_and_atlas_scope",
+      "status": "passed",
+      "detail": {
+        "minister_person_unchanged": true,
+        "root_people_bytes_unchanged": true,
+        "outside_scope_atlas_changed_profiles": [
+          "Glasgow-3000",
+          "Glasgow-3003",
+          "Glasgow-3021",
+          "Glasgow-3022",
+          "Glasgow-4123",
+          "Glasgow-4132"
+        ]
+      }
+    },
+    {
+      "name": "ledger_holds_and_coverage",
+      "status": "passed",
+      "detail": {
+        "literal": 482,
+        "qualified": 338,
+        "source_only": 144,
+        "selected_union": 501,
+        "source_aware": {
+          "accessible": 811,
+          "represented": 718,
+          "unindexed": 93
+        },
+        "holds": 55
+      }
+    },
+    {
+      "name": "focused_unit_evidence",
+      "status": "passed",
+      "detail": {
+        "focused_tests": 28,
+        "source_aware_preflight_tests": 18
+      }
+    }
+  ],
+  "errors": [],
+  "notes": {
+    "outside_scope_atlas_person_deltas": [
+      "Glasgow-3000",
+      "Glasgow-3003",
+      "Glasgow-3021",
+      "Glasgow-3022",
+      "Glasgow-4123",
+      "Glasgow-4132"
+    ],
+    "atlas_bytes_unchanged": false
+  },
+  "post_build": {
+    "collections": {
+      "outcome": {
+        "targets": 0,
+        "index": 0,
+        "assets": 0,
+        "pages": 0,
+        "manifest": 0
+      },
+      "seconds": 134.7,
+      "memory_pressure_after": 1
+    },
+    "study": {
+      "outcome": {
+        "study_pages_updated": 1,
+        "study_pages": 1,
+        "authored_stories": 1
+      },
+      "seconds": 4.8,
+      "memory_pressure_after": 1
+    },
+    "backlinks": {
+      "outcome": {
+        "output": "/Users/m/genealogy/wikitree-api-scrape/www/data/person-links.json",
+        "changed": true,
+        "people": 4863,
+        "people_withheld_skipped": 0,
+        "people_with_any_link": 4809,
+        "people_with_studies": 3965,
+        "people_with_places": 4391,
+        "people_with_sources": 4514,
+        "people_with_findings": 1672,
+        "people_with_research": 666,
+        "people_with_mentioned_by": 1127,
+        "study_pages": 347,
+        "place_pages": 1264,
+        "study_pages_with_places": 347,
+        "place_pages_with_studies": 1105,
+        "entries_dropped_by_privacy_screen": {},
+        "most_mentioned": [
+          {
+            "id": "Glasgow-951",
+            "name": "Alexander Glasgow",
+            "mentioned_by_people": 37,
+            "mentioning_sections": 95
+          },
+          {
+            "id": "Glasgow-991",
+            "name": "James Glasgow",
+            "mentioned_by_people": 29,
+            "mentioning_sections": 61
+          },
+          {
+            "id": "Glasgow-1073",
+            "name": "John Glasgow M.A",
+            "mentioned_by_people": 27,
+            "mentioning_sections": 48
+          },
+          {
+            "id": "Glasgow-1027",
+            "name": "Rot. Glasgow",
+            "mentioned_by_people": 25,
+            "mentioning_sections": 41
+          },
+          {
+            "id": "Glasgow-12",
+            "name": "Robert Glasgow",
+            "mentioned_by_people": 24,
+            "mentioning_sections": 46
+          },
+          {
+            "id": "Glasgow-822",
+            "name": "John Glasgow and Mary Arthur",
+            "mentioned_by_people": 22,
+            "mentioning_sections": 44
+          },
+          {
+            "id": "Glasgow-1024",
+            "name": "James Glasgow II",
+            "mentioned_by_people": 21,
+            "mentioning_sections": 44
+          },
+          {
+            "id": "Glasgow-1026",
+            "name": "William Walter Glasgow",
+            "mentioned_by_people": 21,
+            "mentioning_sections": 36
+          },
+          {
+            "id": "Glasgow-1144",
+            "name": "James Glasgow",
+            "mentioned_by_people": 21,
+            "mentioning_sections": 29
+          },
+          {
+            "id": "Glascow-14",
+            "name": "Isaac Wesley (Glascow) Glasgow",
+            "mentioned_by_people": 20,
+            "mentioning_sections": 33
+          }
+        ]
+      },
+      "seconds": 60.9,
+      "memory_pressure_after": 1
+    },
+    "versions": {
+      "outcome": {
+        "write_passes": 1,
+        "changed_files": 24698,
+        "original_stale_references": 24700
+      },
+      "seconds": 193.9,
+      "memory_pressure_after": 1
+    }
+  },
+  "asset_versions": {
+    "files": 25776,
+    "references": 428412,
+    "stale_references": 0,
+    "samples": [],
+    "manifest_before": "8228db7f26",
+    "manifest_after": "8228db7f26",
+    "manifest_stable": true
+  },
+  "internal_links": {
+    "pages": 25723,
+    "references": 1354187,
+    "broken_links": 7,
+    "broken_page_target_pairs": 4,
+    "new_pairs": 0,
+    "missing_person_anchors_not_gated": 87,
+    "log": "/tmp/fmp-screen56-links.log"
+  },
+  "deployment": "local only; no live deployment or WikiTree change"
+}
