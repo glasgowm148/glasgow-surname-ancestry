@@ -3268,7 +3268,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2492) | OPEN | Review existing father at 65% (probable); no new father attachment. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1222) | OPEN | Review existing father at 94% (proved); no new father attachment. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2102) | OPEN | Review existing father at 61% (probable); no new father attachment. |
-| [Janet (Glasgow) Blackburn](https://www.wikitree.com/wiki/Glasgow-1448) | OPEN | Review existing father at 43% (possible); no new father attachment. |
+| [Janet (Glasgow) Blackburn](https://www.wikitree.com/wiki/Glasgow-1448) | OPEN | Review existing father at 43% (possible); no new father attachment. Record compatible Livingston Janet baptised 2 February 1777, Thomas Glasgow/Christian Davidson; retain Bridgeton-place discrepancy, identity HOLD, before-baptism birth and 43% father assessment. No parent attachment. |
 | [George Glasgow](https://www.wikitree.com/wiki/Glasgow-3611) | OPEN | Review existing father at 88% (probable); no new father attachment. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3121) | OPEN | Review existing father at 67% (probable); no new father attachment. |
 | [Richard Glasgow](https://www.wikitree.com/wiki/Glasgow-1551) | OPEN | Review existing father at 72% (probable); no new father attachment. |
@@ -3298,7 +3298,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3390) | OPEN | Review existing father at 65% (probable); no new father attachment. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3400) | OPEN | Review existing father at 82% (probable); no new father attachment. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1531) | OPEN | Review existing father at 84% (probable); no new father attachment. |
-| [Janet (Glasgow) Taylor](https://www.wikitree.com/wiki/Glasgow-144) | OPEN | Review existing father at 96% (proved); no new father attachment. |
+| [Janet (Glasgow) Taylor](https://www.wikitree.com/wiki/Glasgow-144) | OPEN | Review existing father at 96% (proved); no new father attachment. Add the derivative 19 September 1790 Kirkliston baptism, distinct from retained 9 September birth; keep 96% father assessment and original-register check. |
 | [Letitia Glasgow](https://www.wikitree.com/wiki/Glasgow-3477) | OPEN | Review existing father at 29% (uncertain); no new father attachment. |
 | [Jemima (Glasgow) Montgomery](https://www.wikitree.com/wiki/Glasgow-3958) | OPEN | Review existing father at 94% (proved); no new father attachment. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-339) | OPEN | Review existing father at 51% (possible); no new father attachment. |
@@ -4095,7 +4095,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 
 65 saved September transcripts are reconciled in 57 documentary groups without new provider retrieval: 30 matched existing subjects, 23 identity holds and four scope holds. No new person or relationship is proposed.
 
-| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-1305) | OPEN | Glasgow-1305: saved transcript explicitly labels birth 1796-10-21; previous field before 1796-11-06. Keep source qualifications and the complete sourced proposal. |
+| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-1305) | OPEN | Glasgow-1305: saved transcript explicitly labels birth 1796-10-21; previous field before 1796-11-06. Keep source qualifications and the complete sourced proposal. Add explicit derivative 6 November 1796 baptism alongside retained 21 October birth; compare OPR pages 13/44, residence and Meikle/Muckle readings; father 94% unchanged. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1326) | OPEN | Glasgow-1326: saved transcript explicitly labels birth 1797-12-30; previous field c. 1798-01-13. Keep source qualifications and the complete sourced proposal. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1414) | OPEN | Glasgow-1414: saved transcript explicitly labels birth 1751-11-27; previous field before 1751-11-29. Keep source qualifications and the complete sourced proposal. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1533) | OPEN | Glasgow-1533: saved transcript explicitly labels birth 1795-05-06; previous field before 1795-05-06. Keep source qualifications and the complete sourced proposal. |

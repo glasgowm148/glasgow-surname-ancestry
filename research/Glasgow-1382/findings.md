@@ -65,3 +65,18 @@ Role in this account: Named Thomas father; existing assessed adult-profile compa
 
 [Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
 <!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+
+<!-- BEGIN FMP-PAGE17-20261024 -->
+## Findmypast page 17 review — 24 October 2026
+
+Role in this account: Possible named-father adult-profile comparison only from existing household assessment; not proven by this transcript.
+
+Two companion derivatives name Janet Glasgow, baptism 2 February 1777 at Livingston, father Thomas Glasgow and mother Christian Davidson. Glasgow-1448 is a compatible existing child candidate, matching the inherited parental pair and exact birth boundary. Her inherited Bridgeton, Kincardineshire birth locality differs from the baptism locality; this discrepancy needs examination but birth and baptism need not occur in the same place. Related Catharine-1451 has the same Livingston parental pair in 1780. Retain the identity HOLD, the current 43% father assessment and unassessed mother status. No new Janet is proposed.
+
+Next question: Inspect the inherited Bridgeton birth-place basis, the Livingston register and Janet Blackburn marriage/death records for an identity bridge; do not exclude her merely because birth and baptism localities differ.
+
+- [Findmypast R_685844147](https://findmypast.co.uk/transcript?id=R_685844147&tab=this), derivative transcript inspected 24 October 2026.
+- [Findmypast R_692403113](https://findmypast.co.uk/transcript?id=R_692403113), derivative transcript inspected 24 October 2026.
+
+Original register images remain uninspected. Existing vitals and relationship assessments are retained; a candidate role assigns neither an event nor parents. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE17-20261024 -->

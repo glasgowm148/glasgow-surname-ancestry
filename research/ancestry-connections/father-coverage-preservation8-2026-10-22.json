@@ -252,13 +252,13 @@
     },
     "Glasgow-1305": {
       "current_sha256": "a1d0896cfde0e26661f6af8490c0838503cce853c8e443f5c4edd13fd8b44932",
-      "proposed_sha256": "bed4d8c2205900f99a854fdb041b9df8803df7d5d9bcc83017f5f30f10ec6039",
-      "previous_proposed_sha256": "58afa60ee4d3c2df3a08b91f1473522ffa5423b32845471ae277c94ea6ecd00a",
-      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1305.wiki",
+      "proposed_sha256": "d46ea3593f00b305baa6f667653f5dabeaad8ae5dda7664a3852d745b3836d07",
+      "previous_proposed_sha256": "bed4d8c2205900f99a854fdb041b9df8803df7d5d9bcc83017f5f30f10ec6039",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/findmypast-page17-20261024/previous-proposals/Glasgow-1305.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1305/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Complete captured and prior proposed biographies compared; existing sources and relationship assessments retained. Dated birth/baptism source clarification and explicitly qualified identity conflicts replace the superseded date wording.",
+      "retained": "All normalized prior biography and research-note lines, source identities, refs, vitals and father grades retained. Added derivative transcript citations distinguish baptism from birth and retain explicit candidate/source conflicts; no field or relationship change.",
       "restored_source_passage_count": 0,
       "reference_repairs": [],
       "birth_transcript_review": {
@@ -315,7 +315,15 @@
           ],
           "all_captured_source_identities_retained": true
         }
-      }
+      },
+      "previous_proposed_git_reference": "223b60f924ef08db6f9903f9628fe1505cc5a9a0:research/Glasgow-1305/father-confidence-2026-10-22h.wiki",
+      "source_receipts": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14476992",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686210501",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691905239"
+      ],
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-1351": {
       "current_sha256": "24a5a305053b0a0938ec51ba8b8ff00504a44db3af428f57b172c136946ed84b",

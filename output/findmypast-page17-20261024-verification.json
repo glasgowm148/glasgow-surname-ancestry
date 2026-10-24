@@ -1,0 +1,147 @@
+{
+  "reviewed_on": "2026-10-24",
+  "new_provider_records": 20,
+  "provisional_documentary_groups": 12,
+  "existing_event_confirmation_groups": 2,
+  "enriched_compatible_candidate_groups": 1,
+  "source_only_groups": 9,
+  "records_with_existing_person_or_candidate_context_added": 7,
+  "source_only_records_added": 13,
+  "new_people": 0,
+  "vital_field_changes": 0,
+  "relationship_grade_changes": 0,
+  "original_images_inspected": 0,
+  "person_accounts_checked": 5,
+  "complete_preserved_proposals_checked": 3,
+  "source_readers_checked": 20,
+  "full_compact_records_and_full_fast_hydrated_people_agree": true,
+  "capture_ledger_records": 447,
+  "capture_ledger_profile_context_records": 308,
+  "capture_ledger_source_only_records": 139,
+  "captured_query_rows": 420,
+  "reviewed_query_dispositions": 359,
+  "contiguous_completed_query_rows": 340,
+  "query_total": 5872,
+  "disposition_percent": 6.1,
+  "contiguous_percent": 5.8,
+  "missing_transcripts": 61,
+  "next_page": 18,
+  "next_missing_provider_id": "GBPRS/GLASGOW/BUR/093167",
+  "next_uncaptured_search_page": 22,
+  "coverage": "INCOMPLETE",
+  "source_ids": {
+    "R_691306812": "s-a8c65c5231f93d91",
+    "SCOT/OPR/BAP/4121234": "s-f8afd0bb442cc3d0",
+    "R_691841702": "s-7599865e68a74fb0",
+    "R_685844147": "s-082ee0553b9ef0d6",
+    "R_692403113": "s-2ad3f9e4e7c36a68",
+    "R_690418970": "s-d3e4092d846f0bde",
+    "SCOT/OPR/BAP/4108081": "s-6da88dc2858f89c0",
+    "R_685771856": "s-3d91e6c3a8f232b4",
+    "R_691831650": "s-9b9c969c4ac1448f",
+    "R_685811032": "s-c4bd5e45bdc0b130",
+    "R_691880108": "s-4df9b526795e8873",
+    "R_685967229": "s-4652fb3b600305a3",
+    "R_688327848": "s-6d06db5fc2f8b0b9",
+    "SCOT/OPR/BAP/4476992": "s-4e2148923bbb631d",
+    "R_686210501": "s-002972710903e729",
+    "R_691905239": "s-8c395312847564a3",
+    "SCOT/OPR/BAP/3235493": "s-63a3962b45a4f866",
+    "SCOT/OPR/BAP/4171812": "s-c65ac4dea125b384",
+    "R_689425253": "s-1e689abdcb84ced8",
+    "SCOT/OPR/BUR/0109898": "s-16ca1e8a85172513"
+  },
+  "preservation": {
+    "Glasgow-144": {
+      "normalized_proposed_sha256": "c571adbb5ad28fc6a5c6f436984c35bdab6452492c1327bf60cd14781aab7ea3",
+      "normalized_prior_sha256": "ceec9669fb77b442563aa82cd12400cf27f0cb6ce8c1264996d59ff80a2c17ce",
+      "all_prior_lines_retained": true,
+      "all_source_identities_retained": true,
+      "vital_changes": false,
+      "relationship_regrade": false
+    },
+    "Glasgow-1305": {
+      "normalized_proposed_sha256": "d46ea3593f00b305baa6f667653f5dabeaad8ae5dda7664a3852d745b3836d07",
+      "normalized_prior_sha256": "bed4d8c2205900f99a854fdb041b9df8803df7d5d9bcc83017f5f30f10ec6039",
+      "all_prior_lines_retained": true,
+      "all_source_identities_retained": true,
+      "vital_changes": false,
+      "relationship_regrade": false
+    },
+    "Glasgow-1448": {
+      "normalized_proposed_sha256": "6b9c600530041d3f3c00cb1efbe3628e229b4062f78442acb75660840a373e2e",
+      "normalized_prior_sha256": "31b4a292127021bb3a6eed769c54c323dafcff004df56fc7b7f1070d221e9d0d",
+      "all_prior_lines_retained": true,
+      "all_source_identities_retained": true,
+      "vital_changes": false,
+      "relationship_regrade": false
+    }
+  },
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "publication_gate": {
+    "selected_findings_files": 5,
+    "new_failures": 0,
+    "seconds": 0.8,
+    "guarded_sync_exit": 0,
+    "reused_preloaded_models": true,
+    "dating_warning": {
+      "subject": "Glasgow-1448",
+      "assessment_date_retained": "2026-10-22",
+      "additive_candidate_review": "2026-10-24",
+      "disposition": "Current conclusion reconciled; existing43% assessment retained. Warning is non-failing."
+    }
+  },
+  "link_check": {
+    "pages": 25659,
+    "internal_references": 1350846,
+    "existing_broken_references": 7,
+    "existing_broken_page_target_pairs": 4,
+    "new_pairs": 0,
+    "nongated_missing_person_anchors": 86,
+    "person_anchors_checked": 7537,
+    "unlinked_fragments_or_readers": 856,
+    "seconds": 94.2
+  },
+  "assets": {
+    "stale_asset_references": 0,
+    "full_corpus_check": "find_mismatches:0, same scanner as stamp(write=False)",
+    "global_write_passes": 2,
+    "targeted_html_references_repaired": 0,
+    "prior_checks_invalidated_by_concurrent_publication": true,
+    "concurrent_publisher_observed": "tools/publish_resolved_dossiers.py",
+    "redundant_second_read_only_scan_stopped": [
+      50594
+    ]
+  },
+  "routes": {
+    "new_source_routes_in_approved_xml": 20,
+    "source_directory_membership": 20,
+    "reader_sitemap_source_directory_link": true
+  },
+  "record_pipeline_tests": {
+    "passed": 29,
+    "suite": "tests.test_ingest_canonical_records",
+    "commit": "41233d214f40853fcc4159caa5145c90d80f4a0e"
+  },
+  "coverage_index_list_repair": {
+    "historical_partial_list": 206,
+    "verified_indexed_list": 447,
+    "historical_receipts_already_indexed": 427,
+    "new_receipts": 20,
+    "capture_saved_query_union_provider_ids": 534
+  },
+  "concurrent_work_preserved": "c7cff2a171a — Samuel Irish-father research; selected data reverified after concurrent publication",
+  "resources": {
+    "task_owned_tabs_remaining": 0,
+    "personal_tabs_preserved": 3,
+    "new_browser_processes_launched": 0,
+    "new_windows_or_profiles": 0,
+    "task_runtime_reset": true,
+    "owned_running_build_or_render_helpers": 0,
+    "suspension_cause": "Not established; system memory pressure was observed at levels1/2. No CPU or system settings changed."
+  },
+  "reusable_workflow_updated": "skills/findmypast-catalogue-audit/references/catalogue-workflow.md",
+  "local_website_synchronized": true,
+  "live_wikitree_edits": 0,
+  "deployment": false
+}

@@ -56709,6 +56709,103 @@
         "research/ancestry-connections/chester-irish-family-2026-10-24.json",
         "research/Glasgow-2872/chester-irish-family-2026-10-24.md"
       ]
+    },
+    {
+      "id": "fmp-page17-janet-1305-baptism-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A newly inspected Kirknewton transcript explicitly gives Janet’s baptism on 6 November 1796, separate from birth 21 October 1796.",
+      "qualification": "The older p.44 transcript left baptism blank; the new p.13 entry and companions supply it. Residence “?” versus Ormiston, page references and Meikle/Muckle spelling remain qualified. Birth and 94% father assessment are unchanged; originals uninspected.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1305",
+          "name": "Janet Glasgow",
+          "url": "/people/glasgow-1305.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast SCOT/OPR/BAP/4476992 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476992&tab=this"
+        },
+        {
+          "title": "Findmypast R_686210501 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_686210501&tab=this"
+        },
+        {
+          "title": "Findmypast R_691905239 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_691905239&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-page17-janet-1448-candidate-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Livingston baptism of Janet on 2 February 1777 names Thomas Glasgow and Christian Davidson and fits the existing Janet Blackburn candidate.",
+      "qualification": "The existing profile has the same parents and before-baptism date boundary. Its inherited Bridgeton birthplace differs from Livingston baptism locality; retain the identity HOLD and 43% father assessment. Different birth/baptism places do not by themselves exclude identity. No new person.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-1448",
+          "name": "Janet (Glasgow) Blackburn",
+          "url": "/people/glasgow-1448.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_685844147 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_685844147&tab=this"
+        },
+        {
+          "title": "Findmypast R_692403113 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_692403113"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "fmp-page17-janet-144-baptism-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two companion indexes place the existing Kirkliston Janet’s baptism on 19 September 1790 with John Glasgow and Agnes Gray.",
+      "qualification": "These confirm the held 1790 child event; they are one event, not independent proofs. Retain the separate 9 September birth field and 96% father assessment; original register remains uninspected.",
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "people": [
+        {
+          "id": "Glasgow-144",
+          "name": "Janet (Glasgow) Taylor",
+          "url": "/people/glasgow-144.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_685811032 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_685811032&tab=this"
+        },
+        {
+          "title": "Findmypast R_691880108 — inspected derivative transcript",
+          "url": "https://findmypast.co.uk/transcript?id=R_691880108&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "new_father_attachments": 0,
+      "new_mother_attachments": 0,
+      "new_original_inspections": 0,
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
     }
   ]
 }

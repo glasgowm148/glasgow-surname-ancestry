@@ -6,7 +6,7 @@ Current birth conclusion (23 October 2026): **1796-10-21**, explicitly indexed a
 
 Current father assessment (22 October 2026): **94% (proved)** for [Glasgow-1304](https://www.wikitree.com/wiki/Glasgow-1304). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
-The earlier FamilySearch birth/baptism summary supplies the compatible 1796 boundary and John Glasgow/Margaret Muckle family. The saved OPR transcript now explicitly gives birth 21 October 1796 and Margt Meikle; the Meikle/Muckle identification remains qualified. The former 6 November boundary is not a newly verified baptism date. The paired mother, locality and ordered 1796–1814 children identify the existing adult household; the early Janet fits the opening of the Muckle child sequence. Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
+The earlier FamilySearch birth/baptism summary supplies the compatible 1796 boundary and John Glasgow/Margaret Muckle family. The saved OPR transcript now explicitly gives birth 21 October 1796 and Margt Meikle; the Meikle/Muckle identification remains qualified. The former 6 November birth boundary is now supported by an explicit baptism field in the 24 October derivative review below; it is not an original-register inspection. The paired mother, locality and ordered 1796–1814 children identify the existing adult household; the early Janet fits the opening of the Muckle child sequence. Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
@@ -33,3 +33,19 @@ Role in this account: Strong compatible record-child identification: Janet Glasg
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+<!-- BEGIN FMP-PAGE17-20261024 -->
+## Findmypast page 17 review — 24 October 2026
+
+Role in this account: Janet Glasgow; exact event-child match. Current birth 21 Oct 1796 (explicit indexed birth, established from previously saved SCOT/OPR/BAP/4478163); profile family comparison names John Glasgow-1304 and Margaret Muckle; father assessment 94% unchanged.
+
+The new OPR 690/3 item 2 p.13 derivative gives birth 21 October 1796 and baptism 6 November 1796, John Glasgow (Servt), mother Margt and residence literal “?”. Companion derivatives give mother Margaret Muckle or Meikle and the same baptism day. The previously held p.44 transcript SCOT/OPR/BAP/4478163 gives the same birth, mother Meikle, residence Ormiston and a blank baptism field. These compatible entries support the existing Glasgow-1305 account while preserving page, residence and maternal-spelling differences. Baptism 6 November is now an explicit derivative reading, not an inference from the former birth bound; original register pages remain uninspected.
+
+Next question: Compare original OPR 690/3 item 2 pages 13 and 44 and the held FamilySearch citation; resolve the page/residence differences and Meikle/Muckle identification. Do not count companion derivatives as independent evidence.
+
+- [Findmypast SCOT/OPR/BAP/4476992](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476992&tab=this), derivative transcript inspected 24 October 2026.
+- [Findmypast R_686210501](https://findmypast.co.uk/transcript?id=R_686210501&tab=this), derivative transcript inspected 24 October 2026.
+- [Findmypast R_691905239](https://findmypast.co.uk/transcript?id=R_691905239&tab=this), derivative transcript inspected 24 October 2026.
+
+Original register images remain uninspected. Existing vitals and relationship assessments are retained; a candidate role assigns neither an event nor parents. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE17-20261024 -->

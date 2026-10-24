@@ -1458,15 +1458,22 @@
     },
     "Glasgow-1448": {
       "current_sha256": "8ef1bd010c778c0c08aa1eae394f0aa69de692c75daef6e97a8684cb68c06026",
-      "proposed_sha256": "31b4a292127021bb3a6eed769c54c323dafcff004df56fc7b7f1070d221e9d0d",
-      "previous_proposed_sha256": "8ef1bd010c778c0c08aa1eae394f0aa69de692c75daef6e97a8684cb68c06026",
-      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1448.wiki",
+      "proposed_sha256": "6b9c600530041d3f3c00cb1efbe3628e229b4062f78442acb75660840a373e2e",
+      "previous_proposed_sha256": "31b4a292127021bb3a6eed769c54c323dafcff004df56fc7b7f1070d221e9d0d",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/findmypast-page17-20261024/previous-proposals/Glasgow-1448.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1448/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "All normalized prior biography and research-note lines, source identities, refs, vitals and father grades retained. Added derivative transcript citations distinguish baptism from birth and retain explicit candidate/source conflicts; no field or relationship change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "223b60f924ef08db6f9903f9628fe1505cc5a9a0:research/Glasgow-1448/father-confidence-2026-10-22g.wiki",
+      "source_receipts": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685844147",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692403113"
+      ],
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-3611": {
       "current_sha256": "44e5480ee540d99a50d252724540b1f0aed1dc42b10131521d0bf0ecc7751ccc",
@@ -1822,15 +1829,22 @@
     },
     "Glasgow-144": {
       "current_sha256": "55f04d2ad8739ecbc1a98493c948593bfe3f9f998625736b44efe830ca381654",
-      "proposed_sha256": "ceec9669fb77b442563aa82cd12400cf27f0cb6ce8c1264996d59ff80a2c17ce",
-      "previous_proposed_sha256": "55f04d2ad8739ecbc1a98493c948593bfe3f9f998625736b44efe830ca381654",
-      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-144.wiki",
+      "proposed_sha256": "c571adbb5ad28fc6a5c6f436984c35bdab6452492c1327bf60cd14781aab7ea3",
+      "previous_proposed_sha256": "ceec9669fb77b442563aa82cd12400cf27f0cb6ce8c1264996d59ff80a2c17ce",
+      "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/findmypast-page17-20261024/previous-proposals/Glasgow-144.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-144/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "All normalized prior biography and research-note lines, source identities, refs, vitals and father grades retained. Added derivative transcript citations distinguish baptism from birth and retain explicit candidate/source conflicts; no field or relationship change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "223b60f924ef08db6f9903f9628fe1505cc5a9a0:research/Glasgow-144/father-confidence-2026-10-22g.wiki",
+      "source_receipts": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685811032",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691880108"
+      ],
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-3477": {
       "current_sha256": "6be52933220fbc5177068b9f41993329635d8fab1688c11a04a5a28b0ade0a47",
