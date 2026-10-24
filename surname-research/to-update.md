@@ -4028,6 +4028,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Sophia Glasgow](https://www.wikitree.com/wiki/Glasgow-341) | OPEN | Add the 1805 will; existing father confidence 56% → 98%. No new father attachment; exact birth and later identity separately assessed. |
 | [Issac Glasgow](https://www.wikitree.com/wiki/Glasgow-2363) | OPEN | Add the 1805 will; existing father confidence 43% → 43%. Possible father stays 43%; this is an alternative mapping of the single Isaac role, not a second son. No merge. |
 
+
 ## 23 October 2026 — Peoria sibling and maternal-grandfather evidence
 
 | [Samuel Steele Glasgow](https://www.wikitree.com/wiki/Glasgow-9) | OPEN | Add new published transcription; existing father confidence 58% → 92%, confident. No new father attachment; original uninspected. |
@@ -4045,6 +4046,7 @@ Sixty provider transcripts are indexed under existing subjects, qualified candid
 | [Catharine Glasgow](https://www.wikitree.com/wiki/Glasgow-1451) | OPEN | Catharine Glasgow: indexed birth 1780-08-20; indexed baptism 31 August 1780. Birth date corrected from c. 1780-08-31. Keep baptism distinct; complete sourced proposal retained. |
 
 [Current record assignments and remaining questions](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Local synchronization only; no live WikiTree save or deployment.
+
 
 ## 23 October 2026 — Parish household parentage and lifetime identities
 
@@ -4084,13 +4086,6 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Nancy Annie Glasgow](https://www.wikitree.com/wiki/Glasgow-370) | OPEN | Existing father James634: 73% →96% confident; complete sourced draft, retained birth/source limits; no live save. |
 | [Elizabeth Glasgow Martin](https://www.wikitree.com/wiki/Glasgow-2055) | OPEN | Existing father James634: 66% →93% confident; complete sourced draft, retained birth/source limits; no live save. |
 
-### Held family confidence review —23October2026
-
-| Profile | Status | Amendment |
-| --- | --- | --- |
-| [Nancy Annie Glasgow](https://www.wikitree.com/wiki/Glasgow-370) | OPEN | Existing father James634: 73% →96% confident; complete sourced draft, retained birth/source limits; no live save. |
-| [Elizabeth Glasgow Martin](https://www.wikitree.com/wiki/Glasgow-2055) | OPEN | Existing father James634: 66% →93% confident; complete sourced draft, retained birth/source limits; no live save. |
-
 ## Cached Findmypast records — 23 October 2026
 
 65 saved September transcripts are reconciled in 57 documentary groups without new provider retrieval: 30 matched existing subjects, 23 identity holds and four scope holds. No new person or relationship is proposed.
@@ -4104,12 +4099,6 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 
 [Current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Conflicting exact dates remain unresolved; local synchronization only, no live edits or deployment.
 
-
-### Anna Allan father review —23 October 2026
-
-| Profile | Status | Amendment |
-| --- | --- | --- |
-| [Anna Glasgow](https://www.wikitree.com/wiki/Glasgow-3005) | OPEN | Add the checked Paterson p.252 passage and exact Hugh Allan marriage identification. Local father confidence58% → 95% agrees with the captured confident mark; no parent or certainty amendment remains. Complete sourced draft; no live save. |
 
 ### Anna Allan father review —23 October 2026
 
@@ -4145,6 +4134,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 
 | [Joseph Glasgow (Glasgow-3722)](https://www.wikitree.com/wiki/Glasgow-3722) | OPEN | Existing father Joseph-2573:91% retained; original 1914 certificate names Lucy Gilbert, but Jas./Jos. and father birthplace remain uncertain. Specify death 24February1914 versus filing 25 February; retain age differences. |
 
+
 ### Lisnagaver father confidence — 23 October 2026
 
 | Profile | Status | Amendment |
@@ -4154,12 +4144,14 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2908) | OPEN | Existing father confidence to 95%; no new father. Complete pending biography retained. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4090) | OPEN | Add scoped family confidence review; preserve existing confident flag and all prior pending amendments. |
 
+
 ### Jane Dysart father replacement — 23 October 2026
 
 | Profile | Status | Amendment |
 | --- | --- | --- |
 | [Jane Catherine Dysart](https://www.wikitree.com/wiki/Glasglow-11) | OPEN | Replace ungraded father Alexander-3904 with John-4090, 92% confident inference; preserve mother and full biography. |
 | [John Glasgow, farmer](https://www.wikitree.com/wiki/Glasgow-4090) | OPEN | Add Jane as confidently inferred daughter, 92%; retain all earlier pending amendments and separate upstream assessment. |
+
 
 ### Duddingston father and Tyrone original — 23 October 2026
 
@@ -4168,6 +4160,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1150) | OPEN | Regrade existing James Glasgow-1150–Robert Glasgow-1156 father pair 86%→91%, with original burial still uninspected; preserve prior pending amendments. |
 | [Robert Glasgow I](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Regrade existing James Glasgow-1150–Robert Glasgow-1156 father pair 86%→91%, with original burial still uninspected; preserve prior pending amendments. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-591) | OPEN | Clarify the original 1725 collective Glasgow boundary occupiers; no individual forename or parent change. |
+
 
 ### Faris original-book reassessment — 23 October 2026
 
@@ -4183,6 +4176,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1657) | OPEN | Clarify Bannside/Drumack origins and the1858Crawford landlord trail; no parent confidence change. |
 | [James McClure Glasgow](https://www.wikitree.com/wiki/Glasgow-1780) | OPEN | Clarify Bannside/Drumack origins and the1858Crawford landlord trail; no parent confidence change. |
 
+
 ### Irish letter four-son reassessment — 24 October 2026
 
 | Profile | Status | Amendment |
@@ -4194,6 +4188,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2872) | OPEN | Retain rival Samuel identity and John father72%; add Irish-letter family comparison. |
 
+
 ### Chester Samuel father reconstruction —24 October 2026
 
 | Profile | Status | Amendment |
@@ -4204,6 +4199,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1492) | OPEN | Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed. |
 | [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-2873) | OPEN | Add indexed1799Hugh sale,H-3:253,as exact title test;father82% unchanged. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2871) | OPEN | Add indexed1799Hugh sale,H-3:253,as exact title test;father82% unchanged. |
+
 
 ### Glendinning family father assessments — 24 October 2026
 
@@ -4217,6 +4213,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1675) | OPEN | Add inspected 1903 memorial citation and retain current scope: Inspected1903 Glendinning memorial PDFp17 names William/Nancy’s eight children; preserve existing News-Letter/Mercury and1858 amendments. William father remainsUnknown/unrated; no list-order dates. |
 | [Adam Glasgow](https://www.wikitree.com/wiki/Glasgow-3151) | OPEN | Add inspected 1903 memorial citation and retain current scope: 1903 Glendinning memorial explicitly names sonAdam, but adult1834/1840 identity and Ohio-bornAdam2387 rival remain unresolved. FatherWilliam1675 stays77% probable; no merge/mother/vital change. |
 
+
 ### Wythe William: possible father hypothesis — 24 October 2026
 
 | Profile | Status | Amendment |
@@ -4229,12 +4226,14 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 
 | [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-3071) | OPEN | Add qualified direct-provider citation for the already-held1793Ramshorn burial; no vital or relationship change.;24October derivative-record supplement preserves identity limits. |
 
+
 ### Robert Barclay: father confidence from Bible-derived account — 24 October 2026
 
 | Profile | Status | Amendment |
 | --- | --- | --- |
 | [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-835) | OPEN | Existing father William Glasgow-563: 73% → 94% confident inference, from the checked Faris family account and adult identity. No new father attachment. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-563) | OPEN | Son Robert Barclay Glasgow-835: 73% → 94% confident inference from the checked Faris family account. William’s own father remains 95%. |
+
 
 ### Robert and Phoebe: child father assessments — 24 October 2026
 
@@ -4251,12 +4250,14 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Susanna Rachel Glasgow](https://www.wikitree.com/wiki/Glasgow-2228) | OPEN | Existing father Robert Barclay Glasgow: 87% → 96% confident inference. |
 | [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-835) | OPEN | Eight existing child relationships now confident; Rhoda remains probable 85% with her birth conflict retained. Robert’s own William father remains 94%; no new attachment. |
 
+
 ### Nancy McClelland: copied-source father review — 24 October 2026
 
 | Profile | Status | Amendment |
 | --- | --- | --- |
 | [Nancy (Glasgow) McClelland](https://www.wikitree.com/wiki/Glasgow-2003) | OPEN | Nancy’s existing Robert father: research confidence 81% → 91%; add copied-source qualification. WikiTree already marks this father confident, so no certainty-mark amendment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-12) | OPEN | Reconcile daughter Nancy’s overlooked explicit child designation: 81% → 91% research confidence. Original Faris page uninspected; Robert’s own father stays 35%. |
+
 
 ### Rathdowney: original marriage and witnesses — 24 October 2026
 
@@ -4265,6 +4266,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3593) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
 | [Anne (Ford) Glasgow](https://www.wikitree.com/wiki/Ford-28175) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3592) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
+
 
 ### Retained father coverage outside the surname graph — 24 October 2026
 
@@ -4277,7 +4279,8 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4123) | OPEN | Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-4132) | OPEN | Review existing father James Glasgow: 95% confident. First individual rating; no newly attached father. Add source and identity limits. |
 
-### Large-join source and completed-test reconciliation —24October2026
+
+### Large-join source and completed-test reconciliation —24 October 2026
 
 | Profile | Status | Amendment |
 | --- | --- | --- |
@@ -4285,6 +4288,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Robert Glasgow II](https://www.wikitree.com/wiki/Glasgow-1157) | OPEN | Clarify Daniel’s inherited Robert hyperlink: intended compiled account1157, not Duddingston1156; parentage and all grades unchanged. |
 | [Robert Glasgow I](https://www.wikitree.com/wiki/Glasgow-1156) | OPEN | Clarify Daniel’s inherited Robert hyperlink: intended compiled account1157, not Duddingston1156; parentage and all grades unchanged. |
 | [James Albert Glasgow](https://www.wikitree.com/wiki/Glasgow-45) | OPEN | Reconcile Chester testator identity already resolved98%; James’s father remains unknown. Test John-1549’s1825 will next. |
+
 
 ### Huntingdon original will and named sons — 24 October 2026
 

@@ -1040,6 +1040,14 @@
       "creation_status": "READY",
       "notes": "The Irvine baptism and John Glasgow/Isabell Kylle parents distinguish this Mary from the candidate."
     },
+    "fmp-glasgow-ce7a886e0868": {
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4133",
+      "creation_status": "",
+      "queue_status": "CLOSED",
+      "substantive_amendment": false,
+      "notes": "Glasgow-4133 already represents Agnes Glasgow baptised 21 August 1720 at Libberton in Findmypast SCOT/OPR/BAP/4033335, OPR 650/1 item 3 p.11. The record names Robert Glasgow and Katherine Wilson and gives residence Gladhaimb; R_684955704 and R_693522269 index the same event. Retire the duplicate creation suggestion and retain its source evidence. Whether Watson-53558 represents the indexed Katherine Wilson is unresolved; this reconciliation proposes no parent attachment or vital change."
+    },
     "fmp-glasgow-1f9a4ce7f9bb": {
       "outcome": "new_person",
       "creation_status": "READY",
@@ -1212,14 +1220,6 @@
       "queue_status": "CLOSED",
       "substantive_amendment": false,
       "notes": "Glasgow-4110 already represents Allan Glasgow born 15 May 1743 and baptized 22 May 1743 in Irvine, son of James Glasgow and Helen Nasmith, in Findmypast SCOT/OPR/BAP/3575202. Withdraw the earlier creation suggestion and retain its source evidence under the existing profile. This is publication reconciliation, not a new relationship."
-    },
-    "fmp-glasgow-ce7a886e0868": {
-      "outcome": "existing_profile",
-      "profile_id": "Glasgow-4133",
-      "creation_status": "",
-      "queue_status": "CLOSED",
-      "substantive_amendment": false,
-      "notes": "Glasgow-4133 already represents Agnes Glasgow baptised 21 August 1720 at Libberton in Findmypast SCOT/OPR/BAP/4033335, OPR 650/1 item 3 p.11. The record names Robert Glasgow and Katherine Wilson and gives residence Gladhaimb; R_684955704 and R_693522269 index the same event. Retire the duplicate creation suggestion and retain its source evidence. Whether Watson-53558 represents the indexed Katherine Wilson is unresolved; this reconciliation proposes no parent attachment or vital change."
     }
   }
 }
