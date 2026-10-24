@@ -1,5 +1,5 @@
 {
-  "verification_status": "PASS_SOURCE_STAGE_ONLY_PUBLICATION_PENDING",
+  "verification_status": "PASS_LIVE_PUBLICATION",
   "goal_status": "paused",
   "coverage_status": "INCOMPLETE",
   "batch": {
@@ -53,12 +53,13 @@
       "R_690418811": "s-d2ff0dd5bf245cdd",
       "SCOT/OPR/BAP/0738380": "s-63bed7b9bd2c7107"
     },
-    "status": "PASS_SOURCE_STAGE_ONLY_PERSON_STUDY_CACHE_PENDING"
+    "status": "PASS_SOURCE_AND_PROFILE_PUBLICATION"
   },
   "proposal_input_check": {
     "normalized_preservation_guards_passed": 10,
     "prior_profile_links_and_sources_retained": true,
-    "public_person_models_unchanged_from_baseline": 10
+    "published_person_models": 10,
+    "public_vitals_and_relationships_unchanged": 10
   },
   "coverage": {
     "literal_receipts_indexed": 578,
@@ -78,14 +79,9 @@
     "next_uncaptured_query_page": 26,
     "overall_percent": null
   },
-  "pending": [
-    "Selected ten-person publication and its gate",
-    "Latest findings and early Scottish study",
-    "Backlinks and sitemap",
-    "Cache manifest/stamps and link checks"
-  ],
-  "resume": "Finish pending publication stages; do not repeat source ingestion or transcript capture. The temporary plan/context HEAD guards must be rebased after this checkpoint commit; retain source-ingestion proof.",
-  "deployment": "Not deployed; no push or live WikiTree edit",
+  "pending": [],
+  "resume": "Goal remains paused. Publication is complete; do not repeat ingestion, the ten-person sync or provider capture. When research is explicitly resumed, next uncaptured query page is 26; retain saved identity/scope HOLDs.",
+  "deployment": "Deployed to https://glasgow.phenotype.dev/ at the owner’s request, 24 October 2026; 212 live file checks pass. No Git push or live WikiTree edit.",
   "resource_checkpoint": {
     "temporary_tabs_closed": [
       236298135,
@@ -99,5 +95,29 @@
     ],
     "browser_process_or_window_launched": false,
     "active_task_browser_tabs": 0
-  }
+  },
+  "paused_checkpoint": {
+    "verification_status": "PASS_SOURCE_STAGE_ONLY_PUBLICATION_PENDING",
+    "pending": [
+      "Selected ten-person publication and its gate",
+      "Latest findings and early Scottish study",
+      "Backlinks and sitemap",
+      "Cache manifest/stamps and link checks"
+    ],
+    "proposal_input_check": {
+      "normalized_preservation_guards_passed": 10,
+      "prior_profile_links_and_sources_retained": true,
+      "public_person_models_unchanged_from_baseline": 10
+    }
+  },
+  "local_publication": {
+    "completed_on": "2026-10-24",
+    "new_records_verified": 30,
+    "reused_ids_verified": 10,
+    "profiles_and_complete_proposals_verified": 10,
+    "new_research_publication_failures": 0,
+    "new_broken_link_pairs": 0,
+    "publication_record": "output/live-site-release-20261024-verification.json"
+  },
+  "coverage_measurement_note": "Coverage figures retain the saved research checkpoint. Deployment performed no new provider searches and did not re-audit the source-aware inventory."
 }
