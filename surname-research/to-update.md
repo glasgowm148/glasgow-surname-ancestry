@@ -1692,7 +1692,7 @@ The August completion entries remain historical. The live parent fields are now 
 
 ## Calder and Irvine working families — 16 October 2026
 
-| [John Glasgow, Calder/Meek household](https://www.wikitree.com/wiki/Glasgow-3481) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
+| [John Glasgow, Calder/Meek household](https://www.wikitree.com/wiki/Glasgow-3481) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments.;add24October1730baptism-date conflict with full prior draft retained. |
 | [William Glasgow, older Kirknewton McCook household](https://www.wikitree.com/wiki/Glasgow-1026) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
 | [John Glasgow, Kirknewton child of 1702](https://www.wikitree.com/wiki/Glasgow-1544) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
 | [George Glasgow, Irvine Margt household](https://www.wikitree.com/wiki/Glasgow-4165) | OPEN | Review the selected uncertain Calder/Irvine parents and retained child/adult and co-parent alternatives; preserve all existing source dates and earlier amendments. |
@@ -2682,7 +2682,7 @@ Other matched entries are supporting citations to existing children. No new pare
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1512) | OPEN | Review existing father at22% (uncertain); retain explicit source and identity limits. No new father attachment. |
 | [Archibald Glasgow](https://www.wikitree.com/wiki/Glasgow-3078) | OPEN | Review existing father at99% (proved); retain explicit source and identity limits. No new father attachment. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1120) | OPEN | Review existing father at42% (possible); retain explicit source and identity limits. No new father attachment. |
-| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1141) | OPEN | Review existing father at34% (possible); retain explicit source and identity limits. No new father attachment. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1141) | OPEN | Review existing father at34% (possible); retain explicit source and identity limits. No new father attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1075) | OPEN | Review existing father at99% (proved); retain explicit source and identity limits. No new father attachment. |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) | OPEN | Review existing father at98% (proved); retain explicit source and identity limits. No new father attachment. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-3052) | OPEN | Review existing father at17% (uncertain); retain explicit source and identity limits. No new father attachment. |
@@ -2755,7 +2755,7 @@ Other matched entries are supporting citations to existing children. No new pare
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-81) | OPEN | Review existing father at 39% (possible); no new father attachment. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-992) | OPEN | Review existing father at 43% (possible); no new father attachment. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1304) | OPEN | Review existing father at 78% (probable); no new father attachment.; cached-source review 24 October adds qualified birth/maternal readings; existing vitals and grades retained. |
-| [Peter Glasgow](https://www.wikitree.com/wiki/Glasgow-1450) | OPEN | Review existing father at 97% (proved); no new father attachment. |
+| [Peter Glasgow](https://www.wikitree.com/wiki/Glasgow-1450) | OPEN | Review existing father at 97% (proved); no new father attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1460) | OPEN | Review existing father at 89% (probable); no new father attachment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1983) | OPEN | Review existing father at 99% (proved); no new father attachment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-2603) | OPEN | Review existing father at 81% (probable); no new father attachment. |
@@ -2801,7 +2801,7 @@ Other matched entries are supporting citations to existing children. No new pare
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-634) | OPEN | Review existing father at 47% (possible); no new father attachment. |
 | [Alexander Glasgow Esq](https://www.wikitree.com/wiki/Glasgow-971) | OPEN | Review existing father at 97% (proved); no new father attachment. |
 | [James McClure Glasgow](https://www.wikitree.com/wiki/Glasgow-1780) | OPEN | Review existing father at 96% (proved); no new father attachment. |
-| [Alexander William Glasgow](https://www.wikitree.com/wiki/Glasgow-1342) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Alexander William Glasgow](https://www.wikitree.com/wiki/Glasgow-1342) | OPEN | Review existing father at 98% (proved); no new father attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1572) | OPEN | Review existing father at 56% (possible); no new father attachment. |
 | [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1574) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [Robert Finley Glasgow](https://www.wikitree.com/wiki/Glasgow-16) | OPEN | Review existing father at 65% (probable); no new father attachment. |
@@ -3141,10 +3141,10 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3006) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3326) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3487) | OPEN | Review existing father at 78% (probable); no new father attachment. |
-| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-3489) | OPEN | Review existing father at 98% (proved); no new father attachment. |
+| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-3489) | OPEN | Review existing father at 98% (proved); no new father attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3924) | OPEN | Review existing father at 99% (proved); no new father attachment. |
 | [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-1506) | OPEN | Review existing father at 95% (proved); no new father attachment. |
-| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-1344) | OPEN | Review existing father at 92% (proved); no new father attachment. |
+| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-1344) | OPEN | Review existing father at 92% (proved); no new father attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1240) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-1322) | OPEN | Review existing father at 74% (probable); no new father attachment. |
 | [Helen Glasgow](https://www.wikitree.com/wiki/Glasgow-3327) | OPEN | Review existing father at 98% (proved); no new father attachment. |
@@ -3185,7 +3185,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Patrick Glasgow](https://www.wikitree.com/wiki/Glasgow-1225) | OPEN | Review existing father at 88% (probable); no new father attachment. |
 | [Hendry Glasgow](https://www.wikitree.com/wiki/Glasgow-1383) | OPEN | Review existing father at 86% (probable); no new father attachment. |
 | [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-3878) | OPEN | Review existing father at 99% (proved); no new father attachment. |
-| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-1323) | OPEN | Review existing father at 77% (probable); no new father attachment. |
+| [Jean Glasgow](https://www.wikitree.com/wiki/Glasgow-1323) | OPEN | Review existing father at 77% (probable); no new father attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1430) | OPEN | Review existing father at 65% (probable); no new father attachment. |
 | [Magdalen Glasgow](https://www.wikitree.com/wiki/Glasgow-4103) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1229) | OPEN | Review existing father at 94% (proved); no new father attachment. |
@@ -3194,7 +3194,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3456) | OPEN | Review existing father at 55% (possible); no new father attachment. |
 | [Elizabeth Glasgow](https://www.wikitree.com/wiki/Glasgow-3945) | OPEN | Review existing father at 96% (proved); no new father attachment. |
 | [Lowdenner Glasgow](https://www.wikitree.com/wiki/Glasgow-771) | OPEN | Review existing father at 36% (possible); no new father attachment. |
-| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-1432) | OPEN | Review existing father at 69% (probable); no new father attachment. |
+| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-1432) | OPEN | Review existing father at 69% (probable); no new father attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-1510) | OPEN | Review existing father at 99% (proved); no new father attachment. |
 | [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-2849) | OPEN | Review existing father at 89% (probable); no new father attachment. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-4126) | OPEN | Review existing father at 98% (proved); no new father attachment. |
@@ -3268,7 +3268,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2492) | OPEN | Review existing father at 65% (probable); no new father attachment. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1222) | OPEN | Review existing father at 94% (proved); no new father attachment. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2102) | OPEN | Review existing father at 61% (probable); no new father attachment. |
-| [Janet (Glasgow) Blackburn](https://www.wikitree.com/wiki/Glasgow-1448) | OPEN | Review existing father at 43% (possible); no new father attachment. Record compatible Livingston Janet baptised 2 February 1777, Thomas Glasgow/Christian Davidson; retain Bridgeton-place discrepancy, identity HOLD, before-baptism birth and 43% father assessment. No parent attachment. |
+| [Janet (Glasgow) Blackburn](https://www.wikitree.com/wiki/Glasgow-1448) | OPEN | Review existing father at 43% (possible); no new father attachment. Record compatible Livingston Janet baptised 2 February 1777, Thomas Glasgow/Christian Davidson; retain Bridgeton-place discrepancy, identity HOLD, before-baptism birth and 43% father assessment. No parent attachment.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [George Glasgow](https://www.wikitree.com/wiki/Glasgow-3611) | OPEN | Review existing father at 88% (probable); no new father attachment. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3121) | OPEN | Review existing father at 67% (probable); no new father attachment. |
 | [Richard Glasgow](https://www.wikitree.com/wiki/Glasgow-1551) | OPEN | Review existing father at 72% (probable); no new father attachment. |
@@ -4049,13 +4049,13 @@ Sixty provider transcripts are indexed under existing subjects, qualified candid
 ## 23 October 2026 — Parish household parentage and lifetime identities
 
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
-| [George Glasgow](https://www.wikitree.com/wiki/Glasgow-1058) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
+| [George Glasgow](https://www.wikitree.com/wiki/Glasgow-1058) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [David Glasgow](https://www.wikitree.com/wiki/Glasgow-1218) | OPEN | Add the interpreted parish household evidence. Existing father 97% → 70% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
 | [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-1321) | OPEN | Add the interpreted parish household evidence. Existing father 95% → 76% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1333) | OPEN | Add the interpreted parish household evidence. Existing father 60% → 98% (confident); retain the stated identity limits. |
-| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1336) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments. |
-| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1382) | OPEN | Add the interpreted parish household evidence. Existing father 98% → 78% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1336) | OPEN | Add the reciprocal parish household findings and qualified child-father assessments.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1382) | OPEN | Add the interpreted parish household evidence. Existing father 98% → 78% (probable); retain the stronger record-only clause conditionally and qualify the adult identity.;24October derivative-source supplement retains vitals/grades and records source conflicts. |
 | [Catharine Glasgow](https://www.wikitree.com/wiki/Glasgow-1451) | OPEN | Add the interpreted parish household evidence. Existing father 71% → 97% (confident); retain the stated identity limits. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1481) | OPEN | Add the interpreted parish household evidence. Existing father 64% → 97% (confident); retain the stated identity limits. |
 | [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-1482) | OPEN | Add the interpreted parish household evidence. Existing father 87% → 97% (confident); retain the stated identity limits. |
@@ -4224,3 +4224,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3678) | OPEN | New possible father Joseph Glasgow-1543, 30%, with will-subject identity and biological role both unresolved. Original 1829 William/Sally deed verified; William 563 retained as compatible will subject. No mother, vital date or live change. |
 | [Joseph Glasgow](https://www.wikitree.com/wiki/Glasgow-1543) | OPEN | New possible biologicalfather hypothesis Joseph 1543→William 3678 at 30%; will William identity and biologicalrole both unresolved. Compatible William 563 remains, 559 weaker; upbringing does not prove sonship. Realestate/furniture to nephew Robert, remainingproperty to Williamchildren. Original 1829 William/Sally Reed Creek deed confirmsadult/locality, notkinship; dateconflict retained. Josephfather James 35% and allmothers/vitals unchanged. |
 | [Sarah (Patterson) Glasgow](https://www.wikitree.com/wiki/Patterson-13881) | OPEN | Original 1829 Reed Creek deed checked: William and Sally co-grantors, 190 acres,$1,050; faintopeningday/3 Juneearlierclaim versus 8 Juneinbothacknowledgments retained; recorded 12 January 1830. Husband’s possible Josephfather 30% separately qualified; no maternal change. |
+
+## 24 October 2026 — Findmypast direct-source supplement
+
+| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-3071) | OPEN | Add qualified direct-provider citation for the already-held1793Ramshorn burial; no vital or relationship change. |

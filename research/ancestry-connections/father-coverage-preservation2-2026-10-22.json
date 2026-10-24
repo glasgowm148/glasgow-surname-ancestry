@@ -689,12 +689,28 @@
     },
     "Glasgow-1450": {
       "current_sha256": "2fc1f0c67e1b5f2dbf88de52392c887375972c96a3d76020446126537069657d",
-      "proposed_sha256": "bc0c289e42aa82ab2dd400a1d77aa3f16984492b8cdc268f1d8e3c257bb277a2",
+      "proposed_sha256": "23bd13d7223fc1f82f73e94ed2d0296e3dfddedee53d17def638fa8f9deb36ec",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1450/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Every prior source identity and unrelated biography/research passage retained. Stale initial biography claims are explicitly superseded by the already-maintained vital/relationship account; their original wording and rationale remain in superseded_passages. No vital field, relative selection or percentage is changed by this prose reconciliation.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "bc0c289e42aa82ab2dd400a1d77aa3f16984492b8cdc268f1d8e3c257bb277a2",
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-1450/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "Peter was born before 1790. He is the son of [[Glasgow-1382|Thomas Glasgow]] and [[Davidson-14073|Christine Davidson]]. \n\nPeter was born about 1810.",
+          "after": "The retained child account places Peter's birth before 31 October 1790, uncertain, and names [[Glasgow-1382|Thomas Glasgow]] and [[Davidson-14073|Christine Davidson]] as parents. The existing 97% father assessment concerns that recorded child and family; maternity is not separately graded. An earlier draft also estimated a birth about 1810 for Peter. That later estimate and the Agnes Scott adult household remain a separate identity proposition from the 1790 child. The memorial Peter, whose derivative death readings are 1810 aged19 or 1819 aged48, is a third unresolved comparison. No join among these propositions is established by the shared name.",
+          "rationale": "Current birth remains before 1790-10-31; current findings distinguish this profile from the later memorial Peter. Preserve both prior strands explicitly while preventing them from reading as one person's two births."
+        }
+      ],
+      "draft_consistency_review": {
+        "source": "Current maintained public person model and existing reviewed assessments; no new relationship/vital decision",
+        "reviewed_on": "2026-10-24",
+        "intermediate_additive_proposal_sha256": "b3059f0aa9c9aac397eb6d58dd8beda5987bb92d71eafc61fbde5c8c01df8594",
+        "all_prior_source_identities_retained": true
+      }
     },
     "Glasgow-1460": {
       "current_sha256": "0fe73854918f51883960c12f264e6727a44054b06e6dd371e3a1d65a4ca883aa",

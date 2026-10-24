@@ -18,6 +18,14 @@ The father profiles formerly Glasgow-3490 (1730 Kirknewton child) and Glasgow-34
 
 The earlier profile estimated John's birth about 1730 from the 1751 child. Fatherhood in 1730 makes that estimate untenable for the combined profile. About 1710 is only a generation estimate, not an independently recorded birth date. His death is unknown.
 
+<!-- BEGIN FMP-PAGE18-20261024 -->
+=== Jean1730source-date comparison, 24 October 2026 ===
+
+existing named-father account; keep current father assessment 98%, no new grade Companion transcripts for one event. Compatible with existing child Glasgow-3489 and named-father account Glasgow-3481, but date conflicts with held FamilySearch index date 11 Nov 1730. Preserve the conflict; do not alter the current vital date or infer birth date.<ref>Findmypast, [https://www.findmypast.co.uk/transcript?id=R_686207682&tab=this R_686207682], Jean Glasgow baptism20November1730, Kirknewton and EastCalder; derivative transcript reviewed24October2026, original uninspected.</ref><ref>Findmypast, [https://www.findmypast.co.uk/transcript?id=R_691902720&tab=this R_691902720], Jean Glasgow baptism20November1730, Kirknewton and EastCalder; derivative transcript reviewed24October2026, original uninspected.</ref>
+
+The held11November wording above remains as the earlier cited reading. The two new derivatives read20November; no birth, parent attachment or confidence percentage is changed.
+<!-- END FMP-PAGE18-20261024 -->
+
 == Sources ==
 <references />
 * The former profile also cited the MyHeritage ''Scotland, Births and Baptisms, 1564–1950'' collection overview; its individual 1751 entry is linked above.

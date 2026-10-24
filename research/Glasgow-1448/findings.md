@@ -6,13 +6,19 @@ The 24 October derivative review supplies a compatible Livingston child with the
 
 Current father assessment (22 October 2026): **43% (possible)** for [Glasgow-1382](https://www.wikitree.com/wiki/Glasgow-1382). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
-Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this. Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. The22October review had no held kin clause; the24October derivative monument names the family but has conflicting dates and does not independently settle profile identity. Complete selected father-profile proposition; recorded role and adult identification distinguished below.
+
+Follow-up,24October2026: Livingston monument comparison, 24 October 2026
+
+Two Findmypast derivatives of a Livingston family monument name a daughter Janet of Thomas Glasgow and Christian Davidson; one indexes Janet's death as 16 October 1853 aged 76, compatible with the separate 2 February 1777 baptism, while the other reads 16 October 1873 aged 76, which is not compatible with that baptism. The fuller derivative calls the erector “Janet Glasgow, Blackburn”; Blackburn may be a locality after the name and does not prove a married surname. The public BillionGraves index describes the same family but its photograph preview is too blurred to read, and its own dates cannot settle these disagreements.
+
+[Glasgow-1448](/people/glasgow-1448.html) remains a strengthened compatible candidate for the record-defined Janet. Her inherited Bridgeton, Kincardineshire birth-place claim and Blackburn surname basis remain unverified; no monumental death or birth-place change is assigned. The existing 43% possible father assessment and unassessed mother status are retained pending an original inscription, her marriage/death records, and the Bridgeton claim's source.
 
 ## Father confidence review, seventh batch — 22 October 2026
 
 [Glasgow-1382](https://www.wikitree.com/wiki/Glasgow-1382) remains the selected father, assessed **43% (possible)**. Previous selected-tree status: **unmarked**, without an individual percentage.
 
-Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this.
+Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. The22October review had no held kin clause; the24October derivative monument names the family but has conflicting dates and does not independently settle profile identity.
 
 Scope: Complete selected father-profile proposition; recorded role and adult identification distinguished below.
 
@@ -36,3 +42,19 @@ Next question: Inspect the inherited Bridgeton birth-place basis, the Livingston
 
 Original register images remain uninspected. Existing vitals and relationship assessments are retained; a candidate role assigns neither an event nor parents. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE17-20261024 -->
+
+<!-- BEGIN FMP-PAGE18-20261024 -->
+## Findmypast source review — 24 October 2026
+
+Livingston monument comparison, 24 October 2026
+
+Two Findmypast derivatives of a Livingston family monument name a daughter Janet of Thomas Glasgow and Christian Davidson; one indexes Janet's death as 16 October 1853 aged 76, compatible with the separate 2 February 1777 baptism, while the other reads 16 October 1873 aged 76, which is not compatible with that baptism. The fuller derivative calls the erector “Janet Glasgow, Blackburn”; Blackburn may be a locality after the name and does not prove a married surname. The public BillionGraves index describes the same family but its photograph preview is too blurred to read, and its own dates cannot settle these disagreements.
+
+[Glasgow-1448](/people/glasgow-1448.html) remains a strengthened compatible candidate for the record-defined Janet. Her inherited Bridgeton, Kincardineshire birth-place claim and Blackburn surname basis remain unverified; no monumental death or birth-place change is assigned. The existing 43% possible father assessment and unassessed mother status are retained pending an original inscription, her marriage/death records, and the Bridgeton claim's source.
+
+- [Findmypast PRS/SCOTLAND/MI/ADD/5/00422894](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422894&tab=this)
+- [Findmypast GBPRS/SCOT/MIS/511321](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511321&tab=this)
+- [BillionGraves3399144 — public index, blurred preview unread](https://billiongraves.com/grave/Thomas-Glasgow/3399144)
+
+These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE18-20261024 -->

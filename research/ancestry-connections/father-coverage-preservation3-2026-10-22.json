@@ -347,12 +347,29 @@
     },
     "Glasgow-1342": {
       "current_sha256": "64a5e2eafd2f126fb1adf9bba9004ab41df82f5eee80ef8787920b1c5257219b",
-      "proposed_sha256": "a09870c3305f865620845b91469740b27d4df25c82b4a55ef7e370fd344f0d1c",
+      "proposed_sha256": "052fe9915022ba853683fa18adfb44184cec927687ffe0e290a81a41a4fd7bdc",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1342/father-confidence-2026-10-22c.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Every prior source identity and unrelated biography/research passage retained. Stale initial biography claims are explicitly superseded by the already-maintained vital/relationship account; their original wording and rationale remain in superseded_passages. No vital field, relative selection or percentage is changed by this prose reconciliation.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "a09870c3305f865620845b91469740b27d4df25c82b4a55ef7e370fd344f0d1c",
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-1342/father-confidence-2026-10-22c.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "Alexander was born before 1724. He is the son of [[Glasgow-1313|Alexander Glasgow]] and [[Mubrie-1|Margaret Mubrie]]. ",
+          "after": "Alexander was born before 1724. The reviewed account selects [[Glasgow-1141|Alexander Glasgow]] as father. The inherited mother reference is [[Moultrie-158|Margaret Moultrie]], retained as an unrated tree relationship. An earlier draft named Glasgow-1313 and Mubrie-1; those are historical draft wording, not the retained profile assignments. ",
+          "rationale": "Current profile model selects Glasgow-1141 as proved father and Moultrie-158 as unrated/tree mother; the maintained review explicitly marks the Glasgow-1313 identifier stale."
+        }
+      ],
+      "draft_consistency_review": {
+        "source": "Current maintained public person model and existing reviewed assessments; no new relationship/vital decision",
+        "reviewed_on": "2026-10-24",
+        "intermediate_additive_proposal_sha256": "18d6bb9c5e83971e8df4e11237cecc896f062501408d4f364bae80eed66e4726",
+        "all_prior_source_identities_retained": true
+      },
+      "whitespace_normalized": true
     },
     "Glasgow-1572": {
       "current_sha256": "b10474a17d40d6700d47b9d15fbeaebc7760d9089362125d6241751b6aae3af8",

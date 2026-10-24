@@ -17,6 +17,8 @@ Reviewed: 2026-10-16
 
 **Source-only confirmation.** The Findmypast transcript agrees with the existing structured baptism date and place, the attached confident parents [[Glasgow-1057|John Glasgow]] and [[Spark-330|Agnes Spark]], and the baptism already cited from FamilySearch and ScotlandsPeople. It supplies a recoverable OPR reference but no substantive profile amendment.
 
+Follow-up,24October2026: probable compatible named-father adult candidate only, based on household chronology; no child attachment proposed Companion transcripts for one event. No exact Jean child event/profile or provider ID found in canonical records. The named couple is compatible with the established George Glasgow–Margaret Martin household represented by George-1058 and Martin-103040: their indexed Kilwinning marriage in 1728, son George in 1729 and daughter/son events including Andrew at Irvine in 1733. Adult identity is a qualified household match, not literal proof that these profiles are the named adults.
+
 ## Source findings
 
 - Findmypast, *Scotland, Parish Births & Baptisms 1564-1929*: George Glasgow, baptized 20 November 1687 at Kilwinning, Ayrshire; parents John Glasgow and Agnes Spark; OPR 599/1, item 1, page 26. [Transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3624876&tab=this), record `SCOT/OPR/BAP/3624876`, captured 3 September 2026.
@@ -187,3 +189,14 @@ This is a first numerical review of an existing father, not a new attachment or 
 
 - [fmp-record-r-685316023](https://www.findmypast.co.uk/transcript?id=R_685316023&tab=this).
 - [https://beta.familysearch.org/en/tree/person/sources/KCFS-6B9](https://beta.familysearch.org/en/tree/person/sources/KCFS-6B9).
+
+<!-- BEGIN FMP-PAGE18-20261024 -->
+## Findmypast source review — 24 October 2026
+
+probable compatible named-father adult candidate only, based on household chronology; no child attachment proposed Companion transcripts for one event. No exact Jean child event/profile or provider ID found in canonical records. The named couple is compatible with the established George Glasgow–Margaret Martin household represented by George-1058 and Martin-103040: their indexed Kilwinning marriage in 1728, son George in 1729 and daughter/son events including Andrew at Irvine in 1733. Adult identity is a qualified household match, not literal proof that these profiles are the named adults.
+
+- [Findmypast R_688619596](https://www.findmypast.co.uk/transcript?id=R_688619596&tab=this)
+- [Findmypast R_685314696](https://www.findmypast.co.uk/transcript?id=R_685314696&tab=this)
+
+These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE18-20261024 -->

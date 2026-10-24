@@ -3226,7 +3226,7 @@
     "source_title": "Jean, Kirknewton/East Calder 11 November 1730: father John, mother omitted in cited index",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5X",
     "status": "Previously reviewed parish index",
-    "note": "Father John, mother omitted in cited entry. Current combined 1730/1751/1755 adult account remains a working identity.",
+    "note": "Father John, mother omitted in cited entry. Current combined 1730/1751/1755 adult account remains a working identity. Follow-up24October2026: new FMP companion transcripts read20November1730 against this held11November reading. Keep both derivative dates pending original; no vital or father-grade change.",
     "profiles": {
       "Glasgow-3481": {
         "role": "named adult father"
@@ -19839,21 +19839,40 @@
   {
     "record_id": "held-e-51f0baf92514",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
+    "date": "22 May 1851 (public index; disputed)",
+    "place": "Livingston Old Parish Church, West Lothian, Scotland",
     "association": "https://billiongraves.com/grave/Thomas-Glasgow/3399144",
-    "source_title": "https://billiongraves.com/grave/Thomas-Glasgow/3399144",
+    "source_title": "BillionGraves3399144 — Thomas Glasgow, public index and unread preview",
     "source_url": "https://billiongraves.com/grave/Thomas-Glasgow/3399144",
     "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
     "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "status": "Public derivative index reviewed; original inscription unread; date conflict HOLD",
     "profiles": {
       "Glasgow-1448": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Compatible named Janet family comparison; 1853/1873 death and Blackburn locality/surname unresolved. Existing43% father grade retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1382": {
+        "role": "Strong adult family comparison only; FMP1831 vs current/BillionGraves1851 death conflict; no vital assignment.",
+        "timeline_group": "Qualified source records"
+      },
+      "Davidson-14073": {
+        "role": "Compatible named wife/mother comparison; age43/45 dispute, adult identity qualified.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1450": {
+        "role": "Source-defined Peter comparison only. Literal1810/1819 deaths conflict with current later adult household and each other; no death assignment or regrade.",
+        "timeline_group": "Qualified source records"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review7-2026-10-22.json"
+    "note": "One apparent monument family, three inconsistent derivative accounts; preserve each literal reading and shared underlying-source group. Do not count as three independent sources or infer birth 1766 independently from indexed age 85; no exact death/birth assignment, surname correction, new person, grade change or parent attachment. “Janet Glasgow, Blackburn” follows the name in the fuller derivative and may denote locality. It does not establish Blackburn as a spouse surname. Existing Glasgow-1448 LastNameCurrent Blackburn and Bridgeton, Kincardineshire birth place require source review; do not silently overwrite them. FMP00422894 reads Janet16October1853age76, Thomas22July1831age85, Christian5November1795age43, Peter12September1810age19. FMP511321 reads Janet16October1873age76, Thomas22May1831age85, Christian5November1795age45, Peter12September1819age48. Public BillionGraves3399144 gives Thomas22May1851age85 and1766-derived birth; its preview is blurred/untranscribed.",
+    "provenance": "research/findmypast-glasgow-audit/supporting-source-review-2026-10-24.json#/records/billiongraves-3399144",
+    "year": 1851,
+    "country": "Scotland",
+    "event_role": "crowdsourced monumental index claim",
+    "source_quality": "crowdsourced_derivative",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
   },
   {
     "record_id": "held-e-fe3e3f4774f8",
@@ -41167,5 +41186,560 @@
         "href": "/branches/research-irish-moneymore/#wythe-william-possible-father"
       }
     ]
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093167",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093167",
+    "association": "Janet Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Janet Glasgow",
+    "event_role": "burial transcript",
+    "date": "09 Jul 1840",
+    "year": 1840,
+    "place": "Calton, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093167&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Janet Glasgow",
+    "status": "Inspected derivative transcript; compatible_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "A saved Findmypast derivative transcript records a Janet, titled Mrs Glasgow, buried at Calton on 9 July 1840, aged 49, with fever noted. The age implies a birth around 1791. Glasgow-3066 is a locality-and-age-compatible comparison, but the transcript does not establish her birth surname or profile identity; the original entry remains unchecked. The age-derived year and Calton locality give a meaningful existing-profile comparison, but 'Mrs Glasgow' does not prove natal surname or identify a spouse. Keep only as a comparison; do not attach the burial to Glasgow-3066. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-3066": {
+        "role": "Weak locality/approximate-age comparison only. Mrs Glasgow does not prove natal surname or identify Janet (Glasgow) Scott. No burial assigned.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093167",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093165",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093165",
+    "association": "Janet Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Janet Glasgow",
+    "event_role": "burial transcript",
+    "date": "26 May 1843",
+    "year": 1843,
+    "place": "Calton, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093165&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Janet Glasgow",
+    "status": "Inspected derivative transcript; compatible_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "A saved Findmypast derivative transcript records a Janet, titled Mrs Glasgow, buried at Calton on 26 May 1843, aged 51, with dropsy noted. The age implies a birth around 1792. It is a distinct death from the 1840 Calton burial; no existing profile match is established, and the original entry remains unchecked. This is a separate decedent from 093167: burial in 1843 cannot describe someone already buried in 1840. It may be compared separately with Glasgow-3066, but neither the repeated Janet name nor Mrs Glasgow establishes identity. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-3066": {
+        "role": "Weak locality/approximate-age comparison only. Mrs Glasgow does not prove natal surname or identify Janet (Glasgow) Scott. No burial assigned.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093165",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093164",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093164",
+    "association": "Jannet Glasgow — Scotland, Parish Deaths & Burials 1564-2017",
+    "person": "Jannet Glasgow",
+    "event_role": "burial transcript",
+    "date": "13 Oct 1793",
+    "year": 1793,
+    "place": "Ramshorn & Blackfriars, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093164&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Jannet Glasgow",
+    "status": "Inspected derivative transcript; compatible_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "A saved Findmypast derivative transcript records Jannet Glasgow, aged 30, buried at Ramshorn & Blackfriars on 13 October 1793, with consumption noted. Its age-derived birth year is 1763, matching the current Glasgow-3071 profile's uncertain 1763–1793 Glasgow account. The original entry has not been inspected, so the transcript supports a qualified match without refining the maintained dates. The event year/place, age-derived birth year, and spelling variant Jannet all align with the current Glasgow-3071 account. Exact death date and cause are new source detail, but original evidence has not been inspected; preserve existing profile vitals/status pending that check. The held full biography already cites the burial on 13 October 1793, age30, consumption, Ramshorn644/1/60; this provider entry is a likely derivative confirmation, not a first discovery of those facts. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-3071": {
+        "role": "Strong existing event comparison; current biography already cites the same burial, age and cause. New direct provider URL, not a new vital fact.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093164",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-prs-scotland-mi-add-5-00422893",
+    "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00422893",
+    "association": "Janet Glasgow — Scotland Monumental Inscriptions",
+    "person": "Janet Glasgow",
+    "event_role": "indexed memorial death transcript",
+    "date": "29 Oct 1872",
+    "year": 1872,
+    "place": "Carstairs, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422893&tab=this",
+    "source_title": "Scotland Monumental Inscriptions — Janet Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "A saved Findmypast monumental-inscription transcript for Carstairs Churchyard records Janet Glasgow's death on 29 October 1872, age 75, and identifies her as the wife of James Gibson, who died in 1831. It also names sons John and James with later Australian and Carluke death details. The transcript's year-level birth/age does not currently identify an existing profile; the original memorial remains unchecked, so no new person or family attachment is proposed. Current profiles Glasgow-3541 and Glasgow-1305 differ by one year from the literal age; these are recorded discrepancies, not safe identity exclusions by themselves because ages and transcriptions may err. Glasgow-144 has a later1874death; Glasgow-1329 has a pre1751birth bound. Glasgow-3066 remains a weak comparison with no Gibson bridge. No new person; inspect the original and marriage/death evidence. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100422893",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-prs-scotland-mi-add-5-00422894",
+    "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00422894",
+    "association": "Janet Glasgow — Scotland Monumental Inscriptions",
+    "person": "Janet Glasgow",
+    "event_role": "indexed memorial death transcript",
+    "date": "16 Oct 1853",
+    "year": 1853,
+    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422894&tab=this",
+    "source_title": "Scotland Monumental Inscriptions — Janet Glasgow",
+    "status": "Inspected derivative transcript; compatible_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "One apparent monument family, three inconsistent derivative accounts; preserve each literal reading and shared underlying-source group. Do not count as three independent sources or infer birth 1766 independently from indexed age 85; no exact death/birth assignment, surname correction, new person, grade change or parent attachment. “Janet Glasgow, Blackburn” follows the name in the fuller derivative and may denote locality. It does not establish Blackburn as a spouse surname. Existing Glasgow-1448 LastNameCurrent Blackburn and Bridgeton, Kincardineshire birth place require source review; do not silently overwrite them. FMP00422894 reads Janet16October1853age76, Thomas22July1831age85, Christian5November1795age43, Peter12September1810age19. FMP511321 reads Janet16October1873age76, Thomas22May1831age85, Christian5November1795age45, Peter12September1819age48. Public BillionGraves3399144 gives Thomas22May1851age85 and1766-derived birth; its preview is blurred/untranscribed. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade. Apparent shared underlying source: Livingston markerLV106; reuse held BillionGraves source s-7b224f2a95201d6f.",
+    "profiles": {
+      "Glasgow-1448": {
+        "role": "Compatible named Janet family comparison; 1853/1873 death and Blackburn locality/surname unresolved. Existing43% father grade retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1382": {
+        "role": "Strong adult family comparison only; FMP1831 vs current/BillionGraves1851 death conflict; no vital assignment.",
+        "timeline_group": "Qualified source records"
+      },
+      "Davidson-14073": {
+        "role": "Compatible named wife/mother comparison; age43/45 dispute, adult identity qualified.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1450": {
+        "role": "Source-defined Peter comparison only. Literal1810/1819 deaths conflict with current later adult household and each other; no death assignment or regrade.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100422894",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-gbprs-scot-mis-511321",
+    "provider_record_id": "GBPRS/SCOT/MIS/511321",
+    "association": "Janet Glasgow — Scotland Monumental Inscriptions",
+    "person": "Janet Glasgow",
+    "event_role": "indexed memorial death transcript",
+    "date": "1873",
+    "year": 1873,
+    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511321&tab=this",
+    "source_title": "Scotland Monumental Inscriptions — Janet Glasgow",
+    "status": "Inspected derivative transcript; compatible_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "One apparent monument family, three inconsistent derivative accounts; preserve each literal reading and shared underlying-source group. Do not count as three independent sources or infer birth 1766 independently from indexed age 85; no exact death/birth assignment, surname correction, new person, grade change or parent attachment. “Janet Glasgow, Blackburn” follows the name in the fuller derivative and may denote locality. It does not establish Blackburn as a spouse surname. Existing Glasgow-1448 LastNameCurrent Blackburn and Bridgeton, Kincardineshire birth place require source review; do not silently overwrite them. FMP00422894 reads Janet16October1853age76, Thomas22July1831age85, Christian5November1795age43, Peter12September1810age19. FMP511321 reads Janet16October1873age76, Thomas22May1831age85, Christian5November1795age45, Peter12September1819age48. Public BillionGraves3399144 gives Thomas22May1851age85 and1766-derived birth; its preview is blurred/untranscribed. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade. Apparent shared underlying source: Livingston markerLV106; reuse held BillionGraves source s-7b224f2a95201d6f.",
+    "profiles": {
+      "Glasgow-1448": {
+        "role": "Compatible named Janet family comparison; 1853/1873 death and Blackburn locality/surname unresolved. Existing43% father grade retained.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1382": {
+        "role": "Strong adult family comparison only; FMP1831 vs current/BillionGraves1851 death conflict; no vital assignment.",
+        "timeline_group": "Qualified source records"
+      },
+      "Davidson-14073": {
+        "role": "Compatible named wife/mother comparison; age43/45 dispute, adult identity qualified.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1450": {
+        "role": "Source-defined Peter comparison only. Literal1810/1819 deaths conflict with current later adult household and each other; no death assignment or regrade.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1SCOT~1MIS~1511321",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-687293281",
+    "provider_record_id": "R_687293281",
+    "association": "Jannet Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jannet Glasgow",
+    "event_role": "baptism transcript",
+    "date": "04 Mar 1722",
+    "year": 1722,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_687293281&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jannet Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Four derivative transcript rows report a Jannet Glasgow baptism at Kirknewton and East Calder in 1722, naming father James Glasgow and leaving the mother blank. Two rows read 4 March and two read 11 March. The original register has not been checked, so the baptism date remains conflicted; these rows do not state a birth date. The father's identity is not established. Possible adult James comparisons Glasgow-1547/Glasgow-3526 remain unassigned: name/parish/chronology alone do not establish which father. Glasgow-3052 is local household context only. No child is created. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687293281",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686207991",
+    "provider_record_id": "R_686207991",
+    "association": "Jannet Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jannet Glasgow",
+    "event_role": "baptism transcript",
+    "date": "11 Mar 1722",
+    "year": 1722,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207991&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jannet Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Four derivative transcript rows report a Jannet Glasgow baptism at Kirknewton and East Calder in 1722, naming father James Glasgow and leaving the mother blank. Two rows read 4 March and two read 11 March. The original register has not been checked, so the baptism date remains conflicted; these rows do not state a birth date. The father's identity is not established. Possible adult James comparisons Glasgow-1547/Glasgow-3526 remain unassigned: name/parish/chronology alone do not establish which father. Glasgow-3052 is local household context only. No child is created. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686207991",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691902719",
+    "provider_record_id": "R_691902719",
+    "association": "Jannet Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jannet Glasgow",
+    "event_role": "baptism transcript",
+    "date": "11 Mar 1722",
+    "year": 1722,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691902719&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jannet Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Four derivative transcript rows report a Jannet Glasgow baptism at Kirknewton and East Calder in 1722, naming father James Glasgow and leaving the mother blank. Two rows read 4 March and two read 11 March. The original register has not been checked, so the baptism date remains conflicted; these rows do not state a birth date. The father's identity is not established. Possible adult James comparisons Glasgow-1547/Glasgow-3526 remain unassigned: name/parish/chronology alone do not establish which father. Glasgow-3052 is local household context only. No child is created. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691902719",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-693603370",
+    "provider_record_id": "R_693603370",
+    "association": "Jannet Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jannet Glasgow",
+    "event_role": "baptism transcript",
+    "date": "04 Mar 1722",
+    "year": 1722,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_693603370&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jannet Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Four derivative transcript rows report a Jannet Glasgow baptism at Kirknewton and East Calder in 1722, naming father James Glasgow and leaving the mother blank. Two rows read 4 March and two read 11 March. The original register has not been checked, so the baptism date remains conflicted; these rows do not state a birth date. The father's identity is not established. Possible adult James comparisons Glasgow-1547/Glasgow-3526 remain unassigned: name/parish/chronology alone do not establish which father. Glasgow-3052 is local household context only. No child is created. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_693603370",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686207682",
+    "provider_record_id": "R_686207682",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "20 Nov 1730",
+    "year": 1730,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207682&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts for one event. Compatible with existing child Glasgow-3489 and named-father account Glasgow-3481, but date conflicts with held FamilySearch index date 11 Nov 1730. Preserve the conflict; do not alter the current vital date or infer birth date. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-3489": {
+        "role": "strong compatible child match; current model date 11 Nov 1730 derives from held index and must remain qualified against new 20 Nov transcript",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3481": {
+        "role": "existing named-father account; keep current father assessment 98%, no new grade",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686207682",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691902720",
+    "provider_record_id": "R_691902720",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "20 Nov 1730",
+    "year": 1730,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691902720&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts for one event. Compatible with existing child Glasgow-3489 and named-father account Glasgow-3481, but date conflicts with held FamilySearch index date 11 Nov 1730. Preserve the conflict; do not alter the current vital date or infer birth date. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-3489": {
+        "role": "strong compatible child match; current model date 11 Nov 1730 derives from held index and must remain qualified against new 20 Nov transcript",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3481": {
+        "role": "existing named-father account; keep current father assessment 98%, no new grade",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691902720",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-688619596",
+    "provider_record_id": "R_688619596",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "04 May 1731",
+    "year": 1731,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_688619596&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; parent_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts for one event. No exact Jean child event/profile or provider ID found in canonical records. The named couple is compatible with the established George Glasgow–Margaret Martin household represented by George-1058 and Martin-103040: their indexed Kilwinning marriage in 1728, son George in 1729 and daughter/son events including Andrew at Irvine in 1733. Adult identity is a qualified household match, not literal proof that these profiles are the named adults. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-1058": {
+        "role": "probable compatible named-father adult candidate only, based on household chronology; no child attachment proposed",
+        "timeline_group": "Qualified source records"
+      },
+      "Martin-103040": {
+        "role": "compatible named-mother adult candidate only; profile identity remains qualified",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688619596",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685314696",
+    "provider_record_id": "R_685314696",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "04 May 1731",
+    "year": 1731,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685314696&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; parent_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts for one event. No exact Jean child event/profile or provider ID found in canonical records. The named couple is compatible with the established George Glasgow–Margaret Martin household represented by George-1058 and Martin-103040: their indexed Kilwinning marriage in 1728, son George in 1729 and daughter/son events including Andrew at Irvine in 1733. Adult identity is a qualified household match, not literal proof that these profiles are the named adults. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-1058": {
+        "role": "probable compatible named-father adult candidate only, based on household chronology; no child attachment proposed",
+        "timeline_group": "Qualified source records"
+      },
+      "Martin-103040": {
+        "role": "compatible named-mother adult candidate only; profile identity remains qualified",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314696",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686209998",
+    "provider_record_id": "R_686209998",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "20 Nov 1732",
+    "year": 1732,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686209998&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts for one event and a strong match to existing child Jean Glasgow-1344: exact date, parish and named father align with held FamilySearch event VQ4K-JYG. New FMP rows explicitly give maternal surname Multree; current tree mother Moultrie-158 remains unassessed, so record the transcript wording and surname variation without changing her relationship grade or identity. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-1344": {
+        "role": "strong existing child match; no vital correction or parent change proposed",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1141": {
+        "role": "record-defined father account, currently assessed 92%; no grade change",
+        "timeline_group": "Qualified source records"
+      },
+      "Moultrie-158": {
+        "role": "compatible possible mother candidate only; transcript spells surname Multree, relationship remains unassessed",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209998",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691904965",
+    "provider_record_id": "R_691904965",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "20 Nov 1732",
+    "year": 1732,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691904965&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts for one event and a strong match to existing child Jean Glasgow-1344: exact date, parish and named father align with held FamilySearch event VQ4K-JYG. New FMP rows explicitly give maternal surname Multree; current tree mother Moultrie-158 remains unassessed, so record the transcript wording and surname variation without changing her relationship grade or identity. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-1344": {
+        "role": "strong existing child match; no vital correction or parent change proposed",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1141": {
+        "role": "record-defined father account, currently assessed 92%; no grade change",
+        "timeline_group": "Qualified source records"
+      },
+      "Moultrie-158": {
+        "role": "compatible possible mother candidate only; transcript spells surname Multree, relationship remains unassessed",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904965",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686332349",
+    "provider_record_id": "R_686332349",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "18 Nov 1739",
+    "year": 1739,
+    "place": "Penicuik, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686332349&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; parent_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "Pair already captured in the ledger; companion transcripts for one event. The named parental pair matches the family names attached as tree relationships to Alexander William Glasgow-1342 and Jean Richie-525. No exact child profile/event found. Glasgow-1432 (Janet, before 10 Jun 1745, Kirknewton) is a possible same-family child comparison but identity is unproved; its date boundary does not exclude a 1739 baptism. Glasgow-1430 is William and therefore not this female Jean on the transcript. Do not create a child from the missing exact profile. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade. Named mother Jean Ritchie is an unresolved comparison to external WikiTree Richie-525, held spouse reference in Glasgow-1342; there is no local public dossier, so no fabricated local role/link is created.",
+    "profiles": {
+      "Glasgow-1342": {
+        "role": "named-father profile candidate; existing family role based on tree only, not upgraded here",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1432": {
+        "role": "possible same-family child comparison only; Janet/Jean identity unresolved",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686332349",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-687756606",
+    "provider_record_id": "R_687756606",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "18 Nov 1739",
+    "year": 1739,
+    "place": "Penicuik, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_687756606&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; parent_candidate_hold",
+    "source_quality": "provider_derivative",
+    "note": "Pair already captured in the ledger; companion transcripts for one event. The named parental pair matches the family names attached as tree relationships to Alexander William Glasgow-1342 and Jean Richie-525. No exact child profile/event found. Glasgow-1432 (Janet, before 10 Jun 1745, Kirknewton) is a possible same-family child comparison but identity is unproved; its date boundary does not exclude a 1739 baptism. Glasgow-1430 is William and therefore not this female Jean on the transcript. Do not create a child from the missing exact profile. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade. Named mother Jean Ritchie is an unresolved comparison to external WikiTree Richie-525, held spouse reference in Glasgow-1342; there is no local public dossier, so no fabricated local role/link is created.",
+    "profiles": {
+      "Glasgow-1342": {
+        "role": "named-father profile candidate; existing family role based on tree only, not upgraded here",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1432": {
+        "role": "possible same-family child comparison only; Janet/Jean identity unresolved",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687756606",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-686210587",
+    "provider_record_id": "R_686210587",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "12 Jul 1743",
+    "year": 1743,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686210587&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts name Jean Glasgow, baptism12July1743, Kirknewton and East Calder, father Andrew Glasgow and mother Isobel Clerk. They strongly match existing Glasgow-1323. The maintained current person model retains77% probable for father Glasgow-1336; the worker older summary reporting tree/unknown was stale. The literal parental clause is now available, superseding that specific question; Andrew’s1714child-to-adult bridge and maternal adult identity remain qualified. No vital or relationship grade change. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-1323": {
+        "role": "Strong existing child/event match; retained77% probable father assessment, no birth refinement.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1336": {
+        "role": "Compatible recorded Andrew father in existing Clerk household; adult continuity remains qualified.",
+        "timeline_group": "Qualified source records"
+      },
+      "Clerk-314": {
+        "role": "Compatible named Isobel mother comparison; no maternal regrade.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686210587",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691904644",
+    "provider_record_id": "R_691904644",
+    "association": "Jean Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Jean Glasgow",
+    "event_role": "baptism transcript",
+    "date": "12 Jul 1743",
+    "year": 1743,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691904644&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Jean Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "Companion transcripts name Jean Glasgow, baptism12July1743, Kirknewton and East Calder, father Andrew Glasgow and mother Isobel Clerk. They strongly match existing Glasgow-1323. The maintained current person model retains77% probable for father Glasgow-1336; the worker older summary reporting tree/unknown was stale. The literal parental clause is now available, superseding that specific question; Andrew’s1714child-to-adult bridge and maternal adult identity remain qualified. No vital or relationship grade change. Source level: inspected derivative transcript; original register/memorial image not inspected. Companion entries or accounts of one monument are not independent corroboration. Baptism is not birth; burial is not an exact death date. Indexed age-derived birth years do not establish exact births. No new person, vital refinement or relationship regrade.",
+    "profiles": {
+      "Glasgow-1323": {
+        "role": "Strong existing child/event match; retained77% probable father assessment, no birth refinement.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1336": {
+        "role": "Compatible recorded Andrew father in existing Clerk household; adult continuity remains qualified.",
+        "timeline_group": "Qualified source records"
+      },
+      "Clerk-314": {
+        "role": "Compatible named Isobel mother comparison; no maternal regrade.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904644",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
   }
 ]

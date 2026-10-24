@@ -12,6 +12,8 @@ Andrew’s 1714 Kirknewton child citation explicitly names Andrew Glasgow as fat
 
 The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.
 
+Follow-up,24October2026: Compatible recorded Andrew father in existing Clerk household; adult continuity remains qualified. Companion transcripts name Jean Glasgow, baptism12July1743, Kirknewton and East Calder, father Andrew Glasgow and mother Isobel Clerk. They strongly match existing Glasgow-1323. The maintained current person model retains77% probable for father Glasgow-1336; the worker older summary reporting tree/unknown was stale. The literal parental clause is now available, superseding that specific question; Andrew’s1714child-to-adult bridge and maternal adult identity remain qualified. No vital or relationship grade change.
+
 ## Father confidence review, second batch — 22 October 2026
 
 [Glasgow-1546](https://www.wikitree.com/wiki/Glasgow-1546) remains the selected father, assessed **85% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -48,3 +50,14 @@ HOLD — Glasgow Lanarkshire baptism 10 Sep 1766, parents blank. Indexed birth y
 - [fmp-record-r-691906289](https://www.findmypast.co.uk/transcript?id=R_691906289&tab=this).
 - [fmp-record-scot-opr-bap-0734610](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0734610&tab=this).
 - [https://familysearch.org/ark:/61903/1:1:VQ4K-P5V](https://familysearch.org/ark:/61903/1:1:VQ4K-P5V).
+
+<!-- BEGIN FMP-PAGE18-20261024 -->
+## Findmypast source review — 24 October 2026
+
+Compatible recorded Andrew father in existing Clerk household; adult continuity remains qualified. Companion transcripts name Jean Glasgow, baptism12July1743, Kirknewton and East Calder, father Andrew Glasgow and mother Isobel Clerk. They strongly match existing Glasgow-1323. The maintained current person model retains77% probable for father Glasgow-1336; the worker older summary reporting tree/unknown was stale. The literal parental clause is now available, superseding that specific question; Andrew’s1714child-to-adult bridge and maternal adult identity remain qualified. No vital or relationship grade change.
+
+- [Findmypast R_686210587](https://www.findmypast.co.uk/transcript?id=R_686210587&tab=this)
+- [Findmypast R_691904644](https://www.findmypast.co.uk/transcript?id=R_691904644&tab=this)
+
+These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE18-20261024 -->

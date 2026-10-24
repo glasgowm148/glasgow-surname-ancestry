@@ -8,6 +8,8 @@ The retained 1724 Kirknewton index citation identifies Alexander as child of Ale
 
 The 22 October 2026 Findmypast review below records the matched events and qualified comparisons, preserving existing vital dates and relationship assessments. No new person or parent attachment is proposed.
 
+Follow-up,24October2026: named-father profile candidate; existing family role based on tree only, not upgraded here Pair already captured in the ledger; companion transcripts for one event. The named parental pair matches the family names attached as tree relationships to Alexander William Glasgow-1342 and Jean Richie-525. No exact child profile/event found. Glasgow-1432 (Janet, before 10 Jun 1745, Kirknewton) is a possible same-family child comparison but identity is unproved; its date boundary does not exclude a 1739 baptism. Glasgow-1430 is William and therefore not this female Jean on the transcript. Do not create a child from the missing exact profile.
+
 ## Father confidence review, third batch — 22 October 2026
 
 [Glasgow-1141](https://www.wikitree.com/wiki/Glasgow-1141) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
@@ -48,3 +50,14 @@ Next question: Compare the original Currie entry with the existing FamilySearch/
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+
+<!-- BEGIN FMP-PAGE18-20261024 -->
+## Findmypast source review — 24 October 2026
+
+named-father profile candidate; existing family role based on tree only, not upgraded here Pair already captured in the ledger; companion transcripts for one event. The named parental pair matches the family names attached as tree relationships to Alexander William Glasgow-1342 and Jean Richie-525. No exact child profile/event found. Glasgow-1432 (Janet, before 10 Jun 1745, Kirknewton) is a possible same-family child comparison but identity is unproved; its date boundary does not exclude a 1739 baptism. Glasgow-1430 is William and therefore not this female Jean on the transcript. Do not create a child from the missing exact profile.
+
+- [Findmypast R_686332349](https://www.findmypast.co.uk/transcript?id=R_686332349&tab=this)
+- [Findmypast R_687756606](https://www.findmypast.co.uk/transcript?id=R_687756606&tab=this)
+
+These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE18-20261024 -->

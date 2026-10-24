@@ -1071,15 +1071,18 @@
     },
     "Glasgow-3489": {
       "current_sha256": "2a15ce87400372a6cf52243e93e17e100b4c7d0e54f938cb7869a083b795a080",
-      "proposed_sha256": "aa88dc453740be3a7dc15554ea28334dc515201cac7ec5cc827732cccfc47eb9",
-      "previous_proposed_sha256": "2a15ce87400372a6cf52243e93e17e100b4c7d0e54f938cb7869a083b795a080",
+      "proposed_sha256": "5dd8fa3acd7e68a3ae483abb8857ac3eff15bab0e99a58fa5fcf9c3b2c6d5212",
+      "previous_proposed_sha256": "aa88dc453740be3a7dc15554ea28334dc515201cac7ec5cc827732cccfc47eb9",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage6-20261022/previous-proposals/Glasgow-3489.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3489/father-confidence-2026-10-22f.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete normalized prior biography and all source identities retained; additive derivative-source account preserves explicit conflicts and distinguishes literal named roles from adult identity. Current vitals and confidence percentages unchanged.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-3489/father-confidence-2026-10-22f.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-3924": {
       "current_sha256": "4142c33087b9554f76cd4fba55f423d064536d6e5dd956e8dad575b6516ba43a",
@@ -1107,15 +1110,31 @@
     },
     "Glasgow-1344": {
       "current_sha256": "f6e2a220a2a1ade97581f1cb22cc1b54e033c6dee9da367025d1ebafb4e33e27",
-      "proposed_sha256": "07c9c53579c2e1999d953b36920e37a559405390a104f308247a1b276accfd6c",
-      "previous_proposed_sha256": "f6e2a220a2a1ade97581f1cb22cc1b54e033c6dee9da367025d1ebafb4e33e27",
+      "proposed_sha256": "3232d4799cfd12bb502c06ffc3e594b893b53467946f20182e6f870fbc29cdb3",
+      "previous_proposed_sha256": "07c9c53579c2e1999d953b36920e37a559405390a104f308247a1b276accfd6c",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage6-20261022/previous-proposals/Glasgow-1344.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1344/father-confidence-2026-10-22f.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Every prior source identity and unrelated biography/research passage retained. Stale initial biography claims are explicitly superseded by the already-maintained vital/relationship account; their original wording and rationale remain in superseded_passages. No vital field, relative selection or percentage is changed by this prose reconciliation.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-1344/father-confidence-2026-10-22f.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "Jean was born before 1732. She is the daughter of [[Glasgow-1313|Alexander Glasgow]] and [[Mubrie-1|Margaret Mubrie]]. ",
+          "after": "Jean was born before 1732. The reviewed account selects [[Glasgow-1141|Alexander Glasgow]] as father. The inherited mother reference is [[Moultrie-158|Margaret Moultrie]], retained as an unrated tree relationship. An earlier draft named Glasgow-1313 and Mubrie-1; those are historical draft wording, not the retained profile assignments. ",
+          "rationale": "Current profile model selects Glasgow-1141 as proved father and Moultrie-158 as unrated/tree mother; the maintained review explicitly marks the Glasgow-1313 identifier stale."
+        }
+      ],
+      "draft_consistency_review": {
+        "source": "Current maintained public person model and existing reviewed assessments; no new relationship/vital decision",
+        "reviewed_on": "2026-10-24",
+        "intermediate_additive_proposal_sha256": "902affc4e6caedaeb2ae43049b351bc3e98f7cfca394c4ec9f2f08739158e5fd",
+        "all_prior_source_identities_retained": true
+      },
+      "whitespace_normalized": true
     },
     "Glasgow-1240": {
       "current_sha256": "5f3062cc9302f9d825b4ee698baf6fa5c884f87aafb755376fead8a34214ea48",

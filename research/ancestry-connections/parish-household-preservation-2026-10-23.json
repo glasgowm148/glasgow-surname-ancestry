@@ -11,11 +11,15 @@
     },
     "Glasgow-1058": {
       "current_sha256": "a48c9f40e7513a23bc9a3b711776120791490ed6fdd35b4f711b845610787b79",
-      "proposed_sha256": "7fc53128abad17c6c2cc79126dd6ffcc5473dc4120eeb46f258862fc80e26328",
+      "proposed_sha256": "5749475145cb77b43f7a4e6ebf20f3328e56876ad2d0f6f0a65ecb6e737d1d8b",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1058/parish-household-review-2026-10-23.wiki",
       "private_comparison": false,
-      "retained": "All captured source identities and prior complete approved draft retained. Superseded percentages and current-conclusion passages remain as dated history; record-only and full-adult identity scopes are distinguished. No parent detachment, maternal reassessment or vital change."
+      "retained": "Complete normalized prior biography and all source identities retained; additive derivative-source account preserves explicit conflicts and distinguishes literal named roles from adult identity. Current vitals and confidence percentages unchanged.",
+      "previous_proposed_sha256": "7fc53128abad17c6c2cc79126dd6ffcc5473dc4120eeb46f258862fc80e26328",
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-1058/parish-household-review-2026-10-23.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-1218": {
       "current_sha256": "4f759f3d5f97931164c42eddbf91d456718bfdb46262f18655ba9aca7f65684f",
@@ -51,19 +55,52 @@
     },
     "Glasgow-1336": {
       "current_sha256": "131402ca282cc73fa50081ebd38fdce401b12ce527cdaeade637410ac9990a2a",
-      "proposed_sha256": "23db96fb5b143ee3b21f9a6a887e014de9aeece73478e89d27ed9ff4431b05de",
+      "proposed_sha256": "187789d29b9872dfcb04054ce82f66a70cec22e2a7f85dbcbcf47b3ed1defb58",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1336/parish-household-review-2026-10-23.wiki",
       "private_comparison": false,
-      "retained": "All captured source identities and prior complete approved draft retained. Superseded percentages and current-conclusion passages remain as dated history; record-only and full-adult identity scopes are distinguished. No parent detachment, maternal reassessment or vital change."
+      "retained": "Every prior source identity and unrelated biography/research passage retained. Stale initial biography claims are explicitly superseded by the already-maintained vital/relationship account; their original wording and rationale remain in superseded_passages. No vital field, relative selection or percentage is changed by this prose reconciliation.",
+      "previous_proposed_sha256": "23db96fb5b143ee3b21f9a6a887e014de9aeece73478e89d27ed9ff4431b05de",
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-1336/parish-household-review-2026-10-23.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "Andrew was born 11 Nov 1714. He is the son of [[Glasgow-1334|Andrew Glasgow]]. <ref>https://familysearch.org/ark:/61903/1:1:VQ4K-NV9</ref> ",
+          "after": "Andrew was born about 11 November 1714.<ref>https://familysearch.org/ark:/61903/1:1:VQ4K-NV9</ref> His probable father is [[Glasgow-1546|Andrew Glasgow]] under the retained 85% assessment. [[Cook-36136|Christian Cook]] is the inherited mother reference, whose identity and maternity remain unassessed. An earlier draft linked Andrew Glasgow-1334; that superseded identifier is retained here as history rather than the selected father. ",
+          "rationale": "Current profile vitals give estimated c.1714-11-11 and current relationship data selects Glasgow-1546 as probable father. Glasgow-1334 is absent from the current people index. Cook-36136 is not in the local index, so retain only as an unrated tree reference."
+        }
+      ],
+      "draft_consistency_review": {
+        "source": "Current maintained public person model and existing reviewed assessments; no new relationship/vital decision",
+        "reviewed_on": "2026-10-24",
+        "intermediate_additive_proposal_sha256": "f6f3df44aa4c91c5c6d63446db7991f4e70e601d33997a6d084afd733b8391f3",
+        "all_prior_source_identities_retained": true
+      },
+      "whitespace_normalized": true
     },
     "Glasgow-1382": {
       "current_sha256": "ff9642814348c6f287349c10b707bc87a169513e1d9594f253822c65acfc5b35",
-      "proposed_sha256": "91c070a879f0839c70cf1203547da95d21974d98abcdf88ae70809a229f0f8ae",
+      "proposed_sha256": "3c1fd1ecc01ce618adc394699b4b3aa212c876c1decf2c005f0b8e4d8f5b87a3",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1382/parish-household-review-2026-10-23.wiki",
       "private_comparison": false,
-      "retained": "All captured source identities and prior complete approved draft retained. Superseded percentages and current-conclusion passages remain as dated history; record-only and full-adult identity scopes are distinguished. No parent detachment, maternal reassessment or vital change."
+      "retained": "Every prior source identity and unrelated biography/research passage retained. Stale initial biography claims are explicitly superseded by the already-maintained vital/relationship account; their original wording and rationale remain in superseded_passages. No vital field, relative selection or percentage is changed by this prose reconciliation.",
+      "previous_proposed_sha256": "91c070a879f0839c70cf1203547da95d21974d98abcdf88ae70809a229f0f8ae",
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-1382/parish-household-review-2026-10-23.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "Thomas Glasgow was born about 1766 and died in 1851.",
+          "after": "Thomas Glasgow's birth remains unresolved: the retained uncertain birth bound is before 2 February 1746 at Livingston (uncertain), while an earlier draft stated about 1766. Findings retain these competing birth claims; the 1746 child and later adult household have not been conclusively joined. His maintained death date remains 22 May 1851.",
+          "rationale": "Current profile vitals retain before-1746-02-02 (uncertain) and exact death 1851-05-22; findings preserve 1746/1766 as conflicting claims. The earlier 1766 statement remains explicit as a prior claim."
+        }
+      ],
+      "draft_consistency_review": {
+        "source": "Current maintained public person model and existing reviewed assessments; no new relationship/vital decision",
+        "reviewed_on": "2026-10-24",
+        "intermediate_additive_proposal_sha256": "82fe5c42d08eee9b1ea04dbc487d7ec694916f01b4b43541e5201518509929be",
+        "all_prior_source_identities_retained": true
+      }
     },
     "Glasgow-1451": {
       "current_sha256": "c4dbcd551cbad907c538f3f2a7f1d093936f6aa4b30ad1575d995aac30600886",

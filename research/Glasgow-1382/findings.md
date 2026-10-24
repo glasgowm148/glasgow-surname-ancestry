@@ -13,6 +13,12 @@ The selected fathers and existing vital fields are retained. Percentages are sub
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
 
+Follow-up,24October2026: Livingston monument comparison, 24 October 2026
+
+Three derivative accounts appear to concern one Livingston memorial family, naming Thomas Glasgow with wife Christian Davidson and children Janet and Peter. Both Findmypast transcriptions give Thomas a death year of 1831 and age 85, but differ between 22 July and 22 May; the public BillionGraves index instead gives 22 May 1851 and age 85, the profile's current death date. Its indexed 1766 birth is calculated from that age and is not independent birth evidence. The public photo preview is blurred, and the stone itself has not been read.
+
+This is a strong same-household adult comparison for [Glasgow-1382](/people/glasgow-1382.html), but the precise death and earlier childhood-to-adult identification remain unresolved. Retain the structured 1851 death, the conflicting 1746/1766 birth claims, the 78% adult-to-[Glasgow-1023](/people/glasgow-1023.html) placement, and the separate 97% Catharine father assessment until the original monument, burial record, and current vital sources are compared. Monument metadata adds no independent proof that the 1746 child became this adult.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-7184f110373c
 
 The transcript-validated baptism record for **Thomas Glasgow**, 02 Feb 1746, Livingston, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -80,3 +86,19 @@ Next question: Inspect the inherited Bridgeton birth-place basis, the Livingston
 
 Original register images remain uninspected. Existing vitals and relationship assessments are retained; a candidate role assigns neither an event nor parents. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE17-20261024 -->
+
+<!-- BEGIN FMP-PAGE18-20261024 -->
+## Findmypast source review — 24 October 2026
+
+Livingston monument comparison, 24 October 2026
+
+Three derivative accounts appear to concern one Livingston memorial family, naming Thomas Glasgow with wife Christian Davidson and children Janet and Peter. Both Findmypast transcriptions give Thomas a death year of 1831 and age 85, but differ between 22 July and 22 May; the public BillionGraves index instead gives 22 May 1851 and age 85, the profile's current death date. Its indexed 1766 birth is calculated from that age and is not independent birth evidence. The public photo preview is blurred, and the stone itself has not been read.
+
+This is a strong same-household adult comparison for [Glasgow-1382](/people/glasgow-1382.html), but the precise death and earlier childhood-to-adult identification remain unresolved. Retain the structured 1851 death, the conflicting 1746/1766 birth claims, the 78% adult-to-[Glasgow-1023](/people/glasgow-1023.html) placement, and the separate 97% Catharine father assessment until the original monument, burial record, and current vital sources are compared. Monument metadata adds no independent proof that the 1746 child became this adult.
+
+- [Findmypast PRS/SCOTLAND/MI/ADD/5/00422894](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422894&tab=this)
+- [Findmypast GBPRS/SCOT/MIS/511321](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511321&tab=this)
+- [BillionGraves3399144 — public index, blurred preview unread](https://billiongraves.com/grave/Thomas-Glasgow/3399144)
+
+These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE18-20261024 -->

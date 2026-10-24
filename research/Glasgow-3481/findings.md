@@ -9,6 +9,8 @@ Reviewed: 2026-10-16
 
 Glasgow-3490 was merged into Glasgow-3481 as the leading identification of the John Glasgow named as father of Jean at Kirknewton and East Calder in 1730 with the John named with Christian Meek as father of children there in 1751 and at Leith in 1755. The former circa-1730 birth estimate for the 1751 father could not fit the 1730 fatherhood; about 1710 is a generation estimate, not a recorded birth. The 1730 index does not name Jean's mother, so Christian Meek's maternity for Jean and any earlier union remain unproved.
 
+Follow-up,24October2026: existing named-father account; keep current father assessment 98%, no new grade Companion transcripts for one event. Compatible with existing child Glasgow-3489 and named-father account Glasgow-3481, but date conflicts with held FamilySearch index date 11 Nov 1730. Preserve the conflict; do not alter the current vital date or infer birth date.
+
 ## Source findings
 
 - [FamilySearch baptism index VQ4K-H5X](https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5X) records Jean Glasgow at Kirknewton and East Calder, 11 November 1730, with father John Glasgow.
@@ -54,3 +56,14 @@ Next question: Compare OPR page image to assess Mook versus Meek; retain existin
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+
+<!-- BEGIN FMP-PAGE18-20261024 -->
+## Findmypast source review — 24 October 2026
+
+existing named-father account; keep current father assessment 98%, no new grade Companion transcripts for one event. Compatible with existing child Glasgow-3489 and named-father account Glasgow-3481, but date conflicts with held FamilySearch index date 11 Nov 1730. Preserve the conflict; do not alter the current vital date or infer birth date.
+
+- [Findmypast R_686207682](https://www.findmypast.co.uk/transcript?id=R_686207682&tab=this)
+- [Findmypast R_691902720](https://www.findmypast.co.uk/transcript?id=R_691902720&tab=this)
+
+These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE18-20261024 -->

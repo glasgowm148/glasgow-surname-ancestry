@@ -4,7 +4,7 @@
   "profiles": {
     "Glasgow-3481": {
       "current_sha256": "1ee59ca3928465c822d06c3b84123ad0681122d7a9eeaab4cf4c52d5fc8e2713",
-      "proposed_sha256": "d9ff4e1e3e7d4a6f68db98151308faa32a9315ecddfebe68bf2a2894c30c9d97",
+      "proposed_sha256": "6e7879a86c658286207b528a99b09407281f2e83f706fc2a90b881362db9871a",
       "all_substantive_passages_accounted_for": true,
       "passages": [
         "Every previous complete public proposal/comparison or normalized capture paragraph and captured source URL retained.",
@@ -15,7 +15,12 @@
         "https://familysearch.org/ark:/61903/1:1:VQCR-935",
         "https://www.familysearch.org/ark:/61903/1:1:VQ4K-H5X",
         "https://www.myheritage.com/research/record-30226-356058/john-glasgow-in-scotland-births-baptisms"
-      ]
+      ],
+      "previous_proposed_sha256": "d9ff4e1e3e7d4a6f68db98151308faa32a9315ecddfebe68bf2a2894c30c9d97",
+      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-3481/Glasgow-3481.md",
+      "retained": "Complete prior normalized account, source identities and earlier amendments retained; additive1730baptism date conflict, no vital or confidence change.",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": []
     },
     "Glasgow-1026": {
       "current_sha256": "fe5444ea1d6b032da8534d43f86df98f334cae90ceb9b50f8f3107783a38ec80",

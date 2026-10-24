@@ -1,0 +1,335 @@
+{
+  "reviewed_on": "2026-10-24",
+  "new_provider_transcript_captures": 20,
+  "newly_indexed_provider_transcripts": 20,
+  "documentary_groups": 11,
+  "existing_event_confirmation_groups": 4,
+  "new_source_defined_or_conflicting_lead_groups": 7,
+  "independent_new_original_inspections": 0,
+  "original_monument_preview": "Public blurred preview viewed; inscription not read",
+  "new_people": 0,
+  "vital_field_changes": 0,
+  "relationship_grade_changes": 0,
+  "source_readers_checked": 21,
+  "person_accounts_checked": 18,
+  "complete_preserved_proposals_checked": 13,
+  "all_selected_full_compact_records_and_full_fast_hydrated_people_agree": true,
+  "vital_and_relationship_models_unchanged": true,
+  "literal_capture_ledger_receipts": 467,
+  "ledger_profile_context_receipts": 325,
+  "ledger_source_only_receipts": 142,
+  "additional_indexed_cached_supporting_receipts_at_original_pointers": 6,
+  "ledger_plus_support_indexed_provider_union": 473,
+  "query_rows_with_dispositions": 379,
+  "query_total": 5872,
+  "query_disposition_percent": 6.5,
+  "contiguous_query_rows_reviewed": 365,
+  "completed_query_pages": "1–18",
+  "saved_detail_gaps": 41,
+  "next_missing_provider_id": "SCOT/OPR/BAP/0628041",
+  "next_uncaptured_search_page": 22,
+  "coverage": "INCOMPLETE; overall percentage unknown",
+  "source_ids": {
+    "GBPRS/GLASGOW/BUR/093167": "s-172d80f0615e0e21",
+    "GBPRS/GLASGOW/BUR/093165": "s-2f381e5f18fdbeb2",
+    "PRS/SCOTLAND/MI/ADD/5/00422894": "s-6437005671bfbcc2",
+    "PRS/SCOTLAND/MI/ADD/5/00422893": "s-ee362901a4920a75",
+    "GBPRS/SCOT/MIS/511321": "s-9cd86c4629b2b315",
+    "R_687293281": "s-6296a96199afc543",
+    "R_686207991": "s-5765c30e6cc8e6f9",
+    "R_691902719": "s-64b3fb21a1cd2447",
+    "R_693603370": "s-b1875ff96a59be03",
+    "GBPRS/GLASGOW/BUR/093164": "s-0812a0e1b83e3c29",
+    "R_686207682": "s-184d0daf47f1cf26",
+    "R_691902720": "s-38399a365c0c5a0a",
+    "R_688619596": "s-15825b770b3ae024",
+    "R_685314696": "s-384cfda253db08c4",
+    "R_686209998": "s-2bcc52ad78e91aed",
+    "R_691904965": "s-c2d25fc95bd8c1b8",
+    "R_686332349": "s-c592e36cf86e319e",
+    "R_687756606": "s-615cb20fb3fea9e6",
+    "R_686210587": "s-2829a07756b53d85",
+    "R_691904644": "s-0a1d059fb23b7708"
+  },
+  "held_BG_source_id_reused": "s-7b224f2a95201d6f",
+  "preservation": {
+    "Glasgow-1058": {
+      "current_sha256": "a48c9f40e7513a23bc9a3b711776120791490ed6fdd35b4f711b845610787b79",
+      "previous_proposed_sha256": "7fc53128abad17c6c2cc79126dd6ffcc5473dc4120eeb46f258862fc80e26328",
+      "proposed_sha256": "5749475145cb77b43f7a4e6ebf20f3328e56876ad2d0f6f0a65ecb6e737d1d8b",
+      "all_prior_substantive_lines_retained": true,
+      "all_prior_source_identities_retained": true
+    },
+    "Glasgow-1141": {
+      "current_sha256": "a8dd823622d994a0708515d9d933439674616f77339666bc417b6ab48b2d4dd0",
+      "previous_proposed_sha256": "9d9404fa396bd5803d9c83f905bc39a25934945e345fad9a29c342a6166f11b7",
+      "proposed_sha256": "14bd6cdd8a44c733f2d5a31bc2b6df0beb786e816a3849b5ac3b3fd34405facb",
+      "all_prior_substantive_lines_retained": true,
+      "all_prior_source_identities_retained": true
+    },
+    "Glasgow-1323": {
+      "current_sha256": "c698158c7d246f055148f0c6eb984b3dfea637c3835d16b14120eab6a1d33b4f",
+      "previous_proposed_sha256": "3fc615727ffbdc60acebd120f0a31e4c08968dda067a39f5d0595c6495022b39",
+      "proposed_sha256": "9033d7bc488fa2372098cbc8291bda3e18a6af897659c107398578ebae8e2d6c",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Jean was born about 1743. She is the daughter of [[Glasgow-1239|Andrew Glasgow]] and [[Clerk-314|Isobel Clerk]]. "
+      ],
+      "whitespace_normalized": true
+    },
+    "Glasgow-1336": {
+      "current_sha256": "131402ca282cc73fa50081ebd38fdce401b12ce527cdaeade637410ac9990a2a",
+      "previous_proposed_sha256": "23db96fb5b143ee3b21f9a6a887e014de9aeece73478e89d27ed9ff4431b05de",
+      "proposed_sha256": "187789d29b9872dfcb04054ce82f66a70cec22e2a7f85dbcbcf47b3ed1defb58",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Andrew was born 11 Nov 1714. He is the son of [[Glasgow-1334|Andrew Glasgow]]. <ref>https://familysearch.org/ark:/61903/1:1:VQ4K-NV9</ref> "
+      ],
+      "whitespace_normalized": true
+    },
+    "Glasgow-1342": {
+      "current_sha256": "64a5e2eafd2f126fb1adf9bba9004ab41df82f5eee80ef8787920b1c5257219b",
+      "previous_proposed_sha256": "a09870c3305f865620845b91469740b27d4df25c82b4a55ef7e370fd344f0d1c",
+      "proposed_sha256": "052fe9915022ba853683fa18adfb44184cec927687ffe0e290a81a41a4fd7bdc",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Alexander was born before 1724. He is the son of [[Glasgow-1313|Alexander Glasgow]] and [[Mubrie-1|Margaret Mubrie]]. "
+      ],
+      "whitespace_normalized": true
+    },
+    "Glasgow-1344": {
+      "current_sha256": "f6e2a220a2a1ade97581f1cb22cc1b54e033c6dee9da367025d1ebafb4e33e27",
+      "previous_proposed_sha256": "07c9c53579c2e1999d953b36920e37a559405390a104f308247a1b276accfd6c",
+      "proposed_sha256": "3232d4799cfd12bb502c06ffc3e594b893b53467946f20182e6f870fbc29cdb3",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Jean was born before 1732. She is the daughter of [[Glasgow-1313|Alexander Glasgow]] and [[Mubrie-1|Margaret Mubrie]]. "
+      ],
+      "whitespace_normalized": true
+    },
+    "Glasgow-1382": {
+      "current_sha256": "ff9642814348c6f287349c10b707bc87a169513e1d9594f253822c65acfc5b35",
+      "previous_proposed_sha256": "91c070a879f0839c70cf1203547da95d21974d98abcdf88ae70809a229f0f8ae",
+      "proposed_sha256": "3c1fd1ecc01ce618adc394699b4b3aa212c876c1decf2c005f0b8e4d8f5b87a3",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Thomas Glasgow was born about 1766 and died in 1851. He was the son of [[Glasgow-1023|Thomas Glasgow]] and [[Mill-357|Janet Mill]].<ref>FamilySearch. https://www.familysearch.org/ark:/61903/1:1:X1RG-JFP (accessed 2025).</ref><ref>BillionGraves. https://billiongraves.com/grave/Thomas-Glasgow/3399144 (accessed 2025).</ref>"
+      ]
+    },
+    "Glasgow-1432": {
+      "current_sha256": "000e32c3dfcc3c7e73e1215f15cbb0da3458774e9cdd0b26d865b3e3a50a1fdf",
+      "previous_proposed_sha256": "3e47d61df822505c91224f442642c8f16a99130ee16c7f5aca18ea9776066f5d",
+      "proposed_sha256": "1e1198182c4c6fa80308388da2e2372f9bdf9bc27d719e879a12e59c113eb7e9",
+      "all_prior_substantive_lines_retained": true,
+      "all_prior_source_identities_retained": true
+    },
+    "Glasgow-1448": {
+      "current_sha256": "8ef1bd010c778c0c08aa1eae394f0aa69de692c75daef6e97a8684cb68c06026",
+      "previous_proposed_sha256": "6b9c600530041d3f3c00cb1efbe3628e229b4062f78442acb75660840a373e2e",
+      "proposed_sha256": "11ab68cc58e447de18d27a3fc5d8110c9ac22863bd5f7bed19d142e98ef37641",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Janet was born about 1780. She is the daughter of [[Glasgow-1382|Thomas Glasgow]] and [[Davidson-14073|Christine Davidson]]. "
+      ],
+      "whitespace_normalized": true
+    },
+    "Glasgow-1450": {
+      "current_sha256": "2fc1f0c67e1b5f2dbf88de52392c887375972c96a3d76020446126537069657d",
+      "previous_proposed_sha256": "bc0c289e42aa82ab2dd400a1d77aa3f16984492b8cdc268f1d8e3c257bb277a2",
+      "proposed_sha256": "23bd13d7223fc1f82f73e94ed2d0296e3dfddedee53d17def638fa8f9deb36ec",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Peter was born before 1790. He is the son of [[Glasgow-1382|Thomas Glasgow]] and [[Davidson-14073|Christine Davidson]]. ",
+        "Peter was born about 1810."
+      ]
+    },
+    "Glasgow-3489": {
+      "current_sha256": "2a15ce87400372a6cf52243e93e17e100b4c7d0e54f938cb7869a083b795a080",
+      "previous_proposed_sha256": "aa88dc453740be3a7dc15554ea28334dc515201cac7ec5cc827732cccfc47eb9",
+      "proposed_sha256": "5dd8fa3acd7e68a3ae483abb8857ac3eff15bab0e99a58fa5fcf9c3b2c6d5212",
+      "all_prior_substantive_lines_retained": true,
+      "all_prior_source_identities_retained": true
+    },
+    "Glasgow-3071": {
+      "current_sha256": "18d99bd3df32cdb99048914c5b40da940a352f6c4e2c7bf26ad0db931ba9fb7d",
+      "previous_proposed_sha256": "09f6ef393cb2367d7e80929dacf9af01383a566ff953a68ab6a28a789e7fe211",
+      "proposed_sha256": "132456d8d41b27982913c824dfa4e5cac43f1b4fa7f607ec42a20ed159222927",
+      "all_prior_substantive_lines_retained": false,
+      "all_prior_source_identities_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "superseded_biography_lines": [
+        "Janet was born in 1763.  She passed away in 1793."
+      ]
+    },
+    "Glasgow-3481": {
+      "current_sha256": "1ee59ca3928465c822d06c3b84123ad0681122d7a9eeaab4cf4c52d5fc8e2713",
+      "previous_proposed_sha256": "d9ff4e1e3e7d4a6f68db98151308faa32a9315ecddfebe68bf2a2894c30c9d97",
+      "proposed_sha256": "6e7879a86c658286207b528a99b09407281f2e83f706fc2a90b881362db9871a",
+      "all_prior_substantive_lines_retained": true,
+      "all_prior_source_identities_retained": true
+    }
+  },
+  "complete_draft_consistency_corrections": [
+    {
+      "profile": "Glasgow-1323",
+      "rationale": "The current public person model and reviewed relationship assessment name Glasgow-1336 at 77% probable; Glasgow-1239 is a distinct Andrew profile born 1730. The earlier identifier is retained as draft history, not an active assignment.",
+      "superseded_biography_lines": [
+        "Jean was born about 1743. She is the daughter of [[Glasgow-1239|Andrew Glasgow]] and [[Clerk-314|Isobel Clerk]]. "
+      ],
+      "current_fields_unchanged": true
+    },
+    {
+      "profile": "Glasgow-1336",
+      "rationale": "Current profile vitals give estimated c.1714-11-11 and current relationship data selects Glasgow-1546 as probable father. Glasgow-1334 is absent from the current people index. Cook-36136 is not in the local index, so retain only as an unrated tree reference.",
+      "superseded_biography_lines": [
+        "Andrew was born 11 Nov 1714. He is the son of [[Glasgow-1334|Andrew Glasgow]]. <ref>https://familysearch.org/ark:/61903/1:1:VQ4K-NV9</ref> "
+      ],
+      "current_fields_unchanged": true
+    },
+    {
+      "profile": "Glasgow-1342",
+      "rationale": "Current profile model selects Glasgow-1141 as proved father and Moultrie-158 as unrated/tree mother; the maintained review explicitly marks the Glasgow-1313 identifier stale.",
+      "superseded_biography_lines": [
+        "Alexander was born before 1724. He is the son of [[Glasgow-1313|Alexander Glasgow]] and [[Mubrie-1|Margaret Mubrie]]. "
+      ],
+      "current_fields_unchanged": true
+    },
+    {
+      "profile": "Glasgow-1344",
+      "rationale": "Current profile model selects Glasgow-1141 as proved father and Moultrie-158 as unrated/tree mother; the maintained review explicitly marks the Glasgow-1313 identifier stale.",
+      "superseded_biography_lines": [
+        "Jean was born before 1732. She is the daughter of [[Glasgow-1313|Alexander Glasgow]] and [[Mubrie-1|Margaret Mubrie]]. "
+      ],
+      "current_fields_unchanged": true
+    },
+    {
+      "profile": "Glasgow-1382",
+      "rationale": "Current profile vitals retain before-1746-02-02 (uncertain) and exact death 1851-05-22; findings preserve 1746/1766 as conflicting claims. The earlier 1766 statement remains explicit as a prior claim.",
+      "superseded_biography_lines": [
+        "Thomas Glasgow was born about 1766 and died in 1851. He was the son of [[Glasgow-1023|Thomas Glasgow]] and [[Mill-357|Janet Mill]].<ref>FamilySearch. https://www.familysearch.org/ark:/61903/1:1:X1RG-JFP (accessed 2025).</ref><ref>BillionGraves. https://billiongraves.com/grave/Thomas-Glasgow/3399144 (accessed 2025).</ref>"
+      ],
+      "current_fields_unchanged": true
+    },
+    {
+      "profile": "Glasgow-1448",
+      "rationale": "Current model has an uncertain before-1777-02-02 field, possible father (43%), and unrated mother. The current source review treats the Livingston record family as compatible, not a resolved identity. Preserve the earlier c.1780 and parentage wording as superseded claims.",
+      "superseded_biography_lines": [
+        "Janet was born about 1780. She is the daughter of [[Glasgow-1382|Thomas Glasgow]] and [[Davidson-14073|Christine Davidson]]. "
+      ],
+      "current_fields_unchanged": true
+    },
+    {
+      "profile": "Glasgow-1450",
+      "rationale": "Current birth remains before 1790-10-31; current findings distinguish this profile from the later memorial Peter. Preserve both prior strands explicitly while preventing them from reading as one person's two births.",
+      "superseded_biography_lines": [
+        "Peter was born before 1790. He is the son of [[Glasgow-1382|Thomas Glasgow]] and [[Davidson-14073|Christine Davidson]]. ",
+        "Peter was born about 1810."
+      ],
+      "current_fields_unchanged": true
+    },
+    {
+      "profile": "Glasgow-3071",
+      "rationale": "Current profile vitals mark both years uncertain. The derivative has age 30, year 1793 and burial 13 October, not an exact birth or death date; the review says no vital fields change.",
+      "superseded_biography_lines": [
+        "Janet was born in 1763.  She passed away in 1793."
+      ],
+      "current_fields_unchanged": true
+    }
+  ],
+  "search_index_recovery": {
+    "action": "Retained complete first JSON array; removed malformed trailing bytes after document end",
+    "rows": 4871,
+    "discarded_trailing_characters": 10722,
+    "before_sha256": "66bfc9f10bf1ee66f9eb37db47270d6df2b19f288f3dc1b80ddfaa936e92909e",
+    "after_sha256": "f35f102cf267a1de542e0ce44f308c8d1b3c73a090b900d5e675c3d075ef3664",
+    "backup": "/tmp/fmp-page18-corrupt-search-index.json",
+    "all_selected_subjects_retained": true,
+    "all_previous_fast_index_identities_retained": true,
+    "previous_fast_index_identities": 4871
+  },
+  "whitespace_normalization": {
+    "profiles": [
+      "Glasgow-1323",
+      "Glasgow-1336",
+      "Glasgow-1342",
+      "Glasgow-1344",
+      "Glasgow-1448"
+    ],
+    "change": "Trailing whitespace only; normalized complete proposals revalidated; five public proposal panels rendered with maintained renderer",
+    "publication_exit": 0,
+    "semantic_content_unchanged": true
+  },
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "selected_publication_gate": {
+    "accounts": 18,
+    "new_failures": 0,
+    "exit": 0,
+    "post_whitespace_accounts": 5,
+    "post_whitespace_new_failures": 0,
+    "post_whitespace_exit": 0
+  },
+  "internal_links": {
+    "pages": 25688,
+    "references": 1352338,
+    "broken_existing": 7,
+    "existing_page_target_pairs": 4,
+    "new_pairs": 0,
+    "missing_person_anchors_nongated": 87,
+    "person_anchors_checked": 7576
+  },
+  "finalization": {
+    "sitemap": {
+      "sitemap_urls": 23685,
+      "sitemap_reader_pages": 1262
+    },
+    "search": {
+      "shared_search_assets": 1
+    },
+    "asset_write_passes": 1,
+    "changed_files": 24663,
+    "original_stale_references": 24669,
+    "stale_asset_references": 0
+  },
+  "affected_studies": [
+    "early-scottish-records",
+    "research-calder-testament-household",
+    "research-stevenston-estate-network"
+  ],
+  "related_family_study_followups": {
+    "source_inputs": [
+      "tools/study_stories/research-calder-testament-household.json",
+      "tools/study_stories/research-stevenston-estate-network.json"
+    ],
+    "public_routes": [
+      "/branches/research-calder-testament-household/",
+      "/branches/research-stevenston-estate-network/"
+    ],
+    "prior_chapters_and_evidence_preserved": true
+  },
+  "resources": {
+    "owned_research_tabs_closed": 1,
+    "personal_tab_native_ids_preserved": [
+      "236297975",
+      "236298062",
+      "236298086"
+    ],
+    "chrome_windows_at_final_inventory": 1,
+    "explicit_browser_or_renderer_processes_launched": 0,
+    "cua_runtime_reset": true,
+    "memory_pressure_level_at_inventory": 1
+  }
+}

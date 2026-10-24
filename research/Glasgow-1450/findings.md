@@ -4,6 +4,12 @@
 
 Peter’s retained 1790 Livingston child account names Thomas Glasgow and Christine Davidson. The selected Thomas represents that same specific couple and parish family, so the full parental pairing strongly identifies the recorded father. Recorded 1790 child and Davidson household97%; Thomas’s own childhood and Peter’s later adult identity are separate. Original uninspected.
 
+Follow-up,24October2026: Livingston monument Peter comparison, 24 October 2026
+
+The Livingston family monument names a Peter Glasgow as Thomas and Christian's son or Janet's brother, but its two Findmypast derivatives read 12 September 1810 aged 19 and 12 September 1819 aged 48. The public BillionGraves index lists Peter in this family without resolving the original inscription. Neither death is assignable to [Glasgow-1450](/people/glasgow-1450.html): his current adult account has Agnes Scott and children in the 1840s, while the two monumental readings also contradict one another.
+
+Keep the 1790 record-defined child, this profile's later adult household, and the memorial Peter as distinct identity propositions pending the original stone and independent later-life evidence. Preserve the existing 97% father assessment with its recorded-child/adult-identity scope for now; this source alone neither proves a merger nor warrants a new Peter profile or automatic regrade.
+
 ## Father confidence review, second batch — 22 October 2026
 
 [Glasgow-1382](https://www.wikitree.com/wiki/Glasgow-1382) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.
@@ -34,3 +40,19 @@ Role in this account: candidate only: catalogue birth 1790 uncertain and spouse 
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-PAGE18-20261024 -->
+## Findmypast source review — 24 October 2026
+
+Livingston monument Peter comparison, 24 October 2026
+
+The Livingston family monument names a Peter Glasgow as Thomas and Christian's son or Janet's brother, but its two Findmypast derivatives read 12 September 1810 aged 19 and 12 September 1819 aged 48. The public BillionGraves index lists Peter in this family without resolving the original inscription. Neither death is assignable to [Glasgow-1450](/people/glasgow-1450.html): his current adult account has Agnes Scott and children in the 1840s, while the two monumental readings also contradict one another.
+
+Keep the 1790 record-defined child, this profile's later adult household, and the memorial Peter as distinct identity propositions pending the original stone and independent later-life evidence. Preserve the existing 97% father assessment with its recorded-child/adult-identity scope for now; this source alone neither proves a merger nor warrants a new Peter profile or automatic regrade.
+
+- [Findmypast PRS/SCOTLAND/MI/ADD/5/00422894](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422894&tab=this)
+- [Findmypast GBPRS/SCOT/MIS/511321](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511321&tab=this)
+- [BillionGraves3399144 — public index, blurred preview unread](https://billiongraves.com/grave/Thomas-Glasgow/3399144)
+
+These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-PAGE18-20261024 -->
