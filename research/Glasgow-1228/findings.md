@@ -11,6 +11,8 @@ The inspected Findmypast transcript separates David's **12 May 1742 birth** from
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
 
+Follow-up, 24 October 2026: The 24 October saved child-entry review retains this profile as a qualified candidate comparison on identity HOLD; no family attachment, vital correction or new person is proposed for this comparison.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-5639753a39b0
 
 The transcript-validated baptism record for **David Glasgow**, 23 May 1742, Livingston, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -53,3 +55,11 @@ Role in this account: Very weak comparison with major reported-age conflict; no 
 
 [Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
 <!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+
+<!-- BEGIN FMP-NEXT12-20261024 -->
+## Mid Calder David comparison — 24 October 2026
+
+The Mid Calder OPR 694/3, item 1, p.60 derivative explicitly labels **30 April 1805** as Helen Glasgow's birth and names David Glasgow and Margaret Ferguson. Two companion indexes give only birth year 1805, with one adding residence and baptism-place fields; none supplies a baptism date. The three IDs concern one source-defined child event, with no current child profile assigned. [Findmypast SCOT/OPR/BAP/4590485](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4590485&tab=this); [Findmypast R_686320182](https://www.findmypast.co.uk/transcript?id=R_686320182&tab=this); [Findmypast R_694113950](https://www.findmypast.co.uk/transcript?id=R_694113950&tab=this). Original register uninspected. David Glasgow-1228 (recorded birth 12 May 1742 at Livingston) is an age-compatible father candidate only. No Margaret Ferguson household bridge identifies him as the Mid Calder adult; Glasgow-1218 and Glasgow-3458 remain alternatives. Neither place difference nor age alone is an exclusion. His current vitals and relationship grades remain unchanged pending original and marriage/residence evidence.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-NEXT12-20261024 -->

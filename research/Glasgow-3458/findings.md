@@ -10,6 +10,8 @@ The inspected Findmypast transcript explicitly names Abraham Glasgow, wright, an
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
 
+Follow-up, 24 October 2026: The 24 October saved child-entry review retains this profile as a qualified candidate comparison on identity HOLD; no family attachment, vital correction or new person is proposed for this comparison.
+
 ## Birth and baptism review — 23 October 2026
 
 [Findmypast parish transcript SCOT/OPR/BAP/0729726](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0729726&tab=this), citing OPR 685_2/8, item 3, p. 212, gives birth 24 October and baptism 2 November 1765, father Abraham Glasgow, wright, mother May Ormiston, and Pleasance residence. Correct the profile's 24 November birth to 24 October; retain the baptism separately and do not treat record place or residence as independent birth-place proof. Compare the original register and Abraham/May marriage for the selected adult-profile bridge. The father assessment remains 66% (probable).
@@ -37,3 +39,11 @@ Role in this account: Leading compatible candidate only; no 1822 death or coachm
 
 [Shared current record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Original images remain uninspected; comparison roles do not assign events or change family grades.
 <!-- END FMP-BIRTH-SCOPE-PAGE7-20261023 -->
+
+<!-- BEGIN FMP-NEXT12-20261024 -->
+## Mid Calder David comparison — 24 October 2026
+
+The Mid Calder OPR 694/3, item 1, p.60 derivative explicitly labels **30 April 1805** as Helen Glasgow's birth and names David Glasgow and Margaret Ferguson. Two companion indexes give only birth year 1805, with one adding residence and baptism-place fields; none supplies a baptism date. The three IDs concern one source-defined child event, with no current child profile assigned. [Findmypast SCOT/OPR/BAP/4590485](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4590485&tab=this); [Findmypast R_686320182](https://www.findmypast.co.uk/transcript?id=R_686320182&tab=this); [Findmypast R_694113950](https://www.findmypast.co.uk/transcript?id=R_694113950&tab=this). Original register uninspected. David Glasgow-3458 (recorded birth 24 October 1765 in the Edinburgh/St Cuthberts account) is an age-compatible father candidate only. No Margaret Ferguson household or move to Mid Calder identifies him; Glasgow-1218 and Glasgow-1228 remain alternatives. The child event gives no new proof about his own father or later life. Retain existing vitals and grades; inspect original and household bridge.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-NEXT12-20261024 -->

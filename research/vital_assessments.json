@@ -1385,6 +1385,45 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-glasgow-1354-birth-precision-20261024",
+      "subject": "Glasgow-1354",
+      "status": "approved",
+      "reviewed": "2026-10-24",
+      "scope": "birth-date precision refinement only",
+      "basis": "The saved Barony OPR 622/4 item 2 p.341 derivative explicitly labels 12 April 1804 as Elisabeth Glasgow’s birth, names John Glasgow and Helen Smith, and gives Anderston residence. The current profile already carried that day approximately, and its held FamilySearch citation gives the same day. Refine precision only; no baptism date is supplied and the original register remains uninspected. John-1348 as her father remains96%, mother Smith-230548 unassessed; John’s own upstream father remains38%.",
+      "source": {
+        "url": "/people/glasgow-1354.json",
+        "section": "research_findings / Barony birth-date precision —24October2026"
+      },
+      "summary": "Elisabeth Glasgow: approximate12April1804 becomes explicit indexed12April1804 birth; baptism unrecorded.",
+      "vitals": {
+        "birth": {
+          "date": "1804-04-12",
+          "place": "Barony, Lanarkshire, Scotland, United Kingdom",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Explicit birth field in saved provider derivative; original register uninspected. Existing locality retained without independently proving exact birthplace.",
+          "note": "The saved Barony OPR 622/4 item 2 p.341 derivative explicitly labels 12 April 1804 as Elisabeth Glasgow’s birth, names John Glasgow and Helen Smith, and gives Anderston residence. The current profile already carried that day approximately, and its held FamilySearch citation gives the same day. Refine precision only; no baptism date is supplied and the original register remains uninspected. John-1348 as her father remains96%, mother Smith-230548 unassessed; John’s own upstream father remains38%.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0400859&tab=this",
+          "source_level": "saved provider derivative transcript; original register uninspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1804-04-12",
+        "birth_year": 1804,
+        "birth_note": "The saved Barony OPR 622/4 item 2 p.341 derivative explicitly labels 12 April 1804 as Elisabeth Glasgow’s birth, names John Glasgow and Helen Smith, and gives Anderston residence. The current profile already carried that day approximately, and its held FamilySearch citation gives the same day. Refine precision only; no baptism date is supplied and the original register remains uninspected. John-1348 as her father remains96%, mother Smith-230548 unassessed; John’s own upstream father remains38%.",
+        "date_years": [
+          1804
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

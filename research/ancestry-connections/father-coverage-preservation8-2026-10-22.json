@@ -985,15 +985,35 @@
     },
     "Glasgow-1354": {
       "current_sha256": "6662393f913d2d377f0629b9a7a109b10a9c615545903f192c6ce6bb3a62b908",
-      "proposed_sha256": "8469c30e1d89a307b0220808172ceab99ab9174f8e7af56c6b86f78c6e19a079",
-      "previous_proposed_sha256": "6662393f913d2d377f0629b9a7a109b10a9c615545903f192c6ce6bb3a62b908",
+      "proposed_sha256": "1edbf41a4f0212a3f3c8771b239c14dd845a55829a4453c8ae3a0967afdf2294",
+      "previous_proposed_sha256": "8469c30e1d89a307b0220808172ceab99ab9174f8e7af56c6b86f78c6e19a079",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-1354.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1354/father-confidence-2026-10-22h.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. All prior citations retained. Added qualified saved-child-entry comparison; only explicitly reviewed opening/next-test wording superseded. No relationship grade or topology changes.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "9154b83de9745cbf4b49de5f311ba84f0abea004:research/Glasgow-1354/father-confidence-2026-10-22h.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "Elisabeth was born about 1804. She is the daughter of [[Glasgow-1348|John Glasgow]] and [[Smith-230548|Helen Smith]]. ",
+          "after": "Elisabeth was born on 12 April 1804, as stated in the Findmypast transcript’s Birth date field; the transcript gives no baptism date or year. The record names John Glasgow and Helen Smith as her parents. The existing profile identifies [[Glasgow-1348|John Glasgow]] as her father (approved at 96% for that father relationship); the profile lists [[Smith-230548|Helen Smith]] as her mother, whose relationship remains unassessed.",
+          "reason": "Reconcile full opening with current approved person account and explicit provider birth field; retain prior cited source identities."
+        },
+        {
+          "before": "Next useful test: Inspect this Barony baptism image for the named couple and event date.",
+          "after": "Next useful test: Inspect the Barony register image to verify the transcript’s stated birth date and locate the baptism date; the transcript has no baptism date or year.",
+          "reason": "Reconcile full opening with current approved person account and explicit provider birth field; retain prior cited source identities."
+        }
+      ],
+      "draft_consistency_review": {
+        "reviewed_on": "2026-10-24",
+        "source": "Current www/people models, approved pair assessments and saved literal source fields. Prior queue actions preserved.",
+        "all_prior_source_identities_retained": true,
+        "estimated_template": "Retained where captured birth/death guess status requires it; explicit transcript birth precision is qualified."
+      }
     },
     "Glasgow-1536": {
       "current_sha256": "ccdf32b0679f90f498bddf84d2c4aea3dd6358607b585ca0af9ccaaae3e21c96",

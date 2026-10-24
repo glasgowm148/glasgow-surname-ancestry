@@ -9,6 +9,8 @@ Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its
 <!-- site-audit-2026-10-07:overall-conclusion -->
 The saved OPR transcript explicitly records James Glasgow’s birth as 25 December 1777 in the Kelso parish account, naming David Glasgow and Janet Hood; its baptism field is blank. The earlier summary called this date baptism, without a separately verified baptism date. His existing birth field is already correct; the recorded parents and selected adult profiles retain their existing assessments. He is probably the James Glasgow, son to David Glasgow, drawn by ballot for the Roxburgh County Militia from Kelso parish in September 1798, when he was 20 and inside the age band balloted; name, father's name, parish and age agree. The ballot list and parish entry are distinct records naming David as his father; companion parish indexes are not independent corroboration. Selection in the ballot does not prove that he served.
 
+Follow-up, 24 October 2026: The 24 October saved child-entry review retains this profile as a qualified candidate comparison on identity HOLD; no family attachment, vital correction or new person is proposed for this comparison.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow and father David, Kelso militia list, 1798: Exact recorded 25 December 1777 Kelso birth and later Edinburgh death fit this 1798 James. No individual militia identifier proves assignment; the public father link is tree-derived only. The original explicitly describes James as son of David Glasgow. James-1222 and David-1218 are compatible regional/chronological candidates, but neither identity is proved; their existing Wiki Tree father link does not independently identify this newspaper family. No certainty upgrade or live parent change is justified. No family or life-date change follows.
@@ -70,3 +72,13 @@ Role in this account: Existing James child; exact 25 December 1777 Kelso birth a
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+<!-- BEGIN FMP-NEXT12-20261024 -->
+## Kelso James/Isabella household comparison — 24 October 2026
+
+Six previously saved Findmypast transcripts describe four Kelso child entries naming James (Jas in 1813) Glasgow and Isabella Fettis: Charles born 18 March 1805, Elisabeth indexed in 1807 (three companion indexes for one entry), Charles indexed in 1813, and Elizabeth indexed in 1813. The 1805 date is explicitly a birth date; the other entries provide birth years only, and none provides a baptism date. The later same-name entries cannot be joined or divided into people without the original pages and life-course evidence. [Findmypast SCOT/OPR/BAP/5059684](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5059684&tab=this); [Findmypast R_686711246](https://www.findmypast.co.uk/transcript?id=R_686711246&tab=this); [Findmypast R_690795906](https://www.findmypast.co.uk/transcript?id=R_690795906&tab=this); [Findmypast R_690796739](https://www.findmypast.co.uk/transcript?id=R_690796739&tab=this); [Findmypast SCOT/OPR/BAP/5058867](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5058867&tab=this); [Findmypast SCOT/OPR/BAP/5059061](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5059061&tab=this).
+
+James Glasgow-1222, born at Kelso in 1777, is a compatible adult father comparison, but no marriage, residence, occupation or later record connects him to Isabella or these children. The prior no-eligible-role holds are retained as history and superseded only by this qualified comparison; no spouse or child profile is assigned. His existing father Glasgow-1218 remains 94% within its earlier 1777/1798 scope; his mother profile Hood-6028 remains unassessed. Original register pages and a James–Isabella bridge are the next tests. These are reused September captures, not first-seen facts or independent original corroboration.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-NEXT12-20261024 -->

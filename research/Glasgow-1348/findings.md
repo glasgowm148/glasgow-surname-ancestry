@@ -6,6 +6,8 @@ The selected Alexander/Mary Munro family offers a specific existing parent coupl
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
+Follow-up, 24 October 2026: The 24 October child-entry review identifies Elisabeth-1354’s indexed birth on 12 April 1804. John as her father remains 96%; his own upstream father placement remains 38%.
+
 ## Father confidence review, second batch — 22 October 2026
 
 [Glasgow-1309](https://www.wikitree.com/wiki/Glasgow-1309) remains the selected father, assessed **38% (possible)**. Previous selected-tree status: **uncertain**, without an individual percentage.
@@ -46,3 +48,11 @@ Role in this account: Named father matched to existing catalogue father via the 
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-NEXT12-20261024 -->
+## Elisabeth's Barony birth-date review — 24 October 2026
+
+The saved Barony OPR 622/4, item 2, p.341 derivative expressly labels **12 April 1804** as Elizabeth Glasgow's birth, names John Glasgow and Helen Smith, and gives Anderston residence; it gives no baptism date. The earlier companion index supplied birth year 1804 only. The named child matches existing Elisabeth Glasgow-1354; this supports the reviewed exact indexed birth-date precision while the original register remains uninspected. [Findmypast SCOT/OPR/BAP/0400859](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0400859&tab=this); [earlier Findmypast R_690427249](https://www.findmypast.co.uk/transcript?id=R_690427249&tab=this). The child-side identification of John-1348 as Elisabeth-1354's father retains **96%**; this record does not raise or resolve John-1348's own **38%** upstream father placement. Helen Smith is literally named; the current Smith-230548 mother-profile identity remains unassessed. No new relationship is made.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-NEXT12-20261024 -->

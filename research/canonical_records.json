@@ -36537,7 +36537,7 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_690427249&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elisabeth Glasgow",
     "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
-    "note": "Disposition: matched parent. Findmypast transcript/index records Elisabeth Glasgow, indexed birth year 1804, Barony, Glasgow, parents John Glasgow and Helen Smith. Current catalogue child/profile and findings support existing subject Glasgow-1354 under Glasgow-1348. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1348, current birth c. 1770. Current identity qualifications are retained. Indexed factual fields: Birth place = Barony,Lanark,Scotland; Birth year = 1804; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Elisabeth; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "note": "Disposition: matched parent. Findmypast transcript/index records Elisabeth Glasgow, indexed birth year 1804, Barony, Glasgow, parents John Glasgow and Helen Smith. Current catalogue child/profile and findings support existing subject Glasgow-1354 under Glasgow-1348. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date. Earlier-parent eligibility comparison: Glasgow-1348, current birth c. 1770. Current identity qualifications are retained. Indexed factual fields: Birth place = Barony,Lanark,Scotland; Birth year = 1804; Country = Scotland; County = Lanarkshire; Father's first name(s) = John; Father's last name = Glasgow; First name(s) = Elisabeth; Last name = Glasgow; Mother's first name(s) = Helen; Mother's last name = Smith; Place = Barony, Glasgow; Record set = Scotland, Parish Births & Baptisms 1564-1929; Sex = Female. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration. Follow-up, 24 October 2026: companion provider record SCOT/OPR/BAP/0400859 explicitly labels 12 Apr 1804 as birth for the matched existing child Glasgow-1354; reviewed precision refinement applies to that child profile. This R_690427249 row itself still supplies only indexed birth year 1804, so retain its date/year, source URL, original note, profile roles and provenance. Original OPR image uninspected; father Glasgow-1348 child-side 96%, mother Smith-230548 unassessed, and John’s own upstream 38% unchanged.",
     "profiles": {
       "Glasgow-1354": {
         "role": "Existing child-profile family match to indexed name/year/locality and named parents; no new person or relationship grade proposed.",
@@ -36549,7 +36549,7 @@
       }
     },
     "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690427249; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-24",
     "publish_to_record_index": true
   },
   {
@@ -42391,5 +42391,381 @@
       }
     ],
     "record_category": "Marriages"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-5059684",
+    "provider_record_id": "SCOT/OPR/BAP/5059684",
+    "association": "Charles Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Charles Glasgow",
+    "date": "18 Mar 1805",
+    "year": 1805,
+    "place": "Kelso",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5059684&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Charles Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "One Kelso source-defined Charles, exact birth 18 Mar 1805, parents James Glasgow/Isabella Fettis; OPR 793/4 item 2 p.368. No baptism date. The 1813 Charles p.214 is a separate indexed entry; succession versus index error unresolved. Father Glasgow-1222 is candidate comparison only. Exact receipt: research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1222": {
+        "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "compatible_candidate",
+    "documentary_group": "kelso-charles-1805"
+  },
+  {
+    "record_id": "fmp-record-r-685539365",
+    "provider_record_id": "R_685539365",
+    "association": "Thomas Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Thomas Glasgow",
+    "date": "1814 (indexed birth year)",
+    "year": 1814,
+    "place": "Muiravonside, Stirling, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685539365&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1620": {
+        "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3329": {
+        "role": "Candidate comparison only: 1814 Thomas child comparison only; current Crawford locality differs, not a concrete exclusion",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "identity_hold",
+    "documentary_group": "muiravonside-thomas-1814"
+  },
+  {
+    "record_id": "fmp-record-r-686320182",
+    "provider_record_id": "R_686320182",
+    "association": "Helen Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Helen Glasgow",
+    "date": "1805 (indexed birth year)",
+    "year": 1805,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686320182&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Helen Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1218": {
+        "role": "Candidate comparison only: Compatible David father comparison only, born before 1744; no Margaret Ferguson household bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1228": {
+        "role": "Candidate comparison only: Compatible David father comparison only, born 1742; no Margaret Ferguson household bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3458": {
+        "role": "Candidate comparison only: Compatible David father comparison only, born 1765; no Margaret Ferguson household bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "identity_hold",
+    "documentary_group": "mid-calder-helen-1805"
+  },
+  {
+    "record_id": "fmp-record-r-686711246",
+    "provider_record_id": "R_686711246",
+    "association": "Elisabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elisabeth Glasgow",
+    "date": "1807 (indexed birth year)",
+    "year": 1807,
+    "place": "Kelso, Roxburgh, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686711246&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elisabeth Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1222": {
+        "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "compatible_candidate",
+    "documentary_group": "kelso-elisabeth-1807"
+  },
+  {
+    "record_id": "fmp-record-r-688892582",
+    "provider_record_id": "R_688892582",
+    "association": "Thomas Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Thomas Glasgow",
+    "date": "1814 (indexed birth year)",
+    "year": 1814,
+    "place": "Muiravonside, Stirling, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_688892582&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1620": {
+        "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3329": {
+        "role": "Candidate comparison only: 1814 Thomas child comparison only; Crawford locality differs, not a concrete exclusion",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "identity_hold",
+    "documentary_group": "muiravonside-thomas-1814"
+  },
+  {
+    "record_id": "fmp-record-r-690795906",
+    "provider_record_id": "R_690795906",
+    "association": "Elisabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elisabeth Glasgow",
+    "date": "1807 (indexed birth year)",
+    "year": 1807,
+    "place": "Kelso, Roxburgh, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690795906&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elisabeth Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1222": {
+        "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "compatible_candidate",
+    "documentary_group": "kelso-elisabeth-1807"
+  },
+  {
+    "record_id": "fmp-record-r-690796739",
+    "provider_record_id": "R_690796739",
+    "association": "Elisabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elisabeth Glasgow",
+    "date": "1807 (indexed birth year)",
+    "year": 1807,
+    "place": "Kelso, Roxburgh, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690796739&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elisabeth Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1222": {
+        "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "compatible_candidate",
+    "documentary_group": "kelso-elisabeth-1807"
+  },
+  {
+    "record_id": "fmp-record-r-694113950",
+    "provider_record_id": "R_694113950",
+    "association": "Helen Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Helen Glasgow",
+    "date": "1805 (indexed birth year)",
+    "year": 1805,
+    "place": "Mid Calder, Midlothian, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694113950&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Helen Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1218": {
+        "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1228": {
+        "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3458": {
+        "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "identity_hold",
+    "documentary_group": "mid-calder-helen-1805"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-0400859",
+    "provider_record_id": "SCOT/OPR/BAP/0400859",
+    "association": "Elizabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elizabeth Glasgow",
+    "date": "12 Apr 1804",
+    "year": 1804,
+    "place": "Barony",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0400859&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elizabeth Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; matched existing child, parent identities qualified; original register uninspected",
+    "note": "Elizabeth Glasgow birth explicitly indexed 12 Apr 1804, Barony OPR 622/4 item 2 p.341, residence Anderston, father John Glasgow, mother Helen Smith; baptism date absent. This refines existing Glasgow-1354 estimated c.1804-04-12 to indexed exact date 1804-04-12 by reviewed assessment; original image uninspected. Child-side father Glasgow-1348 remains 96%; mother Smith-230548 unassessed; John own upstream 38% unaffected. Prior companion R_690427249 supplied only year 1804 and remains separate indexed source row. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1354": {
+        "role": "Identified child of the indexed Barony entry; exact birth date newly indexed, original uninspected",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1348": {
+        "role": "Existing father of Elisabeth Glasgow-1354, child-side assessment 96%; John’s own upstream father remains 38% unchanged.",
+        "timeline_group": "Qualified source records"
+      },
+      "Smith-230548": {
+        "role": "Candidate comparison only: Compatible current mother profile, unassessed",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "matched",
+    "documentary_group": "barony-elisabeth-1804"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4590485",
+    "provider_record_id": "SCOT/OPR/BAP/4590485",
+    "association": "Helen Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Helen Glasgow",
+    "date": "30 Apr 1805",
+    "year": 1805,
+    "place": "Midcalder",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4590485&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Helen Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1218": {
+        "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1228": {
+        "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3458": {
+        "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "identity_hold",
+    "documentary_group": "mid-calder-helen-1805"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-5058867",
+    "provider_record_id": "SCOT/OPR/BAP/5058867",
+    "association": "Charles Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Charles Glasgow",
+    "date": "1813 (indexed birth year)",
+    "year": 1813,
+    "place": "Kelso",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5058867&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Charles Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Charles Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.214, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Separate indexed event from Charles 1805; no distinct-person conclusion. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1222": {
+        "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "compatible_candidate",
+    "documentary_group": "kelso-charles-1813"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-5059061",
+    "provider_record_id": "SCOT/OPR/BAP/5059061",
+    "association": "Elizabeth Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Elizabeth Glasgow",
+    "date": "1813 (indexed birth year)",
+    "year": 1813,
+    "place": "Kelso",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5059061&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Elizabeth Glasgow",
+    "status": "Previously saved inspected provider derivative transcript; source-defined later-born child, identity HOLD; original register uninspected",
+    "note": "Elizabeth Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.248, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Do not equate or divide from 1807 Elisabeth on name/year alone, or infer twins with Charles 1813. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+    "profiles": {
+      "Glasgow-1222": {
+        "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true,
+    "source_quality": "provider_derivative",
+    "record_category": "Births and baptisms",
+    "event_role": "child birth entry; secondary adult role comparison",
+    "identity_status": "compatible_candidate",
+    "documentary_group": "kelso-elizabeth-1813"
   }
 ]

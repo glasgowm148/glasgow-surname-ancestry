@@ -8,6 +8,8 @@ Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qu
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
+Follow-up, 24 October 2026: The 24 October saved child-entry review retains this profile as a qualified candidate comparison on identity HOLD; no family attachment, vital correction or new person is proposed for this comparison.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 Thomas Glasgow, Kentucky postal addressee, 1799: Recorded exact 8 September1761 Currie birth permits adulthood; estimated c.1834 Midlothian death is not exact, and no Kentucky bridge is supplied. No existing profile is identified. Glasgow-3592 and Glasgow-1620 are weak chronology-only comparisons with no Kentucky or correspondence bridge. Other compatible namesakes remain open; a birthplace or absent migration field is not an exclusion. No family or life-date change follows.
@@ -100,3 +102,11 @@ Next question: Inspect Kirknewton baptism and current Glasgow-3346 vital source;
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+
+<!-- BEGIN FMP-NEXT12-20261024 -->
+## Muiravonside Thomas comparison — 24 October 2026
+
+Two saved indexes describe one source-defined Thomas Glasgow child with indexed birth year **1814** at Muiravonside, father Thomas Glasgow and mother Margaret Graham. R_685539365 adds residence and baptism-place fields; neither gives a birth day/month or baptism date. [Findmypast R_685539365](https://www.findmypast.co.uk/transcript?id=R_685539365&tab=this); [Findmypast R_688892582](https://www.findmypast.co.uk/transcript?id=R_688892582&tab=this). Original register uninspected. Thomas Glasgow-1620 (born 1761 Currie, estimated death c.1834) is a chronologically compatible father comparison only. No Margaret Graham marriage, residence or occupation bridge identifies him as the Muiravonside parent. Thomas Glasgow-3329 is a separate possible child comparison, not attached here. Retain all existing relationships and grades; seek original entry and household bridge.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-NEXT12-20261024 -->

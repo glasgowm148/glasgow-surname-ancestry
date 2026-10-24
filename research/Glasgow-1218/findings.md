@@ -16,6 +16,8 @@ Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its
 
 Follow-up, 24 October 2026: existing father profile candidate; 97% applies to John account. The Kelso OPR 793/3, item 1, p.98 transcript records Jean Glasgow’s birth on 12 May 1768 and baptism on 12 June, naming David Glasgow and Janet Hood. The existing John Glasgow-1221 account has the same baptism date, parish and compatible parents, but the Jean/John name discrepancy remains unresolved. No 12 May birth is assigned to John and no second child is proposed. The prior 97% father assessment concerns the existing John account; it does not resolve the new transcript’s identity.
 
+Follow-up, 24 October 2026: The 24 October saved child-entry review retains this profile as a qualified candidate comparison on identity HOLD; no family attachment, vital correction or new person is proposed for this comparison.
+
 ## Current conclusion — additional newspaper originals, 5 October 2026
 
 James Glasgow and father David, Kelso militia list, 1798: Uncertain birth before 13 April 1744 at Stitchel and regional context are compatible with the father David. This is an upper birth bound, not an exact year; the public link to James-1222 is tree-only and no occupation bridge is checked. The original explicitly describes James as son of David Glasgow. James-1222 and David-1218 are compatible regional/chronological candidates, but neither identity is proved; their existing Wiki Tree father link does not independently identify this newspaper family. No certainty upgrade or live parent change is justified. No family or life-date change follows.
@@ -125,3 +127,11 @@ existing father profile candidate; 97% applies to John account. The Kelso OPR 79
 
 Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE19-20261024 -->
+
+<!-- BEGIN FMP-NEXT12-20261024 -->
+## Mid Calder David comparison — 24 October 2026
+
+The Mid Calder OPR 694/3, item 1, p.60 derivative explicitly labels **30 April 1805** as Helen Glasgow's birth and names David Glasgow and Margaret Ferguson. Two companion indexes give only birth year 1805, with one adding residence and baptism-place fields; none supplies a baptism date. The three IDs concern one source-defined child event, with no current child profile assigned. [Findmypast SCOT/OPR/BAP/4590485](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4590485&tab=this); [Findmypast R_686320182](https://www.findmypast.co.uk/transcript?id=R_686320182&tab=this); [Findmypast R_694113950](https://www.findmypast.co.uk/transcript?id=R_694113950&tab=this). Original register uninspected. David Glasgow-1218 (current birth before 13 April 1744, Stichill) is an age-compatible father candidate only. No Margaret Ferguson marriage, locality or occupational bridge identifies him as the Mid Calder adult; Glasgow-1228 and Glasgow-3458 remain compatible alternatives. His earlier child/ancestry assessments are not strengthened by Helen's entry. Test the original Mid Calder page and a David–Margaret household bridge.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-NEXT12-20261024 -->

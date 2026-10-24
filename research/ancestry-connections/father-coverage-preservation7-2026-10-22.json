@@ -299,17 +299,25 @@
     },
     "Glasgow-1228": {
       "current_sha256": "19330fadf049c69e3fe43e9da286e93f4b8a38c79aaae5ec39a871f399a4e1b9",
-      "proposed_sha256": "f2d3b193022217fa8d47e77928177bbd90a6b7833ea9c33c801e9161bf8d8217",
-      "previous_proposed_sha256": "19330fadf049c69e3fe43e9da286e93f4b8a38c79aaae5ec39a871f399a4e1b9",
+      "proposed_sha256": "4e579a518a01aa9c1846d6aec6563e40f98d8d0b4bf004269e4e74bd1ae7e1fa",
+      "previous_proposed_sha256": "f2d3b193022217fa8d47e77928177bbd90a6b7833ea9c33c801e9161bf8d8217",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1228.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1228/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Captured Abraham Glasgow-1227 and Janet Cunnyngham-118, about-1742 chronology, all three FamilySearch URLs and the complete prior father review retained. Findmypast OPR 669/1 transcript replaces the approximate birth statement with 12 May 1742 birth and 23 May baptism, Daviston residence and literal parent names. Father remains 95%; the 1719 Abraham child-to-adult bridge remains inferred. The builder retains the Estimated Date template present in the prior proposal, even though the revised prose now supplies an exact transcript birth date.",
+      "retained": "Captured Abraham Glasgow-1227 and Janet Cunnyngham-118, about-1742 chronology, all three FamilySearch URLs and the complete prior father review retained. Findmypast OPR 669/1 transcript replaces the approximate birth statement with 12 May 1742 birth and 23 May baptism, Daviston residence and literal parent names. Father remains 95%; the 1719 Abraham child-to-adult bridge remains inferred. The builder retains the Estimated Date template present in the prior proposal, even though the revised prose now supplies an exact transcript birth date. All prior citations retained. Added qualified saved-child-entry comparison; only explicitly reviewed opening/next-test wording superseded. No relationship grade or topology changes.",
       "restored_source_passage_count": 0,
       "reference_repairs": [],
-      "reviewed_on": "2026-10-23",
-      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      "reviewed_on": "2026-10-24",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "previous_proposed_git_reference": "9154b83de9745cbf4b49de5f311ba84f0abea004:research/Glasgow-1228/father-confidence-2026-10-22g.wiki",
+      "superseded_passages": [],
+      "draft_consistency_review": {
+        "reviewed_on": "2026-10-24",
+        "source": "Current www/people models, approved pair assessments and saved literal source fields. Prior queue actions preserved.",
+        "all_prior_source_identities_retained": true,
+        "estimated_template": "Retained where captured birth/death guess status requires it; explicit transcript birth precision is qualified."
+      }
     },
     "Glasgow-1225": {
       "current_sha256": "16b2642bd84af24735a97377f5a0dcde0f31e1a4bf851af62ce6ff01a301d6a2",
@@ -1222,17 +1230,25 @@
     },
     "Glasgow-3458": {
       "current_sha256": "921e61ffe27721483f1be3cf37262141c9f40c658bd7768c1cddb2366b06ce89",
-      "proposed_sha256": "8c6965c68261b44e1d23fa8f57fcff2fcc76459c45a8802a255c3edb58808e33",
-      "previous_proposed_sha256": "921e61ffe27721483f1be3cf37262141c9f40c658bd7768c1cddb2366b06ce89",
+      "proposed_sha256": "f25c4ab30e52acd87d9972aa160078a92488ae2d4ae1e72b19366d1e6e835cd9",
+      "previous_proposed_sha256": "8c6965c68261b44e1d23fa8f57fcff2fcc76459c45a8802a255c3edb58808e33",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3458.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3458/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Captured 1765 David account, Abraham Glasgow-1235/May Ormistoun-12 links and FamilySearch XY7P-43J citation retained; prior 66% father assessment and adult-identity limit retained. Findmypast OPR 685_2/8 adds birth 24 October and baptism 2 November 1765, named parents Abraham Glasgow/May Ormiston, wright occupation and Pleasance residence. The prior imprecise year is superseded by the transcript; its Edinburgh place does not separately prove the exact birthplace or adult Abraham identity. The earlier St Cuthberts citation remains in the source basis.",
+      "retained": "Captured 1765 David account, Abraham Glasgow-1235/May Ormistoun-12 links and FamilySearch XY7P-43J citation retained; prior 66% father assessment and adult-identity limit retained. Findmypast OPR 685_2/8 adds birth 24 October and baptism 2 November 1765, named parents Abraham Glasgow/May Ormiston, wright occupation and Pleasance residence. The prior imprecise year is superseded by the transcript; its Edinburgh place does not separately prove the exact birthplace or adult Abraham identity. The earlier St Cuthberts citation remains in the source basis. All prior citations retained. Added qualified saved-child-entry comparison; only explicitly reviewed opening/next-test wording superseded. No relationship grade or topology changes.",
       "restored_source_passage_count": 0,
       "reference_repairs": [],
-      "reviewed_on": "2026-10-23",
-      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      "reviewed_on": "2026-10-24",
+      "source_review": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+      "previous_proposed_git_reference": "9154b83de9745cbf4b49de5f311ba84f0abea004:research/Glasgow-3458/father-confidence-2026-10-22g.wiki",
+      "superseded_passages": [],
+      "draft_consistency_review": {
+        "reviewed_on": "2026-10-24",
+        "source": "Current www/people models, approved pair assessments and saved literal source fields. Prior queue actions preserved.",
+        "all_prior_source_identities_retained": true,
+        "estimated_template": "Retained where captured birth/death guess status requires it; explicit transcript birth precision is qualified."
+      }
     },
     "Glasgow-3292": {
       "current_sha256": "3a88cbfa42c74d0bbcf615504932d5a05195a3fd60dfffdb5f20db1c526e979a",
@@ -1501,15 +1517,30 @@
     },
     "Glasgow-1222": {
       "current_sha256": "d339aa02a6118c17214c14de42c4854c4ae3e962ef798585df862cc7d0833f5c",
-      "proposed_sha256": "4207403b927649715fa169ce96d83ae4f2b34b03c12e666edb2ca47243d49dce",
-      "previous_proposed_sha256": "8bbe15a760f3b0fac026a4169d286b60367c5c8af3883d8453a2458d964dd200",
+      "proposed_sha256": "6acb9848e09ef9f23be378cca874e8eecec44fc28b8fbd68630974c34324d948",
+      "previous_proposed_sha256": "4207403b927649715fa169ce96d83ae4f2b34b03c12e666edb2ca47243d49dce",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1222.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1222/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. All prior citations retained. Added qualified saved-child-entry comparison; only explicitly reviewed opening/next-test wording superseded. No relationship grade or topology changes.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "9154b83de9745cbf4b49de5f311ba84f0abea004:research/Glasgow-1222/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "James Glasgow was born on 25 December 1777 in Kelso, Roxburghshire, Scotland. He was the son of [[Glasgow-1218|David Glasgow]] and [[Glasgow-1219|Janet Glasgow]].<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-3025161/james-glasgow-in-scotland-births-baptisms.</ref> He passed away in 1853.",
+          "after": "James Glasgow was born on 25 December 1777 in Kelso, Roxburghshire, Scotland. The saved Kelso OPR derivative records this as a birth date, with no baptism date exposed, and names David Glasgow and Janet Hood as his parents. The existing father [[Glasgow-1218|David Glasgow]] remains assessed at 94% (proved); [[Hood-6028|Janet (Hood) Glasgow]] is the current compatible mother-profile candidate, still unassessed. The prior draft’s [[Glasgow-1219|Janet Glasgow]] link is retained here as superseded profile-link history, not a second mother.<ref>Scotland, Births and Baptisms, 1564-1950. MyHeritage.com [online database], accessed 2025. https://www.myheritage.com/research/record-30226-3025161/james-glasgow-in-scotland-births-baptisms.</ref><ref name=\"JamesBirth1777\">Findmypast, Scotland, Parish Births & Baptisms 1564–1929, [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5056630&tab=this SCOT/OPR/BAP/5056630], Kelso OPR 793/3 item 1 p.103; derivative transcript, original register uninspected.</ref> He passed away in 1853.",
+          "reason": "Reconcile full opening with current approved person account and explicit provider birth field; retain prior cited source identities."
+        }
+      ],
+      "draft_consistency_review": {
+        "reviewed_on": "2026-10-24",
+        "source": "Current www/people models, approved pair assessments and saved literal source fields. Prior queue actions preserved.",
+        "all_prior_source_identities_retained": true,
+        "estimated_template": "Retained where captured birth/death guess status requires it; explicit transcript birth precision is qualified."
+      }
     },
     "Glasgow-2102": {
       "current_sha256": "686433f7a1a3b6ac6b2e838f3e8f811aa998629a4fab8d365029cf90f090cf0a",

@@ -1,0 +1,252 @@
+{
+  "reviewed_on": "2026-10-24",
+  "publication_count": 13,
+  "new_publications": 12,
+  "existing_publication_updated": "R_690427249",
+  "existing_source_id_preserved": "s-d236732ebabfc729",
+  "pre_existing_canonical_public_aliases_preserved": [
+    {
+      "provider_id": "SCOT/OPR/BAP/3575202",
+      "canonical_id": "irvine-nasmith-allan-1743",
+      "public_id": "6a7791232ab5fcbc",
+      "pre_existing_unchanged_mapping": true
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/3626962",
+      "canonical_id": "fmp-record-scot-opr-bap-3626962",
+      "public_id": "a981190bc64e7e54",
+      "pre_existing_unchanged_mapping": true
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/3628386",
+      "canonical_id": "held-e-deb8cd99605f",
+      "public_id": "ebc3c3f160182cae",
+      "pre_existing_unchanged_mapping": true
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/4033335",
+      "canonical_id": "fmp-record-scot-opr-bap-4033335",
+      "public_id": "80768acbe08cffd5",
+      "pre_existing_unchanged_mapping": true
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/4151485",
+      "canonical_id": "held-e-40820a47a642",
+      "public_id": "54e5994598d57928",
+      "pre_existing_unchanged_mapping": true
+    }
+  ],
+  "source_readers_checked": 13,
+  "source_routes_and_birth_year_country_collections_checked": {
+    "SCOT/OPR/BAP/5059684": {
+      "source_id": "s-b1aa889d86a4c7f4",
+      "record_id": "fmp-record-scot-opr-bap-5059684",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_685539365": {
+      "source_id": "s-2d464f997cabfe90",
+      "record_id": "fmp-record-r-685539365",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_686320182": {
+      "source_id": "s-695fba9ffc3b4409",
+      "record_id": "fmp-record-r-686320182",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_686711246": {
+      "source_id": "s-176ca00d05d86108",
+      "record_id": "fmp-record-r-686711246",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_688892582": {
+      "source_id": "s-28482f589327ba52",
+      "record_id": "fmp-record-r-688892582",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_690795906": {
+      "source_id": "s-f45f3ce11b58ce8c",
+      "record_id": "fmp-record-r-690795906",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_690796739": {
+      "source_id": "s-3b6e3fc4c2cfa2a5",
+      "record_id": "fmp-record-r-690796739",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_694113950": {
+      "source_id": "s-6b2a1956acf2f7dd",
+      "record_id": "fmp-record-r-694113950",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "SCOT/OPR/BAP/0400859": {
+      "source_id": "s-dc6bf46c179c90f7",
+      "record_id": "fmp-record-scot-opr-bap-0400859",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "SCOT/OPR/BAP/4590485": {
+      "source_id": "s-e327beea62255388",
+      "record_id": "fmp-record-scot-opr-bap-4590485",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "SCOT/OPR/BAP/5058867": {
+      "source_id": "s-9eddee1c06a1f4ee",
+      "record_id": "fmp-record-scot-opr-bap-5058867",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "SCOT/OPR/BAP/5059061": {
+      "source_id": "s-597a549cf34f9671",
+      "record_id": "fmp-record-scot-opr-bap-5059061",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    },
+    "R_690427249": {
+      "source_id": "s-d236732ebabfc729",
+      "record_id": "fmp-record-r-690427249",
+      "birth_route": "/sources/births/scotland/1800-1849/"
+    }
+  },
+  "xml_sitemap_and_reader_sitemap_checked": true,
+  "all_nine_profile_relationships_unchanged": true,
+  "vital_precision_changes": {
+    "Glasgow-1354": {
+      "provenance": {
+        "before": null,
+        "after": {
+          "assessment_id": "fmp-glasgow-1354-birth-precision-20261024",
+          "source": "/assets/research/assessments.json",
+          "reviewed": "2026-10-24",
+          "basis": "The saved Barony OPR 622/4 item 2 p.341 derivative explicitly labels 12 April 1804 as Elisabeth Glasgow’s birth, names John Glasgow and Helen Smith, and gives Anderston residence. The current profile already carried that day approximately, and its held FamilySearch citation gives the same day. Refine precision only; no baptism date is supplied and the original register remains uninspected. John-1348 as her father remains96%, mother Smith-230548 unassessed; John’s own upstream father remains38%."
+        }
+      },
+      "note": {
+        "before": null,
+        "after": "The saved Barony OPR 622/4 item 2 p.341 derivative explicitly labels 12 April 1804 as Elisabeth Glasgow’s birth, names John Glasgow and Helen Smith, and gives Anderston residence. The current profile already carried that day approximately, and its held FamilySearch citation gives the same day. Refine precision only; no baptism date is supplied and the original register remains uninspected. John-1348 as her father remains96%, mother Smith-230548 unassessed; John’s own upstream father remains38%."
+      },
+      "source_url": {
+        "before": null,
+        "after": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0400859&tab=this"
+      },
+      "qualifier": {
+        "before": null,
+        "after": "Explicit birth field in saved provider derivative; original register uninspected. Existing locality retained without independently proving exact birthplace."
+      },
+      "source_level": {
+        "before": null,
+        "after": "saved provider derivative transcript; original register uninspected"
+      },
+      "country": {
+        "before": null,
+        "after": "scotland"
+      },
+      "status": {
+        "before": "estimated",
+        "after": "exact"
+      },
+      "date": {
+        "before": "c. 1804-04-12",
+        "after": "1804-04-12"
+      }
+    }
+  },
+  "approved_vital_assessment_id": "fmp-glasgow-1354-birth-precision-20261024",
+  "all_tree_birth_displays_for_1354_exact": true,
+  "other_people_and_topology_runtime_proof": "/tmp/fmp-next12-tree-projection.json",
+  "complete_proposals_checked": 7,
+  "draft_normalized_sha256": {
+    "Glasgow-1222": "6acb9848e09ef9f23be378cca874e8eecec44fc28b8fbd68630974c34324d948",
+    "Glasgow-1354": "1edbf41a4f0212a3f3c8771b239c14dd845a55829a4453c8ae3a0967afdf2294",
+    "Glasgow-1348": "43d88191f10b2349befe9fc3c5fab7178d7093171706a79d9deabefbab152572",
+    "Glasgow-1218": "50570e6272678e7a5dbe4f37384d3812401126a0e23aa5509805795e680ca53b",
+    "Glasgow-1228": "4e579a518a01aa9c1846d6aec6563e40f98d8d0b4bf004269e4e74bd1ae7e1fa",
+    "Glasgow-3458": "f25c4ab30e52acd87d9972aa160078a92488ae2d4ae1e72b19366d1e6e835cd9",
+    "Glasgow-1620": "4de4ad2c9677bc6188ffa0ee0833d913a00e231a5da040b1925183902975badd"
+  },
+  "preservation_guard_path": "/tmp/fmp-next12-preservation.json",
+  "preservation_guards_checked": 7,
+  "selected_needs_update_full_fast_hydrated_agree": {
+    "Glasgow-1222": true,
+    "Glasgow-1354": true,
+    "Glasgow-1348": true,
+    "Smith-230548": false,
+    "Glasgow-1218": true,
+    "Glasgow-1228": true,
+    "Glasgow-3458": true,
+    "Glasgow-1620": true,
+    "Glasgow-3329": false
+  },
+  "global_full_fast_needs_update_counts_agree": 1594,
+  "queue_actions_preserved_plus_1354_birth_precision": true,
+  "previous_manifest_only_vital_actions_retained": [
+    "david-glasgow-1228-fmp-birth-20261023",
+    "david-glasgow-3458-fmp-birth-20261023"
+  ],
+  "literal_scope": {
+    "indexed": 482,
+    "integrated": 338,
+    "source_only": 144
+  },
+  "cached_support": {
+    "prior": 6,
+    "new": 12,
+    "supporting_union": 18,
+    "overall_union": 500,
+    "original_receipt_pointers": {
+      "SCOT/OPR/BAP/4478397": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478397",
+      "SCOT/OPR/BAP/4477292": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14477292",
+      "SCOT/OPR/BAP/4478456": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478456",
+      "SCOT/OPR/BAP/4478529": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478529",
+      "SCOT/OPR/BAP/4478299": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478299",
+      "SCOT/OPR/BAP/4478341": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~14478341",
+      "SCOT/OPR/BAP/5059684": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684",
+      "R_685539365": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365",
+      "R_686320182": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182",
+      "R_686711246": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246",
+      "R_688892582": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582",
+      "R_690795906": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906",
+      "R_690796739": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739",
+      "R_694113950": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950",
+      "SCOT/OPR/BAP/0400859": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859",
+      "SCOT/OPR/BAP/4590485": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485",
+      "SCOT/OPR/BAP/5058867": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867",
+      "SCOT/OPR/BAP/5059061": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061"
+    }
+  },
+  "query_frontier_unchanged": {
+    "reviewed_of_total": [
+      394,
+      5872
+    ],
+    "saved_rows": 420,
+    "contiguous_reviewed": 390,
+    "detail_gaps": 26,
+    "next_provider_id": "R_688617368"
+  },
+  "new_provider_fetches": 0,
+  "new_people": 0,
+  "relationship_changes": 0,
+  "genuinely_first_seen_fact_groups": 0,
+  "source_readers_each_have_one_h1": true,
+  "publication_gate": {
+    "selected_subjects": 9,
+    "new_failing_items": 0,
+    "exit_code": 0
+  },
+  "links": {
+    "pages": 25720,
+    "references": 1353991,
+    "baseline_broken_links": 7,
+    "baseline_page_target_pairs": 4,
+    "new_pairs": 0,
+    "person_anchors_missing_not_gated": 87,
+    "person_anchors_checked": 7602
+  },
+  "final_asset_versions": {
+    "files": 25773,
+    "references": 428364,
+    "stale_references": 0,
+    "samples": [],
+    "manifest_before": "db886b776e",
+    "manifest_after": "db886b776e",
+    "manifest_stable": true
+  },
+  "version_write_passes": 1
+}

@@ -495,7 +495,7 @@
       "GBPRS/LOTHIAN/SGS/BUR/032213"
     ],
     "next_query_page": 20,
-    "integration_scope": "482 ledger receipts indexed:338 qualified profile-context,144 source-only. Six supporting receipts remain at original pointers (488 indexed union). Two new provider entries confirm one known1727baptism;zero new fact groups,people,grades or vital changes. Full audit INCOMPLETE.",
+    "integration_scope": "482 literal ledger receipts indexed:338 qualified profile-context,144 source-only. Eighteen indexed supporting cached receipts remain at original pointers (500 indexed union). Twelve held receipts across seven documentary groups newly integrated;0new provider captures,0first-seen fact groups,0people or relationship changes;1indexed birth precision refinement. Full audit INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -982,22 +982,22 @@
     ],
     "records_with_profile_or_draft_context": 338,
     "remaining_coverage": [
-      "Pages20–294 nominal of current1719–1799 birth-filtered BMD query;28 saved transcript gaps on pages20–21, then capture page22; provider caps may require partitioning",
+      "Pages20–294 nominal of current1719–1799 birth-filtered BMD query;26 saved detail gaps on pages20–21, then capture page22; provider caps may require partitioning",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
       "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-page20-20261024-verification.json",
+    "verification_report": "output/findmypast-cached-family-extension-20261024-verification.json",
     "verified_on": "2026-10-24",
     "indexed_provider_record_count": 482,
-    "next_action": "Continue saved page20 frontier at R_688617368 (John1730), after exact-ID preflight. Twenty-six detail gaps remain across saved pages20–21; next uncaptured searchpage22of294. Reuse the newly indexed John1727 companion receipts and the 26 saved discriminator preparations; do not repeat completed comparisons.",
+    "next_action": "Prioritize the 42 remaining cached OPR IDs only where a saved field or family comparison can answer an unresolved identity/scope question; retain existing exclusions/HOLDs without repeating unchanged searches or refetching receipts. The next unfetched query frontier remains R_688617368 (John 1730), saved page 20; 26 detail gaps remain on pages 20–21, next uncaptured page 22 of 294.",
     "recent_query_transcripts": 347,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
     "recent_query_rows_reviewed": 394,
-    "capture_ledger_note": "480 saved/indexed derivative transcript receipts, not480people;345 newly captured query transcripts. Six indexed supporting receipts remain at original pointers.",
-    "capture_count_basis": "480 indexed ledger receipts; capture totals differ from query dispositions and people. Six supporting receipts are indexed outside this literal ledger.",
+    "capture_ledger_note": "482 saved/indexed literal derivative transcript receipts, not482people;347 newly captured query transcripts. Eighteen indexed supporting receipts remain at original saved pointers.",
+    "capture_count_basis": "482 indexed literal ledger receipts plus18 indexed cached supporting receipts outside this ledger;500 provider IDs in this ledger-plus-support scope, distinct from query dispositions or people.",
     "recent_query_receipt_reuses": 41,
     "recent_query_existing_index_reuses": 1,
     "recent_query_access_holds": 5,
@@ -1007,8 +1007,8 @@
     "recent_query_detail_gaps": 26,
     "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
-    "supplemental_cached_records_indexed": 6,
-    "total_indexed_reviewed_provider_ids": 488
+    "supplemental_cached_records_indexed": 18,
+    "total_indexed_reviewed_provider_ids": 500
   },
   "search_pages": [
     {
@@ -29132,6 +29132,394 @@
         "new_person_proposed": false,
         "canonical_record_id": "fmp-record-r-691906011",
         "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906011"
+      },
+      "R_685539365": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-685539365",
+        "catalogue_profiles": {
+          "Glasgow-1620": {
+            "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-3329": {
+            "role": "Candidate comparison only: 1814 Thomas child comparison only; current Crawford locality differs, not a concrete exclusion",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/R_685539365"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "SCOT/OPR/BAP/5058867": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-scot-opr-bap-5058867",
+        "catalogue_profiles": {
+          "Glasgow-1222": {
+            "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Charles Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.214, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Separate indexed event from Charles 1805; no distinct-person conclusion. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/SCOT~1OPR~1BAP~15058867"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "SCOT/OPR/BAP/5059061": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-scot-opr-bap-5059061",
+        "catalogue_profiles": {
+          "Glasgow-1222": {
+            "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Elizabeth Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.248, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Do not equate or divide from 1807 Elisabeth on name/year alone, or infer twins with Charles 1813. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/SCOT~1OPR~1BAP~15059061"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "SCOT/OPR/BAP/0400859": {
+        "status": "matched_existing_child",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-scot-opr-bap-0400859",
+        "catalogue_profiles": {
+          "Glasgow-1354": {
+            "role": "Identified child of the indexed Barony entry; exact birth date newly indexed, original uninspected",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-1348": {
+            "role": "Existing father of Elisabeth Glasgow-1354, child-side assessment 96%; John’s own upstream father remains 38% unchanged.",
+            "timeline_group": "Qualified source records"
+          },
+          "Smith-230548": {
+            "role": "Candidate comparison only: Compatible current mother profile, unassessed",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Elizabeth Glasgow birth explicitly indexed 12 Apr 1804, Barony OPR 622/4 item 2 p.341, residence Anderston, father John Glasgow, mother Helen Smith; baptism date absent. This refines existing Glasgow-1354 estimated c.1804-04-12 to indexed exact date 1804-04-12 by reviewed assessment; original image uninspected. Child-side father Glasgow-1348 remains 96%; mother Smith-230548 unassessed; John own upstream 38% unaffected. Prior companion R_690427249 supplied only year 1804 and remains separate indexed source row. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/SCOT~1OPR~1BAP~10400859"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "R_686320182": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-686320182",
+        "catalogue_profiles": {
+          "Glasgow-1218": {
+            "role": "Candidate comparison only: Compatible David father comparison only, born before 1744; no Margaret Ferguson household bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-1228": {
+            "role": "Candidate comparison only: Compatible David father comparison only, born 1742; no Margaret Ferguson household bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-3458": {
+            "role": "Candidate comparison only: Compatible David father comparison only, born 1765; no Margaret Ferguson household bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/R_686320182"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "R_686711246": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-686711246",
+        "catalogue_profiles": {
+          "Glasgow-1222": {
+            "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/R_686711246"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "R_690795906": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-690795906",
+        "catalogue_profiles": {
+          "Glasgow-1222": {
+            "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/R_690795906"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "SCOT/OPR/BAP/4590485": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-scot-opr-bap-4590485",
+        "catalogue_profiles": {
+          "Glasgow-1218": {
+            "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-1228": {
+            "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-3458": {
+            "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/SCOT~1OPR~1BAP~14590485"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "R_688892582": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-688892582",
+        "catalogue_profiles": {
+          "Glasgow-1620": {
+            "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-3329": {
+            "role": "Candidate comparison only: 1814 Thomas child comparison only; Crawford locality differs, not a concrete exclusion",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/R_688892582"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "SCOT/OPR/BAP/5059684": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-scot-opr-bap-5059684",
+        "catalogue_profiles": {
+          "Glasgow-1222": {
+            "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "One Kelso source-defined Charles, exact birth 18 Mar 1805, parents James Glasgow/Isabella Fettis; OPR 793/4 item 2 p.368. No baptism date. The 1813 Charles p.214 is a separate indexed entry; succession versus index error unresolved. Father Glasgow-1222 is candidate comparison only. Exact receipt: research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-retries.json",
+            "pointer": "#/records/SCOT~1OPR~1BAP~15059684"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "R_694113950": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-694113950",
+        "catalogue_profiles": {
+          "Glasgow-1218": {
+            "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-1228": {
+            "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+            "timeline_group": "Qualified source records"
+          },
+          "Glasgow-3458": {
+            "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/R_694113950"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+      },
+      "R_690796739": {
+        "status": "candidate_comparison_hold",
+        "reviewed_on": "2026-10-24",
+        "indexed": true,
+        "new_provider_fetch": false,
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-690796739",
+        "catalogue_profiles": {
+          "Glasgow-1222": {
+            "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+        "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+        "previous_disposition_20261023": {
+          "status": "no_eligible_role_proved",
+          "reviewed_on": "2026-10-23",
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "receipt_provenance": {
+            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "pointer": "#/records/R_690796739"
+          },
+          "indexed": false,
+          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+        },
+        "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
       }
     },
     "page2_review": {
@@ -32223,28 +32611,70 @@
           "assessment": "Findmypast transcript/index records George Glasgow, indexed birth year 1800, Kilmarnock, parents John Glasgow and Margaret Wyllie. Current catalogue child/profile and findings support existing subject Glasgow-3393 under Glasgow-3298. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date."
         },
         "R_685539365": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/R_685539365"
+          "canonical_record_id": "fmp-record-r-685539365",
+          "catalogue_profiles": {
+            "Glasgow-1620": {
+              "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3329": {
+              "role": "Candidate comparison only: 1814 Thomas child comparison only; current Crawford locality differs, not a concrete exclusion",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_685539365"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "R_688892582": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/R_688892582"
+          "canonical_record_id": "fmp-record-r-688892582",
+          "catalogue_profiles": {
+            "Glasgow-1620": {
+              "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3329": {
+              "role": "Candidate comparison only: 1814 Thomas child comparison only; Crawford locality differs, not a concrete exclusion",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_688892582"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "R_685858233": {
           "status": "no_eligible_role_proved",
@@ -32344,16 +32774,41 @@
           "assessment": "Findmypast transcript/index records - Glasgow, indexed birth year 1829, South Leith; named father is John Glasgow. John-1460 is a c.1785 Edinburgh profile with existing local family context, but this unnamed South Leith infant gives no mother or unique family detail. Candidate comparison only. The candidate adult’s birth basis comes from their existing profile, not this child record. Keep as comparison only."
         },
         "R_686320182": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/R_686320182"
+          "canonical_record_id": "fmp-record-r-686320182",
+          "catalogue_profiles": {
+            "Glasgow-1218": {
+              "role": "Candidate comparison only: Compatible David father comparison only, born before 1744; no Margaret Ferguson household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1228": {
+              "role": "Candidate comparison only: Compatible David father comparison only, born 1742; no Margaret Ferguson household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3458": {
+              "role": "Candidate comparison only: Compatible David father comparison only, born 1765; no Margaret Ferguson household bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_686320182"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "R_686350969": {
           "status": "no_eligible_role_proved",
@@ -32431,40 +32886,91 @@
           "assessment": "Findmypast transcript/index records Isabella Glasgow, indexed birth year 1843, Haddington, parents Peter Glasgow and Agnes Scott. Current catalogue child/profile and findings support existing subject Glasgow-1458 under Glasgow-1450. Reuse the existing scoped parent assessment; no grade or relationship change. Do not convert indexed birth year into an exact birth/baptism date."
         },
         "R_686711246": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/R_686711246"
+          "canonical_record_id": "fmp-record-r-686711246",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_686711246"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "R_690795906": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/R_690795906"
+          "canonical_record_id": "fmp-record-r-690795906",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_690795906"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "R_690796739": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/R_690796739"
+          "canonical_record_id": "fmp-record-r-690796739",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_690796739"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "R_687777343": {
           "status": "no_eligible_role_proved",
@@ -32951,16 +33457,41 @@
           "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
         },
         "R_694113950": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/R_694113950"
+          "canonical_record_id": "fmp-record-r-694113950",
+          "catalogue_profiles": {
+            "Glasgow-1218": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1228": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3458": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_694113950"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "SCOT/OPR/BAP/0398590": {
           "status": "matched_parent",
@@ -32980,16 +33511,41 @@
           "assessment": "Current catalogue lists Glasgow-1535 (John Glasgow) under Glasgow-1530 (Robert Glasgow); the cached transcript gives the same named father, maternal household, child name and birth year. Record details vary in precision; do not treat a year-only receipt as an exact date. Cache also contains a likely companion receipt for the same indexed child event: SCOT/OPR/BAP/0398590. Treat as one event pending source comparison. Companion receipt consolidated after matching literal child name, indexed birth year, and named parent fields; the companion supplies greater date precision where available. Separate event retained."
         },
         "SCOT/OPR/BAP/0400859": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "matched_existing_child",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/SCOT~1OPR~1BAP~10400859"
+          "canonical_record_id": "fmp-record-scot-opr-bap-0400859",
+          "catalogue_profiles": {
+            "Glasgow-1354": {
+              "role": "Identified child of the indexed Barony entry; exact birth date newly indexed, original uninspected",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1348": {
+              "role": "Existing father of Elisabeth Glasgow-1354, child-side assessment 96%; John’s own upstream father remains 38% unchanged.",
+              "timeline_group": "Qualified source records"
+            },
+            "Smith-230548": {
+              "role": "Candidate comparison only: Compatible current mother profile, unassessed",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elizabeth Glasgow birth explicitly indexed 12 Apr 1804, Barony OPR 622/4 item 2 p.341, residence Anderston, father John Glasgow, mother Helen Smith; baptism date absent. This refines existing Glasgow-1354 estimated c.1804-04-12 to indexed exact date 1804-04-12 by reviewed assessment; original image uninspected. Child-side father Glasgow-1348 remains 96%; mother Smith-230548 unassessed; John own upstream 38% unaffected. Prior companion R_690427249 supplied only year 1804 and remains separate indexed source row. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~10400859"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "SCOT/OPR/BAP/0402993": {
           "status": "matched_parent",
@@ -33438,16 +33994,41 @@
           "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
         },
         "SCOT/OPR/BAP/4590485": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/SCOT~1OPR~1BAP~14590485"
+          "canonical_record_id": "fmp-record-scot-opr-bap-4590485",
+          "catalogue_profiles": {
+            "Glasgow-1218": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1228": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3458": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~14590485"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "SCOT/OPR/BAP/4600209": {
           "status": "no_eligible_role_proved",
@@ -33490,40 +34071,91 @@
           "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
         },
         "SCOT/OPR/BAP/5058867": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/SCOT~1OPR~1BAP~15058867"
+          "canonical_record_id": "fmp-record-scot-opr-bap-5058867",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Charles Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.214, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Separate indexed event from Charles 1805; no distinct-person conclusion. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~15058867"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "SCOT/OPR/BAP/5059061": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
-            "pointer": "#/records/SCOT~1OPR~1BAP~15059061"
+          "canonical_record_id": "fmp-record-scot-opr-bap-5059061",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elizabeth Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.248, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Do not equate or divide from 1807 Elisabeth on name/year alone, or infer twins with Charles 1813. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~15059061"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "SCOT/OPR/BAP/5059684": {
-          "status": "no_eligible_role_proved",
-          "reviewed_on": "2026-10-23",
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
           "new_provider_fetch": false,
           "new_person_proposed": false,
-          "receipt_provenance": {
-            "path": "research/findmypast-glasgow-audit/record-details-retries.json",
-            "pointer": "#/records/SCOT~1OPR~1BAP~15059684"
+          "canonical_record_id": "fmp-record-scot-opr-bap-5059684",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
           },
-          "indexed": false,
-          "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "One Kelso source-defined Charles, exact birth 18 Mar 1805, parents James Glasgow/Isabella Fettis; OPR 793/4 item 2 p.368. No baptism date. The 1813 Charles p.214 is a separate indexed entry; succession versus index error unresolved. Father Glasgow-1222 is candidate comparison only. Exact receipt: research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-retries.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~15059684"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
         },
         "GBM/WO416/011514": {
           "status": "out_of_scope_later_birth_no_eligible_role",
@@ -48530,10 +49162,22 @@
         "SCOT/OPR/BAP/4478456",
         "SCOT/OPR/BAP/4478529",
         "SCOT/OPR/BAP/4478299",
-        "SCOT/OPR/BAP/4478341"
+        "SCOT/OPR/BAP/4478341",
+        "SCOT/OPR/BAP/5059684",
+        "R_685539365",
+        "R_686320182",
+        "R_686711246",
+        "R_688892582",
+        "R_690795906",
+        "R_690796739",
+        "R_694113950",
+        "SCOT/OPR/BAP/0400859",
+        "SCOT/OPR/BAP/4590485",
+        "SCOT/OPR/BAP/5058867",
+        "SCOT/OPR/BAP/5059061"
       ],
-      "remaining_unindexed_cached_provider_ids": 106,
-      "remaining_secondary_role_rows": 61,
+      "remaining_unindexed_cached_provider_ids": 94,
+      "remaining_secondary_role_rows": 49,
       "scope_exclusions_and_holds": [
         {
           "category": "title/place Glasgow, not evidenced Glasgow surname",
@@ -48721,23 +49365,17 @@
         "R_685232562",
         "R_685307756",
         "R_685308116",
-        "R_685539365",
         "R_686124252",
-        "R_686320182",
-        "R_686711246",
         "R_687777343",
         "R_688269282",
         "R_688616652",
         "R_688617841",
-        "R_688892582",
         "R_689699647",
         "R_689724723",
         "R_689725510",
         "R_690135248",
         "R_690420455",
         "R_690422173",
-        "R_690795906",
-        "R_690796739",
         "R_691381819",
         "R_691844705",
         "R_691844706",
@@ -48752,8 +49390,6 @@
         "R_693982333",
         "R_694082635",
         "R_694083942",
-        "R_694113950",
-        "SCOT/OPR/BAP/0400859",
         "SCOT/OPR/BAP/0435600",
         "SCOT/OPR/BAP/0437549",
         "SCOT/OPR/BAP/0441539",
@@ -48765,15 +49401,11 @@
         "SCOT/OPR/BAP/3590951",
         "SCOT/OPR/BAP/3590965",
         "SCOT/OPR/BAP/4479548",
-        "SCOT/OPR/BAP/4590485",
         "SCOT/OPR/BAP/4600209",
-        "SCOT/OPR/BAP/4816038",
-        "SCOT/OPR/BAP/5058867",
-        "SCOT/OPR/BAP/5059061",
-        "SCOT/OPR/BAP/5059684"
+        "SCOT/OPR/BAP/4816038"
       ],
-      "status": "Bounded cache audit, not complete identity review;67 named-parent rows before this six-record batch. Remaining later-born subjects require per-parent birth-scope screening. 40 other record-set rows retain explicit exclusions/HOLDs; duplicate cohorts are not independent evidence.",
-      "prior_hold_reconciliation": "The six records already had23October no_eligible_role_proved dispositions, now superseded by positive existing-family comparisons; earlier HOLDs for other IDs remain current. The preflight report missed dictionary-keyed record_dispositions; absence of its explicit hold flag was not evidence of no prior review.",
+      "status": "Bounded saved-receipt cohort:18 newly integrated supporting IDs total;94 remaining unindexed IDs,49 secondary-role rows,42 selected OPR IDs remaining. Counts_before remains the historical inventory snapshot; this is not an overall completeness measure. Unresolved identities retain qualified HOLDs.",
+      "prior_hold_reconciliation": "The six records already had23October no_eligible_role_proved dispositions, now superseded by positive existing-family comparisons; earlier HOLDs for other IDs remain current. The preflight report missed dictionary-keyed record_dispositions; absence of its explicit hold flag was not evidence of no prior review. Twelve further23October no_eligible_role_proved snapshots retained in previous_disposition_20261023; current24October source integration identifies the Barony child or provides compatible adult/child comparisons. Missing identity bridges are not exclusions.",
       "superseded_preflight_hold_count": {
         "reported": 0,
         "status": "Invalid as a prior-review count: old scanner omitted keyed record_dispositions. Six selected sources had explicit prior pending-parent dispositions; these are preserved and superseded by qualified family comparisons."
@@ -49851,6 +50483,451 @@
       ],
       "provider_records_newly_indexed": 2,
       "verification_report": "output/findmypast-page20-20261024-verification.json"
+    },
+    "cached_family_extension_20261024": {
+      "reviewed_on": "2026-10-24",
+      "new_provider_captures": 0,
+      "newly_integrated_cached_receipts": 12,
+      "selected_provider_rows": 13,
+      "documentary_groups": 7,
+      "first_seen_fact_groups": 0,
+      "new_people": 0,
+      "relationship_changes": [],
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "c. 1804-04-12",
+          "to": "1804-04-12",
+          "basis": "The saved Barony OPR 622/4 item 2 p.341 derivative explicitly labels 12 April 1804 as Elisabeth Glasgow’s birth, names John Glasgow and Helen Smith, and gives Anderston residence. The current profile already carried that day approximately, and its held FamilySearch citation gives the same day. Refine precision only; no baptism date is supplied and the original register remains uninspected. John-1348 as her father remains96%, mother Smith-230548 unassessed; John’s own upstream father remains38%.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0400859&tab=this",
+          "assessment_id": "fmp-glasgow-1354-birth-precision-20261024"
+        }
+      ],
+      "record_dispositions": {
+        "SCOT/OPR/BAP/5059684": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-scot-opr-bap-5059684",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "One Kelso source-defined Charles, exact birth 18 Mar 1805, parents James Glasgow/Isabella Fettis; OPR 793/4 item 2 p.368. No baptism date. The 1813 Charles p.214 is a separate indexed entry; succession versus index error unresolved. Father Glasgow-1222 is candidate comparison only. Exact receipt: research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~15059684. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-retries.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~15059684"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "R_685539365": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-685539365",
+          "catalogue_profiles": {
+            "Glasgow-1620": {
+              "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3329": {
+              "role": "Candidate comparison only: 1814 Thomas child comparison only; current Crawford locality differs, not a concrete exclusion",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_685539365. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_685539365"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "R_686320182": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-686320182",
+          "catalogue_profiles": {
+            "Glasgow-1218": {
+              "role": "Candidate comparison only: Compatible David father comparison only, born before 1744; no Margaret Ferguson household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1228": {
+              "role": "Candidate comparison only: Compatible David father comparison only, born 1742; no Margaret Ferguson household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3458": {
+              "role": "Candidate comparison only: Compatible David father comparison only, born 1765; no Margaret Ferguson household bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686320182. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_686320182"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "R_686711246": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-686711246",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_686711246. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_686711246"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "R_688892582": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-688892582",
+          "catalogue_profiles": {
+            "Glasgow-1620": {
+              "role": "Candidate comparison only: Compatible Thomas father comparison only; no Margaret Graham bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3329": {
+              "role": "Candidate comparison only: 1814 Thomas child comparison only; Crawford locality differs, not a concrete exclusion",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Thomas Glasgow indexed birth year 1814, Muiravonside, parents Thomas Glasgow/Margaret Graham. Companion R_685539365 adds residence/baptism-place, neither gives exact day or baptism date. Glasgow-1620 is father comparison and Glasgow-3329 child comparison only; latter current Crawford locality differs but is not an exclusion. Later-born child enters scope through possible pre-1800 father only. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_688892582. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_688892582"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "R_690795906": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-690795906",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690795906. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_690795906"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "R_690796739": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-690796739",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elisabeth Glasgow indexed birth year 1807, Kelso, parents James Glasgow/Isabella Fettis; three companion indexes for one event, with R_686711246 alone adding residence and baptism-place fields. No exact birth or baptism date. Do not equate her with 1813 Elizabeth without originals. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_690796739. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_690796739"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "R_694113950": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-694113950",
+          "catalogue_profiles": {
+            "Glasgow-1218": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1228": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3458": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/R_694113950. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/R_694113950"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "SCOT/OPR/BAP/0400859": {
+          "status": "matched_existing_child",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-scot-opr-bap-0400859",
+          "catalogue_profiles": {
+            "Glasgow-1354": {
+              "role": "Identified child of the indexed Barony entry; exact birth date newly indexed, original uninspected",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1348": {
+              "role": "Existing father of Elisabeth Glasgow-1354, child-side assessment 96%; John’s own upstream father remains 38% unchanged.",
+              "timeline_group": "Qualified source records"
+            },
+            "Smith-230548": {
+              "role": "Candidate comparison only: Compatible current mother profile, unassessed",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elizabeth Glasgow birth explicitly indexed 12 Apr 1804, Barony OPR 622/4 item 2 p.341, residence Anderston, father John Glasgow, mother Helen Smith; baptism date absent. This refines existing Glasgow-1354 estimated c.1804-04-12 to indexed exact date 1804-04-12 by reviewed assessment; original image uninspected. Child-side father Glasgow-1348 remains 96%; mother Smith-230548 unassessed; John own upstream 38% unaffected. Prior companion R_690427249 supplied only year 1804 and remains separate indexed source row. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~10400859. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~10400859"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "SCOT/OPR/BAP/4590485": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-scot-opr-bap-4590485",
+          "catalogue_profiles": {
+            "Glasgow-1218": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1228": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3458": {
+              "role": "Candidate comparison only: Compatible David father comparison only; no household bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Helen Glasgow, Mid Calder, parents David Glasgow/Margaret Ferguson. OPR 694/3 item 1 p.60 transcript supplies birth 30 Apr 1805; companion indexes supply birth year only, one with residence/baptism-place fields. No baptism date. David profiles 1218/1228/3458 are comparisons only; no child profile/parent assignment. Later-born child enters scope solely through possible pre-1800 father, not by child cutoff. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14590485. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~14590485"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "SCOT/OPR/BAP/5058867": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-scot-opr-bap-5058867",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Charles Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.214, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Separate indexed event from Charles 1805; no distinct-person conclusion. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15058867. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~15058867"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        },
+        "SCOT/OPR/BAP/5059061": {
+          "status": "candidate_comparison_hold",
+          "reviewed_on": "2026-10-24",
+          "indexed": true,
+          "new_provider_fetch": false,
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-scot-opr-bap-5059061",
+          "catalogue_profiles": {
+            "Glasgow-1222": {
+              "role": "Candidate comparison only: Compatible Kelso-born James father comparison only; no Isabella Fettis bridge",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "receipt_pointer": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061; reviewed 2026-10-24; prior keyed HOLDs retained in matching review",
+          "assessment": "Elizabeth Glasgow indexed birth year 1813, Kelso OPR 793/4 item 2 p.248, father Jas Glasgow, mother Isabella Fettis. No exact date or baptism date. Do not equate or divide from 1807 Elisabeth on name/year alone, or infer twins with Charles 1813. Father Glasgow-1222 only a candidate. Exact receipt: research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~15059061. Source level: saved provider derivative transcript; original register uninspected. Companion indexes are one documentary group, not independent corroboration. Unresolved adult or child comparisons do not assign the event or relationships to the candidate profile. No new person is proposed.",
+          "previous_disposition_20261023": {
+            "status": "no_eligible_role_proved",
+            "reviewed_on": "2026-10-23",
+            "new_provider_fetch": false,
+            "new_person_proposed": false,
+            "receipt_provenance": {
+              "path": "research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "pointer": "#/records/SCOT~1OPR~1BAP~15059061"
+            },
+            "indexed": false,
+            "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
+          },
+          "supersedes_prior_hold_only_as": "Qualified existing-person comparison; unresolved identity remains HOLD except identified Barony child."
+        }
+      },
+      "groups": {
+        "barony-elisabeth-1804": [
+          "SCOT/OPR/BAP/0400859"
+        ],
+        "kelso-charles-1805": [
+          "SCOT/OPR/BAP/5059684"
+        ],
+        "kelso-charles-1813": [
+          "SCOT/OPR/BAP/5058867"
+        ],
+        "kelso-elisabeth-1807": [
+          "R_686711246",
+          "R_690795906",
+          "R_690796739"
+        ],
+        "kelso-elizabeth-1813": [
+          "SCOT/OPR/BAP/5059061"
+        ],
+        "mid-calder-helen-1805": [
+          "R_686320182",
+          "R_694113950",
+          "SCOT/OPR/BAP/4590485"
+        ],
+        "muiravonside-thomas-1814": [
+          "R_685539365",
+          "R_688892582"
+        ]
+      },
+      "verification_status": "verified_local_publication",
+      "verification_report": "output/findmypast-cached-family-extension-20261024-verification.json",
+      "profiles_synchronized": 9,
+      "complete_proposals_verified": 7,
+      "publication_gate_new_failures": 0,
+      "new_broken_link_pairs": 0,
+      "cache_stale_references": 0
     }
   }
 }

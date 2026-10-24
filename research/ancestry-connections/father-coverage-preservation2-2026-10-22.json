@@ -128,12 +128,22 @@
     },
     "Glasgow-1620": {
       "current_sha256": "34da2d6dc93b85248793605666c1bdabf665053bf5d2905dc777e87ed7189017",
-      "proposed_sha256": "b92ccbc61af75e6495d8626818d3e5af54b475dd7a9f446bdd8064dd86854665",
+      "proposed_sha256": "4de4ad2c9677bc6188ffa0ee0833d913a00e231a5da040b1925183902975badd",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1620/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. All prior citations retained. Added qualified saved-child-entry comparison; only explicitly reviewed opening/next-test wording superseded. No relationship grade or topology changes.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "b92ccbc61af75e6495d8626818d3e5af54b475dd7a9f446bdd8064dd86854665",
+      "previous_proposed_git_reference": "9154b83de9745cbf4b49de5f311ba84f0abea004:research/Glasgow-1620/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [],
+      "draft_consistency_review": {
+        "reviewed_on": "2026-10-24",
+        "source": "Current www/people models, approved pair assessments and saved literal source fields. Prior queue actions preserved.",
+        "all_prior_source_identities_retained": true,
+        "estimated_template": "Retained where captured birth/death guess status requires it; explicit transcript birth precision is qualified."
+      }
     },
     "Glasgow-1982": {
       "current_sha256": "c8decc9d1f7cf7170401a3bbe9210826386e6bb22c6704ef86a0d1db6ff8efa5",
@@ -261,12 +271,22 @@
     },
     "Glasgow-1348": {
       "current_sha256": "633ae0dae09f429d4975247423f907c9682dd3fdb8ad3646b41008739ed9d1f3",
-      "proposed_sha256": "35be7b96b3f1365ce3d2939652217e7b844ac6f836415570982285c2eec50b23",
+      "proposed_sha256": "43d88191f10b2349befe9fc3c5fab7178d7093171706a79d9deabefbab152572",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1348/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. All prior citations retained. Added qualified saved-child-entry comparison; only explicitly reviewed opening/next-test wording superseded. No relationship grade or topology changes.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "35be7b96b3f1365ce3d2939652217e7b844ac6f836415570982285c2eec50b23",
+      "previous_proposed_git_reference": "9154b83de9745cbf4b49de5f311ba84f0abea004:research/Glasgow-1348/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [],
+      "draft_consistency_review": {
+        "reviewed_on": "2026-10-24",
+        "source": "Current www/people models, approved pair assessments and saved literal source fields. Prior queue actions preserved.",
+        "all_prior_source_identities_retained": true,
+        "estimated_template": "Retained where captured birth/death guess status requires it; explicit transcript birth precision is qualified."
+      }
     },
     "Glasgow-1549": {
       "current_sha256": "4f9aacc8d099962b69985af31e8612c4ac9fb417421ebd9819f3256cce0a41c7",

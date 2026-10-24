@@ -57894,6 +57894,43 @@
       "provenance": [
         "research/ancestry-connections/rathdowney-marriage-review-2026-10-24.json"
       ]
+    },
+    {
+      "id": "fmp-elisabeth1354-birth-precision-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Elisabeth Glasgow’s Barony transcript expressly records her birth on 12 April 1804, refining the catalogue’s approximate display of the same day.",
+      "qualification": "The date was already present in held family evidence: this is a precision correction, not a first-seen birthday. No baptism date is supplied; original register uninspected. Existing father John Glasgow-1348 remains96%; Helen Smith-230548 remains unassessed. Companion indexes are not independent corroboration.",
+      "people": [
+        {
+          "id": "Glasgow-1354",
+          "name": "Elisabeth Glasgow",
+          "url": "/people/glasgow-1354.html"
+        },
+        {
+          "id": "Glasgow-1348",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1348.html"
+        },
+        {
+          "id": "Smith-230548",
+          "name": "Helen Glasgow",
+          "url": "/people/smith-230548.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast Barony OPR622/4 item2 p.341 — saved derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0400859&tab=this"
+        }
+      ],
+      "detail_url": "/people/glasgow-1354.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "research/vital_assessments.json",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ]
     }
   ]
 }
