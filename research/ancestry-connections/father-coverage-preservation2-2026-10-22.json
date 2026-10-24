@@ -262,12 +262,22 @@
     },
     "Glasgow-3298": {
       "current_sha256": "f71d2adf6fbcdc0911bf3cfc4cb4b416fe08483646850493ee308bd6a00f2b31",
-      "proposed_sha256": "f1cd22aff30eb3411a5859f67738045799d48e832933ec27cdffa1ad2864586c",
+      "proposed_sha256": "18b00c504f1f06aa2e6fda6ce9971466db46db6dd7091665f7ddf9b886698727",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3298/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
-      "restored_source_passage_count": 0
+      "retained": "Complete existing proposal retained verbatim; one additive 1755 transcript note and citation before Sources. Inherited 19 April birth and all earlier refs unchanged.",
+      "restored_source_passage_count": 0,
+      "previous_proposed_sha256": "f1cd22aff30eb3411a5859f67738045799d48e832933ec27cdffa1ad2864586c",
+      "previous_proposed_git_reference": "5bd6ea05e36fd18a65be1db3219fc29a1ec60afe:research/Glasgow-3298/father-confidence-2026-10-22b.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "John Glasgow was born 19 April 1755 in Glasgow, Lanarkshire, and christened there on 23 April 1755, the son of [[Glasgow-1929|Hugh Glasgow]] and [[McCachen-1|Margaret McCachen]] (recorded as Margtt. McKechny).",
+          "after": "The inherited account reports John Glasgow born on 19 April 1755 in Glasgow, Lanarkshire, and christened there on 23 April 1755. The maintained catalogue retains its existing birth bound of before 19 April; the newly inspected transcript gives only birth year and 23 April baptism, so it does not settle that birthday claim. The indexed parents are Hugh Glasgow and Margtt. McKechny. The selected father [[Glasgow-1929|Hugh Glasgow]] remains 94%; the inherited biography links the mother as [[McCachen-1|Margaret McCachen]], while the current structured profile compares McEachin-120. Those maternal identities remain unassessed and unreconciled; no attachment is changed.",
+          "reason": "Qualify inherited exact birth and maternal link against the unchanged current maintained model; preserve their earlier source claims explicitly."
+        }
+      ]
     },
     "Glasgow-1348": {
       "current_sha256": "633ae0dae09f429d4975247423f907c9682dd3fdb8ad3646b41008739ed9d1f3",
@@ -317,14 +327,14 @@
     },
     "Glasgow-1221": {
       "current_sha256": "c5abc598b8e28afadbca2bade0174cd1e13de8818edcabf117f96e83f3420525",
-      "proposed_sha256": "bb93a7d4b2325739dced6663b42890a8b65b7eb647d00d833a8e19a54164730d",
+      "proposed_sha256": "6c0c2f58c6f10f28be0478b26677f232bd30745bc1c537eb6e7d4a4b3578db28",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1221/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "All prior source identities and unrelated biography/research passages retained. The eight explicitly reviewed opening/date-role corrections reconcile approved current fields and parent candidates; superseded wording is retained as history. Jean-1619 birth alone changes to24July1757, with31July baptism separate. No relationship grade change.",
+      "retained": "Complete captured biography and previously reviewed full draft retained, including names, source URLs, existing references, event chronology and dated father review. Added only the cited 24 October derivative-source comparison; no vital, parent link, grade or adult identity is changed.",
       "restored_source_passage_count": 0,
-      "previous_proposed_sha256": "b7cd55046def99b558be146ef23d61e6ba09faaba2fba6689e8829475e9dabfb",
-      "previous_proposed_git_reference": "5f99eae32af1e103bce775c53acd9aed279b5ffc:research/Glasgow-1221/father-confidence-2026-10-22b.wiki",
+      "previous_proposed_sha256": "bb93a7d4b2325739dced6663b42890a8b65b7eb647d00d833a8e19a54164730d",
+      "previous_proposed_git_reference": "5bd6ea05e36fd18a65be1db3219fc29a1ec60afe:research/Glasgow-1221/father-confidence-2026-10-22b.wiki",
       "superseded_passages": [
         {
           "profile": "Glasgow-1221",
@@ -746,16 +756,22 @@
     },
     "Glasgow-1304": {
       "current_sha256": "7c5331c6005c6f7797ff8dc6c7249ec41a9e4e7a2e88a4797950e722edc65f03",
-      "proposed_sha256": "d4ea200e8d49fc49bea4ff05dfbedeb1eb192b7f293bd52377078d294ef5d6cf",
+      "proposed_sha256": "c20a5f10887b54e084b25f810bdd4a26722ffd91bf2038aecc620a8b7ad8e128",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1304/father-confidence-2026-10-22b.wiki",
       "private_comparison": false,
-      "retained": "Complete prior biography, family, sources and named refs retained. New saved-transcript birth/maternal readings and explicit date conflicts are qualified. John3314 child-table source descriptions and former mother-unstated paragraph are superseded by cited Margaret Mill readings; every prior source identity remains. Whitespace normalized in additions. Existing vital fields and relationship grades retained.",
+      "retained": "Complete captured biography and previously reviewed full draft retained, including names, source URLs, existing references, event chronology and dated father review. Added only the cited 24 October derivative-source comparison; no vital, parent link, grade or adult identity is changed.",
       "restored_source_passage_count": 0,
-      "previous_proposed_sha256": "6257b5a25dd05d1cdf9387d881c4505eb795cb838f0facd446a5e0d033eccaf0",
-      "previous_proposed_git_reference": "8dfc6ce01ee787f12d71976efb53591ca18d16f8:research/Glasgow-1304/father-confidence-2026-10-22b.wiki",
+      "previous_proposed_sha256": "d4ea200e8d49fc49bea4ff05dfbedeb1eb192b7f293bd52377078d294ef5d6cf",
+      "previous_proposed_git_reference": "5bd6ea05e36fd18a65be1db3219fc29a1ec60afe:research/Glasgow-1304/father-confidence-2026-10-22b.wiki",
       "reviewed_on": "2026-10-24",
-      "superseded_passages": []
+      "superseded_passages": [
+        {
+          "before": "John was born about 1790.",
+          "after": "An inherited adult account states that John was born about 1790; its identity with the separately cited 1771 child is unproved, and the claim is retained for comparison rather than adopted as this child’s birth.",
+          "reason": "Opening must distinguish inherited adult material from the represented 1771 child; original claim retained explicitly."
+        }
+      ]
     },
     "Glasgow-1450": {
       "current_sha256": "2fc1f0c67e1b5f2dbf88de52392c887375972c96a3d76020446126537069657d",

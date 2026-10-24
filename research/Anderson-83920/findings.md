@@ -10,6 +10,12 @@ links Peter's companion memorial 198800998. Replace it with Jean's memorial and
 retain Peter's memorial number in the citation audit because both transcribe the
 same inscription.
 
+## Swinton John birth and baptism — 24 October 2026
+
+A saved [Simprim & Swinton transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884269&tab=this) records John Glasgow born 28 August, baptised 9 September 1772 to Peter Glasgow and Jean Anderson, residence Swinton (OPR 755/1 item 8 p.24). This adds a compatible named-child comparison to the 1770 Elizabeth and 1779 James literal Peter/Jean entries and the shared memorial naming Peter and Jean’s sons John and James. The child has no assigned profile; the transcript does not independently identify this Jean as Anderson-83920, and her current burial/death account is unchanged.
+
+The original OPR page has not been inspected; the existing adults and their family links retain their prior assessment.
+
 ## Source findings
 
 | Source | Finding | Assessment |

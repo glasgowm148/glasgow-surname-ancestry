@@ -6,6 +6,10 @@ The retained John account names Alexander Glasgow and Mary Munro, matching the e
 
 Cached-source review,24 October 2026: Four saved derivative OPR entries for the 1808, 1811 and 1814 child events at Kirknewton & East Calder name a father John Glasgow and a mother transcribed Mt/Margt Meikle. The shared parish and parent strings are compatible with the existing adult household context associated with Glasgow-1304 and Muckle-67, but do not identify the adult father profile or alter any assessment. The two George transcripts have differing page/residence metadata and are treated as one possible event pending original-page comparison.
 
+## Source review — 24 October 2026
+
+A derivative [Barony baptism index](https://www.findmypast.co.uk/transcript?id=R_693207798&tab=this) names John Glasgow, baptised 19 October 1771 to Alexander Glasgow and Mary Munro, matching the 1771 childhood account already in this profile. It has only birth year 1771 and cannot establish the current circa 13 October birth day. The separately cited 1765 John event and inherited “born about 1790” adult material remain unmerged; no later adult identification or 78% father grade changes.
+
 ## Father confidence review, second batch — 22 October 2026
 
 [Glasgow-1309](https://www.wikitree.com/wiki/Glasgow-1309) remains the selected father, assessed **78% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.

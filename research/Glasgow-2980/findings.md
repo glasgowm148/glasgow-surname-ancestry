@@ -4,7 +4,7 @@
 
 Current father assessment (22 October 2026): **83% (probable)** for [Glasgow-1023](https://www.wikitree.com/wiki/Glasgow-1023). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
-The Mid Calder John-2980 may be the later Kirkliston husband John-159. Both accounts are retained; no merge or date replacement is selected.
+The Mid Calder John-2980 may be the later Kirkliston husband John-159. Both accounts are retained; no merge or date replacement is selected. The 18 March 1750 date in the held index and new Findmypast records is explicitly a baptism date, not a demonstrated birth date; the existing birth bound before that event remains unchanged.
 
 ## Kirkliston family comparison — 17 October 2026
 
@@ -27,3 +27,8 @@ Next useful test: Compare the 1742 marriage and original child entries for occup
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [“Scotland Births and Baptisms, 1564-1950,” database, FamilySearch (entry for John Glasgow (https://familysearch.org/ark:/61903/1:1:X1BL-JX1), accessed 12 February 2020).](https://familysearch.org/ark:/61903/1:1:X1BL-JX1); [FamilySearch, Scotland Births and Baptisms: John Glasgow, Mid Calder, 1750; index cited in John’s captured biography (not freshly accessible)](https://www.familysearch.org/ark:/61903/1:1:X1BL-JFM)
+
+
+## Mid Calder baptism transcript review — 24 October 2026
+
+Findmypast companion derivative transcripts [R_686310853](https://www.findmypast.co.uk/transcript?id=R_686310853&tab=this) and [R_694113519](https://www.findmypast.co.uk/transcript?id=R_694113519&tab=this) report John Glasgow baptized on 18 March 1750 at Mid Calder, naming Thomas Glasgow and Janet Mill; R_686310853 additionally records residence Mid Calder. These repeat the existing FamilySearch-indexed event already associated with Glasgow-2980, rather than documenting two events. The transcript date is a baptism date; it does not establish an exact birth date, and the current bound before 18 March remains the maintained account. No original register image was inspected. The sources name Thomas and Janet but do not independently identify the adult profiles; the existing 83% father and 42% conditional parent comparisons remain unchanged.

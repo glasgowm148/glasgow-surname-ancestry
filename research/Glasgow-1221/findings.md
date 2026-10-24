@@ -6,6 +6,10 @@ John’s 1768 Kelso index names David Glasgow and Janet Glasgow. The selected Da
 
 Follow-up, 24 October 2026: same-event candidate, but John/Jean name conflict; hold. The Kelso OPR 793/3, item 1, p.98 transcript records Jean Glasgow’s birth on 12 May 1768 and baptism on 12 June, naming David Glasgow and Janet Hood. The existing John Glasgow-1221 account has the same baptism date, parish and compatible parents, but the Jean/John name discrepancy remains unresolved. No 12 May birth is assigned to John and no second child is proposed. The prior 97% father assessment concerns the existing John account; it does not resolve the new transcript’s identity.
 
+## Source review — 24 October 2026
+
+Two newly inspected derivative indexes ([R_686707056](https://www.findmypast.co.uk/transcript?id=R_686707056&tab=this), [R_690798614](https://www.findmypast.co.uk/transcript?id=R_690798614&tab=this)) literally call the 12 June 1768 Kelso child John and name David Glasgow and Janet Hood. Their birth year is 1768, with no exact birth date. The previously held OPR 793/3 p.98 transcript literally calls the child Jean and alone gives 12 May as birth. Treat the John indexes as stronger name comparison for the existing John account, but keep the John/Jean event identity unresolved until the original register is read; do not transfer 12 May to John, posit a second child, or change the 97% father assessment.
+
 ## Father confidence review, second batch — 22 October 2026
 
 [Glasgow-1218](https://www.wikitree.com/wiki/Glasgow-1218) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.

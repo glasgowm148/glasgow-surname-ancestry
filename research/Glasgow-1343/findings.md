@@ -42,3 +42,8 @@ Identified baptism subject; exact date, parish and named parents match the exist
 
 No new person, vital amendment or relationship regrade. The recorded mother and the candidate adult profile are separate assertions. [Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE20-JOHN1727-20261024 -->
+
+
+## Glasgow-3581 child-record cross-reference — 24 October 2026
+
+The companion Findmypast baptism transcripts R_686211396 and R_691905867 for John Glasgow, baptized at Kirknewton on 18 May 1755, explicitly name father John Glasgow and mother Mary Robertson; one adds residence Kirknewton. The child’s current assessment of adult Glasgow-1343 remains 82% probable, with adult identity still inferential. This child-record update does not change Glasgow-1343’s own birth, parents, upstream assessments, or any relationship grade on this profile. See [Glasgow-3581’s findings](/people/glasgow-3581.html#research-findings) for source limits and the retained assessment basis. Original register uninspected; companion transcripts represent one event.

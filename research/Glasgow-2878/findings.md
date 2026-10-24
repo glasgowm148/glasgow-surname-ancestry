@@ -4,6 +4,12 @@
 
 The source account below is an unresolved household comparison; no child or parent is attached and the existing vital fields are unchanged.
 
+## Swinton John birth and baptism — 24 October 2026
+
+A saved [OPR 755/1, item 8, p.24 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884269&tab=this) names John Glasgow born 28 August and baptised 9 September 1772 at Simprim & Swinton, residence Swinton, father Peter Glasgow and mother Jean Anderson. The repeated literal couple also appears in the 1770 Elizabeth and 1779 James records; Peter-2878 and Jean Anderson-83920 have a memorial naming sons John and James. Ages are compatible: Peter about 32 and Jean about 37 in 1772, the 1779 James when Jean was about 44, and the memorial sons would be about 40 and 33 when Peter died in 1812. These approximate ages do not prove the record parents are the memorial adults. No exact John child profile is identified, no parent link is added, and no vital or grade changes.
+
+The original OPR page has not been inspected; the existing adults and their family links retain their prior assessment.
+
 <!-- BEGIN FMP-BIRTH-SCOPE-PAGE8-20261023 -->
 ## Findmypast page 8 source review — 23 October 2026
 

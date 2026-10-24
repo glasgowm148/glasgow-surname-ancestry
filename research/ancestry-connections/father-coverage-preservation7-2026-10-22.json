@@ -722,15 +722,19 @@
     },
     "Glasgow-2980": {
       "current_sha256": "98fca7cb4022d322895fe78e3e8a9998166fc9674e199096130ababafa67a9ac",
-      "proposed_sha256": "f780e7bccfb3eb58c181a2b86d0ec3deb447000542b3fbe561825ce8df009e30",
-      "previous_proposed_sha256": "98fca7cb4022d322895fe78e3e8a9998166fc9674e199096130ababafa67a9ac",
+      "proposed_sha256": "c2d38da7f4278d71c3cc08e116e4d83e88326b18fe77485c380cae86068489a0",
+      "previous_proposed_sha256": "f780e7bccfb3eb58c181a2b86d0ec3deb447000542b3fbe561825ce8df009e30",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-2980.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2980/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete prior proposed biography and all citations retained. Prior exact-birth opening is explicitly preserved as superseded imported profile wording; new sections add transcript source accounts and date-role qualification. Existing father conclusions/grades remain unchanged.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "change_summary": "Replace unsupported exact-birth opening with baptism-date role and inclusive born-on-or-before bound; preserve prior exact-date wording as history; add companion transcript citations and original-uninspected limitations.",
+      "normalized_sha256_method": "SHA256 of UTF-8 text after strip(), matching tools/build_research_catalog.py::_validate_profile_preservation_review.",
+      "previous_proposed_git_reference": "5bd6ea05e36fd18a65be1db3219fc29a1ec60afe:research/Glasgow-2980/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24"
     },
     "Glasgow-1232": {
       "current_sha256": "9c85ff1eab8cccc79864f7cb1895ee51258980ae9cba3b7b72dc7cf7bd17ac1d",
@@ -892,15 +896,19 @@
     },
     "Glasgow-3480": {
       "current_sha256": "f87669dba12628415d5a158beaeba70101c57ed2174ce0e4f06886137fff7b61",
-      "proposed_sha256": "12a4eb8a124c8b3508ba78c85fea24cc5ba2e108b97653458c85791453feb93a",
-      "previous_proposed_sha256": "f87669dba12628415d5a158beaeba70101c57ed2174ce0e4f06886137fff7b61",
+      "proposed_sha256": "3dc390f3ec4372d576ea671c4c2790936276d027cdc6b39dd70342c0014ee330",
+      "previous_proposed_sha256": "12a4eb8a124c8b3508ba78c85fea24cc5ba2e108b97653458c85791453feb93a",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3480.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3480/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete prior proposed biography and all citations retained. Prior exact-birth opening is explicitly preserved as superseded imported profile wording; new sections add transcript source accounts and date-role qualification. Existing father conclusions/grades remain unchanged.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "change_summary": "Replace unsupported exact-birth opening with baptism-date role and inclusive born-on-or-before bound; preserve prior exact-date wording as history; add companion transcript citations and original-uninspected limitations.",
+      "normalized_sha256_method": "SHA256 of UTF-8 text after strip(), matching tools/build_research_catalog.py::_validate_profile_preservation_review.",
+      "previous_proposed_git_reference": "5bd6ea05e36fd18a65be1db3219fc29a1ec60afe:research/Glasgow-3480/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24"
     },
     "Glasgow-3483": {
       "current_sha256": "0c87bbdb0bdd5c0fcfb5a15918ea9c131a2dc20d3b983a6acfb80d6e926268eb",
@@ -1012,15 +1020,19 @@
     },
     "Glasgow-3581": {
       "current_sha256": "601b3dde2c711dfd5d880f185f03c3ef7b5f02ac11ccc0a214a9b2001d2304f7",
-      "proposed_sha256": "97271b81daab24ab58fdf088dd958d493a6182ed94d89d30781683b549c34c46",
-      "previous_proposed_sha256": "601b3dde2c711dfd5d880f185f03c3ef7b5f02ac11ccc0a214a9b2001d2304f7",
+      "proposed_sha256": "6a64d2837bba801fd2728b7ed34d29c372e9563eacb4886aa1cf7cee43f4e2c9",
+      "previous_proposed_sha256": "97271b81daab24ab58fdf088dd958d493a6182ed94d89d30781683b549c34c46",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3581.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3581/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete prior proposed biography and all citations retained. Prior exact-birth opening is explicitly preserved as superseded imported profile wording; new sections add transcript source accounts and date-role qualification. Existing father conclusions/grades remain unchanged.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "change_summary": "Replace unsupported exact-birth opening with baptism-date role and inclusive born-on-or-before bound; preserve prior exact-date wording as history; add companion transcript citations and original-uninspected limitations.",
+      "normalized_sha256_method": "SHA256 of UTF-8 text after strip(), matching tools/build_research_catalog.py::_validate_profile_preservation_review.",
+      "previous_proposed_git_reference": "5bd6ea05e36fd18a65be1db3219fc29a1ec60afe:research/Glasgow-3581/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24"
     },
     "Glasgow-1922": {
       "current_sha256": "27de2071a9813cf1ed535ea047b4614487a72e0e220e518f67d946016956577e",
@@ -1558,15 +1570,17 @@
     },
     "Glasgow-2102": {
       "current_sha256": "686433f7a1a3b6ac6b2e838f3e8f811aa998629a4fab8d365029cf90f090cf0a",
-      "proposed_sha256": "c0c318a2a96b7ef1348ae88451bf25be4e099db34b5ce89d161b0fddb4543037",
-      "previous_proposed_sha256": "686433f7a1a3b6ac6b2e838f3e8f811aa998629a4fab8d365029cf90f090cf0a",
+      "proposed_sha256": "6e53b2c397738813eab0e1f36587e10c5e5f2249023e8593d5f92801d58d19bd",
+      "previous_proposed_sha256": "c0c318a2a96b7ef1348ae88451bf25be4e099db34b5ce89d161b0fddb4543037",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-2102.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2102/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete captured biography and previously reviewed full draft retained, including names, family chronology, dated father review, source URLs and all existing references. Added only the cited 24 October derivative-source comparison; source date roles, unresolved child/adult identity and existing father grade remain explicit. Glasgow-2102 opening birth bound is superseded by the transcript-stated 5 September 1777 birth; its previous bound and mother-link mismatch remain described, with no parent reattachment.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "5bd6ea05e36fd18a65be1db3219fc29a1ec60afe:research/Glasgow-2102/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24"
     },
     "Glasgow-1448": {
       "current_sha256": "8ef1bd010c778c0c08aa1eae394f0aa69de692c75daef6e97a8684cb68c06026",

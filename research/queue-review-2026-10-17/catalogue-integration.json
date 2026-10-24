@@ -11277,11 +11277,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-3298/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-3298/findings.md",
-      "summary": "Review existing father at 94% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 94% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 94% (proved), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
+      "work_queue_summary": "Review existing father at 94% (proved), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11351,8 +11351,8 @@
       "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-1221/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-1221/findings.md",
-      "summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add24October derivative-record review with explicit event roles and identity limits.",
-      "work_queue_summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add24October derivative-record review with explicit event roles and identity limits.",
+      "summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add24October derivative-record review with explicit event roles and identity limits. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
+      "work_queue_summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add24October derivative-record review with explicit event roles and identity limits. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11986,8 +11986,8 @@
       "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-1304/father-confidence-2026-10-22b.wiki",
       "findings_path": "research/Glasgow-1304/findings.md",
-      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments.",
-      "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments.",
+      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
+      "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21348,11 +21348,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-2980/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-2980/findings.md",
-      "summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
+      "work_queue_summary": "Review existing father at 83% (probable), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21595,11 +21595,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-3480/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-3480/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged. Replace imported 18 August 1751 birthday with birth on or before its indexed baptism.",
+      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged. Replace imported 18 August 1751 birthday with birth on or before its indexed baptism.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21619,7 +21619,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "1751-08-18",
+          "to": "before 1751-08-19",
+          "basis": "MyHeritage held record 30226-356058 says “Christening: Aug 18 1751”; FMP R_686207931/R_691903896 label 18 Aug 1751 baptism. Companion derivatives are not independent original evidence.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207931&tab=this",
+          "assessment_id": "glasgow-3480-baptism-date-role-20261024"
+        }
+      ]
     },
     "Glasgow-3483": {
       "profile_id": "Glasgow-3483",
@@ -21905,11 +21915,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-3581/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-3581/findings.md",
-      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged. Replace imported 18 May 1755 birthday with birth on or before its indexed baptism; father John is explicit, adult-1343 identity remains82%.",
+      "work_queue_summary": "Review existing father at 82% (probable), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged. Replace imported 18 May 1755 birthday with birth on or before its indexed baptism; father John is explicit, adult-1343 identity remains82%.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21929,7 +21939,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "1755-05-18",
+          "to": "before 1755-05-19",
+          "basis": "FMP R_686211396/R_691905867 label 18 May 1755 Baptism date; both name John Glasgow and Mary Robertson; one adds residence Kirknewton. Held FamilySearch parent-side citation names Mary Robertson but does not state date role. Original register not inspected.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=R_686211396&tab=this",
+          "assessment_id": "glasgow-3581-baptism-date-role-20261024"
+        }
+      ]
     },
     "Glasgow-1922": {
       "profile_id": "Glasgow-1922",
@@ -22881,11 +22901,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "draft_path": "research/Glasgow-2102/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-2102/findings.md",
-      "summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged. Refine represented child birth from before 11 September to indexed 5 September 1777; later adult identity and mother-profile discrepancy remain unresolved.",
+      "work_queue_summary": "Review existing father at 61% (probable), retaining source and identity limits; no new father attachment. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged. Refine represented child birth from before 11 September to indexed 5 September 1777; later adult identity and mother-profile discrepancy remain unresolved.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -22905,7 +22925,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "vital_changes": [
+        {
+          "field": "birth",
+          "from": "before 1777-09-11",
+          "to": "1777-09-05",
+          "basis": "Saved Findmypast derivative transcript OPR 685_2/10 item 2 p.12 explicitly gives John Glasgow birth 5 Sep 1777 and baptism 11 Sep 1777, Alexander Glasgow brewer and Agnes Cunningham, residence Pleasance Broughton. Existing profile already represents this John child at St Cuthberts before 11 Sep 1777. Exact childhood event match by name, parents, parish and baptism day; no independent bridge to the 1827 prisoner or John-1348. Original image uninspected.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0735490&tab=this",
+          "assessment_id": "fmp-glasgow-2102-birth-20261024"
+        }
+      ]
     },
     "Glasgow-1448": {
       "profile_id": "Glasgow-1448",

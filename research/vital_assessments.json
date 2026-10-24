@@ -1424,6 +1424,173 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-3480-baptism-date-role-20261024",
+      "subject": "Glasgow-3480",
+      "status": "approved",
+      "reviewed": "2026-10-24",
+      "basis": "MyHeritage held record 30226-356058 says “Christening: Aug 18 1751”; FMP R_686207931/R_691903896 label 18 Aug 1751 baptism. Companion derivatives are not independent original evidence.",
+      "summary": "Indexed baptism date does not establish an exact birth date; retain an inclusive birth bound and preserve the imported exact date as an earlier claim.",
+      "vitals": {
+        "birth": {
+          "date": "before 1751-08-19",
+          "place": "Kirknewton And East Calder, Midlothian, Scotland",
+          "status": "uncertain",
+          "note": "The reviewed MyHeritage held index and Findmypast derivative transcripts label 18 August 1751 as Christening/Baptism, not birth. The birth date is unproved; this inclusive bound allows birth on the baptism date or earlier. The imported exact claim 18 August 1751 is retained in prior profile/history comparisons as an earlier imported claim, not silently erased. No original register image inspected.",
+          "country": "scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207931&tab=this",
+          "source_level": "Inspected provider derivative transcript; original image not inspected",
+          "qualifier": "Birth date unproved; before the day after baptism encodes on or before baptism without excluding same-day birth. Existing place retained as parish claim."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Baptism date is not a proven birth date; birth on that date or earlier remains possible; original record image not inspected."
+      },
+      "source_ids": [
+        "fmp-record-r-686207931",
+        "fmp-record-r-691903896"
+      ],
+      "project_tree_vitals": true,
+      "scope": "Source-defined birth date or inclusive date bound only; adult identity and parent grades unchanged",
+      "source": {
+        "url": "/people/glasgow-3480.json",
+        "section": "research_findings / saved-page birth and baptism reconciliation, 24 October 2026"
+      },
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-24",
+          "previous_vital": {
+            "date": "1751-08-18",
+            "place": "Kirknewton And East Calder, Midlothian, Scotland",
+            "status": "exact"
+          },
+          "basis": "Earlier imported profile claim, retained in reversible original_vitals/current-versus-proposed comparisons; not new source confirmation."
+        }
+      ],
+      "catalogue_projection": {
+        "birth": "before 1751-08-19",
+        "birth_year": 1751,
+        "birth_note": "The reviewed MyHeritage held index and Findmypast derivative transcripts label 18 August 1751 as Christening/Baptism, not birth. The birth date is unproved; this inclusive bound allows birth on the baptism date or earlier. The imported exact claim 18 August 1751 is retained in prior profile/history comparisons as an earlier imported claim, not silently erased. No original register image inspected.",
+        "date_years": [
+          1751
+        ],
+        "field_statuses": {
+          "birth": "before",
+          "birth_location": "unmarked"
+        }
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "glasgow-3581-baptism-date-role-20261024",
+      "subject": "Glasgow-3581",
+      "status": "approved",
+      "reviewed": "2026-10-24",
+      "basis": "FMP R_686211396/R_691905867 label 18 May 1755 Baptism date; both name John Glasgow and Mary Robertson; one adds residence Kirknewton. Held FamilySearch parent-side citation names Mary Robertson but does not state date role. Original register not inspected.",
+      "summary": "Indexed baptism date does not establish an exact birth date; retain an inclusive birth bound and preserve the imported exact date as an earlier claim.",
+      "vitals": {
+        "birth": {
+          "date": "before 1755-05-19",
+          "place": "Kirknewton, Linlithgowshire, Scotland",
+          "status": "uncertain",
+          "note": "The reviewed Findmypast derivative transcripts label 18 May 1755 as Baptism date; one indexes Birth year 1755, not a specific birth date. The birth date is unproved; this inclusive bound allows birth on the baptism date or earlier. The imported exact claim 18 May 1755 is retained in prior profile/history comparisons as an earlier imported claim, not silently erased. No original register image inspected.",
+          "country": "scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=R_686211396&tab=this",
+          "source_level": "Inspected provider derivative transcript; original image not inspected",
+          "qualifier": "Birth date unproved; before the day after baptism encodes on or before baptism without excluding same-day birth. Existing place retained as parish claim."
+        }
+      },
+      "vital_qualifications": {
+        "birth": "Baptism date is not a proven birth date; birth on that date or earlier remains possible; original record image not inspected."
+      },
+      "source_ids": [
+        "fmp-record-r-686211396",
+        "fmp-record-r-691905867"
+      ],
+      "project_tree_vitals": true,
+      "scope": "Source-defined birth date or inclusive date bound only; adult identity and parent grades unchanged",
+      "source": {
+        "url": "/people/glasgow-3581.json",
+        "section": "research_findings / saved-page birth and baptism reconciliation, 24 October 2026"
+      },
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-24",
+          "previous_vital": {
+            "date": "1755-05-18",
+            "place": "Kirknewton, Linlithgowshire, Scotland",
+            "status": "exact"
+          },
+          "basis": "Earlier imported profile claim, retained in reversible original_vitals/current-versus-proposed comparisons; not new source confirmation."
+        }
+      ],
+      "catalogue_projection": {
+        "birth": "before 1755-05-19",
+        "birth_year": 1755,
+        "birth_note": "The reviewed Findmypast derivative transcripts label 18 May 1755 as Baptism date; one indexes Birth year 1755, not a specific birth date. The birth date is unproved; this inclusive bound allows birth on the baptism date or earlier. The imported exact claim 18 May 1755 is retained in prior profile/history comparisons as an earlier imported claim, not silently erased. No original register image inspected.",
+        "date_years": [
+          1755
+        ],
+        "field_statuses": {
+          "birth": "before",
+          "birth_location": "unmarked"
+        }
+      }
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-glasgow-2102-birth-20261024",
+      "subject": "Glasgow-2102",
+      "status": "approved",
+      "reviewed": "2026-10-24",
+      "scope": "Source-defined birth date or inclusive date bound only; adult identity and parent grades unchanged",
+      "basis": "Saved Findmypast derivative transcript OPR 685_2/10 item 2 p.12 explicitly gives John Glasgow birth 5 Sep 1777 and baptism 11 Sep 1777, Alexander Glasgow brewer and Agnes Cunningham, residence Pleasance Broughton. Existing profile already represents this John child at St Cuthberts before 11 Sep 1777. Exact childhood event match by name, parents, parish and baptism day; no independent bridge to the 1827 prisoner or John-1348. Original image uninspected.",
+      "source": {
+        "url": "/people/glasgow-2102.json",
+        "section": "research_findings / saved-page birth and baptism reconciliation, 24 October 2026"
+      },
+      "summary": "Glasgow-2102 child account: birth 1777-09-05, baptism 1777-09-11; prior birth before 1777-09-11.",
+      "vitals": {
+        "birth": {
+          "date": "1777-09-05",
+          "place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "qualifier": "Exact birth field in inspected derivative transcript; original OPR image uninspected. Existing parish-place carried forward; residence does not independently establish exact birthplace.",
+          "note": "Record-defined child matched; later adult identity and father-1321 61% assessment unchanged.",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0735490&tab=this",
+          "source_level": "Inspected provider derivative transcript; original image not inspected"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1777-09-05",
+        "birth_year": 1777,
+        "birth_note": "OPR transcript explicitly distinguishes 5 September birth from 11 September baptism; original image uninspected; existing St Cuthberts place retained as parish claim.",
+        "date_years": [
+          1777
+        ],
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bap-0735490"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-24",
+          "previous_vital": {
+            "date": "before 1777-09-11",
+            "place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+            "status": "uncertain"
+          },
+          "basis": "Earlier imported profile claim, retained in reversible original_vitals/current-versus-proposed comparisons; not new source confirmation."
+        }
+      ]
     }
   ]
 }

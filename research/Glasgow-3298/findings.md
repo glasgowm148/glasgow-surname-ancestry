@@ -6,6 +6,8 @@ Reviewed: 22 October 2026.
 
 Two inspected transcripts index unnamed male children born 1792 and 1797 at Kilmarnock, father John Glasgow, mother unnamed. The local John associated with Margaret Wyllie is a compatible adult lead, not a proved father identification. [John Glasgow-3051](/people/glasgow-3051.html), born 24 January 1791, is too young to father either child and is excluded for this role. Do not invent children’s forenames or use the unnamed mother to assert Margaret as their mother.
 
+An inspected Findmypast parish-baptism transcript now confirms the 23 April 1755 Glasgow baptism of John, naming Hugh Glasgow and Margtt. McKechny. Its birth field gives 1755 only; the inherited 19 April birth claim remains dependent on the earlier FamilySearch citation and original-register comparison. Hugh-1929’s scoped 94% assessment and McEachin-120’s separate unassessed status remain unchanged.
+
 <!-- BEGIN FMP-BIRTH-SCOPE-20261022 -->
 ## Source findings — Unnamed Kilmarnock boys: compatible John comparison, 22 October 2026
 
@@ -50,3 +52,11 @@ Role in this account: candidate only: current findings treat a local John/Margar
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+## Glasgow baptism transcript confirmation — 24 October 2026
+
+[Findmypast R_22094613969](https://www.findmypast.co.uk/transcript?id=R_22094613969&tab=this) indexes John Glasgow’s baptism on **23 April 1755** at Glasgow, Lanarkshire, son of Hugh Glasgow and Margtt. McKechny. It separately gives **Birth year 1755**, without a birth day. This supports the already named baptism and family; it does not independently verify the complete proposal’s inherited 19 April birth date. The earlier [FamilySearch citation](https://familysearch.org/ark:/61903/1:1:VRS2-MNP) remains in the account. The original register has not been inspected.
+
+The adult identification of Hugh with [Glasgow-1929](/people/glasgow-1929.html) retains its **94%** scoped father assessment; [McEachin-120](/people/mceachin-120.html) remains separately unassessed. No vital, parent, or relationship grade changes follow from this derivative transcript. Next test: inspect the Glasgow register and the FamilySearch date fields together for the 19 April birth and 23 April baptism roles.
+
+The inherited complete biography’s exact 19 April birthday and McCachen-1 maternal link are retained as earlier claims, qualified against the current before-19-April birth bound and unassessed McEachin-120 comparison. The new baptism transcript settles neither discrepancy; no vital or maternal attachment changes.

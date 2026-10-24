@@ -1,0 +1,98 @@
+{
+  "reviewed_on": "2026-10-24",
+  "records_checked": 22,
+  "source_readers_checked": 22,
+  "source_only_rows_checked": 10,
+  "profiles_checked": 10,
+  "complete_proposals_checked": 7,
+  "first_seen_documentary_groups": 7,
+  "new_people": 0,
+  "vital_changes": 3,
+  "relationship_grade_changes": 0,
+  "literal_receipts": 508,
+  "profile_context_receipts": 353,
+  "source_only_receipts": 155,
+  "supporting_cached_receipts": 19,
+  "indexed_union": 527,
+  "query_rows_reviewed": 420,
+  "contiguous_rows_reviewed": 420,
+  "saved_detail_gaps": 0,
+  "next_page": 22,
+  "source_ids": {
+    "R_686310853": "s-9539d150a2946c87",
+    "R_694113519": "s-e816f04c71c750c6",
+    "R_686207931": "s-86d93545a22ca039",
+    "R_691903896": "s-6c8cae9a44a49a00",
+    "R_22094613969": "s-7e879c4e68710230",
+    "R_686211396": "s-5210b87ad0d35a78",
+    "R_691905867": "s-42e3ec9064b06975",
+    "GBPRS/GLASGOW/BUR/093142": "s-647ed0641d8da2a8",
+    "R_692644328": "s-5549ff4654bd5140",
+    "SCOT/OPR/BUR/1025643": "s-3f51439f6332b3f5",
+    "GBPRS/GLASGOW/BUR/093137": "s-d9a53c2819ddd95d",
+    "SCOT/OPR/BAP/3839025": "s-494abe88f2cf988d",
+    "R_686707056": "s-9c7474215cff6a43",
+    "R_690798614": "s-44f763a68cd87ec0",
+    "GBPRS/GLASGOW/BUR/093143": "s-4dee4d331e192048",
+    "R_693207798": "s-da9ebee1841c0518",
+    "GBPRS/WSMTN/BAP/0284722": "s-a8e591a2a2d59d22",
+    "GBPRS/B/491836340/1": "s-2437180ff12e2de6",
+    "R_864628876": "s-c3efa0c676241e9a",
+    "SCOT/OPR/BAP/4884269": "s-20a9b13f386c507c",
+    "R_686312199": "s-f7cef7234f49ce42",
+    "SCOT/OPR/BAP/0735490": "s-4458c226bb825b7b"
+  },
+  "preservation_hashes": {
+    "Glasgow-2980": "c2d38da7f4278d71c3cc08e116e4d83e88326b18fe77485c380cae86068489a0",
+    "Glasgow-3480": "3dc390f3ec4372d576ea671c4c2790936276d027cdc6b39dd70342c0014ee330",
+    "Glasgow-3581": "6a64d2837bba801fd2728b7ed34d29c372e9563eacb4886aa1cf7cee43f4e2c9",
+    "Glasgow-3298": "18b00c504f1f06aa2e6fda6ce9971466db46db6dd7091665f7ddf9b886698727",
+    "Glasgow-1221": "6c0c2f58c6f10f28be0478b26677f232bd30745bc1c537eb6e7d4a4b3578db28",
+    "Glasgow-1304": "c20a5f10887b54e084b25f810bdd4a26722ffd91bf2038aecc620a8b7ad8e128",
+    "Glasgow-2102": "6e53b2c397738813eab0e1f36587e10c5e5f2249023e8593d5f92801d58d19bd"
+  },
+  "tree": {
+    "main_count": 4532,
+    "atlas_count": 4532,
+    "standalone_count": 4685,
+    "selected_birth_displays": {
+      "Glasgow-3480": "before 1751-08-19",
+      "Glasgow-3581": "before 1755-05-19",
+      "Glasgow-2102": "1777-09-05"
+    },
+    "packed_and_inline_agree": true
+  },
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "coverage": "INCOMPLETE",
+  "query_total": 5872,
+  "query_reviewed_percent": 7.2,
+  "source_aware_current_counts": {
+    "accessible_ids": 837,
+    "represented_ids": 744,
+    "remaining_unindexed": 93
+  },
+  "publication_checks": {
+    "affected_people": 10,
+    "post_repair_profile": "Glasgow-3298",
+    "new_failing_items": 0,
+    "existing_warning": "Anderson-83920 undated conclusion predates an older correction; existing baseline preserved"
+  },
+  "link_check": {
+    "pages": 25750,
+    "references": 1355160,
+    "broken_links": 7,
+    "baseline_pairs": 4,
+    "new_pairs": 0,
+    "nongated_missing_anchors": 87
+  },
+  "original_registers_inspected": 0,
+  "cache_validation": {
+    "files": 25803,
+    "references": 428843,
+    "stale_references": 0,
+    "samples": [],
+    "manifest_before": "acfca7168b",
+    "manifest_after": "acfca7168b",
+    "manifest_stable": true
+  }
+}

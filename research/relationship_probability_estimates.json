@@ -19838,12 +19838,25 @@
       "percent": 82,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3581-father",
-      "basis": "John’s 1755 Kirknewton index identifies mother Mary Robertson; the selected John/Mary couple and John’s 1727 same-parish childhood make a coherent specific family. The held child citation does not expose the father field.",
+      "basis": "The 1755 Kirknewton and East Calder baptism is reported by companion Findmypast derivatives R_686211396 and R_691905867; both explicitly name father John Glasgow and mother Mary Robertson, and R_686211396 also records residence Kirknewton. This supports the record-defined father clause and is compatible with the existing Glasgow-1343/Mary Robertson family comparison. The prior source-field limitation that the held FamilySearch citation did not expose the father is superseded. The transcript does not uniquely identify this adult John: it supplies no occupation, unique identifier, marriage bridge, or independent proof that the selected John’s spouse profile is the recorded Mary. The two derivatives report one event, not independent original evidence; no original register image was inspected. Retain the 82% probable assessment of the full father-profile proposition, with remaining uncertainty located in adult identity/profile linkage.",
       "source_ids": [
-        "held-e-6427a98c7eaf"
+        "held-e-6427a98c7eaf",
+        "fmp-record-r-686211396",
+        "fmp-record-r-691905867"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-10-24",
+      "scope": "Complete selected father-profile proposition, with identity limits below.",
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-22",
+          "basis": "John’s 1755 Kirknewton index identifies mother Mary Robertson; the selected John/Mary couple and John’s 1727 same-parish childhood make a coherent specific family. The held child citation does not expose the father field.",
+          "source_ids": [
+            "held-e-6427a98c7eaf"
+          ],
+          "percent": 82,
+          "superseded_on": "2026-10-24"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1343",
@@ -19852,12 +19865,25 @@
       "percent": 82,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3581-father",
-      "basis": "John’s 1755 Kirknewton index identifies mother Mary Robertson; the selected John/Mary couple and John’s 1727 same-parish childhood make a coherent specific family. The held child citation does not expose the father field.",
+      "basis": "The 1755 Kirknewton and East Calder baptism is reported by companion Findmypast derivatives R_686211396 and R_691905867; both explicitly name father John Glasgow and mother Mary Robertson, and R_686211396 also records residence Kirknewton. This supports the record-defined father clause and is compatible with the existing Glasgow-1343/Mary Robertson family comparison. The prior source-field limitation that the held FamilySearch citation did not expose the father is superseded. The transcript does not uniquely identify this adult John: it supplies no occupation, unique identifier, marriage bridge, or independent proof that the selected John’s spouse profile is the recorded Mary. The two derivatives report one event, not independent original evidence; no original register image was inspected. Retain the 82% probable assessment of the full father-profile proposition, with remaining uncertainty located in adult identity/profile linkage.",
       "source_ids": [
-        "held-e-6427a98c7eaf"
+        "held-e-6427a98c7eaf",
+        "fmp-record-r-686211396",
+        "fmp-record-r-691905867"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-10-24",
+      "scope": "Complete selected father-profile proposition, with identity limits below.",
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-22",
+          "basis": "John’s 1755 Kirknewton index identifies mother Mary Robertson; the selected John/Mary couple and John’s 1727 same-parish childhood make a coherent specific family. The held child citation does not expose the father field.",
+          "source_ids": [
+            "held-e-6427a98c7eaf"
+          ],
+          "percent": 82,
+          "superseded_on": "2026-10-24"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1922",
