@@ -232,6 +232,42 @@ class ResearchPreflightTests(unittest.TestCase):
         assert ranked['items'][0]['match_kind'] == 'counterpart_id'
         assert 'Glasgow-12' in ranked['items'][0]['excerpt']
 
+    def test_unknown_father_preflight_has_bounded_child_parent_kinship_leads_only(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / 'data/wikitree/profile-evidence.json'
+            path.parent.mkdir(parents=True)
+            text = 'A paragraph about farming with no kinship words.\n\n' + '\n\n'.join(
+                'His father was mentioned beside his sister in this held family account. ' + 'x' * 1000
+                for _ in range(5))
+            path.write_text(json.dumps({'profiles': {
+                'Glasgow-1': {'biography_wikitext': text},
+                'Glasgow-2': {'biography_wikitext': 'SECRET parent account must not be searched.'}}}))
+            pending = root / 'research/Glasgow-1/review.wiki'
+            pending.parent.mkdir(parents=True)
+            pending.write_text('Her mother and aunt occur in this pending account.')
+            manifest = root / 'research/queue-review-2026-10-17/catalogue-integration.json'
+            manifest.parent.mkdir(parents=True)
+            manifest.write_text(json.dumps({'profile_updates': {'Glasgow-1': {
+                'draft_path': 'research/Glasgow-1/review.wiki'}}}))
+            context = {'rows': {'Glasgow-1': {'Privacy': 60, 'IsLiving': 0}}, 'origins': {},
+                       'checked': {}, 'records': [], 'assessments': []}
+            packet = build_preflight('Glasgow-1', root=root, context=context)
+            leads = packet['biographical_kinship_leads']
+            assert len(leads['items']) == 3 and leads['characters'] <= 2400 and leads['truncated']
+            assert leads['total_matches'] == 6
+            assert all(x['match_kind'] == 'parent_kinship_term' for x in leads['items'])
+            captured = [x for x in leads['items'] if x['source_kind'] == 'captured_biography']
+            assert all(x['pointer'] == '/profiles/Glasgow-1/biography_wikitext' for x in captured)
+            assert all(text[x['char_offset']:x['char_offset'] + len(x['excerpt'])] == x['excerpt'] for x in captured)
+            assert any(x['path'] == 'research/Glasgow-1/review.wiki' for x in leads['items'])
+            assert 'not a relationship assertion' in leads['interpretation']
+            assert 'SECRET' not in json.dumps(packet)
+            assert not packet['related_parent_account']['available']
+            context['rows']['Glasgow-1']['IsLiving'] = 1
+            withheld = build_preflight('Glasgow-1', root=root, context=context)
+            assert withheld['withheld'] and 'biographical_kinship_leads' not in withheld
+
 
 if __name__ == "__main__":
     unittest.main()

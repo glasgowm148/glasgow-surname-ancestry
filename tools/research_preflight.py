@@ -191,7 +191,8 @@ def _kinship_excerpts(text, *, account_id, counterpart_id, source_kind, source_p
     """Return bounded literal paragraph leads with stable line/offset locators."""
     if not isinstance(text, str) or not text:
         return {'total_matches': 0, 'truncated': False, 'items': []}
-    kin = re.compile(r'\b(?:son|daughter|child(?:ren)?|father|parents?)\b', re.I)
+    kin = re.compile(r'\b(?:son|daughter|child(?:ren)?|father|parents?)\b', re.I) if counterpart_id else re.compile(
+        r'\b(?:father|mother|parents?|grandfather|grandmother|brother|sister|uncle|aunt|niece|nephew)\b|\b(?:son|daughter)\s+of\b', re.I)
     id_term = re.compile(rf'(?<![\w-]){re.escape(counterpart_id)}(?![\w-])', re.I) if counterpart_id else None
     name_terms = [re.compile(rf'(?<![\w-]){re.escape(v)}(?![\w-])', re.I)
                   for v in sorted(counterpart_names) if v]
@@ -205,11 +206,13 @@ def _kinship_excerpts(text, *, account_id, counterpart_id, source_kind, source_p
             continue
         id_hits = list(id_term.finditer(raw)) if id_term else []
         hits = id_hits or [hit for term in name_terms for hit in term.finditer(raw)]
-        if not hits:
+        if not hits and counterpart_id:
             continue
+        if not counterpart_id:
+            hits = kin_hits
         kin_hit, hit = min(((k, h) for k in kin_hits for h in hits),
                            key=lambda pair: (abs(pair[0].start()-pair[1].start()), pair[1].start(), pair[0].start()))
-        matches.append((0 if id_hits else 1, m.start(), m.end(), raw, kin_hit.span(), hit.span()))
+        matches.append((0 if id_hits else 1 if counterpart_id else 2, m.start(), m.end(), raw, kin_hit.span(), hit.span()))
     matches.sort(key=lambda x: (x[0], x[1]))
     items = []
     used = 0
@@ -237,8 +240,9 @@ def _kinship_excerpts(text, *, account_id, counterpart_id, source_kind, source_p
         line = text.count('\n', 0, excerpt_start) + 1
         item = {'source_kind': source_kind, 'path': source_path,
                 'line': line, 'char_offset': excerpt_start, 'excerpt': excerpt,
-                'match_kind': 'counterpart_id' if rank == 0 else 'counterpart_name',
-                'source_context': 'Literal paragraph window containing the kinship term and counterpart mention.'}
+                'match_kind': 'counterpart_id' if rank == 0 else 'counterpart_name' if counterpart_id else 'parent_kinship_term',
+                'source_context': ('Literal paragraph window containing the kinship term and counterpart mention.' if counterpart_id else
+                                   'Literal child-account paragraph with a parent or kinship term; no father candidate supplied or inferred.')}
         if source_kind == 'captured_biography':
             item['pointer'] = f'/profiles/{account_id}/biography_wikitext'
         items.append(item)
@@ -335,9 +339,7 @@ def build_preflight(profile_id, father_id=None, *, root=Path('.'), source_limit=
               'withheld': False, 'eligibility': privacy,
               'findings': {'path': str(findings), 'exists': (root / findings).exists(),
                            **findings_sections((root / findings).read_text() if (root / findings).exists() else '', text_limit)}}
-    output['biographical_kinship_leads'] = (
-        biography_kinship_leads(profile_id, father_id, root=root, context=context)
-        if father_id else {'total_matches': 0, 'truncated': False, 'characters': 0, 'items': []})
+    output['biographical_kinship_leads'] = biography_kinship_leads(profile_id, father_id, root=root, context=context)
     for filename, key, fields in [('research_plan.json', 'research_plan', None),
                                    ('presentation.json', 'presentation', ('research_tasks', 'completed_searches'))]:
         path = case / filename

@@ -14,7 +14,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from tools.branch_connectivity import CONFIDENT, SUPPORTED, EXCLUDED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize, paternal_link_impacts, relationship_status, is_named_father_name
+from tools.branch_connectivity import CONFIDENT, SUPPORTED, EXCLUDED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize, paternal_link_impacts, relationship_status, is_named_father_name, has_named_father
 from tools.documentary_ancestry import load_people
 from tools.free_space_edition import shell_page
 from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
@@ -192,22 +192,6 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
     return sorted(rows, key=lambda row: (row['research_event'] or {}).get('date') or row['date'] or '', reverse=True)
 
 
-def has_named_father(dossier):
-    """A retained named father, independent of his confidence or graph eligibility."""
-    for relation in (dossier.get('relationships') or {}).get('parents') or []:
-        status, _ = relationship_status(relation)
-        if (str(relation.get('relationship', '')).casefold() != 'father'
-                or not relation.get('id') or status in EXCLUDED
-                or relation.get('lifecycle') not in (None, 'current')
-                or relation.get('display') in {'alternative', 'historical', 'superseded'}
-                or relation.get('publication_status') in {'withheld', 'blocked', 'rejected'}):
-            continue
-        if not is_named_father_name(relation.get('name')):
-            continue
-        return True
-    return False
-
-
 def father_listing_counts(cohort_ids, listings):
     values = [listings.get(ident) for ident in cohort_ids]
     return dict(unknown_count=values.count(False), named_count=values.count(True),
@@ -336,20 +320,24 @@ def build(create_baseline=False):
             if rating.get('next_test'):
                 rating_tests[rating.get('assertion_id')] = rating['next_test']
     priorities = []
+    rating_details = {(e['subject_id'], e['relative_id']): e
+                      for e in json.loads((ROOT / 'research/relationship_probability_estimates.json').read_text()).get('estimates', [])
+                      if e.get('relationship') == 'father'}
     for impact in paternal_link_impacts(nodes, edges, strategy['primary_cutoff'], primary['working']['cohort_ids']):
         if impact['status'] in CONFIDENT:
             continue
         child, father = impact['child'], impact['father']
         assessment = assessments.get(impact.get('assertion_id'), {})
         case = cases.get(impact.get('assertion_id'), {})
+        estimate = rating_details.get((child, father), {})
         priorities.append({**{k: impact[k] for k in ('child', 'father', 'status', 'child_side', 'parent_side', 'cross_pairs', 'confident_child_side', 'confident_parent_side', 'confident_pair_gain', 'confident_component_reduction')},
                            'confidence_percent': impact.get('confidence_percent'),
                            'child_name': nodes[child]['name'], 'father_name': nodes[father]['name'],
                            'child_url': nodes[child]['url'], 'father_url': nodes[father]['url'],
                            'year': nodes[child].get('year'),
                            'analysis_url': next((l['href'] for l in assessment.get('analysis_links', []) if l.get('href')), nodes[child]['url']),
-                           'next_test': case.get('next_test') or assessment.get('next_test') or rating_tests.get(impact.get('assertion_id')) or 'Read the family evidence and next question.',
-                           'last_review': case.get('last_test') or assessment.get('last_test', '')})
+                           'next_test': case.get('next_test') or assessment.get('next_test') or estimate.get('next_test') or rating_tests.get(impact.get('assertion_id')) or 'Read the family evidence and next question.',
+                           'last_review': case.get('last_test') or assessment.get('last_test') or estimate.get('last_test', '')})
     priorities.sort(key=lambda r: (-r['cross_pairs'], r['child'], r['father']))
     fingerprint = hashlib.sha256(json.dumps({"nodes": nodes, "edges": edges}, sort_keys=True).encode()).hexdigest()
     baseline_path = WORK / "baseline-2026-10-15.json"

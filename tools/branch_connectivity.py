@@ -96,6 +96,22 @@ def is_named_father_name(name):
                         str(name or '').strip(), re.I)
 
 
+def has_named_father(dossier):
+    """A retained named father, independent of confidence or graph eligibility."""
+    for relation in (dossier.get('relationships') or {}).get('parents') or []:
+        status, _ = relationship_status(relation)
+        if (str(relation.get('relationship', '')).casefold() != 'father'
+                or not relation.get('id') or status in EXCLUDED
+                or relation.get('lifecycle') not in (None, 'current')
+                or relation.get('display') in {'alternative', 'historical', 'superseded'}
+                or relation.get('publication_status') in {'withheld', 'blocked', 'rejected'}):
+            continue
+        if not is_named_father_name(relation.get('name')):
+            continue
+        return True
+    return False
+
+
 def load_public_nodes(site_root: Path, variants: set[str], *, retained_fathers: list | None = None):
     """Load the surname graph, optionally collecting selected fathers before its boundary.
 
