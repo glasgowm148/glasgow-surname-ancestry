@@ -17893,6 +17893,13 @@
       "live_flag_changed": false,
       "saved_wikitree_father": 0,
       "previous_assertion_id": "C-working-20261016-lothian-heads-james"
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Signed-in FamilySearch Jean1677 entry XTPF-7YB still shows Image Unavailable; names James and IssobellDuff but supplies no guild/admission or witness bridge. Held1690/1693/1696/1699 apprenticeship distinctions rechecked; no new identity discriminator.",
+      "next_test": "Obtain an original Duffe household baptism, marriage, guild or property record with address, witness, admission date or prior-wife clause connecting the husband to the1649burgess; resolve the1690deceased-father versus1693master comparison.",
+      "resume_when": "A concrete fuller record or a new identifying clause is available; another copy of the same index is insufficient."
     }
   },
   {
@@ -23505,18 +23512,19 @@
       "Glasgow-835",
       "Glasgow-563"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The specific inherited family account calls Robert Barclay the son of William and Rhoda Montgomery. His 1804 generation fits William’s established family, and the name repeats the known earlier Robert Barclay family. The held citation is only a memorial and no named-parent original is available.",
-    "reason": "The specific inherited family account calls Robert Barclay the son of William and Rhoda Montgomery. His 1804 generation fits William’s established family, and the name repeats the known earlier Robert Barclay family. The held citation is only a memorial and no named-parent original is available.",
-    "claim": "Glasgow-563 remains the selected father of Glasgow-835, individually assessed 73%.",
-    "record_scope": "Probable73%; the family attribution and naming are dependent clues, not independently inspected proofs.",
-    "limitations": "Probable73%; the family attribution and naming are dependent clues, not independently inspected proofs.",
+    "assessment_date": "2026-10-24",
+    "basis": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563.",
+    "reason": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563.",
+    "claim": "Existing William Glasgow-563 father of Robert Barclay Glasgow-835,73% probable to94% confident inference.",
+    "record_scope": "This is a 1990 genealogy reporting earlier family evidence. The original Bible, 1928 letter and census images remain uninspected. The book, memorial and modern pedigree may share evidence. Maternal surname/date inconsistencies remain unresolved; no mother, vital field or other relationship changes. No new father attachment, merge or live save. William’s own father stays 95%; Madison’s father stays 94%. Next test: the original Bible or a contemporary probate clause.",
+    "limitations": "This is a 1990 genealogy reporting earlier family evidence. The original Bible, 1928 letter and census images remain uninspected. The book, memorial and modern pedigree may share evidence. Maternal surname/date inconsistencies remain unresolved; no mother, vital field or other relationship changes. No new father attachment, merge or live save. William’s own father stays 95%; Madison’s father stays 94%. Next test: the original Bible or a contemporary probate clause.",
     "source_ids": [
-      "held-e-16389f5f89fe"
+      "held-e-16389f5f89fe",
+      "faris-william-rhoda-bible-family-1990"
     ],
     "assessment_history": [
       {
@@ -23526,22 +23534,33 @@
         "probability_percent": null,
         "claim_id": "C-d5a00f797a9d",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 73,
+        "basis": "The specific inherited family account calls Robert Barclay the son of William and Rhoda Montgomery. His 1804 generation fits William’s established family, and the name repeats the known earlier Robert Barclay family. The held citation is only a memorial and no named-parent original is available.",
+        "scope": "Probable73%; the family attribution and naming are dependent clues, not independently inspected proofs.",
+        "source_ids": [
+          "held-e-16389f5f89fe"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before visual inspection of the actual Faris family pages; named father already attached."
       }
     ],
     "perspectives": {
       "Glasgow-835": {
         "relationship": "father",
-        "reason": "The specific inherited family account calls Robert Barclay the son of William and Rhoda Montgomery. His 1804 generation fits William’s established family, and the name repeats the known earlier Robert Barclay family. The held citation is only a memorial and no named-parent original is available."
+        "reason": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563."
       },
       "Glasgow-563": {
         "relationship": "son",
-        "reason": "The specific inherited family account calls Robert Barclay the son of William and Rhoda Montgomery. His 1804 generation fits William’s established family, and the name repeats the known earlier Robert Barclay family. The held citation is only a memorial and no named-parent original is available."
+        "reason": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-835.html#research-findings"
+        "label": "Checked Bible-derived family account",
+        "href": "/branches/research-irish-moneymore/#robert-barclay-bible-father"
       }
     ],
     "provenance": {
@@ -23554,16 +23573,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 73,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-barclay-bible-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_family_bible_inspected": false
+      }
     },
     "probability": {
-      "value": 0.73,
-      "basis": "The specific inherited family account calls Robert Barclay the son of William and Rhoda Montgomery. His 1804 generation fits William’s established family, and the name repeats the known earlier Robert Barclay family. The held citation is only a memorial and no named-parent original is available.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "basis": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-16389f5f89fe"
+        "held-e-16389f5f89fe",
+        "faris-william-rhoda-bible-family-1990"
       ],
-      "scope": "Probable73%; the family attribution and naming are dependent clues, not independently inspected proofs."
+      "scope": "This is a 1990 genealogy reporting earlier family evidence. The original Bible, 1928 letter and census images remain uninspected. The book, memorial and modern pedigree may share evidence. Maternal surname/date inconsistencies remain unresolved; no mother, vital field or other relationship changes. No new father attachment, merge or live save. William’s own father stays 95%; Madison’s father stays 94%. Next test: the original Bible or a contemporary probate clause."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris pp32–33 and46–47 visually read; family-Bible provenance and complete adult identifiers verified.",
+      "next_test": "Trace the William/Rhoda family Bible held25June1927 by MrsE.R.Harvey, or a contemporary probate clause naming Robert and William.",
+      "resume_when": "Original Bible images or an independent named-kin clause is available."
     }
   },
   {

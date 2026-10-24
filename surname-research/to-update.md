@@ -4228,3 +4228,10 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 ## 24 October 2026 — Findmypast direct-source supplement
 
 | [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-3071) | OPEN | Add qualified direct-provider citation for the already-held1793Ramshorn burial; no vital or relationship change. |
+
+### Robert Barclay: father confidence from Bible-derived account — 24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-835) | OPEN | Existing father William Glasgow-563: 73% → 94% confident inference, from the checked Faris family account and adult identity. No new father attachment. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-563) | OPEN | Son Robert Barclay Glasgow-835: 73% → 94% confident inference from the checked Faris family account. William’s own father remains 95%. |

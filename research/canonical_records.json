@@ -41741,5 +41741,49 @@
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904644",
     "reviewed_on": "2026-10-24",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "faris-william-rhoda-bible-family-1990",
+    "record_type": "Printed family genealogy",
+    "record_category": "Family history",
+    "date": "1990 publication, reporting an 1804 birth and source history from 1927–1928",
+    "year": 1990,
+    "place": "Adams County, Ohio; Washington County, Iowa",
+    "country": "United States",
+    "association": "William/Rhoda family Bible account and Robert Barclay’s adult identity",
+    "source_title": "David Faris, The Glasgow Family of Adams County, Ohio (1990), printed pp. 32–33 and 46–47; reported Bible and descendant recollection",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-N",
+    "source_type": "Compiled family genealogy reporting earlier family sources",
+    "source_quality": "family_history",
+    "source_status": "Actual printed pages visually inspected 24 October 2026; original Bible, letter and census images uninspected",
+    "status": "Existing Robert → William father confidence 73% to 94%; no new attachment",
+    "note": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563. This is a 1990 genealogy reporting earlier family evidence. The original Bible, 1928 letter and census images remain uninspected. The book, memorial and modern pedigree may share evidence. Maternal surname/date inconsistencies remain unresolved; no mother, vital field or other relationship changes. No new father attachment, merge or live save. William’s own father stays 95%; Madison’s father stays 94%. Next test: the original Bible or a contemporary probate clause.",
+    "historical_basis": {
+      "latest_birth_year": 1804,
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3",
+      "reason": "The two linked research subjects are William,born1778 onp32,and RobertBarclay,born1804 onpp33and46; publication date1990 is not an event or birth date."
+    },
+    "profiles": {
+      "Glasgow-835": {
+        "role": "Explicitly named son; adult identity matches date,both wives and migration",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-563": {
+        "role": "Explicitly named father in compiled Bible-derived family account"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/robert-barclay-bible-confidence-2026-10-24.json",
+    "analysis_links": [
+      {
+        "label": "Detailed family argument",
+        "href": "/branches/research-irish-moneymore/#robert-barclay-bible-father"
+      },
+      {
+        "label": "Robert’s detailed account,printed pp46–47,image1583",
+        "href": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3"
+      }
+    ]
   }
 ]

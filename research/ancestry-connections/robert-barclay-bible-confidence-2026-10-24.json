@@ -1,0 +1,200 @@
+{
+  "reviewed": "2026-10-24",
+  "relationship_changes": [
+    {
+      "subject": "Glasgow-835",
+      "relative": "Glasgow-563",
+      "before_percent": 73,
+      "after_percent": 94,
+      "before": "probable",
+      "after": "certain",
+      "new_attachment": false,
+      "basis": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563."
+    }
+  ],
+  "basis": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563.",
+  "limitations": "This is a 1990 genealogy reporting earlier family evidence. The original Bible, 1928 letter and census images remain uninspected. The book, memorial and modern pedigree may share evidence. Maternal surname/date inconsistencies remain unresolved; no mother, vital field or other relationship changes. No new father attachment, merge or live save. William’s own father stays 95%; Madison’s father stays 94%. Next test: the original Bible or a contemporary probate clause.",
+  "sources": [
+    {
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-N",
+      "printed_pages": "32–33",
+      "film": "007834162",
+      "image": 1576
+    },
+    {
+      "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3",
+      "printed_pages": "46–47",
+      "film": "007834162",
+      "image": 1583
+    }
+  ],
+  "profiles": {
+    "Glasgow-835": {
+      "current_sha256": "fc6d4f5fdd8153010c136a752e7099f3b96b2e68ecb38bedf12b95de32118e89",
+      "proposed_sha256": "2aa349b9745b8953d13b5290c193df6ca84d5aace1083fb324aabed05595a976",
+      "prior_pending_draft_path": "research/Glasgow-835/father-confidence-2026-10-22b.wiki",
+      "prior_pending_sha256": "721301dc5b4654493e7a53228dd2fd4e078b2cd3c250593ee015108a6126fe67",
+      "draft_path": "research/Glasgow-835/faris-family-bible-2026-10-24.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "retained": "Captured source identities and exact complete references retained; previous pending draft retained with additive new note.",
+      "private_comparison": false,
+      "whitespace_only_cleanup": "Removed inherited line-end space; all substantive source text retained."
+    },
+    "Glasgow-563": {
+      "current_sha256": "fe3997f6e8afb07c12f015203bccccf06b036785b01ec58c0f7e2959bfaa6c68",
+      "proposed_sha256": "3f5143c8b94a5838a0da228f6212d9d5dfa9ac56d92c7af87d0f140d64a066b5",
+      "prior_pending_draft_path": "research/Glasgow-563/father-confidence-2026-10-22b.wiki",
+      "prior_pending_sha256": "1ea441a8cc25dc0698342520aa2b041f959a0a607f72f1a174febc32206ad209",
+      "draft_path": "research/Glasgow-563/faris-family-bible-2026-10-24.wiki",
+      "all_substantive_passages_accounted_for": true,
+      "retained": "Captured source identities and exact complete references retained; previous pending draft retained with additive new note.",
+      "private_comparison": false
+    }
+  },
+  "verification": {
+    "three_tree_models_agree": true,
+    "stale_asset_references": 0,
+    "complete_drafts_and_sources_preserved": true,
+    "one_confidence_change_no_attachment": true,
+    "full_compact_regrade_agree": true,
+    "connectivity_metrics_verified": {
+      "1500": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1550": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1600": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1650": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1700": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1750": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1800": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          0,
+          0
+        ]
+      },
+      "1850": {
+        "working": [
+          0,
+          0
+        ],
+        "supported": [
+          0,
+          0
+        ],
+        "confident": [
+          1,
+          -1
+        ]
+      }
+    },
+    "current_latest_finding_and_routes_verified": true,
+    "raw_captures_published": false,
+    "live_published": false,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "source_documents": [
+      "s-2d1442cb66fd9cb2"
+    ],
+    "full_compact_catalogue_people": 4871,
+    "father_listing_unchanged_all_cohorts_modes": true,
+    "http_routes_checked": 6
+  },
+  "raw_captures_published": false,
+  "live_published": false,
+  "dispatch_readiness": [
+    {
+      "assertion_id": "C-working-20261021-duffe-robert-father",
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Signed-in FamilySearch Jean1677 entry XTPF-7YB still shows Image Unavailable; names James and IssobellDuff but supplies no guild/admission or witness bridge. Held1690/1693/1696/1699 apprenticeship distinctions rechecked; no new identity discriminator.",
+        "next_test": "Obtain an original Duffe household baptism, marriage, guild or property record with address, witness, admission date or prior-wife clause connecting the husband to the1649burgess; resolve the1690deceased-father versus1693master comparison.",
+        "resume_when": "A concrete fuller record or a new identifying clause is available; another copy of the same index is insufficient."
+      }
+    }
+  ]
+}

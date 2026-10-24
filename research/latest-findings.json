@@ -57377,6 +57377,56 @@
       "new_mother_attachments": 0,
       "new_original_inspections": 0,
       "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "robert-barclay-bible-father-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Robert Barclay Glasgow’s existing father William: 73% → 94% confident inference. The checked Faris pages identify the reported family Bible and match Robert’s date, both wives and Ohio–Iowa life.",
+      "qualification": "This is a 1990 genealogy reporting earlier family evidence. The original Bible, 1928 letter and census images remain uninspected. The book, memorial and modern pedigree may share evidence. Maternal surname/date inconsistencies remain unresolved; no mother, vital field or other relationship changes. No new father attachment, merge or live save. William’s own father stays 95%; Madison’s father stays 94%. Next test: the original Bible or a contemporary probate clause.",
+      "people": [
+        {
+          "id": "Glasgow-835",
+          "name": "Robert Barclay Glasgow",
+          "url": "/people/glasgow-835.html",
+          "role": "Son;existing father assessment73%to94%"
+        },
+        {
+          "id": "Glasgow-563",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-563.html",
+          "role": "Existing father;no new attachment"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Faris(1990),printed pp32–33,reported family-Bible account",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-N"
+        },
+        {
+          "title": "Faris(1990),printed pp46–47,adult family and1928recollection",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#robert-barclay-bible-father",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-835",
+          "relative": "Glasgow-563",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 73,
+          "probability_percent": 94,
+          "explanation": "Faris’s inspected pages 32–33 identify Robert Barclay, born 26 November 1804, among William and Rhoda’s children. The author traces their exact names and birth dates to the couple’s family Bible, held by Mrs E. R. Harvey on 25 June 1927. Page 46 matches Robert through both wives, Phoebe McFall and Matilda Jane Campbell, and his Ohio-to-Iowa life. A descendant’s dated 1928 recollection on page 47 places brothers Robert, Joseph and Madison on adjoining Ohio farms, including their father William’s former homestead. This specific provenance and complete adult identity support 94% subjective confident inference for Robert-835’s existing father, William-563.",
+          "previous_status_provenance": "Saved22October2026 reviewed pair assessment73%probable; named father already attached. No first-time grading or new attachment is counted."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/robert-barclay-bible-confidence-2026-10-24.json"
+      ]
     }
   ]
 }
