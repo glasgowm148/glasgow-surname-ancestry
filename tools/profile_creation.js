@@ -20,13 +20,20 @@
     area.style.position = "fixed";
     area.style.opacity = "0";
     document.body.appendChild(area);
-    area.select();
-    document.execCommand("copy");
-    area.remove();
+    try {
+      area.select();
+      if (!document.execCommand("copy")) throw new Error("The browser could not copy the draft.");
+    } finally {
+      area.remove();
+    }
   };
 
   document.getElementById("copy-profile-draft")?.addEventListener("click", async () => {
-    await copyText(document.getElementById("profile-draft")?.value || "");
-    showStatus("WikiTree biography copied.");
+    try {
+      await copyText(document.getElementById("profile-draft")?.value || "");
+      showStatus("WikiTree biography copied.");
+    } catch (error) {
+      showStatus(`Copy failed: ${error.message}`, "error");
+    }
   });
 })();

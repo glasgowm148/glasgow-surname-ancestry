@@ -12,7 +12,7 @@
         await navigator.clipboard.writeText(draft.value);
       } else {
         draft.select();
-        document.execCommand("copy");
+        if (!document.execCommand("copy")) throw new Error("The browser could not copy the draft.");
       }
       if (status) {
         status.textContent = "Full revised WikiTree biography copied.";

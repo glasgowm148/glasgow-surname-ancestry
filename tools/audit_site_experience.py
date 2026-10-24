@@ -178,7 +178,7 @@ def audit(web=WEB):
     require(directory_path.exists(), 'families: missing branches-directory.json')
     if directory_path.exists():
         directory = json.loads(directory_path.read_text(encoding='utf-8'))
-        allowed_precision = {'exact', 'parish', 'settlement', 'county', 'country', 'none'}
+        allowed_precision = {'exact', 'parish', 'settlement', 'county', 'country', 'region', 'none'}
         for group in directory.get('groups', []):
             value = group.get('precision')
             require(value in allowed_precision, f'families: invalid precision for {group.get("id", "unknown")}')

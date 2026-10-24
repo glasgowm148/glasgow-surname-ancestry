@@ -26,7 +26,18 @@
   const setValues=values=>new Set((values||[]).filter(Boolean));
   const shared=(a,b)=>[...a].filter(value=>b.has(value));
   const chips=values=>values.length?`<div class="compare-list">${values.map(value=>`<span>${esc(value)}</span>`).join('')}</div>`:'<p class="empty-state">None identified.</p>';
-  const portableUrl=value=>String(value||'#').startsWith('/')?String(value).slice(1):String(value||'#');
+  // Keep root-relative links rooted. The comparison page also lives under
+  // /compare/, so stripping the leading slash sends /people and /data links
+  // to the non-existent /compare/people and /compare/data paths.
+  const scriptUrl=document.currentScript&&document.currentScript.src;
+  const siteRoot=new URL('../',scriptUrl||location.href);
+  const portableUrl=value=>{
+    const url=String(value||'#');
+    if(!url||url==='#'||/^(?:[a-z][a-z\d+.-]*:|\/\/|#)/i.test(url))return url||'#';
+    // Dossier data stores local paths without a leading slash. Resolve both
+    // those and root-relative paths from the site's root, not /compare/.
+    return new URL(url.replace(/^\/+/,''),siteRoot).href;
+  };
   function personCard(dossier){
     const quality={};dossier.evidence.forEach(item=>quality[item.source_quality]=(quality[item.source_quality]||0)+1);
     const family=Object.entries(dossier.relationships).map(([group,items])=>items.length?`<p><strong>${esc(group)}:</strong> ${items.map(item=>`<a href="${esc(portableUrl(item.url||item.wikitree_url||'#'))}">${esc(item.name||item.id)}</a>`).join(' · ')}</p>`:'').join('');

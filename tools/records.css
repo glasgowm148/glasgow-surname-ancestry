@@ -1,4 +1,6 @@
 /* Records catalogue. Scoped so the shared archive shell stays consistent. */
+/* Let the document scroll; an auto-overflow body traps sticky headings. */
+@media(min-width:761px){body.g-unified.g-kind-research.v3-site:has(.v3-records){overflow-x:clip;overflow-y:visible}}
 .v3-records { --records-ink:#213f35; --records-muted:#58685f; --records-rule:#d6ddd3; max-width:1200px; }
 .v3-records .records-hero { display:flex; justify-content:space-between; align-items:center; gap:32px; padding:0 0 26px; }
 .v3-records .records-eyebrow { margin:0 0 12px; color:var(--records-muted); font:600 10px/1.4 var(--g-sans,sans-serif); letter-spacing:.17em; text-transform:uppercase; }
@@ -88,8 +90,8 @@
 
 
 /* Records as a table (stacks into cards on narrow screens). */
-.v3-records .records-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45;background:#fff;border:1px solid #d6dfcd;border-radius:8px;overflow:hidden;margin-top:8px}
-.v3-records .records-table thead th{position:sticky;top:0;z-index:1;background:#eef3e8;text-align:left;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:#4b5f3f;padding:9px 10px;border-bottom:1px solid #cfd9c4;white-space:nowrap}
+.v3-records .records-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45;background:#fff;border:1px solid #d6dfcd;border-radius:8px;overflow:clip;margin-top:8px}
+.v3-records .records-table thead th{position:sticky;top:var(--g-bar);z-index:1;background:#eef3e8;text-align:left;font-size:11.5px;letter-spacing:.07em;text-transform:uppercase;color:#4b5f3f;padding:9px 10px;border-bottom:1px solid #cfd9c4;white-space:nowrap}
 .v3-records .records-table th button{all:unset;cursor:pointer}.v3-records .records-table th button::after{content:" ↕";opacity:.35}.v3-records .records-table th[aria-sort=ascending] button::after{content:" ↑";opacity:1}.v3-records .records-table th[aria-sort=descending] button::after{content:" ↓";opacity:1}
 .v3-records .records-table td{padding:9px 10px;border-bottom:1px solid #e4e9de;vertical-align:top}
 .v3-records .records-table tbody tr:nth-child(even){background:#fafbf8}.v3-records .records-table tbody tr:hover{background:#f2f6ed}
