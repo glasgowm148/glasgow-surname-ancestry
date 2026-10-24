@@ -4,8 +4,11 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from tools import repair_person_hierarchy as hierarchy
 from tools import sync_catalogue_research as sync
+
+# Exercise the hierarchy module selected by the production script. Depending
+# on sys.path, it may be imported as either ``tools.*`` or a top-level module.
+hierarchy = sync.hierarchy
 
 
 class HierarchySourceCacheTests(unittest.TestCase):

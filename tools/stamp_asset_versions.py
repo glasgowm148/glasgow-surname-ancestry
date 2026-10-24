@@ -129,8 +129,8 @@ def stamp(site_root: Path, write: bool) -> tuple[int, int]:
             expected = versions.get(match.group("url"))
             if expected is None:
                 return match.group(0)
-            return (text[match.start():match.start("version")] + expected
-                    + text[match.end("version"):match.end()])
+            return (match.string[match.start():match.start("version")] + expected
+                    + match.string[match.end("version"):match.end()])
 
         final = VERSIONED_ASSET.sub(replace, text).encode("utf-8")
         if final != original:

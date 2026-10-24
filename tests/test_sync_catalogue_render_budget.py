@@ -9,6 +9,7 @@ from unittest.mock import patch
 
 from bs4 import BeautifulSoup
 
+from tools import check_research_publication
 from tools import sync_catalogue_research as sync
 from tools.sync_catalogue_research import discrepancies
 
@@ -92,6 +93,7 @@ class CatalogueRenderBudgetTests(unittest.TestCase):
                  patch.object(sync.hierarchy, 'repair', side_effect=final_repair) as repair, \
                  patch.object(sync, 'render_person_dossier', return_value='New family') as render, \
                  patch.dict(sys.modules, {'repair_person_hierarchy': sync.hierarchy}), \
+                 patch.dict(sys.modules, {'check_research_publication': check_research_publication}), \
                  patch('tools.catalogue_search_index.refresh'), \
                  patch('tools.genealogy.batch_complete.refresh_after_batch', return_value=0), \
                  patch('tools.check_research_publication.main', return_value=0) as publication, \

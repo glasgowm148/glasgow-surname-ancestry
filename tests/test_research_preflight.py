@@ -8,6 +8,9 @@ from pathlib import Path
 from tools.research_preflight import build_preflight, findings_sections, record_needs_review, related_parent_account, _safe_research_path
 
 
+ROOT = Path(__file__).resolve().parents[1]
+
+
 def pair():
     return {'people': ['Glasgow-1', 'Glasgow-2'], 'publication_status': 'approved',
             'assertion_id': 'A', 'source_ids': [],
@@ -118,16 +121,19 @@ class ResearchPreflightTests(unittest.TestCase):
             unavailable = related_parent_account('Glasgow-1', 'record-only-parent', root=root, context=context)
             assert not unavailable['available'] and 'findings' not in unavailable
 
+    @unittest.skipUnless((ROOT / 'data/wikitree/profile-evidence.json').is_file(),
+                         'requires local profile captures')
     def test_existing_reviewed_andrew_fixture(self):
-        root = Path(__file__).resolve().parents[1]
-        result = build_preflight('Glasgow-1333', 'Glasgow-81', root=root)
+        result = build_preflight('Glasgow-1333', 'Glasgow-81', root=ROOT)
         assert result['findings']['current_conclusion']
         assert any(r['record_id'] == 'fmp-record-r-686351978' for r in result['source_inventory']['items'])
         # Existing canonical relationship_review acknowledges the exact approved pair.
         assert not result['linked_parent_record_needs_review']
 
+    @unittest.skipUnless((ROOT / 'data/wikitree/profile-evidence.json').is_file(),
+                         'requires local profile captures')
     def test_parent_biography_faris_quote_has_capture_pointer_and_pending_draft(self):
-        result = build_preflight('Glasgow-2003', 'Glasgow-12')
+        result = build_preflight('Glasgow-2003', 'Glasgow-12', root=ROOT)
         parent = result['related_parent_account']['biographical_kinship_leads']
         captured = [x for x in parent['items'] if x.get('source_kind') == 'captured_biography']
         pending = [x for x in parent['items'] if x.get('source_kind') == 'pending_draft']
