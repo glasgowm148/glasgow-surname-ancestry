@@ -166,5 +166,51 @@ class NamedFatherReviewCoverageTests(unittest.TestCase):
         self.assertEqual(named_father_review_counts([], retained)['coverage_percent'], None)
 
 
+class RetainedFatherFindingTests(unittest.TestCase):
+    def test_initial_external_rating_keeps_prior_grade_without_research_gain(self):
+        from tempfile import TemporaryDirectory
+        from unittest.mock import patch
+        nodes = {'Child-1': dict(name='Child', url='/people/child-1.html')}
+        retained = [dict(child='Child-1', father='Outside-2', father_name='External Father',
+                         assertion_id='external', confidence_percent=95)]
+        assertion = dict(assertion_id='external', publication_status='approved',
+                         status='strongly_supported', assessment_date='2026-10-24',
+                         probability={'value': .95},
+                         assessment_history=[dict(status='confident', probability_percent=None)])
+        with TemporaryDirectory() as tmp, patch('tools.build_ancestry_progress.WEB', Path(tmp)):
+            rows = individual_finding_rows(nodes, [], {'external': assertion},
+                    {'1850': {'working': {'cohort_ids': ['Child-1']}}}, {'Child-1'},
+                    retained_fathers=retained)
+        self.assertEqual(len(rows), 1)
+        row = rows[0]
+        self.assertEqual((row['kind'], row['before_percent'], row['after_percent']), ('first', None, 95))
+        self.assertIsNone(row['research_event'])
+        self.assertEqual(row['father']['name'], 'External Father')
+        self.assertEqual(row['father']['url'], 'https://www.wikitree.com/wiki/Outside-2')
+        self.assertEqual(row['cohorts'], ['1850'])
+        self.assertEqual(list(nodes), ['Child-1'])
+
+    def test_checked_public_father_route_and_no_duplicate_pair_or_anonymous_row(self):
+        from tempfile import TemporaryDirectory
+        from unittest.mock import patch
+        nodes = {'Child-1': dict(name='Child', url='/people/child-1.html')}
+        edge = dict(child='Child-1', father='Outside-2', father_name='External Father',
+                    assertion_id='external', confidence_percent=78)
+        assertion = dict(assertion_id='external', publication_status='approved', status='probable',
+                         assessment_date='2026-10-24', probability={'value': .78})
+        anonymous = dict(edge, father='Unknown-3', father_name='Unknown Glasgow')
+        with TemporaryDirectory() as tmp, patch('tools.build_ancestry_progress.WEB', Path(tmp)):
+            path = Path(tmp) / 'people'; path.mkdir()
+            (path / 'outside-2.json').write_text(json.dumps(dict(id='Outside-2', name='Checked Father')))
+            (path / 'outside-2.html').write_text('<p>Public account</p>')
+            rows = individual_finding_rows(nodes, [edge], {'external': assertion},
+                    {'1850': {'working': {'cohort_ids': ['Child-1']}}}, {'Child-1'},
+                    retained_fathers=[edge, anonymous])
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]['father']['url'], '/people/outside-2.html')
+        self.assertEqual(rows[0]['father']['name'], 'Checked Father')
+        self.assertIsNone(rows[0]['research_event'])
+
+
 if __name__ == '__main__':
     unittest.main()

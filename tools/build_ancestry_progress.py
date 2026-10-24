@@ -54,7 +54,7 @@ def confidence_grade(state):
     return None
 
 
-def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, identity_hold_ids=(), father_changes=None):
+def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, identity_hold_ids=(), father_changes=None, retained_fathers=None):
     """Explicit saved pair assessments only; never infer an old numeric rating."""
     def percent(state):
         value = state.get('probability_percent', state.get('percent'))
@@ -65,8 +65,30 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
                 value *= 100
         return round(value, 8) if type(value) in (int, float) and 0 <= value <= 100 else None
 
+    selected_edges = list(edges)
+    pairs = {(edge['child'], edge['father']) for edge in edges}
+    fallback_names = {}
+    for edge in retained_fathers or []:
+        child, father = edge['child'], edge['father']
+        if child not in nodes or not is_named_father_name(edge.get('father_name')):
+            continue
+        fallback_names[father] = edge['father_name']
+        if (child, father) not in pairs:
+            selected_edges.append(edge)
+            pairs.add((child, father))
+
     def person(ident):
-        node = nodes[ident]
+        node = nodes.get(ident)
+        if node is None:
+            # Missing graph membership must not invent a local biography route.
+            node = dict(name=fallback_names.get(ident, ident),
+                        url='https://www.wikitree.com/wiki/' + ident)
+            path = WEB / 'people' / (ident.lower() + '.json')
+            if path.is_file() and path.with_suffix('.html').is_file():
+                public = json.loads(path.read_text())
+                if public.get('id') == ident:
+                    node = dict(name=public.get('name') or node['name'],
+                                url='/people/' + ident.lower() + '.html')
         result = dict(id=ident, name=node['name'], url=node['url'])
         if re.fullmatch(r'(?!record-)[A-Za-z][A-Za-z0-9_]*-\d+', ident):
             result['wikitree_url'] = 'https://www.wikitree.com/wiki/' + ident
@@ -81,7 +103,7 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
                 {'assessment_history', 'perspectives', 'analysis_links'}}
 
     rows = []
-    for edge in edges:
+    for edge in selected_edges:
         assertion = assessments.get(edge.get('assertion_id'))
         if not assertion or assertion.get('publication_status') != 'approved':
             continue
@@ -399,7 +421,8 @@ def build(create_baseline=False):
         write_json(history_path, history)
     catalogue = json.loads((WEB / 'data/catalogue-search-index.json').read_text())
     individual_findings = individual_finding_rows(nodes, edges, assessments, cohorts, set(baseline['cohort_ids']),
-                                                 identity_hold_ids, pending_father_changes(catalogue))
+                                                 identity_hold_ids, pending_father_changes(catalogue),
+                                                 retained_fathers=retained_fathers)
     current_named_father_coverage = dict(
         cohorts={cutoff: named_father_review_counts(pair['working']['cohort_ids'], retained_fathers)
                  for cutoff, pair in cohorts.items()},
