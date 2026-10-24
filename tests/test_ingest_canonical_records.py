@@ -143,6 +143,29 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'multiple existing record IDs'):
             plan(self.root, ['new-canonical-id'])
 
+    def test_duplicate_existing_source_url_ids_remain_ambiguous(self):
+        duplicate_id = 's-2222222222222222'
+        self.put('www/assets/v3/source-index.json', [
+            {'id': self.source['id'], 'title': self.source['title']},
+            {'id': duplicate_id, 'title': 'Duplicate provider source'}])
+        self.put('www/assets/v3/sources/' + duplicate_id + '.json', {
+            **self.source, 'id': duplicate_id, 'title': 'Duplicate provider source'})
+        with self.assertRaisesRegex(ValueError, 'ambiguous existing exact-URL source IDs'):
+            plan(self.root, ['new-canonical-id'])
+
+    def test_generated_source_id_collision_is_checked_lazily(self):
+        url = 'https://example.org/new-reviewed-source'
+        sid = 's-' + sha256(url.encode()).hexdigest()[:16]
+        self.canonical.update(source_url=url)
+        self.canonical.pop('provider_record_id')
+        self.put('research/canonical_records.json', [self.canonical])
+        self.put('www/assets/v3/source-index.json', [{'id': sid, 'title': 'Unrelated collision'}])
+        self.put('www/assets/v3/sources/' + sid + '.json', {
+            'id': sid, 'title': 'Unrelated collision', 'url': 'https://example.org/old-source',
+            'records': [], 'citations': [], 'members': []})
+        with self.assertRaisesRegex(ValueError, 'Source ID collision'):
+            plan(self.root, ['new-canonical-id'])
+
     def test_unrelated_source_rows_and_details_survive(self):
         old = {'id': 's-1111111111111111', 'title': 'Unrelated source', 'members': ['another-person'],
                'records': 7, 'citations': 9, 'from': 1700, 'custom': 'retain'}

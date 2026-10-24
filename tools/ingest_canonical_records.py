@@ -106,11 +106,19 @@ def plan(root: Path, record_ids: list[str]):
     full = read(web / 'data/records-index.json')
     compact = read(web / 'assets/research/record-index.json')
     sources = read(web / 'assets/v3/source-index.json')
-    docs = {s['id']: read(web / f'assets/v3/sources/{s["id"]}.json') for s in sources}
+    # Provider lookup needs every source URL, but keeping every full source
+    # document resident makes planning a large corpus unnecessarily costly.
+    # Read each document for its URL, retain only lightweight lookup state,
+    # then load full documents lazily for selected identities below.
+    source_ids = list(dict.fromkeys(s['id'] for s in sources))
+    source_id_set = set(source_ids)
     url_ids = {}
-    for sid, doc in docs.items():
+    for sid in source_ids:
+        doc = read(web / f'assets/v3/sources/{sid}.json')
         if doc.get('url'):
             url_ids.setdefault(provider_key(doc), []).append(sid)
+        del doc
+    docs = {}
     source_template = next(iter(sorted((web / 'sources').glob('s-*/index.html'))), None)
     if source_template is None:
         raise ValueError('Existing maintained source-reader shell required')
@@ -179,8 +187,16 @@ def plan(root: Path, record_ids: list[str]):
         if len(ids) > 1:
             raise ValueError(f'{rid}: ambiguous existing exact-URL source IDs')
         sid = ids[0] if ids else 's-' + sha256(url.encode()).hexdigest()[:16]
-        if sid in docs and provider_key(docs[sid]) != provider:
-            raise ValueError('Source ID collision')
+        if sid in docs or sid in source_id_set:
+            # Exact provider matches are loaded for enrichment. A generated
+            # ID may already belong to another source, so read that one row
+            # only when needed to preserve the collision guard.
+            existing_doc = docs.get(sid)
+            if existing_doc is None:
+                existing_doc = read(web / f'assets/v3/sources/{sid}.json')
+            if provider_key(existing_doc) != provider:
+                raise ValueError('Source ID collision')
+            docs[sid] = existing_doc
         url_ids[provider] = [sid]
         doc = docs.setdefault(sid, {'id': sid, 'title': row.get('source_title') or row.get('association') or rid,
                                   'url': url, 'reference': row.get('provider_record_id') or rid,
