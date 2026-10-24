@@ -57075,6 +57075,68 @@
       "new_mother_attachments": 0,
       "new_original_inspections": 0,
       "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+    },
+    {
+      "id": "wythe-william-father-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "William Glasgow’s Wythe/Pulaski branch now has a new possible father hypothesis, Joseph Glasgow, 30%. The original 1829 William/Sally deed is verified; the will-subject identity and biological relationship remain unresolved.",
+      "qualification": "Two propositions remain unresolved: which William the will means, and whether upbringing denotes biological sonship. William Glasgow-563, born 1778, Robert-12’s son, married 1802 with children born 1803–1822, is a substantive compatible alternative will subject; Ohio residence from 1805 does not exclude earlier upbringing or a legacy. William P. Glasgow-559, born 1813, has a later known family and is a weaker comparison, not categorically excluded. The will names no wife or residence for William. It explicitly calls Arthur’s son Robert a nephew and gives him the real-estate balance and furniture; William’s children receive the remaining property, not the whole estate. A nephew or another related dependent remains a strong alternative to biological sonship. The 1810 young man is unnamed. No mother, vital date, original tree or live WikiTree attachment is changed. Joseph’s own James-1024 father remains 35%; William’s four existing child grades remain 45/54/57/89%. This 30% combines identity and biological-role uncertainty; no multiplication or measured frequency is claimed.",
+      "people": [
+        {
+          "id": "Glasgow-3678",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3678.html",
+          "role": "Research subject"
+        },
+        {
+          "id": "Glasgow-1543",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-1543.html",
+          "role": "Research subject"
+        },
+        {
+          "id": "Patterson-13881",
+          "name": "Sarah (Patterson) Glasgow",
+          "url": "/people/patterson-13881.html",
+          "role": "Research subject"
+        },
+        {
+          "id": "Glasgow-563",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-563.html",
+          "role": "Compatible alternative will subject, not excluded"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Joseph’s 1831 will, publishedtranscription",
+          "url": "https://swvirginians.wordpress.com/2014/12/12/joseph-glasgow-pulaski-co-va-will-of-1831/"
+        },
+        {
+          "title": "Original 1829 William/Sallydeed, image 183",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C3QP-NQ82-5"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#wythe-william-possible-father",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3678",
+          "relative": "Glasgow-1543",
+          "before": "unknown",
+          "after": "possible",
+          "previous_probability_percent": null,
+          "probability_percent": 30,
+          "explanation": "Joseph Glasgow-1543 is selected as a possible biological father of William Glasgow-3678 at 30% subjective confidence. The published 1831 will names a William Glasgow who was raised by Joseph and leaves remaining property to that William’s children. The local William/Sally household, William’s circa 1788 birth and Joseph’s birth before 1765 permit fatherhood; the unnamed 1810 Wythe male 16–25 is compatible. The newly read 1829 original confirms this married William locally but names no parent. This is an explicit working inference from a specific caregiving and testamentary family context, not a literal parent statement. Two propositions remain unresolved: which William the will means, and whether upbringing denotes biological sonship. William Glasgow-563, born 1778, Robert-12’s son, married 1802 with children born 1803–1822, is a substantive compatible alternative will subject; Ohio residence from 1805 does not exclude earlier upbringing or a legacy. William P. Glasgow-559, born 1813, has a later known family and is a weaker comparison, not categorically excluded. The will names no wife or residence for William. It explicitly calls Arthur’s son Robert a nephew and gives him the real-estate balance and furniture; William’s children receive the remaining property, not the whole estate. A nephew or another related dependent remains a strong alternative to biological sonship. The 1810 young man is unnamed. No mother, vital date, original tree or live WikiTree attachment is changed. Joseph’s own James-1024 father remains 35%; William’s four existing child grades remain 45/54/57/89%. This 30% combines identity and biological-role uncertainty; no multiplication or measured frequency is claimed.",
+          "previous_status_provenance": "Before this proposal, the public dossier lists no father and the anonymous WikiTree get People check on 24 October 2026 returns Father 0, Mother 0, Privacy 60, IsLiving 0 for Glasgow-3678. No prior percentage is invented."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/wythe-william-father-2026-10-24.json",
+        "research/Glasgow-3678/wythe-source-review-2026-10-24.md"
+      ]
     }
   ]
 }
