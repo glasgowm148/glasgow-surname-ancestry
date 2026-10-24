@@ -152,16 +152,21 @@
     },
     "Glasgow-1141": {
       "current_sha256": "a8dd823622d994a0708515d9d933439674616f77339666bc417b6ab48b2d4dd0",
-      "proposed_sha256": "14bd6cdd8a44c733f2d5a31bc2b6df0beb786e816a3849b5ac3b3fd34405facb",
+      "proposed_sha256": "e5f7502356237d4326352fcfcb9f5b31e96191028ad0916fc19b377f1ca4af77",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1141/father-confidence-2026-10-22.wiki",
       "previous_draft_path": null,
-      "retained": "Complete normalized prior biography and all source identities retained; additive derivative-source account preserves explicit conflicts and distinguishes literal named roles from adult identity. Current vitals and confidence percentages unchanged.",
+      "retained": "Complete normalized prior biography and all source identities retained; additive derivative-source account preserves explicit conflicts and distinguishes literal named roles from adult identity. Current vitals and confidence percentages unchanged. Additive 1727 baptism confirmation: both newly captured FMP source identities retained; all prior passages preserved, with spouse-ID discrepancy qualified without replacing either profile or any marriage assertion. Birth and relationship assessments unchanged.",
       "normalization": "Applied the normal profile normalization, captured-detail preservation and named-reference restoration before pinning the full replacement. Earlier passages preserved; only confidence note added.",
-      "previous_proposed_sha256": "9d9404fa396bd5803d9c83f905bc39a25934945e345fad9a29c342a6166f11b7",
-      "previous_proposed_git_reference": "b770237364bc852e8c9cfcf6ede953883b71d1ee:research/Glasgow-1141/father-confidence-2026-10-22.wiki",
+      "previous_proposed_sha256": "14bd6cdd8a44c733f2d5a31bc2b6df0beb786e816a3849b5ac3b3fd34405facb",
+      "previous_proposed_git_reference": "21af851a68a6b0d66a1bef608946118239105dab:research/Glasgow-1141/father-confidence-2026-10-22.wiki",
       "reviewed_on": "2026-10-24",
-      "superseded_passages": []
+      "superseded_passages": [],
+      "draft_consistency_review": {
+        "source": "Current www/people models; baptism-only date, 97% child-father, independently unassessed mother and 34% upstream father retained. Both existing spouse IDs preserved with explicit unresolved qualification. Actual queued actions retained.",
+        "all_prior_source_identities_retained": true,
+        "reviewed_on": "2026-10-24"
+      }
     },
     "Glasgow-1075": {
       "current_sha256": "646f03d1cc5caa9e99136a8f28ffad910d7beee6c05cab4ff56fec9dd3fa0841",

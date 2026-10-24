@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 480,
+    "inspected_transcripts": 482,
     "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
@@ -344,7 +344,9 @@
       "GBPRS/SCOT/MIS/511323",
       "SCOT/OPR/BUR/1128679",
       "R_685314994",
-      "R_684956583"
+      "R_684956583",
+      "R_686209974",
+      "R_691906011"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -493,7 +495,7 @@
       "GBPRS/LOTHIAN/SGS/BUR/032213"
     ],
     "next_query_page": 20,
-    "integration_scope": "480 ledger receipts indexed:336 qualified profile-context,144 source-only. Six supporting receipts remain at original pointers (486 indexed union). This batch13provider entries/10documentarygroups:4known-event confirmations,1birth-date correction,5new source-defined/conflict leads. No new people, regrades or original inspections. Full audit INCOMPLETE.",
+    "integration_scope": "482 ledger receipts indexed:338 qualified profile-context,144 source-only. Six supporting receipts remain at original pointers (488 indexed union). Two new provider entries confirm one known1727baptism;zero new fact groups,people,grades or vital changes. Full audit INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -974,9 +976,11 @@
       "SCOT/OPR/BUR/1128679",
       "GBPRS/LOTHIAN/SGS/BUR/032213",
       "R_685314994",
-      "R_684956583"
+      "R_684956583",
+      "R_686209974",
+      "R_691906011"
     ],
-    "records_with_profile_or_draft_context": 336,
+    "records_with_profile_or_draft_context": 338,
     "remaining_coverage": [
       "Pages20–294 nominal of current1719–1799 birth-filtered BMD query;28 saved transcript gaps on pages20–21, then capture page22; provider caps may require partitioning",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
@@ -984,14 +988,14 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-page19-20261024-verification.json",
+    "verification_report": "output/findmypast-page20-20261024-verification.json",
     "verified_on": "2026-10-24",
-    "indexed_provider_record_count": 480,
-    "next_action": "Continue saved page20 frontier at R_686209974 (John1727), after exact-ID preflight;28detail gaps remain across saved pages20–21. Reuse sufficient receipts. Next uncaptured searchpage22of294; other scope windows/categories/variants and secondary roles remain.",
-    "recent_query_transcripts": 345,
+    "indexed_provider_record_count": 482,
+    "next_action": "Continue saved page20 frontier at R_688617368 (John1730), after exact-ID preflight. Twenty-six detail gaps remain across saved pages20–21; next uncaptured searchpage22of294. Reuse the newly indexed John1727 companion receipts and the 26 saved discriminator preparations; do not repeat completed comparisons.",
+    "recent_query_transcripts": 347,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 392,
+    "recent_query_rows_reviewed": 394,
     "capture_ledger_note": "480 saved/indexed derivative transcript receipts, not480people;345 newly captured query transcripts. Six indexed supporting receipts remain at original pointers.",
     "capture_count_basis": "480 indexed ledger receipts; capture totals differ from query dispositions and people. Six supporting receipts are indexed outside this literal ledger.",
     "recent_query_receipt_reuses": 41,
@@ -999,12 +1003,12 @@
     "recent_query_access_holds": 5,
     "next_search_page_to_capture": 22,
     "recent_query_rows_captured": 420,
-    "contiguous_query_rows_reviewed": 388,
-    "recent_query_detail_gaps": 28,
+    "contiguous_query_rows_reviewed": 390,
+    "recent_query_detail_gaps": 26,
     "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 6,
-    "total_indexed_reviewed_provider_ids": 486
+    "total_indexed_reviewed_provider_ids": 488
   },
   "search_pages": [
     {
@@ -23688,6 +23692,71 @@
         "checksum": "c0c3d10f",
         "checksum_scope": "Lossless transfer check, not source authenticity"
       }
+    },
+    "R_686209974": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T04:40:04.414098+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686209974",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686209974&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686209974&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's last name": "Mutrie",
+        "Last name": "Glasgow",
+        "Residence": "Kirknewton, Midlothian, Scotland",
+        "Sex": "Male",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1727",
+        "County": "Midlothian",
+        "Baptism year": "1727",
+        "Country": "Scotland",
+        "Baptism date": "14 Feb 1727",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Alexander",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_691906011": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T04:40:27.825810+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691906011",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691906011&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691906011&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "Baptism date": "14 Feb 1727",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Baptism year": "1727",
+        "Birth year": "1727",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Collections from": "Great Britain, Scotland",
+        "Country": "Scotland",
+        "County": "Midlothian",
+        "Father's first name(s)": "Alexander",
+        "Father's last name": "Glasgow",
+        "First name(s)": "John",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Margaret",
+        "Mother's last name": "Mutrie",
+        "Place": "Kirknewton and East Calder",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Sex": "Male",
+        "Subcategory": "Parish Baptisms"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Cua Chrome DOM transcript table",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24"
     }
   },
   "identity_clusters": [
@@ -29039,6 +29108,30 @@
         "next_question": "Check Janet/Jannet/Jennet receipts arriving later against this event by exact birth/baptism date, named parents and parish; do not create a person or transfer adult parent identity from absence of conflicting records.",
         "new_person_proposed": false,
         "reviewed_on": "2026-10-24"
+      },
+      "R_686209974": {
+        "status": "existing_event_confirmation",
+        "catalogue_profiles": {
+          "Glasgow-1343": "Identified baptism subject; exact date, parish and named parents match the existing child account.",
+          "Glasgow-1141": "Named father identified within the existing household; child-side father assessment stays 97%; his own upstream father stays 34%.",
+          "Moultrie-158": "Compatible mother-profile comparison only, unassessed; transcript spells Margaret Mutrie, not proof of profile identity."
+        },
+        "assessment": "The inspected Findmypast derivative transcripts R_686209974 and R_691906011 both index one John Glasgow baptism on 14 February 1727 at Kirknewton and East Calder, with Alexander Glasgow and Margaret Mutrie named as parents. The first also records residence Kirknewton. This matches the child event already assigned to Glasgow-1343 and supports the named father within the existing 97% assessment; the current mother profile Moultrie-158 remains unassessed. The transcripts give only birth year 1727, not an exact birth date, and no original register image was inspected. These companion entries are one event, not independent original corroboration.",
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-686209974",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209974"
+      },
+      "R_691906011": {
+        "status": "existing_event_confirmation",
+        "catalogue_profiles": {
+          "Glasgow-1343": "Identified baptism subject; exact date, parish and named parents match the existing child account.",
+          "Glasgow-1141": "Named father identified within the existing household; child-side father assessment stays 97%; his own upstream father stays 34%.",
+          "Moultrie-158": "Compatible mother-profile comparison only, unassessed; transcript spells Margaret Mutrie, not proof of profile identity."
+        },
+        "assessment": "The inspected Findmypast derivative transcripts R_686209974 and R_691906011 both index one John Glasgow baptism on 14 February 1727 at Kirknewton and East Calder, with Alexander Glasgow and Margaret Mutrie named as parents. The first also records residence Kirknewton. This matches the child event already assigned to Glasgow-1343 and supports the named father within the existing 97% assessment; the current mother profile Moultrie-158 remains unassessed. The transcripts give only birth year 1727, not an exact birth date, and no original register image was inspected. These companion entries are one event, not independent original corroboration.",
+        "new_person_proposed": false,
+        "canonical_record_id": "fmp-record-r-691906011",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906011"
       }
     },
     "page2_review": {
@@ -49289,6 +49382,475 @@
         "scope": "Only two lexical queries for R_690037131 and GBPRS/LOTHIAN/SGS/BUR/032213; no new-person or relationship assignment implied."
       },
       "verification_complete": true
+    },
+    "page20_review": {
+      "reviewed_on": "2026-10-24",
+      "new_provider_transcripts": 2,
+      "documentary_groups": 1,
+      "existing_event_confirmation_groups": 1,
+      "genuinely_new_fact_groups": 0,
+      "new_people": 0,
+      "relationship_changes": [],
+      "vital_changes": [],
+      "originals_inspected": 0,
+      "record_dispositions": {
+        "R_686209974": {
+          "status": "existing_event_confirmation",
+          "catalogue_profiles": {
+            "Glasgow-1343": "Identified baptism subject; exact date, parish and named parents match the existing child account.",
+            "Glasgow-1141": "Named father identified within the existing household; child-side father assessment stays 97%; his own upstream father stays 34%.",
+            "Moultrie-158": "Compatible mother-profile comparison only, unassessed; transcript spells Margaret Mutrie, not proof of profile identity."
+          },
+          "assessment": "The inspected Findmypast derivative transcripts R_686209974 and R_691906011 both index one John Glasgow baptism on 14 February 1727 at Kirknewton and East Calder, with Alexander Glasgow and Margaret Mutrie named as parents. The first also records residence Kirknewton. This matches the child event already assigned to Glasgow-1343 and supports the named father within the existing 97% assessment; the current mother profile Moultrie-158 remains unassessed. The transcripts give only birth year 1727, not an exact birth date, and no original register image was inspected. These companion entries are one event, not independent original corroboration.",
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-686209974",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209974"
+        },
+        "R_691906011": {
+          "status": "existing_event_confirmation",
+          "catalogue_profiles": {
+            "Glasgow-1343": "Identified baptism subject; exact date, parish and named parents match the existing child account.",
+            "Glasgow-1141": "Named father identified within the existing household; child-side father assessment stays 97%; his own upstream father stays 34%.",
+            "Moultrie-158": "Compatible mother-profile comparison only, unassessed; transcript spells Margaret Mutrie, not proof of profile identity."
+          },
+          "assessment": "The inspected Findmypast derivative transcripts R_686209974 and R_691906011 both index one John Glasgow baptism on 14 February 1727 at Kirknewton and East Calder, with Alexander Glasgow and Margaret Mutrie named as parents. The first also records residence Kirknewton. This matches the child event already assigned to Glasgow-1343 and supports the named father within the existing 97% assessment; the current mother profile Moultrie-158 remains unassessed. The transcripts give only birth year 1727, not an exact birth date, and no original register image was inspected. These companion entries are one event, not independent original corroboration.",
+          "new_person_proposed": false,
+          "canonical_record_id": "fmp-record-r-691906011",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906011"
+        }
+      },
+      "verification_status": "complete",
+      "remaining_query_rows_prepared": [
+        {
+          "provider_id": "R_688617368",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3487",
+            "Glasgow-3006"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3487/findings.md",
+            "research/Glasgow-3006/findings.md"
+          ],
+          "existing_companion_lead": "Ayr John born 6 Nov 1730, William Glasgow/Jane Love (held R_692914424) is one lead; Kilbirnie John-3006 has 1730 FamilySearch vs 29 Mar 1731 Findmypast year conflict and Robert Glasgow/Margaret Allan. Neither is assigned from county/year.",
+          "needed_from_full_receipt": "Exact parish, birth versus baptism date, named parents and any grandfather/occupation; discriminate Ayr/Love from Kilbirnie/Allan and other children.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_685315512",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3478"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3478/findings.md"
+          ],
+          "existing_companion_lead": "Irvine 10 Oct 1736 baptism of John, Robt Glasgow/Mary Borland, held SCOT/OPR/BAP/3574593, is a candidate companion; merged Glasgow-4118 history does not settle whether 1736/1738 entries were separate children.",
+          "needed_from_full_receipt": "Exact Irvine parish, 10 Oct baptism, Robt/Mary Borland, OPR 595/1 and any birth field; compare to held 1736 event.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_685314427",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3478"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3478/findings.md"
+          ],
+          "existing_companion_lead": "Irvine John birth 4 Sep 1738/baptism 5 Oct 1738, Rot Glasgow/Mary Borland, held SCOT/OPR/BAP/3574782 is candidate event; current live birth 4 Oct is disputed.",
+          "needed_from_full_receipt": "Exact parish, birth and baptism labels/dates, parents and OPR reference; do not resolve Sep/Oct conflict from summary year.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_685314540",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3314"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3314/findings.md"
+          ],
+          "existing_companion_lead": "Irvine George Glasgow/Margt Martin child has held SCOT/OPR/BAP/3574953 birth 20 Apr/baptism 30 Apr 1740, already canonical held-e-744836ee1d5f; FamilySearch current birth 28 Mar conflicts. This row is only a possible companion.",
+          "needed_from_full_receipt": "Exact Irvine place, parents, birth/baptism date roles and OPR 595/1; test if it is the held event rather than another 1740 John.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_686310853",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-2980"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-2980/findings.md"
+          ],
+          "existing_companion_lead": "1750 Mid Calder John of Thomas Glasgow/Janet Mill is a candidate; two held FamilySearch index URLs refer to one event; later Glasgow-159 remains conditional, not identified.",
+          "needed_from_full_receipt": "Parish, full date/date role, both named parents and register reference; compare with R_694113519 and Mid Calder entry.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_694113519",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-2980"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-2980/findings.md"
+          ],
+          "existing_companion_lead": "Same 1750 Midlothian pair, with no row-level proof of one event or of Glasgow-2980.",
+          "needed_from_full_receipt": "Parish, full date/date role, both parents and register reference; compare with R_686310853.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_686207931",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3480"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3480/findings.md"
+          ],
+          "existing_companion_lead": "1751 Kirknewton/East Calder John of John Glasgow/Christian Meek, held MyHeritage 30226-356058 dated 18 Aug, is candidate event.",
+          "needed_from_full_receipt": "Exact parish, day/month and whether birth or baptism, both named parents; compare with R_691903896.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_691903896",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3480"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3480/findings.md"
+          ],
+          "existing_companion_lead": "Same 1751 Midlothian pair; documentary companion status is unproved.",
+          "needed_from_full_receipt": "Exact parish, day/month/date role, both parents and register reference; compare with R_686207931.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_22094613969",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3298"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3298/findings.md"
+          ],
+          "existing_companion_lead": "1755 Glasgow child John of Hugh Glasgow/Margtt McKechny is a candidate event; current birth is before 19 Apr baptism.",
+          "needed_from_full_receipt": "Exact Glasgow parish, baptism date and any explicit birth field, both parents, residence/occupation if present.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_686211396",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3581"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3581/findings.md"
+          ],
+          "existing_companion_lead": "1755 Kirknewton John with mother Mary Robertson is candidate event; maintained father John Glasgow-1343 is an 82% household inference because held child citation omits father field.",
+          "needed_from_full_receipt": "Exact Kirknewton parish, 18 May date role, mother and father as literally indexed, reference; compare R_691905867.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_691905867",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3581"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3581/findings.md"
+          ],
+          "existing_companion_lead": "Same 1755 Midlothian pair; row does not establish father, child identity or companion status.",
+          "needed_from_full_receipt": "Exact parish, full date/date role and both named parents; compare R_686211396.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093142",
+          "status": "detail_needed",
+          "candidate_profiles": [
+            "Glasgow-3298"
+          ],
+          "candidate_source_paths": [
+            "research/Glasgow-3298/findings.md"
+          ],
+          "existing_companion_lead": "Glasgow High Church John burial in 1756 has no age or kin in row. Glasgow-3298 was baptized locally in 1755, but infant identity is unproved; adult John remains possible.",
+          "needed_from_full_receipt": "Literal burial/death date, age or child/adult designation, named kin, residence and register reference; compare against known Johns only after these fields.",
+          "existing_exact_provider_receipt": null,
+          "existing_canonical_for_exact_id": null,
+          "concrete_exclusions": []
+        },
+        {
+          "provider_id": "R_692644328",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1759,
+            "place": "Lanarkshire, Scotland",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [],
+          "why_not_assigned": "Search row alone has no parish, event date, or parental fields; no exact event/profile match established.",
+          "missing_discriminator": "Full transcript: birth and baptism dates/places, parish/reference, father and mother names.",
+          "skip_retrieval_if": "None; no held exact event found."
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/1025643",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1764,
+            "place": "Glasgow, Lanarkshire",
+            "set": "Scotland Parish Deaths & Burials"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [],
+          "why_not_assigned": "No exact canonical death/burial mapping. Same-name 1764 birth/death search rows are not enough to join an infant burial to a baptism.",
+          "missing_discriminator": "Full transcript: burial date, age, parish/register reference and any parent/child annotation.",
+          "skip_retrieval_if": "Compare with companion provider row GBPRS/GLASGOW/BUR/093137 after first transcript. If date, age, parish/reference and details prove same event, retain one event and map both URLs rather than treating as independent."
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093137",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1764,
+            "place": "Glasgow High Church, Glasgow",
+            "set": "Scotland Parish Deaths & Burials"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [],
+          "why_not_assigned": "Likely companion/duplicate candidate to SCOT/OPR/BUR/1025643, but equivalence is unverified from row fields.",
+          "missing_discriminator": "Full transcript: exact event date, age and archive/register reference.",
+          "skip_retrieval_if": "If 1025643 yields the same underlying entry and no extra discriminating fields are needed, do not fetch this derivative separately; preserve its URL as a companion citation."
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3839025",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1764,
+            "place": "Cambusnethan, Lanarkshire",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [],
+          "why_not_assigned": "No exact baptism or household match. Do not connect to a separate 1764 Glasgow burial by name/year alone.",
+          "missing_discriminator": "Full transcript: exact birth/baptism date, parish reference, parents and residence."
+        },
+        {
+          "provider_id": "R_686707056",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1768,
+            "place": "Roxburghshire, Scotland",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed_with_existing_hold",
+          "qualified_candidates": [
+            {
+              "profile_id": "Glasgow-1221",
+              "role": "Existing Kelso John account is a comparison only; current birth c. 12 Jun 1768 and father David Glasgow assessed 97%. Existing held transcript SCOT/OPR/BAP/5055887 records Jean Glasgow, born 12 May/baptised 12 Jun 1768, parents David Glasgow and Janet Hood; maintained John-versus-Jean name conflict remains held."
+            },
+            {
+              "profile_id": "Glasgow-1218",
+              "role": "Named father candidate only if new transcript explicitly names David; current selected father of Glasgow-1221, not automatic proof for another child."
+            },
+            {
+              "profile_id": "Hood-6028",
+              "role": "Named mother candidate only if transcript explicitly names Janet Hood."
+            }
+          ],
+          "why_not_assigned": "Two new search rows (R_686707056 and R_690798614) and the existing Jean 1768 transcript raise a possible same-event/name-variant question, but no new transcript fields are available. Preserve the existing identity hold; do not relabel Jean as John.",
+          "missing_discriminator": "Full transcript for this exact ID: literal child name, birth and baptism dates, parent names, residence, archive reference/page/item. Compare against 5055887 and the other new ID field-for-field.",
+          "skip_retrieval_if": "Do not skip this exact record merely because year/place match; capture once unless an already-held receipt is proven same provider ID."
+        },
+        {
+          "provider_id": "R_690798614",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1768,
+            "place": "Roxburghshire, Scotland",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed_with_existing_hold",
+          "qualified_candidates": [
+            {
+              "profile_id": "Glasgow-1221",
+              "role": "Same qualified comparison and unresolved John/Jean conflict as above; not a subject match."
+            },
+            {
+              "profile_id": "Glasgow-1218",
+              "role": "Potential named-father comparison only if transcript names David Glasgow."
+            },
+            {
+              "profile_id": "Hood-6028",
+              "role": "Potential named-mother comparison only if transcript names Janet Hood."
+            }
+          ],
+          "why_not_assigned": "Same displayed index fields as R_686707056 do not establish that these are companion labels or one event. Existing 5055887 John/Jean hold remains active.",
+          "missing_discriminator": "Literal child name, event dates, parents, parish/reference, and original source citation; compare exact transcript fields with R_686707056 and 5055887.",
+          "skip_retrieval_if": "After first 1768 transcript, fetch this second ID only if its event/reference or parent/child fields differ or it carries needed source detail; otherwise record as companion index, not another event."
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093143",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1769,
+            "place": "Glasgow High Church, Glasgow",
+            "set": "Scotland Parish Deaths & Burials"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [],
+          "why_not_assigned": "No exact infant burial mapping; a child/burial event cannot be matched from surname and year alone.",
+          "missing_discriminator": "Full transcript: exact burial date, age, parent notation, and register/reference."
+        },
+        {
+          "provider_id": "R_693207798",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1771,
+            "place": "Lanarkshire, Scotland",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [],
+          "why_not_assigned": "No parish or named-parent evidence in search row; no exact current profile event match.",
+          "missing_discriminator": "Full transcript: literal child name, birth/baptism dates, parish/reference, parents, residence."
+        },
+        {
+          "provider_id": "GBPRS/WSMTN/BAP/0284722",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1772,
+            "place": "St James, Middlesex, England",
+            "set": "Westminster Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed_scope_review",
+          "qualified_candidates": [],
+          "why_not_assigned": "London event is not itself evidence of a Glasgow birthplace or eligible local profile; a named Scottish parent could make it relevant as a secondary-role record.",
+          "missing_discriminator": "Full transcript: exact event date, parents/occupations/residences, parish reference."
+        },
+        {
+          "provider_id": "GBPRS/B/491836340/1",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1772,
+            "place": "St James, Piccadilly, Middlesex, England",
+            "set": "Westminster Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed_scope_review",
+          "qualified_candidates": [],
+          "why_not_assigned": "Could be a companion source/index for GBPRS/WSMTN/BAP/0284722, but equivalence and parentage are unverified.",
+          "missing_discriminator": "Full transcript: parents, event date and register reference; compare to 0284722 before treating as separate event."
+        },
+        {
+          "provider_id": "R_864628876",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1772,
+            "place": "Westminster, Middlesex, England",
+            "set": "England Births & Baptisms 1538-1975"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed_scope_review",
+          "qualified_candidates": [],
+          "why_not_assigned": "Likely companion-index possibility to the two St James Westminster rows; not yet established, and no local Glasgow role demonstrated.",
+          "missing_discriminator": "Transcript source citation/reference, event date, and named parent details; compare event and parent fields with both other 1772 provider IDs."
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4884269",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1772,
+            "place": "Simprim & Swinton, Berwickshire, Scotland",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [
+            {
+              "profile_id": "Glasgow-1218",
+              "role": "Existing David Glasgow of the Kelso family is a possible household comparison only if the transcript names him; its current linked children do not establish this John."
+            },
+            {
+              "profile_id": "Hood-6028",
+              "role": "Janet Hood is a possible named-mother comparison only if transcript names her."
+            }
+          ],
+          "why_not_assigned": "No existing exact event or child match found; nearby family context alone cannot assign a baptism.",
+          "missing_discriminator": "Full transcript: birth and baptism dates, literal names of both parents, residence and OPR item/page."
+        },
+        {
+          "provider_id": "R_686312199",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1773,
+            "place": "Midlothian, Scotland",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [],
+          "why_not_assigned": "No parish, parent, or exact profile-event match in index fields.",
+          "missing_discriminator": "Full transcript: parish/register reference, exact dates, parents and residence."
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0735490",
+          "row": {
+            "name": "John Glasgow",
+            "year": 1777,
+            "place": "Edinburgh, Midlothian",
+            "set": "Scotland Parish Births & Baptisms"
+          },
+          "receipt_pointer": null,
+          "status": "detail_needed",
+          "qualified_candidates": [
+            {
+              "profile_id": "Glasgow-2102",
+              "role": "Compatible date/place comparison: current birth bound before 11 Sep 1777 at St Cuthberts; father Glasgow-1321 is probable 61%. Row alone does not identify this profile."
+            },
+            {
+              "profile_id": "Glasgow-1321",
+              "role": "Potential named-father comparison only if transcript explicitly names him."
+            }
+          ],
+          "why_not_assigned": "Birth/baptism event location and year overlap are not enough to identify Glasgow-2102 or transfer parentage.",
+          "missing_discriminator": "Full transcript: literal child name, birth/baptism dates, parent names, parish OPR reference and residence."
+        }
+      ],
+      "provider_records_newly_indexed": 2,
+      "verification_report": "output/findmypast-page20-20261024-verification.json"
     }
   }
 }

@@ -42289,5 +42289,71 @@
         "href": "/branches/research-irish-moneymore/#nancy-faris-quoted-father"
       }
     ]
+  },
+  {
+    "record_id": "fmp-record-r-686209974",
+    "provider_record_id": "R_686209974",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "event_role": "baptism transcript",
+    "date": "14 Feb 1727",
+    "year": 1727,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686209974&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "One derivative baptism event, 14 Feb 1727 Kirknewton and East Calder, John Glasgow son of Alexander Glasgow and Margaret Mutrie; R_686209974 separately indexes residence Kirknewton. Child Glasgow-1343 identified; father Glasgow-1141 identified within existing 97% assessment; Moultrie-158 compatible mother-profile candidate only, unassessed. Birth day unrecorded; original uninspected. Companion FMP IDs repeat one event; prior FamilySearch VQ4K-PMV/PMK are comparison citations.",
+    "profiles": {
+      "Glasgow-1343": {
+        "role": "Identified baptism subject; exact date, parish and named parents match the existing child account.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1141": {
+        "role": "Named father identified within the existing household; child-side father assessment stays 97%; his own upstream father stays 34%.",
+        "timeline_group": "Qualified source records"
+      },
+      "Moultrie-158": {
+        "role": "Compatible mother-profile comparison only, unassessed; transcript spells Margaret Mutrie, not proof of profile identity.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209974",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-691906011",
+    "provider_record_id": "R_691906011",
+    "association": "John Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "John Glasgow",
+    "event_role": "baptism transcript",
+    "date": "14 Feb 1727",
+    "year": 1727,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691906011&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "One derivative baptism event, 14 Feb 1727 Kirknewton and East Calder, John Glasgow son of Alexander Glasgow and Margaret Mutrie; R_686209974 separately indexes residence Kirknewton. Child Glasgow-1343 identified; father Glasgow-1141 identified within existing 97% assessment; Moultrie-158 compatible mother-profile candidate only, unassessed. Birth day unrecorded; original uninspected. Companion FMP IDs repeat one event; prior FamilySearch VQ4K-PMV/PMK are comparison citations.",
+    "profiles": {
+      "Glasgow-1343": {
+        "role": "Identified baptism subject; exact date, parish and named parents match the existing child account.",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1141": {
+        "role": "Named father identified within the existing household; child-side father assessment stays 97%; his own upstream father stays 34%.",
+        "timeline_group": "Qualified source records"
+      },
+      "Moultrie-158": {
+        "role": "Compatible mother-profile comparison only, unassessed; transcript spells Margaret Mutrie, not proof of profile identity.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906011",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
   }
 ]

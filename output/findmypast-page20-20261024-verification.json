@@ -1,0 +1,248 @@
+{
+  "reviewed_on": "2026-10-24",
+  "new_provider_transcript_records": 2,
+  "newly_indexed_provider_records": 2,
+  "source_ids": {
+    "R_686209974": "s-dae0d25fdfe88a96",
+    "R_691906011": "s-81c4063b5d7fc286"
+  },
+  "outside_selected_canonical_rows_changed_during_concurrent_work": [],
+  "concurrent_new_canonical_ids_outside_selected": [
+    "96635efa85f8f796"
+  ],
+  "verified_concurrent_canonical_rekeys": {
+    "faris-nancy-child-quoted-p18-1990": {
+      "new_record_id": "96635efa85f8f796",
+      "unchanged_fields": [
+        "source_url",
+        "year",
+        "date",
+        "place",
+        "profiles",
+        "provenance"
+      ],
+      "note_only_appended": true
+    }
+  },
+  "source_readers_checked": 2,
+  "source_routes_in_xml_sitemap": true,
+  "source_collection_membership_checked": true,
+  "public_birth_scotland_before1800_browse_route": "/sources/births/scotland/before-1800/",
+  "reader_sitemap_links_source_directory_and_browse": true,
+  "person_accounts_checked": 3,
+  "complete_preserved_proposals_checked": 2,
+  "draft_normalized_sha256": {
+    "Glasgow-1141": "e5f7502356237d4326352fcfcb9f5b31e96191028ad0916fc19b377f1ca4af77",
+    "Glasgow-1343": "1d21a6353dac46c03b1c87635862d98b4c49bc1c8e8b7a73329182f3abda12a9"
+  },
+  "queued_amendments_preserved_except_summary": true,
+  "selected_needs_update_full_fast_hydrated_agree": {
+    "Glasgow-1343": true,
+    "Glasgow-1141": true,
+    "Moultrie-158": false
+  },
+  "global_full_fast_needs_update_counts_agree": 1594,
+  "vitals_unchanged": true,
+  "relationships_and_grades_unchanged": true,
+  "new_facts": 0,
+  "new_people": 0,
+  "vital_field_changes": 0,
+  "relationship_grade_changes": 0,
+  "indexed_ledger_records": 482,
+  "profile_or_draft_context_records": 338,
+  "source_only_records": 144,
+  "supporting_receipts_at_original_pointers": 6,
+  "indexed_provider_union": 488,
+  "reviewed_query_rows": 394,
+  "saved_query_rows": 420,
+  "contiguous_reviewed_query_rows": 390,
+  "saved_detail_gaps": 26,
+  "next_missing_provider_id": "R_688617368",
+  "coverage": "INCOMPLETE",
+  "publication": "Local website only; no deployment or live WikiTree save",
+  "core_publication": {
+    "source_ingest": {
+      "selected_records": 2,
+      "changed_files": 173,
+      "seconds": 60.4,
+      "memory_pressure_after": 2
+    },
+    "sync": {
+      "exit_code": 0,
+      "seconds": 380.5,
+      "memory_pressure_after": 2
+    }
+  },
+  "post_publication_stages": {
+    "latest": {
+      "outcome": {
+        "latest_findings_assets": 1,
+        "latest_findings": 22,
+        "latest_findings_feed": 1,
+        "latest_findings_subject_index": 1,
+        "latest_findings_subject_pages": 25,
+        "tree_research_status": 1,
+        "profile_tree_links": 3
+      },
+      "seconds": 110.7,
+      "memory_pressure_after": 1
+    },
+    "study": {
+      "outcome": {
+        "study_pages_updated": 1,
+        "study_pages": 1,
+        "authored_stories": 1
+      },
+      "seconds": 2.4,
+      "memory_pressure_after": 1
+    },
+    "backlinks": {
+      "outcome": {
+        "output": "/Users/m/genealogy/wikitree-api-scrape/www/data/person-links.json",
+        "changed": true,
+        "people": 4863,
+        "people_withheld_skipped": 0,
+        "people_with_any_link": 4809,
+        "people_with_studies": 3963,
+        "people_with_places": 4391,
+        "people_with_sources": 4510,
+        "people_with_findings": 1672,
+        "people_with_research": 666,
+        "people_with_mentioned_by": 1125,
+        "study_pages": 347,
+        "place_pages": 1264,
+        "study_pages_with_places": 347,
+        "place_pages_with_studies": 1105,
+        "entries_dropped_by_privacy_screen": {},
+        "most_mentioned": [
+          {
+            "id": "Glasgow-951",
+            "name": "Alexander Glasgow",
+            "mentioned_by_people": 37,
+            "mentioning_sections": 95
+          },
+          {
+            "id": "Glasgow-991",
+            "name": "James Glasgow",
+            "mentioned_by_people": 29,
+            "mentioning_sections": 61
+          },
+          {
+            "id": "Glasgow-1073",
+            "name": "John Glasgow M.A",
+            "mentioned_by_people": 27,
+            "mentioning_sections": 48
+          },
+          {
+            "id": "Glasgow-1027",
+            "name": "Rot. Glasgow",
+            "mentioned_by_people": 25,
+            "mentioning_sections": 41
+          },
+          {
+            "id": "Glasgow-12",
+            "name": "Robert Glasgow",
+            "mentioned_by_people": 24,
+            "mentioning_sections": 46
+          },
+          {
+            "id": "Glasgow-822",
+            "name": "John Glasgow and Mary Arthur",
+            "mentioned_by_people": 22,
+            "mentioning_sections": 44
+          },
+          {
+            "id": "Glasgow-1024",
+            "name": "James Glasgow II",
+            "mentioned_by_people": 21,
+            "mentioning_sections": 44
+          },
+          {
+            "id": "Glasgow-1026",
+            "name": "William Walter Glasgow",
+            "mentioned_by_people": 21,
+            "mentioning_sections": 36
+          },
+          {
+            "id": "Glasgow-1144",
+            "name": "James Glasgow",
+            "mentioned_by_people": 21,
+            "mentioning_sections": 29
+          },
+          {
+            "id": "Glascow-14",
+            "name": "Isaac Wesley (Glascow) Glasgow",
+            "mentioned_by_people": 20,
+            "mentioning_sections": 33
+          }
+        ]
+      },
+      "seconds": 65.1,
+      "memory_pressure_after": 2
+    },
+    "sitemap": {
+      "outcome": {
+        "sitemap": {
+          "sitemap_urls": 23703,
+          "sitemap_reader_pages": 1262
+        },
+        "search": {
+          "search_indexes": 1,
+          "shared_search_assets": 1
+        }
+      },
+      "seconds": 80.2,
+      "memory_pressure_after": 1
+    },
+    "versions": {
+      "outcome": {
+        "write_passes": 1,
+        "changed_files": 24682,
+        "original_stale_references": 24681
+      },
+      "seconds": 269.2,
+      "memory_pressure_after": 2
+    }
+  },
+  "publication_gate_new_failures": 0,
+  "asset_versions": {
+    "files": 25759,
+    "references": 428139,
+    "stale_references": 0,
+    "samples": [],
+    "manifest_before": "af70b88cf3",
+    "manifest_after": "af70b88cf3",
+    "manifest_stable": true
+  },
+  "links": {
+    "pages": 25706,
+    "references": 1353260,
+    "existing_broken_links": 7,
+    "existing_page_target_pairs": 4,
+    "new_pairs": 0,
+    "fixed_pairs": 0,
+    "non_gated_missing_person_anchors": 87,
+    "person_anchors_checked": 7590,
+    "unlinked_legacy_fragments_not_checked": 876
+  },
+  "concurrent_canonical_review": {
+    "old_record_id": "faris-nancy-child-quoted-p18-1990",
+    "current_record_id": "96635efa85f8f796",
+    "baseline_id_removed": true,
+    "current_row_count": 1,
+    "unchanged_fields": [
+      "source_url",
+      "year",
+      "date",
+      "place",
+      "profiles",
+      "provenance"
+    ],
+    "note_retained_as_prefix": true,
+    "appended_note": "The existing provider record and source IDs are reused. The source’s older Moneymore circa-1749 profile lead remains unverified; its retained mapped event and original citation are not made certain by this daughter statement.",
+    "checked_against": "/tmp/fmp-page20-baseline/research/canonical_records.json and research/canonical_records.json",
+    "reviewed_on": "2026-10-24"
+  },
+  "catalogue_integration_complete_for_captured_receipts": true,
+  "broader_audit_complete": false
+}
