@@ -4,6 +4,8 @@ Run from the repository root: .venv/bin/python research/ancestry-connections/ran
 Use --scope all-unconfident to include older tree attachments.
 Use --scope unrated to prioritise individual-rating coverage, including
 inherited confident marks that have no reviewed percentage.
+Coverage also includes retained named fathers outside the surname graph;
+their graph impact is unavailable (null), rather than zero.
 Coverage ranks the child-side branch size first; the other modes rank
 dependent connected pairs. These are separate measures of research impact.
 Impact counts dependent connected pairs, never confidence or new genealogical joins.
@@ -15,7 +17,7 @@ to explicit research readiness followed by working impact. Unknown readiness is 
 from pathlib import Path
 import argparse,json,sys
 sys.path.insert(0,str(Path.cwd()))
-from tools.branch_connectivity import load_public_nodes,CONFIDENT,paternal_link_impacts
+from tools.branch_connectivity import load_public_nodes,CONFIDENT,paternal_link_impacts,is_named_father_name
 
 
 def explicit_research_state(assessment):
@@ -47,13 +49,14 @@ def dispatch_context(assessment, estimate=None, case=None):
 def sort_rows(rows, order='actionable', scope='selected'):
     """Keep impact modes explicit; dispatch readiness never changes graph impact."""
     def key(row):
+        descending = lambda value: -value if value is not None else float('inf')
         identity = (row['child'], row['father'])
         if order == 'confident-gain':
-            return (-row['confident_pair_gain'], -row['cross_pairs'], *identity)
+            return (descending(row['confident_pair_gain']), descending(row['cross_pairs']), *identity)
         if scope == 'unrated':
-            impact = (-row['child_side'], -row['cross_pairs'], *identity)
+            impact = (descending(row['child_side']), descending(row['cross_pairs']), *identity)
         else:
-            impact = (-row['cross_pairs'], *identity)
+            impact = (descending(row['cross_pairs']), *identity)
         if order == 'actionable':
             disposition = row.get('research_state', {}).get('disposition', 'unknown')
             readiness = {'ready': 0, 'unknown': 1, 'awaiting_source': 2,
@@ -72,12 +75,13 @@ def main(argv=None):
     parser.add_argument("--limit",type=int,help="Maximum output rows (must be positive)")
     args=parser.parse_args(argv)
     if args.limit is not None and args.limit < 1:parser.error("--limit must be positive")
-    root=Path('www');strategy=json.load(open('research/ancestry-connections/strategy.json'));nodes,edges,quality=load_public_nodes(root,set(strategy['variants']));cohort=set(json.load(open('www/data/ancestry-connectivity.json'))['cohorts']['1850']['working']['cohort_ids']);parents={e['child']:e['father'] for e in edges}
+    retained=[]
+    root=Path('www');strategy=json.loads(Path('research/ancestry-connections/strategy.json').read_text());nodes,edges,quality=load_public_nodes(root,set(strategy['variants']),retained_fathers=retained if args.scope=='unrated' else None);cohort=set(json.loads(Path('www/data/ancestry-connectivity.json').read_text())['cohorts']['1850']['working']['cohort_ids']);parents={e['child']:e['father'] for e in edges}
     impacts={(r['child'],r['father']):r for r in paternal_link_impacts(nodes,edges,1850,cohort)}
     rows=[]
-    assessments=json.load(open('research/relationship_assessments.json'))
+    assessments=json.loads(Path('research/relationship_assessments.json').read_text())
     by_assertion={a.get('assertion_id'):a for a in assessments}
-    estimate_data=json.load(open('research/relationship_probability_estimates.json'))
+    estimate_data=json.loads(Path('research/relationship_probability_estimates.json').read_text())
     estimates={(e['subject_id'],e['relative_id']):e for e in estimate_data.get('estimates',[])
                if e.get('relationship')=='father'}
     cases={c.get('assertion_id'):c for c in strategy.get('early_connections',[]) if c.get('assertion_id')}
@@ -89,13 +93,16 @@ def main(argv=None):
     if args.scope=='all-unconfident':
      candidates=[(e['child'],e['father'],by_assertion.get(e.get('assertion_id'),{})) for e in edges if e['status'] not in CONFIDENT]
     elif args.scope=='unrated':
-     candidates=[(e['child'],e['father'],by_assertion.get(e.get('assertion_id'),{})) for e in edges if e.get('confidence_percent') is None]
+     candidates=[(e['child'],e['father'],by_assertion.get(e.get('assertion_id'),{})) for e in retained if e['child'] in cohort and e.get('confidence_percent') is None and is_named_father_name(e.get('father_name'))]
     else:candidates=selected
     by_pair={(e['child'],e['father']):e for e in edges}
+    if args.scope=='unrated':by_pair.update({(e['child'],e['father']):e for e in retained})
     for child,father,a in candidates:
-     if parents.get(child)!=father or (child,father) not in impacts:continue
-     impact=impacts[child,father]
-     row={'assertion_id':a.get('assertion_id') or by_pair[child,father].get('assertion_id'),'child':child,'father':father,'child_name':nodes[child]['name'],'father_name':nodes[father]['name'],**{k:impact[k] for k in ('child_side','parent_side','cross_pairs','confident_child_side','confident_parent_side','confident_pair_gain','confident_component_reduction')},'evidence_grade':a.get('evidence_grade'),'source_ids':a.get('source_ids',[]),'links':a.get('analysis_links',[])}
+     if args.scope!='unrated' and (parents.get(child)!=father or (child,father) not in impacts):continue
+     impact=impacts.get((child,father),{})
+     pair=by_pair[child,father]
+     row={'assertion_id':a.get('assertion_id') or pair.get('assertion_id'),'child':child,'father':father,'child_name':nodes[child]['name'],'father_name':nodes.get(father,{}).get('name') or pair.get('father_name') or father,**{k:impact.get(k) for k in ('child_side','parent_side','cross_pairs','confident_child_side','confident_parent_side','confident_pair_gain','confident_component_reduction')},'evidence_grade':a.get('evidence_grade'),'source_ids':a.get('source_ids',[]),'links':a.get('analysis_links',[])}
+     if args.scope=='unrated':row['graph_impact_available']=bool(impact)
      if args.scope in {'all-unconfident','unrated'}:row.update(status=by_pair[child,father]['status'],confidence_percent=by_pair[child,father].get('confidence_percent'),selected_working_hypothesis=bool(a.get('working_selection')),cohort_year=nodes[child].get('year'),year_basis=nodes[child].get('year_basis'),first_record_year=nodes[child].get('first_record_year'))
      case=cases.get(row['assertion_id'],{})
      row.update(dispatch_context(a,estimates.get((child,father)),case))

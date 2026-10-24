@@ -90,12 +90,25 @@ def relationship_status(relation: dict) -> tuple[str, str]:
     return status, 'resolved_dossier_assessment'
 
 
-def load_public_nodes(site_root: Path, variants: set[str]):
+def is_named_father_name(name):
+    """Apply the public father-listing rule for anonymous placeholders."""
+    return not re.match(r'^(?:\(?unknown\)?|unnamed|not known|n\.?n\.?)(?:\s|$)',
+                        str(name or '').strip(), re.I)
+
+
+def load_public_nodes(site_root: Path, variants: set[str], *, retained_fathers: list | None = None):
+    """Load the surname graph, optionally collecting selected fathers before its boundary.
+
+    Coverage callers can inspect named fathers without a public/cohort dossier.
+    This output reuses graph selection and percentage validation; it does not
+    add these fathers or links to the graph or its measured population.
+    """
     site_root = Path(site_root)
     index = json.loads((site_root / "data/people-index.json").read_text())
     allowed = {x.casefold() for x in variants}
     nodes, aliases, raw, paths = {}, {}, [], {}
     pending_documentary_accounts = {}
+    father_names = {}
     quality = {
         "missing_dossiers": [],
         "multiple_fathers": [],
@@ -170,6 +183,7 @@ def load_public_nodes(site_root: Path, variants: set[str]):
             ):
                 continue
             if relation.get("id"):
+                father_names[(ident, str(relation['id']))] = relation.get('name')
                 raw.append(
                     dict(
                         child=ident,
@@ -231,7 +245,10 @@ def load_public_nodes(site_root: Path, variants: set[str]):
     # surname cohort. Conflicting selections at the same priority stay ambiguous.
     candidates = defaultdict(list)
     for edge in raw:
+        name = father_names.get((edge['child'], edge['father']))
         edge['father'] = aliases.get(edge['father'], edge['father'])
+        if name:
+            father_names[(edge['child'], edge['father'])] = name
         candidates[edge['child']].append(edge)
     raw = []
     for child_edges in candidates.values():
@@ -241,10 +258,15 @@ def load_public_nodes(site_root: Path, variants: set[str]):
             if selected:
                 raw.append(edge)
     by_child = defaultdict(dict)
+    retained = defaultdict(dict)
     all_fathers = defaultdict(set)
     for edge in raw:
         edge["father"] = aliases.get(edge["father"], edge["father"])
         all_fathers[edge["child"]].add(edge["father"])
+        if retained_fathers is not None:
+            existing = retained[edge['child']].get(edge['father'])
+            if not existing or edge['status'] in CONFIDENT:
+                retained[edge['child']][edge['father']] = edge
         if edge["father"] not in nodes:
             quality["outside_cohort_fathers"].append(edge["child"])
             continue
@@ -258,6 +280,11 @@ def load_public_nodes(site_root: Path, variants: set[str]):
         else:
             edges.extend(fathers.values())
     quality["cycles"] = _cycles(edges)
+    coverage_edges = [dict(edge, child_name=nodes[child]['name'],
+                           father_name=nodes.get(father, {}).get('name')
+                           or father_names.get((child, father)) or father)
+                      for child, fathers in retained.items() if len(all_fathers[child]) == 1
+                      for father, edge in fathers.items()]
     # Reuse public pair-specific estimates; certainty flags supply no percentage.
     estimate_path = site_root / 'assets/research/relationship-probabilities.json'
     estimates = {}
@@ -267,7 +294,7 @@ def load_public_nodes(site_root: Path, variants: set[str]):
                 child = aliases.get(estimate['subject_id'], estimate['subject_id'])
                 father = aliases.get(estimate['relative_id'], estimate['relative_id'])
                 estimates[(child, father)] = estimate
-    for edge in edges:
+    for edge in edges + coverage_edges:
         estimate = estimates.get((edge['child'], edge['father']))
         if (estimate and type(estimate.get('percent')) in (int, float)
                 and 0 < estimate['percent'] < 100 and estimate.get('basis')
@@ -276,6 +303,8 @@ def load_public_nodes(site_root: Path, variants: set[str]):
                 and (not estimate.get('assertion_id') or not edge.get('assertion_id')
                      or estimate['assertion_id'] == edge['assertion_id'])):
             edge['confidence_percent'] = estimate['percent']
+    if retained_fathers is not None:
+        retained_fathers.extend(sorted(coverage_edges, key=lambda e: (e['child'], e['father'])))
     quality["undated_people"] = sorted(i for i, n in nodes.items() if n["year"] is None)
     quality["outside_cohort_fathers"] = sorted(set(quality["outside_cohort_fathers"]))
     return nodes, sorted(edges, key=lambda e: (e["child"], e["father"])), quality

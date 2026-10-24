@@ -14,7 +14,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from tools.branch_connectivity import CONFIDENT, SUPPORTED, EXCLUDED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize, paternal_link_impacts, relationship_status
+from tools.branch_connectivity import CONFIDENT, SUPPORTED, EXCLUDED, MEASUREMENT_VIEWS, METHOD_VERSION, load_public_nodes, summarize, paternal_link_impacts, relationship_status, is_named_father_name
 from tools.documentary_ancestry import load_people
 from tools.free_space_edition import shell_page
 from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
@@ -180,8 +180,7 @@ def has_named_father(dossier):
                 or relation.get('display') in {'alternative', 'historical', 'superseded'}
                 or relation.get('publication_status') in {'withheld', 'blocked', 'rejected'}):
             continue
-        if re.match(r'^(?:\(?unknown\)?|unnamed|not known|n\.?n\.?)(?:\s|$)',
-                    str(relation.get('name') or '').strip(), re.I):
+        if not is_named_father_name(relation.get('name')):
             continue
         return True
     return False
@@ -191,6 +190,18 @@ def father_listing_counts(cohort_ids, listings):
     values = [listings.get(ident) for ident in cohort_ids]
     return dict(unknown_count=values.count(False), named_count=values.count(True),
                 unavailable_count=values.count(None), population=len(values))
+
+
+def named_father_review_counts(cohort_ids, retained_fathers):
+    """Current exact-rating coverage, independent of surname-graph eligibility."""
+    cohort = set(cohort_ids)
+    selected = {row['child']: row for row in retained_fathers
+                if row['child'] in cohort and is_named_father_name(row.get('father_name'))}
+    rated = sum(type(row.get('confidence_percent')) in (int, float)
+                and 0 < row['confidence_percent'] < 100 for row in selected.values())
+    total = len(selected)
+    return dict(named_count=total, rated_count=rated, unrated_count=total - rated,
+                coverage_percent=100 * rated / total if total else None)
 
 
 def compact(summary):
@@ -271,7 +282,8 @@ def build(create_baseline=False):
     documentary_path = WORK / 'documentary-people.json'
     write_json(WEB / 'data/ancestry-documentary-people.json',
                json.loads(documentary_path.read_text()) if documentary_path.exists() else {'schema_version': 1, 'people': []})
-    nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]))
+    retained_fathers = []
+    nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]), retained_fathers=retained_fathers)
     listings = {}
     identity_hold_ids = set()
     for ident, node in nodes.items():
@@ -388,7 +400,13 @@ def build(create_baseline=False):
     catalogue = json.loads((WEB / 'data/catalogue-search-index.json').read_text())
     individual_findings = individual_finding_rows(nodes, edges, assessments, cohorts, set(baseline['cohort_ids']),
                                                  identity_hold_ids, pending_father_changes(catalogue))
+    current_named_father_coverage = dict(
+        cohorts={cutoff: named_father_review_counts(pair['working']['cohort_ids'], retained_fathers)
+                 for cutoff, pair in cohorts.items()},
+        fixed=named_father_review_counts(fixed_ids, retained_fathers),
+    )
     report = dict(
+        current_named_father_coverage=current_named_father_coverage,
         schema_version=1,
         reviewed=history["snapshots"][-1]["date"],
         method_version=METHOD_VERSION,
@@ -488,6 +506,7 @@ def build(create_baseline=False):
         for cutoff, data in cohorts.items()
     )
     client = dict(
+        current_named_father_coverage=current_named_father_coverage,
         cohorts={
             cutoff: {view: {k: v for k, v in value.items() if k != "cohort_ids"} for view, value in pair.items()}
             for cutoff, pair in cohorts.items()
@@ -511,9 +530,14 @@ def build(create_baseline=False):
     )
     view_options = ''.join(f'<option value="{view}">{escape(LINK_VIEWS[view]["label"])}</option>'
                            for view in MEASUREMENT_VIEWS)
+    named_coverage = current_named_father_coverage['cohorts'][str(strategy['primary_cutoff'])]
+    named_coverage_text = (f"{named_coverage['rated_count']:,} of {named_coverage['named_count']:,} retained named fathers individually rated; "
+                           f"{named_coverage['unrated_count']:,} ungraded. "
+                           + (f"{named_coverage['coverage_percent']:.1f}% coverage." if named_coverage['coverage_percent'] is not None
+                              else "No retained named fathers."))
     main = f"""<main class="r-main ancestry-progress" id="main">
 <header class="r-page-head"><span class="r-kicker">Glasgow ancestry programme · {report["reviewed"]}</span><h1>Ancestry research progress</h1><p class="lead">Track stronger father–child connections and fewer separate branches as the research develops.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#uncertain-connections">Largest uncertain connections</a><a href="#early-connections">First connections to investigate</a></p></header>
-<section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label></div><p id="link-view-note" aria-live="polite">{escape(LINK_VIEWS['working']['description'])}</p><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All views use the same people.</p><div class="progress-table-wrap"><table><caption>Compare the same people at each link threshold</caption><thead><tr><th>Links counted</th><th>Branches</th><th>People in largest branch</th><th>Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div><p>Probable assessments can strengthen the middle measure while the confidently marked measure stays separate. The original baseline has no probable-or-stronger measurement; this series starts with the current review. An unmarked link is a review gap rather than a disproof.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
+<section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label></div><p id="link-view-note" aria-live="polite">{escape(LINK_VIEWS['working']['description'])}</p><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All views use the same people.</p><p id="named-father-coverage" aria-live="polite">{escape(named_coverage_text)}</p><p class="source-line">Current rating coverage includes every retained selected named father, including fathers outside the surname graph. Alternatives and unnamed fathers are excluded. Historical graph-link series below retain their original scope.</p><div class="progress-table-wrap"><table><caption>Compare the same people at each link threshold</caption><thead><tr><th>Links counted</th><th>Branches</th><th>People in largest branch</th><th>Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div><p>Probable assessments can strengthen the middle measure while the confidently marked measure stays separate. The original baseline has no probable-or-stronger measurement; this series starts with the current review. An unmarked link is a review gap rather than a disproof.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
 {reconciliation_note}
 {confidence_note}
 {publication_html}
@@ -549,11 +573,11 @@ def build(create_baseline=False):
 <p class="source-line">Lower is better. Counts follow the history cohort selected above, using each day's last comparable measurement. Changes include regrading existing fathers, review coverage and changes to the people or links included; they are not all new family connections. Unknown-father history starts with its first saved count; earlier missing measurements stay blank.</p>
 <details><summary>View uncertainty counts by date</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Date</th><th scope="col">All below confident</th><th scope="col">Share of father links</th><th scope="col">Unknown father</th><th scope="col">Uncertain</th><th scope="col">Possible</th><th scope="col">Probable</th><th scope="col">Unmarked</th></tr></thead><tbody id="uncertainty-trend-rows"></tbody></table></div></details>
 </div>
-<h3>Confident connections and other measures</h3><p>Green tracks confident father links; blue includes probable links. Change the measure to explore confidence or branch connectivity.</p><div class="progress-controls"><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="assessed_links_percent">Confidence coverage (%)</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div><fieldset class="history-legend" id="history-confidence-levels"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset><div id="history-changes" class="history-changes" aria-live="polite"></div><div id="history-chart"></div><p id="history-note" class="source-line"></p>
+<h3>Confident connections and other measures</h3><p>Green tracks confident father links; blue includes probable links. Change the measure to explore confidence or branch connectivity.</p><div class="progress-controls"><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="assessed_links_percent">Graph-link coverage (%)</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div><fieldset class="history-legend" id="history-confidence-levels"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset><div id="history-changes" class="history-changes" aria-live="polite"></div><div id="history-chart"></div><p id="history-note" class="source-line"></p>
 <details><summary>View snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>
 <noscript><p>Enable JavaScript to explore the chart, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript>
 <div class="confidence-trend">
-<h3>Review coverage and recorded mean confidence</h3><p id="confidence-trend-summary" aria-live="polite"></p>
+<h3>Graph-link review coverage and recorded mean confidence</h3><p id="confidence-trend-summary" aria-live="polite"></p>
 <div id="confidence-trend-chart"></div>
 <p class="source-line">Every changed saved review is shown, including changes within the same day. Reviews are evenly spaced; recording times were not retained. The mean covers individually assessed fathers, so review coverage and new or revised links can move it up or down. It is not a probability for the whole tree. Earlier unrecorded percentages are not reconstructed.</p>
 <details><summary>View exact confidence review data</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Saved review</th><th scope="col">Mean confidence</th><th scope="col">Rated father links</th><th scope="col">Review coverage</th></tr></thead><tbody id="confidence-trend-rows"></tbody></table></div></details>

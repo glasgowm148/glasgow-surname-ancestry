@@ -1,5 +1,11 @@
 (() => {
   'use strict';
+  function namedFatherCoverage(summary) {
+    if (!summary) return 'Current named-father rating coverage is unavailable.';
+    const count = value => value.toLocaleString('en-GB');
+    const percent = summary.coverage_percent === null ? 'No retained named fathers.' : `${summary.coverage_percent.toFixed(1)}% coverage.`;
+    return `${count(summary.rated_count)} of ${count(summary.named_count)} retained named fathers individually rated; ${count(summary.unrated_count)} ungraded. ${percent}`;
+  }
   function dailyHistory(snapshots, methodVersion, cohort) {
     const days = new Map();
     for (const row of snapshots) {
@@ -106,7 +112,7 @@
       catalogueProposals:proposals(findings),cohortProposals:proposals(scoped),
       firstRatings:scoped.filter(row=>row.kind==='first' && !row.research_event).length};
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = {dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
+  if (typeof module !== 'undefined' && module.exports) module.exports = {namedFatherCoverage, dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
   if (typeof document === 'undefined') return;
   const element = document.getElementById('ancestry-progress-data');
   if (!element) return;
@@ -190,7 +196,7 @@
   ];
   const historyMetrics = {
     reviewed_confidence_percent:'Mean individually reviewed father confidence (%)',
-    assessed_links_percent:'Share of working father–child links (%)',
+    assessed_links_percent:'Share of working graph father–child links (%)',
     edge_count:'Father–child links', largest_component_size:'People in largest branch',
     connected_pairs_percent:'Connected pairs (%)', component_count:'Separate paternal components'
   };
@@ -253,7 +259,7 @@
     }
     const first = rows[0], last = rows[rows.length-1], delta = last.mean_percent-first.mean_percent;
     const format = value => value.toFixed(2)+'%';
-    byId('confidence-trend-summary').textContent = `${format(first.mean_percent)} → ${format(last.mean_percent)} (${delta>=0?'+':'−'}${Math.abs(delta).toFixed(2)} percentage points). ${number(last.rated_edge_count)} of ${number(last.rated_edge_count+last.unrated_edge_count)} father links individually rated; ${last.rated_edges_percent.toFixed(1)}% review coverage.`;
+    byId('confidence-trend-summary').textContent = `${format(first.mean_percent)} → ${format(last.mean_percent)} (${delta>=0?'+':'−'}${Math.abs(delta).toFixed(2)} percentage points). ${number(last.rated_edge_count)} of ${number(last.rated_edge_count+last.unrated_edge_count)} graph father links individually rated; ${last.rated_edges_percent.toFixed(1)}% review coverage.`;
     const width = Math.max(300, Math.min(960, target.clientWidth || 960)), height = 220;
     const left = 62, right = 34, top = 24, bottom = 50;
     const values = rows.map(row=>row.mean_percent), low = Math.min(...values), high = Math.max(...values);
@@ -268,7 +274,7 @@
     }
     svg.push(`<path d="${rows.map((row,i)=>`${i?'L':'M'}${x(i)},${y(row.mean_percent)}`).join(' ')}" fill="none" stroke="#386eaf" stroke-width="3"/>`);
     rows.forEach((row,i)=> {
-      const title = `${label(row)}: ${format(row.mean_percent)}, ${row.rated_edge_count} rated father links`;
+      const title = `${label(row)}: ${format(row.mean_percent)}, ${row.rated_edge_count} rated graph father links`;
       svg.push(`<circle cx="${x(i)}" cy="${y(row.mean_percent)}" r="5" fill="#386eaf" stroke="#fffdf8" stroke-width="2" tabindex="0" aria-label="${esc(title)}"><title>${esc(title)}</title></circle>`);
       if (i===0 || i===rows.length-1) svg.push(`<text x="${x(i)}" y="${height-24}" text-anchor="${i===0?'start':'end'}">${esc(label(row))}</text>`);
     });
@@ -305,9 +311,9 @@
     const scope = fixed ? `Fixed baseline: the same ${number(data.history_baseline.population)} people through ${data.history_baseline.cutoff}` : `Historical cohort through ${cutoff}: people available at each snapshot`;
     byId('history-cohort').options[1].textContent = `Selected cohort · through ${cutoff}`;
     byId('history-scope').textContent = scope + '. Comparable confidence measurements use the current method; earlier classification changes are excluded.';
-    byId('history-note').textContent = (rows.length < 2 ? 'Only one dated snapshot is available for this cohort; its history starts here. Earlier cutoff measurements have not been reconstructed. ' : '') + 'Confidence coverage is the number of links at each confidence level divided by all working father–child links. Probable or stronger includes confident links. Missing measurements are gaps. Changes can include regrading existing fathers and publication repairs; they do not all represent newly connected families. These are not probabilities that an entire branch is correct.';
+    byId('history-note').textContent = (rows.length < 2 ? 'Only one dated snapshot is available for this cohort; its history starts here. Earlier cutoff measurements have not been reconstructed. ' : '') + 'Graph-link coverage is the number of links at each confidence level divided by all working graph father–child links. Probable or stronger includes confident links. Missing measurements are gaps. Changes can include regrading existing fathers and publication repairs; they do not all represent newly connected families. These are not probabilities that an entire branch is correct.';
     byId('history-table-caption').textContent = `${historyMetrics[metric]} · ${scope}`;
-    if (exactConfidence) byId('history-note').textContent = 'This averages exact confidence estimates across reviewed working father links, including uncertain fathers. Unreviewed links have no percentage. Changing which links are reviewed or selected can change the mean; compare review coverage too. This is a research assessment summary, not the probability that a branch or the whole tree is correct. Earlier unrecorded measurements remain gaps.';
+    if (exactConfidence) byId('history-note').textContent = 'This averages exact confidence estimates across reviewed working graph father links, including uncertain fathers. Unreviewed links have no percentage. Changing which links are reviewed or selected can change the mean; compare review coverage too. This is a research assessment summary, not the probability that a branch or the whole tree is correct. Earlier unrecorded measurements remain gaps.';
     byId('history-table-head').innerHTML = '<tr><th scope="col">Date</th>'+views.map(view => `<th scope="col">${esc(view.label)}</th>`).join('')+(exactConfidence?'<th scope="col">Individually rated</th><th scope="col">Review coverage</th>':'')+'</tr>';
     byId('history-table-body').innerHTML = rows.map(row => '<tr><th scope="row">'+esc(row.date)+'</th>'+views.map(view => {
       const value = historySeries([row], view.key, metric)[0].value;
@@ -323,7 +329,7 @@
       const change = percent ? Math.abs(delta).toFixed(decimals)+' percentage points' : number(Math.abs(delta));
       const coverage = exactConfidence ? rows.find(row => row.date === last.date)?.metrics.working?.individual_confidence : null;
       const total = coverage ? coverage.rated_edge_count + coverage.unrated_edge_count : 0;
-      const coverageText = coverage ? `<small>${number(coverage.rated_edge_count)} of ${number(total)} father links individually rated · ${coverage.rated_edges_percent.toFixed(1)}% coverage</small>` : '';
+      const coverageText = coverage ? `<small>${number(coverage.rated_edge_count)} of ${number(total)} graph father links individually rated · ${coverage.rated_edges_percent.toFixed(1)}% coverage</small>` : '';
       const before = points.length > 1 ? `<small>${esc(format(first.value))} → ${esc(format(last.value))} · ${esc(dateLabel(first.date))}–${esc(dateLabel(last.date))}</small>` : '';
       return `<div class="history-${exactConfidence?'supported':view.key}"><span>${esc(view.label)}</span><strong>${esc(format(last.value))}</strong><small>${points.length>1?`${delta>0?'+':delta<0?'−':''}${esc(change)} since ${esc(dateLabel(first.date))}`:`First snapshot · ${esc(dateLabel(last.date))}`}</small>${before}${coverageText}</div>`;
     }).join('');
@@ -368,6 +374,7 @@
     const values = [[number(summary.component_count),'separate paternal branches'],[number(summary.unattached_multi_child_roots.length),'unattached fathers with 2+ children'],[summary.largest_component_percent.toFixed(1)+'%','people in the largest branch'],[summary.connected_pairs_percent.toFixed(2)+'%','pairs connected through fathers']];
     byId('connectivity-stats').innerHTML = values.map(([value,label]) => `<div><strong>${esc(value)}</strong><span>${esc(label)}</span></div>`).join('');
     byId('cohort-detail').textContent = `${number(summary.population)} public surname bearers; ${number(summary.edge_count)} father–child links. All views use the same people.`;
+    byId('named-father-coverage').textContent = namedFatherCoverage(data.current_named_father_coverage?.cohorts?.[cutoff]);
     byId('link-view-note').textContent = data.views[view].description;
     byId('threshold-comparison').innerHTML = Object.keys(data.views).map(key => {
       const row = data.cohorts[cutoff][key], label = esc(data.views[key].label);

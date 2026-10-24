@@ -3,7 +3,7 @@ from pathlib import Path
 import subprocess
 import unittest
 
-from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes
+from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes, named_father_review_counts
 
 
 class IndividualFindingTests(unittest.TestCase):
@@ -152,6 +152,18 @@ process.stdout.write(JSON.stringify([f(rows,'change','fixed').length,f(rows,'all
         assertion = next(a for a in assessments if a['assertion_id'] == 'C-coverage-20261022c-glasgow-875-father')
         rows = self.rows(assertion['assessment_history'])
         self.assertEqual((rows[-1]['before_percent'], rows[-1]['after_percent']), (71, 95))
+
+
+class NamedFatherReviewCoverageTests(unittest.TestCase):
+    def test_external_named_fathers_count_without_changing_graph_metrics(self):
+        # The loader supplies retained selections before graph boundaries; no graph is needed.
+        retained = [dict(child='rated', father='outside', father_name='Named External', confidence_percent=83),
+                    dict(child='ungraded', father='missing', father_name='Named Missing'),
+                    dict(child='later', father='other', father_name='Named Later', confidence_percent=91),
+                    dict(child='anonymous', father='placeholder', father_name='Unknown Glasgow', confidence_percent=90)]
+        self.assertEqual(named_father_review_counts(['rated', 'ungraded', 'anonymous'], retained),
+                         dict(named_count=2, rated_count=1, unrated_count=1, coverage_percent=50.0))
+        self.assertEqual(named_father_review_counts([], retained)['coverage_percent'], None)
 
 
 if __name__ == '__main__':

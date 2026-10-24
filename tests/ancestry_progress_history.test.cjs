@@ -137,3 +137,10 @@ test('uncertainty daily comparisons preserve increases, missing grades and chang
   assert.deepEqual(rows.map(row=>row.uncertain),[20,25,null]);
   assert.equal(rows[1].percent,100*60/110);
 });
+
+
+test('current named-father coverage labels retained selections separately from graph history', () => {
+  const {namedFatherCoverage} = require('../tools/ancestry_progress.js');
+  assert.equal(namedFatherCoverage({named_count:1412,rated_count:1406,unrated_count:6,coverage_percent:100*1406/1412}), '1,406 of 1,412 retained named fathers individually rated; 6 ungraded. 99.6% coverage.');
+  assert.match(namedFatherCoverage({named_count:0,rated_count:0,unrated_count:0,coverage_percent:null}), /No retained named fathers/);
+});
