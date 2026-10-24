@@ -4,6 +4,10 @@
 
 ## Current conclusion
 
+**Chester family review,24 October 2026:** A newly inspected official deed index identifies Hugh Glasgow of Fawn, York County selling East & West Nottingham property to Timothy Currens in1799,H-3:253. This supplies an exact title-recital test for the retained John-2871 father 82%,not a kinship statement. The original volume is verified as portal Doc771593,Deed Book Vol.056H-3,but full images/print requested authentication;original clauses and scan offsets remain unread.
+
+### Earlier conclusions retained with the identity and father supersessions above
+
 Hugh’s existing father [John Glasgow-2871](/people/glasgow-2871.html) remains **probable at 82% (previously 94%)**. Matching locality and consecutive 80-acre tax entries favour the link, but Gibson’s actual p. 414 names neither parent and instead gives an unnamed father’s c1730 immigration and 1772 death. Those conflict with the selected John’s retained 1738/1792 chronology. The original surviving 1792 estate has not resolved the father question. In contrast, Gibson explicitly calls adult Cunningham R. Glasgow Hugh’s son: [Cunningham Ramsay-3742](/people/glasgow-3742.html)’s existing father assessment rises **83% → 97% confident**. No family attachment or vital date is replaced.
 
 ## Relationship assessment — newspaper identity review, 6 October 2026
@@ -41,3 +45,11 @@ Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the c
 [File 4225](https://portal.laserfiche.com/Portal/DocView.aspx?id=772936&page=247&repo=r-24f48cc6), East Nottingham, has an inventory dated **31 May 1792**, followed by its June oath. Portal p. 249 includes a debt against the estate of **John Glasgow, shoemaker, deceased**. The distinctive occupation, earlier death and nearby place make the 1789 uncle a probable identification of this deceased debtor; the debt does not prove the two Johns were related. The file’s replacement slip says the original administration bond is missing and directs the reader to **Administration Book 2, p. 386**. The next estate begins at portal p. 251. The surviving file does not supply a named Hugh heir.
 
 John-2871, whose death is recorded in 1792, is a compatible candidate for the 1792 estate, with an East/West Nottingham locality question still open. The 1789 uncle cannot be assigned to John-2870 (retained death 1769) or John-2871 (1792) without resolving those actual conflicts. No generic name match, estate office or debt is converted into a father relationship. The inventory and bond dates are not exact death dates.
+
+## Chester estate and deed-index comparison —24 October 2026
+
+A newly inspected official deed index identifies Hugh Glasgow of Fawn, York County selling East & West Nottingham property to Timothy Currens in1799,H-3:253. This supplies an exact title-recital test for the retained John-2871 father 82%,not a kinship statement. The original volume is verified as portal Doc771593,Deed Book Vol.056H-3,but full images/print requested authentication;original clauses and scan offsets remain unread.
+
+Visually inspected official index, PDF p.940, on 24 October 2026. Hugh Glasgow of Fawn, York County is indexed as 1799 grantor to Timothy Currens for East & West Nottingham property,H-3:253. Samuel’s West Fallowfield entries are 1804 purchase from John Sweeny,A-3:435; 1805 purchase from William Haslett,A-3:433; 1805 sale to Abraham Rackstraw,Y-2:391; and 1812 sale to James Haslett,K-3:394. Judith Heslett appears in the spouse column for the two sales, with et.al.; her maiden name and the original parties’ precise capacities are not established. The separate1804 East Fallowfield Samuel/Daniel Kent,Y-2:16, remains an unassigned namesake comparison. These are separate indexed transactions, not independent confirmations of parentage. Original deed clauses and image-page offsets remain unverified. H-3 was verified as Deed Book Vol.056,portal Doc771593; full images/print invoked HTTP authentication and were not read.
+
+[Official index](https://www.chesco.org/DocumentCenter/View/84215/E-G#page=940) · [Chester/Irish comparison](/branches/research-irish-moneymore/#chester-samuel-father).

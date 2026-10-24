@@ -1,0 +1,238 @@
+{
+  "reviewed": "2026-10-24",
+  "scope": "Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed.",
+  "basis": "Samuel-2872 is now identified with the 1824 West Fallowfield testator at 98% subjective confidence: his checked memorial names both wives Judith and Tabitha and the infant daughter Margaret Ellen, matching the original will. The newly inspected official deed index places Samuel in West Fallowfield and enters Judith Heslett in the spouse column in 1805 and 1812, with repeated Haslett dealings. These connect the already recorded Judith household to the later Tabitha estate. The will names the testator’s three brothers William, James and Robert Glasgow of Ireland; the anonymous Irish family recollection names those same three brothers with Samuel, who went to America, as children of James Glasgow and Margaret Rutherford. The distinctive sibling constellation and transatlantic division favour this particular Irish father over the current John reconstruction.",
+  "limitations": "The 98% testator identification does not prove his father. 67% is a combined subjective father-profile judgement, not a multiplication of independent probabilities. Repeated family names can occur in another generation. The memorial contributes a 1761 Pennsylvania birth and a John father attribution, but no underlying birth or Bible entry has been inspected. These remain substantive competing claims. The letter account’s estimated 1726 Samuel birth, Margaret Rutherford’s estimated 1700 birth and James’s supposed 1759 death are consequential conflicts if established; no date is adjusted to force the preferred route. The 1759 Drumcarn testator’s identification with James-1025 remains unproved. Samuel-1492 remains the separate letter-defined account, father 76%, with possible duplicate identity, not a proved second son or a merge. Mary Cranmer’s existing maternal attachment is not reassessed or transferred to Margaret Rutherford. The current Find a Grave family links and the compiled Bible narrative are claims, not inspected original parent entries. The deed originals remain unread; Judith Heslett is the index’s spouse-column wording, not an established maiden surname.",
+  "source_readings": {
+    "deed_index": "Visually inspected official index, PDF p.940, on 24 October 2026. Hugh Glasgow of Fawn, York County is indexed as 1799 grantor to Timothy Currens for East & West Nottingham property,H-3:253. Samuel’s West Fallowfield entries are 1804 purchase from John Sweeny,A-3:435; 1805 purchase from William Haslett,A-3:433; 1805 sale to Abraham Rackstraw,Y-2:391; and 1812 sale to James Haslett,K-3:394. Judith Heslett appears in the spouse column for the two sales, with et.al.; her maiden name and the original parties’ precise capacities are not established. The separate1804 East Fallowfield Samuel/Daniel Kent,Y-2:16, remains an unassigned namesake comparison. These are separate indexed transactions, not independent confirmations of parentage. Original deed clauses and image-page offsets remain unverified. H-3 was verified as Deed Book Vol.056,portal Doc771593; full images/print invoked HTTP authentication and were not read.",
+    "memorial": "Actual public memorial and all 3 photos viewed;photo1 church,photo2 coat of arms,photo3 weathered stone. No age numeral asserted.",
+    "will": "Previously inspected23October reading reused;not reread or relabelled new.",
+    "letter": "Previously inspected Faris p9 family recollection reused;one anonymous retrospective source tradition."
+  },
+  "relationship_changes": [
+    {
+      "subject": "Glasgow-2872",
+      "relationship": "father",
+      "before_relative": "Glasgow-2870",
+      "after_relative": "Glasgow-1025",
+      "before_status": "probable",
+      "before_percent": 72,
+      "after_status": "probable",
+      "after_percent": 67,
+      "old_father_alternative_percent": 25,
+      "new_attachment_to_previously_absent_father": false
+    }
+  ],
+  "profiles": {
+    "Glasgow-1025": {
+      "current_sha256": "ae18ebef2a6c2d00a79f021b6392427d7569271ec09ceeafa2b79ae318eccee4",
+      "proposed_sha256": "004dfce5f2d1a927039c16fcc12983e0bfe75551a9284d7b72c4ffd5e79935b7",
+      "prior_pending_draft_path": "data/private/irish-letter-parents-2026-10-24/Glasgow-1025.wiki",
+      "prior_pending_sha256": "f54844c6296ffcfbd72446ef3776435a8babf4bb44fd5761011f7029c9911ba5",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "data/private/chester-irish-family-2026-10-24/Glasgow-1025.wiki",
+      "private_comparison": true,
+      "retained": "All captured and prior pending source identities preserved; dated prior assessments retained as history."
+    },
+    "Glasgow-1492": {
+      "current_sha256": "46952f267f8f3416026f0d3bc74c64afa3c5bccea0fe9f0519fa83f724e7d854",
+      "proposed_sha256": "1a01bf81b541bcd40a259339bfebb931dfbf4f2aa85d8d663a4f240f27aa8adb",
+      "prior_pending_draft_path": "research/Glasgow-1492/irish-letter-parents-2026-10-24.wiki",
+      "prior_pending_sha256": "49d3b3729fea4d396ff4aafe70a858fff79725a624a6f8cab02a5601158999ec",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-1492/chester-irish-family-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "All captured and prior pending source identities preserved; dated prior assessments retained as history."
+    },
+    "Glasgow-2873": {
+      "current_sha256": "52deedfeb06a07de5817a2105179e85d0e58da92ebc203222bf9c3a82fc38d5f",
+      "proposed_sha256": "7366c602dd4b170a1f33fbef359d54b65f8bdfca449b25a1310ae88f74a3f4df",
+      "prior_pending_draft_path": "research/Glasgow-2873/father-confidence-2026-10-22b.wiki",
+      "prior_pending_sha256": "e621c2c2e0081d60e886ce5a5d2cc8aaa7be73ef9e375b059e9f204e3f13655d",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-2873/chester-irish-family-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "All captured and prior pending source identities preserved; dated prior assessments retained as history."
+    },
+    "Glasgow-2871": {
+      "current_sha256": "cf22c36ab5772210523211538ffda8b3c3f73c8234e3c05e53253b9c454822ca",
+      "proposed_sha256": "c0166d31c707550179b5fd9e29563a12d89a2819f91aba15ada90fa8dc6b1e9e",
+      "prior_pending_draft_path": "research/Glasgow-2871/father-confidence-2026-10-22b.wiki",
+      "prior_pending_sha256": "1dd8118272c27c74d10dcbc1a95f7111c6a5dee4b59e932e9ef1e9f6b9a796b9",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-2871/chester-irish-family-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "All captured and prior pending source identities preserved; dated prior assessments retained as history."
+    },
+    "Glasgow-2872": {
+      "current_sha256": "c4e330646bad621bdc3d7fa61051093807a8c51c7ff18415c838fa53e0c0e9b3",
+      "proposed_sha256": "ca7bdbcaa06af66e706972fa891c16bbbaae0839f1bf7c14b24a5621e0ce825b",
+      "prior_pending_draft_path": "research/Glasgow-2872/irish-letter-parents-2026-10-24.wiki",
+      "prior_pending_sha256": "df0c557360afb0bd3dfb3d483f92cecf844ef5286c8bdb9a30afb9fdd87cc98f",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-2872/chester-irish-family-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Agent and parent checked all captured and prior pending source identities; scoped historical claims preserved."
+    },
+    "Glasgow-2870": {
+      "current_sha256": "0664b15c6cf47b7043834bc18cfae979a3b2e4283260d5f36f7f54cc4a56356a",
+      "proposed_sha256": "f01a5d01eb0742cad0c59fa05c105331c7ad84961b26d24b0c9e88c0c707863b",
+      "prior_pending_draft_path": "research/Glasgow-2870/queue-review-2026-10-17.wiki",
+      "prior_pending_sha256": "7675b3e2bbe26761a4a9ae562c11adc9c36d707aaef70736de3746f3090c1b40",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-2870/chester-irish-family-2026-10-24.wiki",
+      "private_comparison": false,
+      "retained": "Agent and parent checked all captured and prior pending source identities; scoped historical claims preserved."
+    }
+  },
+  "verification": {
+    "three_tree_models_agree": true,
+    "tree_comparison_scope": "Selected through1850 working cohort and six batch subjects; main and packed payloads also equal in full",
+    "three_tree_models_and_public_dossiers_agree": true,
+    "retired_initial_old_father_coverage_rows": [
+      [
+        "C-coverage-20261022g-glasgow-2872-father",
+        "2026-10-22",
+        null,
+        72,
+        "first"
+      ]
+    ],
+    "latest_finding_path": "www/latest-findings/index.html",
+    "only_samuel_selected_father_changed": true,
+    "replacement_john72_to_james67_old_john25": true,
+    "replacement_structural_event_not_confidence_increase": true,
+    "prior_event_history_preserved": true,
+    "unknown_counts_and_mothers_vitals_unchanged": true,
+    "all_other_assessments_and_estimates_unchanged": true,
+    "metric_changes": {
+      "1500": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1550": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1600": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1650": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1700": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1750": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1800": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      },
+      "1850": {
+        "working": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "supported": {
+          "edge_delta": 0,
+          "component_delta": 0
+        },
+        "confident": {
+          "edge_delta": 0,
+          "component_delta": 0
+        }
+      }
+    },
+    "full_compact_replace67_badges_agree": true,
+    "six_complete_drafts_and_sources_preserved": true,
+    "private_1025_comparison_withheld": true,
+    "source_documents": [
+      "s-02fab86de4af3906",
+      "s-77ae4d9b78cf51cb"
+    ],
+    "http_routes_checked": 11,
+    "publication_new_failures": 0,
+    "link_new_failures": 0,
+    "stale_asset_references": 0,
+    "latest_archival_source_and_study_anchor_verified": true,
+    "live_published": false
+  },
+  "raw_capture_published": false,
+  "live_published": false
+}

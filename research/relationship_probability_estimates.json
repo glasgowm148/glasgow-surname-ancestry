@@ -20659,34 +20659,6 @@
       "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
     },
     {
-      "subject_id": "Glasgow-2872",
-      "relative_id": "Glasgow-2870",
-      "relationship": "father",
-      "percent": 72,
-      "assessment_status": "probable",
-      "assertion_id": "C-coverage-20261022g-glasgow-2872-father",
-      "basis": "Samuel’s Chester/Nottingham generation and burial fit the maintained John/Mary Cranmer adult family and its Bible locator. Neither the memorial citation nor the unquoted Bible exposes a parent clause in the supplied dossier.",
-      "source_ids": [
-        "held-e-8c262030e09f"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
-    },
-    {
-      "subject_id": "Glasgow-2870",
-      "relative_id": "Glasgow-2872",
-      "relationship": "child",
-      "percent": 72,
-      "assessment_status": "probable",
-      "assertion_id": "C-coverage-20261022g-glasgow-2872-father",
-      "basis": "Samuel’s Chester/Nottingham generation and burial fit the maintained John/Mary Cranmer adult family and its Bible locator. Neither the memorial citation nor the unquoted Bible exposes a parent clause in the supplied dossier.",
-      "source_ids": [
-        "held-e-8c262030e09f"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment."
-    },
-    {
       "subject_id": "Glasgow-768",
       "relative_id": "Glasgow-363",
       "relationship": "father",
@@ -40929,6 +40901,130 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+    },
+    {
+      "subject_id": "Glasgow-2872",
+      "relative_id": "Glasgow-2870",
+      "relationship": "father",
+      "percent": 25,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022g-glasgow-2872-father",
+      "basis": "John remains a viable25% uncertain father alternative. His specific Nottingham family, the memorial’s John parent link and the compiled family-Bible narrative are retained, but no inspected original Bible entry names Samuel as his son. The captured John narrative describes Mary and son John’s burials and also asserts Samuel as a son without quoting a literal entry. The newly connected West Fallowfield estate’s three specifically named brothers in Ireland provide stronger positive family evidence for the James-1025 route, with the generation and1761 Pennsylvania counterclaims still unresolved.",
+      "source_ids": [
+        "held-e-8c262030e09f",
+        "chesco-glasgow-deed-index-1799-1812",
+        "chester-samuel-glasgow-estate-7520-1824",
+        "moneymore-james-faris-family-attribution"
+      ],
+      "reviewed": "2026-10-24",
+      "scope": "Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed.",
+      "assessment_history": [
+        {
+          "assessment_date": "2026-10-22",
+          "status": "probable",
+          "probability_percent": 72,
+          "basis": "Samuel’s Chester/Nottingham generation and burial fit the maintained John/Mary Cranmer adult family and its Bible locator. Neither the memorial citation nor the unquoted Bible exposes a parent clause in the supplied dossier.",
+          "source_ids": [
+            "held-e-8c262030e09f"
+          ],
+          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.",
+          "relative_id": "Glasgow-2870",
+          "source_basis": "Saved prior pair assessment and public selected father before24October Chester reassessment."
+        }
+      ],
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Compared the actual memorial family, official deed index, previously read will and letter against the captured Bible narrative.",
+        "next_test": "Inspect the actual York family-Bible Samuel birth/parent entry and a secure burial-age transcription.",
+        "resume_when": "A literal original Bible entry, secure age, or title/kin recital becomes available."
+      }
+    },
+    {
+      "subject_id": "Glasgow-2870",
+      "relative_id": "Glasgow-2872",
+      "relationship": "child",
+      "percent": 25,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022g-glasgow-2872-father",
+      "basis": "John remains a viable25% uncertain father alternative. His specific Nottingham family, the memorial’s John parent link and the compiled family-Bible narrative are retained, but no inspected original Bible entry names Samuel as his son. The captured John narrative describes Mary and son John’s burials and also asserts Samuel as a son without quoting a literal entry. The newly connected West Fallowfield estate’s three specifically named brothers in Ireland provide stronger positive family evidence for the James-1025 route, with the generation and1761 Pennsylvania counterclaims still unresolved.",
+      "source_ids": [
+        "held-e-8c262030e09f",
+        "chesco-glasgow-deed-index-1799-1812",
+        "chester-samuel-glasgow-estate-7520-1824",
+        "moneymore-james-faris-family-attribution"
+      ],
+      "reviewed": "2026-10-24",
+      "scope": "Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed.",
+      "assessment_history": [
+        {
+          "assessment_date": "2026-10-22",
+          "status": "probable",
+          "probability_percent": 72,
+          "basis": "Samuel’s Chester/Nottingham generation and burial fit the maintained John/Mary Cranmer adult family and its Bible locator. Neither the memorial citation nor the unquoted Bible exposes a parent clause in the supplied dossier.",
+          "source_ids": [
+            "held-e-8c262030e09f"
+          ],
+          "scope": "Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.",
+          "relative_id": "Glasgow-2870",
+          "source_basis": "Saved prior pair assessment and public selected father before24October Chester reassessment."
+        }
+      ],
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Compared the actual memorial family, official deed index, previously read will and letter against the captured Bible narrative.",
+        "next_test": "Inspect the actual York family-Bible Samuel birth/parent entry and a secure burial-age transcription.",
+        "resume_when": "A literal original Bible entry, secure age, or title/kin recital becomes available."
+      }
+    },
+    {
+      "subject_id": "Glasgow-2872",
+      "relative_id": "Glasgow-1025",
+      "relationship": "father",
+      "assertion_id": "C-working-20261024-chester-samuel-james-father",
+      "percent": 67,
+      "assessment_status": "probable",
+      "reviewed": "2026-10-24",
+      "basis": "Samuel-2872 is now identified with the 1824 West Fallowfield testator at 98% subjective confidence: his checked memorial names both wives Judith and Tabitha and the infant daughter Margaret Ellen, matching the original will. The newly inspected official deed index places Samuel in West Fallowfield and enters Judith Heslett in the spouse column in 1805 and 1812, with repeated Haslett dealings. These connect the already recorded Judith household to the later Tabitha estate. The will names the testator’s three brothers William, James and Robert Glasgow of Ireland; the anonymous Irish family recollection names those same three brothers with Samuel, who went to America, as children of James Glasgow and Margaret Rutherford. The distinctive sibling constellation and transatlantic division favour this particular Irish father over the current John reconstruction. The 98% testator identification does not prove his father. 67% is a combined subjective father-profile judgement, not a multiplication of independent probabilities. Repeated family names can occur in another generation. The memorial contributes a 1761 Pennsylvania birth and a John father attribution, but no underlying birth or Bible entry has been inspected. These remain substantive competing claims. The letter account’s estimated 1726 Samuel birth, Margaret Rutherford’s estimated 1700 birth and James’s supposed 1759 death are consequential conflicts if established; no date is adjusted to force the preferred route. The 1759 Drumcarn testator’s identification with James-1025 remains unproved. Samuel-1492 remains the separate letter-defined account, father 76%, with possible duplicate identity, not a proved second son or a merge. Mary Cranmer’s existing maternal attachment is not reassessed or transferred to Margaret Rutherford. The current Find a Grave family links and the compiled Bible narrative are claims, not inspected original parent entries. The deed originals remain unread; Judith Heslett is the index’s spouse-column wording, not an established maiden surname.",
+      "source_ids": [
+        "held-e-8c262030e09f",
+        "chesco-glasgow-deed-index-1799-1812",
+        "chester-samuel-glasgow-estate-7520-1824",
+        "moneymore-james-faris-family-attribution"
+      ],
+      "scope": "Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed.",
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Compared the actual memorial family, official deed index, previously read will and letter against the captured Bible narrative.",
+        "next_test": "Inspect the actual York family-Bible Samuel birth/parent entry and a secure burial-age transcription.",
+        "resume_when": "A literal original Bible entry, secure age, or title/kin recital becomes available."
+      }
+    },
+    {
+      "subject_id": "Glasgow-1025",
+      "relative_id": "Glasgow-2872",
+      "relationship": "child",
+      "assertion_id": "C-working-20261024-chester-samuel-james-father",
+      "percent": 67,
+      "assessment_status": "probable",
+      "reviewed": "2026-10-24",
+      "basis": "Samuel-2872 is now identified with the 1824 West Fallowfield testator at 98% subjective confidence: his checked memorial names both wives Judith and Tabitha and the infant daughter Margaret Ellen, matching the original will. The newly inspected official deed index places Samuel in West Fallowfield and enters Judith Heslett in the spouse column in 1805 and 1812, with repeated Haslett dealings. These connect the already recorded Judith household to the later Tabitha estate. The will names the testator’s three brothers William, James and Robert Glasgow of Ireland; the anonymous Irish family recollection names those same three brothers with Samuel, who went to America, as children of James Glasgow and Margaret Rutherford. The distinctive sibling constellation and transatlantic division favour this particular Irish father over the current John reconstruction. The 98% testator identification does not prove his father. 67% is a combined subjective father-profile judgement, not a multiplication of independent probabilities. Repeated family names can occur in another generation. The memorial contributes a 1761 Pennsylvania birth and a John father attribution, but no underlying birth or Bible entry has been inspected. These remain substantive competing claims. The letter account’s estimated 1726 Samuel birth, Margaret Rutherford’s estimated 1700 birth and James’s supposed 1759 death are consequential conflicts if established; no date is adjusted to force the preferred route. The 1759 Drumcarn testator’s identification with James-1025 remains unproved. Samuel-1492 remains the separate letter-defined account, father 76%, with possible duplicate identity, not a proved second son or a merge. Mary Cranmer’s existing maternal attachment is not reassessed or transferred to Margaret Rutherford. The current Find a Grave family links and the compiled Bible narrative are claims, not inspected original parent entries. The deed originals remain unread; Judith Heslett is the index’s spouse-column wording, not an established maiden surname.",
+      "source_ids": [
+        "held-e-8c262030e09f",
+        "chesco-glasgow-deed-index-1799-1812",
+        "chester-samuel-glasgow-estate-7520-1824",
+        "moneymore-james-faris-family-attribution"
+      ],
+      "scope": "Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed.",
+      "research_state": {
+        "disposition": "awaiting_source",
+        "reviewed": "2026-10-24",
+        "last_test": "Compared the actual memorial family, official deed index, previously read will and letter against the captured Bible narrative.",
+        "next_test": "Inspect the actual York family-Bible Samuel birth/parent entry and a secure burial-age transcription.",
+        "resume_when": "A literal original Bible entry, secure age, or title/kin recital becomes available."
+      }
     }
   ]
 }

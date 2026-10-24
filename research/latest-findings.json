@@ -56637,6 +56637,78 @@
         "research/Glasgow-3314/findings.md",
         "research/findmypast-glasgow-audit/record-details-remaining-b.json"
       ]
+    },
+    {
+      "id": "chester-samuel-father-replacement-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Samuel Glasgow-2872’s Chester estate is identified;James Glasgow-1025 is the preferred replacement father,67% probable. John-2870 remains25% uncertain alternative,previously 72% probable.",
+      "qualification": "Samuel-2872 is now identified with the 1824 West Fallowfield testator at 98% subjective confidence: his checked memorial names both wives Judith and Tabitha and the infant daughter Margaret Ellen, matching the original will. The newly inspected official deed index places Samuel in West Fallowfield and enters Judith Heslett in the spouse column in 1805 and 1812, with repeated Haslett dealings. These connect the already recorded Judith household to the later Tabitha estate. The will names the testator’s three brothers William, James and Robert Glasgow of Ireland; the anonymous Irish family recollection names those same three brothers with Samuel, who went to America, as children of James Glasgow and Margaret Rutherford. The distinctive sibling constellation and transatlantic division favour this particular Irish father over the current John reconstruction. The 98% testator identification does not prove his father. 67% is a combined subjective father-profile judgement, not a multiplication of independent probabilities. Repeated family names can occur in another generation. The memorial contributes a 1761 Pennsylvania birth and a John father attribution, but no underlying birth or Bible entry has been inspected. These remain substantive competing claims. The letter account’s estimated 1726 Samuel birth, Margaret Rutherford’s estimated 1700 birth and James’s supposed 1759 death are consequential conflicts if established; no date is adjusted to force the preferred route. The 1759 Drumcarn testator’s identification with James-1025 remains unproved. Samuel-1492 remains the separate letter-defined account, father 76%, with possible duplicate identity, not a proved second son or a merge. Mary Cranmer’s existing maternal attachment is not reassessed or transferred to Margaret Rutherford. The current Find a Grave family links and the compiled Bible narrative are claims, not inspected original parent entries. The deed originals remain unread; Judith Heslett is the index’s spouse-column wording, not an established maiden surname.",
+      "people": [
+        {
+          "id": "Glasgow-2872",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-2872.html",
+          "role": "Father-family comparison"
+        },
+        {
+          "id": "Glasgow-1025",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1025.html",
+          "role": "Father-family comparison"
+        },
+        {
+          "id": "Glasgow-2870",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2870.html",
+          "role": "Father-family comparison"
+        },
+        {
+          "id": "Glasgow-1492",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-1492.html",
+          "role": "Father-family comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Official Chester deed index,PDFp940",
+          "url": "https://www.chesco.org/DocumentCenter/View/84215/E-G#page=940"
+        },
+        {
+          "title": "Samuel’s checked memorial,family details",
+          "url": "https://www.findagrave.com/memorial/75056130/samuel-glasgow"
+        },
+        {
+          "title": "Previously inspected original1824will",
+          "url": "https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6"
+        },
+        {
+          "title": "Faris p9,family recollection",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-J"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#chester-samuel-father",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2872",
+          "relative": "Glasgow-1025",
+          "previous_relative": "Glasgow-2870",
+          "action": "replace",
+          "before": "probable",
+          "after": "probable",
+          "previous_probability_percent": 72,
+          "probability_percent": 67,
+          "explanation": "Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed. Samuel-2872 is now identified with the 1824 West Fallowfield testator at 98% subjective confidence: his checked memorial names both wives Judith and Tabitha and the infant daughter Margaret Ellen, matching the original will. The newly inspected official deed index places Samuel in West Fallowfield and enters Judith Heslett in the spouse column in 1805 and 1812, with repeated Haslett dealings. These connect the already recorded Judith household to the later Tabitha estate. The will names the testator’s three brothers William, James and Robert Glasgow of Ireland; the anonymous Irish family recollection names those same three brothers with Samuel, who went to America, as children of James Glasgow and Margaret Rutherford. The distinctive sibling constellation and transatlantic division favour this particular Irish father over the current John reconstruction.",
+          "previous_status_provenance": "Before-batch selected father John-2870 at 72%,retained in assessment history and saved baseline;not an Unknown father."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/chester-irish-family-2026-10-24.json",
+        "research/Glasgow-2872/chester-irish-family-2026-10-24.md"
+      ]
     }
   ]
 }

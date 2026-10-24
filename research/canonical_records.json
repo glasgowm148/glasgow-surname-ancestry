@@ -3890,6 +3890,10 @@
       "Glasgow-1025": {
         "role": "Letter-defined father James/MargaretRutherford family role",
         "timeline_group": "Family recollection"
+      },
+      "Glasgow-2872": {
+        "role": "Preferred probable father-family connection through the letter’s named sibling constellation,67%;testator’s own father not named by the will",
+        "identification_status": "probable"
       }
     },
     "source_type": "Published compiled genealogy",
@@ -19219,18 +19223,20 @@
     "date": null,
     "place": null,
     "association": "https://www.findagrave.com/memorial/75056130/samuel_glasgow",
-    "source_title": "https://www.findagrave.com/memorial/75056130/samuel_glasgow",
-    "source_url": "https://www.findagrave.com/memorial/75056130/samuel_glasgow",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "source_title": "Find a Grave,Samuel Glasgow,memorial75056130,Manor Presbyterian Church Cemetery,Cochranville;family details and photograph checked24 October 2026",
+    "source_url": "https://www.findagrave.com/memorial/75056130/samuel-glasgow",
+    "source_type": "Contributor memorial and historical gravestone photograph",
+    "source_status": "Memorial family details checked24 October 2026;photo3,Theresa Ely11July2019,viewed;weathered age not securely read",
     "status": "Relationship and profile-identity scope stated in the individual assessment",
     "profiles": {
       "Glasgow-2872": {
         "role": "Previously cited subject; relationship scope in the father assessment"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review7-2026-10-22.json"
+    "note": "The memorial lists Judith1767–1812 and Tabitha Wallace Stewart1791–1871(m1823) as spouses and Margaret Ellen1824–1829 as child. Their distinctive match to the inspected1824 will supports identifying Samuel-2872 with the testator at 98%. The memorial’s1761 Pennsylvania birth and John father link remain contributor claims,not an inspected birth or Bible entry. Photo3 is a weathered Samuel Glasgow stone; no secure age reading is asserted. No vital field or Judith maiden name is changed.",
+    "provenance": "research/ancestry-connections/chester-irish-family-2026-10-24.json",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": false
   },
   {
     "record_id": "held-e-4fe9e855fa76",
@@ -31070,7 +31076,8 @@
     "reviewed": "2026-10-23",
     "profiles": {
       "Glasgow-2872": {
-        "role": "Compatible candidate for testator; identity unproved"
+        "role": "Testator identified with Samuel-2872,98%;father selection James-1025 probable67%,separately qualified",
+        "identification_status": "confident"
       },
       "Glasgow-45": {
         "role": "Unselected parent-search comparison; not named in the inspected estate"
@@ -31088,7 +31095,7 @@
     "country": "united states",
     "publish_to_record_index": true,
     "record_category": "Wills and probate",
-    "note": " Samuel-1492 is reviewed as the letter-defined emigrant son. The independently inspected 1824 West Fallowfield will names brothers William, James and Robert of Ireland, a distinctive match to that sibling set. This supports the family reconstruction while the testator’s profile identity remains open. Samuel-2872 is another compatible account, retained without merge or exclusion; its Pennsylvania birth and John/Mary Cranmer parentage need independent examination. The 76% is the complete father proposition for the letter-defined Samuel, not proof of his Gorteen identity or a new assessment of Samuel-2872. Original reading23October reused; no new inspection24October."
+    "note": " Samuel-1492 is reviewed as the letter-defined emigrant son. The independently inspected 1824 West Fallowfield will names brothers William, James and Robert of Ireland, a distinctive match to that sibling set. This supports the family reconstruction while the testator’s profile identity remains open. Samuel-2872 is another compatible account, retained without merge or exclusion; its Pennsylvania birth and John/Mary Cranmer parentage need independent examination. The 76% is the complete father proposition for the letter-defined Samuel, not proof of his Gorteen identity or a new assessment of Samuel-2872. Original reading23October reused; no new inspection24October. 24 October 2026: the checked memorial’s Judith,Tabitha and Margaret Ellen family now identifies the testator with Samuel-2872 at 98%; the earlier compatible-only wording is superseded. The father selection is independently inferred at 67%,not stated by the will. The 98% testator identification does not prove his father. 67% is a combined subjective father-profile judgement, not a multiplication of independent probabilities. Repeated family names can occur in another generation. The memorial contributes a 1761 Pennsylvania birth and a John father attribution, but no underlying birth or Bible entry has been inspected. These remain substantive competing claims. The letter account’s estimated 1726 Samuel birth, Margaret Rutherford’s estimated 1700 birth and James’s supposed 1759 death are consequential conflicts if established; no date is adjusted to force the preferred route. The 1759 Drumcarn testator’s identification with James-1025 remains unproved. Samuel-1492 remains the separate letter-defined account, father 76%, with possible duplicate identity, not a proved second son or a merge. Mary Cranmer’s existing maternal attachment is not reassessed or transferred to Margaret Rutherford. The current Find a Grave family links and the compiled Bible narrative are claims, not inspected original parent entries. The deed originals remain unread; Judith Heslett is the index’s spouse-column wording, not an established maiden surname."
   },
   {
     "record_id": "york-gibson-hugh-glasgow-1886-p414",
@@ -40363,5 +40370,39 @@
     "reviewed_on": "2026-10-23",
     "provenance": "research/Glasgow-1657/findings.md",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "chesco-glasgow-deed-index-1799-1812",
+    "record_type": "Official deed-book index page",
+    "record_category": "Land and property",
+    "date": "1799 and1804–1812, indexed transaction years",
+    "year": 1799,
+    "place": "Fawn,York County; East and West Nottingham; West Fallowfield,Chester County,Pennsylvania",
+    "country": "United States",
+    "association": "Hugh’s Nottingham sale and Samuel/Judith’s West Fallowfield property network; originals pending",
+    "source_title": "Chester County Archives,Deed Book Index1681–1871,E–G,PDFp940,Glasgow rows;H-3:253,A-3:435,A-3:433,Y-2:391,K-3:394",
+    "source_url": "https://www.chesco.org/DocumentCenter/View/84215/E-G#page=940",
+    "source_type": "Official archival index,original manuscript deeds uninspected",
+    "source_quality": "archival_index",
+    "source_status": "Actual index page visually inspected24 October 2026;manuscript deeds not inspected",
+    "status": "Indexed transactions verified;profile and kinship scope qualified",
+    "note": "Visually inspected official index, PDF p.940, on 24 October 2026. Hugh Glasgow of Fawn, York County is indexed as 1799 grantor to Timothy Currens for East & West Nottingham property,H-3:253. Samuel’s West Fallowfield entries are 1804 purchase from John Sweeny,A-3:435; 1805 purchase from William Haslett,A-3:433; 1805 sale to Abraham Rackstraw,Y-2:391; and 1812 sale to James Haslett,K-3:394. Judith Heslett appears in the spouse column for the two sales, with et.al.; her maiden name and the original parties’ precise capacities are not established. The separate1804 East Fallowfield Samuel/Daniel Kent,Y-2:16, remains an unassigned namesake comparison. These are separate indexed transactions, not independent confirmations of parentage. Original deed clauses and image-page offsets remain unverified. H-3 was verified as Deed Book Vol.056,portal Doc771593; full images/print invoked HTTP authentication and were not read.",
+    "reviewed_on": "2026-10-24",
+    "profiles": {
+      "Glasgow-2872": {
+        "role": "Preferred identification of Samuel in the Judith/West Fallowfield network"
+      },
+      "Glasgow-1492": {
+        "role": "Irish-family comparison;identity with the testator remains unresolved"
+      },
+      "Glasgow-2873": {
+        "role": "Compatible Fawn Hugh grantor;title/inheritance test,not a father statement"
+      },
+      "Glasgow-2871": {
+        "role": "Selected Hugh father research only;not named in the indexed Hugh row"
+      }
+    },
+    "publish_to_record_index": true,
+    "provenance": "research/ancestry-connections/chester-irish-family-2026-10-24.json"
   }
 ]

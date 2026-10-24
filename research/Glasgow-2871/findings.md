@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+**Chester family review,24 October 2026:** The exact next title test for Hugh’s existing 82% father hypothesis is the indexed1799 Hugh Glasgow/Fawn sale to Timothy Currens,East & West Nottingham,H-3:253. The index names no John or heir. The original volume is verified,but its full pages requested authentication and remain unread. Earlier probate negatives are not repeated.
+
+### Earlier conclusions retained with the identity and father supersessions above
+
 John remains the leading probable father of [Hugh Glasgow-2873](/people/glasgow-2873.html), now **82%**, reduced from 94% on original-page review. The consecutive 80-acre West Nottingham tax entries favour family succession but do not prove a conveyance or kinship. Gibson’s unnamed father died in 1772, conflicting with this profile’s retained 1792 death; Gibson does not name John or Mary Cranmer. The parents John-2870 and Mary Cranmer remain unproved. The 1792 East Nottingham estate is compatible; the distinct 1789 shoemaker estate supplies an uncle–nephew family whose exact profile identities remain open. All vital fields and attachments are retained.
 
 ## Identity assessment — 4 October 2026 review
@@ -183,3 +187,11 @@ Gibson’s inspected printed p. 414 explicitly calls Cunningham R. Glasgow the c
 [File 4225](https://portal.laserfiche.com/Portal/DocView.aspx?id=772936&page=247&repo=r-24f48cc6), East Nottingham, has an inventory dated **31 May 1792**, followed by its June oath. Portal p. 249 includes a debt against the estate of **John Glasgow, shoemaker, deceased**. The distinctive occupation, earlier death and nearby place make the 1789 uncle a probable identification of this deceased debtor; the debt does not prove the two Johns were related. The file’s replacement slip says the original administration bond is missing and directs the reader to **Administration Book 2, p. 386**. The next estate begins at portal p. 251. The surviving file does not supply a named Hugh heir.
 
 John-2871, whose death is recorded in 1792, is a compatible candidate for the 1792 estate, with an East/West Nottingham locality question still open. The 1789 uncle cannot be assigned to John-2870 (retained death 1769) or John-2871 (1792) without resolving those actual conflicts. No generic name match, estate office or debt is converted into a father relationship. The inventory and bond dates are not exact death dates.
+
+## Chester estate and deed-index comparison —24 October 2026
+
+The exact next title test for Hugh’s existing 82% father hypothesis is the indexed1799 Hugh Glasgow/Fawn sale to Timothy Currens,East & West Nottingham,H-3:253. The index names no John or heir. The original volume is verified,but its full pages requested authentication and remain unread. Earlier probate negatives are not repeated.
+
+Visually inspected official index, PDF p.940, on 24 October 2026. Hugh Glasgow of Fawn, York County is indexed as 1799 grantor to Timothy Currens for East & West Nottingham property,H-3:253. Samuel’s West Fallowfield entries are 1804 purchase from John Sweeny,A-3:435; 1805 purchase from William Haslett,A-3:433; 1805 sale to Abraham Rackstraw,Y-2:391; and 1812 sale to James Haslett,K-3:394. Judith Heslett appears in the spouse column for the two sales, with et.al.; her maiden name and the original parties’ precise capacities are not established. The separate1804 East Fallowfield Samuel/Daniel Kent,Y-2:16, remains an unassigned namesake comparison. These are separate indexed transactions, not independent confirmations of parentage. Original deed clauses and image-page offsets remain unverified. H-3 was verified as Deed Book Vol.056,portal Doc771593; full images/print invoked HTTP authentication and were not read.
+
+[Official index](https://www.chesco.org/DocumentCenter/View/84215/E-G#page=940) · [Chester/Irish comparison](/branches/research-irish-moneymore/#chester-samuel-father).

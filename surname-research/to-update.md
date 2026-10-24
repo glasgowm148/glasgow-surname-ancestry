@@ -4193,3 +4193,14 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2426) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Reconcile four probable Irish father roles with the explicit family letter; no American-emigrant or Scottish-parent upgrade. |
 | [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2872) | OPEN | Retain rival Samuel identity and John father72%; add Irish-letter family comparison. |
+
+### Chester Samuel father reconstruction —24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-2872) | OPEN | Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2870) | OPEN | Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1025) | OPEN | Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed. |
+| [Samuel Glasgow](https://www.wikitree.com/wiki/Glasgow-1492) | OPEN | Preferred replacement father James Glasgow-1025, 67% probable, for Samuel Glasgow-2872; John Glasgow-2870 retained as an unselected 25% uncertain alternative, previously 72% probable. No mother, vital date, person merge or live attachment is changed. |
+| [Hugh Glasgow](https://www.wikitree.com/wiki/Glasgow-2873) | OPEN | Add indexed1799Hugh sale,H-3:253,as exact title test;father82% unchanged. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2871) | OPEN | Add indexed1799Hugh sale,H-3:253,as exact title test;father82% unchanged. |

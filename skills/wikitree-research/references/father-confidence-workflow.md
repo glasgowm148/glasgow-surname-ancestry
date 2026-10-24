@@ -48,11 +48,15 @@ Reuse assertion, person, draft and source IDs:
 
 Review complete drafts and preservation hashes together. A stale hash requires comparing the exact reviewed/effective texts, checking new evidence, preserving sources and accounting for superseded passages. Never merely refresh a digest to bypass the check.
 
+For a replacement father, set `working_parent_replacement` with the previous parent and retained alternative assertion; mark that assertion `lifecycle: alternative`. Preserve the previous father ID, grade and sources in `provenance.prior_assessment`. Do not reuse his percentage as a past rating of the new pair.
+
 ## Synchronise and measure
 
 Follow `docs/website-research-sync.md`. Use the relevant existing builders, not a full rebuild by default. New opted-in sources use `tools/ingest_canonical_records.py`; reviewed overlays use `tools/publish_resolved_dossiers.py`; targeted accounts use `tools/sync_catalogue_research.py --write <IDs>`. Refresh the actual main Whole tree, its packed payload and standalone model, `tools/build_ancestry_progress.py`, Latest findings and any affected search/navigation/sitemap surfaces. Resolve stale asset references when needed; do not run expensive unrelated repairs by rote.
 
 Batch shared publication under one orchestrator and reuse the read-only source cache within each sync/repair invocation. Complete section builders and backlinks before the final required person render. Do not delete preliminary legacy/diff handling or skip resolved-parentage publication without verifying the affected contract; avoid extra repair/finalization passes merely as a precaution. Verify the new finding IDs in the rendered log and reviewed record IDs in the actual full/compact indexes: later record generators or concurrent snapshot-based publishers can overwrite an otherwise successful build. Replay only affected publication steps after those writers finish. Final content hashes must reflect dependencies' final bytes, with a zero-stale check, rather than relying on a fixed number of blind whole-site passes.
+
+Resolve replacement parents before building the trees. Otherwise the tree builder can restore the former father from a stale current dossier. Verify the selected father set in all three models before the final asset stamp; the old father belongs only among alternatives.
 
 Check actual catalogue filter membership and full/compact agreement, complete drafts, reciprocal relationships, source qualifications, tree selections and preserved vitals. Run the required scoped publication check and `make check-links`. Verify local routes and relevant rendered behavior; report a genuine browser blocker honestly. Reuse the local server, starting it only if absent. Local synchronisation is separate from deployment or live WikiTree saves.
 
