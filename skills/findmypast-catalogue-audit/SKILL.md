@@ -27,6 +27,8 @@ Use the [project research skill](../wikitree-research/SKILL.md) for identity, ev
 
 ## Work and resource ownership
 
+When using Mac MCP `browser_do` to navigate an existing tab, set `new_tab=false` explicitly: supplying `tab_handle` alone can still open another tab. Check the returned handle/native tab ID against the owned tab, and reconcile the inventory immediately after a mismatch.
+
 One parent owns browser interaction and PDF/browser rendering, sequentially. Reuse one existing browser/profile, one automation window/session and one temporary working tab. Set a session name once; changing it can create another window. Save each receipt before navigation. Follow the project research skill's RAM/lifecycle rule and AGENTS.md checkpoints; never clear the user's tabs or shared processes.
 
 Delegate bounded file/search/API comparisons to native workers when useful. Tell every worker that browser launches and rendering are parent-owned. Give non-overlapping file ownership, request short source-backed handoffs, reuse workers and keep shared catalogue JSON, builds, staging and commits with the parent. Do not create extra browser sessions to satisfy a request for maximum agents. Keep the existing RAM and browser lifecycle rules: reuse owned resources, inventory at checkpoints and release only task-owned resources.

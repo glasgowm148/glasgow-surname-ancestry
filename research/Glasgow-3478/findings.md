@@ -7,6 +7,8 @@ Current father assessment (22 October 2026): **86% (probable)** for [Glasgow-247
 <!-- site-audit-2026-10-07:overall-conclusion -->
 John Glasgow was baptised at Irvine, Ayrshire, on 5 October 1738, the son of Robert Glasgow and Mary Borland, according to a Findmypast transcript of the parish register; the transcript gives his birth as 4 September 1738, while the profile keeps 4 October, marked uncertain, until the original register is checked. His father is attached as Robert Glasgow (Glasgow-2474), baptised at Irvine in 1716, an identification that is a reasonable same-town, age-compatible inference rather than proof. A separate entry for a John baptised to the same parents on 10 October 1736 is unresolved: the originals must show whether there were two sons or an index error.
 
+Follow-up, 24 October 2026: New 1736/1738 companion indexes preserve the birth-month and child-identity questions. The suggestion that an earlier son died young is unproved and withdrawn from the complete draft.
+
 ## Current conclusion — father-profile merge, 27 September 2026
 
 The attached father is now [Robert Glasgow (Glasgow-2474)](https://www.wikitree.com/wiki/Glasgow-2474), following the merge of Glasgow-3479 into the documented 1716 Irvine baptism profile. Robert and Mary Borland are named in the 1738 baptism index; the identification of that adult Robert with the 1716 child is a reasonable same-town, age-compatible inference. The separate 1736 John entry remains unresolved despite Glasgow-4118 already redirecting to this profile.
@@ -61,3 +63,14 @@ Next useful test: Compare both original John entries and Robert/Mary’s marriag
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 05 Oct 1738, record SCOT/OPR/BAP/3574782](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782&tab=this)
+
+<!-- BEGIN FMP-QUERYGAP4-20261024 -->
+## Saved baptism-index comparison —24 October 2026
+
+| [Findmypast R_685315512](https://www.findmypast.co.uk/transcript?id=R_685315512&tab=this) | John Glasgow, baptised 10 October 1736 at Irvine; birth year 1736; Robert Glasgow and Mary Borland | Newly saved derivative transcript matches the already-held 1736 transcript SCOT/OPR/BAP/3574593; same indexed event, not independent original-register evidence. Its person-level relation to Glasgow-3478 remains unresolved. |
+| [Findmypast R_685314427](https://www.findmypast.co.uk/transcript?id=R_685314427&tab=this) | John Glasgow, baptised 5 October 1738 at Irvine; birth year 1738; Robert Glasgow and Mary Borland | Newly saved derivative transcript matches the already-associated 1738 event SCOT/OPR/BAP/3574782; it gives no exact birth date and does not settle the transcript's 4 September versus retained 4 October birth-month conflict. |
+
+Both new records are derivative transcripts saved 24 October 2026; the original OPR entries have not been inspected. They add provider-level source reports, not new occurrences or independent original evidence. Preserve the current profile birth field (4 October 1738, uncertain), father assessment for Glasgow-2474 (86% probable), and unassessed mother link Borland-1479.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-QUERYGAP4-20261024 -->

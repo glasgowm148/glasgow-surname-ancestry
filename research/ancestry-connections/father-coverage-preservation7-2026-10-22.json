@@ -184,15 +184,29 @@
     },
     "Glasgow-3478": {
       "current_sha256": "a72f7589facd76e0ffaa8df19fb54b0d04efeb173a514b4f838c5224bbc8b923",
-      "proposed_sha256": "3db475fca4964aab08433d3b27a0746b68832a15ed35e8e69961a5e94f5a93af",
-      "previous_proposed_sha256": "a72f7589facd76e0ffaa8df19fb54b0d04efeb173a514b4f838c5224bbc8b923",
+      "proposed_sha256": "44b49460465418109077263239cfc67851abc6130048959bae7c1764ba10bd5d",
+      "previous_proposed_sha256": "3db475fca4964aab08433d3b27a0746b68832a15ed35e8e69961a5e94f5a93af",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3478.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3478/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. All prior source identities retained; new derivative date conflicts remain unresolved. Unsupported earlier-child death hypothesis withdrawn where present; no vital or relationship changes.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "2c92fed353eccba07cd24b8208a85e3874db56e8:research/Glasgow-3478/father-confidence-2026-10-22g.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "'''John Glasgow''' was baptised at Irvine, Ayrshire, on 5 October 1738. His birth is given as 4 October 1738 in the MyHeritage-based account and as 4 September 1738 in the Findmypast transcript; the original register is needed to settle the month.<ref name=\"FMP1738\">Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782&tab=this SCOT/OPR/BAP/3574782], OPR 595/1: John Glasgow, birth 4 September 1738, baptism 5 October 1738, father Rot Glasgow, mother Mary Borland; transcript captured 3 September 2026.</ref> The register names his parents as Robert Glasgow and Mary Borland.<ref>MyHeritage, ''Scotland, Births and Baptisms, 1564–1950'', [https://www.myheritage.com/research/record-30226-305754/john-glasgow-in-scotland-births-baptisms record for John Glasgow], film 1041383.</ref>\n\nA separate index entry of 10 October 1736 again names Robt Glasgow and Mary Borland as the parents of a John Glasgow at Irvine.<ref name=\"FMP1\" /> The 1736 entry therefore probably records an earlier son of the same name who died young rather than this John, and the two entries should not be read as one child.",
+          "after": "'''John Glasgow''' was baptised at Irvine, Ayrshire, on 5 October 1738. Findmypast's held transcript (SCOT/OPR/BAP/3574782) reports a birth date of 4 September 1738; the MyHeritage-based biography reports 4 October.<ref>MyHeritage, ''Scotland, Births and Baptisms, 1564–1950'', [https://www.myheritage.com/research/record-30226-305754/john-glasgow-in-scotland-births-baptisms record for John Glasgow], film 1041383.</ref> The current profile retains 4 October as uncertain pending comparison with the original register. A second Findmypast derivative transcript, R_685314427, confirms the 5 October baptism and named parents but supplies no exact birth date. The source names Rot Glasgow and Mary Borland. Glasgow-2474 remains the selected father at 86% probable; that profile identification is an inference from the recorded adult-father evidence and compatible local chronology. Borland-1479 remains an unassessed tree-only mother link.<ref name=\"FMP1738\">Findmypast, ''Scotland, Parish Births & Baptisms 1564–1929'', [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782&tab=this SCOT/OPR/BAP/3574782], OPR 595/1: John Glasgow, birth 4 September 1738, baptism 5 October 1738, father Rot Glasgow, mother Mary Borland; transcript captured 3 September 2026.</ref><ref name=\"FMP1738R\">[https://www.findmypast.co.uk/transcript?id=R_685314427&tab=this Findmypast transcript R_685314427], John Glasgow, baptism 5 October 1738 at Irvine; indexed birth year 1738; parents Robert Glasgow and Mary Borland; saved 24 October 2026. This derivative gives no exact birth date; original register not inspected.</ref>\n\nA separate indexed baptism entry for John Glasgow on 10 October 1736 at Irvine names Robert Glasgow and Mary Borland. It is a distinct recorded event from the 1738 baptism, but the surviving derivatives do not determine whether it represents an earlier same-name child or an indexing/transcription problem. The newly saved Findmypast transcript R_685315512 matches the held 1736 transcript SCOT/OPR/BAP/3574593; it is another derivative report of that event, not independent register evidence.<ref name=\"FMP1736R\">[https://www.findmypast.co.uk/transcript?id=R_685315512&tab=this Findmypast transcript R_685315512], John Glasgow, baptism 10 October 1736 at Irvine; indexed birth year 1736; parents Robert Glasgow and Mary Borland; saved 24 October 2026. Original register not inspected.</ref> Do not treat the 1736 entry as this profile's baptism, a second proven child, or evidence of a death.",
+          "reason": "Qualify inherited exact dates and adult identities; withdraw unsupported earlier-child death hypothesis, retain all prior sources."
+        },
+        {
+          "before": "Both entries carry the same parent names; until the register image is compared, the 1736 entry is kept here as a caution against conflating two same-name siblings.",
+          "after": "The entries name the same parental couple but represent separate recorded baptism dates. Their person-level relationship remains unresolved until the original OPR entries are compared; neither successive children nor an indexing error is established.",
+          "reason": "Do not infer successive siblings from competing indexes."
+        }
+      ]
     },
     "Glasgow-1320": {
       "current_sha256": "577bf90bd6dc96cc5cb59eaa8d0320054a7856c01e98371c6a2e618f12db25a2",

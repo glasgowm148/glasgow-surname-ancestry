@@ -7,6 +7,8 @@ Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1075]
 
 John’s 29 March 1731 Puddockholm entry explicitly names Robert Glasgow, Surgeon, and Margarat Allan. Place, trade and wife identify Robert-1075 despite the 1730 year in the older citation/field.
 
+Follow-up, 24 October 2026: Another derivative reports 29 March 1730; the 1730/1731 year conflict remains unresolved. No birth or parent-grade change.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-27f929774fdc
 
 The transcript-validated baptism record for **John Glasgow**, 29 Mar 1731, Kilbirnie, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -25,7 +27,7 @@ Add the record as supporting evidence while preserving all existing sources and 
 <!-- repo-integration-audit-2026-10-07:L03c-008 -->
 ## Unresolved — baptism year 1730 or 1731, 6 September 2026
 
-Findmypast's transcript of John's baptism ([SCOT/OPR/BAP/3586582](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586582&tab=this); OPR 596/1, Kilbirnie, page 79) gives **29 March 1731**, son of Robert Glasgow, surgeon, and Margaret Allan, at Puddockholm. The profile gives **29 March 1730**. The only citation for 1730 found in this repository is the FamilySearch index *Scotland Births and Baptisms, 1564–1950* ([XY24-V6J](https://familysearch.org/ark:/61903/1:1:XY24-V6J), "John Glasgow, 1730"), as captured from the WikiTree biography. Both dates are therefore index readings.
+The held Findmypast transcript of John's Kilbirnie baptism ([SCOT/OPR/BAP/3586582](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586582&tab=this); OPR 596/1, page 79) reports **29 March 1731**, naming Robert Glasgow, surgeon, and Margarat Allan at Puddockholm. FamilySearch ([XY24-V6J](https://familysearch.org/ark:/61903/1:1:XY24-V6J), "John Glasgow, 1730") reports 1730. A newly saved Findmypast derivative transcript, [R_688617368](https://www.findmypast.co.uk/transcript?id=R_688617368&tab=this), also reports baptism on **29 March 1730** at Kilbirnie, naming Robert Glasgow and Margarat Allan. The two Findmypast transcripts and FamilySearch therefore preserve competing 1730 and 1731 year readings for the same named day, parish, and parents. No original register has been inspected, so the transcript agreement with FamilySearch does not settle the register year or determine whether this is one event with an indexing discrepancy. The current public birth field remains the uncertain bound before 29 March 1730; neither derivative supplies an exact birth date. The father assessment remains scoped to Glasgow-1075 as the recorded surgeon father; Allan-4046 remains an unassessed tree-only mother link.
 
 The Findmypast audit of 6 September 2026 first held the row: same parents, parish and day a year apart, which "may be a year error or a reused child name". A later override assigned the row to this profile, treating 1730 as "the sourced 1730 original-register date" and ruling that it must not create a second John. No original-register citation or reading for 1730 is recorded in the repository, so the year is not settled and both dates are kept here as a conflict. Scotland began the year on 1 January from 1600, so the difference is not an Old Style/New Style effect.
 
@@ -56,3 +58,11 @@ Next useful test: Compare FamilySearch XY24-V6J with OPR596/1 p79 and original c
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: John Glasgow, 29 Mar 1731, record SCOT/OPR/BAP/3586582](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586582&tab=this)
+
+<!-- BEGIN FMP-QUERYGAP4-20261024 -->
+## Saved baptism-index comparison —24 October 2026
+
+- [Findmypast R_688617368](https://www.findmypast.co.uk/transcript?id=R_688617368&tab=this): John Glasgow; birth year 1730; baptism 29 Mar 1730, Kilbirnie, Ayrshire; father Robert Glasgow; mother Margarat Allan. Saved derivative transcript captured 24 October 2026; original register not inspected.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-QUERYGAP4-20261024 -->

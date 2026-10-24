@@ -42970,5 +42970,100 @@
         "href": "https://www.wikitree.com/wiki/Glasgow-4177"
       }
     ]
+  },
+  {
+    "record_id": "fmp-record-r-688617368",
+    "provider_record_id": "R_688617368",
+    "association": "John Glasgow — Kilbirnie baptism index, 29 Mar 1730",
+    "person": "John Glasgow",
+    "event_role": "baptism transcript",
+    "date": "29 Mar 1730",
+    "year": 1730,
+    "place": "Kilbirnie, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_688617368&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow, 29 Mar 1730",
+    "status": "Inspected derivative transcript; existing_person_qualified_conflict",
+    "source_quality": "provider_derivative",
+    "note": "A newly saved Findmypast derivative transcript, R_688617368, reports John Glasgow baptized 29 March 1730 at Kilbirnie to Robert Glasgow and Margarat Allan. This agrees with the year in the FamilySearch index but conflicts with the existing Findmypast OPR 596/1 transcript, which reports 29 March 1731 and adds surgeon/residence details. Neither derivative has been checked against the original register, so retain both year readings as unresolved; the shared day, parish, and parents support treating these as competing reports for the already-assigned Glasgow-3006 event, not grounds to create another John. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+    "profiles": {
+      "Glasgow-3006": {
+        "role": "Existing person: competing 1730/1731 derivative baptism reading; year unresolved, vital and parent grades unchanged.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688617368",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685315512",
+    "provider_record_id": "R_685315512",
+    "association": "John Glasgow — Irvine baptism index, 10 Oct 1736",
+    "person": "John Glasgow",
+    "event_role": "baptism transcript",
+    "date": "10 Oct 1736",
+    "year": 1736,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685315512&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow, 10 Oct 1736",
+    "status": "Inspected derivative transcript; source_only_identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "The 10 October 1736 Irvine baptism of John, Robert Glasgow and Mary Borland matches the held SCOT/OPR/BAP/3574593 report. Its person-level relationship to the John of 1738 (Glasgow-3478) remains unresolved: successive children, an earlier death and an indexing error are not established. Keep this source-only; the compatible existing-person comparison is not an assignment or a concrete exclusion. No new person is proposed. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685315512",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685314427",
+    "provider_record_id": "R_685314427",
+    "association": "John Glasgow — Irvine baptism index, 05 Oct 1738",
+    "person": "John Glasgow",
+    "event_role": "baptism transcript",
+    "date": "05 Oct 1738",
+    "year": 1738,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685314427&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow, 05 Oct 1738",
+    "status": "Inspected derivative transcript; existing_event_confirmation",
+    "source_quality": "provider_derivative",
+    "note": "The 5 October 1738 Irvine baptism names John, Robert Glasgow and Mary Borland and matches the event already associated with Glasgow-3478. This derivative supplies only birth year 1738, not an exact birth date; it does not settle the held 4 September versus 4 October birth conflict. Father Glasgow-2474 stays 86% probable; mother Borland-1479 remains unassessed. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+    "profiles": {
+      "Glasgow-3478": {
+        "role": "Existing 1738 baptism subject; birth-month conflict unresolved, father 86%, mother unassessed.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314427",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-r-685314540",
+    "provider_record_id": "R_685314540",
+    "association": "John Glasgow — Irvine baptism index, 30 Mar 1740",
+    "person": "John Glasgow",
+    "event_role": "baptism transcript",
+    "date": "30 Mar 1740",
+    "year": 1740,
+    "place": "Irvine, Ayrshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685314540&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow, 30 Mar 1740",
+    "status": "Inspected derivative transcript; existing_person_qualified_conflict",
+    "source_quality": "provider_derivative",
+    "note": "The new index shares child, parent pair, parish and year with Glasgow-3314 and is suitable as a qualified source comparison for the existing person. Its 30 March baptism could fit a 28 March date, but it does not explicitly identify that date as birth. The April transcript expressly reports a 20 April birth and 30 April baptism. Their 30 March/30 April baptism months conflict; do not silently normalize the month, merge source events as certain, create a second child, or change the vital/parent grade without original OPR review. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+    "profiles": {
+      "Glasgow-3314": {
+        "role": "Candidate comparison to existing subject: names, parent pair, Irvine and year agree; March/April baptism conflict remains unresolved, no exact birth inferred.",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314540",
+    "reviewed_on": "2026-10-24",
+    "publish_to_record_index": true
   }
 ]

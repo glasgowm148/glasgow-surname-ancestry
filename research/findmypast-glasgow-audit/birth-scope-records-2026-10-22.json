@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 482,
+    "inspected_transcripts": 486,
     "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
@@ -346,7 +346,10 @@
       "R_685314994",
       "R_684956583",
       "R_686209974",
-      "R_691906011"
+      "R_691906011",
+      "R_688617368",
+      "R_685314427",
+      "R_685314540"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -492,10 +495,11 @@
       "R_691902719",
       "R_693603370",
       "R_690037131",
-      "GBPRS/LOTHIAN/SGS/BUR/032213"
+      "GBPRS/LOTHIAN/SGS/BUR/032213",
+      "R_685315512"
     ],
     "next_query_page": 20,
-    "integration_scope": "482literal ledger receipts indexed:338qualified profile-context,144source-only. Nineteen supporting receipts remain at original pointers:18newly integrated earlier and one pre-existing minister source now correctly recognized (501audited indexed union). The56-ID saved-record follow-up added0new records/people/fact groups and retained55HOLDs; existing source identity/alias repaired. Overall INCOMPLETE.",
+    "integration_scope": "486literal receipts indexed:341qualified profile-context and145source-only. Nineteen supporting indexed receipts remain at original pointers:505audited indexed provider IDs. Four newly captured derivative reports concern previously held events; one new baptism-month conflict is documented, zero newly identified historical events/people/vital or relationship changes. Local source/person/study/latest/backlink/sitemap/search synchronization verified; no live deployment. Overall INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -978,37 +982,41 @@
       "R_685314994",
       "R_684956583",
       "R_686209974",
-      "R_691906011"
+      "R_691906011",
+      "R_688617368",
+      "R_685315512",
+      "R_685314427",
+      "R_685314540"
     ],
-    "records_with_profile_or_draft_context": 338,
+    "records_with_profile_or_draft_context": 341,
     "remaining_coverage": [
-      "Pages20–294 nominal of current1719–1799 birth-filtered BMD query;26 saved detail gaps on pages20–21, then capture page22; provider caps may require partitioning",
+      "Pages20–294 nominal of current1719–1799 birth-filtered BMD query;22saved detail gaps on pages20–21, nextR_686310853, then capturepage22; provider caps may require partitioning",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
       "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-cache-screen56-20261024-verification.json",
+    "verification_report": "output/findmypast-querygap4-20261024-verification.json",
     "verified_on": "2026-10-24",
-    "indexed_provider_record_count": 482,
-    "next_action": "Resume saved page20 query frontier at R_688617368 (John1730), after exact-ID preflight. Twenty-six saved detail gaps remain on pages20–21; next uncaptured searchpage22of294. The56saved detailed/OPR leads have been checked; retain55HOLDs and do not repeat them without a discriminating new source or household bridge. Check source-library and secondary URLs before treating an ID as missing.",
-    "recent_query_transcripts": 347,
+    "indexed_provider_record_count": 486,
+    "next_action": "Resume saved page20 at R_686310853 then R_694113519, Mid Calder John1750, after exact-ID preflight. Twenty-two saved detail gaps remain across pages20–21; next uncaptured searchpage22of294. Preserve the reviewed year/month and1736child identity HOLDs; do not refetch unchanged accessible fields.",
+    "recent_query_transcripts": 351,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 394,
-    "capture_ledger_note": "482literal saved/indexed derivative receipts, plus19supporting provider IDs at original pointers. The19include one existing source-library entry corrected from an apparent inventory gap, not a new record.",
-    "capture_count_basis": "501audited indexed provider IDs in the literal-ledger-plus-support scope. Separate current7-file source-aware inventory:811accessible IDs,718represented,93unindexed; neither denominator counts eligible people.",
+    "recent_query_rows_reviewed": 398,
+    "capture_ledger_note": "486literal saved/indexed derivative transcript receipts plus19supporting provider IDs at original pointers. Four new provider captures do not mean four new historical events or people.",
+    "capture_count_basis": "505audited indexed provider IDs in the literal-ledger-plus-support scope. Current7-file source-aware inventory:815accessible IDs,722represented,93unindexed; neither denominator counts eligible people.",
     "recent_query_receipt_reuses": 41,
     "recent_query_existing_index_reuses": 1,
     "recent_query_access_holds": 5,
     "next_search_page_to_capture": 22,
     "recent_query_rows_captured": 420,
-    "contiguous_query_rows_reviewed": 390,
-    "recent_query_detail_gaps": 26,
+    "contiguous_query_rows_reviewed": 397,
+    "recent_query_detail_gaps": 22,
     "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 19,
-    "total_indexed_reviewed_provider_ids": 501
+    "total_indexed_reviewed_provider_ids": 505
   },
   "search_pages": [
     {
@@ -5795,7 +5803,7 @@
       ],
       "captured_rows": 20,
       "captured_at": "2026-10-23T23:01:17.504Z",
-      "review_status": "Partially reviewed; continue at R_686209974",
+      "review_status": "Partially reviewed; continue at R_686310853",
       "reviewed_cached_rows": [
         "R_693242590",
         "R_693242591",
@@ -5805,18 +5813,18 @@
         "R_685314994",
         "SCOT/OPR/BAP/3626585",
         "R_684956583",
-        "SCOT/OPR/BAP/3574782",
-        "SCOT/OPR/BAP/3574953",
-        "SCOT/OPR/BAP/3575071",
-        "SCOT/OPR/BAP/4588751"
-      ],
-      "remaining_detail_rows": [
         "R_686209974",
         "R_691906011",
         "R_688617368",
         "R_685315512",
+        "SCOT/OPR/BAP/3574782",
         "R_685314427",
+        "SCOT/OPR/BAP/3574953",
         "R_685314540",
+        "SCOT/OPR/BAP/3575071",
+        "SCOT/OPR/BAP/4588751"
+      ],
+      "remaining_detail_rows": [
         "R_686310853",
         "R_694113519"
       ]
@@ -23757,6 +23765,137 @@
       "capture_method": "Cua Chrome DOM transcript table",
       "matching_status": "existing_event_confirmation",
       "reviewed_on": "2026-10-24"
+    },
+    "R_685314540": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T07:05:23.353139+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685314540",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685314540&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685314540&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's last name": "Martin",
+        "Last name": "Glasgow",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Male",
+        "Place": "Irvine",
+        "Birth year": "1740",
+        "County": "Ayrshire",
+        "Baptism year": "1740",
+        "Country": "Scotland",
+        "Baptism date": "30 Mar 1740",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "George",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome visible transcript DOM via Apple Events",
+      "matching_status": "compatible_candidate_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_688617368": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T07:10:23.335109+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688617368",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688617368&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688617368&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's first name(s)": "Margarat",
+        "Last name": "Glasgow",
+        "Mother's last name": "Allan",
+        "Sex": "Male",
+        "Place": "Kilbirnie",
+        "Birth year": "1730",
+        "County": "Ayrshire",
+        "Baptism year": "1730",
+        "Country": "Scotland",
+        "Baptism date": "29 Mar 1730",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KILBIRNIE,AYR,SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robert",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome visible transcript DOM via Apple Events",
+      "matching_status": "existing_person_qualified_conflict",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_685314427": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T07:04:56.210504+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685314427",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685314427&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685314427&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's last name": "Borland",
+        "Last name": "Glasgow",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Male",
+        "Place": "Irvine",
+        "Birth year": "1738",
+        "County": "Ayrshire",
+        "Baptism year": "1738",
+        "Country": "Scotland",
+        "Baptism date": "05 Oct 1738",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robert",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Mary"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome visible transcript DOM via Apple Events",
+      "matching_status": "existing_event_confirmation",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_685315512": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T07:04:29.969103+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685315512",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685315512&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685315512&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "John",
+        "Mother's last name": "Borland",
+        "Last name": "Glasgow",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Male",
+        "Place": "Irvine",
+        "Birth year": "1736",
+        "County": "Ayrshire",
+        "Baptism year": "1736",
+        "Country": "Scotland",
+        "Baptism date": "10 Oct 1736",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robert",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Mary"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome visible transcript DOM via Apple Events",
+      "matching_status": "source_only_identity_hold",
+      "reviewed_on": "2026-10-24"
     }
   },
   "identity_clusters": [
@@ -30887,6 +31026,61 @@
           "indexed": false,
           "reason": "Named parent or relative has no established eligible profile/identity yet; secondary-role review remains pending; no new person."
         }
+      },
+      "R_685314540": {
+        "status": "compatible_candidate_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-685314540",
+        "catalogue_profiles": {
+          "Glasgow-3314": {
+            "role": "Candidate comparison to existing subject: names, parent pair, Irvine and year agree; March/April baptism conflict remains unresolved, no exact birth inferred.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "The new index shares child, parent pair, parish and year with Glasgow-3314 and is suitable as a qualified source comparison for the existing person. Its 30 March baptism could fit a 28 March date, but it does not explicitly identify that date as birth. The April transcript expressly reports a 20 April birth and 30 April baptism. Their 30 March/30 April baptism months conflict; do not silently normalize the month, merge source events as certain, create a second child, or change the vital/parent grade without original OPR review. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314540",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_688617368": {
+        "status": "existing_person_qualified_conflict",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-688617368",
+        "catalogue_profiles": {
+          "Glasgow-3006": {
+            "role": "Existing person: competing 1730/1731 derivative baptism reading; year unresolved, vital and parent grades unchanged.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "A newly saved Findmypast derivative transcript, R_688617368, reports John Glasgow baptized 29 March 1730 at Kilbirnie to Robert Glasgow and Margarat Allan. This agrees with the year in the FamilySearch index but conflicts with the existing Findmypast OPR 596/1 transcript, which reports 29 March 1731 and adds surgeon/residence details. Neither derivative has been checked against the original register, so retain both year readings as unresolved; the shared day, parish, and parents support treating these as competing reports for the already-assigned Glasgow-3006 event, not grounds to create another John. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688617368",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_685314427": {
+        "status": "existing_event_confirmation",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-685314427",
+        "catalogue_profiles": {
+          "Glasgow-3478": {
+            "role": "Existing 1738 baptism subject; birth-month conflict unresolved, father 86%, mother unassessed.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "The 5 October 1738 Irvine baptism names John, Robert Glasgow and Mary Borland and matches the event already associated with Glasgow-3478. This derivative supplies only birth year 1738, not an exact birth date; it does not settle the held 4 September versus 4 October birth conflict. Father Glasgow-2474 stays 86% probable; mother Borland-1479 remains unassessed. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314427",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_685315512": {
+        "status": "source_only_identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-685315512",
+        "catalogue_profiles": {},
+        "assessment": "The 10 October 1736 Irvine baptism of John, Robert Glasgow and Mary Borland matches the held SCOT/OPR/BAP/3574593 report. Its person-level relationship to the John of 1738 (Glasgow-3478) remains unresolved: successive children, an earlier death and an indexing error are not established. Keep this source-only; the compatible existing-person comparison is not an assignment or a concrete exclusion. No new person is proposed. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685315512",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
       }
     },
     "page2_review": {
@@ -51465,7 +51659,7 @@
         "SCOT/OPR/BAP/4600209",
         "SCOT/OPR/BAP/4816038"
       ],
-      "status": "Historical counts_before retained. Current source-aware inventory:811accessible provider IDs across the same7approved receipt files;718already represented and93unindexed. The56remaining detailed/OPR leads were reviewed:55retain identity/natal-surname/birth-scope HOLDs, one already-held Antigua minister source had stale person aliases reconciled. No new provider record or person was added.",
+      "status": "Historical counts_before retained. Current source-aware inventory after four query receipts:815accessible IDs,722represented and93unindexed across the same7approved files. All42remaining OPR leads retain their completed24October screening; do not repeat unchanged HOLD comparisons.",
       "prior_hold_reconciliation": "The six records already had23October no_eligible_role_proved dispositions, now superseded by positive existing-family comparisons; earlier HOLDs for other IDs remain current. The preflight report missed dictionary-keyed record_dispositions; absence of its explicit hold flag was not evidence of no prior review. Twelve further23October no_eligible_role_proved snapshots retained in previous_disposition_20261023; current24October source integration identifies the Barony child or provides compatible adult/child comparisons. Missing identity bridges are not exclusions.",
       "superseded_preflight_hold_count": {
         "reported": 0,
@@ -51475,8 +51669,8 @@
       "remaining_opr_review_status": "All42remaining OPR IDs now have source-field, current household/child and cutoff checks. Preserve their HOLDs; do not repeat comparisons or fetch again without a discriminating new source question.",
       "remaining_opr_ids_reviewed_on": "2026-10-24",
       "source_aware_current_counts": {
-        "accessible_ids": 811,
-        "represented_ids": 718,
+        "accessible_ids": 815,
+        "represented_ids": 722,
         "remaining_unindexed": 93
       },
       "source_library_gap_corrections": [
@@ -54832,6 +55026,86 @@
         "new_broken_link_pairs": 0,
         "existing_broken_links": 7,
         "existing_broken_link_pairs": 4,
+        "live_deployment": false
+      }
+    },
+    "querygap4_review_20261024": {
+      "reviewed_on": "2026-10-24",
+      "new_provider_transcripts": 4,
+      "newly_indexed_provider_records": 4,
+      "first_seen_historical_event_groups": 0,
+      "new_derivative_conflict_groups": 1,
+      "new_people": 0,
+      "vital_changes": [],
+      "relationship_changes": [],
+      "original_registers_inspected": 0,
+      "record_dispositions": {
+        "R_688617368": {
+          "status": "existing_person_qualified_conflict",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-688617368",
+          "catalogue_profiles": {
+            "Glasgow-3006": {
+              "role": "Existing person: competing 1730/1731 derivative baptism reading; year unresolved, vital and parent grades unchanged.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "A newly saved Findmypast derivative transcript, R_688617368, reports John Glasgow baptized 29 March 1730 at Kilbirnie to Robert Glasgow and Margarat Allan. This agrees with the year in the FamilySearch index but conflicts with the existing Findmypast OPR 596/1 transcript, which reports 29 March 1731 and adds surgeon/residence details. Neither derivative has been checked against the original register, so retain both year readings as unresolved; the shared day, parish, and parents support treating these as competing reports for the already-assigned Glasgow-3006 event, not grounds to create another John. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688617368",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_685315512": {
+          "status": "source_only_identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685315512",
+          "catalogue_profiles": {},
+          "assessment": "The 10 October 1736 Irvine baptism of John, Robert Glasgow and Mary Borland matches the held SCOT/OPR/BAP/3574593 report. Its person-level relationship to the John of 1738 (Glasgow-3478) remains unresolved: successive children, an earlier death and an indexing error are not established. Keep this source-only; the compatible existing-person comparison is not an assignment or a concrete exclusion. No new person is proposed. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685315512",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_685314427": {
+          "status": "existing_event_confirmation",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685314427",
+          "catalogue_profiles": {
+            "Glasgow-3478": {
+              "role": "Existing 1738 baptism subject; birth-month conflict unresolved, father 86%, mother unassessed.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "The 5 October 1738 Irvine baptism names John, Robert Glasgow and Mary Borland and matches the event already associated with Glasgow-3478. This derivative supplies only birth year 1738, not an exact birth date; it does not settle the held 4 September versus 4 October birth conflict. Father Glasgow-2474 stays 86% probable; mother Borland-1479 remains unassessed. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314427",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_685314540": {
+          "status": "compatible_candidate_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685314540",
+          "catalogue_profiles": {
+            "Glasgow-3314": {
+              "role": "Candidate comparison to existing subject: names, parent pair, Irvine and year agree; March/April baptism conflict remains unresolved, no exact birth inferred.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "The new index shares child, parent pair, parish and year with Glasgow-3314 and is suitable as a qualified source comparison for the existing person. Its 30 March baptism could fit a 28 March date, but it does not explicitly identify that date as birth. The April transcript expressly reports a 20 April birth and 30 April baptism. Their 30 March/30 April baptism months conflict; do not silently normalize the month, merge source events as certain, create a second child, or change the vital/parent grade without original OPR review. Source level: inspected provider derivative transcript; original register not inspected. Companion indexes are not independent original corroboration. No new person, vital change or relationship regrade.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314540",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        }
+      },
+      "verification_status": "verified_local_publication",
+      "verification_report": "output/findmypast-querygap4-20261024-verification.json",
+      "verification": {
+        "source_readers": 4,
+        "unchanged_person_vitals_and_relationships": 3,
+        "complete_proposals": 3,
+        "publication_new_failures": 0,
+        "new_broken_link_pairs": 0,
+        "stale_asset_references": 0,
+        "reused_current_manifest": true,
         "live_deployment": false
       }
     }

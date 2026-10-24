@@ -58055,6 +58055,54 @@
       "provenance": [
         "research/ancestry-connections/large-join-source-review-2026-10-24.json"
       ]
+    },
+    {
+      "id": "fmp-john-index-conflicts-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Four newly saved Glasgow baptism transcripts retain competing year and month readings for existing Kilbirnie and Irvine households.",
+      "qualification": "One newly documented March/April baptism conflict for Glasgow-3314; zero newly identified historical events or people. The 1736 Irvine child remains unassigned. These are derivative indexes, not independent original-register corroboration. Current vital fields and father/mother assessments are unchanged.",
+      "people": [
+        {
+          "id": "Glasgow-3006",
+          "name": "John Glasgow (Glasgow-3006)",
+          "url": "/people/glasgow-3006.html"
+        },
+        {
+          "id": "Glasgow-3478",
+          "name": "John Glasgow (Glasgow-3478)",
+          "url": "/people/glasgow-3478.html"
+        },
+        {
+          "id": "Glasgow-3314",
+          "name": "John Glasgow (Glasgow-3314)",
+          "url": "/people/glasgow-3314.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast baptism transcript R_688617368",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_688617368&tab=this"
+        },
+        {
+          "title": "Findmypast baptism transcript R_685315512",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685315512&tab=this"
+        },
+        {
+          "title": "Findmypast baptism transcript R_685314427",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685314427&tab=this"
+        },
+        {
+          "title": "Findmypast baptism transcript R_685314540",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685314540&tab=this"
+        }
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800",
+      "relationship_changes": [],
+      "provenance": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ]
     }
   ]
 }

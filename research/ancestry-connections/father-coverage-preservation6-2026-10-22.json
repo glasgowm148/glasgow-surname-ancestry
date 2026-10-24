@@ -1035,15 +1035,24 @@
     },
     "Glasgow-3006": {
       "current_sha256": "19087e6031d98dab6f2d19f8721d37b7a92f039bed899225ac60ecd408016df2",
-      "proposed_sha256": "e7439a8992daa8528775384e9ece5ca5ac1838c398c3d7e0c7a3b2f219e11e15",
-      "previous_proposed_sha256": "19087e6031d98dab6f2d19f8721d37b7a92f039bed899225ac60ecd408016df2",
+      "proposed_sha256": "4a46be55b6b5ad6784feeea1ef0930b24a80125ba2c341e05b951a416c61e50d",
+      "previous_proposed_sha256": "e7439a8992daa8528775384e9ece5ca5ac1838c398c3d7e0c7a3b2f219e11e15",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage6-20261022/previous-proposals/Glasgow-3006.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3006/father-confidence-2026-10-22f.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. All prior source identities retained; new derivative date conflicts remain unresolved. Unsupported earlier-child death hypothesis withdrawn where present; no vital or relationship changes.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "previous_proposed_git_reference": "2c92fed353eccba07cd24b8208a85e3874db56e8:research/Glasgow-3006/father-confidence-2026-10-22f.wiki",
+      "reviewed_on": "2026-10-24",
+      "superseded_passages": [
+        {
+          "before": "John was born before 1730. He is the son of [[Glasgow-1075|Robert Glasgow]] and [[Allan-4046|Margaret Allan]].",
+          "after": "John Glasgow's baptism is reported as 29 March 1730 by FamilySearch and a saved Findmypast derivative transcript (R_688617368)<ref name=\"FMP1730\">[https://www.findmypast.co.uk/transcript?id=R_688617368&tab=this Findmypast transcript R_688617368], John Glasgow, baptism 29 March 1730, Kilbirnie, Ayrshire, father Robert Glasgow, mother Margarat Allan; saved 24 October 2026. Original register not inspected.</ref>, and as 29 March 1731 by the held Findmypast OPR 596/1 transcript (SCOT/OPR/BAP/3586582). The original register has not been inspected, and his exact birth date and the baptism year remain unresolved. The 1731 transcript names Robert Glasgow, a surgeon, and Margarat Allan; the existing father assessment selects [[Glasgow-1075|Robert Glasgow]] at 98% for the recorded surgeon-father scope. [[Allan-4046|Margaret Allan]] remains an unassessed tree relationship; the record's named mother is not independently identified to that profile.",
+          "reason": "Qualify inherited exact dates and adult identities; withdraw unsupported earlier-child death hypothesis, retain all prior sources."
+        }
+      ]
     },
     "Glasgow-3326": {
       "current_sha256": "02f4cd48ff64d533f7a0d6db8702bcfb5dae93e54c689799dab6a9ef2f5277ce",

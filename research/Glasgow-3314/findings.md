@@ -9,6 +9,8 @@ Date review, 24 October 2026: the current structured birth remains **28 March 17
 
 24 October family follow-up: the saved Bathgate Janet transcript separates birth 7 December 1776 from baptism 9 December and explicitly names mother Margt Mill; its companion spells Margaret. The existing draft’s father-only baptism account gains this named mother and birth reading. [Mill-757](/people/mill-757.html) and this John remain qualified adult parent comparisons for Janet and the 1773 West CalderIssobel; neither child is attached.
 
+Follow-up, 24 October 2026: A new derivative labels baptism 30 March 1740, conflicting with the held 30 April reading; neither supplies independent proof of the FamilySearch 28 March date role.
+
 ## Findmypast Glasgow surname evidence fmp-glasgow-2 b 0297 c 00 e 35
 
 The transcript-validated baptism record for **John Glasgow**, 30 Apr 1740, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
@@ -57,3 +59,11 @@ This comparison does not resolve John's 28 March versus 20 April 1740 birth conf
 
 - [Findmypast R_686350090](https://www.findmypast.co.uk/transcript?id=R_686350090&tab=this) and [R_687775452](https://www.findmypast.co.uk/transcript?id=R_687775452&tab=this): Issobel, West Calder baptism, 30 October 1773.
 - [Findmypast SCOT/OPR/BAP/4121234](https://findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121234&tab=this) and [R_691841702](https://findmypast.co.uk/transcript?id=R_691841702&tab=this): Janet, Bathgate, 7 December birth and 9 December baptism 1776; the companion gives baptism only.
+
+<!-- BEGIN FMP-QUERYGAP4-20261024 -->
+## Saved baptism-index comparison —24 October 2026
+
+A second saved [Findmypast index](https://www.findmypast.co.uk/transcript?id=R_685314540&tab=this) names John Glasgow, parents George Glasgow and Margaret Martin, at Irvine and labels **30 March 1740** as baptism; it gives only birth year 1740, not an exact birthday. The previously held [OPR 595/1 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574953&tab=this) instead labels birth **20 April** and baptism **30 April 1740**. The March/April baptism reading remains unresolved against the held FamilySearch 28 March index. Preserve all three derivative claims and the existing structured birth and father assessment until the original register is compared.
+
+[Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
+<!-- END FMP-QUERYGAP4-20261024 -->
