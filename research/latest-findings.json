@@ -57863,6 +57863,37 @@
       "provenance": [
         "research/ancestry-connections/nancy-father-confidence-2026-10-24.json"
       ]
+    },
+    {
+      "id": "rathdowney-original-marriage-1773-20261024",
+      "found_on": "2026-10-24",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The original Rathdowney register confirms David Glascow and Anne Ford’s 14 September 1773 marriage and supplies witnesses apparently recorded as “Michl Grady” and “Marg Conor”.",
+      "qualification": "The witness forenames are abbreviated and their reading, including Conor, is tentative. The entry gives no ages, parents, Scottish origin or prior parish; its marginal place notation is not expanded as a townland. David’s parents remain unknown and his identity with the Ayrshire David Glasgow-3456 is unproved. The 1777 child’s later Tipperary identity remains a separate question. No confidence percentage, family attachment or vital field changes.",
+      "people": [
+        {
+          "id": "Glasgow-3593",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3593.html"
+        },
+        {
+          "id": "Ford-28175",
+          "name": "Anne (Ford) Glasgow",
+          "url": "/people/ford-28175.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NLI Rathdowney original marriage, microfilm 05013/08, image 150, right-hand page",
+          "url": "https://registers.nli.ie/registers/vtls000631901#page/150/mode/1up"
+        }
+      ],
+      "detail_url": "/people/glasgow-3593.html#research-findings",
+      "relationship_changes": [],
+      "provenance": [
+        "research/ancestry-connections/rathdowney-marriage-review-2026-10-24.json"
+      ]
     }
   ]
 }

@@ -5301,9 +5301,9 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation5-2026-10-22.json"
     },
     "Glasgow-3592": {
-      "draft_path": "research/Glasgow-3592/rathdowney-register-2026-10-22.wiki",
-      "summary": "Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%.",
-      "work_queue_summary": "Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%.",
+      "draft_path": "research/Glasgow-3592/rathdowney-marriage-2026-10-24.wiki",
+      "summary": "Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%. Add the inspected original 1773 marriage and tentative witness reading; parent percentages and attachments unchanged.",
+      "work_queue_summary": "Distinguish birth 1 May from baptism 7 May 1777; mark existing parents confident at 98%. Add the inspected original 1773 marriage and tentative witness reading; parent percentages and attachments unchanged.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -5315,7 +5315,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-3592",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "remote_captured_at": "2026-10-22",
       "remote_wikitext": "== Biography ==\n\nThomas was born  7 May 1777.<ref>\"Ireland, Catholic Parish Registers, 1740-1900\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X3QK-WMQL : Fri Mar 28 00:01:13 UTC 2025), Entry for Thoms Glascow and David Glascow, 7 May 1777.\n</ref>\n== Sources ==\n<references />\n* https://irelandxo.com/ireland/laois/rathdowney-laois/message-board/searching-information-parents-thomas-glasgow",
       "relationship_changes": [
@@ -5329,7 +5329,7 @@
           "probability_percent": 98,
           "assertion_id": "C-reviewed-20261022-rathdowney-thomas-father",
           "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached father has a blank certainty flag; local before-snapshot unknown and unrated.",
-          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. At the 22 October review, Margaret’s baptism and the 1773 marriage had not been inspected. The original 1773 marriage was read on 24 October: it names David Glascow and Anne Ford, with witnesses apparently “Michl Grady” and “Marg Conor”. It gives no parents or Scottish origin. Margaret’s July 1774 baptism, the 1777 household place and the 1777 sponsors remain unread."
         },
         {
           "action": "regrade",
@@ -5341,12 +5341,15 @@
           "probability_percent": 98,
           "assertion_id": "C-reviewed-20261022-rathdowney-thomas-mother",
           "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached mother has a blank certainty flag; local before-snapshot unknown and unrated.",
-          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. At the 22 October review, Margaret’s baptism and the 1773 marriage had not been inspected. The original 1773 marriage was read on 24 October: it names David Glascow and Anne Ford, with witnesses apparently “Michl Grady” and “Marg Conor”. It gives no parents or Scottish origin. Margaret’s July 1774 baptism, the 1777 household place and the 1777 sponsors remain unread."
         }
       ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/rathdowney-preservation-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/rathdowney-marriage-review-2026-10-24.json",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     },
     "Glasgow-3598": {
       "draft_path": "research/Glasgow-3598/queue-review-2026-10-17.wiki",
@@ -10278,13 +10281,13 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "remote_captured_at": "2026-10-22",
       "remote_wikitext": "== Biography ==\n\nDavid was born before 1755<ref>\"Ireland, Catholic Parish Registers, 1740-1900\", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:X37J-FNN6 : Sat Mar 29 09:11:05 UTC 2025), Entry for David Glascow and Anne Ford, 14 Sep 1773.</ref>\n\n== Research Notes ==\n\nPossibly [[Glasgow-3456|David Glasgow (1744-)]]\n\n== Sources ==\n<references />\n* https://irelandxo.com/ireland/laois/rathdowney-laois/message-board/searching-information-parents-thomas-glasgow",
-      "draft_path": "research/Glasgow-3593/rathdowney-register-2026-10-22.wiki",
+      "draft_path": "research/Glasgow-3593/rathdowney-marriage-2026-10-24.wiki",
       "findings_path": "research/Glasgow-3593/findings.md",
-      "summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
-      "work_queue_summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
+      "summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. Add the inspected original 1773 marriage and tentative witness reading; parent percentages and attachments unchanged.",
+      "work_queue_summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. Add the inspected original 1773 marriage and tentative witness reading; parent percentages and attachments unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -10296,25 +10299,28 @@
           "probability_percent": 98,
           "assertion_id": "C-reviewed-20261022-rathdowney-thomas-father",
           "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached father has a blank certainty flag; local before-snapshot unknown and unrated.",
-          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. At the 22 October review, Margaret’s baptism and the 1773 marriage had not been inspected. The original 1773 marriage was read on 24 October: it names David Glascow and Anne Ford, with witnesses apparently “Michl Grady” and “Marg Conor”. It gives no parents or Scottish origin. Margaret’s July 1774 baptism, the 1777 household place and the 1777 sponsors remain unread."
         }
       ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/rathdowney-preservation-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/rathdowney-marriage-review-2026-10-24.json",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     },
     "Ford-28175": {
       "profile_id": "Ford-28175",
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-24",
       "remote_captured_at": "2026-10-22",
       "remote_wikitext": "== Biography ==\n\nAnne was born before 1759. \n== Sources ==\n<references />\n* https://irelandxo.com/ireland/laois/rathdowney-laois/message-board/searching-information-parents-thomas-glasgow",
-      "draft_path": "research/Ford-28175/rathdowney-register-2026-10-22.wiki",
+      "draft_path": "research/Ford-28175/rathdowney-marriage-2026-10-24.wiki",
       "findings_path": "research/Ford-28175/findings.md",
-      "summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
-      "work_queue_summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%.",
+      "summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. Add the inspected original 1773 marriage and tentative witness reading; parent percentages and attachments unchanged.",
+      "work_queue_summary": "Add the inspected 1777 baptism naming Thomas and both parents; existing child link confident 98%. Add the inspected original 1773 marriage and tentative witness reading; parent percentages and attachments unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -10326,12 +10332,15 @@
           "probability_percent": 98,
           "assertion_id": "C-reviewed-20261022-rathdowney-thomas-mother",
           "previous_status_provenance": "Fresh anonymous Open/non-living WikiTree check 22 October 2026: Thomas’s attached mother has a blank certainty flag; local before-snapshot unknown and unrated.",
-          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here."
+          "scope": "This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. At the 22 October review, Margaret’s baptism and the 1773 marriage had not been inspected. The original 1773 marriage was read on 24 October: it names David Glascow and Anne Ford, with witnesses apparently “Michl Grady” and “Marg Conor”. It gives no parents or Scottish origin. Margaret’s July 1774 baptism, the 1777 household place and the 1777 sponsors remain unread."
         }
       ],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/rathdowney-preservation-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/rathdowney-marriage-review-2026-10-24.json",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     },
     "Glasgow-1103": {
       "queued_at": "2026-10-22",

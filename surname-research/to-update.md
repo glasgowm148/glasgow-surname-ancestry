@@ -4257,3 +4257,11 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | --- | --- | --- |
 | [Nancy (Glasgow) McClelland](https://www.wikitree.com/wiki/Glasgow-2003) | OPEN | Nancy’s existing Robert father: research confidence 81% → 91%; add copied-source qualification. WikiTree already marks this father confident, so no certainty-mark amendment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-12) | OPEN | Reconcile daughter Nancy’s overlooked explicit child designation: 81% → 91% research confidence. Original Faris page uninspected; Robert’s own father stays 35%. |
+
+### Rathdowney: original marriage and witnesses — 24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3593) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
+| [Anne (Ford) Glasgow](https://www.wikitree.com/wiki/Ford-28175) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3592) | OPEN | Add the original 1773 marriage, tentative witness readings and completed-test account; preserve earlier outstanding 1777 amendments. No new relationship or confidence change. |

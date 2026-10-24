@@ -7532,9 +7532,10 @@
         "role": "Expressly named mother Anne Ford; parent identification 98%"
       }
     },
-    "note": "The original Rathdowney Catholic register records Thoms, born 1 May 1777 and baptised 7 May, son of David Glascow and Anne Ford. The two May dates describe different events; the profile’s 1 May structured birth date and the indexed 7 May baptism are compatible. The existing biography’s description of 7 May as his birth needs correction. This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. Margaret’s separate baptism and the 1773 marriage have not been inspected in this batch. The household townland and sponsors are not securely read from the available low-resolution scan and are not asserted here.",
+    "note": "The original Rathdowney Catholic register records Thoms, born 1 May 1777 and baptised 7 May, son of David Glascow and Anne Ford. The two May dates describe different events; the profile’s 1 May structured birth date and the indexed 7 May baptism are compatible. The existing biography’s description of 7 May as his birth needs correction. This assessment identifies the register child represented by Glasgow-3592 and his expressly named parents. It does not prove that this child became the Tipperary husband of Johanna Ryan or father of Michael Glasgow, and does not identify David with the Scottish David Glasgow-3456. No new parent is attached and no paternal family is joined. At the 22 October review, Margaret’s baptism and the 1773 marriage had not been inspected. The original 1773 marriage was read on 24 October: it names David Glascow and Anne Ford, with witnesses apparently “Michl Grady” and “Marg Conor”. It gives no parents or Scottish origin. Margaret’s July 1774 baptism, the 1777 household place and the 1777 sponsors remain unread.",
     "independent_event_count": 1,
-    "source_quality": "primary"
+    "source_quality": "original_register",
+    "publish_to_record_index": true
   },
   {
     "record_id": "fmp-record-r-684955704",
@@ -42355,5 +42356,40 @@
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906011",
     "reviewed_on": "2026-10-24",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "rathdowney-david-anne-marriage-1773",
+    "record_type": "marriage",
+    "date": "1773-09-14",
+    "year": 1773,
+    "country": "Ireland",
+    "place": "Rathdowney Catholic parish, Queen’s County (Laois), Ireland",
+    "association": "David Glascow married Anne Ford; tentative witness readings Michl Grady and Marg Conor",
+    "source_title": "Rathdowney Catholic parish register, NLI microfilm 05013/08, image 150, right-hand page, marriage 14 September 1773",
+    "source_url": "https://registers.nli.ie/registers/vtls000631901#page/150/mode/1up",
+    "source_type": "Original parish marriage register",
+    "source_status": "Original scanned page visually inspected in the NLI viewer 24 October 2026; witness reading tentative",
+    "status": "Original names and marriage date inspected; parentage and Scottish identity not established",
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/rathdowney-marriage-review-2026-10-24.json",
+    "source_quality": "original_register",
+    "independent_event_count": 1,
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-3593": {
+        "role": "Named groom David Glascow; existing record-defined Rathdowney husband"
+      },
+      "Ford-28175": {
+        "role": "Named bride Anne Ford; existing Rathdowney wife"
+      }
+    },
+    "note": "Literal marriage clause: “Married David Glascow & Anne Ford”. The date agrees with the held FamilySearch index. The witness forenames are abbreviated and their reading, including Conor, is tentative. The entry gives no ages, parents, Scottish origin or prior parish; its marginal place notation is not expanded as a townland. David’s parents remain unknown and his identity with the Ayrshire David Glasgow-3456 is unproved. The 1777 child’s later Tipperary identity remains a separate question. No confidence percentage, family attachment or vital field changes.",
+    "analysis_links": [
+      {
+        "label": "Rathdowney marriage reading and family questions",
+        "href": "/people/glasgow-3593.html#research-findings"
+      }
+    ],
+    "record_category": "Marriages"
   }
 ]
