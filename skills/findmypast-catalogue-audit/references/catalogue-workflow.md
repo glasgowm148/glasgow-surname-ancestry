@@ -58,13 +58,17 @@ Before building dated finding entries, validate the builder’s actual kind/stat
 
 Before building, reconcile generic batch wording with the final approved changes. Replace “no vital change” or “pending integration” language in affected source notes, roles and person accounts once a date refinement or draft estimate is adopted; retain the earlier assessment explicitly as history.
 
-Before an expensive synchronization, validate each changed preservation review against the loader's normalized complete proposal, including restored references and stripped boundary whitespace; the raw draft-file hash can differ. Account for normalization changes and source preservation as well as the substantive edit.
+Before an expensive synchronization, remove trailing whitespace from newly changed lines, then validate each changed preservation review against the loader's normalized complete proposal, including restored references and stripped boundary whitespace; the raw draft-file hash can differ. Account for normalization changes and source preservation as well as the substantive edit.
+
+Also compare each complete proposal's opening biography with the current maintained `www/people/<slug>.json`, findings and approved relationship assessments. Older `assets/research/people/` summaries can be stale. Preservation checks can pass while a biography still names a retired father ID or asserts a superseded date. Reconcile those passages to the existing approved account, retain conflicting earlier claims as history, and document the specific superseded passages. Check both the actual update queue and integration manifest: a current queued amendment can exist only in the former and must be preserved and extended rather than removed by a scoped build. Complete this comparison before starting the expensive build.
 
 Normalization may restore an estimation template for another uncertain vital field, even when the newly reviewed birth is exact. Compare the complete normalized text and captured field statuses before updating its reviewed hash; do not remove a profile-wide template solely because one event is now exact.
 
 A newly established date can invalidate an earlier newspaper or other identity comparison. Reconcile its maintained review, subject draft, current findings, study and queued wording; retain the previous dated assessment as superseded history. Do not erase competing candidates or extend the exclusion to a different later event without evidence.
 
 When other work changes shared generated data during verification, preserve its additions and verify this batch’s selected provider IDs, person fields and source roles separately from global totals. Refresh HEAD-based publication snapshots before staging, preserve unrelated staged entries, and do not repeatedly overwrite cache versions while another build is updating them.
+
+After a partial build failure, identify its completed stage before retrying. Successfully ingested source records do not need another ingestion when only person/search publication failed. Validate complete generated JSON before repeating a failed compact-index refresh; preserve recovery receipts and all existing identities, then resume the affected publication stage.
 
 ## Guarded record publication
 
