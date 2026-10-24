@@ -4311,3 +4311,16 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Letitia Glasgow (Glasgow-3477)](https://www.wikitree.com/wiki/Glasgow-3477) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
 | [John Glasgow (Glasgow-3542)](https://www.wikitree.com/wiki/Glasgow-3542) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
 | [John Glasgow (Glasgow-427)](https://www.wikitree.com/wiki/Glasgow-427) | OPEN | Add qualified pages22–23 sources to the complete preserved proposal; retain current vitals, family assessments and source/date conflicts. |
+
+## 24 October 2026 — Findmypast pages 24–25 derivative source review
+
+| [Magdalene Glasgow (Glasgow-1230)](https://www.wikitree.com/wiki/Glasgow-1230) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Margaret Glasgow (Glasgow-1322)](https://www.wikitree.com/wiki/Glasgow-1322) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Magdalen Glasgow (Glasgow-1331)](https://www.wikitree.com/wiki/Glasgow-1331) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Margaret Glasgow (Glasgow-1341)](https://www.wikitree.com/wiki/Glasgow-1341) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Margaret Glasgow (Glasgow-2101)](https://www.wikitree.com/wiki/Glasgow-2101) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Margaret Glasgow (Glasgow-2849)](https://www.wikitree.com/wiki/Glasgow-2849) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Margaret Glasgow (Glasgow-3007)](https://www.wikitree.com/wiki/Glasgow-3007) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Margaret Glasgow (Glasgow-3053)](https://www.wikitree.com/wiki/Glasgow-3053) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Margaret Glasgow (Glasgow-3878)](https://www.wikitree.com/wiki/Glasgow-3878) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+| [Magdalen Glasgow (Glasgow-4103)](https://www.wikitree.com/wiki/Glasgow-4103) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |

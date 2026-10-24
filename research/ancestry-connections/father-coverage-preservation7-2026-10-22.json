@@ -359,15 +359,17 @@
     },
     "Glasgow-3878": {
       "current_sha256": "61fe5de60176fac75ec5bd2607c4afd43aa1252a5ccaba0daf2dd21dd816668f",
-      "proposed_sha256": "00979fb93373330e398466162464a4ecb2ea657c3cc4287b652394b62d608448",
-      "previous_proposed_sha256": "61fe5de60176fac75ec5bd2607c4afd43aa1252a5ccaba0daf2dd21dd816668f",
+      "proposed_sha256": "c0cb356622fcec71f00ea918551bd521e6a6828ea0ca3650b199dbc5de417bfe",
+      "previous_proposed_sha256": "00979fb93373330e398466162464a4ecb2ea657c3cc4287b652394b62d608448",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-3878.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-3878/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete previous proposal, citations, family detail and assessed relationship retained; new companion derivative source fields added without exact birth, adult identity or grade change.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-24",
+      "previous_proposed_git_reference": "0ee7c8e92fe40d81053121a507d4076f94fb7220:research/Glasgow-3878/father-confidence-2026-10-22g.wiki"
     },
     "Glasgow-1323": {
       "current_sha256": "c698158c7d246f055148f0c6eb984b3dfea637c3835d16b14120eab6a1d33b4f",
@@ -411,15 +413,29 @@
     },
     "Glasgow-4103": {
       "current_sha256": "a4a8e3e060dd0d170f8ada59973759831c5ac8d3f7f2b3e0258ec9dbdd34d69a",
-      "proposed_sha256": "563e002df32d511b946cad24c8d0f9da4e834f3173c071b6c1e10c3b6d749e4f",
-      "previous_proposed_sha256": "a4a8e3e060dd0d170f8ada59973759831c5ac8d3f7f2b3e0258ec9dbdd34d69a",
+      "proposed_sha256": "b9ef5dc68fb0b267247c3280358101cd2936520f0738a6d0edfb0f7633f1fc1c",
+      "previous_proposed_sha256": "563e002df32d511b946cad24c8d0f9da4e834f3173c071b6c1e10c3b6d749e4f",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-4103.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-4103/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Full prior source set, father-grade assessment, and unrelated events retained. Opening attribution corrected to distinguish current model, literal derivative event roles, and adult-profile confidence. Exact superseded opening preserved as a dated prior claim in Research Notes.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "superseded_passages": [
+        {
+          "prior_exact": "The parish register names her father as [[Glasgow-4165|George Glasgow]] and her mother as Margt.<ref name=\"FMP1\" /> The register records both dates; Irvine is inferred from the baptism and is not independently recorded.",
+          "replacement_exact": "The held indexed OPR derivative names her father as [[Glasgow-4165|George Glasgow]] and her mother as Margt.<ref name=\"FMP1\" /> That derivative gives birth on 22 March and baptism on 29 March; Irvine is inferred from the baptism rather than independently recorded as birthplace.",
+          "reason": "Birth remains exact 22 March 1743 in current model from held OPR derivative; baptism 29 March is distinct. No mother adult identity assigned."
+        },
+        {
+          "prior_exact": "The parish register names her father as [George Glasgow](https://www.wikitree.com/wiki/Glasgow-4165) and her mother as Margt. The register records both dates; Irvine is inferred from the baptism and is not independently recorded.",
+          "replacement_exact": "The held indexed OPR derivative names her father as [George Glasgow](https://www.wikitree.com/wiki/Glasgow-4165) and her mother as Margt. That derivative gives birth on 22 March and baptism on 29 March; Irvine is inferred from the baptism rather than independently recorded as birthplace.",
+          "reason": "Current findings now distinguish previously held basis from newly inspected derivative names."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "previous_proposed_git_reference": "0ee7c8e92fe40d81053121a507d4076f94fb7220:research/Glasgow-4103/father-confidence-2026-10-22g.wiki"
     },
     "Glasgow-1229": {
       "current_sha256": "ec703fbdd7e8e4d2ca97789b1cbdca49701717836d13da942df379bf84fbe2cb",
@@ -524,15 +540,17 @@
     },
     "Glasgow-2849": {
       "current_sha256": "c3e338344ab09f12211a07bb097a5d17d1df08e0bd85b7a9d03ee402915735c3",
-      "proposed_sha256": "e9484817281013b9c75037adeb40d6c9643d67da0c685714fde7a681d851538d",
-      "previous_proposed_sha256": "c3e338344ab09f12211a07bb097a5d17d1df08e0bd85b7a9d03ee402915735c3",
+      "proposed_sha256": "4a5f1eef3f9c908a599f2d058057fa86f1004b9db7f090bcc2e8cbdf3d37fc9f",
+      "previous_proposed_sha256": "e9484817281013b9c75037adeb40d6c9643d67da0c685714fde7a681d851538d",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-2849.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2849/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Complete previous proposal, citations, family detail and assessed relationship retained; new companion derivative source fields added without exact birth, adult identity or grade change. Current opening now attributes prior unqualified parent wording and distinguishes literal record roles from adult-profile IDs.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-24",
+      "previous_proposed_git_reference": "0ee7c8e92fe40d81053121a507d4076f94fb7220:research/Glasgow-2849/father-confidence-2026-10-22g.wiki"
     },
     "Glasgow-4126": {
       "current_sha256": "a2214b3d5368653570855990eade23159e1e5739e9647d0a928a8684821db2ea",
@@ -712,15 +730,29 @@
     },
     "Glasgow-1331": {
       "current_sha256": "973a4874593d05f65a5267f5b0d7dec9cb3f701f9c8cdd30460f210ba096fe69",
-      "proposed_sha256": "a6bc5a8bbd4d1dab30c2c46927d76193353d2bff410878e23182d281bfeab4cb",
-      "previous_proposed_sha256": "973a4874593d05f65a5267f5b0d7dec9cb3f701f9c8cdd30460f210ba096fe69",
+      "proposed_sha256": "386e9c93b0f492ae63a6946c5bd5398aa1c48ac1efa83abde0949a7e58233da9",
+      "previous_proposed_sha256": "a6bc5a8bbd4d1dab30c2c46927d76193353d2bff410878e23182d281bfeab4cb",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1331.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1331/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Full prior source set, father-grade assessment, and unrelated events retained. Opening attribution corrected to distinguish current model, literal derivative event roles, and adult-profile confidence. Exact superseded opening preserved as a dated prior claim in Research Notes.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "superseded_passages": [
+        {
+          "prior_exact": "Magdalen was born in 1749. She is the daughter of [[Glasgow-81|John Glasgow]] and [[Guthrie-777|Magdalene Guthrie]]. ",
+          "replacement_exact": "Magdalen Glasgow has an imported exact birth field of 29 January 1749 at West Calder; the newly reviewed derivative indexes label 29 January as her baptism and give only birth year 1749, so they do not independently verify that exact birth day. They name John Glasgow and Magdalen Guthrie as parents of the recorded child. The selected adult father [[Glasgow-81|John Glasgow]] is assessed at 64% (probable); the attached adult mother [[Guthrie-777|Magdalene Guthrie]] remains unassessed. ",
+          "reason": "Current model exact birth 29 January 1749 retained but new derivatives establish baptism on that date only; father 64% probable, adult mother unassessed."
+        },
+        {
+          "prior_exact": "Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This is positive context, not a literal reading of the entry.",
+          "replacement_exact": "Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This was the earlier contextual basis, not a literal reading of the then-held entry; later derivative indexes directly name the recorded parents but do not settle their adult-profile identities.",
+          "reason": "Current findings now distinguish previously held basis from newly inspected derivative names."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "previous_proposed_git_reference": "0ee7c8e92fe40d81053121a507d4076f94fb7220:research/Glasgow-1331/father-confidence-2026-10-22g.wiki"
     },
     "Glasgow-2980": {
       "current_sha256": "98fca7cb4022d322895fe78e3e8a9998166fc9674e199096130ababafa67a9ac",
@@ -1097,15 +1129,29 @@
     },
     "Glasgow-1230": {
       "current_sha256": "3d84642b3b487da575b62741911da839d325eb976e1011962bbf7a82c515f3ee",
-      "proposed_sha256": "03d5fc30eb5d612c6ca6f4b9eaf2384f78871ccfbe675bde6f4528adbda29308",
-      "previous_proposed_sha256": "3d84642b3b487da575b62741911da839d325eb976e1011962bbf7a82c515f3ee",
+      "proposed_sha256": "53ce9e76b5e48cbe29a9b0745a6fc689de521208a2ee7b51f97f4ff5c507d9bf",
+      "previous_proposed_sha256": "03d5fc30eb5d612c6ca6f4b9eaf2384f78871ccfbe675bde6f4528adbda29308",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-1230.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1230/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Full prior source set, father-grade assessment, and unrelated events retained. Opening attribution corrected to distinguish current model, literal derivative event roles, and adult-profile confidence. Exact superseded opening preserved as a dated prior claim in Research Notes.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "superseded_passages": [
+        {
+          "prior_exact": "Magdalene was born before 1756. She is the daughter of [[Glasgow-1227|Abraham Glasgow]] and [[Cunnyngham-118|Janet Cunnyngham]]. ",
+          "replacement_exact": "Magdalene Glasgow has an uncertain imported birth bound of before 6 June 1756 at Livingston; derivative indexes record her baptism on 6 June 1756 and do not give an exact birth day. They name Abraham Glasgow and Janet Cunningham as the child’s recorded parents. The selected adult father [[Glasgow-1227|Abraham Glasgow]] remains 85% (probable), and the currently attached adult mother [[Cunningham-20925|Janet Cunningham]] is unassessed. ",
+          "reason": "Current model uncertain birth before 6 June 1756 retained; baptism on boundary date only. Father 85% probable, Cunningham-20925 unassessed; old Cunnyngham-118 link historical only."
+        },
+        {
+          "prior_exact": "The supplied bare citation does not disclose this entry’s parents or independently bridge Abraham’s childhood.",
+          "replacement_exact": "The previously supplied bare citation did not disclose this entry’s parents; the later derivative indexes name the recorded child’s parents but still do not independently bridge Abraham’s childhood or prove the adult mother-profile identity.",
+          "reason": "Current findings now distinguish previously held basis from newly inspected derivative names."
+        }
+      ],
+      "reviewed_on": "2026-10-24",
+      "previous_proposed_git_reference": "0ee7c8e92fe40d81053121a507d4076f94fb7220:research/Glasgow-1230/father-confidence-2026-10-22g.wiki"
     },
     "Glasgow-80": {
       "current_sha256": "cb53e81043833544c499ed22760750e770926ab3ab1834e3735045c9f9cb9d01",
@@ -1740,15 +1786,17 @@
     },
     "Glasgow-2101": {
       "current_sha256": "a066ddd93cf7964f5cb1b637c578c1509f3393b16e53136e0d1c9740b25bc8de",
-      "proposed_sha256": "5b5f3b56aaa0c734eee7569423731b3475ebf77d04925d1c758d28f40c9ee13b",
-      "previous_proposed_sha256": "a066ddd93cf7964f5cb1b637c578c1509f3393b16e53136e0d1c9740b25bc8de",
+      "proposed_sha256": "e9839f66102d289ea9fe71eba15cebac63f43f88c436679e4d2a5a0dcefbea09",
+      "previous_proposed_sha256": "5b5f3b56aaa0c734eee7569423731b3475ebf77d04925d1c758d28f40c9ee13b",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage7-20261022/previous-proposals/Glasgow-2101.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-2101/father-confidence-2026-10-22g.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Previous complete proposal and generic OPR basis retained; actual before-12-April vital bound and new exact source fields distinguished, with mother-profile discrepancy explicit; no structured vital/relationship change. Current opening now attributes prior unqualified parent wording and distinguishes literal record roles from adult-profile IDs.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-24",
+      "previous_proposed_git_reference": "0ee7c8e92fe40d81053121a507d4076f94fb7220:research/Glasgow-2101/father-confidence-2026-10-22g.wiki"
     },
     "Glasgow-1453": {
       "current_sha256": "93ad89776b9e6ac246cd768772807df09d712868944b09e9732b1e2a50738be2",

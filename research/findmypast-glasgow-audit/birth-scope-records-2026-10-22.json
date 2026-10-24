@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 548,
+    "inspected_transcripts": 578,
     "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
@@ -376,7 +376,25 @@
       "R_685316210",
       "R_688618614",
       "R_685315083",
-      "IRE/BMD/D/617348041"
+      "IRE/BMD/D/617348041",
+      "R_685310997",
+      "R_688618719",
+      "R_686353084",
+      "R_687775557",
+      "R_685843827",
+      "R_692403362",
+      "R_686210560",
+      "R_691904966",
+      "R_686209996",
+      "R_691904967",
+      "R_688615340",
+      "R_685309484",
+      "R_686211643",
+      "R_691904645",
+      "R_688616026",
+      "R_686352903",
+      "R_687775348",
+      "SCOT/OPR/BAP/0738380"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -558,10 +576,22 @@
       "BMD/NBI/15581721",
       "R_791034477",
       "GBPRS/M/737045372/1",
-      "US/BMD/NEWYORKDEATHS/90988"
+      "US/BMD/NEWYORKDEATHS/90988",
+      "SCOT/OPR/BUR/0915105",
+      "SCOT/OPR/BAP/4477057",
+      "R_686209244",
+      "R_686207175",
+      "R_691903246",
+      "R_685314697",
+      "R_688618316",
+      "R_690037922",
+      "US/BMD/PENN-BAP/00853179",
+      "US/HSP/PENN/BAP/0072456",
+      "US/HSP/PENN/BAP/0025286",
+      "R_690418811"
     ],
-    "next_query_page": 24,
-    "integration_scope": "548 literal receipts indexed: 368 qualified existing-profile context and 180 source-only identity/scope HOLDs. Nineteen supporting indexed IDs remain at original pointers: 567 audited indexed provider IDs in this bounded scope. Forty pages 22–23 derivatives represent 26 documentary groups, 16 first-seen local entries including three scope-qualified groups, ten held events and no new people. Current vitals, relationship grades and topology are unchanged. Local source/person/site synchronization and selected verification complete; no live deployment. Overall INCOMPLETE.",
+    "next_query_page": 26,
+    "integration_scope": "578 literal receipts indexed:386 qualified existing-profile context and192source-only identity/scopeHOLDs. Nineteen supporting indexed IDs at original pointers give597 bounded audited indexed IDs. Pages24–25:30newproviderIDs,10indexedreuses,25documentarygroups,6firstseen(2scopequalified),0newpeople. Currentvitals,relationshipgrades/topologyunchanged. Local person/site synchronization pending. Overall INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -1110,37 +1140,67 @@
       "R_685315083",
       "GBPRS/M/737045372/1",
       "IRE/BMD/D/617348041",
-      "US/BMD/NEWYORKDEATHS/90988"
+      "US/BMD/NEWYORKDEATHS/90988",
+      "SCOT/OPR/BUR/0915105",
+      "R_685310997",
+      "R_688618719",
+      "R_686353084",
+      "R_687775557",
+      "R_685843827",
+      "R_692403362",
+      "SCOT/OPR/BAP/4477057",
+      "R_686209244",
+      "R_686207175",
+      "R_691903246",
+      "R_686210560",
+      "R_691904966",
+      "R_686209996",
+      "R_691904967",
+      "R_688615340",
+      "R_685309484",
+      "R_686211643",
+      "R_691904645",
+      "R_685314697",
+      "R_688618316",
+      "R_688616026",
+      "R_686352903",
+      "R_687775348",
+      "R_690037922",
+      "US/BMD/PENN-BAP/00853179",
+      "US/HSP/PENN/BAP/0072456",
+      "US/HSP/PENN/BAP/0025286",
+      "R_690418811",
+      "SCOT/OPR/BAP/0738380"
     ],
-    "records_with_profile_or_draft_context": 368,
+    "records_with_profile_or_draft_context": 386,
     "remaining_coverage": [
-      "Pages 24–294 nominal of the current 1719–1799 birth-filtered BMD query; zero saved detail gaps, next capture page 24; provider caps may require partitioning.",
+      "Pages26–294 nominal of current1719–1799birth-filteredBMDquery;0saved detailgaps,nextcapturepage26;provider caps may require partitioning.",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
       "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-pages22-23-20261024-verification.json",
+    "verification_report": "output/findmypast-pages24-25-20261024-verification.json",
     "verified_on": "2026-10-24",
-    "indexed_provider_record_count": 548,
-    "next_action": "Exact-ID-preflight and capture uncaptured search page 24 of 294 in the current 1719–1799 birth-filtered BMD query. All 460 saved rows have dispositions, contiguous 460 with zero saved detail gaps. Pages 22–23 source/person/study/site batch is verified locally. Retain natal-surname/title, identity and access HOLDs; do not refetch unchanged fields. Earlier births, other categories/variants and later-life records without indexed birth remain outstanding.",
-    "recent_query_transcripts": 413,
+    "indexed_provider_record_count": 578,
+    "next_action": "Paused by owner request. Resume the pending ten-person catalogue, latest-findings, study, backlinks, sitemap and cache refresh for pages24–25; verify before further research. All30selectedsource records are already indexed: do not refetch/reingest. Then preflight uncapturedpage26of294. Overall INCOMPLETE.",
+    "recent_query_transcripts": 443,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 460,
-    "capture_ledger_note": "548 literal saved/indexed derivative receipts plus 19 supporting provider IDs at original pointers. Forty provider captures and 26 documentary groups do not establish 40 new facts or people. Sixteen first-seen entries include three additional scope qualifications.",
-    "capture_count_basis": "567 audited indexed provider IDs in the literal-ledger-plus-support scope. Current source-aware inventory: {'accessible_ids': 877, 'represented_ids': 784, 'remaining_unindexed': 93}. Neither denominator counts eligible people.",
-    "recent_query_receipt_reuses": 41,
+    "recent_query_rows_reviewed": 500,
+    "capture_ledger_note": "578 literal saved/indexed derivative receipts plus19supporting providerIDs atoriginalpointers. Thirtynewcaptures plus10reuses form25documentarygroups;6first-seen entries include2scopequalifications. These are not people or independent facts.",
+    "capture_count_basis": "597 bounded audited indexed IDs in literal-ledger-plus-support scope. Current source-aware inventory:{'accessible_ids': 907, 'represented_ids': 814, 'remaining_unindexed': 93}. Neither denominator counts eligible people.",
+    "recent_query_receipt_reuses": 51,
     "recent_query_existing_index_reuses": 1,
     "recent_query_access_holds": 5,
-    "next_search_page_to_capture": 24,
-    "recent_query_rows_captured": 460,
-    "contiguous_query_rows_reviewed": 460,
+    "next_search_page_to_capture": 26,
+    "recent_query_rows_captured": 500,
+    "contiguous_query_rows_reviewed": 500,
     "recent_query_detail_gaps": 0,
     "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 19,
-    "total_indexed_reviewed_provider_ids": 567
+    "total_indexed_reviewed_provider_ids": 597
   },
   "search_pages": [
     {
@@ -6723,6 +6783,524 @@
         "GBPRS/M/737045372/1",
         "IRE/BMD/D/617348041",
         "US/BMD/NEWYORKDEATHS/90988"
+      ],
+      "remaining_detail_rows": []
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=24&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        24
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-24T12:19:29.409447+00:00",
+      "rows": [
+        {
+          "last_name": "Glasgow",
+          "first_name": "Mackenzie",
+          "birth_year": "1744",
+          "death_year": "—",
+          "event_year": "1824",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Ayr, Ayrshire",
+          "record_id": "SCOT/OPR/BUR/0915105",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0915105"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalen",
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_690419975",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690419975"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalen",
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Irvine, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3575189",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575189"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalen",
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685310997",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685310997"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalen",
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688618719",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688618719"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalen",
+          "birth_year": "1749",
+          "death_year": "—",
+          "event_year": "1749",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686353084",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686353084"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalen",
+          "birth_year": "1749",
+          "death_year": "—",
+          "event_year": "1749",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_687775557",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_687775557"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalene",
+          "birth_year": "1799",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4478228",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478228"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalene",
+          "birth_year": "1756",
+          "death_year": "—",
+          "event_year": "1756",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_685843827",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685843827"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalene",
+          "birth_year": "1756",
+          "death_year": "—",
+          "event_year": "1756",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_692403362",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692403362"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalene",
+          "birth_year": "1799",
+          "death_year": "—",
+          "event_year": "1800",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4477057",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477057"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Magdalene",
+          "birth_year": "1799",
+          "death_year": "—",
+          "event_year": "1800",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686209244",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686209244"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1740",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Edrom, Berwickshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/4839749",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4839749"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1783",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_690418812",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690418812"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1784",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_690418813",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690418813"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1719",
+          "death_year": "—",
+          "event_year": "1719",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686207175",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686207175"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1719",
+          "death_year": "—",
+          "event_year": "1719",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691903246",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691903246"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1721",
+          "death_year": "—",
+          "event_year": "1721",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686210560",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686210560"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1721",
+          "death_year": "—",
+          "event_year": "1721",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691904966",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691904966"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1723",
+          "death_year": "—",
+          "event_year": "1723",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kilwinning, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3626748",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626748"
+        }
+      ],
+      "review_status": "reviewed_sources_indexed_person_and_site_sync_pending",
+      "reviewed_cached_rows": [
+        "R_690419975",
+        "SCOT/OPR/BAP/3575189",
+        "SCOT/OPR/BAP/4478228",
+        "SCOT/OPR/BAP/4839749",
+        "R_690418812",
+        "R_690418813",
+        "SCOT/OPR/BAP/3626748"
+      ],
+      "reviewed_new_detail_rows": [
+        "SCOT/OPR/BUR/0915105",
+        "R_685310997",
+        "R_688618719",
+        "R_686353084",
+        "R_687775557",
+        "R_685843827",
+        "R_692403362",
+        "SCOT/OPR/BAP/4477057",
+        "R_686209244",
+        "R_686207175",
+        "R_691903246",
+        "R_686210560",
+        "R_691904966"
+      ],
+      "remaining_detail_rows": []
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=25&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        25
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-24T12:19:51.245245+00:00",
+      "rows": [
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1723",
+          "death_year": "—",
+          "event_year": "1723",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kilwinning, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3626677",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626677"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1732",
+          "death_year": "—",
+          "event_year": "1732",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686209996",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686209996"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1732",
+          "death_year": "—",
+          "event_year": "1732",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691904967",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691904967"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1734",
+          "death_year": "—",
+          "event_year": "1734",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688615340",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688615340"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1734",
+          "death_year": "—",
+          "event_year": "1734",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685309484",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685309484"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1734",
+          "death_year": "—",
+          "event_year": "1734",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686211643",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686211643"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1734",
+          "death_year": "—",
+          "event_year": "1734",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_691904645",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691904645"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1735",
+          "death_year": "—",
+          "event_year": "1735",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_685314697",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685314697"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1735",
+          "death_year": "—",
+          "event_year": "1735",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688618316",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688618316"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1738",
+          "death_year": "—",
+          "event_year": "1738",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kilmarnock, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3599918",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599918"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_688616026",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688616026"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1745",
+          "death_year": "—",
+          "event_year": "1745",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_686352903",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686352903"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1745",
+          "death_year": "—",
+          "event_year": "1745",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland",
+          "record_id": "R_687775348",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_687775348"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1751",
+          "death_year": "—",
+          "event_year": "1751",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Irvine, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3575824",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575824"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1757",
+          "death_year": "—",
+          "event_year": "1757",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland",
+          "record_id": "R_690037922",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690037922"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1767",
+          "death_year": "—",
+          "event_year": "1767",
+          "record_set": "Historical Society Of Pennsylvania, Births & Baptisms",
+          "location": "Call Be Ph 2E-1, , Philadelphia County, PA, Berks and Philadelphia, Pennsylvania, United States",
+          "record_id": "US/BMD/PENN-BAP/00853179",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00853179"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1767",
+          "death_year": "—",
+          "event_year": "1767",
+          "record_set": "Pennsylvania, Episcopalian Births And Baptisms",
+          "location": "Christ Episcopal Church, Philadelphia, Philadelphia County, Pennsylvania",
+          "record_id": "US/HSP/PENN/BAP/0072456",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0072456"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1767",
+          "death_year": "—",
+          "event_year": "1767",
+          "record_set": "Pennsylvania, Episcopalian Births And Baptisms",
+          "location": "Christ Episcopal Church, Philadelphia, Philadelphia County, Pennsylvania",
+          "record_id": "US/HSP/PENN/BAP/0025286",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0025286"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "1782",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland",
+          "record_id": "R_690418811",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690418811"
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Margaret",
+          "birth_year": "1783",
+          "death_year": "—",
+          "event_year": "1783",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Edinburgh, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/0738380",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0738380"
+        }
+      ],
+      "review_status": "reviewed_sources_indexed_person_and_site_sync_pending",
+      "reviewed_cached_rows": [
+        "SCOT/OPR/BAP/3626677",
+        "SCOT/OPR/BAP/3599918",
+        "SCOT/OPR/BAP/3575824"
+      ],
+      "reviewed_new_detail_rows": [
+        "R_686209996",
+        "R_691904967",
+        "R_688615340",
+        "R_685309484",
+        "R_686211643",
+        "R_691904645",
+        "R_685314697",
+        "R_688618316",
+        "R_688616026",
+        "R_686352903",
+        "R_687775348",
+        "R_690037922",
+        "US/BMD/PENN-BAP/00853179",
+        "US/HSP/PENN/BAP/0072456",
+        "US/HSP/PENN/BAP/0025286",
+        "R_690418811",
+        "SCOT/OPR/BAP/0738380"
       ],
       "remaining_detail_rows": []
     }
@@ -27145,6 +27723,991 @@
       "capture_method": "Existing Chrome transcript DOM via Apple Events",
       "matching_status": "scope_hold",
       "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BUR/0915105": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:21:25.379518+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0915105",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0915105&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0915105&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Mackenzie",
+        "Country": "-",
+        "Last name": "Glasgow",
+        "Page": "9",
+        "Occupation": "Weaver",
+        "Archive reference": "OPR 578/12",
+        "Birth year": "1744",
+        "Year Range": "1819-1854",
+        "Age": "80",
+        "Item": "3",
+        "Death year": "-",
+        "Record set": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Burial year": "1824",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Burial date": "10 Jul 1824",
+        "Subcategory": "Parish Burials",
+        "Place": "Ayr",
+        "Collections from": "Great Britain, Scotland",
+        "County": "Ayrshire"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_685310997": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:21:37.841756+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685310997",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685310997&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685310997&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalen",
+        "Mother's last name": "Martine",
+        "Last name": "Glasgow",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Female",
+        "Place": "Irvine",
+        "Birth year": "1743",
+        "County": "Ayrshire",
+        "Baptism year": "1743",
+        "Country": "Scotland",
+        "Baptism date": "29 Mar 1743",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "George",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_688618719": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:21:49.493334+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688618719",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688618719&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688618719&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalen",
+        "Mother's first name(s)": "Margaret",
+        "Last name": "Glasgow",
+        "Mother's last name": "Martine",
+        "Sex": "Female",
+        "Place": "Irvine",
+        "Birth year": "1743",
+        "County": "Ayrshire",
+        "Baptism year": "1743",
+        "Country": "Scotland",
+        "Baptism date": "29 Mar 1743",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "George",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686353084": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:22:01.464423+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686353084",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686353084&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686353084&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalen",
+        "Mother's last name": "Guthrie",
+        "Last name": "Glasgow",
+        "Residence": "West Calder, Midlothian, Scotland",
+        "Sex": "Female",
+        "Place": "West Calder",
+        "Birth year": "1749",
+        "County": "Midlothian",
+        "Baptism year": "1749",
+        "Country": "Scotland",
+        "Baptism date": "29 Jan 1749",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "John",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Magdalen"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_687775557": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:22:44.208102+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_687775557",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_687775557&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_687775557&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalen",
+        "Mother's first name(s)": "Magdalen",
+        "Last name": "Glasgow",
+        "Mother's last name": "Guthrie",
+        "Sex": "Female",
+        "Place": "West Calder",
+        "Birth year": "1749",
+        "County": "Midlothian",
+        "Baptism year": "1749",
+        "Country": "Scotland",
+        "Baptism date": "29 Jan 1749",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "John",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_685843827": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:22:57.699943+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685843827",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685843827&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685843827&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalene",
+        "Mother's last name": "Cunningham",
+        "Last name": "Glasgow",
+        "Residence": "Livingston, West Lothian, Scotland",
+        "Sex": "Female",
+        "Place": "Livingston",
+        "Birth year": "1756",
+        "County": "Linlithgowshire (West Lothian)",
+        "Baptism year": "1756",
+        "Country": "Scotland",
+        "Baptism date": "06 Jun 1756",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "LIVINGSTON, WEST LOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Abraham",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Janet"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_692403362": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:23:10.069046+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_692403362",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_692403362&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_692403362&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalene",
+        "Mother's first name(s)": "Janet",
+        "Last name": "Glasgow",
+        "Mother's last name": "Cunningham",
+        "Sex": "Female",
+        "Place": "Livingston",
+        "Birth year": "1756",
+        "County": "Linlithgowshire (West Lothian)",
+        "Baptism year": "1756",
+        "Country": "Scotland",
+        "Baptism date": "06 Jun 1756",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "LIVINGSTON, WEST LOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Abraham",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/4477057": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:23:21.832244+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477057",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477057&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477057&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalene",
+        "Father's occupation": "Overseer",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Catharine",
+        "Birth year": "1799",
+        "Mother's last name": "Nisbet",
+        "Birth date": "25 Dec 1799",
+        "Archive reference": "OPR 690/3",
+        "Baptism year": "1800",
+        "Register year range": "1766-1819",
+        "Baptism date": "24 Jan 1800",
+        "Item": "2",
+        "Residence": "Meadowbank",
+        "Page": "16",
+        "Place": "Kirknewton & East Calder",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County": "Midlothian",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Country": "Scotland",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "William",
+        "Collections from": "Great Britain, Scotland",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686209244": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:23:50.187210+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686209244",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686209244&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686209244&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Magdalene",
+        "Mother's last name": "Nisbet",
+        "Last name": "Glasgow",
+        "Residence": "Kirknewton, Midlothian, Scotland",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1799",
+        "County": "Midlothian",
+        "Baptism year": "1800",
+        "Country": "Scotland",
+        "Baptism date": "24 Jan 1800",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "William",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Catharine"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686207175": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:24:02.961806+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686207175",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686207175&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686207175&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "-",
+        "Last name": "Glasgow",
+        "Residence": "Kirknewton, Midlothian, Scotland",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1719",
+        "County": "Midlothian",
+        "Baptism year": "1719",
+        "Country": "Scotland",
+        "Baptism date": "12 Jul 1719",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "James",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_691903246": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:24:56.463051+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691903246",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691903246&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691903246&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "-",
+        "Last name": "Glasgow",
+        "Place": "Kirknewton and East Calder",
+        "Sex": "Female",
+        "County": "Midlothian",
+        "Birth year": "1719",
+        "Country": "Scotland",
+        "Baptism year": "1719",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism date": "12 Jul 1719",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "James",
+        "Collections from": "Great Britain, Scotland",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686210560": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:25:09.409862+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686210560",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686210560&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686210560&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's last name": "Mubrie",
+        "Last name": "Glasgow",
+        "Residence": "Kirknewton, Midlothian, Scotland",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1721",
+        "County": "Midlothian",
+        "Baptism year": "1721",
+        "Country": "Scotland",
+        "Baptism date": "14 Nov 1721",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Alexander",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_691904966": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:25:21.988106+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691904966",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691904966&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691904966&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Margaret",
+        "Last name": "Glasgow",
+        "Mother's last name": "Mubrie",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1721",
+        "County": "Midlothian",
+        "Baptism year": "1721",
+        "Country": "Scotland",
+        "Baptism date": "14 Nov 1721",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Alexander",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686209996": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:25:34.028596+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686209996",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686209996&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686209996&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's last name": "Clerk",
+        "Last name": "Glasgow",
+        "Residence": "Kirknewton, Midlothian, Scotland",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1732",
+        "County": "Midlothian",
+        "Baptism year": "1732",
+        "Country": "Scotland",
+        "Baptism date": "16 Oct 1732",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Andrew",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Isobel"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_691904967": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:26:40.954274+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691904967",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691904967&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691904967&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Isobel",
+        "Last name": "Glasgow",
+        "Mother's last name": "Clerk",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1732",
+        "County": "Midlothian",
+        "Baptism year": "1732",
+        "Country": "Scotland",
+        "Baptism date": "16 Oct 1732",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Andrew",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_688615340": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:26:54.622651+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688615340",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688615340&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688615340&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Margarat",
+        "Last name": "Glasgow",
+        "Mother's last name": "Allan",
+        "Sex": "Female",
+        "Place": "Kilbirnie",
+        "Birth year": "1734",
+        "County": "Ayrshire",
+        "Baptism year": "1734",
+        "Country": "Scotland",
+        "Baptism date": "21 Jan 1734",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KILBIRNIE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robert",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_685309484": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:27:08.247407+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685309484",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685309484&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685309484&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's last name": "Allan",
+        "Last name": "Glasgow",
+        "Residence": "Kilbirnie, Ayrshire, Scotland",
+        "Sex": "Female",
+        "Place": "Kilbirnie",
+        "Birth year": "1734",
+        "County": "Ayrshire",
+        "Baptism year": "1734",
+        "Country": "Scotland",
+        "Baptism date": "21 Jan 1734",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KILBIRNIE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robert",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margarat"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686211643": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:27:21.907880+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686211643",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686211643&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686211643&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's last name": "Clerk",
+        "Last name": "Glasgow",
+        "Residence": "Kirknewton, Midlothian, Scotland",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1734",
+        "County": "Midlothian",
+        "Baptism year": "1734",
+        "Country": "Scotland",
+        "Baptism date": "19 Mar 1734",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Andrew",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Isobel"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_691904645": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:28:11.720673+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691904645",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691904645&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691904645&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Isobel",
+        "Last name": "Glasgow",
+        "Mother's last name": "Clerk",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1734",
+        "County": "Midlothian",
+        "Baptism year": "1734",
+        "Country": "Scotland",
+        "Baptism date": "19 Mar 1734",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Andrew",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_685314697": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:28:24.100159+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685314697",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685314697&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685314697&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's last name": "Martin",
+        "Last name": "Glasgow",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Female",
+        "Place": "Irvine",
+        "Birth year": "1735",
+        "County": "Ayrshire",
+        "Baptism year": "1735",
+        "Country": "Scotland",
+        "Baptism date": "19 Jun 1735",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "George",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_688618316": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:30:39.040426+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688618316",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688618316&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688618316&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Margaret",
+        "Last name": "Glasgow",
+        "Mother's last name": "Martin",
+        "Sex": "Female",
+        "Place": "Irvine",
+        "Birth year": "1735",
+        "County": "Ayrshire",
+        "Baptism year": "1735",
+        "Country": "Scotland",
+        "Baptism date": "19 Jun 1735",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "George",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_688616026": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:31:21.579009+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688616026",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688616026&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688616026&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Margarat",
+        "Last name": "Glasgow",
+        "Mother's last name": "Allan",
+        "Sex": "Female",
+        "Place": "Kilbirnie",
+        "Birth year": "1743",
+        "County": "Ayrshire",
+        "Baptism year": "1743",
+        "Country": "Scotland",
+        "Baptism date": "21 Aug 1743",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KILBIRNIE,AYR,SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robert",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_686352903": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:31:33.994249+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686352903",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686352903&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686352903&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's last name": "Anderson",
+        "Last name": "Glasgow",
+        "Residence": "West Calder, Midlothian, Scotland",
+        "Sex": "Female",
+        "Place": "West Calder",
+        "Birth year": "1745",
+        "County": "Midlothian",
+        "Baptism year": "1745",
+        "Country": "Scotland",
+        "Baptism date": "05 May 1745",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "John",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_687775348": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:31:46.635574+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_687775348",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_687775348&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_687775348&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Margaret",
+        "Last name": "Glasgow",
+        "Mother's last name": "Anderson",
+        "Sex": "Female",
+        "Place": "West Calder",
+        "Birth year": "1745",
+        "County": "Midlothian",
+        "Baptism year": "1745",
+        "Country": "Scotland",
+        "Baptism date": "05 May 1745",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "WEST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "John",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_690037922": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:31:58.755927+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_690037922",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_690037922&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_690037922&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "Margaret",
+        "Last name": "Glasgow",
+        "Mother's last name": "Davidson",
+        "Sex": "Female",
+        "Place": "Ayr",
+        "Birth year": "1757",
+        "County": "Ayrshire",
+        "Baptism year": "1757",
+        "Country": "Scotland",
+        "Baptism date": "05 Nov 1757",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "AYR,AYR,SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Mckinzie",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "US/BMD/PENN-BAP/00853179": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:32:56.161093+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00853179",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00853179&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00853179&tab=this",
+      "title": "Record Transcription: Historical Society Of Pennsylvania, Births & Baptisms | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Diocese": "Berks and Philadelphia",
+        "Last name": "Glasgow",
+        "State": "Pennsylvania",
+        "Year": "1767",
+        "Country": "United States",
+        "Birth year": "1767",
+        "Institution": "Christ Church",
+        "Birth date": "24 Jun 1767",
+        "Archive": "Historical Society of Pennsylvania",
+        "Baptism year": "1767",
+        "Register": "Baptism",
+        "Baptism date": "08 Sep 1767",
+        "Date range": "1709- 1768",
+        "Father's first name(s)": "Nathaniel",
+        "Record set": "Historical Society Of Pennsylvania, Births & Baptisms",
+        "Father's last name": "Glasgow",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Mother's first name(s)": "Ann",
+        "Subcategory": "Parish Baptisms",
+        "Mother's last name": "Glasgow",
+        "Collections from": "Americas, United States",
+        "Place": "Call Be Ph 2E-1, , Philadelphia County, PA"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "US/HSP/PENN/BAP/0072456": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:33:07.616552+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0072456",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0072456&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0072456&tab=this",
+      "title": "Record Transcription: Pennsylvania, Episcopalian Births And Baptisms | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Parish": "Christ Episcopal Church",
+        "Last name": "Glasgow",
+        "Place": "Philadelphia",
+        "Birth year": "1767",
+        "County": "Philadelphia County",
+        "Birth date": "24 Jun 1767",
+        "State": "Pennsylvania",
+        "Baptism date": "08 Aug 1767",
+        "Archive": "Historical Society of Pennsylvania",
+        "Father's first name(s)": "Nathaniel",
+        "Record set": "Pennsylvania, Episcopalian Births And Baptisms",
+        "Father's last name": "Glasgow",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Mother's first name(s)": "Ann",
+        "Subcategory": "Parish Baptisms",
+        "Mother's last name": "-",
+        "Collections from": "Americas, United States",
+        "Denomination": "Episcopalian"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "US/HSP/PENN/BAP/0025286": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:33:18.701780+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0025286",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0025286&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0025286&tab=this",
+      "title": "Record Transcription: Pennsylvania, Episcopalian Births And Baptisms | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Parish": "Christ Episcopal Church",
+        "Last name": "Glasgow",
+        "Place": "Philadelphia",
+        "Birth year": "1767",
+        "County": "Philadelphia County",
+        "Birth date": "24 Jun 1767",
+        "State": "Pennsylvania",
+        "Baptism date": "08 Sep 1767",
+        "Archive": "Historical Society of Pennsylvania",
+        "Father's first name(s)": "Nathaniel",
+        "Record set": "Pennsylvania, Episcopalian Births And Baptisms",
+        "Father's last name": "Glasgow",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Mother's first name(s)": "Ann",
+        "Subcategory": "Parish Baptisms",
+        "Mother's last name": "-",
+        "Collections from": "Americas, United States",
+        "Denomination": "Episcopalian"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "identity_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "R_690418811": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:33:59.482893+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_690418811",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_690418811&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_690418811&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Mother's first name(s)": "-",
+        "Last name": "Glasgow",
+        "Place": "Glasgow",
+        "Sex": "Female",
+        "County": "Lanarkshire",
+        "Birth year": "1782",
+        "Country": "Scotland",
+        "Baptism year": "1782",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism date": "02 Nov 1782",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Baptism place": "GLASGOW,LANARK,SCOTLAND",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "-",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "scope_hold",
+      "reviewed_on": "2026-10-24"
+    },
+    "SCOT/OPR/BAP/0738380": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-24T12:34:11.774936+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0738380",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0738380&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0738380&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Margaret",
+        "Father's occupation": "Brewers Servt",
+        "Last name": "Glasgow",
+        "Mother's first name(s)": "Agnes",
+        "Birth year": "1783",
+        "Mother's last name": "Cunningham",
+        "Birth date": "09 Apr 1783",
+        "Archive reference": "OPR 685_2/10",
+        "Baptism year": "1783",
+        "Register year range": "1777-1786",
+        "Baptism date": "12 Apr 1783",
+        "Item": "2",
+        "Residence": "New Grange",
+        "Page": "347",
+        "Place": "Edinburgh",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County": "Midlothian",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Country": "Scotland",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "Alexander",
+        "Collections from": "Great Britain, Scotland",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing Chrome transcript DOM via Apple Events",
+      "matching_status": "matched",
+      "reviewed_on": "2026-10-24"
     }
   },
   "identity_clusters": [
@@ -35149,6 +36712,426 @@
         "catalogue_profiles": {},
         "assessment": "Notice published New York Herald 28 Mar 1869 indexes death 10 Mar 1869, Hawkhead Renfrewshire, age 77 and “Turf sportsman”. “Lord Glasgow” is a title/name form, not proof of Glasgow as birth surname or a New York resident. No current person identification; hold out of natal-surname person count. Scope remains a title/natal-surname HOLD, not a proved identification with a named peer. Hawkhead is the indexed death locality; New York refers to newspaper collection/state, and Birth city1792 is an apparent indexing anomaly, not a birthplace. Source level: Inspected provider derivative transcript; original image not inspected. Literal labelled fields retained in the approved capture ledger.",
         "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1NEWYORKDEATHS~190988",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "SCOT/OPR/BUR/0915105": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-scot-opr-bur-0915105",
+        "documentary_group": "ayr-mackenzie-1824",
+        "catalogue_profiles": {},
+        "assessment": "Mackenzie Glasgow, weaver, buried 10 July 1824 at Ayr; OPR 578/12 p.9 item 3. Age 80 gives only an approximate indexed 1744 birth, and no death date or kin is supplied. Literal Country is blank/hyphen; Scotland is collection-derived context. No person match: the later Belfast Mackenzie marriage is chronologically distinct. Original uninspected; identity held. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~10915105",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_685310997": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-685310997",
+        "documentary_group": "magdalen-irvine-1743",
+        "catalogue_profiles": {
+          "Glasgow-4103": {
+            "role": "Identified child of the held 1743 Irvine George/Margt baptism; selected father remains 98%, no vital or grade change.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative for existing Magdalen Glasgow-4103: baptised 29 March 1743 at Irvine to George Glasgow and Margaret Martine; residence Irvine. It supplies birth year only, whereas held OPR 595/1 transcript explicitly reports 22 March birth and mother Margt. Martine is a literal surname in this derivative, not an assigned adult mother profile. Same event, no new child or relationship regrade; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685310997",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_688618719": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-688618719",
+        "documentary_group": "magdalen-irvine-1743",
+        "catalogue_profiles": {
+          "Glasgow-4103": {
+            "role": "Identified existing child of 29 March 1743 Irvine baptism; mother surname remains a source reading, not a profile identification.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative for existing Magdalen Glasgow-4103; 29 March 1743 Irvine baptism, George Glasgow and Margaret Martine. No exact birth date in this index; held OPR transcript reports 22 March birth. Not independent original corroboration; no new child, vital or grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688618719",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686353084": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-686353084",
+        "documentary_group": "magdalen-west-calder-1749",
+        "catalogue_profiles": {
+          "Glasgow-1331": {
+            "role": "Identified 1749 West Calder baptism child; existing father Glasgow-81 64% probable and mother Guthrie-777 unassessed.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative for existing Magdalen Glasgow-1331, baptised 29 January 1749 at West Calder to John Glasgow and Magdalen Guthrie; residence West Calder. Birth year is indexed; no exact birth day. Father Glasgow-81 remains 64% probable, mother Guthrie-777 unassessed; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686353084",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_687775557": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-687775557",
+        "documentary_group": "magdalen-west-calder-1749",
+        "catalogue_profiles": {
+          "Glasgow-1331": {
+            "role": "Identified existing 1749 West Calder baptism child; father/mother assessments unchanged.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative for existing Magdalen Glasgow-1331, same 29 January 1749 West Calder baptism and John Glasgow/Magdalen Guthrie parents. It omits explicit residence and exact birth date; companion indexes are not separate children or original corroboration. No vital or grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687775557",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_685843827": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-685843827",
+        "documentary_group": "magdalene-livingston-1756",
+        "catalogue_profiles": {
+          "Glasgow-1230": {
+            "role": "Identified existing Livingston baptism child; father Glasgow-1227 stays 85% probable and mother Cunningham-20925 unassessed.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative for existing Magdalene Glasgow-1230, baptised 6 June 1756 at Livingston to Abraham Glasgow and Janet Cunningham; residence Livingston. Birth year only, not exact birthday. Adult father identity remains at 85% probable and mother separately unassessed; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685843827",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_692403362": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-692403362",
+        "documentary_group": "magdalene-livingston-1756",
+        "catalogue_profiles": {
+          "Glasgow-1230": {
+            "role": "Identified existing 1756 Livingston baptism child; no father/mother grade change.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative for existing Magdalene Glasgow-1230, same 6 June 1756 Livingston baptism with Abraham Glasgow and Janet Cunningham. It omits residence and exact birth date. Same historical child event, not independent original corroboration; no vital or grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692403362",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "SCOT/OPR/BAP/4477057": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-scot-opr-bap-4477057",
+        "documentary_group": "magdalene-kirknewton-1799-1800",
+        "catalogue_profiles": {},
+        "assessment": "Record-defined Magdalene born 25 December 1799 and baptised 24 January 1800 at Kirknewton and East Calder to William Glasgow, overseer, and Catharine Nisbet; OPR 690/3 p.16 item2, Meadowbank residence. Held companion 4478228 gives identical birth and parents but Whitemop residence and no baptism date. Address difference unresolved. No child profile identified; William-1223 and Nisbet-3257 are qualified adult household comparisons only, Catherine-1224 a sibling comparison. No person or relationship change; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14477057",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686209244": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-686209244",
+        "documentary_group": "magdalene-kirknewton-1799-1800",
+        "catalogue_profiles": {},
+        "assessment": "Companion index gives Magdalene baptised 24 January 1800 at Kirknewton and East Calder to William Glasgow and Catharine Nisbet; broad Kirknewton residence, indexed birth year 1799 but no exact birth day. More detailed 4477057 reports 25 December 1799 birth and Meadowbank; held 4478228 reports same birth and Whitemop. One child event with unresolved residence variation, no child profile or parent-grade change; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209244",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686207175": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-686207175",
+        "documentary_group": "kirknewton-margaret-james-1719",
+        "catalogue_profiles": {},
+        "assessment": "One 12 Jul 1719 Kirknewton baptism, father James Glasgow, mother unnamed. No matching existing child identified; adult James-3526 is a local household candidate with 1547 alternative, neither proved. Year-only birth is not exact. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686207175",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_691903246": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-691903246",
+        "documentary_group": "kirknewton-margaret-james-1719",
+        "catalogue_profiles": {},
+        "assessment": "One 12 Jul 1719 Kirknewton baptism, father James Glasgow, mother unnamed. No matching existing child identified; adult James-3526 is a local household candidate with 1547 alternative, neither proved. Year-only birth is not exact. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691903246",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686210560": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-686210560",
+        "documentary_group": "kirknewton-margaret-alexander-1721",
+        "catalogue_profiles": {
+          "Glasgow-1341": {
+            "role": "Strong child/event match by 14 Nov 1721 baptism, Kirknewton, Alexander Glasgow and Margaret Mubrie; modern parent IDs and spelling remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "One 14 Nov 1721 Kirknewton baptism; named Alexander Glasgow and Margaret Mubrie. Same child event Glasgow-1341; no exact birth. Selected father Glasgow-1141 90% unchanged, adult bridge and Mubrie/Moultrie equivalence unresolved. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686210560",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_691904966": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-691904966",
+        "documentary_group": "kirknewton-margaret-alexander-1721",
+        "catalogue_profiles": {
+          "Glasgow-1341": {
+            "role": "Strong child/event match by 14 Nov 1721 baptism, Kirknewton, Alexander Glasgow and Margaret Mubrie; modern parent IDs and spelling remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "One 14 Nov 1721 Kirknewton baptism; named Alexander Glasgow and Margaret Mubrie. Same child event Glasgow-1341; no exact birth. Selected father Glasgow-1141 90% unchanged, adult bridge and Mubrie/Moultrie equivalence unresolved. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904966",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686209996": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-686209996",
+        "documentary_group": "kirknewton-margaret-andrew-1732",
+        "catalogue_profiles": {
+          "Glasgow-1322": {
+            "role": "Strong child/event match by 16 Oct 1732 baptism, Kirknewton, Andrew Glasgow and Isobel Clerk; death and adult Andrew bridge uncertain.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "One 16 Oct 1732 Kirknewton baptism, father Andrew Glasgow, mother Isobel Clerk. Same child event Glasgow-1322; birth before baptism, death c.1733 only estimate. Selected father Glasgow-1336 74% unchanged, adult identity open; do not conflate 1734 sibling. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209996",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_691904967": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-691904967",
+        "documentary_group": "kirknewton-margaret-andrew-1732",
+        "catalogue_profiles": {
+          "Glasgow-1322": {
+            "role": "Strong child/event match by 16 Oct 1732 baptism, Kirknewton, Andrew Glasgow and Isobel Clerk; death and adult Andrew bridge uncertain.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "One 16 Oct 1732 Kirknewton baptism, father Andrew Glasgow, mother Isobel Clerk. Same child event Glasgow-1322; birth before baptism, death c.1733 only estimate. Selected father Glasgow-1336 74% unchanged, adult identity open; do not conflate 1734 sibling. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904967",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_688615340": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-688615340",
+        "documentary_group": "kilbirnie-margaret-robert-1734",
+        "catalogue_profiles": {
+          "Glasgow-3007": {
+            "role": "Strong child/event match by 21 Jan 1734 Kilbirnie baptism and Robert Glasgow/Margarat Allan household; 1743 same-name event unresolved.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "One 21 Jan 1734 Kilbirnie baptism, father Robert Glasgow, mother Margarat Allan. Same 1734 child event Glasgow-3007. No exact birth or death proof. Held 1743 same-name child may be separate or date/citation issue; selected father Glasgow-1075 93% unchanged. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688615340",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_685309484": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-685309484",
+        "documentary_group": "kilbirnie-margaret-robert-1734",
+        "catalogue_profiles": {
+          "Glasgow-3007": {
+            "role": "Strong child/event match by 21 Jan 1734 Kilbirnie baptism and Robert Glasgow/Margarat Allan household; 1743 same-name event unresolved.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "One 21 Jan 1734 Kilbirnie baptism, father Robert Glasgow, mother Margarat Allan. Same 1734 child event Glasgow-3007. No exact birth or death proof. Held 1743 same-name child may be separate or date/citation issue; selected father Glasgow-1075 93% unchanged. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685309484",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686211643": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-686211643",
+        "documentary_group": "kirknewton-margaret-1734",
+        "catalogue_profiles": {
+          "Glasgow-3053": {
+            "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative of held FamilySearch 1734 child event; 19 Mar is baptism, birth day unstated. Literal father Andrew and mother Isobel Clerk clarify the recorded parent roles, but adult Andrew-to-Glasgow-1336 remains unproved. R_686211643 adds Kirknewton residence. Separate 1732 Margaret child account remains; early death unproved. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686211643",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_691904645": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-691904645",
+        "documentary_group": "kirknewton-margaret-1734",
+        "catalogue_profiles": {
+          "Glasgow-3053": {
+            "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Same 19 Mar 1734 Andrew Glasgow/Isobel Clerk baptism as R_686211643; companion derivative, not a second child or independent original. No exact birth day or adult-profile identity proof. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904645",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_685314697": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-685314697",
+        "documentary_group": "irvine-margaret-george-martin-1735",
+        "catalogue_profiles": {},
+        "assessment": "First detailed child entry here: baptised 19 Jun 1735 Irvine to George Glasgow and Margaret Martin; R_685314697 gives Irvine residence. George-1058/Martin-103040 are compatible named-adult household comparisons given 1728 marriage and Andrew 1733, but their adult profile identities remain qualified and indexed children omit Margaret. Existing 1720 John/Agnes Irvine and 1734 Robert/Allan Kilbirnie Margarets are different recorded families. Source-only identity HOLD; no child creation or parent attachment. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314697",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_688618316": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-688618316",
+        "documentary_group": "irvine-margaret-george-martin-1735",
+        "catalogue_profiles": {},
+        "assessment": "Companion derivative of R_685314697: same 19 Jun 1735 Irvine baptism, George Glasgow/Margaret Martin. No residence field in this copy. Qualified George-1058/Martin-103040 adult-household comparison only; no assigned Margaret child profile, source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688618316",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_688616026": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-688616026",
+        "documentary_group": "kilbirnie-margaret-robert-allan-1743",
+        "catalogue_profiles": {
+          "Glasgow-3878": {
+            "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative for held 21 Aug 1743 Kilbirnie child event, Robert Glasgow/Margarat Allan; existing NRS and FMP SCOT/OPR/BAP/3586849 evidence held. Does not settle separate Jan 1744 derivative date or Glasgow-3007 versus Glasgow-3878 child-account question. Original registers uninspected; no vital or parent grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688616026",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_686352903": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-686352903",
+        "documentary_group": "west-calder-margaret-john-anderson-1745",
+        "catalogue_profiles": {
+          "Glasgow-2849": {
+            "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Derivative of held West Calder 1745 child event, now literal 5 May baptism, father John Glasgow and mother Margaret Anderson; this copy adds West Calder residence. Exact birth day not given. Recorded parent roles support child account, but adult John-2847 childhood-to-adult identity remains qualified; no father grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686352903",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_687775348": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-687775348",
+        "documentary_group": "west-calder-margaret-john-anderson-1745",
+        "catalogue_profiles": {
+          "Glasgow-2849": {
+            "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Companion derivative of R_686352903 for the 5 May 1745 West Calder baptism, John Glasgow/Margaret Anderson. No residence field in this copy and no exact birth day. Adult parent-profile identity remains qualified. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687775348",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_690037922": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-690037922",
+        "documentary_group": "ayr-margaret-mckinzie-davidson-1757",
+        "catalogue_profiles": {},
+        "assessment": "First detailed child entry here: 5 Nov 1757 Ayr baptism, father Mckinzie Glasgow, mother Margaret Davidson; birth year indexed, no exact birth day. McKenzie Glasgow-3588 (1734 North Leith child) is a compatible but unbridged adult-father comparison. Ayr Mackenzie weaver burial 10 Jul 1824, SCOT/OPR/BUR/0915105, is a rare-name/locality tentative comparison; age 80/indexed 1744 would imply a 13-year-old father in 1757 if exact, and ages may err. Do not merge identities or assign a child profile. Source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690037922",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "US/BMD/PENN-BAP/00853179": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-us-bmd-penn-bap-00853179",
+        "documentary_group": "philadelphia-margaret-nathaniel-ann-1767",
+        "catalogue_profiles": {},
+        "assessment": "First detailed child entry here: literal birth 24 Jun 1767, Nathaniel Glasgow and Ann; Christ Church/Historical Society of Pennsylvania context. This derivative gives baptism 8 Sep 1767; companion US/HSP/PENN/BAP/0072456 says 8 Aug, while 0025286 says 8 Sep. Archive call-number string in Place is not a residential address. No matching Margaret child profile identified; Nathaniel-603 has no family bridge. Source-only HOLD, no new person. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BAP~100853179",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "US/HSP/PENN/BAP/0072456": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-us-hsp-penn-bap-0072456",
+        "documentary_group": "philadelphia-margaret-nathaniel-ann-1767",
+        "catalogue_profiles": {},
+        "assessment": "Companion Christ Episcopal/HSP derivative: same literal birth 24 Jun 1767 and Nathaniel Glasgow/Ann household, but baptism 8 Aug 1767 conflicts with 8 Sep in the other two receipts. Mother surname field is blank dash; do not treat it as natal Glasgow. No matching child profile; original register needed. Source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt. Literal Country is absent; reviewed United States context comes from the labelled Pennsylvania State and Americas, United States collection fields, not an added literal transcript value.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10072456",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "US/HSP/PENN/BAP/0025286": {
+        "status": "identity_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-us-hsp-penn-bap-0025286",
+        "documentary_group": "philadelphia-margaret-nathaniel-ann-1767",
+        "catalogue_profiles": {},
+        "assessment": "Companion Christ Episcopal/HSP derivative: literal birth 24 Jun 1767, baptism 8 Sep 1767, Nathaniel Glasgow/Ann; agrees with 00853179 baptism and conflicts with 0072456 8 Aug. Mother surname field is blank dash; no matching child profile. Source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt. Literal Country is absent; reviewed United States context comes from the labelled Pennsylvania State and Americas, United States collection fields, not an added literal transcript value.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10025286",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "R_690418811": {
+        "status": "scope_hold",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-r-690418811",
+        "documentary_group": "glasgow-lanark-margaret-1782",
+        "catalogue_profiles": {},
+        "assessment": "First detailed 2 Nov 1782 Glasgow, Lanarkshire baptism, with indexed 1782 birth year but no exact birth date; both parent fields blank. Glasgow-3072 (uncertain 1779 birth, death 1788) is a compatible child candidate requiring original comparison; Glasgow-3388 current exact May 1783 birth conflicts chronologically with a Nov 1782 baptism unless earlier date is wrong. Distinct from sparse R_690418812 1783 Glasgow index and Edinburgh 12 Apr 1783 Alexander/Agnes entry. Identity HOLD, no attachment or vital change. The indexed birth year is not an independently established infant birth; a parent-blank baptism does not establish surname at birth. Retain natal-surname/adult-baptism scope and identity HOLD; no new person follows. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690418811",
+        "new_person_proposed": false,
+        "reviewed_on": "2026-10-24"
+      },
+      "SCOT/OPR/BAP/0738380": {
+        "status": "matched",
+        "indexed": true,
+        "canonical_record_id": "fmp-record-scot-opr-bap-0738380",
+        "documentary_group": "edinburgh-margaret-alexander-agnes-1783",
+        "catalogue_profiles": {
+          "Glasgow-2101": {
+            "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+            "timeline_group": "Qualified source records"
+          }
+        },
+        "assessment": "Derivative OPR 685_2/10 p347 item 2 states birth 9 Apr 1783, baptism 12 Apr Edinburgh, father Alexander Glasgow, mother Agnes Cunningham, residence New Grange, father Brewers Servt. Matches existing Glasgow-2101 12 Apr St Cuthberts child-event citation; current public birth bound before 1783-04-12 is compatible, while old full draft shortened it to before 1783. Draft mother Cunninghame-96 and catalogue attached mother Cunningham-20926 remain distinct adult-profile claims; transcript names Agnes Cunningham but does not choose the adult ID. No structured vital, mother link or father grade change. Not the parent-blank Glasgow 1782 event. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+        "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~10738380",
         "new_person_proposed": false,
         "reviewed_on": "2026-10-24"
       }
@@ -55729,7 +57712,7 @@
         "SCOT/OPR/BAP/4600209",
         "SCOT/OPR/BAP/4816038"
       ],
-      "status": "Historical counts_before retained. Current source-aware inventory after pages 22–23: 877 accessible IDs, 784 represented and 93 unindexed across the same approved files. Prior unchanged identity/scope HOLDs retain completed screening; do not repeat without a new discriminator.",
+      "status": "Current source-aware inventory after pages24–25: {'accessible_ids': 907, 'represented_ids': 814, 'remaining_unindexed': 93}. Historical counts retained. Prior unchanged identity/scope HOLDs retain completed screening; do not repeat without a new discriminator.",
       "prior_hold_reconciliation": "The six records already had23October no_eligible_role_proved dispositions, now superseded by positive existing-family comparisons; earlier HOLDs for other IDs remain current. The preflight report missed dictionary-keyed record_dispositions; absence of its explicit hold flag was not evidence of no prior review. Twelve further23October no_eligible_role_proved snapshots retained in previous_disposition_20261023; current24October source integration identifies the Barony child or provides compatible adult/child comparisons. Missing identity bridges are not exclusions.",
       "superseded_preflight_hold_count": {
         "reported": 0,
@@ -55739,8 +57722,8 @@
       "remaining_opr_review_status": "All42remaining OPR IDs now have source-field, current household/child and cutoff checks. Preserve their HOLDs; do not repeat comparisons or fetch again without a discriminating new source question.",
       "remaining_opr_ids_reviewed_on": "2026-10-24",
       "source_aware_current_counts": {
-        "accessible_ids": 877,
-        "represented_ids": 784,
+        "accessible_ids": 907,
+        "represented_ids": 814,
         "remaining_unindexed": 93
       },
       "source_library_gap_corrections": [
@@ -64615,6 +66598,926 @@
       },
       "verification_status": "verified_local_site_not_deployed",
       "verification_report": "output/findmypast-pages22-23-20261024-verification.json"
+    },
+    "pages24_25_review_20261024": {
+      "reviewed_on": "2026-10-24",
+      "new_provider_transcripts": 30,
+      "newly_captured_this_turn": 30,
+      "newly_indexed_provider_records": 30,
+      "documentary_groups": 25,
+      "first_seen_documentary_entry_groups": 6,
+      "first_seen_scope_qualified_groups": 2,
+      "new_people": 0,
+      "vital_changes": [],
+      "relationship_changes": [],
+      "original_registers_inspected": 0,
+      "record_dispositions": {
+        "SCOT/OPR/BUR/0915105": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bur-0915105",
+          "documentary_group": "ayr-mackenzie-1824",
+          "catalogue_profiles": {},
+          "assessment": "Mackenzie Glasgow, weaver, buried 10 July 1824 at Ayr; OPR 578/12 p.9 item 3. Age 80 gives only an approximate indexed 1744 birth, and no death date or kin is supplied. Literal Country is blank/hyphen; Scotland is collection-derived context. No person match: the later Belfast Mackenzie marriage is chronologically distinct. Original uninspected; identity held. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~10915105",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_685310997": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685310997",
+          "documentary_group": "magdalen-irvine-1743",
+          "catalogue_profiles": {
+            "Glasgow-4103": {
+              "role": "Identified child of the held 1743 Irvine George/Margt baptism; selected father remains 98%, no vital or grade change.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative for existing Magdalen Glasgow-4103: baptised 29 March 1743 at Irvine to George Glasgow and Margaret Martine; residence Irvine. It supplies birth year only, whereas held OPR 595/1 transcript explicitly reports 22 March birth and mother Margt. Martine is a literal surname in this derivative, not an assigned adult mother profile. Same event, no new child or relationship regrade; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685310997",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_688618719": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-688618719",
+          "documentary_group": "magdalen-irvine-1743",
+          "catalogue_profiles": {
+            "Glasgow-4103": {
+              "role": "Identified existing child of 29 March 1743 Irvine baptism; mother surname remains a source reading, not a profile identification.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative for existing Magdalen Glasgow-4103; 29 March 1743 Irvine baptism, George Glasgow and Margaret Martine. No exact birth date in this index; held OPR transcript reports 22 March birth. Not independent original corroboration; no new child, vital or grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688618719",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_686353084": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686353084",
+          "documentary_group": "magdalen-west-calder-1749",
+          "catalogue_profiles": {
+            "Glasgow-1331": {
+              "role": "Identified 1749 West Calder baptism child; existing father Glasgow-81 64% probable and mother Guthrie-777 unassessed.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative for existing Magdalen Glasgow-1331, baptised 29 January 1749 at West Calder to John Glasgow and Magdalen Guthrie; residence West Calder. Birth year is indexed; no exact birth day. Father Glasgow-81 remains 64% probable, mother Guthrie-777 unassessed; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686353084",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_687775557": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-687775557",
+          "documentary_group": "magdalen-west-calder-1749",
+          "catalogue_profiles": {
+            "Glasgow-1331": {
+              "role": "Identified existing 1749 West Calder baptism child; father/mother assessments unchanged.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative for existing Magdalen Glasgow-1331, same 29 January 1749 West Calder baptism and John Glasgow/Magdalen Guthrie parents. It omits explicit residence and exact birth date; companion indexes are not separate children or original corroboration. No vital or grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687775557",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_685843827": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685843827",
+          "documentary_group": "magdalene-livingston-1756",
+          "catalogue_profiles": {
+            "Glasgow-1230": {
+              "role": "Identified existing Livingston baptism child; father Glasgow-1227 stays 85% probable and mother Cunningham-20925 unassessed.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative for existing Magdalene Glasgow-1230, baptised 6 June 1756 at Livingston to Abraham Glasgow and Janet Cunningham; residence Livingston. Birth year only, not exact birthday. Adult father identity remains at 85% probable and mother separately unassessed; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685843827",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_692403362": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-692403362",
+          "documentary_group": "magdalene-livingston-1756",
+          "catalogue_profiles": {
+            "Glasgow-1230": {
+              "role": "Identified existing 1756 Livingston baptism child; no father/mother grade change.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative for existing Magdalene Glasgow-1230, same 6 June 1756 Livingston baptism with Abraham Glasgow and Janet Cunningham. It omits residence and exact birth date. Same historical child event, not independent original corroboration; no vital or grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692403362",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "SCOT/OPR/BAP/4477057": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bap-4477057",
+          "documentary_group": "magdalene-kirknewton-1799-1800",
+          "catalogue_profiles": {},
+          "assessment": "Record-defined Magdalene born 25 December 1799 and baptised 24 January 1800 at Kirknewton and East Calder to William Glasgow, overseer, and Catharine Nisbet; OPR 690/3 p.16 item2, Meadowbank residence. Held companion 4478228 gives identical birth and parents but Whitemop residence and no baptism date. Address difference unresolved. No child profile identified; William-1223 and Nisbet-3257 are qualified adult household comparisons only, Catherine-1224 a sibling comparison. No person or relationship change; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14477057",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_686209244": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686209244",
+          "documentary_group": "magdalene-kirknewton-1799-1800",
+          "catalogue_profiles": {},
+          "assessment": "Companion index gives Magdalene baptised 24 January 1800 at Kirknewton and East Calder to William Glasgow and Catharine Nisbet; broad Kirknewton residence, indexed birth year 1799 but no exact birth day. More detailed 4477057 reports 25 December 1799 birth and Meadowbank; held 4478228 reports same birth and Whitemop. One child event with unresolved residence variation, no child profile or parent-grade change; original uninspected. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209244",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_686207175": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686207175",
+          "documentary_group": "kirknewton-margaret-james-1719",
+          "catalogue_profiles": {},
+          "assessment": "One 12 Jul 1719 Kirknewton baptism, father James Glasgow, mother unnamed. No matching existing child identified; adult James-3526 is a local household candidate with 1547 alternative, neither proved. Year-only birth is not exact. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686207175",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_691903246": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-691903246",
+          "documentary_group": "kirknewton-margaret-james-1719",
+          "catalogue_profiles": {},
+          "assessment": "One 12 Jul 1719 Kirknewton baptism, father James Glasgow, mother unnamed. No matching existing child identified; adult James-3526 is a local household candidate with 1547 alternative, neither proved. Year-only birth is not exact. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691903246",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_686210560": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686210560",
+          "documentary_group": "kirknewton-margaret-alexander-1721",
+          "catalogue_profiles": {
+            "Glasgow-1341": {
+              "role": "Strong child/event match by 14 Nov 1721 baptism, Kirknewton, Alexander Glasgow and Margaret Mubrie; modern parent IDs and spelling remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "One 14 Nov 1721 Kirknewton baptism; named Alexander Glasgow and Margaret Mubrie. Same child event Glasgow-1341; no exact birth. Selected father Glasgow-1141 90% unchanged, adult bridge and Mubrie/Moultrie equivalence unresolved. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686210560",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_691904966": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-691904966",
+          "documentary_group": "kirknewton-margaret-alexander-1721",
+          "catalogue_profiles": {
+            "Glasgow-1341": {
+              "role": "Strong child/event match by 14 Nov 1721 baptism, Kirknewton, Alexander Glasgow and Margaret Mubrie; modern parent IDs and spelling remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "One 14 Nov 1721 Kirknewton baptism; named Alexander Glasgow and Margaret Mubrie. Same child event Glasgow-1341; no exact birth. Selected father Glasgow-1141 90% unchanged, adult bridge and Mubrie/Moultrie equivalence unresolved. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904966",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_686209996": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686209996",
+          "documentary_group": "kirknewton-margaret-andrew-1732",
+          "catalogue_profiles": {
+            "Glasgow-1322": {
+              "role": "Strong child/event match by 16 Oct 1732 baptism, Kirknewton, Andrew Glasgow and Isobel Clerk; death and adult Andrew bridge uncertain.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "One 16 Oct 1732 Kirknewton baptism, father Andrew Glasgow, mother Isobel Clerk. Same child event Glasgow-1322; birth before baptism, death c.1733 only estimate. Selected father Glasgow-1336 74% unchanged, adult identity open; do not conflate 1734 sibling. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209996",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_691904967": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-691904967",
+          "documentary_group": "kirknewton-margaret-andrew-1732",
+          "catalogue_profiles": {
+            "Glasgow-1322": {
+              "role": "Strong child/event match by 16 Oct 1732 baptism, Kirknewton, Andrew Glasgow and Isobel Clerk; death and adult Andrew bridge uncertain.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "One 16 Oct 1732 Kirknewton baptism, father Andrew Glasgow, mother Isobel Clerk. Same child event Glasgow-1322; birth before baptism, death c.1733 only estimate. Selected father Glasgow-1336 74% unchanged, adult identity open; do not conflate 1734 sibling. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904967",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_688615340": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-688615340",
+          "documentary_group": "kilbirnie-margaret-robert-1734",
+          "catalogue_profiles": {
+            "Glasgow-3007": {
+              "role": "Strong child/event match by 21 Jan 1734 Kilbirnie baptism and Robert Glasgow/Margarat Allan household; 1743 same-name event unresolved.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "One 21 Jan 1734 Kilbirnie baptism, father Robert Glasgow, mother Margarat Allan. Same 1734 child event Glasgow-3007. No exact birth or death proof. Held 1743 same-name child may be separate or date/citation issue; selected father Glasgow-1075 93% unchanged. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688615340",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_685309484": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685309484",
+          "documentary_group": "kilbirnie-margaret-robert-1734",
+          "catalogue_profiles": {
+            "Glasgow-3007": {
+              "role": "Strong child/event match by 21 Jan 1734 Kilbirnie baptism and Robert Glasgow/Margarat Allan household; 1743 same-name event unresolved.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "One 21 Jan 1734 Kilbirnie baptism, father Robert Glasgow, mother Margarat Allan. Same 1734 child event Glasgow-3007. No exact birth or death proof. Held 1743 same-name child may be separate or date/citation issue; selected father Glasgow-1075 93% unchanged. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685309484",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_686211643": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686211643",
+          "documentary_group": "kirknewton-margaret-1734",
+          "catalogue_profiles": {
+            "Glasgow-3053": {
+              "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative of held FamilySearch 1734 child event; 19 Mar is baptism, birth day unstated. Literal father Andrew and mother Isobel Clerk clarify the recorded parent roles, but adult Andrew-to-Glasgow-1336 remains unproved. R_686211643 adds Kirknewton residence. Separate 1732 Margaret child account remains; early death unproved. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686211643",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_691904645": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-691904645",
+          "documentary_group": "kirknewton-margaret-1734",
+          "catalogue_profiles": {
+            "Glasgow-3053": {
+              "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Same 19 Mar 1734 Andrew Glasgow/Isobel Clerk baptism as R_686211643; companion derivative, not a second child or independent original. No exact birth day or adult-profile identity proof. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904645",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_685314697": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685314697",
+          "documentary_group": "irvine-margaret-george-martin-1735",
+          "catalogue_profiles": {},
+          "assessment": "First detailed child entry here: baptised 19 Jun 1735 Irvine to George Glasgow and Margaret Martin; R_685314697 gives Irvine residence. George-1058/Martin-103040 are compatible named-adult household comparisons given 1728 marriage and Andrew 1733, but their adult profile identities remain qualified and indexed children omit Margaret. Existing 1720 John/Agnes Irvine and 1734 Robert/Allan Kilbirnie Margarets are different recorded families. Source-only identity HOLD; no child creation or parent attachment. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314697",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_688618316": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-688618316",
+          "documentary_group": "irvine-margaret-george-martin-1735",
+          "catalogue_profiles": {},
+          "assessment": "Companion derivative of R_685314697: same 19 Jun 1735 Irvine baptism, George Glasgow/Margaret Martin. No residence field in this copy. Qualified George-1058/Martin-103040 adult-household comparison only; no assigned Margaret child profile, source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688618316",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_688616026": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-688616026",
+          "documentary_group": "kilbirnie-margaret-robert-allan-1743",
+          "catalogue_profiles": {
+            "Glasgow-3878": {
+              "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative for held 21 Aug 1743 Kilbirnie child event, Robert Glasgow/Margarat Allan; existing NRS and FMP SCOT/OPR/BAP/3586849 evidence held. Does not settle separate Jan 1744 derivative date or Glasgow-3007 versus Glasgow-3878 child-account question. Original registers uninspected; no vital or parent grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688616026",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_686352903": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686352903",
+          "documentary_group": "west-calder-margaret-john-anderson-1745",
+          "catalogue_profiles": {
+            "Glasgow-2849": {
+              "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Derivative of held West Calder 1745 child event, now literal 5 May baptism, father John Glasgow and mother Margaret Anderson; this copy adds West Calder residence. Exact birth day not given. Recorded parent roles support child account, but adult John-2847 childhood-to-adult identity remains qualified; no father grade change. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686352903",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_687775348": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-687775348",
+          "documentary_group": "west-calder-margaret-john-anderson-1745",
+          "catalogue_profiles": {
+            "Glasgow-2849": {
+              "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion derivative of R_686352903 for the 5 May 1745 West Calder baptism, John Glasgow/Margaret Anderson. No residence field in this copy and no exact birth day. Adult parent-profile identity remains qualified. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687775348",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_690037922": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-690037922",
+          "documentary_group": "ayr-margaret-mckinzie-davidson-1757",
+          "catalogue_profiles": {},
+          "assessment": "First detailed child entry here: 5 Nov 1757 Ayr baptism, father Mckinzie Glasgow, mother Margaret Davidson; birth year indexed, no exact birth day. McKenzie Glasgow-3588 (1734 North Leith child) is a compatible but unbridged adult-father comparison. Ayr Mackenzie weaver burial 10 Jul 1824, SCOT/OPR/BUR/0915105, is a rare-name/locality tentative comparison; age 80/indexed 1744 would imply a 13-year-old father in 1757 if exact, and ages may err. Do not merge identities or assign a child profile. Source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690037922",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "US/BMD/PENN-BAP/00853179": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-us-bmd-penn-bap-00853179",
+          "documentary_group": "philadelphia-margaret-nathaniel-ann-1767",
+          "catalogue_profiles": {},
+          "assessment": "First detailed child entry here: literal birth 24 Jun 1767, Nathaniel Glasgow and Ann; Christ Church/Historical Society of Pennsylvania context. This derivative gives baptism 8 Sep 1767; companion US/HSP/PENN/BAP/0072456 says 8 Aug, while 0025286 says 8 Sep. Archive call-number string in Place is not a residential address. No matching Margaret child profile identified; Nathaniel-603 has no family bridge. Source-only HOLD, no new person. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BAP~100853179",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "US/HSP/PENN/BAP/0072456": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-us-hsp-penn-bap-0072456",
+          "documentary_group": "philadelphia-margaret-nathaniel-ann-1767",
+          "catalogue_profiles": {},
+          "assessment": "Companion Christ Episcopal/HSP derivative: same literal birth 24 Jun 1767 and Nathaniel Glasgow/Ann household, but baptism 8 Aug 1767 conflicts with 8 Sep in the other two receipts. Mother surname field is blank dash; do not treat it as natal Glasgow. No matching child profile; original register needed. Source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt. Literal Country is absent; reviewed United States context comes from the labelled Pennsylvania State and Americas, United States collection fields, not an added literal transcript value.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10072456",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "US/HSP/PENN/BAP/0025286": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-us-hsp-penn-bap-0025286",
+          "documentary_group": "philadelphia-margaret-nathaniel-ann-1767",
+          "catalogue_profiles": {},
+          "assessment": "Companion Christ Episcopal/HSP derivative: literal birth 24 Jun 1767, baptism 8 Sep 1767, Nathaniel Glasgow/Ann; agrees with 00853179 baptism and conflicts with 0072456 8 Aug. Mother surname field is blank dash; no matching child profile. Source-only HOLD. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt. Literal Country is absent; reviewed United States context comes from the labelled Pennsylvania State and Americas, United States collection fields, not an added literal transcript value.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10025286",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "R_690418811": {
+          "status": "scope_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-690418811",
+          "documentary_group": "glasgow-lanark-margaret-1782",
+          "catalogue_profiles": {},
+          "assessment": "First detailed 2 Nov 1782 Glasgow, Lanarkshire baptism, with indexed 1782 birth year but no exact birth date; both parent fields blank. Glasgow-3072 (uncertain 1779 birth, death 1788) is a compatible child candidate requiring original comparison; Glasgow-3388 current exact May 1783 birth conflicts chronologically with a Nov 1782 baptism unless earlier date is wrong. Distinct from sparse R_690418812 1783 Glasgow index and Edinburgh 12 Apr 1783 Alexander/Agnes entry. Identity HOLD, no attachment or vital change. The indexed birth year is not an independently established infant birth; a parent-blank baptism does not establish surname at birth. Retain natal-surname/adult-baptism scope and identity HOLD; no new person follows. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690418811",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        },
+        "SCOT/OPR/BAP/0738380": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bap-0738380",
+          "documentary_group": "edinburgh-margaret-alexander-agnes-1783",
+          "catalogue_profiles": {
+            "Glasgow-2101": {
+              "role": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified.",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Derivative OPR 685_2/10 p347 item 2 states birth 9 Apr 1783, baptism 12 Apr Edinburgh, father Alexander Glasgow, mother Agnes Cunningham, residence New Grange, father Brewers Servt. Matches existing Glasgow-2101 12 Apr St Cuthberts child-event citation; current public birth bound before 1783-04-12 is compatible, while old full draft shortened it to before 1783. Draft mother Cunninghame-96 and catalogue attached mother Cunningham-20926 remain distinct adult-profile claims; transcript names Agnes Cunningham but does not choose the adult ID. No structured vital, mother link or father grade change. Not the parent-blank Glasgow 1782 event. Source level: Inspected provider derivative transcript; original image not inspected. Literal transcript fields retained in overlay receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~10738380",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-24"
+        }
+      },
+      "groups": [
+        {
+          "documentary_group": "ayr-mackenzie-1824",
+          "record_ids": [
+            "SCOT/OPR/BUR/0915105"
+          ],
+          "statuses": [
+            "identity_hold"
+          ],
+          "profiles": {},
+          "notes": [
+            "Mackenzie Glasgow, weaver, buried 10 July 1824 at Ayr; OPR 578/12 p.9 item 3. Age 80 gives only an approximate indexed 1744 birth, and no death date or kin is supplied. Literal Country is blank/hyphen; Scotland is collection-derived context. No person match: the later Belfast Mackenzie marriage is chronologically distinct. Original uninspected; identity held."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "magdalen-irvine-1743",
+          "record_ids": [
+            "R_685310997",
+            "R_688618719",
+            "SCOT/OPR/BAP/3575189"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-4103": "Identified existing child of 29 March 1743 Irvine baptism; mother surname remains a source reading, not a profile identification."
+          },
+          "notes": [
+            "Companion derivative for existing Magdalen Glasgow-4103: baptised 29 March 1743 at Irvine to George Glasgow and Margaret Martine; residence Irvine. It supplies birth year only, whereas held OPR 595/1 transcript explicitly reports 22 March birth and mother Margt. Martine is a literal surname in this derivative, not an assigned adult mother profile. Same event, no new child or relationship regrade; original uninspected.",
+            "Companion derivative for existing Magdalen Glasgow-4103; 29 March 1743 Irvine baptism, George Glasgow and Margaret Martine. No exact birth date in this index; held OPR transcript reports 22 March birth. Not independent original corroboration; no new child, vital or grade change."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "held-e-9bdd04b69685"
+        },
+        {
+          "documentary_group": "magdalen-west-calder-1749",
+          "record_ids": [
+            "R_686353084",
+            "R_687775557"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-1331": "Identified existing 1749 West Calder baptism child; father/mother assessments unchanged."
+          },
+          "notes": [
+            "Companion derivative for existing Magdalen Glasgow-1331, baptised 29 January 1749 at West Calder to John Glasgow and Magdalen Guthrie; residence West Calder. Birth year is indexed; no exact birth day. Father Glasgow-81 remains 64% probable, mother Guthrie-777 unassessed; original uninspected.",
+            "Companion derivative for existing Magdalen Glasgow-1331, same 29 January 1749 West Calder baptism and John Glasgow/Magdalen Guthrie parents. It omits explicit residence and exact birth date; companion indexes are not separate children or original corroboration. No vital or grade change."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "held-e-092b11b32315"
+        },
+        {
+          "documentary_group": "magdalene-livingston-1756",
+          "record_ids": [
+            "R_685843827",
+            "R_692403362"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-1230": "Identified existing 1756 Livingston baptism child; no father/mother grade change."
+          },
+          "notes": [
+            "Companion derivative for existing Magdalene Glasgow-1230, baptised 6 June 1756 at Livingston to Abraham Glasgow and Janet Cunningham; residence Livingston. Birth year only, not exact birthday. Adult father identity remains at 85% probable and mother separately unassessed; original uninspected.",
+            "Companion derivative for existing Magdalene Glasgow-1230, same 6 June 1756 Livingston baptism with Abraham Glasgow and Janet Cunningham. It omits residence and exact birth date. Same historical child event, not independent original corroboration; no vital or grade change."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "held-e-931a72bf9d72"
+        },
+        {
+          "documentary_group": "magdalene-kirknewton-1799-1800",
+          "record_ids": [
+            "SCOT/OPR/BAP/4477057",
+            "R_686209244",
+            "SCOT/OPR/BAP/4478228"
+          ],
+          "statuses": [
+            "identity_hold",
+            "identity_hold"
+          ],
+          "profiles": {},
+          "notes": [
+            "Record-defined Magdalene born 25 December 1799 and baptised 24 January 1800 at Kirknewton and East Calder to William Glasgow, overseer, and Catharine Nisbet; OPR 690/3 p.16 item2, Meadowbank residence. Held companion 4478228 gives identical birth and parents but Whitemop residence and no baptism date. Address difference unresolved. No child profile identified; William-1223 and Nisbet-3257 are qualified adult household comparisons only, Catherine-1224 a sibling comparison. No person or relationship change; original uninspected.",
+            "Companion index gives Magdalene baptised 24 January 1800 at Kirknewton and East Calder to William Glasgow and Catharine Nisbet; broad Kirknewton residence, indexed birth year 1799 but no exact birth day. More detailed 4477057 reports 25 December 1799 birth and Meadowbank; held 4478228 reports same birth and Whitemop. One child event with unresolved residence variation, no child profile or parent-grade change; original uninspected."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "fmp-record-scot-opr-bap-4478228"
+        },
+        {
+          "documentary_group": "kirknewton-margaret-james-1719",
+          "record_ids": [
+            "R_686207175",
+            "R_691903246"
+          ],
+          "statuses": [
+            "identity_hold",
+            "identity_hold"
+          ],
+          "profiles": {},
+          "notes": [
+            "One 12 Jul 1719 Kirknewton baptism, father James Glasgow, mother unnamed. No matching existing child identified; adult James-3526 is a local household candidate with 1547 alternative, neither proved. Year-only birth is not exact.",
+            "One 12 Jul 1719 Kirknewton baptism, father James Glasgow, mother unnamed. No matching existing child identified; adult James-3526 is a local household candidate with 1547 alternative, neither proved. Year-only birth is not exact."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "kirknewton-margaret-alexander-1721",
+          "record_ids": [
+            "R_686210560",
+            "R_691904966"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-1341": "Strong child/event match by 14 Nov 1721 baptism, Kirknewton, Alexander Glasgow and Margaret Mubrie; modern parent IDs and spelling remain qualified."
+          },
+          "notes": [
+            "One 14 Nov 1721 Kirknewton baptism; named Alexander Glasgow and Margaret Mubrie. Same child event Glasgow-1341; no exact birth. Selected father Glasgow-1141 90% unchanged, adult bridge and Mubrie/Moultrie equivalence unresolved.",
+            "One 14 Nov 1721 Kirknewton baptism; named Alexander Glasgow and Margaret Mubrie. Same child event Glasgow-1341; no exact birth. Selected father Glasgow-1141 90% unchanged, adult bridge and Mubrie/Moultrie equivalence unresolved."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "kirknewton-margaret-andrew-1732",
+          "record_ids": [
+            "R_686209996",
+            "R_691904967"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-1322": "Strong child/event match by 16 Oct 1732 baptism, Kirknewton, Andrew Glasgow and Isobel Clerk; death and adult Andrew bridge uncertain."
+          },
+          "notes": [
+            "One 16 Oct 1732 Kirknewton baptism, father Andrew Glasgow, mother Isobel Clerk. Same child event Glasgow-1322; birth before baptism, death c.1733 only estimate. Selected father Glasgow-1336 74% unchanged, adult identity open; do not conflate 1734 sibling.",
+            "One 16 Oct 1732 Kirknewton baptism, father Andrew Glasgow, mother Isobel Clerk. Same child event Glasgow-1322; birth before baptism, death c.1733 only estimate. Selected father Glasgow-1336 74% unchanged, adult identity open; do not conflate 1734 sibling."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "kilbirnie-margaret-robert-1734",
+          "record_ids": [
+            "R_688615340",
+            "R_685309484"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-3007": "Strong child/event match by 21 Jan 1734 Kilbirnie baptism and Robert Glasgow/Margarat Allan household; 1743 same-name event unresolved."
+          },
+          "notes": [
+            "One 21 Jan 1734 Kilbirnie baptism, father Robert Glasgow, mother Margarat Allan. Same 1734 child event Glasgow-3007. No exact birth or death proof. Held 1743 same-name child may be separate or date/citation issue; selected father Glasgow-1075 93% unchanged.",
+            "One 21 Jan 1734 Kilbirnie baptism, father Robert Glasgow, mother Margarat Allan. Same 1734 child event Glasgow-3007. No exact birth or death proof. Held 1743 same-name child may be separate or date/citation issue; selected father Glasgow-1075 93% unchanged."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "kirknewton-margaret-1734",
+          "record_ids": [
+            "R_686211643",
+            "R_691904645"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-3053": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified."
+          },
+          "notes": [
+            "Companion derivative of held FamilySearch 1734 child event; 19 Mar is baptism, birth day unstated. Literal father Andrew and mother Isobel Clerk clarify the recorded parent roles, but adult Andrew-to-Glasgow-1336 remains unproved. R_686211643 adds Kirknewton residence. Separate 1732 Margaret child account remains; early death unproved.",
+            "Same 19 Mar 1734 Andrew Glasgow/Isobel Clerk baptism as R_686211643; companion derivative, not a second child or independent original. No exact birth day or adult-profile identity proof."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "held-e-15ca936f6e11"
+        },
+        {
+          "documentary_group": "irvine-margaret-george-martin-1735",
+          "record_ids": [
+            "R_685314697",
+            "R_688618316"
+          ],
+          "statuses": [
+            "identity_hold",
+            "identity_hold"
+          ],
+          "profiles": {},
+          "notes": [
+            "First detailed child entry here: baptised 19 Jun 1735 Irvine to George Glasgow and Margaret Martin; R_685314697 gives Irvine residence. George-1058/Martin-103040 are compatible named-adult household comparisons given 1728 marriage and Andrew 1733, but their adult profile identities remain qualified and indexed children omit Margaret. Existing 1720 John/Agnes Irvine and 1734 Robert/Allan Kilbirnie Margarets are different recorded families. Source-only identity HOLD; no child creation or parent attachment.",
+            "Companion derivative of R_685314697: same 19 Jun 1735 Irvine baptism, George Glasgow/Margaret Martin. No residence field in this copy. Qualified George-1058/Martin-103040 adult-household comparison only; no assigned Margaret child profile, source-only HOLD."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "kilbirnie-margaret-robert-allan-1743",
+          "record_ids": [
+            "R_688616026"
+          ],
+          "statuses": [
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-3878": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified."
+          },
+          "notes": [
+            "Companion derivative for held 21 Aug 1743 Kilbirnie child event, Robert Glasgow/Margarat Allan; existing NRS and FMP SCOT/OPR/BAP/3586849 evidence held. Does not settle separate Jan 1744 derivative date or Glasgow-3007 versus Glasgow-3878 child-account question. Original registers uninspected; no vital or parent grade change."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "held-e-6f8b8adc3c7b"
+        },
+        {
+          "documentary_group": "west-calder-margaret-john-anderson-1745",
+          "record_ids": [
+            "R_686352903",
+            "R_687775348"
+          ],
+          "statuses": [
+            "matched",
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-2849": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified."
+          },
+          "notes": [
+            "Derivative of held West Calder 1745 child event, now literal 5 May baptism, father John Glasgow and mother Margaret Anderson; this copy adds West Calder residence. Exact birth day not given. Recorded parent roles support child account, but adult John-2847 childhood-to-adult identity remains qualified; no father grade change.",
+            "Companion derivative of R_686352903 for the 5 May 1745 West Calder baptism, John Glasgow/Margaret Anderson. No residence field in this copy and no exact birth day. Adult parent-profile identity remains qualified."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "west-calder-margaret-anderson-1745"
+        },
+        {
+          "documentary_group": "ayr-margaret-mckinzie-davidson-1757",
+          "record_ids": [
+            "R_690037922"
+          ],
+          "statuses": [
+            "identity_hold"
+          ],
+          "profiles": {},
+          "notes": [
+            "First detailed child entry here: 5 Nov 1757 Ayr baptism, father Mckinzie Glasgow, mother Margaret Davidson; birth year indexed, no exact birth day. McKenzie Glasgow-3588 (1734 North Leith child) is a compatible but unbridged adult-father comparison. Ayr Mackenzie weaver burial 10 Jul 1824, SCOT/OPR/BUR/0915105, is a rare-name/locality tentative comparison; age 80/indexed 1744 would imply a 13-year-old father in 1757 if exact, and ages may err. Do not merge identities or assign a child profile. Source-only HOLD."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "philadelphia-margaret-nathaniel-ann-1767",
+          "record_ids": [
+            "US/BMD/PENN-BAP/00853179",
+            "US/HSP/PENN/BAP/0072456",
+            "US/HSP/PENN/BAP/0025286"
+          ],
+          "statuses": [
+            "identity_hold",
+            "identity_hold",
+            "identity_hold"
+          ],
+          "profiles": {},
+          "notes": [
+            "First detailed child entry here: literal birth 24 Jun 1767, Nathaniel Glasgow and Ann; Christ Church/Historical Society of Pennsylvania context. This derivative gives baptism 8 Sep 1767; companion US/HSP/PENN/BAP/0072456 says 8 Aug, while 0025286 says 8 Sep. Archive call-number string in Place is not a residential address. No matching Margaret child profile identified; Nathaniel-603 has no family bridge. Source-only HOLD, no new person.",
+            "Companion Christ Episcopal/HSP derivative: same literal birth 24 Jun 1767 and Nathaniel Glasgow/Ann household, but baptism 8 Aug 1767 conflicts with 8 Sep in the other two receipts. Mother surname field is blank dash; do not treat it as natal Glasgow. No matching child profile; original register needed. Source-only HOLD.",
+            "Companion Christ Episcopal/HSP derivative: literal birth 24 Jun 1767, baptism 8 Sep 1767, Nathaniel Glasgow/Ann; agrees with 00853179 baptism and conflicts with 0072456 8 Aug. Mother surname field is blank dash; no matching child profile. Source-only HOLD."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "glasgow-lanark-margaret-1782",
+          "record_ids": [
+            "R_690418811"
+          ],
+          "statuses": [
+            "scope_hold"
+          ],
+          "profiles": {},
+          "notes": [
+            "First detailed 2 Nov 1782 Glasgow, Lanarkshire baptism, with indexed 1782 birth year but no exact birth date; both parent fields blank. Glasgow-3072 (uncertain 1779 birth, death 1788) is a compatible child candidate requiring original comparison; Glasgow-3388 current exact May 1783 birth conflicts chronologically with a Nov 1782 baptism unless earlier date is wrong. Distinct from sparse R_690418812 1783 Glasgow index and Edinburgh 12 Apr 1783 Alexander/Agnes entry. Identity HOLD, no attachment or vital change. The indexed birth year is not an independently established infant birth; a parent-blank baptism does not establish surname at birth. Retain natal-surname/adult-baptism scope and identity HOLD; no new person follows."
+          ],
+          "original_register_inspected": false
+        },
+        {
+          "documentary_group": "edinburgh-margaret-alexander-agnes-1783",
+          "record_ids": [
+            "SCOT/OPR/BAP/0738380"
+          ],
+          "statuses": [
+            "matched"
+          ],
+          "profiles": {
+            "Glasgow-2101": "Matched recorded child event; adult parent-profile identification and inherited source limits remain qualified."
+          },
+          "notes": [
+            "Derivative OPR 685_2/10 p347 item 2 states birth 9 Apr 1783, baptism 12 Apr Edinburgh, father Alexander Glasgow, mother Agnes Cunningham, residence New Grange, father Brewers Servt. Matches existing Glasgow-2101 12 Apr St Cuthberts child-event citation; current public birth bound before 1783-04-12 is compatible, while old full draft shortened it to before 1783. Draft mother Cunninghame-96 and catalogue attached mother Cunningham-20926 remain distinct adult-profile claims; transcript names Agnes Cunningham but does not choose the adult ID. No structured vital, mother link or father grade change. Not the parent-blank Glasgow 1782 event."
+          ],
+          "original_register_inspected": false,
+          "existing_canonical_event": "held-e-2e451b726fa5"
+        },
+        {
+          "documentary_group": "magdalen-glasgow-1782-index",
+          "record_ids": [
+            "R_690419975"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        },
+        {
+          "documentary_group": "margaret-edrom-1740-index",
+          "record_ids": [
+            "SCOT/OPR/BAP/4839749"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        },
+        {
+          "documentary_group": "margaret-glasgow-1783-sparse-index",
+          "record_ids": [
+            "R_690418812"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        },
+        {
+          "documentary_group": "margaret-glasgow-1784-sparse-index",
+          "record_ids": [
+            "R_690418813"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        },
+        {
+          "documentary_group": "margaret-kilwinning-john-mary-gemmill-1723",
+          "record_ids": [
+            "SCOT/OPR/BAP/3626748"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        },
+        {
+          "documentary_group": "margaret-kilwinning-hugh-janet-kilpatrick-1723",
+          "record_ids": [
+            "SCOT/OPR/BAP/3626677"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        },
+        {
+          "documentary_group": "margaret-kilmarnock-hugh-mcglashan-1738",
+          "record_ids": [
+            "SCOT/OPR/BAP/3599918"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        },
+        {
+          "documentary_group": "margaret-irvine-james-barber-1751",
+          "record_ids": [
+            "SCOT/OPR/BAP/3575824"
+          ],
+          "novelty": "Already held and indexed; approved cached receipt reused, no refetch."
+        }
+      ],
+      "verification_status": "source_stage_verified_person_and_site_refresh_paused",
+      "verification_report": "output/findmypast-pages24-25-20261024-verification.json",
+      "reviewed_source_country_context": {
+        "provider_ids": [
+          "US/HSP/PENN/BAP/0072456",
+          "US/HSP/PENN/BAP/0025286"
+        ],
+        "country": "United States",
+        "basis": "Labelled State Pennsylvania and Collections from Americas, United States; Country absent from literal transcript. Canonical record context qualified separately; original receipt fields unchanged."
+      },
+      "publication_pending": true,
+      "pause_reason": "Owner requested pause and commit; person build was not launched because its memory guard returned75. No person/study/cache refresh completed for pages24–25."
+    },
+    "perth_1797_followup_20261024": {
+      "status": "read_only_candidate_review_pending_public_integration",
+      "age_range_review": {
+        "reviewed_on": "2026-10-24",
+        "source_id": "PRS/PERTHCEM/006408",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FPERTHCEM%2F006408&tab=this",
+        "status": "source_only_identity_hold",
+        "age_range": "If age 19y was exact completed-years age on death 28 August 1797, birth falls 29 August 1777 through 28 August 1778 inclusive; provider Birth year 1778 is a simplified age-derived index value, not an exact natal fact.",
+        "literal_source_roles": {
+          "Death date": "28 August 1797",
+          "Burial year": "1797; no exact burial date",
+          "Occupation": "Merchant",
+          "Cause of death": "Killed by accident",
+          "Cemetery": "Greyfriars, Perth",
+          "Archive reference": "PE1/20/1",
+          "Age": "19y",
+          "Birth year": "1778 (index inference)"
+        },
+        "checked_candidates": [
+          {
+            "profile": "Glasgow-2102",
+            "model_birth": "5 September 1777, explicit birth in inspected derivative OPR 685_2/10; original uninspected",
+            "fit": "Within completed-age 19 range and Scottish chronology. Current model has no death, spouse or proved post-1797 life. The 1827 Edinburgh Bridewell entry in the complete draft is explicitly an unproved adult identity, so it is not a concrete exclusion.",
+            "limits": "Perth death names no parent, relative, precise abode, or trade firm to connect merchant to Alexander Glasgow/Agnes Cunningham’s Edinburgh child. A move Edinburgh→Perth and occupation change are merely possible.",
+            "current_grade": "Selected father Glasgow-1321 61% probable for the recorded 1777 child; unchanged by Perth hold.",
+            "source_paths": [
+              "www/people/glasgow-2102.json",
+              "research/Glasgow-2102/findings.md",
+              "research/Glasgow-2102/father-confidence-2026-10-22g.wiki"
+            ]
+          },
+          {
+            "profile": "Glasgow-1968",
+            "model_birth": "c.1778 Cookstown, County Tyrone; age estimate broadly compatible",
+            "fit": "Age estimate alone fits, but the 1879/1888 Hillsdale histories place this John as husband of Jane, father of seven and emigrant in 1844/1848. Those specific post-1797 life events are a concrete conflict with Perth death; exclude only this maintained adult identity.",
+            "source_paths": [
+              "www/people/glasgow-1968.json",
+              "research/Glasgow-1968/findings.md"
+            ]
+          },
+          {
+            "profile": "Glasgow-3034",
+            "model_birth": "1775, uncertain; Glasgow city",
+            "fit": "Age mismatch under literal 19y but both the profile birth field and source age remain uncertain. Current recorded child John-2721 born1795 predates Perth death and supplies no later-life exclusion. Weak compatible comparison only; no Perth bridge.",
+            "source_paths": [
+              "www/people/glasgow-3034.json",
+              "research/Glasgow-3034/findings.md"
+            ]
+          },
+          {
+            "profile": "Glasgow-2952",
+            "model_birth": "c.1780 estimated",
+            "fit": "The maintained 1803 Montgreenan trust text names John as Robert’s reputed natural son and the profile discusses later Caribbean household/estate records, strongly contrary to an 1797 Perth death. The original trust and later estate linkage are not independently resolved for this identity here, so retain a weak comparison rather than claiming a formal exclusion from these secondary accounts alone.",
+            "source_paths": [
+              "www/people/glasgow-2952.json",
+              "research/Glasgow-2952/findings.md"
+            ]
+          },
+          {
+            "profile": "Glasgow-3750",
+            "model_birth": "before1775 uncertain",
+            "fit": "Broad birth and after1820 American death model are poorly aligned; the latter is uncertain. Retain as distant comparison rather than a concrete exclusion by estimate alone.",
+            "source_paths": [
+              "www/people/glasgow-3750.json"
+            ]
+          }
+        ],
+        "candidate_inventory": "Current public John Glasgow index has exactly two profiles with modeled 1777/1778 birth years: Glasgow-2102 and Glasgow-1968. Nearby uncertain 1775/1780 estimates were screened separately. No source-defined Perth family/occupation bridge identifies the decedent.",
+        "existing_canonical_event": null,
+        "draft_change": null,
+        "new_person_proposed": false,
+        "vital_or_grade_change": false,
+        "next_discriminating_test": "Inspect original Greyfriars/Perth record PE1/20/1 or image for a named father, family, address, merchant firm, or exact inscription; compare any specific clue with the St Cuthberts Alexander/Agnes household and Perth trade records.",
+        "source_level": "Findmypast derivative transcript inspected; original cemetery/archive record uninspected."
+      },
+      "original_access_review": {
+        "subject": "John Glasgow, merchant, Greyfriars Perth, recorded death 28 August 1797, age 19 (cached derivative PRS/PERTHCEM/006408)",
+        "archive_reference": "PE1/20/1",
+        "custodian": "Perth & Kinross Council Archive, AK Bell Library, Perth",
+        "online_original_status": "No public image of PE1/20/1 or the John Glasgow entry located in the targeted official catalogue/guide search. The council catalogue gives series-level description and directs readers to the archive; this is a search result, not proof that no digital copy exists anywhere.",
+        "access_route": "Ask Perth & Kinross Council Archive for inspection or an image/copy of the Greyfriars Perth burial-register entry, citing PE1/20/1, John Glasgow, merchant, death 28 August 1797. The archive guide says searchroom consultation is free and copies or staff research can often be supplied, with charges for remote services. Confirm present access arrangements with the archive before visiting.",
+        "contact": {
+          "email": "archives@culturepk.org.uk",
+          "telephone": "01738 477 022",
+          "address": "AK Bell Library, York Place, Perth PH2 8EP"
+        },
+        "original_may_show": "The archive guide says earlier Perth burial registers often include age, address, occupation, nearest relation, and cause of death. Check these fields and burial date in this specific entry; none is guaranteed. A named relation/address could discriminate among same-name men.",
+        "identity_decision": "Keep source-only identity hold. Do not assign the death to Glasgow-2102 on the approximate age/birth range alone.",
+        "sources": [
+          {
+            "url": "https://www.culturepk.org.uk/media/2023/09/family-history-sources.pdf",
+            "locator": "PDF pages 2–3 and 9; archive contact, consultation/reprographics, PE1/20/1–75 and typical earlier burial-register fields"
+          },
+          {
+            "url": "https://www.culturepk.org.uk/media/2023/09/city-and-royal-burgh-of-perth-collections.pdf",
+            "locator": "PDF page 13; PE1/20 cemetery records and principal burial registers from 1794"
+          },
+          {
+            "url": "https://www.culturepk.org.uk/archivelfh/perthandkinrossarchive/",
+            "locator": "Current archive landing page, refers to Perth & Kinross Council archive"
+          }
+        ],
+        "access_limit": "The current council archive landing-page target returned HTTP 403 to the public web fetch; no original image was inspected. Do not infer exact details from the volume-level guide."
+      },
+      "new_person_proposed": false,
+      "vital_or_relationship_change": false,
+      "note": "Completed file/public-catalogue follow-up preserved at owner pause; source-only identity HOLD remains. No archive contacted, original inspected, or death assigned."
     }
   }
 }

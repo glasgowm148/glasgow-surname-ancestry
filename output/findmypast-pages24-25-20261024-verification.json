@@ -1,0 +1,103 @@
+{
+  "verification_status": "PASS_SOURCE_STAGE_ONLY_PUBLICATION_PENDING",
+  "goal_status": "paused",
+  "coverage_status": "INCOMPLETE",
+  "batch": {
+    "pages": [
+      24,
+      25
+    ],
+    "newly_indexed_transcripts": 30,
+    "reused_indexed_transcripts": 10,
+    "documentary_groups": 25,
+    "first_seen_documentary_groups": 6,
+    "first_seen_with_scope_qualifications": 2,
+    "new_people": 0,
+    "original_images_inspected": 0,
+    "complete_proposals_prepared": 10,
+    "current_vital_or_relationship_changes": 0
+  },
+  "source_check": {
+    "verified_new_source_readers": 30,
+    "source_only_holds": 12,
+    "reused_indexed_ids_unchanged": 10,
+    "source_ids": {
+      "SCOT/OPR/BUR/0915105": "s-eca3c0c1fa8d5668",
+      "R_685310997": "s-00869336b63982a2",
+      "R_688618719": "s-ab86e245ba041f55",
+      "R_686353084": "s-23fa7b5564f31d84",
+      "R_687775557": "s-7ca8792cbbe7444b",
+      "R_685843827": "s-be6bc438b20270a4",
+      "R_692403362": "s-cd89de6e29f94ba5",
+      "SCOT/OPR/BAP/4477057": "s-9819a2c5a8064b42",
+      "R_686209244": "s-01d7891319865cbd",
+      "R_686207175": "s-0039b04e968cffc6",
+      "R_691903246": "s-fc3f88abed996bca",
+      "R_686210560": "s-9b60e1d26b48678d",
+      "R_691904966": "s-5fdef7ba12eebcfb",
+      "R_686209996": "s-48c6374769c26e67",
+      "R_691904967": "s-db135f94e2aac685",
+      "R_688615340": "s-b342a60bb7732b7a",
+      "R_685309484": "s-cd07134a2ac78cf9",
+      "R_686211643": "s-577d99a5057a2e55",
+      "R_691904645": "s-407ff8aadd2c9d3e",
+      "R_685314697": "s-7088ee66cf7e2358",
+      "R_688618316": "s-a970f0e9f78d2bac",
+      "R_688616026": "s-8b9bb6c8c98f3193",
+      "R_686352903": "s-d762b871251c7562",
+      "R_687775348": "s-91346cba7ae5ff36",
+      "R_690037922": "s-4616cdc915ec1512",
+      "US/BMD/PENN-BAP/00853179": "s-c89402f3af519f0d",
+      "US/HSP/PENN/BAP/0072456": "s-c117cb4450589018",
+      "US/HSP/PENN/BAP/0025286": "s-97a732334ede49eb",
+      "R_690418811": "s-d2ff0dd5bf245cdd",
+      "SCOT/OPR/BAP/0738380": "s-63bed7b9bd2c7107"
+    },
+    "status": "PASS_SOURCE_STAGE_ONLY_PERSON_STUDY_CACHE_PENDING"
+  },
+  "proposal_input_check": {
+    "normalized_preservation_guards_passed": 10,
+    "prior_profile_links_and_sources_retained": true,
+    "public_person_models_unchanged_from_baseline": 10
+  },
+  "coverage": {
+    "literal_receipts_indexed": 578,
+    "qualified_profile_context": 386,
+    "source_only_identity_or_scope_holds": 192,
+    "supporting_indexed_ids_at_original_pointers": 19,
+    "bounded_audited_indexed_ids": 597,
+    "source_aware_inventory": {
+      "accessible_ids": 907,
+      "represented_ids": 814,
+      "remaining_unindexed": 93
+    },
+    "query_rows_reviewed": 500,
+    "query_total_as_observed": 5872,
+    "query_percent": 8.5,
+    "saved_detail_gaps": 0,
+    "next_uncaptured_query_page": 26,
+    "overall_percent": null
+  },
+  "pending": [
+    "Selected ten-person publication and its gate",
+    "Latest findings and early Scottish study",
+    "Backlinks and sitemap",
+    "Cache manifest/stamps and link checks"
+  ],
+  "resume": "Finish pending publication stages; do not repeat source ingestion or transcript capture. The temporary plan/context HEAD guards must be rebased after this checkpoint commit; retain source-ingestion proof.",
+  "deployment": "Not deployed; no push or live WikiTree edit",
+  "resource_checkpoint": {
+    "temporary_tabs_closed": [
+      236298135,
+      236298138
+    ],
+    "personal_tabs_preserved": [
+      236297975,
+      236298062,
+      236298086,
+      236298127
+    ],
+    "browser_process_or_window_launched": false,
+    "active_task_browser_tabs": 0
+  }
+}

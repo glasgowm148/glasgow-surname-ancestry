@@ -64,3 +64,9 @@ Next useful test: Compare OPR596/1 pp81,102 to resolve date/entry identity.
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 21 Aug 1743, record SCOT/OPR/BAP/3586849](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586849&tab=this); [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Margaret Glasgow, 21 Jan 1744, record SCOT/OPR/BAP/3586603](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3586603&tab=this)
+
+## Saved Findmypast companion baptism — 24 October 2026
+
+The newly saved Findmypast companion index R_688616026 reports Margaret Glasgow baptised 21 August 1743 at Kilbirnie, father Robert Glasgow and mother Margarat Allan. It agrees with the existing Scotland’s People 1743 child event and held Findmypast SCOT/OPR/BAP/3586849 transcript. It is another derivative report, not a second child or independent resolution of the separate January 1744 indexed date. Original register entries remain to compare; the existing adult/spouse account and 99% complete father assessment are retained.
+
+- [Findmypast R_688616026](https://www.findmypast.co.uk/transcript?id=R_688616026), Scotland, Parish Births & Baptisms 1564–1929, baptism 21 August 1743, Kilbirnie, Robert Glasgow and Margarat Allan.
