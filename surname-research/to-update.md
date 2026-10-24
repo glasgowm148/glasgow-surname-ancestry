@@ -4235,3 +4235,18 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | --- | --- | --- |
 | [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-835) | OPEN | Existing father William Glasgow-563: 73% → 94% confident inference, from the checked Faris family account and adult identity. No new father attachment. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-563) | OPEN | Son Robert Barclay Glasgow-835: 73% → 94% confident inference from the checked Faris family account. William’s own father remains 95%. |
+
+### Robert and Phoebe: child father assessments — 24 October 2026
+
+| Profile | Status | Amendment |
+| --- | --- | --- |
+| [William Harvey Glasgow](https://www.wikitree.com/wiki/Glasgow-837) | OPEN | Existing father Robert Barclay Glasgow: 78% → 96% confident inference. |
+| [Elizabeth Patton (Glasgow) Cunningham](https://www.wikitree.com/wiki/Glasgow-2221) | OPEN | Existing father Robert Barclay Glasgow: 87% → 95% confident inference. |
+| [Rhoda Montgomery (Glasgow) Fulton](https://www.wikitree.com/wiki/Glasgow-2222) | OPEN | Existing father Robert Barclay Glasgow: 73% → 85% probable;1823/1832conflict retained. |
+| [Mary (Glasgow) Stewart](https://www.wikitree.com/wiki/Glasgow-2223) | OPEN | Existing father Robert Barclay Glasgow: 88% → 94% confident inference. |
+| [Phoebe Glasgow](https://www.wikitree.com/wiki/Glasgow-839) | OPEN | Existing father Robert Barclay Glasgow: 79% → 96% confident inference. |
+| [Robert Madison Glasgow](https://www.wikitree.com/wiki/Glasgow-2227) | OPEN | Existing father Robert Barclay Glasgow: 86% → 97% confident inference. |
+| [Nancy Emeline Glasgow](https://www.wikitree.com/wiki/Glasgow-840) | OPEN | Existing father Robert Barclay Glasgow: 78% → 95% confident inference. |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-841) | OPEN | Existing father Robert Barclay Glasgow: 77% → 95% confident inference. Family history calls her Sarah Margaret; correct male pronouns, retaining structured name and vitals. |
+| [Susanna Rachel Glasgow](https://www.wikitree.com/wiki/Glasgow-2228) | OPEN | Existing father Robert Barclay Glasgow: 87% → 96% confident inference. |
+| [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-835) | OPEN | Eight existing child relationships now confident; Rhoda remains probable 85% with her birth conflict retained. Robert’s own William father remains 94%; no new attachment. |

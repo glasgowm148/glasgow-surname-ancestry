@@ -57427,6 +57427,202 @@
       "provenance": [
         "research/ancestry-connections/robert-barclay-bible-confidence-2026-10-24.json"
       ]
+    },
+    {
+      "id": "robert-phebe-child-confidence-20261024",
+      "found_on": "2026-10-24",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Robert Barclay/Phoebe McFall family: eight existing father links now confident; Rhoda remains probable 85% with her 1823/1832 conflict retained. Nine exact assessments improved from the checked family list.",
+      "qualification": "This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save. Mary’s 1834/1835 year and Nancy/Susanna’s Ohio/Indiana birthplace differences remain visible; no vital fields change. Sarah Margaret is reported as the family history’s fuller name, with Margaret’s male pronouns corrected in the proposed biography.",
+      "people": [
+        {
+          "id": "Glasgow-837",
+          "name": "William Harvey Glasgow",
+          "url": "/people/glasgow-837.html",
+          "role": "Existing father grade 78% → 96%"
+        },
+        {
+          "id": "Glasgow-2221",
+          "name": "Elizabeth Patton (Glasgow) Cunningham",
+          "url": "/people/glasgow-2221.html",
+          "role": "Existing father grade 87% → 95%"
+        },
+        {
+          "id": "Glasgow-2222",
+          "name": "Rhoda Montgomery (Glasgow) Fulton",
+          "url": "/people/glasgow-2222.html",
+          "role": "Existing father grade 73% → 85%"
+        },
+        {
+          "id": "Glasgow-2223",
+          "name": "Mary (Glasgow) Stewart",
+          "url": "/people/glasgow-2223.html",
+          "role": "Existing father grade 88% → 94%"
+        },
+        {
+          "id": "Glasgow-839",
+          "name": "Phoebe Glasgow",
+          "url": "/people/glasgow-839.html",
+          "role": "Existing father grade 79% → 96%"
+        },
+        {
+          "id": "Glasgow-2227",
+          "name": "Robert Madison Glasgow",
+          "url": "/people/glasgow-2227.html",
+          "role": "Existing father grade 86% → 97%"
+        },
+        {
+          "id": "Glasgow-840",
+          "name": "Nancy Emeline Glasgow",
+          "url": "/people/glasgow-840.html",
+          "role": "Existing father grade 78% → 95%"
+        },
+        {
+          "id": "Glasgow-841",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-841.html",
+          "role": "Existing father grade 77% → 95%"
+        },
+        {
+          "id": "Glasgow-2228",
+          "name": "Susanna Rachel Glasgow",
+          "url": "/people/glasgow-2228.html",
+          "role": "Existing father grade 87% → 96%"
+        },
+        {
+          "id": "Glasgow-835",
+          "name": "Robert Barclay Glasgow",
+          "url": "/people/glasgow-835.html",
+          "role": "Father account;own father94% unchanged"
+        },
+        {
+          "id": "McFall-388",
+          "name": "Phebe (McFall) Glasgow",
+          "url": "/people/mcfall-388.html",
+          "role": "Named mother;grades unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "David Faris (1990),printed pp. 46–47:Robert/Phoebe children",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3"
+        }
+      ],
+      "detail_url": "/branches/research-irish-moneymore/#robert-phebe-children",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-837",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 78,
+          "probability_percent": 96,
+          "explanation": "William Harvey’s full name and both dates, 27 December 1827 and 20 June 1849, match the named child in the printed family list and the existing short-lived Tranquility account. This identifies a child of this particular Robert/Phoebe family without a later adult identity gap.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2221",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 87,
+          "probability_percent": 95,
+          "explanation": "The printed family list names Elizabeth Patton, born 1830, and her husband William Lowry Cunningham. The distinctive maiden names, year and linked William Cunningham household identify Elizabeth-2221, whose maintained account also cites Faris p. 48 and censuses. The newly inspected page explicitly supplies the paternal family role.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2222",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "probable",
+          "previous_probability_percent": 73,
+          "probability_percent": 85,
+          "explanation": "The printed list names Rhoda Montgomery, born 31 July 1832, and husband James Fisher Fulton, matching the selected account’s names, full birth date and linked James Fulton. These combined identifiers strengthen the existing Robert father proposal.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2223",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 88,
+          "probability_percent": 94,
+          "explanation": "Faris names Mary Jane as Robert and Phoebe’s child, born 26 May 1835, with first husband Robert Stewart Glasgow and second husband John H. Stewart. The same day/month and distinctive two-husband sequence identify the existing Mary-2223 account despite its 1834 birth year. Taken together these identifiers support confident paternal inference.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-839",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 79,
+          "probability_percent": 96,
+          "explanation": "The family list names Phoebe Ann with the same full birth and death dates, 27 October 1837 and 13 June 1843, as the existing Tranquility child. The named parental family, full name and short lifetime identify this child particularly strongly.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2227",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 86,
+          "probability_percent": 97,
+          "explanation": "The printed list names Robert Madison, born 16 April 1840 and died 29 January 1865 at Vicksburg, Mississippi. These exact dates, middle name and unusual death setting match Robert-2227’s military-hospital account. The same page reports Robert M. in Robert B.’s 1850 household, cohering with its explicit child list.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-840",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 78,
+          "probability_percent": 95,
+          "explanation": "Nancy Emeline’s full name and exact dates, 2 June 1843 and 5 March 1849, match the printed child list and existing short-lived Tranquility account. This specific family and lifetime identify her as the listed Robert/Phoebe child.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-841",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 77,
+          "probability_percent": 95,
+          "explanation": "Faris calls this child Sarah Margaret, born 6 November 1845, and names husband John M. Lytle. The exact date, Margaret name and linked John Lytle household identify the existing Margaret-841 account. Its female structured field and marital account also show that the biography’s male pronouns are an editorial error.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2228",
+          "relative": "Glasgow-835",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 87,
+          "probability_percent": 96,
+          "explanation": "The printed family list names Susanna Rachel, born 5 July 1847 and died 5 May 1861 in Iowa, exactly matching this child’s maintained dates, middle name and death setting. The same account places Susanna in the reported 1850 and 1860 Robert households. This coherent identity supports the explicit paternal role.",
+          "previous_status_provenance": "Saved 22 October 2026 reviewed exact percentage and named existing father;not first-time grading or a new attachment."
+        }
+      ],
+      "provenance": [
+        "research/ancestry-connections/robert-children-confidence-2026-10-24.json"
+      ]
     }
   ]
 }

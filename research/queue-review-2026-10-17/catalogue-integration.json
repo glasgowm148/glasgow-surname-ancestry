@@ -11676,10 +11676,10 @@
       "pending": true,
       "queued_at": "2026-10-22",
       "biography_rechecked_at": "2026-10-24",
-      "draft_path": "research/Glasgow-835/faris-family-bible-2026-10-24.wiki",
+      "draft_path": "research/Glasgow-835/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-835/findings.md",
-      "summary": "Existing father William Glasgow-563: 73% → 94% confident inference, from the checked Faris family account and adult identity. No new father attachment.",
-      "work_queue_summary": "Existing father William Glasgow-563: 73% → 94% confident inference, from the checked Faris family account and adult identity. No new father attachment.",
+      "summary": "Eight existing child relationships now confident; Rhoda remains probable 85% with her birth conflict retained. Robert’s own William father remains 94%; no new attachment.",
+      "work_queue_summary": "Eight existing child relationships now confident; Rhoda remains probable 85% with her birth conflict retained. Robert’s own William father remains 94%; no new attachment.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11702,7 +11702,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/robert-barclay-bible-confidence-2026-10-24.json",
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
       "significance": 65
     },
     "Glasgow-108": {
@@ -29855,23 +29855,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-837/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-837/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-837/findings.md",
-      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 78% → 96% confident inference.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 78% → 96% confident inference.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 78,
+          "previous_probability_percent": 78,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022i-glasgow-837-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "The memorial image and original birth/burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -29879,7 +29882,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasgow-1205": {
       "profile_id": "Glasgow-1205",
@@ -30897,23 +30901,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2221/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-2221/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-2221/findings.md",
-      "summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 87% → 95% confident inference.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 87% → 95% confident inference.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 87,
+          "previous_probability_percent": 87,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022i-glasgow-2221-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "Page46 does not supply the existing 5 February birth day/month; those fields remain unchanged and are not newly verified. The cited p. 48 and original censuses were not inspected in this batch. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -30921,7 +30928,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasgow-4043": {
       "profile_id": "Glasgow-4043",
@@ -31610,11 +31618,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2222/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-2222/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-2222/findings.md",
-      "summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 73% → 85% probable;1823/1832conflict retained.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 73% → 85% probable;1823/1832conflict retained.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -31622,11 +31630,14 @@
           "relative_id": "Glasgow-835",
           "status": "probable",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 73,
+          "previous_probability_percent": 73,
+          "probability_percent": 85,
           "assertion_id": "C-coverage-20261022i-glasgow-2222-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "The held memorial citation instead gives Rhoda M. Fulton as 1823–1868. That nine-year disagreement is material: neither birth year nor adult/memorial identity has been resolved. Retain probable 85%, not a confident attachment, and inspect the memorial or age-bearing census next. No birth or death field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -31634,7 +31645,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 55
     },
     "Glasgow-969": {
       "profile_id": "Glasgow-969",
@@ -32532,23 +32544,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2223/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-2223/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-2223/findings.md",
-      "summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 88% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 88% → 94% confident inference.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 88% → 94% confident inference.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 88,
+          "previous_probability_percent": 88,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022i-glasgow-2223-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "The 1834/1835 birth-year discrepancy remains unresolved and visible. It does not outweigh the full marital identity, but reduces confidence below a near-certain grade. Preserve 1834 in the existing vital field; no source is silently harmonized. The cited p. 89 and original censuses were not newly inspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -32556,7 +32571,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasgow-2703": {
       "profile_id": "Glasgow-2703",
@@ -33572,23 +33588,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-839/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-839/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-839/findings.md",
-      "summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 79% → 96% confident inference.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 79% → 96% confident inference.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 79,
+          "previous_probability_percent": 79,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022i-glasgow-839-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "The Ann name is reported from the family history without changing structured name fields. The memorial image and original birth/burial entries remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -33596,7 +33615,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasgow-1636": {
       "profile_id": "Glasgow-1636",
@@ -35039,23 +35059,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2227/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-2227/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-2227/findings.md",
-      "summary": "Review existing father at 86% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 86% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 86% → 97% confident inference.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 86% → 97% confident inference.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 86,
+          "previous_probability_percent": 86,
+          "probability_percent": 97,
           "assertion_id": "C-coverage-20261022i-glasgow-2227-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "The household and list are statements in one compilation, not independent inspected census and military proofs. The original 1850 census, Roll of Honor and memorial images remain uninspected; no military or vital field is changed. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -35063,7 +35086,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasgow-2374": {
       "profile_id": "Glasgow-2374",
@@ -36598,23 +36622,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-840/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-840/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-840/findings.md",
-      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 78% → 95% confident inference.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 78% → 95% confident inference.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 78,
+          "previous_probability_percent": 78,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022i-glasgow-840-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "The profile retains Ohio as birthplace, whereas the book’s narrative reports Indiana for Nancy and Susanna. That reported place discrepancy remains open; no birthplace field changes. Original birth and burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -36622,7 +36649,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasgow-1998": {
       "profile_id": "Glasgow-1998",
@@ -37543,23 +37571,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-841/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-841/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-841/findings.md",
-      "summary": "Review existing father at 77% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 77% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 77% → 95% confident inference. Family history calls her Sarah Margaret; correct male pronouns, retaining structured name and vitals.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 77% → 95% confident inference. Family history calls her Sarah Margaret; correct male pronouns, retaining structured name and vitals.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 77,
+          "previous_probability_percent": 77,
+          "probability_percent": 95,
           "assertion_id": "C-coverage-20261022i-glasgow-841-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "Report the fuller Sarah Margaret name in the biography without changing structured name fields. Correct the male pronouns in the complete proposed draft. No birth, death or mother field changes; original records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -37567,7 +37598,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasgow-3208": {
       "profile_id": "Glasgow-3208",
@@ -38566,23 +38598,26 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2228/father-confidence-2026-10-22i.wiki",
+      "biography_rechecked_at": "2026-10-24",
+      "draft_path": "research/Glasgow-2228/faris-children-2026-10-24.wiki",
       "findings_path": "research/Glasgow-2228/findings.md",
-      "summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 87% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Existing father Robert Barclay Glasgow: 87% → 96% confident inference.",
+      "work_queue_summary": "Existing father Robert Barclay Glasgow: 87% → 96% confident inference.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-835",
-          "status": "probable",
+          "status": "strongly_supported",
           "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 87,
+          "previous_probability_percent": 87,
+          "probability_percent": 96,
           "assertion_id": "C-coverage-20261022i-glasgow-2228-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+          "scope": "The book’s narrative reports Indiana as the birthplace of Susanna and Nancy, while this profile retains Ohio. Leave that place discrepancy open. The reported censuses are not independently inspected records, and no vital field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+          "previous_research_status": "probable",
+          "relative_name": "Robert Barclay Glasgow",
+          "relative_url": "https://www.wikitree.com/wiki/Glasgow-835"
         }
       ],
       "preserve_captured_detail": false,
@@ -38590,7 +38625,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+      "significance": 64
     },
     "Glasko-10": {
       "profile_id": "Glasko-10",

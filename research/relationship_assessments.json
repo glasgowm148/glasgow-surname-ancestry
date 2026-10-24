@@ -79662,18 +79662,19 @@
       "Glasgow-837",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies William Harvey Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. William Harvey’s 1827–1849 memorial is chronologically consistent but has no held parental inscription.",
-    "reason": "The held family account identifies William Harvey Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. William Harvey’s 1827–1849 memorial is chronologically consistent but has no held parental inscription.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-837, individually assessed 78%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "William Harvey’s full name and both dates, 27 December 1827 and 20 June 1849, match the named child in the printed family list and the existing short-lived Tranquility account. This identifies a child of this particular Robert/Phoebe family without a later adult identity gap. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "William Harvey’s full name and both dates, 27 December 1827 and 20 June 1849, match the named child in the printed family list and the existing short-lived Tranquility account. This identifies a child of this particular Robert/Phoebe family without a later adult identity gap. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-837: 78% → 96%, confident inference.",
+    "record_scope": "The memorial image and original birth/burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "The memorial image and original birth/burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-7fab8eeff705"
+      "held-e-7fab8eeff705",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -79686,22 +79687,33 @@
         "claim_id": "C-f57801c1404b",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 78,
+        "basis": "The held family account identifies William Harvey Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. William Harvey’s 1827–1849 memorial is chronologically consistent but has no held parental inscription.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-7fab8eeff705"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-837": {
         "relationship": "father",
-        "reason": "The held family account identifies William Harvey Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. William Harvey’s 1827–1849 memorial is chronologically consistent but has no held parental inscription."
+        "reason": "William Harvey’s full name and both dates, 27 December 1827 and 20 June 1849, match the named child in the printed family list and the existing short-lived Tranquility account. This identifies a child of this particular Robert/Phoebe family without a later adult identity gap. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "son",
-        "reason": "The held family account identifies William Harvey Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. William Harvey’s 1827–1849 memorial is chronologically consistent but has no held parental inscription."
+        "reason": "William Harvey’s full name and both dates, 27 December 1827 and 20 June 1849, match the named child in the printed family list and the existing short-lived Tranquility account. This identifies a child of this particular Robert/Phoebe family without a later adult identity gap. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-837.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -79717,16 +79729,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 78,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.78,
-      "basis": "The held family account identifies William Harvey Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. William Harvey’s 1827–1849 memorial is chronologically consistent but has no held parental inscription.",
-      "reviewed": "2026-10-22",
+      "value": 0.96,
+      "basis": "William Harvey’s full name and both dates, 27 December 1827 and 20 June 1849, match the named child in the printed family list and the existing short-lived Tranquility account. This identifies a child of this particular Robert/Phoebe family without a later adult identity gap. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-7fab8eeff705"
+        "held-e-7fab8eeff705",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "The memorial image and original birth/burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -82317,18 +82345,19 @@
       "Glasgow-2221",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Elizabeth Patton (Glasgow) Cunningham as Robert Barclay Glasgow’s child, generally with Phebe McFall. Elizabeth Patton has Faris p 48 and census citations, supporting the compiled child placement.",
-    "reason": "The held family account identifies Elizabeth Patton (Glasgow) Cunningham as Robert Barclay Glasgow’s child, generally with Phebe McFall. Elizabeth Patton has Faris p 48 and census citations, supporting the compiled child placement.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-2221, individually assessed 87%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "The printed family list names Elizabeth Patton, born 1830, and her husband William Lowry Cunningham. The distinctive maiden names, year and linked William Cunningham household identify Elizabeth-2221, whose maintained account also cites Faris p. 48 and censuses. The newly inspected page explicitly supplies the paternal family role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "The printed family list names Elizabeth Patton, born 1830, and her husband William Lowry Cunningham. The distinctive maiden names, year and linked William Cunningham household identify Elizabeth-2221, whose maintained account also cites Faris p. 48 and censuses. The newly inspected page explicitly supplies the paternal family role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-2221: 87% → 95%, confident inference.",
+    "record_scope": "Page46 does not supply the existing 5 February birth day/month; those fields remain unchanged and are not newly verified. The cited p. 48 and original censuses were not inspected in this batch. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "Page46 does not supply the existing 5 February birth day/month; those fields remain unchanged and are not newly verified. The cited p. 48 and original censuses were not inspected in this batch. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-2cbafdd1943e"
+      "held-e-2cbafdd1943e",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -82341,22 +82370,33 @@
         "claim_id": "C-71861a9524be",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 87,
+        "basis": "The held family account identifies Elizabeth Patton (Glasgow) Cunningham as Robert Barclay Glasgow’s child, generally with Phebe McFall. Elizabeth Patton has Faris p 48 and census citations, supporting the compiled child placement.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-2cbafdd1943e"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-2221": {
         "relationship": "father",
-        "reason": "The held family account identifies Elizabeth Patton (Glasgow) Cunningham as Robert Barclay Glasgow’s child, generally with Phebe McFall. Elizabeth Patton has Faris p 48 and census citations, supporting the compiled child placement."
+        "reason": "The printed family list names Elizabeth Patton, born 1830, and her husband William Lowry Cunningham. The distinctive maiden names, year and linked William Cunningham household identify Elizabeth-2221, whose maintained account also cites Faris p. 48 and censuses. The newly inspected page explicitly supplies the paternal family role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "daughter",
-        "reason": "The held family account identifies Elizabeth Patton (Glasgow) Cunningham as Robert Barclay Glasgow’s child, generally with Phebe McFall. Elizabeth Patton has Faris p 48 and census citations, supporting the compiled child placement."
+        "reason": "The printed family list names Elizabeth Patton, born 1830, and her husband William Lowry Cunningham. The distinctive maiden names, year and linked William Cunningham household identify Elizabeth-2221, whose maintained account also cites Faris p. 48 and censuses. The newly inspected page explicitly supplies the paternal family role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-2221.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -82372,16 +82412,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 87,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.87,
-      "basis": "The held family account identifies Elizabeth Patton (Glasgow) Cunningham as Robert Barclay Glasgow’s child, generally with Phebe McFall. Elizabeth Patton has Faris p 48 and census citations, supporting the compiled child placement.",
-      "reviewed": "2026-10-22",
+      "value": 0.95,
+      "basis": "The printed family list names Elizabeth Patton, born 1830, and her husband William Lowry Cunningham. The distinctive maiden names, year and linked William Cunningham household identify Elizabeth-2221, whose maintained account also cites Faris p. 48 and censuses. The newly inspected page explicitly supplies the paternal family role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-2cbafdd1943e"
+        "held-e-2cbafdd1943e",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Page46 does not supply the existing 5 February birth day/month; those fields remain unchanged and are not newly verified. The cited p. 48 and original censuses were not inspected in this batch. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -84152,14 +84208,15 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Rhoda Montgomery (Glasgow) Fulton as Robert Barclay Glasgow’s child, generally with Phebe McFall. Rhoda’s stated 1832 birth conflicts with memorial 1823, when Robert was18; this is a real identity/date issue requiring reconciliation.",
-    "reason": "The held family account identifies Rhoda Montgomery (Glasgow) Fulton as Robert Barclay Glasgow’s child, generally with Phebe McFall. Rhoda’s stated 1832 birth conflicts with memorial 1823, when Robert was18; this is a real identity/date issue requiring reconciliation.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-2222, individually assessed 73%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "The printed list names Rhoda Montgomery, born 31 July 1832, and husband James Fisher Fulton, matching the selected account’s names, full birth date and linked James Fulton. These combined identifiers strengthen the existing Robert father proposal. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "The printed list names Rhoda Montgomery, born 31 July 1832, and husband James Fisher Fulton, matching the selected account’s names, full birth date and linked James Fulton. These combined identifiers strengthen the existing Robert father proposal. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-2222: 73% → 85%, probable; conflicting date retained.",
+    "record_scope": "The held memorial citation instead gives Rhoda M. Fulton as 1823–1868. That nine-year disagreement is material: neither birth year nor adult/memorial identity has been resolved. Retain probable 85%, not a confident attachment, and inspect the memorial or age-bearing census next. No birth or death field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "The held memorial citation instead gives Rhoda M. Fulton as 1823–1868. That nine-year disagreement is material: neither birth year nor adult/memorial identity has been resolved. Retain probable 85%, not a confident attachment, and inspect the memorial or age-bearing census next. No birth or death field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-9607647d0ef5"
+      "held-e-9607647d0ef5",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -84172,22 +84229,33 @@
         "claim_id": "C-67db965b54fe",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 73,
+        "basis": "The held family account identifies Rhoda Montgomery (Glasgow) Fulton as Robert Barclay Glasgow’s child, generally with Phebe McFall. Rhoda’s stated 1832 birth conflicts with memorial 1823, when Robert was18; this is a real identity/date issue requiring reconciliation.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-9607647d0ef5"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-2222": {
         "relationship": "father",
-        "reason": "The held family account identifies Rhoda Montgomery (Glasgow) Fulton as Robert Barclay Glasgow’s child, generally with Phebe McFall. Rhoda’s stated 1832 birth conflicts with memorial 1823, when Robert was18; this is a real identity/date issue requiring reconciliation."
+        "reason": "The printed list names Rhoda Montgomery, born 31 July 1832, and husband James Fisher Fulton, matching the selected account’s names, full birth date and linked James Fulton. These combined identifiers strengthen the existing Robert father proposal. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "daughter",
-        "reason": "The held family account identifies Rhoda Montgomery (Glasgow) Fulton as Robert Barclay Glasgow’s child, generally with Phebe McFall. Rhoda’s stated 1832 birth conflicts with memorial 1823, when Robert was18; this is a real identity/date issue requiring reconciliation."
+        "reason": "The printed list names Rhoda Montgomery, born 31 July 1832, and husband James Fisher Fulton, matching the selected account’s names, full birth date and linked James Fulton. These combined identifiers strengthen the existing Robert father proposal. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-2222.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -84203,16 +84271,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 73,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.73,
-      "basis": "The held family account identifies Rhoda Montgomery (Glasgow) Fulton as Robert Barclay Glasgow’s child, generally with Phebe McFall. Rhoda’s stated 1832 birth conflicts with memorial 1823, when Robert was18; this is a real identity/date issue requiring reconciliation.",
-      "reviewed": "2026-10-22",
+      "value": 0.85,
+      "basis": "The printed list names Rhoda Montgomery, born 31 July 1832, and husband James Fisher Fulton, matching the selected account’s names, full birth date and linked James Fulton. These combined identifiers strengthen the existing Robert father proposal. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-9607647d0ef5"
+        "held-e-9607647d0ef5",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "The held memorial citation instead gives Rhoda M. Fulton as 1823–1868. That nine-year disagreement is material: neither birth year nor adult/memorial identity has been resolved. Retain probable 85%, not a confident attachment, and inspect the memorial or age-bearing census next. No birth or death field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Inspect Rhoda’s memorial and an age-bearing census to distinguish 1823 from 1832.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -86411,18 +86495,19 @@
       "Glasgow-2223",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Mary (Glasgow) Stewart as Robert Barclay Glasgow’s child, generally with Phebe McFall. Mary has Faris p 89 and 1850/1860 censuses, a stronger family reconstruction than memorial alone.",
-    "reason": "The held family account identifies Mary (Glasgow) Stewart as Robert Barclay Glasgow’s child, generally with Phebe McFall. Mary has Faris p 89 and 1850/1860 censuses, a stronger family reconstruction than memorial alone.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-2223, individually assessed 88%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "Faris names Mary Jane as Robert and Phoebe’s child, born 26 May 1835, with first husband Robert Stewart Glasgow and second husband John H. Stewart. The same day/month and distinctive two-husband sequence identify the existing Mary-2223 account despite its 1834 birth year. Taken together these identifiers support confident paternal inference. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "Faris names Mary Jane as Robert and Phoebe’s child, born 26 May 1835, with first husband Robert Stewart Glasgow and second husband John H. Stewart. The same day/month and distinctive two-husband sequence identify the existing Mary-2223 account despite its 1834 birth year. Taken together these identifiers support confident paternal inference. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-2223: 88% → 94%, confident inference.",
+    "record_scope": "The 1834/1835 birth-year discrepancy remains unresolved and visible. It does not outweigh the full marital identity, but reduces confidence below a near-certain grade. Preserve 1834 in the existing vital field; no source is silently harmonized. The cited p. 89 and original censuses were not newly inspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "The 1834/1835 birth-year discrepancy remains unresolved and visible. It does not outweigh the full marital identity, but reduces confidence below a near-certain grade. Preserve 1834 in the existing vital field; no source is silently harmonized. The cited p. 89 and original censuses were not newly inspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-ca71aeeec82b"
+      "held-e-ca71aeeec82b",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -86435,22 +86520,33 @@
         "claim_id": "C-1b81abcf9e0f",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 88,
+        "basis": "The held family account identifies Mary (Glasgow) Stewart as Robert Barclay Glasgow’s child, generally with Phebe McFall. Mary has Faris p 89 and 1850/1860 censuses, a stronger family reconstruction than memorial alone.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-ca71aeeec82b"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-2223": {
         "relationship": "father",
-        "reason": "The held family account identifies Mary (Glasgow) Stewart as Robert Barclay Glasgow’s child, generally with Phebe McFall. Mary has Faris p 89 and 1850/1860 censuses, a stronger family reconstruction than memorial alone."
+        "reason": "Faris names Mary Jane as Robert and Phoebe’s child, born 26 May 1835, with first husband Robert Stewart Glasgow and second husband John H. Stewart. The same day/month and distinctive two-husband sequence identify the existing Mary-2223 account despite its 1834 birth year. Taken together these identifiers support confident paternal inference. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "daughter",
-        "reason": "The held family account identifies Mary (Glasgow) Stewart as Robert Barclay Glasgow’s child, generally with Phebe McFall. Mary has Faris p 89 and 1850/1860 censuses, a stronger family reconstruction than memorial alone."
+        "reason": "Faris names Mary Jane as Robert and Phoebe’s child, born 26 May 1835, with first husband Robert Stewart Glasgow and second husband John H. Stewart. The same day/month and distinctive two-husband sequence identify the existing Mary-2223 account despite its 1834 birth year. Taken together these identifiers support confident paternal inference. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-2223.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -86466,16 +86562,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 88,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.88,
-      "basis": "The held family account identifies Mary (Glasgow) Stewart as Robert Barclay Glasgow’s child, generally with Phebe McFall. Mary has Faris p 89 and 1850/1860 censuses, a stronger family reconstruction than memorial alone.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "basis": "Faris names Mary Jane as Robert and Phoebe’s child, born 26 May 1835, with first husband Robert Stewart Glasgow and second husband John H. Stewart. The same day/month and distinctive two-husband sequence identify the existing Mary-2223 account despite its 1834 birth year. Taken together these identifiers support confident paternal inference. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-ca71aeeec82b"
+        "held-e-ca71aeeec82b",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "The 1834/1835 birth-year discrepancy remains unresolved and visible. It does not outweigh the full marital identity, but reduces confidence below a near-certain grade. Preserve 1834 in the existing vital field; no source is silently harmonized. The cited p. 89 and original censuses were not newly inspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -89333,18 +89445,19 @@
       "Glasgow-839",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Phoebe Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Phoebe’s 1837–1843 memorial fits the couple’s sequence, with no held parent inscription.",
-    "reason": "The held family account identifies Phoebe Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Phoebe’s 1837–1843 memorial fits the couple’s sequence, with no held parent inscription.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-839, individually assessed 79%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "The family list names Phoebe Ann with the same full birth and death dates, 27 October 1837 and 13 June 1843, as the existing Tranquility child. The named parental family, full name and short lifetime identify this child particularly strongly. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "The family list names Phoebe Ann with the same full birth and death dates, 27 October 1837 and 13 June 1843, as the existing Tranquility child. The named parental family, full name and short lifetime identify this child particularly strongly. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-839: 79% → 96%, confident inference.",
+    "record_scope": "The Ann name is reported from the family history without changing structured name fields. The memorial image and original birth/burial entries remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "The Ann name is reported from the family history without changing structured name fields. The memorial image and original birth/burial entries remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-d8b6e9bfcf78"
+      "held-e-d8b6e9bfcf78",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -89357,22 +89470,33 @@
         "claim_id": "C-802153b0928f",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 79,
+        "basis": "The held family account identifies Phoebe Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Phoebe’s 1837–1843 memorial fits the couple’s sequence, with no held parent inscription.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-d8b6e9bfcf78"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-839": {
         "relationship": "father",
-        "reason": "The held family account identifies Phoebe Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Phoebe’s 1837–1843 memorial fits the couple’s sequence, with no held parent inscription."
+        "reason": "The family list names Phoebe Ann with the same full birth and death dates, 27 October 1837 and 13 June 1843, as the existing Tranquility child. The named parental family, full name and short lifetime identify this child particularly strongly. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "daughter",
-        "reason": "The held family account identifies Phoebe Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Phoebe’s 1837–1843 memorial fits the couple’s sequence, with no held parent inscription."
+        "reason": "The family list names Phoebe Ann with the same full birth and death dates, 27 October 1837 and 13 June 1843, as the existing Tranquility child. The named parental family, full name and short lifetime identify this child particularly strongly. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-839.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -89388,16 +89512,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 79,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.79,
-      "basis": "The held family account identifies Phoebe Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Phoebe’s 1837–1843 memorial fits the couple’s sequence, with no held parent inscription.",
-      "reviewed": "2026-10-22",
+      "value": 0.96,
+      "basis": "The family list names Phoebe Ann with the same full birth and death dates, 27 October 1837 and 13 June 1843, as the existing Tranquility child. The named parental family, full name and short lifetime identify this child particularly strongly. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-d8b6e9bfcf78"
+        "held-e-d8b6e9bfcf78",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "The Ann name is reported from the family history without changing structured name fields. The memorial image and original birth/burial entries remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -93060,18 +93200,19 @@
       "Glasgow-2227",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Robert Madison Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Robert Madison has Faris p 46 and 1850 census, linking the reported family before his military death.",
-    "reason": "The held family account identifies Robert Madison Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Robert Madison has Faris p 46 and 1850 census, linking the reported family before his military death.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-2227, individually assessed 86%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "The printed list names Robert Madison, born 16 April 1840 and died 29 January 1865 at Vicksburg, Mississippi. These exact dates, middle name and unusual death setting match Robert-2227’s military-hospital account. The same page reports Robert M. in Robert B.’s 1850 household, cohering with its explicit child list. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "The printed list names Robert Madison, born 16 April 1840 and died 29 January 1865 at Vicksburg, Mississippi. These exact dates, middle name and unusual death setting match Robert-2227’s military-hospital account. The same page reports Robert M. in Robert B.’s 1850 household, cohering with its explicit child list. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-2227: 86% → 97%, confident inference.",
+    "record_scope": "The household and list are statements in one compilation, not independent inspected census and military proofs. The original 1850 census, Roll of Honor and memorial images remain uninspected; no military or vital field is changed. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "The household and list are statements in one compilation, not independent inspected census and military proofs. The original 1850 census, Roll of Honor and memorial images remain uninspected; no military or vital field is changed. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-b0e346aa06f1"
+      "held-e-b0e346aa06f1",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -93084,22 +93225,33 @@
         "claim_id": "C-1162f2fc9e26",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 86,
+        "basis": "The held family account identifies Robert Madison Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Robert Madison has Faris p 46 and 1850 census, linking the reported family before his military death.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-b0e346aa06f1"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-2227": {
         "relationship": "father",
-        "reason": "The held family account identifies Robert Madison Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Robert Madison has Faris p 46 and 1850 census, linking the reported family before his military death."
+        "reason": "The printed list names Robert Madison, born 16 April 1840 and died 29 January 1865 at Vicksburg, Mississippi. These exact dates, middle name and unusual death setting match Robert-2227’s military-hospital account. The same page reports Robert M. in Robert B.’s 1850 household, cohering with its explicit child list. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "son",
-        "reason": "The held family account identifies Robert Madison Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Robert Madison has Faris p 46 and 1850 census, linking the reported family before his military death."
+        "reason": "The printed list names Robert Madison, born 16 April 1840 and died 29 January 1865 at Vicksburg, Mississippi. These exact dates, middle name and unusual death setting match Robert-2227’s military-hospital account. The same page reports Robert M. in Robert B.’s 1850 household, cohering with its explicit child list. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-2227.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -93115,16 +93267,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 86,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.86,
-      "basis": "The held family account identifies Robert Madison Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Robert Madison has Faris p 46 and 1850 census, linking the reported family before his military death.",
-      "reviewed": "2026-10-22",
+      "value": 0.97,
+      "basis": "The printed list names Robert Madison, born 16 April 1840 and died 29 January 1865 at Vicksburg, Mississippi. These exact dates, middle name and unusual death setting match Robert-2227’s military-hospital account. The same page reports Robert M. in Robert B.’s 1850 household, cohering with its explicit child list. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-b0e346aa06f1"
+        "held-e-b0e346aa06f1",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "The household and list are statements in one compilation, not independent inspected census and military proofs. The original 1850 census, Roll of Honor and memorial images remain uninspected; no military or vital field is changed. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -97057,18 +97225,19 @@
       "Glasgow-840",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Nancy Emeline Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Nancy Emeline’s 1843–1849 memorial fits, but its parent wording is not retained.",
-    "reason": "The held family account identifies Nancy Emeline Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Nancy Emeline’s 1843–1849 memorial fits, but its parent wording is not retained.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-840, individually assessed 78%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "Nancy Emeline’s full name and exact dates, 2 June 1843 and 5 March 1849, match the printed child list and existing short-lived Tranquility account. This specific family and lifetime identify her as the listed Robert/Phoebe child. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "Nancy Emeline’s full name and exact dates, 2 June 1843 and 5 March 1849, match the printed child list and existing short-lived Tranquility account. This specific family and lifetime identify her as the listed Robert/Phoebe child. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-840: 78% → 95%, confident inference.",
+    "record_scope": "The profile retains Ohio as birthplace, whereas the book’s narrative reports Indiana for Nancy and Susanna. That reported place discrepancy remains open; no birthplace field changes. Original birth and burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "The profile retains Ohio as birthplace, whereas the book’s narrative reports Indiana for Nancy and Susanna. That reported place discrepancy remains open; no birthplace field changes. Original birth and burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-94c5508c843f"
+      "held-e-94c5508c843f",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -97081,22 +97250,33 @@
         "claim_id": "C-d8ffb6c72756",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 78,
+        "basis": "The held family account identifies Nancy Emeline Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Nancy Emeline’s 1843–1849 memorial fits, but its parent wording is not retained.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-94c5508c843f"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-840": {
         "relationship": "father",
-        "reason": "The held family account identifies Nancy Emeline Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Nancy Emeline’s 1843–1849 memorial fits, but its parent wording is not retained."
+        "reason": "Nancy Emeline’s full name and exact dates, 2 June 1843 and 5 March 1849, match the printed child list and existing short-lived Tranquility account. This specific family and lifetime identify her as the listed Robert/Phoebe child. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "daughter",
-        "reason": "The held family account identifies Nancy Emeline Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Nancy Emeline’s 1843–1849 memorial fits, but its parent wording is not retained."
+        "reason": "Nancy Emeline’s full name and exact dates, 2 June 1843 and 5 March 1849, match the printed child list and existing short-lived Tranquility account. This specific family and lifetime identify her as the listed Robert/Phoebe child. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-840.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -97112,16 +97292,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 78,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.78,
-      "basis": "The held family account identifies Nancy Emeline Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Nancy Emeline’s 1843–1849 memorial fits, but its parent wording is not retained.",
-      "reviewed": "2026-10-22",
+      "value": 0.95,
+      "basis": "Nancy Emeline’s full name and exact dates, 2 June 1843 and 5 March 1849, match the printed child list and existing short-lived Tranquility account. This specific family and lifetime identify her as the listed Robert/Phoebe child. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-94c5508c843f"
+        "held-e-94c5508c843f",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "The profile retains Ohio as birthplace, whereas the book’s narrative reports Indiana for Nancy and Susanna. That reported place discrepancy remains open; no birthplace field changes. Original birth and burial records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -99420,18 +99616,19 @@
       "Glasgow-841",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Margaret Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Margaret’s 1845 birth fits, while the biography’s male pronouns signal an unreviewed imported account.",
-    "reason": "The held family account identifies Margaret Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Margaret’s 1845 birth fits, while the biography’s male pronouns signal an unreviewed imported account.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-841, individually assessed 77%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "Faris calls this child Sarah Margaret, born 6 November 1845, and names husband John M. Lytle. The exact date, Margaret name and linked John Lytle household identify the existing Margaret-841 account. Its female structured field and marital account also show that the biography’s male pronouns are an editorial error. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "Faris calls this child Sarah Margaret, born 6 November 1845, and names husband John M. Lytle. The exact date, Margaret name and linked John Lytle household identify the existing Margaret-841 account. Its female structured field and marital account also show that the biography’s male pronouns are an editorial error. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-841: 77% → 95%, confident inference.",
+    "record_scope": "Report the fuller Sarah Margaret name in the biography without changing structured name fields. Correct the male pronouns in the complete proposed draft. No birth, death or mother field changes; original records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "Report the fuller Sarah Margaret name in the biography without changing structured name fields. Correct the male pronouns in the complete proposed draft. No birth, death or mother field changes; original records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-6e6bb8f69f62"
+      "held-e-6e6bb8f69f62",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -99444,22 +99641,33 @@
         "claim_id": "C-8edd11f7835c",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 77,
+        "basis": "The held family account identifies Margaret Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Margaret’s 1845 birth fits, while the biography’s male pronouns signal an unreviewed imported account.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-6e6bb8f69f62"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-841": {
         "relationship": "father",
-        "reason": "The held family account identifies Margaret Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Margaret’s 1845 birth fits, while the biography’s male pronouns signal an unreviewed imported account."
+        "reason": "Faris calls this child Sarah Margaret, born 6 November 1845, and names husband John M. Lytle. The exact date, Margaret name and linked John Lytle household identify the existing Margaret-841 account. Its female structured field and marital account also show that the biography’s male pronouns are an editorial error. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "daughter",
-        "reason": "The held family account identifies Margaret Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Margaret’s 1845 birth fits, while the biography’s male pronouns signal an unreviewed imported account."
+        "reason": "Faris calls this child Sarah Margaret, born 6 November 1845, and names husband John M. Lytle. The exact date, Margaret name and linked John Lytle household identify the existing Margaret-841 account. Its female structured field and marital account also show that the biography’s male pronouns are an editorial error. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-841.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -99475,16 +99683,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 77,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.77,
-      "basis": "The held family account identifies Margaret Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Margaret’s 1845 birth fits, while the biography’s male pronouns signal an unreviewed imported account.",
-      "reviewed": "2026-10-22",
+      "value": 0.95,
+      "basis": "Faris calls this child Sarah Margaret, born 6 November 1845, and names husband John M. Lytle. The exact date, Margaret name and linked John Lytle household identify the existing Margaret-841 account. Its female structured field and marital account also show that the biography’s male pronouns are an editorial error. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-6e6bb8f69f62"
+        "held-e-6e6bb8f69f62",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Report the fuller Sarah Margaret name in the biography without changing structured name fields. Correct the male pronouns in the complete proposed draft. No birth, death or mother field changes; original records remain uninspected. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {
@@ -102007,18 +102231,19 @@
       "Glasgow-2228",
       "Glasgow-835"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held family account identifies Susanna Rachel Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Susanna Rachel has Faris p 47 and 1850 census support, and fits the later sibling sequence.",
-    "reason": "The held family account identifies Susanna Rachel Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Susanna Rachel has Faris p 47 and 1850 census support, and fits the later sibling sequence.",
-    "claim": "Glasgow-835 remains the selected father of Glasgow-2228, individually assessed 87%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-10-24",
+    "basis": "The printed family list names Susanna Rachel, born 5 July 1847 and died 5 May 1861 in Iowa, exactly matching this child’s maintained dates, middle name and death setting. The same account places Susanna in the reported 1850 and 1860 Robert households. This coherent identity supports the explicit paternal role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "reason": "The printed family list names Susanna Rachel, born 5 July 1847 and died 5 May 1861 in Iowa, exactly matching this child’s maintained dates, middle name and death setting. The same account places Susanna in the reported 1850 and 1860 Robert households. This coherent identity supports the explicit paternal role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+    "claim": "Existing father Robert Barclay Glasgow-835 for Glasgow-2228: 87% → 96%, confident inference.",
+    "record_scope": "The book’s narrative reports Indiana as the birthplace of Susanna and Nancy, while this profile retains Ohio. Leave that place discrepancy open. The reported censuses are not independently inspected records, and no vital field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
+    "limitations": "The book’s narrative reports Indiana as the birthplace of Susanna and Nancy, while this profile retains Ohio. Leave that place discrepancy open. The reported censuses are not independently inspected records, and no vital field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save.",
     "source_ids": [
-      "held-e-bee7726d70f9"
+      "held-e-bee7726d70f9",
+      "faris-robert-phebe-children-1990"
     ],
     "assessment_history": [
       {
@@ -102031,22 +102256,33 @@
         "claim_id": "C-3b656489de10",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "assessment_date": "2026-10-22",
+        "status": "probable",
+        "probability_percent": 87,
+        "basis": "The held family account identifies Susanna Rachel Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Susanna Rachel has Faris p 47 and 1850 census support, and fits the later sibling sequence.",
+        "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+        "source_ids": [
+          "held-e-bee7726d70f9"
+        ],
+        "source_basis": "Saved22October2026 exact pair assessment before the actual Faris child list was inspected. Existing named father retained."
       }
     ],
     "perspectives": {
       "Glasgow-2228": {
         "relationship": "father",
-        "reason": "The held family account identifies Susanna Rachel Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Susanna Rachel has Faris p 47 and 1850 census support, and fits the later sibling sequence."
+        "reason": "The printed family list names Susanna Rachel, born 5 July 1847 and died 5 May 1861 in Iowa, exactly matching this child’s maintained dates, middle name and death setting. The same account places Susanna in the reported 1850 and 1860 Robert households. This coherent identity supports the explicit paternal role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       },
       "Glasgow-835": {
         "relationship": "daughter",
-        "reason": "The held family account identifies Susanna Rachel Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Susanna Rachel has Faris p 47 and 1850 census support, and fits the later sibling sequence."
+        "reason": "The printed family list names Susanna Rachel, born 5 July 1847 and died 5 May 1861 in Iowa, exactly matching this child’s maintained dates, middle name and death setting. The same account places Susanna in the reported 1850 and 1860 Robert households. This coherent identity supports the explicit paternal role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements."
       }
     },
     "analysis_links": [
       {
-        "label": "Father confidence review",
-        "href": "/people/glasgow-2228.html#research-findings"
+        "label": "Checked Robert/Phoebe family and individual limits",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
       }
     ],
     "provenance": {
@@ -102062,16 +102298,32 @@
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "research_reassessment": {
+        "previous_percent": 87,
+        "previous_status": "probable",
+        "review_path": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+        "printed_pages_visually_inspected": true,
+        "original_record_inspected": false
+      }
     },
     "probability": {
-      "value": 0.87,
-      "basis": "The held family account identifies Susanna Rachel Glasgow as Robert Barclay Glasgow’s child, generally with Phebe McFall. Susanna Rachel has Faris p 47 and 1850 census support, and fits the later sibling sequence.",
-      "reviewed": "2026-10-22",
+      "value": 0.96,
+      "basis": "The printed family list names Susanna Rachel, born 5 July 1847 and died 5 May 1861 in Iowa, exactly matching this child’s maintained dates, middle name and death setting. The same account places Susanna in the reported 1850 and 1860 Robert households. This coherent identity supports the explicit paternal role. The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements.",
+      "reviewed": "2026-10-24",
       "source_ids": [
-        "held-e-bee7726d70f9"
+        "held-e-bee7726d70f9",
+        "faris-robert-phebe-children-1990"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "The book’s narrative reports Indiana as the birthplace of Susanna and Nancy, while this profile retains Ohio. Leave that place discrepancy open. The reported censuses are not independently inspected records, and no vital field changes. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save."
+    },
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reviewed": "2026-10-24",
+      "last_test": "Actual Faris printed pp. 46–47 compared with this existing profile and held family evidence.",
+      "next_test": "Find an original named-kin record or family entry; further copies of the same compilation are not independent evidence.",
+      "resume_when": "An independent original or concrete identifying clause becomes available."
     }
   },
   {

@@ -41785,5 +41785,80 @@
         "href": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3"
       }
     ]
+  },
+  {
+    "record_id": "faris-robert-phebe-children-1990",
+    "record_type": "Printed family genealogy",
+    "record_category": "Family history",
+    "date": "1990 publication; retrospective family account of children born 1827–1847",
+    "year": 1990,
+    "place": "Adams County,Ohio; Washington County,Iowa",
+    "country": "United States",
+    "association": "Nine children explicitly listed for Robert Barclay Glasgow and Phoebe McFall",
+    "source_title": "David Faris, The Glasgow Family of Adams County, Ohio (1990), printed pp. 46–47: Robert Barclay/Phoebe McFall household",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3",
+    "source_type": "Retrospective compiled family genealogy",
+    "source_quality": "family_history",
+    "source_status": "Actual printed pp. 46–47 visually inspected; original census and family entries uninspected",
+    "status": "Nine existing father assessments strengthened; eight now confident, Rhoda remains probable 85%",
+    "note": "The actual Faris pp. 46–47 were visually checked. They explicitly group these children under Robert Barclay Glasgow and Phoebe McFall; Robert’s own dates, two wives and Ohio–Iowa life identify the father account. These exact percentages are subjective assessments of each complete father/profile pair, not statistical measurements. This is one retrospective compiled family history. Its list, reported censuses, modern family fields and memorial citations may share evidence; repeated details are not independent proofs. No original birth register, census, Bible or burial record was newly inspected. The 1927 Bible provenance on p. 32 concerns William and Rhoda’s children, not the dates of Robert’s next generation; it is not transferred here. Existing named fathers remain selected. Mothers are separate, ungraded or unselected where previously so. No new parent attachment, merge or live save. Individual limits: William Harvey Glasgow: The memorial image and original birth/burial records remain uninspected. Elizabeth Patton (Glasgow) Cunningham: Page46 does not supply the existing 5 February birth day/month; those fields remain unchanged and are not newly verified. The cited p. 48 and original censuses were not inspected in this batch. Rhoda Montgomery (Glasgow) Fulton: The held memorial citation instead gives Rhoda M. Fulton as 1823–1868. That nine-year disagreement is material: neither birth year nor adult/memorial identity has been resolved. Retain probable 85%, not a confident attachment, and inspect the memorial or age-bearing census next. No birth or death field changes. Mary (Glasgow) Stewart: The 1834/1835 birth-year discrepancy remains unresolved and visible. It does not outweigh the full marital identity, but reduces confidence below a near-certain grade. Preserve 1834 in the existing vital field; no source is silently harmonized. The cited p. 89 and original censuses were not newly inspected. Phoebe Glasgow: The Ann name is reported from the family history without changing structured name fields. The memorial image and original birth/burial entries remain uninspected. Robert Madison Glasgow: The household and list are statements in one compilation, not independent inspected census and military proofs. The original 1850 census, Roll of Honor and memorial images remain uninspected; no military or vital field is changed. Nancy Emeline Glasgow: The profile retains Ohio as birthplace, whereas the book’s narrative reports Indiana for Nancy and Susanna. That reported place discrepancy remains open; no birthplace field changes. Original birth and burial records remain uninspected. Margaret Glasgow: Report the fuller Sarah Margaret name in the biography without changing structured name fields. Correct the male pronouns in the complete proposed draft. No birth, death or mother field changes; original records remain uninspected. Susanna Rachel Glasgow: The book’s narrative reports Indiana as the birthplace of Susanna and Nancy, while this profile retains Ohio. Leave that place discrepancy open. The reported censuses are not independently inspected records, and no vital field changes.",
+    "historical_basis": {
+      "latest_birth_year": 1847,
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3",
+      "reason": "The linked nine children are explicitly listed on these pages with births 1827–1847. The parents’ stated births are 1804 and 1807. No later child from the second marriage is included;1990 is publication year, not birth or event year."
+    },
+    "profiles": {
+      "Glasgow-837": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-2221": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-2222": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "probable"
+      },
+      "Glasgow-2223": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-839": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-2227": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-840": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-841": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-2228": {
+        "role": "Explicitly named child in compiled family list; profile identity and father percentage separately assessed",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-835": {
+        "role": "Named father; existing own-father assessment94% unchanged"
+      },
+      "McFall-388": {
+        "role": "Named mother in printed first-marriage family list; maternity assessments not changed"
+      }
+    },
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-24",
+    "provenance": "research/ancestry-connections/robert-children-confidence-2026-10-24.json",
+    "analysis_links": [
+      {
+        "label": "Current family argument,exact grades and conflicts",
+        "href": "/branches/research-irish-moneymore/#robert-phebe-children"
+      }
+    ]
   }
 ]
