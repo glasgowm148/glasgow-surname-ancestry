@@ -155,6 +155,13 @@ make build-workbench-site                # the public projection through the sha
 - `data/private/workbench/backups/20261025-after-catch-up-fix/`: the same database
   after the catch-up fix (logical digest `621e6cc19c85…`), verified.
 
+- `data/private/workbench/backups/20261026-current/`: the main checkout's database
+  after every change on 26 October (generated registries and documents, the
+  privacy-policy publication step, the scratch review), logical digest
+  `ed234a622fad…`, 931 MB. Verified, then restored into a fresh directory: same
+  logical digest, integrity ok, no broken references, and all 34,889
+  hash-referenced research and scratch files verified against the checkout.
+
 ## Recovery
 
 - Database lost or damaged: `.venv/bin/genealogy backup restore <backup> <new-dir>`
