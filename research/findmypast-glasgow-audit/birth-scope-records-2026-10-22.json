@@ -6,8 +6,8 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 598,
-    "catalogue_integration_complete": true,
+    "inspected_transcripts": 609,
+    "catalogue_integration_complete": false,
     "integrated_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -610,8 +610,8 @@
       "US/BMD/PENN-BUR/00131614",
       "US/RC/PHILLY/BAP/20155499"
     ],
-    "next_query_page": 27,
-    "integration_scope": "598 literal receipts indexed:394 qualified existing-profile/candidate context and204source-only identity/scope HOLDs. Nineteen supporting indexed IDs give617 bounded audited indexed IDs. Page26:20newproviderIDs,17eventgroups,7matchedrecords/5existingpeople,1candidate-only,12source-only,3approvedvitalcorrections,0newpeople. GenderFemale correction queued for Glasgow-1121; imported machine label qualified. Local publication verified25October2026;production remains at prior release. Overall INCOMPLETE.",
+    "next_query_page": 28,
+    "integration_scope": "Page26 local catalogue publication remains verified. Page27:11new literal transcripts captured but not yet identity-reviewed/indexed;8existing accessible receipts reused,1cached access hold skipped. Overall INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -1223,36 +1223,48 @@
     "verification_report": "output/findmypast-page26-20261025-verification.json",
     "verified_on": "2026-10-25",
     "indexed_provider_record_count": 598,
-    "next_action": "Capture page27 after exact-ID/receipt preflight. No subagents. Retain unresolved identity/natal-surname holds and the pending structured Gender Female correction for Glasgow-1121. Overall INCOMPLETE.",
-    "recent_query_transcripts": 463,
+    "next_action": "Review/integrate the11saved page27 transcripts using current people, documentary groups and cached companions before further provider navigation. Reuse8existing receipts and retain the0933841cached access hold. No subagents. Check Marion1751/Kirknewton against Glasgow-3485, Marion1788/Wiston, Marrion1792/Barony against Glasgow-1532 and Mary1745/Irvine companions; all are unapproved leads. Natal surname questions remain for adult burial/inscription records. Next uncaptured query page28. Overall INCOMPLETE.",
+    "recent_query_transcripts": 474,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
     "recent_query_rows_reviewed": 520,
-    "capture_ledger_note": "598 literal receipts captured and indexed;19 supporting indexed IDs stay at original pointers. All520 saved query rows have dispositions;no saved detail gaps. Whole-provider coverage remains unknown.",
+    "capture_ledger_note": "609 literal receipts captured;598 literal receipts indexed plus19 supporting indexed IDs at original pointers (617 indexed union). Query540rows captured,520identity-reviewed;11new saved transcripts await page27 reconciliation. Eight cached receipts reused and one cached access block skipped. Whole-provider coverage unknown.",
     "capture_count_basis": "617 bounded audited indexed IDs in literal-ledger-plus-support scope. This denominator counts provider IDs, not eligible people or first-seen historical discoveries.",
-    "recent_query_receipt_reuses": 51,
+    "recent_query_receipt_reuses": 59,
     "recent_query_existing_index_reuses": 1,
-    "recent_query_access_holds": 5,
-    "next_search_page_to_capture": 27,
-    "recent_query_rows_captured": 520,
+    "recent_query_access_holds": 6,
+    "next_search_page_to_capture": 28,
+    "recent_query_rows_captured": 540,
     "contiguous_query_rows_reviewed": 520,
     "recent_query_detail_gaps": 0,
-    "unindexed_captured_record_ids": [],
-    "pending_transcript_matching": 0,
+    "unindexed_captured_record_ids": [
+      "R_691902723",
+      "GBPRS/SCOT/MIS/511328",
+      "SCOT/OPR/BAP/4108151",
+      "R_685772197",
+      "R_691830173",
+      "FHS/SCOTLAND/MI/ADD/3/203626",
+      "R_691583593",
+      "SCOT/OPR/BAP/0392840",
+      "GBOR/LONDONBURIAL/00130426",
+      "R_685313886",
+      "R_688620486"
+    ],
+    "pending_transcript_matching": 11,
     "supplemental_cached_records_indexed": 19,
     "total_indexed_reviewed_provider_ids": 617,
     "capture_review_boundary_20261025": {
-      "query_rows_captured": 520,
+      "query_rows_captured": 540,
       "query_rows_identity_reviewed": 520,
-      "query_transcript_receipts_captured": 463,
+      "query_transcript_receipts_captured": 474,
       "query_transcript_receipts_in_reviewed_rows": 463,
-      "pending_saved_receipts": 0,
-      "newly_indexed_this_checkpoint": 20,
+      "pending_saved_receipts": 11,
+      "newly_indexed_this_checkpoint": 0,
       "indexed_literal_receipts": 598,
       "indexed_supporting_receipts_at_original_pointers": 19,
       "indexed_provider_id_union": 617,
       "next_identity_review_page": 27,
-      "next_uncaptured_page": 27,
+      "next_uncaptured_page": 28,
       "coverage_status": "INCOMPLETE",
       "whole_provider_percentage_known": false
     }
@@ -7622,6 +7634,276 @@
         "reused_receipts": 0,
         "identity_review_complete": true,
         "newly_indexed_provider_records": 20,
+        "new_people_proposed": 0,
+        "original_registers_inspected": 0
+      }
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=27&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        27
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "rows": [
+        {
+          "record_id": "R_691902723",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691902723",
+          "last_name": "Glasgow",
+          "first_name": "Marion",
+          "birth_year": "1751",
+          "death_year": "—",
+          "event_year": "1751",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Midlothian, Scotland"
+        },
+        {
+          "record_id": "GBPRS/SCOT/MIS/511328",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511328",
+          "last_name": "Glasgow",
+          "first_name": "Marion",
+          "birth_year": "1751",
+          "death_year": "1774",
+          "event_year": "1774",
+          "record_set": "Scotland Monumental Inscriptions",
+          "location": "Kirknewton, Midlothian, Scotland"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/4108151",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108151",
+          "last_name": "Glasgow",
+          "first_name": "Marion",
+          "birth_year": "1788",
+          "death_year": "—",
+          "event_year": "1788",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Wiston & Roberton, Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "R_685772197",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685772197",
+          "last_name": "Glasgow",
+          "first_name": "Marion",
+          "birth_year": "1788",
+          "death_year": "—",
+          "event_year": "1788",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "R_691830173",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691830173",
+          "last_name": "Glasgow",
+          "first_name": "Marion",
+          "birth_year": "1788",
+          "death_year": "—",
+          "event_year": "1788",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "FHS/SCOTLAND/MI/ADD/3/203626",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=FHS%2FSCOTLAND%2FMI%2FADD%2F3%2F203626",
+          "last_name": "Glasgow",
+          "first_name": "Marion",
+          "birth_year": "1726",
+          "death_year": "1796",
+          "event_year": "1796",
+          "record_set": "Scotland Monumental Inscriptions",
+          "location": "Langholm, Dumfriesshire, Scotland"
+        },
+        {
+          "record_id": "R_690387615",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690387615",
+          "last_name": "Glasgow",
+          "first_name": "Marrion",
+          "birth_year": "1792",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "R_691583593",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691583593",
+          "last_name": "Glasgow",
+          "first_name": "Marrion",
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "1782",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Berwickshire, Scotland"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/0392840",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0392840",
+          "last_name": "Glasgow",
+          "first_name": "Marrion",
+          "birth_year": "1792",
+          "death_year": "—",
+          "event_year": "1792",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Barony, Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "GBOR/LONDONBURIAL/00130426",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FLONDONBURIAL%2F00130426",
+          "last_name": "Glasgow",
+          "first_name": "Martha",
+          "birth_year": "1771",
+          "death_year": "—",
+          "event_year": "1848",
+          "record_set": "Greater London Burial Index",
+          "location": "Tower Hamlets, London, Middlesex"
+        },
+        {
+          "record_id": "R_690419744",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690419744",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1785",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "R_690390677",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690390677",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1790",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "R_690425467",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690425467",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1799",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Lanarkshire, Scotland"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/3599128",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599128",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1732",
+          "death_year": "—",
+          "event_year": "1732",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kilmarnock, Ayrshire, Scotland"
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/0933841",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0933841",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1731",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "location": "Kilmarnock, Ayrshire"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/3600620",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600620",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1744",
+          "death_year": "—",
+          "event_year": "1744",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Kilmarnock, Ayrshire, Scotland"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/3575366",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575366",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1745",
+          "death_year": "—",
+          "event_year": "1745",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Irvine, Ayrshire, Scotland"
+        },
+        {
+          "record_id": "R_685313886",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685313886",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1745",
+          "death_year": "—",
+          "event_year": "1745",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland"
+        },
+        {
+          "record_id": "R_688620486",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688620486",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1745",
+          "death_year": "—",
+          "event_year": "1745",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Ayrshire, Scotland"
+        },
+        {
+          "record_id": "SCOT/OPR/BAP/3575849",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575849",
+          "last_name": "Glasgow",
+          "first_name": "Mary",
+          "birth_year": "1751",
+          "death_year": "—",
+          "event_year": "1751",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "location": "Irvine, Ayrshire, Scotland"
+        }
+      ],
+      "review_status": "detail_capture_complete_identity_review_pending",
+      "captured_new_detail_rows": [
+        "R_691902723",
+        "GBPRS/SCOT/MIS/511328",
+        "SCOT/OPR/BAP/4108151",
+        "R_685772197",
+        "R_691830173",
+        "FHS/SCOTLAND/MI/ADD/3/203626",
+        "R_691583593",
+        "SCOT/OPR/BAP/0392840",
+        "GBOR/LONDONBURIAL/00130426",
+        "R_685313886",
+        "R_688620486"
+      ],
+      "remaining_detail_rows": [],
+      "reused_receipt_ids": [
+        "R_690387615",
+        "R_690419744",
+        "R_690390677",
+        "R_690425467",
+        "SCOT/OPR/BAP/3599128",
+        "SCOT/OPR/BAP/3600620",
+        "SCOT/OPR/BAP/3575366",
+        "SCOT/OPR/BAP/3575849"
+      ],
+      "access_hold_ids": [
+        "SCOT/OPR/BUR/0933841"
+      ],
+      "capture_summary": {
+        "new_literal_transcript_receipts": 11,
+        "reused_receipts": 8,
+        "cached_access_holds": 1,
+        "identity_review_complete": false,
+        "newly_indexed_provider_records": 0,
         "new_people_proposed": 0,
         "original_registers_inspected": 0
       }
@@ -29670,6 +29952,344 @@
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
       "matching_status": "matched"
+    },
+    "R_691902723": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691902723",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691902723&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691902723&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marion",
+        "Mother's first name(s)": "Katharine",
+        "Last name": "Glasgow",
+        "Mother's last name": "Rule",
+        "Sex": "Female",
+        "Place": "Kirknewton and East Calder",
+        "Birth year": "1751",
+        "County": "Midlothian",
+        "Baptism year": "1751",
+        "Country": "Scotland",
+        "Baptism date": "09 Jun 1751",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "James",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "GBPRS/SCOT/MIS/511328": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511328",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511328&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511328&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marion",
+        "Place": "Kirknewton",
+        "Last name": "Glasgow",
+        "County": "Midlothian",
+        "Birth year": "1751",
+        "Country": "Scotland",
+        "Age": "23",
+        "Record set": "Scotland Monumental Inscriptions",
+        "Death year": "1774",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Inscription": "Here lies the corps of Marion Glasgow daughter to James Glasgow, Tenant in Newton d. 20.7.1774 aged 23y",
+        "Subcategory": "Parish Burials",
+        "Cemetery": "Kirknewton Churchyard",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "SCOT/OPR/BAP/4108151": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108151",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108151&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4108151&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marion",
+        "Mother's first name(s)": "Helen",
+        "Last name": "Glasgow",
+        "Mother's last name": "Brown",
+        "Birth year": "1788",
+        "Archive reference": "OPR 660/1",
+        "Birth date": "20 Feb 1788",
+        "Register year range": "1689-1819",
+        "Baptism year": "1788",
+        "Item": "1",
+        "Baptism date": "24 Feb 1788",
+        "Page": "24",
+        "Place": "Wiston & Roberton",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County": "Lanarkshire",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Country": "Scotland",
+        "Subcategory": "Parish Baptisms",
+        "Father's first name(s)": "James",
+        "Collections from": "Great Britain, Scotland",
+        "Father's last name": "Glasgow"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "R_685772197": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685772197",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685772197&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685772197&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marion",
+        "Mother's last name": "Brown",
+        "Last name": "Glasgow",
+        "Residence": "Wiston and Roberton, Lanarkshire, Scotland",
+        "Sex": "Female",
+        "Place": "Wiston and Roberton",
+        "Birth year": "1788",
+        "County": "Lanarkshire",
+        "Baptism year": "1788",
+        "Country": "Scotland",
+        "Baptism date": "24 Feb 1788",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "WISTON AND ROBERTON, LANARK, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "James",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Helen"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "R_691830173": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691830173",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691830173&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691830173&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marion",
+        "Mother's first name(s)": "Helen",
+        "Last name": "Glasgow",
+        "Mother's last name": "Brown",
+        "Sex": "Female",
+        "Place": "Wiston and Roberton",
+        "Birth year": "1788",
+        "County": "Lanarkshire",
+        "Baptism year": "1788",
+        "Country": "Scotland",
+        "Baptism date": "24 Feb 1788",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "WISTON AND ROBERTON, LANARK, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "James",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "FHS/SCOTLAND/MI/ADD/3/203626": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=FHS%2FSCOTLAND%2FMI%2FADD%2F3%2F203626",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=FHS%2FSCOTLAND%2FMI%2FADD%2F3%2F203626&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=FHS%2FSCOTLAND%2FMI%2FADD%2F3%2F203626&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marion",
+        "Place": "Langholm",
+        "Last name": "Glasgow",
+        "County": "Dumfriesshire",
+        "Birth year": "1726",
+        "Country": "Scotland",
+        "Age": "70",
+        "Record set": "Scotland Monumental Inscriptions",
+        "Death year": "1796",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Inscription": "In memory of John WILSON who died in Greenhead January 11th 1786 aged 73 years. And Agnes SCOTT his spouse who died June 4th 1762 aged 50 years to him she had 14 children. Also of Marion GLASGOW his spouse who died 26th November 1796 aged 70 years to him she had 4 children. [Reverse] In memory of Janet RAE wife of William Thomson who died in Langholm 20th March 1892 aged 56 years. Also Hugh their son who died 18th April 1860 aged 8 months. Also Agnes their daughter who died 16th March 1863 aged 18 months. Also their son Private John THOMPSON of the 42nd Royal Highlanders Black Watch who died at Lucknow, India, 19th September 1900 aged 25 years. Also the above William THOMPSON who died 4th August 1903 aged 82 years.",
+        "Subcategory": "Parish Burials",
+        "Cemetery": "Wauchope Graveyard",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "R_691583593": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691583593",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691583593&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691583593&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marrion",
+        "Mother's first name(s)": "Agnus",
+        "Last name": "Glasgow",
+        "Mother's last name": "Whitehead",
+        "Sex": "Female",
+        "Place": "Eccles",
+        "Birth year": "1782",
+        "County": "Berwickshire",
+        "Baptism year": "1782",
+        "Country": "Scotland",
+        "Baptism date": "13 Oct 1782",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "ECCLES, BERWICK, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robert",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "SCOT/OPR/BAP/0392840": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0392840",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0392840&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0392840&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Marrion",
+        "Mother's first name(s)": "Eliz",
+        "Last name": "Glasgow",
+        "Mother's last name": "Jack",
+        "Birth year": "1792",
+        "Archive reference": "OPR 622/3",
+        "Birth date": "04 Mar 1792",
+        "Register year range": "1778-1796",
+        "Baptism year": "1792",
+        "Item": "1",
+        "Place": "Barony",
+        "Page": "163",
+        "County": "Lanarkshire",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Country": "Scotland",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "Robt",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "GBOR/LONDONBURIAL/00130426": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FLONDONBURIAL%2F00130426",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FLONDONBURIAL%2F00130426&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FLONDONBURIAL%2F00130426&tab=this",
+      "title": "Record Transcription: Greater London Burial Index | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Martha",
+        "City": "London",
+        "Last name": "Glasgow",
+        "County": "Middlesex",
+        "Birth year": "1771",
+        "Country": "England",
+        "Age at death": "77",
+        "Source": "City of London Burials 1754-1855",
+        "Burial year": "1848",
+        "Record set": "Greater London Burial Index",
+        "Burial date": "17 Jul 1848",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Address": "City Poor House, Stepney",
+        "Subcategory": "Parish Burials",
+        "Place": "Tower Hamlets",
+        "Collections from": "England, Great Britain"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "R_685313886": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685313886",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685313886&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685313886&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Mary",
+        "Mother's last name": "Martine",
+        "Last name": "Glasgow",
+        "Residence": "Irvine, Ayrshire, Scotland",
+        "Sex": "Female",
+        "Place": "Irvine",
+        "Birth year": "1745",
+        "County": "Ayrshire",
+        "Baptism year": "1745",
+        "Country": "Scotland",
+        "Baptism date": "21 Apr 1745",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "George",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland",
+        "Mother's first name(s)": "Margaret"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
+    },
+    "R_688620486": {
+      "access_status": "accessible",
+      "captured_at": "2026-10-25T09:32:56.670082+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688620486",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688620486&tab=this",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688620486&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "transcript_fields": {
+        "First name(s)": "Mary",
+        "Mother's first name(s)": "Margaret",
+        "Last name": "Glasgow",
+        "Mother's last name": "Martine",
+        "Sex": "Female",
+        "Place": "Irvine",
+        "Birth year": "1745",
+        "County": "Ayrshire",
+        "Baptism year": "1745",
+        "Country": "Scotland",
+        "Baptism date": "21 Apr 1745",
+        "Record set": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place": "IRVINE, AYR, SCOTLAND",
+        "Category": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s)": "George",
+        "Subcategory": "Parish Baptisms",
+        "Father's last name": "Glasgow",
+        "Collections from": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original image not inspected",
+      "capture_method": "Existing logged-in Chrome; read-only rendered transcript DOM via CUA",
+      "matching_status": "unreviewed"
     }
   },
   "identity_clusters": [
@@ -68836,6 +69456,661 @@
       "publication_verified_on": "2026-10-25",
       "verification_report": "output/findmypast-page26-20261025-verification.json",
       "structured_gender_correction": "Gender Female queued for Glasgow-1121; imported machine label remains explicitly qualified pending supported projection"
+    },
+    "page27_preflight_20261025": {
+      "reviewed_on": "2026-10-25",
+      "status": "complete",
+      "records": [
+        {
+          "provider_id": "R_691902723",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBPRS/SCOT/MIS/511328",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4108151",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685772197",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691830173",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "FHS/SCOTLAND/MI/ADD/3/203626",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690387615",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690387615",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:33:51.811Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690387615",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:33:51.811Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690387615",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:33:51.811Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-r-690387615"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690387615"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-cf3e11f65c165708"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-cf3e11f65c165708",
+              "profile_ids": [
+                "glasgow-1532"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=R_690387615&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_691583593",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/0392840",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "GBOR/LONDONBURIAL/00130426",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690419744",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690419744",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:33:55.205Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690419744",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:33:55.205Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690419744",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:33:55.205Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": true,
+          "matching_hold_evidence": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690419744",
+              "matching_status": "scope_hold",
+              "reason": "Explicit matching HOLD in scope record"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/matching_review/record_assignments/R_690419744",
+              "matching_status": "scope_hold",
+              "reason": "Disposition: scope HOLD. Mary Glasgow indexed birth year/place 1785, Glasgow, Lanarkshire; baptism year and parents blank. No exact birth date, age or natal-surname proof. The two Barony profiles survive comparison if the index year or baptism is derivative/delayed; neither is identified. Other same-name people remain possible. No profile creation or birth correction."
+            }
+          ],
+          "canonical_record_ids": [
+            "fmp-record-r-690419744"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690419744"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-88738ae5137e1466"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-88738ae5137e1466",
+              "profile_ids": [
+                "glasgow-1531",
+                "glasgow-1351"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=R_690419744&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690390677",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690390677",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:33:57.205Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690390677",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:33:57.205Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690390677",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:33:57.205Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-r-690390677"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690390677"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-ed016e0e92384a83"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-ed016e0e92384a83",
+              "profile_ids": [
+                "glasgow-1531",
+                "glasgow-1530"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=R_690390677&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_690425467",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+            "json_pointer": "#/records/R_690425467",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T21:34:07.595Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/R_690425467",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:34:07.595Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-pre1701.json",
+              "json_pointer": "#/records/R_690425467",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T21:34:07.595Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-r-690425467"
+          ],
+          "public_record_ids": [
+            "fmp-record-r-690425467"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-0e2dfb84630d72cf"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-0e2dfb84630d72cf",
+              "profile_ids": [
+                "glasgow-1353",
+                "glasgow-1348",
+                "smith-230548"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=R_690425467&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3599128",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13599128",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:42:28.351Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13599128",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:42:28.351Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-glasgow-fba04c067c7c"
+          ],
+          "public_record_ids": [
+            "5743d05a018713c4",
+            "de9ac31d54a8bf05"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-f89e14cfe6d724bc"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-f89e14cfe6d724bc",
+              "profile_ids": [
+                "record-fmp-glasgow-fba04c067c7c"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3599128&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/0933841",
+          "disposition": "blocked_receipt",
+          "receipt_status": "subscription_locked",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BUR~10933841",
+            "access_status": "subscription_locked",
+            "transcript_fields_present": false,
+            "captured_at": "2026-09-03T23:52:54.033Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BUR~10933841",
+              "access_status": "subscription_locked",
+              "captured_at": "2026-09-03T23:52:54.033Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "Cached access failure; do not automatically retry.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3600620",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13600620",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:42:33.674Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13600620",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:42:33.674Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-5398162e16bb"
+          ],
+          "public_record_ids": [
+            "9688efd1750bed4c",
+            "c26254aba0cdf97d"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-a480d71bea3d9f83"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-a480d71bea3d9f83",
+              "profile_ids": [
+                "glasgow-4108"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600620&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3575366",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13575366",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:39:18.499Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13575366",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:39:18.499Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "held-e-bce50e557dcb"
+          ],
+          "public_record_ids": [
+            "65ccebf6da5a3568",
+            "ec632d7cf69836c5"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-db36e93103eab7ea"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-db36e93103eab7ea",
+              "profile_ids": [
+                "record-fmp-glasgow-ba0ccce5c268"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575366&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_685313886",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "R_688620486",
+          "disposition": "detail_needed",
+          "receipt_status": "missing",
+          "cached_receipt": null,
+          "receipt_pointers": [],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [],
+          "public_record_ids": [],
+          "already_indexed": false,
+          "source_ids": [],
+          "source_library_matches": [],
+          "reason": "No saved full-transcript receipt for this exact provider ID.",
+          "reinspect": null
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3575849",
+          "disposition": "reusable_receipt",
+          "receipt_status": "accessible",
+          "cached_receipt": {
+            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+            "json_pointer": "#/records/SCOT~1OPR~1BAP~13575849",
+            "access_status": "accessible",
+            "transcript_fields_present": true,
+            "captured_at": "2026-09-03T23:39:27.220Z"
+          },
+          "receipt_pointers": [
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13575849",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:39:27.220Z"
+            },
+            {
+              "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+              "json_pointer": "#/records/SCOT~1OPR~1BAP~13575849",
+              "access_status": "accessible",
+              "captured_at": "2026-09-03T23:39:27.220Z"
+            }
+          ],
+          "conflicting_fields": [],
+          "matching_hold": false,
+          "matching_hold_evidence": [],
+          "canonical_record_ids": [
+            "fmp-record-scot-opr-bap-3575849"
+          ],
+          "public_record_ids": [
+            "fmp-record-scot-opr-bap-3575849"
+          ],
+          "already_indexed": true,
+          "source_ids": [
+            "s-be33676be1f9b1f3"
+          ],
+          "source_library_matches": [
+            {
+              "source_id": "s-be33676be1f9b1f3",
+              "profile_ids": [
+                "glasgow-1414",
+                "glasgow-1410",
+                "crauford-31"
+              ],
+              "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575849&tab=this"
+            }
+          ],
+          "reason": "Compatible cached accessible receipt has nonempty transcript_fields.",
+          "reinspect": null
+        }
+      ],
+      "summary": {
+        "detail_needed": 11,
+        "reusable_receipt": 8,
+        "cached_access_hold": 1
+      },
+      "note": "Exact-ID receipt and canonical/public-index preflight ran before any detail navigation. Existing cached56/OPR holds already reviewed; no repeat offline sweep."
+    },
+    "page27_capture_20261025": {
+      "captured_on": "2026-10-25",
+      "status": "capture_complete_identity_review_pending",
+      "provider_record_ids": [
+        "R_691902723",
+        "GBPRS/SCOT/MIS/511328",
+        "SCOT/OPR/BAP/4108151",
+        "R_685772197",
+        "R_691830173",
+        "FHS/SCOTLAND/MI/ADD/3/203626",
+        "R_691583593",
+        "SCOT/OPR/BAP/0392840",
+        "GBOR/LONDONBURIAL/00130426",
+        "R_685313886",
+        "R_688620486"
+      ],
+      "new_literal_receipts": 11,
+      "newly_indexed_provider_records": 0,
+      "new_people_proposed": 0,
+      "original_registers_inspected": 0,
+      "browser_cleanup": "Single working tab closed. Four personal tabs preserved. No browser/window/profile process launched; memory free37% at ten-navigation checkpoint. Two immediate DOM reads returned blank and were recaptured after visible heading readiness; blanks excluded."
     }
   }
 }
