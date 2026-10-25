@@ -1,10 +1,12 @@
 # Glasgow on the research database
 
 Status checkpoint, 25 October 2026. Branch `feat/workbench-sqlite-migration`
-(Glasgow) with workbench branch `feat/sqlite-research-core` (0.9.0). Both
-branches are pushed to their `origin` repositories; neither is merged into `main`
-or tagged, and nothing is published or deployed. The submodule pin
-(`cd5c605`) is fetchable from the workbench remote.
+(Glasgow) with workbench branch `feat/sqlite-research-core` (0.9.0). Both are
+fast-forwarded into `main` (25 October 2026); the workbench pin `cd5c605` is the
+workbench's `main`. Nothing is tagged, published or deployed. The research
+database was created in the main checkout (`data/private/workbench/`), where the
+baseline archive and the earlier migration backups (`backups/worktree-*`) now
+also live.
 
 ## Architecture and ownership
 
@@ -146,7 +148,15 @@ make build-workbench-site                # the public projection through the sha
   `[site]` table of Glasgow's `genealogy.toml` only after the workbench change
   that validates them is merged (one `[site]` table only).
 
-## Merging this branch (owner)
+Full-data checks in the main checkout after the merge: `make check-workbench`,
+`validate`, `check-research` (0 new problems) and `check-links` (0 new pairs) pass.
+`make test` reports 441 failures and 28 errors in nine modules
+(`test_resolved_public_model` and others comparing research files with `www/`);
+the identical set fails at the pre-migration commit with the old workbench and
+the original estimates file, so they come from local `www/` data being out of
+step with the committed research, not from this migration.
+
+## Merging a later change from `main` (owner)
 
 Research continued on `main` during the migration. After merging:
 
