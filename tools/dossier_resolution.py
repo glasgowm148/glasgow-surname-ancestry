@@ -106,7 +106,8 @@ def resolve_presentation(profile_id: str, dossier: dict, model: dict, authored: 
                 and a.get("status") == "approved"]
     # A scoped date/relationship correction need not supply an overall account.
     # Only written assessment summaries can supersede the maintained conclusion.
-    summaries = [a for a in approved if str(a.get("summary") or "").strip()]
+    summaries = [a for a in approved if str(a.get("summary") or "").strip()
+                 and not (a.get("vitals") and a.get("catalogue_projection"))]
     findings = current_findings(dossier)
     issues = []
     state = "none"

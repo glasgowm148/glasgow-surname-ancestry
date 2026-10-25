@@ -109,6 +109,17 @@ class ConclusionResolution(unittest.TestCase):
         self.assertEqual('resolved', result['resolution']['state'])
         self.assertEqual('The reviewed overall account.', result['opening'])
 
+    def test_independent_vital_summaries_do_not_conflict_with_overall_account(self):
+        dossier = _dossier('Current conclusion')
+        dossier['research_assessments'] = [
+            {'subject': 'X-1', 'status': 'approved', 'summary': 'Birth before 1751.',
+             'vitals': {'birth': {'date': '1751'}}, 'catalogue_projection': {'birth': 'Before 1751'}},
+            {'subject': 'X-1', 'status': 'approved', 'summary': 'Death in 1774.',
+             'vitals': {'death': {'date': '1774'}}, 'catalogue_projection': {'death': '1774'}}]
+        result = resolve_presentation('X-1', dossier, {})
+        self.assertEqual('resolved', result['resolution']['state'])
+        self.assertEqual('Text of Current conclusion.', result['opening'])
+
     def test_single_conclusion_resolves(self):
         result = resolve_presentation('X-1', _dossier('Current conclusion'), {})
         self.assertEqual('resolved', result['resolution']['state'])
