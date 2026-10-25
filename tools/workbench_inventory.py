@@ -95,6 +95,8 @@ RULES: list[tuple[str, str, str, str, str]] = [
      "imported observations and external tree state", "restricted", "structured", "WikiTree observations, redirects"),
     (r"^data/wikitree/", "workflow state", "private", "asset", "catalogue links, audits, scans"),
     (r"^data/place-gazetteer\.json$", "reference data", "public", "structured", "places and coordinates"),
+    (r"^data/private/workbench/", "tooling", "private", "excluded",
+     "the research database, its managed files, backups and reports (workbench storage itself)"),
     (r"^data/private/", "original evidence and captures", "restricted", "asset",
      "private captures and approved publication sources"),
     (r"^data/reference/", "reference data", "licensed", "asset", "discovery datasets"),
