@@ -39,6 +39,7 @@ from typing import Any
 from genealogy.store import NameInput, Research, open_project, stable_id
 from genealogy.store.assets import register_asset
 from genealogy.store.operations import import_genealogy_file
+from genealogy.store.vocabulary import FINDING_MAP, PROPOSAL_MAP, normalise
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKITREE_ID = re.compile(r"^[A-Z][A-Za-z'\-]*-\d+$")
@@ -59,6 +60,11 @@ ASSET_KINDS = {"original evidence and captures": "capture", "research prose and 
 
 def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def extra_json(value: dict[str, Any] | None) -> str | None:
+    """The store's canonical JSON for an extra_json column."""
+    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":")) if value else None
 
 
 def as_percent(probability: Any) -> tuple[int | None, Any]:
@@ -102,6 +108,39 @@ class Migration:
                                         "pointer": pointer,
                                         "content_sha256": None if payload is None else sha256_bytes(
                                             json.dumps(payload, sort_keys=True, ensure_ascii=False).encode())})
+
+    @staticmethod
+    def content_hash(payload: Any) -> str:
+        return sha256_bytes(json.dumps(payload, sort_keys=True, ensure_ascii=False).encode())
+
+    def edited_outside_migration(self, table: str, entity_id: str) -> bool:
+        """Whether anyone other than this migration changed the row (research recorded in the database)."""
+        return self.store.one(
+            "SELECT 1 FROM audit_log a JOIN change_set c ON c.id=a.change_set_id WHERE a.table_name=? AND a.row_id=? "
+            "AND a.action<>'insert' AND coalesce(c.tool,'') NOT LIKE 'workbench_migrate%' LIMIT 1",
+            (table, entity_id)) is not None
+
+    def refresh(self, tx, table: str, entity_id: str, relative: str, payload: Any, changes: dict[str, Any],
+                batch_id: str, pointer: str) -> str:
+        """Catch an existing row up with a changed legacy input: 'unchanged', 'updated' or 'conflict'."""
+        previous = self.store.one(
+            "SELECT o.content_sha256 FROM import_origin o JOIN import_batch b ON b.id=o.import_batch_id "
+            "WHERE o.entity_id=? AND o.input_path=? AND o.content_sha256 IS NOT NULL "
+            "ORDER BY b.imported_at DESC, b.id DESC LIMIT 1", (entity_id, relative))
+        digest = self.content_hash(payload)
+        if previous is None or previous["content_sha256"] == digest:
+            self.origin(tx, entity_id, batch_id, relative, pointer, payload)
+            return "unchanged"
+        if self.edited_outside_migration(table, entity_id):
+            self.legacy(tx, batch_id, relative, f"{pointer}@{digest[:12]}", "conflict",
+                        "the legacy input changed after this row was edited in the database; the database row was "
+                        "kept and the incoming version preserved here for review", payload, entity_id)
+            return "conflict"
+        current = self.store.get(table, entity_id)
+        tx.update(table, entity_id, changes, expected_revision=current["revision"])
+        self.origin(tx, entity_id, batch_id, relative, pointer, payload)
+        self.report.setdefault("refreshed", Counter())[table] += 1
+        return "updated"
 
     def legacy(self, tx, batch_id: str | None, relative: str, pointer: str, disposition: str, reason: str,
                payload: Any = None, entity_id: str | None = None) -> None:
@@ -274,7 +313,17 @@ class Migration:
 
     def _record(self, tx, row: dict, batch_id: str, relative: str, pointer: str, *, access: str) -> str:
         record_id = stable_id("rec", "glasgow", row["record_id"])
-        if record_id in self._records or self.store.get("record", record_id):
+        if record_id in self._records:
+            return record_id
+        if self.store.get("record", record_id):
+            year = row.get("year")
+            self.refresh(tx, "record", record_id, relative, row, {
+                "title": row.get("association") or row.get("person") or row["record_id"],
+                "record_type": row.get("record_type") or row.get("role"), "date_original": row.get("date"),
+                "date_start": str(year) if isinstance(year, int) else None,
+                "date_kind": "exact" if isinstance(year, int) else "unknown", "place_wording": row.get("place"),
+                "summary": row.get("note"), "url": row.get("source_url"), "access": access,
+                "extra_json": extra_json({"legacy": row, "glasgow_record_id": row["record_id"]})}, batch_id, pointer)
             self._records.add(record_id)
             return record_id
         source_id = self._source_for(tx, row)
@@ -491,7 +540,20 @@ class Migration:
                     self.origin(tx, claim_id, batch_id, relative, f"/{index}", row)
                     counts["claims"] += 1
                 else:
-                    counts["claims already present"] += self._catch_up(tx, claim_id, fields)
+                    claim = self.store.get("claim", claim_id)
+                    claim_extra = json.loads(claim["extra_json"] or "{}")
+                    refreshed = {**claim_extra, "legacy_json": json.dumps(row, ensure_ascii=False),
+                                 "legacy_index": index,
+                                 "legacy_estimates_json": json.dumps([[e_index, e] for e_index, e in rows_here
+                                                                      if same_claim(e)], ensure_ascii=False)}
+                    state = self._catch_up(tx, claim_id, fields, batch_id, relative, f"/{index}", row)
+                    if state != "conflict" and refreshed != claim_extra:
+                        tx.update("claim", claim_id, {
+                            "extra_json": extra_json(refreshed), "proposition": row.get("claim") or claim["proposition"],
+                            "access": "public" if row.get("publication_status") == "approved" else claim["access"],
+                            "publication_status": "approved" if row.get("publication_status") == "approved"
+                            else claim["publication_status"]}, expected_revision=claim["revision"])
+                    counts[f"claims already present ({state})"] += 1
                 # --------------------------------------------- estimates for this assertion
                 current = self.research.current_assessment(claim_id)
                 own_history = {entry.get("probability_percent") for entry in row.get("assessment_history") or []}
@@ -566,16 +628,26 @@ class Migration:
         counts["reconciled estimate rows"] = len(reconciliation)
         return dict(counts)
 
-    def _catch_up(self, tx, claim_id: str, wanted: dict) -> int:
-        """A changed legacy current value becomes a new revision; an unchanged one is left alone."""
+    def _catch_up(self, tx, claim_id: str, wanted: dict, batch_id: str, relative: str, pointer: str,
+                  row: dict) -> str:
+        """A changed legacy current value becomes a new revision, unless the database was reassessed meanwhile."""
         current = self.research.current_assessment(claim_id)
         if current and all(current.get(key) == wanted.get(key) for key in ("status", "estimate_percent", "reasoning",
                                                                             "assessed_on")):
-            return 1
+            self.origin(tx, claim_id, batch_id, relative, pointer, row)
+            return "unchanged"
+        tool = self.store.one("SELECT tool FROM change_set WHERE id=?", (current["change_set_id"],)) if current else None
+        if current and not str((tool or {}).get("tool") or "").startswith("workbench_migrate"):
+            # The database is the authority for assessments: a hand edit to the generated file is not applied.
+            self.legacy(tx, batch_id, relative, f"{pointer}@{self.content_hash(row)[:12]}", "conflict",
+                        "the generated registry was edited by hand after the assessment was revised in the database; "
+                        "kept for review, not applied", row, claim_id)
+            return "conflict"
         self.research.assess(tx, claim_id, expected_revision=current["current_revision"] if current else None,
                              new=current is None, **wanted)
+        self.origin(tx, claim_id, batch_id, relative, pointer, row)
         self.report.setdefault("caught_up", []).append(claim_id)
-        return 1
+        return "updated"
 
     # ---------------------------------------------------------------- vitals
     def step_vitals(self) -> dict:
@@ -590,10 +662,25 @@ class Migration:
                 subject = self.person(tx, row["subject"])
                 for kind, vital in sorted((row.get("vitals") or {}).items()):
                     event_id = stable_id("evt", "glasgow-vital", row["id"], kind)
-                    if self.store.get("event", event_id):
-                        continue
                     date = vital.get("date")
                     iso = date if isinstance(date, str) and re.fullmatch(r"\d{4}(-\d{2}(-\d{2})?)?", date) else None
+                    if self.store.get("event", event_id):
+                        pointer = f"/assessments/{index}/vitals/{kind}"
+                        claim_id = stable_id("clm", "glasgow-vital", row["id"], kind)
+                        state = self.refresh(tx, "event", event_id, relative, vital, {
+                            "date_original": date, "date_start": iso, "date_kind": "exact" if iso else "unknown",
+                            "place_wording": vital.get("place"),
+                            "access": "public" if row.get("status") == "approved" else "private",
+                            "extra_json": extra_json({"legacy": vital})}, batch_id, pointer)
+                        current = self.research.current_assessment(claim_id)
+                        if state == "updated" and current and (current["status"], current["reasoning"]) != (
+                                vital.get("status"), vital.get("note")):
+                            self.research.assess(tx, claim_id, expected_revision=current["current_revision"],
+                                                 status=vital.get("status"), grade=vital.get("status"),
+                                                 vocabulary=GRADE_VOCABULARY, reasoning=vital.get("note"),
+                                                 assessed_on=row.get("reviewed"), extra={"label": vital.get("label")})
+                        counts[f"vital claims already present ({state})"] += 1
+                        continue
                     self.research.add_event(tx, id=event_id, kind=kind, participants=[(subject, "principal")],
                                             date_original=date, date_start=iso,
                                             date_kind="exact" if iso else "unknown", place_wording=vital.get("place"),
@@ -630,12 +717,22 @@ class Migration:
             batch_id, _ = self.batch(tx, relative, raw, "glasgow-latest-findings")
             for index, row in enumerate(data.get("findings", [])):
                 finding_id = stable_id("fnd", "glasgow", row["id"])
-                if self.store.get("finding", finding_id):
-                    continue
                 links = [(self.person(tx, person["id"], name=person.get("name")), "subject")
                          for person in row.get("people", []) if person.get("id")]
                 extra = {key: value for key, value in row.items()
                          if key not in ("id", "found_on", "kind", "finding", "status", "qualification")}
+                if self.store.get("finding", finding_id):
+                    status, original = normalise(row.get("status"), FINDING_MAP, "draft")
+                    state = self.refresh(tx, "finding", finding_id, relative, row, {
+                        "statement": row["finding"], "recorded_on": row.get("found_on"), "kind": row.get("kind"),
+                        "status": status, "status_original": original, "qualification": row.get("qualification"),
+                        "extra_json": extra_json({"legacy": extra, "glasgow_id": row["id"]})},
+                        batch_id, f"/findings/{index}")
+                    if state == "updated":
+                        for target, role in links:
+                            tx.upsert_link(finding_id, target, role)
+                    counts[f"findings already present ({state})"] += 1
+                    continue
                 self.research.add_finding(tx, id=finding_id, statement=row["finding"], recorded_on=row.get("found_on"),
                                           kind=row.get("kind"), status=row.get("status"),
                                           qualification=row.get("qualification"), access="public",
@@ -784,13 +881,28 @@ class Migration:
             batch_id, _ = self.batch(tx, relative, raw, "glasgow-update-queue")
             for profile, entry in sorted(data.get("entries", {}).items()):
                 proposal_id = stable_id("prp", "glasgow-queue", profile)
-                if self.store.get("proposal", proposal_id):
-                    continue
                 draft = entry.get("draft_path")
                 draft_asset = self.asset(tx, draft, kind="draft") if draft else None
                 status_word = entry.get("status") or "pending"
                 status = "verified" if "VERIFIED" in status_word.upper() else (
                     "proposed" if status_word.upper().startswith("OPEN") or status_word == "pending" else None)
+                existing = self.store.get("proposal", proposal_id)
+                if existing:
+                    review = (reviews or {}).get("reviews", {}).get(f"update-{profile.lower()}")
+                    normalised, original = normalise(status or status_word, PROPOSAL_MAP, "draft")
+                    state = self.refresh(tx, "proposal", proposal_id, relative, entry, {
+                        "status": normalised, "status_original": original, "rationale": entry.get("summary"),
+                        "diff_json": None if entry.get("relationship_changes") is None else json.dumps(
+                            entry["relationship_changes"], ensure_ascii=False, sort_keys=True, separators=(",", ":")),
+                        "draft_asset_id": draft_asset, "extra_json": extra_json({"legacy": entry, "review": review})},
+                        batch_id, f"/entries/{profile}")
+                    if state == "updated" and normalised != existing["status"]:
+                        tx.insert("proposal_event", {"proposal_id": proposal_id, "at": self.store.clock(),
+                                                     "from_status": existing["status"], "to_status": normalised,
+                                                     "actor": ACTOR, "note": f"legacy queue status: {status_word}",
+                                                     "change_set_id": tx.change_set_id})
+                    counts[f"proposals already present ({state})"] += 1
+                    continue
                 self.research.create_proposal(
                     tx, id=proposal_id, kind="wikitree_update", system="wikitree", target=profile,
                     status=status or status_word, destination=f"https://www.wikitree.com/wiki/{profile}",

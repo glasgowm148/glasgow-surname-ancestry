@@ -62,6 +62,12 @@ RECORDS = [{"record_id": "will-1805", "association": "Will of William Harrow", "
             "profiles": {"Harrow-357": {"role": "Testator"}, "Harrow-14": {"role": "Son Isaac"}}}]
 
 
+FINDINGS = {"schema_version": 1, "scope": "Invented.", "findings": [
+    {"id": "will-reading", "found_on": "2026-10-23", "kind": "record", "finding": "The will names Isaac.",
+     "status": "confirmed", "qualification": "Transcription only.", "people": [{"id": "Harrow-14", "name": "Isaac"}],
+     "sources": [], "detail_url": "/people/harrow-14.html"}]}
+
+
 def write(root: Path, relative: str, value) -> None:
     path = root / relative
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -76,6 +82,7 @@ class GlasgowMigrationFixture(unittest.TestCase):
         write(self.source, "research/relationship_assessments.json", ASSESSMENTS)
         write(self.source, "research/relationship_probability_estimates.json", ESTIMATES)
         write(self.source, "research/canonical_records.json", RECORDS)
+        write(self.source, "research/latest-findings.json", FINDINGS)
         subprocess.run(["git", "init", "-q", str(self.source)], check=True)
         subprocess.run(["git", "-C", str(self.source), "add", "-A"], check=True)
         subprocess.run(["git", "-C", str(self.source), "-c", "user.email=t@example.invalid", "-c", "user.name=t",
@@ -91,7 +98,7 @@ class GlasgowMigrationFixture(unittest.TestCase):
 
     def migrate(self) -> dict:
         with open_project(self.project, create=True) as project:
-            return workbench_migrate.Migration(project, self.source).run(["records", "relationships"])
+            return workbench_migrate.Migration(project, self.source).run(["records", "relationships", "findings"])
 
     def test_stale_reverse_view_is_reconciled_without_choosing_by_order_or_size(self) -> None:
         report = self.migrate()
@@ -127,6 +134,61 @@ class GlasgowMigrationFixture(unittest.TestCase):
             research = Research(project.store)
             claim = research.find_external("glasgow-assertion", "C-test-isaac-father")[0]
             self.assertEqual([h["estimate_percent"] for h in research.assessment_history(claim)], [44, 95, 90])
+
+    def test_changed_records_and_findings_catch_up_unless_edited_in_the_database(self) -> None:
+        self.migrate()
+        records = json.loads(json.dumps(RECORDS))
+        records[0]["note"] = "Names sons Isaac and Caleb."
+        findings = json.loads(json.dumps(FINDINGS))
+        findings["findings"][0]["status"] = "qualified"
+        write(self.source, "research/canonical_records.json", records)
+        write(self.source, "research/latest-findings.json", findings)
+        report = self.migrate()
+        self.assertEqual(dict(report["refreshed"]), {"record": 1, "finding": 1})
+        with open_project(self.project) as project:
+            record = Research(project.store).find_external("glasgow-record", "will-1805")[0]
+            self.assertEqual(project.store.get("record", record)["summary"], "Names sons Isaac and Caleb.")
+            finding = Research(project.store).find_external("glasgow-finding", "will-reading")[0]
+            self.assertEqual(project.store.get("finding", finding)["status"], "qualified")
+            with project.store.write(actor="researcher", tool="genealogy finding") as tx:
+                tx.update("finding", finding, {"limitations": "Recorded in the database"})
+        findings["findings"][0]["finding"] = "The will names Isaac and Caleb."
+        write(self.source, "research/latest-findings.json", findings)
+        report = self.migrate()
+        self.assertEqual([c["reason"][:39] for c in report["conflicts"]],
+                         ["the legacy input changed after this row"])
+        with open_project(self.project) as project:
+            self.assertEqual(project.store.get("finding", finding)["statement"], "The will names Isaac.")
+
+    def test_catch_up_keeps_the_views_equal_to_the_edited_legacy_file(self) -> None:
+        self.migrate()
+        changed = json.loads(json.dumps(ASSESSMENTS))
+        changed[2]["probability"]["value"] = 0.8
+        changed[2]["basis"] = "Shared household and a later deed."
+        estimates = json.loads(json.dumps(ESTIMATES))
+        estimates["estimates"][4]["percent"] = 80
+        write(self.source, "research/relationship_assessments.json", changed)
+        write(self.source, "research/relationship_probability_estimates.json", estimates)
+        self.migrate()
+        with open_project(self.project) as project:
+            files = workbench_legacy_views.Views(project.store).files()
+        self.assertEqual(json.loads(files["research/relationship_assessments.json"]), changed)
+
+    def test_a_hand_edited_registry_does_not_override_a_database_assessment(self) -> None:
+        self.migrate()
+        with open_project(self.project) as project:
+            research = Research(project.store)
+            claim = research.find_external("glasgow-assertion", "C-test-brothers")[0]
+            with project.store.write(actor="researcher", tool="genealogy assess") as tx:
+                research.assess(tx, claim, expected_revision=1, status="proved", estimate_percent=90,
+                                estimate_kind="subjective", reasoning="Baptisms name both parents.")
+        edited = json.loads(json.dumps(ASSESSMENTS))
+        edited[2]["probability"]["value"] = 0.5
+        write(self.source, "research/relationship_assessments.json", edited)
+        report = self.migrate()
+        self.assertTrue(any("edited by hand" in c["reason"] for c in report["conflicts"]))
+        with open_project(self.project) as project:
+            self.assertEqual(Research(project.store).current_assessment(claim)["estimate_percent"], 90)
 
     def test_legacy_views_round_trip_and_correct_only_the_stale_row(self) -> None:
         self.migrate()

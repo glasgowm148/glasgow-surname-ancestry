@@ -131,8 +131,14 @@ Research continued on `main` during the migration. After merging:
 
 1. `git submodule update --init` and install the workbench (see
    `docs/toolkit-dependency.md`; push the workbench branch first).
-2. `make migrate-workbench` in the merged checkout: later legacy edits are
-   loaded as new batches and assessment revisions.
+2. `make migrate-workbench` in the merged checkout. Each changed legacy item is
+   caught up: an edited record, finding, vital assessment, plan item or queue
+   entry updates its row (audited, revision-checked); a changed relationship
+   assessment becomes a new revision and the stored legacy row follows it. A row
+   that was also edited in the database is never overwritten: the incoming
+   version is kept as a `legacy_item` conflict for review, and a hand edit to a
+   generated relationship registry after a database reassessment is refused the
+   same way.
 3. `make research-views` and commit the regenerated registries (if `main`
    edited them, take `main`'s version in the merge, then regenerate).
 4. `make check-workbench`.
