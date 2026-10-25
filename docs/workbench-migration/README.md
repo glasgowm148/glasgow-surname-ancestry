@@ -32,7 +32,7 @@ submodule pin); no workbench code is copied into this repository.
 | WikiTree captures, OneTree exports | database observations + original files by hash | Observations are never edited; refresh adds a new one. |
 | Update queue, queue reviews and overrides | database proposals (migrated); legacy queue still read | Authored workflow state kept verbatim in each proposal. |
 | Exact-file publication approvals | database approval rows (migrated) + the three manifests | Hash-scoped: changed bytes lose the approval. |
-| Research prose, drafts, captures, images, PDFs | files, referenced by hash | 21,146 asset rows; originals never copied or changed. |
+| Research prose, drafts, captures, images, PDFs | files, referenced by hash | 21,213 asset rows; originals never copied or changed. |
 | `www/` | generated output (legacy builders) | 9,791 retained `www/people/*.json` dossiers and `www/map/data/` are referenced as retained input until their builders are moved. |
 
 ## Migration results (source commit `bf42d127d21c`)
@@ -50,14 +50,17 @@ submodule pin); no workbench code is copied into this repository.
   evidence or prose, replaced by a reproducible derivative (`www/`), preserved as
   unresolved legacy information, or explicitly excluded with a reason
   (`coverage-summary.md`).
-- **Database** (counts): 10,844 people (4,872 public catalogue entries with their
-  routes), 24,839 external-id mappings, 14,792 claims, 5,427 assessments with
-  6,833 revisions, 2,111 records, 2,835 mentions with identity claims, 7,888
-  events, 1,111 findings, 1,114 questions, 41 searches, 15 parent hypotheses, 24
-  studies, 1,485 proposals, 83 approvals, 12,884 external observations, 21,146
-  assets, 634 legacy items (ambiguous gazetteer names, conflicting older
-  OneTree values, completed live updates without proposal records, draft
-  replacement decisions).
+- **Database** (counts): 6,515 people (4,869 public catalogue people with 4,872
+  catalogue routes; 123 record-defined people), 20,485 external-id mappings
+  (including 79 redirects), 14,792 claims (7,406 relationship claims, 2,835
+  identity claims for record mentions), 5,427 assessments with 6,833 revisions,
+  2,111 records, 2,835 mentions, 7,888 events, 1,111 findings, 1,114 questions,
+  41 searches, 15 parent hypotheses, 24 studies, 1,485 proposals, 83 approvals,
+  12,884 external observations, 21,213 assets, 636 legacy items: 372 values
+  that differ between the four OneTree exports (the newest export is kept, the
+  older values preserved), 217 completed live updates without a proposal
+  record, 27 authored draft-replacement decisions and 20 ambiguous gazetteer
+  names.
 - **Repeatability**: a second run against the same inputs changes no row.
 
 ### Relationship estimate reconciliation
@@ -101,6 +104,15 @@ make backup-workbench                    # verified backup of the database and i
 make build-workbench-site                # the public projection through the shared compiler
 ```
 
+## Backups made
+
+- `data/private/workbench/baseline-backup/glasgow-local-inputs-20261025T115352+0000.tar.gz`
+  (+ `.manifest.json`): the local-only inputs before migration, verified member by member.
+- `data/private/workbench/backups/20261025-post-migration/`: workbench backup of the
+  database (logical digest `d3d505a5a52a…`), restored into a fresh directory and
+  validated (integrity ok, no broken references, every one of 21,209 hash-referenced
+  research files verified against the checkout).
+
 ## Recovery
 
 - Database lost or damaged: `.venv/bin/genealogy backup restore <backup> <new-dir>`
@@ -139,7 +151,15 @@ Research continued on `main` during the migration. After merging:
   make each remaining registry a generated view as was done for the relationship
   files.
 - `build/workbench-site` (the shared compiler's build of Glasgow's public
-  projection) is a generic reader view, not a replacement for the Glasgow site.
+  projection: 4,431 people, 4,888 files, 88 s, byte-identical across rebuilds
+  and hash seeds) is a generic reader view, not a replacement for the Glasgow
+  site. It publishes less than `www/`: OneTree tree facts were imported without
+  a publication review (Glasgow's privacy levels 35/40/50+ are not yet mapped to
+  projection rules), so only catalogue people, approved assessments, approved
+  vital assessments, findings and records appear; prose naming a withheld
+  person is omitted (27,938 omissions, listed in the private build report).
+  Mapping Glasgow's privacy policy onto publication decisions is an owner
+  decision and has not been made automatically.
 - `tmp/` (22.7 GB of scratch, 255,478 files) was not migrated; it may contain
   unreviewed leads and should be reviewed by the owner before clean-up.
 - WikiTree remote baselines: captures are observations, but no capture is yet
