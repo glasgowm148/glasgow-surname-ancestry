@@ -1,0 +1,39 @@
+{
+  "reviewed": "2026-10-25",
+  "source_scope": "Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (Scottish Record Society, 1905), printed p.268, PDF p.278.",
+  "source_reading": "The printed Edinburgh marriage register identifies Thomas Glasgow as a merchant when he married Catharine Weir on 12 October 1643. This is the same named couple as the already-held OPR index (685/1/430/252, FR856) and the parents in the Edinburgh baptisms of 1644–1650. The occupation is newly incorporated from the inspected printed page; the marriage date was already in the research findings. The previous complete proposed biography incorrectly retained an estimated 1644 marriage, so it is corrected to the indexed 1643 event.",
+  "limitations": "The printed register is an edited transcription of parish records, not a newly inspected manuscript. It supplies no father, mother or witnesses. Merchant is a useful identity discriminator, but does not establish descent from John Glasgow-1030 and Jonet Mathie. The separate Thomas Glassford, merchant, marrying Catharine Thomsone on 14 July 1637 on the same printed page is a comparison only: different surname and wife; no remarriage or identity merge is established. The 1660 gratis burgess identification remains probable. Father confidence remains 22%; no relationship confidence increase is recorded.",
+  "next_test": "Seek the original 12 October 1643 Edinburgh marriage entry, merchant guild/council property records, or a testament naming Thomas the merchant’s father or siblings. Do not repeat the completed Findmypast birth-window and printed apprenticeship searches without a new variant or source.",
+  "printed_original_inspected": true,
+  "manuscript_inspected": false,
+  "new_relationships": 0,
+  "confidence_improvements": 0,
+  "retained_father_probability_percent": 22,
+  "profiles": {
+    "Glasgow-3187": {
+      "draft_path": "research/Glasgow-3187/merchant-marriage-2026-10-25.wiki",
+      "new_draft_path": "research/Glasgow-3187/merchant-marriage-2026-10-25.wiki",
+      "prior_pending_path": "research/Glasgow-3187/queue-review-2026-10-17.wiki",
+      "current_sha256": "7c4ee127b8b610e0e23c9575d01d3c5c1a5c064812192f78d6c46ddb9e8a4b99",
+      "proposed_sha256": "9fa506d0ca162789506d2531007c555ee4496ff2098f88b61084bead38947f93",
+      "new_draft_sha256": "9fa506d0ca162789506d2531007c555ee4496ff2098f88b61084bead38947f93",
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "all_prior_source_urls_retained": true,
+      "all_substantive_passages_accounted_for": true,
+      "preservation_basis": "Existing proposed draft retained except specifically superseded1644 estimate;1660burgess,children,parent limits,ThomasM.A.,GylesSpence lead and all citations preserved."
+    }
+  },
+  "verification": {
+    "complete_draft_preserved": true,
+    "stale_marriage_estimate_corrected": true,
+    "father_percent_unchanged": 22,
+    "new_confidence_events": 0,
+    "catalogue_full_compact_updates_agree": true,
+    "local_http_pages": 5,
+    "latest_url": "/latest-findings/page/21/#finding-thomas-3187-merchant-marriage-20261025",
+    "source_id": "s-a7a4c8f306da8632",
+    "tree_father_models_unchanged_and_agree": true,
+    "whole_tree_rebuild_blocker": "Unrelated working-tree vital Glasgow-3485 has no death place; reviewed tree display rejects it. Existing models retain the unchanged22% father."
+  }
+}

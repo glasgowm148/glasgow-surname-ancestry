@@ -4351,3 +4351,7 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Glasgow-3322](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Add the original 1714 Willson lease/release and recited 1692 acquisition; father ratings unchanged. |
 | [Glasgow-1158](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Add the original 1714 Willson lease/release and recited 1692 acquisition; father ratings unchanged. |
 | [Glasgow-428](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Add the original 1714 Willson lease/release and recited 1692 acquisition; father ratings unchanged. |
+
+### Thomas Glasgow merchant — 25 October 2026
+
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3187) | OPEN | Add the 12 October 1643 merchant marriage; replace the stale estimated1644 marriage in the complete draft. Father remains uncertain22%. |

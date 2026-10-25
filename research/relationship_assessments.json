@@ -1421,7 +1421,7 @@
     "status": "uncertain",
     "basis": "Reviewed father relationship evidence and live WikiTree certainty audit, 28 September 2026",
     "source_ids": [],
-    "source_summary": "Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis.",
+    "source_summary": "Thomas’s inspected child records and burgess admission do not identify his own parents; John Glasgow remains a working hypothesis. The inspected printed1643 marriage adds merchant occupation but no parent statement; confidence remains22%.",
     "assessment_date": "2026-09-28",
     "identity_scope": "Specific attached father–child pair; later-life identity questions are assessed separately.",
     "perspectives": {
@@ -1446,7 +1446,17 @@
       "reviewed_at": "2026-09-28",
       "basis": "Review of citations already present in the live biography and maintained findings; no new archival inspection claimed.",
       "live_wikitree_status": "uncertain"
-    }
+    },
+    "research_state": {
+      "disposition": "reviewed_no_change",
+      "reviewed": "2026-10-25",
+      "last_test": "Printed1643 marriage identifies merchant occupation, no parents; bounded Findmypast birth/baptism and printed apprentice checks supplied no parent bridge.",
+      "next_test": "Seek the original 12 October 1643 Edinburgh marriage entry, merchant guild/council property records, or a testament naming Thomas the merchant’s father or siblings. Do not repeat the completed Findmypast birth-window and printed apprenticeship searches without a new variant or source.",
+      "resume_when": "New merchant record or original marriage kin/witness information is available.",
+      "summary": "Printed1643 marriage identifies merchant occupation, no parents; bounded Findmypast birth/baptism and printed apprentice checks supplied no parent bridge."
+    },
+    "last_test": "Printed1643 marriage identifies merchant occupation, no parents; bounded Findmypast birth/baptism and printed apprentice checks supplied no parent bridge.",
+    "next_test": "Seek the original 12 October 1643 Edinburgh marriage entry, merchant guild/council property records, or a testament naming Thomas the merchant’s father or siblings. Do not repeat the completed Findmypast birth-window and printed apprenticeship searches without a new variant or source."
   },
   {
     "assertion_id": "C-father-audit-20260928-glasgow-1095-glasgow-1098",

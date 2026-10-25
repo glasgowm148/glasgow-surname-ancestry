@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**25 October 2026:** The printed Edinburgh marriage register identifies Thomas Glasgow as a merchant when he married Catharine Weir on 12 October 1643. This is the same named couple as the already-held OPR index (685/1/430/252, FR856) and the parents in the Edinburgh baptisms of 1644–1650. The occupation is newly incorporated from the inspected printed page; the marriage date was already in the research findings. The previous complete proposed biography incorrectly retained an estimated 1644 marriage, so it is corrected to the indexed 1643 event. The printed register is an edited transcription of parish records, not a newly inspected manuscript. It supplies no father, mother or witnesses. Merchant is a useful identity discriminator, but does not establish descent from John Glasgow-1030 and Jonet Mathie. The separate Thomas Glassford, merchant, marrying Catharine Thomsone on 14 July 1637 on the same printed page is a comparison only: different surname and wife; no remarriage or identity merge is established. The 1660 gratis burgess identification remains probable. Father confidence remains 22%; no relationship confidence increase is recorded.
+
 The Thomas Glasgow admitted burgess and guild brother of Edinburgh, gratis, on
 2 May 1660 is probably Glasgow-3187. This profile already represents Thomas
 Glasgow, husband of Catharine Weir and father of children recorded at Edinburgh
@@ -86,3 +88,16 @@ Source summary: Thomas’s inspected child records and burgess admission do not 
 
 A possible identification concerns Thomas Glasgow. The banns/marriage index records Thomas Glasgow and Gyles Spence on 24 July 1679 at Carstairs. (Scotland’s People: Old Parish Registers — banns and marriages: OPR 633/10 / 37; [record](https://www.scotlandspeople.gov.uk/).) The original parish register image has not been inspected. The combined index date does not by itself identify the precise event type. The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## Merchant marriage and bounded parent search — 25 October 2026
+
+The printed Edinburgh marriage register identifies Thomas Glasgow as a merchant when he married Catharine Weir on 12 October 1643. This is the same named couple as the already-held OPR index (685/1/430/252, FR856) and the parents in the Edinburgh baptisms of 1644–1650. The occupation is newly incorporated from the inspected printed page; the marriage date was already in the research findings. The previous complete proposed biography incorrectly retained an estimated 1644 marriage, so it is corrected to the indexed 1643 event.
+
+[Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (Scottish Record Society, 1905), printed p.268, PDF p.278.](https://archive.org/details/scottishrecordso16scotuoft/page/268/mode/2up). Printed page visually inspected.
+
+The printed register is an edited transcription of parish records, not a newly inspected manuscript. It supplies no father, mother or witnesses. Merchant is a useful identity discriminator, but does not establish descent from John Glasgow-1030 and Jonet Mathie. The separate Thomas Glassford, merchant, marrying Catharine Thomsone on 14 July 1637 on the same printed page is a comparison only: different surname and wife; no remarriage or identity merge is established. The 1660 gratis burgess identification remains probable. Father confidence remains 22%; no relationship confidence increase is recorded.
+
+[Grant’s *Register of Apprentices of the City of Edinburgh, 1583–1666* (1906), printed p.71, PDF p.83](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_apprentices_in_edinburgh_~_1538-1666_~_1898.pdf#page=83), the Glasgow and adjacent Glassfuird entries, names Archibald (1639) and James (1641), but no Thomas. This limited printed-surname check does not establish that Thomas was never apprenticed or that the register is complete. The Findmypast search of 68 Glasgow birth-window results and the displayed Thomas baptism results likewise supplied no compatible parent-naming record; a known 1612 Thomas was absent, demonstrating coverage limits. These negative results do not change the father rating.
+
+Next test: Seek the original 12 October 1643 Edinburgh marriage entry, merchant guild/council property records, or a testament naming Thomas the merchant’s father or siblings. Do not repeat the completed Findmypast birth-window and printed apprenticeship searches without a new variant or source.
