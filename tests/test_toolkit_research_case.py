@@ -334,6 +334,7 @@ class TranslatorTests(unittest.TestCase):
         t.used_grades.add("proved")
         config = tomllib.loads("[project]\nname = \"Fictional\"\n" + config_tables(t.grades()))
         self.assertEqual("WikiTree", config["site"]["tree_name"])
+        self.assertEqual(("Glasgow", "Surname Project"), (config["site"]["brand_name"], config["site"]["brand_caption"]))
         self.assertEqual("Glasgow", config["names"]["surname"])
         self.assertIn("Glasgow", config["names"]["variants"])
         self.assertEqual({"label", "meaning", "confidence"}, set(config["grades"]["proved"]))

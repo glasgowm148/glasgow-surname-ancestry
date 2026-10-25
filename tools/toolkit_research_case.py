@@ -862,7 +862,7 @@ CASE_ID = "glasgow"
 
 
 def config_tables(grades: dict) -> str:
-    """The tables appended to the starter ``genealogy.toml``: the site's tree, the surname and its variants, and the grades used.
+    """The tables appended to the starter ``genealogy.toml``: the site's tree and wordmark, the surname and its variants, and the grades used.
 
     Glasgow's record roles have no reader labels or cautions of their own
     (evidence_labels.RECORD_EVIDENCE describes record links, not record
@@ -871,7 +871,7 @@ def config_tables(grades: dict) -> str:
     "Glasgow at birth" and "Women who married a Glasgow" checks, and its
     WikiTree menu and example ID, take their names from surname and tree_name.
     """
-    text = '\n[site]\ntree_name = "WikiTree"\n\n[names]\nsurname = "Glasgow"\n'
+    text = '\n[site]\ntree_name = "WikiTree"\nbrand_name = "Glasgow"\nbrand_caption = "Surname Project"\n\n[names]\nsurname = "Glasgow"\n'
     text += "\n[names.variants]\n" + "".join(f"{json.dumps(canonical)} = {json.dumps(spellings)}\n"
                                             for canonical, spellings in surname_variants().items())
     for key, grade in grades.items():
