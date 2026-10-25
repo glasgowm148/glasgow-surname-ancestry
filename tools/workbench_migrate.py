@@ -48,6 +48,13 @@ RELATION_ROLES = {"father": "father", "mother": "mother", "parent": "parent", "s
                   "husband": "spouse", "sibling": "sibling", "brother": "sibling", "sister": "sibling"}
 CHILD_ROLES = {"child", "son", "daughter"}
 ACTOR = "glasgow-migration"
+# Inventory categories -> workbench asset kinds.
+ASSET_KINDS = {"original evidence and captures": "capture", "research prose and editorial content": "prose",
+               "authoritative research": "data", "imported observations and external tree state": "capture",
+               "workflow state": "data", "reference data": "data", "DNA": "dna",
+               "generated output containing otherwise unpreserved input": "generated",
+               "reproducible derivatives": "derivative", "presentation configuration": "presentation",
+               "publication decisions": "data", "tooling": "data", "unclassified": "file"}
 
 
 def sha256_bytes(data: bytes) -> str:
@@ -886,7 +893,7 @@ class Migration:
         for start in range(0, len(wanted), 500):
             with self.store.write(actor=ACTOR, tool="workbench_migrate assets", source="inventory") as tx:
                 for row in wanted[start:start + 500]:
-                    if self.asset(tx, row["path"], kind=row["category"], access=row["access"]):
+                    if self.asset(tx, row["path"], kind=ASSET_KINDS.get(row["category"], "file"), access=row["access"]):
                         counts["assets"] += 1
                     else:
                         counts["missing since inventory"] += 1
