@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-3587",
-  "findings": [{"claim":"William Glasgon married Margaret Scott at Hummelknows on 4 March 1708/9; the record gives no parents or birthplace.","confidence":"high","reasoning":"The FreeREG transcription supplies the event and locality only; the 1710 Isabel is a possible child whose mother is unnamed.","sources":["sources/freereg_william_glasgon_margaret_scott_1709_marriage.json","sources/freereg_isabel_glasgon_1710_baptism.json"]}],
+  "findings": [
+    {
+      "claim": "William Glasgon married Margaret Scott at Hummelknows on 4 March 1708/9; the record gives no parents or birthplace.",
+      "confidence": "high",
+      "reasoning": "The FreeREG transcription supplies the event and locality only; the 1710 Isabel is a possible child whose mother is unnamed.",
+      "sources": [
+        "sources/freereg_william_glasgon_margaret_scott_1709_marriage.json",
+        "sources/freereg_isabel_glasgon_1710_baptism.json"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-3587, separating sourced facts from tree assertions.",
   "questions": [
     {

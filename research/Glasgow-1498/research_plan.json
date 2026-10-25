@@ -1,6 +1,15 @@
 {
   "case_id": "Glasgow-1498",
-  "findings": [{"claim":"John Glasgow of Cavers survived the 1679 wreck, but the prisoner list gives no parents, kinship to William, or later destination.","confidence":"high","reasoning":"The list directly names and marks John but supplies none of the relationships currently inferred on WikiTree.","sources":["sources/thomson_cloud_of_witnesses.pdf"]}],
+  "findings": [
+    {
+      "claim": "John Glasgow of Cavers survived the 1679 wreck, but the prisoner list gives no parents, kinship to William, or later destination.",
+      "confidence": "high",
+      "reasoning": "The list directly names and marks John but supplies none of the relationships currently inferred on WikiTree.",
+      "sources": [
+        "sources/thomson_cloud_of_witnesses.pdf"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-1498, separating sourced facts from tree assertions.",
   "questions": [
     {

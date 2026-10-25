@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-3331",
-  "findings": [{"claim":"Neither Glasgow-1498 nor Glasgow-2731 has a record naming John of Quothquan as father.","confidence":"high","reasoning":"The Cavers prisoner list gives John no parents and the Hawick baptism gives William no parents.","sources":["sources/thomson_cloud_of_witnesses.pdf","https://familysearch.org/ark:/61903/1:1:X11X-46N"]}],
+  "findings": [
+    {
+      "claim": "Neither Glasgow-1498 nor Glasgow-2731 has a record naming John of Quothquan as father.",
+      "confidence": "high",
+      "reasoning": "The Cavers prisoner list gives John no parents and the Hawick baptism gives William no parents.",
+      "sources": [
+        "sources/thomson_cloud_of_witnesses.pdf",
+        "https://familysearch.org/ark:/61903/1:1:X11X-46N"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-3331, separating sourced facts from tree assertions.",
   "questions": [
     {

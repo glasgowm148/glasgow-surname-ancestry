@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-1521",
-  "findings": [{"claim":"The asserted Tyrone identity is unproved and the live baptism citation conflicts between 1641 and 1648.","confidence":"high","reasoning":"The family history gives no baptism or Scottish parish, while the live footnote and biography disagree.","sources":["captures/20260717T083224Z_Glasgow-1521.json","../Glasgow-591/sources/william_melanchthon_glasgow_family_history.pdf"]}],
+  "findings": [
+    {
+      "claim": "The asserted Tyrone identity is unproved and the live baptism citation conflicts between 1641 and 1648.",
+      "confidence": "high",
+      "reasoning": "The family history gives no baptism or Scottish parish, while the live footnote and biography disagree.",
+      "sources": [
+        "captures/20260717T083224Z_Glasgow-1521.json",
+        "../Glasgow-591/sources/william_melanchthon_glasgow_family_history.pdf"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-1521, separating sourced facts from tree assertions.",
   "questions": [
     {

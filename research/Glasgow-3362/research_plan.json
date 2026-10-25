@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-3362",
-  "findings": [{"claim":"Elizabeth's 1656 Polwarth index names father William Glasgow but does not identify him as Glasgow-2462.","confidence":"high","reasoning":"The attached father is an Inveresk child and no linking record is cited.","sources":["https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q","captures/20260717T083425Z_Glasgow-3362.json"]}],
+  "findings": [
+    {
+      "claim": "Elizabeth's 1656 Polwarth index names father William Glasgow but does not identify him as Glasgow-2462.",
+      "confidence": "high",
+      "reasoning": "The attached father is an Inveresk child and no linking record is cited.",
+      "sources": [
+        "https://www.familysearch.org/ark:/61903/1:1:XYL3-24Q",
+        "captures/20260717T083425Z_Glasgow-3362.json"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-3362, separating sourced facts from tree assertions.",
   "questions": [
     {

@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-2731",
-  "findings": [{"claim":"William Glasgo was Margaret's father at her 1692 Hawick baptism, but the record does not name his own parents or birthplace.","confidence":"high","reasoning":"The FamilySearch index supports only the named father-child relationship.","sources":["https://familysearch.org/ark:/61903/1:1:X11X-46N","captures/20260717T083225Z_Glasgow-2731.json"]}],
+  "findings": [
+    {
+      "claim": "William Glasgo was Margaret's father at her 1692 Hawick baptism, but the record does not name his own parents or birthplace.",
+      "confidence": "high",
+      "reasoning": "The FamilySearch index supports only the named father-child relationship.",
+      "sources": [
+        "https://familysearch.org/ark:/61903/1:1:X11X-46N",
+        "captures/20260717T083225Z_Glasgow-2731.json"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-2731, separating sourced facts from tree assertions.",
   "questions": [
     {

@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-3332",
-  "findings": [{"claim":"Glasgow-3332 cannot be the James deceased by 1624 and is only an unproved candidate for the 1680 Back of Lindsaylands weaver.","confidence":"high","reasoning":"His profile estimates birth in 1634; no record links him to the 1680 residence.","sources":["captures/20260717T084257Z_Glasgow-3332.json","sources/grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf"]}],
+  "findings": [
+    {
+      "claim": "Glasgow-3332 cannot be the James deceased by 1624 and is only an unproved candidate for the 1680 Back of Lindsaylands weaver.",
+      "confidence": "high",
+      "reasoning": "His profile estimates birth in 1634; no record links him to the 1680 residence.",
+      "sources": [
+        "captures/20260717T084257Z_Glasgow-3332.json",
+        "sources/grant_commissariot_of_lanark_testaments_1595_1800_1903.pdf"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-3332, separating sourced facts from tree assertions.",
   "questions": [
     {

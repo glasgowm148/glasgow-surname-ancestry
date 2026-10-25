@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-3370",
-  "findings": [{"claim":"Isabell was baptised at Cavers in December 1694, but duplicate transcriptions disagree on 2 or 8 December and do not identify her father as Glasgow-1605.","confidence":"high","reasoning":"Both transcriptions name only father William and no mother; the original image is required for the day.","sources":["sources/freereg_isabell_glasgow_cavers_1694_transcription_1.json","sources/freereg_isabell_glasgow_cavers_1694_transcription_2.json"]}],
+  "findings": [
+    {
+      "claim": "Isabell was baptised at Cavers in December 1694, but duplicate transcriptions disagree on 2 or 8 December and do not identify her father as Glasgow-1605.",
+      "confidence": "high",
+      "reasoning": "Both transcriptions name only father William and no mother; the original image is required for the day.",
+      "sources": [
+        "sources/freereg_isabell_glasgow_cavers_1694_transcription_1.json",
+        "sources/freereg_isabell_glasgow_cavers_1694_transcription_2.json"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-3370, separating sourced facts from tree assertions.",
   "questions": [
     {

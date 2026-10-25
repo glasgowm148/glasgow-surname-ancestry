@@ -1,6 +1,16 @@
 {
   "case_id": "Glasgow-1605",
-  "findings": [{"claim":"This profile is the Polwarth 1658 child; no reviewed record connects him to Glasgow-2462, the Cavers prisoner, or the attached Cavers children.","confidence":"high","reasoning":"The baptism names only an unidentified father William; later records do not give a father or link to Polwarth.","sources":["captures/20260716T205843Z_Glasgow-1605.json","sources/thomson_cloud_of_witnesses.pdf"]}],
+  "findings": [
+    {
+      "claim": "This profile is the Polwarth 1658 child; no reviewed record connects him to Glasgow-2462, the Cavers prisoner, or the attached Cavers children.",
+      "confidence": "high",
+      "reasoning": "The baptism names only an unidentified father William; later records do not give a father or link to Polwarth.",
+      "sources": [
+        "captures/20260716T205843Z_Glasgow-1605.json",
+        "sources/thomson_cloud_of_witnesses.pdf"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-1605, separating sourced facts from tree assertions.",
   "questions": [
     {
