@@ -3602,6 +3602,7 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
                 return "Female"
         return ""
 
+    captured_links: list[tuple[str, str, str]] = []   # (parent id, child id, child name) recovered from captures
     grouped = defaultdict(list)
     for record in records:
         grouped[_individual_key(record)].append(record)
@@ -3687,8 +3688,11 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
         children = _relations(profile_ids, profiles, "children")
         fathers = _relations(profile_ids, profiles, "father_profile")
         mothers = _relations(profile_ids, profiles, "mother_profile")
+        exported_parents = {row.get("id") for row in fathers + mothers}
         fathers = _merge_captured_parents(fathers, captured_parent_relations(profile_ids, "father"))
         mothers = _merge_captured_parents(mothers, captured_parent_relations(profile_ids, "mother"))
+        captured_links.extend((parent["id"], profile_ids[0], name) for parent in fathers + mothers
+                              if parent.get("id") and parent["id"] not in exported_parents)
         derived_children_count = len(children)
         reported_counts = _unique(meta.get("profile_children_count") for meta in metas)
         has_children = any(meta.get("has_children") for meta in metas)
@@ -3775,7 +3779,28 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
             ],
         }
         people.append(privacy.project(person))
+    _add_captured_children(people, captured_links)
     return sorted(people, key=lambda person: (person["name"].casefold(), person["birth"], person["catalogue_id"]))
+
+
+def _add_captured_children(people: list[dict], captured_links: list[tuple[str, str, str]]) -> None:
+    """Give a parent the child whose captured WikiTree parent field names them.
+
+    A parent recovered from a child's capture (after a profile merge, say) is
+    absent from the export's own child lists, so without this the link would
+    appear on the child's side only.
+    """
+    by_profile = {profile_id: person for person in people for profile_id in person.get("profile_ids", [])}
+    for parent_id, child_id, child_name in captured_links:
+        parent, child = by_profile.get(parent_id), by_profile.get(child_id)
+        if not parent or not child or parent.get("likely_living") or child.get("likely_living"):
+            continue
+        if any(row.get("id") in child.get("profile_ids", []) for row in parent.get("children", [])):
+            continue
+        parent["children"] = sorted([*parent.get("children", []), {"id": child_id, "name": child_name,
+                                     "withheld": False, "outside_export": False}],
+                                    key=lambda relation: relation["name"].casefold())
+        parent["derived_children_count"] = len(parent["children"])
 
 
 def _page(

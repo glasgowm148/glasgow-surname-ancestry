@@ -42,9 +42,58 @@ Generated from `tools/*.py` on 26 October 2026. 102 of the Glasgow tools read or
 - The research inputs (`research/relationship_assessments.json`, `relationship_probability_estimates.json`, `canonical_records.json`, `latest-findings.json`, `vital_assessments.json`, every `research_plan.json` and `parent_candidates.json`, the update queue and its review files) are generated from the research database as the first step of `make build` and `tools/rebuild_local_site.sh`.
 - Site inputs that no builder produces (`www/map/data/early-bearers.json`, `ydna-timeline.json`, `recent-profile-supplement.json`) are declared in `data/site/declared-inputs.json` with private homes and installed by `tools/site_declared_inputs.py --install`.
 
+## Rebuild experiment (25 October 2026)
+
+Four runs of `make build` followed by `tools/rebuild_local_site.sh`, each on a
+copy-on-write clone of the main checkout. The real `www/`, the research
+database and the remotes were not touched.
+
+1. **Empty `www/`.** Stops at the first builder that reads a page it does not
+   make: `make build` needs `www/map/data/records.csv` and the rebuild script
+   needs `www/about/index.html` as a page template. Neither file is tracked in
+   Git, and no tool creates either from nothing. The ignored part of `www/`
+   (about 73,000 files) is therefore part of the site's source, not only its
+   output. Backups keep it; Git does not.
+2. **Copy of the real `www/`.** `make build` and the rebuild both stop in
+   `publish_resolved_dossiers.py`: shared assertion
+   `C-coverage-20261022g-glasgow-3398-father` has no relationship on Glasgow-1466.
+   The link existed only in `www/`. A one-off script
+   (`tmp/parent-merge-repair-2026-10-17/integrate.py`) had restored 22
+   live-verified WikiTree parent links after a profile merge by editing `www/`
+   directly. The catalogue builder recovers such a parent on the child's side
+   (`_captured_parent_relations`) but never added the child to the parent's
+   side, so every rebuild dropped half of each link. **Fixed:**
+   `build_research_catalog._add_captured_children` adds the inverse link (tests
+   in `tests/test_captured_parent_relations.py`).
+3. **With that fix.** `make build` passes the publish step and stops in
+   `branch_connectivity.py`: `Duplicate documentary ancestor:
+   record-bessie-lanark-1650`. Reviewed new-person dossiers get their creation
+   state from `tools/queue_catalogue_creations.py`, which no build ran; the
+   catalogue builder rewrites those dossiers without it. **Fixed:**
+   `build_family_map.py` now applies the reviewed creations straight after the
+   catalogue, before the tree and the connectivity read them.
+4. **With both fixes.** `make build` passes (4,873 catalogue people, 6,313
+   pages), and the rebuild runs 24 of its 25 steps (the tolerated research
+   publication check reports its usual findings). It stops in `finalize`:
+   `ingest_canonical_records.plan` refuses `held-e-827fa902bccc` because three
+   existing records share its provider key. For sources other than Findmypast
+   the key is the page URL, and that page (Rasharkin baptisms, 1834) holds
+   several baptisms. The live `www/` has one record there because records were
+   ingested one at a time, while a fresh catalogue lists all three. Deciding
+   what identifies a record on a multi-record page is a research-model choice
+   (the check is a deliberate review stop), so it is left for the owner. Until
+   `finalize` runs, a rebuilt site lists 5,004 records instead of the live
+   5,567.
+
 ## Remaining work, in order
 
-1. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
-2. Make `tools/build_research_catalog.py` (7,054 lines, the producer of `data/people.json` and `map/data/records.csv`) read the research database through `genealogy.store.projection.public_case` instead of the legacy registries.
-3. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers.
-4. Prove the result with a build into an empty directory and a byte comparison of two builds; this needs about 3 GB of free disk for a second site tree.
+1. Decide the record identity for multi-record source pages (step 4 above),
+   then rerun the experiment to the end and compare the rebuilt `www/` with the
+   live one file by file.
+2. Give the untracked `www/` sources declared homes. Start with page templates
+   such as `about/index.html` and `map/data/records.csv`, as was done for the
+   three map layers in `data/site/declared-inputs.json`.
+3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
+4. Make `tools/build_research_catalog.py` (7,079 lines, the producer of `data/people.json` and `map/data/records.csv`) read the research database through `genealogy.store.projection.public_case` instead of the legacy registries.
+5. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers. One-off scripts that edit `www/` (as on 17 October) must become builder steps or declared inputs, or their changes are lost at the next rebuild.
+6. Prove the result with a build into an empty directory and a byte comparison of two builds.

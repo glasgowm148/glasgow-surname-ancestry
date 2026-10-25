@@ -1,7 +1,7 @@
 """Captured parent lists have names, not explicit father/mother roles."""
 import unittest
 
-from tools.build_research_catalog import _captured_parent_relations, _merge_captured_parents
+from tools.build_research_catalog import _add_captured_children, _captured_parent_relations, _merge_captured_parents
 
 
 def capture(father=9, mother=8, parents=()):
@@ -78,6 +78,28 @@ class CapturedParentRelationsTest(unittest.TestCase):
         self.assertEqual(_merge_captured_parents(
             [{"id": "", "numeric_id": 9, "withheld": True}], [parent]),
             [{"id": "", "numeric_id": 9, "withheld": True}])
+
+
+
+class CapturedChildrenTest(unittest.TestCase):
+    """A parent recovered from a child's capture lists that child too (see 2026-10-17 merge repair)."""
+
+    def people(self, living=False):
+        parent = {"profile_ids": ["Parent-1"], "name": "Peter", "children": [{"id": "Child-0", "name": "Ann"}],
+                  "derived_children_count": 1, "likely_living": False}
+        child = {"profile_ids": ["Child-1"], "name": "Zed", "likely_living": living}
+        return parent, child
+
+    def test_recovered_parent_gains_the_child_once(self):
+        parent, child = self.people()
+        _add_captured_children([parent, child], [("Parent-1", "Child-1", "Zed")] * 2)
+        self.assertEqual([row["id"] for row in parent["children"]], ["Child-0", "Child-1"])
+        self.assertEqual(parent["derived_children_count"], 2)
+
+    def test_living_or_unknown_people_are_not_linked(self):
+        parent, child = self.people(living=True)
+        _add_captured_children([parent, child], [("Parent-1", "Child-1", "Zed"), ("Parent-9", "Child-1", "Zed")])
+        self.assertEqual([row["id"] for row in parent["children"]], ["Child-0"])
 
 
 if __name__ == "__main__":

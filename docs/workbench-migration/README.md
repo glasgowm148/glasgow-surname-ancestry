@@ -1,12 +1,10 @@
 # Glasgow on the research database
 
-Status checkpoint, 25 October 2026. Branch `feat/workbench-sqlite-migration`
-(Glasgow) with workbench branch `feat/sqlite-research-core` (0.9.0). Both are
-fast-forwarded into `main` (25 October 2026); the workbench pin `cd5c605` is the
-workbench's `main`. Nothing is tagged, published or deployed. The research
-database was created in the main checkout (`data/private/workbench/`), where the
-baseline archive and the earlier migration backups (`backups/worktree-*`) now
-also live.
+Status checkpoint, 25 October 2026. Everything described here is on `main` in
+both repositories; the workbench pin is `7a5c3be` (0.10.0, database schema
+version 2). Nothing is tagged, published or deployed. The research database is
+in the main checkout (`data/private/workbench/`), with the baseline archive and
+the migration backups.
 
 ## Architecture and ownership
 
@@ -66,7 +64,7 @@ submodule pin); no workbench code is copied into this repository.
   that differ between the four OneTree exports (the newest export is kept, the
   older values preserved), 217 completed live updates without a proposal
   record, 27 authored draft-replacement decisions and 20 ambiguous gazetteer
-  names.
+  names. See "Items kept for review" for what has since been resolved.
 - **Repeatability**: a second run against the same inputs changes no row.
 
 ### Relationship estimate reconciliation
@@ -143,6 +141,32 @@ make backup-workbench                    # verified backup of the database and i
 make build-workbench-site                # the public projection through the shared compiler
 ```
 
+## Items kept for review (25 October 2026)
+
+Workbench 0.10 (schema version 2) lets an item kept for review be resolved: the
+decision, who made it and when are recorded with the item, which itself is never
+changed (`genealogy legacy list|resolve`). The database was migrated with
+`genealogy db migrate`, after confirming that the latest verified backup
+matched it exactly; the migration kept its own copy,
+`data/private/workbench/glasgow.sqlite.pre-v2.backup`.
+
+`tools/workbench_resolve_review_items.py` checks each mechanical item and
+resolves only those whose check passes (a dry run unless `--write`):
+
+| Class | Resolved | Check | Left open |
+| --- | ---: | --- | ---: |
+| Older OneTree export differs | 369 | same OneTree tree, and the content kept is the newest export's | 3 |
+| Completed live update, no proposal | 198 | the update queue held in the database lists the profile as completed; a reopened profile only if its reopening records `previous_live_completion_retained: true` | 19 |
+| Authored draft replacement | 27 | the overrides document held in the database carries the identical decision | 0 |
+| Ambiguous place name | 0 | needs a researcher | 20 |
+
+42 items remain open, as does the one flagged dependency (the 17% father reading
+filed under the 74% brothers assertion,
+`C-role-20261018-glenleslie-hugh-robert-brothers`). Evidence and options for
+each are in the private `data/private/workbench/review-notes.md`, together with
+an assessment of what in `tmp/` is safe to delete. None of them has been
+decided.
+
 ## Backups made
 
 - `data/private/workbench/baseline-backup/glasgow-local-inputs-20261025T115352+0000.tar.gz`
@@ -162,6 +186,10 @@ make build-workbench-site                # the public projection through the sha
   logical digest, integrity ok, no broken references, and all 34,889
   hash-referenced research and scratch files verified against the checkout.
 
+- `data/private/workbench/backups/20261025-resolved/`: after the schema 2
+  migration and the 594 resolutions, logical digest `6cef9722ebf3…`. Verified,
+  and restored into a fresh directory with the same logical digest.
+
 ## Recovery
 
 - Database lost or damaged: `.venv/bin/genealogy backup restore <backup> <new-dir>`
@@ -174,15 +202,14 @@ make build-workbench-site                # the public projection through the sha
   commit `bf42d127d21c`. The database can be deleted and rebuilt at any time
   before further research is recorded in it.
 
-## Merge status (26 October 2026)
+## Merge status
 
-Everything is on `main` in both repositories, and no uncommitted work remains in
-either main checkout. The edits another agent had left uncommitted on 25 October
-(the workbench's tree workspace and sidebar wordmark, and the matching
-`toolkit_research_case.py` change) were committed unchanged apart from merging
-both changelog lists, after checking that every pending change is contained in
-the committed files (patch backups were kept). The Glasgow pin is workbench
-`e76c624`.
+Everything is on `main` in both repositories. The edits another agent had left
+uncommitted on 25 October (the workbench's tree workspace and sidebar wordmark,
+and the matching `toolkit_research_case.py` change) were committed unchanged
+apart from merging both changelog lists, after checking that every pending
+change is contained in the committed files (patch backups were kept). The
+Glasgow pin is workbench `7a5c3be` (0.10.0).
 
 ## Merging a later change from `main` (owner)
 
@@ -222,20 +249,31 @@ files. Nothing in `tmp/` was changed or deleted.
 
 ## Site builders
 
-The legacy builders' research inputs are now declared: `make build` and
+The legacy builders' research inputs are declared: `make build` and
 `tools/rebuild_local_site.sh` begin by regenerating every registry from the
 research database and installing the site inputs that no builder produces
-(`data/site/declared-inputs.json`, `tools/site_declared_inputs.py`). What
-remains is the pipeline's structure: 102 tools read or write `www/`, and 109
-generated `www/` files are read by other builders as inputs, so the Glasgow site
-still cannot be rebuilt from an empty `www/`. `builder-inputs.md` lists those
-files with their readers and the order of the remaining work. Proving an
-empty-output rebuild also needs about 3 GB of free disk for a second site tree.
+(`data/site/declared-inputs.json`, `tools/site_declared_inputs.py`). 102 tools
+read or write `www/`, and 109 generated `www/` files are read by other builders
+as inputs.
+
+A rebuild experiment on copy-on-write clones (25 October) showed that the
+Glasgow site cannot be rebuilt from an empty `www/`: about 73,000 ignored files
+there, page templates among them, are sources that no tool creates. On a copy
+of the real `www/` it found two builder bugs, both now fixed: a parent link
+restored by a one-off script was lost on every rebuild, and reviewed new-person
+dossiers lost their creation state. With both fixes `make build` passes and the
+rebuild runs 24 of 25 steps. The last stops at a deliberate review check about
+records that share a source page. `builder-inputs.md` has the details and the
+remaining work in order.
 
 ## Not yet moved (precise remaining work)
 
-- Restructuring the Glasgow site builders so they read only declared inputs
-  (see `builder-inputs.md`). Until then `www/` remains the published site and is
-  rebuilt in place.
+- The record identity for multi-record source pages (`builder-inputs.md`,
+  experiment step 4), then a full rebuild compared file by file with the live
+  site.
+- Declared homes for the untracked `www/` sources, then restructuring the
+  builders so they read only declared inputs (see `builder-inputs.md`). Until
+  then `www/` remains the published site and is rebuilt in place.
+- The 42 open review items and the flagged dependency, which need a researcher.
 - `build/workbench-site` remains a generic reader view built by the shared
   compiler, not a replacement for the Glasgow site.

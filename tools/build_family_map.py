@@ -720,6 +720,13 @@ def main() -> None:
         records, profiles, edges, descendant_counts, early_bearers,
         ydna_timeline, catalogue_export_paths, location_index, root_links,
     )
+    # Reviewed new-person dossiers are rewritten by the catalogue above; put their
+    # creation state back before anything reads it (the tree and connectivity do).
+    try:
+        from queue_catalogue_creations import apply_creations
+    except ModuleNotFoundError:
+        from tools.queue_catalogue_creations import apply_creations
+    apply_creations(ROOT)
     rebuild_standalone_onetree()
     repair_analytics(WEB_DIR)
     print(
