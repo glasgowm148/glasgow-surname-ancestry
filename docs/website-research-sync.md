@@ -65,7 +65,7 @@ research section does not replace that integration.
 ## Current update paths
 
 - Latest findings: record each substantive new concrete finding or supported
-  correction in `research/latest-findings.json`, using its actual research
+  correction recorded with `tools/research_entry.py upsert finding` (generated into `research/latest-findings.json`), using its actual research
   discovery date, source citations, affected public people, assessment and
   remaining limits. Group a shared record across profiles into one finding.
   Exclude unsuccessful searches, speculative candidates and UI/build updates;

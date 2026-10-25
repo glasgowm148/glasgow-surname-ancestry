@@ -15,7 +15,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 
-from genealogy.store import Research, open_project  # noqa: E402
+from genealogy.store import Research, open_project, stable_id  # noqa: E402
 
 import workbench_legacy_views  # noqa: E402
 import workbench_migrate  # noqa: E402
@@ -118,7 +118,7 @@ class GlasgowMigrationFixture(unittest.TestCase):
             self.assertEqual(len(research.review_queue()), 1)
             self.assertEqual(project.store.one("SELECT count(*) n FROM claim WHERE kind='relationship'")["n"], 4)
 
-    def test_rerun_is_idempotent_and_a_changed_legacy_value_becomes_a_new_revision(self) -> None:
+    def test_rerun_is_idempotent_and_a_hand_edited_registry_is_not_applied(self) -> None:
         self.migrate()
         with open_project(self.project) as project:
             before = project.store.one("SELECT count(*) n FROM assessment_revision")["n"]
@@ -127,52 +127,74 @@ class GlasgowMigrationFixture(unittest.TestCase):
             self.assertEqual(project.store.one("SELECT count(*) n FROM assessment_revision")["n"], before)
         changed = json.loads(json.dumps(ASSESSMENTS))
         changed[0]["probability"]["value"] = 0.9
-        changed[0]["assessment_date"] = "2026-10-24"
         write(self.source, "research/relationship_assessments.json", changed)
-        self.migrate()
+        records = json.loads(json.dumps(RECORDS))
+        records[0]["note"] = "Edited by hand."
+        write(self.source, "research/canonical_records.json", records)
+        report = self.migrate()
+        self.assertEqual(len(report["conflicts"]), 2)
+        self.assertTrue(all("edited by hand" in item["reason"] for item in report["conflicts"]))
         with open_project(self.project) as project:
             research = Research(project.store)
             claim = research.find_external("glasgow-assertion", "C-test-isaac-father")[0]
-            self.assertEqual([h["estimate_percent"] for h in research.assessment_history(claim)], [44, 95, 90])
+            self.assertEqual([h["estimate_percent"] for h in research.assessment_history(claim)], [44, 95])
+            record = research.find_external("glasgow-record", "will-1805")[0]
+            self.assertEqual(project.store.get("record", record)["summary"], "Names sons including Isaac.")
 
-    def test_changed_records_and_findings_catch_up_unless_edited_in_the_database(self) -> None:
-        self.migrate()
-        records = json.loads(json.dumps(RECORDS))
-        records[0]["note"] = "Names sons Isaac and Caleb."
-        findings = json.loads(json.dumps(FINDINGS))
-        findings["findings"][0]["status"] = "qualified"
-        write(self.source, "research/canonical_records.json", records)
-        write(self.source, "research/latest-findings.json", findings)
-        report = self.migrate()
-        self.assertEqual(dict(report["refreshed"]), {"record": 1, "finding": 1})
+    def test_still_legacy_inputs_catch_up(self) -> None:
+        queue = {"schema_version": 1, "entries": {"Harrow-14": {"status": "OPEN", "summary": "Add the will."}}}
+        write(self.source, "data/wikitree/profile-update-queue.json", queue)
+        with open_project(self.project, create=True) as project:
+            workbench_migrate.Migration(project, self.source).run(["records", "queue"])
+        queue["entries"]["Harrow-14"]["summary"] = "Add the will and the 1806 inventory."
+        write(self.source, "data/wikitree/profile-update-queue.json", queue)
         with open_project(self.project) as project:
-            record = Research(project.store).find_external("glasgow-record", "will-1805")[0]
-            self.assertEqual(project.store.get("record", record)["summary"], "Names sons Isaac and Caleb.")
-            finding = Research(project.store).find_external("glasgow-finding", "will-reading")[0]
-            self.assertEqual(project.store.get("finding", finding)["status"], "qualified")
-            with project.store.write(actor="researcher", tool="genealogy finding") as tx:
-                tx.update("finding", finding, {"limitations": "Recorded in the database"})
-        findings["findings"][0]["finding"] = "The will names Isaac and Caleb."
-        write(self.source, "research/latest-findings.json", findings)
-        report = self.migrate()
-        self.assertEqual([c["reason"][:39] for c in report["conflicts"]],
-                         ["the legacy input changed after this row"])
-        with open_project(self.project) as project:
-            self.assertEqual(project.store.get("finding", finding)["statement"], "The will names Isaac.")
+            report = workbench_migrate.Migration(project, self.source).run(["queue"])
+            self.assertEqual(dict(report["refreshed"]), {"proposal": 1})
+            row = project.store.one("SELECT rationale FROM proposal WHERE target='Harrow-14'")
+            self.assertEqual(row["rationale"], "Add the will and the 1806 inventory.")
 
-    def test_catch_up_keeps_the_views_equal_to_the_edited_legacy_file(self) -> None:
+    def test_entry_tool_records_rows_that_the_views_reproduce_exactly(self) -> None:
+        import research_entry
+        from genealogy.store import StaleRevisionError
         self.migrate()
-        changed = json.loads(json.dumps(ASSESSMENTS))
-        changed[2]["probability"]["value"] = 0.8
-        changed[2]["basis"] = "Shared household and a later deed."
-        estimates = json.loads(json.dumps(ESTIMATES))
-        estimates["estimates"][4]["percent"] = 80
-        write(self.source, "research/relationship_assessments.json", changed)
-        write(self.source, "research/relationship_probability_estimates.json", estimates)
-        self.migrate()
+        finding = {"id": "deed-reading", "found_on": "2026-10-26", "kind": "property",
+                   "finding": "The 1729 deed names no predecessor.", "status": "qualified",
+                   "qualification": "Original inspected.", "people": [{"id": "Harrow-357", "name": "William"}],
+                   "sources": [], "detail_url": "/people/harrow-357.html"}
+        record = {"record_id": "deed-1729", "association": "Deed of William Harrow", "date": "1729", "year": 1729,
+                  "source_title": "Invented deed book", "source_url": "https://example.invalid/deed",
+                  "note": "No predecessor named.", "profiles": {"Harrow-357": {"role": "Grantor"}}}
+        vital = {"id": "william-357-death", "subject": "Harrow-357", "status": "approved", "reviewed": "2026-10-26",
+                 "vitals": {"death": {"date": "1805", "place": "Invented County", "status": "probable",
+                                      "note": "Will recorded 1806."}}}
         with open_project(self.project) as project:
+            for kind, row in (("finding", finding), ("record", record), ("vital", vital)):
+                result = research_entry.upsert(project, kind, row, expected_revision=None, actor="test", reason=None)
+                self.assertTrue(result["created"])
             files = workbench_legacy_views.Views(project.store).files()
-        self.assertEqual(json.loads(files["research/relationship_assessments.json"]), changed)
+            self.assertEqual(json.loads(files["research/latest-findings.json"])["findings"][-1], finding)
+            self.assertEqual(json.loads(files["research/canonical_records.json"])[-1], record)
+            self.assertEqual(json.loads(files["research/vital_assessments.json"])["assessments"], [vital])
+            changed = {**finding, "status": "confirmed"}
+            with self.assertRaisesRegex(Exception, "expected-revision"):
+                research_entry.upsert(project, "finding", changed, expected_revision=None, actor="test", reason=None)
+            revision = research_entry.current_row(project, "finding", "deed-reading")[1]
+            research_entry.upsert(project, "finding", changed, expected_revision=revision, actor="test", reason="re-read")
+            with self.assertRaises(StaleRevisionError):
+                research_entry.upsert(project, "finding", finding, expected_revision=revision, actor="other", reason=None)
+            vital2 = json.loads(json.dumps(vital))
+            vital2["vitals"]["death"]["status"] = "proved"
+            research_entry.upsert(project, "vital", vital2, expected_revision=1, actor="test", reason=None)
+            claim = stable_id("clm", "glasgow-vital", "william-357-death", "death")
+            self.assertEqual([h["status"] for h in Research(project.store).assessment_history(claim)],
+                             ["probable", "proved"])
+            files = workbench_legacy_views.Views(project.store).files()
+            self.assertEqual(json.loads(files["research/latest-findings.json"])["findings"][-1], changed)
+            for relative, text in files.items():
+                write(self.source, relative, json.loads(text))
+        report = self.migrate()   # the regenerated files are current, not hand edits
+        self.assertEqual(report["conflicts"], [], report["conflicts"])
 
     def test_a_hand_edited_registry_does_not_override_a_database_assessment(self) -> None:
         self.migrate()

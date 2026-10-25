@@ -8,6 +8,9 @@ until each builder reads the database directly:
 
 * ``research/relationship_assessments.json``
 * ``research/relationship_probability_estimates.json``
+* ``research/canonical_records.json``, ``research/latest-findings.json`` and
+  ``research/vital_assessments.json``: each row as last entered (by the migration
+  or ``tools/research_entry.py``), with any other database edit overlaid
 
 Rules:
 
@@ -41,10 +44,16 @@ from genealogy.store import Research, open_project
 ROOT = Path(__file__).resolve().parents[1]
 ASSESSMENTS = "research/relationship_assessments.json"
 ESTIMATES = "research/relationship_probability_estimates.json"
+RECORDS = "research/canonical_records.json"
+FINDINGS = "research/latest-findings.json"
+VITALS = "research/vital_assessments.json"
+# Writers that keep the stored legacy row current; any other edit is overlaid from the columns.
+ROW_KEEPERS = ("workbench_migrate", "research_entry")
 REVERSE = {"father": "child", "mother": "child", "parent": "child", "spouse": "spouse", "sibling": "sibling",
            "partner": "partner"}
-# Revisions written by the migration or a tree import are not new research.
-MIGRATION_TOOLS = ("workbench_migrate", "genealogy import")
+# Revisions written by the migration, a tree import or the entry tool (which keeps the stored
+# legacy row current) are written back verbatim from that row.
+MIGRATION_TOOLS = ("workbench_migrate", "genealogy import", "research_entry")
 
 
 def _extra(row: dict[str, Any]) -> dict[str, Any]:
@@ -191,8 +200,58 @@ class Views:
             header["reviewed"] = max(later)
         return {**header, "estimates": self.estimates()}
 
+    def edited_elsewhere(self, table: str, entity_id: str) -> bool:
+        return self.store.one(
+            "SELECT 1 FROM audit_log a JOIN change_set c ON c.id=a.change_set_id WHERE a.table_name=? AND a.row_id=? "
+            "AND a.action='update' AND NOT (" + " OR ".join("coalesce(c.tool,'') LIKE ?" for _ in ROW_KEEPERS) + ") "
+            "LIMIT 1", (table, entity_id, *(f"{tool}%" for tool in ROW_KEEPERS))) is not None
+
+    def ordered_rows(self, table: str) -> list[tuple[dict[str, Any], dict[str, Any]]]:
+        rows = []
+        for row in self.store.all(f"SELECT * FROM {table} WHERE extra_json LIKE '%\"legacy_json\"%' ORDER BY id"):
+            extra = json.loads(row["extra_json"])
+            rows.append((extra.get("legacy_index", 10 ** 9), row["id"], json.loads(extra["legacy_json"]), row))
+        return [(legacy, row) for _, _, legacy, row in sorted(rows, key=lambda item: (item[0], item[1]))]
+
+    def records(self) -> list[dict[str, Any]]:
+        result = []
+        for legacy, row in self.ordered_rows("record"):
+            if self.edited_elsewhere("record", row["id"]):
+                for key, column in (("association", "title"), ("date", "date_original"), ("place", "place_wording"),
+                                    ("note", "summary"), ("source_url", "url"), ("record_type", "record_type")):
+                    if key in legacy or row[column] is not None:
+                        legacy[key] = row[column]
+            result.append(legacy)
+        return result
+
+    def findings(self) -> dict[str, Any]:
+        rows = []
+        for legacy, row in self.ordered_rows("finding"):
+            if self.edited_elsewhere("finding", row["id"]):
+                legacy.update({"finding": row["statement"], "found_on": row["recorded_on"], "kind": row["kind"],
+                               "status": row["status_original"] or row["status"], "qualification": row["qualification"]})
+            rows.append(legacy)
+        return {**json.loads(self.store.meta("glasgow.latest_findings_header") or "{}"), "findings": rows}
+
+    def vitals(self) -> dict[str, Any]:
+        rows = []
+        for note in self.store.all("SELECT * FROM note WHERE kind='vital_assessment' ORDER BY id"):
+            stored = json.loads(note["text"])
+            row = stored["row"]
+            for kind, vital in (row.get("vitals") or {}).items():
+                claim = self.store.one("SELECT id FROM claim WHERE kind='vital' AND predicate=? AND extra_json LIKE ?",
+                                       (kind, f'%"assessment_id":"{row["id"]}"%'))
+                revisions = self.revisions(claim["id"]) if claim else []
+                current = revisions[-1] if revisions else None
+                if current is not None and not (current.get("tool") or "").startswith(ROW_KEEPERS):
+                    vital.update({"status": current["status"], "note": current["reasoning"]})
+            rows.append((stored.get("legacy_index", 10 ** 9), note["id"], row))
+        return {**json.loads(self.store.meta("glasgow.vital_assessments_header") or "{}"),
+                "assessments": [row for _, _, row in sorted(rows, key=lambda item: (item[0], item[1]))]}
+
     def files(self) -> dict[str, str]:
-        return {ASSESSMENTS: dump(self.assessments()), ESTIMATES: dump(self.estimates_document())}
+        return {ASSESSMENTS: dump(self.assessments()), ESTIMATES: dump(self.estimates_document()),
+                RECORDS: dump(self.records()), FINDINGS: dump(self.findings()), VITALS: dump(self.vitals())}
 
 
 def main(argv=None) -> int:
@@ -216,9 +275,10 @@ def main(argv=None) -> int:
         if current is None or json.loads(current) != json.loads(text):
             status = 1
             before = json.loads(current) if current else None
-            rows = before if isinstance(before, list) else (before or {}).get("estimates", [])
+            key = next((k for k in ("estimates", "findings", "assessments") if isinstance(before, dict) and k in before), None)
+            rows = before if isinstance(before, list) else (before or {}).get(key, [])
             after = json.loads(text)
-            after_rows = after if isinstance(after, list) else after["estimates"]
+            after_rows = after if isinstance(after, list) else after.get(key, [])
             changed = sum(1 for a, b in zip(rows, after_rows) if a != b) + abs(len(rows) - len(after_rows))
             print(f"{relative}: differs from the database view ({changed} rows). Research must be changed through "
                   "the workbench; regenerate with --write.")

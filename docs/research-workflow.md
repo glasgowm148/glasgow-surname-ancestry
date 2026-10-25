@@ -353,7 +353,7 @@ Every catalogue rebuild reads `research/<ID>/findings.md`
 reach a reader (text above the first heading, a source cited only in an editing
 log, no overall conclusion, a page not re-synchronised, register or queue
 entries the parsers drop, corrections not carried into
-`research/canonical_records.json` — list those in
+`research/canonical_records.json` (recorded with `tools/research_entry.py upsert record`) — list those in
 `data/site/superseded-readings.json`). Profile-scrape dumps are not
 republished. External
 links remain clickable. Relative links into local `sources/` folders are labelled

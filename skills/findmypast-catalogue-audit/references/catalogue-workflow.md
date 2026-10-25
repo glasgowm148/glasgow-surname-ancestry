@@ -43,12 +43,12 @@ Use existing records, cases and schemas, not a parallel person registry:
 | Input | Role |
 |---|---|
 | Existing Findmypast capture and matching review | Literal receipts, groups, candidates, surname/access qualifications and remaining coverage |
-| `research/canonical_records.json` | Reviewed documentary assertions, source URL, event year/place/country, qualified profile roles and provenance |
+| `research/canonical_records.json` (generated: `tools/research_entry.py upsert record`) | Reviewed documentary assertions, source URL, event year/place/country, qualified profile roles and provenance |
 | `research/<ID>/findings.md` | One current conclusion plus cited findings, identity limits and next questions |
-| `research/vital_assessments.json` | Explicit approved vital correction and catalogue/tree projections, preserving prior/imported evidence |
+| `research/vital_assessments.json` (generated: `tools/research_entry.py upsert vital`) | Explicit approved vital correction and catalogue/tree projections, preserving prior/imported evidence |
 | `research/queue-review-2026-10-17/catalogue-integration.json` | Complete current proposals and genuine pending amendments |
 | `tools/study_stories/` and relevant person `presentation.json` | Cohesive current studies and overviews; update superseded summaries |
-| `research/latest-findings.json` | Dated discoveries/corrections linked to checked subjects/candidates and original sources |
+| `research/latest-findings.json` (generated: `tools/research_entry.py upsert finding`) | Dated discoveries/corrections linked to checked subjects/candidates and original sources |
 
 Findings about one person belong in that person's account, cross-referenced from relatives. Use checked local destinations for canonical profile roles. If a named relative has only an external WikiTree profile, cite that checked link and explain the role without fabricating a local destination. Synchronize only changed source/person surfaces, in this order: reviewed record ingestion, affected person/source findings, latest findings, affected study, then backlinks. Coverage-only or skipped-held-record updates do not trigger site builds.
 

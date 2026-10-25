@@ -31,8 +31,9 @@ submodule pin); no workbench code is copied into this repository.
 | --- | --- | --- |
 | Relationship claims, assessments, revisions, estimates | **database** | Both legacy JSON files are generated views (`make research-views`); `make check-workbench-views` fails on hand edits. |
 | People, external ids, former ids, redirects, routes | database (migrated) | WikiTree ids map to opaque person ids; 79 redirects and catalogue routes kept. |
-| Canonical records, record mentions, attributions | database (migrated); legacy file still read by builders | Mentions exist independently of identification; attributions are identity claims. |
-| Vital assessments, latest findings, research plans, parent candidates, presentation questions | database (migrated); legacy files still read by builders | Re-run `make migrate-workbench` after editing a legacy file: it catches up. |
+| Canonical records, record mentions, attributions | **database**; `research/canonical_records.json` is a generated view | Mentions exist independently of identification; attributions are identity claims. Record with `tools/research_entry.py upsert record`. |
+| Latest findings, vital assessments | **database**; `research/latest-findings.json` and `research/vital_assessments.json` are generated views | Record with `tools/research_entry.py upsert finding|vital`. |
+| Research plans, parent candidates, presentation questions | database (migrated); legacy files still edited and read by builders | Re-run `make migrate-workbench` after editing one: it catches up. |
 | WikiTree captures, OneTree exports | database observations + original files by hash | Observations are never edited; refresh adds a new one. |
 | Update queue, queue reviews and overrides | database proposals (migrated); legacy queue still read | Authored workflow state kept verbatim in each proposal. |
 | Exact-file publication approvals | database approval rows (migrated) + the three manifests | Hash-scoped: changed bytes lose the approval. |
@@ -91,6 +92,23 @@ The regenerated `relationship_assessments.json` is byte-identical to the input;
 the regenerated estimates file differs only in those 29 rows (`percent`,
 `assessment_status`, and the earlier value appended to `assessment_history`).
 
+## Generated registries and the entry tool (26 October 2026)
+
+Five registries are now generated from the database and byte-identical to the
+files they replaced: the two relationship files, `canonical_records.json`,
+`latest-findings.json` and `vital_assessments.json`. Changes go through
+`genealogy assess` (relationships) or `tools/research_entry.py` (the other
+three), which takes one row in the file's own format, checks the revision you
+read, writes through the audited store and regenerates the file. A hand edit to
+any generated registry is refused: `make migrate-workbench` keeps it as a
+conflict without applying it and `make check-workbench-views` fails. Research
+plans, parent candidates, presentation files and the update queue remain
+edited legacy inputs that the migration catches up.
+
+The latest capture of each queued WikiTree profile is now its observed remote
+baseline (1,481 of 1,485; four have no capture), so `genealogy wikitree compare`
+has a baseline to compare against.
+
 ## Everyday commands
 
 ```sh
@@ -102,7 +120,9 @@ make research-views                      # regenerate the two relationship regis
 .venv/bin/genealogy --project . show wikitree:Glasgow-951
 .venv/bin/genealogy --project . review list
 
-make migrate-workbench                   # catch up after editing a legacy registry
+.venv/bin/python tools/research_entry.py show finding <id>          # current row and revision
+.venv/bin/python tools/research_entry.py upsert finding row.json --expected-revision N
+make migrate-workbench                   # catch up after editing a still-legacy input
 make check-workbench                     # private-data verification (fails without the database)
 make backup-workbench                    # verified backup of the database and its own files
 make build-workbench-site                # the public projection through the shared compiler
@@ -179,11 +199,10 @@ Research continued on `main` during the migration. After merging:
 
 - The specialised Glasgow builders (`tools/build_research_catalog.py` and about
   190 other scripts) still read the legacy registries and earlier `www/` output.
-  They now receive relationship data generated from the database, but they are
+  They now receive five registries generated from the database, but they are
   not yet rewritten as views over the database or the shared compiler. Until
-  they are, `www/` remains the published site and the legacy registries other
-  than the two relationship files are still edited directly and caught up with
-  `make migrate-workbench`. Next action: move one builder at a time to read
+  they are, `www/` remains the published site, and the still-legacy inputs are
+  edited directly and caught up with `make migrate-workbench`. Next action: move one builder at a time to read
   `genealogy.store.projection.public_case` (start with
   `tools/catalogue_machine_data.py`, the main reader of the assessments), then
   make each remaining registry a generated view as was done for the relationship
@@ -200,6 +219,6 @@ Research continued on `main` during the migration. After merging:
   decision and has not been made automatically.
 - `tmp/` (22.7 GB of scratch, 255,478 files) was not migrated; it may contain
   unreviewed leads and should be reviewed by the owner before clean-up.
-- WikiTree remote baselines: captures are observations, but no capture is yet
-  marked as the accepted baseline, so three-way comparisons for the queue need
-  `genealogy wikitree capture --accept-baseline` per profile when next reviewed.
+- WikiTree baselines are the last *observed* captures; when a proposal is applied
+  and verified live, capture the profile again with
+  `genealogy wikitree capture --accept-baseline`.

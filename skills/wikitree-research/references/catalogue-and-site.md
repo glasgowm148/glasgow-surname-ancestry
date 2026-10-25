@@ -5,7 +5,7 @@ This reference preserves the original project skill sections for tasks in this a
 ## Maintain findings and catalogue person pages
 
 - After each coherent research batch, record new concrete discoveries and
-  supported corrections in `research/latest-findings.json`, with the actual
+  supported corrections as findings recorded with `tools/research_entry.py upsert finding` (they appear in `research/latest-findings.json`), with the actual
   discovery/review date, inspected source links, affected public people and
   explicit evidence limits. A confirmed record fact does not make an uncertain
   identity or relationship certain. Deduplicate a shared finding across
