@@ -304,7 +304,7 @@ After each coherent research batch, run `tools/build_research_queue.py` alongsid
 latest-findings synchronization. It consolidates held OPR identities, public
 subject drafts, older creation drafts, pending profile amendments and open
 studies in `/catalogue/#research-queue`. Reconcile completed amendments and
-superseded drafts; maintain `research/research-queue-overrides.json` for dated
+superseded drafts; maintain `research/research-queue-overrides.json` (recorded with `tools/research_entry.py document`) for dated
 source drafts whose recommendation has been superseded. Preserve the original
 evidence and direct readers to the current subject account.
 

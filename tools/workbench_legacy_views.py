@@ -41,6 +41,8 @@ from typing import Any
 
 from genealogy.store import Research, open_project
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 ROOT = Path(__file__).resolve().parents[1]
 ASSESSMENTS = "research/relationship_assessments.json"
 ESTIMATES = "research/relationship_probability_estimates.json"
@@ -250,8 +252,10 @@ class Views:
                 "assessments": [row for _, _, row in sorted(rows, key=lambda item: (item[0], item[1]))]}
 
     def files(self) -> dict[str, str]:
+        from workbench_documents import Documents
         return {ASSESSMENTS: dump(self.assessments()), ESTIMATES: dump(self.estimates_document()),
-                RECORDS: dump(self.records()), FINDINGS: dump(self.findings()), VITALS: dump(self.vitals())}
+                RECORDS: dump(self.records()), FINDINGS: dump(self.findings()), VITALS: dump(self.vitals()),
+                **Documents(self.store).files()}
 
 
 def main(argv=None) -> int:
@@ -265,11 +269,15 @@ def main(argv=None) -> int:
     with open_project(args.project, readonly=args.check) as project:
         generated = Views(project.store).files()
     status = 0
+    matched = written = 0
     for relative, text in generated.items():
         path = args.root / relative
         if args.write:
-            path.write_text(text, encoding="utf-8")
-            print(f"wrote {relative} from the research database")
+            if not path.is_file() or path.read_text(encoding="utf-8") != text:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(text, encoding="utf-8")
+                written += 1
+                print(f"wrote {relative} from the research database")
             continue
         current = path.read_text(encoding="utf-8") if path.is_file() else None
         if current is None or json.loads(current) != json.loads(text):
@@ -283,7 +291,13 @@ def main(argv=None) -> int:
             print(f"{relative}: differs from the database view ({changed} rows). Research must be changed through "
                   "the workbench; regenerate with --write.")
         else:
-            print(f"{relative}: matches the research database")
+            matched += 1
+            if relative in (ASSESSMENTS, ESTIMATES, RECORDS, FINDINGS, VITALS):
+                print(f"{relative}: matches the research database")
+    if args.check:
+        print(f"{matched} of {len(generated)} generated files match the research database")
+    else:
+        print(f"{written} of {len(generated)} generated files rewritten; the rest already matched")
     return status
 
 

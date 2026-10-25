@@ -141,18 +141,60 @@ class GlasgowMigrationFixture(unittest.TestCase):
             record = research.find_external("glasgow-record", "will-1805")[0]
             self.assertEqual(project.store.get("record", record)["summary"], "Names sons including Isaac.")
 
-    def test_still_legacy_inputs_catch_up(self) -> None:
-        queue = {"schema_version": 1, "entries": {"Harrow-14": {"status": "OPEN", "summary": "Add the will."}}}
-        write(self.source, "data/wikitree/profile-update-queue.json", queue)
-        with open_project(self.project, create=True) as project:
-            workbench_migrate.Migration(project, self.source).run(["records", "queue"])
-        queue["entries"]["Harrow-14"]["summary"] = "Add the will and the 1806 inventory."
-        write(self.source, "data/wikitree/profile-update-queue.json", queue)
+    def test_editorial_presentation_still_catches_up(self) -> None:
+        presentation = {"evidence_questions": [{"question": "Which Isaac does the will mean?", "answer": "Open."}]}
+        write(self.source, "research/Harrow-14/presentation.json", presentation)
+        self.migrate()
         with open_project(self.project) as project:
-            report = workbench_migrate.Migration(project, self.source).run(["queue"])
-            self.assertEqual(dict(report["refreshed"]), {"proposal": 1})
-            row = project.store.one("SELECT rationale FROM proposal WHERE target='Harrow-14'")
-            self.assertEqual(row["rationale"], "Add the will and the 1806 inventory.")
+            workbench_migrate.Migration(project, self.source).run(["profiles"])
+        presentation["evidence_questions"][0]["answer"] = "The 1786 Currituck Isaac."
+        write(self.source, "research/Harrow-14/presentation.json", presentation)
+        with open_project(self.project) as project:
+            report = workbench_migrate.Migration(project, self.source).run(["profiles"])
+            self.assertEqual(dict(report["refreshed"]), {"question": 1})
+            question = stable_id("qst", "research/Harrow-14/presentation.json", 0)
+            self.assertEqual(project.store.get("question", question)["resolves"], "The 1786 Currituck Isaac.")
+
+    def test_documents_are_held_row_by_row_and_regenerated(self) -> None:
+        import research_entry
+        plan = {"case_id": "Harrow-14", "findings": [], "objective": "Find Isaac's father.",
+                "questions": ["Who was Isaac's father?", {"question": "Was he born in 1786?", "status": "open"}],
+                "web_searches": [{"query": "Currituck wills 1805", "result": "nothing found"}], "targets": ["will"]}
+        queue = {"schema_version": 1, "updated_at": "2026-10-25",
+                 "entries": {"Harrow-14": {"status": "OPEN", "summary": "Add the will."}}, "completed_live_profiles": []}
+        write(self.source, "research/Harrow-14/research_plan.json", plan)
+        write(self.source, "data/wikitree/profile-update-queue.json", queue)
+        self.migrate()
+        with open_project(self.project) as project:
+            workbench_migrate.Migration(project, self.source).run(["profiles", "queue", "documents"])
+            files = workbench_legacy_views.Views(project.store).files()
+            self.assertEqual(json.loads(files["research/Harrow-14/research_plan.json"]), plan)
+            self.assertEqual(json.loads(files["data/wikitree/profile-update-queue.json"]), queue)
+            search = stable_id("sch", "research/Harrow-14/research_plan.json", 0)
+            self.assertEqual(project.store.get("search", search)["outcome"], "negative")
+        edited = json.loads(json.dumps(plan))
+        edited["questions"].append("Did Isaac move to Tennessee?")
+        write(self.source, "research/Harrow-14/research_plan.json", edited)
+        with open_project(self.project) as project:
+            report = workbench_migrate.Migration(project, self.source).run(["documents"])
+            self.assertTrue(any("edited by hand" in c["reason"] for c in report["conflicts"]))
+            revision = research_entry.document_revision(project, "research/Harrow-14/research_plan.json")
+            research_entry.record_document(project, "research/Harrow-14/research_plan.json", edited,
+                                           expected_revision=revision, actor="test", reason="new question")
+            files = workbench_legacy_views.Views(project.store).files()
+            self.assertEqual(json.loads(files["research/Harrow-14/research_plan.json"]), edited)
+            added = stable_id("qst", "research/Harrow-14/research_plan.json", 2)
+            self.assertEqual(project.store.get("question", added)["question"], "Did Isaac move to Tennessee?")
+            from genealogy.store import StaleRevisionError
+            with self.assertRaises(StaleRevisionError):
+                research_entry.record_document(project, "research/Harrow-14/research_plan.json", plan,
+                                               expected_revision=revision, actor="other", reason=None)
+            shorter = {**edited, "questions": edited["questions"][:1]}
+            research_entry.record_document(project, "research/Harrow-14/research_plan.json", shorter,
+                                           expected_revision=revision + 1, actor="test", reason="questions answered")
+            self.assertEqual(json.loads(workbench_legacy_views.Views(project.store).files()[
+                "research/Harrow-14/research_plan.json"]), shorter)
+            self.assertIsNotNone(project.store.get("question", added))   # kept, marked removed
 
     def test_entry_tool_records_rows_that_the_views_reproduce_exactly(self) -> None:
         import research_entry

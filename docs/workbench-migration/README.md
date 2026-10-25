@@ -33,9 +33,10 @@ submodule pin); no workbench code is copied into this repository.
 | People, external ids, former ids, redirects, routes | database (migrated) | WikiTree ids map to opaque person ids; 79 redirects and catalogue routes kept. |
 | Canonical records, record mentions, attributions | **database**; `research/canonical_records.json` is a generated view | Mentions exist independently of identification; attributions are identity claims. Record with `tools/research_entry.py upsert record`. |
 | Latest findings, vital assessments | **database**; `research/latest-findings.json` and `research/vital_assessments.json` are generated views | Record with `tools/research_entry.py upsert finding|vital`. |
-| Research plans, parent candidates, presentation questions | database (migrated); legacy files still edited and read by builders | Re-run `make migrate-workbench` after editing one: it catches up. |
+| Research plans, parent candidates, the update queue and its review files | **database**, row by row; the files are generated views | Edit the file, then `tools/research_entry.py document PATH --expected-revision N`. Removed rows are kept, marked removed. |
+| Presentation files, findings logs, briefs, drafts | files (editorial), referenced by hash | Questions extracted from presentation files follow them through `make migrate-workbench`. |
 | WikiTree captures, OneTree exports | database observations + original files by hash | Observations are never edited; refresh adds a new one. |
-| Update queue, queue reviews and overrides | database proposals (migrated); legacy queue still read | Authored workflow state kept verbatim in each proposal. |
+| Update queue, queue reviews and overrides | **database** (proposals and review rows) | See the row above. |
 | Exact-file publication approvals | database approval rows (migrated) + the three manifests | Hash-scoped: changed bytes lose the approval. |
 | Research prose, drafts, captures, images, PDFs | files, referenced by hash | 21,213 asset rows; originals never copied or changed. |
 | `www/` | generated output (legacy builders) | 9,791 retained `www/people/*.json` dossiers and `www/map/data/` are referenced as retained input until their builders are moved. |
@@ -109,6 +110,18 @@ The latest capture of each queued WikiTree profile is now its observed remote
 baseline (1,481 of 1,485; four have no capture), so `genealogy wikitree compare`
 has a baseline to compare against.
 
+## Documents held row by row (26 October 2026)
+
+All 285 research plans, parent-candidate lists, the update queue and its two
+review files are held in the database: each row on its question, search,
+finding, hypothesis or proposal (or a row note where the core has no model),
+the rest of each file as a frame with a document revision. Regenerated, all 290
+generated files match the originals in content; 279 are byte-identical and 11
+research plans whose hand-mixed formatting no serialiser reproduces are
+normalised once (same content). An edited file is recorded with
+`tools/research_entry.py document`; a hand edit that is not recorded is kept as a
+conflict by `make migrate-workbench` and fails `make check-workbench-views`.
+
 ## Everyday commands
 
 ```sh
@@ -122,7 +135,9 @@ make research-views                      # regenerate the two relationship regis
 
 .venv/bin/python tools/research_entry.py show finding <id>          # current row and revision
 .venv/bin/python tools/research_entry.py upsert finding row.json --expected-revision N
-make migrate-workbench                   # catch up after editing a still-legacy input
+.venv/bin/python tools/research_entry.py document research/<ID>/research_plan.json --show
+.venv/bin/python tools/research_entry.py document research/<ID>/research_plan.json --expected-revision N
+make migrate-workbench                   # pick up new case files and presentation changes
 make check-workbench                     # private-data verification (fails without the database)
 make backup-workbench                    # verified backup of the database and its own files
 make build-workbench-site                # the public projection through the shared compiler

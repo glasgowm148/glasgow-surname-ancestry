@@ -17,6 +17,11 @@ command stops with the current row so the change can be redone, and nothing is
 written. A new row needs no revision. Every change is audited with `--actor`
 and `--reason`, and the affected JSON file is regenerated afterwards.
 
+Research plans, parent-candidate lists and the WikiTree queue files are held row
+by row: edit the file, then record it with
+`document PATH --expected-revision N` (`document PATH --show` prints N). A row
+removed from the file is kept in the database, marked removed.
+
 Relationship assessments are not entered here: use `genealogy assess`.
 """
 from __future__ import annotations
@@ -34,6 +39,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from genealogy.store import Research, StaleRevisionError, StoreError, open_project, stable_id  # noqa: E402
 
 import workbench_legacy_views as views  # noqa: E402
+from workbench_documents import Documents, dump as document_dump, spec_for  # noqa: E402
 from workbench_migrate import (  # noqa: E402
     Migration, extra_json, finding_columns, record_access, record_columns,
 )
@@ -168,6 +174,33 @@ def upsert(project, kind: str, row: dict[str, Any], *, expected_revision: int | 
             "created": existing is None, **({"mentions_added": counts["mentions"]} if kind == "record" else {})}
 
 
+def document_revision(project, relative: str) -> int:
+    frame = Documents(project.store).frame(relative)
+    if frame is None:
+        raise StoreError(f"{relative} is not held in the research database yet; run make migrate-workbench")
+    return frame["note"]["revision"]
+
+
+def record_document(project, relative: str, document: Any, *, expected_revision: int | None, actor: str,
+                    reason: str | None) -> dict[str, Any]:
+    """Record an edited plan, candidate list or queue file, row by row, at the revision it was read."""
+    if spec_for(relative) is None:
+        raise StoreError(f"{relative} is not one of the documents held row by row")
+    documents = Documents(project.store)
+    frame = documents.frame(relative)
+    with project.store.write(actor=actor, tool=f"{TOOL} document", source=relative, reason=reason) as tx:
+        if frame is not None:
+            current = project.store.get("note", frame["note"]["id"])
+            if expected_revision is None:
+                raise StoreError(f"{relative} is at revision {current['revision']}; pass --expected-revision "
+                                 f"{current['revision']} after checking it is the version you edited")
+            if current["revision"] != expected_revision:
+                raise StaleRevisionError("note", current["id"], expected_revision, current["revision"],
+                                         {"document": relative, "current": documents.compose(relative)})
+        documents.store_document(tx, relative, document)
+    return {"document": relative, "revision": document_revision(project, relative), "created": frame is None}
+
+
 def regenerate(project, relative: str, root: Path) -> None:
     text = views.Views(project.store).files()[relative]
     (root / relative).write_text(text, encoding="utf-8")
@@ -186,9 +219,28 @@ def main(argv=None) -> int:
     put.add_argument("--expected-revision", type=int)
     put.add_argument("--actor", default="research_entry")
     put.add_argument("--reason")
+    doc = sub.add_parser("document", help="record an edited research plan, parent-candidate list or queue file")
+    doc.add_argument("path", help="the file, relative to the project (e.g. research/Glasgow-951/research_plan.json)")
+    doc.add_argument("--expected-revision", type=int, help="the revision printed by --show before you edited it")
+    doc.add_argument("--show", action="store_true", help="print the document's current revision only")
+    doc.add_argument("--actor", default="research_entry")
+    doc.add_argument("--reason")
     args = parser.parse_args(argv)
     try:
-        with open_project(args.project, readonly=args.command == "show") as project:
+        readonly = args.command == "show" or (args.command == "document" and args.show)
+        with open_project(args.project, readonly=readonly) as project:
+            if args.command == "document":
+                relative = Path(args.path).as_posix()
+                if args.show:
+                    print(json.dumps({"document": relative, "revision": document_revision(project, relative)}))
+                    return 0
+                document = json.loads((args.project / relative).read_text(encoding="utf-8"))
+                result = record_document(project, relative, document, expected_revision=args.expected_revision,
+                                         actor=args.actor, reason=args.reason)
+                (args.project / relative).write_text(document_dump(Documents(project.store).compose(relative)),
+                                                     encoding="utf-8")
+                print(json.dumps(result, ensure_ascii=False))
+                return 0
             if args.command == "show":
                 found = current_row(project, args.kind, args.key)
                 if found is None:

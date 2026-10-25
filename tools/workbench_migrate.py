@@ -41,6 +41,9 @@ from genealogy.store.assets import register_asset
 from genealogy.store.operations import import_genealogy_file
 from genealogy.store.vocabulary import FINDING_MAP, PROPOSAL_MAP, normalise
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from workbench_documents import SPECS, Documents, spec_for  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 WIKITREE_ID = re.compile(r"^[A-Z][A-Za-z'\-]*-\d+$")
 ROOT_NAME = "repository"            # asset root: the Glasgow checkout holding the evidence files
@@ -54,6 +57,10 @@ ACTOR = "glasgow-migration"
 # tools/research_entry.py or the genealogy CLI instead.
 GENERATED = ("research/relationship_assessments.json", "research/relationship_probability_estimates.json",
              "research/canonical_records.json", "research/latest-findings.json", "research/vital_assessments.json")
+def is_generated(relative: str) -> bool:
+    return relative in GENERATED or spec_for(relative) is not None
+
+
 HAND_EDIT = ("this registry is generated from the research database and was edited by hand; the change was kept "
              "for review and not applied (record it with tools/research_entry.py or the genealogy CLI)")
 
@@ -167,7 +174,7 @@ class Migration:
         if previous is None or previous["content_sha256"] == digest:
             self.origin(tx, entity_id, batch_id, relative, pointer, payload)
             return "unchanged"
-        if relative in GENERATED:
+        if is_generated(relative):
             self.legacy(tx, batch_id, relative, f"{pointer}@{digest[:12]}", "conflict", HAND_EDIT, payload, entity_id)
             return "conflict"
         if self.edited_outside_migration(table, entity_id):
@@ -684,7 +691,7 @@ class Migration:
             self.origin(tx, claim_id, batch_id, relative, pointer, row)
             return "unchanged"
         tool = self.store.one("SELECT tool FROM change_set WHERE id=?", (current["change_set_id"],)) if current else None
-        if relative in GENERATED and current is not None:
+        if is_generated(relative) and current is not None:
             self.legacy(tx, batch_id, relative, f"{pointer}@{self.content_hash(row)[:12]}", "conflict", HAND_EDIT,
                         row, claim_id)
             return "conflict"
@@ -841,7 +848,8 @@ class Migration:
         counts = Counter()
         base = directory.relative_to(self.source).as_posix()
         plan_path = directory / "research_plan.json"
-        if plan_path.is_file():
+        documents = Documents(self.store)
+        if plan_path.is_file() and not documents.frame(f"{base}/research_plan.json"):
             plan = json.loads(plan_path.read_bytes())
             relative = f"{base}/research_plan.json"
             batch_id, _ = self.batch(tx, relative, plan_path.read_bytes(), "glasgow-research-plan")
@@ -879,7 +887,7 @@ class Migration:
                     self.origin(tx, finding_id, batch_id, relative, f"/findings/{index}", finding)
                     counts["plan findings"] += 1
         candidates_path = directory / "parent_candidates.json"
-        if candidates_path.is_file():
+        if candidates_path.is_file() and not documents.frame(f"{base}/parent_candidates.json"):
             relative = f"{base}/parent_candidates.json"
             candidates = json.loads(candidates_path.read_bytes())
             batch_id, _ = self.batch(tx, relative, candidates_path.read_bytes(), "glasgow-parent-candidates")
@@ -912,6 +920,11 @@ class Migration:
                                                access="public", extra={"legacy": question})
                     self.origin(tx, question_id, batch_id, relative, f"/evidence_questions/{index}", question)
                     counts["presentation questions"] += 1
+                else:   # editorial presentation stays a file: its extracted questions follow it
+                    state = self.refresh(tx, "question", question_id, relative, question, {
+                        "question": text, "resolves": question.get("answer") if isinstance(question, dict) else None,
+                        "extra_json": extra_json({"legacy": question})}, batch_id, f"/evidence_questions/{index}")
+                    counts[f"presentation questions ({state})"] += 1
             for index, item in enumerate(presentation.get("superseded_interpretations") or []):
                 finding_id = stable_id("fnd", relative, "superseded", index)
                 if self.store.get("finding", finding_id):
@@ -928,6 +941,8 @@ class Migration:
     # ---------------------------------------------------------------- workflow
     def step_queue(self) -> dict:
         relative = "data/wikitree/profile-update-queue.json"
+        if Documents(self.store).frame(relative):
+            return {"held in the database": 1}   # changes are recorded with tools/research_entry.py document
         data, raw = self.read_json(relative)
         counts = Counter()
         if data is None:
@@ -1069,6 +1084,29 @@ class Migration:
                         counts["missing since inventory"] += 1
         return dict(counts)
 
+    def step_documents(self) -> dict:
+        """Hold research plans, parent candidates and the queue files in the database, row by row."""
+        counts = Counter()
+        documents = Documents(self.store)
+        paths = sorted({path.relative_to(self.source).as_posix() for spec in SPECS
+                        for path in self.source.glob(spec.pattern) if path.is_file()})
+        for relative in paths:
+            raw = self.path(relative).read_bytes()
+            document = json.loads(raw)
+            with self.store.write(actor=ACTOR, tool="workbench_migrate documents", source=relative) as tx:
+                batch_id, _ = self.batch(tx, relative, raw, "glasgow-document")
+                if documents.frame(relative) is None:
+                    documents.store_document(tx, relative, document)
+                    counts["documents held"] += 1
+                elif documents.compose(relative) != document:
+                    self.legacy(tx, batch_id, relative, f"@{sha256_bytes(raw)[:12]}", "conflict",
+                                HAND_EDIT.replace("tools/research_entry.py", "tools/research_entry.py document"),
+                                document)
+                    counts["hand edits kept as conflicts"] += 1
+                else:
+                    counts["documents unchanged"] += 1
+        return dict(counts)
+
     def step_baselines(self) -> dict:
         """The latest capture of each queued WikiTree profile becomes its observed baseline.
 
@@ -1166,7 +1204,8 @@ class Migration:
         return dict(counts)
 
     STEPS = ("onetree", "catalogue", "wikitree_observations", "gazetteer", "records", "relationships", "vitals",
-             "findings", "profiles", "queue", "approvals", "studies", "other_assets", "baselines", "publication")
+             "findings", "profiles", "queue", "documents", "approvals", "studies", "other_assets", "baselines",
+             "publication")
 
     def run(self, only: list[str] | None = None) -> dict:
         for name in self.STEPS:

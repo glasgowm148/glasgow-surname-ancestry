@@ -216,7 +216,7 @@ Read these first:
 - `surname-research/free-space-pages/README.md`: inventory of synthesis pages that
   may need an amendment when the case produces a surname-wide finding;
 - `research/<ID>/research_brief.md`: generated compact case context.
-- `research/<ID>/research_plan.json`: queues and open questions.
+- `research/<ID>/research_plan.json`: queues and open questions (held in the research database; after editing, record it with `tools/research_entry.py document research/<ID>/research_plan.json --expected-revision N`).
 - `research/<ID>/findings.md`: complete handoff containing the permanent
   source-to-finding log, current live-profile delta, cautions, and exact WikiTree
   update instructions.
@@ -277,7 +277,7 @@ interactive, automatic, overnight, or resumed research loop:
    with the live profile without needing another case file. Do not queue facts
    already present on the live profile.
 5. Save original images, PDFs, or JSON in `sources/` with descriptive names.
-6. Update `research_plan.json`; pursue the next record capable of resolving the
+6. Update `research_plan.json` and record it with `tools/research_entry.py document`; pursue the next record capable of resolving the
    question, then repeat.
 7. In the same turn, add or update the person's row in
    `surname-research/clusters/README.md` whenever the finding materially changes
