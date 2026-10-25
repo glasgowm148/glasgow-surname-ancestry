@@ -4,7 +4,12 @@ RUFF ?= $(if $(wildcard $(dir $(PYTHON))ruff),$(dir $(PYTHON))ruff,ruff)
 RESEARCH_BASELINE ?= data/site/research-publication-baseline.json
 LINK_BASELINE ?= data/site/internal-link-baseline.json
 
-.PHONY: test validate validate-strict lint check check-browser check-accessibility check-research check-links build rebuild-local build-ancestry-progress
+GENEALOGY ?= $(dir $(PYTHON))genealogy
+WORKBENCH_DB ?= data/private/workbench/glasgow.sqlite
+# The checkout whose research files the migration reads (never written).
+WORKBENCH_SOURCE ?= .
+
+.PHONY: test validate validate-strict lint check check-browser check-accessibility check-research check-links build rebuild-local build-ancestry-progress migrate-workbench research-views check-workbench check-workbench-views build-workbench-site backup-workbench
 
 # Recompute branch connectivity from the resolved public person dossiers.
 build-ancestry-progress:
@@ -22,7 +27,44 @@ validate-strict:
 lint:
 	$(RUFF) check src tools tests
 
-check: lint validate test check-research check-links
+check: lint validate test check-research check-links check-workbench-views
+
+# --- Research database (genealogy-research-workbench) ---------------------------
+# Load or catch up the research database from the legacy files (repeatable; never
+# writes the inputs). Inventory first so the coverage ledger can account for every input.
+migrate-workbench:
+	$(PYTHON) tools/workbench_inventory.py inventory --source-root $(WORKBENCH_SOURCE)
+	$(PYTHON) tools/workbench_migrate.py --source-root $(WORKBENCH_SOURCE)
+	$(PYTHON) tools/workbench_ledger.py
+
+# Regenerate the two relationship registries the existing builders read.
+research-views:
+	$(PYTHON) tools/workbench_legacy_views.py --write
+
+# Full private-data verification: fails (does not skip) without the database.
+check-workbench:
+	@test -f $(WORKBENCH_DB) || { echo "check-workbench FAILED: $(WORKBENCH_DB) is absent. Run 'make migrate-workbench' on a checkout with the private research inputs; nothing was verified."; exit 1; }
+	$(GENEALOGY) --project . validate
+	$(PYTHON) tools/workbench_legacy_views.py --check
+	$(PYTHON) tools/workbench_ledger.py
+	$(PYTHON) -m unittest tests.test_workbench_private_data -v
+
+# Part of 'make check': the relationship registries must equal the database's views.
+check-workbench-views:
+	@if [ -f $(WORKBENCH_DB) ]; then \
+		$(PYTHON) tools/workbench_legacy_views.py --check; \
+	else \
+		echo "check-workbench-views SKIPPED (not a pass): $(WORKBENCH_DB) is absent, so the registries were not compared with the research database."; \
+	fi
+
+# The public projection through the shared workbench compiler (build/workbench-site).
+build-workbench-site:
+	$(GENEALOGY) --project . build
+
+# A verified private backup of the database and its own files; research files under the
+# repository root are recorded by hash and preserved by Git and the baseline archive.
+backup-workbench:
+	$(GENEALOGY) --project . backup create --exclude-root repository
 
 # Research written in findings.md, the WikiTree register and the queue must
 # reach the site. Fails on any problem not already listed in the baseline.

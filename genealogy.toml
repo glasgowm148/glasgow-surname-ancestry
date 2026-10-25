@@ -78,6 +78,25 @@ raw_dna = "ydna"
 public_catalogue = "www"
 machine_readable = "www/data"
 allow_catalogue_rebuild = false
+# The shared workbench compiler's build of the public projection.
+directory = "build/workbench-site"
+
+[storage]
+# The one authoritative research database and its private storage (ignored by Git).
+database = "data/private/workbench/glasgow.sqlite"
+assets = "data/private/workbench/assets"
+backups = "data/private/workbench/backups"
+exports = "data/private/workbench/exports"
+
+[storage.asset_roots]
+# Evidence, captures, drafts and prose are referenced where they are, by hash.
+# A worktree or second checkout points this at the research checkout in
+# genealogy.local.toml (ignored by Git).
+repository = "."
+
+[site]
+# Fixed for reproducible workbench builds; raise it deliberately with each release.
+build_date = "2026-10-25"
 
 [project_exclusions]
 paths = ["data/private", "artifacts", "www", "ydna", "*.zip"]

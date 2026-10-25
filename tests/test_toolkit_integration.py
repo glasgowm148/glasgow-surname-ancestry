@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -68,10 +69,18 @@ class ToolkitIntegrationTests(unittest.TestCase):
                 load_project_config(config_path)
 
     def test_configured_toolkit_cli_validates_only_the_isolated_fixture(self):
-        command = [sys.executable, "-m", "genealogy", "--project", str(ROOT), "validate"]
-        result = subprocess.run(command, cwd=ROOT, check=False, capture_output=True, text=True)
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("Research case is valid", result.stdout)
+        # The synthetic fixture case is upgraded into a throwaway database; the real
+        # research database is never touched by this test.
+        with tempfile.TemporaryDirectory() as directory:
+            project = Path(directory)
+            (project / "genealogy.toml").write_text(
+                "[project]\nname = \"Toolkit fixture\"\ncase_directory = \"cases\"\n", encoding="utf-8")
+            shutil.copytree(ROOT / "data" / "toolkit" / "cases", project / "cases")
+            for step in (["upgrade"], ["validate"]):
+                command = [sys.executable, "-m", "genealogy", "--project", str(project), *step]
+                result = subprocess.run(command, cwd=project, check=False, capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("Research database is valid", result.stdout)
 
     def test_explicit_bridge_filters_sensitive_people_and_dependencies(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -82,3 +82,7 @@ handover.md
 data/private/
 # Release bundles (written outside www/)
 dist/
+# Machine-specific workbench asset-root paths
+genealogy.local.toml
+# Workbench site builds from the research database (staging, report and output)
+build/
