@@ -110040,5 +110040,69 @@
       "next_test": "Trace the executorJames’s deed, receipt or estate account for his residence, wife or signature; compare with the HannahTurner household and keep MissouriJames45 as an alternative.",
       "resume_when": "Trace the executorJames’s deed, receipt or estate account for his residence, wife or signature; compare with the HannahTurner household and keep MissouriJames45 as an alternative."
     }
+  },
+  {
+    "assertion_id": "C-norfolk-1714-daniel-junior-father",
+    "people": [
+      "record-queue-norfolk-daniel-1729-1730-daniel-junior-1714",
+      "Glasgow-3322"
+    ],
+    "profile_names": {
+      "record-queue-norfolk-daniel-1729-1730-daniel-junior-1714": "Daniel Glasgow junior, eldest son in1714",
+      "Glasgow-3322": "Daniel Glasgow senior, Mary Gamon’s husband"
+    },
+    "profile_urls": {
+      "record-queue-norfolk-daniel-1729-1730-daniel-junior-1714": {
+        "url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-junior-1714"
+      }
+    },
+    "status": "strongly_supported",
+    "status_label": "Confident father98%",
+    "publication_status": "approved",
+    "working_selection": true,
+    "allow_new_relationship": true,
+    "assessment_date": "2026-10-25",
+    "claim": "Daniel junior of the1714 deed is the son of Daniel Glasgow-3322.",
+    "basis": "The1714 original explicitly names Daniel junior as the eldest lawful son of Daniel senior and Mary and recites John Gamon’s1693 will. The unique will, wife and80-acre Richford title chain identify senior with Glasgow-3322’s defining1693 record. The documentary son has no separate later-adult identity assignment. Complete father identification98%; direct named-family clause99%. These are subjective assessments, not statistical measurements.",
+    "limitations": "The documentary son is distinct from his father. Glasgow-3322 represents the1693 Mary Gamon husband and is therefore the98% confident father identification for this record-defined son. Glasgow-1158 also carries Mary Gammon as wife and may duplicate the senior account; assigning it to junior would turn that wife into his mother without resolving the identity conflict. Keep both current profiles and their existing parents; do not merge or reparent them. The1718–1719 Currituck Senior/Junior taxpayers are probably this Moyock father and son (85% identity assessment), supported by the close locality, same unusual names and four-to-five-year continuity, but the tax lists alone do not identify their land. The1729 Slade100-acre tract remains separate; William-428’s father remains42%, Daniel-1158→Robert-1157 remains12%, and Daniel-3322→Robert-1157 remains34%. No Scottish ancestry, exact birth or maternal maiden name beyond the explicit Gamon daughter identification is inferred.",
+    "record_scope": "Record-defined son; original register family clause and1693 title identification",
+    "identity_scope": "Senior identified by defining1693 Gamon will; junior later identity unresolved",
+    "source_ids": [
+      "norfolk-daniels-gamon-1714"
+    ],
+    "probability": {
+      "value": 0.98,
+      "basis": "The1714 original explicitly names Daniel junior as the eldest lawful son of Daniel senior and Mary and recites John Gamon’s1693 will. The unique will, wife and80-acre Richford title chain identify senior with Glasgow-3322’s defining1693 record. The documentary son has no separate later-adult identity assignment. Complete father identification98%; direct named-family clause99%. These are subjective assessments, not statistical measurements.",
+      "reviewed": "2026-10-25",
+      "source_ids": [
+        "norfolk-daniels-gamon-1714"
+      ]
+    },
+    "perspectives": {
+      "record-queue-norfolk-daniel-1729-1730-daniel-junior-1714": {
+        "relationship": "father",
+        "reason": "The1714 original explicitly names Daniel junior as the eldest lawful son of Daniel senior and Mary and recites John Gamon’s1693 will. The unique will, wife and80-acre Richford title chain identify senior with Glasgow-3322’s defining1693 record. The documentary son has no separate later-adult identity assignment. Complete father identification98%; direct named-family clause99%. These are subjective assessments, not statistical measurements."
+      },
+      "Glasgow-3322": {
+        "relationship": "son",
+        "reason": "The1714 original explicitly names Daniel junior as the eldest lawful son of Daniel senior and Mary and recites John Gamon’s1693 will. The unique will, wife and80-acre Richford title chain identify senior with Glasgow-3322’s defining1693 record. The documentary son has no separate later-adult identity assignment. Complete father identification98%; direct named-family clause99%. These are subjective assessments, not statistical measurements."
+      }
+    },
+    "provenance": {
+      "source": "research/ancestry-connections/norfolk-daniel-deed-review-2026-10-25.json",
+      "original_inspected_on": "2026-10-25",
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-10-25",
+      "prior_assessment": {
+        "status": "unknown",
+        "source_basis": "Newly discovered documentary child; not an improvement to an existing measured profile."
+      }
+    },
+    "research_state": {
+      "disposition": "ready",
+      "reviewed": "2026-10-25",
+      "last_test": "The original deed calls Daniel junior the eldest lawful son and heir apparent of Daniel senior and Mary, expressly his father and mother. They were of Moyock in North Carolina; the land lay above the Southern Branch Great Bridge in Norfolk County, Virginia. The80-acre tract is explicitly the property granted to Daniel senior and Mary by John Gamon’s will of4October1693, recorded15March1693/4, with remainder to Daniel’s bodily heirs by Mary, Gamon’s daughter. Daniel senior, Mary and Daniel junior acknowledged the deed in Norfolk court on17September1714. This completes the1693→1714 Richford Swamp title bridge and establishes the parent–child relationship. The later1733 and1752 dates are contingent redemption/lease endpoints, not execution dates.",
+      "next_test": "Trace the same80-acre Richford tract after1714 for Daniel junior’s residence, wife or named heirs; compare the1718–1719 Moyock/Currituck taxpayers and keep the1729 Slade tract separate. Resolve whether Glasgow-1158 duplicates senior before selecting a junior identity."
+    }
   }
 ]

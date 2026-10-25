@@ -4328,3 +4328,9 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Margaret Glasgow (Glasgow-3053)](https://www.wikitree.com/wiki/Glasgow-3053) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
 | [Margaret Glasgow (Glasgow-3878)](https://www.wikitree.com/wiki/Glasgow-3878) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
 | [Magdalen Glasgow (Glasgow-4103)](https://www.wikitree.com/wiki/Glasgow-4103) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
+
+### Norfolk–Moyock original deed —25October2026
+
+| [Glasgow-3322](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Add documented eldest son Daniel from1714 original deed, father confidence98%;1693 Gamon title chain established. |
+| [Glasgow-1158](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Reconcile1714 documented Daniel father–son family; this profile’s own father grade is unchanged; resolve senior duplicate before junior assignment. |
+| [Glasgow-428](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Reconcile1714 documented Daniel father–son family; this profile’s own father grade is unchanged; resolve senior duplicate before junior assignment. |
