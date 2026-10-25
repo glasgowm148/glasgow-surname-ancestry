@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-25",
+  "scope": "Page27 local publication;whole goal INCOMPLETE",
+  "new_provider_ids": 11,
+  "documentary_event_groups": 8,
+  "matched_records": 5,
+  "matched_existing_people": 3,
+  "source_only_holds": 6,
+  "new_people": 0,
+  "original_registers_inspected": 0,
+  "approved_vital_refinements": 2,
+  "expanded_maternal_name": "Margaret Martine in two companions; Margt in held OPR derivative; no mother profile identification",
+  "source_readers": [
+    {
+      "record_id": "fmp-record-r-691902723",
+      "source_id": "s-072a4137025cb18a",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-scot-mis-511328",
+      "source_id": "s-4e67f68cf84baf10",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bap-4108151",
+      "source_id": "s-8251f13d31297017",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-685772197",
+      "source_id": "s-943b4d340acbae5b",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-691830173",
+      "source_id": "s-bb7a4e88accbd4cc",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-fhs-scotland-mi-add-3-203626",
+      "source_id": "s-6bc9f0aed94c6cc7",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-691583593",
+      "source_id": "s-13ea187e0ef796e6",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bap-0392840",
+      "source_id": "s-d6efffe46d01bc40",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbor-londonburial-00130426",
+      "source_id": "s-5e795bcd270b1e73",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-685313886",
+      "source_id": "s-327721202f5379b1",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-688620486",
+      "source_id": "s-0adc986c6f43601e",
+      "reader_checked": true
+    }
+  ],
+  "complete_person_proposals": [
+    "Glasgow-3485",
+    "Glasgow-1532",
+    "Glasgow-4126"
+  ],
+  "father_probabilities_unchanged": true,
+  "full_fast_hydrated_filters_agree": true,
+  "standalone_packed_tree_agree": true,
+  "live_deployment": false,
+  "git_push": false,
+  "coverage": {
+    "literal_receipts_indexed": 609,
+    "supporting_ids_at_original_pointers": 19,
+    "bounded_indexed_provider_ids": 628,
+    "query_rows_reviewed": 540,
+    "query_displayed_rows": 5872,
+    "query_percentage": 9.2,
+    "next_query_page": 28,
+    "saved_detail_gaps": 0,
+    "whole_provider_percentage_known": false
+  },
+  "research_publication": {
+    "new_failures": []
+  },
+  "links": {
+    "pages": 26141,
+    "broken_links": 7,
+    "broken_pairs": 4,
+    "baseline": {
+      "path": "data/site/internal-link-baseline.json",
+      "pairs": 4,
+      "new_pairs": 0,
+      "fixed_pairs": 0,
+      "note": "",
+      "new_examples": []
+    }
+  },
+  "focused_tests": 28,
+  "asset_version_mismatches": 0,
+  "local_genealogy_index_refresh": "passed",
+  "git_diff_check": "passed",
+  "cached_canonical_entries_refreshed": 2
+}

@@ -59033,6 +59033,58 @@
       "provenance": [
         "research/ancestry-connections/thomas-merchant-review-2026-10-25.json"
       ]
+    },
+    {
+      "id": "fmp-page27-existing-people-20261025",
+      "found_on": "2026-10-25",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A Kirknewton inscription places Marion Glasgow’s death on 20 July 1774; a Barony transcript explicitly labels Marion’s 4 March 1792 event as birth; Irvine baptism companions give Mary’s mother as Margaret Martine.",
+      "qualification": "Five of eleven newly captured provider entries fit three existing people. The eleven IDs form eight documentary event groups, including companion derivatives already represented in the catalogue. Six entries remain source-only identity/natal-surname holds. The Kirknewton death identification is qualified by matching name, age, father and parish; original stone/image uninspected. Barony gives no exact baptism day. The Irvine mother wording expands the held Margt without identifying a maternal profile. No new people, original inspections, parent attachments or relationship-confidence changes.",
+      "people": [
+        {
+          "id": "Glasgow-3485",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-3485.html"
+        },
+        {
+          "id": "Glasgow-1532",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-1532.html"
+        },
+        {
+          "id": "Glasgow-4126",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-4126.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_691902723",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691902723&tab=this"
+        },
+        {
+          "title": "Findmypast GBPRS/SCOT/MIS/511328",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511328&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/0392840",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0392840&tab=this"
+        },
+        {
+          "title": "Findmypast R_685313886",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685313886&tab=this"
+        },
+        {
+          "title": "Findmypast R_688620486",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_688620486&tab=this"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+        "research/vital_assessments.json"
+      ],
+      "detail_url": "/people/glasgow-3485.html"
     }
   ]
 }

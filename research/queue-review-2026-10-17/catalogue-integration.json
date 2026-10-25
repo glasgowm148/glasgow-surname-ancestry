@@ -21059,12 +21059,12 @@
       "profile_id": "Glasgow-4126",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "queued_at": "2026-10-25",
+      "biography_rechecked_at": "2026-10-25",
       "draft_path": "research/Glasgow-4126/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-4126/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add page27 source evidence; The older account said no maternal surname was established; these companions now supply the literal surname Martine, without identifying a mother profile or proving a new marriage. Existing father Glasgow-4165 remains 98% proved and earlier ancestry remains outside scope. The old claim that only a baptism or no compatible profile was found is superseded by this consolidated existing-person account.",
+      "work_queue_summary": "Add page27 source evidence; The older account said no maternal surname was established; these companions now supply the literal surname Martine, without identifying a mother profile or proving a new marriage. Existing father Glasgow-4165 remains 98% proved and earlier ancestry remains outside scope. The old claim that only a baptism or no compatible profile was found is superseded by this consolidated existing-person account.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21084,7 +21084,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/findmypast-glasgow-audit/page27-proposal-preservation-2026-10-25.json",
+      "field_changes": []
     },
     "Glasgow-1332": {
       "profile_id": "Glasgow-1332",
@@ -21710,8 +21711,8 @@
       "biography_rechecked_at": "2026-10-25",
       "draft_path": "research/Glasgow-3485/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-3485/findings.md",
-      "summary": "Add page26 parish evidence, preserve parent assessment and existing amendments. The imported 9June 1751 birthday reproduces the baptism day. The inspected derivative supplies no exact birth date, so only an inclusive birth bound is approved. The selected father Glasgow-3486 remains 74% probable, mother Rule-2358 separately unassessed. The parental names are now reproduced from the transcript; the earlier dated review’s statement that they were not reproduced is superseded.",
-      "work_queue_summary": "Add page26 parish evidence, preserve parent assessment and existing amendments. The imported 9June 1751 birthday reproduces the baptism day. The inspected derivative supplies no exact birth date, so only an inclusive birth bound is approved. The selected father Glasgow-3486 remains 74% probable, mother Rule-2358 separately unassessed. The parental names are now reproduced from the transcript; the earlier dated review’s statement that they were not reproduced is superseded.",
+      "summary": "Add page27 source evidence; The new companion confirms the 9 June baptism, not an exact birthday. The death inscription does not name her mother or independently identify James with his childhood profile. The father assessment remains 74% probable; Katharine Rule remains separately unassessed.",
+      "work_queue_summary": "Add page27 source evidence; The new companion confirms the 9 June baptism, not an exact birthday. The death inscription does not name her mother or independently identify James with his childhood profile. The father assessment remains 74% probable; Katharine Rule remains separately unassessed.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -21731,7 +21732,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/page26-proposal-preservation-2026-10-25.json",
+      "preservation_review_path": "research/findmypast-glasgow-audit/page27-proposal-preservation-2026-10-25.json",
       "field_changes": [
         {
           "field": "BirthDate",
@@ -21740,6 +21741,16 @@
           "basis": "The imported 9June 1751 birthday reproduces the baptism day. The inspected derivative supplies no exact birth date, so only an inclusive birth bound is approved. The selected father Glasgow-3486 remains 74% probable, mother Rule-2358 separately unassessed. The parental names are now reproduced from the transcript; the earlier dated review’s statement that they were not reproduced is superseded.",
           "source_urls": [
             "https://www.findmypast.co.uk/transcript?id=R_686207987&tab=this"
+          ]
+        },
+        {
+          "field": "DeathDate",
+          "before": null,
+          "after": "1774-07-20",
+          "basis": "The Kirknewton Churchyard inscription records Marion Glasgow, daughter of James Glasgow, tenant in Newton, as dying on 20 July 1774 aged 23. Her name, father, parish and age fit this 1751 child; the identification is qualified because the original stone/image has not been inspected. The new companion confirms the 9 June baptism, not an exact birthday. The death inscription does not name her mother or independently identify James with his childhood profile. The father assessment remains 74% probable; Katharine Rule remains separately unassessed.",
+          "source_urls": [
+            "https://www.findmypast.co.uk/transcript?id=R_691902723&tab=this",
+            "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511328&tab=this"
           ]
         }
       ]
@@ -24099,12 +24110,12 @@
       "profile_id": "Glasgow-1532",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "queued_at": "2026-10-25",
+      "biography_rechecked_at": "2026-10-25",
       "draft_path": "research/Glasgow-1532/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-1532/findings.md",
-      "summary": "Review existing father at 96% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 96% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add page27 source evidence; The earlier ScotlandsPeople citation says born or baptised on 4 March; the newly inspected derivative explicitly labels that day Birth date. Retain the source distinction and inspect the original before treating the event label as original-verified. The selected father remains Glasgow-1530 at 96% proved; Jack-2557 is separately unassessed. No family topology or confidence changes.",
+      "work_queue_summary": "Add page27 source evidence; The earlier ScotlandsPeople citation says born or baptised on 4 March; the newly inspected derivative explicitly labels that day Birth date. Retain the source distinction and inspect the original before treating the event label as original-verified. The selected father remains Glasgow-1530 at 96% proved; Jack-2557 is separately unassessed. No family topology or confidence changes.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -24124,7 +24135,18 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/findmypast-glasgow-audit/page27-proposal-preservation-2026-10-25.json",
+      "field_changes": [
+        {
+          "field": "BirthDate",
+          "before": "before 1792-03-04",
+          "after": "1792-03-04",
+          "basis": "Marrion Glasgow was born on 4 March 1792 according to the Findmypast OPR derivative, which names Robt Glasgow and Eliz Jack at Barony (OPR 622/3, item 1, page 163). It gives baptism year 1792 but no baptism day. The earlier ScotlandsPeople citation says born or baptised on 4 March; the newly inspected derivative explicitly labels that day Birth date. Retain the source distinction and inspect the original before treating the event label as original-verified. The selected father remains Glasgow-1530 at 96% proved; Jack-2557 is separately unassessed. No family topology or confidence changes.",
+          "source_urls": [
+            "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0392840&tab=this"
+          ]
+        }
+      ]
     },
     "Glasgow-3345": {
       "profile_id": "Glasgow-3345",

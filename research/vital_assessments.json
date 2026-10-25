@@ -1742,6 +1742,105 @@
           "basis": "Imported earlier claim retained in comparison; superseded only for the stated vital."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-page27-glasgow-1532-birth-20261025",
+      "subject": "Glasgow-1532",
+      "status": "approved",
+      "reviewed": "2026-10-25",
+      "basis": "Marrion Glasgow was born on 4 March 1792 according to the Findmypast OPR derivative, which names Robt Glasgow and Eliz Jack at Barony (OPR 622/3, item 1, page 163). It gives baptism year 1792 but no baptism day. The earlier ScotlandsPeople citation says born or baptised on 4 March; the newly inspected derivative explicitly labels that day Birth date. Retain the source distinction and inspect the original before treating the event label as original-verified. The selected father remains Glasgow-1530 at 96% proved; Jack-2557 is separately unassessed. No family topology or confidence changes.",
+      "source": {
+        "url": "/people/glasgow-1532.json",
+        "section": "research_findings / Page 27 derivative evidence"
+      },
+      "summary": "Glasgow-1532: birth 1792-03-04; prior before 1792-03-04.",
+      "vitals": {
+        "birth": {
+          "date": "1792-03-04",
+          "place": "Barony, Lanarkshire, Scotland",
+          "status": "exact",
+          "country": null,
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0392840&tab=this",
+          "source_level": "Inspected provider derivative; original uninspected",
+          "note": "Marrion Glasgow was born on 4 March 1792 according to the Findmypast OPR derivative, which names Robt Glasgow and Eliz Jack at Barony (OPR 622/3, item 1, page 163). It gives baptism year 1792 but no baptism day. The earlier ScotlandsPeople citation says born or baptised on 4 March; the newly inspected derivative explicitly labels that day Birth date. Retain the source distinction and inspect the original before treating the event label as original-verified. The selected father remains Glasgow-1530 at 96% proved; Jack-2557 is separately unassessed. No family topology or confidence changes.",
+          "qualifier": "Explicit derivative event date; identity and original-source limitations stated in the account."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1792-03-04",
+        "birth_year": 1792,
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bap-0392840"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-25",
+          "previous_vital": {
+            "date": "before 1792-03-04",
+            "place": "Barony, Lanarkshire, Scotland",
+            "status": "uncertain"
+          },
+          "basis": "Prior field retained as assessment history; no relationship change."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-page27-glasgow-3485-death-20261025",
+      "subject": "Glasgow-3485",
+      "status": "approved",
+      "reviewed": "2026-10-25",
+      "basis": "The Kirknewton Churchyard inscription records Marion Glasgow, daughter of James Glasgow, tenant in Newton, as dying on 20 July 1774 aged 23. Her name, father, parish and age fit this 1751 child; the identification is qualified because the original stone/image has not been inspected. The new companion confirms the 9 June baptism, not an exact birthday. The death inscription does not name her mother or independently identify James with his childhood profile. The father assessment remains 74% probable; Katharine Rule remains separately unassessed.",
+      "source": {
+        "url": "/people/glasgow-3485.json",
+        "section": "research_findings / Page 27 derivative evidence"
+      },
+      "summary": "Glasgow-3485: death 1774-07-20; prior None.",
+      "vitals": {
+        "death": {
+          "date": "1774-07-20",
+          "place": null,
+          "status": "exact",
+          "country": null,
+          "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511328&tab=this",
+          "source_level": "Inspected provider derivative; original uninspected",
+          "note": "The Kirknewton Churchyard inscription records Marion Glasgow, daughter of James Glasgow, tenant in Newton, as dying on 20 July 1774 aged 23. Her name, father, parish and age fit this 1751 child; the identification is qualified because the original stone/image has not been inspected. The new companion confirms the 9 June baptism, not an exact birthday. The death inscription does not name her mother or independently identify James with his childhood profile. The father assessment remains 74% probable; Katharine Rule remains separately unassessed.",
+          "qualifier": "Explicit derivative event date; identity and original-source limitations stated in the account.",
+          "place_status": "unknown"
+        }
+      },
+      "catalogue_projection": {
+        "death": "1774-07-20",
+        "death_year": 1774,
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked",
+          "death": "unmarked"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-r-691902723",
+        "fmp-record-gbprs-scot-mis-511328"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-25",
+          "previous_vital": {
+            "date": null,
+            "place": null,
+            "status": null
+          },
+          "basis": "Prior field retained as assessment history; no relationship change."
+        }
+      ]
     }
   ]
 }

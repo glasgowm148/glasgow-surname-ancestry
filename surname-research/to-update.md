@@ -4355,3 +4355,9 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 ### Thomas Glasgow merchant — 25 October 2026
 
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3187) | OPEN | Add the 12 October 1643 merchant marriage; replace the stale estimated1644 marriage in the complete draft. Father remains uncertain22%. |
+
+### Findmypast page 27 review — 25 October 2026
+
+| [Glasgow-3485](https://www.wikitree.com/wiki/Glasgow-3485) | OPEN | Add baptism companion and qualified Kirknewton inscription death20July1774, age23; retain birth bound and74% father assessment. |
+| [Glasgow-1532](https://www.wikitree.com/wiki/Glasgow-1532) | OPEN | Refine birth to4March1792 from explicit derivative Birth date; no baptism day supplied; preserve96% father assessment. |
+| [Glasgow-4126](https://www.wikitree.com/wiki/Glasgow-4126) | OPEN | Add companion baptism derivatives naming mother Margaret Martine; preserve held Margt wording and98% father assessment; no maternal profile attachment. |
