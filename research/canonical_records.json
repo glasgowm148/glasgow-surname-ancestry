@@ -45834,34 +45834,6 @@
     "publish_to_record_index": true
   },
   {
-    "record_id": "edinburgh-thomas-weir-marriage-1643",
-    "association": "Thomas Glasgow merchant and Catharine Weir marriage",
-    "person": "Thomas Glasgow",
-    "record_type": "Marriage",
-    "date": "12 October 1643",
-    "year": 1643,
-    "place": "Edinburgh, Midlothian, Scotland",
-    "country": "Scotland",
-    "source_title": "Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (Scottish Record Society, 1905), printed p.268, PDF p.278.",
-    "source_url": "https://archive.org/details/scottishrecordso16scotuoft/page/268/mode/2up",
-    "source_type": "Edited parish-register transcription",
-    "source_quality": "transcription",
-    "source_status": "Printed page visually inspected 25 October 2026; manuscript not inspected",
-    "status": "Exact couple; merchant occupation",
-    "note": "The printed Edinburgh marriage register identifies Thomas Glasgow as a merchant when he married Catharine Weir on 12 October 1643. This is the same named couple as the already-held OPR index (685/1/430/252, FR856) and the parents in the Edinburgh baptisms of 1644–1650. The occupation is newly incorporated from the inspected printed page; the marriage date was already in the research findings. The previous complete proposed biography incorrectly retained an estimated 1644 marriage, so it is corrected to the indexed 1643 event. The printed register is an edited transcription of parish records, not a newly inspected manuscript. It supplies no father, mother or witnesses. Merchant is a useful identity discriminator, but does not establish descent from John Glasgow-1030 and Jonet Mathie. The separate Thomas Glassford, merchant, marrying Catharine Thomsone on 14 July 1637 on the same printed page is a comparison only: different surname and wife; no remarriage or identity merge is established. The 1660 gratis burgess identification remains probable. Father confidence remains 22%; no relationship confidence increase is recorded.",
-    "profiles": {
-      "Glasgow-3187": {
-        "role": "Groom"
-      },
-      "Weir-3979": {
-        "role": "Bride"
-      }
-    },
-    "reviewed_on": "2026-10-25",
-    "provenance": "research/ancestry-connections/thomas-merchant-review-2026-10-25.json",
-    "publish_to_record_index": true
-  },
-  {
     "record_id": "fmp-record-r-691902723",
     "provider_record_id": "R_691902723",
     "association": "Marion Glasgow — kirknewton marion 1751",
@@ -46127,5 +46099,33 @@
     "publish_to_record_index": true,
     "documentary_group": "irvine-mary-1745",
     "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "edinburgh-thomas-weir-marriage-1643",
+    "association": "Thomas Glasgow merchant and Catharine Weir marriage",
+    "person": "Thomas Glasgow",
+    "record_type": "Marriage",
+    "date": "12 October 1643",
+    "year": 1643,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_title": "Henry Paton, ed., Register of Marriages for the Parish of Edinburgh, 1595–1700 (Scottish Record Society, 1905), printed p.268, PDF p.278.",
+    "source_url": "https://archive.org/details/scottishrecordso16scotuoft/page/268/mode/2up",
+    "source_type": "Edited parish-register transcription",
+    "source_quality": "transcription",
+    "source_status": "Printed page visually inspected 25 October 2026; manuscript not inspected",
+    "status": "Exact couple; merchant occupation",
+    "note": "The printed Edinburgh marriage register identifies Thomas Glasgow as a merchant when he married Catharine Weir on 12 October 1643. This is the same named couple as the already-held OPR index (685/1/430/252, FR856) and the parents in the Edinburgh baptisms of 1644–1650. The occupation is newly incorporated from the inspected printed page; the marriage date was already in the research findings. The previous complete proposed biography incorrectly retained an estimated 1644 marriage, so it is corrected to the indexed 1643 event. The printed register is an edited transcription of parish records, not a newly inspected manuscript. It supplies no father, mother or witnesses. Merchant is a useful identity discriminator, but does not establish descent from John Glasgow-1030 and Jonet Mathie. The separate Thomas Glassford, merchant, marrying Catharine Thomsone on 14 July 1637 on the same printed page is a comparison only: different surname and wife; no remarriage or identity merge is established. The 1660 gratis burgess identification remains probable. Father confidence remains 22%; no relationship confidence increase is recorded.",
+    "profiles": {
+      "Glasgow-3187": {
+        "role": "Groom"
+      },
+      "Weir-3979": {
+        "role": "Bride"
+      }
+    },
+    "reviewed_on": "2026-10-25",
+    "provenance": "research/ancestry-connections/thomas-merchant-review-2026-10-25.json",
+    "publish_to_record_index": true
   }
 ]

@@ -3227,6 +3227,30 @@
       "scope": "Shared father inferred from apprenticeship descriptions; maternity and baptism-profile identity separately unresolved."
     },
     {
+      "subject_id": "Glasgow-428",
+      "relative_id": "Glasgow-1158",
+      "relationship": "father",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
+      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. 42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son. Original-image title review on 20 October 2026 withdraws the provisional William predecessor reading. Daniel’s tenure and Mary’s spousal consent do not identify William-428 or his father; retain 42% without an increase.",
+      "source_ids": [
+        "currituck-daniel-tax-1715",
+        "currituck-daniels-levies-1718",
+        "currituck-daniels-tax-1719",
+        "currituck-william-will-1746-1747",
+        "princess-anne-daniel-glasco-deed-1729"
+      ],
+      "reviewed": "2026-10-20",
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "reviewed_on": "2026-10-25",
+        "summary": "Saved original leads checked: 1714 Willson pair gives a 1692 title recital; alternate film duplicates p.350; X8S8 is an inventory false positive. None names William as son or Robert as father.",
+        "resume_when": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
+      },
+      "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
+    },
+    {
       "subject_id": "Glasgow-1158",
       "relative_id": "Glasgow-428",
       "relationship": "child",
@@ -5864,6 +5888,28 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Complete profile placement73%; the recorded father role itself is explicit. This does not identify William with later Polwarth/Cavers or Ulster adults. Derivative transcript, no fresh original inspection."
+    },
+    {
+      "subject_id": "Glasgow-1158",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 12,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022-glasgow-1158-father",
+      "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
+      "source_ids": [
+        "held-e-a4ef12f70dfd"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "reviewed_on": "2026-10-25",
+        "summary": "Saved original leads checked: 1714 Willson pair gives a 1692 title recital; alternate film duplicates p.350; X8S8 is an inventory false positive. None names William as son or Robert as father.",
+        "resume_when": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
+      },
+      "last_test": "Reconciled the copied biography’s misdirected1156 hyperlink with its1612–1690/Ann Johnson quotation; the intended account is1157. The1729 title-clause reading already withdrew a William predecessor.",
+      "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
     },
     {
       "subject_id": "Glasgow-1157",
@@ -15513,6 +15559,27 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Confident for Robert’s father James; this record does not prove that George was James’s father."
+    },
+    {
+      "subject_id": "Glasgow-3322",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 34,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
+      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3322"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles.",
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "reviewed_on": "2026-10-25",
+        "summary": "Saved original leads checked: 1714 Willson pair gives a 1692 title recital; alternate film duplicates p.350; X8S8 is an inventory false positive. None names William as son or Robert as father.",
+        "resume_when": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
+      },
+      "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
     },
     {
       "subject_id": "Glasgow-1157",
@@ -42286,73 +42353,6 @@
         "next_test": "Trace the executorJames’s deed, receipt or estate account for his residence, wife or signature; compare with the HannahTurner household and keep MissouriJames45 as an alternative.",
         "resume_when": "Trace the executorJames’s deed, receipt or estate account for his residence, wife or signature; compare with the HannahTurner household and keep MissouriJames45 as an alternative."
       }
-    },
-    {
-      "subject_id": "Glasgow-428",
-      "relative_id": "Glasgow-1158",
-      "relationship": "father",
-      "percent": 42,
-      "assessment_status": "possible",
-      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
-      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. 42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son. Original-image title review on 20 October 2026 withdraws the provisional William predecessor reading. Daniel’s tenure and Mary’s spousal consent do not identify William-428 or his father; retain 42% without an increase.",
-      "source_ids": [
-        "currituck-daniel-tax-1715",
-        "currituck-daniels-levies-1718",
-        "currituck-daniels-tax-1719",
-        "currituck-william-will-1746-1747",
-        "princess-anne-daniel-glasco-deed-1729"
-      ],
-      "reviewed": "2026-10-20",
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "reviewed_on": "2026-10-25",
-        "summary": "Saved original leads checked: 1714 Willson pair gives a 1692 title recital; alternate film duplicates p.350; X8S8 is an inventory false positive. None names William as son or Robert as father.",
-        "resume_when": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
-      },
-      "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
-    },
-    {
-      "subject_id": "Glasgow-1158",
-      "relative_id": "Glasgow-1157",
-      "relationship": "father",
-      "percent": 12,
-      "assessment_status": "uncertain",
-      "assertion_id": "C-coverage-20261022-glasgow-1158-father",
-      "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
-      "source_ids": [
-        "held-e-a4ef12f70dfd"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "reviewed_on": "2026-10-25",
-        "summary": "Saved original leads checked: 1714 Willson pair gives a 1692 title recital; alternate film duplicates p.350; X8S8 is an inventory false positive. None names William as son or Robert as father.",
-        "resume_when": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
-      },
-      "last_test": "Reconciled the copied biography’s misdirected1156 hyperlink with its1612–1690/Ann Johnson quotation; the intended account is1157. The1729 title-clause reading already withdrew a William predecessor.",
-      "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
-    },
-    {
-      "subject_id": "Glasgow-3322",
-      "relative_id": "Glasgow-1157",
-      "relationship": "father",
-      "percent": 34,
-      "assessment_status": "possible",
-      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
-      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
-      "source_ids": [
-        "held-inherited-father-glasgow-3322"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles.",
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "reviewed_on": "2026-10-25",
-        "summary": "Saved original leads checked: 1714 Willson pair gives a 1692 title recital; alternate film duplicates p.350; X8S8 is an inventory false positive. None names William as son or Robert as father.",
-        "resume_when": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
-      },
-      "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them."
     },
     {
       "subject_id": "record-queue-norfolk-daniel-1729-1730-daniel-junior-1714",
