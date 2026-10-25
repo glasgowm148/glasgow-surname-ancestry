@@ -11,8 +11,10 @@ nowhere else are classified:
 * evidence (PDF and images);
 * web captures (HTML), code and logs, and other files.
 
-With ``--preserve``, unique research notes, structured data up to 5 MB and
-evidence up to 25 MB are copied into the database's managed, content-addressed
+With ``--reference``, unique research notes, evidence and JSON are recorded
+where they are, by hash, needing no disk space: a later clean-up shows up as
+missing files in ``genealogy db check`` and the coverage ledger. With
+``--preserve``, unique research notes and evidence up to 25 MB are copied into the database's managed, content-addressed
 store and registered as private ``scratch_lead`` assets (one note per scratch
 folder links them, marked unreviewed), so cleaning ``tmp/`` can no longer lose
 them. Nothing in ``tmp/`` is changed or deleted. The full private report is
@@ -136,6 +138,45 @@ def preserve(project, report: dict) -> Counter:
     return counts
 
 
+REFERENCED = ("research notes", "evidence", "structured research data")
+
+
+def reference(project, report: dict) -> Counter:
+    """Register unique research files where they are, by hash: no copy, but a clean-up is detected.
+
+    A referenced scratch file that later disappears or changes is reported by
+    ``genealogy db check`` and the coverage ledger, so research cannot be lost
+    from tmp/ silently. Use --preserve to copy them when the disk has room.
+    """
+    research = Research(project.store)
+    counts: Counter = Counter()
+    by_folder: dict[str, list[dict]] = defaultdict(list)
+    for row in report["unique"]:
+        if row["kind"] in REFERENCED:
+            by_folder[row["folder"]].append(row)
+    for folder, rows in sorted(by_folder.items()):
+        with project.store.write(actor="scratch-review", tool="workbench_scratch_review", source=f"tmp/{folder}",
+                                 reason="record unique scratch research by hash before any clean-up") as tx:
+            assets = []
+            for row in rows:
+                path = ROOT / row["path"]
+                if not path.is_file():
+                    counts["gone since the review"] += 1
+                    continue
+                asset = register_asset(project, tx, path, root="repository", kind="scratch_lead", access="private",
+                                       provenance="unique file in tmp/, recorded by tools/workbench_scratch_review.py; "
+                                                  "a lead, not yet assessed as evidence")
+                assets.append(asset["id"])
+                counts[f"referenced: {row['kind']}"] += 1
+            note_id = stable_id("not", "scratch-folder", folder)
+            if assets and not project.store.get("note", note_id):
+                research.add_note(tx, id=note_id, kind="scratch_review", title=f"tmp/{folder}",
+                                  text=f"{len(assets)} unique files in tmp/{folder} recorded by hash, unreviewed. "
+                                       "They are leads, not evidence, until a researcher assesses them.",
+                                  links=[(asset, "preserved_file") for asset in assets])
+    return counts
+
+
 def archive(project, report: dict, work: Path) -> Counter:
     """One verified tar.gz per bulk kind of unique files, registered as a private asset."""
     import tarfile
@@ -187,11 +228,15 @@ def main(argv=None) -> int:
     parser.add_argument("--scratch", type=Path, default=ROOT / "tmp")
     parser.add_argument("--preserve", action="store_true", help="copy and register the unique research files")
     parser.add_argument("--archive", action="store_true", help="archive the unique bulk files (JSON, HTML, code, logs)")
+    parser.add_argument("--reference", action="store_true",
+                        help="record unique notes, evidence and JSON where they are, by hash (needs no disk space)")
     parser.add_argument("--work", type=Path, default=ROOT / "data" / "private" / "workbench" / "exports",
                         help="where archives are built before registration (removed afterwards)")
     args = parser.parse_args(argv)
     with open_project(args.project) as project:
         report = review(project, args.scratch.resolve())
+        if args.reference:
+            report["referenced"] = dict(reference(project, report))
         if args.preserve:
             report["preserved"] = dict(preserve(project, report))
         if args.archive:
@@ -200,6 +245,7 @@ def main(argv=None) -> int:
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     REPORT.write_text(json.dumps(report, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     summary = {key: report[key] for key in ("files_by_kind", "skipped", "unique_by_kind")}
+    summary["referenced"] = report.get("referenced")
     summary["preserved"] = report.get("preserved")
     summary["archived"] = report.get("archived")
     print(json.dumps(summary, indent=1))
