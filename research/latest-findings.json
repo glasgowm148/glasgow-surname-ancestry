@@ -58904,6 +58904,105 @@
       "provenance": [
         "research/ancestry-connections/norfolk-daniel-deed-review-2026-10-25.json"
       ]
+    },
+    {
+      "id": "fmp-page26-existing-children-20261025",
+      "found_on": "2026-10-25",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Page26 parish transcripts distinguish Kilmarnock Margaret’s28March1789 birth from29March baptism; identify Marion’s6April1740 Covington baptism and female record; and correct two other imported event-date assertions.",
+      "qualification": "Twenty new provider IDs form17 documentary event groups. Seven entries match five existing children; one burial retains a compatible candidate comparison, and twelve entries remain source-only identity/natal-surname holds. Three approved vital corrections distinguish birth, baptism, death and burial; a female structured-field correction is queued for Marion-1121 while the imported machine label remains explicitly qualified. No new people, original register inspections, parent attachments or relationship-grade changes. Companion derivatives are not independent corroboration.",
+      "people": [
+        {
+          "id": "Glasgow-3398",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3398.html"
+        },
+        {
+          "id": "Glasgow-3390",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3390.html"
+        },
+        {
+          "id": "Glasgow-1121",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-1121.html"
+        },
+        {
+          "id": "Glasgow-3485",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-3485.html"
+        },
+        {
+          "id": "Glasgow-3072",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3072.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast R_691841703",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691841703&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BUR/1125736",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1125736&tab=this"
+        },
+        {
+          "title": "Findmypast GBPRS/GLASGOW/BUR/093163",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093163&tab=this"
+        },
+        {
+          "title": "Findmypast SCOT/OPR/BAP/3606556",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3606556&tab=this"
+        },
+        {
+          "title": "Findmypast R_685660801",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685660801&tab=this"
+        },
+        {
+          "title": "Findmypast R_689421003",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_689421003&tab=this"
+        },
+        {
+          "title": "Findmypast R_686207987",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686207987&tab=this"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+        "research/vital_assessments.json"
+      ],
+      "detail_url": "/people/glasgow-3398.html"
+    },
+    {
+      "id": "norfolk-daniel-moyock-1692-title-20261025",
+      "found_on": "2026-10-25",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Original 1714 Moyock deeds trace Daniel senior’s separate 100-acre title back to a recited purchase on 16 May 1692; Daniel junior witnesses and Mary joins the release.",
+      "qualification": "The 100-acre Willson parcel is distinct from the 80 acres inherited through John Gamon and from the 100-acre Henry Slade parcel sold in 1729. Shared acreage alone does not join those titles. The same court day, Moyock residence, Mary, Daniel junior and John Nicholls strongly identify the senior as the father in the separately proved Gamon deed. This adds chronology and a witness network, without naming William Glasgow-428 as a son or resolving junior’s later identity. Father ratings remain junior→Glasgow-3322 98%, William-428→Daniel-1158 42%, Daniel-1158→Robert-1157 12%, and Daniel-3322→Robert-1157 34%. The 1692 conveyance is known from the 1714 recital, not an inspected 1692 original. An alternate filming and an inventory false positive were excluded from new-record counts.",
+      "people": [
+        {
+          "id": "Glasgow-3322",
+          "name": "Daniel Glasgow senior",
+          "url": "/people/glasgow-3322.html"
+        },
+        {
+          "name": "Daniel Glasgow junior",
+          "url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-junior-1714"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norfolk County, Virginia, Deed Book 9 (1710–1717), pp. 348–350; Daniel Glasgow to Thomas Willson, lease 15 September and release 16 September 1714, acknowledged 17 September 1714; FamilySearch DGS 007645618, images 523–525.",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
+        }
+      ],
+      "detail_url": "/people/glasgow-3322.html",
+      "provenance": [
+        "research/ancestry-connections/norfolk-moyock-title-review-2026-10-25.json"
+      ]
     }
   ]
 }

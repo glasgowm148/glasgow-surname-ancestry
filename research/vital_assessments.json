@@ -1591,6 +1591,157 @@
           "basis": "Earlier imported profile claim, retained in reversible original_vitals/current-versus-proposed comparisons; not new source confirmation."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-page26-glasgow-3390-birth-20261025",
+      "subject": "Glasgow-3390",
+      "status": "approved",
+      "reviewed": "2026-10-25",
+      "basis": "The imported profile gives29March1789 as her birthday; the transcript explicitly distinguishes28March birth and29March baptism. The existing father Glasgow-3298 remains65% probable, with his earlier childhood identification separately unresolved. The later1805 Margaret entry is not a death record for this child. The inherited before1805 death estimate remains an unproved inference.",
+      "source": {
+        "url": "/people/glasgow-3390.json",
+        "section": "research_findings / Page26 parish evidence —25October2026"
+      },
+      "summary": "Glasgow-3390: birth 1789-03-28; prior 1789-03-29.",
+      "vitals": {
+        "birth": {
+          "date": "1789-03-28",
+          "place": "Kilmarnock, Ayrshire, Scotland",
+          "status": "exact",
+          "country": "scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3606556&tab=this",
+          "source_level": "Inspected provider derivative transcript; original image uninspected",
+          "note": "The imported profile gives29March1789 as her birthday; the transcript explicitly distinguishes28March birth and29March baptism. The existing father Glasgow-3298 remains65% probable, with his earlier childhood identification separately unresolved. The later1805 Margaret entry is not a death record for this child. The inherited before1805 death estimate remains an unproved inference.",
+          "qualifier": "Explicit birth date distinct from baptism in inspected derivative; original uninspected."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1789-03-28",
+        "birth_year": 1789,
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked",
+          "death": "before"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bap-3606556"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-25",
+          "previous_vital": {
+            "date": "1789-03-29",
+            "place": "Kilmarnock, Ayrshire, Scotland",
+            "status": "exact"
+          },
+          "basis": "Imported earlier claim retained in comparison; superseded only for the stated vital."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-page26-glasgow-3485-birth-20261025",
+      "subject": "Glasgow-3485",
+      "status": "approved",
+      "reviewed": "2026-10-25",
+      "basis": "The imported9June1751 birthday reproduces the baptism day. The inspected derivative supplies no exact birth date, so only an inclusive birth bound is approved. The selected father Glasgow-3486 remains74% probable, mother Rule-2358 separately unassessed. The parental names are now reproduced from the transcript; the earlier dated review’s statement that they were not reproduced is superseded.",
+      "source": {
+        "url": "/people/glasgow-3485.json",
+        "section": "research_findings / Page26 parish evidence —25October2026"
+      },
+      "summary": "Glasgow-3485: birth By 9 June 1751 (baptised that day); prior 1751-06-09.",
+      "vitals": {
+        "birth": {
+          "date": "1751-06-09",
+          "place": "Kirknewton And East Calder, Midlothian, Scotland",
+          "status": "uncertain",
+          "country": "scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207987&tab=this",
+          "source_level": "Inspected provider derivative transcript; original image uninspected",
+          "note": "The imported9June1751 birthday reproduces the baptism day. The inspected derivative supplies no exact birth date, so only an inclusive birth bound is approved. The selected father Glasgow-3486 remains74% probable, mother Rule-2358 separately unassessed. The parental names are now reproduced from the transcript; the earlier dated review’s statement that they were not reproduced is superseded.",
+          "qualifier": "Inclusive event-date bound, exact day unknown; imported place retained and not independently established by burial/baptism.",
+          "display_date": "By 9 June 1751 (baptised that day)"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "By 9 June 1751 (baptised that day)",
+        "birth_year": 1751,
+        "field_statuses": {
+          "birth": "uncertain",
+          "birth_location": "unmarked"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-r-686207987"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-25",
+          "previous_vital": {
+            "date": "1751-06-09",
+            "place": "Kirknewton And East Calder, Midlothian, Scotland",
+            "status": "exact"
+          },
+          "basis": "Imported earlier claim retained in comparison; superseded only for the stated vital."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-page26-glasgow-3072-death-20261025",
+      "subject": "Glasgow-3072",
+      "status": "approved",
+      "reviewed": "2026-10-25",
+      "basis": "The captured profile already cites this exact Ramshorn burial,28April1788, reference644/1/60, age9 and consumption. Its structured28March1788 death day is unsupported by that citation. Two Findmypast derivatives describe the same burial; neither establishes an exact death day. Death by28April1788 replaces the imported exact claim. The earlier1783 baptism comparison remains an identity lead only, with no date or parents transferred.",
+      "source": {
+        "url": "/people/glasgow-3072.json",
+        "section": "research_findings / Page26 parish evidence —25October2026"
+      },
+      "summary": "Glasgow-3072: death By 28 April 1788 (buried that day); prior 1788-03-28.",
+      "vitals": {
+        "death": {
+          "date": "1788-04-28",
+          "place": "Glasgow, Lanarkshire, Scotland (estimated from burial)",
+          "status": "uncertain",
+          "country": "scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1125736&tab=this",
+          "source_level": "Inspected provider derivative transcript; original image uninspected",
+          "note": "The captured profile already cites this exact Ramshorn burial,28April1788, reference644/1/60, age9 and consumption. Its structured28March1788 death day is unsupported by that citation. Two Findmypast derivatives describe the same burial; neither establishes an exact death day. Death by28April1788 replaces the imported exact claim. The earlier1783 baptism comparison remains an identity lead only, with no date or parents transferred.",
+          "qualifier": "Death by the burial date; exact death day and locality unknown. The mapped place is an explicitly estimated Glasgow burial-location context.",
+          "display_date": "By 28 April 1788 (buried that day)"
+        }
+      },
+      "catalogue_projection": {
+        "death": "By 28 April 1788 (buried that day)",
+        "death_year": 1788,
+        "field_statuses": {
+          "birth": "unmarked",
+          "birth_location": "unmarked",
+          "death": "uncertain",
+          "death_location": "estimated"
+        },
+        "death_location": "Glasgow, Lanarkshire, Scotland (estimated from burial)"
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bur-1125736",
+        "fmp-record-gbprs-glasgow-bur-093163"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-25",
+          "previous_vital": {
+            "date": "1788-03-28",
+            "place": null,
+            "status": "exact"
+          },
+          "basis": "Imported earlier claim retained in comparison; superseded only for the stated vital."
+        }
+      ]
     }
   ]
 }

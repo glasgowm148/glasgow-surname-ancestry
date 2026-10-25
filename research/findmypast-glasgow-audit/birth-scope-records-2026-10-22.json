@@ -7,7 +7,7 @@
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
     "inspected_transcripts": 598,
-    "catalogue_integration_complete": false,
+    "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -394,7 +394,15 @@
       "R_688616026",
       "R_686352903",
       "R_687775348",
-      "SCOT/OPR/BAP/0738380"
+      "SCOT/OPR/BAP/0738380",
+      "R_691841703",
+      "SCOT/OPR/BUR/1125736",
+      "GBPRS/GLASGOW/BUR/093163",
+      "SCOT/OPR/BAP/3606556",
+      "GBPRS/GLASGOW/BUR/093140",
+      "R_685660801",
+      "R_689421003",
+      "R_686207987"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -588,10 +596,22 @@
       "US/BMD/PENN-BAP/00853179",
       "US/HSP/PENN/BAP/0072456",
       "US/HSP/PENN/BAP/0025286",
-      "R_690418811"
+      "R_690418811",
+      "SCOT/OPR/BUR/1052121",
+      "GBPRS/GLASGOW/BUR/093198",
+      "R_690389258",
+      "SCOT/OPR/BAP/3235007",
+      "SCOT/OPR/BUR/0398089",
+      "BMD/NBI/07448473",
+      "SCOT/OPR/BUR/1746323",
+      "PRS/SCOTLAND/MI/ADD/5/00175398",
+      "R_267073497",
+      "BMD/D/1884/1/AZ/000134/368",
+      "US/BMD/PENN-BUR/00131614",
+      "US/RC/PHILLY/BAP/20155499"
     ],
-    "next_query_page": 26,
-    "integration_scope": "578 literal receipts indexed:386 qualified existing-profile context and192source-only identity/scopeHOLDs. Nineteen supporting indexed IDs at original pointers give597 bounded audited indexed IDs. Pages24–25:30newproviderIDs,10indexedreuses,25documentarygroups,6firstseen(2scopequalified),0newpeople. Currentvitals,relationshipgrades/topologyunchanged. Pages24–25 publication and live deployment verified24October2026. Page26 newly saved; identity review pending. Overall INCOMPLETE.",
+    "next_query_page": 27,
+    "integration_scope": "598 literal receipts indexed:394 qualified existing-profile/candidate context and204source-only identity/scope HOLDs. Nineteen supporting indexed IDs give617 bounded audited indexed IDs. Page26:20newproviderIDs,17eventgroups,7matchedrecords/5existingpeople,1candidate-only,12source-only,3approvedvitalcorrections,0newpeople. GenderFemale correction queued for Glasgow-1121; imported machine label qualified. Local publication verified25October2026;production remains at prior release. Overall INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -1170,34 +1190,7 @@
       "US/HSP/PENN/BAP/0072456",
       "US/HSP/PENN/BAP/0025286",
       "R_690418811",
-      "SCOT/OPR/BAP/0738380"
-    ],
-    "records_with_profile_or_draft_context": 386,
-    "remaining_coverage": [
-      "Pages26–294 nominal of current1719–1799birth-filteredBMDquery;0saved detailgaps,nextcapturepage26;provider caps may require partitioning.",
-      "Earlier birth windows, later-life records lacking indexed birth, and other categories",
-      "Surname variants and unresolved natal-surname/record identities",
-      "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
-      "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
-    ],
-    "verification_report": "output/findmypast-pages24-25-20261024-verification.json",
-    "verified_on": "2026-10-24",
-    "indexed_provider_record_count": 578,
-    "next_action": "Active 25 October 2026; work solo, without subagents. Review and integrate the 20 saved page26 transcripts before any further provider detail navigation. Exact-ID preflight already completed; all20 now have accessible receipts, so reuse them. Four preliminary child-profile comparisons: R_691841703 / Glasgow-3398, SCOT/OPR/BAP/3606556 / Glasgow-3390, R_685660801 and R_689421003 / Glasgow-1121, R_686207987 / Glasgow-3485. These are leads pending current account/proposal comparison, not approved assignments. Preserve Rothesay contradictory dates and 1786 Gilson/Grierson readings; qualify adult natal-surname eligibility. Then capture page27. Pages24–25 publication already live-verified; do not repeat it. Overall INCOMPLETE.",
-    "recent_query_transcripts": 463,
-    "recent_supporting_transcripts": 1,
-    "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 500,
-    "capture_ledger_note": "598 literal saved receipts; 578 indexed and 20 new page26 receipts awaiting review/integration. Nineteen supporting indexed IDs remain at their original pointers.",
-    "capture_count_basis": "597 bounded audited indexed IDs in literal-ledger-plus-support scope. Current source-aware inventory:{'accessible_ids': 907, 'represented_ids': 814, 'remaining_unindexed': 93}. Neither denominator counts eligible people.",
-    "recent_query_receipt_reuses": 51,
-    "recent_query_existing_index_reuses": 1,
-    "recent_query_access_holds": 5,
-    "next_search_page_to_capture": 27,
-    "recent_query_rows_captured": 520,
-    "contiguous_query_rows_reviewed": 500,
-    "recent_query_detail_gaps": 0,
-    "unindexed_captured_record_ids": [
+      "SCOT/OPR/BAP/0738380",
       "R_691841703",
       "SCOT/OPR/BUR/1052121",
       "GBPRS/GLASGOW/BUR/093198",
@@ -1219,20 +1212,46 @@
       "R_689421003",
       "R_686207987"
     ],
-    "pending_transcript_matching": 20,
+    "records_with_profile_or_draft_context": 394,
+    "remaining_coverage": [
+      "Pages26–294 nominal of current1719–1799birth-filteredBMDquery;0saved detailgaps,nextcapturepage26;provider caps may require partitioning.",
+      "Earlier birth windows, later-life records lacking indexed birth, and other categories",
+      "Surname variants and unresolved natal-surname/record identities",
+      "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
+      "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
+    ],
+    "verification_report": "output/findmypast-page26-20261025-verification.json",
+    "verified_on": "2026-10-25",
+    "indexed_provider_record_count": 598,
+    "next_action": "Capture page27 after exact-ID/receipt preflight. No subagents. Retain unresolved identity/natal-surname holds and the pending structured Gender Female correction for Glasgow-1121. Overall INCOMPLETE.",
+    "recent_query_transcripts": 463,
+    "recent_supporting_transcripts": 1,
+    "historical_cached_transcripts_reconciled": 134,
+    "recent_query_rows_reviewed": 520,
+    "capture_ledger_note": "598 literal receipts captured and indexed;19 supporting indexed IDs stay at original pointers. All520 saved query rows have dispositions;no saved detail gaps. Whole-provider coverage remains unknown.",
+    "capture_count_basis": "617 bounded audited indexed IDs in literal-ledger-plus-support scope. This denominator counts provider IDs, not eligible people or first-seen historical discoveries.",
+    "recent_query_receipt_reuses": 51,
+    "recent_query_existing_index_reuses": 1,
+    "recent_query_access_holds": 5,
+    "next_search_page_to_capture": 27,
+    "recent_query_rows_captured": 520,
+    "contiguous_query_rows_reviewed": 520,
+    "recent_query_detail_gaps": 0,
+    "unindexed_captured_record_ids": [],
+    "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 19,
-    "total_indexed_reviewed_provider_ids": 597,
+    "total_indexed_reviewed_provider_ids": 617,
     "capture_review_boundary_20261025": {
       "query_rows_captured": 520,
-      "query_rows_identity_reviewed": 500,
+      "query_rows_identity_reviewed": 520,
       "query_transcript_receipts_captured": 463,
-      "query_transcript_receipts_in_reviewed_rows": 443,
-      "pending_saved_receipts": 20,
-      "newly_indexed_this_checkpoint": 0,
-      "indexed_literal_receipts": 578,
+      "query_transcript_receipts_in_reviewed_rows": 463,
+      "pending_saved_receipts": 0,
+      "newly_indexed_this_checkpoint": 20,
+      "indexed_literal_receipts": 598,
       "indexed_supporting_receipts_at_original_pointers": 19,
-      "indexed_provider_id_union": 597,
-      "next_identity_review_page": 26,
+      "indexed_provider_id_union": 617,
+      "next_identity_review_page": 27,
       "next_uncaptured_page": 27,
       "coverage_status": "INCOMPLETE",
       "whole_provider_percentage_known": false
@@ -7574,7 +7593,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686207987"
         }
       ],
-      "review_status": "detail_capture_complete_identity_review_pending",
+      "review_status": "locally_published_and_verified",
       "captured_new_detail_rows": [
         "R_691841703",
         "SCOT/OPR/BUR/1052121",
@@ -7601,8 +7620,8 @@
       "capture_summary": {
         "new_literal_transcript_receipts": 20,
         "reused_receipts": 0,
-        "identity_review_complete": false,
-        "newly_indexed_provider_records": 0,
+        "identity_review_complete": true,
+        "newly_indexed_provider_records": 20,
         "new_people_proposed": 0,
         "original_registers_inspected": 0
       }
@@ -29041,7 +29060,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "matched"
     },
     "SCOT/OPR/BUR/1052121": {
       "access_status": "accessible",
@@ -29074,7 +29093,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "GBPRS/GLASGOW/BUR/093198": {
       "access_status": "accessible",
@@ -29103,7 +29122,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "SCOT/OPR/BUR/1125736": {
       "access_status": "accessible",
@@ -29134,7 +29153,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "matched"
     },
     "GBPRS/GLASGOW/BUR/093163": {
       "access_status": "accessible",
@@ -29163,7 +29182,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "matched"
     },
     "SCOT/OPR/BAP/3606556": {
       "access_status": "accessible",
@@ -29200,7 +29219,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "matched"
     },
     "R_690389258": {
       "access_status": "accessible",
@@ -29231,7 +29250,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "SCOT/OPR/BAP/3235007": {
       "access_status": "accessible",
@@ -29268,7 +29287,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "SCOT/OPR/BUR/0398089": {
       "access_status": "accessible",
@@ -29301,7 +29320,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "BMD/NBI/07448473": {
       "access_status": "accessible",
@@ -29330,7 +29349,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "GBPRS/GLASGOW/BUR/093140": {
       "access_status": "accessible",
@@ -29359,7 +29378,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "candidate_comparison"
     },
     "SCOT/OPR/BUR/1746323": {
       "access_status": "accessible",
@@ -29390,7 +29409,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "PRS/SCOTLAND/MI/ADD/5/00175398": {
       "access_status": "accessible",
@@ -29419,7 +29438,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "R_267073497": {
       "access_status": "accessible",
@@ -29452,7 +29471,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "BMD/D/1884/1/AZ/000134/368": {
       "access_status": "accessible",
@@ -29481,7 +29500,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "US/BMD/PENN-BUR/00131614": {
       "access_status": "accessible",
@@ -29514,7 +29533,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "US/RC/PHILLY/BAP/20155499": {
       "access_status": "accessible",
@@ -29553,7 +29572,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "identity_hold"
     },
     "R_685660801": {
       "access_status": "accessible",
@@ -29586,7 +29605,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "matched"
     },
     "R_689421003": {
       "access_status": "accessible",
@@ -29617,7 +29636,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "matched"
     },
     "R_686207987": {
       "access_status": "accessible",
@@ -29650,7 +29669,7 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Existing logged-in Chrome; read-only transcript DOM via CUA",
-      "matching_status": "unreviewed"
+      "matching_status": "matched"
     }
   },
   "identity_clusters": [
@@ -68536,6 +68555,287 @@
         "Baptism dates are distinct from birth dates; age-derived birth years remain approximate."
       ],
       "browser_cleanup": "One temporary tab in existing Chrome closed after capture; no browser process/profile launched. Four personal tabs preserved. Memory free40% at batch boundary."
+    },
+    "page26_review_20261025": {
+      "reviewed_on": "2026-10-25",
+      "status": "locally_published_and_verified",
+      "new_provider_transcripts": 20,
+      "documentary_groups": 17,
+      "new_people": 0,
+      "original_registers_inspected": 0,
+      "record_dispositions": {
+        "R_691841703": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-691841703",
+          "documentary_group": "bathgate-margaret-1785",
+          "catalogue_profiles": {
+            "Glasgow-3398": {
+              "role": "Identified existing record subject; original uninspected and adult-parent assessments retained",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Same Bathgate child as the existing profile: Margaret, baptised 10 April 1785 to Peter Glasgow and Elizabeth Dick. The receipt supplies indexed birth year only; preserve the independently held 4 April birth claim. Existing selected father Glasgow-1466 remains 83% probable; Dick-6841 remains separately unassessed. The complete proposal must replace its stale Glasgow-3397 father link with the current selected Glasgow-1466 while preserving the older account as history. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691841703",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "SCOT/OPR/BUR/1052121": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bur-1052121",
+          "documentary_group": "glasgow-margaret-burial-1786",
+          "catalogue_profiles": {},
+          "assessment": "Margaret Glasgow, age50, buried23November1786 at Glasgow; companion High Church index gives widow of Willm Grierson (merchant), while OPR644/51 item2 gives relict of Willm Gilson. Preserve both surname readings. Indexed birth1736 is age-derived; neither the woman’s natal surname nor a profile identity is proved. No new person proposed. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11052121",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "GBPRS/GLASGOW/BUR/093198": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093198",
+          "documentary_group": "glasgow-margaret-burial-1786",
+          "catalogue_profiles": {},
+          "assessment": "Companion to OPR burial1052121: Margaret age50, burial23November1786 at Glasgow High Church, widow of Willm Grierson, merchant. OPR names Willm Gilson instead; no original inspected. Death year1786 has no exact death date; indexed birth1736 is approximate. Natal Glasgow surname and profile identity remain held. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093198",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "SCOT/OPR/BUR/1125736": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bur-1125736",
+          "documentary_group": "ramshorn-margaret-1788",
+          "catalogue_profiles": {
+            "Glasgow-3072": {
+              "role": "Identified existing record subject; original uninspected and adult-parent assessments retained",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Same Ramshorn child as Glasgow-3072: age9, burial28April1788. The captured profile itself cites Ramshorn burial28April1788, reference644/1/60, age9, consumption. This and the companion establish the existing documentary identity, not a new person. Imported exact death28March1788 is unsupported by that citation: replace with death by28April1788, explicitly a burial bound. Indexed birth1779 remains approximate, not an exact birthday. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11125736",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "GBPRS/GLASGOW/BUR/093163": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093163",
+          "documentary_group": "ramshorn-margaret-1788",
+          "catalogue_profiles": {
+            "Glasgow-3072": {
+              "role": "Identified existing record subject; original uninspected and adult-parent assessments retained",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion Ramshorn & Blackfriars burial28April1788, Margaret age9, consumption. Matches the exact burial citation on existing Glasgow-3072. No parents supplied. Death year1788 has no exact death day; publish death by28April1788 and preserve the imported28March claim as superseded. Approximate birth1779 derives from age. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093163",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "SCOT/OPR/BAP/3606556": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bap-3606556",
+          "documentary_group": "kilmarnock-margaret-1789",
+          "catalogue_profiles": {
+            "Glasgow-3390": {
+              "role": "Identified existing record subject; original uninspected and adult-parent assessments retained",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Margaret born28March1789, baptised29March1789 at Kilmarnock; John Glasgow, shoe maker, and Margaret Wyllie; OPR597/3 item3 p.208. Same named parents, parish and baptism day as existing child Glasgow-3390. Correct imported birth29March to28March; retain the separate baptism. Father Glasgow-3298 remains65% probable; Wyllie-1278 remains separately unassessed. The1805 same-name child is a separate held event, not proof of this child’s precise death. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13606556",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "R_690389258": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-690389258",
+          "documentary_group": "barony-margaret-1792",
+          "catalogue_profiles": {},
+          "assessment": "Margaret baptised20October1792 at Barony to Samuel Glasgow and Lillias Stewart; indexed birth1792, no exact birth day. No existing child with that parental pair identified in the current historical Margaret shortlist. Missing corroboration or sparse profiles do not exclude compatible alternatives; identity held and no new person proposed. Named adult identities remain unassigned. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690389258",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "SCOT/OPR/BAP/3235007": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bap-3235007",
+          "documentary_group": "rothesay-margaret-1795",
+          "catalogue_profiles": {},
+          "assessment": "Margaret, Andrew Glasgow and Mary McGulgs, Rothesay; OPR558/2 item4 p.100. Literal transcript gives birth14October1795 but baptism18January1795, an impossible event order. Father occupation literally Wregheam. Preserve the contradiction without inventing a corrected year, month, occupation or mother surname. Child and adult identities held; no new person proposed. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13235007",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "SCOT/OPR/BUR/0398089": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bur-0398089",
+          "documentary_group": "edinburgh-margaret-1811",
+          "catalogue_profiles": {},
+          "assessment": "Margaret Glasgow, age78, buried25September1811 at Edinburgh, spouse of John Cameron; OPR685_2/31 item2 p.125. Indexed birth1733 is age-derived. Country is a literal dash; Scotland is collection/place context. No exact death date, original or natal-surname proof; no distinct profile established. Compatible uncertain-date Margaret accounts are not excluded from missing fields. Identity/scope HOLD; no new person. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~10398089",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "BMD/NBI/07448473": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-bmd-nbi-07448473",
+          "documentary_group": "berwick-margaret-1815",
+          "catalogue_profiles": {},
+          "assessment": "Margaret Glasgow, age54, buried28February1815 at Holy Trinity, Berwick upon Tweed, Anglican; indexed birth1761 from age. Burial location is not birthplace, and no relatives or natal surname are supplied. Existing Scottish Margaret accounts are not excluded merely by locality; no supported match or concrete exclusion justifies a new person. Identity/natal-surname HOLD. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~107448473",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "GBPRS/GLASGOW/BUR/093140": {
+          "status": "candidate_comparison",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093140",
+          "documentary_group": "glasgow-margaret-1818",
+          "catalogue_profiles": {
+            "Glasgow-4115": {
+              "role": "Compatible comparison only; record event and family are not assigned",
+              "timeline_group": "Identity comparisons"
+            }
+          },
+          "assessment": "Margaret Glasgow, age80, buried17November1818 at Glasgow High Church; indexed birth1738, no kin or exact death day. Glasgow-4115 (born19August1738, Kilmarnock) is a compatible comparison only. The age/year does not identify her, and a different parish does not exclude her; no burial or lifespan is assigned to that profile. Other uncertain-date Margaret candidates remain possible. Natal surname and identity held; no new person. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093140",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "SCOT/OPR/BUR/1746323": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bur-1746323",
+          "documentary_group": "prestonpans-margaret-1840",
+          "catalogue_profiles": {},
+          "assessment": "Margaret Glasgow died30May1840 at Prestonpans, age63; OPR718/9 item2 p.72. Indexed birth1777 is age-derived. Burial year1840 has no burial day, so retain the explicitly labelled death date. Literal country is a dash; collection/place imply Scotland. No spouse, parents or natal surname supplied. Identity/scope held; no new person from missing corroboration. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11746323",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "PRS/SCOTLAND/MI/ADD/5/00175398": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00175398",
+          "documentary_group": "lanark-margaret-1883",
+          "catalogue_profiles": {},
+          "assessment": "Lanark St Kentigern cemetery inscription: Alexander Ross commemorates mother Margaret Glasgow, died9March1883 age87. Indexed birth1796 derives from age; inscription also names his wife Janet Hamilton and children Alexander, Jessie and James, plus Fanny Chalmers. The word mother names a record-defined relationship but does not identify a catalogue adult or establish Margaret’s natal surname. No family attachment or new person is proposed; derivative inscription transcript, stone/original uninspected. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100175398",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "R_267073497": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-267073497",
+          "documentary_group": "bishopwearmouth-margaret-1884",
+          "catalogue_profiles": {},
+          "assessment": "Margaret Glasgow, age94, buried25January1884 at Bishop-Wearmouth, Durham; Hedworth Terrace, marital status Unknown. Birth1790 is age-derived. Sunderland Q1 death registration is a compatible companion lead, not independent identification or an exact death date. No natal-surname proof or catalogue identity established; scope/identity HOLD, no new person. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_267073497",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "BMD/D/1884/1/AZ/000134/368": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-bmd-d-1884-1-az-000134-368",
+          "documentary_group": "sunderland-margaret-death-registration-1884",
+          "catalogue_profiles": {},
+          "assessment": "Margaret Glasgow death registered1884 Q1, Sunderland, age94, volume10A p.310. Approximate birth1790. Compatible with25January Bishop-Wearmouth burial but registration and burial are distinct assertions; certificate/original uninspected. Neither natal surname nor identity established. Do not assign this lifespan to an existing Margaret solely by name and age; no new person proposed. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1D~11884~11~1AZ~1000134~1368",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "US/BMD/PENN-BUR/00131614": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-us-bmd-penn-bur-00131614",
+          "documentary_group": "pittsburgh-margaret-miller-1851",
+          "catalogue_profiles": {},
+          "assessment": "Margaret Miller Glasgow died23November1851 at Pittsburgh, age59, Allegheny diocese; Historical Society of Pennsylvania burial transcript. Indexed birth1792 is age-derived; no burial day or relatives supplied. Miller appears within literal first names and cannot be silently converted into an established maiden surname. Glasgow-at-birth and identity held, no new person. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BUR~100131614",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "US/RC/PHILLY/BAP/20155499": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-us-rc-philly-bap-20155499",
+          "documentary_group": "philadelphia-maria-1766-1769",
+          "catalogue_profiles": {},
+          "assessment": "Maria Glasgow born12January1766, baptised29December1769 at Old St Joseph, Philadelphia; father Roberto Glasgow, mother Joanna, film79.01 VOLI-VI. Distinct from the held1767 Christ Church Margaret child of Nathaniel/Ann; this does not exclude every compatible Maria/Mary candidate. Do not anglicise the parents into identified Robert/Joan profiles or invent mother surname. Child and adult identities held; no new person proposed. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1RC~1PHILLY~1BAP~120155499",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "R_685660801": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685660801",
+          "documentary_group": "covington-marion-1740",
+          "catalogue_profiles": {
+            "Glasgow-1121": {
+              "role": "Identified existing record subject; original uninspected and adult-parent assessments retained",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Marion Glasgow baptised6April1740 at Covington and Thankerton to George Glasgow and Agnes Williamson; sex explicitly Female. Matches existing approximate1740 child and named family. Companion indexes are one event, not independent original corroboration. No exact birthday supplied; retain approximate1740 birth and separate baptism. Correct the complete proposal’s inherited male wording and queue Gender Female; current imported machine gender remains explicitly qualified pending a supported structured projection. Father Glasgow-1070 remains76% probable, mother Williamson-12853 separately unassessed. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685660801",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "R_689421003": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-689421003",
+          "documentary_group": "covington-marion-1740",
+          "catalogue_profiles": {
+            "Glasgow-1121": {
+              "role": "Identified existing record subject; original uninspected and adult-parent assessments retained",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Companion to R_685660801: same6April1740 Covington/Thankerton baptism, George Glasgow and Agnes Williamson, Female. Existing Glasgow-1121 child, no second person or independent corroboration. Index omits residence; companion supplies it. No exact birthday. Father76% and mother separately unassessed retained; imported male label is superseded in sourced prose and queued for correction. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_689421003",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        },
+        "R_686207987": {
+          "status": "matched",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686207987",
+          "documentary_group": "kirknewton-marion-1751",
+          "catalogue_profiles": {
+            "Glasgow-3485": {
+              "role": "Identified existing record subject; original uninspected and adult-parent assessments retained",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "assessment": "Marion baptised9June1751 at Kirknewton and East Calder to James Glasgow and Katharine Rule; residence Kirknewton, sex Female. Same event/parents as existing Glasgow-3485 and held FamilySearch citation. No exact birth date: replace imported exact9June birthday with birth by9June1751 and preserve baptism separately. Father Glasgow-3486 remains74% probable; Rule-2358 separately unassessed. No parent attachment or new person. Source level: inspected provider derivative transcript; original image uninspected. Literal labelled fields retained in the capture receipt.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686207987",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-25"
+        }
+      },
+      "comparison_basis": "Exact-ID preflight, all historical local Glasgow Margaret/Marion/Maria accounts, maintained canonical documentary groups, seven approved receipt files and current person/complete proposal/captured citation comparisons. Missing fields do not exclude an alternative.",
+      "vital_changes": [
+        "Glasgow-3390 birth28March1789; baptism29March",
+        "Glasgow-3485 birth by9June1751; baptism9June",
+        "Glasgow-3072 death by28April1788; burial28April"
+      ],
+      "relationship_changes": [],
+      "newly_indexed_provider_records": 20,
+      "publication_verified_on": "2026-10-25",
+      "verification_report": "output/findmypast-page26-20261025-verification.json",
+      "structured_gender_correction": "Gender Female queued for Glasgow-1121; imported machine label remains explicitly qualified pending supported projection"
     }
   }
 }

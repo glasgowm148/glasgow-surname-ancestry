@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-25",
+  "scope": "Page26 local publication; whole goal INCOMPLETE",
+  "new_provider_ids": 20,
+  "documentary_event_groups": 17,
+  "matched_records": 7,
+  "matched_people": 5,
+  "candidate_only_records": 1,
+  "source_only_holds": 12,
+  "new_people": 0,
+  "original_registers_inspected": 0,
+  "approved_date_corrections": 3,
+  "structured_gender_correction": "queued; imported label retained with explicit qualification",
+  "person_readers_checked": [
+    "Glasgow-3398",
+    "Glasgow-3390",
+    "Glasgow-1121",
+    "Glasgow-3485",
+    "Glasgow-3072",
+    "Glasgow-4115"
+  ],
+  "source_readers": [
+    {
+      "record_id": "fmp-record-r-691841703",
+      "source_id": "s-62f3541aa78c713a",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bur-1052121",
+      "source_id": "s-225ef78b12e1c436",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-glasgow-bur-093198",
+      "source_id": "s-0a6a18aa61ade792",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bur-1125736",
+      "source_id": "s-11591f3850be254c",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-glasgow-bur-093163",
+      "source_id": "s-5f0cffc2bf5a6f61",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bap-3606556",
+      "source_id": "s-a6ac40a15384166d",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-690389258",
+      "source_id": "s-8a33624129ea8f64",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bap-3235007",
+      "source_id": "s-6caaa25473c3119b",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bur-0398089",
+      "source_id": "s-111cfd75a77315fc",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-bmd-nbi-07448473",
+      "source_id": "s-f8df1269a48e9178",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-glasgow-bur-093140",
+      "source_id": "s-af436163b2801dc4",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bur-1746323",
+      "source_id": "s-e1752799f06c036a",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-prs-scotland-mi-add-5-00175398",
+      "source_id": "s-058810ab32bdff5f",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-267073497",
+      "source_id": "s-3e715ecc44b84134",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-bmd-d-1884-1-az-000134-368",
+      "source_id": "s-9fdb67184e069966",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-us-bmd-penn-bur-00131614",
+      "source_id": "s-c845d99316d30719",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-us-rc-philly-bap-20155499",
+      "source_id": "s-5c33451ae313677b",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-685660801",
+      "source_id": "s-81cd07aaac120330",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-689421003",
+      "source_id": "s-9eb1dd8f145f4a37",
+      "reader_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-686207987",
+      "source_id": "s-ba15c4bc294fc78c",
+      "reader_checked": true
+    }
+  ],
+  "standalone_packed_tree_agreement": true,
+  "live_deployment": false,
+  "git_push": false,
+  "coverage": {
+    "literal_receipts_indexed": 598,
+    "supporting_ids_at_original_pointers": 19,
+    "bounded_indexed_provider_ids": 617,
+    "query_rows_reviewed": 520,
+    "query_displayed_rows": 5872,
+    "query_percentage": 8.9,
+    "next_query_page": 27,
+    "saved_detail_gaps": 0,
+    "whole_provider_percentage_known": false
+  },
+  "research_publication": {
+    "new_failures": [],
+    "findings_files": 6
+  },
+  "links": {
+    "pages": 26128,
+    "broken_links": 7,
+    "broken_pairs": 4,
+    "baseline": {
+      "path": "data/site/internal-link-baseline.json",
+      "pairs": 4,
+      "new_pairs": 0,
+      "fixed_pairs": 0,
+      "note": "",
+      "new_examples": []
+    }
+  },
+  "record_filter_membership": "20 full/compact records agree; all20 source readers appear in correct birth/baptism or death/burial collections",
+  "stale_cache_references": 0,
+  "source_categories_and_full_compact_agree": true,
+  "git_diff_check": "passed"
+}

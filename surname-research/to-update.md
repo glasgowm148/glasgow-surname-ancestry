@@ -4329,8 +4329,25 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | [Margaret Glasgow (Glasgow-3878)](https://www.wikitree.com/wiki/Glasgow-3878) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
 | [Magdalen Glasgow (Glasgow-4103)](https://www.wikitree.com/wiki/Glasgow-4103) | OPEN | Add qualified pages 24–25 source review to the preserved complete proposal; retain current vitals and family assessment. |
 
+
 ### Norfolk–Moyock original deed —25October2026
 
 | [Glasgow-3322](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Add documented eldest son Daniel from1714 original deed, father confidence98%;1693 Gamon title chain established. |
 | [Glasgow-1158](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Reconcile1714 documented Daniel father–son family; this profile’s own father grade is unchanged; resolve senior duplicate before junior assignment. |
 | [Glasgow-428](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Reconcile1714 documented Daniel father–son family; this profile’s own father grade is unchanged; resolve senior duplicate before junior assignment. |
+
+
+### Findmypast page26 review —25October2026
+
+| [Glasgow-3398](https://www.wikitree.com/wiki/Glasgow-3398) | OPEN | Add Bathgate baptism derivative; preserve birth claim and83% father assessment; replace stale Glasgow-3397 link with selected Glasgow-1466. |
+| [Glasgow-3390](https://www.wikitree.com/wiki/Glasgow-3390) | OPEN | Correct birth to28March1789; retain29March baptism and65% father assessment; qualify inherited before1805 death inference. |
+| [Glasgow-1121](https://www.wikitree.com/wiki/Glasgow-1121) | OPEN | Add6April1740 Covington baptism derivatives and explicitly recorded Female; queue Gender Female correction; retain76% father assessment. |
+| [Glasgow-3485](https://www.wikitree.com/wiki/Glasgow-3485) | OPEN | Replace exact9June1751 birthday with birth by that baptism date; retain74% father assessment. |
+| [Glasgow-3072](https://www.wikitree.com/wiki/Glasgow-3072) | OPEN | Replace unsupported28March1788 exact death with death by28April1788 burial; preserve original Ramshorn citation and unassigned baptism comparison. |
+
+
+### Moyock land follow-up — 25 October 2026
+
+| [Glasgow-3322](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Add the original 1714 Willson lease/release and recited 1692 acquisition; father ratings unchanged. |
+| [Glasgow-1158](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Add the original 1714 Willson lease/release and recited 1692 acquisition; father ratings unchanged. |
+| [Glasgow-428](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Add the original 1714 Willson lease/release and recited 1692 acquisition; father ratings unchanged. |

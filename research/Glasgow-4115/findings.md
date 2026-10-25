@@ -37,3 +37,7 @@ Margaret Glasgow was born on 19 Aug 1738 and baptised at Kilmarnock, Ayrshire, o
 ## Unresolved questions
 
 - Check the underlying record image, where available, for any explicit sex evidence. Keep the name-based field uncertain unless stronger evidence is found.
+
+## Glasgow burial comparison —25October2026
+
+[Findmypast GBPRS/GLASGOW/BUR/093140](https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093140&tab=this) records Margaret Glasgow, age80, buried17November1818 at Glasgow High Church. This account’s19August1738 Kilmarnock birth is chronologically compatible, but the burial names no relatives and does not establish natal surname or identity. Keep Glasgow-4115 as a comparison only: no death date, spouse, lifespan or burial has been assigned, and no other uncertain-date Margaret is excluded by missing data. Original register uninspected. Next: identify relatives or residence in the original burial source before attaching the event.
