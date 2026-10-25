@@ -20,10 +20,13 @@ must link bidirectionally to catalogue subjects/records and reconcile their
 conclusions with the shared model. `/latest-findings/` is the dated discovery
 log, not another current account.
 
-Use the maintained relationship assertions in `research/relationship_assessments.json`
-and reviewed pair-specific estimates in `research/relationship_probability_estimates.json`,
-through their existing builders and schemas. Preserve assertion IDs, previous
-assessments, alternatives and source scope. Reuse the current relationship action,
+Relationship assertions and their pair-specific estimates are recorded in the
+research database through the workbench (`genealogy assess`, `genealogy relationship add`,
+or a reviewed proposal; see `docs/workbench-migration/README.md`). `make research-views`
+regenerates `research/relationship_assessments.json` and
+`research/relationship_probability_estimates.json` from it for the existing builders;
+those two files are generated views and must not be edited. Preserve assertion IDs,
+previous assessments, alternatives and source scope. Reuse the current relationship action,
 confidence and pending-work fields consumed by the catalogue and tree builders;
 do not introduce a second grading scale or derive tags by parsing new prose.
 
