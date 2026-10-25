@@ -113,6 +113,9 @@ make build-workbench-site                # the public projection through the sha
   validated (integrity ok, no broken references, every one of 21,209 hash-referenced
   research files verified against the checkout).
 
+- `data/private/workbench/backups/20261025-after-catch-up-fix/`: the same database
+  after the catch-up fix (logical digest `621e6cc19c85…`), verified.
+
 ## Recovery
 
 - Database lost or damaged: `.venv/bin/genealogy backup restore <backup> <new-dir>`
@@ -124,6 +127,22 @@ make build-workbench-site                # the public projection through the sha
 - Undo the cutover: revert the branch's commits; the original registries are in
   commit `bf42d127d21c`. The database can be deleted and rebuilt at any time
   before further research is recorded in it.
+
+## Merge status (25 October 2026, 18:00)
+
+- Neither `main` had commits after the migration snapshot, so merging `main` into
+  both feature branches was a no-op and the database needed no catch-up.
+- Another agent has **uncommitted** edits on both `main` checkouts (a sidebar
+  wordmark, `[site] brand_name` / `brand_caption`, in the workbench; the same
+  settings written by `tools/toolkit_research_case.py` in Glasgow). They were
+  left untouched. Dry runs show they apply cleanly to these branches except the
+  workbench `CHANGELOG.md` "Unreleased" list (keep both sets of entries), and
+  the workbench suite passes with them applied (715 tests, cross-seed build
+  determinism included).
+- When they are committed: merge `main` into each feature branch again, then
+  follow the steps below. Add `brand_name`/`brand_caption` to the existing
+  `[site]` table of Glasgow's `genealogy.toml` only after the workbench change
+  that validates them is merged (one `[site]` table only).
 
 ## Merging this branch (owner)
 
