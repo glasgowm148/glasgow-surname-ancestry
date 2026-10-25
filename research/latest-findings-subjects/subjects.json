@@ -314,6 +314,15 @@
                   "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-XZZZ"
                 }
               ]
+            },
+            {
+              "finding": "Witness to his father’s September 1714 Willson lease and release; later identity still held.",
+              "sources": [
+                {
+                  "title": "Norfolk County, Virginia, Deed Book 9, pp. 348–350; lease and release, 15–16 September 1714, acknowledged 17 September; DGS 007645618, images 523–525. Original register inspected 25 October 2026.",
+                  "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
+                }
+              ]
             }
           ],
           "candidates": [
@@ -325,8 +334,8 @@
           "duplicate_check": [
             "Bounded local historical catalogue and reviewed-note query: lex Daniel Glasgow Gamon,25October2026. Glasgow-3322 explicitly represents the1693 Gamon husband and therefore senior. Glasgow-1158 carries the same wife account and may duplicate senior. No separate junior profile confidently identified; no claim that a new live profile is ready."
           ],
-          "next_test": "Trace the same80-acre Richford tract after1714 for Daniel junior’s residence, wife or named heirs; compare the1718–1719 Moyock/Currituck taxpayers and keep the1729 Slade tract separate. Resolve whether Glasgow-1158 duplicates senior before selecting a junior identity.",
-          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nDaniel Glasgow junior was the eldest lawful son of [[Glasgow-3322|Daniel Glasgow senior]] and Mary, daughter of John Gamon. He joined his parents in a conveyance to John Nicholls involving80 acres at Richford Swamp in Norfolk County, Virginia. The family was described as of Moyock, North Carolina. All three acknowledged the deed in Norfolk court on17September1714.<ref name=\"Daniel1714\">[https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-XZZZ Norfolk County, Virginia, Deed Book 9 (1710–1717), manuscript pp.332–335; Glasgow family conveyance to John Nicholls, acknowledged17September1714; FamilySearch DGS007645618, entire-film images507–510. Original register inspected25October2026.]</ref>\n\n== Research Notes ==\nThe deed explicitly distinguishes father and son and calls Mary junior’s mother. It also recites the4October1693 Gamon will that defines the senior’s identity. Father confidence98%; the documentary parent clause itself99%. Junior’s birth date, wife, children and later identity are unresolved. Born before1693 is a working majority estimate for joining this1714 deed, not a recorded age. Glasgow-1158 remains a compatible comparison, but its inherited Mary-as-wife account instead suggests duplication of senior; it is not automatically junior. The1718–1719 Currituck tax pair is an85% probable continuation of this Moyock family. No mother profile is selected from the unverified Gammon-934 account solely by its modern label.\n\n== Sources ==\n<references />",
+          "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them.",
+          "wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nDaniel Glasgow junior was the eldest lawful son of [[Glasgow-3322|Daniel Glasgow senior]] and Mary, daughter of John Gamon. He joined his parents in a conveyance to John Nicholls involving80 acres at Richford Swamp in Norfolk County, Virginia. The family was described as of Moyock, North Carolina. All three acknowledged the deed in Norfolk court on17September1714.<ref name=\"Daniel1714\">[https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-XZZZ Norfolk County, Virginia, Deed Book 9 (1710–1717), manuscript pp.332–335; Glasgow family conveyance to John Nicholls, acknowledged17September1714; FamilySearch DGS007645618, entire-film images507–510. Original register inspected25October2026.]</ref>\n\n== Research Notes ==\n\nDaniel junior also witnessed his father’s 15–16 September 1714 lease and release to Thomas Willson. His mother Mary joined the release. This is a further family-network occurrence, not a separate son or a new confidence improvement.<ref name=\"DanielWillson1714\">[https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K Norfolk County, Virginia, Deed Book 9 (1710–1717), pp. 348–350; Daniel Glasgow to Thomas Willson, lease 15 September and release 16 September 1714, acknowledged 17 September 1714; FamilySearch DGS 007645618, images 523–525.]</ref>\n\n\nThe deed explicitly distinguishes father and son and calls Mary junior’s mother. It also recites the4October1693 Gamon will that defines the senior’s identity. Father confidence98%; the documentary parent clause itself99%. Junior’s birth date, wife, children and later identity are unresolved. Born before1693 is a working majority estimate for joining this1714 deed, not a recorded age. Glasgow-1158 remains a compatible comparison, but its inherited Mary-as-wife account instead suggests duplication of senior; it is not automatically junior. The1718–1719 Currituck tax pair is an85% probable continuation of this Moyock family. No mother profile is selected from the unverified Gammon-934 account solely by its modern label.\n\n== Sources ==\n<references />",
           "record_matches": [
             {
               "finding_id": "norfolk-daniels-gamon-1714",
@@ -335,6 +344,14 @@
                 "Glasgow-1158"
               ],
               "assessment": "The documentary son is distinct from his father. Glasgow-3322 represents the1693 Mary Gamon husband and is therefore the98% confident father identification for this record-defined son. Glasgow-1158 also carries Mary Gammon as wife and may duplicate the senior account; assigning it to junior would turn that wife into his mother without resolving the identity conflict. Keep both current profiles and their existing parents; do not merge or reparent them. The1718–1719 Currituck Senior/Junior taxpayers are probably this Moyock father and son (85% identity assessment), supported by the close locality, same unusual names and four-to-five-year continuity, but the tax lists alone do not identify their land. The1729 Slade100-acre tract remains separate; William-428’s father remains42%, Daniel-1158→Robert-1157 remains12%, and Daniel-3322→Robert-1157 remains34%. No Scottish ancestry, exact birth or maternal maiden name beyond the explicit Gamon daughter identification is inferred."
+            },
+            {
+              "finding_id": "norfolk-daniel-willson-1714",
+              "status": "documented",
+              "profile_ids": [
+                "Glasgow-3322"
+              ],
+              "assessment": "Daniel junior is an explicit witness; identity follows the companion father–son deed."
             }
           ],
           "related_profiles": [
@@ -345,7 +362,7 @@
             }
           ],
           "draft_sources": [
-            "research/latest-findings-subjects/drafts/norfolk-daniel-junior-1714.wiki"
+            "research/latest-findings-subjects/drafts/norfolk-daniel-junior-1714-land.wiki"
           ]
         }
       ]

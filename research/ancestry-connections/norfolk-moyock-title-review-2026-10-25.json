@@ -1,0 +1,81 @@
+{
+  "reviewed": "2026-10-25",
+  "source_scope": "Norfolk County, Virginia, Deed Book 9 (1710–1717), pp. 348–350; Daniel Glasgow to Thomas Willson, lease 15 September and release 16 September 1714, acknowledged 17 September 1714; FamilySearch DGS 007645618, images 523–525.",
+  "source_reading": "A second original transaction identifies Daniel Glasgow as a planter of Moyock, Albemarle County, North Carolina. By a lease dated 15 September 1714 and release dated 16 September, he conveyed 100 acres to Thomas Willson. The release names Daniel senior; Mary joined it and acknowledged her consent in court on 17 September. Daniel Glasgow junior witnessed both instruments with John Nicholls and G. Halliday. The deeds recite Thomas Willson’s 800-acre patent of 20 April 1689 and his conveyance of this 100-acre parcel to Daniel on 16 May 1692, acknowledged on 17 May. Thus this 1714 original supplies a specific 1692 acquisition to follow; the original 1692 deed itself has not been inspected.",
+  "limitations": "The 100-acre Willson parcel is distinct from the 80 acres inherited through John Gamon and from the 100-acre Henry Slade parcel sold in 1729. Shared acreage alone does not join those titles. The same court day, Moyock residence, Mary, Daniel junior and John Nicholls strongly identify the senior as the father in the separately proved Gamon deed. This adds chronology and a witness network, without naming William Glasgow-428 as a son or resolving junior’s later identity. Father ratings remain junior→Glasgow-3322 98%, William-428→Daniel-1158 42%, Daniel-1158→Robert-1157 12%, and Daniel-3322→Robert-1157 34%.",
+  "next_test": "Locate the original 16 May 1692 Willson-to-Daniel conveyance and follow the Richford 80-acre title after 1714. Reopen junior’s identity when a later deed names his wife, heirs or prior title. All saved full-text leads in this bounded batch have now been checked; do not repeat them.",
+  "original_inspected": true,
+  "original_1692_deed_inspected": false,
+  "source_urls": [
+    "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K",
+    "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-XZC9",
+    "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-XZC1"
+  ],
+  "duplicate_image": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G9PX-6H6",
+  "false_positive": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X8S8",
+  "profiles": {
+    "Glasgow-3322": {
+      "draft_path": "research/Glasgow-3322/norfolk-moyock-land-2026-10-25.wiki",
+      "new_draft_path": "research/Glasgow-3322/norfolk-moyock-land-2026-10-25.wiki",
+      "prior_pending_path": "research/Glasgow-3322/norfolk-original-deed-2026-10-25.wiki",
+      "current_sha256": "f18064787de03ebfc159e3e6a7c1aaf10a0837d2d17087a5e490ef02ee53ddc9",
+      "proposed_sha256": "1c7b4b7dd51a7f87643890758f82a453221d914b2da07f944df0e86cae42b90e",
+      "new_draft_sha256": "1c7b4b7dd51a7f87643890758f82a453221d914b2da07f944df0e86cae42b90e",
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "all_reference_bodies_preserved": true,
+      "all_substantive_passages_accounted_for": true,
+      "private_comparison": false
+    },
+    "Glasgow-1158": {
+      "draft_path": "research/Glasgow-1158/norfolk-moyock-land-2026-10-25.wiki",
+      "new_draft_path": "research/Glasgow-1158/norfolk-moyock-land-2026-10-25.wiki",
+      "prior_pending_path": "research/Glasgow-1158/norfolk-original-deed-2026-10-25.wiki",
+      "current_sha256": "b2b29d6a80808e2edf9ef94eb3ddb4a1d9281911efc425852dd1e1fb204a31dc",
+      "proposed_sha256": "01d1e72f2ef71c465b2c770942f64f21186614422f0bf6ee2949600b386bcc2b",
+      "new_draft_sha256": "01d1e72f2ef71c465b2c770942f64f21186614422f0bf6ee2949600b386bcc2b",
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "all_reference_bodies_preserved": true,
+      "all_substantive_passages_accounted_for": true,
+      "private_comparison": false
+    },
+    "Glasgow-428": {
+      "draft_path": "research/Glasgow-428/norfolk-moyock-land-2026-10-25.wiki",
+      "new_draft_path": "research/Glasgow-428/norfolk-moyock-land-2026-10-25.wiki",
+      "prior_pending_path": "research/Glasgow-428/norfolk-original-deed-2026-10-25.wiki",
+      "current_sha256": "9f59532d990bf2a87f92e7a86c8105dd95d9af342c5ec8182df6059f66b0535f",
+      "proposed_sha256": "39b0302fdbed528fbe6347a16d6b821de62f21376c70233dbb45c9e36a8e4f18",
+      "new_draft_sha256": "39b0302fdbed528fbe6347a16d6b821de62f21376c70233dbb45c9e36a8e4f18",
+      "complete": true,
+      "normalizer_fixed_point": true,
+      "all_reference_bodies_preserved": true,
+      "all_substantive_passages_accounted_for": true,
+      "private_comparison": false
+    }
+  },
+  "existing_rating_improvements": 0,
+  "new_attachments": 0,
+  "raw_captures_published": false,
+  "verification": {
+    "three_tree_models_agree": true,
+    "historical_father_fields_checked": 1800,
+    "all_drafts_complete_and_preserved": true,
+    "existing_confidence_improvements": 0,
+    "new_documentary_father_connections": 0,
+    "existing_father_probabilities_unchanged": true,
+    "historical_research_events_preserved": true,
+    "local_http_pages": 9,
+    "latest_url": "/latest-findings/page/21/#finding-norfolk-daniel-moyock-1692-title-20261025",
+    "stale_asset_references": 0,
+    "full_compact_filter_membership_agrees": true,
+    "retained_father_probability_percent": 98
+  },
+  "source_identity_mapping": {
+    "norfolk-daniel-willson-1714": {
+      "record_id": "norfolk-daniel-willson-1714",
+      "document_id": "s-8f3bd807f6fcdd5c",
+      "source_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
+    }
+  }
+}
