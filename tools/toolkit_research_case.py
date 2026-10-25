@@ -68,7 +68,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from genealogy.case import CaseStore, grade_errors, validate_case  # noqa: E402
+from genealogy.case import CaseStore, ResearchCase, grade_errors, validate_case  # noqa: E402
 from genealogy.cli import initialize_project  # noqa: E402
 from genealogy.config import ProjectConfig  # noqa: E402
 from genealogy.importing import import_file  # noqa: E402
@@ -858,6 +858,9 @@ class Translator:
             self.report["completed searches in the research log" + ("" if when else " (undated)")] += 1
 
 
+CASE_ID = "glasgow"
+
+
 def config_tables(grades: dict) -> str:
     """The tables appended to the starter ``genealogy.toml``: the site's tree, the surname and its variants, and the grades used.
 
@@ -885,10 +888,13 @@ def build_case(project: Path, *, one_tree: Path = ONE_TREE, research: Path = RES
         shutil.rmtree(project)
     initialize_project(project, "Glasgow Surname Project (workbench build)")
     config = ProjectConfig.load(project / "genealogy.toml")
+    # Workbench 0.9 starts projects with a research database and no JSON case; this
+    # comparison translator still works on an in-memory case saved beside it.
     store = CaseStore(project / config.case_directory)
-    case = store.load(config.default_case)
+    case = ResearchCase(id=CASE_ID, title="Glasgow Surname Project (workbench build)")
+    store.save(case)
     imported = import_file(project, case, config, one_tree, publish_deceased=True, publish_reviewed_sources=True)
-    case = store.load(config.default_case)  # the import saves its own result
+    case = store.load(CASE_ID)  # the import saves its own result
     try:
         from tools.public_privacy import from_sources
     except ModuleNotFoundError:  # run from tools/
@@ -942,7 +948,7 @@ def main(argv=None) -> int:
     if args.build:
         from genealogy.site import build_site
         config = ProjectConfig.load(args.project / "genealogy.toml")
-        case = CaseStore(args.project / config.case_directory).load(config.default_case)
+        case = CaseStore(args.project / config.case_directory).load(CASE_ID)
         build_site(case, config, args.project / "dist")
     print(json.dumps(report, indent=2, ensure_ascii=False))
     return 0
