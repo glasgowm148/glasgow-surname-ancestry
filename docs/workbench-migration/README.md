@@ -1,8 +1,10 @@
 # Glasgow on the research database
 
 Status checkpoint, 25 October 2026. Branch `feat/workbench-sqlite-migration`
-(Glasgow) with workbench branch `feat/sqlite-research-core` (0.9.0). Nothing is
-pushed, published or deployed.
+(Glasgow) with workbench branch `feat/sqlite-research-core` (0.9.0). Both
+branches are pushed to their `origin` repositories; neither is merged into `main`
+or tagged, and nothing is published or deployed. The submodule pin
+(`cd5c605`) is fetchable from the workbench remote.
 
 ## Architecture and ownership
 
@@ -148,8 +150,9 @@ make build-workbench-site                # the public projection through the sha
 
 Research continued on `main` during the migration. After merging:
 
-1. `git submodule update --init` and install the workbench (see
-   `docs/toolkit-dependency.md`; push the workbench branch first).
+1. Merge the workbench branch into its `main` first (moving the pin if that
+   creates a new commit), then `git submodule update --init` and install the
+   workbench (see `docs/toolkit-dependency.md`).
 2. `make migrate-workbench` in the merged checkout. Each changed legacy item is
    caught up: an edited record, finding, vital assessment, plan item or queue
    entry updates its row (audited, revision-checked); a changed relationship
