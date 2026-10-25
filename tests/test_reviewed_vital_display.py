@@ -117,6 +117,22 @@ class ReviewedVitalDisplayTests(unittest.TestCase):
             self.assertEqual(apply(model,root,lambda place:'other',{}),{})
             self.assertEqual(model['people'][0]['born'],1784)
 
+    def test_explicit_unknown_death_place_clears_stale_tree_location(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root/'assets/research').mkdir(parents=True)
+            (root/'people').mkdir()
+            assessment = dict(subject='Example-1', status='approved', project_tree_vitals=True,
+                              vitals={'death': {}})
+            (root/'assets/research/assessments.json').write_text(json.dumps({'assessments': [assessment]}))
+            (root/'people/example-1.json').write_text(json.dumps(dict(
+                research_assessments=[assessment],
+                vitals={'death': dict(date='1774-07-20', place=None, place_status='unknown')})))
+            person = dict(id='Example-1', deathplace='Unsupported parish', deathLocationRegion='scotland')
+            apply(dict(people=[person], meta={}), root, lambda place: self.fail('Unknown place must not be located'), {})
+            self.assertEqual((1774, '1774-07-20', '', 'other'),
+                             (person['died'], person['deathDisplay'], person['deathplace'], person['deathLocationRegion']))
+
     def test_incomplete_replacement_is_rejected(self):
         with TemporaryDirectory() as tmp:
             root=Path(tmp);(root/'assets/research').mkdir(parents=True);(root/'people').mkdir()

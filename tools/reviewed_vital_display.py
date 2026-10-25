@@ -35,12 +35,12 @@ def apply(model, site_root, location_for, locations):
             vital = dossier['vitals'][kind]
             date = str(vital.get('date') or '')
             year = re.search(r'(?<!\d)(\d{4})(?!\d)', date)
-            if not year or not vital.get('place'):
+            if not year or (not vital.get('place') and vital.get('place_status') != 'unknown'):
                 raise ValueError('Reviewed tree vital requires a dated, located replacement')
             fields['born' if kind == 'birth' else 'died'] = int(year[1])
             fields[kind+'Display'] = vital.get('display_date') or date
-            fields[kind+'place'] = vital['place']
-            fields[kind+'LocationRegion'] = location_for(vital['place'])
+            fields[kind+'place'] = vital.get('place') or ''
+            fields[kind+'LocationRegion'] = location_for(vital['place']) if vital.get('place') else 'other'
             if kind == 'birth':
                 fields['bornApprox'] = vital.get('status') not in {'certain', 'exact', 'proved', 'confident'}
                 fields['year'] = int(year[1])
