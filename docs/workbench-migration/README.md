@@ -167,29 +167,15 @@ make build-workbench-site                # the public projection through the sha
   commit `bf42d127d21c`. The database can be deleted and rebuilt at any time
   before further research is recorded in it.
 
-## Merge status (25 October 2026, 18:00)
+## Merge status (26 October 2026)
 
-- Neither `main` had commits after the migration snapshot, so merging `main` into
-  both feature branches was a no-op and the database needed no catch-up.
-- Another agent has **uncommitted** edits on both `main` checkouts (a sidebar
-  wordmark, `[site] brand_name` / `brand_caption`, in the workbench; the same
-  settings written by `tools/toolkit_research_case.py` in Glasgow). They were
-  left untouched. Dry runs show they apply cleanly to these branches except the
-  workbench `CHANGELOG.md` "Unreleased" list (keep both sets of entries), and
-  the workbench suite passes with them applied (715 tests, cross-seed build
-  determinism included).
-- When they are committed: merge `main` into each feature branch again, then
-  follow the steps below. Add `brand_name`/`brand_caption` to the existing
-  `[site]` table of Glasgow's `genealogy.toml` only after the workbench change
-  that validates them is merged (one `[site]` table only).
-
-Full-data checks in the main checkout after the merge: `make check-workbench`,
-`validate`, `check-research` (0 new problems) and `check-links` (0 new pairs) pass.
-`make test` reports 441 failures and 28 errors in nine modules
-(`test_resolved_public_model` and others comparing research files with `www/`);
-the identical set fails at the pre-migration commit with the old workbench and
-the original estimates file, so they come from local `www/` data being out of
-step with the committed research, not from this migration.
+Everything is on `main` in both repositories, and no uncommitted work remains in
+either main checkout. The edits another agent had left uncommitted on 25 October
+(the workbench's tree workspace and sidebar wordmark, and the matching
+`toolkit_research_case.py` change) were committed unchanged apart from merging
+both changelog lists, after checking that every pending change is contained in
+the committed files (patch backups were kept). The Glasgow pin is workbench
+`e76c624`.
 
 ## Merging a later change from `main` (owner)
 
