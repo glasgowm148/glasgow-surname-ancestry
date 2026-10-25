@@ -36,6 +36,10 @@ step() {  # step <tolerate-failure 0|1> <name> <command...>
   if (( rc != 0 && tolerate == 0 )); then echo "STOPPED at step $N $name (see $LOG)" | tee -a $LOG/progress.log; exit 1; fi
 }
 
+# 0. Declared inputs: the research registries are generated from the research
+#    database, and site inputs no builder writes are installed from their homes.
+step 0 research-views      $PY tools/workbench_legacy_views.py --write
+step 0 site-inputs         $PY tools/site_declared_inputs.py --install
 # 1. Sections the link index reads.
 step 0 latest-findings     $PY tools/build_latest_findings.py
 step 0 place-pages         $PY tools/refresh_place_pages.py

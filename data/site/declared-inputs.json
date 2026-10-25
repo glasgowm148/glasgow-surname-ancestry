@@ -1,0 +1,23 @@
+{
+  "note": "Inputs the site serves that no builder produces; see tools/site_declared_inputs.py.",
+  "inputs": [
+    {
+      "published": "www/map/data/early-bearers.json",
+      "source": "data/private/site-inputs/map/data/early-bearers.json",
+      "sha256": "1c4a74e6056043cb527eb5815860e2cc91740b4160b8c97d3c740fb109dc9f8c",
+      "why": "map layer of early surname bearers; no builder writes it"
+    },
+    {
+      "published": "www/map/data/ydna-timeline.json",
+      "source": "data/private/site-inputs/map/data/ydna-timeline.json",
+      "sha256": "51b071006c0047e64ab4e779f1719764ec8cb98f07ed0a7cb179fdf4a11ee789",
+      "why": "Y-DNA timeline layer for the map; no builder writes it"
+    },
+    {
+      "published": "www/map/data/recent-profile-supplement.json",
+      "source": "data/private/site-inputs/map/data/recent-profile-supplement.json",
+      "sha256": "a89f35ad609424a83cfcfc44feca6cce5123d680562486fc99180b5f31b110da",
+      "why": "recently added profiles shown on the map; no builder writes it"
+    }
+  ]
+}

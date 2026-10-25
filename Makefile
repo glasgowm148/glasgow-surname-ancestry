@@ -94,6 +94,8 @@ check-accessibility:
 # This is intentionally separate from `check`: it regenerates thousands of
 # static pages and should only be run when source data changes.
 build:
+	$(PYTHON) tools/workbench_legacy_views.py --write
+	$(PYTHON) tools/site_declared_inputs.py --install
 	$(PYTHON) tools/sync_onetree_ireland_uk_to_1900.py
 	$(PYTHON) tools/build_family_map.py
 

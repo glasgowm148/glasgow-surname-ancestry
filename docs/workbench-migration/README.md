@@ -210,29 +210,39 @@ Research continued on `main` during the migration. After merging:
    edited them, take `main`'s version in the merge, then regenerate).
 4. `make check-workbench`.
 
+## Scratch review (`tmp/`, 26 October 2026)
+
+`tools/workbench_scratch_review.py` hashed every file in `tmp/` (22.7 GB) except
+release-bundle archives and compared it with every hash the project already
+holds. Everything that exists nowhere else is listed in the private report
+`data/private/workbench/scratch-review.json`. The unique research among it is
+recorded in the database by hash, where it is (no copy: the disk had under 1 GB
+free): 3,163 research notes, 432 evidence files (PDFs and images) and 10,085
+JSON files, as private `scratch_lead` assets with one `scratch_review` note per
+folder. They are leads, not evidence, until assessed. If `tmp/` is cleaned, they
+show as missing in `genealogy db check` and the ledger, so nothing is lost
+silently; `--preserve` copies them into managed storage when there is room.
+About 48,000 further JSON files in `tmp/` are copies of files already kept under
+`research/`. Not recorded, but listed: 175,096 HTML web captures, 4,477 code and
+log files, 8 site-release snapshots (`.tar.gz`) and 1,038 browser or tool cache
+files. Nothing in `tmp/` was changed or deleted.
+
+## Site builders
+
+The legacy builders' research inputs are now declared: `make build` and
+`tools/rebuild_local_site.sh` begin by regenerating every registry from the
+research database and installing the site inputs that no builder produces
+(`data/site/declared-inputs.json`, `tools/site_declared_inputs.py`). What
+remains is the pipeline's structure: 102 tools read or write `www/`, and 109
+generated `www/` files are read by other builders as inputs, so the Glasgow site
+still cannot be rebuilt from an empty `www/`. `builder-inputs.md` lists those
+files with their readers and the order of the remaining work. Proving an
+empty-output rebuild also needs about 3 GB of free disk for a second site tree.
+
 ## Not yet moved (precise remaining work)
 
-- The specialised Glasgow builders (`tools/build_research_catalog.py` and about
-  190 other scripts) still read the legacy registries and earlier `www/` output.
-  They now receive five registries generated from the database, but they are
-  not yet rewritten as views over the database or the shared compiler. Until
-  they are, `www/` remains the published site, and the still-legacy inputs are
-  edited directly and caught up with `make migrate-workbench`. Next action: move one builder at a time to read
-  `genealogy.store.projection.public_case` (start with
-  `tools/catalogue_machine_data.py`, the main reader of the assessments), then
-  make each remaining registry a generated view as was done for the relationship
-  files.
-- `build/workbench-site` (the shared compiler's build of Glasgow's public
-  projection) is a generic reader view, not a replacement for the Glasgow site.
-  Since 26 October it applies `docs/privacy-policy.md` through the
-  `publication` migration step: the imported OneTree tree facts of published
-  catalogue people at WikiTree Privacy 40 and above (7,522 events, 2,512 places,
-  9,620 tree claims) are public, Privacy 35 people get tree facts only (research
-  narrative about them is withheld), and nothing below 35 is published. Nobody
-  outside the published catalogue is made public. 4,431 people, 8,497 omissions
-  listed in the private build report, about 200 s.
-- `tmp/` (22.7 GB of scratch, 255,478 files) was not migrated; it may contain
-  unreviewed leads and should be reviewed by the owner before clean-up.
-- WikiTree baselines are the last *observed* captures; when a proposal is applied
-  and verified live, capture the profile again with
-  `genealogy wikitree capture --accept-baseline`.
+- Restructuring the Glasgow site builders so they read only declared inputs
+  (see `builder-inputs.md`). Until then `www/` remains the published site and is
+  rebuilt in place.
+- `build/workbench-site` remains a generic reader view built by the shared
+  compiler, not a replacement for the Glasgow site.
