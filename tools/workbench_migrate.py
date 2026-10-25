@@ -1095,8 +1095,78 @@ class Migration:
                 counts["observed baselines recorded"] += 1
         return dict(counts)
 
+    def privacy_levels(self) -> dict[str, int]:
+        """The most recent recorded WikiTree privacy level of each person."""
+        levels: dict[str, tuple[str, int]] = {}
+        for row in self.store.all("SELECT entity_id, captured_on, fields_json FROM external_observation "
+                                  "WHERE system='wikitree' AND entity_id IS NOT NULL"):
+            fields = json.loads(row["fields_json"])
+            raw = fields.get("raw") if isinstance(fields.get("raw"), dict) else fields
+            level = raw.get("Privacy", raw.get("privacy")) if isinstance(raw, dict) else None
+            if isinstance(level, int):
+                key = row["captured_on"] or ""
+                if row["entity_id"] not in levels or key >= levels[row["entity_id"]][0]:
+                    levels[row["entity_id"]] = (key, level)
+        return {person: level for person, (_, level) in levels.items()}
+
+    def step_publication(self) -> dict:
+        """Apply docs/privacy-policy.md to the imported tree facts of published catalogue people.
+
+        * The catalogue's people are Glasgow's existing publication decision (access
+          public); nobody else is made public here.
+        * WikiTree Privacy 50 and above, and 40: their imported tree facts (events,
+          places and tree relationships between two published people) are public.
+        * Privacy 35: tree facts only; research narrative about them (findings,
+          questions, searches, hypotheses, studies, notes) is withheld.
+        * Below 35: no tree facts are published.
+        Living people stay out through the projection's living rule.
+        """
+        counts = Counter()
+        levels = self.privacy_levels()
+        public = {row["id"] for row in self.store.all("SELECT id FROM person WHERE access='public'")}
+
+        def allowed(person: str) -> bool:
+            return person in public and levels.get(person, 60) >= 35
+
+        imported = {row["entity_id"] for row in self.store.all(
+            "SELECT DISTINCT o.entity_id FROM import_origin o JOIN import_batch b ON b.id=o.import_batch_id "
+            "WHERE b.adapter='one-tree'")}
+        with self.store.write(actor=ACTOR, tool="workbench_migrate publication", source="docs/privacy-policy.md",
+                              reason="apply the approved WikiTree privacy-level publication policy") as tx:
+            for event in self.store.all("SELECT * FROM event WHERE access<>'public' ORDER BY id"):
+                if event["id"] not in imported:
+                    continue
+                people = [row["person_id"] for row in self.store.all(
+                    "SELECT person_id FROM event_participant WHERE event_id=?", (event["id"],))]
+                if people and all(allowed(person) for person in people):
+                    tx.update("event", event["id"], {"access": "public"})
+                    counts["imported events published"] += 1
+                    if event["place_id"]:
+                        place = self.store.get("place", event["place_id"])
+                        if place["access"] != "public":
+                            tx.update("place", place["id"], {"access": "public"})
+                            counts["places published"] += 1
+            for claim in self.store.all("SELECT * FROM claim WHERE origin='imported' AND access<>'public' "
+                                        "AND kind IN ('relationship', 'attribute', 'vital') ORDER BY id"):
+                people = [p for p in (claim["subject_person_id"], claim["object_person_id"]) if p]
+                if people and all(allowed(person) for person in people):
+                    tx.update("claim", claim["id"], {"access": "public"})
+                    counts["imported tree claims published"] += 1
+            for person in sorted(p for p in public if 35 <= levels.get(p, 60) < 40):
+                for row in self.store.all("SELECT DISTINCT l.from_id, e.type FROM link l JOIN entity e ON e.id=l.from_id "
+                                          "WHERE l.to_id=? AND e.type IN ('finding', 'question', 'search', 'hypothesis', "
+                                          "'study', 'note')", (person,)):
+                    item = self.store.get(row["type"], row["from_id"])
+                    if item["access"] != "private":
+                        tx.update(row["type"], row["from_id"], {"access": "private"})
+                        counts["narrative withheld for Privacy 35 people"] += 1
+            counts["published people at Privacy 35 (tree facts only)"] = sum(
+                1 for p in public if levels.get(p) is not None and 35 <= levels[p] < 40)
+            counts["published people below Privacy 35"] = sum(1 for p in public if levels.get(p, 60) < 35)
+        return dict(counts)
+
     STEPS = ("onetree", "catalogue", "wikitree_observations", "gazetteer", "records", "relationships", "vitals",
-             "findings", "profiles", "queue", "approvals", "studies", "other_assets", "baselines")
+             "findings", "profiles", "queue", "approvals", "studies", "other_assets", "baselines", "publication")
 
     def run(self, only: list[str] | None = None) -> dict:
         for name in self.STEPS:

@@ -196,6 +196,33 @@ class GlasgowMigrationFixture(unittest.TestCase):
         report = self.migrate()   # the regenerated files are current, not hand edits
         self.assertEqual(report["conflicts"], [], report["conflicts"])
 
+    def test_publication_applies_the_privacy_level_policy(self) -> None:
+        from genealogy.store import NameInput
+        with open_project(self.project, create=True) as project:
+            research = Research(project.store)
+            people, events = {}, {}
+            with project.store.write(actor="test", tool="genealogy import") as tx:
+                tx.insert("import_batch", {"id": "imp-onetree", "adapter": "one-tree", "imported_at": "2026-10-25"})
+                for name, level, access in (("Open-1", 60, "public"), ("Tree-35", 35, "public"),
+                                            ("Closed-30", 30, "public"), ("Uncatalogued-2", 60, "private")):
+                    person = research.create_person(tx, names=[NameInput(name)], living="deceased", access=access)
+                    research.map_external(tx, person, "wikitree", name)
+                    research.record_observation(tx, system="wikitree", external_value=name, entity_id=person,
+                                                fields={"raw": {"Privacy": level}}, captured_on="2026-08-18")
+                    events[name] = research.add_event(tx, kind="birth", participants=[(person, "principal")],
+                                                      date_original="1801")
+                    tx.insert("import_origin", {"entity_id": events[name], "import_batch_id": "imp-onetree",
+                                                "input_path": "one-tree.json", "pointer": name})
+                    people[name] = person
+                finding = research.add_finding(tx, statement="Narrative about the Privacy 35 person.", access="public",
+                                               links=[(people["Tree-35"], "subject")])
+            report = workbench_migrate.Migration(project, self.source).run(["publication"])["steps"]["publication"]
+            access = {name: project.store.get("event", event)["access"] for name, event in events.items()}
+            self.assertEqual(access, {"Open-1": "public", "Tree-35": "public", "Closed-30": "private",
+                                      "Uncatalogued-2": "private"})
+            self.assertEqual(project.store.get("finding", finding)["access"], "private")
+            self.assertEqual(report["published people below Privacy 35"], 1)
+
     def test_a_hand_edited_registry_does_not_override_a_database_assessment(self) -> None:
         self.migrate()
         with open_project(self.project) as project:

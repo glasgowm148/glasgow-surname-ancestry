@@ -208,15 +208,14 @@ Research continued on `main` during the migration. After merging:
   make each remaining registry a generated view as was done for the relationship
   files.
 - `build/workbench-site` (the shared compiler's build of Glasgow's public
-  projection: 4,431 people, 4,888 files, 88 s, byte-identical across rebuilds
-  and hash seeds) is a generic reader view, not a replacement for the Glasgow
-  site. It publishes less than `www/`: OneTree tree facts were imported without
-  a publication review (Glasgow's privacy levels 35/40/50+ are not yet mapped to
-  projection rules), so only catalogue people, approved assessments, approved
-  vital assessments, findings and records appear; prose naming a withheld
-  person is omitted (27,938 omissions, listed in the private build report).
-  Mapping Glasgow's privacy policy onto publication decisions is an owner
-  decision and has not been made automatically.
+  projection) is a generic reader view, not a replacement for the Glasgow site.
+  Since 26 October it applies `docs/privacy-policy.md` through the
+  `publication` migration step: the imported OneTree tree facts of published
+  catalogue people at WikiTree Privacy 40 and above (7,522 events, 2,512 places,
+  9,620 tree claims) are public, Privacy 35 people get tree facts only (research
+  narrative about them is withheld), and nothing below 35 is published. Nobody
+  outside the published catalogue is made public. 4,431 people, 8,497 omissions
+  listed in the private build report, about 200 s.
 - `tmp/` (22.7 GB of scratch, 255,478 files) was not migrated; it may contain
   unreviewed leads and should be reviewed by the owner before clean-up.
 - WikiTree baselines are the last *observed* captures; when a proposal is applied
