@@ -1841,6 +1841,37 @@
           "basis": "Prior field retained as assessment history; no relationship change."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "lois-2357-family-account-death-20261026",
+      "subject": "Glasgow-2357",
+      "status": "approved",
+      "reviewed": "2026-10-26",
+      "basis": "Visually inspected held family-history page 5; exact Lois Ladd name and first-marriage family group.",
+      "source": {
+        "url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf",
+        "section": "page 5, Lois Ladd paragraph"
+      },
+      "summary": "Lois’s death is reported as June 1870 in the retrospective family account; exact day and place are unverified.",
+      "vitals": {
+        "death": {
+          "date": "1870-06-00",
+          "display_date": "June 1870",
+          "place": null,
+          "status": "strongly_supported",
+          "label": "Family-account date",
+          "note": "Month and year explicitly reported in an undated retrospective account; original death entry not inspected. The existing 1870 year is retained; no day or place is inferred.",
+          "source_url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf",
+          "place_status": "unknown"
+        }
+      },
+      "question": "Can a contemporary death, burial or church entry independently confirm the reported June 1870 death?",
+      "catalogue_projection": {
+        "death": "June 1870",
+        "death_year": 1870
+      },
+      "project_tree_vitals": true
     }
   ]
 }

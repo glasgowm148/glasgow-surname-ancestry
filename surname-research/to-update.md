@@ -3749,7 +3749,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [Elizabeth F B Glasgow](https://www.wikitree.com/wiki/Glasgow-3768) | OPEN | Review existing father at 87% (probable); no new father attachment. |
 | [Alpheus Glasgow](https://www.wikitree.com/wiki/Glasgow-3830) | OPEN | Review existing father at 88% (probable); no new father attachment. |
 | [Matthew Glasgow](https://www.wikitree.com/wiki/Glasgow-437) | OPEN | Review existing father at 98% (proved); no new father attachment. |
-| [Lois Ladd Glasgow](https://www.wikitree.com/wiki/Glasgow-2357) | OPEN | Review existing father at 96% (proved); no new father attachment. |
+| [Lois Ladd Glasgow](https://www.wikitree.com/wiki/Glasgow-2357) | OPEN | Review existing Mary Pierce mother at 93%; explain Martha Thompson as stepmother; refine reported death to June 1870 without day/place. Father remains 96%. |
 | [Rachel Ann (Glasgow) Saulsbury](https://www.wikitree.com/wiki/Glasgow-753) | OPEN | Review existing father at 92% (proved); no new father attachment. |
 | [Joseph Anderson Glasgow](https://www.wikitree.com/wiki/Glasgow-2039) | OPEN | Review existing father at 82% (probable); no new father attachment. |
 | [Eliza Glasgow](https://www.wikitree.com/wiki/Glasgow-1360) | OPEN | Review existing father at 98% (proved); no new father attachment. |
@@ -4368,5 +4368,5 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 
 | Profile | Status | Change |
 | --- | --- | --- |
-| [Mary J. Pierce](https://www.wikitree.com/wiki/Pierce-14470) | OPEN | Record Mary J. Pierce as Robert Finley Glasgow’s biological mother at93%, from the explicit family-account child group; distinguish later stepmother Martha Thompson. |
-| [Martha W. Thompson](https://www.wikitree.com/wiki/Thompson-63146) | OPEN | Explain Martha Thompson’s stepmother role for Robert Finley and preserve the earlier Pierce/Thompson research note; no new biological-maternity percentage. |
+| [Mary J. Pierce](https://www.wikitree.com/wiki/Pierce-14470) | OPEN | Record Mary J. Pierce as Robert’s mother at 93% and review the existing Lois maternal attachment separately at 93%; distinguish later stepmother Martha Thompson. |
+| [Martha W. Thompson](https://www.wikitree.com/wiki/Thompson-63146) | OPEN | Explain Martha Thompson’s stepmother roles for Robert Finley and Lois Ladd; preserve the earlier Pierce/Thompson research note, without a biological-maternity percentage. |

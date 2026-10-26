@@ -43334,7 +43334,7 @@
       "source_ids": [
         "held-e-f0fe7f969e32"
       ],
-      "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+      "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
       "working_selection": false,
       "allow_new_relationship": true,
       "lifecycle": "current",
@@ -43364,7 +43364,7 @@
       "source_ids": [
         "held-e-f0fe7f969e32"
       ],
-      "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+      "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
       "working_selection": false,
       "allow_new_relationship": true,
       "lifecycle": "current",
@@ -43379,6 +43379,80 @@
       },
       "profile_names": {
         "Glasgow-2356": "Robert Finley Glasgow",
+        "Pierce-14470": "Mary J. (Pierce) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2357",
+      "relative_id": "Pierce-14470",
+      "relationship": "mother",
+      "percent": 93,
+      "assessment_status": "proved",
+      "assertion_id": "clm-lois2357-mary-20261026",
+      "basis": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment.",
+      "reviewed": "2026-10-26",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "Subjective 93% for Lois Ladd Glasgow-2357 → Mary J. Pierce-14470 as biological mother. An explicit child-group clause in an undated retrospective family account attributed to William Melanchthon Glasgow supports this complete profile pair. It is not a contemporary birth register. The census references are retained household evidence, not newly inspected original images. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Other date discrepancies elsewhere in the account remain qualifications. Lois’s father remains 96%; guessed birth 1842 and upstream ancestry are unchanged. The account separately reports death in June 1870, with no day or place. The prior live mother was Mary, unmarked, with no numerical estimate; this is not a 0%→93% increase.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": false,
+      "lifecycle": "current",
+      "display": "current",
+      "historical_assertions": [
+        {
+          "claim_id": "C-cddbc3538587",
+          "label": "Earlier unmarked imported mother view; the same Mary relationship is now individually assessed",
+          "profile_id": "Glasgow-2357",
+          "scope": "Existing biological mother attachment retained, not replaced. Preserve the original unmarked observation and sources as assessment history."
+        },
+        {
+          "claim_id": "C-5bf85fb1269c",
+          "label": "Earlier unmarked daughter view; the same Lois relationship is now individually assessed",
+          "profile_id": "Pierce-14470",
+          "scope": "Reciprocal view of the same Lois–Mary maternal proposition, not a new child attachment or a second confidence finding."
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2357": "Lois Ladd Glasgow",
+        "Pierce-14470": "Mary J. (Pierce) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Pierce-14470",
+      "relative_id": "Glasgow-2357",
+      "relationship": "child",
+      "percent": 93,
+      "assessment_status": "proved",
+      "assertion_id": "clm-lois2357-mary-20261026",
+      "basis": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment.",
+      "reviewed": "2026-10-26",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "Subjective 93% for Lois Ladd Glasgow-2357 → Mary J. Pierce-14470 as biological mother. An explicit child-group clause in an undated retrospective family account attributed to William Melanchthon Glasgow supports this complete profile pair. It is not a contemporary birth register. The census references are retained household evidence, not newly inspected original images. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Other date discrepancies elsewhere in the account remain qualifications. Lois’s father remains 96%; guessed birth 1842 and upstream ancestry are unchanged. The account separately reports death in June 1870, with no day or place. The prior live mother was Mary, unmarked, with no numerical estimate; this is not a 0%→93% increase.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": false,
+      "lifecycle": "current",
+      "display": "current",
+      "historical_assertions": [
+        {
+          "claim_id": "C-cddbc3538587",
+          "label": "Earlier unmarked imported mother view; the same Mary relationship is now individually assessed",
+          "profile_id": "Glasgow-2357",
+          "scope": "Existing biological mother attachment retained, not replaced. Preserve the original unmarked observation and sources as assessment history."
+        },
+        {
+          "claim_id": "C-5bf85fb1269c",
+          "label": "Earlier unmarked daughter view; the same Lois relationship is now individually assessed",
+          "profile_id": "Pierce-14470",
+          "scope": "Reciprocal view of the same Lois–Mary maternal proposition, not a new child attachment or a second confidence finding."
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2357": "Lois Ladd Glasgow",
         "Pierce-14470": "Mary J. (Pierce) Glasgow"
       }
     }

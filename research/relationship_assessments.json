@@ -110937,9 +110937,16 @@
     "status": "proved",
     "assessment_date": "2026-10-26",
     "basis": "The inspected family account names Mary J. Pierce as Moses Glasgow’s wife from5November1839, explicitly places Robert Finley among their three children, records her death on14March1846, and then gives Moses’s1848 marriage to Martha W. Thompson. The Moses household, distinctive RobertFinley name and pre1846 child group identify RobertGlasgow2356, born1844, whose established father is Moses589. The later naval/newspaper career description further distinguishes him from the unrelated1820–1887 RobertFinley. MaryPierce14470’s name, spouse and exact14March1846 death match this first wife. The former Martha mother field confuses a later stepmother with the explicitly named mother. Mary is assessed at93% for this complete child–mother profile pair, within the retrospective family-account scope.",
-    "assessment_history": [],
+    "assessment_history": [
+      {
+        "status": "proved",
+        "probability_percent": 93,
+        "assessment_date": "2026-10-26",
+        "source_basis": "The inspected family account names Mary J. Pierce as Moses Glasgow’s wife from5November1839, explicitly places Robert Finley among their three children, records her death on14March1846, and then gives Moses’s1848 marriage to Martha W. Thompson. The Moses household, distinctive RobertFinley name and pre1846 child group identify RobertGlasgow2356, born1844, whose established father is Moses589. The later naval/newspaper career description further distinguishes him from the unrelated1820–1887 RobertFinley. MaryPierce14470’s name, spouse and exact14March1846 death match this first wife. The former Martha mother field confuses a later stepmother with the explicitly named mother. Mary is assessed at93% for this complete child–mother profile pair, within the retrospective family-account scope."
+      }
+    ],
     "reason": "The inspected family account names Mary J. Pierce as Moses Glasgow’s wife from5November1839, explicitly places Robert Finley among their three children, records her death on14March1846, and then gives Moses’s1848 marriage to Martha W. Thompson. The Moses household, distinctive RobertFinley name and pre1846 child group identify RobertGlasgow2356, born1844, whose established father is Moses589. The later naval/newspaper career description further distinguishes him from the unrelated1820–1887 RobertFinley. MaryPierce14470’s name, spouse and exact14March1846 death match this first wife. The former Martha mother field confuses a later stepmother with the explicitly named mother. Mary is assessed at93% for this complete child–mother profile pair, within the retrospective family-account scope.",
-    "limitations": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+    "limitations": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
     "probability": {
       "value": 0.93,
       "reviewed": "2026-10-26",
@@ -110947,7 +110954,7 @@
       "source_ids": [
         "held-e-f0fe7f969e32"
       ],
-      "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change."
+      "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change."
     },
     "working_selection": false,
     "allow_new_relationship": true,
@@ -110963,6 +110970,149 @@
     },
     "profile_names": {
       "Glasgow-2356": "Robert Finley Glasgow",
+      "Pierce-14470": "Mary J. (Pierce) Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-lois2357-martha-20261026",
+    "people": [
+      "Glasgow-2357",
+      "Thompson-63146"
+    ],
+    "claim": "Martha W. Thompson is the stepmother of Lois Ladd Glasgow.",
+    "relation_type": "step",
+    "perspectives": {
+      "Glasgow-2357": {
+        "relationship": "stepmother"
+      },
+      "Thompson-63146": {
+        "relationship": "stepchild"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "held-e-f0fe7f969e32"
+    ],
+    "provenance": {
+      "source": "genealogy-research-workbench database",
+      "claim_id": "clm-lois2357-martha-20261026"
+    },
+    "status": "strongly_supported",
+    "assessment_date": "2026-10-26",
+    "basis": "The same page describes Mary’s death in 1846, Moses’s 1848 marriage to Martha W. Thompson, and his taking the surviving children into that later family. Lois is one of those earlier children.",
+    "assessment_history": [
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "The same page describes Mary’s death in 1846, Moses’s 1848 marriage to Martha W. Thompson, and his taking the surviving children into that later family. Lois is one of those earlier children."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "The same page describes Mary’s death in 1846, Moses’s 1848 marriage to Martha W. Thompson, and his taking the surviving children into that later family. Lois is one of those earlier children."
+      }
+    ],
+    "reason": "The same page describes Mary’s death in 1846, Moses’s 1848 marriage to Martha W. Thompson, and his taking the surviving children into that later family. Lois is one of those earlier children.",
+    "limitations": "Retrospective family account; stepmother role only, not biological maternity. No numerical estimate. Martha’s own ancestry and vital fields are unchanged.",
+    "probability": null,
+    "working_selection": false,
+    "attachment_status": "documented",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "profile_names": {
+      "Glasgow-2357": "Lois Ladd Glasgow",
+      "Thompson-63146": "Martha W. (Thompson) Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-lois2357-mary-20261026",
+    "people": [
+      "Glasgow-2357",
+      "Pierce-14470"
+    ],
+    "claim": "Mary J. Pierce is the biological mother of Lois Ladd Glasgow.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-2357": {
+        "relationship": "mother"
+      },
+      "Pierce-14470": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "held-e-f0fe7f969e32"
+    ],
+    "provenance": {
+      "held_scan_inspected": true,
+      "live_flag_changed": false,
+      "new_mother_attachment": false,
+      "prior_assessment": {
+        "probability_percent": null,
+        "source_basis": "Anonymous WikiTree getPeople, 26 October 2026: Glasgow-2357 Mother=29149819 (Pierce-14470), DataStatus.Mother blank/unmarked, no individual percentage. Held tree assertion C-cddbc3538587 and imported parent claim rel-4a649bddb68a8d7d retained.",
+        "status": "unmarked"
+      },
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-10-26",
+    "basis": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment.",
+    "assessment_history": [
+      {
+        "status": "proved",
+        "probability_percent": 93,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment."
+      },
+      {
+        "status": "proved",
+        "probability_percent": 93,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment."
+      },
+      {
+        "status": "proved",
+        "probability_percent": 93,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment."
+      }
+    ],
+    "reason": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment.",
+    "limitations": "Subjective 93% for Lois Ladd Glasgow-2357 → Mary J. Pierce-14470 as biological mother. An explicit child-group clause in an undated retrospective family account attributed to William Melanchthon Glasgow supports this complete profile pair. It is not a contemporary birth register. The census references are retained household evidence, not newly inspected original images. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Other date discrepancies elsewhere in the account remain qualifications. Lois’s father remains 96%; guessed birth 1842 and upstream ancestry are unchanged. The account separately reports death in June 1870, with no day or place. The prior live mother was Mary, unmarked, with no numerical estimate; this is not a 0%→93% increase.",
+    "probability": {
+      "value": 0.93,
+      "reviewed": "2026-10-26",
+      "basis": "Page 5 first identifies Moses Glasgow’s marriage to Mary J. Pierce on 5 November 1839, then explicitly names Lois Ladd, Robert Finley and infant John Cameron as their children. The distinctive Lois Ladd name, established Moses fatherhood, retained 1850/1860 household citations and consistent 1842 estimated birth/1870 death identify Glasgow-2357. Mary Pierce-14470 is the first wife whose 14 March 1846 death precedes Moses’s 1848 marriage to Martha Thompson. This independently reviews the existing Lois–Mary mother attachment, not a new attachment or a transfer of Robert’s assessment.",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "Subjective 93% for Lois Ladd Glasgow-2357 → Mary J. Pierce-14470 as biological mother. An explicit child-group clause in an undated retrospective family account attributed to William Melanchthon Glasgow supports this complete profile pair. It is not a contemporary birth register. The census references are retained household evidence, not newly inspected original images. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Other date discrepancies elsewhere in the account remain qualifications. Lois’s father remains 96%; guessed birth 1842 and upstream ancestry are unchanged. The account separately reports death in June 1870, with no day or place. The prior live mother was Mary, unmarked, with no numerical estimate; this is not a 0%→93% increase."
+    },
+    "working_selection": false,
+    "attachment_status": "documented",
+    "allow_new_relationship": false,
+    "lifecycle": "current",
+    "display": "current",
+    "historical_assertions": [
+      {
+        "claim_id": "C-cddbc3538587",
+        "label": "Earlier unmarked imported mother view; the same Mary relationship is now individually assessed",
+        "profile_id": "Glasgow-2357",
+        "scope": "Existing biological mother attachment retained, not replaced. Preserve the original unmarked observation and sources as assessment history."
+      },
+      {
+        "claim_id": "C-5bf85fb1269c",
+        "label": "Earlier unmarked daughter view; the same Lois relationship is now individually assessed",
+        "profile_id": "Pierce-14470",
+        "scope": "Reciprocal view of the same Lois–Mary maternal proposition, not a new child attachment or a second confidence finding."
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2357": "Lois Ladd Glasgow",
       "Pierce-14470": "Mary J. (Pierce) Glasgow"
     }
   }

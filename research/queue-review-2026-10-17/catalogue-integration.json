@@ -36308,12 +36308,12 @@
       "profile_id": "Glasgow-2357",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2357/father-confidence-2026-10-22i.wiki",
+      "queued_at": "2026-10-26",
+      "biography_rechecked_at": "2026-10-26",
+      "draft_path": "research/Glasgow-2357/maternal-review-2026-10-26.wiki",
       "findings_path": "research/Glasgow-2357/findings.md",
-      "summary": "Review existing father at 96% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 96% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Review the existing Mary Pierce mother at 93%, explain Martha Thompson as stepmother, and refine reported death to June 1870 (uncertain month/year; no day or place). Father remains 96%.",
+      "work_queue_summary": "Review the existing Mary Pierce mother at 93%, explain Martha Thompson as stepmother, and refine reported death to June 1870 (uncertain month/year; no day or place). Father remains 96%.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -36326,14 +36326,40 @@
           "assertion_id": "C-coverage-20261022i-glasgow-2357-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Selected Glasgow-589 fatherhood of Glasgow-2357; maternal identity and upstream ancestry are separate."
+        },
+        {
+          "action": "regrade",
+          "relationship": "mother",
+          "relative_id": "Pierce-14470",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 93,
+          "assertion_id": "clm-lois2357-mary-20261026",
+          "previous_status_provenance": [
+            "Anonymous WikiTree getPeople, 26 October 2026: Glasgow-2357 Mother=29149819 (Pierce-14470), DataStatus.Mother blank/unmarked, no individual percentage. Held tree assertion C-cddbc3538587 and imported parent claim rel-4a649bddb68a8d7d retained."
+          ],
+          "new_attachment": false,
+          "scope": "Subjective 93% for Lois Ladd Glasgow-2357 → Mary J. Pierce-14470 as biological mother. An explicit child-group clause in an undated retrospective family account attributed to William Melanchthon Glasgow supports this complete profile pair. It is not a contemporary birth register. The census references are retained household evidence, not newly inspected original images. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Other date discrepancies elsewhere in the account remain qualifications. Lois’s father remains 96%; guessed birth 1842 and upstream ancestry are unchanged. The account separately reports death in June 1870, with no day or place. The prior live mother was Mary, unmarked, with no numerical estimate; this is not a 0%→93% increase."
         }
       ],
       "preserve_captured_detail": false,
-      "reviewed_narrative_reduction": true,
+      "reviewed_narrative_reduction": false,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/lois-2357-maternal-preservation-2026-10-26.json",
+      "vital_changes": [
+        {
+          "field": "death",
+          "from": "1870",
+          "to": "1870-06-00",
+          "certainty": "uncertain",
+          "basis": "The family account explicitly reports June 1870. Refine the date to month/year and mark uncertain; do not invent a day, death place or a contemporary certificate. Guessed birth 1842 is unchanged.",
+          "source_url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf",
+          "assessment_id": "lois-2357-family-account-death-20261026"
+        }
+      ]
     },
     "Glasgow-753": {
       "profile_id": "Glasgow-753",
@@ -37430,7 +37456,7 @@
           "previous_probability_percent": null,
           "probability_percent": 93,
           "assertion_id": "C-maternal-20261026-robert2356-mary-mother",
-          "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+          "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
           "previous_status_provenance": [
             "Fresh anonymousWikiTree API26October2026:Mother29149776(MarthaThompson),unmarkedflag, no individualpercentage. This prior belongs to the former mother, not to Mary."
           ],
@@ -37438,11 +37464,11 @@
         }
       ],
       "preserve_captured_detail": false,
-      "reviewed_narrative_reduction": true,
+      "reviewed_narrative_reduction": false,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/robert-2356-maternal-preservation-2026-10-26.json",
+      "preservation_review_path": "research/ancestry-connections/lois-2357-maternal-preservation-2026-10-26.json",
       "significance": 95
     },
     "Glasgow-662": {
@@ -41708,12 +41734,12 @@
       "biography_rechecked_at": "2026-10-26",
       "draft_path": "research/Pierce-14470/maternal-review-2026-10-26.wiki",
       "findings_path": "research/Pierce-14470/findings.md",
-      "summary": "Record Mary J. Pierce as Robert Finley Glasgow’s biological mother at93%, from the explicit family-account child group; distinguish later stepmother Martha Thompson.",
-      "work_queue_summary": "Record Mary J. Pierce as Robert Finley Glasgow’s biological mother at93%, from the explicit family-account child group; distinguish later stepmother Martha Thompson.",
+      "summary": "Record Robert’s Mary maternity correction and independently review the existing Lois mother relationship at 93% each; distinguish Martha as stepmother.",
+      "work_queue_summary": "Record Robert’s Mary maternity correction and independently review the existing Lois mother relationship at 93% each; distinguish Martha as stepmother.",
       "significance": 90,
-      "preservation_review_path": "research/ancestry-connections/robert-2356-maternal-preservation-2026-10-26.json",
+      "preservation_review_path": "research/ancestry-connections/lois-2357-maternal-preservation-2026-10-26.json",
       "preserve_captured_detail": false,
-      "reviewed_narrative_reduction": true,
+      "reviewed_narrative_reduction": false,
       "relationship_changes": [
         {
           "action": "add",
@@ -41722,10 +41748,25 @@
           "status": "proved",
           "probability_percent": 93,
           "assertion_id": "C-maternal-20261026-robert2356-mary-mother",
-          "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+          "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
           "previous_status": "unmarked",
           "previous_probability_percent": null,
           "new_attachment": true
+        },
+        {
+          "action": "regrade",
+          "relationship": "child",
+          "relative_id": "Glasgow-2357",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 93,
+          "assertion_id": "clm-lois2357-mary-20261026",
+          "new_attachment": false,
+          "scope": "Subjective 93% for Lois Ladd Glasgow-2357 → Mary J. Pierce-14470 as biological mother. An explicit child-group clause in an undated retrospective family account attributed to William Melanchthon Glasgow supports this complete profile pair. It is not a contemporary birth register. The census references are retained household evidence, not newly inspected original images. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Other date discrepancies elsewhere in the account remain qualifications. Lois’s father remains 96%; guessed birth 1842 and upstream ancestry are unchanged. The account separately reports death in June 1870, with no day or place. The prior live mother was Mary, unmarked, with no numerical estimate; this is not a 0%→93% increase.",
+          "previous_status_provenance": [
+            "Anonymous WikiTree getPeople, 26 October 2026: Glasgow-2357 Mother=29149819 (Pierce-14470), DataStatus.Mother blank/unmarked, no individual percentage. Held tree assertion C-cddbc3538587 and imported parent claim rel-4a649bddb68a8d7d retained."
+          ]
         }
       ]
     },
@@ -41740,12 +41781,12 @@
       "biography_rechecked_at": "2026-10-26",
       "draft_path": "research/Thompson-63146/maternal-review-2026-10-26.wiki",
       "findings_path": "research/Thompson-63146/findings.md",
-      "summary": "Explain Martha Thompson’s stepmother role for Robert Finley and preserve the earlier Pierce/Thompson research note; no new biological-maternity percentage.",
-      "work_queue_summary": "Explain Martha Thompson’s stepmother role for Robert Finley and preserve the earlier Pierce/Thompson research note; no new biological-maternity percentage.",
+      "summary": "Explain Martha’s stepmother roles for Robert Finley and Lois Ladd, preserving the Pierce/Thompson surname research note; no biological-maternity percentage.",
+      "work_queue_summary": "Explain Martha’s stepmother roles for Robert Finley and Lois Ladd, preserving the Pierce/Thompson surname research note; no biological-maternity percentage.",
       "significance": 75,
-      "preservation_review_path": "research/ancestry-connections/robert-2356-maternal-preservation-2026-10-26.json",
+      "preservation_review_path": "research/ancestry-connections/lois-2357-maternal-preservation-2026-10-26.json",
       "preserve_captured_detail": false,
-      "reviewed_narrative_reduction": true,
+      "reviewed_narrative_reduction": false,
       "relationship_changes": []
     }
   },
