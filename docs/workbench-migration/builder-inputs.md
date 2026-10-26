@@ -227,12 +227,31 @@ internal links (0 new broken), finding links, tree links, site experience,
 asset stamps and privacy (0 failures, against the live site's 7 missing
 analytics tags).
 
+### Review of the files a rebuild removes (26 October 2026)
+
+A rebuild removes 6,574 files from a copy of the live `www/`. Each group was
+checked against what the live site links to and against the research:
+
+| Group | Files | Decision |
+| --- | ---: | --- |
+| `data/catalogue-details/*.json` | 5,778 | Content-hashed detail files from earlier builds; the rebuild writes the current ones. Only the live site's stale indexes point at the old ones. Safe to drop. |
+| `people/research-material/*` | 624 | Collapsed sections that `page_fragments.py` stores under a content hash; a changed section gets a new file. The live site already holds 874 such leftovers that nothing links to; the rebuild's link check passes. Safe to drop. |
+| `data/resolve/*.json` | 25 | Nothing links to them. Safe to drop. |
+| WikiTree merge redirect pages | 83 | 78 are rewritten by the release repairs (`publish_wikitree_redirect_aliases.py`). The other 5 are retired record subjects (below). |
+| Retired record subjects (`record-…`) | 19 with old URLs | Findmypast and record-defined subjects retired into existing people. 14 still had full, outdated pages on the live site, the rest redirects. Each now **redirects to the person it became**, taken from the research (retirement decisions, catalogue-profile links, Findmypast drafts in the person's folder, the 1577 Andrew reading → Glasgow-3589): `tools/publish_retired_record_redirects.py`, part of the release repairs. It only keeps URLs that were published (`data/site/retired-record-urls.json`) and never replaces a current catalogue page. |
+| `people/locations/location-unknown.html` | 1 | A catalogue location page the catalogue no longer makes; only the live site's own `catalogue.html` links it. Safe to drop. |
+| Seven place pages | 7 | Places with no current record (four were the broken links, fixed above). Only the live site's stale sitemap lists them. Safe to drop. |
+| Four data files (`irish-civil-deaths-1864-1900.csv`, `scotlandspeople-opr-marriages-to-1700.json`, `glasgow-newspaper-review.json`, `newspaper-targets.json`) | 4 | Removed by the catalogue's `data/` reset; now written again by the rebuild's Irish death index and OPR marriage steps and by the release's newspaper review. |
+
+Applied to a copy of the live `www/`, the redirect publisher replaces exactly
+the 14 outdated pages and the 5 older redirects, and the link check still
+reports 0 new broken links. None of the 19 is in the live search index.
+
 ## Remaining work, in order
 
-1. Review the files the rebuild no longer makes before a rebuilt `www/`
-   replaces the live one (old catalogue detail files, the 14 Findmypast record
-   pages and the superseded-reading page). Then run
-   `site_declared_inputs.py --save-state` from the reviewed rebuild.
+1. After the next full rebuild that passes its checks, run
+   `site_declared_inputs.py --save-state` from it; a rebuilt `www/` can then
+   replace the live one.
 2. Replace the build state with producers. Most of it is
    `assets/v3/sources/*.json` (16,318 source documents written by the canonical
    record ingest) and `assets/research/*` (10,338 files). Each should be

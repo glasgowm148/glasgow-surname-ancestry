@@ -68,6 +68,8 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     runpy.run_path(str(ROOT / 'tools/publish_newspaper_review.py'))['repair']()
     # Rendering old imported dossiers must not overwrite merge redirects.
     runpy.run_path(str(ROOT / 'tools/publish_wikitree_redirect_aliases.py'))['publish']()
+    # Retired record subjects (record-…) redirect to the person they became.
+    runpy.run_path(str(ROOT / 'tools/publish_retired_record_redirects.py'))['publish']()
     repair_privacy(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
     if gate:
