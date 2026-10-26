@@ -11264,29 +11264,47 @@
       "subject_id": "Glasgow-589",
       "relative_id": "Glasgow-209",
       "relationship": "father",
-      "percent": 68,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022d-glasgow-589-father",
-      "basis": "Moses Thomas’s 1809 birth fits John’s 1780 generation and the established American family account. The held family-history citation supports retaining this specific inherited placement, although the captured passage mainly describes Moses’s own marriages and children.",
+      "basis": "The inspected family account explicitly identifies Moses Thomas Glasgow as the fourth child and third son of John Glasgow, immediately giving his 29 October 1809 birth near Bakerstown. The same narrator calls John his paternal grandfather, born 28 April 1780, and Moses his father. Moses’s Mary J. Pierce marriage on 5 November 1839, Martha W. Thompson marriage in 1848, and 13 January 1892 death match Glasgow-589’s distinctive biography and structured dates. The explicit parent clause and this identity bridge replace the former inference from chronology and marriage/children passages. John Glasgow-209 is documented as the existing father at 94% within this retrospective family-account scope.",
       "source_ids": [
         "held-e-f0fe7f969e32"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "A probable family placement; John’s stated parents Hugh and Sally Blair belong to the previous generation and are not evidence naming Moses’s father."
+      "reviewed": "2026-10-26",
+      "scope": "Subjective 94% for Moses-589 → John-209 as the complete profile pair. This is an undated six-page typescript attributed to William Melanchthon Glasgow, a descendant family account rather than a contemporary birth register or probate. Known date discrepancies elsewhere remain qualifications. Moses’s 1892 death is not John’s death. Exact vital fields, maternity, John’s earlier ancestry and other children’s assessments are unchanged. The already held source was newly inspected for this clause; no new document or father attachment.",
+      "assessment_history": [
+        {
+          "percent": 68,
+          "assessment_status": "probable",
+          "basis": "Moses Thomas’s 1809 birth fits John’s 1780 generation and the established American family account. The held family-history citation supports retaining this specific inherited placement, although the captured passage mainly describes Moses’s own marriages and children.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-209",
       "relative_id": "Glasgow-589",
       "relationship": "child",
-      "percent": 68,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022d-glasgow-589-father",
-      "basis": "Moses Thomas’s 1809 birth fits John’s 1780 generation and the established American family account. The held family-history citation supports retaining this specific inherited placement, although the captured passage mainly describes Moses’s own marriages and children.",
+      "basis": "The inspected family account explicitly identifies Moses Thomas Glasgow as the fourth child and third son of John Glasgow, immediately giving his 29 October 1809 birth near Bakerstown. The same narrator calls John his paternal grandfather, born 28 April 1780, and Moses his father. Moses’s Mary J. Pierce marriage on 5 November 1839, Martha W. Thompson marriage in 1848, and 13 January 1892 death match Glasgow-589’s distinctive biography and structured dates. The explicit parent clause and this identity bridge replace the former inference from chronology and marriage/children passages. John Glasgow-209 is documented as the existing father at 94% within this retrospective family-account scope.",
       "source_ids": [
         "held-e-f0fe7f969e32"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "A probable family placement; John’s stated parents Hugh and Sally Blair belong to the previous generation and are not evidence naming Moses’s father."
+      "reviewed": "2026-10-26",
+      "scope": "Subjective 94% for Moses-589 → John-209 as the complete profile pair. This is an undated six-page typescript attributed to William Melanchthon Glasgow, a descendant family account rather than a contemporary birth register or probate. Known date discrepancies elsewhere remain qualifications. Moses’s 1892 death is not John’s death. Exact vital fields, maternity, John’s earlier ancestry and other children’s assessments are unchanged. The already held source was newly inspected for this clause; no new document or father attachment.",
+      "assessment_history": [
+        {
+          "percent": 68,
+          "assessment_status": "probable",
+          "basis": "Moses Thomas’s 1809 birth fits John’s 1780 generation and the established American family account. The held family-history citation supports retaining this specific inherited placement, although the captured passage mainly describes Moses’s own marriages and children.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-648",

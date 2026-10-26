@@ -2847,7 +2847,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3181) | OPEN | Review existing father at 58% (possible); no new father attachment. |
 | [Will Glasgow](https://www.wikitree.com/wiki/Glasgow-3408) | OPEN | Review existing father at 98% (proved); no new father attachment. |
 | [David Glasgow](https://www.wikitree.com/wiki/Glasgow-3543) | OPEN | Review existing father at 98% (proved); no new father attachment. |
-| [Moses Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-589) | OPEN | Review existing father at 68% (probable); no new father attachment. |
+| [Moses Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-589) | OPEN | 26 October 2026: father John Glasgow confidence68%→94% from inspected family-history parent clause; retrospective-source limits retained; no new attachment. |
 | [Joseph Glasgow](https://www.wikitree.com/wiki/Glasgow-648) | OPEN | Review existing father at 99% (proved); no new father attachment. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-665) | OPEN | Review existing father at 73% (probable); no new father attachment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1656) | OPEN | Review existing father at 95% (proved); no new father attachment. |

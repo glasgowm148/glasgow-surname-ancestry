@@ -59264,6 +59264,55 @@
           "scope": "Existing father attachment only;93% subjective confidence for the complete profile pair within retrospective family-account scope."
         }
       ]
+    },
+    {
+      "id": "moses-john-family-account-20261026",
+      "found_on": "2026-10-26",
+      "kind": "relationship",
+      "finding": "The inspected Glasgow family account explicitly names Moses Thomas as John Glasgow’s son, with exact birth/death and marriage details identifying Glasgow-589. The existing Moses-589 → John-209 father link rises from68%to94%.",
+      "status": "qualified",
+      "qualification": "Subjective 94% for Moses-589 → John-209 as the complete profile pair. This is an undated six-page typescript attributed to William Melanchthon Glasgow, a descendant family account rather than a contemporary birth register or probate. Known date discrepancies elsewhere remain qualifications. Moses’s 1892 death is not John’s death. Exact vital fields, maternity, John’s earlier ancestry and other children’s assessments are unchanged. The already held source was newly inspected for this clause; no new document or father attachment.",
+      "people": [
+        {
+          "id": "Glasgow-589",
+          "name": "Moses Thomas Glasgow",
+          "url": "/people/glasgow-589.html",
+          "role": "Named son, identified by exact dates and spouse sequence"
+        },
+        {
+          "id": "Glasgow-209",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-209.html",
+          "role": "Named father in the retrospective family account"
+        }
+      ],
+      "sources": [
+        {
+          "title": "William Melanchthon Glasgow, History of the Glasgow Family, pp.3–5",
+          "url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf"
+        }
+      ],
+      "detail_url": "/people/glasgow-589.html",
+      "provenance": "Visual review of held scan26October2026; SQLite assessment revision2→3; source already held, newly recognized explicit clause",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Moses Thomas Glasgow (Glasgow-589)",
+          "relative": "John Glasgow (Glasgow-209)",
+          "subject_id": "Glasgow-589",
+          "relative_id": "Glasgow-209",
+          "before": "probable",
+          "after": "certain",
+          "before_probability_percent": 68,
+          "after_probability_percent": 94,
+          "new_attachment": false,
+          "explanation": "The inspected family account explicitly identifies Moses Thomas Glasgow as the fourth child and third son of John Glasgow, immediately giving his 29 October 1809 birth near Bakerstown. The same narrator calls John his paternal grandfather, born 28 April 1780, and Moses his father. Moses’s Mary J. Pierce marriage on 5 November 1839, Martha W. Thompson marriage in 1848, and 13 January 1892 death match Glasgow-589’s distinctive biography and structured dates. The explicit parent clause and this identity bridge replace the former inference from chronology and marriage/children passages. John Glasgow-209 is documented as the existing father at 94% within this retrospective family-account scope.",
+          "previous_status_provenance": [
+            "SQLite C-coverage-20261022d-glasgow-589-father revision2:probable68%,22October2026; retained in history."
+          ],
+          "scope": "Subjective 94% for Moses-589 → John-209 as the complete profile pair. This is an undated six-page typescript attributed to William Melanchthon Glasgow, a descendant family account rather than a contemporary birth register or probate. Known date discrepancies elsewhere remain qualifications. Moses’s 1892 death is not John’s death. Exact vital fields, maternity, John’s earlier ancestry and other children’s assessments are unchanged. The already held source was newly inspected for this clause; no new document or father attachment."
+        }
+      ]
     }
   ]
 }

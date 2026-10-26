@@ -13832,24 +13832,26 @@
       "profile_id": "Glasgow-589",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-589/father-confidence-2026-10-22d.wiki",
+      "queued_at": "2026-10-26",
+      "biography_rechecked_at": "2026-10-26",
+      "draft_path": "research/Glasgow-589/father-confidence-2026-10-26.wiki",
       "findings_path": "research/Glasgow-589/findings.md",
-      "summary": "Review existing father at 68% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 68% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Raise existing Moses Thomas Glasgow → John Glasgow father confidence from68%to94% after inspecting an explicit parent clause and exact identity details in the held family account.",
+      "work_queue_summary": "26October2026: father68%→94%; explicit parent clause in held retrospective family history.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-209",
-          "status": "probable",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 68,
+          "status": "proved",
+          "previous_status": "probable",
+          "previous_probability_percent": 68,
+          "probability_percent": 94,
           "assertion_id": "C-coverage-20261022d-glasgow-589-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "A probable family placement; John’s stated parents Hugh and Sally Blair belong to the previous generation and are not evidence naming Moses’s father."
+          "previous_status_provenance": "SQLite revision2,22October2026:probable68%, retained in history; the earlier unmarked value describes the live-tree flag separately.",
+          "scope": "Subjective 94% for Moses-589 → John-209 as the complete profile pair. This is an undated six-page typescript attributed to William Melanchthon Glasgow, a descendant family account rather than a contemporary birth register or probate. Known date discrepancies elsewhere remain qualifications. Moses’s 1892 death is not John’s death. Exact vital fields, maternity, John’s earlier ancestry and other children’s assessments are unchanged. The already held source was newly inspected for this clause; no new document or father attachment.",
+          "previous_live_status": "unmarked",
+          "new_attachment": false
         }
       ],
       "preserve_captured_detail": false,
@@ -13857,7 +13859,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/moses-589-preservation-2026-10-26.json"
     },
     "Glasgow-648": {
       "profile_id": "Glasgow-648",

@@ -1,30 +1,17 @@
-# Findings: [Name not captured (Glasgow-589), birth unknown, birthplace unknown](https://www.wikitree.com/wiki/Glasgow-589)
-
-Record every useful result and negative search here as it is found.
-Do not treat an unsourced tree or naming pattern as proof.
+# Findings: Moses Thomas Glasgow (Glasgow-589)
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **68% (probable)** for [Glasgow-209](https://www.wikitree.com/wiki/Glasgow-209). A probable family placement; John’s stated parents Hugh and Sally Blair belong to the previous generation and are not evidence naming Moses’s father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Reviewed 26 October 2026. **John Glasgow (Glasgow-209) is assessed at 94% (confident) as Moses Thomas Glasgow’s father, qualified to the retrospective family-history account.** William Melanchthon Glasgow’s six-page family history states on page 4 that “the fourth child and third son of John Glasgow was my father,” identifying Moses; page 5 gives Moses’s marriages and death on 13 January 1892. Those details match Glasgow-589’s captured 29 October 1809 Bakerstown birth, spouse sequence, and 13 January 1892 death. The source is retrospective and undated, and no contemporary birth record was newly inspected. This is a confidence change for an existing relationship, not a new attachment or vital-field edit.
 
-No sourced conclusion recorded yet.
+## New source review — 26 October 2026
 
-## Source findings
+The visually inspected pages of [William Melanchthon Glasgow’s *History of the Glasgow Family*](https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf) resolve the prior gap. Page 4 identifies Moses as John Glasgow’s fourth child and third son; page 5 supplies his Mary J. Pierce and Martha W. Thompson marriages and the 13 January 1892 death. The distinctive dates and family sequence identify this Moses with Glasgow-589. The page’s “father died” wording is retained only as written and is not interpreted as John-209’s death; Glasgow-209’s separate life chronology remains unchanged.
 
-| Source | Finding | Assessment |
-| --- | --- | --- |
-| _Add a URL, archive reference, or local artifact_ | _State exactly what the source establishes_ | _Direct, indirect, negative, or exclusionary evidence_ |
+Limits: this is an undated retrospective six-page typescript attributed to William Melanchthon Glasgow, with known date errors elsewhere in the document. It does not replace a contemporary birth/baptism record. The 94% estimate concerns the complete child-to-father profile proposition; John-209’s own parentage and Moses’s maternity remain separate.
 
-## Father confidence review, fourth batch — 22 October 2026
+## Father confidence review — 22 October 2026 (superseded)
 
-[Glasgow-209](https://www.wikitree.com/wiki/Glasgow-209) remains the selected father, assessed **68% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
+The prior assessment was **68% (probable)** for [Glasgow-209](https://www.wikitree.com/wiki/Glasgow-209), based on chronology and the family account’s marriage/children passage before the parent paragraph was inspected. Its source basis and history remain preserved in the structured assessment; it is superseded by the 26 October review.
 
-Moses Thomas’s 1809 birth fits John’s 1780 generation and the established American family account. The held family-history citation supports retaining this specific inherited placement, although the captured passage mainly describes Moses’s own marriages and children.
-
-Scope: A probable family placement; John’s stated parents Hugh and Sally Blair belong to the previous generation and are not evidence naming Moses’s father.
-
-Next useful test: Check the Moses parent paragraph in the already cited Glasgow family-history PDF.
-
-This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
-
-Held source basis: [Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590)](https://www.wikitree.com/photo/pdf/Glasgow-590)
+Source basis: [Family history document written by William Melanchthon Glasgow](https://www.wikitree.com/photo/pdf/Glasgow-590).

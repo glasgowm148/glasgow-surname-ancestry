@@ -38,3 +38,7 @@ Scope: Whole father-profile proposition93%; the will gives no son’s age or res
 Next useful test: Verify the obituary and executor papers for John’s residence and age.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+## Son Moses Thomas: inspected family-account parent clause — 26 October 2026
+
+The inspected family history names Moses Thomas as John’s fourth child and third son (p.4); Moses’s exact 29 October 1809 birth, 13 January 1892 death and marriage sequence identify Glasgow-589 (pp.4–5). The existing father link rises from68%to94%, qualified to this retrospective account. See [Moses’s findings](../Glasgow-589/findings.md). John’s own father assessment and vital fields are unchanged.

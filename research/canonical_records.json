@@ -11786,28 +11786,41 @@
   },
   {
     "record_id": "held-e-f0fe7f969e32",
-    "record_type": "Previously held source citation",
-    "date": null,
+    "record_type": "Family history",
+    "date": "Undated family account, pp. 3–5",
     "place": null,
-    "association": "Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590]",
-    "source_title": "Family history document written by William Melanchthon Glasgow [https://www.wikitree.com/photo/pdf/Glasgow-590]",
+    "association": "Explicit father–son statement for John and Moses Thomas; Moses’s marriages and death identify the child profile",
+    "source_title": "William Melanchthon Glasgow, History of the Glasgow Family, pp. 3–5: John and his son Moses Thomas",
     "source_url": "https://www.wikitree.com/photo/pdf/Glasgow-590",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "Descendant family history",
+    "source_status": "Held six-page typescript scan; pp. 3–5 visually inspected for the father and profile-identity proposition",
+    "status": "Explicit retrospective parent clause; exact birth/death and spouse sequence identify Moses-589",
     "profiles": {
       "Glasgow-589": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Moses Thomas, named son of John, born 29 October 1809, died 13 January 1892; Mary Pierce and Martha Thompson marriages"
       },
       "Glasgow-2357": {
         "role": "Previously cited subject; relationship scope in the father assessment"
       },
       "Glasgow-2356": {
         "role": "Previously cited subject; relationship scope in the father assessment"
+      },
+      "Glasgow-209": {
+        "role": "John, named father of Moses and paternal grandfather of the narrator; born 28 April 1780"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review4-2026-10-22.json"
+    "note": "The inspected family account explicitly identifies Moses Thomas Glasgow as the fourth child and third son of John Glasgow, immediately giving his 29 October 1809 birth near Bakerstown. The same narrator calls John his paternal grandfather, born 28 April 1780, and Moses his father. Moses’s Mary J. Pierce marriage on 5 November 1839, Martha W. Thompson marriage in 1848, and 13 January 1892 death match Glasgow-589’s distinctive biography and structured dates. The explicit parent clause and this identity bridge replace the former inference from chronology and marriage/children passages. John Glasgow-209 is documented as the existing father at 94% within this retrospective family-account scope. Subjective 94% for Moses-589 → John-209 as the complete profile pair. This is an undated six-page typescript attributed to William Melanchthon Glasgow, a descendant family account rather than a contemporary birth register or probate. Known date discrepancies elsewhere remain qualifications. Moses’s 1892 death is not John’s death. Exact vital fields, maternity, John’s earlier ancestry and other children’s assessments are unchanged. The already held source was newly inspected for this clause; no new document or father attachment.",
+    "provenance": "research/ancestry-connections/father-coverage-review4-2026-10-22.json; visual review of held pages3–5 on26October2026; retained other cited-profile roles without a new identity claim",
+    "source_quality": "late_compiled_history",
+    "reviewed_on": "2026-10-26",
+    "date_status": "undated",
+    "year": null,
+    "source_copy_sha256": "3df318ff1d8e4abd61145cbf766465bc72965b57e08336682c21d66a1b12c9d1",
+    "historical_basis": {
+      "latest_event_year": 1892,
+      "source_url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf",
+      "reason": "Printed page5 explicitly records Moses Thomas Glasgow’s death on13January1892. This bounds the event discussed, not the undated typescript’s creation date."
+    }
   },
   {
     "record_id": "held-e-b05d8f2f2ddb",
@@ -23448,7 +23461,7 @@
     "source_title": "Melanchthon Glasgow, History of the Glasgow Family, pp. 3–4: John and Peninnah’s children and Alexander in Iowa",
     "source_url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf",
     "source_type": "Descendant family history",
-    "source_status": "Held six-page typescript scan; pages 1, 3, 4 and 6 visually inspected 26 October 2026",
+    "source_status": "Held six-page typescript scan; pages1,3–6 visually inspected26October2026; father/identity clauses scoped separately",
     "status": "Explicit retrospective parent clause; Alexander’s Iowa identity strongly fits Glasgow-997",
     "profiles": {
       "Glasgow-208": {
@@ -23462,9 +23475,12 @@
       },
       "Thomas-14610": {
         "role": "Peninnah Thomas, named wife on p. 3 and mother of the eight children on p. 4"
+      },
+      "Glasgow-589": {
+        "role": "Moses Thomas, explicit son of John in p.4 parent clause; exact29October1809 birth and13January1892 death plus marriages identify profile"
       }
     },
-    "note": "Page 4 names John and Peninnah’s eight children: Hugh, Alexander, Sarah, Moses, Robert, Nancy, Mary and Amy. Alexander was a farmer who moved to Sharon, Iowa and died in 1857. Robert is separately described as unmarried and living at Mount Washington, Pittsburgh. The writer calls John his paternal grandfather and Moses his father. This supplies the parent clause missing from Glasgow-997’s 22 October assessment; the known Iowa Alexander is the compatible profile, supported by the retained Cushing p. 289 Sarah/Alexander-of-Iowa citation. It does not establish Robert as Alexander’s additional given name. The account is retrospective and undated; its Nancy death year (1847) and Peninnah death year (1849) differ from retained profile dates, which are not changed. Nancy’s existing assessment is retained separately.",
+    "note": "Page 4 names John and Peninnah’s eight children: Hugh, Alexander, Sarah, Moses, Robert, Nancy, Mary and Amy. Alexander was a farmer who moved to Sharon, Iowa and died in 1857. Robert is separately described as unmarried and living at Mount Washington, Pittsburgh. The writer calls John his paternal grandfather and Moses his father. This supplies the parent clause missing from Glasgow-997’s 22 October assessment; the known Iowa Alexander is the compatible profile, supported by the retained Cushing p. 289 Sarah/Alexander-of-Iowa citation. It does not establish Robert as Alexander’s additional given name. The account is retrospective and undated; its Nancy death year (1847) and Peninnah death year (1849) differ from retained profile dates, which are not changed. Nancy’s existing assessment is retained separately. Pages4–5 were also inspected for Moses Thomas Glasgow-589: the fourth child and third son of John, born29October1809 near Bakerstown; his marriages and13January1892 death identify the existing child profile. His father assessment is now94% within retrospective-source scope. held-e-f0fe7f969e32 is an existing citation alias to this same held document, not independent corroboration.",
     "provenance": "research/ancestry-connections/father-coverage-review8-2026-10-22.json; direct visual review of held scan pp. 1, 3–4, 6 on 26 October 2026, source-role reconciliation for Glasgow-997",
     "year": null,
     "date_status": "undated",
