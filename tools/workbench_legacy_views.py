@@ -80,8 +80,15 @@ def research_fields(revision: dict[str, Any]) -> dict[str, Any]:
     """
     extra = _extra(revision)
     fields = {key: extra[key] for key in ("last_test", "next_test") if key in extra}
+    for key in ("working_selection", "attachment_status"):
+        if revision.get(key) is not None:
+            fields[key] = bool(revision[key]) if key == "working_selection" else revision[key]
     if isinstance(extra.get("research_state"), dict):
         fields["research_state"] = extra["research_state"]
+    structural = ("allow_new_relationship", "lifecycle", "display", "current", "role_correction",
+                  "tree_parent_replacement", "working_parent_replacement", "previous_working_selection",
+                  "model_note", "analysis_links", "historical_assertions", "profile_names", "profile_urls")
+    fields.update({key: extra[key] for key in structural if key in extra})
     return fields
 
 
@@ -179,8 +186,8 @@ class Views:
         if current["estimate_percent"] is not None:
             fields["probability"] = {"value": current["estimate_percent"] / 100, "reviewed": current["assessed_on"],
                                      "basis": current["reasoning"], "source_ids": fields.get("source_ids", [])}
-            if current["limitations"] is not None and isinstance(row.get("probability"), dict) \
-                    and row["probability"].get("scope") is not None:
+            if current["limitations"] is not None and (not row.get("probability")
+                    or row["probability"].get("scope") is not None):
                 fields["probability"]["scope"] = current["limitations"]
         else:
             fields["probability"] = None
@@ -192,11 +199,17 @@ class Views:
 
     def new_assessment(self, claim: dict[str, Any], revisions: list[dict[str, Any]]) -> dict[str, Any]:
         child, relative = self.person(claim["subject_person_id"]), self.person(claim["object_person_id"])
+        relation_type = claim.get("relation_type")
+        role = ("stepfather" if claim["predicate"] == "father" else "stepmother" if claim["predicate"] == "mother"
+                else claim["predicate"]) if relation_type == "step" else claim["predicate"]
+        reverse_role = "stepchild" if relation_type == "step" and claim["predicate"] in {"father", "mother"} \
+            else REVERSE[claim["predicate"]]
         aid = (self.store.one("SELECT value FROM external_id WHERE entity_id=? AND system='glasgow-assertion'",
                               (claim["id"],)) or {}).get("value") or claim["id"]
         row = {"assertion_id": aid, "people": [child, relative], "claim": claim["proposition"],
-               "perspectives": {child: {"relationship": claim["predicate"]},
-                                relative: {"relationship": REVERSE[claim["predicate"]]}},
+               "relation_type": claim.get("relation_type"),
+               "perspectives": {child: {"relationship": role},
+                                relative: {"relationship": reverse_role}},
                "publication_status": claim["publication_status"], "source_ids": [],
                "provenance": {"source": "genealogy-research-workbench database", "claim_id": claim["id"]}}
         row.update(self.derived_assessment(revisions, {}))
@@ -235,9 +248,13 @@ class Views:
                 child, relative = self.person(claim["subject_person_id"]), self.person(claim["object_person_id"])
                 aid = (self.store.one("SELECT value FROM external_id WHERE entity_id=? AND system='glasgow-assertion'",
                                       (claim["id"],)) or {}).get("value") or claim["id"]
+                relation_type = claim.get("relation_type")
                 for subject, other, role in ((child, relative, claim["predicate"]),
                                              (relative, child, REVERSE[claim["predicate"]])):
-                    new.append({"subject_id": subject, "relative_id": other, "relationship": role, "percent": percent,
+                    display_role = ("stepfather" if role == "father" else "stepmother" if role == "mother"
+                                    else "stepchild" if role == "child" else role) \
+                    if relation_type == "step" else role
+                    new.append({"subject_id": subject, "relative_id": other, "relationship": display_role, "percent": percent,
                                 "assessment_status": current["status"], "assertion_id": aid,
                                 "basis": current["reasoning"], "reviewed": current["assessed_on"],
                                 **research_fields(current)})

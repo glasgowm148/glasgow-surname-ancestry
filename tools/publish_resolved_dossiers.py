@@ -257,7 +257,8 @@ def resolve(dossier, assessments, shared_assessments=()):
                 raise ValueError(f"Shared assertion {aid} must identify one relative")
             other = others[0]
             current = shared_relationship(dossier['id'], {'id': other}, [assessment])
-            groups = {'father': 'parents', 'mother': 'parents', 'son': 'children',
+            groups = {'father': 'parents', 'mother': 'parents', 'stepfather': 'parents',
+                      'stepmother': 'parents', 'son': 'children', 'stepchild': 'children',
                       'daughter': 'children', 'child': 'children', 'sibling': 'siblings', 'spouse': 'spouses'}
             group = groups.get(current.get('relationship'))
             if not group or not assessment.get('source_ids'):
@@ -273,7 +274,8 @@ def resolve(dossier, assessments, shared_assessments=()):
             result.setdefault('relationships', {}).setdefault(group, []).append(current)
         correction = (assessment.get('role_correction') or {}).get(dossier['id'])
         if correction:
-            groups = {'father': 'parents', 'mother': 'parents', 'son': 'children',
+            groups = {'father': 'parents', 'mother': 'parents', 'stepfather': 'parents',
+                      'stepmother': 'parents', 'son': 'children', 'stepchild': 'children',
                       'daughter': 'children', 'child': 'children', 'sibling': 'siblings', 'spouse': 'spouses'}
             role = current.get('relationship')
             if correction.get('to') != role or role not in groups or not assessment.get('source_ids'):
@@ -281,8 +283,12 @@ def resolve(dossier, assessments, shared_assessments=()):
             # One reviewed pair may replace both a mistaken parent row and an
             # ungraded sibling row. Preserve both in history, publish one row
             # in the group matching the explicitly corrected relationship.
+            prior_roles = set(correction.get('from', []))
             for rows in result['relationships'].values():
-                rows[:] = [row for row in rows if row.get('claim_id') != aid]
+                rows[:] = [row for row in rows if not (
+                    row.get('claim_id') in previous_ids or row.get('claim_id') == aid
+                    or (row.get('relationship') in prior_roles
+                        and row.get('id') == current.get('id')))]
             result['relationships'].setdefault(groups[role], []).append(current)
         # Status, role, interpretation and citations come from the same reviewed
         # pair and its explicit viewing-person perspective, not a UI override.

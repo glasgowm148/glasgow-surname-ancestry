@@ -43,3 +43,60 @@ class ReviewedParentCorrectionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'cycle'):
             apply_reviewed_parent_replacements(people,reviews)
         self.assertEqual(people,old)
+
+    def _mother_fixture(self):
+        people = [dict(id='Child-1', name='Child', parents=[dict(id='Martha-1', role='mother')]),
+                  dict(id='Martha-1', name='Martha', parents=[], childrenRecorded=[dict(id='Child-1')]),
+                  dict(id='Mary-1', name='Mary', parents=[], childrenRecorded=[])]
+        correction = dict(assertion_id='stepmother', people=['Child-1', 'Martha-1'],
+                          publication_status='approved', source_ids=['correction'],
+                          role_correction={'Child-1': {'from': ['mother'], 'to': 'stepmother'}})
+        parent = dict(assertion_id='mother', publication_status='approved', status='proved',
+                      source_ids=['family'], basis='Named child group',
+                      perspectives={'Child-1': {'relationship': 'mother'}},
+                      tree_parent_replacement=dict(child='Child-1', mother='Mary-1', role='mother',
+                          previous_parent='Martha-1', role_correction_assertion='stepmother',
+                          reason='Mary is the named biological mother'))
+        return people, [correction, parent]
+
+    def test_supported_mother_replacement_retains_stepmother_history(self):
+        people, reviews = self._mother_fixture()
+        changed = apply_reviewed_parent_replacements(people, reviews)
+        self.assertEqual(changed, ['Child-1', 'Martha-1', 'Mary-1'])
+        self.assertEqual(people[0]['parents'][0]['id'], 'Mary-1')
+        self.assertEqual(people[0]['parents'][0]['role'], 'mother')
+        self.assertEqual(people[0]['priorParentRoles'][0]['id'], 'Martha-1')
+        self.assertEqual(people[1]['priorChildRoles'][0]['id'], 'Child-1')
+        self.assertEqual(people[1]['childrenRecorded'], [])
+        self.assertEqual(people[2]['childrenRecorded'][0]['id'], 'Child-1')
+
+    def test_mother_replacement_is_idempotent(self):
+        people, reviews = self._mother_fixture(); apply_reviewed_parent_replacements(people, reviews)
+        once = deepcopy(people); apply_reviewed_parent_replacements(people, reviews)
+        self.assertEqual(people, once)
+
+    def test_mother_cycle_rolls_back(self):
+        people, reviews = self._mother_fixture(); people[2]['parents'] = [dict(id='Child-1', role='father')]
+        old = deepcopy(people)
+        with self.assertRaisesRegex(ValueError, 'cycle'):
+            apply_reviewed_parent_replacements(people, reviews)
+        self.assertEqual(people, old)
+
+    def test_competing_mother_rolls_back(self):
+        people, reviews = self._mother_fixture(); people[0]['parents'].append(dict(id='Other-1', role='mother'))
+        old = deepcopy(people)
+        with self.assertRaises(ValueError): apply_reviewed_parent_replacements(people, reviews)
+        self.assertEqual(people, old)
+
+    def test_wrong_correction_endpoints_and_missing_source_rejected(self):
+        people, reviews = self._mother_fixture(); reviews[0]['people'].append('Extra-1')
+        with self.assertRaises(ValueError): apply_reviewed_parent_replacements(people, reviews)
+        people, reviews = self._mother_fixture(); reviews[0]['source_ids'] = []
+        with self.assertRaises(ValueError): apply_reviewed_parent_replacements(people, reviews)
+
+    def test_duplicate_mother_replacements_roll_back(self):
+        people, reviews = self._mother_fixture(); duplicate = deepcopy(reviews[1]); duplicate['assertion_id'] = 'mother-2'
+        reviews.append(duplicate); old = deepcopy(people)
+        with self.assertRaisesRegex(ValueError, 'same child and role'):
+            apply_reviewed_parent_replacements(people, reviews)
+        self.assertEqual(people, old)

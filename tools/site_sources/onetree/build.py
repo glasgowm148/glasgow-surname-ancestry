@@ -399,47 +399,68 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
         replacement = assessment.get('tree_parent_replacement')
         if not replacement:
             continue
-        child, father, previous = (replacement.get(k) for k in ('child', 'father', 'previous_parent'))
+        role = replacement.get('role', 'father')
+        parent_key = 'mother' if role == 'mother' else 'father'
+        child, parent, previous = (replacement.get(k) for k in ('child', parent_key, 'previous_parent'))
         correction = approved.get(replacement.get('role_correction_assertion'), {})
-        if (child not in by_id or father not in by_id or previous == father
+        correction_view = correction.get('role_correction', {}).get(child, {})
+        if (role not in {'father', 'mother'} or child not in by_id or parent not in by_id or previous == parent
                 or assessment.get('status') not in {'proved', 'strongly_supported', 'confident'}
                 or not assessment.get('source_ids')
-                or assessment.get('perspectives', {}).get(child, {}).get('relationship') != 'father'
-                or correction.get('role_correction', {}).get(child, {}).get('to') != 'sibling'
-                or previous not in correction.get('people', []) or not correction.get('source_ids')):
-            raise ValueError('Parent replacement requires an approved father and sourced sibling-role correction')
-        old = [r for r in by_id[child]['parents'] if r.get('role') == 'father']
-        if any(r.get('id') not in {previous, father} for r in old):
-            raise ValueError('Parent replacement conflicts with another attached father: ' + child)
-        proposals.append((child, father, assessment, old))
-    edges = {p['id']: next((r['id'] for r in p['parents'] if r.get('role') == 'father'), None) for p in people}
-    edges.update({child: father for child, father, _, _ in proposals})
-    for child, _, _, _ in proposals:
-        seen, node = set(), child
-        while node:
-            if node in seen:
-                raise ValueError('Parent replacement introduces a paternal cycle: ' + child)
-            seen.add(node); node = edges.get(node)
+                or assessment.get('perspectives', {}).get(child, {}).get('relationship') != role
+                or correction_view.get('from') != [role]
+                or correction_view.get('to') != ('sibling' if role == 'father' else 'stepmother')
+                or set(correction.get('people', [])) != {child, previous} or not correction.get('source_ids')):
+            raise ValueError('Parent replacement requires an approved father and sourced sibling-role correction'
+                             if role == 'father' else 'Parent replacement requires an approved mother and sourced stepmother-role correction')
+        old = [r for r in by_id[child]['parents'] if r.get('role') == role]
+        already_applied = len(old) == 1 and old[0].get('id') == parent
+        if (not already_applied and (len(old) != 1 or old[0].get('id') != previous)):
+            raise ValueError(f'Parent replacement conflicts with another attached {role}: {child}')
+        if not assessment.get('source_ids') or not correction.get('source_ids'):
+            raise ValueError('Parent replacement requires precise shared source IDs')
+        proposals.append((child, parent, role, assessment, old, already_applied))
+    keys = [(c, r) for c, _, r, _, _, _ in proposals]
+    if len(keys) != len(set(keys)):
+        raise ValueError('Multiple parent replacements for the same child and role')
+    edges = {(p['id'], r): next((x['id'] for x in p['parents'] if x.get('role') == r), None)
+             for p in people for r in ('father', 'mother')}
+    edges.update({(child, role): parent for child, parent, role, _, _, _ in proposals})
+    for child, _, _, _, _, _ in proposals:
+        visiting, done = set(), set()
+        def visit(node):
+            if not node or node in done:
+                return
+            if node in visiting:
+                raise ValueError('Parent replacement introduces a cycle: ' + child)
+            visiting.add(node)
+            for edge_role in ('father', 'mother'):
+                visit(edges.get((node, edge_role)))
+            visiting.remove(node); done.add(node)
+        visit(child)
     changed = set()
-    for child, father, assessment, old in proposals:
+    for child, parent, role, assessment, old, already_applied in proposals:
         person = by_id[child]
-        person['priorParentRoles'] = old
-        person['parents'] = [r for r in person['parents'] if r.get('role') != 'father'] + [dict(
-            id=father, name=by_id[father]['name'], role='father', status=assessment['status'], inModel=True,
+        if not already_applied:
+            person.setdefault('priorParentRoles', []).extend(deepcopy(old))
+        person['parents'] = [r for r in person['parents'] if r.get('role') != role] + [dict(
+            id=parent, name=by_id[parent]['name'], role=role, status=assessment['status'], inModel=True,
             source='approved_research_parent_replacement', assertion_id=assessment['assertion_id'],
             reason=assessment['basis'], analysis_links=assessment.get('analysis_links', []))]
-        person['note'] = (person.get('note', '') + ' ' + assessment['tree_parent_replacement']['reason']).strip()
+        reason = assessment['tree_parent_replacement']['reason']
+        if reason not in person.get('note', ''):
+            person['note'] = (person.get('note', '') + ' ' + reason).strip()
         previous = assessment['tree_parent_replacement']['previous_parent']
-        if previous in by_id:
+        if previous in by_id and not already_applied:
             old_children = by_id[previous].get('childrenRecorded', [])
             by_id[previous]['priorChildRoles'] = [r for r in old_children if r.get('id') == child]
             by_id[previous]['childrenRecorded'] = [r for r in old_children if r.get('id') != child]
             changed.add(previous)
-        current_children = [r for r in by_id[father].get('childrenRecorded', []) if r.get('id') != child]
+        current_children = [r for r in by_id[parent].get('childrenRecorded', []) if r.get('id') != child]
         current_children.append(dict(id=child, name=person['name'], role='child', inModel=True,
             status=assessment['status'], reason=assessment['basis'], assertion_id=assessment['assertion_id']))
-        by_id[father]['childrenRecorded'] = current_children
-        changed.update([child, father])
+        by_id[parent]['childrenRecorded'] = current_children
+        changed.update([child, parent])
     return sorted(changed)
 
 

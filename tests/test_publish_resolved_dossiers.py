@@ -11,6 +11,25 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_stepmother_correction_preserves_history_and_catalogue_biological_mother(self):
+        original = {'id': 'Child-1', 'relationships': {'parents': [
+            {'id': 'Martha-1', 'name': 'Martha', 'relationship': 'mother', 'claim_id': 'old-mother'}]},
+                    'claims': []}
+        assertion = {'assertion_id': 'stepmother-review', 'people': ['Child-1', 'Martha-1'],
+                     'publication_status': 'approved', 'status': 'proved', 'source_ids': ['record'],
+                     'allow_new_relationship': False,
+                     'perspectives': {'Child-1': {'relationship': 'stepmother', 'reason': 'Source identifies a stepmother.'}},
+                     'role_correction': {'Child-1': {'from': ['mother'], 'to': 'stepmother'}}}
+        resolved = module.resolve(original, [], [assertion])
+        self.assertEqual('stepmother', resolved['relationships']['parents'][0]['relationship'])
+        self.assertEqual('old-mother', resolved['relationship_history'][0]['claim_id'])
+        mary = {'id': 'Mary-1', 'name': 'Mary', 'relationship': 'mother', 'claim_id': 'new-mother',
+                'status': 'proved', 'lifecycle': 'current', 'display': 'current'}
+        resolved['relationships']['parents'].append(mary)
+        rows = [{'id': 'Child-1'}]
+        module.project_catalogue_parents(rows, {'child-1': resolved})
+        self.assertEqual(['Mary-1'], [p['id'] for p in rows[0]['mother']])
+
     def test_reviewed_name_replays_and_restores_without_changing_family(self):
         original = {'id': 'Person-1', 'name': 'Wrong record label', 'relationships': {'parents': []}, 'claims': []}
         review = {'id': 'name-review', 'subject': 'Person-1', 'status': 'approved',

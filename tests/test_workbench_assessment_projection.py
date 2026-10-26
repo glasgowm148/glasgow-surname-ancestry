@@ -56,6 +56,47 @@ class AssessmentProjectionTests(unittest.TestCase):
         self.assertEqual({tuple(r["source_ids"]) for r in estimates}, {("will-1805",)})
         self.assertEqual(original, self.fixture.assessments if hasattr(self.fixture, "assessments") else fixture_helpers.ASSESSMENTS)
 
+    def test_fresh_maternal_claim_exports_selection_replacement_and_relation_type(self):
+        import tools.workbench_legacy_views as views
+        view = views.Views.__new__(views.Views)
+        view.store = type("Store", (), {"one": lambda self, *args: None})()
+        view.person = lambda ident: {"per-child": "Child-1", "per-mother": "Mother-1"}[ident]
+        revision = {
+            "status": "probable", "assessed_on": "2026-10-26", "reasoning": "Record names Mary.",
+            "limitations": "Original image not inspected.", "basis_json": '["record-mary"]',
+            "estimate_percent": 93, "extra_json": '{"allow_new_relationship": true, "working_parent_replacement": '
+            '{"previous_parent": "Thompson-1"}, "analysis_links": [{"label": "Review", "href": "/review"}], '
+            '"research_state": {"disposition": "ready"}}', "working_selection": 1,
+            "attachment_status": "unmarked"
+        }
+        row = view.new_assessment({"id": "claim-mother", "subject_person_id": "per-child",
+                                   "object_person_id": "per-mother", "predicate": "mother",
+                                   "relation_type": "biological", "proposition": "Mother-1 is mother of Child-1",
+                                   "publication_status": "approved"}, [revision])
+        self.assertEqual(row["relation_type"], "biological")
+        self.assertTrue(row["working_selection"])
+        self.assertTrue(row["allow_new_relationship"])
+        self.assertEqual(row["working_parent_replacement"]["previous_parent"], "Thompson-1")
+        self.assertEqual(row["perspectives"]["Child-1"]["relationship"], "mother")
+        self.assertEqual(row["probability"]["scope"], "Original image not inspected.")
+        self.assertEqual(row["analysis_links"][0]["label"], "Review")
+
+    def test_fresh_stepmother_claim_uses_step_roles_in_both_views(self):
+        import tools.workbench_legacy_views as views
+        view = views.Views.__new__(views.Views)
+        view.store = type("Store", (), {"one": lambda self, *args: None})()
+        view.person = lambda ident: {"per-child": "Child-1", "per-mother": "Mother-1"}[ident]
+        revision = {"status": "possible", "assessed_on": "2026-10-26", "reasoning": "Household evidence.",
+                    "limitations": "Step relationship; birth maternity unproved.", "basis_json": '["household-1"]',
+                    "estimate_percent": 40, "extra_json": '{}', "working_selection": 1, "attachment_status": "unmarked"}
+        claim = {"id": "claim-step", "subject_person_id": "per-child", "object_person_id": "per-mother",
+                 "predicate": "mother", "relation_type": "step", "proposition": "Mother-1 is stepmother of Child-1",
+                 "publication_status": "approved"}
+        row = view.new_assessment(claim, [revision])
+        self.assertEqual(row["perspectives"], {"Child-1": {"relationship": "stepmother"},
+                                                  "Mother-1": {"relationship": "stepchild"}})
+        self.assertEqual(row["relation_type"], "step")
+
 
 if __name__ == "__main__":
     unittest.main()
