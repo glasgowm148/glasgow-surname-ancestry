@@ -74,6 +74,9 @@ step 0 release-repairs     $PY -c "import runpy; runpy.run_path('tools/publish_r
 step 0 irish-death-index   $PY tools/publish_irish_death_index.py
 step 0 opr-marriages       $PY tools/publish_opr_marriage_review.py
 step 0 tree-links          $PY tools/profile_tree_links.py   # the check below expects every page's tree row
+# Later steps rewrite the atlas models after the release's DNA repair; restore the
+# approved versions last, or the privacy check finds individual DNA annotations.
+step 0 dna-withhold        $PY -c "import runpy; print(runpy.run_path('tools/repair_public_dna.py')['repair']())"
 step 0 finalize            $PY -c "from tools.finalize_site import finalize; print(finalize())"
 step 1 check-research      $PY tools/check_research_publication.py --baseline data/site/research-publication-baseline.json
 step 1 check-release       $PY tools/check_release_consistency.py

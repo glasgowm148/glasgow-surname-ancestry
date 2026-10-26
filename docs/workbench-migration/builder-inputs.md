@@ -187,6 +187,30 @@ Still not reproduced by any build step: 14 record-defined person pages
 superseded-reading page from `reconcile_retired_record_subjects.py`), and four
 place pages that branch pages link to under place ids no current tool assigns.
 
+### Full rebuild from an empty `www/` (26 October 2026, afternoon)
+
+With the release repairs, the source-page layout fix and the other session's
+committed research, the rebuild from an empty `www/` runs **all 29 build
+steps**, and its checks compare with the live site's as follows:
+
+| Check | Live `www/` | Rebuilt from empty |
+| --- | --- | --- |
+| Research publication | passes | passes |
+| Tree links | 0 pages to change | 0 pages to change |
+| Finding links, site experience, asset stamps | pass | pass |
+| Release consistency: new items against the baseline | 0 | 0 |
+| Internal links: new broken links | 0 | 4 |
+| Privacy | 7 missing analytics tags | 3 atlas models with individual DNA annotations |
+
+The privacy difference comes from step order: steps after the release repairs
+rewrite the three atlas models, which then no longer match their approved
+restoration. Running the DNA repair again leaves the rebuilt site with **0
+privacy failures**. The rebuild script now does that as its last build step.
+The four broken links are branch pages linking to place pages
+(`profile-place-297788ceae31`, `osm-way-41228538`, `cross-ballymoney`,
+`profile-place-0b1ad58426e4`) that the place builder no longer produces. The
+live site still has them from earlier builds; finding why is next.
+
 ## Remaining work, in order
 
 1. Bring the rebuilt site to the live site's checks (above): the broken links,
