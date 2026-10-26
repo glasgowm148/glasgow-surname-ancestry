@@ -310,9 +310,13 @@ def from_sources(evidence=None, profiles=None, *, all_exports=False):
             from project_paths import merged_map_profiles
         except ModuleNotFoundError:
             from tools.project_paths import merged_map_profiles
-        merged, _ = merged_map_profiles()
-    if profiles is None:
-        profiles, merged = merged, None
+        if profiles is None:
+            profiles, _ = merged_map_profiles()
+        else:
+            try:
+                merged, _ = merged_map_profiles()
+            except FileNotFoundError:   # no exports here (a fresh clone or CI): nothing more to add
+                merged = None
     rows = list((profiles or {}).items()) + list((merged or {}).items())
     for profile_id, capture in (evidence or {}).get("profiles", {}).items():
         rows.append((profile_id, capture))
