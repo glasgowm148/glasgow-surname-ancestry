@@ -47,15 +47,35 @@ def content_hash(path: Path) -> str:
     return digest.hexdigest()[:10]
 
 
-def _scan(site_root: Path, *, graph: bool = True):
+def _excluded_sources(site_root: Path, excludes) -> set[Path]:
+    result = set()
+    for value in excludes or ():
+        candidate = Path(value)
+        if candidate.is_absolute() or ".." in candidate.parts:
+            raise ValueError(f"Excluded source must be a site-relative path: {value}")
+        resolved = (site_root / candidate).resolve()
+        try:
+            resolved.relative_to(site_root.resolve())
+        except ValueError as exc:
+            raise ValueError(f"Excluded source is outside site root: {value}") from exc
+        if not resolved.is_file() or resolved.suffix not in SOURCE_SUFFIXES:
+            raise ValueError(f"Excluded source is not an existing .html/.js file: {value}")
+        result.add(resolved)
+    return result
+
+
+def _scan(site_root: Path, *, graph: bool = True, excludes=()):
     """Stream source contents; retain hashes and compact references, never text."""
     sources = sorted(path for path in site_root.rglob("*")
                      if path.suffix in SOURCE_SUFFIXES and path.is_file())
+    excluded = _excluded_sources(site_root, excludes)
     targets, hashes, mismatches = {}, {}, []
     resolved_assets = {}
     for source in sources:
         data = source.read_bytes()
         hashes[source.resolve()] = hashlib.sha256(data).hexdigest()[:10]
+        if source.resolve() in excluded:
+            continue
         text = data.decode("utf-8")
         del data
         refs = []
@@ -80,18 +100,20 @@ def _scan(site_root: Path, *, graph: bool = True):
     return sources, targets, hashes, mismatches
 
 
-def find_mismatches(site_root: Path) -> list[Mismatch]:
-    return _scan(site_root, graph=False)[-1]
+def find_mismatches(site_root: Path, *, excludes=()) -> list[Mismatch]:
+    return _scan(site_root, graph=False, excludes=excludes)[-1]
 
 
-def stamp(site_root: Path, write: bool) -> tuple[int, int]:
+def stamp(site_root: Path, write: bool, *, excludes=()) -> tuple[int, int]:
     """Return (changed sources, original stale references).
 
     Write dependencies before consumers, so an acyclic asset chain settles in
     one pass. Cycles cannot be assigned stable content hashes by this method;
     reject them before writing anything and leave the check failure visible.
     """
-    sources, targets, hashes, mismatches = _scan(site_root, graph=write)
+    sources, targets, hashes, mismatches = _scan(site_root, graph=write, excludes=excludes)
+    excluded = _excluded_sources(site_root, excludes)
+    sources = [source for source in sources if source.resolve() not in excluded]
     if not write:
         return len({m.source for m in mismatches}), len(mismatches)
 
@@ -148,16 +170,20 @@ def main() -> int:
     mode.add_argument("--check", action="store_true", help="report stale versions")
     mode.add_argument("--write", action="store_true", help="replace stale versions")
     parser.add_argument("site_root", type=Path, nargs="?", default=Path(__file__).parents[1] / "www")
+    parser.add_argument("--exclude", action="append", default=[], metavar="SITE_RELATIVE_PATH",
+                        help="leave this .html/.js source unchanged (repeatable)")
     args = parser.parse_args()
     site_root = args.site_root.resolve()
     if args.check:
-        mismatches = find_mismatches(site_root)
+        mismatches = find_mismatches(site_root, excludes=args.exclude)
         sources = sorted({mismatch.source.relative_to(site_root) for mismatch in mismatches})
         for source in sources:
             print(f"stale: {source}")
         print(f"{len(sources)} files with stale versions; {len(mismatches)} stale references")
         return 1 if mismatches else 0
-    changed, references = stamp(site_root, args.write)
+    changed, references = stamp(site_root, args.write, excludes=args.exclude)
+    if args.exclude:
+        print("excluded sources: " + ", ".join(args.exclude))
     print(f"updated {changed} files; {references} version references")
     return 0
 

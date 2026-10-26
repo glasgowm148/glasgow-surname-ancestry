@@ -89,6 +89,26 @@ class StampAssetVersionsTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 stamp(root, True)
 
+    def test_excluded_source_is_unchanged_but_consumers_use_its_hash(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            source = '<script src="/shared.js?v=old"></script>\n'
+            (root / 'shared.js').write_text(source)
+            page = root / 'index.html'
+            page.write_text('<script src="/shared.js?v=old"></script>\n')
+            before = (root / 'shared.js').read_bytes()
+            self.assertEqual(stamp(root, True, excludes=("shared.js",)), (1, 1))
+            self.assertEqual((root / 'shared.js').read_bytes(), before)
+            self.assertIn(digest(source), page.read_text())
+            self.assertEqual(find_mismatches(root, excludes=("shared.js",)), [])
+
+    def test_invalid_exclusion_is_rejected(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / 'index.html').write_text('')
+            with self.assertRaisesRegex(ValueError, 'existing'):
+                stamp(root, True, excludes=("missing.html",))
+
 
 if __name__ == '__main__':
     unittest.main()
