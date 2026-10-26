@@ -98,6 +98,17 @@ class Views:
         self.research = Research(store)
         self.wikitree = {row["entity_id"]: row["value"] for row in store.all(
             "SELECT entity_id, value FROM external_id WHERE system='wikitree' AND status='current' ORDER BY value")}
+        local_rows = store.all(
+            "SELECT entity_id, value FROM external_id "
+            "WHERE system='glasgow-local' AND status='current' ORDER BY value")
+        local_values: dict[str, list[str]] = {}
+        for row in local_rows:
+            local_values.setdefault(row["entity_id"], []).append(row["value"])
+        # A local alias is safe only when it uniquely identifies the public
+        # subject.  Multiple aliases are retained in the database but must not
+        # silently choose one for a generated relationship view.
+        self.local = {entity_id: values[0] for entity_id, values in local_values.items()
+                      if len(set(values)) == 1}
 
     def revisions(self, claim_id: str) -> list[dict[str, Any]]:
         return self.store.all(
@@ -115,7 +126,7 @@ class Views:
             "SELECT 1 FROM import_origin WHERE entity_id=? LIMIT 1", (claim["id"],))
 
     def person(self, person_id: str) -> str:
-        return self.wikitree.get(person_id, person_id)
+        return self.wikitree.get(person_id, self.local.get(person_id, person_id))
 
     def claims(self) -> list[dict[str, Any]]:
         rows = self.store.all("SELECT * FROM claim WHERE kind='relationship' ORDER BY id")
