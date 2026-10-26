@@ -185,7 +185,9 @@ def build(web: Path, policy=None) -> tuple[dict[str, dict], list[dict], Counter]
 
 def write(web: Path, changed: dict[str, dict], rows: list[dict]) -> list[str]:
     """Write the documents, the index and a standard page for each new source."""
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    for path in (ROOT, Path(__file__).resolve().parent):   # the ingest imports tools.* as a package
+        if str(path) not in sys.path:
+            sys.path.insert(0, str(path))
     from ingest_canonical_records import packed_source_index, source_browse_pages, source_page  # noqa: E402
     template = next(iter(sorted((web / "sources").glob("s-*/index.html"))), None)
     pages = []

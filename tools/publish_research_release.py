@@ -2,6 +2,12 @@
 """Refresh research-access interfaces after targeted or full site generation."""
 from pathlib import Path
 import runpy
+import sys
+
+# Run as a script, only tools/ is on the import path; the release steps also
+# import tools.* as a package (the canonical-record ingest), so add the root.
+if str(Path(__file__).resolve().parents[1]) not in sys.path:
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 try:
     from catalogue_theme import repair_clean_catalogue_stylesheet
 except ModuleNotFoundError:
@@ -77,6 +83,9 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     runpy.run_path(str(ROOT / 'tools/publish_retired_record_redirects.py'))['publish']()
     repair_privacy(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
+    # Later repairs rewrite the atlas models after the first DNA repair; restore the
+    # approved versions before the gate, so even a stopped release leaves them withheld.
+    runpy.run_path(str(ROOT / 'tools/repair_public_dna.py'))['repair']()
     if gate:
         research_publication_gate()
     try:
