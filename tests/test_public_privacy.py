@@ -245,3 +245,34 @@ class PublicPrivacyTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class AllExportsPolicyTest(unittest.TestCase):
+    """A builder working on a subset still withholds a relative only another export marks living."""
+
+    def test_all_exports_adds_the_merged_exports_to_the_given_profiles(self):
+        from unittest import mock
+        living = {"Harrow-9": {"birth_date": "1990-01-01", "death_date": ""}}
+        historical = {"Harrow-1": {"birth_date": "1801-05-03", "death_date": "1870-01-01"}}
+        import contextlib
+        import importlib
+        with contextlib.ExitStack() as stack:
+            # public_privacy imports these as top-level or tools.* modules, depending on sys.path.
+            for name in ("project_paths", "tools.project_paths"):
+                try:
+                    importlib.import_module(name)
+                except ModuleNotFoundError:
+                    continue
+                stack.enter_context(mock.patch(f"{name}.merged_map_profiles", return_value=(living, [])))
+            for name in ("repair_public_dna", "tools.repair_public_dna"):
+                try:
+                    importlib.import_module(name)
+                except ModuleNotFoundError:
+                    continue
+                stack.enter_context(mock.patch(f"{name}.private_tester_ids", return_value=frozenset()))
+            subset = from_sources({}, historical)
+            full = from_sources({}, historical, all_exports=True)
+        self.assertNotIn("harrow-9", subset.blocked)
+        self.assertIn("harrow-9", full.blocked)
+        self.assertTrue(full.contains_private_id("spouse Harrow-9"))
+        self.assertNotIn("harrow-1", full.blocked)

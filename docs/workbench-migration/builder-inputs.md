@@ -81,25 +81,73 @@ database and the remotes were not touched.
    several baptisms. The live `www/` has one record there because records were
    ingested one at a time, while a fresh catalogue lists all three. Deciding
    what identifies a record on a multi-record page is a research-model choice
-   (the check is a deliberate review stop), so it is left for the owner. Until
-   `finalize` runs, a rebuilt site lists 5,004 records instead of the live
-   5,567.
+   (the check is a deliberate review stop). Decided on 26 October: an entry on
+   a page is told apart by the people it names
+   (`ingest_canonical_records.entry_key`), and two existing rows for the same
+   entry still stop for review.
+
+## Full rebuild and what `www/` holds (26 October 2026)
+
+With records on a shared page told apart by the people they name, the fifth run
+(a copy of the live `www/`, every `www/` file access logged by a Python audit
+hook) completed **all 25 build steps**. Then the checks were compared with the
+same checks run on the live site:
+
+| Check | Live `www/` | Rebuilt `www/` |
+| --- | --- | --- |
+| Privacy: withheld identifiers present | 0 | 29 (one likely-living spouse, Harris-58431, and the pages and indexes that list him) |
+| New research/release failures against their baselines | 0 / 0 | 4 / 4 |
+| New broken internal links | 1 | 20 |
+| Person pages whose tree links would change | 0 | 415 |
+
+The rebuild is therefore **not yet equivalent to the live site**, and a rebuilt
+`www/` must not be published until these match. The live site holds corrections
+that no builder makes; they were applied in place by repair scripts.
+
+- **Fixed:** the privacy leak. The catalogue builder made its privacy policy
+  from only the profiles it was given (the 4,566 qualifying ones), while
+  Harris-58431's living status is recorded only in another export. It now uses
+  every merged export as well (`public_privacy.from_sources(..., all_exports=True)`).
+- **Not yet fixed:** the 20 broken links, the 415 tree-link pages and the
+  research and release items. Each is a correction the live site has and the
+  builders do not make.
+- The build also deletes 6,574 files from a copy of the live `www/` (988 MB):
+  5,778 old catalogue detail files and 624 orphaned research-material pages,
+  but also, for example, `people/allan-8249.html` and
+  `data/irish-civil-deaths-1864-1900.csv`. Each needs a check before a rebuilt
+  site replaces the live one.
+
+The access log sorts the 90,177 files in `www/`:
+
+| Class | Files |
+| --- | ---: |
+| Tracked in Git | 17,108 |
+| Read by the build, never written (sources that exist only in `www/`) | 27,577 |
+| Read first, then rewritten in place (build state, such as `map/data/records.csv`) | 454 |
+| Written before any read (outputs) | 19,611 |
+| Neither read nor written | 22,493 |
+| Deleted by the build | 6,574 |
+
+The 28,031 read-first files (318 MB), the four builder ownership markers and
+`.htaccess` are now **declared build state**
+(`tools/site_declared_inputs.py --declare-state`). Each has a private home in
+`data/private/site-state/`, recorded with its SHA-256 in a private manifest.
+`--install`, the first step of `make build` and of the rebuild script, seeds
+any of them that `www/` lacks and never overwrites one that is present. After
+reviewing a rebuild's checks, `--save-state` carries the current versions
+forward. This is deliberate rather than automatic, so a rebuild that failed the
+privacy check cannot become the next build's input.
 
 ## Remaining work, in order
 
-1. Rerun the experiment to the end and compare the rebuilt `www/` with the
-   live one file by file. The record identity for multi-record pages is now
-   decided (26 October): on a page URL, an entry is told apart by the people it
-   names (`ingest_canonical_records.entry_key`), so the Rasharkin baptisms are
-   separate records. Two existing rows for the same entry still stop for
-   review. A clone needs a few GB of free disk.
-2. Give the untracked `www/` sources declared homes, as was done for the three
-   map layers in `data/site/declared-inputs.json`. The first two are not plain
-   inputs. `map/data/records.csv` is read and rewritten in place by five sync
-   tools (`sync_onetree_*`, `sync_recent_*`), so its home must move with
-   `project_paths.MAP_RECORDS` and be installed after those tools run.
-   `about/index.html` is both the template other builders read and an output
-   of `tools.about_pages`, so the template needs separating from the page.
+1. Bring the rebuilt site to the live site's checks (above): the broken links,
+   the tree links, the research and release items, and the deleted files. Each
+   difference is a correction a repair script made in place that a builder
+   must now make.
+2. Replace the build state with producers. Most of it is
+   `assets/v3/sources/*.json` (16,318 source documents written by the canonical
+   record ingest) and `assets/research/*` (10,338 files). Each should be
+   produced from the research database instead of carried forward.
 3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
 4. Make `tools/build_research_catalog.py` (7,079 lines, the producer of `data/people.json` and `map/data/records.csv`) read the research database through `genealogy.store.projection.public_case` instead of the legacy registries.
 5. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers. One-off scripts that edit `www/` (as on 17 October) must become builder steps or declared inputs, or their changes are lost at the next rebuild.

@@ -14,7 +14,7 @@
 
 The **Glasgow Surname Project** follows people named Glasgow and its variants through Scotland, Ulster, and the places their families settled. It brings together historical records, family reconstruction, WikiTree research, and Y-DNA interpretation in a public, searchable website.
 
-Behind the site is a Python research workbench: durable cases, source citations, relationship assessments, profile drafts, and tools that turn those findings into connected pages. The question running through it all is simple: **what do the records actually support?**
+Behind the site is a research database: people, records, citations, relationship assessments and their history, kept in one SQLite file with every change audited. Tools turn that research into connected pages. The question running through it all is simple: **what do the records actually support?**
 
 [![The Glasgow Surname Project homepage, with research entry points and a colourful family-tree preview](docs/images/readme/home.webp)](https://glasgow.phenotype.dev/)
 
@@ -72,18 +72,21 @@ Screenshots were captured from the local website on **19 October 2026** at 1440 
 ## How the research becomes a website
 
 ```text
-Historical records + WikiTree captures
+Historical records + WikiTree and OneTree captures
                   ↓
-Research cases · citations · questions · relationship assessments
+Research database (data/private/workbench/glasgow.sqlite)
+  people · records · citations · questions · relationship assessments, with history
                   ↓
-Canonical research catalogue
+Generated research files (research/*.json), rebuilt from the database
                   ↓
-People · family tree · maps · studies · latest findings
+Site builders → www/: people · family tree · maps · studies · latest findings
                   ↓
-Reviewed profile drafts and WikiTree amendments
+Reviewed profile drafts and WikiTree amendments (never written live automatically)
 ```
 
-Findings keep their provenance, confidence, and open questions. A relationship imported from a tree is a research lead until assessed against records. Local profile drafts and comparisons make proposed amendments reviewable before a live WikiTree edit.
+- **The database is the authority.** Each relationship assessment has a revision history, a confidence, and the evidence it rests on. A relationship imported from a tree stays a research lead until assessed against records.
+- **Research files are generated views.** `research/relationship_assessments.json`, `latest-findings.json`, `canonical_records.json` and the other registries are rebuilt from the database. Edit them through the workbench (see [Record research](#record-research)), never by hand: `make check` fails if they drift.
+- **The database is private and local.** It is not in Git. Back it up with `make backup-workbench`. [`docs/workbench-migration/README.md`](docs/workbench-migration/README.md) explains how it was built from the earlier files, what it holds, and how to recover it.
 
 This repository owns the Glasgow research, branding, website, and source policies. Shared genealogy models, adapters, and the reusable site builder live in the independent [**genealogy-research-workbench**](https://github.com/glasgowm148/genealogy-research-workbench) repository, pinned here as a Git submodule; [`genealogy.toml`](genealogy.toml) defines the project overlay. To build a site from your own GEDCOM or OneTree file, start with the [toolkit’s README](https://github.com/glasgowm148/genealogy-research-workbench#readme). See the [toolkit boundary](docs/toolkit-migration.md) and the [feature-parity matrix](docs/toolkit-parity.md), which shows what an export alone can recreate.
 
@@ -128,6 +131,23 @@ Depth 2 captures the subject and each child; those family responses also index t
 
 Continue with the [research workflow](docs/research-workflow.md) for evidence standards and publication, or the [command-line guide](docs/command-line.md) for imports, queued targets, optional FamilySearch capture, and toolkit handoffs.
 
+### Record research
+
+Research is recorded in the database through the workbench, which checks each change against the version you read (a stale-revision error means someone else changed it first: re-read, then redo the change).
+
+```bash
+# Reassess a relationship (N is the revision you are changing; `history` shows it)
+.venv/bin/genealogy --project . history glasgow-assertion:C-example-id
+.venv/bin/genealogy --project . assess glasgow-assertion:C-example-id --expected-revision N ...
+make research-views    # regenerate the research/*.json views
+
+# Add or change a finding, canonical record or vital assessment
+.venv/bin/python tools/research_entry.py show finding FINDING-ID
+.venv/bin/python tools/research_entry.py upsert finding ROW.json --expected-revision N
+```
+
+Research plans, parent-candidate lists and the WikiTree update queue are edited as files and then recorded with `tools/research_entry.py document PATH --expected-revision N`. Items an import kept for review are listed with `genealogy legacy list` and resolved with a reason (`genealogy legacy resolve`), never deleted.
+
 ## Useful commands
 
 Run from the repository root with `.venv` activated. Build commands require the corresponding local datasets.
@@ -135,6 +155,10 @@ Run from the repository root with `.venv` activated. Build commands require the 
 | Task | Command |
 | --- | --- |
 | Standard quality gate | `make check` |
+| Check the research database and its generated views | `make check-workbench` |
+| Regenerate `research/*.json` from the database | `make research-views` |
+| Back up the research database | `make backup-workbench` |
+| Database status, open review items | `.venv/bin/genealogy --project . db status` |
 | Offline unit tests | `make test` |
 | Research → website consistency | `make check-research` |
 | Built-site internal links | `make check-links` |
@@ -143,8 +167,9 @@ Run from the repository root with `.venv` activated. Build commands require the 
 | Regenerate surname research indexes | `python src/surname_research_index.py` |
 | Read the project configuration | `python tools/genealogy_project.py` |
 | Refresh One-Tree data and rebuild the catalogue/map | `make build` |
+| Rebuild the whole local site, step by step with logs | `tools/rebuild_local_site.sh` |
 
-`make build` can regenerate thousands of pages. For ordinary research changes, use the targeted builders in the [website synchronization guide](docs/website-research-sync.md). For incremental WikiTree refreshes and advanced exporter recipes, see the [command-line guide](docs/command-line.md#checks-and-website-builds).
+`make build` regenerates thousands of pages and takes about 20 minutes; the full local rebuild takes about 50. Both start by regenerating the research views from the database and installing the site's declared inputs. For ordinary research changes, use the targeted builders in the [website synchronization guide](docs/website-research-sync.md). For incremental WikiTree refreshes and advanced exporter recipes, see the [command-line guide](docs/command-line.md#checks-and-website-builds).
 
 ## Find your way through the repository
 
@@ -156,7 +181,8 @@ Run from the repository root with `.venv` activated. Build commands require the 
 | [`tools/`](tools/) | Site builders, synchronization, validation, and research utilities |
 | [`tests/`](tests/) | Offline regression tests and browser checks |
 | [`data/`](data/) | Maintained inputs and local datasets; raw exports stay untracked |
-| [`www/`](www/) | Built website and selected maintained site files |
+| `data/private/workbench/` | The research database, its managed files and backups (local only, not in Git) |
+| [`www/`](www/) | Built website and selected maintained site files. It is built in place: some untracked files there are sources the build reads (see [builder inputs](docs/workbench-migration/builder-inputs.md)) |
 | [`vendor/genealogy-research-workbench/`](vendor/genealogy-research-workbench/) | Independent toolkit Git submodule, pinned to a reviewed commit |
 
 ## Read next
@@ -164,6 +190,8 @@ Run from the repository root with `.venv` activated. Build commands require the 
 | Guide | Use it for |
 | --- | --- |
 | [Research workflow](docs/research-workflow.md) | Starting a case, assessing evidence, and preparing supported amendments |
+| [Research database](docs/workbench-migration/README.md) | What the database holds, how it was migrated, backups and recovery, open review items |
+| [Site builder inputs](docs/workbench-migration/builder-inputs.md) | What the build reads, why it can't yet start from an empty `www/`, and the plan to fix that |
 | [Command-line recipes](docs/command-line.md) | Export/import, research iteration, browser capture, refreshes, and toolkit integration |
 | [Website research synchronization](docs/website-research-sync.md) | Keeping findings, catalogue, drafts, and public views aligned |
 | [Evidence labels](docs/evidence-labels.md) | Understanding status, confidence, and provenance |

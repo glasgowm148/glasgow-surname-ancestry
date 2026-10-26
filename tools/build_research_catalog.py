@@ -3571,7 +3571,7 @@ def _build_people(records: list[dict], profiles: dict[str, dict], edges: list[li
         from tools.project_record_locations import load_projections, stable_record_id
     location_projections = load_projections(RESEARCH_DIR / 'ancestry-connections/documentary-people.json')
     emitted_record_ids = set()
-    privacy = privacy_from_sources(wikitree_evidence or {}, profiles)
+    privacy = privacy_from_sources(wikitree_evidence or {}, profiles, all_exports=True)
     evidence_profiles = (wikitree_evidence or {}).get("profiles", {})
     evidence_numeric_ids = {
         str(capture.get("profile_fields", {}).get("Id")): profile_id

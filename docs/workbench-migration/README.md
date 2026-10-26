@@ -1,10 +1,28 @@
 # Glasgow on the research database
 
-Status checkpoint, 25 October 2026. Everything described here is on `main` in
-both repositories; the workbench pin is `7a5c3be` (0.10.0, database schema
-version 2). Nothing is tagged, published or deployed. The research database is
-in the main checkout (`data/private/workbench/`), with the baseline archive and
-the migration backups.
+## In short
+
+- **Where the research lives.** All of Glasgow's research is in one private
+  SQLite file, `data/private/workbench/glasgow.sqlite`: people, records,
+  citations, relationship claims and every revision of their assessments. It
+  is managed by [genealogy-research-workbench](https://github.com/glasgowm148/genealogy-research-workbench)
+  (pinned in `vendor/`), and every change is audited.
+- **What the JSON files are now.** `research/relationship_assessments.json`,
+  `latest-findings.json`, `canonical_records.json`, the research plans and the
+  update queue are regenerated from the database (`make research-views`).
+  Change them through the workbench or `tools/research_entry.py`, never by
+  hand; `make check` fails if they drift.
+- **The site.** The existing builders still read those files and build `www/`
+  in place. `make build` passes from a copy of the live site. A build from an
+  empty `www/` is not possible yet ([builder inputs](builder-inputs.md)).
+- **Safety.** Verified backups are in `data/private/workbench/backups/` and
+  restore with the same logical digest. Nothing was deleted from the old files;
+  the migration can be rerun from Git (`make migrate-workbench`).
+- **Open for a researcher.** Four places, and one duplicate person to merge
+  locally (see "Items kept for review").
+
+Everything here is on `main` in both repositories. Nothing is tagged,
+published or deployed, and nothing is written to WikiTree.
 
 ## Architecture and ownership
 
@@ -37,7 +55,7 @@ submodule pin); no workbench code is copied into this repository.
 | Update queue, queue reviews and overrides | **database** (proposals and review rows) | See the row above. |
 | Exact-file publication approvals | database approval rows (migrated) + the three manifests | Hash-scoped: changed bytes lose the approval. |
 | Research prose, drafts, captures, images, PDFs | files, referenced by hash | 21,213 asset rows; originals never copied or changed. |
-| `www/` | generated output (legacy builders) | 9,791 retained `www/people/*.json` dossiers and `www/map/data/` are referenced as retained input until their builders are moved. |
+| `www/` | built in place by the legacy builders | Some untracked files there are sources the build reads first; they are being given declared homes ([builder inputs](builder-inputs.md)). |
 
 ## Migration results (source commit `bf42d127d21c`)
 
@@ -231,7 +249,7 @@ uncommitted on 25 October (the workbench's tree workspace and sidebar wordmark,
 and the matching `toolkit_research_case.py` change) were committed unchanged
 apart from merging both changelog lists, after checking that every pending
 change is contained in the committed files (patch backups were kept). The
-Glasgow pin is workbench `7a5c3be` (0.10.0).
+Glasgow pin is workbench `4c9e3b6` (0.10.1).
 
 ## Merging a later change from `main` (owner)
 

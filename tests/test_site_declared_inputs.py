@@ -5,6 +5,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
@@ -42,6 +43,25 @@ class DeclaredInputs(unittest.TestCase):
         home.unlink()
         with self.assertRaisesRegex(SystemExit, "is missing"):
             declared.install(self.root)
+
+    def test_state_is_seeded_when_absent_never_overwritten_and_saved_forward(self) -> None:
+        with mock.patch.object(declared, "STATE_MANIFEST", declared.ROOT / "data" / "site" / "declared-state.json"):
+            page = self.root / "www" / "about" / "index.html"
+            page.parent.mkdir(parents=True)
+            page.write_text("template v1", encoding="utf-8")
+            declared.adopt(self.root)
+            declared.declare_state(self.root, ["about/index.html"], "page template")
+            page.write_text("built v2", encoding="utf-8")
+            self.assertEqual(declared.install_state(self.root), [])          # present: left alone
+            self.assertEqual(page.read_text(), "built v2")
+            self.assertEqual(declared.save_state(self.root), ["saved www/about/index.html"])
+            page.unlink()
+            self.assertEqual(declared.install_state(self.root), ["seeded www/about/index.html"])
+            self.assertEqual(page.read_text(), "built v2")
+            (self.root / declared.STATE_HOME / "about/index.html").unlink()
+            page.unlink()
+            with self.assertRaisesRegex(SystemExit, "state not available"):
+                declared.install_state(self.root)
 
 
 if __name__ == "__main__":

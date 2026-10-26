@@ -155,6 +155,19 @@ class GlasgowMigrationFixture(unittest.TestCase):
             question = stable_id("qst", "research/Harrow-14/presentation.json", 0)
             self.assertEqual(project.store.get("question", question)["resolves"], "The 1786 Currituck Isaac.")
 
+    def test_a_changed_file_is_registered_as_a_new_version_of_the_old(self) -> None:
+        write(self.source, "research/Harrow-14/presentation.json", {"evidence_questions": []})
+        self.migrate()
+        with open_project(self.project) as project:
+            workbench_migrate.Migration(project, self.source).run(["profiles"])
+        write(self.source, "research/Harrow-14/presentation.json", {"evidence_questions": [], "edited": True})
+        with open_project(self.project) as project:
+            workbench_migrate.Migration(project, self.source).run(["profiles"])
+            rows = project.store.all("SELECT id, supersedes_id FROM asset WHERE path=? ORDER BY rowid",
+                                     ("research/Harrow-14/presentation.json",))
+            self.assertEqual(len(rows), 2)
+            self.assertEqual(rows[1]["supersedes_id"], rows[0]["id"])
+
     def test_documents_are_held_row_by_row_and_regenerated(self) -> None:
         import research_entry
         plan = {"case_id": "Harrow-14", "findings": [], "objective": "Find Isaac's father.",

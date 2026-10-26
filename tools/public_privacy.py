@@ -294,17 +294,26 @@ class PublicPrivacy:
         return result
 
 
-def from_sources(evidence=None, profiles=None):
+def from_sources(evidence=None, profiles=None, *, all_exports=False):
+    """The privacy policy from WikiTree evidence and tree exports.
+
+    ``all_exports`` adds every merged export to the given ``profiles``: a
+    builder that works on a subset must still withhold a relative whose living
+    status only another export records.
+    """
     if evidence is None:
         path = ROOT / "data/wikitree/profile-evidence.json"
         evidence = json.loads(path.read_text()) if path.exists() else {}
-    if profiles is None:
+    merged = None
+    if profiles is None or all_exports:
         try:
             from project_paths import merged_map_profiles
         except ModuleNotFoundError:
             from tools.project_paths import merged_map_profiles
-        profiles, _ = merged_map_profiles()
-    rows = list((profiles or {}).items())
+        merged, _ = merged_map_profiles()
+    if profiles is None:
+        profiles, merged = merged, None
+    rows = list((profiles or {}).items()) + list((merged or {}).items())
     for profile_id, capture in (evidence or {}).get("profiles", {}).items():
         rows.append((profile_id, capture))
         for relatives in (capture.get("relations") or {}).values():

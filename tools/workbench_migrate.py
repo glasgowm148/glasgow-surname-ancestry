@@ -223,8 +223,13 @@ class Migration:
         path = self.path(relative)
         if not path.is_file():
             return None
+        # A file that changed since it was last registered becomes a new version of it.
+        earlier = self.store.one("SELECT id FROM asset WHERE root=? AND path=? AND id NOT IN "
+                                 "(SELECT supersedes_id FROM asset WHERE supersedes_id IS NOT NULL) "
+                                 "ORDER BY rowid DESC LIMIT 1", (ROOT_NAME, relative))
         asset = register_asset(self.project, tx, path, root=ROOT_NAME, kind=kind, access=access,
-                               provenance=f"Glasgow repository {relative} at {self.commit[:12]}")
+                               provenance=f"Glasgow repository {relative} at {self.commit[:12]}",
+                               supersedes_id=earlier["id"] if earlier else None)
         for target in about:
             tx.upsert_link(asset["id"], target, "about")
         return asset["id"]
