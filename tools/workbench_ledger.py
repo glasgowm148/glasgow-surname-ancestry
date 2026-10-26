@@ -21,13 +21,16 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from hashlib import sha256
 import json
 from pathlib import Path
 import sys
 
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 from genealogy.store import open_project
 
-ROOT = Path(__file__).resolve().parents[1]
 PRIVATE = ROOT / "data" / "private" / "workbench"
 
 
@@ -41,10 +44,21 @@ def ledger(project, inventory: dict) -> dict:
     assets: dict[str, str] = {row["path"]: row["sha256"] for row in
                               store.all("SELECT path, sha256 FROM asset WHERE root='repository'")}
     legacy = {row["input_path"] for row in store.all("SELECT DISTINCT input_path FROM legacy_item")}
+    from tools.workbench_migrate import is_generated
+    generated_paths = {item["path"] for item in inventory["files"] if is_generated(item["path"])}
+    generated: dict[str, str] = {}
+    if generated_paths:
+        from tools.workbench_legacy_views import Views
+        generated = {path: text for path, text in Views(store).files().items() if path in generated_paths}
     rows, problems = [], []
     for item in inventory["files"]:
         path, digest, planned = item["path"], item.get("sha256"), item["disposition"]
-        if path in batches:
+        if path in generated:
+            actual = "imported into structured research"
+            current = ROOT / path
+            expected = sha256(generated[path].encode()).hexdigest()
+            changed = not current.is_file() or sha256(current.read_bytes()).hexdigest() != expected
+        elif path in batches:
             actual = "imported into structured research"
             changed = digest is not None and batches[path] and digest not in batches[path]
         elif path in assets:
