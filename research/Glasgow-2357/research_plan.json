@@ -1,0 +1,124 @@
+{
+  "profile_id": "Glasgow-2357",
+  "updated": "2026-10-26",
+  "status": "open",
+  "scope": "Independent original-source follow-up to the completed maternal review; no relationship-grade change.",
+  "questions": [
+    {
+      "question": "Can an original death or burial entry or contemporary notice verify the reported June 1870 death of Lois Ladd Glasgow, and does it supply parentage?",
+      "status": "open",
+      "priority": "normal",
+      "next_action": "Locate a searchable index or inspectable image for the Logan County probate death registers covering 1870. Treat Logan County as a search hypothesis, not an established death place. Inspect Find A Grave memorial 20046272 and any original inscription separately. If these routes fail, inspect contemporary local or church notices.",
+      "resume_condition": "An original register image, cemetery image or contemporary notice becomes inspectable; record exact coverage and identity comparison before changing a conclusion."
+    }
+  ],
+  "web_searches": [
+    {
+      "query": "[\"FamilySearch Ohio death Lois Ladd Glasgow June 1870\", \"Ohio County Death Records 1840-2001 Lois Glasgow 1870\", \"Lois Ladd Glasgow death June 1870 Ohio\"]",
+      "date": "2026-10-26",
+      "site": "FamilySearch public discovery",
+      "result": "Public-index discovery did not yield a Lois Ladd Glasgow original death identifier or image.",
+      "outcome": "partial",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/01-familysearch.json"
+    },
+    {
+      "query": "[\"Logan County Ohio death records 1870 register archive volume\", \"Logan County Ohio probate death records 1868 1908\"]",
+      "date": "2026-10-26",
+      "site": "Logan County Probate Department collection guide",
+      "result": "County guidance confirms death registers covering 1868–1908. No Lois entry, volume or page inspected.",
+      "outcome": "partial",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/02-logan-register.json"
+    },
+    {
+      "query": "[\"\\\"Lois Ladd Glasgow\\\" 1870 death\", \"\\\"Lois Ladd\\\" Glasgow \\\"Belle Centre\\\"\", \"\\\"Lois Ladd Glasgow\\\" Covenanter\", \"\\\"Lois Ladd Glasgow\\\" \\\"Christian Instructor\\\"\", \"site:archive.org/details \\\"Lois Ladd\\\" Glasgow\", \"site:archive.org \\\"Lois Glasgow\\\" 1870 Ohio\", \"site:books.google.com \\\"Lois Ladd Glasgow\\\"\", \"site:hathitrust.org \\\"Lois Ladd\\\" Glasgow\"]",
+      "date": "2026-10-26",
+      "site": "Public periodical discovery",
+      "result": "Bounded periodical queries yielded no independent inspectable Lois notice; a project result was excluded.",
+      "outcome": "partial",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/03-periodicals.json"
+    },
+    {
+      "query": "04-cemetery.json",
+      "date": "2026-10-26",
+      "site": "Find A Grave public discovery",
+      "result": "Memorial 20046272 remains an uninspected citation; no photograph or inscription verified.",
+      "outcome": "inaccessible",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/04-cemetery.json"
+    },
+    {
+      "query": "targeted held-source audit for original death, burial, obituary, or independent contemporary evidence",
+      "date": "2026-10-26",
+      "site": "Held evidence audit",
+      "result": "Only the retrospective family account is held for June 1870. The derived assessment and unread cemetery citation are not independent corroboration.",
+      "outcome": "partial",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/05-held.json"
+    },
+    {
+      "query": "Lois Ladd Glasgow (Glasgow-2357)",
+      "date": "2026-10-26",
+      "site": "Public newspaper catalogue discovery",
+      "result": "Candidate local newspaper holdings found; no June–July 1870 issue or Lois notice inspected.",
+      "outcome": "partial",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/06-newspapers.json"
+    },
+    {
+      "query": "Does a June 1870 death fall within the 1870 Ohio mortality-schedule window?",
+      "date": "2026-10-26",
+      "site": "US Census Bureau 1870 enumeration instructions",
+      "result": "Official instructions restrict Schedule 2 to 1 June 1869–31 May 1870 inclusive; a June 1870 death falls outside that standard window.",
+      "outcome": "not_applicable",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/07-mortality.json"
+    },
+    {
+      "query": "Can an official or county index corroborate the reported 5 November 1839 Cincinnati/Hamilton County marriage?",
+      "date": "2026-10-26",
+      "site": "FamilySearch and Hamilton County marriage collection guides",
+      "result": "Collection-level access routes found, without a couple-specific original marriage identifier.",
+      "outcome": "partial",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/08-marriage.json"
+    },
+    {
+      "query": "09-persistence.json",
+      "date": "2026-10-26",
+      "site": "Local native research audit",
+      "result": "Earlier Lois discovery search exists; a separate original-record question and plan had not been recorded.",
+      "outcome": "positive",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/09-persistence.json"
+    },
+    {
+      "query": "read-only local native catalogue/database and public-safe generated indexes",
+      "date": "2026-10-26",
+      "site": "Local native identity audit",
+      "result": "No compatible infant John Cameron Glasgow found locally; adult Glasgow-466 excluded by chronology. Global duplicate search remains outstanding.",
+      "outcome": "partial",
+      "limitation": "Bounded discovery or collection-scope audit only. No new original death record inspected; nonappearance is not negative archival evidence.",
+      "private_receipt": "data/private/workbench/review/lois-original-20261026/10-infant.json"
+    }
+  ],
+  "findings": [],
+  "source_guides": [
+    {
+      "url": "https://www.census.gov/programs-surveys/decennial-census/technical-documentation/questionnaires/1870/1870-instructions.html",
+      "verified": "Schedule No. 2 excludes deaths after 31 May 1870; no inference of record absence."
+    },
+    {
+      "url": "https://www.logancountyohio.gov/uploads/1/4/9/5/149562150/genealogy_20records_203-16-22_202203161208223703.pdf",
+      "verified": "Page 1 lists probate death records 1868–1908. Custody and coverage only; not an event record."
+    }
+  ],
+  "current_limits": [
+    "June 1870 is reported by one retrospective family account; no exact day or place established.",
+    "Lois→Mary maternity remains 93%; Moses fatherhood remains 96%. Robert→Mary remains 93% and Robert→Moses 97%.",
+    "No correspondence sent, live profile edited, or new infant profile created.",
+    "John Cameron infancy requires a complete public duplicate audit before drafting a distinct new person."
+  ]
+}
