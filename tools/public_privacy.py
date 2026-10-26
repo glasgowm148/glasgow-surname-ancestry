@@ -3,6 +3,8 @@ from __future__ import annotations
 
 from copy import deepcopy
 from datetime import date
+import functools
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -33,6 +35,14 @@ def safe_href(value) -> str:
         return ""
     return text
 PROFILE_TOKEN = re.compile(r"\b[A-Za-z][A-Za-z_'’]*(?:-[A-Za-z][A-Za-z_'’]*)*-\d+\b")
+
+
+@functools.lru_cache(maxsize=1 << 20)
+def profile_tokens(text: str) -> frozenset:
+    """Profile-id-like tokens in ``text``, case-folded (cached: the same strings recur across thousands of files)."""
+    if "-" not in text:   # every profile id has a hyphen before its number
+        return frozenset()
+    return frozenset(token.casefold() for token in PROFILE_TOKEN.findall(text))
 
 
 def tester_identifier_pattern(identifiers):
@@ -131,7 +141,22 @@ class PublicPrivacy:
 
     def contains_private_id(self, value, *, include_testers=True):
         text = str(value)
-        return any(token.casefold() in self.blocked for token in PROFILE_TOKEN.findall(text)) or bool(
+        # The same strings are checked millions of times in one repair; remember each
+        # answer while the withheld list and tester settings stay as they are.
+        state = (id(self.blocked), len(self.blocked), self.tester_ids, self.allow_approved_dna,
+                 id(getattr(self, 'tester_pattern', None)))
+        cache = self.__dict__.get('_private_cache')
+        if cache is None or self.__dict__.get('_private_state') != state:
+            cache = self.__dict__['_private_cache'] = {}
+            self.__dict__['_private_state'] = state
+        key = (text, include_testers)
+        found = cache.get(key)
+        if found is None:
+            found = cache[key] = self._contains_private_id(text, include_testers)
+        return found
+
+    def _contains_private_id(self, text, include_testers):
+        return not self.blocked.isdisjoint(profile_tokens(text)) or bool(
             include_testers and not self.allow_approved_dna
             and self.tester_ids and self.tester_pattern.search(text))
 
@@ -365,18 +390,29 @@ def remove_withheld_subject_routes(web, people, policy):
 def repair_orphaned_subjects(web, policy):
     """Recover older redacted index/detail objects without dropping safe namesakes."""
     changed = removed = 0
+    clean, clean_path, fingerprint = _clean_cache(web, policy, name="public-privacy-orphans.json")
+    seen = {}
     for path in Path(web).rglob('*.json'):
         raw = path.read_text()
         if WITHHELD_TEXT not in raw and not re.search(r'"(?:id|p|catalogue_id)"\s*:\s*""', raw):
+            continue
+        key = path.relative_to(web).as_posix()
+        digest = hashlib.sha256(raw.encode("utf-8", "surrogatepass")).hexdigest()
+        if clean.get(key) == digest:   # already projected under this policy and unchanged since
+            seen[key] = digest
             continue
         value = json.loads(raw)
         projected = policy.project(value)
         if isinstance(projected, dict) and projected.get('withheld'):
             path.unlink()
             removed += 1
-        elif value != projected:
-            path.write_text(json.dumps(projected, ensure_ascii=False, separators=(',', ':')) + '\n')
+            continue
+        if value != projected:
+            raw = json.dumps(projected, ensure_ascii=False, separators=(',', ':')) + '\n'
+            path.write_text(raw)
             changed += 1
+        seen[key] = hashlib.sha256(raw.encode("utf-8", "surrogatepass")).hexdigest()
+    _save_clean_cache(clean_path, fingerprint, seen)
     return {'orphan_mirrors': changed, 'orphan_subject_files': removed}
 
 
@@ -459,6 +495,32 @@ def remove_withheld_model_nodes(web):
     return {'model_privacy_files': files, 'withheld_model_nodes': nodes}
 
 
+def _policy_fingerprint(policy) -> str:
+    """Everything a projection decision can depend on besides the file itself."""
+    parts = [sorted(policy.blocked), sorted(policy.tester_ids or ()), bool(policy.allow_approved_dna),
+             sorted(getattr(policy, "private_names", ())), getattr(policy, "rows", {})]
+    return hashlib.sha256(json.dumps(parts, ensure_ascii=False, sort_keys=True, default=str).encode()).hexdigest()
+
+
+def _clean_cache(web, policy, name="public-privacy-clean.json"):
+    """Files confirmed clean by the last repair under this exact policy (path -> SHA-256)."""
+    path = Path(web).parent / ".cache" / name
+    fingerprint = _policy_fingerprint(policy)
+    try:
+        data = json.loads(path.read_text())
+    except (OSError, ValueError):
+        data = {}
+    return (data.get("files", {}) if data.get("policy") == fingerprint else {}), path, fingerprint
+
+
+def _save_clean_cache(path, fingerprint, files):
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps({"policy": fingerprint, "files": files}, separators=(",", ":")))
+    except OSError:
+        pass
+
+
 def repair(web=ROOT / "www", *, json_directories=("people", "assets", "data", "onetree", "map/data")):
     policy = from_sources()
     changed = 0
@@ -479,13 +541,23 @@ def repair(web=ROOT / "www", *, json_directories=("people", "assets", "data", "o
     write(evidence_path, evidence_envelope(json.loads(evidence_path.read_text()), people))
     # Dossiers contain imported snapshots and machine evidence as well as current
     # relationships. Project every JSON mirror, retaining its research structure.
+    # A file already confirmed clean under the same policy, and unchanged since,
+    # is skipped: the release runs this repair three times over mostly unchanged files.
+    clean, clean_path, fingerprint = _clean_cache(web, policy)
+    seen = {}
     for relative in json_directories:
         directory = web / relative
         for path in directory.rglob("*.json"):
             if path == people_path or path == evidence_path:
                 continue
             raw = path.read_text()
+            key = path.relative_to(web).as_posix()
+            digest = hashlib.sha256(raw.encode("utf-8", "surrogatepass")).hexdigest()
+            if clean.get(key) == digest:
+                seen[key] = digest
+                continue
             if not policy.contains_private_id(raw) and '"profile_id"' not in raw and not any('"' + field + '"' in raw for field in RAW_FIELDS) and '\\u' not in raw:
+                seen[key] = digest
                 continue
             value = json.loads(raw)
             try:
@@ -502,6 +574,9 @@ def repair(web=ROOT / "www", *, json_directories=("people", "assets", "data", "o
             projected = page_policy.project(value)
             if projected != value:
                 write(path, projected)
+                raw = path.read_text()
+            seen[key] = hashlib.sha256(raw.encode("utf-8", "surrogatepass")).hexdigest()
+    _save_clean_cache(clean_path, fingerprint, seen)
     # Targeted releases also need to replace snapshots in previously generated
     # HTML; repairing JSON alone leaves that independent public sink exposed.
     try:

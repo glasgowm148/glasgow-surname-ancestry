@@ -111,7 +111,7 @@ def main(argv=None) -> int:
     if not args.check:
         for slug, model in changed.items():
             (args.web / "assets/research/people" / f"{slug}.json").write_text(
-                json.dumps(model, ensure_ascii=False) + "\n", encoding="utf-8")
+                json.dumps(model, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(json.dumps({"written": not args.check, **dict(sorted(counts.items()))}))
     return 0
 

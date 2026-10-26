@@ -3,6 +3,7 @@ import csv
 from copy import copy
 from io import StringIO
 import json
+import hashlib
 import re
 
 from bs4 import BeautifulSoup
@@ -91,10 +92,26 @@ def project_script(raw, policy):
 
 def repair(web, policy, *, paths=None):
     changed = 0
+    # A file that passed the strictest check last time under the same policy, and is
+    # unchanged, needs nothing whatever its approvals say; only those are remembered.
+    try:
+        from public_privacy import _clean_cache, _save_clean_cache
+    except ModuleNotFoundError:
+        from tools.public_privacy import _clean_cache, _save_clean_cache
+    clean, clean_path, fingerprint = _clean_cache(web, policy, name="public-privacy-mirrors.json")
+    seen = {}
     for path in web.rglob("*") if paths is None else paths:
         if path.suffix.lower() not in {".html", ".js", ".csv", ".txt", ".md"} or not path.is_file():
             continue
         raw = path.read_text(encoding="utf-8")
+        key = path.relative_to(web).as_posix()
+        digest = hashlib.sha256(raw.encode("utf-8", "surrogatepass")).hexdigest()
+        if clean.get(key) == digest:
+            seen[key] = digest
+            continue
+        if not policy.contains_private_id(raw) and not capture_data(raw):
+            seen[key] = digest
+            continue
         page_policy = policy
         if approved_document(path.relative_to(web).as_posix(), raw):
             # Publication permission covers this exact study only. Keep the
@@ -116,4 +133,8 @@ def repair(web, policy, *, paths=None):
         if updated != raw:
             path.write_text(updated, encoding="utf-8")
             changed += 1
+    if paths is None:   # a partial run cannot vouch for the files it did not see
+        _save_clean_cache(clean_path, fingerprint, seen)
+    else:
+        _save_clean_cache(clean_path, fingerprint, {**clean, **seen})
     return changed

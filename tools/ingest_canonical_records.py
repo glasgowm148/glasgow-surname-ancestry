@@ -189,6 +189,41 @@ def source_page(shell, doc, *, existing=False, site_root=None):
     return ensure_reader(result, doc)
 
 
+def packed_source_index(sources):
+    return {'fields': SOURCE_INDEX_FIELDS, 'rows': [[row.get(k) for k in SOURCE_INDEX_FIELDS] for row in sources]}
+
+
+def source_browse_pages(web, sources):
+    """The complete no-script source index, 100 rows a page, from the source index rows."""
+    web = Path(web)
+    browse = web / 'sources/browse/index.html'
+    if not browse.exists():
+        return {}
+    shell = browse.read_text()
+    header = re.search(r'<main\b[^>]*>\s*(<header\b[\s\S]*?</header>)', shell, re.I)
+    if not header:
+        raise ValueError('Maintained Sources browse header missing')
+    ordered = sorted(sources, key=lambda r: (r.get('from') if r.get('from') is not None else 9999, r['title'].casefold()))
+    pages = max(1, (len(ordered) + 99) // 100)
+    def route(number):
+        return '/sources/browse/' if number == 1 else f'/sources/browse/page-{number}.html'
+    writes = {}
+    for number in range(1, pages + 1):
+        path = browse if number == 1 else browse.parent / f'page-{number}.html'
+        current = path.read_text() if path.exists() else shell
+        previous = f'<a href="{route(number-1)}">← Previous</a>' if number > 1 else '<span></span>'
+        following = f'<a href="{route(number+1)}">Next →</a>' if number < pages else '<span></span>'
+        nav = f'<nav class="r-pagination" aria-label="Source index pages">{previous}<span>Page {number} of {pages} · {len(ordered):,} references</span>{following}</nav>'
+        body = header[1] + nav + ''.join(source_row(r) for r in ordered[(number-1)*100:number*100]) + nav
+        rendered = main_body(current, body)
+        if not path.exists():
+            rendered = re.sub(r'(<link\b[^>]*rel=["\']canonical["\'][^>]*href=)["\'][^"\']*["\']',
+                              lambda m: m[1] + '"https://glasgow.phenotype.dev' + route(number) + '"', rendered)
+            rendered = re.sub(r'data-g-path="[^"]*"', 'data-g-path="' + route(number) + '"', rendered, count=1)
+        writes[path] = rendered
+    return writes
+
+
 def plan(root: Path, record_ids: list[str]):
     """Validate the complete batch before returning any proposed writes."""
     root = Path(root)
@@ -414,32 +449,9 @@ def plan(root: Path, record_ids: list[str]):
     writes[web / 'data/records-index.json'] = full
     writes[web / 'assets/research/record-index.json'] = compact
     writes[web / 'assets/v3/source-index.json'] = sources
-    writes[web / 'assets/v3/source-index-packed.json'] = {
-        'fields': SOURCE_INDEX_FIELDS, 'rows': [[row.get(k) for k in SOURCE_INDEX_FIELDS] for row in sources]}
+    writes[web / 'assets/v3/source-index-packed.json'] = packed_source_index(sources)
     writes[web / 'records/index.html'] = main_body((web / 'records/index.html').read_text(), records_body(full))
-    browse = web / 'sources/browse/index.html'
-    if browse.exists():
-        shell = browse.read_text()
-        header = re.search(r'<main\b[^>]*>\s*(<header\b[\s\S]*?</header>)', shell, re.I)
-        if not header:
-            raise ValueError('Maintained Sources browse header missing')
-        ordered = sorted(sources, key=lambda r: (r.get('from') if r.get('from') is not None else 9999, r['title'].casefold()))
-        pages = max(1, (len(ordered) + 99) // 100)
-        def route(number):
-            return '/sources/browse/' if number == 1 else f'/sources/browse/page-{number}.html'
-        for number in range(1, pages + 1):
-            path = browse if number == 1 else browse.parent / f'page-{number}.html'
-            current = path.read_text() if path.exists() else shell
-            previous = f'<a href="{route(number-1)}">← Previous</a>' if number > 1 else '<span></span>'
-            following = f'<a href="{route(number+1)}">Next →</a>' if number < pages else '<span></span>'
-            nav = f'<nav class="r-pagination" aria-label="Source index pages">{previous}<span>Page {number} of {pages} · {len(ordered):,} references</span>{following}</nav>'
-            body = header[1] + nav + ''.join(source_row(r) for r in ordered[(number-1)*100:number*100]) + nav
-            rendered = main_body(current, body)
-            if not path.exists():
-                rendered = re.sub(r'(<link\b[^>]*rel=["\']canonical["\'][^>]*href=)["\'][^"\']*["\']',
-                                  lambda m: m[1] + '"https://glasgow.phenotype.dev' + route(number) + '"', rendered)
-                rendered = re.sub(r'data-g-path="[^"]*"', 'data-g-path="' + route(number) + '"', rendered, count=1)
-            writes[path] = rendered
+    writes.update(source_browse_pages(web, sources))
     return writes
 
 

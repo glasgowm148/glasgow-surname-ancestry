@@ -186,17 +186,23 @@ def build(web: Path, policy=None) -> tuple[dict[str, dict], list[dict], Counter]
 def write(web: Path, changed: dict[str, dict], rows: list[dict]) -> list[str]:
     """Write the documents, the index and a standard page for each new source."""
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from ingest_canonical_records import source_page  # noqa: E402
+    from ingest_canonical_records import packed_source_index, source_browse_pages, source_page  # noqa: E402
     template = next(iter(sorted((web / "sources").glob("s-*/index.html"))), None)
     pages = []
     for sid, doc in changed.items():
-        (web / "assets/v3/sources" / f"{sid}.json").write_text(json.dumps(doc, ensure_ascii=False) + "\n", encoding="utf-8")
+        (web / "assets/v3/sources" / f"{sid}.json").write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
         page = web / "sources" / sid / "index.html"
         if not page.exists() and template is not None:
             page.parent.mkdir(parents=True, exist_ok=True)
             page.write_text(source_page(template.read_text(encoding="utf-8"), doc, site_root=web), encoding="utf-8")
             pages.append(page.relative_to(web).as_posix())
-    (web / "assets/v3/source-index.json").write_text(json.dumps(rows, ensure_ascii=False) + "\n", encoding="utf-8")
+    (web / "assets/v3/source-index.json").write_text(json.dumps(rows, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    # The packed index and the complete no-script browse pages follow the index, as after an ingest.
+    (web / "assets/v3/source-index-packed.json").write_text(
+        json.dumps(packed_source_index(rows), ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    for path, text in source_browse_pages(web, rows).items():
+        if not path.exists() or path.read_text(encoding="utf-8") != text:
+            path.write_text(text, encoding="utf-8")
     return pages
 
 
@@ -206,7 +212,7 @@ def main(argv=None) -> int:
     parser.add_argument("--check", action="store_true", help="report what would change; write nothing")
     args = parser.parse_args(argv)
     changed, rows, counts = build(args.web, privacy_policy())
-    if not args.check:
+    if not args.check and changed:
         counts["source pages created"] = len(write(args.web, changed, rows))
     print(json.dumps({"written": not args.check, **dict(sorted(counts.items())), "index rows": len(rows)}))
     return 0

@@ -74,7 +74,7 @@ def main(argv=None) -> int:
         folder = args.web / "assets/research/records"
         folder.mkdir(parents=True, exist_ok=True)
         for rid, detail in changed.items():
-            (folder / f"{rid}.json").write_text(json.dumps(detail, ensure_ascii=False) + "\n", encoding="utf-8")
+            (folder / f"{rid}.json").write_text(json.dumps(detail, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     print(json.dumps({"written": not args.check, **dict(sorted(counts.items()))}))
     return 0
 
