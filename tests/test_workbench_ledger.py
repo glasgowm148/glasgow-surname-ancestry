@@ -28,6 +28,16 @@ class ChangedImportStore(Store):
         return super().all(sql)
 
 
+class AssetStore(Store):
+    def __init__(self, hashes):
+        self.hashes = hashes
+
+    def all(self, sql):
+        if "SELECT path, sha256" in sql:
+            return [{"path": "notes.md", "sha256": value} for value in self.hashes]
+        return super().all(sql)
+
+
 class Views:
     def __init__(self, store):
         self.store = store
@@ -68,6 +78,22 @@ class LedgerTests(unittest.TestCase):
         item = {"path": "notes.md", "sha256": "new", "disposition": "imported",
                 "category": "research", "access": "private", "tracked": True}
         result = ledger(type("Project", (), {"store": ChangedImportStore()})(),
+                        {"source_commit": "x", "files": [item], "summarised": []})
+        self.assertEqual("changed since the inventory; re-run the migration", result["problems"][0]["problem"])
+
+    def test_registered_older_asset_version_is_accepted(self):
+        item = {"path": "notes.md", "sha256": "old", "disposition": "imported",
+                "category": "research", "access": "private", "tracked": True}
+        for hashes in (["newer", "old"], ["old", "newer"]):
+            with self.subTest(hashes=hashes):
+                result = ledger(type("Project", (), {"store": AssetStore(hashes)})(),
+                                {"source_commit": "x", "files": [item], "summarised": []})
+                self.assertEqual([], result["problems"])
+
+    def test_unknown_asset_version_is_rejected(self):
+        item = {"path": "notes.md", "sha256": "unknown", "disposition": "imported",
+                "category": "research", "access": "private", "tracked": True}
+        result = ledger(type("Project", (), {"store": AssetStore(["newer", "old"])})(),
                         {"source_commit": "x", "files": [item], "summarised": []})
         self.assertEqual("changed since the inventory; re-run the migration", result["problems"][0]["problem"])
 

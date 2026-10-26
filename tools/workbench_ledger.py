@@ -41,8 +41,9 @@ def ledger(project, inventory: dict) -> dict:
         batches.setdefault(row["input_label"], set()).add(row["input_sha256"])
     for row in store.all("SELECT b.input_label, a.path FROM import_batch b JOIN asset a ON a.id=b.asset_id"):
         batches.setdefault(f"data/exports/one-tree/{row['input_label']}", set())
-    assets: dict[str, str] = {row["path"]: row["sha256"] for row in
-                              store.all("SELECT path, sha256 FROM asset WHERE root='repository'")}
+    assets: dict[str, set[str]] = {}
+    for row in store.all("SELECT path, sha256 FROM asset WHERE root='repository'"):
+        assets.setdefault(row["path"], set()).add(row["sha256"])
     legacy = {row["input_path"] for row in store.all("SELECT DISTINCT input_path FROM legacy_item")}
     from tools.workbench_migrate import is_generated
     generated_paths = {item["path"] for item in inventory["files"] if is_generated(item["path"])}
@@ -63,7 +64,7 @@ def ledger(project, inventory: dict) -> dict:
             changed = digest is not None and batches[path] and digest not in batches[path]
         elif path in assets:
             actual = "retained as referenced evidence or prose"
-            changed = digest is not None and assets[path] != digest
+            changed = digest is not None and digest not in assets[path]
         elif planned == "derivative":
             actual, changed = "replaced by a reproducible derivative", False
         elif path in legacy:
