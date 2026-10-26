@@ -19,6 +19,7 @@
 - Items an import kept for review (`.venv/bin/genealogy --project . legacy list`) are resolved only by recording the decision and its reason (`legacy resolve ID --resolution "…" --expected-revision N`); never delete or edit them. The open ones are genealogical judgements, with evidence in the private `data/private/workbench/review-notes.md`.
 - A script that edits `www/` directly is lost at the next rebuild (see `docs/workbench-migration/builder-inputs.md`): put the change in a builder or a declared input instead.
 - Never edit the SQLite file directly, commit it, or copy it into `www/`; backups use `.venv/bin/genealogy --project . backup create --exclude-root repository`.
+- The checkout is shared with other agents: stage only your own files by explicit path, never `git add -A`, stash, reset or touch another agent's uncommitted work. The project skill's "Working in this project" section has the full rules.
 
 ## Research tools and context costs
 

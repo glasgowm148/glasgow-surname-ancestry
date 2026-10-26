@@ -5,6 +5,24 @@ description: Research historical WikiTree people, assess exact father–child co
 
 # WikiTree Research
 
+## Working in this project (read first)
+
+**Where research is saved.** The research database `data/private/workbench/glasgow.sqlite` is the authority. Record changes through the workbench, never by editing the generated files:
+- relationship assessments: `.venv/bin/genealogy --project . assess glasgow-assertion:ID --expected-revision N …` (`history ID` shows N);
+- findings, canonical records, vital assessments: `.venv/bin/python tools/research_entry.py upsert finding|record|vital ROW.json --expected-revision N` (`show KIND ID` prints the row and N);
+- research plans, parent candidates, the update queue and its review files: edit the file, then `tools/research_entry.py document PATH --expected-revision N`.
+A stale-revision error means someone changed the row since you read it: re-read and redo the change, never force it. Generated files (`research/relationship_assessments.json`, `relationship_probability_estimates.json`, `latest-findings.json`, `canonical_records.json`, `vital_assessments.json`, plans and queue files) are rebuilt with `make research-views`; `make check-workbench` and `make check-workbench-views` fail if they drift. A latest-findings relationship change needs relationship, subject, relative, different before/after grades (or a changed percentage), an explanation and `previous_status_provenance`, or every build stops.
+
+**Items kept for review** (`genealogy legacy list`) are resolved with a reason (`legacy resolve ID --resolution "…" --expected-revision N`), never deleted. Identity merges use the workbench's reversible `merge_people`, never row edits.
+
+**The checkout is shared.** Other agents may be working here at the same time. Before committing, read `git status` and `git diff` and stage only your own files by explicit path. Never `git add -A`/`git add .`, stash, reset, clean or check out files you did not change, and never edit another agent's uncommitted files. Push only when the owner asks; first `git fetch` and confirm `origin/main` is an ancestor of `HEAD`. Do not run `make research-views` or a release while another agent is mid-edit on the same research files: check instead (`tools/workbench_legacy_views.py --check`).
+
+**`www/` is built in place.** Untracked files there include sources that no builder makes; they are declared in `data/site/declared-inputs.json` and the private `data/private/site-state/manifest.json` (`tools/site_declared_inputs.py`). A script that edits `www/` directly is lost at the next rebuild: put the change in a builder, the release repairs (`tools/publish_research_release.py`) or a declared input. Run `site_declared_inputs.py --save-state` only after reviewing a rebuild's checks. A full rebuild (`make build`, about 20 minutes, then `tools/rebuild_local_site.sh`, about an hour) is not yet equivalent to the live site; never publish a rebuilt `www/` until its checks match the live site's, above all `check_publication_boundary.py`. See `docs/workbench-migration/builder-inputs.md`.
+
+**Privacy in builders.** Decide who is living from every export (`public_privacy.from_sources(..., all_exports=True)`), not only the profiles a builder works on, and run hand-written prose (change logs, notes) through the same policy.
+
+**Safety.** Back up before risky database work (`.venv/bin/genealogy --project . backup create data/private/workbench/backups/NAME --exclude-root repository`, then `backup verify`). Clean `tmp/` only with `tools/workbench_tmp_cleanup.py` (dry run first; it keeps anything the database references), after `tools/workbench_scratch_review.py --preserve --no-size-limit` has copied unique notes and evidence. Never write to WikiTree, merge live profiles or contact anyone unless the owner asks.
+
 - Father coverage must include retained primary fathers even when unselected alternatives remain in the dossier. Honor explicit approved working/current selections and the retained tree parent; preserve genuinely conflicting selections as unresolved. A graph repair restoring existing attachments is a method correction, not a new ancestral connection or confidence finding. Capture its baseline separately before measuring subsequent research upgrades.
 
 - Reusing native Chrome tabs: Mac MCP `browser_do` defaults to opening a tab. Pass the observed `tab_handle` and explicit `new_tab: false` on every navigation in a reused working tab; verify the returned handle and URL, since the backend can target the active tab despite the requested handle. If it misroutes, restore the personal tab immediately and use the inventoried native Chrome tab ID for subsequent navigation. Inventory and close only task-owned tabs. Save source receipts before navigating away.
