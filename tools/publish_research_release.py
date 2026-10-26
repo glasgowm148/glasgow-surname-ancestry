@@ -28,7 +28,10 @@ def research_publication_gate():
             f'{research_check.DEFAULT_BASELINE} --update-baseline --accept-new and say why in the commit.')
 
 
-def publish(*, render_people=True):
+def publish(*, render_people=True, gate=True, refresh_index=True):
+    """The release repairs. The full rebuild runs them with ``gate`` and
+    ``refresh_index`` off: it reports the research check itself and does not
+    refresh the local search index."""
     try:
         from tools.public_privacy import repair as repair_privacy
     except ModuleNotFoundError:
@@ -64,12 +67,15 @@ def publish(*, render_people=True):
     runpy.run_path(str(ROOT / 'tools/publish_wikitree_redirect_aliases.py'))['publish']()
     repair_privacy(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/site_analytics.py'))['repair']()
-    research_publication_gate()
+    if gate:
+        research_publication_gate()
     try:
         from tools.finalize_site import finalize
     except ModuleNotFoundError:
         from finalize_site import finalize
     finalize(ROOT / 'www')
+    if not refresh_index:
+        return
     refresh_result = runpy.run_path(str(ROOT / 'tools/genealogy/batch_complete.py'))['refresh_after_batch']()
     if refresh_result:
         raise RuntimeError('Website synchronized; local genealogy index refresh failed (see refresh state/logs).')
