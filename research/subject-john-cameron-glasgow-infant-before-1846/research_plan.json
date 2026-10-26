@@ -1,0 +1,55 @@
+{
+  "profile_id": "subject-john-cameron-glasgow-infant-before-1846",
+  "updated": "2026-10-26",
+  "status": "open",
+  "questions": [
+    {
+      "question": "Do the six sparse Scottish birth/baptism profiles identify this infant, or name parents incompatible with Moses Glasgow and Mary J. Pierce?",
+      "status": "open",
+      "priority": "normal",
+      "next_action": "Inspect cited Scottish birth/baptism references for Glasgow-3848 (581/37), Glasgow-3849 (596/26), Glasgow-3853 (495/12), Glasgow-3856 (715/3), Glasgow-3859 (651/2/11) and Glasgow-3861 (613/21). Compare named parents, dates and any later survival. Do not reject them solely because Cincinnati is inferred for the family.",
+      "resume_condition": "Underlying baptism entries or reliable parent/later-event evidence become inspectable; retain candidates and creation HOLD until then."
+    }
+  ],
+  "web_searches": [
+    {
+      "query": "WikiTree searchPerson FirstName=John LastName=Glasgow; start=0,100,200,300,400; limit=100",
+      "date": "2026-10-26",
+      "site": "Anonymous WikiTree API",
+      "result": "Paginated all 446 returned results. Six sparse public Scottish birth references remain candidates; restricted or withheld fields remain access gaps. No global profile absence asserted.",
+      "outcome": "partial",
+      "limitation": "Name search is broader than exact name. Underlying Scottish birth/baptism entries not inspected.",
+      "private_receipt": "data/private/workbench/review/john-infant-20261026/public-duplicate-search.json"
+    },
+    {
+      "query": "WikiTree getRelatives Glasgow-589,Pierce-14470,Glasgow-466 plus three candidate biographies; getPeople nineteen remaining open candidates",
+      "date": "2026-10-26",
+      "site": "Anonymous WikiTree API",
+      "result": "Adult466 excluded by1820–1901 lifespan/differentparents;2882 by1863marriage;2502 by1850censusappearance;4042 byage6 in1841 andsurvival1848. Other candidates with later public events or distinct sourced parents excluded; six sparse entries retained.",
+      "outcome": "partial",
+      "limitation": "Profile accounts inspected as identity leads; underlying archives not newly inspected. No compatible sparse profile excluded solely for absent fields."
+    }
+  ],
+  "findings": [],
+  "current_evidence": {
+    "source_url": "https://www.wikitree.com/photo/pdf/Glasgow-590",
+    "locator": "Undated family typescript, page5",
+    "age_at_death": "five months",
+    "death_before": "1846-03-14 (contextual inference)",
+    "birth_death_locations": "Cincinnati, Hamilton, Ohio, United States (uncertain immediate-family inference)",
+    "parent_assessments": "strongly_supported, qualitative, no percentage",
+    "creation_status": "identity_hold"
+  },
+  "worker_receipts": [
+    "data/private/workbench/review/john-infant-20261026/04-chronology.json",
+    "data/private/workbench/review/john-infant-20261026/08-live-family.json",
+    "data/private/workbench/review/john-infant-20261026/01-public-duplicates.json",
+    "data/private/workbench/review/john-infant-20261026/06-catalogue.json",
+    "data/private/workbench/review/john-infant-20261026/02-local-identity.json",
+    "data/private/workbench/review/john-infant-20261026/03-original-leads.json",
+    "data/private/workbench/review/john-infant-20261026/09-assessment-design.json",
+    "data/private/workbench/review/john-infant-20261026/10-date-publication.json",
+    "data/private/workbench/review/john-infant-20261026/07-record-schema.json",
+    "data/private/workbench/review/john-infant-20261026/05-native-workflow.json"
+  ]
+}

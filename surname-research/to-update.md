@@ -4370,3 +4370,8 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 | --- | --- | --- |
 | [Mary J. Pierce](https://www.wikitree.com/wiki/Pierce-14470) | OPEN | Record Mary J. Pierce as Robert’s mother at 93% and review the existing Lois maternal attachment separately at 93%; distinguish later stepmother Martha Thompson. |
 | [Martha W. Thompson](https://www.wikitree.com/wiki/Thompson-63146) | OPEN | Explain Martha Thompson’s stepmother roles for Robert Finley and Lois Ladd; preserve the earlier Pierce/Thompson research note, without a biological-maternity percentage. |
+
+
+## Infant John Cameron Glasgow — 26 October 2026
+
+HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cincinnati_John_Cameron_Glasgow.md) and a distinct record-defined account retain the explicit child of Moses Glasgow-589 and Mary Pierce-14470, died aged five months. Adult Glasgow-466 is excluded; restricted duplicate-search fields remain unassessed. Exact event dates are unknown, Cincinnati locations inferred and uncertain, parent roles qualified without percentages. No live creation or existing-profile grade change.

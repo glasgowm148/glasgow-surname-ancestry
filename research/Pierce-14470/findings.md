@@ -17,3 +17,11 @@ The family-history typescript is retrospective and attributed to William Melanch
 ## Open questions
 
 Locate an original marriage, birth, death, or church record for Mary and Robert’s 1844 birth household, and resolve the infant John Cameron entry without attaching it to Glasgow-466.
+
+
+## Infant John Cameron review — 26 October 2026
+
+The page-5 child-group clause distinguishes [infant John Cameron Glasgow](/people/record-john-cameron-glasgow-infant-before-1846.html), who died aged five months, from adult John Cameron Glasgow-466 (1820–1901). He now has a separate source-defined account linked to Moses and Mary Pierce, with qualitative parent assessments and no individual percentages. The two canonical held rows reference the same undated retrospective PDF. The inferred death-before-14-March-1846 boundary and Cincinnati locations remain qualified; exact event dates and places are unrecorded. The complete sourced creation draft is on HOLD because restricted public-search fields leave a duplicate-check gap. No live attachment or existing profile grade changed.
+
+
+Remaining compatible-name leads: [Glasgow-3848](https://www.wikitree.com/wiki/Glasgow-3848), [Glasgow-3849](https://www.wikitree.com/wiki/Glasgow-3849), [Glasgow-3853](https://www.wikitree.com/wiki/Glasgow-3853), [Glasgow-3856](https://www.wikitree.com/wiki/Glasgow-3856), [Glasgow-3859](https://www.wikitree.com/wiki/Glasgow-3859), [Glasgow-3861](https://www.wikitree.com/wiki/Glasgow-3861). These sparse Scottish birth references are retained pending inspection of parents and later events. The inferred Cincinnati context is not a sufficient exclusion. Glasgow-2882, Glasgow-2502 and Glasgow-4042 have inspected public accounts showing later survival or an age incompatible with death at five months; underlying archival images were not newly inspected.

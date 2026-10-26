@@ -110974,6 +110974,154 @@
     }
   },
   {
+    "assertion_id": "clm-john-infant-mary-20261026",
+    "people": [
+      "record-john-cameron-glasgow-infant-before-1846",
+      "Pierce-14470"
+    ],
+    "claim": "The record-defined infant John Cameron Glasgow was a child of Mary J. Pierce.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-john-cameron-glasgow-infant-before-1846": {
+        "relationship": "mother"
+      },
+      "Pierce-14470": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "held-e-f0fe7f969e32"
+    ],
+    "provenance": {
+      "held_scan_inspected": true,
+      "live_flag_changed": false,
+      "new_documentary_account": true,
+      "not_an_existing_profile_grade_upgrade": true,
+      "source_newly_discovered": false
+    },
+    "status": "strongly_supported",
+    "assessment_date": "2026-10-26",
+    "basis": "Page 5 identifies Moses’s marriage to Mary J. Pierce, then explicitly lists Lois Ladd, Robert Finley and John Cameron as their children. The infant relationship is independently reviewed from this clause; it is not a transfer of a sibling’s percentage.",
+    "assessment_history": [
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Page 5 identifies Moses’s marriage to Mary J. Pierce, then explicitly lists Lois Ladd, Robert Finley and John Cameron as their children. The infant relationship is independently reviewed from this clause; it is not a transfer of a sibling’s percentage."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Page 5 identifies Moses’s marriage to Mary J. Pierce, then explicitly lists Lois Ladd, Robert Finley and John Cameron as their children. The infant relationship is independently reviewed from this clause; it is not a transfer of a sibling’s percentage."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Page 5 identifies Moses’s marriage to Mary J. Pierce, then explicitly lists Lois Ladd, Robert Finley and John Cameron as their children. The infant relationship is independently reviewed from this clause; it is not a transfer of a sibling’s percentage."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Page 5 identifies Moses’s marriage to Mary J. Pierce, then explicitly lists Lois Ladd, Robert Finley and John Cameron as their children. The infant relationship is independently reviewed from this clause; it is not a transfer of a sibling’s percentage."
+      }
+    ],
+    "reason": "Page 5 identifies Moses’s marriage to Mary J. Pierce, then explicitly lists Lois Ladd, Robert Finley and John Cameron as their children. The infant relationship is independently reviewed from this clause; it is not a transfer of a sibling’s percentage.",
+    "limitations": "One undated retrospective descendant account, not independent contemporary birth or death evidence. No individual percentage assigned; date before 14 March 1846 is contextual. Martha Thompson married Moses later and is not this infant’s mother or an evidenced stepmother during his lifetime. No existing WikiTree attachment or grade changed.",
+    "probability": null,
+    "working_selection": false,
+    "attachment_status": "documented",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "profile_names": {
+      "Pierce-14470": "Mary J. Pierce",
+      "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
+    },
+    "profile_urls": {
+      "record-john-cameron-glasgow-infant-before-1846": {
+        "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
+      }
+    }
+  },
+  {
+    "assertion_id": "clm-john-infant-moses-20261026",
+    "people": [
+      "record-john-cameron-glasgow-infant-before-1846",
+      "Glasgow-589"
+    ],
+    "claim": "The record-defined infant John Cameron Glasgow was a child of Moses Thomas Glasgow.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-john-cameron-glasgow-infant-before-1846": {
+        "relationship": "father"
+      },
+      "Glasgow-589": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "held-e-f0fe7f969e32"
+    ],
+    "provenance": {
+      "held_scan_inspected": true,
+      "live_flag_changed": false,
+      "new_documentary_account": true,
+      "not_an_existing_profile_grade_upgrade": true,
+      "source_newly_discovered": false
+    },
+    "status": "strongly_supported",
+    "assessment_date": "2026-10-26",
+    "basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference.",
+    "assessment_history": [
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference."
+      },
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference."
+      }
+    ],
+    "reason": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference.",
+    "limitations": "One undated retrospective descendant account, not independent contemporary birth or death evidence. No individual percentage assigned, precise dates unknown, and public WikiTree duplicate screening has restricted-field gaps. No existing WikiTree attachment or grade changed.",
+    "probability": null,
+    "working_selection": false,
+    "attachment_status": "documented",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "profile_names": {
+      "Glasgow-589": "Moses Thomas Glasgow",
+      "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
+    },
+    "profile_urls": {
+      "record-john-cameron-glasgow-infant-before-1846": {
+        "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
+      }
+    }
+  },
+  {
     "assertion_id": "clm-lois2357-martha-20261026",
     "people": [
       "Glasgow-2357",

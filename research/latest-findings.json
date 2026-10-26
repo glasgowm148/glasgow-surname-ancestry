@@ -59439,6 +59439,42 @@
           "scope": "Subjective 93% for Lois Ladd Glasgow-2357 → Mary J. Pierce-14470 as biological mother. An explicit child-group clause in an undated retrospective family account attributed to William Melanchthon Glasgow supports this complete profile pair. It is not a contemporary birth register. The census references are retained household evidence, not newly inspected original images. The account places Mary in her twenty-sixth year, meaning age 25; this is compatible with the current birth-before-1821 field and is not a date conflict. Other date discrepancies elsewhere in the account remain qualifications. Lois’s father remains 96%; guessed birth 1842 and upstream ancestry are unchanged. The account separately reports death in June 1870, with no day or place. The prior live mother was Mary, unmarked, with no numerical estimate; this is not a 0%→93% increase."
         }
       ]
+    },
+    {
+      "id": "john-cameron-infant-distinguished-20261026",
+      "found_on": "2026-10-26",
+      "kind": "biographical",
+      "finding": "The family account distinguishes infant John Cameron, child of Moses Glasgow and Mary J. Pierce, who died aged five months. He is represented separately from adult John Cameron Glasgow-466; his source-defined parent roles carry no individual percentage.",
+      "status": "qualified",
+      "qualification": "One undated retrospective family account, visually inspected. Death before 14 March 1846 and Cincinnati event places are contextual inferences; precise infant dates and places are not recorded. Public duplicate screening leaves restricted-field gaps, so creation stays on HOLD. This is a new documentary account, not an existing WikiTree relationship-grade upgrade. Six sparse open Scottish candidate profiles also require original-source comparison; they are retained without an identity assignment.",
+      "people": [
+        {
+          "id": "record-john-cameron-glasgow-infant-before-1846",
+          "name": "John Cameron Glasgow, infant",
+          "url": "/people/record-john-cameron-glasgow-infant-before-1846.html",
+          "role": "Distinct source-defined child; creation held"
+        },
+        {
+          "id": "Glasgow-589",
+          "name": "Moses Thomas Glasgow",
+          "url": "/people/glasgow-589.html",
+          "role": "Named father in the family account"
+        },
+        {
+          "id": "Pierce-14470",
+          "name": "Mary J. Pierce",
+          "url": "/people/pierce-14470.html",
+          "role": "Named mother in the family account"
+        }
+      ],
+      "sources": [
+        {
+          "title": "History of the Glasgow Family, undated typescript attributed to William Melanchthon Glasgow, p.5",
+          "url": "https://www.wikitree.com/photo/pdf/Glasgow-590"
+        }
+      ],
+      "detail_url": "/people/record-john-cameron-glasgow-infant-before-1846.html",
+      "relationship_changes": []
     }
   ]
 }
