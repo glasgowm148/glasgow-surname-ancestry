@@ -36,6 +36,8 @@ Delegate bounded file/search/API comparisons to native workers when useful. Tell
 
 ## Batch boundary
 
+Persist research through the SQLite-backed workflow in `AGENTS.md`: save record, finding and vital rows with `.venv/bin/python tools/research_entry.py upsert record|finding|vital ROW.json`; read existing rows with `show KIND ID` and supply `--expected-revision N` for updates. Record relationship changes through workbench assessment/relationship commands or checked proposals. For database-held plans, parent candidates and queue/review documents, read the revision with `document PATH --show`, edit the document, then save with `document PATH --expected-revision N`. Re-read stale revisions; never edit SQLite or generated registry JSON directly.
+
 Combine related result pages into one reviewed publication batch when their identity decisions can be completed together. Finish a coherent batch of substantive findings before synchronizing; coverage-ledger updates and already-held/skipped records do not require a site build. Validate the selected batch's actual schemas and complete proposed texts before shared writes; make resumable integration replace its own marked blocks rather than append duplicates. For changed records, use the dependency order: ingest reviewed records, synchronize affected person/source accounts, update latest findings, update affected studies, then refresh backlinks and only the affected derived views. Verify changed surfaces and required publication/link checks before continuing. Local synchronization does not establish live deployment or authorize live WikiTree edits.
 
 Report the next exact coverage step and unresolved dispositions. Leave the full goal active until its complete scope has been verified.

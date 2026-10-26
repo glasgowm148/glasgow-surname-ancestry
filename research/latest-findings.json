@@ -59184,6 +59184,33 @@
         "research/Glasgow-1711/father-confidence-2026-10-22i.wiki",
         "research/free-space-pages/edition/glasgow-of-killycurragh-early-c19-aa9477.wiki"
       ]
+    },
+    {
+      "id": "fmp-page28-mary-source-groups-20261026",
+      "found_on": "2026-10-26",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Three inspected Findmypast transcripts document two Mary Glasgow groups: an infant daughter of Alexander buried at Glasgow High Church on 21 July 1763, and a child baptised at Crawford on 13 August 1767 to Robert Glasgow and Isabel Porteous.",
+      "qualification": "All three remain source-only identity HOLDs. The two Crawford derivatives describe one baptism, not independent corroboration; neither gives an exact birthday. The burial records age three months and no exact death day. No catalogue identity, new person, parent attachment or relationship-confidence change is approved. Fifteen page-28 transcript gaps remain after browser control failed; original registers are uninspected.",
+      "people": [],
+      "sources": [
+        {
+          "title": "Mary Glasgow burial, Glasgow High Church, 1763",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093176&tab=this"
+        },
+        {
+          "title": "Mary Glasgow Crawford baptism, 1767 — derivative 1",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685663864&tab=this"
+        },
+        {
+          "title": "Mary Glasgow Crawford baptism, 1767 — companion derivative",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_689425450&tab=this"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/sources/s-893213f330d9b586/"
     }
   ]
 }

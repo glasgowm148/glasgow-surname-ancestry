@@ -4,9 +4,9 @@
 
 Reviewed25October2026: Marion Glasgow was baptised on 6 April 1740 at Covington and Thankerton, daughter of George Glasgow and Agnes Williamson. The two derivative entries record her as female and supply indexed birth year1740, without an exact birthday. The earlier imported account calls Marion male and provides an estimated 1740 birth without a citation. The two matching derivative baptism entries support the existing child identity and female description, but are not independent original corroboration. The selected father Glasgow-1070 remains 76% probable; the mother profile Williamson-12853 remains separately unassessed. This finding supersedes the earlier statement that no held baptism was identified. Gender Female is queued as a structured correction; the imported machine label is retained as an explicitly superseded claim pending projection.
 
-Current father assessment (22 October 2026): **76% (probable)** for [Glasgow-1070](https://www.wikitree.com/wiki/Glasgow-1070). Probable extension of the specific family sequence; no held baptism for Marion has been identified. The stored sex label is not corrected by this father review. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (22 October 2026): **76% (probable)** for [Glasgow-1070](https://www.wikitree.com/wiki/Glasgow-1070). The 22 October review used the specific family sequence before a held baptism had been identified and did not correct the stored sex label. The 25 October derivative baptism review supersedes those evidence gaps; the selected father assessment remains 76% probable, with the adult identity bridge and original-register inspection still unresolved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
-Marion’s c 1740 birth fits George Glasgow and Agnes Williamson’s Covington/Thankerton household, independently recorded with children in 1744, 1747 and 1750. The earlier date gives a feasible paternal age around twenty-one. Probable extension of the specific family sequence; no held baptism for Marion has been identified. The stored sex label is not corrected by this father review.
+Marion’s c 1740 birth fits George Glasgow and Agnes Williamson’s Covington/Thankerton household, independently recorded with children in 1744, 1747 and 1750. The earlier date gives a feasible paternal age around twenty-one. The 22 October review used the specific family sequence before a held baptism had been identified and did not correct the stored sex label. The 25 October derivative baptism review supersedes those evidence gaps; the selected father assessment remains 76% probable, with the adult identity bridge and original-register inspection still unresolved.
 
 ## Father confidence review, fourth batch — 22 October 2026
 
@@ -14,9 +14,9 @@ Marion’s c 1740 birth fits George Glasgow and Agnes Williamson’s Covington/T
 
 Marion’s c 1740 birth fits George Glasgow and Agnes Williamson’s Covington/Thankerton household, independently recorded with children in 1744, 1747 and 1750. The earlier date gives a feasible paternal age around twenty-one.
 
-Scope: Probable extension of the specific family sequence; no held baptism for Marion has been identified. The stored sex label is not corrected by this father review.
+Scope: The 22 October review used the specific family sequence before a held baptism had been identified and did not correct the stored sex label. The 25 October derivative baptism review supersedes those evidence gaps; the selected father assessment remains 76% probable, with the adult identity bridge and original-register inspection still unresolved.
 
-Next useful test: Locate Marion’s parish entry with the full parental couple.
+Next useful test: Inspect the original 6 April 1740 Covington and Thankerton entry and resolve the named adults’ identities.
 
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 

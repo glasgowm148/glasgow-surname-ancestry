@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "record_id": "fmp-record-gbprs-glasgow-bur-093176",
+      "source_id": "s-5a2c1bd39dd00efb",
+      "reader_nonempty": true,
+      "one_heading": true,
+      "hold_visible": true,
+      "full_compact_agree": true,
+      "source_in_sitemap": true
+    },
+    {
+      "record_id": "fmp-record-r-685663864",
+      "source_id": "s-893213f330d9b586",
+      "reader_nonempty": true,
+      "one_heading": true,
+      "hold_visible": true,
+      "full_compact_agree": true,
+      "source_in_sitemap": true
+    },
+    {
+      "record_id": "fmp-record-r-689425450",
+      "source_id": "s-8250a428cca23c2c",
+      "reader_nonempty": true,
+      "one_heading": true,
+      "hold_visible": true,
+      "full_compact_agree": true,
+      "source_in_sitemap": true
+    }
+  ],
+  "latest_finding_visible": true,
+  "study_visible": true,
+  "people_publication": "5 checked; zero new failures",
+  "link_check": "zero new broken pairs; existing baseline retained",
+  "browser": "0 tabs/windows/processes launched; borrowed tab control unavailable before restoration; original query recorded in audit",
+  "coverage": {
+    "captured": 612,
+    "indexed": 612,
+    "supporting": 19,
+    "query_reviewed": 545,
+    "query_total": 5872,
+    "page28_gaps": 15,
+    "next_id": "SCOT/OPR/BAP/3883446"
+  },
+  "deployment": "local only",
+  "local_genealogy_index": "Refreshed successfully: qmd updated, PDF cache warmed, zero withheld files",
+  "database_generated_views": "297 generated files matched at checkpoint",
+  "asset_cache_stamps": {
+    "remaining_stale_references": 0
+  },
+  "database_asset_refresh": "Exact updated files registered by audited asset supersession; no broad migration",
+  "global_database_validation": "Stopped optional full scan after six minutes; not a passing check",
+  "checks": {
+    "selected_finding_schema": "passed",
+    "generated_views": "297 matched database",
+    "five_profile_publication": "zero new failures",
+    "links": "zero new baseline pairs",
+    "cache_versions": "zero remaining mismatches"
+  }
+}

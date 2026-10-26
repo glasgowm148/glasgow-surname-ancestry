@@ -26,14 +26,14 @@
     },
     "Glasgow-1121": {
       "current_sha256": "6e019e5be851660cadeebe67e9f99faa6171aeb70e796ec423e96ccf06c16d82",
-      "proposed_sha256": "7640f268124b5cdbadf52afe149fd16249f187a9e297b23bb6fb13b39f26f992",
+      "proposed_sha256": "4639b266825af9ab4a12501ef7bf9e06d6ae52583e41e1735549e2e5a2500d01",
       "previous_proposed_sha256": "50f6f794ae6044e3aeb0efc0e5c01e546ae86346dae78c3118e0def3273fff34",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/fmp-resume-20261025/previous-proposals/Glasgow-1121.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-1121/father-confidence-2026-10-22d.wiki",
-      "retained": "Captured source identities and complete prior source/research sections retained. Earlier biography retained as explicitly superseded history.",
-      "superseded_passages": "The earlier imported account calls Marion male and provides an estimated 1740 birth without a citation. The two matching derivative baptism entries support the existing child identity and female description, but are not independent original corroboration. The selected father Glasgow-1070 remains 76% probable; the mother profile Williamson-12853 remains separately unassessed. This finding supersedes the earlier statement that no held baptism was identified. Gender Female is queued as a structured correction; the imported machine label is retained as an explicitly superseded claim pending projection.",
-      "reviewed_on": "2026-10-25"
+      "retained": "Complete normalized proposal compared with the full captured biography and current www/people/glasgow-1121.json model on26October2026. The complete captured biography is retained verbatim as a superseded account, including both parent links. The approximate1740 birth, unknown death, unchanged76% probable father and separately unassessed mother are retained; the imported Male machine label is explicitly superseded by the inspected Female baptism readings and remains queued for structured correction. Both Findmypast source identities R_685660801 and R_689421003, their full citations, original-register limits and all other substantive proposal passages remain unchanged. Only the stale evidence-gap passage and its next-test instruction were reconciled.",
+      "superseded_passages": "The earlier imported account calls Marion male and provides an estimated 1740 birth without a citation. The two matching derivative baptism entries support the existing child identity and female description, but are not independent original corroboration. The selected father Glasgow-1070 remains 76% probable; the mother profile Williamson-12853 remains separately unassessed. This finding supersedes the earlier statement that no held baptism was identified. Gender Female is queued as a structured correction; the imported machine label is retained as an explicitly superseded claim pending projection. Review26October2026: superseded the exact passage \"Probable extension of the specific family sequence; no held baptism for Marion has been identified. The stored sex label is not corrected by this father review.\" with an explicit dated qualification that the22October review preceded the held baptism and the25October derivative review supersedes those gaps, retaining76% and adult-identity/original-inspection limits. Superseded \"Next useful test: Locate Marion’s parish entry with the full parental couple.\" with inspection of the original6April1740 entry and resolution of the named adults’ identities.",
+      "reviewed_on": "2026-10-26"
     },
     "Glasgow-3485": {
       "current_sha256": "fe99659199f6344735d9bf5636601d1c4a6d9ed2b88c61451c95ea973ed28843",
