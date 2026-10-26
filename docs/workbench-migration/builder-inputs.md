@@ -147,8 +147,16 @@ builder ownership markers had to be declared too. They are only checked for
 existence, so the access log, which records file opens, missed them. The full
 rebuild script from an empty `www/` then reached step 20, which reads a file
 that the instrumented run had not opened. That is why the untouched files are
-declared as well. A run from empty with every source declared was in progress
-when this was written.
+declared as well. With every source declared, **all 25 build steps pass from an
+empty `www/`**. The last gap was 36 files another session had added to the
+live site after the experiment's clone; they are declared too.
+
+From empty, the checks match the run from the live copy except privacy. The
+likely-living spouse is now withheld. The change-log pages, however, named a
+private DNA tester's kit number taken from the hand-written
+`data/catalogue-changelog.json`, which the live pages do not show. The page
+builder now withholds any change-log line that names a withheld person or a
+private tester (three lines today).
 
 ## Remaining work, in order
 

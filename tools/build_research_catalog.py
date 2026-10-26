@@ -6101,8 +6101,17 @@ def _write_support_pages(
 
     changelog_path = Path(__file__).resolve().parents[1] / "data" / "catalogue-changelog.json"
     changelog = json.loads(changelog_path.read_text(encoding="utf-8")) if changelog_path.exists() else {"entries": []}
+    # Change-log prose is hand-written: a line naming a withheld person or a
+    # private DNA tester is withheld, as everywhere else on the site.
+    try:
+        changelog_policy = privacy_from_sources(_load_wikitree_evidence())
+    except FileNotFoundError:   # no exports in this checkout
+        changelog_policy = privacy_from_sources(_load_wikitree_evidence(), {})
+    def public_change(change: str) -> str:
+        return "A detail about a private person or DNA tester is withheld." \
+            if changelog_policy.contains_private_id(change) else change
     change_sections = "".join(
-        f'<article class="claim-card"><p class="kicker">{escape(entry.get("date") or "Undated")}</p><h2>{escape(entry.get("title") or "Catalogue update")}</h2><ul>{"".join(f"<li>{escape(change)}</li>" for change in entry.get("changes", []))}</ul></article>'
+        f'<article class="claim-card"><p class="kicker">{escape(entry.get("date") or "Undated")}</p><h2>{escape(entry.get("title") or "Catalogue update")}</h2><ul>{"".join(f"<li>{escape(public_change(change))}</li>" for change in entry.get("changes", []))}</ul></article>'
         for entry in changelog.get("entries", [])
     )
     changes_body = f'<p class="kicker">Release history</p><h1>Catalogue change log</h1><p class="lede">Material changes to the public research catalogue and its interpretation.</p><div class="question-grid">{change_sections or "<p>No change entries recorded.</p>"}</div>'
