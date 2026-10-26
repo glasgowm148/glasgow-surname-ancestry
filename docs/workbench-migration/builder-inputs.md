@@ -128,8 +128,10 @@ The access log sorts the 90,177 files in `www/`:
 | Neither read nor written | 22,493 |
 | Deleted by the build | 6,574 |
 
-The 28,031 read-first files (318 MB), the four builder ownership markers and
-`.htaccess` are now **declared build state**
+The 28,031 read-first files (318 MB), the 19,172 untouched files still in the
+live `www/` (153 MB; static parts of the published site no build step makes),
+the four builder ownership markers and `.htaccess` are now **declared build
+state** (47,207 files)
 (`tools/site_declared_inputs.py --declare-state`). Each has a private home in
 `data/private/site-state/`, recorded with its SHA-256 in a private manifest.
 `--install`, the first step of `make build` and of the rebuild script, seeds
@@ -137,6 +139,16 @@ any of them that `www/` lacks and never overwrites one that is present. After
 reviewing a rebuild's checks, `--save-state` carries the current versions
 forward. This is deliberate rather than automatic, so a rebuild that failed the
 privacy check cannot become the next build's input.
+
+**From an empty `www/`** (only the Git-tracked files plus the declared homes),
+`make build` now passes with the same output as from the live copy: 4,873
+catalogue people across 6,313 pages. The first such run found that the
+builder ownership markers had to be declared too. They are only checked for
+existence, so the access log, which records file opens, missed them. The full
+rebuild script from an empty `www/` then reached step 20, which reads a file
+that the instrumented run had not opened. That is why the untouched files are
+declared as well. A run from empty with every source declared was in progress
+when this was written.
 
 ## Remaining work, in order
 
