@@ -1,0 +1,17 @@
+{
+  "reviewed": "2026-10-26",
+  "scope": "Full captured biography and complete prior proposal preserved; additive father assessment and explicit supersession of prior grade. No structured-name or vital-field edit.",
+  "profiles": {
+    "Glasgow-997": {
+      "current_sha256": "f2be2f9d405e0d89fad82f0897aa670d20f4697141fb7d355ff130d4d1f86817",
+      "proposed_sha256": "14684306f92e8d616e5f8e7c0c9745629dcdbb4ad4e19b4888f88ee81c6f9235",
+      "all_substantive_passages_accounted_for": true,
+      "draft_path": "research/Glasgow-997/father-confidence-2026-10-26.wiki",
+      "private_comparison": false,
+      "retained": "Entire captured Cushing quotation, source anchor, archive link, probable memorial and supplementary URL retained. Earlier proposal’s dated assessment retained explicitly as superseded; new direct source explains the changed conclusion.",
+      "restored_source_passage_count": 0,
+      "source_draft_sha256": "044512f8eded3db50ce59f8893349dab941cfb1ced0d5afb8a4525e67dbbcd46",
+      "normalization_review": "Compared the complete effective draft against the reviewed source draft: the builder removes the internal review comment, wraps the two dated reviews under Current evidence assessment, demotes their headings and normalizes whitespace. All historical prose, Cushing quotation, source anchor, full citations and both additional URLs survive; no source fact is removed. Earlier 62% account remains explicitly superseded."
+    }
+  }
+}

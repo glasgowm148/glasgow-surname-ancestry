@@ -148,15 +148,45 @@ class Views:
                             "assessment_date": row.get("assessment_date"), "source_basis": row.get("basis")})
         fields: dict[str, Any] = {"status": current["status"], "assessment_date": current["assessed_on"],
                                   "basis": current["reasoning"], "assessment_history": history}
+        # A reassessment is authoritative for explanatory text as well as the
+        # derived status.  Keep the legacy row's shape and relationship roles,
+        # but replace stale prose that otherwise continues to describe the
+        # previous review (for example, an old percentage or "no parent
+        # clause" qualification).  Current explicit research metadata is
+        # merged below without manufacturing prior history.
+        if current["reasoning"] is not None:
+            fields["reason"] = current["reasoning"]
+            if row.get("claim") is not None:
+                fields["claim"] = current["reasoning"]
+            perspectives = row.get("perspectives")
+            if isinstance(perspectives, dict):
+                fresh_perspectives = {}
+                for person, perspective in perspectives.items():
+                    if isinstance(perspective, dict):
+                        fresh = dict(perspective)
+                        fresh["reason"] = current["reasoning"]
+                        fresh.pop("status_label", None)
+                        fresh_perspectives[person] = fresh
+                    else:
+                        fresh_perspectives[person] = perspective
+                fields["perspectives"] = fresh_perspectives
         if current["limitations"] is not None:
             fields["limitations"] = current["limitations"]
+            if row.get("record_scope") is not None:
+                fields["record_scope"] = current["limitations"]
         if current["basis_json"]:
             fields["source_ids"] = json.loads(current["basis_json"])
         if current["estimate_percent"] is not None:
             fields["probability"] = {"value": current["estimate_percent"] / 100, "reviewed": current["assessed_on"],
                                      "basis": current["reasoning"], "source_ids": fields.get("source_ids", [])}
+            if current["limitations"] is not None and isinstance(row.get("probability"), dict) \
+                    and row["probability"].get("scope") is not None:
+                fields["probability"]["scope"] = current["limitations"]
         else:
             fields["probability"] = None
+        explicit_provenance = _extra(current).get("provenance")
+        if isinstance(explicit_provenance, dict):
+            fields["provenance"] = {**(row.get("provenance") or {}), **explicit_provenance}
         fields.update(research_fields(current))
         return fields
 
@@ -194,6 +224,10 @@ class Views:
                     corrected.update({"percent": percent, "assessment_status": current["status"]})
                     if not self.migrated(current):
                         corrected.update({"basis": current["reasoning"], "reviewed": current["assessed_on"]})
+                        if current["limitations"] is not None and row.get("scope") is not None:
+                            corrected["scope"] = current["limitations"]
+                        if current["basis_json"]:
+                            corrected["source_ids"] = json.loads(current["basis_json"])
                         corrected.update(research_fields(current))
                 legacy.append((index, corrected))
             if not extra.get("legacy_estimates") and "legacy" not in extra and current is not None \

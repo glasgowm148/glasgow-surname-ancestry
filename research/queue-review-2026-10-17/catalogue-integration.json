@@ -12234,31 +12234,34 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-997/father-confidence-2026-10-22c.wiki",
+      "biography_rechecked_at": "2026-10-26",
+      "draft_path": "research/Glasgow-997/father-confidence-2026-10-26.wiki",
       "findings_path": "research/Glasgow-997/findings.md",
-      "summary": "Review existing father at 62% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 62% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Regrade existing father John Glasgow from 62% probable to 93% documented in the inspected family account; distinguish Alexander of Iowa from his separate brother Robert. No new father attachment or vital-field edit.",
+      "work_queue_summary": "Regrade existing father John Glasgow from 62% probable to 93% documented in the inspected family account; distinguish Alexander of Iowa from his separate brother Robert. No new father attachment or vital-field edit.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-209",
-          "status": "probable",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 62,
+          "status": "proved",
+          "previous_status": "probable",
+          "previous_probability_percent": 62,
+          "probability_percent": 93,
           "assertion_id": "C-coverage-20261022c-glasgow-997-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Probable 62%; specific compiled pedigree and compatible chronology, without a held parent clause."
+          "previous_status_provenance": "Project database assertion C-coverage-20261022c-glasgow-997-father revision 2, 22 October 2026: probable 62%. Public WikiTree API checked 26 October 2026 retains father 9351394 with unmarked certainty; no live save performed.",
+          "scope": "Selected Alexander-997→John-209 father proposition from the explicit retrospective family account,pp.3–4; exact dates, additionalRobert name, maternal confidence and earlier ancestry remain separate.",
+          "previous_wikitree_status": "unmarked"
         }
       ],
-      "preserve_captured_detail": false,
-      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": true,
+      "reviewed_narrative_reduction": false,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/alexander-997-preservation-2026-10-26.json",
+      "current_live_father_status": "unmarked",
+      "live_status_checked_at": "2026-10-26"
     },
     "Glasgow-1067": {
       "significance": 74,

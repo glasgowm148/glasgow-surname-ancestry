@@ -59211,6 +59211,59 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/sources/s-893213f330d9b586/"
+    },
+    {
+      "id": "alexander-john-family-account-20261026",
+      "found_on": "2026-10-26",
+      "kind": "relationship",
+      "finding": "The inspected Glasgow family account explicitly names Alexander as a son of John and Peninnah and identifies him as the Iowa farmer who died in 1857. This supports the existing Alexander Glasgow-997 → John Glasgow-209 father link at 93%, revised from 62%.",
+      "status": "qualified",
+      "qualification": "The known six-page typescript is a retrospective close-family account, not a newly discovered birth register. Its author identifies John as his grandfather and Moses as his father. Alexander’s separate brother Robert was unmarried in Pittsburgh; the profile’s additional “Robert” given name remains unproved. Exact vitals, maternity and earlier ancestry are unchanged.",
+      "people": [
+        {
+          "id": "Glasgow-997",
+          "name": "Alexander Glasgow (profile Robert Alexander)",
+          "url": "/people/glasgow-997.html",
+          "role": "Existing child profile; Iowa farmer in the family account"
+        },
+        {
+          "id": "Glasgow-209",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-209.html",
+          "role": "Explicitly named father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Melanchthon Glasgow, History of the Glasgow Family, printed pp. 3–4 (PDF pp. 3–4 of six); held scan visually inspected 26 October 2026",
+          "url": "https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf"
+        }
+      ],
+      "detail_url": "/people/glasgow-997.html",
+      "provenance": [
+        "research/Glasgow-997/findings.md",
+        "research/Glasgow-209/findings.md",
+        "Canonical record held-e-0cad51964207; research database assessment revision3"
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Alexander Glasgow (Glasgow-997)",
+          "relative": "John Glasgow (Glasgow-209)",
+          "subject_id": "Glasgow-997",
+          "relative_id": "Glasgow-209",
+          "before": "probable",
+          "after": "certain",
+          "before_probability_percent": 62,
+          "after_probability_percent": 93,
+          "new_attachment": false,
+          "explanation": "A newly inspected parent clause in a previously held family account names Alexander among John and Peninnah’s children; the Iowa destination and 1857 death match the existing profile and distinguish the separate brother Robert.",
+          "previous_status_provenance": [
+            "Research database C-coverage-20261022c-glasgow-997-father revision2,assessed22October2026:probable62%; retained in assessment history."
+          ],
+          "scope": "Existing father attachment only;93% subjective confidence for the complete profile pair within retrospective family-account scope."
+        }
+      ]
     }
   ]
 }

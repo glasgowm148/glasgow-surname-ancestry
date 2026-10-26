@@ -2768,7 +2768,7 @@ Other matched entries are supporting citations to existing children. No new pare
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1387) | OPEN | Review existing father at 36% (possible); no new father attachment. |
 | [Robert Glasgow Sr](https://www.wikitree.com/wiki/Glasgow-1049) | OPEN | Review existing father at 54% (possible); no new father attachment. |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-987) | OPEN | Review existing father at 57% (possible); no new father attachment. |
-| [Robert Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-997) | OPEN | Review existing father at 62% (probable); no new father attachment. |
+| [Robert Alexander / Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-997) | OPEN | Updated 26 October 2026: existing father John Glasgow, 62% probable → 93% documented from family account pp. 3–4. Distinguish separate brother Robert; preserve vital fields. No new father attachment. |
 | [Hew Glasgow](https://www.wikitree.com/wiki/Glasgow-1067) | OPEN | Review existing father at 99% (proved); no new father attachment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-1149) | OPEN | Review existing father at 97% (proved); no new father attachment. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1223) | OPEN | Review existing father at 98% (proved); no new father attachment.; cached-source review 24 October adds qualified birth/maternal readings; existing vitals and grades retained. |

@@ -4,6 +4,9 @@
 
 The John Glasgow born in 1780 and named in the later County Londonderry/Pennsylvania family is distinct from John Glasgow born in 1767. Similar names within the Hugh Glasgow tradition do not merge the two men.
 
+
+**Son Alexander — 26 October 2026:** the visually inspected family history, pp. 3–4, explicitly names John and Peninnah’s son Alexander and identifies him as the Iowa farmer who died in 1857. This matches [Glasgow-997](https://www.wikitree.com/wiki/Glasgow-997), whose existing father assessment is revised from **62% probable to 93% documented**, within this retrospective source’s scope. The account separately names Robert, unmarried and living at Mount Washington, Pittsburgh. The two brothers must remain distinct; “Robert Alexander” on Glasgow-997 is retained as the profile name, not proved by this source. See [Alexander’s evidence account](/people/glasgow-997.html) and [the original family-history scan](https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf), pp. 3–4. John’s own father assessment, earlier ancestry and all vital dates are unchanged.
+
 ## Recommended next records
 
 Use the relevant will, migration and household records to state which John each source names. Preserve both identities and do not transfer relatives or locations between them without a direct bridge.
