@@ -39,6 +39,7 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     # Source library documents follow the dossiers' current evidence; the repairs
     # below (dates, privacy, static sections) then apply on top.
     runpy.run_path(str(ROOT / 'tools/build_source_documents.py'))['main']([])
+    runpy.run_path(str(ROOT / 'tools/build_record_details.py'))['main']([])   # uses the documents' record lists
     runpy.run_path(str(ROOT / 'tools/repair_public_dna.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/withhold_licensed_assets.py'))['withhold']()
     repair_privacy(ROOT / 'www')

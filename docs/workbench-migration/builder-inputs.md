@@ -269,8 +269,32 @@ reports 0 new broken links. None of the 19 is in the live search index.
      withheld people, and gives new sources the standard page.
    On a copy of the live site a second run changes nothing, and the link and
    privacy checks are unchanged. The documents stay declared state, because
-   they hold the ids and record entries. Next: `assets/research/*`
-   (10,338 files).
+   they hold the ids and record entries.
+
+   **Record details next** (same day): `assets/research/records/<id>.json`
+   (5,548 files) are the records-index row plus four filled-in fields.
+   - `country` is the map colour group from the compact index.
+   - `document_id` is the source document listing the record.
+   - `person_url` is the person's page.
+   - `research_date` comes from the compact index.
+
+   5,027 matched; 456 lacked the index's newer supporting sources or
+   categories, and 87 records had no file. `tools/build_record_details.py`
+   (the second release repair) now writes them from the index. It keeps
+   fields only a file has (map-lead details, reviewed-location history) and
+   leaves the 64 files of records no longer indexed alone. A second run changes
+   nothing, and the link and privacy checks are unchanged on a copy of the live
+   site.
+
+   **Still carried forward:** `assets/research/people/<id>.json` (about
+   6,260 research-person models read by the atlas person panel). 4,485 were
+   last built on 8 September 2026 by a model builder that is no longer in the
+   repository; 313 are research cases rewritten by
+   `add_research_case_dossiers.py`. Producing them means rebuilding that
+   model (about 25 fields per person: atlas context, branches, events,
+   relationships, evidence and source documents) from the dossiers.
+   `assets/research/fragments/` (about 1,200 content-hashed section files) are
+   written by `page_fragments.py` and only need their stale copies pruned.
 3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
 4. Make `tools/build_research_catalog.py` (7,079 lines, the producer of `data/people.json` and `map/data/records.csv`) read the research database through `genealogy.store.projection.public_case` instead of the legacy registries.
 5. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers. One-off scripts that edit `www/` (as on 17 October) must become builder steps or declared inputs, or their changes are lost at the next rebuild.
