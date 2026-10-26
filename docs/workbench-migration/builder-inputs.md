@@ -252,10 +252,25 @@ reports 0 new broken links. None of the 19 is in the live search index.
 1. After the next full rebuild that passes its checks, run
    `site_declared_inputs.py --save-state` from it; a rebuilt `www/` can then
    replace the live one.
-2. Replace the build state with producers. Most of it is
-   `assets/v3/sources/*.json` (16,318 source documents written by the canonical
-   record ingest) and `assets/research/*` (10,338 files). Each should be
-   produced from the research database instead of carried forward.
+2. Replace the build state with producers. **Started with the source
+   library** (26 October 2026): `assets/v3/sources/*.json` (16,318 documents)
+   came from an earlier site build whose generator is no longer in the
+   repository, and nothing kept them current. 14,502 matched the dossiers;
+   the rest had drifted. 909 sources cited in dossiers had no document, 467
+   had different citations, and about 950 citations pointed at evidence no
+   dossier has any more. `tools/build_source_documents.py` (the first release
+   repair) now produces each document's citations, members and index row from
+   the dossiers' evidence and claims.
+   - It keeps every existing id, because person pages and the 16,000 tracked
+     `sources/` pages link to them. The old ids cannot be derived from the
+     content.
+   - It keeps the record entries and the canonical-record ingest's citations.
+   - It carries `repair_assessment_dates` corrections forward, leaves out
+     withheld people, and gives new sources the standard page.
+   On a copy of the live site a second run changes nothing, and the link and
+   privacy checks are unchanged. The documents stay declared state, because
+   they hold the ids and record entries. Next: `assets/research/*`
+   (10,338 files).
 3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
 4. Make `tools/build_research_catalog.py` (7,079 lines, the producer of `data/people.json` and `map/data/records.csv`) read the research database through `genealogy.store.projection.public_case` instead of the legacy registries.
 5. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers. One-off scripts that edit `www/` (as on 17 October) must become builder steps or declared inputs, or their changes are lost at the next rebuild.
