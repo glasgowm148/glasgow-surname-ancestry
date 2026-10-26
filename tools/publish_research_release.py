@@ -46,6 +46,9 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     runpy.run_path(str(ROOT / 'tools/project_record_locations.py'))['project'](ROOT / 'www', write=True)
     runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/build_research_catalog.py'))['sync_generated_profile_work_status']()
+    # Source pages made from the canonical-record block alone lacked the standard
+    # reader container that the static-source sections anchor on.
+    runpy.run_path(str(ROOT / 'tools/ingest_canonical_records.py'))['repair_layout'](ROOT)
     runpy.run_path(str(ROOT / 'tools/publish_static_sources.py'))['main']()
     repair_clean_catalogue_stylesheet(ROOT / 'www')
     runpy.run_path(str(ROOT / 'tools/repair_sources_page.py'))['repair']()

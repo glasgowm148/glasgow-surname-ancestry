@@ -99,6 +99,45 @@ def main_body(shell, body):
     return result
 
 
+READER = '<div id="v3-reader"'
+
+
+def ensure_reader(page, doc):
+    """Give a source page the standard reader container if it lacks one.
+
+    Every source page carries ``<div id="v3-reader">``, where the reader script
+    opens the record and other publishers (``publish_static_sources``) anchor
+    their sections; a page made from the canonical block alone had none.
+    """
+    if READER in page:
+        return page
+    url = escape(doc.get('url') or '', quote=True)
+    title = escape(' '.join((doc.get('title') or 'this source').split()))
+    archive = f'<a href="{url}">Open the cited archive</a>' if url else ''
+    reader = (f'{READER} aria-live="polite"><p class="r-loading">Opening the record, text and linked people…</p>'
+              f'<noscript><p>This reading workspace needs JavaScript. The original citation is still available: '
+              f'{title}.</p>{archive}</noscript></div>')
+    result, count = re.subn(r'</main>', lambda _: reader + '</main>', page, count=1, flags=re.I)
+    if count != 1:
+        raise ValueError('Source page has no main container')
+    return result
+
+
+def repair_layout(root=ROOT):
+    """Add the standard reader to every source page that lacks it; returns the pages changed."""
+    web = Path(root) / 'www'
+    changed = []
+    for source in sorted((web / 'assets/v3/sources').glob('s-*.json')):
+        page = web / 'sources' / source.stem / 'index.html'
+        if page.is_file():
+            text = page.read_text(encoding='utf-8')
+            updated = ensure_reader(text, json.loads(source.read_text(encoding='utf-8')))
+            if updated != text:
+                page.write_text(updated, encoding='utf-8')
+                changed.append(page.relative_to(web).as_posix())
+    return changed
+
+
 def source_page(shell, doc, *, existing=False, site_root=None):
     site_root = Path(site_root) if site_root is not None else None
     canonical_ids = set()
@@ -147,7 +186,7 @@ def source_page(shell, doc, *, existing=False, site_root=None):
                     lambda m: m[1] + '"https://glasgow.phenotype.dev/sources/' + doc['id'] + '/"', result)
     result = re.sub(r'data-v3-source="[^"]*"', 'data-v3-source="' + doc['id'] + '"', result)
     result = re.sub(r'data-g-path="[^"]*"', 'data-g-path="/sources/' + doc['id'] + '/"', result, count=1)
-    return result
+    return ensure_reader(result, doc)
 
 
 def plan(root: Path, record_ids: list[str]):
@@ -447,7 +486,13 @@ def main():
     parser.add_argument('--reviewed', action='store_true', help='Replay only publish_to_record_index=true rows (also run by finalization)')
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--apply', action='store_true')
+    parser.add_argument('--repair-layout', action='store_true',
+                        help='give every source page without the standard reader container one, then stop')
     args = parser.parse_args()
+    if args.repair_layout:
+        changed = repair_layout(args.root)
+        print(json.dumps({'repaired_source_pages': len(changed)}))
+        return
     if args.reviewed and (args.record_id or args.source_file):
         parser.error('--reviewed cannot be combined with explicit record selection')
     ids = args.record_id

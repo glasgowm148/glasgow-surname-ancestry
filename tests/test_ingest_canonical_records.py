@@ -169,6 +169,21 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'multiple existing record IDs'):
             plan(self.root, ['new-canonical-id'])
 
+    def test_a_new_source_page_keeps_the_standard_reader_container(self):
+        self.put('www/assets/v3/source-index.json', [])
+        rows = plan(self.root, ['new-canonical-id'])
+        page = next(text for path, text in rows.items() if path.name == 'index.html' and 'sources/s-' in path.as_posix())
+        self.assertEqual(page.count('<div id="v3-reader"'), 1)
+        self.assertLess(page.index('canonical-record-ingest:end'), page.index('<div id="v3-reader"'))
+
+    def test_repair_layout_adds_the_reader_once_to_pages_without_it(self):
+        from tools.ingest_canonical_records import repair_layout
+        self.put('www/sources/' + self.source['id'] + '/index.html', '<html><main id="main">Old</main></html>')
+        self.assertEqual(repair_layout(self.root), ['sources/' + self.source['id'] + '/index.html'])
+        self.assertEqual(repair_layout(self.root), [])
+        text = (self.web / 'sources' / self.source['id'] / 'index.html').read_text()
+        self.assertIn('Open the cited archive', text)
+
     def test_duplicate_existing_source_url_ids_remain_ambiguous(self):
         duplicate_id = 's-2222222222222222'
         self.put('www/assets/v3/source-index.json', [
