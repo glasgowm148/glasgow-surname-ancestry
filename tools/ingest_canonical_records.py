@@ -99,7 +99,17 @@ def main_body(shell, body):
     return result
 
 
-def source_page(shell, doc, *, existing=False):
+def source_page(shell, doc, *, existing=False, site_root=None):
+    site_root = Path(site_root) if site_root is not None else None
+    canonical_ids = set()
+    for citation in doc.get('citations', []):
+        for claim in citation.get('claims', []):
+            canonical_ids.update(str(item) for item in (claim.get('subject_ids') or []) if item)
+    for record in doc.get('records', []):
+        profiles = record.get('profiles') or {}
+        canonical_ids.update(str(item) for item in profiles if item)
+    canonical_by_key = {item.casefold(): item for item in canonical_ids
+                        if re.fullmatch(r"[A-Z][A-Za-z'-]+-\d+", item)}
     title = escape(' '.join(doc['title'].split()))
     start, end = '<!-- canonical-record-ingest:start -->', '<!-- canonical-record-ingest:end -->'
     outside = re.sub(re.escape(start) + r'[\s\S]*?' + re.escape(end), '', shell, count=1)
@@ -107,7 +117,7 @@ def source_page(shell, doc, *, existing=False):
     heading = 'h2' if existing and (start not in shell or secondary or re.search(r'<h1\b', outside, re.I)) else 'h1'
     body = f'<header><p class="r-kicker">Source item</p><{heading}>{title}</{heading}></header>'
     body += f'<p><a href="{escape(doc["url"], quote=True)}">Inspect the provider record</a></p>'
-    body += '<p>Reviewed provider transcript; the original register has not been inspected unless the assessment explicitly states otherwise.</p>'
+    body += '<p>Reviewed source details and inspection limits are stated with each maintained record; an entry is not treated as an original image reading unless its assessment says so.</p>'
     for row in doc.get('records', []):
         body += '<article><h2>' + escape(' '.join((row.get('association') or row.get('name') or 'Record association').split())) + '</h2>'
         body += '<p>' + escape(' · '.join(str(row[k]) for k in ('date', 'place', 'country', 'status') if row.get(k))) + '</p>'
@@ -115,8 +125,14 @@ def source_page(shell, doc, *, existing=False):
     body += '<h2>Linked people and record roles</h2><ul>'
     for row in doc.get('citations', []):
         who = escape(row.get('name') or row.get('person') or 'Unnamed record subject')
-        if row.get('person'):
-            who = f'<a href="/people/{escape(row["person"], quote=True)}.html">{who}</a>'
+        person = str(row.get('person') or '')
+        local = site_root / 'people' / f'{person}.html' if site_root and person else None
+        if person and local and local.is_file():
+            who = f'<a href="/people/{escape(person, quote=True)}.html">{who}</a>'
+        elif person:
+            target = canonical_by_key.get(person.casefold())
+            if target:
+                who = f'<a href="https://www.wikitree.com/wiki/{escape(target, quote=True)}">{who}</a>'
         body += '<li>' + who + ': ' + escape(row.get('assertion') or '') + '</li>'
     body += '</ul>'
     body = start + '<section aria-label="Reviewed canonical records">' + body + '</section>' + end
@@ -354,7 +370,7 @@ def plan(root: Path, record_ids: list[str]):
         writes[web / f'assets/v3/sources/{sid}.json'] = doc
         page = web / f'sources/{sid}/index.html'
         shell = page.read_text() if page.exists() else source_template.read_text()
-        writes[page] = source_page(shell, doc, existing=page.exists())
+        writes[page] = source_page(shell, doc, existing=page.exists(), site_root=web)
     sources = merge(sources, sorted(source_rows, key=lambda r: r['id']), 'id')
     writes[web / 'data/records-index.json'] = full
     writes[web / 'assets/research/record-index.json'] = compact
