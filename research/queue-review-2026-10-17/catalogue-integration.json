@@ -37401,12 +37401,12 @@
       "profile_id": "Glasgow-2356",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2356/father-confidence-2026-10-22i.wiki",
+      "queued_at": "2026-10-26",
+      "biography_rechecked_at": "2026-10-26",
+      "draft_path": "research/Glasgow-2356/maternal-review-2026-10-26.wiki",
       "findings_path": "research/Glasgow-2356/findings.md",
-      "summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Replace the unmarked Martha Thompson mother assignment with Mary J. Pierce at93%, while retaining Martha as stepmother and the existing97% father assessment.",
+      "work_queue_summary": "Replace the unmarked Martha Thompson mother assignment with Mary J. Pierce at93%, while retaining Martha as stepmother and the existing97% father assessment.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -37419,6 +37419,22 @@
           "assertion_id": "C-coverage-20261022i-glasgow-2356-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Selected Glasgow-589 fatherhood of Glasgow-2356; maternal identity and upstream ancestry are separate."
+        },
+        {
+          "action": "replace",
+          "relationship": "mother",
+          "relative_id": "Pierce-14470",
+          "previous_relative_id": "Thompson-63146",
+          "status": "proved",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "probability_percent": 93,
+          "assertion_id": "C-maternal-20261026-robert2356-mary-mother",
+          "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+          "previous_status_provenance": [
+            "Fresh anonymousWikiTree API26October2026:Mother29149776(MarthaThompson),unmarkedflag, no individualpercentage. This prior belongs to the former mother, not to Mary."
+          ],
+          "new_attachment": true
         }
       ],
       "preserve_captured_detail": false,
@@ -37426,7 +37442,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation9-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/robert-2356-maternal-preservation-2026-10-26.json",
+      "significance": 95
     },
     "Glasgow-662": {
       "profile_id": "Glasgow-662",
@@ -41679,6 +41696,57 @@
           ]
         }
       ]
+    },
+    "Pierce-14470": {
+      "profile_id": "Pierce-14470",
+      "status": "OPEN",
+      "pending": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "queued_at": "2026-10-26",
+      "biography_rechecked_at": "2026-10-26",
+      "draft_path": "research/Pierce-14470/maternal-review-2026-10-26.wiki",
+      "findings_path": "research/Pierce-14470/findings.md",
+      "summary": "Record Mary J. Pierce as Robert Finley Glasgow’s biological mother at93%, from the explicit family-account child group; distinguish later stepmother Martha Thompson.",
+      "work_queue_summary": "Record Mary J. Pierce as Robert Finley Glasgow’s biological mother at93%, from the explicit family-account child group; distinguish later stepmother Martha Thompson.",
+      "significance": 90,
+      "preservation_review_path": "research/ancestry-connections/robert-2356-maternal-preservation-2026-10-26.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-2356",
+          "status": "proved",
+          "probability_percent": 93,
+          "assertion_id": "C-maternal-20261026-robert2356-mary-mother",
+          "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+          "previous_status": "unmarked",
+          "previous_probability_percent": null,
+          "new_attachment": true
+        }
+      ]
+    },
+    "Thompson-63146": {
+      "profile_id": "Thompson-63146",
+      "status": "OPEN",
+      "pending": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "queued_at": "2026-10-26",
+      "biography_rechecked_at": "2026-10-26",
+      "draft_path": "research/Thompson-63146/maternal-review-2026-10-26.wiki",
+      "findings_path": "research/Thompson-63146/findings.md",
+      "summary": "Explain Martha Thompson’s stepmother role for Robert Finley and preserve the earlier Pierce/Thompson research note; no new biological-maternity percentage.",
+      "work_queue_summary": "Explain Martha Thompson’s stepmother role for Robert Finley and preserve the earlier Pierce/Thompson research note; no new biological-maternity percentage.",
+      "significance": 75,
+      "preservation_review_path": "research/ancestry-connections/robert-2356-maternal-preservation-2026-10-26.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "relationship_changes": []
     }
   },
   "reviewed_on": "2026-10-22",

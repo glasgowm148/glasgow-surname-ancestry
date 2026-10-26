@@ -110830,5 +110830,140 @@
       "last_test": "The original deed calls Daniel junior the eldest lawful son and heir apparent of Daniel senior and Mary, expressly his father and mother. They were of Moyock in North Carolina; the land lay above the Southern Branch Great Bridge in Norfolk County, Virginia. The80-acre tract is explicitly the property granted to Daniel senior and Mary by John Gamon’s will of4October1693, recorded15March1693/4, with remainder to Daniel’s bodily heirs by Mary, Gamon’s daughter. Daniel senior, Mary and Daniel junior acknowledged the deed in Norfolk court on17September1714. This completes the1693→1714 Richford Swamp title bridge and establishes the parent–child relationship. The later1733 and1752 dates are contingent redemption/lease endpoints, not execution dates.",
       "next_test": "Trace the same80-acre Richford tract after1714 for Daniel junior’s residence, wife or named heirs; compare the1718–1719 Moyock/Currituck taxpayers and keep the1729 Slade tract separate. Resolve whether Glasgow-1158 duplicates senior before selecting a junior identity."
     }
+  },
+  {
+    "assertion_id": "C-maternal-20261026-robert2356-martha-stepmother",
+    "people": [
+      "Glasgow-2356",
+      "Thompson-63146"
+    ],
+    "claim": "Martha W. Thompson is the stepmother of Robert Finley Glasgow1844–1912, following Moses Glasgow’s1848 remarriage after Mary Pierce’s1846 death.",
+    "relation_type": "step",
+    "perspectives": {
+      "Glasgow-2356": {
+        "relationship": "stepmother"
+      },
+      "Thompson-63146": {
+        "relationship": "stepchild"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "held-e-f0fe7f969e32"
+    ],
+    "provenance": {
+      "live_flag_changed": false,
+      "original_imported_parent_claim": "rel-3f786e49ba40ac98",
+      "source_newly_discovered": false
+    },
+    "status": "strongly_supported",
+    "assessment_date": "2026-10-26",
+    "basis": "The same inspected account says RobertFinley belonged to Moses and MaryJPierce’s child group, Mary died14March1846, and Moses married MarthaW.Thompson in1848, taking his children into that family. This identifies MarthaThompson63146 as Robert’s stepmother. The former imported mother/son labels are retained as historical assertions; the original WikiTree observation is not changed.",
+    "assessment_history": [],
+    "reason": "The same inspected account says RobertFinley belonged to Moses and MaryJPierce’s child group, Mary died14March1846, and Moses married MarthaW.Thompson in1848, taking his children into that family. This identifies MarthaThompson63146 as Robert’s stepmother. The former imported mother/son labels are retained as historical assertions; the original WikiTree observation is not changed.",
+    "limitations": "Strongly supported step-relationship in the retrospective family account; no numerical biological-maternity estimate is assigned to Martha. The original1912 death/1875marriage records and grave image were not inspected. The later-wife role is independent of Martha’s own parents, who remain unresolved.",
+    "probability": null,
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "role_correction": {
+      "Glasgow-2356": {
+        "from": [
+          "mother"
+        ],
+        "to": "stepmother"
+      },
+      "Thompson-63146": {
+        "from": [
+          "child",
+          "son"
+        ],
+        "to": "stepchild"
+      }
+    },
+    "historical_assertions": [
+      {
+        "claim_id": "C-980a700a6e8d",
+        "label": "Historical imported mother attachment; family account identifies stepmother",
+        "profile_id": "Glasgow-2356",
+        "scope": "Biological maternal role is superseded; retain original observation and its sources."
+      },
+      {
+        "claim_id": "C-ded13744d6f0",
+        "label": "Historical imported son attachment; reviewed role is stepchild",
+        "profile_id": "Thompson-63146",
+        "scope": "Biological mother/son interpretation is superseded; relationship and original observation retained."
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2356": "Robert Finley Glasgow",
+      "Thompson-63146": "Martha W. (Thompson) Glasgow"
+    }
+  },
+  {
+    "assertion_id": "C-maternal-20261026-robert2356-mary-mother",
+    "people": [
+      "Glasgow-2356",
+      "Pierce-14470"
+    ],
+    "claim": "Mary J. Pierce is the biological mother of Robert Finley Glasgow1844–1912, as explicitly identified in the held family account.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-2356": {
+        "relationship": "mother"
+      },
+      "Pierce-14470": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "held-e-f0fe7f969e32"
+    ],
+    "provenance": {
+      "held_scan_inspected": true,
+      "live_flag_changed": false,
+      "maternal_replacement": true,
+      "new_father_attachment": false,
+      "prior_assessment": {
+        "probability_percent": null,
+        "relative_id": "Thompson-63146",
+        "source_basis": "Current publicWikiTree Mother29149776; anonymousAPI26October2026 confirms unmarkedflag. Retained census citations are household evidence, not a newly inspected mother field.",
+        "status": "unmarked"
+      },
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-10-26",
+    "basis": "The inspected family account names Mary J. Pierce as Moses Glasgow’s wife from5November1839, explicitly places Robert Finley among their three children, records her death on14March1846, and then gives Moses’s1848 marriage to Martha W. Thompson. The Moses household, distinctive RobertFinley name and pre1846 child group identify RobertGlasgow2356, born1844, whose established father is Moses589. The later naval/newspaper career description further distinguishes him from the unrelated1820–1887 RobertFinley. MaryPierce14470’s name, spouse and exact14March1846 death match this first wife. The former Martha mother field confuses a later stepmother with the explicitly named mother. Mary is assessed at93% for this complete child–mother profile pair, within the retrospective family-account scope.",
+    "assessment_history": [],
+    "reason": "The inspected family account names Mary J. Pierce as Moses Glasgow’s wife from5November1839, explicitly places Robert Finley among their three children, records her death on14March1846, and then gives Moses’s1848 marriage to Martha W. Thompson. The Moses household, distinctive RobertFinley name and pre1846 child group identify RobertGlasgow2356, born1844, whose established father is Moses589. The later naval/newspaper career description further distinguishes him from the unrelated1820–1887 RobertFinley. MaryPierce14470’s name, spouse and exact14March1846 death match this first wife. The former Martha mother field confuses a later stepmother with the explicitly named mother. Mary is assessed at93% for this complete child–mother profile pair, within the retrospective family-account scope.",
+    "limitations": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change.",
+    "probability": {
+      "value": 0.93,
+      "reviewed": "2026-10-26",
+      "basis": "The inspected family account names Mary J. Pierce as Moses Glasgow’s wife from5November1839, explicitly places Robert Finley among their three children, records her death on14March1846, and then gives Moses’s1848 marriage to Martha W. Thompson. The Moses household, distinctive RobertFinley name and pre1846 child group identify RobertGlasgow2356, born1844, whose established father is Moses589. The later naval/newspaper career description further distinguishes him from the unrelated1820–1887 RobertFinley. MaryPierce14470’s name, spouse and exact14March1846 death match this first wife. The former Martha mother field confuses a later stepmother with the explicitly named mother. Mary is assessed at93% for this complete child–mother profile pair, within the retrospective family-account scope.",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "Subjective93% for RobertFinleyGlasgow2356 → MaryJPierce14470 as mother. The source is an undated six-page retrospective typescript attributed to WilliamMelanchthonGlasgow, a descendant and Robert’s half-brother; it is not a contemporary birth register or newly inspected death certificate. Other date discrepancies exist, including Mary’s reported age26 versus the retained approximate1821 birth. Mary and Martha are distinct wives. Robert’s father97%, vital fields, siblings’ assessments and earlier ancestry remain unchanged. This replaces an unmarked maternal assignment with no previous percentage; it is not a0%→93% confidence change."
+    },
+    "working_selection": false,
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "tree_parent_replacement": {
+      "child": "Glasgow-2356",
+      "mother": "Pierce-14470",
+      "previous_parent": "Thompson-63146",
+      "reason": "The family account names MaryPierce as Robert’s mother and identifies MarthaThompson as Moses’s later wife and Robert’s stepmother.",
+      "role": "mother",
+      "role_correction_assertion": "C-maternal-20261026-robert2356-martha-stepmother"
+    },
+    "profile_names": {
+      "Glasgow-2356": "Robert Finley Glasgow",
+      "Pierce-14470": "Mary J. (Pierce) Glasgow"
+    }
   }
 ]

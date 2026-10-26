@@ -3786,7 +3786,7 @@ Twenty additional transcripts are recorded under existing people or qualified ca
 | [John Forsyth Glasgow](https://www.wikitree.com/wiki/Glasgow-423) | OPEN | Review existing father at 99% (proved); no new father attachment. |
 | [Lucy Ann (Glasgow) Harrison](https://www.wikitree.com/wiki/Glasgow-44) | OPEN | Review existing father at 89% (probable); no new father attachment. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-574) | OPEN | Review existing father at 98% (proved); no new father attachment. |
-| [Robert Finley Glasgow](https://www.wikitree.com/wiki/Glasgow-2356) | OPEN | Review existing father at 97% (proved); no new father attachment. |
+| [Robert Finley Glasgow](https://www.wikitree.com/wiki/Glasgow-2356) | OPEN | Replace mother Martha Thompson with Mary J. Pierce at93%; preserve Martha as stepmother. Existing97% father assessment unchanged. |
 | [George L Glasgow](https://www.wikitree.com/wiki/Glasgow-662) | OPEN | Review existing father at 95% (proved); no new father attachment. |
 | [Samuel John Glasgow](https://www.wikitree.com/wiki/Glasgow-1419) | OPEN | Review existing father at 83% (probable); no new father attachment. |
 | [Washington Barry Jeans Glasgow](https://www.wikitree.com/wiki/Glasgow-351) | OPEN | Review existing father at 89% (probable); no new father attachment. |
@@ -4363,3 +4363,10 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 ### Thomas Glasgow merchant — 25 October 2026
 
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3187) | OPEN | Add the 12 October 1643 merchant marriage; replace the stale estimated1644 marriage in the complete draft. Father remains uncertain22%. |
+
+## Maternal role correction — 26 October 2026
+
+| Profile | Status | Change |
+| --- | --- | --- |
+| [Mary J. Pierce](https://www.wikitree.com/wiki/Pierce-14470) | OPEN | Record Mary J. Pierce as Robert Finley Glasgow’s biological mother at93%, from the explicit family-account child group; distinguish later stepmother Martha Thompson. |
+| [Martha W. Thompson](https://www.wikitree.com/wiki/Thompson-63146) | OPEN | Explain Martha Thompson’s stepmother role for Robert Finley and preserve the earlier Pierce/Thompson research note; no new biological-maternity percentage. |
