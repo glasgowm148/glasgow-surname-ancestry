@@ -160,12 +160,29 @@ resolves only those whose check passes (a dry run unless `--write`):
 | Authored draft replacement | 27 | the overrides document held in the database carries the identical decision | 0 |
 | Ambiguous place name | 0 | needs a researcher | 20 |
 
-42 items remain open, as does the one flagged dependency (the 17% father reading
-filed under the 74% brothers assertion,
-`C-role-20261018-glenleslie-hugh-robert-brothers`). Evidence and options for
-each are in the private `data/private/workbench/review-notes.md`, together with
-an assessment of what in `tmp/` is safe to delete. None of them has been
-decided.
+On 26 October the owner approved the recommended decisions for the remaining
+42, recorded in one audited transaction (the script is kept privately in
+`data/private/workbench/review/`):
+
+- the flagged dependency (the 17% father reading filed under the 74% brothers
+  assertion, `C-role-20261018-glenleslie-hugh-robert-brothers`) is acknowledged:
+  two competing claims is the intended model;
+- the 19 reopened profiles are held, since each reopening states that the
+  earlier live completion was kept;
+- Richard B Glasco is added as an alias of Glasgow-1037; Julia Ann Hopkins's
+  incoming names were already held; Glasgow-3654's birth conflict is superseded,
+  because WikiTree merged that profile into Glasgow-2454 (read from the public
+  API);
+- six places get one county from their records' evidence (Cookstown → Tyrone,
+  Coleraine and Moneymore → Londonderry, Derrynoose and Portadown → Armagh,
+  Portglenone → Antrim), as curated entries in `tools/place_gazetteer.py`; ten
+  border or split places are deliberately left without a single county.
+
+Four places remain open, to be decided record by record: Cross, Craigs, and
+the two research labels "Drumcon probable townland match" and "Portglenone
+regional family tradition reference". Still to review: the database keeps
+Glasgow-3654 as a separate person beside its redirect to Glasgow-2454, which
+calls for a local identity merge.
 
 ## Backups made
 
@@ -189,6 +206,11 @@ decided.
 - `data/private/workbench/backups/20261025-resolved/`: after the schema 2
   migration and the 594 resolutions, logical digest `6cef9722ebf3…`. Verified,
   and restored into a fresh directory with the same logical digest.
+
+- `data/private/workbench/backups/20261026-reviewed/`: after the review
+  decisions and after the unique scratch notes and evidence were copied into
+  managed storage (3,599 assets, 2.0 GB), logical digest `d76b0ab77f8d…`.
+  Verified; not restore-tested, because free disk was 1 GB.
 
 ## Recovery
 
@@ -247,6 +269,22 @@ About 48,000 further JSON files in `tmp/` are copies of files already kept under
 log files, 8 site-release snapshots (`.tar.gz`) and 1,038 browser or tool cache
 files. Nothing in `tmp/` was changed or deleted.
 
+On 26 October the 3,163 unique research notes and 432 evidence files were
+copied into the database's managed store (`--preserve --no-size-limit`), so
+cleaning `tmp/` can no longer lose them. `tools/workbench_tmp_cleanup.py` plans
+the clean-up. It is a dry run by default and records every deletion with its
+hash in `data/private/workbench/tmp-cleanup.json`. It deletes only these
+classes, each re-checked when it runs:
+
+- files whose bytes exist outside `tmp/` now (57,690, 1.0 GB);
+- caches (1,082);
+- staged site copies other than the newest folder's (172,142, 2.7 GB);
+- release bundles other than the newest, once `dist/`'s newest release passes
+  a gzip check (31, 9.6 GB).
+
+It never deletes a file the database references. The owner runs
+`--delete`; it has not been run.
+
 ## Site builders
 
 The legacy builders' research inputs are declared: `make build` and
@@ -268,12 +306,12 @@ remaining work in order.
 
 ## Not yet moved (precise remaining work)
 
-- The record identity for multi-record source pages (`builder-inputs.md`,
-  experiment step 4), then a full rebuild compared file by file with the live
-  site.
+- A full rebuild compared file by file with the live site, now that records on
+  a shared source page are told apart (`builder-inputs.md`). This needs the
+  `tmp/` clean-up first for disk space.
 - Declared homes for the untracked `www/` sources, then restructuring the
   builders so they read only declared inputs (see `builder-inputs.md`). Until
   then `www/` remains the published site and is rebuilt in place.
-- The 42 open review items and the flagged dependency, which need a researcher.
+- The four open places and the Glasgow-3654 identity merge, which need a researcher.
 - `build/workbench-site` remains a generic reader view built by the shared
   compiler, not a replacement for the Glasgow site.

@@ -143,6 +143,32 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'multiple existing record IDs'):
             plan(self.root, ['new-canonical-id'])
 
+    def use_register_page(self, existing):
+        page = 'https://example.org/register/Baptisms_1834.html'
+        self.canonical.update(source_url=page, provider_record_id=None)
+        self.put('research/canonical_records.json', [self.canonical])
+        self.put('www/data/records-index.json', [{'source_url': page, **row} for row in existing])
+        return page
+
+    def test_entries_on_one_register_page_are_told_apart_by_the_people_named(self):
+        self.use_register_page([{'record_id': 'other-baptism', 'profile_ids': 'Glasgow-951 | McCaughan-222'},
+                                {'record_id': 'same-entry', 'profile_ids': 'Glasgow-32'},
+                                {'record_id': 'third-baptism', 'profile_ids': ['Glasgow-973']}])
+        rows = plan(self.root, ['new-canonical-id'])[self.web / 'data/records-index.json']
+        self.assertEqual([r['record_id'] for r in rows], ['other-baptism', 'same-entry', 'third-baptism'])
+        self.assertEqual(rows[1]['profile_context'], self.canonical['profiles'])
+
+    def test_a_new_entry_on_a_known_page_becomes_its_own_record(self):
+        self.use_register_page([{'record_id': 'other-baptism', 'profile_ids': 'Glasgow-951'}])
+        rows = plan(self.root, ['new-canonical-id'])[self.web / 'data/records-index.json']
+        self.assertEqual([r['record_id'] for r in rows], ['other-baptism', 'new-canonical-id'])
+
+    def test_two_existing_rows_for_the_same_entry_still_fail_closed(self):
+        self.use_register_page([{'record_id': 'one', 'profile_ids': 'Glasgow-32'},
+                                {'record_id': 'two', 'profile_ids': ['Glasgow-32']}])
+        with self.assertRaisesRegex(ValueError, 'multiple existing record IDs'):
+            plan(self.root, ['new-canonical-id'])
+
     def test_duplicate_existing_source_url_ids_remain_ambiguous(self):
         duplicate_id = 's-2222222222222222'
         self.put('www/assets/v3/source-index.json', [

@@ -87,12 +87,19 @@ database and the remotes were not touched.
 
 ## Remaining work, in order
 
-1. Decide the record identity for multi-record source pages (step 4 above),
-   then rerun the experiment to the end and compare the rebuilt `www/` with the
-   live one file by file.
-2. Give the untracked `www/` sources declared homes. Start with page templates
-   such as `about/index.html` and `map/data/records.csv`, as was done for the
-   three map layers in `data/site/declared-inputs.json`.
+1. Rerun the experiment to the end and compare the rebuilt `www/` with the
+   live one file by file. The record identity for multi-record pages is now
+   decided (26 October): on a page URL, an entry is told apart by the people it
+   names (`ingest_canonical_records.entry_key`), so the Rasharkin baptisms are
+   separate records. Two existing rows for the same entry still stop for
+   review. A clone needs a few GB of free disk.
+2. Give the untracked `www/` sources declared homes, as was done for the three
+   map layers in `data/site/declared-inputs.json`. The first two are not plain
+   inputs. `map/data/records.csv` is read and rewritten in place by five sync
+   tools (`sync_onetree_*`, `sync_recent_*`), so its home must move with
+   `project_paths.MAP_RECORDS` and be installed after those tools run.
+   `about/index.html` is both the template other builders read and an output
+   of `tools.about_pages`, so the template needs separating from the page.
 3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
 4. Make `tools/build_research_catalog.py` (7,079 lines, the producer of `data/people.json` and `map/data/records.csv`) read the research database through `genealogy.store.projection.public_case` instead of the legacy registries.
 5. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers. One-off scripts that edit `www/` (as on 17 October) must become builder steps or declared inputs, or their changes are lost at the next rebuild.

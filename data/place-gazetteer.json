@@ -1955,6 +1955,72 @@
       "aliases": [],
       "provenance": "curated",
       "comment": "Conventional historic-county assignment."
+    },
+    "cookstown": {
+      "name": "Cookstown",
+      "county": "Tyrone",
+      "country": "Ireland",
+      "aliases": [
+        "Northern Ireland",
+        "Ulster"
+      ],
+      "provenance": "curated",
+      "comment": "Reviewed 26 October 2026: 1,013 of 1,014 records place it in Tyrone; the Meath reading is a name collision."
+    },
+    "coleraine": {
+      "name": "Coleraine",
+      "county": "Londonderry",
+      "country": "Ireland",
+      "aliases": [
+        "Northern Ireland",
+        "Ulster"
+      ],
+      "provenance": "curated",
+      "comment": "Reviewed 26 October 2026: 8 of 9 records; the Offaly reading is a name collision."
+    },
+    "moneymore": {
+      "name": "Moneymore",
+      "county": "Londonderry",
+      "country": "Ireland",
+      "aliases": [
+        "Northern Ireland",
+        "Ulster"
+      ],
+      "provenance": "curated",
+      "comment": "Reviewed 26 October 2026: 36 of 38 records; the Galway reading is a name collision."
+    },
+    "derrynoose": {
+      "name": "Derrynoose",
+      "county": "Armagh",
+      "country": "Ireland",
+      "aliases": [
+        "Northern Ireland",
+        "Ulster"
+      ],
+      "provenance": "curated",
+      "comment": "Reviewed 26 October 2026: 9 of 10 records; the parish is in Armagh, the Louth reading a collision."
+    },
+    "portadown": {
+      "name": "Portadown",
+      "county": "Armagh",
+      "country": "Ireland",
+      "aliases": [
+        "Northern Ireland",
+        "Ulster"
+      ],
+      "provenance": "curated",
+      "comment": "Reviewed 26 October 2026: the town is in Armagh; 3 records associate it with Antrim through other places named with it."
+    },
+    "portglenone": {
+      "name": "Portglenone",
+      "county": "Antrim",
+      "country": "Ireland",
+      "aliases": [
+        "Northern Ireland",
+        "Ulster"
+      ],
+      "provenance": "curated",
+      "comment": "Reviewed 26 October 2026: 7 of 8 records; the town is in Antrim, across the Bann from Londonderry."
     }
   },
   "ambiguous": {
@@ -1973,22 +2039,6 @@
         "Tyrone"
       ],
       "provenance": "derived: 83 records"
-    },
-    "coleraine": {
-      "name": "Coleraine",
-      "counties": [
-        "Londonderry",
-        "Offaly"
-      ],
-      "provenance": "derived: 7 records"
-    },
-    "cookstown": {
-      "name": "Cookstown",
-      "counties": [
-        "Meath",
-        "Tyrone"
-      ],
-      "provenance": "derived: 995 records"
     },
     "craigs": {
       "name": "Craigs",
@@ -2013,14 +2063,6 @@
         "Tyrone"
       ],
       "provenance": "derived: 522 records"
-    },
-    "derrynoose": {
-      "name": "Derrynoose",
-      "counties": [
-        "Armagh",
-        "Louth"
-      ],
-      "provenance": "derived: 13 records"
     },
     "drumcon probable townland match": {
       "name": "Drumcon Probable Townland Match",
@@ -2070,14 +2112,6 @@
       ],
       "provenance": "derived: 56 records"
     },
-    "moneymore": {
-      "name": "Moneymore",
-      "counties": [
-        "Galway",
-        "Londonderry"
-      ],
-      "provenance": "derived: 38 records"
-    },
     "newry": {
       "name": "Newry",
       "counties": [
@@ -2085,22 +2119,6 @@
         "Down"
       ],
       "provenance": "derived: 6 records"
-    },
-    "portadown": {
-      "name": "Portadown",
-      "counties": [
-        "Antrim",
-        "Armagh"
-      ],
-      "provenance": "derived: 5 records"
-    },
-    "portglenone": {
-      "name": "Portglenone",
-      "counties": [
-        "Antrim",
-        "Londonderry"
-      ],
-      "provenance": "derived: 8 records"
     },
     "portglenone regional family tradition reference": {
       "name": "Portglenone Regional Family Tradition Reference",

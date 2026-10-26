@@ -68,7 +68,9 @@ def sha256(path: Path) -> str:
 
 
 def known_hashes(project) -> set[str]:
-    known = {row["sha256"] for row in project.store.all("SELECT sha256 FROM asset")}
+    # A by-reference record of a tmp/ file does not keep its bytes, so it does not count.
+    known = {row["sha256"] for row in project.store.all(
+        "SELECT sha256 FROM asset WHERE NOT (root = 'repository' AND path LIKE 'tmp/%')")}
     inventory = ROOT / "data" / "private" / "workbench" / "inventory" / "inventory.json"
     if inventory.is_file():
         known |= {row["sha256"] for row in json.loads(inventory.read_text())["files"] if row.get("sha256")}
@@ -110,11 +112,11 @@ def review(project, scratch: Path) -> dict:
             "skipped_bytes": sizes["skipped bytes"], "unique_by_kind": dict(by_kind), "unique": unique}
 
 
-def preserve(project, report: dict) -> Counter:
+def preserve(project, report: dict, limits: dict[str, int] = PRESERVE_LIMIT) -> Counter:
     research = Research(project.store)
     counts: Counter = Counter()
     chosen = [row for row in report["unique"]
-              if row["kind"] in PRESERVE_LIMIT and row["bytes"] <= PRESERVE_LIMIT[row["kind"]]]
+              if row["kind"] in limits and row["bytes"] <= limits[row["kind"]]]
     by_folder: dict[str, list[dict]] = defaultdict(list)
     for row in chosen:
         by_folder[row["folder"]].append(row)
@@ -135,6 +137,13 @@ def preserve(project, report: dict) -> Counter:
                                   text=f"{len(rows)} unique files from tmp/{folder} preserved unreviewed. They are "
                                        "leads, not evidence, until a researcher assesses them.",
                                   links=[(asset, "preserved_file") for asset in assets])
+            else:   # recorded by reference earlier: link the managed copies to the same note
+                for asset in assets:
+                    tx.upsert_link(note_id, asset, "preserved_copy")
+            for (row, _), asset in zip(prepared, assets):   # each by-reference record names its managed copy
+                for referenced in project.store.all("SELECT id FROM asset WHERE root='repository' AND path=? "
+                                                    "AND sha256=?", (row["path"], row["sha256"])):
+                    tx.upsert_link(referenced["id"], asset, "managed_copy")
     return counts
 
 
@@ -227,6 +236,8 @@ def main(argv=None) -> int:
     parser.add_argument("--project", type=Path, default=ROOT)
     parser.add_argument("--scratch", type=Path, default=ROOT / "tmp")
     parser.add_argument("--preserve", action="store_true", help="copy and register the unique research files")
+    parser.add_argument("--no-size-limit", action="store_true",
+                        help="with --preserve, copy notes and evidence of any size (default limits 5 MB and 25 MB)")
     parser.add_argument("--archive", action="store_true", help="archive the unique bulk files (JSON, HTML, code, logs)")
     parser.add_argument("--reference", action="store_true",
                         help="record unique notes, evidence and JSON where they are, by hash (needs no disk space)")
@@ -238,7 +249,8 @@ def main(argv=None) -> int:
         if args.reference:
             report["referenced"] = dict(reference(project, report))
         if args.preserve:
-            report["preserved"] = dict(preserve(project, report))
+            limits = {kind: 1 << 62 for kind in PRESERVE_LIMIT} if args.no_size_limit else PRESERVE_LIMIT
+            report["preserved"] = dict(preserve(project, report, limits))
         if args.archive:
             args.work.mkdir(parents=True, exist_ok=True)
             report["archived"] = dict(archive(project, report, args.work))

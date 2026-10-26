@@ -40,6 +40,39 @@ def provider_key(row):
     return ('url', url)
 
 
+def entry_subjects(row):
+    """People an entry names: canonical ``profiles`` keys or an index row's ``profile_ids``."""
+    value = row.get('profiles') or row.get('profile_ids') or []
+    if isinstance(value, dict):
+        value = list(value)
+    if isinstance(value, str):
+        value = value.split('|')
+    return frozenset(str(item).strip().casefold() for item in value if str(item).strip())
+
+
+def entry_key(row):
+    """A provider record id names one record; a page URL can hold many entries.
+
+    On a page (any provider key other than a record id), the entry is told
+    apart by the people it names, so two baptisms on one register page are two
+    records rather than a conflict.
+    """
+    provider = provider_key(row)
+    return provider if provider[0] == 'findmypast' else (*provider, entry_subjects(row))
+
+
+def same_entry_rows(row, rows):
+    """Existing rows that are the same entry as ``row`` (see :func:`entry_key`)."""
+    provider = provider_key(row)
+    previous = [r for r in rows if provider_key(r) == provider]
+    if provider[0] == 'findmypast' or not entry_subjects(row):
+        return previous
+    matched = [r for r in previous if entry_subjects(r) == entry_subjects(row)]
+    if not matched and len(previous) == 1 and not entry_subjects(previous[0]):
+        return previous   # an earlier row that names nobody can only be this entry
+    return matched
+
+
 def merge(rows, supplied, key):
     by_id = {r[key]: r for r in supplied}
     if len(by_id) != len(supplied) or len({r[key] for r in rows}) != len(rows):
@@ -152,12 +185,12 @@ def plan(root: Path, record_ids: list[str]):
         provider = provider_key(row)
         if provider[0] == 'findmypast' and row.get('provider_record_id') and row['provider_record_id'] != provider[1]:
             raise ValueError(f'{rid}: provider ID disagrees with transcript URL')
-        if provider in seen_providers:
+        if entry_key(row) in seen_providers:
             raise ValueError(f'{rid}: duplicate selected provider record')
-        seen_providers.add(provider)
-        previous_rows = [r for r in full if provider_key(r) == provider]
+        seen_providers.add(entry_key(row))
+        previous_rows = same_entry_rows(row, full)
         if len(previous_rows) > 1:
-            raise ValueError(f'{rid}: multiple existing record IDs for provider; review required')
+            raise ValueError(f'{rid}: multiple existing record IDs for this entry; review required')
         if previous_rows:
             rid = previous_rows[0]['record_id']
             if not re.fullmatch(r'[a-zA-Z0-9_-]+', rid):
