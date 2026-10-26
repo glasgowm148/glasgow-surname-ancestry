@@ -18,8 +18,9 @@
 - **Safety.** Verified backups are in `data/private/workbench/backups/` and
   restore with the same logical digest. Nothing was deleted from the old files;
   the migration can be rerun from Git (`make migrate-workbench`).
-- **Open for a researcher.** Four places, and one duplicate person to merge
-  locally (see "Items kept for review").
+- **Review items.** All 636 items the migration kept for review are resolved,
+  each with its reason; Glasgow-3654 is merged locally into Glasgow-2454, as on
+  WikiTree.
 
 Everything here is on `main` in both repositories. Nothing is tagged,
 published or deployed, and nothing is written to WikiTree.
@@ -196,11 +197,12 @@ On 26 October the owner approved the recommended decisions for the remaining
   Portglenone → Antrim), as curated entries in `tools/place_gazetteer.py`; ten
   border or split places are deliberately left without a single county.
 
-Four places remain open, to be decided record by record: Cross, Craigs, and
-the two research labels "Drumcon probable townland match" and "Portglenone
-regional family tradition reference". Still to review: the database keeps
-Glasgow-3654 as a separate person beside its redirect to Glasgow-2454, which
-calls for a local identity merge.
+The last four places were decided record by record on 26 October. Cross and
+Craigs are each two different places, and every record names its county.
+Drumcon's townland is only a probable match. The Portglenone label is a
+regional tradition, not a record's place. Glasgow-3654 is merged locally into
+Glasgow-2454 (reversible; `entity_merge` `mrg-4098b8a6843a43a3`). No review
+items remain open.
 
 ## Backups made
 
@@ -330,6 +332,5 @@ remaining work in order.
 - Declared homes for the untracked `www/` sources, then restructuring the
   builders so they read only declared inputs (see `builder-inputs.md`). Until
   then `www/` remains the published site and is rebuilt in place.
-- The four open places and the Glasgow-3654 identity merge, which need a researcher.
 - `build/workbench-site` remains a generic reader view built by the shared
   compiler, not a replacement for the Glasgow site.

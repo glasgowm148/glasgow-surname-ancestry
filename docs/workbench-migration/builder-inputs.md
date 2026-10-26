@@ -158,6 +158,35 @@ private DNA tester's kit number taken from the hand-written
 builder now withholds any change-log line that names a withheld person or a
 private tester (three lines today).
 
+### Closing the gap (26 October 2026)
+
+The differences come mostly from one omission: the live site is the rebuild
+**plus** `tools/publish_research_release.py`, the release repairs (privacy and
+DNA withholding, licensed assets, the WikiTree merge redirect pages, the
+newspaper review and about 20 more), which the rebuild never ran. Of the 97
+person pages the rebuild lacked, 83 are merge redirect stubs that the release
+writes. The catalogue also resets `www/data/`, `www/people/`, `www/places/` and
+`www/records/` on every run, removing what other publishers wrote there. The
+rebuild script now runs, before `finalize`:
+
+- the release repairs, without the release gate (the rebuild reports the
+  research check itself) or the local search-index refresh;
+- the Irish death index and the OPR marriage review;
+- `profile_tree_links.py`, so the tree-link check no longer reports 415 pages.
+
+The next run stopped inside the release repairs: `publish_static_sources.py`
+refuses `sources/s-631ba517c2120641/index.html`, whose shell (from commit
+`b14337e`, "reconcile Findmypast page 27 records") lacks the source reader block
+it anchors on. The live page is identical, so the release script would stop
+the same way on the live site. The page shell needs the standard reader, or
+the publisher needs to learn the new shell; the guard itself stays.
+
+Still not reproduced by any build step: 14 record-defined person pages
+(`record-fmp-glasgow-*`, written by the Findmypast catalogue integration
+`materialize_findmypast_glasgow_catalogue.py`, a scoped research tool, and one
+superseded-reading page from `reconcile_retired_record_subjects.py`), and four
+place pages that branch pages link to under place ids no current tool assigns.
+
 ## Remaining work, in order
 
 1. Bring the rebuilt site to the live site's checks (above): the broken links,
