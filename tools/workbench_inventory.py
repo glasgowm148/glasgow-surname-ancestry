@@ -172,21 +172,30 @@ def inventory(source: Path, output: Path) -> dict:
     output.mkdir(parents=True, exist_ok=True)
     os.chmod(output.parent, 0o700)
     rows = []
+    vanished = []
     for path, relative, tracked in walk(source):
         if path.name in (".DS_Store",):
             continue
         category, access, disposition, consumers = classify(relative)
-        stat = path.stat()
+        try:
+            stat = path.stat()
+            digest = (None if category == "secrets" else sha256(path)) if disposition != "excluded" or category == "secrets" else None
+        except FileNotFoundError:
+            # SQLite sidecars and other concurrent writers can remove an
+            # inventoried path between enumeration and inspection.
+            vanished.append(relative)
+            continue
         row = {"path": relative, "tracked": tracked, "bytes": stat.st_size, "format": path.suffix.lower().lstrip(".") or "none",
                "category": category, "access": access, "disposition": disposition, "consumers": consumers}
         if disposition != "excluded" or category in ("secrets",):
-            row["sha256"] = None if category == "secrets" else sha256(path)
+            row["sha256"] = digest
         rows.append(row)
     head = git(source, "rev-parse", "HEAD").strip()
     dirty = git(source, "status", "--porcelain").strip().splitlines()
     report = {
         "generated_at": datetime.now(UTC).replace(microsecond=0).isoformat(), "source_root": str(source),
         "source_commit": head, "source_dirty_files": dirty, "files": rows, "summarised": walk.summarised,
+        "vanished_during_inventory": vanished,
     }
     (output / "inventory.json").write_text(json.dumps(report, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     return report
