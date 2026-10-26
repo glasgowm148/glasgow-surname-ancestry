@@ -6,6 +6,28 @@ from tests import test_workbench_migration as fixture_helpers
 
 
 class AssessmentProjectionTests(unittest.TestCase):
+    def test_fresh_mother_estimates_keep_sources_and_scope_in_both_directions(self):
+        from genealogy.store import Research, open_project
+        from tools.workbench_legacy_views import Views
+        scope = "Retrospective family account; original birth entry not inspected."
+        with open_project(self.fixture.project) as project:
+            research = Research(project.store)
+            child = research.find_external("wikitree", "Harrow-14")[0]
+            with project.store.write(actor="test", tool="genealogy assess") as tx:
+                mother = research.create_person(tx, id="per-new-mother", label="Test mother", access="public")
+                claim = research.relationship_claim(tx, child_id=child, relative_id=mother,
+                    role="mother", relation_type="biological", id="clm-new-mother", access="public",
+                    publication_status="approved")
+                research.assess(tx, claim, expected_revision=0, status="proved", grade="proved",
+                    estimate_percent=93, estimate_kind="subjective", reasoning="Named mother in the family account.",
+                    limitations=scope, assessed_on="2026-10-26", basis=["will-1805"])
+            estimates = [x for x in Views(project.store).estimates() if x["assertion_id"] == claim]
+        self.assertEqual({x["relationship"] for x in estimates}, {"mother", "child"})
+        self.assertEqual(len(estimates), 2)
+        for row in estimates:
+            self.assertEqual(row["scope"], scope)
+            self.assertEqual(row["source_ids"], ["will-1805"])
+
     def setUp(self):
         self.fixture = fixture_helpers.GlasgowMigrationFixture()
         self.fixture.setUp()

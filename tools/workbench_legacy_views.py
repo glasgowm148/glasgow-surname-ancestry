@@ -257,6 +257,8 @@ class Views:
                     new.append({"subject_id": subject, "relative_id": other, "relationship": display_role, "percent": percent,
                                 "assessment_status": current["status"], "assertion_id": aid,
                                 "basis": current["reasoning"], "reviewed": current["assessed_on"],
+                                "source_ids": json.loads(current["basis_json"] or "[]"),
+                                **({"scope": current["limitations"]} if current["limitations"] is not None else {}),
                                 **research_fields(current)})
         return [row for _, row in sorted(legacy, key=lambda item: item[0])] + new
 
