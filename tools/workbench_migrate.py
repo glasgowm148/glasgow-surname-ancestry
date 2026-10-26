@@ -207,6 +207,14 @@ class Migration:
         if found:
             self._people[wikitree_id] = found[0]
             return found[0]
+        # Native record-defined people may already have a stable public
+        # catalogue alias. Reuse it before deriving a new opaque person ID;
+        # otherwise a migration refresh can duplicate the same documentary
+        # person when its canonical local ID is introduced later.
+        found = self.research.find_external("glasgow-local", wikitree_id)
+        if found:
+            self._people[wikitree_id] = found[0]
+            return found[0]
         local = not WIKITREE_ID.match(wikitree_id)
         person_id = stable_id("per", "glasgow", wikitree_id)
         if not self.store.get("person", person_id):
