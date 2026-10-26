@@ -4,11 +4,11 @@
   "status": "open",
   "questions": [
     {
-      "question": "Do the six sparse Scottish birth/baptism profiles identify this infant, or name parents incompatible with Moses Glasgow and Mary J. Pierce?",
+      "question": "Do the six sparse Scottish profiles identify this infant, or provide conflicting parents, event dates or later survival?",
       "status": "open",
       "priority": "normal",
-      "next_action": "Inspect cited Scottish birth/baptism references for Glasgow-3848 (581/37), Glasgow-3849 (596/26), Glasgow-3853 (495/12), Glasgow-3856 (715/3), Glasgow-3859 (651/2/11) and Glasgow-3861 (613/21). Compare named parents, dates and any later survival. Do not reject them solely because Cincinnati is inferred for the family.",
-      "resume_condition": "Underlying baptism entries or reliable parent/later-event evidence become inspectable; retain candidates and creation HOLD until then."
+      "next_action": "Identify the register type and year behind the opaque ScotlandsPeople citations: Glasgow-3848 (581/37), Glasgow-3849 (596/26), Glasgow-3853 (495/12), Glasgow-3856 (715/3), Glasgow-3859 (651/2/11), Glasgow-3861 (613/21). Inspect original/index parent clauses and dated later events. All six have undated spouse assertions; these are not yet evidence of survival after infancy. Seek Cincinnati Reformed Presbyterian session/burial entries; the inspected Spring Grove cards concern different people.",
+      "resume_condition": "An underlying Scottish entry or reliable dated identity-bearing event becomes inspectable, or an original infant record is located. Retain all six candidates and creation HOLD."
     }
   ],
   "web_searches": [
@@ -16,9 +16,9 @@
       "query": "WikiTree searchPerson FirstName=John LastName=Glasgow; start=0,100,200,300,400; limit=100",
       "date": "2026-10-26",
       "site": "Anonymous WikiTree API",
-      "result": "Paginated all 446 returned results. Six sparse public Scottish birth references remain candidates; restricted or withheld fields remain access gaps. No global profile absence asserted.",
+      "result": "Paginated all 446 returned results. Six sparse public Scottish record references remain candidates; restricted or withheld fields remain access gaps. No global profile absence asserted.",
       "outcome": "partial",
-      "limitation": "Name search is broader than exact name. Underlying Scottish birth/baptism entries not inspected.",
+      "limitation": "Name search is broader than exact name. Underlying Scottish entries; register type and year are unresolved not inspected.",
       "private_receipt": "data/private/workbench/review/john-infant-20261026/public-duplicate-search.json"
     },
     {
@@ -28,6 +28,87 @@
       "result": "Adult466 excluded by1820–1901 lifespan/differentparents;2882 by1863marriage;2502 by1850censusappearance;4042 byage6 in1841 andsurvival1848. Other candidates with later public events or distinct sourced parents excluded; six sparse entries retained.",
       "outcome": "partial",
       "limitation": "Profile accounts inspected as identity leads; underlying archives not newly inspected. No compatible sparse profile excluded solely for absent fields."
+    },
+    {
+      "query": "ScotlandsPeople 581 37 John Glasgow 1842 Beath Fife parents; site:wikitree.com/wiki/Glasgow-3848; site:scotlandspeople.gov.uk \"Glasgow\" \"Beath\" 1842",
+      "date": "2026-10-26",
+      "site": "ScotlandsPeople and public collection/catalogue search routes",
+      "result": "Collection-level leads only; no individual original or index parent clause inspected. The cited reference is not established as a birth, baptism or marriage entry.",
+      "outcome": "partial",
+      "limitation": "Search-engine/catalogue access is not a search of the underlying register; no absence-based candidate exclusion.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/01-beath.json"
+    },
+    {
+      "query": "ScotlandsPeople 1842 Kilbirnie John Glasgow birth 596 26; John Cameron Glasgow 1842 Kilbirnie; Kilbirnie OPR 596 birth register 1842 Glasgow",
+      "date": "2026-10-26",
+      "site": "ScotlandsPeople and public collection/catalogue search routes",
+      "result": "Collection-level leads only; no individual original or index parent clause inspected. The cited reference is not established as a birth, baptism or marriage entry.",
+      "outcome": "partial",
+      "limitation": "Search-engine/catalogue access is not a search of the underlying register; no absence-based candidate exclusion.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/02-kilbirnie.json"
+    },
+    {
+      "query": "ScotlandsPeople 495/12 Cumbernauld 1840 Glasgow; \"John Glasgow\" Cumbernauld 1840 Dunbartonshire; Cumbernauld parish register 1840 John Glasgow parents",
+      "date": "2026-10-26",
+      "site": "ScotlandsPeople and public collection/catalogue search routes",
+      "result": "Collection-level leads only; no individual original or index parent clause inspected. The cited reference is not established as a birth, baptism or marriage entry.",
+      "outcome": "partial",
+      "limitation": "Search-engine/catalogue access is not a search of the underlying register; no absence-based candidate exclusion.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/03-cumbernauld.json"
+    },
+    {
+      "query": "Scotland OPR 715/3 John Glasgow Ormiston 1838 parents; ScotlandsPeople 715/3 Ormiston Glasgow 1838 John; John Glasgow Ormiston 1838 Midlothian",
+      "date": "2026-10-26",
+      "site": "ScotlandsPeople and public collection/catalogue search routes",
+      "result": "Collection-level leads only; no individual original or index parent clause inspected. The cited reference is not established as a birth, baptism or marriage entry.",
+      "outcome": "partial",
+      "limitation": "Search-engine/catalogue access is not a search of the underlying register; no absence-based candidate exclusion.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/04-ormiston.json"
+    },
+    {
+      "query": "ScotlandsPeople Glasgow 3859 John 1842 New Monkland Lanarkshire baptism; John New Monkland 1842 baptism Glasgow; John Glasgow New Monkland 1842",
+      "date": "2026-10-26",
+      "site": "ScotlandsPeople and public collection/catalogue search routes",
+      "result": "Collection-level leads only; no individual original or index parent clause inspected. The cited reference is not established as a birth, baptism or marriage entry.",
+      "outcome": "partial",
+      "limitation": "Search-engine/catalogue access is not a search of the underlying register; no absence-based candidate exclusion.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/05-newmonkland.json"
+    },
+    {
+      "query": "ScotlandsPeople 1840 Sorn Ayrshire Glasgow 3861 Jonathan; Scotland statutory births 1840 Sorn Ayrshire Glasgow Jonathan; ScotlandsPeople 613/21 Sorn Ayrshire 1840 Glasgow",
+      "date": "2026-10-26",
+      "site": "ScotlandsPeople and public collection/catalogue search routes",
+      "result": "Collection-level leads only; no individual original or index parent clause inspected. The cited reference is not established as a birth, baptism or marriage entry.",
+      "outcome": "partial",
+      "limitation": "Search-engine/catalogue access is not a search of the underlying register; no absence-based candidate exclusion.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/06-sorn.json"
+    },
+    {
+      "query": "WikiTree getRelatives six retained candidates; getParents=1 getSpouses=1 getChildren=1; public biographies and local native evidence audit",
+      "date": "2026-10-26",
+      "site": "Anonymous WikiTree API and held native research",
+      "result": "Six spouse assertions found, with no supplied marriage dates or children. Local audit found no inspected marriage record supporting the abbreviated references. All six candidates retained.",
+      "outcome": "partial",
+      "limitation": "Undated imported spouse assertions do not prove later survival or identify a register type.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/live-candidate-families.json"
+    },
+    {
+      "query": "Spring Grove official public locator: John Cameron Glasgow; Mary Glasgow; John Glasgow, page 0; inspect three historical returned burial cards",
+      "date": "2026-10-26",
+      "site": "https://www.springgrove.org/locate-a-loved-one/spring-grove-cemetery/",
+      "result": "Exact full-name query returned 0. Mary query returned Mary Bradford, born1848 died1849, parents Hugh/Isabella K. John query returned two historical cards: John Alex., born1838 died1841, same named parents; John died1897 aged72. All three are distinct from the family-account infant. The 1858 dates concern transfer from Presbyterian Cemetery, not death.",
+      "outcome": "partial",
+      "limitation": "Bounded public locator results only; variants, omissions and other cemeteries are unsearched. This does not establish absence of the infant or Mary Pierce from Spring Grove or its predecessor burial grounds. A recent unrelated result was omitted from retained receipts.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/cemetery-card-review.json"
+    },
+    {
+      "query": "Cincinnati Reformed Presbyterian congregation/session/burial repository routes, 1839–1846 family context",
+      "date": "2026-10-26",
+      "site": "Public collection and church-history routes",
+      "result": "Contextual congregation leads only; no individual burial entry inspected.",
+      "outcome": "partial",
+      "limitation": "Reformed Presbyterian must be distinguished from Dutch/German Reformed and other Presbyterian collections.",
+      "private_receipt": "data/private/workbench/review/infant-originals-20261026/08-cincinnati-church.json"
     }
   ],
   "findings": [],
@@ -50,6 +131,19 @@
     "data/private/workbench/review/john-infant-20261026/09-assessment-design.json",
     "data/private/workbench/review/john-infant-20261026/10-date-publication.json",
     "data/private/workbench/review/john-infant-20261026/07-record-schema.json",
-    "data/private/workbench/review/john-infant-20261026/05-native-workflow.json"
+    "data/private/workbench/review/john-infant-20261026/05-native-workflow.json",
+    "data/private/workbench/review/infant-originals-20261026/01-beath.json",
+    "data/private/workbench/review/infant-originals-20261026/02-kilbirnie.json",
+    "data/private/workbench/review/infant-originals-20261026/03-cumbernauld.json",
+    "data/private/workbench/review/infant-originals-20261026/04-ormiston.json",
+    "data/private/workbench/review/infant-originals-20261026/05-newmonkland.json",
+    "data/private/workbench/review/infant-originals-20261026/06-sorn.json",
+    "data/private/workbench/review/infant-originals-20261026/07-springgrove.json",
+    "data/private/workbench/review/infant-originals-20261026/08-cincinnati-church.json",
+    "data/private/workbench/review/infant-originals-20261026/09-persistence.json",
+    "data/private/workbench/review/infant-originals-20261026/10-scotland-index.json",
+    "data/private/workbench/review/infant-originals-20261026/11-marriages-a.json",
+    "data/private/workbench/review/infant-originals-20261026/12-marriages-b.json",
+    "data/private/workbench/review/infant-originals-20261026/13-marriages-c.json"
   ]
 }
