@@ -41,6 +41,22 @@ class PublicFamiliesTests(unittest.TestCase):
                     perspectives={'Child-1': {'relationship': 'father'},
                                   'Father-1': {'relationship': 'son'}})
 
+    def test_qualitative_stepmother_does_not_change_biological_mother(self):
+        mother = dict(id='Mother-1', role='mother', status='unmarked', inModel=True)
+        people = [dict(id='Child-1', parents=[copy.deepcopy(mother)]),
+                  dict(id='Mother-1', parents=[]), dict(id='Step-1', parents=[])]
+        assessment = dict(assertion_id='A-step', publication_status='approved',
+                          status='strongly_supported', source_ids=['Family-1'],
+                          probability=None, people=['Child-1', 'Step-1'],
+                          perspectives={'Child-1': {'relationship': 'stepmother'}})
+        families = {'Child-1': [dict(id='Mother-1', relationship='mother', status='unknown'),
+                               dict(id='Step-1', relationship='stepmother',
+                                    status='strongly_supported', probability=None)],
+                    'Mother-1': [], 'Step-1': []}
+        result = self.run_sync(people, families, assessments=[assessment])
+        self.assertEqual(people[0]['parents'], [mother])
+        self.assertEqual(result['publicMotherGradeSyncIds'], [])
+
     def test_reviewed_mother_fills_export_placeholder_but_preserves_private_parent(self):
         assessment = dict(assertion_id='A-mother', publication_status='approved',
                           allow_new_relationship=True, source_ids=['Baptism-1'],

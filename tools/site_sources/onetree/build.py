@@ -485,7 +485,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
         if (assessment.get('publication_status') != 'approved'
                 or assessment.get('working_selection') or not assessment.get('source_ids')
                 or assessment.get('status') not in {'proved', 'confident', 'strongly_supported', 'probable', 'possible', 'uncertain'}
-                or not assessment.get('probability', {}).get('value')
+                or not (assessment.get('probability') or {}).get('value')
                 or assessment.get('display') in {'alternative', 'historical', 'superseded'}
                 or assessment.get('lifecycle') in {'alternative', 'historical', 'superseded'}):
             continue
