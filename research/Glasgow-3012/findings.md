@@ -126,3 +126,7 @@ Prioritise a discriminating household link for the Easter Newtoun adult: compare
 - [Findmypast, Annah, 20 June 1652, father Johne at Easter Newtoun; transcript inspected 18 October 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473604)
 - [Paton, Register of Marriages for the Parish of Edinburgh 1595–1700, printed p.267: John Glasgow, whipman, and Isobel Porteous, 30 June 1642; retained extract, no new page inspection](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf)
 - [FamilySearch, Isobell, Edinburgh, 4 April 1643; parents John Glasgow and Issobell Porteous; retained citation](https://www.familysearch.org/ark:/61903/1:1:X1YN-JHD)
+
+## Reciprocal baptism account reconciled — 26 October 2026
+
+26October2026 reciprocal-account reconciliation: the7October comparison already identified conflicting readings of Charles’s1686 baptism. The father draft is now qualified to reflect the child’s maintained extracted-index reading,10October1686 South Leith, and to preserve the older3OctoberGlencorse reading as an unresolved discrepancy. Neither canonical held citation nor an original newly inspected in this review adjudicates the conflict. The father assessment remains82% probable; the Scottish-to-Irish continuation and John’s1649 childhood identity remain unproved.

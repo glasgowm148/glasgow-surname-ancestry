@@ -58,12 +58,20 @@
     },
     "Glasgow-3012": {
       "current_sha256": "1598bbfd730ddc48ae17c2e68a24c0889119ee3d6266a10720f54c8b13a0aeb9",
-      "proposed_sha256": "4678c00eab35574264329d4a6a6951e200b8cc09eb53d5e68dd044513c81b5db",
+      "proposed_sha256": "ba7813e455f1e79aee805822637a0f12896769ba1e87c5567d6bc31227565583",
       "draft_path": "research/Glasgow-3012/easter-newton-origin-2026-10-18.wiki",
       "all_substantive_passages_accounted_for": true,
       "all_prior_proposal_and_capture_passages_preserved": true,
       "private_comparison": false,
-      "preservation_basis": "Complete effective previous proposal and fresh capture retained; current ancestry is qualified and prior selected wording explicitly labelled superseded. No vital or mother change."
+      "preservation_basis": "Complete effective previous proposal and fresh capture retained; current ancestry is qualified and prior selected wording explicitly labelled superseded. No vital or mother change.",
+      "review_history": [
+        {
+          "reviewed": "2026-10-26",
+          "previous_proposed_sha256": "4678c00eab35574264329d4a6a6951e200b8cc09eb53d5e68dd044513c81b5db",
+          "reason": "Qualify known Charles baptism date/parish discrepancy; retain original citations and prior reading"
+        }
+      ],
+      "reviewed": "2026-10-26"
     },
     "Glasgow-3112": {
       "current_sha256": "fce6f8bc853e2ebddac27d20eec197085e1d116026c4b9ac207d2af23567d842",

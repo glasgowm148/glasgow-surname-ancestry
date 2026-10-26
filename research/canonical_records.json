@@ -8060,7 +8060,7 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122202&tab=this",
     "status": "Inspected provider transcript; original uninspected",
-    "note": "The Bathgate entry names Peter Glasgow and Elisabeth Dick and explicitly reports birth 5 March and baptism 22 March 1795, OPR 662/2 item 1. The current profile/catalogue birthday is 3 March 1795. The parents and event identify the existing child, but the 3-versus-5 March reading is unresolved without comparing the underlying source. Keep both readings visible and do not silently overwrite the birthday or create a second child. Source level: provider transcript only; companion indexes of the same event are not independent corroboration.",
+    "note": "The Bathgate entry names Peter Glasgow and Elisabeth Dick and explicitly reports birth 5 March and baptism 22 March 1795, OPR 662/2 item 1. The current profile/catalogue birthday is 3 March 1795. The parents and event identify the existing child, but the 3-versus-5 March reading is unresolved without comparing the underlying source. Keep both readings visible and do not silently overwrite the birthday or create a second child. Source level: provider transcript only; companion indexes of the same event are not independent corroboration. Scope review, 26 October 2026: complete selected Peter-1466 identification is now 82% probable (previously 98%); the named Bathgate father role is strongly supported but the adult-to-1762-child transition remains inferred. No event or family attachment changed.",
     "role": "Documentary source; subject and relative identification qualified",
     "profiles": {
       "Glasgow-3402": {
@@ -8068,7 +8068,7 @@
         "timeline_group": "Records mentioning this person"
       },
       "Glasgow-1466": {
-        "role": "Recorded father; existing parent identification",
+        "role": "Recorded father Peter; identification with the complete Peter-1466 profile probable at 82%, including an unproved West Calder childhood bridge",
         "timeline_group": "Records mentioning this person"
       },
       "Dick-6841": {
@@ -8077,7 +8077,7 @@
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-22",
+    "reviewed_on": "2026-10-26",
     "publish_to_record_index": true
   },
   {
@@ -36955,10 +36955,10 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099915&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Marion Glasgow",
     "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
-    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 25 Mar 1838; Birth year = 1838; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = Marion; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854; Residence = Burnmouth of Covington. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 25 Mar 1838; Birth year = 1838; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = Marion; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854; Residence = Burnmouth of Covington. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration. Scope correction, 26 October 2026: the record names William Glasgow and Margaret Henderson. An associated Henderson household has not been established for Glasgow-2915, whose maintained wife is Margaret Mitchell. Retain the compatible comparison on HOLD without assigning the child, mother or event to that profile; these entries do not support his upstream James-2916 hypothesis.",
     "profiles": {
       "Glasgow-2915": {
-        "role": "candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "role": "Unresolved candidate father comparison only; the transcript names Margaret Henderson, whereas the maintained profile spouse is Margaret Mitchell; no household identification established",
         "timeline_group": "Records for identity comparison"
       },
       "Glasgow-2876": {
@@ -36967,7 +36967,7 @@
       }
     },
     "provenance": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~14099915; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-26",
     "publish_to_record_index": true
   },
   {
@@ -36982,10 +36982,10 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099916&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
     "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
-    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 17 Feb 1840; Birth year = 1840; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = William; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854; Residence = Culterhouse. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 17 Feb 1840; Birth year = 1840; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = William; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854; Residence = Culterhouse. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration. Scope correction, 26 October 2026: the record names William Glasgow and Margaret Henderson. An associated Henderson household has not been established for Glasgow-2915, whose maintained wife is Margaret Mitchell. Retain the compatible comparison on HOLD without assigning the child, mother or event to that profile; these entries do not support his upstream James-2916 hypothesis.",
     "profiles": {
       "Glasgow-2915": {
-        "role": "candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "role": "Unresolved candidate father comparison only; the transcript names Margaret Henderson, whereas the maintained profile spouse is Margaret Mitchell; no household identification established",
         "timeline_group": "Records for identity comparison"
       },
       "Glasgow-2876": {
@@ -36994,7 +36994,7 @@
       }
     },
     "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14099916; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-26",
     "publish_to_record_index": true
   },
   {
@@ -37009,10 +37009,10 @@
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099917&tab=this",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Margaret Glasgow",
     "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
-    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 05 Apr 1845; Birth year = 1845; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = Margaret; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "note": "Disposition: parent candidate hold. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved. Earlier-parent eligibility comparison: Glasgow-2915, current birth Current people-index birth_year=1760 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.; Glasgow-2876, current birth Current people-index birth_year=1783 (uncertain); this establishes only that the candidate falls before 1800, not that the record identifies them.. Current identity qualifications are retained. Indexed factual fields: Archive reference = OPR 657/2; Birth date = 05 Apr 1845; Birth year = 1845; Country = Scotland; County = Lanarkshire; Father's first name(s) = William; Father's last name = Glasgow; First name(s) = Margaret; Item = 4; Last name = Glasgow; Mother's first name(s) = Margaret; Mother's last name = Henderson; Page = 18; Place = Symington; Record set = Scotland, Parish Births & Baptisms 1564-1929; Register year range = 1820-1854. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration. Scope correction, 26 October 2026: the record names William Glasgow and Margaret Henderson. An associated Henderson household has not been established for Glasgow-2915, whose maintained wife is Margaret Mitchell. Retain the compatible comparison on HOLD without assigning the child, mother or event to that profile; these entries do not support his upstream James-2916 hypothesis.",
     "profiles": {
       "Glasgow-2915": {
-        "role": "candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked",
+        "role": "Unresolved candidate father comparison only; the transcript names Margaret Henderson, whereas the maintained profile spouse is Margaret Mitchell; no household identification established",
         "timeline_group": "Records for identity comparison"
       },
       "Glasgow-2876": {
@@ -37021,7 +37021,7 @@
       }
     },
     "provenance": "research/findmypast-glasgow-audit/record-details-retries.json#/records/SCOT~1OPR~1BAP~14099917; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-26",
     "publish_to_record_index": true
   },
   {

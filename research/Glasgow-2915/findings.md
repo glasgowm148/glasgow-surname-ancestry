@@ -90,17 +90,21 @@ This is a first numerical review of an existing father, not a new attachment or 
 <!-- BEGIN FMP-CACHE-NEXT-20261023 -->
 ## Saved Findmypast source and parent-role review — 23 October 2026
 
-Role in this account: candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved.
+Role in this account: unresolved candidate-father comparison only: the transcript names Margaret Henderson, while this profile’s maintained spouse is Margaret Mitchell; no Henderson household identification is established. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved.
 
 - [Findmypast SCOT/OPR/BAP/4099915](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099915&tab=this), saved 3 September 2026.
 
-Role in this account: candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved.
+Role in this account: unresolved candidate-father comparison only: the transcript names Margaret Henderson, while this profile’s maintained spouse is Margaret Mitchell; no Henderson household identification is established. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved.
 
 - [Findmypast SCOT/OPR/BAP/4099916](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099916&tab=this), saved 3 September 2026.
 
-Role in this account: candidate father: profile birth 1760 uncertain and associated Margaret Henderson household; no exact child match checked. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved.
+Role in this account: unresolved candidate-father comparison only: the transcript names Margaret Henderson, while this profile’s maintained spouse is Margaret Mitchell; no Henderson household identification is established. A current pre-1800 adult comparison exists, but the record-to-person identity remains unresolved.
 
 - [Findmypast SCOT/OPR/BAP/4099917](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4099917&tab=this), saved 3 September 2026.
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+## Symington comparison scope corrected — 26 October 2026
+
+The three saved Symington child transcripts name William Glasgow and Margaret Henderson in 1838, 1840 and 1845. Their identification with this William remains unresolved. The maintained spouse Margaret Mitchell is not silently replaced, and compatible comparisons remain on HOLD. These records provide no evidence for this William’s James-2916 father hypothesis, retained at 24%. No original newly inspected.

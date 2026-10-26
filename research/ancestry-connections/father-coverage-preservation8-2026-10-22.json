@@ -124,7 +124,7 @@
     },
     "Glasgow-3402": {
       "current_sha256": "5599e01232dd38366bb86d3af1eb28994883402c05892f7abde47db7421f4efd",
-      "proposed_sha256": "560eac5e7e18c777c4bf5095ca0dd6bd859dc2486fb56f1510ecbac27192fb88",
+      "proposed_sha256": "64063bb4c259aa9d45680f9d8a7f7cdfc7ba5da9c94183473c3edcb52f492307",
       "previous_proposed_sha256": "a27541af6120c704294ea753b2f754b174010b8a53ac7c7fb752eb304b6724a7",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage8-20261022/previous-proposals/Glasgow-3402.wiki",
       "all_substantive_passages_accounted_for": true,
@@ -132,7 +132,15 @@
       "private_comparison": false,
       "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "review_history": [
+        {
+          "reviewed": "2026-10-26",
+          "previous_proposed_sha256": "560eac5e7e18c777c4bf5095ca0dd6bd859dc2486fb56f1510ecbac27192fb88",
+          "reason": "Additive scoped father review; retain earlier score as explicitly superseded history"
+        }
+      ],
+      "reviewed": "2026-10-26"
     },
     "Glasgow-1533": {
       "current_sha256": "7111d28a64065669fbfc7b0e2c04bde19e70d9225a48fbdc2fff4e32ec2b596b",

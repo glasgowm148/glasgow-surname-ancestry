@@ -72,6 +72,19 @@ def dump(value: Any) -> str:
     return json.dumps(value, indent=2, ensure_ascii=False) + "\n"
 
 
+def research_fields(revision: dict[str, Any]) -> dict[str, Any]:
+    """Export only explicit dispatch metadata from the current revision.
+
+    Missing fields leave the stored compatibility row untouched; research_status
+    alone does not imply a readiness decision.
+    """
+    extra = _extra(revision)
+    fields = {key: extra[key] for key in ("last_test", "next_test") if key in extra}
+    if isinstance(extra.get("research_state"), dict):
+        fields["research_state"] = extra["research_state"]
+    return fields
+
+
 class Views:
     def __init__(self, store):
         self.store = store
@@ -144,6 +157,7 @@ class Views:
                                      "basis": current["reasoning"], "source_ids": fields.get("source_ids", [])}
         else:
             fields["probability"] = None
+        fields.update(research_fields(current))
         return fields
 
     def new_assessment(self, claim: dict[str, Any], revisions: list[dict[str, Any]]) -> dict[str, Any]:
@@ -180,6 +194,7 @@ class Views:
                     corrected.update({"percent": percent, "assessment_status": current["status"]})
                     if not self.migrated(current):
                         corrected.update({"basis": current["reasoning"], "reviewed": current["assessed_on"]})
+                        corrected.update(research_fields(current))
                 legacy.append((index, corrected))
             if not extra.get("legacy_estimates") and "legacy" not in extra and current is not None \
                     and percent is not None and self.researched_here(claim):
@@ -190,7 +205,8 @@ class Views:
                                              (relative, child, REVERSE[claim["predicate"]])):
                     new.append({"subject_id": subject, "relative_id": other, "relationship": role, "percent": percent,
                                 "assessment_status": current["status"], "assertion_id": aid,
-                                "basis": current["reasoning"], "reviewed": current["assessed_on"]})
+                                "basis": current["reasoning"], "reviewed": current["assessed_on"],
+                                **research_fields(current)})
         return [row for _, row in sorted(legacy, key=lambda item: item[0])] + new
 
     def estimates_document(self) -> dict[str, Any]:

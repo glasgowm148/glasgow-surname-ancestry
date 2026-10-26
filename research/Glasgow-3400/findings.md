@@ -26,3 +26,7 @@ Held source basis: ["Scotland, Births and Baptisms, 1564-1950", database, Family
 ## Birth and baptism correction — Findmypast review, 23 October 2026
 
 [Findmypast, *Scotland, Parish Births & Baptisms 1564–1929*, Andrew Glasgow, record SCOT/OPR/BAP/4121897](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121897&tab=this) indexes birth 27 March 1790, baptism 11 April 1790, Bathgate, Linlithgowshire, father Peter Glasgow, mother Elisabeth Dick, OPR 662/2, item 1. Refine the year-only birth to 27 March 1790 and retain the baptism separately. The parent names are documented record roles; their mapping to the attached adult profiles remains separately assessed. Original register image not inspected.
+
+## Bathgate father identity scope — 26 October 2026
+
+[Agnes Glasgow-3402](/people/glasgow-3402.html) now has the complete Peter-1466 father-profile assessment **82% probable**, corrected from 98%. [Andrew Glasgow-3400](/people/glasgow-3400.html) remains 82%. The repeated Peter/Elisabeth Dick Bathgate household is strongly supported; identification of that adult as the 1762 West Calder child remains inferred. This changes one assessment’s scope, with no parent attachment, new source inspection or change to Peter’s own 79% father assessment.

@@ -59085,6 +59085,105 @@
       "provenance": [
         "research/ancestry-connections/thomas-merchant-review-2026-10-25.json"
       ]
+    },
+    {
+      "id": "agnes-bathgate-father-scope-20261026",
+      "found_on": "2026-10-26",
+      "kind": "relationship",
+      "finding": "Agnes Glasgow’s complete Peter-1466 father-profile assessment is corrected from 98% confident to 82% probable. The Bathgate transcript strongly identifies the named adult father, while his identity as the 1762 West Calder child remains inferred.",
+      "status": "qualified",
+      "qualification": "Provider transcripts and held family accounts reviewed; no parish original newly inspected. The Bathgate father role remains strongly supported. The 3-versus-5 March 1795 birth reading is a separate unresolved issue and is not the reason for this reduction. Maternity, Peter’s own father assessment and every family attachment remain unchanged. This is a source-scope correction, not a newly found record or family connection.",
+      "people": [
+        {
+          "id": "Glasgow-3402",
+          "name": "Agnes Glasgow",
+          "role": "Existing father assessment corrected: 98% to 82%",
+          "url": "/people/glasgow-3402.html"
+        },
+        {
+          "id": "Glasgow-1466",
+          "name": "Peter Glasgow",
+          "role": "Named Bathgate father; childhood identity inferred",
+          "url": "/people/glasgow-1466.html"
+        },
+        {
+          "id": "Glasgow-3400",
+          "name": "Andrew Glasgow",
+          "role": "Same named household; 82% assessment unchanged",
+          "url": "/people/glasgow-3400.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Agnes Bathgate baptism, OPR 662/2 item 1; held provider transcript reused, original uninspected",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122202&tab=this"
+        },
+        {
+          "title": "Andrew Bathgate baptism, OPR 662/2 item 1; held provider transcript reused, original uninspected",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121897&tab=this"
+        }
+      ],
+      "detail_url": "/people/glasgow-3402.html",
+      "provenance": [
+        "research/Glasgow-3402/findings.md",
+        "research/Glasgow-1466/findings.md",
+        "research/Glasgow-3400/findings.md",
+        "data/wikitree/profile-evidence.json#/profiles/Glasgow-1466/biography_wikitext"
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Agnes Glasgow (Glasgow-3402)",
+          "relative": "Peter Glasgow (Glasgow-1466)",
+          "before": "certain",
+          "after": "probable",
+          "previous_probability_percent": 98,
+          "probability_percent": 82,
+          "explanation": "Agnes’s 1795 Bathgate transcript names Peter Glasgow and Elisabeth Dick, matching the specific adult household and its 1783–1795 child sequence. It does not identify that adult as the Peter baptised at West Calder in 1762. Peter’s captured account expressly relies on neighbouring parishes, a compatible generation and repeated family names for that transition. For the complete selected father-profile proposition, retain a probable 82% rather than the previous 98%, which supported the named Bathgate father role. This reconciles scope with Andrew’s existing assessment, rather than treating shared derivative indexes as independent proof.",
+          "previous_status_provenance": "Database pre-review project assessment and 22 October findings, retained as assessment history; correction made 26 October 2026."
+        }
+      ]
+    },
+    {
+      "id": "david-killycurragh-identity-scope-20261026",
+      "found_on": "2026-10-26",
+      "kind": "biographical",
+      "finding": "David Glasgow-1654’s current account is restored to the Killycurragh father represented by the held Irish marriage and family evidence. The Indiana1866 death remains an unproved identity lead; David’s own father remains unknown and unrated.",
+      "status": "qualified",
+      "qualification": "Correction of the maintained account’s identity scope using held biographies and cited family records, not a new original-record reading or father discovery. Multiple local Davids remain possible. No vital field, spouse or parent is changed.",
+      "people": [
+        {
+          "id": "Glasgow-1654",
+          "name": "David Glasgow",
+          "role": "Killycurragh father; own father unknown",
+          "url": "/people/glasgow-1654.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Irish civil marriage, Jane Glasgow and James Ferguson, Cookstown1850; held cited account reused",
+          "url": "https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/119f603202309"
+        },
+        {
+          "title": "Irish civil marriage, James Glasgow and Hanah Ferguson, Cookstown1855; held cited account reused",
+          "url": "https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/e663a73250139"
+        },
+        {
+          "title": "Irish civil marriage, John Glasgow and Jane Bell, Cookstown1865; held cited account reused",
+          "url": "https://civilrecords.irishgenealogy.ie/churchrecords/details-civil/7de79d3055078"
+        },
+        {
+          "title": "Funeral of Mr James Glasgow, Killycurragh, Mid-Ulster Mail20 February1897 p3; held cited account reused",
+          "url": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0002006/18970220/048/0003"
+        }
+      ],
+      "detail_url": "/people/glasgow-1654.html",
+      "provenance": [
+        "research/Glasgow-1654/findings.md",
+        "data/wikitree/profile-evidence.json#/profiles/Glasgow-1654/biography_wikitext",
+        "research/Glasgow-1711/father-confidence-2026-10-22i.wiki",
+        "research/free-space-pages/edition/glasgow-of-killycurragh-early-c19-aa9477.wiki"
+      ]
     }
   ]
 }
