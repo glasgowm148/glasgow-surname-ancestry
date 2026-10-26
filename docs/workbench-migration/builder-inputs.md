@@ -247,6 +247,37 @@ Applied to a copy of the live `www/`, the redirect publisher replaces exactly
 the 14 outdated pages and the 5 older redirects, and the link check still
 reports 0 new broken links. None of the 19 is in the live search index.
 
+### Release speed and the first live release (26 October 2026, evening)
+
+A profiled release on a copy of the live site found its time in three places.
+- **The three privacy passes**, each 5.6 minutes. They now skip files already
+  confirmed clean under the same policy and unchanged since. The policy
+  fingerprint covers the withheld list, testers, private names and the export
+  rows, and the output is byte-identical. A repeat pass takes 53 seconds;
+  `repair_public_mirrors` uses the same rule, for strictly clean files only.
+- **`repair_person_hierarchy`**, about 10 minutes. Most of it is BeautifulSoup
+  parsing and re-serialising every person page. A faster parser would change
+  the bytes on thousands of pages, so the safe way to speed it up is to skip
+  pages whose inputs are unchanged; that is not done yet.
+- **Smaller steps**: update controls, analytics and reader guidance (1–2.5
+  minutes each).
+
+The live release then ran its repairs in 27 minutes; the timings are in
+`data/private/workbench/rebuild-experiment/`. It brought the 909 missing
+sources, the corrected source and record files, the person models and the
+retired-record redirects to the live `www/`. The live site's 7 missing
+analytics tags are also fixed.
+
+It stopped at the research gate, before `finalize`. The one new problem is
+research the other session had just committed:
+`research/subject-john-cameron-glasgow-infant-before-1846/` has publishable
+sections that no builder reads. Because the gate stopped it, the release had
+left the atlas models without their approved DNA restoration. That was
+restored by hand (privacy check: 0 failures), and the release now repeats the
+DNA repair before the gate. The sitemap still lists one old census page
+until `finalize` runs. A copy-on-write snapshot of the live `www/` from
+before the release is in `data/private/workbench/www-before-release-20261026/`.
+
 ## Remaining work, in order
 
 1. After the next full rebuild that passes its checks, run
@@ -286,13 +317,25 @@ reports 0 new broken links. None of the 19 is in the live search index.
    nothing, and the link and privacy checks are unchanged on a copy of the live
    site.
 
-   **Still carried forward:** `assets/research/people/<id>.json` (about
-   6,260 research-person models read by the atlas person panel). 4,485 were
-   last built on 8 September 2026 by a model builder that is no longer in the
-   repository; 313 are research cases rewritten by
-   `add_research_case_dossiers.py`. Producing them means rebuilding that
-   model (about 25 fields per person: atlas context, branches, events,
-   relationships, evidence and source documents) from the dossiers.
+   **Research-person models, stage 1** (same day):
+   `assets/research/people/<id>.json` (about 6,260 models read by the atlas
+   person panel). 4,485 were last built on 8 September 2026 by a model
+   builder that is no longer in the repository; 313 are research cases
+   rewritten by `add_research_case_dossiers.py`.
+
+   `tools/build_person_models.py` (the third release repair) now keeps these
+   fields current. Measured against the models, each rule matches 96–99.5% of
+   them, and the remainder is drift.
+   - From the dossier: name, identity, open questions, and the evidence and
+     claim counts.
+   - Relationships, from the dossier, with a relative marked `external` when
+     they have no public dossier.
+   - Record ids, from the records index.
+   - Source-document links, from the source library.
+   - Family and place branches, from `branches.json`.
+
+   Vitals, the review, events, mentions and DNA are kept until a later stage
+   produces them. 107 dossiers have no model yet.
    `assets/research/fragments/` (about 1,200 content-hashed section files) are
    written by `page_fragments.py` and only need their stale copies pruned.
 3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
