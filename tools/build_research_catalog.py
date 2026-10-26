@@ -4662,6 +4662,18 @@ def _source_identity_keys(text: str, extra_urls: list[str] | None = None) -> dic
     return identities
 
 
+def _is_recoverable_profile_source(url: str) -> bool:
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower().removeprefix("www.")
+    if host == "glasgow.phenotype.dev":
+        return False
+    if host == "wikitree.com":
+        # WikiTree profile assertions are not independent sources, but its
+        # hosted original photo/PDF endpoints can be cited as records.
+        return parsed.path.startswith(("/photo.php/", "/photo/pdf/"))
+    return True
+
+
 def _registered_profile_updates(wikitree_evidence: dict, report: list | None = None) -> dict[str, dict]:
     """Turn audited open entries of the WikiTree work register into updates.
 
@@ -4762,11 +4774,11 @@ def _registered_profile_updates(wikitree_evidence: dict, report: list | None = N
         findings = findings_path.read_text(encoding="utf-8") if findings_path.exists() else ""
         source_links = []
         for label, url in re.findall(r"\[([^\]]+)\]\((https?://[^)]+)\)", findings):
-            if "wikitree.com" in url or "glasgow.phenotype.dev" in url:
+            if not _is_recoverable_profile_source(url):
                 continue
             source_links.append((label.strip(), url.strip()))
         for url in (captures.get(profile_id) or {}).get("external_urls", []):
-            if "wikitree.com" in url or "glasgow.phenotype.dev" in url:
+            if not _is_recoverable_profile_source(url):
                 continue
             source_links.append((urlparse(url).netloc or "Public source", url))
         unique_sources = []

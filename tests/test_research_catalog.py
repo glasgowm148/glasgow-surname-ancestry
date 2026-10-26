@@ -7,7 +7,9 @@ import json
 from html import unescape
 from pathlib import Path
 import re
+import tempfile
 import unittest
+from unittest import mock
 
 from bs4 import BeautifulSoup
 from tests._site_html import read_html
@@ -27,6 +29,7 @@ from tools.build_research_catalog import (
     _estimated_birth_location,
     _is_external_public_url,
     _is_complete_profile_draft,
+    _is_recoverable_profile_source,
     _potential_parentage,
     _profile_creation_vital,
     _profile_update_significance,
@@ -43,6 +46,7 @@ from tools.build_research_catalog import (
     _normalise_ref_opening_tags,
     _relation_birth_surnames,
 )
+from tools import build_research_catalog as catalog
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -109,6 +113,49 @@ class CompactResolverTest(unittest.TestCase):
         self.assertEqual(compact_resolver_row(compact), compact)
         self.assertEqual(compact_resolver_row({"id": "Person-2", "reviewed_relationships": {"parents": []}}),
                          {"id": "Person-2"})
+
+
+class ProfileSourceRegisterTest(unittest.TestCase):
+    def test_photo_source_is_registered_but_profile_and_self_only_sources_are_dropped(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            register = root / "to-update.md"
+            research = root / "research"
+            findings = research / "Glasgow-2357" / "findings.md"
+            findings.parent.mkdir(parents=True)
+            register.write_text("- [[Glasgow-2357]] — review\n", encoding="utf-8")
+            findings.write_text(
+                "## Current conclusion\nMary is the mother.\n\n"
+                "[Original](https://wikitree.com/photo.php/0/0a/Glasgow-590.pdf)\n",
+                encoding="utf-8",
+            )
+            evidence = {"profiles": {"Glasgow-2357": {"external_urls": []}}}
+            with mock.patch.object(catalog, "PROFILE_UPDATE_REGISTER", register), \
+                 mock.patch.object(catalog, "RESEARCH_DIR", research), \
+                 mock.patch.object(catalog, "PROJECT_ROOT", root):
+                report = []
+                accepted = catalog._registered_profile_updates(evidence, report)
+            self.assertIn("Glasgow-2357", accepted)
+            self.assertTrue(any(row["accepted"] for row in report))
+
+            findings.write_text(
+                "## Current conclusion\nMary is the mother.\n\n"
+                "[Profile](https://wikitree.com/wiki/Glasgow-590)\n",
+                encoding="utf-8",
+            )
+            report = []
+            with mock.patch.object(catalog, "PROFILE_UPDATE_REGISTER", register), \
+                 mock.patch.object(catalog, "RESEARCH_DIR", research), \
+                 mock.patch.object(catalog, "PROJECT_ROOT", root):
+                self.assertEqual({}, catalog._registered_profile_updates(evidence, report))
+            self.assertTrue(any(not row["accepted"] for row in report))
+
+
+    def test_wikitree_photo_sources_are_recoverable_but_profile_and_self_urls_are_not(self):
+        self.assertTrue(_is_recoverable_profile_source("https://www.wikitree.com/photo.php/0/0a/Glasgow-590.pdf"))
+        self.assertTrue(_is_recoverable_profile_source("https://www.wikitree.com/photo/pdf/Glasgow-590"))
+        self.assertFalse(_is_recoverable_profile_source("https://www.wikitree.com/wiki/Glasgow-590"))
+        self.assertFalse(_is_recoverable_profile_source("https://glasgow.phenotype.dev/people/glasgow-590.html"))
 
 
 @requires_generated_data
