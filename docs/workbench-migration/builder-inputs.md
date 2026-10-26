@@ -206,17 +206,33 @@ The privacy difference comes from step order: steps after the release repairs
 rewrite the three atlas models, which then no longer match their approved
 restoration. Running the DNA repair again leaves the rebuilt site with **0
 privacy failures**. The rebuild script now does that as its last build step.
-The four broken links are branch pages linking to place pages
-(`profile-place-297788ceae31`, `osm-way-41228538`, `cross-ballymoney`,
-`profile-place-0b1ad58426e4`) that the place builder no longer produces. The
-live site still has them from earlier builds; finding why is next.
+The four broken links were tree-group pages (`branches/family-*`) linking to
+place pages the catalogue no longer makes. The catalogue resets `places/` and
+writes a page only for places in its own records. Three of the places no longer
+appear in any research or data file. The fourth, Govan, has only a record from
+the canonical-record ingest, which reaches the records index after the
+catalogue has written its place pages. Tree-group pages are rewritten from
+their earlier copy, so their "Places in this group" lists kept the old links;
+the one tool that recalculates them (`repair_site_experience.py`) was never part
+of the build. The rebuild now runs `tools/study_place_links.py`
+(`refresh_group_places`), which recalculates those lists from the people's
+current records and links only place pages that exist. The live site still has
+the four old place pages from earlier builds, so its next normal build would
+have broken the same links.
+
+**Result (26 October 2026, 16:46).** From an empty `www/`, all 31 build steps
+pass and the rebuilt site matches or beats the live site on every check:
+research publication, release consistency (the same baseline items, 0 new),
+internal links (0 new broken), finding links, tree links, site experience,
+asset stamps and privacy (0 failures, against the live site's 7 missing
+analytics tags).
 
 ## Remaining work, in order
 
-1. Bring the rebuilt site to the live site's checks (above): the broken links,
-   the tree links, the research and release items, and the deleted files. Each
-   difference is a correction a repair script made in place that a builder
-   must now make.
+1. Review the files the rebuild no longer makes before a rebuilt `www/`
+   replaces the live one (old catalogue detail files, the 14 Findmypast record
+   pages and the superseded-reading page). Then run
+   `site_declared_inputs.py --save-state` from the reviewed rebuild.
 2. Replace the build state with producers. Most of it is
    `assets/v3/sources/*.json` (16,318 source documents written by the canonical
    record ingest) and `assets/research/*` (10,338 files). Each should be

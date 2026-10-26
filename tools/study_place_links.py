@@ -294,6 +294,37 @@ def insert_group_places(page: str, section: str) -> str:
     return page.replace('</main>', section + '</main>', 1)
 
 
+def refresh_group_places(web: Path = WEB) -> list[str]:
+    """Recompute 'Places in this group' on every WikiTree tree-group page.
+
+    The list may only link place pages that exist. Tree-group pages are
+    rewritten from their earlier copy, so after the catalogue has rebuilt the
+    place pages an old list can point at places it no longer makes; this keeps
+    it to the people's current records and the pages that are there.
+    Returns the pages changed.
+    """
+    branches_path = web / 'assets/research/branches.json'
+    if not branches_path.is_file():
+        return []
+    places_by_person = person_places(load_records(web))
+    names = load_place_names(web)
+    place_exists = lambda slug: (web / 'places' / f'{slug}.html').is_file()  # noqa: E731
+    changed = []
+    for branch in json.loads(branches_path.read_text(encoding='utf-8')):
+        if branch.get('kind') != 'family':
+            continue
+        path = web / 'branches' / str(branch['id']) / 'index.html'
+        if not path.is_file():
+            continue
+        page = path.read_text(encoding='utf-8')
+        places = places_for_people(branch.get('members', []), places_by_person, place_exists=place_exists, names=names)
+        updated = insert_group_places(page, render_group_places(places))
+        if updated != page:
+            path.write_text(updated, encoding='utf-8')
+            changed.append(path.relative_to(web).as_posix())
+    return changed
+
+
 def render_place_studies(studies, tree_groups, collections, *, tree_limit: int = 8, findings: int = 0, slug: str = '') -> str:
     """'Families studied here' and source-library links for a place page."""
     parts = []
@@ -346,3 +377,7 @@ class PlaceStudyLinks:
         slug = next((place_slug(r['location_id']) for r in records if r.get('location_id')), '')
         return render_place_studies(studies, groups, source_collections(records, collection_exists=self.collection_exists),
                                     findings=len(self.findings.get(slug) or []), slug=slug)
+
+
+if __name__ == '__main__':
+    print(f"Refreshed the places list on {len(refresh_group_places())} tree-group page(s).")
