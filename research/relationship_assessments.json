@@ -6011,6 +6011,12 @@
         "probability_percent": 30,
         "assessment_date": "2026-10-23",
         "source_basis": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 30,
+        "assessment_date": "2026-10-23",
+        "source_basis": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity."
       }
     ],
     "reason": "Assess John Glasgow-1105 as Thomas Glasgow-1226’s possible father at 30%, previously 22%. The 1701 Thomas/Jean marriage is now anchored in Linlithgow, and the 1716 banns place the Clarkson groom specifically at Uphall before the 1717–1735 child sequence. Together with the Duncan household’s 1704 and 1711 Uphall entries, this makes a local succession more specific than a repeated surname alone. The proposed 1675 Linlithgow child would be about 26 at the 1701 marriage, 41 at the Clarkson banns and 60 at the last 1735 child. This is a coherent, if increasingly late, fatherhood sequence. The modest increase recognises the dated local fit; it does not assert remarriage or a proved identity.",
@@ -6379,7 +6385,14 @@
       "basis": "Existing Polwarth childhood, Cavers/Ormistoun adult records and late Ulster family tradition; the named father identity and each life-stage match remain unproved.",
       "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
     },
-    "assessment_history": [],
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 15,
+        "assessment_date": "2026-10-16",
+        "source_basis": "Glasgow-2462 is the proposed, very uncertain working father of the traditional Ulster ancestor Glasgow-591 and the Cavers Covenanter Glasgow-4138. This carries the existing possible identity with the Polwarth child Glasgow-1605 into a concrete local family model. The Polwarth index names the child’s father as William Glasgow, and Glasgow-2462 is already attached to that child with uncertainty. The three younger profile accounts are retained as possible stages of one life, not three proved brothers. Neither new father attachment is independent support for the other: both depend on the same child/adult identity and on the unproved identification of the named Polwarth father with the Inveresk man. The Polwarth child was baptised on 4 April 1658. If baptised near birth, he would have been about 21 at the examination of the Cavers servant in June 1679, 26 at the Ormistoun servant list in 1684 and 31 in 1689. Those are compatible ages for the recorded adult and the later military tradition. The Ulster profile’s circa 1656 birth is explicitly a rough grandson-based estimate, not an age stated by a record; its guessed Glasgow-city origin cannot exclude a Borders childhood. The exact forename and surname, compatible sequence and existing Borders candidate make this a usable provisional life model. Polwarth and Cavers are distinct parishes in different counties, and the chronology supplies compatibility rather than an identifying age match. The Cavers setting is recorded residence/association, not a proved birthplace. The Cavers man is the leading existing Scottish comparison for Glasgow-591 because the records establish a Covenanter and wreck survivor before the reported 1689 episode, while a probable member of his actual parish survivor group, James Young, appears among survivors said to have reached Ulster. Waddell’s 1886 account says all fifty survivors reached northern Ireland; his revised 1902 account says only some and omits both Glasgows from its named list. The omission does not exclude William, but the revision and late publication weaken the blanket migration claim. The 1684 Ormistoun record also prevents assuming uninterrupted Ulster residence from 1679. The later family history’s 1689 service and settlement remain tradition, not verified military service. No particular crossing, return journey, unit or Irish residence is invented. Its Cameron-to-Glasgow surname-origin story cannot explain a man already called Glasgow in 1679."
+      }
+    ],
     "reason": "Glasgow-2462 is the proposed, very uncertain working father of the traditional Ulster ancestor Glasgow-591 and the Cavers Covenanter Glasgow-4138. This carries the existing possible identity with the Polwarth child Glasgow-1605 into a concrete local family model. The Polwarth index names the child’s father as William Glasgow, and Glasgow-2462 is already attached to that child with uncertainty. The three younger profile accounts are retained as possible stages of one life, not three proved brothers. Neither new father attachment is independent support for the other: both depend on the same child/adult identity and on the unproved identification of the named Polwarth father with the Inveresk man. The Polwarth child was baptised on 4 April 1658. If baptised near birth, he would have been about 21 at the examination of the Cavers servant in June 1679, 26 at the Ormistoun servant list in 1684 and 31 in 1689. Those are compatible ages for the recorded adult and the later military tradition. The Ulster profile’s circa 1656 birth is explicitly a rough grandson-based estimate, not an age stated by a record; its guessed Glasgow-city origin cannot exclude a Borders childhood. The exact forename and surname, compatible sequence and existing Borders candidate make this a usable provisional life model. Polwarth and Cavers are distinct parishes in different counties, and the chronology supplies compatibility rather than an identifying age match. The Cavers setting is recorded residence/association, not a proved birthplace. The Cavers man is the leading existing Scottish comparison for Glasgow-591 because the records establish a Covenanter and wreck survivor before the reported 1689 episode, while a probable member of his actual parish survivor group, James Young, appears among survivors said to have reached Ulster. Waddell’s 1886 account says all fifty survivors reached northern Ireland; his revised 1902 account says only some and omits both Glasgows from its named list. The omission does not exclude William, but the revision and late publication weaken the blanket migration claim. The 1684 Ormistoun record also prevents assuming uninterrupted Ulster residence from 1679. The later family history’s 1689 service and settlement remain tradition, not verified military service. No particular crossing, return journey, unit or Irish residence is invented. Its Cameron-to-Glasgow surname-origin story cannot explain a man already called Glasgow in 1679.",
     "probability": {
       "value": 0.15,
@@ -6561,7 +6574,14 @@
       "alternative_assertion_id": "C-alternative-20261016-larne-inishrush-working-family-alexander-father",
       "reason": "Select the existing named Larne father hypothesis; retain the captured recordless placeholder as an uncertain, unselected alternative without identifying or merging it with James."
     },
-    "assessment_history": [],
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 17,
+        "assessment_date": "2026-10-16",
+        "source_basis": "The same James is selected, with very low confidence, as father of the reconstructed older Alexander (Glasgow-3904). This adopts the existing possible-brother route for Adam and Alexander. On the reported 1737 and estimated 1770 years, James would be about 33 at Alexander’s birth. Making Adam, born about 1758, Alexander’s father instead produces a twelve-year interval. Alexander’s circa 1770 birth is only an estimate, so that calculation does not exclude an Adam father: Alexander could have been born later. However, fatherhood of Daniel by about 1795/96 places Alexander in a generation born by roughly 1775–1778, leaving two short successive generations in the Adam-to-Alexander model. Adam’s wife Unknown-760890, born about 1766/67 from her monument age, cannot be Alexander’s mother on that chronology. The sibling route is therefore preferred provisionally without inventing an earlier wife. Chronological economy does not prove brotherhood or a shared father; neither selected edge is independent support for the other. A 1760 lease identifies James as a Belfast ropemaker taking a ropewalk at Gardenmore, Larne; the 1768 assignment identifies the same property. This is a real occupational and locality sequence, distinct from the contemporary Larne tanner. Adam is documented much later at Inishrush, and the monument does not state his birthplace. The estimated Inishrush birth cannot exclude a family from elsewhere, but no Belfast birth or Larne-to-Inishrush migration is newly assigned. The 1773 Larne gentleman’s age excludes the younger Glasgow-3991 account; the identity assessment and separation of the two trades retain their previous grades. The reported James/Shutter-46 marriage in 1762 is later than Adam’s birth. It cannot establish Shutter-46 as Adam’s mother. An earlier union, premarital birth or inaccurate reported date would be needed if this father model is right; no such event or person is invented. Shutter-46 is not selected as older Alexander’s mother either: the marriage report and the son identity are independently unproved."
+      }
+    ],
     "reason": "The same James is selected, with very low confidence, as father of the reconstructed older Alexander (Glasgow-3904). This adopts the existing possible-brother route for Adam and Alexander. On the reported 1737 and estimated 1770 years, James would be about 33 at Alexander’s birth. Making Adam, born about 1758, Alexander’s father instead produces a twelve-year interval. Alexander’s circa 1770 birth is only an estimate, so that calculation does not exclude an Adam father: Alexander could have been born later. However, fatherhood of Daniel by about 1795/96 places Alexander in a generation born by roughly 1775–1778, leaving two short successive generations in the Adam-to-Alexander model. Adam’s wife Unknown-760890, born about 1766/67 from her monument age, cannot be Alexander’s mother on that chronology. The sibling route is therefore preferred provisionally without inventing an earlier wife. Chronological economy does not prove brotherhood or a shared father; neither selected edge is independent support for the other. A 1760 lease identifies James as a Belfast ropemaker taking a ropewalk at Gardenmore, Larne; the 1768 assignment identifies the same property. This is a real occupational and locality sequence, distinct from the contemporary Larne tanner. Adam is documented much later at Inishrush, and the monument does not state his birthplace. The estimated Inishrush birth cannot exclude a family from elsewhere, but no Belfast birth or Larne-to-Inishrush migration is newly assigned. The 1773 Larne gentleman’s age excludes the younger Glasgow-3991 account; the identity assessment and separation of the two trades retain their previous grades. The reported James/Shutter-46 marriage in 1762 is later than Adam’s birth. It cannot establish Shutter-46 as Adam’s mother. An earlier union, premarital birth or inaccurate reported date would be needed if this father model is right; no such event or person is invented. Shutter-46 is not selected as older Alexander’s mother either: the marriage report and the son identity are independently unproved.",
     "probability": {
       "value": 0.17,
@@ -6833,7 +6853,14 @@
       "basis": "Existing Ayrshire parish indexes and Maryland church-history and biographical accounts; adult identities remain unproved.",
       "resolution_note": "Selected uncertain parent only; no new certainty, merge or live save."
     },
-    "assessment_history": [],
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 24,
+        "assessment_date": "2026-10-16",
+        "source_basis": "John Glasgow-3375 is the selected uncertain working father of the West Kilbride parent John Glasgow-3161, through possible identity with his son Jon Glasgow-1434, indexed at Kilwinning on 6 July 1679. The West Kilbride account already names Glasgow-1434 as an identity comparison. A child born near the 1679 baptism could have been about twenty at the January 1700 Patrick event, followed by the John/Margaret Cowan children at nearby Stevenston in 1701 and 1706 if that further adult identity is right. This supplies a specific neighbouring-parish household and ordinary generation, preferred provisionally to leaving the 1700 father without a named family. It does not prove that the Kilwinning child, Stevenston father and West Kilbride father were one person."
+      }
+    ],
     "reason": "John Glasgow-3375 is the selected uncertain working father of the West Kilbride parent John Glasgow-3161, through possible identity with his son Jon Glasgow-1434, indexed at Kilwinning on 6 July 1679. The West Kilbride account already names Glasgow-1434 as an identity comparison. A child born near the 1679 baptism could have been about twenty at the January 1700 Patrick event, followed by the John/Margaret Cowan children at nearby Stevenston in 1701 and 1706 if that further adult identity is right. This supplies a specific neighbouring-parish household and ordinary generation, preferred provisionally to leaving the 1700 father without a named family. It does not prove that the Kilwinning child, Stevenston father and West Kilbride father were one person.",
     "probability": {
       "value": 0.24,
@@ -10636,7 +10663,14 @@
       "source_scope": "Maintained county-history and Irish-return reviews reused; no new original inspection.",
       "identity_scope": "Profiles remain separate; the conditional identity does not establish two distinct same-name sons."
     },
-    "assessment_history": [],
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 23,
+        "assessment_date": "2026-10-17",
+        "source_basis": "Select James Glasgow-1970 of the Cookstown Mitchell family as John Glasgow-2539 of Gortin’s uncertain working father, through the existing possible identification with John Glasgow-1968. The 1879 Hillsdale history specifically identifies James and his Mitchell wife as parents of John, a farmer near Cookstown. The Gortin account supplies another John in the same Derryloran/Cookstown locality and an earlier compatible father generation. The maintained Hillsdale research already lists Gortin John as a possible duplicate. This is a positive named-son comparison in the relevant family and locality, stronger than an arbitrary father chosen only from the surname. Prefer this existing family as a revisable home for the 17-profile Gortin branch; retain both John accounts separately."
+      }
+    ],
     "reason": "Select James Glasgow-1970 of the Cookstown Mitchell family as John Glasgow-2539 of Gortin’s uncertain working father, through the existing possible identification with John Glasgow-1968. The 1879 Hillsdale history specifically identifies James and his Mitchell wife as parents of John, a farmer near Cookstown. The Gortin account supplies another John in the same Derryloran/Cookstown locality and an earlier compatible father generation. The maintained Hillsdale research already lists Gortin John as a possible duplicate. This is a positive named-son comparison in the relevant family and locality, stronger than an arbitrary father chosen only from the surname. Prefer this existing family as a revisable home for the 17-profile Gortin branch; retain both John accounts separately.",
     "probability": {
       "value": 0.23,
@@ -10729,7 +10763,14 @@
       "source_scope": "Maintained county-history and Irish-return reviews reused; no new original inspection.",
       "identity_scope": "Profiles remain separate; the conditional identity does not establish two distinct same-name sons."
     },
-    "assessment_history": [],
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 18,
+        "assessment_date": "2026-10-17",
+        "source_basis": "Select the older James Glasgow-1025 account as the Cookstown progenitor James Glasgow-1970’s uncertain working father, conditional on the existing Corvanaghan/Moneymore family model. The c.1700 and c.1730 estimates allow a father–son generation. James-1970 is already a surviving possible identity for the Cookstown-area Corvanaghan James-2988, whose selected working father is James-1025 through the separate Moneymore comparison. Extending that same unproved pedigree gives the Mitchell account a consistent, revisable place in the broader family. The district context comes from those Cookstown/Corvanaghan/Moneymore comparisons, not from the 1759 index. This is an inherited family hypothesis with no independent father record for the Mitchell progenitor."
+      }
+    ],
     "reason": "Select the older James Glasgow-1025 account as the Cookstown progenitor James Glasgow-1970’s uncertain working father, conditional on the existing Corvanaghan/Moneymore family model. The c.1700 and c.1730 estimates allow a father–son generation. James-1970 is already a surviving possible identity for the Cookstown-area Corvanaghan James-2988, whose selected working father is James-1025 through the separate Moneymore comparison. Extending that same unproved pedigree gives the Mitchell account a consistent, revisable place in the broader family. The district context comes from those Cookstown/Corvanaghan/Moneymore comparisons, not from the 1759 index. This is an inherited family hypothesis with no independent father record for the Mitchell progenitor.",
     "probability": {
       "value": 0.18,
@@ -12597,6 +12638,12 @@
           "tree_status": "uncertain"
         },
         "basis": "Preserved before individual relationship review; no new original inspection."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 38,
+        "assessment_date": "2026-10-17",
+        "source_basis": "Estate occurrence, compatible generation and cordiner-family comparison favour Ninian over named alternatives; damaged William role and unresolved adult identity, plus correlated collateral assumptions, prevent probable/confident treatment."
       }
     ],
     "provenance": {
@@ -14138,6 +14185,12 @@
       "scope": "New local father replacement from reviewed evidence; not a new source or confident-status upgrade."
     },
     "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": 52,
+        "assessment_date": "2026-10-18",
+        "source_basis": "Select Hugh Glasgow-1499 as the preferred possible father of James Glasgow-1509, the older Belfast/Larne ropemaker, at 52% subjective confidence, replacing William Glasgow-1505 in the local working tree. The archived chronology explicitly places a James, son of Hugh, at New Town/Larne in 1737 and identifies its reported 1762 Janet Shutter groom with that James. Hugh is an independently documented Larne merchant and elder, jointly leasing Newtown property in1736 and dealing with Hugh Shutter in the original1749 mortgage. The later James/Janet account and the distinctive Jane Shutter name in the younger William’s monument fit a recurring Glasgow–Shutter network. These combined named-parent, locality, generation and family-association clues favour Hugh over retaining a William father without a named-son record."
+      },
       {
         "status": "possible",
         "probability_percent": 52,
@@ -19356,6 +19409,12 @@
         "probability_percent": 25,
         "assessment_date": "2026-10-22",
         "source_basis": "Robert-1143’s1729 marriage and1738–1772 Larne/Ballykeel career can follow the older Robert’s1700–01 congregational activity as a second generation. The established local surname network supports retaining the existing father as a working choice. Neither the deeds nor the grandson’s1817 equity evidence names this father; older Robert could instead be grandfather or collateral kin, and c1710 is only an estimate."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 25,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Robert-1143’s1729 marriage and1738–1772 Larne/Ballykeel career can follow the older Robert’s1700–01 congregational activity as a second generation. The established local surname network supports retaining the existing father as a working choice. Neither the deeds nor the grandson’s1817 equity evidence names this father; older Robert could instead be grandfather or collateral kin, and c1710 is only an estimate."
       }
     ],
     "perspectives": {
@@ -19774,6 +19833,12 @@
         "probability_percent": 22,
         "assessment_date": "2026-10-22",
         "source_basis": "Robert’s1670–1671 Ayr children establish a real adult of a generation compatible with the inherited c1626 John of Kilwinning. The wider Ayrshire setting makes the existing father possible as a working family, but John’s early identity and locality are tree-derived. Neither child baptism names Robert’s father; there is no property, witness or proved-sibling bridge."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 22,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Robert’s1670–1671 Ayr children establish a real adult of a generation compatible with the inherited c1626 John of Kilwinning. The wider Ayrshire setting makes the existing father possible as a working family, but John’s early identity and locality are tree-derived. Neither child baptism names Robert’s father; there is no property, witness or proved-sibling bridge."
       }
     ],
     "perspectives": {
@@ -19925,6 +19990,12 @@
         "probability_percent": 42,
         "assessment_date": "2026-10-22",
         "source_basis": "James’s1738 Covington and Thankerton baptism names George Glasgow and Agnes Williamson. Selected George-1070 is the1719 Kilwinning child; fatherhood at18–19 is possible, and the existing family supplies a specific candidate. However no held record connects that child to the Covington George, and movement between Ayrshire and Lanarkshire is assumed. The child’s explicit named father does not make this particular George identification confident."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 42,
+        "assessment_date": "2026-10-22",
+        "source_basis": "James’s1738 Covington and Thankerton baptism names George Glasgow and Agnes Williamson. Selected George-1070 is the1719 Kilwinning child; fatherhood at18–19 is possible, and the existing family supplies a specific candidate. However no held record connects that child to the Covington George, and movement between Ayrshire and Lanarkshire is assumed. The child’s explicit named father does not make this particular George identification confident."
       }
     ],
     "perspectives": {
@@ -20003,6 +20074,12 @@
         "probability_percent": null,
         "claim_id": null,
         "source_basis": "Pre-batch public dossier and selected graph,22October2026; contributor mark retained independently; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 34,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Alexander-1314’s1673 Kirknewton childhood and1701/1705 marriages put an adult Alexander in the right parish and generation for Alexander-1141, father with Margaret Moultrie in1721–1732. The c1703 son estimate falls between those marriages. Local continuity and compatible generation support the existing proposal, but no own-childhood source names Alexander-1141’s father and the estimate may have been constructed from the same pedigree."
       },
       {
         "status": "possible",
@@ -20221,6 +20298,12 @@
         "probability_percent": null,
         "claim_id": null,
         "source_basis": "Pre-batch public dossier and selected graph,22October2026; contributor mark retained independently; no live edit."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 17,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The inherited Kirknewton/East Calder tree supplies James-1547 as Andrew’s father. James’s1702 child record and Andrew’s estimated1720 birth permit fatherhood at18, and the local family/naming pattern is coherent. But Andrew’s date and identity are unverified, no event names his father, and both the proposed generation and sibling grouping derive from the same tree. The young father estimate and weak Andrew identity warrant only17%."
       },
       {
         "status": "uncertain",
@@ -20462,6 +20545,12 @@
         "probability_percent": 21,
         "assessment_date": "2026-10-22",
         "source_basis": "The younger John account was created because the established congregational John was styled senior. A younger local namesake is a reasonable explanation and a son is one plausible relationship within this family. But senior/junior distinguishes namesakes without stating fatherhood, no independent record securely identifies3990, and the c1680 birth is constructed. Grandson, nephew or unrelated namesake remains viable."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 21,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The younger John account was created because the established congregational John was styled senior. A younger local namesake is a reasonable explanation and a son is one plausible relationship within this family. But senior/junior distinguishes namesakes without stating fatherhood, no independent record securely identifies3990, and the c1680 birth is constructed. Grandson, nephew or unrelated namesake remains viable."
       }
     ],
     "perspectives": {
@@ -20553,6 +20642,12 @@
         ],
         "record_scope": "The record-defined1710 child and John/Mary household93%. This does not prove the1732–1742 Kilmarnock glover’s childhood or the Kilwinning John’s1671 Linlithgow identity. Original uninspected.",
         "scope_change": true
+      },
+      {
+        "status": "probable",
+        "probability_percent": 62,
+        "assessment_date": "2026-10-23",
+        "source_basis": "The adult Hugh/Margaret household is established by the 1732 Kilmarnock marriage and later children. Hugh’s 1710 Kilwinning baptism, OPR 599/1 p.70, names John Glasgow and Mary Gemmill; its recorded-child parent clause retains 93% conditional confidence. A 1710 birth permits marriage at 22 and Ann’s baptism at 39, and regional proximity supports continuity. None of the held adult records names his parents or connects the glover’s occupation with the Kilwinning child, so the complete adult-to-John-1927 relationship is assessed 62%."
       },
       {
         "status": "probable",
@@ -20661,6 +20756,12 @@
         "probability_percent": 19,
         "assessment_date": "2026-10-22",
         "source_basis": "John-3375’s1679 and1689 Kilwinning children anchor an actual John/Barbara Alason household. The inherited John-1604 of an earlier c1626 generation is chronologically compatible and local in the tree. No source identifies the younger John’s father; the earlier John is itself unverified scaffolding, while possible overlap with the minister’s account creates an additional adult-identity alternative."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 19,
+        "assessment_date": "2026-10-22",
+        "source_basis": "John-3375’s1679 and1689 Kilwinning children anchor an actual John/Barbara Alason household. The inherited John-1604 of an earlier c1626 generation is chronologically compatible and local in the tree. No source identifies the younger John’s father; the earlier John is itself unverified scaffolding, while possible overlap with the minister’s account creates an additional adult-identity alternative."
       }
     ],
     "perspectives": {
@@ -20739,6 +20840,12 @@
         "probability_percent": null,
         "claim_id": "C-f921e230803e",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 29,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The inherited account places William, born 1757, under Caleb, born 1726, in Currituck: a specific local claim with a compatible31-year generation. No held record names William as Caleb’s son. The 1803 Caleb will concerns an adult family but does not establish this William, and the competing Caleb account is unresolved."
       },
       {
         "status": "uncertain",
@@ -20982,6 +21089,12 @@
         "probability_percent": null,
         "claim_id": "C-da72e3671c3f",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 18,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The 1740 Ballyboggy lessee John can fit a son generation below the inherited c 1680 younger John. However 3990 was inferred from an older man’s senior suffix and has no securely assigned independent record; its use as a father adds a particularly weak generation."
       },
       {
         "status": "uncertain",
@@ -21273,6 +21386,12 @@
         "probability_percent": 27,
         "assessment_date": "2026-10-22",
         "source_basis": "The Ballyboggy John active in 1740 is a real earlier Antrim adult and could father the Glenleslie John born about 1751. The existing local pedigree offers a coherent older generation, but no shared holding or named-relative source bridges these men."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 27,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The Ballyboggy John active in 1740 is a real earlier Antrim adult and could father the Glenleslie John born about 1751. The existing local pedigree offers a coherent older generation, but no shared holding or named-relative source bridges these men."
       }
     ],
     "perspectives": {
@@ -21351,6 +21470,12 @@
         "probability_percent": null,
         "claim_id": "C-9427630e4c3d",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 82,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Charles’s 1686 South Leith baptism names John Glesgowe and Margaret Currie. The existing John account includes the 1673 Kirknewton marriage to Margaret Currie and the 1676 Glencorse child household, giving a particular couple and compatible sequence across nearby Lothian parishes."
       },
       {
         "status": "probable",
@@ -21719,6 +21844,12 @@
         "probability_percent": 23,
         "assessment_date": "2026-10-22",
         "source_basis": "The inherited Cross/Derry family places James of the 1719 generation under Charles of the 1686 generation. The33-year sequence is feasible and gives a specific selected family, but the Scottish Charles baptism does not establish an Irish adult or name his son James."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 23,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The inherited Cross/Derry family places James of the 1719 generation under Charles of the 1686 generation. The33-year sequence is feasible and gives a specific selected family, but the Scottish Charles baptism does not establish an Irish adult or name his son James."
       }
     ],
     "perspectives": {
@@ -21809,6 +21940,12 @@
         ],
         "record_scope": "Record-defined child and Tait household97%; David’s later adult identification and James’s own 1712 ancestry are separate. Original uninspected.",
         "scope_change": true
+      },
+      {
+        "status": "probable",
+        "probability_percent": 70,
+        "assessment_date": "2026-10-23",
+        "source_basis": "The 1744 Stichill child account names James and Elizabeth, supported by their 1740 marriage and subsequent local children; its recorded-child father clause retains 97% conditional confidence. Identifying this child with the 1767 David/Janet Hood adult is plausible at age about 23 in neighbouring Borders parishes and with a later son James. The held regional comparison records no suitable competing David, but no marriage or residence continuity directly bridges these identities. The complete adult-to-James-1238 placement is assessed 70%."
       },
       {
         "status": "probable",
@@ -22051,6 +22188,12 @@
         "probability_percent": 24,
         "assessment_date": "2026-10-22",
         "source_basis": "The contributed pedigree supplies James as William’s father and allows a41-year father generation from 1719 to 1760. That is a feasible family hypothesis. No held household record bridges them, and the profile’s Scottish birth versus the father’s Irish setting requires an unrecorded movement."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 24,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The contributed pedigree supplies James as William’s father and allows a41-year father generation from 1719 to 1760. That is a feasible family hypothesis. No held household record bridges them, and the profile’s Scottish birth versus the father’s Irish setting requires an unrecorded movement."
       }
     ],
     "perspectives": {
@@ -22135,6 +22278,12 @@
         "probability_percent": 84,
         "assessment_date": "2026-10-22",
         "source_basis": "John’s 1740 Irvine transcript names George Glasgow and Margt Martin. The existing George/Margaret Martain couple has a 1728 Kilwinning marriage and 1729 child, giving a distinctive compatible parental sequence before Irvine."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 84,
+        "assessment_date": "2026-10-22",
+        "source_basis": "John’s 1740 Irvine transcript names George Glasgow and Margt Martin. The existing George/Margaret Martain couple has a 1728 Kilwinning marriage and 1729 child, giving a distinctive compatible parental sequence before Irvine."
       }
     ],
     "perspectives": {
@@ -22213,6 +22362,12 @@
         "probability_percent": null,
         "claim_id": "C-ec8b0d78198a",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 13,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The inherited dates permit Robert’s 1670 Ayr child to father Ezekiel around 1690, but the claimed Guernsey birth requires an unsupported geographical transition. No held record connects Robert with Ezekiel, and the 1775 Charlestown postal co-listing identifies neither generation."
       },
       {
         "status": "uncertain",
@@ -22364,6 +22519,12 @@
         "probability_percent": null,
         "claim_id": "C-297da6b8b1f1",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 16,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Richard’s inherited 1707 Glasgow birth could follow Ezekiel’s 1690 generation, but fatherhood at about17 and a Guernsey-to-Glasgow move are both unverified premises. No named-relative or shared-household record supports the selected pair."
       },
       {
         "status": "uncertain",
@@ -22716,6 +22877,12 @@
         "probability_percent": null,
         "claim_id": "C-31e2730a1d89",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 21,
+        "assessment_date": "2026-10-22",
+        "source_basis": "John’s inherited Glasgow birth about 1758 and Richard’s 1707 Glasgow generation form a possible51-year fatherhood sequence in the same city. The contributed tree gives a specific claim, but no held event names this father or establishes the older Richard’s life."
       },
       {
         "status": "uncertain",
@@ -25825,6 +25992,12 @@
         "probability_percent": 62,
         "assessment_date": "2026-10-22",
         "source_basis": "Robert Alexander’s exact 1807 birth fits John’s 1780 generation and the established Adams County descendant family. The inherited attachment supplies a particular father within that family, but Robert’s retained county-history citation concerns his wife Sarah’s later family and does not independently name his father."
+      },
+      {
+        "status": "proved",
+        "probability_percent": 93,
+        "assessment_date": "2026-10-26",
+        "source_basis": "The visually inspected family history explicitly names Alexander among John and Peninnah’s eight children and identifies him as the farmer who moved to Sharon, Iowa and died in 1857. Page 3 identifies John, born 28 April 1780, as the author’s grandfather; page 4 identifies Moses as his father. The Iowa destination and death year fit Glasgow-997, whose retained Cushing citation identifies Sarah as wife of Alexander Glasgow of Iowa. A separate unmarried brother Robert remained in Pittsburgh. This is an explicit close-family parent statement and a specific identity fit, replacing the former assumption that no parent clause was held. John Glasgow-209 is assessed as the father at 93%, documented within this retrospective family-account scope."
       }
     ],
     "perspectives": {
@@ -65352,6 +65525,12 @@
         "probability_percent": 98,
         "assessment_date": "2026-10-22",
         "source_basis": "The held Bathgate index and inspected provider transcript name Peter Glasgow and Elisabeth Dick for Agnes in 1795, baptized22 March. The3 March profile birthday versus5 March transcript is a reading conflict within the same identified family, not evidence for another father."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 82,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Agnes’s 1795 Bathgate transcript names Peter Glasgow and Elisabeth Dick, matching the specific adult household and its 1783–1795 child sequence. It does not identify that adult as the Peter baptised at West Calder in 1762. Peter’s captured account expressly relies on neighbouring parishes, a compatible generation and repeated family names for that transition. For the complete selected father-profile proposition, retain a probable 82% rather than the previous 98%, which supported the named Bathgate father role. This reconciles scope with Andrew’s existing assessment, rather than treating shared derivative indexes as independent proof."
       }
     ],
     "perspectives": {
@@ -108428,6 +108607,12 @@
         "probability_percent": 18,
         "relative_id": "Glasgow-1022",
         "source_basis": "John Glasgow-1022 is an unselected father candidate for the Glenleslie Robert represented within Glasgow-1367, assessed at 18% subjective confidence. The 1851 transcription places Antrim-born Glasgow farmers John, reported 99, and Robert, 72, in Glenleslie houses 21 and 23, with the Hamill household between them. Their approximately 27-year age gap fits fatherhood better than an ordinary sibling interval. However, the transcription defines field 17 as the year of first marriage and gives John 1791. Robert’s census-implied birth about 1778–1779 precedes that by roughly twelve years. Earlier fatherhood would therefore require nonmarital fatherhood, incomplete reporting or a wrong age/date; none is established. Locality, surname, farming and generation also fit collateral kin. John remains the leading named local father comparison, while an unidentified father is more likely overall."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 38,
+        "assessment_date": "2026-10-23",
+        "source_basis": "Select John Glasgow-1022 as the possible working father of the Glenleslie Robert represented by Glasgow-1367, at 38% subjective confidence. The original makes their reported age difference 28 years (100 versus 72), a comfortable father–son interval. They were Antrim-born Glasgow farmers in Glenleslie households 21 and 23, separated by the Hamill household. This is a specific nearby older family, and John is the best identified local father comparison already retained in the research. Reading the original marriage question removes the previous overstatement that it expressly records a first marriage in 1791. The combined generation and neighbouring-family argument is sufficient to select a weak working model rather than leave this preferred named comparison outside the tree; it is not a parent statement."
       },
       {
         "status": "possible",
