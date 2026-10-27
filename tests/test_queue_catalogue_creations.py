@@ -114,6 +114,24 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertNotIn("Side-by-side", soup.get_text())
         self.assertNotIn("baptism", soup.get_text())
 
+    def test_canonical_findings_override_manifest_and_preserve_hold_candidates(self):
+        self.entry.update(creation_status="identity_hold", candidates=[
+            {"name": f"Candidate {i}", "profile_id": f"Glasgow-{9000+i}", "status": "HOLD"} for i in range(6)
+        ])
+        self.save()
+        findings = self.root / "research" / self.slug / "findings.md"
+        findings.parent.mkdir(parents=True)
+        findings.write_text("Last updated: 2026-10-26\n\n## Fresh source review\nCanonical body.\n")
+        module.apply_creations(self.root, [self.slug])
+        dossier = self.read(f"people/{self.slug}.json")
+        self.assertEqual(dossier["provenance"]["research_findings"], f"research/{self.slug}/findings.md")
+        self.assertIn("Canonical body.", json.dumps(dossier["research_findings"]))
+        self.assertEqual(len(dossier["profile_work"]["candidates"]), 6)
+        self.assertEqual(dossier["creation_status"], "identity_hold")
+        html = (self.root / f"www/people/{self.slug}.html").read_text()
+        self.assertIn("Canonical body.", html)
+        self.assertIn(self.draft.replace("<", "&lt;").replace(">", "&gt;"), html)
+
     def test_reconciles_existing_canonical_rows_without_duplicates(self):
         module.apply_creations(self.root)
         self.entry["assessment"] = "Revised, reviewed identity explanation."

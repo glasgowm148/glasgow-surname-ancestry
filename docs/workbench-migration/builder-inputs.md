@@ -270,8 +270,8 @@ analytics tags are also fixed.
 
 It stopped at the research gate, before `finalize`. The one new problem is
 research the other session had just committed:
-`research/subject-john-cameron-glasgow-infant-before-1846/` has publishable
-sections that no builder reads. Because the gate stopped it, the release had
+`research/record-john-cameron-glasgow-infant-before-1846/` now uses the canonical catalogue ID;
+its publishable sections are read by the targeted person builder. The former folder prefix was the release-gate failure. Because the gate stopped it, the release had
 left the atlas models without their approved DNA restoration. That was
 restored by hand (privacy check: 0 failures), and the release now repeats the
 DNA repair before the gate. The sitemap still lists one old census page

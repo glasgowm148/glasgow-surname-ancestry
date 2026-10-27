@@ -21,7 +21,7 @@ import json
 import re
 from typing import Any
 
-from genealogy.store import Research, stable_id
+from genealogy.store import Research, StaleRevisionError, StoreError, stable_id
 from genealogy.store.vocabulary import PROPOSAL_MAP, QUESTION_MAP, normalise
 
 ROW_TABLES = ("question", "search", "finding", "hypothesis", "proposal")
@@ -106,7 +106,8 @@ MODELLED_TABLE = {"qst": "question", "sch": "search", "fnd": "finding", "hyp": "
 def subject_of(relative: str, research: Research) -> str | None:
     parts = relative.split("/")
     if len(parts) == 3 and parts[0] == "research":
-        found = research.find_external("wikitree", parts[1])
+        found = (research.find_external("wikitree", parts[1])
+                 or research.find_external("glasgow-local", parts[1]))
         return found[0] if found else None
     return None
 
@@ -129,6 +130,14 @@ def frame_of(document: Any, spec: Spec) -> Any:
     return {key: (None if key in dict(spec.fields) else value) for key, value in document.items()}
 
 
+def row_identity(relative: str, field: str, index: int, key: str | None, row: Any) -> tuple:
+    if key is not None:
+        return field, "key", key
+    if relative.endswith("parent_candidates.json") and isinstance(row, dict) and row.get("id"):
+        return field, "id", row["id"]
+    return field, "index", index
+
+
 class Documents:
     def __init__(self, store):
         self.store = store
@@ -141,8 +150,40 @@ class Documents:
             frames.append({**json.loads(note["text"]), "note": note})
         return frames
 
+    def move_document(self, tx, old: str, new: str, expected_revision: int) -> None:
+        """Move a document frame while retaining row/entity IDs and history."""
+        old_frame = self.frame(old)
+        if not old_frame:
+            raise StoreError(f"no active held document: {old}")
+        if old_frame["note"]["revision"] != expected_revision:
+            note = old_frame["note"]
+            raise StaleRevisionError("note", note["id"], expected_revision, note["revision"],
+                                     {"document": old, "current": self.compose(old)})
+        if self.store.get("note", frame_id(new)) or not spec_for(old) or spec_for(old) != spec_for(new):
+            raise StoreError("destination exists or document specs are incompatible")
+        old_note = old_frame["note"]
+        tx.update("note", old_note["id"], {"kind": "document_frame_history",
+                                           "text": json.dumps({"document": old, "moved_to": new,
+                                                                "frame": old_frame["frame"],
+                                                                "recorded": json.loads(old_note["text"]).get("recorded", 0)},
+                                                               ensure_ascii=False)}, expected_revision=expected_revision)
+        subject = subject_of(new, self.research)
+        self.research.add_note(tx, id=frame_id(new), kind="document_frame", title=new,
+                               text=json.dumps({"document": new, "frame": old_frame["frame"], "recorded": 0},
+                                               ensure_ascii=False), links=[(subject, "about")] if subject else ())
+        for row in self.stored_rows(old):
+            entity = self.store.get(row["table"], row["entity"])
+            meta = {**row, "document": new}
+            meta.pop("entity", None); meta.pop("table", None); meta.pop("revision", None)
+            changes = {"text": json.dumps(meta, ensure_ascii=False)} if row["table"] == "note" else {
+                "extra_json": json.dumps({**json.loads(entity["extra_json"]), "document_row": meta},
+                                          ensure_ascii=False, sort_keys=True, separators=(",", ":"))}
+            tx.update(row["table"], row["entity"], changes, expected_revision=entity["revision"])
+
     def frame(self, relative: str) -> dict[str, Any] | None:
         note = self.store.get("note", frame_id(relative))
+        if note and note.get("kind") != "document_frame":
+            return None
         return {**json.loads(note["text"]), "note": note} if note else None
 
     def stored_rows(self, relative: str) -> list[dict[str, Any]]:
@@ -182,11 +223,14 @@ class Documents:
         return {frame["document"]: dump(self.compose(frame["document"])) for frame in self.frames()}
 
     # ------------------------------------------------------------ writing
-    def _annotate(self, tx, relative: str, field: str, index: int, key: str | None, row: Any) -> str:
+    def _annotate(self, tx, relative: str, field: str, index: int, key: str | None, row: Any, existing_lookup=None) -> str:
         meta = {"document": relative, "field": field, "index": index, "key": key,
                 "row_json": json.dumps(row, ensure_ascii=False)}
         target = modelled_entity(relative, field, index, key, row)
-        table = self.store.entity_type(target) if target else None
+        prior = (existing_lookup or {}).get(row_identity(relative, field, index, key, row))
+        if prior:
+            target, table = prior["entity"], prior["table"]
+        table = table if prior else (self.store.entity_type(target) if target else None)
         if target and table is None and self._can_model(target, row):
             table = self._create_modelled(tx, target, relative, row)
         if table in ROW_TABLES:
@@ -197,9 +241,10 @@ class Documents:
                                                     sort_keys=True, separators=(",", ":"))}
                 if extra.get("document_row") is not None:   # a recorded change: follow it in the modelled columns
                     changes.update(core_columns(table, row))
-                tx.update(table, target, changes)
+                tx.update(table, target, changes, expected_revision=entity["revision"])
             return target
-        note_id = stable_id("not", "document-row", relative, field, key if key is not None else index)
+        note_id = prior["entity"] if prior else stable_id("not", "document-row", relative, field,
+                                                        key if key is not None else index)
         text = json.dumps(meta, ensure_ascii=False)
         existing = self.store.get("note", note_id)
         if existing is None:
@@ -207,7 +252,7 @@ class Documents:
             self.research.add_note(tx, id=note_id, kind="document_row", title=f"{relative} {field} {key or index}",
                                    text=text, links=[(subject, "about")] if subject else ())
         elif existing["text"] != text:
-            tx.update("note", note_id, {"text": text})
+            tx.update("note", note_id, {"text": text}, expected_revision=existing["revision"])
         return note_id
 
     @staticmethod
@@ -248,9 +293,12 @@ class Documents:
         """Hold a document's rows and frame in the database (first import or a recorded change)."""
         spec = spec_for(relative)
         seen: set[str] = set()
+        existing_rows = self.stored_rows(relative)
+        lookup = {row_identity(relative, r["field"], r["index"], r.get("key"), json.loads(r["row_json"])): r
+                  for r in existing_rows}
         for field, index, key, row in rows_of(document, spec):
-            seen.add(self._annotate(tx, relative, field, index, key, row))
-        for row in self.stored_rows(relative):
+            seen.add(self._annotate(tx, relative, field, index, key, row, lookup))
+        for row in existing_rows:
             if row["entity"] not in seen and not row.get("removed"):
                 self._mark_removed(tx, row)
         note = self.store.get("note", frame_id(relative))
@@ -269,10 +317,12 @@ class Documents:
         if row["table"] == "note":
             note = self.store.get("note", row["entity"])
             meta = json.loads(note["text"])
-            tx.update("note", note["id"], {"text": json.dumps({**meta, "removed": True}, ensure_ascii=False)})
+            tx.update("note", note["id"], {"text": json.dumps({**meta, "removed": True}, ensure_ascii=False)},
+                      expected_revision=note["revision"])
         else:
             entity = self.store.get(row["table"], row["entity"])
             extra = json.loads(entity["extra_json"])
             extra["document_row"] = {**extra["document_row"], "removed": True}
             tx.update(row["table"], row["entity"], {"extra_json": json.dumps(extra, ensure_ascii=False, sort_keys=True,
-                                                                             separators=(",", ":"))})
+                                                                             separators=(",", ":"))},
+                      expected_revision=entity["revision"])

@@ -44,6 +44,16 @@ def ledger(project, inventory: dict) -> dict:
     assets: dict[str, set[str]] = {}
     for row in store.all("SELECT path, sha256 FROM asset WHERE root='repository'"):
         assets.setdefault(row["path"], set()).add(row["sha256"])
+    # An inventoried file may since have moved through the audited asset API.
+    # Keep its original hash covered while that exact asset version is retained.
+    for row in store.all("SELECT l.before_json, l.after_json, a.sha256 AS retained_sha256, "
+                         "a.root AS retained_root FROM audit_log l JOIN asset a ON a.id=l.row_id "
+                         "WHERE l.table_name='asset' AND l.action='update' AND l.before_json IS NOT NULL"):
+        before, after = json.loads(row["before_json"]), json.loads(row["after_json"])
+        if (before["root"] == after["root"] == row["retained_root"] == "repository"
+                and before["sha256"] == after["sha256"] == row["retained_sha256"]
+                and before["path"] != after["path"]):
+            assets.setdefault(before["path"], set()).add(before["sha256"])
     legacy = {row["input_path"] for row in store.all("SELECT DISTINCT input_path FROM legacy_item")}
     from tools.workbench_migrate import is_generated
     generated_paths = {item["path"] for item in inventory["files"] if is_generated(item["path"])}
@@ -62,11 +72,11 @@ def ledger(project, inventory: dict) -> dict:
         elif path in batches:
             actual = "imported into structured research"
             changed = digest is not None and batches[path] and digest not in batches[path]
+        elif planned == "derivative":
+            actual, changed = "replaced by a reproducible derivative", False
         elif path in assets:
             actual = "retained as referenced evidence or prose"
             changed = digest is not None and digest not in assets[path]
-        elif planned == "derivative":
-            actual, changed = "replaced by a reproducible derivative", False
         elif path in legacy:
             actual, changed = "preserved as unresolved legacy information", False
         elif planned == "excluded":

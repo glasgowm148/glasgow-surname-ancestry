@@ -40,6 +40,7 @@ from genealogy.store import Research, StaleRevisionError, StoreError, open_proje
 
 import workbench_legacy_views as views  # noqa: E402
 from workbench_documents import Documents, dump as document_dump, spec_for  # noqa: E402
+from workbench_asset_paths import relocate_research_assets  # noqa: E402
 from workbench_migrate import (  # noqa: E402
     Migration, extra_json, finding_columns, record_access, record_columns,
 )
@@ -182,14 +183,25 @@ def document_revision(project, relative: str) -> int:
 
 
 def record_document(project, relative: str, document: Any, *, expected_revision: int | None, actor: str,
-                    reason: str | None) -> dict[str, Any]:
+                    reason: str | None, move_from: str | None = None) -> dict[str, Any]:
     """Record an edited plan, candidate list or queue file, row by row, at the revision it was read."""
     if spec_for(relative) is None:
         raise StoreError(f"{relative} is not one of the documents held row by row")
     documents = Documents(project.store)
     frame = documents.frame(relative)
+    moved_assets = None
     with project.store.write(actor=actor, tool=f"{TOOL} document", source=relative, reason=reason) as tx:
-        if frame is not None:
+        if move_from:
+            if expected_revision is None:
+                raise StoreError("a document move needs the source document's --expected-revision")
+            prefix = str(Path(move_from).parent) + "/"
+            if any(f["document"].startswith(prefix) and f["document"] != move_from
+                   for f in documents.frames()):
+                raise StoreError("the source folder has other held documents; move them together before relocating assets")
+            documents.move_document(tx, move_from, relative, expected_revision)
+            moved_assets = relocate_research_assets(project, tx, str(Path(move_from).parent),
+                                                    str(Path(relative).parent))
+        elif frame is not None:
             current = project.store.get("note", frame["note"]["id"])
             if expected_revision is None:
                 raise StoreError(f"{relative} is at revision {current['revision']}; pass --expected-revision "
@@ -198,7 +210,12 @@ def record_document(project, relative: str, document: Any, *, expected_revision:
                 raise StaleRevisionError("note", current["id"], expected_revision, current["revision"],
                                          {"document": relative, "current": documents.compose(relative)})
         documents.store_document(tx, relative, document)
-    return {"document": relative, "revision": document_revision(project, relative), "created": frame is None}
+        if moved_assets:
+            migration = Migration(project, project.directory)
+            for path in sorted({row["path"] for row in moved_assets["moved"]}):
+                migration.asset(tx, path, kind="prose" if path.endswith(".md") else "data", access="private")
+    return {"document": relative, "revision": document_revision(project, relative), "created": frame is None,
+            **({"moved_from": move_from, "asset_versions_relocated": moved_assets["count"]} if moved_assets else {})}
 
 
 def regenerate(project, relative: str, root: Path) -> None:
@@ -225,6 +242,7 @@ def main(argv=None) -> int:
     doc.add_argument("--show", action="store_true", help="print the document's current revision only")
     doc.add_argument("--actor", default="research_entry")
     doc.add_argument("--reason")
+    doc.add_argument("--move-from", help="old held document path after git mv; expected revision belongs to this source")
     args = parser.parse_args(argv)
     try:
         readonly = args.command == "show" or (args.command == "document" and args.show)
@@ -236,7 +254,7 @@ def main(argv=None) -> int:
                     return 0
                 document = json.loads((args.project / relative).read_text(encoding="utf-8"))
                 result = record_document(project, relative, document, expected_revision=args.expected_revision,
-                                         actor=args.actor, reason=args.reason)
+                                         actor=args.actor, reason=args.reason, move_from=args.move_from)
                 (args.project / relative).write_text(document_dump(Documents(project.store).compose(relative)),
                                                      encoding="utf-8")
                 print(json.dumps(result, ensure_ascii=False))

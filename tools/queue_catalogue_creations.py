@@ -253,7 +253,8 @@ def _root_paths(root):
                    # The shell already has its new subject content. A renderer
                    # refresh here could replace it with a stale previous dossier.
                    (sync, "revise", lambda text: (text, False)),
-                   (catalogue, "PROJECT_ROOT", root)]
+                   (catalogue, "PROJECT_ROOT", root),
+                   (catalogue, "RESEARCH_DIR", root / "research")]
     old = [(module, key, getattr(module, key)) for module, key, _ in assignments]
     try:
         for module, key, value in assignments:
@@ -306,17 +307,26 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     links.update({d["id"]: slug for slug, d in dossiers.items()})
     audits = reviewed_audits(root, catalogue_ids)
     with _root_paths(root) as cases:
+        # A maintained canonical findings file supersedes the manifest's
+        # short creation conclusion.  Load it through the public-privacy
+        # projection so creation pages cannot expose private material.
+        from public_privacy import from_sources
+        policy = from_sources(_read(root / "data/wikitree/profile-evidence.json", {}),
+                              profiles={}, all_exports=True)
         for person in people:
             slug = person["catalogue_id"]
             dossier = dossiers[slug]
             update = creation_update(person)
-            findings = [{"profile_id": person["creation_subject_id"], "updated": audits[slug]["reviewed_at"], "sections": [
+            findings = policy.project(catalogue._load_research_findings([slug]))
+            if not findings:
+                findings = [{"profile_id": person["creation_subject_id"], "updated": audits[slug]["reviewed_at"], "sections": [
                 {"title": "Current conclusion", "category": "conclusion", "markdown": person["creation_assessment"]},
                 {"title": "Source findings", "category": "sources", "markdown": "\n\n".join(
                     f"[{r['source_title']}]({r['source_url']}) — {r.get('year') or 'Undated'}; {r.get('record_location') or 'place not established'}. {r.get('association') or ''} {r.get('note') or ''}" for r in person["records"])}]}]
+            finding_source = next((f.get("source_path") for f in findings if f.get("source_path")), str(MANIFEST))
             dossier.update(research_findings=findings, profile_work=audits[slug], pending_profile_creation=True,
                            creation_ready=person["creation_ready"], creation_status=person["creation_status"], wikitree_update=update, similar_people=[], potential_parentage={})
-            dossier["provenance"]["research_findings"] = str(MANIFEST)
+            dossier["provenance"]["research_findings"] = finding_source
             if person["creation_historical_basis"]:
                 dossier["historical_basis"] = deepcopy(person["creation_historical_basis"])
             _write(web / f"people/{slug}.json", dossier)
