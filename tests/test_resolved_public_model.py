@@ -82,8 +82,16 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         self.assertEqual(claim[key], row[key])
                     html_row = page.select_one(f'#family tr[data-claim-id="{aid}"]')
                     self.assertIsNotNone(html_row)
-                    # Pages show the curated label in the canonical vocabulary (tools/evidence_labels.py).
+                    # Inactive hypotheses must remain visibly separate, with
+                    # their actual grade and percentage still inspectable.
                     label = evidence_labels.normalise_status_label(row["status"], row["status_label"])
+                    inactive = (row.get('display') in {'alternative', 'historical', 'superseded'}
+                                or row.get('lifecycle') in {'alternative', 'historical', 'superseded'})
+                    family_group = html_row.find_parent(attrs={'data-group': True})
+                    self.assertIsNotNone(family_group)
+                    self.assertEqual(inactive, family_group['data-group'].startswith('alternative-'))
+                    if inactive:
+                        label = f'Earlier or alternative {row["relationship"]} · {evidence_labels.label(row["status"])}'
                     if group == 'parents':
                         label = re.sub(r'\s*·\s*\d+%$', '', label)
                         label += ' · ' + percentage_text(row['probability'])

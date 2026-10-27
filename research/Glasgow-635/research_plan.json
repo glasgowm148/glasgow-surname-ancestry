@@ -47,29 +47,45 @@
       "updated_at": "2026-08-07T09:43:10Z"
     }
   ],
-  "web_searches": [],
+  "web_searches": [
+    {
+      "query": "Munimenta Alme Universitatis Glasguensis, Index Nominum: Glasgow / Glasgu / Glasgwe / Glascw / Glasco",
+      "date": "2026-10-27",
+      "site": "University of Glasgow archive guide and digitized published index",
+      "result": "The heading mixes Glasgow place/office references with surname entries. Patricius appears as episcopus/archiepiscopus de (an office/place reference), not an identified student surnamed Glasgow. Andrew, Archibaldus, Joannes, Jacobus, Nathaniel and Stephanus appear as other indexed name leads; no identification with the Maryland minister or selected father is made.",
+      "outcome": "partial",
+      "limitation": "No claim that Patrick never studied or is absent from all university records. The official University guide warns that early attendance may leave no matriculation/graduation record.",
+      "private_receipt": "data/private/workbench/review/parent-next-sources-20261027/university-visual-reading.json"
+    }
+  ],
   "research_state": {
     "disposition": "awaiting_source",
     "reviewed": "2026-10-27",
-    "last_test": "Visually read the original Gazette notice on MSA M1279 frame 264 and the issue no. 411 masthead on frame 262: Thursday, 22 March 1753. The notice’s “Thursday last” yields a reported death on 15 March 1753. No age, origin, parent or kin is stated.",
-    "next_test": "Locate contemporary licensing or ordination minutes, a university entry, or a parish or estate record naming the minister’s origin, education, parent or relative; compare it with the 1700 West Kilbride child.",
+    "last_test": "Visually inspected the published Munimenta index, printed pp.55–56 (PDF167–168), under Glasgow and its listed variants. The Patricius entry refers to a bishop/archbishop of Glasgow, not an identified student surname. No minister or parent was identified in these two pages; individual register entries were not examined.",
+    "next_test": "Locate an identifiable ordination, education or parish record for the All Hallows rector that names origin, a parent or a relative. Query the actual CCEd person/event search when accessible; the public form returned HTTP503 in this access test. Related synod records may be needed for the reported gap in presbytery minutes.",
     "resume_when": "An original or full source reading provides an education, origin, named relative or other identifier distinguishing the Maryland minister from the 1700 West Kilbride child.",
-    "review_conclusion": "The contemporary notice resolves the death-date conflict in favour of 15 March 1753. Retain John Glasgow-3161 at 26% uncertain and son James-634 at 95%; there is no childhood bridge or new parent evidence.",
+    "review_conclusion": "The university index check supplies no new parent evidence and does not exclude attendance or any retained childhood candidate. John Glasgow-3161 remains at 26% uncertain and James-634 at 95%; the reported death date remains 15 March 1753.",
     "source_locators": [
       "research/Glasgow-635/findings.md",
       "https://ephesians515.com/PDFs%20and%20Word%20Docs/Makemie/HistoryOfNewCastlePresbytery.pdf",
       "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html",
-      "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0262.html"
+      "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0262.html",
+      "https://www.gla.ac.uk/myglasgow/archivespecialcollections/discover/university/student/",
+      "https://archive.org/details/munimentaalmeuni00mait/page/n167/mode/1up"
     ],
-    "scope": "Original death notice and issue masthead inspected; no new natal record or relationship reassessment.",
+    "scope": "Two published index pages visually inspected; separate catalogue/access scouts are not original-record negative searches.",
     "prior_tests": [
       {
         "reviewed": "2026-10-27",
         "test": "Checked a published New Castle Presbytery history through indexed/OCR text: the 1736 Manokin ministry is described, but no parent or childhood identifier was located. No underlying page image was freshly inspected."
+      },
+      {
+        "reviewed": "2026-10-27",
+        "test": "Visually read the original Gazette notice on MSA M1279 frame 264 and the issue no. 411 masthead on frame 262: Thursday, 22 March 1753. The notice’s “Thursday last” yields a reported death on 15 March 1753. No age, origin, parent or kin is stated."
       }
     ]
   },
-  "last_test": "Visually read the original Gazette notice on MSA M1279 frame 264 and the issue no. 411 masthead on frame 262: Thursday, 22 March 1753. The notice’s “Thursday last” yields a reported death on 15 March 1753. No age, origin, parent or kin is stated.",
-  "next_test": "Locate contemporary licensing or ordination minutes, a university entry, or a parish or estate record naming the minister’s origin, education, parent or relative; compare it with the 1700 West Kilbride child.",
+  "last_test": "Visually inspected the published Munimenta index, printed pp.55–56 (PDF167–168), under Glasgow and its listed variants. The Patricius entry refers to a bishop/archbishop of Glasgow, not an identified student surname. No minister or parent was identified in these two pages; individual register entries were not examined.",
+  "next_test": "Locate an identifiable ordination, education or parish record for the All Hallows rector that names origin, a parent or a relative. Query the actual CCEd person/event search when accessible; the public form returned HTTP503 in this access test. Related synod records may be needed for the reported gap in presbytery minutes.",
   "resume_when": "An original or full source reading provides an education, origin, named relative or other identifier distinguishing the Maryland minister from the 1700 West Kilbride child."
 }
