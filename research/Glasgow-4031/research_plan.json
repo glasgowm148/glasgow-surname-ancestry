@@ -40,5 +40,22 @@
       "updated_at": "2026-09-10T00:29:17Z"
     }
   ],
-  "web_searches": []
+  "web_searches": [],
+  "research_state": {
+    "disposition": "awaiting_source",
+    "reviewed": "2026-10-27",
+    "last_test": "Reviewed the held 1828 Drumgreenagh John Glasgow probate-index lead and existing family account; no court, grant type, administrator or upstream parent clause was inspected.",
+    "next_test": "Obtain the underlying PRONI index image/reference and any surviving copy or abstract; establish the recorded John’s identity before using a kin clause for his own parents.",
+    "resume_when": "An exact index detail, surviving estate text or independent parent-naming record becomes accessible.",
+    "review_conclusion": "John-4031’s own father remains unknown. The 64% hypothesis concerns downstream John-3439 as his child; it is not a percentage for John-4031’s father. Do not infer will versus administration or a death date from the unresolved index.",
+    "source_locators": [
+      "research/Glasgow-4031/Glasgow-4031.md",
+      "research/Glasgow-3439/findings.md",
+      "https://www.proni.gov.uk/name-search"
+    ],
+    "scope": "Bounded held-source review or access test only; no new original inspection and no relationship reassessment."
+  },
+  "last_test": "Reviewed the held 1828 Drumgreenagh John Glasgow probate-index lead and existing family account; no court, grant type, administrator or upstream parent clause was inspected.",
+  "next_test": "Obtain the underlying PRONI index image/reference and any surviving copy or abstract; establish the recorded John’s identity before using a kin clause for his own parents.",
+  "resume_when": "An exact index detail, surviving estate text or independent parent-naming record becomes accessible."
 }

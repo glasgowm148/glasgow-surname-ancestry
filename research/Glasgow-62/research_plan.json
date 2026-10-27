@@ -2,13 +2,41 @@
   "profile_id": "Glasgow-62",
   "research_state": {
     "disposition": "ready",
-    "reviewed": "2026-10-26",
-    "last_test": "Bounded held-source and reciprocal family-account review; no changed parent identification.",
-    "next_test": "Locate Library of Virginia reel 79 (Marriage Bonds 1814–1816, no index) / corresponding FamilySearch film and read 22 December 1815 Robert Eudaley–Elizabeth Glasgow bond plus attached consent/signatures; compare with James’s household and 21 October 1818 bond (LVA reel 80 covers 1816–1820).",
-    "resume_when": "Parent browser owner can inspect this exact 1815 original; a consent identifying Elizabeth’s father must then be linked to James by independent household/kinship evidence before selecting Robert.",
-    "review_conclusion": "No held kinship statement identifies James’s father. The Robert bondsman at Elizabeth’s 1815 marriage remains a local associate; neither Elizabeth’s siblinghood with James nor Robert’s fatherhood is established. Existing contributed Robert/Sarah dates do not repair these gaps. Official catalogue now gives a specific original-film target, an operational locator rather than genealogical evidence.",
-    "review_source": "research/ancestry-connections/parent-confidence-review-2026-10-26.md"
+    "reviewed": "2026-10-27",
+    "last_test": "Confirmed the official LVA original-film route: reel 79, marriage bonds 1814–1816, and reel 80, 1816–1820; both have no index. The original bond and consent remain unread. Existing FamilySearch browser access is waiting for the user to handle a Chrome security warning. Completed exact LVA chancery surname searches and inspected all five descriptions plus only the first two of 89 images in case 143-1841-001; no identified James or parent statement.",
+    "next_test": "Read the remaining 1841-001 manuscript and locate its Glasgow reference; then inspect 1853-005 and 1854-055. Establish the named individual and role before comparing James’s household or drawing kinship conclusions. Retain the separate 1815/1818 original marriage-bond tests.",
+    "resume_when": "Public chancery manuscript images are accessible now through the official case manifest; continue this source reading without repeating the index search. FamilySearch marriage-bond access remains separately pending the browser warning.",
+    "review_conclusion": "James’s father remains unknown. Robert Glasgow as Elizabeth’s bondsman is a local associate, not a proved father or proof that Elizabeth and James were siblings. FamilySearch DGS numbers inferred from neighbouring films are unverified and are not adopted.",
+    "source_locators": [
+      "research/Glasgow-62/findings.md",
+      "https://www.lva.virginia.gov/collections/ccmf/VA/VA213",
+      "https://www.familysearch.org/search/catalog/1152970",
+      "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1841-001",
+      "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1853-005",
+      "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1854-055"
+    ],
+    "scope": "Index search, five case descriptions, archive cover and one opening manuscript page only. No full case reading, person match, parent inference or relationship reassessment."
   },
-  "last_test": "Bounded held-source and reciprocal family-account review; no changed parent identification.",
-  "next_test": "Locate Library of Virginia reel 79 (Marriage Bonds 1814–1816, no index) / corresponding FamilySearch film and read 22 December 1815 Robert Eudaley–Elizabeth Glasgow bond plus attached consent/signatures; compare with James’s household and 21 October 1818 bond (LVA reel 80 covers 1816–1820)."
+  "last_test": "Confirmed the official LVA original-film route: reel 79, marriage bonds 1814–1816, and reel 80, 1816–1820; both have no index. The original bond and consent remain unread. Existing FamilySearch browser access is waiting for the user to handle a Chrome security warning. Completed exact LVA chancery surname searches and inspected all five descriptions plus only the first two of 89 images in case 143-1841-001; no identified James or parent statement.",
+  "next_test": "Read the remaining 1841-001 manuscript and locate its Glasgow reference; then inspect 1853-005 and 1854-055. Establish the named individual and role before comparing James’s household or drawing kinship conclusions. Retain the separate 1815/1818 original marriage-bond tests.",
+  "resume_when": "Public chancery manuscript images are accessible now through the official case manifest; continue this source reading without repeating the index search. FamilySearch marriage-bond access remains separately pending the browser warning.",
+  "web_searches": [
+    {
+      "date": "2026-10-27",
+      "query": "LVA Chancery Records Index: LOC=PITTSYLVANIA CO; sn1select=Exact; surname1=Glasgow, then Glasco; intPage=1; Submit=Search",
+      "source_url": "https://old.lva.virginia.gov/chancery/",
+      "result": "Exact Glasgow returned all four results: 143-1841-001, 143-1853-005, 143-1854-055, 143-1866-041. Exact Glasco returned one: 143-1838-011. All five case descriptions were read. The last two describe Glasgow (Enslaved) and Glasco (Enslaved), respectively; the other three list Glasgow as a surname without identifying a Glasgow plaintiff or defendant. No subject is identified as James Glasgow-62 or his kin.",
+      "inspection_scope": "Official index and case metadata. For 143-1841-001, visually inspected image 0001 (archive cover) and image 0002 (opening bill) only, of 89 images. The opening bill concerns James M Sutherlin and Martha his wife and her guardian Armistead G Weir; no Glasgow person was identified on these two pages. This is not a complete case reading or a negative search of all text.",
+      "case_urls": [
+        "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1841-001",
+        "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1853-005",
+        "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1854-055",
+        "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1866-041",
+        "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1838-011"
+      ],
+      "source_receipt": "data/private/workbench/review/network-source-tests-20261026/lva-chancery-20261027.json",
+      "status": "complete",
+      "next_test": "Read the remaining 1841-001 manuscript and locate its Glasgow reference; then inspect 1853-005 and 1854-055. Establish the named individual and role before comparing James’s household or drawing kinship conclusions."
+    }
+  ]
 }
