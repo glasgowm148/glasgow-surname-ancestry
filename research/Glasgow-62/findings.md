@@ -16,7 +16,9 @@ James says that in 1836 he heard Weir say he had bought fodder from Sutherlin; h
 
 The name and court locality fit this James, whose held profile cites an 1840 Pittsylvania census, but the manuscript supplies **no age, occupation, residence, spouse or parent** to establish the match. Retain Glasgow-62 as a compatible candidate. The separate Virginia-born [James M. Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193) and [James William Glasgow-2925](https://www.wikitree.com/wiki/Glasgow-2925) have held Ohio and Tennessee household accounts; those locations alone do not exclude a temporary Danville appearance. No duplicate person or new family connection is proposed.
 
-Images 1–30 of the 89-image case were visually reviewed in this batch; the Glasgow deposition is on images 20–22. The remainder has not been read, so this is not a complete-case absence claim. The original marriage bonds and any parent-naming consent remain the next direct tests of James’s father.
+A [notice dated 6 April 1840](https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0034.pdf) names James Glasgow and Roderick R. Hudnall and schedules their depositions for Wednesday the 8th at the National Hotel in Danville. It corroborates the date and venue of the already inspected testimony; it is not a second May appearance and adds no family identifier.
+
+Across the initial and follow-up batches, **84 of the case’s 89 scans were visually reviewed**. Images **46, 47, 57, 58 and 61 remain unread** after rendering failures; faint or damaged writing elsewhere further limits negative conclusions. A background-only extraction from image 46 was not counted as a reading. Suspected Glasgow readings on images 78–80 were checked against the images and rejected as Haynes or Sutherlin. No complete-case absence claim is made. The original marriage bonds, signature comparison and any parent-naming consent remain the next direct tests of James’s identity and father.
 
 ## Pittsylvania death and parent-claim review — 23 October 2026
 

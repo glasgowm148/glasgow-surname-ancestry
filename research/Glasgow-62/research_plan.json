@@ -3,9 +3,9 @@
   "research_state": {
     "disposition": "ready",
     "reviewed": "2026-10-27",
-    "last_test": "Visually reviewed LVA case 143-1841-001 images 1–30. Located the James Glasgow deposition wrapper on image 20 and complete testimony/attestation on images 21–22, dated 8 April 1840 at the National Hotel, Danville. Root verified those three images; other assigned pages were independently read by workers. No age, occupation, residence, spouse or parent identifies this witness with the cooper.",
-    "next_test": "Read images 31–89 for further Glasgow identifiers. Compare the 1840 Pittsylvania census household and the original 1818 James Glasgow/Susanna High bond/signatures with the witness; retain the separate 1815 Eudaley/Elizabeth Glasgow consent test and its missing sibling bridge.",
-    "resume_when": "The remaining chancery images are publicly accessible now. Resume at image 31 without repeating the index query. The marriage-bond route remains separately pending the existing Chrome security-warning handoff; an anonymous catalogue request returned HTTP 403 and was not treated as a record absence.",
+    "last_test": "Follow-up review attempted all 89 scans of LVA case 143-1841-001. A total of 84 were visually reviewed across the two batches; 46, 47, 57, 58 and 61 remain unread after render failures. Parent verified the 6 April 1840 notice on image 34, scheduling James Glasgow and Roderick R. Hudnall at the National Hotel for Wednesday 8 April. Potential Glasgow readings on images 78–80 were rejected after parent review: Haynes/Sutherlin, not Glasgow.",
+    "next_test": "Read the five excluded scans through a different available viewer when access changes; do not repeat failed render attempts. Prioritise the original 1818 James Glasgow/Susanna High bond and signatures against the deposition signature, with the 1815 Eudaley/Elizabeth Glasgow consent and the missing sibling bridge as a separate test. The other indexed chancery cases remain distinct source tests.",
+    "resume_when": "The inspected scans and original PDFs are retained. Five case scans need a working alternate viewer. The existing Chrome security-warning handoff still gates the separate FamilySearch marriage-bond route; no negative record claim follows from that access failure.",
     "review_conclusion": "The original record establishes a James Glasgow deponent, not his identity as Glasgow-62 or his parents. Glasgow-62 remains a compatible candidate; the new record attribution is explicitly candidate. His father remains unknown and structured vital fields and father claims are unchanged.",
     "source_locators": [
       "research/Glasgow-62/findings.md",
@@ -15,13 +15,32 @@
       "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1853-005",
       "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1854-055",
       "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0021.pdf",
-      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0022.pdf"
+      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0022.pdf",
+      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0034.pdf"
     ],
-    "scope": "Images 1–30 of 89 visually reviewed for names/context; only the complete Glasgow entry on images 20–22 is used for the new source account. No complete-case absence claim, new person, parent attachment or confidence change."
+    "scope": "84 of 89 case scans visually reviewed, with legibility limits; images 46, 47, 57, 58 and 61 excluded. No complete-case absence, new person, parent attachment, vital-field edit or confidence change. The notice corroborates the existing deposition date and venue only.",
+    "reading_scope": {
+      "visually_reviewed_count": 84,
+      "unread_images": [
+        46,
+        47,
+        57,
+        58,
+        61
+      ],
+      "parent_verified_followup_images": [
+        34,
+        44,
+        78,
+        79,
+        80
+      ],
+      "limits": "Worker receipts identify faint or damaged portions; inspection is not a complete diplomatic transcription. Background-only extraction from image 46 is not a page reading."
+    }
   },
-  "last_test": "Visually reviewed LVA case 143-1841-001 images 1–30. Located the James Glasgow deposition wrapper on image 20 and complete testimony/attestation on images 21–22, dated 8 April 1840 at the National Hotel, Danville. Root verified those three images; other assigned pages were independently read by workers. No age, occupation, residence, spouse or parent identifies this witness with the cooper.",
-  "next_test": "Read images 31–89 for further Glasgow identifiers. Compare the 1840 Pittsylvania census household and the original 1818 James Glasgow/Susanna High bond/signatures with the witness; retain the separate 1815 Eudaley/Elizabeth Glasgow consent test and its missing sibling bridge.",
-  "resume_when": "The remaining chancery images are publicly accessible now. Resume at image 31 without repeating the index query. The marriage-bond route remains separately pending the existing Chrome security-warning handoff; an anonymous catalogue request returned HTTP 403 and was not treated as a record absence.",
+  "last_test": "Follow-up review attempted all 89 scans of LVA case 143-1841-001. A total of 84 were visually reviewed across the two batches; 46, 47, 57, 58 and 61 remain unread after render failures. Parent verified the 6 April 1840 notice on image 34, scheduling James Glasgow and Roderick R. Hudnall at the National Hotel for Wednesday 8 April. Potential Glasgow readings on images 78–80 were rejected after parent review: Haynes/Sutherlin, not Glasgow.",
+  "next_test": "Read the five excluded scans through a different available viewer when access changes; do not repeat failed render attempts. Prioritise the original 1818 James Glasgow/Susanna High bond and signatures against the deposition signature, with the 1815 Eudaley/Elizabeth Glasgow consent and the missing sibling bridge as a separate test. The other indexed chancery cases remain distinct source tests.",
+  "resume_when": "The inspected scans and original PDFs are retained. Five case scans need a working alternate viewer. The existing Chrome security-warning handoff still gates the separate FamilySearch marriage-bond route; no negative record claim follows from that access failure.",
   "web_searches": [
     {
       "date": "2026-10-27",
@@ -48,6 +67,26 @@
       "scope": "Bounded image-reading task, not a complete reading of all 89 images",
       "record_id": "pittsylvania-james-glasgow-deposition-1840",
       "next_test": "Read images 31–89 for further Glasgow identifiers. Compare the 1840 Pittsylvania census household and the original 1818 James Glasgow/Susanna High bond/signatures with the witness; retain the separate 1815 Eudaley/Elizabeth Glasgow consent test and its missing sibling bridge."
+    },
+    {
+      "date": "2026-10-27",
+      "query": "Read the remaining 143-1841-001 scans for identifiers of James Glasgow",
+      "result": "Image 34 is a 6 April notice scheduling the already inspected 8 April deposition. No further identity or parentage evidence was established in readable portions; five scans remain unread. Suspected late-page surname hits were rejected after parent image review.",
+      "status": "partial",
+      "scope": "Images 31–89 attempted; 54 of these 59 scanned pages visually reviewed, five excluded. With the earlier batch, 84 of 89 reviewed.",
+      "unread_images": [
+        46,
+        47,
+        57,
+        58,
+        61
+      ],
+      "source_receipts": [
+        "data/private/workbench/review/network-source-tests-20261026/chancery-source-pages-0031-0050-20261027.json",
+        "data/private/workbench/review/network-source-tests-20261026/chancery-source-pages-0051-0070-20261027.json",
+        "data/private/workbench/review/network-source-tests-20261026/chancery-source-pages-0071-0089-20261027.json"
+      ],
+      "next_test": "Read the five excluded scans through a different available viewer when access changes; do not repeat failed render attempts. Prioritise the original 1818 James Glasgow/Susanna High bond and signatures against the deposition signature, with the 1815 Eudaley/Elizabeth Glasgow consent and the missing sibling bridge as a separate test. The other indexed chancery cases remain distinct source tests."
     }
   ]
 }
