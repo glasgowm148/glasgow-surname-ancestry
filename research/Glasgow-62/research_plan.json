@@ -3,23 +3,25 @@
   "research_state": {
     "disposition": "ready",
     "reviewed": "2026-10-27",
-    "last_test": "Confirmed the official LVA original-film route: reel 79, marriage bonds 1814–1816, and reel 80, 1816–1820; both have no index. The original bond and consent remain unread. Existing FamilySearch browser access is waiting for the user to handle a Chrome security warning. Completed exact LVA chancery surname searches and inspected all five descriptions plus only the first two of 89 images in case 143-1841-001; no identified James or parent statement.",
-    "next_test": "Read the remaining 1841-001 manuscript and locate its Glasgow reference; then inspect 1853-005 and 1854-055. Establish the named individual and role before comparing James’s household or drawing kinship conclusions. Retain the separate 1815/1818 original marriage-bond tests.",
-    "resume_when": "Public chancery manuscript images are accessible now through the official case manifest; continue this source reading without repeating the index search. FamilySearch marriage-bond access remains separately pending the browser warning.",
-    "review_conclusion": "James’s father remains unknown. Robert Glasgow as Elizabeth’s bondsman is a local associate, not a proved father or proof that Elizabeth and James were siblings. FamilySearch DGS numbers inferred from neighbouring films are unverified and are not adopted.",
+    "last_test": "Visually reviewed LVA case 143-1841-001 images 1–30. Located the James Glasgow deposition wrapper on image 20 and complete testimony/attestation on images 21–22, dated 8 April 1840 at the National Hotel, Danville. Root verified those three images; other assigned pages were independently read by workers. No age, occupation, residence, spouse or parent identifies this witness with the cooper.",
+    "next_test": "Read images 31–89 for further Glasgow identifiers. Compare the 1840 Pittsylvania census household and the original 1818 James Glasgow/Susanna High bond/signatures with the witness; retain the separate 1815 Eudaley/Elizabeth Glasgow consent test and its missing sibling bridge.",
+    "resume_when": "The remaining chancery images are publicly accessible now. Resume at image 31 without repeating the index query. The marriage-bond route remains separately pending the existing Chrome security-warning handoff; an anonymous catalogue request returned HTTP 403 and was not treated as a record absence.",
+    "review_conclusion": "The original record establishes a James Glasgow deponent, not his identity as Glasgow-62 or his parents. Glasgow-62 remains a compatible candidate; the new record attribution is explicitly candidate. His father remains unknown and structured vital fields and father claims are unchanged.",
     "source_locators": [
       "research/Glasgow-62/findings.md",
       "https://www.lva.virginia.gov/collections/ccmf/VA/VA213",
       "https://www.familysearch.org/search/catalog/1152970",
       "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1841-001",
       "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1853-005",
-      "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1854-055"
+      "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1854-055",
+      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0021.pdf",
+      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0022.pdf"
     ],
-    "scope": "Index search, five case descriptions, archive cover and one opening manuscript page only. No full case reading, person match, parent inference or relationship reassessment."
+    "scope": "Images 1–30 of 89 visually reviewed for names/context; only the complete Glasgow entry on images 20–22 is used for the new source account. No complete-case absence claim, new person, parent attachment or confidence change."
   },
-  "last_test": "Confirmed the official LVA original-film route: reel 79, marriage bonds 1814–1816, and reel 80, 1816–1820; both have no index. The original bond and consent remain unread. Existing FamilySearch browser access is waiting for the user to handle a Chrome security warning. Completed exact LVA chancery surname searches and inspected all five descriptions plus only the first two of 89 images in case 143-1841-001; no identified James or parent statement.",
-  "next_test": "Read the remaining 1841-001 manuscript and locate its Glasgow reference; then inspect 1853-005 and 1854-055. Establish the named individual and role before comparing James’s household or drawing kinship conclusions. Retain the separate 1815/1818 original marriage-bond tests.",
-  "resume_when": "Public chancery manuscript images are accessible now through the official case manifest; continue this source reading without repeating the index search. FamilySearch marriage-bond access remains separately pending the browser warning.",
+  "last_test": "Visually reviewed LVA case 143-1841-001 images 1–30. Located the James Glasgow deposition wrapper on image 20 and complete testimony/attestation on images 21–22, dated 8 April 1840 at the National Hotel, Danville. Root verified those three images; other assigned pages were independently read by workers. No age, occupation, residence, spouse or parent identifies this witness with the cooper.",
+  "next_test": "Read images 31–89 for further Glasgow identifiers. Compare the 1840 Pittsylvania census household and the original 1818 James Glasgow/Susanna High bond/signatures with the witness; retain the separate 1815 Eudaley/Elizabeth Glasgow consent test and its missing sibling bridge.",
+  "resume_when": "The remaining chancery images are publicly accessible now. Resume at image 31 without repeating the index query. The marriage-bond route remains separately pending the existing Chrome security-warning handoff; an anonymous catalogue request returned HTTP 403 and was not treated as a record absence.",
   "web_searches": [
     {
       "date": "2026-10-27",
@@ -37,6 +39,15 @@
       "source_receipt": "data/private/workbench/review/network-source-tests-20261026/lva-chancery-20261027.json",
       "status": "complete",
       "next_test": "Read the remaining 1841-001 manuscript and locate its Glasgow reference; then inspect 1853-005 and 1854-055. Establish the named individual and role before comparing James’s household or drawing kinship conclusions."
+    },
+    {
+      "date": "2026-10-27",
+      "query": "Visually read LVA Pittsylvania 1841-001 images 1–30 to locate the indexed Glasgow reference",
+      "result": "James Glasgow deposition located on images 20–22, sworn 8 April 1840, National Hotel, Danville. He reports hearing Weir describe a fodder purchase from Sutherlin and estimates a stack value. Hudnall is a separate witness. Candidate identity with Glasgow-62 remains unproved; no parent named in James’s testimony.",
+      "status": "complete",
+      "scope": "Bounded image-reading task, not a complete reading of all 89 images",
+      "record_id": "pittsylvania-james-glasgow-deposition-1840",
+      "next_test": "Read images 31–89 for further Glasgow identifiers. Compare the 1840 Pittsylvania census household and the original 1818 James Glasgow/Susanna High bond/signatures with the witness; retain the separate 1815 Eudaley/Elizabeth Glasgow consent test and its missing sibling bridge."
     }
   ]
 }

@@ -59475,6 +59475,34 @@
       ],
       "detail_url": "/people/record-john-cameron-glasgow-infant-before-1846.html",
       "relationship_changes": []
+    },
+    {
+      "id": "james-danville-deposition-20261027",
+      "found_on": "2026-10-27",
+      "reviewed_on": "2026-10-27",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-62.html",
+      "finding": "An original deposition names and bears the signature of James Glasgow at Danville's National Hotel on 8 April 1840. He discusses hearing of a 1836 fodder purchase in the Sutherlin–Weir chancery case.",
+      "qualification": "The Pittsylvania cooper Glasgow-62 is a compatible candidate, not a proved identification. The testimony gives no age, occupation, residence, spouse or parent. It establishes no new father, exact vital date or confidence change. The case is indexed under 1841, while the deposition itself is dated 1840.",
+      "people": [
+        {
+          "id": "Glasgow-62",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-62.html",
+          "role": "Compatible candidate for the 1840 deponent; identity unconfirmed"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Library of Virginia, Pittsylvania chancery 1841-001, image 21, James Glasgow deposition",
+          "url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0021.pdf"
+        },
+        {
+          "title": "Same case, image 22, attestation dated 8 April 1840",
+          "url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0022.pdf"
+        }
+      ]
     }
   ]
 }

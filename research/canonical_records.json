@@ -46266,5 +46266,32 @@
     "publish_to_record_index": true,
     "documentary_group": "crawford-mary-robert-isabel-1767",
     "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "pittsylvania-james-glasgow-deposition-1840",
+    "record_type": "Chancery deposition",
+    "date": "1840-04-08",
+    "year": 1840,
+    "country": "united states",
+    "place": "National Hotel, Danville, Virginia, United States",
+    "person": "James Glasgow, deponent",
+    "association": "James Glasgow testifies about hearing Armistead G. Weir describe a 1836 fodder purchase from James M. Sutherlin; compatible but unproved identity with the Pittsylvania cooper Glasgow-62.",
+    "source_title": "Library of Virginia, Pittsylvania chancery case 1841-001, images 20–22: James Glasgow deposition, 8 April 1840",
+    "source_url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0021.pdf",
+    "source_type": "Original manuscript deposition and attestation, digital scans",
+    "source_quality": "original_image_inspected",
+    "source_status": "Original images 20–22 visually inspected 27 October 2026; image 21 contains James's testimony and signature, image 22 its attestation and Hudnall's separate testimony.",
+    "status": "Named and signed James Glasgow; sworn at the National Hotel, Danville, 8 April 1840. No age, occupation, residence, spouse or parent is supplied for him.",
+    "assessment": "The deponent is a compatible candidate for Glasgow-62, whose held account cites an 1840 Pittsylvania census. The manuscript contains no individual family or occupational identifier establishing that match. Separate Virginia-born James-193 and James-2925 have Ohio/Tennessee household accounts, but geography alone does not exclude travel. James is a witness, not a stated buyer or seller. No parentage or vital-field change is made; no duplicate person is created.",
+    "profiles": {
+      "Glasgow-62": {
+        "role": "Candidate identity for the named deponent; identification with this cooper remains unproved",
+        "identity_status": "candidate"
+      }
+    },
+    "reviewed": "2026-10-27",
+    "reviewed_on": "2026-10-27",
+    "provenance": "research/Glasgow-62/findings.md",
+    "publish_to_record_index": true
   }
 ]
