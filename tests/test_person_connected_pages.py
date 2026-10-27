@@ -255,7 +255,7 @@ class RepairIndexTests(unittest.TestCase):
             calls = []
             with (
                 patch.object(renderer, "WEB", web),
-                patch.object(renderer, "publish", side_effect=lambda site: calls.append("publish")),
+                patch.object(renderer, "publish", side_effect=lambda site, **_: calls.append("publish")),
                 patch.object(renderer, "_refresh_reviewed_parentage", return_value=None),
                 patch("tools.build_backlinks.write_index", side_effect=lambda site: calls.append(("index", site))),
                 patch("tools.catalogue_location_search.refresh_search_indexes", return_value=0),

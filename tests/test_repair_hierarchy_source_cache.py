@@ -49,7 +49,7 @@ class RepairSourceCacheTests(unittest.TestCase):
         records = hierarchy._canonical_records
         assessments = hierarchy._relationship_assessments
 
-        def fail(_web):
+        def fail(_web, **_):
             self.assertIsNot(hierarchy._canonical_records, records)
             self.assertIsNot(hierarchy._relationship_assessments, assessments)
             raise RuntimeError("stopped")
