@@ -1112,14 +1112,14 @@ def _evidence_questions(editorial: dict, rows: list[dict], source_by_record: dic
     return "".join(out) or '<p class="dossier-empty">No research questions have been written up for this person yet.</p>'
 
 
-def _timeline_html(profile_id: str, model: dict, rows: list[dict], source_by_record: dict[str, str]) -> str:
+def _timeline_html(profile_id: str, model: dict, rows: list[dict], source_by_record: dict[str, str], *, vitals=None) -> str:
     groups = defaultdict(list)
     consumed = set()
     editorial = _editorial(profile_id)
 
-    def add(group: str, *, date, year, record_id, title, role, place, note, url):
+    def add(group: str, *, date, year, record_id, title, role, place, note, url, display_date=None):
         groups[group].append({
-            "date": _format_date_value(date) or "Undated",
+            "date": display_date or _format_date_value(date) or "Undated",
             "sort_date": date or year,
             "year": year,
             "record_id": record_id,
@@ -1138,6 +1138,17 @@ def _timeline_html(profile_id: str, model: dict, rows: list[dict], source_by_rec
             continue
         event = dict(event)
         kind = event.get("event_type")
+        vital = (vitals or {}).get(kind) or {}
+        reviewed = (event.get('kind') == 'personal' and event.get('basis') == 'imported_vital'
+                    and str(event.get('p') or profile_id).casefold() == profile_id.casefold()
+                    and isinstance(vital.get('provenance'), dict)
+                    and vital['provenance'].get('assessment_id'))
+        if reviewed:
+            date = str(vital.get('date') or '')
+            event.update(date=vital.get('date'), raw_date=vital.get('date'),
+                         year=int(date[:4]) if date[:4].isdigit() else None,
+                         place=vital.get('place') or '', source_url=vital.get('source_url') or '',
+                         note=' · '.join(filter(None, (vital.get('note'), vital.get('qualifier')))))
         qualifier = (editorial.get("vital_qualifiers") or {}).get(kind)
         if qualifier:
             event["note"] = " · ".join(filter(None, (event.get("note"), qualifier)))
@@ -1151,14 +1162,15 @@ def _timeline_html(profile_id: str, model: dict, rows: list[dict], source_by_rec
             context = _record_context(matched)
             add(
                 context.get("timeline_group") or "Life events",
-                date=event.get("date") or matched.get("date") or matched.get("year"),
-                year=event.get("year") or matched.get("year"),
+                date=event.get("date") if reviewed else event.get("date") or matched.get("date") or matched.get("year"),
+                year=event.get("year") if reviewed else event.get("year") or matched.get("year"),
                 record_id=record_id,
                 title=matched.get("association") or event.get("label") or event_type or "Recorded event",
                 role=event.get("role") or context.get("role") or "Subject",
-                place=event.get("place") or matched.get("place") or matched.get("record_location") or "",
-                note=matched.get("note") or event.get("note") or "",
-                url=matched.get("source_url") or event.get("source_url") or "",
+                place=event.get("place") if reviewed else event.get("place") or matched.get("place") or matched.get("record_location") or "",
+                note=event.get("note") if reviewed else matched.get("note") or event.get("note") or "",
+                url=event.get("source_url") if reviewed else matched.get("source_url") or event.get("source_url") or "",
+                display_date=vital.get('display_date') if reviewed else None,
             )
             continue
         if matched and event.get("source_url") and str(event.get("source_url")) == str(matched.get("source_url")):
@@ -1173,6 +1185,7 @@ def _timeline_html(profile_id: str, model: dict, rows: list[dict], source_by_rec
             place=event.get("place") or "",
             note=event.get("note") or "",
             url=event.get("source_url") or "",
+            display_date=vital.get('display_date') if reviewed else None,
         )
     modern = []
     for row in rows:
@@ -2494,7 +2507,7 @@ def render_person_dossier(profile_id: str) -> str:
     actions = ([ _a(wiki, "View on WikiTree", True) ] if wiki else []) + ([_a(f"/people/{slug}.html#{family_anchor}", "Explore family")] if has_relatives else []) + [_a("#archive-tools", "Original notes and downloads")]
     parent_body = _parent_comparison_html(editorial, dossier)
     evidence_body = _evidence_questions(editorial, rows, source_by_record)
-    timeline_body = _timeline_html(dossier.get("id") or profile_id, model, rows, source_by_record)
+    timeline_body = _timeline_html(dossier.get("id") or profile_id, model, rows, source_by_record, vitals=dossier.get('vitals'))
     research_body = _research_html(editorial)
     sources_body = _sources_html(rows, sources, source_by_record, editorial)
     has_family = "relation-table" in family_body
@@ -2870,7 +2883,7 @@ def repair(profile_ids=None):
         except ModuleNotFoundError:
             from build_backlinks import write_index
         write_index(WEB)
-    publish(WEB)
+    publish(WEB, profile_ids=profile_ids or None)
     _refresh_reviewed_parentage(profile_ids)
     _INDEX_CACHE = None
     counts = {"person_hierarchy": 0}; asset = WEB / "assets/repair/person-hierarchy.css"; asset.parent.mkdir(parents=True, exist_ok=True)

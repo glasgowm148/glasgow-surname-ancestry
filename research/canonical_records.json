@@ -3427,18 +3427,19 @@
   },
   {
     "record_id": "ayrshire-manokin-ministry-1736",
-    "date": "1736–1741; death 23 March 1753",
+    "date": "1736–1741; Ford reports death 23 March 1753 (superseded death date)",
     "year": 1736,
     "place": "Manokin and Snow Hill, Maryland",
     "source_title": "Harry Pringle Ford, History of the Manokin Presbyterian Church (1910), printed p.16, PDF p.22: Patrick’s ministry and death",
     "source_url": "https://weech.net/ashley/History-of-Manokin-Presbyterian-Church_Princess-Anne-Maryland.pdf#page=22",
     "status": "Printed church-history account; searchable text rechecked; page image unavailable in this batch",
-    "note": "No parent, birth date, age or birthplace in this passage.",
+    "note": "No parent, birth date, age or birthplace in this passage. Ford reports 23 March 1753; preserve that later-source reading, superseded for the current death date by the contemporary Gazette of 22 March 1753 (Thursday last = 15 March). Ministry chronology remains unchanged.",
     "profiles": {
       "Glasgow-635": {
         "role": "minister"
       }
-    }
+    },
+    "reviewed_on": "2026-10-27"
   },
   {
     "record_id": "carnwath-robert-wilson-marriage-1713",
@@ -35873,7 +35874,7 @@
   {
     "record_id": "fmp-record-us-gpc-00191354",
     "provider_record_id": "US/GPC/00191354",
-    "association": "Maryland Gazette-derived death index for rector at All Hallows",
+    "association": "Held death index reconciled against its original Maryland Gazette notice; same All Hallows rector and death event",
     "person": "Rev Patrick Glasgow",
     "date": "1753-03-15",
     "year": 1753,
@@ -35881,8 +35882,8 @@
     "country": "united states",
     "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00191354&tab=this",
     "source_title": "United States, Early American Vital Records Indexes — Rev Patrick Glasgow",
-    "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
-    "note": "Disposition: matched. Maryland Gazette derivative index reports Rev Patrick Glasgow, death 15 Mar 1753, residence Allhallows/Worcester County. Distinctive title and parish fit Glasgow-635, but maintained church history gives death 23 Mar 1753. Do not silently replace the held date; the newspaper row may be misdated/indexed. Death event supplies no natal origin or birth date. Indexed factual fields: Author = Barnes; Collection = United States, Early American Vital Records; Country = United States; Death year = 1753; Event date = 15 Mar 1753; Event place = Wor Co; Event place 2 = Allhallows In That County; Event type = Death; Event type 2 = Residence; Event year = 1753; First name(s) = Rev Patrick; Last name = Glasgow; Principal's first name(s) = Rev Patrick; Principal's last name = Glasgow; Record set = United States, Early American Vital Records Indexes; Relationship = Principal; Sex = Male; State = Maryland; Title = Marriages & Deaths From The Maryland Gazette, 1727-1839. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+    "status": "Saved derivative index retained under its stable provider/source identity; underlying original notice and issue masthead now visually inspected",
+    "note": "The notice reports that Rev. Mr. Patrick Glasgow, rector of Allhallows Parish, died in Worcester County on Thursday last. The issue masthead on frame 262 is Thursday 22 March 1753, yielding reported death 15 March 1753. This supports the held index date and supersedes the later church-history date 23 March. No age, natal origin, parent, child or cause is supplied. All Hallows is his clerical parish; the notice gives only Worcester County as death place. Stable FMP provider alias and original indexed factual fields remain in previous_source_review and provenance; not independent duplicate corroboration.",
     "profiles": {
       "Glasgow-635": {
         "role": "probable existing Rev Patrick, All Hallows rector, Maryland",
@@ -35890,9 +35891,36 @@
       }
     },
     "provenance": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/US~1GPC~100191354; reviewed in research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-27",
     "publish_to_record_index": true,
-    "date_status": "exact_event_date"
+    "date_status": "derived_event_date",
+    "previous_source_review": {
+      "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FGPC%2F00191354&tab=this",
+      "source_title": "United States, Early American Vital Records Indexes — Rev Patrick Glasgow",
+      "status": "Previously saved inspected derivative provider transcript; identity role qualified; original uninspected this batch",
+      "note": "Disposition: matched. Maryland Gazette derivative index reports Rev Patrick Glasgow, death 15 Mar 1753, residence Allhallows/Worcester County. Distinctive title and parish fit Glasgow-635, but maintained church history gives death 23 Mar 1753. Do not silently replace the held date; the newspaper row may be misdated/indexed. Death event supplies no natal origin or birth date. Indexed factual fields: Author = Barnes; Collection = United States, Early American Vital Records; Country = United States; Death year = 1753; Event date = 15 Mar 1753; Event place = Wor Co; Event place 2 = Allhallows In That County; Event type = Death; Event type 2 = Residence; Event year = 1753; First name(s) = Rev Patrick; Last name = Glasgow; Principal's first name(s) = Rev Patrick; Principal's last name = Glasgow; Record set = United States, Early American Vital Records Indexes; Relationship = Principal; Sex = Male; State = Maryland; Title = Marriages & Deaths From The Maryland Gazette, 1727-1839. Saved September transcript reused; no new provider fetch or original inspection. Companion indexes are not independent corroboration.",
+      "reviewed_on": "2026-10-23"
+    },
+    "source_type": "death_index",
+    "source_quality": "derivative_reconciled_against_inspected_original",
+    "publication_date": "1753-03-22",
+    "additional_sources": [
+      {
+        "title": "Maryland Gazette, no. 411, 22 March 1753, Annapolis notices; MSA SC 2731, M1279 frame 264",
+        "url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html"
+      },
+      {
+        "title": "Issue no. 411 masthead, Thursday, 22 March 1753; MSA M1279 frame 262",
+        "url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0262.html"
+      }
+    ],
+    "original_source": {
+      "title": "Maryland Gazette, no. 411, 22 March 1753, Annapolis notices; MSA SC 2731, M1279 frame 264",
+      "url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html",
+      "quality": "original_image_inspected",
+      "publication_date": "1753-03-22",
+      "header_url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0262.html"
+    }
   },
   {
     "record_id": "fmp-record-us-gpc-02448029",

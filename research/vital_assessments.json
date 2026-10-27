@@ -1872,6 +1872,42 @@
         "death_year": 1870
       },
       "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "patrick-635-original-death-1753",
+      "subject": "Glasgow-635",
+      "status": "approved",
+      "reviewed": "2026-10-27",
+      "basis": "Original Gazette notice visually read on frame 264 and anchored to issue no. 411 masthead on frame 262, Thursday, 22 March 1753; “Thursday last” derives 15 March.",
+      "source": {
+        "url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html",
+        "section": "Annapolis notices; MSA SC 2731, M1279 frame 264; mastheadframe 262"
+      },
+      "summary": "Correct reported death from 23 to 15 March 1753; retain the later 23 March reports as superseded history. No natal or family change.",
+      "vitals": {
+        "death": {
+          "date": "1753-03-15",
+          "display_date": "15 March 1753 (reported)",
+          "place": "Worcester County, Maryland",
+          "country": "united states",
+          "status": "strongly_supported",
+          "label": "Contemporary notice; relative date",
+          "note": "Derived from Thursday last in the Thursday, 22 March 1753 issue, not a numeric date printed in the notice. Names the rector and county; no age, natal origin, parent or child. The later 23 March date conflicts with a notice published on 22 March and is retained as secondary-source history.",
+          "source_url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html"
+        }
+      },
+      "catalogue_projection": {
+        "death": "1753-03-15",
+        "death_year": 1753,
+        "field_statuses": {
+          "birth": "estimated",
+          "birth_location": "uncertain",
+          "death": "strongly_supported",
+          "death_location": "certain"
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

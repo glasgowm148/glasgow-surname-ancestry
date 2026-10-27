@@ -474,7 +474,34 @@ def merge_maintained_assessments(registry, maintained):
     return result
 
 
-def publish(root=ROOT / 'www'):
+def publish(root=ROOT / 'www', profile_ids=None):
+    """Resolve dossiers; with ``profile_ids``, restrict derived writes to them."""
+    def aliases(row, *extra):
+        values = [row.get(key) for key in ('id', 'catalogue_id', 'slug')]
+        values.extend(row.get('profile_ids') or [])
+        return {str(value).casefold() for value in [*values, *extra] if value}
+
+    requested = None if profile_ids is None else {str(value).casefold() for value in profile_ids}
+    if requested is not None and (not requested or '' in requested):
+        raise ValueError('Requested profile IDs must be non-empty')
+    dossier_paths = sorted((root / 'people').glob('*.json'))
+    selected_keys = set()
+    selected_paths = set(dossier_paths) if requested is None else set()
+    if requested is not None:
+        for candidate in dossier_paths:
+            if candidate.name.endswith('.network.json'):
+                continue
+            item = json.loads(candidate.read_text())
+            identities = aliases(item, candidate.stem)
+            if not item.get('redirect_to') and requested.intersection(identities):
+                selected_paths.add(candidate)
+                selected_keys.update(identities)
+        if requested - selected_keys:
+            raise ValueError('Requested profile IDs not found: ' + ', '.join(sorted(requested - selected_keys)))
+
+    def selected_rows(row):
+        return bool(aliases(row) & selected_keys)
+
     path = root / 'assets/research/assessments.json'
     maintained_path = ROOT / 'research/vital_assessments.json'
     has_maintained_source = root.resolve() == (ROOT / 'www').resolve() and maintained_path.exists()
@@ -502,7 +529,9 @@ def publish(root=ROOT / 'www'):
     if search_path.exists():
         search = json.loads(search_path.read_text())
         prior_search = deepcopy(search)
-        project_catalogue_vitals(search, assessments)
+        vital_rows = search if requested is None else [row for row in search
+                                                       if selected_rows(row)]
+        project_catalogue_vitals(vital_rows, assessments)
     shared_path = root / 'assets/research/relationship-assessments.json'
     if root.resolve() == (ROOT / 'www').resolve():
         shared_path.write_text((ROOT / 'research/relationship_assessments.json').read_text())
@@ -511,7 +540,10 @@ def publish(root=ROOT / 'www'):
     shared = json.loads(shared_path.read_text()) if shared_path.exists() else []
     changed = 0
     reviewed = {}
-    for path in sorted((root / 'people').glob('*.json')):
+    resolved_dossiers = {}
+    for path in dossier_paths:
+        if path not in selected_paths:
+            continue
         if path.name.endswith('.network.json'):
             continue
         original = json.loads(path.read_text())
@@ -520,14 +552,37 @@ def publish(root=ROOT / 'www'):
         if original.get('redirect_to'):
             continue
         resolved = resolve(original, assessments, shared)
+        keys = aliases(original, path.stem) if requested is not None else {resolved['id'].casefold()}
+        resolved_dossiers.update({key: resolved for key in keys})
         # A superseded record subject's redirect stub carries the id of the
         # person it now points to; only that person's own dossier feeds the
         # network and index projections.
         if resolved.get('data_view') == 'reviewed' and not resolved.get('redirect_to'):
-            reviewed[resolved['id'].casefold()] = resolved
+            reviewed.update({key: resolved for key in keys})
         if resolved != original:
             path.write_text(json.dumps(resolved, ensure_ascii=False, separators=(',', ':')) + '\n')
             changed += 1
+    # The atlas person panel reads this derived model, rather than the dossier.
+    # Project only explicitly reviewed vital kinds; retain other model fields.
+    for path in sorted((root / 'assets/research/people').glob('*.json')):
+        model = json.loads(path.read_text())
+        dossier = resolved_dossiers.get(str(model.get('id', path.stem)).casefold())
+        if not dossier:
+            continue
+        kinds = {kind for assessment in dossier.get('research_assessments', [])
+                 if assessment.get('status') == 'approved'
+                 for kind in assessment.get('vitals', {})}
+        kinds.update(kind for kind, vital in model.get('vitals', {}).items()
+                     if isinstance(vital.get('provenance'), dict)
+                     and vital['provenance'].get('assessment_id'))
+        before = deepcopy(model)
+        for kind in kinds:
+            if kind in dossier.get('vitals', {}):
+                model.setdefault('vitals', {})[kind] = deepcopy(dossier['vitals'][kind])
+            else:
+                model.get('vitals', {}).pop(kind, None)
+        if model != before:
+            path.write_text(json.dumps(model, ensure_ascii=False, separators=(',', ':')) + '\n')
     for path in [root / 'data/people-index.json', root / 'data/people-index.js',
                  *sorted((root / 'data/resolve').glob('*.json'))]:
         if not path.exists():
@@ -537,16 +592,25 @@ def publish(root=ROOT / 'www'):
         payload = json.loads(raw[len(prefix):].strip().rstrip(';'))
         before = deepcopy(payload)
         if isinstance(payload, list):
-            payload = [resolve_index_row(row, reviewed) for row in payload]
-            project_catalogue_spouses(payload, reviewed)
+            payload = [resolve_index_row(row, reviewed) if requested is None or selected_rows(row) else row
+                       for row in payload]
+            if requested is None:
+                project_catalogue_spouses(payload, reviewed)
+            else:
+                project_catalogue_spouses([row for row in payload if selected_rows(row)], reviewed)
             if path.name == 'people-index.json':
-                payload = [compact_resolver_row(row) for row in payload]
+                payload = ([compact_resolver_row(row) for row in payload] if requested is None else
+                           [compact_resolver_row(row) if selected_rows(row) else row for row in payload])
         elif 'candidates' in payload:
-            payload['candidates'] = [resolve_index_row(row, reviewed) for row in payload['candidates']]
+            payload['candidates'] = [resolve_index_row(row, reviewed) if requested is None or selected_rows(row) else row
+                                     for row in payload['candidates']]
         if payload != before:
             path.write_text(prefix + json.dumps(payload, ensure_ascii=False, separators=(',', ':')) + (';\n' if prefix else '\n'))
     for path in sorted((root / 'people').glob('*.network.json')):
         before = json.loads(path.read_text())
+        if requested is not None:
+            if not selected_rows(before.get('person', {})):
+                continue
         network = deepcopy(before.get('imported', before))
         dossier = reviewed.get(network.get('person', {}).get('id', '').casefold())
         if dossier:
@@ -573,9 +637,16 @@ def publish(root=ROOT / 'www'):
         if schema != before:
             schema_path.write_text(json.dumps(schema, indent=2) + '\n')
     if search_path.exists():
-        project_catalogue_parents(search, reviewed)
-        project_catalogue_spouses(search, reviewed)
+        if requested is None:
+            project_catalogue_parents(search, reviewed)
+            project_catalogue_spouses(search, reviewed)
+        else:
+            targeted = [row for row in search if selected_rows(row)]
+            project_catalogue_parents(targeted, reviewed)
+            project_catalogue_spouses(targeted, reviewed)
         for row in search:
+            if requested is not None and not selected_rows(row):
+                continue
             for role in ('father', 'mother'):
                 for parent in row.get(role, []):
                     if not row.get('parent_review'):
@@ -596,8 +667,13 @@ def publish(root=ROOT / 'www'):
     if people_path.exists():
         people = json.loads(people_path.read_text())
         before = deepcopy(people)
-        project_catalogue_vitals(people['people'], assessments)
-        project_catalogue_spouses(people['people'], reviewed)
+        vital_rows = people['people'] if requested is None else [row for row in people['people']
+                                                                 if selected_rows(row)]
+        project_catalogue_vitals(vital_rows, assessments)
+        if requested is None:
+            project_catalogue_spouses(people['people'], reviewed)
+        else:
+            project_catalogue_spouses([row for row in people['people'] if selected_rows(row)], reviewed)
         if people != before:
             people_path.write_text(json.dumps(people, ensure_ascii=False, separators=(',', ':')) + '\n')
     return changed
@@ -606,5 +682,7 @@ def publish(root=ROOT / 'www'):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--www', type=Path, default=ROOT / 'www')
+    parser.add_argument('--id', dest='profile_ids', action='append',
+                        help='Resolve only this profile/dossier ID; repeat for several')
     args = parser.parse_args()
-    print(f'Resolved dossiers updated: {publish(args.www)}')
+    print(f'Resolved dossiers updated: {publish(args.www, args.profile_ids)}')

@@ -1,6 +1,13 @@
 {
   "case_id": "Glasgow-635",
-  "findings": [],
+  "findings": [
+    {
+      "date": "2026-10-27",
+      "record_id": "fmp-record-us-gpc-00191354",
+      "finding": "The original Gazette supports a reported death on 15 March 1753; it supplies no parent or age information.",
+      "source_url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html"
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-635, separating sourced facts from tree assertions.",
   "questions": [
     {
@@ -22,7 +29,7 @@
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "The 15/23 March 1753 death-date conflict is resolved by the 22 March contemporary notice reporting death on “Thursday last”. Other identity and natal conflicts remain open.",
       "id": "conflicts",
       "question": "What conflicts or same-name conflations must be resolved?",
       "status": "open"
@@ -44,17 +51,25 @@
   "research_state": {
     "disposition": "awaiting_source",
     "reviewed": "2026-10-27",
-    "last_test": "Checked a published New Castle Presbytery history through indexed/OCR text: the 1736 Manokin ministry is described, but no parent or childhood identifier was located. No underlying page image was freshly inspected.",
-    "next_test": "Inspect the contemporary licensing/ordination minutes or an identifiable university entry for Patrick Glasgow/Glascow; compare any origin or parent with the West Kilbride candidate.",
+    "last_test": "Visually read the original Gazette notice on MSA M1279 frame 264 and the issue no. 411 masthead on frame 262: Thursday, 22 March 1753. The notice’s “Thursday last” yields a reported death on 15 March 1753. No age, origin, parent or kin is stated.",
+    "next_test": "Locate contemporary licensing or ordination minutes, a university entry, or a parish or estate record naming the minister’s origin, education, parent or relative; compare it with the 1700 West Kilbride child.",
     "resume_when": "An original or full source reading provides an education, origin, named relative or other identifier distinguishing the Maryland minister from the 1700 West Kilbride child.",
-    "review_conclusion": "Retain John Glasgow-3161 at 26% uncertain. The additional career account is not demonstrated to be independent of previously cited histories and cannot establish the childhood match.",
+    "review_conclusion": "The contemporary notice resolves the death-date conflict in favour of 15 March 1753. Retain John Glasgow-3161 at 26% uncertain and son James-634 at 95%; there is no childhood bridge or new parent evidence.",
     "source_locators": [
       "research/Glasgow-635/findings.md",
-      "https://ephesians515.com/PDFs%20and%20Word%20Docs/Makemie/HistoryOfNewCastlePresbytery.pdf"
+      "https://ephesians515.com/PDFs%20and%20Word%20Docs/Makemie/HistoryOfNewCastlePresbytery.pdf",
+      "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html",
+      "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0262.html"
     ],
-    "scope": "Bounded held-source review or access test only; no new original inspection and no relationship reassessment."
+    "scope": "Original death notice and issue masthead inspected; no new natal record or relationship reassessment.",
+    "prior_tests": [
+      {
+        "reviewed": "2026-10-27",
+        "test": "Checked a published New Castle Presbytery history through indexed/OCR text: the 1736 Manokin ministry is described, but no parent or childhood identifier was located. No underlying page image was freshly inspected."
+      }
+    ]
   },
-  "last_test": "Checked a published New Castle Presbytery history through indexed/OCR text: the 1736 Manokin ministry is described, but no parent or childhood identifier was located. No underlying page image was freshly inspected.",
-  "next_test": "Inspect the contemporary licensing/ordination minutes or an identifiable university entry for Patrick Glasgow/Glascow; compare any origin or parent with the West Kilbride candidate.",
+  "last_test": "Visually read the original Gazette notice on MSA M1279 frame 264 and the issue no. 411 masthead on frame 262: Thursday, 22 March 1753. The notice’s “Thursday last” yields a reported death on 15 March 1753. No age, origin, parent or kin is stated.",
+  "next_test": "Locate contemporary licensing or ordination minutes, a university entry, or a parish or estate record naming the minister’s origin, education, parent or relative; compare it with the 1700 West Kilbride child.",
   "resume_when": "An original or full source reading provides an education, origin, named relative or other identifier distinguishing the Maryland minister from the 1700 West Kilbride child."
 }

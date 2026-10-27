@@ -59507,6 +59507,34 @@
           "url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0034.pdf"
         }
       ]
+    },
+    {
+      "id": "patrick-635-death-notice-20261027",
+      "found_on": "2026-10-27",
+      "reviewed_on": "2026-10-27",
+      "kind": "vital",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-635.html",
+      "finding": "The original Maryland Gazette of 22 March 1753 reports that Rev. Patrick Glasgow, rector of All Hallows, died in Worcester County on “Thursday last”: 15 March 1753. This corrects the 23 March date in later church histories.",
+      "qualification": "The original notice and issue masthead were visually inspected. This supports the date in the already-held FMP derivative for the same death event. It gives no age, natal origin or kin. John-3161 remains at 26% and son James-634 at 95%; no relationship is reassessed. The later Webster/Ford date is retained as superseded source history.",
+      "people": [
+        {
+          "id": "Glasgow-635",
+          "name": "Rev. Patrick Glasgow",
+          "url": "/people/glasgow-635.html",
+          "role": "All Hallows rector named in the contemporary notice"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maryland Gazette no. 411,22 March 1753, Annapolis notice; MSA M1279 frame 264",
+          "url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0264.html"
+        },
+        {
+          "title": "Same issue masthead: Thursday, 22 March 1753; MSA M1279 frame 262",
+          "url": "https://msa.maryland.gov/megafile/msa/speccol/sc4800/sc4872/001279/html/m1279-0262.html"
+        }
+      ]
     }
   ]
 }

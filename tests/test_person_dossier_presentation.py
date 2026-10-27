@@ -16,6 +16,31 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PersonDossierPresentationTests(unittest.TestCase):
+    def test_timeline_uses_reviewed_vital_without_changing_captured_events(self):
+        from copy import deepcopy
+        from tools import repair_person_hierarchy as renderer
+        model = {'events': [
+            {'id': 'death', 'p': 'person-1', 'kind': 'personal', 'basis': 'imported_vital',
+             'event_type': 'death', 'date': '1753-03-23', 'year': 1753, 'label': 'Death'},
+            {'id': 'relative-death', 'kind': 'collateral', 'event_type': 'death',
+             'date': '1800-01-01', 'year': 1800, 'label': 'Relative death'}]}
+        original = deepcopy(model)
+        death = {'date': '1753-03-15', 'display_date': '15 March 1753 (reported)',
+                 'source_url': 'https://example.org/original', 'note': 'Derived from Thursday last.',
+                 'provenance': {'assessment_id': 'reviewed-death'}}
+        with patch.object(renderer, '_editorial', return_value={}):
+            html = renderer._timeline_html('Person-1', model, [], {}, vitals={'death': death})
+            unknown = renderer._timeline_html('Person-1', model, [], {},
+                vitals={'death': {**death, 'date': None, 'display_date': None}})
+        self.assertIn('15 March 1753 (reported)', html)
+        self.assertIn('Derived from Thursday last.', html)
+        self.assertIn('https://example.org/original', html)
+        self.assertNotIn('23 March 1753', html)
+        self.assertIn('1 January 1800', html)
+        self.assertIn('Undated', unknown)
+        self.assertNotIn('23 March 1753', unknown)
+        self.assertEqual(model, original)
+
     def page(self, slug):
         return BeautifulSoup(read_html(ROOT / "www/people" / f"{slug}.html"), "html.parser")
 

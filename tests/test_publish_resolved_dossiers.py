@@ -303,6 +303,79 @@ class ResolvedDossierTests(unittest.TestCase):
             self.assertEqual(json.loads((root/'data/catalogue-search-index.json').read_text()),search)
             self.assertEqual(json.loads((root/'data/people.json').read_text())['people'],search)
 
+    def test_targeted_publish_preserves_unselected_reviewed_state(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            first = {'id': 'Person-1', 'vitals': {'birth': {'date': 'c. 1610'}}, 'relationships': {}, 'claims': []}
+            second = {'id': 'Person-2', 'vitals': {'birth': {'date': 'c. 1700'}}, 'relationships': {}, 'claims': [],
+                      'pending_profile_creation': True, 'creation_status': 'identity_hold',
+                      'wikitree_update': {'draft_wikitext': 'Complete held draft'}}
+            resolver = {'id': 'Person-2', 'name': 'Reviewed name',
+                        'imported': {'id': 'Person-2', 'name': 'Old name'},
+                        'reviewed_vitals': {'birth': {'date': '1701'}}}
+            unrelated = {'id': 'person-2', 'profile_ids': ['Person-2'], 'birth': 'c. 1700',
+                         'parent_review': {'original_fields': {}, 'assessment_ids': ['held-review']},
+                         'father': [{'id': 'Father-2', 'probability': {'value': .42}}]}
+            files = {
+                'people/person-1.json': first,
+                'people/person-2.json': second,
+                'assets/research/people/person-1.json': {**first, 'vitals': {'death': {'date': '1700'}}},
+                'assets/research/people/person-2.json': second,
+                'people/person-1.network.json': {'person': {'id': 'Person-1'}, 'relationships': []},
+                'people/person-2.network.json': {'person': {'id': 'Person-2'}, 'relationships': [{'id': 'Reviewed'}],
+                                                  'imported': {'person': {'id': 'Person-2'}, 'relationships': []}},
+                'assets/research/assessments.json': {'assessments': []},
+                'data/catalogue-search-index.json': [
+                    {'id': 'person-1', 'profile_ids': ['Person-1'], 'birth': 'c. 1610'}, unrelated],
+                'data/people-index.json': [{'id': 'Person-1'}, resolver],
+                'data/resolve/p.json': {'candidates': [{'id': 'Person-1'}, resolver]},
+                'data/people.json': {'people': [
+                    {'catalogue_id': 'person-1', 'profile_ids': ['Person-1'], 'birth': 'c. 1610'}, unrelated]},
+                'data/ancestry-documentary-people.json': {'chronology': [
+                    {'id': 'Person-1', 'publication_status': 'approved', 'source_ids': ['s'],
+                     'assessment_id': 'chronology-1', 'reviewed': '2026-10-16', 'reason': 'reviewed',
+                     'vitals': {'birth': {'date': 'before 1601', 'status': 'uncertain'}},
+                     'catalogue_projection': {'birth': 'before 1601', 'birth_year': None}}]}
+            }
+            for name, value in files.items():
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value))
+            frozen = {name: (root / name).read_bytes() for name in (
+                'people/person-2.json', 'people/person-2.network.json', 'assets/research/people/person-2.json')}
+            module.publish(root, ['PERSON-1'])
+            for name, content in frozen.items():
+                self.assertEqual((root / name).read_bytes(), content, name)
+            self.assertEqual(json.loads((root / 'data/catalogue-search-index.json').read_text())[1], unrelated)
+            self.assertEqual(json.loads((root / 'data/people.json').read_text())['people'][1], unrelated)
+            self.assertEqual(json.loads((root / 'data/people-index.json').read_text())[1], resolver)
+            self.assertEqual(json.loads((root / 'data/resolve/p.json').read_text())['candidates'][1], resolver)
+            self.assertEqual(json.loads((root / 'data/people.json').read_text())['people'][0]['birth'], 'before 1601')
+            self.assertEqual(json.loads((root / 'people/person-1.json').read_text())['vitals']['birth']['date'], 'before 1601')
+            model = json.loads((root / 'assets/research/people/person-1.json').read_text())
+            self.assertEqual(model['vitals']['birth']['date'], 'before 1601')
+            self.assertEqual(model['vitals']['death'], {'date': '1700'})
+            (root / 'data/ancestry-documentary-people.json').write_text(json.dumps({'chronology': []}))
+            module.publish(root, ['person-1'])
+            restored = json.loads((root / 'assets/research/people/person-1.json').read_text())
+            self.assertEqual(restored['vitals']['birth'], first['vitals']['birth'])
+            self.assertEqual(restored['vitals']['death'], {'date': '1700'})
+
+    def test_targeted_publish_rejects_unknown_ids_before_writes(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            path = root / 'people/person-1.json'
+            path.parent.mkdir(parents=True)
+            path.write_text(json.dumps({'id': 'Person-1', 'profile_ids': None, 'relationships': {}, 'claims': []}))
+            stub = root / 'people/record-retired.json'
+            stub.write_text(json.dumps({'id': 'Person-1', 'redirect_to': '/people/person-1.json'}))
+            original = path.read_bytes()
+            for requested in [['missing-person'], ['Person-1', 'missing-person'], ['record-retired'], [], ['']]:
+                with self.assertRaises(ValueError):
+                    module.publish(root, requested)
+                self.assertEqual(path.read_bytes(), original)
+                self.assertFalse((root / 'assets').exists())
+
     def test_corrected_sibling_role_retires_parent_row_and_preserves_history(self):
         original = {'id': 'Person-1', 'relationships': {
             'parents': [{'id': 'Father-1', 'relationship': 'father', 'status': 'strongly_supported'},
