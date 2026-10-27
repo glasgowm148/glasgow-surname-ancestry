@@ -2874,6 +2874,72 @@ def revise(text: str, profile_id_hint: str = ""):
     return updated, updated != text
 
 
+def _repair_page(path, add_tree_links, lines) -> int:
+    """Re-render one person page and its dossier's presentation; returns pages written."""
+    changed = 0
+    text = path.read_text(encoding="utf-8")
+    # A few older mapped profiles have no maintained JSON dossier, but
+    # still need the same global rail and spacing as full dossiers.
+    if not BeautifulSoup(text, "html.parser").select_one("#g-navigation"):
+        legacy = BeautifulSoup(text, "html.parser")
+        if legacy.select_one("main .person-dossier"):
+            wrapped = _ensure_unified_person_shell(legacy, path.stem)
+            if str(wrapped) != text:
+                path.write_text(str(wrapped), encoding="utf-8")
+                changed += 1
+                text = str(wrapped)
+    dossier = _load_json(path.with_suffix(".json"), {})
+    profile_id_hint = str(dossier.get("id") or "")
+    updated, _ = revise(text, profile_id_hint)
+    updated = add_tree_links(updated, lines)
+    if updated != text: path.write_text(updated, encoding="utf-8"); changed += 1
+    # This is the same resolved account the HTML uses, not another
+    # hand-maintained summary. Keep imports and original notes untouched.
+    match = re.search(r'data-r-person=["\']([^"\']+)', updated)
+    if match:
+        profile_id = match[1]
+        json_path = path.with_suffix(".json")
+        dossier = _load_json(json_path, {})
+        if dossier:
+            presentation = _editorial(profile_id)
+            payload = {"version": PRESENTATION_VERSION, **presentation, "record_associations": _record_rows(profile_id)}
+            _, model, _ = _profile_data(profile_id)
+            payload["vitals"] = _current_vitals(profile_id, dossier, model, presentation)
+            payload["relationships"] = {group: [_assessed_relation(profile_id, row, group) for row in rows] for group, rows in (dossier.get("relationships") or {}).items() if isinstance(rows, list)}
+            if dossier.get("presentation") != payload:
+                dossier["presentation"] = payload
+                json_path.write_text(json.dumps(dossier, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    return changed
+
+
+_PAGE_JOB = None
+
+
+def _repair_page_job(path):
+    add_tree_links, lines = _PAGE_JOB
+    return _repair_page(path, add_tree_links, lines)
+
+
+def _repair_pages(paths, add_tree_links, lines) -> int:
+    """Each page is independent, so a full pass runs on several processes.
+
+    Workers fork from this process and inherit its loaded sources. Set
+    GLASGOW_PAGE_WORKERS=1 to run in order in one process.
+    """
+    import os
+    workers = int(os.environ.get("GLASGOW_PAGE_WORKERS") or min(8, os.cpu_count() or 1))
+    if workers <= 1 or len(paths) < 200:
+        return sum(_repair_page(path, add_tree_links, lines) for path in paths)
+    import multiprocessing
+    global _PAGE_JOB
+    _PAGE_JOB = (add_tree_links, lines)
+    try:
+        with multiprocessing.get_context("fork").Pool(workers) as pool:
+            return sum(pool.map(_repair_page_job, paths, chunksize=32))
+    finally:
+        _PAGE_JOB = None
+
+
 @cached_hierarchy_sources()
 def repair(profile_ids=None):
     global _INDEX_CACHE
@@ -2894,41 +2960,9 @@ def repair(profile_ids=None):
         from profile_tree_links import add_to_page as add_tree_links, load_lines as tree_lines
     # The tree-view links are written into the page, not added after it renders.
     lines = tree_lines(WEB)
-    for path in sorted((WEB / "people").glob("*.html")):
-        if profile_ids and path.stem not in {value.casefold() for value in profile_ids}:
-            continue
-        text = path.read_text(encoding="utf-8")
-        # A few older mapped profiles have no maintained JSON dossier, but
-        # still need the same global rail and spacing as full dossiers.
-        if not BeautifulSoup(text, "html.parser").select_one("#g-navigation"):
-            legacy = BeautifulSoup(text, "html.parser")
-            if legacy.select_one("main .person-dossier"):
-                wrapped = _ensure_unified_person_shell(legacy, path.stem)
-                if str(wrapped) != text:
-                    path.write_text(str(wrapped), encoding="utf-8")
-                    counts["person_hierarchy"] += 1
-                    text = str(wrapped)
-        dossier = _load_json(path.with_suffix(".json"), {})
-        profile_id_hint = str(dossier.get("id") or "")
-        updated, _ = revise(text, profile_id_hint)
-        updated = add_tree_links(updated, lines)
-        if updated != text: path.write_text(updated, encoding="utf-8"); counts["person_hierarchy"] += 1
-        # This is the same resolved account the HTML uses, not another
-        # hand-maintained summary. Keep imports and original notes untouched.
-        match = re.search(r'data-r-person=["\']([^"\']+)', updated)
-        if match:
-            profile_id = match[1]
-            json_path = path.with_suffix(".json")
-            dossier = _load_json(json_path, {})
-            if dossier:
-                presentation = _editorial(profile_id)
-                payload = {"version": PRESENTATION_VERSION, **presentation, "record_associations": _record_rows(profile_id)}
-                _, model, _ = _profile_data(profile_id)
-                payload["vitals"] = _current_vitals(profile_id, dossier, model, presentation)
-                payload["relationships"] = {group: [_assessed_relation(profile_id, row, group) for row in rows] for group, rows in (dossier.get("relationships") or {}).items() if isinstance(rows, list)}
-                if dossier.get("presentation") != payload:
-                    dossier["presentation"] = payload
-                    json_path.write_text(json.dumps(dossier, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    wanted = {value.casefold() for value in profile_ids} if profile_ids else None
+    paths = [path for path in sorted((WEB / "people").glob("*.html")) if wanted is None or path.stem in wanted]
+    counts["person_hierarchy"] += _repair_pages(paths, add_tree_links, lines)
     # Presentation is the approved public narrative source for catalogue Bio
     # search. Run after every dossier has been materialized, including a full
     # catalogue build whose initial dossiers precede this repair pass.
