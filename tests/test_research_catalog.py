@@ -1165,7 +1165,8 @@ Corrected assessment.
         self.assertIn("'significance:desc','Update significance'", search_js)
         update_count = len(queued_updates) + len(creation_ids)
         self.assertIn(f"{update_count:,} source-backed corrections remain on WikiTree", catalogue_html)
-        self.assertIn(f"{update_count:,} profiles ranked by significance", catalogue_html)
+        # finalize's catalogue_search_markup words the generated "ranked by significance" this way.
+        self.assertIn(f"{update_count:,} profiles ranked by update priority", catalogue_html)
         # Glasgow-2769's detached-father correction has been applied on WikiTree and
         # left the queue; every still-queued draft is checked for shape below.
         self.assertTrue((WEB / "people" / "profile-update.js").exists())
