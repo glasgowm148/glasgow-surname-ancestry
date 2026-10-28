@@ -163,6 +163,14 @@ CATALOGUE_UPDATE_FIELDS = (
 )
 
 
+def awaiting_creation(row, update):
+    """A reviewed person awaiting a new WikiTree profile: WikiTree work with no correction to queue.
+
+    queue_catalogue_creations sets its flag and summary; the sync keeps them.
+    """
+    return not update and bool(row.get("pending_profile_creation"))
+
+
 def merge_catalogue_updates(updates):
     """Apply this sync's update fields to the latest shared rows, never its snapshot."""
     path = WEB / "data/catalogue-search-index.json"
@@ -277,9 +285,9 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
                 issues.append("visible draft")
             if display.get("remote_wikitext") and not panel.select_one("#profile-update-current"):
                 issues.append("visible current capture")
-        if bool(row.get("needs_wikitree_update")) != bool(update):
+        if bool(row.get("needs_wikitree_update")) != (bool(update) or awaiting_creation(row, update)):
             issues.append("update flag")
-        if row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
+        if not awaiting_creation(row, update) and row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
             issues.append("search update summary")
         if (row.get('wikitree_update_relationship_changes') or []) != ((update or {}).get('relationship_changes') or []):
             issues.append('search relationship changes')
@@ -321,9 +329,9 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
             issues.append("visible update summary")
         if display.get("remote_wikitext") and not panel.select_one("#profile-update-current"):
             issues.append("visible current capture")
-    if bool(row.get("needs_wikitree_update")) != bool(update):
+    if bool(row.get("needs_wikitree_update")) != (bool(update) or awaiting_creation(row, update)):
         issues.append("update flag")
-    if row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
+    if not awaiting_creation(row, update) and row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
         issues.append("search update summary")
     if (row.get('wikitree_update_relationship_changes') or []) != ((update or {}).get('relationship_changes') or []):
         issues.append('search relationship changes')
@@ -536,8 +544,10 @@ def _run():
             dossier["wikitree_comparison"] = comparison
         else:
             dossier.pop("wikitree_comparison", None)
-        by_slug[slug].update(needs_wikitree_update=bool(update),
-                            wikitree_update_summary=update["summary"] if update else "",
+        creation = awaiting_creation(by_slug[slug], update)
+        by_slug[slug].update(needs_wikitree_update=bool(update) or creation,
+                            wikitree_update_summary=update["summary"] if update else
+                            by_slug[slug].get("wikitree_update_summary", "") if creation else "",
                             wikitree_update_relationship_changes=(update or {}).get('relationship_changes') or [],
                             wikitree_update_significance=int(update["significance"]) if update else 0)
         catalogue_updates[slug] = {key: by_slug[slug][key] for key in CATALOGUE_UPDATE_FIELDS}
