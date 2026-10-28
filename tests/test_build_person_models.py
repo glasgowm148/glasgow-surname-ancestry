@@ -46,6 +46,43 @@ class PersonModels(unittest.TestCase):
             models.main(['--web', str(web)])
             self.assertEqual(models.build(web)[0], {})
 
+    def test_stage_three_vitals_and_new_models(self):
+        with TemporaryDirectory() as directory:
+            web = Path(directory)
+            def put(relative, value):
+                path = web / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(value))
+            put('people/harrow-1.json', {'id': 'Harrow-1', 'name': 'Ada Harrow', 'vitals': {
+                'birth': {'date': '1801-03-02', 'place': 'Perth, Perthshire, Scotland', 'status': 'exact'},
+                'death': {'date': '1870', 'place': 'Ayr', 'status': 'uncertain', 'provenance': {'reviewed': '2026-01-01'}}}})
+            put('people/harrow-4.json', {'id': 'Harrow-4', 'name': 'Dot Harrow', 'vitals': {'birth': {'date': '1830'}}})
+            put('people/harrow-5.json', {'id': 'Harrow-5', 'name': 'Ed Harrow', 'likely_living': True})
+            put('assets/research/atlas-import.json', {'people': [{'id': 'Harrow-4', 'kind': 'person'}]})
+            put('assets/research/people/harrow-1.json', {'id': 'Harrow-1', 'vitals': {
+                'birth': {'date': '1801', 'place': 'Perth', 'status': 'uncertain', 'display_date': '1801',
+                          'country': 'other', 'basis': 'imported_vital'},
+                'death': {'date': '1870', 'place': 'Ayr', 'status': 'uncertain'}},
+                'original_vitals': {'birth': {'date': '1801'}}, 'review': {'title': 'Current conclusion'}, 'dna': [{'id': 'x'}]})
+            changed, counts = models.build(web)
+            model = changed['harrow-1']
+            self.assertEqual(model['vitals']['birth'], {'date': '1801-03-02', 'place': 'Perth, Perthshire, Scotland',
+                                                        'status': 'exact', 'display_date': '2 March 1801',
+                                                        'country': 'scotland', 'basis': 'imported_vital'})
+            self.assertEqual(model['vitals']['death']['provenance'], {'reviewed': '2026-01-01'})   # the dossier's own form
+            self.assertNotIn('country', model['vitals']['death'])
+            for kept in ('original_vitals', 'review', 'dna'):
+                self.assertEqual(model[kept], {'original_vitals': {'birth': {'date': '1801'}},
+                                               'review': {'title': 'Current conclusion'}, 'dna': [{'id': 'x'}]}[kept])
+            created = changed['harrow-4']
+            self.assertEqual((created['id'], created['catalogue_id'], created['atlas']), ('Harrow-4', 'harrow-4', True))
+            self.assertEqual(created['vitals'], {'birth': {'date': '1830'}})
+            self.assertEqual(created['url'], '/people/harrow-4.html')
+            self.assertNotIn('harrow-5', changed)                                                    # likely living
+            self.assertEqual(counts['models created'], 1)
+            models.main(['--web', str(web)])
+            self.assertEqual(models.build(web)[0], {})
+
 
 if __name__ == '__main__':
     unittest.main()

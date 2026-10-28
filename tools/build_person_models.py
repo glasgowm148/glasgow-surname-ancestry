@@ -16,10 +16,22 @@ repository, so this produces them field by field from their current inputs
 
 Stage 2 adds the person's event lists (``events``, ``mentions``,
 ``research_events``, ``unresolved_events``, ``family_events``) from the event
-index, whose vital rows ``build_event_index.py`` keeps current. The vitals,
-the review and DNA are kept as they are until a later stage produces them. Models that redirect, and models whose person
-has no dossier, are left alone; nothing is deleted. Run with ``--check`` to
-report what would change.
+index, whose vital rows ``build_event_index.py`` keeps current.
+
+Stage 3 produces the ``vitals`` from the dossier. A vital the model enriches
+(imported vitals: ``basis``, ``country`` and ``display_date``) keeps that
+form, with the country taken from the person's event-index row so the panel
+and the map agree; any other vital (reviewed vitals, research-case models)
+is the dossier's own. It also writes a model for each public dossier that has
+none, so the atlas panel can open every catalogue person.
+
+Kept as they are: ``original_vitals`` (the WikiTree vitals before review, a
+snapshot no current input reproduces), ``review`` (its summaries exist only
+in the models), ``dna`` (restored from the approved atlas models by
+``repair_public_dna``) and ``override``. Models that redirect, and models
+whose person has no dossier, are left alone; nothing is deleted. A dossier the
+privacy policy withholds gets no new model. Run with ``--check`` to report
+what would change.
 
     .venv/bin/python tools/build_person_models.py [--check]
 """
@@ -32,6 +44,9 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path[:0] = [str(ROOT / "tools"), str(ROOT)]
+from build_event_index import country, display  # noqa: E402
+
 GROUPS = ("parents", "spouses", "children", "siblings")
 BRANCH_KINDS = ("family", "place")
 
@@ -64,7 +79,10 @@ def inputs(web: Path) -> dict:
     for row in _load(web / "assets/research/event-index.json") or []:
         if isinstance(row, dict) and row.get("p"):
             events[row["p"]].append(row)
-    return {"documents": documents, "records": records, "branches": branches, "public": public, "events": events}
+    atlas = {str(person.get("id")) for person in (_load(web / "assets/research/atlas-import.json") or {}).get("people") or []
+             if isinstance(person, dict) and person.get("kind") == "person"}
+    return {"documents": documents, "records": records, "branches": branches, "public": public, "events": events,
+            "atlas": atlas}
 
 
 EVENT_LISTS = {"events": "personal", "mentions": "mention", "research_events": "research",
@@ -75,6 +93,42 @@ def stage_two(slug: str, data: dict) -> dict:
     """The person's rows of the event index, by kind (built by build_event_index.py)."""
     rows = data["events"].get(slug, [])
     return {field: [row for row in rows if row.get("kind") == kind] for field, kind in EVENT_LISTS.items()}
+
+
+ENRICHED = ("basis", "country", "display_date")
+
+
+def stage_three(slug: str, dossier: dict, model: dict, data: dict) -> dict:
+    """The vitals, from the dossier, in the form the model already uses."""
+    vitals = dict(model.get("vitals") or {})
+    rows = {row.get("id"): row for row in data["events"].get(slug, []) if row.get("kind") == "personal"}
+    for kind, vital in (dossier.get("vitals") or {}).items():
+        if not isinstance(vital, dict):
+            continue
+        previous = vitals.get(kind)
+        if not (isinstance(previous, dict) and all(key in previous for key in ENRICHED)):
+            vitals[kind] = vital
+            continue
+        row = rows.get(kind) or {}
+        place = vital.get("place")
+        shown = display(vital.get("date"))
+        if vital.get("date") == previous.get("date"):
+            shown = previous["display_date"]   # the display form is the earlier builder's; keep it
+        elif shown is None:
+            shown = "Not recorded"
+        vitals[kind] = {**vital, "display_date": shown,
+                        "country": row.get("country") if row.get("place") == place and row.get("country") else country(place),
+                        "basis": previous.get("basis") or "imported_vital"}
+    return {"vitals": vitals} if vitals or "vitals" in model else {}
+
+
+def new_model(slug: str, dossier: dict, data: dict) -> dict:
+    """A model for a public dossier that has none, in the research-case form."""
+    wikitree = str(dossier.get("id") or slug)
+    return {"schema_version": "3.0", "id": wikitree, "catalogue_id": slug, "name": dossier.get("name"),
+            "url": f"/people/{slug}.html", "source_json": f"/people/{slug}.json", "build": "build_person_models",
+            "vitals": {}, "original_vitals": dict(dossier.get("vitals") or {}), "review": None, "override": None,
+            "dna": [], "atlas": wikitree in data["atlas"], "selection_id": wikitree, "composite_entry": False}
 
 
 def stage_one(slug: str, dossier: dict, data: dict) -> dict:
@@ -96,7 +150,7 @@ def stage_one(slug: str, dossier: dict, data: dict) -> dict:
             "branches": data["branches"].get(slug, [])}
 
 
-def build(web: Path) -> tuple[dict[str, dict], Counter]:
+def build(web: Path, policy=None) -> tuple[dict[str, dict], Counter]:
     """Return (models to write, counts); writes nothing."""
     data = inputs(web)
     counts: Counter = Counter()
@@ -109,12 +163,21 @@ def build(web: Path) -> tuple[dict[str, dict], Counter]:
         if not isinstance(dossier, dict):
             counts["models without a dossier, kept"] += 1
             continue
-        updated = {**model, **stage_one(path.stem, dossier, data), **stage_two(path.stem, data)}
+        updated = {**model, **stage_one(path.stem, dossier, data), **stage_two(path.stem, data),
+                   **stage_three(path.stem, dossier, model, data)}
         if updated != model:
             changed[path.stem] = updated
             counts["models updated"] += 1
-    missing = data["public"] - {path.stem for path in (web / "assets/research/people").glob("*.json")}
-    counts["dossiers without a model (not yet produced)"] = len(missing)
+    for slug in sorted(data["public"] - {path.stem for path in (web / "assets/research/people").glob("*.json")}):
+        dossier = _load(web / "people" / f"{slug}.json")
+        if not isinstance(dossier, dict) or dossier.get("likely_living") or dossier.get("withheld") \
+                or (policy and slug in policy.blocked):
+            counts["dossiers withheld, no model"] += 1
+            continue
+        model = new_model(slug, dossier, data)
+        model = {**model, **stage_one(slug, dossier, data), **stage_two(slug, data)}
+        changed[slug] = {**model, "vitals": dict(dossier.get("vitals") or {})}
+        counts["models created"] += 1
     return changed, counts
 
 
@@ -123,7 +186,12 @@ def main(argv=None) -> int:
     parser.add_argument("--web", type=Path, default=ROOT / "www")
     parser.add_argument("--check", action="store_true", help="report what would change; write nothing")
     args = parser.parse_args(argv)
-    changed, counts = build(args.web)
+    try:
+        from public_privacy import from_sources
+        policy = from_sources(all_exports=True)
+    except FileNotFoundError:
+        policy = None
+    changed, counts = build(args.web, policy)
     if not args.check:
         for slug, model in changed.items():
             (args.web / "assets/research/people" / f"{slug}.json").write_text(

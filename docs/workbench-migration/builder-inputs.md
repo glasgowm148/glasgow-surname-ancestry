@@ -343,8 +343,19 @@ before the release is in `data/private/workbench/www-before-release-20261026/`.
    `research_events`, `unresolved_events`, `family_events`) now come from
    that index.
 
-   Vitals, the review and DNA are kept until a later stage produces them.
-   108 dossiers have no model yet.
+   **Stage 3** (28 October 2026): the models' `vitals` now follow the
+   dossier. Imported vitals keep the model's enriched form (`basis`,
+   `country`, `display_date`), with the country taken from the event index so
+   the panel and the map agree; reviewed vitals are the dossier's own. 522
+   vitals had drifted (195 wrong countries, about 70 changed dates or places).
+   The 108 public dossiers without a model now get one, so the atlas panel
+   opens every catalogue person.
+
+   Kept by design: `original_vitals` (the WikiTree vitals before review; no
+   current input reproduces them), `review` (its summaries exist only in the
+   models; 496 are older than the person's `findings.md`, which is a
+   content decision, not a build step), `dna` (restored from the approved
+   atlas models by `repair_public_dna`) and `override`.
    `assets/research/fragments/` (about 1,200 content-hashed section files) are
    written by `page_fragments.py` and only need their stale copies pruned.
 3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
