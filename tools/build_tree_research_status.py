@@ -141,7 +141,11 @@ def build(root: Path = ROOT, checks: bool = True) -> dict:
             if "\n## Current conclusion" in "\n" + findings.read_text(encoding="utf-8", errors="replace"):
                 row["c"] = 1
 
-    ledger = json.loads((root / "research/latest-findings.json").read_text(encoding="utf-8"))
+    try:
+        import research_data
+    except ModuleNotFoundError:
+        from tools import research_data
+    ledger = research_data.latest_findings(root)
     for finding in ledger.get("findings", []):
         found = str(finding.get("found_on") or "")[:10]
         for person in finding.get("people", []):

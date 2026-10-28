@@ -12,7 +12,11 @@ from tools.build_latest_findings import page_urls
 
 
 def build(web=ROOT/'www'):
-    ledger=json.loads((ROOT/'research/latest-findings.json').read_text())
+    try:
+        import research_data
+    except ModuleNotFoundError:
+        from tools import research_data
+    ledger=research_data.latest_findings(ROOT)
     audit=json.loads((ROOT/'research/historical-relationship-audit-2026-09-30.json').read_text())
     finding_urls=page_urls(ledger['findings'])
     changes=[(f,c) for f in ledger['findings'] for c in f.get('relationship_changes',[])]

@@ -7,7 +7,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def repair(web=ROOT / "www"):
     corrections = json.loads((ROOT / "research/evidence_source_corrections.json").read_text())
-    records = {row["record_id"]: row for row in json.loads((ROOT / "research/canonical_records.json").read_text())}
+    try:
+        import research_data
+    except ModuleNotFoundError:
+        from tools import research_data
+    records = {row["record_id"]: row for row in research_data.canonical_records(ROOT)}
     count = 0
     for correction in corrections:
         record = records[correction["canonical_record_id"]]

@@ -366,7 +366,11 @@ before the release is in `data/private/workbench/www-before-release-20261026/`.
    views `make research-views` writes. Without a database (a fresh clone, CI)
    it reads the generated file. The catalogue's profile-update queue now reads
    the relationship assessments and findings through it; its output is
-   unchanged, because the rows are identical. Other readers of
-   `research/*.json` (about twenty tools) can move over one at a time.
+   unchanged, because the rows are identical. The ancestry progress,
+   relationship audit, tree research status and evidence-link builders and
+   `relationship_probability.py` followed. The rest stay on the files for a
+   reason: the canonical-record ingest writes `canonical_records.json`, the
+   hierarchy repair caches by file, and the research checks report file
+   paths and line pointers.
 5. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers. One-off scripts that edit `www/` (as on 17 October) must become builder steps or declared inputs, or their changes are lost at the next rebuild.
 6. Prove the result with a build into an empty directory and a byte comparison of two builds.

@@ -311,7 +311,11 @@ def build(create_baseline=False):
         for summary in cohorts[str(cutoff)].values():
             summary['father_listing'] = father_listing_counts(working['cohort_ids'], listings)
     primary = cohorts[str(strategy["primary_cutoff"])]
-    assessments = {a.get('assertion_id'): a for a in json.loads((ROOT / 'research/relationship_assessments.json').read_text())}
+    try:
+        import research_data
+    except ModuleNotFoundError:
+        from tools import research_data
+    assessments = {a.get('assertion_id'): a for a in research_data.relationship_assessments(ROOT)}
     cases = {c.get('assertion_id'): c for c in strategy['early_connections'] if c.get('assertion_id')}
     # Reuse the per-pair next questions already reviewed with the ratings.
     rating_tests = {}
@@ -321,7 +325,7 @@ def build(create_baseline=False):
                 rating_tests[rating.get('assertion_id')] = rating['next_test']
     priorities = []
     rating_details = {(e['subject_id'], e['relative_id']): e
-                      for e in json.loads((ROOT / 'research/relationship_probability_estimates.json').read_text()).get('estimates', [])
+                      for e in research_data.relationship_estimates(ROOT).get('estimates', [])
                       if e.get('relationship') == 'father'}
     for impact in paternal_link_impacts(nodes, edges, strategy['primary_cutoff'], primary['working']['cohort_ids']):
         if impact['status'] in CONFIDENT:

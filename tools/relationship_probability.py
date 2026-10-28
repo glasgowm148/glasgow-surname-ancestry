@@ -5,7 +5,6 @@ from __future__ import annotations
 from typing import Any
 from functools import lru_cache
 from pathlib import Path
-import json
 import re
 
 SCALE_NOTE = (
@@ -40,10 +39,11 @@ def confidence_band(status: Any) -> str:
 
 @lru_cache(maxsize=1)
 def reviewed_estimates():
-    path = Path(__file__).resolve().parents[1] / 'research/relationship_probability_estimates.json'
-    if not path.exists():
-        return {}
-    rows = json.loads(path.read_text())['estimates']
+    try:
+        import research_data
+    except ModuleNotFoundError:
+        from tools import research_data
+    rows = research_data.relationship_estimates(Path(__file__).resolve().parents[1]).get('estimates', [])
     result = {}
     for row in rows:
         key = (row['subject_id'].casefold(), row['relative_id'].casefold(), row['relationship'])
