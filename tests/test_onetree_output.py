@@ -137,7 +137,7 @@ class OneTreeOutputTests(unittest.TestCase):
         self.assertEqual(self.people["Glasgow-8"]["edge"]["parent"], "Glasgow-12")
         james = self.people["Glasgow-2738"]
         self.assertEqual(james["edge"]["parent"], "Glasgow-2769")
-        self.assertEqual(james["edge"]["status"], "uncertain")
+        self.assertEqual(james["edge"]["status"], "probable")  # rated 64% on 22 October 2026
         self.assertNotIn("@james-father", self.people)
 
     def test_location_classifier_covers_common_unqualified_places(self):
@@ -151,8 +151,10 @@ class OneTreeOutputTests(unittest.TestCase):
             self.assertEqual(self.build.location_for(place), expected, place)
 
     def test_drawing_parent_prefers_stronger_recorded_evidence(self):
+        # The father was rated proved (95%) on 22 October 2026, which ties the confident
+        # mother's rank; a recorded father is drawn ahead of an equally graded mother.
         edge = self.people["Glasgow-1433"]["edge"]
-        self.assertEqual((edge["parent"], edge["role"], edge["status"]), ("Allison-6866", "mother", "confident"))
+        self.assertEqual((edge["parent"], edge["role"], edge["status"]), ("Glasgow-3375", "father", "proved"))
 
     def test_robert_is_the_shared_recorded_parent_of_major_child_offshoots(self):
         for child_id in ("Glasgow-563", "Glasgow-1965", "Glasgow-193", "Glasgow-653", "Glasgow-8"):

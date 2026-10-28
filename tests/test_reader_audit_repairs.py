@@ -23,7 +23,8 @@ class ReaderAuditRepairsTests(unittest.TestCase):
         self.assertIn('692 / 2, reference 20 / 330', source.get_text(' ', strip=True))
         self.assertIn('not a new event or relationship', source.get_text(' ', strip=True))
         self.assertIsNotNone(source.select_one('a[href="/branches/scottish-families/#opr-births-to-1700"]'))
-        self.assertIn('Unassessed father link', page.get_text())
+        # The index row does not upgrade the father; his separate 22 October 2026 rating does.
+        self.assertIn('Documented father', page.get_text())
         self.assertIn('Supplied OPR births and baptisms: row 16', page.select_one('#archive-tools').get_text())
 
     @requires_generated_data
