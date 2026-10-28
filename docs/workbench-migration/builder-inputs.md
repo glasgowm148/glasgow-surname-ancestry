@@ -334,11 +334,28 @@ before the release is in `data/private/workbench/www-before-release-20261026/`.
    - Source-document links, from the source library.
    - Family and place branches, from `branches.json`.
 
-   Vitals, the review, events, mentions and DNA are kept until a later stage
-   produces them. 107 dossiers have no model yet.
+   **Event index and stage 2** (28 October 2026):
+   `tools/build_event_index.py` (run before the models) keeps the vital rows
+   of `assets/research/event-index.json` (about nine in ten rows) in step
+   with the dossier vitals. It rewrote 131 changed rows and added 655 missing
+   ones; reviewed vitals and the mention, research, unresolved and family rows
+   are kept. The models' event lists (`events`, `mentions`,
+   `research_events`, `unresolved_events`, `family_events`) now come from
+   that index.
+
+   Vitals, the review and DNA are kept until a later stage produces them.
+   108 dossiers have no model yet.
    `assets/research/fragments/` (about 1,200 content-hashed section files) are
    written by `page_fragments.py` and only need their stale copies pruned.
 3. Split each builder into a producer of one intermediate file (written outside `www/`, for example `build/site-data/`) and a renderer that only reads declared files; start with the most-read intermediates above (`data/people-index.json`, `data/catalogue-search-index.json`, `data/people.json`, `assets/research/branches.json`).
 4. Make `tools/build_research_catalog.py` (7,079 lines, the producer of `data/people.json` and `map/data/records.csv`) read the research database through `genealogy.store.projection.public_case` instead of the legacy registries.
+   **Started** (28 October 2026): `tools/research_data.py` gives builders the
+   research rows (relationship assessments and estimates, findings, canonical
+   records, vital assessments) straight from the database, through the same
+   views `make research-views` writes. Without a database (a fresh clone, CI)
+   it reads the generated file. The catalogue's profile-update queue now reads
+   the relationship assessments and findings through it; its output is
+   unchanged, because the rows are identical. Other readers of
+   `research/*.json` (about twenty tools) can move over one at a time.
 5. Retire the `repair_*` tools, which edit published pages in place, by moving their corrections into the producers. One-off scripts that edit `www/` (as on 17 October) must become builder steps or declared inputs, or their changes are lost at the next rebuild.
 6. Prove the result with a build into an empty directory and a byte comparison of two builds.

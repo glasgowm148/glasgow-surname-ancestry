@@ -4912,10 +4912,12 @@ def _load_profile_updates(wikitree_evidence: dict, report: list | None = None) -
         from relationship_update_changes import pending_changes
     except ModuleNotFoundError:
         from tools.relationship_update_changes import pending_changes
-    relationship_path = PROJECT_ROOT / 'research/relationship_assessments.json'
-    findings_path = PROJECT_ROOT / 'research/latest-findings.json'
-    relationship_reviews = json.loads(relationship_path.read_text()) if relationship_path.exists() else []
-    reviewed_findings = json.loads(findings_path.read_text()).get('findings', []) if findings_path.exists() else []
+    try:
+        import research_data
+    except ModuleNotFoundError:
+        from tools import research_data
+    relationship_reviews = research_data.relationship_assessments(PROJECT_ROOT)
+    reviewed_findings = research_data.latest_findings(PROJECT_ROOT).get('findings', [])
     for profile_id, specification in specifications.items():
         reopened_by_date = False
         if profile_id in completed_live_profiles and profile_id not in reopened_profiles:
