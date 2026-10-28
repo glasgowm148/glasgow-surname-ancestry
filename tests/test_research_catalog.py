@@ -618,10 +618,14 @@ Corrected assessment.
                 draft = (ROOT / "research" / profile_id / f"{profile_id}.md").read_text(encoding="utf-8")
                 if profile_id in completed:
                     # Published replacements leave the paste queue; any remaining
-                    # register task must not re-append the reviewed prose.
-                    self.assertNotIn(profile_id, queue.get("entries", {}))
+                    # register task, or work queued after the live completion (which
+                    # _load_profile_updates reopens), must not re-append the reviewed prose.
+                    queued_again = profile_id in queue.get("entries", {})
+                    if queued_again:
+                        self.assertIn(profile_id, updates)
                     if profile_id in updates:
-                        self.assertTrue(updates[profile_id].get("manual_update"))
+                        if not queued_again:
+                            self.assertTrue(updates[profile_id].get("manual_update"))
                         self.assertFalse(updates[profile_id].get("addition_wikitext"))
                     continue
                 update = updates[profile_id]
@@ -784,11 +788,20 @@ Corrected assessment.
                            if not _update_names_withheld_person(queued_updates[profile_id])}
         update_count = len(current_updates)
         current_update_pages = {profile_id.casefold() for profile_id in current_updates}
+        # A private comparison publishes only its sourced additions (queue_profile_amendments'
+        # additive panel); its complete biography stays in the local research files.
+        private_comparison_pages = {profile_id.casefold() for profile_id in current_updates
+                                    if queued_updates[profile_id].get("private_comparison")}
         rendered_update_drafts = 0
         for update_page in (WEB / "people").glob("*.html"):
             if update_page.stem not in current_update_pages:
                 continue  # Original captures and retired exports keep their original headings.
             page_text = read_html(update_page)
+            if update_page.stem in private_comparison_pages:
+                self.assertIn("<h2>Historical additions for WikiTree</h2>", page_text, update_page.name)
+                self.assertNotIn('id="profile-update-draft"', page_text, update_page.name)
+                rendered_update_drafts += 1
+                continue
             draft = re.search(r'<textarea\b[^>]*\bid="profile-update-draft"[^>]*>(.*?)</textarea>', page_text, re.S)
             self.assertIsNotNone(draft, update_page.name)
             rendered_update_drafts += 1
@@ -829,7 +842,10 @@ Corrected assessment.
         payload = json.loads((WEB / "data" / "people.json").read_text(encoding="utf-8"))
         people = payload["people"]
         self.assertGreaterEqual(len(people), 4_000)
-        self.assertGreater(payload["withheld_likely_living_count"], 0)
+        # People come from research records, so the count is zero when no record names a
+        # likely-living profile; what matters is that none is published.
+        self.assertGreaterEqual(payload["withheld_likely_living_count"], 0)
+        self.assertFalse([person["catalogue_id"] for person in people if person.get("likely_living")])
         self.assertTrue(payload["source_exports"])
         # Living profiles intentionally collapse to the same privacy label. Every
         # publishable catalogue identity remains unique, while redacted rows retain
@@ -1148,8 +1164,8 @@ Corrected assessment.
         self.assertIn("needsUpdate:'needsUpdate'", search_js)
         self.assertIn("'significance:desc','Update significance'", search_js)
         update_count = len(queued_updates) + len(creation_ids)
-        self.assertIn(f"{update_count} source-backed corrections remain on WikiTree", catalogue_html)
-        self.assertIn(f"{update_count} profiles ranked by significance", catalogue_html)
+        self.assertIn(f"{update_count:,} source-backed corrections remain on WikiTree", catalogue_html)
+        self.assertIn(f"{update_count:,} profiles ranked by significance", catalogue_html)
         # Glasgow-2769's detached-father correction has been applied on WikiTree and
         # left the queue; every still-queued draft is checked for shape below.
         self.assertTrue((WEB / "people" / "profile-update.js").exists())
