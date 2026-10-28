@@ -14,8 +14,10 @@ repository, so this produces them field by field from their current inputs
 * ``evidence_documents`` and ``source_documents`` from the source library;
 * ``branches`` from the person's family and place groups in ``branches.json``.
 
-Every other field (vitals, the review, events, mentions, DNA) is kept as it is
-until a later stage produces it. Models that redirect, and models whose person
+Stage 2 adds the person's event lists (``events``, ``mentions``,
+``research_events``, ``unresolved_events``, ``family_events``) from the event
+index, whose vital rows ``build_event_index.py`` keeps current. The vitals,
+the review and DNA are kept as they are until a later stage produces them. Models that redirect, and models whose person
 has no dossier, are left alone; nothing is deleted. Run with ``--check`` to
 report what would change.
 
@@ -58,7 +60,21 @@ def inputs(web: Path) -> dict:
             for member in branch.get("members") or []:
                 branches[member].append(entry)
     public = {path.stem for path in (web / "people").glob("*.json") if not path.name.endswith(".network.json")}
-    return {"documents": documents, "records": records, "branches": branches, "public": public}
+    events: dict[str, list[dict]] = defaultdict(list)
+    for row in _load(web / "assets/research/event-index.json") or []:
+        if isinstance(row, dict) and row.get("p"):
+            events[row["p"]].append(row)
+    return {"documents": documents, "records": records, "branches": branches, "public": public, "events": events}
+
+
+EVENT_LISTS = {"events": "personal", "mentions": "mention", "research_events": "research",
+               "unresolved_events": "unresolved", "family_events": "family"}
+
+
+def stage_two(slug: str, data: dict) -> dict:
+    """The person's rows of the event index, by kind (built by build_event_index.py)."""
+    rows = data["events"].get(slug, [])
+    return {field: [row for row in rows if row.get("kind") == kind] for field, kind in EVENT_LISTS.items()}
 
 
 def stage_one(slug: str, dossier: dict, data: dict) -> dict:
@@ -93,7 +109,7 @@ def build(web: Path) -> tuple[dict[str, dict], Counter]:
         if not isinstance(dossier, dict):
             counts["models without a dossier, kept"] += 1
             continue
-        updated = {**model, **stage_one(path.stem, dossier, data)}
+        updated = {**model, **stage_one(path.stem, dossier, data), **stage_two(path.stem, data)}
         if updated != model:
             changed[path.stem] = updated
             counts["models updated"] += 1

@@ -28,6 +28,8 @@ class PersonModels(unittest.TestCase):
             put('assets/research/people/harrow-1.json', {'id': 'Harrow-1', 'name': 'Ada Harow', 'vitals': {'birth': '1801'},
                                                         'events': [{'id': 'birth'}], 'evidence_count': 1})
             put('assets/research/people/harrow-3.json', {'redirect_to': '/assets/research/people/harrow-1.json'})
+            put('assets/research/event-index.json', [{'p': 'harrow-1', 'id': 'birth', 'kind': 'personal'},
+                                                     {'p': 'harrow-1', 'id': 'E-1', 'kind': 'mention'}])
             changed, counts = models.build(web)
             model = changed['harrow-1']
             self.assertEqual(model['name'], 'Ada Harrow')
@@ -37,7 +39,9 @@ class PersonModels(unittest.TestCase):
             self.assertEqual(model['record_ids'], ['r1', 'r2'])
             self.assertEqual([b['id'] for b in model['branches']], ['family-harrow-2'])
             self.assertEqual([r['external'] for r in model['relationships']['parents']], [False, True])
-            self.assertEqual((model['vitals'], model['events']), ({'birth': '1801'}, [{'id': 'birth'}]))   # kept
+            self.assertEqual(model['vitals'], {'birth': '1801'})                                          # kept
+            self.assertEqual([e['id'] for e in model['events']], ['birth'])                            # from the index
+            self.assertEqual([e['id'] for e in model['mentions']], ['E-1'])
             self.assertNotIn('harrow-3', changed)
             models.main(['--web', str(web)])
             self.assertEqual(models.build(web)[0], {})

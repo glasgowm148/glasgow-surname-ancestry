@@ -46,7 +46,8 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     # below (dates, privacy, static sections) then apply on top.
     runpy.run_path(str(ROOT / 'tools/build_source_documents.py'))['main']([])
     runpy.run_path(str(ROOT / 'tools/build_record_details.py'))['main']([])   # uses the documents' record lists
-    runpy.run_path(str(ROOT / 'tools/build_person_models.py'))['main']([])    # uses both, plus the dossiers
+    runpy.run_path(str(ROOT / 'tools/build_event_index.py'))['main']([])
+    runpy.run_path(str(ROOT / 'tools/build_person_models.py'))['main']([])    # uses all three, plus the dossiers
     runpy.run_path(str(ROOT / 'tools/repair_public_dna.py'))['repair']()
     runpy.run_path(str(ROOT / 'tools/withhold_licensed_assets.py'))['withhold']()
     repair_privacy(ROOT / 'www')
