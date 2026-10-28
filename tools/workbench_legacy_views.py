@@ -85,7 +85,7 @@ def research_fields(revision: dict[str, Any]) -> dict[str, Any]:
             fields[key] = bool(revision[key]) if key == "working_selection" else revision[key]
     if isinstance(extra.get("research_state"), dict):
         fields["research_state"] = extra["research_state"]
-    structural = ("allow_new_relationship", "lifecycle", "display", "current", "role_correction",
+    structural = ("allow_new_relationship", "lifecycle", "display", "hypothesis_status", "status_label", "current", "role_correction",
                   "tree_parent_replacement", "working_parent_replacement", "previous_working_selection",
                   "model_note", "analysis_links", "historical_assertions", "profile_names", "profile_urls")
     fields.update({key: extra[key] for key in structural if key in extra})

@@ -46,6 +46,8 @@ def reviewed_estimates():
     rows = research_data.relationship_estimates(Path(__file__).resolve().parents[1]).get('estimates', [])
     result = {}
     for row in rows:
+        if row.get('percent') is None and row.get('lifecycle') == 'historical':
+            continue  # a retired assessment keeps its earlier estimate only as history
         key = (row['subject_id'].casefold(), row['relative_id'].casefold(), row['relationship'])
         if key in result or not 0 < row['percent'] < 100 or not row.get('basis'):
             raise ValueError(f'Invalid or duplicate relationship estimate: {key}')
