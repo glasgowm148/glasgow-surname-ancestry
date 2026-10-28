@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-26",
+  "reviewed": "2026-10-27",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -43455,6 +43455,62 @@
         "Glasgow-2357": "Lois Ladd Glasgow",
         "Pierce-14470": "Mary J. (Pierce) Glasgow"
       }
+    },
+    {
+      "subject_id": "Glasgow-590",
+      "relative_id": "Thompson-63146",
+      "relationship": "mother",
+      "percent": 96,
+      "assessment_status": "proved",
+      "assertion_id": "C-d147a83639c3",
+      "basis": "The original 1888 biography on page 526 expressly names Martha W. (Thompson) Glasgow as William Melancthon Glasgow’s mother. The rare full name and matching Geneva 1880, Allegheny Seminary and Baltimore 1885 career identify Glasgow-590. The held account separately places William M. in Moses and Martha’s second-marriage child group, distinguishing Martha from Mary Pierce, mother of Robert and Lois. This reviews William’s existing mother attachment, not Robert’s maternal replacement.",
+      "reviewed": "2026-10-27",
+      "source_ids": [
+        "william590-1888-biographical-parentage"
+      ],
+      "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
+    },
+    {
+      "subject_id": "Thompson-63146",
+      "relative_id": "Glasgow-590",
+      "relationship": "child",
+      "percent": 96,
+      "assessment_status": "proved",
+      "assertion_id": "C-d147a83639c3",
+      "basis": "The original 1888 biography on page 526 expressly names Martha W. (Thompson) Glasgow as William Melancthon Glasgow’s mother. The rare full name and matching Geneva 1880, Allegheny Seminary and Baltimore 1885 career identify Glasgow-590. The held account separately places William M. in Moses and Martha’s second-marriage child group, distinguishing Martha from Mary Pierce, mother of Robert and Lois. This reviews William’s existing mother attachment, not Robert’s maternal replacement.",
+      "reviewed": "2026-10-27",
+      "source_ids": [
+        "william590-1888-biographical-parentage"
+      ],
+      "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
+    },
+    {
+      "subject_id": "Glasgow-590",
+      "relative_id": "Glasgow-589",
+      "relationship": "father",
+      "percent": 96,
+      "assessment_status": "proved",
+      "assertion_id": "C-68f1c7cf1f6a",
+      "basis": "The original 1888 biography on page 526 expressly names Moses T. Glasgow as William Melancthon Glasgow’s father. The rare full name and matching Geneva 1880, Allegheny Seminary and Baltimore 1885 career identify Glasgow-590; Moses’s second-marriage family group in the held account identifies the retained Moses Thomas Glasgow-589. This reviews the existing father attachment, rather than adding a new father.",
+      "reviewed": "2026-10-27",
+      "source_ids": [
+        "william590-1888-biographical-parentage"
+      ],
+      "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
+    },
+    {
+      "subject_id": "Glasgow-589",
+      "relative_id": "Glasgow-590",
+      "relationship": "child",
+      "percent": 96,
+      "assessment_status": "proved",
+      "assertion_id": "C-68f1c7cf1f6a",
+      "basis": "The original 1888 biography on page 526 expressly names Moses T. Glasgow as William Melancthon Glasgow’s father. The rare full name and matching Geneva 1880, Allegheny Seminary and Baltimore 1885 career identify Glasgow-590; Moses’s second-marriage family group in the held account identifies the retained Moses Thomas Glasgow-589. This reviews the existing father attachment, rather than adding a new father.",
+      "reviewed": "2026-10-27",
+      "source_ids": [
+        "william590-1888-biographical-parentage"
+      ],
+      "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
     }
   ]
 }

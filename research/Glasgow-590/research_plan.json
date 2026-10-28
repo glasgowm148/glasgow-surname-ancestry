@@ -1,28 +1,41 @@
 {
   "case_id": "Glasgow-590",
-  "findings": [],
+  "findings": [
+    {
+      "id": "william590-published-parents-20261027",
+      "date": "2026-10-27",
+      "summary": "The original 1888 biography explicitly names Moses T. Glasgow and Martha W. (Thompson) as William Melancthon Glasgow’s parents. Each existing parent attachment receives its first individual 96% assessment; the birth date/place conflict remains open.",
+      "source_url": "https://archive.org/details/historyofrefor00glas/page/526/mode/1up"
+    },
+    {
+      "id": "william590-obituary-date-conflicts-20261028",
+      "date": "2026-10-28",
+      "summary": "The 1909 obituary names Moses T. Glasgow and Martha W. (Thompson) as William’s parents and repeats the 1 July 1856 Northwood birth statement. It reports his death shortly after 1 p.m. on Tuesday, 2 March 1909, aged 52, at St. Timothy’s Hospital, Philadelphia. The retained profile’s 3 March death date is now an explicit conflict.",
+      "source_url": "https://static1.squarespace.com/static/590be125ff7c502a07752a5b/t/6442f0f820c3dc454e4455f5/1682108664592/Glasgow%2C%2BWilliam%2BMelancthon%2C%2BDeath%2Bof%2BRev.%2BW.M.%2BGlasgow%2C%2BD.D.%2B%281909%29.pdf"
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-590, separating sourced facts from tree assertions.",
   "questions": [
     {
-      "answer": "",
+      "answer": "Distinctive full name, Geneva1880 graduation, AlleghenySeminary and Baltimore1885 pastorate match Glasgow590. Birth date/place remain a separate conflict, not grounds to invent another person.",
       "id": "identity",
       "question": "Which records prove the subject's identity across events?",
-      "status": "open"
+      "status": "answered"
     },
     {
-      "answer": "",
+      "answer": "Original1888printedp526 names MosesT.Glasgow and MarthaW.(Thompson) as WilliamMelancthonGlasgow’s parents. Both existing attachments individually assessed96%, preserving held unmarked live flags and source limitations.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
-      "status": "open"
+      "status": "answered"
     },
     {
-      "answer": "",
+      "answer": "The 1909 notice reports marriage to Elizabeth D. Mullen at Baltimore on 20 December 1888 and survival of his wife and two unnamed daughters. No separate identities or new links are established yet.",
       "id": "family",
       "question": "Which spouses and children are directly supported by records?",
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "Original1888p526 gives1July1856Northwood; retained profile5July1856Youngstown;1903manual search text gives1July1857Northwood and needs image verification. Retained1850WilliamGlasgow citation cannot describe this1856-born subject. No vital change. The original Christian Nation notice (10 March 1909, p.14) repeats 1 July 1856 Northwood and reports death 2 March 1909 at St. Timothy’s Hospital, versus retained 3 March. Seek the civil death record; neither discrepancy is silently resolved.",
       "id": "conflicts",
       "question": "What conflicts or same-name conflations must be resolved?",
       "status": "open"
@@ -40,5 +53,19 @@
       "updated_at": "2026-07-20T22:48:20Z"
     }
   ],
-  "web_searches": []
+  "web_searches": [
+    {
+      "date": "2026-10-27",
+      "scope": "Original1888biography printedp526, InternetArchive scan; modern2005retyped edition compared separately",
+      "result": "Both parent names visually verified on original; exact birth date/place conflict kept open.",
+      "url": "https://archive.org/details/historyofrefor00glas/page/526/mode/1up"
+    },
+    {
+      "date": "2026-10-28",
+      "query": "William Melancthon Glasgow 1909 obituary; public historical scan, FamilySearch deferred",
+      "result": "The 1909 obituary names Moses T. Glasgow and Martha W. (Thompson) as William’s parents and repeats the 1 July 1856 Northwood birth statement. It reports his death shortly after 1 p.m. on Tuesday, 2 March 1909, aged 52, at St. Timothy’s Hospital, Philadelphia. The retained profile’s 3 March death date is now an explicit conflict. The original issue title and obituary page were visually inspected. This is a contemporary published death notice, not a civil death certificate. Its retrospective family and career wording closely parallels the 1888 biography, so independent testimony about the parents or birth is not established. The retained profile gives 5 July 1856 at Youngstown and death on 3 March 1909; the notice gives 1 July 1856 at Northwood and death on 2 March 1909. Both conflicts remain open. The existing father and mother assessments stay at 96%; no vital field, attachment or live flag changes.",
+      "url": "https://static1.squarespace.com/static/590be125ff7c502a07752a5b/t/6442f0f820c3dc454e4455f5/1682108664592/Glasgow%2C%2BWilliam%2BMelancthon%2C%2BDeath%2Bof%2BRev.%2BW.M.%2BGlasgow%2C%2BD.D.%2B%281909%29.pdf"
+    }
+  ],
+  "updated_at": "2026-10-28"
 }

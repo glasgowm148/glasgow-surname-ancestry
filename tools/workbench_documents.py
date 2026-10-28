@@ -40,6 +40,8 @@ SPECS = (
     Spec("research/*/research_plan.json", (("questions", "list"), ("web_searches", "list"), ("findings", "list"))),
     Spec("research/*/parent_candidates.json", (("", "list"),)),
     Spec("data/wikitree/profile-update-queue.json", (("entries", "dict"),)),
+    Spec("research/queue-review-2026-10-17/catalogue-integration.json",
+         (("profile_updates", "dict"), ("new_people", "list"))),
     Spec("research/research-queue-matches.json", (("reviews", "dict"),)),
     Spec("research/research-queue-overrides.json", (("draft_replacements", "dict"),)),
 )

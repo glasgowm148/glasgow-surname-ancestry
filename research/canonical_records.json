@@ -46327,5 +46327,82 @@
         "url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0034.pdf"
       }
     ]
+  },
+  {
+    "record_id": "william590-1888-biographical-parentage",
+    "record_type": "Published biographical parentage account",
+    "date": "1888 (publication); retrospective family account",
+    "date_status": "publication_date",
+    "year": 1888,
+    "place": null,
+    "association": "William Melancthon Glasgow’s named father Moses T. and mother Martha W. (Thompson)",
+    "source_title": "W. Melancthon Glasgow, History of the Reformed Presbyterian Church in America (Baltimore: Hill & Harvey, 1888), pp. 526–527",
+    "source_url": "https://archive.org/details/historyofrefor00glas/page/526/mode/1up",
+    "source_type": "Original printed biographical account",
+    "source_status": "Original printed page 526 visually inspected and captured; modern 2005 retyped edition inspected separately",
+    "status": "Explicit father and mother clause; existing profile identity supported; birth details disputed",
+    "profiles": {
+      "Glasgow-590": {
+        "name": "William Melanchthon Glasgow",
+        "role": "Biographical subject and book author; existing father and mother individually reviewed at 96%"
+      },
+      "Glasgow-589": {
+        "name": "Moses Thomas Glasgow",
+        "role": "Named father of William Melancthon Glasgow"
+      },
+      "Thompson-63146": {
+        "name": "Martha W. (Thompson) Glasgow",
+        "role": "Named mother of William Melancthon Glasgow"
+      }
+    },
+    "note": "The original 1888 biography on page 526 expressly names Moses T. Glasgow as William Melancthon Glasgow’s father. The rare full name and matching Geneva 1880, Allegheny Seminary and Baltimore 1885 career identify Glasgow-590; Moses’s second-marriage family group in the held account identifies the retained Moses Thomas Glasgow-589. This reviews the existing father attachment, rather than adding a new father. The original 1888 biography on page 526 expressly names Martha W. (Thompson) Glasgow as William Melancthon Glasgow’s mother. The rare full name and matching Geneva 1880, Allegheny Seminary and Baltimore 1885 career identify Glasgow-590. The held account separately places William M. in Moses and Martha’s second-marriage child group, distinguishing Martha from Mary Pierce, mother of Robert and Lois. This reviews William’s existing mother attachment, not Robert’s maternal replacement. Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline.",
+    "reviewed_on": "2026-10-27",
+    "source_quality": "published_self_biography",
+    "provenance": "Original 1888 Princeton Theological Seminary Library scan, Internet Archive historyofrefor00glas, printed p.526, reader page561/903, saved image leaf0592. Not independent of the same author’s undated family typescript.",
+    "historical_basis": {
+      "latest_event_year": 1888,
+      "reason": "Original book published in 1888; biography describes an existing Baltimore pastorate, not a new1888birth event."
+    },
+    "publish_to_record_index": true,
+    "source_copy_sha256": "db2488a6482877e17fb4d0ed0f1c90a6c2b86b2ded8a264ceda06f3f2e876be1",
+    "additional_sources": [
+      {
+        "url": "https://reformedpresbyterian.org/pdf/Glasgow.pdf",
+        "title": "2005 retyped edition, PDFpp535–536 / printedpp526–527",
+        "scope": "Verified separately from original1888page; same book and same author, not independent corroboration."
+      }
+    ]
+  },
+  {
+    "record_id": "william590-1909-christian-nation-obituary",
+    "record_type": "Published death notice",
+    "date": "2 March 1909 (reported death); published 10 March 1909",
+    "date_status": "reported_event_date",
+    "year": 1909,
+    "place": "St. Timothy’s Hospital, Philadelphia, Pennsylvania, United States",
+    "association": "William Melancthon Glasgow; named parents Moses T. Glasgow and Martha W. (Thompson)",
+    "source_title": "Death of Rev. W. M. Glasgow, D.D., The Christian Nation, vol. 50, whole no. 1277 (10 March 1909), p. 14",
+    "source_url": "https://static1.squarespace.com/static/590be125ff7c502a07752a5b/t/6442f0f820c3dc454e4455f5/1682108664592/Glasgow%2C%2BWilliam%2BMelancthon%2C%2BDeath%2Bof%2BRev.%2BW.M.%2BGlasgow%2C%2BD.D.%2B%281909%29.pdf",
+    "source_type": "Original printed newspaper obituary",
+    "source_status": "Issue title on PDF page 2 and printed obituary page 14 on PDF page 3 visually inspected",
+    "status": "Existing subject identified; birth and death discrepancies retained for reconciliation",
+    "profiles": {
+      "Glasgow-590": {
+        "name": "William Melanchthon Glasgow",
+        "role": "Deceased minister and author; existing profile"
+      }
+    },
+    "note": "The 1909 obituary names Moses T. Glasgow and Martha W. (Thompson) as William’s parents and repeats the 1 July 1856 Northwood birth statement. It reports his death shortly after 1 p.m. on Tuesday, 2 March 1909, aged 52, at St. Timothy’s Hospital, Philadelphia. The retained profile’s 3 March death date is now an explicit conflict. The original issue title and obituary page were visually inspected. This is a contemporary published death notice, not a civil death certificate. Its retrospective family and career wording closely parallels the 1888 biography, so independent testimony about the parents or birth is not established. The retained profile gives 5 July 1856 at Youngstown and death on 3 March 1909; the notice gives 1 July 1856 at Northwood and death on 2 March 1909. Both conflicts remain open. The existing father and mother assessments stay at 96%; no vital field, attachment or live flag changes. The notice also reports marriage to Elizabeth D. Mullen at Baltimore on 20 December 1888 and survival of his wife and two unnamed daughters; these relatives have not been separately identified in this review.",
+    "reviewed_on": "2026-10-28",
+    "source_quality": "contemporary_death_notice_with_retrospective_biography",
+    "provenance": "Three-page historical scan recovered from the Log College Press public Squarespace PDF; masthead and printed p.14 read directly, not inferred from OCR or the search preview.",
+    "historical_basis": {
+      "latest_event_year": 1909,
+      "latest_birth_year": 1857,
+      "source_url": "https://static1.squarespace.com/static/590be125ff7c502a07752a5b/t/6442f0f820c3dc454e4455f5/1682108664592/Glasgow%2C%2BWilliam%2BMelancthon%2C%2BDeath%2Bof%2BRev.%2BW.M.%2BGlasgow%2C%2BD.D.%2B%281909%29.pdf",
+      "reason": "Original death notice reports death in March1909 aged52, bounding birth no later than1857; it separately states1July1856. This is a historical publication bound, not a resolution of the disputed birth field."
+    },
+    "publish_to_record_index": true,
+    "source_copy_sha256": "9b7046df52faf5eb865e2195184aed0655f7f5916f3de7f56ebf66fe28afd8fc"
   }
 ]

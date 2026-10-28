@@ -70,3 +70,22 @@ class DocumentMoveTests(unittest.TestCase):
             with p.store.write(actor='t',tool='t',source='t',reason='x') as tx: d.move_document(tx,old,new,rev)
             with self.assertRaises(ValueError):
                 with p.store.write(actor='t',tool='t',source='t',reason='x') as tx: d.move_document(tx,new,old,d.frame(new)['note']['revision'])
+
+    def test_catalogue_integration_profile_updates_and_new_people_round_trip(self):
+        path = 'research/queue-review-2026-10-17/catalogue-integration.json'
+        document = {
+            'schema_version': 1,
+            'profile_updates': {
+                'Glasgow-589': {'draft_path': 'research/Glasgow-589/parent-review-2026-10-27.wiki',
+                                'summary': 'Current review'}
+            },
+            'new_people': [{'subject_id': 'record-example', 'name': 'Example'}],
+            'reviewed_on': '2026-10-27'
+        }
+        with open_project(self.root, create=True) as p:
+            d = Documents(p.store)
+            with p.store.write(actor='test', tool='fixture') as tx:
+                d.store_document(tx, path, document)
+            self.assertEqual(document, d.compose(path))
+            self.assertEqual({'profile_updates', 'new_people'},
+                             {row['field'] for row in d.stored_rows(path)})

@@ -4375,3 +4375,11 @@ Twenty provider transcripts are reviewed in fifteen documentary groups. Existing
 ## Infant John Cameron Glasgow — 26 October 2026
 
 HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cincinnati_John_Cameron_Glasgow.md) and a distinct record-defined account retain the explicit child of Moses Glasgow-589 and Mary Pierce-14470, died aged five months. Adult Glasgow-466 is excluded; restricted duplicate-search fields remain unassessed. Exact event dates are unknown, Cincinnati locations inferred and uncertain, parent roles qualified without percentages. No live creation or existing-profile grade change.
+
+## 27 October 2026 — William590 original published parent review
+
+- [[Glasgow-590]] — Review existing father [[Glasgow-589]] and mother [[Thompson-63146]] from unmarked/unrated to96% each after inspecting the original1888biography, p.526. Preserve existing attachments and all sources; keep1July1856Northwood versus5July1856Youngstown unresolved, and flag the incompatible1850census citation. Full draft: [parent review](../research/Glasgow-590/parent-review-2026-10-27.wiki). Source: [original1888p526](https://archive.org/details/historyofrefor00glas/page/526/mode/1up). No live save.
+
+## 28 October 2026 — William Glasgow obituary
+
+- [[Glasgow-590]] — Add the original 1909 obituary and retain birth/death conflicts; existing parent reviews remain 96% each. Complete draft: [parent review](../research/Glasgow-590/parent-review-2026-10-28.wiki).
