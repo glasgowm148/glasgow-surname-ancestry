@@ -1,0 +1,20 @@
+{
+  "reviewed": "2026-10-28",
+  "scope": "Removal of the WikiTree editor's default external-link placeholder from the See Also list; no other text changed",
+  "profiles": {
+    "Glasgow-1022": {
+      "draft_path": "data/private/high-impact-review-2026-10-22/Glasgow-1022.wiki",
+      "previous_preservation_review": "research/ancestry-connections/high-impact-review-preservation-2026-10-22.json",
+      "previous_proposed_sha256": "0295c977329c600f97b6b2d643f2990b452a1bce02cdf3fb327a2da7c7667fe0",
+      "source_draft_sha256": "1849c3bf56c7966cb86580dc8258ecf05768385bd39ca28560d12837e122df6c",
+      "current_sha256": "c2df07fa23f373746604e901dc8a71a503a10e357702664bea2b1191c50517b7",
+      "proposed_sha256": "d68922fe54a7cd39f5f5e3bfcce3ad61e66d24b237ffd83bf5436173fdd6441e",
+      "prior_current_hash_unchanged": true,
+      "all_substantive_passages_accounted_for": true,
+      "all_prior_source_urls_retained": true,
+      "private_comparison": true,
+      "removed": "[http://www.example.com link title], the unedited placeholder that WikiTree's link button inserts; it carries no source or text.",
+      "retained": "Every other line of the 22 October reviewed draft, unchanged."
+    }
+  }
+}
