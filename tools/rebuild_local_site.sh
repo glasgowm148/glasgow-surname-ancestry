@@ -79,6 +79,7 @@ step 0 group-places        $PY tools/study_place_links.py   # tree-group place l
 # approved versions last, or the privacy check finds individual DNA annotations.
 step 0 dna-withhold        $PY -c "import runpy; print(runpy.run_path('tools/repair_public_dna.py')['repair']())"
 step 0 finalize            $PY -c "from tools.finalize_site import finalize; print(finalize())"
+step 0 release-totals      $PY tools/check_release_consistency.py --fix --no-research   # totals after finalize's record ingest
 step 1 check-research      $PY tools/check_research_publication.py --baseline data/site/research-publication-baseline.json
 step 1 check-release       $PY tools/check_release_consistency.py
 step 1 check-links         $PY tools/check_internal_links.py --site www --baseline data/site/internal-link-baseline.json
