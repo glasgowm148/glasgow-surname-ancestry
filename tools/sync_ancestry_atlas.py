@@ -21,12 +21,18 @@ CHRONOLOGY_DISPLAY_FIELDS = (
 )
 
 def parent_order(row: dict) -> tuple:
-    """One layout attachment; the other independently graded parent stays listed."""
+    """One layout attachment; the other independently graded parent stays listed.
+
+    A selected working father is drawn ahead of a recorded mother so the line it
+    joins stays connected. A working mother is ranked by her grade like any
+    recorded parent: a possible mother must not replace a proved father.
+    """
     status = str(row.get('status', '')).replace('-', '_').casefold()
     ranks = {'dna_confirmed': 0, 'confident': 1, 'certain': 1, 'proved': 1,
              'confirmed': 1, 'documented': 1, 'strongly_supported': 1,
              'uncertain': 3, 'possible': 3, 'probable': 3, 'guess': 3}
-    return (not row.get('hypothesis', False), ranks.get(status, 2),
+    working_father = bool(row.get('hypothesis', False)) and row.get('role') == 'father'
+    return (not working_father, ranks.get(status, 2),
             row.get('role') != 'father', row.get('id', ''))
 
 
