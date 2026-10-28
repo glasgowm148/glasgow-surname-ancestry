@@ -36,23 +36,24 @@ class RobertHypothesisExportsTests(unittest.TestCase):
             row = next(r for r in dossier['relationships'][group] if r['id'] == target)
             network_row = next(r for r in network['relationships'] if r['id'] == target)
             self.assertEqual(row, network_row)
-            self.assertEqual('possible', row['status'])
-            self.assertEqual('open', row['hypothesis_status'])
-            self.assertEqual('current', row['lifecycle'])
+            # Retired 28 October 2026: superseded by the proved record-defined father Glasgow-4090.
+            self.assertEqual('superseded', row['status'])
+            self.assertEqual('superseded', row['hypothesis_status'])
+            self.assertEqual('historical', row['lifecycle'])
+            self.assertEqual('superseded', row['display'])
             self.assertEqual(ASSERTION, row['claim_id'])
             self.assertEqual(assessment['reason'], row['reason'])
             self.assertEqual(assessment['source_ids'], row['source_ids'])
-            self.assertIn('no ages, wife or kinship', row['limitations'])
+            self.assertIn('displaced by the stronger, record-defined father', row['limitations'])
             node = html.select_one(f'#family tr[data-claim-id="{ASSERTION}"]')
-            # Pages show the curated label in the canonical vocabulary (tools/evidence_labels.py).
-            label = evidence_labels.normalise_status_label(row["status"], row["status_label"])
-            if group == 'parents':
-                label += ' · ' + percentage_text(row['probability'])
-            self.assertEqual(label, node.select_one('.status-label').text)
+            # A superseded row is listed as an earlier alternative, never as an open hypothesis.
+            label = node.select_one('.status-label').text
+            self.assertIn('Superseded', label)
+            self.assertNotIn('Open', label)
             self.assertIn(row['reason'], node.text)
             for document in (dossier, network):
                 claim = next(c for c in document['claims'] if c['id'] == ASSERTION)
-                self.assertEqual('current', claim['lifecycle'])
+                self.assertEqual('historical', claim['lifecycle'])
                 self.assertEqual(assessment['limitations'], claim['limitations'])
                 historical = next(c for c in document['claims'] if c['id'] == old)
                 self.assertEqual('historical', historical['lifecycle'])

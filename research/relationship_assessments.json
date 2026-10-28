@@ -144,30 +144,30 @@
       "Glasgow-951",
       "Glasgow-1367"
     ],
-    "status": "possible",
-    "hypothesis_status": "open",
-    "basis": "research_assessment",
+    "status": "superseded",
+    "hypothesis_status": "superseded",
+    "basis": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship.",
     "source_ids": [
       "tithe-robert-lisnagaver-1834"
     ],
-    "reason": "The 1834 tithe places Robert and Alexr on separate Lisnagaver holdings but states no kinship. Robert remains a possible father; the earlier pedigree attachment is superseded, not biological fatherhood disproved. His identification with Glenleslie Robert is also unresolved.",
+    "reason": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship.",
     "provenance": "Glasgow-1367 findings: Lisnagaver land-sequence correction; Glasgow-951 reviewed-position decision (earlier proposal not established).",
     "perspectives": {
       "Glasgow-951": {
         "relationship": "father",
-        "status_label": "Open father hypothesis"
+        "reason": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship."
       },
       "Glasgow-1367": {
         "relationship": "son",
-        "status_label": "Possible son; relationship unproved"
+        "reason": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship."
       }
     },
     "assertion_id": "C-robert-alexander-father-hypothesis",
     "publication_status": "approved",
-    "status_label": "Open father hypothesis",
-    "claim": "The Robert Glasgow recorded at Lisnagaver in 1834 remains a possible father of Alexander Glasgow; neither fatherhood nor his identification with Glenleslie Robert is established.",
+    "status_label": "Superseded proposal",
+    "claim": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship.",
     "identity_scope": "Glasgow-1367 is retained as the working Lisnagaver occupier profile. Identification with the Glenleslie census-and-will man is unresolved; that man's dates, birthplace and family cannot be transferred to the occupier.",
-    "limitations": "The tithe names Robert and Alexr on separate holdings but gives no ages, wife or kinship. No record identifies Alexander as Robert's son. The rejected acreage comparison supplies no support; the Coltrim household belongs to a separate unresolved comparison.",
+    "limitations": "Retained as history. The tithe evidence is unchanged and Robert's fatherhood is not disproved by a record naming him; it is displaced by the stronger, record-defined father. Robert-1367's identification with Glenleslie Robert remains a separate open question.",
     "analysis_links": [
       {
         "href": "/people/glasgow-1367.html#question-robert-identity",
@@ -201,7 +201,31 @@
         "label": "Earlier supporting interpretation; corrected",
         "scope": "The earlier chronological argument combined Glenleslie and Coltrim household evidence. That supporting interpretation is retired; the independently stated open father hypothesis remains current."
       }
-    ]
+    ],
+    "assessment_date": "2026-10-28",
+    "assessment_history": [
+      {
+        "status": "superseded",
+        "probability_percent": null,
+        "assessment_date": "2026-10-28",
+        "source_basis": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship."
+      },
+      {
+        "status": "superseded",
+        "probability_percent": null,
+        "assessment_date": "2026-10-28",
+        "source_basis": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship."
+      },
+      {
+        "status": "possible",
+        "probability_percent": null,
+        "assessment_date": null,
+        "source_basis": "research_assessment"
+      }
+    ],
+    "probability": null,
+    "lifecycle": "historical",
+    "display": "superseded"
   },
   {
     "people": [

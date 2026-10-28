@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-27",
+  "reviewed": "2026-10-28",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -47,14 +47,27 @@
       "subject_id": "Glasgow-951",
       "relative_id": "Glasgow-1367",
       "relationship": "father",
-      "percent": 40,
-      "assessment_status": "possible",
+      "percent": null,
+      "assessment_status": "superseded",
       "assertion_id": "C-robert-alexander-father-hypothesis",
-      "basis": "The 1834 tithe places Robert and Alexr on separate Lisnagaver holdings but states no kinship. Locality and compatible generations support a possible father, while collateral kinship and the older man’s unresolved Glenleslie identity limit confidence. No parent record names Alexander as Robert’s son.",
+      "basis": "Superseded by the 23 October 2026 Lisnagaver review (C-lisnagaver-father-20261023-glasgow-951), which rates the record-defined John Glasgow-4090 as Alexander's father at 90%. That father is John Glasgow, farmer, named in the 1846 marriage of Alexander's brother John-867. The earlier 40% possible rating for Robert rested only on the 1834 tithe placing Robert and Alexr on separate Lisnagaver holdings, with no stated kinship.",
       "source_ids": [
         "tithe-robert-lisnagaver-1834"
       ],
-      "reviewed": "2026-10-17"
+      "reviewed": "2026-10-28",
+      "assessment_history": [
+        {
+          "percent": 40,
+          "assessment_status": "possible",
+          "basis": "The 1834 tithe places Robert and Alexr on separate Lisnagaver holdings but states no kinship. Locality and compatible generations support a possible father, while collateral kinship and the older man’s unresolved Glenleslie identity limit confidence. No parent record names Alexander as Robert’s son.",
+          "reviewed": "2026-10-17",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "lifecycle": "historical",
+      "display": "superseded",
+      "hypothesis_status": "superseded",
+      "status_label": "Superseded proposal"
     },
     {
       "subject_id": "Glasgow-3939",
