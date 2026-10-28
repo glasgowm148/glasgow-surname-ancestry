@@ -2912,32 +2912,50 @@ def _repair_page(path, add_tree_links, lines) -> int:
     return changed
 
 
-_PAGE_JOB = None
-
-
-def _repair_page_job(path):
-    add_tree_links, lines = _PAGE_JOB
-    return _repair_page(path, add_tree_links, lines)
-
-
 def _repair_pages(paths, add_tree_links, lines) -> int:
     """Each page is independent, so a full pass runs on several processes.
 
-    Workers fork from this process and inherit its loaded sources. Set
-    GLASGOW_PAGE_WORKERS=1 to run in order in one process.
+    Workers are forked from this process and inherit its code and loaded
+    sources, so nothing but page counts crosses between processes (which also
+    works when this module is loaded with runpy). Set GLASGOW_PAGE_WORKERS=1
+    to run in order in one process.
     """
     import os
     workers = int(os.environ.get("GLASGOW_PAGE_WORKERS") or min(8, os.cpu_count() or 1))
     if workers <= 1 or len(paths) < 200:
         return sum(_repair_page(path, add_tree_links, lines) for path in paths)
     import multiprocessing
-    global _PAGE_JOB
-    _PAGE_JOB = (add_tree_links, lines)
-    try:
-        with multiprocessing.get_context("fork").Pool(workers) as pool:
-            return sum(pool.map(_repair_page_job, paths, chunksize=32))
-    finally:
-        _PAGE_JOB = None
+    context = multiprocessing.get_context("fork")
+    tasks, results = context.Queue(), context.SimpleQueue()
+    for index in range(len(paths)):
+        tasks.put(index)
+    for _ in range(workers):
+        tasks.put(None)
+
+    def work():   # take the next page as each one finishes, so heavy pages spread out
+        changed = 0
+        try:
+            for index in iter(tasks.get, None):
+                changed += _repair_page(paths[index], add_tree_links, lines)
+        except BaseException:
+            import traceback
+            results.put(("failed", traceback.format_exc()))
+            raise
+        results.put(changed)
+
+    processes = [context.Process(target=work) for _ in range(workers)]
+    for process in processes:
+        process.start()
+    totals = [results.get() for _ in processes]   # read before joining, so no worker blocks on a full pipe
+    for process in processes:
+        process.join()
+    errors = [item[1] for item in totals if isinstance(item, tuple)]
+    if errors:
+        raise RuntimeError("a person page worker failed:\n" + errors[0])
+    failed = [process.exitcode for process in processes if process.exitcode != 0]
+    if failed:
+        raise RuntimeError(f"person page workers failed (exit codes {failed}); rerun with GLASGOW_PAGE_WORKERS=1 to see the error")
+    return sum(totals)
 
 
 @cached_hierarchy_sources()
