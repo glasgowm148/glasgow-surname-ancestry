@@ -57,7 +57,11 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
     # Reapply approved map corrections after imports; raw map inputs are private.
     runpy.run_path(str(ROOT / 'tools/project_record_locations.py'))['project'](ROOT / 'www', write=True)
     runpy.run_path(str(ROOT / 'tools/repair_evidence_source_links.py'))['repair']()
-    runpy.run_path(str(ROOT / 'tools/build_research_catalog.py'))['sync_generated_profile_work_status']()
+    catalogue = runpy.run_path(str(ROOT / 'tools/build_research_catalog.py'))
+    catalogue['sync_generated_profile_work_status']()
+    # People added to people.json after the catalogue build (case dossiers, reviewed
+    # creations) change the marriage panel the catalogue wrote; refresh it from the data.
+    catalogue['sync_generated_marriage_statistics']()
     # Source pages made from the canonical-record block alone lacked the standard
     # reader container that the static-source sections anchor on.
     runpy.run_path(str(ROOT / 'tools/ingest_canonical_records.py'))['repair_layout'](ROOT)

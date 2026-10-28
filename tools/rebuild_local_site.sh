@@ -53,6 +53,10 @@ step 0 research-queue      $PY tools/build_research_queue.py
 #    (it lists them); that is reported, not a reason to stop.
 step 1 sync-research       $PY tools/sync_catalogue_research.py --write
 step 0 person-pages        $PY tools/repair_person_hierarchy.py
+# Study pages link only people whose page exists, and family pages keep the study
+# links their region had when first written: refresh both now every page exists.
+step 0 study-page-links    $PY tools/build_study_pages.py
+step 0 study-navigation    $PY tools/repair_site_experience.py --local-studies-only
 step 0 comparison-index    $PY tools/refresh_comparison_index.py
 # 3. Section pages and the shared shell.
 step 0 evidence-page       $PY tools/build_evidence_page.py
