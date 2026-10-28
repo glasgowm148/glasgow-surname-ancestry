@@ -30,6 +30,11 @@ def finalize(site_root=ROOT/'www'):
     # an alternate export tree into its sibling production directory.
     if site_root.name == 'www':
         counts.update({'canonical_' + key: value for key, value in publish_reviewed(site_root.parent).items()})
+        # The reviewed records just joined records-index.json: rebuild the manifest counts and
+        # data chunks from it, before the layout and data-version hashes below.
+        from tools.publish_research_access import WEB as access_root, repair as publish_research_access
+        if Path(site_root).resolve() == access_root.resolve():
+            counts.update(publish_research_access())
     counts.update(publish_collections(site_root))
     from tools.build_source_collections import repair as repair_source_collections, ready as source_collections_ready
     if source_collections_ready(site_root):
