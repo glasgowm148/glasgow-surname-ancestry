@@ -108,6 +108,27 @@ class UnratedFatherCoverage(unittest.TestCase):
         load_public_nodes(self.root / 'www', {'Example'}, retained_fathers=retained)
         self.assertEqual(retained[0]['father'], 'Placeholder-1', 'graph selection still retains placeholder')
 
+    def test_current_database_estimate_closes_private_queue_gap_before_publication(self):
+        self.person('Child-1', [self.father('Father-1', tree_relationship=True, status='possible')])
+        self.person('Father-1')
+        self.write('research/relationship_probability_estimates.json', {'estimates': [dict(
+            subject_id='Child-1', relative_id='Father-1', relationship='father', percent=25,
+            assessment_status='uncertain', source_ids=['reviewed-source'])]})
+        self.assertEqual(self.rank('--scope', 'unrated'), [])
+        row, = self.rank('--scope', 'all-unconfident')
+        self.assertEqual(row['confidence_percent'], 25)
+        self.assertEqual(row['status'], 'uncertain')
+        self.assertEqual(row['source_ids'], ['reviewed-source'])
+        self.assertIsNone(row['public_confidence_percent'])
+        self.assertEqual(row['public_status'], 'possible')
+        self.assertEqual(row['cross_pairs'], 1)
+        # A review of an alternative father never grades the retained pair.
+        self.write('research/relationship_probability_estimates.json', {'estimates': [dict(
+            subject_id='Child-1', relative_id='Alternative-1', relationship='father', percent=90)]})
+        row, = self.rank('--scope', 'unrated')
+        self.assertEqual(row['father'], 'Father-1')
+        self.assertIsNone(row['confidence_percent'])
+
     def test_existing_graph_modes_and_impact_values_are_preserved(self):
         self.person('Child-1', [self.father('Father-1')])
         self.person('Father-1')

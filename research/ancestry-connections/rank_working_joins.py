@@ -176,6 +176,12 @@ def main(argv=None):
     estimate_data=json.loads(Path('research/relationship_probability_estimates.json').read_text())
     estimates={(e['subject_id'],e['relative_id']):e for e in estimate_data.get('estimates',[])
                if e.get('relationship')=='father'}
+    # Dispatch uses current database-derived reviews, even before their public
+    # projection has been rebuilt/approved. Do not change the public graph,
+    # selections or impact counts to close this private queue's coverage gaps.
+    def reviewed_percent(pair):
+     estimate=estimates.get((pair['child'],pair['father']),{})
+     return estimate.get('percent') if estimate.get('percent') is not None else pair.get('confidence_percent')
     cases={c.get('assertion_id'):c for c in strategy.get('early_connections',[]) if c.get('assertion_id')}
     selected=[]
     for a in assessments:
@@ -185,7 +191,7 @@ def main(argv=None):
     if args.scope=='all-unconfident':
      candidates=[(e['child'],e['father'],by_assertion.get(e.get('assertion_id'),{})) for e in edges if e['status'] not in CONFIDENT]
     elif args.scope=='unrated':
-     candidates=[(e['child'],e['father'],by_assertion.get(e.get('assertion_id'),{})) for e in retained if e['child'] in cohort and e.get('confidence_percent') is None and is_named_father_name(e.get('father_name'))]
+     candidates=[(e['child'],e['father'],by_assertion.get(e.get('assertion_id'),{})) for e in retained if e['child'] in cohort and reviewed_percent(e) is None and is_named_father_name(e.get('father_name'))]
     else:candidates=selected
     by_pair={(e['child'],e['father']):e for e in edges}
     if args.scope=='unrated':by_pair.update({(e['child'],e['father']):e for e in retained})
@@ -196,6 +202,14 @@ def main(argv=None):
      row={'assertion_id':a.get('assertion_id') or pair.get('assertion_id'),'child':child,'father':father,'child_name':nodes[child]['name'],'father_name':nodes.get(father,{}).get('name') or pair.get('father_name') or father,**{k:impact.get(k) for k in ('child_side','parent_side','cross_pairs','confident_child_side','confident_parent_side','confident_pair_gain','confident_component_reduction')},'evidence_grade':a.get('evidence_grade'),'source_ids':a.get('source_ids',[]),'links':a.get('analysis_links',[])}
      if args.scope=='unrated':row['graph_impact_available']=bool(impact)
      if args.scope in {'all-unconfident','unrated'}:row.update(status=by_pair[child,father]['status'],confidence_percent=by_pair[child,father].get('confidence_percent'),selected_working_hypothesis=bool(a.get('working_selection')),cohort_year=nodes[child].get('year'),year_basis=nodes[child].get('year_basis'),first_record_year=nodes[child].get('first_record_year'))
+     estimate=estimates.get((child,father),{})
+     row['confidence_percent']=reviewed_percent(pair)
+     if estimate.get('percent') is not None:
+      row['status']=estimate.get('assessment_status') or row.get('status')
+      row['assertion_id']=row.get('assertion_id') or estimate.get('assertion_id')
+      row['source_ids']=estimate.get('source_ids') or row['source_ids']
+     row['public_confidence_percent']=pair.get('confidence_percent')
+     row['public_status']=pair.get('status')
      case=cases.get(row['assertion_id'],{})
      row.update(dispatch_context(a,estimates.get((child,father)),case))
      rows.append(row)
