@@ -37,6 +37,7 @@ A parish baptism at Irvine, Ayrshire names James Glasgow and Margaret Rae as par
 ## Source findings
 
 - [Findmypast parish baptism transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573667&tab=this), James Glasgow, 11 April 1721, Irvine, Ayrshire; named parents James Glasgow and Margaret Rae. This is an index/transcript; original register image not inspected for this duplicate review.
+- [Findmypast parish baptism transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573825&tab=this), William Glasgow, 3 February 1723, Irvine, Ayrshire; named parents James Glasgow and Marion Rae. Carried from the merged Glasgow-4164. This is an index/transcript; the original register image has not been inspected.
 
 ## Unresolved questions
 

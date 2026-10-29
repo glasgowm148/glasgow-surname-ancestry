@@ -21,6 +21,7 @@ Thomas Bowen--Sarah Vaux marriage.
   husbandman and widower of Hempstead/Hemel Hempstead, Hertfordshire, and Sarah
   Vaux, a widow. The conflicting RG7/73 p. 52 "Thos Osbourn of Redbourn" copy
   is a copying error for the same marriage, not a second groom or marriage.
+- Sarah Vaux's FamilySearch tree person `9KZM-PL3` ([person details](https://www.familysearch.org/en/tree/person/details/9KZM-PL3); [sources](https://www.familysearch.org/en/tree/person/sources/9KZM-PL3)): one spouse, the older Thomas Bowen `LWHR-LR4`, one 30 March 1738 marriage and six early Bowen children including Thomas `LCXX-Q1F`; sixteen attached sources, including the 1737 and 1738 derivative entries. A compiled tree, not an original record.
 
 ## Parentage assessment
 

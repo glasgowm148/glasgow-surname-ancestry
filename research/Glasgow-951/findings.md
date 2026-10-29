@@ -3491,3 +3491,19 @@ The probate citation is an incomplete service notice, not an adjudicated pedigre
 The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities.
 
 Sources: [1846 marriage](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf), [1851 Lisnagaver household 34](http://www.census.nationalarchives.ie/reels/c19/007246523/007246523_00173.pdf), [1892 probate citation](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6). Held readings reused; no new original inspection. [Father’s account](/people/glasgow-4090.html).
+
+## Source findings — citations carried from merged files, 29 October 2026
+
+From the Larne proof audit of 21 September 2026 (Registry of Deeds images on FamilySearch, original images inspected unless stated):
+
+- Memorial 159661, lease 20 December 1764 ([image 542](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33Q6-L), [image 543](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-33QZ-Y)): Robert Glasgow of Ballykeel, Kilwaughter, and his son James.
+- Memorial 97407, mortgage 6 November 1749 ([image 449](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSH3-7XCG)): William Eakine of Larne mortgaged Old Town premises to Hugh Shutter and Hugh Glasgow, Larne merchant.
+- Memorial 278037, lease 14 January 1784, registered 23 August 1790 ([image 437](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ4-4SJF)): witness James Glasgow, tanner.
+- Indenture 25 March 1874, Antrim to John Mulvenna ([image 475](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77Q4-H), original recital; [continuation image 476](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-77QC-T), machine transcript only): recites a 2 October 1779 lease to James Glasgow and its 25 February 1832 renewal.
+- National Records of Scotland, [GD154/532](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=GD154%2F532&st=1&tc=y&tl=n&tn=n&tp=n), Kilwaughter estate rents and accounts, 1693–1708 (eight items): a catalogue target, not yet inspected; the catalogue pages do not give tenant names.
+- Oscar K. Lyle, *Lyle Family* (1912), p. 63 ([full text](https://archive.org/stream/lylefamilyancest00lyle/lylefamilyancest00lyle_djvu.txt)): a family story of Samuel Donald and an unnamed Glasgow surviving an Antrim-coast shipwreck. Late tradition, not assigned to anyone.
+
+From the John Glasgow of Larne file ([Glasgow-4179](https://www.wikitree.com/wiki/Glasgow-4179)), two London newspaper Johns ruled out as this John:
+
+- John Glascow, a sedan-chair carrier, gave evidence after the 1779 shooting of Martha Ray in Covent Garden: [Derby Mercury, 1779, p.2](https://www.newspapers.com/image/394231375/); [Old Bailey original, p.207](https://www.dhi.ac.uk/san/ob/1770s/177904040005.gif); [Old Bailey Online t17790404-3](https://www.oldbaileyonline.org/record/t17790404-3). A London working man with no WikiTree profile.
+- John Glasco, Esq., claiming to be a staff officer, was committed at Bow Street for wounding a patrolman after the play at Covent Garden: [The Times, 2 May 1799, p.3](https://www.newspapers.com/image/32820363/). Not identifiable with any WikiTree candidate.

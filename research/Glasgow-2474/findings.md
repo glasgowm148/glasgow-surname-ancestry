@@ -169,3 +169,10 @@ Next useful test: Check the original entry if the Kyle/Keil reading matters to m
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564–1929, SCOT/OPR/BAP/3573222 (), OPR 595/1, transcript of the baptism on 10 January 1716 naming John Glasgow and Isabell Kyle as parents; captured 3 September 2026](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3573222&tab=this)
+
+## Source findings — citations carried from merged files, 29 October 2026
+
+From the merged [Glasgow-3479](https://www.wikitree.com/wiki/Glasgow-3479) (27 September 2026):
+
+- [Findmypast 3574593](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574593&tab=this), Irvine OPR 595/1: John baptised 10 October 1736; Robt Glasgow and Mary Borland named as parents. It identifies the adult father by name and spouse, not his parents.
+- [Findmypast 3574782](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782&tab=this), Irvine OPR 595/1: John baptised 5 October 1738; Rot Glasgow and Mary Borland named as parents. This is a separate entry from 1736; the original register is needed to show whether there were two sons of the same name or an indexing error.

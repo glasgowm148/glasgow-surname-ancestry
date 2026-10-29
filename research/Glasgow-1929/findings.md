@@ -100,3 +100,7 @@ Next question: Inspect the original source and the retained child/adult-parent i
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. No new person, vital replacement or relationship-grade change follows; an additional index does not increase an existing percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES9-11-20261023 -->
+
+## Source findings — citations carried from merged files, 29 October 2026
+
+- [Findmypast parish baptism transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3600620&tab=this), Mary Glasgow, 11 April 1744, Kilmarnock, Ayrshire; named parents Hugh Glasgow and Margaret Giffen. Carried from Glasgow-4167, merged through Glasgow-4166. Index/transcript only; the original image has not been inspected.

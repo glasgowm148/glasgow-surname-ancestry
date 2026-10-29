@@ -14,4 +14,4 @@ The [GRONI civil-death register](https://geni.nidirect.gov.uk/) records Daniel G
 ## Unresolved questions
 
 - Establish Martha's relationship from a marriage or other independent record. The death entry alone does not name her as wife.
-- Test whether the Daniel Glasgow at Gortereghy in Griffith's Valuation was this Culmore weaver; occupation and locality make this possible, not proved.
+- Test whether the Daniel Glasgow at Gortereghy in [Griffith's Valuation, Rasharkin](https://www.failteromhat.com/griffiths/antrim/rasharkin.htm) (which also lists a Robert Glasgow there) was this Culmore weaver; occupation and locality make this possible, not proved.
