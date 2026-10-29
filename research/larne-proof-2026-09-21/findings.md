@@ -1,5 +1,7 @@
 # Early Larne and Kilwaughter: new proof and source audit
 
+## Handoff note
+
 Research date: 21 September 2026. Public synthesis belongs to the Larne–Kilwaughter family study and the linked person dossiers. Raw browser captures remain internal.
 
 ## Current conclusion

@@ -1,5 +1,7 @@
 # Recovered-file review — 10 September 2026
 
+## Handoff note
+
 Internal inventory and handoff. The current research account is on the existing
 person and family pages; no standalone public audit page is maintained.
 

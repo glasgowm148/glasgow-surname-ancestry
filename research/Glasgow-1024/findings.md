@@ -2,6 +2,8 @@
 
 Last updated: 2026-10-17
 
+## Live WikiTree editing hold
+
 > **Draft only.** Make no live WikiTree changes while research on [Glasgow-3305](https://www.wikitree.com/wiki/Glasgow-3305) is active.
 
 ## Current-profile material preserved

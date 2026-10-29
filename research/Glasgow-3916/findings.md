@@ -1,5 +1,7 @@
 # Findings: [Isobella Glasgow (Glasgow-3916), about 1530, Glasgow](https://www.wikitree.com/wiki/Glasgow-3916)
 
+## Live profile check
+
 Last live check: **19 August 2026**.
 
 The reciprocal link to [Brady Family of Sauchie, Stirling & Easter Kennet — Research Notes](https://www.wikitree.com/wiki/Space:Brady_Family_of_Sauchie%2C_Stirling_%26_Easter_Kennet_%E2%80%94_Research_Notes) is live and verified because that page now includes Isobella's probable, explicitly uncertain placement as William Glasgow and Esbell Brade's daughter.

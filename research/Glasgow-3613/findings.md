@@ -1,5 +1,7 @@
 # Findings: [Margaret Glasgow (Glasgow-3613), Croftmalloch](https://www.wikitree.com/wiki/Glasgow-3613)
 
+## Live profile redirect
+
 `Glasgow-3164` redirects to this profile. Use `Glasgow-3613` in new links.
 
 ## Current conclusion

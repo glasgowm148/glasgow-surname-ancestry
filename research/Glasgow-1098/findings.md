@@ -2,6 +2,8 @@
 
 Last updated: 2026-10-16
 
+## Live profile check
+
 Checked against the live profile and printed protocol texts on **30 August 2026**.
 
 ## Live update - 31 August 2026

@@ -3,56 +3,19 @@
  "generated": "2026-10-29",
  "about": "Failing items of tools/check_research_publication.py tolerated for now. This list should only shrink: fix an item and run --update-baseline. Keys are 'subject|key'.",
  "counts": {
-  "FOLDER_NOT_READ": 6,
-  "NO_PAGE_UNDECIDED": 3,
-  "OPENING_FALLBACK": 1,
-  "PREAMBLE_NOT_PUBLISHED": 13,
+  "FOLDER_NOT_READ": 1,
   "QUEUE_ENTRY_DROPPED": 4,
-  "REGISTER_ENTRY_DROPPED": 3,
   "SOURCE_ONLY_IN_INTERNAL_SECTION": 22
  },
  "items": {
   "FOLDER_NOT_READ": [
-   "chatgpt-export-review|folder",
-   "glasgow-record-batch-2026-09-18|folder",
-   "larne-pre1710-2026-09-21|folder",
-   "opr-births-to-1700|folder",
-   "opr-deaths-to-1700|folder",
    "opr-marriages-to-1700|folder"
-  ],
-  "NO_PAGE_UNDECIDED": [
-   "Glasgow-3905|page",
-   "Glasgow-4118|page",
-   "Weir-4172|page"
-  ],
-  "OPENING_FALLBACK": [
-   "Glasgow-3785|additions"
-  ],
-  "PREAMBLE_NOT_PUBLISHED": [
-   "Glasgow-1024|e8b5253e61",
-   "Glasgow-1098|91be4e02e1",
-   "Glasgow-1319|de40c96dc5",
-   "Glasgow-2773|a8ab3cc10d",
-   "Glasgow-3474|eb6ca62831",
-   "Glasgow-3613|a12c11c75c",
-   "Glasgow-3916|ccfe70156b",
-   "Glasgow-3919|6fdf6fe431",
-   "Glasgow-3970|1cc8a047e9",
-   "Glasgow-4061|ce35d9c515",
-   "chatgpt-export-review|97db82170e",
-   "dump-audit|5446233c9c",
-   "larne-proof-2026-09-21|c3914b93a7"
   ],
   "QUEUE_ENTRY_DROPPED": [
    "Dunlop-2144|no_capture",
    "Glasgow-4293|no_capture",
    "Glasgow-4340|no_capture",
    "Plunkett-2805|no_capture"
-  ],
-  "REGISTER_ENTRY_DROPPED": [
-   "Glasgow-3015|5c523d3e96",
-   "Murray-20395|cdeb0de984",
-   "Unknown-763421|e8df6d2b79"
   ],
   "SOURCE_ONLY_IN_INTERNAL_SECTION": [
    "Glasgow-1022|Public profile scrape review (2026-07-22)",

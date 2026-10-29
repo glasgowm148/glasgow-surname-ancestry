@@ -1,5 +1,7 @@
 # ChatGPT export review — 10 September 2026
 
+## Handoff note
+
 Internal scan record. Public findings are integrated into the existing Ireland
 research account, not a separate audit page.
 

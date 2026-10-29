@@ -1,5 +1,26 @@
 # Findings: [Glasgow-3785](https://www.wikitree.com/wiki/Glasgow-3785)
 
+## Current conclusion
+
+Reviewed: 2026-10-29
+
+Glasgow-3785 is **George Mark Glasgow, officer of the Royal Artillery**. Notices trace one career:
+- first lieutenant in 1824–25;
+- second captain in 1837;
+- captain in 1843;
+- "late Captain Royal Artillery" at his death at Kingston, Canada West, reported in 1851.
+
+Askwith's Royal Artillery index has a single "Glasgow, G. M.", so these notices belong to one man. The two 6 October 2026 readings graded the identity **strong** and **possible**. The stronger grade rests on the 1851 *Spectator* death notice, which names his corps, his Kingston death and his father.
+
+That notice calls him son of the late General Glasgow of the same corps. Only one General Glasgow served in the Royal Artillery: Lt-Gen George Glasgow, who died in 1820. He was at Quebec when George Mark was born there in 1795. The parentage is therefore well supported but not yet confirmed: the father has no WikiTree profile, and no baptism has been inspected.
+
+[Glasgow-3127](https://www.wikitree.com/wiki/Glasgow-3127) appears to be the same man. Its "deceased by 1846" misreads Walford's "the late". A merge is proposed but has not been reviewed. No family relationship has been changed on WikiTree.
+
+Next records:
+- the 1795 Quebec Anglican baptism (Holy Trinity);
+- the originals behind the 1833 christening and 1851 death-duty citations on this profile;
+- reconciling the profile's death date with the *Spectator* notice.
+
 ## Identity assessment — military newspapers, 4 October 2026
 
 Glasgow-3127 is a strong compatible Royal Artillery candidate: its live biography says Captain, father of Madeline and deceased by 1846, but its Sources section is empty. Glasgow-3785 (1795 Quebec–1851 Kingston) remains an exact-name chronology comparison without a military bridge. Glasgow-1536 (Barony birth/baptism 26 October 1804) is an explicitly linked weaker comparison in 3127; the newspaper supplies no parentage bridge. The 1833 Clement Stuart christening and 1851 death-duty citations on 3785, and the 1846 late-father claim on 3127, need underlying originals before reconciling these profiles. The senior 1819 George is not assigned to this younger officer.

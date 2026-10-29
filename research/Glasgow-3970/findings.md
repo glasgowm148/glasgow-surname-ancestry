@@ -2,6 +2,8 @@
 
 Last updated: 2026-10-07
 
+## Live profile update
+
 Live update applied 19 August 2026: the profile now states that the repeated
 1669 and about-1700 association makes Jo/John Glasgow-3913 and James
 Glasgow-1081 probable close relatives without proving an exact kinship. Both

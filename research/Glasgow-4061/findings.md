@@ -1,5 +1,7 @@
 # Findings: [John Glasgow (Glasgow-4061), son of James elder of Corsinkell](https://www.wikitree.com/wiki/Glasgow-4061)
 
+## Profile merge — 27 September 2026
+
 **Current live state, checked 27 September 2026:** Glasgow-4061 redirects to
 [[Glasgow-3193|John Glasgow of Kilwinning]]. NRS GD39/5/59 directly proves
 that the Corsinkell John was a son of James elder; identifying him with the

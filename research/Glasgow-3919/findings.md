@@ -1,5 +1,7 @@
 # Findings: [Robert Glasgow of Kilbride (Glasgow-3919)](https://www.wikitree.com/wiki/Glasgow-3919)
 
+## Profile merge — 27 September 2026
+
 **Current live state, checked 27 September 2026:** Glasgow-3919 redirects to
 [[Glasgow-1096|Robert Glasgow, fisher and burgess]]. The 1580 Kilbride
 occurrence is included in the survivor's biography as a probable later

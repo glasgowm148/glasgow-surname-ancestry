@@ -2,6 +2,8 @@
 
 Last updated: 2026-08-12
 
+## Live profile check
+
 Verified live 19 August 2026. The 1840 age-slot and 1850 named co-residence
 evidence are live, and both attached parent links are explicitly uncertain.
 

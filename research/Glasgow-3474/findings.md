@@ -2,6 +2,8 @@
 
 Last updated: 2026-08-29
 
+## Live profile check
+
 **Live status:** verified already present on WikiTree on 29 August 2026; no new
 profile save required.
 

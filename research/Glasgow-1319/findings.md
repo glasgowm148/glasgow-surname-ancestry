@@ -1,5 +1,7 @@
 # Findings: [Andrew Glasgow (Glasgow-1319), Kirknewton father](https://www.wikitree.com/wiki/Glasgow-1319)
 
+## Live profile check
+
 Checked against the live profile and linked child profiles on **26 July 2026**.
 
 ## Current conclusion
