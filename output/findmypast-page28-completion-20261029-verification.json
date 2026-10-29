@@ -1,0 +1,365 @@
+{
+  "new_receipts": 15,
+  "source_level": "provider_derivative",
+  "original_register_inspections": 0,
+  "new_people_proposed": 0,
+  "matched_existing_record_ids": 5,
+  "candidate_comparison_record_ids": 4,
+  "source_only_hold_ids": 6,
+  "existing_children": [
+    "Glasgow-1618",
+    "Glasgow-1453",
+    "Glasgow-161",
+    "Glasgow-3121"
+  ],
+  "relationship_percentages_before": {
+    "Glasgow-1618": [
+      [
+        "Glasgow-1343",
+        {
+          "band": "probable",
+          "label": "Probable · 77%",
+          "minimum": 0.6,
+          "maximum": 0.89,
+          "rank": 3,
+          "value": 0.77,
+          "method": "individual_evidence_assessment",
+          "origin": "research",
+          "scope": "Complete selected father-profile proposition, with identity limits below.",
+          "basis": "Mary’s 1768 Ratho event fits the age and regional progression of John/Mary Robertson’s earlier children. The eleven-year gap and bare parentless citation leave more identification uncertainty than the 1755 event.",
+          "reviewed": "2026-10-22",
+          "source_ids": [
+            "held-e-f0d4d34d61af"
+          ],
+          "assertion_id": "C-coverage-20261022g-glasgow-1618-father"
+        }
+      ],
+      [
+        "Robertson-20326",
+        {
+          "band": "unrated",
+          "label": "Unrated",
+          "minimum": null,
+          "maximum": null,
+          "rank": 0,
+          "value": null,
+          "method": "not_individually_assessed",
+          "origin": "wikitree"
+        }
+      ]
+    ],
+    "Glasgow-1453": [
+      [
+        "Glasgow-1382",
+        {
+          "band": "probable",
+          "label": "Probable · 70%",
+          "minimum": 0.6,
+          "maximum": 0.89,
+          "rank": 3,
+          "value": 0.7,
+          "method": "individual_evidence_assessment",
+          "origin": "research",
+          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+          "basis": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father.",
+          "reviewed": "2026-10-22",
+          "source_ids": [
+            "held-e-d41ad5d094da"
+          ],
+          "assertion_id": "C-coverage-20261022g-glasgow-1453-father"
+        }
+      ],
+      [
+        "Davidson-14073",
+        {
+          "band": "unrated",
+          "label": "Unrated",
+          "minimum": null,
+          "maximum": null,
+          "rank": 0,
+          "value": null,
+          "method": "not_individually_assessed",
+          "origin": "wikitree"
+        }
+      ]
+    ],
+    "Glasgow-161": [
+      [
+        "Glasgow-159",
+        {
+          "band": "confident",
+          "label": "Confident · 90%",
+          "minimum": 0.9,
+          "maximum": 0.99,
+          "rank": 4,
+          "value": 0.9,
+          "method": "individual_evidence_assessment",
+          "origin": "research",
+          "scope": "Mary of the Kirkliston family→adult John/Agnes Gray household.",
+          "basis": "The specific 1788 Kirkliston OPR locator fits John/Agnes Gray’s 1785 marriage and 1786–1797 household. A held 1797 index explicitly repeats that couple; Mary’s own literal parents are missing.",
+          "reviewed": "2026-10-22",
+          "source_ids": [
+            "held-e-f296800db078"
+          ],
+          "assertion_id": "C-coverage-20261022g-glasgow-161-father"
+        }
+      ],
+      [
+        "Gray-6937",
+        {
+          "band": "unrated",
+          "label": "Unrated",
+          "minimum": null,
+          "maximum": null,
+          "rank": 0,
+          "value": null,
+          "method": "not_individually_assessed",
+          "origin": "wikitree"
+        }
+      ]
+    ],
+    "Glasgow-3121": [
+      [
+        "Glasgow-1309",
+        {
+          "band": "probable",
+          "label": "Probable · 67%",
+          "minimum": 0.6,
+          "maximum": 0.89,
+          "rank": 3,
+          "value": 0.67,
+          "method": "individual_evidence_assessment",
+          "origin": "research",
+          "scope": "Complete selected father-profile proposition, with identity limits below.",
+          "basis": "The father dossier’s malformed source citation nevertheless retains a 22 January 1779 burial of Mary, daughter of Alexr, matching the child’s exact death. Identification with this 1741 Calder child/Edinburgh groom remains unbridged.",
+          "reviewed": "2026-10-22",
+          "source_ids": [
+            "held-e-8ed51339313b",
+            "held-e-69aea4ddcf95"
+          ],
+          "assertion_id": "C-coverage-20261022g-glasgow-3121-father"
+        }
+      ],
+      [
+        "Munro-4088",
+        {
+          "band": "unrated",
+          "label": "Unrated",
+          "minimum": null,
+          "maximum": null,
+          "rank": 0,
+          "value": null,
+          "method": "not_individually_assessed",
+          "origin": "wikitree"
+        }
+      ]
+    ]
+  },
+  "inherited_vitals_before": {
+    "Glasgow-1618": {
+      "birth": {
+        "date": "before 1768-10-24",
+        "place": "Ratho, Midlothian, Scotland",
+        "status": "uncertain"
+      },
+      "death": {
+        "date": null,
+        "place": null,
+        "status": null
+      }
+    },
+    "Glasgow-1453": {
+      "birth": {
+        "date": "c. 1783-06-29",
+        "place": "Livingston, Linlithgowshire, Scotland",
+        "status": "estimated"
+      },
+      "death": {
+        "date": "c. 1871",
+        "place": "Bridgeton, Kincardineshire, Scotland, United Kingdom",
+        "status": "estimated"
+      }
+    },
+    "Glasgow-161": {
+      "birth": {
+        "date": "1788-04-30",
+        "place": "Kirkliston, West Lothian, Scotland",
+        "status": "exact"
+      },
+      "death": {
+        "date": null,
+        "place": null,
+        "status": null
+      }
+    },
+    "Glasgow-3121": {
+      "birth": {
+        "date": "1778",
+        "place": null,
+        "status": "uncertain"
+      },
+      "death": {
+        "date": "1779-01-22",
+        "place": "Glasgow, Lanarkshire, Scotland",
+        "status": "exact"
+      }
+    }
+  },
+  "date": "2026-10-29",
+  "records": [
+    {
+      "record_id": "fmp-record-scot-opr-bap-3883446",
+      "source_id": "s-613cbccfa957436a",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bap-4608141",
+      "source_id": "s-9df63541befeb33e",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-wsmtn-bap-0283315",
+      "source_id": "s-66fe3efff275b8a6",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-b-491834937-1",
+      "source_id": "s-09e80037c4d85840",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-864628875",
+      "source_id": "s-d08ca6c18ad150e9",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bur-1035212",
+      "source_id": "s-6b74a72c2652eb2d",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-glasgow-bur-093177",
+      "source_id": "s-e2fa734f4fb59a85",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-gbprs-glasgow-bur-093192",
+      "source_id": "s-acceae8e215c8938",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-685840887",
+      "source_id": "s-761d5e83e8840e62",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-692403782",
+      "source_id": "s-c40a6646f694883c",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-685856989",
+      "source_id": "s-a91659e978d2e46a",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-r-692420222",
+      "source_id": "s-497d1c3730d9076f",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bap-4152265",
+      "source_id": "s-cab7e9fe9d6521ec",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bap-4146263",
+      "source_id": "s-d2cdbd1ae3725de6",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    },
+    {
+      "record_id": "fmp-record-scot-opr-bur-1566095",
+      "source_id": "s-84f81165d4586462",
+      "full_compact_agree": true,
+      "reader_checked": true,
+      "sitemap_checked": true
+    }
+  ],
+  "complete_proposals_checked": true,
+  "vitals_and_relationships_unchanged": true,
+  "public_profile_amendment_filters_checked": true,
+  "latest_and_study_checked": true,
+  "coverage_status": "INCOMPLETE",
+  "next_page": 29,
+  "live_deployment": false,
+  "git_push": false,
+  "coverage": {
+    "literal_receipts_indexed": 627,
+    "supporting_ids": 19,
+    "bounded_indexed_provider_ids": 646,
+    "saved_query_rows_reviewed": 560,
+    "saved_query_total": 5872,
+    "query_percentage": 9.54,
+    "whole_provider_percentage_known": false,
+    "next_page": 29
+  },
+  "publication_check": {
+    "profiles": 4,
+    "failures": 0
+  },
+  "link_check": {
+    "batch_pages_broken_links": 0,
+    "global_new_pairs": [
+      {
+        "page": "branches/research-irish-bann-valley-killoquin/index.html",
+        "target": "/people/glasgow-3905.html"
+      },
+      {
+        "page": "branches/research-irish-inishrush-collateral/index.html",
+        "target": "/people/glasgow-3905.html"
+      }
+    ],
+    "global_existing_baseline_pairs": 4
+  },
+  "local_search_index": {
+    "qmd_exit": 0,
+    "unrelated_withheld_note": "research/Glasgow-2917/findings.md",
+    "reason": "Changed reviewed hash; not part of this batch"
+  },
+  "pending_structured_vital_reviews": [
+    "Glasgow-1618 explicit birth11October1768",
+    "Glasgow-3121 inherited exact death day is a burial day"
+  ],
+  "workbench_views": "303 generated files match the database",
+  "manifest_revision": 5,
+  "registered_changed_asset_hashes": 14,
+  "owned_page_asset_mismatches": 0
+}

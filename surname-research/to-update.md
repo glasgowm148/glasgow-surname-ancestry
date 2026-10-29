@@ -4383,3 +4383,10 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 ## 28 October 2026 — William Glasgow obituary
 
 - [[Glasgow-590]] — Add the original 1909 obituary and retain birth/death conflicts; existing parent reviews remain 96% each. Complete draft: [parent review](../research/Glasgow-590/parent-review-2026-10-28.wiki).
+
+### Findmypast page 28 completion — 29 October 2026
+
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1618) | OPEN | Add page28 transcript evidence and qualified comparisons; preserve existing family assessments and explicit event-label/year conflicts. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1453) | OPEN | Add page28 transcript evidence and qualified comparisons; preserve existing family assessments and explicit event-label/year conflicts. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-161) | OPEN | Add page28 transcript evidence and qualified comparisons; preserve existing family assessments and explicit event-label/year conflicts. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3121) | OPEN | Add page28 transcript evidence and qualified comparisons; preserve existing family assessments and explicit event-label/year conflicts. |

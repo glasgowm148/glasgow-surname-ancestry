@@ -61201,6 +61201,106 @@
           "scope": "Count-based; not named."
         }
       ]
+    },
+    {
+      "id": "fmp-page28-completion-20261029",
+      "found_on": "2026-10-29",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Fifteen further Findmypast transcripts complete the saved page 28 review: five match four existing Mary Glasgow profiles; four provide qualified comparisons and six remain source-only identity holds. The explicit Ratho birth on 11 October 1768 and Kirkliston baptism on 11 May 1788 are distinguished from their other vital events.",
+      "qualification": "Companion derivatives are not independent corroboration. Crawford retains 12/13 August and Portion/Porteous differences; Livingston retains 1783/1784 baptism years and the Whitburn comparison. Ramshorn confirms an already held burial, not an exact death day. No new people, approved structured vital changes or relationship-confidence changes; original registers uninspected. Only 560 of 5,872 rows of this saved birth-window BMD query are reviewed; whole-provider coverage remains incomplete.",
+      "people": [
+        {
+          "id": "Glasgow-1618",
+          "name": "Mary Glasgow",
+          "role": "Matched existing record subject",
+          "url": "/people/glasgow-1618.html"
+        },
+        {
+          "id": "Glasgow-1453",
+          "name": "Mary Glasgow",
+          "role": "Matched existing record subject",
+          "url": "/people/glasgow-1453.html"
+        },
+        {
+          "id": "Glasgow-161",
+          "name": "Mary Glasgow",
+          "role": "Matched existing record subject",
+          "url": "/people/glasgow-161.html"
+        },
+        {
+          "id": "Glasgow-3121",
+          "name": "Mary Glasgow",
+          "role": "Matched existing record subject",
+          "url": "/people/glasgow-3121.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mary Glasgow — crawford mary robert isabel 1767 — SCOT/OPR/BAP/3883446",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3883446&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — ratho mary 1768 — SCOT/OPR/BAP/4608141",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4608141&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — westminster mary 1770 — GBPRS/WSMTN/BAP/0283315",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FWSMTN%2FBAP%2F0283315&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — westminster mary 1770 — GBPRS/B/491834937/1",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F491834937%2F1&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — westminster mary 1770 — R_864628875",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_864628875&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — glasgow mary j 1772 — SCOT/OPR/BUR/1035212",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1035212&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — glasgow mary j 1772 — GBPRS/GLASGOW/BUR/093177",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093177&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — ramshorn mary 1779 — GBPRS/GLASGOW/BUR/093192",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093192&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — livingston mary 1783 — R_685840887",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685840887&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — livingston mary 1783 — R_692403782",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692403782&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — whitburn mary 1783 — R_685856989",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685856989&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — whitburn mary 1783 — R_692420222",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692420222&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — livingston mary opr 1784 — SCOT/OPR/BAP/4152265",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152265&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — kirkliston mary 1788 — SCOT/OPR/BAP/4146263",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146263&tab=this"
+        },
+        {
+          "title": "Mary Glasgow — edinburgh mary 1792 — SCOT/OPR/BUR/1566095",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1566095&tab=this"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
     }
   ]
 }
