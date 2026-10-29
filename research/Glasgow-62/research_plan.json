@@ -2,10 +2,10 @@
   "profile_id": "Glasgow-62",
   "research_state": {
     "disposition": "ready",
-    "reviewed": "2026-10-27",
-    "last_test": "Follow-up review attempted all 89 scans of LVA case 143-1841-001. A total of 84 were visually reviewed across the two batches; 46, 47, 57, 58 and 61 remain unread after render failures. Parent verified the 6 April 1840 notice on image 34, scheduling James Glasgow and Roderick R. Hudnall at the National Hotel for Wednesday 8 April. Potential Glasgow readings on images 78–80 were rejected after parent review: Haynes/Sutherlin, not Glasgow.",
-    "next_test": "Read the five excluded scans through a different available viewer when access changes; do not repeat failed render attempts. Prioritise the original 1818 James Glasgow/Susanna High bond and signatures against the deposition signature, with the 1815 Eudaley/Elizabeth Glasgow consent and the missing sibling bridge as a separate test. The other indexed chancery cases remain distinct source tests.",
-    "resume_when": "The inspected scans and original PDFs are retained. Five case scans need a working alternate viewer. The existing Chrome security-warning handoff still gates the separate FamilySearch marriage-bond route; no negative record claim follows from that access failure.",
+    "reviewed": "2026-10-29",
+    "last_test": "29 October2026: visually inspected LVA Pittsylvania1854-055 scans1–3 (modern cover and two opening-bill scans). The case concerns the1824 Jonas Fitzgerald trust deed, an1827 conveyance, and Joseph Kirby’s heirs; the indexed Glasgow occurrence has not yet been located. Damaged passages limit reading. No Glasgow identity, parent clause or relationship change established.",
+    "next_test": "Locate the Glasgow occurrence in the remaining54 scans of1854-055, prioritising the four deed exhibits listed on the cover and exhibits A,B,C named in the opening bill. Establish given name and role before comparing the1818 marriage-bond and1840 deposition signatures or proposing kinship. Keep1853-005 separate. Do not repeat the84 previously read1841-001 scans; its five failed scans still need a changed viewer/rendering route.",
+    "resume_when": "Direct LVA PDF access and sequential local rendering work for1854-055. FamilySearch was signed out29October; login remains pending for the distinct original-marriage-bond route. Existing1841-001 source and identity limits are retained.",
     "review_conclusion": "The original record establishes a James Glasgow deponent, not his identity as Glasgow-62 or his parents. Glasgow-62 remains a compatible candidate; the new record attribution is explicitly candidate. His father remains unknown and structured vital fields and father claims are unchanged.",
     "source_locators": [
       "research/Glasgow-62/findings.md",
@@ -16,7 +16,9 @@
       "https://old.lva.virginia.gov/chancery/case_detail.asp?CFN=143-1854-055",
       "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0021.pdf",
       "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0022.pdf",
-      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0034.pdf"
+      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box041/143_1841_001_0034.pdf",
+      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box070/143_1854_055_0002.pdf",
+      "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box070/143_1854_055_0003.pdf"
     ],
     "scope": "84 of 89 case scans visually reviewed, with legibility limits; images 46, 47, 57, 58 and 61 excluded. No complete-case absence, new person, parent attachment, vital-field edit or confidence change. The notice corroborates the existing deposition date and venue only.",
     "reading_scope": {
@@ -38,9 +40,9 @@
       "limits": "Worker receipts identify faint or damaged portions; inspection is not a complete diplomatic transcription. Background-only extraction from image 46 is not a page reading."
     }
   },
-  "last_test": "Follow-up review attempted all 89 scans of LVA case 143-1841-001. A total of 84 were visually reviewed across the two batches; 46, 47, 57, 58 and 61 remain unread after render failures. Parent verified the 6 April 1840 notice on image 34, scheduling James Glasgow and Roderick R. Hudnall at the National Hotel for Wednesday 8 April. Potential Glasgow readings on images 78–80 were rejected after parent review: Haynes/Sutherlin, not Glasgow.",
-  "next_test": "Read the five excluded scans through a different available viewer when access changes; do not repeat failed render attempts. Prioritise the original 1818 James Glasgow/Susanna High bond and signatures against the deposition signature, with the 1815 Eudaley/Elizabeth Glasgow consent and the missing sibling bridge as a separate test. The other indexed chancery cases remain distinct source tests.",
-  "resume_when": "The inspected scans and original PDFs are retained. Five case scans need a working alternate viewer. The existing Chrome security-warning handoff still gates the separate FamilySearch marriage-bond route; no negative record claim follows from that access failure.",
+  "last_test": "29 October2026: visually inspected LVA Pittsylvania1854-055 scans1–3 (modern cover and two opening-bill scans). The case concerns the1824 Jonas Fitzgerald trust deed, an1827 conveyance, and Joseph Kirby’s heirs; the indexed Glasgow occurrence has not yet been located. Damaged passages limit reading. No Glasgow identity, parent clause or relationship change established.",
+  "next_test": "Locate the Glasgow occurrence in the remaining54 scans of1854-055, prioritising the four deed exhibits listed on the cover and exhibits A,B,C named in the opening bill. Establish given name and role before comparing the1818 marriage-bond and1840 deposition signatures or proposing kinship. Keep1853-005 separate. Do not repeat the84 previously read1841-001 scans; its five failed scans still need a changed viewer/rendering route.",
+  "resume_when": "Direct LVA PDF access and sequential local rendering work for1854-055. FamilySearch was signed out29October; login remains pending for the distinct original-marriage-bond route. Existing1841-001 source and identity limits are retained.",
   "web_searches": [
     {
       "date": "2026-10-27",
@@ -87,6 +89,15 @@
         "data/private/workbench/review/network-source-tests-20261026/chancery-source-pages-0071-0089-20261027.json"
       ],
       "next_test": "Read the five excluded scans through a different available viewer when access changes; do not repeat failed render attempts. Prioritise the original 1818 James Glasgow/Susanna High bond and signatures against the deposition signature, with the 1815 Eudaley/Elizabeth Glasgow consent and the missing sibling bridge as a separate test. The other indexed chancery cases remain distinct source tests."
+    },
+    {
+      "date": "2026-10-29",
+      "query": "Opening-scope review of LVA Pittsylvania1854-055; exact direct PDFs0001–0003",
+      "result": "29 October2026: visually inspected LVA Pittsylvania1854-055 scans1–3 (modern cover and two opening-bill scans). The case concerns the1824 Jonas Fitzgerald trust deed, an1827 conveyance, and Joseph Kirby’s heirs; the indexed Glasgow occurrence has not yet been located. Damaged passages limit reading. No Glasgow identity, parent clause or relationship change established.",
+      "status": "partial",
+      "scope": "3 of57 scans visually inspected;54 remain. The cover is modern archival metadata, not a contemporary record. The manuscript bill has damaged areas.",
+      "next_test": "Locate the Glasgow occurrence in the remaining54 scans of1854-055, prioritising the four deed exhibits listed on the cover and exhibits A,B,C named in the opening bill. Establish given name and role before comparing the1818 marriage-bond and1840 deposition signatures or proposing kinship. Keep1853-005 separate. Do not repeat the84 previously read1841-001 scans; its five failed scans still need a changed viewer/rendering route.",
+      "source_receipt": "search-pittsylvania-1854-055-opening-20261029"
     }
   ]
 }
