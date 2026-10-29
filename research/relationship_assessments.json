@@ -111451,15 +111451,23 @@
     ],
     "provenance": {
       "held_scan_inspected": true,
+      "initial_individual_probability": true,
       "live_flag_changed": false,
       "new_documentary_account": true,
       "not_an_existing_profile_grade_upgrade": true,
+      "review_kind": "coverage_no_grade_change",
       "source_newly_discovered": false
     },
     "status": "strongly_supported",
-    "assessment_date": "2026-10-26",
-    "basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference.",
+    "assessment_date": "2026-10-29",
+    "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
     "assessment_history": [
+      {
+        "status": "strongly_supported",
+        "probability_percent": null,
+        "assessment_date": "2026-10-26",
+        "source_basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference."
+      },
       {
         "status": "strongly_supported",
         "probability_percent": null,
@@ -111485,9 +111493,17 @@
         "source_basis": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference."
       }
     ],
-    "reason": "Held family-account page 5 names John Cameron in the three-child group of Moses and Mary Pierce, then explicitly says he died at age five months. The child is distinguished from the adult Glasgow-466. This is a source-defined infant relationship, not an adult-identity inference.",
-    "limitations": "One undated retrospective descendant account, not independent contemporary birth or death evidence. No individual percentage assigned, precise dates unknown, and public WikiTree duplicate screening has restricted-field gaps. No existing WikiTree attachment or grade changed.",
-    "probability": null,
+    "reason": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
+    "limitations": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join.",
+    "probability": {
+      "value": 0.95,
+      "reviewed": "2026-10-29",
+      "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join."
+    },
     "working_selection": false,
     "attachment_status": "documented",
     "allow_new_relationship": true,

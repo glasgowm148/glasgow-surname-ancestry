@@ -43,6 +43,15 @@ class IndividualFindingTests(unittest.TestCase):
         self.assertEqual(rows[0]['kind'],'new')
         self.assertIsNone(rows[0]['research_event'])
 
+    def test_native_documentary_account_initial_rating_is_not_a_new_father(self):
+        changes = {('record-son', 'glasgow-653', 'selected'): dict(action='add')}
+        row, = self.rows([{'status': 'strongly_supported', 'probability_percent': None}],
+                         child='record-son', provenance={'new_documentary_account': True},
+                         father_changes=changes, identity_hold_ids={'record-son'})
+        self.assertEqual(row['after_percent'], 95)
+        self.assertTrue(row['identity_hold'])
+        self.assertIsNone(row['research_event'])
+
     def test_attachment_uses_checked_attachment_date_not_later_first_rating(self):
         rows=self.rows([],provenance={'new_father_attachment':True,'new_father_attachment_reviewed':'2026-10-16'})
         self.assertEqual(rows[0]['research_event']['type'],'father_attachment')

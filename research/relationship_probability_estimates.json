@@ -44540,6 +44540,62 @@
         "william590-1888-biographical-parentage"
       ],
       "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
+    },
+    {
+      "subject_id": "record-john-cameron-glasgow-infant-before-1846",
+      "relative_id": "Glasgow-589",
+      "relationship": "father",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-john-infant-moses-20261026",
+      "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
+      "reviewed": "2026-10-29",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "profile_names": {
+        "Glasgow-589": "Moses Thomas Glasgow",
+        "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
+      },
+      "profile_urls": {
+        "record-john-cameron-glasgow-infant-before-1846": {
+          "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
+        }
+      }
+    },
+    {
+      "subject_id": "Glasgow-589",
+      "relative_id": "record-john-cameron-glasgow-infant-before-1846",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-john-infant-moses-20261026",
+      "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
+      "reviewed": "2026-10-29",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "profile_names": {
+        "Glasgow-589": "Moses Thomas Glasgow",
+        "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
+      },
+      "profile_urls": {
+        "record-john-cameron-glasgow-infant-before-1846": {
+          "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
+        }
+      }
     }
   ]
 }

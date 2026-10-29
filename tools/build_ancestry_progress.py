@@ -141,11 +141,13 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
             before = None if changed_father else percent(previous or {})
             probability = state.get('probability') or {}
             provenance = assertion.get('provenance') or {}
+            documentary_creation = bool(provenance.get('new_local_documentary_person')
+                                        or provenance.get('new_documentary_account'))
             newly_selected = (index == len(states)-1
                               and provenance.get('new_father_attachment') is True
                               and (previous or {}).get('working_selection') is False)
             new = newly_selected or (before is None and (
-                changed_father or bool(provenance.get('new_local_documentary_person'))
+                changed_father or documentary_creation
                 or provenance.get('new_father_attachment') is True))
             before_grade = confidence_grade(previous or {})
             after_grade = confidence_grade(state)
@@ -159,7 +161,7 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
             research_event = None
             if structural or (new and provenance.get('new_father_attachment') is True):
                 structural_recorded = True
-                if not provenance.get('new_local_documentary_person'):
+                if not documentary_creation:
                     replacement = amendment.get('action') == 'replace' or changed_father
                     prior = dict(status=amendment.get('previous_status'))
                     research_event = dict(
