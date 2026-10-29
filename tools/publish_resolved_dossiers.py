@@ -11,12 +11,12 @@ from pathlib import Path
 try:
     import evidence_labels
     from relationship_probability import probability_for_relationship
-    from catalogue_machine_data import compact_resolver_row
+    from catalogue_machine_data import compact_resolver_row, imported_changes, imported_row
     from documentary_ancestry import valid_account_url
 except ModuleNotFoundError:  # imported as tools.publish_resolved_dossiers
     from tools import evidence_labels
     from tools.relationship_probability import probability_for_relationship
-    from tools.catalogue_machine_data import compact_resolver_row
+    from tools.catalogue_machine_data import compact_resolver_row, imported_changes, imported_row
     from tools.documentary_ancestry import valid_account_url
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -307,11 +307,11 @@ def resolve(dossier, assessments, shared_assessments=()):
 
 
 def resolve_index_row(row, reviewed):
-    row = deepcopy(row.get('imported', row))
+    row = deepcopy(imported_row(row))
     dossier = reviewed.get(row.get('id', '').casefold())
     if not dossier:
         return row
-    row['imported'] = deepcopy(row)
+    original = deepcopy(row)
     row['data_view'] = 'reviewed'
     row['assessment_provenance'] = [a['id'] for a in dossier['research_assessments']]
     if dossier.get('identity_review'):
@@ -333,6 +333,8 @@ def resolve_index_row(row, reviewed):
         row['parent_names'] = [r.get('name', r['id']) for r in parents]
         for role in ('father', 'mother'):
             row[role + '_id'] = next((r['id'] for r in parents if r.get('relationship') == role), None)
+    # Keep only what the review replaced: enough to restore the imported row.
+    row['imported'] = imported_changes(original, row)
     return row
 
 

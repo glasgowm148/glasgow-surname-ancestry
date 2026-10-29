@@ -114,6 +114,41 @@ class CompactResolverTest(unittest.TestCase):
         self.assertEqual(compact_resolver_row({"id": "Person-2", "reviewed_relationships": {"parents": []}}),
                          {"id": "Person-2"})
 
+    def test_compact_resolver_drops_only_implied_relationship_fields(self):
+        row = {"id": "Person-1", "reviewed_relationships": {
+            "siblings": [{"id": "Sib-1", "name": "Ann", "relationship": "sister", "status": "unknown",
+                          "status_label": "WikiTree relationship snapshot", "claim_id": "C-1",
+                          "relationship_source": "wikitree_relation_snapshot"}],
+            "spouses": [{"id": "Wife-1", "status": "unknown", "status_label": "WikiTree tree relationship",
+                         "tree_status": "unmarked", "tree_status_label": "WikiTree: relationship status unmarked",
+                         "relationship_source": "wikitree_spouse_field",
+                         "probability": {"band": "unrated", "value": None, "method": "not_individually_assessed"}}],
+            "parents": [{"id": "Father-1", "status": "probable", "status_label": "Probable; 1892 citation",
+                         "assertion_id": "A-1", "claim_id": "A-1",
+                         "probability": {"value": 0.7, "band": "probable", "minimum": 0.6, "method": "individual"}}]}}
+        compact = compact_resolver_row(row)
+        self.assertEqual(["Sib-1"], compact["sibling_ids"])
+        self.assertNotIn("siblings", compact["reviewed_relationships"])
+        self.assertEqual([{"id": "Wife-1", "status": "unknown", "tree_status": "unmarked",
+                           "relationship_source": "wikitree_spouse_field"}],
+                         compact["reviewed_relationships"]["spouses"])
+        self.assertEqual([{"id": "Father-1", "status": "probable", "status_label": "Probable; 1892 citation",
+                           "assertion_id": "A-1", "probability": {"value": 0.7, "band": "probable"}}],
+                         compact["reviewed_relationships"]["parents"])
+        self.assertEqual(compact, compact_resolver_row(compact))
+
+    def test_imported_changes_restore_the_imported_row(self):
+        from tools.catalogue_machine_data import imported_changes, imported_row
+        original = {"id": "Person-1", "name": "Jon", "birth_year": 1800, "locations": ["Larne"]}
+        reviewed = {"id": "Person-1", "name": "John", "birth_year": 1800, "locations": ["Larne"],
+                    "father_id": "Father-1", "data_view": "reviewed", "reviewed_relationships": {}}
+        changes = imported_changes(original, reviewed)
+        self.assertEqual({"name": "Jon", "father_id": None}, changes)
+        self.assertEqual(original, imported_row({**reviewed, "imported": changes}))
+        self.assertEqual(original, imported_row({**reviewed, "imported": original}))  # older full snapshot
+        self.assertEqual({"id": "Person-1", "name": "John"},
+                         imported_row({"id": "Person-1", "name": "John", "data_view": "reviewed"}))
+
 
 class ProfileSourceRegisterTest(unittest.TestCase):
     def test_photo_source_is_registered_but_profile_and_self_only_sources_are_dropped(self):

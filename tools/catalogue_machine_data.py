@@ -47,22 +47,83 @@ def compact_resolver_row(row: dict) -> dict:
     # of every source argument and previous assessment. Those remain available
     # in its linked dossier. Retain imported fields for reversible resolution.
     if "reviewed_relationships" in compact:
-        fields = {"id", "name", "relationship", "status", "status_label",
-                  "tree_status", "tree_status_label", "assertion_id", "claim_id",
-                  "working_selection", "lifecycle", "display",
-                  "relationship_source", "probability"}
-        compact["reviewed_relationships"] = {
-            group: [{key: (
-                {k: v for k, v in value.items()
-                 if k in {"value", "band", "minimum", "maximum", "method"}}
-                if key == "probability" and isinstance(value, dict) else value
-            ) for key, value in relation.items() if key in fields}
-                    for relation in relations]
-            for group, relations in compact["reviewed_relationships"].items() if relations
-        }
+        siblings = []
+        reviewed = {}
+        for group, relations in compact["reviewed_relationships"].items():
+            kept = []
+            for relation in relations:
+                if _bare_tree_sibling(relation):
+                    siblings.append(relation["id"])
+                else:
+                    kept.append(_compact_relation(relation))
+            if kept:
+                reviewed[group] = kept
+        compact["reviewed_relationships"] = reviewed
+        if siblings:
+            compact["sibling_ids"] = siblings
         if not compact["reviewed_relationships"]:
             compact.pop("reviewed_relationships")
     return compact
+
+
+# Labels that only restate the relationship source or an unmarked tree link.
+_IMPLIED_LABELS = {
+    "status_label": {"WikiTree relationship snapshot", "WikiTree tree relationship"},
+    "tree_status_label": {"WikiTree: relationship status unmarked"},
+}
+
+
+def _bare_tree_sibling(relation: dict) -> bool:
+    """An unassessed, unmarked WikiTree sibling carries nothing but its ID."""
+    return (relation.get("relationship_source") == "wikitree_relation_snapshot"
+            and relation.get("status") == "unknown" and not relation.get("tree_status")
+            and not relation.get("assertion_id") and bool(relation.get("id")))
+
+
+def _compact_relation(relation: dict) -> dict:
+    fields = ("id", "name", "relationship", "status", "status_label",
+              "tree_status", "tree_status_label", "assertion_id", "claim_id",
+              "working_selection", "lifecycle", "display",
+              "relationship_source", "probability")
+    result = {}
+    for key in fields:
+        if key not in relation or relation[key] in _IMPLIED_LABELS.get(key, ()):
+            continue
+        value = relation[key]
+        if key == "probability" and isinstance(value, dict):
+            # Range and method follow from the band; an unrated row has no estimate.
+            if value.get("value") is None:
+                continue
+            value = {k: v for k, v in value.items() if k in {"value", "band"}}
+        if key == "claim_id" and value == relation.get("assertion_id"):
+            continue
+        result[key] = value
+    return result
+
+
+# Fields a review adds to a resolver row; the imported snapshot never has them.
+REVIEW_ONLY_FIELDS = frozenset({"imported", "data_view", "assessment_provenance",
+                                "reviewed_relationships", "reviewed_vitals", "sibling_ids"})
+
+
+def imported_changes(original: dict, reviewed: dict) -> dict:
+    """The imported values a review replaced; None marks a field it added."""
+    changes = {key: value for key, value in original.items()
+               if key != "id" and reviewed.get(key) != value}
+    changes.update({key: None for key in reviewed
+                    if key not in original and key not in REVIEW_ONLY_FIELDS})
+    return changes
+
+
+def imported_row(row: dict) -> dict:
+    """Rebuild the pre-review row from a reviewed row and its imported changes."""
+    imported = row.get("imported")
+    if imported and "id" in imported:  # an older full snapshot
+        return imported
+    # Compaction drops an empty change set: the review then altered nothing.
+    merged = {key: value for key, value in row.items() if key not in REVIEW_ONLY_FIELDS}
+    merged.update(imported or {})
+    return {key: value for key, value in merged.items() if value is not None}
 
 
 def _normal_match_text(value: str) -> str:
