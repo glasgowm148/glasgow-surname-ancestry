@@ -3,20 +3,9 @@
  "generated": "2026-10-29",
  "about": "Failing items of tools/check_research_publication.py tolerated for now. This list should only shrink: fix an item and run --update-baseline. Keys are 'subject|key'.",
  "counts": {
-  "FOLDER_NOT_READ": 1,
-  "QUEUE_ENTRY_DROPPED": 4,
   "SOURCE_ONLY_IN_INTERNAL_SECTION": 22
  },
  "items": {
-  "FOLDER_NOT_READ": [
-   "opr-marriages-to-1700|folder"
-  ],
-  "QUEUE_ENTRY_DROPPED": [
-   "Dunlop-2144|no_capture",
-   "Glasgow-4293|no_capture",
-   "Glasgow-4340|no_capture",
-   "Plunkett-2805|no_capture"
-  ],
   "SOURCE_ONLY_IN_INTERNAL_SECTION": [
    "Glasgow-1022|Public profile scrape review (2026-07-22)",
    "Glasgow-1025|Public profile scrape review (2026-07-22)",
