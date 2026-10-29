@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Reviewed: 2026-10-16
 
 **Selected Dublin/Irvine working families,16 October 2026:** Philip Glasco-146 is used provisionally as the elder Dublin watchmaker and placed under Thomas-1242, uncertain through the 1711 child comparison. James of the Irvine Rae household is placed under Hugh-3109, uncertain. No new mother is attached, and both elder/junior and Hugh identities remain qualified. [Evidence and alternatives](/branches/early-scottish-records/#dublin-irvine-working-family).

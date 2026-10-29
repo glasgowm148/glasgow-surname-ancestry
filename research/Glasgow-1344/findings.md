@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-1141](https://www.wikitree.com/wiki/Glasgow-1141). Record-specific citation attribution only; the22October review lacked literal maternal wording; the24October FMP transcripts now name Margaret Multree and give Kirknewton residence, while adult identity remains qualified. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The father dossier expressly cites Alexander Glasgow in Jean’s 1732 FamilySearch entry, and the child links that same record. Recurrence of a local Alexander family from 1721 supports continuity; no competing exact family is held. Record-specific citation attribution only; the22October review lacked literal maternal wording; the24October FMP transcripts now name Margaret Multree and give Kirknewton residence, while adult identity remains qualified.

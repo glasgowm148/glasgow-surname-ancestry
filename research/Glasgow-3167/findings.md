@@ -48,6 +48,8 @@ Source: [RootsChat, Elder, Murdoch & McMeekin Families](https://www.rootschat.co
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The 5 September master review confirms that Mary's original marriage was in the
 Ballymoney registration district, not Ballymena. It directly proves Alexander
 Glasgow, farmer, as her father. Her presence as informant at her mother Mary

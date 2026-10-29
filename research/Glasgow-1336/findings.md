@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Reviewed 23 October 2026.
 
 [Alexander Glasgow](/people/glasgow-1321.html) → [Andrew Glasgow](/people/glasgow-1336.html): 95% → **76% (probable)**. Alexander-1321 represents the documented 1774–1776 Edinburgh brewer’s-servant household with Agnes Cunningham. The 1747 Kirknewton baptism names Andrew Glasgow and Isobel Clerk; 95% remains the conditional assessment of that child’s parent clause. Age about 27 in 1774 and compatible regional chronology support identifying the child with the adult, but no held record connects the childhood to the later occupation or spouse. The full adult-to-Andrew-1336 placement is therefore 76%. The graph percentage assesses the complete adult-profile father proposition. The prior 95% concerned only the record-defined 1747 child and is preserved with that scope, not disproved. The 1751 Glasgow Alexander entry remains an unresolved comparison, not a demonstrated rival. No father is replaced and no vital field or mother is changed. Original register images uninspected.

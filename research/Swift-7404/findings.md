@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Richard Swift married Jane White at Birmingham on 5 August 1771 and was the
 father of Jane Swift, baptized there on 27 December 1777. His parents remain
 unidentified.

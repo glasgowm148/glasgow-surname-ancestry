@@ -5,6 +5,8 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-991](https://www.wikitree.com/wiki/Glasgow-991). Confident for this recorded son; no mother or later adult identity is supplied by the father-only index. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-17

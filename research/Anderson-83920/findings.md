@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Jean's own memorial was cited on WikiTree and verified live on 28 August 2026.
+
 [Jean Anderson Glasgow's own Find a Grave memorial
 198800999](https://www.findagrave.com/memorial/198800999/jean-glasgow)
 transcribes the shared stone: Jean, spouse of Peter Glasgow, died 7 January

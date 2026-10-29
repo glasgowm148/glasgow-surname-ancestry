@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Father reviewed22October2026: Glasgow-1513 remains selected at 13% (uncertain). The inherited dates permit Robert’s 1670 Ayr child to father Ezekiel around 1690, but the claimed Guernsey birth requires an unsupported geographical transition. No held record connects Robert with Ezekiel, and the 1775 Charlestown postal co-listing identifies neither generation. Uncertain13%; retain the selected route without treating the estimated dates, migration or postal list as proof.
 
 ## Current conclusion — postal and certificate originals, 5 October 2026

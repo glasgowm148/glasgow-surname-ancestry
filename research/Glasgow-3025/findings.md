@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **74% (probable)** for [Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087). Probable adult identity; the superseded 1556 comparison and date presentation do not identify a separate proved father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 **Parent-ID check, 20 October 2026:** the earlier biography’s [William Glasgow-1556](https://www.wikitree.com/wiki/Glasgow-1556), public ID29042192, is a separate profile from the current structured father [William Glasgow-1087](https://www.wikitree.com/wiki/Glasgow-1087), public ID27484852. Both remain father-identity comparisons; no alias, merge, new father selection or confidence change is inferred. The indexed father is called William, without an inspected identity bridge.

@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Reviewed: 2026-10-20. **Preferred uncertain father George of Mureistoun 26%, replacing Corsankell James 18%; old father retained as alternative.**
 
 Prefer [George of Mureistoun](/research/subjects/murieston-1586-1605/#george-mureistoun) as Edward’s uncertain working father at **26%**, making Edward and [James Glasgow-991](/people/glasgow-991.html) proposed brothers. Their Inveresk families and the shared 1624 Fisherrow sasine reference favour a local family reconstruction; the index does not state their kinship. [James of Corsankell](/people/glasgow-3921.html) remains an **18% alternative**. Margaret Smith’s separate uncertain mother attachment is unchanged.

@@ -4,6 +4,8 @@ Last updated: 2026-09-21
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The earlier suggestion that the armorial-stone entry read “Henry Glads” is
 withdrawn. The inspected printed page supports Hugh Glasgow, wife Ann and the
 later Larne family.

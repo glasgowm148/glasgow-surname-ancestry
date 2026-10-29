@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Scotland was added on WikiTree as an uncertain birth location on 29 August 2026.
+
 No direct record currently fixes Jane Dowdells's birthplace. Her spouse and child belong to a documented Scottish family network, so **Scotland, United Kingdom** is a reasonable broad inference only and remains uncertain.
 
 ## Source findings

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. The memorial link was moved to a rejected-source note on WikiTree on 28 August 2026; the child's identity is still unresolved.
+
 The profile represents an unidentified male attached as a son of
 [Adam Glasgow (Glasgow-3151)](https://www.wikitree.com/wiki/Glasgow-3151).
 Its only cited link is Find a Grave memorial 107122859, which is Adam's memorial,

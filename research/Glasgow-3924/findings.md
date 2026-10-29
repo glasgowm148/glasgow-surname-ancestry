@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **99% (proved)** for [Glasgow-3920](https://www.wikitree.com/wiki/Glasgow-3920). Memorial erector’s father; no birth year, own death, wife or Scottish grandfather is proved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-16

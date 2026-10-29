@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 **Libberton child review, 17 October 2026:** Robert is the **documented named father in John’s 1722 baptism**. The American continuation attributed to John and Robert’s own ancestry retain their uncertainty.
 
 The dated review below distinguishes the documented Scottish parent roles from the unresolved American identity.

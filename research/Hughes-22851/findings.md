@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Glasgow was added on WikiTree as an uncertain birthplace on 29 August 2026.
+
 No direct record currently fixes Agnes Hughes's birthplace. Her husband David Glasgow's immediate family is repeatedly documented in Glasgow, so **Glasgow, Scotland, United Kingdom** is a plausible but uncertain inference from spouse-family context.
 
 ## Source findings

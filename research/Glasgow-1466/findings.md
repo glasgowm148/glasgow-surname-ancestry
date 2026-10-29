@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Peter’s 1762 West Calder child index names John Glasgow and Margaret Mill. The existing John/Margaret Mill family is a specific adult household and the 1740 Irvine John has a compatible22-year generation. The remaining Irvine-child to West-Calder-adult transition lacks a direct bridge. Complete father-profile placement79%; the 1762 record father role is explicit, while John’s earlier identity is inferred. Original uninspected.
 
 ## Father confidence review, second batch — 22 October 2026

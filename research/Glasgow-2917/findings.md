@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The profile combines a Scottish baptism with a later Cross, County Londonderry
 identity. The baptism is evidence for the Scottish child only. No reviewed
 record bridges that child to Ireland or proves the attached Cross/Derry descent.

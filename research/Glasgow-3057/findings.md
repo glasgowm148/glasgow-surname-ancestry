@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Glasgow was added on WikiTree as an uncertain death place on 29 August 2026.
+
 Christina Martin's family monument is in a Glasgow cemetery and records her death in April 1902 aged 54. This supports **Glasgow, Lanarkshire, Scotland** as an uncertain death location; a burial monument does not by itself prove the place of death.
 
 ## Source findings

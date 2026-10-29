@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Wilson’s real-estate packet index lists widow Mary with Robert among the apparent seven-child group. This is a specific estate-family context fitting Robert-2298’s generation and Newberry setting, stronger than a bare tree link. Mary’s 1837 will does not itself name this Robert. Probable84%; the uninspected original packet must establish the parties’ exact roles. The estate index is not a literal father clause.
 
 ## Father confidence review, second batch — 22 October 2026

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **77% (probable)** for [Glasgow-1336](https://www.wikitree.com/wiki/Glasgow-1336). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Jean’s 1743 Kirknewton index and same attached Clerk couple fit the 1739–1747 household closely. The 1747 named-couple record supports the family; Jean’s parental wording is now available from the24October derivative transcripts; Andrew’s1714child-to-adult continuity remains unverified. Complete selected father-profile proposition; recorded role and adult identification distinguished below.

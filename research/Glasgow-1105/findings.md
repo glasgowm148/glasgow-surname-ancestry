@@ -7,6 +7,8 @@ Last updated: 2026-09-10
 ## Current conclusion
 
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (29 October 2026): **55% (possible)** for [Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103). See the father review of 29 October 2026 below.
 Reviewed: 2026-10-16
 

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. The mismatched biography was replaced and Summit County added as an uncertain death location on WikiTree on 29 August 2026.
+
 [Find a Grave memorial 16005955](https://www.findagrave.com/memorial/16005955/elizabeth-ingold-glasgow)
 reports that Elizabeth died 21 February 1915 in Summit County, Ohio, and was
 buried in Wooster Cemetery. The memorial does not identify the underlying death

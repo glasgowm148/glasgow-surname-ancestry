@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 James Glasgow's will and the 1817 equity case strongly support Archibald as a son
 of James and Mary. Gilders Creek gravestones name three children of Archibald and
 Mary: James `Glasgow-3981` (1806-1824), Neomi `Glasgow-3979` (1797-1831), and

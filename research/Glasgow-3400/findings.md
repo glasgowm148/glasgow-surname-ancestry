@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The inspected Findmypast transcript gives Andrew’s birth as **27 March 1790** and baptism as **11 April 1790** at Bathgate. It names Peter Glasgow and Elisabeth Dick. This supplies an exact birth date for the profile’s former year-only birth, while the particular identification of Peter with Glasgow-1466 remains the separately assessed 82% proposition.
 
 Current father assessment (22 October 2026): **82% (probable)** for [Glasgow-1466](https://www.wikitree.com/wiki/Glasgow-1466). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.

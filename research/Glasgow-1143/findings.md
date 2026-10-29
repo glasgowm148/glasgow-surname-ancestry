@@ -12,6 +12,8 @@ detached.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The Findmypast/Tepper entry `US/GPC/00345374` is a high-confidence match to
 this profile. The image reads “Glasgow, Robt., Ballykeel, Co. Ant. Lease. Hill
 Docts. 1738. (O.D.).” It is a lease index, not evidence of United States

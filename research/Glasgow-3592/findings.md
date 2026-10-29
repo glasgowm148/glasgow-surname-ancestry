@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The original Rathdowney baptism records Thoms, born 1 May and baptised 7 May 1777, son of David Glascow and Anne Ford. A separate original Rathdowney marriage entry records David Glascow and Anne Ford marrying on 14 September 1773; the witness line tentatively reads ‘Michl Grady & Marg Conor’. The date agrees with the existing FamilySearch index. The marriage supports the local couple context but supplies no age, parent, Scottish birthplace or prior parish and does not identify David with [David Glasgow](/people/glasgow-3456.html). The existing 98% parent assessments and all saved relationships and vital fields remain unchanged. Next inspect Margaret’s July 1774 entry and sponsors, then seek an original-record bridge for the later Tipperary adult identity.
 
 ## Rathdowney marriage — 24 October 2026

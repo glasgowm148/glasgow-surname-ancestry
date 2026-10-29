@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-f8bbedf29384 -->
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1557](https://www.wikitree.com/wiki/Glasgow-1557). Confident for the recorded child and father; competing later lives of the two Edwards and Eduard-994 remain separately qualified. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-15

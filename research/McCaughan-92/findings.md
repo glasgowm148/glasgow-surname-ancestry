@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Ireland was added on WikiTree as an uncertain birthplace on 29 August 2026.
+
 The supplied family tree reports that Mary McCaughan was born in **Ireland** in 1820. Ireland is therefore usable only as an uncertain birthplace; the tree supplies no underlying record.
 
 ## Source findings

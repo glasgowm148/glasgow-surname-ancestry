@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. The 1 April 1844 death date, with the birth year marked uncertain, was entered on WikiTree on 28 August 2026.
+
 [Find a Grave memorial 33531779](https://www.findagrave.com/memorial/33531779/mary-glasgow)
 includes a legible photograph of Mary's gravestone. It records that she died
 1 April 1844, aged 71. This supports replacing the year-only death date; the

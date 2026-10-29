@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 **Reviewed23 October 2026:** existing father [Robert Glasgow-1075](/people/glasgow-1075.html) is **95% confident**, from 58%. The original scanned printed page 252 of Paterson’s 1852 Ayr history explicitly lists Ann among the children of Robert Glasgow of Puddockholm and Margaret Allan, and says she married Hugh Allan in Kilwinning on 23 December 1757. Anna’s complete captured parish-cited biography gives that same husband and exact date, with Kilbirnie and Kilwinning entries, followed by their documented children. The father is specifically the 1693-baptised chamberlain/surgeon represented by Glasgow-1075. This exact adult marriage/family match supplies the parent statement missed by the earlier 58% review, which relied on a child’s 1781 baptism.
 
 95% assesses the complete existing Anna-to-Robert profile pair. Paterson is a nineteenth-century compiled family history, not Anna’s original baptism; the cited parish images were not newly inspected. Ann/Anna is a given-name variant supported by the exact husband/date match. The printed source’s family claims are not all automatically accepted: its later no-issue statement conflicts with retained trust evidence. No mother, vital field, parent selection or upstream ancestry is changed; no live WikiTree save.

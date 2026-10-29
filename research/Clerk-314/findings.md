@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 HOLD — One 6 May 1750 Kirknewton baptism names Andrew Glasgow and Isabel Clerk; no separate birth date. The named couple resembles the parents of Alexander Glasgow-1321, and Glasgow-1336/Clerk-314 are adult comparisons, but neither assignment is proved here. Glasgow-3165 remains a weak child comparison only; do not attach these parents to him. No new person is proposed; absent corroboration and uncertain or baptism-derived birth estimates are not concrete exclusions.
 
 The 23 October 2026 Findmypast review below retains the recorded facts and qualified identity comparisons; no new person or relationship is proposed.

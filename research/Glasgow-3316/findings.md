@@ -4,6 +4,8 @@ Last updated: 2026-09-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **84% (probable)** for [Glasgow-1058](https://www.wikitree.com/wiki/Glasgow-1058). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The Findmypast parish transcript is an exact match to [Elisabeth (Glasgow)

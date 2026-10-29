@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Waterloo was added on WikiTree as the death location on 29 August 2026.
+
 [Find a Grave memorial 10906697](https://www.findagrave.com/memorial/10906697/warren-c-glasgow)
 includes an obituary transcription stating that Warren returned to Waterloo
 while ill and died at his mother and sister's Grant Avenue home on 20 June

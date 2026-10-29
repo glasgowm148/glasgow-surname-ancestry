@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Waterloo was added on WikiTree as an uncertain death location on 29 August 2026.
+
 [Find a Grave memorial 10906690](https://www.findagrave.com/memorial/10906690/margaret-glasgow)
 reports death in Waterloo, Iowa. Its narrative says an Iowa death record gives
 her age as about 84, death on 17 October 1921 and father Robert Knox, but the

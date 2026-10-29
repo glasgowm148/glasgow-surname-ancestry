@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 George’s documented Glasgow family and the Howie association provide a plausible setting for William, husband of Bessie Howie by 1635. A child around 1615 fits George’s generation and known children. However the1/754 parent clause belongs to Thomas’s 1612 baptism, not an identified William birth, and William’s naming pattern cannot supply the missing relationship. Possible43% for the existing father. The earlier suggestion that the unnamed1/754 extract was William’s baptism is superseded; no mother is newly attached.
 
 ## Superseded current conclusion — before 22 October 2026

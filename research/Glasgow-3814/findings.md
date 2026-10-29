@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The inspected 1883 civil death return identifies William as a bachelor aged 87, retired merchant, dying at Loy, Cookstown, on 4 July 1883. Sarah Bridget of Loy was present at death and informant. Name, occupation, district and chronology make him a strong compatible candidate for the Cookstown merchant’s January 1856 retirement presentation, and a possible identity for the 1858 uncle. Neither connection is proved by a kinship record.
 
 ## Source findings

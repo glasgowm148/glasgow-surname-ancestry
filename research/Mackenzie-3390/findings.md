@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. The merge and the Glasgow death place were completed on WikiTree on 29 August 2026.
+
 Margaret Mackenzie died in **Glasgow, Lanarkshire, Scotland**, on 29 March 1773. The former profile Mackenzie-5190 was a stale duplicate and now redirects here.
 
 ## Source findings

@@ -3,6 +3,8 @@
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-cdbfe8e4475a -->
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-1067](https://www.wikitree.com/wiki/Glasgow-1067). Complete existing child-to-father-profile proposition, including the father’s childhood-to-adult identification; literal named parental role is stronger and assessed separately in the basis. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Hugh’s 1713 entry names Hugh and Mary Dean, continuing the Irvine family. The father’s identification with the 1676 Hew is compatible across age and locality but unbridged; the longer record interval supplies less household detail than a continuous address would.

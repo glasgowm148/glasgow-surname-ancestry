@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 NRS `RH15/120/178` independently identifies this family. On 22 November 1722
 Robert Glasgow at Paddockholm wrote to his brother James Glasgow, a student of
 divinity at Glasgow, and sent butter and cheese for Mr Gordon. Robert-1075 was

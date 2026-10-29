@@ -4,6 +4,8 @@ Last updated: 2026-08-25
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The Glenleslie evidence now establishes a further family chain. In 1851,
 [[Glasgow-3168|Ann Glasgow]], aged eighteen, was explicitly recorded as a
 granddaughter of [[Glasgow-1022|John Glasgow]]. Her 1869 marriage names her

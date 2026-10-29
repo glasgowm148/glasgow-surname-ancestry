@@ -24,6 +24,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The 14 December 1866 death index entry is a good fit for this profile. The earlier probate occurrences remain separate, unproved identities.
 
 ## Source findings

@@ -14,6 +14,8 @@ The reciprocal link to [Brady Family of Sauchie, Stirling & Easter Kennet — Re
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Updated to record the corrected live birth estimate; otherwise unchanged.
+
 Father assessment: [William Glasgow (1500)](https://www.wikitree.com/wiki/Glasgow-1098) is **confirmed by record**.
 
 Birth-date assessment: John's WikiTree value is **before 1516**, not an exact
@@ -21,9 +23,7 @@ Birth-date assessment: John's WikiTree value is **before 1516**, not an exact
 her on 31 December 1534. The record gives no age. The legal minimum marriage
 age supplies only a remote outer bound of birth before about 1520; treating him
 as an adult householder makes **about 1510** the better working estimate, with
-roughly **1505-1516** a reasonable genealogical range. The existing `before
-1516` value is therefore defensible as a conservative boundary, but 1516 is not
-a recorded year.
+roughly **1505-1516** a reasonable genealogical range. The former `before 1516` value was a defensible conservative boundary, but 1516 is not a recorded year; the live birth now reads about 1510, uncertain, after the birth-estimate audit.
 
 ## Source findings
 

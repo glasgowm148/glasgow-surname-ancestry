@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Glasgow was added on WikiTree as an uncertain birthplace on 29 August 2026.
+
 Margaret Glasgow's cited ScotlandsPeople reference is in registration district **644/3**, a Glasgow district. This supports **Glasgow, Lanarkshire, Scotland** as an uncertain birthplace, but the original entry must be inspected before treating the event or place as certain.
 
 ## Source findings

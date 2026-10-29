@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The existing profile `Edstoun-4` uniquely represents **Cuthbert Kaddell/Keddell of
 Croftmalloch**, whom [Margaret Glasgow (Glasgow-3613)](https://www.wikitree.com/wiki/Glasgow-3613)
 directly called her son and who acted as her executor-dative. His current

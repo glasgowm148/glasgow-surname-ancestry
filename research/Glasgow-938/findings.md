@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 The 5 September master review confirms Robert as Alexander's son from the 1851
 household and his 1866 marriage, which names Alexander Glasgow, farmer. The
 often-repeated exact birth date 6 November 1840 remains unsupported; retain an

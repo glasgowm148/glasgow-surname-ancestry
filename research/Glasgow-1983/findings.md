@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Robert's parentage is unusually well supported. James Glasgow's will calls him
 a son, and Robert's 1817 sworn answer calls James his father, Mary his mother,
 Rachel Wilson his paternal grandmother, Ann Glasgow his father's sister, and

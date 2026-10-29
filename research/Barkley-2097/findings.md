@@ -5,6 +5,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Rosanna's original marriage entry identifies her as a farm servant of Tyanee,
 daughter of farmer Henry Barkley, and gives her age as about 25 on 17 March
 1851. Her estimated birth should therefore be about 1825/26, not about 1810.

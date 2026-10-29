@@ -4,6 +4,8 @@ Last updated: 2026-09-13
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Rosanna is named with an older Alexander in a 2007 descendant account as the
 parent of Thomas Glasgow of Lisnagaver. No contemporary record establishes her
 maiden surname, birth, marriage, death, or all three proposed children. She is a

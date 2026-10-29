@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 5 October 2026 candidate review: Birth before 1726 fits the reported age; the 1744 Dublin baptism names James Glasco and Cathrine. No source bridges Dublin to Omagh. [James Glasco of Omagh’s 1786 marriage and 1793 business notices](/research/subjects/newspapers-early-glasgow/#james-glasco-omagh) are retained as documentary evidence. This profile is a possible candidate; no spouse, parent, occupation or place is attached. The 1786 groom and 1793 contact are probably the same man, with no proved profile bridge.
 
 ## Identity and relationship assessments

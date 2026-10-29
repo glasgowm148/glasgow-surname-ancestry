@@ -7,6 +7,8 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 James's 1775 will names his wife Mary and six children: Robert, John, Archibald,
 Wilson, Margaret and Rachel. The 1817 equity complaint repeats the children,
 identifies Margaret as wife of John Kinard and Rachel as wife of Robert

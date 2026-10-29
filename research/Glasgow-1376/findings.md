@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+
 Reviewed18 October2026. **The categorical exclusion from the1696 apprentice is withdrawn. The old1657 baptism error does not disprove an adult identity; Whitecastle chronology makes the match weaker. Existing parentage is unchanged.**
 
 Select the Edinburgh weaver and burgess James Glasgow-1150 as the probable father of the record-defined 1696 apprentice James Glasgow-4114, at 76% subjective confidence. Printed page 37 names the apprentice’s father as James Glasgow, weaver and burgess. Name, occupation, civic status and Edinburgh setting identify a particular established craftsman rather than just a same-name Scottish father. The maintained 1641 apprenticeship and 1649 burgess cross-reference securely establish James-1150 as a weaver and burgess; printed page 72 also records a James Glasgow, weaver and burgess, taking John Paterson as apprentice on 18 October 1693. The maintained burgess-roll review found one matching admission, although an index cannot rule out another man. This makes James-1150 the preferred father-profile match. The child account itself is defined by the 22 April 1696 entry, so no later-life identification is needed for that child.
