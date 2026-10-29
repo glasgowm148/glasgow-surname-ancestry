@@ -1,16 +1,15 @@
 {
  "schema_version": 1,
- "generated": "2026-10-19",
+ "generated": "2026-10-29",
  "about": "Failing items of tools/check_research_publication.py tolerated for now. This list should only shrink: fix an item and run --update-baseline. Keys are 'subject|key'.",
  "counts": {
   "FOLDER_NOT_READ": 6,
   "NO_PAGE_UNDECIDED": 3,
   "OPENING_FALLBACK": 1,
-  "PAGE_NOT_RESYNCED": 1,
-  "PREAMBLE_NOT_PUBLISHED": 14,
+  "PREAMBLE_NOT_PUBLISHED": 13,
   "QUEUE_ENTRY_DROPPED": 4,
   "REGISTER_ENTRY_DROPPED": 3,
-  "SOURCE_ONLY_IN_INTERNAL_SECTION": 23
+  "SOURCE_ONLY_IN_INTERNAL_SECTION": 22
  },
  "items": {
   "FOLDER_NOT_READ": [
@@ -29,12 +28,8 @@
   "OPENING_FALLBACK": [
    "Glasgow-3785|additions"
   ],
-  "PAGE_NOT_RESYNCED": [
-   "Glasgow-3137|b2b188a84e"
-  ],
   "PREAMBLE_NOT_PUBLISHED": [
    "Glasgow-1024|e8b5253e61",
-   "Glasgow-1026|83e76e5b2b",
    "Glasgow-1098|91be4e02e1",
    "Glasgow-1319|de40c96dc5",
    "Glasgow-2773|a8ab3cc10d",
@@ -62,7 +57,6 @@
   "SOURCE_ONLY_IN_INTERNAL_SECTION": [
    "Glasgow-1022|Public profile scrape review (2026-07-22)",
    "Glasgow-1025|Public profile scrape review (2026-07-22)",
-   "Glasgow-1026|Superseded July audit",
    "Glasgow-1144|Public profile scrape review (2026-07-22)",
    "Glasgow-1367|Public profile scrape review (2026-08-05)",
    "Glasgow-1505|Public profile scrape review (2026-07-22)",
