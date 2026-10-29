@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **75% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-47; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **85% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-47; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Margaret Agnes's 1833 birth and Glasco maiden surname fit James and Elizabeth's Missouri family. Her specific memorial and inherited family placement support the hypothesis, without supplying a retained father clause. Selected Glasgow-45 fatherhood of Glasgow-47; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+James Albert Glasgow ([Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45)): 75% (probable) → **85% (probable)**.
+
+The Williams family history states Margaret, who married Phillip M. Williams on 11 Aug 1851, 'was the daughter of James Albert Glasco'; marriage and 1893 death match her profile.
+
+Limits: Descendant compilation, not contemporary.
+
+Sources: <http://drw.50webs.com/will.html>
 
 ## Father confidence review, ninth batch — 22 October 2026
 

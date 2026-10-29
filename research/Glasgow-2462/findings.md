@@ -5,6 +5,8 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+
+Current father assessment (29 October 2026): **45% (possible)** for [Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103). See the father review of 29 October 2026 below.
 Reviewed: 2026-10-16
 
 **Selected conditional family, 16 October 2026:** Glasgow-591 and the Cavers man Glasgow-4138 are placed under Glasgow-2462 through possible identity with the Polwarth child Glasgow-1605. Both new father links are very uncertain and share the same unproved premises; no mother or identity merge is selected. [Evidence and alternatives](/branches/early-scottish-records/#polwarth-cavers-ulster-working-family).
@@ -20,6 +22,16 @@ no detail identifying that father as Glasgow-2462. Preserve those attached
 children with uncertain status unless and until a sourced replacement father
 profile is ready; the same-name/location gap alone is not grounds to leave
 their father field empty.
+
+## Father review, 29 October 2026
+
+Thomas Glasgow ([Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103)): 73% (probable) → **45% (possible)**.
+
+Same composite-profile problem: this link and John-1105's cannot both stand near 75%, since that would imply the overlapping Inveresk and Linlithgow fathers are one man.
+
+Limits: Identity split pending the owner's decision.
+
+Sources: research/Glasgow-1103
 
 ## Source findings
 

@@ -5,11 +5,21 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-1088](https://www.wikitree.com/wiki/Glasgow-1088). Possible placement with John-1088 specifically; no held record links the Glasgow childhood to the Duddingston John/Margaret Sluman household. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **28% (uncertain)** for [Glasgow-1088](https://www.wikitree.com/wiki/Glasgow-1088). Possible placement with John-1088 specifically; no held record links the Glasgow childhood to the Duddingston John/Margaret Sluman household. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 John's latest live capture records his birth at Duddingston on **4 April 1639**, son of John Glasgow and Margaret Sluman. He cannot therefore be the JON / other JOHNE GLASGOW index event dated 15 January 1638 (Duddingston 684, reference 60/16).
 
 He is one of two chronological Duddingston candidates for the later index row dated 23 August 1641, but no identity match is established. Do not add either burial index row as his death without inspection of the original entry.
+
+## Father review, 29 October 2026
+
+John Glasgow ([Glasgow-1088](https://www.wikitree.com/wiki/Glasgow-1088)): 57% (possible) → **28% (uncertain)**.
+
+The link rests on an uncited tree claim (research/Glasgow-1030/research_brief.md, 'citation needed') that the Glasgow-born John moved to Midlothian and married Margaret Sluman; he would have been about 19; another adult Johne fathered a Duddingston child in January 1638 and Robert of Wester Duddingston was present. No Glasgow–Sluman marriage appears in the printed Edinburgh or Canongate registers.
+
+Limits: Re-weighting of held evidence; the child's father John is documented, only the identification is weak.
+
+Sources: SRS Edinburgh and Canongate marriage registers
 
 ## Source findings
 

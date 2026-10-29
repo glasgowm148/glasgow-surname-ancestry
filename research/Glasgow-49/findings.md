@@ -2,11 +2,21 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **77% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-49; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **83% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-49; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Maria's structured birth date was corrected from 15 June 1838 to **15 June
 1839**. Her live profile had no source for 1838 and already cited the photographed
 memorial for 1839.
+
+## Father review, 29 October 2026
+
+James Albert Glasgow ([Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45)): 77% (probable) → **83% (probable)**.
+
+1850 Jackson Township, Osage household (held summary) plus the Williams family list giving her exact 12 Apr 1857 Joel Hale marriage.
+
+Limits: Compiled list.
+
+Sources: <http://drw.50webs.com/will.html>
 
 ## Source findings
 

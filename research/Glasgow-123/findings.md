@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **55% (possible)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14). Possible55%; named pedigree and compatible chronology, without DNA or a newly read parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **62% (probable)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14). Possible55%; named pedigree and compatible chronology, without DNA or a newly read parent record. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Wagstaff Kennedy’s 1817 birth fits Isaac-14’s 1786 Currituck generation and the particular inherited descendant family. The held memorial and FamilySearch material identify Wagstaff’s later life, but his saved biography provides no independent father clause. Possible55%; named pedigree and compatible chronology, without DNA or a newly read parent record.
+
+## Father review, 29 October 2026
+
+Isaac Wesley (Glascow) Glasgow ([Glascow-14](https://www.wikitree.com/wiki/Glascow-14)): 55% (possible) → **62% (probable)**.
+
+Old Hickory Grove Cemetery, Weakley County, Tennessee (TNGenWeb transcription): W. K. Glasgow (2 Jan 1817 – 3 May 1863) is buried with Isaac and Dosha Glasgow; the death date matches the profile and his middle name repeats the mother's surname.
+
+Limits: No stone states a parent.
+
+Sources: <https://tngenweb.org/weakleytn/old_hickorygrove.htm>
 
 ## Father confidence review, third batch — 22 October 2026
 

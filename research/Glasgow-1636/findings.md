@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **62% (probable)** for [Glasgow-997](https://www.wikitree.com/wiki/Glasgow-997). Selected Glasgow-997 fatherhood of Glasgow-1636; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **95% (proved)** for [Glasgow-997](https://www.wikitree.com/wiki/Glasgow-997). Selected Glasgow-997 fatherhood of Glasgow-1636; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 John Calvin's 1837 birth fits Robert Alexander and Sarah Taggart's family chronology. The held 1880 M C Glascow citation and 1926 military grave identify adult records but supply no father clause, leaving a modest inherited attribution. Selected Glasgow-997 fatherhood of Glasgow-1636; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+Robert Alexander Glasgow ([Glasgow-997](https://www.wikitree.com/wiki/Glasgow-997)): 62% (probable) → **95% (proved)**.
+
+Merrill 1897 p. 201 names John among Alexander Glasgow's children and his 11th Iowa Co. C roster gives John C. Glasgow; Crocker's Brigade reunion lists place J. C. Glasgow of Co. C at Clarinda, where John Calvin died in 1926.
+
+Limits: One lifetime local history plus reunion lists; no record gives the full middle name.
+
+Sources: Merrill 1897 p.201 https://archive.org/details/yellowspringhuro00merr
 
 ## Father confidence review, ninth batch — 22 October 2026
 

@@ -6,9 +6,21 @@ Last updated: 2026-09-10
 
 ## Current conclusion
 
+
+Current father assessment (29 October 2026): **55% (possible)** for [Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103). See the father review of 29 October 2026 below.
 Reviewed: 2026-10-16
 
 **Selected uncertain Libberton/Uphall families,16 October2026:** Robert of Libberton is placed under Johne-3093 through the conditional Mid Calder/Lindsaylands family route; Thomas of the Clarkson household is placed under John-1105 and Agnes Eastone through possible identity with the 1675 child. All three adult parent links are uncertain; existing dates and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#libberton-uphall-working-family).
+## Father review, 29 October 2026
+
+Thomas Glasgow ([Glasgow-1103](https://www.wikitree.com/wiki/Glasgow-1103)): 76% (probable) → **55% (possible)**.
+
+Thomas-1103 combines the 1612 Glasgow child with an Inveresk father (Agnes Thomsone, children 1634–1642) and the Linlithgow father of John (1644, Hellin Bryse); the Linlithgow Jannet of 1640 falls between Inveresk baptisms of 1639 and 1642, and 1103's own biography separates the Inveresk man. A third adult Thomas (Edinburgh merchant, m. Catharine Weir 1643) fits too. Nothing links the 1612 child to the Linlithgow father.
+
+Limits: Analytical correction from held evidence; an identity split of 1103 is pending the owner's decision.
+
+Sources: research/Glasgow-1103; research/ancestry-connections/thomas-merchant-review-2026-10-25.json
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-95906c2e4088
 
 The transcript-validated baptism record for **John Glasgow**, 1644, Linlithgow, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

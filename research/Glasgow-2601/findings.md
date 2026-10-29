@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **85% (probable)** for [Glasgow-2600](https://www.wikitree.com/wiki/Glasgow-2600). Selected Glasgow-2600 fatherhood of Glasgow-2601; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **89% (probable)** for [Glasgow-2600](https://www.wikitree.com/wiki/Glasgow-2600). Selected Glasgow-2600 fatherhood of Glasgow-2601; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Daniel E appears in John Glassga's 1860 household and his 1836 birth fits John's 1831 Elizabeth Neff marriage. The distinctive initial and linked household make the father probable, though 1860 lacks relationship columns. Selected Glasgow-2600 fatherhood of Glasgow-2601; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+John Glasgow ([Glasgow-2600](https://www.wikitree.com/wiki/Glasgow-2600)): 85% (probable) → **89% (probable)**.
+
+McKelvey, Centennial History of Belmont County (1903) dates John and Elizabeth (Blocher) Glasgow's family; Daniel, born 1836 between their 1831 marriage and his sister's 1837 birth, was in their 1860 household.
+
+Limits: No record names him as son. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship.
+
+Sources: McKelvey 1903 pp.392-393 https://archive.org/details/centennialhistor00mcke
 
 ## Father confidence review, ninth batch — 22 October 2026
 

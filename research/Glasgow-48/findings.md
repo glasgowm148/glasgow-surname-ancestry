@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **74% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-48; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **82% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-48; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Sarah Jane's 1829 birth follows James's 1825 Groft marriage and fits the Missouri family chronology. The memorial and inherited attachment identify a plausible daughter, but no held parent wording or childhood row is reproduced. Selected Glasgow-45 fatherhood of Glasgow-48; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+James Albert Glasgow ([Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45)): 74% (probable) → **82% (probable)**.
+
+1850 household plus the Williams account that James lived 'with his daughter Sara Hale' in 1870.
+
+Limits: Compiled account.
+
+Sources: <http://drw.50webs.com/will.html>
 
 ## Father confidence review, ninth batch — 22 October 2026
 

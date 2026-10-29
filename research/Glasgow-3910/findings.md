@@ -6,6 +6,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+
+Current father assessment (29 October 2026): **18% (uncertain)** for [Glasgow-1029](https://www.wikitree.com/wiki/Glasgow-1029). See the father review of 29 October 2026 below.
 Reviewed: 2026-10-16
 
 **Selected Quothquan working family, 16 October 2026:** James the weaver is placed under Stephen, uncertain; Helen of Thankerton is placed under James, uncertain. John of Quothquan remains Stephen’s already attached uncertain son. The proposed brotherhood is conditional, both new mothers remain unknown, and James’s old 1605 birth estimate is replaced by an explicitly estimated adult boundary. [Evidence and alternatives](/branches/early-scottish-records/#quothquan-working-family).
@@ -19,6 +21,16 @@ James Glasgow was a weaver in Quothquan, in Libberton parish, who had died by 26
 An early local group is now documented: John and Thomas Glasgow were Quothquan tenants in the 1520s, with John at Upper Quothquan in 1531/32. They are possible ancestral relatives of James, with the intervening generations unproved.
 
 The 1607–1612 court occurrence names a weaver in Quothquan, compatible with the 1624 testator. If this identification is correct, the inherited birth estimate around 1605 cannot stand; the actual birth remains unknown.
+
+## Father review, 29 October 2026
+
+Stephen Glasgow ([Glasgow-1029](https://www.wikitree.com/wiki/Glasgow-1029)): 26% (uncertain) → **18% (uncertain)**.
+
+Consistency correction: this placement depends on the 22% John-3296 ← Stephen link plus an unproved James–John brotherhood, so it cannot exceed 22%.
+
+Limits: No new negative evidence.
+
+Sources: research/Glasgow-3296
 
 ## Source findings — Lanark testament index, 26 July 1624
 

@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **68% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-52; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **80% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-52; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Cathrine's c 1849 birth fits the youngest children of James's Missouri family and the same inherited pedigree. The only held citation is a GEDCOM import, so this remains a supported family hypothesis rather than a documented child. Selected Glasgow-45 fatherhood of Glasgow-52; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+James Albert Glasgow ([Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45)): 68% (probable) → **80% (probable)**.
+
+Held 1850 and 1860 household summaries (with James alone in 1860) plus the Williams family list.
+
+Limits: Census relationships unstated.
+
+Sources: <http://drw.50webs.com/will.html>
 
 ## Father confidence review, ninth batch — 22 October 2026
 

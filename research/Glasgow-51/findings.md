@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **67% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-51; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **78% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-51; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Susan's c 1847 birth fits James's late Missouri children and the inherited sibling sequence. Her own dossier contains only a GEDCOM creation citation, so paternity lacks an independent held row or parent statement. Selected Glasgow-45 fatherhood of Glasgow-51; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+James Albert Glasgow ([Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45)): 67% (probable) → **78% (probable)**.
+
+1850 household, 1860 listed as Agnes's sister in the Williams household, plus the family list.
+
+Limits: Compiled account.
+
+Sources: <http://drw.50webs.com/will.html>
 
 ## Father confidence review, ninth batch — 22 October 2026
 

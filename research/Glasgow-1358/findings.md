@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **90% (proved)** for [Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **92% (proved)** for [Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The held FamilySearch church-index account places Thomas Newlands Glasgow, 22 April 1821, in John Glasgow and Jean Bryce’s child sequence. The 1841 Hume’s Close household supports that adult family, while identification with the 1783 Bathgate child remains strongly circumstantial. Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+## Father review, 29 October 2026
+
+John Glasgow ([Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460)): 90% (proved) → **92% (proved)**.
+
+The 1851 Bathgate birthplace (FreeCEN) firms the father's identity, the link's stated limit; child evidence unchanged (1821 baptism index and 1841 Hume's Close household).
+
+Limits: Profile birthplace 'Glasgow' conflicts with Edinburgh records.
+
+Sources: FreeCEN 1851 Edinburgh
 
 ## Father confidence review, eighth batch — 22 October 2026
 

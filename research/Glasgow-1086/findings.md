@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+
+Current father assessment (29 October 2026): **20% (uncertain)** for [Glasgow-3296](https://www.wikitree.com/wiki/Glasgow-3296). See the father review of 29 October 2026 below.
 Reviewed: 2026-10-18. **The 1608 child/1685 Quothquan identity remains uncertain. Its conditional route to Easter Newtoun is retained as an alternative, not disproved; the Whitecastle family selection is unchanged.**
 
 The 1608 child/1685 Quothquan identity remains uncertain. Its conditional route to Easter Newtoun is retained as an alternative, not disproved; the Whitecastle family selection is unchanged. The linked household and childhood propositions have distinct scopes; no mother or downstream certainty is inherited from the new ancestry preference.
@@ -9,6 +11,16 @@ The 1608 child/1685 Quothquan identity remains uncertain. Its conditional route 
 [Current ancestry comparison](/branches/early-scottish-records/#chapter-easter-newton-working-ancestry).
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
+## Father review, 29 October 2026
+
+John Glasgow ([Glasgow-3296](https://www.wikitree.com/wiki/Glasgow-3296)): 25% (uncertain) → **20% (uncertain)**.
+
+John's 1650 Lanark testament (CC14/5/5, images 65–66, reread): an edict to kin brought no one, the fiscal was appointed and later replaced by his sister Bessie, and 'Na divisioun' shows no wife or children in his household; this counts against a son still at Quothquan.
+
+Limits: Adult sons living apart are not excluded; two identity bridges remain unproved.
+
+Sources: testaments/Glasgow/Lanark/1650_John
 
 ## Earlier research retained
 

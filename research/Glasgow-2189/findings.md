@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **83% (probable)** for [Glasgow-2182](https://www.wikitree.com/wiki/Glasgow-2182). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **84% (probable)** for [Glasgow-2182](https://www.wikitree.com/wiki/Glasgow-2182). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The held account assigns John Kerr Glasgow to William Allen Glasgow and Nancy Campbell with compatible Adams County dates. John Kerr’s 1860 census and Iowa marriage citation support a coherent family, without a held father clause. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+William Allen Glasgow ([Glasgow-2182](https://www.wikitree.com/wiki/Glasgow-2182)): 83% (probable) → **84% (probable)**.
+
+A 'J. K. Glasgow' was an officer of Scandia Lodge, Republic County, Kansas (Savage 1883 p. 82), where W. A. Glasgow lived.
+
+Limits: Initials only.
+
+Sources: Savage 1883 p.82
 
 ## Father confidence review, ninth batch — 22 October 2026
 

@@ -4,9 +4,19 @@ Last updated: 2026-09-27
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **74% (probable)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **76% (probable)** for [Glascow-14](https://www.wikitree.com/wiki/Glascow-14). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Glasgow-117 was merged into Glasgow-60 on 27 September 2026. Both profiles gave the same 22 June 1831 birth, 8 July 1907 death, and parents Isaac Wesley Glascow and Dosha Cannady. The surviving profile retains her George Washington Adams family, 1880 census citation and the 2013 GEDCOM tree provenance.
+
+## Father review, 29 October 2026
+
+Isaac Wesley (Glascow) Glasgow ([Glascow-14](https://www.wikitree.com/wiki/Glascow-14)): 74% (probable) → **76% (probable)**.
+
+Her married Adams family is buried in Old Hickory Grove with Isaac and Dosha Glasgow.
+
+Limits: No parent statement.
+
+Sources: <https://tngenweb.org/weakleytn/old_hickorygrove.htm>
 
 ## Source findings
 

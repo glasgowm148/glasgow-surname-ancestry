@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-44; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **89% (probable)** for [Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45). Selected Glasgow-45 fatherhood of Glasgow-44; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Lucy Ann is specifically indexed in James's 1850 Jackson Township household at a young age, consistent with his known Missouri family. Her later Harrison records provide a plausible adult continuation, although the held death-certificate pointer has no transcribed parent field. Selected Glasgow-45 fatherhood of Glasgow-44; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+James Albert Glasgow ([Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45)): 89% (probable) → **89% (probable)**.
+
+Danny R. Williams's family history (drw.50webs.com) lists James Albert Glasco's children with exact marriage dates; Lucy's 30 Mar 1862 Harrison marriage matches the held record.
+
+Limits: Compiled, largely uncited account. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship.
+
+Sources: <http://drw.50webs.com/will.html>
 
 ## Father confidence review, ninth batch — 22 October 2026
 

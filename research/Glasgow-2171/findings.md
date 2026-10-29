@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **57% (possible)** for [Glasgow-3678](https://www.wikitree.com/wiki/Glasgow-3678). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **68% (probable)** for [Glasgow-3678](https://www.wikitree.com/wiki/Glasgow-3678). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Nancy Patterson Glasgow’s 1815 birth and surname fit the selected William/Sally Patterson family. Her 1917 son’s death citation names Nancy as mother, not Nancy’s father, and her memorial supplies no reproduced paternal clause. Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
+
+## Father review, 29 October 2026
+
+William Glasgow ([Glasgow-3678](https://www.wikitree.com/wiki/Glasgow-3678)): 57% (possible) → **68% (probable)**.
+
+History of Warren County, Iowa (1908), pp. 742–743: Winton H. Chumbley, born Pulaski County, Virginia, 1853, 'son of William A. and Nancy P. (Glasgow)' Chumbley, confirming her maiden name and Pulaski residence near William and Sally's Wythe land.
+
+Limits: Does not name her father.
+
+Sources: History of Warren County Iowa 1908 pp.742-743
 
 ## Father confidence review, eighth batch — 22 October 2026
 

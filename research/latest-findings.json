@@ -59640,6 +59640,1567 @@
       "detail_url": "/people/glasgow-590.html",
       "relationship_changes": [],
       "provenance": "Original printed obituary and dated issue masthead inspected 28 October 2026; additional source, not a new relationship upgrade."
+    },
+    {
+      "id": "belmont-john2600-sons-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The 1903 Belmont County history dates John and Elizabeth (Blocher) Glasgow’s family from their 1831 marriage. Daniel-2601 rises; John Jr-2927 falls from 83% to 45% because his supposed mother Isabel Glenn was in fact his own wife (1827 marriage).",
+      "qualification": "No record names him as son. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship. No record ties the two men; profile Glasgow-2600's wife and marriage fields need correction.",
+      "people": [
+        {
+          "id": "Glasgow-2601",
+          "name": "Daniel E Glasgow",
+          "url": "/people/glasgow-2601.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2600",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2600.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-2927",
+          "name": "John Glasgow Jr",
+          "url": "/people/glasgow-2927.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A. T. McKelvey, Centennial History of Belmont County, Ohio (1903), pp. 392–393, 402–403",
+          "url": "https://archive.org/details/centennialhistor00mcke"
+        },
+        {
+          "title": "Glasgow–Glenn marriage 1827, FamilySearch XD7B-BPG",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XD7B-BPG"
+        }
+      ],
+      "detail_url": "/people/glasgow-2601.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Daniel E Glasgow (Glasgow-2601)",
+          "relative": "John Glasgow (Glasgow-2600)",
+          "subject_id": "Glasgow-2601",
+          "relative_id": "Glasgow-2600",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 85,
+          "probability_percent": 89,
+          "before_probability_percent": 85,
+          "after_probability_percent": 89,
+          "explanation": "McKelvey, Centennial History of Belmont County (1903) dates John and Elizabeth (Blocher) Glasgow's family; Daniel, born 1836 between their 1831 marriage and his sister's 1837 birth, was in their 1860 household.",
+          "previous_status_provenance": [
+            "Research database assessment clm-f39b5d0ee16988ff revision 2: 85% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No record names him as son. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship."
+        },
+        {
+          "relationship": "father",
+          "subject": "John Glasgow Jr (Glasgow-2927)",
+          "relative": "John Glasgow (Glasgow-2600)",
+          "subject_id": "Glasgow-2927",
+          "relative_id": "Glasgow-2600",
+          "before": "probable",
+          "after": "possible",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 83,
+          "probability_percent": 45,
+          "before_probability_percent": 83,
+          "after_probability_percent": 45,
+          "explanation": "The prior 83% assumed John Jr's parents were John Glasgow and Isabel Glenn, but Isabella Glenn was John Jr's own wife (married 16 Aug 1827; she is in his 1850 household). John senior's wife from 1831 was born c.1799. Only shared county and a plausible age gap remain.",
+          "previous_status_provenance": [
+            "Research database assessment clm-4f8915f0b9291700 revision 2: 83% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No record ties the two men; profile Glasgow-2600's wife and marriage fields need correction."
+        }
+      ]
+    },
+    {
+      "id": "caldwell-maggie2241-robert1625-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Robert A. Glasgow’s own 1880 atlas sketch names “Maggie, who married Andrew C. Platter, in 1862”, living near Holden, Missouri. Her proved link rises to 96%. A 1900 sketch calling Dorcas Young “daughter of Andrew Glasgow” lowers Dorcas-1631 just below proved.",
+      "qualification": "Conflicting printed father name and marriage/death years unresolved. Printed page to confirm (OCR marker suggests p. 59/69); Faris 1990 may derive from the same sketch.",
+      "people": [
+        {
+          "id": "Glasgow-2241",
+          "name": "Nancy Margaret (Glasgow) Platter",
+          "url": "/people/glasgow-2241.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-1625",
+          "name": "Robert Anderson Glasgow",
+          "url": "/people/glasgow-1625.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-1631",
+          "name": "Dorcas Hanna (Glasgow) Young",
+          "url": "/people/glasgow-1631.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Caldwell’s Illustrated Historical Atlas of Adams County, Ohio (1880)",
+          "url": "https://archive.org/details/caldwellsillustr00arms"
+        },
+        {
+          "title": "Evans and Stivers, A History of Adams County, Ohio (1900)",
+          "url": "https://archive.org/details/ahistoryadamsco00stivgoog"
+        }
+      ],
+      "detail_url": "/people/glasgow-2241.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Nancy Margaret (Glasgow) Platter (Glasgow-2241)",
+          "relative": "Robert Anderson Glasgow (Glasgow-1625)",
+          "subject_id": "Glasgow-2241",
+          "relative_id": "Glasgow-1625",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 92,
+          "probability_percent": 96,
+          "before_probability_percent": 92,
+          "after_probability_percent": 96,
+          "explanation": "Caldwell's Illustrated Historical Atlas of Adams County, Ohio (1880), Robert A. Glasgow's own sketch: children by Jane Smiley include 'Maggie, who married Andrew C. Platter, in 1862. She now lives near Holden, Johnson county, Mo.' Platter marriage and Holden residence identify Glasgow-2241.",
+          "previous_status_provenance": [
+            "Research database assessment clm-6f395edfc005f8dc revision 2: 92% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Printed page to confirm (OCR marker suggests p. 59/69); Faris 1990 may derive from the same sketch."
+        },
+        {
+          "relationship": "father",
+          "subject": "Dorcas Hanna (Glasgow) Young (Glasgow-1631)",
+          "relative": "Robert Anderson Glasgow (Glasgow-1625)",
+          "subject_id": "Glasgow-1631",
+          "relative_id": "Glasgow-1625",
+          "before": "certain",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 90,
+          "probability_percent": 88,
+          "before_probability_percent": 90,
+          "after_probability_percent": 88,
+          "explanation": "Evans & Stivers, History of Adams County (1900), James Albert Young sketch calls his wife 'Dorcas Glasgow, daughter of Andrew Glasgow'; no Adams County Andrew Glasgow is known and 'Andrew' may garble 'Anderson'. The 1860 household and Cherry Fork burial still favour Robert A.",
+          "previous_status_provenance": [
+            "Research database assessment clm-ede75e0815622352 revision 2: 90% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Conflicting printed father name and marriage/death years unresolved."
+        }
+      ]
+    },
+    {
+      "id": "caleb830-pension-dorcas368-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "In Caleb Glascow’s pension application R4056½, his daughter Abashaba Clark states in 1851 that she is “the daughter of Caleb Glascow, late of Pasquotank County, NC” and has one sister, Dorcas Pugh. Dorcas-368’s proved link to Caleb-830 rises to 96%; the claim also dates his death to 1804 or 1807, separating him from the Currituck Caleb-363.",
+      "qualification": "Transcription of a rejected claim; states the sisterhood and her own parentage, not Dorcas's directly; mother unknown.",
+      "people": [
+        {
+          "id": "Glasgow-368",
+          "name": "Dorcas (Glasgow) Pugh",
+          "url": "/people/glasgow-368.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-830",
+          "name": "Caleb Glasgow",
+          "url": "/people/glasgow-830.html",
+          "role": "Father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Caleb Glascow pension application R4056½, transcribed by Will Graves",
+          "url": "https://revwarapps.org/r4056.5.pdf"
+        }
+      ],
+      "detail_url": "/people/glasgow-368.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Dorcas (Glasgow) Pugh (Glasgow-368)",
+          "relative": "Caleb Glasgow (Glasgow-830)",
+          "subject_id": "Glasgow-368",
+          "relative_id": "Glasgow-830",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 91,
+          "probability_percent": 96,
+          "before_probability_percent": 91,
+          "after_probability_percent": 96,
+          "explanation": "Caleb Glascow's Revolutionary War pension application R4056½ (Graves transcription): on 14 March 1851 Abashaba Clark of Vigo County, Indiana, states she is 'the daughter of Caleb Glascow, late of Pasquotank County, NC', who died at Christmas 1804 or 1807, and 'had one sister, Dorcas Pugh who also now lives in Indiana'. The 1901 Linn County, Iowa biography of John Pugh calls his mother Dorcas (Glasgow) Pugh.",
+          "previous_status_provenance": [
+            "Research database assessment clm-dc50b59c653ceed0 revision 2: 91% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Transcription of a rejected claim; states the sisterhood and her own parentage, not Dorcas's directly; mother unknown."
+        }
+      ]
+    },
+    {
+      "id": "clinton-andrew2946-children-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Andrew Glasgow’s 1882 lifetime sketch in the History of Clinton County, Ohio, names his children by Sarah Mellinger as Anna E., John M., Sarah M., Maria C., Andrew W. and Naomi H. Andrew W.-2945 becomes a proved son; Ann Elizabeth-2947 rises to probable.",
+      "qualification": "Nothing yet ties her to the Woods marriage or the 1902 Indiana death. Read from archive.org text; the 1902 Missouri death identity rests on memorial dates.",
+      "people": [
+        {
+          "id": "Glasgow-2945",
+          "name": "Andrew W. Glasgow",
+          "url": "/people/glasgow-2945.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2946",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-2946.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-2947",
+          "name": "Ann Elizabeth (Glasgow) Woods",
+          "url": "/people/glasgow-2947.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "P. A. Durant, History of Clinton County, Ohio (Chicago, 1882), p. 1098",
+          "url": "https://archive.org/details/historyofclinton02dura"
+        }
+      ],
+      "detail_url": "/people/glasgow-2945.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Andrew W. Glasgow (Glasgow-2945)",
+          "relative": "Andrew Glasgow (Glasgow-2946)",
+          "subject_id": "Glasgow-2945",
+          "relative_id": "Glasgow-2946",
+          "before": "probable",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 82,
+          "probability_percent": 95,
+          "before_probability_percent": 82,
+          "after_probability_percent": 95,
+          "explanation": "P. A. Durant, History of Clinton County, Ohio (1882), p. 1098, lifetime sketch of Andrew Glasgow of Sabina, born Lancaster County 1800, settled Richland Township 1839: by Sarah Mellinger (m. 15 Aug 1824) he had 'Anna E., John M., Sarah M., Maria C., Andrew W., Naomi H.' and an infant. Andrew W.'s 1834 Pennsylvania birth and 1850 Richland census entry identify Glasgow-2945.",
+          "previous_status_provenance": [
+            "Research database assessment clm-c2f4a28409cd8064 revision 2: 82% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Read from archive.org text; the 1902 Missouri death identity rests on memorial dates."
+        },
+        {
+          "relationship": "father",
+          "subject": "Ann Elizabeth (Glasgow) Woods (Glasgow-2947)",
+          "relative": "Andrew Glasgow (Glasgow-2946)",
+          "subject_id": "Glasgow-2947",
+          "relative_id": "Glasgow-2946",
+          "before": "possible",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 58,
+          "probability_percent": 84,
+          "before_probability_percent": 58,
+          "after_probability_percent": 84,
+          "explanation": "Durant 1882 p. 1098 lists 'Anna E.' first among the children of the August 1824 Mellinger marriage; a 13 Feb 1825 Pennsylvania birth fits exactly.",
+          "previous_status_provenance": [
+            "Research database assessment clm-596fca2baf03c9c8 revision 2: 58% possible (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Nothing yet ties her to the Woods marriage or the 1902 Indiana death."
+        }
+      ]
+    },
+    {
+      "id": "currituck-william357-caleb363-deeds-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Currituck deeds show William and Sarah Glasgow selling in 1782 the same 50-acre parcel of Hilary Simmons’s 1761 patent that Caleb Glasgow bought in 1761, with no conveyance from Caleb between. William-357’s father link to Caleb-363 rises from uncertain to possible.",
+      "qualification": "NCGenWeb abstracts only; deed books for 1773–81 are missing; William could be a brother; no record says 'son'.",
+      "people": [
+        {
+          "id": "Glasgow-357",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-357.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-363",
+          "name": "Caleb Glasgow",
+          "url": "/people/glasgow-363.html",
+          "role": "Father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Currituck County Letter Book 1, pp. 40–41 (abstract)",
+          "url": "https://www.ncgenweb.us/currituck/deeds/letterbook1.html"
+        },
+        {
+          "title": "Currituck County Deed Book 5, p. 135 (abstract)",
+          "url": "https://www.ncgenweb.us/currituck/deeds/db05.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-357.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "William Glasgow (Glasgow-357)",
+          "relative": "Caleb Glasgow (Glasgow-363)",
+          "subject_id": "Glasgow-357",
+          "relative_id": "Glasgow-363",
+          "before": "uncertain",
+          "after": "possible",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 29,
+          "probability_percent": 58,
+          "before_probability_percent": 29,
+          "after_probability_percent": 58,
+          "explanation": "Currituck Letter Book 1 pp. 40–41: Hilary and Jean Simmons sold Caleb Glasgow 50 acres of swamp from their 20 May 1761 patent at a James Dauge corner (1 Aug 1761). Deed Book 5 p. 135: William and Sarah Glasgow sold 50 acres 'From patent of Hilary SIMMONS of May 20, 1761. Bordered by James DAUGE' (25 Dec 1782), witnesses John Glasgow and Thomas Cooper. Caleb's purchased parcel passing to William with no conveyance from Caleb suggests inheritance; shared Dauge/Simmons neighbourhood.",
+          "previous_status_provenance": [
+            "Research database assessment clm-250851315fb0c6db revision 3: 29% uncertain (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "NCGenWeb abstracts only; deed books for 1773–81 are missing; William could be a brother; no record says 'son'."
+        }
+      ]
+    },
+    {
+      "id": "dublin-glasco174-baptisms-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Phillip Glasco’s 1769 baptism at SS Michael and John, Dublin, names father Phil Glasco and mother Teresa of Christ Church Lane; his sister Margaret’s 1770 baptism names the parents as Phil and Teresa Plunkett, the younger Philip’s 1768 bride. The link to the younger Philip-147 is now proved.",
+      "qualification": "Transcriptions only; register page not imaged on irishgenealogy.ie.",
+      "people": [
+        {
+          "id": "Glasco-174",
+          "name": "Phillip Glasco",
+          "url": "/people/glasco-174.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasco-147",
+          "name": "Phillip Glasco",
+          "url": "/people/glasco-147.html",
+          "role": "Father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dublin RC baptism 1769, SS Michael and John, book 4 p. 17 entry 13 (DU-RC-BA-47852)",
+          "url": "https://www.irishgenealogy.ie/view/?record_id=d3b2b25ae4-47852"
+        },
+        {
+          "title": "Dublin RC baptism 1770, book 4 p. 34 entry 2 (DU-RC-BA-48143)",
+          "url": "https://www.irishgenealogy.ie/view/?record_id=d3b2b25ae4-48143"
+        }
+      ],
+      "detail_url": "/people/glasco-174.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Phillip Glasco (Glasco-174)",
+          "relative": "Phillip Glasco (Glasco-147)",
+          "subject_id": "Glasco-174",
+          "relative_id": "Glasco-147",
+          "before": "probable",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 89,
+          "probability_percent": 95,
+          "before_probability_percent": 89,
+          "after_probability_percent": 95,
+          "explanation": "Dublin RC baptism 1769, SS Michael & John, book 4 p. 17 entry 13 (DU-RC-BA-47852): Phil Glasco, father Phil Glasco, mother Teresa, Christ Church Lane. Sister Margt's 1770 baptism (DU-RC-BA-48143, book 4 p. 34 entry 2) names Phil and Teresa Plunkett of Christ Church Lane, tying the couple to the younger Philip's 1768 marriage to Teresa Plunkett; the elder Philip's wife was Catherine.",
+          "previous_status_provenance": [
+            "Research database assessment clm-4aded5f147e4242e revision 2: 89% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Transcriptions only; register page not imaged on irishgenealogy.ie."
+        }
+      ]
+    },
+    {
+      "id": "floyd-1850-robert2298-household-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The original 1850 Floyd County, Georgia schedule shows Robert Glasgow’s dwelling as one household in child age order; Elizabeth, 27, sits beside John F. as his probable wife. Two links rise slightly; Elizabeth-2301 falls to possible.",
+      "qualification": "No relationships stated. Placement inference only.",
+      "people": [
+        {
+          "id": "Glasgow-2302",
+          "name": "Robert L Glasgow",
+          "url": "/people/glasgow-2302.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2298",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2298.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-2303",
+          "name": "Elizabeth L Glasgow",
+          "url": "/people/glasgow-2303.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2301",
+          "name": "Elizabeth Glasgow",
+          "url": "/people/glasgow-2301.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1850 US census, Floyd County, Georgia, NARA M432 roll 56",
+          "url": "https://archive.org/details/7thcensus0056unit"
+        }
+      ],
+      "detail_url": "/people/glasgow-2302.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Robert L Glasgow (Glasgow-2302)",
+          "relative": "Robert Glasgow (Glasgow-2298)",
+          "subject_id": "Glasgow-2302",
+          "relative_id": "Glasgow-2298",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 82,
+          "probability_percent": 83,
+          "before_probability_percent": 82,
+          "after_probability_percent": 83,
+          "explanation": "The original 1850 Floyd County, Georgia schedule (M432 roll 56) shows dwelling 644 as one household in child age order, not two as indexed.",
+          "previous_status_provenance": [
+            "Research database assessment clm-9f903bf432bac0a5 revision 2: 82% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No relationships stated."
+        },
+        {
+          "relationship": "father",
+          "subject": "Elizabeth L Glasgow (Glasgow-2303)",
+          "relative": "Robert Glasgow (Glasgow-2298)",
+          "subject_id": "Glasgow-2303",
+          "relative_id": "Glasgow-2298",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 76,
+          "probability_percent": 77,
+          "before_probability_percent": 76,
+          "after_probability_percent": 77,
+          "explanation": "Same 1850 Floyd County single-household reading.",
+          "previous_status_provenance": [
+            "Research database assessment clm-6f919f72a079f3ff revision 2: 76% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No relationships stated."
+        },
+        {
+          "relationship": "father",
+          "subject": "Elizabeth Glasgow (Glasgow-2301)",
+          "relative": "Robert Glasgow (Glasgow-2298)",
+          "subject_id": "Glasgow-2301",
+          "relative_id": "Glasgow-2298",
+          "before": "probable",
+          "after": "possible",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 62,
+          "probability_percent": 52,
+          "before_probability_percent": 62,
+          "after_probability_percent": 52,
+          "explanation": "In the original 1850 Floyd County household Elizabeth, 27, is out of age order directly after John F, consistent with her being John F's wife rather than Robert's daughter.",
+          "previous_status_provenance": [
+            "Research database assessment clm-5ffd4b84baae1f77 revision 2: 62% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Placement inference only."
+        }
+      ]
+    },
+    {
+      "id": "freecen-edinburgh-gorbals-glasgows-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "FreeCEN finds John Glasgow, Bathgate-born street porter aged 67, with his daughter Jane Souter in Edinburgh in 1851, and John Glasgow’s Gorbals smith household with Samuel in 1841. Samuel-3029 and Thomas Newlands-1358 rise; John-1460’s link to Peter-1466 is held at 89% because the Bathgate baptism is read only from an index.",
+      "qualification": "Baptism father 'Patrick' read from an index; census gives birthplace, not parents. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship. Census states no relationships. Profile birthplace 'Glasgow' conflicts with Edinburgh records.",
+      "people": [
+        {
+          "id": "Glasgow-1460",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1460.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-1466",
+          "name": "Peter Glasgow",
+          "url": "/people/glasgow-1466.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-3029",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3029.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2721",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2721.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-1358",
+          "name": "Thomas Newlands Glasgow",
+          "url": "/people/glasgow-1358.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FreeCEN 1851 Edinburgh Old Church, piece 685 ED 13",
+          "url": "https://www.freecen.org.uk/search_records/66c5f018b18f7c4fb881560a"
+        },
+        {
+          "title": "FreeCEN 1841 Gorbals, piece 644 ED 6",
+          "url": "https://www.freecen.org.uk/search_records/5a14f126f4040b9d6ef8ff1c"
+        }
+      ],
+      "detail_url": "/people/glasgow-1460.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Samuel Glasgow (Glasgow-3029)",
+          "relative": "John Glasgow (Glasgow-2721)",
+          "subject_id": "Glasgow-3029",
+          "relative_id": "Glasgow-2721",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 91,
+          "probability_percent": 93,
+          "before_probability_percent": 91,
+          "after_probability_percent": 93,
+          "explanation": "FreeCEN 1841 Gorbals, piece 644 ED 6 p. 26, 54 Dale Street: John Glasgow 45 smith, Eliza Campbell 43, Samuel 19 smith apprentice and siblings.",
+          "previous_status_provenance": [
+            "Research database assessment clm-0b4fc7d43834f849 revision 2: 91% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Census states no relationships."
+        },
+        {
+          "relationship": "father",
+          "subject": "Thomas Newlands Glasgow (Glasgow-1358)",
+          "relative": "John Glasgow (Glasgow-1460)",
+          "subject_id": "Glasgow-1358",
+          "relative_id": "Glasgow-1460",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 90,
+          "probability_percent": 92,
+          "before_probability_percent": 90,
+          "after_probability_percent": 92,
+          "explanation": "The 1851 Bathgate birthplace (FreeCEN) firms the father's identity, the link's stated limit; child evidence unchanged (1821 baptism index and 1841 Hume's Close household).",
+          "previous_status_provenance": [
+            "Research database assessment clm-a169f8950c2f46e9 revision 2: 90% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Profile birthplace 'Glasgow' conflicts with Edinburgh records."
+        }
+      ]
+    },
+    {
+      "id": "jeffersonian-john2389-arthur1608-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Jeffersonian (Cambridge, Ohio) of 29 January 1885 reports a reception given by Arthur Glasgow “in honor of the marriage of his son, John Glasgow, of this township” and Emily Cunningham. John-2389 becomes a proved son of Arthur-1608; obituaries raise James L., Mariah and Adam within probable.",
+      "qualification": "Clipping crop omits the township heading; Arthur-1608 is the only Arthur in the Londonderry Township family. No record names his parents; 1907 obituary unread. Sibling statement only; WikiTree death fields appear to belong to sister Mary Gray Glasgow. The parent line on that page is the compiler's note, not the obituary.",
+      "people": [
+        {
+          "id": "Glasgow-2389",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2389.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-1608",
+          "name": "Arthur Glasgow",
+          "url": "/people/glasgow-1608.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-2158",
+          "name": "James L Glasgow",
+          "url": "/people/glasgow-2158.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-1610",
+          "name": "Mariah Glasgow",
+          "url": "/people/glasgow-1610.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2387",
+          "name": "Adam Glasgow",
+          "url": "/people/glasgow-2387.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Jeffersonian (Cambridge, Ohio), 29 January 1885, p. 3, clipping on the Hiltner McKeown family site",
+          "url": "https://hiltner.com/mckeown/documents/News%20-%20Glasgow%201885-01-29-03%20Cunningham%20%281%29.jpg"
+        }
+      ],
+      "detail_url": "/people/glasgow-2389.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "John Glasgow (Glasgow-2389)",
+          "relative": "Arthur Glasgow (Glasgow-1608)",
+          "subject_id": "Glasgow-2389",
+          "relative_id": "Glasgow-1608",
+          "before": "probable",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 86,
+          "probability_percent": 95,
+          "before_probability_percent": 86,
+          "after_probability_percent": 95,
+          "explanation": "The Jeffersonian (Cambridge, Ohio), 29 January 1885, p. 3: reception given by Arthur Glasgow 'in honor of the marriage of his son, John Glasgow, of this township' and Emily Cunningham (clipping image read). John's 1925 obituary (age 77) names Arthur's other children as his siblings.",
+          "previous_status_provenance": [
+            "Research database assessment clm-63df6f26a87b9916 revision 2: 86% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Clipping crop omits the township heading; Arthur-1608 is the only Arthur in the Londonderry Township family."
+        },
+        {
+          "relationship": "father",
+          "subject": "James L Glasgow (Glasgow-2158)",
+          "relative": "Arthur Glasgow (Glasgow-1608)",
+          "subject_id": "Glasgow-2158",
+          "relative_id": "Glasgow-1608",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 76,
+          "probability_percent": 85,
+          "before_probability_percent": 76,
+          "after_probability_percent": 85,
+          "explanation": "His San Antonio Express obituary (11 July 1922, Hiltner transcription) gives birth in Londonderry, Guernsey County, Co. H 65th Ohio service (as brother Adam), a McAdam marriage like sister Mariah, and a son Robert Arthur.",
+          "previous_status_provenance": [
+            "Research database assessment clm-79fa59dc4f1325dc revision 2: 76% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "The parent line on that page is the compiler's note, not the obituary."
+        },
+        {
+          "relationship": "father",
+          "subject": "Mariah Glasgow (Glasgow-1610)",
+          "relative": "Arthur Glasgow (Glasgow-1608)",
+          "subject_id": "Glasgow-1610",
+          "relative_id": "Glasgow-1608",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 82,
+          "probability_percent": 87,
+          "before_probability_percent": 82,
+          "after_probability_percent": 87,
+          "explanation": "Brother John's 1925 obituary names 'Mrs. Mariah McAdams of Cadiz' as his sister; John is proved Arthur's son (Jeffersonian 1885).",
+          "previous_status_provenance": [
+            "Research database assessment clm-83cdb27c70c37d06 revision 2: 82% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Sibling statement only; WikiTree death fields appear to belong to sister Mary Gray Glasgow."
+        },
+        {
+          "relationship": "father",
+          "subject": "Adam Glasgow (Glasgow-2387)",
+          "relative": "Arthur Glasgow (Glasgow-1608)",
+          "subject_id": "Glasgow-2387",
+          "relative_id": "Glasgow-1608",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 87,
+          "probability_percent": 89,
+          "before_probability_percent": 87,
+          "after_probability_percent": 89,
+          "explanation": "Adam named a son Arthur Neal (father's forename and mother's surname) and served in Co. H, 65th Ohio, with James L.",
+          "previous_status_provenance": [
+            "Research database assessment clm-62edb2e82bb5bf9e revision 2: 87% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No record names his parents; 1907 obituary unread."
+        }
+      ]
+    },
+    {
+      "id": "lynchburg-joseph3722-joseph2573-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Joseph Glasgow’s 1878 Lynchburg marriage to Judy Ann Jackson names his parents as Joseph and Lucy Glasgow. His proved link to Joseph-2573 rises to 96%; Caroline-3719’s 1869 marriage index naming Joseph and Lucy raises her within proved.",
+      "qualification": "Index read by a research worker; register image 20 not viewed. Indexed surname and age conflict; image 30 unread.",
+      "people": [
+        {
+          "id": "Glasgow-3722",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-3722.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2573",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-2573.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-3719",
+          "name": "Caroline (Glasgow) Lewis",
+          "url": "/people/glasgow-3719.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Virginia, Marriages 1785–1940 index, FamilySearch XRJW-H48",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XRJW-H48"
+        },
+        {
+          "title": "Virginia, Marriages index, FamilySearch 8CD9-46N2",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:8CD9-46N2"
+        }
+      ],
+      "detail_url": "/people/glasgow-3722.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Joseph Glasgow (Glasgow-3722)",
+          "relative": "Joseph Glasgow (Glasgow-2573)",
+          "subject_id": "Glasgow-3722",
+          "relative_id": "Glasgow-2573",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 91,
+          "probability_percent": 96,
+          "before_probability_percent": 91,
+          "after_probability_percent": 96,
+          "explanation": "Virginia, Marriages 1785–1940 index (FamilySearch XRJW-H48): Joseph Glasgow, 29, married Judy Ann Jackson at Lynchburg on 27 Nov 1878; groom's parents Joseph and Lucy Glasgow. Independent of the 1866 cohabitation register; outweighs the ambiguous 'Jas./Jos.' on his 1914 death certificate.",
+          "previous_status_provenance": [
+            "Research database assessment clm-f6b9d052ba15f40c revision 2: 91% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Index read by a research worker; register image 20 not viewed."
+        },
+        {
+          "relationship": "father",
+          "subject": "Caroline (Glasgow) Lewis (Glasgow-3719)",
+          "relative": "Joseph Glasgow (Glasgow-2573)",
+          "subject_id": "Glasgow-3719",
+          "relative_id": "Glasgow-2573",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 92,
+          "probability_percent": 94,
+          "before_probability_percent": 92,
+          "after_probability_percent": 94,
+          "explanation": "Roanoke 1869 marriage register index (FamilySearch 8CD9-46N2): Charles Lewis married a bride indexed 'Caroline Gillespie', 36, parents Joseph and Lucy; the 1870 household with sister Rebecca (Glasgow) Clark supports Caroline.",
+          "previous_status_provenance": [
+            "Research database assessment clm-764a0527263af80f revision 2: 92% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Indexed surname and age conflict; image 30 unread."
+        }
+      ]
+    },
+    {
+      "id": "merrill-alexander997-children-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "J. W. Merrill’s 1897 history of Yellow Spring and Huron, Iowa, names Alexander Glasgow’s family as Sarah A., Robert, William, Thomas, John and Donald C., the last two in the 11th Iowa. Donald Cargill and John Calvin become proved sons of Alexander Glasgow-997; Sarah, Thomas and Robert rise within probable.",
+      "qualification": "Merrill dates the murder to the early 1860s; the profile gives December 1866. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship. Merrill gives only 'Thomas'; 'Elias' is not in the source. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship. No record names her father. One lifetime local history plus reunion lists; no record gives the full middle name. One lifetime local history; original page image not separately viewed; death certificate and 1929 obituary unread. The later Dunn marriage identity is not tied to Merrill's list. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship.",
+      "people": [
+        {
+          "id": "Glasgow-2381",
+          "name": "Donald Cargill Glasgow",
+          "url": "/people/glasgow-2381.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-997",
+          "name": "Robert Alexander Glasgow",
+          "url": "/people/glasgow-997.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-1636",
+          "name": "John Calvin Glasgow",
+          "url": "/people/glasgow-1636.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2374",
+          "name": "Sarah Ann (Glasgow) Dunn",
+          "url": "/people/glasgow-2374.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2380",
+          "name": "Elias Thomas Glasgow",
+          "url": "/people/glasgow-2380.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2377",
+          "name": "Robert Hamilton Glasgow",
+          "url": "/people/glasgow-2377.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2378",
+          "name": "Mary Agnes Glasgow",
+          "url": "/people/glasgow-2378.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "J. W. Merrill, Yellow Spring and Huron (Mediapolis, Iowa, 1897), p. 201 and 11th Iowa roster",
+          "url": "https://archive.org/details/yellowspringhuro00merr"
+        }
+      ],
+      "detail_url": "/people/glasgow-2381.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Donald Cargill Glasgow (Glasgow-2381)",
+          "relative": "Robert Alexander Glasgow (Glasgow-997)",
+          "subject_id": "Glasgow-2381",
+          "relative_id": "Glasgow-997",
+          "before": "probable",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 81,
+          "probability_percent": 95,
+          "before_probability_percent": 81,
+          "after_probability_percent": 95,
+          "explanation": "J. W. Merrill, Yellow Spring and Huron (1897), p. 201, says Alexander Glasgow settled north of Sharon church and that 'The family were Sarah A., Robert, ... William, Thomas, John and Donald C.', the two latter in the 11th Iowa; the book's Co. C roster lists Donald C. Glasgow. The rare name, 11th Iowa service and later Page County life (Crocker's Brigade reunion lists, Blanchard) identify Glasgow-2381.",
+          "previous_status_provenance": [
+            "Research database assessment clm-62eed4e550bc3ba6 revision 2: 81% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "One lifetime local history; original page image not separately viewed; death certificate and 1929 obituary unread."
+        },
+        {
+          "relationship": "father",
+          "subject": "John Calvin Glasgow (Glasgow-1636)",
+          "relative": "Robert Alexander Glasgow (Glasgow-997)",
+          "subject_id": "Glasgow-1636",
+          "relative_id": "Glasgow-997",
+          "before": "probable",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 62,
+          "probability_percent": 95,
+          "before_probability_percent": 62,
+          "after_probability_percent": 95,
+          "explanation": "Merrill 1897 p. 201 names John among Alexander Glasgow's children and his 11th Iowa Co. C roster gives John C. Glasgow; Crocker's Brigade reunion lists place J. C. Glasgow of Co. C at Clarinda, where John Calvin died in 1926.",
+          "previous_status_provenance": [
+            "Research database assessment clm-727219d8d18e8801 revision 2: 62% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "One lifetime local history plus reunion lists; no record gives the full middle name."
+        },
+        {
+          "relationship": "father",
+          "subject": "Sarah Ann (Glasgow) Dunn (Glasgow-2374)",
+          "relative": "Robert Alexander Glasgow (Glasgow-997)",
+          "subject_id": "Glasgow-2374",
+          "relative_id": "Glasgow-997",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 69,
+          "probability_percent": 89,
+          "before_probability_percent": 69,
+          "after_probability_percent": 89,
+          "explanation": "Merrill 1897 p. 201 lists 'Sarah A.' first among Alexander Glasgow's children; she lived with her brother Thomas in 1870.",
+          "previous_status_provenance": [
+            "Research database assessment clm-5ab2813803b5aa77 revision 2: 69% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "The later Dunn marriage identity is not tied to Merrill's list. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship."
+        },
+        {
+          "relationship": "father",
+          "subject": "Elias Thomas Glasgow (Glasgow-2380)",
+          "relative": "Robert Alexander Glasgow (Glasgow-997)",
+          "subject_id": "Glasgow-2380",
+          "relative_id": "Glasgow-997",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 65,
+          "probability_percent": 89,
+          "before_probability_percent": 65,
+          "after_probability_percent": 89,
+          "explanation": "Merrill 1897 p. 201 names Thomas among Alexander Glasgow's children; Elias Thomas was in Page County, where the widow moved, in 1880.",
+          "previous_status_provenance": [
+            "Research database assessment clm-e3227e6af102102a revision 2: 65% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Merrill gives only 'Thomas'; 'Elias' is not in the source. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship."
+        },
+        {
+          "relationship": "father",
+          "subject": "Robert Hamilton Glasgow (Glasgow-2377)",
+          "relative": "Robert Alexander Glasgow (Glasgow-997)",
+          "subject_id": "Glasgow-2377",
+          "relative_id": "Glasgow-997",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 72,
+          "probability_percent": 89,
+          "before_probability_percent": 72,
+          "after_probability_percent": 89,
+          "explanation": "Merrill 1897 p. 201 names Alexander's son Robert, 'murdered by some neighbor boys', matching Robert Hamilton's violent death in Yellow Springs Township.",
+          "previous_status_provenance": [
+            "Research database assessment clm-bd864511ce3c0dc7 revision 2: 72% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Merrill dates the murder to the early 1860s; the profile gives December 1866. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship."
+        },
+        {
+          "relationship": "father",
+          "subject": "Mary Agnes Glasgow (Glasgow-2378)",
+          "relative": "Robert Alexander Glasgow (Glasgow-997)",
+          "subject_id": "Glasgow-2378",
+          "relative_id": "Glasgow-997",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 71,
+          "probability_percent": 73,
+          "before_probability_percent": 71,
+          "after_probability_percent": 73,
+          "explanation": "Mary Agnes is absent from Merrill's 1897 surviving-family list, plausible for a child who died in 1853; only her death place fits the Yellow Spring family better than before.",
+          "previous_status_provenance": [
+            "Research database assessment clm-ef19a09de386692a revision 2: 71% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No record names her father."
+        }
+      ]
+    },
+    {
+      "id": "osage-james45-children-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "A Williams descendant family history names Margaret Williams as “the daughter of James Albert Glasco” and lists his children with exact marriage dates that match held records. Six links to James Albert-45 rise within probable. Lucy-44 is held at 89%.",
+      "qualification": "Census relationships unstated. Compiled account. Compiled list. Compiled, largely uncited account. Kept below the project's 90% proved threshold: no record directly states this parent–child relationship. Descendant compilation, not contemporary. Pension file itself unseen.",
+      "people": [
+        {
+          "id": "Glasgow-45",
+          "name": "James Albert Glasgow",
+          "url": "/people/glasgow-45.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-50",
+          "name": "Caroline (Glasgow) Lee",
+          "url": "/people/glasgow-50.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-49",
+          "name": "Maria A. (Glasgow) Hale",
+          "url": "/people/glasgow-49.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-47",
+          "name": "Margaret Agnes (Glasgow) Williams",
+          "url": "/people/glasgow-47.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-48",
+          "name": "Sarah Jane (Glasgow) Hale",
+          "url": "/people/glasgow-48.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-52",
+          "name": "Cathrine Glasgow",
+          "url": "/people/glasgow-52.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-51",
+          "name": "Susan Glasgow",
+          "url": "/people/glasgow-51.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danny R. Williams, Williams family history",
+          "url": "http://drw.50webs.com/will.html"
+        }
+      ],
+      "detail_url": "/people/glasgow-44.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Caroline (Glasgow) Lee (Glasgow-50)",
+          "relative": "James Albert Glasgow (Glasgow-45)",
+          "subject_id": "Glasgow-50",
+          "relative_id": "Glasgow-45",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 86,
+          "probability_percent": 88,
+          "before_probability_percent": 86,
+          "after_probability_percent": 88,
+          "explanation": "Williams family list plus 'her sister Caroline Lee' reported in Agnes Williams's widow's pension.",
+          "previous_status_provenance": [
+            "Research database assessment clm-7341def231aa8f0f revision 2: 86% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Pension file itself unseen."
+        },
+        {
+          "relationship": "father",
+          "subject": "Maria A. (Glasgow) Hale (Glasgow-49)",
+          "relative": "James Albert Glasgow (Glasgow-45)",
+          "subject_id": "Glasgow-49",
+          "relative_id": "Glasgow-45",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 77,
+          "probability_percent": 83,
+          "before_probability_percent": 77,
+          "after_probability_percent": 83,
+          "explanation": "1850 Jackson Township, Osage household (held summary) plus the Williams family list giving her exact 12 Apr 1857 Joel Hale marriage.",
+          "previous_status_provenance": [
+            "Research database assessment clm-3864c347fbb52382 revision 2: 77% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Compiled list."
+        },
+        {
+          "relationship": "father",
+          "subject": "Margaret Agnes (Glasgow) Williams (Glasgow-47)",
+          "relative": "James Albert Glasgow (Glasgow-45)",
+          "subject_id": "Glasgow-47",
+          "relative_id": "Glasgow-45",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 75,
+          "probability_percent": 85,
+          "before_probability_percent": 75,
+          "after_probability_percent": 85,
+          "explanation": "The Williams family history states Margaret, who married Phillip M. Williams on 11 Aug 1851, 'was the daughter of James Albert Glasco'; marriage and 1893 death match her profile.",
+          "previous_status_provenance": [
+            "Research database assessment clm-5320fed6215f523d revision 2: 75% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Descendant compilation, not contemporary."
+        },
+        {
+          "relationship": "father",
+          "subject": "Sarah Jane (Glasgow) Hale (Glasgow-48)",
+          "relative": "James Albert Glasgow (Glasgow-45)",
+          "subject_id": "Glasgow-48",
+          "relative_id": "Glasgow-45",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 74,
+          "probability_percent": 82,
+          "before_probability_percent": 74,
+          "after_probability_percent": 82,
+          "explanation": "1850 household plus the Williams account that James lived 'with his daughter Sara Hale' in 1870.",
+          "previous_status_provenance": [
+            "Research database assessment clm-863a84acb7a0d6a1 revision 2: 74% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Compiled account."
+        },
+        {
+          "relationship": "father",
+          "subject": "Cathrine Glasgow (Glasgow-52)",
+          "relative": "James Albert Glasgow (Glasgow-45)",
+          "subject_id": "Glasgow-52",
+          "relative_id": "Glasgow-45",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 68,
+          "probability_percent": 80,
+          "before_probability_percent": 68,
+          "after_probability_percent": 80,
+          "explanation": "Held 1850 and 1860 household summaries (with James alone in 1860) plus the Williams family list.",
+          "previous_status_provenance": [
+            "Research database assessment clm-6f12aab2555c6b6b revision 2: 68% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Census relationships unstated."
+        },
+        {
+          "relationship": "father",
+          "subject": "Susan Glasgow (Glasgow-51)",
+          "relative": "James Albert Glasgow (Glasgow-45)",
+          "subject_id": "Glasgow-51",
+          "relative_id": "Glasgow-45",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 67,
+          "probability_percent": 78,
+          "before_probability_percent": 67,
+          "after_probability_percent": 78,
+          "explanation": "1850 household, 1860 listed as Agnes's sister in the Williams household, plus the family list.",
+          "previous_status_provenance": [
+            "Research database assessment clm-10b3e7782c40fa2f revision 2: 67% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Compiled account."
+        }
+      ]
+    },
+    {
+      "id": "rockbridge-nancy2003-robert12-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Rockbridge County marriage abstracts record Thomas McClelland and Nancy Glasgow, 26 April 1804, as “d Robert”, as they do Robert’s daughters Esther (1792) and Jenny (1805). Nancy-2003’s link to Robert-12 becomes proved at 95%.",
+      "qualification": "Read through archive.org full-text search; page number and groom surname heading not viewed.",
+      "people": [
+        {
+          "id": "Glasgow-2003",
+          "name": "Nancy (Glasgow) McClelland",
+          "url": "/people/glasgow-2003.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-12",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-12.html",
+          "role": "Father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kirkpatrick, Rockbridge County Marriages 1778–1850 (1985), McClelland section",
+          "url": "https://archive.org/details/rockbridgecounty0000dort"
+        }
+      ],
+      "detail_url": "/people/glasgow-2003.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Nancy (Glasgow) McClelland (Glasgow-2003)",
+          "relative": "Robert Glasgow (Glasgow-12)",
+          "subject_id": "Glasgow-2003",
+          "relative_id": "Glasgow-12",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 91,
+          "probability_percent": 95,
+          "before_probability_percent": 91,
+          "after_probability_percent": 95,
+          "explanation": "Kirkpatrick, Rockbridge County Marriages 1778–1850 (1985), McClelland section: 'Thomas & Nancy Glasgow 26 Apr 1804; d Robert min- William Baldridge, Assoc. Reform'. The same compilation records Robert's daughters Esther (Dryden, 1792) and Jenny (Patton, 1805) as 'd Robert'.",
+          "previous_status_provenance": [
+            "Research database assessment clm-f6f1790f61521c68 revision 3: 91% strongly_supported (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Read through archive.org full-text search; page number and groom surname heading not viewed."
+        }
+      ]
+    },
+    {
+      "id": "turk-ezekiel2844-maryland-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Turk’s Quiet Adventurers in North America places Ezekiel Glasgow in Charles County, Maryland before 1713 with a son Jeremiah, not Richard, whose line stayed in Glasgow until 1781. Richard-1550’s link to Ezekiel-2844 falls from 16% to 10%.",
+      "qualification": "Turk read through search snippets only; 'second son' leaves room for an unnamed elder son.",
+      "people": [
+        {
+          "id": "Glasgow-1550",
+          "name": "Richard Glasgow",
+          "url": "/people/glasgow-1550.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2844",
+          "name": "Ezekiel Glasgow",
+          "url": "/people/glasgow-2844.html",
+          "role": "Father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Marion G. Turk, The Quiet Adventurers in North America (1983), Glasgow entry",
+          "url": "https://archive.org/details/quietadventurers00turk"
+        }
+      ],
+      "detail_url": "/people/glasgow-1550.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Richard Glasgow (Glasgow-1550)",
+          "relative": "Ezekiel Glasgow (Glasgow-2844)",
+          "subject_id": "Glasgow-1550",
+          "relative_id": "Glasgow-2844",
+          "before": "uncertain",
+          "after": "uncertain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 16,
+          "probability_percent": 10,
+          "before_probability_percent": 16,
+          "after_probability_percent": 10,
+          "explanation": "Ezekiel's only printed account (Turk, The Quiet Adventurers in North America, 1983) places him in Charles County, Maryland before 1713 with a second son Jeremiah born 1713, and does not mention Richard, whose line stayed in Glasgow until 1781.",
+          "previous_status_provenance": [
+            "Research database assessment clm-fe128bb2d282a66d revision 3: 16% uncertain (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Turk read through search snippets only; 'second son' leaves room for an unnamed elder son."
+        }
+      ]
+    },
+    {
+      "id": "wayne-littell-nancy2185-james193-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The 1886 Wayne and Appanoose County biography of Capt. W. M. Littell says he married “Nancy A. Glasgow, a daughter of James Glasgow, who came to Wayne County in 1856 from Adams County, Ohio.” Nancy-2185’s proved link rises to 96%; the same sketch’s Brigadier-General son supports Samuel Lyle-192.",
+      "qualification": "Identified by description, not named as James's son. Lifetime county biography read from archive.org text; printed page to confirm from the image.",
+      "people": [
+        {
+          "id": "Glasgow-2185",
+          "name": "Nancy Ann Glasgow",
+          "url": "/people/glasgow-2185.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-193",
+          "name": "James M Glasgow",
+          "url": "/people/glasgow-193.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-192",
+          "name": "Samuel Lyle Glasgow",
+          "url": "/people/glasgow-192.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Biographical and Historical Record of Wayne and Appanoose Counties, Iowa (1886), p. 259",
+          "url": "https://archive.org/details/biographicalhist00inte"
+        }
+      ],
+      "detail_url": "/people/glasgow-2185.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Nancy Ann Glasgow (Glasgow-2185)",
+          "relative": "James M Glasgow (Glasgow-193)",
+          "subject_id": "Glasgow-2185",
+          "relative_id": "Glasgow-193",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 92,
+          "probability_percent": 96,
+          "before_probability_percent": 92,
+          "after_probability_percent": 96,
+          "explanation": "Biographical and Historical Record of Wayne and Appanoose Counties, Iowa (1886), sketch of Capt. W. M. Littell, p. 259: he 'married Nancy A. Glasgow, a daughter of James Glasgow, who came to Wayne County in 1856 from Adams County, Ohio'. The 1856 Adams County to Wayne County move identifies James-193.",
+          "previous_status_provenance": [
+            "Research database assessment clm-acaa9ab2168b5353 revision 2: 92% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Lifetime county biography read from archive.org text; printed page to confirm from the image."
+        },
+        {
+          "relationship": "father",
+          "subject": "Samuel Lyle Glasgow (Glasgow-192)",
+          "relative": "James M Glasgow (Glasgow-193)",
+          "subject_id": "Glasgow-192",
+          "relative_id": "Glasgow-193",
+          "before": "certain",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 91,
+          "probability_percent": 94,
+          "before_probability_percent": 91,
+          "after_probability_percent": 94,
+          "explanation": "The 1886 Littell sketch says James Glasgow had six sons in Iowa regiments, one attaining the rank of Brigadier-General; the same book's bar chapter names Samuel L. Glasgow of Corydon as that brigadier.",
+          "previous_status_provenance": [
+            "Research database assessment clm-f7647cd10291526c revision 2: 91% proved (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Identified by description, not named as James's son."
+        }
+      ]
+    },
+    {
+      "id": "weakley-hickory-grove-isaac14-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Old Hickory Grove Cemetery in Weakley County, Tennessee, holds Isaac and Dosha Glasgow with W. K. Glasgow and the G. W. Adams family, raising Wagstaff Kennedy-123 to probable and Dosha Ann Rebecca-60 slightly.",
+      "qualification": "No parent statement. No stone states a parent.",
+      "people": [
+        {
+          "id": "Glasgow-123",
+          "name": "Wagstaff Kennedy Glasgow",
+          "url": "/people/glasgow-123.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glascow-14",
+          "name": "Isaac Wesley (Glascow) Glasgow",
+          "url": "/people/glascow-14.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-60",
+          "name": "Dosha Ann Rebecca (Glasgow) Adams",
+          "url": "/people/glasgow-60.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Old Hickory Grove Cemetery transcription, TNGenWeb Weakley County",
+          "url": "https://tngenweb.org/weakleytn/old_hickorygrove.htm"
+        }
+      ],
+      "detail_url": "/people/glasgow-123.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Wagstaff Kennedy Glasgow (Glasgow-123)",
+          "relative": "Isaac Wesley (Glascow) Glasgow (Glascow-14)",
+          "subject_id": "Glasgow-123",
+          "relative_id": "Glascow-14",
+          "before": "possible",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 55,
+          "probability_percent": 62,
+          "before_probability_percent": 55,
+          "after_probability_percent": 62,
+          "explanation": "Old Hickory Grove Cemetery, Weakley County, Tennessee (TNGenWeb transcription): W. K. Glasgow (2 Jan 1817 – 3 May 1863) is buried with Isaac and Dosha Glasgow; the death date matches the profile and his middle name repeats the mother's surname.",
+          "previous_status_provenance": [
+            "Research database assessment clm-cebecf6ca4d1d6e7 revision 2: 55% possible (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No stone states a parent."
+        },
+        {
+          "relationship": "father",
+          "subject": "Dosha Ann Rebecca (Glasgow) Adams (Glasgow-60)",
+          "relative": "Isaac Wesley (Glascow) Glasgow (Glascow-14)",
+          "subject_id": "Glasgow-60",
+          "relative_id": "Glascow-14",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 74,
+          "probability_percent": 76,
+          "before_probability_percent": 74,
+          "after_probability_percent": 76,
+          "explanation": "Her married Adams family is buried in Old Hickory Grove with Isaac and Dosha Glasgow.",
+          "previous_status_provenance": [
+            "Research database assessment clm-10b4f7454dc53c7c revision 2: 74% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "No parent statement."
+        }
+      ]
+    },
+    {
+      "id": "york-hugh2873-four-sons-20261029",
+      "found_on": "2026-10-29",
+      "found_from": "2026-10-28",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Gibson’s 1886 History of York County calls Cunningham R. Glasgow “son of Hon. Hugh Glasgow” and says his mother Maria (Ramsay) died in 1820 leaving four sons, of whom he alone survived. That count fits Walter, William and Samuel, whose links to Hugh-2873 rise within probable.",
+      "qualification": "Count-based; Walter not named. Count-based; not named.",
+      "people": [
+        {
+          "id": "Glasgow-3745",
+          "name": "Walter Franklin Glasgow",
+          "url": "/people/glasgow-3745.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-2873",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-2873.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-2650",
+          "name": "William Cranmer Glasgow",
+          "url": "/people/glasgow-2650.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-3744",
+          "name": "Samuel Ramsay Glasgow",
+          "url": "/people/glasgow-3744.html",
+          "role": "Child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John Gibson, History of York County, Pennsylvania (1886), biographical p. 163",
+          "url": "https://archive.org/details/historyofyorkcou00gibs"
+        }
+      ],
+      "detail_url": "/people/glasgow-3745.html",
+      "provenance": "Reviewed in the 28–29 October 2026 pre-1850 father-confidence batch; assessments recorded by proposal prp-37cfff5e093944ca. Existing attachments only; no new person or live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Walter Franklin Glasgow (Glasgow-3745)",
+          "relative": "Hugh Glasgow (Glasgow-2873)",
+          "subject_id": "Glasgow-3745",
+          "relative_id": "Glasgow-2873",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 86,
+          "probability_percent": 88,
+          "before_probability_percent": 86,
+          "after_probability_percent": 88,
+          "explanation": "Gibson, History of York County (1886), biographical p. 163: Cunningham R. Glasgow, 'son of Hon. Hugh Glasgow', whose mother Maria (Ramsay) married Hugh in 1804 and died in 1820 'leaving four sons', Cunningham the only survivor; the reconstruction has exactly four such sons including Walter (b. 1815, d. 1823).",
+          "previous_status_provenance": [
+            "Research database assessment clm-18f498d1e07a7fdc revision 2: 86% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Count-based; Walter not named."
+        },
+        {
+          "relationship": "father",
+          "subject": "William Cranmer Glasgow (Glasgow-2650)",
+          "relative": "Hugh Glasgow (Glasgow-2873)",
+          "subject_id": "Glasgow-2650",
+          "relative_id": "Glasgow-2873",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 82,
+          "probability_percent": 86,
+          "before_probability_percent": 82,
+          "after_probability_percent": 86,
+          "explanation": "Gibson 1886 four-son count fits William (b. 1812, d. 1879); 'Cranmer' repeats Hugh's reported mother's name.",
+          "previous_status_provenance": [
+            "Research database assessment clm-f434926c7e665f95 revision 2: 82% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Count-based; not named."
+        },
+        {
+          "relationship": "father",
+          "subject": "Samuel Ramsay Glasgow (Glasgow-3744)",
+          "relative": "Hugh Glasgow (Glasgow-2873)",
+          "subject_id": "Glasgow-3744",
+          "relative_id": "Glasgow-2873",
+          "before": "probable",
+          "after": "probable",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 79,
+          "probability_percent": 84,
+          "before_probability_percent": 79,
+          "after_probability_percent": 84,
+          "explanation": "Gibson 1886 four-son count fits Samuel (b. 1808, d. 1876); Ramsay middle name.",
+          "previous_status_provenance": [
+            "Research database assessment clm-ec449d2b9a8078b1 revision 2: 79% probable (prior review). Superseded by proposal prp-37cfff5e093944ca on 2026-10-29."
+          ],
+          "scope": "Count-based; not named."
+        }
+      ]
     }
   ]
 }

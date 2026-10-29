@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **77% (probable)** for [Glasgow-2182](https://www.wikitree.com/wiki/Glasgow-2182). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **80% (probable)** for [Glasgow-2182](https://www.wikitree.com/wiki/Glasgow-2182). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The held account assigns James Taylor Glasgow to William Allen Glasgow and Nancy Campbell with compatible Adams County dates. James Taylor’s 1919 Arkansas death certificate is cited, but neither its parent names nor a childhood household are transcribed. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+William Allen Glasgow ([Glasgow-2182](https://www.wikitree.com/wiki/Glasgow-2182)): 77% (probable) → **80% (probable)**.
+
+1887 Mahaska County album (Kinsman sketch), the 1878 Mahaska military roll and Savage's Republic County histories trace James T. along William A. Glasgow's Mahaska–Republic County route.
+
+Limits: No parent statement.
+
+Sources: Savage 1901; Mahaska 1887 album p.251
 
 ## Father confidence review, ninth batch — 22 October 2026
 

@@ -2,7 +2,17 @@
 
 ## Current conclusion
 
-Current father assessment (24 October 2026): **91% (confident)** for [Glasgow-12](https://www.wikitree.com/wiki/Glasgow-12), up from **81% (probable)**. Robert’s captured profile reproduces a passage attributed to Faris (1990), p. 18, naming Nancy (Glasgow) McClelland as one of Robert’s children who moved to Adams County in 1805. The distinctive McClelland identity and compatible migration sequence support matching that daughter to this profile. This is a research-confidence inference from a retrospective genealogy; the underlying page remains uninspected, and the copied passage, profile child list and memorial do not provide independent parent evidence. It does not identify Nancy’s mother or resolve the profile’s 1780/1781 birth-year discrepancy; vital fields remain unchanged. The saved WikiTree father mark is already confident, so no certainty-mark change is proposed.
+Current father assessment (29 October 2026): **95% (proved)** for [Glasgow-12](https://www.wikitree.com/wiki/Glasgow-12)., up from **81% (probable)**. Robert’s captured profile reproduces a passage attributed to Faris (1990), p. 18, naming Nancy (Glasgow) McClelland as one of Robert’s children who moved to Adams County in 1805. The distinctive McClelland identity and compatible migration sequence support matching that daughter to this profile. This is a research-confidence inference from a retrospective genealogy; the underlying page remains uninspected, and the copied passage, profile child list and memorial do not provide independent parent evidence. It does not identify Nancy’s mother or resolve the profile’s 1780/1781 birth-year discrepancy; vital fields remain unchanged. The saved WikiTree father mark is already confident, so no certainty-mark change is proposed.
+
+## Father review, 29 October 2026
+
+Robert Glasgow ([Glasgow-12](https://www.wikitree.com/wiki/Glasgow-12)): 91% (strongly_supported) → **95% (proved)**.
+
+Kirkpatrick, Rockbridge County Marriages 1778–1850 (1985), McClelland section: 'Thomas & Nancy Glasgow 26 Apr 1804; d Robert min- William Baldridge, Assoc. Reform'. The same compilation records Robert's daughters Esther (Dryden, 1792) and Jenny (Patton, 1805) as 'd Robert'.
+
+Limits: Read through archive.org full-text search; page number and groom surname heading not viewed.
+
+Sources: <https://archive.org/details/rockbridgecounty0000dort>
 
 ## Father confidence update — 24 October 2026
 

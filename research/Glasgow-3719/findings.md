@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-2573](https://www.wikitree.com/wiki/Glasgow-2573). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **94% (proved)** for [Glasgow-2573](https://www.wikitree.com/wiki/Glasgow-2573). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Caroline’s 1869 marriage supplies a near-contemporary retrieval point, while the held register-based family account links her to the Joseph/Lucy union. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+Joseph Glasgow ([Glasgow-2573](https://www.wikitree.com/wiki/Glasgow-2573)): 92% (proved) → **94% (proved)**.
+
+Roanoke 1869 marriage register index (FamilySearch 8CD9-46N2): Charles Lewis married a bride indexed 'Caroline Gillespie', 36, parents Joseph and Lucy; the 1870 household with sister Rebecca (Glasgow) Clark supports Caroline.
+
+Limits: Indexed surname and age conflict; image 30 unread.
+
+Sources: <https://www.familysearch.org/ark:/61903/1:1:8CD9-46N2>
 
 ## Father confidence review, ninth batch — 22 October 2026
 

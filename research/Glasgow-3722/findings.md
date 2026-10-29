@@ -2,11 +2,23 @@
 
 ## Current conclusion
 
+
+Current father assessment (29 October 2026): **96% (proved)** for [Glasgow-2573](https://www.wikitree.com/wiki/Glasgow-2573). See the father review of 29 October 2026 below.
 Father [Joseph Glasgow-2573](https://www.wikitree.com/wiki/Glasgow-2573) remains **91% confident/proved**. Original inspected 23October2026; no percentage change.
 
 The held accounts connect this child to Joseph Glasgow and Lucy Gilbert’s Roanoke family, citing the 1866 cohabitation register. Joseph was informant at the elder Joseph’s death and belongs to the held cohabitation-register family; the death certificate’s Jas./Jos. abbreviation remains unresolved after original inspection 23October2026.
 
 The original 24February1914 certificate 2828 names mother Lucy Gilbert. Its father abbreviation remains ambiguous Jas./Jos. (the index and independent image readings prefer Jas.), with an uncertain birthplace tentatively read Fredericktown, Md. This is not a resolved Joseph/Richmond reading and supplies no basis for an upgrade. Retain the existing 91% father assessment from the combined held family account, with this conflict expressly open. Age 53 differs from the profile’s circa 1849 birth and census ages. The occupation is railway brakeman and informant Lucy Williams; the informant’s identification as Joseph’s sister remains an inference. The 1914 certificate does not independently identify the 1877 deceased or connect him to Thomas.
+
+## Father review, 29 October 2026
+
+Joseph Glasgow ([Glasgow-2573](https://www.wikitree.com/wiki/Glasgow-2573)): 91% (proved) → **96% (proved)**.
+
+Virginia, Marriages 1785–1940 index (FamilySearch XRJW-H48): Joseph Glasgow, 29, married Judy Ann Jackson at Lynchburg on 27 Nov 1878; groom's parents Joseph and Lucy Glasgow. Independent of the 1866 cohabitation register; outweighs the ambiguous 'Jas./Jos.' on his 1914 death certificate.
+
+Limits: Index read by a research worker; register image 20 not viewed.
+
+Sources: <https://www.familysearch.org/ark:/61903/1:1:XRJW-H48>
 
 ## Original certificate reviewed 23October2026
 

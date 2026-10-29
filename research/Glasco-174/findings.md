@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **89% (probable)** for [Glasco-147](https://www.wikitree.com/wiki/Glasco-147). Probable full-profile placement; verify the baptism’s complete mother/residence details before excluding the elder Philip. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **95% (proved)** for [Glasco-147](https://www.wikitree.com/wiki/Glasco-147). Probable full-profile placement; verify the baptism’s complete mother/residence details before excluding the elder Philip. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Philip’s 1769 baptism names Phil as father, immediately after the selected younger Philip’s 1768 marriage to Teresa Plunkett. This chronology supports the younger watchmaker generation more strongly than the earlier 1762 child. Probable full-profile placement; verify the baptism’s complete mother/residence details before excluding the elder Philip.
+
+## Father review, 29 October 2026
+
+Phillip Glasco ([Glasco-147](https://www.wikitree.com/wiki/Glasco-147)): 89% (probable) → **95% (proved)**.
+
+Dublin RC baptism 1769, SS Michael & John, book 4 p. 17 entry 13 (DU-RC-BA-47852): Phil Glasco, father Phil Glasco, mother Teresa, Christ Church Lane. Sister Margt's 1770 baptism (DU-RC-BA-48143, book 4 p. 34 entry 2) names Phil and Teresa Plunkett of Christ Church Lane, tying the couple to the younger Philip's 1768 marriage to Teresa Plunkett; the elder Philip's wife was Catherine.
+
+Limits: Transcriptions only; register page not imaged on irishgenealogy.ie.
+
+Sources: <https://www.irishgenealogy.ie/view/?record_id=d3b2b25ae4-47852>; <https://www.irishgenealogy.ie/view/?record_id=d3b2b25ae4-48143>
 
 ## Father confidence review, fourth batch — 22 October 2026
 

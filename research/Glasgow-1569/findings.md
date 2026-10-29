@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **74% (probable)** for [Glasgow-546](https://www.wikitree.com/wiki/Glasgow-546). Selected Glasgow-546 fatherhood of Glasgow-1569; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **71% (probable)** for [Glasgow-546](https://www.wikitree.com/wiki/Glasgow-546). Selected Glasgow-546 fatherhood of Glasgow-1569; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Robert C's 1841 birth and Robert/Margaret Cunningham parent statement fit the same Pennsylvania family chronology. The dedicated family-history pointer gives a plausible basis for the inherited attribution, without retained child-specific wording. Selected Glasgow-546 fatherhood of Glasgow-1569; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+Robert Glasgow ([Glasgow-546](https://www.wikitree.com/wiki/Glasgow-546)): 74% (probable) → **71% (probable)**.
+
+Same correction: the family history does not list Robert-546's children.
+
+Limits: Probate unread.
+
+Sources: W. M. Glasgow family history (held)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

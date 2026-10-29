@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **73% (probable)** for [Glasgow-546](https://www.wikitree.com/wiki/Glasgow-546). Selected Glasgow-546 fatherhood of Glasgow-1568; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **71% (probable)** for [Glasgow-546](https://www.wikitree.com/wiki/Glasgow-546). Selected Glasgow-546 fatherhood of Glasgow-1568; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Hugh's exact 1838 birth and 1854 death fit Robert and Margaret's inherited child sequence. Both names are stated in his unsourced biography, but neither the held county sketch nor the unread probate supplies a Hugh parent clause. Selected Glasgow-546 fatherhood of Glasgow-1568; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+Robert Glasgow ([Glasgow-546](https://www.wikitree.com/wiki/Glasgow-546)): 73% (probable) → **71% (probable)**.
+
+Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's.
+
+Limits: Probate unread.
+
+Sources: W. M. Glasgow family history (held)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

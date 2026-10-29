@@ -4,6 +4,8 @@ Last updated: 2026-10-17
 
 ## Current conclusion
 
+
+Current father assessment (29 October 2026): **25% (uncertain)** for [Glasgow-1093](https://www.wikitree.com/wiki/Glasgow-1093). See the father review of 29 October 2026 below.
 **Father review, 17 October 2026:** retain [Glasgow-1093](https://www.wikitree.com/wiki/Glasgow-1093) at **32%** (possible). John of Glasgow was a married adult by 1534 and had documented children in the succeeding generation. Andrew's estimated circa1540 generation fits a son, and a cadet son's rural household is compatible with that family. Yet the existing evidence supplies no shared parcel, rent, occupation, named kin or distinctive associate that positively joins Andrew to this particular John. The current attached brother John-3181 cannot supply independent proof: his own connection to John-1093 is uncertain and his accepted testament reading names Katherine and Marjory, not an Andrew. Retain John-1093 as the strongest currently named working hypothesis at 32%, while an unidentified local father or a collateral burgh connection remains collectively more plausible than this one exact father claim. This reviews an existing attachment; it is not a new father or a newly confident relationship.
 
 Sources and role limits: [NRS Edinburgh Commissary Court CC8/8/32, images123–124; will6February1597/8, death7February1597/8, confirmation10July1598](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills); [Renwick, Abstracts of Protocols of the Town Clerks of Glasgow, vol. IV, protocol1196, printed p. 72,31December1534](https://archive.org/details/abstractsprotoc08robegoog/page/n84/mode/2up); [NRS CC8/8/5, images276–277, John of Hirmenschelis testament; accepted human reading retained28September2026](https://www.scotlandspeople.gov.uk/search-records/legal-records/wills).
@@ -40,6 +42,16 @@ belongs to the superseded misreading, not the current Robert identity.
 Andrew's father remains unproved. [[Glasgow-1093|John Glasgow]], a burgess of
 Glasgow, is chronologically possible, but no record found calls Andrew his son
 or bridges the Glasgow-burgh family to Andrew's rural Calder household.
+
+## Father review, 29 October 2026
+
+John Glasgow ([Glasgow-1093](https://www.wikitree.com/wiki/Glasgow-1093)): 32% (possible) → **25% (uncertain)**.
+
+Andrew's children date c.1585–1598 (Robert a minor in 1598, unborn child provided for), placing Andrew's birth c.1545–1565 rather than 1540; John-1093's well-recorded burgh family names no Andrew, and a dense Calder Glasgow group (Hirmenschelis 1577, Croftmalloch 1580, Mureistoun 1586) offers local alternatives.
+
+Limits: No record names Andrew's father; nothing excludes John.
+
+Sources: SRS Edinburgh testaments vol. 1; Renwick protocols
 
 ## Parentage candidate: John Glasgow-3181 — not matched
 

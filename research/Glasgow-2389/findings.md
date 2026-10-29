@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **86% (probable)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **95% (proved)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 John’s approximate 1848 Ohio birth and 1860 Arther Glasgo entry fit the documented parental marriage and younger-family sequence. The biography names Arthur and Jane, while the census provides co-residence without a relationship column. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
+
+## Father review, 29 October 2026
+
+Arthur Glasgow ([Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608)): 86% (probable) → **95% (proved)**.
+
+The Jeffersonian (Cambridge, Ohio), 29 January 1885, p. 3: reception given by Arthur Glasgow 'in honor of the marriage of his son, John Glasgow, of this township' and Emily Cunningham (clipping image read). John's 1925 obituary (age 77) names Arthur's other children as his siblings.
+
+Limits: Clipping crop omits the township heading; Arthur-1608 is the only Arthur in the Londonderry Township family.
+
+Sources: Jeffersonian 1885-01-29 p.3 https://hiltner.com/mckeown/documents/News%20-%20Glasgow%201885-01-29-03%20Cunningham%20%281%29.jpg
 
 ## Father confidence review, ninth batch — 22 October 2026
 

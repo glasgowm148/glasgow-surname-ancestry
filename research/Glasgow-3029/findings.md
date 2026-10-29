@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-2721](https://www.wikitree.com/wiki/Glasgow-2721). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **93% (proved)** for [Glasgow-2721](https://www.wikitree.com/wiki/Glasgow-2721). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The FamilySearch-held family book p 11 is cited for Samuel, born 6 February 1822, son of John Glasgow and Elizabeth Campbell. This is a specific couple/date account agreeing with the 1836 Robert baptism in John’s dossier, though the book passage is not reproduced verbatim. Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.
+
+## Father review, 29 October 2026
+
+John Glasgow ([Glasgow-2721](https://www.wikitree.com/wiki/Glasgow-2721)): 91% (proved) → **93% (proved)**.
+
+FreeCEN 1841 Gorbals, piece 644 ED 6 p. 26, 54 Dale Street: John Glasgow 45 smith, Eliza Campbell 43, Samuel 19 smith apprentice and siblings.
+
+Limits: Census states no relationships.
+
+Sources: <https://www.freecen.org.uk/search_records/5a14f126f4040b9d6ef8ff1c>
 
 ## Father confidence review, eighth batch — 22 October 2026
 

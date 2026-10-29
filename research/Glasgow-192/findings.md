@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193). Selected Glasgow-193 fatherhood of Glasgow-192; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **94% (proved)** for [Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193). Selected Glasgow-193 fatherhood of Glasgow-192; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Samuel Lyle is attached to James in the cited 1860 South Fork household and Faris p 84. His 1838 birth fits James's 1836 Lyle remarriage, giving a specific family sequence despite conflicting Virginia/Ohio birthplace statements. Selected Glasgow-193 fatherhood of Glasgow-192; maternal identity and upstream ancestry are separate.
+
+## Father review, 29 October 2026
+
+James M Glasgow ([Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193)): 91% (proved) → **94% (proved)**.
+
+The 1886 Littell sketch says James Glasgow had six sons in Iowa regiments, one attaining the rank of Brigadier-General; the same book's bar chapter names Samuel L. Glasgow of Corydon as that brigadier.
+
+Limits: Identified by description, not named as James's son.
+
+Sources: Wayne and Appanoose 1886 p.259
 
 ## Father confidence review, ninth batch — 22 October 2026
 

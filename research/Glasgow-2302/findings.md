@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **82% (probable)** for [Glasgow-2298](https://www.wikitree.com/wiki/Glasgow-2298). Held citation and family narrative address this specific father-child link; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (29 October 2026): **83% (probable)** for [Glasgow-2298](https://www.wikitree.com/wiki/Glasgow-2298). Held citation and family narrative address this specific father-child link; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Robert L’s 1832 Georgia birth fits Robert senior’s reconstructed South-Carolina-to-Georgia family and local 1850 entry. The held index names Robert L but does not quote his relationship to the older Robert. Held citation and family narrative address this specific father-child link; no original was newly inspected.
+
+## Father review, 29 October 2026
+
+Robert Glasgow ([Glasgow-2298](https://www.wikitree.com/wiki/Glasgow-2298)): 82% (probable) → **83% (probable)**.
+
+The original 1850 Floyd County, Georgia schedule (M432 roll 56) shows dwelling 644 as one household in child age order, not two as indexed.
+
+Limits: No relationships stated.
+
+Sources: <https://archive.org/details/7thcensus0056unit>
 
 ## Father confidence review, ninth batch — 22 October 2026
 
