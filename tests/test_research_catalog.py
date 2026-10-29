@@ -1211,9 +1211,11 @@ Corrected assessment.
         self.assertEqual(bulk["schema_version"], "1.0")
         compact = json.loads((WEB / "data" / "people-index.json").read_text(encoding="utf-8"))
         self.assertEqual(len(compact), len(bulk["people"]))
+        # Raised from 1,100 on 29 October 2026: reviewed relationship states
+        # (added 19 October) are operational data, not duplicated narrative.
         self.assertLess(
             (WEB / "data" / "people-index.json").stat().st_size,
-            1_100 * len(compact),
+            1_250 * len(compact),
         )
         compact_text = (WEB / "data" / "people-index.json").read_text(encoding="utf-8")
         self.assertNotIn('"biography_text"', compact_text)
