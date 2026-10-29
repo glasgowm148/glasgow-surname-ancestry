@@ -164,6 +164,9 @@ def _restore_historical_import(dossier):
     claims = sections.setdefault('claims', [])
     known = {claim.get('id') for claim in claims}
     claims.extend(deepcopy(claim) for claim in seed.get('claims', []) if claim.get('id') not in known)
+    evidence = dossier.setdefault('evidence', [])  # not a snapshot section
+    known = {item.get('id') for item in evidence}
+    evidence.extend(deepcopy(item) for item in seed.get('evidence', []) if item.get('id') not in known)
     for group, rows in seed.get('relationships', {}).items():
         current = sections.setdefault('relationships', {}).setdefault(group, [])
         ids = {row.get('claim_id') for row in current}

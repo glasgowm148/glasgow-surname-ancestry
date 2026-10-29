@@ -1,5 +1,5 @@
 {
-  "provenance": "Public dossier import snapshots from glasgow-site-20260924-223311.tar.gz, retained after live WikiTree parent-link changes; these claims are historical, not current tree links.",
+  "provenance": "Public dossier import snapshots from glasgow-site-20260924-223311.tar.gz (Glasgow-951, Glasgow-1367) and glasgow-site-20261001-121650.tar.gz (Glasgow-3062, Glasgow-3188), retained after live WikiTree parent-link changes or role corrections; these claims are historical, not current tree links.",
   "profiles": {
     "Glasgow-951": {
       "claims": [
@@ -94,6 +94,142 @@
             "network_url": "/people/glasgow-951.network.json",
             "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-951",
             "claim_id": "C-ad51f3d1462c"
+          }
+        ]
+      }
+    },
+    "Glasgow-3062": {
+      "claims": [
+        {
+          "id": "C-45ddfd70fee6",
+          "type": "relationship",
+          "subject_ids": [
+            "Glasgow-3062",
+            "Glasgow-3188"
+          ],
+          "claim": "Marion Glasgow was sister of; possible daughter of Ninian Glasgow",
+          "status": "proved",
+          "status_label": "Sibling proved; father uncertain",
+          "evidence_ids": [
+            "E-dd8336222c19"
+          ],
+          "notes": "Ninian's 1613 testament explicitly calls Marion his sister. Robert is Ninian's proved father, but full versus half-sister is unstated.",
+          "provenance": "surname-research/indexes/relationship-hypotheses.md"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "E-dd8336222c19",
+          "claim_ids": [
+            "C-45ddfd70fee6"
+          ],
+          "record_type": "research assessment",
+          "date": "1613",
+          "place": null,
+          "subjects": [
+            "Glasgow-3062",
+            "Glasgow-3188"
+          ],
+          "assertion": "Ninian's 1613 testament explicitly calls Marion his sister. Robert is Ninian's proved father, but full versus half-sister is unstated.",
+          "evidence_status": "direct",
+          "source_quality": "original",
+          "independence_group": "SRC-37359398d904",
+          "source": {
+            "title": "National Records of Scotland,\nGlasgow Commissary Court, CC9/7/9, images 142–145, testament testamentar and\ninventory of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613.\nWorking transcription of the original images supplied 6 September 2026.",
+            "repository": null,
+            "reference": null,
+            "url": null
+          },
+          "provenance": "surname-research/indexes/relationship-hypotheses.md"
+        }
+      ],
+      "relationships": {
+        "parents": [
+          {
+            "id": "Glasgow-3188",
+            "name": "Ninian Glasgow",
+            "relationship": "father",
+            "tree_relationship": false,
+            "relationship_source": "research_assessment",
+            "url": "/people/glasgow-3188.html",
+            "json_url": "/people/glasgow-3188.json",
+            "network_url": "/people/glasgow-3188.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-3188",
+            "status": "proved",
+            "status_label": "Sibling proved; father uncertain",
+            "basis": "documentary",
+            "evidence_ids": [
+              "E-dd8336222c19"
+            ],
+            "claim_id": "C-45ddfd70fee6"
+          }
+        ]
+      }
+    },
+    "Glasgow-3188": {
+      "claims": [
+        {
+          "id": "C-45ddfd70fee6",
+          "type": "relationship",
+          "subject_ids": [
+            "Glasgow-3062",
+            "Glasgow-3188"
+          ],
+          "claim": "Marion Glasgow was sister of; possible daughter of Ninian Glasgow",
+          "status": "proved",
+          "status_label": "Sibling proved; father uncertain",
+          "evidence_ids": [
+            "E-dd8336222c19"
+          ],
+          "notes": "Ninian's 1613 testament explicitly calls Marion his sister. Robert is Ninian's proved father, but full versus half-sister is unstated.",
+          "provenance": "surname-research/indexes/relationship-hypotheses.md"
+        }
+      ],
+      "evidence": [
+        {
+          "id": "E-dd8336222c19",
+          "claim_ids": [
+            "C-45ddfd70fee6"
+          ],
+          "record_type": "research assessment",
+          "date": "1613",
+          "place": null,
+          "subjects": [
+            "Glasgow-3062",
+            "Glasgow-3188"
+          ],
+          "assertion": "Ninian's 1613 testament explicitly calls Marion his sister. Robert is Ninian's proved father, but full versus half-sister is unstated.",
+          "evidence_status": "direct",
+          "source_quality": "original",
+          "independence_group": "SRC-37359398d904",
+          "source": {
+            "title": "National Records of Scotland,\nGlasgow Commissary Court, CC9/7/9, images 142–145, testament testamentar and\ninventory of Ninian Glasgow, made 10 January 1613 and confirmed 8 May 1613.\nWorking transcription of the original images supplied 6 September 2026.",
+            "repository": null,
+            "reference": null,
+            "url": null
+          },
+          "provenance": "surname-research/indexes/relationship-hypotheses.md"
+        }
+      ],
+      "relationships": {
+        "children": [
+          {
+            "id": "Glasgow-3062",
+            "name": "Marion Glasgow",
+            "relationship": "daughter",
+            "tree_relationship": false,
+            "relationship_source": "research_assessment",
+            "url": "/people/glasgow-3062.html",
+            "json_url": "/people/glasgow-3062.json",
+            "network_url": "/people/glasgow-3062.network.json",
+            "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-3062",
+            "status": "proved",
+            "status_label": "Sibling proved; father uncertain",
+            "basis": "documentary",
+            "evidence_ids": [
+              "E-dd8336222c19"
+            ],
+            "claim_id": "C-45ddfd70fee6"
           }
         ]
       }
