@@ -459,7 +459,8 @@ def _run():
     evidence = catalogue._load_wikitree_evidence()
     policy = from_sources(evidence)
     update_report = []
-    updates = catalogue._load_profile_updates(evidence, report=update_report)
+    updates = catalogue._load_profile_updates(
+        evidence, report=update_report, profile_ids=set(args.profiles) or None)
     queue_payload = read_json(catalogue.PROFILE_UPDATE_QUEUE)
     comparisons = completed_comparisons(evidence, queue_payload)
     rows = read_json(WEB / "data/catalogue-search-index.json")

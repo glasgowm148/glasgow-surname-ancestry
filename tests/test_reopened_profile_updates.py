@@ -9,6 +9,22 @@ from tools.publish_resolved_dossiers import resolve as resolve_dossier
 
 
 class ReopenedProfileUpdatesTest(unittest.TestCase):
+    def test_targeted_load_preserves_validation_without_loading_unrelated_draft(self):
+        biography = '== Biography ==\nA recorded life.\n== Sources ==\n<references />'
+        evidence = {'profiles': {'Glasgow-1': {'biography_wikitext': biography}}}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'queue.json'
+            path.write_text(json.dumps({'entries': {
+                'Glasgow-1': {'summary': 'Review', 'manual_update': True},
+                'Glasgow-2': {'summary': 'Unfinished draft; no capture'}}}))
+            with patch.object(catalogue, 'PROFILE_UPDATE_QUEUE', path), \
+                 patch.object(catalogue, 'PROJECT_ROOT', Path(directory)):
+                updates = catalogue._load_profile_updates(evidence, profile_ids={'Glasgow-1'})
+                self.assertEqual(set(updates), {'Glasgow-1'})
+                for scope in (None, {'Glasgow-2'}):
+                    with self.assertRaisesRegex(ValueError, 'no captured WikiTree evidence: Glasgow-2'):
+                        catalogue._load_profile_updates(evidence, profile_ids=scope)
+
     def test_record_proved_brother_can_be_published_without_an_imported_parent(self):
         imported = {'id': 'Glasgow-1', 'relationships': {'parents': [], 'siblings': []}, 'claims': []}
         assertion = {'assertion_id': 'C-record-brothers', 'people': ['Glasgow-1', 'Glasgow-2'],

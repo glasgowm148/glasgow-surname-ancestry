@@ -217,6 +217,13 @@ class PublicationCheckTest(unittest.TestCase):
         self.assertEqual({"Glasgow-2"}, {i.subject for i in checker.items})
         self.assertEqual(1, checker.files_checked)
 
+    def test_targeted_check_does_not_validate_an_unrelated_unfinished_queue_entry(self):
+        self.tree.findings('Glasgow-1', CONCLUSION)
+        self.tree.write('data/wikitree/profile-update-queue.json', json.dumps({
+            'entries': {'Glasgow-2': {'summary': 'Unfinished draft without capture'}}}))
+        self.assertNotIn('QUEUE_ENTRY_DROPPED', self.codes(self.run_check(ids=['Glasgow-1'])))
+        self.assertIn('QUEUE_ENTRY_DROPPED', self.codes(self.run_check()))
+
     def test_every_rule_has_a_level_and_explanation(self):
         for code, (level, title, explanation) in check.RULES.items():
             self.assertIn(level, check.LEVEL_ORDER, code)

@@ -104,6 +104,7 @@ class CatalogueRenderBudgetTests(unittest.TestCase):
             report = load_updates.call_args.kwargs['report']
             self.assertIsInstance(report, list)
             self.assertIs(load_updates.call_args.args[0], evidence)
+            self.assertEqual(load_updates.call_args.kwargs['profile_ids'], {'Example-1'})
             self.assertIs(publication.call_args.kwargs['wikitree_evidence'], evidence)
             self.assertIs(publication.call_args.kwargs['profile_updates'], updates)
             self.assertIs(publication.call_args.kwargs['profile_update_report'], report)

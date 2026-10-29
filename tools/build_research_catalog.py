@@ -4846,7 +4846,8 @@ def _validate_profile_preservation_review(profile_id: str, current: str, propose
         raise ValueError(f"Profile preservation review is incomplete for {profile_id}")
 
 
-def _load_profile_updates(wikitree_evidence: dict, report: list | None = None) -> dict[str, dict]:
+def _load_profile_updates(wikitree_evidence: dict, report: list | None = None,
+                          profile_ids: set[str] | None = None) -> dict[str, dict]:
     """Build paste-ready biographies by applying reviewed patches to live WikiTree text.
 
     A profile in ``completed_live_profiles`` keeps its queue entry as history
@@ -4919,6 +4920,8 @@ def _load_profile_updates(wikitree_evidence: dict, report: list | None = None) -
     relationship_reviews = research_data.relationship_assessments(PROJECT_ROOT)
     reviewed_findings = research_data.latest_findings(PROJECT_ROOT).get('findings', [])
     for profile_id, specification in specifications.items():
+        if profile_ids is not None and profile_id not in profile_ids:
+            continue
         reopened_by_date = False
         if profile_id in completed_live_profiles and profile_id not in reopened_profiles:
             entry_date = str(specification.get("queued_at") or "") or latest_date(

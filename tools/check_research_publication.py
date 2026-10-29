@@ -648,8 +648,11 @@ class Checker:
             report = self.profile_update_report
         else:
             try:
-                updates = (catalog._load_profile_updates(evidence, report=report) if supports_report
-                           else catalog._load_profile_updates(evidence))
+                parameters = inspect.signature(catalog._load_profile_updates).parameters
+                kwargs = {"report": report} if supports_report else {}
+                if self.scope is not None and "profile_ids" in parameters:
+                    kwargs["profile_ids"] = self.scope
+                updates = catalog._load_profile_updates(evidence, **kwargs)
             except ValueError as error:
                 self.items.append(Item("QUEUE_ENTRY_DROPPED", "queue", _digest(str(error)),
                                        f"the update loader stopped: {error}"))
