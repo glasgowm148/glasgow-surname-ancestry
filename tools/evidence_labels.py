@@ -224,6 +224,8 @@ def normalise_status_label(state, text: str) -> str:
     term = STATES[key]["label"]
     if text.casefold().startswith(term.casefold()):
         return text
+    if term.casefold() in (part.strip().casefold() for part in text.split("·")):
+        return text  # e.g. "Earlier or alternative father · Superseded"
     if key == "unmarked":
         return text if text.casefold().startswith("unassessed") else f"Unassessed · {text}"
     return f"{term} · {text}"

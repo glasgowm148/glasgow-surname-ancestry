@@ -66,6 +66,13 @@ class ResolvedPublicModelTests(unittest.TestCase):
                         # Approval records the publication decision; a later
                         # approved assessment may explicitly replace its scope.
                         self.assertEqual(claim, next(c for c in network['claims'] if c['id'] == aid))
+                        if 'superseded_by' not in claim:
+                            # The assessment itself was retired; it stays only as a
+                            # superseded row, never a current relationship.
+                            self.assertEqual('historical', assessment['lifecycle'])
+                            rows = [r for rows in dossier['relationships'].values() for r in rows if r.get('claim_id') == aid]
+                            self.assertTrue(all(r['status'] == 'superseded' for r in rows), aid)
+                            continue
                         replacement = next(c for c in dossier['claims'] if c['id'] == claim['superseded_by'])
                         self.assertEqual('current', replacement['lifecycle'])
                         self.assertIn(aid, replacement['historical_claim_ids'])

@@ -130,13 +130,15 @@ class DossierCleanupTests(unittest.TestCase):
             self.assertEqual(f"#{canonical}", redirect.get("href"))
 
     @requires_generated_data
-    def test_robert_keeps_conflict_qualified_vitals_and_open_father_hypothesis(self):
+    def test_robert_keeps_conflict_qualified_vitals_and_superseded_father_hypothesis(self):
         soup = self.page("glasgow-1367")
         visible = self.text(soup.select_one(".person-dossier-readable"))
         self.assertIn("conflict", visible.casefold())
         self.assertNotRegex(visible, r"\bsettled\s+Tyrone\b")
         father = self.page("glasgow-951").select_one("#family a[href='/people/glasgow-1367.html']").find_parent("tr")
-        self.assertIn("Open father hypothesis", self.text(father))
+        # Retired on 28 October 2026 in favour of the proved John Glasgow-4090.
+        self.assertIn("Earlier or alternative father · Superseded", self.text(father))
+        self.assertNotIn("Open father hypothesis", self.text(father))
         self.assertNotIn("non-biological", self.text(father).casefold())
 
     @requires_generated_data

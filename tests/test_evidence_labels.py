@@ -64,6 +64,10 @@ class VocabularyTests(unittest.TestCase):
             ("possible", "Open father hypothesis"): "Possible · Open father hypothesis",
             ("probable", "Probable; 1892 citation and will"): "Probable; 1892 citation and will",
             ("uncertain", "Relationship unresolved"): "Uncertain · Relationship unresolved",
+            ("superseded", "Earlier or alternative father · Superseded · Not individually rated"):
+                "Earlier or alternative father · Superseded · Not individually rated",
+            ("superseded", "Earlier or alternative father · Possible"):
+                "Superseded · Earlier or alternative father · Possible",
         }
         for (state, text), expected in cases.items():
             with self.subTest(state=state, text=text):
