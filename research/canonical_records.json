@@ -31287,27 +31287,32 @@
   },
   {
     "record_id": "pittsylvania-james-glasgow-high-bond-1818",
-    "record_type": "Marriage-bond compilation",
+    "record_type": "Marriage bond",
     "date": "1818-10-21",
     "place": "Pittsylvania County, Virginia, United States",
     "association": "James Glasgow and Susanna High; Freeman High bondsman.",
-    "source_title": "Pittsylvania County Marriage Bonds, typed compilation, printed p. 101, PDF p. 104, James Glasgow/Susanna High",
-    "source_url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/marriages/1767marriage.pdf#page=104",
-    "source_type": "Scanned typed compilation derived from county bonds/registers, not original bond",
-    "source_quality": "derivative_compilation",
-    "source_status": "Printed p. 101/PDF p. 104 visually inspected 23 October 2026.",
+    "source_title": "Pittsylvania County original marriage bond, James Glasgow and Susanah High, 21 October 1818; DGS 007741064, item 3, image 270 of 281",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-YQ6X-J",
+    "source_type": "Original bond, digitized image",
+    "source_quality": "original_record",
+    "source_status": "Original downloaded and visually inspected 30 October 2026; preceding endorsement image 269 also visually inspected.",
     "status": "21 October 1818 bond and Freeman High security; no James parent stated.",
-    "reviewed": "2026-10-23",
+    "reviewed": "2026-10-30",
     "profiles": {
       "Glasgow-62": {
         "role": "Named groom"
       }
     },
-    "assessment": "A different page, printed p. 83/PDF p. 86, records Robert Glasgow as bondsman for Robert Eudaley/Elizabeth Glasgow22 December 1815, without a parent annotation. This is an associated local lead, not proof of James’s father, Elizabeth’s father or siblinghood.",
+    "assessment": "The original confirms James Glasgow and Freeman High as obligors on 21 October 1818 for James’s licence to marry Susanah High. James signs his name; Freeman’s entry bears his mark. Witness R. Hopkins. No parent, age or occupation of James is stated. This confirms the existing marriage-bond account, not a new father or an identification of the 1840 deponent. The distinct 1815 Eudaley/Elizabeth Glasgow bond remains an associated-family test, not proved kinship.",
     "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
-    "reviewed_on": "2026-10-23",
+    "reviewed_on": "2026-10-30",
     "year": 1818,
-    "country": "united states"
+    "country": "united states",
+    "derivative_source": {
+      "title": "Pittsylvania County Marriage Bonds, typed compilation, printed p. 101/PDF p. 104",
+      "url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/marriages/1767marriage.pdf#page=104",
+      "reviewed": "2026-10-23"
+    }
   },
   {
     "record_id": "chester-samuel-glasgow-estate-7520-1824",
