@@ -7,7 +7,7 @@
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
     "inspected_transcripts": 646,
-    "catalogue_integration_complete": true,
+    "catalogue_integration_complete": false,
     "integrated_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -636,8 +636,8 @@
       "R_691583593",
       "GBOR/LONDONBURIAL/00130426"
     ],
-    "next_query_page": 29,
-    "integration_scope": "627 literal receipts indexed: 408 qualified profile/candidate contexts and 219 source-only identity/scope HOLDs. 19 supporting IDs give 646 bounded indexed provider IDs. Two page-28 vital corrections are adopted. Page 29 has 20 saved result rows: one indexed Michael record reused and 19 missing detail receipts. Query coverage is 580 saved rows, 561 reviewed/disposed and 560 contiguously reviewed. The cached Michael birth-date refinement is queued before further retrieval. No new provider records or people at this checkpoint; full coverage remains INCOMPLETE.",
+    "next_query_page": 30,
+    "integration_scope": "Page29 nineteen saved derivatives are now in canonical records and public record/source indexes:4matched entries under3existing subjects,1qualified secondary-role comparison and14source-only HOLDs. Literal-receipt contexts total413;233 remain source-only. Source readers, categories, sitemap, complete affected proposals, current findings, study and dated log synchronized. No current vital, parent-confidence or attachment change; originals uninspected. Full scope INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -1267,55 +1267,35 @@
       "SCOT/OPR/BAP/4146263",
       "SCOT/OPR/BUR/1566095"
     ],
-    "records_with_profile_or_draft_context": 408,
+    "records_with_profile_or_draft_context": 413,
     "remaining_coverage": [
-      "Page29 rows captured and preflighted: one indexed receipt reused,19detail gaps. First review the cached Michael1416birth-date gap, then the19missing details. Later pages, other birth windows/categories/variants and later-life records remain incomplete.",
+      "Page30 onward of the1719–1799BMD query;15page29identity/scope comparisons remain unresolved despite completed indexing. Earlier windows, other categories/variants and later-life records still require coverage.",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
       "Surname variants and unresolved natal-surname/record identities",
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-michael-birth-20261030-verification.json",
+    "verification_report": "output/findmypast-page29-reconciliation-20261030-verification.json",
     "verified_on": "2026-10-30",
-    "indexed_provider_record_count": 627,
-    "next_action": "Integrate the saved existing-person matches first: Barony Mary R_690390678 with Glasgow-1351, North Leith Mckenzie pair R_686222678/R_691921324 with Glasgow-3588, and Michael companion R_685314069 with Glasgow-1416 (names Mary Crauford). Preserve existing parent percentages and assess maternal adult identities separately. Then reconcile the remaining cached Rothesay/Richmond/Mid-Calder/Mckenzie and later-life Mary groups, including natal-surname and named-relative scope. All19 full transcripts are saved: do not refetch or open page30 before completing this cached batch. Overall INCOMPLETE.",
+    "indexed_provider_record_count": 646,
+    "next_action": "Capture page30 rows of the saved1719–1799BMD query, record the displayed total, then exact-ID preflight before details. All19page29receipts are indexed: reuse them and preserve15unresolved identity/scope comparisons. Further tests need original records or new discriminators, not repeated no-hit name searches. Retain the nine later-life natal-surname HOLDs and screen named relatives; no new-person suggestion without concrete exclusions. Other birth windows, categories, variants, access holds and later-life records without indexed birth remain incomplete.",
     "recent_query_transcripts": 511,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 561,
-    "capture_ledger_note": "646 literal transcript receipts are saved: 627 indexed and 19 pending page-29 identity/indexing review. Nineteen supporting indexed IDs remain at their original receipt pointers. Bounded indexed provider IDs remain 646; saved receipt union is 665. Query rows: 580 captured, 561 reviewed/disposed, 560 contiguous. No new people or relationship changes.",
-    "capture_count_basis": "646bounded indexed provider IDs in literal-ledger-plus-support scope; provider IDs are not unique people or independent discoveries.",
+    "recent_query_rows_reviewed": 580,
+    "capture_ledger_note": "646 literal transcript receipts indexed, plus19 supporting indexed provider IDs at their original receipt pointers:665 bounded indexed IDs. Query580rows captured and reviewed/disposed,580contiguous; no saved unintegrated transcript remains. Page29 dispositions:4matched entries under3existing people,1qualified father-role comparison,14source-only identity/natal-surname HOLDs. Provider IDs are not unique people or independent discoveries.",
+    "capture_count_basis": "665bounded indexed provider IDs =646literal receipts +19supporting IDs; no new people or independent-discovery total inferred.",
     "recent_query_receipt_reuses": 61,
     "recent_query_existing_index_reuses": 1,
     "recent_query_access_holds": 7,
     "next_search_page_to_capture": 30,
     "recent_query_rows_captured": 580,
-    "contiguous_query_rows_reviewed": 560,
+    "contiguous_query_rows_reviewed": 580,
     "recent_query_detail_gaps": 0,
-    "unindexed_captured_record_ids": [
-      "GBPRS/B/612044440/1",
-      "R_690390678",
-      "SCOT/OPR/BAP/3235403",
-      "R_693985014",
-      "BMD/NBI/07446456",
-      "PRS/LIVERPOOL/BUR/0380850",
-      "BMD/NBI/01614261",
-      "GBPRS/GLASGOW/BUR/093123",
-      "US/BMD/PENN-BUR/01393539",
-      "GBOR/MISCBMDS/DEA/000980466/1",
-      "GBPRS/D/51223182/1",
-      "IRE/BMD/D/616663692",
-      "IRE/BMD/D/617063148",
-      "R_686318726",
-      "R_694114425",
-      "R_686222678",
-      "R_691921324",
-      "R_692918190",
-      "R_685314069"
-    ],
-    "pending_transcript_matching": 19,
+    "unindexed_captured_record_ids": [],
+    "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 19,
-    "total_indexed_reviewed_provider_ids": 646,
+    "total_indexed_reviewed_provider_ids": 665,
     "capture_review_boundary_20261025": {
       "query_rows_captured": 540,
       "query_rows_identity_reviewed": 540,
@@ -1418,6 +1398,18 @@
       "new_people": 0,
       "relationship_changes": 0,
       "verification_report": "output/findmypast-michael-birth-20261030-verification.json"
+    },
+    "capture_review_boundary_20261030_page29_integrated": {
+      "query_rows_captured": 580,
+      "query_rows_reviewed": 580,
+      "contiguous_query_rows_reviewed": 580,
+      "pending_saved_transcripts": 0,
+      "newly_indexed_provider_ids": 19,
+      "indexed_provider_id_union": 665,
+      "next_query_page": 30,
+      "coverage_status": "INCOMPLETE",
+      "whole_provider_percentage_known": false,
+      "identity_resolution_complete": false
     }
   },
   "search_pages": [
@@ -8554,7 +8546,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044440%2F1",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "identity_hold",
           "receipt_pointer": "#/records/GBPRS~1B~1612044440~11"
         },
         {
@@ -8569,7 +8561,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690390678",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "matched_existing",
           "receipt_pointer": "#/records/R_690390678"
         },
         {
@@ -8584,7 +8576,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235403",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "identity_hold",
           "receipt_pointer": "#/records/SCOT~1OPR~1BAP~13235403"
         },
         {
@@ -8599,7 +8591,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693985014",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "identity_hold",
           "receipt_pointer": "#/records/R_693985014"
         },
         {
@@ -8614,7 +8606,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07446456",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/BMD~1NBI~107446456"
         },
         {
@@ -8629,7 +8621,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FLIVERPOOL%2FBUR%2F0380850",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/PRS~1LIVERPOOL~1BUR~10380850"
         },
         {
@@ -8644,7 +8636,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614261",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/BMD~1NBI~101614261"
         },
         {
@@ -8659,7 +8651,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093123",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/GBPRS~1GLASGOW~1BUR~1093123"
         },
         {
@@ -8674,7 +8666,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01393539",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/US~1BMD~1PENN-BUR~101393539"
         },
         {
@@ -8689,7 +8681,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FMISCBMDS%2FDEA%2F000980466%2F1",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/GBOR~1MISCBMDS~1DEA~1000980466~11"
         },
         {
@@ -8704,7 +8696,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F51223182%2F1",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/GBPRS~1D~151223182~11"
         },
         {
@@ -8719,7 +8711,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616663692",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/IRE~1BMD~1D~1616663692"
         },
         {
@@ -8734,7 +8726,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063148",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "natal_surname_hold",
           "receipt_pointer": "#/records/IRE~1BMD~1D~1617063148"
         },
         {
@@ -8749,7 +8741,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686318726",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "identity_hold",
           "receipt_pointer": "#/records/R_686318726"
         },
         {
@@ -8764,7 +8756,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_694114425",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "identity_hold",
           "receipt_pointer": "#/records/R_694114425"
         },
         {
@@ -8779,7 +8771,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686222678",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "matched_existing",
           "receipt_pointer": "#/records/R_686222678"
         },
         {
@@ -8794,7 +8786,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691921324",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "matched_existing",
           "receipt_pointer": "#/records/R_691921324"
         },
         {
@@ -8809,7 +8801,7 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692918190",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "candidate_comparison",
           "receipt_pointer": "#/records/R_692918190"
         },
         {
@@ -8830,7 +8822,8 @@
             "access_status": "accessible",
             "transcript_fields_present": true,
             "captured_at": "2026-09-03T23:39:12.264Z"
-          }
+          },
+          "identity_review_status": "already_indexed_reuse"
         },
         {
           "last_name": "Glasgow",
@@ -8844,11 +8837,11 @@
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685314069",
           "transcript_reviewed": true,
           "review_disposition": "detail_needed",
-          "identity_review_status": "pending",
+          "identity_review_status": "matched_existing",
           "receipt_pointer": "#/records/R_685314069"
         }
       ],
-      "review_status": "full_transcripts_captured_identity_review_pending",
+      "review_status": "all20rows_disposed_and_indexed_where_accessible; identity_holds_retained",
       "captured_new_detail_rows": [
         "GBPRS/B/612044440/1",
         "R_690390678",
@@ -8874,13 +8867,14 @@
         "SCOT/OPR/BAP/3575088"
       ],
       "remaining_detail_rows": [],
-      "checkpoint_reviewed_rows": 1,
+      "checkpoint_reviewed_rows": 20,
       "capture_summary": {
         "new_literal_transcript_receipts": 19,
         "reused_receipts": 1,
-        "newly_indexed_provider_records": 0,
-        "identity_review_complete": false,
-        "new_people_proposed": 0
+        "newly_indexed_provider_records": 19,
+        "identity_review_complete": true,
+        "new_people_proposed": 0,
+        "identity_resolution_complete": false
       }
     }
   ],
@@ -31915,8 +31909,11 @@
         "Father's occupation ": "Schoolmaster",
         "Collections from ": "England, Great Britain"
       },
-      "matching_status": "pending_review",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "matching_status": "identity_hold",
+      "assessment": "Mary Glasgow was baptised17April1794 at Richmond, North Riding, Yorkshire, daughter of William, schoolmaster; mother is dash. Indexed birth1794 is not an explicit birthday or proof of infant baptism. No checked Mary/William identity is established. The reviewed catalogue has sparse Mary accounts, including Glasgow-3807, whose imported1795 year is not a documented exclusion by itself. No new person; inspect the original and trace the schoolmaster rather than assigning a missing mother or a later-life identity. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-gbprs-b-612044440-1",
+      "documentary_group": "richmond-mary-william-1794"
     },
     "R_690390678": {
       "provider_id": "R_690390678",
@@ -31947,9 +31944,12 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Mary Glasgow in 1796 | Transcript of Mary's record | Transcript of Mary's record | Newspaper death & in memoriam notice | Marriage Record | Marriage Record | Marriage Record | Newspaper marriage notice | Newspaper death & in memoriam notice | Other records featuring that name | Newspaper death & in memoriam notice | Marriage Record | Marriage Record | Marriage Record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow baptised3April1796 at Barony, Glasgow, father John Glasgow and mother Helen Smith. The parish, baptism day and couple match existing Glasgow-1351; the later Mary-1353 account belongs to a different recorded baptism and is not merged. Preserve the current birth bound before3April1796: no birth day is supplied. Father Glasgow-1348 remains95%; mother Smith-230548 is not newly graded. This does not identify the possible later Mary Thomson. The source is a companion derivative, not independent corroboration of the held FamilySearch citation. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-690390678",
+      "documentary_group": "barony-mary-john-helen-1796"
     },
     "SCOT/OPR/BAP/3235403": {
       "provider_id": "SCOT/OPR/BAP/3235403",
@@ -31986,9 +31986,12 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "identity_hold",
       "access_note": "Mary Glasgow in 1797 | Transcript of Mary's record | Transcript of Mary's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow born14May1797, baptised21May1797 at Rothesay, residence Miln Rothesay, daughter of Malcolm Glasgow, cotton weaver, and Mary Bannatyne; OPR558/2 item4 page111. Companion R_693985014 has the same baptism/couple, spelling the father Malcom, but supplies no exact birth date. Consolidate this documentary child; do not count two independent witnesses. No current child or adult parental identity is established. Sparse existing Mary profiles are not excluded solely by missing parents, so no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-scot-opr-bap-3235403",
+      "documentary_group": "rothesay-mary-malcolm-bannatyne-1797"
     },
     "R_693985014": {
       "provider_id": "R_693985014",
@@ -32019,9 +32022,12 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "identity_hold",
       "access_note": "Mary Glasgow in 1797 | Transcript of Mary's record | Transcript of Mary's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow born14May1797, baptised21May1797 at Rothesay, residence Miln Rothesay, daughter of Malcolm Glasgow, cotton weaver, and Mary Bannatyne; OPR558/2 item4 page111. Companion R_693985014 has the same baptism/couple, spelling the father Malcom, but supplies no exact birth date. Consolidate this documentary child; do not count two independent witnesses. No current child or adult parental identity is established. Sparse existing Mary profiles are not excluded solely by missing parents, so no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-693985014",
+      "documentary_group": "rothesay-mary-malcolm-bannatyne-1797"
     },
     "BMD/NBI/07446456": {
       "provider_id": "BMD/NBI/07446456",
@@ -32050,9 +32056,12 @@
         "Collections from ": "Great Britain, England"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1809 | Transcript of Mary's record | Transcript of Mary's record | National Burial Index for England & Wales",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow buried12January1809, aged40, Holy Trinity, Berwick upon Tweed, Anglican. Indexed birth1769 is age-derived; death year1809 is supplied but no separate death day, parents, husband or maiden surname. Natal Glasgow and an existing person identity remain unproved. Ratho Mary Glasgow-1618, born11October1768, would be40 at this burial, so the indexed one-year difference does not exclude her; parish difference alone is not an identity conflict. No death is assigned to her and no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-bmd-nbi-07446456",
+      "documentary_group": "berwick-mary-burial-1809"
     },
     "PRS/LIVERPOOL/BUR/0380850": {
       "provider_id": "PRS/LIVERPOOL/BUR/0380850",
@@ -32089,9 +32098,12 @@
         "Collections from ": "England, Great Britain"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1818 | Transcript of Mary's record | Transcript of Mary's record | What can these records tell me?",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow, aged72, wife of Joseph Glasgow, resident White Street Liverpool, buried9July1818 at Toxteth St James; Liverpool Record Office283-JAM-4-1, register1813–1826. Indexed birth1746 is age-derived, death year is dash, and no maiden surname is given. Screen Joseph separately as the named Glasgow husband: his birth and adult-profile identity are not established. The reviewed Joseph accounts supply no held White Street/school/occupation bridge; unknown dates or a different recorded locality are not concrete exclusions. Do not attach this wife or burial to a Joseph profile or infer an exact death day. No new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-prs-liverpool-bur-0380850",
+      "documentary_group": "toxteth-mary-joseph-burial-1818"
     },
     "BMD/NBI/01614261": {
       "provider_id": "BMD/NBI/01614261",
@@ -32120,9 +32132,12 @@
         "Collections from ": "Great Britain, England"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1832 | Transcript of Mary's record | Transcript of Mary's record | National Burial Index for England & Wales",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow buried29July1832, age56, St Mary, Chesham, Buckinghamshire, Anglican. Indexed birth1776 is age-derived; the record supplies death year1832 but no separate death day, husband, parents or maiden surname. A compatible sparse current Mary is not identified or concretely excluded. Retain the source without assigning a life event or creating another person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-bmd-nbi-01614261",
+      "documentary_group": "chesham-mary-burial-1832"
     },
     "GBPRS/GLASGOW/BUR/093123": {
       "provider_id": "GBPRS/GLASGOW/BUR/093123",
@@ -32151,9 +32166,12 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1848 | Transcript of Mary's record | Transcript of Mary's record | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice | Other records featuring that name | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow buried23May1848 at Gorbals, Glasgow, age71, dropsy. Death date is literally ? ? 1848; birth1777 is age-derived, not a recorded birthday. No named parents/husband or natal surname establish which Mary. Preserve the distinction between burial day and death year; do not turn the burial into an exact death day or exclude sparse candidates by estimated year alone. No new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093123",
+      "documentary_group": "gorbals-mary-burial-1848"
     },
     "US/BMD/PENN-BUR/01393539": {
       "provider_id": "US/BMD/PENN-BUR/01393539",
@@ -32186,9 +32204,12 @@
         "Collections from ": "Americas, United States"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1848 | Transcript of Mary's record | Transcript of Mary's record | What can these records tell me?",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow, age51, Philadelphia Board of Health Registers of Deaths, explicit Death date22April1848, burial year1848; Historical Society of Pennsylvania, register1847–1849. Indexed birth1797 is age-derived; address is dash and no parents, spouse, birthplace or maiden surname are supplied. No verified link to a current Mary or proof she was born Glasgow; a source-only identity/natal-surname HOLD is retained, not a new-person proposal. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-us-bmd-penn-bur-01393539",
+      "documentary_group": "philadelphia-mary-death-1848"
     },
     "GBOR/MISCBMDS/DEA/000980466/1": {
       "provider_id": "GBOR/MISCBMDS/DEA/000980466/1",
@@ -32223,9 +32244,12 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1860 | Transcript of Mary's record | Transcript of Mary's record | Marriage Record | Marriage Record | Marriage Record | Census Record | Other records featuring that name | Marriage Record | Marriage Record | Marriage Record | Census Record | What can these records tell me?",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow, age77, Manchester Rusholme Road Dissenters burial register, explicit Death date18February1860, TNA RG37/97 page125. The title says1821–1933, while Year range literally says1954–1957; retain that internal metadata discrepancy and inspect the original before using the range. Companion GBPRS/D/51223182/1 is a gravestone inscription index with the same age/place/day but labels it Death/Burial, so it is not independent proof of a separately dated burial. Birth1783 is age-derived. No parents, spouse or maiden surname identify her. Current Mary-545 has approximate death1860 but its approximate birth1792 and absent shared locality do not establish identity or a concrete exclusion; no event is assigned and no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-gbor-miscbmds-dea-000980466-1",
+      "documentary_group": "rusholme-mary-death-burial-1860"
     },
     "GBPRS/D/51223182/1": {
       "provider_id": "GBPRS/D/51223182/1",
@@ -32256,9 +32280,12 @@
         "Collections from ": "England, Great Britain"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1860 | Transcript of Mary's record | Transcript of Mary's record | The Cemetery Records",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Glasgow, age77, Manchester Rusholme Road Dissenters burial register, explicit Death date18February1860, TNA RG37/97 page125. The title says1821–1933, while Year range literally says1954–1957; retain that internal metadata discrepancy and inspect the original before using the range. Companion GBPRS/D/51223182/1 is a gravestone inscription index with the same age/place/day but labels it Death/Burial, so it is not independent proof of a separately dated burial. Birth1783 is age-derived. No parents, spouse or maiden surname identify her. Current Mary-545 has approximate death1860 but its approximate birth1792 and absent shared locality do not establish identity or a concrete exclusion; no event is assigned and no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-gbprs-d-51223182-1",
+      "documentary_group": "rusholme-mary-death-burial-1860"
     },
     "IRE/BMD/D/616663692": {
       "provider_id": "IRE/BMD/D/616663692",
@@ -32287,9 +32314,12 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1864 | Transcript of Mary's record | Transcript of Mary's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Irish civil death index: Mary Glasgow, age70, registration1864 Dublin North, volume2 page506. Birth1794 is age-derived; this is a registration year, not an exact death day or natal-surname proof. No informant, spouse or parents identify her. Sparse Glasgow Mary accounts and married-in possibilities remain open; do not create a person or transfer this death without the civil entry and identity evidence. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-ire-bmd-d-616663692",
+      "documentary_group": "dublin-north-mary-death-index-1864"
     },
     "IRE/BMD/D/617063148": {
       "provider_id": "IRE/BMD/D/617063148",
@@ -32318,9 +32348,12 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Mary Glasgow in 1868 | Transcript of Mary's record | Transcript of Mary's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Irish civil death index: Mary Glasgow, age80, registration1868 Limerick, volume15 page271. Birth1788 is age-derived, and no exact death day, parents, spouse, informant or maiden surname is supplied. Kirkliston Mary-161 has an age-compatible1788 birth, but no Limerick identity bridge; the age alone is not an assignment or an exclusion. Preserve natal-surname/identity HOLD, with no new person or current vital change. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-ire-bmd-d-617063148",
+      "documentary_group": "limerick-mary-death-index-1868"
     },
     "R_686318726": {
       "provider_id": "R_686318726",
@@ -32353,9 +32386,12 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "identity_hold",
       "access_note": "Mary Macleod Glasgow in 1799 | Transcript of Mary Macleod's record | Transcript of Mary Macleod's record | Death Record | Marriage Record | Marriage Record | Marriage Record | Marriage Record | Census Record | Other records featuring that name | Death Record | Marriage Record | Marriage Record | Marriage Record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Macleod Glasgow baptised17March1799 at Mid Calder, Midlothian, daughter of David Glasgow and Margaret Fergusson; companion R_694114425 gives the same names/day/place. Macleod is literally part of the indexed first-name field, not proof of a maiden or married surname. Birth1799 accompanies baptism without an explicit birth day or infant-age proof. No current child or adult David/Margaret identity is established. Preserve one documentary group, possible sparse existing Mary identities, and no new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-686318726",
+      "documentary_group": "mid-calder-mary-macleod-1799"
     },
     "R_694114425": {
       "provider_id": "R_694114425",
@@ -32386,9 +32422,12 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "identity_hold",
       "access_note": "Mary Macleod Glasgow in 1799 | Transcript of Mary Macleod's record | Transcript of Mary Macleod's record | Death Record | Marriage Record | Marriage Record | Marriage Record | Marriage Record | Census Record | Other records featuring that name | Death Record | Marriage Record | Marriage Record | Marriage Record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mary Macleod Glasgow baptised17March1799 at Mid Calder, Midlothian, daughter of David Glasgow and Margaret Fergusson; companion R_694114425 gives the same names/day/place. Macleod is literally part of the indexed first-name field, not proof of a maiden or married surname. Birth1799 accompanies baptism without an explicit birth day or infant-age proof. No current child or adult David/Margaret identity is established. Preserve one documentary group, possible sparse existing Mary identities, and no new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-694114425",
+      "documentary_group": "mid-calder-mary-macleod-1799"
     },
     "R_686222678": {
       "provider_id": "R_686222678",
@@ -32421,9 +32460,12 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Mckenzie Glasgow in 1734 | Transcript of Mckenzie's record | Transcript of Mckenzie's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mckenzie Glasgow, male, baptised17December1734 at North Leith, father William Glasgow and mother Jean Love. Companion R_691921324 repeats this couple/day/parish. The rare indexed name and exact baptism match existing McKenzie Glasgow-3588; the birth field remains before17December1734, not an exact birthday. Jean is retained literally alongside the current Jane Love-11868 attribution; no separate person or maternal confidence is invented. William-3408 remains a possible father at59%: the two companion derivatives are not independent and do not establish that the Leith adult was the Irvine-born Will. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-686222678",
+      "documentary_group": "north-leith-mckenzie-1734"
     },
     "R_691921324": {
       "provider_id": "R_691921324",
@@ -32454,9 +32496,12 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Mckenzie Glasgow in 1734 | Transcript of Mckenzie's record | Transcript of Mckenzie's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mckenzie Glasgow, male, baptised17December1734 at North Leith, father William Glasgow and mother Jean Love. Companion R_691921324 repeats this couple/day/parish. The rare indexed name and exact baptism match existing McKenzie Glasgow-3588; the birth field remains before17December1734, not an exact birthday. Jean is retained literally alongside the current Jane Love-11868 attribution; no separate person or maternal confidence is invented. William-3408 remains a possible father at59%: the two companion derivatives are not independent and do not establish that the Leith adult was the Irvine-born Will. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-691921324",
+      "documentary_group": "north-leith-mckenzie-1734"
     },
     "R_692918190": {
       "provider_id": "R_692918190",
@@ -32487,9 +32532,12 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "candidate_comparison",
       "access_note": "Mckenzie Glasgow in 1754 | Transcript of Mckenzie's record | Transcript of Mckenzie's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Mckenzie Glasgow, male, baptised18July1754 at Ayr, father also indexed Mckenzie Glasgow and mother Margaret Davidson. Preserve the unusual repeated given name as indexed; an original is needed to test its reading. The existing McKenzie-3588 was baptised1734 and could chronologically be the named father at about20, but no marriage, occupation or Leith-to-Ayr continuity identifies that adult. This is a qualified secondary-role comparison only: do not assign the1754 baptism or Margaret Davidson maternity to the1734 child, add a child/spouse or create a person from an unverified name reading. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-692918190",
+      "documentary_group": "ayr-mckenzie-margaret-davidson-1754"
     },
     "R_685314069": {
       "provider_id": "R_685314069",
@@ -32522,9 +32570,12 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Michael Glasgow in 1741 | Transcript of Michael's record | Transcript of Michael's record",
-      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+      "assessment": "Michael Glasgow baptised22November1741 at Irvine, father Michael Glasgow and mother Mary Crauford. The exact child/day/parish and paternal name match Glasgow-1416 and held OPR derivative SCOT/OPR/BAP/3575088. Unlike that held OPR transcript, this companion explicitly indexes Mary Crauford; it supplies no exact birth day. The recorded maternal name supports comparison with attached Crauford-31 but is not a new graded adult-identity assessment. Preserve birth19November1741 from the OPR, father89%, all older sources and unresolved Old Bailey identity. Companion derivatives may share underlying provenance and are not independent corroboration. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+      "reviewed_on": "2026-10-30",
+      "canonical_record_id": "fmp-record-r-685314069",
+      "documentary_group": "irvine-michael-crauford-1741"
     }
   },
   "identity_clusters": [
@@ -73623,7 +73674,7 @@
     },
     "page29_review_20261030": {
       "reviewed_on": "2026-10-30",
-      "status": "partial_review",
+      "status": "locally_integrated_with_identity_holds",
       "record_dispositions": {
         "SCOT/OPR/BAP/3575088": {
           "status": "already_indexed_reuse",
@@ -73655,31 +73706,241 @@
             }
           ],
           "vital_assessment_id": "fmp-page29-glasgow-1416-birth-20261030",
-          "verification_report": "output/findmypast-michael-birth-20261030-verification.json"
+          "verification_report": "output/findmypast-michael-birth-20261030-verification.json",
+          "indexed": true
+        },
+        "GBPRS/B/612044440/1": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-gbprs-b-612044440-1",
+          "documentary_group": "richmond-mary-william-1794",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow was baptised17April1794 at Richmond, North Riding, Yorkshire, daughter of William, schoolmaster; mother is dash. Indexed birth1794 is not an explicit birthday or proof of infant baptism. No checked Mary/William identity is established. The reviewed catalogue has sparse Mary accounts, including Glasgow-3807, whose imported1795 year is not a documented exclusion by itself. No new person; inspect the original and trace the schoolmaster rather than assigning a missing mother or a later-life identity. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1B~1612044440~11",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_690390678": {
+          "status": "matched_existing",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-690390678",
+          "documentary_group": "barony-mary-john-helen-1796",
+          "catalogue_profiles": {
+            "Glasgow-1351": {
+              "role": "Child; matched baptism, not an exact birth day"
+            }
+          },
+          "assessment": "Mary Glasgow baptised3April1796 at Barony, Glasgow, father John Glasgow and mother Helen Smith. The parish, baptism day and couple match existing Glasgow-1351; the later Mary-1353 account belongs to a different recorded baptism and is not merged. Preserve the current birth bound before3April1796: no birth day is supplied. Father Glasgow-1348 remains95%; mother Smith-230548 is not newly graded. This does not identify the possible later Mary Thomson. The source is a companion derivative, not independent corroboration of the held FamilySearch citation. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690390678",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "SCOT/OPR/BAP/3235403": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-scot-opr-bap-3235403",
+          "documentary_group": "rothesay-mary-malcolm-bannatyne-1797",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow born14May1797, baptised21May1797 at Rothesay, residence Miln Rothesay, daughter of Malcolm Glasgow, cotton weaver, and Mary Bannatyne; OPR558/2 item4 page111. Companion R_693985014 has the same baptism/couple, spelling the father Malcom, but supplies no exact birth date. Consolidate this documentary child; do not count two independent witnesses. No current child or adult parental identity is established. Sparse existing Mary profiles are not excluded solely by missing parents, so no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13235403",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_693985014": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-693985014",
+          "documentary_group": "rothesay-mary-malcolm-bannatyne-1797",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow born14May1797, baptised21May1797 at Rothesay, residence Miln Rothesay, daughter of Malcolm Glasgow, cotton weaver, and Mary Bannatyne; OPR558/2 item4 page111. Companion R_693985014 has the same baptism/couple, spelling the father Malcom, but supplies no exact birth date. Consolidate this documentary child; do not count two independent witnesses. No current child or adult parental identity is established. Sparse existing Mary profiles are not excluded solely by missing parents, so no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_693985014",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "BMD/NBI/07446456": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-bmd-nbi-07446456",
+          "documentary_group": "berwick-mary-burial-1809",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow buried12January1809, aged40, Holy Trinity, Berwick upon Tweed, Anglican. Indexed birth1769 is age-derived; death year1809 is supplied but no separate death day, parents, husband or maiden surname. Natal Glasgow and an existing person identity remain unproved. Ratho Mary Glasgow-1618, born11October1768, would be40 at this burial, so the indexed one-year difference does not exclude her; parish difference alone is not an identity conflict. No death is assigned to her and no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~107446456",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "PRS/LIVERPOOL/BUR/0380850": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-prs-liverpool-bur-0380850",
+          "documentary_group": "toxteth-mary-joseph-burial-1818",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow, aged72, wife of Joseph Glasgow, resident White Street Liverpool, buried9July1818 at Toxteth St James; Liverpool Record Office283-JAM-4-1, register1813–1826. Indexed birth1746 is age-derived, death year is dash, and no maiden surname is given. Screen Joseph separately as the named Glasgow husband: his birth and adult-profile identity are not established. The reviewed Joseph accounts supply no held White Street/school/occupation bridge; unknown dates or a different recorded locality are not concrete exclusions. Do not attach this wife or burial to a Joseph profile or infer an exact death day. No new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1LIVERPOOL~1BUR~10380850",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "BMD/NBI/01614261": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-bmd-nbi-01614261",
+          "documentary_group": "chesham-mary-burial-1832",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow buried29July1832, age56, St Mary, Chesham, Buckinghamshire, Anglican. Indexed birth1776 is age-derived; the record supplies death year1832 but no separate death day, husband, parents or maiden surname. A compatible sparse current Mary is not identified or concretely excluded. Retain the source without assigning a life event or creating another person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~101614261",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "GBPRS/GLASGOW/BUR/093123": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093123",
+          "documentary_group": "gorbals-mary-burial-1848",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow buried23May1848 at Gorbals, Glasgow, age71, dropsy. Death date is literally ? ? 1848; birth1777 is age-derived, not a recorded birthday. No named parents/husband or natal surname establish which Mary. Preserve the distinction between burial day and death year; do not turn the burial into an exact death day or exclude sparse candidates by estimated year alone. No new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093123",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "US/BMD/PENN-BUR/01393539": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-us-bmd-penn-bur-01393539",
+          "documentary_group": "philadelphia-mary-death-1848",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow, age51, Philadelphia Board of Health Registers of Deaths, explicit Death date22April1848, burial year1848; Historical Society of Pennsylvania, register1847–1849. Indexed birth1797 is age-derived; address is dash and no parents, spouse, birthplace or maiden surname are supplied. No verified link to a current Mary or proof she was born Glasgow; a source-only identity/natal-surname HOLD is retained, not a new-person proposal. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BUR~101393539",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "GBOR/MISCBMDS/DEA/000980466/1": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-gbor-miscbmds-dea-000980466-1",
+          "documentary_group": "rusholme-mary-death-burial-1860",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow, age77, Manchester Rusholme Road Dissenters burial register, explicit Death date18February1860, TNA RG37/97 page125. The title says1821–1933, while Year range literally says1954–1957; retain that internal metadata discrepancy and inspect the original before using the range. Companion GBPRS/D/51223182/1 is a gravestone inscription index with the same age/place/day but labels it Death/Burial, so it is not independent proof of a separately dated burial. Birth1783 is age-derived. No parents, spouse or maiden surname identify her. Current Mary-545 has approximate death1860 but its approximate birth1792 and absent shared locality do not establish identity or a concrete exclusion; no event is assigned and no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBOR~1MISCBMDS~1DEA~1000980466~11",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "GBPRS/D/51223182/1": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-gbprs-d-51223182-1",
+          "documentary_group": "rusholme-mary-death-burial-1860",
+          "catalogue_profiles": {},
+          "assessment": "Mary Glasgow, age77, Manchester Rusholme Road Dissenters burial register, explicit Death date18February1860, TNA RG37/97 page125. The title says1821–1933, while Year range literally says1954–1957; retain that internal metadata discrepancy and inspect the original before using the range. Companion GBPRS/D/51223182/1 is a gravestone inscription index with the same age/place/day but labels it Death/Burial, so it is not independent proof of a separately dated burial. Birth1783 is age-derived. No parents, spouse or maiden surname identify her. Current Mary-545 has approximate death1860 but its approximate birth1792 and absent shared locality do not establish identity or a concrete exclusion; no event is assigned and no new person is proposed. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1D~151223182~11",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "IRE/BMD/D/616663692": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-ire-bmd-d-616663692",
+          "documentary_group": "dublin-north-mary-death-index-1864",
+          "catalogue_profiles": {},
+          "assessment": "Irish civil death index: Mary Glasgow, age70, registration1864 Dublin North, volume2 page506. Birth1794 is age-derived; this is a registration year, not an exact death day or natal-surname proof. No informant, spouse or parents identify her. Sparse Glasgow Mary accounts and married-in possibilities remain open; do not create a person or transfer this death without the civil entry and identity evidence. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1616663692",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "IRE/BMD/D/617063148": {
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-ire-bmd-d-617063148",
+          "documentary_group": "limerick-mary-death-index-1868",
+          "catalogue_profiles": {},
+          "assessment": "Irish civil death index: Mary Glasgow, age80, registration1868 Limerick, volume15 page271. Birth1788 is age-derived, and no exact death day, parents, spouse, informant or maiden surname is supplied. Kirkliston Mary-161 has an age-compatible1788 birth, but no Limerick identity bridge; the age alone is not an assignment or an exclusion. Preserve natal-surname/identity HOLD, with no new person or current vital change. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1617063148",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_686318726": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686318726",
+          "documentary_group": "mid-calder-mary-macleod-1799",
+          "catalogue_profiles": {},
+          "assessment": "Mary Macleod Glasgow baptised17March1799 at Mid Calder, Midlothian, daughter of David Glasgow and Margaret Fergusson; companion R_694114425 gives the same names/day/place. Macleod is literally part of the indexed first-name field, not proof of a maiden or married surname. Birth1799 accompanies baptism without an explicit birth day or infant-age proof. No current child or adult David/Margaret identity is established. Preserve one documentary group, possible sparse existing Mary identities, and no new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686318726",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_694114425": {
+          "status": "identity_hold",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-694114425",
+          "documentary_group": "mid-calder-mary-macleod-1799",
+          "catalogue_profiles": {},
+          "assessment": "Mary Macleod Glasgow baptised17March1799 at Mid Calder, Midlothian, daughter of David Glasgow and Margaret Fergusson; companion R_694114425 gives the same names/day/place. Macleod is literally part of the indexed first-name field, not proof of a maiden or married surname. Birth1799 accompanies baptism without an explicit birth day or infant-age proof. No current child or adult David/Margaret identity is established. Preserve one documentary group, possible sparse existing Mary identities, and no new person. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_694114425",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_686222678": {
+          "status": "matched_existing",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-686222678",
+          "documentary_group": "north-leith-mckenzie-1734",
+          "catalogue_profiles": {
+            "Glasgow-3588": {
+              "role": "Child; matched North Leith baptism; adult parent identities qualified"
+            }
+          },
+          "assessment": "Mckenzie Glasgow, male, baptised17December1734 at North Leith, father William Glasgow and mother Jean Love. Companion R_691921324 repeats this couple/day/parish. The rare indexed name and exact baptism match existing McKenzie Glasgow-3588; the birth field remains before17December1734, not an exact birthday. Jean is retained literally alongside the current Jane Love-11868 attribution; no separate person or maternal confidence is invented. William-3408 remains a possible father at59%: the two companion derivatives are not independent and do not establish that the Leith adult was the Irvine-born Will. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686222678",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_691921324": {
+          "status": "matched_existing",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-691921324",
+          "documentary_group": "north-leith-mckenzie-1734",
+          "catalogue_profiles": {
+            "Glasgow-3588": {
+              "role": "Child; matched companion baptism; adult parent identities qualified"
+            }
+          },
+          "assessment": "Mckenzie Glasgow, male, baptised17December1734 at North Leith, father William Glasgow and mother Jean Love. Companion R_691921324 repeats this couple/day/parish. The rare indexed name and exact baptism match existing McKenzie Glasgow-3588; the birth field remains before17December1734, not an exact birthday. Jean is retained literally alongside the current Jane Love-11868 attribution; no separate person or maternal confidence is invented. William-3408 remains a possible father at59%: the two companion derivatives are not independent and do not establish that the Leith adult was the Irvine-born Will. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691921324",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_692918190": {
+          "status": "candidate_comparison",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-692918190",
+          "documentary_group": "ayr-mckenzie-margaret-davidson-1754",
+          "catalogue_profiles": {
+            "Glasgow-3588": {
+              "role": "Candidate named father comparison only; not the baptised child"
+            }
+          },
+          "assessment": "Mckenzie Glasgow, male, baptised18July1754 at Ayr, father also indexed Mckenzie Glasgow and mother Margaret Davidson. Preserve the unusual repeated given name as indexed; an original is needed to test its reading. The existing McKenzie-3588 was baptised1734 and could chronologically be the named father at about20, but no marriage, occupation or Leith-to-Ayr continuity identifies that adult. This is a qualified secondary-role comparison only: do not assign the1754 baptism or Margaret Davidson maternity to the1734 child, add a child/spouse or create a person from an unverified name reading. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692918190",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
+        },
+        "R_685314069": {
+          "status": "matched_existing",
+          "indexed": true,
+          "canonical_record_id": "fmp-record-r-685314069",
+          "documentary_group": "irvine-michael-crauford-1741",
+          "catalogue_profiles": {
+            "Glasgow-1416": {
+              "role": "Child; matched companion baptism; maternal adult identification not newly assessed"
+            }
+          },
+          "assessment": "Michael Glasgow baptised22November1741 at Irvine, father Michael Glasgow and mother Mary Crauford. The exact child/day/parish and paternal name match Glasgow-1416 and held OPR derivative SCOT/OPR/BAP/3575088. Unlike that held OPR transcript, this companion explicitly indexes Mary Crauford; it supplies no exact birth day. The recorded maternal name supports comparison with attached Crauford-31 but is not a new graded adult-identity assessment. Preserve birth19November1741 from the OPR, father89%, all older sources and unresolved Old Bailey identity. Companion derivatives may share underlying provenance and are not independent corroboration. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.",
+          "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685314069",
+          "new_person_proposed": false,
+          "reviewed_on": "2026-10-30"
         }
       },
       "remaining_detail_rows": [],
-      "pending_identity_review_ids": [
-        "GBPRS/B/612044440/1",
-        "R_690390678",
-        "SCOT/OPR/BAP/3235403",
-        "R_693985014",
-        "BMD/NBI/07446456",
-        "PRS/LIVERPOOL/BUR/0380850",
-        "BMD/NBI/01614261",
-        "GBPRS/GLASGOW/BUR/093123",
-        "US/BMD/PENN-BUR/01393539",
-        "GBOR/MISCBMDS/DEA/000980466/1",
-        "GBPRS/D/51223182/1",
-        "IRE/BMD/D/616663692",
-        "IRE/BMD/D/617063148",
-        "R_686318726",
-        "R_694114425",
-        "R_686222678",
-        "R_691921324",
-        "R_692918190",
-        "R_685314069"
-      ],
+      "pending_identity_review_ids": [],
       "local_screening_20261030": {
         "status": "leads_for_pending_integration; not new-person exclusions",
         "searches": [
@@ -73719,7 +73980,35 @@
             "basis": "Same Irvine baptism day22November1741 and named fatherMichael as the heldOPR; new companion names motherMaryCrauford. Compare provenance and adult maternal identity before updating the account; no automatic father/mother confidence change."
           }
         ]
-      }
+      },
+      "new_people": 0,
+      "relationship_changes": [],
+      "vital_changes": [],
+      "new_transcripts": 19,
+      "matched_existing": 4,
+      "qualified_secondary_comparisons": 1,
+      "source_only_holds": 14,
+      "matching_basis": "Current full pre1800/undated Mary and Joseph catalogue rows inspected by dates/parents/locality; three current matched dossiers and complete proposals checked. Sparse/estimated dates are not exclusions. Birth-surname and named-relative scope retained for later-life entries.",
+      "newly_indexed_provider_ids": 19,
+      "verification_report": "output/findmypast-page29-reconciliation-20261030-verification.json",
+      "identity_resolution_complete": false,
+      "unresolved_record_person_scope_ids": [
+        "GBPRS/B/612044440/1",
+        "SCOT/OPR/BAP/3235403",
+        "R_693985014",
+        "BMD/NBI/07446456",
+        "PRS/LIVERPOOL/BUR/0380850",
+        "BMD/NBI/01614261",
+        "GBPRS/GLASGOW/BUR/093123",
+        "US/BMD/PENN-BUR/01393539",
+        "GBOR/MISCBMDS/DEA/000980466/1",
+        "GBPRS/D/51223182/1",
+        "IRE/BMD/D/616663692",
+        "IRE/BMD/D/617063148",
+        "R_686318726",
+        "R_694114425",
+        "R_692918190"
+      ]
     }
   }
 }

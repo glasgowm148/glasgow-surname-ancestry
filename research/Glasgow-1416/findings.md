@@ -4,6 +4,8 @@ Last updated: 2026-10-30
 
 ## Current conclusion
 
+Reviewed 30 October 2026 (page29): Michael Glasgow baptised22November1741 at Irvine, father Michael Glasgow and mother Mary Crauford. The exact child/day/parish and paternal name match Glasgow-1416 and held OPR derivative SCOT/OPR/BAP/3575088. Unlike that held OPR transcript, this companion explicitly indexes Mary Crauford; it supplies no exact birth day. The recorded maternal name supports comparison with attached Crauford-31 but is not a new graded adult-identity assessment. Preserve birth19November1741 from the OPR, father89%, all older sources and unresolved Old Bailey identity. Companion derivatives may share underlying provenance and are not independent corroboration. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.
+
 Reviewed 30 October 2026: The saved Findmypast derivative explicitly records Michael Glasgow's birth on 19 November 1741 and baptism on 22 November 1741 at Irvine, naming Michael Glasgow as father (OPR 595/1, item 1, page 56). Replace the inherited before-19-November birth bound with the recorded day. Irvine is retained as parish context, not an independently recorded birthplace. The original register remains uninspected. Identification of the named father with Glasgow-1410 remains probable at 89%; the transcript names no mother and does not establish Crauford-31's maternity. The 1789 Old Bailey witness remains an unproved identity comparison.
 
 Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-1410](https://www.wikitree.com/wiki/Glasgow-1410). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
@@ -75,3 +77,11 @@ The saved Findmypast derivative explicitly records Michael Glasgow's birth on 19
 This is an adoption from the already held receipt captured 3 September 2026, not a new transcript or discovery. The former current birth bound is retained in the vital assessment history. The complete proposal retains all cited sources, the full Old Bailey testimony and its unresolved identity, and the existing father amendment. No live WikiTree save has been made in this review.
 
 Source: [SCOT/OPR/BAP/3575088](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575088&tab=this). Next: inspect the original Irvine register; compare Michael and Mary Crauford’s adult records before any further parent-confidence change.
+
+## Findmypast page 29 review — 30 October 2026
+
+Michael Glasgow baptised22November1741 at Irvine, father Michael Glasgow and mother Mary Crauford. The exact child/day/parish and paternal name match Glasgow-1416 and held OPR derivative SCOT/OPR/BAP/3575088. Unlike that held OPR transcript, this companion explicitly indexes Mary Crauford; it supplies no exact birth day. The recorded maternal name supports comparison with attached Crauford-31 but is not a new graded adult-identity assessment. Preserve birth19November1741 from the OPR, father89%, all older sources and unresolved Old Bailey identity. Companion derivatives may share underlying provenance and are not independent corroboration. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.
+
+* [https://www.findmypast.co.uk/transcript?id=R_685314069&tab=this Findmypast R_685314069], inspected derivative transcript; original uninspected.
+
+Next: inspect original entries and test the named adults’ identities. Companion derivatives are not independent corroboration; no parent-confidence, attachment or current vital change is made.

@@ -4399,3 +4399,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 ## 30 October 2026 — held Irvine birth refinement
 
 | [Michael Glasgow](https://www.wikitree.com/wiki/Glasgow-1416) | OPEN | Record birth 19 November 1741, distinct from baptism 22 November, removing the inherited before bound; preserve the pending 89% father review, unassessed mother, full sources and unresolved Old Bailey identity. |
+
+## 30 October 2026 — Findmypast page29 reconciliation
+
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1351) | OPEN | Add page29 companion evidence and scoped comparisons; preserve current vital fields, all sources and existing parent assessments. |
+| [McKenzie Glasgow](https://www.wikitree.com/wiki/Glasgow-3588) | OPEN | Add page29 companion evidence and scoped comparisons; preserve current vital fields, all sources and existing parent assessments. |
+| [Michael Glasgow](https://www.wikitree.com/wiki/Glasgow-1416) | OPEN | Add page29 companion evidence and scoped comparisons; preserve current vital fields, all sources and existing parent assessments. |

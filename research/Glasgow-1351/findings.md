@@ -4,6 +4,8 @@ Last updated: 17 October 2026
 
 ## Current conclusion
 
+Reviewed 30 October 2026 (page29): Mary Glasgow baptised3April1796 at Barony, Glasgow, father John Glasgow and mother Helen Smith. The parish, baptism day and couple match existing Glasgow-1351; the later Mary-1353 account belongs to a different recorded baptism and is not merged. Preserve the current birth bound before3April1796: no birth day is supplied. Father Glasgow-1348 remains95%; mother Smith-230548 is not newly graded. This does not identify the possible later Mary Thomson. The source is a companion derivative, not independent corroboration of the held FamilySearch citation. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.
+
 Current father assessment (22 October 2026): **95% (proved)** for [Glasgow-1348](https://www.wikitree.com/wiki/Glasgow-1348). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The cited records below are assessed separately from the identity of this profile. The proposed biography preserves those qualifications.
@@ -39,3 +41,11 @@ Role in this account: Weak compatible Mary comparison: before April 1796 Barony 
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+## Findmypast page 29 review — 30 October 2026
+
+Mary Glasgow baptised3April1796 at Barony, Glasgow, father John Glasgow and mother Helen Smith. The parish, baptism day and couple match existing Glasgow-1351; the later Mary-1353 account belongs to a different recorded baptism and is not merged. Preserve the current birth bound before3April1796: no birth day is supplied. Father Glasgow-1348 remains95%; mother Smith-230548 is not newly graded. This does not identify the possible later Mary Thomson. The source is a companion derivative, not independent corroboration of the held FamilySearch citation. Inspected saved Findmypast provider derivative; original record uninspected. No new person, relationship attachment, parent-confidence or structured vital change.
+
+* [https://www.findmypast.co.uk/transcript?id=R_690390678&tab=this Findmypast R_690390678], inspected derivative transcript; original uninspected.
+
+Next: inspect original entries and test the named adults’ identities. Companion derivatives are not independent corroboration; no parent-confidence, attachment or current vital change is made.
