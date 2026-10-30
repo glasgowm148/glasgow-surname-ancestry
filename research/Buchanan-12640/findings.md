@@ -1,6 +1,12 @@
 # Findings: [Buchanan-12640](https://www.wikitree.com/wiki/Buchanan-12640)
 
 <!-- nir-2026-10-06-scotland-misc+us-1785-1799 -->
+## Current conclusion
+
+Reviewed: 2026-10-29.
+
+Margaret Buchanan, wife of George Glasgow of Nethermains and daughter of William Buchanan of Drumakill, had died by 27 June 1768, when her testament was confirmed by the Commissariot of Glasgow. The 9 March 1796 death date on the profile matches a different entry, for Margaret, daughter of the deceased William Buchanan of Carbeth, and should be reviewed.
+
 ## Source findings
 
 ### Newspaper identity review — 6 October 2026
