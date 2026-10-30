@@ -1,0 +1,143 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-elijah-isaac-weakley-heirs-1851-20261030",
+  "confidence_improvements": 9,
+  "likely_children": 8,
+  "duplicate_accounts": [
+    "Glasgow-116",
+    "Glasgow-2613"
+  ],
+  "all_prior_research_events_preserved": true,
+  "new_events_match_actual_previous_percentages": true,
+  "first_ratings_counted_as_gains": 0,
+  "new_father_attachments": 0,
+  "metrics_through1850": {
+    "working": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 1415,
+        "after": 1415
+      },
+      "component_count": {
+        "before": 392,
+        "after": 392
+      },
+      "largest_component_size": {
+        "before": 1208,
+        "after": 1208
+      },
+      "connected_pairs_percent": {
+        "before": 44.915275625837566,
+        "after": 44.915275625837566
+      }
+    },
+    "supported": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 1139,
+        "after": 1140
+      },
+      "component_count": {
+        "before": 667,
+        "after": 666
+      },
+      "largest_component_size": {
+        "before": 107,
+        "after": 107
+      },
+      "connected_pairs_percent": {
+        "before": 0.999259465818161,
+        "after": 1.010093548611483
+      }
+    },
+    "confident": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 733,
+        "after": 742
+      },
+      "component_count": {
+        "before": 1071,
+        "after": 1062
+      },
+      "largest_component_size": {
+        "before": 70,
+        "after": 70
+      },
+      "connected_pairs_percent": {
+        "before": 0.36651209631499604,
+        "after": 0.3751301167187749
+      }
+    }
+  },
+  "tree_models": {
+    "assets/research/atlas-model.json": "All nine reviewed father percentages agree; mothers, vital fields, other children and upstream father unchanged",
+    "assets/research/atlas-model-packed.json": "All nine reviewed father percentages agree; mothers, vital fields, other children and upstream father unchanged",
+    "onetree/glasgow-one-tree-polished-3/model.json": "All nine reviewed father percentages agree; mothers, vital fields, other children and upstream father unchanged"
+  },
+  "catalogue_full_compact_filter_and_regrade_metadata_agree": true,
+  "canonical_event_copies": {
+    "weakley-isaac-heirs-deed-1851": 1,
+    "wake-isaac-dosha-marriage-1812": 1,
+    "isaac-glasgow-obituary-1848": 1
+  },
+  "local_http": {
+    "/latest-findings/": 200,
+    "/latest-findings/page/22/": 200,
+    "/people/glasgow-108.html": 200,
+    "/people/glascow-14.html": 200,
+    "/onetree/": 200,
+    "/onetree/progress/": 200
+  },
+  "inherited_draft_whitespace_baseline": {
+    "research/Glasgow-108/weakley-heirs-2026-10-30.wiki": [
+      5
+    ],
+    "research/Glasgow-124/weakley-heirs-2026-10-30.wiki": [
+      25
+    ],
+    "research/Glasgow-123/weakley-heirs-2026-10-30.wiki": [
+      29
+    ],
+    "research/Glasgow-122/weakley-heirs-2026-10-30.wiki": [
+      25
+    ],
+    "research/Glasgow-119/weakley-heirs-2026-10-30.wiki": [
+      25
+    ],
+    "research/Glasgow-60/weakley-heirs-2026-10-30.wiki": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      54
+    ],
+    "research/Glasgow-116/weakley-heirs-2026-10-30.wiki": [
+      25
+    ]
+  },
+  "history_regression_tests_passed": 36,
+  "deployed": false,
+  "live_wikitree_edits": false,
+  "checks": {
+    "history_regression_tests": 36,
+    "native_views_match": 314,
+    "new_publication_failures": 0,
+    "new_internal_link_pairs": 0,
+    "stale_asset_references": 0
+  },
+  "inherited_rendered_whitespace_baseline": {}
+}
