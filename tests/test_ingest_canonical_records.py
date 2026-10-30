@@ -112,6 +112,42 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         source = writes[self.web / 'assets/v3/sources' / (record['document_id'] + '.json')]
         self.assertEqual(source['title'], 'Exact archival citation')
 
+    def test_explicit_title_correction_keeps_identity_and_labels_earlier_reading(self):
+        self.canonical.update(source_title='Corrected archival title',
+                              source_title_supersedes='Maintained title',
+                              source_title_correction_reason='Both originals confirm the corrected name.')
+        self.put('research/canonical_records.json', [self.canonical])
+        self.source['records'] = [dict(id='new-canonical-id', year=1784, date='1784')]
+        self.source['citations'] = [dict(evidence_id='earlier-citation', person='glasgow-32',
+                                       assertion='Earlier contributor reading.',
+                                       source={'title': 'Maintained title'})]
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        self.put('www/sources/' + self.source['id'] + '/index.html', self.shell.replace(
+            '</main>', '<!-- static-source-evidence:start -->Stale evidence<!-- static-source-evidence:end --></main>'))
+        writes = plan(self.root, ['new-canonical-id'])
+        source = writes[self.web / 'assets/v3/sources' / (self.source['id'] + '.json')]
+        self.assertEqual(source['title'], 'Corrected archival title')
+        self.assertEqual([r['id'] for r in source['records']], ['stable-record'])
+        self.assertEqual(source['transcription'], 'Preserved original reading')
+        self.assertTrue(source['citations'][0]['type'].startswith('Earlier source reading, superseded'))
+        page = writes[self.web / 'sources' / self.source['id'] / 'index.html']
+        self.assertIn('Earlier reading, superseded:', page)
+        self.assertIn('Earlier contributor reading.', page)
+        self.assertNotIn('Stale evidence', page)
+        self.assertIn('Earlier source reading, superseded', page)
+        apply(self.root, ['new-canonical-id'], refresh_sources=False)
+        self.assertEqual(apply(self.root, ['new-canonical-id'], refresh_sources=False)['changed_files'], 0)
+
+    def test_title_correction_rejects_unexpected_maintained_title_before_writing(self):
+        self.canonical.update(source_title='Corrected title', source_title_supersedes='Different old title',
+                              source_title_correction_reason='Reviewed correction.')
+        self.put('research/canonical_records.json', [self.canonical])
+        path = self.web / 'assets/v3/sources' / (self.source['id'] + '.json')
+        before = path.read_bytes()
+        with self.assertRaisesRegex(ValueError, 'source-title correction'):
+            apply(self.root, ['new-canonical-id'], refresh_sources=False)
+        self.assertEqual(path.read_bytes(), before)
+
     def test_reviewed_will_category_reaches_full_and_compact_indexes(self):
         self.canonical.update(record_category='Wills and probate',
                               association='James Glasgow, nephew in a will abstract')

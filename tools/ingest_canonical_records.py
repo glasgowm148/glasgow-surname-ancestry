@@ -156,6 +156,9 @@ def source_page(shell, doc, *, existing=False, site_root=None):
     heading = 'h2' if existing and (start not in shell or secondary or re.search(r'<h1\b', outside, re.I)) else 'h1'
     body = f'<header><p class="r-kicker">Source item</p><{heading}>{title}</{heading}></header>'
     body += f'<p><a href="{escape(doc["url"], quote=True)}">Inspect the provider record</a></p>'
+    title_correction = (doc.get('annotations') or {}).get('title_correction')
+    if title_correction:
+        body += '<p><strong>Source-title correction:</strong> ' + escape(title_correction['reason']) + '</p>'
     body += '<p>Reviewed source details and inspection limits are stated with each maintained record; an entry is not treated as an original image reading unless its assessment says so.</p>'
     for row in doc.get('records', []):
         body += '<article><h2>' + escape(' '.join((row.get('association') or row.get('name') or 'Record association').split())) + '</h2>'
@@ -172,7 +175,9 @@ def source_page(shell, doc, *, existing=False, site_root=None):
             target = canonical_by_key.get(person.casefold())
             if target:
                 who = f'<a href="https://www.wikitree.com/wiki/{escape(target, quote=True)}">{who}</a>'
-        body += '<li>' + who + ': ' + escape(row.get('assertion') or '') + '</li>'
+        earlier = (title_correction and (row.get('source') or {}).get('title') == title_correction['previous'])
+        label = '<strong>Earlier reading, superseded:</strong> ' if earlier else ''
+        body += '<li>' + label + who + ': ' + escape(row.get('assertion') or '') + '</li>'
     body += '</ul>'
     body = start + '<section aria-label="Reviewed canonical records">' + body + '</section>' + end
     if start in shell:
@@ -186,6 +191,11 @@ def source_page(shell, doc, *, existing=False, site_root=None):
                     lambda m: m[1] + '"https://glasgow.phenotype.dev/sources/' + doc['id'] + '/"', result)
     result = re.sub(r'data-v3-source="[^"]*"', 'data-v3-source="' + doc['id'] + '"', result)
     result = re.sub(r'data-g-path="[^"]*"', 'data-g-path="/sources/' + doc['id'] + '/"', result, count=1)
+    from tools.publish_static_sources import START as static_start, END as static_end, block as static_block
+    if static_start in result:
+        before, rest = result.split(static_start, 1)
+        _, after = rest.split(static_end, 1)
+        result = before + static_block(doc) + after
     return ensure_reader(result, doc)
 
 
@@ -338,6 +348,25 @@ def plan(root: Path, record_ids: list[str]):
                                   'members': [], 'citations': [], 'records': [], 'events': [],
                                   'transcription': None, 'image': None, 'annotations': {},
                                   'is_collection': False, 'date_basis': 'reviewed undated' if undated else 'reviewed record year'})
+        prior_title = row.get('source_title_supersedes')
+        if prior_title:
+            corrected_title = row.get('source_title')
+            reason = row.get('source_title_correction_reason')
+            if (not isinstance(prior_title, str) or not corrected_title or not reason
+                    or doc['title'] not in {prior_title, corrected_title}):
+                raise ValueError(f'{rid}: source-title correction needs the reviewed previous title and reason')
+            doc['title'] = corrected_title
+            doc.setdefault('annotations', {})['title_correction'] = dict(
+                previous=prior_title, corrected=corrected_title, reason=reason)
+            for citation in doc.get('citations', []):
+                if (citation.get('source') or {}).get('title') == prior_title:
+                    prefix = 'Earlier source reading, superseded — '
+                    if not str(citation.get('type') or '').startswith(prefix):
+                        citation['type'] = prefix + (citation.get('type') or 'Citation')
+        if rid != row['record_id']:
+            # The exact-entry match above retained a published stable ID.
+            # Its earlier canonical ID is an alias, not a second event.
+            doc['records'] = [r for r in doc.get('records', []) if r['id'] != row['record_id']]
         context = row.get('profiles') or {}
         linked = []
         for ident, assessment in context.items():
