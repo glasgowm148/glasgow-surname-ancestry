@@ -2,7 +2,7 @@
 
 ## Current conclusion
 
-Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+Reviewed 30 October 2026: Robert’s proposed father James-3332 remains at 23%. The 1720 maternal reading is corrected to Wilson and Agnes’s new maternal connection is assessed below. No Robert identity merge or American continuation is proved.
 
 **Libberton child review, 17 October 2026:** Robert is the **documented named father in John’s 1722 baptism**. The American continuation attributed to John and Robert’s own ancestry retain their uncertainty.
 
@@ -29,7 +29,7 @@ Follow-up, 24 October 2026: Existing selected Robert Wilson-household father for
 
 James Glasgow-3332 is the selected uncertain working father of Robert Glasgow-3407, who married Katherine Wilson at Carnwath in 1713 and is associated with son John Glasgow-2870 at Libberton in 1722. This is conditional on James representing the weaver at Back of Lindsaylands whose testament was indexed in 1680. The adjacent Biggar, Libberton and Carnwath family setting supplies a specific local comparison. A James born around the inherited 1630/1634 estimates could father Robert in the 1660s or 1670s; a Robert born in the 1670s could marry in 1713 and father John in 1722 at ordinary adult ages. This provisional older-generation route is preferred to making the two overlapping Libberton Roberts sons of the same Johne. No record names Robert as the weaver’s child. Robert’s current circa-1690 birth estimate would be too late for a father dead by 1680; an earlier birth is required if this hypothesis is right. That estimate is unsupported, but the required revision remains a limitation, not evidence for the proposed father.
 
-The Carnwath marriage citation gives Robert and Katherine Wilson in 1713; the captured 1722 Libberton baptism citation names Robert and Katharin Wilson as John’s parents. Those index citations define the proposed Wilson household but supply no paternal ancestry or age for Robert. The neighbouring Robert Glasgow-4168 account combines Katherin Gibson in 1718 and Katherine Watson in 1720 and 1726. The Wilson event in 1722 falls between the Watson events. Consequently, a simple sequence of remarriages does not reconcile all maternal surnames. Transcription differences, record misassignment, overlapping families, or one man across some entries remain possible. No woman is equated with another, and no new marriage or mother is assigned. The two Robert accounts are retained separately; shared parish and forename do not prove identity.
+The Carnwath marriage citation gives Robert and Katherine Wilson in 1713; the captured 1722 Libberton baptism citation names Robert and Katharin Wilson as John’s parents. Those index citations define the proposed Wilson household but supply no paternal ancestry or age for Robert. The neighbouring Robert Glasgow-4168 account combines Katherin Gibson in 1718 and Katherine Wilson in the corrected 1720 reading, and Katherine Watson in 1726. The 1720 and 1722 entries now agree on Wilson: the older Watson–Wilson–Watson argument is superseded. The 1718 Gibson and 1726 Watson entries still require their own identity comparison. Transcription differences, record misassignment, overlapping families, or one man across some entries remain possible. The 30 October reconciliation selects Wilson-127539 as Agnes’s mother at 95% from her named baptism and the matching 1722 parental couple. Wilson is not equated with Gibson or Watson, and the two Robert accounts are retained separately. These child records do not identify Robert’s father.
 
 The 1680 index describes James as a weaver in the Back of Lindsaylands, parish of Biggar, with indexed testament date 10 November 1680, Lanark Commissary Court CC14/5/10, TD. That is a registration date, not an exact death date. The original has not been read and supplies no reviewed Robert clause. The 1690 Edinburgh apprenticeship names a deceased father James Glasgow, weaver in Lindsayland; the matching trade and locality make him a probable instance of the indexed weaver, but identification with Glasgow-3332 remains only possible. The apprentice generation is another possible intermediary for the later family, not an additional person invented to complete a pedigree. James Glasgow-3332’s existing parentage, the separate 1648 Johne child identity, and the competing 1624 Quothquan-weaver identity retain their previous grades. The new father selection cannot itself prove any of those identities or be used circularly to reject the 1624 alternative. This particular parent model depends on the later weaver identity; the 1624 decedent would be an implausibly early direct father of this 1713–1722 household.
 
@@ -43,7 +43,7 @@ Johne Glasgow-3093 remains an unselected alternative father for the Carnwath Rob
 - [Supplied ScotlandsPeople wills index, 10 November 1680, CC14/5/10 TD: manuscript transcription still pending](/research/transcriptions/james-lindsaylands-1680/)
 - [Edinburgh apprentice entry 7 May 1690: deceased father James Glasgow, Lindsayland weaver; previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005159%2F1&tab=this)
 - [Robert/Katherin Gibson, Libberton Janet, 22 April 1718: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033250&tab=this)
-- [Robert/Katherine Watson, Libberton Agnes, 21 August 1720: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
+- [Robert/Katherine Wilson, Libberton Agnes, 21 August 1720: previously reviewed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this)
 - [Johne Glasgow, Mid Calder 1648, named father Jamis: previous index review](https://www.familysearch.org/ark:/61903/1:1:X1BL-JXR)
 
 ## Libberton record-parent review — 17 October 2026
@@ -67,3 +67,7 @@ Existing selected Robert Wilson-household father for Scottish child; do not equa
 
 Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE19-20261024 -->
+
+## Wilson correction applied — 30 October 2026
+
+The corrected 1720 Wilson reading now agrees with John’s 1722 parental couple. [Agnes’s mother is selected as Katherine Wilson-127539 at 95%](/people/glasgow-4133.html#research-findings). This connects the maternal household without merging Robert-4168 and Robert-3407, changing Robert’s 23% father hypothesis or proving John’s American identity.

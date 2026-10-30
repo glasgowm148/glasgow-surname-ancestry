@@ -44596,6 +44596,68 @@
           "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
         }
       }
+    },
+    {
+      "subject_id": "Glasgow-4133",
+      "relative_id": "Wilson-127539",
+      "relationship": "mother",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-agnes-wilson-mother-20261030",
+      "basis": "Agnes’s 21 August 1720 Libberton transcript explicitly names Katherine Wilson and Robert Glasgow at Gladhaimb. John’s separate 23 September 1722 Libberton baptism names the same full parental couple, Katherin Wilson and Robert Glasgow, at Sandyburgh. Wilson-127539 is the established account of that 1722 mother and the compatible 1713 Carnwath bride of Robert Glasgow. The full parental-name match, same parish and two-year child sequence support identifying Agnes’s mother with this existing woman at95% subjective confidence. This extends the specific Wilson family from held evidence rather than treating the 1720 Wilson name as an isolated unidentified woman. Her maternity is explicit in the1720 source, not inferred merely from a spouse link. The duplicate1720 indexes are one event; the1722 baptism is separate. Live WikiTree readback30October still has Agnes’s Mother=0, so this is a genuine new mother recommendation.",
+      "reviewed": "2026-10-30",
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4033335",
+        "libberton-john-robert-wilson-1722",
+        "carnwath-robert-wilson-marriage-1713"
+      ],
+      "scope": "Record-based household identification from inspected provider transcripts and a retained marriage index; no original register image newly read. A same-name couple remains possible. Gladhaimb and Sandyburgh are different recorded residences in the same parish, not a proved continuous address. No exact birth, later American identity or mother’s ancestry is inferred. Agnes’s current father Glasgow-4168 and his94% record-role assessment remain unchanged; the overlapping Robert-3407 account and Gibson/Watson identities are not merged or renamed. This is a new maternal connection, not a father-confidence gain.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4133.html#research-findings",
+          "label": "Wilson household reconciliation"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4133": "Agnes Glasgow",
+        "Wilson-127539": "Katherine Wilson"
+      }
+    },
+    {
+      "subject_id": "Wilson-127539",
+      "relative_id": "Glasgow-4133",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-agnes-wilson-mother-20261030",
+      "basis": "Agnes’s 21 August 1720 Libberton transcript explicitly names Katherine Wilson and Robert Glasgow at Gladhaimb. John’s separate 23 September 1722 Libberton baptism names the same full parental couple, Katherin Wilson and Robert Glasgow, at Sandyburgh. Wilson-127539 is the established account of that 1722 mother and the compatible 1713 Carnwath bride of Robert Glasgow. The full parental-name match, same parish and two-year child sequence support identifying Agnes’s mother with this existing woman at95% subjective confidence. This extends the specific Wilson family from held evidence rather than treating the 1720 Wilson name as an isolated unidentified woman. Her maternity is explicit in the1720 source, not inferred merely from a spouse link. The duplicate1720 indexes are one event; the1722 baptism is separate. Live WikiTree readback30October still has Agnes’s Mother=0, so this is a genuine new mother recommendation.",
+      "reviewed": "2026-10-30",
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4033335",
+        "libberton-john-robert-wilson-1722",
+        "carnwath-robert-wilson-marriage-1713"
+      ],
+      "scope": "Record-based household identification from inspected provider transcripts and a retained marriage index; no original register image newly read. A same-name couple remains possible. Gladhaimb and Sandyburgh are different recorded residences in the same parish, not a proved continuous address. No exact birth, later American identity or mother’s ancestry is inferred. Agnes’s current father Glasgow-4168 and his94% record-role assessment remain unchanged; the overlapping Robert-3407 account and Gibson/Watson identities are not merged or renamed. This is a new maternal connection, not a father-confidence gain.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4133.html#research-findings",
+          "label": "Wilson household reconciliation"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4133": "Agnes Glasgow",
+        "Wilson-127539": "Katherine Wilson"
+      }
     }
   ]
 }

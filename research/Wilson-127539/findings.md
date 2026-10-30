@@ -2,7 +2,9 @@
 
 ## Current conclusion
 
-**Libberton child review, 17 October 2026:** Katherin Wilson is **expressly named as John’s mother in the 1722 baptism**. This is documented record maternity; the child’s later American identity is unproved, and no parents or additional children of Katherine are inferred.
+Reviewed 30 October 2026: **Agnes Glasgow-4133 is selected as Katherine’s daughter at 95% confidence**, extending the Wilson family through the matching 1720 and 1722 parental couple. [Full evidence and limits below](#research-findings). John’s later American identity and Katherine’s own ancestry remain unresolved.
+
+**Libberton child review, 17 October 2026:** Katherin Wilson is **expressly named as John’s mother in the 1722 baptism**. This is documented record maternity; the child’s later American identity is unproved, and Katherine’s own parents remain unproved. Agnes’s additional maternal connection is assessed separately in the 30 October reconciliation below.
 
 Follow-up, 24 October 2026: Existing Katherine Wilson mother of Scottish child; Katharin indexed spelling variant, no new mother/ancestry.. The companion index repeats the known Libberton baptism on 23 September 1722, naming Robert Glasgow and Katharin Wilson, with male sex and broad Libberton residence. It matches the Scottish record-defined child account under Glasgow-2870 and the held SCOT/OPR/BAP/4033399 event; its broad locality does not supersede the held Sandyburgh detail. Glasgow-3407 and Wilson-127539 are the retained Scottish parent-profile roles. Neither index establishes an exact birth or bridges the Scottish child to the later Nottingham/Pennsylvania adult. The inherited exact birth field is retained pending its separate basis review.
 
@@ -27,3 +29,11 @@ Existing Katherine Wilson mother of Scottish child; Katharin indexed spelling va
 
 Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE19-20261024 -->
+
+## Wilson household reconciliation — 30 October 2026
+
+Agnes’s baptism on 21 August 1720 names Katherine Wilson and Robert Glasgow in Libberton, residence Gladhaimb (OPR 650/1, item 3, p.11). John’s separate baptism on 23 September 1722 names the same full parental couple in Libberton, residence Sandyburgh (p.17). The existing Katherine Wilson-127539 account represents that 1722 mother and the compatible 1713 Carnwath bride. Read together, the full parental-name match, same parish and two-year child sequence support identifying Agnes’s mother with this existing woman at **95% subjective confidence · Confident**. The 1720 maternal name was already corrected on 22 October; the new finding is the supported profile connection, not another baptism discovery.
+
+The different farm residences are compatible with one family but do not prove a continuous address; a same-name couple remains possible. The three 1720 index versions represent one event. No original register was newly inspected. Agnes’s current father Glasgow-4168 and his 94% record-role assessment are retained; the Robert-3407 comparison remains an unresolved profile-identity question. Wilson is not renamed or merged with Watson-53558 or Katherin Gibson. No birth field, other marriage, older ancestry or Scottish-to-American identity is changed.
+
+[Agnes’s 1720 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this) · [John’s separate 1722 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033399&tab=this) · [Katherine Wilson’s account](/people/wilson-127539.html) · [Agnes’s account](/people/glasgow-4133.html). A public WikiTree readback on 30 October still showed Agnes’s mother field as 0; adding Wilson-127539 is therefore an outstanding recommendation. No live save is claimed. This is a new maternal connection, not a father-confidence gain.

@@ -1,0 +1,38 @@
+{
+  "profile_id": "Glasgow-3407",
+  "questions": [
+    {
+      "id": "paternal-identity",
+      "question": "Does the1680 Lindsaylands testament or another kin record identify Robert’s father and distinguish the older weaver from a younger intermediary?",
+      "status": "open"
+    }
+  ],
+  "findings": [],
+  "web_searches": [
+    {
+      "date": "2026-10-30",
+      "query": "Held Carnwath/Libberton family accounts, supplied OPR birth index through1700, Lindsaylands1680 case and bounded local QMD search Lindsaylands1680",
+      "result": "The maintained1680 case records an archival index entry and no linked original reading. The 1713 marriage and1722 baptism name no paternal ancestry for Robert. Known Robert baptisms, including the1655 Edinburgh weaver’s son and1665 StCuthbert’s child, supply comparisons without a recorded bridge to the Wilson adult. The1720 mother correction does support a separate new Wilson maternal connection, not Robert’s own father. Scotland’s People was signed out; specific-original access remains pending.",
+      "status": "partial",
+      "scope": "Held-record comparison and observed sign-in state only; not an exhaustive variant, full-register or source-file absence search."
+    }
+  ],
+  "research_state": {
+    "father_id": "Glasgow-3332",
+    "disposition": "awaiting_source",
+    "reviewed": "2026-10-30",
+    "last_test": "Held source and local index comparison completed without a new father identifier. The1680 testament case is index-derived with no linked manuscript reading; Scotland’s People access is signed out. Agnes’s new95% mother connection is independent of this paternal claim.",
+    "next_test": "Inspect James Glasgow’s testament dated10November1680, Lanark CC14/5/10, for spouse, children, residence and executor kin. Compare with the1690 deceased-Lindsaylands-weaver apprenticeship and the1713 Carnwath Robert/Wilson household; test an older Robert or younger intermediary without altering an unsourced birth estimate to force the link.",
+    "resume_when": "Signed-in access to the specific1680 original or another new kin/residence/occupation identifier. Repeated indexes or the same maternal-name correction do not reopen this father hypothesis.",
+    "review_conclusion": "Retain Robert3407 → James3332 at23% uncertain. No paternal reassessment, father replacement or new source discovery; the mother connection for Agnes is recorded separately.",
+    "source_locators": [
+      "research/Glasgow-3407/findings.md",
+      "research/Glasgow-3332/findings.md",
+      "research/transcriptions/walkthroughs/james-lindsaylands-1680.json",
+      "surname-research/indexes/scotlandspeople-opr-births-to-1700.json"
+    ]
+  },
+  "last_test": "Held source and local index comparison completed without a new father identifier. The1680 testament case is index-derived with no linked manuscript reading; Scotland’s People access is signed out. Agnes’s new95% mother connection is independent of this paternal claim.",
+  "next_test": "Inspect James Glasgow’s testament dated10November1680, Lanark CC14/5/10, for spouse, children, residence and executor kin. Compare with the1690 deceased-Lindsaylands-weaver apprenticeship and the1713 Carnwath Robert/Wilson household; test an older Robert or younger intermediary without altering an unsourced birth estimate to force the link.",
+  "resume_when": "Signed-in access to the specific1680 original or another new kin/residence/occupation identifier. Repeated indexes or the same maternal-name correction do not reopen this father hypothesis."
+}

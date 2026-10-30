@@ -6306,9 +6306,9 @@
     },
     "Glasgow-4133": {
       "draft_path": "research/Glasgow-4133/father-confidence-2026-10-22f.wiki",
-      "summary": "Correct the 1720 maternal reading to Katherine/Katharin Wilson; retain Watson-53558 identity unresolved and live mother blank; remove unsupported earlier-marriage insertions. Review existing father at 94% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Correct the 1720 maternal reading to Katherine/Katharin Wilson; retain Watson-53558 identity unresolved and live mother blank; remove unsupported earlier-marriage insertions. Review existing father at 94% (proved), retaining source and identity limits; no new father attachment.",
-      "queued_at": "2026-10-22",
+      "summary": "Add Katherine Wilson-127539 as Agnes’s mother at95% confidence from the matching1720 and1722 Libberton parental couple. Retain father Glasgow-4168 and his94% assessment; no Robert identity merge, Watson rename, new birthday or American identity claim. Preserve the corrected1720 Wilson surname and earlier marriage-comparison limits.",
+      "work_queue_summary": "Add Katherine Wilson-127539 as Agnes’s mother at95% confidence from the matching1720 and1722 Libberton parental couple. Retain father Glasgow-4168 and his94% assessment; no Robert identity merge, Watson rename, new birthday or American identity claim. Preserve the corrected1720 Wilson surname and earlier marriage-comparison limits.",
+      "queued_at": "2026-10-30",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-4133/findings.md",
@@ -6322,7 +6322,7 @@
       "private_comparison": false,
       "prior_work_summary": "Superseded 1666–1681 marriage insertions retained as conditional exclusions in the reviewed history; reopen if the 1720 indexbirth reading is overturned by an adult-baptism record.",
       "profile_id": "Glasgow-4133",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-30",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -6335,6 +6335,18 @@
           "assertion_id": "C-coverage-20261022f-glasgow-4133-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Existing child-to-father link assessed from held public evidence; The merged account covers Gibson, Wilson and Watson entries; one common man, maternal identities and overlap with Robert-3407 remain unresolved."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Wilson-127539",
+          "status": "strongly_supported",
+          "probability_percent": 95,
+          "assertion_id": "clm-agnes-wilson-mother-20261030",
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "previous_status_provenance": "Public WikiTree getRelatives readback30October2026: Glasgow-4133 Mother=0, Father=Glasgow-4168; live-family-check.json in the private batch receipt.",
+          "scope": "Named1720 mother identified with the existing1722 Wilson-household woman; provider transcripts, originals uninspected. Father and all vital fields retained."
         }
       ],
       "preserve_captured_detail": false,
@@ -6342,7 +6354,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json",
+      "significance": 96
     },
     "Glasgow-4137": {
       "draft_path": "research/Glasgow-4137/queue-review-2026-10-17.wiki",
@@ -41564,7 +41577,7 @@
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "significance": 85,
-      "summary": "Review the conditional James Glasgow-3332 father for the Carnwath Robert, the required earlier birth, the overlapping Robert households and retained Johne alternative; preserve all existing records, mothers and uncertainty. Add the named Scottish baptism parents, with the American identity explicitly unproved. The local documented record roles do not authorize an unqualified live certainty change. Add24October derivative-record review with explicit event roles and identity limits.",
+      "summary": "Correct the superseded1720 Watson comparison to Wilson; retain Robert’s23% father hypothesis and unmerged identities. Review the conditional James Glasgow-3332 father for the Carnwath Robert, the required earlier birth, the overlapping Robert households and retained Johne alternative; preserve all existing records, mothers and uncertainty. Add the named Scottish baptism parents, with the American identity explicitly unproved. The local documented record roles do not authorize an unqualified live certainty change. Add24October derivative-record review with explicit event roles and identity limits.",
       "manual_update": true,
       "draft_path": "research/Glasgow-3407/Glasgow-3407.md",
       "preservation_review_path": "research/ancestry-connections/libberton-record-parents-confidence-preservation-2026-10-17.json",
@@ -41579,21 +41592,21 @@
           "assertion_id": "C-working-20261016-carnwath-lindsaylands-working-family-robert-father"
         }
       ],
-      "work_queue_summary": " Add24October derivative-record review with explicit event roles and identity limits.",
-      "biography_rechecked_at": "2026-10-24"
+      "work_queue_summary": "Correct the superseded1720 Watson comparison to Wilson; retain Robert’s23% father hypothesis and unmerged identities.  Add24October derivative-record review with explicit event roles and identity limits.",
+      "biography_rechecked_at": "2026-10-30"
     },
     "Wilson-127539": {
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "significance": 82,
-      "summary": " Add the named Scottish baptism parents, with the American identity explicitly unproved. The local documented record roles do not authorize an unqualified live certainty change. Add24October derivative-record review with explicit event roles and identity limits.",
+      "summary": "Add Agnes Glasgow-4133 as a95% confident daughter from the1720/1722 Wilson household comparison.  Add the named Scottish baptism parents, with the American identity explicitly unproved. The local documented record roles do not authorize an unqualified live certainty change. Add24October derivative-record review with explicit event roles and identity limits.",
       "manual_update": true,
       "draft_path": "research/Wilson-127539/Wilson-127539.md",
       "preservation_review_path": "research/ancestry-connections/libberton-record-parents-confidence-preservation-2026-10-17.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
-      "work_queue_summary": " Add24October derivative-record review with explicit event roles and identity limits.",
-      "biography_rechecked_at": "2026-10-24"
+      "work_queue_summary": "Add Agnes Glasgow-4133 as a95% confident daughter from the1720/1722 Wilson household comparison.  Add24October derivative-record review with explicit event roles and identity limits.",
+      "biography_rechecked_at": "2026-10-30"
     },
     "Glasgow-3021": {
       "draft_path": "research/Glasgow-3021/father-review-2026-10-24.wiki",

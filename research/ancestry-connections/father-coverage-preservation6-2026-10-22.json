@@ -741,15 +741,16 @@
     },
     "Glasgow-4133": {
       "current_sha256": "46e358f497da7eb557dd408fa8b6faca2d86fcad75edba8242ad38ab9354aaff",
-      "proposed_sha256": "5d24ad7b52571e8e4ca616a97407d5b944a14c95c35b7a2f91bca21471e780c1",
-      "previous_proposed_sha256": "737a68ecb7e22d5b00248f21798e6dd37e9c189a27c35c2f2d1125a9af836bf6",
+      "proposed_sha256": "1a4087ffb8ab3c631ce8d462e49713472f7cbb5cbdda26d854d8456b5f54740b",
+      "previous_proposed_sha256": "5d24ad7b52571e8e4ca616a97407d5b944a14c95c35b7a2f91bca21471e780c1",
       "previous_proposed_backup_path": "/Users/m/genealogy/wikitree-api-scrape/tmp/father-coverage6-20261022/previous-proposals/Glasgow-4133.wiki",
       "all_substantive_passages_accounted_for": true,
       "draft_path": "research/Glasgow-4133/father-confidence-2026-10-22f.wiki",
       "private_comparison": false,
-      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label.",
+      "retained": "Effective previous proposal retained completely; additive note only. Missing captured source passages retained with an explicit earlier-account label. Rechecked30October2026: previous sources, father and vital limits retained. Added the95% Agnes/Wilson mother recommendation from the1720/1722 named-parent comparison; corrected the superseded1720 Watson label without merging identities.",
       "restored_source_passage_count": 0,
-      "reference_repairs": []
+      "reference_repairs": [],
+      "reviewed_on": "2026-10-30"
     },
     "Glasgow-1341": {
       "current_sha256": "0516314c77820adc6cec888b06b06aefa62d3b76373cc9e4394c95445705f70d",

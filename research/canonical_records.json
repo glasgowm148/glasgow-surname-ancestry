@@ -7604,33 +7604,6 @@
     "publish_to_record_index": true
   },
   {
-    "record_id": "fmp-record-scot-opr-bap-4033335",
-    "provider_record_id": "SCOT/OPR/BAP/4033335",
-    "association": "Agnes Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
-    "person": "Agnes Glasgow",
-    "date": "21 Aug 1720",
-    "year": 1720,
-    "place": "Libberton, Lanarkshire, Scotland",
-    "country": "Scotland",
-    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this",
-    "status": "Inspected provider transcript; original uninspected",
-    "note": "The same Libberton baptism on 21 August 1720 names Robert Glasgow and Katharin/Katherine Wilson. The OPR transcript adds Gladhaimb and OPR 650/1 item 3 p.11. Watson in the current biography is not the recorded maternal surname; Watson-53558 remains an unresolved modern identity, and the live child has no attached mother. The R indexes report birth year 1720, but the OPR transcript supplies no birth date or age; retain birth before baptism rather than an invented exact birthday. Source level: provider transcript only; companion indexes of the same event are not independent corroboration.",
-    "role": "Documentary source; subject and relative identification qualified",
-    "profiles": {
-      "Glasgow-4133": {
-        "role": "Baptism subject; exact date, father and parish match",
-        "timeline_group": "Records mentioning this person"
-      },
-      "Glasgow-4168": {
-        "role": "Recorded father; existing parent identification",
-        "timeline_group": "Records mentioning this person"
-      }
-    },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
-    "reviewed_on": "2026-10-22",
-    "publish_to_record_index": true
-  },
-  {
     "record_id": "fmp-record-r-685315087",
     "provider_record_id": "R_685315087",
     "association": "Agnes Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
@@ -47264,5 +47237,36 @@
     "publish_to_record_index": true,
     "documentary_group": "philadelphia-mary-death-1848",
     "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4033335",
+    "provider_record_id": "SCOT/OPR/BAP/4033335",
+    "association": "Agnes Glasgow — Scotland, Parish Births & Baptisms 1564-1929",
+    "person": "Agnes Glasgow",
+    "date": "21 Aug 1720",
+    "year": 1720,
+    "place": "Libberton, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this",
+    "status": "Inspected provider transcript; original uninspected",
+    "note": "The same Libberton baptism on 21 August 1720 names Robert Glasgow and Katharin/Katherine Wilson. The OPR transcript adds Gladhaimb and OPR 650/1 item 3 p.11. Watson in the current biography is not the recorded maternal surname; Watson-53558 remains an unresolved modern identity, and the live child has no attached mother. The R indexes report birth year 1720, but the OPR transcript supplies no birth date or age; retain birth before baptism rather than an invented exact birthday. Source level: provider transcript only; companion indexes of the same event are not independent corroboration. Reconciled 30 October 2026: select Wilson-127539 as Agnes’s mother at 95%, from this explicitly named Wilson mother and the separate 1722 matching parental couple. Robert-4168 remains Agnes’s current father; Robert-3407 and the Gibson/Watson identities are not merged. This is a new maternal profile connection, not a newly found record or father-confidence change.",
+    "role": "Documentary source; subject and relative identification qualified",
+    "profiles": {
+      "Glasgow-4133": {
+        "role": "Baptism subject; exact date, father and parish match",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Glasgow-4168": {
+        "role": "Recorded father; existing parent identification",
+        "timeline_group": "Records mentioning this person"
+      },
+      "Wilson-127539": {
+        "role": "Selected identification of the named Wilson mother;95% from the1720/1722 household comparison",
+        "timeline_group": "Children’s records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+    "reviewed_on": "2026-10-22",
+    "publish_to_record_index": true
   }
 ]

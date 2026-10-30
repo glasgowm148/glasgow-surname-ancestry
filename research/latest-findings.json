@@ -61502,6 +61502,58 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
+    },
+    {
+      "id": "agnes-libberton-wilson-mother-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Agnes Glasgow, baptised at Libberton in 1720, is identified as a daughter of the existing Katherine Wilson-127539 at 95% confidence. Her baptism and John Glasgow’s 1722 baptism name the same full parental couple in the same parish, extending the Wilson household.",
+      "qualification": "The recorded Wilson surname was already corrected 22 October; the new finding is the mother-profile connection. Provider transcripts, original registers uninspected. Different farm residences are compatible, not a proved continuous address. Agnes’s existing father is retained and the two Robert accounts are not merged. No father-confidence gain or American migration proof is claimed.",
+      "detail_url": "/people/glasgow-4133.html",
+      "people": [
+        {
+          "id": "Glasgow-4133",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-4133.html",
+          "role": "New mother recommendation,95%"
+        },
+        {
+          "id": "Wilson-127539",
+          "name": "Katherine Wilson",
+          "url": "/people/wilson-127539.html",
+          "role": "Selected mother,95% household identification"
+        },
+        {
+          "id": "Glasgow-2870",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2870.html",
+          "role": "Separate1722 Scottish baptism supporting the shared Wilson household; American identity unproved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Agnes1720: Libberton OPR650/1 item3 p.11, Robert Glasgow/Katherine Wilson",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033335&tab=this"
+        },
+        {
+          "title": "John1722: Libberton OPR650/1 item3 p.17, Robert Glasgow/Katherin Wilson",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4033399&tab=this"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-4133",
+          "relative": "Wilson-127539",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 95,
+          "explanation": "The matching1720 and1722 named-parent household identifies the existing Wilson mother account; no mother was attached to Agnes in the checked live profile.",
+          "previous_status_provenance": "Public WikiTree getRelatives readback30October2026, Glasgow-4133 Mother=0; receipt tmp/robert-3407-review-20261030/live-family-check.json. Previous source names were known but this mother profile was not selected."
+        }
+      ]
     }
   ]
 }
