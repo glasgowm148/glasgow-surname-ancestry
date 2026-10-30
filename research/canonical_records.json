@@ -9749,13 +9749,13 @@
   {
     "record_id": "held-e-c5c94ac56bc0",
     "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "“1851 Irish Census Returns,” Cloughgaldenagh house 1, Dunaghy, County Antrim, detailed public transcription, PDF (); see also National Archives of Ireland household page () and FamilySearch QV9Y-WFJ7",
-    "source_title": "“1851 Irish Census Returns,” Cloughgaldenagh house 1, Dunaghy, County Antrim, detailed public transcription, PDF (); see also National Archives of Ireland household page () and FamilySearch QV9Y-WFJ7",
-    "source_url": "https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf",
-    "source_type": "Previously held citation or explicit inherited tree claim; individual scope states its evidential use",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+    "date": "30 March 1851",
+    "place": "Cloughgaldenagh, Dunaghy, County Antrim",
+    "association": "William Glasgow and Ellin household, surviving 1851 census, family 1",
+    "source_title": "Ireland census 1851, William Glasgow household, DGS 007246617, images 542–543",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L94X-YNNH",
+    "source_type": "Original census schedule, with previously held derivative transcription",
+    "source_status": "Original resident table and following absent/deceased table read 30 October 2026",
     "status": "Relationship and profile-identity scope stated in the individual assessment",
     "profiles": {
       "Glasgow-1387": {
@@ -9786,8 +9786,20 @@
         "role": "Previously cited subject; relationship scope in the father assessment"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review3-2026-10-22.json"
+    "note": "See the individual father assessment for named record roles versus inferred profile identities. Original resident table confirms William and Ellin, both 40 and weavers, reported marriage year 1831, and eight named children. County Antrim is recorded as birthplace; the appended Dunaghy appears crossed through and is not promoted to a certain birthplace. Following image https://www.familysearch.org/ark:/61903/3:1:3QS7-994X-YNG2 explicitly records None for household members absent on 30 March 1851 and None for those who died while residing with the family since 6 June 1841. Neither table names William’s father. The existing public transcription is the same event, not independent corroboration. Father Glasgow-1367 remains possible, 36%.",
+    "provenance": "research/ancestry-connections/father-coverage-review3-2026-10-22.json Original FamilySearch DGS 007246617, images 542–543, household 58430, family 1, visually read 30 October 2026; private original copies and SHA256 receipts retained. Prior Durrus public transcription retained as a derivative source: https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf",
+    "review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "previous_source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+        "previous_note": "See the individual father assessment for named record roles versus inferred profile identities.",
+        "reason": "Same known 1851 event now checked against resident and absent/deceased original tables."
+      }
+    ],
+    "record_category": "Census",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "year": 1851
   },
   {
     "record_id": "held-e-1f5632628c71",
@@ -50918,5 +50930,32 @@
     "reviewed_on": "2026-10-30",
     "provenance": "Existing Peter-1466 trial citation checked against the held Peter-2878 memorial transcription; fresh trial-index read on 30 October 2026.",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "newberry-archald-census-1810",
+    "association": "Archd Glasgow household, Newberry census 1810",
+    "year": 1810,
+    "date": "6 August 1810 (census reference date)",
+    "place": "Newberry, South Carolina",
+    "source_title": "United States census 1810, Newberry, page 119A; NARA M252, roll 61",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYBM-SHB",
+    "source_type": "Original census schedule",
+    "record_category": "Census",
+    "source_status": "Original image read 30 October 2026; index previously known",
+    "status": "Named head; unnamed household categories; no paternity established",
+    "note": "The original 1810 Newberry schedule, page 119 A, names Archd Glasgow. In the five ordered age columns (under 10, 10–15, 16–25, 26–44, 45 and over), males read 2, blank, blank, 1, blank; females read 1, 1, 1, 1, blank. The other-free column is blank and the enslaved-person tally is 6. Only the head is named. No male aged 10–25 is tallied, so the unnamed 1800 boy cannot be tracked through this household in 1810. An adult son could have left home; this is neither proof nor disproof that Tennessee Robert was Archibald’s son. Robert’s father hypothesis remains possible, 51%; no mother or identity is assigned to an unnamed slot.",
+    "profiles": {
+      "Glasgow-2304": {
+        "role": "Named household head Archd Glasgow",
+        "timeline_group": "Census"
+      },
+      "Glasgow-2769": {
+        "role": "Research comparison only; not named or identified in this household",
+        "timeline_group": "Possible family records"
+      }
+    },
+    "provenance": "Original FamilySearch-linked schedule downloaded using its enabled Download control and visually checked on 30 October 2026. Private untouched source copy and SHA256 receipt retained. The same linked image was independently read twice. FamilySearch index XH2Y-4QW supplies the head and page locator; ordered age headings checked against the National Archives 1810 census form. Earlier Internet Archive frame guesses were rejected and are not evidence for this row.",
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-10-30"
   }
 ]

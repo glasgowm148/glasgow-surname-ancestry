@@ -1,8 +1,10 @@
 # Findings: [John Glasgow (Glasgow-1095)](https://www.wikitree.com/wiki/Glasgow-1095)
 
-Last updated: 2026-10-17
+Last updated: 2026-10-30
 
 ## Current conclusion
+
+Reviewed 30 October 2026: the selected Stirling father remains **uncertain, 22%**. A bounded OCR screen of the published Stirling protocol abstracts in *The Scottish Antiquary*, volumes 10 and 11, supplied no new personal Glasgow occurrence joining the Stirling predecessor to Saltmarket John. This does not establish absence from the manuscript. The next discriminating source is the full instrument **Blackhouse BL204 / GUA16403, 28 April 1506**, including its alias, title, kin and witness wording; the catalogue abstract alone does not resolve the identity.
 
 **Chronology review, 17 October 2026:** the selected Stirling father remains **uncertain, 22%**. The combined 1447–1480 civic identity and the possible 1506 alias-Smith identity are separate dependencies; actual births remain unknown. Saltmarket John → William remains **probable, 88%**, and William → John Glasgow-1093 remains **confident, 99%**. These downstream assessments do not strengthen the Stirling father link. See the qualified chronology below.
 
@@ -158,3 +160,12 @@ Andrew Brady beside the Glasgow witness in 1455, Gilbert Brady's property bounda
 The 22% father assessment is unchanged; the separate 88% Saltmarket-to-William and 99% William-to-John assessments remain scoped to their property-defined and recorded relationships. This is a clarification of existing evidence, not a new source discovery, certainty upgrade or family connection.
 
 Source scope: the existing Glasgow acts of 21 June 1447 and April 1455 in [Robertson, *Liber Collegii Nostre Domine*](https://archive.org/details/libercollegiino00annegoog); the [Stirling charter abstracts](https://archive.org/details/chartersotherdoc00stir) of 11 April 1475 and 2 March 1479/80; and the official [NRS B66/25/43](https://catalogue.nrscotland.gov.uk/nrsonlinecatalogue/details.aspx?reference=B66%2F25%2F43) description of 8 August 1475. The Saltmarket title and 1534 settlement citations remain above or in the [Saltmarket account](../Glasgow-1095/findings.md). Alan’s proceeding and its calendar/regnal-year limitation remain in the [Alan account](../Glasgow-3023/findings.md). No new original inspection is claimed.
+
+
+## Published Stirling abstract screen — 30 October 2026
+
+The downloaded OCR texts of [*The Scottish Antiquary*, volume 10](https://archive.org/details/scottishantiquar10unse) and [volume 11](https://archive.org/details/scottishantiquar11unse) were screened for Glasgow/Glesgw/Glasgw/Glasgu surname forms, and the Stirling protocol abstract headings and relevant name contexts were checked in text. Volume 10 contains the serial abstracts beginning at printed page 55; volume 11 continues from volume 10 page 171 with April 1482 entries. No new personal Glasgow passage connecting the Stirling witness, the 1506 alias-Smith purchaser or the later Saltmarket owner was located in this bounded text review. Glasgow place, church and office references are not surname identifications. OCR can omit or distort names, and abstracts can omit manuscript witnesses and other wording: this is neither a complete manuscript search nor a negative finding about the surviving records. No new source discovery or original inspection is claimed.
+
+The earlier Brady review already established Richard as John Brady’s son and Gilbert as John’s grandson and heir, while leaving the intervening parent unnamed. Those named Brady relationships do not join any Glasgow man to that family; the civic surname network remains context, not independent pedigree proof. The father assessment remains **22% uncertain**; no downstream relationship, mother, identity or vital field is changed.
+
+**Next actual test:** obtain and read the complete **28 April 1506 Blackhouse instrument BL204, old reference GUA16403**, identified in the [University of Glasgow catalogue](https://www.gla.ac.uk/media/Media_223124_smxx.pdf). Transcribe the full John de Glasgow alias Smith clause, the acquirers’ capacities, any kin terms, the title and adjoining-property descriptions, and the witnesses and endorsements. Compare those particulars with the already maintained Stirling and Saltmarket instruments. A distinguishing kin or shared-title clause could alter the working family; another generic surname or place match would not. Do not repeat the broad published-text search without new readable material.

@@ -1,10 +1,12 @@
 # Findings: William Glasgow (Glasgow-1387), Cloughgaldenagh
 
-Last updated: 2026-08-11
+Last updated: 2026-10-30
 
 ## Current conclusion
 
 Current father assessment (22 October 2026): **36% (possible)** for [Glasgow-1367](https://www.wikitree.com/wiki/Glasgow-1367). Possible 36%; local family hypothesis, without a named-son or holding-succession bridge. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+
+Original census review, 30 October 2026: the resident schedule and its continuation have now been visually inspected by the project researcher. They confirm this William/Ellin household, report marriage in 1831 and enter “None” in the absent and deceased-member tables. They supply no father or collateral-family bridge, so the **36% assessment is unchanged**. County Antrim is the supported birthplace reading; crossed-out Dunaghy wording does not establish a more precise birthplace. This supersedes the earlier outstanding-original task and the transcription-derived description of 1831 as necessarily a first marriage.
 
 William `Glasgow-1387` is the William Glasgow, aged 40, recorded at
 Cloughgaldenagh house 1 in the surviving 1851 Dunaghy census. His wife was
@@ -32,8 +34,18 @@ in the 1825 Dunaghy tithe cluster.
 | Adam Glasgow | `Glasgow-1395` | 4 | Son |
 
 Source: [detailed public transcription of the surviving 1851 census](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf),
-Cloughgaldenagh household 1. It also records the couple's first marriage year
-as 1831 and all household members as born in County Antrim.
+Cloughgaldenagh household 1. It gives the couple's marriage year as 1831 and
+all household members as born in County Antrim. The earlier account called this
+their first marriage; the inspected original's marriage heading does not justify
+that restriction.
+
+## Original resident and continuation schedules — 30 October 2026
+
+The [resident schedule](https://www.familysearch.org/ark:/61903/3:1:3QS7-L94X-YNNH), DGS007246617, image 542, records house 1 at Cloughgaldenagh/Galdernaugh for the census of **30 March 1851**. William, 40, head and weaver, and Ellin, 40, wife and weaver, are followed by the eight children tabulated above. William's literacy is recorded as able to read and write. The original supports the established household identities; it does not record William's parents.
+
+The [following schedule page](https://www.familysearch.org/ark:/61903/3:1:3QS7-994X-YNG2), image 543, enters **“None”** in the tables for absent and deceased household members. No additional named relative is supplied there. This is a return about those tables, not proof that William had no other relatives or that every earlier child survived. The original reports **1831** in the marriage column; it does not expressly establish that this was either spouse's first marriage. County Antrim is the supported birthplace reading. The crossed-out Dunaghy wording is retained as a rejected/uncertain finer locality, not promoted to a certain birthplace.
+
+Both original pages were visually inspected in the parent source review on 30 October 2026. The [FamilySearch record index QV9Y-WFJ7](https://www.familysearch.org/ark:/61903/1:1:QV9Y-WFJ7), [older National Archives household route](http://www.census.nationalarchives.ie/pages/1851/Antrim/Killcondray/Dunaghy/Galdernaugh/1/) and detailed transcription remain source locators and derivative comparisons, not independent household witnesses. The original inspection closes the specific access task but adds no parentage discriminator, new finding of confidence, vital amendment or family attachment. The next useful test remains an identifying marriage, child-family witness or holding-succession record connecting this William to the Glenleslie household; the original census need not be reread merely to repeat the same absence of a father.
 
 The later [Griffith's Valuation index for Dunaghy](https://www.billmacafee.com/1860griffiths/northmidantrimgriffiths.pdf)
 does not list William at Cloughgaldenagh. That is a bounded negative and does
@@ -49,7 +61,7 @@ proximity alone.
 <!-- queue-identity-review-2026-10-17:start -->
 ## Documentary identity review — 17 October 2026
 
-**Record subject: William Alexander Glasgow, Emma’s father.** HOLD: plain-name profiles survive. Prefer [Glasgow-1387](https://www.wikitree.com/wiki/Glasgow-1387) as a weak compatible father candidate: actual biography documents an Antrim weaver, first marriage in 1831, eight children in the 1851 household, and a 14 September 1874 Belfast death-index entry. A later daughter marrying at Belfast in 1875 fits; absence of Alexander or Emma is not exclusion. Retain 1737 (born c.1824; married Mary Ann Henry in 1846), 1675 (born c.1799; died Ohio in 1855), and 3952 (born c.1820; Irish 1867 marriage citation) as lower comparisons without a demonstrated contradiction to the notice. None is a proved William Alexander. Do not create a father while these remain. The preferred 1387 hypothesis cannot be combined with [Emma-2771](https://www.wikitree.com/wiki/Emma-2771)’s c.1815 birth: he would have been about five. The newspaper bride could instead be a later, otherwise unidentified Emma; retain those as competing whole-family hypotheses, without reparenting either profile.
+**Record subject: William Alexander Glasgow, Emma’s father.** HOLD: plain-name profiles survive. Prefer [Glasgow-1387](https://www.wikitree.com/wiki/Glasgow-1387) as a weak compatible father candidate: actual biography documents an Antrim weaver, reported marriage in 1831, eight children in the 1851 household, and a 14 September 1874 Belfast death-index entry. The earlier description of that marriage as his first is superseded by the original review above. A later daughter marrying at Belfast in 1875 fits; absence of Alexander or Emma is not exclusion. Retain 1737 (born c.1824; married Mary Ann Henry in 1846), 1675 (born c.1799; died Ohio in 1855), and 3952 (born c.1820; Irish 1867 marriage citation) as lower comparisons without a demonstrated contradiction to the notice. None is a proved William Alexander. Do not create a father while these remain. The preferred 1387 hypothesis cannot be combined with [Emma-2771](https://www.wikitree.com/wiki/Emma-2771)’s c.1815 birth: he would have been about five. The newspaper bride could instead be a later, otherwise unidentified Emma; retain those as competing whole-family hypotheses, without reparenting either profile.
 
 Sources: [Belfast Evening Telegraph, 4 September 1875, p.2](https://www.newspapers.com/image/1265675182/).
 

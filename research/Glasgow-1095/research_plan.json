@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-1095",
+  "objective": "Test the selected uncertain Stirling-to-Saltmarket father and the dependent 1506 alias-Smith identity without conflating the documentary men.",
+  "questions": [
+    {
+      "id": "stirling-saltmarket-identity",
+      "question": "Does the full 1506 instrument identify the alias-Smith purchaser with Saltmarket John or connect him to the Stirling predecessor?",
+      "status": "open",
+      "answer": ""
+    }
+  ],
+  "findings": [],
+  "targets": [
+    {
+      "id": "GUA BL204 / GUA16403, 28 April 1506",
+      "kind": "archive",
+      "status": "open",
+      "reason": "Full kin, title, alias and witness wording could distinguish the proposed family from namesake or collateral alternatives.",
+      "note": "Catalogue abstract held; original/full instrument not inspected. Read capacities, boundaries and endorsements as well as kin terms.",
+      "url": "https://www.gla.ac.uk/media/Media_223124_smxx.pdf"
+    }
+  ],
+  "web_searches": [],
+  "research_state": {
+    "father_id": "record-john-glasgw-stirling-1475",
+    "disposition": "awaiting_source",
+    "reviewed_on": "2026-10-30",
+    "last_test": "Bounded published Stirling protocol-abstract OCR screen, Scottish Antiquary volumes 10/11; no new personal Glasgow bridge located. Earlier Brady kinship review retained, not new genealogy.",
+    "next_test": "Read full BL204/GUA16403 (28 April 1506): alias, capacities, kin/title, property, witnesses and endorsements.",
+    "blocker": "Catalogue abstract does not supply the discriminating full instrument; OCR and abstracts cannot establish manuscript absence.",
+    "confidence_percent": 22,
+    "reopen_when": "The full 1506 instrument or another newly readable identifying family/title clause becomes available."
+  }
+}

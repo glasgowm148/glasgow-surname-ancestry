@@ -24771,14 +24771,15 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert.",
-    "reason": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert.",
-    "claim": "Glasgow-2304 remains the selected father of Glasgow-2769, individually assessed 51%.",
-    "record_scope": "Possible51%; the census does not name the boy and the adult female’s age makes an early 1790 maternity tight. No mother is assigned.",
-    "limitations": "Possible51%; the census does not name the boy and the adult female’s age makes an early 1790 maternity tight. No mother is assigned.",
+    "assessment_date": "2026-10-30",
+    "basis": "Archibald’s 1800 Newberry household has an otherwise unallocated male under ten, matching Robert’s census-derived circa 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert. The original 1810 schedule has no male aged 10–25 tallied, so it cannot track the 1800 boy; departure of an adult son remains possible.",
+    "reason": "Archibald’s 1800 Newberry household has an otherwise unallocated male under ten, matching Robert’s census-derived circa 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert. The original 1810 schedule has no male aged 10–25 tallied, so it cannot track the 1800 boy; departure of an adult son remains possible.",
+    "claim": "Archibald’s 1800 Newberry household has an otherwise unallocated male under ten, matching Robert’s census-derived circa 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert. The original 1810 schedule has no male aged 10–25 tallied, so it cannot track the 1800 boy; departure of an adult son remains possible.",
+    "record_scope": "Possible, 51%. The 1800 boy is unnamed and the adult female’s age makes an early-1790s maternity tight. The 1810 household does not identify the boy and no named heir record has been read. No mother is assigned.",
+    "limitations": "Possible, 51%. The 1800 boy is unnamed and the adult female’s age makes an early-1790s maternity tight. The 1810 household does not identify the boy and no named heir record has been read. No mother is assigned.",
     "source_ids": [
-      "held-newberry-archibald-household-1800"
+      "held-newberry-archibald-household-1800",
+      "newberry-archald-census-1810"
     ],
     "assessment_history": [
       {
@@ -24788,16 +24789,28 @@
         "probability_percent": null,
         "claim_id": "C-4ec703368c2c",
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 51,
+        "assessment_date": "2026-10-30",
+        "source_basis": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert. The original1810schedule has no male10–25 tally, so it does not track the1800boy; departure of an adult son remains possible."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 51,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert."
       }
     ],
     "perspectives": {
       "Glasgow-2769": {
         "relationship": "father",
-        "reason": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert."
+        "reason": "Archibald’s 1800 Newberry household has an otherwise unallocated male under ten, matching Robert’s census-derived circa 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert. The original 1810 schedule has no male aged 10–25 tallied, so it cannot track the 1800 boy; departure of an adult son remains possible."
       },
       "Glasgow-2304": {
         "relationship": "son",
-        "reason": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert."
+        "reason": "Archibald’s 1800 Newberry household has an otherwise unallocated male under ten, matching Robert’s census-derived circa 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert. The original 1810 schedule has no male aged 10–25 tallied, so it cannot track the 1800 boy; departure of an adult son remains possible."
       }
     },
     "analysis_links": [
@@ -24820,12 +24833,13 @@
     },
     "probability": {
       "value": 0.51,
-      "basis": "Archibald’s 1800 Newberry household has an otherwise unallocated male under10, matching Robert’s census-derived c 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert.",
-      "reviewed": "2026-10-22",
+      "reviewed": "2026-10-30",
+      "basis": "Archibald’s 1800 Newberry household has an otherwise unallocated male under ten, matching Robert’s census-derived circa 1790–1794 birth and South Carolina origin. The known gravestone children do not account for that boy. This is the strongest specific existing family comparison after the former Robert-1983 father was excluded by his different son Robert. The original 1810 schedule has no male aged 10–25 tallied, so it cannot track the 1800 boy; departure of an adult son remains possible.",
       "source_ids": [
-        "held-newberry-archibald-household-1800"
+        "held-newberry-archibald-household-1800",
+        "newberry-archald-census-1810"
       ],
-      "scope": "Possible51%; the census does not name the boy and the adult female’s age makes an early 1790 maternity tight. No mother is assigned."
+      "scope": "Possible, 51%. The 1800 boy is unnamed and the adult female’s age makes an early-1790s maternity tight. The 1810 household does not identify the boy and no named heir record has been read. No mother is assigned."
     }
   },
   {

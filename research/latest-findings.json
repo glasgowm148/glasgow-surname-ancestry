@@ -63191,6 +63191,40 @@
           "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
         }
       ]
+    },
+    {
+      "id": "newberry-archald-1810-household-reading-20261030",
+      "found_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Archibald Glasgow’s already known 1810 Newberry census has now been read in the original: two males under 10, one male 26–44, four females across the under 10 through 26–44 bands, and six enslaved people. There is no male 10–25 tally to track the proposed son Robert.",
+      "qualification": "Only the head is named; no household slot identifies a child or mother. Adult departure is possible. The Robert→Archibald father hypothesis remains possible 51%, unchanged. This is newly read household detail, not a newly discovered census, new relationship or confidence gain.",
+      "people": [
+        {
+          "id": "Glasgow-2304",
+          "name": "Archibald Glasgow",
+          "role": "Named head",
+          "url": "/people/glasgow-2304.html"
+        },
+        {
+          "id": "Glasgow-2769",
+          "name": "Robert Glasgow",
+          "role": "Research comparison; not named in the schedule",
+          "url": "/people/glasgow-2769.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "United States census 1810, Newberry, page 119 A, NARA M 252 roll 61; original image",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYBM-SHB"
+        }
+      ],
+      "detail_url": "/people/glasgow-2769.html",
+      "provenance": [
+        "research/canonical_records.json",
+        "research/Glasgow-2769/findings.md",
+        "research/Glasgow-2304/findings.md"
+      ]
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-2769",
+  "objective": "Test the selected uncertain father Archibald Glasgow with evidence that discriminates paternity.",
+  "questions": [
+    {
+      "id": "father",
+      "question": "Was Robert a son of Archibald Glasgow?",
+      "status": "open",
+      "answer": "Possible 51%; the 1810 original does not track the unnamed 1800 boy. Seek named estate heirs."
+    }
+  ],
+  "research_state": {
+    "father_id": "Glasgow-2304",
+    "disposition": "awaiting_source",
+    "reviewed_on": "2026-10-30",
+    "confidence_percent": 51,
+    "last_test": "Original 1810 census page119A read: no male10–25 tally. Adult departure remains possible; no father gain.",
+    "next_test": "Read Archibald’s 1818 estate647, box27, package57, especially named adult distributions and receipts.",
+    "reopen_when": "The actual estate or another named relationship/holding succession becomes available."
+  }
+}

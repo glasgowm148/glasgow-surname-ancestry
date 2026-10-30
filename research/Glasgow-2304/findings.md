@@ -80,8 +80,7 @@ evidence of paternal descent.
 
 Priority: inspect the adult distributions, receipts and releases in estate 647.
 Guardianship 646 is a separate proceeding and must not be assumed to list
-Archibald's children. The original 1810 census image should
-also be read for a male aged 10–15 or 16–25. Archibald's estate packet is the best
+Archibald's children. The original 1810 census image has now been read: neither male age category 10–15 nor 16–25 has a tally. Archibald's estate packet is the best
 chance of naming Robert directly or excluding him from a complete heir group.
 
 
@@ -120,3 +119,11 @@ Scope: Existing supported father99%; source transcriptions are held, originals n
 Next useful test: Use the estate and cemetery family to test Archibald’s proposed later son Robert.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+## Original 1810 household reviewed — 30 October 2026
+
+The original 1810 Newberry schedule, page 119 A, names Archd Glasgow. In the five ordered age columns (under 10, 10–15, 16–25, 26–44, 45 and over), males read 2, blank, blank, 1, blank; females read 1, 1, 1, 1, blank. The other-free column is blank and the enslaved-person tally is 6. Only the head is named. No male aged 10–25 is tallied, so the unnamed 1800 boy cannot be tracked through this household in 1810. An adult son could have left home; this is neither proof nor disproof that Tennessee Robert was Archibald’s son. Robert’s father hypothesis remains possible, 51%; no mother or identity is assigned to an unnamed slot.
+
+Source: [original schedule](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYBM-SHB), Newberry, page 119 A, NARA M 252 roll 61; [FamilySearch index](https://www.familysearch.org/ark:/61903/1:1:XH2Y-4QW). The row lies between Robert Montgomery and Eliza Turner. Household categories do not identify individual children or the adult woman.
+
+The next discriminating source is Archibald’s 1818 estate 647, box 27, package 57, especially distributions and receipts identifying adult or absent heirs. Its contents have not been read or requested in this batch. The census test is complete and should not remain an unread-image task.

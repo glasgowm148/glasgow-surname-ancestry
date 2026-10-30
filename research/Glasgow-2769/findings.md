@@ -62,7 +62,7 @@ See [the family reconstruction](/people/glasgow-951.html#larne-reconstruction).
 | [Delaware marriage index, 19 January 1814](https://www.familysearch.org/ark:/61903/1:1:QPQN-BH57), [Delaware militia records](https://archivesfiles.delaware.gov/ebooks/Military_Records_Vol_5.pdf) and [linked Delaware son's FamilySearch dossier](https://ancestors.familysearch.org/en/L7KB-QB9/robert-glasgow-1825-1911) | Robert Glasgow married Nancy Black; a Robert Glasgow appears in the Delaware militia, and the reconstructed couple had a Delaware-born son about 1825. | Different family. The target Robert served in Tennessee and remained in the Giles County census in 1820. The FamilySearch family links are derivative but expose a separate continuing Delaware identity. |
 | [Gilders Creek Cemetery transcription and linked stone photograph](https://genealogytrails.com/scar/newberry/gilders_creek_cem.htm) | Glasgow-3982 is called the son of Glasgow-1983 and Elizabeth. | Directly contradicts the former father attachment for Glasgow-2769. |
 | [1800 Newberry census transcription](https://genealogytrails.com/scar/newberry/1800nbycensusG.htm) | Archibald Glasgow had one male under 10 in his household, as well as four girls under 10 and one woman aged 16–25. | The male slot is compatible with Robert, but the schedule names no child and the adult woman's age creates a maternity caution. |
-| [1810 United States census index](https://www.ancestry.com/search/collections/7613/records/585568) | `Archald Glasgow` remained in Newberry; Ancestry record 585568, image 4433429_00206. | The original household columns could test whether a male of Robert's age remained with Archibald, but have not been inspected. |
+| [1810 United States census index](https://www.ancestry.com/search/collections/7613/records/585568) | `Archald Glasgow` remained in Newberry; Ancestry record 585568, image 4433429_00206. | Original columns now read; no male aged 10–25 is tallied. See the 30 October review below; paternity remains unresolved. |
 | [Newberry probate index](https://genealogytrails.com/scar/newberry/estates1785-1949/22.htm) | Mary Glasgow administered Archibald's 1818 estate, estate 647, box 27, package 57. | Best unresolved source for a complete heir group or receipts naming an absent adult son. |
 
 ## Wife and child assessment
@@ -151,3 +151,11 @@ Scope: Possible51%; the census does not name the boy and the adult female’s ag
 Next useful test: Read the 1810 household and estate papers for the unnamed 1800 boy.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+## Original 1810 household reviewed — 30 October 2026
+
+The original 1810 Newberry schedule, page 119 A, names Archd Glasgow. In the five ordered age columns (under 10, 10–15, 16–25, 26–44, 45 and over), males read 2, blank, blank, 1, blank; females read 1, 1, 1, 1, blank. The other-free column is blank and the enslaved-person tally is 6. Only the head is named. No male aged 10–25 is tallied, so the unnamed 1800 boy cannot be tracked through this household in 1810. An adult son could have left home; this is neither proof nor disproof that Tennessee Robert was Archibald’s son. Robert’s father hypothesis remains possible, 51%; no mother or identity is assigned to an unnamed slot.
+
+Source: [original schedule](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYBM-SHB), Newberry, page 119 A, NARA M 252 roll 61; [FamilySearch index](https://www.familysearch.org/ark:/61903/1:1:XH2Y-4QW). The row lies between Robert Montgomery and Eliza Turner. Household categories do not identify individual children or the adult woman.
+
+The next discriminating source is Archibald’s 1818 estate 647, box 27, package 57, especially distributions and receipts identifying adult or absent heirs. Its contents have not been read or requested in this batch. The census test is complete and should not remain an unread-image task.
