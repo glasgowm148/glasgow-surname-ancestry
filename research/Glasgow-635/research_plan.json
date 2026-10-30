@@ -60,8 +60,8 @@
   ],
   "research_state": {
     "disposition": "awaiting_source",
-    "reviewed": "2026-10-27",
-    "last_test": "Visually inspected the published Munimenta index, printed pp.55–56 (PDF167–168), under Glasgow and its listed variants. The Patricius entry refers to a bishop/archbishop of Glasgow, not an identified student surname. No minister or parent was identified in these two pages; individual register entries were not examined.",
+    "reviewed": "2026-10-30",
+    "last_test": "30October2026CCEd access retest remainsHTTP503. No original clergy record or new natal evidence inspected. Completed Gazette/university tests retained.",
     "next_test": "Locate an identifiable ordination, education or parish record for the All Hallows rector that names origin, a parent or a relative. Query the actual CCEd person/event search when accessible; the public form returned HTTP503 in this access test. Related synod records may be needed for the reported gap in presbytery minutes.",
     "resume_when": "An original or full source reading provides an education, origin, named relative or other identifier distinguishing the Maryland minister from the 1700 West Kilbride child.",
     "review_conclusion": "The university index check supplies no new parent evidence and does not exclude attendance or any retained childhood candidate. John Glasgow-3161 remains at 26% uncertain and James-634 at 95%; the reported death date remains 15 March 1753.",
@@ -82,10 +82,16 @@
       {
         "reviewed": "2026-10-27",
         "test": "Visually read the original Gazette notice on MSA M1279 frame 264 and the issue no. 411 masthead on frame 262: Thursday, 22 March 1753. The notice’s “Thursday last” yields a reported death on 15 March 1753. No age, origin, parent or kin is stated."
+      },
+      {
+        "reviewed": "2026-10-30",
+        "test": "Actual CCEd search endpoint and homepage independently retested:HTTP503; alternative db host DNS fails. Exact web queries were not a clergy-database search; no person/event record inspected. Father26%retained.",
+        "source": "https://theclergydatabase.org.uk/jsp/search/index.jsp"
       }
-    ]
+    ],
+    "father_id": "Glasgow-3161"
   },
-  "last_test": "Visually inspected the published Munimenta index, printed pp.55–56 (PDF167–168), under Glasgow and its listed variants. The Patricius entry refers to a bishop/archbishop of Glasgow, not an identified student surname. No minister or parent was identified in these two pages; individual register entries were not examined.",
+  "last_test": "30October2026CCEd access retest remainsHTTP503. No original clergy record or new natal evidence inspected. Completed Gazette/university tests retained.",
   "next_test": "Locate an identifiable ordination, education or parish record for the All Hallows rector that names origin, a parent or a relative. Query the actual CCEd person/event search when accessible; the public form returned HTTP503 in this access test. Related synod records may be needed for the reported gap in presbytery minutes.",
   "resume_when": "An original or full source reading provides an education, origin, named relative or other identifier distinguishing the Maryland minister from the 1700 West Kilbride child."
 }

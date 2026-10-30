@@ -62813,6 +62813,75 @@
           "probability_percent": 95
         }
       ]
+    },
+    {
+      "id": "alexander-brash-civil-parents-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Three civil-register index entries identify Alexander Glasgow’s parents as Robert Glasgow and Margaret Brash. Existing father confidence improves97%→99%; the existing named mother receives her first99% assessment. The1867entry dates his marriage to Janet Smith to23April.",
+      "qualification": "Provider indexes inspected while signed in30October2026; original civil images not inspected. The1875image access dialog requires a FamilySearch centre or affiliate library. The1861/1867pages offer image-availability checks, not original readings. FamilySearch tree attachments to Robert1760–1839 are contributor comparisons, not documentary identification. No age, trade or parents of Robert are supplied by these displayed fields. His own James1120/MarionSadler hypothesis stays62%; overlapping Robert1530’s father stays84%. The1803marriage index has no age, occupation or widowhood; the1760baptism names parents but supplies no adult bridge. Neither resolves Robert’s earlier identity. No merge or new parent attachment follows.",
+      "detail_url": "/people/glasgow-2822.html",
+      "people": [
+        {
+          "id": "Glasgow-2822",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2822.html",
+          "role": "Son, groom and deceased"
+        },
+        {
+          "id": "Glasgow-1538",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1538.html",
+          "role": "Existing father,97%→99%; own father remains62%"
+        },
+        {
+          "id": "Brash-171",
+          "name": "Margaret Brash",
+          "url": "/people/brash-171.html",
+          "role": "Existing named mother; first individual99%assessment"
+        },
+        {
+          "id": "Smith-231676",
+          "name": "Janet Smith",
+          "url": "/people/smith-231676.html",
+          "role": "1867bride and existing1871wife"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FamilySearch civil index, 1861-04-30, 6TLR-J1JQ",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:6TLR-J1JQ"
+        },
+        {
+          "title": "FamilySearch civil index, 1867-04-23, 6TPS-Q18Q",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:6TPS-Q18Q"
+        },
+        {
+          "title": "FamilySearch civil index, 1875-10-04, XSF1-N2WT",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XSF1-N2WT"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Alexander Glasgow (Glasgow-2822)",
+          "relative": "Robert Glasgow (Glasgow-1538)",
+          "subject_id": "Glasgow-2822",
+          "relative_id": "Glasgow-1538",
+          "before": "certain",
+          "after": "certain",
+          "previous_probability_percent": 97,
+          "probability_percent": 99,
+          "explanation": "Three inspected FamilySearch civil-register index entries name Robert Glasgow and Margaret Brash as parents of the same Alexander: the30April1861marriage of the48-year-old widowed flesher to Elizabeth Bicket, the23April1867marriage of the54-year-old widowed master flesher to Janet Smith, and the4October1875death of the62-year-old married flesher at Rothesay. Their ages converge on1813; trade and successive spouses agree with the maintained census and marriage account. This explicitly repeated full parental couple resolves the earlier Borsh/Brash reading at index level and strongly identifies the existing Robert1538/Margaret Brash171 parental household. Father confidence rises97%→99%; the already named mother receives her first exact99% assessment. These are three events, not independent evidence from each parent/child row of one event.",
+          "previous_status_provenance": [
+            "research/Glasgow-2822/findings.md: father97%review22October2026",
+            "Native assertion C-coverage-20261022c-glasgow-2822-father, assessment revision2,97%."
+          ],
+          "scope": "Provider indexes inspected while signed in30October2026; original civil images not inspected. The1875image access dialog requires a FamilySearch centre or affiliate library. The1861/1867pages offer image-availability checks, not original readings. FamilySearch tree attachments to Robert1760–1839 are contributor comparisons, not documentary identification. No age, trade or parents of Robert are supplied by these displayed fields. His own James1120/MarionSadler hypothesis stays62%; overlapping Robert1530’s father stays84%. The1803marriage index has no age, occupation or widowhood; the1760baptism names parents but supplies no adult bridge. Neither resolves Robert’s earlier identity. No merge or new parent attachment follows."
+        }
+      ]
     }
   ]
 }

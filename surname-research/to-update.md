@@ -4468,3 +4468,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-4124) | OPEN | New confident father Glasgow-2682 and mother Duffe-18, each95%; explicit1733indexed parent roles and inferred surgeon identity. Complete draft includes Surf/Swift limitation. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2682) | OPEN | Add confident naval-surgeon son Glasgow-4124 at95%; own father61%/identity70%unchanged. |
 | [Isobell/Elizabeth Duffe](https://www.wikitree.com/wiki/Duffe-18) | OPEN | Add confident naval-surgeon son Glasgow-4124 at95%; apprentice maternal hypothesis72%unchanged. |
+
+## 30 October 2026 — Alexander’s civil family
+
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-2822) | OPEN | Existing father97%→99%, existing mother first99%;1861/1867/1875civil-index citations,23April1867Janet marriage and exact indexed4October1875death. |
+| [Margaret Brash](https://www.wikitree.com/wiki/Brash-171) | OPEN | Replace unsourced account with complete sourced family and1803marriage; estimated birth retained. |
+| [Janet Smith](https://www.wikitree.com/wiki/Smith-231676) | OPEN | Add indexed23April1867marriage; retain full1871census and unresolved Jane Jordan comparison. |

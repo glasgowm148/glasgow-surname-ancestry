@@ -2351,6 +2351,58 @@
           "basis": "Former boundary or partial reading superseded by explicit labelled OPR birth; former source and companion event conflicts retained."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "alexander-2822-indexed-death-20261030",
+      "subject": "Glasgow-2822",
+      "status": "approved",
+      "reviewed": "2026-10-30",
+      "basis": "The1875death index explicitly gives4October1875. Name, age62, flesher trade and Robert/Margaret Brash parents fit the1861/1867marriages and censuses; original centre-restricted image uninspected.",
+      "source": {
+        "url": "https://www.familysearch.org/ark:/61903/1:1:XSF1-N2WT",
+        "section": "Displayed historical civil-death index"
+      },
+      "summary": "Use the explicitly indexed death date4October1875; preserve the existing Rothesay place as registration context.",
+      "vitals": {
+        "death": {
+          "date": "1875-10-04",
+          "display_date": "4 October 1875",
+          "status": "exact",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:XSF1-N2WT",
+          "source_level": "Inspected provider index; original not inspected",
+          "note": "Explicit indexed death date, not an estimated year from age. Rothesay is the displayed event/registration place; no exact death address is established.",
+          "qualifier": "Exact indexed date; original image requires a FamilySearch centre/affiliate.",
+          "place": "Rothesay, Buteshire, Scotland, United Kingdom",
+          "country": "Scotland"
+        }
+      },
+      "supersedes": [
+        "Approximate death-date display c.1875-10-04; no birth or place change."
+      ],
+      "scope": "vitals",
+      "project_tree_vitals": true,
+      "catalogue_projection": {
+        "death": "1875-10-04",
+        "death_year": 1875,
+        "field_statuses": {
+          "death": "certain"
+        }
+      },
+      "source_ids": [
+        "rothesay-alexander-robert-brash-death-1875"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "c. 1875-10-04",
+            "place": "Rothesay, Buteshire, Scotland, United Kingdom",
+            "status": "estimated"
+          },
+          "basis": "Explicit indexed death date replaces approximation; existing place retained as registration context."
+        }
+      ]
     }
   ]
 }

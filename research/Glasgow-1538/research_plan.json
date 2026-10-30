@@ -178,5 +178,23 @@
       "result_summary": "No relevant independently indexed page surfaced. FamilySearch source pages for two children are queued for authenticated capture.",
       "status": "complete"
     }
-  ]
+  ],
+  "research_state": {
+    "disposition": "awaiting_source",
+    "father_id": "Glasgow-1120",
+    "reviewed": "2026-10-30",
+    "last_test": "Signed-in FamilySearch readback:1760baptism,1803marriage and1861/1867/1875civil indexes. The latter three explicitly confirm Alexander’s Robert/Margaret Brash parents but none gives Robert’s own age, trade or parents.1760and1803images unavailable;1875image requires centre/affiliate. Own father remains62%.",
+    "next_test": "Inspect original Barony1803marriage622/70/252 or Glasgow1839burial644/1/670/67 for residence, trade or widowhood; compare1789Jack marriage and1802burial. Do not repeat the completed civil-index search as a test of Robert’s own father.",
+    "resume_when": "An original or full transcription supplies Robert’s age, trade, residence, widowhood or parents, distinguishing the retained1760/1758/1755/1784birth candidates.",
+    "source_locators": [
+      "https://www.familysearch.org/ark:/61903/1:1:6TLR-J1JQ",
+      "https://www.familysearch.org/ark:/61903/1:1:6TPS-Q18Q",
+      "https://www.familysearch.org/ark:/61903/1:1:XSF1-N2WT",
+      "https://www.familysearch.org/ark:/61903/1:1:XTTP-F82",
+      "https://www.familysearch.org/ark:/61903/1:1:XTFT-KJ9"
+    ]
+  },
+  "last_test": "Signed-in FamilySearch readback:1760baptism,1803marriage and1861/1867/1875civil indexes. The latter three explicitly confirm Alexander’s Robert/Margaret Brash parents but none gives Robert’s own age, trade or parents.1760and1803images unavailable;1875image requires centre/affiliate. Own father remains62%.",
+  "next_test": "Inspect original Barony1803marriage622/70/252 or Glasgow1839burial644/1/670/67 for residence, trade or widowhood; compare1789Jack marriage and1802burial. Do not repeat the completed civil-index search as a test of Robert’s own father.",
+  "resume_when": "An original or full transcription supplies Robert’s age, trade, residence, widowhood or parents, distinguishing the retained1760/1758/1755/1784birth candidates."
 }

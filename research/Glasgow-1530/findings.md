@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed30October2026: Alexander Glasgow-2822’s1861/1867/1875civil-event indexes consistently name Robert and Margaret Brash, strengthening that existing parental household to99%. They do not identify that father with this older weaver account or resolve the baptism choices. This account’s own father stays84%; the qualified Robert-1538comparison stays separate.
+
 Robert’s older widower sequence is the leading adult identity for [Robert-1538](/people/glasgow-1538.html). The 1760 child of James Glasgow and Marion Saidler is preferred over the 1755 and 1758 children, but remains an inferred identification. The two Robert accounts are retained separately.
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
@@ -87,3 +89,19 @@ Robert Glasgow, weaver of Calton, Glasgow, aged 79: the OPR derivative labels 9 
 - [GBPRS/GLASGOW/BUR/093133](https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093133&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
 
 Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.
+
+## Named parents and later civil family — 30 October 2026
+
+Three civil-register index displays independently identify the same Alexander Glasgow by consistent ages (48 in1861,54 in1867,62 in1875), flesher trade, successive spouses and the full parental couple Robert Glasgow and Margaret Brash. Father Robert-1538 is now99%, from97%; the existing named mother Brash-171 receives her first exact99% assessment. These are existing parent attachments. Robert’s own father remains62% and his overlapping older-weaver account remains unmerged.
+
+| Event | Inspected index and result |
+| --- | --- |
+|30April1861marriage|[Alexander48, widowed flesher; Elizabeth Bicket42](https://www.familysearch.org/ark:/61903/1:1:6TLR-J1JQ). Robert Glasgow and Margaret Brash indexed as parents.|
+|23April1867marriage|[Alexander54, widowed master flesher; Janet Smith46](https://www.familysearch.org/ark:/61903/1:1:6TPS-Q18Q). Same parental couple; new exact date for the existing Janet wife.|
+|4October1875death|[Alexander62, married flesher, Rothesay](https://www.familysearch.org/ark:/61903/1:1:XSF1-N2WT). Same parents; Janet Smith appears under Other People without an explicit role.|
+
+Provider indexes inspected while signed in30October2026; original civil images not inspected. The1875image access dialog requires a FamilySearch centre or affiliate library. The1861/1867pages offer image-availability checks, not original readings. FamilySearch tree attachments to Robert1760–1839 are contributor comparisons, not documentary identification. No age, trade or parents of Robert are supplied by these displayed fields. His own James1120/MarionSadler hypothesis stays62%; overlapping Robert1530’s father stays84%. The1803marriage index has no age, occupation or widowhood; the1760baptism names parents but supplies no adult bridge. Neither resolves Robert’s earlier identity. No merge or new parent attachment follows.
+
+The earlier father assessment’s linked held-e-eb277c2b9010 is a citation-selection error: it describes Elizabeth’s1866death, not a parent clause for Alexander. The source is retained with its actual wife/family role; the substantive earlier argument concerned the1861marriage. Current parentage now cites the correct1861/1867/1875event records. The Ancestry burial collection’s stated1655–1854date span also needs checking against its1875entry; no original was read.
+
+Next discriminating test: an original1803marriage or1839burial entry giving Robert’s age, trade, residence or widowhood, compared with the1789Jack marriage and1802burial. The inspected1803FamilySearch marriage index gives none of these identifiers. Its original is unavailable online in this signed-in account. Original1875civil access requires a centre/affiliate; this is not a failed login.

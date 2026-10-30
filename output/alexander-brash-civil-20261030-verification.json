@@ -1,0 +1,134 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-alexander-brash-civil-parents-20261030",
+  "existing_father_before_after": [
+    97,
+    99
+  ],
+  "existing_mother_first_rating": 99,
+  "new_parent_attachments": 0,
+  "graph_metrics_unchanged": {
+    "working": {
+      "population": 1803,
+      "edge_count": 1415,
+      "component_count": 392,
+      "largest_component_size": 1208,
+      "father_listing": {
+        "unknown_count": 385,
+        "named_count": 1418,
+        "unavailable_count": 0,
+        "population": 1803
+      }
+    },
+    "confident": {
+      "population": 1803,
+      "edge_count": 728,
+      "component_count": 1076,
+      "largest_component_size": 70,
+      "father_listing": {
+        "unknown_count": 385,
+        "named_count": 1418,
+        "unavailable_count": 0,
+        "population": 1803
+      }
+    }
+  },
+  "new_father_progress_events": [
+    {
+      "assertion_id": "C-coverage-20261022c-glasgow-2822-father",
+      "child": {
+        "id": "Glasgow-2822",
+        "name": "Alexander Glasgow",
+        "url": "/people/glasgow-2822.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-2822"
+      },
+      "father": {
+        "id": "Glasgow-1538",
+        "name": "Robert Glasgow",
+        "url": "/people/glasgow-1538.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1538"
+      },
+      "date": "2026-10-30",
+      "research_event": {
+        "type": "confidence_change",
+        "date": "2026-10-30",
+        "before_grade": "confident",
+        "after_grade": "confident"
+      },
+      "saved_order": 813,
+      "kind": "change",
+      "before_percent": 97,
+      "after_percent": 99,
+      "previous_assessment": {
+        "status": "proved",
+        "probability_percent": 97,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Alexander’s1861 statutory marriage names Robert Glasgow and Margaret, with her surname read as Borsh/Brash. The selected Robert/Margaret Brash couple married in Barony in1803 and fits Alexander’s c1813 generation, strongly identifying the father household."
+      },
+      "assessment_status": "proved",
+      "source_ids": [
+        "calton-alexander-robert-brash-1861",
+        "glasgow-alexander-janet-smith-marriage-1867",
+        "rothesay-alexander-robert-brash-death-1875"
+      ],
+      "reason": "Three inspected FamilySearch civil-register index entries name Robert Glasgow and Margaret Brash as parents of the same Alexander: the30April1861marriage of the48-year-old widowed flesher to Elizabeth Bicket, the23April1867marriage of the54-year-old widowed master flesher to Janet Smith, and the4October1875death of the62-year-old married flesher at Rothesay. Their ages converge on1813; trade and successive spouses agree with the maintained census and marriage account. This explicitly repeated full parental couple resolves the earlier Borsh/Brash reading at index level and strongly identifies the existing Robert1538/Margaret Brash171 parental household. Father confidence rises97%→99%; the already named mother receives her first exact99% assessment. These are three events, not independent evidence from each parent/child row of one event.",
+      "limitations": "Provider indexes inspected while signed in30October2026; original civil images not inspected. The1875image access dialog requires a FamilySearch centre or affiliate library. The1861/1867pages offer image-availability checks, not original readings. FamilySearch tree attachments to Robert1760–1839 are contributor comparisons, not documentary identification. No age, trade or parents of Robert are supplied by these displayed fields. His own James1120/MarionSadler hypothesis stays62%; overlapping Robert1530’s father stays84%. The1803marriage index has no age, occupation or widowhood; the1760baptism names parents but supplies no adult bridge. Neither resolves Robert’s earlier identity. No merge or new parent attachment follows.",
+      "identity_hold": false,
+      "catalogue_father_action": "regrade",
+      "cohorts": [
+        "1850"
+      ],
+      "baseline": true
+    }
+  ],
+  "models_checked": 3,
+  "full_compact_update_membership_agrees": true,
+  "exact_death_date": "1875-10-04",
+  "death_place_preserved": "Rothesay, Buteshire, Scotland, United Kingdom",
+  "current_birth_retained": {
+    "date": "c. 1813",
+    "place": "Calton, Lanarkshire, Scotland, United Kingdom",
+    "status": "estimated"
+  },
+  "readiness_bound_to_exact_pairs": true,
+  "local_http": {
+    "/latest-findings/page/22/": 200,
+    "/people/glasgow-2822.html": 200,
+    "/people/brash-171.html": 200,
+    "/people/smith-231676.html": 200,
+    "/onetree/progress/": 200
+  },
+  "sources_inspected": "Signed-in provider indexes; original images not inspected",
+  "live_wikitree_edits": false,
+  "new_batch_deployed": false,
+  "checks": {
+    "tree_output_tests_passed": 12,
+    "publication_new_failures": 0,
+    "link_new_pairs": 0,
+    "native_views_matched": 304,
+    "stale_asset_references": 0,
+    "rendered_progress_log": "Actual Chrome DOM readback shows Alexander97%→99%, Confident→Confident at the top of the1850cohort findings."
+  },
+  "visual_capture": "Unavailable: browser_observe background rasterizer returned AppleScript access/syntax error. Actual rendered DOM, local HTTP and generated-data checks completed.",
+  "next_research_pairs": [
+    {
+      "child": "Glasgow-2475",
+      "father": "Glasgow-3080",
+      "confidence_percent": 31,
+      "child_side": 14
+    },
+    {
+      "child": "Glasgow-1382",
+      "father": "Glasgow-1023",
+      "confidence_percent": 78,
+      "child_side": 13
+    },
+    {
+      "child": "Glasgow-1466",
+      "father": "Glasgow-3314",
+      "confidence_percent": 79,
+      "child_side": 13
+    }
+  ],
+  "scope": "New local research batch; no deployment, live WikiTree edits or new parent attachment. Original civil images not inspected;1875requires centre/affiliate.",
+  "preserved_source_whitespace": "Trailing spaces copied verbatim from prior complete WikiTree biographies in the1530and2822drafts are retained. No code or other source whitespace warnings."
+}

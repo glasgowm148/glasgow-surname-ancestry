@@ -7628,11 +7628,11 @@
       "draft_path": "research/Mill-357/Mill-357.md"
     },
     "Glasgow-1538": {
-      "queued_at": "2026-10-17",
+      "queued_at": "2026-10-30",
       "status": "OPEN",
       "significance": 82,
-      "summary": "Review new probable father James Glasgow-1120 and mother Marion Saidler/Sadler-2849, 62% each, through the older Brash widower and 1760 baptism comparison; retain competing births and do not merge. The local birth is before the 1760 baptism under that probable identity; retain 1784 as the competing child and captured value. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
-      "draft_path": "research/Glasgow-1538/Glasgow-1538.md",
+      "summary": "Add son Alexander’s three civil-event parental clauses,99%family identification; retain own father62% and competing childhoods.",
+      "draft_path": "research/Glasgow-1538/civil-family-2026-10-30.wiki",
       "relationship_changes": [
         {
           "action": "add",
@@ -7667,22 +7667,28 @@
           ]
         }
       ],
-      "preservation_review_path": "research/findmypast-glasgow-audit/pages30-32-proposal-preservation-2026-10-30.json",
+      "preservation_review_path": "research/ancestry-connections/alexander-brash-civil-preservation-2026-10-30.json",
       "biography_rechecked_at": "2026-10-30",
-      "work_queue_summary": " Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments."
+      "work_queue_summary": "Add son Alexander’s three civil-event parental clauses,99%family identification; retain own father62% and competing childhoods.",
+      "profile_id": "Glasgow-1538",
+      "pending": true,
+      "manual_update": true,
+      "findings_path": "research/Glasgow-1538/findings.md",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true
     },
     "Glasgow-1530": {
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-30",
       "status": "OPEN",
       "significance": 47,
-      "summary": "Explain the conditional Robert/Brash identity and probable 62% parent suggestion; retain the complete earlier account and distinguish record roles from unresolved later identities. Review existing father at 84% (probable), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
-      "draft_path": "research/Glasgow-1530/father-confidence-2026-10-22b.wiki",
-      "preservation_review_path": "research/findmypast-glasgow-audit/pages30-32-proposal-preservation-2026-10-30.json",
+      "summary": "Add qualified Brash civil-family comparison; own father84% and unresolved adult identity remain unchanged.",
+      "draft_path": "research/Glasgow-1530/civil-family-2026-10-30.wiki",
+      "preservation_review_path": "research/ancestry-connections/alexander-brash-civil-preservation-2026-10-30.json",
       "profile_id": "Glasgow-1530",
       "pending": true,
       "biography_rechecked_at": "2026-10-30",
       "findings_path": "research/Glasgow-1530/findings.md",
-      "work_queue_summary": "Explain the conditional Robert/Brash identity and probable 62% parent suggestion; retain the complete earlier account and distinguish record roles from unresolved later identities. Review existing father at 84% (probable), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
+      "work_queue_summary": "Add qualified Brash civil-family comparison; own father84% and unresolved adult identity remain unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -7701,7 +7707,8 @@
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
-      "addition_wikitext": ""
+      "addition_wikitext": "",
+      "manual_update": true
     },
     "Glasgow-1120": {
       "queued_at": "2026-10-22",
@@ -13322,24 +13329,36 @@
       "profile_id": "Glasgow-2822",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2822/father-confidence-2026-10-22c.wiki",
+      "queued_at": "2026-10-30",
+      "biography_rechecked_at": "2026-10-30",
+      "draft_path": "research/Glasgow-2822/civil-family-2026-10-30.wiki",
       "findings_path": "research/Glasgow-2822/findings.md",
-      "summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 97% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Regrade existing father Robert Glasgow-1538 from97% to99% and existing mother Brash-171 to99%; add1867Janet Smith marriage23April, exact indexed4October1875death and three correct civil-event citations.",
+      "work_queue_summary": "Regrade existing father Robert Glasgow-1538 from97% to99% and existing mother Brash-171 to99%; add1867Janet Smith marriage23April, exact indexed4October1875death and three correct civil-event citations.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1538",
+          "relative_name": "Robert Glasgow",
           "status": "proved",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 97,
+          "probability_percent": 99,
+          "previous_probability_percent": 97,
+          "previous_status": "proved",
           "assertion_id": "C-coverage-20261022c-glasgow-2822-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Confident97%; retained statutory-marriage interpretation, not a death parent clause. Robert’s 1760/1784 birth alternatives and Margaret’s difficult surname reading remain separate."
+          "scope": "Existing named parent; three civil-event index clauses, no new attachment; original images uninspected."
+        },
+        {
+          "action": "regrade",
+          "relationship": "mother",
+          "relative_id": "Brash-171",
+          "relative_name": "Margaret Brash",
+          "status": "strongly_supported",
+          "probability_percent": 99,
+          "previous_probability_percent": null,
+          "previous_status": "unmarked",
+          "assertion_id": "clm-alexander-brash-mother-20261030",
+          "scope": "Existing named parent; three civil-event index clauses, no new attachment; original images uninspected."
         }
       ],
       "preserve_captured_detail": false,
@@ -13347,7 +13366,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/alexander-brash-civil-preservation-2026-10-30.json",
+      "manual_update": true
     },
     "Glasgow-3415": {
       "profile_id": "Glasgow-3415",
@@ -41968,6 +41988,36 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": false,
       "relationship_changes": []
+    },
+    "Brash-171": {
+      "profile_id": "Brash-171",
+      "queued_at": "2026-10-30",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "draft_path": "research/Brash-171/civil-family-2026-10-30.wiki",
+      "findings_path": "research/Brash-171/findings.md",
+      "summary": "Source the existing mother from three civil-event indexes,99% first individual rating; add1803indexed marriage and retain estimated birth.",
+      "work_queue_summary": "Source the existing mother from three civil-event indexes,99% first individual rating; add1803indexed marriage and retain estimated birth.",
+      "preservation_review_path": "research/ancestry-connections/alexander-brash-civil-preservation-2026-10-30.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-10-30"
+    },
+    "Smith-231676": {
+      "profile_id": "Smith-231676",
+      "queued_at": "2026-10-30",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "draft_path": "research/Smith-231676/civil-family-2026-10-30.wiki",
+      "findings_path": "research/Smith-231676/findings.md",
+      "summary": "Add23April1867marriage to Alexander Glasgow with full source; retain1871census and unexplained Jane Jordan link, qualify1875OtherPeople role.",
+      "work_queue_summary": "Add23April1867marriage to Alexander Glasgow with full source; retain1871census and unexplained Jane Jordan link, qualify1875OtherPeople role.",
+      "preservation_review_path": "research/ancestry-connections/alexander-brash-civil-preservation-2026-10-30.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-10-30"
     }
   },
   "reviewed_on": "2026-10-22",
