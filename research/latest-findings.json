@@ -62735,6 +62735,84 @@
           "url": "https://www.familysearch.org/ark:/61903/3:1:S3HT-DYLN-TC"
         }
       ]
+    },
+    {
+      "id": "edinburgh-surgeon-parents-1733-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-4124.html",
+      "finding": "New confident parents for the Saltoun naval surgeon James Glasgow: James Glasgow, Edinburgh weaver and burgess, and Isobel Duff, each95%. A1733testament-index entry explicitly names the surgeon’s parents.",
+      "qualification": "Printed index inspected, not the original 1733 testament. Surf in Grant and Swift in Dobson are retained literal variants; vessel identity has not been settled from naval records. Dobson’s SRO.S/H is a Services of Heirs reference, not an inspected original or a naval muster. No exact birth, death date, or birthplace is inferred from a register date, relict wording or Saltoun association. The surgeon is not merged with apprentice Glasgow-4114 or either 1679/1680 childhood James. James-2682’s father remains 61%, older-weaver identity 70%, and apprentice father/mother 82%/72%. Maternity is explicit for the indexed surgeon; assigning that surgeon to Glasgow-4124 is the common 95% identity bridge.",
+      "people": [
+        {
+          "id": "Glasgow-4124",
+          "name": "James Glasgow, naval surgeon",
+          "url": "/people/glasgow-4124.html",
+          "role": "Previously no listed father or mother; both newly recommended at95%"
+        },
+        {
+          "id": "Glasgow-2682",
+          "name": "James Glasgow, Edinburgh weaver",
+          "url": "/people/glasgow-2682.html",
+          "role": "New confident father95%"
+        },
+        {
+          "id": "Duffe-18",
+          "name": "Isobell/Elizabeth Duffe",
+          "url": "/people/duffe-18.html",
+          "role": "New confident mother95%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Francis J. Grant (ed.), The Commissariot Record of Edinburgh, Register of Testaments, Part III, Volumes81–131,1701–1800 (1899), printed p.106 / PDF p.116,3February1733",
+          "url": "https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=116"
+        },
+        {
+          "title": "Francis J. Grant (ed.), The Commissariot Record of Edinburgh, Register of Testaments, Part III (1899), printed p.81 / PDF p.91,4April1733",
+          "url": "https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=91"
+        },
+        {
+          "title": "Findmypast/David Dobson, Saltoun Swift surgeon1733, GBOR/DOBSON/000380",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F000380&tab=this"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "James Glasgow (Glasgow-4124)",
+          "relative": "James Glasgow (Glasgow-2682)",
+          "subject_id": "Glasgow-4124",
+          "relative_id": "Glasgow-2682",
+          "before": "unknown",
+          "after": "certain",
+          "explanation": "Grant’s inspected 1899 Edinburgh testament index, printed p.106 (PDF p.116), entry dated 3 February 1733, explicitly names James Glasgow, weaver and burgess of Edinburgh, and James Glasgow, surgeon aboard H.M. sloop Surf, his son by deceased Isobel Duff. The named parental couple and the father’s specific craft/civic status fit the existing Edinburgh Duffe household, Glasgow-2682 and Duffe-18. Glasgow-4124 is the existing account of James Glasgow, Saltoun, surgeon of Swift of Sheerness in 1733, indexed by David Dobson from SRO.S/H. The uncommon name/profession combination, same year and closely resembling vessel names strongly identify the record surgeon with that account. The independent indexed Isobel Duff relict entry dated 4 April 1733 (printed p.81/PDF p.91) fits the same parental household. The proposed father and mother are each assessed at 95% subjective confidence. Both assessments share the same surgeon identity inference; they are not independent confirmations. Public WikiTree readback on 30 October 2026 and the current local account both have no parent listed for Glasgow-4124, so this is a genuine new family connection, not grading of an existing parent.",
+          "previous_status_provenance": [
+            "Public WikiTree getRelatives30October2026: Glasgow-4124 Father=0/Mother=0; private live-readback.json",
+            "research/Glasgow-4124/findings.md and existing local parent list: no listed parents before this review"
+          ],
+          "scope": "Printed index inspected, not the original 1733 testament. Surf in Grant and Swift in Dobson are retained literal variants; vessel identity has not been settled from naval records. Dobson’s SRO.S/H is a Services of Heirs reference, not an inspected original or a naval muster. No exact birth, death date, or birthplace is inferred from a register date, relict wording or Saltoun association. The surgeon is not merged with apprentice Glasgow-4114 or either 1679/1680 childhood James. James-2682’s father remains 61%, older-weaver identity 70%, and apprentice father/mother 82%/72%. Maternity is explicit for the indexed surgeon; assigning that surgeon to Glasgow-4124 is the common 95% identity bridge.",
+          "probability_percent": 95
+        },
+        {
+          "relationship": "mother",
+          "subject": "James Glasgow (Glasgow-4124)",
+          "relative": "Isobell/Elizabeth Duffe (Duffe-18)",
+          "subject_id": "Glasgow-4124",
+          "relative_id": "Duffe-18",
+          "before": "unknown",
+          "after": "certain",
+          "explanation": "Grant’s inspected 1899 Edinburgh testament index, printed p.106 (PDF p.116), entry dated 3 February 1733, explicitly names James Glasgow, weaver and burgess of Edinburgh, and James Glasgow, surgeon aboard H.M. sloop Surf, his son by deceased Isobel Duff. The named parental couple and the father’s specific craft/civic status fit the existing Edinburgh Duffe household, Glasgow-2682 and Duffe-18. Glasgow-4124 is the existing account of James Glasgow, Saltoun, surgeon of Swift of Sheerness in 1733, indexed by David Dobson from SRO.S/H. The uncommon name/profession combination, same year and closely resembling vessel names strongly identify the record surgeon with that account. The independent indexed Isobel Duff relict entry dated 4 April 1733 (printed p.81/PDF p.91) fits the same parental household. The proposed father and mother are each assessed at 95% subjective confidence. Both assessments share the same surgeon identity inference; they are not independent confirmations. Public WikiTree readback on 30 October 2026 and the current local account both have no parent listed for Glasgow-4124, so this is a genuine new family connection, not grading of an existing parent.",
+          "previous_status_provenance": [
+            "Public WikiTree getRelatives30October2026: Glasgow-4124 Father=0/Mother=0; private live-readback.json",
+            "research/Glasgow-4124/findings.md and existing local parent list: no listed parents before this review"
+          ],
+          "scope": "Printed index inspected, not the original 1733 testament. Surf in Grant and Swift in Dobson are retained literal variants; vessel identity has not been settled from naval records. Dobson’s SRO.S/H is a Services of Heirs reference, not an inspected original or a naval muster. No exact birth, death date, or birthplace is inferred from a register date, relict wording or Saltoun association. The surgeon is not merged with apprentice Glasgow-4114 or either 1679/1680 childhood James. James-2682’s father remains 61%, older-weaver identity 70%, and apprentice father/mother 82%/72%. Maternity is explicit for the indexed surgeon; assigning that surgeon to Glasgow-4124 is the common 95% identity bridge.",
+          "probability_percent": 95
+        }
+      ]
     }
   ]
 }

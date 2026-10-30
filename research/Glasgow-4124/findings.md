@@ -2,9 +2,9 @@
 
 ## Current conclusion
 
-Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+Reviewed: 30 October 2026. **Propose James Glasgow-2682 as father and Isobell/Elizabeth Duffe-18 as mother, each 95% confident inference, for this existing naval surgeon.** The visually checked 1733 testament index explicitly names a James Glasgow, weaver and burgess of Edinburgh, and his surgeon son James by Isobel Duff. The combination of name, specialised occupation, period and parental household strongly identifies that son with the existing Saltoun surgeon, while the printed *Surf* and Dobson's *Swift* of Sheerness remain unresolved source variants. The parental roles are explicit in the printed index; matching them to the existing profiles is inferred. Original testaments and the underlying Services of Heirs record remain uninspected.
 
-James Glasgow of Saltoun, East Lothian, was a mariner. In 1733 he appears as surgeon of the Swift of Sheerness in a list of Lothians mariners. The entry places him at Saltoun and records his occupation, but gives no age, family or later life, so his birth is placed before 1733 and Saltoun is inferred from the record rather than independently stated. The [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F000380&tab=this) is the indexed source for this event. The live WikiTree profile records male sex at birth with uncertain status, inferred from the recorded given name. The cited transcript does not explicitly state sex.
+This supersedes the former statement that no family was known for this surgeon; the held occupational transcript itself still names no relatives. Retain the current before-1733 birth bound and uncertain Saltoun birthplace without treating the new index/registration dates as births or deaths. The surgeon remains separate from the 1696 apprentice Glasgow-4114 and the 1679/1680 child accounts. The unrelated newspaper comparisons below retain their existing limits.
 
 ## Source findings
 
@@ -13,7 +13,7 @@ James Glasgow of Saltoun, East Lothian, was a mariner. In 1733 he appears as sur
 
 ## Unresolved questions
 
-- Check the underlying record image, where available, for any explicit sex evidence. Keep the name-based field uncertain unless stronger evidence is found.
+- The printed testament index explicitly describes James as a son; the earlier question about the occupational transcript alone lacking sex evidence is superseded to that extent. Inspect the underlying testaments and Services of Heirs record for identity, family and ship details. No live structured-field edit is claimed.
 
 ## Current conclusion — pre-1800 original newspapers, 5 October 2026
 
@@ -120,3 +120,15 @@ The list gives an Edinburgh designation but no age or relatives; it is not evide
 
 This may concern [Glasgow-4124](https://www.wikitree.com/wiki/Glasgow-4124). Birth before 1733, uncertain, Saltoun, East Lothian; death not recorded. Chronology and Scottish locality make this a possible candidate, but no evidence links him to the Edinburgh game-certificate entry or establishes Esq status.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Edinburgh surgeon and Duff household — 30 October 2026
+
+[Grant, Edinburgh testament index, Part III (1899), printed p.106 / PDF p.116](https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=116) records a joint entry dated 3 February 1733 for James Glasgow, weaver and burgess of Edinburgh, and his son James, a surgeon aboard H.M. sloop *Surf*, expressly identifying the son's mother as the father's deceased spouse Isobel Duff. [the same index, printed p.81 / PDF p.91](https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=91) separately records Isobel Duff as widow of James Glasgow, weaver and burgess of Edinburgh, dated 4 April 1733. Both printed pages were visually checked for this review. These are index/registration dates, not established death dates; the underlying testaments have not been inspected. The two entries must not be converted into an order of deaths or a claim that either parent lived until 1733.
+
+The existing [surgeon James Glasgow-4124](/people/glasgow-4124.html) is the best supported identity for the recorded son. His held [Findmypast transcript GBOR/DOBSON/000380](https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F000380&tab=this), captured 3 September 2026, cites David Dobson's *Lothians Mariners, 1700–1800, Part 1* and describes James of Saltoun as surgeon of *Swift* of Sheerness in 1733, citing SRO.S/H. Preserve *Surf* and *Swift* as an unresolved difference between the inspected printed index and the held derivative; neither is silently corrected. Dobson points to Services of Heirs, a different record series from the testament index, but that underlying entry and its informant have not been inspected, so source independence is not established.
+
+The combination of name, specialised occupation, ship-name variant, documentary period and the exact parental household supports identifying the surgeon with Glasgow-4124 and his parents with [James Glasgow-2682](/people/glasgow-2682.html) and [Isobell/Elizabeth Duffe-18](/people/duffe-18.html), each at **95% (confident inference)**. The printed entry explicitly gives the parental roles; the identities of the named people with these existing profiles are inferred. Both parent assessments share the same surgeon-identity bridge and must not be counted as independent confirmations. Saltoun is a recorded association, not newly proved birthplace evidence. The former absent parent fields on the surgeon's profile are not a prior 0% assessment: these are new proposed attachments, not upgrades from a measured zero.
+
+The [1696 apothecary apprentice James Glasgow-4114](/people/glasgow-4114.html) remains a compatible later identity for the surgeon, with a plausible medical-career sequence after his apprenticeship to William Adam. Neither the printed index nor Dobson identifies that apprentice, supplies his age or chooses between the separate [1679 James](/people/glasgow-3103.html) and [1680 James](/people/glasgow-3368.html). Do not merge those accounts or attach a spouse through this comparison. The apprentice's father assessment stays **82%**, mother **72%** and brother comparison **79%**. James-2682's proposed father Robert-1156 stays **61%**, and identification with the older weaver James-1150 stays **70%**. This finding does not establish either upstream identity.
+
+Next: inspect the two 1733 testaments and the Services of Heirs entry for named executors, children, residence, medical training or a link to William Adam, Thomas the baker or the older weaver's family. Preserve the ship variants until the underlying records resolve them. No new birth or death date, live WikiTree save or profile merger follows from this printed-index review.

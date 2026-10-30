@@ -4462,3 +4462,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3401) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-3706) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
 | [Agnes (Whitehead) Glasgow](https://www.wikitree.com/wiki/Whitehead-9630) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+
+## 30 October 2026 — Edinburgh naval-surgeon family
+
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-4124) | OPEN | New confident father Glasgow-2682 and mother Duffe-18, each95%; explicit1733indexed parent roles and inferred surgeon identity. Complete draft includes Surf/Swift limitation. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2682) | OPEN | Add confident naval-surgeon son Glasgow-4124 at95%; own father61%/identity70%unchanged. |
+| [Isobell/Elizabeth Duffe](https://www.wikitree.com/wiki/Duffe-18) | OPEN | Add confident naval-surgeon son Glasgow-4124 at95%; apprentice maternal hypothesis72%unchanged. |

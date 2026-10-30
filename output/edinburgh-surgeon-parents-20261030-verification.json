@@ -1,0 +1,181 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-edinburgh-surgeon-parents-1733-20261030",
+  "subject": "Glasgow-4124",
+  "new_father": {
+    "id": "Glasgow-2682",
+    "percent": 95,
+    "prior": "absent"
+  },
+  "new_mother": {
+    "id": "Duffe-18",
+    "percent": 95,
+    "prior": "absent"
+  },
+  "metrics_before_after_through1850": {
+    "working": {
+      "population": [
+        1803,
+        1803
+      ],
+      "edge_count": [
+        1414,
+        1415
+      ],
+      "component_count": [
+        393,
+        392
+      ],
+      "largest_component_size": [
+        1207,
+        1208
+      ],
+      "connected_pairs_percent": [
+        44.84097597849927,
+        44.915275625837566
+      ],
+      "unknown_fathers": [
+        386,
+        385
+      ]
+    },
+    "confident": {
+      "population": [
+        1803,
+        1803
+      ],
+      "edge_count": [
+        727,
+        728
+      ],
+      "component_count": [
+        1077,
+        1076
+      ],
+      "largest_component_size": [
+        70,
+        70
+      ],
+      "connected_pairs_percent": [
+        0.3562320291190598,
+        0.3567244874278472
+      ],
+      "unknown_fathers": [
+        386,
+        385
+      ]
+    }
+  },
+  "tree_models": {
+    "assets/research/atlas-model.json": [
+      [
+        "Duffe-18",
+        0.95
+      ],
+      [
+        "Glasgow-2682",
+        0.95
+      ]
+    ],
+    "assets/research/atlas-model-packed.json": [
+      [
+        "Duffe-18",
+        0.95
+      ],
+      [
+        "Glasgow-2682",
+        0.95
+      ]
+    ],
+    "onetree/glasgow-one-tree-polished-3/model.json": [
+      [
+        "Duffe-18",
+        0.95
+      ],
+      [
+        "Glasgow-2682",
+        0.95
+      ]
+    ]
+  },
+  "individual_progress_findings": [
+    {
+      "assertion_id": "clm-edinburgh-surgeon-father-20261030",
+      "child": {
+        "id": "Glasgow-4124",
+        "name": "James Glasgow",
+        "url": "/people/glasgow-4124.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-4124"
+      },
+      "father": {
+        "id": "Glasgow-2682",
+        "name": "James Glasgow",
+        "url": "/people/glasgow-2682.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-2682"
+      },
+      "date": "2026-10-30",
+      "research_event": {
+        "type": "father_attachment",
+        "date": "2026-10-30",
+        "before_grade": "unknown",
+        "after_grade": "confident",
+        "catalogue_action": "add",
+        "previous_father_id": null
+      },
+      "saved_order": 1342,
+      "kind": "new",
+      "before_percent": null,
+      "after_percent": 95,
+      "previous_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "Public WikiTree getRelatives readback30October2026: Glasgow-4124 Father=0 and Mother=0; existing local parent list empty. Private receipt tmp/edinburgh-1733-20261030/live-readback.json.",
+        "status": "unknown"
+      },
+      "assessment_status": "strongly_supported",
+      "source_ids": [
+        "edinburgh-james-surgeon-testament-index-1733",
+        "edinburgh-isobel-duff-relict-index-1733",
+        "fmp-glasgow-b741e434199b"
+      ],
+      "reason": "Grant’s inspected 1899 Edinburgh testament index, printed p.106 (PDF p.116), entry dated 3 February 1733, explicitly names James Glasgow, weaver and burgess of Edinburgh, and James Glasgow, surgeon aboard H.M. sloop Surf, his son by deceased Isobel Duff. The named parental couple and the father’s specific craft/civic status fit the existing Edinburgh Duffe household, Glasgow-2682 and Duffe-18. Glasgow-4124 is the existing account of James Glasgow, Saltoun, surgeon of Swift of Sheerness in 1733, indexed by David Dobson from SRO.S/H. The uncommon name/profession combination, same year and closely resembling vessel names strongly identify the record surgeon with that account. The independent indexed Isobel Duff relict entry dated 4 April 1733 (printed p.81/PDF p.91) fits the same parental household. The proposed father and mother are each assessed at 95% subjective confidence. Both assessments share the same surgeon identity inference; they are not independent confirmations. Public WikiTree readback on 30 October 2026 and the current local account both have no parent listed for Glasgow-4124, so this is a genuine new family connection, not grading of an existing parent.",
+      "limitations": "Printed index inspected, not the original 1733 testament. Surf in Grant and Swift in Dobson are retained literal variants; vessel identity has not been settled from naval records. Dobson’s SRO.S/H is a Services of Heirs reference, not an inspected original or a naval muster. No exact birth, death date, or birthplace is inferred from a register date, relict wording or Saltoun association. The surgeon is not merged with apprentice Glasgow-4114 or either 1679/1680 childhood James. James-2682’s father remains 61%, older-weaver identity 70%, and apprentice father/mother 82%/72%. Maternity is explicit for the indexed surgeon; assigning that surgeon to Glasgow-4124 is the common 95% identity bridge.",
+      "identity_hold": false,
+      "catalogue_father_action": "add",
+      "cohorts": [
+        "1750",
+        "1800",
+        "1850"
+      ],
+      "baseline": true
+    }
+  ],
+  "full_compact_flags_agree": true,
+  "local_http": {
+    "/latest-findings/page/22/": 200,
+    "/people/glasgow-4124.html": 200,
+    "/onetree/progress/": 200,
+    "/onetree/": 200
+  },
+  "live_wikitree_edited": false,
+  "new_batch_deployed": false,
+  "original_testament_inspected": false,
+  "printed_pages_inspected": [
+    81,
+    106
+  ],
+  "vessel_variants": [
+    "Surf",
+    "Swift"
+  ],
+  "checks": {
+    "tree_output_tests": {
+      "passed": 12
+    },
+    "publication_new_failures": 0,
+    "internal_links_new_pairs": 0,
+    "native_views_matched": 304,
+    "stale_asset_references": 0
+  },
+  "visual_check": "Not performed: existing browser control unavailable; scoped generated-data, source-page visual inspection and local HTTP checks completed.",
+  "scope": "New research batch synchronized locally; previous combined release remains live. No live WikiTree edits or deployment of this batch."
+}

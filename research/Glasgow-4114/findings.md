@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed: 30 October 2026. **The 1733 testament index now explicitly identifies a surgeon James as son of the Edinburgh weaver/burgess James and Isobel Duff, but does not identify this 1696 apothecary apprentice.** Existing surgeon Glasgow-4124 is the leading record-defined comparison and receives proposed parents James-2682 and Duffe-18 at **95%** each. A progression from William Adam's apothecary apprentice to naval surgeon is compatible, not yet an established identity. Retain this apprentice's father **82%**, mother **72%** and brother comparison **79%**; keep both 1679/1680 child accounts and surgeon separate. James-2682's father **61%** and older-weaver identity **70%** remain unchanged. See the dated source argument below.
+
+### Retained apprentice and ancestry assessment — 21 October 2026
+
 Reviewed: 2026-10-21. **Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%.**
 
 Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%.
@@ -113,3 +117,11 @@ The most useful test is an Edinburgh marriage, guild, property, witness or prior
 - [Henry Paton (ed.), Edinburgh marriages 1595–1700, printed p.267/PDF p.277: Bessie Whyte 6 July 1649; Agnes Duncan 11 November 1653; maintained printed-register review reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
 
 The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.
+
+## Edinburgh surgeon and Duff household — 30 October 2026
+
+[Grant, Edinburgh testament index, Part III (1899), printed p.106 / PDF p.116](https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=116), entry 3 February 1733, explicitly records the Edinburgh weaver and burgess James Glasgow, his surgeon son James aboard H.M. sloop *Surf*, and the son's mother Isobel Duff. [Printed p.81 / PDF p.91](https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=91), entry 4 April 1733, describes Isobel Duff as widow of the same-named weaver and burgess. Both printed pages were visually checked; original testaments remain uninspected and the index/registration dates are not established deaths.
+
+The existing Saltoun surgeon [Glasgow-4124](/people/glasgow-4124.html), recorded in Dobson's held derivative as surgeon of *Swift* of Sheerness in 1733, is the strongly supported son, with father James-2682 and mother Duffe-18 each assessed **95% confident inference**. Keep *Surf* / *Swift* explicit; the parental roles are directly stated, while identity with the existing profiles is inferred through the shared surgeon/family evidence. The Dobson citation points to Services of Heirs, but that original entry and its independence remain unverified. [The surgeon's account carries the complete source and identity argument](/people/glasgow-4124.html#research-update).
+
+This does not identify the surgeon with apprentice Glasgow-4114 or either 1679/1680 child, establish James-2682 as the older 1649 burgess, or alter the retained apprentice parent grades (82% father, 72% mother), Robert father hypothesis (61%) or older-weaver identity (70%). Next: inspect the 1733 testaments and Services of Heirs entry for executors, relatives, residence or medical training. No birth/death date, merger or live WikiTree save follows.

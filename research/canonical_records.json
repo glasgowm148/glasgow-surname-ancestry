@@ -50360,5 +50360,67 @@
     "reviewed_on": "2026-10-30",
     "provenance": "research/Glasgow-62/findings.md",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "edinburgh-james-surgeon-testament-index-1733",
+    "association": "Edinburgh weaver James Glasgow and his naval-surgeon son by Isobel Duff",
+    "date": "1733-02-03",
+    "year": 1733,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "record_type": "Testament register index",
+    "record_category": "Wills & probate",
+    "source_url": "https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=116",
+    "source_title": "Francis J. Grant (ed.), The Commissariot Record of Edinburgh, Register of Testaments, Part III, Volumes81–131,1701–1800 (1899), printed p.106 / PDF p.116,3February1733",
+    "source_type": "Printed archival index",
+    "source_quality": "derivative",
+    "status": "Printed page inspected; original testament not inspected; surgeon identification confident inference",
+    "note": "Grant’s inspected 1899 Edinburgh testament index, printed p.106 (PDF p.116), entry dated 3 February 1733, explicitly names James Glasgow, weaver and burgess of Edinburgh, and James Glasgow, surgeon aboard H.M. sloop Surf, his son by deceased Isobel Duff. The named parental couple and the father’s specific craft/civic status fit the existing Edinburgh Duffe household, Glasgow-2682 and Duffe-18. Glasgow-4124 is the existing account of James Glasgow, Saltoun, surgeon of Swift of Sheerness in 1733, indexed by David Dobson from SRO.S/H. The uncommon name/profession combination, same year and closely resembling vessel names strongly identify the record surgeon with that account. The independent indexed Isobel Duff relict entry dated 4 April 1733 (printed p.81/PDF p.91) fits the same parental household. The proposed father and mother are each assessed at 95% subjective confidence. Both assessments share the same surgeon identity inference; they are not independent confirmations. Public WikiTree readback on 30 October 2026 and the current local account both have no parent listed for Glasgow-4124, so this is a genuine new family connection, not grading of an existing parent. Printed index inspected, not the original 1733 testament. Surf in Grant and Swift in Dobson are retained literal variants; vessel identity has not been settled from naval records. Dobson’s SRO.S/H is a Services of Heirs reference, not an inspected original or a naval muster. No exact birth, death date, or birthplace is inferred from a register date, relict wording or Saltoun association. The surgeon is not merged with apprentice Glasgow-4114 or either 1679/1680 childhood James. James-2682’s father remains 61%, older-weaver identity 70%, and apprentice father/mother 82%/72%. Maternity is explicit for the indexed surgeon; assigning that surgeon to Glasgow-4124 is the common 95% identity bridge.",
+    "profiles": {
+      "Glasgow-4124": {
+        "role": "Naval-surgeon son, confidently identified with the Saltoun Swift surgeon",
+        "timeline_group": "Family evidence"
+      },
+      "Glasgow-2682": {
+        "role": "Named father, weaver and Edinburgh burgess; identified through Duff household",
+        "timeline_group": "Family evidence"
+      },
+      "Duffe-18": {
+        "role": "Named deceased mother, Isobel Duff",
+        "timeline_group": "Family evidence"
+      }
+    },
+    "reviewed_on": "2026-10-30",
+    "provenance": "research/Glasgow-4124/findings.md",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "edinburgh-isobel-duff-relict-index-1733",
+    "association": "Isobel Duff, relict of James Glasgow, weaver and burgess of Edinburgh",
+    "date": "1733-04-04",
+    "year": 1733,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "record_type": "Testament register index",
+    "record_category": "Wills & probate",
+    "source_url": "https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=91",
+    "source_title": "Francis J. Grant (ed.), The Commissariot Record of Edinburgh, Register of Testaments, Part III (1899), printed p.81 / PDF p.91,4April1733",
+    "source_type": "Printed archival index",
+    "source_quality": "derivative",
+    "status": "Printed page inspected; original testament not inspected; register date is not a death date",
+    "note": "Isobel Duff, relict of James Glasgow, weaver, burgess of Edinburgh. This is a separate indexed entry in the same printed register index as the3February1733father/son entry. It supports the parental household identification, not an independent original reading or a precise death date. No vitality chronology is changed.",
+    "profiles": {
+      "Duffe-18": {
+        "role": "Named Isobel Duff, confidently identified with existing household mother",
+        "timeline_group": "Family evidence"
+      },
+      "Glasgow-2682": {
+        "role": "Named husband James, weaver and burgess",
+        "timeline_group": "Family evidence"
+      }
+    },
+    "reviewed_on": "2026-10-30",
+    "provenance": "research/Duffe-18/findings.md",
+    "publish_to_record_index": true
   }
 ]

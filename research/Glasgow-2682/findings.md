@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed: 30 October 2026. **The 1733 printed testament index directly identifies this Edinburgh weaver/burgess and Isobel Duff as parents of a naval surgeon James, confidently identified with existing Glasgow-4124; propose the surgeon's father and mother attachments at 95% each.** The ship remains *Surf* in the checked printed index versus *Swift* of Sheerness in the held Dobson derivative. This supplies a sourced child/family connection, while this man's own Robert-1156 father hypothesis stays **61% probable** and his identity with the 1649 burgess James-1150 stays **70%**. No child-profile merger or new vital date is inferred. See the dated source argument below.
+
+### Retained ancestry assessment — 21 October 2026
+
 Reviewed: 2026-10-21. **Select Robert Glasgow-1156 as new probable father61%, through probable identity with the older Edinburgh weaver70%; supersede the circa1655 estimate with a conditional pre-16June1641 boundary.**
 
 James Glasgow-2682, father of the Edinburgh Duffe household, probably represents the same adult as James Glasgow-1150, the weaver apprenticed on 16 June 1641 and admitted burgess on 20 June 1649: 70% subjective identity confidence. The 1696 James and 1699 youngest-son Thomas apprenticeships name a father James Glasgow, weaver and burgess of Edinburgh. Thomas’s maintained 1684 baptismal identification and the Duffe household’s James children of 1679 and 1680 fit those apprenticeship ages and the youngest-son order. The older craftsman independently has that specific craft and civic status, with an exact master/date cross-reference between his 1641 apprenticeship and 1649 admission. The maintained admission review found one matching admission, although this does not establish uniqueness. His marriages to Bessie Whyte on 6 July 1649 and Agnes Duncan on 11 November 1653, followed by Agnes’s burial as the weaver’s wife on 21 January 1674, permit a later Duffe household beginning in 1677. Successive marriages explain the wife sequence without requiring another same-name weaver and burgess.
@@ -140,3 +144,11 @@ The most useful test is an Edinburgh marriage, guild, property, witness or prior
 - [Henry Paton (ed.), Edinburgh marriages 1595–1700, printed p.267/PDF p.277: Bessie Whyte 6 July 1649; Agnes Duncan 11 November 1653; maintained printed-register review reused](https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/register_of_marriages_for_the_parish_of_edinburgh_1595-1700_~_1898.pdf#page=277)
 
 The cited printed registers, apprenticeship entries and parish index associations were already held and reviewed; no manuscript or new original page was inspected for this reassessment.
+
+## Edinburgh surgeon and Duff household — 30 October 2026
+
+[Grant, Edinburgh testament index, Part III (1899), printed p.106 / PDF p.116](https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=116), entry 3 February 1733, explicitly records the Edinburgh weaver and burgess James Glasgow, his surgeon son James aboard H.M. sloop *Surf*, and the son's mother Isobel Duff. [Printed p.81 / PDF p.91](https://www.electricscotland.com/history/records/scottishrecordso03scotuoft.pdf#page=91), entry 4 April 1733, describes Isobel Duff as widow of the same-named weaver and burgess. Both printed pages were visually checked; original testaments remain uninspected and the index/registration dates are not established deaths.
+
+The existing Saltoun surgeon [Glasgow-4124](/people/glasgow-4124.html), recorded in Dobson's held derivative as surgeon of *Swift* of Sheerness in 1733, is the strongly supported son, with father James-2682 and mother Duffe-18 each assessed **95% confident inference**. Keep *Surf* / *Swift* explicit; the parental roles are directly stated, while identity with the existing profiles is inferred through the shared surgeon/family evidence. The Dobson citation points to Services of Heirs, but that original entry and its independence remain unverified. [The surgeon's account carries the complete source and identity argument](/people/glasgow-4124.html#research-update).
+
+This does not identify the surgeon with apprentice Glasgow-4114 or either 1679/1680 child, establish James-2682 as the older 1649 burgess, or alter the retained apprentice parent grades (82% father, 72% mother), Robert father hypothesis (61%) or older-weaver identity (70%). Next: inspect the 1733 testaments and Services of Heirs entry for executors, relatives, residence or medical training. No birth/death date, merger or live WikiTree save follows.

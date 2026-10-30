@@ -6231,8 +6231,8 @@
     },
     "Glasgow-4124": {
       "draft_path": "research/Glasgow-4124/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record accounts: Possible Captain Glasgow, brig Ann and Larne passenger reports, 1788; Possible James Glascow, Fogs Manor postal addressee; Possible James Glascow, master of Greenwich Packet; and 1 other record accounts. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record accounts: Possible Captain Glasgow, brig Ann and Larne passenger reports, 1788; Possible James Glascow, Fogs Manor postal addressee; Possible James Glascow, master of Greenwich Packet; and 1 other record accounts. Retain the stated identity and relationship limits.",
+      "summary": "Add new confident father James Glasgow-2682 and mother Duffe-18, each95%, from the1733named-family index and surgeon identity comparison. Retain Surf/Swift limitation and all newspaper comparisons. Add the cited record accounts: Possible Captain Glasgow, brig Ann and Larne passenger reports, 1788; Possible James Glascow, Fogs Manor postal addressee; Possible James Glascow, master of Greenwich Packet; and 1 other record accounts. Retain the stated identity and relationship limits.",
+      "work_queue_summary": "Add new confident father James Glasgow-2682 and mother Duffe-18, each95%, from the1733named-family index and surgeon identity comparison. Retain Surf/Swift limitation and all newspaper comparisons. Add the cited record accounts: Possible Captain Glasgow, brig Ann and Larne passenger reports, 1788; Possible James Glascow, Fogs Manor postal addressee; Possible James Glascow, master of Greenwich Packet; and 1 other record accounts. Retain the stated identity and relationship limits.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -6244,7 +6244,37 @@
         "subject-newspapers-early-glasgow-james-glasgow-edinburgh-game-1789"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "preservation_review_path": "research/ancestry-connections/edinburgh-surgeon-preservation-2026-10-30.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-10-30",
+      "manual_update": true,
+      "significance": 95,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-2682",
+          "relative_name": "James Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 95,
+          "previous_status": "absent",
+          "assertion_id": "clm-edinburgh-surgeon-father-20261030",
+          "scope": "Explicit1733parental clause; identity with the existing Saltoun Swift surgeon inferred at95%. Surf/Swift unresolved; printed index, original uninspected. Prior WikiTree Father0/Mother0 checked30October2026."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Duffe-18",
+          "relative_name": "Isobell/Elizabeth Duffe",
+          "status": "strongly_supported",
+          "probability_percent": 95,
+          "previous_status": "absent",
+          "assertion_id": "clm-edinburgh-surgeon-mother-20261030",
+          "scope": "Explicit1733parental clause; identity with the existing Saltoun Swift surgeon inferred at95%. Surf/Swift unresolved; printed index, original uninspected. Prior WikiTree Father0/Mother0 checked30October2026."
+        }
+      ]
     },
     "Glasgow-4129": {
       "draft_path": "research/Glasgow-4129/father-confidence-2026-10-22f.wiki",
@@ -8430,13 +8460,13 @@
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
-      "summary": "Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%.",
-      "work_queue_summary": "Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%.",
+      "summary": "Add1733surgeon-household comparison; do not identify apprentice with surgeon or alter father82%/mother72%. Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%.",
+      "work_queue_summary": "Add1733surgeon-household comparison; do not identify apprentice with surgeon or alter father82%/mother72%. Selected household father James-2682 remains probable82%, mother Duffe-18 probable72%, brother comparison79%; proposed grandfather Robert61% depends on the father’s older-weaver identity70%.",
       "significance": 88,
       "draft_path": "research/Glasgow-4114/edinburgh-older-weaver-2026-10-21.wiki",
       "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''James Glasgow''' was probably born about 1680. This is an uncertain estimate from his 1696 apprenticeship; his age and birthplace were not recorded. Edinburgh is usable only as an uncertain location inferred from the apprenticeship and his father's burgess status.\n\nOn 22 April 1696 James, son of James Glasgow, weaver and burgess, was entered as apprentice to William Adam, apothecary and burgess of Edinburgh.<ref name=\"Apprentice1696\">Henry Paton, ed., [https://www.tradeshouselibrary.org/uploads/4/7/7/2/47723681/edinburgh_apprentices_~_1666_to_1700_~_1929.pdf ''Register of Apprentices of the City of Edinburgh, 1666–1700''] (Scottish Record Society, 1929), printed p. 37, entry dated 22 April 1696; see also Findmypast, [https://www.findmypast.co.uk/transcript?id=SCOT%2FEDINBURGH%2FAPPRENTICES%2F0005161%2F1&tab=this transcript SCOT/EDINBURGH/APPRENTICES/0005161/1], captured 3 September 2026.</ref>\n\n== Research Notes ==\n\nThe Findmypast transcript renders the master as William Adamson. The published register reads “Wm. Adam”; that reading is used here.\n\n[[Glasgow-1150|James Glasgow]], the documented Edinburgh weaver and burgess, is probably the father. He was admitted burgess in 1649 and was still acting as a weaver, burgess and apprenticeship master in 1693. The published register also places a Robert, son of James Glasgow, weaver, in an apprenticeship in 1672 and a Thomas, youngest son of James Glasgow, weaver and burgess, in one in 1699. This is a coherent later-child group around the same burgh craftsman, but neither the 1696 nor 1699 entry names a mother. The father attachment should remain uncertain pending a baptism, testament or incorporation record with a second identifier.\n\nThis James is not the 1690 apprentice, whose father was explicitly deceased. [[Glasgow-1376|James Glasgow]] is excluded because his former 1657 birth was a record-role error based on Marion Glasgow's baptism and his remaining identity has no apothecary-apprenticeship evidence.\n\n== Sources ==\n<references />",
       "findings_path": "research/Glasgow-4114/findings.md",
-      "preservation_review_path": "research/ancestry-connections/edinburgh-older-weaver-preservation-2026-10-21.json",
+      "preservation_review_path": "research/ancestry-connections/edinburgh-surgeon-preservation-2026-10-30.json",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "relationship_changes": [
@@ -8464,7 +8494,7 @@
         }
       ],
       "prior_work_summary": "James Glasgow-4114 and Thomas Glasgow-3285 are now probable brothers, 79%. The selected father James-1150 remains probable 76%; no baptismal identity or mother is selected.",
-      "biography_rechecked_at": "2026-10-21",
+      "biography_rechecked_at": "2026-10-30",
       "preservation_review_history": [
         "research/ancestry-connections/duffe-mother-preservation-2026-10-21.json"
       ]
@@ -8552,11 +8582,11 @@
     "Glasgow-2682": {
       "queued_at": "2026-10-21",
       "status": "OPEN",
-      "significance": 82,
-      "summary": "Add new probable father Robert Glasgow-1156 (61%) and correct the birth estimate to before 16 June 1641, conditional on probable identity with James-1150 (70%); retain former Johnne (26%) as an alternative.",
+      "significance": 86,
+      "summary": "Add confident naval-surgeon son James Glasgow-4124 at95% from the1733index; retain own father61%, older-weaver identity70%, and apprentice grades. Add new probable father Robert Glasgow-1156 (61%) and correct the birth estimate to before 16 June 1641, conditional on probable identity with James-1150 (70%); retain former Johnne (26%) as an alternative.",
       "manual_update": true,
       "draft_path": "research/Glasgow-2682/edinburgh-older-weaver-2026-10-21.wiki",
-      "preservation_review_path": "research/ancestry-connections/edinburgh-older-weaver-preservation-2026-10-21.json",
+      "preservation_review_path": "research/ancestry-connections/edinburgh-surgeon-preservation-2026-10-30.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
@@ -8574,11 +8604,11 @@
       ],
       "profile_id": "Glasgow-2682",
       "pending": true,
-      "work_queue_summary": "Add new probable father Robert Glasgow-1156 (61%) and correct the birth estimate to before 16 June 1641, conditional on probable identity with James-1150 (70%); retain former Johnne (26%) as an alternative.",
+      "work_queue_summary": "Add confident naval-surgeon son James Glasgow-4124 at95% from the1733index; retain own father61%, older-weaver identity70%, and apprentice grades. Add new probable father Robert Glasgow-1156 (61%) and correct the birth estimate to before 16 June 1641, conditional on probable identity with James-1150 (70%); retain former Johnne (26%) as an alternative.",
       "remote_wikitext": "== Biography ==\nThe parentage and birth date for James Glasgow are not yet known. Based on the birth of his first known child in 1677, he was likely born by about 1657.\n\nHe was married to [[Duffe-18|Isobell Duffe]]. Her name is recorded as \"Issobell Duff\" or \"Issobell Duffe\" in the christening records of most of their children.\n\nJames and Issobell had the following children, all christened in Edinburgh Parish, Midlothian, Scotland:\n* [[Glasgow-3088|Jean Glasgow]], christened 13 April 1677.<ref name=\"Jean1677\">\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XTPF-7YB : 11 February 2020), James Glasgow in entry for Jean Glasgow, 1677.</ref>\n* [[Glasgow-3103|James Glasgow]], christened 16 March 1679.<ref name=\"James1679\">\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-Q9J : 11 February 2020), James Glasgow in entry for James Glasgow, 1679.</ref> (See Research Notes regarding mother's name on this record).\n* [[Glasgow-3368|James Glasgow]], christened 18 April 1680.<ref name=\"James1680\">\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-8S4 : 11 February 2020), James Glasgow in entry for James Glasgow, 1680.</ref> The christening of a second son with the same name strongly suggests the first James died in infancy.\n* [[Glasgow-3284|Mary Glasgow]], christened 23 April 1682.<ref name=\"Mary1682\">\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQCM-LLH : 11 February 2020), James Glasgow in entry for Mary Glasgow, 1682.</ref>\n* [[Glasgow-3285|Thomas Glasgow]], christened 13 November 1684.<ref name=\"Thomas1684\">\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-N9X : 11 February 2020), James Glascow in entry for Thomas Glascow, 1684.</ref>\n* [[Glasgow-2681|Margaret Glasgow]], christened 20 March 1691.<ref name=\"Margaret1691\">\"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FM3W-XBN : 11 February 2020), James Glasgow in entry for Margarett Glasgow, 1691.</ref>\n\nThe date and place of James's death are unknown, but he was alive as of March 1691.\n== Research Notes ==\n'''Identifying the parents of James Glasgow is a top research priority.''' Several contemporary men named James Glasgow who were also having children in Edinburgh at the same time have been investigated and ruled out as being the same person, though they are likely relatives (e.g., brothers or cousins). These include:\n*   '''[[Glasgow-3098|James Glasgow (b. 1631)]]''', who was married to Bessie Whyte.\n*   '''[[Glasgow-3077|James Glasgow (b. bef. 1640)]]''', who was married to Helen Clerk.\n*   '''[[Glasgow-3337|James Glasgow (b. ca. 1640)]]''', who was married to Annapill Glessie.\n\nSince our James was consistently recorded with his wife, [[Duffe-18|Isobell Duffe]], it is highly unlikely he is the same person as any of the men listed above.\n\n*   '''Parentage is Unknown:''' The parents of James are not yet confirmed. The original profile suggested he might descend from the Midlothian line of [[Glasgow-1168|James Glasgow (abt.1540-1580)]], perhaps as a son of [[Glasgow-1151|Johne Glasgow (1632-)]] or [[Glasgow-1084|John Glasgow (bef.1616-)]]. This is speculative and requires further research to find a primary source linking him to a father.\n*   '''Conflicting Mother's Name:''' The 1679 christening record for his son [[Glasgow-3103|James]] lists the mother's name as \"Elizabeth Duffe\" instead of \"Issobell\". As all other children's records name her as Issobell, and given the commonality of clerical errors, it is most likely that \"Elizabeth\" was a mistake by the parish clerk.\n*   '''Future Research:''' The highest priority is to find a marriage record for James Glasgow and Issobell Duffe in the Edinburgh parish registers, likely dated before April 1677. A search for burial records for both James and Issobell after March 1691 should also be conducted.\n\n== Sources ==\n<references />",
       "findings_path": "research/Glasgow-2682/findings.md",
       "prior_work_summary": "The older Edinburgh weaver James Glasgow-1150 is a compatible possible identity: Agnes Duncan’s 1674 burial precedes the Duffe children. The 1696 James and 1699 Thomas apprentices are probable brothers, 79%. The current speculative Johnne father is conditional on this being a distinct younger James.",
-      "biography_rechecked_at": "2026-10-21",
+      "biography_rechecked_at": "2026-10-30",
       "preservation_review_history": [
         "research/ancestry-connections/duffe-apprentice-preservation-2026-10-20.json"
       ],
@@ -10296,15 +10326,15 @@
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
-      "summary": "The qualified Duffe maternal household and apprentice motherhood72% are unchanged; the husband probably represents the older1641/1649 weaver70%, without transferring this woman to his earlier children.",
-      "work_queue_summary": "The qualified Duffe maternal household and apprentice motherhood72% are unchanged; the husband probably represents the older1641/1649 weaver70%, without transferring this woman to his earlier children.",
-      "significance": 69,
+      "summary": "Add confident naval-surgeon son James Glasgow-4124 at95% from the explicit1733maternal clause; preserve Isobel/Elizabeth distinction and apprentice maternity72%. The qualified Duffe maternal household and apprentice motherhood72% are unchanged; the husband probably represents the older1641/1649 weaver70%, without transferring this woman to his earlier children.",
+      "work_queue_summary": "Add confident naval-surgeon son James Glasgow-4124 at95% from the explicit1733maternal clause; preserve Isobel/Elizabeth distinction and apprentice maternity72%. The qualified Duffe maternal household and apprentice motherhood72% are unchanged; the husband probably represents the older1641/1649 weaver70%, without transferring this woman to his earlier children.",
+      "significance": 86,
       "draft_path": "research/Duffe-18/edinburgh-older-weaver-2026-10-21.wiki",
       "findings_path": "research/Duffe-18/findings.md",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/edinburgh-older-weaver-preservation-2026-10-21.json",
-      "biography_rechecked_at": "2026-10-21",
+      "preservation_review_path": "research/ancestry-connections/edinburgh-surgeon-preservation-2026-10-30.json",
+      "biography_rechecked_at": "2026-10-30",
       "relationship_changes": [],
       "remote_wikitext": "== Biography == \n\nElizabeth was born in 1660. \n\n \n\nIsobell was likely born before 1660. \n\n* \"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:FM3W-XBF : 11 February 2020), Margarett Glasgow, 1691.\n* \"Scotland Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:XTPF-7YY : 11 February 2020), Jean Glasgow, 1677.\n\n== Sources ==\n<references />\n\n* \"Scotland, Births and Baptisms, 1564-1950\", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQC9-Q9N : 11 February 2020), James Glasgow, 1679.",
       "preservation_review_history": [
