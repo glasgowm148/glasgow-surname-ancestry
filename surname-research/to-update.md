@@ -4415,3 +4415,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 ## 30 October 2026 — Findmypast pages 30–32
 
 | [Montgomry Glasgow](https://www.wikitree.com/wiki/Glasgow-1234) | OPEN | Record explicit birth 13 October 1760, retain baptism 16 December, current 92% father assessment and complete sourced proposal. |
+
+## 30 October 2026 — Norfolk1692 acquisition
+
+| [Daniel Glasgow senior](https://www.wikitree.com/wiki/Glasgow-3322) | OPEN | Add the inspected1692Miller/Glascock acquisition and corrected1714Miller reading; retain parent ratings and vital fields. |
+| [Daniel Glasgow, duplicate comparison](https://www.wikitree.com/wiki/Glasgow-1158) | OPEN | Add the inspected1692Miller/Glascock acquisition and corrected1714Miller reading; retain parent ratings and vital fields. |
+| [William Glasgow, qualified family comparison](https://www.wikitree.com/wiki/Glasgow-428) | OPEN | Add the inspected1692Miller/Glascock acquisition and corrected1714Miller reading; retain parent ratings and vital fields. |

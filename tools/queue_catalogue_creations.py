@@ -37,6 +37,23 @@ def _write(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
 
+def creation_routes(web, slugs):
+    """Register reviewed local people in the existing shared route map."""
+    path = web / 'assets/unified/routes.js'
+    if not path.exists():
+        return None
+    text = path.read_text(encoding='utf-8')
+    prefix = 'window.GlasgowRoutes='
+    if not text.startswith(prefix):
+        raise ValueError('Unsupported unified route schema')
+    routes, end = json.JSONDecoder().raw_decode(text[len(prefix):])
+    for slug in slugs:
+        if slug in routes and routes[slug] != slug:
+            raise ValueError(f'{slug}: reviewed creation conflicts with an existing route alias')
+        routes[slug] = slug
+    return prefix + json.dumps(routes, ensure_ascii=False, separators=(',', ':')) + text[len(prefix) + end:]
+
+
 def reviewed_people(root=ROOT, catalogue_ids=None):
     """Return validated public historical subjects; fail before any writes."""
     root = Path(root).resolve()
@@ -286,6 +303,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
             raise ValueError(f"{entry['catalogue_id']}: source rows did not consolidate to one person")
         people.append(decorate_person(built[0], entry))
     web = root / "www"
+    routes_content = creation_routes(web, [p['catalogue_id'] for p in people])
     combined = _read(web / "data/people.json", {"people": []})
     for person in people:
         for old in combined["people"]:
@@ -355,6 +373,8 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     _write(web / "data/catalogue-search-index.json", search)
     _write(web / "data/people-index.json", _merge(public_index, [compact_resolver_row(row) for row in resolver], "catalogue_id"))
     (web / "data/people-index.js").write_text("window.glasgowPeopleIndex=" + json.dumps(search, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
+    if routes_content is not None:
+        (web / 'assets/unified/routes.js').write_text(routes_content, encoding='utf-8')
     return {"integrated": [p["catalogue_id"] for p in people], "count": len(people)}
 
 

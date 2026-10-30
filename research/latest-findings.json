@@ -58976,35 +58976,6 @@
       "detail_url": "/people/glasgow-3398.html"
     },
     {
-      "id": "norfolk-daniel-moyock-1692-title-20261025",
-      "found_on": "2026-10-25",
-      "kind": "record",
-      "status": "qualified",
-      "finding": "Original 1714 Moyock deeds trace Daniel senior’s separate 100-acre title back to a recited purchase on 16 May 1692; Daniel junior witnesses and Mary joins the release.",
-      "qualification": "The 100-acre Willson parcel is distinct from the 80 acres inherited through John Gamon and from the 100-acre Henry Slade parcel sold in 1729. Shared acreage alone does not join those titles. The same court day, Moyock residence, Mary, Daniel junior and John Nicholls strongly identify the senior as the father in the separately proved Gamon deed. This adds chronology and a witness network, without naming William Glasgow-428 as a son or resolving junior’s later identity. Father ratings remain junior→Glasgow-3322 98%, William-428→Daniel-1158 42%, Daniel-1158→Robert-1157 12%, and Daniel-3322→Robert-1157 34%. The 1692 conveyance is known from the 1714 recital, not an inspected 1692 original. An alternate filming and an inventory false positive were excluded from new-record counts.",
-      "people": [
-        {
-          "id": "Glasgow-3322",
-          "name": "Daniel Glasgow senior",
-          "url": "/people/glasgow-3322.html"
-        },
-        {
-          "name": "Daniel Glasgow junior",
-          "url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-junior-1714"
-        }
-      ],
-      "sources": [
-        {
-          "title": "Norfolk County, Virginia, Deed Book 9 (1710–1717), pp. 348–350; Daniel Glasgow to Thomas Willson, lease 15 September and release 16 September 1714, acknowledged 17 September 1714; FamilySearch DGS 007645618, images 523–525.",
-          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
-        }
-      ],
-      "detail_url": "/people/glasgow-3322.html",
-      "provenance": [
-        "research/ancestry-connections/norfolk-moyock-title-review-2026-10-25.json"
-      ]
-    },
-    {
       "id": "fmp-page27-existing-people-20261025",
       "found_on": "2026-10-25",
       "kind": "record",
@@ -62039,6 +62010,73 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
+    },
+    {
+      "id": "norfolk-daniel-moyock-1692-title-20261025",
+      "found_on": "2026-10-25",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Original 1714 Moyock deeds trace Daniel senior’s separate 100-acre title back to a recited purchase on 16 May 1692; Daniel junior witnesses and Mary joins the release.",
+      "qualification": "The 100-acre Miller parcel is distinct from the 80 acres inherited through John Gamon and from the 100-acre Henry Slade parcel sold in 1729. Shared acreage alone does not join those titles. The same court day, Moyock residence, Mary, Daniel junior and John Nicholls strongly identify the senior as the father in the separately proved Gamon deed. This adds chronology and a witness network, without naming William Glasgow-428 as a son or resolving junior’s later identity. Father ratings remain junior→Glasgow-3322 98%, William-428→Daniel-1158 42%, Daniel-1158→Robert-1157 12%, and Daniel-3322→Robert-1157 34%. Follow-up30October2026: the1692original was located and inspected; both originals name Thomas Miller, correcting Willson. The original discovery remains dated25October. An alternate filming and an inventory false positive were excluded from new-record counts.",
+      "people": [
+        {
+          "id": "Glasgow-3322",
+          "name": "Daniel Glasgow senior",
+          "url": "/people/glasgow-3322.html"
+        },
+        {
+          "name": "Daniel Glasgow junior",
+          "url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-junior-1714"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norfolk County, Virginia, Deed Book 9 (1710–1717), pp. 348–350; Daniel Glasgow to Thomas Miller, lease 15 September and release 16 September 1714, acknowledged 17 September 1714; FamilySearch DGS 007645618, images 523–525.",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
+        }
+      ],
+      "detail_url": "/people/glasgow-3322.html",
+      "provenance": [
+        "research/ancestry-connections/norfolk-moyock-title-review-2026-10-25.json"
+      ],
+      "reviewed_on": "2026-10-30"
+    },
+    {
+      "id": "norfolk-daniel-1692-original-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The original conveyance of 16 May 1692, acknowledged in Norfolk court on 17 May, names Daniel Glascock of Norfolk County as purchaser of 100 acres from Thomas Miller and Elizabeth his wife. It identifies Miller’s 800-acre patent of 20 April 1689 and land on the Northwest River between the two Indian Creeks. The inspected 1714 lease repeats that patent, acreage, deed date, acknowledgment and particular land description for Daniel Glasgow’s earlier acquisition. These linked title particulars identify the 1692 Glascock purchaser with the 1714 Glasgow senior, rather than relying on surname resemblance alone. Reinspection of the 1714 original also confirms Thomas Miller: the earlier Willson reading is corrected.",
+      "qualification": "Elizabeth is Miller’s wife, not Daniel’s. The 1692 deed names neither Daniel’s father nor a wife or son of Daniel. It does not connect the separate Gamon 80-acre tract or Slade 100-acre tract, identify junior’s later family, establish Scottish origin or resolve whether Glasgow-1158 duplicates the senior account Glasgow-3322. Existing father ratings and all vital fields remain unchanged. The earlier1714record retains its stable record ID despite its superseded Willson slug. No father-confidence gain is counted.",
+      "people": [
+        {
+          "id": "Glasgow-3322",
+          "name": "Daniel Glasgow senior",
+          "url": "/people/glasgow-3322.html",
+          "role": "1692Glascock purchaser linked to1714Glasgow senior by exact title"
+        },
+        {
+          "id": "Glasgow-1158",
+          "name": "Daniel Glasgow, possible duplicate senior account",
+          "url": "/people/glasgow-1158.html",
+          "role": "Unresolved profile duplication; no merge or reassignment"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norfolk County, Virginia, Deed Book4–5(1675–1695), DGS007676197,item1,image201,left page; Thomas Miller and Elizabeth to Daniel Glascock,16May1692, acknowledged17May1692. Original register image inspected30October2026.",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C9TX-J3KL"
+        },
+        {
+          "title": "Norfolk Deed Book9,pp348–350,15–17September1714; acquisition recital and Miller reading",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
+        }
+      ],
+      "detail_url": "/people/glasgow-3322.html",
+      "provenance": [
+        "research/ancestry-connections/norfolk-moyock-title-review-2026-10-25.json"
+      ]
     }
   ]
 }

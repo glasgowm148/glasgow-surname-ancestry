@@ -163,6 +163,21 @@ class CanonicalRecordIngestTest(unittest.TestCase):
             apply(self.root, ['new-canonical-id'], refresh_sources=False)
         self.assertEqual(path.read_bytes(), before)
 
+    def test_retained_record_identity_replaces_its_earlier_canonical_alias(self):
+        url = 'https://example.org/register/page1'
+        self.canonical['source_url'] = url
+        self.canonical.pop('provider_record_id')
+        self.put('research/canonical_records.json', [self.canonical])
+        self.source['url'] = url
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        self.put('www/data/records-index.json', [self.unrelated,
+            dict(record_id='stable-record', source_url=url, profile_ids='Glasgow-32'),
+            dict(record_id='new-canonical-id', source_url=url, profile_ids='Glasgow-99')])
+        self.put('www/assets/research/record-index.json', [dict(id='stable-record'), dict(id='new-canonical-id')])
+        writes = plan(self.root, ['new-canonical-id'])
+        self.assertEqual([r['record_id'] for r in writes[self.web / 'data/records-index.json']], ['unrelated', 'stable-record'])
+        self.assertEqual([r['id'] for r in writes[self.web / 'assets/research/record-index.json']], ['stable-record'])
+
     def test_reviewed_will_category_reaches_full_and_compact_indexes(self):
         self.canonical.update(record_category='Wills and probate',
                               association='James Glasgow, nephew in a will abstract')

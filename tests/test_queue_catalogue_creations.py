@@ -114,6 +114,30 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertNotIn("Side-by-side", soup.get_text())
         self.assertNotIn("baptism", soup.get_text())
 
+    def test_creation_registers_local_route_and_preserves_other_script_data(self):
+        path = self.root / 'www/assets/unified/routes.js'
+        path.parent.mkdir(parents=True)
+        suffix = ';\nwindow.GlasgowIcons={"keep":"icon"};\n'
+        path.write_text('window.GlasgowRoutes={"glasgow-1521":"glasgow-1521"}' + suffix)
+        module.apply_creations(self.root)
+        text = path.read_text()
+        routes, _ = json.JSONDecoder().raw_decode(text[len('window.GlasgowRoutes='):])
+        self.assertEqual(routes[self.slug], self.slug)
+        self.assertEqual(routes['glasgow-1521'], 'glasgow-1521')
+        self.assertTrue(text.endswith(suffix))
+        module.apply_creations(self.root)
+        self.assertEqual(path.read_text(), text)
+
+    def test_creation_does_not_overwrite_a_reviewed_route_alias(self):
+        path = self.root / 'www/assets/unified/routes.js'
+        path.parent.mkdir(parents=True)
+        text = 'window.GlasgowRoutes=' + json.dumps({self.slug: 'glasgow-1521'}) + ';'
+        path.write_text(text)
+        with self.assertRaisesRegex(ValueError, 'existing route alias'):
+            module.apply_creations(self.root)
+        self.assertEqual(path.read_text(), text)
+        self.assertFalse((self.root / f'www/people/{self.slug}.html').exists())
+
     def test_canonical_findings_override_manifest_and_preserve_hold_candidates(self):
         self.entry.update(creation_status="identity_hold", candidates=[
             {"name": f"Candidate {i}", "profile_id": f"Glasgow-{9000+i}", "status": "HOLD"} for i in range(6)

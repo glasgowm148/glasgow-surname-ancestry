@@ -269,6 +269,7 @@ def plan(root: Path, record_ids: list[str]):
     writes = {}
     new_full, new_compact, selected_docs = [], [], set()
     source_records = {}
+    record_aliases = set()
     seen_providers = set()
     for rid in record_ids:
         row = lookup[rid]
@@ -295,6 +296,11 @@ def plan(root: Path, record_ids: list[str]):
             rid = previous_rows[0]['record_id']
             if not re.fullmatch(r'[a-zA-Z0-9_-]+', rid):
                 raise ValueError('Unsafe existing record ID')
+            if rid != row['record_id']:
+                aliases = [r for r in full if r['record_id'] == row['record_id']]
+                if any(provider_key(r) != provider for r in aliases):
+                    raise ValueError('Canonical record alias has a different source URL')
+                record_aliases.add(row['record_id'])
         year = row.get('year')
         current_year = date.today().year
         undated = 'year' in row and year is None and row.get('date_status') == 'undated'
@@ -444,8 +450,8 @@ def plan(root: Path, record_ids: list[str]):
         doc['members'] = list(dict.fromkeys([*doc.get('members', []), *(p['id'] for p, _ in linked)]))
         selected_docs.add(sid)
         writes[web / f'assets/research/records/{rid}.json'] = record
-    full = merge(full, new_full, 'record_id')
-    compact = merge(compact, new_compact, 'id')
+    full = merge([r for r in full if r['record_id'] not in record_aliases], new_full, 'record_id')
+    compact = merge([r for r in compact if r['id'] not in record_aliases], new_compact, 'id')
     source_rows = []
     for sid in selected_docs:
         doc = docs[sid]
