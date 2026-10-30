@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: Thomas baptism 2 August 1761, Currie by Edinburgh, John Glasgow and Mary Robertson. Companion of the held OPR birth 26 July; no additional birth field or independent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed 30 October 2026: the maintained birth field now adopts 26 July 1761, distinct from baptism 2 August 1761. The prior structured date is preserved in assessment history; original register uninspected and all family assessments unchanged.
 
 Father reviewed22October2026: Glasgow-1343 remains selected at 97% (proved). Thomas’s 1761 Currie baptism names John Glasgow and Mary Robertson. The selected John profile is the maintained John/Mary Robertson household, so both parental names and the child event identify a specific family. The obsolete Glasgow-1606 title redirects to Glasgow-1343, verified as public UID28951547 on30October2026; this normalizes the identifier without adding kinship evidence. Recorded 1761 child and named couple97%; the 30 October review adopts explicit birth 26 July and retains baptism 2 August, superseding the inherited 8 September model while preserving the older partial “Birth Date 8” reading. John’s own childhood is separate. Original uninspected.
@@ -130,3 +132,11 @@ Next: inspect originals and recover deferred transcript fields after provider ac
 ## Repeated Thomas name — 30 October 2026
 
 The 1796 birth and 17 July 1796 baptism are distinct events from the 8 June 1800 baptism, but do not establish two people or an early death. [Glasgow-3347](/people/glasgow-3347.html) remains a compatible child candidate; its exact imported 1800 birthday was derived from baptism and is now bounded by that day. No child, parent or death is invented.
+
+## Recovered Findmypast detail review — 30 October 2026
+
+Thomas baptism 2 August 1761, Currie by Edinburgh, John Glasgow and Mary Robertson. Companion of the held OPR birth 26 July; no additional birth field or independent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [R_688348923](https://www.findmypast.co.uk/transcript?id=R_688348923) — Recorded child; exact baptism and parental couple match the held Currie account.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

@@ -3,6 +3,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed 17 October 2026. The inspected FamilySearch marriage index names Robert Glasgow and Agnes Whitehead at Eccles on 4 April 1779. A separately inspected baptism index names them as parents of James Glasgow, christened at Eccles on 30 December 1779. Its birth field contains only “12”, which is not a complete birthday. The source supports an earlier James child; John, born in 1786 in the captured family account, is not the first known son. The index pages are derivative records; no original register image was inspected.
 
 Robert’s possible father James Glasgow-1238 is assessed at 34%. That hypothesis concerns Robert’s ancestry, not Agnes’s parents or birth. Her captured 30 March 1756 Muthill birth remains a profile claim; the inspected marriage index gives no age or parents.
@@ -55,3 +57,12 @@ Next question: Compare the original Eccles register and existing Robert/Agnes fa
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+
+## Recovered Findmypast detail review — 30 October 2026
+
+Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [PRS/SCOTLAND/MI/ADD/5/00542644](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644) — Candidate named wife Agnes Whitehead in the same family inscription.
+- [PRS/SCOTLAND/MI/ADD/5/00542645](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645) — Candidate named wife Agnes Whitehead in the same family inscription.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

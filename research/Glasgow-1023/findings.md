@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed 30 October 2026: the maintained birth field now adopts 5 November 1725, distinct from baptism 7 November 1725. The prior structured date is preserved in assessment history; original register uninspected and all family assessments unchanged.
 
 Reviewed 23 October 2026.
@@ -80,3 +82,12 @@ Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November
 - [SCOT/OPR/BAP/3626888](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this) — Previously cited subject; not a new source discovery.
 
 Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [R_685841157](https://www.findmypast.co.uk/transcript?id=R_685841157) — Named father comparison in existing Janet Mill household; adult ancestry separate.
+- [R_692406065](https://www.findmypast.co.uk/transcript?id=R_692406065) — Named father comparison in existing Janet Mill household; adult ancestry separate.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

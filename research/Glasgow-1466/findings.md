@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
 
 Peter’s 1762 West Calder child index names John Glasgow and Margaret Mill. The existing John/Margaret Mill family is a specific adult household and the 1740 Irvine John has a compatible22-year generation. The remaining Irvine-child to West-Calder-adult transition lacks a direct bridge. Complete father-profile placement79%; the 1762 record father role is explicit, while John’s earlier identity is inferred. Original uninspected.
@@ -42,3 +44,11 @@ Peter Glasgow, weaver aged 56, died 4 November 1818 and was buried 7 November at
 - [SCOT/OPR/BUR/1580515](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1580515&tab=this) — Age-compatible Peter comparison only; Edinburgh death not assigned.
 
 Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [SCOT/OPR/BAP/4122049](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049) — Candidate named father Peter; Peter childhood/adult identification retains existing 81% limit.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

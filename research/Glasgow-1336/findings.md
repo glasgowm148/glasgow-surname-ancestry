@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
 
 Reviewed 23 October 2026.
@@ -63,3 +65,12 @@ Compatible recorded Andrew father in existing Clerk household; adult continuity 
 
 These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE18-20261024 -->
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [R_686209953](https://www.findmypast.co.uk/transcript?id=R_686209953) — Candidate named father Andrew in existing Clerk household; adult identification retains limits.
+- [R_691906112](https://www.findmypast.co.uk/transcript?id=R_691906112) — Candidate named father Andrew in existing Clerk household; adult identification retains limits.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

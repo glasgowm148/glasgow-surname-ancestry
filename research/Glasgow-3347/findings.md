@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed 30 October 2026: The held FamilySearch citation labels 8 June 1800 as christening, not an explicit birthday. Replace the inherited exact birth with the inclusive upper bound by 8 June 1800, encoded as before 9 June. This includes a possible same-day birth; 9 June is an exclusive boundary, not a claimed birthday. The 1796 Thomas to the same named parental couple remains a possible identity: two baptism entries alone do not establish brothers or an early death. Retain parent assessments, the older birth claim and both source events; no merge or new person. Original register uninspected.
 
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1620](https://www.wikitree.com/wiki/Glasgow-1620). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
@@ -27,3 +29,14 @@ Held source basis: ["Scotland Births and Baptisms, 1564-1950", database, FamilyS
 The held FamilySearch citation labels 8 June 1800 as christening, not an explicit birthday. Replace the inherited exact birth with the inclusive upper bound by 8 June 1800, encoded as before 9 June. This includes a possible same-day birth; 9 June is an exclusive boundary, not a claimed birthday. The 1796 Thomas to the same named parental couple remains a possible identity: two baptism entries alone do not establish brothers or an early death. Retain parent assessments, the older birth claim and both source events; no merge or new person. Original register uninspected.
 
 Source: [held FamilySearch baptism abstract](https://familysearch.org/ark:/61903/1:1:VQ4K-TVX). [Inspected 1796 birth derivative](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478159) names the same parental couple; it is retained as a candidate, with no person creation or family merge.
+
+## Recovered Findmypast detail review — 30 October 2026
+
+Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [SCOT/OPR/BAP/4477789](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477789) — Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth.
+- [SCOT/OPR/BAP/4476988](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476988) — Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth.
+- [R_686210500](https://www.findmypast.co.uk/transcript?id=R_686210500) — Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth.
+- [R_691906822](https://www.findmypast.co.uk/transcript?id=R_691906822) — Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

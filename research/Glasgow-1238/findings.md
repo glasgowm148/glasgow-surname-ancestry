@@ -3,6 +3,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed 23 October 2026.
 
 [David Glasgow](/people/glasgow-1218.html) → [James Glasgow](/people/glasgow-1238.html): 97% → **70% (probable)**. The 1744 Stichill child account names James and Elizabeth, supported by their 1740 marriage and subsequent local children; its recorded-child father clause retains 97% conditional confidence. Identifying this child with the 1767 David/Janet Hood adult is plausible at age about 23 in neighbouring Borders parishes and with a later son James. The held regional comparison records no suitable competing David, but no marriage or residence continuity directly bridges these identities. The complete adult-to-James-1238 placement is assessed 70%. The previous 97% measured the 1744 child’s parentage, not the complete later adult ancestry. Preserve it conditionally; no contradictory parent clause has been found. Andrew’s 95% identifies the 1767 father without establishing his childhood. Kelso militia/weaver, Edinburgh, Ireland and William Glass/Tristan da Cunha identities remain separate. Original register images uninspected.
@@ -116,3 +118,11 @@ Role in this account: possible James/Elizabeth Tait household comparison only. O
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [R_686574919](https://www.findmypast.co.uk/transcript?id=R_686574919) — Candidate named father James in existing Tait household; adult childhood linkage remains separate.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

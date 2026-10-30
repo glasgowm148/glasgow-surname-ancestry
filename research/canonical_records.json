@@ -48643,175 +48643,229 @@
   {
     "record_id": "fmp-record-bmd-d-1871-4-az-000138-015",
     "provider_record_id": "BMD/D/1871/4/AZ/000138/015",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — death registration quarter",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1871",
+    "event_role": "Death registration quarter in inspected derivative; field conflicts qualified in note",
+    "date": "1871 Q4",
     "year": 1871,
-    "place": "Dartford, Kent, England",
+    "place": "Dartford",
     "country": "England",
     "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015",
     "source_title": "England & Wales Deaths 1837-2007 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1790, death 1871, event year 1871, location Dartford, Kent, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Thomas, male, Dartford Kent civil death registration fourth quarter 1871 age 81, volume 2A page 199. Birth about 1790 age-derived; district is not a proved birthplace or exact death location. No relatives or natal-surname evidence identify him; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/16",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1D~11871~14~1AZ~1000138~1015",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-bmd-d-1871-4-az-000138-015",
+    "documentary_group": "recovered-detail-10",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1790, death 1871, event year 1871, location Dartford, Kent, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/16",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-bmd-nbi-01614607",
     "provider_record_id": "BMD/NBI/01614607",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — burial date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1835",
+    "event_role": "Burial date in inspected derivative; field conflicts qualified in note",
+    "date": "21 Jan 1835",
     "year": 1835,
-    "place": "Chesham, Buckinghamshire, England",
+    "place": "Chesham",
     "country": "England",
     "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607",
     "source_title": "National Burial Index For England & Wales — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1767, death 1835, event year 1835, location Chesham, Buckinghamshire, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Thomas buried 21 January 1835 St Mary, Chesham, Buckinghamshire, Anglican, age 68. Birth about 1767 is age-derived; death year is indexed 1835 without an exact death date. No named relatives or childhood bridge establish an existing Thomas; no new person from the failed match. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/14",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~101614607",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-bmd-nbi-01614607",
+    "documentary_group": "recovered-detail-8",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1767, death 1835, event year 1835, location Chesham, Buckinghamshire, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/14",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-bmd-nbi-07447920",
     "provider_record_id": "BMD/NBI/07447920",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — burial date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1813",
+    "event_role": "Burial date in inspected derivative; field conflicts qualified in note",
+    "date": "03 Aug 1813",
     "year": 1813,
-    "place": "Berwick upon Tweed, Northumberland, England",
+    "place": "Berwick upon Tweed",
     "country": "England",
     "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07447920",
     "source_title": "National Burial Index For England & Wales — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1767, death 1813, event year 1813, location Berwick upon Tweed, Northumberland, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William buried 3 August 1813 Holy Trinity, Berwick upon Tweed, Northumberland, Anglican, age 46. Birth about 1767 age-derived. William-1223 baptised 1765 with uncertain circa-1820 death is not conclusively excluded by approximate age or uncertain death; retain comparison without assigning this burial or creating a person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/17",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~107447920",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-bmd-nbi-07447920",
+    "documentary_group": "recovered-detail-21",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1767, death 1813, event year 1813, location Berwick upon Tweed, Northumberland, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/17",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-gbprs-glasgow-bur-093175",
     "provider_record_id": "GBPRS/GLASGOW/BUR/093175",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — burial date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1768",
+    "event_role": "Burial date in inspected derivative; field conflicts qualified in note",
+    "date": "13 Dec 1768",
     "year": 1768,
     "place": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093175",
     "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Child/father identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1768, death 1768, event year 1768, location Glasgow High Church, Glasgow, Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William buried 13 December 1768 Glasgow High Church, age nine months, explicitly child of William Glasgow. Birth 1768 age-derived, no mother or exact death day. Both child and named father roles need identification; neither is an automatically new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/11",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093175",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-gbprs-glasgow-bur-093175",
+    "documentary_group": "recovered-detail-16",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1768, death 1768, event year 1768, location Glasgow High Church, Glasgow, Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/11",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-gbprs-lothian-fhs-bur-001369",
     "provider_record_id": "GBPRS/LOTHIAN/FHS/BUR/001369",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — burial date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1822",
+    "event_role": "Burial date in inspected derivative; field conflicts qualified in note",
+    "date": "11 Nov 1822",
     "year": 1822,
-    "place": "Currie, Midlothian, Scotland",
+    "place": "Currie",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001369",
     "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1750, death 1822, event year 1822, location Currie, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/19",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1LOTHIAN~1FHS~1BUR~1001369",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-gbprs-lothian-fhs-bur-001369",
+    "documentary_group": "recovered-detail-22",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1750, death 1822, event year 1822, location Currie, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/19",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-gbprs-scot-mis-204971",
     "provider_record_id": "GBPRS/SCOT/MIS/204971",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — death year",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
+    "event_role": "Death year in inspected derivative; field conflicts qualified in note",
     "date": "1866",
     "year": 1866,
-    "place": "Biggar, Lanarkshire, Scotland",
+    "place": "Biggar",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F204971",
     "source_title": "Scotland Monumental Inscriptions — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death 1866, event year 1866, location Biggar, Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Thomas, St Johns Kirk, Biggar, death 1866 age 84, indexed birth 1782. No exact day or inscription text is supplied. Date and natal surname remain unverified and existing Thomas comparisons unresolved; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/15",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1SCOT~1MIS~1204971",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-gbprs-scot-mis-204971",
+    "documentary_group": "recovered-detail-9",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death 1866, event year 1866, location Biggar, Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/15",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-gbprs-scot-mis-511333",
     "provider_record_id": "GBPRS/SCOT/MIS/511333",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — death year",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
+    "event_role": "Death year in inspected derivative; field conflicts qualified in note",
     "date": "1831",
     "year": 1831,
-    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "place": "Livingston",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333",
     "source_title": "Scotland Monumental Inscriptions — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified existing family comparison",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1746, death 1831, event year 1831, location Livingston, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Livingston family monument: one derivative gives Thomas death 22 July 1831 age 85, Christian Davidson 5 November 1795 age 43, Peter 12 September 1810 age 19, Janet 16 October 1853 age 76. Companion gives Thomas 22 May 1831 age 85, Christian age 45, Peter 12 September 1819 age 48 and Janet 16 October 1873 age 76; Russell grandchildren also differ. These readings were already held through other indexed family members. Preserve all discrepancies and current 1851 Thomas death pending original; no new fact adoption, independent corroboration or assessment change. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-1382": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
-        "timeline_group": "Records for identity comparison"
+        "role": "Named Thomas/Christian Davidson adult household comparison; conflicting family memorial readings",
+        "timeline_group": "Qualified source records"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/13",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1SCOT~1MIS~1511333",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-gbprs-scot-mis-511333",
+    "documentary_group": "recovered-detail-7",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1746, death 1831, event year 1831, location Livingston, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/13",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-1382": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-ire-bmd-d-617444158",
@@ -48842,127 +48896,185 @@
   {
     "record_id": "fmp-record-prs-scotland-mi-add-5-00542644",
     "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00542644",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — death date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1790",
+    "event_role": "Death date in inspected derivative; field conflicts qualified in note",
+    "date": "? Apr 1790",
     "year": 1790,
-    "place": "Eccles, Berwickshire, Scotland",
+    "place": "Eccles",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644",
     "source_title": "Scotland Monumental Inscriptions — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death 1790, event year 1790, location Eccles, Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/6",
+    "note": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-3706": {
+        "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Whitehead-9630": {
+        "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100542644",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-prs-scotland-mi-add-5-00542644",
+    "documentary_group": "recovered-detail-5",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death 1790, event year 1790, location Eccles, Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/6",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-prs-scotland-mi-add-5-00542645",
     "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00542645",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — death date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1791",
+    "event_role": "Death date in inspected derivative; field conflicts qualified in note",
+    "date": "27 Apr 1791",
     "year": 1791,
-    "place": "Eccles, Berwickshire, Scotland",
+    "place": "Eccles",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645",
     "source_title": "Scotland Monumental Inscriptions — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1788, death 1791, event year 1791, location Eccles, Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/7",
+    "note": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-3706": {
+        "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Whitehead-9630": {
+        "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100542645",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-prs-scotland-mi-add-5-00542645",
+    "documentary_group": "recovered-detail-5",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1788, death 1791, event year 1791, location Eccles, Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/7",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-prs-scotland-mi-add-5-00542646",
     "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00542646",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — death date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1831",
+    "event_role": "Death date in inspected derivative; field conflicts qualified in note",
+    "date": "22 Jul 1831",
     "year": 1831,
-    "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+    "place": "Livingston",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646",
     "source_title": "Scotland Monumental Inscriptions — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified existing family comparison",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1746, death 1831, event year 1831, location Livingston, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Livingston family monument: one derivative gives Thomas death 22 July 1831 age 85, Christian Davidson 5 November 1795 age 43, Peter 12 September 1810 age 19, Janet 16 October 1853 age 76. Companion gives Thomas 22 May 1831 age 85, Christian age 45, Peter 12 September 1819 age 48 and Janet 16 October 1873 age 76; Russell grandchildren also differ. These readings were already held through other indexed family members. Preserve all discrepancies and current 1851 Thomas death pending original; no new fact adoption, independent corroboration or assessment change. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-1382": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
-        "timeline_group": "Records for identity comparison"
+        "role": "Named Thomas/Christian Davidson adult household comparison; conflicting family memorial readings",
+        "timeline_group": "Qualified source records"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/12",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100542646",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-prs-scotland-mi-add-5-00542646",
+    "documentary_group": "recovered-detail-7",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1746, death 1831, event year 1831, location Livingston, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/12",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-1382": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-r-684962615",
     "provider_record_id": "R_684962615",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1784",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "19 Sep 1784",
     "year": 1784,
-    "place": "Lanarkshire, Scotland",
+    "place": "Wandell and Lamington",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_684962615",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1784, death —, event year 1784, location Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William baptised 19 September 1784 Wandell and Lamington, father William Glasgow, mother dash. Together with Thomas 1782 this is a same-parish/same-named-father lead, not proof of full siblings or an adult father identification. Glasgow-3647 born about 1784 with Affleck maternal attribution is not excluded by this absent mother; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/12",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_684962615",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-684962615",
+    "documentary_group": "recovered-detail-17",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1784, death —, event year 1784, location Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/12",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-684963042",
     "provider_record_id": "R_684963042",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1782",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "03 Nov 1782",
     "year": 1782,
-    "place": "Lanarkshire, Scotland",
+    "place": "Wandell and Lamington",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death —, event year 1782, location Lanarkshire, Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Thomas baptised 3 November 1782 Wandell and Lamington, father William, mother dash. Parent first name and locality are new discriminators; no decisive exclusion of all existing Thomas candidates or later adult bridge. Do not manufacture a mother or new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/1",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_684963042",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-684963042",
+    "documentary_group": "recovered-detail-3",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death —, event year 1782, location Lanarkshire, Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/1",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-685315219",
@@ -49019,267 +49131,401 @@
   {
     "record_id": "fmp-record-r-685840829",
     "provider_record_id": "R_685840829",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1787",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "26 Apr 1787",
     "year": 1787,
-    "place": "Linlithgowshire (West Lothian), Scotland",
+    "place": "Livingston",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_685840829",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/3",
+    "note": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-1449": {
+        "role": "Recorded child; Thomas/Christian Davidson family, 26 April 1787 event",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1382": {
+        "role": "Named father, existing adult household comparison; ancestry assessment unchanged",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685840829",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-685840829",
+    "documentary_group": "recovered-detail-4",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/3",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-685841157",
     "provider_record_id": "R_685841157",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1757",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "26 Jun 1757",
     "year": 1757,
-    "place": "Linlithgowshire (West Lothian), Scotland",
+    "place": "Livingston",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_685841157",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1757, death —, event year 1757, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/8",
+    "note": "William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-1385": {
+        "role": "Recorded child; exact 26 June 1757 baptism and Thomas/Janet Mill family",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1023": {
+        "role": "Named father comparison in existing Janet Mill household; adult ancestry separate",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685841157",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-685841157",
+    "documentary_group": "recovered-detail-14",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1757, death —, event year 1757, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/8",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-685969283",
     "provider_record_id": "R_685969283",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1786",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "20 Mar 1786",
     "year": 1786,
-    "place": "Midlothian, Scotland",
+    "place": "Corstorphine",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_685969283",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1786, death —, event year 1786, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William baptised 20 March 1786 Corstorphine, William Glasgow and Margret Forrest. Exact named-parent fields supply a household lead; no existing adult William or child identity established by this bounded review. No new person from absent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/14",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685969283",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-685969283",
+    "documentary_group": "recovered-detail-18",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1786, death —, event year 1786, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/14",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-686209953",
     "provider_record_id": "R_686209953",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1739",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "06 Apr 1739",
     "year": 1739,
-    "place": "Midlothian, Scotland",
+    "place": "Kirknewton and East Calder",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_686209953",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1739, death —, event year 1739, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/2",
+    "note": "William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-1320": {
+        "role": "Recorded child; exact baptism and Andrew/Isobell Clerk parental family",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1336": {
+        "role": "Candidate named father Andrew in existing Clerk household; adult identification retains limits",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686209953",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-686209953",
+    "documentary_group": "recovered-detail-11",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1739, death —, event year 1739, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/2",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-686210500",
     "provider_record_id": "R_686210500",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1796",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "17 Jul 1796",
     "year": 1796,
-    "place": "Midlothian, Scotland",
+    "place": "Kirknewton and East Calder",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_686210500",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+    "note": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-3347": {
-        "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+        "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/10",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686210500",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-686210500",
+    "documentary_group": "recovered-detail-6",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/10",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-3347": {
+          "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-r-686330816",
     "provider_record_id": "R_686330816",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1743",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "16 Apr 1743",
     "year": 1743,
-    "place": "Midlothian, Scotland",
+    "place": "Penicuik",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_686330816",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-1430": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+        "role": "Recorded child; exact 16 April 1743 baptism and Allexander/Jean Richie family",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1342": {
+        "role": "Candidate named father Allexander in existing Richie household; title Alexander William not proved by this record",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/6",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686330816",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-686330816",
+    "documentary_group": "recovered-detail-12",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/6",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-1430": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-r-686574919",
     "provider_record_id": "R_686574919",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1765",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "04 Aug 1765",
     "year": 1765,
-    "place": "Berwickshire, Scotland",
+    "place": "Swinton and Simprin",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_686574919",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1765, death —, event year 1765, location Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-1223": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+        "role": "Recorded child; exact 4 August 1765 baptism and James/Elizabeth Tait family",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1238": {
+        "role": "Candidate named father James in existing Tait household; adult childhood linkage remains separate",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/10",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686574919",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-686574919",
+    "documentary_group": "recovered-detail-15",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1765, death —, event year 1765, location Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/10",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-1223": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-r-687758516",
     "provider_record_id": "R_687758516",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1743",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "16 Apr 1743",
     "year": 1743,
-    "place": "Midlothian, Scotland",
+    "place": "Penicuik",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_687758516",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-1430": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+        "role": "Recorded child; exact 16 April 1743 baptism and Allexander/Jean Richie family",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1342": {
+        "role": "Candidate named father Allexander in existing Richie household; title Alexander William not proved by this record",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/5",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_687758516",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-687758516",
+    "documentary_group": "recovered-detail-12",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/5",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-1430": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-r-688329658",
     "provider_record_id": "R_688329658",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1786",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "20 Mar 1786",
     "year": 1786,
-    "place": "Midlothian, Scotland",
+    "place": "Corstorphine",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_688329658",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1786, death —, event year 1786, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William baptised 20 March 1786 Corstorphine, William Glasgow and Margret Forrest. Exact named-parent fields supply a household lead; no existing adult William or child identity established by this bounded review. No new person from absent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/13",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688329658",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-688329658",
+    "documentary_group": "recovered-detail-18",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1786, death —, event year 1786, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/13",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-688348923",
     "provider_record_id": "R_688348923",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1761",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "02 Aug 1761",
     "year": 1761,
-    "place": "Midlothian, Scotland",
+    "place": "Currie by Edinburgh",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_688348923",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1761, death —, event year 1761, location Midlothian, Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Thomas baptism 2 August 1761, Currie by Edinburgh, John Glasgow and Mary Robertson. Companion of the held OPR birth 26 July; no additional birth field or independent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-1620": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
-        "timeline_group": "Records for identity comparison"
+        "role": "Recorded child; exact baptism and parental couple match the held Currie account",
+        "timeline_group": "Qualified source records"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/0",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688348923",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-688348923",
+    "documentary_group": "recovered-detail-1",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1761, death —, event year 1761, location Midlothian, Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/0",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-1620": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-r-688621065",
@@ -49336,103 +49582,163 @@
   {
     "record_id": "fmp-record-r-691906112",
     "provider_record_id": "R_691906112",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1739",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "06 Apr 1739",
     "year": 1739,
-    "place": "Midlothian, Scotland",
+    "place": "Kirknewton and East Calder",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_691906112",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1739, death —, event year 1739, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/3",
+    "note": "William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-1320": {
+        "role": "Recorded child; exact baptism and Andrew/Isobell Clerk parental family",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1336": {
+        "role": "Candidate named father Andrew in existing Clerk household; adult identification retains limits",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906112",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-691906112",
+    "documentary_group": "recovered-detail-11",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1739, death —, event year 1739, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/3",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-691906822",
     "provider_record_id": "R_691906822",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1796",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "17 Jul 1796",
     "year": 1796,
-    "place": "Midlothian, Scotland",
+    "place": "Kirknewton and East Calder",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_691906822",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+    "note": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-3347": {
-        "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+        "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/11",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691906822",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-691906822",
+    "documentary_group": "recovered-detail-6",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/11",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-3347": {
+          "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-r-692406064",
     "provider_record_id": "R_692406064",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1787",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "26 Apr 1787",
     "year": 1787,
-    "place": "Linlithgowshire (West Lothian), Scotland",
+    "place": "Livingston",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_692406064",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/4",
+    "note": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-1449": {
+        "role": "Recorded child; Thomas/Christian Davidson family, 26 April 1787 event",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1382": {
+        "role": "Named father, existing adult household comparison; ancestry assessment unchanged",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692406064",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-692406064",
+    "documentary_group": "recovered-detail-4",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/4",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-692406065",
     "provider_record_id": "R_692406065",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1757",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "26 Jun 1757",
     "year": 1757,
-    "place": "Linlithgowshire (West Lothian), Scotland",
+    "place": "Livingston",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_692406065",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1757, death —, event year 1757, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/9",
+    "note": "William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-1385": {
+        "role": "Recorded child; exact 26 June 1757 baptism and Thomas/Janet Mill family",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1023": {
+        "role": "Named father comparison in existing Janet Mill household; adult ancestry separate",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692406065",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-r-692406065",
+    "documentary_group": "recovered-detail-14",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1757, death —, event year 1757, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/9",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-r-944011773",
@@ -49463,113 +49769,173 @@
   {
     "record_id": "fmp-record-scot-opr-bap-3607887",
     "provider_record_id": "SCOT/OPR/BAP/3607887",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1795",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "19 Jul 1795",
     "year": 1795,
-    "place": "Kilmarnock, Ayrshire, Scotland",
+    "place": "Kilmarnock",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3607887",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1795, death —, event year 1795, location Kilmarnock, Ayrshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William born 16 July, baptised 19 July 1795 Kilmarnock, John Glasgow, shoe maker, and Margaret Wyllie, OPR 597/3 item 3 page 181. Exact dates and couple match Glasgow-3392; birthday already held. Father occupation is now explicit in this derivative; father 97% and mother ungraded unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-3392": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
-        "timeline_group": "Records for identity comparison"
+        "role": "Recorded child; exact 16 July birth and 19 July 1795 baptism",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-3298": {
+        "role": "Named father John, shoe maker; existing Wyllie household",
+        "timeline_group": "Qualified source records"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/16",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13607887",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bap-3607887",
+    "documentary_group": "recovered-detail-20",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1795, death —, event year 1795, location Kilmarnock, Ayrshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/16",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-3392": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4122049",
     "provider_record_id": "SCOT/OPR/BAP/4122049",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1792",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "29 Jul 1792",
     "year": 1792,
-    "place": "Bathgate, Linlithgowshire (West Lothian), Scotland",
+    "place": "Bathgate",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1792, death —, event year 1792, location Bathgate, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-3401": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+        "role": "Recorded child; William/Peter/Elisabeth Dick Bathgate event",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1466": {
+        "role": "Candidate named father Peter; Peter childhood/adult identification retains existing 81% limit",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/15",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14122049",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bap-4122049",
+    "documentary_group": "recovered-detail-19",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1792, death —, event year 1792, location Bathgate, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/15",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-3401": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4146177",
     "provider_record_id": "SCOT/OPR/BAP/4146177",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1786",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "09 Apr 1786",
     "year": 1786,
-    "place": "Kirkliston, Linlithgowshire (West Lothian), Scotland",
+    "place": "Kirkliston",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1786, death —, event year 1786, location Kirkliston, Linlithgowshire (West Lothian), Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "Thomas born 2 April, baptised 9 April 1786 Kirkliston; John Glasgow and Anne Gray, OPR 667/1 item 2 page 102. The held account reads Agnes Gray. Preserve Anne/Agnes; do not rename Gray-6937 or infer a second mother. Exact birthday is already held; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-160": {
-        "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
-        "timeline_group": "Records for identity comparison"
+        "role": "Recorded child comparison; exact 2 April 1786 birth matches, maternal reading differs",
+        "timeline_group": "Qualified source records"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/2",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14146177",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bap-4146177",
+    "documentary_group": "recovered-detail-2",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1786, death —, event year 1786, location Kirkliston, Linlithgowshire (West Lothian), Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/2",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-160": {
+          "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4171361",
     "provider_record_id": "SCOT/OPR/BAP/4171361",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1787",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "06 May 1787",
     "year": 1787,
-    "place": "Whitburn, Linlithgowshire (West Lothian), Scotland",
+    "place": "Whitburn",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Whitburn, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
-    "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/5",
+    "note": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "profiles": {
+      "Glasgow-1449": {
+        "role": "Recorded child; Thomas/Christian Davidson family, 26 April 1787 event",
+        "timeline_group": "Qualified source records"
+      },
+      "Glasgow-1382": {
+        "role": "Named father, existing adult household comparison; ancestry assessment unchanged",
+        "timeline_group": "Qualified source records"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14171361",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bap-4171361",
+    "documentary_group": "recovered-detail-4",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Whitburn, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/5",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4222434",
@@ -49629,60 +49995,84 @@
   {
     "record_id": "fmp-record-scot-opr-bap-4476988",
     "provider_record_id": "SCOT/OPR/BAP/4476988",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1796",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "17 Jul 1796",
     "year": 1796,
-    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "place": "Kirknewton & East Calder",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476988",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Kirknewton & East Calder, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+    "note": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-3347": {
-        "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+        "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/9",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14476988",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bap-4476988",
+    "documentary_group": "recovered-detail-6",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Kirknewton & East Calder, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/9",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-3347": {
+          "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4477789",
     "provider_record_id": "SCOT/OPR/BAP/4477789",
-    "association": "Thomas Glasgow — uninspected search-result lead",
+    "association": "Thomas Glasgow — baptism date",
     "person": "Thomas Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1796",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "17 Jul 1796",
     "year": 1796,
-    "place": "Kirknewton & East Calder, Midlothian, Scotland",
+    "place": "Kirknewton & East Calder",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477789",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Kirknewton & East Calder, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+    "note": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {
       "Glasgow-3347": {
-        "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+        "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
         "timeline_group": "Records for identity comparison"
       }
     },
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/8",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14477789",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bap-4477789",
+    "documentary_group": "recovered-detail-6",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Kirknewton & East Calder, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/8",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {
+        "Glasgow-3347": {
+          "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
+    }
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4478159",
@@ -49746,50 +50136,64 @@
   {
     "record_id": "fmp-record-scot-opr-bap-4602994",
     "provider_record_id": "SCOT/OPR/BAP/4602994",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — baptism date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1754",
+    "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
+    "date": "17 Apr 1754",
     "year": 1754,
-    "place": "Penicuik, Midlothian, Scotland",
+    "place": "Penicuik",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity and event-date HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1745, death —, event year 1754, location Penicuik, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William OPR 697/1 item 1 page 225 Penicuik, Andrew Glasgow and Margaret Linton. Literal birth 17 April 1745 and baptism 17 April 1754 are nine years apart. Retain delayed-baptism versus transcription-error possibilities; do not force infant baptism or silently change a year. Andrew/Isobell Clerk child William-1320 remains a comparison requiring maternal/chronological reconciliation; no second person from a differing maternal field alone. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/7",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14602994",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bap-4602994",
+    "documentary_group": "recovered-detail-13",
     "record_category": "Births and baptisms",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1745, death —, event year 1754, location Penicuik, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/7",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-scot-opr-bur-1292654",
     "provider_record_id": "SCOT/OPR/BUR/1292654",
-    "association": "William Glasgow — uninspected search-result lead",
+    "association": "William Glasgow — death date",
     "person": "William Glasgow",
-    "event_role": "Observed search result only; full event fields uninspected",
-    "date": "1822",
+    "event_role": "Death date in inspected derivative; field conflicts qualified in note",
+    "date": "11 Nov 1822",
     "year": 1822,
-    "place": "Currie, Midlothian",
+    "place": "Currie",
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1292654",
     "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — William Glasgow",
-    "status": "Search result inspected; transcript and identity HOLD",
-    "source_status": "Observed search metadata only; transcript fields uninspected",
+    "status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+    "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1750, death 1822, event year 1822, location Currie, Midlothian. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+    "note": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
     "profiles": {},
-    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/18",
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11292654",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true,
-    "documentary_group": "uninspected-search-scot-opr-bur-1292654",
+    "documentary_group": "recovered-detail-22",
     "record_category": "Deaths and burials",
-    "record_precision": "Search-result locality only; full transcript uninspected; not geocoded"
+    "record_precision": "Transcript locality; event labels and conflicts qualified in note",
+    "previous_search_only_interpretation": {
+      "note": "Search-result lead only. The observed row names William Glasgow, indexed birth 1750, death 1822, event year 1822, location Currie, Midlothian. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+      "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/18",
+      "status": "Search result inspected; transcript and identity HOLD",
+      "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
+      "profiles": {}
+    }
   },
   {
     "record_id": "fmp-record-us-bmd-penn-bap-00937946",

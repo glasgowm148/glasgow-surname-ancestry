@@ -2253,6 +2253,104 @@
           "basis": "The exact imported birthday was a baptism day. A bounded birth does not concretely exclude the 1796 child; the earlier claim is retained here."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-detail-recovery-glasgow-1449-birth-20261030",
+      "subject": "Glasgow-1449",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+      "source": {
+        "url": "/people/glasgow-1449.json",
+        "section": "Recovered Findmypast detail review"
+      },
+      "summary": "Prefer explicit OPR derivative birth 26 April 1787; preserve former field and companion readings.",
+      "vitals": {
+        "birth": {
+          "date": "1787-04-26",
+          "place": "Livingston, Linlithgowshire, Scotland",
+          "status": "exact",
+          "display_date": "26 April 1787",
+          "country": "Scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361",
+          "source_level": "Inspected provider derivative; original register uninspected",
+          "note": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+          "qualifier": "Explicit labelled birth; former parish context retained, not independently proved birthplace."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1787-04-26",
+        "birth_year": 1787,
+        "field_statuses": {
+          "birth": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4171361"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "before 1787-04-26",
+            "place": "Livingston, Linlithgowshire, Scotland",
+            "status": "uncertain"
+          },
+          "basis": "Former boundary or partial reading superseded by explicit labelled OPR birth; former source and companion event conflicts retained."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-detail-recovery-glasgow-3401-birth-20261030",
+      "subject": "Glasgow-3401",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+      "source": {
+        "url": "/people/glasgow-3401.json",
+        "section": "Recovered Findmypast detail review"
+      },
+      "summary": "Prefer explicit OPR derivative birth 23 July 1792; preserve former field and companion readings.",
+      "vitals": {
+        "birth": {
+          "date": "1792-07-23",
+          "place": "Bathgate, Linlithgowshire, Scotland",
+          "status": "exact",
+          "display_date": "23 July 1792",
+          "country": "Scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049",
+          "source_level": "Inspected provider derivative; original register uninspected",
+          "note": "William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+          "qualifier": "Explicit labelled birth; former parish context retained, not independently proved birthplace."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1792-07-23",
+        "birth_year": 1792,
+        "field_statuses": {
+          "birth": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4122049"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "1792-07-07",
+            "place": "Bathgate, Linlithgowshire, Scotland",
+            "status": "exact"
+          },
+          "basis": "Former boundary or partial reading superseded by explicit labelled OPR birth; former source and companion event conflicts retained."
+        }
+      ]
     }
   ]
 }

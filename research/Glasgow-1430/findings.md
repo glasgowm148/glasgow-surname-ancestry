@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Current father assessment (22 October 2026): **65% (probable)** for [Glasgow-1342](https://www.wikitree.com/wiki/Glasgow-1342). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-17. This existing WikiTree profile is a tentative identity comparison for the source account below; no identity merge or family change is established.
@@ -53,3 +55,12 @@ Search-result lead only. The observed row names William Glasgow, indexed birth 1
 - [R_686330816](https://www.findmypast.co.uk/transcript?id=R_686330816) — Search-result name/year/locality comparison only; event and relatives not assigned.
 
 Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [R_687758516](https://www.findmypast.co.uk/transcript?id=R_687758516) — Recorded child; exact 16 April 1743 baptism and Allexander/Jean Richie family.
+- [R_686330816](https://www.findmypast.co.uk/transcript?id=R_686330816) — Recorded child; exact 16 April 1743 baptism and Allexander/Jean Richie family.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

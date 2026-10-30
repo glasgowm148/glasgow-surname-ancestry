@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Recorded child and Tait household; James’s own 1712 childhood and William’s later Kirknewton identity remain separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 William’s 1765 Swinton and Simprin child account names James Glasgow and Elizabeth Tait. James-1238 represents that particular couple, married at Stitchel in 1740 with an extended Borders child sequence; the full parental pairing identifies the selected father. Recorded child and Tait household; James’s own 1712 childhood and William’s later Kirknewton identity remain separate.
@@ -79,3 +81,11 @@ Search-result lead only. The observed row names William Glasgow, indexed birth 1
 - [R_686574919](https://www.findmypast.co.uk/transcript?id=R_686574919) — Search-result name/year/locality comparison only; event and relatives not assigned.
 
 Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [R_686574919](https://www.findmypast.co.uk/transcript?id=R_686574919) — Recorded child; exact 4 August 1765 baptism and James/Elizabeth Tait family.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

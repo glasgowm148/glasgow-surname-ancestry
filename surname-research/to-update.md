@@ -4440,3 +4440,25 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) | OPEN | Record birth 5 November 1725, distinct from baptism 7 November; preserve existing parent assessments, complete sources and scoped adult identities. |
 
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3347) | OPEN | Qualify birth as by baptism 8 June 1800, encoded before 9 June; retain the compatible 1796 identity, older source interpretation and 98% father assessment. No early death or new person inferred. |
+
+## 30 October 2026 — recovered Findmypast fields
+
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1223) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-1238) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1320) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1336) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Alexander William Glasgow](https://www.wikitree.com/wiki/Glasgow-1342) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1382) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1385) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1430) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1449) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Peter Glasgow](https://www.wikitree.com/wiki/Glasgow-1466) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-160) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1620) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3298) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3347) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3392) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3401) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-3706) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |
+| [Agnes (Whitehead) Glasgow](https://www.wikitree.com/wiki/Whitehead-9630) | OPEN | Add recovered derivative fields with explicit reading/identity limits; retain complete captured sources and family assessments. |

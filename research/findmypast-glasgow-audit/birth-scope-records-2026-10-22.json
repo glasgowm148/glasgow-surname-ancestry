@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 711,
+    "inspected_transcripts": 745,
     "catalogue_integration_complete": false,
     "integrated_record_ids": [
       "R_686309313",
@@ -464,7 +464,29 @@
       "R_688636470",
       "R_944011773",
       "SCOT/OPR/BAP/4222434",
-      "SCOT/OPR/BAP/4478159"
+      "SCOT/OPR/BAP/4478159",
+      "GBPRS/SCOT/MIS/511333",
+      "PRS/SCOTLAND/MI/ADD/5/00542644",
+      "PRS/SCOTLAND/MI/ADD/5/00542645",
+      "PRS/SCOTLAND/MI/ADD/5/00542646",
+      "R_685840829",
+      "R_685841157",
+      "R_686209953",
+      "R_686210500",
+      "R_686330816",
+      "R_686574919",
+      "R_687758516",
+      "R_688348923",
+      "R_691906112",
+      "R_691906822",
+      "R_692406064",
+      "R_692406065",
+      "SCOT/OPR/BAP/3607887",
+      "SCOT/OPR/BAP/4122049",
+      "SCOT/OPR/BAP/4146177",
+      "SCOT/OPR/BAP/4171361",
+      "SCOT/OPR/BAP/4476988",
+      "SCOT/OPR/BAP/4477789"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -721,7 +743,19 @@
       "US/BMD/PENN-BUR/00055130",
       "US/HSP/PENN/BAP/0025918",
       "US/HSP/PENN/BAP/0026718",
-      "US/HSP/PENN/BAP/0073210"
+      "US/HSP/PENN/BAP/0073210",
+      "BMD/D/1871/4/AZ/000138/015",
+      "BMD/NBI/01614607",
+      "BMD/NBI/07447920",
+      "GBPRS/GLASGOW/BUR/093175",
+      "GBPRS/LOTHIAN/FHS/BUR/001369",
+      "GBPRS/SCOT/MIS/204971",
+      "R_684962615",
+      "R_684963042",
+      "R_685969283",
+      "R_688329658",
+      "SCOT/OPR/BAP/4602994",
+      "SCOT/OPR/BUR/1292654"
     ],
     "next_query_page": 36,
     "integration_scope": "Pages30–32:24new entries matched existing documentary subjects,11qualified comparisons,17source-only identity/natal-surname/index-artifact holds;8existing-source reuses retained.25current accounts and22preserved complete proposals synchronized; one explicit Montgomry birth correction.12duplicate READY creation placeholders retired to existing people, preserving histories. No new person, relationship or confidence change; originals uninspected; whole-provider scope INCOMPLETE.",
@@ -1436,9 +1470,43 @@
       "US/BMD/PENN-BUR/00055130",
       "US/HSP/PENN/BAP/0025918",
       "US/HSP/PENN/BAP/0026718",
-      "US/HSP/PENN/BAP/0073210"
+      "US/HSP/PENN/BAP/0073210",
+      "BMD/D/1871/4/AZ/000138/015",
+      "BMD/NBI/01614607",
+      "BMD/NBI/07447920",
+      "GBPRS/GLASGOW/BUR/093175",
+      "GBPRS/LOTHIAN/FHS/BUR/001369",
+      "GBPRS/SCOT/MIS/204971",
+      "GBPRS/SCOT/MIS/511333",
+      "PRS/SCOTLAND/MI/ADD/5/00542644",
+      "PRS/SCOTLAND/MI/ADD/5/00542645",
+      "PRS/SCOTLAND/MI/ADD/5/00542646",
+      "R_684962615",
+      "R_684963042",
+      "R_685840829",
+      "R_685841157",
+      "R_685969283",
+      "R_686209953",
+      "R_686210500",
+      "R_686330816",
+      "R_686574919",
+      "R_687758516",
+      "R_688329658",
+      "R_688348923",
+      "R_691906112",
+      "R_691906822",
+      "R_692406064",
+      "R_692406065",
+      "SCOT/OPR/BAP/3607887",
+      "SCOT/OPR/BAP/4122049",
+      "SCOT/OPR/BAP/4146177",
+      "SCOT/OPR/BAP/4171361",
+      "SCOT/OPR/BAP/4476988",
+      "SCOT/OPR/BAP/4477789",
+      "SCOT/OPR/BAP/4602994",
+      "SCOT/OPR/BUR/1292654"
     ],
-    "records_with_profile_or_draft_context": 456,
+    "records_with_profile_or_draft_context": 478,
     "remaining_coverage": [
       "Page30 onward of the1719–1799BMD query;15page29identity/scope comparisons remain unresolved despite completed indexing. Earlier windows, other categories/variants and later-life records still require coverage.",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
@@ -1446,15 +1514,15 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-pages33-35-reconciliation-20261030-verification.json",
+    "verification_report": "output/findmypast-detail-recovery-20261030-verification.json",
     "verified_on": "2026-10-30",
-    "indexed_provider_record_count": 711,
-    "next_action": "Finish verification and commit this batch, then one bounded provider-recovery probe for deferred SCOT/OPR/BAP/4146177, explicitly seeking unread birth/baptism/parent fields to test Glasgow-160. Preserve subscription holds4360754/4602371; no auth/subscription retry loop. If the provider still returns an error, continue held-evidence/catalogue work. Next uncaptured query page36; prioritize the36deferred detail gaps when access recovers. Reopen at most one owned tab in the existing browser/window after inventory; the prior owned tab was closed after saved provider errors. Whole scope INCOMPLETE.",
-    "recent_query_transcripts": 576,
+    "indexed_provider_record_count": 745,
+    "next_action": "Paused at owner request after the recovered-detail batch. On explicit resume: inventory browser resources, reuse one working tab, capture query page36 and preflight its exact result IDs before detail retrieval. Preserve the two subscription holds.",
+    "recent_query_transcripts": 610,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
     "recent_query_rows_reviewed": 700,
-    "capture_ledger_note": "799 bounded indexed provider IDs =711 literal transcript receipts +52 older supporting IDs +36 search-only leads. Pages33–35 dispose60rows as13new inspected derivatives,11existing-source reuses and36search-only leads. Those36 include3observed provider error pages,31unattempted requests deferred after errors,and2prior subscription holds. Indexed IDs and disposed rows are not inspected-transcript or unique-person counts.",
+    "capture_ledger_note": "799 bounded indexed provider IDs = 745 literal transcript receipts + 52 older supporting IDs + 2 search-only subscription holds. The recovered 34 enrich existing IDs and are not new indexed records or people. 700/5872 query rows are disposed; whole-provider coverage remains INCOMPLETE.",
     "capture_count_basis": "Explicit disjoint cohorts: indexed_record_ids, supporting_indexed_record_ids and search_only_indexed_record_ids. Search-only leads remain in pending_detail_provider_ids; fields/secondary-role scope are incomplete.",
     "recent_query_receipt_reuses": 61,
     "recent_query_existing_index_reuses": 1,
@@ -1462,7 +1530,7 @@
     "next_search_page_to_capture": 36,
     "recent_query_rows_captured": 700,
     "contiguous_query_rows_reviewed": 700,
-    "recent_query_detail_gaps": 36,
+    "recent_query_detail_gaps": 2,
     "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 52,
@@ -1657,81 +1725,13 @@
       "basis": "All646literal IDs checked against current public exact-provider mapping; additional supporting IDs recovered from existing indexed review/canonical provenance and current exact-ID preflight. This is a coverage-accounting repair, not33new records or people."
     },
     "search_only_indexed_record_ids": [
-      "BMD/D/1871/4/AZ/000138/015",
-      "BMD/NBI/01614607",
-      "BMD/NBI/07447920",
-      "GBPRS/GLASGOW/BUR/093175",
-      "GBPRS/LOTHIAN/FHS/BUR/001369",
-      "GBPRS/SCOT/MIS/204971",
-      "GBPRS/SCOT/MIS/511333",
-      "PRS/SCOTLAND/MI/ADD/5/00542644",
-      "PRS/SCOTLAND/MI/ADD/5/00542645",
-      "PRS/SCOTLAND/MI/ADD/5/00542646",
-      "R_684962615",
-      "R_684963042",
-      "R_685840829",
-      "R_685841157",
-      "R_685969283",
-      "R_686209953",
-      "R_686210500",
-      "R_686330816",
-      "R_686574919",
-      "R_687758516",
-      "R_688329658",
-      "R_688348923",
-      "R_691906112",
-      "R_691906822",
-      "R_692406064",
-      "R_692406065",
-      "SCOT/OPR/BAP/3607887",
-      "SCOT/OPR/BAP/4122049",
-      "SCOT/OPR/BAP/4146177",
-      "SCOT/OPR/BAP/4171361",
       "SCOT/OPR/BAP/4360754",
-      "SCOT/OPR/BAP/4476988",
-      "SCOT/OPR/BAP/4477789",
-      "SCOT/OPR/BAP/4602371",
-      "SCOT/OPR/BAP/4602994",
-      "SCOT/OPR/BUR/1292654"
+      "SCOT/OPR/BAP/4602371"
     ],
-    "search_only_records_indexed": 36,
+    "search_only_records_indexed": 2,
     "pending_detail_provider_ids": [
-      "BMD/D/1871/4/AZ/000138/015",
-      "BMD/NBI/01614607",
-      "BMD/NBI/07447920",
-      "GBPRS/GLASGOW/BUR/093175",
-      "GBPRS/LOTHIAN/FHS/BUR/001369",
-      "GBPRS/SCOT/MIS/204971",
-      "GBPRS/SCOT/MIS/511333",
-      "PRS/SCOTLAND/MI/ADD/5/00542644",
-      "PRS/SCOTLAND/MI/ADD/5/00542645",
-      "PRS/SCOTLAND/MI/ADD/5/00542646",
-      "R_684962615",
-      "R_684963042",
-      "R_685840829",
-      "R_685841157",
-      "R_685969283",
-      "R_686209953",
-      "R_686210500",
-      "R_686330816",
-      "R_686574919",
-      "R_687758516",
-      "R_688329658",
-      "R_688348923",
-      "R_691906112",
-      "R_691906822",
-      "R_692406064",
-      "R_692406065",
-      "SCOT/OPR/BAP/3607887",
-      "SCOT/OPR/BAP/4122049",
-      "SCOT/OPR/BAP/4146177",
-      "SCOT/OPR/BAP/4171361",
       "SCOT/OPR/BAP/4360754",
-      "SCOT/OPR/BAP/4476988",
-      "SCOT/OPR/BAP/4477789",
-      "SCOT/OPR/BAP/4602371",
-      "SCOT/OPR/BAP/4602994",
-      "SCOT/OPR/BUR/1292654"
+      "SCOT/OPR/BAP/4602371"
     ]
   },
   "search_pages": [
@@ -10506,7 +10506,7 @@
           "indexed": true
         }
       ],
-      "review_status": "all20rows_disposed; search-only field gaps remain explicit",
+      "review_status": "All20rows disposed; recovered transcript fields reviewed, prior subscription holds explicit",
       "captured_new_detail_rows": [
         "R_685341643",
         "R_688636470",
@@ -10556,8 +10556,9 @@
           "record_id": "R_688348923",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688348923",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10570,8 +10571,9 @@
           "record_id": "R_684963042",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10584,8 +10586,9 @@
           "record_id": "SCOT/OPR/BAP/4146177",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10598,8 +10601,9 @@
           "record_id": "R_685840829",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685840829",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10612,8 +10616,9 @@
           "record_id": "R_692406064",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692406064",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10626,8 +10631,9 @@
           "record_id": "SCOT/OPR/BAP/4171361",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10640,8 +10646,9 @@
           "record_id": "PRS/SCOTLAND/MI/ADD/5/00542644",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10654,8 +10661,9 @@
           "record_id": "PRS/SCOTLAND/MI/ADD/5/00542645",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10668,8 +10676,9 @@
           "record_id": "SCOT/OPR/BAP/4477789",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477789",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10682,8 +10691,9 @@
           "record_id": "SCOT/OPR/BAP/4476988",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476988",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10696,8 +10706,9 @@
           "record_id": "R_686210500",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686210500",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10710,8 +10721,9 @@
           "record_id": "R_691906822",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691906822",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10724,8 +10736,9 @@
           "record_id": "PRS/SCOTLAND/MI/ADD/5/00542646",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified existing family comparison",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10738,8 +10751,9 @@
           "record_id": "GBPRS/SCOT/MIS/511333",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Qualified existing family comparison",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10752,8 +10766,9 @@
           "record_id": "BMD/NBI/01614607",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10766,8 +10781,9 @@
           "record_id": "GBPRS/SCOT/MIS/204971",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F204971",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10780,8 +10796,9 @@
           "record_id": "BMD/D/1871/4/AZ/000138/015",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10826,7 +10843,7 @@
           "indexed": true
         }
       ],
-      "review_status": "all20rows_disposed; search-only field gaps remain explicit",
+      "review_status": "All20rows disposed; recovered transcript fields reviewed, prior subscription holds explicit",
       "checkpoint_reviewed_rows": 20
     },
     {
@@ -10880,8 +10897,9 @@
           "record_id": "R_686209953",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686209953",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10894,8 +10912,9 @@
           "record_id": "R_691906112",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691906112",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10922,8 +10941,9 @@
           "record_id": "R_687758516",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_687758516",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10936,8 +10956,9 @@
           "record_id": "R_686330816",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686330816",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10950,8 +10971,9 @@
           "record_id": "SCOT/OPR/BAP/4602994",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity and event-date HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10964,8 +10986,9 @@
           "record_id": "R_685841157",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685841157",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10978,8 +11001,9 @@
           "record_id": "R_692406065",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692406065",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -10992,8 +11016,9 @@
           "record_id": "R_686574919",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686574919",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11006,8 +11031,9 @@
           "record_id": "GBPRS/GLASGOW/BUR/093175",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093175",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Child/father identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11020,8 +11046,9 @@
           "record_id": "R_684962615",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_684962615",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11034,8 +11061,9 @@
           "record_id": "R_688329658",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688329658",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11048,8 +11076,9 @@
           "record_id": "R_685969283",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685969283",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11062,8 +11091,9 @@
           "record_id": "SCOT/OPR/BAP/4122049",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11076,8 +11106,9 @@
           "record_id": "SCOT/OPR/BAP/3607887",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3607887",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11090,8 +11121,9 @@
           "record_id": "BMD/NBI/07447920",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07447920",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11104,8 +11136,9 @@
           "record_id": "SCOT/OPR/BUR/1292654",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1292654",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         },
         {
           "last_name": "Glasgow",
@@ -11118,11 +11151,12 @@
           "record_id": "GBPRS/LOTHIAN/FHS/BUR/001369",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001369",
           "transcript_reviewed": false,
-          "identity_review_status": "search_only_hold",
-          "indexed": true
+          "identity_review_status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+          "indexed": true,
+          "full_transcript_inspected": true
         }
       ],
-      "review_status": "all20rows_disposed; search-only field gaps remain explicit",
+      "review_status": "All20rows disposed; recovered transcript fields reviewed, prior subscription holds explicit",
       "checkpoint_reviewed_rows": 20
     }
   ],
@@ -37205,6 +37239,1328 @@
       ],
       "canonical_record_id": "fmp-record-scot-opr-bap-4478159",
       "reviewed_on": "2026-10-30"
+    },
+    "PRS/SCOTLAND/MI/ADD/5/00542644": {
+      "provider_id": "PRS/SCOTLAND/MI/ADD/5/00542644",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644",
+      "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:33:20.542791+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Place ": "Eccles",
+        "Last name ": "Glasgow",
+        "County ": "Berwickshire",
+        "Birth year ": "1782",
+        "Country ": "Scotland",
+        "Birth date ": "? ? 1782",
+        "Inscription ": "By Robert Glasgow, Joiner and Feuar, Leitholm 8.10.1800 or 09 55 yrs. son Thomas -.4.1790 8 yrs. daughter Euphans 7.4.1791 5 yrs. son Thomas 27.4.1791 3 yrs. wife Agnes Whitehead 21.5.1840 84 yrs.",
+        "Age ": "8",
+        "Record set ": "Scotland Monumental Inscriptions",
+        "Death date ": "? Apr 1790",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Death year ": "1790",
+        "Subcategory ": "Parish Burials",
+        "Cemetery ": "Eccles and Birgham Churchyards",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+      "access_note": "Thomas Glasgow in 1790 | Transcript of Thomas's record | Transcript of Thomas's record | Birth Record | Birth Record | Other records featuring that name | Birth Record | Birth Record | Discover more about these records",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542644",
+      "assessment": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "GBPRS/SCOT/MIS/511333": {
+      "provider_id": "GBPRS/SCOT/MIS/511333",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:18.613139+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Place ": "Livingston",
+        "Last name ": "Glasgow",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Birth year ": "1746",
+        "Country ": "Scotland",
+        "Age ": "85",
+        "Record set ": "Scotland Monumental Inscriptions",
+        "Death year ": "1831",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Inscription ": "Erected by Janet Glasgow, Blackburn in memory of her mother Christian Davidson d. 5.11.1795 aged 45y. Thomas Glasgow her father d. 22.5.1831 aged 85y. Peter Glasgow her brother d. 12.9.1819 aged 48y. Also her grand child Mary Russell d. in infancy and Jessie Russell d. 11.7.1845 aged 20y. Also Jessie Russell d. 8.2.1831 aged 10m. The above Janet Glasgow d. 16.10.1873 aged 76y. James B. Russell d. 22.4.185* aged 19m",
+        "Subcategory ": "Parish Burials",
+        "Cemetery ": "Livingston Old Parish Churchyard",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified existing family comparison",
+      "access_note": "Thomas Glasgow in 1831 | Transcript of Thomas's record | Transcript of Thomas's record | Birth Record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Birth Record | Marriage Record | Marriage Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-gbprs-scot-mis-511333",
+      "assessment": "Livingston family monument: one derivative gives Thomas death 22 July 1831 age 85, Christian Davidson 5 November 1795 age 43, Peter 12 September 1810 age 19, Janet 16 October 1853 age 76. Companion gives Thomas 22 May 1831 age 85, Christian age 45, Peter 12 September 1819 age 48 and Janet 16 October 1873 age 76; Russell grandchildren also differ. These readings were already held through other indexed family members. Preserve all discrepancies and current 1851 Thomas death pending original; no new fact adoption, independent corroboration or assessment change. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_685840829": {
+      "provider_id": "R_685840829",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685840829",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685840829&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685840829&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:33:05.705428+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Mother's last name ": "Davidson",
+        "Last name ": "Glasgow",
+        "Residence ": "Livingston, West Lothian, Scotland",
+        "Sex ": "Male",
+        "Place ": "Livingston",
+        "Birth year ": "1787",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Baptism year ": "1787",
+        "Country ": "Scotland",
+        "Baptism date ": "26 Apr 1787",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "LIVINGSTON, WEST LOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Thomas",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Christian",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "Thomas Glasgow in 1787 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Death Record | Death Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Death Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-685840829",
+      "assessment": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_686330816": {
+      "provider_id": "R_686330816",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686330816",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686330816&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686330816&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:06.849629+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's last name ": "Richie",
+        "Last name ": "Glasgow",
+        "Residence ": "Penicuik, Midlothian, Scotland",
+        "Sex ": "Male",
+        "Place ": "Penicuik",
+        "Birth year ": "1743",
+        "County ": "Midlothian",
+        "Baptism year ": "1743",
+        "Country ": "Scotland",
+        "Baptism date ": "16 Apr 1743",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "PENICUIK, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Allexander",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Jean",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1743 | Transcript of William's record | Transcript of William's record | Death Record | Death Record | Death Record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Death Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-686330816",
+      "assessment": "William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BAP/4122049": {
+      "provider_id": "SCOT/OPR/BAP/4122049",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:36:07.782669+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's first name(s) ": "Elisabeth",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Dick",
+        "Birth year ": "1792",
+        "Archive reference ": "OPR 662/2",
+        "Birth date ": "23 Jul 1792",
+        "Register year range ": "1769-1819",
+        "Baptism year ": "1792",
+        "Item ": "1",
+        "Baptism date ": "29 Jul 1792",
+        "Page ": "35",
+        "Place ": "Bathgate",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Country ": "Scotland",
+        "Subcategory ": "Parish Baptisms",
+        "Father's first name(s) ": "Peter",
+        "Collections from ": "Great Britain, Scotland",
+        "Father's last name ": "Glasgow",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1792 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bap-4122049",
+      "assessment": "William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_685969283": {
+      "provider_id": "R_685969283",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685969283",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685969283&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685969283&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:36:04.831182+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's last name ": "Forrest",
+        "Last name ": "Glasgow",
+        "Residence ": "Corstorphine, Midlothian, Scotland",
+        "Sex ": "Male",
+        "Place ": "Corstorphine",
+        "Birth year ": "1786",
+        "County ": "Midlothian",
+        "Baptism year ": "1786",
+        "Country ": "Scotland",
+        "Baptism date ": "20 Mar 1786",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "CORSTORPHINE, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "William",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Margret",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "William Glasgow in 1786 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-685969283",
+      "assessment": "William baptised 20 March 1786 Corstorphine, William Glasgow and Margret Forrest. Exact named-parent fields supply a household lead; no existing adult William or child identity established by this bounded review. No new person from absent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_688329658": {
+      "provider_id": "R_688329658",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688329658",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688329658&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688329658&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:36:02.061028+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's first name(s) ": "Margret",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Forrest",
+        "Sex ": "Male",
+        "Place ": "Corstorphine",
+        "Birth year ": "1786",
+        "County ": "Midlothian",
+        "Baptism year ": "1786",
+        "Country ": "Scotland",
+        "Baptism date ": "20 Mar 1786",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "CORSTORPHINE, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "William",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "William Glasgow in 1786 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-688329658",
+      "assessment": "William baptised 20 March 1786 Corstorphine, William Glasgow and Margret Forrest. Exact named-parent fields supply a household lead; no existing adult William or child identity established by this bounded review. No new person from absent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "BMD/NBI/07447920": {
+      "provider_id": "BMD/NBI/07447920",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07447920",
+      "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07447920&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07447920&tab=this",
+      "title": "Record Transcription: National Burial Index For England & Wales | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:36:13.511259+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Denomination ": "Anglican",
+        "Last name ": "Glasgow",
+        "Description ": "Holy Trinity",
+        "Burial year ": "1813",
+        "County ": "Northumberland",
+        "Death year ": "1813",
+        "Country ": "England",
+        "Burial date ": "03 Aug 1813",
+        "Record set ": "National Burial Index For England & Wales",
+        "Age ": "46",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Birth year ": "1767",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Berwick upon Tweed",
+        "Collections from ": "Great Britain, England"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "William Glasgow in 1813 | Transcript of William's record | Transcript of William's record | Marriage Record | Marriage Record | Other records featuring that name | Marriage Record | Marriage Record | National Burial Index for England & Wales",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-bmd-nbi-07447920",
+      "assessment": "William buried 3 August 1813 Holy Trinity, Berwick upon Tweed, Northumberland, Anglican, age 46. Birth about 1767 age-derived. William-1223 baptised 1765 with uncertain circa-1820 death is not conclusively excluded by approximate age or uncertain death; retain comparison without assigning this burial or creating a person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "BMD/NBI/01614607": {
+      "provider_id": "BMD/NBI/01614607",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607",
+      "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607&tab=this",
+      "title": "Record Transcription: National Burial Index For England & Wales | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:21.448269+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Denomination ": "Anglican",
+        "Last name ": "Glasgow",
+        "Description ": "St Mary",
+        "Burial year ": "1835",
+        "County ": "Buckinghamshire",
+        "Death year ": "1835",
+        "Country ": "England",
+        "Burial date ": "21 Jan 1835",
+        "Record set ": "National Burial Index For England & Wales",
+        "Age ": "68",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Birth year ": "1767",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Chesham",
+        "Collections from ": "Great Britain, England"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "Thomas Glasgow in 1835 | Transcript of Thomas's record | Transcript of Thomas's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-bmd-nbi-01614607",
+      "assessment": "Thomas buried 21 January 1835 St Mary, Chesham, Buckinghamshire, Anglican, age 68. Birth about 1767 is age-derived; death year is indexed 1835 without an exact death date. No named relatives or childhood bridge establish an existing Thomas; no new person from the failed match. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BAP/3607887": {
+      "provider_id": "SCOT/OPR/BAP/3607887",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3607887",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3607887&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3607887&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:36:10.587929+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Father's occupation ": "Shoe Maker",
+        "Last name ": "Glasgow",
+        "Mother's first name(s) ": "Margaret",
+        "Birth year ": "1795",
+        "Mother's last name ": "Wyllie",
+        "Birth date ": "16 Jul 1795",
+        "Archive reference ": "OPR 597/3",
+        "Baptism year ": "1795",
+        "Register year range ": "1693-1819",
+        "Baptism date ": "19 Jul 1795",
+        "Item ": "3",
+        "Place ": "Kilmarnock",
+        "Page ": "181",
+        "County ": "Ayrshire",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Country ": "Scotland",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "John",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1795 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bap-3607887",
+      "assessment": "William born 16 July, baptised 19 July 1795 Kilmarnock, John Glasgow, shoe maker, and Margaret Wyllie, OPR 597/3 item 3 page 181. Exact dates and couple match Glasgow-3392; birthday already held. Father occupation is now explicit in this derivative; father 97% and mother ungraded unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_684963042": {
+      "provider_id": "R_684963042",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_684963042&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_684963042&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:33:00.440481+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Mother's first name(s) ": "-",
+        "Last name ": "Glasgow",
+        "Residence ": "Wandell and Lamington, Lanarkshire, Scotland",
+        "Sex ": "Male",
+        "Place ": "Wandell and Lamington",
+        "Birth year ": "1782",
+        "County ": "Lanarkshire",
+        "Baptism year ": "1782",
+        "Country ": "Scotland",
+        "Baptism date ": "03 Nov 1782",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "WANDELL AND LAMINGTON, LANARK, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "William",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "Thomas Glasgow in 1782 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Census Record | Census Record | Census Record | Newspaper death & in memoriam notice | Marriage Record | Other records featuring that name | Death Record | Census Record | Census Record | Census Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-684963042",
+      "assessment": "Thomas baptised 3 November 1782 Wandell and Lamington, father William, mother dash. Parent first name and locality are new discriminators; no decisive exclusion of all existing Thomas candidates or later adult bridge. Do not manufacture a mother or new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "GBPRS/SCOT/MIS/204971": {
+      "provider_id": "GBPRS/SCOT/MIS/204971",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F204971",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F204971&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F204971&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:24.198318+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "County ": "Lanarkshire",
+        "Last name ": "Glasgow",
+        "Country ": "Scotland",
+        "Birth year ": "1782",
+        "Notes ": "For further information on this individual and a possible photograph of the grave or memorial, please contact the licensor at  www.scottish-monumental-inscriptions.com ",
+        "Age ": "84",
+        "Record set ": "Scotland Monumental Inscriptions",
+        "Death year ": "1866",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Cemetery ": "St Johns Kirk",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Biggar",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "Thomas Glasgow in 1866 | Transcript of Thomas's record | Transcript of Thomas's record | Birth Record | Birth Record | Census Record | Census Record | Other records featuring that name | Birth Record | Birth Record | Census Record | Census Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-gbprs-scot-mis-204971",
+      "assessment": "Thomas, St Johns Kirk, Biggar, death 1866 age 84, indexed birth 1782. No exact day or inscription text is supplied. Date and natal surname remain unverified and existing Thomas comparisons unresolved; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "PRS/SCOTLAND/MI/ADD/5/00542645": {
+      "provider_id": "PRS/SCOTLAND/MI/ADD/5/00542645",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645",
+      "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:33:30.498407+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Place ": "Eccles",
+        "Last name ": "Glasgow",
+        "County ": "Berwickshire",
+        "Birth year ": "1788",
+        "Country ": "Scotland",
+        "Birth date ": "? ? 1788",
+        "Inscription ": "By Robert Glasgow, Joiner and Feuar, Leitholm 8.10.1800 or 09 55 yrs. son Thomas -.4.1790 8 yrs. daughter Euphans 7.4.1791 5 yrs. son Thomas 27.4.1791 3 yrs. wife Agnes Whitehead 21.5.1840 84 yrs.",
+        "Age ": "3",
+        "Record set ": "Scotland Monumental Inscriptions",
+        "Death date ": "27 Apr 1791",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Death year ": "1791",
+        "Subcategory ": "Parish Burials",
+        "Cemetery ": "Eccles and Birgham Churchyards",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+      "access_note": "Thomas Glasgow in 1791 | Transcript of Thomas's record | Transcript of Thomas's record | Birth Record | Other records featuring that name | Birth Record | Discover more about these records",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542645",
+      "assessment": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "GBPRS/LOTHIAN/FHS/BUR/001369": {
+      "provider_id": "GBPRS/LOTHIAN/FHS/BUR/001369",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001369",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001369&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001369&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:36:22.699451+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "County ": "Midlothian",
+        "Last name ": "Glasgow",
+        "Country ": "Scotland",
+        "Residence ": "Ballerno",
+        "Parish number ": "682",
+        "Birth year ": "1750",
+        "Book ": "4",
+        "Age ": "72",
+        "Page ": "3",
+        "Death year ": "1822",
+        "Additional information ": "Mortcloth 15s",
+        "Death date ": "? ? 1822",
+        "Record set ": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Burial year ": "1822",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Burial date ": "11 Nov 1822",
+        "Subcategory ": "Parish Burials",
+        "Burial place ": "Currie",
+        "Collections from ": "Great Britain, Scotland",
+        "Place ": "Currie",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+      "access_note": "William Glasgow in 1822 | Transcript of William's record | Transcript of William's record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Marriage Record | Marriage Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-gbprs-lothian-fhs-bur-001369",
+      "assessment": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_686574919": {
+      "provider_id": "R_686574919",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686574919",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686574919&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686574919&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:24.286135+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's last name ": "Tait",
+        "Last name ": "Glasgow",
+        "Residence ": "Swinton, Berwickshire, Scotland",
+        "Sex ": "Male",
+        "Place ": "Swinton and Simprin",
+        "Birth year ": "1765",
+        "County ": "Berwickshire",
+        "Baptism year ": "1765",
+        "Country ": "Scotland",
+        "Baptism date ": "04 Aug 1765",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "SWINTON AND SIMPRIN, BERWICK, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "James",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Elizabeth",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1765 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-686574919",
+      "assessment": "William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_684962615": {
+      "provider_id": "R_684962615",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_684962615",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_684962615&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_684962615&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:37.078074+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's first name(s) ": "-",
+        "Last name ": "Glasgow",
+        "Residence ": "Wandell and Lamington, Lanarkshire, Scotland",
+        "Sex ": "Male",
+        "Place ": "Wandell and Lamington",
+        "Birth year ": "1784",
+        "County ": "Lanarkshire",
+        "Baptism year ": "1784",
+        "Country ": "Scotland",
+        "Baptism date ": "19 Sep 1784",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "WANDELL AND LAMINGTON, LANARK, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "William",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "William Glasgow in 1784 | Transcript of William's record | Transcript of William's record | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice | Other records featuring that name | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-684962615",
+      "assessment": "William baptised 19 September 1784 Wandell and Lamington, father William Glasgow, mother dash. Together with Thomas 1782 this is a same-parish/same-named-father lead, not proof of full siblings or an adult father identification. Glasgow-3647 born about 1784 with Affleck maternal attribution is not excluded by this absent mother; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "BMD/D/1871/4/AZ/000138/015": {
+      "provider_id": "BMD/D/1871/4/AZ/000138/015",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015",
+      "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015&tab=this",
+      "title": "Record Transcription: England & Wales Deaths 1837-2007 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:26.955893+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "County ": "Kent",
+        "Last name ": "Glasgow",
+        "Volume ": "2A",
+        "Sex ": "Male",
+        "Page ": "199",
+        "Birth year ": "1790",
+        "Country ": "England",
+        "Age ": "81",
+        "Record set ": "England & Wales Deaths 1837-2007",
+        "Death quarter ": "4",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Death year ": "1871",
+        "Subcategory ": "Civil Deaths & Burials",
+        "District ": "Dartford",
+        "Collections from ": "Great Britain, England"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity HOLD",
+      "access_note": "Thomas Glasgow in 1871 | Transcript of Thomas's record | Transcript of Thomas's record | Search England & Wales Death Records | Civil Death & Burial Records",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-bmd-d-1871-4-az-000138-015",
+      "assessment": "Thomas, male, Dartford Kent civil death registration fourth quarter 1871 age 81, volume 2A page 199. Birth about 1790 age-derived; district is not a proved birthplace or exact death location. No relatives or natal-surname evidence identify him; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_685841157": {
+      "provider_id": "R_685841157",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685841157",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685841157&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685841157&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:16.699636+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's last name ": "Mill",
+        "Last name ": "Glasgow",
+        "Residence ": "Livingston, West Lothian, Scotland",
+        "Sex ": "Male",
+        "Place ": "Livingston",
+        "Birth year ": "1757",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Baptism year ": "1757",
+        "Country ": "Scotland",
+        "Baptism date ": "26 Jun 1757",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "LIVINGSTON, WEST LOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Thomas",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Janet",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1757 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-685841157",
+      "assessment": "William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_691906822": {
+      "provider_id": "R_691906822",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691906822",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691906822&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691906822&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:13.178863+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Mother's first name(s) ": "Margaret",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Chapman",
+        "Sex ": "Male",
+        "Place ": "Kirknewton and East Calder",
+        "Birth year ": "1796",
+        "County ": "Midlothian",
+        "Baptism year ": "1796",
+        "Country ": "Scotland",
+        "Baptism date ": "17 Jul 1796",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Thomas",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+      "access_note": "Thomas Glasgow in 1796 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Death Record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Marriage Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-691906822",
+      "assessment": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_686210500": {
+      "provider_id": "R_686210500",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686210500",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686210500&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686210500&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:10.177712+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Mother's last name ": "Chapman",
+        "Last name ": "Glasgow",
+        "Residence ": "Kirknewton, Midlothian, Scotland",
+        "Sex ": "Male",
+        "Place ": "Kirknewton and East Calder",
+        "Birth year ": "1796",
+        "County ": "Midlothian",
+        "Baptism year ": "1796",
+        "Country ": "Scotland",
+        "Baptism date ": "17 Jul 1796",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Thomas",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Margaret",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+      "access_note": "Thomas Glasgow in 1796 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Death Record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Marriage Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-686210500",
+      "assessment": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "GBPRS/GLASGOW/BUR/093175": {
+      "provider_id": "GBPRS/GLASGOW/BUR/093175",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093175",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093175&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093175&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:29.929307+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Burial place ": "Glasgow High Church, Glasgow",
+        "Last name ": "Glasgow",
+        "County ": "Lanarkshire",
+        "Birth year ": "1768",
+        "Country ": "Scotland",
+        "Death year ": "1768",
+        "Notes ": "Relation: child of William Glasgow",
+        "Death date ": "? ? 1768",
+        "Record set ": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Age ": "9m",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Burial year ": "1768",
+        "Subcategory ": "Parish Burials",
+        "Burial date ": "13 Dec 1768",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Child/father identity HOLD",
+      "access_note": "William Glasgow in 1768 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093175",
+      "assessment": "William buried 13 December 1768 Glasgow High Church, age nine months, explicitly child of William Glasgow. Birth 1768 age-derived, no mother or exact death day. Both child and named father roles need identification; neither is an automatically new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BAP/4146177": {
+      "provider_id": "SCOT/OPR/BAP/4146177",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177&tab=this",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:23:35.944202+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Mother's first name(s) ": "Anne",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Gray",
+        "Birth year ": "1786",
+        "Archive reference ": "OPR 667/1",
+        "Birth date ": "02 Apr 1786",
+        "Register year range ": "1731-1819",
+        "Baptism year ": "1786",
+        "Item ": "2",
+        "Baptism date ": "09 Apr 1786",
+        "Page ": "102",
+        "Place ": "Kirkliston",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Country ": "Scotland",
+        "Subcategory ": "Parish Baptisms",
+        "Father's first name(s) ": "John",
+        "Collections from ": "Great Britain, Scotland",
+        "Father's last name ": "Glasgow",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative; original register uninspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_history_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/pages33_35_review_20261030/provider_error_receipts/2",
+      "reinspection_reason": "Explicit pending detail gap after provider error; bounded recovery probe succeeded, no previously accessible transcript refetched.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bap-4146177",
+      "assessment": "Thomas born 2 April, baptised 9 April 1786 Kirkliston; John Glasgow and Anne Gray, OPR 667/1 item 2 page 102. The held account reads Agnes Gray. Preserve Anne/Agnes; do not rename Gray-6937 or infer a second mother. Exact birthday is already held; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BAP/4602994": {
+      "provider_id": "SCOT/OPR/BAP/4602994",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:13.383573+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's first name(s) ": "Margaret",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Linton",
+        "Birth year ": "1745",
+        "Archive reference ": "OPR 697/1",
+        "Birth date ": "17 Apr 1745",
+        "Register year range ": "1654-1766",
+        "Baptism year ": "1754",
+        "Item ": "1",
+        "Baptism date ": "17 Apr 1754",
+        "Page ": "225",
+        "Place ": "Penicuik",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County ": "Midlothian",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Country ": "Scotland",
+        "Subcategory ": "Parish Baptisms",
+        "Father's first name(s) ": "Andrew",
+        "Collections from ": "Great Britain, Scotland",
+        "Father's last name ": "Glasgow",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity and event-date HOLD",
+      "access_note": "William Glasgow in 1754 | Transcript of William's record | Transcript of William's record | Death Record | Other records featuring that name | Death Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bap-4602994",
+      "assessment": "William OPR 697/1 item 1 page 225 Penicuik, Andrew Glasgow and Margaret Linton. Literal birth 17 April 1745 and baptism 17 April 1754 are nine years apart. Retain delayed-baptism versus transcription-error possibilities; do not force infant baptism or silently change a year. Andrew/Isobell Clerk child William-1320 remains a comparison requiring maternal/chronological reconciliation; no second person from a differing maternal field alone. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_692406064": {
+      "provider_id": "R_692406064",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_692406064",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_692406064&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_692406064&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:33:11.929717+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Mother's first name(s) ": "Christian",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Davidson",
+        "Sex ": "Male",
+        "Place ": "Livingston",
+        "Birth year ": "1787",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Baptism year ": "1787",
+        "Country ": "Scotland",
+        "Baptism date ": "26 Apr 1787",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "LIVINGSTON, WEST LOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Thomas",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "Thomas Glasgow in 1787 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Death Record | Death Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Death Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-692406064",
+      "assessment": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BAP/4171361": {
+      "provider_id": "SCOT/OPR/BAP/4171361",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:33:15.042895+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Father's last name ": "Glasgow",
+        "Last name ": "Glasgow",
+        "Mother's first name(s) ": "Christian",
+        "Birth year ": "1787",
+        "Mother's last name ": "Davidson",
+        "Birth date ": "26 Apr 1787",
+        "Archive reference ": "OPR 673/1",
+        "Baptism year ": "1787",
+        "Register year range ": "1719-1819",
+        "Baptism date ": "06 May 1787",
+        "Item ": "3",
+        "Residence ": "Blackburn",
+        "Page ": "61",
+        "Place ": "Whitburn",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Country ": "Scotland",
+        "Subcategory ": "Parish Baptisms",
+        "Father's first name(s) ": "Thomas",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "Thomas Glasgow in 1787 | Transcript of Thomas's record | Transcript of Thomas's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bap-4171361",
+      "assessment": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_692406065": {
+      "provider_id": "R_692406065",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_692406065",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_692406065&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_692406065&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:20.033807+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's first name(s) ": "Janet",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Mill",
+        "Sex ": "Male",
+        "Place ": "Livingston",
+        "Birth year ": "1757",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Baptism year ": "1757",
+        "Country ": "Scotland",
+        "Baptism date ": "26 Jun 1757",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "LIVINGSTON, WEST LOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Thomas",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1757 | Transcript of William's record | Transcript of William's record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-692406065",
+      "assessment": "William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_687758516": {
+      "provider_id": "R_687758516",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_687758516",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_687758516&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_687758516&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:35:01.532793+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's first name(s) ": "Jean",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Richie",
+        "Sex ": "Male",
+        "Place ": "Penicuik",
+        "Birth year ": "1743",
+        "County ": "Midlothian",
+        "Baptism year ": "1743",
+        "Country ": "Scotland",
+        "Baptism date ": "16 Apr 1743",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "PENICUIK, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Allexander",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1743 | Transcript of William's record | Transcript of William's record | Death Record | Death Record | Death Record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Death Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-687758516",
+      "assessment": "William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "PRS/SCOTLAND/MI/ADD/5/00542646": {
+      "provider_id": "PRS/SCOTLAND/MI/ADD/5/00542646",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646",
+      "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646&tab=this",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:15.912113+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Place ": "Livingston",
+        "Last name ": "Glasgow",
+        "County ": "Linlithgowshire (West Lothian)",
+        "Birth year ": "1746",
+        "Country ": "Scotland",
+        "Birth date ": "? ? 1746",
+        "Inscription ": "Thomas GLASGOW 22.7.1831 85, wife Christian DAVIDSON 5.11.1795 43, son Peter 12.9.1810 19, daughter Janet 16.10.1853 76 (grandchildren Mary RUSSELL died in infancy, Jessie RUSSELL 11.7.1845 20). Jessie RUSSELL 8.2.1851 10 m. James B. RUSSELL 22.4. 1854 19 m)",
+        "Age ": "85",
+        "Record set ": "Scotland Monumental Inscriptions",
+        "Death date ": "22 Jul 1831",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Death year ": "1831",
+        "Subcategory ": "Parish Burials",
+        "Cemetery ": "Livingston Cemetery",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified existing family comparison",
+      "access_note": "Thomas Glasgow in 1831 | Transcript of Thomas's record | Transcript of Thomas's record | Birth Record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Birth Record | Marriage Record | Marriage Record | Marriage Record | Discover more about these records",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542646",
+      "assessment": "Livingston family monument: one derivative gives Thomas death 22 July 1831 age 85, Christian Davidson 5 November 1795 age 43, Peter 12 September 1810 age 19, Janet 16 October 1853 age 76. Companion gives Thomas 22 May 1831 age 85, Christian age 45, Peter 12 September 1819 age 48 and Janet 16 October 1873 age 76; Russell grandchildren also differ. These readings were already held through other indexed family members. Preserve all discrepancies and current 1851 Thomas death pending original; no new fact adoption, independent corroboration or assessment change. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_691906112": {
+      "provider_id": "R_691906112",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691906112",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691906112&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691906112&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:57.222713+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's first name(s) ": "Isobell",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Clerk",
+        "Sex ": "Male",
+        "Place ": "Kirknewton and East Calder",
+        "Birth year ": "1739",
+        "County ": "Midlothian",
+        "Baptism year ": "1739",
+        "Country ": "Scotland",
+        "Baptism date ": "06 Apr 1739",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Andrew",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1739 | Transcript of William's record | Transcript of William's record | Death Record | Death Record | Death Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Death Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-691906112",
+      "assessment": "William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BAP/4477789": {
+      "provider_id": "SCOT/OPR/BAP/4477789",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477789",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477789&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477789&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:33:37.310563+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Father's occupation ": "Servant",
+        "Last name ": "Glasgow",
+        "Mother's first name(s) ": "Margt",
+        "Birth year ": "1796",
+        "Mother's last name ": "Chapman",
+        "Birth date ": "? Jul 1796",
+        "Archive reference ": "OPR 690/3",
+        "Baptism year ": "1796",
+        "Register year range ": "1766-1819",
+        "Baptism date ": "17 Jul 1796",
+        "Item ": "2",
+        "Residence ": "Clotton",
+        "Page ": "15",
+        "Place ": "Kirknewton & East Calder",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County ": "Midlothian",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Country ": "Scotland",
+        "Subcategory ": "Parish Baptisms",
+        "Father's first name(s) ": "Thomas",
+        "Collections from ": "Great Britain, Scotland",
+        "Father's last name ": "Glasgow",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+      "access_note": "Thomas Glasgow in 1796 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Other records featuring that name | Death Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bap-4477789",
+      "assessment": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_688348923": {
+      "provider_id": "R_688348923",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688348923",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_688348923&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_688348923&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:32:56.939363+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Mother's first name(s) ": "Mary",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Robertson",
+        "Sex ": "Male",
+        "Place ": "Currie by Edinburgh",
+        "Birth year ": "1761",
+        "County ": "Midlothian",
+        "Baptism year ": "1761",
+        "Country ": "Scotland",
+        "Baptism date ": "02 Aug 1761",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "Currie by Edinburgh, Midlothian, Scotland",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "John",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "Thomas Glasgow in 1761 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Death Record | Marriage Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Marriage Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-688348923",
+      "assessment": "Thomas baptism 2 August 1761, Currie by Edinburgh, John Glasgow and Mary Robertson. Companion of the held OPR birth 26 July; no additional birth field or independent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BAP/4476988": {
+      "provider_id": "SCOT/OPR/BAP/4476988",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476988",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476988&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476988&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:07.282760+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Thomas",
+        "Father's occupation ": "Plowman",
+        "Last name ": "Glasgow",
+        "Mother's first name(s) ": "Margaret",
+        "Birth year ": "1796",
+        "Mother's last name ": "Chapman",
+        "Birth date ": "03 Jul 1796",
+        "Archive reference ": "OPR 690/3",
+        "Baptism year ": "1796",
+        "Register year range ": "1766-1819",
+        "Baptism date ": "17 Jul 1796",
+        "Item ": "2",
+        "Residence ": "Clifton",
+        "Page ": "13",
+        "Place ": "Kirknewton & East Calder",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County ": "Midlothian",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Country ": "Scotland",
+        "Subcategory ": "Parish Baptisms",
+        "Father's first name(s) ": "Thos",
+        "Collections from ": "Great Britain, Scotland",
+        "Father's last name ": "Glasgow",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+      "access_note": "Thomas Glasgow in 1796 | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Other records featuring that name | Death Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bap-4476988",
+      "assessment": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "R_686209953": {
+      "provider_id": "R_686209953",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686209953",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686209953&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686209953&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:34:29.805806+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Mother's last name ": "Clerk",
+        "Last name ": "Glasgow",
+        "Residence ": "Kirknewton, Midlothian, Scotland",
+        "Sex ": "Male",
+        "Place ": "Kirknewton and East Calder",
+        "Birth year ": "1739",
+        "County ": "Midlothian",
+        "Baptism year ": "1739",
+        "Country ": "Scotland",
+        "Baptism date ": "06 Apr 1739",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "KIRKNEWTON AND EAST CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Andrew",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Isobell",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+      "access_note": "William Glasgow in 1739 | Transcript of William's record | Transcript of William's record | Death Record | Death Record | Death Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Death Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-r-686209953",
+      "assessment": "William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+    },
+    "SCOT/OPR/BUR/1292654": {
+      "provider_id": "SCOT/OPR/BUR/1292654",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1292654",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1292654&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1292654&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "captured_at": "2026-10-30T13:36:16.302281+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "William",
+        "Country ": "-",
+        "Last name ": "Glasgow",
+        "Page ": "?",
+        "Birth year ": "1750",
+        "Archive reference ": "OPR 682/3",
+        "Age ": "72",
+        "Year Range ": "1820-1854",
+        "Death year ": "1822",
+        "Item ": "4",
+        "Death date ": "11 Nov 1822",
+        "Record set ": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Burial year ": "1822",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Residence ": "Ballerno",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Currie",
+        "Collections from ": "Great Britain, Scotland",
+        "County ": "Midlothian",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+      "access_note": "William Glasgow in 1822 | Transcript of William's record | Transcript of William's record | Marriage Record | Marriage Record | Marriage Record | Other records featuring that name | Marriage Record | Marriage Record | Marriage Record",
+      "reinspection_reason": "Previously indexed search-only entry; explicitly pending unread event/parent fields, no accessible receipt exists.",
+      "reviewed_on": "2026-10-30",
+      "surname_status": "Scope retained; childhood Glasgow explicit in baptisms, later-life natal identity remains qualified",
+      "surname_review_basis": "Reviewed literal labelled fields and documentary roles; no original image inspected",
+      "canonical_record_id": "fmp-record-scot-opr-bur-1292654",
+      "assessment": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
     }
   },
   "identity_clusters": [
@@ -82581,6 +83937,399 @@
         "record-fmp-glasgow-12395e3a9d9b"
       ],
       "verification_report": "output/findmypast-pages33-35-reconciliation-20261030-verification.json",
+      "publication_verified": true
+    },
+    "detail_recovery_20261030": {
+      "status": "locally_integrated_and_verified",
+      "records": 34,
+      "documentary_groups": 22,
+      "new_provider_ids": 0,
+      "new_people": 0,
+      "original_images_inspected": 0,
+      "record_dispositions": {
+        "R_688348923": {
+          "canonical_record_id": "fmp-record-r-688348923",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1620": {
+              "role": "Recorded child; exact baptism and parental couple match the held Currie account",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "Thomas baptism 2 August 1761, Currie by Edinburgh, John Glasgow and Mary Robertson. Companion of the held OPR birth 26 July; no additional birth field or independent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BAP/4146177": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4146177",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-160": {
+              "role": "Recorded child comparison; exact 2 April 1786 birth matches, maternal reading differs",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "Thomas born 2 April, baptised 9 April 1786 Kirkliston; John Glasgow and Anne Gray, OPR 667/1 item 2 page 102. The held account reads Agnes Gray. Preserve Anne/Agnes; do not rename Gray-6937 or infer a second mother. Exact birthday is already held; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_684963042": {
+          "canonical_record_id": "fmp-record-r-684963042",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "Thomas baptised 3 November 1782 Wandell and Lamington, father William, mother dash. Parent first name and locality are new discriminators; no decisive exclusion of all existing Thomas candidates or later adult bridge. Do not manufacture a mother or new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_685840829": {
+          "canonical_record_id": "fmp-record-r-685840829",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1449": {
+              "role": "Recorded child; Thomas/Christian Davidson family, 26 April 1787 event",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1382": {
+              "role": "Named father, existing adult household comparison; ancestry assessment unchanged",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_692406064": {
+          "canonical_record_id": "fmp-record-r-692406064",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1449": {
+              "role": "Recorded child; Thomas/Christian Davidson family, 26 April 1787 event",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1382": {
+              "role": "Named father, existing adult household comparison; ancestry assessment unchanged",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BAP/4171361": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4171361",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1449": {
+              "role": "Recorded child; Thomas/Christian Davidson family, 26 April 1787 event",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1382": {
+              "role": "Named father, existing adult household comparison; ancestry assessment unchanged",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as baptism at Livingston, while OPR 673/1 item 3 page 61 labels it birth, baptism 6 May, Whitburn, residence Blackburn. Match Glasgow-1449 by exact 26 April event and couple; retain the baptism/locality disagreement. Prefer explicit OPR birth 26 April without claiming original verification. Existing father 69% and mother ungraded; adult ancestry remains separate. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "PRS/SCOTLAND/MI/ADD/5/00542644": {
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542644",
+          "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+          "profiles": {
+            "Glasgow-3706": {
+              "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+              "timeline_group": "Records for identity comparison"
+            },
+            "Whitehead-9630": {
+              "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "PRS/SCOTLAND/MI/ADD/5/00542645": {
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542645",
+          "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+          "profiles": {
+            "Glasgow-3706": {
+              "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+              "timeline_group": "Records for identity comparison"
+            },
+            "Whitehead-9630": {
+              "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BAP/4477789": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4477789",
+          "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BAP/4476988": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4476988",
+          "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_686210500": {
+          "canonical_record_id": "fmp-record-r-686210500",
+          "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_691906822": {
+          "canonical_record_id": "fmp-record-r-691906822",
+          "status": "Inspected derivative transcript; Qualified child comparison; 1796/1800 identity unresolved",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of 1796 child; later baptism-derived bound does not exclude earlier birth",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "Thomas, father Thomas/Thos and mother Margaret/Margt Chapman, baptised 17 July 1796 Kirknewton and East Calder. OPR page 13 gives birth 3 July, Clifton, father plowman; page 15 gives partial July birth, Clotton, father servant. Preserve both register-entry readings; companions are not independent witnesses. Held OPR 4478159 already gave birth 3 July. Glasgow-3347 has an 1800 christening, not a proven 1800 birthday: retain candidate identity, no inferred brothers, death or merge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "PRS/SCOTLAND/MI/ADD/5/00542646": {
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542646",
+          "status": "Inspected derivative transcript; Qualified existing family comparison",
+          "profiles": {
+            "Glasgow-1382": {
+              "role": "Named Thomas/Christian Davidson adult household comparison; conflicting family memorial readings",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "Livingston family monument: one derivative gives Thomas death 22 July 1831 age 85, Christian Davidson 5 November 1795 age 43, Peter 12 September 1810 age 19, Janet 16 October 1853 age 76. Companion gives Thomas 22 May 1831 age 85, Christian age 45, Peter 12 September 1819 age 48 and Janet 16 October 1873 age 76; Russell grandchildren also differ. These readings were already held through other indexed family members. Preserve all discrepancies and current 1851 Thomas death pending original; no new fact adoption, independent corroboration or assessment change. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "GBPRS/SCOT/MIS/511333": {
+          "canonical_record_id": "fmp-record-gbprs-scot-mis-511333",
+          "status": "Inspected derivative transcript; Qualified existing family comparison",
+          "profiles": {
+            "Glasgow-1382": {
+              "role": "Named Thomas/Christian Davidson adult household comparison; conflicting family memorial readings",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "Livingston family monument: one derivative gives Thomas death 22 July 1831 age 85, Christian Davidson 5 November 1795 age 43, Peter 12 September 1810 age 19, Janet 16 October 1853 age 76. Companion gives Thomas 22 May 1831 age 85, Christian age 45, Peter 12 September 1819 age 48 and Janet 16 October 1873 age 76; Russell grandchildren also differ. These readings were already held through other indexed family members. Preserve all discrepancies and current 1851 Thomas death pending original; no new fact adoption, independent corroboration or assessment change. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "BMD/NBI/01614607": {
+          "canonical_record_id": "fmp-record-bmd-nbi-01614607",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "Thomas buried 21 January 1835 St Mary, Chesham, Buckinghamshire, Anglican, age 68. Birth about 1767 is age-derived; death year is indexed 1835 without an exact death date. No named relatives or childhood bridge establish an existing Thomas; no new person from the failed match. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "GBPRS/SCOT/MIS/204971": {
+          "canonical_record_id": "fmp-record-gbprs-scot-mis-204971",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "Thomas, St Johns Kirk, Biggar, death 1866 age 84, indexed birth 1782. No exact day or inscription text is supplied. Date and natal surname remain unverified and existing Thomas comparisons unresolved; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "BMD/D/1871/4/AZ/000138/015": {
+          "canonical_record_id": "fmp-record-bmd-d-1871-4-az-000138-015",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "Thomas, male, Dartford Kent civil death registration fourth quarter 1871 age 81, volume 2A page 199. Birth about 1790 age-derived; district is not a proved birthplace or exact death location. No relatives or natal-surname evidence identify him; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_686209953": {
+          "canonical_record_id": "fmp-record-r-686209953",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1320": {
+              "role": "Recorded child; exact baptism and Andrew/Isobell Clerk parental family",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1336": {
+              "role": "Candidate named father Andrew in existing Clerk household; adult identification retains limits",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_691906112": {
+          "canonical_record_id": "fmp-record-r-691906112",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1320": {
+              "role": "Recorded child; exact baptism and Andrew/Isobell Clerk parental family",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1336": {
+              "role": "Candidate named father Andrew in existing Clerk household; adult identification retains limits",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_687758516": {
+          "canonical_record_id": "fmp-record-r-687758516",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Recorded child; exact 16 April 1743 baptism and Allexander/Jean Richie family",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1342": {
+              "role": "Candidate named father Allexander in existing Richie household; title Alexander William not proved by this record",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_686330816": {
+          "canonical_record_id": "fmp-record-r-686330816",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Recorded child; exact 16 April 1743 baptism and Allexander/Jean Richie family",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1342": {
+              "role": "Candidate named father Allexander in existing Richie household; title Alexander William not proved by this record",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BAP/4602994": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4602994",
+          "status": "Inspected derivative transcript; Identity and event-date HOLD",
+          "profiles": {},
+          "basis": "William OPR 697/1 item 1 page 225 Penicuik, Andrew Glasgow and Margaret Linton. Literal birth 17 April 1745 and baptism 17 April 1754 are nine years apart. Retain delayed-baptism versus transcription-error possibilities; do not force infant baptism or silently change a year. Andrew/Isobell Clerk child William-1320 remains a comparison requiring maternal/chronological reconciliation; no second person from a differing maternal field alone. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_685841157": {
+          "canonical_record_id": "fmp-record-r-685841157",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1385": {
+              "role": "Recorded child; exact 26 June 1757 baptism and Thomas/Janet Mill family",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1023": {
+              "role": "Named father comparison in existing Janet Mill household; adult ancestry separate",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_692406065": {
+          "canonical_record_id": "fmp-record-r-692406065",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1385": {
+              "role": "Recorded child; exact 26 June 1757 baptism and Thomas/Janet Mill family",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1023": {
+              "role": "Named father comparison in existing Janet Mill household; adult ancestry separate",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_686574919": {
+          "canonical_record_id": "fmp-record-r-686574919",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-1223": {
+              "role": "Recorded child; exact 4 August 1765 baptism and James/Elizabeth Tait family",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1238": {
+              "role": "Candidate named father James in existing Tait household; adult childhood linkage remains separate",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "GBPRS/GLASGOW/BUR/093175": {
+          "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093175",
+          "status": "Inspected derivative transcript; Child/father identity HOLD",
+          "profiles": {},
+          "basis": "William buried 13 December 1768 Glasgow High Church, age nine months, explicitly child of William Glasgow. Birth 1768 age-derived, no mother or exact death day. Both child and named father roles need identification; neither is an automatically new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_684962615": {
+          "canonical_record_id": "fmp-record-r-684962615",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "William baptised 19 September 1784 Wandell and Lamington, father William Glasgow, mother dash. Together with Thomas 1782 this is a same-parish/same-named-father lead, not proof of full siblings or an adult father identification. Glasgow-3647 born about 1784 with Affleck maternal attribution is not excluded by this absent mother; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_688329658": {
+          "canonical_record_id": "fmp-record-r-688329658",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "William baptised 20 March 1786 Corstorphine, William Glasgow and Margret Forrest. Exact named-parent fields supply a household lead; no existing adult William or child identity established by this bounded review. No new person from absent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "R_685969283": {
+          "canonical_record_id": "fmp-record-r-685969283",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "William baptised 20 March 1786 Corstorphine, William Glasgow and Margret Forrest. Exact named-parent fields supply a household lead; no existing adult William or child identity established by this bounded review. No new person from absent corroboration. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BAP/4122049": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4122049",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-3401": {
+              "role": "Recorded child; William/Peter/Elisabeth Dick Bathgate event",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-1466": {
+              "role": "Candidate named father Peter; Peter childhood/adult identification retains existing 81% limit",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "basis": "William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BAP/3607887": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-3607887",
+          "status": "Inspected derivative transcript; Matched recorded subject; adult identities retain existing limits",
+          "profiles": {
+            "Glasgow-3392": {
+              "role": "Recorded child; exact 16 July birth and 19 July 1795 baptism",
+              "timeline_group": "Qualified source records"
+            },
+            "Glasgow-3298": {
+              "role": "Named father John, shoe maker; existing Wyllie household",
+              "timeline_group": "Qualified source records"
+            }
+          },
+          "basis": "William born 16 July, baptised 19 July 1795 Kilmarnock, John Glasgow, shoe maker, and Margaret Wyllie, OPR 597/3 item 3 page 181. Exact dates and couple match Glasgow-3392; birthday already held. Father occupation is now explicit in this derivative; father 97% and mother ungraded unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "BMD/NBI/07447920": {
+          "canonical_record_id": "fmp-record-bmd-nbi-07447920",
+          "status": "Inspected derivative transcript; Identity HOLD",
+          "profiles": {},
+          "basis": "William buried 3 August 1813 Holy Trinity, Berwick upon Tweed, Northumberland, Anglican, age 46. Birth about 1767 age-derived. William-1223 baptised 1765 with uncertain circa-1820 death is not conclusively excluded by approximate age or uncertain death; retain comparison without assigning this burial or creating a person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "SCOT/OPR/BUR/1292654": {
+          "canonical_record_id": "fmp-record-scot-opr-bur-1292654",
+          "status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+          "profiles": {},
+          "basis": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        },
+        "GBPRS/LOTHIAN/FHS/BUR/001369": {
+          "canonical_record_id": "fmp-record-gbprs-lothian-fhs-bur-001369",
+          "status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+          "profiles": {},
+          "basis": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change."
+        }
+      },
+      "prior_access_history": "#/matching_review/pages33_35_review_20261030",
+      "remaining_subscription_holds": [
+        "SCOT/OPR/BAP/4360754",
+        "SCOT/OPR/BAP/4602371"
+      ],
+      "pending_detail_provider_ids": [
+        "SCOT/OPR/BAP/4360754",
+        "SCOT/OPR/BAP/4602371"
+      ],
+      "literal_indexed_provider_ids": 745,
+      "indexed_provider_id_union": 799,
+      "verification_report": "output/findmypast-detail-recovery-20261030-verification.json",
       "publication_verified": true
     }
   }

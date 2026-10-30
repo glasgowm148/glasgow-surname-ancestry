@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William born 16 July, baptised 19 July 1795 Kilmarnock, John Glasgow, shoe maker, and Margaret Wyllie, OPR 597/3 item 3 page 181. Exact dates and couple match Glasgow-3392; birthday already held. Father occupation is now explicit in this derivative; father 97% and mother ungraded unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Reviewed: 22 October 2026.
 
 Two inspected transcripts index unnamed male children born 1792 and 1797 at Kilmarnock, father John Glasgow, mother unnamed. The local John associated with Margaret Wyllie is a compatible adult lead, not a proved father identification. [John Glasgow-3051](/people/glasgow-3051.html), born 24 January 1791, is too young to father either child and is excluded for this role. Do not invent children’s forenames or use the unnamed mother to assert Margaret as their mother.
@@ -60,3 +62,11 @@ Dates retain their source roles: register ranges are not event dates, and a late
 The adult identification of Hugh with [Glasgow-1929](/people/glasgow-1929.html) retains its **94%** scoped father assessment; [McEachin-120](/people/mceachin-120.html) remains separately unassessed. No vital, parent, or relationship grade changes follow from this derivative transcript. Next test: inspect the Glasgow register and the FamilySearch date fields together for the 19 April birth and 23 April baptism roles.
 
 The inherited complete biography’s exact 19 April birthday and McCachen-1 maternal link are retained as earlier claims, qualified against the current before-19-April birth bound and unassessed McEachin-120 comparison. The new baptism transcript settles neither discrepancy; no vital or maternal attachment changes.
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William born 16 July, baptised 19 July 1795 Kilmarnock, John Glasgow, shoe maker, and Margaret Wyllie, OPR 597/3 item 3 page 181. Exact dates and couple match Glasgow-3392; birthday already held. Father occupation is now explicit in this derivative; father 97% and mother ungraded unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [SCOT/OPR/BAP/3607887](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3607887) — Named father John, shoe maker; existing Wyllie household.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.

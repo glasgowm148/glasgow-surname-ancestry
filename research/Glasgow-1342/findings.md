@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-1141](https://www.wikitree.com/wiki/Glasgow-1141). Record-defined 1724 child and Moultrie household; the biography’s stale Glasgow-1313 identifier is not another evidenced father. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The retained 1724 Kirknewton index citation identifies Alexander as child of Alexander Glasgow and Margaret Mubrie/Moultrie. Alexander-1141 represents the same specific couple’s 1721–1732 household, so the parental pairing and ordered local children support the father strongly. Record-defined 1724 child and Moultrie household; the biography’s stale Glasgow-1313 identifier is not another evidenced father.
@@ -61,3 +63,12 @@ named-father profile candidate; existing family role based on tree only, not upg
 
 These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE18-20261024 -->
+
+## Recovered Findmypast detail review — 30 October 2026
+
+William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.
+
+- [R_687758516](https://www.findmypast.co.uk/transcript?id=R_687758516) — Candidate named father Allexander in existing Richie household; title Alexander William not proved by this record.
+- [R_686330816](https://www.findmypast.co.uk/transcript?id=R_686330816) — Candidate named father Allexander in existing Richie household; title Alexander William not proved by this record.
+
+Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.
