@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-2475",
+  "objective": "Test the proposed father William Glasgow-3080 without repeating completed index-only comparisons.",
+  "questions": [
+    {
+      "id": "father",
+      "question": "Which source identifies Irvine John’s father or joins him to the Leith William?",
+      "status": "open",
+      "answer": "Existing31%hypothesis retained; no discriminating bridge found in this bounded held-source review."
+    }
+  ],
+  "research_state": {
+    "disposition": "awaiting_source",
+    "father_id": "Glasgow-3080",
+    "reviewed": "2026-10-30",
+    "last_test": "Read current John/Kyle and Leith accounts, the already inspected1662testament conclusions, bounded approved notes, and held father/child indexes. Reviewed the civic catalogue/OCR leads and existing printed Muniments readings without presenting them as new originals. No kinship, occupation or residence bridge identifies the1660Leith William as Irvine John’s father;31%retained.",
+    "next_test": "Obtain the actual typed transcript/original of Irvine IB2/9/25,27March1733, or an identifiable guild/apprenticeship entry, for family or origin details. The catalogue merely says a typed transcript exists; none was available in the bounded search. Distinguish an adult William from the1706Irvine child Glasgow-3408 and the1660Leith child Glasgow-3080 before assigning it.",
+    "resume_when": "A source gives Irvine John’s parent, origin, trade or a uniquely identifiable adult William, rather than another bare-name index hit.",
+    "source_locators": [
+      "research/Glasgow-2475/findings.md",
+      "research/Glasgow-3078/findings.md",
+      "https://web.archive.org/web/20190919232657/https://ayrshirearchives.files.wordpress.com/2019/04/irvine-burgh-catalogue-2017-watermarked.pdf"
+    ],
+    "scope": "The1733catalogue OCR is an acquisition lead only; the typed transcript and underlying instrument were not read. Prior printed1669–70/1721entries do not name a parent. The1662testament is already an inspected source and was not re-rendered."
+  },
+  "last_test": "Read current John/Kyle and Leith accounts, the already inspected1662testament conclusions, bounded approved notes, and held father/child indexes. Reviewed the civic catalogue/OCR leads and existing printed Muniments readings without presenting them as new originals. No kinship, occupation or residence bridge identifies the1660Leith William as Irvine John’s father;31%retained.",
+  "next_test": "Obtain the actual typed transcript/original of Irvine IB2/9/25,27March1733, or an identifiable guild/apprenticeship entry, for family or origin details. The catalogue merely says a typed transcript exists; none was available in the bounded search. Distinguish an adult William from the1706Irvine child Glasgow-3408 and the1660Leith child Glasgow-3080 before assigning it.",
+  "resume_when": "A source gives Irvine John’s parent, origin, trade or a uniquely identifiable adult William, rather than another bare-name index hit."
+}

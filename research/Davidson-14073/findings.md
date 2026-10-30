@@ -2,6 +2,30 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026. **Christian Davidson-14073 is assessed 97% confident as the existing mother of Janet Glasgow-1448.** This is her first individual rating for that attached relationship, not a new mother attachment or a numerical confidence gain. The held Livingston inscription explicitly identifies Christian Davidson as Janet's mother, with Thomas Glasgow as her father; Janet's 2 February 1777 baptism names that same parental couple.
+
+Prefer **5 November 1795** as Christian's death date from the qualified memorial reading, retaining the conflicting ages **43/45** without selecting an exact birth year or changing the existing approximate birth. Prefer daughter Janet's **16 October 1853** death through the combined family correlation, preserving **1873, age 76** as the conflicting version. Husband Thomas's preferred death year is **1831**, age 85, with May/July unresolved and 1851 preserved as an alternative. These conclusions share the same memorial/parish family argument rather than independently proving one another. [Thomas's account gives the complete reasoning](/people/glasgow-1382.html#research-findings).
+
+## Held memorial and parish family — 30 October 2026
+
+Christian's maternity is expressly stated in the held inscription, not merely inferred from her being Thomas's wife. The full couple, Livingston setting and daughter Janet match the parish baptism. Christian's 1795 death also exposes the internal problem in combining Janet's 1873 year with age 76, which implies a later birth around 1797. That supports preferring the coherent 1853 reading while preserving the possibility of an incorrect age instead. Original stone and parish images remain uninspected for this review; no new source was fetched and the repeated memorial-person rows/companion versions are not independent witnesses.
+
+The earlier account's unassessed maternity and requirement to hold every date until an original is read are superseded to the stated extent. No new parent, spouse, exact birth date or live WikiTree edit is inferred. Seek the legible inscription or burial evidence for the age/death variants and retain the family's remaining identity questions.
+
+## Sources for this reconciliation
+
+- [Livingston family memorial, Findmypast PRS/SCOTLAND/MI/ADD/5/00542646](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646&tab=this): Thomas 1831/85; Christian Davidson; son Peter; daughter Janet, with conflicting digit readings preserved.
+- [Companion family inscription, GBPRS/SCOT/MIS/511333](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this): Janet's mother Christian Davidson and father Thomas Glasgow explicitly stated. Same monument, not an independent witness.
+- [Janet, 2 February 1777, Livingston, R_685844147](https://www.findmypast.co.uk/transcript?id=R_685844147&tab=this) and [R_692403113](https://www.findmypast.co.uk/transcript?id=R_692403113&tab=this): one baptism to Thomas Glasgow and Christian Davidson.
+- [Thomas, 2 February 1746, Livingston, SCOT/OPR/BAP/4151556](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151556&tab=this): Thomas Glasgow and Janet Mill, Davistoun; baptism rather than exact birth.
+- [BillionGraves3399144, inherited competing 1851 reading](https://billiongraves.com/grave/Thomas-Glasgow/3399144): original preview previously unread; not newly inspected here.
+
+## Earlier research and source history — superseded where stated
+
+The 30 October reconciliation above supersedes earlier current 78%/43% grades, unassessed Janet maternity, blanket pending-original holds and unpreferred date statements only as explicitly described. Earlier source readings, conflicts, citations and unrelated family assessments remain preserved below.
+
+## Earlier conclusion — superseded where stated
+
 Reviewed: 2026-10-23. Retain the qualified record role below; no new person or family attachment is proposed.
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.

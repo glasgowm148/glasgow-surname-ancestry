@@ -45,3 +45,11 @@ Scope: Possible31%; the 1706 Irvine child William-3408 is a separate person and 
 Next useful test: Look for a Leith-to-Irvine occupational, apprenticeship or family bridge.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+## Leith–Irvine bridge test — 30 October 2026
+
+The selected [William Glasgow-3080](/people/glasgow-3080.html) father remains **31% possible**. The held household and civic-index review supplies no source naming John’s father or carrying the1660Leith child into this Irvine family. The already inspected1662Archibald testament is not a newly read source.
+
+Acquisition lead only: the archived Irvine burgh catalogue OCR points to **IB2/9/25,27March1733**, a shipmaster’s sasine and an associated typed transcript. The typed transcript itself was not available in the bounded search, and no kin or origin clause was read. [William-3408](/people/glasgow-3408.html), the1706Irvine child, and the older [William-3080](/people/glasgow-3080.html) are unproved comparisons, not assigned record identities. No new person, relationship or confidence gain follows.
+
+The exact-pair research plan now waits for the transcript/original or a family-bearing guild/apprenticeship record. Do not repeat the same bare-name catalogue hits as a new ancestral test. [Archived catalogue acquisition reference](https://web.archive.org/web/20190919232657/https://ayrshirearchives.files.wordpress.com/2019/04/irvine-burgh-catalogue-2017-watermarked.pdf), catalogue p.108; OCR lead not a fresh original reading.

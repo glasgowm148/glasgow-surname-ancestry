@@ -2307,10 +2307,10 @@
       "preservation_review_path": "research/findmypast-glasgow-audit/pages30-32-proposal-preservation-2026-10-30.json"
     },
     "Glasgow-1452": {
-      "draft_path": "research/Glasgow-1452/father-confidence-2026-10-22g.wiki",
-      "summary": "Add the cited record account: Possible Nathaniel R. Retain the stated identity and relationship limits. Review existing father at 68% (probable), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
-      "work_queue_summary": "Add the cited record account: Possible Nathaniel R. Retain the stated identity and relationship limits. Review existing father at 68% (probable), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
-      "queued_at": "2026-10-22",
+      "draft_path": "research/Glasgow-1452/livingston-family-2026-10-30.wiki",
+      "summary": "Add verified literal Thomas/Christian parental fields and review existing parish-child father68%→97%; retain Kingsessing/Leith comparisons without assigning an adult identity.",
+      "work_queue_summary": "Add verified literal Thomas/Christian parental fields and review existing parish-child father68%→97%; retain Kingsessing/Leith comparisons without assigning an adult identity.",
+      "queued_at": "2026-10-30",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1452/findings.md",
@@ -2327,13 +2327,13 @@
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1382",
-          "status": "probable",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 68,
+          "relative_name": "Thomas Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 97,
+          "previous_probability_percent": 68,
+          "previous_status": "probable",
           "assertion_id": "C-coverage-20261022g-glasgow-1452-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "scope": "Existing father attachment; reviewed confidence change. Original stone/register uninspected, identity scopes and later comparisons retained."
         }
       ],
       "preserve_captured_detail": false,
@@ -2341,13 +2341,14 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/pages30-32-proposal-preservation-2026-10-30.json"
+      "preservation_review_path": "research/ancestry-connections/livingston-family-preservation-2026-10-30.json",
+      "manual_update": true
     },
     "Glasgow-1453": {
-      "draft_path": "research/Glasgow-1453/father-confidence-2026-10-22g.wiki",
-      "summary": "Add the cited record account: Mary Glasgon Thomson. Retain the stated identity and relationship limits. Review existing father at 70% (probable), retaining source and identity limits; no new father attachment. Add page28 evidence and explicitly qualified comparisons; preserve event-label/year discrepancies and current relationship assessments.",
-      "work_queue_summary": "Add the cited record account: Mary Glasgon Thomson. Retain the stated identity and relationship limits. Review existing father at 70% (probable), retaining source and identity limits; no new father attachment. Add page28 evidence and explicitly qualified comparisons; preserve event-label/year discrepancies and current relationship assessments.",
-      "queued_at": "2026-10-29",
+      "draft_path": "research/Glasgow-1453/livingston-family-2026-10-30.wiki",
+      "summary": "Review existing parish-child father70%→97% from full parent fields; preserve1783/1784variants and unproved Thomson/1871Bridgeton comparison.",
+      "work_queue_summary": "Review existing parish-child father70%→97% from full parent fields; preserve1783/1784variants and unproved Thomson/1871Bridgeton comparison.",
+      "queued_at": "2026-10-30",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1453/findings.md",
@@ -2357,19 +2358,19 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-1453",
-      "biography_rechecked_at": "2026-10-29",
+      "biography_rechecked_at": "2026-10-30",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1382",
-          "status": "probable",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 70,
+          "relative_name": "Thomas Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 97,
+          "previous_probability_percent": 70,
+          "previous_status": "probable",
           "assertion_id": "C-coverage-20261022g-glasgow-1453-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "scope": "Existing father attachment; reviewed confidence change. Original stone/register uninspected, identity scopes and later comparisons retained."
         }
       ],
       "preserve_captured_detail": false,
@@ -2377,7 +2378,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/page28-proposal-preservation-2026-10-29.json"
+      "preservation_review_path": "research/ancestry-connections/livingston-family-preservation-2026-10-30.json",
+      "manual_update": true
     },
     "Glasgow-1463": {
       "draft_path": "research/Glasgow-1463/father-confidence-2026-10-22h.wiki",
@@ -10815,12 +10817,12 @@
       "biography_rechecked_at": "2026-10-30",
       "remote_captured_at": "2026-09-27T03:22:58+00:00",
       "remote_wikitext": "{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n{{Scotland Sticker}}\n\n== Biography ==\nThomas Glasgow was born on 5 November 1725. He was baptized two days later at Kilwinning, Ayrshire, Scotland, and the register recorded his family's residence as Byres, Kilwinning. He was the son of [[Glasgow-1056|Hugh Glasgow]] and [[Kilpatrick-1635|Janet Kilpatrick]].<ref name=\"fmp-baptism\">Findmypast, ''Scotland, Parish Births & Baptisms 1564-1929'', transcript “Thomas Glasgow in 1725,” birth 5 November 1725, baptism 7 November 1725, Kilwinning, Ayrshire, residence Byres, father Hugh Glasgow, mother Janet Kilpatrick, archive reference OPR 599/1, item 1, page 197; record ID SCOT/OPR/BAP/3626888; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this transcript], accessed 4 September 2026.</ref>\n\nThomas married [[Mill-357|Janet Isobel Mill]] in 1742.<ref>“Scotland Marriages, 1561-1910,” database, FamilySearch ([https://www.familysearch.org/ark:/61903/1:1:XY96-5ZV record for Thomas Glasgow], accessed 22 December 2023), marriage in 1742.</ref> They had seven known children between 1743 and 1757, principally recorded at Livingston. Their son [[Glasgow-2980|John Glasgow]] was born at Mid Calder in 1750, with Janet Mill named as his mother.<ref>“Scotland Births and Baptisms, 1564-1950,” database, FamilySearch ([https://familysearch.org/ark:/61903/1:1:X1BL-JX1 entry for John Glasgow], accessed 12 February 2020).</ref>\n\n== Research Notes ==\n=== Current evidence assessment ===\n\nThe transcript's exact date, locality and two named parents establish the record-to-profile match. The existing ScotlandsPeople citation and the Findmypast transcript use different finding-aid locators for the Kilwinning entry; both are retained pending comparison with the register image.\n\n== Sources ==\n<references />\n* [https://www.wikitree.com/wiki/Space:Thomas-1 Thomas Research]",
-      "draft_path": "research/Glasgow-1023/parish-household-review-2026-10-23.wiki",
+      "draft_path": "research/Glasgow-1023/livingston-family-2026-10-30.wiki",
       "findings_path": "research/Glasgow-1023/findings.md",
-      "summary": "Add the reciprocal parish household findings and qualified child-father assessments. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments. Add recovered provider fields with explicit identity and source-reading limits.",
-      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
+      "summary": "Reflect son Thomas’s93%confident inferred placement and the stronger sibling family; retain own1725birth and ancestry unchanged.",
+      "work_queue_summary": "Reflect son Thomas’s93%confident inferred placement and the stronger sibling family; retain own1725birth and ancestry unchanged.",
       "relationship_changes": [],
-      "preservation_review_path": "research/findmypast-glasgow-audit/detail-recovery-proposal-preservation-2026-10-30.json",
+      "preservation_review_path": "research/ancestry-connections/livingston-family-preservation-2026-10-30.json",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
@@ -10840,7 +10842,8 @@
           "captured_field_value": "1725-11-07",
           "captured_field_status": ""
         }
-      ]
+      ],
+      "manual_update": true
     },
     "Glasgow-3913": {
       "queued_at": "2026-10-22",
@@ -11484,22 +11487,22 @@
       "pending": true,
       "queued_at": "2026-10-30",
       "biography_rechecked_at": "2026-10-30",
-      "draft_path": "research/Glasgow-1382/parish-household-review-2026-10-23.wiki",
+      "draft_path": "research/Glasgow-1382/livingston-family-2026-10-30.wiki",
       "findings_path": "research/Glasgow-1382/findings.md",
-      "summary": "Add the interpreted parish household evidence. Existing father 98% → 78% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. Add24October derivative-source review and explicit date/identity conflicts; retain existing vitals and percentages. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments. Add recovered provider fields with explicit identity and source-reading limits.",
-      "work_queue_summary": "Add the interpreted parish household evidence. Existing father 98% → 78% (probable); retain the stronger record-only clause conditionally and qualify the adult identity. Add24October derivative-source review and explicit date/identity conflicts; retain existing vitals and percentages. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
+      "summary": "Reassess existing father Thomas-1023 from78% to93%; prefer probable1831death year with May/July unresolved and1851retained. Source the coherent Livingston family without inventing an exact birth.",
+      "work_queue_summary": "Reassess existing father Thomas-1023 from78% to93%; prefer probable1831death year with May/July unresolved and1851retained. Source the coherent Livingston family without inventing an exact birth.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1023",
-          "status": "probable",
-          "previous_status": "unmarked",
-          "previous_probability_percent": 98,
-          "probability_percent": 78,
+          "relative_name": "Thomas Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 93,
+          "previous_probability_percent": 78,
+          "previous_status": "probable",
           "assertion_id": "C-coverage-20261022b-glasgow-1382-father",
-          "previous_status_provenance": "Saved WikiTree certainty field and retained 22 October individual assessment/history; scope changes explicitly preserve the conditional record proposition.",
-          "scope": "The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected."
+          "scope": "Existing father attachment; reviewed confidence change. Original stone/register uninspected, identity scopes and later comparisons retained."
         }
       ],
       "preserve_captured_detail": false,
@@ -11507,7 +11510,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/detail-recovery-proposal-preservation-2026-10-30.json"
+      "preservation_review_path": "research/ancestry-connections/livingston-family-preservation-2026-10-30.json",
+      "manual_update": true,
+      "structured_updates": {
+        "DeathDate": {
+          "value": "1831-00-00",
+          "status": "guess",
+          "basis": "The memorial/parish chronology favours1831; May/July unresolved,1851retained as a competing source reading.",
+          "previous_value": "1851-05-22",
+          "previous_status": ""
+        }
+      }
     },
     "Glasgow-1466": {
       "profile_id": "Glasgow-1466",
@@ -23150,24 +23163,35 @@
       "profile_id": "Glasgow-1448",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
+      "queued_at": "2026-10-30",
       "biography_rechecked_at": "2026-10-30",
-      "draft_path": "research/Glasgow-1448/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1448/livingston-family-2026-10-30.wiki",
       "findings_path": "research/Glasgow-1448/findings.md",
-      "summary": "Record compatible Livingston Janet baptised2February1777, Thomas Glasgow/Christian Davidson; retain Bridgeton-place discrepancy, identity HOLD, before-baptism birth and43% father assessment. No parent attachment. Add24October derivative-source review and explicit date/identity conflicts; retain existing vitals and percentages. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
-      "work_queue_summary": "Record compatible Livingston Janet baptised2February1777, Thomas Glasgow/Christian Davidson; retain Bridgeton-place discrepancy, identity HOLD, before-baptism birth and43% father assessment. No parent attachment. Add24October derivative-source review and explicit date/identity conflicts; retain existing vitals and percentages. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
+      "summary": "Reassess existing father43%→97% and existing mother first97%; prefer qualified16October1853death, retaining1873variant and unresolved Bridgeton/Blackburn fields.",
+      "work_queue_summary": "Reassess existing father43%→97% and existing mother first97%; prefer qualified16October1853death, retaining1873variant and unresolved Bridgeton/Blackburn fields.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1382",
-          "status": "possible",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 43,
+          "relative_name": "Thomas Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 97,
+          "previous_probability_percent": 43,
+          "previous_status": "possible",
           "assertion_id": "C-coverage-20261022g-glasgow-1448-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "scope": "Existing father attachment; reviewed confidence change. Original stone/register uninspected, identity scopes and later comparisons retained."
+        },
+        {
+          "action": "regrade",
+          "relationship": "mother",
+          "relative_id": "Davidson-14073",
+          "relative_name": "Christian Davidson",
+          "status": "strongly_supported",
+          "probability_percent": 97,
+          "previous_status": "unmarked",
+          "assertion_id": "clm-livingston-janet-mother-20261030",
+          "scope": "Existing named mother, first individual rating; explicit memorial mother clause and baptism couple, no new attachment."
         }
       ],
       "preserve_captured_detail": false,
@@ -23175,7 +23199,17 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/pages30-32-proposal-preservation-2026-10-30.json"
+      "preservation_review_path": "research/ancestry-connections/livingston-family-preservation-2026-10-30.json",
+      "manual_update": true,
+      "structured_updates": {
+        "DeathDate": {
+          "value": "1853-10-16",
+          "status": "guess",
+          "basis": "Preferred qualified memorial reading from the1777family correlation;1873/76variant retained.",
+          "previous_value": "0000-00-00",
+          "previous_status": "guess"
+        }
+      }
     },
     "Glasgow-3611": {
       "profile_id": "Glasgow-3611",
@@ -23740,22 +23774,22 @@
       "pending": true,
       "queued_at": "2026-10-30",
       "biography_rechecked_at": "2026-10-30",
-      "draft_path": "research/Glasgow-1449/father-confidence-2026-10-22g.wiki",
+      "draft_path": "research/Glasgow-1449/livingston-family-2026-10-30.wiki",
       "findings_path": "research/Glasgow-1449/findings.md",
-      "summary": "Review existing father at 69% (probable), retaining source and identity limits; no new father attachment. Add recovered provider fields with explicit identity and source-reading limits.",
-      "work_queue_summary": "Review existing father at 69% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing parish-child father69%→97% from detailed1787birth/baptism parents; retain exact adopted birth and qualified Sarah Chapman/Henry comparison.",
+      "work_queue_summary": "Review existing parish-child father69%→97% from detailed1787birth/baptism parents; retain exact adopted birth and qualified Sarah Chapman/Henry comparison.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1382",
-          "status": "probable",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 69,
+          "relative_name": "Thomas Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 97,
+          "previous_probability_percent": 69,
+          "previous_status": "probable",
           "assertion_id": "C-coverage-20261022g-glasgow-1449-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+          "scope": "Existing father attachment; reviewed confidence change. Original stone/register uninspected, identity scopes and later comparisons retained."
         }
       ],
       "preserve_captured_detail": false,
@@ -23763,7 +23797,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/detail-recovery-proposal-preservation-2026-10-30.json",
+      "preservation_review_path": "research/ancestry-connections/livingston-family-preservation-2026-10-30.json",
       "field_changes": [
         {
           "field": "BirthDate",
@@ -23778,7 +23812,8 @@
           "captured_field_value": "1787-04-26",
           "captured_field_status": "before"
         }
-      ]
+      ],
+      "manual_update": true
     },
     "Glasgow-3399": {
       "profile_id": "Glasgow-3399",
@@ -42018,6 +42053,31 @@
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "biography_rechecked_at": "2026-10-30"
+    },
+    "Davidson-14073": {
+      "profile_id": "Davidson-14073",
+      "queued_at": "2026-10-30",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "summary": "Source existing Janet maternity at97% and preferred probable5November1795death; retain current approximate birth and43/45age conflict.",
+      "work_queue_summary": "Source existing Janet maternity at97% and preferred probable5November1795death; retain current approximate birth and43/45age conflict.",
+      "draft_path": "research/Davidson-14073/livingston-family-2026-10-30.wiki",
+      "findings_path": "research/Davidson-14073/findings.md",
+      "preservation_review_path": "research/ancestry-connections/livingston-family-preservation-2026-10-30.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-10-30",
+      "relationship_changes": [],
+      "structured_updates": {
+        "DeathDate": {
+          "value": "1795-11-05",
+          "status": "guess",
+          "basis": "Both held memorial versions agree5November1795; original unread and ages43/45unresolved.",
+          "previous_value": "0000-00-00",
+          "previous_status": "guess"
+        }
+      }
     }
   },
   "reviewed_on": "2026-10-22",

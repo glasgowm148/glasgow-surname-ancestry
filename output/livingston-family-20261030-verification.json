@@ -1,0 +1,494 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-livingston-memorial-family-reconciled-20261030",
+  "father_changes": {
+    "Glasgow-1382": [
+      "Glasgow-1023",
+      78,
+      93
+    ],
+    "Glasgow-1448": [
+      "Glasgow-1382",
+      43,
+      97
+    ],
+    "Glasgow-1452": [
+      "Glasgow-1382",
+      68,
+      97
+    ],
+    "Glasgow-1453": [
+      "Glasgow-1382",
+      70,
+      97
+    ],
+    "Glasgow-1449": [
+      "Glasgow-1382",
+      69,
+      97
+    ]
+  },
+  "new_attachments": 0,
+  "models_checked": {
+    "assets/research/atlas-model.json": true,
+    "assets/research/atlas-model-packed.json": true,
+    "onetree/glasgow-one-tree-polished-3/model.json": true
+  },
+  "graph_metrics": {
+    "working": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 1415,
+        "after": 1415
+      },
+      "component_count": {
+        "before": 392,
+        "after": 392
+      },
+      "largest_component_size": {
+        "before": 1208,
+        "after": 1208
+      },
+      "father_listing": {
+        "before": {
+          "unknown_count": 385,
+          "named_count": 1418,
+          "unavailable_count": 0,
+          "population": 1803
+        },
+        "after": {
+          "unknown_count": 385,
+          "named_count": 1418,
+          "unavailable_count": 0,
+          "population": 1803
+        }
+      }
+    },
+    "confident": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 728,
+        "after": 733
+      },
+      "component_count": {
+        "before": 1076,
+        "after": 1071
+      },
+      "largest_component_size": {
+        "before": 70,
+        "after": 70
+      },
+      "father_listing": {
+        "before": {
+          "unknown_count": 385,
+          "named_count": 1418,
+          "unavailable_count": 0,
+          "population": 1803
+        },
+        "after": {
+          "unknown_count": 385,
+          "named_count": 1418,
+          "unavailable_count": 0,
+          "population": 1803
+        }
+      }
+    }
+  },
+  "progress_events": [
+    {
+      "assertion_id": "C-coverage-20261022b-glasgow-1382-father",
+      "child": {
+        "id": "Glasgow-1382",
+        "name": "Thomas Glasgow",
+        "url": "/people/glasgow-1382.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1382"
+      },
+      "father": {
+        "id": "Glasgow-1023",
+        "name": "Thomas Glasgow",
+        "url": "/people/glasgow-1023.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1023"
+      },
+      "date": "2026-10-30",
+      "research_event": {
+        "type": "confidence_change",
+        "date": "2026-10-30",
+        "before_grade": "probable",
+        "after_grade": "confident"
+      },
+      "saved_order": 265,
+      "kind": "change",
+      "before_percent": 78,
+      "after_percent": 93,
+      "previous_assessment": {
+        "status": "probable",
+        "probability_percent": 78,
+        "assessment_date": "2026-10-23",
+        "source_basis": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%."
+      },
+      "assessment_status": "strongly_supported",
+      "source_ids": [
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
+      ],
+      "reason": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope.",
+      "limitations": "This is a reassessment of held derivative records, not a newly inspected original or independent memorial discovery. No adult record expressly names his father. Exact May/July remains unresolved;1851 with an erroneous age, an inaccurate memorial age, or another same-age Thomas remain possible. Thomas Glasgow-1413, born1744 at Irvine to Michael/Mary Crauford, and Thomas Glasgow-4109, born1749 at Edinburgh to John/Eliz Morison, remain weaker unexcluded comparisons: age87/82 and different parish contexts fit less closely, but missing later records do not exclude them. The preferred death year and parent confidence are one combined argument, not independent corroborations. Existing birth boundary and places are retained. No parent attachment, identity merge, or change to Thomas-1023’s own ancestry follows.",
+      "identity_hold": false,
+      "catalogue_father_action": "regrade",
+      "cohorts": [
+        "1750",
+        "1800",
+        "1850"
+      ],
+      "baseline": true
+    },
+    {
+      "assertion_id": "C-coverage-20261022g-glasgow-1448-father",
+      "child": {
+        "id": "Glasgow-1448",
+        "name": "Janet (Glasgow) Blackburn",
+        "url": "/people/glasgow-1448.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1448"
+      },
+      "father": {
+        "id": "Glasgow-1382",
+        "name": "Thomas Glasgow",
+        "url": "/people/glasgow-1382.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1382"
+      },
+      "date": "2026-10-30",
+      "research_event": {
+        "type": "confidence_change",
+        "date": "2026-10-30",
+        "before_grade": "possible",
+        "after_grade": "confident"
+      },
+      "saved_order": 320,
+      "kind": "change",
+      "before_percent": 43,
+      "after_percent": 97,
+      "previous_assessment": {
+        "status": "possible",
+        "probability_percent": 43,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this."
+      },
+      "assessment_status": "strongly_supported",
+      "source_ids": [
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
+      ],
+      "reason": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+      "limitations": "Original stone and parish register uninspected; all memorial index rows concern one monument and are not independent witnesses. A misread year or age remains possible, including1873 with a different age. Blackburn follows Janet’s name and may denote residence; no husband, married surname or new natal place is established. Preserve the current birth boundary, birthplace and surname pending separate evidence. The preferred death reading and parent identification share the same combined evidence; neither is newly discovered independent proof of the other. No new parent attachment or identity merge is made.",
+      "identity_hold": false,
+      "catalogue_father_action": "regrade",
+      "cohorts": [
+        "1800",
+        "1850"
+      ],
+      "baseline": true
+    },
+    {
+      "assertion_id": "C-coverage-20261022g-glasgow-1452-father",
+      "child": {
+        "id": "Glasgow-1452",
+        "name": "Nathaniel Glasgow",
+        "url": "/people/glasgow-1452.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1452"
+      },
+      "father": {
+        "id": "Glasgow-1382",
+        "name": "Thomas Glasgow",
+        "url": "/people/glasgow-1382.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1382"
+      },
+      "date": "2026-10-30",
+      "research_event": {
+        "type": "confidence_change",
+        "date": "2026-10-30",
+        "before_grade": "probable",
+        "after_grade": "confident"
+      },
+      "saved_order": 327,
+      "kind": "change",
+      "before_percent": 68,
+      "after_percent": 97,
+      "previous_assessment": {
+        "status": "probable",
+        "probability_percent": 68,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified."
+      },
+      "assessment_status": "strongly_supported",
+      "source_ids": [
+        "fmp-record-r-685841078",
+        "fmp-record-r-692405171"
+      ],
+      "reason": "The held Livingston baptism indexes explicitly name Nathaniel on 2 January 1774, father Thomas Glasgow and mother Christian Davidson. This existing profile is the parish child, with no documented spouse or later adult identity. The specific repeated parental couple identifies the same Livingston adult household as the other children. The earlier 68% reason said the literal parents were unverified; their held fields now supply them. Assess the complete father link for this record-defined child at 97%, independently of uncertainty over the father’s earlier 1746 identity.",
+      "limitations": "Companion indexes describe one baptism. No exact birthday is established. Kingsessing and Leith adults remain comparisons only, not identified with this Nathaniel; no adult events, spouse or descendants are transferred. Original register uninspected.",
+      "identity_hold": false,
+      "catalogue_father_action": "regrade",
+      "cohorts": [
+        "1800",
+        "1850"
+      ],
+      "baseline": true
+    },
+    {
+      "assertion_id": "C-coverage-20261022g-glasgow-1453-father",
+      "child": {
+        "id": "Glasgow-1453",
+        "name": "Mary Glasgow",
+        "url": "/people/glasgow-1453.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1453"
+      },
+      "father": {
+        "id": "Glasgow-1382",
+        "name": "Thomas Glasgow",
+        "url": "/people/glasgow-1382.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1382"
+      },
+      "date": "2026-10-30",
+      "research_event": {
+        "type": "confidence_change",
+        "date": "2026-10-30",
+        "before_grade": "probable",
+        "after_grade": "confident"
+      },
+      "saved_order": 329,
+      "kind": "change",
+      "before_percent": 70,
+      "after_percent": 97,
+      "previous_assessment": {
+        "status": "probable",
+        "probability_percent": 70,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father."
+      },
+      "assessment_status": "strongly_supported",
+      "source_ids": [
+        "fmp-record-r-685840887",
+        "fmp-record-r-692403782"
+      ],
+      "reason": "The held Livingston indexes for Mary on 29 June 1783 explicitly name Thomas Glasgow and Christian Davidson. The existing profile is anchored to this parish-child family; its later Thomson comparison is not an independently established adult identity. The full couple and local sibling sequence identify the adult father household, so assess this father link at 97%, from 70%. Uncertainty about the father’s own childhood must not reduce the separately recorded child-to-adult-father relationship.",
+      "limitations": "The detailed OPR SCOT/OPR/BAP/4152265 has a 1784/Whitburn 6 July variant, retained without changing Mary’s birth/death fields or inventing a second daughter. The Mary Glasgon/Thomson and approximate 1871 Bridgeton material remain unproved comparisons; no spouse is attached or adult identity certified. Original registers uninspected; companion rows are not independent events.",
+      "identity_hold": false,
+      "catalogue_father_action": "regrade",
+      "cohorts": [
+        "1800",
+        "1850"
+      ],
+      "baseline": true
+    },
+    {
+      "assertion_id": "C-coverage-20261022g-glasgow-1449-father",
+      "child": {
+        "id": "Glasgow-1449",
+        "name": "Thomas Glasgow",
+        "url": "/people/glasgow-1449.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1449"
+      },
+      "father": {
+        "id": "Glasgow-1382",
+        "name": "Thomas Glasgow",
+        "url": "/people/glasgow-1382.html",
+        "wikitree_url": "https://www.wikitree.com/wiki/Glasgow-1382"
+      },
+      "date": "2026-10-30",
+      "research_event": {
+        "type": "confidence_change",
+        "date": "2026-10-30",
+        "before_grade": "probable",
+        "after_grade": "confident"
+      },
+      "saved_order": 322,
+      "kind": "change",
+      "before_percent": 69,
+      "after_percent": 97,
+      "previous_assessment": {
+        "status": "probable",
+        "probability_percent": 69,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry."
+      },
+      "assessment_status": "strongly_supported",
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4171361",
+        "fmp-record-r-685840829",
+        "fmp-record-r-692406064"
+      ],
+      "reason": "The held OPR 673/1, item 3, page 61 explicitly records Thomas born 26 April 1787, baptised 6 May at Whitburn, residence Blackburn, father Thomas Glasgow and mother Christian Davidson. This exact birth and couple identify the existing parish-child account. Companion rows call 26 April a Livingston baptism; preserve that event/locality discrepancy, but all name the same parental couple. The old 69% reason lacked the literal parent wording; it is now verified in the held detailed fields. Assess the father household at 97%, without making the father’s earlier 1746 identity a condition of this direct child role.",
+      "limitations": "No new birth-field change: the explicit 26 April birth was already adopted. The Sarah Chapman tree wife and the supplementary 1880 Henry marriage (Henry born about 1858, father Thomas) do not identify the 1787 child with that later father. Preserve these existing comparisons and attachment with their uncertainty; do not create or transfer Henry. Original register uninspected.",
+      "identity_hold": false,
+      "catalogue_father_action": "regrade",
+      "cohorts": [
+        "1800",
+        "1850"
+      ],
+      "baseline": true
+    }
+  ],
+  "full_compact_update_membership_agrees": true,
+  "local_http": {
+    "/latest-findings/page/22/": 200,
+    "/people/glasgow-1382.html": 200,
+    "/people/glasgow-1448.html": 200,
+    "/onetree/progress/": 200,
+    "/branches/early-scottish-records/": 200
+  },
+  "source_status": "Reconciliation of held derivative records; original memorial and parish registers not inspected. Literal date variants preserved.",
+  "later_adult_comparisons": "Unresolved; no identities transferred.",
+  "live_wikitree_edits": false,
+  "deployed": false,
+  "recorded_mother_identity_repairs": [
+    {
+      "child": "Glasco-149",
+      "recorded_mother": "Braccan-2",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasco-150",
+      "recorded_mother": "Braccan-2",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1310",
+      "recorded_mother": "Anderson-56713",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1311",
+      "recorded_mother": "Anderson-56713",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1380",
+      "recorded_mother": "Mill-357",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1381",
+      "recorded_mother": "Mill-357",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1382",
+      "recorded_mother": "Mill-357",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1383",
+      "recorded_mother": "Mill-357",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1384",
+      "recorded_mother": "Mill-357",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1385",
+      "recorded_mother": "Mill-357",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1418",
+      "recorded_mother": "Garven-52",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1513",
+      "recorded_mother": "Donald-1722",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1514",
+      "recorded_mother": "Donald-1722",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-1530",
+      "recorded_mother": "Sadler-2849",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-2980",
+      "recorded_mother": "Mill-357",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-3478",
+      "recorded_mother": "Borland-1479",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-408",
+      "recorded_mother": "Shelton-2456",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-411",
+      "recorded_mother": "Shelton-2456",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-412",
+      "recorded_mother": "Shelton-2456",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-414",
+      "recorded_mother": "Shelton-2456",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-415",
+      "recorded_mother": "Shelton-2456",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasgow-420",
+      "recorded_mother": "Shelton-2456",
+      "method_correction_only": true
+    },
+    {
+      "child": "Glasko-3",
+      "recorded_mother": "Brayton-597",
+      "method_correction_only": true
+    }
+  ],
+  "checks": {
+    "tree_output_tests_passed": 12,
+    "atlas_sync_tests_passed": 19,
+    "publication_new_failures": 0,
+    "link_new_pairs": 0,
+    "native_views_matched": 305,
+    "stale_asset_references": 0,
+    "rendered_progress_rows": "Five actual Chrome table rows verified with 78→93,43→97,68→97,70→97,69→97."
+  },
+  "resource_receipt": {
+    "browser_windows": 1,
+    "browser_tabs": 1,
+    "new_browser_processes_or_tabs": 0,
+    "system_free_memory_percent": 50
+  },
+  "visual_capture": "Rendered DOM verified; no screenshot was taken.",
+  "verbatim_source_whitespace": "Seven tab-only separator lines retained in Mary’s copied earlier index wording; only blank-at-eol is exempted in source staging check. All other whitespace checks pass."
+}

@@ -2,6 +2,28 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026. **The complete father placement of Thomas Glasgow-1382, Christian Davidson's husband, under this Thomas Glasgow-1023 is now 93% confident inference, previously 78% probable.** The held 1746 Livingston baptism directly names Thomas Glasgow and Janet Mill; its narrower recorded-child father assessment remains 98%. Reconciliation of the adult's memorial age and the independently recorded 1774–1790 family now supports identifying that child with the adult more strongly. This is not a newly discovered father or an upgrade based solely on the existing child clause.
+
+Prefer the son's memorial death year 1831, age 85, while preserving May/July and the inherited 1851 alternative. His existing before-2-February-1746 birth bound remains; no exact birthday is inferred. Janet-1448's existing father and mother placements are each 97%; maternity receives its first individual rating. The changes do not alter this Thomas-1023's own parents, 1725 birth interpretation or the other children/family assessments below. [The son's account contains the complete combined argument and original source links](/people/glasgow-1382.html#research-findings).
+
+## Held memorial reconciliation — 30 October 2026
+
+The Livingston memorial explicitly identifies Janet as daughter of Thomas Glasgow and Christian Davidson. Its full family and the parish-recorded couple support the adult identity, while the calculated 1766 birth would put the father at about seven or eight at the first held child's 1774 baptism. The preferred 1831/85 reading instead fits the 1746 Davistoun baptism. The original stone/registers were not newly inspected and the different indexes of one memorial are not independent witnesses. Preserve the previous 78% adult placement and 98% conditional child assessment as history; the older statements requiring an original before a preferred family interpretation are superseded. No source fetch, new attachment or live WikiTree save is claimed.
+
+## Sources for this reconciliation
+
+- [Livingston family memorial, Findmypast PRS/SCOTLAND/MI/ADD/5/00542646](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646&tab=this): Thomas 1831/85; Christian Davidson; son Peter; daughter Janet, with conflicting digit readings preserved.
+- [Companion family inscription, GBPRS/SCOT/MIS/511333](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this): Janet's mother Christian Davidson and father Thomas Glasgow explicitly stated. Same monument, not an independent witness.
+- [Janet, 2 February 1777, Livingston, R_685844147](https://www.findmypast.co.uk/transcript?id=R_685844147&tab=this) and [R_692403113](https://www.findmypast.co.uk/transcript?id=R_692403113&tab=this): one baptism to Thomas Glasgow and Christian Davidson.
+- [Thomas, 2 February 1746, Livingston, SCOT/OPR/BAP/4151556](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151556&tab=this): Thomas Glasgow and Janet Mill, Davistoun; baptism rather than exact birth.
+- [BillionGraves3399144, inherited competing 1851 reading](https://billiongraves.com/grave/Thomas-Glasgow/3399144): original preview previously unread; not newly inspected here.
+
+## Earlier research and source history — superseded where stated
+
+The 30 October reconciliation above supersedes earlier current 78%/43% grades, unassessed Janet maternity, blanket pending-original holds and unpreferred date statements only as explicitly described. Earlier source readings, conflicts, citations and unrelated family assessments remain preserved below.
+
+## Earlier conclusion — superseded where stated
+
 Reviewed 30 October 2026: William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
 
@@ -32,7 +54,7 @@ The full event date, Kilwinning and the attached parents [Hugh Glasgow (Glasgow-
 Use the complete draft in [Glasgow-1023.md](Glasgow-1023.md). It adds the birth date and residence while preserving the marriage, children and every identifiable existing source.
 
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-d75c7c0eba0a -->
-## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-d75c7c0eba0a
+## Earlier conclusion — superseded where stated — Findmypast Glasgow surname evidence fmp-glasgow-d75c7c0eba0a
 
 The transcript-validated baptism record for **Thomas Glasgow**, 07 Nov 1725, Kilwinning, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.
 

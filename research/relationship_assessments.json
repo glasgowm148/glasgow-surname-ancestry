@@ -23214,19 +23214,25 @@
       "Glasgow-1382",
       "Glasgow-1023"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-23",
-    "basis": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%.",
-    "reason": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%.",
-    "claim": "Glasgow-1023 remains the selected father of Glasgow-1382, reassessed 78% for the stated complete proposition.",
-    "record_scope": "The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected.",
-    "limitations": "The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected.",
+    "assessment_date": "2026-10-30",
+    "basis": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope.",
+    "reason": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope.",
+    "claim": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope.",
+    "record_scope": "This is a reassessment of held derivative records, not a newly inspected original or independent memorial discovery. No adult record expressly names his father. Exact May/July remains unresolved;1851 with an erroneous age, an inaccurate memorial age, or another same-age Thomas remain possible. Thomas Glasgow-1413, born1744 at Irvine to Michael/Mary Crauford, and Thomas Glasgow-4109, born1749 at Edinburgh to John/Eliz Morison, remain weaker unexcluded comparisons: age87/82 and different parish contexts fit less closely, but missing later records do not exclude them. The preferred death year and parent confidence are one combined argument, not independent corroborations. Existing birth boundary and places are retained. No parent attachment, identity merge, or change to Thomas-1023’s own ancestry follows.",
+    "limitations": "This is a reassessment of held derivative records, not a newly inspected original or independent memorial discovery. No adult record expressly names his father. Exact May/July remains unresolved;1851 with an erroneous age, an inaccurate memorial age, or another same-age Thomas remain possible. Thomas Glasgow-1413, born1744 at Irvine to Michael/Mary Crauford, and Thomas Glasgow-4109, born1749 at Edinburgh to John/Eliz Morison, remain weaker unexcluded comparisons: age87/82 and different parish contexts fit less closely, but missing later records do not exclude them. The preferred death year and parent confidence are one combined argument, not independent corroborations. Existing birth boundary and places are retained. No parent attachment, identity merge, or change to Thomas-1023’s own ancestry follows.",
     "source_ids": [
-      "held-e-ab5b32c4eb1e",
-      "fmp-record-scot-opr-bap-4152175"
+      "fmp-record-prs-scotland-mi-add-5-00542646",
+      "fmp-record-gbprs-scot-mis-511333",
+      "fmp-record-prs-scotland-mi-add-5-00422894",
+      "fmp-record-gbprs-scot-mis-511321",
+      "fmp-record-r-685844147",
+      "fmp-record-r-692403113",
+      "fmp-record-r-685841078",
+      "24802379900bf5c1"
     ],
     "assessment_history": [
       {
@@ -23247,18 +23253,22 @@
         ],
         "record_scope": "Recorded 1746 child and Thomas/Janet Mill household98%; this does not prove every later Thomas identity or the father’s own Kilwinning childhood. Original uninspected.",
         "scope_change": true
+      },
+      {
+        "status": "probable",
+        "probability_percent": 78,
+        "assessment_date": "2026-10-23",
+        "source_basis": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%."
       }
     ],
     "perspectives": {
       "Glasgow-1382": {
         "relationship": "father",
-        "reason": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%.",
-        "status_label": "Probable father · 78%"
+        "reason": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope."
       },
       "Glasgow-1023": {
         "relationship": "son",
-        "reason": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%.",
-        "status_label": "Probable son · 78%"
+        "reason": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope."
       }
     },
     "analysis_links": [
@@ -23269,12 +23279,10 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "claim_id": "C-7ebaf4cfd66f",
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 78,
+        "reviewed": "2026-10-23",
+        "source_basis": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
       "live_flag_changed": false,
@@ -23293,17 +23301,26 @@
         "source_ids": [
           "held-e-ab5b32c4eb1e"
         ]
-      }
+      },
+      "new_father_attachment": false,
+      "review_kind": "held_memorial_family_chronology",
+      "source_newly_discovered": false
     },
     "probability": {
-      "value": 0.78,
-      "basis": "Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%.",
-      "reviewed": "2026-10-23",
+      "value": 0.93,
+      "reviewed": "2026-10-30",
+      "basis": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope.",
       "source_ids": [
-        "held-e-ab5b32c4eb1e",
-        "fmp-record-scot-opr-bap-4152175"
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
       ],
-      "scope": "The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected."
+      "scope": "This is a reassessment of held derivative records, not a newly inspected original or independent memorial discovery. No adult record expressly names his father. Exact May/July remains unresolved;1851 with an erroneous age, an inaccurate memorial age, or another same-age Thomas remain possible. Thomas Glasgow-1413, born1744 at Irvine to Michael/Mary Crauford, and Thomas Glasgow-4109, born1749 at Edinburgh to John/Eliz Morison, remain weaker unexcluded comparisons: age87/82 and different parish contexts fit less closely, but missing later records do not exclude them. The preferred death year and parent confidence are one combined argument, not independent corroborations. Existing birth boundary and places are retained. No parent attachment, identity merge, or change to Thomas-1023’s own ancestry follows."
     },
     "model_note": "The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected.",
     "last_test": "23 October 2026: compared retained Findmypast transcript fields with the existing household and earlier assessment; originals uninspected.",
@@ -61119,18 +61136,19 @@
       "Glasgow-1452",
       "Glasgow-1382"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified.",
-    "reason": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified.",
-    "claim": "Glasgow-1382 remains the selected father of Glasgow-1452, individually assessed 68%.",
-    "record_scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
-    "limitations": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+    "assessment_date": "2026-10-30",
+    "basis": "The held Livingston baptism indexes explicitly name Nathaniel on 2 January 1774, father Thomas Glasgow and mother Christian Davidson. This existing profile is the parish child, with no documented spouse or later adult identity. The specific repeated parental couple identifies the same Livingston adult household as the other children. The earlier 68% reason said the literal parents were unverified; their held fields now supply them. Assess the complete father link for this record-defined child at 97%, independently of uncertainty over the father’s earlier 1746 identity.",
+    "reason": "The held Livingston baptism indexes explicitly name Nathaniel on 2 January 1774, father Thomas Glasgow and mother Christian Davidson. This existing profile is the parish child, with no documented spouse or later adult identity. The specific repeated parental couple identifies the same Livingston adult household as the other children. The earlier 68% reason said the literal parents were unverified; their held fields now supply them. Assess the complete father link for this record-defined child at 97%, independently of uncertainty over the father’s earlier 1746 identity.",
+    "claim": "The held Livingston baptism indexes explicitly name Nathaniel on 2 January 1774, father Thomas Glasgow and mother Christian Davidson. This existing profile is the parish child, with no documented spouse or later adult identity. The specific repeated parental couple identifies the same Livingston adult household as the other children. The earlier 68% reason said the literal parents were unverified; their held fields now supply them. Assess the complete father link for this record-defined child at 97%, independently of uncertainty over the father’s earlier 1746 identity.",
+    "record_scope": "Companion indexes describe one baptism. No exact birthday is established. Kingsessing and Leith adults remain comparisons only, not identified with this Nathaniel; no adult events, spouse or descendants are transferred. Original register uninspected.",
+    "limitations": "Companion indexes describe one baptism. No exact birthday is established. Kingsessing and Leith adults remain comparisons only, not identified with this Nathaniel; no adult events, spouse or descendants are transferred. Original register uninspected.",
     "source_ids": [
-      "held-e-29fa5eb9484f"
+      "fmp-record-r-685841078",
+      "fmp-record-r-692405171"
     ],
     "assessment_history": [
       {
@@ -61143,16 +61161,22 @@
         "claim_id": "C-b3c67f84f01a",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 68,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified."
       }
     ],
     "perspectives": {
       "Glasgow-1452": {
         "relationship": "father",
-        "reason": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified."
+        "reason": "The held Livingston baptism indexes explicitly name Nathaniel on 2 January 1774, father Thomas Glasgow and mother Christian Davidson. This existing profile is the parish child, with no documented spouse or later adult identity. The specific repeated parental couple identifies the same Livingston adult household as the other children. The earlier 68% reason said the literal parents were unverified; their held fields now supply them. Assess the complete father link for this record-defined child at 97%, independently of uncertainty over the father’s earlier 1746 identity."
       },
       "Glasgow-1382": {
         "relationship": "son",
-        "reason": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified."
+        "reason": "The held Livingston baptism indexes explicitly name Nathaniel on 2 January 1774, father Thomas Glasgow and mother Christian Davidson. This existing profile is the parish child, with no documented spouse or later adult identity. The specific repeated parental couple identifies the same Livingston adult household as the other children. The earlier 68% reason said the literal parents were unverified; their held fields now supply them. Assess the complete father link for this record-defined child at 97%, independently of uncertainty over the father’s earlier 1746 identity."
       }
     },
     "analysis_links": [
@@ -61163,27 +61187,26 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-b3c67f84f01a",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 68,
+        "reviewed": "2026-10-22",
+        "source_basis": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "held_explicit_parent_fields_and_record_scope",
+      "source_newly_discovered": false
     },
     "probability": {
-      "value": 0.68,
-      "basis": "The 1774 Livingston citation fits Thomas/Christine Davidson’s later local children and the father’s 1746 generation; literal parents and childhood-to-adult identity are unverified.",
-      "reviewed": "2026-10-22",
+      "value": 0.97,
+      "reviewed": "2026-10-30",
+      "basis": "The held Livingston baptism indexes explicitly name Nathaniel on 2 January 1774, father Thomas Glasgow and mother Christian Davidson. This existing profile is the parish child, with no documented spouse or later adult identity. The specific repeated parental couple identifies the same Livingston adult household as the other children. The earlier 68% reason said the literal parents were unverified; their held fields now supply them. Assess the complete father link for this record-defined child at 97%, independently of uncertainty over the father’s earlier 1746 identity.",
       "source_ids": [
-        "held-e-29fa5eb9484f"
+        "fmp-record-r-685841078",
+        "fmp-record-r-692405171"
       ],
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "scope": "Companion indexes describe one baptism. No exact birthday is established. Kingsessing and Leith adults remain comparisons only, not identified with this Nathaniel; no adult events, spouse or descendants are transferred. Original register uninspected."
     }
   },
   {
@@ -61755,18 +61778,25 @@
       "Glasgow-1448",
       "Glasgow-1382"
     ],
-    "status": "possible",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this.",
-    "reason": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this.",
-    "claim": "Glasgow-1382 remains the selected father of Glasgow-1448, individually assessed 43%.",
-    "record_scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
-    "limitations": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+    "assessment_date": "2026-10-30",
+    "basis": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+    "reason": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+    "claim": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+    "record_scope": "Original stone and parish register uninspected; all memorial index rows concern one monument and are not independent witnesses. A misread year or age remains possible, including1873 with a different age. Blackburn follows Janet’s name and may denote residence; no husband, married surname or new natal place is established. Preserve the current birth boundary, birthplace and surname pending separate evidence. The preferred death reading and parent identification share the same combined evidence; neither is newly discovered independent proof of the other. No new parent attachment or identity merge is made.",
+    "limitations": "Original stone and parish register uninspected; all memorial index rows concern one monument and are not independent witnesses. A misread year or age remains possible, including1873 with a different age. Blackburn follows Janet’s name and may denote residence; no husband, married surname or new natal place is established. Preserve the current birth boundary, birthplace and surname pending separate evidence. The preferred death reading and parent identification share the same combined evidence; neither is newly discovered independent proof of the other. No new parent attachment or identity merge is made.",
     "source_ids": [
-      "held-e-51f0baf92514"
+      "fmp-record-prs-scotland-mi-add-5-00542646",
+      "fmp-record-gbprs-scot-mis-511333",
+      "fmp-record-prs-scotland-mi-add-5-00422894",
+      "fmp-record-gbprs-scot-mis-511321",
+      "fmp-record-r-685844147",
+      "fmp-record-r-692403113",
+      "fmp-record-r-685841078",
+      "24802379900bf5c1"
     ],
     "assessment_history": [
       {
@@ -61779,16 +61809,22 @@
         "claim_id": "C-a15feb6a9a7c",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 43,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this."
       }
     ],
     "perspectives": {
       "Glasgow-1448": {
         "relationship": "father",
-        "reason": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this."
+        "reason": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating."
       },
       "Glasgow-1382": {
         "relationship": "daughter",
-        "reason": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this."
+        "reason": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating."
       }
     },
     "analysis_links": [
@@ -61799,27 +61835,32 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-a15feb6a9a7c",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 43,
+        "reviewed": "2026-10-22",
+        "source_basis": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this.",
+        "status": "possible"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "held_memorial_family_chronology",
+      "source_newly_discovered": false
     },
     "probability": {
-      "value": 0.43,
-      "basis": "Janet fits the inherited Thomas/Christine family chronologically, but Bridgeton, Kincardineshire differs from the Livingston siblings and the cited grave is Thomas’s. No held kin clause resolves this.",
-      "reviewed": "2026-10-22",
+      "value": 0.97,
+      "reviewed": "2026-10-30",
+      "basis": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
       "source_ids": [
-        "held-e-51f0baf92514"
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
       ],
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "scope": "Original stone and parish register uninspected; all memorial index rows concern one monument and are not independent witnesses. A misread year or age remains possible, including1873 with a different age. Blackburn follows Janet’s name and may denote residence; no husband, married surname or new natal place is established. Preserve the current birth boundary, birthplace and surname pending separate evidence. The preferred death reading and parent identification share the same combined evidence; neither is newly discovered independent proof of the other. No new parent attachment or identity merge is made."
     }
   },
   {
@@ -62804,18 +62845,19 @@
       "Glasgow-1453",
       "Glasgow-1382"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father.",
-    "reason": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father.",
-    "claim": "Glasgow-1382 remains the selected father of Glasgow-1453, individually assessed 70%.",
-    "record_scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
-    "limitations": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+    "assessment_date": "2026-10-30",
+    "basis": "The held Livingston indexes for Mary on 29 June 1783 explicitly name Thomas Glasgow and Christian Davidson. The existing profile is anchored to this parish-child family; its later Thomson comparison is not an independently established adult identity. The full couple and local sibling sequence identify the adult father household, so assess this father link at 97%, from 70%. Uncertainty about the father’s own childhood must not reduce the separately recorded child-to-adult-father relationship.",
+    "reason": "The held Livingston indexes for Mary on 29 June 1783 explicitly name Thomas Glasgow and Christian Davidson. The existing profile is anchored to this parish-child family; its later Thomson comparison is not an independently established adult identity. The full couple and local sibling sequence identify the adult father household, so assess this father link at 97%, from 70%. Uncertainty about the father’s own childhood must not reduce the separately recorded child-to-adult-father relationship.",
+    "claim": "The held Livingston indexes for Mary on 29 June 1783 explicitly name Thomas Glasgow and Christian Davidson. The existing profile is anchored to this parish-child family; its later Thomson comparison is not an independently established adult identity. The full couple and local sibling sequence identify the adult father household, so assess this father link at 97%, from 70%. Uncertainty about the father’s own childhood must not reduce the separately recorded child-to-adult-father relationship.",
+    "record_scope": "The detailed OPR SCOT/OPR/BAP/4152265 has a 1784/Whitburn 6 July variant, retained without changing Mary’s birth/death fields or inventing a second daughter. The Mary Glasgon/Thomson and approximate 1871 Bridgeton material remain unproved comparisons; no spouse is attached or adult identity certified. Original registers uninspected; companion rows are not independent events.",
+    "limitations": "The detailed OPR SCOT/OPR/BAP/4152265 has a 1784/Whitburn 6 July variant, retained without changing Mary’s birth/death fields or inventing a second daughter. The Mary Glasgon/Thomson and approximate 1871 Bridgeton material remain unproved comparisons; no spouse is attached or adult identity certified. Original registers uninspected; companion rows are not independent events.",
     "source_ids": [
-      "held-e-d41ad5d094da"
+      "fmp-record-r-685840887",
+      "fmp-record-r-692403782"
     ],
     "assessment_history": [
       {
@@ -62828,16 +62870,22 @@
         "claim_id": "C-88ce6d9b328e",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 70,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father."
       }
     ],
     "perspectives": {
       "Glasgow-1453": {
         "relationship": "father",
-        "reason": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father."
+        "reason": "The held Livingston indexes for Mary on 29 June 1783 explicitly name Thomas Glasgow and Christian Davidson. The existing profile is anchored to this parish-child family; its later Thomson comparison is not an independently established adult identity. The full couple and local sibling sequence identify the adult father household, so assess this father link at 97%, from 70%. Uncertainty about the father’s own childhood must not reduce the separately recorded child-to-adult-father relationship."
       },
       "Glasgow-1382": {
         "relationship": "daughter",
-        "reason": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father."
+        "reason": "The held Livingston indexes for Mary on 29 June 1783 explicitly name Thomas Glasgow and Christian Davidson. The existing profile is anchored to this parish-child family; its later Thomson comparison is not an independently established adult identity. The full couple and local sibling sequence identify the adult father household, so assess this father link at 97%, from 70%. Uncertainty about the father’s own childhood must not reduce the separately recorded child-to-adult-father relationship."
       }
     },
     "analysis_links": [
@@ -62848,27 +62896,26 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-88ce6d9b328e",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 70,
+        "reviewed": "2026-10-22",
+        "source_basis": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "held_explicit_parent_fields_and_record_scope",
+      "source_newly_discovered": false
     },
     "probability": {
-      "value": 0.7,
-      "basis": "Mary’s 1783 Livingston citation fits between Catharine in 1780 and Thomas in 1787 in the inherited Davidson family. Her later Thomson comparison does not disprove the recorded child’s father.",
-      "reviewed": "2026-10-22",
+      "value": 0.97,
+      "reviewed": "2026-10-30",
+      "basis": "The held Livingston indexes for Mary on 29 June 1783 explicitly name Thomas Glasgow and Christian Davidson. The existing profile is anchored to this parish-child family; its later Thomson comparison is not an independently established adult identity. The full couple and local sibling sequence identify the adult father household, so assess this father link at 97%, from 70%. Uncertainty about the father’s own childhood must not reduce the separately recorded child-to-adult-father relationship.",
       "source_ids": [
-        "held-e-d41ad5d094da"
+        "fmp-record-r-685840887",
+        "fmp-record-r-692403782"
       ],
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "scope": "The detailed OPR SCOT/OPR/BAP/4152265 has a 1784/Whitburn 6 July variant, retained without changing Mary’s birth/death fields or inventing a second daughter. The Mary Glasgon/Thomson and approximate 1871 Bridgeton material remain unproved comparisons; no spouse is attached or adult identity certified. Original registers uninspected; companion rows are not independent events."
     }
   },
   {
@@ -63429,18 +63476,20 @@
       "Glasgow-1449",
       "Glasgow-1382"
     ],
-    "status": "probable",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry.",
-    "reason": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry.",
-    "claim": "Glasgow-1382 remains the selected father of Glasgow-1449, individually assessed 69%.",
-    "record_scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
-    "limitations": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+    "assessment_date": "2026-10-30",
+    "basis": "The held OPR 673/1, item 3, page 61 explicitly records Thomas born 26 April 1787, baptised 6 May at Whitburn, residence Blackburn, father Thomas Glasgow and mother Christian Davidson. This exact birth and couple identify the existing parish-child account. Companion rows call 26 April a Livingston baptism; preserve that event/locality discrepancy, but all name the same parental couple. The old 69% reason lacked the literal parent wording; it is now verified in the held detailed fields. Assess the father household at 97%, without making the father’s earlier 1746 identity a condition of this direct child role.",
+    "reason": "The held OPR 673/1, item 3, page 61 explicitly records Thomas born 26 April 1787, baptised 6 May at Whitburn, residence Blackburn, father Thomas Glasgow and mother Christian Davidson. This exact birth and couple identify the existing parish-child account. Companion rows call 26 April a Livingston baptism; preserve that event/locality discrepancy, but all name the same parental couple. The old 69% reason lacked the literal parent wording; it is now verified in the held detailed fields. Assess the father household at 97%, without making the father’s earlier 1746 identity a condition of this direct child role.",
+    "claim": "The held OPR 673/1, item 3, page 61 explicitly records Thomas born 26 April 1787, baptised 6 May at Whitburn, residence Blackburn, father Thomas Glasgow and mother Christian Davidson. This exact birth and couple identify the existing parish-child account. Companion rows call 26 April a Livingston baptism; preserve that event/locality discrepancy, but all name the same parental couple. The old 69% reason lacked the literal parent wording; it is now verified in the held detailed fields. Assess the father household at 97%, without making the father’s earlier 1746 identity a condition of this direct child role.",
+    "record_scope": "No new birth-field change: the explicit 26 April birth was already adopted. The Sarah Chapman tree wife and the supplementary 1880 Henry marriage (Henry born about 1858, father Thomas) do not identify the 1787 child with that later father. Preserve these existing comparisons and attachment with their uncertainty; do not create or transfer Henry. Original register uninspected.",
+    "limitations": "No new birth-field change: the explicit 26 April birth was already adopted. The Sarah Chapman tree wife and the supplementary 1880 Henry marriage (Henry born about 1858, father Thomas) do not identify the 1787 child with that later father. Preserve these existing comparisons and attachment with their uncertainty; do not create or transfer Henry. Original register uninspected.",
     "source_ids": [
-      "held-e-ed3235834ff0"
+      "fmp-record-scot-opr-bap-4171361",
+      "fmp-record-r-685840829",
+      "fmp-record-r-692406064"
     ],
     "assessment_history": [
       {
@@ -63453,16 +63502,22 @@
         "claim_id": "C-50844e4bdbc7",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 69,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry."
       }
     ],
     "perspectives": {
       "Glasgow-1449": {
         "relationship": "father",
-        "reason": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry."
+        "reason": "The held OPR 673/1, item 3, page 61 explicitly records Thomas born 26 April 1787, baptised 6 May at Whitburn, residence Blackburn, father Thomas Glasgow and mother Christian Davidson. This exact birth and couple identify the existing parish-child account. Companion rows call 26 April a Livingston baptism; preserve that event/locality discrepancy, but all name the same parental couple. The old 69% reason lacked the literal parent wording; it is now verified in the held detailed fields. Assess the father household at 97%, without making the father’s earlier 1746 identity a condition of this direct child role."
       },
       "Glasgow-1382": {
         "relationship": "son",
-        "reason": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry."
+        "reason": "The held OPR 673/1, item 3, page 61 explicitly records Thomas born 26 April 1787, baptised 6 May at Whitburn, residence Blackburn, father Thomas Glasgow and mother Christian Davidson. This exact birth and couple identify the existing parish-child account. Companion rows call 26 April a Livingston baptism; preserve that event/locality discrepancy, but all name the same parental couple. The old 69% reason lacked the literal parent wording; it is now verified in the held detailed fields. Assess the father household at 97%, without making the father’s earlier 1746 identity a condition of this direct child role."
       }
     },
     "analysis_links": [
@@ -63473,27 +63528,27 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-50844e4bdbc7",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 69,
+        "reviewed": "2026-10-22",
+        "source_basis": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "held_explicit_parent_fields_and_record_scope",
+      "source_newly_discovered": false
     },
     "probability": {
-      "value": 0.69,
-      "basis": "Thomas’s 1787 Livingston citation fits the inherited Davidson family and a paternal age about 41, but no held wording verifies the parents in this entry.",
-      "reviewed": "2026-10-22",
+      "value": 0.97,
+      "reviewed": "2026-10-30",
+      "basis": "The held OPR 673/1, item 3, page 61 explicitly records Thomas born 26 April 1787, baptised 6 May at Whitburn, residence Blackburn, father Thomas Glasgow and mother Christian Davidson. This exact birth and couple identify the existing parish-child account. Companion rows call 26 April a Livingston baptism; preserve that event/locality discrepancy, but all name the same parental couple. The old 69% reason lacked the literal parent wording; it is now verified in the held detailed fields. Assess the father household at 97%, without making the father’s earlier 1746 identity a condition of this direct child role.",
       "source_ids": [
-        "held-e-ed3235834ff0"
+        "fmp-record-scot-opr-bap-4171361",
+        "fmp-record-r-685840829",
+        "fmp-record-r-692406064"
       ],
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "scope": "No new birth-field change: the explicit 26 April birth was already adopted. The Sarah Chapman tree wife and the supplementary 1880 Henry marriage (Henry born about 1858, father Thomas) do not identify the 1787 child with that later father. Preserve these existing comparisons and attachment with their uncertainty; do not create or transfer Henry. Original register uninspected."
     }
   },
   {
@@ -111911,6 +111966,75 @@
       "record-john-cameron-glasgow-infant-before-1846": {
         "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
       }
+    }
+  },
+  {
+    "assertion_id": "clm-livingston-janet-mother-20261030",
+    "people": [
+      "Glasgow-1448",
+      "Davidson-14073"
+    ],
+    "claim": "Christian Davidson-14073 is the mother of Janet Glasgow-1448.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-1448": {
+        "relationship": "mother"
+      },
+      "Davidson-14073": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "fmp-record-prs-scotland-mi-add-5-00542646",
+      "fmp-record-gbprs-scot-mis-511333",
+      "fmp-record-prs-scotland-mi-add-5-00422894",
+      "fmp-record-gbprs-scot-mis-511321",
+      "fmp-record-r-685844147",
+      "fmp-record-r-692403113",
+      "fmp-record-r-685841078",
+      "24802379900bf5c1"
+    ],
+    "provenance": {
+      "new_mother_attachment": false,
+      "prior_assessment": {
+        "relationship": "mother",
+        "relative_id": "Davidson-14073",
+        "source_basis": "Retained named WikiTree mother and pre-review public dossier; no previous individual percentage.",
+        "status": "unmarked"
+      },
+      "review_kind": "existing_named_mother_first_individual_rating"
+    },
+    "status": "strongly_supported",
+    "assessment_date": "2026-10-30",
+    "basis": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+    "assessment_history": [],
+    "reason": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+    "limitations": "Original stone and parish register uninspected; all memorial index rows concern one monument and are not independent witnesses. A misread year or age remains possible, including1873 with a different age. Blackburn follows Janet’s name and may denote residence; no husband, married surname or new natal place is established. Preserve the current birth boundary, birthplace and surname pending separate evidence. The preferred death reading and parent identification share the same combined evidence; neither is newly discovered independent proof of the other. No new parent attachment or identity merge is made.",
+    "probability": {
+      "value": 0.97,
+      "reviewed": "2026-10-30",
+      "basis": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+      "source_ids": [
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
+      ],
+      "scope": "Original stone and parish register uninspected; all memorial index rows concern one monument and are not independent witnesses. A misread year or age remains possible, including1873 with a different age. Blackburn follows Janet’s name and may denote residence; no husband, married surname or new natal place is established. Preserve the current birth boundary, birthplace and surname pending separate evidence. The preferred death reading and parent identification share the same combined evidence; neither is newly discovered independent proof of the other. No new parent attachment or identity merge is made."
+    },
+    "working_selection": false,
+    "attachment_status": "documented",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "profile_names": {
+      "Davidson-14073": "Christian Davidson",
+      "Glasgow-1448": "Janet Glasgow"
     }
   },
   {

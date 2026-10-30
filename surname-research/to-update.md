@@ -4474,3 +4474,13 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-2822) | OPEN | Existing father97%→99%, existing mother first99%;1861/1867/1875civil-index citations,23April1867Janet marriage and exact indexed4October1875death. |
 | [Margaret Brash](https://www.wikitree.com/wiki/Brash-171) | OPEN | Replace unsourced account with complete sourced family and1803marriage; estimated birth retained. |
 | [Janet Smith](https://www.wikitree.com/wiki/Smith-231676) | OPEN | Add indexed23April1867marriage; retain full1871census and unresolved Jane Jordan comparison. |
+
+## 30 October 2026 — Livingston family reconciliation
+
+| [Glasgow-1382](https://www.wikitree.com/wiki/Glasgow-1382) | OPEN | Reassess existing father Thomas-1023 from78% to93%; prefer probable1831death year with May/July unresolved and1851retained. Source the coherent Livingston family without inventing an exact birth. |
+| [Glasgow-1023](https://www.wikitree.com/wiki/Glasgow-1023) | OPEN | Reflect son Thomas’s93%confident inferred placement and the stronger sibling family; retain own1725birth and ancestry unchanged. |
+| [Glasgow-1448](https://www.wikitree.com/wiki/Glasgow-1448) | OPEN | Reassess existing father43%→97% and existing mother first97%; prefer qualified16October1853death, retaining1873variant and unresolved Bridgeton/Blackburn fields. |
+| [Davidson-14073](https://www.wikitree.com/wiki/Davidson-14073) | OPEN | Source existing Janet maternity at97% and preferred probable5November1795death; retain current approximate birth and43/45age conflict. |
+| [Glasgow-1452](https://www.wikitree.com/wiki/Glasgow-1452) | OPEN | Add verified literal Thomas/Christian parental fields and review existing parish-child father68%→97%; retain Kingsessing/Leith comparisons without assigning an adult identity. |
+| [Glasgow-1453](https://www.wikitree.com/wiki/Glasgow-1453) | OPEN | Review existing parish-child father70%→97% from full parent fields; preserve1783/1784variants and unproved Thomson/1871Bridgeton comparison. |
+| [Glasgow-1449](https://www.wikitree.com/wiki/Glasgow-1449) | OPEN | Review existing parish-child father69%→97% from detailed1787birth/baptism parents; retain exact adopted birth and qualified Sarah Chapman/Henry comparison. |

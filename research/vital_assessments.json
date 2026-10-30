@@ -2403,6 +2403,171 @@
           "basis": "Explicit indexed death date replaces approximation; existing place retained as registration context."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "livingston-thomas-preferred-death-20261030",
+      "subject": "Glasgow-1382",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "The Livingston memorial identifies Thomas Glasgow with wife Christian Davidson and daughter Janet. Both held Findmypast versions give Thomas death year1831 and age85, while differing in May/July and other digits. The independently recorded Nathaniel baptism on2January1774 names the same Thomas/Christian couple. The BillionGraves1851/85 combination yields1766 only by calculation and would make this father about seven in1774; it cannot be retained as a coherent lifetime for that adult. Prefer1831/85 as the reading consistent with the documented family, not by counting indexes as independent votes. Age85 in1831 points to about1745–46, fitting the2February1746 Davistoun, Livingston baptism of Thomas, son of Thomas Glasgow and Janet Mill. Same parish, age and the specific memorial family support the complete adult-to-father identification at93% subjective confidence, increased from78%. The recorded1746 child/father clause retains its separate98% conditional scope.",
+      "summary": "Preferred qualified memorial chronology; prior readings remain alternatives.",
+      "source_ids": [
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
+      ],
+      "source": {
+        "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this",
+        "section": "Held family inscription and explicit kin clauses"
+      },
+      "project_tree_vitals": true,
+      "catalogue_projection": {
+        "death": "1831 (probable)",
+        "death_year": 1831,
+        "field_statuses": {
+          "death": "probable"
+        }
+      },
+      "vitals": {
+        "death": {
+          "date": "1831",
+          "display_date": "1831 (probable; May/July disputed)",
+          "place": null,
+          "place_status": "unknown",
+          "status": "probable",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this",
+          "source_level": "Held derivative transcription; original memorial not inspected",
+          "note": "This is a reassessment of held derivative records, not a newly inspected original or independent memorial discovery. No adult record expressly names his father. Exact May/July remains unresolved;1851 with an erroneous age, an inaccurate memorial age, or another same-age Thomas remain possible. Thomas Glasgow-1413, born1744 at Irvine to Michael/Mary Crauford, and Thomas Glasgow-4109, born1749 at Edinburgh to John/Eliz Morison, remain weaker unexcluded comparisons: age87/82 and different parish contexts fit less closely, but missing later records do not exclude them. The preferred death year and parent confidence are one combined argument, not independent corroborations. Existing birth boundary and places are retained. No parent attachment, identity merge, or change to Thomas-1023’s own ancestry follows.",
+          "qualifier": "Preferred memorial reading; an actual death place is not established."
+        }
+      },
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "1851-05-22",
+            "place": null
+          },
+          "basis": "Prior indexed value retained in the imported view and source history; preferred chronology is an explicitly qualified inference."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "livingston-janet-preferred-death-20261030",
+      "subject": "Glasgow-1448",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "The fuller Livingston memorial transcript calls Christian Davidson Janet’s mother and Thomas Glasgow her father, and names her brother Peter. The separate2February1777 Livingston baptism names Janet’s parents as Thomas Glasgow and Christian Davidson. One memorial version gives Janet16October1853 aged76, consistent with that birth generation; the other gives1873 aged76, implying1797, after the explicitly named mother’s1795 death. Prefer the1853/76 interpretation as coherent with the recorded family while retaining1873 as a competing reading. The existing Janet-1448 account is defined only by this Thomas/Christian family and the same memorial citation, with no independently documented conflicting adult household. Its inherited Bridgeton, Kincardineshire birthplace and Blackburn surname are unverified, not evidence of a distinct daughter. Assess the existing father at97% from43% and the existing named mother at97% as her first individual rating.",
+      "summary": "Preferred qualified memorial chronology; prior readings remain alternatives.",
+      "source_ids": [
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
+      ],
+      "source": {
+        "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422894&tab=this",
+        "section": "Held family inscription and explicit kin clauses"
+      },
+      "project_tree_vitals": true,
+      "catalogue_projection": {
+        "death": "1853-10-16 (probable)",
+        "death_year": 1853,
+        "field_statuses": {
+          "death": "probable"
+        }
+      },
+      "vitals": {
+        "death": {
+          "date": "1853-10-16",
+          "display_date": "16 October 1853 (probable)",
+          "place": null,
+          "place_status": "unknown",
+          "status": "probable",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00422894&tab=this",
+          "source_level": "Held derivative transcription; original memorial not inspected",
+          "note": "Original stone and parish register uninspected; all memorial index rows concern one monument and are not independent witnesses. A misread year or age remains possible, including1873 with a different age. Blackburn follows Janet’s name and may denote residence; no husband, married surname or new natal place is established. Preserve the current birth boundary, birthplace and surname pending separate evidence. The preferred death reading and parent identification share the same combined evidence; neither is newly discovered independent proof of the other. No new parent attachment or identity merge is made.",
+          "qualifier": "Preferred memorial reading; an actual death place is not established."
+        }
+      },
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": null,
+            "place": null
+          },
+          "basis": "Prior indexed value retained in the imported view and source history; preferred chronology is an explicitly qualified inference."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "livingston-christian-memorial-death-20261030",
+      "subject": "Davidson-14073",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "Both memorial transcriptions name Christian Davidson and give5November1795, differing on age43/45. The fuller account explicitly calls her Janet’s mother. This fits the separately recorded Thomas/Christian baptismal household.",
+      "summary": "Preferred qualified memorial chronology; prior readings remain alternatives.",
+      "source_ids": [
+        "fmp-record-prs-scotland-mi-add-5-00542646",
+        "fmp-record-gbprs-scot-mis-511333",
+        "fmp-record-prs-scotland-mi-add-5-00422894",
+        "fmp-record-gbprs-scot-mis-511321",
+        "fmp-record-r-685844147",
+        "fmp-record-r-692403113",
+        "fmp-record-r-685841078",
+        "24802379900bf5c1"
+      ],
+      "source": {
+        "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this",
+        "section": "Held family inscription and explicit kin clauses"
+      },
+      "project_tree_vitals": true,
+      "catalogue_projection": {
+        "death": "1795-11-05 (probable)",
+        "death_year": 1795,
+        "field_statuses": {
+          "death": "probable"
+        }
+      },
+      "vitals": {
+        "death": {
+          "date": "1795-11-05",
+          "display_date": "5 November 1795 (probable)",
+          "place": null,
+          "place_status": "unknown",
+          "status": "probable",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333&tab=this",
+          "source_level": "Held derivative transcription; original memorial not inspected",
+          "note": "Preferred derivative memorial reading, not an inspected stone or death register. Age43/45 remains unresolved; the current approximate birth is retained. No actual death place is established by a memorial location.",
+          "qualifier": "Preferred memorial reading; an actual death place is not established."
+        }
+      },
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": null,
+            "place": null
+          },
+          "basis": "Prior indexed value retained in the imported view and source history; preferred chronology is an explicitly qualified inference."
+        }
+      ]
     }
   ]
 }

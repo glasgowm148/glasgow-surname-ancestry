@@ -103040,6 +103040,1165 @@
           }
         }
       }
+    },
+    {
+      "date": "2026-10-30",
+      "method_version": 4,
+      "input_fingerprint": "1ef79eb4778d2e5cba1174999446c59a154db17aa7fccc87eeaf292e7035c4e5",
+      "metrics": {
+        "working": {
+          "population": 1803,
+          "edge_count": 1415,
+          "component_count": 392,
+          "largest_component_size": 1208,
+          "largest_component_percent": 66.99944536882973,
+          "connected_pairs_percent": 44.915275625837566,
+          "edge_status_counts": {
+            "confident": 3,
+            "possible": 139,
+            "probable": 406,
+            "proved": 664,
+            "strongly_supported": 66,
+            "uncertain": 136,
+            "unmarked": 1
+          },
+          "individual_confidence": {
+            "rated_edge_count": 1413,
+            "unrated_edge_count": 2,
+            "rated_edges_percent": 99.85865724381625,
+            "mean_percent": 79.36164189667375
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": [
+              "record-william-glasgow-killycurragh-t1959"
+            ]
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475",
+            "record-rev-samuel-stamford",
+            "record-thomas-glasgo-campbell-1877"
+          ],
+          "father_listing": {
+            "unknown_count": 385,
+            "named_count": 1418,
+            "unavailable_count": 0,
+            "population": 1803
+          },
+          "unattached_multi_child_roots": 31,
+          "family_root_count": 41
+        },
+        "supported": {
+          "population": 1803,
+          "edge_count": 1139,
+          "component_count": 667,
+          "largest_component_size": 107,
+          "largest_component_percent": 5.934553521907931,
+          "connected_pairs_percent": 0.999259465818161,
+          "edge_status_counts": {
+            "confident": 3,
+            "probable": 406,
+            "proved": 664,
+            "strongly_supported": 66
+          },
+          "individual_confidence": {
+            "rated_edge_count": 1139,
+            "unrated_edge_count": 0,
+            "rated_edges_percent": 100.0,
+            "mean_percent": 90.4161545215101
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": [
+              "record-william-glasgow-killycurragh-t1959"
+            ]
+          },
+          "connector_ids": [
+            "record-george-mureistoun-1586",
+            "record-rev-samuel-stamford",
+            "record-thomas-glasgo-campbell-1877"
+          ],
+          "father_listing": {
+            "unknown_count": 385,
+            "named_count": 1418,
+            "unavailable_count": 0,
+            "population": 1803
+          },
+          "unattached_multi_child_roots": 109,
+          "family_root_count": 127
+        },
+        "confident": {
+          "population": 1803,
+          "edge_count": 733,
+          "component_count": 1071,
+          "largest_component_size": 70,
+          "largest_component_percent": 3.882418191902385,
+          "connected_pairs_percent": 0.36651209631499604,
+          "edge_status_counts": {
+            "confident": 3,
+            "proved": 664,
+            "strongly_supported": 66
+          },
+          "individual_confidence": {
+            "rated_edge_count": 733,
+            "unrated_edge_count": 0,
+            "rated_edges_percent": 100.0,
+            "mean_percent": 96.51978171896316
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": [
+              "record-william-glasgow-killycurragh-t1959"
+            ]
+          },
+          "connector_ids": [
+            "record-rev-samuel-stamford"
+          ],
+          "father_listing": {
+            "unknown_count": 385,
+            "named_count": 1418,
+            "unavailable_count": 0,
+            "population": 1803
+          },
+          "unattached_multi_child_roots": 97,
+          "family_root_count": 107
+        }
+      },
+      "fixed_cohort": {
+        "working": {
+          "population": 1776,
+          "edge_count": 1402,
+          "component_count": 383,
+          "largest_component_size": 1191,
+          "largest_component_percent": 67.0608108108108,
+          "connected_pairs_percent": 44.99847735059003,
+          "edge_status_counts": {
+            "confident": 3,
+            "possible": 137,
+            "probable": 402,
+            "proved": 662,
+            "strongly_supported": 61,
+            "uncertain": 136,
+            "unmarked": 1
+          },
+          "individual_confidence": {
+            "rated_edge_count": 1400,
+            "unrated_edge_count": 2,
+            "rated_edges_percent": 99.85734664764622,
+            "mean_percent": 79.33214285714286
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-3905",
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586",
+            "record-john-glasgw-stirling-1475",
+            "record-rev-samuel-stamford",
+            "record-thomas-glasgo-campbell-1877",
+            "record-william-glasgow-killycurragh-t1959"
+          ],
+          "unattached_multi_child_roots": 31,
+          "family_root_count": 41,
+          "father_listing": {
+            "unknown_count": 375,
+            "named_count": 1401,
+            "unavailable_count": 0,
+            "population": 1776
+          }
+        },
+        "supported": {
+          "population": 1776,
+          "edge_count": 1128,
+          "component_count": 655,
+          "largest_component_size": 107,
+          "largest_component_percent": 6.024774774774775,
+          "connected_pairs_percent": 1.0184621240959268,
+          "edge_status_counts": {
+            "confident": 3,
+            "probable": 402,
+            "proved": 662,
+            "strongly_supported": 61
+          },
+          "individual_confidence": {
+            "rated_edge_count": 1128,
+            "unrated_edge_count": 0,
+            "rated_edges_percent": 100.0,
+            "mean_percent": 90.42021276595744
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176",
+            "record-george-mureistoun-1586",
+            "record-rev-samuel-stamford",
+            "record-thomas-glasgo-campbell-1877",
+            "record-william-glasgow-killycurragh-t1959"
+          ],
+          "unattached_multi_child_roots": 107,
+          "family_root_count": 126,
+          "father_listing": {
+            "unknown_count": 375,
+            "named_count": 1401,
+            "unavailable_count": 0,
+            "population": 1776
+          }
+        },
+        "confident": {
+          "population": 1776,
+          "edge_count": 726,
+          "component_count": 1054,
+          "largest_component_size": 70,
+          "largest_component_percent": 3.9414414414414414,
+          "connected_pairs_percent": 0.3750793046567694,
+          "edge_status_counts": {
+            "confident": 3,
+            "proved": 662,
+            "strongly_supported": 61
+          },
+          "individual_confidence": {
+            "rated_edge_count": 726,
+            "unrated_edge_count": 0,
+            "rated_edges_percent": 100.0,
+            "mean_percent": 96.52203856749311
+          },
+          "quality": {
+            "cycles": [],
+            "cycle_edges_excluded": 0,
+            "later_born_ancestors_excluded": [],
+            "undated_ancestors": []
+          },
+          "connector_ids": [
+            "Glasgow-4152",
+            "Glasgow-4157",
+            "Glasgow-4176",
+            "record-rev-samuel-stamford"
+          ],
+          "unattached_multi_child_roots": 96,
+          "family_root_count": 106,
+          "father_listing": {
+            "unknown_count": 375,
+            "named_count": 1401,
+            "unavailable_count": 0,
+            "population": 1776
+          }
+        }
+      },
+      "cohorts": {
+        "1500": {
+          "working": {
+            "population": 2,
+            "edge_count": 2,
+            "component_count": 1,
+            "largest_component_size": 2,
+            "largest_component_percent": 100.0,
+            "connected_pairs_percent": 100.0,
+            "edge_status_counts": {
+              "uncertain": 2
+            },
+            "individual_confidence": {
+              "rated_edge_count": 2,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 18.5
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-john-glasgw-stirling-1475"
+            ],
+            "father_listing": {
+              "unknown_count": 0,
+              "named_count": 2,
+              "unavailable_count": 0,
+              "population": 2
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 1
+          },
+          "supported": {
+            "population": 2,
+            "edge_count": 0,
+            "component_count": 2,
+            "largest_component_size": 1,
+            "largest_component_percent": 50.0,
+            "connected_pairs_percent": 0.0,
+            "edge_status_counts": {},
+            "individual_confidence": {
+              "rated_edge_count": 0,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 0,
+              "mean_percent": null
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 0,
+              "named_count": 2,
+              "unavailable_count": 0,
+              "population": 2
+            },
+            "unattached_multi_child_roots": 0,
+            "family_root_count": 0
+          },
+          "confident": {
+            "population": 2,
+            "edge_count": 0,
+            "component_count": 2,
+            "largest_component_size": 1,
+            "largest_component_percent": 50.0,
+            "connected_pairs_percent": 0.0,
+            "edge_status_counts": {},
+            "individual_confidence": {
+              "rated_edge_count": 0,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 0,
+              "mean_percent": null
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 0,
+              "named_count": 2,
+              "unavailable_count": 0,
+              "population": 2
+            },
+            "unattached_multi_child_roots": 0,
+            "family_root_count": 0
+          }
+        },
+        "1550": {
+          "working": {
+            "population": 19,
+            "edge_count": 18,
+            "component_count": 2,
+            "largest_component_size": 18,
+            "largest_component_percent": 94.73684210526316,
+            "connected_pairs_percent": 89.47368421052632,
+            "edge_status_counts": {
+              "confident": 2,
+              "possible": 4,
+              "probable": 4,
+              "proved": 4,
+              "uncertain": 4
+            },
+            "individual_confidence": {
+              "rated_edge_count": 18,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 65.5
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-john-glasgw-stirling-1475"
+            ],
+            "father_listing": {
+              "unknown_count": 1,
+              "named_count": 18,
+              "unavailable_count": 0,
+              "population": 19
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 1
+          },
+          "supported": {
+            "population": 19,
+            "edge_count": 10,
+            "component_count": 9,
+            "largest_component_size": 9,
+            "largest_component_percent": 47.36842105263158,
+            "connected_pairs_percent": 22.80701754385965,
+            "edge_status_counts": {
+              "confident": 2,
+              "probable": 4,
+              "proved": 4
+            },
+            "individual_confidence": {
+              "rated_edge_count": 10,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 90.3
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 1,
+              "named_count": 18,
+              "unavailable_count": 0,
+              "population": 19
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 2
+          },
+          "confident": {
+            "population": 19,
+            "edge_count": 6,
+            "component_count": 13,
+            "largest_component_size": 4,
+            "largest_component_percent": 21.05263157894737,
+            "connected_pairs_percent": 5.847953216374269,
+            "edge_status_counts": {
+              "confident": 2,
+              "proved": 4
+            },
+            "individual_confidence": {
+              "rated_edge_count": 6,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 99.0
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 1,
+              "named_count": 18,
+              "unavailable_count": 0,
+              "population": 19
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 2
+          }
+        },
+        "1600": {
+          "working": {
+            "population": 52,
+            "edge_count": 49,
+            "component_count": 5,
+            "largest_component_size": 48,
+            "largest_component_percent": 92.3076923076923,
+            "connected_pairs_percent": 85.06787330316742,
+            "edge_status_counts": {
+              "confident": 3,
+              "possible": 7,
+              "probable": 5,
+              "proved": 11,
+              "strongly_supported": 2,
+              "uncertain": 21
+            },
+            "individual_confidence": {
+              "rated_edge_count": 49,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 56.857142857142854
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-john-glasgw-stirling-1475"
+            ],
+            "father_listing": {
+              "unknown_count": 4,
+              "named_count": 48,
+              "unavailable_count": 0,
+              "population": 52
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 1
+          },
+          "supported": {
+            "population": 52,
+            "edge_count": 21,
+            "component_count": 32,
+            "largest_component_size": 13,
+            "largest_component_percent": 25.0,
+            "connected_pairs_percent": 7.088989441930618,
+            "edge_status_counts": {
+              "confident": 3,
+              "probable": 5,
+              "proved": 11,
+              "strongly_supported": 2
+            },
+            "individual_confidence": {
+              "rated_edge_count": 21,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 93.76190476190476
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586"
+            ],
+            "father_listing": {
+              "unknown_count": 4,
+              "named_count": 48,
+              "unavailable_count": 0,
+              "population": 52
+            },
+            "unattached_multi_child_roots": 3,
+            "family_root_count": 4
+          },
+          "confident": {
+            "population": 52,
+            "edge_count": 16,
+            "component_count": 36,
+            "largest_component_size": 5,
+            "largest_component_percent": 9.615384615384615,
+            "connected_pairs_percent": 2.7149321266968327,
+            "edge_status_counts": {
+              "confident": 3,
+              "proved": 11,
+              "strongly_supported": 2
+            },
+            "individual_confidence": {
+              "rated_edge_count": 16,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 98.625
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 4,
+              "named_count": 48,
+              "unavailable_count": 0,
+              "population": 52
+            },
+            "unattached_multi_child_roots": 4,
+            "family_root_count": 5
+          }
+        },
+        "1650": {
+          "working": {
+            "population": 164,
+            "edge_count": 158,
+            "component_count": 8,
+            "largest_component_size": 157,
+            "largest_component_percent": 95.73170731707317,
+            "connected_pairs_percent": 91.62052970222953,
+            "edge_status_counts": {
+              "confident": 3,
+              "possible": 21,
+              "probable": 20,
+              "proved": 55,
+              "strongly_supported": 6,
+              "uncertain": 53
+            },
+            "individual_confidence": {
+              "rated_edge_count": 158,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 62.87341772151899
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-john-glasgw-stirling-1475"
+            ],
+            "father_listing": {
+              "unknown_count": 6,
+              "named_count": 158,
+              "unavailable_count": 0,
+              "population": 164
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 1
+          },
+          "supported": {
+            "population": 164,
+            "edge_count": 84,
+            "component_count": 81,
+            "largest_component_size": 31,
+            "largest_component_percent": 18.902439024390244,
+            "connected_pairs_percent": 4.9603471494837645,
+            "edge_status_counts": {
+              "confident": 3,
+              "probable": 20,
+              "proved": 55,
+              "strongly_supported": 6
+            },
+            "individual_confidence": {
+              "rated_edge_count": 84,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 92.79761904761905
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586"
+            ],
+            "father_listing": {
+              "unknown_count": 6,
+              "named_count": 158,
+              "unavailable_count": 0,
+              "population": 164
+            },
+            "unattached_multi_child_roots": 13,
+            "family_root_count": 15
+          },
+          "confident": {
+            "population": 164,
+            "edge_count": 64,
+            "component_count": 100,
+            "largest_component_size": 13,
+            "largest_component_percent": 7.926829268292683,
+            "connected_pairs_percent": 1.7207840790064342,
+            "edge_status_counts": {
+              "confident": 3,
+              "proved": 55,
+              "strongly_supported": 6
+            },
+            "individual_confidence": {
+              "rated_edge_count": 64,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 98.046875
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 6,
+              "named_count": 158,
+              "unavailable_count": 0,
+              "population": 164
+            },
+            "unattached_multi_child_roots": 13,
+            "family_root_count": 14
+          }
+        },
+        "1700": {
+          "working": {
+            "population": 310,
+            "edge_count": 288,
+            "component_count": 24,
+            "largest_component_size": 285,
+            "largest_component_percent": 91.93548387096774,
+            "connected_pairs_percent": 84.50151372794654,
+            "edge_status_counts": {
+              "confident": 3,
+              "possible": 42,
+              "probable": 43,
+              "proved": 108,
+              "strongly_supported": 10,
+              "uncertain": 82
+            },
+            "individual_confidence": {
+              "rated_edge_count": 288,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 65.80555555555556
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-john-glasgw-stirling-1475"
+            ],
+            "father_listing": {
+              "unknown_count": 22,
+              "named_count": 288,
+              "unavailable_count": 0,
+              "population": 310
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 1
+          },
+          "supported": {
+            "population": 310,
+            "edge_count": 164,
+            "component_count": 147,
+            "largest_component_size": 32,
+            "largest_component_percent": 10.32258064516129,
+            "connected_pairs_percent": 2.1964714479590772,
+            "edge_status_counts": {
+              "confident": 3,
+              "probable": 43,
+              "proved": 108,
+              "strongly_supported": 10
+            },
+            "individual_confidence": {
+              "rated_edge_count": 164,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 93.0
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586"
+            ],
+            "father_listing": {
+              "unknown_count": 22,
+              "named_count": 288,
+              "unavailable_count": 0,
+              "population": 310
+            },
+            "unattached_multi_child_roots": 24,
+            "family_root_count": 26
+          },
+          "confident": {
+            "population": 310,
+            "edge_count": 121,
+            "component_count": 189,
+            "largest_component_size": 13,
+            "largest_component_percent": 4.193548387096774,
+            "connected_pairs_percent": 0.8059296377492431,
+            "edge_status_counts": {
+              "confident": 3,
+              "proved": 108,
+              "strongly_supported": 10
+            },
+            "individual_confidence": {
+              "rated_edge_count": 121,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 98.01652892561984
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 22,
+              "named_count": 288,
+              "unavailable_count": 0,
+              "population": 310
+            },
+            "unattached_multi_child_roots": 24,
+            "family_root_count": 26
+          }
+        },
+        "1750": {
+          "working": {
+            "population": 595,
+            "edge_count": 545,
+            "component_count": 52,
+            "largest_component_size": 537,
+            "largest_component_percent": 90.25210084033614,
+            "connected_pairs_percent": 81.44356732592027,
+            "edge_status_counts": {
+              "confident": 3,
+              "possible": 62,
+              "probable": 114,
+              "proved": 236,
+              "strongly_supported": 19,
+              "uncertain": 111
+            },
+            "individual_confidence": {
+              "rated_edge_count": 544,
+              "unrated_edge_count": 1,
+              "rated_edges_percent": 99.81651376146789,
+              "mean_percent": 72.39522058823529
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-john-glasgw-stirling-1475"
+            ],
+            "father_listing": {
+              "unknown_count": 48,
+              "named_count": 547,
+              "unavailable_count": 0,
+              "population": 595
+            },
+            "unattached_multi_child_roots": 1,
+            "family_root_count": 1
+          },
+          "supported": {
+            "population": 595,
+            "edge_count": 372,
+            "component_count": 224,
+            "largest_component_size": 42,
+            "largest_component_percent": 7.0588235294117645,
+            "connected_pairs_percent": 1.7989417989417988,
+            "edge_status_counts": {
+              "confident": 3,
+              "probable": 114,
+              "proved": 236,
+              "strongly_supported": 19
+            },
+            "individual_confidence": {
+              "rated_edge_count": 372,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 92.03763440860214
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586"
+            ],
+            "father_listing": {
+              "unknown_count": 48,
+              "named_count": 547,
+              "unavailable_count": 0,
+              "population": 595
+            },
+            "unattached_multi_child_roots": 45,
+            "family_root_count": 48
+          },
+          "confident": {
+            "population": 595,
+            "edge_count": 258,
+            "component_count": 337,
+            "largest_component_size": 31,
+            "largest_component_percent": 5.2100840336134455,
+            "connected_pairs_percent": 0.7322524969583794,
+            "edge_status_counts": {
+              "confident": 3,
+              "proved": 236,
+              "strongly_supported": 19
+            },
+            "individual_confidence": {
+              "rated_edge_count": 258,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 97.55426356589147
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": []
+            },
+            "father_listing": {
+              "unknown_count": 48,
+              "named_count": 547,
+              "unavailable_count": 0,
+              "population": 595
+            },
+            "unattached_multi_child_roots": 44,
+            "family_root_count": 46
+          }
+        },
+        "1800": {
+          "working": {
+            "population": 931,
+            "edge_count": 782,
+            "component_count": 152,
+            "largest_component_size": 757,
+            "largest_component_percent": 81.31041890440386,
+            "connected_pairs_percent": 66.10443158587714,
+            "edge_status_counts": {
+              "confident": 3,
+              "possible": 97,
+              "probable": 186,
+              "proved": 332,
+              "strongly_supported": 38,
+              "uncertain": 125,
+              "unmarked": 1
+            },
+            "individual_confidence": {
+              "rated_edge_count": 780,
+              "unrated_edge_count": 2,
+              "rated_edges_percent": 99.74424552429667,
+              "mean_percent": 74.11923076923077
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": [
+                "record-william-glasgow-killycurragh-t1959"
+              ]
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-john-glasgw-stirling-1475",
+              "record-thomas-glasgo-campbell-1877"
+            ],
+            "father_listing": {
+              "unknown_count": 148,
+              "named_count": 783,
+              "unavailable_count": 0,
+              "population": 931
+            },
+            "unattached_multi_child_roots": 2,
+            "family_root_count": 3
+          },
+          "supported": {
+            "population": 931,
+            "edge_count": 559,
+            "component_count": 374,
+            "largest_component_size": 61,
+            "largest_component_percent": 6.552094522019334,
+            "connected_pairs_percent": 1.2626035133917743,
+            "edge_status_counts": {
+              "confident": 3,
+              "probable": 186,
+              "proved": 332,
+              "strongly_supported": 38
+            },
+            "individual_confidence": {
+              "rated_edge_count": 559,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 90.98926654740609
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": [
+                "record-william-glasgow-killycurragh-t1959"
+              ]
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-thomas-glasgo-campbell-1877"
+            ],
+            "father_listing": {
+              "unknown_count": 148,
+              "named_count": 783,
+              "unavailable_count": 0,
+              "population": 931
+            },
+            "unattached_multi_child_roots": 63,
+            "family_root_count": 71
+          },
+          "confident": {
+            "population": 931,
+            "edge_count": 373,
+            "component_count": 558,
+            "largest_component_size": 34,
+            "largest_component_percent": 3.651987110633727,
+            "connected_pairs_percent": 0.4308005035630551,
+            "edge_status_counts": {
+              "confident": 3,
+              "proved": 332,
+              "strongly_supported": 38
+            },
+            "individual_confidence": {
+              "rated_edge_count": 373,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 97.23592493297588
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": [
+                "record-william-glasgow-killycurragh-t1959"
+              ]
+            },
+            "father_listing": {
+              "unknown_count": 148,
+              "named_count": 783,
+              "unavailable_count": 0,
+              "population": 931
+            },
+            "unattached_multi_child_roots": 63,
+            "family_root_count": 66
+          }
+        },
+        "1850": {
+          "working": {
+            "population": 1803,
+            "edge_count": 1415,
+            "component_count": 392,
+            "largest_component_size": 1208,
+            "largest_component_percent": 66.99944536882973,
+            "connected_pairs_percent": 44.915275625837566,
+            "edge_status_counts": {
+              "confident": 3,
+              "possible": 139,
+              "probable": 406,
+              "proved": 664,
+              "strongly_supported": 66,
+              "uncertain": 136,
+              "unmarked": 1
+            },
+            "individual_confidence": {
+              "rated_edge_count": 1413,
+              "unrated_edge_count": 2,
+              "rated_edges_percent": 99.85865724381625,
+              "mean_percent": 79.36164189667375
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": [
+                "record-william-glasgow-killycurragh-t1959"
+              ]
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-john-glasgw-stirling-1475",
+              "record-rev-samuel-stamford",
+              "record-thomas-glasgo-campbell-1877"
+            ],
+            "father_listing": {
+              "unknown_count": 385,
+              "named_count": 1418,
+              "unavailable_count": 0,
+              "population": 1803
+            },
+            "unattached_multi_child_roots": 31,
+            "family_root_count": 41
+          },
+          "supported": {
+            "population": 1803,
+            "edge_count": 1139,
+            "component_count": 667,
+            "largest_component_size": 107,
+            "largest_component_percent": 5.934553521907931,
+            "connected_pairs_percent": 0.999259465818161,
+            "edge_status_counts": {
+              "confident": 3,
+              "probable": 406,
+              "proved": 664,
+              "strongly_supported": 66
+            },
+            "individual_confidence": {
+              "rated_edge_count": 1139,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 90.4161545215101
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": [
+                "record-william-glasgow-killycurragh-t1959"
+              ]
+            },
+            "connector_ids": [
+              "record-george-mureistoun-1586",
+              "record-rev-samuel-stamford",
+              "record-thomas-glasgo-campbell-1877"
+            ],
+            "father_listing": {
+              "unknown_count": 385,
+              "named_count": 1418,
+              "unavailable_count": 0,
+              "population": 1803
+            },
+            "unattached_multi_child_roots": 109,
+            "family_root_count": 127
+          },
+          "confident": {
+            "population": 1803,
+            "edge_count": 733,
+            "component_count": 1071,
+            "largest_component_size": 70,
+            "largest_component_percent": 3.882418191902385,
+            "connected_pairs_percent": 0.36651209631499604,
+            "edge_status_counts": {
+              "confident": 3,
+              "proved": 664,
+              "strongly_supported": 66
+            },
+            "individual_confidence": {
+              "rated_edge_count": 733,
+              "unrated_edge_count": 0,
+              "rated_edges_percent": 100.0,
+              "mean_percent": 96.51978171896316
+            },
+            "quality": {
+              "cycles": [],
+              "cycle_edges_excluded": 0,
+              "later_born_ancestors_excluded": [],
+              "undated_ancestors": [
+                "record-william-glasgow-killycurragh-t1959"
+              ]
+            },
+            "connector_ids": [
+              "record-rev-samuel-stamford"
+            ],
+            "father_listing": {
+              "unknown_count": 385,
+              "named_count": 1418,
+              "unavailable_count": 0,
+              "population": 1803
+            },
+            "unattached_multi_child_roots": 97,
+            "family_root_count": 107
+          }
+        }
+      }
     }
   ]
 }

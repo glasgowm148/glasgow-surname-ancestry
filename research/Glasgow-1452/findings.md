@@ -2,6 +2,22 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026. **Nathaniel Glasgow (Glasgow-1452) → Thomas Glasgow-1382: 68% → 97% confident**, scoped to this existing parish-defined child and the Thomas/Christian Davidson adult household. The complete parental couple is explicitly named in the held derivatives. This is a stronger assessment of the existing father, not a new attachment or proof of any later adult comparison. Thomas's own 1746 childhood identity and ancestry are a separate proposition.
+
+The current assessment applies to the parish-defined child, not the unproved Kingsessing or Leith adult comparisons. The earlier 68% basis said the literal parents were unverified; the held 1774 transcripts now explicitly name Thomas Glasgow and Christian Davidson. Full parental names, Livingston and the established family sequence support 97% for the child's existing father. No original was newly read or source newly fetched for this reconciliation. Keep the full committee-member and Leith burial arguments below qualified.
+
+## Recorded-child evidence and scope — 30 October 2026
+
+Held exact source records: [R_685841078](https://www.findmypast.co.uk/transcript?id=R_685841078); [R_692405171](https://www.findmypast.co.uk/transcript?id=R_692405171). Source fields and capture pointers are recorded in the shared child-scope review; these are previously inspected derivative indexes, not newly fetched records or a new original reading. Companion rows/indexes of one event do not constitute independent witnesses.
+
+The [shared family account](/people/glasgow-1382.html#research-findings) identifies the adult parents. No birth/death change, adult spouse/child attachment, mother regrade, original-inspection claim or live WikiTree edit follows here. The complete proposed biography, [livingston-family-2026-10-30.wiki](livingston-family-2026-10-30.wiki), preserves all distinct sources and adult-identity limitations of the prior effective proposal and captured biography.
+
+## Earlier research and source history — superseded for current 68% grade
+
+The 30 October recorded-child assessment above supersedes the earlier current father grade and the claim that its literal parental fields remain unverified. All earlier source passages, date variants and adult-identity comparisons below remain preserved as history.
+
+## Earlier conclusion — superseded where stated
+
 Current father assessment (22 October 2026): **68% (probable)** for [Glasgow-1382](https://www.wikitree.com/wiki/Glasgow-1382). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-17. This existing WikiTree profile is a tentative identity comparison for the source account below; no identity merge or family change is established.
