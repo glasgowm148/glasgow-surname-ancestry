@@ -409,7 +409,7 @@ def plan(root: Path, record_ids: list[str]):
                       profile_ids=' | '.join(context), year=date_label,
                       filter_year=year, region=country.title(), record_category=category,
                       association=label, note=note, location_id='', record_location=row.get('place') or '',
-                      record_precision='Provider transcript place; not geocoded', evidence=row['status'],
+                      record_precision=row.get('record_precision') or 'Provider transcript place; not geocoded', evidence=row['status'],
                       catalogue_url=person_url, person_url=person_url, place_url='', source_title=source_title,
                       source_url=url, source_type='Reviewed canonical record', source_status=row['status'],
                       supporting_source_title=source_title, supporting_source_url=url, supporting_source_quality=quality,

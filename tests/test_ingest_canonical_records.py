@@ -78,6 +78,21 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         self.assertIn('Keep navigation', browse)
         self.assertIn('Maintained browse header', browse)
 
+    def test_search_result_does_not_claim_transcript_locality(self):
+        self.canonical.update(
+            status='Search result only; transcript uninspected',
+            record_precision='Search-result locality; transcript uninspected',
+        )
+        self.put('research/canonical_records.json', [self.canonical])
+        writes = plan(self.root, ['new-canonical-id'])
+        record = next(r for r in writes[self.web / 'data/records-index.json']
+                      if r['record_id'] == 'stable-record')
+        self.assertEqual(record['record_precision'],
+                         'Search-result locality; transcript uninspected')
+        page = writes[self.web / 'sources' / self.source['id'] / 'index.html']
+        self.assertIn('Search result only; transcript uninspected', page)
+        self.assertIn('Original reading', page)
+
     def test_second_apply_is_idempotent(self):
         first = apply(self.root, ['new-canonical-id'], refresh_sources=False)
         self.assertGreater(first['changed_files'], 0)
