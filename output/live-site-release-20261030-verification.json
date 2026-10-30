@@ -1,0 +1,1325 @@
+{
+  "released_on": "2026-10-30",
+  "live_base_url": "https://glasgow.phenotype.dev",
+  "branch": "fix/rebuild-privacy-and-state",
+  "release_commit": "2e06425a09e58a19bd439184e145365c6577bb4d",
+  "scope": "All outstanding public-safe work in the shared checkout, including Findmypast batches and current ancestry views. No live WikiTree edits.",
+  "catalogue_people": 4965,
+  "mapped_record_entries": 5812,
+  "payload": {
+    "files": 88541,
+    "bytes": 2061114648,
+    "manifest_sha256": "f177dd072b049abdc91d2bdb96e6e150f8b38fa32af5452a4e2d46215086a85c"
+  },
+  "server_file_verification": {
+    "checked": 88541,
+    "expected": 88541,
+    "failures": []
+  },
+  "live_http": {
+    "summary": {
+      "checked": 151,
+      "exact": 117,
+      "normalized": 34,
+      "failures": []
+    },
+    "results": [
+      {
+        "route": "/",
+        "status": 200,
+        "bytes": 131593,
+        "local_sha256": "3a70440a8d10d6cfe59144e4b2578a49f2d1895c3167eb853bceac6ec6a8d04d",
+        "served_sha256": "e3001f689ae224d081d6d63ae619f006569e6095c734886ee7f7b22e598bbf1e",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/assets/free-space/site.css?v=2bc2e845e6",
+        "status": 200,
+        "bytes": 18220,
+        "local_sha256": "2bc2e845e606af16aa736e870dd847051f443bd5f879003e0403e0f05f314523",
+        "served_sha256": "2bc2e845e606af16aa736e870dd847051f443bd5f879003e0403e0f05f314523",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/free-space/site.js?v=137e733975",
+        "status": 200,
+        "bytes": 7939,
+        "local_sha256": "137e7339759a95ef22b41f04d62b2f60a0af1c21c0ba0e905786cd1fd98d12af",
+        "served_sha256": "137e7339759a95ef22b41f04d62b2f60a0af1c21c0ba0e905786cd1fd98d12af",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/atlas.js?v=d265017aa8",
+        "status": 200,
+        "bytes": 1998,
+        "local_sha256": "d265017aa84632bc297d13fd99b47e5c73837e96e33207c42da01d0b4a2823ae",
+        "served_sha256": "d265017aa84632bc297d13fd99b47e5c73837e96e33207c42da01d0b4a2823ae",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/exploration-layout.css?v=b1f143ecc3",
+        "status": 200,
+        "bytes": 5846,
+        "local_sha256": "b1f143ecc3c104bbed0bc8f7d50858361d81d064d0b68b5ebe87ee401f3e4f89",
+        "served_sha256": "b1f143ecc3c104bbed0bc8f7d50858361d81d064d0b68b5ebe87ee401f3e4f89",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/exploration-layout.js?v=231d57d550",
+        "status": 200,
+        "bytes": 3264,
+        "local_sha256": "231d57d55009bd3eb08caae0235249c9b230e46ae95911c6aa4e2b4295e296b7",
+        "served_sha256": "231d57d55009bd3eb08caae0235249c9b230e46ae95911c6aa4e2b4295e296b7",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/latest-findings.css?v=5edf29c4f4",
+        "status": 200,
+        "bytes": 6538,
+        "local_sha256": "5edf29c4f40ace2b224ca244a35d6a53792c31c189517cbe95bbd721ba20e5f2",
+        "served_sha256": "5edf29c4f40ace2b224ca244a35d6a53792c31c189517cbe95bbd721ba20e5f2",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/latest-findings.js?v=1a609aaaa9",
+        "status": 200,
+        "bytes": 5474,
+        "local_sha256": "1a609aaaa9d0d473d0f707863208042e952d74ed371e4bb7c8a16844786843d3",
+        "served_sha256": "1a609aaaa9d0d473d0f707863208042e952d74ed371e4bb7c8a16844786843d3",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/person-hierarchy.css?v=141a54a9b2",
+        "status": 200,
+        "bytes": 95922,
+        "local_sha256": "141a54a9b28f92a5f543c401d4fd3ccdbb3612024865b362cf5f200d310e51d2",
+        "served_sha256": "141a54a9b28f92a5f543c401d4fd3ccdbb3612024865b362cf5f200d310e51d2",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/reader-guidance.css?v=3820922f77",
+        "status": 200,
+        "bytes": 4654,
+        "local_sha256": "3820922f7710249a29a98438e7de6d4338f108623350c206be0da5e58315dc92",
+        "served_sha256": "3820922f7710249a29a98438e7de6d4338f108623350c206be0da5e58315dc92",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/release-readiness.css?v=78970be59b",
+        "status": 200,
+        "bytes": 1816,
+        "local_sha256": "78970be59bd9380d82a952465207bdaaac818a60443c3461b8e614cfd1220436",
+        "served_sha256": "78970be59bd9380d82a952465207bdaaac818a60443c3461b8e614cfd1220436",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/resources.css?v=58a32e2a06",
+        "status": 200,
+        "bytes": 2885,
+        "local_sha256": "58a32e2a0629dbaf47d698950546873469b1e9b1fc9490e9a7c9a96fe4c5a185",
+        "served_sha256": "58a32e2a0629dbaf47d698950546873469b1e9b1fc9490e9a7c9a96fe4c5a185",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/site.css?v=2d9d9f2e14",
+        "status": 200,
+        "bytes": 33519,
+        "local_sha256": "2d9d9f2e1486887e9787914741499e0899358c8b7e9487f6ad5ea46ec45e8343",
+        "served_sha256": "2d9d9f2e1486887e9787914741499e0899358c8b7e9487f6ad5ea46ec45e8343",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/repair/site.js?v=f19e46bad8",
+        "status": 200,
+        "bytes": 1200,
+        "local_sha256": "f19e46bad8e14fc067d9fdb76347fe28ac0be74a4ef9b07c67424a0b6fc6d8c9",
+        "served_sha256": "f19e46bad8e14fc067d9fdb76347fe28ac0be74a4ef9b07c67424a0b6fc6d8c9",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/ancestry-progress.css?v=a9f310f3ec",
+        "status": 200,
+        "bytes": 9030,
+        "local_sha256": "a9f310f3ec2237fe344463cccfbeb4b5915b50dfd3389ae480cd34f9a1a0fc27",
+        "served_sha256": "a9f310f3ec2237fe344463cccfbeb4b5915b50dfd3389ae480cd34f9a1a0fc27",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/ancestry-progress.js?v=777f038f99",
+        "status": 200,
+        "bytes": 42249,
+        "local_sha256": "777f038f999900730f8c88b3bd5373baeadd41ce5970089c8a00ee8d0192216f",
+        "served_sha256": "777f038f999900730f8c88b3bd5373baeadd41ce5970089c8a00ee8d0192216f",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/atlas-boot.js?v=2d61cd7477",
+        "status": 200,
+        "bytes": 1715,
+        "local_sha256": "2d61cd74772626a2977e228c1ed2490c0d2e1c5e8f3f9438a65a318801498825",
+        "served_sha256": "2d61cd74772626a2977e228c1ed2490c0d2e1c5e8f3f9438a65a318801498825",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/atlas-model-packed.json",
+        "status": 200,
+        "bytes": 5139290,
+        "local_sha256": "9892f6cf257b9ba541c155424e52dce414041cfeb5c10ed0d8fdaa6be1b5f40f",
+        "served_sha256": "9892f6cf257b9ba541c155424e52dce414041cfeb5c10ed0d8fdaa6be1b5f40f",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/branches-directory.css?v=0d8ba55068",
+        "status": 200,
+        "bytes": 18626,
+        "local_sha256": "0d8ba55068a8c425cf84dca7a490fa18b2113ed2df43fdfe9eadb98a6fcf6ffe",
+        "served_sha256": "0d8ba55068a8c425cf84dca7a490fa18b2113ed2df43fdfe9eadb98a6fcf6ffe",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/branches-directory.js?v=7427b57970",
+        "status": 200,
+        "bytes": 18078,
+        "local_sha256": "7427b57970f85a9e1895793c5327535a5b0ed803cd109e26c0a263620f214b81",
+        "served_sha256": "7427b57970f85a9e1895793c5327535a5b0ed803cd109e26c0a263620f214b81",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/core.js?v=1b45c01bc7",
+        "status": 200,
+        "bytes": 30017,
+        "local_sha256": "1b45c01bc710ade5cfc1530188f8687610103ffa03c7eed106d0532030624c3f",
+        "served_sha256": "1b45c01bc710ade5cfc1530188f8687610103ffa03c7eed106d0532030624c3f",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/evidence.css?v=a59abc1c98",
+        "status": 200,
+        "bytes": 7864,
+        "local_sha256": "a59abc1c986a934a4c7be22717ac44a78129dd0bbd7a2e4052530489649e9662",
+        "served_sha256": "a59abc1c986a934a4c7be22717ac44a78129dd0bbd7a2e4052530489649e9662",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1023-6832951f1e79dc31.html",
+        "status": 200,
+        "bytes": 112917,
+        "local_sha256": "6832951f1e79dc3143d01d3a70c380e24911352c5d9058e627b1d7201721a836",
+        "served_sha256": "6832951f1e79dc3143d01d3a70c380e24911352c5d9058e627b1d7201721a836",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1023-f0d4175885cd4f51.html",
+        "status": 200,
+        "bytes": 54962,
+        "local_sha256": "d552cbab5292fd65ebb168e5d70c3e8e540bd15169dcb659b897ff5d2282d814",
+        "served_sha256": "d552cbab5292fd65ebb168e5d70c3e8e540bd15169dcb659b897ff5d2282d814",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1158-09995c1d9b7d4675.html",
+        "status": 200,
+        "bytes": 73391,
+        "local_sha256": "09995c1d9b7d4675f0e9649492a16fd650bb2637022c7dfbde4c4b240c23fdc1",
+        "served_sha256": "09995c1d9b7d4675f0e9649492a16fd650bb2637022c7dfbde4c4b240c23fdc1",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1158-946f0be789081c3b.html",
+        "status": 200,
+        "bytes": 86574,
+        "local_sha256": "44acf4d70f29feae34bf4ee7a32233e2b864de19d90b385f20f1264894291919",
+        "served_sha256": "44acf4d70f29feae34bf4ee7a32233e2b864de19d90b385f20f1264894291919",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1168-b49f71364ddcaf1e.html",
+        "status": 200,
+        "bytes": 62151,
+        "local_sha256": "b49f71364ddcaf1ef07129a4f908562b067eeff42a03fc265b0569f502a16d67",
+        "served_sha256": "b49f71364ddcaf1ef07129a4f908562b067eeff42a03fc265b0569f502a16d67",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1168-d38c27aae8507de2.html",
+        "status": 200,
+        "bytes": 161242,
+        "local_sha256": "134770af7478cecb4058387619cd277019f82d6ad4c143cf3fdf8bf7f0029357",
+        "served_sha256": "134770af7478cecb4058387619cd277019f82d6ad4c143cf3fdf8bf7f0029357",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1223-990d242cbf93e1dc.html",
+        "status": 200,
+        "bytes": 69442,
+        "local_sha256": "990d242cbf93e1dc89df03c90278ba42032430ee454ae42dd917682b552a7606",
+        "served_sha256": "990d242cbf93e1dc89df03c90278ba42032430ee454ae42dd917682b552a7606",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1238-a01aa1180d866a16.html",
+        "status": 200,
+        "bytes": 116109,
+        "local_sha256": "f559f367f7d80a48d7350e7b81dbba4035ae254b38e1c949ecfb8d73af27b97d",
+        "served_sha256": "f559f367f7d80a48d7350e7b81dbba4035ae254b38e1c949ecfb8d73af27b97d",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1238-c79758e767654c9f.html",
+        "status": 200,
+        "bytes": 117882,
+        "local_sha256": "c79758e767654c9f963fc7f438dc1ec54a8c36485af80906f03b6cb97545bea7",
+        "served_sha256": "c79758e767654c9f963fc7f438dc1ec54a8c36485af80906f03b6cb97545bea7",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1336-e471e996847ca201.html",
+        "status": 200,
+        "bytes": 77507,
+        "local_sha256": "e471e996847ca20172305a53acedac2b5cc9aae1920e8e5209b0efb59585b228",
+        "served_sha256": "e471e996847ca20172305a53acedac2b5cc9aae1920e8e5209b0efb59585b228",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1382-2dcb8df2bf7b878c.html",
+        "status": 200,
+        "bytes": 98008,
+        "local_sha256": "2dcb8df2bf7b878c5c03b1a4a1ea7761bc86ac7ab76f1aa69155b2429c54b279",
+        "served_sha256": "2dcb8df2bf7b878c5c03b1a4a1ea7761bc86ac7ab76f1aa69155b2429c54b279",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1382-cb7d96f7595f5197.html",
+        "status": 200,
+        "bytes": 72081,
+        "local_sha256": "614b98ae8a9a7b45ce504b4bc52705915567b22b0468a2501863b5624c587323",
+        "served_sha256": "614b98ae8a9a7b45ce504b4bc52705915567b22b0468a2501863b5624c587323",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1466-05c17922b7bc3964.html",
+        "status": 200,
+        "bytes": 75990,
+        "local_sha256": "05c17922b7bc39643cf3feede522db114cdeb9a3a7b0bd206c7b0418704e7dcb",
+        "served_sha256": "05c17922b7bc39643cf3feede522db114cdeb9a3a7b0bd206c7b0418704e7dcb",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1466-cf3e9e572b2efd55.html",
+        "status": 200,
+        "bytes": 266309,
+        "local_sha256": "7dbd99aa05f770fb5cc06ca68867ff7836df3e4f98cc860e80c77eabe238b2aa",
+        "served_sha256": "7dbd99aa05f770fb5cc06ca68867ff7836df3e4f98cc860e80c77eabe238b2aa",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-160-5cff7e691c28f8d6.html",
+        "status": 200,
+        "bytes": 51861,
+        "local_sha256": "899499c1ea7366c9632ec83a385784a56c1216ede968fce6ed9abf75fe5369a2",
+        "served_sha256": "899499c1ea7366c9632ec83a385784a56c1216ede968fce6ed9abf75fe5369a2",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1620-161bc6b014c13395.html",
+        "status": 200,
+        "bytes": 78697,
+        "local_sha256": "161bc6b014c133959e905ff39e0d26bb5c4479c11e5dd011f25acb2135900bed",
+        "served_sha256": "161bc6b014c133959e905ff39e0d26bb5c4479c11e5dd011f25acb2135900bed",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-1620-2b319ebef5727ffa.html",
+        "status": 200,
+        "bytes": 79107,
+        "local_sha256": "fda2e13d7dc1fd1c945e987f40c11a31f18f613361aec5b478affdf1218ea6b4",
+        "served_sha256": "fda2e13d7dc1fd1c945e987f40c11a31f18f613361aec5b478affdf1218ea6b4",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-3163-1a3459b9f7e1002d.html",
+        "status": 200,
+        "bytes": 123918,
+        "local_sha256": "1a3459b9f7e1002d4da27e166a868efbd071f1e159f1fde2b9ff81da4fcef35d",
+        "served_sha256": "1a3459b9f7e1002d4da27e166a868efbd071f1e159f1fde2b9ff81da4fcef35d",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-3163-94d0fbd7e5de6d92.html",
+        "status": 200,
+        "bytes": 230266,
+        "local_sha256": "91c09af45be896045ba27f9787275dd0a8afc0e4ba3796eba505f3c545a59691",
+        "served_sha256": "91c09af45be896045ba27f9787275dd0a8afc0e4ba3796eba505f3c545a59691",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-3298-2fec8af98f4cdbfd.html",
+        "status": 200,
+        "bytes": 68463,
+        "local_sha256": "523c696f1adaf9ea3ff29356b8538b1410e1ea1a8f5a8d69d70444fefb3ea8b3",
+        "served_sha256": "523c696f1adaf9ea3ff29356b8538b1410e1ea1a8f5a8d69d70444fefb3ea8b3",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-3298-38f698585076a2a6.html",
+        "status": 200,
+        "bytes": 94986,
+        "local_sha256": "38f698585076a2a65f7e3842f592a453e9ca72cf8e68ac9f56af511dcb6c6f7d",
+        "served_sha256": "38f698585076a2a65f7e3842f592a453e9ca72cf8e68ac9f56af511dcb6c6f7d",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-3322-58fd42c40ae863b0.html",
+        "status": 200,
+        "bytes": 206364,
+        "local_sha256": "ee320c381d8fa3366ff37aa0ef813c825ec4f92d95306819e8595a807839bdac",
+        "served_sha256": "ee320c381d8fa3366ff37aa0ef813c825ec4f92d95306819e8595a807839bdac",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-428-5a637349eba10fef.html",
+        "status": 200,
+        "bytes": 128002,
+        "local_sha256": "5a637349eba10fef6bdaa6413c63eba4d3490cf7c050e35e16076abef91524c3",
+        "served_sha256": "5a637349eba10fef6bdaa6413c63eba4d3490cf7c050e35e16076abef91524c3",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-428-c8f613b73d2b463e.html",
+        "status": 200,
+        "bytes": 95645,
+        "local_sha256": "7afa8d946166e7997fd4f1572d7ab32afd2db23047f3e7fb8987b1fb3c956c0a",
+        "served_sha256": "7afa8d946166e7997fd4f1572d7ab32afd2db23047f3e7fb8987b1fb3c956c0a",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-62-2f854d6f0d49b2c2.html",
+        "status": 200,
+        "bytes": 80886,
+        "local_sha256": "2f854d6f0d49b2c224a5d7adcb9e79c0d9967d31a2c7153b6a298b40ecd3ddba",
+        "served_sha256": "2f854d6f0d49b2c224a5d7adcb9e79c0d9967d31a2c7153b6a298b40ecd3ddba",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/fragments/glasgow-62-c2fa84f63ea5c079.html",
+        "status": 200,
+        "bytes": 63898,
+        "local_sha256": "d8cab175d8b3fe361719224a6cf6ea7fc55700fd120eb23e5b05866894f1138d",
+        "served_sha256": "d8cab175d8b3fe361719224a6cf6ea7fc55700fd120eb23e5b05866894f1138d",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/home.js?v=86648ab156",
+        "status": 200,
+        "bytes": 2818,
+        "local_sha256": "86648ab156a7782e10bea73dbd01a6f72b7565ab5dba8ec253dc114a74ad26cb",
+        "served_sha256": "86648ab156a7782e10bea73dbd01a6f72b7565ab5dba8ec253dc114a74ad26cb",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/research-queue.css?v=cb15337cc3",
+        "status": 200,
+        "bytes": 1260,
+        "local_sha256": "cb15337cc318423334317ad04ab78ac79aeb3f47df0142e2fb118db4b5c44d5d",
+        "served_sha256": "cb15337cc318423334317ad04ab78ac79aeb3f47df0142e2fb118db4b5c44d5d",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/research-queue.js?v=2a6c443b4a",
+        "status": 200,
+        "bytes": 2149,
+        "local_sha256": "2a6c443b4ae0f2df51621e54a01313fc454aea39c5b455c221be2eb30cf25e6c",
+        "served_sha256": "2a6c443b4ae0f2df51621e54a01313fc454aea39c5b455c221be2eb30cf25e6c",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/research.css?v=73bef00d2c",
+        "status": 200,
+        "bytes": 39361,
+        "local_sha256": "73bef00d2c801592b5e4ef64789de6194da4e10c7ba0c0ad181292ebc71cb31f",
+        "served_sha256": "73bef00d2c801592b5e4ef64789de6194da4e10c7ba0c0ad181292ebc71cb31f",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/study-page.css?v=87b29f60b1",
+        "status": 200,
+        "bytes": 11708,
+        "local_sha256": "87b29f60b134772ac9c89093c2f73c5f11fb3da8723216f5e58eb6a3c30b4275",
+        "served_sha256": "87b29f60b134772ac9c89093c2f73c5f11fb3da8723216f5e58eb6a3c30b4275",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/study-page.js?v=560aadef9e",
+        "status": 200,
+        "bytes": 2947,
+        "local_sha256": "560aadef9e8d1bbe2598600563c8a48b23e6c92658d7cee96f4bb328505d6fd6",
+        "served_sha256": "560aadef9e8d1bbe2598600563c8a48b23e6c92658d7cee96f4bb328505d6fd6",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/research/views.js?v=8c1e9421de",
+        "status": 200,
+        "bytes": 22637,
+        "local_sha256": "8c1e9421de57008627b36569210bdc8d79e378193df816a8cd62f52ef02b94eb",
+        "served_sha256": "8c1e9421de57008627b36569210bdc8d79e378193df816a8cd62f52ef02b94eb",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/sources/collections.css?v=2660b12813",
+        "status": 200,
+        "bytes": 25514,
+        "local_sha256": "2660b1281332d19e86151415acebe063641494f0d77347c0ac881e6b20231871",
+        "served_sha256": "2660b1281332d19e86151415acebe063641494f0d77347c0ac881e6b20231871",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/sources/collections.js?v=6ae426beea",
+        "status": 200,
+        "bytes": 21274,
+        "local_sha256": "6ae426beeac17a4be0777e2f8ba2075e37803582ce5e5329c40a8c0bb4868083",
+        "served_sha256": "6ae426beeac17a4be0777e2f8ba2075e37803582ce5e5329c40a8c0bb4868083",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/data-versions.js?v=e463f4712a",
+        "status": 200,
+        "bytes": 3502,
+        "local_sha256": "e463f4712a64ed2ff4464591e0174b268f805dabb32abd63ff2da049b8ff7ff7",
+        "served_sha256": "e463f4712a64ed2ff4464591e0174b268f805dabb32abd63ff2da049b8ff7ff7",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/home.css?v=9de9ad1c0b",
+        "status": 200,
+        "bytes": 15594,
+        "local_sha256": "9de9ad1c0b4aa30341f182f3493907396cab7b808b9c4e0dc2b47a4c313aac24",
+        "served_sha256": "9de9ad1c0b4aa30341f182f3493907396cab7b808b9c4e0dc2b47a4c313aac24",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/performance.css?v=426086a1e9",
+        "status": 200,
+        "bytes": 531,
+        "local_sha256": "426086a1e9e4972ac5c736b19bdd73d742bd7f03641c96ad8e5276eae8311293",
+        "served_sha256": "426086a1e9e4972ac5c736b19bdd73d742bd7f03641c96ad8e5276eae8311293",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/routes.js?v=8d73cdd2df",
+        "status": 200,
+        "bytes": 137688,
+        "local_sha256": "8d73cdd2df4daf2caff1baf3ccc2a8582c43b9997bac1865504ddc383b83b0f0",
+        "served_sha256": "8d73cdd2df4daf2caff1baf3ccc2a8582c43b9997bac1865504ddc383b83b0f0",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/section-submenus.css?v=ad2d678732",
+        "status": 200,
+        "bytes": 5465,
+        "local_sha256": "ad2d678732b27cbac4293a6749a061ca43f561ae7863b966a3e128ffeb9c378f",
+        "served_sha256": "ad2d678732b27cbac4293a6749a061ca43f561ae7863b966a3e128ffeb9c378f",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/section-submenus.js?v=026cd388d3",
+        "status": 200,
+        "bytes": 16080,
+        "local_sha256": "026cd388d3c47a903d22b66331a06f6251d1388daa852ed6fc300cd9ae6bc4aa",
+        "served_sha256": "026cd388d3c47a903d22b66331a06f6251d1388daa852ed6fc300cd9ae6bc4aa",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/sections.css?v=33e02bc6d3",
+        "status": 200,
+        "bytes": 19409,
+        "local_sha256": "33e02bc6d3f64a4f0f2b249192acd7a6f8bca5dcabe7a87deda46e5413961c87",
+        "served_sha256": "33e02bc6d3f64a4f0f2b249192acd7a6f8bca5dcabe7a87deda46e5413961c87",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/site-metrics.js?v=8f0e01533e",
+        "status": 200,
+        "bytes": 973,
+        "local_sha256": "8f0e01533ef71e289d33d8b1bde72587967bf18bc48f5904de68445e0989015d",
+        "served_sha256": "8f0e01533ef71e289d33d8b1bde72587967bf18bc48f5904de68445e0989015d",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/site.css?v=54e36149cb",
+        "status": 200,
+        "bytes": 23180,
+        "local_sha256": "54e36149cb21c211cc035aac0d299c16bdbc409cbe9d7a640c0f1224456834c0",
+        "served_sha256": "54e36149cb21c211cc035aac0d299c16bdbc409cbe9d7a640c0f1224456834c0",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/site.js?v=04e24abfcd",
+        "status": 200,
+        "bytes": 25846,
+        "local_sha256": "04e24abfcdecbea60d7b38e5d3206e6a58e7b08a0e4cfa3589bda1d889480691",
+        "served_sha256": "04e24abfcdecbea60d7b38e5d3206e6a58e7b08a0e4cfa3589bda1d889480691",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/sitemap.css?v=7087c4a708",
+        "status": 200,
+        "bytes": 2290,
+        "local_sha256": "7087c4a708051fed0098d65fa890d50921317006c75f23e6384543a951769fc7",
+        "served_sha256": "7087c4a708051fed0098d65fa890d50921317006c75f23e6384543a951769fc7",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/unified/sitemap.js?v=f32653456b",
+        "status": 200,
+        "bytes": 2241,
+        "local_sha256": "f32653456b27a478955e16e690077cea647824390cae7ad9de986d0f7de2ae33",
+        "served_sha256": "f32653456b27a478955e16e690077cea647824390cae7ad9de986d0f7de2ae33",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/v3/atlas-ui.js?v=c7ac64fdab",
+        "status": 200,
+        "bytes": 4603,
+        "local_sha256": "c7ac64fdab5b21d2cc1c33faa4341f0bc5074306cf777b022facfca67d93e618",
+        "served_sha256": "c7ac64fdab5b21d2cc1c33faa4341f0bc5074306cf777b022facfca67d93e618",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/v3/reader.js?v=f3a2a6e808",
+        "status": 200,
+        "bytes": 21385,
+        "local_sha256": "f3a2a6e808d8b9a76e8b44ad239fd6b6348ea1a0eaad1b2b6aeb8002e2a380b1",
+        "served_sha256": "f3a2a6e808d8b9a76e8b44ad239fd6b6348ea1a0eaad1b2b6aeb8002e2a380b1",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/v3/site.css?v=b6eb9b9e11",
+        "status": 200,
+        "bytes": 50209,
+        "local_sha256": "b6eb9b9e11139bc53cbaa79195f7d330ba20c76c84a4260eecb11228a42655d2",
+        "served_sha256": "b6eb9b9e11139bc53cbaa79195f7d330ba20c76c84a4260eecb11228a42655d2",
+        "match": "exact"
+      },
+      {
+        "route": "/assets/v3/ui.js?v=8d2f7f128f",
+        "status": 200,
+        "bytes": 2928,
+        "local_sha256": "8d2f7f128fad4e56fa0ae46b2910084ac2d1837390daf5a94e3ce0e4341db0ce",
+        "served_sha256": "8d2f7f128fad4e56fa0ae46b2910084ac2d1837390daf5a94e3ce0e4341db0ce",
+        "match": "exact"
+      },
+      {
+        "route": "/branches/early-scottish-records/",
+        "status": 200,
+        "bytes": 928846,
+        "local_sha256": "1bb7a5a984191a7bf8301991d4265cef4c43e4df0f76a426a60e10f847156f08",
+        "served_sha256": "1bb7a5a984191a7bf8301991d4265cef4c43e4df0f76a426a60e10f847156f08",
+        "match": "exact"
+      },
+      {
+        "route": "/catalogue/",
+        "status": 200,
+        "bytes": 114741,
+        "local_sha256": "b11377faff6ed885dbb322af1d38fb53f0ca521ada4da7fd5b081ce1635ec1e2",
+        "served_sha256": "1f5bfb7b203ade36b34d43917071698974a8474bc418eacd9c7525d2ad8bdee9",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/data/ancestry-connectivity.json",
+        "status": 200,
+        "bytes": 8333935,
+        "local_sha256": "72f55866c0b95724cd2811532f434c887ebbd110cd5e97962c6b0a1eaadf8703",
+        "served_sha256": "72f55866c0b95724cd2811532f434c887ebbd110cd5e97962c6b0a1eaadf8703",
+        "match": "exact"
+      },
+      {
+        "route": "/data/catalogue-search-fast.json",
+        "status": 200,
+        "bytes": 6276228,
+        "local_sha256": "6408ac5e6b44bdbb53110899c71d85c8736a1a63962f60259cdf288fa0b50e2d",
+        "served_sha256": "6408ac5e6b44bdbb53110899c71d85c8736a1a63962f60259cdf288fa0b50e2d",
+        "match": "exact"
+      },
+      {
+        "route": "/data/catalogue-search-index.json",
+        "status": 200,
+        "bytes": 23095517,
+        "local_sha256": "7c74f89dbc12e53f9b8cecc01f292529acc26faca65dc50b8dd2d30d6bb5cb5d",
+        "served_sha256": "7c74f89dbc12e53f9b8cecc01f292529acc26faca65dc50b8dd2d30d6bb5cb5d",
+        "match": "exact"
+      },
+      {
+        "route": "/latest-findings/",
+        "status": 200,
+        "bytes": 238543,
+        "local_sha256": "0d6e8776f3a3fb3db6959600d5a6f70e3ee733ef2a70b8b038e8f5d7e36f2049",
+        "served_sha256": "1ae370af974bf487cb397bc2af48f82a3181ce6b91417ff43f8a5ec767696227",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/latest-findings/page/22/",
+        "status": 200,
+        "bytes": 161852,
+        "local_sha256": "7247f1ecc3bd833d23183c6c2f4f4f9048bf5d836db174783ebbba7a0130f0d0",
+        "served_sha256": "ebc884d68ea6c65c0a4c2626998055f7d57816e9482a6f50409bb093d91b9b43",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/onetree/",
+        "status": 200,
+        "bytes": 69897,
+        "local_sha256": "2d2b4c5253ad13a63cc0739665dd91006b995e50d948bb7915ad4f99802c4a66",
+        "served_sha256": "2d2b4c5253ad13a63cc0739665dd91006b995e50d948bb7915ad4f99802c4a66",
+        "match": "exact"
+      },
+      {
+        "route": "/onetree/glasgow-one-tree-polished-3/model.json",
+        "status": 200,
+        "bytes": 21543058,
+        "local_sha256": "0f2e9fa7af1d32a11c39939026026e3e98480aca2ab61761a63a6f751c1fc7f5",
+        "served_sha256": "0f2e9fa7af1d32a11c39939026026e3e98480aca2ab61761a63a6f751c1fc7f5",
+        "match": "exact"
+      },
+      {
+        "route": "/onetree/progress/",
+        "status": 200,
+        "bytes": 5277512,
+        "local_sha256": "2f474b33739a517788889864139a2898a334a13446fead8018e8180b62d75dc8",
+        "served_sha256": "9afb08f8a28a7fd3d4bedf4eb07c8c5bb085385d318d1781fc8a04f0d90f1f1a",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/catalogue.css?v=70166f4bb8",
+        "status": 200,
+        "bytes": 111263,
+        "local_sha256": "70166f4bb819bd1470cffff7d4d73e42057679856ed342d61e44927945a9d8a5",
+        "served_sha256": "70166f4bb819bd1470cffff7d4d73e42057679856ed342d61e44927945a9d8a5",
+        "match": "exact"
+      },
+      {
+        "route": "/people/external-links.js?v=4829776e61",
+        "status": 200,
+        "bytes": 939,
+        "local_sha256": "4829776e614be248a3936efd8abd2778636d8a3dcb30e2df73e3fb30ef742129",
+        "served_sha256": "4829776e614be248a3936efd8abd2778636d8a3dcb30e2df73e3fb30ef742129",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1023.html",
+        "status": 200,
+        "bytes": 93650,
+        "local_sha256": "3f5b6231da7aedf1e90588ed72529f348e8d216e5fbbd1e436b46a68ea07566b",
+        "served_sha256": "ba33bbe675899218605317cba22098761280585b561c262d8fd212b9f3c2ee0b",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1023.json",
+        "status": 200,
+        "bytes": 203318,
+        "local_sha256": "e43071572d39d4699d7d48a904fe088dd33060966fa44e6447e668dd5490c1e8",
+        "served_sha256": "e43071572d39d4699d7d48a904fe088dd33060966fa44e6447e668dd5490c1e8",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1158.html",
+        "status": 200,
+        "bytes": 97084,
+        "local_sha256": "8ab15d7fd7389b0d4f013bb0b9a8081fc1f10d413eb032b52e648667000026a5",
+        "served_sha256": "5fd58d84470c9a3eca69ebc8d3e26d51f2801536163324f7fd9d2a1db0e10d78",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1158.json",
+        "status": 200,
+        "bytes": 166908,
+        "local_sha256": "e9440e4cd279b9988d7154ffe6a3cd54191077db8ece0e7ac9c494227e21433e",
+        "served_sha256": "e9440e4cd279b9988d7154ffe6a3cd54191077db8ece0e7ac9c494227e21433e",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1168.html",
+        "status": 200,
+        "bytes": 76239,
+        "local_sha256": "29aac0784718116fa27cfc7b06c5803876a151f0416d72d8f9772a1d92e8cf2e",
+        "served_sha256": "8f4c240a1fb5145e5d424cc6959f3aba4232d062f74637ca4f7326c15621613f",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1168.json",
+        "status": 200,
+        "bytes": 168014,
+        "local_sha256": "eb879a4fadb6a4ae2d39faddb593e4e9b613fa52a0a93b1676a7ad63084c89e2",
+        "served_sha256": "eb879a4fadb6a4ae2d39faddb593e4e9b613fa52a0a93b1676a7ad63084c89e2",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1223.html",
+        "status": 200,
+        "bytes": 165458,
+        "local_sha256": "3a8bde9b529ba37968ef941a114acbca717206fd70e181f2e602456ecf5b1bb9",
+        "served_sha256": "08660bdae95e67bc1350cb99df9662901a0759e0d93d2a0df9266363541e4d36",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1223.json",
+        "status": 200,
+        "bytes": 157199,
+        "local_sha256": "3f5a663ddaee2f6334c8667e50d80d30fe69a57f18293e8547f29a7a5f95046a",
+        "served_sha256": "3f5a663ddaee2f6334c8667e50d80d30fe69a57f18293e8547f29a7a5f95046a",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1238.html",
+        "status": 200,
+        "bytes": 108914,
+        "local_sha256": "2056c7460b06b8f9ded5f72b82544f0593cfebb7486c2d7822cf077764a0b9dc",
+        "served_sha256": "99bb4ceec5eed73dd4745dbea38480bf955a0df3a3937cae1046004e59da6aae",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1238.json",
+        "status": 200,
+        "bytes": 240565,
+        "local_sha256": "96e4743975d27a05dc658ad761f8fb8b553fb84c3ff717c64105029cc423990c",
+        "served_sha256": "96e4743975d27a05dc658ad761f8fb8b553fb84c3ff717c64105029cc423990c",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1320.html",
+        "status": 200,
+        "bytes": 83654,
+        "local_sha256": "02c371dbfbcf0c8f57f83b38a9432ed3af07cec4cdf5d4dcb305a0b634beca9d",
+        "served_sha256": "fd600fb1e937392a3bcd9d6f7ba41ad51e12dd2e3429e67e6e8b69b61fffc893",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1320.json",
+        "status": 200,
+        "bytes": 47307,
+        "local_sha256": "ad1082fb395a140d372b76646b9f965d1f41830e6b410ad49add60ad1d9d51d1",
+        "served_sha256": "ad1082fb395a140d372b76646b9f965d1f41830e6b410ad49add60ad1d9d51d1",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1336.html",
+        "status": 200,
+        "bytes": 141003,
+        "local_sha256": "8eb2dfc5e3158f5c7b41bbf81348dca8923e009d5c134a450b28d635db11428a",
+        "served_sha256": "b8348b860ed85d63536865b4083e7d08eca82b9139bd37af6d5a5d065dbd73f8",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1336.json",
+        "status": 200,
+        "bytes": 153873,
+        "local_sha256": "cbf2862d666b90fc7dfc80c9efc4f4fdf6d993a9e59790f5df84b66d86fd9631",
+        "served_sha256": "cbf2862d666b90fc7dfc80c9efc4f4fdf6d993a9e59790f5df84b66d86fd9631",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1342.html",
+        "status": 200,
+        "bytes": 161464,
+        "local_sha256": "2407a8fc68d1d2f987ea719f619d75101ef4eaddfe86ebc023fbe102dcfe7e82",
+        "served_sha256": "669876e815155be0dd351dea0fd9b9d6e35c8de92a89ab4037b3447aedee8c81",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1342.json",
+        "status": 200,
+        "bytes": 107384,
+        "local_sha256": "12570f31459ea5f8bcfe5c3c933735e24846083f477c2df3cda0f5ab847466a8",
+        "served_sha256": "12570f31459ea5f8bcfe5c3c933735e24846083f477c2df3cda0f5ab847466a8",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1382.html",
+        "status": 200,
+        "bytes": 132372,
+        "local_sha256": "6c67e5e3cc0cf8068f1e6ec8051f57d0966498bd7a12b88934d284d853c883c2",
+        "served_sha256": "9887ab49b40bd5794a80263d0a47584a37e86de586d1dcd901daab540bc91a83",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1382.json",
+        "status": 200,
+        "bytes": 207185,
+        "local_sha256": "405a2e8a83415c914a7e04485fba626bdf2c8bdf20cdfae078099520d59e5012",
+        "served_sha256": "405a2e8a83415c914a7e04485fba626bdf2c8bdf20cdfae078099520d59e5012",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1385.html",
+        "status": 200,
+        "bytes": 93983,
+        "local_sha256": "1788af98d593cb03a48993a7cad8bdc38280acead5a2e84d1f1eafe72cdb5d6e",
+        "served_sha256": "567984b08b7d1f2f94d91a2def0badd89ea2fd3e7d807745bd32ef0f6ff0b2a4",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1385.json",
+        "status": 200,
+        "bytes": 54617,
+        "local_sha256": "03ddf846217110edf65b00d6ce5bc7d9b852c2e20af07d762a9e0472386c262b",
+        "served_sha256": "03ddf846217110edf65b00d6ce5bc7d9b852c2e20af07d762a9e0472386c262b",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1430.html",
+        "status": 200,
+        "bytes": 100057,
+        "local_sha256": "8a39a59417f9836e3c05197e45bb85f7ad916b318b79d8c7cf2ab88b8ac33499",
+        "served_sha256": "df2b6e40eafae885279e6b286c3250b042fb51fb19567b30c8e297ab45190178",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1430.json",
+        "status": 200,
+        "bytes": 49412,
+        "local_sha256": "09dce25ce67c09713eb36d7612b6a29dfd08d0b4bff76ebfcd3a213d16feae51",
+        "served_sha256": "09dce25ce67c09713eb36d7612b6a29dfd08d0b4bff76ebfcd3a213d16feae51",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1449.html",
+        "status": 200,
+        "bytes": 109161,
+        "local_sha256": "c8672536f9473609321708c934bbcddafe116d4e55f30d83f38a70fbdc595219",
+        "served_sha256": "7b59afdff57e6bdda99957cd5dfc066562add45bbad842712ae92f3e10d8657d",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1449.json",
+        "status": 200,
+        "bytes": 63023,
+        "local_sha256": "31e7257f1a98a971d054d2f842329fb251763d14db5d73118551ff0937deba6e",
+        "served_sha256": "31e7257f1a98a971d054d2f842329fb251763d14db5d73118551ff0937deba6e",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1466.html",
+        "status": 200,
+        "bytes": 78414,
+        "local_sha256": "ce0413fa7e54781268c90f802fb24c5abe71de5553a26ae63773d047b7e7b715",
+        "served_sha256": "97eae28d3d5ef417549ccf33c4c89a7775e679b7dbd8d7a666a5597849a3d10c",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1466.json",
+        "status": 200,
+        "bytes": 185691,
+        "local_sha256": "deb0d7b0bd82df595f0c3855d47f37886c0769d2b58003e9f8e887f8b7d5be36",
+        "served_sha256": "deb0d7b0bd82df595f0c3855d47f37886c0769d2b58003e9f8e887f8b7d5be36",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-160.html",
+        "status": 200,
+        "bytes": 75607,
+        "local_sha256": "0ebf0d6a858341ed8044f559d3d1539ce3e770d95d7523d6486d14e3e615b66f",
+        "served_sha256": "59f4dffc9d16d25f0709fc9ba85afab377d7a57012b3c1339c1d8903afc0d221",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-160.json",
+        "status": 200,
+        "bytes": 66063,
+        "local_sha256": "241d9f55ac6c1cbafe0e7e3c4c199c08e2e69ffe2ba6b6e98416d9fb81eecacf",
+        "served_sha256": "241d9f55ac6c1cbafe0e7e3c4c199c08e2e69ffe2ba6b6e98416d9fb81eecacf",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-1620.html",
+        "status": 200,
+        "bytes": 135917,
+        "local_sha256": "a57f40fa73f550a8d88fd634f0398f1312db2138821642ec745a1502641e9ed6",
+        "served_sha256": "1add185ad39590f46d42504eeef768ed801597a7d8bc8d52547c3f24517b2131",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-1620.json",
+        "status": 200,
+        "bytes": 187435,
+        "local_sha256": "3bca19d3d0f8364464063d0e35a27d25b631153f254a2043bf67f1466817c08d",
+        "served_sha256": "3bca19d3d0f8364464063d0e35a27d25b631153f254a2043bf67f1466817c08d",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-3163.html",
+        "status": 200,
+        "bytes": 106934,
+        "local_sha256": "044fc3f50f6398bf8a1dc93df99de790dbbc16e9be2166c8cf55fa4c9da25212",
+        "served_sha256": "d401bc54e61c4a7b1abbdf79457b997cfbf4c822a43db4a9e0b8a9c46f417480",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-3163.json",
+        "status": 200,
+        "bytes": 233441,
+        "local_sha256": "888e4988746ba36f6500b1404478388bc19e36799d492ede75a96937062c70c3",
+        "served_sha256": "888e4988746ba36f6500b1404478388bc19e36799d492ede75a96937062c70c3",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-3298.html",
+        "status": 200,
+        "bytes": 94697,
+        "local_sha256": "f4e546dadaefb02bdec95f0d6e81f91568c607ed7c9c4c98d56ef543106dce70",
+        "served_sha256": "a1ca6ddbd94ba11bd9c597f978ea7ed961c346451344a449cc761e8f358cf7e7",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-3298.json",
+        "status": 200,
+        "bytes": 201904,
+        "local_sha256": "25e86c9a42576a428a0ddb0de6868df7b710bdcb278657c4d2a8abcc38796349",
+        "served_sha256": "25e86c9a42576a428a0ddb0de6868df7b710bdcb278657c4d2a8abcc38796349",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-3322.html",
+        "status": 200,
+        "bytes": 148959,
+        "local_sha256": "440a253d487c790e30d3606590b3eb74ad74de2fd025d329592237a9bcbb02d9",
+        "served_sha256": "e3dff31e9be2a2ccc6e74a634f7742980471531cea878db4aed1d5f566d16863",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-3322.json",
+        "status": 200,
+        "bytes": 147223,
+        "local_sha256": "386b1952729426a7a0d0e9332a43fd38fcbfbaf028fddb96cd1050442b4e365c",
+        "served_sha256": "386b1952729426a7a0d0e9332a43fd38fcbfbaf028fddb96cd1050442b4e365c",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-3347.html",
+        "status": 200,
+        "bytes": 117600,
+        "local_sha256": "3d36021fec4eb61b7201d18a7d048773007e8ec96efe6dc120644451829e5b6c",
+        "served_sha256": "3851956a3bb1d02225763481f432e5a3ab9298e15842e9d6dc05e9f4d168b7d6",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-3347.json",
+        "status": 200,
+        "bytes": 69464,
+        "local_sha256": "0635f809032f111e3f2a18af28175b20bba9ee2d0404f475174f59c59cc238e2",
+        "served_sha256": "0635f809032f111e3f2a18af28175b20bba9ee2d0404f475174f59c59cc238e2",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-3392.html",
+        "status": 200,
+        "bytes": 90976,
+        "local_sha256": "189744c7386ce2e9c33839d240e0401a740fe5b2dc0270a370bdf989f9f1c12c",
+        "served_sha256": "cbec9b98caf02ae6e812d22fc1e57a3e798525a052f153f9e7aca2cf1e33d7a1",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-3392.json",
+        "status": 200,
+        "bytes": 56030,
+        "local_sha256": "53e834170084b841a3dd4ccba2a943c46cb092b6c540c8d3f43ec8f0fe4a7c88",
+        "served_sha256": "53e834170084b841a3dd4ccba2a943c46cb092b6c540c8d3f43ec8f0fe4a7c88",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-3401.html",
+        "status": 200,
+        "bytes": 91183,
+        "local_sha256": "e30fe05124b8c187384f490014c252fe5785ed144b2c260418be462755df8e21",
+        "served_sha256": "36ad4fd7f98cf6d467f48fbd04966f9c4d560877a037181e84e41b840f0361c6",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-3401.json",
+        "status": 200,
+        "bytes": 54513,
+        "local_sha256": "f6e35074b3c64e14e5e16885f2c7350f40a8834b98e9cebccad6bad97d30cc1b",
+        "served_sha256": "f6e35074b3c64e14e5e16885f2c7350f40a8834b98e9cebccad6bad97d30cc1b",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-3706.html",
+        "status": 200,
+        "bytes": 154102,
+        "local_sha256": "ebd94c078e96cb7153a625b24f234346ee7146973999162a3a7843b6128a8178",
+        "served_sha256": "7e6c938a887abc5fac6ae8fe88b1705611ced1f67a36296332d2d0a52a7222fd",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-3706.json",
+        "status": 200,
+        "bytes": 115117,
+        "local_sha256": "7db9f579bc4b1b595e9950746694a4b269fcf6a359b57a4f8e1ceb8720694b16",
+        "served_sha256": "7db9f579bc4b1b595e9950746694a4b269fcf6a359b57a4f8e1ceb8720694b16",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-4133.html",
+        "status": 200,
+        "bytes": 135933,
+        "local_sha256": "8bd5ea8babd6b9402f0078c05d45842ad103bc223d897487a61bcee1ef17c427",
+        "served_sha256": "f3d434d5b8a295c5641caa51ef513e49a6c06e137def46fa3d98d27269208b12",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-4133.json",
+        "status": 200,
+        "bytes": 86453,
+        "local_sha256": "6eec285882a7feea92e213b82e5052d6cef28a99b86f13bd194177386deeb211",
+        "served_sha256": "6eec285882a7feea92e213b82e5052d6cef28a99b86f13bd194177386deeb211",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-428.html",
+        "status": 200,
+        "bytes": 115243,
+        "local_sha256": "7704865fea66d33412e52142754ba85751df21a9edb5690f41ac1a8fbbc4645b",
+        "served_sha256": "d5fcc99618b470acfc413bfa89f5fb4466d250a699966edb44cd5800a5a680b0",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-428.json",
+        "status": 200,
+        "bytes": 232389,
+        "local_sha256": "bee172810f34500caa14f5ef094a45e3966e470cc83ac8c56da3c5d9c801a7b1",
+        "served_sha256": "bee172810f34500caa14f5ef094a45e3966e470cc83ac8c56da3c5d9c801a7b1",
+        "match": "exact"
+      },
+      {
+        "route": "/people/glasgow-62.html",
+        "status": 200,
+        "bytes": 81428,
+        "local_sha256": "fec1c39664cf364c39f606133fd43d699a8681865f52c15afd200201c0cd5d30",
+        "served_sha256": "d9af27e9eb93dd37ea24ca79cfee098617f17731cc8fc083cafc44d7cfa49bcf",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/glasgow-62.json",
+        "status": 200,
+        "bytes": 171937,
+        "local_sha256": "49721b2aee4d7e9789d8c530f25fb611520670d37555c55f269f1c1314564048",
+        "served_sha256": "49721b2aee4d7e9789d8c530f25fb611520670d37555c55f269f1c1314564048",
+        "match": "exact"
+      },
+      {
+        "route": "/people/search.js?v=5476c56648",
+        "status": 200,
+        "bytes": 137984,
+        "local_sha256": "5476c56648fa2b9e0c27029ef325779b4c86de973e75249b760b6cb946045663",
+        "served_sha256": "5476c56648fa2b9e0c27029ef325779b4c86de973e75249b760b6cb946045663",
+        "match": "exact"
+      },
+      {
+        "route": "/people/whitehead-9630.html",
+        "status": 200,
+        "bytes": 107887,
+        "local_sha256": "32343ea14e4b7d2f57d1c5575680feb3ee7eee993dae167b5ed1ee6ae3d7f616",
+        "served_sha256": "e960531de79ff1f04d8463b2bd2ef027c92078ed7fe5795b89a8b748d1e3c581",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/whitehead-9630.json",
+        "status": 200,
+        "bytes": 45824,
+        "local_sha256": "1f30f05a8b95842602fb91704bd0fdfbd7f2451b331641d704a1532edb7a0d87",
+        "served_sha256": "1f30f05a8b95842602fb91704bd0fdfbd7f2451b331641d704a1532edb7a0d87",
+        "match": "exact"
+      },
+      {
+        "route": "/people/wilson-127539.html",
+        "status": 200,
+        "bytes": 142721,
+        "local_sha256": "1024f04e522c8b8872b990a22e1f338835347763c70d4f7174d78f4d0974b515",
+        "served_sha256": "bdcbc34eb8850f25c97aa7a842e3576b0e5b808f639fb11c1157285227d5213c",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/people/wilson-127539.json",
+        "status": 200,
+        "bytes": 84435,
+        "local_sha256": "f7078c84f6562718f998563aa181b49b4795581d520525e0013fa6bc44623179",
+        "served_sha256": "f7078c84f6562718f998563aa181b49b4795581d520525e0013fa6bc44623179",
+        "match": "exact"
+      },
+      {
+        "route": "/places/",
+        "status": 200,
+        "bytes": 184038,
+        "local_sha256": "8ef7073c6ce8dbd87f019be6af3856659ef40b8d5705edb18663da161cbff472",
+        "served_sha256": "8566678bcbcde60b8b21cdb9ddcba524b4fa975898eb91c1d5c474eacc86c706",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/records/",
+        "status": 200,
+        "bytes": 16380,
+        "local_sha256": "8ac3921d9468e0600faa32484b08d3e85e6d0ea4f05fe7e110d1974a0d79931b",
+        "served_sha256": "8ac3921d9468e0600faa32484b08d3e85e6d0ea4f05fe7e110d1974a0d79931b",
+        "match": "exact"
+      },
+      {
+        "route": "/records/records.css?v=b43e21bcee",
+        "status": 200,
+        "bytes": 12945,
+        "local_sha256": "b43e21bcee7468a472eda2592443cd8d7d2319c14b2f02f0979766a6c380f358",
+        "served_sha256": "b43e21bcee7468a472eda2592443cd8d7d2319c14b2f02f0979766a6c380f358",
+        "match": "exact"
+      },
+      {
+        "route": "/records/search.js?v=1355443afd",
+        "status": 200,
+        "bytes": 14193,
+        "local_sha256": "1355443afde3336771ca22d8e9fe4ac73c9209134612065e577118863e8793e7",
+        "served_sha256": "1355443afde3336771ca22d8e9fe4ac73c9209134612065e577118863e8793e7",
+        "match": "exact"
+      },
+      {
+        "route": "/sitemap/",
+        "status": 200,
+        "bytes": 153778,
+        "local_sha256": "377cc8253ebf666136296bd2510eddc781ec58e144d51e10aac6752246c88799",
+        "served_sha256": "f1e6ebbf84c575b07e826209ceb6bb03f5fa96a10cbf9b790c8300d84e0a0fc7",
+        "match": "email-protection-normalized"
+      },
+      {
+        "route": "/sources/",
+        "status": 200,
+        "bytes": 14662,
+        "local_sha256": "e08e6397f2e2b29c2f97847a839ff2ab36ad99107cd1980bb868609f06e3ef84",
+        "served_sha256": "e08e6397f2e2b29c2f97847a839ff2ab36ad99107cd1980bb868609f06e3ef84",
+        "match": "exact"
+      },
+      {
+        "route": "/sources/other/scotland/1850-1899/",
+        "status": 200,
+        "bytes": 9910,
+        "local_sha256": "5f533a85621bdbd6e7478b483d9d4a637880bf3530066ffa03b532e590b3be0b",
+        "served_sha256": "5f533a85621bdbd6e7478b483d9d4a637880bf3530066ffa03b532e590b3be0b",
+        "match": "exact"
+      },
+      {
+        "route": "/sources/s-3bc099fa931879e2/",
+        "status": 200,
+        "bytes": 12082,
+        "local_sha256": "bf5dde2daff2229d4ef441c0f8f03c1d7ab2247e6c0a49d3f822678002d5c9f3",
+        "served_sha256": "bf5dde2daff2229d4ef441c0f8f03c1d7ab2247e6c0a49d3f822678002d5c9f3",
+        "match": "exact"
+      },
+      {
+        "route": "/sources/s-8d07bd17ba6367ed/",
+        "status": 200,
+        "bytes": 13577,
+        "local_sha256": "49233d23b5abcab01ae9b68f9971ad5f6b0dfbebcf139153af61e2b87a8f987e",
+        "served_sha256": "49233d23b5abcab01ae9b68f9971ad5f6b0dfbebcf139153af61e2b87a8f987e",
+        "match": "exact"
+      },
+      {
+        "route": "/sources/s-8f3bd807f6fcdd5c/",
+        "status": 200,
+        "bytes": 48941,
+        "local_sha256": "69fd71eb2d26efc0b74b922c3320b0bdcaa5e94c5a8f1ae7cf0e99d51859bd7d",
+        "served_sha256": "69fd71eb2d26efc0b74b922c3320b0bdcaa5e94c5a8f1ae7cf0e99d51859bd7d",
+        "match": "exact"
+      },
+      {
+        "route": "/sources/s-f37b11de738294a7/",
+        "status": 200,
+        "bytes": 15675,
+        "local_sha256": "e31206ada7309a5824764eed51e06256db97b51afcae26a1f37db50d61b84c20",
+        "served_sha256": "e31206ada7309a5824764eed51e06256db97b51afcae26a1f37db50d61b84c20",
+        "match": "exact"
+      }
+    ]
+  },
+  "private_rollback_backup": {
+    "backup": "/var/backups/glasgow/20261030-141102-pre-catalogue-release/site-before.tar.gz",
+    "bytes": 372771082,
+    "sha256": "357c058f36c5225f09f01c9e8abb4a06e78e7f61556d45207bd4aafecdb52135",
+    "gzip_verified": true
+  },
+  "checks": {
+    "native_generated_views_match": "304/304",
+    "new_research_publication_failures": 0,
+    "new_broken_link_pairs": 0,
+    "focused_tests_passed": 19,
+    "historical_father_edges_match_dossiers_in_both_trees": true,
+    "all_19_findmypast_dossiers_drafts_full_compact_and_tree_vitals_verified": true,
+    "analytics": {
+      "pages": 26176,
+      "failures": []
+    },
+    "incremental_gate_proof": {
+      "prior_full_publication_boundary": "completed; only two analytics-format failures",
+      "corrected_files": [
+        "branches/family-glasgow-2600/index.html",
+        "branches/family-glasgow-635/index.html"
+      ],
+      "all_other_public_payload_hashes_unchanged": true,
+      "full_analytics_audit_passed": true,
+      "asset_versions_passed": true,
+      "unexpected_deletions": 0
+    },
+    "browser_visual_check": "Browser connection stopped; final visual recheck unavailable. File, test, HTTP and server-hash checks completed.",
+    "generated_whitespace_baseline": [
+      "www/sources/census/ireland/1851/index.html",
+      "www/sources/census/ireland/index.html",
+      "www/sources/marriages/ireland/1850-1899/index.html",
+      "www/sources/marriages/ireland/index.html"
+    ]
+  },
+  "tree_reconciliation": {
+    "node_fields_changed": {
+      "Glasgow-1620": [
+        "birthDisplay"
+      ],
+      "Glasgow-1023": [
+        "birthDisplay"
+      ],
+      "Glasgow-1449": [
+        "bornApprox",
+        "birthDisplay"
+      ],
+      "Glasgow-3347": [
+        "bornApprox",
+        "birthDisplay"
+      ],
+      "Glasgow-3401": [
+        "birthDisplay"
+      ]
+    },
+    "field_counts": {
+      "birthDisplay": 5,
+      "bornApprox": 2
+    },
+    "five_approved_birth_displays_verified": true,
+    "public_files_changed": [
+      "assets/research/atlas-boot.js",
+      "assets/research/atlas-model-packed.json",
+      "assets/research/atlas-model.json",
+      "assets/research/branches.json",
+      "branches/family-glasgow-2600/index.html",
+      "branches/family-glasgow-635/index.html",
+      "onetree/glasgow-one-tree-polished-3/index.html",
+      "onetree/glasgow-one-tree-polished-3/model.json",
+      "onetree/index.html"
+    ],
+    "files_deleted": []
+  },
+  "approved_tree_birth_displays": {
+    "Glasgow-1023": "5 November 1725",
+    "Glasgow-1449": "26 April 1787 (exact)",
+    "Glasgow-1620": "26 July 1761",
+    "Glasgow-3347": "By 8 June 1800",
+    "Glasgow-3401": "23 July 1792"
+  },
+  "reviewed_retirements": {
+    "creation_placeholders": 19,
+    "source_citations_and_surviving_profiles_preserved": true,
+    "superseded_cache_and_reader_entries_removed": 476,
+    "public_source_category_preserved": "/sources/other/scotland/1850-1899/ redirects to /sources/deaths/scotland/1850-1899/"
+  },
+  "research_limits": "The1692Daniel title identification and1851Little Fall Creek witness network are original-source findings. They do not name a new father; father assessments and new-connection counters are not inflated. Scotland’s People excluded; genealogy goal remains active."
+}
