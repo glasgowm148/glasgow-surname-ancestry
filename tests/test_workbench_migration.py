@@ -305,6 +305,26 @@ class GlasgowMigrationFixture(unittest.TestCase):
         self.assertEqual([row for i, row in enumerate(rows) if i != 1],
                          [row for i, row in enumerate(ESTIMATES["estimates"]) if i != 1])
 
+    def test_successive_reviews_keep_legacy_state_before_native_reviews(self) -> None:
+        self.migrate()
+        with open_project(self.project) as project:
+            research = Research(project.store)
+            claim = research.find_external("glasgow-assertion", "C-test-isaac-father")[0]
+            for value, day in [(85, "2026-10-25"), (90, "2026-10-26")]:
+                current = research.current_assessment(claim)
+                with project.store.write(actor="researcher", tool="genealogy assess") as tx:
+                    research.assess(tx, claim, expected_revision=current["revision"],
+                                    status="probable", grade="probable", estimate_percent=value,
+                                    estimate_kind="subjective", reasoning="Reviewed identity evidence.",
+                                    assessed_on=day)
+            assessment = workbench_legacy_views.Views(project.store).assessments()[0]
+        self.assertEqual(
+            [(row["probability_percent"], row["assessment_date"])
+             for row in assessment["assessment_history"]],
+            [(44, "2026-10-22"), (95, "2026-10-23"), (85, "2026-10-25")],
+        )
+        self.assertEqual(assessment["probability"]["value"], .9)
+
     def test_reassessment_in_the_database_flows_to_both_legacy_directions(self) -> None:
         self.migrate()
         with open_project(self.project) as project:

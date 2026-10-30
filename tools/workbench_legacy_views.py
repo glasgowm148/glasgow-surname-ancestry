@@ -162,11 +162,6 @@ class Views:
     def derived_assessment(self, revisions: list[dict[str, Any]], row: dict[str, Any]) -> dict[str, Any]:
         current = revisions[-1]
         history = list(row.get("assessment_history") or [])
-        for earlier in revisions[:-1]:
-            if self.migrated(earlier):
-                continue
-            history.append({"status": earlier["status"], "probability_percent": earlier["estimate_percent"],
-                            "assessment_date": earlier["assessed_on"], "source_basis": earlier["reasoning"]})
         previous = row.get("probability") or {}
         if row.get("status") is not None and (row.get("status") != current["status"] or (
                 isinstance(previous, dict) and previous.get("value") is not None)):
@@ -174,6 +169,14 @@ class Views:
                             "probability_percent": round(previous["value"] * 100) if isinstance(previous, dict)
                             and isinstance(previous.get("value"), (int, float)) else None,
                             "assessment_date": row.get("assessment_date"), "source_basis": row.get("basis")})
+        # The retained legacy state predates reviews made in the workbench.
+        # Appending it last reverses that sequence after a second review and
+        # turns a real earlier increase into a fictitious historical decrease.
+        for earlier in revisions[:-1]:
+            if self.migrated(earlier):
+                continue
+            history.append({"status": earlier["status"], "probability_percent": earlier["estimate_percent"],
+                            "assessment_date": earlier["assessed_on"], "source_basis": earlier["reasoning"]})
         fields: dict[str, Any] = {"status": current["status"], "assessment_date": current["assessed_on"],
                                   "basis": current["reasoning"], "assessment_history": history}
         # A reassessment is authoritative for explanatory text as well as the
