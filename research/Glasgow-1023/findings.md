@@ -2,11 +2,13 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: the maintained birth field now adopts 5 November 1725, distinct from baptism 7 November 1725. The prior structured date is preserved in assessment history; original register uninspected and all family assessments unchanged.
+
 Reviewed 23 October 2026.
 
 [Thomas Glasgow](/people/glasgow-1382.html) → [Thomas Glasgow](/people/glasgow-1023.html): 98% → **78% (probable)**. Livingston’s 2 February 1746 Davistoun baptism names Thomas Glasgow and Janet Mill; that recorded-child father clause retains 98% conditional confidence. The same Livingston setting and feasible ages for the Christian Davidson adult’s 1774–1790 children support the identification. A retained circa-1766 birth claim conflicts with fatherhood in 1774 and is not resolved by Catharine’s new parent fields. Without a direct childhood-to-adult bridge, assess the complete adult-to-Thomas-1023 placement at 78%. The displayed percentage now covers the adult household’s ancestry. Preserve the former 98% as the conditional 1746 child assessment, not as disproved evidence. The inherited 1766/1851 lifetime may be erroneous or another man; retain that discrepancy without silently changing vitals or certifying the identity. Catharine’s 97% adult-household father link is separate. Original register images uninspected.
 
-The selected fathers and existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
+The selected father assessments are retained. The 30 October review adopts the held birth day 5 November 1725, distinct from baptism 7 November; other existing vital fields are retained. Percentages are subjective assessments with the record and identity scopes stated above.
 
 **Kirkliston comparison, 17 October 2026:** [John of Kirkliston](/people/glasgow-159.html#research-update) is a possible son at 42%, dependent on his identity with the existing Mid Calder John-2980. The two John accounts may represent one man.
 
@@ -70,3 +72,11 @@ This is a first numerical review of an existing attachment, not a new father, ne
 
 - [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Thomas Glasgow, 02 Feb 1746, record SCOT/OPR/BAP/4151556](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151556&tab=this).
 - [fmp-record-scot-opr-bap-4152175](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152175&tab=this).
+
+## Findmypast pages 33–35 review — 30 October 2026
+
+Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.
+
+- [SCOT/OPR/BAP/3626888](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this) — Previously cited subject; not a new source discovery.
+
+Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.

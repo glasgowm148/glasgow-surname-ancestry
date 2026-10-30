@@ -41,3 +41,15 @@ Next useful test: Read 1743 entry and Richie marriage to establish adult couple 
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://familysearch.org/ark:/61903/1:1:VQ4R-CZB](https://familysearch.org/ark:/61903/1:1:VQ4R-CZB)
+
+## Findmypast pages 33–35 review — 30 October 2026
+
+Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Penicuik, Midlothian, Scotland. An earlier subscription-locked receipt is retained; no current transcript retry or access claim. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.
+
+Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.
+
+- [SCOT/OPR/BAP/4602371](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602371) — Search-result name/year/locality comparison only; event and relatives not assigned.
+- [R_687758516](https://www.findmypast.co.uk/transcript?id=R_687758516) — Search-result name/year/locality comparison only; event and relatives not assigned.
+- [R_686330816](https://www.findmypast.co.uk/transcript?id=R_686330816) — Search-result name/year/locality comparison only; event and relatives not assigned.
+
+Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.

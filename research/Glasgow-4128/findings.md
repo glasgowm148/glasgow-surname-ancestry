@@ -33,3 +33,12 @@ Inspect the original Irvine OPR595/1 entries for the maternal Macsmith/Nasmith r
 - [Findmypast, Scotland Parish Births & Baptisms, Irvine OPR595/1, John Glasgow, 6 August 1741, SCOT/OPR/BAP/3575071; maintained 3 September 2026 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575071&tab=this)
 - [Findmypast, Scotland Parish Births & Baptisms, Irvine OPR595/1, Allan Glasgow, 22 May 1743, SCOT/OPR/BAP/3575202; maintained 3 September 2026 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575202&tab=this)
 - [Findmypast, Scotland Parish Births & Baptisms, Irvine OPR595/1, Susanna Glasgow, 29 March 1747, SCOT/OPR/BAP/3575478; maintained 3 September 2026 transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575478&tab=this)
+
+## Findmypast pages 33–35 review — 30 October 2026
+
+Susanna Glasgow was baptised 29 March 1747 at Irvine, James Glasgow and Helen Naesmith. Exact baptism and family identify Glasgow-4128. Held OPR SCOT/OPR/BAP/3575478 separately gives birth 28 March and mother Helen Macsmith; retain Naesmith/Macsmith as derivative readings rather than silently replacing an adult maternal identity. Father Glasgow-4157 remains 98%; Nasmith-37 is not newly graded. The stale creation placeholder already has an explicit CREATED draft under Glasgow-4128 and is retired with its source history, not treated as another person. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.
+
+- [R_688621065](https://www.findmypast.co.uk/transcript?id=R_688621065&tab=this) — Matched1747child; maternal derivative spellings retained.
+- [R_685315219](https://www.findmypast.co.uk/transcript?id=R_685315219&tab=this) — Matched1747child; maternal derivative spellings retained.
+
+Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.

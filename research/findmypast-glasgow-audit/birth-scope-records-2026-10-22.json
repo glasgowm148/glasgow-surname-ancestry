@@ -456,7 +456,15 @@
       "SCOT/OPR/BUR/1691799",
       "US/BMD/PENN-BAP/00118751",
       "US/BMD/PENN-BUR/00346205",
-      "US/HSP/PENN/BAP/0026027"
+      "US/HSP/PENN/BAP/0026027",
+      "IRE/BMD/D/617444158",
+      "R_685315219",
+      "R_685341643",
+      "R_688621065",
+      "R_688636470",
+      "R_944011773",
+      "SCOT/OPR/BAP/4222434",
+      "SCOT/OPR/BAP/4478159"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -708,9 +716,14 @@
       "SCOT/OPR/BAP/4884338",
       "SCOT/OPR/BUR/1035212",
       "SCOT/OPR/BUR/1206326",
-      "US/BMD/PENN-BUR/01393539"
+      "US/BMD/PENN-BUR/01393539",
+      "US/BMD/PENN-BAP/00937946",
+      "US/BMD/PENN-BUR/00055130",
+      "US/HSP/PENN/BAP/0025918",
+      "US/HSP/PENN/BAP/0026718",
+      "US/HSP/PENN/BAP/0073210"
     ],
-    "next_query_page": 33,
+    "next_query_page": 36,
     "integration_scope": "Pages30–32:24new entries matched existing documentary subjects,11qualified comparisons,17source-only identity/natal-surname/index-artifact holds;8existing-source reuses retained.25current accounts and22preserved complete proposals synchronized; one explicit Montgomry birth correction.12duplicate READY creation placeholders retired to existing people, preserving histories. No new person, relationship or confidence change; originals uninspected; whole-provider scope INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
@@ -1410,9 +1423,22 @@
       "US/BMD/PENN-BAP/00118751",
       "US/BMD/PENN-BUR/00346205",
       "US/BMD/PENN-BUR/01393539",
-      "US/HSP/PENN/BAP/0026027"
+      "US/HSP/PENN/BAP/0026027",
+      "IRE/BMD/D/617444158",
+      "R_685315219",
+      "R_685341643",
+      "R_688621065",
+      "R_688636470",
+      "R_944011773",
+      "SCOT/OPR/BAP/4222434",
+      "SCOT/OPR/BAP/4478159",
+      "US/BMD/PENN-BAP/00937946",
+      "US/BMD/PENN-BUR/00055130",
+      "US/HSP/PENN/BAP/0025918",
+      "US/HSP/PENN/BAP/0026718",
+      "US/HSP/PENN/BAP/0073210"
     ],
-    "records_with_profile_or_draft_context": 448,
+    "records_with_profile_or_draft_context": 456,
     "remaining_coverage": [
       "Page30 onward of the1719–1799BMD query;15page29identity/scope comparisons remain unresolved despite completed indexing. Earlier windows, other categories/variants and later-life records still require coverage.",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
@@ -1420,41 +1446,27 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-pages30-32-reconciliation-20261030-verification.json",
+    "verification_report": "output/findmypast-pages33-35-reconciliation-20261030-verification.json",
     "verified_on": "2026-10-30",
-    "indexed_provider_record_count": 698,
-    "next_action": "Reconcile the13saved page33derivatives using current people,6reused receipts and retained SCOT/OPR/BAP/4360754subscription HOLD. Sarah2451 and Susanna4128 have matching parental groups; preserve the Currie Thomas1620date discrepancy and distinguish the1796Thomas from1800child3347. Review held Thomas1023birth5November versus baptism7November and stale Susanna/EdinburghThomas publication aliases. Then continue page34rows with exact-ID preflight; do not refetch saved receipts. Whole-provider scope INCOMPLETE.",
+    "indexed_provider_record_count": 711,
+    "next_action": "Finish verification and commit this batch, then one bounded provider-recovery probe for deferred SCOT/OPR/BAP/4146177, explicitly seeking unread birth/baptism/parent fields to test Glasgow-160. Preserve subscription holds4360754/4602371; no auth/subscription retry loop. If the provider still returns an error, continue held-evidence/catalogue work. Next uncaptured query page36; prioritize the36deferred detail gaps when access recovers. Reopen at most one owned tab in the existing browser/window after inventory; the prior owned tab was closed after saved provider errors. Whole scope INCOMPLETE.",
     "recent_query_transcripts": 576,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 640,
-    "capture_ledger_note": "698 literal receipts and52 explicitly enumerated supporting provider IDs are indexed:750 bounded IDs. Pages30–32 disposed60rows:52newly captured derivatives in39documentary groups and8reuses. Counts are provider IDs, not unique people or independent discoveries. 33 previously held IDs recovered in coverage accounting are not new discoveries.",
-    "capture_count_basis": "Exact indexed literal698 plus52 disjoint supporting IDs; actual public exact-provider mapping checked for every ID. Captured, indexed, matched, held and independent discoveries remain separate.",
+    "recent_query_rows_reviewed": 700,
+    "capture_ledger_note": "799 bounded indexed provider IDs =711 literal transcript receipts +52 older supporting IDs +36 search-only leads. Pages33–35 dispose60rows as13new inspected derivatives,11existing-source reuses and36search-only leads. Those36 include3observed provider error pages,31unattempted requests deferred after errors,and2prior subscription holds. Indexed IDs and disposed rows are not inspected-transcript or unique-person counts.",
+    "capture_count_basis": "Explicit disjoint cohorts: indexed_record_ids, supporting_indexed_record_ids and search_only_indexed_record_ids. Search-only leads remain in pending_detail_provider_ids; fields/secondary-role scope are incomplete.",
     "recent_query_receipt_reuses": 61,
     "recent_query_existing_index_reuses": 1,
     "recent_query_access_holds": 7,
-    "next_search_page_to_capture": 34,
-    "recent_query_rows_captured": 660,
-    "contiguous_query_rows_reviewed": 640,
-    "recent_query_detail_gaps": 0,
-    "unindexed_captured_record_ids": [
-      "R_685341643",
-      "R_688636470",
-      "US/BMD/PENN-BAP/00937946",
-      "US/HSP/PENN/BAP/0025918",
-      "US/HSP/PENN/BAP/0073210",
-      "R_944011773",
-      "US/BMD/PENN-BUR/00055130",
-      "IRE/BMD/D/617444158",
-      "R_688621065",
-      "R_685315219",
-      "US/HSP/PENN/BAP/0026718",
-      "SCOT/OPR/BAP/4222434",
-      "SCOT/OPR/BAP/4478159"
-    ],
-    "pending_transcript_matching": 13,
+    "next_search_page_to_capture": 36,
+    "recent_query_rows_captured": 700,
+    "contiguous_query_rows_reviewed": 700,
+    "recent_query_detail_gaps": 36,
+    "unindexed_captured_record_ids": [],
+    "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 52,
-    "total_indexed_reviewed_provider_ids": 750,
+    "total_indexed_reviewed_provider_ids": 799,
     "capture_review_boundary_20261025": {
       "query_rows_captured": 540,
       "query_rows_identity_reviewed": 540,
@@ -1643,7 +1655,84 @@
       "old_reviewed_indexed_ids_newly_enumerated": 29,
       "additional_already_indexed_query_reuses": 4,
       "basis": "All646literal IDs checked against current public exact-provider mapping; additional supporting IDs recovered from existing indexed review/canonical provenance and current exact-ID preflight. This is a coverage-accounting repair, not33new records or people."
-    }
+    },
+    "search_only_indexed_record_ids": [
+      "BMD/D/1871/4/AZ/000138/015",
+      "BMD/NBI/01614607",
+      "BMD/NBI/07447920",
+      "GBPRS/GLASGOW/BUR/093175",
+      "GBPRS/LOTHIAN/FHS/BUR/001369",
+      "GBPRS/SCOT/MIS/204971",
+      "GBPRS/SCOT/MIS/511333",
+      "PRS/SCOTLAND/MI/ADD/5/00542644",
+      "PRS/SCOTLAND/MI/ADD/5/00542645",
+      "PRS/SCOTLAND/MI/ADD/5/00542646",
+      "R_684962615",
+      "R_684963042",
+      "R_685840829",
+      "R_685841157",
+      "R_685969283",
+      "R_686209953",
+      "R_686210500",
+      "R_686330816",
+      "R_686574919",
+      "R_687758516",
+      "R_688329658",
+      "R_688348923",
+      "R_691906112",
+      "R_691906822",
+      "R_692406064",
+      "R_692406065",
+      "SCOT/OPR/BAP/3607887",
+      "SCOT/OPR/BAP/4122049",
+      "SCOT/OPR/BAP/4146177",
+      "SCOT/OPR/BAP/4171361",
+      "SCOT/OPR/BAP/4360754",
+      "SCOT/OPR/BAP/4476988",
+      "SCOT/OPR/BAP/4477789",
+      "SCOT/OPR/BAP/4602371",
+      "SCOT/OPR/BAP/4602994",
+      "SCOT/OPR/BUR/1292654"
+    ],
+    "search_only_records_indexed": 36,
+    "pending_detail_provider_ids": [
+      "BMD/D/1871/4/AZ/000138/015",
+      "BMD/NBI/01614607",
+      "BMD/NBI/07447920",
+      "GBPRS/GLASGOW/BUR/093175",
+      "GBPRS/LOTHIAN/FHS/BUR/001369",
+      "GBPRS/SCOT/MIS/204971",
+      "GBPRS/SCOT/MIS/511333",
+      "PRS/SCOTLAND/MI/ADD/5/00542644",
+      "PRS/SCOTLAND/MI/ADD/5/00542645",
+      "PRS/SCOTLAND/MI/ADD/5/00542646",
+      "R_684962615",
+      "R_684963042",
+      "R_685840829",
+      "R_685841157",
+      "R_685969283",
+      "R_686209953",
+      "R_686210500",
+      "R_686330816",
+      "R_686574919",
+      "R_687758516",
+      "R_688329658",
+      "R_688348923",
+      "R_691906112",
+      "R_691906822",
+      "R_692406064",
+      "R_692406065",
+      "SCOT/OPR/BAP/3607887",
+      "SCOT/OPR/BAP/4122049",
+      "SCOT/OPR/BAP/4146177",
+      "SCOT/OPR/BAP/4171361",
+      "SCOT/OPR/BAP/4360754",
+      "SCOT/OPR/BAP/4476988",
+      "SCOT/OPR/BAP/4477789",
+      "SCOT/OPR/BAP/4602371",
+      "SCOT/OPR/BAP/4602994",
+      "SCOT/OPR/BUR/1292654"
+    ]
   },
   "search_pages": [
     {
@@ -10146,7 +10235,9 @@
           "place": "Ayrshire, Scotland",
           "record_id": "R_685341643",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685341643",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "matched_existing",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10158,7 +10249,9 @@
           "place": "Ayrshire, Scotland",
           "record_id": "R_688636470",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688636470",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "matched_existing",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10170,7 +10263,9 @@
           "place": "Philadelphia, Pennsylvania, United States",
           "record_id": "US/BMD/PENN-BAP/00937946",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00937946",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "natal_surname_hold",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10182,7 +10277,9 @@
           "place": "Christ Episcopal Church, Philadelphia, Philadelphia County, Pennsylvania",
           "record_id": "US/HSP/PENN/BAP/0025918",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0025918",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "natal_surname_hold",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10194,7 +10291,9 @@
           "place": "Christ Episcopal Church, Philadelphia, Philadelphia County, Pennsylvania",
           "record_id": "US/HSP/PENN/BAP/0073210",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0073210",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "natal_surname_hold",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10206,7 +10305,9 @@
           "place": "London, England",
           "record_id": "R_944011773",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_944011773",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "candidate_comparison",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10218,7 +10319,9 @@
           "place": "Burrel Township, Kiskiminetas Township, Parks Township, Plum Creet Township, and South Bend Township, Armstrong, Pennsylvania, United States",
           "record_id": "US/BMD/PENN-BUR/00055130",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F00055130",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "natal_surname_hold",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10230,7 +10333,9 @@
           "place": "Antrim, Ireland",
           "record_id": "IRE/BMD/D/617444158",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617444158",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "candidate_comparison",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10242,7 +10347,9 @@
           "place": "Irvine, Ayrshire, Scotland",
           "record_id": "SCOT/OPR/BAP/3575478",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575478",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10254,7 +10361,9 @@
           "place": "Ayrshire, Scotland",
           "record_id": "R_688621065",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688621065",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "matched_existing",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10266,7 +10375,9 @@
           "place": "Ayrshire, Scotland",
           "record_id": "R_685315219",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685315219",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "matched_existing",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10278,7 +10389,9 @@
           "place": "Christ Episcopal Church, Philadelphia, Philadelphia County, Pennsylvania",
           "record_id": "US/HSP/PENN/BAP/0026718",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0026718",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "identity_hold",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10290,7 +10403,9 @@
           "place": "Linlithgowshire (West Lothian), Scotland",
           "record_id": "R_685856167",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685856167",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10302,7 +10417,9 @@
           "place": "Linlithgowshire (West Lothian), Scotland",
           "record_id": "R_692420988",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692420988",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10314,7 +10431,9 @@
           "place": "Kirknewton & East Calder, Midlothian, Scotland",
           "record_id": "SCOT/OPR/BAP/4478159",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478159",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "candidate_comparison",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10326,7 +10445,9 @@
           "place": "Kilwinning, Ayrshire, Scotland",
           "record_id": "SCOT/OPR/BAP/3626888",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10338,7 +10459,9 @@
           "place": "Irvine, Ayrshire, Scotland",
           "record_id": "SCOT/OPR/BAP/3575271",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575271",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10350,7 +10473,9 @@
           "place": "Edinburgh, Midlothian, Scotland",
           "record_id": "SCOT/OPR/BAP/4360754",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4360754",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10362,7 +10487,9 @@
           "place": "Edinburgh, Midlothian, Scotland",
           "record_id": "SCOT/OPR/BAP/0625636",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0625636",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
         },
         {
           "last_name": "Glasgow",
@@ -10374,10 +10501,12 @@
           "place": "Currie, Midlothian, Scotland",
           "record_id": "SCOT/OPR/BAP/4222434",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222434",
-          "transcript_reviewed": false
+          "transcript_reviewed": false,
+          "identity_review_status": "matched_existing",
+          "indexed": true
         }
       ],
-      "review_status": "13receipts_saved_6reused_1subscription_hold_identity_pending",
+      "review_status": "all20rows_disposed; search-only field gaps remain explicit",
       "captured_new_detail_rows": [
         "R_685341643",
         "R_688636470",
@@ -10401,7 +10530,600 @@
         "SCOT/OPR/BAP/3575271",
         "SCOT/OPR/BAP/0625636"
       ],
-      "remaining_detail_rows": []
+      "remaining_detail_rows": [],
+      "checkpoint_reviewed_rows": 20
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=34&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "count_receipt": "5,872 results",
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        34
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-30T11:31:11.821467+00:00",
+      "rows": [
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1761",
+          "death_year": "—",
+          "event_year": "1761",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_688348923",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688348923",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1782",
+          "death_year": "—",
+          "event_year": "1782",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "record_id": "R_684963042",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1786",
+          "death_year": "—",
+          "event_year": "1786",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Kirkliston, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "SCOT/OPR/BAP/4146177",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1787",
+          "death_year": "—",
+          "event_year": "1787",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_685840829",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685840829",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1787",
+          "death_year": "—",
+          "event_year": "1787",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_692406064",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692406064",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1787",
+          "death_year": "—",
+          "event_year": "1787",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Whitburn, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "SCOT/OPR/BAP/4171361",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1782",
+          "death_year": "1790",
+          "event_year": "1790",
+          "record_set": "Scotland Monumental Inscriptions",
+          "place": "Eccles, Berwickshire, Scotland",
+          "record_id": "PRS/SCOTLAND/MI/ADD/5/00542644",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1788",
+          "death_year": "1791",
+          "event_year": "1791",
+          "record_set": "Scotland Monumental Inscriptions",
+          "place": "Eccles, Berwickshire, Scotland",
+          "record_id": "PRS/SCOTLAND/MI/ADD/5/00542645",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4477789",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4477789",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Kirknewton & East Calder, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4476988",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476988",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_686210500",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686210500",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1796",
+          "death_year": "—",
+          "event_year": "1796",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_691906822",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691906822",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1746",
+          "death_year": "1831",
+          "event_year": "1831",
+          "record_set": "Scotland Monumental Inscriptions",
+          "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "PRS/SCOTLAND/MI/ADD/5/00542646",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1746",
+          "death_year": "1831",
+          "event_year": "1831",
+          "record_set": "Scotland Monumental Inscriptions",
+          "place": "Livingston, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "GBPRS/SCOT/MIS/511333",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1767",
+          "death_year": "1835",
+          "event_year": "1835",
+          "record_set": "National Burial Index For England & Wales",
+          "place": "Chesham, Buckinghamshire, England",
+          "record_id": "BMD/NBI/01614607",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1782",
+          "death_year": "1866",
+          "event_year": "1866",
+          "record_set": "Scotland Monumental Inscriptions",
+          "place": "Biggar, Lanarkshire, Scotland",
+          "record_id": "GBPRS/SCOT/MIS/204971",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F204971",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "Thomas",
+          "birth_year": "1790",
+          "death_year": "1871",
+          "event_year": "1871",
+          "record_set": "England & Wales Deaths 1837-2007",
+          "place": "Dartford, Kent, England",
+          "record_id": "BMD/D/1871/4/AZ/000138/015",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1783",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "record_id": "R_693243862",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693243862",
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1783",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "record_id": "R_693243863",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693243863",
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1786",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Kelso, Roxburghshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/5057434",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F5057434",
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
+        }
+      ],
+      "review_status": "all20rows_disposed; search-only field gaps remain explicit",
+      "checkpoint_reviewed_rows": 20
+    },
+    {
+      "url": "https://www.findmypast.co.uk/search/results?_page=35&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "count_receipt": "5,872 results",
+      "expected_pages_at_20_rows": 294,
+      "captured_pages": [
+        35
+      ],
+      "captured_rows": 20,
+      "captured_at": "2026-10-30T11:31:15.288258+00:00",
+      "rows": [
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1795",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Barony, Lanarkshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/0396092",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F0396092",
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1795",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "record_id": "R_693250432",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693250432",
+          "transcript_reviewed": false,
+          "identity_review_status": "existing_source_reuse; previous disposition retained",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1739",
+          "death_year": "—",
+          "event_year": "1739",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_686209953",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686209953",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1739",
+          "death_year": "—",
+          "event_year": "1739",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_691906112",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691906112",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Penicuik, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4602371",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602371",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_687758516",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_687758516",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1743",
+          "death_year": "—",
+          "event_year": "1743",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_686330816",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686330816",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1745",
+          "death_year": "—",
+          "event_year": "1754",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Penicuik, Midlothian, Scotland",
+          "record_id": "SCOT/OPR/BAP/4602994",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1757",
+          "death_year": "—",
+          "event_year": "1757",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_685841157",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685841157",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1757",
+          "death_year": "—",
+          "event_year": "1757",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Linlithgowshire (West Lothian), Scotland",
+          "record_id": "R_692406065",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692406065",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1765",
+          "death_year": "—",
+          "event_year": "1765",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Berwickshire, Scotland",
+          "record_id": "R_686574919",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686574919",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1768",
+          "death_year": "1768",
+          "event_year": "1768",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Glasgow High Church, Glasgow, Lanarkshire, Scotland",
+          "record_id": "GBPRS/GLASGOW/BUR/093175",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093175",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1784",
+          "death_year": "—",
+          "event_year": "1784",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Lanarkshire, Scotland",
+          "record_id": "R_684962615",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_684962615",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1786",
+          "death_year": "—",
+          "event_year": "1786",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_688329658",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_688329658",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1786",
+          "death_year": "—",
+          "event_year": "1786",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Midlothian, Scotland",
+          "record_id": "R_685969283",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685969283",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1792",
+          "death_year": "—",
+          "event_year": "1792",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Bathgate, Linlithgowshire (West Lothian), Scotland",
+          "record_id": "SCOT/OPR/BAP/4122049",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4122049",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1795",
+          "death_year": "—",
+          "event_year": "1795",
+          "record_set": "Scotland, Parish Births & Baptisms 1564-1929",
+          "place": "Kilmarnock, Ayrshire, Scotland",
+          "record_id": "SCOT/OPR/BAP/3607887",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3607887",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1767",
+          "death_year": "1813",
+          "event_year": "1813",
+          "record_set": "National Burial Index For England & Wales",
+          "place": "Berwick upon Tweed, Northumberland, England",
+          "record_id": "BMD/NBI/07447920",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07447920",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1750",
+          "death_year": "1822",
+          "event_year": "1822",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Currie, Midlothian",
+          "record_id": "SCOT/OPR/BUR/1292654",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1292654",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        },
+        {
+          "last_name": "Glasgow",
+          "first_name": "William",
+          "birth_year": "1750",
+          "death_year": "1822",
+          "event_year": "1822",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Currie, Midlothian, Scotland",
+          "record_id": "GBPRS/LOTHIAN/FHS/BUR/001369",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001369",
+          "transcript_reviewed": false,
+          "identity_review_status": "search_only_hold",
+          "indexed": true
+        }
+      ],
+      "review_status": "all20rows_disposed; search-only field gaps remain explicit",
+      "checkpoint_reviewed_rows": 20
     }
   ],
   "records": {
@@ -36034,9 +36756,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Sarah Glasgow in 1726 | Transcript of Sarah's record | Transcript of Sarah's record | Marriage Record | Other records featuring that name | Marriage Record",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow was baptised 20 February 1726 at Kilwinning to John Glasgow and Mary Gemmill. Exact baptism, parish and parental family match Glasgow-2451 and its held citation. No explicit birthday is supplied: retain the current estimated February birth without turning baptism into birth. The derivative now supplies literal parent names, but father Glasgow-1927 remains 73%; Gemill-4 is independently ungraded. Irvine Sarah Glasgow-4122 belongs to the separate John/Agnes Ferguson baptism. Companion derivatives are not independent witnesses. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-r-685341643",
+      "reviewed_on": "2026-10-30"
     },
     "R_688636470": {
       "provider_id": "R_688636470",
@@ -36067,9 +36791,11 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Sarah Glasgow in 1726 | Transcript of Sarah's record | Transcript of Sarah's record | Marriage Record | Other records featuring that name | Marriage Record",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow was baptised 20 February 1726 at Kilwinning to John Glasgow and Mary Gemmill. Exact baptism, parish and parental family match Glasgow-2451 and its held citation. No explicit birthday is supplied: retain the current estimated February birth without turning baptism into birth. The derivative now supplies literal parent names, but father Glasgow-1927 remains 73%; Gemill-4 is independently ungraded. Irvine Sarah Glasgow-4122 belongs to the separate John/Agnes Ferguson baptism. Companion derivatives are not independent witnesses. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-r-688636470",
+      "reviewed_on": "2026-10-30"
     },
     "US/BMD/PENN-BAP/00937946": {
       "provider_id": "US/BMD/PENN-BAP/00937946",
@@ -36104,9 +36830,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Sarah Glasgow in 1769 | Transcript of Sarah's record | Transcript of Sarah's record | What can these records tell me?",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow was baptised 11 December 1769 at Philadelphia, aged 21. Indexed birth 1748 is age-derived; this is adult baptism, not proof of an infant birthday or natal Glasgow. One institution label says Christ Church Baptist, while companions name Christ Episcopal Church; retain that denomination discrepancy. No parents or maiden surname identify her among the reviewed historical Sarah accounts. No current event assignment or new person follows from missing fields or an unsuccessful bounded match. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-us-bmd-penn-bap-00937946",
+      "reviewed_on": "2026-10-30"
     },
     "US/HSP/PENN/BAP/0025918": {
       "provider_id": "US/HSP/PENN/BAP/0025918",
@@ -36139,9 +36867,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Sarah Glasgow in 1769 | Transcript of Sarah's record | Transcript of Sarah's record | Pennsylvania, Episcopalian Births and Baptisms",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow was baptised 11 December 1769 at Philadelphia, aged 21. Indexed birth 1748 is age-derived; this is adult baptism, not proof of an infant birthday or natal Glasgow. One institution label says Christ Church Baptist, while companions name Christ Episcopal Church; retain that denomination discrepancy. No parents or maiden surname identify her among the reviewed historical Sarah accounts. No current event assignment or new person follows from missing fields or an unsuccessful bounded match. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-us-hsp-penn-bap-0025918",
+      "reviewed_on": "2026-10-30"
     },
     "US/HSP/PENN/BAP/0073210": {
       "provider_id": "US/HSP/PENN/BAP/0073210",
@@ -36174,9 +36904,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Sarah Glasgow in 1769 | Transcript of Sarah's record | Transcript of Sarah's record | Pennsylvania, Episcopalian Births and Baptisms",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow was baptised 11 December 1769 at Philadelphia, aged 21. Indexed birth 1748 is age-derived; this is adult baptism, not proof of an infant birthday or natal Glasgow. One institution label says Christ Church Baptist, while companions name Christ Episcopal Church; retain that denomination discrepancy. No parents or maiden surname identify her among the reviewed historical Sarah accounts. No current event assignment or new person follows from missing fields or an unsuccessful bounded match. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-us-hsp-penn-bap-0073210",
+      "reviewed_on": "2026-10-30"
     },
     "R_944011773": {
       "provider_id": "R_944011773",
@@ -36205,9 +36937,11 @@
         "Collections from ": "England, Great Britain"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "candidate_comparison",
       "access_note": "Sarah Glasgow in 1779 | Transcript of Sarah's record | Transcript of Sarah's record | Death Record | Death Record | Marriage Record | Marriage Record | Other records featuring that name | Death Record | Death Record | Marriage Record | Marriage Record | England births and baptisms 1538 – 1975",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow was baptised 1 March 1779 in London county, place dash, father Samuel Glasgow and mother Sarah without surname. The indexed 1779 birth is not an exact birthday. Sarah McNitt, Glasgow-2621, with estimated birth about 1780 in Pennsylvania, remains only a weak comparison; no family or migration bridge identifies her. Neither the baptism nor these parents are assigned to her, and no link to the Samuel buried in London in 1795 is inferred from the shared name. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-r-944011773",
+      "reviewed_on": "2026-10-30"
     },
     "US/BMD/PENN-BUR/00055130": {
       "provider_id": "US/BMD/PENN-BUR/00055130",
@@ -36240,9 +36974,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "natal_surname_hold",
       "access_note": "Sarah Glasgow in 1869 | Transcript of Sarah's record | Transcript of Sarah's record | What can these records tell me?",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow died 25 February 1869 aged 81, Pennsylvania, Armstrong diocese; the parish field lists Burrel, Kiskiminetas, Parks, Plum Creet and South Bend townships. Birth 1788 is age-derived. No relatives or maiden surname establish identity. Sarah Unknown-729355 has an uncertain imported 1850 death and 1789 birth; those estimates neither identify nor conclusively exclude her. No death is assigned and no new person is proposed. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-us-bmd-penn-bur-00055130",
+      "reviewed_on": "2026-10-30"
     },
     "IRE/BMD/D/617444158": {
       "provider_id": "IRE/BMD/D/617444158",
@@ -36271,9 +37007,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "candidate_comparison",
       "access_note": "Sarah Glasgow in 1872 | Transcript of Sarah's record | Transcript of Sarah's record",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sarah Glasgow, Irish civil death registration 1872 Antrim, aged 74, volume 16 page 16. This is a compatible companion comparison for Unknown-766805, whose held GRONI index gives death 8 November 1872, age 74, Antrim, D/1872/7/1001/3/156. Findmypast supplies no exact day, birthplace, relatives or birth surname. Preserve the existing date and unknown natal surname; no original death entry was newly inspected and no family relationship is added. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-ire-bmd-d-617444158",
+      "reviewed_on": "2026-10-30"
     },
     "R_688621065": {
       "provider_id": "R_688621065",
@@ -36304,9 +37042,11 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Susanna Glasgow in 1747 | Transcript of Susanna's record | Transcript of Susanna's record",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Susanna Glasgow was baptised 29 March 1747 at Irvine, James Glasgow and Helen Naesmith. Exact baptism and family identify Glasgow-4128. Held OPR SCOT/OPR/BAP/3575478 separately gives birth 28 March and mother Helen Macsmith; retain Naesmith/Macsmith as derivative readings rather than silently replacing an adult maternal identity. Father Glasgow-4157 remains 98%; Nasmith-37 is not newly graded. The stale creation placeholder already has an explicit CREATED draft under Glasgow-4128 and is retired with its source history, not treated as another person. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-r-688621065",
+      "reviewed_on": "2026-10-30"
     },
     "R_685315219": {
       "provider_id": "R_685315219",
@@ -36339,9 +37079,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Susanna Glasgow in 1747 | Transcript of Susanna's record | Transcript of Susanna's record",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Susanna Glasgow was baptised 29 March 1747 at Irvine, James Glasgow and Helen Naesmith. Exact baptism and family identify Glasgow-4128. Held OPR SCOT/OPR/BAP/3575478 separately gives birth 28 March and mother Helen Macsmith; retain Naesmith/Macsmith as derivative readings rather than silently replacing an adult maternal identity. Father Glasgow-4157 remains 98%; Nasmith-37 is not newly graded. The stale creation placeholder already has an explicit CREATED draft under Glasgow-4128 and is retired with its source history, not treated as another person. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-r-685315219",
+      "reviewed_on": "2026-10-30"
     },
     "US/HSP/PENN/BAP/0026718": {
       "provider_id": "US/HSP/PENN/BAP/0026718",
@@ -36374,9 +37116,11 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "identity_hold",
       "access_note": "Sylvia Glasgow in 1773 | Transcript of Sylvia's record | Transcript of Sylvia's record | Pennsylvania, Episcopalian Births and Baptisms",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Sylvia Glasgow was born 29 May 1772 and baptised 3 February 1773 at Christ Episcopal Church, Philadelphia. Father first name is dash, last name Glasgow; mother Diana has no surname supplied. Preserve those omissions: do not invent a father, maternal identity or social status. No current Sylvia/Silvia or Diana household identity is established, and absence of a bounded match does not justify another person. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-us-hsp-penn-bap-0026718",
+      "reviewed_on": "2026-10-30"
     },
     "SCOT/OPR/BAP/4222434": {
       "provider_id": "SCOT/OPR/BAP/4222434",
@@ -36409,9 +37153,11 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "matched_existing",
       "access_note": "Thomas Glasgow in 1761 | Transcript of Thomas's record | Transcript of Thomas's record",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match."
+      "assessment": "Thomas Glasgow was born 26 July 1761 and baptised 2 August at Currie, John Glasgow and Mary Robertson, OPR 682/2 item 2. Glasgow-1620 already has the exact 2 August baptism and couple in its held FamilySearch citation. Its partial indexed “Birth Date 8” does not establish 8 September or a guessed 8 July. The reviewed vital adoption prefers the explicit 26 July derivative birth field, retaining the former 8 September model and partial reading in history. Original register uninspected; existing parish context is retained without independently proving birthplace. Father Glasgow-1343 remains 97%; obsolete title Glasgow-1606 redirects to the same public UID and adds no kinship evidence. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "canonical_record_id": "fmp-record-scot-opr-bap-4222434",
+      "reviewed_on": "2026-10-30"
     },
     "SCOT/OPR/BAP/4478159": {
       "provider_id": "SCOT/OPR/BAP/4478159",
@@ -36446,9 +37192,9 @@
         " ": ""
       },
       "source_level": "Inspected provider derivative transcript; original record not inspected",
-      "matching_status": "pending_review",
+      "matching_status": "candidate_comparison",
       "access_note": "Thomas Glasgow | Transcript of Thomas's record | Transcript of Thomas's record | Death Record | Other records featuring that name | Death Record",
-      "assessment": "Accessible derivative saved; person and role review pending. Do not refetch or suggest a new person from a missing match.",
+      "assessment": "Thomas Glasgow was born 3 July 1796 at Clifton, Kirknewton and East Calder, father Thos Glasgow and mother Margt Chapman; OPR 690/3 item 2 page 44, baptism year dash. Existing Thomas Glasgow-1620 and the Margaret Chapman household are qualified named-parent comparisons only; the 1798 David entry has separate Mary/Margaret maternal readings. The 1796 birth entry and 8 June 1800 baptism are separate recorded events; whether they concern brothers or repeated baptism is unresolved. Retain adult identity limits and do not invent a mother or attach an unassigned child. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
       "capture_history": [
         {
           "prior_receipt": "research/findmypast-glasgow-audit/record-details-pre1701.json#/records/SCOT~1OPR~1BAP~14478159",
@@ -36456,7 +37202,9 @@
           "prior_note": "Tab 236292125 is not part of browser session 01a068ea-8bb8-7483-b6b8-3186f502f72c",
           "reason": "Old browser-session tab ownership error, not a provider restriction. One record-specific retry in current owned tab; subscription-locked SCOT/OPR/BAP/4360754 remains held."
         }
-      ]
+      ],
+      "canonical_record_id": "fmp-record-scot-opr-bap-4478159",
+      "reviewed_on": "2026-10-30"
     }
   },
   "identity_clusters": [
@@ -80168,7 +80916,7 @@
     },
     "page33_capture_20261030": {
       "reviewed_on": "2026-10-30",
-      "status": "receipts_saved_identity_and_publication_pending",
+      "status": "superseded_by_combined_pages33_35_review",
       "query_rows": 20,
       "new_literal_receipts": 13,
       "existing_source_reuses": 6,
@@ -80758,23 +81506,1082 @@
           "reinspect": null
         }
       ],
-      "pending_provider_ids": [
-        "R_685341643",
-        "R_688636470",
-        "US/BMD/PENN-BAP/00937946",
-        "US/HSP/PENN/BAP/0025918",
-        "US/HSP/PENN/BAP/0073210",
-        "R_944011773",
-        "US/BMD/PENN-BUR/00055130",
-        "IRE/BMD/D/617444158",
-        "R_688621065",
-        "R_685315219",
-        "US/HSP/PENN/BAP/0026718",
-        "SCOT/OPR/BAP/4222434",
-        "SCOT/OPR/BAP/4478159"
-      ],
+      "pending_provider_ids": [],
       "new_people": 0,
       "original_images_inspected": 0
+    },
+    "pages33_35_review_20261030": {
+      "reviewed_on": "2026-10-30",
+      "status": "locally_integrated_with_explicit_detail_and_identity_holds",
+      "newly_indexed_provider_ids": 49,
+      "newly_inspected_transcripts": 13,
+      "inspected_documentary_groups": 9,
+      "existing_source_reuses": 11,
+      "search_only_leads": [
+        {
+          "provider_id": "R_688348923",
+          "canonical_record_id": "fmp-record-r-688348923",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/0",
+          "access_disposition": "observed_provider_error_page",
+          "profiles": {
+            "Glasgow-1620": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_684963042",
+          "canonical_record_id": "fmp-record-r-684963042",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/1",
+          "access_disposition": "observed_provider_error_page",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4146177",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4146177",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/2",
+          "access_disposition": "observed_provider_error_page",
+          "profiles": {
+            "Glasgow-160": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_685840829",
+          "canonical_record_id": "fmp-record-r-685840829",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/3",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_692406064",
+          "canonical_record_id": "fmp-record-r-692406064",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/4",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4171361",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4171361",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/5",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "PRS/SCOTLAND/MI/ADD/5/00542644",
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542644",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/6",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "PRS/SCOTLAND/MI/ADD/5/00542645",
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542645",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/7",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4477789",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4477789",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/8",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4476988",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4476988",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/9",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_686210500",
+          "canonical_record_id": "fmp-record-r-686210500",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/10",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_691906822",
+          "canonical_record_id": "fmp-record-r-691906822",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/11",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "PRS/SCOTLAND/MI/ADD/5/00542646",
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542646",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/12",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-1382": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "GBPRS/SCOT/MIS/511333",
+          "canonical_record_id": "fmp-record-gbprs-scot-mis-511333",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/13",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-1382": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "BMD/NBI/01614607",
+          "canonical_record_id": "fmp-record-bmd-nbi-01614607",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/14",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "GBPRS/SCOT/MIS/204971",
+          "canonical_record_id": "fmp-record-gbprs-scot-mis-204971",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/15",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "BMD/D/1871/4/AZ/000138/015",
+          "canonical_record_id": "fmp-record-bmd-d-1871-4-az-000138-015",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/16",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_686209953",
+          "canonical_record_id": "fmp-record-r-686209953",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/2",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_691906112",
+          "canonical_record_id": "fmp-record-r-691906112",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/3",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4602371",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4602371",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/4",
+          "access_disposition": "prior_subscription_hold",
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_687758516",
+          "canonical_record_id": "fmp-record-r-687758516",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/5",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_686330816",
+          "canonical_record_id": "fmp-record-r-686330816",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/6",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4602994",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4602994",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/7",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_685841157",
+          "canonical_record_id": "fmp-record-r-685841157",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/8",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_692406065",
+          "canonical_record_id": "fmp-record-r-692406065",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/9",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_686574919",
+          "canonical_record_id": "fmp-record-r-686574919",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/10",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-1223": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "GBPRS/GLASGOW/BUR/093175",
+          "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093175",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/11",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_684962615",
+          "canonical_record_id": "fmp-record-r-684962615",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/12",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_688329658",
+          "canonical_record_id": "fmp-record-r-688329658",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/13",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "R_685969283",
+          "canonical_record_id": "fmp-record-r-685969283",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/14",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4122049",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4122049",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/15",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-3401": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/3607887",
+          "canonical_record_id": "fmp-record-scot-opr-bap-3607887",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/16",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {
+            "Glasgow-3392": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "BMD/NBI/07447920",
+          "canonical_record_id": "fmp-record-bmd-nbi-07447920",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/17",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/1292654",
+          "canonical_record_id": "fmp-record-scot-opr-bur-1292654",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/18",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "GBPRS/LOTHIAN/FHS/BUR/001369",
+          "canonical_record_id": "fmp-record-gbprs-lothian-fhs-bur-001369",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/19",
+          "access_disposition": "not_attempted_deferred_after_provider_errors",
+          "profiles": {},
+          "full_transcript_inspected": false
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4360754",
+          "canonical_record_id": "fmp-record-scot-opr-bap-4360754",
+          "source_row_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/32/rows/17",
+          "access_disposition": "prior_subscription_hold",
+          "profiles": {
+            "Glasgow-4109": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "full_transcript_inspected": false
+        }
+      ],
+      "pending_detail_provider_ids": [
+        "BMD/D/1871/4/AZ/000138/015",
+        "BMD/NBI/01614607",
+        "BMD/NBI/07447920",
+        "GBPRS/GLASGOW/BUR/093175",
+        "GBPRS/LOTHIAN/FHS/BUR/001369",
+        "GBPRS/SCOT/MIS/204971",
+        "GBPRS/SCOT/MIS/511333",
+        "PRS/SCOTLAND/MI/ADD/5/00542644",
+        "PRS/SCOTLAND/MI/ADD/5/00542645",
+        "PRS/SCOTLAND/MI/ADD/5/00542646",
+        "R_684962615",
+        "R_684963042",
+        "R_685840829",
+        "R_685841157",
+        "R_685969283",
+        "R_686209953",
+        "R_686210500",
+        "R_686330816",
+        "R_686574919",
+        "R_687758516",
+        "R_688329658",
+        "R_688348923",
+        "R_691906112",
+        "R_691906822",
+        "R_692406064",
+        "R_692406065",
+        "SCOT/OPR/BAP/3607887",
+        "SCOT/OPR/BAP/4122049",
+        "SCOT/OPR/BAP/4146177",
+        "SCOT/OPR/BAP/4171361",
+        "SCOT/OPR/BAP/4360754",
+        "SCOT/OPR/BAP/4476988",
+        "SCOT/OPR/BAP/4477789",
+        "SCOT/OPR/BAP/4602371",
+        "SCOT/OPR/BAP/4602994",
+        "SCOT/OPR/BUR/1292654"
+      ],
+      "provider_error_receipts": [
+        {
+          "provider_id": "R_688348923",
+          "requested_url": "https://www.findmypast.co.uk/transcript?id=R_688348923",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_688348923",
+          "final_url": "https://www.findmypast.co.uk/transcript?id=R_688348923",
+          "title": "500 Internal Server Error",
+          "captured_at": "2026-10-30T11:33:22.204943+00:00",
+          "access_status": "access_or_loading_hold",
+          "transcript_fields": {},
+          "source_level": "Access disposition only; no transcript captured",
+          "matching_status": "pending_review",
+          "access_note": "Well, that didn’t quite go according to plan..."
+        },
+        {
+          "provider_id": "R_684963042",
+          "requested_url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
+          "final_url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
+          "title": "500 Internal Server Error",
+          "captured_at": "2026-10-30T11:35:15.810935+00:00",
+          "access_status": "access_or_loading_hold",
+          "transcript_fields": {},
+          "source_level": "Access disposition only; no transcript captured",
+          "matching_status": "pending_review",
+          "access_note": "Well, that didn’t quite go according to plan..."
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4146177",
+          "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177",
+          "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4146177",
+          "title": "500 Internal Server Error",
+          "captured_at": "2026-10-30T11:36:54.664618+00:00",
+          "access_status": "access_or_loading_hold",
+          "transcript_fields": {},
+          "source_level": "Access disposition only; no transcript captured",
+          "matching_status": "pending_review",
+          "access_note": "Well, that didn’t quite go according to plan..."
+        }
+      ],
+      "record_dispositions": {
+        "R_685341643": {
+          "canonical_record_id": "fmp-record-r-685341643",
+          "status": "matched_existing",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-2451": {
+              "role": "Matched recorded child; adult father identity remains assessed separately"
+            }
+          },
+          "assessment": "Sarah Glasgow was baptised 20 February 1726 at Kilwinning to John Glasgow and Mary Gemmill. Exact baptism, parish and parental family match Glasgow-2451 and its held citation. No explicit birthday is supplied: retain the current estimated February birth without turning baptism into birth. The derivative now supplies literal parent names, but father Glasgow-1927 remains 73%; Gemill-4 is independently ungraded. Irvine Sarah Glasgow-4122 belongs to the separate John/Agnes Ferguson baptism. Companion derivatives are not independent witnesses. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685341643",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "R_688636470": {
+          "canonical_record_id": "fmp-record-r-688636470",
+          "status": "matched_existing",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-2451": {
+              "role": "Matched recorded child; adult father identity remains assessed separately"
+            }
+          },
+          "assessment": "Sarah Glasgow was baptised 20 February 1726 at Kilwinning to John Glasgow and Mary Gemmill. Exact baptism, parish and parental family match Glasgow-2451 and its held citation. No explicit birthday is supplied: retain the current estimated February birth without turning baptism into birth. The derivative now supplies literal parent names, but father Glasgow-1927 remains 73%; Gemill-4 is independently ungraded. Irvine Sarah Glasgow-4122 belongs to the separate John/Agnes Ferguson baptism. Companion derivatives are not independent witnesses. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688636470",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "US/BMD/PENN-BAP/00937946": {
+          "canonical_record_id": "fmp-record-us-bmd-penn-bap-00937946",
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Sarah Glasgow was baptised 11 December 1769 at Philadelphia, aged 21. Indexed birth 1748 is age-derived; this is adult baptism, not proof of an infant birthday or natal Glasgow. One institution label says Christ Church Baptist, while companions name Christ Episcopal Church; retain that denomination discrepancy. No parents or maiden surname identify her among the reviewed historical Sarah accounts. No current event assignment or new person follows from missing fields or an unsuccessful bounded match. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BAP~100937946",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "US/HSP/PENN/BAP/0025918": {
+          "canonical_record_id": "fmp-record-us-hsp-penn-bap-0025918",
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Sarah Glasgow was baptised 11 December 1769 at Philadelphia, aged 21. Indexed birth 1748 is age-derived; this is adult baptism, not proof of an infant birthday or natal Glasgow. One institution label says Christ Church Baptist, while companions name Christ Episcopal Church; retain that denomination discrepancy. No parents or maiden surname identify her among the reviewed historical Sarah accounts. No current event assignment or new person follows from missing fields or an unsuccessful bounded match. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10025918",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "US/HSP/PENN/BAP/0073210": {
+          "canonical_record_id": "fmp-record-us-hsp-penn-bap-0073210",
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Sarah Glasgow was baptised 11 December 1769 at Philadelphia, aged 21. Indexed birth 1748 is age-derived; this is adult baptism, not proof of an infant birthday or natal Glasgow. One institution label says Christ Church Baptist, while companions name Christ Episcopal Church; retain that denomination discrepancy. No parents or maiden surname identify her among the reviewed historical Sarah accounts. No current event assignment or new person follows from missing fields or an unsuccessful bounded match. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10073210",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "R_944011773": {
+          "canonical_record_id": "fmp-record-r-944011773",
+          "status": "candidate_comparison",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-2621": {
+              "role": "Candidate comparison: Weak Sarah McNitt comparison only; London baptism and parents not assigned"
+            }
+          },
+          "assessment": "Sarah Glasgow was baptised 1 March 1779 in London county, place dash, father Samuel Glasgow and mother Sarah without surname. The indexed 1779 birth is not an exact birthday. Sarah McNitt, Glasgow-2621, with estimated birth about 1780 in Pennsylvania, remains only a weak comparison; no family or migration bridge identifies her. Neither the baptism nor these parents are assigned to her, and no link to the Samuel buried in London in 1795 is inferred from the shared name. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_944011773",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "US/BMD/PENN-BUR/00055130": {
+          "canonical_record_id": "fmp-record-us-bmd-penn-bur-00055130",
+          "status": "natal_surname_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Sarah Glasgow died 25 February 1869 aged 81, Pennsylvania, Armstrong diocese; the parish field lists Burrel, Kiskiminetas, Parks, Plum Creet and South Bend townships. Birth 1788 is age-derived. No relatives or maiden surname establish identity. Sarah Unknown-729355 has an uncertain imported 1850 death and 1789 birth; those estimates neither identify nor conclusively exclude her. No death is assigned and no new person is proposed. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BUR~100055130",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "IRE/BMD/D/617444158": {
+          "canonical_record_id": "fmp-record-ire-bmd-d-617444158",
+          "status": "candidate_comparison",
+          "indexed": true,
+          "profiles": {
+            "Unknown-766805": {
+              "role": "Candidate comparison: Compatible held Antrim death-index comparison; natal surname unknown"
+            }
+          },
+          "assessment": "Sarah Glasgow, Irish civil death registration 1872 Antrim, aged 74, volume 16 page 16. This is a compatible companion comparison for Unknown-766805, whose held GRONI index gives death 8 November 1872, age 74, Antrim, D/1872/7/1001/3/156. Findmypast supplies no exact day, birthplace, relatives or birth surname. Preserve the existing date and unknown natal surname; no original death entry was newly inspected and no family relationship is added. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1617444158",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "R_688621065": {
+          "canonical_record_id": "fmp-record-r-688621065",
+          "status": "matched_existing",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-4128": {
+              "role": "Matched1747child; maternal derivative spellings retained"
+            }
+          },
+          "assessment": "Susanna Glasgow was baptised 29 March 1747 at Irvine, James Glasgow and Helen Naesmith. Exact baptism and family identify Glasgow-4128. Held OPR SCOT/OPR/BAP/3575478 separately gives birth 28 March and mother Helen Macsmith; retain Naesmith/Macsmith as derivative readings rather than silently replacing an adult maternal identity. Father Glasgow-4157 remains 98%; Nasmith-37 is not newly graded. The stale creation placeholder already has an explicit CREATED draft under Glasgow-4128 and is retired with its source history, not treated as another person. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688621065",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "R_685315219": {
+          "canonical_record_id": "fmp-record-r-685315219",
+          "status": "matched_existing",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-4128": {
+              "role": "Matched1747child; maternal derivative spellings retained"
+            }
+          },
+          "assessment": "Susanna Glasgow was baptised 29 March 1747 at Irvine, James Glasgow and Helen Naesmith. Exact baptism and family identify Glasgow-4128. Held OPR SCOT/OPR/BAP/3575478 separately gives birth 28 March and mother Helen Macsmith; retain Naesmith/Macsmith as derivative readings rather than silently replacing an adult maternal identity. Father Glasgow-4157 remains 98%; Nasmith-37 is not newly graded. The stale creation placeholder already has an explicit CREATED draft under Glasgow-4128 and is retired with its source history, not treated as another person. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685315219",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "US/HSP/PENN/BAP/0026718": {
+          "canonical_record_id": "fmp-record-us-hsp-penn-bap-0026718",
+          "status": "identity_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Sylvia Glasgow was born 29 May 1772 and baptised 3 February 1773 at Christ Episcopal Church, Philadelphia. Father first name is dash, last name Glasgow; mother Diana has no surname supplied. Preserve those omissions: do not invent a father, maternal identity or social status. No current Sylvia/Silvia or Diana household identity is established, and absence of a bounded match does not justify another person. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10026718",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4222434": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4222434",
+          "status": "matched_existing",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1620": {
+              "role": "Matched2August1761baptism child; explicit birth adoption proposed"
+            }
+          },
+          "assessment": "Thomas Glasgow was born 26 July 1761 and baptised 2 August at Currie, John Glasgow and Mary Robertson, OPR 682/2 item 2. Glasgow-1620 already has the exact 2 August baptism and couple in its held FamilySearch citation. Its partial indexed “Birth Date 8” does not establish 8 September or a guessed 8 July. The reviewed vital adoption prefers the explicit 26 July derivative birth field, retaining the former 8 September model and partial reading in history. Original register uninspected; existing parish context is retained without independently proving birthplace. Father Glasgow-1343 remains 97%; obsolete title Glasgow-1606 redirects to the same public UID and adds no kinship evidence. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14222434",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4478159": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4478159",
+          "status": "candidate_comparison",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1620": {
+              "role": "Candidate comparison: Qualified named-father household comparison; not the child"
+            },
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Thomas Glasgow was born 3 July 1796 at Clifton, Kirknewton and East Calder, father Thos Glasgow and mother Margt Chapman; OPR 690/3 item 2 page 44, baptism year dash. Existing Thomas Glasgow-1620 and the Margaret Chapman household are qualified named-parent comparisons only; the 1798 David entry has separate Mary/Margaret maternal readings. The 1796 birth entry and 8 June 1800 baptism are separate recorded events; whether they concern brothers or repeated baptism is unresolved. Retain adult identity limits and do not invent a mother or attach an unassigned child. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14478159",
+          "full_transcript_inspected": true,
+          "new_person_proposed": false
+        },
+        "R_688348923": {
+          "canonical_record_id": "fmp-record-r-688348923",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1620": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1761, death —, event year 1761, location Midlothian, Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/0",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_684963042": {
+          "canonical_record_id": "fmp-record-r-684963042",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death —, event year 1782, location Lanarkshire, Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/1",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4146177": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4146177",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-160": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1786, death —, event year 1786, location Kirkliston, Linlithgowshire (West Lothian), Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/2",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_685840829": {
+          "canonical_record_id": "fmp-record-r-685840829",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/3",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_692406064": {
+          "canonical_record_id": "fmp-record-r-692406064",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/4",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4171361": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4171361",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1787, death —, event year 1787, location Whitburn, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/5",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "PRS/SCOTLAND/MI/ADD/5/00542644": {
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542644",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death 1790, event year 1790, location Eccles, Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/6",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "PRS/SCOTLAND/MI/ADD/5/00542645": {
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542645",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1788, death 1791, event year 1791, location Eccles, Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/7",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4477789": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4477789",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Kirknewton & East Calder, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/8",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4476988": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4476988",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Kirknewton & East Calder, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/9",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_686210500": {
+          "canonical_record_id": "fmp-record-r-686210500",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/10",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_691906822": {
+          "canonical_record_id": "fmp-record-r-691906822",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-3347": {
+              "role": "Candidate identity of the 1796 child; a baptism-derived 1800 birthday does not exclude earlier birth; event and parents not reassigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1796, death —, event year 1796, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed. The current Glasgow-3347 birthday was derived from baptism on 8 June 1800. The revised birth bound leaves the 1796 child as a compatible candidate; no identity, family link or early death is inferred.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/11",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "PRS/SCOTLAND/MI/ADD/5/00542646": {
+          "canonical_record_id": "fmp-record-prs-scotland-mi-add-5-00542646",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1382": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1746, death 1831, event year 1831, location Livingston, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/12",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "GBPRS/SCOT/MIS/511333": {
+          "canonical_record_id": "fmp-record-gbprs-scot-mis-511333",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1382": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1746, death 1831, event year 1831, location Livingston, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/13",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "BMD/NBI/01614607": {
+          "canonical_record_id": "fmp-record-bmd-nbi-01614607",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1767, death 1835, event year 1835, location Chesham, Buckinghamshire, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/14",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "GBPRS/SCOT/MIS/204971": {
+          "canonical_record_id": "fmp-record-gbprs-scot-mis-204971",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1782, death 1866, event year 1866, location Biggar, Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/15",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "BMD/D/1871/4/AZ/000138/015": {
+          "canonical_record_id": "fmp-record-bmd-d-1871-4-az-000138-015",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1790, death 1871, event year 1871, location Dartford, Kent, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/33/rows/16",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_686209953": {
+          "canonical_record_id": "fmp-record-r-686209953",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1739, death —, event year 1739, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/2",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_691906112": {
+          "canonical_record_id": "fmp-record-r-691906112",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1739, death —, event year 1739, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/3",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4602371": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4602371",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Penicuik, Midlothian, Scotland. An earlier subscription-locked receipt is retained; no current transcript retry or access claim. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/4",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_687758516": {
+          "canonical_record_id": "fmp-record-r-687758516",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/5",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_686330816": {
+          "canonical_record_id": "fmp-record-r-686330816",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1430": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1743, death —, event year 1743, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/6",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4602994": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4602994",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1745, death —, event year 1754, location Penicuik, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/7",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_685841157": {
+          "canonical_record_id": "fmp-record-r-685841157",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1757, death —, event year 1757, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/8",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_692406065": {
+          "canonical_record_id": "fmp-record-r-692406065",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1757, death —, event year 1757, location Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/9",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_686574919": {
+          "canonical_record_id": "fmp-record-r-686574919",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-1223": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1765, death —, event year 1765, location Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/10",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "GBPRS/GLASGOW/BUR/093175": {
+          "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093175",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1768, death 1768, event year 1768, location Glasgow High Church, Glasgow, Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/11",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_684962615": {
+          "canonical_record_id": "fmp-record-r-684962615",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1784, death —, event year 1784, location Lanarkshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/12",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_688329658": {
+          "canonical_record_id": "fmp-record-r-688329658",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1786, death —, event year 1786, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/13",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "R_685969283": {
+          "canonical_record_id": "fmp-record-r-685969283",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1786, death —, event year 1786, location Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/14",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4122049": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4122049",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-3401": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1792, death —, event year 1792, location Bathgate, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/15",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/3607887": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-3607887",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-3392": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1795, death —, event year 1795, location Kilmarnock, Ayrshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/16",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "BMD/NBI/07447920": {
+          "canonical_record_id": "fmp-record-bmd-nbi-07447920",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1767, death 1813, event year 1813, location Berwick upon Tweed, Northumberland, England. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/17",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BUR/1292654": {
+          "canonical_record_id": "fmp-record-scot-opr-bur-1292654",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1750, death 1822, event year 1822, location Currie, Midlothian. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/18",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "GBPRS/LOTHIAN/FHS/BUR/001369": {
+          "canonical_record_id": "fmp-record-gbprs-lothian-fhs-bur-001369",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {},
+          "assessment": "Search-result lead only. The observed row names William Glasgow, indexed birth 1750, death 1822, event year 1822, location Currie, Midlothian, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. No existing identity is established and no new person is proposed. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/34/rows/19",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        },
+        "SCOT/OPR/BAP/4360754": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4360754",
+          "status": "search_only_hold",
+          "indexed": true,
+          "profiles": {
+            "Glasgow-4109": {
+              "role": "Candidate comparison: Search-result name/year/locality comparison only; event and relatives not assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1749, death —, event year 1749, location Edinburgh, Midlothian, Scotland. An earlier subscription-locked receipt is retained; no current transcript retry or access claim. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.",
+          "source_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/search_pages/32/rows/17",
+          "full_transcript_inspected": false,
+          "new_person_proposed": false
+        }
+      },
+      "new_people": 0,
+      "relationship_changes": [],
+      "vital_changes": [
+        "Glasgow-1620 explicitbirth26July1761",
+        "Glasgow-1023 heldbirth5November1725",
+        "Glasgow-3347 birthboundedbybaptism8June1800"
+      ],
+      "duplicate_creation_cases_retired": [
+        "record-fmp-glasgow-aedca3d838c1",
+        "record-fmp-glasgow-5333ccc1e75f",
+        "record-fmp-glasgow-37b7f7e8fed2",
+        "record-fmp-glasgow-c487f88da30e",
+        "record-fmp-glasgow-120b52e4bd76",
+        "record-fmp-glasgow-10ad472195e9",
+        "record-fmp-glasgow-12395e3a9d9b"
+      ],
+      "verification_report": "output/findmypast-pages33-35-reconciliation-20261030-verification.json",
+      "publication_verified": true
     }
   }
 }

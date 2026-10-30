@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [Thomas Glasgow (Glasgow-4109)](https://www.wikitree.com/wiki/Glasgow-4109). The record-only publication placeholder is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-37b7f7e8fed2 -->
 > **CREATED:** [Thomas Glasgow (Glasgow-4109)](https://www.wikitree.com/wiki/Glasgow-4109)
 

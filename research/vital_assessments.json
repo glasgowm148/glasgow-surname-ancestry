@@ -2106,6 +2106,153 @@
           "basis": "Inherited birth was the baptism day; the derivative supplies separate explicit birth and baptism dates."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-pages33-35-glasgow-1023-birth-20261030",
+      "subject": "Glasgow-1023",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.",
+      "source": {
+        "url": "/people/glasgow-1023.json",
+        "section": "Findmypast pages 33–35 review"
+      },
+      "summary": "Adopt explicit birth 5 November 1725, distinct from baptism; preserve previous field and source interpretation.",
+      "vitals": {
+        "birth": {
+          "date": "1725-11-05",
+          "display_date": "5 November 1725",
+          "place": "Kilwinning, Ayrshire, Scotland",
+          "status": "exact",
+          "country": "Scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this",
+          "source_level": "Inspected provider derivative; original register uninspected",
+          "note": "Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.",
+          "qualifier": "Explicit birth label; existing place retained as parish context, not independently proved birthplace."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1725-11-05",
+        "birth_year": 1725,
+        "field_statuses": {
+          "birth": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "held-e-3dac402a24f9"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "1725-11-07",
+            "place": "Kilwinning, Ayrshire, Scotland",
+            "status": "exact"
+          },
+          "basis": "Prior maintained field superseded by an explicit recorded birth, separately retaining baptism and all older source/date readings."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-pages33-35-glasgow-1620-birth-20261030",
+      "subject": "Glasgow-1620",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "Thomas Glasgow was born 26 July 1761 and baptised 2 August at Currie, John Glasgow and Mary Robertson, OPR 682/2 item 2. Glasgow-1620 already has the exact 2 August baptism and couple in its held FamilySearch citation. Its partial indexed “Birth Date 8” does not establish 8 September or a guessed 8 July. The reviewed vital adoption prefers the explicit 26 July derivative birth field, retaining the former 8 September model and partial reading in history. Original register uninspected; existing parish context is retained without independently proving birthplace. Father Glasgow-1343 remains 97%; obsolete title Glasgow-1606 redirects to the same public UID and adds no kinship evidence. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+      "source": {
+        "url": "/people/glasgow-1620.json",
+        "section": "Findmypast pages 33–35 review"
+      },
+      "summary": "Adopt explicit birth 26 July 1761, distinct from baptism; preserve previous field and source interpretation.",
+      "vitals": {
+        "birth": {
+          "date": "1761-07-26",
+          "display_date": "26 July 1761",
+          "place": "Currie by Edinburgh, Midlothian, Scotland",
+          "status": "exact",
+          "country": "Scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222434&tab=this",
+          "source_level": "Inspected provider derivative; original register uninspected",
+          "note": "Thomas Glasgow was born 26 July 1761 and baptised 2 August at Currie, John Glasgow and Mary Robertson, OPR 682/2 item 2. Glasgow-1620 already has the exact 2 August baptism and couple in its held FamilySearch citation. Its partial indexed “Birth Date 8” does not establish 8 September or a guessed 8 July. The reviewed vital adoption prefers the explicit 26 July derivative birth field, retaining the former 8 September model and partial reading in history. Original register uninspected; existing parish context is retained without independently proving birthplace. Father Glasgow-1343 remains 97%; obsolete title Glasgow-1606 redirects to the same public UID and adds no kinship evidence. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "qualifier": "Explicit birth label; existing place retained as parish context, not independently proved birthplace."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1761-07-26",
+        "birth_year": 1761,
+        "field_statuses": {
+          "birth": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4222434"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "1761-09-08",
+            "place": "Currie by Edinburgh, Midlothian, Scotland",
+            "status": "exact"
+          },
+          "basis": "Prior maintained field superseded by an explicit recorded birth, separately retaining baptism and all older source/date readings."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-pages33-35-glasgow-3347-birth-bound-20261030",
+      "subject": "Glasgow-3347",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "The held FamilySearch citation labels 8 June 1800 as christening, not an explicit birthday. Replace the inherited exact birth with the inclusive upper bound by 8 June 1800, encoded as before 9 June. This includes a possible same-day birth; 9 June is an exclusive boundary, not a claimed birthday. The 1796 Thomas to the same named parental couple remains a possible identity: two baptism entries alone do not establish brothers or an early death. Retain parent assessments, the older birth claim and both source events; no merge or new person. Original register uninspected.",
+      "source": {
+        "url": "/people/glasgow-3347.json",
+        "section": "Birth bound and 1796 identity comparison"
+      },
+      "summary": "Birth by 8 June 1800, the held baptism day; exact birthday and distinction from the 1796 child remain unresolved.",
+      "vitals": {
+        "birth": {
+          "date": "before 1800-06-09",
+          "display_date": "By 8 June 1800",
+          "place": "Kirknewton and East Calder, Midlothian, Scotland",
+          "status": "uncertain",
+          "country": "Scotland",
+          "source_url": "https://familysearch.org/ark:/61903/1:1:VQ4K-TVX",
+          "source_level": "Previously held FamilySearch abstract citation; original register uninspected",
+          "note": "The held FamilySearch citation labels 8 June 1800 as christening, not an explicit birthday. Replace the inherited exact birth with the inclusive upper bound by 8 June 1800, encoded as before 9 June. This includes a possible same-day birth; 9 June is an exclusive boundary, not a claimed birthday. The 1796 Thomas to the same named parental couple remains a possible identity: two baptism entries alone do not establish brothers or an early death. Retain parent assessments, the older birth claim and both source events; no merge or new person. Original register uninspected.",
+          "qualifier": "Inclusive bound from baptism; not a recorded birthday or proof of birth after 1799."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "before 1800-06-09",
+        "birth_year": 1800,
+        "field_statuses": {
+          "birth": "before"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "held-e-0e013e8f13b9"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "1800-06-08",
+            "place": "Kirknewton and East Calder, Midlothian, Scotland",
+            "status": "exact"
+          },
+          "basis": "The exact imported birthday was a baptism day. A bounded birth does not concretely exclude the 1796 child; the earlier claim is retained here."
+        }
+      ]
     }
   ]
 }

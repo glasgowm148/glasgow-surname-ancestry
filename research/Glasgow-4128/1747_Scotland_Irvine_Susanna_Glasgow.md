@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [Susanna Glasgow (Glasgow-4128)](https://www.wikitree.com/wiki/Glasgow-4128). The record-only publication placeholder is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-c487f88da30e -->
 > **CREATED:** [Susanna Glasgow (Glasgow-4128)](https://www.wikitree.com/wiki/Glasgow-4128)
 

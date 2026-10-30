@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [Magdalen Glasgow (Glasgow-4103)](https://www.wikitree.com/wiki/Glasgow-4103). The record-only publication placeholder is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-10ad472195e9 -->
 > **CREATED:** [Magdalen Glasgow (Glasgow-4103)](https://www.wikitree.com/wiki/Glasgow-4103)
 

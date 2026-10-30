@@ -134,6 +134,83 @@
       "person_name_found": true,
       "identity_route_found": true,
       "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-aedca3d838c1",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-aedca3d838c1.html",
+      "checked_at": "2026-10-30T11:38:17.229097+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-aedca3d838c1.html",
+      "body_sha256": "2df0d0b9e1bb6422a86e18abdceb70ca4bee46dd7144a9c6d7d774371e84469d",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-5333ccc1e75f",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-5333ccc1e75f.html",
+      "checked_at": "2026-10-30T11:38:17.231356+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-5333ccc1e75f.html",
+      "body_sha256": "c2a036391a83aa512edcd9b3d8afbeacaa2f815e47a3a3c10849b25c395ebc9a",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-37b7f7e8fed2",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-37b7f7e8fed2.html",
+      "checked_at": "2026-10-30T11:38:17.231570+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-37b7f7e8fed2.html",
+      "body_sha256": "4d3415187c171be147008cc7c0090669cdd4bdabaee347bc29b4a52ed690ec6d",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-c487f88da30e",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-c487f88da30e.html",
+      "checked_at": "2026-10-30T11:38:17.505358+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-c487f88da30e.html",
+      "body_sha256": "156e62546c4a4aa22dd905d57c603a14d0e4f09a65ddc85271e603928f9999dc",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-120b52e4bd76",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-120b52e4bd76.html",
+      "checked_at": "2026-10-30T11:38:17.510323+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-120b52e4bd76.html",
+      "body_sha256": "f6ae0e459e5ad72f03a50ad420868bf64e5687bc25c13001b3958520874c769d",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-10ad472195e9",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-10ad472195e9.html",
+      "checked_at": "2026-10-30T11:38:17.520811+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-10ad472195e9.html",
+      "body_sha256": "9c19a686d636314d255735b8f0bbaa0215cf2cd0e631209588c126c7cb2c7ad7",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-12395e3a9d9b",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-12395e3a9d9b.html",
+      "checked_at": "2026-10-30T11:38:17.708233+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-12395e3a9d9b.html",
+      "body_sha256": "1c9d4c78302766ce396498bb63fc96f6b47e7f4fd78a21ef839b68de25ef099a",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
     }
   ],
   "cases": [
@@ -1056,6 +1133,370 @@
         }
       ],
       "preserved_parents_sha256": "63d04cc8bed1f5ef195fe0aaf71e7b19be378a33626132022202914609944784"
+    },
+    {
+      "old": "record-fmp-glasgow-aedca3d838c1",
+      "profile_id": "Glasgow-4123",
+      "path": "research/Glasgow-4123/1712_Scotland_Walston_Agnes_Glasgow.md",
+      "current_name": "Agnes Glasgow",
+      "old_birth": {
+        "date": "c. 1712 (estimated)",
+        "place": "Walston, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1712-02-17",
+        "place": "Walston, Lanarkshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/4100126"
+      ],
+      "status": null,
+      "old_name": "Agnes Glasgow",
+      "retired_catalogue_id": "record-fmp-glasgow-aedca3d838c1",
+      "canonical_profile_id": "Glasgow-4123",
+      "evidence_note": "Explicit CREATED draft and exact retained Findmypast provider ID SCOT/OPR/BAP/4100126 identify this publication placeholder as existing Glasgow-4123. Preserve the historical source account and current vital/relationship assessments; no new person or authoritative-person merge.",
+      "historical_draft_sha256_before": "2337fdd9b9915ddfa1ff1914ab016944fca6a0fe1c7ebae62f96f4f4c2b2cde0",
+      "old_placeholder_json_sha256": "a31ed3696d595bdda392104fdd74cf43659d02cbe6351a6cca86d495f3375315",
+      "previous_register_rows": [
+        "| Agnes Glasgow | OPEN | Add 17 Feb 1712 Findmypast evidence (fmp-glasgow-aedca 3 d 838 c 1); READY | [Draft](research/Glasgow-4123/1712_Scotland_Walston_Agnes_Glasgow.md) |"
+      ],
+      "previous_ready_decision": "No row in the 1650–1750 integration override list; explicit CREATED draft and exact source identity establish the older publication case.",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1712-02-17",
+          "place": "Walston, Lanarkshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4175",
+          "probability": 0.95,
+          "assertion_id": "C-850523b509f1"
+        }
+      ],
+      "authoritative_external_alias_id": "xid-37047c0b808ba15e"
+    },
+    {
+      "old": "record-fmp-glasgow-5333ccc1e75f",
+      "profile_id": "Glasgow-4112",
+      "path": "research/Glasgow-4112/1703_Scotland_Irvine_Janet_Glasgow.md",
+      "current_name": "Janet Glasgow",
+      "old_birth": {
+        "date": "c. 1703 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1703-08-14",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3572579"
+      ],
+      "status": null,
+      "old_name": "Janet Glasgow",
+      "retired_catalogue_id": "record-fmp-glasgow-5333ccc1e75f",
+      "canonical_profile_id": "Glasgow-4112",
+      "evidence_note": "Explicit CREATED draft and exact retained Findmypast provider ID SCOT/OPR/BAP/3572579 identify this publication placeholder as existing Glasgow-4112. Preserve the historical source account and current vital/relationship assessments; no new person or authoritative-person merge.",
+      "historical_draft_sha256_before": "a89faddf2a6b109fca7fedf31d2b33c76274f76edc2d64c97c7e5732fd28b186",
+      "old_placeholder_json_sha256": "3fb00f39c827668e4734d0106b05fc8802a6c0fb644a68b7aebf492d932a4b85",
+      "previous_register_rows": [
+        "| Janet Glasgow | OPEN | Add 14 Aug 1703 Findmypast evidence (fmp-glasgow-5333 ccc 1 e 75 f); READY | [Draft](research/Glasgow-4112/1703_Scotland_Irvine_Janet_Glasgow.md) |"
+      ],
+      "previous_ready_decision": "No row in the 1650–1750 integration override list; explicit CREATED draft and exact source identity establish the older publication case.",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1703-08-14",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-2475",
+          "probability": 0.99,
+          "assertion_id": "C-coverage-20261022f-glasgow-4112-father"
+        },
+        {
+          "id": "Kyle-2471",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "authoritative_external_alias_id": "xid-db34917f97408d01"
+    },
+    {
+      "old": "record-fmp-glasgow-37b7f7e8fed2",
+      "profile_id": "Glasgow-4109",
+      "path": "research/Glasgow-4109/1749_Scotland_Edinburgh_Thomas_Glasgow.md",
+      "current_name": "Thomas Glasgow",
+      "old_birth": {
+        "date": "c. 1749 (estimated)",
+        "place": "Edinburgh, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "1749-01-12",
+        "place": "Edinburgh, Midlothian, Scotland",
+        "status": "exact"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/0625636"
+      ],
+      "status": null,
+      "old_name": "Thomas Glasgow",
+      "retired_catalogue_id": "record-fmp-glasgow-37b7f7e8fed2",
+      "canonical_profile_id": "Glasgow-4109",
+      "evidence_note": "Explicit CREATED draft and exact retained Findmypast provider ID SCOT/OPR/BAP/0625636 identify this publication placeholder as existing Glasgow-4109. Preserve the historical source account and current vital/relationship assessments; no new person or authoritative-person merge.",
+      "historical_draft_sha256_before": "6ee9ca03e5dd5dbeddecb22108cf008728df0814cd67a5bc57f2e1c10085db8f",
+      "old_placeholder_json_sha256": "73a2daf889ba527821fc8d2615dd07ed2d358487af795276cef46135806b15d9",
+      "previous_register_rows": [
+        "| Thomas Glasgow | OPEN | Add 09 Feb 1749 Findmypast evidence (fmp-glasgow-37 b 7 f 7 e 8 fed 2); READY | [Draft](research/Glasgow-4109/1749_Scotland_Edinburgh_Thomas_Glasgow.md) |"
+      ],
+      "previous_ready_decision": "No row in the 1650–1750 integration override list; explicit CREATED draft and exact source identity establish the older publication case.",
+      "current_vitals": {
+        "birth": {
+          "date": "1749-01-12",
+          "place": "Edinburgh, Midlothian, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-3582",
+          "probability": 0.99,
+          "assertion_id": "C-coverage-20261022g-glasgow-4109-father"
+        },
+        {
+          "id": "Morrison-24595",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "authoritative_external_alias_id": "xid-40a5ab5c70900ce9"
+    },
+    {
+      "old": "record-fmp-glasgow-c487f88da30e",
+      "profile_id": "Glasgow-4128",
+      "path": "research/Glasgow-4128/1747_Scotland_Irvine_Susanna_Glasgow.md",
+      "current_name": "Susanna Glasgow",
+      "old_birth": {
+        "date": "c. 1747 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "1747-03-28",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "exact"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3575478"
+      ],
+      "status": null,
+      "old_name": "Susanna Glasgow",
+      "retired_catalogue_id": "record-fmp-glasgow-c487f88da30e",
+      "canonical_profile_id": "Glasgow-4128",
+      "evidence_note": "Explicit CREATED draft and exact retained Findmypast provider ID SCOT/OPR/BAP/3575478 identify this publication placeholder as existing Glasgow-4128. Preserve the historical source account and current vital/relationship assessments; no new person or authoritative-person merge.",
+      "historical_draft_sha256_before": "d2f2c6aed818a7f0c533bdef3246ae4183851cdec089a2965b04545f04a34648",
+      "old_placeholder_json_sha256": "5070c80cc16430a137f90be3a4d20cffed6da11c1cb237869b38b661ca24d1b1",
+      "previous_register_rows": [
+        "| Susanna Glasgow | OPEN | Add 29 Mar 1747 Findmypast evidence (fmp-glasgow-c 487 f 88 da 30 e); READY | [Draft](research/Glasgow-4128/1747_Scotland_Irvine_Susanna_Glasgow.md) |"
+      ],
+      "previous_ready_decision": "No row in the 1650–1750 integration override list; explicit CREATED draft and exact source identity establish the older publication case.",
+      "current_vitals": {
+        "birth": {
+          "date": "1747-03-28",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4157",
+          "probability": 0.98,
+          "assertion_id": "C-role-20261018-irvine-susanna-father"
+        },
+        {
+          "id": "Nasmith-37",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "authoritative_external_alias_id": "xid-5f5ed92e0e12b6cb"
+    },
+    {
+      "old": "record-fmp-glasgow-120b52e4bd76",
+      "profile_id": "Glasgow-4104",
+      "path": "research/Glasgow-4104/1742_Scotland_Kilmarnock_Hugh_Glasgow.md",
+      "current_name": "Hugh Glasgow",
+      "old_birth": {
+        "date": "c. 1742 (estimated)",
+        "place": "Kilmarnock, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "1742-08-16",
+        "place": "Kilmarnock, Ayrshire, Scotland",
+        "status": "exact"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3600403"
+      ],
+      "status": null,
+      "old_name": "Hugh Glasgow",
+      "retired_catalogue_id": "record-fmp-glasgow-120b52e4bd76",
+      "canonical_profile_id": "Glasgow-4104",
+      "evidence_note": "Explicit CREATED draft and exact retained Findmypast provider ID SCOT/OPR/BAP/3600403 identify this publication placeholder as existing Glasgow-4104. Preserve the historical source account and current vital/relationship assessments; no new person or authoritative-person merge.",
+      "historical_draft_sha256_before": "2052d450bc214e73abb14eceac57a43e18c2568aa84389f3280e505ea8334229",
+      "old_placeholder_json_sha256": "d314cdec56e9a6ad0972b69bfcaadebbfe4738b4db6589ea3e033f30e7d6af9f",
+      "previous_register_rows": [
+        "| Hugh Glasgow | OPEN | Add 29 Aug 1742 Findmypast evidence (fmp-glasgow-120 b 52 e 4 bd 76); READY | [Draft](research/Glasgow-4104/1742_Scotland_Kilmarnock_Hugh_Glasgow.md) |"
+      ],
+      "previous_ready_decision": "No row in the 1650–1750 integration override list; explicit CREATED draft and exact source identity establish the older publication case.",
+      "current_vitals": {
+        "birth": {
+          "date": "1742-08-16",
+          "place": "Kilmarnock, Ayrshire, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-1929",
+          "probability": 0.99,
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4104-father"
+        },
+        {
+          "id": "McEachin-120",
+          "probability": 0.98,
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4104-mother"
+        }
+      ],
+      "authoritative_external_alias_id": "xid-c46f5a65fe8a8169"
+    },
+    {
+      "old": "record-fmp-glasgow-10ad472195e9",
+      "profile_id": "Glasgow-4103",
+      "path": "research/Glasgow-4103/1743_Scotland_Irvine_Magdalen_Glasgow.md",
+      "current_name": "Magdalen Glasgow",
+      "old_birth": {
+        "date": "c. 1743 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "1743-03-22",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "exact"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3575189"
+      ],
+      "status": null,
+      "old_name": "Magdalen Glasgow",
+      "retired_catalogue_id": "record-fmp-glasgow-10ad472195e9",
+      "canonical_profile_id": "Glasgow-4103",
+      "evidence_note": "Explicit CREATED draft and exact retained Findmypast provider ID SCOT/OPR/BAP/3575189 identify this publication placeholder as existing Glasgow-4103. Preserve the historical source account and current vital/relationship assessments; no new person or authoritative-person merge.",
+      "historical_draft_sha256_before": "824d56181db151f2946d0b96f181b74f5fa14b58ab7e70c2951db02364c0acdd",
+      "old_placeholder_json_sha256": "50276744395cbc0e19e6b539d8145e14795c895789e3dda67cf2bb15cb770542",
+      "previous_register_rows": [
+        "| Magdalen Glasgow | OPEN | Add 29 Mar 1743 Findmypast evidence (fmp-glasgow-10 ad 472195 e 9); READY | [Draft](research/Glasgow-4103/1743_Scotland_Irvine_Magdalen_Glasgow.md) |"
+      ],
+      "previous_ready_decision": "No row in the 1650–1750 integration override list; explicit CREATED draft and exact source identity establish the older publication case.",
+      "current_vitals": {
+        "birth": {
+          "date": "1743-03-22",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4165",
+          "probability": 0.98,
+          "assertion_id": "C-coverage-20261022g-glasgow-4103-father"
+        }
+      ],
+      "authoritative_external_alias_id": "xid-11869a49747e72e5"
+    },
+    {
+      "old": "record-fmp-glasgow-12395e3a9d9b",
+      "profile_id": "Glasgow-4105",
+      "path": "research/Glasgow-4105/1702_Scotland_Stevenston_Joan_Glasgow.md",
+      "current_name": "Joan Glasgow",
+      "old_birth": {
+        "date": "c. 1702 (estimated)",
+        "place": "Stevenston, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1702-07-19",
+        "place": "Stevenston, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/0368755"
+      ],
+      "status": null,
+      "old_name": "Joan Glasgow",
+      "retired_catalogue_id": "record-fmp-glasgow-12395e3a9d9b",
+      "canonical_profile_id": "Glasgow-4105",
+      "evidence_note": "Explicit CREATED draft and exact retained Findmypast provider ID SCOT/OPR/BAP/0368755 identify this publication placeholder as existing Glasgow-4105. Preserve the historical source account and current vital/relationship assessments; no new person or authoritative-person merge.",
+      "historical_draft_sha256_before": "5d7880403fbc5667be6bab00099d04542afa06314176fa75fbd4dd4037e3ec91",
+      "old_placeholder_json_sha256": "18028fd1cc7862b6203b9058d37df8b263aa8226133f28b621b11c284bf87f52",
+      "previous_register_rows": [
+        "| Joan Glasgow | OPEN | Add 19 Jul 1702 Findmypast evidence (fmp-glasgow-12395 e 3 a 9 d 9 b); READY | [Draft](research/Glasgow-4105/1702_Scotland_Stevenston_Joan_Glasgow.md) |"
+      ],
+      "previous_ready_decision": "No row in the 1650–1750 integration override list; explicit CREATED draft and exact source identity establish the older publication case.",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1702-07-19",
+          "place": "Stevenston, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "preserved_parent_assessment_summary": [],
+      "authoritative_external_alias_id": "xid-914a46bf020decde"
     }
   ],
   "authoritative_aliases": [
@@ -1118,6 +1559,42 @@
       "old": "record-fmp-glasgow-fba04c067c7c",
       "target": "Glasgow-4142",
       "external_id": "xid-748e548649dd5a86"
+    },
+    {
+      "old": "record-fmp-glasgow-aedca3d838c1",
+      "target": "Glasgow-4123",
+      "external_id": "xid-37047c0b808ba15e"
+    },
+    {
+      "old": "record-fmp-glasgow-5333ccc1e75f",
+      "target": "Glasgow-4112",
+      "external_id": "xid-db34917f97408d01"
+    },
+    {
+      "old": "record-fmp-glasgow-37b7f7e8fed2",
+      "target": "Glasgow-4109",
+      "external_id": "xid-40a5ab5c70900ce9"
+    },
+    {
+      "old": "record-fmp-glasgow-c487f88da30e",
+      "target": "Glasgow-4128",
+      "external_id": "xid-5f5ed92e0e12b6cb"
+    },
+    {
+      "old": "record-fmp-glasgow-120b52e4bd76",
+      "target": "Glasgow-4104",
+      "external_id": "xid-c46f5a65fe8a8169"
+    },
+    {
+      "old": "record-fmp-glasgow-10ad472195e9",
+      "target": "Glasgow-4103",
+      "external_id": "xid-11869a49747e72e5"
+    },
+    {
+      "old": "record-fmp-glasgow-12395e3a9d9b",
+      "target": "Glasgow-4105",
+      "external_id": "xid-914a46bf020decde"
     }
-  ]
+  ],
+  "last_additional_reviewed_on": "2026-10-30"
 }

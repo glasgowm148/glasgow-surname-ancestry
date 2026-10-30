@@ -116,3 +116,12 @@ Companion inscription derivative gives Thomas Glasgow 22 May 1831 aged 85; Chris
 - [GBPRS/SCOT/MIS/511329](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511329&tab=this) — Named Thomas; family-inscription comparison.
 
 Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.
+
+## Findmypast pages 33–35 review — 30 October 2026
+
+Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1746, death 1831, event year 1831, location Livingston, Linlithgowshire (West Lothian), Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.
+
+- [PRS/SCOTLAND/MI/ADD/5/00542646](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542646) — Search-result name/year/locality comparison only; event and relatives not assigned.
+- [GBPRS/SCOT/MIS/511333](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511333) — Search-result name/year/locality comparison only; event and relatives not assigned.
+
+Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.

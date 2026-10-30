@@ -71,3 +71,11 @@ Cached Kirknewton birth transcripts for James (24 December 1803) and Catherine (
 
 These derivative transcripts were captured 3 September 2026 and reviewed from saved receipts 24 October; no new source capture or original-register inspection. The birth dates remain distinct from baptism. Compare the original pages and held FamilySearch/OPR sources before any vital correction. Adult identities and existing grades retain their stated scope. [Shared study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-FAMILY-20261024 -->
+
+## Findmypast pages 33–35 review — 30 October 2026
+
+Search-result lead only. The observed row names William Glasgow, indexed birth 1765, death —, event year 1765, location Berwickshire, Scotland. Full transcript retrieval was deferred after three independent provider error pages; this individual record was not attempted and is not individually labelled inaccessible. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.
+
+- [R_686574919](https://www.findmypast.co.uk/transcript?id=R_686574919) — Search-result name/year/locality comparison only; event and relatives not assigned.
+
+Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.

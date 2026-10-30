@@ -53,3 +53,11 @@ related family context only. Two companion Edinburgh OPR 685_1/28, item 4, p.29 
 
 Original registers and inscriptions remain uninspected. Companion entries repeat an event rather than independent corroboration. No new person or relationship regrade is proposed. Current vital fields remain unchanged; baptism-only or age-derived fields do not independently prove exact births. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE19-20261024 -->
+
+## Findmypast pages 33–35 review — 30 October 2026
+
+Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1749, death —, event year 1749, location Edinburgh, Midlothian, Scotland. An earlier subscription-locked receipt is retained; no current transcript retry or access claim. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.
+
+- [SCOT/OPR/BAP/4360754](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4360754) — Search-result name/year/locality comparison only; event and relatives not assigned.
+
+Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.

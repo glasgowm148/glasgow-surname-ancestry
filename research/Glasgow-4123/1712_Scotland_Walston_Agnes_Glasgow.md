@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [Agnes Glasgow (Glasgow-4123)](https://www.wikitree.com/wiki/Glasgow-4123). The record-only publication placeholder is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-aedca3d838c1 -->
 > **CREATED:** [Agnes Glasgow (Glasgow-4123)](https://www.wikitree.com/wiki/Glasgow-4123)
 

@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [Hugh Glasgow (Glasgow-4104)](https://www.wikitree.com/wiki/Glasgow-4104). The record-only publication placeholder is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-120b52e4bd76 -->
 > **CREATED:** [Hugh Glasgow (Glasgow-4104)](https://www.wikitree.com/wiki/Glasgow-4104)
 

@@ -2883,9 +2883,9 @@
     },
     "Glasgow-1620": {
       "draft_path": "research/Glasgow-1620/father-confidence-2026-10-22b.wiki",
-      "summary": "Add the cited record account: Possible Thomas Glasgow, Kentucky postal addressee, 1799. Retain the stated identity and relationship limits. Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add qualified saved child-entry evidence; retain existing family assessments and identity limits.",
-      "work_queue_summary": "Add the cited record account: Possible Thomas Glasgow, Kentucky postal addressee, 1799. Retain the stated identity and relationship limits. Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add qualified saved child-entry evidence; retain existing family assessments and identity limits.",
-      "queued_at": "2026-10-22",
+      "summary": "Add the cited record account: Possible Thomas Glasgow, Kentucky postal addressee, 1799. Retain the stated identity and relationship limits. Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add qualified saved child-entry evidence; retain existing family assessments and identity limits. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
+      "work_queue_summary": "Add the cited record account: Possible Thomas Glasgow, Kentucky postal addressee, 1799. Retain the stated identity and relationship limits. Review existing father at 97% (proved), retaining source and identity limits; no new father attachment. Add qualified saved child-entry evidence; retain existing family assessments and identity limits. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
+      "queued_at": "2026-10-30",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-1620/findings.md",
@@ -2896,7 +2896,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-1620",
-      "biography_rechecked_at": "2026-10-24",
+      "biography_rechecked_at": "2026-10-30",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -2916,7 +2916,22 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/findmypast-glasgow-audit/pages33-35-proposal-preservation-2026-10-30.json",
+      "field_changes": [
+        {
+          "field": "BirthDate",
+          "before": "1761-09-08",
+          "after": "1761-07-26",
+          "after_status": "certain",
+          "basis": "Thomas Glasgow was born 26 July 1761 and baptised 2 August at Currie, John Glasgow and Mary Robertson, OPR 682/2 item 2. Glasgow-1620 already has the exact 2 August baptism and couple in its held FamilySearch citation. Its partial indexed “Birth Date 8” does not establish 8 September or a guessed 8 July. The reviewed vital adoption prefers the explicit 26 July derivative birth field, retaining the former 8 September model and partial reading in history. Original register uninspected; existing parish context is retained without independently proving birthplace. Father Glasgow-1343 remains 97%; obsolete title Glasgow-1606 redirects to the same public UID and adds no kinship evidence. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.",
+          "source_urls": [
+            "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222434&tab=this"
+          ],
+          "review_id": "fmp-pages33-35-glasgow-1620-birth-20261030",
+          "captured_field_value": "1761-09-08",
+          "captured_field_status": "certain"
+        }
+      ]
     },
     "Glasgow-1622": {
       "draft_path": "research/Glasgow-1622/father-confidence-2026-10-22c.wiki",
@@ -9107,20 +9122,20 @@
     },
     "Glasgow-4128": {
       "profile_id": "Glasgow-4128",
-      "queued_at": "2026-10-18",
-      "biography_rechecked_at": "2026-10-18",
+      "queued_at": "2026-10-30",
+      "biography_rechecked_at": "2026-10-30",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
-      "summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading. Preserve the distinct possible 1740 shipmaster identity and source limitations.",
-      "work_queue_summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading.",
+      "summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading. Preserve the distinct possible 1740 shipmaster identity and source limitations. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
+      "work_queue_summary": "Existing father James Glasgow-4157 is documented at 98%, previously ungraded; retain the maternal Macsmith reading. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
       "significance": 74,
       "draft_path": "research/Glasgow-4128/irvine-household-2026-10-18.wiki",
       "findings_path": "research/Glasgow-4128/findings.md",
       "remote_wikitext": "[[Category:Glasgow Name Study]]\n{{Estimated Date}}\n\n== Biography ==\n\n'''Susanna Glasgow''' was born on 28 Mar 1747 and baptised at Irvine, Ayrshire, on 29 Mar 1747. The parish register names her father as [[Glasgow-4157|James Glasgow]] and her mother as [[Nasmith-37|Helen Nasmith]].<ref name=\"FMP1\" /> The register records both dates; Irvine is inferred from the baptism and is not independently recorded.\n\nSusanna Glasgow was one of the children recorded to James Glasgow and Helen Nasmith in the Irvine register, alongside [[Glasgow-4116|John]] (1741), [[Glasgow-4110|Allan]] (1743).\n\n== Research Notes ==\n\nThe baptism is the only record found for Susanna Glasgow; it establishes her parents and baptism but gives no later life, marriage or death.\n\n== Sources ==\n\n<ref name=\"FMP1\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575478&tab=this Findmypast transcript], Archive reference: OPR 595/1; Baptism date: 29 Mar 1747; Baptism year: 1747; Birth date: 28 Mar 1747; Birth year: 1747; Category: Birth, Marriage, Death & Parish Records; Collections from: Great Britain, Scotland; Country: Scotland; County: Ayrshire; Father's first name(s): Jas; Father's last name: Glasgow; First name(s): Susanna; Item: 1; Last name: Glasgow; Mother's first name(s): Helen; Mother's last name: Macsmith; Page: 62; Place: Irvine; Record set: Scotland, Parish Births & Baptisms 1564-1929; Register year range: 1687-1788; Subcategory: Parish Baptisms (captured 2026-09-03T23:39:19.676Z).</ref>\n\n<references />",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/irvine-nasmith-father-preservation-2026-10-18.json",
+      "preservation_review_path": "research/findmypast-glasgow-audit/pages33-35-proposal-preservation-2026-10-30.json",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -10757,21 +10772,36 @@
       "profile_id": "Glasgow-1023",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-23",
-      "biography_rechecked_at": "2026-10-23",
+      "queued_at": "2026-10-30",
+      "biography_rechecked_at": "2026-10-30",
       "remote_captured_at": "2026-09-27T03:22:58+00:00",
       "remote_wikitext": "{{Estimated Date}}\n[[Category:Glasgow Name Study]]\n{{Scotland Sticker}}\n\n== Biography ==\nThomas Glasgow was born on 5 November 1725. He was baptized two days later at Kilwinning, Ayrshire, Scotland, and the register recorded his family's residence as Byres, Kilwinning. He was the son of [[Glasgow-1056|Hugh Glasgow]] and [[Kilpatrick-1635|Janet Kilpatrick]].<ref name=\"fmp-baptism\">Findmypast, ''Scotland, Parish Births & Baptisms 1564-1929'', transcript “Thomas Glasgow in 1725,” birth 5 November 1725, baptism 7 November 1725, Kilwinning, Ayrshire, residence Byres, father Hugh Glasgow, mother Janet Kilpatrick, archive reference OPR 599/1, item 1, page 197; record ID SCOT/OPR/BAP/3626888; [https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this transcript], accessed 4 September 2026.</ref>\n\nThomas married [[Mill-357|Janet Isobel Mill]] in 1742.<ref>“Scotland Marriages, 1561-1910,” database, FamilySearch ([https://www.familysearch.org/ark:/61903/1:1:XY96-5ZV record for Thomas Glasgow], accessed 22 December 2023), marriage in 1742.</ref> They had seven known children between 1743 and 1757, principally recorded at Livingston. Their son [[Glasgow-2980|John Glasgow]] was born at Mid Calder in 1750, with Janet Mill named as his mother.<ref>“Scotland Births and Baptisms, 1564-1950,” database, FamilySearch ([https://familysearch.org/ark:/61903/1:1:X1BL-JX1 entry for John Glasgow], accessed 12 February 2020).</ref>\n\n== Research Notes ==\n=== Current evidence assessment ===\n\nThe transcript's exact date, locality and two named parents establish the record-to-profile match. The existing ScotlandsPeople citation and the Findmypast transcript use different finding-aid locators for the Kilwinning entry; both are retained pending comparison with the register image.\n\n== Sources ==\n<references />\n* [https://www.wikitree.com/wiki/Space:Thomas-1 Thomas Research]",
       "draft_path": "research/Glasgow-1023/parish-household-review-2026-10-23.wiki",
       "findings_path": "research/Glasgow-1023/findings.md",
-      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
-      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "summary": "Add the reciprocal parish household findings and qualified child-father assessments. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
+      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
       "relationship_changes": [],
-      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json",
+      "preservation_review_path": "research/findmypast-glasgow-audit/pages33-35-proposal-preservation-2026-10-30.json",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
-      "addition_wikitext": ""
+      "addition_wikitext": "",
+      "field_changes": [
+        {
+          "field": "BirthDate",
+          "before": "1725-11-07",
+          "after": "1725-11-05",
+          "after_status": "certain",
+          "basis": "Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.",
+          "source_urls": [
+            "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this"
+          ],
+          "review_id": "fmp-pages33-35-glasgow-1023-birth-20261030",
+          "captured_field_value": "1725-11-07",
+          "captured_field_status": ""
+        }
+      ]
     },
     "Glasgow-3913": {
       "queued_at": "2026-10-22",
@@ -19523,12 +19553,12 @@
       "profile_id": "Glasgow-2451",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "queued_at": "2026-10-30",
+      "biography_rechecked_at": "2026-10-30",
       "draft_path": "research/Glasgow-2451/father-confidence-2026-10-22f.wiki",
       "findings_path": "research/Glasgow-2451/findings.md",
-      "summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
+      "work_queue_summary": "Review existing father at 73% (probable), retaining source and identity limits; no new father attachment. Add reviewed pages 33–35 parish evidence and explicit source qualifications; retain all existing family assessments.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -19548,7 +19578,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation6-2026-10-22.json"
+      "preservation_review_path": "research/findmypast-glasgow-audit/pages33-35-proposal-preservation-2026-10-30.json"
     },
     "Glasgow-4107": {
       "profile_id": "Glasgow-4107",
@@ -25180,12 +25210,12 @@
       "profile_id": "Glasgow-3347",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "queued_at": "2026-10-30",
+      "biography_rechecked_at": "2026-10-30",
       "draft_path": "research/Glasgow-3347/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-3347/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment. Qualify birth as by baptism 8 June 1800; retain the possible 1796 identity and all existing parent assessments.",
+      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment. Qualify birth as by baptism 8 June 1800; retain the possible 1796 identity and all existing parent assessments.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -25205,7 +25235,22 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/findmypast-glasgow-audit/pages33-35-proposal-preservation-2026-10-30.json",
+      "field_changes": [
+        {
+          "field": "BirthDate",
+          "before": "1800-06-08",
+          "after": "1800-06-09",
+          "after_status": "before",
+          "basis": "The held FamilySearch citation labels 8 June 1800 as christening, not an explicit birthday. Replace the inherited exact birth with the inclusive upper bound by 8 June 1800, encoded as before 9 June. This includes a possible same-day birth; 9 June is an exclusive boundary, not a claimed birthday. The 1796 Thomas to the same named parental couple remains a possible identity: two baptism entries alone do not establish brothers or an early death. Retain parent assessments, the older birth claim and both source events; no merge or new person. Original register uninspected.",
+          "source_urls": [
+            "https://familysearch.org/ark:/61903/1:1:VQ4K-TVX"
+          ],
+          "review_id": "fmp-pages33-35-glasgow-3347-birth-bound-20261030",
+          "captured_field_value": "1800-06-08",
+          "captured_field_status": ""
+        }
+      ]
     },
     "Glasgow-3994": {
       "profile_id": "Glasgow-3994",

@@ -2,7 +2,9 @@
 
 ## Current conclusion
 
-Father reviewed22October2026: Glasgow-1343 remains selected at 97% (proved). Thomas’s 1761 Currie baptism names John Glasgow and Mary Robertson. The selected John profile is the maintained John/Mary Robertson household, so both parental names and the child event identify a specific family. The older 1606 profile number is an attribution reference, not a different man named by the register. Recorded 1761 child and named couple97%; the August/September date discrepancy remains. John’s own childhood is separate. Original uninspected.
+Reviewed 30 October 2026: the maintained birth field now adopts 26 July 1761, distinct from baptism 2 August 1761. The prior structured date is preserved in assessment history; original register uninspected and all family assessments unchanged.
+
+Father reviewed22October2026: Glasgow-1343 remains selected at 97% (proved). Thomas’s 1761 Currie baptism names John Glasgow and Mary Robertson. The selected John profile is the maintained John/Mary Robertson household, so both parental names and the child event identify a specific family. The obsolete Glasgow-1606 title redirects to Glasgow-1343, verified as public UID28951547 on30October2026; this normalizes the identifier without adding kinship evidence. Recorded 1761 child and named couple97%; the 30 October review adopts explicit birth 26 July and retains baptism 2 August, superseding the inherited 8 September model while preserving the older partial “Birth Date 8” reading. John’s own childhood is separate. Original uninspected.
 
 Reviewed 23 October 2026: the Findmypast page 7 account below adds explicitly qualified record evidence or identity comparisons; no new person or relationship is proposed.
 
@@ -42,9 +44,9 @@ This may concern [Glasgow-1620](https://www.wikitree.com/wiki/Glasgow-1620). Rec
 
 [Glasgow-1343](https://www.wikitree.com/wiki/Glasgow-1343) remains the selected father, assessed **97% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.
 
-Thomas’s 1761 Currie baptism names John Glasgow and Mary Robertson. The selected John profile is the maintained John/Mary Robertson household, so both parental names and the child event identify a specific family. The older 1606 profile number is an attribution reference, not a different man named by the register.
+Thomas’s 1761 Currie baptism names John Glasgow and Mary Robertson. The selected John profile is the maintained John/Mary Robertson household, so both parental names and the child event identify a specific family. The obsolete Glasgow-1606 title redirects to Glasgow-1343, verified as public UID28951547 on30October2026; this normalizes the identifier without adding kinship evidence.
 
-Scope: Recorded 1761 child and named couple97%; the August/September date discrepancy remains. John’s own childhood is separate. Original uninspected.
+Scope: Recorded 1761 child and named couple97%; the 30 October review adopts explicit birth 26 July and retains baptism 2 August, superseding the inherited 8 September model while preserving the older partial “Birth Date 8” reading. John’s own childhood is separate. Original uninspected.
 
 Next useful test: Resolve the literal date and old profile-number mapping without changing the named couple.
 
@@ -110,3 +112,21 @@ Two saved indexes describe one source-defined Thomas Glasgow child with indexed 
 
 [Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-NEXT12-20261024 -->
+
+## Findmypast pages 33–35 review — 30 October 2026
+
+Thomas Glasgow was born 26 July 1761 and baptised 2 August at Currie, John Glasgow and Mary Robertson, OPR 682/2 item 2. Glasgow-1620 already has the exact 2 August baptism and couple in its held FamilySearch citation. Its partial indexed “Birth Date 8” does not establish 8 September or a guessed 8 July. The reviewed vital adoption prefers the explicit 26 July derivative birth field, retaining the former 8 September model and partial reading in history. Original register uninspected; existing parish context is retained without independently proving birthplace. Father Glasgow-1343 remains 97%; obsolete title Glasgow-1606 redirects to the same public UID and adds no kinship evidence. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.
+
+Thomas Glasgow was born 3 July 1796 at Clifton, Kirknewton and East Calder, father Thos Glasgow and mother Margt Chapman; OPR 690/3 item 2 page 44, baptism year dash. Existing Thomas Glasgow-1620 and the Margaret Chapman household are qualified named-parent comparisons only; the 1798 David entry has separate Mary/Margaret maternal readings. The 1796 birth and 1800 baptism are separate events, but may concern brothers or repeated baptism; no early death is established. Retain adult identity limits and do not invent a mother or attach an unassigned child. Inspected provider derivative; original register uninspected. No new person, parent attachment or confidence change.
+
+Search-result lead only. The observed row names Thomas Glasgow, indexed birth 1761, death —, event year 1761, location Midlothian, Scotland. The transcript page displayed “500 Internal Server Error”; no fields were read. Indexed years and location do not independently establish birth, baptism, death, burial, natal surname or named relatives. Linked current accounts are qualified comparisons from name, year and locality only; no event, parents or life dates are assigned. Original record uninspected; companion status and secondary named-relative scope remain unreviewed.
+
+- [SCOT/OPR/BAP/4222434](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4222434&tab=this) — Matched2August1761baptism child; explicit birth adoption proposed.
+- [SCOT/OPR/BAP/4478159](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4478159&tab=this) — Qualified named-father household comparison; not the child.
+- [R_688348923](https://www.findmypast.co.uk/transcript?id=R_688348923) — Search-result name/year/locality comparison only; event and relatives not assigned.
+
+Next: inspect originals and recover deferred transcript fields after provider access recovers. Search-only pointers and companion derivatives do not independently assign an event, prove a natal surname or raise a family assessment.
+
+## Repeated Thomas name — 30 October 2026
+
+The 1796 birth and 17 July 1796 baptism are distinct events from the 8 June 1800 baptism, but do not establish two people or an early death. [Glasgow-3347](/people/glasgow-3347.html) remains a compatible child candidate; its exact imported 1800 birthday was derived from baptism and is now bounded by that day. No child, parent or death is invented.
