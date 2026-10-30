@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-10-29",
+  "reviewed_on": "2026-10-30",
   "scope": {
     "surname_at_birth": "Glasgow",
     "born_before": 1800,
@@ -637,7 +637,7 @@
       "GBOR/LONDONBURIAL/00130426"
     ],
     "next_query_page": 29,
-    "integration_scope": "627literal receipts indexed:408qualified profile/candidate contexts and219source-only identity/scope HOLDs. 19supporting IDs give646bounded indexed provider IDs. Page28 completion adds15provider receipts:5matched records under4existing people,4qualified comparisons,6source-only holds. No new people, approved vital amendments, relationship changes or original-register inspections. Local pages verified; overall INCOMPLETE.",
+    "integration_scope": "627 literal receipts indexed: 408 qualified profile/candidate contexts and 219 source-only identity/scope HOLDs. 19 supporting IDs give 646 bounded indexed provider IDs. Page 28 records are integrated; subsequent approved vital reviews refine the Ratho birth to 11 October 1768 and remove the unsupported exact Ramshorn death day, retaining death year 1779 and burial 22 January separately. No new people, relationship changes or original-register inspections. Query coverage remains 560/5872; page 29 is next. Overall INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
       "R_694108409",
@@ -1275,10 +1275,10 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-page28-completion-20261029-verification.json",
-    "verified_on": "2026-10-29",
+    "verification_report": "output/findmypast-page28-vitals-20261029-verification.json",
+    "verified_on": "2026-10-30",
     "indexed_provider_record_count": 627,
-    "next_action": "Complete the two recorded structured vital reviews for Glasgow-1618 and Glasgow-3121; then capture search-result rows for page29 in the1719–1799BMD query and exact-ID preflight before transcript navigation. Reuse cached receipts and preserve HOLDs. Earlier births, all categories, variants and later-life coverage remain INCOMPLETE.",
+    "next_action": "Capture search-result rows for page29 in the1719–1799BMD query, then exact-ID preflight before transcript navigation. The Ratho birth and Ramshorn death-day reviews are now recorded; preserve remaining identity/access HOLDs. Full coverage remains INCOMPLETE.",
     "recent_query_transcripts": 492,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
@@ -1332,16 +1332,7 @@
       "task_launched_browser_processes": 0,
       "restoration_verified": false
     },
-    "pending_structured_vital_reviews": [
-      {
-        "subject": "Glasgow-1618",
-        "question": "Promote explicit derivative birth11October1768 beyond the inherited before-baptism bound, through an approved vital row and full proposal."
-      },
-      {
-        "subject": "Glasgow-3121",
-        "question": "Replace inherited exact death22January1779 with a qualified death bound/year;22January is burial, and the transcript gives no exact death day."
-      }
-    ],
+    "pending_structured_vital_reviews": [],
     "capture_review_boundary_20261029": {
       "query_rows_captured": 560,
       "query_rows_identity_reviewed": 560,
@@ -1362,6 +1353,18 @@
       "task_created_tabs": 0,
       "task_launched_browser_processes": 0,
       "memory_free_percent_at_finish": 32
+    },
+    "structured_vital_review_20261029": {
+      "status": "locally_published_and_verified",
+      "assessments": [
+        "fmp-page28-glasgow-1618-birth-20261029",
+        "fmp-page28-glasgow-3121-death-20261029"
+      ],
+      "new_provider_ids": 0,
+      "new_people": 0,
+      "relationship_changes": 0,
+      "verified_on": "2026-10-30",
+      "verification_report": "output/findmypast-page28-vitals-20261029-verification.json"
     }
   },
   "search_pages": [
@@ -31029,7 +31032,14 @@
       "reviewed_on": "2026-10-29",
       "canonical_record_id": "fmp-record-scot-opr-bap-4608141",
       "documentary_group": "ratho-mary-1768",
-      "assessment": "Mary born11October1768, baptised24October1768 at Ratho; father John Glasgow and mother Mary Robertson, OPR698A/1 item1 page57. The exact baptism, parish and named parents match Glasgow-1618. This supplies an explicit derivative birth day beyond the current before-baptism bound. The preferred father remains Glasgow-1343 at77%; inherited Glasgow-1606 is retained only as the earlier attribution in the complete proposal. Original uninspected; review the structured birth-field amendment separately. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change."
+      "assessment": "The inspected Ratho OPR derivative explicitly records Mary Glasgow's birth on 11 October 1768 and baptism on 24 October 1768, naming John Glasgow and Mary Robertson (OPR 698A/1, item 1, page 57). Replace the inherited before-baptism birth bound with 11 October 1768. Ratho is retained as the existing parish-context location; the transcript does not separately label a birthplace. The original register remains uninspected. John Glasgow-1343 remains the selected probable father at 77%; the mother remains separately assessed. This is a correction to the current date display, not a new provider record, person, relationship or confidence upgrade.",
+      "assessment_history": [
+        {
+          "reviewed_on": "2026-10-29",
+          "assessment": "Mary born11October1768, baptised24October1768 at Ratho; father John Glasgow and mother Mary Robertson, OPR698A/1 item1 page57. The exact baptism, parish and named parents match Glasgow-1618. This supplies an explicit derivative birth day beyond the current before-baptism bound. The preferred father remains Glasgow-1343 at77%; inherited Glasgow-1606 is retained only as the earlier attribution in the complete proposal. Original uninspected; review the structured birth-field amendment separately. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change.",
+          "status": "superseded_current_vital_wording"
+        }
+      ]
     },
     "GBPRS/WSMTN/BAP/0283315": {
       "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FWSMTN%2FBAP%2F0283315",
@@ -31221,7 +31231,14 @@
       "reviewed_on": "2026-10-29",
       "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093192",
       "documentary_group": "ramshorn-mary-1779",
-      "assessment": "Mary Glasgow, age6months, daughter of Alexander Glasgow, Glasgow Regiment, buried22January1779 at Ramshorn & Blackfriars, Glasgow; smallpox. Exact date, age, father, regiment and cause match the existing Glasgow-3121 source. This adds an accessible companion provider ID, not a newly discovered event. Death date is only ? ? 1779; the current exact death22January is inherited from the burial and is not independently confirmed. Do not convert six months into an exact birthday. Father Glasgow-1309 remains67%; this transcript does not identify Alexander with his own childhood or name a mother. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change."
+      "assessment": "The inspected Ramshorn & Blackfriars derivative records Mary Glasgow's death year as 1779, Death date as '? ? 1779', and burial on 22 January 1779, aged six months. Her father is named Alexander Glasgow, with Glasgow Regiment and smallpox in the notes. Replace the inherited exact death date of 22 January with the recorded year 1779: she died on or before her burial, but no exact death day is supplied. Preserve Glasgow as the existing burial-context locality, without claiming an independently recorded death place. Her uncertain birth year 1778 is unchanged. Alexander Glasgow-1309 remains the selected probable father at 67%; the transcript names no mother. The original remains uninspected. This is a correction to the current date display, not a new provider record, person, relationship or confidence upgrade.",
+      "assessment_history": [
+        {
+          "reviewed_on": "2026-10-29",
+          "assessment": "Mary Glasgow, age6months, daughter of Alexander Glasgow, Glasgow Regiment, buried22January1779 at Ramshorn & Blackfriars, Glasgow; smallpox. Exact date, age, father, regiment and cause match the existing Glasgow-3121 source. This adds an accessible companion provider ID, not a newly discovered event. Death date is only ? ? 1779; the current exact death22January is inherited from the burial and is not independently confirmed. Do not convert six months into an exact birthday. Father Glasgow-1309 remains67%; this transcript does not identify Alexander with his own childhood or name a mother. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change.",
+          "status": "superseded_current_vital_wording"
+        }
+      ]
     },
     "R_685840887": {
       "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685840887",
@@ -71985,10 +72002,11 @@
               "role": "Child; matched birth and baptism"
             }
           },
-          "assessment": "Mary born11October1768, baptised24October1768 at Ratho; father John Glasgow and mother Mary Robertson, OPR698A/1 item1 page57. The exact baptism, parish and named parents match Glasgow-1618. This supplies an explicit derivative birth day beyond the current before-baptism bound. The preferred father remains Glasgow-1343 at77%; inherited Glasgow-1606 is retained only as the earlier attribution in the complete proposal. Original uninspected; review the structured birth-field amendment separately. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change.",
+          "assessment": "The inspected Ratho OPR derivative explicitly records Mary Glasgow's birth on 11 October 1768 and baptism on 24 October 1768, naming John Glasgow and Mary Robertson (OPR 698A/1, item 1, page 57). Replace the inherited before-baptism birth bound with 11 October 1768. Ratho is retained as the existing parish-context location; the transcript does not separately label a birthplace. The original register remains uninspected. John Glasgow-1343 remains the selected probable father at 77%; the mother remains separately assessed. This is a correction to the current date display, not a new provider record, person, relationship or confidence upgrade.",
           "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14608141",
           "new_person_proposed": false,
-          "reviewed_on": "2026-10-29"
+          "reviewed_on": "2026-10-29",
+          "previous_assessment": "Mary born11October1768, baptised24October1768 at Ratho; father John Glasgow and mother Mary Robertson, OPR698A/1 item1 page57. The exact baptism, parish and named parents match Glasgow-1618. This supplies an explicit derivative birth day beyond the current before-baptism bound. The preferred father remains Glasgow-1343 at77%; inherited Glasgow-1606 is retained only as the earlier attribution in the complete proposal. Original uninspected; review the structured birth-field amendment separately. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change."
         },
         "GBPRS/WSMTN/BAP/0283315": {
           "status": "identity_hold",
@@ -72055,10 +72073,11 @@
               "role": "Child; matched burial, not exact death day"
             }
           },
-          "assessment": "Mary Glasgow, age6months, daughter of Alexander Glasgow, Glasgow Regiment, buried22January1779 at Ramshorn & Blackfriars, Glasgow; smallpox. Exact date, age, father, regiment and cause match the existing Glasgow-3121 source. This adds an accessible companion provider ID, not a newly discovered event. Death date is only ? ? 1779; the current exact death22January is inherited from the burial and is not independently confirmed. Do not convert six months into an exact birthday. Father Glasgow-1309 remains67%; this transcript does not identify Alexander with his own childhood or name a mother. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change.",
+          "assessment": "The inspected Ramshorn & Blackfriars derivative records Mary Glasgow's death year as 1779, Death date as '? ? 1779', and burial on 22 January 1779, aged six months. Her father is named Alexander Glasgow, with Glasgow Regiment and smallpox in the notes. Replace the inherited exact death date of 22 January with the recorded year 1779: she died on or before her burial, but no exact death day is supplied. Preserve Glasgow as the existing burial-context locality, without claiming an independently recorded death place. Her uncertain birth year 1778 is unchanged. Alexander Glasgow-1309 remains the selected probable father at 67%; the transcript names no mother. The original remains uninspected. This is a correction to the current date display, not a new provider record, person, relationship or confidence upgrade.",
           "receipt_pointer": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093192",
           "new_person_proposed": false,
-          "reviewed_on": "2026-10-29"
+          "reviewed_on": "2026-10-29",
+          "previous_assessment": "Mary Glasgow, age6months, daughter of Alexander Glasgow, Glasgow Regiment, buried22January1779 at Ramshorn & Blackfriars, Glasgow; smallpox. Exact date, age, father, regiment and cause match the existing Glasgow-3121 source. This adds an accessible companion provider ID, not a newly discovered event. Death date is only ? ? 1779; the current exact death22January is inherited from the burial and is not independently confirmed. Do not convert six months into an exact birthday. Father Glasgow-1309 remains67%; this transcript does not identify Alexander with his own childhood or name a mother. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change."
         },
         "R_685840887": {
           "status": "matched_existing",

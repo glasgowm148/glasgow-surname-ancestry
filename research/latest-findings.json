@@ -61301,6 +61301,40 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
+    },
+    {
+      "id": "fmp-page28-vital-corrections-20261029",
+      "found_on": "2026-10-29",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Two Mary Glasgow date corrections: the Ratho child was born on 11 October 1768 and baptised on 24 October; the Ramshorn infant died in 1779, on or before her burial on 22 January, with no exact death day recorded.",
+      "qualification": "Both derive from already inspected transcripts; originals remain uninspected. Existing parish/burial-context locations are retained with explicit limitations. The earlier birth bound and exact death-day attribution remain in assessment history. Father ratings stay 77% and 67%; no new person, provider ID or relationship upgrade.",
+      "people": [
+        {
+          "id": "Glasgow-1618",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-1618.html"
+        },
+        {
+          "id": "Glasgow-3121",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3121.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ratho birth and baptism, 1768",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4608141&tab=this"
+        },
+        {
+          "title": "Ramshorn death year and burial, 1779",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093192&tab=this"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/people/glasgow-1618.html"
     }
   ]
 }

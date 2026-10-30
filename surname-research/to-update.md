@@ -4390,3 +4390,8 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1453) | OPEN | Add page28 transcript evidence and qualified comparisons; preserve existing family assessments and explicit event-label/year conflicts. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-161) | OPEN | Add page28 transcript evidence and qualified comparisons; preserve existing family assessments and explicit event-label/year conflicts. |
 | [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3121) | OPEN | Add page28 transcript evidence and qualified comparisons; preserve existing family assessments and explicit event-label/year conflicts. |
+
+### Page 28 vital review — 29 October 2026
+
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-1618) | OPEN | Set birth to 11 October 1768, remove the former before qualifier, and retain baptism 24 October separately; source is an inspected derivative. |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-3121) | OPEN | Replace exact death 22 January 1779 with death year 1779; preserve 22 January as burial and the unknown exact death day. |
