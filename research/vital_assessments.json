@@ -2057,6 +2057,55 @@
           "basis": "Saved current model before correction; earlier prose already distinguished birth and baptism. No new record, identity or relationship assessment."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-pages30-32-glasgow-1234-birth-20261030",
+      "subject": "Glasgow-1234",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "Findmypast OPR 669/1 item 4 explicitly distinguishes birth 13 October 1760 from baptism 16 December 1760 at Livingston, naming Abraham Glasgow and Janet Cunningham. The current model carries the baptism day as birth. Original register uninspected; Livingston remains parish context. Father Glasgow-1227 stays 92%; no mother reassessment.",
+      "source": {
+        "url": "/people/glasgow-1234.json",
+        "section": "Findmypast pages 30–32 review"
+      },
+      "summary": "Montgomry Glasgow: recorded birth 13 October 1760, baptism 16 December.",
+      "vitals": {
+        "birth": {
+          "date": "1760-10-13",
+          "display_date": "13 October 1760",
+          "place": "Livingston, Linlithgowshire, Scotland",
+          "status": "exact",
+          "country": "Scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151829&tab=this",
+          "source_level": "Inspected provider derivative; original uninspected",
+          "note": "Findmypast OPR 669/1 item 4 explicitly distinguishes birth 13 October 1760 from baptism 16 December 1760 at Livingston, naming Abraham Glasgow and Janet Cunningham. The current model carries the baptism day as birth. Original register uninspected; Livingston remains parish context. Father Glasgow-1227 stays 92%; no mother reassessment.",
+          "qualifier": "Recorded birth day; retained location is parish context."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1760-10-13",
+        "birth_year": 1760,
+        "field_statuses": {
+          "birth": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4151829"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "1760-12-16",
+            "place": "Livingston, Linlithgowshire, Scotland",
+            "status": "exact"
+          },
+          "basis": "Inherited birth was the baptism day; the derivative supplies separate explicit birth and baptism dates."
+        }
+      ]
     }
   ]
 }

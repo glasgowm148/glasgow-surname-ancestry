@@ -102,3 +102,17 @@ This is a strong same-household adult comparison for [Glasgow-1382](/people/glas
 
 These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE18-20261024 -->
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Peter Glasgow born 11 January 1793 and baptised 31 May 1793 at Livingston, father Thomas Glasgow, labourer; no mother is supplied, OPR 669/1 item 4. This cannot be the selected 1790 baptism child if both recorded birth dates are correct. The separate ambiguous adult history under Glasgow-1450 is not concretely excluded by an uncertain estimated year, so no new person is proposed. Thomas Glasgow-1382 is a qualified father-role comparison only; no mother or child attachment is invented. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+Livingston family inscription derivative: Thomas Glasgow died 22 July 1831 aged 85; wife Christian Davidson 5 November 1795 aged 43; son Peter 12 September 1810 aged 19; daughter Janet 16 October 1853 aged 76. Grandchildren include Mary Russell, infant; Jessie 11 July 1845 aged 20; Jessie 8 February 1851 aged ten months; James B 22 April 1854 aged nineteen months. Companion GBPRS/SCOT/MIS/511329 differs materially in Thomas month, Christian age, Peter year/age, Janet year and a Jessie year. Retain both readings, not two independently proved deaths or people. The 1810/1819 Peter problem was already known in Glasgow-1450; original inspection is required before choosing a reading or changing vitals. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+Companion inscription derivative gives Thomas Glasgow 22 May 1831 aged 85; Christian Davidson 5 November 1795 aged 45; Peter 12 September 1819 aged 48; Janet 16 October 1873 aged 76; Jessie 8 February 1831 aged ten months; James B 22 April 185* aged nineteen months. These conflict with PRS/SCOTLAND/MI/ADD/5/00516377. Preserve literal versions and the unresolved 1790 child/adult identity distinction; do not select a preferred date or invent duplicate family members. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [SCOT/OPR/BAP/4152404](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152404&tab=this) — Possible named father only; not the child or a proved new relationship.
+- [PRS/SCOTLAND/MI/ADD/5/00516377](https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00516377&tab=this) — Named Thomas; family-inscription comparison.
+- [GBPRS/SCOT/MIS/511329](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511329&tab=this) — Named Thomas; family-inscription comparison.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

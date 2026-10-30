@@ -75,3 +75,15 @@ Role in this account: Named father matched to existing catalogue father via the 
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow baptised 17 February 1760 at Wandell and Lamington, James Glasgow and Marion Saidler. The record-defined child is represented by Glasgow-1530; Glasgow-1538 is a qualified adult comparison with separate family hypotheses and a competing 1784 index. Do not merge these accounts. Preserve paternal assessments 84% and 62%, current vital bounds and maternal uncertainty; Saidler/Sadler is retained as a recorded-name variation, not independent proof. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+Robert Glasgow, weaver of Calton, Glasgow, aged 79: the OPR derivative labels 9 September 1839 as Death date (OPR 644/67 item 3 page 127), while the companion labels it Burial date and leaves death incomplete. This matches the existing record-defined Glasgow-1530 account, but the label discrepancy prevents upgrading its before-9-September death bound to an exact death day. Birth 1760 is age-derived; no merge with Glasgow-1538 or parent-confidence change. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [R_684963385](https://www.findmypast.co.uk/transcript?id=R_684963385&tab=this) — Matched recorded 1760 child; adult identity remains qualified.
+- [SCOT/OPR/BUR/1182990](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1182990&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+- [GBPRS/GLASGOW/BUR/093133](https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093133&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

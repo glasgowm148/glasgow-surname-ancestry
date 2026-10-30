@@ -3,14 +3,14 @@
   "blockers": [],
   "counts": {
     "decision_statuses": {
-      "new_person:READY": 20,
-      "existing_profile:n/a": 143,
+      "new_person:READY": 8,
+      "existing_profile:n/a": 155,
       "new_person:HOLD": 9,
       "free_space:READY": 2
     },
     "decisions": {
-      "new_person": 29,
-      "existing_profile": 143,
+      "new_person": 17,
+      "existing_profile": 155,
       "free_space": 2
     },
     "matched_audit_groups": 174,
@@ -38,37 +38,81 @@
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1733,
       "group_id": "fmp-glasgow-033cb073721c",
-      "handoff_path": "surname-research/new-people/1733_Scotland_Dundonald_William_Glasgow.md",
+      "handoff_path": "research/Glasgow-4101/1733_Scotland_Dundonald_William_Glasgow.md",
       "match_audit_present": true,
       "name": "William Glasgow",
-      "notes": "The Dundonald baptism naming mother Barbara Stevenson is distinct from the Irish-American candidate.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4101 already represent William Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3536725. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4101",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-033cb073721c"
+      "supplement_id": "fmp-glasgow-033cb073721c",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1733,
+            "group_id": "fmp-glasgow-033cb073721c",
+            "handoff_path": "surname-research/new-people/1733_Scotland_Dundonald_William_Glasgow.md",
+            "match_audit_present": true,
+            "name": "William Glasgow",
+            "notes": "The Dundonald baptism naming mother Barbara Stevenson is distinct from the Irish-American candidate.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-033cb073721c"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1713,
       "group_id": "fmp-glasgow-0840d67a902e",
-      "handoff_path": "surname-research/new-people/1713_Scotland_Irvine_Mary_Glasgow.md",
+      "handoff_path": "research/Glasgow-4102/1713_Scotland_Irvine_Mary_Glasgow.md",
       "match_audit_present": true,
       "name": "Mary Glasgow",
-      "notes": "The Irvine baptism and John Glasgow/Isabell Kylle parents distinguish this Mary from the candidate.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4102 already represent Mary Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3573064. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4102",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-0840d67a902e"
+      "supplement_id": "fmp-glasgow-0840d67a902e",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1713,
+            "group_id": "fmp-glasgow-0840d67a902e",
+            "handoff_path": "surname-research/new-people/1713_Scotland_Irvine_Mary_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Mary Glasgow",
+            "notes": "The Irvine baptism and John Glasgow/Isabell Kylle parents distinguish this Mary from the candidate.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-0840d67a902e"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 3,
@@ -992,20 +1036,42 @@
     },
     {
       "candidate_count": 2,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1717,
       "group_id": "fmp-glasgow-5286617ad4ee",
-      "handoff_path": "surname-research/new-people/1717_Scotland_Stevenston_Margaret_Glasgow.md",
+      "handoff_path": "research/Glasgow-4111/1717_Scotland_Stevenston_Margaret_Glasgow.md",
       "match_audit_present": true,
       "name": "Margaret Glasgow",
-      "notes": "The Stevenston baptism and James Glasgow/Mary Auld parents distinguish this Margaret from all candidates.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4111 already represent Margaret Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/0369031. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4111",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-5286617ad4ee"
+      "supplement_id": "fmp-glasgow-5286617ad4ee",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 2,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1717,
+            "group_id": "fmp-glasgow-5286617ad4ee",
+            "handoff_path": "surname-research/new-people/1717_Scotland_Stevenston_Margaret_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Margaret Glasgow",
+            "notes": "The Stevenston baptism and James Glasgow/Mary Auld parents distinguish this Margaret from all candidates.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-5286617ad4ee"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 0,
@@ -1252,20 +1318,42 @@
     },
     {
       "candidate_count": 2,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1738,
       "group_id": "fmp-glasgow-6cc997e45c40",
-      "handoff_path": "surname-research/new-people/1738_Scotland_Kilmarnock_Margaret_Glasgow.md",
+      "handoff_path": "research/Glasgow-4115/1738_Scotland_Kilmarnock_Margaret_Glasgow.md",
       "match_audit_present": true,
       "name": "Margaret Glasgow",
-      "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McGlashan parents conflict with all candidates.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4115 already represent Margaret Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3599918. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4115",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-6cc997e45c40"
+      "supplement_id": "fmp-glasgow-6cc997e45c40",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 2,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1738,
+            "group_id": "fmp-glasgow-6cc997e45c40",
+            "handoff_path": "surname-research/new-people/1738_Scotland_Kilmarnock_Margaret_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Margaret Glasgow",
+            "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McGlashan parents conflict with all candidates.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-6cc997e45c40"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 2,
@@ -1678,20 +1766,42 @@
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1708,
       "group_id": "fmp-glasgow-984fa1db3c1a",
-      "handoff_path": "surname-research/new-people/1708_Scotland_Irvine_Margaret_Glasgow.md",
+      "handoff_path": "research/Glasgow-4119/1708_Scotland_Irvine_Margaret_Glasgow.md",
       "match_audit_present": true,
       "name": "Margaret Glasgow",
-      "notes": "The 1708 Irvine baptism and John Glasgow/Isabel Keill parents conflict with the candidate.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4119 already represent Margaret Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3572795. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4119",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-984fa1db3c1a"
+      "supplement_id": "fmp-glasgow-984fa1db3c1a",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1708,
+            "group_id": "fmp-glasgow-984fa1db3c1a",
+            "handoff_path": "surname-research/new-people/1708_Scotland_Irvine_Margaret_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Margaret Glasgow",
+            "notes": "The 1708 Irvine baptism and John Glasgow/Isabel Keill parents conflict with the candidate.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-984fa1db3c1a"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 1,
@@ -1729,20 +1839,42 @@
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1723,
       "group_id": "fmp-glasgow-9bf49e7b9bd1",
-      "handoff_path": "surname-research/new-people/1723_Scotland_Irvine_William_Glasgow.md",
+      "handoff_path": "research/Glasgow-4120/1723_Scotland_Irvine_William_Glasgow.md",
       "match_audit_present": true,
       "name": "William Glasgow",
-      "notes": "The 1723 Irvine baptism and James Glasgow/Marion Rae parents distinguish this William from the County Tyrone candidate.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4120 already represent William Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3573825. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4120",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-9bf49e7b9bd1"
+      "supplement_id": "fmp-glasgow-9bf49e7b9bd1",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1723,
+            "group_id": "fmp-glasgow-9bf49e7b9bd1",
+            "handoff_path": "surname-research/new-people/1723_Scotland_Irvine_William_Glasgow.md",
+            "match_audit_present": true,
+            "name": "William Glasgow",
+            "notes": "The 1723 Irvine baptism and James Glasgow/Marion Rae parents distinguish this William from the County Tyrone candidate.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-9bf49e7b9bd1"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 3,
@@ -1922,20 +2054,42 @@
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1726,
       "group_id": "fmp-glasgow-a8ea1428813a",
-      "handoff_path": "surname-research/new-people/1726_Scotland_Irvine_Sarah_Glasgow.md",
+      "handoff_path": "research/Glasgow-4122/1726_Scotland_Irvine_Sarah_Glasgow.md",
       "match_audit_present": true,
       "name": "Sarah Glasgow",
-      "notes": "The Irvine baptism and John Glasgow/Agnes Ferguson parents distinguish Sarah from the Kilwinning candidate.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4122 already represent Sarah Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3574134. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4122",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-a8ea1428813a"
+      "supplement_id": "fmp-glasgow-a8ea1428813a",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1726,
+            "group_id": "fmp-glasgow-a8ea1428813a",
+            "handoff_path": "surname-research/new-people/1726_Scotland_Irvine_Sarah_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Sarah Glasgow",
+            "notes": "The Irvine baptism and John Glasgow/Agnes Ferguson parents distinguish Sarah from the Kilwinning candidate.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-a8ea1428813a"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 1,
@@ -2129,20 +2283,42 @@
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1745,
       "group_id": "fmp-glasgow-ba0ccce5c268",
-      "handoff_path": "surname-research/new-people/1745_Scotland_Irvine_Mary_Glasgow.md",
+      "handoff_path": "research/Glasgow-4126/1745_Scotland_Irvine_Mary_Glasgow.md",
       "match_audit_present": true,
       "name": "Mary Glasgow",
-      "notes": "The 1745 Irvine birth/baptism and George Glasgow/Margaret family conflict with the Livingston candidate.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4126 already represent Mary Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3575366. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4126",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-ba0ccce5c268"
+      "supplement_id": "fmp-glasgow-ba0ccce5c268",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1745,
+            "group_id": "fmp-glasgow-ba0ccce5c268",
+            "handoff_path": "surname-research/new-people/1745_Scotland_Irvine_Mary_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Mary Glasgow",
+            "notes": "The 1745 Irvine birth/baptism and George Glasgow/Margaret family conflict with the Livingston candidate.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-ba0ccce5c268"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 1,
@@ -2284,20 +2460,42 @@
     },
     {
       "candidate_count": 6,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1721,
       "group_id": "fmp-glasgow-c5f9840e310b",
-      "handoff_path": "surname-research/new-people/1721_Scotland_Irvine_James_Glasgow.md",
+      "handoff_path": "research/Glasgow-4129/1721_Scotland_Irvine_James_Glasgow.md",
       "match_audit_present": true,
       "name": "James Glasgow",
-      "notes": "The 1721 Irvine baptism and James Glasgow/Margaret Rae parents conflict with all candidates.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4129 already represent James Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3573667. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4129",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-c5f9840e310b"
+      "supplement_id": "fmp-glasgow-c5f9840e310b",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 6,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1721,
+            "group_id": "fmp-glasgow-c5f9840e310b",
+            "handoff_path": "surname-research/new-people/1721_Scotland_Irvine_James_Glasgow.md",
+            "match_audit_present": true,
+            "name": "James Glasgow",
+            "notes": "The 1721 Irvine baptism and James Glasgow/Margaret Rae parents conflict with all candidates.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-c5f9840e310b"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 1,
@@ -2318,20 +2516,42 @@
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1718,
       "group_id": "fmp-glasgow-c7dabfad5c23",
-      "handoff_path": "surname-research/new-people/1718_Scotland_Libberton_Janet_Glasgow.md",
+      "handoff_path": "research/Glasgow-4130/1718_Scotland_Libberton_Janet_Glasgow.md",
       "match_audit_present": true,
       "name": "Janet Glasgow",
-      "notes": "The 1718 Libberton baptism and Robert Glasgow/Katherine Gibson parents distinguish Janet from Cunningham-20925.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4130 already represent Janet Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/4033250. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4130",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-c7dabfad5c23"
+      "supplement_id": "fmp-glasgow-c7dabfad5c23",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1718,
+            "group_id": "fmp-glasgow-c7dabfad5c23",
+            "handoff_path": "surname-research/new-people/1718_Scotland_Libberton_Janet_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Janet Glasgow",
+            "notes": "The 1718 Libberton baptism and Robert Glasgow/Katherine Gibson parents distinguish Janet from Cunningham-20925.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-c7dabfad5c23"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 17,
@@ -2611,20 +2831,42 @@
     },
     {
       "candidate_count": 1,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1748,
       "group_id": "fmp-glasgow-e37cff91091d",
-      "handoff_path": "surname-research/new-people/1748_Scotland_Kilbirnie_Janet_Glasgow.md",
+      "handoff_path": "research/Glasgow-4137/1748_Scotland_Kilbirnie_Janet_Glasgow.md",
       "match_audit_present": true,
       "name": "Janet Glasgow",
-      "notes": "The Kilbirnie baptism explicitly names Janet Glasgow and parents William Davies and Janet Kerr; it conflicts with Hood-6028.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4137 already represent Janet Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3587035. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4137",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-e37cff91091d"
+      "supplement_id": "fmp-glasgow-e37cff91091d",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 1,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1748,
+            "group_id": "fmp-glasgow-e37cff91091d",
+            "handoff_path": "surname-research/new-people/1748_Scotland_Kilbirnie_Janet_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Janet Glasgow",
+            "notes": "The Kilbirnie baptism explicitly names Janet Glasgow and parents William Davies and Janet Kerr; it conflicts with Hood-6028.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-e37cff91091d"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 13,
@@ -3006,20 +3248,42 @@
     },
     {
       "candidate_count": 3,
-      "creation_status": "READY",
+      "creation_status": "",
       "decision_source": "human_override",
       "event_year_start": 1732,
       "group_id": "fmp-glasgow-fba04c067c7c",
-      "handoff_path": "surname-research/new-people/1732_Scotland_Kilmarnock_Mary_Glasgow.md",
+      "handoff_path": "research/Glasgow-4142/1732_Scotland_Kilmarnock_Mary_Glasgow.md",
       "match_audit_present": true,
       "name": "Mary Glasgow",
-      "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McEachan parents conflict with all candidates.",
-      "outcome": "new_person",
-      "profile_id": "",
-      "queue_status": "OPEN",
+      "notes": "The explicit CREATED draft and current Glasgow-4142 already represent Mary Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3599128. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "outcome": "existing_profile",
+      "profile_id": "Glasgow-4142",
+      "queue_status": "CLOSED",
       "queue_work": "",
       "substantive_amendment": false,
-      "supplement_id": "fmp-glasgow-fba04c067c7c"
+      "supplement_id": "fmp-glasgow-fba04c067c7c",
+      "review_history": [
+        {
+          "reviewed_on": "2026-10-30",
+          "previous_decision": {
+            "candidate_count": 3,
+            "creation_status": "READY",
+            "decision_source": "human_override",
+            "event_year_start": 1732,
+            "group_id": "fmp-glasgow-fba04c067c7c",
+            "handoff_path": "surname-research/new-people/1732_Scotland_Kilmarnock_Mary_Glasgow.md",
+            "match_audit_present": true,
+            "name": "Mary Glasgow",
+            "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McEachan parents conflict with all candidates.",
+            "outcome": "new_person",
+            "profile_id": "",
+            "queue_status": "OPEN",
+            "queue_work": "",
+            "substantive_amendment": false,
+            "supplement_id": "fmp-glasgow-fba04c067c7c"
+          }
+        }
+      ]
     },
     {
       "candidate_count": 1,
@@ -3056,5 +3320,7 @@
   },
   "source_audit_complete_and_reconciled": false,
   "source_audit_label": "INCOMPLETE",
-  "source_snapshot_sha256": "602c82b00f1e5706f8fc2d2f04264a8e2b282c6035487c3e9473448097f5ae4c"
+  "source_snapshot_sha256": "602c82b00f1e5706f8fc2d2f04264a8e2b282c6035487c3e9473448097f5ae4c",
+  "reconciled_on": "2026-10-30",
+  "reconciliation_note": "Twelve READY rows were already CREATED; current existing-profile dispositions supersede only those rows. Original decisions are retained in each row history; original source-snapshot hashes are historical."
 }

@@ -41,6 +41,12 @@ The following profiles are attached as children in online trees but presently la
 Tree structure alone should not be treated as proof of these relationships.
 
 == Research Notes ==
+=== Additional parish and later-life evidence ===
+Robert Glasgow baptised 17 February 1760 at Wandell and Lamington, James Glasgow and Marion Saidler. The record-defined child is represented by Glasgow-1530; Glasgow-1538 is a qualified adult comparison with separate family hypotheses and a competing 1784 index. Do not merge these accounts. Preserve paternal assessments 84% and 62%, current vital bounds and maternal uncertainty; Saidler/Sadler is retained as a recorded-name variation, not independent proof. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+<ref>[https://www.findmypast.co.uk/transcript?id=R_684963385&tab=this Findmypast derivative R_684963385], inspected 30 October 2026; underlying original uninspected.</ref>
+
+
 
 === Genealogical conclusion ===
 

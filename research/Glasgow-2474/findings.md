@@ -176,3 +176,11 @@ From the merged [Glasgow-3479](https://www.wikitree.com/wiki/Glasgow-3479) (27 S
 
 - [Findmypast 3574593](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574593&tab=this), Irvine OPR 595/1: John baptised 10 October 1736; Robt Glasgow and Mary Borland named as parents. It identifies the adult father by name and spouse, not his parents.
 - [Findmypast 3574782](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3574782&tab=this), Irvine OPR 595/1: John baptised 5 October 1738; Rot Glasgow and Mary Borland named as parents. This is a separate entry from 1736; the original register is needed to show whether there were two sons of the same name or an indexing error.
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow baptised 16 November 1740 at Ayr, Robert Glasgow and Mary Borland. John Glasgow-3478 has a similarly named parental couple (Glasgow-2474 and Borland-1479) in an Irvine context, but no family bridge establishes these adults or a sibling relationship. Retain a qualified named-father comparison; no child creation or attachment. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [R_692915770](https://www.findmypast.co.uk/transcript?id=R_692915770&tab=this) — Possible named father comparison only; child or sibling relationship not established.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

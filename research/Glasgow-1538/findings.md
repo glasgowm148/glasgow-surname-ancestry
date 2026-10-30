@@ -75,3 +75,11 @@ Role in this account: Competing 1784 child-index comparison retained in current 
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow baptised 17 February 1760 at Wandell and Lamington, James Glasgow and Marion Saidler. The record-defined child is represented by Glasgow-1530; Glasgow-1538 is a qualified adult comparison with separate family hypotheses and a competing 1784 index. Do not merge these accounts. Preserve paternal assessments 84% and 62%, current vital bounds and maternal uncertainty; Saidler/Sadler is retained as a recorded-name variation, not independent proof. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [R_684963385](https://www.findmypast.co.uk/transcript?id=R_684963385&tab=this) — Possible adult identity of the 1760 child; competing adult histories retained.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

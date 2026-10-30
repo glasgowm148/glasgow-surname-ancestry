@@ -51,3 +51,12 @@ Check the original Govan baptism, especially the date and any occupation or resi
 - [Contributed James Glasgow tree: Jane Cunningham family; useful parentage lead but conflicting circa-1850 death](https://www.ancestry.com/genealogy/records/james-glasgow-24-1tkzv0m)
 - [Contributed Lilias Stewart account; partner Samuel estimated 1763, birth source unverified](https://ancestors.familysearch.org/en/K81S-7JB/lilias-stewart-1766)
 - [Jean L. Nelson Siemens, Samuel Glasgow journal, FamilySearch book 395015, viewer image 28 / printed p.22; machine text only](https://www.familysearch.org/library/books/viewer/395015/?offset=0#page=28&viewer=picture&o=ocr)
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Samuel Glasgow, nailer of Glasgow, aged 65, infirmities of old age, Govan 1818. These companions label 7 December 1818 as Death date, while the already held GBPRS/GLASGOW/BUR/093131 and current findings describe burial that day. Preserve the event-label ambiguity: do not populate an exact death day or replace the earlier burial account. Birth 1753 is age-derived. This is an already known event with additional provider IDs, not a new historical discovery or father assessment. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [SCOT/OPR/BUR/1237243](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1237243&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+- [GBPRS/LANARKSHIRE/BUR/020582](https://www.findmypast.co.uk/transcript?id=GBPRS%2FLANARKSHIRE%2FBUR%2F020582&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

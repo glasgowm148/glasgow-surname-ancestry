@@ -41,3 +41,15 @@ Next useful test: Read the 1774 entry for Davidson, residence and father’s tra
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://www.familysearch.org/ark:/61903/1:1:X1RG-M2G](https://www.familysearch.org/ark:/61903/1:1:X1RG-M2G)
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Nathan Glasgow, wright of West Park, buried 2 August 1835 at Leith aged 62; birth 1773 is age-derived. OPR 692/2/34 item 3 page 421; the displayed register range 1831–1833 conflicts with the event year. Nathaniel Glasgow-1452, born before January 1774, is age-compatible but lacks a trade, family or locality bridge. Do not assign this burial or infer a separate person from the spelling. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+Nathaniel Glasgow baptised 2 January 1774 at Livingston, parents Thomas Glasgow and Christian Davidson. This matches existing Glasgow-1452 and its birth bound before that day; no exact birthday is supplied. Old father title Glasgow-1446 redirects to Glasgow-1382. Preserve the father assessment 68% and independent maternal limits. Companion derivatives are not independent witnesses. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [SCOT/OPR/BUR/1691799](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1691799&tab=this) — Possible Nathan/Nathaniel comparison only; burial not assigned.
+- [R_685841078](https://www.findmypast.co.uk/transcript?id=R_685841078&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+- [R_692405171](https://www.findmypast.co.uk/transcript?id=R_692405171&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

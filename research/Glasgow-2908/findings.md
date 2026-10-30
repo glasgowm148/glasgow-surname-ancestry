@@ -148,3 +148,11 @@ The probate citation is an incomplete service notice, not an adjudicated pedigre
 The percentage concerns the selected father as John Glasgow, farmer, named in the 1846 marriage of John Glasgow-867. It does not identify him with the 1796 Desertoghill flax grower, establish his Larne ancestry, identify a mother or resolve Alexander’s separate death identity. Percentages are subjective evidence assessments, not calibrated statistical probabilities.
 
 Sources: [1846 marriage](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1846/09306/5369439.pdf), [1851 Lisnagaver household 34](http://www.census.nationalarchives.ie/reels/c19/007246523/007246523_00173.pdf), [1892 probate citation](https://www.nyshistoricnewspapers.org/?a=d&d=plts18920226-01.1.6). Held readings reused; no new original inspection. [Father’s account](/people/glasgow-4090.html).
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Samuel Glasgow, Irish civil death registration 1875 Ballymoney aged 85, volume 11 page 104. This matches the already inspected original death of the unmarried Lisnagaver weaver on 17 August 1875 represented by Glasgow-2908. The additional provider ID adds no new father evidence; the existing combined census/marriage proof and father Glasgow-4090 at 95% remain unchanged. Birth 1790 is age-derived. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [IRE/BMD/D/617739886](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617739886&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

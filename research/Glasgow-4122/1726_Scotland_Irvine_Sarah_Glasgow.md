@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [Sarah Glasgow (Glasgow-4122)](https://www.wikitree.com/wiki/Glasgow-4122). The duplicate record-only catalogue case is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-a8ea1428813a -->
 > **CREATED:** [Sarah Glasgow (Glasgow-4122)](https://www.wikitree.com/wiki/Glasgow-4122)
 

@@ -52,3 +52,11 @@ Compare the coroner’s inquest and subsequent reporting for an age, address or 
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [Belfast News-Letter, 1861-01-07, p.4](https://www.newspapers.com/image/387764534/): no longer a candidate for this profile. Accident report (Belfast News-Letter, 7 Jan 1861) from Rasharkin: Robert Glasgow, a neighbour at Lisnagaver, warned James M'Caughern about a dangerous gable, escaped its fall and raised the alarm. Robert is probably Glasgow-938, who lived at Lisnagaver in 1851 and 1866. James M'Caughern is unresolved. No kin are stated.
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow, Irish civil death registration 1868 Ballymoney aged 71, volume 1 page 126. This is consistent with the already inspected original workhouse death on 31 March 1868 under Glasgow-3449. It adds a provider ID, not a new death discovery or proof of the separate Lisnagaver farmer identity. Birth 1797 remains age-derived; no new exact event date is supplied by this index. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [IRE/BMD/D/617063149](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063149&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

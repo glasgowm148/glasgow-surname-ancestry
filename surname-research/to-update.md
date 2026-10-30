@@ -1178,33 +1178,33 @@ READY rows have passed the distinct-person and no-compatible-profile checks; doc
 | Joan Glasgow | OPEN | Add 19 Jul 1702 Findmypast evidence (fmp-glasgow-12395 e 3 a 9 d 9 b); READY | [Draft](research/Glasgow-4105/1702_Scotland_Stevenston_Joan_Glasgow.md) |
 | Janet Glasgow | OPEN | Add 14 Aug 1703 Findmypast evidence (fmp-glasgow-5333 ccc 1 e 75 f); READY | [Draft](research/Glasgow-4112/1703_Scotland_Irvine_Janet_Glasgow.md) |
 | John Glasgow | OPEN | Add 1707 Findmypast evidence (fmp-glasgow-baa 0969903 c 8); READY | [Draft](research/Glasgow-4127/1707_British_West_Indies_unknown_John_Glasgow.md) |
-| Margaret Glasgow | OPEN | Add 04 Mar 1708 Findmypast evidence (fmp-glasgow-984 fa 1 db 3 c 1 a); READY | [Draft](research/Glasgow-4119/1708_Scotland_Irvine_Margaret_Glasgow.md) |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-4119) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4119. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4119/1708_Scotland_Irvine_Margaret_Glasgow.md) |
 | James Glasgow | OPEN | Add 19 Aug 1711 Findmypast evidence (fmp-glasgow-015 f 1040785 c); READY | [Draft](research/Glasgow-4100/1711_Scotland_Irvine_James_Glasgow.md) |
 | Agnes Glasgow | OPEN | Add 17 Feb 1712 Findmypast evidence (fmp-glasgow-aedca 3 d 838 c 1); READY | [Draft](research/Glasgow-4123/1712_Scotland_Walston_Agnes_Glasgow.md) |
-| Mary Glasgow | OPEN | Add 23 Jun 1713 Findmypast evidence (fmp-glasgow-0840 d 67 a 902 e); READY | [Draft](research/Glasgow-4102/1713_Scotland_Irvine_Mary_Glasgow.md) |
-| Margaret Glasgow | OPEN | Add 17 Feb 1717 Findmypast evidence (fmp-glasgow-5286617 ad 4 ee); READY | [Draft](research/Glasgow-4111/1717_Scotland_Stevenston_Margaret_Glasgow.md) |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-4102) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4102. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4102/1713_Scotland_Irvine_Mary_Glasgow.md) |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-4111) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4111. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4111/1717_Scotland_Stevenston_Margaret_Glasgow.md) |
 | Euphan Glasgow | OPEN | Add 10 Aug 1718 Findmypast evidence (fmp-glasgow-1 acad 1415 f 85); READY | [Draft](research/Glasgow-4106/1718_Scotland_Stevenston_Euphan_Glasgow.md) |
-| Janet Glasgow | OPEN | Add 22 Apr 1718 Findmypast evidence (fmp-glasgow-c 7 dabfad 5 c 23); READY | [Draft](research/Glasgow-4130/1718_Scotland_Libberton_Janet_Glasgow.md) |
+| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-4130) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4130. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4130/1718_Scotland_Libberton_Janet_Glasgow.md) |
 | Agnes Glasgow | OPEN | Add 21 Aug 1720 Findmypast evidence (fmp-glasgow-ce 7 a 886 e 0868); READY | [Draft](research/Glasgow-4133/1720_Scotland_Libberton_Agnes_Glasgow.md) |
-| James Glasgow | OPEN | Add 11 Apr 1721 Findmypast evidence (fmp-glasgow-c 5 f 9840 e 310 b); READY | [Draft](research/Glasgow-4129/1721_Scotland_Irvine_James_Glasgow.md) |
-| William Glasgow | OPEN | Add 03 Feb 1723 Findmypast evidence (fmp-glasgow-9 bf 49 e 7 b 9 bd 1); READY | [Draft](research/Glasgow-4120/1723_Scotland_Irvine_William_Glasgow.md) |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-4129) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4129. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4129/1721_Scotland_Irvine_James_Glasgow.md) |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-4120) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4120. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4120/1723_Scotland_Irvine_William_Glasgow.md) |
 | Edwd Glasgow | OPEN | Add 1726 Findmypast evidence (fmp-glasgow-e 0 a 45 e 457988); READY | [Draft](research/Glasgow-4136/1726_England_London_Edward_Glasgow.md) |
 | Elizabeth Glasgow | OPEN | Add 10 Jun 1726 Findmypast evidence (fmp-glasgow-1 f 9 a 4 ce 7 f 9 bb); READY | [Draft](research/Glasgow-4107/1726_Scotland_Libberton_Elizabeth_Glasgow.md) |
-| Sarah Glasgow | OPEN | Add 03 Jul 1726 Findmypast evidence (fmp-glasgow-a 8 ea 1428813 a); READY | [Draft](research/Glasgow-4122/1726_Scotland_Irvine_Sarah_Glasgow.md) |
+| [Sarah Glasgow](https://www.wikitree.com/wiki/Glasgow-4122) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4122. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4122/1726_Scotland_Irvine_Sarah_Glasgow.md) |
 | Jean Glasgow | OPEN | Add 01 Oct 1732 Findmypast evidence (fmp-glasgow-54571 dfc 429 a); READY | [Draft](research/Glasgow-4113/1732_Scotland_Dundonald_Jean_Glasgow.md) |
-| Mary Glasgow | OPEN | Add 17 Dec 1732 Findmypast evidence (fmp-glasgow-fba 04 c 067 c 7 c); READY | [Draft](research/Glasgow-4142/1732_Scotland_Kilmarnock_Mary_Glasgow.md) |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-4142) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4142. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4142/1732_Scotland_Kilmarnock_Mary_Glasgow.md) |
 | James Glasgow | OPEN | Add 1733 Findmypast evidence (fmp-glasgow-b 741 e 434199 b); READY | [Draft](research/Glasgow-4124/1733_Scotland_unknown_James_Glasgow.md) |
-| William Glasgow | OPEN | Add 12 Jun 1733 Findmypast evidence (fmp-glasgow-033 cb 073721 c); READY | [Draft](research/Glasgow-4101/1733_Scotland_Dundonald_William_Glasgow.md) |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-4101) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4101. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4101/1733_Scotland_Dundonald_William_Glasgow.md) |
 | John Glasgow | OPEN | Add 10 Oct 1736 Findmypast evidence (fmp-glasgow-96 dde 749 c 693); READY | [Draft](research/Glasgow-4118/1736_Scotland_Irvine_John_Glasgow.md) |
-| Margaret Glasgow | OPEN | Add 31 Aug 1738 Findmypast evidence (fmp-glasgow-6 cc 997 e 45 c 40); READY | [Draft](research/Glasgow-4115/1738_Scotland_Kilmarnock_Margaret_Glasgow.md) |
+| [Margaret Glasgow](https://www.wikitree.com/wiki/Glasgow-4115) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4115. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4115/1738_Scotland_Kilmarnock_Margaret_Glasgow.md) |
 | Isabel Glasgow | OPEN | Add 26 Apr 1741 Findmypast evidence (fmp-glasgow-a 2 dbbb 6 de 106); READY | [Draft](research/Glasgow-4121/1741_Scotland_Irvine_Isabel_Glasgow.md) |
 | Hugh Glasgow | OPEN | Add 29 Aug 1742 Findmypast evidence (fmp-glasgow-120 b 52 e 4 bd 76); READY | [Draft](research/Glasgow-4104/1742_Scotland_Kilmarnock_Hugh_Glasgow.md) |
 | Allan Glasgow | CLOSED | Earlier creation READY withdrawn 23 October 2026: Findmypast `SCOT/OPR/BAP/3575202` already supports existing Glasgow-4110; retain the separate outstanding father-field amendment. | [Findings](../research/Glasgow-4110/findings.md) |
 | Magdalen Glasgow | OPEN | Add 29 Mar 1743 Findmypast evidence (fmp-glasgow-10 ad 472195 e 9); READY | [Draft](research/Glasgow-4103/1743_Scotland_Irvine_Magdalen_Glasgow.md) |
 | Mary Glasgow | OPEN | Add 11 Apr 1744 Findmypast evidence (fmp-glasgow-32 d 4 ff 293591); READY | [Draft](research/Glasgow-4108/1744_Scotland_Kilmarnock_Mary_Glasgow.md) |
-| Mary Glasgow | OPEN | Add 21 Apr 1745 Findmypast evidence (fmp-glasgow-ba 0 ccce 5 c 268); READY | [Draft](research/Glasgow-4126/1745_Scotland_Irvine_Mary_Glasgow.md) |
+| [Mary Glasgow](https://www.wikitree.com/wiki/Glasgow-4126) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4126. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4126/1745_Scotland_Irvine_Mary_Glasgow.md) |
 | Susanna Glasgow | OPEN | Add 29 Mar 1747 Findmypast evidence (fmp-glasgow-c 487 f 88 da 30 e); READY | [Draft](research/Glasgow-4128/1747_Scotland_Irvine_Susanna_Glasgow.md) |
-| Janet Glasgow | OPEN | Add 17 Jul 1748 Findmypast evidence (fmp-glasgow-e 37 cff 91091 d); READY | [Draft](research/Glasgow-4137/1748_Scotland_Kilbirnie_Janet_Glasgow.md) |
+| [Janet Glasgow](https://www.wikitree.com/wiki/Glasgow-4137) | DONE | Retired duplicate creation case; exact record already belongs to Glasgow-4137. Separate existing profile amendments remain open. | [Historical draft](research/Glasgow-4137/1748_Scotland_Kilbirnie_Janet_Glasgow.md) |
 | Elizabeth Glasgow | OPEN | Add 15 Jun 1749 Findmypast evidence (fmp-glasgow-d 96763598 f 21); READY | [Draft](research/Glasgow-4135/1749_Scotland_Covington_Thankerton_Elizabeth_Glasgow.md) |
 | Thomas Glasgow | OPEN | Add 09 Feb 1749 Findmypast evidence (fmp-glasgow-37 b 7 f 7 e 8 fed 2); READY | [Draft](research/Glasgow-4109/1749_Scotland_Edinburgh_Thomas_Glasgow.md) |
 | William Glasgow | OPEN | Add 01 Dec 1749 Findmypast evidence (fmp-glasgow-f 325 c 7334 f 8 a); READY | [Draft](research/Glasgow-4139/1749_Scotland_Kilbirnie_William_Glasgow.md) |
@@ -4411,3 +4411,7 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-4133) | OPEN | Add Katherine Wilson-127539 as mother, 95% confident household identification from the 1720 and 1722 named-parent records; current father and vitals retained. |
 | [Katherine Wilson](https://www.wikitree.com/wiki/Wilson-127539) | OPEN | Add the sourced Agnes1720 daughter comparison at95%; preserve John’s separate American identity limit and Katherine’s unknown ancestry. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-3407) | OPEN | Correct the superseded1720 Watson comparison to Wilson; retain the23% father hypothesis and unmerged Robert accounts. |
+
+## 30 October 2026 — Findmypast pages 30–32
+
+| [Montgomry Glasgow](https://www.wikitree.com/wiki/Glasgow-1234) | OPEN | Record explicit birth 13 October 1760, retain baptism 16 December, current 92% father assessment and complete sourced proposal. |

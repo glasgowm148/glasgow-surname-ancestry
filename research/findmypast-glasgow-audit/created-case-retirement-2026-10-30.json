@@ -1,0 +1,1123 @@
+{
+  "reviewed_on": "2026-10-30",
+  "basis": "Explicit CREATED receipts and checked current same-name/same-event models share exact retained Findmypast provider IDs. These are duplicate publication placeholders, not separate authoritative people or new genealogy joins.",
+  "database_person_merge_required": false,
+  "verified_live_route_receipts": [
+    {
+      "old": "record-fmp-glasgow-033cb073721c",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-033cb073721c.html",
+      "checked_at": "2026-10-30T10:02:00.686114+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-033cb073721c.html",
+      "body_sha256": "bc204a6a36d6b6722d42f831d7dc3fd5ecab9ce2b795423feea9f60eb8007e4d",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-0840d67a902e",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-0840d67a902e.html",
+      "checked_at": "2026-10-30T10:02:00.686851+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-0840d67a902e.html",
+      "body_sha256": "e39ccdc5849be2bb9f0d383d59b2e1cbfe72ae6603ae6a5f4fac5e6caa921244",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-5286617ad4ee",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-5286617ad4ee.html",
+      "checked_at": "2026-10-30T10:02:00.686965+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-5286617ad4ee.html",
+      "body_sha256": "3391994add71f17d03b90d5ceb6bda4250c2ea2efd2e3a9cb3c43bdb661bed7b",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-6cc997e45c40",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-6cc997e45c40.html",
+      "checked_at": "2026-10-30T10:02:00.928323+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-6cc997e45c40.html",
+      "body_sha256": "9be5a3ce16c178df205f76380aee07ba1d6fbaeda82bf68552c45eaede86ab09",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-984fa1db3c1a",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-984fa1db3c1a.html",
+      "checked_at": "2026-10-30T10:02:00.929952+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-984fa1db3c1a.html",
+      "body_sha256": "605dbe6a05f88ff9e576f30bd4ad7e79ead66935ae66fe875f95c2f5e0072965",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-9bf49e7b9bd1",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-9bf49e7b9bd1.html",
+      "checked_at": "2026-10-30T10:02:00.938333+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-9bf49e7b9bd1.html",
+      "body_sha256": "ca149bc062e0f3d30f87addffb65f44f217bd31353e65b437792d50685cd775f",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-a8ea1428813a",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-a8ea1428813a.html",
+      "checked_at": "2026-10-30T10:02:01.030606+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-a8ea1428813a.html",
+      "body_sha256": "2b015e8869de964c3b3019569bf94868d0fdc747ebcc2a8f98a8fbbce58cf90c",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-ba0ccce5c268",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-ba0ccce5c268.html",
+      "checked_at": "2026-10-30T10:02:01.031748+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-ba0ccce5c268.html",
+      "body_sha256": "90878ec51788ae24c79085406b7dff9c9427431534cce795a3b77067b3648f93",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-c5f9840e310b",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-c5f9840e310b.html",
+      "checked_at": "2026-10-30T10:02:01.055651+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-c5f9840e310b.html",
+      "body_sha256": "e27810808d89b154f505aa85f40f246a486e67dac99c916424423f42b8b2d3e9",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-c7dabfad5c23",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-c7dabfad5c23.html",
+      "checked_at": "2026-10-30T10:02:01.113063+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-c7dabfad5c23.html",
+      "body_sha256": "4f023df28817de267114e190a80ca4afa9c1f6093b38568812c8b9f1bc9b05d9",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-e37cff91091d",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-e37cff91091d.html",
+      "checked_at": "2026-10-30T10:02:01.113241+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-e37cff91091d.html",
+      "body_sha256": "c4dd88df4a41ea331e06e997af357c21c478b3159f097f9321772e0c3998af72",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    },
+    {
+      "old": "record-fmp-glasgow-fba04c067c7c",
+      "url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-fba04c067c7c.html",
+      "checked_at": "2026-10-30T10:02:01.133325+00:00",
+      "status": 200,
+      "final_url": "https://glasgow.phenotype.dev/people/record-fmp-glasgow-fba04c067c7c.html",
+      "body_sha256": "6e70298a9030130862846cc8db8d216a63aedba7b6e61f9405e06d93bbd1b554",
+      "person_name_found": true,
+      "identity_route_found": true,
+      "published_html": true
+    }
+  ],
+  "cases": [
+    {
+      "group_id": "fmp-glasgow-033cb073721c",
+      "old": "record-fmp-glasgow-033cb073721c",
+      "profile_id": "Glasgow-4101",
+      "path": "research/Glasgow-4101/1733_Scotland_Dundonald_William_Glasgow.md",
+      "status": null,
+      "old_name": "William Glasgow",
+      "current_name": "William Glasgow",
+      "old_birth": {
+        "date": "c. 1733 (estimated)",
+        "place": "Dundonald, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1733-06-12",
+        "place": "Dundonald, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3536725"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4101 already represent William Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3536725. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Dundonald baptism naming mother Barbara Stevenson is distinct from the Irish-American candidate."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1733,
+        "group_id": "fmp-glasgow-033cb073721c",
+        "handoff_path": "surname-research/new-people/1733_Scotland_Dundonald_William_Glasgow.md",
+        "match_audit_present": true,
+        "name": "William Glasgow",
+        "notes": "The Dundonald baptism naming mother Barbara Stevenson is distinct from the Irish-American candidate.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-033cb073721c"
+      },
+      "previous_register_rows": [
+        "| William Glasgow | OPEN | Add 12 Jun 1733 Findmypast evidence (fmp-glasgow-033 cb 073721 c); READY | [Draft](research/Glasgow-4101/1733_Scotland_Dundonald_William_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "82771ec2d69a30abd1ab470488518af13a8d68ed62ed32524df3c9379b5bb9ff",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1733-06-12",
+          "place": "Dundonald, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "668afe8bf701cb4cfc6cceaecbd5a3349e3b0b0acafa5318478afad16b2fb8d9",
+      "retired_catalogue_id": "record-fmp-glasgow-033cb073721c",
+      "canonical_profile_id": "Glasgow-4101",
+      "authoritative_external_alias_id": "xid-dc50e2c7ebb9ef21",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-3586",
+          "probability": 0.52,
+          "assertion_id": "C-working-20261021-dundonald-william-father"
+        },
+        {
+          "id": "Stevenson-14560",
+          "probability": 0.99,
+          "assertion_id": "C-reviewed-20261021-dundonald-william-mother"
+        }
+      ],
+      "preserved_parents_sha256": "1f620973d792e3057dc65ce9c596f7e18c5d77ee65c581969cee87090311a748"
+    },
+    {
+      "group_id": "fmp-glasgow-0840d67a902e",
+      "old": "record-fmp-glasgow-0840d67a902e",
+      "profile_id": "Glasgow-4102",
+      "path": "research/Glasgow-4102/1713_Scotland_Irvine_Mary_Glasgow.md",
+      "status": null,
+      "old_name": "Mary Glasgow",
+      "current_name": "Mary Glasgow",
+      "old_birth": {
+        "date": "c. 1713 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1713-06-23",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3573064"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4102 already represent Mary Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3573064. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Irvine baptism and John Glasgow/Isabell Kylle parents distinguish this Mary from the candidate."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1713,
+        "group_id": "fmp-glasgow-0840d67a902e",
+        "handoff_path": "surname-research/new-people/1713_Scotland_Irvine_Mary_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Mary Glasgow",
+        "notes": "The Irvine baptism and John Glasgow/Isabell Kylle parents distinguish this Mary from the candidate.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-0840d67a902e"
+      },
+      "previous_register_rows": [
+        "| Mary Glasgow | OPEN | Add 23 Jun 1713 Findmypast evidence (fmp-glasgow-0840 d 67 a 902 e); READY | [Draft](research/Glasgow-4102/1713_Scotland_Irvine_Mary_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "bcd8ed1a1e4e74321295a9f98d66fdd1ef7b175ecea1ae7779d3bfb967bcc0c5",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1713-06-23",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "bf714777821683033b41726a01b22b978c60c0e029eaef87b3f1094bf83fb148",
+      "retired_catalogue_id": "record-fmp-glasgow-0840d67a902e",
+      "canonical_profile_id": "Glasgow-4102",
+      "authoritative_external_alias_id": "xid-0c9e649bb23a80a9",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-2475",
+          "probability": 0.99,
+          "assertion_id": "C-coverage-20261022f-glasgow-4102-father"
+        },
+        {
+          "id": "Kyle-2471",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "preserved_parents_sha256": "5cf77ac240c1abf0f69e317f0d30e93f7c49db5fdf67703fb86cd3cf493704a1"
+    },
+    {
+      "group_id": "fmp-glasgow-5286617ad4ee",
+      "old": "record-fmp-glasgow-5286617ad4ee",
+      "profile_id": "Glasgow-4111",
+      "path": "research/Glasgow-4111/1717_Scotland_Stevenston_Margaret_Glasgow.md",
+      "status": null,
+      "old_name": "Margaret Glasgow",
+      "current_name": "Margaret Glasgow",
+      "old_birth": {
+        "date": "c. 1717 (estimated)",
+        "place": "Stevenston, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1717-02-17",
+        "place": "Stevenston, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/0369031"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4111 already represent Margaret Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/0369031. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Stevenston baptism and James Glasgow/Mary Auld parents distinguish this Margaret from all candidates."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 2,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1717,
+        "group_id": "fmp-glasgow-5286617ad4ee",
+        "handoff_path": "surname-research/new-people/1717_Scotland_Stevenston_Margaret_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Margaret Glasgow",
+        "notes": "The Stevenston baptism and James Glasgow/Mary Auld parents distinguish this Margaret from all candidates.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-5286617ad4ee"
+      },
+      "previous_register_rows": [
+        "| Margaret Glasgow | OPEN | Add 17 Feb 1717 Findmypast evidence (fmp-glasgow-5286617 ad 4 ee); READY | [Draft](research/Glasgow-4111/1717_Scotland_Stevenston_Margaret_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "6e84d5db5d43f443c18c96a629199bcc03f8f3ae13916e1a159a3375090e0040",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1717-02-17",
+          "place": "Stevenston, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "aa32447da95c6b78e57412adc96a26242efde7fafea4a4c831f12d5876c91060",
+      "retired_catalogue_id": "record-fmp-glasgow-5286617ad4ee",
+      "canonical_profile_id": "Glasgow-4111",
+      "authoritative_external_alias_id": "xid-a017bd36dd1946e2",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4170",
+          "probability": 0.99,
+          "assertion_id": "C-coverage-20261022f-glasgow-4111-father"
+        },
+        {
+          "id": "Auld-2246",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "preserved_parents_sha256": "5f73282f496729bee88bcbbf53aebeed27540668c5320679bd8247c14769f112"
+    },
+    {
+      "group_id": "fmp-glasgow-6cc997e45c40",
+      "old": "record-fmp-glasgow-6cc997e45c40",
+      "profile_id": "Glasgow-4115",
+      "path": "research/Glasgow-4115/1738_Scotland_Kilmarnock_Margaret_Glasgow.md",
+      "status": null,
+      "old_name": "Margaret Glasgow",
+      "current_name": "Margaret Glasgow",
+      "old_birth": {
+        "date": "c. 1738 (estimated)",
+        "place": "Kilmarnock, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "1738-08-19",
+        "place": "Kilmarnock, Ayrshire, Scotland",
+        "status": "exact"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3599918"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4115 already represent Margaret Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3599918. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McGlashan parents conflict with all candidates."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 2,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1738,
+        "group_id": "fmp-glasgow-6cc997e45c40",
+        "handoff_path": "surname-research/new-people/1738_Scotland_Kilmarnock_Margaret_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Margaret Glasgow",
+        "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McGlashan parents conflict with all candidates.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-6cc997e45c40"
+      },
+      "previous_register_rows": [
+        "| Margaret Glasgow | OPEN | Add 31 Aug 1738 Findmypast evidence (fmp-glasgow-6 cc 997 e 45 c 40); READY | [Draft](research/Glasgow-4115/1738_Scotland_Kilmarnock_Margaret_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "489780c7efb38fa3730d33367f85b52af3baf707924550c066eba1868e4607e5",
+      "current_vitals": {
+        "birth": {
+          "date": "1738-08-19",
+          "place": "Kilmarnock, Ayrshire, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "a44ca950c88a78e6c1d50e7f897ab51d31d30075fc3ac7754c572103b6018ecd",
+      "retired_catalogue_id": "record-fmp-glasgow-6cc997e45c40",
+      "canonical_profile_id": "Glasgow-4115",
+      "authoritative_external_alias_id": "xid-07828af53f2f898a",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-1929",
+          "probability": 0.99,
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4115-father"
+        },
+        {
+          "id": "McEachin-120",
+          "probability": 0.84,
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4115-mother"
+        }
+      ],
+      "preserved_parents_sha256": "c2c05f58a9cf07a086c01bf35d5b3cf4722900b42f436a33ee604739f17680f3"
+    },
+    {
+      "group_id": "fmp-glasgow-984fa1db3c1a",
+      "old": "record-fmp-glasgow-984fa1db3c1a",
+      "profile_id": "Glasgow-4119",
+      "path": "research/Glasgow-4119/1708_Scotland_Irvine_Margaret_Glasgow.md",
+      "status": null,
+      "old_name": "Margaret Glasgow",
+      "current_name": "Margaret Glasgow",
+      "old_birth": {
+        "date": "c. 1708 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1708-03-04",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3572795"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4119 already represent Margaret Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3572795. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The 1708 Irvine baptism and John Glasgow/Isabel Keill parents conflict with the candidate."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1708,
+        "group_id": "fmp-glasgow-984fa1db3c1a",
+        "handoff_path": "surname-research/new-people/1708_Scotland_Irvine_Margaret_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Margaret Glasgow",
+        "notes": "The 1708 Irvine baptism and John Glasgow/Isabel Keill parents conflict with the candidate.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-984fa1db3c1a"
+      },
+      "previous_register_rows": [
+        "| Margaret Glasgow | OPEN | Add 04 Mar 1708 Findmypast evidence (fmp-glasgow-984 fa 1 db 3 c 1 a); READY | [Draft](research/Glasgow-4119/1708_Scotland_Irvine_Margaret_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "473dab734d2300c7a119ad2fb02ff53c9af9818b6075fb3871e2205edc373980",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1708-03-04",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "c34360d1def1d4a855c2b06d3b1d3cbbaf4ff2e91c3bbae9d4e21cb83a9ac5d1",
+      "retired_catalogue_id": "record-fmp-glasgow-984fa1db3c1a",
+      "canonical_profile_id": "Glasgow-4119",
+      "authoritative_external_alias_id": "xid-a5d1ffd7bd4056a5",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-2475",
+          "probability": 0.99,
+          "assertion_id": "C-coverage-20261022f-glasgow-4119-father"
+        },
+        {
+          "id": "Kyle-2471",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "preserved_parents_sha256": "758c39df754e445cf3fb895030d4de81086880d96c9a670136ce6b388ca61d92"
+    },
+    {
+      "group_id": "fmp-glasgow-9bf49e7b9bd1",
+      "old": "record-fmp-glasgow-9bf49e7b9bd1",
+      "profile_id": "Glasgow-4120",
+      "path": "research/Glasgow-4120/1723_Scotland_Irvine_William_Glasgow.md",
+      "status": null,
+      "old_name": "William Glasgow",
+      "current_name": "William Glasgow",
+      "old_birth": {
+        "date": "c. 1723 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1723-02-03",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3573825"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4120 already represent William Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3573825. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The 1723 Irvine baptism and James Glasgow/Marion Rae parents distinguish this William from the County Tyrone candidate."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1723,
+        "group_id": "fmp-glasgow-9bf49e7b9bd1",
+        "handoff_path": "surname-research/new-people/1723_Scotland_Irvine_William_Glasgow.md",
+        "match_audit_present": true,
+        "name": "William Glasgow",
+        "notes": "The 1723 Irvine baptism and James Glasgow/Marion Rae parents distinguish this William from the County Tyrone candidate.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-9bf49e7b9bd1"
+      },
+      "previous_register_rows": [
+        "| William Glasgow | OPEN | Add 03 Feb 1723 Findmypast evidence (fmp-glasgow-9 bf 49 e 7 b 9 bd 1); READY | [Draft](research/Glasgow-4120/1723_Scotland_Irvine_William_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "152cbe8f517ef8520905889cae04958f888b19060af55a97f0415916d79d36b4",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1723-02-03",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "28458288fb12ea7c59ad87335b5e94182be69ac8c4ea90c21679a23637498b04",
+      "retired_catalogue_id": "record-fmp-glasgow-9bf49e7b9bd1",
+      "canonical_profile_id": "Glasgow-4120",
+      "authoritative_external_alias_id": "xid-77268d3ea2a70a3e",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4158",
+          "probability": 0.97,
+          "assertion_id": "C-coverage-20261022f-glasgow-4120-father"
+        },
+        {
+          "id": "Rae-3515",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "preserved_parents_sha256": "041fa21af6dfa61889e094cafd8a48beca9a49aed50469cc72d5af21b6854a33"
+    },
+    {
+      "group_id": "fmp-glasgow-a8ea1428813a",
+      "old": "record-fmp-glasgow-a8ea1428813a",
+      "profile_id": "Glasgow-4122",
+      "path": "research/Glasgow-4122/1726_Scotland_Irvine_Sarah_Glasgow.md",
+      "status": null,
+      "old_name": "Sarah Glasgow",
+      "current_name": "Sarah Glasgow",
+      "old_birth": {
+        "date": "c. 1726 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1726-07-03",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3574134"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4122 already represent Sarah Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3574134. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Irvine baptism and John Glasgow/Agnes Ferguson parents distinguish Sarah from the Kilwinning candidate."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1726,
+        "group_id": "fmp-glasgow-a8ea1428813a",
+        "handoff_path": "surname-research/new-people/1726_Scotland_Irvine_Sarah_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Sarah Glasgow",
+        "notes": "The Irvine baptism and John Glasgow/Agnes Ferguson parents distinguish Sarah from the Kilwinning candidate.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-a8ea1428813a"
+      },
+      "previous_register_rows": [
+        "| Sarah Glasgow | OPEN | Add 03 Jul 1726 Findmypast evidence (fmp-glasgow-a 8 ea 1428813 a); READY | [Draft](research/Glasgow-4122/1726_Scotland_Irvine_Sarah_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "76a8c8a12efb60b807885a6dabedb90e8e2dcdf470ad3ade55b2ddbac51f9d25",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1726-07-03",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "21ccdf50db998c27044f7f69e4a0a828a7b44da6fbd649ae15682ddd3072ca49",
+      "retired_catalogue_id": "record-fmp-glasgow-a8ea1428813a",
+      "canonical_profile_id": "Glasgow-4122",
+      "authoritative_external_alias_id": "xid-608a5b1cde33a576",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-1077",
+          "probability": 0.95,
+          "assertion_id": "C-coverage-20261022f-glasgow-4122-father"
+        },
+        {
+          "id": "Ferguson-15168",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "preserved_parents_sha256": "44e3186a99b5d7240e7db92ee00f71c8f2fd695f714a53e0a9f81a4aeb75d5ab"
+    },
+    {
+      "group_id": "fmp-glasgow-ba0ccce5c268",
+      "old": "record-fmp-glasgow-ba0ccce5c268",
+      "profile_id": "Glasgow-4126",
+      "path": "research/Glasgow-4126/1745_Scotland_Irvine_Mary_Glasgow.md",
+      "status": null,
+      "old_name": "Mary Glasgow",
+      "current_name": "Mary Glasgow",
+      "old_birth": {
+        "date": "c. 1745 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "1745-04-13",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "exact"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3575366"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4126 already represent Mary Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3575366. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The 1745 Irvine birth/baptism and George Glasgow/Margaret family conflict with the Livingston candidate."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1745,
+        "group_id": "fmp-glasgow-ba0ccce5c268",
+        "handoff_path": "surname-research/new-people/1745_Scotland_Irvine_Mary_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Mary Glasgow",
+        "notes": "The 1745 Irvine birth/baptism and George Glasgow/Margaret family conflict with the Livingston candidate.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-ba0ccce5c268"
+      },
+      "previous_register_rows": [
+        "| Mary Glasgow | OPEN | Add 21 Apr 1745 Findmypast evidence (fmp-glasgow-ba 0 ccce 5 c 268); READY | [Draft](research/Glasgow-4126/1745_Scotland_Irvine_Mary_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "241599083f1f1ec9eb40531bfbd274702bed4fa661c7bc27cdaae980c8406924",
+      "current_vitals": {
+        "birth": {
+          "date": "1745-04-13",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "e86ee22d615b2959426025aa943a9fbeab3fb3de018b1764b0a0f124f8f26005",
+      "retired_catalogue_id": "record-fmp-glasgow-ba0ccce5c268",
+      "canonical_profile_id": "Glasgow-4126",
+      "authoritative_external_alias_id": "xid-f91bc2ca09c4c06d",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4165",
+          "probability": 0.98,
+          "assertion_id": "C-coverage-20261022g-glasgow-4126-father"
+        }
+      ],
+      "preserved_parents_sha256": "999b8daafba6c0f08304fcca78e97fd8b22e39c06f423d09d12a30cf70fbba66"
+    },
+    {
+      "group_id": "fmp-glasgow-c5f9840e310b",
+      "old": "record-fmp-glasgow-c5f9840e310b",
+      "profile_id": "Glasgow-4129",
+      "path": "research/Glasgow-4129/1721_Scotland_Irvine_James_Glasgow.md",
+      "status": null,
+      "old_name": "James Glasgow",
+      "current_name": "James Glasgow",
+      "old_birth": {
+        "date": "c. 1721 (estimated)",
+        "place": "Irvine, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1721-04-11",
+        "place": "Irvine, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3573667"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4129 already represent James Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3573667. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The 1721 Irvine baptism and James Glasgow/Margaret Rae parents conflict with all candidates."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 6,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1721,
+        "group_id": "fmp-glasgow-c5f9840e310b",
+        "handoff_path": "surname-research/new-people/1721_Scotland_Irvine_James_Glasgow.md",
+        "match_audit_present": true,
+        "name": "James Glasgow",
+        "notes": "The 1721 Irvine baptism and James Glasgow/Margaret Rae parents conflict with all candidates.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-c5f9840e310b"
+      },
+      "previous_register_rows": [
+        "| James Glasgow | OPEN | Add 11 Apr 1721 Findmypast evidence (fmp-glasgow-c 5 f 9840 e 310 b); READY | [Draft](research/Glasgow-4129/1721_Scotland_Irvine_James_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "aca6a1d250196e7a6deae5dca1ebbef30692a5109ad22a8c26620cc0880fb431",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1721-04-11",
+          "place": "Irvine, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "5eccfb0cfe57e3964e8e0b5714fa81b9012c49dfa79b94d6f714a2d1ae1bac75",
+      "retired_catalogue_id": "record-fmp-glasgow-c5f9840e310b",
+      "canonical_profile_id": "Glasgow-4129",
+      "authoritative_external_alias_id": "xid-18eaa5e1ec57b294",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4158",
+          "probability": 0.99,
+          "assertion_id": "C-coverage-20261022f-glasgow-4129-father"
+        },
+        {
+          "id": "Rae-3513",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "preserved_parents_sha256": "dbe82c0ecbc18d0c8192bffc3a4d6f3be579f6cf5d1292049dbb1626acba2b1b"
+    },
+    {
+      "group_id": "fmp-glasgow-c7dabfad5c23",
+      "old": "record-fmp-glasgow-c7dabfad5c23",
+      "profile_id": "Glasgow-4130",
+      "path": "research/Glasgow-4130/1718_Scotland_Libberton_Janet_Glasgow.md",
+      "status": null,
+      "old_name": "Janet Glasgow",
+      "current_name": "Janet Glasgow",
+      "old_birth": {
+        "date": "c. 1718 (estimated)",
+        "place": "Libberton, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1718-04-22",
+        "place": "Libberton, Lanarkshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/4033250"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4130 already represent Janet Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/4033250. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The 1718 Libberton baptism and Robert Glasgow/Katherine Gibson parents distinguish Janet from Cunningham-20925."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1718,
+        "group_id": "fmp-glasgow-c7dabfad5c23",
+        "handoff_path": "surname-research/new-people/1718_Scotland_Libberton_Janet_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Janet Glasgow",
+        "notes": "The 1718 Libberton baptism and Robert Glasgow/Katherine Gibson parents distinguish Janet from Cunningham-20925.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-c7dabfad5c23"
+      },
+      "previous_register_rows": [
+        "| Janet Glasgow | OPEN | Add 22 Apr 1718 Findmypast evidence (fmp-glasgow-c 7 dabfad 5 c 23); READY | [Draft](research/Glasgow-4130/1718_Scotland_Libberton_Janet_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "eb4c7bb1b09f6c8e791446118fc3f3db62a42daa7fa9ed7fcb119b426fff6483",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1718-04-22",
+          "place": "Libberton, Lanarkshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "f53327f4aa113c6616f3f691d14a9ca4ad63ded62f38a24074c975497d5ec16c",
+      "retired_catalogue_id": "record-fmp-glasgow-c7dabfad5c23",
+      "canonical_profile_id": "Glasgow-4130",
+      "authoritative_external_alias_id": "xid-972fa34899916d3c",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-4168",
+          "probability": 0.91,
+          "assertion_id": "C-coverage-20261022f-glasgow-4130-father"
+        },
+        {
+          "id": "Gibson-37713",
+          "probability": null,
+          "assertion_id": null
+        }
+      ],
+      "preserved_parents_sha256": "cee78138a884e753cbfa9c8756d551ebe04e153d77f5abdd763328e00c95a797"
+    },
+    {
+      "group_id": "fmp-glasgow-e37cff91091d",
+      "old": "record-fmp-glasgow-e37cff91091d",
+      "profile_id": "Glasgow-4137",
+      "path": "research/Glasgow-4137/1748_Scotland_Kilbirnie_Janet_Glasgow.md",
+      "status": null,
+      "old_name": "Janet Glasgow",
+      "current_name": "Janet Glasgow",
+      "old_birth": {
+        "date": "c. 1748 (estimated)",
+        "place": "Kilbirnie, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "before 1748-07-17",
+        "place": "Kilbirnie, Ayrshire, Scotland",
+        "status": "uncertain"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3587035"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4137 already represent Janet Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3587035. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Kilbirnie baptism explicitly names Janet Glasgow and parents William Davies and Janet Kerr; it conflicts with Hood-6028."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 1,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1748,
+        "group_id": "fmp-glasgow-e37cff91091d",
+        "handoff_path": "surname-research/new-people/1748_Scotland_Kilbirnie_Janet_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Janet Glasgow",
+        "notes": "The Kilbirnie baptism explicitly names Janet Glasgow and parents William Davies and Janet Kerr; it conflicts with Hood-6028.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-e37cff91091d"
+      },
+      "previous_register_rows": [
+        "| Janet Glasgow | OPEN | Add 17 Jul 1748 Findmypast evidence (fmp-glasgow-e 37 cff 91091 d); READY | [Draft](research/Glasgow-4137/1748_Scotland_Kilbirnie_Janet_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "41e1485e30989fa0c7172b2fb773b95cd434156f5c183d83ded2e1ef88910e4c",
+      "current_vitals": {
+        "birth": {
+          "date": "before 1748-07-17",
+          "place": "Kilbirnie, Ayrshire, Scotland",
+          "status": "uncertain"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "da90b1d41a300e63ee0a4fa6b2f4df3bdf11bb838474da7fccd40aaae33275d8",
+      "retired_catalogue_id": "record-fmp-glasgow-e37cff91091d",
+      "canonical_profile_id": "Glasgow-4137",
+      "authoritative_external_alias_id": "xid-1054212ca410ffbb",
+      "preserved_parent_assessment_summary": [],
+      "preserved_parents_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "group_id": "fmp-glasgow-fba04c067c7c",
+      "old": "record-fmp-glasgow-fba04c067c7c",
+      "profile_id": "Glasgow-4142",
+      "path": "research/Glasgow-4142/1732_Scotland_Kilmarnock_Mary_Glasgow.md",
+      "status": null,
+      "old_name": "Mary Glasgow",
+      "current_name": "Mary Glasgow",
+      "old_birth": {
+        "date": "c. 1732 (estimated)",
+        "place": "Kilmarnock, Scotland",
+        "status": "estimated"
+      },
+      "current_birth": {
+        "date": "1732-12-15",
+        "place": "Kilmarnock, Ayrshire, Scotland",
+        "status": "exact"
+      },
+      "shared_provider_ids": [
+        "SCOT/OPR/BAP/3599128"
+      ],
+      "evidence_note": "The explicit CREATED draft and current Glasgow-4142 already represent Mary Glasgow at the same parish/event, citing the exact retained Findmypast record SCOT/OPR/BAP/3599128. Retire the duplicate record-only creation case; no new person, source discovery, relationship attachment or confidence change. Preserve the historical draft, current vital fields, parent assessments and any separate pending profile amendments.",
+      "previous_override": {
+        "outcome": "new_person",
+        "creation_status": "READY",
+        "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McEachan parents conflict with all candidates."
+      },
+      "previous_plan_decision": {
+        "candidate_count": 3,
+        "creation_status": "READY",
+        "decision_source": "human_override",
+        "event_year_start": 1732,
+        "group_id": "fmp-glasgow-fba04c067c7c",
+        "handoff_path": "surname-research/new-people/1732_Scotland_Kilmarnock_Mary_Glasgow.md",
+        "match_audit_present": true,
+        "name": "Mary Glasgow",
+        "notes": "The Kilmarnock birth/baptism and Hugh Glasgow/Margaret McEachan parents conflict with all candidates.",
+        "outcome": "new_person",
+        "profile_id": "",
+        "queue_status": "OPEN",
+        "queue_work": "",
+        "substantive_amendment": false,
+        "supplement_id": "fmp-glasgow-fba04c067c7c"
+      },
+      "previous_register_rows": [
+        "| Mary Glasgow | OPEN | Add 17 Dec 1732 Findmypast evidence (fmp-glasgow-fba 04 c 067 c 7 c); READY | [Draft](research/Glasgow-4142/1732_Scotland_Kilmarnock_Mary_Glasgow.md) |"
+      ],
+      "historical_draft_sha256_before": "87d07e05c41fa55b9e5a396ba465d149cf3d07be76e9a2388f69ae8c55c188bd",
+      "current_vitals": {
+        "birth": {
+          "date": "1732-12-15",
+          "place": "Kilmarnock, Ayrshire, Scotland",
+          "status": "exact"
+        },
+        "death": {
+          "date": null,
+          "place": null,
+          "status": null
+        }
+      },
+      "old_placeholder_json_sha256": "6c81406697389ea34130f778f0c583d718bb8c17132969d6257e1eac410114e7",
+      "retired_catalogue_id": "record-fmp-glasgow-fba04c067c7c",
+      "canonical_profile_id": "Glasgow-4142",
+      "authoritative_external_alias_id": "xid-748e548649dd5a86",
+      "preserved_parent_assessment_summary": [
+        {
+          "id": "Glasgow-1929",
+          "probability": 0.99,
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4142-father"
+        },
+        {
+          "id": "McEachin-120",
+          "probability": 0.98,
+          "assertion_id": "C-reviewed-20261021-kilmarnock-4142-mother"
+        }
+      ],
+      "preserved_parents_sha256": "63d04cc8bed1f5ef195fe0aaf71e7b19be378a33626132022202914609944784"
+    }
+  ],
+  "authoritative_aliases": [
+    {
+      "old": "record-fmp-glasgow-033cb073721c",
+      "target": "Glasgow-4101",
+      "external_id": "xid-dc50e2c7ebb9ef21"
+    },
+    {
+      "old": "record-fmp-glasgow-0840d67a902e",
+      "target": "Glasgow-4102",
+      "external_id": "xid-0c9e649bb23a80a9"
+    },
+    {
+      "old": "record-fmp-glasgow-5286617ad4ee",
+      "target": "Glasgow-4111",
+      "external_id": "xid-a017bd36dd1946e2"
+    },
+    {
+      "old": "record-fmp-glasgow-6cc997e45c40",
+      "target": "Glasgow-4115",
+      "external_id": "xid-07828af53f2f898a"
+    },
+    {
+      "old": "record-fmp-glasgow-984fa1db3c1a",
+      "target": "Glasgow-4119",
+      "external_id": "xid-a5d1ffd7bd4056a5"
+    },
+    {
+      "old": "record-fmp-glasgow-9bf49e7b9bd1",
+      "target": "Glasgow-4120",
+      "external_id": "xid-77268d3ea2a70a3e"
+    },
+    {
+      "old": "record-fmp-glasgow-a8ea1428813a",
+      "target": "Glasgow-4122",
+      "external_id": "xid-608a5b1cde33a576"
+    },
+    {
+      "old": "record-fmp-glasgow-ba0ccce5c268",
+      "target": "Glasgow-4126",
+      "external_id": "xid-f91bc2ca09c4c06d"
+    },
+    {
+      "old": "record-fmp-glasgow-c5f9840e310b",
+      "target": "Glasgow-4129",
+      "external_id": "xid-18eaa5e1ec57b294"
+    },
+    {
+      "old": "record-fmp-glasgow-c7dabfad5c23",
+      "target": "Glasgow-4130",
+      "external_id": "xid-972fa34899916d3c"
+    },
+    {
+      "old": "record-fmp-glasgow-e37cff91091d",
+      "target": "Glasgow-4137",
+      "external_id": "xid-1054212ca410ffbb"
+    },
+    {
+      "old": "record-fmp-glasgow-fba04c067c7c",
+      "target": "Glasgow-4142",
+      "external_id": "xid-748e548649dd5a86"
+    }
+  ]
+}

@@ -198,3 +198,11 @@ Role in this account: probable Robert of Mountgreenan adult; estate designation 
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow baptised 18 October 1747 at Kilbirnie, father Robert and mother Margarat Allan. This matches the baptism already discussed in Glasgow-1076, a companion provider ID rather than a new historical date. Preserve the existing birth-before-15-October boundary pending review of its source, father Glasgow-1075 at 99%, mother Allan-4046 and all prior sources. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [R_688617700](https://www.findmypast.co.uk/transcript?id=R_688617700&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

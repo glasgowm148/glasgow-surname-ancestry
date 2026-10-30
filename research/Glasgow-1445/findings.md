@@ -74,3 +74,12 @@ Next useful test: Read the 1735 parental clause and compare Calder miller record
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://familysearch.org/ark:/61903/1:1:VQ4K-FZN](https://familysearch.org/ark:/61903/1:1:VQ4K-FZN)
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow baptised 13 February 1735 at Kirknewton and East Calder, father James Glasgow; mother absent. Matches Glasgow-1445 and its baptism-based birth bound. Father Glasgow-1547 remains 57%; the index does not supply a mother or prove the adult paternal identity independently. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [R_686207970](https://www.findmypast.co.uk/transcript?id=R_686207970&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+- [R_691904286](https://www.findmypast.co.uk/transcript?id=R_691904286&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

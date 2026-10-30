@@ -61554,6 +61554,491 @@
           "previous_status_provenance": "Public WikiTree getRelatives readback30October2026, Glasgow-4133 Mother=0; receipt tmp/robert-3407-review-20261030/live-family-check.json. Previous source names were known but this mother profile was not selected."
         }
       ]
+    },
+    {
+      "id": "fmp-created-cases-retired-20261030",
+      "found_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Twelve stale Findmypast creation cases reconciled to existing Glasgow profiles using shared provider records and explicit CREATED drafts. Creation readiness withdrawn; historical accounts and redirects retained.",
+      "qualification": "This is catalogue reconciliation, not twelve new people or source discoveries. Existing vital dates and all relationship assessments are unchanged. Original registers remain uninspected; Findmypast coverage remains incomplete.",
+      "people": [
+        {
+          "id": "Glasgow-4101",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-4101.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4102",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-4102.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4111",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-4111.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4115",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-4115.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4119",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-4119.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4120",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-4120.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4122",
+          "name": "Sarah Glasgow",
+          "url": "/people/glasgow-4122.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4126",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-4126.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4129",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-4129.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4130",
+          "name": "Janet Glasgow",
+          "url": "/people/glasgow-4130.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4137",
+          "name": "Janet Glasgow",
+          "url": "/people/glasgow-4137.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        },
+        {
+          "id": "Glasgow-4142",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-4142.html",
+          "role": "Existing canonical person; duplicate creation case retired"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Glasgow-4101 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4101"
+        },
+        {
+          "title": "Glasgow-4102 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4102"
+        },
+        {
+          "title": "Glasgow-4111 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4111"
+        },
+        {
+          "title": "Glasgow-4115 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4115"
+        },
+        {
+          "title": "Glasgow-4119 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4119"
+        },
+        {
+          "title": "Glasgow-4120 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4120"
+        },
+        {
+          "title": "Glasgow-4122 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4122"
+        },
+        {
+          "title": "Glasgow-4126 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4126"
+        },
+        {
+          "title": "Glasgow-4129 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4129"
+        },
+        {
+          "title": "Glasgow-4130 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4130"
+        },
+        {
+          "title": "Glasgow-4137 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4137"
+        },
+        {
+          "title": "Glasgow-4142 retained source and CREATED-case reconciliation",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4142"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/created-case-retirement-2026-10-30.json"
+      ],
+      "detail_url": "/people/glasgow-4122.html"
+    },
+    {
+      "id": "fmp-pages30-32-reconciliation-20261030",
+      "found_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Pages 30–32: 52 newly captured provider derivatives reviewed in 39 documentary groups, with eight existing-source reuses. Montgomry’s explicit birth is 13 October 1760, distinct from baptism 16 December.",
+      "qualification": "Provider IDs are not independent discoveries or new people. Conflicting event labels, parental names, birth months and adult identities remain qualified. Existing family assessments are unchanged; no new person or relationship proposed. Whole-provider scope remains incomplete; originals uninspected.",
+      "people": [
+        {
+          "id": "Glasgow-1234",
+          "name": "Montgomry Glasgow",
+          "url": "/people/glasgow-1234.html"
+        },
+        {
+          "id": "Glasgow-1452",
+          "name": "Nathaniel Glasgow",
+          "url": "/people/glasgow-1452.html"
+        },
+        {
+          "id": "Glasgow-4014",
+          "name": "Nathaniel Glasgow",
+          "url": "/people/glasgow-4014.html"
+        },
+        {
+          "id": "Glasgow-3297",
+          "name": "Ninian Glasgow",
+          "url": "/people/glasgow-3297.html"
+        },
+        {
+          "id": "Glasgow-1225",
+          "name": "Patrick Glasgow",
+          "url": "/people/glasgow-1225.html"
+        },
+        {
+          "id": "Glasgow-1450",
+          "name": "Peter Glasgow",
+          "url": "/people/glasgow-1450.html"
+        },
+        {
+          "id": "Glasgow-1382",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1382.html"
+        },
+        {
+          "id": "Glasgow-1448",
+          "name": "Janet (Glasgow) Blackburn",
+          "url": "/people/glasgow-1448.html"
+        },
+        {
+          "id": "Davidson-14073",
+          "name": "Christine (Davidson) Glasgow",
+          "url": "/people/davidson-14073.html"
+        },
+        {
+          "id": "Glasgow-1466",
+          "name": "Peter Glasgow",
+          "url": "/people/glasgow-1466.html"
+        },
+        {
+          "id": "Glasgow-1445",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1445.html"
+        },
+        {
+          "id": "Glasgow-2474",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2474.html"
+        },
+        {
+          "id": "Glasgow-1122",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1122.html"
+        },
+        {
+          "id": "Glasgow-1076",
+          "name": "Robert (Glasgow) Glasgow of Montgreenan",
+          "url": "/people/glasgow-1076.html"
+        },
+        {
+          "id": "Glasgow-1530",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1530.html"
+        },
+        {
+          "id": "Glasgow-1538",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1538.html"
+        },
+        {
+          "id": "Glasgow-546",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-546.html"
+        },
+        {
+          "id": "Glasgow-2603",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2603.html"
+        },
+        {
+          "id": "Glasgow-3220",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3220.html"
+        },
+        {
+          "id": "Glasgow-3449",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3449.html"
+        },
+        {
+          "id": "Glasgow-3096",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3096.html"
+        },
+        {
+          "id": "Glasgow-3063",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3063.html"
+        },
+        {
+          "id": "Glasgow-2872",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-2872.html"
+        },
+        {
+          "id": "Glasgow-2054",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-2054.html"
+        },
+        {
+          "id": "Glasgow-2908",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-2908.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Montgomry Glasgow — livingston montgomry 1760",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151829&tab=this"
+        },
+        {
+          "title": "Nanse Glasgow — currie nanse 1749",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685979702&tab=this"
+        },
+        {
+          "title": "Nanse Glasgow — currie nanse 1749",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_688347324&tab=this"
+        },
+        {
+          "title": "Nathan Glasgow — leith nathan wright 1835",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1691799&tab=this"
+        },
+        {
+          "title": "Nathaniel Glasgow — livingston nathaniel 1774",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685841078&tab=this"
+        },
+        {
+          "title": "Nathaniel Glasgow — livingston nathaniel 1774",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692405171&tab=this"
+        },
+        {
+          "title": "Nathaniel Rees Glasgow — philadelphia nathaniel rees 1769",
+          "url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0026027&tab=this"
+        },
+        {
+          "title": "Ninian Glasgow — kilmarnock ninian 1797",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3608363&tab=this"
+        },
+        {
+          "title": "Patrick Glasgow — stitchel patrick 1742",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_690838710&tab=this"
+        },
+        {
+          "title": "Patrick Glasgow — stitchel patrick 1742",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686742773&tab=this"
+        },
+        {
+          "title": "Patt Glasgow — limerick patt death 1874",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617642993&tab=this"
+        },
+        {
+          "title": "Peggy Glasgow — irvine peggy 1777",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3578549&tab=this"
+        },
+        {
+          "title": "Peter Glasgow — livingston peter 1790",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685844128&tab=this"
+        },
+        {
+          "title": "Peter Glasgow — livingston peter 1790",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692406060&tab=this"
+        },
+        {
+          "title": "Peter Glasgow — livingston peter 1793",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152404&tab=this"
+        },
+        {
+          "title": "Peter Glasgow — livingston thomas christian family inscription",
+          "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00516377&tab=this"
+        },
+        {
+          "title": "Peter Glasgow — livingston thomas christian family inscription",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511329&tab=this"
+        },
+        {
+          "title": "Peter Glasgow — edinburgh peter weaver 1818",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1577154&tab=this"
+        },
+        {
+          "title": "Peter Glasgow — edinburgh peter weaver 1818",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1580515&tab=this"
+        },
+        {
+          "title": "Prudence Glasgow — pickhill prudence burial 1832",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FYORKSHIRE%2FBUR%2F405471&tab=this"
+        },
+        {
+          "title": "Prudence Glasgow — pickhill prudence burial 1832",
+          "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F06786494&tab=this"
+        },
+        {
+          "title": "Rebecca Glasgow — glasgow rebecca 1782",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_690417617&tab=this"
+        },
+        {
+          "title": "Rebekah Glasgow — glasgow rebekah 1755",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_22094616321&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — kirknewton robert 1735",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686207970&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — kirknewton robert 1735",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_691904286&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — ayr robert borland 1740",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_692915770&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — covington robert williamson 1742",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_685660805&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — kilbirnie robert allan 1747",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_688617700&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — midcalder robert young 1755",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_686313364&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — midcalder robert young 1755",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_694112115&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — wandell robert saidler 1760",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_684963385&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — highchurch robert infant 1770",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093144&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — swinton robert anderson 1776",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884338&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — pennsylvania robert birth 1791",
+          "url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00118751&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — rothesay robert thomson 1795",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235153&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — glasgow robert burial 1824",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1206326&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — birmingham robert burial 1827",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_269744427&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — birmingham robert burial 1827",
+          "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01084190&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — calton robert weaver 1839",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1182990&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — calton robert weaver 1839",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093133&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — ballymoney robert death index 1868",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063149&tab=this"
+        },
+        {
+          "title": "Robert Glasgow — newzealand robert death index 1877",
+          "url": "https://www.findmypast.co.uk/transcript?id=ANZ%2FNZBMD%2FD%2F1201514&tab=this"
+        },
+        {
+          "title": "Robert Tellford Glasgow — leitholm robert tellford agnes glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00533346&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — london samuel burial 1795",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FLONDONBURIAL%2F00554173&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — london samuel burial 1795",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FCOLB%2F1213%2F058502&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — cambusnethan samuel 1798",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3840189&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — govan samuel nailer 1818",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1237243&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — govan samuel nailer 1818",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLANARKSHIRE%2FBUR%2F020582&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — chester samuel death 1824",
+          "url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F00346205&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — cookstown samuel death index 1865",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767918&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — armagh samuel death index 1873",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617544062&tab=this"
+        },
+        {
+          "title": "Samuel Glasgow — ballymoney samuel death index 1875",
+          "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617739886&tab=this"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
     }
   ]
 }

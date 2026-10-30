@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [James Glasgow (Glasgow-4129)](https://www.wikitree.com/wiki/Glasgow-4129). The duplicate record-only catalogue case is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-c5f9840e310b -->
 > **CREATED:** [James Glasgow (Glasgow-4129)](https://www.wikitree.com/wiki/Glasgow-4129)
 

@@ -67,3 +67,11 @@ Scope: Confident inference97%; the burial application is a retained transcriptio
 Next useful test: Verify the uncle wording and original burial application; assess maternity separately.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Samuel Glasgow, Irish civil death registration 1865 Cookstown aged 73, volume 11 page 288. Companion index to the held original death account for Glasgow-2054, died 22 June 1865 at Gortin. This provider ID is additional, not a new exact death discovery. Birth 1792 is age-derived; father Glasgow-2539 remains 97% and no family connection is added. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [IRE/BMD/D/616767918](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767918&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

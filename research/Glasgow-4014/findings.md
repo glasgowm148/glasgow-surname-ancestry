@@ -40,3 +40,11 @@ The initial R. is recorded. The paragraph gives no age, family or origin. It doe
 
 This may concern [Glasgow-4014](https://www.wikitree.com/wiki/Glasgow-4014). Nathaniel was a Drumgreenagh farmer witnessing a deed in 1786 and appears in the 1809 Drumgreenagh probate index. No exact death or simultaneous 1799 Irish act excludes the comparison, but neither record supplies R. or a Kingsessing connection.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Nathaniel Rees Glasgow born 28 November 1769 and baptised 21 April 1770 at Christ Episcopal Church, Philadelphia, father Nathaniel and mother Ann without surname. Nathaniel Glasgow-4014 is a weak comparison only; its inferred birth-before-1768 and later Irish context do not prove a concrete exclusion or identity. Baptism locality is not an independently recorded birthplace. No new person or parental attachment. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [US/HSP/PENN/BAP/0026027](https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0026027&tab=this) — Weak Nathaniel adult comparison only; no event or parent assignment.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

@@ -19,3 +19,12 @@ Next useful test: Compare original Stichill child entries and 1740 marriage, che
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://www.familysearch.org/ark:/61903/1:1:FMMQ-6Q2](https://www.familysearch.org/ark:/61903/1:1:FMMQ-6Q2)
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Patrick Glasgow baptised 20 June 1742 at Stitchel, parents James Glasgow and Elizabath Tait. This matches existing Glasgow-1225; preserve birth before the baptism, father 88% and maternal limits. Old father title Glasgou-1 redirects to Glasgow-1238. The spelling and title normalization add no separate kinship proof. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [R_690838710](https://www.findmypast.co.uk/transcript?id=R_690838710&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+- [R_686742773](https://www.findmypast.co.uk/transcript?id=R_686742773&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

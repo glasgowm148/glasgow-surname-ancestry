@@ -47268,5 +47268,1310 @@
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
     "reviewed_on": "2026-10-22",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-record-anz-nzbmd-d-1201514",
+    "provider_record_id": "ANZ/NZBMD/D/1201514",
+    "association": "Robert Glasgow — newzealand robert death index 1877",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "1877",
+    "year": 1877,
+    "place": "New Zealand",
+    "country": "New Zealand",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=ANZ%2FNZBMD%2FD%2F1201514&tab=this",
+    "source_title": "New Zealand Death Index — Robert Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow, New Zealand death registration 1877/4642, age 80; birth 1797 is age-derived. Compatible with Glasgow-2603, whose held account gives death in 1877 at Turakina, but this short index supplies no exact day, relatives or bridge to the competing Rothesay baptism. Preserve existing vital and parent assessments; no purchase or new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-2603": {
+        "role": "Compatible New Zealand death-registration comparison; Rothesay identity separate"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/ANZ~1NZBMD~1D~11201514",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "newzealand-robert-death-index-1877",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-bmd-nbi-01084190",
+    "provider_record_id": "BMD/NBI/01084190",
+    "association": "Robert Glasgow — birmingham robert burial 1827",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "06 May 1827",
+    "year": 1827,
+    "place": "Birmingham",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01084190&tab=this",
+    "source_title": "National Burial Index For England & Wales — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow buried 6 May 1827 at St Mary, Whittall Street, Birmingham, aged 48; one companion gives Bristol Street residence. This matches the record-defined burial represented by Glasgow-3220. Age implies about 1779, conflicting with its uncertain imported 1783 year; retain that discrepancy without changing birth. Companion provenance is not independent corroboration and does not establish the sparse Glasgow birth-index comparison. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-3220": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~101084190",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "birmingham-robert-burial-1827",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-bmd-nbi-06786494",
+    "provider_record_id": "BMD/NBI/06786494",
+    "association": "Prudence Glasgow — pickhill prudence burial 1832",
+    "person": "Prudence Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "03 Jan 1832",
+    "year": 1832,
+    "place": "Pickhill with Roxby",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F06786494&tab=this",
+    "source_title": "National Burial Index For England & Wales — Prudence Glasgow",
+    "status": "Inspected derivative transcript; natal_surname_hold",
+    "source_quality": "provider_derivative",
+    "note": "Prudence Glasgow buried 3 January 1832 at All Saints, Pickhill with Roxby, Yorkshire, Anglican, aged 37. Birth 1795 is age-derived. Companion entries do not name relatives or prove natal Glasgow. No existing identity is established and no new person proposed. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~106786494",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "pickhill-prudence-burial-1832",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-gbor-colb-1213-058502",
+    "provider_record_id": "GBOR/COLB/1213/058502",
+    "association": "Samuel Glasgow — london samuel burial 1795",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "25 Jan 1795",
+    "year": 1795,
+    "place": "St Sepulchre Without Newgate",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FCOLB%2F1213%2F058502&tab=this",
+    "source_title": "Greater London Burial Index — Samuel Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow buried 25 January 1795 at St Sepulchre Without Newgate, London, aged 43, Turnagain Lane; Guildhall GL Mss 7223/5–7. Birth 1752 is age-derived; no family or natal-surname evidence establishes a catalogue identity. Glasgow-3063 lived to 1818 and is not assigned this London burial. No new person from sparse index evidence. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBOR~1COLB~11213~1058502",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "london-samuel-burial-1795",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-gbor-londonburial-00554173",
+    "provider_record_id": "GBOR/LONDONBURIAL/00554173",
+    "association": "Samuel Glasgow — london samuel burial 1795",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "25 Jan 1795",
+    "year": 1795,
+    "place": "St Sepulchre Without Newgate",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FLONDONBURIAL%2F00554173&tab=this",
+    "source_title": "Greater London Burial Index — Samuel Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow buried 25 January 1795 at St Sepulchre Without Newgate, London, aged 43, Turnagain Lane; Guildhall GL Mss 7223/5–7. Birth 1752 is age-derived; no family or natal-surname evidence establishes a catalogue identity. Glasgow-3063 lived to 1818 and is not assigned this London burial. No new person from sparse index evidence. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBOR~1LONDONBURIAL~100554173",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "london-samuel-burial-1795",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093133",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093133",
+    "association": "Robert Glasgow — calton robert weaver 1839",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "09 Sep 1839",
+    "year": 1839,
+    "place": "Calton, Glasgow",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093133&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow, weaver of Calton, Glasgow, aged 79: the OPR derivative labels 9 September 1839 as Death date (OPR 644/67 item 3 page 127), while the companion labels it Burial date and leaves death incomplete. This matches the existing record-defined Glasgow-1530 account, but the label discrepancy prevents upgrading its before-9-September death bound to an exact death day. Birth 1760 is age-derived; no merge with Glasgow-1538 or parent-confidence change. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1530": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093133",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "calton-robert-weaver-1839",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-gbprs-glasgow-bur-093144",
+    "provider_record_id": "GBPRS/GLASGOW/BUR/093144",
+    "association": "Robert Glasgow — highchurch robert infant 1770",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "12 Apr 1770",
+    "year": 1770,
+    "place": "Glasgow High Church, Glasgow",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093144&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Robert Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow buried 12 April 1770 at High Church, Glasgow, aged six months. Birth 1769 is age-derived; death date is incomplete and no parents identify the infant. Do not assign this burial to a later-lived Robert or create another child without concrete exclusions. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1GLASGOW~1BUR~1093144",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "highchurch-robert-infant-1770",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-gbprs-lanarkshire-bur-020582",
+    "provider_record_id": "GBPRS/LANARKSHIRE/BUR/020582",
+    "association": "Samuel Glasgow — govan samuel nailer 1818",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "? ? 1818",
+    "year": 1818,
+    "place": "Govan, Glasgow",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLANARKSHIRE%2FBUR%2F020582&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Samuel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow, nailer of Glasgow, aged 65, infirmities of old age, Govan 1818. These companions label 7 December 1818 as Death date, while the already held GBPRS/GLASGOW/BUR/093131 and current findings describe burial that day. Preserve the event-label ambiguity: do not populate an exact death day or replace the earlier burial account. Birth 1753 is age-derived. This is an already known event with additional provider IDs, not a new historical discovery or father assessment. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-3063": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1LANARKSHIRE~1BUR~1020582",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "govan-samuel-nailer-1818",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-gbprs-scot-mis-511329",
+    "provider_record_id": "GBPRS/SCOT/MIS/511329",
+    "association": "Peter Glasgow — livingston thomas christian family inscription",
+    "person": "Peter Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "1819",
+    "year": 1819,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F511329&tab=this",
+    "source_title": "Scotland Monumental Inscriptions — Peter Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Companion inscription derivative gives Thomas Glasgow 22 May 1831 aged 85; Christian Davidson 5 November 1795 aged 45; Peter 12 September 1819 aged 48; Janet 16 October 1873 aged 76; Jessie 8 February 1831 aged ten months; James B 22 April 185* aged nineteen months. These conflict with PRS/SCOTLAND/MI/ADD/5/00516377. Preserve literal versions and the unresolved 1790 child/adult identity distinction; do not select a preferred date or invent duplicate family members. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1450": {
+        "role": "Named son Peter; conflicting inscription versions retained"
+      },
+      "Glasgow-1382": {
+        "role": "Named Thomas; family-inscription comparison"
+      },
+      "Glasgow-1448": {
+        "role": "Named daughter Janet; chronology conflicts retained"
+      },
+      "Davidson-14073": {
+        "role": "Named wife Christian Davidson; age conflict retained"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1SCOT~1MIS~1511329",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-thomas-christian-family-inscription",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-gbprs-yorkshire-bur-405471",
+    "provider_record_id": "GBPRS/YORKSHIRE/BUR/405471",
+    "association": "Prudence Glasgow — pickhill prudence burial 1832",
+    "person": "Prudence Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "03 Jan 1832",
+    "year": 1832,
+    "place": "Pickhill",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FYORKSHIRE%2FBUR%2F405471&tab=this",
+    "source_title": "Yorkshire Burials — Prudence Glasgow",
+    "status": "Inspected derivative transcript; natal_surname_hold",
+    "source_quality": "provider_derivative",
+    "note": "Prudence Glasgow buried 3 January 1832 at All Saints, Pickhill with Roxby, Yorkshire, Anglican, aged 37. Birth 1795 is age-derived. Companion entries do not name relatives or prove natal Glasgow. No existing identity is established and no new person proposed. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1YORKSHIRE~1BUR~1405471",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "pickhill-prudence-burial-1832",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-616767918",
+    "provider_record_id": "IRE/BMD/D/616767918",
+    "association": "Samuel Glasgow — cookstown samuel death index 1865",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "1865",
+    "year": 1865,
+    "place": "Cookstown",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616767918&tab=this",
+    "source_title": "Irish Deaths 1864 - 1958 — Samuel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow, Irish civil death registration 1865 Cookstown aged 73, volume 11 page 288. Companion index to the held original death account for Glasgow-2054, died 22 June 1865 at Gortin. This provider ID is additional, not a new exact death discovery. Birth 1792 is age-derived; father Glasgow-2539 remains 97% and no family connection is added. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-2054": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1616767918",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "cookstown-samuel-death-index-1865",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-617063149",
+    "provider_record_id": "IRE/BMD/D/617063149",
+    "association": "Robert Glasgow — ballymoney robert death index 1868",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "1868",
+    "year": 1868,
+    "place": "Ballymoney",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063149&tab=this",
+    "source_title": "Irish Deaths 1864 - 1958 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow, Irish civil death registration 1868 Ballymoney aged 71, volume 1 page 126. This is consistent with the already inspected original workhouse death on 31 March 1868 under Glasgow-3449. It adds a provider ID, not a new death discovery or proof of the separate Lisnagaver farmer identity. Birth 1797 remains age-derived; no new exact event date is supplied by this index. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-3449": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1617063149",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "ballymoney-robert-death-index-1868",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-617544062",
+    "provider_record_id": "IRE/BMD/D/617544062",
+    "association": "Samuel Glasgow — armagh samuel death index 1873",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "1873",
+    "year": 1873,
+    "place": "Armagh",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617544062&tab=this",
+    "source_title": "Irish Deaths 1864 - 1958 — Samuel Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow, Irish civil death registration 1873 Armagh aged 78, volume 11 page 36; birth 1795 is age-derived. No exact day, relatives or existing adult identity is established. Retain a source-only HOLD; no new person without concrete exclusions. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1617544062",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "armagh-samuel-death-index-1873",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-617642993",
+    "provider_record_id": "IRE/BMD/D/617642993",
+    "association": "Patt Glasgow — limerick patt death 1874",
+    "person": "Patt Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "1874",
+    "year": 1874,
+    "place": "Limerick",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617642993&tab=this",
+    "source_title": "Irish Deaths 1864 - 1958 — Patt Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Patt Glasgow, Irish civil death registration 1874 Limerick, age 77, volume 15 page 268. Birth 1797 is age-derived. No exact death day, relatives or natal-surname evidence identifies a catalogue person. No person is proposed from the sparse index. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1617642993",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "limerick-patt-death-1874",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-ire-bmd-d-617739886",
+    "provider_record_id": "IRE/BMD/D/617739886",
+    "association": "Samuel Glasgow — ballymoney samuel death index 1875",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "1875",
+    "year": 1875,
+    "place": "Ballymoney",
+    "country": "Ireland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617739886&tab=this",
+    "source_title": "Irish Deaths 1864 - 1958 — Samuel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow, Irish civil death registration 1875 Ballymoney aged 85, volume 11 page 104. This matches the already inspected original death of the unmarried Lisnagaver weaver on 17 August 1875 represented by Glasgow-2908. The additional provider ID adds no new father evidence; the existing combined census/marriage proof and father Glasgow-4090 at 95% remain unchanged. Birth 1790 is age-derived. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-2908": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/IRE~1BMD~1D~1617739886",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "ballymoney-samuel-death-index-1875",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-prs-scotland-mi-add-5-00516377",
+    "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00516377",
+    "association": "Peter Glasgow — livingston thomas christian family inscription",
+    "person": "Peter Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "12 Sep 1810",
+    "year": 1810,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00516377&tab=this",
+    "source_title": "Scotland Monumental Inscriptions — Peter Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Livingston family inscription derivative: Thomas Glasgow died 22 July 1831 aged 85; wife Christian Davidson 5 November 1795 aged 43; son Peter 12 September 1810 aged 19; daughter Janet 16 October 1853 aged 76. Grandchildren include Mary Russell, infant; Jessie 11 July 1845 aged 20; Jessie 8 February 1851 aged ten months; James B 22 April 1854 aged nineteen months. Companion GBPRS/SCOT/MIS/511329 differs materially in Thomas month, Christian age, Peter year/age, Janet year and a Jessie year. Retain both readings, not two independently proved deaths or people. The 1810/1819 Peter problem was already known in Glasgow-1450; original inspection is required before choosing a reading or changing vitals. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1450": {
+        "role": "Named son Peter; conflicting inscription versions retained"
+      },
+      "Glasgow-1382": {
+        "role": "Named Thomas; family-inscription comparison"
+      },
+      "Glasgow-1448": {
+        "role": "Named daughter Janet; chronology conflicts retained"
+      },
+      "Davidson-14073": {
+        "role": "Named wife Christian Davidson; age conflict retained"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100516377",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-thomas-christian-family-inscription",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-prs-scotland-mi-add-5-00533346",
+    "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00533346",
+    "association": "Robert Tellford Glasgow — leitholm robert tellford agnes glasgow",
+    "person": "Robert Tellford Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "08 Dec 1846",
+    "year": 1846,
+    "place": "Eccles",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00533346&tab=this",
+    "source_title": "Scotland Monumental Inscriptions — Robert Tellford Glasgow",
+    "status": "Inspected derivative transcript; indexed_surname_artifact_hold",
+    "source_quality": "provider_derivative",
+    "note": "Indexed as Robert Tellford Glasgow, but the inscription identifies Robert Tellford, lapidary at Leitholm, died 8 December 1846 aged 72; wife Agnes Glasgow died 25 May “67” aged 78. Children include William 12 May 1824 aged two months, Mary 2 October 1832 aged eight, and George 26 September “88” with age blank. Glasgow is explicitly the wife’s name, not established as Robert’s surname. Retain abbreviated years and separate roles; do not transfer Robert’s 1774 age-derived birth to Agnes or create a Robert Glasgow. Agnes’s natal surname and existing identity remain unresolved. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100533346",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "leitholm-robert-tellford-agnes-glasgow",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-r-22094616321",
+    "provider_record_id": "R_22094616321",
+    "association": "Rebekah Glasgow — glasgow rebekah 1755",
+    "person": "Rebekah Glasgow",
+    "event_role": "baptism transcript",
+    "date": "03 Jan 1755",
+    "year": 1755,
+    "place": "Glasgow",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_22094616321&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Rebekah Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Rebekah Glasgow baptised 3 January 1755 at Glasgow; no parents supplied. Current Rebecca McNutt-600, associated with an American life, is not identified by a name/year resemblance. Retain the documentary event without assigning it or proposing a new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_22094616321",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "glasgow-rebekah-1755",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-269744427",
+    "provider_record_id": "R_269744427",
+    "association": "Robert Glasgow — birmingham robert burial 1827",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "06 May 1827",
+    "year": 1827,
+    "place": "Birmingham",
+    "country": "England",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_269744427&tab=this",
+    "source_title": "England Deaths & Burials 1538-1991 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow buried 6 May 1827 at St Mary, Whittall Street, Birmingham, aged 48; one companion gives Bristol Street residence. This matches the record-defined burial represented by Glasgow-3220. Age implies about 1779, conflicting with its uncertain imported 1783 year; retain that discrepancy without changing birth. Companion provenance is not independent corroboration and does not establish the sparse Glasgow birth-index comparison. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-3220": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_269744427",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "birmingham-robert-burial-1827",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-r-684963385",
+    "provider_record_id": "R_684963385",
+    "association": "Robert Glasgow — wandell robert saidler 1760",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "17 Feb 1760",
+    "year": 1760,
+    "place": "Wandell and Lamington",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_684963385&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 17 February 1760 at Wandell and Lamington, James Glasgow and Marion Saidler. The record-defined child is represented by Glasgow-1530; Glasgow-1538 is a qualified adult comparison with separate family hypotheses and a competing 1784 index. Do not merge these accounts. Preserve paternal assessments 84% and 62%, current vital bounds and maternal uncertainty; Saidler/Sadler is retained as a recorded-name variation, not independent proof. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1530": {
+        "role": "Matched recorded 1760 child; adult identity remains qualified"
+      },
+      "Glasgow-1538": {
+        "role": "Possible adult identity of the 1760 child; competing adult histories retained"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_684963385",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "wandell-robert-saidler-1760",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-685660805",
+    "provider_record_id": "R_685660805",
+    "association": "Robert Glasgow — covington robert williamson 1742",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "12 Dec 1742",
+    "year": 1742,
+    "place": "Covington and Thankerton",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685660805&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 12 December 1742 at Covington and Thankerton, George Glasgow and Agnes Williamson. The current Glasgow-1122 and its siblings share this parental family and parish sequence; retain the matched child. The baptism does not supply an exact birthday or independently replace the inherited Kilwinning birth-place. Father Glasgow-1070 remains 77%; mother Williamson-12853 is not newly assessed. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1122": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685660805",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "covington-robert-williamson-1742",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-685841078",
+    "provider_record_id": "R_685841078",
+    "association": "Nathaniel Glasgow — livingston nathaniel 1774",
+    "person": "Nathaniel Glasgow",
+    "event_role": "baptism transcript",
+    "date": "02 Jan 1774",
+    "year": 1774,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685841078&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Nathaniel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Nathaniel Glasgow baptised 2 January 1774 at Livingston, parents Thomas Glasgow and Christian Davidson. This matches existing Glasgow-1452 and its birth bound before that day; no exact birthday is supplied. Old father title Glasgow-1446 redirects to Glasgow-1382. Preserve the father assessment 68% and independent maternal limits. Companion derivatives are not independent witnesses. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1452": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685841078",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-nathaniel-1774",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-685844128",
+    "provider_record_id": "R_685844128",
+    "association": "Peter Glasgow — livingston peter 1790",
+    "person": "Peter Glasgow",
+    "event_role": "baptism transcript",
+    "date": "31 Oct 1790",
+    "year": 1790,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685844128&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peter Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Peter Glasgow baptised 31 October 1790 at Livingston, Thomas Glasgow and Christian Davidson. This matches the selected record-defined child in Glasgow-1450, not automatically the unresolved adult formerly estimated born about 1810 with Agnes Scott. Preserve the existing identity split, birth bound, father Glasgow-1382 at 97% and maternal limits. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1450": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685844128",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-peter-1790",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-685979702",
+    "provider_record_id": "R_685979702",
+    "association": "Nanse Glasgow — currie nanse 1749",
+    "person": "Nanse Glasgow",
+    "event_role": "baptism transcript",
+    "date": "28 Jun 1749",
+    "year": 1749,
+    "place": "Currie",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_685979702&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Nanse Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Nanse Glasgow baptised 28 June 1749 at Currie, father Robert Glasgow and mother Jeanet without a surname. These are companion derivatives of one event. No existing child or adult parental identity is established; an unsuccessful bounded search and missing parental surnames are not concrete exclusions. Retain the documentary child without proposing a new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_685979702",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "currie-nanse-1749",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-686207970",
+    "provider_record_id": "R_686207970",
+    "association": "Robert Glasgow — kirknewton robert 1735",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "13 Feb 1735",
+    "year": 1735,
+    "place": "Kirknewton and East Calder",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686207970&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 13 February 1735 at Kirknewton and East Calder, father James Glasgow; mother absent. Matches Glasgow-1445 and its baptism-based birth bound. Father Glasgow-1547 remains 57%; the index does not supply a mother or prove the adult paternal identity independently. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1445": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686207970",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "kirknewton-robert-1735",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-686313364",
+    "provider_record_id": "R_686313364",
+    "association": "Robert Glasgow — midcalder robert young 1755",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "25 May 1755",
+    "year": 1755,
+    "place": "Mid Calder",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686313364&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 25 May 1755 at Mid Calder, Andrew Glasgow and Janet Young. Consolidate the companion entries as one documentary child. No existing child or adult parental identity is established; no-hit searches are insufficient to suggest a new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686313364",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "midcalder-robert-young-1755",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-686742773",
+    "provider_record_id": "R_686742773",
+    "association": "Patrick Glasgow — stitchel patrick 1742",
+    "person": "Patrick Glasgow",
+    "event_role": "baptism transcript",
+    "date": "20 Jun 1742",
+    "year": 1742,
+    "place": "Stitchel",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_686742773&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Patrick Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Patrick Glasgow baptised 20 June 1742 at Stitchel, parents James Glasgow and Elizabath Tait. This matches existing Glasgow-1225; preserve birth before the baptism, father 88% and maternal limits. Old father title Glasgou-1 redirects to Glasgow-1238. The spelling and title normalization add no separate kinship proof. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1225": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_686742773",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "stitchel-patrick-1742",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-688347324",
+    "provider_record_id": "R_688347324",
+    "association": "Nanse Glasgow — currie nanse 1749",
+    "person": "Nanse Glasgow",
+    "event_role": "baptism transcript",
+    "date": "28 Jun 1749",
+    "year": 1749,
+    "place": "Currie by Edinburgh",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_688347324&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Nanse Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Nanse Glasgow baptised 28 June 1749 at Currie, father Robert Glasgow and mother Jeanet without a surname. These are companion derivatives of one event. No existing child or adult parental identity is established; an unsuccessful bounded search and missing parental surnames are not concrete exclusions. Retain the documentary child without proposing a new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688347324",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "currie-nanse-1749",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-688617700",
+    "provider_record_id": "R_688617700",
+    "association": "Robert Glasgow — kilbirnie robert allan 1747",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "18 Oct 1747",
+    "year": 1747,
+    "place": "Kilbirnie",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_688617700&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 18 October 1747 at Kilbirnie, father Robert and mother Margarat Allan. This matches the baptism already discussed in Glasgow-1076, a companion provider ID rather than a new historical date. Preserve the existing birth-before-15-October boundary pending review of its source, father Glasgow-1075 at 99%, mother Allan-4046 and all prior sources. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1076": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_688617700",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "kilbirnie-robert-allan-1747",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-690417617",
+    "provider_record_id": "R_690417617",
+    "association": "Rebecca Glasgow — glasgow rebecca 1782",
+    "person": "Rebecca Glasgow",
+    "event_role": "baptism transcript",
+    "date": "Oct 1782",
+    "year": 1782,
+    "place": "Glasgow",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690417617&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Rebecca Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Rebecca Glasgow, baptism October 1782 at Glasgow; no parents or exact day. No documented link identifies an existing Rebecca. Missing parents and approximate years are not concrete exclusions; no new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690417617",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "glasgow-rebecca-1782",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-690838710",
+    "provider_record_id": "R_690838710",
+    "association": "Patrick Glasgow — stitchel patrick 1742",
+    "person": "Patrick Glasgow",
+    "event_role": "baptism transcript",
+    "date": "20 Jun 1742",
+    "year": 1742,
+    "place": "Stitchel",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_690838710&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Patrick Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Patrick Glasgow baptised 20 June 1742 at Stitchel, parents James Glasgow and Elizabath Tait. This matches existing Glasgow-1225; preserve birth before the baptism, father 88% and maternal limits. Old father title Glasgou-1 redirects to Glasgow-1238. The spelling and title normalization add no separate kinship proof. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1225": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_690838710",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "stitchel-patrick-1742",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-691904286",
+    "provider_record_id": "R_691904286",
+    "association": "Robert Glasgow — kirknewton robert 1735",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "13 Feb 1735",
+    "year": 1735,
+    "place": "Kirknewton and East Calder",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_691904286&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 13 February 1735 at Kirknewton and East Calder, father James Glasgow; mother absent. Matches Glasgow-1445 and its baptism-based birth bound. Father Glasgow-1547 remains 57%; the index does not supply a mother or prove the adult paternal identity independently. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1445": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_691904286",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "kirknewton-robert-1735",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-692405171",
+    "provider_record_id": "R_692405171",
+    "association": "Nathaniel Glasgow — livingston nathaniel 1774",
+    "person": "Nathaniel Glasgow",
+    "event_role": "baptism transcript",
+    "date": "02 Jan 1774",
+    "year": 1774,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692405171&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Nathaniel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Nathaniel Glasgow baptised 2 January 1774 at Livingston, parents Thomas Glasgow and Christian Davidson. This matches existing Glasgow-1452 and its birth bound before that day; no exact birthday is supplied. Old father title Glasgow-1446 redirects to Glasgow-1382. Preserve the father assessment 68% and independent maternal limits. Companion derivatives are not independent witnesses. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1452": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692405171",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-nathaniel-1774",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-692406060",
+    "provider_record_id": "R_692406060",
+    "association": "Peter Glasgow — livingston peter 1790",
+    "person": "Peter Glasgow",
+    "event_role": "baptism transcript",
+    "date": "31 Oct 1790",
+    "year": 1790,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692406060&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peter Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Peter Glasgow baptised 31 October 1790 at Livingston, Thomas Glasgow and Christian Davidson. This matches the selected record-defined child in Glasgow-1450, not automatically the unresolved adult formerly estimated born about 1810 with Agnes Scott. Preserve the existing identity split, birth bound, father Glasgow-1382 at 97% and maternal limits. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1450": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692406060",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-peter-1790",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-692915770",
+    "provider_record_id": "R_692915770",
+    "association": "Robert Glasgow — ayr robert borland 1740",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "16 Nov 1740",
+    "year": 1740,
+    "place": "Ayr",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_692915770&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 16 November 1740 at Ayr, Robert Glasgow and Mary Borland. John Glasgow-3478 has a similarly named parental couple (Glasgow-2474 and Borland-1479) in an Irvine context, but no family bridge establishes these adults or a sibling relationship. Retain a qualified named-father comparison; no child creation or attachment. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-2474": {
+        "role": "Possible named father comparison only; child or sibling relationship not established"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_692915770",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "ayr-robert-borland-1740",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-r-694112115",
+    "provider_record_id": "R_694112115",
+    "association": "Robert Glasgow — midcalder robert young 1755",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "25 May 1755",
+    "year": 1755,
+    "place": "Mid Calder",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=R_694112115&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow baptised 25 May 1755 at Mid Calder, Andrew Glasgow and Janet Young. Consolidate the companion entries as one documentary child. No existing child or adult parental identity is established; no-hit searches are insufficient to suggest a new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_694112115",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "midcalder-robert-young-1755",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3235153",
+    "provider_record_id": "SCOT/OPR/BAP/3235153",
+    "association": "Robert Glasgow — rothesay robert thomson 1795",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "07 Dec 1795",
+    "year": 1795,
+    "place": "Rothesay",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235153&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow born 5 November 1795 and baptised 7 December at Rothesay, father John Glasgow, wright, mother Isobel Thomson; OPR 558/2 item 4 page 104. New Zealand adult Glasgow-2603 currently has 5 December 1795 and mother Isabella Hunter, while a family-history tradition gives 1797. The parish/name resemblance is not a child-to-adult identity bridge. Preserve the month and maternal-name discrepancies, current father Glasgow-1221 at 81%, and all existing vital fields. No new person or mother substitution. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-2603": {
+        "role": "Possible Rothesay child comparison; birth month and maternal identity unresolved"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13235153",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "rothesay-robert-thomson-1795",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3578549",
+    "provider_record_id": "SCOT/OPR/BAP/3578549",
+    "association": "Peggy Glasgow — irvine peggy 1777",
+    "person": "Peggy Glasgow",
+    "event_role": "baptism transcript",
+    "date": "12 Apr 1777",
+    "year": 1777,
+    "place": "Irvine",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3578549&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peggy Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Peggy Glasgow born 12 April 1777 at Irvine, father George Glasgow and mother Agnes Muir; OPR 595/1 item 1. Baptism year is dash, so do not invent a baptism day. An earlier local browser-session failure was recovered once; it was not a provider access restriction. No existing child or adult parent identity is established; absence of a bounded name match does not justify another person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13578549",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "irvine-peggy-1777",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3608363",
+    "provider_record_id": "SCOT/OPR/BAP/3608363",
+    "association": "Ninian Glasgow — kilmarnock ninian 1797",
+    "person": "Ninian Glasgow",
+    "event_role": "baptism transcript",
+    "date": "18 Jan 1798",
+    "year": 1798,
+    "place": "Kilmarnock",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3608363&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Ninian Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Ninian Glasgow born 2 December 1797 and baptised 18 January 1798 at Kilmarnock, father John Glasgow, shoemaker, and mother Margaret Wyllie; OPR 597/3 item 3 page 204. Exact birthday and family match Glasgow-3297, whose birth is already recorded correctly. Father Glasgow-3298 remains 98%; mother Wyllie-1278 is not newly assessed. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-3297": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13608363",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "kilmarnock-ninian-1797",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-3840189",
+    "provider_record_id": "SCOT/OPR/BAP/3840189",
+    "association": "Samuel Glasgow — cambusnethan samuel 1798",
+    "person": "Samuel Glasgow",
+    "event_role": "baptism transcript",
+    "date": "25 Feb 1798",
+    "year": 1798,
+    "place": "Cambusnethan",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3840189&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Samuel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow born 17 February 1798 and baptised 25 February at Cambusnethan, residence Steuart, John Glasgow and Jean Clark; OPR 628/1 item 1 page 31. Exact birthday and family identify Glasgow-3096, whose father Glasgow-3094 remains 97%. Current mother Ann Clerk-462 differs in forename from indexed Jean Clark: preserve the discrepancy and maternal uncertainty, not a silent rename or merge. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-3096": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~13840189",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "cambusnethan-samuel-1798",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4151829",
+    "provider_record_id": "SCOT/OPR/BAP/4151829",
+    "association": "Montgomry Glasgow — livingston montgomry 1760",
+    "person": "Montgomry Glasgow",
+    "event_role": "baptism transcript",
+    "date": "16 Dec 1760",
+    "year": 1760,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4151829&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Montgomry Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Montgomry Glasgow was born 13 October 1760 and baptised 16 December 1760 at Livingston, daughter of Abraham Glasgow and Janet Cunningham; OPR 669/1 item 4. The recorded birth day is distinct from the baptism day; it replaces the inherited baptism-as-birth date. The baptism, couple and parish identify existing Glasgow-1234. Cunnyngham-118 redirects to Cunningham-20925; this title normalization adds no kinship evidence. Father Glasgow-1227 remains 92%; no maternal reassessment. Parish context does not independently prove birth location. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1234": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14151829",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-montgomry-1760",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4152404",
+    "provider_record_id": "SCOT/OPR/BAP/4152404",
+    "association": "Peter Glasgow — livingston peter 1793",
+    "person": "Peter Glasgow",
+    "event_role": "baptism transcript",
+    "date": "31 May 1793",
+    "year": 1793,
+    "place": "Livingston",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4152404&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Peter Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Peter Glasgow born 11 January 1793 and baptised 31 May 1793 at Livingston, father Thomas Glasgow, labourer; no mother is supplied, OPR 669/1 item 4. This cannot be the selected 1790 baptism child if both recorded birth dates are correct. The separate ambiguous adult history under Glasgow-1450 is not concretely excluded by an uncertain estimated year, so no new person is proposed. Thomas Glasgow-1382 is a qualified father-role comparison only; no mother or child attachment is invented. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1382": {
+        "role": "Possible named father only; not the child or a proved new relationship"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14152404",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "livingston-peter-1793",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4884338",
+    "provider_record_id": "SCOT/OPR/BAP/4884338",
+    "association": "Robert Glasgow — swinton robert anderson 1776",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "21 Jul 1776",
+    "year": 1776,
+    "place": "Simprim & Swinton",
+    "country": "Scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884338&tab=this",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Robert Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow born 19 July 1776 and baptised 21 July at Simprim and Swinton, residence Swinton, father Peter Glasgow, cooper, mother Jean Anderson; OPR 755/1 item 8 page 32. No existing child or parental adult identity is established. Uncertain birth years and localities in sparse Robert accounts are not sufficient exclusions; no new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14884338",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "swinton-robert-anderson-1776",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1182990",
+    "provider_record_id": "SCOT/OPR/BUR/1182990",
+    "association": "Robert Glasgow — calton robert weaver 1839",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "09 Sep 1839",
+    "year": 1839,
+    "place": "Glasgow",
+    "country": "-",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1182990&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Robert Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow, weaver of Calton, Glasgow, aged 79: the OPR derivative labels 9 September 1839 as Death date (OPR 644/67 item 3 page 127), while the companion labels it Burial date and leaves death incomplete. This matches the existing record-defined Glasgow-1530 account, but the label discrepancy prevents upgrading its before-9-September death bound to an exact death day. Birth 1760 is age-derived; no merge with Glasgow-1538 or parent-confidence change. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1530": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11182990",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "calton-robert-weaver-1839",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1206326",
+    "provider_record_id": "SCOT/OPR/BUR/1206326",
+    "association": "Robert Glasgow — glasgow robert burial 1824",
+    "person": "Robert Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "10 Aug 1824",
+    "year": 1824,
+    "place": "Glasgow",
+    "country": "-",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1206326&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Robert Glasgow",
+    "status": "Inspected derivative transcript; identity_hold",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow buried 10 August 1824 at Glasgow aged 30, OPR 644-2/9 item 2 page 117. Birth 1794 is age-derived; death fields are dash and no family identifies him. No exact death day or catalogue identity is inferred; no new person. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {},
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11206326",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "glasgow-robert-burial-1824",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1237243",
+    "provider_record_id": "SCOT/OPR/BUR/1237243",
+    "association": "Samuel Glasgow — govan samuel nailer 1818",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "07 Dec 1818",
+    "year": 1818,
+    "place": "Govan",
+    "country": "-",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1237243&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Samuel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow, nailer of Glasgow, aged 65, infirmities of old age, Govan 1818. These companions label 7 December 1818 as Death date, while the already held GBPRS/GLASGOW/BUR/093131 and current findings describe burial that day. Preserve the event-label ambiguity: do not populate an exact death day or replace the earlier burial account. Birth 1753 is age-derived. This is an already known event with additional provider IDs, not a new historical discovery or father assessment. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-3063": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11237243",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "govan-samuel-nailer-1818",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1577154",
+    "provider_record_id": "SCOT/OPR/BUR/1577154",
+    "association": "Peter Glasgow — edinburgh peter weaver 1818",
+    "person": "Peter Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "07 Nov 1818",
+    "year": 1818,
+    "place": "Edinburgh",
+    "country": "-",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1577154&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Peter Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Peter Glasgow, weaver aged 56, died 4 November 1818 and was buried 7 November at Edinburgh. Birth 1762 is age-derived. Companion entries give Richmond Street (OPR 685_3/30 item 1 page 155) and West Side (OPR 685_3/31 item 2 page 115). Peter Glasgow-1466 is age-compatible but no family or locality bridge establishes him as this weaver. Its current Bathgate death-place and baptism/birth interpretation need separate review; do not assign this death from age alone. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1466": {
+        "role": "Age-compatible Peter comparison only; Edinburgh death not assigned"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11577154",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "edinburgh-peter-weaver-1818",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1580515",
+    "provider_record_id": "SCOT/OPR/BUR/1580515",
+    "association": "Peter Glasgow — edinburgh peter weaver 1818",
+    "person": "Peter Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "07 Nov 1818",
+    "year": 1818,
+    "place": "Edinburgh",
+    "country": "-",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1580515&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Peter Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Peter Glasgow, weaver aged 56, died 4 November 1818 and was buried 7 November at Edinburgh. Birth 1762 is age-derived. Companion entries give Richmond Street (OPR 685_3/30 item 1 page 155) and West Side (OPR 685_3/31 item 2 page 115). Peter Glasgow-1466 is age-compatible but no family or locality bridge establishes him as this weaver. Its current Bathgate death-place and baptism/birth interpretation need separate review; do not assign this death from age alone. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1466": {
+        "role": "Age-compatible Peter comparison only; Edinburgh death not assigned"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11580515",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "edinburgh-peter-weaver-1818",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bur-1691799",
+    "provider_record_id": "SCOT/OPR/BUR/1691799",
+    "association": "Nathan Glasgow — leith nathan wright 1835",
+    "person": "Nathan Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "02 Aug 1835",
+    "year": 1835,
+    "place": "Leith",
+    "country": "-",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1691799&tab=this",
+    "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — Nathan Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Nathan Glasgow, wright of West Park, buried 2 August 1835 at Leith aged 62; birth 1773 is age-derived. OPR 692/2/34 item 3 page 421; the displayed register range 1831–1833 conflicts with the event year. Nathaniel Glasgow-1452, born before January 1774, is age-compatible but lacks a trade, family or locality bridge. Do not assign this burial or infer a separate person from the spelling. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-1452": {
+        "role": "Possible Nathan/Nathaniel comparison only; burial not assigned"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11691799",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "leith-nathan-wright-1835",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-us-bmd-penn-bap-00118751",
+    "provider_record_id": "US/BMD/PENN-BAP/00118751",
+    "association": "Robert Glasgow — pennsylvania robert birth 1791",
+    "person": "Robert Glasgow",
+    "event_role": "baptism transcript",
+    "date": "17 Sep 1791",
+    "year": 1791,
+    "place": "Pittsburgh",
+    "country": "United States",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00118751&tab=this",
+    "source_title": "Historical Society Of Pennsylvania, Births & Baptisms — Robert Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Robert Glasgow birth date 17 September 1791, Pennsylvania baptism collection, Pittsburgh/Allegheny context; baptism year is dash and no parents are indexed. The exact birthday and later Pennsylvania life are compatible with Glasgow-546, but collection/baptism place does not independently prove birthplace or override its recorded Irish origin. Retain this comparison without assigning parents, a baptism day or a new birth-place; father Hugh Glasgow-540 remains 94%. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-546": {
+        "role": "Compatible exact-birthday Robert comparison; baptism and birthplace not reassigned"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BAP~100118751",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "pennsylvania-robert-birth-1791",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "fmp-record-us-bmd-penn-bur-00346205",
+    "provider_record_id": "US/BMD/PENN-BUR/00346205",
+    "association": "Samuel Glasgow — chester samuel death 1824",
+    "person": "Samuel Glasgow",
+    "event_role": "death/burial, inscription or registration derivative; event labels qualified in note",
+    "date": "17 May 1824",
+    "year": 1824,
+    "place": "Chester diocese, Pennsylvania",
+    "country": "United States",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F00346205&tab=this",
+    "source_title": "Historical Society Of Pennsylvania, Deaths & Burials — Samuel Glasgow",
+    "status": "Inspected derivative transcript; matched_existing",
+    "source_quality": "provider_derivative",
+    "note": "Samuel Glasgow died 17 May 1824 aged 63, Chester diocese, Pennsylvania burial collection, Historical Society of Pennsylvania; parish and address dash. Exact death date matches Glasgow-2872 and its already held memorial. Birth 1761 is age-derived. Preserve competing father hypotheses John Glasgow-2870 at 25% and James Glasgow-1025 at 67%, and the independently ungraded maternal identity; the death index resolves none of them. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-2872": {
+        "role": "Matched documentary subject; adult parent identification and relationship grades unchanged"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1BMD~1PENN-BUR~100346205",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "chester-samuel-death-1824",
+    "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "fmp-record-us-hsp-penn-bap-0026027",
+    "provider_record_id": "US/HSP/PENN/BAP/0026027",
+    "association": "Nathaniel Rees Glasgow — philadelphia nathaniel rees 1769",
+    "person": "Nathaniel Rees Glasgow",
+    "event_role": "baptism transcript",
+    "date": "21 Apr 1770",
+    "year": 1770,
+    "place": "Philadelphia",
+    "country": "United States",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=US%2FHSP%2FPENN%2FBAP%2F0026027&tab=this",
+    "source_title": "Pennsylvania, Episcopalian Births And Baptisms — Nathaniel Rees Glasgow",
+    "status": "Inspected derivative transcript; candidate_comparison",
+    "source_quality": "provider_derivative",
+    "note": "Nathaniel Rees Glasgow born 28 November 1769 and baptised 21 April 1770 at Christ Episcopal Church, Philadelphia, father Nathaniel and mother Ann without surname. Nathaniel Glasgow-4014 is a weak comparison only; its inferred birth-before-1768 and later Irish context do not prove a concrete exclusion or identity. Baptism locality is not an independently recorded birthplace. No new person or parental attachment. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.",
+    "profiles": {
+      "Glasgow-4014": {
+        "role": "Weak Nathaniel adult comparison only; no event or parent assignment"
+      }
+    },
+    "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/US~1HSP~1PENN~1BAP~10026027",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "documentary_group": "philadelphia-nathaniel-rees-1769",
+    "record_category": "Births and baptisms"
   }
 ]

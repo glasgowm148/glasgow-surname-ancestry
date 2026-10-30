@@ -33,3 +33,12 @@ Birth, baptism, death and burial retain their distinct source roles. Comparison 
 ## Bathgate father identity scope — 26 October 2026
 
 [Agnes Glasgow-3402](/people/glasgow-3402.html) now has the complete Peter-1466 father-profile assessment **82% probable**, corrected from 98%. [Andrew Glasgow-3400](/people/glasgow-3400.html) remains 82%. The repeated Peter/Elisabeth Dick Bathgate household is strongly supported; identification of that adult as the 1762 West Calder child remains inferred. This changes one assessment’s scope, with no parent attachment, new source inspection or change to Peter’s own 79% father assessment.
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Peter Glasgow, weaver aged 56, died 4 November 1818 and was buried 7 November at Edinburgh. Birth 1762 is age-derived. Companion entries give Richmond Street (OPR 685_3/30 item 1 page 155) and West Side (OPR 685_3/31 item 2 page 115). Peter Glasgow-1466 is age-compatible but no family or locality bridge establishes him as this weaver. Its current Bathgate death-place and baptism/birth interpretation need separate review; do not assign this death from age alone. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [SCOT/OPR/BUR/1577154](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1577154&tab=this) — Age-compatible Peter comparison only; Edinburgh death not assigned.
+- [SCOT/OPR/BUR/1580515](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1580515&tab=this) — Age-compatible Peter comparison only; Edinburgh death not assigned.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

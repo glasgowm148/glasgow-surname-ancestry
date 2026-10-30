@@ -75,3 +75,11 @@ Faris, The Glasgow Family of Adams County, Ohio (1990), printed pp.8–12, DGS00
 [Faris pp.8–9](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-J); [Faris p.12](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9VW-9); [Rutherford’s published transcription](https://www.genealogy.com/forum/surnames/topics/rutherford/5445/); [previously inspected original will](https://portal.laserfiche.com/Portal/DocView.aspx?id=773006&page=588&repo=r-24f48cc6).
 
 [Shared four-son family argument](/branches/research-irish-moneymore/#irish-four-sons).
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Samuel Glasgow died 17 May 1824 aged 63, Chester diocese, Pennsylvania burial collection, Historical Society of Pennsylvania; parish and address dash. Exact death date matches Glasgow-2872 and its already held memorial. Birth 1761 is age-derived. Preserve competing father hypotheses John Glasgow-2870 at 25% and James Glasgow-1025 at 67%, and the independently ungraded maternal identity; the death index resolves none of them. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [US/BMD/PENN-BUR/00346205](https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F00346205&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

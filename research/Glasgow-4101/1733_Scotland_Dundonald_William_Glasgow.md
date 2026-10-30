@@ -1,3 +1,5 @@
+> **Catalogue reconciliation — 30 October 2026:** This already-created person is represented by [William Glasgow (Glasgow-4101)](https://www.wikitree.com/wiki/Glasgow-4101). The duplicate record-only catalogue case is retired. The original creation text below is historical and is not a recommendation to create another person.
+
 <!-- BEGIN FMP-GLASGOW-fmp-glasgow-033cb073721c -->
 > **CREATED:** [William Glasgow (Glasgow-4101)](https://www.wikitree.com/wiki/Glasgow-4101)
 

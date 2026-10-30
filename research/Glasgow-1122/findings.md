@@ -19,3 +19,11 @@ Next useful test: Find Robert’s baptism or a later document naming both parent
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasgow-1122](https://www.wikitree.com/wiki/Glasgow-1122)
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow baptised 12 December 1742 at Covington and Thankerton, George Glasgow and Agnes Williamson. The current Glasgow-1122 and its siblings share this parental family and parish sequence; retain the matched child. The baptism does not supply an exact birthday or independently replace the inherited Kilwinning birth-place. Father Glasgow-1070 remains 77%; mother Williamson-12853 is not newly assessed. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [R_685660805](https://www.findmypast.co.uk/transcript?id=R_685660805&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.

@@ -64,3 +64,11 @@ Next useful test: Compare the county-history son list with Hugh’s probate and 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Thomas Cushing, History of Allegheny County Pennsylvania, 1889, A. Warner & Co., Part II, Chapter XII, p. 138. https://archive.org/details/historyofalleghe01cush/page/138/mode/1up](https://archive.org/details/historyofalleghe01cush/page/138/mode/1up)
+
+## Findmypast pages 30–32 review — 30 October 2026
+
+Robert Glasgow birth date 17 September 1791, Pennsylvania baptism collection, Pittsburgh/Allegheny context; baptism year is dash and no parents are indexed. The exact birthday and later Pennsylvania life are compatible with Glasgow-546, but collection/baptism place does not independently prove birthplace or override its recorded Irish origin. Retain this comparison without assigning parents, a baptism day or a new birth-place; father Hugh Glasgow-540 remains 94%. Inspected Findmypast derivative; original register or memorial uninspected. No new person, attachment or relationship-confidence change.
+
+- [US/BMD/PENN-BAP/00118751](https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BAP%2F00118751&tab=this) — Compatible exact-birthday Robert comparison; baptism and birthplace not reassigned.
+
+Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.
