@@ -2,6 +2,10 @@
 
 ## Current conclusion
 
+Reviewed 30 October 2026: Jean's matching memorial remains 198800999, and the live correction confirmed below supersedes the earlier pending correction language. Her shared stone calls Peter Glasgow “late Tenant Whitebank”; [Peter's current review](/people/glasgow-2878.html#research-findings) prefers him as the 1797 accused Peter of Whitebank at 94% subjective identity confidence. That identification supplies no new event for Jean, no proof of executed transportation and no child attachment. Her existing vital account is retained; this review uses held derivative text, not a new original-stone or court-paper reading.
+
+## Earlier memorial summary — retained 30 October 2026
+
 Reviewed: 2026-10-29. Jean's own memorial was cited on WikiTree and verified live on 28 August 2026.
 
 [Jean Anderson Glasgow's own Find a Grave memorial

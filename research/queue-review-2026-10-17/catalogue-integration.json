@@ -11528,10 +11528,10 @@
       "pending": true,
       "queued_at": "2026-10-30",
       "biography_rechecked_at": "2026-10-30",
-      "draft_path": "research/Glasgow-1466/father-confidence-2026-10-22b.wiki",
+      "draft_path": "research/Glasgow-1466/whitebank-2026-10-30.wiki",
       "findings_path": "research/Glasgow-1466/findings.md",
-      "summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments. Add recovered provider fields with explicit identity and source-reading limits.",
-      "work_queue_summary": "Review existing father at 79% (probable), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
+      "summary": "Qualify the Bathgate trial comparison: the Whitebank memorial Peter is preferred at94%; preserve father79% and all unrelated family conclusions.",
+      "work_queue_summary": "Qualify the Bathgate trial comparison: the Whitebank memorial Peter is preferred at94%; preserve father79% and all unrelated family conclusions.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -11551,7 +11551,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/detail-recovery-proposal-preservation-2026-10-30.json"
+      "preservation_review_path": "research/ancestry-connections/whitebank-preservation-2026-10-30.json",
+      "manual_update": true
     },
     "Glasgow-209": {
       "profile_id": "Glasgow-209",
@@ -42078,6 +42079,36 @@
           "previous_status": "guess"
         }
       }
+    },
+    "Glasgow-2878": {
+      "profile_id": "Glasgow-2878",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "queued_at": "2026-10-30",
+      "summary": "Add the preferred 94% Whitebank trial identification and retain source/transportation limits.",
+      "draft_path": "research/Glasgow-2878/whitebank-2026-10-30.wiki",
+      "findings_path": "research/Glasgow-2878/findings.md",
+      "preservation_review_path": "research/ancestry-connections/whitebank-preservation-2026-10-30.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-10-30",
+      "work_queue_summary": "Add the preferred 94% Whitebank trial identification and retain source/transportation limits."
+    },
+    "Anderson-83920": {
+      "profile_id": "Anderson-83920",
+      "status": "OPEN",
+      "pending": true,
+      "manual_update": true,
+      "queued_at": "2026-10-30",
+      "summary": "Add the preferred 94% Whitebank trial identification and retain source/transportation limits.",
+      "draft_path": "research/Anderson-83920/whitebank-2026-10-30.wiki",
+      "findings_path": "research/Anderson-83920/findings.md",
+      "preservation_review_path": "research/ancestry-connections/whitebank-preservation-2026-10-30.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-10-30",
+      "work_queue_summary": "Add the preferred 94% Whitebank trial identification and retain source/transportation limits."
     }
   },
   "reviewed_on": "2026-10-22",

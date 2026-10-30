@@ -50839,5 +50839,34 @@
     "reviewed_on": "2026-10-30",
     "provenance": "research/findmypast-glasgow-audit/record-details-remaining-b.json#/records/SCOT~1OPR~1BAP~14151556",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "nrs-jc26-1797-40-peter-whitebank",
+    "person": "Peter Glasgow",
+    "association": "Peter Glasgow of Whitebank, trial index and memorial identity comparison",
+    "date": "1797-10-09",
+    "year": 1797,
+    "place": "High Court of Justiciary, Scotland; accused designated Whitebank",
+    "country": "Scotland",
+    "record_type": "Trial index",
+    "record_category": "Court and legal records",
+    "source_title": "Scottish Indexes, High Court of Justiciary Trial Papers, Peter Glasgow of Whitebank",
+    "source_url": "https://www.scottishindexes.com/jcdetail.aspx?jcid=1797040&pid=179704079",
+    "source_quality": "derivative",
+    "status": "Indexed accused; strongly inferred Glasgow-2878 identity, 94%",
+    "note": "The trial index names Peter Glasgow of Whitebank, tried on 9 October 1797. The held memorial transcription for Peter Glasgow-2878 calls him the late tenant of Whitebank, records death on 7 November 1812 aged 72, names Jean Anderson as spouse, and sons John and James as erectors. Matching personal name and the specific tenancy provide a substantially better identification than the Bathgate Peter-1466 comparison, which has no Whitebank link. Prefer Peter-2878 as the trial subject at 94% subjective identity confidence. This is one memorial, also indexed under Jean, not two independent witnesses. The original memorial image and court papers were not newly inspected. The trial index gives no age, family or occupation; another Peter of the same holding remains possible. The index records a guilty verdict and transportation sentence, not proof of a voyage, destination, actual removal, return or pardon. Do not use this occurrence to infer either man’s parents, alter Peter-1466’s 79% father assessment, or transfer the unassigned 1818 Edinburgh burial. Reassessment of held memorial evidence combined with a fresh index read, not newly discovered court papers.",
+    "profiles": {
+      "Glasgow-2878": {
+        "role": "Preferred accused identity from the matching Whitebank tenancy, 94% subjective identity confidence",
+        "timeline_group": "Strongly inferred adult identification"
+      },
+      "Glasgow-1466": {
+        "role": "Weaker unexcluded comparison; no demonstrated Whitebank connection",
+        "timeline_group": "Competing identity comparison"
+      }
+    },
+    "reviewed_on": "2026-10-30",
+    "provenance": "Existing Peter-1466 trial citation checked against the held Peter-2878 memorial transcription; fresh trial-index read on 30 October 2026.",
+    "publish_to_record_index": true
   }
 ]

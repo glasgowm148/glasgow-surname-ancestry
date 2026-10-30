@@ -63057,6 +63057,50 @@
           "scope": "No new birth-field change: the explicit 26 April birth was already adopted. The Sarah Chapman tree wife and the supplementary 1880 Henry marriage (Henry born about 1858, father Thomas) do not identify the 1787 child with that later father. Preserve these existing comparisons and attachment with their uncertainty; do not create or transfer Henry. Original register uninspected."
         }
       ]
+    },
+    {
+      "id": "whitebank-peter-trial-identity-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The 1797 Peter Glasgow of Whitebank trial is strongly identified with Peter-2878, whose memorial calls him the former tenant of Whitebank, rather than the previously considered Bathgate Peter-1466. Subjective identity confidence: 94%.",
+      "qualification": "The original memorial image and court papers were not newly inspected. The trial index gives no age, family or occupation; another Peter of the same holding remains possible. The index records a guilty verdict and transportation sentence, not proof of a voyage, destination, actual removal, return or pardon. Do not use this occurrence to infer either man’s parents, alter Peter-1466’s 79% father assessment, or transfer the unassigned 1818 Edinburgh burial. Reassessment of held memorial evidence combined with a fresh index read, not newly discovered court papers.",
+      "detail_url": "/people/glasgow-2878.html",
+      "people": [
+        {
+          "id": "Glasgow-2878",
+          "name": "Peter Glasgow of Whitebank",
+          "url": "/people/glasgow-2878.html",
+          "role": "Preferred trial subject, 94% identity inference"
+        },
+        {
+          "id": "Glasgow-1466",
+          "name": "Peter Glasgow of West Calder and Bathgate",
+          "url": "/people/glasgow-1466.html",
+          "role": "Weaker unexcluded comparison; father remains 79%"
+        },
+        {
+          "id": "Anderson-83920",
+          "name": "Jean Anderson",
+          "url": "/people/anderson-83920.html",
+          "role": "Named spouse in the one held Whitebank family memorial"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scottish Indexes, Peter Glasgow of Whitebank, JC26/1797/40, 9 October 1797; index freshly read, original unread",
+          "url": "https://www.scottishindexes.com/jcdetail.aspx?jcid=1797040&pid=179704079"
+        },
+        {
+          "title": "Peter memorial 198800998; held transcription, original photograph not newly read",
+          "url": "https://www.findagrave.com/memorial/198800998/peter_glasgow"
+        },
+        {
+          "title": "Jean memorial 198800999; companion index of the same stone",
+          "url": "https://www.findagrave.com/memorial/198800999/jean-glasgow"
+        }
+      ]
     }
   ]
 }

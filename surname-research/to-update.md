@@ -4484,3 +4484,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Glasgow-1452](https://www.wikitree.com/wiki/Glasgow-1452) | OPEN | Add verified literal Thomas/Christian parental fields and review existing parish-child father68%→97%; retain Kingsessing/Leith comparisons without assigning an adult identity. |
 | [Glasgow-1453](https://www.wikitree.com/wiki/Glasgow-1453) | OPEN | Review existing parish-child father70%→97% from full parent fields; preserve1783/1784variants and unproved Thomson/1871Bridgeton comparison. |
 | [Glasgow-1449](https://www.wikitree.com/wiki/Glasgow-1449) | OPEN | Review existing parish-child father69%→97% from detailed1787birth/baptism parents; retain exact adopted birth and qualified Sarah Chapman/Henry comparison. |
+
+## 30 October 2026 — Whitebank identity comparison
+
+| [Glasgow-2878](https://www.wikitree.com/wiki/Glasgow-2878) | OPEN | Add the preferred 94% Whitebank trial identification and retain source/transportation limits. |
+| [Glasgow-1466](https://www.wikitree.com/wiki/Glasgow-1466) | OPEN | Qualify the Bathgate trial comparison: the Whitebank memorial Peter is preferred at94%; preserve father79% and all unrelated family conclusions. |
+| [Anderson-83920](https://www.wikitree.com/wiki/Anderson-83920) | OPEN | Add the preferred 94% Whitebank trial identification and retain source/transportation limits. |
