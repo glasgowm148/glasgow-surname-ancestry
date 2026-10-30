@@ -36,7 +36,57 @@ def parent_order(row: dict) -> tuple:
             row.get('role') != 'father', row.get('id', ''))
 
 
-def overlay_model(retained: dict, fresh: dict) -> dict:
+def _restore_recorded_mother_placeholders(existing: dict, incoming: dict,
+                                         site_root: Path) -> None:
+    """Restore an exported identity only when the public dossier records it."""
+    for ident, person in list(existing.items()):
+        recorded = [r for r in person.get('parents', []) if r.get('role') == 'mother']
+        rows = [r for r in incoming.get(ident, {}).get('parents', [])
+                if r.get('role') == 'mother']
+        if (len(recorded) != 1 or recorded[0].get('id') or len(rows) != 1
+                or not rows[0].get('id')):
+            continue
+        row, fresh_row = recorded[0], rows[0]
+        target = fresh_row['id']
+        if (target == ident or target not in incoming
+                or any(r.get('private') or r.get('withheld')
+                       for r in (row, fresh_row, person, incoming[target],
+                                 existing.get(target, {})))
+                or not repairable_parent(row, target, [])
+                or not repairable_parent(fresh_row, target, [])):
+            continue
+        path = site_root / 'people' / (ident.lower() + '.json')
+        if not path.is_file():
+            continue
+        dossier = json.loads(path.read_text())
+        parents = [r for r in (dossier.get('relationships') or {}).get('parents', [])
+                   if r.get('relationship') == 'mother']
+        if (dossier.get('id') != ident or dossier.get('private') or dossier.get('withheld')
+                or len(parents) != 1
+                or parents[0].get('id') != target
+                or parents[0].get('tree_relationship') is not True
+                or parents[0].get('relationship_source') != 'wikitree_parent_field'
+                or parents[0].get('private')
+                or not repairable_parent(parents[0], target, [])):
+            continue
+        existing.setdefault(target, deepcopy(incoming[target]))
+        # This repairs identity, not an assessment or the mother's approved account.
+        row.update(id=target, name=parents[0].get('name') or incoming[target]['name'],
+                   inModel=True)
+        children = existing[target].setdefault('childrenRecorded', [])
+        if not any(r.get('id') == ident for r in children):
+            children.append(dict(id=ident, name=person.get('name', ident), role='child',
+                                 status=row.get('status', 'unmarked'), inModel=True))
+        edge = person.get('edge', {})
+        if (edge.get('role') == 'mother' and not edge.get('parent')) or (
+                edge.get('type') == 'group' and not any(
+                    r is not row and r.get('id') in existing and not r.get('withheld')
+                    for r in person.get('parents', []))):
+            person['edge'] = dict(parent=target, type='recorded', semantic='parent',
+                                  role='mother', status=row.get('status', 'unmarked'))
+
+
+def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None) -> dict:
     """Refresh working subjects without replacing the approved atlas publication."""
     result = deepcopy(retained)
     incoming = {p['id']: p for p in fresh['people']}
@@ -223,6 +273,8 @@ def overlay_model(retained: dict, fresh: dict) -> dict:
                                if key in VITAL_DISPLAY_FIELDS})
     captured_repairs = fresh['meta'].get('capturedParentIdentityRepairs', [])
     apply_parent_identity_repairs(existing, captured_repairs, incoming)
+    if site_root is not None:
+        _restore_recorded_mother_placeholders(existing, incoming, site_root)
     result['people'] = list(existing.values())
     for p in result['people']:
         parent = p.get('edge', {}).get('parent')
@@ -262,7 +314,7 @@ def sync(site_root: Path, fresh: dict) -> bool:
     target = site_root / 'assets/research/atlas-model.json'
     if not target.exists():
         return False
-    model = overlay_model(json.loads(target.read_text()), fresh)
+    model = overlay_model(json.loads(target.read_text()), fresh, site_root=site_root)
     from tools.relationship_probability import annotate_model
     annotate_model(model)
     target.write_text(json.dumps(model, ensure_ascii=False, separators=(',', ':')) + '\n')

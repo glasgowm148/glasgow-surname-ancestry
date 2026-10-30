@@ -1,11 +1,79 @@
 import unittest
 from copy import deepcopy
+import json
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 from tools.approved_restorations import documentary_renderer
 from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_ungraded_mother_placeholder_needs_matching_recorded_public_dossier(self):
+        placeholder = dict(id='', name='Parent outside current One-Tree export',
+                           role='mother', status='unmarked', inModel=False)
+        old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
+            {'id': '@smaller-families', 'kind': 'group'},
+            {'id': 'Child-1', 'kind': 'person', 'name': 'Approved child',
+             'note': 'Retained annotation', 'born': 1746, 'parents': [placeholder],
+             'edge': {'parent': '@smaller-families', 'type': 'group'}}]}
+        fresh = deepcopy(old)
+        fresh['meta']['date'] = '2026-10-30'
+        fresh['people'][1].update(name='Fresh export name', born=1766,
+                                 parents=[dict(id='Mother-1', name='Recorded mother',
+                                               role='mother', status='unmarked')])
+        fresh['people'].append(dict(id='Mother-1', name='Recorded mother', kind='person',
+                                    parents=[], childrenRecorded=[]))
+        recorded = dict(id='Mother-1', name='Recorded mother', relationship='mother',
+                        tree_relationship=True, relationship_source='wikitree_parent_field')
+        with TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'people').mkdir()
+            path = root / 'people/child-1.json'
+            path.write_text(json.dumps(dict(id='Child-1', relationships={'parents': [recorded]})))
+            out = overlay_model(old, fresh, site_root=root)
+            people = {p['id']: p for p in out['people']}
+            self.assertEqual(people['Child-1']['parents'], [dict(
+                placeholder, id='Mother-1', name='Recorded mother', inModel=True)])
+            self.assertEqual(people['Child-1']['born'], 1746)
+            self.assertEqual(people['Child-1']['note'], 'Retained annotation')
+            self.assertEqual(people['Child-1']['edge']['parent'], 'Mother-1')
+            self.assertEqual(people['Mother-1']['childrenRecorded'][0]['id'], 'Child-1')
+            self.assertEqual(people['Mother-1']['childrenRecorded'][0]['status'], 'unmarked')
+            self.assertEqual(out, overlay_model(out, fresh, site_root=root))
+            retained = deepcopy(old)
+            retained['people'].append(dict(id='Mother-1', name='Approved mother account',
+                                            born=1710, note='Keep this account',
+                                            childrenRecorded=[{'id': 'Other-1'}]))
+            result = overlay_model(retained, fresh, site_root=root)
+            mother = next(p for p in result['people'] if p['id'] == 'Mother-1')
+            self.assertEqual((mother['name'], mother['born'], mother['note']),
+                             ('Approved mother account', 1710, 'Keep this account'))
+            self.assertEqual([r['id'] for r in mother['childrenRecorded']],
+                             ['Other-1', 'Child-1'])
+            # A named or private retained mother is not an export placeholder.
+            for protected in [dict(placeholder, id='Other-1'),
+                              dict(placeholder, name='Different named mother'),
+                              dict(placeholder, withheld=True), dict(placeholder, private=True),
+                              dict(placeholder, status='non-biological')]:
+                with self.subTest(protected=protected):
+                    retained = deepcopy(old)
+                    retained['people'][1]['parents'] = [protected]
+                    result = overlay_model(retained, fresh, site_root=root)
+                    self.assertEqual(result['people'][1]['parents'], [protected])
+                    self.assertNotIn('Mother-1', {p['id'] for p in result['people']})
+            # A different/assessed-only dossier parent cannot authorize the repair.
+            for unsupported in [dict(recorded, id='Other-1'),
+                                dict(recorded, tree_relationship=False),
+                                dict(recorded, relationship_source='shared_research_assertion'),
+                                dict(recorded, withheld=True), dict(recorded, private=True)]:
+                with self.subTest(unsupported=unsupported):
+                    path.write_text(json.dumps(dict(id='Child-1', relationships={
+                        'parents': [unsupported]})))
+                    result = overlay_model(old, fresh, site_root=root)
+                    self.assertEqual(result['people'][1]['parents'], [placeholder])
+                    self.assertNotIn('Mother-1', {p['id'] for p in result['people']})
+
     def test_explicit_vital_review_updates_retained_display_only(self):
         old = {'meta': {}, 'landmarks': [], 'sections': [], 'people': [
             {'id': '@smaller-families', 'kind': 'group'},
