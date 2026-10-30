@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasco-146",
+  "objective": "Resolve the selected father through identifying family evidence without repeating completed source tests.",
+  "research_state": {
+    "father_id": "Glasgow-1242",
+    "disposition": "awaiting_source",
+    "reviewed": "2026-10-30",
+    "last_test": "DCLA/JohnGrenham freemen1461–1491,1564–1774 searched by surname Glasco,Glasgow,Glascoe: each No match. Independently read all26watchmaker and11clockmaker result rows; none names Philip Glasco. The provider says simple surname searches include variants and surviving beseeches through1774 are represented. No original admission application was inspected. Retain20%; absence from this database does not disprove the watchmaker or Scottish parent hypothesis.",
+    "next_test": "A Scottish-origin, parent-naming, apprenticeship or probate clause identifies elder Dublin Philip independently of the1711Thomas/Jean child. Keep elder/junior events and Uphall/Linlithgow1711differences separate. Later1774–1824freeman lists cannot establish a new admission for an elder already reported dead1772 without resolving identity.",
+    "resume_when": "An identifying trade, family or origin record is obtained, or a demonstrably different relevant collection becomes available. Repeating these same surname/trade queries is not a new test."
+  },
+  "questions": [
+    {
+      "id": "father",
+      "question": "Which source identifies the father of this adult?",
+      "status": "open",
+      "answer": "Existing hypothesis retained; see the exact-pair source test and reopening trigger."
+    }
+  ]
+}

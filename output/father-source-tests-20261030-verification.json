@@ -1,0 +1,48 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-father-source-tests-20261030",
+  "completed_tests": {
+    "Glasgow-2871": "York archive385catalogue records searched; no Glasgow accession, specific administrationbook not publicly listed. Unlisted holdings not excluded.",
+    "Glasco-146": "Three surname queries no match;26watchmaker and11clockmaker rows read, no Philip Glasco. Original applications not inspected."
+  },
+  "father_probabilities_unchanged": {
+    "Glasgow-2871": 17,
+    "Glasco-146": 20
+  },
+  "graph_and_confidence_history_unchanged": true,
+  "full_compact_filter_membership_agrees": true,
+  "exact_pair_readiness": "Both awaiting_source, with named original-source reopening triggers.",
+  "local_http": {
+    "/latest-findings/page/22/": 200,
+    "/people/glasgow-2871.html": 200,
+    "/people/glasco-146.html": 200,
+    "/branches/early-scottish-records/": 200,
+    "/branches/research-irish-moneymore/": 200,
+    "/onetree/progress/": 200
+  },
+  "live_wikitree_edits": false,
+  "deployed": false,
+  "checks": {
+    "publication_new_failures": 0,
+    "internal_link_new_pairs": 0,
+    "native_views_matched": 308,
+    "stale_asset_references": 0,
+    "next_dispatch_excludes_completed_pairs": true
+  },
+  "next_shortlist": [
+    {
+      "child": "Glasgow-1087",
+      "father": "Glasgow-3296",
+      "confidence_percent": 46
+    },
+    {
+      "child": "Glasgow-1406",
+      "father": "Glasgow-1512",
+      "confidence_percent": 23
+    },
+    {
+      "child": "Glasgow-2873",
+      "father": "Glasgow-2871",
+      "confidence_percent": 82
+    }
+  ]
+}

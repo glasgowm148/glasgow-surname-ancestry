@@ -1,6 +1,8 @@
 # Findings: [Philip Glasco, provisional elder Dublin account](https://www.wikitree.com/wiki/Glasco-146)
 
 ## Current conclusion
+Reviewed 30 October 2026: the bounded source test below supplies no new parentage proof. The exact-pair plan now records the missing source and reopening trigger; existing father confidence and family fields are unchanged.
+
 
 
 Reviewed 18 October 2026. **Thomas Glasco-144 is selected as a probable son, 67%, through the named-father advertisement and the local 1773 marriage comparison. This does not strengthen Philip’s uncertain Scottish ancestry.**
@@ -55,3 +57,11 @@ The Dublin records name no Scottish parents, birthplace or apprenticeship, so th
 [Watson’s 1783 directory: Thomas Glasco, watchmaker, 20 Ormond Quay; maintained transcription](https://www.swilson.info/wat1783tr.php?brw=sur&brwkey=Glasco)
 
 Check the original 1773 advertisement and marriage entry, the Duffy 1774/1775 probate papers, and Thomas’s London apprenticeship/freedom records for trade, address or named kin. Seek the 1777 Margaret Glasco grant and the full 1777 Philip/Thomas chancery bill before accepting a Duffy–Hynes remarriage or a precise Philip generation.
+
+## Dublin freeman admission test — 30 October 2026
+
+The selected [Thomas Glasgow-1242](/people/glasgow-1242.html) father remains **20% uncertain**. The public [DCLA/John Grenham freeman database](https://www.johngrenham.com/dcla/freemen/) was searched with the surname terms **Glasco, Glasgow and Glascoe**, each returning “No match.” The separate occupation queries returned **26 watchmakers and 11 clockmakers**; all displayed rows were read and none names Philip Glasco. These are database result rows, not newly inspected original admissions.
+
+The [provider’s methodology](https://www.johngrenham.com/dcla/freemen/about.php) says simple surname searches include variants and that the database combines Thrift’s register transcripts with surviving admission applications through1774. The checked coverage is1461–1491 and1564–1774. The result does not prove Philip was never a watchmaker or resident, does not cover every guild or later admission, and neither proves nor disproves the1711Scottish-child identification. No religious exclusion or migration is inferred from absence.
+
+The exact-pair plan now waits for an identifying origin, parent, apprenticeship or probate clause. Elder/junior events, the competing1711places and maternal readings, and all existing family attachments remain unchanged. Repeating the same freeman queries will not count as another research test.

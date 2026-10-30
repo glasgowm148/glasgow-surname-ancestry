@@ -1,6 +1,8 @@
 # Glasgow-2871 research findings
 
 ## Current conclusion
+Reviewed 30 October 2026: the bounded source test below supplies no new parentage proof. The exact-pair plan now records the missing source and reopening trigger; existing father confidence and family fields are unchanged.
+
 
 **Chester family review,24 October 2026:** The exact next title test for Hugh’s existing 82% father hypothesis is the indexed1799 Hugh Glasgow/Fawn sale to Timothy Currens,East & West Nottingham,H-3:253. The index names no John or heir. The original volume is verified,but its full pages requested authentication and remain unread. Earlier probate negatives are not repeated.
 
@@ -195,3 +197,11 @@ The exact next title test for Hugh’s existing 82% father hypothesis is the ind
 Visually inspected official index, PDF p.940, on 24 October 2026. Hugh Glasgow of Fawn, York County is indexed as 1799 grantor to Timothy Currens for East & West Nottingham property,H-3:253. Samuel’s West Fallowfield entries are 1804 purchase from John Sweeny,A-3:435; 1805 purchase from William Haslett,A-3:433; 1805 sale to Abraham Rackstraw,Y-2:391; and 1812 sale to James Haslett,K-3:394. Judith Heslett appears in the spouse column for the two sales, with et.al.; her maiden name and the original parties’ precise capacities are not established. The separate1804 East Fallowfield Samuel/Daniel Kent,Y-2:16, remains an unassigned namesake comparison. These are separate indexed transactions, not independent confirmations of parentage. Original deed clauses and image-page offsets remain unverified. H-3 was verified as Deed Book Vol.056,portal Doc771593; full images/print invoked HTTP authentication and were not read.
 
 [Official index](https://www.chesco.org/DocumentCenter/View/84215/E-G#page=940) · [Chester/Irish comparison](/branches/research-irish-moneymore/#chester-samuel-father).
+
+## Exact father-source tests — 30 October 2026
+
+The selected [John Glasgow-2870](/people/glasgow-2870.html) father remains **17% uncertain**. The reported family Bible remains an unverified profile narrative, without a checked accession or literal parent-entry image. Today’s [York County History Center Bible catalogue](https://yorkhistorycenter.pastperfectonline.com/Archive?search_criteria=Glasgow&onlyimages=false) returned no Glasgow result among 385 archive records. Its [collection-level finding aid](https://yorkhistorycenter.pastperfectonline.com/archive/5CDB1C1B-14A5-4901-B94E-880362490205) describes loose family pages and an index, but no Glasgow Bible accession was found. The [September 2026 family-report list](https://www.yorkhistorycenter.org/wp-content/uploads/01-Family-Report-Database-PUBLIC-updated-Sep-2026.pdf) also has no Glasgow entry. These checks do not establish that the Bible or a photocopy is absent from the institution’s unlisted family files.
+
+The [county’s public Register of Wills group](https://portal.laserfiche.com/Portal/Browse.aspx?id=772106&repo=r-24f48cc6) lists ten series, including estate files and will books, but no administration-book series. The specific **Administration Book 2, p.386**, cited by the missing-bond slip in estate 4225, remains unread. The prior original 1789 and 1792 estate reviews were reused, not repeated or presented as new originals.
+
+The exact-pair plan now awaits an actual Bible page, accession/burial record, or that register entry. No parent, wife, birth/death field or confidence grade changes. The Hugh succession-deed test is a separate question.

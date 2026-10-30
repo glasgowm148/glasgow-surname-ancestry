@@ -63101,6 +63101,60 @@
           "url": "https://www.findagrave.com/memorial/198800999/jean-glasgow"
         }
       ]
+    },
+    {
+      "id": "father-source-tests-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two queued father tests completed without new parentage proof: the York online Bible catalogue supplies no Glasgow accession, and Dublin freeman surname/trade searches supply no Philip admission. The existing 17% and 20% hypotheses are unchanged.",
+      "qualification": "Bounded database/catalogue negatives, not evidence that the underlying people, Bible, private copies, unlisted registers or father relationships did not exist. No original Bible, administration-register entry or admission application was inspected. No confidence gain or new family attachment is claimed.",
+      "detail_url": "/people/glasgow-2871.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2871",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2871.html",
+          "role": "Existing father17% unchanged; Bible/register source needed"
+        },
+        {
+          "id": "Glasgow-2870",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2870.html",
+          "role": "Unproved older father hypothesis, not a newly identified parent"
+        },
+        {
+          "id": "Glasco-146",
+          "name": "Philip Glasco",
+          "url": "/people/glasco-146.html",
+          "role": "Existing father20% unchanged; origin bridge needed"
+        },
+        {
+          "id": "Glasgow-1242",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1242.html",
+          "role": "Scottish child-parent hypothesis unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "York County History Center, Glasgow archive query, 30 October2026",
+          "url": "https://yorkhistorycenter.pastperfectonline.com/Archive?search_criteria=Glasgow&onlyimages=false"
+        },
+        {
+          "title": "Chester County public Register of Wills series inventory; AdministrationBook2not listed",
+          "url": "https://portal.laserfiche.com/Portal/Browse.aspx?id=772106&repo=r-24f48cc6"
+        },
+        {
+          "title": "Dublin freemen surname and occupation database; direct result pages checked",
+          "url": "https://www.johngrenham.com/dcla/freemen/"
+        },
+        {
+          "title": "Dublin freemen scope and index methodology",
+          "url": "https://www.johngrenham.com/dcla/freemen/about.php"
+        }
+      ]
     }
   ]
 }

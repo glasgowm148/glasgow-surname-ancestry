@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-2871",
+  "objective": "Resolve the selected father through identifying family evidence without repeating completed source tests.",
+  "research_state": {
+    "father_id": "Glasgow-2870",
+    "disposition": "awaiting_source",
+    "reviewed": "2026-10-30",
+    "last_test": "Checked the current York County History Center online Bible catalogue for Glasgow: no result among 385 searched archive records. The collection-level finding aid lists loose pages but supplies no Glasgow Bible accession. The September2026 family-report index has no Glasgow entry. Reviewed the county public Register of Wills group: its ten listed series include estate files and will books, but not Administration Book2. These are bounded online-catalogue checks, not a search of unlisted holdings. Retain17%.",
+    "next_test": "Obtain the actual Glasgow Bible accession and relevant historical pages, or Administration Book2,p386 cited by the missing-bond slip in estate4225. Distinguish wife Mary from mother Mary and identify any literal John-to-John parent clause. H3:253 tests Hugh’s succession, not this older father pair.",
+    "resume_when": "An actual Bible page, burial/reinterment account or the specific administration-register entry becomes available. Do not repeat the completed1789/1792estate-paper or surname-catalogue searches."
+  },
+  "questions": [
+    {
+      "id": "father",
+      "question": "Which source identifies the father of this adult?",
+      "status": "open",
+      "answer": "Existing hypothesis retained; see the exact-pair source test and reopening trigger."
+    }
+  ]
+}
