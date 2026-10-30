@@ -18,6 +18,7 @@
         "source_level": "Inspected provider derivative; original uninspected",
         "note": "The inspected Ratho OPR derivative explicitly records Mary Glasgow's birth on 11 October 1768 and baptism on 24 October 1768, naming John Glasgow and Mary Robertson (OPR 698A/1, item 1, page 57). Replace the inherited before-baptism birth bound with 11 October 1768. Ratho is retained as the existing parish-context location; the transcript does not separately label a birthplace. The original register remains uninspected. John Glasgow-1343 remains the selected probable father at 77%; the mother remains separately assessed.",
         "qualifier": "Explicit recorded birth day; retained location is parish context.",
+        "display_date": "11 October 1768",
         "provenance": {
           "assessment_id": "fmp-page28-glasgow-1618-birth-20261029",
           "source": "/assets/research/assessments.json",
@@ -75,7 +76,7 @@
   "relationship_changes": 0,
   "coverage_status": "INCOMPLETE",
   "indexed_provider_ids": 646,
-  "query_rows_reviewed": 560,
+  "query_rows_reviewed": 561,
   "query_total": 5872,
   "next_query_page": 29,
   "local_only": true,
@@ -106,5 +107,62 @@
   },
   "public_data_hashes_current": true,
   "asset_version_mismatches": 0,
-  "cache_note": "Local generated cache refresh only; mixed pre-existing cache edits will not be staged wholesale."
+  "cache_note": "Local generated cache refresh only; mixed pre-existing cache edits will not be staged wholesale.",
+  "tree_preview_labels": {
+    "Glasgow-1618": {
+      "birth": {
+        "date": "1768-10-11",
+        "place": "Ratho, Midlothian, Scotland",
+        "status": "exact",
+        "country": "Scotland",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4608141&tab=this",
+        "source_level": "Inspected provider derivative; original uninspected",
+        "note": "The inspected Ratho OPR derivative explicitly records Mary Glasgow's birth on 11 October 1768 and baptism on 24 October 1768, naming John Glasgow and Mary Robertson (OPR 698A/1, item 1, page 57). Replace the inherited before-baptism birth bound with 11 October 1768. Ratho is retained as the existing parish-context location; the transcript does not separately label a birthplace. The original register remains uninspected. John Glasgow-1343 remains the selected probable father at 77%; the mother remains separately assessed.",
+        "qualifier": "Explicit recorded birth day; retained location is parish context.",
+        "display_date": "11 October 1768",
+        "provenance": {
+          "assessment_id": "fmp-page28-glasgow-1618-birth-20261029",
+          "source": "/assets/research/assessments.json",
+          "reviewed": "2026-10-29",
+          "basis": "The inspected Ratho OPR derivative explicitly records Mary Glasgow's birth on 11 October 1768 and baptism on 24 October 1768, naming John Glasgow and Mary Robertson (OPR 698A/1, item 1, page 57). Replace the inherited before-baptism birth bound with 11 October 1768. Ratho is retained as the existing parish-context location; the transcript does not separately label a birthplace. The original register remains uninspected. John Glasgow-1343 remains the selected probable father at 77%; the mother remains separately assessed."
+        }
+      },
+      "death": {
+        "date": null,
+        "place": null,
+        "status": null,
+        "display_date": "Not recorded",
+        "country": "other",
+        "basis": "imported_vital"
+      }
+    },
+    "Glasgow-3121": {
+      "birth": {
+        "date": "1778",
+        "place": null,
+        "status": "uncertain",
+        "display_date": "1778",
+        "country": "other",
+        "basis": "imported_vital"
+      },
+      "death": {
+        "date": "1779",
+        "place": "Glasgow, Lanarkshire, Scotland",
+        "status": "uncertain",
+        "country": "Scotland",
+        "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093192&tab=this",
+        "source_level": "Inspected provider derivative; original uninspected",
+        "note": "The inspected Ramshorn & Blackfriars derivative records Mary Glasgow's death year as 1779, Death date as '? ? 1779', and burial on 22 January 1779, aged six months. Her father is named Alexander Glasgow, with Glasgow Regiment and smallpox in the notes. Replace the inherited exact death date of 22 January with the recorded year 1779: she died on or before her burial, but no exact death day is supplied. Preserve Glasgow as the existing burial-context locality, without claiming an independently recorded death place. Her uncertain birth year 1778 is unchanged. Alexander Glasgow-1309 remains the selected probable father at 67%; the transcript names no mother. The original remains uninspected.",
+        "qualifier": "Recorded death year 1779; exact day unknown. Burial was 22 January; retained location is burial context.",
+        "display_date": "1779 (on or before 22 January)",
+        "provenance": {
+          "assessment_id": "fmp-page28-glasgow-3121-death-20261029",
+          "source": "/assets/research/assessments.json",
+          "reviewed": "2026-10-29",
+          "basis": "The inspected Ramshorn & Blackfriars derivative records Mary Glasgow's death year as 1779, Death date as '? ? 1779', and burial on 22 January 1779, aged six months. Her father is named Alexander Glasgow, with Glasgow Regiment and smallpox in the notes. Replace the inherited exact death date of 22 January with the recorded year 1779: she died on or before her burial, but no exact death day is supplied. Preserve Glasgow as the existing burial-context locality, without claiming an independently recorded death place. Her uncertain birth year 1778 is unchanged. Alexander Glasgow-1309 remains the selected probable father at 67%; the transcript names no mother. The original remains uninspected."
+        }
+      }
+    }
+  },
+  "vital_assessment_birth_revision": 2
 }
