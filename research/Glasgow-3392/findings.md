@@ -4,6 +4,7 @@
 
 Reviewed 30 October 2026: William born 16 July, baptised 19 July 1795 Kilmarnock, John Glasgow, shoe maker, and Margaret Wyllie, OPR 597/3 item 3 page 181. Exact dates and couple match Glasgow-3392; birthday already held. Father occupation is now explicit in this derivative; father 97% and mother ungraded unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
+
 Current father assessment (22 October 2026): **97% (proved)** for [Glasgow-3298](https://www.wikitree.com/wiki/Glasgow-3298). Whole selected father-profile proposition; maternity and upstream ancestry assessed separately. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The held Kilmarnock index account records William, birth16 July 1795, baptism19 July 1795, under John Glasgow and Margaret Wyllie, matching their17 September 1788 marriage. Exact birth and baptism dates distinguish the event. Whole selected father-profile proposition; maternity and upstream ancestry assessed separately.

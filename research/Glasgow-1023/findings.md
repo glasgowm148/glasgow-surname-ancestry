@@ -4,6 +4,7 @@
 
 Reviewed 30 October 2026: William baptised 26 June 1757 Livingston, Thomas Glasgow and Janet Mill. Exact event and family match Glasgow-1385; no explicit birthday. Father 80% and mother ungraded unchanged. Preserve childhood/adult identity limits for Thomas. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
+
 Reviewed 30 October 2026: the maintained birth field now adopts 5 November 1725, distinct from baptism 7 November 1725. The prior structured date is preserved in assessment history; original register uninspected and all family assessments unchanged.
 
 Reviewed 23 October 2026.

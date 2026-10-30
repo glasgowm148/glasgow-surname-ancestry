@@ -4,6 +4,7 @@
 
 Reviewed 30 October 2026: William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Isobell Clerk. Exact event and couple match Glasgow-1320. No explicit birthday. Father 76%, mother ungraded; child identification does not prove the adult Andrew childhood. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
+
 Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
 
 Reviewed 23 October 2026.

@@ -4,6 +4,7 @@
 
 Reviewed 30 October 2026: Thomas born 2 April, baptised 9 April 1786 Kirkliston; John Glasgow and Anne Gray, OPR 667/1 item 2 page 102. The held account reads Agnes Gray. Preserve Anne/Agnes; do not rename Gray-6937 or infer a second mother. Exact birthday is already held; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-159](https://www.wikitree.com/wiki/Glasgow-159). The held parish citation supports the recorded parentage; later adult identity remains independently assessed. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Thomas’s 2 April 1786 Kirkliston entry names John Glasgow and Agnes Gray. This exact birth and full couple match the selected John’s family. The held parish citation supports the recorded parentage; later adult identity remains independently assessed.

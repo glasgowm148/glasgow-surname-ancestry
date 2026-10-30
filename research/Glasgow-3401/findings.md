@@ -4,6 +4,7 @@
 
 Reviewed 30 October 2026: William born 23 July 1792, baptised 29 July Bathgate, Peter Glasgow and Elisabeth Dick, OPR 662/2 item 1 page 35. Exact family and locality match Glasgow-3401. Prefer explicit 23 July over maintained 7 July, retaining former reading and source. Father 81% and mother ungraded; no new adult childhood bridge. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
+
 Current father assessment (22 October 2026): **81% (probable)** for [Glasgow-1466](https://www.wikitree.com/wiki/Glasgow-1466). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 The recovered OPR explicitly names Peter Glasgow and Elisabeth Dick, birth 23 July and baptism 29 July 1792 at Bathgate. Its full parent fields are now held; Peter childhood/adult identification remains inferred and his existing 81% assessment is unchanged. Complete selected father-profile proposition, with identity limits below.

@@ -4,6 +4,7 @@
 
 Reviewed 30 October 2026: William baptised 16 April 1743 Penicuik, Allexander Glasgow and Jean Richie. Exact event/couple match Glasgow-1430; no explicit birthday or father middle name William. Father 65%, mother ungraded; subscription-held OPR 4602371 not retried or called inspected. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
+
 Current father assessment (22 October 2026): **65% (probable)** for [Glasgow-1342](https://www.wikitree.com/wiki/Glasgow-1342). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-17. This existing WikiTree profile is a tentative identity comparison for the source account below; no identity merge or family change is established.

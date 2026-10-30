@@ -58976,6 +58976,36 @@
       "detail_url": "/people/glasgow-3398.html"
     },
     {
+      "id": "norfolk-daniel-moyock-1692-title-20261025",
+      "found_on": "2026-10-25",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Original 1714 Moyock deeds trace Daniel senior’s separate 100-acre title back to a recited purchase on 16 May 1692; Daniel junior witnesses and Mary joins the release.",
+      "qualification": "The 100-acre Miller parcel is distinct from the 80 acres inherited through John Gamon and from the 100-acre Henry Slade parcel sold in 1729. Shared acreage alone does not join those titles. The same court day, Moyock residence, Mary, Daniel junior and John Nicholls strongly identify the senior as the father in the separately proved Gamon deed. This adds chronology and a witness network, without naming William Glasgow-428 as a son or resolving junior’s later identity. Father ratings remain junior→Glasgow-3322 98%, William-428→Daniel-1158 42%, Daniel-1158→Robert-1157 12%, and Daniel-3322→Robert-1157 34%. Follow-up30October2026: the1692original was located and inspected; both originals name Thomas Miller, correcting Willson. The original discovery remains dated25October. An alternate filming and an inventory false positive were excluded from new-record counts.",
+      "people": [
+        {
+          "id": "Glasgow-3322",
+          "name": "Daniel Glasgow senior",
+          "url": "/people/glasgow-3322.html"
+        },
+        {
+          "name": "Daniel Glasgow junior",
+          "url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-junior-1714"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Norfolk County, Virginia, Deed Book 9 (1710–1717), pp. 348–350; Daniel Glasgow to Thomas Miller, lease 15 September and release 16 September 1714, acknowledged 17 September 1714; FamilySearch DGS 007645618, images 523–525.",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
+        }
+      ],
+      "detail_url": "/people/glasgow-3322.html",
+      "provenance": [
+        "research/ancestry-connections/norfolk-moyock-title-review-2026-10-25.json"
+      ],
+      "reviewed_on": "2026-10-30"
+    },
+    {
       "id": "fmp-page27-existing-people-20261025",
       "found_on": "2026-10-25",
       "kind": "record",
@@ -61333,38 +61363,6 @@
       "detail_url": "/people/glasgow-1416.html"
     },
     {
-      "id": "pittsylvania-bond-role-correction-20261030",
-      "found_on": "2026-10-30",
-      "reviewed_on": "2026-10-30",
-      "kind": "record",
-      "status": "qualified",
-      "detail_url": "/people/glasgow-62.html",
-      "finding": "The original1815 bond behind a local-family lead in James Glasgow’s research names Herod Worsham as surety, contradicting the typed compilation’s Robert Glasgow bondsman entry. Robert Glasgow signed a separate declaration about the bride’s age and willingness.",
-      "qualification": "Correction of documentary roles in an associated-family test, not a proved kinship with James. Neither the bond nor the declaration states that Robert was the bride’s father or James’s father. James’s father remains unknown; no probability or connection gain is counted.",
-      "people": [
-        {
-          "id": "Glasgow-62",
-          "name": "James Glasgow",
-          "url": "/people/glasgow-62.html",
-          "role": "Existing family-origin investigation; no kinship attributed from the associated1815 papers"
-        }
-      ],
-      "sources": [
-        {
-          "title": "Original1815 bond, DGS7741063 full-film311/item175",
-          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-R33H-Y"
-        },
-        {
-          "title": "Separate age/willingness declaration, full-film309/item173",
-          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-R334-N"
-        },
-        {
-          "title": "Typed compilation, printed83/PDF86, superseded role",
-          "url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/marriages/1767marriage.pdf#page=86"
-        }
-      ]
-    },
-    {
       "id": "fmp-page29-reconciliation-20261030",
       "found_on": "2026-10-30",
       "kind": "record",
@@ -61473,6 +61471,38 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
+    },
+    {
+      "id": "pittsylvania-bond-role-correction-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-62.html",
+      "finding": "The original1815 bond behind a local-family lead in James Glasgow’s research names Herod Worsham as surety, contradicting the typed compilation’s Robert Glasgow bondsman entry. Robert Glasgow signed a separate declaration about the bride’s age and willingness.",
+      "qualification": "Correction of documentary roles in an associated-family test, not a proved kinship with James. Neither the bond nor the declaration states that Robert was the bride’s father or James’s father. James’s father remains unknown; no probability or connection gain is counted.",
+      "people": [
+        {
+          "id": "Glasgow-62",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-62.html",
+          "role": "Existing family-origin investigation; no kinship attributed from the associated1815 papers"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Original1815 bond, DGS7741063 full-film311/item175",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-R33H-Y"
+        },
+        {
+          "title": "Separate age/willingness declaration, full-film309/item173",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-R334-N"
+        },
+        {
+          "title": "Typed compilation, printed83/PDF86, superseded role",
+          "url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/marriages/1767marriage.pdf#page=86"
+        }
+      ]
     },
     {
       "id": "agnes-libberton-wilson-mother-20261030",
@@ -62010,36 +62040,6 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
-    },
-    {
-      "id": "norfolk-daniel-moyock-1692-title-20261025",
-      "found_on": "2026-10-25",
-      "kind": "record",
-      "status": "qualified",
-      "finding": "Original 1714 Moyock deeds trace Daniel senior’s separate 100-acre title back to a recited purchase on 16 May 1692; Daniel junior witnesses and Mary joins the release.",
-      "qualification": "The 100-acre Miller parcel is distinct from the 80 acres inherited through John Gamon and from the 100-acre Henry Slade parcel sold in 1729. Shared acreage alone does not join those titles. The same court day, Moyock residence, Mary, Daniel junior and John Nicholls strongly identify the senior as the father in the separately proved Gamon deed. This adds chronology and a witness network, without naming William Glasgow-428 as a son or resolving junior’s later identity. Father ratings remain junior→Glasgow-3322 98%, William-428→Daniel-1158 42%, Daniel-1158→Robert-1157 12%, and Daniel-3322→Robert-1157 34%. Follow-up30October2026: the1692original was located and inspected; both originals name Thomas Miller, correcting Willson. The original discovery remains dated25October. An alternate filming and an inventory false positive were excluded from new-record counts.",
-      "people": [
-        {
-          "id": "Glasgow-3322",
-          "name": "Daniel Glasgow senior",
-          "url": "/people/glasgow-3322.html"
-        },
-        {
-          "name": "Daniel Glasgow junior",
-          "url": "/research/subjects/norfolk-daniel-1729-1730/#daniel-junior-1714"
-        }
-      ],
-      "sources": [
-        {
-          "title": "Norfolk County, Virginia, Deed Book 9 (1710–1717), pp. 348–350; Daniel Glasgow to Thomas Miller, lease 15 September and release 16 September 1714, acknowledged 17 September 1714; FamilySearch DGS 007645618, images 523–525.",
-          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L9PX-X87K"
-        }
-      ],
-      "detail_url": "/people/glasgow-3322.html",
-      "provenance": [
-        "research/ancestry-connections/norfolk-moyock-title-review-2026-10-25.json"
-      ],
-      "reviewed_on": "2026-10-30"
     },
     {
       "id": "norfolk-daniel-1692-original-20261030",
@@ -62699,6 +62699,42 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
+    },
+    {
+      "id": "pittsylvania-little-fall-creek-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-62.html",
+      "finding": "Located the indexed Glasgow reference in a Virginia chancery case: James and William Glasgow testified in1851 that they had been Leonard Fitzgerald’s neighbours at Little Fall Creek in1821; James also recalled renting part of the land around1826.",
+      "qualification": "James Glasgow-62, the Pittsylvania cooper, is the leading existing compatible candidate for the James deponent, not a proved identification. Same county, sustained local knowledge and the existing1840deponent comparison support investigation; no family identifier links them. William’s identity and any kinship with James, the1815declarant Robert or Elizabeth remain unresolved. No duplicate person, father candidate, parent attachment, vital change or confidence gain is created. The1850census original separately confirms James’s already indexed Danville cooper household; no research-confidence gain is counted.",
+      "people": [
+        {
+          "id": "Glasgow-62",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-62.html",
+          "role": "Leading existing compatible candidate for the deponent; identity unproved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Original1851opening/date, scan23",
+          "url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box070/143_1854_055_0023.pdf"
+        },
+        {
+          "title": "James testimony, scan24",
+          "url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box070/143_1854_055_0024.pdf"
+        },
+        {
+          "title": "James signature and William testimony/signature, scan26",
+          "url": "https://old.lva.virginia.gov/ChanceryImg/143-Pittsylvania/Box070/143_1854_055_0026.pdf"
+        },
+        {
+          "title": "Original1850Danville census, p.320",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:S3HT-DYLN-TC"
+        }
+      ]
     }
   ]
 }

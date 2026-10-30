@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-10-29",
+  "reviewed": "2026-10-30",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -3384,6 +3384,59 @@
       "scope": "Shared father inferred from apprenticeship descriptions; maternity and baptism-profile identity separately unresolved."
     },
     {
+      "subject_id": "Glasgow-428",
+      "relative_id": "Glasgow-1158",
+      "relationship": "father",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
+      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. Original-image title review on 20 October 2026 withdraws the provisional William predecessor reading. Daniel’s tenure and Mary’s spousal consent do not identify William-428 or his father; retain 42% without an increase.",
+      "source_ids": [
+        "currituck-daniel-tax-1715",
+        "currituck-daniels-levies-1718",
+        "currituck-daniels-tax-1719",
+        "currituck-william-will-1746-1747",
+        "princess-anne-daniel-glasco-deed-1729"
+      ],
+      "reviewed": "2026-10-20",
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+        "reviewed_on": "2026-10-30",
+        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
+      },
+      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
+      "working_selection": true
+    },
+    {
+      "subject_id": "Glasgow-1158",
+      "relative_id": "Glasgow-428",
+      "relationship": "child",
+      "percent": 42,
+      "assessment_status": "possible",
+      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
+      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. Original-image title review on 20 October 2026 withdraws the provisional William predecessor reading. Daniel’s tenure and Mary’s spousal consent do not identify William-428 or his father; retain 42% without an increase.",
+      "source_ids": [
+        "currituck-daniel-tax-1715",
+        "currituck-daniels-levies-1718",
+        "currituck-daniels-tax-1719",
+        "currituck-william-will-1746-1747",
+        "princess-anne-daniel-glasco-deed-1729"
+      ],
+      "reviewed": "2026-10-20",
+      "scope": "42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son. The existing profiles Daniel Glasgow-1158 and Daniel Glasgow-3322 are compatible comparison accounts, not automatic matches to Senior and Junior respectively. Both are attached to Robert-1157 in the current tree and may themselves duplicate one adult; the fact that the returns contain two Daniels does not prove that these two profiles represent those two men. Daniel-3322’s account represents the Mary Gamon husband named in 1693. The 1729 Norfolk Daniel/Mary deed is a further compatible identity, not a proved continuation into either Currituck taxpayer. Daniel-1158’s inherited 1712 death remains unverified: it cannot establish which later Daniel is excluded, nor should a later same-name entry automatically extend his life. Preserve both profiles and their vital fields while testing these identities.",
+      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
+      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+      "working_selection": true,
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+        "reviewed_on": "2026-10-30",
+        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
+      }
+    },
+    {
       "subject_id": "Glasgow-1509",
       "relative_id": "Glasgow-1499",
       "relationship": "father",
@@ -6073,6 +6126,52 @@
           "note": "earlier value of this view; it now derives from the current assessment"
         }
       ]
+    },
+    {
+      "subject_id": "Glasgow-1158",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 12,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022-glasgow-1158-father",
+      "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
+      "source_ids": [
+        "held-e-a4ef12f70dfd"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+        "reviewed_on": "2026-10-30",
+        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
+      },
+      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
+      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+      "working_selection": false
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-1158",
+      "relationship": "child",
+      "percent": 12,
+      "assessment_status": "uncertain",
+      "assertion_id": "C-coverage-20261022-glasgow-1158-father",
+      "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
+      "source_ids": [
+        "held-e-a4ef12f70dfd"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+        "reviewed_on": "2026-10-30",
+        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
+      },
+      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
+      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1143",
@@ -16390,6 +16489,52 @@
       ],
       "reviewed": "2026-10-22",
       "scope": "Confident for Robert’s father James; this record does not prove that George was James’s father."
+    },
+    {
+      "subject_id": "Glasgow-3322",
+      "relative_id": "Glasgow-1157",
+      "relationship": "father",
+      "percent": 34,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
+      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3322"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles.",
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+        "reviewed_on": "2026-10-30",
+        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
+      },
+      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
+      "working_selection": false
+    },
+    {
+      "subject_id": "Glasgow-1157",
+      "relative_id": "Glasgow-3322",
+      "relationship": "child",
+      "percent": 34,
+      "assessment_status": "possible",
+      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
+      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
+      "source_ids": [
+        "held-inherited-father-glasgow-3322"
+      ],
+      "reviewed": "2026-10-22",
+      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles.",
+      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
+      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+      "working_selection": false,
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
+        "reviewed_on": "2026-10-30",
+        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
+      }
     },
     {
       "subject_id": "Glasgow-3088",
@@ -44234,6 +44379,68 @@
       "reviewed": "2026-10-25"
     },
     {
+      "subject_id": "Glasgow-4133",
+      "relative_id": "Wilson-127539",
+      "relationship": "mother",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-agnes-wilson-mother-20261030",
+      "basis": "Agnes’s 21 August 1720 Libberton transcript explicitly names Katherine Wilson and Robert Glasgow at Gladhaimb. John’s separate 23 September 1722 Libberton baptism names the same full parental couple, Katherin Wilson and Robert Glasgow, at Sandyburgh. Wilson-127539 is the established account of that 1722 mother and the compatible 1713 Carnwath bride of Robert Glasgow. The full parental-name match, same parish and two-year child sequence support identifying Agnes’s mother with this existing woman at95% subjective confidence. This extends the specific Wilson family from held evidence rather than treating the 1720 Wilson name as an isolated unidentified woman. Her maternity is explicit in the1720 source, not inferred merely from a spouse link. The duplicate1720 indexes are one event; the1722 baptism is separate. Live WikiTree readback30October still has Agnes’s Mother=0, so this is a genuine new mother recommendation.",
+      "reviewed": "2026-10-30",
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4033335",
+        "libberton-john-robert-wilson-1722",
+        "carnwath-robert-wilson-marriage-1713"
+      ],
+      "scope": "Record-based household identification from inspected provider transcripts and a retained marriage index; no original register image newly read. A same-name couple remains possible. Gladhaimb and Sandyburgh are different recorded residences in the same parish, not a proved continuous address. No exact birth, later American identity or mother’s ancestry is inferred. Agnes’s current father Glasgow-4168 and his94% record-role assessment remain unchanged; the overlapping Robert-3407 account and Gibson/Watson identities are not merged or renamed. This is a new maternal connection, not a father-confidence gain.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4133.html#research-findings",
+          "label": "Wilson household reconciliation"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4133": "Agnes Glasgow",
+        "Wilson-127539": "Katherine Wilson"
+      }
+    },
+    {
+      "subject_id": "Wilson-127539",
+      "relative_id": "Glasgow-4133",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-agnes-wilson-mother-20261030",
+      "basis": "Agnes’s 21 August 1720 Libberton transcript explicitly names Katherine Wilson and Robert Glasgow at Gladhaimb. John’s separate 23 September 1722 Libberton baptism names the same full parental couple, Katherin Wilson and Robert Glasgow, at Sandyburgh. Wilson-127539 is the established account of that 1722 mother and the compatible 1713 Carnwath bride of Robert Glasgow. The full parental-name match, same parish and two-year child sequence support identifying Agnes’s mother with this existing woman at95% subjective confidence. This extends the specific Wilson family from held evidence rather than treating the 1720 Wilson name as an isolated unidentified woman. Her maternity is explicit in the1720 source, not inferred merely from a spouse link. The duplicate1720 indexes are one event; the1722 baptism is separate. Live WikiTree readback30October still has Agnes’s Mother=0, so this is a genuine new mother recommendation.",
+      "reviewed": "2026-10-30",
+      "source_ids": [
+        "fmp-record-scot-opr-bap-4033335",
+        "libberton-john-robert-wilson-1722",
+        "carnwath-robert-wilson-marriage-1713"
+      ],
+      "scope": "Record-based household identification from inspected provider transcripts and a retained marriage index; no original register image newly read. A same-name couple remains possible. Gladhaimb and Sandyburgh are different recorded residences in the same parish, not a proved continuous address. No exact birth, later American identity or mother’s ancestry is inferred. Agnes’s current father Glasgow-4168 and his94% record-role assessment remain unchanged; the overlapping Robert-3407 account and Gibson/Watson identities are not merged or renamed. This is a new maternal connection, not a father-confidence gain.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4133.html#research-findings",
+          "label": "Wilson household reconciliation"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4133": "Agnes Glasgow",
+        "Wilson-127539": "Katherine Wilson"
+      }
+    },
+    {
       "subject_id": "Glasgow-2356",
       "relative_id": "Pierce-14470",
       "relationship": "mother",
@@ -44291,6 +44498,62 @@
       "profile_names": {
         "Glasgow-2356": "Robert Finley Glasgow",
         "Pierce-14470": "Mary J. (Pierce) Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-john-cameron-glasgow-infant-before-1846",
+      "relative_id": "Glasgow-589",
+      "relationship": "father",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-john-infant-moses-20261026",
+      "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
+      "reviewed": "2026-10-29",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "profile_names": {
+        "Glasgow-589": "Moses Thomas Glasgow",
+        "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
+      },
+      "profile_urls": {
+        "record-john-cameron-glasgow-infant-before-1846": {
+          "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
+        }
+      }
+    },
+    {
+      "subject_id": "Glasgow-589",
+      "relative_id": "record-john-cameron-glasgow-infant-before-1846",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-john-infant-moses-20261026",
+      "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
+      "reviewed": "2026-10-29",
+      "source_ids": [
+        "held-e-f0fe7f969e32"
+      ],
+      "scope": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "profile_names": {
+        "Glasgow-589": "Moses Thomas Glasgow",
+        "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
+      },
+      "profile_urls": {
+        "record-john-cameron-glasgow-infant-before-1846": {
+          "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
+        }
       }
     },
     {
@@ -44422,269 +44685,6 @@
         "william590-1888-biographical-parentage"
       ],
       "scope": "Subjective 96% for this complete existing profile pair. The original 1888 published biography names both parents and matches William’s distinctive name, Geneva College graduation in 1880, Allegheny Seminary and Baltimore pastorate. This is the author’s own lifetime biographical statement, not a contemporary birth register. The attributed author also wrote the held family typescript, so the two accounts are not independent witnesses. Page 526 reports birth on 1 July 1856 at Northwood, Logan County; the retained profile says 5 July 1856 at Youngstown, Mahoning County. That vital conflict remains open and no vital field is changed. The retained 1850 William Glasgow census citation cannot describe this 1856-born subject and is not corroboration. Existing family attachments and live WikiTree certainty flags are unchanged; an unmarked prior flag is not a 0% baseline."
-    },
-    {
-      "subject_id": "record-john-cameron-glasgow-infant-before-1846",
-      "relative_id": "Glasgow-589",
-      "relationship": "father",
-      "percent": 95,
-      "assessment_status": "strongly_supported",
-      "assertion_id": "clm-john-infant-moses-20261026",
-      "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
-      "reviewed": "2026-10-29",
-      "source_ids": [
-        "held-e-f0fe7f969e32"
-      ],
-      "scope": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join.",
-      "working_selection": false,
-      "attachment_status": "documented",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "profile_names": {
-        "Glasgow-589": "Moses Thomas Glasgow",
-        "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
-      },
-      "profile_urls": {
-        "record-john-cameron-glasgow-infant-before-1846": {
-          "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
-        }
-      }
-    },
-    {
-      "subject_id": "Glasgow-589",
-      "relative_id": "record-john-cameron-glasgow-infant-before-1846",
-      "relationship": "child",
-      "percent": 95,
-      "assessment_status": "strongly_supported",
-      "assertion_id": "clm-john-infant-moses-20261026",
-      "basis": "The held six-page family typescript, page 5, explicitly includes John Cameron in the three children of Moses and Mary J. Pierce, immediately stating that he died aged five months. The same paragraph distinguishes this first-marriage group from Moses and Martha Thompson’s later children. The 1839 Mary marriage, 1848 Martha marriage and 1892 paternal death identify the father with Moses Thomas Glasgow-589. The detailed family-author account and explicit infant distinction support 95% subjective confidence for this source-defined infant’s father. The original page was visually checked again on 29 October 2026; no new source or stronger grade is claimed.",
-      "reviewed": "2026-10-29",
-      "source_ids": [
-        "held-e-f0fe7f969e32"
-      ],
-      "scope": "One undated retrospective family account, with known date discrepancies elsewhere, rather than independent contemporary infant records. The 95% concerns the named infant’s paternity by Moses-589; it does not resolve the six compatible WikiTree candidates, exact birth/death dates, Cincinnati event places, maternal assessment or creation HOLD. Initial numerical calibration of an already strongly-supported relationship; not a confidence gain, new father recommendation or genealogy join.",
-      "working_selection": false,
-      "attachment_status": "documented",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "profile_names": {
-        "Glasgow-589": "Moses Thomas Glasgow",
-        "record-john-cameron-glasgow-infant-before-1846": "John Cameron Glasgow, infant"
-      },
-      "profile_urls": {
-        "record-john-cameron-glasgow-infant-before-1846": {
-          "url": "/people/record-john-cameron-glasgow-infant-before-1846.html"
-        }
-      }
-    },
-    {
-      "subject_id": "Glasgow-4133",
-      "relative_id": "Wilson-127539",
-      "relationship": "mother",
-      "percent": 95,
-      "assessment_status": "strongly_supported",
-      "assertion_id": "clm-agnes-wilson-mother-20261030",
-      "basis": "Agnes’s 21 August 1720 Libberton transcript explicitly names Katherine Wilson and Robert Glasgow at Gladhaimb. John’s separate 23 September 1722 Libberton baptism names the same full parental couple, Katherin Wilson and Robert Glasgow, at Sandyburgh. Wilson-127539 is the established account of that 1722 mother and the compatible 1713 Carnwath bride of Robert Glasgow. The full parental-name match, same parish and two-year child sequence support identifying Agnes’s mother with this existing woman at95% subjective confidence. This extends the specific Wilson family from held evidence rather than treating the 1720 Wilson name as an isolated unidentified woman. Her maternity is explicit in the1720 source, not inferred merely from a spouse link. The duplicate1720 indexes are one event; the1722 baptism is separate. Live WikiTree readback30October still has Agnes’s Mother=0, so this is a genuine new mother recommendation.",
-      "reviewed": "2026-10-30",
-      "source_ids": [
-        "fmp-record-scot-opr-bap-4033335",
-        "libberton-john-robert-wilson-1722",
-        "carnwath-robert-wilson-marriage-1713"
-      ],
-      "scope": "Record-based household identification from inspected provider transcripts and a retained marriage index; no original register image newly read. A same-name couple remains possible. Gladhaimb and Sandyburgh are different recorded residences in the same parish, not a proved continuous address. No exact birth, later American identity or mother’s ancestry is inferred. Agnes’s current father Glasgow-4168 and his94% record-role assessment remain unchanged; the overlapping Robert-3407 account and Gibson/Watson identities are not merged or renamed. This is a new maternal connection, not a father-confidence gain.",
-      "working_selection": false,
-      "attachment_status": "documented",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/glasgow-4133.html#research-findings",
-          "label": "Wilson household reconciliation"
-        }
-      ],
-      "profile_names": {
-        "Glasgow-4133": "Agnes Glasgow",
-        "Wilson-127539": "Katherine Wilson"
-      }
-    },
-    {
-      "subject_id": "Wilson-127539",
-      "relative_id": "Glasgow-4133",
-      "relationship": "child",
-      "percent": 95,
-      "assessment_status": "strongly_supported",
-      "assertion_id": "clm-agnes-wilson-mother-20261030",
-      "basis": "Agnes’s 21 August 1720 Libberton transcript explicitly names Katherine Wilson and Robert Glasgow at Gladhaimb. John’s separate 23 September 1722 Libberton baptism names the same full parental couple, Katherin Wilson and Robert Glasgow, at Sandyburgh. Wilson-127539 is the established account of that 1722 mother and the compatible 1713 Carnwath bride of Robert Glasgow. The full parental-name match, same parish and two-year child sequence support identifying Agnes’s mother with this existing woman at95% subjective confidence. This extends the specific Wilson family from held evidence rather than treating the 1720 Wilson name as an isolated unidentified woman. Her maternity is explicit in the1720 source, not inferred merely from a spouse link. The duplicate1720 indexes are one event; the1722 baptism is separate. Live WikiTree readback30October still has Agnes’s Mother=0, so this is a genuine new mother recommendation.",
-      "reviewed": "2026-10-30",
-      "source_ids": [
-        "fmp-record-scot-opr-bap-4033335",
-        "libberton-john-robert-wilson-1722",
-        "carnwath-robert-wilson-marriage-1713"
-      ],
-      "scope": "Record-based household identification from inspected provider transcripts and a retained marriage index; no original register image newly read. A same-name couple remains possible. Gladhaimb and Sandyburgh are different recorded residences in the same parish, not a proved continuous address. No exact birth, later American identity or mother’s ancestry is inferred. Agnes’s current father Glasgow-4168 and his94% record-role assessment remain unchanged; the overlapping Robert-3407 account and Gibson/Watson identities are not merged or renamed. This is a new maternal connection, not a father-confidence gain.",
-      "working_selection": false,
-      "attachment_status": "documented",
-      "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
-      "analysis_links": [
-        {
-          "href": "/people/glasgow-4133.html#research-findings",
-          "label": "Wilson household reconciliation"
-        }
-      ],
-      "profile_names": {
-        "Glasgow-4133": "Agnes Glasgow",
-        "Wilson-127539": "Katherine Wilson"
-      }
-    },
-    {
-      "subject_id": "Glasgow-428",
-      "relative_id": "Glasgow-1158",
-      "relationship": "father",
-      "percent": 42,
-      "assessment_status": "possible",
-      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
-      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. Original-image title review on 20 October 2026 withdraws the provisional William predecessor reading. Daniel’s tenure and Mary’s spousal consent do not identify William-428 or his father; retain 42% without an increase.",
-      "source_ids": [
-        "currituck-daniel-tax-1715",
-        "currituck-daniels-levies-1718",
-        "currituck-daniels-tax-1719",
-        "currituck-william-will-1746-1747",
-        "princess-anne-daniel-glasco-deed-1729"
-      ],
-      "reviewed": "2026-10-20",
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-        "reviewed_on": "2026-10-30",
-        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
-      },
-      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
-      "working_selection": true
-    },
-    {
-      "subject_id": "Glasgow-1158",
-      "relative_id": "Glasgow-428",
-      "relationship": "child",
-      "percent": 42,
-      "assessment_status": "possible",
-      "assertion_id": "C-review-20261018-currituck-william-daniel-father",
-      "basis": "Retain Daniel Glasgow-1158 as William Glasgow-428’s possible working father at 42% subjective confidence. The established early Daniel name in the Norfolk–Currituck region, the 1693 Daniel/Mary Gamon household and the later Currituck Daniel tax entries provide a plausible older local family for William’s 1738 and 1746 household. William’s inherited circa-1685 birth is an estimate, not a recorded age. The existing older Daniel account is a useful provisional choice, but the evidence does not identify the taxpayer as that profile or name William as his son. The two contemporary Daniels make the adult identification materially less specific than a single-name reconstruction suggests. Original-image title review on 20 October 2026 withdraws the provisional William predecessor reading. Daniel’s tenure and Mary’s spousal consent do not identify William-428 or his father; retain 42% without an increase.",
-      "source_ids": [
-        "currituck-daniel-tax-1715",
-        "currituck-daniels-levies-1718",
-        "currituck-daniels-tax-1719",
-        "currituck-william-will-1746-1747",
-        "princess-anne-daniel-glasco-deed-1729"
-      ],
-      "reviewed": "2026-10-20",
-      "scope": "42% is the first individual assessment of this existing father placement, not an increase from a previous numerical probability or a newly discovered father. A younger local Daniel, another Glasgow father, or a collateral relationship remains possible; the two modern Daniel accounts could also duplicate the same man. William’s 1746 will names his children and an unnamed grandfather of Sarah, but does not identify that grandfather as paternal or as Daniel. No mother, Scottish origin, Robert ancestry, father replacement, merge or vital-date change is selected. The tax suffixes alone are not a basis for connecting the two Daniels as father and son. The existing profiles Daniel Glasgow-1158 and Daniel Glasgow-3322 are compatible comparison accounts, not automatic matches to Senior and Junior respectively. Both are attached to Robert-1157 in the current tree and may themselves duplicate one adult; the fact that the returns contain two Daniels does not prove that these two profiles represent those two men. Daniel-3322’s account represents the Mary Gamon husband named in 1693. The 1729 Norfolk Daniel/Mary deed is a further compatible identity, not a proved continuation into either Currituck taxpayer. Daniel-1158’s inherited 1712 death remains unverified: it cannot establish which later Daniel is excluded, nor should a later same-name entry automatically extend his life. Preserve both profiles and their vital fields while testing these identities.",
-      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
-      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-      "working_selection": true,
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-        "reviewed_on": "2026-10-30",
-        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
-      }
-    },
-    {
-      "subject_id": "Glasgow-1158",
-      "relative_id": "Glasgow-1157",
-      "relationship": "father",
-      "percent": 12,
-      "assessment_status": "uncertain",
-      "assertion_id": "C-coverage-20261022-glasgow-1158-father",
-      "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
-      "source_ids": [
-        "held-e-a4ef12f70dfd"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-        "reviewed_on": "2026-10-30",
-        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
-      },
-      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
-      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-      "working_selection": false
-    },
-    {
-      "subject_id": "Glasgow-1157",
-      "relative_id": "Glasgow-1158",
-      "relationship": "child",
-      "percent": 12,
-      "assessment_status": "uncertain",
-      "assertion_id": "C-coverage-20261022-glasgow-1158-father",
-      "basis": "The inherited compilation asserts a Robert father for William Daniel. Its reported1612–1690 life, Currituck death and wifeAnn Johnson describe the compiled Robert-1157 account; the opening WikiTree hyperlink to Robert-1156 is a misdirection to the Duddingston man buried1647. This resolves the citation-target question, not the parentage. No held contemporary record establishes this Daniel’s father or securely identifies the adult Daniel; the Virginia and Currituck lifetime connections remain unproved.",
-      "source_ids": [
-        "held-e-a4ef12f70dfd"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Retain the complete father proposition at12% uncertain and the existing father selection. The earlier citation-target discrepancy is resolved as a WikiTree narrative mislink, with its prior wording preserved in provenance. No contemporary named-parent bridge, exact birth, Scottish origin, adult identity, mother or other relative is newly established. Robert-1157’s own Edward father stays5%; William-428’s Daniel father stays42%. No live WikiTree field is changed.",
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-        "reviewed_on": "2026-10-30",
-        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
-      },
-      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
-      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-      "working_selection": false
-    },
-    {
-      "subject_id": "Glasgow-3322",
-      "relative_id": "Glasgow-1157",
-      "relationship": "father",
-      "percent": 34,
-      "assessment_status": "possible",
-      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
-      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
-      "source_ids": [
-        "held-inherited-father-glasgow-3322"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles.",
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-        "reviewed_on": "2026-10-30",
-        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
-      },
-      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
-      "working_selection": false
-    },
-    {
-      "subject_id": "Glasgow-1157",
-      "relative_id": "Glasgow-3322",
-      "relationship": "child",
-      "percent": 34,
-      "assessment_status": "possible",
-      "assertion_id": "C-coverage-20261022e-glasgow-3322-father",
-      "basis": "Inherited attachment to Robert-1157; no held record names Robert as Daniel's father. Daniel's primary identity is Mary Gamon's husband in 1693. The inherited Robert father and Virginia generation are feasible for the Daniel who married Mary Gamon in 1693, but none of the held tax or marriage records names his father.",
-      "source_ids": [
-        "held-inherited-father-glasgow-3322"
-      ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible at a modest level; duplicate Daniel accounts and the Glascocke ancestry question remain unresolved, without assuming two taxpayers were these two profiles.",
-      "last_test": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained.",
-      "next_test": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-      "working_selection": false,
-      "research_state": {
-        "disposition": "reviewed_no_change",
-        "resume_when": "Trace the Richford 80-acre tract after1714 for junior’s wife, heirs or later residence; independently seek a named-kin or title bridge from Daniel senior to Robert. The1692acquisition test is complete; do not redispatch it or search only the superseded Willson reading.",
-        "reviewed_on": "2026-10-30",
-        "summary": "30October2026: original16May1692deed inspected and matched to1714recital; Daniel Glascock→Glasgow title identity and Miller reading established. Neither original names Daniel’s father or William as son; existing percentage retained."
-      }
     }
   ]
 }

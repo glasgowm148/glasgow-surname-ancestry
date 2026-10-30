@@ -2109,55 +2109,6 @@
     },
     {
       "schema_version": 3,
-      "id": "fmp-pages33-35-glasgow-1023-birth-20261030",
-      "subject": "Glasgow-1023",
-      "status": "approved",
-      "scope": "vitals",
-      "reviewed": "2026-10-30",
-      "basis": "Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.",
-      "source": {
-        "url": "/people/glasgow-1023.json",
-        "section": "Findmypast pages 33–35 review"
-      },
-      "summary": "Adopt explicit birth 5 November 1725, distinct from baptism; preserve previous field and source interpretation.",
-      "vitals": {
-        "birth": {
-          "date": "1725-11-05",
-          "display_date": "5 November 1725",
-          "place": "Kilwinning, Ayrshire, Scotland",
-          "status": "exact",
-          "country": "Scotland",
-          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this",
-          "source_level": "Inspected provider derivative; original register uninspected",
-          "note": "Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.",
-          "qualifier": "Explicit birth label; existing place retained as parish context, not independently proved birthplace."
-        }
-      },
-      "catalogue_projection": {
-        "birth": "1725-11-05",
-        "birth_year": 1725,
-        "field_statuses": {
-          "birth": "certain"
-        }
-      },
-      "project_tree_vitals": true,
-      "source_ids": [
-        "held-e-3dac402a24f9"
-      ],
-      "assessment_history": [
-        {
-          "reviewed": "2026-10-30",
-          "previous_vital": {
-            "date": "1725-11-07",
-            "place": "Kilwinning, Ayrshire, Scotland",
-            "status": "exact"
-          },
-          "basis": "Prior maintained field superseded by an explicit recorded birth, separately retaining baptism and all older source/date readings."
-        }
-      ]
-    },
-    {
-      "schema_version": 3,
       "id": "fmp-pages33-35-glasgow-1620-birth-20261030",
       "subject": "Glasgow-1620",
       "status": "approved",
@@ -2199,6 +2150,55 @@
           "previous_vital": {
             "date": "1761-09-08",
             "place": "Currie by Edinburgh, Midlothian, Scotland",
+            "status": "exact"
+          },
+          "basis": "Prior maintained field superseded by an explicit recorded birth, separately retaining baptism and all older source/date readings."
+        }
+      ]
+    },
+    {
+      "schema_version": 3,
+      "id": "fmp-pages33-35-glasgow-1023-birth-20261030",
+      "subject": "Glasgow-1023",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-30",
+      "basis": "Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.",
+      "source": {
+        "url": "/people/glasgow-1023.json",
+        "section": "Findmypast pages 33–35 review"
+      },
+      "summary": "Adopt explicit birth 5 November 1725, distinct from baptism; preserve previous field and source interpretation.",
+      "vitals": {
+        "birth": {
+          "date": "1725-11-05",
+          "display_date": "5 November 1725",
+          "place": "Kilwinning, Ayrshire, Scotland",
+          "status": "exact",
+          "country": "Scotland",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3626888&tab=this",
+          "source_level": "Inspected provider derivative; original register uninspected",
+          "note": "Held Findmypast OPR 599/1 item 1 page 197 records Thomas Glasgow born 5 November 1725 and baptised 7 November at Kilwinning, residence Byres, father Hugh Glasgow and mother Janet Kilpatrick. This enriches the previously held citation under its existing canonical and public record IDs. The complete proposal already distinguished the dates; the maintained birth field now adopts 5 November. Parish/residence context does not independently prove birthplace. Father Glasgow-1056 stays 98%; maternal identity is not newly assessed. No new provider ID, independent discovery, person or relationship.",
+          "qualifier": "Explicit birth label; existing place retained as parish context, not independently proved birthplace."
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1725-11-05",
+        "birth_year": 1725,
+        "field_statuses": {
+          "birth": "certain"
+        }
+      },
+      "project_tree_vitals": true,
+      "source_ids": [
+        "held-e-3dac402a24f9"
+      ],
+      "assessment_history": [
+        {
+          "reviewed": "2026-10-30",
+          "previous_vital": {
+            "date": "1725-11-07",
+            "place": "Kilwinning, Ayrshire, Scotland",
             "status": "exact"
           },
           "basis": "Prior maintained field superseded by an explicit recorded birth, separately retaining baptism and all older source/date readings."
