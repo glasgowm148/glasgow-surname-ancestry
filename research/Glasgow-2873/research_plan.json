@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-2873",
+  "objective": "Test the retained father relationship using an identifying source.",
+  "research_state": {
+    "father_id": "Glasgow-2871",
+    "disposition": "awaiting_source",
+    "reviewed_on": "2026-10-30",
+    "confidence_percent": 82,
+    "last_test": "Both CCHC deed finding-aid texts searched Glasgow and Currens with no exact match; incomplete holdings guide, not deed absence. Prior county authentication hold not repeated.",
+    "next_test": "Inspect actual H-3:253 title recital (county Doc771593), identifying Hugh spouse, prior owner and succession; secure authorised original access.",
+    "reopen_when": "Inspect actual H-3:253 title recital (county Doc771593), identifying Hugh spouse, prior owner and succession; secure authorised original access."
+  }
+}

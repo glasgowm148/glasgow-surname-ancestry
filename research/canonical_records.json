@@ -9389,22 +9389,55 @@
   },
   {
     "record_id": "held-e-15fc3e32a26a",
-    "record_type": "Previously held source citation",
-    "date": null,
-    "place": null,
-    "association": "https://familysearch.org/ark:/61903/1:1:VQ4K-NV9",
-    "source_title": "https://familysearch.org/ark:/61903/1:1:VQ4K-NV9",
+    "record_type": "Parish christening, provider derivative",
+    "date": "19 November 1714",
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "association": "Andrew Glasgow christening; father Andrew Glasgow named, mother not supplied",
+    "source_title": "FamilySearch Scotland, Births and Baptisms, 1564–1950, Andrew Glasgow, 19 November 1714, VQ4K-NV9",
     "source_url": "https://familysearch.org/ark:/61903/1:1:VQ4K-NV9",
-    "source_type": "Existing citation or tree claim; see individual evidence scope",
-    "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
-    "status": "Relationship and profile-identity scope stated in the individual assessment",
+    "source_type": "Provider transcript of parish index; not original manuscript",
+    "source_status": "Full transcript and document fields inspected 30 October 2026; underlying film access restricted to a FamilySearch Center/affiliate",
+    "status": "Reviewed transcript; complete adult-profile father identification remains probable at 85%",
     "profiles": {
       "Glasgow-1336": {
-        "role": "Previously cited subject; relationship scope in the father assessment"
+        "role": "Existing adult account compared with the named 1714 child; adult continuity remains qualified"
+      },
+      "Glasgow-1546": {
+        "role": "85% probable candidate for named father Andrew; mother not identified by this transcript"
       }
     },
-    "note": "See the individual father assessment for named record roles versus inferred profile identities.",
-    "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json"
+    "note": "Son Andrew and father Andrew named; christening 19 November 1714 at Kirknewton and East Calder. No mother, residence, occupation or witness supplied. Birth Date displays only 11, not a complete birthday. Batch C11690-2; microfilms 1067762, 103118; Digital Folder display 8, 8059412. Film 008059412 title verified, 580 frames; first frame restricted to a FamilySearch Center or affiliate library. No 1714 original image inspected and no new kinship or vital field selected.",
+    "provenance": "Full FamilySearch transcript inspected 30 October 2026, batch C11690-2; register not inspected. Image access requires a FamilySearch Center or affiliate library.",
+    "review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "previous_record": {
+          "record_id": "held-e-15fc3e32a26a",
+          "record_type": "Previously held source citation",
+          "date": null,
+          "place": null,
+          "association": "https://familysearch.org/ark:/61903/1:1:VQ4K-NV9",
+          "source_title": "https://familysearch.org/ark:/61903/1:1:VQ4K-NV9",
+          "source_url": "https://familysearch.org/ark:/61903/1:1:VQ4K-NV9",
+          "source_type": "Existing citation or tree claim; see individual evidence scope",
+          "source_status": "Existing held evidence reviewed for father confidence; not a new source discovery or original inspection",
+          "status": "Relationship and profile-identity scope stated in the individual assessment",
+          "profiles": {
+            "Glasgow-1336": {
+              "role": "Previously cited subject; relationship scope in the father assessment"
+            }
+          },
+          "note": "See the individual father assessment for named record roles versus inferred profile identities.",
+          "provenance": "research/ancestry-connections/father-coverage-review2-2026-10-22.json"
+        },
+        "reason": "Previously citation-only record now read as full provider transcript; no original manuscript or adult-identity proof."
+      }
+    ],
+    "year": 1714,
+    "source_quality": "provider_derivative",
+    "reviewed_on": "2026-10-30",
+    "publish_to_record_index": true,
+    "record_category": "Births and baptisms"
   },
   {
     "record_id": "held-newberry-wilson-estate-index",

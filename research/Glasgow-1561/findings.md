@@ -98,3 +98,9 @@ Sources: [George, Linlithgow, 20 January 1622; existing child-profile index cita
 
 A possible identification concerns John Glasgow in Rashlie, Kilbride, 1643. John Glasgow was listed as “in Rashlie, parish of Kilbride” in a printed index to Glasgow Commissary Court testaments, dated 17 April 1643. (FamilySearch, *Glasgow. Wills 1547–1800*, item #007960708, image 112, printed index p. 196, entry for John Glasgow in Rashlie, parish of Kilbride, 17 April 1643, reference CC9/7/28; https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS8K-D98V?view=fullText&keywords=Glasgow&searchForm=advanced&lang=en&groupId=M97N-2NT. The image is of the printed index, not the underlying testament.) The identification remains uncertain.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Continuation reading attempt — 30 October 2026
+
+The supplied CC8/8/32 image 124 continuation was inspected in both held PNG variants, including the lower will, attestation and confirmation. No additional John Glasgow or kin qualifier was securely recovered in this bounded attempt. That is a reading limit, not a statement that the unread words contain no further names. The known Robert and daughter clauses, possible pregnancy, James Stevinsoun adviser and Johne Sandelandis cautioner remain distinct from an identifying father clause.
+
+John Glasgow-1561's proposed father Andrew Glasgow-3163 remains **25% uncertain**. The original is held; it is not missing or awaiting digitisation. The exact tenure wording and several attestation names remain unresolved, and a complete transcription is still unfinished. Reopen this particular test on a deciphered family/tenure clause or an improved source copy, rather than repeating the same full-page inspection as a new search. No parent or vital field is changed. [John's working account](/people/glasgow-1561.html#research-findings) · [Andrew's testament account](/people/glasgow-3163.html#research-findings).

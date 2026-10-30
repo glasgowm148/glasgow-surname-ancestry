@@ -75,3 +75,11 @@ William baptised 6 April 1739 Kirknewton and East Calder, Andrew Glasgow and Iso
 - [R_691906112](https://www.findmypast.co.uk/transcript?id=R_691906112) — Candidate named father Andrew in existing Clerk household; adult identification retains limits.
 
 Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.
+
+## Full 1714 transcript and original-access test — 30 October 2026
+
+The full [FamilySearch VQ4K-NV9 transcript](https://www.familysearch.org/ark:/61903/1:1:VQ4K-NV9), inspected while signed in, records **Andrew Glasgow**, son of **Andrew Glasgow**, christened **19 November 1714**, Kirknewton and East Calder, Midlothian. It supplies no mother, residence, occupation or witness. Its Birth Date field displays only **“11”**; this fragment does not establish a complete birthday. The site's attached collaborative-tree person is not another historical witness.
+
+Document Information gives indexing batch **C11690-2**, microfilms **1067762, 103118**, and a displayed Digital Folder field **“8, 8059412”**. Opening [film 008059412](https://www.familysearch.org/en/search/film/008059412) confirms the Kirknewton and East Calder register title and 580 frames. Opening its first frame produces an explicit **Image Restricted** notice: access at a FamilySearch Center or affiliate library. This verifies the access restriction; it does not locate or read the 1714 manuscript entry. The transcript's Image Unavailable label does not mean the register has not been digitised.
+
+The existing [Andrew-1546](/people/glasgow-1546.html) father stays **85% probable**. The named Andrew parent and local generation remain supportive, but this full transcript adds no Christian Cook mother or distinguishing property/trade bridge to the older adult. Read the 1714 entry and its residence/witnesses on the identified film at an authorised location, then compare the 1700 Cook couple and 1702 James entry. No parent, mother, complete birth date or confidence gain is newly asserted.

@@ -87,3 +87,7 @@ The targeted Findmypast search used Andrew/Glasgow with name variants, birth 167
 
 - [Andrew burial, 11 October 1729; derivative transcript, no identifying age or kin](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625871&tab=this).
 - [Andrew burial, 13 June 1736; derivative transcript, no identifying age or kin](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1625948&tab=this).
+
+## Andrew's 1714 child transcript — 30 October 2026
+
+The full [VQ4K-NV9 provider transcript](https://www.familysearch.org/ark:/61903/1:1:VQ4K-NV9) names Andrew Glasgow as father of Andrew, christened 19 November 1714 at Kirknewton and East Calder. It does not name Christian Cook, a residence, occupation or witnesses. This older Andrew remains the **85% probable** candidate for that named father; the transcript does not distinguish all local namesakes. Its fragmentary Birth Date “11” is not a complete date. Film 008059412 is digitised but the inspected first frame explicitly requires a FamilySearch Center or affiliate library. [Full source and reopening test in Andrew-1336's account](/people/glasgow-1336.html#research-findings). No father confidence, spouse identity or vital field is changed.

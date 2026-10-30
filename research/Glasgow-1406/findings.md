@@ -108,3 +108,9 @@ Role in this account: recorded Michael father household comparison; no changed g
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+## Exact parent-source review — 30 October 2026
+
+The selected Robert Glasgow-1512 father remains **23% uncertain**. The held Irvine Burgh catalogue identifies **Dean of Guild register Gr1/7/1, 1669–1686** (PDF p.167), the first original admission test spanning Michael's pre-1679 leather-trade career. The later Incorporated Trades minute book Gr1/23/3 spans 1698–1758 (PDF p.223); council index Gr1/5/1 and photocopy minutes Gr1/1/5–6 are described on PDF pp.12–13, with originals B37/12/4–5. These are descriptions of surviving records, not admission entries inspected in this review. The already reviewed 1679 summons, 1686/1702 civic entries and 1699/1701 roups do not name his father.
+
+Robert and Margaret Donald's indexed Ayr children Robert (6 June birth / 9 June 1670 baptism, XY8Z-L28) and Ralph (3 December 1671, XY8Z-22X) remain a separate established household. No new shared holding, witness, master or admission right links Michael to it. Reopen on an actual Gr1/7/1 admission clause identifying Michael's father, master, origin or admission right; do not repeat the catalogue description as new evidence or treat an uninspected register as empty. The older proof-level refusal to attach Robert is historical; the retained local working relationship is explicitly uncertain.
