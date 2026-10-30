@@ -74,6 +74,7 @@ class ReviewedVitalDisplayTests(unittest.TestCase):
             self.assertEqual('approved', person['locationRegion'])
 
     def test_family_summary_and_packed_registry_follow_review(self):
+        from tools.site_analytics import GOOGLE_TAG, with_analytics
         with TemporaryDirectory() as tmp:
             root=Path(tmp)
             def write(path,value):
@@ -84,7 +85,7 @@ class ReviewedVitalDisplayTests(unittest.TestCase):
             write('assets/v3/registry-packed.json',dict(fields=['slug','birth','country'],rows=[['example-1','c. 1784','scotland']]))
             write('assets/research/branches.json',[dict(id='family-example-1',kind='family',root='example-1',rootId='Example-1',label='Example Person · c. 1784',members=['example-1'],count=1,record_count=1)])
             write('assets/research/palette.json',dict(ireland=dict(label='Ireland',color='green'),other=dict(label='Other',color='grey')))
-            write('branches/family-example-1/index.html','<header class="r-page-head"><h1>Example Person · c. 1784</h1><p class="r-lead">Old summary</p></header><div class="r-country-legend">Scotland 1</div><a href="/people/example-1.html"><small>c. 1784 · Scotland</small></a>')
+            write('branches/family-example-1/index.html',with_analytics('<html><head><title>Family</title></head><body><header class="r-page-head"><h1>Example Person · c. 1784</h1><p class="r-lead">Old summary</p></header><div class="r-country-legend">Scotland 1</div><a href="/people/example-1.html"><small>c. 1784 · Scotland</small></a></body></html>'))
             model=dict(meta={'reviewedVitalDisplay':{'Example-1':dict(born=1774,birthDisplay='About 1774',birthplace='Ireland',birthLocationRegion='ireland')}})
             refresh_family_summaries(model,root)
             registry=json.loads((root/'assets/research/registry.json').read_text())
@@ -92,6 +93,8 @@ class ReviewedVitalDisplayTests(unittest.TestCase):
             self.assertEqual(json.loads((root/'assets/v3/registry-packed.json').read_text())['rows'][0],['example-1','About 1774','ireland'])
             page=(root/'branches/family-example-1/index.html').read_text()
             self.assertIn('About 1774 · Ireland',page);self.assertNotIn('Scotland',page)
+            self.assertEqual(page.count(GOOGLE_TAG),1)
+            self.assertEqual(page,with_analytics(page))
             refresh_family_summaries(model,root)
             self.assertEqual((root/'branches/family-example-1/index.html').read_text(),page)
 

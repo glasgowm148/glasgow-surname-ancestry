@@ -58,6 +58,7 @@ def refresh_family_summaries(model, site_root):
     """Keep existing family summaries consistent with the opted-in reviews."""
     from bs4 import BeautifulSoup
     from tools.repair_site_experience import description, branch_topic_ids, branch_navigation
+    from tools.site_analytics import with_analytics
     displays = model['meta'].get('reviewedVitalDisplay', {})
     if not displays:
         return
@@ -145,6 +146,6 @@ def refresh_family_summaries(model, site_root):
             nav=branch_navigation(branch,branches,[b for b in branches if b['kind']=='region'])
             actions.replace_with(BeautifulSoup(nav,'html.parser'))
         for meta in page.select('meta[name="description"],meta[property="og:description"]'):meta['content']=branch['description']
-        path.write_text(str(page))
+        path.write_text(with_analytics(str(page)))
     branches_path.write_text(json.dumps(branches,ensure_ascii=False,separators=(',',':'))+'\n')
     if directory:directory_path.write_text(json.dumps(directory,ensure_ascii=False,separators=(',',':'))+'\n')
