@@ -1,19 +1,19 @@
 {
-  "reference_items": 17400,
+  "reference_items": 17456,
   "reference_counts": {
     "wills-probate": 296,
-    "church": 2203,
-    "pedigrees": 4952,
-    "other": 3134,
-    "marriages": 1314,
-    "births": 2394,
-    "military": 484,
-    "census": 2795,
-    "deaths": 2472,
-    "histories": 471,
+    "church": 2208,
+    "pedigrees": 4954,
+    "other": 3177,
+    "marriages": 1317,
+    "births": 2395,
+    "military": 486,
+    "census": 2799,
+    "deaths": 2473,
+    "histories": 472,
     "newspapers": 201,
-    "land-tax": 134,
-    "education": 67,
+    "land-tax": 136,
+    "education": 68,
     "directories": 44
   },
   "inline_newspaper_excerpts": 519,
@@ -197,6 +197,7 @@
     "/sources/census/ireland/1766/",
     "/sources/census/ireland/1803/",
     "/sources/census/ireland/1821/",
+    "/sources/census/ireland/1825/",
     "/sources/census/ireland/1828/",
     "/sources/census/ireland/1831/",
     "/sources/census/ireland/1841/",
@@ -600,7 +601,6 @@
     "/sources/other/scotland/",
     "/sources/other/scotland/before-1800/",
     "/sources/other/scotland/1800-1849/",
-    "/sources/other/scotland/1850-1899/",
     "/sources/other/scotland/1900-1949/",
     "/sources/other/scotland/1950-onwards/",
     "/sources/other/scotland/undated/",
@@ -634,6 +634,7 @@
     "/sources/deaths/scotland/opr-to-1700/",
     "/sources/deaths/ireland/civil-1864-1900/",
     "/sources/deaths/ireland/groni-matches/",
-    "/sources/newspapers/supplied-clippings/"
+    "/sources/newspapers/supplied-clippings/",
+    "/sources/other/scotland/1850-1899/"
   ]
 }
