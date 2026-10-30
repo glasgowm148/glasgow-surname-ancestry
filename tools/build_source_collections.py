@@ -108,7 +108,7 @@ def card(row):
     else:
         origin = '<span class="sc-src sc-src-none" title="Original link not recorded; see the citation">No link</span>'
     people = row.get('people') or []
-    shown = ''.join(f'<a href="{e(p.get("url") or detail, quote=True)}">{e(p["name"])}</a>' for p in people[:3])
+    shown = ''.join(f'<a href="{e(p.get("url") or detail, quote=True)}">{e(" ".join(p["name"].split()))}</a>' for p in people[:3])
     more = f'<a class="sc-more" href="{detail}">+{len(people) - 3} more</a>' if len(people) > 3 else ''
     if not people and row.get('members'):
         shown = f'<a href="{detail}">{len(row["members"])} linked</a>'
@@ -132,7 +132,7 @@ REF_TABLE_HEAD = ('<table class="sc-ref-table"><thead><tr>'
 
 def census_people_links(row, fallback):
     return '<p class="sc-census-people">People linked to this reference: ' + ' · '.join(
-        f'<a href="{e(person.get("url") or fallback, quote=True)}">{e(person["name"])}</a>'
+        f'<a href="{e(person.get("url") or fallback, quote=True)}">{e(" ".join(person["name"].split()))}</a>'
         for person in row.get('people', [])) + '</p>' if row.get('people') else ''
 
 

@@ -1,0 +1,37 @@
+{
+  "father_confidence_gains": 0,
+  "father_estimates_unchanged": [
+    22,
+    36,
+    51
+  ],
+  "original_source_tests": [
+    "Archibald1810 household",
+    "William1851 resident and absent/deceased tables"
+  ],
+  "published_abstract_screen": "Stirling, bounded OCR only",
+  "cohort_metrics_and_confidence_events_unchanged": true,
+  "tree_models": {
+    "assets/research/atlas-model.json": "22%, 36%, 51% retained",
+    "assets/research/atlas-model-packed.json": "22%, 36%, 51% retained",
+    "onetree/glasgow-one-tree-polished-3/model.json": "22%, 36%, 51% retained"
+  },
+  "catalogue_full_compact_update_flags_agree": true,
+  "record_index_new_census_occurrences": 1,
+  "local_http": {
+    "/latest-findings/": 200,
+    "/people/glasgow-2769.html": 200,
+    "/people/glasgow-1387.html": 200,
+    "/onetree/progress/": 200,
+    "/branches/larne-kilwaughter/": 200
+  },
+  "deployed": false,
+  "live_wikitree_edits": false,
+  "checks": {
+    "native_views_match": 313,
+    "new_publication_failures": 0,
+    "new_internal_link_pairs": 0,
+    "source_collection_tests": 27,
+    "source_label_whitespace_fixed_in_builder": true
+  }
+}
