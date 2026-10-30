@@ -71,13 +71,13 @@ Limits: Read held complete accounts, canonical tradition entry and father assess
 
 ## Glasgow-62 → Unknown father
 
-Retained: **Unknown; no percentage assigned**. No held kinship statement identifies James’s father. The Robert bondsman at Elizabeth’s 1815 marriage remains a local associate; neither Elizabeth’s siblinghood with James nor Robert’s fatherhood is established. Existing contributed Robert/Sarah dates do not repair these gaps. Official catalogue now gives a specific original-film target, an operational locator rather than genealogical evidence.
+Retained: **Unknown; no percentage assigned**. No held kinship statement identifies James’s father. Corrected30October2026: Robert Glasgow signed Elizabeth’s1815 age/willingness declaration, while Herod Worsham was the actual surety; neither Elizabeth’s siblinghood with James nor Robert’s fatherhood is established. Existing contributed Robert/Sarah dates do not repair these gaps. Official catalogue now gives a specific original-film target, an operational locator rather than genealogical evidence.
 
-Last test: Bounded held-source and reciprocal family-account review; no changed parent identification.
+Last test30October2026: original1815 bond and declaration read, compilation discrepancy verified, and original1818/1840 signatures visually compared; no changed parent identification.
 
-Next test: Locate Library of Virginia reel 79 (Marriage Bonds 1814–1816, no index) / corresponding FamilySearch film and read 22 December 1815 Robert Eudaley–Elizabeth Glasgow bond plus attached consent/signatures; compare with James’s household and 21 October 1818 bond (LVA reel 80 covers 1816–1820).
+Next test: Identify the declarant Robert Glasgow and Elizabeth through household, land or probate records; compare with James’s family. The original bonds have now been inspected; do not repeat the old acquisition task.
 
-Reopen when: Parent browser owner can inspect this exact 1815 original; a consent identifying Elizabeth’s father must then be linked to James by independent household/kinship evidence before selecting Robert.
+Reopen when: Additional family or household evidence supports a specific relationship among Robert, Elizabeth and James; the age declaration itself gives no kin term. Preserve plausible inferences with their real uncertainty.
 
 Inspected evidence locators:
 

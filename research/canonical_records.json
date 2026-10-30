@@ -31303,7 +31303,7 @@
         "role": "Named groom"
       }
     },
-    "assessment": "The original confirms James Glasgow and Freeman High as obligors on 21 October 1818 for James’s licence to marry Susanah High. James signs his name; Freeman’s entry bears his mark. Witness R. Hopkins. No parent, age or occupation of James is stated. This confirms the existing marriage-bond account, not a new father or an identification of the 1840 deponent. The distinct 1815 Eudaley/Elizabeth Glasgow bond remains an associated-family test, not proved kinship.",
+    "assessment": "The original confirms James Glasgow and Freeman High as obligors on 21 October 1818 for James’s licence to marry Susanah High. James signs his name; Freeman’s entry bears his mark. Witness R. Hopkins. No parent, age or occupation of James is stated. This confirms the existing marriage-bond account, not a new father or an identification of the 1840 deponent. The distinct 1815 Eudaley/Elizabeth Glasgow bond remains an associated-family test, not proved kinship. Follow-up original1815 review: Herod Worsham is the actual surety; Robert Glasgow signs a separate age declaration, contrary to the typed bondsman column. See pittsylvania-elizabeth-glasgow-eudaley-bond-1815. This does not identify James’s father.",
     "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
     "reviewed_on": "2026-10-30",
     "year": 1818,
@@ -46789,5 +46789,42 @@
     "publish_to_record_index": true,
     "documentary_group": "edinburgh-mary-1792",
     "record_category": "Deaths and burials"
+  },
+  {
+    "record_id": "pittsylvania-elizabeth-glasgow-eudaley-bond-1815",
+    "record_type": "Marriage bond and associated age declaration",
+    "date": "1815-12-22",
+    "year": 1815,
+    "place": "Pittsylvania County, Virginia, United States",
+    "country": "united states",
+    "association": "Elizabeth Glasgow, bride; Robert Eudaley, groom; Herod Worsham, surety; Robert Glasgow, signer of separate age/willingness declaration. No relationship to James Glasgow established.",
+    "source_title": "Pittsylvania original marriage bonds, DGS007741063, item2, full-film images309–311 (item images173–175)",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-R33H-Y",
+    "source_type": "Original county bond and associated declaration, digitized images",
+    "source_quality": "original_record",
+    "source_status": "Bond front and endorsement visually inspected30October2026; declaration inspected in preceding30October batch. Bond and declaration downloaded privately.",
+    "reviewed_on": "2026-10-30",
+    "status": "Documentary roles corrected; kinship with Glasgow-62 remains unproved.",
+    "assessment": "The original 22 December 1815 bond names Robert Eudaley and Herod Worsham as obligors; both signature entries bear marks. Robert Glasgow instead signed the separate declaration that Elizabeth was of age and willing to marry. The typed compilation’s Robert Glasgow bondsman entry is contradicted by the original bond. Neither original states that Robert was Elizabeth’s father or that Elizabeth was James’s sister.",
+    "profiles": {
+      "Glasgow-62": {
+        "role": "Associated-family research context only; neither groom nor proved relative of the bride"
+      }
+    },
+    "related_sources": [
+      {
+        "title": "Separate Robert Glasgow declaration, full-film309/item173",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-R334-N"
+      },
+      {
+        "title": "Bond endorsement, full-film310/item174",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C91C-R33H-2"
+      },
+      {
+        "title": "Typed compilation, printed83/PDF86; erroneous bondsman attribution",
+        "url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/marriages/1767marriage.pdf#page=86"
+      }
+    ],
+    "provenance": "Original images read by parent researcher30October2026; source receipt search-pittsylvania-bond-roles-signatures-20261030"
   }
 ]
