@@ -575,6 +575,26 @@ def move_branch_tables(web, data, sections):
     write(branch, text)
 
 
+def publish_collection_redirects(web, template, redirects):
+    """Keep reviewed former collection URLs after their records move category."""
+    pages = []
+    for old, destination in redirects.items():
+        if not all(re.fullmatch(r'/sources/[a-z0-9/-]+/', value) for value in (old, destination)) or old == destination:
+            raise ValueError('Collection redirects require distinct local source routes')
+        if not (web / destination.lstrip('/') / 'index.html').is_file():
+            raise ValueError(f'Missing collection redirect destination: {destination}')
+        body = ('<main id="main" class="r-main sc-main"><h1>Source collection moved</h1>'
+                '<p>These references are now grouped under their reviewed record type.</p>'
+                f'<p><a href="{e(destination, quote=True)}">Continue to the source collection</a></p></main>')
+        out = re.sub(r'<main\b[\s\S]*?</main>', lambda _: body, template, count=1, flags=re.I)
+        out = re.sub(r'<title>.*?</title>', '<title>Source collection moved · Glasgow Surname Project</title>', out, count=1, flags=re.S)
+        out = re.sub(r'<link\b[^>]*rel=["\']canonical["\'][^>]*>', '', out, flags=re.I)
+        out = out.replace('</head>', f'<link rel="canonical" href="https://glasgow.phenotype.dev{destination}"><meta http-equiv="refresh" content="0;url={e(destination, quote=True)}"></head>', 1)
+        write(web / old.lstrip('/') / 'index.html', out)
+        pages.append(old)
+    return pages
+
+
 def repair(web=None):
     web = web or WEB
     config = json.loads((INPUT / 'coverage.json').read_text())
@@ -701,6 +721,7 @@ def repair(web=None):
         page(route, title, hero(title, 'The collected entries, their source references, profile assessments and outstanding checks.') + guide(config, category, country) + section)
     if supplied: page('newspapers/supplied-clippings', 'Supplied newspaper clippings', hero('Supplied newspaper clippings', 'The excerpts received during the newspaper study, with their provenance and remaining source checks.') + supplied)
     move_branch_tables(web, newspaper, sections)
+    written.extend(publish_collection_redirects(web, template, config.get('collection_redirects', {})))
     # Remove only obsolete pages previously owned by this builder.
     for obsolete in set(old_pages) - set(written):
         if re.fullmatch(r'/sources/[a-z-]+/[a-z-]+/[a-z0-9-]+/', obsolete):
