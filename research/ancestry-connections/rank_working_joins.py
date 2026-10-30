@@ -41,15 +41,32 @@ def explicit_research_state(assessment):
     return {**state, 'disposition': 'unknown'}
 
 
-def dispatch_context(assessment, estimate=None, case=None):
-    """Prefer assertion reviews; legacy pair estimates supply missing workflow fields."""
+def dispatch_context(assessment, estimate=None, case=None, *, plan=None, father=None):
+    """Use pair reviews first, then a plan explicitly bound to this father."""
     estimate, case = estimate or {}, case or {}
     state = explicit_research_state(assessment)
     if state['disposition'] == 'unknown':
         state = explicit_research_state({'research_state': estimate.get('research_state')})
+    plan_source = {}
+    if state['disposition'] == 'unknown' and plan:
+        planned = explicit_research_state(plan)
+        # Do not let an old child review hold a replacement father. Unbound
+        # plans can describe Unknown investigations, not named parent pairs.
+        if planned['disposition'] != 'unknown' and planned.get('father_id') == father:
+            state = planned
+            plan_source = plan
     return {'research_state': state,
-            **{key: case.get(key) or assessment.get(key) or estimate.get(key) or ''
+            **{key: state.get(key) or plan_source.get(key) or case.get(key)
+               or assessment.get(key) or estimate.get(key) or ''
                for key in ('last_test', 'next_test')}}
+
+
+def person_plan(project_root, ident):
+    path = project_root / 'research' / ident / 'research_plan.json'
+    if not path.is_file():
+        return {}
+    plan = json.loads(path.read_text())
+    return plan if plan.get('profile_id', plan.get('case_id', ident)) == ident else {}
 
 
 def sort_rows(rows, order='actionable', scope='selected'):
@@ -115,8 +132,7 @@ def unknown_father_rows(root, nodes, edges, cohorts, through):
                          measured.intersection(cohorts[c]['working']['cohort_ids'])), None)
         # Per-person plans can hold an Unknown investigation without inventing
         # a selected father assertion or reinterpreting prose/dates as a hold.
-        plan_path = root.parent / 'research' / ident / 'research_plan.json'
-        plan = json.loads(plan_path.read_text()) if plan_path.is_file() else {}
+        plan = person_plan(root.parent, ident)
         rows.append(dict(child=ident, father=None, child_name=node['name'], father_name=None,
             child_url=route if safe else None, assertion_id=None, confidence_percent=None,
             status='unknown_father' if dossier is not None else 'account_unavailable',
@@ -132,7 +148,7 @@ def unknown_father_rows(root, nodes, edges, cohorts, through):
             parent_side=None, cross_pairs=None, confident_child_side=None,
             confident_parent_side=None, confident_pair_gain=None, confident_component_reduction=None,
             graph_impact_available=False, evidence_grade=None, source_ids=[], links=[],
-            **dispatch_context(dossier or {}, plan)))
+            **dispatch_context(dossier or {}, plan=plan)))
     return rows
 
 
@@ -211,7 +227,8 @@ def main(argv=None):
      row['public_confidence_percent']=pair.get('confidence_percent')
      row['public_status']=pair.get('status')
      case=cases.get(row['assertion_id'],{})
-     row.update(dispatch_context(a,estimates.get((child,father)),case))
+     row.update(dispatch_context(a,estimates.get((child,father)),case,
+                                 plan=person_plan(root.parent,child),father=father))
      rows.append(row)
     print_rows(rows,args)
 

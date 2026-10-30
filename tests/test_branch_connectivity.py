@@ -444,6 +444,29 @@ class T(unittest.TestCase):
 
 
 class ResearchDispatchRanking(unittest.TestCase):
+    def test_person_plan_is_bound_to_the_reviewed_father(self):
+        import runpy
+        context = runpy.run_path('research/ancestry-connections/rank_working_joins.py')['dispatch_context']
+        plan = {'research_state': {'father_id': 'Father-1',
+                                  'disposition': 'reviewed_no_change',
+                                  'resume_when': 'A new household record'},
+                'last_test': 'Existing family evidence reviewed',
+                'next_test': 'Inspect the new household record'}
+        held = context({}, plan=plan, father='Father-1')
+        self.assertEqual(held['research_state']['disposition'], 'reviewed_no_change')
+        self.assertEqual(held['next_test'], plan['next_test'])
+        for father in ('Father-2', None):
+            self.assertEqual(context({}, plan=plan, father=father), {
+                'research_state': {'disposition': 'unknown'}, 'last_test': '', 'next_test': ''})
+        ready = {'research_state': {'disposition': 'ready'}, 'next_test': 'New deed supplied'}
+        self.assertEqual(context(ready, plan=plan, father='Father-1')['next_test'],
+                         'New deed supplied')
+        unbound = {'research_state': {'disposition': 'awaiting_source'}}
+        self.assertEqual(context({}, plan=unbound, father='Father-1')
+                         ['research_state']['disposition'], 'unknown')
+        self.assertEqual(context({}, plan=unbound)['research_state']['disposition'],
+                         'awaiting_source')
+
     def test_legacy_pair_workflow_fallback_respects_assertion_review(self):
         import runpy
         context = runpy.run_path('research/ancestry-connections/rank_working_joins.py')['dispatch_context']

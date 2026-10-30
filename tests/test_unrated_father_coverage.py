@@ -58,6 +58,28 @@ class UnratedFatherCoverage(unittest.TestCase):
         finally:
             os.chdir(previous)
 
+    def test_named_queue_honors_only_the_current_father_plan(self):
+        self.person('Child-1', [self.father('Parent-1', tree_relationship=True)])
+        self.person('Parent-1')
+        self.person('Child-2', [self.father('Parent-2', tree_relationship=True)])
+        self.person('Parent-2')
+        folder = self.root / 'research/Child-1'
+        folder.mkdir()
+        plan = {'profile_id': 'Child-1', 'research_state': {
+            'father_id': 'Parent-1', 'disposition': 'reviewed_no_change'},
+            'last_test': 'Held sources reviewed', 'next_test': 'Read a new deed'}
+        self.write('research/Child-1/research_plan.json', plan)
+        rows = self.rank('--scope', 'all-unconfident')
+        self.assertEqual([r['child'] for r in rows], ['Child-2', 'Child-1'])
+        self.assertEqual(rows[-1]['next_test'], 'Read a new deed')
+        held_impact = rows[-1]['cross_pairs']
+        plan['research_state']['father_id'] = 'Former-1'
+        self.write('research/Child-1/research_plan.json', plan)
+        rows = self.rank('--scope', 'all-unconfident')
+        self.assertEqual([r['child'] for r in rows], ['Child-1', 'Child-2'])
+        self.assertEqual(rows[0]['research_state']['disposition'], 'unknown')
+        self.assertEqual(rows[0]['cross_pairs'], held_impact)
+
     def test_external_surname_and_missing_dossier_have_null_graph_impact(self):
         self.person('Child-1', [self.father('Other-1', tree_relationship=True, status='probable')])
         self.person('Other-1', surname='Other')
@@ -212,6 +234,11 @@ class UnratedFatherCoverage(unittest.TestCase):
         self.assertIsNone(held['father'])
         self.assertIsNone(held['assertion_id'])
         self.assertEqual(self.rank('--scope', 'unknown', '--sort', 'working-pairs')[0]['child'], 'Root-1')
+        self.write('research/Root-1/research_plan.json', {
+            'research_state': {'father_id': 'Former-1', 'disposition': 'awaiting_source'}})
+        rows = self.rank('--scope', 'unknown')
+        self.assertEqual(rows[0]['child'], 'Root-1')
+        self.assertEqual(rows[0]['research_state']['disposition'], 'unknown')
 
 
 if __name__ == '__main__':
