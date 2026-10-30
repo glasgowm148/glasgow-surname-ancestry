@@ -17,7 +17,7 @@ _CATEGORIES = {
     "census": r"\bcensus\b|enumeration",
     "births": r"birth|baptis|christen",
     "marriages": r"marriage|married|banns|wedding",
-    "deaths": r"death|burial|obituar|grave|cemeter|memorial",
+    "deaths": r"death|burial|obituar|grave|cemeter|memorial|monumental\s+inscription",
     "wills-probate": r"\bwill\b|testament|probate|dative",
     "land-tax": r"\bland\b|\bdeed\b|\bestate\b|\bvaluation\b|\btax\b|rent roll",
     "church": r"parish|church|register",
@@ -73,7 +73,7 @@ _DATE_TYPES = {
     "census": r"census|enumeration",
     "births": r"birth|baptis|christen",
     "marriages": r"marriage|married|banns|wedding",
-    "deaths": r"death|burial|obituar|grave|cemeter|memorial",
+    "deaths": r"death|burial|obituar|grave|cemeter|memorial|monumental\s+inscription",
     "wills-probate": r"will|testament|probate|dative",
 }
 

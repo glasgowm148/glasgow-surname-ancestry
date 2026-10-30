@@ -23,6 +23,13 @@ def row_only_fixture(row):
 
 
 class SourceCollectionIndexTest(unittest.TestCase):
+    def test_monumental_inscriptions_are_death_sources(self):
+        root = fixture({"title": "West Lothian, Monumental Inscriptions",
+                        "records": [{"type": "monumental inscription", "date": "1831"}]})
+        item = build_index(root)[0]
+        self.assertIn("deaths", item["categories"])
+        self.assertEqual(item["year"], 1831)
+
     def test_census_title_year_wins_over_person_dates(self):
         root = fixture({"title": "1851 census, Glasgow", "records": [{"date": "1849", "place": "Glasgow"}]})
         item = build_index(root)[0]
