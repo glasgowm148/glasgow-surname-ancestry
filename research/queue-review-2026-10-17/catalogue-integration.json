@@ -20584,12 +20584,12 @@
       "profile_id": "Glasgow-1416",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "queued_at": "2026-10-30",
+      "biography_rechecked_at": "2026-10-30",
       "draft_path": "research/Glasgow-1416/father-confidence-2026-10-22g.wiki",
       "findings_path": "research/Glasgow-1416/findings.md",
-      "summary": "Review existing father at 89% (probable), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 89% (probable), retaining source and identity limits; no new father attachment.",
+      "summary": "Review existing father at 89% (probable), retaining source and identity limits; no new father attachment. Refine the inherited before-birth bound to the recorded 19 November 1741; baptism was 22 November. Retain the existing relationship amendment.",
+      "work_queue_summary": "Review existing father at 89% (probable), retaining source and identity limits; no new father attachment. Refine the inherited before-birth bound to the recorded 19 November 1741; baptism was 22 November. Retain the existing relationship amendment.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -20609,7 +20609,22 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/findmypast-glasgow-audit/michael-vital-preservation-2026-10-30.json",
+      "field_changes": [
+        {
+          "field": "BirthDate",
+          "before": "before 1741-11-19",
+          "after": "1741-11-19",
+          "after_status": "certain",
+          "basis": "The saved Findmypast derivative explicitly records Michael Glasgow's birth on 19 November 1741 and baptism on 22 November 1741 at Irvine, naming Michael Glasgow as father (OPR 595/1, item 1, page 56). Replace the inherited before-19-November birth bound with the recorded day. Irvine is retained as parish context, not an independently recorded birthplace. The original register remains uninspected. Identification of the named father with Glasgow-1410 remains probable at 89%; the transcript names no mother and does not establish Crauford-31's maternity. The 1789 Old Bailey witness remains an unproved identity comparison.",
+          "source_urls": [
+            "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575088&tab=this"
+          ],
+          "review_id": "fmp-page29-glasgow-1416-birth-20261030",
+          "captured_field_value": "1741-11-19",
+          "captured_field_status": "before"
+        }
+      ]
     },
     "Glasgow-4121": {
       "profile_id": "Glasgow-4121",

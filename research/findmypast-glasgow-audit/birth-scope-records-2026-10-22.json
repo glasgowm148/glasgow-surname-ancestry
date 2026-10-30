@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 627,
+    "inspected_transcripts": 646,
     "catalogue_integration_complete": true,
     "integrated_record_ids": [
       "R_686309313",
@@ -1275,15 +1275,15 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "output/findmypast-page28-vitals-20261029-verification.json",
+    "verification_report": "output/findmypast-michael-birth-20261030-verification.json",
     "verified_on": "2026-10-30",
     "indexed_provider_record_count": 627,
-    "next_action": "Review the cached explicit birth of 19 November 1741 for Michael Glasgow-1416, currently shown as before that day; then capture the 19 preflighted page-29 detail gaps, beginning GBPRS/B/612044440/1, in the existing task-owned Findmypast tab. Reuse all held receipts and preserve identity/natal-surname HOLDs. Overall INCOMPLETE.",
-    "recent_query_transcripts": 492,
+    "next_action": "Integrate the saved existing-person matches first: Barony Mary R_690390678 with Glasgow-1351, North Leith Mckenzie pair R_686222678/R_691921324 with Glasgow-3588, and Michael companion R_685314069 with Glasgow-1416 (names Mary Crauford). Preserve existing parent percentages and assess maternal adult identities separately. Then reconcile the remaining cached Rothesay/Richmond/Mid-Calder/Mckenzie and later-life Mary groups, including natal-surname and named-relative scope. All19 full transcripts are saved: do not refetch or open page30 before completing this cached batch. Overall INCOMPLETE.",
+    "recent_query_transcripts": 511,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
     "recent_query_rows_reviewed": 561,
-    "capture_ledger_note": "627 literal transcripts plus 19 supporting indexed IDs remain 646 bounded indexed provider IDs. 580 query rows saved; 561 reviewed/disposed, 560 contiguously; 19 page-29 detail gaps. One cached Michael record reused without navigation. No new transcripts or people.",
+    "capture_ledger_note": "646 literal transcript receipts are saved: 627 indexed and 19 pending page-29 identity/indexing review. Nineteen supporting indexed IDs remain at their original receipt pointers. Bounded indexed provider IDs remain 646; saved receipt union is 665. Query rows: 580 captured, 561 reviewed/disposed, 560 contiguous. No new people or relationship changes.",
     "capture_count_basis": "646bounded indexed provider IDs in literal-ledger-plus-support scope; provider IDs are not unique people or independent discoveries.",
     "recent_query_receipt_reuses": 61,
     "recent_query_existing_index_reuses": 1,
@@ -1291,9 +1291,29 @@
     "next_search_page_to_capture": 30,
     "recent_query_rows_captured": 580,
     "contiguous_query_rows_reviewed": 560,
-    "recent_query_detail_gaps": 19,
-    "unindexed_captured_record_ids": [],
-    "pending_transcript_matching": 0,
+    "recent_query_detail_gaps": 0,
+    "unindexed_captured_record_ids": [
+      "GBPRS/B/612044440/1",
+      "R_690390678",
+      "SCOT/OPR/BAP/3235403",
+      "R_693985014",
+      "BMD/NBI/07446456",
+      "PRS/LIVERPOOL/BUR/0380850",
+      "BMD/NBI/01614261",
+      "GBPRS/GLASGOW/BUR/093123",
+      "US/BMD/PENN-BUR/01393539",
+      "GBOR/MISCBMDS/DEA/000980466/1",
+      "GBPRS/D/51223182/1",
+      "IRE/BMD/D/616663692",
+      "IRE/BMD/D/617063148",
+      "R_686318726",
+      "R_694114425",
+      "R_686222678",
+      "R_691921324",
+      "R_692918190",
+      "R_685314069"
+    ],
+    "pending_transcript_matching": 19,
     "supplemental_cached_records_indexed": 19,
     "total_indexed_reviewed_provider_ids": 646,
     "capture_review_boundary_20261025": {
@@ -1332,25 +1352,7 @@
       "task_launched_browser_processes": 0,
       "restoration_verified": false
     },
-    "pending_structured_vital_reviews": [
-      {
-        "subject": "Glasgow-1416",
-        "kind": "birth",
-        "before": "before 1741-11-19",
-        "source_birth_date": "1741-11-19",
-        "source_baptism_date": "1741-11-22",
-        "provider_record_id": "SCOT/OPR/BAP/3575088",
-        "canonical_record_id": "held-e-91208a5efc9d",
-        "receipt_pointer": {
-          "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
-          "json_pointer": "#/records/SCOT~1OPR~1BAP~13575088",
-          "access_status": "accessible",
-          "transcript_fields_present": true,
-          "captured_at": "2026-09-03T23:39:12.264Z"
-        },
-        "question": "Adopt the explicit held birth day through a reviewed vital row and complete proposal; preserve father89% and separate maternal uncertainty. Do not refetch the receipt."
-      }
-    ],
+    "pending_structured_vital_reviews": [],
     "capture_review_boundary_20261029": {
       "query_rows_captured": 560,
       "query_rows_identity_reviewed": 560,
@@ -1385,26 +1387,37 @@
       "verification_report": "output/findmypast-page28-vitals-20261029-verification.json"
     },
     "browser_resource_checkpoint_20261030": {
-      "task_owned_tab_native_id": "236299055",
-      "task_owned_tab_handle": "btab_chrome_90cc49db6a804892",
-      "window_index": 1,
-      "preexisting_native_tab_preserved": "236299008",
+      "task_owned_tab_native_id": "236299058",
+      "task_owned_tab_closed": true,
+      "preexisting_tab_native_id_preserved": "236299008",
+      "additional_nonowned_tab_preserved": "236299061",
       "task_created_tabs": 1,
       "task_created_windows": 0,
       "explicit_browser_processes_launched": 0,
-      "retained_for": "After cached Michael1416birth-date review, navigate the observed first gap https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044440%2F1 in this same working tab.",
-      "last_memory_free_percent": 40
+      "next_action": "Review the 19 saved transcripts locally; no retained task browser tab needed.",
+      "last_memory_free_percent": 46
     },
     "capture_review_boundary_20261030": {
       "query_rows_captured": 580,
       "query_rows_reviewed": 561,
       "contiguous_query_rows_reviewed": 560,
-      "remaining_detail_gaps": 19,
-      "new_transcripts": 0,
+      "remaining_detail_gaps": 0,
+      "new_transcripts": 19,
       "newly_indexed_provider_ids": 0,
       "indexed_provider_id_union": 646,
       "whole_provider_percentage_known": false,
-      "coverage_status": "INCOMPLETE"
+      "coverage_status": "INCOMPLETE",
+      "pending_saved_transcripts": 19
+    },
+    "structured_vital_review_20261030": {
+      "status": "locally_published_and_verified",
+      "assessments": [
+        "fmp-page29-glasgow-1416-birth-20261030"
+      ],
+      "new_provider_ids": 0,
+      "new_people": 0,
+      "relationship_changes": 0,
+      "verification_report": "output/findmypast-michael-birth-20261030-verification.json"
     }
   },
   "search_pages": [
@@ -8539,8 +8552,10 @@
           "place": "Yorkshire (North Riding), England",
           "record_id": "GBPRS/B/612044440/1",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044440%2F1",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/GBPRS~1B~1612044440~11"
         },
         {
           "last_name": "Glasgow",
@@ -8552,8 +8567,10 @@
           "place": "Lanarkshire, Scotland",
           "record_id": "R_690390678",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_690390678",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_690390678"
         },
         {
           "last_name": "Glasgow",
@@ -8565,8 +8582,10 @@
           "place": "Rothesay, Buteshire, Scotland",
           "record_id": "SCOT/OPR/BAP/3235403",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235403",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/SCOT~1OPR~1BAP~13235403"
         },
         {
           "last_name": "Glasgow",
@@ -8578,8 +8597,10 @@
           "place": "Buteshire, Scotland",
           "record_id": "R_693985014",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_693985014",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_693985014"
         },
         {
           "last_name": "Glasgow",
@@ -8591,8 +8612,10 @@
           "place": "Berwick upon Tweed, Northumberland, England",
           "record_id": "BMD/NBI/07446456",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07446456",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/BMD~1NBI~107446456"
         },
         {
           "last_name": "Glasgow",
@@ -8604,8 +8627,10 @@
           "place": "Toxteth, St James, Lancashire, England",
           "record_id": "PRS/LIVERPOOL/BUR/0380850",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FLIVERPOOL%2FBUR%2F0380850",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/PRS~1LIVERPOOL~1BUR~10380850"
         },
         {
           "last_name": "Glasgow",
@@ -8617,8 +8642,10 @@
           "place": "Chesham, Buckinghamshire, England",
           "record_id": "BMD/NBI/01614261",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614261",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/BMD~1NBI~101614261"
         },
         {
           "last_name": "Glasgow",
@@ -8630,8 +8657,10 @@
           "place": "Gorbals, Glasgow, Lanarkshire, Scotland",
           "record_id": "GBPRS/GLASGOW/BUR/093123",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093123",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/GBPRS~1GLASGOW~1BUR~1093123"
         },
         {
           "last_name": "Glasgow",
@@ -8643,8 +8672,10 @@
           "place": "Philadelphia, Pennsylvania, United States",
           "record_id": "US/BMD/PENN-BUR/01393539",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01393539",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/US~1BMD~1PENN-BUR~101393539"
         },
         {
           "last_name": "Glasgow",
@@ -8656,8 +8687,10 @@
           "place": "Manchester, Lancashire, England",
           "record_id": "GBOR/MISCBMDS/DEA/000980466/1",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FMISCBMDS%2FDEA%2F000980466%2F1",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/GBOR~1MISCBMDS~1DEA~1000980466~11"
         },
         {
           "last_name": "Glasgow",
@@ -8669,8 +8702,10 @@
           "place": "Lancashire, England",
           "record_id": "GBPRS/D/51223182/1",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F51223182%2F1",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/GBPRS~1D~151223182~11"
         },
         {
           "last_name": "Glasgow",
@@ -8682,8 +8717,10 @@
           "place": "Dublin North, Dublin, Ireland",
           "record_id": "IRE/BMD/D/616663692",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616663692",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/IRE~1BMD~1D~1616663692"
         },
         {
           "last_name": "Glasgow",
@@ -8695,8 +8732,10 @@
           "place": "Limerick, Ireland",
           "record_id": "IRE/BMD/D/617063148",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063148",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/IRE~1BMD~1D~1617063148"
         },
         {
           "last_name": "Glasgow",
@@ -8708,8 +8747,10 @@
           "place": "Midlothian, Scotland",
           "record_id": "R_686318726",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686318726",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_686318726"
         },
         {
           "last_name": "Glasgow",
@@ -8721,8 +8762,10 @@
           "place": "Midlothian, Scotland",
           "record_id": "R_694114425",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_694114425",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_694114425"
         },
         {
           "last_name": "Glasgow",
@@ -8734,8 +8777,10 @@
           "place": "Midlothian, Scotland",
           "record_id": "R_686222678",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_686222678",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_686222678"
         },
         {
           "last_name": "Glasgow",
@@ -8747,8 +8792,10 @@
           "place": "Midlothian, Scotland",
           "record_id": "R_691921324",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_691921324",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_691921324"
         },
         {
           "last_name": "Glasgow",
@@ -8760,8 +8807,10 @@
           "place": "Ayrshire, Scotland",
           "record_id": "R_692918190",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_692918190",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_692918190"
         },
         {
           "last_name": "Glasgow",
@@ -8793,16 +8842,14 @@
           "place": "Ayrshire, Scotland",
           "record_id": "R_685314069",
           "transcript_url": "https://www.findmypast.co.uk/transcript?id=R_685314069",
-          "transcript_reviewed": false,
-          "review_disposition": "detail_needed"
+          "transcript_reviewed": true,
+          "review_disposition": "detail_needed",
+          "identity_review_status": "pending",
+          "receipt_pointer": "#/records/R_685314069"
         }
       ],
-      "review_status": "rows_captured_exact_id_preflight_complete",
-      "captured_new_detail_rows": [],
-      "reused_receipt_ids": [
-        "SCOT/OPR/BAP/3575088"
-      ],
-      "remaining_detail_rows": [
+      "review_status": "full_transcripts_captured_identity_review_pending",
+      "captured_new_detail_rows": [
         "GBPRS/B/612044440/1",
         "R_690390678",
         "SCOT/OPR/BAP/3235403",
@@ -8823,9 +8870,13 @@
         "R_692918190",
         "R_685314069"
       ],
+      "reused_receipt_ids": [
+        "SCOT/OPR/BAP/3575088"
+      ],
+      "remaining_detail_rows": [],
       "checkpoint_reviewed_rows": 1,
       "capture_summary": {
-        "new_literal_transcript_receipts": 0,
+        "new_literal_transcript_receipts": 19,
         "reused_receipts": 1,
         "newly_indexed_provider_records": 0,
         "identity_review_complete": false,
@@ -31837,6 +31888,643 @@
       "canonical_record_id": "fmp-record-scot-opr-bur-1566095",
       "documentary_group": "edinburgh-mary-1792",
       "assessment": "Mary Glasgow buried5May1792 at Edinburgh, age23, OPR685_3/23 item3 page171. Birth year1769 is age-derived; no parents, spouse, address or exact death date supplied. Ratho Mary Glasgow-1618 born11October1768 would also be23 on that burial date, so the one-year indexed difference does not exclude her. This is an age-compatible comparison only, not assignment of her death/burial. Other sparse Mary accounts remain unexcluded; no new person. Inspected Findmypast derivative transcript, 29 October 2026; original register uninspected. No new person, parent attachment or relationship-confidence change. Country field is literally dash; Scotland is normalized from named parish/county and collection."
+    },
+    "GBPRS/B/612044440/1": {
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044440%2F1&tab=this",
+      "title": "Record Transcription: Yorkshire Baptisms | findmypast.co.uk",
+      "provider_id": "GBPRS/B/612044440/1",
+      "captured_at": "2026-10-30T06:50:41.631979+00:00",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FB%2F612044440%2F1",
+      "access_status": "accessible",
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Mother's first name(s) ": "-",
+        "Last name ": "Glasgow",
+        "Relationship ": "Daughter",
+        "Birth year ": "1794",
+        "County ": "Yorkshire (North Riding)",
+        "Baptism year ": "1794",
+        "Country ": "England",
+        "Baptism date ": "17 Apr 1794",
+        "Record set ": "Yorkshire Baptisms",
+        "Baptism place ": "Richmond",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "William",
+        "Subcategory ": "Parish Baptisms",
+        "Father's occupation ": "Schoolmaster",
+        "Collections from ": "England, Great Britain"
+      },
+      "matching_status": "pending_review",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_690390678": {
+      "provider_id": "R_690390678",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_690390678",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_690390678&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_690390678&tab=this",
+      "title": "",
+      "captured_at": "2026-10-30T06:52:50.845161+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Mother's first name(s) ": "Helen",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Smith",
+        "Sex ": "Female",
+        "Place ": "Barony, Glasgow",
+        "Birth year ": "1796",
+        "County ": "Lanarkshire",
+        "Baptism year ": "1796",
+        "Country ": "Scotland",
+        "Baptism date ": "03 Apr 1796",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "BARONY,LANARK,SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "John",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1796 | Transcript of Mary's record | Transcript of Mary's record | Newspaper death & in memoriam notice | Marriage Record | Marriage Record | Marriage Record | Newspaper marriage notice | Newspaper death & in memoriam notice | Other records featuring that name | Newspaper death & in memoriam notice | Marriage Record | Marriage Record | Marriage Record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "SCOT/OPR/BAP/3235403": {
+      "provider_id": "SCOT/OPR/BAP/3235403",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235403",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235403&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3235403&tab=this",
+      "title": "",
+      "captured_at": "2026-10-30T06:52:54.175860+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Father's occupation ": "Weaver Cotton",
+        "Last name ": "Glasgow",
+        "Mother's first name(s) ": "Mary",
+        "Birth year ": "1797",
+        "Mother's last name ": "Bannatyne",
+        "Birth date ": "14 May 1797",
+        "Archive reference ": "OPR 558/2",
+        "Baptism year ": "1797",
+        "Register year range ": "1762-1819",
+        "Baptism date ": "21 May 1797",
+        "Item ": "4",
+        "Residence ": "Miln Rothesay",
+        "Page ": "111",
+        "Place ": "Rothesay",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "County ": "Buteshire",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Country ": "Scotland",
+        "Subcategory ": "Parish Baptisms",
+        "Father's first name(s) ": "Malcolm",
+        "Collections from ": "Great Britain, Scotland",
+        "Father's last name ": "Glasgow",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1797 | Transcript of Mary's record | Transcript of Mary's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_693985014": {
+      "provider_id": "R_693985014",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_693985014",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_693985014&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_693985014&tab=this",
+      "title": "",
+      "captured_at": "2026-10-30T06:52:58.460389+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Mother's first name(s) ": "Mary",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Bannatyne",
+        "Sex ": "Female",
+        "Place ": "Rothesay",
+        "Birth year ": "1797",
+        "County ": "Buteshire",
+        "Baptism year ": "1797",
+        "Country ": "Scotland",
+        "Baptism date ": "21 May 1797",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "ROTHESAY,BUTE,SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Malcom",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1797 | Transcript of Mary's record | Transcript of Mary's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "BMD/NBI/07446456": {
+      "provider_id": "BMD/NBI/07446456",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07446456",
+      "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07446456&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F07446456&tab=this",
+      "title": "",
+      "captured_at": "2026-10-30T06:53:01.395153+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Denomination ": "Anglican",
+        "Last name ": "Glasgow",
+        "Description ": "Holy Trinity",
+        "Burial year ": "1809",
+        "County ": "Northumberland",
+        "Death year ": "1809",
+        "Country ": "England",
+        "Burial date ": "12 Jan 1809",
+        "Record set ": "National Burial Index For England & Wales",
+        "Age ": "40",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Birth year ": "1769",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Berwick upon Tweed",
+        "Collections from ": "Great Britain, England"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1809 | Transcript of Mary's record | Transcript of Mary's record | National Burial Index for England & Wales",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "PRS/LIVERPOOL/BUR/0380850": {
+      "provider_id": "PRS/LIVERPOOL/BUR/0380850",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FLIVERPOOL%2FBUR%2F0380850",
+      "url": "https://www.findmypast.co.uk/transcript?id=PRS%2FLIVERPOOL%2FBUR%2F0380850&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FLIVERPOOL%2FBUR%2F0380850&tab=this",
+      "title": "",
+      "captured_at": "2026-10-30T06:53:05.885460+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "County ": "Lancashire",
+        "Last name ": "Glasgow",
+        "Country ": "England",
+        "Birth year ": "1746",
+        "Next of kin relationship ": "Wife of",
+        "Age ": "72",
+        "Next of kin ": "Joseph Glasgow",
+        "Death year ": "-",
+        "Archive ": "Liverpool Record Office",
+        "Burial year ": "1818",
+        "Register type ": "Burials",
+        "Burial date ": "09 Jul 1818",
+        "Archive reference ": "283-JAM-4-1",
+        "Residence ": "White Street Liverpool",
+        "Register year range ": "1813-1826",
+        "Denomination ": "Church Of England",
+        "Record set ": "Lancashire Burials",
+        "Description ": "St James",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Place ": "Toxteth, St James",
+        "Subcategory ": "Parish Burials",
+        "Diocese ": "Liverpool",
+        "Collections from ": "England, Great Britain"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1818 | Transcript of Mary's record | Transcript of Mary's record | What can these records tell me?",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "BMD/NBI/01614261": {
+      "provider_id": "BMD/NBI/01614261",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614261",
+      "url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614261&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614261&tab=this",
+      "title": "",
+      "captured_at": "2026-10-30T06:53:14.542710+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Denomination ": "Anglican",
+        "Last name ": "Glasgow",
+        "Description ": "St Mary",
+        "Burial year ": "1832",
+        "County ": "Buckinghamshire",
+        "Death year ": "1832",
+        "Country ": "England",
+        "Burial date ": "29 Jul 1832",
+        "Record set ": "National Burial Index For England & Wales",
+        "Age ": "56",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Birth year ": "1776",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Chesham",
+        "Collections from ": "Great Britain, England"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1832 | Transcript of Mary's record | Transcript of Mary's record | National Burial Index for England & Wales",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "GBPRS/GLASGOW/BUR/093123": {
+      "provider_id": "GBPRS/GLASGOW/BUR/093123",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093123",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093123&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093123&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:18.766260+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Burial place ": "Gorbals, Glasgow",
+        "Last name ": "Glasgow",
+        "County ": "Lanarkshire",
+        "Birth year ": "1777",
+        "Country ": "Scotland",
+        "Death year ": "1848",
+        "Notes ": "dropsy",
+        "Death date ": "? ? 1848",
+        "Record set ": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Age ": "71",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Burial year ": "1848",
+        "Subcategory ": "Parish Burials",
+        "Burial date ": "23 May 1848",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1848 | Transcript of Mary's record | Transcript of Mary's record | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice | Other records featuring that name | Newspaper death & in memoriam notice | Newspaper death & in memoriam notice",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "US/BMD/PENN-BUR/01393539": {
+      "provider_id": "US/BMD/PENN-BUR/01393539",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01393539",
+      "url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01393539&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01393539&tab=this",
+      "title": "Record Transcription: Historical Society Of Pennsylvania, Deaths & Burials | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:21.467184+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "State ": "Pennsylvania",
+        "Last name ": "Glasgow",
+        "Country ": "United States",
+        "Age ": "51",
+        "Institution ": "Board of Health Registers of Deaths",
+        "Birth year ": "1797",
+        "Archive ": "Historical Society of Pennsylvania",
+        "Death year ": "1848",
+        "Register ": "Burial",
+        "Death date ": "22 Apr 1848",
+        "Date range ": "1847-1849",
+        "Burial year ": "1848",
+        "Record set ": "Historical Society Of Pennsylvania, Deaths & Burials",
+        "Address ": "-",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Parish ": "Philadelphia",
+        "Subcategory ": "Civil Deaths & Burials",
+        "Diocese ": "Philadelphia",
+        "Collections from ": "Americas, United States"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1848 | Transcript of Mary's record | Transcript of Mary's record | What can these records tell me?",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "GBOR/MISCBMDS/DEA/000980466/1": {
+      "provider_id": "GBOR/MISCBMDS/DEA/000980466/1",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FMISCBMDS%2FDEA%2F000980466%2F1",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FMISCBMDS%2FDEA%2F000980466%2F1&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FMISCBMDS%2FDEA%2F000980466%2F1&tab=this",
+      "title": "Record Transcription: Lancashire Burials | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:24.454757+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Document type ": "Burials",
+        "Last name ": "Glasgow",
+        "Register title ": "Manchester, Rusholme Road Cemetery, Dissenters' Burial Ground, 1821-1933",
+        "Birth year ": "1783",
+        "Archive ": "The National Archives",
+        "Age ": "77",
+        "Archive reference ": "RG 37/97",
+        "Death year ": "1860",
+        "Page ": "125",
+        "Death date ": "18 Feb 1860",
+        "Year range ": "1954-1957",
+        "Parish ": "Rusholme Road Cemetery",
+        "Record set ": "Lancashire Burials",
+        "Place ": "Manchester",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Denomination ": "Dissenting",
+        "Subcategory ": "Parish Burials",
+        "County ": "Lancashire",
+        "Collections from ": "Great Britain, England",
+        "Country ": "England",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1860 | Transcript of Mary's record | Transcript of Mary's record | Marriage Record | Marriage Record | Marriage Record | Census Record | Other records featuring that name | Marriage Record | Marriage Record | Marriage Record | Census Record | What can these records tell me?",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "GBPRS/D/51223182/1": {
+      "provider_id": "GBPRS/D/51223182/1",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F51223182%2F1",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F51223182%2F1&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FD%2F51223182%2F1&tab=this",
+      "title": "Record Transcription: Manchester Cemetery Records | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:46.725365+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Country ": "England",
+        "Last name ": "Glasgow",
+        "Records' title ": "Gravestone Inscriptions",
+        "Age ": "77",
+        "Record locality ": "Manchester Rusholme Road",
+        "Birth year ": "1783",
+        "Date range ": "1821 - 1933",
+        "Death/Burial year ": "1860",
+        "Film ": "M 74 / 3 / 18 / 1",
+        "Death/Burial day ": "18",
+        "Record set ": "Manchester Cemetery Records",
+        "Death/Burial month ": "Feb",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Cemetery ": "Manchester Rusholme Road",
+        "Subcategory ": "Civil Deaths & Burials",
+        "County ": "Lancashire",
+        "Collections from ": "England, Great Britain"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1860 | Transcript of Mary's record | Transcript of Mary's record | The Cemetery Records",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "IRE/BMD/D/616663692": {
+      "provider_id": "IRE/BMD/D/616663692",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616663692",
+      "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616663692&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F616663692&tab=this",
+      "title": "Record Transcription: Irish Deaths 1864 - 1958 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:49.580001+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Country ": "Ireland",
+        "Last name ": "Glasgow",
+        "Volume ": "2",
+        "Birth year ": "1794",
+        "Page ": "506",
+        "Age ": "70",
+        "Record set ": "Irish Deaths 1864 - 1958",
+        "Registration year ": "1864",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Registration quarter & year ": "1864",
+        "Subcategory ": "Civil Deaths & Burials",
+        "Registration district ": "Dublin North",
+        "Collections from ": "Ireland",
+        "County ": "Dublin",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1864 | Transcript of Mary's record | Transcript of Mary's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "IRE/BMD/D/617063148": {
+      "provider_id": "IRE/BMD/D/617063148",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063148",
+      "url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063148&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F617063148&tab=this",
+      "title": "Record Transcription: Irish Deaths 1864 - 1958 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:52.344400+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary",
+        "Country ": "Ireland",
+        "Last name ": "Glasgow",
+        "Volume ": "15",
+        "Birth year ": "1788",
+        "Page ": "271",
+        "Age ": "80",
+        "Record set ": "Irish Deaths 1864 - 1958",
+        "Registration year ": "1868",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Registration quarter & year ": "1868",
+        "Subcategory ": "Civil Deaths & Burials",
+        "Registration district ": "Limerick",
+        "Collections from ": "Ireland",
+        "County ": "Limerick",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Glasgow in 1868 | Transcript of Mary's record | Transcript of Mary's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_686318726": {
+      "provider_id": "R_686318726",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686318726",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686318726&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686318726&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:55.946822+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary Macleod",
+        "Mother's last name ": "Fergusson",
+        "Last name ": "Glasgow",
+        "Residence ": "Mid Calder, Midlothian, Scotland",
+        "Sex ": "Female",
+        "Place ": "Mid Calder",
+        "Birth year ": "1799",
+        "County ": "Midlothian",
+        "Baptism year ": "1799",
+        "Country ": "Scotland",
+        "Baptism date ": "17 Mar 1799",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "MID CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "David",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Margaret",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Macleod Glasgow in 1799 | Transcript of Mary Macleod's record | Transcript of Mary Macleod's record | Death Record | Marriage Record | Marriage Record | Marriage Record | Marriage Record | Census Record | Other records featuring that name | Death Record | Marriage Record | Marriage Record | Marriage Record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_694114425": {
+      "provider_id": "R_694114425",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_694114425",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_694114425&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_694114425&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:53:58.662368+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mary Macleod",
+        "Mother's first name(s) ": "Margaret",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Fergusson",
+        "Sex ": "Female",
+        "Place ": "Mid Calder",
+        "Birth year ": "1799",
+        "County ": "Midlothian",
+        "Baptism year ": "1799",
+        "Country ": "Scotland",
+        "Baptism date ": "17 Mar 1799",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "MID CALDER, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "David",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mary Macleod Glasgow in 1799 | Transcript of Mary Macleod's record | Transcript of Mary Macleod's record | Death Record | Marriage Record | Marriage Record | Marriage Record | Marriage Record | Census Record | Other records featuring that name | Death Record | Marriage Record | Marriage Record | Marriage Record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_686222678": {
+      "provider_id": "R_686222678",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_686222678",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_686222678&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_686222678&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:54:02.132694+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mckenzie",
+        "Mother's last name ": "Love",
+        "Last name ": "Glasgow",
+        "Residence ": "North Leith, Midlothian, Scotland",
+        "Sex ": "Male",
+        "Place ": "North Leith",
+        "Birth year ": "1734",
+        "County ": "Midlothian",
+        "Baptism year ": "1734",
+        "Country ": "Scotland",
+        "Baptism date ": "17 Dec 1734",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "NORTH LEITH, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "William",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Jean",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mckenzie Glasgow in 1734 | Transcript of Mckenzie's record | Transcript of Mckenzie's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_691921324": {
+      "provider_id": "R_691921324",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_691921324",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_691921324&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_691921324&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:54:05.499997+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mckenzie",
+        "Mother's first name(s) ": "Jean",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Love",
+        "Sex ": "Male",
+        "Place ": "North Leith",
+        "Birth year ": "1734",
+        "County ": "Midlothian",
+        "Baptism year ": "1734",
+        "Country ": "Scotland",
+        "Baptism date ": "17 Dec 1734",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "NORTH LEITH, MIDLOTHIAN, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "William",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mckenzie Glasgow in 1734 | Transcript of Mckenzie's record | Transcript of Mckenzie's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_692918190": {
+      "provider_id": "R_692918190",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_692918190",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_692918190&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_692918190&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:54:08.199684+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Mckenzie",
+        "Mother's first name(s) ": "Margaret",
+        "Last name ": "Glasgow",
+        "Mother's last name ": "Davidson",
+        "Sex ": "Male",
+        "Place ": "Ayr",
+        "Birth year ": "1754",
+        "County ": "Ayrshire",
+        "Baptism year ": "1754",
+        "Country ": "Scotland",
+        "Baptism date ": "18 Jul 1754",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "AYR,AYR,SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Mckenzie",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Mckenzie Glasgow in 1754 | Transcript of Mckenzie's record | Transcript of Mckenzie's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
+    },
+    "R_685314069": {
+      "provider_id": "R_685314069",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=R_685314069",
+      "url": "https://www.findmypast.co.uk/transcript?id=R_685314069&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=R_685314069&tab=this",
+      "title": "Record Transcription: Scotland, Parish Births & Baptisms 1564-1929 | findmypast.co.uk",
+      "captured_at": "2026-10-30T06:54:10.968764+00:00",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Michael",
+        "Mother's last name ": "Crauford",
+        "Last name ": "Glasgow",
+        "Residence ": "Irvine, Ayrshire, Scotland",
+        "Sex ": "Male",
+        "Place ": "Irvine",
+        "Birth year ": "1741",
+        "County ": "Ayrshire",
+        "Baptism year ": "1741",
+        "Country ": "Scotland",
+        "Baptism date ": "22 Nov 1741",
+        "Record set ": "Scotland, Parish Births & Baptisms 1564-1929",
+        "Baptism place ": "IRVINE, AYR, SCOTLAND",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Father's first name(s) ": "Michael",
+        "Subcategory ": "Parish Baptisms",
+        "Father's last name ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Mother's first name(s) ": "Mary",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record not inspected",
+      "matching_status": "pending_review",
+      "access_note": "Michael Glasgow in 1741 | Transcript of Michael's record | Transcript of Michael's record",
+      "assessment": "Full derivative transcript saved; identity, natal-surname scope, named-relative scope and existing-person reconciliation remain pending. Search birth filters are not proof of eligibility; companion entries are not independent corroboration."
     }
   },
   "identity_clusters": [
@@ -72926,32 +73614,12 @@
     "page29_capture_20261030": {
       "captured_rows": 20,
       "displayed_total": 5872,
-      "new_transcripts": 0,
+      "new_transcripts": 19,
       "reused_receipt_ids": [
         "SCOT/OPR/BAP/3575088"
       ],
-      "remaining_detail_rows": [
-        "GBPRS/B/612044440/1",
-        "R_690390678",
-        "SCOT/OPR/BAP/3235403",
-        "R_693985014",
-        "BMD/NBI/07446456",
-        "PRS/LIVERPOOL/BUR/0380850",
-        "BMD/NBI/01614261",
-        "GBPRS/GLASGOW/BUR/093123",
-        "US/BMD/PENN-BUR/01393539",
-        "GBOR/MISCBMDS/DEA/000980466/1",
-        "GBPRS/D/51223182/1",
-        "IRE/BMD/D/616663692",
-        "IRE/BMD/D/617063148",
-        "R_686318726",
-        "R_694114425",
-        "R_686222678",
-        "R_691921324",
-        "R_692918190",
-        "R_685314069"
-      ],
-      "source_level": "Search-result rows only for 19 gaps; no identity or natal-surname decisions made from the search filter."
+      "remaining_detail_rows": [],
+      "source_level": "Full accessible provider derivative transcripts saved for all 19 gaps; originals uninspected; identity/natal-surname decisions pending."
     },
     "page29_review_20261030": {
       "reviewed_on": "2026-10-30",
@@ -72970,7 +73638,7 @@
               "role": "Previously cited subject; retain existing father-assessment identity limits"
             }
           },
-          "assessment": "The held OPR 595/1, item 1, page 56 transcript records Michael Glasgow born 19 November 1741 and baptised 22 November 1741 at Irvine, son of Michael Glasgow. The exact provider ID already maps to existing Michael Glasgow-1416. Retain the current record and father-assessment identity limits without refetching. Father Glasgow-1410 remains at 89%; the current before-19-November birth bound needs a separately approved refinement from the explicit birth field. No new person or relationship judgement.",
+          "assessment": "The held OPR595/1 item1 page56 derivative records Michael Glasgow born19November1741 and baptised22November at Irvine, son of Michael Glasgow. Its exact provider ID remains assigned to existing Glasgow-1416. Approved birth assessment now replaces the inherited before bound with19November1741, retaining parish-context location and unchanged89% father assessment. The full proposal and actual field amendment preserve all sources, maternal uncertainty and unresolved Old Bailey identity. The newly captured companion R_685314069 names Mary Crauford and still awaits its own scoped integration; do not generalize the OPR’s maternal silence to that companion.",
           "receipt_pointer": {
             "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
             "json_pointer": "#/records/SCOT~1OPR~1BAP~13575088",
@@ -72978,10 +73646,20 @@
             "transcript_fields_present": true,
             "captured_at": "2026-09-03T23:39:12.264Z"
           },
-          "new_person_proposed": false
+          "new_person_proposed": false,
+          "assessment_history": [
+            {
+              "reviewed_on": "2026-10-30",
+              "assessment": "The held OPR 595/1, item 1, page 56 transcript records Michael Glasgow born 19 November 1741 and baptised 22 November 1741 at Irvine, son of Michael Glasgow. The exact provider ID already maps to existing Michael Glasgow-1416. Retain the current record and father-assessment identity limits without refetching. Father Glasgow-1410 remains at 89%; the current before-19-November birth bound needs a separately approved refinement from the explicit birth field. No new person or relationship judgement.",
+              "status": "superseded_birth_bound_wording"
+            }
+          ],
+          "vital_assessment_id": "fmp-page29-glasgow-1416-birth-20261030",
+          "verification_report": "output/findmypast-michael-birth-20261030-verification.json"
         }
       },
-      "remaining_detail_rows": [
+      "remaining_detail_rows": [],
+      "pending_identity_review_ids": [
         "GBPRS/B/612044440/1",
         "R_690390678",
         "SCOT/OPR/BAP/3235403",
@@ -73001,7 +73679,47 @@
         "R_691921324",
         "R_692918190",
         "R_685314069"
-      ]
+      ],
+      "local_screening_20261030": {
+        "status": "leads_for_pending_integration; not new-person exclusions",
+        "searches": [
+          {
+            "interface": "project QMD local lexical search; five-result limit; no reranker",
+            "query": "Bannatyne",
+            "results": 0
+          },
+          {
+            "interface": "project QMD local lexical search; five-result limit; no reranker",
+            "query": "Mary Macleod",
+            "results": 0
+          }
+        ],
+        "scope": "Current full catalogue rows plus direct current Glasgow-1351 and Glasgow-3588 findings; no-hit searches are not concrete conflicts.",
+        "candidate_contexts": [
+          {
+            "provider_ids": [
+              "R_690390678"
+            ],
+            "candidate_id": "Glasgow-1351",
+            "basis": "Existing before-3-April-1796 Barony Mary, father John Glasgow-1348 and mother Helen Smith-230548, agrees with the new baptism day/couple. Nearby Mary-1353 is a distinct later account; do not propose a new person. Preserve father95% and unrelated later Thomson comparison."
+          },
+          {
+            "provider_ids": [
+              "R_686222678",
+              "R_691921324"
+            ],
+            "candidate_id": "Glasgow-3588",
+            "basis": "Existing McKenzie Glasgow, before-17-December-1734 at North Leith, agrees with the pair’s baptism day and William/Jean Love. Existing father Glasgow-3408 remains59% possible; matching the adult William to the Irvine-born Will still needs migration/identity evidence. Do not count companion derivatives as independent corroboration."
+          },
+          {
+            "provider_ids": [
+              "R_685314069"
+            ],
+            "candidate_id": "Glasgow-1416",
+            "basis": "Same Irvine baptism day22November1741 and named fatherMichael as the heldOPR; new companion names motherMaryCrauford. Compare provenance and adult maternal identity before updating the account; no automatic father/mother confidence change."
+          }
+        ]
+      }
     }
   }
 }

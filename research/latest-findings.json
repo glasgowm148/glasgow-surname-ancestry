@@ -61335,6 +61335,31 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/people/glasgow-1618.html"
+    },
+    {
+      "id": "fmp-michael-held-birth-adoption-20261030",
+      "found_on": "2026-10-30",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Michael Glasgow-1416: adopt birth 19 November 1741 from the held Irvine derivative, distinct from baptism 22 November.",
+      "qualification": "This corrects the maintained before-birth bound using an already indexed transcript; no new provider record, person or relationship discovery. Irvine remains parish context, original uninspected. Father Glasgow-1410 remains 89%; the mother and Old Bailey witness identity are not established by this entry.",
+      "people": [
+        {
+          "id": "Glasgow-1416",
+          "name": "Michael Glasgow",
+          "url": "/people/glasgow-1416.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Irvine birth and baptism, 1741; OPR 595/1, item 1, page 56",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3575088&tab=this"
+        }
+      ],
+      "source_paths": [
+        "research/Glasgow-1416/findings.md"
+      ],
+      "detail_url": "/people/glasgow-1416.html"
     }
   ]
 }
