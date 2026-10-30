@@ -111816,5 +111816,56 @@
       "Glasgow-4133": "Agnes Glasgow",
       "Wilson-127539": "Katherine Wilson"
     }
+  },
+  {
+    "assertion_id": "clm-3503b4a169ed79f6",
+    "people": [
+      "Glasgow-3163",
+      "Glasgow-1093"
+    ],
+    "claim": "per-5254ef9f59077c4d is the father of per-6731f7069fd99af5",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3163": {
+        "relationship": "father"
+      },
+      "Glasgow-1093": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "nrs-cc8-8-32-andrew-1598",
+      "glasgow-protocol-1196-1534"
+    ],
+    "provenance": {
+      "assessment_unchanged": true,
+      "original_assessment_date": "2026-10-29",
+      "review_kind": "publication_reconciliation",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-10-29",
+    "basis": "Andrew's children date c.1585–1598 (Robert a minor in 1598, unborn child provided for), placing Andrew's birth c.1545–1565 rather than 1540; John-1093's well-recorded burgh family names no Andrew, and a dense Calder Glasgow group (Hirmenschelis 1577, Croftmalloch 1580, Mureistoun 1586) offers local alternatives.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 25,
+        "assessment_date": "2026-10-29",
+        "source_basis": "Andrew's children date c.1585–1598 (Robert a minor in 1598, unborn child provided for), placing Andrew's birth c.1545–1565 rather than 1540; John-1093's well-recorded burgh family names no Andrew, and a dense Calder Glasgow group (Hirmenschelis 1577, Croftmalloch 1580, Mureistoun 1586) offers local alternatives."
+      }
+    ],
+    "reason": "Andrew's children date c.1585–1598 (Robert a minor in 1598, unborn child provided for), placing Andrew's birth c.1545–1565 rather than 1540; John-1093's well-recorded burgh family names no Andrew, and a dense Calder Glasgow group (Hirmenschelis 1577, Croftmalloch 1580, Mureistoun 1586) offers local alternatives.",
+    "limitations": "No record names Andrew's father; nothing excludes John. The children’s ages and conditional pregnancy do not establish Andrew’s birth year or exclude an older father. Publication reconciliation retains the 29 October judgement, not a new genealogical finding.",
+    "probability": {
+      "value": 0.25,
+      "reviewed": "2026-10-29",
+      "basis": "Andrew's children date c.1585–1598 (Robert a minor in 1598, unborn child provided for), placing Andrew's birth c.1545–1565 rather than 1540; John-1093's well-recorded burgh family names no Andrew, and a dense Calder Glasgow group (Hirmenschelis 1577, Croftmalloch 1580, Mureistoun 1586) offers local alternatives.",
+      "source_ids": [
+        "nrs-cc8-8-32-andrew-1598",
+        "glasgow-protocol-1196-1534"
+      ],
+      "scope": "No record names Andrew's father; nothing excludes John. The children’s ages and conditional pregnancy do not establish Andrew’s birth year or exclude an older father. Publication reconciliation retains the 29 October judgement, not a new genealogical finding."
+    }
   }
 ]

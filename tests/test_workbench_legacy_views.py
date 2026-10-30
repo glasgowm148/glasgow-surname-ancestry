@@ -22,6 +22,22 @@ class Store:
 
 
 class LegacyViewPersonTests(unittest.TestCase):
+    def test_imported_estimate_needs_approval_and_native_review_to_export_grade(self):
+        view = self.view([])
+        claim = dict(id="claim-1", origin="research", publication_status="approved",
+                     extra={"legacy_estimates": [[0, {"percent": 25}]]})
+        revision = dict(tool="genealogy.assess")
+        with patch.object(view, "claims", return_value=[claim]), \
+                patch.object(view, "revisions", return_value=[revision]), \
+                patch.object(view, "new_assessment", return_value={"status": "uncertain"}) as render:
+            self.assertEqual(view.assessments(), [{"status": "uncertain"}])
+            render.assert_called_once_with(claim, [revision])
+            claim["publication_status"] = "unreviewed"
+            self.assertEqual(view.assessments(), [])
+            claim["publication_status"] = "approved"
+            revision["tool"] = "workbench_migrate"
+            self.assertEqual(view.assessments(), [])
+
     def view(self, rows):
         with patch("tools.workbench_legacy_views.Research"):
             return Views(Store(rows))

@@ -22,7 +22,9 @@ Rules:
   value kept in its ``assessment_history``.
 * A claim reassessed through the workbench gets its derived fields (status,
   probability, dates, basis, history) from the database revisions.
-* Relationship claims created in the database after migration are appended.
+* Relationship claims created in the database after migration are appended,
+  as are explicitly approved native reassessments of imported estimate-only
+  claims. Unreviewed imports retain their original compatibility shape.
 
 ``--check`` compares the files with what the database would generate and fails
 on any difference, which catches edits made outside the database. ``--write``
@@ -145,7 +147,15 @@ class Views:
                 if not self.migrated(current):
                     row.update(self.derived_assessment(revisions, row))
                 legacy.append((extra.get("legacy_index", 0), row))
-            elif "legacy_estimates" not in extra and current is not None and self.researched_here(claim):
+            elif current is not None and (
+                    ("legacy_estimates" not in extra and self.researched_here(claim))
+                    or ("legacy_estimates" in extra
+                        and claim["publication_status"] == "approved"
+                        and not self.migrated(current))):
+                # An explicitly approved reassessment of an imported estimate
+                # also needs a structured grade. Otherwise a retained tree
+                # grade can disagree with it and hide the exact percentage.
+                # Mere migration or a private review grants no publication.
                 new.append(self.new_assessment(claim, revisions))
         return [row for _, row in sorted(legacy, key=lambda item: item[0])] + new
 
