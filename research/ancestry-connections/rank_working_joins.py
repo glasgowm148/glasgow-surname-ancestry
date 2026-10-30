@@ -10,12 +10,13 @@ Use --scope unknown for subjects with no retained named father, ranked by
 known cohort descendants; --through selects an earlier saved cohort.
 Reachable documentary roots are extra connector rows, labelled outside the
 measured population; unavailable accounts are not classified as Unknown.
-Coverage ranks the child-side branch size first; the other modes rank
-dependent connected pairs. These are separate measures of research impact.
+Default research dispatch prioritises Uncertain/Possible links, then child-side
+branch size within explicit readiness. Completed/held tests stay behind available work.
+Coverage ranks child-side size; explicit impact sorts rank connected pairs.
 Impact counts dependent connected pairs, never confidence or new genealogical joins.
 Nested link impacts overlap and must not be summed. Counts concern retained profiles,
 not independently verified unique people. Selected-only scope is retained; dispatch defaults
-to explicit research readiness followed by working impact. Unknown readiness is not a hold.
+to uncertainty, readiness and branch impact. Unknown readiness is not a hold.
 --preflight adds held evidence for a bounded shortlist (five rows unless --limit is set).
 """
 from pathlib import Path
@@ -83,12 +84,20 @@ def sort_rows(rows, order='actionable', scope='selected'):
             return (descending(row['confident_pair_gain']), descending(row['cross_pairs']), *identity)
         elif scope == 'unrated':
             impact = (descending(row['child_side']), descending(row['cross_pairs']), *identity)
+        elif order == 'actionable':
+            impact = (descending(row.get('child_side')), descending(row.get('confident_pair_gain')),
+                      descending(row['cross_pairs']), row.get('cohort_year') or float('inf'), *identity)
         else:
             impact = (descending(row['cross_pairs']), *identity)
         if order == 'actionable':
             disposition = row.get('research_state', {}).get('disposition', 'unknown')
             readiness = {'ready': 0, 'unknown': 1, 'awaiting_source': 2,
                          'reviewed_no_change': 2}.get(disposition, 1)
+            if scope not in {'unknown', 'unrated'}:
+                percent = row.get('confidence_percent')
+                uncertain = (percent < 60 if isinstance(percent, (int, float)) else
+                             (row.get('status') or row.get('public_status')) in {'uncertain', 'possible'})
+                return (readiness == 2, not uncertain, readiness, *impact)
             return (readiness, *impact)
         return impact
     rows.sort(key=key)
@@ -173,7 +182,7 @@ def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--scope",choices=["selected","all-unconfident","unrated","unknown"],default="selected",help="Selected hypotheses, all unconfident attachments, unrated named fathers, or no retained named father")
     parser.add_argument('--through',type=int,default=1850,help='Saved cohort cutoff (default:1850)')
-    parser.add_argument("--sort",choices=["actionable","working-pairs","confident-gain"],default="actionable",help="Explicit research readiness then working impact (default), working impact, or immediate confident-pair gain")
+    parser.add_argument("--sort",choices=["actionable","working-pairs","confident-gain"],default="actionable",help="Uncertain/Possible links and branch size, respecting source holds (default); or explicit working/confident pair impact")
     parser.add_argument("--preflight",action="store_true",help="Include bounded held-evidence packets; defaults to a five-row shortlist")
     parser.add_argument("--limit",type=int,help="Maximum output rows (must be positive)")
     args=parser.parse_args(argv)

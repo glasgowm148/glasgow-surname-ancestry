@@ -5,6 +5,8 @@ description: Research historical WikiTree people, assess exact father–child co
 
 # WikiTree Research
 
+- Research priority (owner correction, 30 October 2026): prioritise Unknown fathers and Uncertain/Possible father links supporting large early branches, with an attainable discriminating test. Do not use the primary queue for small percentage adjustments to already Probable links (for example 82% to 85%). Keep completed source holds out of immediate repeat work; a confidence-grade improvement must follow evidence, not the desired ranking.
+
 - Cross-chat integration (owner correction, 30 October 2026): when the owner asks to integrate all work, review completed changes and handoffs across chats and reconcile them into the shared catalogue and site. Do not exclude work merely because another chat produced it. Preserve provenance, distinguish unverified leads from findings, coordinate active edits, and stage reviewed files by explicit path.
 
 ## Working in this project (read first)

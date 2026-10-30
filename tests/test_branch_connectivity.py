@@ -527,6 +527,22 @@ class ResearchDispatchRanking(unittest.TestCase):
             'last_test': 'today: unavailable source, unchanged',
             'research_state': {'disposition': 'unreviewed'}})['disposition'], 'unknown')
 
+    def test_dispatch_prioritises_uncertain_branches_over_probable_tweaks(self):
+        import runpy
+        sort_rows = runpy.run_path('research/ancestry-connections/rank_working_joins.py')['sort_rows']
+        def row(child, percent, size, pairs, disposition='ready'):
+            return dict(child=child, father='father', confidence_percent=percent,
+                        child_side=size, cross_pairs=pairs, confident_pair_gain=size,
+                        research_state={'disposition': disposition})
+        rows = [row('probable', 85, 1000, 100000), row('small-uncertain', 23, 2, 2000),
+                row('large-possible', 45, 10, 100),
+                row('held-uncertain', 17, 10000, 200000, 'awaiting_source')]
+        sort_rows(rows, scope='all-unconfident')
+        self.assertEqual([r['child'] for r in rows],
+                         ['large-possible', 'small-uncertain', 'probable', 'held-uncertain'])
+        sort_rows(rows, 'working-pairs', 'all-unconfident')
+        self.assertEqual(rows[0]['child'], 'held-uncertain')
+
 
 if __name__ == "__main__":
     unittest.main()
