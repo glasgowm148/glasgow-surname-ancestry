@@ -232,3 +232,9 @@ Role in this account: Compatible adult father-profile comparison for named Jhone
 
 [Current shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). These are reused September transcripts, not new provider captures. Source-defined child identities, adult-profile comparisons and unresolved birth-surname scope remain separate. Original register images were not inspected in this batch; existing relationship grades and family attachments are retained.
 <!-- END FMP-CACHED65-20261023 -->
+
+## Additional original account reading — 30 October 2026
+
+The supplied CC14/5/5 image 65 debt passage names the goods of **umquhile Thomas Glasgow in Quodquane**, meaning Thomas was already deceased by the 1650 account. [The consolidated Thomas account](/people/record-thomas-quothquan-1650.html) retains existing identity candidates. The preceding actor/obligation clause is incompletely read: John is not securely identified as Thomas’s heir, administrator or relative. The other Glasgow abbreviation is **W[?]**, not a securely identified William. No source amount or family degree is supplied from unread ink.
+
+This freshly inspected fragment adds an early documentary subject, not a father upgrade or a newly discovered separate testament. John’s selected Stephen hypothesis remains 22%; William’s selected John-3296 father remains 46%. Bessie’s 99%sibling role is unchanged. The full accounts and cautioner remain unfinished. [Source reading](/research/transcriptions/john-lanark-1650/).

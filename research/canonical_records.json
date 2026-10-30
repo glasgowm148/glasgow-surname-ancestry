@@ -2855,8 +2855,8 @@
     "place": "Quothquan, Libberton, Lanarkshire",
     "source_title": "NRS CC14/5/5, images 65–66; confirmation 27 May 1650; checked selected original reading",
     "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
-    "status": "Maintained checked original-image reading reused; no new image inspection in this review.",
-    "note": "Image 65 names Bessie Glasgow his lawful sister. Image 66 appoints Bessie Glasgow in Quodquen executrix dative to John Glasgow her brother. The exact sibling roles are documented; no father, mother or child is named. John’s Mid Calder/Montfoid identities and Stephen parent hypothesis are separate. Reading: research/transcriptions/originals-2026-09-10-reread/john-lanark-1650.json.",
+    "status": "Checked partial original-image debt reading, 30 October 2026; earlier sibling reading retained. Actor clause and Thomas identity unresolved.",
+    "note": "Original images 65–66 confirm Bessie as John’s lawful sister and executrix. Additional image 65 debt wording reads “guidis and geir of umqle Thomas Glasgw in Quodquane”: Thomas is already deceased, but no exact death date or relationship to John is supplied. The preceding actor clause is incompletely read; do not identify John as Thomas’s heir or executor. Another Glasgow name is preceded by W[?], perhaps an abbreviation, not securely expanded or assigned. An associate is provisionally read Issobell Justice in Glaidstaines. The full accounts and cautioner remain unfinished. No father, mother or child relationship is established. Earlier Mid Calder/Montfoid identities and Stephen father hypothesis remain separate.",
     "profiles": {
       "Glasgow-3296": {
         "role": "The 1650 Quothquan testator; earlier adult identities separately uncertain"
@@ -2865,6 +2865,11 @@
         "role": "Named lawful sister and executrix; documentary account, no candidate profile identification",
         "timeline_group": "Family records",
         "assessment": "proved"
+      },
+      "record-thomas-quothquan-1650": {
+        "role": "Already deceased Thomas, whose goods are mentioned in the account; identity among existing Thomases unresolved; no kinship asserted",
+        "timeline_group": "Original estate-account mention",
+        "assessment": "documented occurrence; identity HOLD"
       }
     },
     "assessment_history": [
@@ -2887,7 +2892,19 @@
         },
         "basis": "Prior metadata retained before scoped source and relationship integration."
       }
-    ]
+    ],
+    "review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "previous_note": "Image 65 names Bessie Glasgow his lawful sister. Image 66 appoints Bessie Glasgow in Quodquen executrix dative to John Glasgow her brother. The exact sibling roles are documented; no father, mother or child is named. John’s Mid Calder/Montfoid identities and Stephen parent hypothesis are separate. Reading: research/transcriptions/originals-2026-09-10-reread/john-lanark-1650.json.",
+        "reason": "Additional original debt fragment now read; kinship conclusions unchanged."
+      }
+    ],
+    "reviewed_on": "2026-10-30",
+    "provenance": {
+      "review": "Additional partial debt reading of held original CC14/5/5 image 65; account confirmed 27 May 1650. Actor clause unresolved; no kinship inference.",
+      "reading": "research/transcriptions/originals-2026-09-10-reread/john-lanark-1650.json"
+    }
   },
   {
     "record_id": "pyperheugh-matthew-spouse-testament-1665",

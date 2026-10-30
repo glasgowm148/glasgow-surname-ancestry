@@ -5,6 +5,8 @@ description: Research historical WikiTree people, assess exact father–child co
 
 # WikiTree Research
 
+- Cross-chat integration (owner correction, 30 October 2026): when the owner asks to integrate all work, review completed changes and handoffs across chats and reconcile them into the shared catalogue and site. Do not exclude work merely because another chat produced it. Preserve provenance, distinguish unverified leads from findings, coordinate active edits, and stage reviewed files by explicit path.
+
 ## Working in this project (read first)
 
 **Where research is saved.** The research database `data/private/workbench/glasgow.sqlite` is the authority. Record changes through the workbench, never by editing the generated files:

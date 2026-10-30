@@ -95,6 +95,12 @@ def profile_links(profiles):
     links = []
     for ident, label in profiles:
         local = f"/people/{ident.lower()}.html"
+        if ident.startswith("record-"):
+            if (WEB / local.lstrip("/")).is_file():
+                links.append(f'<span><a href="{e(local)}">{e(label)}</a> (record-defined account)</span>')
+            else:
+                links.append(f'<span>{e(label)} (record-defined identity unresolved)</span>')
+            continue
         wiki = f"https://www.wikitree.com/wiki/{ident}"
         if (WEB / local.lstrip("/")).is_file():
             links.append(f'<span><a href="{e(local)}">{e(label)}</a> '

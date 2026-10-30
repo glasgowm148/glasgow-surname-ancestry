@@ -6,6 +6,12 @@ Reviewed 22 October 2026. Hugh Glasgow-1056’s father John-1057 is now **74% pr
 
 The maintained father assessment below reviews the existing selected relationship; other identities retain their prior qualifications.
 
+## Secondary-account source locator clarified — 30 October 2026
+
+The held Elaine Comes quotation in [Agnes Spark's account](/people/spark-330.html#research-findings) cites the [Snoddy family page](https://www.oocities.org/graal1/surnames/snoddy.html). An exact-source web search recovered its indexed paragraph under John Snoddy and Agnes Glasgow, attributing Hugh and William's brotherhood and their John Glasgow/Agnes Spark parents to Elaine. The nearby LDS locator **Batch C115952; Input 2326; printout 1041383** concerns **Agnes's Irvine birth**, not Hugh's parentage or the brothers' relationship. The page's general bibliography cannot be reassigned as the source for Elaine's statement without an explicit connection.
+
+The full page fetch timed out or returned a cache miss; this review used the held quotation and recovered search-index excerpt, not an original record or a newly inspected complete transcription. The father assessment remains **74% probable**. Next inspect the saved page's exact paragraph and footnote anchors for a specifically attached source, image or correspondence; otherwise seek an identifying Hugh/Janet marriage, apprenticeship, inheritance, tenancy or kirk-session record. Another copy of the same statement or a repeated broken-link check supplies no independent evidence. No contact with contributors or family attachment follows.
+
 ## Father confidence review — 22 October 2026
 
 [Glasgow-1057](https://www.wikitree.com/wiki/Glasgow-1057) remains the selected father, assessed **58% (possible)**. Previous selected-tree status: **confident**, without an individual percentage.

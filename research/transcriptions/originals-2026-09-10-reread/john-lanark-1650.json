@@ -3,7 +3,7 @@
   "title": "John Glasgow of Quothquan: testament and confirmation, 1650",
   "record": "National Records of Scotland, Lanark Commissary Court, CC14/5/5, images 65-66; indexed 27 May 1650",
   "date": "1650-05-27",
-  "reviewed_at": "2026-09-10",
+  "reviewed_at": "2026-10-30",
   "index_confirmation": {
     "status": "confirmed_by_index",
     "source": "User-supplied ScotlandsPeople index excerpt",
@@ -26,7 +26,7 @@
     "Image 65: John's opening, inventory and first debts; the preceding record above John's opening is excluded",
     "Image 66: continuation of John's debts, totals and confirmation; its upper account belongs to John"
   ],
-  "coverage": "Both register images 65-66 are supplied. The opening, sister clause and continuity of the debts were visually checked against the nested PDF and original images. The existing detailed reading desk concentrates on the confirmation on image 66; a full diplomatic transcription of the opening and accounts remains unfinished.",
+  "coverage": "Both register images 65–66 are supplied. The opening kin clauses and selected additional debt fragments have been visually checked. This remains a partial reading: the complete actor/obligation wording, account names and figures, and cautioner are not fully transcribed.",
   "provenance": {
     "previous_review": "research/transcriptions/originals-2026-09-10/john-lanark-1650.json",
     "walkthrough": "research/transcriptions/walkthroughs/john-lanark-1650.json",
@@ -61,6 +61,17 @@
         "[name of cautioner illegible] personallie present [security formula]",
         "[closing procurator and instrument clause; personal name illegible]"
       ]
+    },
+    {
+      "page": "Image 65, additional debt fragments reviewed 30 October 2026",
+      "lines": [
+        "[Within the debts owed to the deceased John; not a continuous transcription.]",
+        "... guidis and geir of umqle Thomas Glasgw in Quodquane ...",
+        "[Thomas is deceased. The preceding actor clause is not securely transcribed; it may concern heirs/intromitters, but their identities and John’s exact capacity remain unresolved.]",
+        "Item be W[?] Glasgw ... [abbreviation not expanded; no William profile assigned]",
+        "Item be Issobell Justice in Glaidstaines ... [name/locality provisional; amounts unread]"
+      ],
+      "reading_scope": "Independent readings agree on deceased Thomas’s name and Quodquane designation. Other fragments retain separate uncertainty; no parent, child or additional sibling role is read."
     }
   ],
   "plain_english": [
@@ -68,7 +79,8 @@
     "James Carmichael acts as commissary of Lanark in the court confirmation.",
     "Bessie Glasgow in Quothquan is confirmed as executor dative of the late John Glasgow and the document expressly calls John her brother.",
     "The sibling wording is direct kinship evidence. Carmichael's office and the unread caution/procurator clauses are administrative, not family evidence.",
-    "The opening is supplied on image 65 in the nested PDF and opening crop. John's debts continue at the top of image 66. These are available originals, not missing pages; full word-by-word transcription remains unfinished."
+    "The opening is supplied on image 65 in the nested PDF and opening crop. John's debts continue at the top of image 66. These are available originals, not missing pages; full word-by-word transcription remains unfinished.",
+    "A further debt/accounting passage names goods of the late Thomas Glasgow in Quothquan. This records Thomas as already deceased by the account, not as living in 1650 or dying on the confirmation date. It does not securely show whether John administered or inherited his estate, or whether they were related."
   ],
   "findings": [
     "Image 65 supplies the original sister clause, Bessie Glasgow ... his lawfull sister. This supports the same sibling relationship expressed as hir brother in the confirmation; both clauses belong to one testament.",
@@ -76,7 +88,8 @@
     "Confirmed: John and Bessie are siblings and both are associated in this instrument with Quodquen/Quothquan.",
     "Confirmed: James Carmichael is commissary of Lanark; the record does not describe him as kin.",
     "Unresolved after reread: the cautioner's name, the closing procurator's name, and Bessie's marital status or any designation beyond Quodquen.",
-    "The 1650 John is a distinct record-defined person from the 1661/1662 and 1685 Johns; shared name and locality do not merge them."
+    "The 1650 John is a distinct record-defined person from the 1661/1662 and 1685 Johns; shared name and locality do not merge them.",
+    "Newly incorporated 30 October 2026: Thomas Glasgow in Quodquane is named with the deceased contraction umqle. One record-defined identity-HOLD account consolidates the occurrence; existing Thomas profiles remain candidates. The W[?]Glasgow abbreviation is not expanded into an identified William."
   ],
   "changes_from_previous": [
     "No family conclusion changed: the explicit brother clause and Bessie's executor-dative role are reconfirmed at high confidence.",
@@ -84,22 +97,26 @@
     "Images 65-66 are both supplied; image 65 contains the opening and inventory, while image 66 continues John's debts and confirmation. Full word-by-word transcription remains unfinished."
   ],
   "unresolved": [
-    "Image 65: testament opening, death wording, inventory, debts, and original nomination or appointment",
-    "Bessie Glasgow's marital status and any additional designation",
-    "The cautioner's name and the closing procurator's name",
-    "Any parents or additional siblings of John and Bessie"
+    "Complete actor/obligation clause around Thomas’s goods and the identity of those owing the debt",
+    "The W[?]Glasgow abbreviation, remaining account names/amounts and cautioner",
+    "Thomas’s individual identity and any relationship to John; no parent/sibling role is established",
+    "Remaining opening/inventory wording and Bessie’s marital status"
   ],
   "profiles": [
     [
       "Glasgow-3296",
       "John Glasgow of Quothquan; this 1650 testament is the record-specific match"
+    ],
+    [
+      "record-thomas-quothquan-1650",
+      "Thomas Glasgow of Quothquan; deceased estate-context subject, individual identity HOLD, no kinship read"
     ]
   ],
   "confidence_statement": "High for John and Bessie's names, their explicit sibling relationship, and the presence and continuity of images 65-66. The opening reads testament dative and inventar and calls Bessie his lawfull sister. The confirmation's administrative names retain their existing qualifications. The indexed confirmation date is 27 May 1650; precise date wording, full opening transcription and account details still need deliberate transcription.",
   "reviewer": "Codex fresh original-image name, role, and locality audit",
   "source_availability": {
-    "checked_on": "2026-09-10",
-    "method": "Astra xhigh visual inspection of both PDF pages, the opening crop and the separate image 66; recursive supplied-file inventory",
+    "checked_on": "2026-10-30",
+    "method": "Original supplied image65 and image66 viewed; untouched viewport crops inspected by two independent model readings, without enhancing or generating ink.",
     "supplied_register_images": [
       65,
       66
@@ -111,6 +128,7 @@
     ],
     "opening": "Image 65 contains the opening, inventory and first debts. The PNG is a 1194 by 1032 pixel crop of that entry, not a separate missing page.",
     "continuation": "John's debts continue at the top of image 66, followed by totals and confirmation. The top of image 66 is not a preceding testament.",
-    "reading_status": "Opening identity, sister clause, document type and record continuity visually checked; a full diplomatic transcription of the opening and accounts remains unfinished."
+    "reading_status": "Partial reading extended to the deceased Thomas account fragment. Complete diplomatic accounts/cautioner remain unfinished.",
+    "previous_method": "Astra xhigh visual inspection of both PDF pages, the opening crop and the separate image 66; recursive supplied-file inventory"
   }
 }

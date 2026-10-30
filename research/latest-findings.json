@@ -63155,6 +63155,42 @@
           "url": "https://www.johngrenham.com/dcla/freemen/about.php"
         }
       ]
+    },
+    {
+      "id": "quothquan-thomas-deceased-1650-20261030",
+      "found_on": "2026-10-30",
+      "reviewed_on": "2026-10-30",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A newly read debt fragment in John Glasgow’s 1650 testament names the goods of the late Thomas Glasgow in Quodquane. One consolidated identity-HOLD account links the existing candidates; no new distinct person, father or sibling is asserted.",
+      "qualification": "Thomas is already deceased, not proved to be living or dying in 1650. The preceding actor/obligation clause is incompletely read; John’s heirship, administration and any family degree are unproved. W[?]Glasgow remains unexpanded. This is an additional reading of a held original, not another testament or independent witness.",
+      "detail_url": "/people/record-thomas-quothquan-1650.html",
+      "people": [
+        {
+          "id": "record-thomas-quothquan-1650",
+          "name": "Thomas Glasgow of Quothquan",
+          "url": "/people/record-thomas-quothquan-1650.html",
+          "role": "Named deceased estate-context subject; individual identity unresolved"
+        },
+        {
+          "id": "Glasgow-3296",
+          "name": "John Glasgow of Quothquan",
+          "url": "/people/glasgow-3296.html",
+          "role": "1650 testator; relationship to Thomas not established"
+        },
+        {
+          "id": "Glasgow-1087",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1087.html",
+          "role": "Existing 46%father placement unchanged; not identified with W[?]"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NRS Lanark Commissary Court CC14/5/5, John Glasgow testament, image 65, confirmed 27 May 1650; supplied original inspected",
+          "url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+        }
+      ]
     }
   ]
 }

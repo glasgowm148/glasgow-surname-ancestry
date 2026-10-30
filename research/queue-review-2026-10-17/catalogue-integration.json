@@ -7755,12 +7755,12 @@
       "preservation_review_path": "research/queue-review-2026-10-17/robert-brash-preservation.json"
     },
     "Glasgow-3296": {
-      "queued_at": "2026-10-18",
+      "queued_at": "2026-10-30",
       "status": "OPEN",
       "significance": 70,
-      "summary": "The former selected father route to Easter Newtoun John-3610 remains an unselected uncertain alternative, 28%; James-991 is preferred at 40%. His own uncertain Stephen father, 22%, and proved sister Bessie, 99%, are unchanged. Preserve all record detail and earlier qualified alternatives.",
-      "draft_path": "research/Glasgow-3296/easter-newton-origin-2026-10-18.wiki",
-      "preservation_review_path": "research/ancestry-connections/easter-newton-working-ancestry-preservation-2026-10-18.json",
+      "summary": "Add newly read deceased Thomas in the estate-account context; retain all father/sibling grades and actor/identity limits.",
+      "draft_path": "research/Glasgow-3296/quothquan-account-2026-10-30.wiki",
+      "preservation_review_path": "research/ancestry-connections/quothquan-1650-preservation-2026-10-30.json",
       "relationship_changes": [
         {
           "action": "add",
@@ -7771,10 +7771,10 @@
         }
       ],
       "profile_id": "Glasgow-3296",
-      "biography_rechecked_at": "2026-10-18",
+      "biography_rechecked_at": "2026-10-30",
       "pending": true,
       "manual_update": true,
-      "work_queue_summary": "The former selected father route to Easter Newtoun John-3610 remains an unselected uncertain alternative, 28%; James-991 is preferred at 40%. His own uncertain Stephen father, 22%, and proved sister Bessie, 99%, are unchanged.",
+      "work_queue_summary": "Add newly read deceased Thomas in the estate-account context; retain all father/sibling grades and actor/identity limits.",
       "findings_path": "research/Glasgow-3296/findings.md",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
@@ -45950,6 +45950,75 @@
           "name": "Glasgow-3861 — possible candidate; unresolved",
           "url": "https://www.wikitree.com/wiki/Glasgow-3861",
           "assessment": "Sparse Scottish record reference, with register type and year unresolved. Undated spouse assertions do not establish later survival; no underlying parent clause inspected. Retained for original-source comparison, not accepted as this infant."
+        }
+      ]
+    },
+    {
+      "subject_id": "thomas-quothquan-1650",
+      "catalogue_id": "record-thomas-quothquan-1650",
+      "name": "Thomas Glasgow of Quothquan, deceased by 1650",
+      "source_subject_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+      "research_subject_url": "/people/record-thomas-quothquan-1650.html",
+      "draft_path": "research/record-thomas-quothquan-1650/quothquan-thomas-1650.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\n'''Thomas Glasgow''' was named as already deceased in the account of [[Glasgow-3296|John Glasgow]] of Quodquane, now Quothquan in Lanarkshire. John’s testament dative and inventory were confirmed on 27 May 1650. The debt passage names “guidis and geir of umqle Thomas Glasgw in Quodquane”—goods and belongings of the late Thomas Glasgow.<ref name=\"John 1650\">National Records of Scotland, Lanark Commissary Court, John Glasgow in Quodquane, testament dative and inventory confirmed 27 May 1650, CC14/5/5, register images 65–66, especially image 65 debt passage; [https://www.scotlandspeople.gov.uk/search-records/legal-records/wills Scotland’s People wills search]. Supplied original images visually reviewed 30 October 2026. The additional fragment is not a complete diplomatic transcription.</ref>\n\nThe phrase establishes that Thomas was dead by the account. It gives no exact death date, age, birthplace, death place, spouse, parents or children. Quothquan is the designation in the document, not a proved birthplace or place of death.<ref name=\"John 1650\" />\n\n== Research Notes ==\nThis is a record-defined identity-HOLD account, not a claim that a new distinct person or new WikiTree profile is necessary. The surrounding actor and obligation wording remains incompletely read. John is not thereby Thomas’s heir, executor, son or brother. John’s documented sister Bessie does not automatically become Thomas’s sister. No relationship is attached.<ref name=\"John 1650\" />\n\n=== Existing identities ===\n* [[Glasgow-1103|Thomas Glasgow, combined Glasgow/Inveresk/Linlithgow account]]: The 1612 child and pre 1650 adult households permit the generation; no Quothquan link. The circa 1675 death is unsupported dating, not a secure exclusion.\n* [[Glasgow-2461|Thomas Glasgow, Inveresk child 1637]]: About 12–13 in 1650; weak for an adult role, but an estate/account mention supplies no age and youth does not exclude inherited property.\n* [[Glasgow-3187|Thomas Glasgow, Edinburgh merchant]]: The 1643 merchant/Catharine Weir household remains possible if its probable identification with the living 1660 burgess is wrong. The 1660 record-defined burgess cannot already be deceased by 1650.\n\nThe three existing profile comparisons are unselected. The Carnwath Thomas named at Quothquan in 1527/28 is an earlier local comparison, not an excluded man merely from elapsed time: the 1650 passage refers to a deceased person and could in principle concern an older estate. No title/debt continuity across 122 years is established. [[Glasgow-3943|Thomas-3943]], the actual 1725 Dublin burial subject; [[Glasgow-3176|Thomas-3176]], the actual 1886 Calton death subject; and [[Glasgow-3413|Thomas-3413]], the actual 1670 graduate, conflict with a prior death by 1650. The unsourced circa 1650 Virginia childhood of [[Glasgow-1527|Thomas-1527]] supplies no affirmative match; no age or adult identity is inferred from it.\n\nThe other Glasgow abbreviation in the debt list remains W[?]; it is not securely expanded to William or assigned to [[Glasgow-1087|William Glasgow]]. No amount, exchange or family degree is invented from unread wording.\n\n== Sources ==\n<references />\n",
+      "assessment": "Deceased Thomas is directly named in the 1650 estate-account passage; identity among existing profiles is unresolved. This is not a new distinct-person or kinship assertion. John’s administration/heirship is not securely read.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-30",
+      "first_names": [
+        "Thomas"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "",
+      "birth": "",
+      "death": "by 27 May 1650",
+      "birth_location": "",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1650,
+        "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills"
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1103",
+          "name": "Thomas Glasgow, combined Glasgow/Inveresk/Linlithgow account",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1103",
+          "status": "compatible_candidate",
+          "reason": "The 1612 child and pre 1650 adult households permit the generation; no Quothquan link. The circa 1675 death is unsupported dating, not a secure exclusion."
+        },
+        {
+          "profile_id": "Glasgow-2461",
+          "name": "Thomas Glasgow, Inveresk child 1637",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2461",
+          "status": "weaker_candidate",
+          "reason": "About 12–13 in 1650; weak for an adult role, but an estate/account mention supplies no age and youth does not exclude inherited property."
+        },
+        {
+          "profile_id": "Glasgow-3187",
+          "name": "Thomas Glasgow, Edinburgh merchant",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3187",
+          "status": "compatible_candidate",
+          "reason": "The 1643 merchant/Catharine Weir household remains possible if its probable identification with the living 1660 burgess is wrong. The 1660 record-defined burgess cannot already be deceased by 1650."
+        }
+      ],
+      "records": [
+        {
+          "year": "1650-05-27",
+          "filter_year": 1650,
+          "family_group": "Quothquan estate-account occurrences, family degree unresolved",
+          "region": "Lanarkshire, Scotland",
+          "record_location": "Quothquan, Libberton, Lanarkshire, Scotland",
+          "association": "The goods of deceased Thomas Glasgow in Quodquane are mentioned within John Glasgow’s 1650 estate account; Thomas is not the testator of a newly found testament.",
+          "note": "Original image 65 fragment reviewed 30 October 2026; preceding actor clause incomplete, no kinship or exact death date.",
+          "source_title": "NRS CC14/5/5, John Glasgow 1650 testament, image 65 debt passage",
+          "source_url": "https://www.scotlandspeople.gov.uk/search-records/legal-records/wills",
+          "source_type": "Original manuscript; selected fragment visually checked",
+          "source_status": "Documented occurrence; individual identity HOLD",
+          "evidence": "Named deceased Thomas, not an identified father or sibling",
+          "record_precision": "Recorded designation",
+          "location_basis": "Quodquane is the source designation, not a birth/death place."
         }
       ]
     }

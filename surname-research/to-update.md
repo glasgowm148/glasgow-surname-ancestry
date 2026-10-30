@@ -4490,3 +4490,8 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Glasgow-2878](https://www.wikitree.com/wiki/Glasgow-2878) | OPEN | Add the preferred 94% Whitebank trial identification and retain source/transportation limits. |
 | [Glasgow-1466](https://www.wikitree.com/wiki/Glasgow-1466) | OPEN | Qualify the Bathgate trial comparison: the Whitebank memorial Peter is preferred at94%; preserve father79% and all unrelated family conclusions. |
 | [Anderson-83920](https://www.wikitree.com/wiki/Anderson-83920) | OPEN | Add the preferred 94% Whitebank trial identification and retain source/transportation limits. |
+
+## 30 October 2026 — Quothquan estate-account reading
+
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3296) | OPEN | Add the newly read deceased Thomas estate-context mention; no kinship or father-grade change. |
+| [Thomas Glasgow, record-defined account](/people/record-thomas-quothquan-1650.html) | HOLD | Complete sourced draft and compatible identities; do not create or merge until identity is resolved. |
