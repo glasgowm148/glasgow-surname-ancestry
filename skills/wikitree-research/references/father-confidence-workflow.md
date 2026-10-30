@@ -23,7 +23,7 @@ For known IDs, read the maintained file directly or use bounded QMD `get`, for e
 
 ## Assess the complete relationship
 
-Compare chronology, actual versus estimated dates, residences, occupations, spouses, siblings, associates and property together. Check compatible existing profiles before creating anyone. Missing fields or absent corroboration do not exclude a candidate. Preserve alternatives with concrete reasons.
+Compare chronology, actual versus estimated dates, residences, occupations, spouses, siblings, associates and property together. Before treating different counties as an identity objection, inspect the selected parent’s and siblings’ cited marriage, migration and property records; a birthplace is not lifelong residence. A deed’s heir group can support confident parenthood by combined family identification, but heirs may include spouses or other relatives: do not rewrite heirship as a literal son/daughter clause. Check compatible existing profiles before creating anyone. Missing fields or absent corroboration do not exclude a candidate. Preserve alternatives with concrete reasons.
 
 Before retrieving an original, search the shared catalogue and held notes by its distinctive date, place, archival reference and named kin, beyond the selected profile IDs. Another profile may already hold its inspected original or a competing identity. Reuse that reading and compare the accounts before a new lookup. Apply an explicit family account consistently across its named siblings; an older tree-only percentage must not silently override a subsequently inspected parent statement. Keep retrospective family roles separate from unproved vital dates, migration and later identities.
 

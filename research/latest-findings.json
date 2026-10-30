@@ -63225,6 +63225,207 @@
         "research/Glasgow-2769/findings.md",
         "research/Glasgow-2304/findings.md"
       ]
+    },
+    {
+      "id": "elijah-isaac-weakley-heirs-1851-20261030",
+      "found_on": "2026-10-30",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Elijah’s father 36% → 97% confident inference from the original 1851 heirship deed. Eight other existing father-profile assessments also become confident: one source identifies the family through named coheirs, including a single W.P.M. heir represented by two possible duplicate profiles.",
+      "qualification": "Direct heirship is distinguished from inferred biological fatherhood; husbands are among the grantors. Nine profile-pair improvements concern eight likely children because Glasgow-116 and Glasgow-2613 may be one W.P.M. heir. No merge or new attachment. Francis-115’s initialled comparison and Susan-120’s adult identity remain open with their prior grades, as do absent Elias-118’s parentage and all mothers/vitals. The original deed was read; marriage is an index and obituary a published abstract.",
+      "people": [
+        {
+          "id": "Glasgow-108",
+          "name": "Elijah Glasgow",
+          "role": "Existing father confidence 36% → 97%; no new attachment",
+          "url": "/people/glasgow-108.html"
+        },
+        {
+          "id": "Glascow-14",
+          "name": "Isaac Glasgow",
+          "role": "Deceased titleholder named in the deed; existing selected father",
+          "url": "/people/glascow-14.html"
+        },
+        {
+          "id": "Glasgow-124",
+          "name": "William Cooper Glasgow",
+          "role": "Existing father confidence improved; William C. Glasgow",
+          "url": "/people/glasgow-124.html"
+        },
+        {
+          "id": "Glasgow-123",
+          "name": "Wagstaff Kennedy Glasgow",
+          "role": "Existing father confidence improved; Wagstaff K. Glasgow",
+          "url": "/people/glasgow-123.html"
+        },
+        {
+          "id": "Glasgow-122",
+          "name": "John Green Glasgow",
+          "role": "Existing father confidence improved; John G. Glasgow",
+          "url": "/people/glasgow-122.html"
+        },
+        {
+          "id": "Glasgow-121",
+          "name": "Joseph Dorris Glasgow",
+          "role": "Existing father confidence improved; Joseph D. Glasgow",
+          "url": "/people/glasgow-121.html"
+        },
+        {
+          "id": "Glasgow-119",
+          "name": "Jesse Glasgow",
+          "role": "Existing father confidence improved; Jesse Glasgow",
+          "url": "/people/glasgow-119.html"
+        },
+        {
+          "id": "Glasgow-60",
+          "name": "Dosha Ann Rebecca (Glasgow) Adams",
+          "role": "Existing father confidence improved; Dasha A.R. Adams",
+          "url": "/people/glasgow-60.html"
+        },
+        {
+          "id": "Glasgow-116",
+          "name": "Wylie Parsons M Glasgow",
+          "role": "Existing father confidence improved; W.P.M. Glasgow",
+          "url": "/people/glasgow-116.html"
+        },
+        {
+          "id": "Glasgow-2613",
+          "name": "Wiley Parsons Mangrum Glasgow",
+          "role": "Existing father confidence improved; W.P.M. Glasgow",
+          "url": "/people/glasgow-2613.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Original Weakley deed,20 February 1851, pp. 410–411, DGS 008151469 image 213",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKJ-RS12-5"
+        },
+        {
+          "title": "Previously cited Wake marriage index,7 September 1812",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:F8TM-BLQ"
+        },
+        {
+          "title": "Isaac obituary abstract, notice 27 October 1848, Smith abstract p. 54",
+          "url": "https://tngenweb.org/records/davidson/obits/nca/nca47-08.htm"
+        }
+      ],
+      "detail_url": "/people/glasgow-108.html#research-findings",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-108",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "possible",
+          "after": "certain",
+          "previous_probability_percent": 36,
+          "probability_percent": 97,
+          "explanation": "The original Weakley deed names Elijah Glasgow among the heirs of deceased Isaac Glasgow, conveying land originally surveyed in Isaac’s name. Its numerous coheirs match the existing Isaac family: William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with additional initialled Glasgow heirs and the Coffe and Adams couples. This dense family-group match identifies the inherited Elijah–Isaac pair much more securely than birth estimates alone. The already cited 1812 Wake marriage of Isaac Glascoe and Dosha Kanaday removes the former Wake-versus-Currituck objection; the published abstract of Isaac’s 1848 obituary independently reports Currituck origin and migration to Weakley in 1826. Together these support 97% confident fatherhood inference.",
+          "previous_status_provenance": "Saved individually reviewed 36% possible father assessment of 22 October 2026, current before this batch; actual database revision history retained. Existing attachment, not first-time grading."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-124",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 68,
+          "probability_percent": 96,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The opening names William C.; the existing William Cooper account belongs to this exact sibling group. Cooper is a profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 68% probable assessment current before this batch, reviewed 2026-10-22; database revision history retained. Existing selected father, not a first rating or new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-123",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 62,
+          "probability_percent": 97,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands the distinctive Wagstaff K. name, agreeing with the existing Weakley family and independently held cemetery context. No birthday discrepancy is silently resolved. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 62% probable assessment current before this batch, reviewed 2026-10-29; database revision history retained. Existing selected father, not a first rating or new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-122",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 63,
+          "probability_percent": 96,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands J.G. to John G.; this matches the specific inherited family group. Green is the existing profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 63% probable assessment current before this batch, reviewed 2026-10-22; database revision history retained. Existing selected father, not a first rating or new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-121",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 84,
+          "probability_percent": 96,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands J.D. to Joseph D. within the same distinctive family group. Dorris is the existing profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 84% probable assessment current before this batch, reviewed 2026-10-22; database revision history retained. Existing selected father, not a first rating or new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-119",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 65,
+          "probability_percent": 95,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. Jesse is named in both the opening and acknowledgment. His common given name is identified through the dense matching family group, not the name alone. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 65% probable assessment current before this batch, reviewed 2026-10-22; database revision history retained. Existing selected father, not a first rating or new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-60",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 76,
+          "probability_percent": 96,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment identifies Dasha A.R. as George W. Adams’s wife. The uncommon name, initials and husband match the existing Dosha Ann Rebecca and George Washington Adams couple, strengthening her identity within Isaac’s family. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 76% probable assessment current before this batch, reviewed 2026-10-29; database revision history retained. Existing selected father, not a first rating or new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-116",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 83,
+          "probability_percent": 94,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The one W.P.M. heir fits this distinctive name and family. Glasgow-116 and Glasgow-2613 have the same recorded 22 June 1829 birth and 1910 death and remain possible duplicate accounts of that one heir; no second son or merge is asserted. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 83% probable assessment current before this batch, reviewed 2026-10-22; database revision history retained. Existing selected father, not a first rating or new attachment."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2613",
+          "relative": "Glascow-14",
+          "action": "regrade",
+          "before": "probable",
+          "after": "certain",
+          "previous_probability_percent": 72,
+          "probability_percent": 94,
+          "explanation": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. This account and Glasgow-116 share the distinctive name, recorded 22 June 1829 birth and 1910 death. Both may represent the single W.P.M. heir. The assessment does not establish two biological sons or resolve their full adult biographies. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
+          "previous_status_provenance": "Saved individual 72% probable assessment current before this batch, reviewed 2026-10-22; database revision history retained. Existing selected father, not a first rating or new attachment."
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-108/findings.md",
+        "research/Glascow-14/findings.md",
+        "research/ancestry-connections/weakley-heirs-preservation-2026-10-30.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }

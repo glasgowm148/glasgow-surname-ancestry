@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-108",
+  "objective": "Resolve Elijah’s early family and distinguish the proved heirship from inferred biological parentage.",
+  "questions": [
+    {
+      "id": "father",
+      "question": "Was the selected Isaac Elijah’s father?",
+      "status": "answered",
+      "answer": "The original Weakley deed names Elijah Glasgow among the heirs of deceased Isaac Glasgow, conveying land originally surveyed in Isaac’s name. Its numerous coheirs match the existing Isaac family: William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with additional initialled Glasgow heirs and the Coffe and Adams couples. This dense family-group match identifies the inherited Elijah–Isaac pair much more securely than birth estimates alone. The already cited 1812 Wake marriage of Isaac Glascoe and Dosha Kanaday removes the former Wake-versus-Currituck objection; the published abstract of Isaac’s 1848 obituary independently reports Currituck origin and migration to Weakley in 1826. Together these support 97% confident fatherhood inference. The deed explicitly establishes heirship, not a literal son clause. Its grantor group includes spouses, so not every grantor is Isaac’s biological child. The confidence concerns Elijah and the existing Isaac family-role identification; no mother, exact vital date, or other child’s father grade is reassessed. The original obituary and marriage bond were not inspected: the obituary is a checked published abstract, and the marriage is a checked index. Other initialled heirs and possible duplicate accounts remain separate questions."
+    }
+  ],
+  "research_state": {
+    "father_id": "Glascow-14",
+    "disposition": "resolved",
+    "reviewed_on": "2026-10-30",
+    "confidence_percent": 97,
+    "last_test": "Original 1851 deed names Elijah among deceased Isaac’s heirs; matching family supports a confident fatherhood inference.",
+    "next_test": "Resolve initialled coheirs and single W.P.M. heir’s possible duplicate accounts; full estate distributions may clarify family capacities.",
+    "reopen_when": "A concrete conflicting family or identity record emerges; do not repeat generic census-age matching as an uncompleted father test."
+  }
+}

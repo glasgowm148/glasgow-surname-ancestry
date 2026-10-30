@@ -8672,29 +8672,51 @@
       "subject_id": "Glasgow-108",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 36,
-      "assessment_status": "possible",
+      "percent": 97,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022b-glasgow-108-father",
-      "basis": "Elijah’s 1815 North Carolina birth and selected Isaac’s 1786 North Carolina origin permit a29-year father generation. Their later Tennessee settings are compatible with the inherited family route, but Wake and Currituck are distinct places and no held census or vital record names Isaac as Elijah’s father.",
+      "basis": "The original Weakley deed names Elijah Glasgow among the heirs of deceased Isaac Glasgow, conveying land originally surveyed in Isaac’s name. Its numerous coheirs match the existing Isaac family: William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with additional initialled Glasgow heirs and the Coffe and Adams couples. This dense family-group match identifies the inherited Elijah–Isaac pair much more securely than birth estimates alone. The already cited 1812 Wake marriage of Isaac Glascoe and Dosha Kanaday removes the former Wake-versus-Currituck objection; the published abstract of Isaac’s 1848 obituary independently reports Currituck origin and migration to Weakley in 1826. Together these support 97% confident fatherhood inference.",
       "source_ids": [
-        "held-e-2ce1ce14c993"
+        "weakley-isaac-heirs-deed-1851",
+        "wake-isaac-dosha-marriage-1812",
+        "isaac-glasgow-obituary-1848"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible36%; the contributed attachment supplies a specific hypothesis, not a documented migration or parent clause."
+      "reviewed": "2026-10-30",
+      "scope": "The deed explicitly establishes heirship, not a literal son clause. Its grantor group includes spouses, so not every grantor is Isaac’s biological child. The confidence concerns Elijah and the existing Isaac family-role identification; no mother, exact vital date, or other child’s father grade is reassessed. The original obituary and marriage bond were not inspected: the obituary is a checked published abstract, and the marriage is a checked index. Other initialled heirs and possible duplicate accounts remain separate questions.",
+      "assessment_history": [
+        {
+          "percent": 36,
+          "assessment_status": "possible",
+          "basis": "Elijah’s 1815 North Carolina birth and selected Isaac’s 1786 North Carolina origin permit a29-year father generation. Their later Tennessee settings are compatible with the inherited family route, but Wake and Currituck are distinct places and no held census or vital record names Isaac as Elijah’s father.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-108",
       "relationship": "child",
-      "percent": 36,
-      "assessment_status": "possible",
+      "percent": 97,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022b-glasgow-108-father",
-      "basis": "Elijah’s 1815 North Carolina birth and selected Isaac’s 1786 North Carolina origin permit a29-year father generation. Their later Tennessee settings are compatible with the inherited family route, but Wake and Currituck are distinct places and no held census or vital record names Isaac as Elijah’s father.",
+      "basis": "The original Weakley deed names Elijah Glasgow among the heirs of deceased Isaac Glasgow, conveying land originally surveyed in Isaac’s name. Its numerous coheirs match the existing Isaac family: William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with additional initialled Glasgow heirs and the Coffe and Adams couples. This dense family-group match identifies the inherited Elijah–Isaac pair much more securely than birth estimates alone. The already cited 1812 Wake marriage of Isaac Glascoe and Dosha Kanaday removes the former Wake-versus-Currituck objection; the published abstract of Isaac’s 1848 obituary independently reports Currituck origin and migration to Weakley in 1826. Together these support 97% confident fatherhood inference.",
       "source_ids": [
-        "held-e-2ce1ce14c993"
+        "weakley-isaac-heirs-deed-1851",
+        "wake-isaac-dosha-marriage-1812",
+        "isaac-glasgow-obituary-1848"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible36%; the contributed attachment supplies a specific hypothesis, not a documented migration or parent clause."
+      "reviewed": "2026-10-30",
+      "scope": "The deed explicitly establishes heirship, not a literal son clause. Its grantor group includes spouses, so not every grantor is Isaac’s biological child. The confidence concerns Elijah and the existing Isaac family-role identification; no mother, exact vital date, or other child’s father grade is reassessed. The original obituary and marriage bond were not inspected: the obituary is a checked published abstract, and the marriage is a checked index. Other initialled heirs and possible duplicate accounts remain separate questions.",
+      "assessment_history": [
+        {
+          "percent": 36,
+          "assessment_status": "possible",
+          "basis": "Elijah’s 1815 North Carolina birth and selected Isaac’s 1786 North Carolina origin permit a29-year father generation. Their later Tennessee settings are compatible with the inherited family route, but Wake and Currituck are distinct places and no held census or vital record names Isaac as Elijah’s father.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1318",
@@ -11079,15 +11101,15 @@
       "subject_id": "Glasgow-123",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 62,
-      "assessment_status": "probable",
+      "percent": 97,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022c-glasgow-123-father",
-      "basis": "Old Hickory Grove Cemetery, Weakley County, Tennessee (TNGenWeb transcription): W. K. Glasgow (2 Jan 1817 – 3 May 1863) is buried with Isaac and Dosha Glasgow; the death date matches the profile and his middle name repeats the mother's surname.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands the distinctive Wagstaff K. name, agreeing with the existing Weakley family and independently held cemetery context. No birthday discrepancy is silently resolved. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-9051ec1e1328"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-29",
-      "scope": "No stone states a parent.",
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment expands the distinctive Wagstaff K. name, agreeing with the existing Weakley family and independently held cemetery context. No birthday discrepancy is silently resolved.",
       "assessment_history": [
         {
           "percent": 55,
@@ -11102,15 +11124,15 @@
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-123",
       "relationship": "child",
-      "percent": 62,
-      "assessment_status": "probable",
+      "percent": 97,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022c-glasgow-123-father",
-      "basis": "Old Hickory Grove Cemetery, Weakley County, Tennessee (TNGenWeb transcription): W. K. Glasgow (2 Jan 1817 – 3 May 1863) is buried with Isaac and Dosha Glasgow; the death date matches the profile and his middle name repeats the mother's surname.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands the distinctive Wagstaff K. name, agreeing with the existing Weakley family and independently held cemetery context. No birthday discrepancy is silently resolved. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-9051ec1e1328"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-29",
-      "scope": "No stone states a parent.",
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment expands the distinctive Wagstaff K. name, agreeing with the existing Weakley family and independently held cemetery context. No birthday discrepancy is silently resolved.",
       "assessment_history": [
         {
           "percent": 55,
@@ -11873,29 +11895,47 @@
       "subject_id": "Glasgow-121",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 84,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022d-glasgow-121-father",
-      "basis": "Joseph Dorris is specifically included in Isaac Wesley’s named child list, and his 1820 birth fits the family’s 1786 paternal generation and Tennessee chronology. The detailed family sequence supports the placement beyond a bare surname match.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands J.D. to Joseph D. within the same distinctive family group. Dorris is the existing profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-10eb1e2eb13d"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "This is a documentary-family assessment. The saved DNA-confirmed mark is retained as prior provenance; genetic sharing alone does not identify this named father. No independently transcribed parent record is held."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment expands J.D. to Joseph D. within the same distinctive family group. Dorris is the existing profile expansion, not spelled out here.",
+      "assessment_history": [
+        {
+          "percent": 84,
+          "assessment_status": "probable",
+          "basis": "Joseph Dorris is specifically included in Isaac Wesley’s named child list, and his 1820 birth fits the family’s 1786 paternal generation and Tennessee chronology. The detailed family sequence supports the placement beyond a bare surname match.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-121",
       "relationship": "child",
-      "percent": 84,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022d-glasgow-121-father",
-      "basis": "Joseph Dorris is specifically included in Isaac Wesley’s named child list, and his 1820 birth fits the family’s 1786 paternal generation and Tennessee chronology. The detailed family sequence supports the placement beyond a bare surname match.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands J.D. to Joseph D. within the same distinctive family group. Dorris is the existing profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-10eb1e2eb13d"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "This is a documentary-family assessment. The saved DNA-confirmed mark is retained as prior provenance; genetic sharing alone does not identify this named father. No independently transcribed parent record is held."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment expands J.D. to Joseph D. within the same distinctive family group. Dorris is the existing profile expansion, not spelled out here.",
+      "assessment_history": [
+        {
+          "percent": 84,
+          "assessment_status": "probable",
+          "basis": "Joseph Dorris is specifically included in Isaac Wesley’s named child list, and his 1820 birth fits the family’s 1786 paternal generation and Tennessee chronology. The detailed family sequence supports the placement beyond a bare surname match.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1235",
@@ -14261,29 +14301,47 @@
       "subject_id": "Glasgow-116",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 83,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022d-glasgow-116-father",
-      "basis": "Wylie Parsons M.’s 22 June 1829 birth and distinctive name appear in Isaac Wesley’s explicit child list, within the same Tennessee family sequence as Francis Marion. Isaac’s 1786 birth allows a feasible paternal age.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The one W.P.M. heir fits this distinctive name and family. Glasgow-116 and Glasgow-2613 have the same recorded 22 June 1829 birth and 1910 death and remain possible duplicate accounts of that one heir; no second son or merge is asserted. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-87a89bbd9097"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Probable family-account placement, without an independently quoted original parent record; no genetic result is substituted for that missing record."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The one W.P.M. heir fits this distinctive name and family. Glasgow-116 and Glasgow-2613 have the same recorded 22 June 1829 birth and 1910 death and remain possible duplicate accounts of that one heir; no second son or merge is asserted.",
+      "assessment_history": [
+        {
+          "percent": 83,
+          "assessment_status": "probable",
+          "basis": "Wylie Parsons M.’s 22 June 1829 birth and distinctive name appear in Isaac Wesley’s explicit child list, within the same Tennessee family sequence as Francis Marion. Isaac’s 1786 birth allows a feasible paternal age.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-116",
       "relationship": "child",
-      "percent": 83,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022d-glasgow-116-father",
-      "basis": "Wylie Parsons M.’s 22 June 1829 birth and distinctive name appear in Isaac Wesley’s explicit child list, within the same Tennessee family sequence as Francis Marion. Isaac’s 1786 birth allows a feasible paternal age.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The one W.P.M. heir fits this distinctive name and family. Glasgow-116 and Glasgow-2613 have the same recorded 22 June 1829 birth and 1910 death and remain possible duplicate accounts of that one heir; no second son or merge is asserted. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-87a89bbd9097"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Probable family-account placement, without an independently quoted original parent record; no genetic result is substituted for that missing record."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The one W.P.M. heir fits this distinctive name and family. Glasgow-116 and Glasgow-2613 have the same recorded 22 June 1829 birth and 1910 death and remain possible duplicate accounts of that one heir; no second son or merge is asserted.",
+      "assessment_history": [
+        {
+          "percent": 83,
+          "assessment_status": "probable",
+          "basis": "Wylie Parsons M.’s 22 June 1829 birth and distinctive name appear in Isaac Wesley’s explicit child list, within the same Tennessee family sequence as Francis Marion. Isaac’s 1786 birth allows a feasible paternal age.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1160",
@@ -28346,29 +28404,47 @@
       "subject_id": "Glasgow-124",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 68,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022h-glasgow-124-father",
-      "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; William Cooper’s 1813 Wake birth follows the marriage. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The opening names William C.; the existing William Cooper account belongs to this exact sibling group. Cooper is a profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-afa4f68d8a45"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The opening names William C.; the existing William Cooper account belongs to this exact sibling group. Cooper is a profile expansion, not spelled out here.",
+      "assessment_history": [
+        {
+          "percent": 68,
+          "assessment_status": "probable",
+          "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; William Cooper’s 1813 Wake birth follows the marriage. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-124",
       "relationship": "child",
-      "percent": 68,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022h-glasgow-124-father",
-      "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; William Cooper’s 1813 Wake birth follows the marriage. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The opening names William C.; the existing William Cooper account belongs to this exact sibling group. Cooper is a profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-afa4f68d8a45"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The opening names William C.; the existing William Cooper account belongs to this exact sibling group. Cooper is a profile expansion, not spelled out here.",
+      "assessment_history": [
+        {
+          "percent": 68,
+          "assessment_status": "probable",
+          "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; William Cooper’s 1813 Wake birth follows the marriage. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-3544",
@@ -29418,29 +29494,47 @@
       "subject_id": "Glasgow-122",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 63,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022h-glasgow-122-father",
-      "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; John Green’s 1819 Currituck birthplace differs from the Wake sequence but fits Isaac’s reported origin. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands J.G. to John G.; this matches the specific inherited family group. Green is the existing profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-1e5791ced260"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment expands J.G. to John G.; this matches the specific inherited family group. Green is the existing profile expansion, not spelled out here.",
+      "assessment_history": [
+        {
+          "percent": 63,
+          "assessment_status": "probable",
+          "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; John Green’s 1819 Currituck birthplace differs from the Wake sequence but fits Isaac’s reported origin. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-122",
       "relationship": "child",
-      "percent": 63,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022h-glasgow-122-father",
-      "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; John Green’s 1819 Currituck birthplace differs from the Wake sequence but fits Isaac’s reported origin. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment expands J.G. to John G.; this matches the specific inherited family group. Green is the existing profile expansion, not spelled out here. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-1e5791ced260"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment expands J.G. to John G.; this matches the specific inherited family group. Green is the existing profile expansion, not spelled out here.",
+      "assessment_history": [
+        {
+          "percent": 63,
+          "assessment_status": "probable",
+          "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; John Green’s 1819 Currituck birthplace differs from the Wake sequence but fits Isaac’s reported origin. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-3033",
@@ -30546,29 +30640,47 @@
       "subject_id": "Glasgow-119",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 65,
-      "assessment_status": "probable",
+      "percent": 95,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022h-glasgow-119-father",
-      "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; Jesse’s 1823 Wake birth fits, while the Illinois adult bridge is undocumented. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. Jesse is named in both the opening and acknowledgment. His common given name is identified through the dense matching family group, not the name alone. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-05d0d907fa79"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. Jesse is named in both the opening and acknowledgment. His common given name is identified through the dense matching family group, not the name alone.",
+      "assessment_history": [
+        {
+          "percent": 65,
+          "assessment_status": "probable",
+          "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; Jesse’s 1823 Wake birth fits, while the Illinois adult bridge is undocumented. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-119",
       "relationship": "child",
-      "percent": 65,
-      "assessment_status": "probable",
+      "percent": 95,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022h-glasgow-119-father",
-      "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; Jesse’s 1823 Wake birth fits, while the Illinois adult bridge is undocumented. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. Jesse is named in both the opening and acknowledgment. His common given name is identified through the dense matching family group, not the name alone. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-05d0d907fa79"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. Jesse is named in both the opening and acknowledgment. His common given name is identified through the dense matching family group, not the name alone.",
+      "assessment_history": [
+        {
+          "percent": 65,
+          "assessment_status": "probable",
+          "basis": "Isaac’s imported family list names this child, and the FamilySearch marriage index places Isaac Glascoe with Dosha Kanaday at Wake on 7 September 1812; Jesse’s 1823 Wake birth fits, while the Illinois adult bridge is undocumented. Ancestry member trees and 1830/1840 census citations do not supply a named child-parent original.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1488",
@@ -31938,29 +32050,47 @@
       "subject_id": "Glasgow-2613",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 72,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022i-glasgow-2613-father",
-      "basis": "Wiley matches the imported Wylie Parsons M child by distinctive names, 22 June 1829 birth and Arkansas death chronology. The match supports Isaac’s family placement, although the pedigree and burial citation do not supply a contemporary parent clause.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. This account and Glasgow-116 share the distinctive name, recorded 22 June 1829 birth and 1910 death. Both may represent the single W.P.M. heir. The assessment does not establish two biological sons or resolve their full adult biographies. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-543944fdc536"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. This account and Glasgow-116 share the distinctive name, recorded 22 June 1829 birth and 1910 death. Both may represent the single W.P.M. heir. The assessment does not establish two biological sons or resolve their full adult biographies.",
+      "assessment_history": [
+        {
+          "percent": 72,
+          "assessment_status": "probable",
+          "basis": "Wiley matches the imported Wylie Parsons M child by distinctive names, 22 June 1829 birth and Arkansas death chronology. The match supports Isaac’s family placement, although the pedigree and burial citation do not supply a contemporary parent clause.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-2613",
       "relationship": "child",
-      "percent": 72,
-      "assessment_status": "probable",
+      "percent": 94,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022i-glasgow-2613-father",
-      "basis": "Wiley matches the imported Wylie Parsons M child by distinctive names, 22 June 1829 birth and Arkansas death chronology. The match supports Isaac’s family placement, although the pedigree and burial citation do not supply a contemporary parent clause.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. This account and Glasgow-116 share the distinctive name, recorded 22 June 1829 birth and 1910 death. Both may represent the single W.P.M. heir. The assessment does not establish two biological sons or resolve their full adult biographies. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-543944fdc536"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected."
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. This account and Glasgow-116 share the distinctive name, recorded 22 June 1829 birth and 1910 death. Both may represent the single W.P.M. heir. The assessment does not establish two biological sons or resolve their full adult biographies.",
+      "assessment_history": [
+        {
+          "percent": 72,
+          "assessment_status": "probable",
+          "basis": "Wiley matches the imported Wylie Parsons M child by distinctive names, 22 June 1829 birth and Arkansas death chronology. The match supports Isaac’s family placement, although the pedigree and burial citation do not supply a contemporary parent clause.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1455",
@@ -32758,15 +32888,15 @@
       "subject_id": "Glasgow-60",
       "relative_id": "Glascow-14",
       "relationship": "father",
-      "percent": 76,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022i-glasgow-60-father",
-      "basis": "Her married Adams family is buried in Old Hickory Grove with Isaac and Dosha Glasgow.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment identifies Dasha A.R. as George W. Adams’s wife. The uncommon name, initials and husband match the existing Dosha Ann Rebecca and George Washington Adams couple, strengthening her identity within Isaac’s family. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-57e744319815"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-29",
-      "scope": "No parent statement.",
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment identifies Dasha A.R. as George W. Adams’s wife. The uncommon name, initials and husband match the existing Dosha Ann Rebecca and George Washington Adams couple, strengthening her identity within Isaac’s family.",
       "assessment_history": [
         {
           "percent": 74,
@@ -32781,15 +32911,15 @@
       "subject_id": "Glascow-14",
       "relative_id": "Glasgow-60",
       "relationship": "child",
-      "percent": 76,
-      "assessment_status": "probable",
+      "percent": 96,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022i-glasgow-60-father",
-      "basis": "Her married Adams family is buried in Old Hickory Grove with Isaac and Dosha Glasgow.",
+      "basis": "The original 1851 Weakley deed calls its grantors the heirs of deceased Isaac Glasgow and conveys land originally surveyed in his name. The acknowledgment identifies Dasha A.R. as George W. Adams’s wife. The uncommon name, initials and husband match the existing Dosha Ann Rebecca and George Washington Adams couple, strengthening her identity within Isaac’s family. Numerous other heirs match Isaac’s existing family, including Elijah, William C., Wagstaff K., John G., Joseph D. and Jesse Glasgow, with the Adams couple. This supports confident fatherhood by the combined specific family group, rather than a generic same-name or age match.",
       "source_ids": [
-        "held-e-57e744319815"
+        "weakley-isaac-heirs-deed-1851"
       ],
-      "reviewed": "2026-10-29",
-      "scope": "No parent statement.",
+      "reviewed": "2026-10-30",
+      "scope": "The record directly states heirship, not a literal child clause. Husbands are among the grantors and are not treated as biological children. This is a profile-specific confident inference; full middle names, vital dates, mothers and upstream ancestry are not proved by the deed. The acknowledgment identifies Dasha A.R. as George W. Adams’s wife. The uncommon name, initials and husband match the existing Dosha Ann Rebecca and George Washington Adams couple, strengthening her identity within Isaac’s family.",
       "assessment_history": [
         {
           "percent": 74,

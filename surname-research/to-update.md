@@ -4495,3 +4495,16 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3296) | OPEN | Add the newly read deceased Thomas estate-context mention; no kinship or father-grade change. |
 | [Thomas Glasgow, record-defined account](/people/record-thomas-quothquan-1650.html) | HOLD | Complete sourced draft and compatible identities; do not create or merge until identity is resolved. |
+
+## 30 October 2026 — Weakley original heirship deed
+
+| [Elijah Hawking Glasgow](https://www.wikitree.com/wiki/Glasgow-108) | OPEN | Original 1851 heirship deed: existing Isaac father 36% → 97% confident inference; no new attachment. |
+| [William Cooper Glasgow](https://www.wikitree.com/wiki/Glasgow-124) | OPEN | Original 1851 heirship deed: existing Isaac father 68% → 96% confident inference; no new attachment. |
+| [Wagstaff Kennedy Glasgow](https://www.wikitree.com/wiki/Glasgow-123) | OPEN | Original 1851 heirship deed: existing Isaac father 62% → 97% confident inference; no new attachment. |
+| [John Green Glasgow](https://www.wikitree.com/wiki/Glasgow-122) | OPEN | Original 1851 heirship deed: existing Isaac father 63% → 96% confident inference; no new attachment. |
+| [Joseph Dorris Glasgow](https://www.wikitree.com/wiki/Glasgow-121) | OPEN | Original 1851 heirship deed: existing Isaac father 84% → 96% confident inference; no new attachment. |
+| [Jesse Glasgow](https://www.wikitree.com/wiki/Glasgow-119) | OPEN | Original 1851 heirship deed: existing Isaac father 65% → 95% confident inference; no new attachment. |
+| [Dosha Ann Rebecca (Glasgow) Adams](https://www.wikitree.com/wiki/Glasgow-60) | OPEN | Original 1851 heirship deed: existing Isaac father 76% → 96% confident inference; no new attachment. |
+| [Wylie Parsons M Glasgow](https://www.wikitree.com/wiki/Glasgow-116) | OPEN | Original 1851 heirship deed: existing Isaac father 83% → 94% confident inference; no new attachment. |
+| [Wiley Parsons Mangrum Glasgow](https://www.wikitree.com/wiki/Glasgow-2613) | OPEN | Original 1851 heirship deed: existing Isaac father 72% → 94% confident inference; no new attachment. |
+| [Isaac Glasgow](https://www.wikitree.com/wiki/Glascow-14) | OPEN | Add original 1851 heirs deed and reciprocal family account; retain existing own father95% and earlier will amendments. |
