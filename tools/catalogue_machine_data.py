@@ -188,9 +188,11 @@ def _canonical_status(value: str, *, claim_type: str | None = None, claim_contex
     if text in explicit:
         return explicit[text]
     prose = f"{text} {claim_context.casefold()}"
-    if re.search(r"\b(?:contradicted|excluded|rejected|impossible)\b", prose):
+    # Rejection must be this claim's label: context can describe an excluded
+    # alternative parent without excluding the relationship being assessed.
+    if re.search(r"\b(?:contradicted|excluded|rejected|impossible)\b", text):
         return "contradicted"
-    if "disputed" in prose:
+    if "disputed" in text:
         return "disputed"
     negated_proof = re.search(
         r"\b(?:not\s+(?:proved|proven|confirmed|established|identified|documented)|"

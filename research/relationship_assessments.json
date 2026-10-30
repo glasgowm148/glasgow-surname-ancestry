@@ -111867,5 +111867,62 @@
       ],
       "scope": "No record names Andrew's father; nothing excludes John. The children’s ages and conditional pregnancy do not establish Andrew’s birth year or exclude an older father. Publication reconciliation retains the 29 October judgement, not a new genealogical finding."
     }
+  },
+  {
+    "assertion_id": "clm-5638618698c86900",
+    "people": [
+      "Glasgow-1168",
+      "Glasgow-1098"
+    ],
+    "claim": "per-9e24bb2a2ad5b51a is the father of per-e159109a9f1c548c",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-1168": {
+        "relationship": "father"
+      },
+      "Glasgow-1098": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "corsankell-teinds-1559-60",
+      "nrs-gd39-5-59-1571",
+      "glasgow-protocol-1196-1534"
+    ],
+    "provenance": {
+      "assessment_unchanged": true,
+      "original_assessment_date": "2026-10-17",
+      "review_kind": "publication_reconciliation",
+      "source_newly_discovered": false,
+      "tree_parent_retained": true
+    },
+    "status": "possible",
+    "assessment_date": "2026-10-17",
+    "basis": "A compatible generation and Mathie–Glencairn contacts favour this existing placement, but no inspected record links William’s Glasgow burgh household to James at Corsankell. A collateral relationship remains plausible.",
+    "assessment_history": [],
+    "reason": "A compatible generation and Mathie–Glencairn contacts favour this existing placement, but no inspected record links William’s Glasgow burgh household to James at Corsankell. A collateral relationship remains plausible.",
+    "limitations": "James’s and William’s births are estimates. The Mathie/Glencairn corridor supports association, not a proved father-son relationship; nephew and other collateral origins remain compatible. Protocol1196 proves William and Esbell’s son John, not James. Restore the existing17October38% possible assessment; the table basis contrasts a different rejected father John and must not label William contradicted. No new genealogy or confidence upgrade.",
+    "probability": {
+      "value": 0.38,
+      "reviewed": "2026-10-17",
+      "basis": "A compatible generation and Mathie–Glencairn contacts favour this existing placement, but no inspected record links William’s Glasgow burgh household to James at Corsankell. A collateral relationship remains plausible.",
+      "source_ids": [
+        "corsankell-teinds-1559-60",
+        "nrs-gd39-5-59-1571",
+        "glasgow-protocol-1196-1534"
+      ],
+      "scope": "James’s and William’s births are estimates. The Mathie/Glencairn corridor supports association, not a proved father-son relationship; nephew and other collateral origins remain compatible. Protocol1196 proves William and Esbell’s son John, not James. Restore the existing17October38% possible assessment; the table basis contrasts a different rejected father John and must not label William contradicted. No new genealogy or confidence upgrade."
+    },
+    "last_test": "30October publication audit: corrected an unrelated rejected-father phrase leaking into this pair’s grade; no new source or confidence evidence.",
+    "next_test": "Find a shared parcel/title, succession, estate account or kinship description placing James or a proved relative within William/Esbell’s household.",
+    "research_state": {
+      "disposition": "awaiting_source",
+      "reopen_when": "Find a shared parcel/title, succession, estate account or kinship description placing James or a proved relative within William/Esbell’s household.",
+      "reviewed": "2026-10-23"
+    },
+    "allow_new_relationship": false,
+    "lifecycle": "current",
+    "display": "current"
   }
 ]

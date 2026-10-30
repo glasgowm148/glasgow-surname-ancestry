@@ -60,6 +60,25 @@ import unittest
 
 
 class ClaimStatusTests(unittest.TestCase):
+    def test_relationship_basis_cannot_reject_another_parent(self):
+        from unittest.mock import patch
+        from tools.catalogue_machine_data import _relationship_assessments
+        with tempfile.TemporaryDirectory() as root:
+            path = Path(root) / "relationships.md"
+            path.write_text(
+                "| Person A | Relationship | Person B | Status | Basis | Next |\n"
+                "| Glasgow-1168 | possible son of | Glasgow-1098 | Open; low | "
+                "Chronology permits this, unlike the contradicted attachment to John. | Tenure |\n"
+                "| Glasgow-1168 | possible son of | Glasgow-1093 | Contradicted | "
+                "A different person's father is documented. | Review |\n"
+                "| Glasgow-9000 | possible son of | Glasgow-9001 | Open; low | "
+                "His brother has a proved father, but their identity is unproved. | Kin |\n"
+            )
+            with patch("tools.catalogue_machine_data.RELATIONSHIPS_PATH", path):
+                rows = _relationship_assessments()
+            self.assertEqual([r["status"] for r in rows], ["possible", "contradicted", "possible"])
+            self.assertIn("contradicted attachment", rows[0]["basis"])
+
     def test_qualified_labels(self):
         test_qualified_labels_do_not_promote_to_proved()
 
