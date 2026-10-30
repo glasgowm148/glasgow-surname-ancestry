@@ -78,6 +78,22 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         self.assertIn('Keep navigation', browse)
         self.assertIn('Maintained browse header', browse)
 
+    def test_linking_a_held_entry_supersedes_only_its_generated_unassigned_citation(self):
+        earlier = dict(evidence_id='E-' + sha256(b'stable-record|').hexdigest()[:16],
+                       person='', assertion='Search-result lead only.')
+        unrelated = dict(evidence_id='manual-note', person='', assertion='Retain this reading')
+        self.source['citations'] = [earlier, unrelated]
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        writes = plan(self.root, ['new-canonical-id'])
+        source = writes[self.web / 'assets/v3/sources' / (self.source['id'] + '.json')]
+        self.assertNotIn(earlier, source['citations'])
+        self.assertIn(unrelated, source['citations'])
+        self.assertEqual(source['annotations']['superseded_citations'], [earlier])
+        self.assertEqual(source['citations'][-1]['person'], 'glasgow-32')
+        page = writes[self.web / 'sources' / self.source['id'] / 'index.html']
+        self.assertNotIn('Search-result lead only.', page)
+        self.assertIn('Retain this reading', page)
+
     def test_search_result_does_not_claim_transcript_locality(self):
         self.canonical.update(
             status='Search result only; transcript uninspected',

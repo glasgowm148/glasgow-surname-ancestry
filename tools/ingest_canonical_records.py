@@ -446,6 +446,20 @@ def plan(root: Path, record_ids: list[str]):
                                   type=label, date=record['year'], place=record['record_location'],
                                   assertion=role + '. ' + note, status='unassessed', quality=quality,
                                   source={'title': source_title, 'url': url, 'reference': doc['reference']}, claims=[]))
+        if linked:
+            # A later identity review replaces this entry's generated
+            # unassigned citation. Keep its reading as history, rather than
+            # displaying a stale "no identified person" claim beside the match.
+            unassigned_id = 'E-' + sha256((rid + '|').encode()).hexdigest()[:16]
+            previous_citations = doc.get('citations', [])
+            superseded = [c for c in previous_citations
+                          if c.get('evidence_id') == unassigned_id and not c.get('person')]
+            if superseded:
+                history = doc.setdefault('annotations', {}).setdefault('superseded_citations', [])
+                for citation in superseded:
+                    if citation not in history:
+                        history.append(deepcopy(citation))
+                doc['citations'] = [c for c in previous_citations if c not in superseded]
         doc['citations'] = merge_citations(doc.get('citations', []), citations)
         doc['members'] = list(dict.fromkeys([*doc.get('members', []), *(p['id'] for p, _ in linked)]))
         selected_docs.add(sid)
