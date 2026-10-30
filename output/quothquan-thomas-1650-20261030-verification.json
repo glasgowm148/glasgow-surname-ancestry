@@ -1,0 +1,50 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-quothquan-thomas-deceased-1650-20261030",
+  "claim": "Late Thomas Glasgow in Quodquane named in held 1650 account; identity unresolved, no kinship established",
+  "new_distinct_person_asserted": false,
+  "father_confidence_gains": 0,
+  "cohort_metrics_and_confidence_findings_unchanged": true,
+  "tree_models": {
+    "assets/research/atlas-model.json": {
+      "record_subject_present": true,
+      "no_parents": true,
+      "outside_metric_cohort": true
+    },
+    "assets/research/atlas-model-packed.json": {
+      "record_subject_present": true,
+      "no_parents": true,
+      "outside_metric_cohort": true
+    },
+    "onetree/glasgow-one-tree-polished-3/model.json": {
+      "record_subject_present": true,
+      "no_parents": true,
+      "outside_metric_cohort": true
+    }
+  },
+  "catalogue_full_compact_agree": true,
+  "no_fabricated_record_WikiTree_url": true,
+  "local_http": {
+    "/latest-findings/page/22/": 200,
+    "/people/record-thomas-quothquan-1650.html": 200,
+    "/research/transcriptions/john-lanark-1650/": 200,
+    "/people/glasgow-3296.html": 200,
+    "/people/glasgow-1087.html": 200,
+    "/branches/early-scottish-records/": 200,
+    "/onetree/progress/": 200
+  },
+  "deployed": false,
+  "live_wikitree_edits": false,
+  "cross_chat_notes_integrated": [
+    "Glasgow-1056",
+    "Glasgow-62"
+  ],
+  "checks": {
+    "publication_new_failures": 0,
+    "internal_link_new_pairs": 0,
+    "native_views_matched": 309,
+    "documentary_identity_tests_passed": 6,
+    "stale_asset_references": 0,
+    "new_route_in_sitemap": true
+  },
+  "source_publication_path": "Existing canonical testament and record-account publishers; generic exact-URL importer declined ambiguous existing archive search-page citations."
+}
