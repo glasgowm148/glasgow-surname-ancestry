@@ -64453,6 +64453,79 @@
         "research/Glasgow-3526/findings.md",
         "research/Glasgow-3525/findings.md"
       ]
+    },
+    {
+      "id": "west-calder-john-1747-baptism-date-verified-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "John Glasgow’s West Calder parish transcript explicitly gives 6 September 1747 as baptism, resolving the indexed date/type question. It names John Glasgow and Margaret Anderson; the date is not a recorded exact birth.",
+      "qualification": "The originals were not inspected. Missing transcript fields do not show that the register lacks them. Returned search rows do not establish exhaustive provider coverage or absence of Jean’s original entry. The existing family sources and these transcripts describe the same underlying child events. They neither identify the adult John with the 1717 Leithhead child nor identify the 1747 child with the Larne groom or the Chester County adult. John-2847’s selected James-3526 father stays 25%; John-2846’s father stays 98%. Existing mothers, marriages and vital fields are retained. The 1747 date is an indexed baptism, not an exact birth.",
+      "detail_url": "/people/glasgow-2846.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2846",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2846.html",
+          "role": "1747 baptised child; father 98% unchanged"
+        },
+        {
+          "id": "Glasgow-2847",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2847.html",
+          "role": "Recorded adult father; own proposed father 25% unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John, 6 September 1747 baptism, OPR 701/1 item 5 p.51",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627511&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/Glasgow-2846/findings.md",
+        "research/Glasgow-2847/findings.md"
+      ]
+    },
+    {
+      "id": "west-calder-john-1717-weaver-alternative-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "A second specific 1717 Kirknewton childhood is now available for the West Calder John comparison: John, baptised 5 April, father John Glasgow, weaver at “Templtand”. James’s Leithhead son was baptised 31 March. The shared 1717 year and parish therefore do not uniquely select James’s son.",
+      "qualification": "John Glasgow, baptism 5 April 1717, father John Glasgow, weaver, residence Templtand (provider spelling), OPR 689/20 item 1, register 1642–1737. The same parish has another indexed John on 31 March 1717, father James, servitor at Leithhead. The two derivative entries are treated as distinct record comparisons pending original inspection. Neither identifies the later John/Margaret Anderson adult. This new record is an unselected possible childhood, not an assigned baptism or a new father attachment for Glasgow-2847. The selected James-3526 father remains 25%. The father named John is not identified with a modern profile; no new person, anonymous parent, mother or vital fact is created to force a link.",
+      "detail_url": "/people/glasgow-2847.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2847",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2847.html",
+          "role": "Adult comparison candidate only; selected father stays 25%"
+        },
+        {
+          "id": "Glasgow-3525",
+          "name": "John Glasgow, Leithhead child",
+          "url": "/people/glasgow-3525.html",
+          "role": "Existing 31 March 1717 James-child comparison; not the newly indexed weaver’s child"
+        }
+      ],
+      "sources": [
+        {
+          "title": "John, 5 April 1717, John Glasgow weaver, Templtand; OPR 689/20 item 1",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474159&tab=this"
+        },
+        {
+          "title": "Other John, 31 March 1717, James Glasgow servitor, Leithhead",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474157&tab=this"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/Glasgow-2847/findings.md"
+      ]
     }
   ]
 }

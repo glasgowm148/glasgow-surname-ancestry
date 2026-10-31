@@ -4,6 +4,8 @@ Last updated: 2026-09-21
 
 ## Current conclusion
 
+**31 October 2026:** The West Calder John is indexed as baptised on 6 September 1747, son of John Glasgow and Margaret Anderson: Findmypast OPR 701/1 item 5, p.51. This verifies the date as baptism in a derivative parish transcript, replacing the earlier index-unchecked qualification; the original still needs inspection and no exact birth is supplied. The adult John’s selected father remains 25%; the child’s recorded father remains 98%. The earlier sign-in/index-unchecked wording is historical and is superseded for this provider transcript, not for the original.
+
 Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-2847](https://www.wikitree.com/wiki/Glasgow-2847). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 [John Glasgow of Larne (Glasgow-4179)](https://www.wikitree.com/wiki/Glasgow-4179) is now attached to [Hugh Glasgow (Glasgow-1499)](https://www.wikitree.com/wiki/Glasgow-1499) as an **uncertain son**, with low confidence. This is a working hypothesis based on locality and generation, not a record naming his father. [Older William (Glasgow-1505)](https://www.wikitree.com/wiki/Glasgow-1505) remains viable. No mother is attached; Hugh's wife Ann is not thereby identified as John's mother.
@@ -25,7 +27,7 @@ The Scottish child and Larne groom remain separate unless records connect them. 
 
 ## Next records
 
-Verify the exact 1747 baptism date and register details. The pre-existing birth limit before 6 September 1747 remains pending that check. Compare any Scottish adult records with the original Larne marriage before considering identity consolidation.
+The indexed baptism date is now checked as 6 September 1747, West Calder OPR 701/1 item 5 p.51. Read the original entry for additional identifiers and retain the distinction from an exact birth. Compare Scottish adult records with the original Larne marriage before considering identity consolidation.
 
 ## Live corrections — completed
 
@@ -57,3 +59,13 @@ Next useful test: Read the original West Calder child entry for the complete par
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [FamilySearch, John Glasgow,1747, West Calder, John Glasgow/Margaret Anderson; exact date remains a prior research question](https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5D); ["Scotland Births and Baptisms, 1564-1950", database, FamilySearch (https://familysearch.org/ark:/61903/1:1:VQ4T-R5D : 12 February 2020), John Glasgow, 1747.](https://familysearch.org/ark:/61903/1:1:VQ4T-R5D)
+
+## West Calder parish transcript test — 31 October 2026
+
+The West Calder John is indexed as baptised on 6 September 1747, son of John Glasgow and Margaret Anderson: Findmypast OPR 701/1 item 5, p.51. This verifies the date as baptism in a derivative parish transcript, replacing the earlier index-unchecked qualification; the original still needs inspection and no exact birth is supplied.
+
+The inspected Findmypast OPR transcripts record Margaret, 5 May 1745 (701/1, item 5, p.47), John, 6 September 1747 (same register/item, p.51), and James, 18 March 1750, all at West Calder with father John Glasgow and mother Margaret/Margt Anderson. None displays residence below parish level, an occupation, grandparents or a father-of-the-father clause. The Jean 1755 name/year search returned the two companion indexes already reviewed, without a fuller OPR transcript among those returned rows. The younger John’s source explicitly labels 6 September 1747 as baptism, resolving the held date/type question at transcript level.
+
+The originals were not inspected. Missing transcript fields do not show that the register lacks them. Returned search rows do not establish exhaustive provider coverage or absence of Jean’s original entry. The existing family sources and these transcripts describe the same underlying child events. They neither identify the adult John with the 1717 Leithhead child nor identify the 1747 child with the Larne groom or the Chester County adult. John-2847’s selected James-3526 father stays 25%; John-2846’s father stays 98%. Existing mothers, marriages and vital fields are retained. The 1747 date is an indexed baptism, not an exact birth.
+
+Sources: [Margaret 1745](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627447&tab=this); [John 1747](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627511&tab=this); [James 1750](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627637&tab=this). [Younger John](/people/glasgow-2846.html) · [adult John](/people/glasgow-2847.html) · [Leithhead James](/people/glasgow-3526.html) · [Family study](/branches/early-scottish-records/#chapter-west-calder-anderson-working-family). The completed transcript test does not reopen the 25% father hypothesis without a new identifying source.

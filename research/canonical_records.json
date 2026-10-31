@@ -3709,13 +3709,13 @@
   },
   {
     "record_id": "west-calder-john-anderson-1747",
-    "date": "1747; structured 6 September date still needs original comparison",
+    "date": "1747-09-06",
     "year": 1747,
     "place": "West Calder, Midlothian",
-    "source_title": "FamilySearch, John Glasgow,1747, West Calder, John Glasgow/Margaret Anderson; exact date remains a prior research question",
+    "source_title": "John Glasgow, baptism 6 September 1747, West Calder; John Glasgow and Margaret Anderson",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4T-R5D",
-    "status": "Previously reviewed cited index; exact birth/baptism date unresolved",
-    "note": "Names John Glasgow and Margaret Anderson as parents of John; no grandparents, age or Larne identity.",
+    "status": "Baptism date/type checked in transcript; birth and later identity unresolved",
+    "note": "The new provider transcript explicitly labels 6 September 1747 as baptism and names John Glasgow and Margaret Anderson. No birth date, residence below parish level, occupation or grandparents are displayed. The original register remains uninspected. This resolves the former uncertainty about the indexed date/type only, without changing the existing before-6-September birth field, father 98%, or the separate Larne/Chester adult identities.",
     "profiles": {
       "Glasgow-2847": {
         "role": "recorded father account"
@@ -3726,7 +3726,20 @@
       "Anderson-83671": {
         "role": "recorded mother account"
       }
-    }
+    },
+    "record_type": "Parish baptism transcript and index",
+    "record_category": "Births & baptisms",
+    "source_quality": "derivative",
+    "source_type": "Inspected provider parish transcript; original uninspected",
+    "reviewed_on": "2026-10-31",
+    "provenance": "Findmypast native parish transcript SCOT/OPR/BAP/4627511 inspected 31 October 2026, OPR 701/1 item 5 p.51; private receipt retained.",
+    "publish_to_record_index": true,
+    "additional_sources": [
+      {
+        "title": "Findmypast OPR 701/1 item 5 p.51, baptism 6 September 1747",
+        "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627511&tab=this"
+      }
+    ]
   },
   {
     "record_id": "west-calder-jean-anderson-1755",
@@ -52218,6 +52231,31 @@
       "Glasgow-3526": {
         "role": "Named father, servitor at Leithhead; same adult as 1717 family inferred",
         "timeline_group": "Paternal evidence"
+      }
+    }
+  },
+  {
+    "record_id": "kirknewton-john-weaver-templtand-child-1717",
+    "source_title": "Competing childhood: John Glasgow, 5 April 1717; John Glasgow, weaver at Templtand",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474159&tab=this",
+    "date": "1717-04-05",
+    "year": 1717,
+    "place": "Templtand (as transcribed), Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "record_type": "Parish baptism transcript; identity comparison only",
+    "record_category": "Births & baptisms",
+    "source_quality": "derivative",
+    "source_type": "Inspected provider transcript; original uninspected",
+    "status": "Unselected childhood comparison; later adult identity unresolved",
+    "reviewed_on": "2026-10-31",
+    "provenance": "Findmypast SCOT/OPR/BAP/4474159 inspected 31 October 2026; no original image inspected. Private receipt retained.",
+    "association": "Possible childhood comparison for the Anderson-household adult; no event or parent assigned",
+    "note": "John Glasgow, baptism 5 April 1717, father John Glasgow, weaver, residence Templtand (provider spelling), OPR 689/20 item 1, register 1642–1737. The same parish has another indexed John on 31 March 1717, father James, servitor at Leithhead. The two derivative entries are treated as distinct record comparisons pending original inspection. Neither identifies the later John/Margaret Anderson adult. This new record is an unselected possible childhood, not an assigned baptism or a new father attachment for Glasgow-2847. The selected James-3526 father remains 25%. The father named John is not identified with a modern profile; no new person, anonymous parent, mother or vital fact is created to force a link.",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-2847": {
+        "role": "Possible child identity comparison only; not an assigned life event or father",
+        "timeline_group": "Unselected identity comparison"
       }
     }
   }

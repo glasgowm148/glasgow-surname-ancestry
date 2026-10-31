@@ -6,14 +6,40 @@
     "father_id": "Glasgow-3526",
     "reviewed_on": "2026-10-31",
     "disposition": "ready",
-    "last_test": "Findmypast John Glasgow marriage-year 1740 ±10 returned three records. The 1731 Eastwood transcript names Janet Brackinrig (banns 8 April, marriage 29 April; groom residence Eastwood, bride Glasgow); the already inspected 1738 Penicuik record names Magdalen Guthrie; the 1748 Edinburgh transcript names Elizabeth Morison (24 April), with spouse’s father John Morison. None supplies the sought Margaret Anderson marriage or the groom’s James father/Leithhead childhood link. The Morison father is the bride’s father, not John Glasgow’s. Bounded returned-result test only, not proof that John/Margaret never married, that the collection is complete, or that another marriage could not concern a same-name adult. No event is assigned to the Anderson husband; recommended related-record links are not identity evidence. No confidence, wife, father or vital change follows.",
-    "next_test": "Inspect the existing West Calder John/Margaret Anderson children’s OPR transcripts, especially James 1750 and Jean 1755, for precise residence and occupation. Compare any identifier with the newly established father James, servitor at Leithhead, and the 1717 child. Do not repeat the completed 1730–1750 marriage query or count name-only recommendations as an identity bridge.",
+    "last_test": "The inspected Findmypast OPR transcripts record Margaret, 5 May 1745 (701/1, item 5, p.47), John, 6 September 1747 (same register/item, p.51), and James, 18 March 1750, all at West Calder with father John Glasgow and mother Margaret/Margt Anderson. None displays residence below parish level, an occupation, grandparents or a father-of-the-father clause. The Jean 1755 name/year search returned the two companion indexes already reviewed, without a fuller OPR transcript among those returned rows. The younger John’s source explicitly labels 6 September 1747 as baptism, resolving the held date/type question at transcript level. The originals were not inspected. Missing transcript fields do not show that the register lacks them. Returned search rows do not establish exhaustive provider coverage or absence of Jean’s original entry. The existing family sources and these transcripts describe the same underlying child events. They neither identify the adult John with the 1717 Leithhead child nor identify the 1747 child with the Larne groom or the Chester County adult. John-2847’s selected James-3526 father stays 25%; John-2846’s father stays 98%. Existing mothers, marriages and vital fields are retained. The 1747 date is an indexed baptism, not an exact birth. Additional source: John Glasgow, baptism 5 April 1717, father John Glasgow, weaver, residence Templtand (provider spelling), OPR 689/20 item 1, register 1642–1737. The same parish has another indexed John on 31 March 1717, father James, servitor at Leithhead. The two derivative entries are treated as distinct record comparisons pending original inspection. Neither identifies the later John/Margaret Anderson adult. This new record is an unselected possible childhood, not an assigned baptism or a new father attachment for Glasgow-2847. The selected James-3526 father remains 25%. The father named John is not identified with a modern profile; no new person, anonymous parent, mother or vital fact is created to force a link.",
+    "next_test": "Compare the 5 April 1717 John/John-weaver/Templtand household with existing catalogue identities and the 31 March James-servitor/Leithhead childhood, before selecting or changing the adult Anderson husband’s father. Query the exact residence/occupation in approved local evidence, retaining all compatible candidates; seek a discriminating adult record rather than repeat the completed child-transcript or marriage queries.",
     "source_locators": [
-      "https://www.findmypast.co.uk/search/results?firstname=John&lastname=Glasgow&yearofmarriage=1740&yearofmarriage_offset=10",
-      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1007475%2F1&tab=this",
-      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1473346%2F1&tab=this",
-      "https://www.findmypast.co.uk/transcript?id=R_695889358%2F1&tab=this"
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627447&tab=this",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627511&tab=this",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4627637&tab=this",
+      "https://www.findmypast.co.uk/search/results?firstname=Jean&lastname=Glasgow&yearofbirth=1755&yearofbirth_offset=0&datasetname=Scotland%2C%20Parish%20Births%20%26%20Baptisms%201564-1929",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474159&tab=this"
     ],
-    "search_id": "search-west-calder-anderson-marriage-index-20261031"
-  }
+    "search_id": "search-west-calder-anderson-opr-identifiers-20261031",
+    "resume_when": "The new specific weaver-household candidate is available for a bounded identity comparison; this case is not held solely for original-register access."
+  },
+  "completed_tests": [
+    {
+      "father_id": "Glasgow-3526",
+      "reviewed_on": "2026-10-31",
+      "disposition": "ready",
+      "last_test": "Findmypast John Glasgow marriage-year 1740 ±10 returned three records. The 1731 Eastwood transcript names Janet Brackinrig (banns 8 April, marriage 29 April; groom residence Eastwood, bride Glasgow); the already inspected 1738 Penicuik record names Magdalen Guthrie; the 1748 Edinburgh transcript names Elizabeth Morison (24 April), with spouse’s father John Morison. None supplies the sought Margaret Anderson marriage or the groom’s James father/Leithhead childhood link. The Morison father is the bride’s father, not John Glasgow’s. Bounded returned-result test only, not proof that John/Margaret never married, that the collection is complete, or that another marriage could not concern a same-name adult. No event is assigned to the Anderson husband; recommended related-record links are not identity evidence. No confidence, wife, father or vital change follows.",
+      "next_test": "Inspect the existing West Calder John/Margaret Anderson children’s OPR transcripts, especially James 1750 and Jean 1755, for precise residence and occupation. Compare any identifier with the newly established father James, servitor at Leithhead, and the 1717 child. Do not repeat the completed 1730–1750 marriage query or count name-only recommendations as an identity bridge.",
+      "source_locators": [
+        "https://www.findmypast.co.uk/search/results?firstname=John&lastname=Glasgow&yearofmarriage=1740&yearofmarriage_offset=10",
+        "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1007475%2F1&tab=this",
+        "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1473346%2F1&tab=this",
+        "https://www.findmypast.co.uk/transcript?id=R_695889358%2F1&tab=this"
+      ],
+      "search_id": "search-west-calder-anderson-marriage-index-20261031"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1717-weaver-child-comparison",
+      "question": "Does the 5 April 1717 son of John, weaver at Templtand, better identify the adult Anderson husband than the 31 March son of James?",
+      "status": "open",
+      "answer": "Both derivative events are now identified with different paternal names, occupations and residences. Neither supplies the adult connection; no father rating or event assignment is changed."
+    }
+  ]
 }

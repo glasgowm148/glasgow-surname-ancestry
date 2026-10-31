@@ -4611,3 +4611,10 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Helen Glasgow](https://www.wikitree.com/wiki/Glasgow-3527) | OPEN | Existing James-3526 father: 55% Possible → 97% Confident; newly inspected Helen baptism names James, servitor at Leithhead. |
 | [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3526) | OPEN | Add Leithhead servitor identity from 1714/1717 parish transcripts; James’s own father stays 25%, John’s father stays 97%. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3525) | OPEN | Add Leithhead servitor identity from 1714/1717 parish transcripts; James’s own father stays 25%, John’s father stays 97%. |
+
+## 31 October 2026 — West Calder baptism date/type
+
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2846) | OPEN | Verify 6 September 1747 as the child’s indexed baptism, not exact birth; retain the 25% adult-father and 98% child-father assessments and all Larne/Chester identity limits. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2847) | OPEN | Verify 6 September 1747 as the child’s indexed baptism, not exact birth; retain the 25% adult-father and 98% child-father assessments and all Larne/Chester identity limits. |
+
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2847) | OPEN | Add competing 5 April 1717 childhood, father John weaver at Templtand; unselected comparison, no new father attachment or date assignment. |

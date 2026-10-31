@@ -3760,9 +3760,9 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
     },
     "Glasgow-2846": {
-      "draft_path": "research/Glasgow-2846/father-confidence-2026-10-22g.wiki",
-      "summary": "Add the cited record account: Possible John Glascow, Chester County land and committee. Retain the stated identity and relationship limits. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Add the cited record account: Possible John Glascow, Chester County land and committee. Retain the stated identity and relationship limits. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "draft_path": "research/Glasgow-2846/west-calder-opr-review-2026-10-31.wiki",
+      "summary": "Verify 6 September 1747 as baptism from OPR transcript; no exact birth or adult identity bridge. All father ratings unchanged. Add the cited record account: Possible John Glascow, Chester County land and committee. Retain the stated identity and relationship limits. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Verify 6 September 1747 as baptism from OPR transcript; no exact birth or adult identity bridge. All father ratings unchanged. Add the cited record account: Possible John Glascow, Chester County land and committee. Retain the stated identity and relationship limits. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -3773,7 +3773,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-2846",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-10-31",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -3793,7 +3793,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/west-calder-opr-preservation-2026-10-31.json"
     },
     "Glasgow-2868": {
       "status": "OPEN",
@@ -41847,10 +41847,10 @@
       "queued_at": "2026-10-16",
       "status": "OPEN",
       "significance": 85,
-      "summary": "Review the uncertain James Glasgow-3526 father through the possible 1717 child identity, with James Glasgow-1547 retained as an alternative account; preserve estimated dates, the Meek-household comparison, existing child links and all earlier qualifications. Add24October derivative-record review with explicit event roles and identity limits.",
+      "summary": "Add competing 5 April 1717 weaver-household childhood; current James father stays 25%. Verify 6 September 1747 as baptism from OPR transcript; no exact birth or adult identity bridge. All father ratings unchanged. Review the uncertain James Glasgow-3526 father through the possible 1717 child identity, with James Glasgow-1547 retained as an alternative account; preserve estimated dates, the Meek-household comparison, existing child links and all earlier qualifications. Add24October derivative-record review with explicit event roles and identity limits.",
       "manual_update": true,
-      "draft_path": "research/Glasgow-2847/Glasgow-2847.md",
-      "preservation_review_path": "research/ancestry-connections/west-calder-anderson-working-family-preservation-2026-10-16.json",
+      "draft_path": "research/Glasgow-2847/west-calder-opr-review-2026-10-31.wiki",
+      "preservation_review_path": "research/ancestry-connections/west-calder-opr-preservation-2026-10-31.json",
       "reviewed_narrative_reduction": true,
       "preserve_captured_detail": false,
       "relationship_changes": [
@@ -41862,8 +41862,14 @@
           "assertion_id": "C-working-20261016-west-calder-anderson-working-family-john-father"
         }
       ],
-      "work_queue_summary": " Add24October derivative-record review with explicit event roles and identity limits.",
-      "biography_rechecked_at": "2026-10-24"
+      "work_queue_summary": "Add competing 5 April 1717 weaver-household childhood; current James father stays 25%. Verify 6 September 1747 as baptism from OPR transcript; no exact birth or adult identity bridge. All father ratings unchanged. Review the uncertain James Glasgow-3526 father through the possible 1717 child identity, with James Glasgow-1547 retained as an alternative account; preserve estimated dates, the Meek-household comparison, existing child links and all earlier qualifications. Add24October derivative-record review with explicit event roles and identity limits.",
+      "biography_rechecked_at": "2026-10-31",
+      "profile_id": "Glasgow-2847",
+      "findings_path": "research/Glasgow-2847/findings.md",
+      "pending": true,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     },
     "Glasgow-3407": {
       "queued_at": "2026-10-17",
