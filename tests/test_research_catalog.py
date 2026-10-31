@@ -826,7 +826,8 @@ Corrected assessment.
         # A private comparison publishes only its sourced additions (queue_profile_amendments'
         # additive panel); its complete biography stays in the local research files.
         private_comparison_pages = {profile_id.casefold() for profile_id in current_updates
-                                    if queued_updates[profile_id].get("private_comparison")}
+                                    if queued_updates[profile_id].get("private_comparison")
+                                    or queued_updates[profile_id].get("comparison_withheld")}
         rendered_update_drafts = 0
         for update_page in (WEB / "people").glob("*.html"):
             if update_page.stem not in current_update_pages:
@@ -835,6 +836,17 @@ Corrected assessment.
             if update_page.stem in private_comparison_pages:
                 self.assertIn("<h2>Historical additions for WikiTree</h2>", page_text, update_page.name)
                 self.assertNotIn('id="profile-update-draft"', page_text, update_page.name)
+                profile_id = next(ident for ident in current_updates if ident.casefold() == update_page.stem)
+                update = queued_updates[profile_id]
+                addition = update.get('public_addition_wikitext')
+                self.assertTrue(addition, update_page.name)
+                panel = BeautifulSoup(page_text, 'html.parser').select_one('#wikitree-update textarea.profile-draft')
+                self.assertIsNotNone(panel, update_page.name)
+                self.assertEqual(addition, panel.get_text(), update_page.name)
+                if update.get('comparison_withheld'):
+                    for field in ('remote_wikitext', 'proposed_wikitext', 'draft_wikitext'):
+                        self.assertFalse(update.get(field), f'{update_page.name}: {field}')
+                    self.assertNotIn('data/private/', page_text, update_page.name)
                 rendered_update_drafts += 1
                 continue
             draft = re.search(r'<textarea\b[^>]*\bid="profile-update-draft"[^>]*>(.*?)</textarea>', page_text, re.S)
