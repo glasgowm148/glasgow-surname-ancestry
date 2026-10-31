@@ -3,7 +3,34 @@ from pathlib import Path
 import subprocess
 import unittest
 
-from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes, named_father_review_counts
+from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes, named_father_review_counts, missing_father_priorities
+
+
+class MissingFatherPriorityTests(unittest.TestCase):
+    def test_missing_fathers_include_descendants_without_inventing_a_join(self):
+        nodes = {key: dict(name=key, url=f'/people/{key}', year=1800)
+                 for key in ['root', 'child', 'grandchild', 'other', 'outside', 'unavailable']}
+        edges = [dict(child='child', father='root', status='proved'),
+                 dict(child='grandchild', father='child', status='possible'),
+                 dict(child='outside', father='root', status='proved')]
+        cohort = {'root', 'child', 'grandchild', 'other', 'unavailable'}
+        rows = missing_father_priorities(nodes, edges, cohort,
+                                        dict(root=False, child=True, grandchild=True, other=False))
+        self.assertEqual({r['child'] for r in rows}, {'root', 'other'})
+        root = next(r for r in rows if r['child'] == 'root')
+        self.assertEqual((root['child_side'], root['confident_child_side']), (3, 2))
+        for key in ['father', 'confidence_percent', 'cross_pairs', 'confident_pair_gain']:
+            self.assertIsNone(root[key])
+
+    def test_cycle_does_not_recount_people_and_documentary_connectors_are_not_counted(self):
+        nodes = {key: dict(name=key, url=f'/people/{key}', year=1600)
+                 for key in ['root', 'connector', 'child']}
+        nodes['connector']['cohort_member'] = False
+        edges = [dict(child='connector', father='root', status='possible'),
+                 dict(child='child', father='connector', status='possible'),
+                 dict(child='root', father='child', status='possible')]
+        row, = missing_father_priorities(nodes, edges, {'root', 'child'}, {'root': False, 'child': True})
+        self.assertEqual(row['child_side'], 2)
 
 
 class IndividualFindingTests(unittest.TestCase):

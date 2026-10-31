@@ -112,7 +112,15 @@
       catalogueProposals:proposals(findings),cohortProposals:proposals(scoped),
       firstRatings:scoped.filter(row=>row.kind==='first' && !row.research_event).length};
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = {namedFatherCoverage, dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
+  function priorityRows(rows, order='branch', kind='all', early=false) {
+    const value = n => Number.isFinite(n) ? n : -1;
+    return rows.filter(row => (!early || (row.year != null && row.year <= 1650)) &&
+      (kind === 'all' || (kind === 'unknown' ? row.status === 'unknown' : row.status !== 'unknown')))
+      .sort((a,b) => (order === 'confident' ? value(b.confident_pair_gain)-value(a.confident_pair_gain)
+        : order === 'working' ? value(b.cross_pairs)-value(a.cross_pairs) : b.child_side-a.child_side) ||
+        b.child_side-a.child_side || a.child.localeCompare(b.child));
+  }
+  if (typeof module !== 'undefined' && module.exports) module.exports = {priorityRows, namedFatherCoverage, dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
   if (typeof document === 'undefined') return;
   const element = document.getElementById('ancestry-progress-data');
   if (!element) return;
@@ -134,18 +142,26 @@
     }).join('') : '<tr><td colspan="4">No findings of this kind are recorded for this cohort. Choose another finding type or include beyond the selected cohort.</td></tr>';
   }
   function renderPriorities() {
-    const early = byId('priority-early').checked, confident = byId('priority-order').value === 'confident';
-    const rows = (data.research_priorities || []).filter(row => !early || (row.year != null && row.year <= 1650));
-    rows.sort((a,b) => confident
-      ? b.confident_pair_gain-a.confident_pair_gain || b.cross_pairs-a.cross_pairs || a.child.localeCompare(b.child)
-      : b.cross_pairs-a.cross_pairs || a.child.localeCompare(b.child));
-    byId('priority-count').textContent = `Showing ${Math.min(20,rows.length)} of ${number(rows.length)} father links below confident${early?' dated by 1650':''}. Counts use the same people through 1850.`;
-    const remaining = uncertaintyMeasurements(data.cohorts['1850']);
-    byId('priority-uncertainty-summary').innerHTML = `<strong>${remaining.unknown===null?'Unknown fathers not yet measured':`${number(remaining.unknown)} unknown fathers`} · ${number(remaining.total)} named father links below confident</strong><span>${number(remaining.uncertain)} uncertain · ${number(remaining.possible)} possible · ${number(remaining.probable)} probable${remaining.unmarked?` · ${number(remaining.unmarked)} unmarked`:''} · through 1850</span><a href="#uncertainty-history">See how this has changed over time ↑</a>`;
-    byId('priority-rows').innerHTML = rows.slice(0,20).map(row => `<tr><td><a href="${esc(row.father_url)}">${esc(row.father_name)}</a> → <a href="${esc(row.child_url)}">${esc(row.child_name)}</a><small>${esc(row.father)} → ${esc(row.child)} · ${esc(row.year ?? 'Undated')}</small></td><td>${Number.isFinite(row.confidence_percent)?`${row.confidence_percent}%`:'Not individually rated'}<small>${esc(row.status)}</small></td><td>${number(row.child_side)}</td><td>${number(row.cross_pairs)}</td><td>${number(row.confident_pair_gain)}<small>${number(row.confident_child_side)} × ${number(row.confident_parent_side)} people; ${row.confident_component_reduction} fewer confident branches</small></td><td><a href="${esc(row.analysis_url)}">${esc(row.next_test)}</a>${row.last_review?`<small>${esc(row.last_review)}</small>`:''}</td></tr>`).join('');
+    const early = byId('priority-early').checked;
+    const rows = priorityRows(data.research_priorities || [], byId('priority-order').value, byId('priority-kind').value, early);
+    const missing = rows.filter(row => row.status === 'unknown').length;
+    byId('priority-count').textContent = `Showing ${Math.min(20,rows.length)} of ${number(rows.length)} research priorities: ${number(missing)} unknown fathers and ${number(rows.length-missing)} named links below confident${early?' dated by 1650':''}. Counts use the same people through 1850.`;
+    const allPriorities = data.research_priorities || [], unknownCount = allPriorities.filter(row => row.status === 'unknown').length;
+    const namedPriorities = allPriorities.filter(row => row.status !== 'unknown');
+    const countGrade = grade => namedPriorities.filter(row => row.status === grade).length;
+    byId('priority-uncertainty-summary').innerHTML = `<strong>${number(unknownCount)} unknown-father priorities · ${number(namedPriorities.length)} named-father priorities below confident</strong><span>${number(countGrade('uncertain'))} uncertain · ${number(countGrade('possible'))} possible · ${number(countGrade('probable'))} probable${countGrade('unmarked')?` · ${number(countGrade('unmarked'))} unmarked`:''} · through 1850</span><a href="#uncertainty-history">See confidence and missing-father counts over time ↑</a>`;
+    byId('priority-rows').innerHTML = rows.slice(0,20).map(row => {
+      const unknown = row.status === 'unknown';
+      const father = unknown ? '<strong>Unknown father</strong>' : `<a href="${esc(row.father_url)}">${esc(row.father_name)}</a>`;
+      const pairs = unknown ? 'Not yet estimable' : number(row.cross_pairs);
+      const gain = unknown ? 'Father not identified' : `${number(row.confident_pair_gain)}<small>${number(row.confident_child_side)} × ${number(row.confident_parent_side)} people; ${row.confident_component_reduction} fewer confident branches</small>`;
+      return `<tr><td>${father} → <a href="${esc(row.child_url)}">${esc(row.child_name)}</a><small>${unknown ? '' : `${esc(row.father)} → `}${esc(row.child)} · ${esc(row.year ?? 'Undated')}</small></td><td>${unknown ? 'Unknown · no father listed' : Number.isFinite(row.confidence_percent)?`${row.confidence_percent}%`:'Not individually rated'}${unknown ? '' : `<small>${esc(row.status)}</small>`}</td><td>${number(row.child_side)}</td><td>${pairs}</td><td>${gain}</td><td><a href="${esc(row.analysis_url)}">${esc(row.next_test)}</a>${row.last_review?`<small>${esc(row.last_review)}</small>`:''}</td></tr>`;
+    }).join('') || '<tr><td colspan="6">No research priorities match these filters.</td></tr>';
+
   }
   byId('priority-order').addEventListener('change', renderPriorities);
   byId('priority-early').addEventListener('change', renderPriorities);
+  byId('priority-kind').addEventListener('change', renderPriorities);
   renderPriorities();
   function renderResearchHistory(cohort) {
     const result=researchHistory(data.individual_findings || [],cohort), last=result.points.at(-1);

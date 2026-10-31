@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "unknown_priorities": 382,
+  "named_priorities": 670,
+  "confidence_findings": 403,
+  "confidence_and_connectivity_history_unchanged": true,
+  "no_confidence_or_parent_change": true,
+  "unknown_gains_and_percentages_are_null": true,
+  "unknown_cohort_membership_verified": true,
+  "largest_unknown_branch": [
+    "Glasgow-1657",
+    15
+  ],
+  "deed_index_dispatch_corrected": true,
+  "source_and_generated_js_agree": true,
+  "local_http": 200,
+  "local_only": true,
+  "pushed": false,
+  "browser_verification": {
+    "desktop_unknown_rows": 20,
+    "narrow_viewport": 500,
+    "horizontal_page_overflow": false,
+    "existing_window_restored": true
+  }
+}

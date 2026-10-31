@@ -144,3 +144,19 @@ test('current named-father coverage labels retained selections separately from g
   assert.equal(namedFatherCoverage({named_count:1412,rated_count:1406,unrated_count:6,coverage_percent:100*1406/1412}), '1,406 of 1,412 retained named fathers individually rated; 6 ungraded. 99.6% coverage.');
   assert.match(namedFatherCoverage({named_count:0,rated_count:0,unrated_count:0,coverage_percent:null}), /No retained named fathers/);
 });
+
+test('missing-father priorities rank by branch and retain unknown pair gains', () => {
+  const {priorityRows} = require('../tools/ancestry_progress.js');
+  const rows = [
+    {child:'unknown-large', status:'unknown', year:1600, child_side:20, confident_pair_gain:null, cross_pairs:null},
+    {child:'named', status:'possible', year:1700, child_side:4, confident_pair_gain:30, cross_pairs:100},
+    {child:'unknown-small', status:'unknown', year:1800, child_side:2, confident_pair_gain:null, cross_pairs:null}
+  ];
+  assert.deepEqual(priorityRows(rows).map(r=>r.child), ['unknown-large','named','unknown-small']);
+  assert.deepEqual(priorityRows(rows,'confident').map(r=>r.child), ['named','unknown-large','unknown-small']);
+  assert.deepEqual(priorityRows(rows,'branch','unknown').map(r=>r.child), ['unknown-large','unknown-small']);
+  assert.deepEqual(priorityRows(rows,'branch','all',true).map(r=>r.child), ['unknown-large']);
+  assert.deepEqual(priorityRows(rows,'branch','named').map(r=>r.child), ['named']);
+  assert.equal(rows[0].confident_pair_gain,null);
+  assert.equal(rows[0].child,'unknown-large'); // Sorting does not mutate the report.
+});

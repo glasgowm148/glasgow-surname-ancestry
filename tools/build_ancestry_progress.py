@@ -200,6 +200,42 @@ def father_listing_counts(cohort_ids, listings):
                 unavailable_count=values.count(None), population=len(values))
 
 
+def missing_father_priorities(nodes, edges, cohort_ids, listings):
+    """Rank absent fathers by existing descendant accounts, without a fake join."""
+    cohort = set(cohort_ids) & nodes.keys()
+    allowed = cohort | {ident for ident, node in nodes.items()
+                        if node.get('cohort_member') is False}
+    children, confident = {}, {}
+    for edge in edges:
+        if not {edge['child'], edge['father']} <= allowed or edge['status'] in EXCLUDED:
+            continue
+        children.setdefault(edge['father'], set()).add(edge['child'])
+        if edge['status'] in CONFIDENT:
+            confident.setdefault(edge['father'], set()).add(edge['child'])
+
+    def size(graph, root):
+        seen, pending = {root}, [root]
+        while pending:
+            for child in graph.get(pending.pop(), ()):
+                if child not in seen:
+                    seen.add(child)
+                    pending.append(child)
+        return len(seen & cohort)
+
+    return [dict(child=ident, father=None, status='unknown',
+                 child_name=nodes[ident]['name'], father_name=None,
+                 child_url=nodes[ident]['url'], father_url=None,
+                 year=nodes[ident].get('year'), confidence_percent=None,
+                 child_side=size(children, ident),
+                 confident_child_side=size(confident, ident),
+                 parent_side=None, cross_pairs=None, confident_parent_side=None,
+                 confident_pair_gain=None, confident_component_reduction=None,
+                 analysis_url=nodes[ident]['url'],
+                 next_test='Identify a father from the earliest records and family evidence for this branch.',
+                 last_review='')
+            for ident in sorted(cohort) if listings.get(ident) is False]
+
+
 def named_father_review_counts(cohort_ids, retained_fathers):
     """Current exact-rating coverage, independent of surname-graph eligibility."""
     cohort = set(cohort_ids)
@@ -333,6 +369,9 @@ def build(create_baseline=False):
         if impact['status'] in CONFIDENT:
             continue
         child, father = impact['child'], impact['father']
+        if not is_named_father_name(nodes[father]['name']):
+            # Anonymous placeholders belong in Unknown, not a second named row.
+            continue
         assessment = assessments.get(impact.get('assertion_id'), {})
         case = cases.get(impact.get('assertion_id'), {})
         estimate = rating_details.get((child, father), {})
@@ -344,7 +383,9 @@ def build(create_baseline=False):
                            'analysis_url': next((l['href'] for l in assessment.get('analysis_links', []) if l.get('href')), nodes[child]['url']),
                            'next_test': case.get('next_test') or assessment.get('next_test') or estimate.get('next_test') or rating_tests.get(impact.get('assertion_id')) or 'Read the family evidence and next question.',
                            'last_review': case.get('last_test') or assessment.get('last_test') or estimate.get('last_test', '')})
-    priorities.sort(key=lambda r: (-r['cross_pairs'], r['child'], r['father']))
+    priorities.extend(missing_father_priorities(
+        nodes, edges, primary['working']['cohort_ids'], listings))
+    priorities.sort(key=lambda r: (-r['child_side'], r['child']))
     fingerprint = hashlib.sha256(json.dumps({"nodes": nodes, "edges": edges}, sort_keys=True).encode()).hexdigest()
     baseline_path = WORK / "baseline-2026-10-15.json"
     if not baseline_path.exists():
@@ -438,7 +479,7 @@ def build(create_baseline=False):
         undated_surname_people=len(quality["undated_people"]),
         cohorts=cohorts,
         research_priorities=priorities,
-        research_priority_method='Working pairs count all retained profile pairs dependent on this link. Confident-pair gain counts only pairs joined by upgrading this one link, with every other assessment unchanged. Hypothetical gains overlap; do not sum them. A high gain is not evidence or a reason to raise confidence.',
+        research_priority_method='Unknown fathers are included with existing descendant counts, but no assumed father, confidence percentage or pair gain. Branch size includes the child and eligible descendants through the cutoff. Working pairs count all retained profile pairs dependent on this link. Confident-pair gain counts only pairs joined by upgrading this one link, with every other assessment unchanged. Hypothetical gains overlap; do not sum them. A high gain is not evidence or a reason to raise confidence.',
         baseline=baseline,
         fixed_cohort=dict(
             metrics=fixed,
@@ -558,7 +599,7 @@ def build(create_baseline=False):
 {reconciliation_note}
 {confidence_note}
 {publication_html}
-<section id="uncertain-connections" aria-labelledby="uncertain-connections-title"><h2 id="uncertain-connections-title">Which uncertain connections would help most?</h2><p>Father links for the cohort through {strategy['primary_cutoff']}. Coverage is measured above; this queue focuses research on the larger remaining uncertainties. Compare the whole working branch with the immediate gain from making just one link confident. Every other uncertain link stays uncertain.</p><div id="priority-uncertainty-summary" class="priority-uncertainty-summary"></div><div class="progress-controls"><label>Rank connections by <select id="priority-order"><option value="confident">Immediate gain in confident pairs</option><option value="working">Pairs depending on the working connection</option></select></label><label class="inline-check"><input type="checkbox" id="priority-early">Only children dated by 1650</label></div><p id="priority-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Research priority table; scroll horizontally on small screens"><table class="research-priority-table"><caption>Potential research yield · fixed cohort through {strategy['primary_cutoff']}</caption><thead><tr><th>Proposed father → child</th><th>Current confidence</th><th>Child-side people</th><th>Working pairs depending on link</th><th>Confident pairs gained if upgraded alone</th><th>Next useful evidence test</th></tr></thead><tbody id="priority-rows"></tbody></table></div><p>These counts concern retained profile accounts, including unresolved identity questions. Named documentary ancestors can connect them but do not increase the person counts. Potential gains overlap and must not be added. Ranking measures impact; it does not measure whether an upgrade is attainable. <a href="/data/ancestry-connectivity.json">Download all priorities and the method</a>.</p><noscript><p>Enable JavaScript to rank the queue, or use the download above. The source-backed early cases follow below.</p></noscript></section>
+<section id="uncertain-connections" aria-labelledby="uncertain-connections-title"><h2 id="uncertain-connections-title">Which missing or uncertain fathers would help most?</h2><p>Missing fathers and father links for the cohort through {strategy['primary_cutoff']}. Coverage is measured above; this queue focuses research on the larger remaining uncertainties. Compare the whole working branch with the immediate gain from making just one link confident. Every other uncertain link stays uncertain.</p><div id="priority-uncertainty-summary" class="priority-uncertainty-summary"></div><div class="progress-controls"><label>Rank connections by <select id="priority-order"><option value="branch">Largest descendant branch</option><option value="confident">Immediate gain in confident pairs</option><option value="working">Pairs depending on the working connection</option></select></label><label>Father listing <select id="priority-kind"><option value="all">Unknown and named fathers</option><option value="unknown">Unknown · no father listed</option><option value="named">Named fathers below confident</option></select></label><label class="inline-check"><input type="checkbox" id="priority-early">Only children dated by 1650</label></div><p id="priority-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Research priority table; scroll horizontally on small screens"><table class="research-priority-table"><caption>Potential research yield · fixed cohort through {strategy['primary_cutoff']}</caption><thead><tr><th>Proposed father → child</th><th>Current confidence</th><th>People at or below child</th><th>Working pairs depending on link</th><th>Confident pairs gained if upgraded alone</th><th>Next useful evidence test</th></tr></thead><tbody id="priority-rows"></tbody></table></div><p>Unknown means no retained named father. Its possible pair gain cannot be calculated until a father is identified; a blank gain is not zero. Branch size includes the child and eligible descendants. These counts concern retained profile accounts, including unresolved identity questions. Named documentary ancestors can connect them but do not increase the person counts. Potential gains overlap and must not be added. Ranking measures impact; it does not measure whether an upgrade is attainable. <a href="/data/ancestry-connectivity.json">Download all priorities and the method</a>.</p><noscript><p>Enable JavaScript to rank the queue, or use the download above. The source-backed early cases follow below.</p></noscript></section>
 <section aria-labelledby="working-map-title"><h2 id="working-map-title">One family, with the missing joins visible</h2><p>The shared-origin model gathers the branches below one ancestral lineage. Dotted lines mean an unknown route through generations; they are research targets and do not change the measured pedigree.</p><div id="working-origin-map" class="working-origin-map"></div><noscript><p>The earliest branch heads and their descendants appear in the table below. Each belongs to the shared-origin working model; the intervening generations remain open.</p></noscript></section>
 <section id="early-connections" aria-labelledby="early-connections-title"><h2 id="early-connections-title">Start with the earliest connections</h2><p>These comparisons are already supported as research hypotheses. They are arranged by the oldest record involved. Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>{"".join(cards)}</section>
 <section aria-labelledby="family-heads-title"><h2 id="family-heads-title">Unattached family heads</h2><p>Work upwards from families rather than collecting isolated later records. Heads with one child but two or more surname descendants are included in this queue too.</p><div class="progress-controls"><label class="inline-check"><input type="checkbox" id="early-heads" checked>Prioritise heads dated by 1650</label><label>Find a family <input id="head-search" type="search" placeholder="Name or profile ID"></label></div><p id="head-count" aria-live="polite">{len(roots)} early family heads</p><div class="progress-table-wrap"><table><thead><tr><th>Family head</th><th>Earliest cohort year</th><th>Children</th><th>Descendants</th></tr></thead><tbody id="family-head-rows">{root_rows(roots)}</tbody></table></div></section>
