@@ -4593,3 +4593,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [George Glasgow](https://www.wikitree.com/wiki/Glasgow-638) | OPEN | New probable father William Glasgow-2715, 88%; parent names already in biography, existing-profile attachment newly proposed. Leicester adult bridge qualified. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2715) | OPEN | Add probable son George-638 at 88%; reconcile withdrawn engineer identity against Crawford census and memorial. |
+
+## 31 October 2026 — Smith County original-source review
+
+| [Wesley Glasgow](https://www.wikitree.com/wiki/Glasgow-2476) | OPEN | Add original census and Davidson will review; source confirmation only, no father/vital change. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-2492) | OPEN | Add original census and Davidson will review; source confirmation only, no father/vital change. |
+| [James Glasgow Senior](https://www.wikitree.com/wiki/Glasgow-634) | OPEN | Add original census and Davidson will review; source confirmation only, no father/vital change. |

@@ -64278,6 +64278,60 @@
         "research/Glasgow-638/findings.md",
         "research/Glasgow-2715/findings.md"
       ]
+    },
+    {
+      "id": "smith-wesley-census-and-davidson-will-review-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "record",
+      "status": "confirmed",
+      "finding": "Original Smith County census households and James Glasgow Senior’s will inspected. The will explicitly names son James as executor; it supplies no Wesley parent clause. Wesley’s proposed James father remains 35%, and James’s own father remains 94%.",
+      "qualification": "Wesley-2476’s selected father James-2492 remains Possible at 35%; James-2492’s own father James-634 remains Confident at 94%. The census age slots are compatible household evidence, not named kin or independent birth entries. No new parent, exact vital date, maternal attachment, profile merger or confidence gain follows. The cited indexes and their newly inspected originals describe the same underlying events and are not independent witnesses. Smith County probate access was tested in the same signed-in session. The bound Wills 1828–1859 volume 6 and Wills 1803–1896 index routes were unavailable for online viewing. The accessible Wills 1841–1859 volume 3 consists of loose papers/folders, not a simple bound will book: only images 6, 450, 470, 485 and 500 were sampled, including 1848–1850 folder context. No James Glasgow packet was located in that small sample. This is not a full file or county-wide absence claim, and does not establish that he left no will. The profile-held mortality citation remains an unverified lead: its September/1850 wording must be checked against the original schedule’s reference period before assigning a calendar death year.",
+      "detail_url": "/people/glasgow-2476.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2476",
+          "name": "Wesley Guynn Glasgow",
+          "url": "/people/glasgow-2476.html",
+          "role": "Existing possible father, 35%, unchanged"
+        },
+        {
+          "id": "Glasgow-2492",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-2492.html",
+          "role": "Smith County adult comparison; father 94% unchanged"
+        },
+        {
+          "id": "Glasgow-634",
+          "name": "James Glasgow Senior",
+          "url": "/people/glasgow-634.html",
+          "role": "Original will names a son James and executor role"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1820 census original, p.58 household716",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:33S7-9YB8-KZY"
+        },
+        {
+          "title": "1840 census original, p.270",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:33SQ-GYB9-9V4J"
+        },
+        {
+          "title": "1850 census original, household1186",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:S3HY-DCYQ-2HC"
+        },
+        {
+          "title": "Davidson will volume7, pp.407–408",
+          "url": "https://www.familysearch.org/ark:/61903/3:2:77TV-1945?lang=en&i=233&groupId=1909088"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/Glasgow-2476/findings.md",
+        "research/Glasgow-2492/findings.md",
+        "research/Glasgow-634/findings.md"
+      ]
     }
   ]
 }

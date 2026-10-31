@@ -6672,9 +6672,9 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json"
     },
     "Glasgow-634": {
-      "draft_path": "research/Glasgow-634/father-confidence-2026-10-22c.wiki",
-      "summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. Add daughters Nancy at96% and Elizabeth at93%, with source qualifications.",
-      "work_queue_summary": "Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. Add daughters Nancy at96% and Elizabeth at93%, with source qualifications.",
+      "draft_path": "research/Glasgow-634/smith-source-review-2026-10-31.wiki",
+      "summary": "Add original census and Davidson will review: son/executor James explicit; Wesley father remains 35%, James father 94%. No new attachment or confidence gain. Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. Add daughters Nancy at96% and Elizabeth at93%, with source qualifications.",
+      "work_queue_summary": "Add original census and Davidson will review: son/executor James explicit; Wesley father remains 35%, James father 94%. No new attachment or confidence gain. Existing father: 47% → 95% confident; existing son James-2492: 65% → 94%. Add the inspected biographical family clauses and preserve the maternal-name question. Add daughters Nancy at96% and Elizabeth at93%, with source qualifications.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -6691,7 +6691,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-634",
-      "biography_rechecked_at": "2026-10-23",
+      "biography_rechecked_at": "2026-10-31",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -6711,7 +6711,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation3-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/smith-wesley-preservation-2026-10-31.json",
       "significance": 86
     },
     "Glasgow-649": {
@@ -23161,11 +23161,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-2492/father-confidence-2026-10-22g.wiki",
+      "biography_rechecked_at": "2026-10-31",
+      "draft_path": "research/Glasgow-2492/smith-source-review-2026-10-31.wiki",
       "findings_path": "research/Glasgow-2492/findings.md",
-      "summary": "Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause.",
-      "work_queue_summary": "Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause.",
+      "summary": "Add original census and Davidson will review: son/executor James explicit; Wesley father remains 35%, James father 94%. No new attachment or confidence gain. Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause.",
+      "work_queue_summary": "Add original census and Davidson will review: son/executor James explicit; Wesley father remains 35%, James father 94%. No new attachment or confidence gain. Existing father: 65% → 94% confident. Add possible son Wesley-2476 at 35% from Smith County chronology, without treating the census citations as a parent clause.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -23197,7 +23197,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation7-2026-10-22.json",
+      "preservation_review_path": "research/ancestry-connections/smith-wesley-preservation-2026-10-31.json",
       "significance": 86
     },
     "Glasgow-2102": {
@@ -41490,12 +41490,12 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "summary": "New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence.",
-      "work_queue_summary": "New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence.",
-      "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-2476/smith-county-working-family-2026-10-23.wiki",
+      "summary": "Add original census and Davidson will review: son/executor James explicit; Wesley father remains 35%, James father 94%. No new attachment or confidence gain. New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence.",
+      "work_queue_summary": "Add original census and Davidson will review: son/executor James explicit; Wesley father remains 35%, James father 94%. No new attachment or confidence gain. New possible father James-2492 at 35%; local working hypothesis from Smith County chronology, awaiting named-parent or property evidence.",
+      "biography_rechecked_at": "2026-10-31",
+      "draft_path": "research/Glasgow-2476/smith-source-review-2026-10-31.wiki",
       "findings_path": "research/Glasgow-2476/findings.md",
-      "preservation_review_path": "research/ancestry-connections/maryland-smith-county-preservation-2026-10-23.json",
+      "preservation_review_path": "research/ancestry-connections/smith-wesley-preservation-2026-10-31.json",
       "significance": 86
     },
     "Glasgow-2600": {
