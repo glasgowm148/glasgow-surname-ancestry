@@ -25,6 +25,32 @@ def test_png(width=549, height=83):
 
 
 class SourceCollectionsTests(unittest.TestCase):
+    def test_reviewed_irish_introduction_survives_fresh_regional_page(self):
+        from tools import build_source_collections as builder
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            web = root / 'www'
+            for region in ('scottish-families', 'early-ireland'):
+                page = web / 'branches' / region / 'index.html'
+                page.parent.mkdir(parents=True)
+                page.write_text('<html><body><main><h1>Region</h1></main></body></html>')
+            indexes = root / 'surname-research/indexes'
+            indexes.mkdir(parents=True)
+            sections = {}
+            for kind in ('births', 'marriages', 'deaths'):
+                (indexes / f'scotlandspeople-opr-{kind}-to-1700.json').write_text(json.dumps({'conclusion': 'Reviewed index.'}))
+                sections[f'{kind}/scotland/opr-to-1700'] = '<section></section>'
+            sections['deaths/ireland/groni-matches'] = '<section><p>Reviewed family connections remain qualified.</p><h3>Entries</h3><table></table></section>'
+            data = {'rows': [], 'conclusion': 'Reviewed newspaper coverage.'}
+            with patch.object(builder, 'ROOT', root):
+                builder.move_branch_tables(web, data, sections)
+                path = web / 'branches/early-ireland/index.html'
+                first = path.read_text()
+                self.assertIn('Reviewed family connections remain qualified.', first)
+                self.assertIn('/sources/deaths/ireland/groni-matches/', first)
+                builder.move_branch_tables(web, data, sections)
+                self.assertEqual(path.read_text(), first)
+
     @cached_property
     def rows(self):
         return json.loads((WEB/'assets/sources/collection-index.json').read_text())

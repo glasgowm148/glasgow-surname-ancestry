@@ -571,7 +571,13 @@ def move_branch_tables(web, data, sections):
             section = sections.get('deaths/ireland/groni-matches','').split('<h3>')[0]
             conclusions = ''.join(p for p in re.findall(r'<p\b[^>]*>.*?</p>', section, re.S) if 'download' not in p.lower())
         replacement = f'<!-- {start} --><section id="{name}"><h2>{title}</h2>{conclusions}<p>The collected entries, match review, outstanding questions and original-provider links are in <a href="{target}">Sources: {title}</a>. Index references and proposed identities are separately qualified there.</p></section><!-- {end} -->'
-        text = re.sub(re.escape('<!-- ' + start + ' -->') + r'.*?' + re.escape('<!-- ' + end + ' -->'), lambda _: replacement, text, flags=re.S)
+        text, replaced = re.subn(re.escape('<!-- ' + start + ' -->') + r'.*?' + re.escape('<!-- ' + end + ' -->'), lambda _: replacement, text, flags=re.S)
+        # A full catalogue rebuild can replace the regional page entirely.
+        # Restore the reviewed introduction even when its old marker is gone.
+        if not replaced and (name != 'groni-death-matches' or conclusions):
+            if '</main>' not in text:
+                raise ValueError('Ireland page lacks main close')
+            text = text.replace('</main>', replacement + '</main>', 1)
     write(branch, text)
 
 
