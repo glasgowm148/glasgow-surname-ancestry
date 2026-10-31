@@ -74478,18 +74478,19 @@
       "Glasgow-13",
       "Glasgow-8"
     ],
-    "status": "possible",
+    "status": "strongly_supported",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Harvey’s 1816 placement comes from the 2011 Newman tree import, compatible with Robert Barclay’s 1783 birth and 1809 marriage. Robert’s 1830/1850 census citations and Faris ancestry statement do not name Harvey.",
-    "reason": "Harvey’s 1816 placement comes from the 2011 Newman tree import, compatible with Robert Barclay’s 1783 birth and 1809 marriage. Robert’s 1830/1850 census citations and Faris ancestry statement do not name Harvey.",
-    "claim": "Glasgow-8 remains the selected father of Glasgow-13, individually assessed 58%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "assessment_date": "2026-10-31",
+    "basis": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence.",
+    "reason": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence.",
+    "claim": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence.",
+    "record_scope": "Faris (1990) is a retrospective compiled genealogy, not an original birth, marriage or probate record. Its family list and individual entry are one source, not independent witnesses; the imported pedigree may share that source. The underlying family papers and contemporary probate were not inspected. This is a reassessment of the same attached father, not a new father or merger. The mother, all vital fields, sibling grades and upstream father grades remain separately assessed and unchanged.",
+    "limitations": "Faris (1990) is a retrospective compiled genealogy, not an original birth, marriage or probate record. Its family list and individual entry are one source, not independent witnesses; the imported pedigree may share that source. The underlying family papers and contemporary probate were not inspected. This is a reassessment of the same attached father, not a new father or merger. The mother, all vital fields, sibling grades and upstream father grades remain separately assessed and unchanged.",
     "source_ids": [
-      "held-e-aaa2d8058e6d"
+      "held-e-aaa2d8058e6d",
+      "faris-robert-rosannah-harvey-family-1990"
     ],
     "assessment_history": [
       {
@@ -74502,16 +74503,22 @@
         "claim_id": "C-278fbe8d73fe",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 58,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Harvey’s 1816 placement comes from the 2011 Newman tree import, compatible with Robert Barclay’s 1783 birth and 1809 marriage. Robert’s 1830/1850 census citations and Faris ancestry statement do not name Harvey."
       }
     ],
     "perspectives": {
       "Glasgow-13": {
         "relationship": "father",
-        "reason": "Harvey’s 1816 placement comes from the 2011 Newman tree import, compatible with Robert Barclay’s 1783 birth and 1809 marriage. Robert’s 1830/1850 census citations and Faris ancestry statement do not name Harvey."
+        "reason": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence."
       },
       "Glasgow-8": {
         "relationship": "son",
-        "reason": "Harvey’s 1816 placement comes from the 2011 Newman tree import, compatible with Robert Barclay’s 1783 birth and 1809 marriage. Robert’s 1830/1850 census citations and Faris ancestry statement do not name Harvey."
+        "reason": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence."
       }
     },
     "analysis_links": [
@@ -74536,13 +74543,22 @@
       "live_flag_changed": false
     },
     "probability": {
-      "value": 0.58,
-      "basis": "Harvey’s 1816 placement comes from the 2011 Newman tree import, compatible with Robert Barclay’s 1783 birth and 1809 marriage. Robert’s 1830/1850 census citations and Faris ancestry statement do not name Harvey.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "reviewed": "2026-10-31",
+      "basis": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence.",
       "source_ids": [
-        "held-e-aaa2d8058e6d"
+        "held-e-aaa2d8058e6d",
+        "faris-robert-rosannah-harvey-family-1990"
       ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "scope": "Faris (1990) is a retrospective compiled genealogy, not an original birth, marriage or probate record. Its family list and individual entry are one source, not independent witnesses; the imported pedigree may share that source. The underlying family papers and contemporary probate were not inspected. This is a reassessment of the same attached father, not a new father or merger. The mother, all vital fields, sibling grades and upstream father grades remain separately assessed and unchanged."
+    },
+    "last_test": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence.",
+    "next_test": "Inspect Robert’s actual Peoria probate or a contemporary Harvey parent-naming record to corroborate the compiled account. The official IRAD Peoria search endpoint was denied before a name query could be submitted; no database-empty claim is made. Do not repeat the completed Faris pages 35/62 as uninspected or use them as two independent witnesses.",
+    "research_state": {
+      "disposition": "reviewed_supported",
+      "last_test": "Faris p.35 family list and p.62 Harvey entry actually read and independently checked",
+      "next_test": "Inspect Robert’s actual Peoria probate or a contemporary Harvey parent-naming record to corroborate the compiled account. The official IRAD Peoria search endpoint was denied before a name query could be submitted; no database-empty claim is made. Do not repeat the completed Faris pages 35/62 as uninspected or use them as two independent witnesses.",
+      "reviewed": "2026-10-31"
     }
   },
   {

@@ -63870,6 +63870,58 @@
         "research/Glasgow-2968/findings.md",
         "research/Glasgow-2875/findings.md"
       ]
+    },
+    {
+      "id": "harvey-robert-faris-father-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Harvey Glasgow’s father Robert Barclay Glasgow strengthens from 58% Possible to 94% Confident after inspecting Faris’s explicit named-son entry and matching both men’s identities. Same father retained; no new attachment.",
+      "qualification": "Faris (1990) is a retrospective compiled genealogy, not an original birth, marriage or probate record. Its family list and individual entry are one source, not independent witnesses; the imported pedigree may share that source. The underlying family papers and contemporary probate were not inspected. This is a reassessment of the same attached father, not a new father or merger. The mother, all vital fields, sibling grades and upstream father grades remain separately assessed and unchanged.",
+      "detail_url": "/people/glasgow-13.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-13",
+          "name": "Harvey Glasgow",
+          "url": "/people/glasgow-13.html",
+          "role": "Named son; father confidence58%→94%"
+        },
+        {
+          "id": "Glasgow-8",
+          "name": "Robert Barclay Glasgow",
+          "url": "/people/glasgow-8.html",
+          "role": "Existing father, now confidently identified"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Faris (1990), printed p.35: father’s life and named children",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9JV-Z"
+        },
+        {
+          "title": "Faris (1990), printed p.62, entry39: Harvey named as son",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9JN-G"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-13",
+          "relative": "Glasgow-8",
+          "assertion_id": "C-coverage-20261022h-glasgow-13-father",
+          "before": "possible",
+          "after": "certain",
+          "previous_probability_percent": 58,
+          "probability_percent": 94,
+          "explanation": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence.",
+          "previous_status_provenance": "Authoritative assessment revision2, 22October2026:58%possible, tree-import-only basis. Live preflight31October confirms same father UID1127586 already attached with blank/unmarked FatherDataStatus. New pages35/62 supply an explicit named-parent source; no new attachment."
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-13/findings.md",
+        "research/Glasgow-8/findings.md"
+      ]
     }
   ]
 }

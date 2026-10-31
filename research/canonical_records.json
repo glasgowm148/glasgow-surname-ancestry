@@ -51489,5 +51489,44 @@
     "reviewed_on": "2026-10-31",
     "publish_to_record_index": true,
     "provenance": "Original scans privately retained; new original reading, existing 7 October index lead."
+  },
+  {
+    "record_id": "faris-robert-rosannah-harvey-family-1990",
+    "source_title": "David Faris, The Glasgow Family of Adams County, Ohio (1990), printed pp.35 and62: Harvey and Robert Barclay Glasgow",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9JV-Z",
+    "year": 1816,
+    "date": "1816-09-22",
+    "country": "United States",
+    "place": "Adams County, Ohio, United States",
+    "record_location": "Adams County, Ohio; later Peoria County, Illinois",
+    "record_type": "Compiled family history",
+    "record_category": "Family histories",
+    "source_type": "1990 compiled genealogy, inspected book scan",
+    "source_quality": "derivative",
+    "status": "Printed pages35 and62 inspected 31 October 2026; original underlying records uninspected",
+    "association": "Harvey explicitly named as Robert B. and Rosannah Finley’s son; father identified through full name, birth, marriage and death context",
+    "note": "Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence. Faris (1990) is a retrospective compiled genealogy, not an original birth, marriage or probate record. Its family list and individual entry are one source, not independent witnesses; the imported pedigree may share that source. The underlying family papers and contemporary probate were not inspected. This is a reassessment of the same attached father, not a new father or merger. The mother, all vital fields, sibling grades and upstream father grades remain separately assessed and unchanged.",
+    "profiles": {
+      "Glasgow-13": {
+        "role": "Explicitly named son; full birth date and death year match the maintained Harvey account",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-8": {
+        "role": "Explicitly named father; complete Robert Barclay life context matches maintained account",
+        "identification_status": "strongly_supported"
+      },
+      "Finley-134": {
+        "role": "Named mother in compiled source; maternal assessment not changed"
+      }
+    },
+    "additional_sources": [
+      {
+        "title": "Faris printed p.62, entry39, Harvey’s named-son clause",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9JN-G"
+      }
+    ],
+    "reviewed_on": "2026-10-31",
+    "publish_to_record_index": true,
+    "provenance": "DGS007834162 images1577 and1593 (zero-based URL i1576 and1592); raw licensed book scans privately retained. The two entries form one compiled source."
   }
 ]

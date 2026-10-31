@@ -4541,3 +4541,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2968) | OPEN | Add original WO119/41 discharge and WO23/36 pension-register evidence; qualified existing-profile identity, parents unknown; no merger or new father. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2875) | OPEN | Add original WO119/41 discharge and WO23/36 pension-register evidence; qualified existing-profile identity, parents unknown; no merger or new father. |
+
+
+## 31 October 2026 — Harvey’s Faris father evidence
+
+| [Harvey Glasgow](https://www.wikitree.com/wiki/Glasgow-13) | OPEN | Existing Harvey father 58% Possible → 94% Confident from inspected Faris pp.35/62; compiled source, no new father attachment. |
+| [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-8) | OPEN | Existing Harvey father 58% Possible → 94% Confident from inspected Faris pp.35/62; compiled source, no new father attachment. |

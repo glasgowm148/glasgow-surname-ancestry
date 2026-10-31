@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "finding_route": "/latest-findings/page/22/#finding-harvey-robert-faris-father-20261031",
+  "father": "Glasgow-8",
+  "subject": "Glasgow-13",
+  "confidence_before": 58,
+  "confidence_after": 94,
+  "all_three_models_verified": true,
+  "research_events": [
+    401,
+    402
+  ],
+  "population": [
+    1808,
+    1808
+  ],
+  "supported_components": [
+    663,
+    662
+  ],
+  "confident_components": [
+    1062,
+    1061
+  ],
+  "confident_pair_gain": 70,
+  "unknown_fathers": [
+    382,
+    382
+  ],
+  "no_new_father_attachment": true,
+  "mothers_vitals_other_relationships_unchanged": true,
+  "earlier_cohorts_unchanged": true,
+  "full_compact_regrade_tag_agreement": true,
+  "compiled_source_not_original_vital_record": true,
+  "raw_book_images_private": true,
+  "publication_new_failures": 0,
+  "links_new_pairs": 0,
+  "authoritative_views_match": true,
+  "http": {
+    "/people/glasgow-13.html": 200,
+    "/people/glasgow-8.html": 200,
+    "/latest-findings/page/22/#finding-harvey-robert-faris-father-20261031": 200,
+    "/onetree/progress/?through=1850&links=confident": 200
+  },
+  "inherited_capture_whitespace": {
+    "research/Glasgow-13/harvey-faris-father-2026-10-31.wiki": {
+      "lines": [
+        9,
+        10
+      ],
+      "basis": "Verbatim retained prior full proposal or current public capture."
+    },
+    "research/Glasgow-8/harvey-faris-father-2026-10-31.wiki": {
+      "lines": [
+        12,
+        18,
+        24,
+        25,
+        28,
+        34,
+        35,
+        41,
+        47,
+        48,
+        56,
+        57,
+        102,
+        110,
+        118,
+        125,
+        126
+      ],
+      "basis": "Verbatim retained prior full proposal or current public capture."
+    }
+  },
+  "local_only": true,
+  "pushed": false
+}
