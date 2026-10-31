@@ -9,7 +9,66 @@ import tempfile
 import unittest
 from unittest.mock import patch
 from tools.public_privacy import PublicPrivacy
-from tools.sync_catalogue_research import public_findings, refresh_catalogue_summaries
+from tools.sync_catalogue_research import (
+    discrepancies, public_findings, refresh_catalogue_summaries,
+    select_profile_update, update_data,
+)
+from bs4 import BeautifulSoup
+
+
+class PendingCreationSyncTests(unittest.TestCase):
+    def setUp(self):
+        self.update = update_data({
+            'profile_id': 'record-example-1650', 'new_profile': True,
+            'pending': True, 'action': 'create_new_profile', 'significance': 50,
+            'summary': 'Resolve this reviewed identity before creation.',
+            'draft_wikitext': '== Biography ==\nA named person in a 1650 record.',
+        })
+        self.dossier = {'id': 'record-example-1650', 'pending_profile_creation': True,
+                        'creation_status': 'identity_hold', 'wikitree_update': self.update}
+        self.row = {'pending_profile_creation': True, 'needs_wikitree_update': True,
+                    'wikitree_update_significance': 50,
+                    'wikitree_update_summary': self.update['summary']}
+
+    def test_pending_creation_keeps_its_draft_flag_and_significance(self):
+        selected = select_profile_update(None, self.dossier, self.row)
+        # Exercise the serializer and actual discrepancy checks used by sync:
+        # an unrelated findings refresh must not schedule removal of this update.
+        self.assertEqual(update_data(selected), self.update)
+        soup = BeautifulSoup('<main class="person-dossier-readable">'
+                             '<section id="wikitree-update"><pre id="profile-update-draft">'
+                             + self.update['draft_wikitext'] + '</pre></section></main>', 'html.parser')
+        issues = discrepancies(self.dossier, soup,
+                               [{'sections': [{'markdown': 'New source note.'}]}],
+                               selected, self.row, {})
+        self.assertIn('findings data', issues)
+        self.assertNotIn('update data', issues)
+        self.assertNotIn('search update significance', issues)
+        self.assertNotIn('search update summary', issues)
+        self.assertTrue(update_data(selected)['new_profile'])
+
+    def test_queued_existing_profile_amendment_takes_precedence(self):
+        queued = {'profile_id': 'Example-1', 'summary': 'A reviewed amendment.'}
+        self.assertIs(select_profile_update(queued, self.dossier, self.row), queued)
+        empty_queued = {}
+        self.assertIs(select_profile_update(empty_queued, self.dossier, self.row), empty_queued)
+
+    def test_stale_or_noncreation_updates_are_not_reused(self):
+        for location, field in [('dossier', 'pending_profile_creation'),
+                                ('row', 'pending_profile_creation'),
+                                ('update', 'pending'), ('update', 'new_profile')]:
+            with self.subTest(location=location, field=field):
+                dossier, row, update = dict(self.dossier), dict(self.row), dict(self.update)
+                {'dossier': dossier, 'row': row, 'update': update}[location][field] = False
+                dossier['wikitree_update'] = update
+                self.assertIsNone(select_profile_update(None, dossier, row))
+        self.assertIsNone(select_profile_update(None, {'pending_profile_creation': True}, self.row))
+
+    def test_retained_creation_still_contains_privacy_checked_draft(self):
+        self.update['draft_wikitext'] += ' Private-1 family details.'
+        policy = PublicPrivacy({'Private-1': {'birth_date': '2000-01-01'}})
+        selected = select_profile_update(None, self.dossier, self.row)
+        self.assertTrue(policy.contains_private_id(json.dumps(update_data(selected))))
 
 
 class TargetedFindingsPrivacyTests(unittest.TestCase):

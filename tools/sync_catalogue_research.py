@@ -171,6 +171,23 @@ def awaiting_creation(row, update):
     return not update and bool(row.get("pending_profile_creation"))
 
 
+def select_profile_update(queued, dossier, row):
+    """Keep reviewed pending creations when there is no queued amendment.
+
+    These updates come from the creation publisher, not the existing-profile
+    amendment queue. The caller still applies its normal privacy filter.
+    """
+    if queued is not None:
+        return queued
+    stored = dossier.get("wikitree_update") or {}
+    if (dossier.get("pending_profile_creation") is True
+            and row.get("pending_profile_creation") is True
+            and stored.get("pending") is True
+            and stored.get("new_profile") is True):
+        return stored
+    return None
+
+
 def merge_catalogue_updates(updates):
     """Apply this sync's update fields to the latest shared rows, never its snapshot."""
     path = WEB / "data/catalogue-search-index.json"
@@ -499,7 +516,7 @@ def _run():
         dossier = read_json(path)
         identifiers = list(dict.fromkeys([dossier["id"], *by_slug[slug].get("profile_ids", [])]))
         findings = public_findings(identifiers, policy)
-        update = updates.get(ident)
+        update = select_profile_update(updates.get(ident), dossier, by_slug[slug])
         if update and (update.get("private_comparison") or policy.contains_private_id(json.dumps(update_data(update), ensure_ascii=False))):
             # The captured profile text or the draft names a living person or
             # a DNA tester, or has an explicit private-comparison assessment.
