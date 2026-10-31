@@ -299,6 +299,46 @@ def cards(rows, *, descriptions=True):
     ) + '</div>'
 
 
+def family_research_context(branch, people):
+    """Reuse the root's published conclusion on its existing family page."""
+    if branch.get('kind') != 'family':
+        return ''
+    root = people.get(branch.get('root'))
+    if not root:
+        return ''
+    path = WEB / 'people' / (root['slug'] + '.json')
+    if not path.is_file():
+        return ''
+    dossier = json.loads(path.read_text())
+    conclusions = [section['markdown'].strip()
+                   for finding in dossier.get('research_findings', [])
+                   for section in finding.get('sections', [])
+                   if section.get('category') == 'conclusion'
+                   and section.get('markdown', '').strip()
+                   and section['markdown'].strip() != 'No sourced conclusion recorded yet.']
+    if not conclusions:
+        return ''
+    try:
+        from repair_person_hierarchy import _safe_markdown_html
+    except ModuleNotFoundError:
+        from tools.repair_person_hierarchy import _safe_markdown_html
+    body = _safe_markdown_html('\n\n'.join(dict.fromkeys(conclusions)), root['url'])
+    return ('<section id="family-research-context" class="r-section">'
+            '<h2>Current family research</h2>' + body
+            + f'<p><a href="{escape(root["url"], quote=True)}">Read the complete sourced account of {escape(root["name"])}</a></p></section>')
+
+
+def insert_family_research_context(page, context):
+    """Replace a prior projection, retaining the existing reader and navigation."""
+    page = re.sub(r'<section\b(?=[^>]*\bid="family-research-context")[^>]*>.*?</section>', '', page, flags=re.S)
+    if not context:
+        return page
+    header = re.search(r'<header\b(?=[^>]*\bclass="r-page-head")[^>]*>.*?</header>', page, flags=re.S)
+    if header is None:
+        raise ValueError('Family research insertion point missing')
+    return page[:header.end()] + context + page[header.end():]
+
+
 def local_family_section(branch_id, people):
     rendered = []
     for family in LOCAL_FAMILIES.get(branch_id, []):
@@ -430,6 +470,7 @@ def repair_branches(changed):
     places_by_person = study_place_links.person_places(study_place_links.load_records(WEB))
     place_names = study_place_links.load_place_names(WEB)
     place_exists = lambda slug: (WEB / 'places' / f'{slug}.html').is_file()
+    family_contexts = {b['id']: family_research_context(b, people) for b in branches if b['kind'] == 'family'}
     for b in branches:
         relative = f"branches/{b['id']}/index.html"
         page = (WEB / relative).read_text()
@@ -452,6 +493,8 @@ def repair_branches(changed):
         page = re.sub(r'\[\[([A-Za-z_ -]+-\d+)\|([^\]]+)\]\]', lambda m: f'<a href="https://www.wikitree.com/wiki/{m[1]}">{escape(unescape(m[2]).strip())}</a>', page)
         if b['id'] in LOCAL_FAMILIES:
             page = repair_locality_page(page, b, people)
+        if b['kind'] == 'family':
+            page = insert_family_research_context(page, family_contexts[b['id']])
         update(relative, page, changed)
     for hub in hubs:
         children = [b for b in branches if hub['id'] in b['topic_ids']]
@@ -460,6 +503,11 @@ def repair_branches(changed):
         body = f'<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">{study_place_links.REGION}</span><h1>{escape(hub["label"])}</h1><p class="r-lead">{escape(hub["description"])}</p></header><nav class="experience-branch-nav" aria-label="Regional navigation"><div class="r-actions"><a href="/branches/">All families &amp; places</a><a href="/records/?branch={hub["id"]}">Explore these records</a><a href="/map/?branch={hub["id"]}">See these families on the map</a></div></nav>'
         if local:
             body += '<section><h2>Place studies in this region</h2>' + cards(local) + '</section>'
+        researched = [b for b in families if family_contexts.get(b['id'])]
+        if researched:
+            body += ('<section><h2>Current family research</h2><ul>'
+                     + ''.join(f'<li><a href="{escape(b["url"], quote=True)}#family-research-context">{escape(b["label"])}</a></li>' for b in researched)
+                     + '</ul></section>')
         body += '<section><h2>WikiTree tree groups in this region</h2><p>These groups follow links in the WikiTree family tree and have people or records in this region. Many of their links have not been checked against records, and appearing together here does not establish a relationship between the groups.</p>' + cards(families) + '</section></main>'
         page = template.replace('lisnagaver-rasharkin', hub['id']).replace('Lisnagaver &amp; Rasharkin', escape(hub['label'])).replace('Lisnagaver & Rasharkin', escape(hub['label']))
         page = re.sub(r'/assets/repair/site\.css\?v=3\.1-repair-[12]', '/assets/repair/site.css?v=3.1-repair-1', page, count=1)
