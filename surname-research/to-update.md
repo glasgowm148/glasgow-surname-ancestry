@@ -4579,3 +4579,12 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Glasgow-4029](https://www.wikitree.com/wiki/Glasgow-4029) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
 | [Unknown-764130](https://www.wikitree.com/wiki/Unknown-764130) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
 | [Glascoe-11](https://www.wikitree.com/wiki/Glascoe-11) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
+
+
+## 31 October 2026 — Merchant family, inspected sources
+
+| [Glasgow-1348](https://www.wikitree.com/wiki/Glasgow-1348) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |
+| [Glasgow-1309](https://www.wikitree.com/wiki/Glasgow-1309) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |
+| [Glasgow-1304](https://www.wikitree.com/wiki/Glasgow-1304) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |
+| [Glasgow-971](https://www.wikitree.com/wiki/Glasgow-971) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |
+| [Glasgow-1355](https://www.wikitree.com/wiki/Glasgow-1355) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |

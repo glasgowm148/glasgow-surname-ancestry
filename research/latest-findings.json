@@ -64095,6 +64095,97 @@
         }
       ],
       "relationship_changes": []
+    },
+    {
+      "id": "merchant-john-alexander-monro-review-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The John–Helen Smith merchant family is identified in the burgess register; the copied 1765baptism citation actually gives 1771. John’s existing father hypothesis improves 38%→45% but stays Possible.",
+      "qualification": "The 1935 printed Glasgow burgess register has been visually inspected. On 14 September 1795 John Glasgow, merchant, entered as husband of Helen, lawful daughter of James Smith, mason and burgess/guild brother (printed p.197, PDF207). On 1 July 1817 Alexander Glasgow, merchant in Wilson’s Court, Argyle Street, entered as eldest son of John Glasgow, merchant and burgess/guild brother (p.306, PDF316). On 3 May 1844 John Glasgow, merchant, entered as a younger son of John Glasgow, merchant and burgess/guild brother (p.450, PDF460). The first entry strongly identifies the maintained John-1348/Helen Smith household; the sons are supported comparisons with Alexander-971 and John-1355. The sons’ entries do not name their mother, and the three admissions must not be treated as a literal statement that all three men form one family. These are inspected published register transcriptions; the underlying manuscript admission registers are unread. Burke’s Visitation, vol.2, printed armorial section p.67 (PDF 341), has now been read in the scan. It explicitly describes Alexander of Old Court, formerly Auchinraith, as eldest son of the late John Glasgow and Helen, daughter of James Smith, and grandson of Alexander Glasgow, merchant, and Agnes Monro of Edinburgh. The family passage was already quoted in the held biography; inspecting it is not discovery of a previously unknown grandfather name. The underlying Lyon matriculation remains unread. The independently identified John–Helen Smith merchant household now has inspected burgess evidence, and Burke explicitly gives its Alexander grandfather with a Monro wife associated with Edinburgh. That rare paired family description is more specific than the earlier chronological comparison with Alexander-1309’s Alexander/Mary Munro household, whose 1757 marriage was recorded in Edinburgh and Barony. The corrected 1771 Barony child fits the merchant’s possible generation. This modestly strengthens the whole existing father-profile hypothesis from 38% to 45% Possible; it does not make it Probable. Burke names Agnes Monro, not the documented Mary Munro of Alexander-1309’s couple. Their identity cannot be assumed, and the 1771 child has no inspected occupation, wife or estate bridge identifying him as the merchant rather than the Colinton account John-1304. The merchant’s circa 1770 birth is an inherited estimate, not independent corroboration. Retain both modern Johns and the current father selection, all mothers, vital fields and upstream grades. No new father attachment or merge follows. The 1741 childhood identification of Alexander-1309 is not certified by this review. Exact percentages are subjective judgements, not measured probabilities.",
+      "detail_url": "/people/glasgow-1348.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1348",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1348.html",
+          "role": "Existing father hypothesis 38%→45%, still Possible"
+        },
+        {
+          "id": "Glasgow-1309",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1309.html",
+          "role": "Retained possible father; Mary/Agnes Monro discrepancy unresolved"
+        },
+        {
+          "id": "Glasgow-971",
+          "name": "Alexander Glasgow of Old Court",
+          "url": "/people/glasgow-971.html",
+          "role": "Inspected armorial applicant and supported 1817merchant comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Glasgow burgesses 1795, 1817 and 1844",
+          "url": "https://www.electricscotland.com/history/records/scottishrecordso51scotuoft.pdf"
+        },
+        {
+          "title": "Burke armorial account, p.67/PDF 341",
+          "url": "https://archive.org/details/visitationofseat185402burk/page/n340/mode/1up"
+        },
+        {
+          "title": "Directly inspected 1771index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:X17D-67M"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "John Glasgow (Glasgow-1348)",
+          "relative": "Alexander Glasgow (Glasgow-1309)",
+          "subject_id": "Glasgow-1348",
+          "relative_id": "Glasgow-1309",
+          "assertion_id": "C-coverage-20261022b-glasgow-1348-father",
+          "before": "possible",
+          "after": "possible",
+          "previous_probability_percent": 38,
+          "probability_percent": 45,
+          "explanation": "The independently identified John–Helen Smith merchant household now has inspected burgess evidence, and Burke explicitly gives its Alexander grandfather with a Monro wife associated with Edinburgh. That rare paired family description is more specific than the earlier chronological comparison with Alexander-1309’s Alexander/Mary Munro household, whose 1757 marriage was recorded in Edinburgh and Barony. The corrected 1771 Barony child fits the merchant’s possible generation. This modestly strengthens the whole existing father-profile hypothesis from 38% to 45% Possible; it does not make it Probable.",
+          "previous_status_provenance": "Native assessment revision 2, assessed 2026-10-22, 38% Possible; complete prior reasoning retained before the review. No new attachment."
+        }
+      ]
+    },
+    {
+      "id": "samuel-vaccination-unselected-1811-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An original 1811 Samuel Glasgow vaccination entry is inspected, but blank age/address and no kin prevent an identification or father assignment.",
+      "qualification": "The original 14 October 1811 Glasgow vaccination page (RCPSG/1/7/7, provider image 036, transcript line 2) names Samuel Glasgow, but leaves his age and address blank and names no parent or guardian. It cannot identify the older nailer Samuel-3063 or the younger Cambusnethan Samuel-3096. Both are compatible comparisons, neither selected. No birth year, family relationship or vaccination outcome is inferred from the blank fields or unexplained marks.",
+      "detail_url": "/people/glasgow-3063.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3063",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3063.html",
+          "role": "Unselected comparison only"
+        },
+        {
+          "id": "Glasgow-3096",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3096.html",
+          "role": "Unselected comparison only"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Vaccination register original,14 October 1811",
+          "url": "https://search.findmypast.co.uk/record?id=S2%2FGBOR%2FSCOT%2FROYAL-COLLEGE-SURGEONS%2F07_VACCINATION_REGISTER%2F036&parentid=SCOT%2FGLASGOW%2FVACC%2F026135"
+        }
+      ],
+      "relationship_changes": []
     }
   ]
 }

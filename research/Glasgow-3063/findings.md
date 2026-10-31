@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**31 October 2026:** The 1811 vaccination record is an unselected comparison; no relationship or vital-field change. Samuel-3063’s own father remains Unknown; Samuel-3096’s existing father assessment remains unchanged.
+
 Reviewed 22 October 2026. **Probable intended partner Lillias Stewart 82%; son James remains 78%.**
 
 The Barony banns transcript names Samuel Glasgow and Lillias Stewart on 24 February 1790, OPR 622/7, item 1, p 42, register 1778–1819. It gives marriage year 1790 but no separate wedding date, ages, parents, occupation or residence field. The transcript was inspected on 21 October 2026; the original register was not inspected.
@@ -60,3 +62,12 @@ Samuel Glasgow, nailer of Glasgow, aged 65, infirmities of old age, Govan 1818. 
 - [GBPRS/LANARKSHIRE/BUR/020582](https://www.findmypast.co.uk/transcript?id=GBPRS%2FLANARKSHIRE%2FBUR%2F020582&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
 
 Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.
+
+
+## Inspected source review — 31 October 2026
+
+The original 14 October 1811 Glasgow vaccination page (RCPSG/1/7/7, provider image 036, transcript line 2) names Samuel Glasgow, but leaves his age and address blank and names no parent or guardian. It cannot identify the older nailer Samuel-3063 or the younger Cambusnethan Samuel-3096. Both are compatible comparisons, neither selected. No birth year, family relationship or vaccination outcome is inferred from the blank fields or unexplained marks.
+
+Findmypast’s Scotland, Parish Births & Baptisms 1564–1929 was searched for Samuel Glasgow with birth 1753±20 years (1733–1773): no result. A Glas* wildcard search in the same scope returned only Samuel Glass, baptised 19 April 1747 at Strathdon, Aberdeenshire, father Benjamin Glass. That index was read but supplies no Glasgow/nailer/adult bridge, so it remains an unselected surname-variant lead, not an excluded person or a selected father. The original Strathdon register was not read. This is one provider collection, not proof that no Scottish baptism exists. The 1935 Glasgow burgess register’s surname index (printed p.498, PDF 508) lists Alexander and John entries, but no Samuel or James Glasgow. This is not a search of every apprenticeship, incorporation or admission manuscript.
+
+[Vaccination transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FGLASGOW%2FVACC%2F026135&tab=this) · [Original image](https://search.findmypast.co.uk/record?id=S2%2FGBOR%2FSCOT%2FROYAL-COLLEGE-SURGEONS%2F07_VACCINATION_REGISTER%2F036&parentid=SCOT%2FGLASGOW%2FVACC%2F026135).

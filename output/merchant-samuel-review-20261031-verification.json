@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "finding_routes": {
+    "merchant-john-alexander-monro-review-20261031": "/latest-findings/page/22/#finding-merchant-john-alexander-monro-review-20261031",
+    "samuel-vaccination-unselected-1811-20261031": "/latest-findings/page/22/#finding-samuel-vaccination-unselected-1811-20261031"
+  },
+  "confidence_findings": [
+    403,
+    404
+  ],
+  "reviewed_father_change": {
+    "child": "Glasgow-1348",
+    "father": "Glasgow-1309",
+    "before": 38,
+    "after": 45,
+    "grade": "Possible"
+  },
+  "new_attachments": 0,
+  "all_three_tree_models_verified": true,
+  "other_parent_assessments_unchanged": true,
+  "connectivity_unchanged": true,
+  "complete_capture_and_prior_proposals_preserved": true,
+  "full_compact_catalogue_agree": true,
+  "samuel_father_unknown": true,
+  "vaccination_comparisons_unselected": true,
+  "corrected_index_birth": "1771-10-13",
+  "corrected_index_baptism": "1771-10-19",
+  "publication_new_failures": 0,
+  "link_new_pairs": 0,
+  "views_match_database": true,
+  "http": {
+    "/people/glasgow-3063.html": 200,
+    "/people/glasgow-3096.html": 200,
+    "/people/glasgow-1348.html": 200,
+    "/people/glasgow-1309.html": 200,
+    "/people/glasgow-1304.html": 200,
+    "/people/glasgow-971.html": 200,
+    "/people/glasgow-1355.html": 200,
+    "/latest-findings/page/22/#finding-merchant-john-alexander-monro-review-20261031": 200,
+    "/latest-findings/page/22/#finding-samuel-vaccination-unselected-1811-20261031": 200
+  },
+  "local_only": true,
+  "pushed": false
+}
