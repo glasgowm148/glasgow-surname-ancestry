@@ -31419,27 +31419,39 @@
   },
   {
     "record_id": "pittsylvania-james-glasgow-death-transcription-1860",
-    "record_type": "Death-register transcription",
-    "date": "1860",
+    "record_type": "Death register and transcription",
+    "date": "1860-09-28",
     "place": "Pittsylvania County, Virginia, United States",
-    "association": "James Glasgow, cooper, wife Susan informant; parents and exact date blank in the inspected transcription.",
-    "source_title": "USGenWeb, Pittsylvania County deaths1860, James Glasgow row; transcription of county death returns",
+    "association": "James Glasgow, cooper; original parent field blank; Susan Glasgow explicitly wife/informant.",
+    "source_title": "Pittsylvania1860 death return, James Glasgow; original verified against the retained transcription",
     "source_url": "https://www.usgenwebsites.org/vagenweb/pittsylvania/deaths/1860Deaths.htm",
-    "source_type": "Modern register transcription, original manuscript not inspected",
-    "source_quality": "derivative_transcription",
-    "source_status": "HTML row inspected 23 October 2026; kept separate from the already cited death index.",
-    "status": "Cooper, age 71 years 10 months 12 days, cause killed, Pittsylvania birth, Susan Glasgow wife/informant; no parent named.",
-    "reviewed": "2026-10-23",
+    "source_type": "Original county death register inspected; retained modern transcription URL",
+    "source_quality": "original_record",
+    "source_status": "Original DGS004225404 image316 inspected31October2026; same underlying event as the legacy index and USGenWeb transcription.",
+    "status": "Original parent cell blank; existing death date, age, trade and wife/informant confirmed",
+    "reviewed": "2026-10-31",
     "profiles": {
       "Glasgow-62": {
         "role": "Named deceased cooper"
       }
     },
-    "assessment": "The transcription adds occupation/informant/cause context but supplies neither parents nor an exact death date.28 September 1860 comes from the previously held index. Combining that date with the age gives16 November 1788; this calculated birthday is not independent birth evidence.",
-    "provenance": "research/ancestry-connections/american-family-review-2026-10-23.json",
-    "reviewed_on": "2026-10-23",
+    "assessment": "The original Pittsylvania death register for 1860 has now been inspected at FamilySearch DGS 004225404, full-film image 316, entry indexed as the 37th. James Glasgow’s row records 28 September, cause “Killed,” age 71 years 10 months 12 days, and occupation cooper. Susan Glasgow is the named informant, explicitly described as his wife. The Names of Parents cell on James’s row is blank. The parent names on the immediately preceding John Gammon row do not belong to James. No birthplace wording or ditto mark is visible in James’s own Where Born cell in the inspected row; the held Pittsylvania birthplace remains an index/transcription attribution, not a newly confirmed literal entry on this image. The county appears in the register heading. The consort column likewise does not supply a named spouse; Susan is identified through the informant columns. The full age is reported information, not a birth-register entry: calculating a birthday from it does not create independent birth evidence. The original confirms the already indexed death date, trade, age and wife/informant but supplies no parent. James’s father remains Unknown and unrated; all current vital fields and family relationships are retained.",
+    "provenance": "Original source link and private normal-provider download preserved31October2026. Existing canonical ID and primary transcription URL retained; original and legacy index added as same-event supporting sources. No father or vital-field change.",
+    "reviewed_on": "2026-10-31",
     "year": 1860,
-    "country": "united states"
+    "country": "united states",
+    "note": "The original Pittsylvania death register for 1860 has now been inspected at FamilySearch DGS 004225404, full-film image 316, entry indexed as the 37th. James Glasgow’s row records 28 September, cause “Killed,” age 71 years 10 months 12 days, and occupation cooper. Susan Glasgow is the named informant, explicitly described as his wife. The Names of Parents cell on James’s row is blank. The parent names on the immediately preceding John Gammon row do not belong to James. No birthplace wording or ditto mark is visible in James’s own Where Born cell in the inspected row; the held Pittsylvania birthplace remains an index/transcription attribution, not a newly confirmed literal entry on this image. The county appears in the register heading. The consort column likewise does not supply a named spouse; Susan is identified through the informant columns. The full age is reported information, not a birth-register entry: calculating a birthday from it does not create independent birth evidence. The original confirms the already indexed death date, trade, age and wife/informant but supplies no parent. James’s father remains Unknown and unrated; all current vital fields and family relationships are retained.",
+    "publish_to_record_index": true,
+    "additional_sources": [
+      {
+        "title": "Original1860 death register,DGS004225404,image316",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:S3HT-68DG-M"
+      },
+      {
+        "title": "Legacy index XRS2-X4P,same death return",
+        "url": "https://www.familysearch.org/ark:/61903/1:1:XRS2-X4P"
+      }
+    ]
   },
   {
     "record_id": "pittsylvania-james-glasgow-high-bond-1818",
