@@ -52258,5 +52258,51 @@
         "timeline_group": "Unselected identity comparison"
       }
     }
+  },
+  {
+    "record_id": "fmp-record-scot-opr-bap-4474385",
+    "provider_record_id": "SCOT/OPR/BAP/4474385",
+    "person": "John Glasgow",
+    "association": "John Glasgow baptism; father John, weaver at Bankhead",
+    "date": "1751-08-18",
+    "year": 1751,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "record_type": "Baptism transcript",
+    "record_category": "Births & baptisms",
+    "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — John Glasgow, 18 August 1751; OPR 689/20 item 1",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474385&tab=this",
+    "source_type": "Provider parish-register transcript; original uninspected",
+    "source_quality": "derivative",
+    "source_status": "Detailed derivative inspected 31 October 2026; original uninspected",
+    "status": "Existing event; father occupation and Bankhead residence newly inspected; no relationship change",
+    "note": "The detailed Findmypast OPR transcript records John’s baptism on 18 August 1751 at Kirknewton and East Calder, with father John Glasgow, a weaver, residence Bankhead, and mother Christian Meck (the literal indexed spelling). This is the existing John Glasgow-3480 event and John Glasgow-3481 / Christian Meek-3817 household. The useful additional details are the father’s trade and the precise residence. The original register has not been inspected. OPR 689/20, item 1, is the provider reference; its displayed 1642–1737 register range is inconsistent with the 1751 event and requires original/catalogue checking. No birth date is newly established. The MyHeritage citation and Findmypast companion indexes R_686207931 and R_691903896 describe this same baptism and are not independent witnesses. The existing child-to-father assessment remains 98%; John-3481’s selected uncertain William-1026 father remains 23%. No identity merger, parent attachment, maternal regrade, exact vital-date change or confidence gain follows.",
+    "profiles": {
+      "Glasgow-3480": {
+        "role": "Existing baptised child; baptism not exact birth",
+        "timeline_group": "Baptism"
+      },
+      "Glasgow-3481": {
+        "role": "Existing named father, weaver at Bankhead",
+        "timeline_group": "Family evidence"
+      },
+      "Meek-3817": {
+        "role": "Existing mother/spouse identity; literal transcript surname Meck, no maternal regrade",
+        "timeline_group": "Family evidence"
+      }
+    },
+    "additional_sources": [
+      {
+        "title": "Same-event companion index R_686207931",
+        "url": "https://www.findmypast.co.uk/transcript?id=R_686207931&tab=this"
+      },
+      {
+        "title": "Same-event companion index R_691903896",
+        "url": "https://www.findmypast.co.uk/transcript?id=R_691903896&tab=this"
+      }
+    ],
+    "reviewed_on": "2026-10-31",
+    "provenance": "Detailed logged-in provider transcript inspected; private receipt tmp/calder-meek-weaver-20261031/john1751-opr.json. No raw licensed capture published.",
+    "publish_to_record_index": true
   }
 ]

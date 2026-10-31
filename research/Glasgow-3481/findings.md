@@ -3,6 +3,8 @@ Last updated: 27 September 2026
 
 ## Current conclusion
 
+**31 October 2026 source review:** The detailed Findmypast OPR transcript records John’s baptism on 18 August 1751 at Kirknewton and East Calder, with father John Glasgow, a weaver, residence Bankhead, and mother Christian Meck (the literal indexed spelling). This is the existing John Glasgow-3480 event and John Glasgow-3481 / Christian Meek-3817 household. The useful additional details are the father’s trade and the precise residence. The original register has not been inspected. OPR 689/20, item 1, is the provider reference; its displayed 1642–1737 register range is inconsistent with the 1751 event and requires original/catalogue checking. No birth date is newly established. The MyHeritage citation and Findmypast companion indexes R_686207931 and R_691903896 describe this same baptism and are not independent witnesses. The existing child-to-father assessment remains 98%; John-3481’s selected uncertain William-1026 father remains 23%. No identity merger, parent attachment, maternal regrade, exact vital-date change or confidence gain follows.
+
 Reviewed: 2026-10-16
 
 **Selected Calder/Irvine working families, 16 October 2026:** John of the Calder/Meek household is placed under William-1026 through the 1702 child comparison, uncertain. George of the Irvine Margt household is placed under John-1057 and Agnes Spark through the 1687 child and 1728 couple comparison, both uncertain. Existing dates, recorded-child grades and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#calder-irvine-working-family).
@@ -19,7 +21,7 @@ Follow-up,24October2026: existing named-father account; keep current father asse
 
 ## Unresolved questions
 
-Compare the original parish entries for residences, witnesses and Jean's mother; seek a marriage or land record joining the 1730 and 1751 households.
+The 1751 derivative now supplies Bankhead and the father’s weaving trade; original pages, witnesses and Jean’s mother remain untested. Seek a distinctive marriage, land or occupational succession joining the 1730 and 1751 adults. The bounded Meek/Meck/Mook search and 1736 Simson exclusion below are complete and should not be repeated unchanged.
 
 
 ## Selected uncertain family — 16 October 2026
@@ -67,3 +69,15 @@ existing named-father account; keep current father assessment 98%, no new grade 
 
 These are derivative transcripts; original register and memorial images remain uninspected. Paired entries repeat an event rather than independent corroboration. Birth, baptism, death and burial remain separate. Current vital fields and relationship grades are retained. [Audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE18-20261024 -->
+
+## Bankhead source test — 31 October 2026
+
+The detailed Findmypast OPR transcript records John’s baptism on 18 August 1751 at Kirknewton and East Calder, with father John Glasgow, a weaver, residence Bankhead, and mother Christian Meck (the literal indexed spelling). This is the existing John Glasgow-3480 event and John Glasgow-3481 / Christian Meek-3817 household. The useful additional details are the father’s trade and the precise residence. The original register has not been inspected. OPR 689/20, item 1, is the provider reference; its displayed 1642–1737 register range is inconsistent with the 1751 event and requires original/catalogue checking. No birth date is newly established.
+
+The MyHeritage citation and Findmypast companion indexes R_686207931 and R_691903896 describe this same baptism and are not independent witnesses. The existing child-to-father assessment remains 98%; John-3481’s selected uncertain William-1026 father remains 23%. No identity merger, parent attachment, maternal regrade, exact vital-date change or confidence gain follows.
+
+The newly inspected native OPR transcript for Jean in 1730 names father John but supplies no mother, residence or occupation; its 20 November date remains in disagreement with the held FamilySearch 11 November reading. It does not bridge the preferred 1730/1751 adult identity. The 1702 John/William transcript reads 29 November, with no trade or residence; the earlier before-11-November/29-November conflict remains unresolved and no childhood is proved for the Bankhead adult. The 1717 John baptism’s father is a weaver at literal Templtand. That record remains an unselected childhood comparison for Glasgow-2847, not an assigned event for Glasgow-3481. A shared weaving trade supplies context only; Bankhead and Templtand differ and no father/adult identity bridge is established.
+
+Bounded Christian Meek, Meck and Mook marriage searches used marriage year 1730 ±30. The inspected reciprocal 1736 Leith Meek/Meck entries name groom Robert Simson, not John Glasgow; the named fathers James Meck and James Simson, candle makers, cannot be assigned to the Meek wife. No Mook rows were returned; other returned rows were not tested. This is not exhaustive marriage coverage or evidence that no Glasgow marriage exists. The held 1748 Court of Session title “Bankhead v Glasgow and others”, CS237/B/2/25, gives no forename or address and is not identified with this weaver; an exact-reference official-web query returning no result is not archival absence.
+
+Sources: [1751 detailed transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474385&tab=this) · [1730 comparison](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474288&tab=this) · [1702 comparison](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4473915&tab=this) · [1717 Templtand comparison](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474159&tab=this) · [1736 Meck/Simson marriage exclusion](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1450857%2F2&tab=this). [Adult John](/people/glasgow-3481.html) · [baptised John](/people/glasgow-3480.html) · [Christian Meek](/people/meek-3817.html) · [working-family comparison](/branches/early-scottish-records/#calder-irvine-working-family).

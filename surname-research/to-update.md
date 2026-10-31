@@ -4618,3 +4618,8 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2847) | OPEN | Verify 6 September 1747 as the child’s indexed baptism, not exact birth; retain the 25% adult-father and 98% child-father assessments and all Larne/Chester identity limits. |
 
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2847) | OPEN | Add competing 5 April 1717 childhood, father John weaver at Templtand; unselected comparison, no new father attachment or date assignment. |
+
+## 31 October 2026 — Calder/Meek Bankhead source review
+
+| [John Glasgow, father](https://www.wikitree.com/wiki/Glasgow-3481) | OPEN | Add 1751 OPR weaving occupation and Bankhead residence; original uninspected, prior relationship proposals preserved. |
+| [John Glasgow, baptised1751](https://www.wikitree.com/wiki/Glasgow-3480) | OPEN | Add 1751 OPR weaving occupation and Bankhead residence; original uninspected, prior relationship proposals preserved. |
