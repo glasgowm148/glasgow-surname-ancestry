@@ -4846,6 +4846,90 @@ def _validate_profile_preservation_review(profile_id: str, current: str, propose
         raise ValueError(f"Profile preservation review is incomplete for {profile_id}")
 
 
+def _private_additive_profile_update(profile_id: str, specification: dict, evidence: dict) -> dict:
+    """Validate private preservation proof without importing either biography."""
+    try:
+        from queue_profile_amendments import public_additive_update
+    except ModuleNotFoundError:
+        from tools.queue_profile_amendments import public_additive_update
+    index_path = PROJECT_ROOT / 'www/data/people-index.json'
+    rows = json.loads(index_path.read_text()) if index_path.is_file() else []
+    published = [row for row in rows if row.get('id') == profile_id
+                 and row.get('json_url') == f'/people/{profile_id.lower()}.json']
+    privacy_flags = ('private', 'withheld', 'living', 'likely_living')
+    capture = (evidence.get('profiles') or {}).get(profile_id) or {}
+    withheld_narrative = capture.get('narrative_withheld') is True
+    safe_metadata = False
+    if withheld_narrative:
+        fields = capture.get('profile_fields') or {}
+        birth = re.fullmatch(r'(\d{4})(?:-\d{2}-\d{2})?', str(fields.get('BirthDate') or ''))
+        safe_metadata = (fields.get('Name') == profile_id and fields.get('Privacy') == 60
+                         and fields.get('IsLiving') is False and birth is not None
+                         and 0 < int(birth[1]) < date.today().year - 120
+                         and not any(capture.get(flag) for flag in privacy_flags)
+                         and not any(capture.get(key) for key in
+                                     ('biography_wikitext', 'biography_text', 'record_passages', 'relations'))
+                         and not any(fields.get(key) for key in ('Bio', 'bio', 'Biography', 'biography')))
+        if not safe_metadata:
+            raise ValueError(f'Private additive update requires safe historical metadata for {profile_id}')
+    historical = (len(published) == 1 and type(published[0].get('birth_year')) is int
+                  and 0 < published[0]['birth_year'] < date.today().year - 120
+                  and not any(published[0].get(flag) for flag in privacy_flags))
+    if not historical and not safe_metadata:
+        # Older published spouse accounts can predate the search index. Read
+        # their existing public files, never create or import a new capture.
+        dossier_path = PROJECT_ROOT / 'www/people' / (profile_id.lower() + '.json')
+        html_path = dossier_path.with_suffix('.html')
+        if (WIKITREE_ID.fullmatch(profile_id) and not dossier_path.parent.is_symlink()
+                and all(p.is_file() and not p.is_symlink() for p in (dossier_path, html_path))):
+            dossier = json.loads(dossier_path.read_text(encoding='utf-8'))
+            birth = str(((dossier.get('vitals') or {}).get('birth') or {}).get('date') or '')
+            match = re.fullmatch(r'(?:c\.\s*|circa\s+)?(\d{4})(?:-\d{2}-\d{2})?', birth.strip())
+            if match and '-' in birth:
+                try:
+                    date.fromisoformat(re.sub(r'^(?:c\.\s*|circa\s+)', '', birth.strip()))
+                except ValueError:
+                    match = None
+            historical = (dossier.get('id') == profile_id and match is not None
+                          and 0 < int(match[1]) < date.today().year - 120
+                          and not any(dossier.get(flag) for flag in privacy_flags)
+                          and not any(row.get(flag) for row in rows if row.get('id') == profile_id
+                                      for flag in privacy_flags)
+                          and not any(type(row.get('birth_year')) is int
+                                      and row['birth_year'] >= date.today().year - 120
+                                      for row in rows if row.get('id') == profile_id))
+    if not historical and not safe_metadata:
+        raise ValueError(f'Private additive update requires an already published historical subject: {profile_id}')
+    private_root = (PROJECT_ROOT / 'data/private').resolve()
+    proof = {}
+    for field in ('private_capture_path', 'draft_path', 'preservation_review_path'):
+        value = specification.get(field)
+        path = (PROJECT_ROOT / value).resolve() if isinstance(value, str) and value else None
+        if path is None or private_root not in path.parents or not path.is_file():
+            raise ValueError(f'Private additive update needs valid private preservation proof for {profile_id}: {field}')
+        proof[field] = path
+    current = proof['private_capture_path'].read_text(encoding='utf-8').strip()
+    proposed = _extract_profile_draft(specification)
+    if not current or not proposed or '== Biography ==' not in current or '== Sources ==' not in current:
+        raise ValueError(f'Private additive update needs complete biographies for {profile_id}')
+    review = json.loads(proof['preservation_review_path'].read_text())['profiles'][profile_id]
+    _validate_profile_preservation_review(profile_id, current, proposed, review)
+    addition = specification.get('public_addition_wikitext')
+    if not isinstance(addition, str) or not addition.strip() or addition.strip() not in proposed:
+        raise ValueError(f'Private additive update needs an addition contained in the reviewed proposal for {profile_id}')
+    safe = public_additive_update({
+        **specification, 'profile_id': profile_id, 'profile_url': WIKITREE_URL + profile_id,
+        'pending': bool(specification.get('pending', True)),
+        'significance': int(specification.get('significance') or 0),
+    })
+    public_text = json.dumps(safe, ensure_ascii=False)
+    if (privacy_from_sources(evidence, all_exports=True).contains_private_id(public_text)
+            or re.search(r'data[/\\]+private(?:[/\\]|\b)', public_text, re.I)
+            or any(str(path) in public_text for path in proof.values())):
+        raise ValueError(f'Private additive update contains withheld material for {profile_id}')
+    return safe
+
+
 def _load_profile_updates(wikitree_evidence: dict, report: list | None = None,
                           profile_ids: set[str] | None = None) -> dict[str, dict]:
     """Build paste-ready biographies by applying reviewed patches to live WikiTree text.
@@ -4954,6 +5038,9 @@ def _load_profile_updates(wikitree_evidence: dict, report: list | None = None,
                         f"entry {'dated ' + entry_date if entry_date else 'undated'}, not after the completion")
                 continue
         capture = captures.get(profile_id)
+        if specification.get('private_comparison') is True and (not capture or capture.get('narrative_withheld') is True):
+            updates[profile_id] = _private_additive_profile_update(profile_id, specification, wikitree_evidence)
+            continue
         if not capture:
             if specification.get("registered_update") or reopened_by_date:
                 dropped(profile_id, specification, "no_capture", "no WikiTree capture for this profile")
