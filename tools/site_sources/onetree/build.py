@@ -464,6 +464,78 @@ def apply_reviewed_parent_replacements(people: list[dict], assessments: list[dic
     return sorted(changed)
 
 
+def approved_record_parent_nodes(nodes, cohort, site_root, assessments):
+    """Extend display scope only along assessed, public historical parent links.
+
+    The surname coverage graph remains unchanged; a named mother or grandparent
+    need not acquire a Glasgow surname to appear in the selected family.
+    """
+    index_path = site_root / 'data/people-index.json'
+    if not index_path.is_file():
+        return set()
+    index = {r.get('id'): r for r in json.loads(index_path.read_text())}
+    scope, added = set(cohort), set()
+    pending = True
+    while pending:
+        pending = False
+        for assessment in assessments or []:
+            if (assessment.get('publication_status') != 'approved'
+                    or not assessment.get('source_ids')
+                    or not (assessment.get('probability') or {}).get('value')
+                    or assessment.get('status') not in {'proved', 'confident', 'strongly_supported', 'probable', 'possible', 'uncertain'}
+                    or assessment.get('display') in {'alternative', 'historical', 'superseded'}
+                    or assessment.get('lifecycle') not in (None, 'current')):
+                continue
+            for child, view in assessment.get('perspectives', {}).items():
+                if child not in scope or view.get('relationship') not in {'father', 'mother'}:
+                    continue
+                others = [p for p in assessment.get('people', []) if p != child]
+                if len(others) != 1:
+                    continue
+                target = others[0]
+                if target in scope or not re.fullmatch(r'record-[a-z0-9]+(?:-[a-z0-9]+)*', target):
+                    continue
+                row = index.get(target, {})
+                relative = '/people/' + target + '.json'
+                if row.get('json_url') != relative or row.get('html_url') != '/people/' + target + '.html':
+                    continue
+                path = site_root / relative.lstrip('/')
+                if not path.is_file() or path.is_symlink():
+                    continue
+                dossier = json.loads(path.read_text())
+                historical = dossier.get('historical_basis') or {}
+                year = historical.get('latest_birth_year')
+                if (dossier.get('id') != target or not dossier.get('pending_profile_creation')
+                        or type(year) is not int or year >= date.today().year - 120
+                        or not re.match(r'https?://[^/]+', historical.get('source_url') or '')
+                        or any(item.get(flag) for item in (row, dossier)
+                               for flag in ('private', 'withheld', 'living', 'likely_living'))):
+                    continue
+                # A shared assessment is insufficient if the published child
+                # account has since withdrawn or replaced this selection.
+                child_path = site_root / 'people' / (child.lower() + '.json')
+                if not child_path.is_file():
+                    continue
+                child_dossier = json.loads(child_path.read_text())
+                selected = [r for r in (child_dossier.get('relationships') or {}).get('parents', [])
+                            if r.get('id') == target and r.get('assertion_id') == assessment.get('assertion_id')
+                            and r.get('relationship') == view['relationship'] and not r.get('withheld')
+                            and r.get('publication_status') == 'approved'
+                            and r.get('lifecycle') in (None, 'current')
+                            and r.get('display') not in {'alternative', 'historical', 'superseded'}]
+                if len(selected) != 1:
+                    continue
+                birth = (dossier.get('vitals') or {}).get('birth') or {}
+                death = (dossier.get('vitals') or {}).get('death') or {}
+                nodes.setdefault(target, dict(id=target, name=dossier.get('name') or target,
+                    url=row['html_url'], gender=(dossier.get('identity') or {}).get('gender') or '',
+                    birth_year=None, death_year=None, birth_status=birth.get('status'),
+                    year=year, year_basis='historical upper bound', year_status='bounded',
+                    first_record_year=None, birth_surnames=row.get('birth_surnames') or []))
+                scope.add(target); added.add(target); pending = True
+    return added
+
+
 def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 1850,
                           assessments: list[dict] | None = None, *, add_only: bool = False) -> dict:
     """Reconcile historical fathers and explicitly reviewed maternal claims.
@@ -491,7 +563,9 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
             continue
         reviewed.update(ident for ident, view in assessment.get('perspectives', {}).items()
                         if view.get('relationship') == 'father' and ident in nodes)
-    cohort = sorted(set(cohort) | reviewed)
+    cohort = set(cohort) | reviewed
+    cohort |= approved_record_parent_nodes(nodes, cohort, site_root, assessments)
+    cohort = sorted(cohort)
     by_id = {p['id']: p for p in people}
     changed, related, added, held = set(), set(), set(), set()
     ambiguous = set(quality['multiple_fathers'])
@@ -545,7 +619,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                       birthDisplay=birth.get('date') or '', deathDisplay=death.get('date') or '',
                       birthplace=birthplace, deathplace=deathplace, sex=nodes[ident]['gender'],
                       parents=[], partners=[], childrenRecorded=[], note='',
-                      first=nodes[ident]['name'].split()[0], surname=ident.rsplit('-', 1)[0],
+                      first=nodes[ident]['name'].split()[0], surname=(nodes[ident].get('birth_surnames') or [ident.rsplit('-', 1)[0]])[0],
                       currentSurname='', bornApprox=birth.get('status') not in ('certain', 'confident'),
                       year=nodes[ident]['year'] or cutoff, catalogueId=Path(relative).stem,
                       locationRegion=region, locationLabel=loc['label'], locationColor=loc['color'],

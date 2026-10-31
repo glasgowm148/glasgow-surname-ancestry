@@ -143,6 +143,10 @@ def shared_relationship(profile_id, relation, assessments):
 
 def _sync_presentation(result):
     # These are derived mirrors of research facts, never decision inputs.
+    for rows in result.get('relationships', {}).values():
+        for row in rows:
+            if str(row.get('id', '')).startswith('record-'):
+                row['wikitree_url'] = None
     for group in ('parents', 'spouses'):
         for row in result.get('relationships', {}).get(group, []):
             row['probability'] = probability_for_relationship(row, result.get('id'))
@@ -268,7 +272,7 @@ def resolve(dossier, assessments, shared_assessments=()):
                 raise ValueError(f"Shared assertion {aid} needs a supported family role and sources")
             current.update(id=other, name=assessment.get('profile_names', {}).get(other, other),
                            url=f'/people/{other.lower()}.html',
-                           wikitree_url=f'https://www.wikitree.com/wiki/{other}')
+                           wikitree_url=None if other.startswith('record-') else f'https://www.wikitree.com/wiki/{other}')
             relative_urls = (assessment.get('profile_urls') or {}).get(other)
             if relative_urls is not None:
                 if not valid_account_url(relative_urls.get('url', '')):
