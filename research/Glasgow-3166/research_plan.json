@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-3166",
+  "objective": "Find a defensible parent candidate for the Dalziel groom and father, retaining his unknown birthplace and parentage.",
+  "research_state": {
+    "disposition": "reviewed_no_change",
+    "reviewed": "2026-10-31",
+    "last_test": "A bounded FamilySearch Scotland Births and Baptisms search for Samuel Glasgow with birth range 1600–1705 returned five entries on one page. The one Samuel result is in the father role for child James; the other four display Glasgow in parental roles. No returned entry identifies Samuel as a baptised child or supplies his father. This is a returned-index-set review, not proof that no Scottish baptism or parents exist. The held 1716 Dalziel banns and 1719 father role remain the current account; Samuel’s own father stays Unknown, without a percentage.",
+    "next_test": "Seek an accessible original of the held 1716 Dalziel banns or a specific testament, apprenticeship, tenancy or church entry with named kin or a distinctive residence linking this Samuel to an earlier household. The same Scotland birth-index query alone is not a new test.",
+    "resume_when": "A named-kin or distinctive household record, newly available original, or a specific compatible childhood candidate supplies a discriminator. A different provider repeating the same index is not independent evidence.",
+    "source_locators": [
+      "https://www.familysearch.org/en/search/record/results?f.collectionId=1771030&q.givenName=Samuel&q.surname=Glasgow&q.birthLikeDate.from=1600&q.birthLikeDate.to=1705&count=100",
+      "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1215123%2F1",
+      "https://www.familysearch.org/ark:/61903/1:1:XTLJ-PML"
+    ]
+  },
+  "web_searches": [
+    {
+      "date": "2026-10-31",
+      "url": "https://www.familysearch.org/en/search/record/results?f.collectionId=1771030&q.givenName=Samuel&q.surname=Glasgow&q.birthLikeDate.from=1600&q.birthLikeDate.to=1705&count=100",
+      "status": "completed_no_change",
+      "result": "A bounded FamilySearch Scotland Births and Baptisms search for Samuel Glasgow with birth range 1600–1705 returned five entries on one page. The one Samuel result is in the father role for child James; the other four display Glasgow in parental roles. No returned entry identifies Samuel as a baptised child or supplies his father. This is a returned-index-set review, not proof that no Scottish baptism or parents exist. The held 1716 Dalziel banns and 1719 father role remain the current account; Samuel’s own father stays Unknown, without a percentage.",
+      "search_id": "search-dalziel-samuel-childhood-index-20261031"
+    }
+  ]
+}
