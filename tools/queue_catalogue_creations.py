@@ -174,6 +174,11 @@ def decorate_person(person, entry):
         person[key] = deepcopy(entry[key])
     for key in ("gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location"):
         person[key] = entry.get(key) or ""
+    if "occupations" in entry:
+        occupations = entry["occupations"]
+        if not isinstance(occupations, list) or any(not isinstance(value, str) or not value.strip() for value in occupations):
+            raise ValueError(f"{entry['catalogue_id']}: occupations must be a list of nonblank strings")
+        person["occupations"] = deepcopy(occupations)
     person["_birth_estimate_suppressed"] = not bool(person["birth"])
     person["likely_living"] = False  # reviewed_people enforces historical evidence.
     return person

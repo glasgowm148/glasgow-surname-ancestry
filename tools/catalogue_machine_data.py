@@ -350,6 +350,13 @@ def _best_source(subject_ids: list[str], basis: str, people_by_id: dict[str, dic
 
 
 def _occupation_terms(person: dict) -> list[str]:
+    # Explicit person-level fields take precedence over narrative mentions of
+    # relatives. An empty reviewed list deliberately suppresses inference.
+    if "occupations" in person:
+        occupations = person["occupations"]
+        if not isinstance(occupations, list) or any(not isinstance(value, str) or not value.strip() for value in occupations):
+            raise ValueError("occupations must be a list of nonblank strings")
+        return list(dict.fromkeys(value.strip() for value in occupations))
     text = " ".join(f"{row.get('association', '')} {row.get('note', '')}" for row in person.get("records", []))
     for capture in person.get("wikitree_evidence", []):
         for passage in capture.get("record_passages", []):

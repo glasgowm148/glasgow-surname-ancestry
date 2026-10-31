@@ -399,6 +399,28 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(module.creation_update(person)["action"], "create_new_profile")
         self.assertIsNone(module.creation_update({"profile_ids": ["Glasgow-123"]}))
 
+    def test_reviewed_person_occupations_override_relative_mentions_in_dossiers(self):
+        cases = [
+            ([], "Her husband John Smith was a merchant."),
+            (["gardener"], "Charles was a gardener; his father Thos was a labourer."),
+            (["labourer"], "John appears in the family roster."),
+        ]
+        for occupations, note in cases:
+            with self.subTest(occupations=occupations):
+                self.entry["occupations"] = occupations
+                self.entry["records"][0]["note"] = note
+                self.save()
+                records = module.reviewed_records(self.root)
+                people = module.catalogue._build_people(records, {}, [], {}, {"profiles": {}})
+                person = module.decorate_person(people[0], self.entry)
+                dossiers, resolver = module.build_machine_models([person])
+                dossier = dossiers[self.slug]
+                self.assertEqual(dossier["identity"]["occupations"], occupations)
+                person = next(row for row in resolver if row["id"] == self.slug)
+                self.assertEqual(person["occupations"], occupations)
+                compact = module.compact_resolver_row(person)
+                self.assertEqual(compact.get("occupations", []), occupations)
+
     def test_explicit_relationship_change_survives_creation_and_search_row(self):
         self.entry["relationship_changes"] = [{"action": "add", "relationship": "father",
                                                 "relative_id": "Glasgow-428", "status": "proved"}]
