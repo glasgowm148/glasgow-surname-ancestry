@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 31 October 2026: the existing father remains **78% Probable**. The located FreeCEN transcript names Jane Robertson, 20, at Holly Walk but supplies no relationship labels. The new comparison concerning Mary’s family role does not establish or replace Jane’s parentage.
+
 Reviewed 24 October 2026. [Jane Glasgow-3022](/people/glasgow-3022.html) → [Robert Robertson, later Glasgow](/people/robertson-30564.html) is a **probable** father relationship, assessed 78%, with profile identity still provisional. Robertson-30564’s captured biography lists a daughter called Philadelphia Jane, and the copied 1841 household account places Jane Robertson, age 20, in Robert’s Holly Walk household. Together these are credible evidence for the relationship, but neither item independently identifies WikiTree profile Glasgow-3022 as that daughter, and the census page has not been independently inspected. The profile’s 1804-France birth fields are unverified and conflict with the copied age if both are literal; they are not corrected or used as a decisive exclusion. This is the first individual numeric assessment of an existing unmarked tree link, not a new discovery. Mother and vital fields are not reassessed.
 
 ## Father assessment — 24 October 2026
@@ -18,3 +20,16 @@ The 78% assessment is subjective and reflects a credible family and naming match
 - Robertson-30564 captured biography: `data/wikitree/profile-evidence.json#/profiles/Robertson-30564/biography_wikitext`; it names Philadelphia Jane among four children.
 
 Next test: inspect the original 1841 Holly Walk census schedule for relationship and identifying details, then seek a record connecting Philadelphia Jane by full name or later identity to Glasgow-3022.
+
+
+## Located census transcript and daughter-in-law comparison — 31 October 2026
+
+The Holly Walk household now has a precise census locator: HO107/1135, enumeration district 10, folio 11, page 15, Leamington Priors (FreeCEN district Kenilworth). FreeCEN transcribes Mary Glasgow 19 and Wilhelmina Robertson 1, both born Scotland, with Robert Glasgow 65. It gives no relationship labels. This may be the source of the old copied WikiTree paragraph, so it is one census record, not independent family testimony.
+
+A specific daughter-in-law alternative can now be tested. Paterson’s 1866 county history, printed pp. 513–514 (PDF 249–250), says the elder Robert’s eldest son and heir, born 22 May 1811, married Mary-Wilhelmina, daughter of John Campbell of Stonefield, on 11 July 1839; their children include Wilhelmina-Colquhoun. The checked existing bride is Campbell-38211 and groom Robertson-Glasgow-11. A married Mary beside the infant of this same family could be that daughter-in-law rather than another daughter of the household head. This is a new comparison, not an established identification.
+
+The age problem remains real: FreeCEN gives Mary 19 in 1841, while Campbell-38211’s public profile gives 1816 and copies an 1851 age 34. The latter original is also unread. The infant’s full name and birth particulars are not established by FreeCEN. Paterson is a compiled family history, not an original marriage entry, and its adjacent Montgreenan descent narrative has known conflicts with the separately held court evidence. Do not transfer the book’s explicit John Campbell parentage to Glasgow-3021 before identifying the two Marys. Retain the selected Robert Robertson father at 45%, Jane’s father at 78%, all mother/vital fields and separate profiles; no father replacement, merge or confidence improvement is recorded.
+
+[FreeCEN household and exact locator](https://www.freecen.org.uk/search_records/5905ca04e9379091b1863863/robert-glasgow-1841-warwickshire-kenilworth-1776-) · [Paterson 1866, printed pp. 513–514; PDF 249–250](https://www.kilwinningheritage.org.uk/office/resources/documents/history-of-the-counties-of-ayr-and-wigton-vol-3-pt-2-paterson-1863.pdf#page=250) · [Checked bride Mary Wilhelmina Campbell](https://www.wikitree.com/wiki/Campbell-38211) · [Checked younger Robert](https://www.wikitree.com/wiki/Robertson-Glasgow-11).
+
+Next discriminating test: inspect the original 1841 schedule at the exact locator, then the bride’s original 1839 marriage and 1851 household. Establish age, full name and family role before proposing John Campbell as Glasgow-3021’s father.

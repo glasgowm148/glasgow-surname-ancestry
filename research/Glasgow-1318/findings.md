@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed 31 October 2026: the selected father remains **57% Possible**. The bounded public inscription-book check supplies no family clause for this test; it is not an exhaustive churchyard search. The original 22 April 1705 baptism remains the next discriminating record; the signed-in film check now confirms FamilySearch Center or affiliate-library access is required.
+
 Reviewed: 2026-10-20
 
 **Killycurragh generations:** New possible son: the Killycurragh Cunningham husband, 36%; Scottish child-to-adult identity remains unproved. [Family sequence and source limits](/free-space/glasgow-of-killycurragh-early-c19-aa9477/).
@@ -61,3 +63,17 @@ Scope: Complete father-profile placement57%; the younger William’s inability t
 Next useful test: Compare the 1705 original for residence or mother to distinguish the two Williams.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+
+## Bounded inscription check — 31 October 2026
+
+Charles Rogers, Monuments and Monumental Inscriptions in Scotland, vol. I, Kirknewton section, printed pp. 169–170 (PDF 193–194), was read in the public scan. It concerns selected notable memorials and supplies no Glasgow family clause for this test. It is not a complete churchyard survey or evidence that no Glasgow stone exists. The 1705 baptism original remains uninspected and the selected father remains 57%.
+
+[Public book scan](https://electricscotland.com/books/pdf/monumentsmonumen01gram.pdf#page=193). The next useful record remains the original 22 April 1705 baptism, checking residence, maternal wording or witnesses to distinguish the two Williams.
+
+
+## Original baptism film access checked — 31 October 2026
+
+Signed-in FamilySearch access checked 31 October 2026: the index VQ4K-FY9 names William as father and gives 22 April 1705 as the christening. Its source metadata includes DGS 8059412 and films 1067762/103118. The underlying Kirknewton and East Calder film, DGS 008059412, opens to a restriction requiring a FamilySearch Center or affiliate library. No original baptism page was read. This is an access limit, not evidence about the missing mother or which William was the father. The assessment remains 57%; another account login is not the next test.
+
+[Index and document metadata](https://www.familysearch.org/ark:/61903/1:1:VQ4K-FY9) · [Signed-in film access checked](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSFP-PS7V-7). These links are source/access references, not an inspected image of the 1705 entry.

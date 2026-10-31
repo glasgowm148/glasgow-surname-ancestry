@@ -1,7 +1,11 @@
 # Findings: [Robertson-30564](https://www.wikitree.com/wiki/Robertson-30564)
 
 <!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
-## Current conclusion — newspaper identity review, 6 October 2026
+## Current conclusion
+
+Reviewed 31 October 2026: the Holly Walk household now has an exact census reference. Mary’s daughter relationship remains unproved; a daughter-in-law comparison with the younger Robert’s wife is now documented for testing. No child, parent or vital assessment changes.
+
+## Earlier conclusion — newspaper identity review, 6 October 2026
 
 - [Freeman’s Journal and Daily Commercial Advertiser, 1847-09-02, p.4](https://www.newspapers.com/image/401331272/): the late Robert Glasgow, Esq., of Montgreenan, county Ayr (father of both brides) — **strong** match. Unique designation 'of Montgreenan', described as 'the late' in Sept 1847. Of the Montgreenan owners: Dr Robert Glasgow-1076 died in 1827. Wikipedia says he had no offspring, but his own findings record natural children, including Anne, wife of Robertson-30564, so that is not a ground for exclusion; he remains a weaker possible alternative (corrected 7 October 2026; see `research/Glasgow-1076/findings.md`). Robert Robertson of Prenderguest, son-in-law, inherited in 1828 and took the name Glasgow; the LBS claim names 'Robert Glasgow Esq. (late Robertson) and Anne his wife'. His son Robert Robertson-Glasgow inherited in 1845 and lived to 1860 (thepeerage), so he cannot be 'the late' in 1847. Only Robertson-30564 survives. Sources: [Wikipedia: Montgreenan](https://en.wikipedia.org/wiki/Montgreenan); [UCL LBS claim 15 Feb 1836](https://www.ucl.ac.uk/lbs/claim/view/26620); [thepeerage p67979](https://ftp.thepeerage.com/p67979.htm)
 
@@ -43,3 +47,16 @@ The combination of the Montgreenan designation, Robert Robertson’s later Glasg
 
 Compatible family profiles are [Robert Robertson, later Glasgow](https://www.wikitree.com/wiki/Robertson-30564), [Anne Glasgow](https://www.wikitree.com/wiki/Glasgow-3000), [Charlotte Marie Cecilia Glasgow](https://www.wikitree.com/wiki/Glasgow-3003) and [Rev George Drake](https://www.wikitree.com/wiki/Drake-13873).
 <!-- queue-record-integration-2026-10-17:end -->
+
+
+## Located census transcript and daughter-in-law comparison — 31 October 2026
+
+The Holly Walk household now has a precise census locator: HO107/1135, enumeration district 10, folio 11, page 15, Leamington Priors (FreeCEN district Kenilworth). FreeCEN transcribes Mary Glasgow 19 and Wilhelmina Robertson 1, both born Scotland, with Robert Glasgow 65. It gives no relationship labels. This may be the source of the old copied WikiTree paragraph, so it is one census record, not independent family testimony.
+
+A specific daughter-in-law alternative can now be tested. Paterson’s 1866 county history, printed pp. 513–514 (PDF 249–250), says the elder Robert’s eldest son and heir, born 22 May 1811, married Mary-Wilhelmina, daughter of John Campbell of Stonefield, on 11 July 1839; their children include Wilhelmina-Colquhoun. The checked existing bride is Campbell-38211 and groom Robertson-Glasgow-11. A married Mary beside the infant of this same family could be that daughter-in-law rather than another daughter of the household head. This is a new comparison, not an established identification.
+
+The age problem remains real: FreeCEN gives Mary 19 in 1841, while Campbell-38211’s public profile gives 1816 and copies an 1851 age 34. The latter original is also unread. The infant’s full name and birth particulars are not established by FreeCEN. Paterson is a compiled family history, not an original marriage entry, and its adjacent Montgreenan descent narrative has known conflicts with the separately held court evidence. Do not transfer the book’s explicit John Campbell parentage to Glasgow-3021 before identifying the two Marys. Retain the selected Robert Robertson father at 45%, Jane’s father at 78%, all mother/vital fields and separate profiles; no father replacement, merge or confidence improvement is recorded.
+
+[FreeCEN household and exact locator](https://www.freecen.org.uk/search_records/5905ca04e9379091b1863863/robert-glasgow-1841-warwickshire-kenilworth-1776-) · [Paterson 1866, printed pp. 513–514; PDF 249–250](https://www.kilwinningheritage.org.uk/office/resources/documents/history-of-the-counties-of-ayr-and-wigton-vol-3-pt-2-paterson-1863.pdf#page=250) · [Checked bride Mary Wilhelmina Campbell](https://www.wikitree.com/wiki/Campbell-38211) · [Checked younger Robert](https://www.wikitree.com/wiki/Robertson-Glasgow-11).
+
+Next discriminating test: inspect the original 1841 schedule at the exact locator, then the bride’s original 1839 marriage and 1851 household. Establish age, full name and family role before proposing John Campbell as Glasgow-3021’s father.

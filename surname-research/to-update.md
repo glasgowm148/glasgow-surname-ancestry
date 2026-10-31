@@ -4558,3 +4558,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 ## 31 October 2026 — qualified original Mary Glasgow will
 
 | [Mary, wife of James Glasgow](https://www.wikitree.com/wiki/Crosier-512) | OPEN | Add the partial original1822will reading and source limitation; no parent, surname or confidence amendment. |
+
+
+## 31 October 2026 — Holly Walk census and open family role
+
+| [Glasgow-3021](https://www.wikitree.com/wiki/Glasgow-3021) | OPEN | Add exact 1841 census source and unselected Mary Campbell comparison; retain existing father grade and full prior proposal. |
+| [Glasgow-3022](https://www.wikitree.com/wiki/Glasgow-3022) | OPEN | Add exact 1841 census source and unselected Mary Campbell comparison; retain existing father grade and full prior proposal. |

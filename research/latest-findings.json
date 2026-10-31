@@ -64003,6 +64003,41 @@
         }
       ],
       "relationship_changes": []
+    },
+    {
+      "id": "mary-holly-walk-daughter-in-law-alternative-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Mary in the 1841 Holly Walk household has a new daughter-in-law comparison: Mary Wilhelmina Campbell, the younger Robert’s1839 bride. The exact census locator is recovered, but the age conflict remains and no father rating changes.",
+      "qualification": "The age problem remains real: FreeCEN gives Mary 19 in 1841, while Campbell-38211’s public profile gives 1816 and copies an 1851 age 34. The latter original is also unread. The infant’s full name and birth particulars are not established by FreeCEN. Paterson is a compiled family history, not an original marriage entry, and its adjacent Montgreenan descent narrative has known conflicts with the separately held court evidence. Do not transfer the book’s explicit John Campbell parentage to Glasgow-3021 before identifying the two Marys. Retain the selected Robert Robertson father at 45%, Jane’s father at 78%, all mother/vital fields and separate profiles; no father replacement, merge or confidence improvement is recorded.",
+      "detail_url": "/people/glasgow-3021.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3021",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3021.html",
+          "role": "Current father 45% retained; alternative identity unselected"
+        },
+        {
+          "id": "Campbell-38211",
+          "name": "Mary Wilhelmina Campbell",
+          "url": "https://www.wikitree.com/wiki/Campbell-38211",
+          "role": "Checked existing bride comparison, not assigned to Mary Glasgow"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FreeCEN 1841 household, HO107/1135, ED 10, folio 11, page 15",
+          "url": "https://www.freecen.org.uk/search_records/5905ca04e9379091b1863863/robert-glasgow-1841-warwickshire-kenilworth-1776-"
+        },
+        {
+          "title": "Paterson 1866, pp. 513–514, named bride and father",
+          "url": "https://www.kilwinningheritage.org.uk/office/resources/documents/history-of-the-counties-of-ayr-and-wigton-vol-3-pt-2-paterson-1863.pdf#page=250"
+        }
+      ],
+      "relationship_changes": []
     }
   ]
 }
