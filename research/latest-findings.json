@@ -63922,6 +63922,58 @@
         "research/Glasgow-13/findings.md",
         "research/Glasgow-8/findings.md"
       ]
+    },
+    {
+      "id": "wilson-robert-named-father-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "relationship",
+      "status": "confirmed",
+      "finding": "Wilson Archibald Glasgow’s existing father Robert strengthens from 49% Possible to 93% Confident: the 1844 marriage index names Robert as father, and original 1850 census households identify the matching family.",
+      "qualification": "The marriage is an inspected provider index, not an inspected original: DGS 007251125 image 999 was explicitly unavailable online in the signed-in viewer. An index error remains possible. The census has no relationship column and consecutive enumeration numbers do not themselves prove fatherhood or shared property. Robert’s age is indexed 50, while the handwritten last digit can be read 50/57; no exact birth-year correction follows. The two census pages are one household continuation, not independent parentage witnesses. Same existing father retained; no new attachment, mother, spouse, vital field or upstream confidence change.",
+      "detail_url": "/people/glasgow-405.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-405",
+          "name": "Wilson Archibald Glasgow",
+          "url": "/people/glasgow-405.html",
+          "role": "Existing father confidence49%→93%"
+        },
+        {
+          "id": "Glasgow-2298",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2298.html",
+          "role": "Named indexed father; original census identity context"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chambers County, Alabama marriage index, Wilson A. Glasgow and Sealy Ann Bohanan, 7 November 1844; Robert indexed as father",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:QKMB-QG6X"
+        },
+        {
+          "title": "1850 Floyd County, Georgia census, subdivision30, consecutive Glasgow households644–645",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:S3HY-6WSS-9MK"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-405",
+          "relative": "Glasgow-2298",
+          "assertion_id": "C-coverage-20261022c-glasgow-405-father",
+          "before": "possible",
+          "after": "certain",
+          "previous_probability_percent": 49,
+          "probability_percent": 93,
+          "explanation": "The inspected FamilySearch marriage index expressly labels Wilson A. Glasgow as Robert Glasgow’s son in the 7 November 1844 Chambers County, Alabama marriage to Sealy Ann Bohanan. Wilson-405’s unusual full given name/initial and named bride identify the indexed groom. The original 1850 Floyd County census puts Robert Glasgow’s household 644 immediately before Wilson A. Glasgow’s household 645, continuing across two pages. Both men are recorded as born in South Carolina; Wilson is 26 and his Ceily A., 24, born Alabama, and three named children agree with the maintained Wilson/Cecilia family. The named parent role comes from the marriage index; the census identifies the compatible Robert account and family context without stating kinship. Together these support the complete Wilson-405 to Robert-2298 father identification at 93% subjective confidence, beyond the former 49% tree-attribution assessment.",
+          "previous_status_provenance": "Saved native assessment revision2,49%Possible,22October2026. Live preflight31October2026 confirms father UID34782027 already attached with blank FatherDataStatus. Same attachment retained; new inspection supplies indexed role and original identity context."
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-405/findings.md",
+        "research/Glasgow-2298/findings.md"
+      ]
     }
   ]
 }

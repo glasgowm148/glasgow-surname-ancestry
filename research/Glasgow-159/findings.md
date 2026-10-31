@@ -2,6 +2,9 @@
 
 ## Current conclusion
 
+Reviewed 31 October 2026: the selected father remains 42%; the completed targeted index/census test below supplies no new parent identifier.
+
+
 Reviewed: 22 October 2026. The unnamed 1797 child has a further inspected index naming the existing couple. See the dated source review below.
 
 **Selected possible parents, 17 October 2026:** [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1023) and [Janet Mill](https://www.wikitree.com/wiki/Mill-357), **42% each**, through the possible identification with [John-2980](https://www.wikitree.com/wiki/Glasgow-2980), the Mid Calder child dated 1750. This is a new local working connection, not documentary parentage or a live WikiTree change.
@@ -45,3 +48,12 @@ R_691882635 indexes an unnamed male child born 1797 at Kirkliston, father John G
 
 Source level: provider transcripts inspected on 22 October 2026; original register images not inspected. Compatible profile identities remain explicitly unproved.
 <!-- END FMP-BIRTH-SCOPE-20261022 -->
+
+
+## Targeted father-source coverage —31 October 2026
+
+The bounded Findmypast 1841 census search for John Glasgow, birth 1760±20, returned one older John: the St Cuthbert’s hawker, age 75, at 51 Wester Portsburgh Chapel Wynd, with co-residents Elisabeth Glasgow 60 and Mary Gillies 60. This is the already represented Glasgow-2964 household, not a new person. No record joins it to the Kirkliston/Agnes Gray family; another marriage or an age error remains possible. The similarly bounded Agnes Glasgow query returned no result. This does not prove death before 1841, population-wide absence or which local childhood is correct. Father 42% and mother 42% remain unchanged.
+
+[Inspected record or repeatable query](https://www.findmypast.co.uk/transcript?id=GBC%2F1841%2F0017392952). Provider index/transcript; no new original register inspected for this no-change check.
+
+Next discriminating evidence: An age-bearing burial/death, marriage residence or another personal identifier joins the Kirkliston adult to one of the competing Mid Calder/Kirknewton/West Calder children. Do not rerun these same two1841 queries as a fresh test.

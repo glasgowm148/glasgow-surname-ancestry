@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "finding_route": "/latest-findings/page/22/#finding-wilson-robert-named-father-20261031",
+  "father": "Glasgow-2298",
+  "subject": "Glasgow-405",
+  "confidence_before": 49,
+  "confidence_after": 93,
+  "all_three_models_verified": true,
+  "research_events": [
+    402,
+    403
+  ],
+  "population": [
+    1808,
+    1808
+  ],
+  "supported_components": [
+    662,
+    661
+  ],
+  "confident_components": [
+    1061,
+    1060
+  ],
+  "confident_pair_gain": 2,
+  "unknown_fathers": [
+    382,
+    382
+  ],
+  "no_new_father_attachment": true,
+  "mothers_vitals_other_relationships_unchanged": true,
+  "earlier_cohorts_unchanged": true,
+  "full_compact_regrade_tag_agreement": true,
+  "marriage_index_explicit_father_original_unavailable": true,
+  "raw_census_images_private": true,
+  "publication_new_failures": 0,
+  "links_new_pairs": 0,
+  "authoritative_views_match": true,
+  "http": {
+    "/people/glasgow-405.html": 200,
+    "/people/glasgow-2298.html": 200,
+    "/latest-findings/page/22/#finding-wilson-robert-named-father-20261031": 200,
+    "/onetree/progress/?through=1850&links=confident": 200
+  },
+  "inherited_capture_whitespace": {
+    "research/Glasgow-405/wilson-marriage-father-2026-10-31.wiki": {
+      "lines": [
+        5,
+        27,
+        28
+      ],
+      "basis": "Verbatim retained prior full proposal or current public capture."
+    },
+    "research/Glasgow-2298/wilson-marriage-father-2026-10-31.wiki": {
+      "lines": [
+        27,
+        31
+      ],
+      "basis": "Verbatim retained prior full proposal or current public capture."
+    }
+  },
+  "local_only": true,
+  "pushed": false
+}

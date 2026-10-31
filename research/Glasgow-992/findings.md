@@ -4,6 +4,9 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Reviewed 31 October 2026: the selected father remains 43%; the completed targeted index/census test below supplies no new parent identifier.
+
+
 Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
 
 George’s documented Glasgow family and the Howie association provide a plausible setting for William, husband of Bessie Howie by 1635. A child around 1615 fits George’s generation and known children. However the1/754 parent clause belongs to Thomas’s 1612 baptism, not an identified William birth, and William’s naming pattern cannot supply the missing relationship. Possible43% for the existing father. The earlier suggestion that the unnamed1/754 extract was William’s baptism is superseded; no mother is newly attached.
@@ -81,3 +84,12 @@ Scope: Possible43% for the existing father. The earlier suggestion that the unna
 Next useful test: Find a William child, apprenticeship or family clause; do not reuse Thomas’s baptism as William’s.
 
 This is a first numerical review of an existing father, not a new attachment or newly inspected original. The previous grade and its basis remain in the structured assessment history.
+
+
+## Targeted father-source coverage —31 October 2026
+
+The bounded FamilySearch Scotland Births and Baptisms query for William Glasgow, 1595–1625, father George, returned 12 entries, all in father roles; none was a principal William child. Returned spelling variants included Glascow, Glassgow and Glasgo. The unrelated Glaincors result was not assigned to a Glasgow. This is coverage of a returned index set, not proof that George had no son William. The previously identified Thomas 1612 baptism is not transferred to William. Father 43% remains unchanged.
+
+[Inspected record or repeatable query](https://www.familysearch.org/search/record/results?f.collectionId=1771030&q.givenName=William&q.surname=Glasgow&q.birthLikeDate.from=1595&q.birthLikeDate.to=1625&q.fatherGivenName=George&count=100). Provider index/transcript; no new original register inspected for this no-change check.
+
+Next discriminating evidence: A named-son, apprenticeship, testament or distinct holding/occupation clause identifies William within George’s actual household; another reading of Thomas’s1612 baptism or this same index query is not a new test.

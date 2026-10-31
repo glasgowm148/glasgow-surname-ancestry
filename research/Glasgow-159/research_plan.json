@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-159",
+  "objective": "Resolve the selected 42% father hypothesis without repeating completed source tests.",
+  "questions": [
+    {
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open",
+      "answer": "The bounded Findmypast 1841 census search for John Glasgow, birth 1760±20, returned one older John: the St Cuthbert’s hawker, age 75, at 51 Wester Portsburgh Chapel Wynd, with co-residents Elisabeth Glasgow 60 and Mary Gillies 60. This is the already represented Glasgow-2964 household, not a new person. No record joins it to the Kirkliston/Agnes Gray family; another marriage or an age error remains possible. The similarly bounded Agnes Glasgow query returned no result. This does not prove death before 1841, population-wide absence or which local childhood is correct. Father 42% and mother 42% remain unchanged.",
+      "next_action": "An age-bearing burial/death, marriage residence or another personal identifier joins the Kirkliston adult to one of the competing Mid Calder/Kirknewton/West Calder children. Do not rerun these same two1841 queries as a fresh test."
+    },
+    {
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open",
+      "answer": ""
+    }
+  ],
+  "web_searches": [
+    {
+      "query": "John Glasgow, Kirkliston husband of Agnes Gray",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBC%2F1841%2F0017392952",
+      "searched_on": "2026-10-31",
+      "status": "completed_no_change",
+      "result_summary": "The bounded Findmypast 1841 census search for John Glasgow, birth 1760±20, returned one older John: the St Cuthbert’s hawker, age 75, at 51 Wester Portsburgh Chapel Wynd, with co-residents Elisabeth Glasgow 60 and Mary Gillies 60. This is the already represented Glasgow-2964 household, not a new person. No record joins it to the Kirkliston/Agnes Gray family; another marriage or an age error remains possible. The similarly bounded Agnes Glasgow query returned no result. This does not prove death before 1841, population-wide absence or which local childhood is correct. Father 42% and mother 42% remain unchanged."
+    }
+  ],
+  "targets": [
+    {
+      "kind": "wikitree",
+      "id": "Glasgow-159",
+      "generation": 0,
+      "reason": "Initial subject and immediate family capture.",
+      "status": "pending"
+    }
+  ],
+  "findings": [],
+  "research_state": {
+    "disposition": "source_hold",
+    "reviewed": "2026-10-31",
+    "last_test": "The bounded Findmypast 1841 census search for John Glasgow, birth 1760±20, returned one older John: the St Cuthbert’s hawker, age 75, at 51 Wester Portsburgh Chapel Wynd, with co-residents Elisabeth Glasgow 60 and Mary Gillies 60. This is the already represented Glasgow-2964 household, not a new person. No record joins it to the Kirkliston/Agnes Gray family; another marriage or an age error remains possible. The similarly bounded Agnes Glasgow query returned no result. This does not prove death before 1841, population-wide absence or which local childhood is correct. Father 42% and mother 42% remain unchanged.",
+    "next_test": "An age-bearing burial/death, marriage residence or another personal identifier joins the Kirkliston adult to one of the competing Mid Calder/Kirknewton/West Calder children. Do not rerun these same two1841 queries as a fresh test.",
+    "review_conclusion": "No father-confidence or relationship change."
+  }
+}

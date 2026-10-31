@@ -4547,3 +4547,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [Harvey Glasgow](https://www.wikitree.com/wiki/Glasgow-13) | OPEN | Existing Harvey father 58% Possible → 94% Confident from inspected Faris pp.35/62; compiled source, no new father attachment. |
 | [Robert Barclay Glasgow](https://www.wikitree.com/wiki/Glasgow-8) | OPEN | Existing Harvey father 58% Possible → 94% Confident from inspected Faris pp.35/62; compiled source, no new father attachment. |
+
+
+## 31 October 2026 — Wilson’s indexed father evidence
+
+| [Wilson Glasgow](https://www.wikitree.com/wiki/Glasgow-405) | OPEN | Existing Wilson father 49% Possible → 93% Confident from the inspected 1844 marriage index and original 1850 census; marriage original unavailable, no new father attachment. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-2298) | OPEN | Existing Wilson father 49% Possible → 93% Confident from the inspected 1844 marriage index and original 1850 census; marriage original unavailable, no new father attachment. |

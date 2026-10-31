@@ -51528,5 +51528,87 @@
     "reviewed_on": "2026-10-31",
     "publish_to_record_index": true,
     "provenance": "DGS007834162 images1577 and1593 (zero-based URL i1576 and1592); raw licensed book scans privately retained. The two entries form one compiled source."
+  },
+  {
+    "record_id": "wilson-robert-chambers-marriage-index-1844",
+    "source_title": "Chambers County, Alabama marriage index, Wilson A. Glasgow and Sealy Ann Bohanan, 7 November 1844; Robert indexed as father",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:QKMB-QG6X",
+    "year": 1844,
+    "date": "1844-11-07",
+    "country": "United States",
+    "place": "Chambers County, Alabama, United States",
+    "record_type": "Marriage index",
+    "record_category": "Church & parish records",
+    "source_type": "FamilySearch provider index; original unavailable online",
+    "source_quality": "derivative",
+    "status": "Index inspected 31 October 2026; indexed father role explicit, original uninspected",
+    "association": "Robert explicitly indexed as father of Wilson A. Glasgow",
+    "note": "The inspected FamilySearch marriage index expressly labels Wilson A. Glasgow as Robert Glasgow’s son in the 7 November 1844 Chambers County, Alabama marriage to Sealy Ann Bohanan. Wilson-405’s unusual full given name/initial and named bride identify the indexed groom. The original 1850 Floyd County census puts Robert Glasgow’s household 644 immediately before Wilson A. Glasgow’s household 645, continuing across two pages. Both men are recorded as born in South Carolina; Wilson is 26 and his Ceily A., 24, born Alabama, and three named children agree with the maintained Wilson/Cecilia family. The named parent role comes from the marriage index; the census identifies the compatible Robert account and family context without stating kinship. Together these support the complete Wilson-405 to Robert-2298 father identification at 93% subjective confidence, beyond the former 49% tree-attribution assessment. The marriage is an inspected provider index, not an inspected original: DGS 007251125 image 999 was explicitly unavailable online in the signed-in viewer. An index error remains possible. The census has no relationship column and consecutive enumeration numbers do not themselves prove fatherhood or shared property. Robert’s age is indexed 50, while the handwritten last digit can be read 50/57; no exact birth-year correction follows. The two census pages are one household continuation, not independent parentage witnesses. Same existing father retained; no new attachment, mother, spouse, vital field or upstream confidence change.",
+    "profiles": {
+      "Glasgow-405": {
+        "role": "Indexed groom and son of Robert; matched by name, bride and later household",
+        "identification_status": "strongly_supported"
+      },
+      "Glasgow-2298": {
+        "role": "Indexed father; matched to preceding 1850 census household, not a literal census relationship",
+        "identification_status": "strongly_supported"
+      },
+      "Bohannon-337": {
+        "role": "Indexed bride Sealy Ann Bohanan; retained existing spouse account, grade unchanged"
+      }
+    },
+    "additional_sources": [
+      {
+        "title": "Same marriage, groom’s indexed entry",
+        "url": "https://www.familysearch.org/ark:/61903/1:1:QKMB-QG66"
+      }
+    ],
+    "reviewed_on": "2026-10-31",
+    "publish_to_record_index": true,
+    "provenance": "Signed-in provider record inspected; catalogue koha136129, FHL1863225, DGS7251125 image999 access attempt privately retained."
+  },
+  {
+    "record_id": "wilson-robert-floyd-census-1850",
+    "source_title": "1850 Floyd County, Georgia census, subdivision 30, consecutive Glasgow households 644–645",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:S3HY-6WSS-9MK",
+    "year": 1850,
+    "date": "1850",
+    "country": "United States",
+    "place": "Floyd County, Georgia, United States",
+    "record_type": "Census",
+    "record_category": "Census, land & surveys",
+    "source_type": "Original federal census scan",
+    "source_quality": "original",
+    "status": "Original two-page sequence inspected 31 October 2026; no explicit kinship column",
+    "association": "Robert/Elizabeth household 644 followed by Wilson A./Ceily A. household 645",
+    "note": "Robert’s household continues across the page boundary. Wilson26, Ceily A.24 and John H., James M., George W. match the held family. Both men’s birth column gives South Carolina, not the county of enumeration. The parentage clause is separately indexed in the 1844 marriage; proximity is identity context only. Robert’s last handwritten age digit is ambiguous 50/57, provider 50; no vital-date change. The provider’s Wilson household identifier 672 differs from visible manuscript 645; cite the original sequence.",
+    "profiles": {
+      "Glasgow-405": {
+        "role": "Head of household 645; existing full name/age/spouse/children identify account"
+      },
+      "Glasgow-2298": {
+        "role": "Head of preceding household 644; census itself states no father relation"
+      },
+      "Bohannon-337": {
+        "role": "Ceily A., 24, born Alabama, in Wilson household; existing spouse identity, no grade change"
+      }
+    },
+    "additional_sources": [
+      {
+        "title": "Continuation and Wilson household, following original image",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:S3HY-6WSS-M53"
+      },
+      {
+        "title": "Provider Wilson census index, locator discrepancy retained",
+        "url": "https://www.familysearch.org/ark:/61903/1:1:MZYL-G95"
+      },
+      {
+        "title": "Provider Robert index, age 50",
+        "url": "https://www.familysearch.org/ark:/61903/1:1:MZYL-G9N"
+      }
+    ],
+    "reviewed_on": "2026-10-31",
+    "publish_to_record_index": true,
+    "provenance": "NARA M432; FamilySearch DGS 004193238, images 118–119. Original scans retained as managed private evidence."
   }
 ]
