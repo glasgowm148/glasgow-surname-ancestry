@@ -3662,10 +3662,10 @@
       "prior_work_summary": "Newspaper identity review 6 Oct 2026. Relationships: Glasgow-4340 son of Glasgow-2656 → add uncertain Add sourced facts: Lead: a Robert Glasgow chaired the Cookstown Academy committee in Oct 1840. Identity with this profile is unproved."
     },
     "Glasgow-2715": {
-      "draft_path": "research/Glasgow-2715/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible William Allen Glasgow, Royal Engineers commission, 1795. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible William Allen Glasgow, Royal Engineers commission, 1795. Retain the stated identity and relationship limits.",
-      "queued_at": "2026-10-17",
+      "draft_path": "research/Glasgow-2715/crawford-family-2026-10-31.wiki",
+      "summary": "Add probable son George Glasgow-638 at 88%; reconcile withdrawn engineer identity against the Crawford gamekeeper’s surviving household.",
+      "work_queue_summary": "Add probable son George Glasgow-638 at 88%; reconcile withdrawn engineer identity against the Crawford gamekeeper’s surviving household.",
+      "queued_at": "2026-10-31",
       "status": "OPEN",
       "pending": true,
       "findings_path": "research/Glasgow-2715/findings.md",
@@ -3674,7 +3674,17 @@
         "subject-newspapers-early-glasgow-william-allen-glasgow-royal-engineers-1795"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "profile_id": "Glasgow-2715",
+      "preservation_review_path": "research/ancestry-connections/crawford-gamekeeper-preservation-2026-10-31.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "biography_rechecked_at": "2026-10-31",
+      "manual_update": true,
+      "significance": 84,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     },
     "Glasgow-2771": {
       "draft_path": "research/Glasgow-2771/father-confidence-2026-10-22h.wiki",
@@ -42493,6 +42503,39 @@
       "significance": 45,
       "relationship_changes": [],
       "work_queue_summary": "Add the qualified original1822will source, its named-son/legatee clauses and the clipped-opening limitation; retain unproved birth surname and parents. No relationship or vital field change."
+    },
+    "Glasgow-638": {
+      "profile_id": "Glasgow-638",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-2715",
+          "relative_name": "William Glasgow",
+          "status": "probable",
+          "probability_percent": 88,
+          "previous_status": "absent",
+          "previous_status_provenance": "31 October 2026 live George-638 page: father unknown; native no parent assertions. Parent names were already in biography, profile attachment is new.",
+          "assertion_id": "clm-crawford-george-father-20261031",
+          "scope": "The baptism and census originals and gravestone image have not been inspected; these are provider index/transcript readings. FamilySearch and Findmypast reproduce the same underlying baptism index and are not independent evidence. The later Leicester adult’s exact birthday may derive from the baptism, so it is not counted as independent confirmation. His inspected 1843 GRO marriage index locates a Leicester entry with Mary Ann Norton among the same-page spouse possibilities, but gives no father or father’s occupation. The original marriage is the decisive next test. The memorial’s older George, died 1816 aged 7, cannot be the 1818 child; its reported age differs by about a year from the 1810 baptism and remains unresolved. Some sibling index birth fields contain malformed years and the 1806 John dates conflict; none is silently corrected. William Glasgow-1533, the circa-1795 Glasgow-born weaver with a Janet Thomson wife, remains a distinct comparison rather than being excluded merely for missing fields: the gamekeeper’s 1841/1851 Crawford household, older age, trade, wife and Isabel chronology provide the positive match. No exact vital replacement, mother attachment, profile merger or upstream father is inferred."
+        }
+      ],
+      "draft_path": "research/Glasgow-638/crawford-family-2026-10-31.wiki",
+      "findings_path": "research/Glasgow-638/findings.md",
+      "preservation_review_path": "research/ancestry-connections/crawford-gamekeeper-preservation-2026-10-31.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "pending": true,
+      "status": "OPEN",
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "manual_update": true,
+      "summary": "New probable father William Glasgow-2715 at 88%; Crawford baptism, gamekeeper household and memorial fit; Leicester adult bridge qualified.",
+      "work_queue_summary": "New probable father William Glasgow-2715 at 88%; Crawford baptism, gamekeeper household and memorial fit; Leicester adult bridge qualified.",
+      "significance": 93,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     }
   },
   "reviewed_on": "2026-10-22",

@@ -1,0 +1,23 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-crawford-george-new-gamekeeper-father-20261031",
+  "new_father": "Glasgow-2715",
+  "subject": "Glasgow-638",
+  "probability_percent": 88,
+  "new_research_connections": 1,
+  "unknown_before1850": {
+    "before": 382,
+    "after": 381
+  },
+  "working_components_before1850": {
+    "before": 390,
+    "after": 389
+  },
+  "all_prior_research_events_preserved": true,
+  "models_checked": [
+    "assets/research/atlas-model.json",
+    "assets/research/atlas-model-packed.json",
+    "onetree/glasgow-one-tree-polished-3/model.json"
+  ],
+  "full_compact_pending_tag_agreement": true,
+  "vitals_mothers_upstream_unchanged": true
+}

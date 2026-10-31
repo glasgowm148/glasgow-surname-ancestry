@@ -44944,6 +44944,70 @@
       }
     },
     {
+      "subject_id": "Glasgow-638",
+      "relative_id": "Glasgow-2715",
+      "relationship": "father",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-crawford-george-father-20261031",
+      "basis": "George Glasgow-638 is already described in his held and live biography as the Crawford child of William Glasgow and Janet Thomson, but neither parent profile is attached. The inspected Scotland baptism index names that exact couple for George, born 8 June 1818 and baptised 14 June at Crawford. An exact-parent search returned thirteen Crawford entries spanning 1802–1828, including Isabel in 1808 and an older George in 1810. The inspected monumental-inscription transcript identifies William Glasgow-2715, gamekeeper to the Earl of Hopetoun, his wife Janet Thomson, their daughter Isabel (died 1881 aged 73), and an older George who died in July 1816. The 1841 census transcript places gamekeeper William with Janet and Isabella at Hass, Crawford; the 1851 transcript gives widower William, 72, born Crawford, with daughter Isabella and younger children. This combination supports the gamekeeper as the 1818 child’s father, with reuse of the deceased child’s name. The proposed attachment to the later Leicester adult is assessed at 88% subjective confidence, including the unresolved childhood-to-adult identification.",
+      "reviewed": "2026-10-31",
+      "source_ids": [
+        "crawford-george-william-janet-baptism-1818",
+        "crawford-william-gamekeeper-memorial-1853",
+        "crawford-william-gamekeeper-census-1841",
+        "crawford-william-gamekeeper-census-1851"
+      ],
+      "scope": "The baptism and census originals and gravestone image have not been inspected; these are provider index/transcript readings. FamilySearch and Findmypast reproduce the same underlying baptism index and are not independent evidence. The later Leicester adult’s exact birthday may derive from the baptism, so it is not counted as independent confirmation. His inspected 1843 GRO marriage index locates a Leicester entry with Mary Ann Norton among the same-page spouse possibilities, but gives no father or father’s occupation. The original marriage is the decisive next test. The memorial’s older George, died 1816 aged 7, cannot be the 1818 child; its reported age differs by about a year from the 1810 baptism and remains unresolved. Some sibling index birth fields contain malformed years and the 1806 John dates conflict; none is silently corrected. William Glasgow-1533, the circa-1795 Glasgow-born weaver with a Janet Thomson wife, remains a distinct comparison rather than being excluded merely for missing fields: the gamekeeper’s 1841/1851 Crawford household, older age, trade, wife and Isabel chronology provide the positive match. No exact vital replacement, mother attachment, profile merger or upstream father is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-638.html#research-findings",
+          "label": "Crawford family connection"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2715": "William Glasgow",
+        "Glasgow-638": "George Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2715",
+      "relative_id": "Glasgow-638",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-crawford-george-father-20261031",
+      "basis": "George Glasgow-638 is already described in his held and live biography as the Crawford child of William Glasgow and Janet Thomson, but neither parent profile is attached. The inspected Scotland baptism index names that exact couple for George, born 8 June 1818 and baptised 14 June at Crawford. An exact-parent search returned thirteen Crawford entries spanning 1802–1828, including Isabel in 1808 and an older George in 1810. The inspected monumental-inscription transcript identifies William Glasgow-2715, gamekeeper to the Earl of Hopetoun, his wife Janet Thomson, their daughter Isabel (died 1881 aged 73), and an older George who died in July 1816. The 1841 census transcript places gamekeeper William with Janet and Isabella at Hass, Crawford; the 1851 transcript gives widower William, 72, born Crawford, with daughter Isabella and younger children. This combination supports the gamekeeper as the 1818 child’s father, with reuse of the deceased child’s name. The proposed attachment to the later Leicester adult is assessed at 88% subjective confidence, including the unresolved childhood-to-adult identification.",
+      "reviewed": "2026-10-31",
+      "source_ids": [
+        "crawford-george-william-janet-baptism-1818",
+        "crawford-william-gamekeeper-memorial-1853",
+        "crawford-william-gamekeeper-census-1841",
+        "crawford-william-gamekeeper-census-1851"
+      ],
+      "scope": "The baptism and census originals and gravestone image have not been inspected; these are provider index/transcript readings. FamilySearch and Findmypast reproduce the same underlying baptism index and are not independent evidence. The later Leicester adult’s exact birthday may derive from the baptism, so it is not counted as independent confirmation. His inspected 1843 GRO marriage index locates a Leicester entry with Mary Ann Norton among the same-page spouse possibilities, but gives no father or father’s occupation. The original marriage is the decisive next test. The memorial’s older George, died 1816 aged 7, cannot be the 1818 child; its reported age differs by about a year from the 1810 baptism and remains unresolved. Some sibling index birth fields contain malformed years and the 1806 John dates conflict; none is silently corrected. William Glasgow-1533, the circa-1795 Glasgow-born weaver with a Janet Thomson wife, remains a distinct comparison rather than being excluded merely for missing fields: the gamekeeper’s 1841/1851 Crawford household, older age, trade, wife and Isabel chronology provide the positive match. No exact vital replacement, mother attachment, profile merger or upstream father is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-638.html#research-findings",
+          "label": "Crawford family connection"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2715": "William Glasgow",
+        "Glasgow-638": "George Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-2356",
       "relative_id": "Pierce-14470",
       "relationship": "mother",

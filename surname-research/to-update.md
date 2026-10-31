@@ -4588,3 +4588,8 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Glasgow-1304](https://www.wikitree.com/wiki/Glasgow-1304) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |
 | [Glasgow-971](https://www.wikitree.com/wiki/Glasgow-971) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |
 | [Glasgow-1355](https://www.wikitree.com/wiki/Glasgow-1355) | OPEN | Add inspected burgess/armorial evidence and corrected 1771 index citation; retain identity limits, no new father attachment. |
+
+## 31 October 2026 — Crawford gamekeeper family
+
+| [George Glasgow](https://www.wikitree.com/wiki/Glasgow-638) | OPEN | New probable father William Glasgow-2715, 88%; parent names already in biography, existing-profile attachment newly proposed. Leicester adult bridge qualified. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2715) | OPEN | Add probable son George-638 at 88%; reconcile withdrawn engineer identity against Crawford census and memorial. |

@@ -51921,5 +51921,113 @@
       }
     ],
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "crawford-george-william-janet-baptism-1818",
+    "source_title": "George Glasgow, Crawford baptism 14 June 1818; William Glasgow and Janet Thomson",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:XTLF-1QX",
+    "year": 1818,
+    "date": "1818",
+    "place": "Crawford, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "record_type": "Baptism index",
+    "record_category": "Births & baptisms",
+    "source_type": "Inspected provider transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; identity conclusions qualified",
+    "association": "George Glasgow, Crawford baptism 14 June 1818; William Glasgow and Janet Thomson",
+    "note": "Birth 8 June, baptism 14 June 1818. Source detail 2:15KCJHH; DGS 8059254, films 1066586/102898; original unavailable in inspected view. Findmypast R_685665034 repeats this index and is not independent. The baptism and census originals and gravestone image have not been inspected; these are provider index/transcript readings. FamilySearch and Findmypast reproduce the same underlying baptism index and are not independent evidence. The later Leicester adult’s exact birthday may derive from the baptism, so it is not counted as independent confirmation. His inspected 1843 GRO marriage index locates a Leicester entry with Mary Ann Norton among the same-page spouse possibilities, but gives no father or father’s occupation. The original marriage is the decisive next test. The memorial’s older George, died 1816 aged 7, cannot be the 1818 child; its reported age differs by about a year from the 1810 baptism and remains unresolved. Some sibling index birth fields contain malformed years and the 1806 John dates conflict; none is silently corrected. William Glasgow-1533, the circa-1795 Glasgow-born weaver with a Janet Thomson wife, remains a distinct comparison rather than being excluded merely for missing fields: the gamekeeper’s 1841/1851 Crawford household, older age, trade, wife and Isabel chronology provide the positive match. No exact vital replacement, mother attachment, profile merger or upstream father is inferred.",
+    "profiles": {
+      "Glasgow-638": {
+        "role": "Proposed identification with baptised child; adult bridge qualified",
+        "timeline_group": "Working family"
+      },
+      "Glasgow-2715": {
+        "role": "Selected identification of the named father",
+        "timeline_group": "Working family"
+      }
+    },
+    "reviewed_on": "2026-10-31",
+    "provenance": "Crawford family source receipts, reviewed 31 October 2026; private bundle retained.",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "crawford-william-gamekeeper-memorial-1853",
+    "source_title": "Crawford memorial: William Glasgow gamekeeper, Janet Thomson and children",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00557896&tab=this",
+    "year": 1853,
+    "date": "1853",
+    "place": "Crawford, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "record_type": "Monumental inscription transcript",
+    "record_category": "Deaths & burials",
+    "source_type": "Inspected provider transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; identity conclusions qualified",
+    "association": "Crawford memorial: William Glasgow gamekeeper, Janet Thomson and children",
+    "note": "Scottish Genealogy Society transcript: William died 26 April 1853 aged 74; wife Janet Thomson died 1 April 1845 aged 62; children John and James died in infancy, George died 21 July 1816 aged 7; Isabel died 27 November 1881 aged 73. Gravestone image uninspected. Earlier George is not the 1818 child.",
+    "profiles": {
+      "Glasgow-2715": {
+        "role": "William, gamekeeper to Earl of Hopetoun",
+        "timeline_group": "Family evidence"
+      },
+      "Glasgow-638": {
+        "role": "Later same-name child comparison; not the George who died in 1816",
+        "timeline_group": "Identity comparison"
+      }
+    },
+    "reviewed_on": "2026-10-31",
+    "provenance": "Crawford family source receipts, reviewed 31 October 2026; private bundle retained.",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "crawford-william-gamekeeper-census-1841",
+    "source_title": "William Glasgow, gamekeeper at Hass, Crawford, 1841",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBC/1841/0017061572&expand=true",
+    "year": 1841,
+    "date": "1841",
+    "place": "Crawford, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "record_type": "Census transcript",
+    "record_category": "Census",
+    "source_type": "Inspected provider transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; identity conclusions qualified",
+    "association": "William Glasgow, gamekeeper at Hass, Crawford, 1841",
+    "note": "At Hass, Crawford, William 60 gamekeeper with Janet 55, Isabella 30, James 20, Mary 15, Margaret 15 and Jane Martin 85; rounded ages, no relationships stated in this transcript.",
+    "profiles": {
+      "Glasgow-2715": {
+        "role": "Head/gamekeeper; family identity evidence",
+        "timeline_group": "Residence"
+      }
+    },
+    "reviewed_on": "2026-10-31",
+    "provenance": "Crawford family source receipts, reviewed 31 October 2026; private bundle retained.",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "crawford-william-gamekeeper-census-1851",
+    "source_title": "William Glasgow, gamekeeper at Hass, Crawford, 1851",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBC/1851/0019486912&expand=true",
+    "year": 1851,
+    "date": "1851",
+    "place": "Crawford, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "record_type": "Census transcript",
+    "record_category": "Census",
+    "source_type": "Inspected provider transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; identity conclusions qualified",
+    "association": "William Glasgow, gamekeeper at Hass, Crawford, 1851",
+    "note": "At Hass, Crawford, William 72 widower, gamekeeper, born Crawford; daughter Isabella 42, son James 30 assistant to keeper, daughters Agness 24 and Anne 22, all Crawford-born. No George in this household; absence is not proof of his adult location.",
+    "profiles": {
+      "Glasgow-2715": {
+        "role": "Head/gamekeeper; family identity evidence",
+        "timeline_group": "Residence"
+      }
+    },
+    "reviewed_on": "2026-10-31",
+    "provenance": "Crawford family source receipts, reviewed 31 October 2026; private bundle retained.",
+    "publish_to_record_index": true
   }
 ]
