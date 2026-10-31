@@ -52306,5 +52306,32 @@
     "reviewed_on": "2026-10-31",
     "provenance": "Detailed logged-in provider transcript inspected; private receipt tmp/calder-meek-weaver-20261031/john1751-opr.json. No raw licensed capture published.",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "fmp-glasgow-b741e434199b",
+    "association": "James Glasgow, Saltoun, surgeon of the Swift of Sheerness, 1733",
+    "date": "1733",
+    "year": 1733,
+    "place": "Saltoun, Haddingtonshire, Scotland",
+    "country": "Scotland",
+    "record_type": "Occupational index transcript",
+    "record_category": "Directories and occupations",
+    "record_precision": "Record-stated place",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=GBOR%2FDOBSON%2F000380&tab=this",
+    "source_title": "Findmypast, Scotland, Occupations & Professions: James Glasgow, 1733, record GBOR/DOBSON/000380",
+    "source_type": "Findmypast transcript of Dobson occupational index",
+    "source_quality": "derivative",
+    "provider_record_id": "GBOR/DOBSON/000380",
+    "status": "Previously reviewed occupational transcript; publication identifier reconciliation only; no new source inspection",
+    "note": "The held transcript names James Glasgow of Saltoun, surgeon of the Swift of Sheerness in 1733, and states no relatives. The existing adult identification with the surgeon son named in the separately inspected 1733 Grant testament index remains a confident inference; Grant prints Surf whereas the Dobson occupational entry prints Swift of Sheerness. The occupational entry supplies name, place, year and profession context, not direct paternity or maternity proof. Original testaments and the underlying Services of Heirs record remain uninspected. This is the previously reviewed occupational entry, not a newly inspected source or a new discovery.",
+    "profiles": {
+      "Glasgow-4124": {
+        "role": "Existing Saltoun naval-surgeon account; occupational identity context only, no parent stated",
+        "timeline_group": "Occupational evidence"
+      }
+    },
+    "reviewed_on": "2026-10-31",
+    "provenance": "Previously reviewed research/findmypast-glasgow-surname-1650-1750.csv row fmp-glasgow-b741e434199b; current published record 1bcb2be22a87b14d; research/Glasgow-4124/findings.md. Administrative source-ID reconciliation; prior transcript capture 2026-09-03 and canonical-person reconciliation 2026-10-22 retained.",
+    "publish_to_record_index": true
   }
 ]
