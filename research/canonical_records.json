@@ -52107,5 +52107,69 @@
     "reviewed_on": "2026-10-31",
     "provenance": "Original viewed in signed-in FamilySearch browser; contract-disabled download respected. Private scoped reading captures retained; no raw licensed image published.",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "kirknewton-john-andreu-baptism-1709",
+    "source_title": "John Glasgow, Kirknewton and East Calder christening, 27 May 1709; father Andreu",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6J5",
+    "date": "1709-05-27",
+    "year": 1709,
+    "place": "Kirknewton and East Calder, Midlothian, Scotland",
+    "record_type": "Baptism index",
+    "record_category": "Births & baptisms",
+    "association": "Indexed John and named father Andreu; adult-family identity qualified",
+    "note": "John Glasgow, male, christening 27 May 1709; father Andreu Glasgow. No mother displayed. Birth Date field only “5”; no birthday inferred. 68% includes identification of the indexed Andreu with Andrew-1546 and of the 1709 child with the later John/Magdalen adult. Neither join is directly stated in an inspected original. The inherited 1709 year and parish may derive from this same event and are not counted as independent birth evidence. The baptism index supplies no mother, age, residence below parish level or occupation; its Birth Date field contains only “5”, not a usable birthday. The original image is unavailable in the inspected view. The 1738 provider transcript gives both parties’ residence as Penicuik, banns 27 May and marriage 23 June; it gives no father or age. The shared 27 May day/month is not an identity clue. Other local Johns, another Andrew household, or an unrepresented childhood identity remain alternatives; no missing field excludes them. The marriage index, provider transcript and existing wife biography refer to the same underlying marriage, not independent witnesses. Christian Cook is not upgraded as mother, the circa-1685 Andrew birth and all current vital fields remain unchanged, Andrew’s own father stays 58%, and John’s child Andrew-1333 stays 98%. This strengthens an already attached father, without a new attachment or profile merger.",
+    "profiles": {
+      "Glasgow-81": {
+        "role": "Selected identification of indexed John; later adult continuity inferred",
+        "timeline_group": "Childhood identity"
+      },
+      "Glasgow-1546": {
+        "role": "Selected adult identification of named father Andreu",
+        "timeline_group": "Paternal evidence"
+      }
+    },
+    "country": "Scotland",
+    "source_type": "Inspected derivative index/transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; complete identity limits retained",
+    "reviewed_on": "2026-10-31",
+    "provenance": "Private provider receipts retained31October2026; no original-image reading or exact birth correction claimed.",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "penicuik-john-magdalene-guthrie-marriage-1738",
+    "source_title": "John Glasgow and Magdalen Guthrie, Penicuik banns and marriage, 1738",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FMAR%2F1473346%2F1&tab=this",
+    "additional_sources": [
+      {
+        "title": "Same-event FamilySearch marriage index XY9J-PJH, year 1738",
+        "url": "https://www.familysearch.org/ark:/61903/1:1:XY9J-PJH"
+      }
+    ],
+    "date": "1738-06-23",
+    "year": 1738,
+    "place": "Penicuik, Midlothian, Scotland",
+    "record_type": "Marriage and banns transcript",
+    "record_category": "Marriages & banns",
+    "association": "John Glasgow and Magdalen Guthrie, both resident Penicuik",
+    "note": "Findmypast SCOT/OPR/MAR/1473346/1 gives banns 27 May 1738 and marriage 23 June 1738, both parties resident Penicuik; OPR697/3, item3, p.52. No father or age. The marriage was already cited in Magdalene’s held biography under NRS697 Ref30/103 Frame672; retain the differing provider locators until the original is read. No new spouse attachment or independent duplicate-event corroboration. 68% includes identification of the indexed Andreu with Andrew-1546 and of the 1709 child with the later John/Magdalen adult. Neither join is directly stated in an inspected original. The inherited 1709 year and parish may derive from this same event and are not counted as independent birth evidence. The baptism index supplies no mother, age, residence below parish level or occupation; its Birth Date field contains only “5”, not a usable birthday. The original image is unavailable in the inspected view. The 1738 provider transcript gives both parties’ residence as Penicuik, banns 27 May and marriage 23 June; it gives no father or age. The shared 27 May day/month is not an identity clue. Other local Johns, another Andrew household, or an unrepresented childhood identity remain alternatives; no missing field excludes them. The marriage index, provider transcript and existing wife biography refer to the same underlying marriage, not independent witnesses. Christian Cook is not upgraded as mother, the circa-1685 Andrew birth and all current vital fields remain unchanged, Andrew’s own father stays 58%, and John’s child Andrew-1333 stays 98%. This strengthens an already attached father, without a new attachment or profile merger.",
+    "profiles": {
+      "Glasgow-81": {
+        "role": "Named groom; identity of existing adult couple supported",
+        "timeline_group": "Marriage"
+      },
+      "Guthrie-777": {
+        "role": "Named bride; existing marriage account confirmed, banns added as transcript evidence",
+        "timeline_group": "Marriage"
+      }
+    },
+    "country": "Scotland",
+    "source_type": "Inspected derivative index/transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; complete identity limits retained",
+    "reviewed_on": "2026-10-31",
+    "provenance": "Private provider receipts retained31October2026; no original-image reading or exact birth correction claimed.",
+    "publish_to_record_index": true
   }
 ]

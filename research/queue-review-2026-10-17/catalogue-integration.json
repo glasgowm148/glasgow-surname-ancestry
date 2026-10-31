@@ -9006,19 +9006,19 @@
     "Glasgow-1546": {
       "profile_id": "Glasgow-1546",
       "queued_at": "2026-10-20",
-      "biography_rechecked_at": "2026-10-20",
+      "biography_rechecked_at": "2026-10-31",
       "status": "OPEN",
       "pending": true,
       "manual_update": true,
-      "summary": "The 1700 Cook entries are banns; new 18 May entry and 14 June qualification, father remains 58%.",
-      "work_queue_summary": "The 1700 Cook entries are banns; new 18 May entry and 14 June qualification, father remains 58%.",
+      "summary": "John-81’s existing father Andrew-1546 improves from 39% Possible to 68% Probable: the 1709 baptism index names Andreu, with the childhood-to-adult identity still inferred. The 1700 Cook entries are banns; new 18 May entry and 14 June qualification, father remains 58%.",
+      "work_queue_summary": "John-81’s existing father Andrew-1546 improves from 39% Possible to 68% Probable: the 1709 baptism index names Andreu, with the childhood-to-adult identity still inferred. The 1700 Cook entries are banns; new 18 May entry and 14 June qualification, father remains 58%.",
       "significance": 78,
-      "draft_path": "research/Glasgow-1546/kirknewton-couple-2026-10-20.wiki",
+      "draft_path": "research/Glasgow-1546/kirknewton-father-review-2026-10-31.wiki",
       "findings_path": "research/Glasgow-1546/findings.md",
       "remote_wikitext": "== Biography ==\nAndrew was born about 1685. \n== Sources ==\n<references />\n* https://www.familysearch.org/ark:/61903/1:1:VQ4K-6MQ",
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
-      "preservation_review_path": "research/ancestry-connections/kirknewton-couple-preservation-2026-10-20.json",
+      "preservation_review_path": "research/ancestry-connections/john81-father-preservation-2026-10-31.json",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -9048,7 +9048,10 @@
           "scope": "99%, existing record-defined relationship; no new attachment or live edit."
         }
       ],
-      "remote_captured_at": "2026-10-20"
+      "remote_captured_at": "2026-10-20",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
     },
     "Glasgow-3118": {
       "queued_at": "2026-10-18",
@@ -12082,23 +12085,24 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-23",
-      "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-81/parish-household-review-2026-10-23.wiki",
+      "biography_rechecked_at": "2026-10-31",
+      "draft_path": "research/Glasgow-81/kirknewton-father-review-2026-10-31.wiki",
       "findings_path": "research/Glasgow-81/findings.md",
-      "summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
-      "work_queue_summary": "Add the reciprocal parish household findings and qualified child-father assessments.",
+      "summary": "John-81’s existing father Andrew-1546 improves from 39% Possible to 68% Probable: the 1709 baptism index names Andreu, with the childhood-to-adult identity still inferred. Add the reciprocal parish household findings and qualified child-father assessments.",
+      "work_queue_summary": "John-81’s existing father Andrew-1546 improves from 39% Possible to 68% Probable: the 1709 baptism index names Andreu, with the childhood-to-adult identity still inferred. Add the reciprocal parish household findings and qualified child-father assessments.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-1546",
-          "status": "possible",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 39,
+          "status": "probable",
+          "previous_status": "possible",
+          "previous_probability_percent": 39,
+          "probability_percent": 68,
           "assertion_id": "C-coverage-20261022b-glasgow-81-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Possible39%; the family sequence is contextual and John’s own event, spouse and later identity remain unverified."
+          "previous_status_provenance": "Authoritative assessment revision 2, 22 October 2026: Possible at 39%, based on an inherited 1709 family slot without a located John baptism. Existing father retained; not previously absent or replaced.",
+          "scope": "68% includes identification of the indexed Andreu with Andrew-1546 and of the 1709 child with the later John/Magdalen adult. Neither join is directly stated in an inspected original. The inherited 1709 year and parish may derive from this same event and are not counted as independent birth evidence. The baptism index supplies no mother, age, residence below parish level or occupation; its Birth Date field contains only “5”, not a usable birthday. The original image is unavailable in the inspected view. The 1738 provider transcript gives both parties’ residence as Penicuik, banns 27 May and marriage 23 June; it gives no father or age. The shared 27 May day/month is not an identity clue. Other local Johns, another Andrew household, or an unrepresented childhood identity remain alternatives; no missing field excludes them. The marriage index, provider transcript and existing wife biography refer to the same underlying marriage, not independent witnesses. Christian Cook is not upgraded as mother, the circa-1685 Andrew birth and all current vital fields remain unchanged, Andrew’s own father stays 58%, and John’s child Andrew-1333 stays 98%. This strengthens an already attached father, without a new attachment or profile merger.",
+          "relative_name": "Andrew Glasgow"
         }
       ],
       "preserve_captured_detail": false,
@@ -12106,7 +12110,7 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/parish-household-preservation-2026-10-23.json"
+      "preservation_review_path": "research/ancestry-connections/john81-father-preservation-2026-10-31.json"
     },
     "Glasgow-992": {
       "significance": 60,
@@ -42533,6 +42537,23 @@
       "summary": "New probable father William Glasgow-2715 at 88%; Crawford baptism, gamekeeper household and memorial fit; Leicester adult bridge qualified.",
       "work_queue_summary": "New probable father William Glasgow-2715 at 88%; Crawford baptism, gamekeeper household and memorial fit; Leicester adult bridge qualified.",
       "significance": 93,
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": ""
+    },
+    "Guthrie-777": {
+      "profile_id": "Guthrie-777",
+      "relationship_changes": [],
+      "draft_path": "research/Guthrie-777/kirknewton-father-review-2026-10-31.wiki",
+      "findings_path": "research/Guthrie-777/findings.md",
+      "preservation_review_path": "research/ancestry-connections/john81-father-preservation-2026-10-31.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "pending": true,
+      "status": "OPEN",
+      "biography_rechecked_at": "2026-10-31",
+      "summary": "John-81’s existing father Andrew-1546 improves from 39% Possible to 68% Probable: the 1709 baptism index names Andreu, with the childhood-to-adult identity still inferred. ",
+      "work_queue_summary": "John-81’s existing father Andrew-1546 improves from 39% Possible to 68% Probable: the 1709 baptism index names Andreu, with the childhood-to-adult identity still inferred. ",
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": ""

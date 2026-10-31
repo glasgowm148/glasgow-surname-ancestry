@@ -9048,29 +9048,55 @@
       "subject_id": "Glasgow-81",
       "relative_id": "Glasgow-1546",
       "relationship": "father",
-      "percent": 39,
-      "assessment_status": "possible",
+      "percent": 68,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022b-glasgow-81-father",
-      "basis": "The inherited John of 1709 fits between the older Andrew household’s 1702 James and 1714 Andrew children at Kirknewton. That offers a specific local family and compatible generation. John’s own profile explicitly lacks a source, so the interval and family slot cannot establish him as another son.",
+      "basis": "The newly inspected baptism index records John Glasgow, christened 27 May 1709 at Kirknewton and East Calder, with father Andreu Glasgow. That event matches the year, parish and Andrew father already intended by John-81’s inherited identity, while the earlier 39% review had no located record for John himself. Andrew-1546 represents the documented local adult household: Andrew Glasgow married Christian Cook in 1700 and fathered James at Kirknewton in 1702; the held 1714 Andrew child continues that family comparison. The new 1709 John is therefore a specific recorded son fitting that household, rather than only a gap between other children. The adult John/Magdalen Guthrie couple is separately anchored by the 1738 Penicuik marriage and the held West Calder children from 1745 onward, including Andrew in 1747. The marriage was already cited in Magdalene-777’s captured biography; the newly inspected provider transcript confirms that existing adult-family anchor, not a new spouse discovery. Taken together, the recorded father, particular local household and compatible regional adult sequence justify increasing the complete existing father-profile assessment from 39% to 68%, Probable.",
       "source_ids": [
-        "held-e-86672c324d6d"
+        "held-e-86672c324d6d",
+        "kirknewton-john-andreu-baptism-1709",
+        "penicuik-john-magdalene-guthrie-marriage-1738",
+        "kirknewton-andrew-cook-1700",
+        "kirknewton-james-andrew-1702"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible39%; the family sequence is contextual and John’s own event, spouse and later identity remain unverified."
+      "reviewed": "2026-10-31",
+      "scope": "68% includes identification of the indexed Andreu with Andrew-1546 and of the 1709 child with the later John/Magdalen adult. Neither join is directly stated in an inspected original. The inherited 1709 year and parish may derive from this same event and are not counted as independent birth evidence. The baptism index supplies no mother, age, residence below parish level or occupation; its Birth Date field contains only “5”, not a usable birthday. The original image is unavailable in the inspected view. The 1738 provider transcript gives both parties’ residence as Penicuik, banns 27 May and marriage 23 June; it gives no father or age. The shared 27 May day/month is not an identity clue. Other local Johns, another Andrew household, or an unrepresented childhood identity remain alternatives; no missing field excludes them. The marriage index, provider transcript and existing wife biography refer to the same underlying marriage, not independent witnesses. Christian Cook is not upgraded as mother, the circa-1685 Andrew birth and all current vital fields remain unchanged, Andrew’s own father stays 58%, and John’s child Andrew-1333 stays 98%. This strengthens an already attached father, without a new attachment or profile merger.",
+      "assessment_history": [
+        {
+          "percent": 39,
+          "assessment_status": "possible",
+          "basis": "The inherited John of 1709 fits between the older Andrew household’s 1702 James and 1714 Andrew children at Kirknewton. That offers a specific local family and compatible generation. John’s own profile explicitly lacks a source, so the interval and family slot cannot establish him as another son.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-1546",
       "relative_id": "Glasgow-81",
       "relationship": "child",
-      "percent": 39,
-      "assessment_status": "possible",
+      "percent": 68,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022b-glasgow-81-father",
-      "basis": "The inherited John of 1709 fits between the older Andrew household’s 1702 James and 1714 Andrew children at Kirknewton. That offers a specific local family and compatible generation. John’s own profile explicitly lacks a source, so the interval and family slot cannot establish him as another son.",
+      "basis": "The newly inspected baptism index records John Glasgow, christened 27 May 1709 at Kirknewton and East Calder, with father Andreu Glasgow. That event matches the year, parish and Andrew father already intended by John-81’s inherited identity, while the earlier 39% review had no located record for John himself. Andrew-1546 represents the documented local adult household: Andrew Glasgow married Christian Cook in 1700 and fathered James at Kirknewton in 1702; the held 1714 Andrew child continues that family comparison. The new 1709 John is therefore a specific recorded son fitting that household, rather than only a gap between other children. The adult John/Magdalen Guthrie couple is separately anchored by the 1738 Penicuik marriage and the held West Calder children from 1745 onward, including Andrew in 1747. The marriage was already cited in Magdalene-777’s captured biography; the newly inspected provider transcript confirms that existing adult-family anchor, not a new spouse discovery. Taken together, the recorded father, particular local household and compatible regional adult sequence justify increasing the complete existing father-profile assessment from 39% to 68%, Probable.",
       "source_ids": [
-        "held-e-86672c324d6d"
+        "held-e-86672c324d6d",
+        "kirknewton-john-andreu-baptism-1709",
+        "penicuik-john-magdalene-guthrie-marriage-1738",
+        "kirknewton-andrew-cook-1700",
+        "kirknewton-james-andrew-1702"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible39%; the family sequence is contextual and John’s own event, spouse and later identity remain unverified."
+      "reviewed": "2026-10-31",
+      "scope": "68% includes identification of the indexed Andreu with Andrew-1546 and of the 1709 child with the later John/Magdalen adult. Neither join is directly stated in an inspected original. The inherited 1709 year and parish may derive from this same event and are not counted as independent birth evidence. The baptism index supplies no mother, age, residence below parish level or occupation; its Birth Date field contains only “5”, not a usable birthday. The original image is unavailable in the inspected view. The 1738 provider transcript gives both parties’ residence as Penicuik, banns 27 May and marriage 23 June; it gives no father or age. The shared 27 May day/month is not an identity clue. Other local Johns, another Andrew household, or an unrepresented childhood identity remain alternatives; no missing field excludes them. The marriage index, provider transcript and existing wife biography refer to the same underlying marriage, not independent witnesses. Christian Cook is not upgraded as mother, the circa-1685 Andrew birth and all current vital fields remain unchanged, Andrew’s own father stays 58%, and John’s child Andrew-1333 stays 98%. This strengthens an already attached father, without a new attachment or profile merger.",
+      "assessment_history": [
+        {
+          "percent": 39,
+          "assessment_status": "possible",
+          "basis": "The inherited John of 1709 fits between the older Andrew household’s 1702 James and 1714 Andrew children at Kirknewton. That offers a specific local family and compatible generation. John’s own profile explicitly lacks a source, so the interval and family slot cannot establish him as another son.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ]
     },
     {
       "subject_id": "Glasgow-992",
