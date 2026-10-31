@@ -64010,8 +64010,8 @@
       "reviewed_on": "2026-10-31",
       "kind": "relationship",
       "status": "qualified",
-      "finding": "Mary in the 1841 Holly Walk household has a new daughter-in-law comparison: Mary Wilhelmina Campbell, the younger Robert’s1839 bride. The exact census locator is recovered, but the age conflict remains and no father rating changes.",
-      "qualification": "The age problem remains real: FreeCEN gives Mary 19 in 1841, while Campbell-38211’s public profile gives 1816 and copies an 1851 age 34. The latter original is also unread. The infant’s full name and birth particulars are not established by FreeCEN. Paterson is a compiled family history, not an original marriage entry, and its adjacent Montgreenan descent narrative has known conflicts with the separately held court evidence. Do not transfer the book’s explicit John Campbell parentage to Glasgow-3021 before identifying the two Marys. Retain the selected Robert Robertson father at 45%, Jane’s father at 78%, all mother/vital fields and separate profiles; no father replacement, merge or confidence improvement is recorded.",
+      "finding": "The original Holly Walk census is now inspected. Mary’s age remains 17/19, and the daughter-in-law comparison stays unselected; no father-confidence increase follows.",
+      "qualification": "The original 1841 Holly Walk census image has now been inspected through Findmypast: HO107/1135/14, folio 11, printed page 15, Leamington Priors. Robert is 65; Mary is entered with the Glasgow surname repeated by ditto and a Scotland birthplace mark. Mary’s final age digit remains ambiguous between 17 and 19: Findmypast transcribes 17, FreeCEN 19. Ann’s age also has an unresolved final digit (40/44; both providers transcribe 40). The schedule has no relationship column. These are readings of one census, not three independent family witnesses. The original does not prove Mary was Robert’s daughter or identify her with Mary Wilhelmina Campbell. Its 17/19 age reading still conflicts with the comparison bride’s 1816 birth and copied 1851 age 34. Keep that daughter-in-law comparison unselected and the existing father at 45%; Jane’s father remains 78%. No parent, identity, mother or vital-field change is made. The existing 1804 France birth fields remain unverified and conflict with the census, rather than being confirmed by it. A full original 1851 household and the 1839 marriage remain the discriminating identity tests.",
       "detail_url": "/people/glasgow-3021.html#research-findings",
       "people": [
         {
@@ -64029,12 +64029,69 @@
       ],
       "sources": [
         {
+          "title": "Original 1841 census inspected, HO107/1135/14, folio 11, p.15",
+          "url": "https://search.findmypast.co.uk/record?id=GBC%2F1841%2F1135%2F0425&parentid=GBC%2F1841%2F0005104748"
+        },
+        {
           "title": "FreeCEN 1841 household, HO107/1135, ED 10, folio 11, page 15",
           "url": "https://www.freecen.org.uk/search_records/5905ca04e9379091b1863863/robert-glasgow-1841-warwickshire-kenilworth-1776-"
         },
         {
           "title": "Paterson 1866, pp. 513–514, named bride and father",
           "url": "https://www.kilwinningheritage.org.uk/office/resources/documents/history-of-the-counties-of-ayr-and-wigton-vol-3-pt-2-paterson-1863.pdf#page=250"
+        }
+      ],
+      "relationship_changes": []
+    },
+    {
+      "id": "peters-john-original-will-1779-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "John Glasgow’s original will register confirms three named children and a pregnant wife, and corrects probate to 23 September 1779. It does not yet identify Agnes as Nancy Wright.",
+      "qualification": "The original register copy of John Glasgow’s will is now inspected: Cumberland County Will Book C, printed pp.161–162, FamilySearch DGS 005534167, images 358–359. It is dated 14 March 1779 and the probate endorsement says 23 September 1779, correcting the earlier reported 3 September. It names wife Ann, daughter Lates, daughter Agnes and son Joseph; Ann is described as with child. The estate is to support wife and children for eight years before sale and distribution, with provision for the unborn child if it survives. Wife Ann and friend Thomas Cellar are appointed executors. James Neely, Joseph Glasgow and Mary Arter witness the will; the witness Joseph is distinct from the named son. This is an inspected register copy, not the separate original estate packet. The register supplies no married name or adult residence for Agnes, and therefore does not identify her as Nancy (Glascoe) Wright. Nancy’s father stays 37% Possible. The record-defined Lates and Joseph father links remain 98%; John’s own James-of-Moneymore father remains 30%. Ann’s maternity of the three already-born children is not expressly stated. No father or mother attachment, confidence percentage, identity merge or vital field is changed. Next test: estate distribution, guardianship or receipts after the eight-year provision, looking for Agnes/Nancy and a Wright husband; do not repeat the completed will-image inspection.",
+      "detail_url": "/people/glascoe-11.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-4027",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-4027.html",
+          "role": "Testator"
+        },
+        {
+          "id": "Glascoe-11",
+          "name": "Nancy (Glascoe) Wright",
+          "url": "/people/glascoe-11.html",
+          "role": "Unproved later identity of Agnes; 37% retained"
+        },
+        {
+          "id": "Glasgow-4028",
+          "name": "Lates Glasgow",
+          "url": "/people/glasgow-4028.html",
+          "role": "Named daughter"
+        },
+        {
+          "id": "Glasgow-4029",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-4029.html",
+          "role": "Named son"
+        },
+        {
+          "id": "Unknown-764130",
+          "name": "Ann",
+          "url": "/people/unknown-764130.html",
+          "role": "Named pregnant wife; maternity of older children unstated"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cumberland Will Book C p.161, opening",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899B-J7VD"
+        },
+        {
+          "title": "Cumberland Will Book C p.162, continuation and probate",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899B-J761"
         }
       ],
       "relationship_changes": []

@@ -3,6 +3,8 @@
 <!-- nir-2026-10-06-ireland-1800-1829+ireland-1830-1839+ireland-1840-1849+ireland-1850-on+ireland-to-1799+us-to-1784 -->
 ## Current conclusion
 
+**Original census review, 31 October 2026:** The original 1841 Holly Walk census image has now been inspected through Findmypast: HO107/1135/14, folio 11, printed page 15, Leamington Priors. Robert is 65; Mary is entered with the Glasgow surname repeated by ditto and a Scotland birthplace mark. Mary’s final age digit remains ambiguous between 17 and 19: Findmypast transcribes 17, FreeCEN 19. Ann’s age also has an unresolved final digit (40/44; both providers transcribe 40). The schedule has no relationship column. These are readings of one census, not three independent family witnesses. The original does not prove Mary was Robert’s daughter or identify her with Mary Wilhelmina Campbell. Its 17/19 age reading still conflicts with the comparison bride’s 1816 birth and copied 1851 age 34. Keep that daughter-in-law comparison unselected and the existing father at 45%; Jane’s father remains 78%. No parent, identity, mother or vital-field change is made. The existing 1804 France birth fields remain unverified and conflict with the census, rather than being confirmed by it. A full original 1851 household and the 1839 marriage remain the discriminating identity tests.
+
 Reviewed 31 October 2026: the Holly Walk household now has an exact census reference. Mary’s daughter relationship remains unproved; a daughter-in-law comparison with the younger Robert’s wife is now documented for testing. No child, parent or vital assessment changes.
 
 ## Earlier conclusion — newspaper identity review, 6 October 2026
@@ -60,3 +62,12 @@ The age problem remains real: FreeCEN gives Mary 19 in 1841, while Campbell-3821
 [FreeCEN household and exact locator](https://www.freecen.org.uk/search_records/5905ca04e9379091b1863863/robert-glasgow-1841-warwickshire-kenilworth-1776-) · [Paterson 1866, printed pp. 513–514; PDF 249–250](https://www.kilwinningheritage.org.uk/office/resources/documents/history-of-the-counties-of-ayr-and-wigton-vol-3-pt-2-paterson-1863.pdf#page=250) · [Checked bride Mary Wilhelmina Campbell](https://www.wikitree.com/wiki/Campbell-38211) · [Checked younger Robert](https://www.wikitree.com/wiki/Robertson-Glasgow-11).
 
 Next discriminating test: inspect the original 1841 schedule at the exact locator, then the bride’s original 1839 marriage and 1851 household. Establish age, full name and family role before proposing John Campbell as Glasgow-3021’s father.
+
+
+## Original Holly Walk census inspected — 31 October 2026
+
+The original 1841 Holly Walk census image has now been inspected through Findmypast: HO107/1135/14, folio 11, printed page 15, Leamington Priors. Robert is 65; Mary is entered with the Glasgow surname repeated by ditto and a Scotland birthplace mark. Mary’s final age digit remains ambiguous between 17 and 19: Findmypast transcribes 17, FreeCEN 19. Ann’s age also has an unresolved final digit (40/44; both providers transcribe 40). The schedule has no relationship column. These are readings of one census, not three independent family witnesses.
+
+The original does not prove Mary was Robert’s daughter or identify her with Mary Wilhelmina Campbell. Its 17/19 age reading still conflicts with the comparison bride’s 1816 birth and copied 1851 age 34. Keep that daughter-in-law comparison unselected and the existing father at 45%; Jane’s father remains 78%. No parent, identity, mother or vital-field change is made. The existing 1804 France birth fields remain unverified and conflict with the census, rather than being confirmed by it. A full original 1851 household and the 1839 marriage remain the discriminating identity tests.
+
+[Original census](https://search.findmypast.co.uk/record?id=GBC%2F1841%2F1135%2F0425&parentid=GBC%2F1841%2F0005104748) · [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=GBC%2F1841%2F0005104748&tab=this). The previous FreeCEN-only account below is superseded on original-inspection status; its age 19 remains a competing derivative reading.

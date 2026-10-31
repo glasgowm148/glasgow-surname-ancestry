@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "case_id": "Glascoe-11",
+  "objective": "Establish the identity and documented family of Glascoe-11, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open",
+      "answer": ""
+    }
+  ],
+  "web_searches": [],
+  "targets": [
+    {
+      "kind": "wikitree",
+      "id": "Glascoe-11",
+      "generation": 0,
+      "reason": "Initial subject and immediate family capture.",
+      "status": "pending"
+    }
+  ],
+  "findings": [],
+  "research_state": {
+    "disposition": "identity_test_pending",
+    "reviewed": "2026-10-31",
+    "last_test": "The original register copy of John Glasgow’s will is now inspected: Cumberland County Will Book C, printed pp.161–162, FamilySearch DGS 005534167, images 358–359. It is dated 14 March 1779 and the probate endorsement says 23 September 1779, correcting the earlier reported 3 September. It names wife Ann, daughter Lates, daughter Agnes and son Joseph; Ann is described as with child. The estate is to support wife and children for eight years before sale and distribution, with provision for the unborn child if it survives. Wife Ann and friend Thomas Cellar are appointed executors. James Neely, Joseph Glasgow and Mary Arter witness the will; the witness Joseph is distinct from the named son. This is an inspected register copy, not the separate original estate packet.",
+    "next_test": "Locate estate accounts, guardianship or receipts after the eight-year provision, especially c.1787 onward, and identify Agnes/Nancy’s spouse/residence. Original register completed; separate packet not read.",
+    "review_conclusion": "The register supplies no married name or adult residence for Agnes, and therefore does not identify her as Nancy (Glascoe) Wright. Nancy’s father stays 37% Possible. The record-defined Lates and Joseph father links remain 98%; John’s own James-of-Moneymore father remains 30%. Ann’s maternity of the three already-born children is not expressly stated. No father or mother attachment, confidence percentage, identity merge or vital field is changed. Next test: estate distribution, guardianship or receipts after the eight-year provision, looking for Agnes/Nancy and a Wright husband; do not repeat the completed will-image inspection."
+  }
+}

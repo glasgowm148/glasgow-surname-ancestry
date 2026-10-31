@@ -114,7 +114,7 @@ IRISH_GROUPS = [
     dict(id='research-irish-cross-derry', label='Cross and Derry: a reconstructed cluster', members=['glasgow-2917', 'glasgow-1732', 'glasgow-1654'], years=(1686, 1844), place='Cross, Killycurragh and Ballynasollus, Derry/Tyrone', description='A Scottish baptism is documented; the later Irish association and attached descent remain reconstructed.', question='Can Irish records bridge Charles Glasgow from the Scottish baptism to the Cross families?', conclusion='The named local subgroups are useful research leads, not a documented chain from Charles.', boundary='A locality and identity study. No displayed father-son link is accepted from the Scottish baptism.', next='Seek Irish parish, lease, probate or land records naming Charles or the first Cross household.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-tamlaght', label="Tamlaght O'Crilly: the Hugh households", members=['glasgow-548', 'glasgow-3931', 'glasgow-540', 'glasgow-591'], years=(1740, 1772), place="Tamlaght O'Crilly and Inishrush, County Londonderry", description='Two 1740 Hugh Glasgow households and a 1772 occurrence are documented; their identities and kinship are unresolved.', question='Which, if any, later Glasgow family belongs to each documented Hugh household?', conclusion='The returns establish household occurrences, not descent from the traditional William or a secure profile identity.', boundary='Contemporary locality evidence with unresolved identities and no proved relationship between the two Hughs.', next='Find lease, church, probate or estate material with age, occupation, household or relatives.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-east-antrim', label='East Antrim: Larne to Kilwaughter', members=['glasgow-1078', 'glasgow-1081', 'glasgow-3913', 'glasgow-1143', 'glasgow-1499', 'glasgow-1504', 'glasgow-1505', 'glasgow-1022'], years=(1653, 1772), place='Larne, Glenarm and Kilwaughter, County Antrim', description='Early adults and households are documented in east Antrim; a complete founding family and links to later branches are not proved.', question='Can the early Larne, Glenarm and Kilwaughter occurrences be connected by a record-defined household?', conclusion='The 20 December 1764 Ballykeel lease, memorial 159661, explicitly names James as Robert’s son, documenting Robert-1143 to James-1144; the continuation to Archibald is supported by concordant records. Archibald’s missing boy fits Tennessee Robert, the possible father of James J. The older Larne ropemaker is separately a candidate for Adam of Inishrush’s father; the joining generations remain hypotheses.', boundary='Documentary locality cluster, not a founding couple or complete descent.', next='Compare NRS GD154/514–515 (c. 1653), /525 (c. 1690), /530 (November 1692) and /532 (1693–1708) tenant and rental originals, and read PRONI T/828/15 for named relatives and date qualifications.', evidence=[('Larne and American family reconstruction', '/people/glasgow-951.html#larne-reconstruction'), ('Larne and Kilwaughter family study', '/branches/larne-kilwaughter/'), ('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
-    dict(id='research-irish-moneymore', label='Moneymore: a labelled tree under review', members=['glasgow-1026', 'glasgow-1492', 'glasgow-2425', 'glasgow-2426'], years=(1671, 1735), place='Moneymore, County Londonderry, and Derryloran, County Tyrone', description='A Scottish baptism is cited for the earliest profile, but no Irish record yet supports the claimed migration or attached Moneymore descent.', question='Can Irish evidence identify William Walter Glasgow or reconcile the competing attached fathers?', conclusion='The Moneymore-labelled tree remains reconstructed; the stated County Galway locality is inconsistent with the Ulster setting.', boundary='A profile and locality reconciliation study, not a confirmed Irish lineage.', next='Find Irish records for William, spouse and children and resolve the competing father attachments.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
+    dict(id='research-irish-moneymore', record_updates=['peters-john-will-1779-fendrick-1944'], record_update_anchor='chapter-peters-will-family', label='Moneymore: a labelled tree under review', members=['glasgow-1026', 'glasgow-1492', 'glasgow-2425', 'glasgow-2426'], years=(1671, 1735), place='Moneymore, County Londonderry, and Derryloran, County Tyrone', description='A Scottish baptism is cited for the earliest profile, but no Irish record yet supports the claimed migration or attached Moneymore descent.', question='Can Irish evidence identify William Walter Glasgow or reconcile the competing attached fathers?', conclusion='The Moneymore-labelled tree remains reconstructed; the stated County Galway locality is inconsistent with the Ulster setting.', boundary='A profile and locality reconciliation study, not a confirmed Irish lineage.', next='Find Irish records for William, spouse and children and resolve the competing father attachments.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-derryloran', label='Derryloran and Cookstown: four 1740 households', members=['glasgow-2988', 'glasgow-2915', 'glasgow-1970'], years=(1740, 1760), place='Derryloran and Cookstown, County Tyrone', description='Two James and two William Glasgow households form a documented 1740 parish cluster beneath later Cookstown research.', question='Can later Cookstown profiles be matched to a specific 1740 householder?', conclusion='The four 1740 household occurrences are firm locality evidence, while their exact identities and kinship remain unresolved. The Cookstown–Gortin model selects two uncertain fathers and separately grades the named Hillsdale core probable; it does not identify a specific 1740 householder.', boundary='A documentary parish cluster, not proof of a shared father or Moneymore descent.', next='Follow each householder in church, lease, tax, probate and estate records.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-cork-new-zealand', label='Cork to New Zealand: an independent migration', members=['glasgow-971'], years=(1792, 1873), place='County Cork and New Zealand', description='A later migration family is documented independently of the Ulster clusters.', question='Is there any documentary bridge from this Cork family to an earlier Glasgow branch?', conclusion='No evidence currently joins the Cork–New Zealand family to the Ulster locality clusters.', boundary='A separate migration family; broad surname or Y-DNA affinity does not supply the missing connection.', next='Trace the Barony-to-Cork move and earliest Cork records before testing wider links.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
     dict(id='research-irish-broughshane', label='Broughshane, Racavan and Clough', members=['glasgow-1657'], years=(1766, 1850), place='Broughshane, Racavan and Clough, County Antrim', description='A record-supported later Antrim household whose connection to other Irish clusters is unresolved.', question='Can the later Broughshane family be placed beside, rather than inside, another Antrim cluster?', conclusion='The household is a valid local study; no relationship to Kilwaughter, Glenleslie or Bann Valley is established.', boundary='A later Antrim family, not an inferred branch of another locality group.', next='Follow original parish, lease and probate records for parents, holdings and collateral kin.', evidence=[('Early Ireland branch overview', 'https://www.wikitree.com/wiki/Space:Glasgow_Branches_in_Early_Ireland')], sources=['surname-research/free-space-pages/Glasgow_Branches_In_Early_Ireland.md'], irish=True),
@@ -177,6 +177,42 @@ def father_audit_section(audit):
             f'and <a href="/research/transcriptions/ninian-1613/">1613 testament</a>; his later marriage identity '
             f'remains probable.</p>' + followup + '<details><summary>Review the 31 assessed profiles and next searches</summary>'
             + ''.join(rows) + '</details></section><!-- early-father-audit:end -->')
+
+
+def repair_record_updates(group_ids=None):
+    """Refresh current source reviews without rebuilding unrelated study bodies."""
+    records = {row['record_id']: row for row in json.loads(
+        (ROOT / 'research/canonical_records.json').read_text())}
+    changed = Counter()
+    for group in GROUPS + IRISH_GROUPS:
+        if group_ids is not None and group['id'] not in group_ids:
+            continue
+        selected = [records[rid] for rid in group.get('record_updates', [])]
+        path = WEB / 'branches' / group['id'] / 'index.html'
+        if not selected or not path.exists():
+            continue
+        before = path.read_text()
+        page = re.sub(r'<!-- current-record-reviews:start -->.*?<!-- current-record-reviews:end -->', '', before, flags=re.S)
+        sections = []
+        for row in selected:
+            links = ''.join('<li><a href="' + escape(source['url'], quote=True) + '">' +
+                            escape(source['title']) + '</a></li>'
+                            for source in row.get('additional_sources', []))
+            sections.append('<section class="experience-topic"><h2>' + escape(row['source_title']) +
+                            '</h2><p>' + escape(row['note']) + '</p><ul>' + links + '</ul>' +
+                            '<p>' + ' · '.join('<a href="/people/' + escape(pid.lower(), quote=True) + '.html#research-findings">' + escape(pid) + '</a>' for pid in row.get('profiles', {})) + '</p></section>')
+        content = '<!-- current-record-reviews:start -->' + ''.join(sections) + '<!-- current-record-reviews:end -->'
+        anchor = group.get('record_update_anchor')
+        pattern = (r'(<(?:section|article)\b[^>]*id=["\']' + re.escape(anchor) +
+                   r'["\'][^>]*>.*?</h[1-6]>)') if anchor else None
+        if pattern and re.search(pattern, page, flags=re.S):
+            page = re.sub(pattern, lambda match: match[0] + content, page, count=1, flags=re.S)
+        else:
+            page = page.replace('</main>', content + '</main>', 1)
+        if page != before:
+            path.write_text(page)
+            changed['current_record_reviews'] += 1
+    return changed
 
 
 def repair():
@@ -273,6 +309,7 @@ def repair():
         text = insert_after_page_header(text, father_audit_section(audit))
         write('assets/research/early-father-audit.json', json.dumps(audit, ensure_ascii=False, separators=(',', ':')) + '\n')
     write(relative, text)
+    changed.update(repair_record_updates())
     return changed
 
 

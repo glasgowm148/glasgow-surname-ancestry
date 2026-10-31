@@ -4564,3 +4564,18 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [Glasgow-3021](https://www.wikitree.com/wiki/Glasgow-3021) | OPEN | Add exact 1841 census source and unselected Mary Campbell comparison; retain existing father grade and full prior proposal. |
 | [Glasgow-3022](https://www.wikitree.com/wiki/Glasgow-3022) | OPEN | Add exact 1841 census source and unselected Mary Campbell comparison; retain existing father grade and full prior proposal. |
+
+
+## 31 October 2026 — Holly Walk original inspected
+
+| [Glasgow-3021](https://www.wikitree.com/wiki/Glasgow-3021) | OPEN | Add inspected original census citation; Mary’s age 17/19 unresolved, no father change. |
+| [Glasgow-3022](https://www.wikitree.com/wiki/Glasgow-3022) | OPEN | Add inspected original census citation; Mary’s age 17/19 unresolved, no father change. |
+
+
+## 31 October 2026 — Peters Township original will
+
+| [Glasgow-4027](https://www.wikitree.com/wiki/Glasgow-4027) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
+| [Glasgow-4028](https://www.wikitree.com/wiki/Glasgow-4028) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
+| [Glasgow-4029](https://www.wikitree.com/wiki/Glasgow-4029) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
+| [Unknown-764130](https://www.wikitree.com/wiki/Unknown-764130) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
+| [Glascoe-11](https://www.wikitree.com/wiki/Glascoe-11) | OPEN | Cite inspected original register, correct probate to 23 September 1779, preserve Nancy/Agnes identity limit and current father grades. |
