@@ -159,3 +159,14 @@ The original 1810 Newberry schedule, page 119 A, names Archd Glasgow. In the fiv
 Source: [original schedule](https://www.familysearch.org/ark:/61903/3:1:33SQ-GYBM-SHB), Newberry, page 119 A, NARA M 252 roll 61; [FamilySearch index](https://www.familysearch.org/ark:/61903/1:1:XH2Y-4QW). The row lies between Robert Montgomery and Eliza Turner. Household categories do not identify individual children or the adult woman.
 
 The next discriminating source is Archibald’s 1818 estate 647, box 27, package 57, especially distributions and receipts identifying adult or absent heirs. Its contents have not been read or requested in this batch. The census test is complete and should not remain an unread-image task.
+
+
+## Completed targeted parentage search — 31 October 2026
+
+The signed-in loose-papers collection1911928 county list omits Newberry. Bound collection1919417 does include Newberry; a limited review located Mary’s1822will in BookH, not Archibald’s1818estate647. The BookI G-index leaf inspected supplies no Glasgow entry; the BookG sample is not an exhaustive search. No complete Archibald packet or adult-heir receipt was read.
+
+The selected father remains 51%; this is source coverage, not a confidence finding or an exclusion.
+
+Next discriminating evidence: Locate estate647,box27,package57 through the courthouse/SCDAH estate-papers seriesL36083 or an actual complete digital copy; seek distributions/receipts identifying an absent adult son. The original1810census test is already complete.
+
+[Inspected collection/query](https://www.familysearch.org/en/search/collection/1911928). [Official estate-papers guide](https://archivesindex.sc.gov/guide/CountyRecords/rg0036.htm), L36083, estate papers1787–1889,101microfilm reels. The guide is an acquisition reference, not the packet contents.

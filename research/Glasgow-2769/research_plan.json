@@ -12,11 +12,22 @@
   ],
   "research_state": {
     "father_id": "Glasgow-2304",
-    "disposition": "awaiting_source",
+    "disposition": "source_hold",
     "reviewed_on": "2026-10-30",
     "confidence_percent": 51,
-    "last_test": "Original 1810 census page119A read: no male10–25 tally. Adult departure remains possible; no father gain.",
-    "next_test": "Read Archibald’s 1818 estate647, box27, package57, especially named adult distributions and receipts.",
-    "reopen_when": "The actual estate or another named relationship/holding succession becomes available."
-  }
+    "last_test": "The signed-in loose-papers collection1911928 county list omits Newberry. Bound collection1919417 does include Newberry; a limited review located Mary’s1822will in BookH, not Archibald’s1818estate647. The BookI G-index leaf inspected supplies no Glasgow entry; the BookG sample is not an exhaustive search. No complete Archibald packet or adult-heir receipt was read.",
+    "next_test": "Locate estate647,box27,package57 through the courthouse/SCDAH estate-papers seriesL36083 or an actual complete digital copy; seek distributions/receipts identifying an absent adult son. The original1810census test is already complete.",
+    "reopen_when": "The actual estate or another named relationship/holding succession becomes available.",
+    "reviewed": "2026-10-31",
+    "review_conclusion": "Father 51% unchanged; completed coverage excluded from confidence gains."
+  },
+  "web_searches": [
+    {
+      "query": "Bounded father-identity test",
+      "url": "https://www.familysearch.org/en/search/collection/1911928",
+      "searched_on": "2026-10-31",
+      "status": "completed_no_change",
+      "result_summary": "The signed-in loose-papers collection1911928 county list omits Newberry. Bound collection1919417 does include Newberry; a limited review located Mary’s1822will in BookH, not Archibald’s1818estate647. The BookI G-index leaf inspected supplies no Glasgow entry; the BookG sample is not an exhaustive search. No complete Archibald packet or adult-heir receipt was read."
+    }
+  ]
 }

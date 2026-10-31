@@ -42,3 +42,14 @@ Named father identified within the existing household; child-side father assessm
 
 No new person, vital amendment or relationship regrade. The recorded mother and the candidate adult profile are separate assertions. [Current audit study](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-PAGE20-JOHN1727-20261024 -->
+
+
+## Completed targeted parentage search — 31 October 2026
+
+Two principal-only FamilySearch Scotland Births and Baptisms searches returned no result: Alexander Glasgow,1695–1710,father Alexander; then1685–1710,Kirknewton,any father. The first unfiltered result set contained18 incidental parent roles and is not evidence of18 child baptisms. These bounded indexes do not prove no baptism exists.
+
+The selected father remains 34%; this is source coverage, not a confidence finding or an exclusion.
+
+Next discriminating evidence: Inspect the underlying Kirknewton household/register context or a marriage, occupation, property or sibling clause that identifies the adult; do not repeat these exact index queries.
+
+[Inspected collection/query](https://www.familysearch.org/en/search/record/results?count=100&q.birthLikeDate.from=1685&q.birthLikeDate.to=1710&q.birthLikePlace=Kirknewton%2C%20Midlothian%2C%20Scotland&q.givenName=Alexander&q.isPrincipal=true&q.surname=Glasgow&f.collectionId=1771030).

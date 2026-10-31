@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-1141",
+  "objective": "Establish the identity and documented family of Glasgow-1141, separating sourced facts from tree assertions.",
+  "questions": [
+    {
+      "id": "identity",
+      "question": "Which records prove the subject's identity across events?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "parents",
+      "question": "Which original or indexed records identify the parents?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "family",
+      "question": "Which spouses and children are directly supported by records?",
+      "status": "open",
+      "answer": ""
+    },
+    {
+      "id": "conflicts",
+      "question": "What conflicts or same-name conflations must be resolved?",
+      "status": "open",
+      "answer": ""
+    }
+  ],
+  "web_searches": [
+    {
+      "query": "Bounded father-identity test",
+      "url": "https://www.familysearch.org/en/search/record/results?count=100&q.birthLikeDate.from=1685&q.birthLikeDate.to=1710&q.birthLikePlace=Kirknewton%2C%20Midlothian%2C%20Scotland&q.givenName=Alexander&q.isPrincipal=true&q.surname=Glasgow&f.collectionId=1771030",
+      "searched_on": "2026-10-31",
+      "status": "completed_no_change",
+      "result_summary": "Two principal-only FamilySearch Scotland Births and Baptisms searches returned no result: Alexander Glasgow,1695–1710,father Alexander; then1685–1710,Kirknewton,any father. The first unfiltered result set contained18 incidental parent roles and is not evidence of18 child baptisms. These bounded indexes do not prove no baptism exists."
+    }
+  ],
+  "targets": [
+    {
+      "kind": "wikitree",
+      "id": "Glasgow-1141",
+      "generation": 0,
+      "reason": "Initial subject and immediate family capture.",
+      "status": "pending"
+    }
+  ],
+  "findings": [],
+  "research_state": {
+    "disposition": "source_hold",
+    "reviewed": "2026-10-31",
+    "last_test": "Two principal-only FamilySearch Scotland Births and Baptisms searches returned no result: Alexander Glasgow,1695–1710,father Alexander; then1685–1710,Kirknewton,any father. The first unfiltered result set contained18 incidental parent roles and is not evidence of18 child baptisms. These bounded indexes do not prove no baptism exists.",
+    "next_test": "Inspect the underlying Kirknewton household/register context or a marriage, occupation, property or sibling clause that identifies the adult; do not repeat these exact index queries.",
+    "review_conclusion": "Father 34% unchanged; completed coverage excluded from confidence gains."
+  }
+}

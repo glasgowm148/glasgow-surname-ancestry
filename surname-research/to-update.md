@@ -4553,3 +4553,8 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [Wilson Glasgow](https://www.wikitree.com/wiki/Glasgow-405) | OPEN | Existing Wilson father 49% Possible → 93% Confident from the inspected 1844 marriage index and original 1850 census; marriage original unavailable, no new father attachment. |
 | [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-2298) | OPEN | Existing Wilson father 49% Possible → 93% Confident from the inspected 1844 marriage index and original 1850 census; marriage original unavailable, no new father attachment. |
+
+
+## 31 October 2026 — qualified original Mary Glasgow will
+
+| [Mary, wife of James Glasgow](https://www.wikitree.com/wiki/Crosier-512) | OPEN | Add the partial original1822will reading and source limitation; no parent, surname or confidence amendment. |
