@@ -1,0 +1,164 @@
+{
+  "published_utc": "2026-10-31T21:01:34.665058+00:00",
+  "site": "https://glasgow.phenotype.dev",
+  "branch": "main",
+  "release_commit": "93064a898b03e45d19c11195df5ad22bb56339d5",
+  "remote_main_verified_at_release": "93064a898b03e45d19c11195df5ad22bb56339d5",
+  "research_goal": "paused",
+  "research_searches_resumed": false,
+  "relationship_assessments_changed_by_release": false,
+  "public_catalogue_people": 4978,
+  "public_record_entries": 5864,
+  "preserved_research_events": 407,
+  "payload": {
+    "files": 88713,
+    "bytes": 2044008227,
+    "manifest_sha256": "ca6a3405f246cc20ecfdc4e8945b3b3fd0d18a3653aec5db1fb63848777bc6c8"
+  },
+  "bundle": {
+    "archive": "/Users/m/genealogy/wikitree-api-scrape/dist/glasgow-site-20261031-202455.tar.gz",
+    "bytes": 387115334,
+    "decimal_mb": 387.115334,
+    "sha256": "abae1db4ac7ac4177e43124334d8e94d4a06864e66c01c9bb9038c2b26fa834d",
+    "payload_files_verified": 88713,
+    "embedded_manifest_verified": true,
+    "all_payload_hashes_match_local_manifest": true
+  },
+  "server_sha256_verification": {
+    "checked": 88713,
+    "expected": 88713,
+    "failures": []
+  },
+  "live_https_verification": {
+    "checked": 178,
+    "exact": 134,
+    "normalized": 44,
+    "failures": []
+  },
+  "post_deploy_rsync_changes": 0,
+  "deletion_review": {
+    "total": 727,
+    "categories": {
+      "superseded catalogue cache": 493,
+      "retired duplicate machine data; HTML redirect retained": 38,
+      "superseded research reader cache": 196
+    },
+    "unreviewed": [],
+    "missing_current_routes": []
+  },
+  "models_and_genealogy": {
+    "atlas.json": {
+      "before_people": 4553,
+      "after_people": 4553,
+      "added_people": [],
+      "added_count": 0
+    },
+    "standalone.json": {
+      "before_people": 4702,
+      "after_people": 4702,
+      "added_people": [],
+      "added_count": 0
+    },
+    "catalogue": {
+      "before_people": 4978,
+      "after_people": 4978,
+      "added_count": 0,
+      "reviewed_creation_draft_reclassifications": 12
+    },
+    "research_events": {
+      "before": 407,
+      "after": 407,
+      "before_rows": 407,
+      "after_rows": 407
+    },
+    "records": {
+      "before": 5866,
+      "after": 5864,
+      "added_count": 33,
+      "reviewed_rekeys": 20,
+      "replaced_export_leads": 15,
+      "restored_existing_associations": 13,
+      "replayed_public_canonical_records": 2
+    },
+    "recent_receipts": {
+      "record_ids_checked": 7,
+      "finding_routes_checked": 3
+    }
+  },
+  "fresh_connectivity": {
+    "checked_cutoffs": [
+      1500,
+      1550,
+      1600,
+      1650,
+      1700,
+      1750,
+      1800,
+      1850
+    ],
+    "views": [
+      "working",
+      "supported",
+      "confident"
+    ],
+    "fresh_graph_matches_published_metrics": true,
+    "failures": []
+  },
+  "publication_safety_failures": 0,
+  "new_research_publication_failures": 0,
+  "new_internal_link_failures": 0,
+  "generated_database_views_matching": 338,
+  "experience": {
+    "checks": 888,
+    "failures": 0
+  },
+  "validation": {
+    "full_unit_run": 1264,
+    "skipped": 7,
+    "full_run_failures_before_final_followup": 3,
+    "final_followup_tests": 24,
+    "final_followup_passed": true,
+    "all_known_failures_resolved": true,
+    "ruff_passed": true,
+    "data_validation_passed": true,
+    "coverage_ledger_passed": true
+  },
+  "reconciliation": {
+    "reviewed_record_id_recalculations": 20,
+    "generic_profile_leads_replaced_by_reviewed_sources": 15,
+    "existing_source_associations_restored": 13,
+    "public_canonical_replay_flags_restored": 2,
+    "existing_surgeon_source_identifier_registered": true,
+    "creation_accounts_excluded_from_existing_profile_amendment_filters": 13,
+    "reviewed_study_summaries": 3,
+    "existing_irish_review_introduction_restored": true
+  },
+  "backups": {
+    "server": {
+      "host": "23.88.104.255",
+      "archive": "/var/backups/glasgow/20261031-170114-pre-main-release/site-before.tar.gz",
+      "sha256": "d890c2d4843d3ebdb9f3fac4f4bbbaae9bd1b5e0e0f4f262f72f3f5995923b91",
+      "bytes": 384451459,
+      "gzip_verified": true
+    },
+    "local_before_rebuild": {
+      "head": "675ff921cd66e59009ac0b302f05cec521c4d3f9",
+      "local_site_backup": "/Users/m/genealogy/wikitree-api-scrape/tmp/release-main-20261031/local-www-before.tar.gz",
+      "bytes": 404902343,
+      "sha256": "49ced96f0a116a69f0f7c4a9c60489f8b06eb75cb9dbebe86a0a8138780a1d8c",
+      "gzip_verified": true
+    },
+    "workbench_before_release": "data/private/workbench/backups/pre-main-release-20261031"
+  },
+  "limitations": {
+    "native_whole_workbench_validation": "Not passed: existing project-grade labels proved/possible lack configuration definitions, and historical generated-file references are missing or have changed. The coverage ledger and all 338 generated research views pass; no stale duplicate dossiers were restored to the public site.",
+    "browser": "Local catalogue filters and the five chart grades verified by browser DOM. Latest Findings main-content progress link verified with the fragment-aware reader. Production is checked by full server hashes and HTTPS. Screenshots/mobile browser lab unavailable; CDP9333 refused connection and native capture failed. No production tab was opened while memory pressure was elevated.",
+    "performance": {
+      "compact_catalogue_bytes": 6327090,
+      "initial_data_lab_target_bytes": 6000000,
+      "above_target_bytes": 327090,
+      "full_browser_performance_suite_run": false
+    }
+  },
+  "operational_evidence": "tmp/release-main-20261031/"
+}
