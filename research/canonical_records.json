@@ -6549,7 +6549,8 @@
         "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-899B-J761"
       }
     ],
-    "provenance": "Established Fendrick record ID/source URL retained; inspected register added as primary supporting source. Underlying will is one event, not independent abstract/original family witnesses."
+    "provenance": "Established Fendrick record ID/source URL retained; inspected register added as primary supporting source. Underlying will is one event, not independent abstract/original family witnesses.",
+    "publish_to_record_index": true
   },
   {
     "record_id": "fmp-glasgow-033cb073721c",
@@ -9710,7 +9711,8 @@
     ],
     "year": 1771,
     "country": "Scotland",
-    "source_quality": "derivative"
+    "source_quality": "derivative",
+    "publish_to_record_index": true
   },
   {
     "record_id": "held-e-4498fdf3eb8d",
