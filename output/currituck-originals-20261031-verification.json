@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "failures": [],
+  "prior_events": 400,
+  "current_events": 401,
+  "new_confidence_events": 1,
+  "finding_routes": {
+    "currituck-original-parcel-father-20261031": "/latest-findings/page/22/#finding-currituck-original-parcel-father-20261031"
+  },
+  "baseline_sarah_present": false,
+  "subject": "Glasgow-357",
+  "father": "Glasgow-363",
+  "confidence_before": 58,
+  "confidence_after": 68,
+  "grade_before": "possible",
+  "grade_after": "probable",
+  "all_three_models_verified": true,
+  "research_events": [
+    400,
+    401
+  ],
+  "population_before_after": [
+    1808,
+    1808
+  ],
+  "supported_components_before_after": [
+    664,
+    663
+  ],
+  "confident_components_before_after": [
+    1062,
+    1062
+  ],
+  "unknown_fathers_before_after": [
+    382,
+    382
+  ],
+  "publication_new_failures": 0,
+  "links_new_pairs": 0,
+  "authoritative_views_match": true,
+  "private_comparison_withheld": true,
+  "http": {
+    "/people/glasgow-357.html": 200,
+    "/people/glasgow-363.html": 200,
+    "/people/glasgow-830.html": 200,
+    "/people/cooper-5262.html": 200,
+    "/latest-findings/page/22/#finding-currituck-original-parcel-father-20261031": 200,
+    "/onetree/progress/?through=1850&links=confident": 200,
+    "/sitemap/": 200
+  },
+  "inherited_capture_whitespace": {
+    "research/Glasgow-357/currituck-originals-2026-10-31.wiki": {
+      "lines": [
+        11,
+        15,
+        20,
+        71,
+        72,
+        76
+      ],
+      "basis": "Verbatim retained prior complete proposal; no new prose whitespace."
+    }
+  },
+  "local_only": true,
+  "live_wikitree_changed": false,
+  "pushed": false
+}

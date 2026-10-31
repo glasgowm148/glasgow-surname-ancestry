@@ -51334,5 +51334,93 @@
     "reviewed_on": "2026-10-31",
     "provenance": "tmp/daniel-2516-20261031/original-readings.json; source scope maintained explicitly",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "currituck-caleb-simmons-purchase-1761",
+    "source_title": "Hilary and Jean Simmons to Caleb Glasgow,1 August 1761,Letter Book 1 pp. 40–41",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-L98M-8HC8",
+    "year": 1761,
+    "date": "1761-08-01",
+    "country": "United States",
+    "place": "Currituck County, North Carolina, United States",
+    "record_location": "Currituck County, North Carolina",
+    "record_type": "Land deed",
+    "record_category": "Land & property",
+    "source_type": "Original registered deed scan",
+    "source_quality": "original",
+    "status": "Complete original inspected by research assistant 31 October 2026",
+    "association": "Hilary and Jean Simmons to Caleb Glasgow,1 August 1761,Letter Book 1 pp. 40–41",
+    "note": "Caleb bought approximately 50 acres of swamp for£4 proclamation money, part of Simmons’s 20 May 1761 patent. FullDauge-corner boundary matches William’s 1782 sale. Acknowledged at the firstTuesday January 1762 court. No father/child role stated.",
+    "profiles": {
+      "Glasgow-363": {
+        "role": "Candidate identity of the single recorded purchaser Caleb; compatible account Glasgow-830 retained, not two purchasers.",
+        "timeline_group": "Property and family context"
+      },
+      "Glasgow-830": {
+        "role": "Compatible alternative account of the same Caleb purchaser; no separate second conveyance or distinct-person conclusion.",
+        "timeline_group": "Property and family context"
+      }
+    },
+    "additional_sources": [
+      {
+        "title": "Original continuation,Letter Book 1 p 41",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:3QS7-898M-8HV4"
+      },
+      {
+        "title": "Earlier NCGenWeb transcription",
+        "url": "https://www.ncgenweb.us/currituck/deeds/letterbook1.html"
+      }
+    ],
+    "reviewed_on": "2026-10-31",
+    "publish_to_record_index": true,
+    "provenance": "Original image receipts in tmp/currituck-357-originals-20261031; raw scans preserved privately, not published."
+  },
+  {
+    "record_id": "currituck-william-cowell-sale-1782",
+    "source_title": "William and Sarah Glasgow to Solomon Cowell,25 December 1782,Deed Book 5 pp. 135–136",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G98M-83T2",
+    "year": 1782,
+    "date": "1782-12-25",
+    "country": "United States",
+    "place": "Currituck County, North Carolina, United States",
+    "record_location": "Currituck County, North Carolina",
+    "record_type": "Land deed",
+    "record_category": "Land & property",
+    "source_type": "Original registered deed scan",
+    "source_quality": "original",
+    "status": "Complete original inspected by research assistant 31 October 2026",
+    "association": "William and Sarah Glasgow to Solomon Cowell,25 December 1782,Deed Book 5 pp. 135–136",
+    "note": "William and Sarah sold approximately 50 acres for£4 specie to Solomon Cowell. Original continuation gives the same full Dauge-corner survey as 1761. Witnesses Thomas Cooper and John Glasgow; they are not given kin roles. Acknowledged March Term 1786, registered 25 April 1786. Estate of inheritance in fee simple is generic tenure wording. The father clause above belongs to a different Sanderson deed; the Isaac/Caleb instrument below is unrelated.",
+    "profiles": {
+      "Glasgow-357": {
+        "role": "Seller William Glasgow, expressly husband of Sarah; no literal father clause.",
+        "timeline_group": "Property and family context"
+      },
+      "Cooper-5262": {
+        "role": "Sarah, expressly William’s wife; Cooper maiden surname and maternity not supplied by this deed.",
+        "timeline_group": "Property and family context"
+      },
+      "Glasgow-363": {
+        "role": "Earlier Caleb purchaser supplies comparative parcel context only, not a named 1782 party.",
+        "timeline_group": "Property and family context"
+      },
+      "Glasgow-830": {
+        "role": "Compatible alternative account of the earlier Caleb purchaser; no new identity selection.",
+        "timeline_group": "Property and family context"
+      }
+    },
+    "additional_sources": [
+      {
+        "title": "Original continuation,Deed Book 5 p 136",
+        "url": "https://www.familysearch.org/ark:/61903/3:1:3QSQ-G98M-83YR"
+      },
+      {
+        "title": "Earlier NCGenWeb abstract",
+        "url": "https://www.ncgenweb.us/currituck/deeds/db05.html"
+      }
+    ],
+    "reviewed_on": "2026-10-31",
+    "publish_to_record_index": true,
+    "provenance": "Original image receipts in tmp/currituck-357-originals-20261031; raw scans preserved privately, not published."
   }
 ]

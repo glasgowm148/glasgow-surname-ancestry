@@ -10954,24 +10954,39 @@
       "profile_id": "Glasgow-357",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-23",
-      "biography_rechecked_at": "2026-10-23",
-      "draft_path": "research/Glasgow-357/currituck-will-review-2026-10-23.wiki",
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "draft_path": "research/Glasgow-357/currituck-originals-2026-10-31.wiki",
       "findings_path": "research/Glasgow-357/findings.md",
-      "summary": "Add the 1805 will naming Sarah and seven children, and replace the incompatible August death with a qualified boundary; father Caleb remains 29%.",
-      "work_queue_summary": "Add the 1805 will naming Sarah and seven children, and replace the incompatible August death with a qualified boundary; father Caleb remains 29%.",
+      "summary": "Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. Add the 1805 will naming Sarah and seven children, and replace the incompatible August death with a qualified boundary; father Caleb remains 29%.",
+      "work_queue_summary": "Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. Add the 1805 will naming Sarah and seven children, and replace the incompatible August death with a qualified boundary; father Caleb remains 29%.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-363",
-          "status": "uncertain",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 29,
+          "status": "probable",
+          "previous_status": "possible",
+          "previous_probability_percent": 58,
+          "probability_percent": 68,
           "assertion_id": "C-coverage-20261022b-glasgow-357-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Existing father hypothesis only; profile dates and ancestry derive partly from the same contributed tree. The will’s omission is not an exclusion."
+          "previous_status_provenance": "Project prior assessment: 58% possible, 29 October 2026. Saved live preflight 31 October 2026 confirms Father UID 9663460, Glasgow-363, already attached with blank/unmarked Father DataStatus; no new attachment. Earlier 22 October unmarked-to-first-29% provenance retained in previous_amendment.",
+          "scope": "Neither deed calls William Caleb’s son or explains the intervening transfer. The 1781 death is inherited information, not corroborated by these deeds. Ordinary purchase/gift or collateral succession remains possible; Caleb-363 and Caleb-830 may be overlapping accounts and the deed cannot distinguish them. The old abstract argument already assumed parcel continuity: the new evidence independently verifies its precise geometry, not an explicit inheritance. Estate of inheritance in fee simple is legal tenure wording, not a father clause. No mother, birthday, death date, spouse maiden surname or live WikiTree flag changes.",
+          "previous_live_status": "unmarked",
+          "live_father_unchanged": true,
+          "relative_name": "Caleb Glasgow",
+          "previous_amendment": {
+            "action": "regrade",
+            "relationship": "father",
+            "relative_id": "Glasgow-363",
+            "status": "uncertain",
+            "previous_status": "unmarked",
+            "previous_probability_percent": null,
+            "probability_percent": 29,
+            "assertion_id": "C-coverage-20261022b-glasgow-357-father",
+            "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
+            "scope": "Existing father hypothesis only; profile dates and ancestry derive partly from the same contributed tree. The will’s omission is not an exclusion."
+          }
         }
       ],
       "preserve_captured_detail": false,
@@ -10979,7 +10994,9 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/currituck-will-preservation-2026-10-23.json"
+      "preservation_review_path": "research/ancestry-connections/currituck-originals-preservation-2026-10-31.json",
+      "manual_update": true,
+      "significance": 88
     },
     "Glasgow-563": {
       "profile_id": "Glasgow-563",
@@ -42306,6 +42323,86 @@
       "summary": "Add compatible Elphinstone five-year-old James comparison and a named-parent next test only; no parent selection, merge or exact-date amendment. ",
       "work_queue_summary": "Add compatible Elphinstone five-year-old James comparison and a named-parent next test only; no parent selection, merge or exact-date amendment. ",
       "significance": 75
+    },
+    "Glasgow-363": {
+      "queued_at": "2026-10-31",
+      "status": "OPEN",
+      "significance": 86,
+      "summary": "Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade. Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-363/currituck-originals-2026-10-31.wiki",
+      "preservation_review_path": "research/ancestry-connections/currituck-originals-preservation-2026-10-31.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "status": "uncertain",
+          "relative_id": "Glasgow-2581",
+          "assertion_id": "C-working-20261016-currituck-lemuel-caleb-working-family-lemuel-father"
+        },
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "status": "probable",
+          "previous_status": "unknown",
+          "relative_id": "Glasgow-428",
+          "assertion_id": "C-review-20261017-currituck-father-glasgow-363",
+          "scope": "Local father assessment and cited biography; no live certainty flag changed."
+        }
+      ],
+      "profile_id": "Glasgow-363",
+      "findings_path": "research/Glasgow-363/findings.md",
+      "pending": true,
+      "biography_rechecked_at": "2026-10-31",
+      "work_queue_summary": "Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade. Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties."
+    },
+    "Glasgow-830": {
+      "queued_at": "2026-10-31",
+      "status": "OPEN",
+      "significance": 86,
+      "summary": "Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade. Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties.",
+      "manual_update": true,
+      "draft_path": "research/Glasgow-830/currituck-originals-2026-10-31.wiki",
+      "preservation_review_path": "research/ancestry-connections/currituck-originals-preservation-2026-10-31.json",
+      "reviewed_narrative_reduction": true,
+      "preserve_captured_detail": false,
+      "relationship_changes": [
+        {
+          "action": "regrade",
+          "relationship": "father",
+          "status": "probable",
+          "previous_status": "unknown",
+          "relative_id": "Glasgow-428",
+          "assertion_id": "C-review-20261017-currituck-father-glasgow-830",
+          "scope": "Local father assessment and cited biography; no live certainty flag changed."
+        }
+      ],
+      "profile_id": "Glasgow-830",
+      "findings_path": "research/Glasgow-830/findings.md",
+      "pending": true,
+      "biography_rechecked_at": "2026-10-31",
+      "work_queue_summary": "Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. Review the very uncertain Lemuel–Caleb father hypothesis, the alternative Caleb account and conflicting chronology/will identity; retain all earlier sources and family links. No mother, merge or confidence upgrade. Add the 1746 will father assessment: documented daughters, probable Caleb account; retain duplicate, vital and maternal uncertainties."
+    },
+    "Cooper-5262": {
+      "profile_id": "Cooper-5262",
+      "draft_path": "data/private/workbench/currituck-originals-20261031/Cooper-5262-complete-proposal.wiki",
+      "findings_path": "research/Cooper-5262/findings.md",
+      "preservation_review_path": "data/private/workbench/currituck-originals-20261031/Cooper-5262-preservation.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "pending": true,
+      "status": "OPEN",
+      "manual_update": true,
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "summary": "Add the original 1782 deed’s explicit Sarah-wife wording; no maiden surname, Thomas Cooper kinship or maternal-confidence upgrade. ",
+      "work_queue_summary": "Add the original 1782 deed’s explicit Sarah-wife wording; no maiden surname, Thomas Cooper kinship or maternal-confidence upgrade. ",
+      "significance": 81,
+      "private_comparison": true,
+      "private_capture_path": "data/private/workbench/currituck-originals-20261031/Cooper-5262-current.wiki",
+      "public_addition_wikitext": "=== Sarah in the original 1782 deed — 31 October 2026 ===\nThe original deed calls Sarah William Glasgow’s wife. It neither states her maiden surname nor identifies witness Thomas Cooper as her relative. No mother, date or identity assessment changes.\n\n=== Original Currituck parcel and father review — 31 October 2026 ===\nHilary and Jean Simmons conveyed the fifty acres to Caleb Glasgow on 1 August 1761. William Glasgow and Sarah his wife conveyed the same parcel to Solomon Cowell on 25 December 1782; the later deed was acknowledged in March 1786 and registered on 25 April 1786. These execution and registration dates are distinct. Thomas Cooper and John Glasgow witness the later deed, without a stated kinship. Both original instruments describe the same survey: James Dauge’s white-oak corner, N75E26 chains to a cypress, southerly marked trees to another white oak, and a westerly return. This full matching geometry supplies new verification beyond the earlier 1782 abstract’s patent date and adjoining owner.<ref name=\"CurrituckOriginal1\">[https://www.familysearch.org/ark:/61903/3:1:3QS7-L98M-8HC8 1761 purchase, Letter Book 1 p.40, DGS 007513405 image43]. Original register scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"CurrituckOriginal2\">[https://www.familysearch.org/ark:/61903/3:1:3QS7-898M-8HV4 1761 purchase continuation, p.41, DGS 007513405 image44]. Original register scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"CurrituckOriginal3\">[https://www.familysearch.org/ark:/61903/3:1:3QSQ-G98M-83T2 1782 sale, Deed Book 5 p.135, DGS 007513407 image418]. Original register scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"CurrituckOriginal4\">[https://www.familysearch.org/ark:/61903/3:1:3QSQ-G98M-83YR 1782 sale continuation, p.136, DGS 007513407 image419]. Original register scan inspected 31 October 2026 by the research assistant.</ref>\n\nThe original 1761 purchase and 1782 sale identify the same 50-acre parcel by the full survey fingerprint: James Dauge’s white-oak corner, N75E26 chains to a cypress, southerly marked trees to another white oak and a westerly return. The earlier 1782 abstract gave only the patent and adjoining owner. This removes an adjacent-parcel alternative and materially strengthens Caleb-to-William property continuity. Combined with the retained Currituck family claim, the compatible 31-year generation and the reported 1781 death preceding William’s sale, father-to-son transmission is the preferred explanation at 68% subjective confidence. This is a fresh combined father-profile judgement, including the unresolved Caleb account identity, not a separate conditional 98% kinship claim.\n\nNeither deed calls William Caleb’s son or explains the intervening transfer. The 1781 death is inherited information, not corroborated by these deeds. Ordinary purchase/gift or collateral succession remains possible; Caleb-363 and Caleb-830 may be overlapping accounts and the deed cannot distinguish them. The old abstract argument already assumed parcel continuity: the new evidence independently verifies its precise geometry, not an explicit inheritance. Estate of inheritance in fee simple is legal tenure wording, not a father clause. No mother, birthday, death date, spouse maiden surname or live WikiTree flag changes.\n\nWilliam [[Glasgow-357]] → selected father [[Glasgow-363]] is now 68% probable, superseding the 29 October 58% possible assessment. [[Glasgow-830]] remains an unresolved alternative or overlapping Caleb account. Sarah [[Cooper-5262]] is explicitly William’s wife in the deed; neither her maiden surname nor witness Thomas Cooper’s relationship is stated. No mother, vital field or separate identity grade is changed. “Estate of inheritance in fee simple” describes tenure, not a named father or proof of inheritance from Caleb.\n\nThe earlier 29 October reasoning used the printed abstracts; the complete survey geometry is the additional evidence in this review. Next actual test: Find the actual 1770–1782 title transmission, Caleb probate/distribution or another named-kin clause. Do not repeat the completed 1761/1782 boundary comparison as an uninspected original test. Published abstracts of Books 1–4, Letter Book 1 and the unnumbered 1764–1776 book were screened without finding an intervening conveyance; this is not complete manuscript coverage.\n"
     }
   },
   "reviewed_on": "2026-10-22",

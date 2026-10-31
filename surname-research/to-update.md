@@ -4528,3 +4528,10 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [Glasgow-2516](https://www.wikitree.com/wiki/Glasgow-2516) | OPEN | Add original Elphinstone family evidence and newly selected father Charles 95% and mother Julie 93%, retaining exact birth fields and unverified Burns surname scope.  |
 | [Glasgow-3265](https://www.wikitree.com/wiki/Glasgow-3265) | OPEN | Add compatible Elphinstone five-year-old James comparison and a named-parent next test only; no parent selection, merge or exact-date amendment.  |
+
+## 31 October 2026 — Currituck original parcel review
+
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-357) | OPEN | Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. |
+| [Caleb Glasgow, older account](https://www.wikitree.com/wiki/Glasgow-363) | OPEN | Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. |
+| [Caleb Glasgow, alternative account](https://www.wikitree.com/wiki/Glasgow-830) | OPEN | Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. |
+| [Sarah Cooper Glasgow](https://www.wikitree.com/wiki/Cooper-5262) | OPEN | Add the original 1782 deed’s explicit Sarah-wife wording; no maiden surname, Thomas Cooper kinship or maternal-confidence upgrade. |
