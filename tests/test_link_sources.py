@@ -16,6 +16,7 @@ class StudyPagePersonLinkTests(unittest.TestCase):
             web = Path(tmp)
             (web / 'people').mkdir()
             (web / 'people' / 'glasgow-1.html').write_text('<html></html>')
+            (web / 'people' / 'glasgow-1.json').write_text('{"id":"Glasgow-1"}')
             with patch.object(build_study_pages, 'WEB', web):
                 linked = build_study_pages.person('glasgow-1', registry, True)
                 plain = build_study_pages.person('record-x-1', registry)

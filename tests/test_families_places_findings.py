@@ -105,11 +105,12 @@ class StudyPageTextTests(unittest.TestCase):
     def test_people_are_grouped_by_household_and_ordered_by_date(self):
         registry = {'a': {'name': 'A', 'from': '1790'}, 'b': {'name': 'B', 'from': '1750'}, 'c': {'name': 'C'}, 'd': {'name': 'D', 'from': '1700'}}
         clusters = [{'title': 'First household', 'people': ['a', 'b']}, {'title': 'Second', 'people': ['c']}]
-        # Names link only to people with a published page (lane I8), so give each one a page.
+        # Names link only to current published dossiers, with HTML and JSON.
         with tempfile.TemporaryDirectory() as tmp:
             (Path(tmp) / 'people').mkdir()
             for slug in 'abcd':
                 (Path(tmp) / 'people' / f'{slug}.html').write_text('')
+                (Path(tmp) / 'people' / f'{slug}.json').write_text('{}')
             web, studies.WEB = studies.WEB, Path(tmp)
             try:
                 soup = BeautifulSoup(studies.people_list(['a', 'b', 'c', 'd'], clusters, registry), 'html.parser')
