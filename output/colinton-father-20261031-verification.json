@@ -1,0 +1,78 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-colinton-alexander-new-father-20261031",
+  "tree_models_checked": [
+    "assets/research/atlas-model.json",
+    "assets/research/atlas-model-packed.json",
+    "onetree/glasgow-one-tree-polished-3/model.json"
+  ],
+  "father_probability": 0.65,
+  "new_research_attachments": 1,
+  "unknown_father_drop_through1850": 1,
+  "mothers_vitals_upstream_and_child_assessments_unchanged": true,
+  "full_compact_new_probable_father_tag_agreement": true,
+  "all_prior_research_events_preserved": true,
+  "metrics_through1850": {
+    "working": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 1415,
+        "after": 1416
+      },
+      "component_count": {
+        "before": 392,
+        "after": 391
+      }
+    },
+    "supported": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 1140,
+        "after": 1141
+      },
+      "component_count": {
+        "before": 666,
+        "after": 665
+      }
+    },
+    "confident": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 742,
+        "after": 742
+      },
+      "component_count": {
+        "before": 1062,
+        "after": 1062
+      }
+    }
+  },
+  "unknown_fathers": {
+    "before": 385,
+    "after": 384
+  },
+  "local_http": {
+    "/latest-findings/": 200,
+    "/latest-findings/page/22/": 200,
+    "/people/glasgow-2695.html": 200,
+    "/onetree/": 200,
+    "/onetree/progress/?through=1850&links=working": 200
+  },
+  "deployed": false,
+  "live_wikitree_edits": false,
+  "first_ratings_counted_as_gains": 0,
+  "inherited_capture_whitespace": {
+    "research/Glasgow-2695/colinton-working-connection-2026-10-31.wiki": [
+      25,
+      26
+    ]
+  }
+}

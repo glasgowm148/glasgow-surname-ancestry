@@ -63426,6 +63426,72 @@
         "research/ancestry-connections/weakley-heirs-preservation-2026-10-30.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "colinton-alexander-new-father-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "New probable father for Alexander Glasgow, the Colinton-born ploughman: John Glasgow-1304,65% subjective confidence. The1799Colinton child and the later Kirknewton family context support a qualified childhood-to-adult connection.",
+      "qualification": "No inspected adult record explicitly names his parents; childhood-to-adult identity is inferred. The two-to-four-year age difference remains, and the bounded selected-localities birth index is incomplete: an unindexed Colinton child or a different adult identity for the 1799child could overturn the link. The census facts are held profile/index accounts, not newly read original images. The1799provider transcript was inspected earlier, original register uninspected. The Kirknewton Meikle entries are compatible family context, not independent proof of the adult identity. John-1304 represents the named Muckle father; his internally conflicting 1765/1771/c1790 childhood estimates and 78% upstream father assessment remain unresolved and unchanged. No mother attachment, exact birth replacement, wife identity resolution, or merger of 2695 and 2718 is proposed. The 1827blacksmith’s age 14/SouthLeith index details favour a separate person and do not establish the ploughman’s parentage.",
+      "detail_url": "/people/glasgow-2695.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2695",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2695.html",
+          "role": "Previously no listed father; new working father65%"
+        },
+        {
+          "id": "Glasgow-1304",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1304.html",
+          "role": "Proposed father65%; upstream identity unresolved"
+        },
+        {
+          "id": "Glasgow-2718",
+          "name": "Alexander Glasgow,1799child",
+          "url": "/people/glasgow-2718.html",
+          "role": "Possible childhood account of the adult; retained separately"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Colinton baptism,31March1799, birth17March, OPR677/2 item3 p.253; held inspected provider transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4191802&tab=this"
+        },
+        {
+          "title": "Bounded Scotland birth-index search, Colinton1795–1806; selected-localities coverage",
+          "url": "https://www.familysearch.org/en/search/record/results?count=20&q.givenName=Alexander&q.surname=Glasgow&q.birthLikePlace=Colinton%2C%20Midlothian%2C%20Scotland&q.birthLikeDate.from=1795&q.birthLikeDate.to=1806&f.collectionId=1771030"
+        },
+        {
+          "title": "Scottish Indexes: Crown Office precognition AD14/27/25; trial JC26/1827/326; Edinburgh Lock-up House HH21/8/1 p.11",
+          "url": "https://www.scottishindexes.com/adentry.aspx?adid=827025"
+        },
+        {
+          "title": "Prison index: age14, SouthLeith, HH21/8/1 p.11",
+          "url": "https://www.scottishindexes.com/prisontranscript.aspx?prisonid=80101124"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2695",
+          "relative": "Glasgow-1304",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 65,
+          "explanation": "Alexander Glasgow-2695, the Midlothian agricultural labourer/ploughman, reports Colinton (also rendered Callington) as his birthplace, with census-implied births about 1801–1803. Alexander Glasgow-2718 was born 17 March 1799 and baptised 31 March at Colinton, residence Greysmill, explicitly to John Glasgow and Margaret Muckle. The distinctive birth parish, compatible two-to-four-year census age discrepancy and the family’s later Kirknewton context support identifying the childhood and adult accounts. John/Margaret’s recorded children at Kirknewton and East Calder in 1808–1814 provide a positive locality bridge to adult Alexander’s son John, born at Kirknewton about 1829. The first held son’s name John is only a minor, correlated clue. A bounded FamilySearch search for Alexander Glasgow, Colinton, 1795–1806 in Scotland Births and Baptisms returned the 1799child and two occurrences of the adult as a father; no closer childhood candidate was returned. This supports selecting the record-defined John Glasgow-1304 as the adult’s father at 65% subjective confidence, a new working attachment rather than a profile merger.",
+          "previous_status_provenance": "Public WikiTree getRelatives31October2026: Glasgow-2695 Father=0/Mother=0, and no selected local father before this review. A genuinely new attachment; no earlier percentage is invented."
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-2695/findings.md",
+        "research/Glasgow-2718/findings.md",
+        "research/Glasgow-1304/findings.md"
+      ]
     }
   ]
 }

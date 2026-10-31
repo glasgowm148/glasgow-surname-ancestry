@@ -12105,12 +12105,12 @@
       "profile_id": "Glasgow-1304",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-24",
-      "draft_path": "research/Glasgow-1304/father-confidence-2026-10-22b.wiki",
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "draft_path": "research/Glasgow-1304/colinton-working-connection-2026-10-31.wiki",
       "findings_path": "research/Glasgow-1304/findings.md",
-      "summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
-      "work_queue_summary": "Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
+      "summary": "Add a 65% probable adult son Alexander Glasgow-2695, conditional on the 1799Colinton childhood identification; own father 78% unchanged. Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
+      "work_queue_summary": "Add a 65% probable adult son Alexander Glasgow-2695, conditional on the 1799Colinton childhood identification; own father 78% unchanged. Review existing father at 78% (probable), retaining source and identity limits; no new father attachment. Add the cached explicit birth-source account and household context, retaining current vital bounds and separately scoped adult-parent assessments. Add saved derivative baptism citations with the current event and adult-identity qualifications; existing parent grades unchanged.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -12130,7 +12130,9 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation2-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/colinton-alexander-preservation-2026-10-31.json",
+      "manual_update": true,
+      "significance": 82
     },
     "Glasgow-1450": {
       "profile_id": "Glasgow-1450",
@@ -25190,19 +25192,21 @@
       "profile_id": "Glasgow-2718",
       "status": "OPEN",
       "pending": true,
-      "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
-      "draft_path": "research/Glasgow-2718/father-confidence-2026-10-22h.wiki",
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "draft_path": "research/Glasgow-2718/colinton-working-connection-2026-10-31.wiki",
       "findings_path": "research/Glasgow-2718/findings.md",
-      "summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "summary": "Add possible adult identity Glasgow-2695; qualify the 1827trial story using indexed age 14/South Leith, favouring a different younger accused. Existing father 98% unchanged. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
+      "work_queue_summary": "Add possible adult identity Glasgow-2695; qualify the 1827trial story using indexed age 14/South Leith, favouring a different younger accused. Existing father 98% unchanged. Review existing father at 98% (proved), retaining source and identity limits; no new father attachment.",
       "relationship_changes": [],
       "preserve_captured_detail": false,
       "reviewed_narrative_reduction": true,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/colinton-alexander-preservation-2026-10-31.json",
+      "manual_update": true,
+      "significance": 82
     },
     "Glasgow-1779": {
       "profile_id": "Glasgow-1779",
@@ -42118,6 +42122,36 @@
       "reviewed_narrative_reduction": true,
       "biography_rechecked_at": "2026-10-30",
       "work_queue_summary": "Add the preferred 94% Whitebank trial identification and retain source/transportation limits."
+    },
+    "Glasgow-2695": {
+      "profile_id": "Glasgow-2695",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-1304",
+          "relative_name": "John Glasgow",
+          "status": "probable",
+          "probability_percent": 65,
+          "previous_status": "absent",
+          "previous_status_provenance": "Public WikiTree readback31October2026 Father0/Mother0 and prior local empty parent list.",
+          "assertion_id": "clm-colinton-alexander-father-20261031",
+          "scope": "No inspected adult record explicitly names his parents; childhood-to-adult identity is inferred. The two-to-four-year age difference remains, and the bounded selected-localities birth index is incomplete: an unindexed Colinton child or a different adult identity for the 1799child could overturn the link. The census facts are held profile/index accounts, not newly read original images. The1799provider transcript was inspected earlier, original register uninspected. The Kirknewton Meikle entries are compatible family context, not independent proof of the adult identity. John-1304 represents the named Muckle father; his internally conflicting 1765/1771/c1790 childhood estimates and 78% upstream father assessment remain unresolved and unchanged. No mother attachment, exact birth replacement, wife identity resolution, or merger of 2695 and 2718 is proposed. The 1827blacksmith’s age 14/SouthLeith index details favour a separate person and do not establish the ploughman’s parentage."
+        }
+      ],
+      "draft_path": "research/Glasgow-2695/colinton-working-connection-2026-10-31.wiki",
+      "findings_path": "research/Glasgow-2695/findings.md",
+      "preservation_review_path": "research/ancestry-connections/colinton-alexander-preservation-2026-10-31.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "pending": true,
+      "status": "OPEN",
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "manual_update": true,
+      "summary": "Add new probable father John Glasgow-1304 at 65%, conditional on the 1799Colinton childhood identity and Kirknewton family context; no mother or birth replacement. Correct the criminal-case comparison. ",
+      "work_queue_summary": "Add new probable father John Glasgow-1304 at 65%, conditional on the 1799Colinton childhood identity and Kirknewton family context; no mother or birth replacement. Correct the criminal-case comparison. ",
+      "significance": 91
     }
   },
   "reviewed_on": "2026-10-22",

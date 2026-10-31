@@ -51066,5 +51066,37 @@
     "provenance": "Checked public 2003 abstract of the 27 October 1848 newspaper notice; no original-newspaper inspection claimed.",
     "reviewed_on": "2026-10-30",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "edinburgh-alexander-blacksmith-1827-identity-index",
+    "association": "Alexander Glasgow, young South Leith blacksmith, distinguished from the1799Colinton child",
+    "year": 1827,
+    "place": "Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "record_type": "Criminal and prison register indexes",
+    "record_category": "Court & legal",
+    "source_url": "https://www.scottishindexes.com/adentry.aspx?adid=827025",
+    "source_title": "Scottish Indexes: Crown Office precognition AD14/27/25; trial JC26/1827/326; Edinburgh Lock-up House HH21/8/1 p.11",
+    "source_type": "Published archival indexes",
+    "source_quality": "derivative",
+    "status": "Public index entries inspected; original documents uninspected; criminal identification with1799child not supported",
+    "note": "The1827precognition and prison indexes give Alexander Glasgow, blacksmith, age14, birthplace South Leith. The trial index matches the1827Alexander/John Paterson pair and housebreaking case, with a14-year transportation sentence. Age14 and sentence14years are distinct fields. These details strongly favour a younger, circa1812–1813-born accused, rather than the1799Colinton child. No new criminal person is assigned a speculative family.",
+    "profiles": {
+      "Glasgow-2718": {
+        "role": "Previously compared with accused; age/birthplace conflict now makes that life-event attribution unsuitable",
+        "timeline_group": "Identity comparison"
+      },
+      "Glasgow-2695": {
+        "role": "Adult ploughman comparison; criminal story is not evidence against this possible childhood identity",
+        "timeline_group": "Identity comparison"
+      }
+    },
+    "related_urls": [
+      "https://www.scottishindexes.com/jcdetail.aspx?jcid=1827326&pid=182732633",
+      "https://www.scottishindexes.com/prisontranscript.aspx?prisonid=80101124"
+    ],
+    "reviewed_on": "2026-10-31",
+    "provenance": "research/Glasgow-2718/findings.md",
+    "publish_to_record_index": true
   }
 ]

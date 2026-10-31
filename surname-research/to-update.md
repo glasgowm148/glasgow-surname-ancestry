@@ -4508,3 +4508,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Wylie Parsons M Glasgow](https://www.wikitree.com/wiki/Glasgow-116) | OPEN | Original 1851 heirship deed: existing Isaac father 83% → 94% confident inference; no new attachment. |
 | [Wiley Parsons Mangrum Glasgow](https://www.wikitree.com/wiki/Glasgow-2613) | OPEN | Original 1851 heirship deed: existing Isaac father 72% → 94% confident inference; no new attachment. |
 | [Isaac Glasgow](https://www.wikitree.com/wiki/Glascow-14) | OPEN | Add original 1851 heirs deed and reciprocal family account; retain existing own father95% and earlier will amendments. |
+
+## 31 October 2026 — Colinton–Kirknewton working connection
+
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-2695) | OPEN | New probable father John Glasgow-1304,65%; conditional1799Colinton childhood identity, no merge or birth replacement. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1304) | OPEN | Add qualified adult-son comparison Glasgow-2695,65%; own father78% unchanged. |
+| [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-2718) | OPEN | Add adult identity hypothesis; supersede1827criminal attribution using age14/SouthLeith indexes. Existing father98% unchanged. |
