@@ -32,6 +32,10 @@ def explicit_research_state(assessment):
     state = assessment.get('research_state') or {}
     if not isinstance(state, dict):
         state = {}
+    # Older case plans used this name for the same explicit source hold.
+    # Preserve its details instead of dispatching it as unreviewed work.
+    if state.get('disposition') == 'source_hold':
+        return {**state, 'disposition': 'awaiting_source'}
     if state.get('disposition') in {'ready', 'awaiting_source', 'reviewed_no_change'}:
         return dict(state)
     test = assessment.get('evidence_test') or {}

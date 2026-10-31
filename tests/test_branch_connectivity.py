@@ -444,6 +444,35 @@ class T(unittest.TestCase):
 
 
 class ResearchDispatchRanking(unittest.TestCase):
+    def test_legacy_source_hold_preserves_pair_scope_and_reopening(self):
+        import runpy
+        rank = runpy.run_path('research/ancestry-connections/rank_working_joins.py')
+        state = {'disposition': 'source_hold', 'father_id': 'Father-1',
+                 'last_test': 'Original census inspected; no parent clause.',
+                 'next_test': 'Read the complete estate distributions.',
+                 'resume_when': 'The estate packet becomes accessible.'}
+        plan = {'research_state': state}
+        context = rank['dispatch_context']({}, plan=plan, father='Father-1')
+        self.assertEqual(context['research_state'],
+                         {**state, 'disposition': 'awaiting_source'})
+        self.assertEqual(context['last_test'], state['last_test'])
+        self.assertEqual(context['next_test'], state['next_test'])
+        self.assertEqual(plan['research_state']['disposition'], 'source_hold')
+        self.assertEqual(rank['dispatch_context']({}, plan=plan, father='Father-2')
+                         ['research_state']['disposition'], 'unknown')
+        reopened = {'research_state': {'disposition': 'ready'},
+                    'next_test': 'New estate packet supplied.'}
+        self.assertEqual(rank['dispatch_context'](reopened, plan=plan, father='Father-1')
+                         ['next_test'], reopened['next_test'])
+        rows = [dict(child='held', father='Father-1', child_side=100,
+                     cross_pairs=1000, confident_pair_gain=100, confidence_percent=30,
+                     **context),
+                dict(child='available', father='Father-2', child_side=5,
+                     cross_pairs=50, confident_pair_gain=5, confidence_percent=30,
+                     research_state={'disposition': 'unknown'})]
+        rank['sort_rows'](rows, scope='all-unconfident')
+        self.assertEqual([r['child'] for r in rows], ['available', 'held'])
+
     def test_person_plan_is_bound_to_the_reviewed_father(self):
         import runpy
         context = runpy.run_path('research/ancestry-connections/rank_working_joins.py')['dispatch_context']
