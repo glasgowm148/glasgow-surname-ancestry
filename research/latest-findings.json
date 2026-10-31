@@ -63605,6 +63605,169 @@
         "research/Glasgow-3594/findings.md",
         "research/Glasgow-3593/findings.md"
       ]
+    },
+    {
+      "id": "elphinstone-daniel-new-parents-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Daniel Glasgow-2516’s original Elphinstone family supports newly selected father Charles95% and mother Julie93%, assessing the complete passenger-to-Victorian-adult identification.",
+      "qualification": "Certification-column dates are not birthdays. Faint annotations, including Daniel 20 October 1829, are not independent birth proof; no existing exact vital field changes. Child source order is Jno [John]18, Thomas15, Daniel11, James5, Anne13. Grandparent upper bounds are derived, not new birth records. Julie’s maiden surname Burns is unverified; Anne Du[?]e remains unexpanded. No marriage of either grandparent pair is inferred. James Glasgow-3265 remains a compatible adult comparison only; no parent claims for that profile. Julie’s maiden surname Burns is unverified; Charles motherAnneDu[?]e is a different woman. No independent exact-date correction or broader Scottish origin follows.",
+      "detail_url": "/people/glasgow-2516.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2516",
+          "name": "Daniel Glasgow",
+          "url": "/people/glasgow-2516.html",
+          "role": "Existing adult linked to original passenger family"
+        },
+        {
+          "id": "record-charles-glasgow-elphinstone-1840",
+          "name": "Charles Glasgow",
+          "url": "/people/record-charles-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-julie-glasgow-elphinstone-1840",
+          "name": "Julie Glasgow",
+          "url": "/people/record-julie-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Elphinstone immigrant paper, Charles Glasgow and his named parents, original image 385",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y"
+        },
+        {
+          "title": "Elphinstone immigrant paper, Julie Glasgow, named parents and children, original image 386",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B"
+        },
+        {
+          "title": "Held Daniel Glasgow profile transcription: Victorian death index 10436/1897",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2516"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2516",
+          "relative": "record-charles-glasgow-elphinstone-1840",
+          "action": "add",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 95,
+          "explanation": "Original family roster and held Victorian death-index fatherChas support the existing adult identity; motherJulie separately qualified.",
+          "previous_status_provenance": "Reviewed public readback: Glasgow-2516 Father=0/Mother=0 and local absent-parent state before integration. No prior percentage invented."
+        },
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-2516",
+          "relative": "record-julie-glasgow-elphinstone-1840",
+          "action": "add",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 93,
+          "explanation": "Original family roster and held Victorian death-index fatherChas support the existing adult identity; motherJulie separately qualified.",
+          "previous_status_provenance": "Reviewed public readback: Glasgow-2516 Father=0/Mother=0 and local absent-parent state before integration. No prior percentage invented."
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-2516/findings.md",
+        "tmp/daniel-2516-20261031/original-readings.json"
+      ]
+    },
+    {
+      "id": "elphinstone-original-family-roster-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Original Elphinstone papers identify Charles’s parents Thos labourer and AnneDu[?]e, Julie’s parents Thos farmer and JaneFlanagan, and five named children with their ages.",
+      "qualification": "Certification-column dates are not birthdays. Faint annotations, including Daniel 20 October 1829, are not independent birth proof; no existing exact vital field changes. Child source order is Jno [John]18, Thomas15, Daniel11, James5, Anne13. Grandparent upper bounds are derived, not new birth records. Julie’s maiden surname Burns is unverified; Anne Du[?]e remains unexpanded. No marriage of either grandparent pair is inferred. James Glasgow-3265 remains a compatible adult comparison only; no parent claims for that profile. These new documentary actors’ parental percentages are first measurements/review coverage, excluded from the confidence-gain chart; James’s possible identity with Glasgow-3265 remains unresolved.",
+      "detail_url": "/people/record-charles-glasgow-elphinstone-1840.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2516",
+          "name": "Daniel Glasgow",
+          "url": "/people/glasgow-2516.html",
+          "role": "Existing adult linked to original passenger family"
+        },
+        {
+          "id": "record-charles-glasgow-elphinstone-1840",
+          "name": "Charles Glasgow",
+          "url": "/people/record-charles-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-julie-glasgow-elphinstone-1840",
+          "name": "Julie Glasgow",
+          "url": "/people/record-julie-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-john-glasgow-elphinstone-1840",
+          "name": "John Glasgow, Elphinstone passenger",
+          "url": "/people/record-john-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-thomas-glasgow-elphinstone-1840",
+          "name": "Thomas Glasgow, Elphinstone passenger",
+          "url": "/people/record-thomas-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-anne-glasgow-elphinstone-1840",
+          "name": "Anne Glasgow, Elphinstone passenger",
+          "url": "/people/record-anne-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-james-glasgow-elphinstone-1840",
+          "name": "James Glasgow, Elphinstone passenger",
+          "url": "/people/record-james-glasgow-elphinstone-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-thomas-charles-father-kildare-1840",
+          "name": "Thos, father of Charles Glasgow",
+          "url": "/people/record-thomas-charles-father-kildare-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-anne-charles-mother-kildare-1840",
+          "name": "Anne Du[?]e, mother of Charles Glasgow",
+          "url": "/people/record-anne-charles-mother-kildare-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-thomas-julie-father-kildare-1840",
+          "name": "Thos, father of Julie Glasgow",
+          "url": "/people/record-thomas-julie-father-kildare-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        },
+        {
+          "id": "record-jane-flanagan-julie-mother-1840",
+          "name": "Jane Flanagan, mother of Julie Glasgow",
+          "url": "/people/record-jane-flanagan-julie-mother-1840.html",
+          "role": "Source-defined actor; identity review retained"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Elphinstone immigrant paper, Charles Glasgow and his named parents, original image 385",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y"
+        },
+        {
+          "title": "Elphinstone immigrant paper, Julie Glasgow, named parents and children, original image 386",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B"
+        }
+      ],
+      "provenance": [
+        "tmp/daniel-2516-20261031/original-readings.json"
+      ]
     }
   ]
 }

@@ -1,0 +1,106 @@
+{
+  "old_research_events_preserved": 399,
+  "new_existing_person_father_attachments": 1,
+  "daniel_father_percent": 95,
+  "daniel_mother_percent": 93,
+  "new_actor_first_measurements_excluded_from_gains": true,
+  "all_three_models_verified": true,
+  "daniel_vitals_unchanged": true,
+  "james3265_parents_unchanged": true,
+  "ten_actors_full_compact_membership_and_drafts": true,
+  "record_copies": {
+    "elphinstone-charles-parent-paper-1840": 1,
+    "elphinstone-julie-children-parent-paper-1840": 1,
+    "daniel-victoria-death-index-held-1897": 1
+  },
+  "finding_routes": {
+    "elphinstone-daniel-new-parents-20261031": "/latest-findings/page/22/#finding-elphinstone-daniel-new-parents-20261031",
+    "elphinstone-original-family-roster-20261031": "/latest-findings/page/22/#finding-elphinstone-original-family-roster-20261031"
+  },
+  "population": 1808,
+  "metrics_through1850": {
+    "working": {
+      "population": {
+        "before": 1803,
+        "after": 1808
+      },
+      "edge_count": {
+        "before": 1417,
+        "after": 1422
+      },
+      "component_count": {
+        "before": 390,
+        "after": 390
+      }
+    },
+    "supported": {
+      "population": {
+        "before": 1803,
+        "after": 1808
+      },
+      "edge_count": {
+        "before": 1142,
+        "after": 1147
+      },
+      "component_count": {
+        "before": 664,
+        "after": 664
+      }
+    },
+    "confident": {
+      "population": {
+        "before": 1803,
+        "after": 1808
+      },
+      "edge_count": {
+        "before": 742,
+        "after": 747
+      },
+      "component_count": {
+        "before": 1062,
+        "after": 1062
+      }
+    }
+  },
+  "unknown_fathers": [
+    383,
+    382
+  ],
+  "research_events": [
+    399,
+    400
+  ],
+  "local_http": {
+    "/latest-findings/": 200,
+    "/onetree/": 200,
+    "/onetree/progress/?through=1850&links=confident": 200,
+    "/catalogue/?needsUpdate=1": 200,
+    "/sitemap/": 200,
+    "/branches/family-glasgow-2516/": 200,
+    "/branches/australasian-families/": 200,
+    "/people/glasgow-2516.html": 200,
+    "/people/record-charles-glasgow-elphinstone-1840.html": 200,
+    "/people/record-julie-glasgow-elphinstone-1840.html": 200,
+    "/people/record-john-glasgow-elphinstone-1840.html": 200,
+    "/people/record-thomas-glasgow-elphinstone-1840.html": 200,
+    "/people/record-anne-glasgow-elphinstone-1840.html": 200,
+    "/people/record-james-glasgow-elphinstone-1840.html": 200,
+    "/people/record-thomas-charles-father-kildare-1840.html": 200,
+    "/people/record-anne-charles-mother-kildare-1840.html": 200,
+    "/people/record-thomas-julie-father-kildare-1840.html": 200,
+    "/people/record-jane-flanagan-julie-mother-1840.html": 200,
+    "/people/glasgow-3265.html": 200,
+    "/latest-findings/page/22/": 200
+  },
+  "inherited_capture_whitespace": {
+    "research/Glasgow-2516/elphinstone-family-2026-10-31.wiki": [
+      46
+    ],
+    "research/Glasgow-3265/elphinstone-family-2026-10-31.wiki": [
+      4
+    ]
+  },
+  "source_images_private": true,
+  "deployed": false,
+  "live_wikitree_edits": false
+}

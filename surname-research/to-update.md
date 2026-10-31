@@ -4523,3 +4523,8 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Glasgow-3594](https://www.wikitree.com/wiki/Glasgow-3594) | OPEN | Correct birth 5 July to 4 July 1774;5 July is baptism in the original. |
 | [Glasgow-3593](https://www.wikitree.com/wiki/Glasgow-3593) | OPEN | Add Margaret’s original 1774 baptism and birth distinction; close completed lookup. |
 | [Ford-28175](https://www.wikitree.com/wiki/Ford-28175) | OPEN | Add Margaret’s original 1774 baptism, explicit 4 Julybirth and tentative sponsor readings; existing Thomas maternity 98% unchanged. |
+
+## 31 October 2026 — Elphinstone family originals
+
+| [Glasgow-2516](https://www.wikitree.com/wiki/Glasgow-2516) | OPEN | Add original Elphinstone family evidence and newly selected father Charles 95% and mother Julie 93%, retaining exact birth fields and unverified Burns surname scope.  |
+| [Glasgow-3265](https://www.wikitree.com/wiki/Glasgow-3265) | OPEN | Add compatible Elphinstone five-year-old James comparison and a named-parent next test only; no parent selection, merge or exact-date amendment.  |

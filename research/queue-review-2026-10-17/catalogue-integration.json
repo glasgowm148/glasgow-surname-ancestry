@@ -42248,6 +42248,64 @@
       "summary": "Add probable adult son John Glasgow-3463 at 78% from the 1807 named-parent baptism and census identity inference; own ancestry unchanged. ",
       "work_queue_summary": "Add probable adult son John Glasgow-3463 at 78% from the 1807 named-parent baptism and census identity inference; own ancestry unchanged. ",
       "significance": 86
+    },
+    "Glasgow-2516": {
+      "profile_id": "Glasgow-2516",
+      "draft_path": "research/Glasgow-2516/elphinstone-family-2026-10-31.wiki",
+      "findings_path": "research/Glasgow-2516/findings.md",
+      "preservation_review_path": "research/ancestry-connections/elphinstone-family-preservation-2026-10-31.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "pending": true,
+      "status": "OPEN",
+      "manual_update": true,
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "summary": "Add original Elphinstone family evidence and newly selected father Charles 95% and mother Julie 93%, retaining exact birth fields and unverified Burns surname scope. ",
+      "work_queue_summary": "Add original Elphinstone family evidence and newly selected father Charles 95% and mother Julie 93%, retaining exact birth fields and unverified Burns surname scope. ",
+      "significance": 95,
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "record-charles-glasgow-elphinstone-1840",
+          "relative_name": "Charles Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 95,
+          "previous_status": "absent",
+          "previous_status_provenance": "Public WikiTree before-integration receipt: Glasgow-2516 Father0/Mother0; preflight.json.",
+          "assertion_id": "clm-elphinstone-glasgow-2516-father-20261031",
+          "scope": "Complete passenger-child/adult identity; mother maiden surname unverified. No exact vital replacement."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "record-julie-glasgow-elphinstone-1840",
+          "relative_name": "Julie Glasgow",
+          "status": "strongly_supported",
+          "probability_percent": 93,
+          "previous_status": "absent",
+          "previous_status_provenance": "Public WikiTree before-integration receipt: Glasgow-2516 Father0/Mother0; preflight.json.",
+          "assertion_id": "clm-elphinstone-glasgow-2516-mother-20261031",
+          "scope": "Complete passenger-child/adult identity; mother maiden surname unverified. No exact vital replacement."
+        }
+      ]
+    },
+    "Glasgow-3265": {
+      "profile_id": "Glasgow-3265",
+      "draft_path": "research/Glasgow-3265/elphinstone-family-2026-10-31.wiki",
+      "findings_path": "research/Glasgow-3265/findings.md",
+      "preservation_review_path": "research/ancestry-connections/elphinstone-family-preservation-2026-10-31.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "pending": true,
+      "status": "OPEN",
+      "manual_update": true,
+      "queued_at": "2026-10-31",
+      "biography_rechecked_at": "2026-10-31",
+      "summary": "Add compatible Elphinstone five-year-old James comparison and a named-parent next test only; no parent selection, merge or exact-date amendment. ",
+      "work_queue_summary": "Add compatible Elphinstone five-year-old James comparison and a named-parent next test only; no parent selection, merge or exact-date amendment. ",
+      "significance": 75
     }
   },
   "reviewed_on": "2026-10-22",
@@ -46160,6 +46218,763 @@
           "location_basis": "Quodquane is the source designation, not a birth/death place."
         }
       ]
+    },
+    {
+      "subject_id": "charles-glasgow-elphinstone-1840",
+      "catalogue_id": "record-charles-glasgow-elphinstone-1840",
+      "name": "Charles Glasgow",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+      "research_subject_url": "/people/record-charles-glasgow-elphinstone-1840.html",
+      "draft_path": "research/record-charles-glasgow-elphinstone-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nCharles Glasgow is recorded aged 40, a gardener, native of County Kildare and Roman Catholic. The parent column names his father as “Thos”, a labourer, and his mother as “Anne Du[?]e”. The words identifying his mother must not be attached to Julie as a wife’s maiden name. Charles swore to baptism in November 1800; this is not an exact birth date. Preserve the age and baptism statement together without manufacturing a birthday. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nAge-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\n* Charles Glasgow, indexed 1740 child (https://www.wikitree.com/wiki/Glasgow-1515): The indexed 1740 child conflicts with the passenger aged 40 in 1840. An adulthood fragment associated with that profile remains unresolved; do not convert its unresolved adult attribution into a proved exclusion.\n* Charles Glasgow, born 1686 (https://www.wikitree.com/wiki/Glasgow-2917): Recorded generation conflicts with age 40 in 1840.\n* Charles Glasgow, born 1839 (https://www.wikitree.com/wiki/Glasgow-3786): A child born 1839 cannot be the passenger father aged 40 in 1840.\n* Charles Glasgow, born 1858 (https://www.wikitree.com/wiki/Glasgow-2511): Born after the voyage; incompatible with passenger father age 40.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "Charles Glasgow is recorded aged 40, a gardener, native of County Kildare and Roman Catholic. The parent column names his father as “Thos”, a labourer, and his mother as “Anne Du[?]e”. The words identifying his mother must not be attached to Julie as a wife’s maiden name. Charles swore to baptism in November 1800; this is not an exact birth date. Preserve the age and baptism statement together without manufacturing a birthday. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.",
+      "creation_status": "creation_ready",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "Charles"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "c. 1800",
+      "birth_note": "Age-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.",
+      "death": "",
+      "birth_location": "County Kildare, Ireland",
+      "birth_location_note": "Recorded native place: Charles explicitly County Kildare; Julie same place as husband. This is source native-place wording, not an independently inspected birth entry.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y"
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1515",
+          "name": "Charles Glasgow, indexed 1740 child",
+          "url": "https://www.wikitree.com/wiki/Glasgow-1515",
+          "status": "conflicting_child_identity",
+          "reason": "The indexed 1740 child conflicts with the passenger aged 40 in 1840. An adulthood fragment associated with that profile remains unresolved; do not convert its unresolved adult attribution into a proved exclusion."
+        },
+        {
+          "profile_id": "Glasgow-2917",
+          "name": "Charles Glasgow, born 1686",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2917",
+          "status": "excluded",
+          "reason": "Recorded generation conflicts with age 40 in 1840."
+        },
+        {
+          "profile_id": "Glasgow-3786",
+          "name": "Charles Glasgow, born 1839",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3786",
+          "status": "excluded",
+          "reason": "A child born 1839 cannot be the passenger father aged 40 in 1840."
+        },
+        {
+          "profile_id": "Glasgow-2511",
+          "name": "Charles Glasgow, born 1858",
+          "url": "https://www.wikitree.com/wiki/Glasgow-2511",
+          "status": "excluded",
+          "reason": "Born after the voyage; incompatible with passenger father age 40."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "creation_ready",
+        "candidates": [
+          {
+            "profile_id": "Glasgow-1515",
+            "name": "Charles Glasgow, indexed 1740 child",
+            "url": "https://www.wikitree.com/wiki/Glasgow-1515",
+            "status": "conflicting_child_identity",
+            "reason": "The indexed 1740 child conflicts with the passenger aged 40 in 1840. An adulthood fragment associated with that profile remains unresolved; do not convert its unresolved adult attribution into a proved exclusion."
+          },
+          {
+            "profile_id": "Glasgow-2917",
+            "name": "Charles Glasgow, born 1686",
+            "url": "https://www.wikitree.com/wiki/Glasgow-2917",
+            "status": "excluded",
+            "reason": "Recorded generation conflicts with age 40 in 1840."
+          },
+          {
+            "profile_id": "Glasgow-3786",
+            "name": "Charles Glasgow, born 1839",
+            "url": "https://www.wikitree.com/wiki/Glasgow-3786",
+            "status": "excluded",
+            "reason": "A child born 1839 cannot be the passenger father aged 40 in 1840."
+          },
+          {
+            "profile_id": "Glasgow-2511",
+            "name": "Charles Glasgow, born 1858",
+            "url": "https://www.wikitree.com/wiki/Glasgow-2511",
+            "status": "excluded",
+            "reason": "Born after the voyage; incompatible with passenger father age 40."
+          }
+        ],
+        "readiness_reason": "Positive original-defined household actor with no positive compatible existing-profile match in the supplied bounded review; untraced later life or unverified maiden surname alone does not make the documentary account unready."
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "Charles Glasgow is recorded aged 40, a gardener, native of County Kildare and Roman Catholic. The parent column names his father as “Thos”, a labourer, and his mother as “Anne Du[?]e”. The words identifying his mother must not be attached to Julie as a wife’s maiden name. Charles swore to baptism in November 1800; this is not an exact birth date. Preserve the age and baptism statement together without manufacturing a birthday.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 385, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named immigrant father",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        },
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "Charles Glasgow is recorded aged 40, a gardener, native of County Kildare and Roman Catholic. The parent column names his father as “Thos”, a labourer, and his mother as “Anne Du[?]e”. The words identifying his mother must not be attached to Julie as a wife’s maiden name. Charles swore to baptism in November 1800; this is not an exact birth date. Preserve the age and baptism statement together without manufacturing a birthday.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 386, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named immigrant father",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-charles-glasgow-elphinstone-1840",
+      "occupations": [
+        "gardener"
+      ]
+    },
+    {
+      "subject_id": "julie-glasgow-elphinstone-1840",
+      "catalogue_id": "record-julie-glasgow-elphinstone-1840",
+      "name": "Julie Glasgow",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+      "research_subject_url": "/people/record-julie-glasgow-elphinstone-1840.html",
+      "draft_path": "research/record-julie-glasgow-elphinstone-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "== Biography ==\nJulie was recorded as a farm servant and Roman Catholic.<ref name=\"ElphinstoneFamily\" />\n\nJulie Glasgow is recorded as a married woman, native of the same place as her husband. Her age is stated as 38 in December 1840, while she swears that she was born in December 1801. These conflict; retain an approximate birth about 1802 rather than selecting an exact birthday or treating the age as resolved. Her father is recorded as “Thos”, a farmer, and her mother as Jane Flanagan. This packet creates no separate accounts for those maternal parents. The maiden surname Burns occurs in the current Daniel biography/memorial tradition, not as a verified maiden name in this inspected passage. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nAge-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\nNo positive existing-profile match is established in the supplied bounded review; this is not an exhaustive exclusion of all namesakes.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "Julie Glasgow is recorded as a married woman, native of the same place as her husband. Her age is stated as 38 in December 1840, while she swears that she was born in December 1801. These conflict; retain an approximate birth about 1802 rather than selecting an exact birthday or treating the age as resolved. Her father is recorded as “Thos”, a farmer, and her mother as Jane Flanagan. This packet creates no separate accounts for those maternal parents. The maiden surname Burns occurs in the current Daniel biography/memorial tradition, not as a verified maiden name in this inspected passage. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.",
+      "creation_status": "creation_ready",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "Julie"
+      ],
+      "last_names_at_birth": [
+        "Unknown"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Female",
+      "birth": "c. 1802",
+      "birth_note": "Age-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.",
+      "death": "",
+      "birth_location": "County Kildare, Ireland",
+      "birth_location_note": "Recorded native place: Charles explicitly County Kildare; Julie same place as husband. This is source native-place wording, not an independently inspected birth entry.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y"
+      },
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "creation_ready",
+        "candidates": [],
+        "readiness_reason": "Positive original-defined household actor with no positive compatible existing-profile match in the supplied bounded review; untraced later life or unverified maiden surname alone does not make the documentary account unready."
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "Julie Glasgow is recorded as a married woman, native of the same place as her husband. Her age is stated as 38 in December 1840, while she swears that she was born in December 1801. These conflict; retain an approximate birth about 1802 rather than selecting an exact birthday or treating the age as resolved. Her father is recorded as “Thos”, a farmer, and her mother as Jane Flanagan. This packet creates no separate accounts for those maternal parents. The maiden surname Burns occurs in the current Daniel biography/memorial tradition, not as a verified maiden name in this inspected passage.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 385, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named married immigrant woman",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        },
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "Julie Glasgow is recorded as a married woman, native of the same place as her husband. Her age is stated as 38 in December 1840, while she swears that she was born in December 1801. These conflict; retain an approximate birth about 1802 rather than selecting an exact birthday or treating the age as resolved. Her father is recorded as “Thos”, a farmer, and her mother as Jane Flanagan. This packet creates no separate accounts for those maternal parents. The maiden surname Burns occurs in the current Daniel biography/memorial tradition, not as a verified maiden name in this inspected passage.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 386, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named married immigrant woman",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-julie-glasgow-elphinstone-1840",
+      "occupations": [
+        "farm servant"
+      ]
+    },
+    {
+      "subject_id": "john-glasgow-elphinstone-1840",
+      "catalogue_id": "record-john-glasgow-elphinstone-1840",
+      "name": "John Glasgow, Elphinstone passenger",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+      "research_subject_url": "/people/record-john-glasgow-elphinstone-1840.html",
+      "draft_path": "research/record-john-glasgow-elphinstone-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJno (John) was recorded as a labourer.<ref name=\"ElphinstoneFamily\" />\n\nJno (John) Glasgow is listed among the children, aged 18. This identifies the passenger child, not his later adult life. The supplied reading supports John as the rendering of Jno; it does not provide an exact birth date. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nAge-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\n* John Glasgow, about 1819, Tennessee (https://www.wikitree.com/wiki/Glasgow-690): Near age but Tennessee context supplies no positive Irish passenger-to-adult bridge. Retain unexcluded; missing corroboration is not a conflict.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "Jno (John) Glasgow is listed among the children, aged 18. This identifies the passenger child, not his later adult life. The supplied reading supports John as the rendering of Jno; it does not provide an exact birth date. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established. This remains a source-occurrence identity HOLD and may represent an existing profile; no distinct-person assertion or live creation follows.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "c. 1822",
+      "birth_note": "Age-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B"
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-690",
+          "name": "John Glasgow, about 1819, Tennessee",
+          "url": "https://www.wikitree.com/wiki/Glasgow-690",
+          "status": "weaker_candidate",
+          "reason": "Near age but Tennessee context supplies no positive Irish passenger-to-adult bridge. Retain unexcluded; missing corroboration is not a conflict."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "identity_hold",
+        "candidates": [
+          {
+            "profile_id": "Glasgow-690",
+            "name": "John Glasgow, about 1819, Tennessee",
+            "url": "https://www.wikitree.com/wiki/Glasgow-690",
+            "status": "weaker_candidate",
+            "reason": "Near age but Tennessee context supplies no positive Irish passenger-to-adult bridge. Retain unexcluded; missing corroboration is not a conflict."
+          }
+        ]
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "Jno (John) Glasgow is listed among the children, aged 18. This identifies the passenger child, not his later adult life. The supplied reading supports John as the rendering of Jno; it does not provide an exact birth date.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 386, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named passenger child",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-john-glasgow-elphinstone-1840",
+      "occupations": [
+        "labourer"
+      ]
+    },
+    {
+      "subject_id": "thomas-glasgow-elphinstone-1840",
+      "catalogue_id": "record-thomas-glasgow-elphinstone-1840",
+      "name": "Thomas Glasgow, Elphinstone passenger",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+      "research_subject_url": "/people/record-thomas-glasgow-elphinstone-1840.html",
+      "draft_path": "research/record-thomas-glasgow-elphinstone-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThomas Glasgow is listed among the children, aged 15. His later adult life is untraced in this packet. The age provides an approximate period only, not an exact birth date. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nAge-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\n* Thomas Glasgow, about 1822, Ireland/Massachusetts (https://www.wikitree.com/wiki/Glasgow-678): Approximate age and Ireland are compatible broadly; no migration or household bridge. Retain unexcluded.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "Thomas Glasgow is listed among the children, aged 15. His later adult life is untraced in this packet. The age provides an approximate period only, not an exact birth date. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established. This remains a source-occurrence identity HOLD and may represent an existing profile; no distinct-person assertion or live creation follows.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "Thomas"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "c. 1825",
+      "birth_note": "Age-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B"
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-678",
+          "name": "Thomas Glasgow, about 1822, Ireland/Massachusetts",
+          "url": "https://www.wikitree.com/wiki/Glasgow-678",
+          "status": "weaker_candidate",
+          "reason": "Approximate age and Ireland are compatible broadly; no migration or household bridge. Retain unexcluded."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "identity_hold",
+        "candidates": [
+          {
+            "profile_id": "Glasgow-678",
+            "name": "Thomas Glasgow, about 1822, Ireland/Massachusetts",
+            "url": "https://www.wikitree.com/wiki/Glasgow-678",
+            "status": "weaker_candidate",
+            "reason": "Approximate age and Ireland are compatible broadly; no migration or household bridge. Retain unexcluded."
+          }
+        ]
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "Thomas Glasgow is listed among the children, aged 15. His later adult life is untraced in this packet. The age provides an approximate period only, not an exact birth date.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 386, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named passenger child",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-thomas-glasgow-elphinstone-1840",
+      "occupations": []
+    },
+    {
+      "subject_id": "anne-glasgow-elphinstone-1840",
+      "catalogue_id": "record-anne-glasgow-elphinstone-1840",
+      "name": "Anne Glasgow, Elphinstone passenger",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+      "research_subject_url": "/people/record-anne-glasgow-elphinstone-1840.html",
+      "draft_path": "research/record-anne-glasgow-elphinstone-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnne Glasgow is listed among the children, aged 13. No positive existing-profile identification is established. Her later life, exact birth date and birthplace remain unresolved. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nAge-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\nNo positive existing-profile match is established in the supplied bounded review; this is not an exhaustive exclusion of all namesakes.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "Anne Glasgow is listed among the children, aged 13. No positive existing-profile identification is established. Her later life, exact birth date and birthplace remain unresolved. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.",
+      "creation_status": "creation_ready",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "Anne"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "c. 1827",
+      "birth_note": "Age-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B"
+      },
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "creation_ready",
+        "candidates": [],
+        "readiness_reason": "Positive original-defined household actor with no positive compatible existing-profile match in the supplied bounded review; untraced later life or unverified maiden surname alone does not make the documentary account unready."
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "Anne Glasgow is listed among the children, aged 13. No positive existing-profile identification is established. Her later life, exact birth date and birthplace remain unresolved.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 386, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named passenger child",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-anne-glasgow-elphinstone-1840",
+      "occupations": []
+    },
+    {
+      "subject_id": "james-glasgow-elphinstone-1840",
+      "catalogue_id": "record-james-glasgow-elphinstone-1840",
+      "name": "James Glasgow, Elphinstone passenger",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+      "research_subject_url": "/people/record-james-glasgow-elphinstone-1840.html",
+      "draft_path": "research/record-james-glasgow-elphinstone-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow is listed among the children, aged 5. James Glasgow-3265, born about 1835 and associated with Tenterfield, Australia, is a very compatible later-adult candidate. Retain this passenger account on identity HOLD; do not create a distinct James or reject that candidate merely because no later-life bridge is yet inspected. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Source occurrence may be the same person as Glasgow-3265; no distinct-person assertion, merge or parent selection for that adult candidate.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nAge-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\n* James Glasgow, about 1835, Tenterfield, Australia (https://www.wikitree.com/wiki/Glasgow-3265): Very compatible age and Australian adult context. Must resolve passenger-to-adult identity before any distinct-person creation.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is listed among the children, aged 5. James Glasgow-3265, born about 1835 and associated with Tenterfield, Australia, is a very compatible later-adult candidate. Retain this passenger account on identity HOLD; do not create a distinct James or reject that candidate merely because no later-life bridge is yet inspected. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Source occurrence may be the same person as Glasgow-3265; no distinct-person assertion, merge or parent selection for that adult candidate. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established. This remains a source-occurrence identity HOLD and may represent an existing profile; no distinct-person assertion or live creation follows.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "c. 1835",
+      "birth_note": "Age-derived approximate year, not exact birthday; Charles baptism November 1800 and Julie conflicting age/sworn birth retained.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B"
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3265",
+          "name": "James Glasgow, about 1835, Tenterfield, Australia",
+          "url": "https://www.wikitree.com/wiki/Glasgow-3265",
+          "status": "compatible_candidate",
+          "reason": "Very compatible age and Australian adult context. Must resolve passenger-to-adult identity before any distinct-person creation."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "identity_hold",
+        "candidates": [
+          {
+            "profile_id": "Glasgow-3265",
+            "name": "James Glasgow, about 1835, Tenterfield, Australia",
+            "url": "https://www.wikitree.com/wiki/Glasgow-3265",
+            "status": "compatible_candidate",
+            "reason": "Very compatible age and Australian adult context. Must resolve passenger-to-adult identity before any distinct-person creation."
+          }
+        ]
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "James Glasgow is listed among the children, aged 5. James Glasgow-3265, born about 1835 and associated with Tenterfield, Australia, is a very compatible later-adult candidate. Retain this passenger account on identity HOLD; do not create a distinct James or reject that candidate merely because no later-life bridge is yet inspected.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 386, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named passenger child",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-james-glasgow-elphinstone-1840",
+      "occupations": []
+    },
+    {
+      "subject_id": "thomas-charles-father-kildare-1840",
+      "catalogue_id": "record-thomas-charles-father-kildare-1840",
+      "name": "Thos, father of Charles Glasgow",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+      "research_subject_url": "/people/record-thomas-charles-father-kildare-1840.html",
+      "draft_path": "research/record-thomas-charles-father-kildare-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "== Biography ==\nThe parent column of Charles Glasgow’s immigrant paper names his father as “Thos”, a labourer. Thos is retained without silently expanding the source spelling. The paper does not establish his birth date, death date or birthplace. County Kildare is Charles’s recorded native place, not proof of his father’s birthplace. Anne is named as Charles’s mother, but this clause alone is not a marriage record for the parents. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nDERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\n* Thomas Glasgow, watchmaker (https://www.wikitree.com/wiki/Glasgow-144): Weak comparison only: no County Kildare or household bridge to Charles’s named father Thos, labourer. No identification or exclusion is established.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "The parent column of Charles Glasgow’s immigrant paper names his father as “Thos”, a labourer. Thos is retained without silently expanding the source spelling. The paper does not establish his birth date, death date or birthplace. County Kildare is Charles’s recorded native place, not proof of his father’s birthplace. Anne is named as Charles’s mother, but this clause alone is not a marriage record for the parents. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established. This remains a source-occurrence identity HOLD and may represent an existing profile; no distinct-person assertion or live creation follows.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "Thos"
+      ],
+      "last_names_at_birth": [
+        "Unknown"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "before 1801",
+      "birth_note": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1800,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+        "basis_kind": "derived_upper_bound",
+        "explanation": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840."
+      },
+      "candidates": [
+        {
+          "profile_id": "Glasgow-144",
+          "name": "Thomas Glasgow, watchmaker",
+          "url": "https://www.wikitree.com/wiki/Glasgow-144",
+          "status": "weak_comparison",
+          "reason": "Weak comparison only: no County Kildare or household bridge to Charles’s named father Thos, labourer. No identification or exclusion is established."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "identity_hold",
+        "candidates": [
+          {
+            "profile_id": "Glasgow-144",
+            "name": "Thomas Glasgow, watchmaker",
+            "url": "https://www.wikitree.com/wiki/Glasgow-144",
+            "status": "weak_comparison",
+            "reason": "Weak comparison only: no County Kildare or household bridge to Charles’s named father Thos, labourer. No identification or exclusion is established."
+          }
+        ],
+        "readiness_reason": "Identity HOLD retains a concrete weak existing-person comparison; it does not treat missing later records as an exclusion."
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "The parent column of Charles Glasgow’s immigrant paper names his father as “Thos”, a labourer. Thos is retained without silently expanding the source spelling. The paper does not establish his birth date, death date or birthplace. County Kildare is Charles’s recorded native place, not proof of his father’s birthplace. Anne is named as Charles’s mother, but this clause alone is not a marriage record for the parents.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 385, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named father of Charles",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-thomas-charles-father-kildare-1840",
+      "occupations": [
+        "labourer"
+      ]
+    },
+    {
+      "subject_id": "anne-charles-mother-kildare-1840",
+      "catalogue_id": "record-anne-charles-mother-kildare-1840",
+      "name": "Anne Du[?]e, mother of Charles Glasgow",
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+      "research_subject_url": "/people/record-anne-charles-mother-kildare-1840.html",
+      "draft_path": "research/record-anne-charles-mother-kildare-1840/elphinstone-family-1840.wiki",
+      "draft_wikitext": "== Biography ==\nThe parent column of Charles Glasgow’s immigrant paper names his mother as “Anne Du[?]e”. The surname remains unresolved and must not be expanded or normalised to a guessed name. She is explicitly Charles’s mother, not Charles’s wife. The entry does not establish her birth date, death date or birthplace. County Kildare is the son’s native-place context, not her proved birthplace; no marriage to Thos is inferred solely from the parent list. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nDERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\n* Ann Duffy (https://www.wikitree.com/wiki/Duffy-6026): Weak comparison only, associated with Thomas Glasgow-144; no County Kildare or Charles household bridge. Du[?]e is not normalised to Duffy and no marriage is inferred.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "The parent column of Charles Glasgow’s immigrant paper names his mother as “Anne Du[?]e”. The surname remains unresolved and must not be expanded or normalised to a guessed name. She is explicitly Charles’s mother, not Charles’s wife. The entry does not establish her birth date, death date or birthplace. County Kildare is the son’s native-place context, not her proved birthplace; no marriage to Thos is inferred solely from the parent list. The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Individual identity review and live WikiTree creation remain separate decisions. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established. This remains a source-occurrence identity HOLD and may represent an existing profile; no distinct-person assertion or live creation follows.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-10-31",
+      "first_names": [
+        "Anne"
+      ],
+      "last_names_at_birth": [
+        "Unknown"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "before 1801",
+      "birth_note": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "death_location": "",
+      "historical_basis": {
+        "latest_birth_year": 1800,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+        "basis_kind": "derived_upper_bound",
+        "explanation": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840."
+      },
+      "candidates": [
+        {
+          "profile_id": "Duffy-6026",
+          "name": "Ann Duffy",
+          "url": "https://www.wikitree.com/wiki/Duffy-6026",
+          "status": "weak_comparison",
+          "reason": "Weak comparison only, associated with Thomas Glasgow-144; no County Kildare or Charles household bridge. Du[?]e is not normalised to Duffy and no marriage is inferred."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Only the bounded candidates supplied with this packet; original age/role compared without broad rediscovery",
+        "conclusion": "identity_hold",
+        "candidates": [
+          {
+            "profile_id": "Duffy-6026",
+            "name": "Ann Duffy",
+            "url": "https://www.wikitree.com/wiki/Duffy-6026",
+            "status": "weak_comparison",
+            "reason": "Weak comparison only, associated with Thomas Glasgow-144; no County Kildare or Charles household bridge. Du[?]e is not normalised to Duffy and no marriage is inferred."
+          }
+        ],
+        "readiness_reason": "Identity HOLD retains a concrete weak existing-person comparison; it does not treat missing later records as an exclusion."
+      },
+      "records": [
+        {
+          "year": "1840",
+          "filter_year": 1840,
+          "family_group": "Elphinstone Glasgow family, 1840",
+          "region": "New South Wales, Australia",
+          "record_location": "Elphinstone assisted-immigrant papers; County Kildare family context",
+          "association": "The parent column of Charles Glasgow’s immigrant paper names his mother as “Anne Du[?]e”. The surname remains unresolved and must not be expanded or normalised to a guessed name. She is explicitly Charles’s mother, not Charles’s wife. The entry does not establish her birth date, death date or birthplace. County Kildare is the son’s native-place context, not her proved birthplace; no marriage to Thos is inferred solely from the parent list.",
+          "note": "The certification-column dates are not birthdays. Faint birth-date annotations are not independently verified birth evidence. No exact death date, later adult identity or Scottish origin is supplied by this packet. Each actor has an individual duplicate/readiness assessment; no live WikiTree creation is authorised here.",
+          "source_title": "Elphinstone family immigrant papers, FamilySearch image 385, 1840",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected; selected readings and unresolved details stated explicitly",
+          "evidence": "Named mother of Charles",
+          "record_precision": "1840 immigrant record; age-derived birth estimates only",
+          "location_basis": "County Kildare native-place statement belongs to Charles; inherited family context is qualified."
+        }
+      ],
+      "native_person_id": "per-anne-charles-mother-kildare-1840",
+      "occupations": []
+    },
+    {
+      "catalogue_id": "record-thomas-julie-father-kildare-1840",
+      "subject_id": "thomas-julie-father-kildare-1840",
+      "name": "Thos, father of Julie Glasgow",
+      "case_kind": "non_Glasgow_record_actor",
+      "draft_path": "research/record-thomas-julie-father-kildare-1840/elphinstone-family-1840.wiki",
+      "current_conclusion": "Julie’s original immigrant paper names her father as “Thos”, a farmer. His surname is unstated: Burns is unproved and is not assigned. No separate expansion of Thos, age, marriage or birthplace is established. Before 1802 is a DERIVED upper bound from daughter Julie’s reported December 1801 birth, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace.",
+      "current_questions": [
+        "Find an identifying Irish household or parish record connecting this parent to Julie without assigning Burns to an unnamed father.",
+        "Resolve Julie’s conflicting age and sworn birth statement; do not manufacture an exact parental birth date.",
+        "Determine any marriage and birthplace independently; the parent listing alone does not prove a marriage between Thos and Jane."
+      ],
+      "first_names": [
+        "Thos"
+      ],
+      "last_names_at_birth": [
+        "Unknown"
+      ],
+      "last_names_current": [],
+      "birth": "before 1803",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "historical_basis": {
+        "latest_birth_year": 1802,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+        "basis_kind": "derived_upper_bound",
+        "explanation": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840."
+      },
+      "records": [
+        {
+          "source_title": "Elphinstone immigrant paper, 1840, Julie Glasgow parent and age columns, original image 386",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected 31 October 2026 by the research assistant",
+          "association": "Julie’s original immigrant paper names her father as “Thos”, a farmer. His surname is unstated: Burns is unproved and is not assigned. No separate expansion of Thos, age, marriage or birthplace is established.",
+          "note": "Before 1802 is a DERIVED upper bound from daughter Julie’s reported December 1801 birth, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace.",
+          "year": "1840",
+          "filter_year": 1840,
+          "evidence": "Explicitly named father of Julie; no grade assigned in scratch"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "No positive existing-person match supplied; surname not invented to manufacture a match",
+        "candidates": [],
+        "conclusion": "source-defined parent role; identity and later life open"
+      },
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+      "reviewed_at": "2026-10-31",
+      "death_location": "",
+      "birth_note": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.",
+      "native_person_id": "per-thomas-julie-father-kildare-1840",
+      "creation_status": "identity_hold",
+      "research_subject_url": "/people/record-thomas-julie-father-kildare-1840.html",
+      "draft_wikitext": "== Biography ==\nJulie’s original immigrant paper names her father as “Thos”, a farmer. His surname is unstated: Burns is unproved and is not assigned. No separate expansion of Thos, age, marriage or birthplace is established. Before 1803 is a DERIVED upper bound from daughter Julie’s conflicting 1801/1802 birth evidence, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nDERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\nNo positive existing-profile match is established in the supplied bounded review; this is not an exhaustive exclusion of all namesakes.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "Julie’s original immigrant paper names her father as “Thos”, a farmer. His surname is unstated: Burns is unproved and is not assigned. No separate expansion of Thos, age, marriage or birthplace is established. Before 1803 is a DERIVED upper bound from daughter Julie’s conflicting 1801/1802 birth evidence, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.",
+      "gender": "",
+      "occupations": [
+        "farmer"
+      ]
+    },
+    {
+      "catalogue_id": "record-jane-flanagan-julie-mother-1840",
+      "subject_id": "jane-flanagan-julie-mother-1840",
+      "name": "Jane Flanagan, mother of Julie Glasgow",
+      "case_kind": "non_Glasgow_record_actor",
+      "draft_path": "research/record-jane-flanagan-julie-mother-1840/elphinstone-family-1840.wiki",
+      "current_conclusion": "Julie’s original immigrant paper names Jane Flanagan as her mother. This is a directly stated maternal role; it does not supply a marriage, birthday, death date or birthplace for Jane. Before 1802 is a DERIVED upper bound from daughter Julie’s reported December 1801 birth, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace.",
+      "current_questions": [
+        "Find an identifying Irish household or parish record connecting this parent to Julie without assigning Burns to an unnamed father.",
+        "Resolve Julie’s conflicting age and sworn birth statement; do not manufacture an exact parental birth date.",
+        "Determine any marriage and birthplace independently; the parent listing alone does not prove a marriage between Thos and Jane."
+      ],
+      "first_names": [
+        "Jane"
+      ],
+      "last_names_at_birth": [
+        "Flanagan"
+      ],
+      "last_names_current": [],
+      "birth": "before 1803",
+      "death": "",
+      "birth_location": "",
+      "birth_location_note": "County Kildare is UNCERTAIN family context, not a proved birthplace for this actor.",
+      "historical_basis": {
+        "latest_birth_year": 1802,
+        "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+        "basis_kind": "derived_upper_bound",
+        "explanation": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840."
+      },
+      "records": [
+        {
+          "source_title": "Elphinstone immigrant paper, 1840, Julie Glasgow parent and age columns, original image 386",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+          "source_type": "Original immigrant paper image",
+          "source_status": "Original scan inspected 31 October 2026 by the research assistant",
+          "association": "Julie’s original immigrant paper names Jane Flanagan as her mother. This is a directly stated maternal role; it does not supply a marriage, birthday, death date or birthplace for Jane.",
+          "note": "Before 1802 is a DERIVED upper bound from daughter Julie’s reported December 1801 birth, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace.",
+          "year": "1840",
+          "filter_year": 1840,
+          "evidence": "Explicitly named mother of Julie; no grade assigned in scratch"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "No positive existing-person match supplied; surname not invented to manufacture a match",
+        "candidates": [],
+        "conclusion": "source-defined parent role; identity and later life open"
+      },
+      "source_subject_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B",
+      "reviewed_at": "2026-10-31",
+      "death_location": "",
+      "birth_note": "DERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.",
+      "native_person_id": "per-jane-flanagan-julie-mother-1840",
+      "creation_status": "identity_hold",
+      "research_subject_url": "/people/record-jane-flanagan-julie-mother-1840.html",
+      "draft_wikitext": "== Biography ==\nJulie’s original immigrant paper names Jane Flanagan as her mother. This is a directly stated maternal role; it does not supply a marriage, birthday, death date or birthplace for Jane. Before 1803 is a DERIVED upper bound from daughter Julie’s conflicting 1801/1802 birth evidence, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace.<ref name=\"ElphinstoneFront\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-Y Elphinstone assisted-immigrant papers, original image 385, Charles Glasgow and parent columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneFamily\">[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSKD-J9W8-B Elphinstone assisted-immigrant papers, original image 386, Julie Glasgow, parent and children columns]. Original scan inspected 31 October 2026 by the research assistant.</ref><ref name=\"ElphinstoneArrival\">[https://mhnsw.au/guides/assisted-immigrants-digital-shipping-lists/ Museums of History NSW, Assisted immigrants digital shipping lists, Elphinstone, arrival 5 October 1840].</ref>\n\nThe family roster gives Jno (John), 18; Thomas, 15; Daniel, 11; James, 5; Anne, 13, in that source order. The ship arrived on 5 October 1840.\n\n== Research Notes ==\nCharles’s paper records County Kildare as his native place and Julie’s paper says the same place as her husband. The native-place wording does not prove the children’s or ancestors’ birthplaces. Charles’s November 1800 statement concerns his baptism, not an exact birth. Julie’s age 38 in December 1840 conflicts with her sworn birth in December 1801; her approximate year remains qualified. Julie’s maiden surname Burns remains unverified. Charles’s mother is Anne Du[?]e, not his wife; the surname is not expanded. The two fathers called Thos are separate source actors: Charles’s father is a labourer, Julie’s a farmer. No marriage of either grandparent couple is inferred. Certification-column dates are not birthdays, and Daniel’s faint 20 October 1829 annotation is not independent birth proof. No exact Daniel birthday or existing vital field is corrected.\n\nDERIVED conservative upper bound from the child’s reported baptism/birth, not an actual parental birth record. Charles reported baptism November 1800; Julie’s December 1801 sworn birth conflicts with age 38 in December 1840.\n\nParental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.\n\n=== Identity comparisons ===\nNo positive existing-profile match is established in the supplied bounded review; this is not an exhaustive exclusion of all namesakes.\n\n=== Next records ===\nSeek named-parent adult marriage, death, family or property records to test the passenger children’s later identities. Compare the actual surviving John Glasgow-690, Thomas Glasgow-678 and James Glasgow-3265 candidates without treating missing later fields as exclusions. James’s age/cohort and Australian setting are compatible; they do not select parents for the existing adult. Ancestor origins require independent records; repeating the already-read passenger columns is not a new test.\n\n== Sources ==\n<references />\n",
+      "assessment": "Julie’s original immigrant paper names Jane Flanagan as her mother. This is a directly stated maternal role; it does not supply a marriage, birthday, death date or birthplace for Jane. Before 1803 is a DERIVED upper bound from daughter Julie’s conflicting 1801/1802 birth evidence, not an independently recorded birth date for this parent. Julie’s age 38 in December 1840 conflicts with that sworn birth statement; preserve the conflict. County Kildare is uncertain family context from the daughter’s native-place description, not this ancestor’s proved birthplace. Parental roles involving newly catalogued source actors have their first measurements in this review; those measurements are review coverage, not improvements from earlier measured confidence. Only the existing adult Daniel’s newly selected parents are a new attachment finding. No wider cross-branch join or untraced adult identity is established.",
+      "gender": "",
+      "occupations": []
     }
   ]
 }
