@@ -63832,6 +63832,44 @@
         "research/Glasgow-357/findings.md",
         "tmp/currituck-357-originals-20261031/source-reading-independent.json"
       ]
+    },
+    {
+      "id": "calton-john-original-military-identity-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Original Royal Scots discharge and pension register identify a Glasgow-born Sergeant John Glasgow, discharged at Belfast on 10 March 1817, later resident in Glasgow and dead on 12 January 1848. The Calton pensioner and Struthers Street memorial accounts are strong compatible identities; parents remain unknown.",
+      "qualification": "The originals name no father, mother, wife or children and give no Struthers Street address. Identification with the Calton household and the memorial profile remains inferred, not a completed merger. The 1848 memorial is a derivative lead without an inspected grave photograph. The 1782 indexed child attached to 2875 remains a separate unproved childhood-to-adult identification: its inspected FamilySearch entry gives only August 1782, Glasgow and no parents. No father is invented or assigned; both live profiles currently have no parents. No relationship percentage, structural attachment, birth field or death field changes, and no confidence-progress gain is counted.",
+      "detail_url": "/people/glasgow-2968.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2968",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2968.html",
+          "role": "Calton household candidate"
+        },
+        {
+          "id": "Glasgow-2875",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2875.html",
+          "role": "Struthers Street memorial and 1782-child comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Royal Scots original discharge, WO 119/41",
+          "url": "https://search.findmypast.co.uk/record?id=GBM%2FWO119%2F0041%2F001_023&parentid=GBM%2FWO119%2F27887"
+        },
+        {
+          "title": "1st Foot original pension register, WO 23/36",
+          "url": "https://search.findmypast.co.uk/record?id=GBM%2FWO23%2F36%2F00026&parentid=GBM%2FWO23%2F36%2F00026%2F1030358"
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-2968/findings.md",
+        "research/Glasgow-2875/findings.md"
+      ]
     }
   ]
 }

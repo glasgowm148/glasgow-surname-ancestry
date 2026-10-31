@@ -4535,3 +4535,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Caleb Glasgow, older account](https://www.wikitree.com/wiki/Glasgow-363) | OPEN | Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. |
 | [Caleb Glasgow, alternative account](https://www.wikitree.com/wiki/Glasgow-830) | OPEN | Update William’s selected Caleb father from 58% possible to 68% probable using the newly verified full original survey geometry; preserve inheritance and Caleb-identity limits. |
 | [Sarah Cooper Glasgow](https://www.wikitree.com/wiki/Cooper-5262) | OPEN | Add the original 1782 deed’s explicit Sarah-wife wording; no maiden surname, Thomas Cooper kinship or maternal-confidence upgrade. |
+
+
+## Original Calton pensioner investigation — 31 October 2026
+
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2968) | OPEN | Add original WO119/41 discharge and WO23/36 pension-register evidence; qualified existing-profile identity, parents unknown; no merger or new father. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-2875) | OPEN | Add original WO119/41 discharge and WO23/36 pension-register evidence; qualified existing-profile identity, parents unknown; no merger or new father. |
