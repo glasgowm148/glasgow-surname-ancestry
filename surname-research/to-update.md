@@ -4514,3 +4514,12 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-2695) | OPEN | New probable father John Glasgow-1304,65%; conditional1799Colinton childhood identity, no merge or birth replacement. |
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1304) | OPEN | Add qualified adult-son comparison Glasgow-2695,65%; own father78% unchanged. |
 | [Alexander Glasgow](https://www.wikitree.com/wiki/Glasgow-2718) | OPEN | Add adult identity hypothesis; supersede1827criminal attribution using age14/SouthLeith indexes. Existing father98% unchanged. |
+
+## 31 October 2026 — Kilbirnie parent connection and Rathdowney original
+
+| [Glasgow-3463](https://www.wikitree.com/wiki/Glasgow-3463) | OPEN | Add new probable father Robert Glasgow-2963 and mother McConechie-2, each 78%, through the 1807 Kilbirnie child and matching census ages/birthplace; no exact adult birthday replacement. |
+| [Glasgow-2963](https://www.wikitree.com/wiki/Glasgow-2963) | OPEN | Add probable adult son John Glasgow-3463 at 78%; retain own father 46% and separate Montgreenan beneficiary identity. |
+| [McConechie-2](https://www.wikitree.com/wiki/McConechie-2) | OPEN | Add probable adult son John Glasgow-3463 at 78% from the 1807 named-parent baptism and census identity inference; own ancestry unchanged. |
+| [Glasgow-3594](https://www.wikitree.com/wiki/Glasgow-3594) | OPEN | Correct birth 5 July to 4 July 1774;5 July is baptism in the original. |
+| [Glasgow-3593](https://www.wikitree.com/wiki/Glasgow-3593) | OPEN | Add Margaret’s original 1774 baptism and birth distinction; close completed lookup. |
+| [Ford-28175](https://www.wikitree.com/wiki/Ford-28175) | OPEN | Add Margaret’s original 1774 baptism, explicit 4 Julybirth and tentative sponsor readings; existing Thomas maternity 98% unchanged. |

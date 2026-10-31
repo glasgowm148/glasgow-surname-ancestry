@@ -1,0 +1,105 @@
+{
+  "all_three_models_verified": true,
+  "previous_research_events_preserved": 398,
+  "new_father_attachments": 1,
+  "mother_addition_separately_verified": true,
+  "unknown_fathers": [
+    384,
+    383
+  ],
+  "working_components": [
+    391,
+    390
+  ],
+  "population": 1803,
+  "unchanged_assessments": [
+    46,
+    92,
+    98
+  ],
+  "full_compact_parent_tags_agree": true,
+  "birth_field_change_and_distinct_baptism_verified": true,
+  "john_kilbirnie_birthplace_published_without_exact_birthday_change": true,
+  "canonical_record_copies": {
+    "kilbirnie-john-robert-mcconnachy-baptism-1807": 1,
+    "beith-john-glasgow-household-1851": 1,
+    "beith-john-glasgow-household-1861": 1,
+    "rathdowney-margaret-baptism-1774": 1
+  },
+  "finding_routes": {
+    "kilbirnie-john-new-parents-20261031": "/latest-findings/page/22/#finding-kilbirnie-john-new-parents-20261031",
+    "rathdowney-margaret-original-birth-date-20261031": "/latest-findings/page/22/#finding-rathdowney-margaret-original-birth-date-20261031"
+  },
+  "metrics_through1850": {
+    "working": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 1416,
+        "after": 1417
+      },
+      "component_count": {
+        "before": 391,
+        "after": 390
+      }
+    },
+    "supported": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 1141,
+        "after": 1142
+      },
+      "component_count": {
+        "before": 665,
+        "after": 664
+      }
+    },
+    "confident": {
+      "population": {
+        "before": 1803,
+        "after": 1803
+      },
+      "edge_count": {
+        "before": 742,
+        "after": 742
+      },
+      "component_count": {
+        "before": 1062,
+        "after": 1062
+      }
+    }
+  },
+  "local_http": {
+    "/latest-findings/": 200,
+    "/onetree/": 200,
+    "/onetree/progress/?through=1850&links=working": 200,
+    "/sitemap/": 200,
+    "/people/glasgow-3463.html": 200,
+    "/people/glasgow-2963.html": 200,
+    "/people/mcconechie-2.html": 200,
+    "/people/glasgow-3594.html": 200,
+    "/people/glasgow-3593.html": 200,
+    "/people/ford-28175.html": 200,
+    "/latest-findings/page/22/": 200
+  },
+  "inherited_capture_whitespace": {
+    "research/Glasgow-3463/kilbirnie-rathdowney-review-2026-10-31.wiki": [
+      4
+    ],
+    "research/Glasgow-2963/kilbirnie-rathdowney-review-2026-10-31.wiki": [
+      11
+    ],
+    "research/McConechie-2/kilbirnie-rathdowney-review-2026-10-31.wiki": [
+      2
+    ]
+  },
+  "deployed": false,
+  "live_wikitree_edits": false,
+  "first_ratings_counted_as_gains": 0,
+  "vital_corrections_counted_as_confidence_gains": 0
+}

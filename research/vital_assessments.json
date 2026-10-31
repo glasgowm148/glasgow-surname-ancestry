@@ -2568,6 +2568,63 @@
           "basis": "Prior indexed value retained in the imported view and source history; preferred chronology is an explicitly qualified inference."
         }
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "margaret-rathdowney-birth-baptism-1774-20261031",
+      "subject": "Glasgow-3594",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-31",
+      "basis": "Original Rathdowney image 69, right-hand entry: Margt baptised 5 July 1774, born ye 4th, infant of David Glascow and Anne Ford. The current 5 Julybirthday conflates baptism with birth. Sponsors tentatively Michl Brophy and Anne Gregory.",
+      "source": {
+        "url": "/people/glasgow-3594.json",
+        "section": "Original Margaret baptism —31 October 2026"
+      },
+      "summary": "Birth 4 July 1774; baptism 5 July 1774. Original distinguishes the two dates; existing father 92% unchanged.",
+      "vitals": {
+        "birth": {
+          "date": "1774-07-04",
+          "display_date": "4 July 1774",
+          "place": "Rathdowney, Queen’s County, Ireland",
+          "country": "Ireland",
+          "status": "exact",
+          "source_url": "https://registers.nli.ie/registers/vtls000631901#page/69/mode/1up",
+          "source_level": "Original register image inspected",
+          "qualifier": "Birth date explicit; retain Rathdowney parish context, no new exact birthplace/townland inferred",
+          "note": "Original says born ye 4th in the 5 Julybaptism. The marginal locality remains abbreviated and unexpanded; the existing broad Rathdowney geographic context is retained. Previous field 5 July is retained as the baptism date in the source account. No relationship-confidence change."
+        }
+      },
+      "project_tree_vitals": true
+    },
+    {
+      "schema_version": 3,
+      "id": "john-gateside-kilbirnie-birthplace-20261031",
+      "subject": "Glasgow-3463",
+      "status": "approved",
+      "scope": "vitals",
+      "reviewed": "2026-10-31",
+      "basis": "The 1851and 1861head transcripts explicitly give Kilbirnie, Ayrshire, as John’s birthplace. Both ages 43/53 support the retained approximate 1808year and allow the 1807child hypothesis; neither names adult parents or proves an exact birthday.",
+      "source": {
+        "url": "/people/glasgow-3463.json",
+        "section": "Kilbirnie childhood and the Gateside household"
+      },
+      "summary": "Refine the broad Ayrshire birthplace to Kilbirnie from two census head transcripts; retain approximate 1808, with no exact childhood birthday replacement.",
+      "vitals": {
+        "birth": {
+          "date": "1808",
+          "display_date": "1808",
+          "place": "Kilbirnie, Ayrshire, Scotland",
+          "country": "Scotland",
+          "status": "uncertain",
+          "place_status": "strongly_supported",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=GBC%2F1851%2F0021244927",
+          "source_level": "Two inspected census provider transcripts; original images uninspected",
+          "qualifier": "Approximate census-derived year retained; Kilbirnie independently stated in 1851and 1861; no exact date inferred",
+          "note": "John’s age 43at 30 March 1851and 53at 7 April 1861both fit the 20 August 1807candidate, but the local birth field retains 1808as an approximate census-derived estimate. Kilbirnie is a stated adult birthplace, independent of that child identification. Wife’s maiden surname and adult parents are not stated in these censuses."
+        }
+      },
+      "project_tree_vitals": true
     }
   ]
 }

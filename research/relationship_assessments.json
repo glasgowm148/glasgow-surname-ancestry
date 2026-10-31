@@ -112105,6 +112105,138 @@
     }
   },
   {
+    "assertion_id": "clm-kilbirnie-john-father-20261031",
+    "people": [
+      "Glasgow-3463",
+      "Glasgow-2963"
+    ],
+    "claim": "Glasgow-2963 is the proposed father of John Glasgow-3463, conditional on the1807Kilbirnie childhood identity.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-3463": {
+        "relationship": "father"
+      },
+      "Glasgow-2963": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "kilbirnie-john-robert-mcconnachy-baptism-1807",
+      "beith-john-glasgow-household-1851",
+      "beith-john-glasgow-household-1861"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "Public WikiTree getRelatives 31 October 2026: Glasgow-3463 Father 0/Mother 0; live-readback.json and preflight.json. Current local parents also absent.",
+        "status": "unknown"
+      },
+      "review_kind": "new_kilbirnie_parent_hypothesis",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-10-31",
+    "basis": "John Glasgow-3463 is the Gateside/Beith household head identified through wife Mary and sons William, John, Robert and James. Inspected 1851 and 1861 Findmypast census transcripts independently give his birthplace as Kilbirnie and ages 43 and 53. Both ages allow a birth between 31 March 1807 and 30 March 1808; 20 August 1807 fits both exactly. The inspected FamilySearch baptism index XTVK-C 2 R records John born 20 August 1807 and baptised 30 August 1807 at Kilbirnie, son of Robert Glasgow and Jean McConnachy. That full parental couple matches the existing Robert Glasgow-2963 and Jean McConechie-2 household, separately represented by Janet’s 1809 and Rachel Dunlop’s 1817 Kilbirnie entries. The precise birth parish and two compatible census ages make this childhood-to-adult identification probable at 78% subjective confidence. A bounded Scotland Births and Baptisms search for John Glasgow, Kilbirnie, 1805–1810 returned this one principal child; the other 11 results named people in parental roles. This is a genuine new parent recommendation from the checked absent-parent state, not a first numerical rating of an existing attachment.",
+    "assessment_history": [],
+    "reason": "John Glasgow-3463 is the Gateside/Beith household head identified through wife Mary and sons William, John, Robert and James. Inspected 1851 and 1861 Findmypast census transcripts independently give his birthplace as Kilbirnie and ages 43 and 53. Both ages allow a birth between 31 March 1807 and 30 March 1808; 20 August 1807 fits both exactly. The inspected FamilySearch baptism index XTVK-C 2 R records John born 20 August 1807 and baptised 30 August 1807 at Kilbirnie, son of Robert Glasgow and Jean McConnachy. That full parental couple matches the existing Robert Glasgow-2963 and Jean McConechie-2 household, separately represented by Janet’s 1809 and Rachel Dunlop’s 1817 Kilbirnie entries. The precise birth parish and two compatible census ages make this childhood-to-adult identification probable at 78% subjective confidence. A bounded Scotland Births and Baptisms search for John Glasgow, Kilbirnie, 1805–1810 returned this one principal child; the other 11 results named people in parental roles. This is a genuine new parent recommendation from the checked absent-parent state, not a first numerical rating of an existing attachment.",
+    "limitations": "No inspected adult record names John’s parents; the 1807 child-to-adult connection remains circumstantial. The bounded index is incomplete and does not exclude an unindexed same-name child or a different adult life for the 1807 child. All three Scottish sources newly read here are provider indexes/transcripts; the baptism image is unavailable and original census pages were not inspected. The 1809/1817 household records identify the proposed parental accounts, not independent proof of the adult identity. The Barony 1807 John-1355 comparison is weakened by the Kilbirnie birthplace and exact age interval, not categorically excluded: baptism parish need not equal birthplace and census ages can err. Robert’s own father James-1142 remains 46% and the Montgreenan trust beneficiary remains unproved as this Robert. Jean’s 1782 birth remains an inherited estimate. The two parent assessments share one childhood-to-adult inference and are not independent confirmations. No exact adult birthday replacement, live merge, wife maiden-surname finding or upstream confidence change is proposed.",
+    "probability": {
+      "value": 0.78,
+      "reviewed": "2026-10-31",
+      "basis": "John Glasgow-3463 is the Gateside/Beith household head identified through wife Mary and sons William, John, Robert and James. Inspected 1851 and 1861 Findmypast census transcripts independently give his birthplace as Kilbirnie and ages 43 and 53. Both ages allow a birth between 31 March 1807 and 30 March 1808; 20 August 1807 fits both exactly. The inspected FamilySearch baptism index XTVK-C 2 R records John born 20 August 1807 and baptised 30 August 1807 at Kilbirnie, son of Robert Glasgow and Jean McConnachy. That full parental couple matches the existing Robert Glasgow-2963 and Jean McConechie-2 household, separately represented by Janet’s 1809 and Rachel Dunlop’s 1817 Kilbirnie entries. The precise birth parish and two compatible census ages make this childhood-to-adult identification probable at 78% subjective confidence. A bounded Scotland Births and Baptisms search for John Glasgow, Kilbirnie, 1805–1810 returned this one principal child; the other 11 results named people in parental roles. This is a genuine new parent recommendation from the checked absent-parent state, not a first numerical rating of an existing attachment.",
+      "source_ids": [
+        "kilbirnie-john-robert-mcconnachy-baptism-1807",
+        "beith-john-glasgow-household-1851",
+        "beith-john-glasgow-household-1861"
+      ],
+      "scope": "No inspected adult record names John’s parents; the 1807 child-to-adult connection remains circumstantial. The bounded index is incomplete and does not exclude an unindexed same-name child or a different adult life for the 1807 child. All three Scottish sources newly read here are provider indexes/transcripts; the baptism image is unavailable and original census pages were not inspected. The 1809/1817 household records identify the proposed parental accounts, not independent proof of the adult identity. The Barony 1807 John-1355 comparison is weakened by the Kilbirnie birthplace and exact age interval, not categorically excluded: baptism parish need not equal birthplace and census ages can err. Robert’s own father James-1142 remains 46% and the Montgreenan trust beneficiary remains unproved as this Robert. Jean’s 1782 birth remains an inherited estimate. The two parent assessments share one childhood-to-adult inference and are not independent confirmations. No exact adult birthday replacement, live merge, wife maiden-surname finding or upstream confidence change is proposed."
+    },
+    "working_selection": true,
+    "attachment_status": "hypothesis",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3463.html#research-findings",
+        "label": "Kilbirnie childhood and the Gateside household"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2963": "Robert Glasgow",
+      "Glasgow-3463": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-kilbirnie-john-mother-20261031",
+    "people": [
+      "Glasgow-3463",
+      "McConechie-2"
+    ],
+    "claim": "McConechie-2 is the proposed mother of John Glasgow-3463, conditional on the1807Kilbirnie childhood identity.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-3463": {
+        "relationship": "mother"
+      },
+      "McConechie-2": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "kilbirnie-john-robert-mcconnachy-baptism-1807",
+      "beith-john-glasgow-household-1851",
+      "beith-john-glasgow-household-1861"
+    ],
+    "provenance": {
+      "new_mother_attachment": true,
+      "prior_assessment": {
+        "relationship": "mother",
+        "relative_id": null,
+        "source_basis": "Public WikiTree getRelatives 31 October 2026: Glasgow-3463 Father 0/Mother 0; live-readback.json and preflight.json. Current local parents also absent.",
+        "status": "unknown"
+      },
+      "review_kind": "new_kilbirnie_parent_hypothesis",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-10-31",
+    "basis": "John Glasgow-3463 is the Gateside/Beith household head identified through wife Mary and sons William, John, Robert and James. Inspected 1851 and 1861 Findmypast census transcripts independently give his birthplace as Kilbirnie and ages 43 and 53. Both ages allow a birth between 31 March 1807 and 30 March 1808; 20 August 1807 fits both exactly. The inspected FamilySearch baptism index XTVK-C 2 R records John born 20 August 1807 and baptised 30 August 1807 at Kilbirnie, son of Robert Glasgow and Jean McConnachy. That full parental couple matches the existing Robert Glasgow-2963 and Jean McConechie-2 household, separately represented by Janet’s 1809 and Rachel Dunlop’s 1817 Kilbirnie entries. The precise birth parish and two compatible census ages make this childhood-to-adult identification probable at 78% subjective confidence. A bounded Scotland Births and Baptisms search for John Glasgow, Kilbirnie, 1805–1810 returned this one principal child; the other 11 results named people in parental roles. This is a genuine new parent recommendation from the checked absent-parent state, not a first numerical rating of an existing attachment.",
+    "assessment_history": [],
+    "reason": "John Glasgow-3463 is the Gateside/Beith household head identified through wife Mary and sons William, John, Robert and James. Inspected 1851 and 1861 Findmypast census transcripts independently give his birthplace as Kilbirnie and ages 43 and 53. Both ages allow a birth between 31 March 1807 and 30 March 1808; 20 August 1807 fits both exactly. The inspected FamilySearch baptism index XTVK-C 2 R records John born 20 August 1807 and baptised 30 August 1807 at Kilbirnie, son of Robert Glasgow and Jean McConnachy. That full parental couple matches the existing Robert Glasgow-2963 and Jean McConechie-2 household, separately represented by Janet’s 1809 and Rachel Dunlop’s 1817 Kilbirnie entries. The precise birth parish and two compatible census ages make this childhood-to-adult identification probable at 78% subjective confidence. A bounded Scotland Births and Baptisms search for John Glasgow, Kilbirnie, 1805–1810 returned this one principal child; the other 11 results named people in parental roles. This is a genuine new parent recommendation from the checked absent-parent state, not a first numerical rating of an existing attachment.",
+    "limitations": "No inspected adult record names John’s parents; the 1807 child-to-adult connection remains circumstantial. The bounded index is incomplete and does not exclude an unindexed same-name child or a different adult life for the 1807 child. All three Scottish sources newly read here are provider indexes/transcripts; the baptism image is unavailable and original census pages were not inspected. The 1809/1817 household records identify the proposed parental accounts, not independent proof of the adult identity. The Barony 1807 John-1355 comparison is weakened by the Kilbirnie birthplace and exact age interval, not categorically excluded: baptism parish need not equal birthplace and census ages can err. Robert’s own father James-1142 remains 46% and the Montgreenan trust beneficiary remains unproved as this Robert. Jean’s 1782 birth remains an inherited estimate. The two parent assessments share one childhood-to-adult inference and are not independent confirmations. No exact adult birthday replacement, live merge, wife maiden-surname finding or upstream confidence change is proposed.",
+    "probability": {
+      "value": 0.78,
+      "reviewed": "2026-10-31",
+      "basis": "John Glasgow-3463 is the Gateside/Beith household head identified through wife Mary and sons William, John, Robert and James. Inspected 1851 and 1861 Findmypast census transcripts independently give his birthplace as Kilbirnie and ages 43 and 53. Both ages allow a birth between 31 March 1807 and 30 March 1808; 20 August 1807 fits both exactly. The inspected FamilySearch baptism index XTVK-C 2 R records John born 20 August 1807 and baptised 30 August 1807 at Kilbirnie, son of Robert Glasgow and Jean McConnachy. That full parental couple matches the existing Robert Glasgow-2963 and Jean McConechie-2 household, separately represented by Janet’s 1809 and Rachel Dunlop’s 1817 Kilbirnie entries. The precise birth parish and two compatible census ages make this childhood-to-adult identification probable at 78% subjective confidence. A bounded Scotland Births and Baptisms search for John Glasgow, Kilbirnie, 1805–1810 returned this one principal child; the other 11 results named people in parental roles. This is a genuine new parent recommendation from the checked absent-parent state, not a first numerical rating of an existing attachment.",
+      "source_ids": [
+        "kilbirnie-john-robert-mcconnachy-baptism-1807",
+        "beith-john-glasgow-household-1851",
+        "beith-john-glasgow-household-1861"
+      ],
+      "scope": "No inspected adult record names John’s parents; the 1807 child-to-adult connection remains circumstantial. The bounded index is incomplete and does not exclude an unindexed same-name child or a different adult life for the 1807 child. All three Scottish sources newly read here are provider indexes/transcripts; the baptism image is unavailable and original census pages were not inspected. The 1809/1817 household records identify the proposed parental accounts, not independent proof of the adult identity. The Barony 1807 John-1355 comparison is weakened by the Kilbirnie birthplace and exact age interval, not categorically excluded: baptism parish need not equal birthplace and census ages can err. Robert’s own father James-1142 remains 46% and the Montgreenan trust beneficiary remains unproved as this Robert. Jean’s 1782 birth remains an inherited estimate. The two parent assessments share one childhood-to-adult inference and are not independent confirmations. No exact adult birthday replacement, live merge, wife maiden-surname finding or upstream confidence change is proposed."
+    },
+    "working_selection": true,
+    "attachment_status": "hypothesis",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3463.html#research-findings",
+        "label": "Kilbirnie childhood and the Gateside household"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3463": "John Glasgow",
+      "McConechie-2": "Jean McConechie"
+    }
+  },
+  {
     "assertion_id": "clm-livingston-janet-mother-20261030",
     "people": [
       "Glasgow-1448",
