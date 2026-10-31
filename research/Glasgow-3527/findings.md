@@ -2,7 +2,9 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **55% (possible)** for [Glasgow-3526](https://www.wikitree.com/wiki/Glasgow-3526). Existing child-to-father link assessed from held public evidence; The account represents the 1717 named James; 1688 is an estimate, Helen is tree-held, and 1547 remains an alternative childhood identity. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+**31 October 2026:** Helen-3527’s existing father James-3526 improves from 55% Possible to 97% Confident: her 1714 parish transcript and John’s 1717 entry name James, servitor at Leithhead. The shared name, residence, occupation and short interval identify the local paternal household with high confidence. John’s existing father remains 97%; James’s own William father remains 25%. The earlier tree-only limitation is superseded for Helen’s father, not for her exact birth.
+
+Earlier father assessment (22 October 2026; superseded by the 31 October review): **55% (possible)** for [Glasgow-3526](https://www.wikitree.com/wiki/Glasgow-3526). Existing child-to-father link assessed from held public evidence; The account represents the 1717 named James; 1688 is an estimate, Helen is tree-held, and 1547 remains an alternative childhood identity. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
 
 Reviewed: 2026-10-16
 
@@ -36,3 +38,13 @@ Next useful test: Find and inspect Helen’s actual 1714 source from the collabo
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [https://www.familysearch.org/en/tree/person/details/K8TC-GMV](https://www.familysearch.org/en/tree/person/details/K8TC-GMV)
+
+## Leithhead servitor family — 31 October 2026
+
+Helen Glasgow’s parish baptism is now located: FamilySearch indexes 24 October 1714 at Kirknewton and East Calder with father James Glasgow. The inspected Findmypast OPR 689/20 item 1 transcript adds the distinctive residence Leithhead and father’s occupation servitor. John’s 31 March 1717 baptism transcript independently records another child with father James Glasgow, the same residence Leithhead and the same occupation servitor in the same register. The maintained James-3526 account already represents John’s recorded father, and John-3525’s link remains 97%. The shared paternal name, hamlet, occupation, parish and short interval strongly identify one adult household. Helen’s existing child account matches name, parish and 1714 year and has no conflicting later adult identity. The earlier 55% assessment rested only on a collaborative-tree association; the newly inspected parish evidence now supports 97% Confident for this existing father link.
+
+97% concerns Helen’s recorded father and identification with the James, servitor at Leithhead, who fathered John in 1717. The same-adult identification across two child events is an inference; another same-name local servitor household remains a residual possibility. The originals have not been inspected, and FamilySearch and Findmypast represent the same underlying baptism for each child, not independent witnesses. Helen’s existing 11 September 1714 birth is tree-held; 24 October is the indexed baptism, and the incomplete FamilySearch Birth Date field “10” does not establish a birthday. No structured birth/date field is changed. No mother is named or assigned. James’s circa-1688 birth remains estimated and his William-1026 father remains 25% Uncertain. James-1547’s possible childhood identification and the separate later John/Margaret Anderson identity remain unresolved. There is no new father attachment, new sibling node, profile merge or live WikiTree edit.
+
+Sources: [Helen, Findmypast parish transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474112&tab=this); [Helen, same-event FamilySearch index](https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QN); [John, Findmypast parish transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474157&tab=this); [John, same-event FamilySearch index](https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT).
+
+[Helen](/people/glasgow-3527.html) · [James, servitor at Leithhead](/people/glasgow-3526.html) · [John](/people/glasgow-3525.html) · [Family comparison](/branches/early-scottish-records/#chapter-irvine-calder-heads). Earlier tree-only statements about Helen’s father are superseded; her exact birth remains unverified.

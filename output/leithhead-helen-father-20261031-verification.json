@@ -1,0 +1,132 @@
+{
+  "finding_url": "/latest-findings/page/22/#finding-helen-leithhead-servitor-father-20261031",
+  "subject": "Glasgow-3527",
+  "father": "Glasgow-3526",
+  "before_percent": 55,
+  "after_percent": 97,
+  "new_research_connections": 0,
+  "new_confidence_changes": 1,
+  "all_prior_research_events_preserved": true,
+  "prior_research_events": 406,
+  "current_research_events": 407,
+  "unknown_before1850": 381,
+  "connectivity": {
+    "1500": {
+      "working": {
+        "before_components": 1,
+        "after_components": 1
+      },
+      "supported": {
+        "before_components": 2,
+        "after_components": 2
+      },
+      "confident": {
+        "before_components": 2,
+        "after_components": 2
+      }
+    },
+    "1550": {
+      "working": {
+        "before_components": 2,
+        "after_components": 2
+      },
+      "supported": {
+        "before_components": 9,
+        "after_components": 9
+      },
+      "confident": {
+        "before_components": 13,
+        "after_components": 13
+      }
+    },
+    "1600": {
+      "working": {
+        "before_components": 5,
+        "after_components": 5
+      },
+      "supported": {
+        "before_components": 32,
+        "after_components": 32
+      },
+      "confident": {
+        "before_components": 36,
+        "after_components": 36
+      }
+    },
+    "1650": {
+      "working": {
+        "before_components": 8,
+        "after_components": 8
+      },
+      "supported": {
+        "before_components": 81,
+        "after_components": 81
+      },
+      "confident": {
+        "before_components": 100,
+        "after_components": 100
+      }
+    },
+    "1700": {
+      "working": {
+        "before_components": 24,
+        "after_components": 24
+      },
+      "supported": {
+        "before_components": 147,
+        "after_components": 147
+      },
+      "confident": {
+        "before_components": 189,
+        "after_components": 189
+      }
+    },
+    "1750": {
+      "working": {
+        "before_components": 52,
+        "after_components": 52
+      },
+      "supported": {
+        "before_components": 223,
+        "after_components": 222
+      },
+      "confident": {
+        "before_components": 337,
+        "after_components": 336
+      }
+    },
+    "1800": {
+      "working": {
+        "before_components": 153,
+        "after_components": 153
+      },
+      "supported": {
+        "before_components": 373,
+        "after_components": 372
+      },
+      "confident": {
+        "before_components": 559,
+        "after_components": 558
+      }
+    },
+    "1850": {
+      "working": {
+        "before_components": 389,
+        "after_components": 389
+      },
+      "supported": {
+        "before_components": 659,
+        "after_components": 658
+      },
+      "confident": {
+        "before_components": 1060,
+        "after_components": 1059
+      }
+    }
+  },
+  "all_three_models_verified": true,
+  "all_vitals_mothers_and_other_fathers_unchanged": true,
+  "full_compact_pending_amendments_agree": true,
+  "publication_new_failures": 0,
+  "new_link_failures": 0
+}

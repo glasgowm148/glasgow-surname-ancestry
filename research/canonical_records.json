@@ -2774,8 +2774,8 @@
     "place": "Kirknewton/East Calder combined catalogue label",
     "source_title": "John,31 March 1717, Kirknewton/East Calder; father James",
     "source_url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-6JT",
-    "status": "Existing index review",
-    "note": "Names father James. The 3526/1547 adult-profile identities are not specified by the record.",
+    "status": "Inspected derivative parish transcript; father remains 97%, later adult identity unresolved",
+    "note": "Names father James. The 3526/1547 adult-profile identities are not specified by the record. New provider transcript inspected 31 October 2026: John, baptism 31 March 1717, father James Glasgow, servitor, residence Leithhead; OPR 689/20 item 1. Those identifiers match Helen’s 1714 paternal household. The child-to-recorded-father assessment remains 97%; the later John/Margaret Anderson identity and James’s ancestry are not established.",
     "profiles": {
       "Glasgow-3525": {
         "role": "indexed child"
@@ -2783,7 +2783,21 @@
       "Glasgow-3526": {
         "role": "maintained working account for named father"
       }
-    }
+    },
+    "source_quality": "derivative",
+    "source_type": "Inspected parish transcript and index; original uninspected",
+    "reviewed_on": "2026-10-31",
+    "additional_sources": [
+      {
+        "title": "Findmypast OPR 689/20 item 1, John 31 March 1717; James servitor, Leithhead",
+        "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474157&tab=this"
+      }
+    ],
+    "provenance": "Existing FamilySearch index and newly inspected Findmypast parish transcript, OPR 689/20 item 1, reviewed 31 October 2026; original uninspected, private receipts retained.",
+    "record_type": "Parish baptism transcript and index",
+    "record_category": "Births & baptisms",
+    "country": "Scotland",
+    "publish_to_record_index": true
   },
   {
     "record_id": "kirknewton-helen-tree-1714",
@@ -52171,5 +52185,40 @@
     "reviewed_on": "2026-10-31",
     "provenance": "Private provider receipts retained31October2026; no original-image reading or exact birth correction claimed.",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "kirknewton-helen-james-servitor-baptism-1714",
+    "source_title": "Helen Glasgow, baptised 24 October 1714; James Glasgow, servitor, Leithhead",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474112&tab=this",
+    "additional_sources": [
+      {
+        "title": "Same-event FamilySearch baptism index VQ4K-8QN",
+        "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QN"
+      }
+    ],
+    "date": "1714-10-24",
+    "year": 1714,
+    "place": "Leithhead, Kirknewton and East Calder, Midlothian, Scotland",
+    "country": "Scotland",
+    "record_type": "Parish baptism transcript",
+    "record_category": "Births & baptisms",
+    "association": "Helen, daughter of James Glasgow, servitor at Leithhead",
+    "source_type": "Inspected derivative parish transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; existing father confirmed with household inference qualified",
+    "note": "Findmypast SCOT/OPR/BAP/4474112, OPR 689/20 item 1, register 1642–1737: Helen, baptism 24 October 1714, father James Glasgow, servitor, residence Leithhead. FamilySearch VQ4K-8QN indexes the same child/date/father but no mother. 97% concerns Helen’s recorded father and identification with the James, servitor at Leithhead, who fathered John in 1717. The same-adult identification across two child events is an inference; another same-name local servitor household remains a residual possibility. The originals have not been inspected, and FamilySearch and Findmypast represent the same underlying baptism for each child, not independent witnesses. Helen’s existing 11 September 1714 birth is tree-held; 24 October is the indexed baptism, and the incomplete FamilySearch Birth Date field “10” does not establish a birthday. No structured birth/date field is changed. No mother is named or assigned. James’s circa-1688 birth remains estimated and his William-1026 father remains 25% Uncertain. James-1547’s possible childhood identification and the separate later John/Margaret Anderson identity remain unresolved. There is no new father attachment, new sibling node, profile merge or live WikiTree edit.",
+    "reviewed_on": "2026-10-31",
+    "provenance": "Provider transcripts and bounded searches inspected 31 October 2026; private receipts retained.",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-3527": {
+        "role": "Baptised child; existing 1714 account matches",
+        "timeline_group": "Baptism"
+      },
+      "Glasgow-3526": {
+        "role": "Named father, servitor at Leithhead; same adult as 1717 family inferred",
+        "timeline_group": "Paternal evidence"
+      }
+    }
   }
 ]

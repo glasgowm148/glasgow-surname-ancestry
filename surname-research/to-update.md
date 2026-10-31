@@ -4605,3 +4605,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [John Glasgow](https://www.wikitree.com/wiki/Glasgow-81) | OPEN | Existing Andrew-1546 father: 39% Possible → 68% Probable; index names Andreu, adult identity inferred. |
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1546) | OPEN | Add qualified John father review and reconcile the already-known 1738 marriage; no new parent or vital change. |
 | [Magdalene Guthrie](https://www.wikitree.com/wiki/Guthrie-777) | OPEN | Add qualified John father review and reconcile the already-known 1738 marriage; no new parent or vital change. |
+
+## 31 October 2026 — James’s Leithhead household
+
+| [Helen Glasgow](https://www.wikitree.com/wiki/Glasgow-3527) | OPEN | Existing James-3526 father: 55% Possible → 97% Confident; newly inspected Helen baptism names James, servitor at Leithhead. |
+| [James Glasgow](https://www.wikitree.com/wiki/Glasgow-3526) | OPEN | Add Leithhead servitor identity from 1714/1717 parish transcripts; James’s own father stays 25%, John’s father stays 97%. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-3525) | OPEN | Add Leithhead servitor identity from 1714/1717 parish transcripts; James’s own father stays 25%, John’s father stays 97%. |

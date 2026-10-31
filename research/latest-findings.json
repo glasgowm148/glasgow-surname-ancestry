@@ -64390,6 +64390,69 @@
         "research/Glasgow-81/findings.md",
         "research/Glasgow-1546/findings.md"
       ]
+    },
+    {
+      "id": "helen-leithhead-servitor-father-20261031",
+      "found_on": "2026-10-31",
+      "reviewed_on": "2026-10-31",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Helen Glasgow’s existing James Glasgow father link improves 55% → 97%, Confident. Her newly located 1714 baptism names James, servitor at Leithhead; John’s 1717 entry matches that paternal name, hamlet and occupation.",
+      "qualification": "97% concerns Helen’s recorded father and identification with the James, servitor at Leithhead, who fathered John in 1717. The same-adult identification across two child events is an inference; another same-name local servitor household remains a residual possibility. The originals have not been inspected, and FamilySearch and Findmypast represent the same underlying baptism for each child, not independent witnesses. Helen’s existing 11 September 1714 birth is tree-held; 24 October is the indexed baptism, and the incomplete FamilySearch Birth Date field “10” does not establish a birthday. No structured birth/date field is changed. No mother is named or assigned. James’s circa-1688 birth remains estimated and his William-1026 father remains 25% Uncertain. James-1547’s possible childhood identification and the separate later John/Margaret Anderson identity remain unresolved. There is no new father attachment, new sibling node, profile merge or live WikiTree edit.",
+      "detail_url": "/people/glasgow-3527.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3527",
+          "name": "Helen Glasgow",
+          "url": "/people/glasgow-3527.html",
+          "role": "Existing father confidence 55% → 97%"
+        },
+        {
+          "id": "Glasgow-3526",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3526.html",
+          "role": "Named servitor at Leithhead; own father remains 25%"
+        },
+        {
+          "id": "Glasgow-3525",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3525.html",
+          "role": "1717 same paternal name, residence and occupation; father remains 97%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Helen, baptism 24 October 1714; James servitor, Leithhead",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474112&tab=this"
+        },
+        {
+          "title": "Helen, same-event FamilySearch index",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QN"
+        },
+        {
+          "title": "John, baptism 31 March 1717; James servitor, Leithhead",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474157&tab=this"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3527",
+          "relative": "Glasgow-3526",
+          "action": "regrade",
+          "before": "possible",
+          "after": "certain",
+          "previous_probability_percent": 55,
+          "probability_percent": 97,
+          "explanation": "Helen Glasgow’s parish baptism is now located: FamilySearch indexes 24 October 1714 at Kirknewton and East Calder with father James Glasgow. The inspected Findmypast OPR 689/20 item 1 transcript adds the distinctive residence Leithhead and father’s occupation servitor. John’s 31 March 1717 baptism transcript independently records another child with father James Glasgow, the same residence Leithhead and the same occupation servitor in the same register. The maintained James-3526 account already represents John’s recorded father, and John-3525’s link remains 97%. The shared paternal name, hamlet, occupation, parish and short interval strongly identify one adult household. Helen’s existing child account matches name, parish and 1714 year and has no conflicting later adult identity. The earlier 55% assessment rested only on a collaborative-tree association; the newly inspected parish evidence now supports 97% Confident for this existing father link.",
+          "previous_status_provenance": "Authoritative prior assessment, 22 October 2026: Possible at 55%, based on a tree-held Helen date/father association without an inspected baptism. The named father was already attached; this is not a previously absent father."
+        }
+      ],
+      "provenance": [
+        "research/Glasgow-3527/findings.md",
+        "research/Glasgow-3526/findings.md",
+        "research/Glasgow-3525/findings.md"
+      ]
     }
   ]
 }
