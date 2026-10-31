@@ -65,6 +65,8 @@ Batch shared publication under one orchestrator and reuse the read-only source c
 
 Resolve replacement parents before building the trees. Otherwise the tree builder can restore the former father from a stale current dossier. Verify the selected father set in all three models before the final asset stamp; the old father belongs only among alternatives.
 
+Finish all intended date/place corrections and queued field changes before publication. An approved vital assessment updates dossiers but needs `project_tree_vitals: true` to update the tree and family summaries; supply a supported dated/place replacement, without inventing an exact locality. Resolve the affected dossiers, then verify the actual three tree models, catalogue fields and intended approximate-date flags before the expensive final asset stamp. A successful builder exit alone does not prove these projections agree.
+
 Check actual catalogue filter membership and full/compact agreement, complete drafts, reciprocal relationships, source qualifications, tree selections and preserved vitals. Run the required scoped publication check and `make check-links`. Verify local routes and relevant rendered behavior; report a genuine browser blocker honestly. Reuse the local server, starting it only if absent. Local synchronisation is separate from deployment or live WikiTree saves.
 
 Progress must distinguish new genealogical joins, confidence changes and initial coverage:
