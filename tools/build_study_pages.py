@@ -230,9 +230,10 @@ def section(key, title, body):
 def person(slug, registry, dates=False):
     p = registry.get(slug, {})
     name = p.get('name', slug)
-    # Link only people who have a published page; a registry slug without one
-    # (a record person or a withheld profile) is printed as the name alone.
-    label = (link(name, f'/people/{slug}.html') if (WEB / 'people' / f'{slug}.html').is_file()
+    # Redirect stubs are restored late in releases. They do not revive an old
+    # member as a current dossier; neither does an unpublished registry entry.
+    published = all((WEB / 'people' / f'{slug}.{suffix}').is_file() for suffix in ('html', 'json'))
+    label = (link(name, f'/people/{slug}.html') if published
              else f'<span class="sp-no-page">{esc(name)}</span>')
     return label+(f'<small>{esc(str(p.get("life") or "Dates not recorded").replace(" – Not recorded", " – ?").replace("Not recorded – ", "? – "))}</small>' if dates else '')
 

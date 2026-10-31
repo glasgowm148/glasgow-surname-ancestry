@@ -26,6 +26,8 @@ LOCALITY_TOPICS = {
     'early-scottish-records': ['scottish-families'],
 }
 BRANCH_NAV_RE = r'<nav\b(?=[^>]*\bclass="experience-branch-nav")(?=[^>]*\baria-label="Related regions and local studies")[^>]*>.*?</nav>'
+LOCAL_STUDY_HEADING = 'Place studies in this region'
+LOCAL_STUDY_SECTION_RE = r'<section><h2>(?:Choose a local study|Place studies in this region)</h2>.*?</section>'
 
 
 def branch_topic_ids(branch, countries):
@@ -57,8 +59,8 @@ def repair_local_study_navigation(changed):
         page = (WEB / relative).read_text()
         if branch['kind'] == 'region':
             local = [b for b in branches if b['kind'] == 'place' and branch['id'] in b['topic_ids']]
-            section = '<section><h2>Choose a local study</h2>' + cards(local) + '</section>' if local else ''
-            page = re.sub(r'<section><h2>Choose a local study</h2>.*?</section>', lambda _: section, page, count=1, flags=re.S)
+            section = f'<section><h2>{LOCAL_STUDY_HEADING}</h2>' + cards(local) + '</section>' if local else ''
+            page = re.sub(LOCAL_STUDY_SECTION_RE, lambda _: section, page, count=1, flags=re.S)
         else:
             page = re.sub(BRANCH_NAV_RE, lambda _: branch_navigation(branch, branches, hubs), page, count=1, flags=re.S)
         update(relative, page, changed)
@@ -502,7 +504,7 @@ def repair_branches(changed):
         families = sorted((b for b in children if b['kind'] == 'family'), key=lambda b: -b['count'])
         body = f'<main class="r-main" id="main"><header class="r-page-head"><span class="r-kicker">{study_place_links.REGION}</span><h1>{escape(hub["label"])}</h1><p class="r-lead">{escape(hub["description"])}</p></header><nav class="experience-branch-nav" aria-label="Regional navigation"><div class="r-actions"><a href="/branches/">All families &amp; places</a><a href="/records/?branch={hub["id"]}">Explore these records</a><a href="/map/?branch={hub["id"]}">See these families on the map</a></div></nav>'
         if local:
-            body += '<section><h2>Place studies in this region</h2>' + cards(local) + '</section>'
+            body += f'<section><h2>{LOCAL_STUDY_HEADING}</h2>' + cards(local) + '</section>'
         researched = [b for b in families if family_contexts.get(b['id'])]
         if researched:
             body += ('<section><h2>Current family research</h2><ul>'

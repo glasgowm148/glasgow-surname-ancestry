@@ -3,6 +3,9 @@ import importlib.util
 import json
 from pathlib import Path
 import unittest
+import tempfile
+from collections import Counter
+from unittest.mock import patch
 
 from tests._generated_data import requires_generated_data
 
@@ -20,6 +23,33 @@ EXPECTED = {
 
 
 class RegionalStudyTests(unittest.TestCase):
+    def test_local_navigation_refresh_accepts_legacy_and_current_headings(self):
+        spec = importlib.util.spec_from_file_location('experience', ROOT / 'tools/repair_site_experience.py')
+        helper = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(helper)
+        for heading in ('Choose a local study', 'Place studies in this region'):
+            with self.subTest(heading=heading), tempfile.TemporaryDirectory() as directory:
+                web = Path(directory)
+                branches = [{'id': 'scottish-families', 'kind': 'region'},
+                            {'id': 'early-scottish-records', 'kind': 'place', 'topic_ids': []}]
+                (web / 'assets/research').mkdir(parents=True)
+                (web / 'assets/research/branches.json').write_text(json.dumps(branches))
+                (web / 'assets/research/branches-directory.json').write_text(json.dumps({'groups': []}))
+                for branch in branches:
+                    page = web / 'branches' / branch['id'] / 'index.html'
+                    page.parent.mkdir(parents=True)
+                    page.write_text('<main><section><h2>' + heading + '</h2><a href="/wrong/">Old</a></section></main>')
+                with patch.object(helper, 'WEB', web), patch.object(helper, 'cards', side_effect=lambda rows: ''.join(
+                        '<a href="/branches/' + row['id'] + '/">Study</a>' for row in rows)):
+                    helper.repair_local_study_navigation(Counter())
+                    unchanged = Counter()
+                    helper.repair_local_study_navigation(unchanged)
+                soup = BeautifulSoup((web / 'branches/scottish-families/index.html').read_text(), 'html.parser')
+                headings = soup.find_all('h2', string='Place studies in this region')
+                self.assertEqual(len(headings), 1)
+                self.assertEqual([a['href'] for a in headings[0].parent.select('a')], ['/branches/early-scottish-records/'])
+                self.assertFalse(unchanged)
+
     def test_emigration_does_not_change_local_study_region(self):
         spec = importlib.util.spec_from_file_location('experience', ROOT / 'tools/repair_site_experience.py')
         helper = importlib.util.module_from_spec(spec)
@@ -38,7 +68,7 @@ class RegionalStudyTests(unittest.TestCase):
         for region, studies in EXPECTED.items():
             with self.subTest(region=region):
                 soup = BeautifulSoup((ROOT / f'www/branches/{region}/index.html').read_text(), 'html.parser')
-                headings = soup.find_all('h2', string='Choose a local study')
+                headings = soup.find_all('h2', string='Place studies in this region')
                 self.assertEqual(1 if studies else 0, len(headings))
                 if studies:
                     self.assertEqual({f'/branches/{study}/' for study in studies},

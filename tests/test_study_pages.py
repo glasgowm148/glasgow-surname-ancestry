@@ -54,8 +54,11 @@ class StudyPagesTests(unittest.TestCase):
                 self.assertEqual(1,len(soup.select('link[href^="/assets/research/study-page.css?v="]')))
                 self.assertTrue(soup.select_one('script[src^="/assets/research/study-page.js?v="]').has_attr('defer'))
                 people = {a['href'] for a in main.select('.sp-all-people a')}
-                # Members without a published page are printed as names, not links.
-                self.assertEqual({f'/people/{p}.html' for p in b['members'] if (ROOT/f'www/people/{p}.html').is_file()}, people)
+                # Late merge redirects are not current person dossiers. Missing
+                # or unpublished members stay as names, not revived old people.
+                expected = {f'/people/{p}.html' for p in b['members']
+                            if all((ROOT/f'www/people/{p}.{suffix}').is_file() for suffix in ('html', 'json'))}
+                self.assertEqual(expected, people)
                 ids = [node['id'] for node in main.select('[id]')]
                 self.assertEqual(len(ids),len(set(ids)))
                 paragraphs = [' '.join(p.stripped_strings) for p in main.select('p') if 'sp-keep' not in (p.get('class') or [])]
@@ -74,6 +77,20 @@ class StudyPagesTests(unittest.TestCase):
             # The fixture member has no page in www/, so the name is printed without a link.
             self.assertIsNone(soup.select_one('a[href="/people/example-1.html"]'))
             self.assertIn('example-1', soup.select_one('.sp-no-page').text)
+
+    def test_member_links_require_current_dossiers_not_late_redirect_stubs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            (web / 'people').mkdir()
+            for filename in ('current-1.html', 'current-1.json', 'unpublished-3.json'):
+                (web / 'people' / filename).write_text('{}')
+            (web / 'people/merged-2.html').write_text('<meta http-equiv="refresh" content="0; url=current-1.html">')
+            registry = {'current-1': {'name': 'Current person'}, 'merged-2': {'name': 'Former account'},
+                        'unpublished-3': {'name': 'Unpublished person'}}
+            with patch.object(renderer, 'WEB', web):
+                soup = BeautifulSoup(renderer.people_list(list(registry), [], registry), 'html.parser')
+            self.assertEqual([a['href'] for a in soup.select('a')], ['/people/current-1.html'])
+            self.assertEqual({node.text for node in soup.select('.sp-no-page')}, {'Former account', 'Unpublished person'})
 
     def test_fallback_deduplicates_and_omits_whole_group(self):
         branch = dict(id='fixture',label='Fixture',members=['example-1'],description='One unique assessment.')
