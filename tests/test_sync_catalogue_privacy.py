@@ -23,6 +23,12 @@ class PendingCreationSyncTests(unittest.TestCase):
             'pending': True, 'action': 'create_new_profile', 'significance': 50,
             'summary': 'Resolve this reviewed identity before creation.',
             'draft_wikitext': '== Biography ==\nA named person in a 1650 record.',
+            'relationship_changes': [
+                {'action': 'add', 'relationship': 'father', 'relative_id': 'Father-2',
+                 'probability': {'value': .95}},
+                {'action': 'add', 'relationship': 'mother', 'relative_id': 'Mother-3',
+                 'probability': {'value': None}},
+            ],
         })
         self.dossier = {'id': 'record-example-1650', 'pending_profile_creation': True,
                         'creation_status': 'identity_hold', 'wikitree_update': self.update}
@@ -45,7 +51,17 @@ class PendingCreationSyncTests(unittest.TestCase):
         self.assertNotIn('update data', issues)
         self.assertNotIn('search update significance', issues)
         self.assertNotIn('search update summary', issues)
+        self.assertNotIn('search relationship changes', issues)
+        self.assertEqual(update_data(selected)['relationship_changes'], self.update['relationship_changes'])
         self.assertTrue(update_data(selected)['new_profile'])
+
+    def test_creation_amendment_badges_are_scheduled_for_removal(self):
+        row = {**self.row, 'wikitree_update_relationship_changes': self.update['relationship_changes']}
+        soup = BeautifulSoup('<main class="person-dossier-readable"></main>', 'html.parser')
+        selected = select_profile_update(None, self.dossier, row)
+        issues = discrepancies(self.dossier, soup, [], selected, row, {})
+        self.assertIn('search relationship changes', issues)
+        self.assertEqual(update_data(selected)['relationship_changes'], self.update['relationship_changes'])
 
     def test_queued_existing_profile_amendment_takes_precedence(self):
         queued = {'profile_id': 'Example-1', 'summary': 'A reviewed amendment.'}

@@ -1,9 +1,28 @@
 import unittest
 from copy import deepcopy
-from tools.relationship_update_changes import normalise_change, pending_changes
+from tools.relationship_update_changes import catalogue_changes, normalise_change, pending_changes
 
 
 class RelationshipChangeTests(unittest.TestCase):
+    def test_creation_parents_are_not_existing_profile_amendments(self):
+        parents = [{'relationship': 'father', 'relative_id': 'Father-2', 'probability': {'value': .95}},
+                   {'relationship': 'mother', 'relative_id': 'Mother-3', 'probability': {'value': None}}]
+        for status in ('creation_ready', 'identity_hold'):
+            with self.subTest(status=status):
+                update = {'new_profile': True, 'creation_status': status, 'relationship_changes': deepcopy(parents)}
+                self.assertEqual(catalogue_changes(update), [])
+                self.assertEqual(update['relationship_changes'], parents)
+
+    def test_existing_profile_amendments_are_projected_unchanged(self):
+        changes = [{'action': 'add', 'relationship': 'father', 'relative_id': 'Father-2',
+                    'probability': {'value': .95}, 'previous_status_provenance': ['Saved absent father']}]
+        for flag in (None, False):
+            update = {'relationship_changes': changes}
+            if flag is not None:
+                update['new_profile'] = flag
+            self.assertIs(catalogue_changes(update), changes)
+        self.assertEqual(catalogue_changes(None), [])
+
     def setUp(self):
         self.captures = {'Child-1': {'profile_fields': {'Father': 2, 'DataStatus': {'Father': ''}}},
                          'Father-2': {'profile_fields': {'Id': 2}}}

@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
+from tools.relationship_update_changes import catalogue_changes
 
 try:
     import build_research_catalog as catalogue
@@ -306,7 +307,7 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
             issues.append("update flag")
         if not awaiting_creation(row, update) and row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
             issues.append("search update summary")
-        if (row.get('wikitree_update_relationship_changes') or []) != ((update or {}).get('relationship_changes') or []):
+        if (row.get('wikitree_update_relationship_changes') or []) != catalogue_changes(update):
             issues.append('search relationship changes')
         if int(row.get("wikitree_update_significance") or 0) != (int(update["significance"]) if update else 0):
             issues.append("search update significance")
@@ -350,7 +351,7 @@ def discrepancies(dossier, soup, findings, update, row, links, comparison=None):
         issues.append("update flag")
     if not awaiting_creation(row, update) and row.get("wikitree_update_summary", "") != (update["summary"] if update else ""):
         issues.append("search update summary")
-    if (row.get('wikitree_update_relationship_changes') or []) != ((update or {}).get('relationship_changes') or []):
+    if (row.get('wikitree_update_relationship_changes') or []) != catalogue_changes(update):
         issues.append('search relationship changes')
     if int(row.get("wikitree_update_significance") or 0) != (int(update["significance"]) if update else 0):
         issues.append("search update significance")
@@ -566,7 +567,7 @@ def _run():
         by_slug[slug].update(needs_wikitree_update=bool(update) or creation,
                             wikitree_update_summary=update["summary"] if update else
                             by_slug[slug].get("wikitree_update_summary", "") if creation else "",
-                            wikitree_update_relationship_changes=(update or {}).get('relationship_changes') or [],
+                            wikitree_update_relationship_changes=catalogue_changes(update),
                             wikitree_update_significance=int(update["significance"]) if update else 0)
         catalogue_updates[slug] = {key: by_slug[slug][key] for key in CATALOGUE_UPDATE_FIELDS}
         write_json(path, dossier)

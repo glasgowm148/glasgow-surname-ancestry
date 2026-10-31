@@ -20,9 +20,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_research_catalog as catalogue
 from catalogue_machine_data import build_machine_models, build_network, compact_resolver_row
 try:
-    from relationship_update_changes import normalise_change
+    from relationship_update_changes import catalogue_changes, normalise_change
 except ModuleNotFoundError:
-    from tools.relationship_update_changes import normalise_change
+    from tools.relationship_update_changes import catalogue_changes, normalise_change
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = Path("research/queue-review-2026-10-17/catalogue-integration.json")
@@ -257,7 +257,7 @@ def _search_row(person, dossier):
                creation_status=person["creation_status"], profile_work_status=person["profile_work_status"],
                profile_work_candidate_count=person["profile_work_candidate_count"], needs_wikitree_update=True,
                wikitree_update_significance=update["significance"], wikitree_update_summary=update["summary"],
-               wikitree_update_relationship_changes=deepcopy(update.get("relationship_changes") or []),
+               wikitree_update_relationship_changes=deepcopy(catalogue_changes(update)),
                has_original_record="original" in qualities, has_open_questions=bool(dossier["open_questions"]),
                uncertain_identity=person["uncertain_identity"],
                source_qualities=qualities, claim_statuses=catalogue._unique(c.get("status") for c in dossier["claims"]),

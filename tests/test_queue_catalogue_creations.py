@@ -421,9 +421,11 @@ The deed does not give her birth date. No compatible profile survived the docume
                 compact = module.compact_resolver_row(person)
                 self.assertEqual(compact.get("occupations", []), occupations)
 
-    def test_explicit_relationship_change_survives_creation_and_search_row(self):
+    def test_creation_keeps_parents_but_not_existing_profile_amendment_badges(self):
         self.entry["relationship_changes"] = [{"action": "add", "relationship": "father",
-                                                "relative_id": "Glasgow-428", "status": "proved"}]
+                                                "relative_id": "Glasgow-428", "status": "proved", "confidence_percent": 95},
+                                               {"action": "add", "relationship": "mother",
+                                                "relative_id": "Example-3", "status": "strongly_supported"}]
         self.save()
         module.apply_creations(self.root)
         dossier = self.read(f"people/{self.slug}.json")
@@ -433,7 +435,13 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(changes[0]["relationship"], "father")
         self.assertEqual(changes[0]["confidence_band"], "confident")
         self.assertEqual(changes[0]["probability"]["minimum"], .9)
-        self.assertEqual(row["wikitree_update_relationship_changes"], changes)
+        self.assertEqual(changes[0]["confidence_percent"], 95)
+        self.assertEqual(changes[1]["relationship"], "mother")
+        self.assertIsNone(changes[1]["probability"]["value"])
+        self.assertEqual(row["wikitree_update_relationship_changes"], [])
+        self.assertTrue(row["needs_wikitree_update"])
+        source_queue = json.loads((self.root / module.MANIFEST).read_text())
+        self.assertEqual(source_queue["new_people"][0]["relationship_changes"], self.entry["relationship_changes"])
 
 
 if __name__ == "__main__":

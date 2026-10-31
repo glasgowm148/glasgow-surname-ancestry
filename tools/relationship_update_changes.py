@@ -10,6 +10,17 @@ except ModuleNotFoundError:
 ROLES = {'father', 'mother', 'spouse', 'child', 'sibling'}
 
 
+def catalogue_changes(update):
+    """Project amendments to existing profiles, excluding new-profile parents.
+
+    Creation drafts retain their full relationships; they are not instructions
+    to add or regrade a parent on an existing WikiTree child profile.
+    """
+    if not update or update.get('new_profile') is True:
+        return []
+    return update.get('relationship_changes') or []
+
+
 def normalise_change(change, subject_id=None):
     role = {'son': 'child', 'daughter': 'child', 'brother': 'sibling', 'sister': 'sibling'}.get(
         change.get('relationship'), change.get('relationship'))
