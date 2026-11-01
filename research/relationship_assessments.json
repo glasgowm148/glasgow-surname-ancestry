@@ -92244,16 +92244,16 @@
       "Glasgow-1568",
       "Glasgow-546"
     ],
-    "status": "probable",
+    "status": "proved",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-29",
-    "basis": "Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's.",
-    "reason": "Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's.",
-    "claim": "Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's.",
-    "record_scope": "Probate unread.",
-    "limitations": "Probate unread.",
+    "assessment_date": "2026-11-01",
+    "basis": "Hugh A. Glasgow's gravestone in Depreciation Lands Museum Cemetery, Allegheny County (Row 8, grave 11; born 1 May 1838, died 15 Jan 1854) is inscribed 'Son of Robert & Margaret Glasgow'. Robert Glasgow (17 Sep 1791 – 31 May 1881), Robert-546, lies in the same row (grave 8), and his recorded wife is Margaret (Cunningham); brothers Robert C., John B. and Cunningham C. are in the same cemetery. The inscription names both parents and the dates and family plot identify Glasgow-1568.",
+    "reason": "Hugh A. Glasgow's gravestone in Depreciation Lands Museum Cemetery, Allegheny County (Row 8, grave 11; born 1 May 1838, died 15 Jan 1854) is inscribed 'Son of Robert & Margaret Glasgow'. Robert Glasgow (17 Sep 1791 – 31 May 1881), Robert-546, lies in the same row (grave 8), and his recorded wife is Margaret (Cunningham); brothers Robert C., John B. and Cunningham C. are in the same cemetery. The inscription names both parents and the dates and family plot identify Glasgow-1568.",
+    "claim": "Hugh A. Glasgow's gravestone in Depreciation Lands Museum Cemetery, Allegheny County (Row 8, grave 11; born 1 May 1838, died 15 Jan 1854) is inscribed 'Son of Robert & Margaret Glasgow'. Robert Glasgow (17 Sep 1791 – 31 May 1881), Robert-546, lies in the same row (grave 8), and his recorded wife is Margaret (Cunningham); brothers Robert C., John B. and Cunningham C. are in the same cemetery. The inscription names both parents and the dates and family plot identify Glasgow-1568.",
+    "record_scope": "Inscription read from the Find a Grave memorial transcription (memorial 23398552, 2 photos), not from the stone directly.",
+    "limitations": "Inscription read from the Find a Grave memorial transcription (memorial 23398552, 2 photos), not from the stone directly.",
     "source_ids": [
       "held-e-7fc141f7a4a9"
     ],
@@ -92274,16 +92274,22 @@
         "probability_percent": 73,
         "assessment_date": "2026-10-22",
         "source_basis": "Hugh's exact 1838 birth and 1854 death fit Robert and Margaret's inherited child sequence. Both names are stated in his unsourced biography, but neither the held county sketch nor the unread probate supplies a Hugh parent clause."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 71,
+        "assessment_date": "2026-10-29",
+        "source_basis": "Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's."
       }
     ],
     "perspectives": {
       "Glasgow-1568": {
         "relationship": "father",
-        "reason": "Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's."
+        "reason": "Hugh A. Glasgow's gravestone in Depreciation Lands Museum Cemetery, Allegheny County (Row 8, grave 11; born 1 May 1838, died 15 Jan 1854) is inscribed 'Son of Robert & Margaret Glasgow'. Robert Glasgow (17 Sep 1791 – 31 May 1881), Robert-546, lies in the same row (grave 8), and his recorded wife is Margaret (Cunningham); brothers Robert C., John B. and Cunningham C. are in the same cemetery. The inscription names both parents and the dates and family plot identify Glasgow-1568."
       },
       "Glasgow-546": {
         "relationship": "son",
-        "reason": "Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's."
+        "reason": "Hugh A. Glasgow's gravestone in Depreciation Lands Museum Cemetery, Allegheny County (Row 8, grave 11; born 1 May 1838, died 15 Jan 1854) is inscribed 'Son of Robert & Margaret Glasgow'. Robert Glasgow (17 Sep 1791 – 31 May 1881), Robert-546, lies in the same row (grave 8), and his recorded wife is Margaret (Cunningham); brothers Robert C., John B. and Cunningham C. are in the same cemetery. The inscription names both parents and the dates and family plot identify Glasgow-1568."
       }
     },
     "analysis_links": [
@@ -92308,13 +92314,13 @@
       "live_flag_changed": false
     },
     "probability": {
-      "value": 0.71,
-      "reviewed": "2026-10-29",
-      "basis": "Same correction: the family history does not list Robert-546's children; WikiTree death date duplicates Robert's.",
+      "value": 0.95,
+      "reviewed": "2026-11-01",
+      "basis": "Hugh A. Glasgow's gravestone in Depreciation Lands Museum Cemetery, Allegheny County (Row 8, grave 11; born 1 May 1838, died 15 Jan 1854) is inscribed 'Son of Robert & Margaret Glasgow'. Robert Glasgow (17 Sep 1791 – 31 May 1881), Robert-546, lies in the same row (grave 8), and his recorded wife is Margaret (Cunningham); brothers Robert C., John B. and Cunningham C. are in the same cemetery. The inscription names both parents and the dates and family plot identify Glasgow-1568.",
       "source_ids": [
         "held-e-7fc141f7a4a9"
       ],
-      "scope": "Probate unread."
+      "scope": "Inscription read from the Find a Grave memorial transcription (memorial 23398552, 2 photos), not from the stone directly."
     }
   },
   {

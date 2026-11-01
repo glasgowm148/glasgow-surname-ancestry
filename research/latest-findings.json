@@ -64567,6 +64567,62 @@
         "research/Glasgow-3481/findings.md",
         "research/Glasgow-3480/findings.md"
       ]
+    },
+    {
+      "id": "gravestone-hugh1568-robert546-20261101",
+      "found_on": "2026-11-01",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Hugh A. Glasgow’s gravestone at Depreciation Lands Museum Cemetery, Allegheny County, is inscribed “Son of Robert & Margaret Glasgow”, in the same row as Robert Glasgow (1791–1881). Hugh-1568’s father link to Robert-546 rises from 71% probable to 95% proved.",
+      "qualification": "Inscription read from the Find a Grave memorial transcription (memorial 23398552, 2 photos), not from the stone directly.",
+      "people": [
+        {
+          "id": "Glasgow-1568",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1568.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-546",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-546.html",
+          "role": "Father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Find a Grave memorial 23398552, Hugh A Glasgow (1838–1854), inscription",
+          "url": "https://www.findagrave.com/memorial/23398552"
+        },
+        {
+          "title": "Find a Grave memorial 23398567, Robert Glasgow (1791–1881)",
+          "url": "https://www.findagrave.com/memorial/23398567"
+        }
+      ],
+      "detail_url": "/people/glasgow-1568.html",
+      "provenance": "Memorial text read in the owner’s Chrome on 1 November 2026; assessment recorded by proposal prp-39212d73d2e34241. Existing attachment only.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Hugh Glasgow (Glasgow-1568)",
+          "relative": "Robert Glasgow (Glasgow-546)",
+          "subject_id": "Glasgow-1568",
+          "relative_id": "Glasgow-546",
+          "before": "probable",
+          "after": "certain",
+          "action": "regrade",
+          "new_attachment": false,
+          "previous_probability_percent": 71,
+          "probability_percent": 95,
+          "before_probability_percent": 71,
+          "after_probability_percent": 95,
+          "explanation": "Hugh A. Glasgow's gravestone in Depreciation Lands Museum Cemetery, Allegheny County (Row 8, grave 11; born 1 May 1838, died 15 Jan 1854) is inscribed 'Son of Robert & Margaret Glasgow'. Robert Glasgow (17 Sep 1791 – 31 May 1881), Robert-546, lies in the same row (grave 8), and his recorded wife is Margaret (Cunningham); brothers Robert C., John B. and Cunningham C. are in the same cemetery. The inscription names both parents and the dates and family plot identify Glasgow-1568.",
+          "previous_status_provenance": [
+            "Research database assessment clm-fdd4e9af3750d6de revision 3: 71% probable (29 October 2026 review). Superseded by proposal prp-39212d73d2e34241 on 2026-11-01."
+          ],
+          "scope": "Inscription read from the Find a Grave memorial transcription (memorial 23398552, 2 photos), not from the stone directly."
+        }
+      ]
     }
   ]
 }
