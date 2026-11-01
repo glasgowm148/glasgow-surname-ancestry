@@ -2,11 +2,23 @@
 
 ## Current conclusion
 
-Current father assessment (1 November 2026): **35% (possible)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **65% (probable)** for [Glasgow-4177](https://www.wikitree.com/wiki/Glasgow-4177), the Edrom James Glasgow who had John christened there in 1738. The former father, [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238), is kept as a possible alternative at 35%. See the reviews below.
 
 The 1740 Edrom birth entry is a high-confidence match to Glasgow-1607. It adds
 a primary parish-index source, directly names father James Glasgow, and
 corrects the current uncertain Kelso birthplace to Edrom, Berwickshire.
+
+## Father re-pointed to the Edrom James, 1 November 2026
+
+Margaret's working father is now James Glasgow ([Glasgow-4177](https://www.wikitree.com/wiki/Glasgow-4177)), at **65% (probable)**. James Glasgow ([Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238)) of Stitchel is kept as an unselected alternative at 35% (possible).
+
+Her christening at Edrom on 8 June 1740 names only her father, James Glasgow. The same register has John, christened 25 July 1738 to a James Glasgow, and Glasgow-4177 is defined by that entry. FamilySearch indexes no other Glasgow baptisms at Edrom between 1720 and 1760, so one resident James having both children is the simplest reading. The Stitchel James married Elizabeth Tait in January 1740 and baptised his children at Stitchel from 1742; Margaret is not in that series.
+
+Limits: FamilySearch indexes only. Without the mother's name, residence or witnesses, two different James Glasgows at Edrom cannot be ruled out.
+
+Next test: the Edrom register (OPR 738/4) images for both entries.
+
+Sources: [Margaret's christening, 1740](https://www.familysearch.org/ark:/61903/1:1:XYLM-8F9); [John's christening, 1738](https://www.familysearch.org/ark:/61903/1:1:XTY1-F43)
 
 ## FamilySearch record review, 1 November 2026
 

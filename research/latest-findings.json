@@ -68130,6 +68130,67 @@
           "scope": "FamilySearch index only; image not viewed; informant-reported father, and the indexed death day (2 July) differs from the profile's 27 July."
         }
       ]
+    },
+    {
+      "id": "edrom-margaret1607-james4177-20261101",
+      "found_on": "2026-11-01",
+      "found_from": "2026-11-01",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Margaret Glasgow (Glasgow-1607), christened at Edrom on 8 June 1740, is re-pointed to the Edrom James Glasgow (Glasgow-4177), father of John christened there in 1738, at 65% probable. The Stitchel James (Glasgow-1238) is kept as a possible alternative at 35%.",
+      "qualification": "FamilySearch indexes only; the Edrom register image, mother and witnesses are unread.",
+      "people": [
+        {
+          "id": "Glasgow-1607",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-1607.html",
+          "role": "Child"
+        },
+        {
+          "id": "Glasgow-4177",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-4177.html",
+          "role": "Father"
+        },
+        {
+          "id": "Glasgow-1238",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1238.html",
+          "role": "Alternative father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland Births and Baptisms: Margaret Glasgow, chr. 8 Jun 1740, Edrom",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XYLM-8F9"
+        },
+        {
+          "title": "Scotland Births and Baptisms: John Glasgow, chr. 25 Jul 1738, Edrom",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:XTY1-F43"
+        }
+      ],
+      "detail_url": "/people/glasgow-1607.html",
+      "provenance": "Owner-approved re-point (chat, 1 November 2026), recorded by proposals prp-6878c5ae58a64a2a and prp-99c3e8533bf64726. No live WikiTree change.",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Margaret Glasgow (Glasgow-1607)",
+          "relative": "James Glasgow (Glasgow-4177)",
+          "subject_id": "Glasgow-1607",
+          "relative_id": "Glasgow-4177",
+          "previous_relative": "Glasgow-1238",
+          "action": "replace",
+          "new_attachment": true,
+          "before": "unmarked",
+          "after": "probable",
+          "probability_percent": 65,
+          "after_probability_percent": 65,
+          "explanation": "Only two Glasgow baptisms are indexed for Edrom in 1720–1760: John in 1738 and Margaret in 1740, both to a James Glasgow. Glasgow-4177 is record-defined by the 1738 entry. The Stitchel James married Elizabeth Tait in January 1740 and baptised children at Stitchel from 1742, a series Margaret is missing from.",
+          "previous_status_provenance": [
+            "Research database assessment clm-66e489ff806a81c7: Glasgow-1238 was 91% until 1 November 2026, lowered to 35% possible by proposal prp-6878c5ae58a64a2a and now an unselected alternative (prp-99c3e8533bf64726)."
+          ]
+        }
+      ]
     }
   ]
 }

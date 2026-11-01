@@ -54847,8 +54847,8 @@
     "basis": "Margaret's baptism at Edrom, Berwickshire, 8 Jun 1740, names only father James Glasgow, and the same Edrom register has John christened 25 Jul 1738 to a James, who is already given to a separate Edrom father, Glasgow-4177. Her baptism falls 4.5 months after the Stitchel James and Tait marriage, in another county, and is missing from the Stitchel series, so the same-parish James-4177 is the stronger candidate.",
     "reason": "Margaret's baptism at Edrom, Berwickshire, 8 Jun 1740, names only father James Glasgow, and the same Edrom register has John christened 25 Jul 1738 to a James, who is already given to a separate Edrom father, Glasgow-4177. Her baptism falls 4.5 months after the Stitchel James and Tait marriage, in another county, and is missing from the Stitchel series, so the same-parish James-4177 is the stronger candidate.",
     "claim": "Margaret's baptism at Edrom, Berwickshire, 8 Jun 1740, names only father James Glasgow, and the same Edrom register has John christened 25 Jul 1738 to a James, who is already given to a separate Edrom father, Glasgow-4177. Her baptism falls 4.5 months after the Stitchel James and Tait marriage, in another county, and is missing from the Stitchel series, so the same-parish James-4177 is the stronger candidate.",
-    "record_scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177.",
-    "limitations": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177.",
+    "record_scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177. Now an unselected alternative: the working father is the Edrom James, Glasgow-4177.",
+    "limitations": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177. Now an unselected alternative: the working father is the Edrom James, Glasgow-4177.",
     "source_ids": [
       "held-e-ff3c58b23378",
       "held-e-babdba4e8c9e"
@@ -54870,6 +54870,12 @@
         "probability_percent": 91,
         "assessment_date": "2026-10-22",
         "source_basis": "Margaret’s 1740 Edrom transcript explicitly names James; the January 1740 James/Tait marriage at nearby Stichill and continuing children make this adult family the preferred specific match. The entry supplies no mother."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 35,
+        "assessment_date": "2026-11-01",
+        "source_basis": "Margaret's baptism at Edrom, Berwickshire, 8 Jun 1740, names only father James Glasgow, and the same Edrom register has John christened 25 Jul 1738 to a James, who is already given to a separate Edrom father, Glasgow-4177. Her baptism falls 4.5 months after the Stitchel James and Tait marriage, in another county, and is missing from the Stitchel series, so the same-parish James-4177 is the stronger candidate."
       }
     ],
     "perspectives": {
@@ -54911,8 +54917,18 @@
         "held-e-ff3c58b23378",
         "held-e-babdba4e8c9e"
       ],
-      "scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177."
-    }
+      "scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177. Now an unselected alternative: the working father is the Edrom James, Glasgow-4177."
+    },
+    "research_state": {
+      "disposition": "reviewed_no_change",
+      "last_test": "FamilySearch Edrom baptism search 1720-1760 (two Glasgow entries only)",
+      "next_test": "OPR 738/4 image for residence, witnesses or mother",
+      "resume_when": "The Edrom register image or a Stitchel-family record naming Margaret is read.",
+      "reviewed": "2026-11-01"
+    },
+    "lifecycle": "alternative",
+    "display": "alternative",
+    "status_label": "Possible father; unselected alternative"
   },
   {
     "assertion_id": "C-coverage-20261022g-glasgow-3328-father",
@@ -111903,6 +111919,67 @@
       "reviewed": "2026-10-25",
       "last_test": "The original deed calls Daniel junior the eldest lawful son and heir apparent of Daniel senior and Mary, expressly his father and mother. They were of Moyock in North Carolina; the land lay above the Southern Branch Great Bridge in Norfolk County, Virginia. The80-acre tract is explicitly the property granted to Daniel senior and Mary by John Gamon’s will of4October1693, recorded15March1693/4, with remainder to Daniel’s bodily heirs by Mary, Gamon’s daughter. Daniel senior, Mary and Daniel junior acknowledged the deed in Norfolk court on17September1714. This completes the1693→1714 Richford Swamp title bridge and establishes the parent–child relationship. The later1733 and1752 dates are contingent redemption/lease endpoints, not execution dates.",
       "next_test": "Trace the same80-acre Richford tract after1714 for Daniel junior’s residence, wife or named heirs; compare the1718–1719 Moyock/Currituck taxpayers and keep the1729 Slade tract separate. Resolve whether Glasgow-1158 duplicates senior before selecting a junior identity."
+    }
+  },
+  {
+    "assertion_id": "clm-07386e3ca22a40b2",
+    "people": [
+      "Glasgow-1607",
+      "Glasgow-4177"
+    ],
+    "claim": "James Glasgow (Glasgow-4177), the Edrom father of John (christened 25 July 1738), is the father of Margaret Glasgow, christened at Edrom on 8 June 1740.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-1607": {
+        "relationship": "father"
+      },
+      "Glasgow-4177": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "unreviewed",
+    "source_ids": [
+      "held-e-ff3c58b23378",
+      "held-e-babdba4e8c9e"
+    ],
+    "provenance": {
+      "prior_assessment": {
+        "assertion_id": "C-coverage-20261022g-glasgow-1607-father",
+        "father": "Glasgow-1238",
+        "percent": 35,
+        "previous_percent": 91,
+        "status": "possible"
+      }
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-01",
+    "basis": "Margaret's 8 June 1740 Edrom christening names only her father, James Glasgow. The same Edrom register has John, christened 25 July 1738 to a James Glasgow, and Glasgow-4177 is record-defined as that James. FamilySearch returns only these two Glasgow baptisms for Edrom in 1720-1760, so one resident Edrom James having children in 1738 and 1740 is the simplest reading. The Stitchel James (Glasgow-1238) married Elizabeth Tait in January 1740 and baptised children at Stitchel from 1742; Margaret is missing from that series and was baptised in another parish.",
+    "assessment_history": [],
+    "reason": "Margaret's 8 June 1740 Edrom christening names only her father, James Glasgow. The same Edrom register has John, christened 25 July 1738 to a James Glasgow, and Glasgow-4177 is record-defined as that James. FamilySearch returns only these two Glasgow baptisms for Edrom in 1720-1760, so one resident Edrom James having children in 1738 and 1740 is the simplest reading. The Stitchel James (Glasgow-1238) married Elizabeth Tait in January 1740 and baptised children at Stitchel from 1742; Margaret is missing from that series and was baptised in another parish.",
+    "limitations": "FamilySearch indexes only; images not viewed; no mother, residence or witnesses read, so two different James Glasgows in Edrom cannot be excluded. James-1238 is retained as a possible alternative at 35%.",
+    "probability": {
+      "value": 0.65,
+      "reviewed": "2026-11-01",
+      "basis": "Margaret's 8 June 1740 Edrom christening names only her father, James Glasgow. The same Edrom register has John, christened 25 July 1738 to a James Glasgow, and Glasgow-4177 is record-defined as that James. FamilySearch returns only these two Glasgow baptisms for Edrom in 1720-1760, so one resident Edrom James having children in 1738 and 1740 is the simplest reading. The Stitchel James (Glasgow-1238) married Elizabeth Tait in January 1740 and baptised children at Stitchel from 1742; Margaret is missing from that series and was baptised in another parish.",
+      "source_ids": [
+        "held-e-ff3c58b23378",
+        "held-e-babdba4e8c9e"
+      ],
+      "scope": "FamilySearch indexes only; images not viewed; no mother, residence or witnesses read, so two different James Glasgows in Edrom cannot be excluded. James-1238 is retained as a possible alternative at 35%."
+    },
+    "working_selection": true,
+    "research_state": {
+      "disposition": "awaiting_source",
+      "last_test": "FamilySearch Edrom baptism search 1720-1760",
+      "next_test": "OPR 738/4 image (pp. 18, 24) for the mother, residence or witnesses of both 1738 and 1740 entries",
+      "resume_when": "The Edrom register image is read.",
+      "reviewed": "2026-11-01"
+    },
+    "allow_new_relationship": true,
+    "working_parent_replacement": {
+      "alternative_assertion_id": "C-coverage-20261022g-glasgow-1607-father",
+      "previous_parent": "Glasgow-1238",
+      "reason": "Owner-approved re-point to the same-parish Edrom James; the Stitchel James is retained as a possible alternative."
     }
   },
   {

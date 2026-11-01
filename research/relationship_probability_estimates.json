@@ -21081,7 +21081,7 @@
         "held-e-babdba4e8c9e"
       ],
       "reviewed": "2026-11-01",
-      "scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177.",
+      "scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177. Now an unselected alternative: the working father is the Edrom James, Glasgow-4177.",
       "assessment_history": [
         {
           "percent": 91,
@@ -21090,7 +21090,18 @@
           "reviewed": "2026-10-22",
           "note": "earlier value of this view; it now derives from the current assessment"
         }
-      ]
+      ],
+      "working_selection": false,
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "last_test": "FamilySearch Edrom baptism search 1720-1760 (two Glasgow entries only)",
+        "next_test": "OPR 738/4 image for residence, witnesses or mother",
+        "resume_when": "The Edrom register image or a Stitchel-family record naming Margaret is read.",
+        "reviewed": "2026-11-01"
+      },
+      "lifecycle": "alternative",
+      "display": "alternative",
+      "status_label": "Possible father; unselected alternative"
     },
     {
       "subject_id": "Glasgow-1238",
@@ -21105,7 +21116,7 @@
         "held-e-babdba4e8c9e"
       ],
       "reviewed": "2026-11-01",
-      "scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177.",
+      "scope": "FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177. Now an unselected alternative: the working father is the Edrom James, Glasgow-4177.",
       "assessment_history": [
         {
           "percent": 91,
@@ -21114,7 +21125,18 @@
           "reviewed": "2026-10-22",
           "note": "earlier value of this view; it now derives from the current assessment"
         }
-      ]
+      ],
+      "working_selection": false,
+      "research_state": {
+        "disposition": "reviewed_no_change",
+        "last_test": "FamilySearch Edrom baptism search 1720-1760 (two Glasgow entries only)",
+        "next_test": "OPR 738/4 image for residence, witnesses or mother",
+        "resume_when": "The Edrom register image or a Stitchel-family record naming Margaret is read.",
+        "reviewed": "2026-11-01"
+      },
+      "lifecycle": "alternative",
+      "display": "alternative",
+      "status_label": "Possible father; unselected alternative"
     },
     {
       "subject_id": "Glasgow-3328",
@@ -45986,6 +46008,64 @@
         "norfolk-daniels-gamon-1714"
       ],
       "reviewed": "2026-10-25"
+    },
+    {
+      "subject_id": "Glasgow-1607",
+      "relative_id": "Glasgow-4177",
+      "relationship": "father",
+      "percent": 65,
+      "assessment_status": "probable",
+      "assertion_id": "clm-07386e3ca22a40b2",
+      "basis": "Margaret's 8 June 1740 Edrom christening names only her father, James Glasgow. The same Edrom register has John, christened 25 July 1738 to a James Glasgow, and Glasgow-4177 is record-defined as that James. FamilySearch returns only these two Glasgow baptisms for Edrom in 1720-1760, so one resident Edrom James having children in 1738 and 1740 is the simplest reading. The Stitchel James (Glasgow-1238) married Elizabeth Tait in January 1740 and baptised children at Stitchel from 1742; Margaret is missing from that series and was baptised in another parish.",
+      "reviewed": "2026-11-01",
+      "source_ids": [
+        "held-e-ff3c58b23378",
+        "held-e-babdba4e8c9e"
+      ],
+      "scope": "FamilySearch indexes only; images not viewed; no mother, residence or witnesses read, so two different James Glasgows in Edrom cannot be excluded. James-1238 is retained as a possible alternative at 35%.",
+      "working_selection": true,
+      "research_state": {
+        "disposition": "awaiting_source",
+        "last_test": "FamilySearch Edrom baptism search 1720-1760",
+        "next_test": "OPR 738/4 image (pp. 18, 24) for the mother, residence or witnesses of both 1738 and 1740 entries",
+        "resume_when": "The Edrom register image is read.",
+        "reviewed": "2026-11-01"
+      },
+      "allow_new_relationship": true,
+      "working_parent_replacement": {
+        "alternative_assertion_id": "C-coverage-20261022g-glasgow-1607-father",
+        "previous_parent": "Glasgow-1238",
+        "reason": "Owner-approved re-point to the same-parish Edrom James; the Stitchel James is retained as a possible alternative."
+      }
+    },
+    {
+      "subject_id": "Glasgow-4177",
+      "relative_id": "Glasgow-1607",
+      "relationship": "child",
+      "percent": 65,
+      "assessment_status": "probable",
+      "assertion_id": "clm-07386e3ca22a40b2",
+      "basis": "Margaret's 8 June 1740 Edrom christening names only her father, James Glasgow. The same Edrom register has John, christened 25 July 1738 to a James Glasgow, and Glasgow-4177 is record-defined as that James. FamilySearch returns only these two Glasgow baptisms for Edrom in 1720-1760, so one resident Edrom James having children in 1738 and 1740 is the simplest reading. The Stitchel James (Glasgow-1238) married Elizabeth Tait in January 1740 and baptised children at Stitchel from 1742; Margaret is missing from that series and was baptised in another parish.",
+      "reviewed": "2026-11-01",
+      "source_ids": [
+        "held-e-ff3c58b23378",
+        "held-e-babdba4e8c9e"
+      ],
+      "scope": "FamilySearch indexes only; images not viewed; no mother, residence or witnesses read, so two different James Glasgows in Edrom cannot be excluded. James-1238 is retained as a possible alternative at 35%.",
+      "working_selection": true,
+      "research_state": {
+        "disposition": "awaiting_source",
+        "last_test": "FamilySearch Edrom baptism search 1720-1760",
+        "next_test": "OPR 738/4 image (pp. 18, 24) for the mother, residence or witnesses of both 1738 and 1740 entries",
+        "resume_when": "The Edrom register image is read.",
+        "reviewed": "2026-11-01"
+      },
+      "allow_new_relationship": true,
+      "working_parent_replacement": {
+        "alternative_assertion_id": "C-coverage-20261022g-glasgow-1607-father",
+        "previous_parent": "Glasgow-1238",
+        "reason": "Owner-approved re-point to the same-parish Edrom James; the Stitchel James is retained as a possible alternative."
+      }
     },
     {
       "subject_id": "Glasgow-4133",
