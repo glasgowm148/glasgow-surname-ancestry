@@ -8,6 +8,10 @@ The published 1904 obituary transcription identifies [Stewart Glasgow-17](https:
 
 The new evidence is a published transcription, not an inspected newspaper image. The Peoria Star and Monmouth Review accounts may derive from one account; the latter attributes its obituary to the Peoria Herald Transcript. Inspect the original newspaper pages and Samuel's own parent-bearing records as further tests.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [LC53-KYW](https://www.familysearch.org/tree/person/details/LC53-KYW): Robert Barclay [GMYT-RJB](https://www.familysearch.org/tree/person/details/GMYT-RJB) and Rosanah Finley [LZL4-64H](https://www.familysearch.org/tree/person/details/LZL4-64H) made preferred parents on 1 November 2026; the John M68Z-54K / Rosanna Alexander set remains.
+
 ## Earlier current conclusion — 22 October 2026, superseded 23 October 2026
 
 The inherited descendant family places Samuel Steele Glasgow, born 1814 in Adams County, under Robert Barclay and Rosanna Finley. Robert’s 1783 generation and established Ohio family fit a31-year fatherhood. The held 1880/1900 censuses identify Samuel’s later life, but do not name his parents. Possible58%; the specific existing household is preferred, with no independently inspected father clause or fabricated maternal naming argument.

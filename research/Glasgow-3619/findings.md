@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-2239]
 
 James McCullough is placed beside same-date John in Arthur and Elizabeth’s family and supported by Faris p.56 and his cemetery identity. The annotation says drowning at about twelve whereas 1840–1858 implies eighteen, requiring a chronology check without discarding the father account. Held citation and family narrative address this specific father-child link; no original was newly inspected.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Birth corrected in the research database to **about 1844–1846**: he is James, 6, in the 1850 Turtle Creek Twp, Shelby Co. census ([MX7W-GYN](https://www.familysearch.org/ark:/61903/1:1:MX7W-GYN)), and Faris p.56 says he drowned at about twelve in 1858. The 6 June 1840 date (shared with John, who is 12 in the same census) is withdrawn; John's own date needs the same check. FamilySearch [9NRM-DKK](https://www.familysearch.org/tree/person/details/9NRM-DKK) was corrected on 1 November 2026 from 'James H', d. 1856, to James M, d. 3 July 1858. WikiTree correction pending.
+
 ## FamilySearch record review, 1 November 2026
 
 Arthur Glasgow ([Glasgow-2239](https://www.wikitree.com/wiki/Glasgow-2239)): 90% → **96% (proved)**.

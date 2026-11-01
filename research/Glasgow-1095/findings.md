@@ -45,6 +45,10 @@ property reconstruction does, however, show William occupying the older
 John's exact Rankin–Young parcel in 1534/35 and William's proved son inheriting
 it in 1564. The combined title sequence now favours the older John as William’s **probable father** for the property-defined Saltmarket account. This remains an inference, with brotherhood or collateral succession still possible and the profile identity unresolved. The live WikiTree flag remains uncertain; no documented parentage is claimed.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-HVH](https://www.familysearch.org/tree/person/details/PJ9X-HVH), father of William [PJ96-JL8](https://www.familysearch.org/tree/person/details/PJ96-JL8).
+
 ## Source findings
 
 | Source | Finding | Assessment |

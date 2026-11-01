@@ -7,6 +7,10 @@ Last updated: 2026-09-10
 
 Father reviewed22October2026: Glasgow-3012 remains selected at 88% (probable). Robert’s 1676 Glencorse baptism names John Glasgow and Margaret Currie. Their 1673 Kirknewton marriage supplies an earlier named couple in the neighbouring district, favouring the existing John household over an otherwise unspecified namesake. Complete profile placement88%; the 1649 child-to-adult John identification remains inferred. The 1704 Robert/Davidson marriage is a different event.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On 1 November 2026 the FamilySearch stubs were merged into one couple, Robert [KCNV-2XG](https://www.familysearch.org/tree/person/details/KCNV-2XG) × Margaret Davidson [K8S7-FZD](https://www.familysearch.org/tree/person/details/K8S7-FZD) (m. 8 June 1704 Glencorse), with six children 1708–1720.
+
 ## Earlier conclusion
 
 Robert is the documented Glencorse baptism subject of 29 December 1676 and the strong but unproved candidate for the 1704 husband of Margaret Davidson. She and their documented daughter Isobell are now attached as uncertain relatives. The three older children still attached to shipmaster Glasgow-2867 require a controlled candidate-father correction, retaining uncertainty rather than claiming proof of the two Roberts' identity. No evidence identifies the shipmaster as this man.

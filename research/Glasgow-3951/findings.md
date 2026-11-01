@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-3952]
 
 Annie and William share a specific 1867 original-marriage pointer in their dossiers, and 1838 birth fits a young 1820 father. This strongly suggests William is the father defined by that marriage, but the held packet supplies no transcription of its father column. Selected Glasgow-3952 fatherhood of Glasgow-3951; maternal identity and upstream ancestry are separate.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ96-P9V](https://www.familysearch.org/tree/person/details/PJ96-P9V), with father William [PJ9X-XJ7](https://www.familysearch.org/tree/person/details/PJ9X-XJ7) and husband James Mitchell [PJ96-YN3](https://www.familysearch.org/tree/person/details/PJ96-YN3), from the 1867 Limerick marriage [QGY7-SL54](https://www.familysearch.org/ark:/61903/1:1:QGY7-SL54).
+
 ## FamilySearch record review, 1 November 2026
 
 William Glasgow ([Glasgow-3952](https://www.wikitree.com/wiki/Glasgow-3952)): 84% → **95% (proved)**.

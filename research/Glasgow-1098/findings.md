@@ -37,6 +37,10 @@ The live profile now has **no birth date or place** and records death **before
 31 December 1534; it does not supply an earlier marriage date or a vital-event
 location.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ96-JL8](https://www.familysearch.org/tree/person/details/PJ96-JL8), with father John [PJ9X-HVH](https://www.familysearch.org/tree/person/details/PJ9X-HVH) (Glasgow-1095); not yet connected to other FamilySearch people.
+
 ## Descendant relationship audit — 31 August 2026
 
 A fresh live capture followed every currently attached descendant through five

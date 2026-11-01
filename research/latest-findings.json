@@ -68191,6 +68191,65 @@
           ]
         }
       ]
+    },
+    {
+      "id": "familysearch-tree-vital-corrections-20261101",
+      "found_on": "2026-11-01",
+      "found_from": "2026-11-01",
+      "kind": "vital",
+      "status": "qualified",
+      "finding": "Comparing our research with the FamilySearch tree on 1 November 2026 exposed six imported WikiTree dates that our own records contradict. Joseph Glasgow (Glasgow-653) died about 1820, before the October 1824 chancery bill, not in 1856; Samuel Ramsay Glasgow (Glasgow-3744) died before December 1833, not in 1876; James McCullough Glasgow (Glasgow-3619) was born about 1844–1846, not in 1840; Joseph Finley Glasgow's (Glasgow-1958) imported 1821–1886 dates belong to his cousin Joseph (Glasgow-2181), whose birth is 20 October 1821; and Alexander Glasgow of NSW (Glasgow-2699) has no established death, the 1852 Windsor date being his son's.",
+      "qualification": "Positions recorded as reviewed vital assessments; no live WikiTree save made. FamilySearch tree dates are leads only.",
+      "people": [
+        {
+          "id": "Glasgow-653",
+          "name": "Joseph S Glasgow",
+          "url": "/people/glasgow-653.html",
+          "role": "Subject"
+        },
+        {
+          "id": "Glasgow-3744",
+          "name": "Samuel Ramsay Glasgow",
+          "url": "/people/glasgow-3744.html",
+          "role": "Subject"
+        },
+        {
+          "id": "Glasgow-3619",
+          "name": "James McCullough Glasgow",
+          "url": "/people/glasgow-3619.html",
+          "role": "Subject"
+        },
+        {
+          "id": "Glasgow-1958",
+          "name": "Joseph Finley Glasgow",
+          "url": "/people/glasgow-1958.html",
+          "role": "Subject"
+        },
+        {
+          "id": "Glasgow-2181",
+          "name": "Joseph Glasgow",
+          "url": "/people/glasgow-2181.html",
+          "role": "Subject"
+        },
+        {
+          "id": "Glasgow-2699",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2699.html",
+          "role": "Subject"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Adams Co., Ohio deed reciting the October Term 1824 chancery bill (administrators of Joseph Glasgow deceased)",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C37R-437Q-R"
+        },
+        {
+          "title": "United States Census, 1850: James, 6, in Arthur Glasco's household, Turtle Creek Twp, Shelby Co., Ohio",
+          "url": "https://www.familysearch.org/ark:/61903/1:1:MX7W-GYN"
+        }
+      ],
+      "detail_url": "/people/glasgow-653.html",
+      "provenance": "FamilySearch tree comparison and correction session, 1 November 2026; see each person's findings.md section 'FamilySearch tree comparison corrections, 1 November 2026'."
     }
   ]
 }

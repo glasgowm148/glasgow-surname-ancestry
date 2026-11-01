@@ -7,6 +7,10 @@ Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-3612]
 <!-- site-audit-2026-10-07:overall-conclusion -->
 George Glasgow was recorded on his profile as living from 1777 to 1857; no record has yet been identified with him in this research. Newspaper notices of 1811 and 1819 naming Colonel, later Major-General, George Glasgow of the Royal Artillery were compared with him and withdrawn on 6 October 2026: they concern the artillery general who served in Canada and died in London in 1820, who has no WikiTree profile.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [PWLG-44H](https://www.familysearch.org/tree/person/details/PWLG-44H): his 18 June 1857 Newton Village death record [XS6P-KNHG](https://www.familysearch.org/ark:/61903/1:1:XS6P-KNHG) attached on 1 November 2026.
+
 ## FamilySearch record review, 1 November 2026
 
 Alexander Glasgow ([Glasgow-3612](https://www.wikitree.com/wiki/Glasgow-3612)): 88% → **95% (proved)**.

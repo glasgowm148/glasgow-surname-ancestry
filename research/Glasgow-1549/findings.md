@@ -16,6 +16,10 @@ Another unrecorded son John or a different Scottish immigrant remains possible. 
 
 
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+The FamilySearch ID G7MK-866 cited for this John has been merged into **[93KS-TGC](https://www.familysearch.org/tree/person/details/93KS-TGC)**; use 93KS-TGC.
+
 ## Source findings — Huntingdon and Cambria, 17 October 2026
 
 [John Glasgow-1549, contributed family account in the saved public WikiTree biography: John and Margaret Hunter travelled in 1781 with young sons Richard and John (2); reviewed 17 October 2026; underlying family source unidentified](https://www.wikitree.com/wiki/Glasgow-1549)

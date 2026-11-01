@@ -6,6 +6,10 @@ Current father assessment (22 October 2026): **86% (probable)** for [Glasco-170]
 
 The specific Elm Field, Blackrock family account identifies Rosetta, born about 1782, with Manasses Glasgow and Susannah. Manasses’s pre 1766 birth is chronologically compatible, and the named couple and locality make the identification distinctive. Probable detailed compiled-family placement; the cited You Who family account is derivative, not an inspected baptism.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-HM3](https://www.familysearch.org/tree/person/details/PJ9X-HM3), child of Manasses [PJ96-XY2](https://www.familysearch.org/tree/person/details/PJ96-XY2) and Susannah [PJ96-LX3](https://www.familysearch.org/tree/person/details/PJ96-LX3).
+
 ## Father confidence review, fourth batch — 22 October 2026
 
 [Glasco-170](https://www.wikitree.com/wiki/Glasco-170) remains the selected father, assessed **86% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.

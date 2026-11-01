@@ -6,6 +6,10 @@ Current father assessment (29 October 2026): **88% (probable)** for [Glasgow-45]
 
 Caroline is indexed in Jackson, Osage in 1850 on James's household page and fits the sibling generation. The 1865 Lee marriage provides a reasonable adult bridge, though the birth estimates vary and no father field is quoted. Selected Glasgow-45 fatherhood of Glasgow-50; maternal identity and upstream ancestry are separate.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On 1 November 2026 three FamilySearch copies were merged into **[K8ML-XMK](https://www.familysearch.org/tree/person/details/K8ML-XMK)** (father James GQ5Z-341, husband Isaac Lee M5Y7-QMW).
+
 ## Father review, 29 October 2026
 
 James Albert Glasgow ([Glasgow-45](https://www.wikitree.com/wiki/Glasgow-45)): 86% (probable) → **88% (probable)**.

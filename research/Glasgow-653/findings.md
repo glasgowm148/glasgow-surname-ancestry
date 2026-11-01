@@ -8,6 +8,10 @@
 
 The dedicated Faris genealogy, as explicitly summarized in the held biography, identifies Joseph among Robert and Rosanna’s children. Joseph’s 1780 Virginia birth fits the specific Robert household and subsequent Adams County family. Compiled-family attribution93%, not an inference from surname or DNA. The underlying book page and parental record are uninspected in this review.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Death corrected in the research database to **about 1820, before October 1824** (Adams County, Ohio). The October Term 1824 chancery bill was brought by the administrators of Joseph Glasgow deceased ([deed recital](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C37R-437Q-R)), and the 1880 Caldwell Atlas, p. 69, gives 1820. The imported 4 November 1856 'Rock ridge, Virginia' death is withdrawn. WikiTree correction pending (no live save made). FamilySearch: [LZL4-SY4](https://www.familysearch.org/tree/person/details/LZL4-SY4); on 1 November 2026 he was added there as father of Rosannah Ralston and as preferred father of Robert Anderson Glasgow.
+
 ## Father confidence review, second batch — 22 October 2026
 
 [Glasgow-12](https://www.wikitree.com/wiki/Glasgow-12) remains the selected father, assessed **93% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.

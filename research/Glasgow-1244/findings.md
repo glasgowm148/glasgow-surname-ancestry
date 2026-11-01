@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-1242]
 
 The father dossier’s FamilySearch citation explicitly identifies Thomas Glasghow in the unnamed 1704 child entry. The same Uphall family later includes Philips 1711 and Thomas 1715, supporting the intended adult father account rather than the child’s generic tree search URL. Unnamed child and adult Thomas household; Thomas’s proposed 1675 childhood and Dublin descendant route are separate unresolved identifications.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On FamilySearch this child is [MRJ2-CQC](https://www.familysearch.org/tree/person/details/MRJ2-CQC) (christened 2 July 1704, Uphall; record [VQ48-MZ7](https://www.familysearch.org/ark:/61903/1:1:VQ48-MZ7)), now under the merged couple Thomas [MY82-8P5](https://www.familysearch.org/tree/person/details/MY82-8P5) × Jean Duncan [MS18-FQS](https://www.familysearch.org/tree/person/details/MS18-FQS).
+
 ## FamilySearch record review, 1 November 2026
 
 Thomas Glasgow ([Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242)): 91% → **95% (proved)**.

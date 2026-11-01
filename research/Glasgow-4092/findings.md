@@ -18,6 +18,10 @@ unproved. No automatic parent change follows. Provenance: Nancy's probate citati
 14 January 1892, saved from its 23 January printing (date corrected on 7 October 2026; see below), rechecked against its transcription; next test is the
 original probate petition/heir schedule plus Ann's own family records.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-RNR](https://www.familysearch.org/tree/person/details/PJ9X-RNR), child of John [M68Z-54K](https://www.familysearch.org/tree/person/details/M68Z-54K); husband Andrew McClelland not added.
+
 ## Source findings
 
 - [FS XSSG-M9CW](https://www.familysearch.org/ark:/61903/1:1:XSSG-M9CW) — Andrew McClelland d. 17 Jan 1870 Bridgeton, parents Andrew McClelland and Ann Glasgow.

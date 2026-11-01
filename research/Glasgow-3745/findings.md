@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-2873]
 
 Hugh Glasgow’s held family reconstruction names Walter Franklin Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Walter’s 1815–1823 entry has a specific family-Bible tradition in his notes. Selected father-profile identity and paternal relationship; maternal identity is separate.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-4P2](https://www.familysearch.org/tree/person/details/PJ9X-4P2), child of Hugh [LVC3-465](https://www.familysearch.org/tree/person/details/LVC3-465) and Maria Ramsay [L14M-814](https://www.familysearch.org/tree/person/details/L14M-814), from the February 1818 York Co. guardianship.
+
 ## FamilySearch record review, 1 November 2026
 
 Hugh Glasgow ([Glasgow-2873](https://www.wikitree.com/wiki/Glasgow-2873)): 88% → **97% (proved)**.

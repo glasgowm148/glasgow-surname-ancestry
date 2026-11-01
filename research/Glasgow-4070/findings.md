@@ -10,6 +10,10 @@ Current father assessment (22 October 2026): **90% (proved)** for [Glasgow-4090]
 
 Nancy’s 1889 will and 1892 probate support the sibling/niece-nephew network including John of Lisnagaver’s descendants. John of Lisnagaver’s 16 November 1846 marriage names father John Glasgow farmer; the maintained 6 October identity definition represents this father, extending the supported family hypothesis without requiring the 1796 flaxgrower match.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ96-Q64](https://www.familysearch.org/tree/person/details/PJ96-Q64) (d. 31 October 1891, Plattsburgh), child of John [M68Z-54K](https://www.familysearch.org/tree/person/details/M68Z-54K).
+
 ## Current conclusion and new evidence — 29 September 2026
 
 The **Plattsburgh Sentinel, 6 November 1891, p. 8**, reports Nancy's death at **Plattsburgh on 31 October 1891**, **aged about 75**, followed by a funeral on Monday afternoon at the **Peristrome Presbyterian church**. [Original newspaper page](https://www.nyshistoricnewspapers.org/?a=d&d=plts18911106-01.1.8). The original PDF and an unaltered crop are saved in `record-excerpts/`. The notice names no relatives or birthplace. Its c.1815–16 birth implication conflicts with Nancy's will's c.1820–21 implication; neither approximate age resolves the conflict. The independently corroborated death date is stronger than the cemetery transcription alone. The maintained census indexes give still other ages: 30 in 1860, 50 in 1870 and 65 in 1880 ([MC7C-HHK](https://www.familysearch.org/ark:/61903/1:1:MC7C-HHK), [M8FF-ZQD](https://www.familysearch.org/ark:/61903/1:1:M8FF-ZQD), [MZZF-HDJ](https://www.familysearch.org/ark:/61903/1:1:MZZF-HDJ)). These are not new original-image inspections in this review; they reinforce that neither selected birth estimate is a proved bound.

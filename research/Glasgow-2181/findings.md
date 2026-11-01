@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **93% (proved)** for [Glasgow-193](
 
 Faris’s 1990 Glasgow Family genealogy p.80 supports Joseph Glasgow as a child of James Glasgow and Mary McNeil. The 20 October 1820 birth follows their 20 November 1817 Adams County marriage and fits the documented local family. Selected father-profile identity and paternal relationship; maternal identity is separate.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Birth corrected in the research database to **20 October 1821** from the family Bible copy (the profile's 1820 is unsupported). The imported 7 September 1866 death is unsupported; FamilySearch [K8TK-NSM](https://www.familysearch.org/tree/person/details/K8TK-NSM) gives 7 September 1886, Iowa City — the dates that had been copied to cousin Joseph Finley (Glasgow-1958). Test the 1886 death against a record. WikiTree correction pending.
+
 ## FamilySearch record review, 1 November 2026
 
 James M Glasgow ([Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193)): 89% → **93% (proved)**.

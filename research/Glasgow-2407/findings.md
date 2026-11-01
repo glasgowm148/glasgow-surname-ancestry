@@ -16,6 +16,10 @@ died in 1836, is the selected probable identity at **84%** (reviewed 17 October 
 
 The older John's father remains unselected and unrated. His death at Cross in 1836 separates him from the similarly aged John-822 of Inishrush, who survived in Ohio until 1851. The 1862 holding has not been proved to be an inheritance; the exact Cross match remains the strongest positive discriminator.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On FamilySearch he is [9693-1FS](https://www.familysearch.org/tree/person/details/9693-1FS); on 1 November 2026 John of Cross [LD55-NKQ](https://www.familysearch.org/tree/person/details/LD55-NKQ) was added as his father (father only). [MYBS-727](https://www.familysearch.org/tree/person/details/MYBS-727) (husband of Rachael Gray, son John b. 1865 Glenwhirry) may be a duplicate; not merged.
+
 ## Source findings
 | Source | Finding | Assessment |
 | --- | --- | --- |

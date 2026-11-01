@@ -2625,6 +2625,182 @@
         }
       },
       "project_tree_vitals": true
+    },
+    {
+      "id": "glasgow-1958-vitals-cousin-20261101",
+      "subject": "Glasgow-1958",
+      "status": "approved",
+      "reviewed": "2026-11-01",
+      "scope": "vital correction (cousin's dates)",
+      "basis": "The imported birth (20 October 1821, Scott Twp) and death (7 September 1886, Iowa City) belong to Joseph Glasgow, son of James Glasgow and Mary McNeil (our Glasgow-2181; FamilySearch K8TK-NSM), whose family Bible copy gives 20 October 1821. Joseph Finley Glasgow, husband of Malinda Ann Guy and son of John Glasgow and Margaret Finley, is a different man: FamilySearch KZP5-J7X gives him 17 September 1821 – 15 March 1897, Grove Twp, Davis Co., Iowa (tree data; records not yet read here).",
+      "source": {
+        "url": "/people/glasgow-1958.html",
+        "section": "FamilySearch tree comparison corrections, 1 November 2026"
+      },
+      "summary": "Joseph Finley's imported dates are his cousin Joseph's; his own birth is 1821 and his death is unresolved (lead: 1897, Davis Co., Iowa).",
+      "vitals": {
+        "birth": {
+          "date": "1821",
+          "display_date": "1821",
+          "place": "Adams County, Ohio, United States",
+          "place_status": "probable",
+          "status": "uncertain",
+          "country": "united states",
+          "note": "Year from his own account; the 20 October day belongs to cousin Joseph (Glasgow-2181). FamilySearch KZP5-J7X gives 17 September 1821."
+        },
+        "death": {
+          "date": null,
+          "display_date": "Not established (lead: 15 March 1897, Grove Twp, Davis Co., Iowa)",
+          "place": null,
+          "status": "uncertain",
+          "note": "The imported 7 September 1886 Iowa City death belongs to cousin Joseph (Glasgow-2181). The 1897 Davis County date is a FamilySearch tree lead to test."
+        }
+      },
+      "supersedes": [
+        "Imported birth: 20 October 1821, Scott Township, Adams, Ohio",
+        "Imported death: 7 September 1886, Iowa City, Johnson, Iowa"
+      ]
+    },
+    {
+      "id": "glasgow-2181-birth-bible-20261101",
+      "subject": "Glasgow-2181",
+      "status": "approved",
+      "reviewed": "2026-11-01",
+      "scope": "birth date correction",
+      "basis": "The family Bible copy lists Joseph among the sons of James Glasgow and Mary McNeil, born 20 October 1821, matching the profile's day and month; the profile year 1820 is not supported. FamilySearch K8TK-NSM (son of James and Mary McNeil) also gives 20 October 1821 and a death of 7 September 1886, Iowa City — the dates that had been copied to cousin Joseph Finley (Glasgow-1958).",
+      "source": {
+        "url": "/people/glasgow-2181.html",
+        "section": "FamilySearch tree comparison corrections, 1 November 2026"
+      },
+      "summary": "Joseph was born 20 October 1821 (Bible copy); the 1866 death is unconfirmed and 7 September 1886, Iowa City, is the leading candidate.",
+      "vitals": {
+        "birth": {
+          "date": "1821-10-20",
+          "place": "Adams County, Ohio, United States",
+          "place_status": "probable",
+          "status": "probable",
+          "country": "united states",
+          "note": "Family Bible copy (AI transcript; image not viewed)."
+        },
+        "death": {
+          "date": null,
+          "display_date": "Not established (lead: 7 September 1886, Iowa City, Iowa)",
+          "place": null,
+          "status": "uncertain",
+          "note": "The imported 7 September 1866 is unsupported; FamilySearch K8TK-NSM gives 7 September 1886, Iowa City (tree data, to be tested against a record)."
+        }
+      },
+      "supersedes": [
+        "Imported birth year 1820",
+        "Imported death: 7 September 1866"
+      ]
+    },
+    {
+      "id": "glasgow-2699-death-unestablished-20261101",
+      "subject": "Glasgow-2699",
+      "status": "approved",
+      "reviewed": "2026-11-01",
+      "scope": "death date correction",
+      "basis": "The imported death (about 22 May 1852, Windsor, NSW) has no held source. On FamilySearch the 22 May 1852 date was the death date of his son John Bowling Glasgow and was copied onto a conflated Alexander (K83S-3C3); the Windsor burial was unsourced. Alexander is last documented as father at John Bowling's 1849 baptism.",
+      "source": {
+        "url": "/people/glasgow-2699.html",
+        "section": "FamilySearch tree comparison corrections, 1 November 2026"
+      },
+      "summary": "Alexander's death is not established; he was living in 1849. His FamilySearch person is 27VK-PWB, not K83S-3C3.",
+      "vitals": {
+        "death": {
+          "date": "after 1849",
+          "display_date": "After 1849 (not established)",
+          "place": null,
+          "status": "after",
+          "note": "Last documented at the 1849 baptism of his son John Bowling. The 22 May 1852 Windsor date belongs to the son on FamilySearch."
+        }
+      },
+      "supersedes": [
+        "Imported death: about 22 May 1852, Windsor, New South Wales"
+      ]
+    },
+    {
+      "id": "glasgow-3619-birth-estimate-20261101",
+      "subject": "Glasgow-3619",
+      "status": "approved",
+      "reviewed": "2026-11-01",
+      "scope": "birth date correction",
+      "basis": "The 1850 census of Turtle Creek Twp, Shelby Co., Ohio (household 29) lists James, 6, in Arthur Glasco's household, and Faris p.56 says he drowned at about twelve on 3 July 1858. Both point to a birth about 1844–1846, not 6 June 1840, which is the twin-style date shared with John (who is 12 in the same census).",
+      "source": {
+        "url": "/people/glasgow-3619.html",
+        "section": "FamilySearch tree comparison corrections, 1 November 2026"
+      },
+      "summary": "James McCullough Glasgow was born about 1844–1846; the imported 6 June 1840 birth is withdrawn.",
+      "vitals": {
+        "birth": {
+          "date": "about 1844–1846",
+          "display_date": "About 1844–1846",
+          "place": "Shelby County, Ohio, United States",
+          "status": "estimated",
+          "country": "united states",
+          "note": "Aged 6 in the 1850 census; drowned at about 12 in 1858 (Faris p.56).",
+          "source_url": "https://www.familysearch.org/ark:/61903/1:1:MX7W-GYN"
+        }
+      },
+      "supersedes": [
+        "Imported birth: 6 June 1840"
+      ]
+    },
+    {
+      "id": "glasgow-3744-death-before-1833-20261101",
+      "subject": "Glasgow-3744",
+      "status": "approved",
+      "reviewed": "2026-11-01",
+      "scope": "death date correction",
+      "basis": "The 10 December 1833 York County deed calls Samuel R. Glasgow one of Hugh Glasgow's sons, already deceased, with his brother Cunningham R. as heir at law. The imported 9 December 1876 death belongs to another Samuel.",
+      "source": {
+        "url": "/people/glasgow-3744.html",
+        "section": "FamilySearch tree comparison corrections, 1 November 2026"
+      },
+      "summary": "Samuel Ramsay Glasgow died before 10 December 1833, probably about 1830; the 1876 death belongs to another Samuel.",
+      "vitals": {
+        "death": {
+          "date": "before 1833-12-10",
+          "display_date": "Before 10 December 1833 (about 1830)",
+          "place": "York County, Pennsylvania, United States",
+          "place_status": "probable",
+          "status": "uncertain",
+          "country": "united states",
+          "note": "The 1833 deed names him as deceased. FamilySearch L1WN-C7Q gives 29 August 1830, Peach Bottom (tree data, not yet a record here)."
+        }
+      },
+      "supersedes": [
+        "Imported death: 9 December 1876, Delta, York, Pennsylvania"
+      ]
+    },
+    {
+      "id": "glasgow-653-death-before-1824-20261101",
+      "subject": "Glasgow-653",
+      "status": "approved",
+      "reviewed": "2026-11-01",
+      "scope": "death date correction",
+      "basis": "The October Term 1824 Adams County, Ohio chancery bill was brought by the administrators of Joseph Glasgow deceased against his heirs (recited in a June 1833–Nov 1834 Adams Co. deed), and the 1880 Caldwell Atlas of Adams County, p. 69, says Joseph died in 1820. His widow Nancy then married Campbell, with daughters born about 1831. The imported 4 November 1856 'Rock ridge, Virginia' death is not supported by any held record.",
+      "source": {
+        "url": "/people/glasgow-653.html",
+        "section": "FamilySearch tree comparison corrections, 1 November 2026"
+      },
+      "summary": "Joseph died before the October 1824 chancery bill, probably about 1820; the imported 1856 death is withdrawn.",
+      "vitals": {
+        "death": {
+          "date": "before 1824-10",
+          "display_date": "About 1820 (before October 1824)",
+          "place": "Adams County, Ohio, United States",
+          "place_status": "probable",
+          "status": "estimated",
+          "country": "united states",
+          "note": "Administrators of Joseph Glasgow deceased sued his heirs at the October Term 1824; the 1880 county atlas gives 1820. FamilySearch LZL4-SY4 also has about 1820, Scott Twp, Adams.",
+          "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-C37R-437Q-R"
+        }
+      },
+      "supersedes": [
+        "Imported death: 4 November 1856, Rock ridge, Virginia"
+      ]
     }
   ]
 }

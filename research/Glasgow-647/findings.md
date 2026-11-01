@@ -12,6 +12,10 @@ The original 1919–1920 memoir identifies S. S. Glasgow by his exact 4 June 185
 
 The memoir does not name the grandfather Joseph. His identification combines the recent family group with the held 1880 account and compiled family placements; it is not a literal father clause for every sibling. Its Scottish immigrant-grandfather tradition conflicts with Joseph’s Virginia birth and may telescope generations. Eliza/Breckenridge matches Campbell-36723, Nancy’s later Campbell daughter born in 1831, so the list appears to mix maternal half-siblings. That prevents assigning every listed child to Joseph. All six reviewed Glasgow siblings were born before his reported 1820 death. The two historical publications predate Faris 1990 but may share earlier family information; their independence is unproved. Original memoir pages were inspected; the 1880 page is used from the complete held biography, and a fresh download returned HTTP 403. Mothers, vital fields and Joseph’s separate 93% Robert-father assessment are unchanged.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [KD3Y-BY4](https://www.familysearch.org/tree/person/details/KD3Y-BY4): father Joseph [LZL4-SY4](https://www.familysearch.org/tree/person/details/LZL4-SY4) added 1 November 2026 (father only).
+
 ## FamilySearch record review, 1 November 2026
 
 Joseph S Glasgow ([Glasgow-653](https://www.wikitree.com/wiki/Glasgow-653)): 92% → **96% (proved)**.

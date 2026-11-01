@@ -55,6 +55,10 @@ This is evidence of a specific purchase and debt history, not proof of an
 inherited Ramelton estate. No parent, wife or Archibald-household relative is
 named. The archival transcription was read; the manuscript image was not.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ96-VGK](https://www.familysearch.org/tree/person/details/PJ96-VGK), child of Archibald [93R3-Z3N](https://www.familysearch.org/tree/person/details/93R3-Z3N) (father only).
+
 ## Source findings
 
 | Source | Finding | Assessment |

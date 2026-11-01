@@ -12,6 +12,10 @@ Current father assessment (22 October 2026): **85% (probable)** for [Glasgow-115
 Reviewed: 2026-10-16
 
 **Selected uncertain Libberton/Uphall families,16 October2026:** Robert of Libberton is placed under Johne-3093 through the conditional Mid Calder/Lindsaylands family route; Thomas of the Clarkson household is placed under John-1105 and Agnes Eastone through possible identity with the 1675 child. All three adult parent links are uncertain; existing dates and competing identities remain. [Evidence and alternatives](/branches/early-scottish-records/#libberton-uphall-working-family).
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-JTL](https://www.familysearch.org/tree/person/details/PJ9X-JTL), child of Alexander [97Q7-NDY](https://www.familysearch.org/tree/person/details/97Q7-NDY) and Isobel Anderson [97Q7-N6W](https://www.familysearch.org/tree/person/details/97Q7-N6W), from the 12 August 1666 St Cuthbert's baptism.
+
 ## Source findings
 
 ### Supplied OPR births and baptisms: row 23 — 10 September 2026

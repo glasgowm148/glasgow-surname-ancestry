@@ -6,6 +6,10 @@ Current father assessment (22 October 2026): **84% (probable)** for [Glasgow-540
 
 William Melanchthon Glasgow’s family history lists Mary among Hugh and Sally Blair’s seven children after their 1777 marriage. Hugh’s 1827 will omits Mary, which does not contradict the earlier list but leaves her individual adult identity poorly documented. Selected father-profile identity and paternal relationship; maternal identity is separate.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ96-JMG](https://www.familysearch.org/tree/person/details/PJ96-JMG), child of Hugh [MW21-PB3](https://www.familysearch.org/tree/person/details/MW21-PB3) and Sallie Blair [K69C-PX6](https://www.familysearch.org/tree/person/details/K69C-PX6).
+
 ## Father confidence review, eighth batch — 22 October 2026
 
 [Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540) remains the selected father, assessed **84% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.

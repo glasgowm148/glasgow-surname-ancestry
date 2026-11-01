@@ -7,6 +7,10 @@ Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-1410]
 
 The exact 1744 dates and Michael Glasgow/Mary Crauford couple identify the adult family strongly. The complete selected profile also includes a 1712 childhood with no explicit adult bridge.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+This profile's FamilySearch link [LK4W-ZR6](https://www.familysearch.org/tree/person/details/LK4W-ZR6) is the wrong man (Thomas Glascow b. 1777 Rathdowney, son of David and Ann Ford). The correct FamilySearch person is **[GSJZ-VKF](https://www.familysearch.org/tree/person/details/GSJZ-VKF)** (b. 3 January 1744, chr. 8 January, Irvine), child of [LVZJ-W4Y](https://www.familysearch.org/tree/person/details/LVZJ-W4Y). Correct the WikiTree FamilySearch ID at the next live save.
+
 ## Current conclusion — Findmypast Glasgow surname evidence fmp-glasgow-2783143b27f7
 
 The transcript-validated baptism record for **Thomas Glasgow**, 08 Jan 1744, Irvine, is assigned to this profile by the completed person-level WikiTree audit. This assignment does not merge any other same-name event.

@@ -26,6 +26,10 @@ categorical exclusion. See the rechecked newspaper transcription in
 re-parenting is recommended; the underlying petition/heir schedule is required
 to test the extended network and full/half relationships.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On FamilySearch she is [G313-GJ2](https://www.familysearch.org/tree/person/details/G313-GJ2); on 1 November 2026 John [M68Z-54K](https://www.familysearch.org/tree/person/details/M68Z-54K) (the Lisnagaver farmer family) was added as her father.
+
 ## Source findings
 
 | Source | Finding | Assessment |

@@ -6,6 +6,10 @@ Current father assessment (22 October 2026): **98% (proved)** for [Glasgow-653](
 
 The held 1880 Adams County biographical sketch explicitly calls Robert A. Glasgow the second son of Joseph and Nancy. His exact 1813 birth and family setting fit the selected Joseph household, yielding a specific named son attribution. Confident 98%; explicit nineteenth-century biographical evidence, not a newly inspected parish or civil original.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [LC5Q-244](https://www.familysearch.org/tree/person/details/LC5Q-244): Joseph [LZL4-SY4](https://www.familysearch.org/tree/person/details/LZL4-SY4) and Ann Nancy [998V-7ZM](https://www.familysearch.org/tree/person/details/998V-7ZM) added 1 November 2026 as preferred parents; the unsourced William Gilbert LZL4-SR2 / Rhoda KTZL-S2G set remains.
+
 ## Father confidence review, third batch — 22 October 2026
 
 [Glasgow-653](https://www.wikitree.com/wiki/Glasgow-653) remains the selected father, assessed **98% (proved)**. Previous selected-tree status: **confident**, without an individual percentage.

@@ -9,6 +9,10 @@ Current father assessment (22 October 2026): **86% (probable)** for [Glasgow-205
 <!-- site-audit-2026-10-07:overall-conclusion -->
 Nothing is yet documented about the life of John Glasgow in this research file. A Drogheda Argus court report of 19 October 1850 naming Sub-constable John Glasgow of the Drogheda police was considered for this profile and withdrawn on 6 October 2026, because no existing WikiTree John fits a constable serving at Drogheda in 1850.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-3MW](https://www.familysearch.org/tree/person/details/PJ9X-3MW), child of Samuel [G823-TTR](https://www.familysearch.org/tree/person/details/G823-TTR) and Ann McCormick [G8P9-QS5](https://www.familysearch.org/tree/person/details/G8P9-QS5).
+
 ## Identity assessment — newspaper candidates withdrawn, 6 October 2026
 
 - [The Drogheda Argus and Leinster Journal, 1850-10-19, p.2](https://www.newspapers.com/image/1259561281/): no longer a candidate for this profile. Drogheda Argus court report (19 Oct 1850): Sub-constable John Glasgow of the Drogheda police caught an oatmeal thief. No existing WikiTree John fits a constable serving at Drogheda in 1850, and the obvious namesakes conflict.

@@ -10,6 +10,10 @@ No inspected record directly names Jane’s father. The citation is incomplete a
 
 This subjective percentage assesses Jane’s father as the record-defined John Glasgow, farmer, named in John-867’s 1846 marriage. It does not identify the 1796 Desertoghill flax grower or establish John’s proposed Larne ancestry. Rosanna Unknown-761034 remains Jane’s separately unproved maternal attachment; this replacement does not identify John’s wife or prove a John–Rosanna marriage. Jane’s life dates and all existing relatives apart from the selected father are preserved. No live WikiTree edit is made.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On FamilySearch she is [G3BR-35Y](https://www.familysearch.org/tree/person/details/G3BR-35Y); on 1 November 2026 John [M68Z-54K](https://www.familysearch.org/tree/person/details/M68Z-54K) (the Lisnagaver farmer family) was added as her father.
+
 ## Life and family
 
 Jane was born about 1804, the estimate implied by her age 64 at death. Her inherited Lisnagavor birthplace remains contributed rather than independently proved. Her 13 September 1868 death at Crushybracken, Rasharkin, was registered on 22 September: married, wife of a farmer; husband James Dysert, present at death, was informant. GRONI Ballymena/Clough entry 418, D/1868/22/1004/1/418, was inspected in the earlier 23 September review.

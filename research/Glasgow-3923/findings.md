@@ -14,6 +14,10 @@ The Inveresk baptism identifies this James as Alexander Glasgow’s son. Identit
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-9PX](https://www.familysearch.org/tree/person/details/PJ9X-9PX) (1626 Inveresk baptism moved here), child of Alexander [K483-FB2](https://www.familysearch.org/tree/person/details/K483-FB2) and Jannet Graham [KCHP-9GL](https://www.familysearch.org/tree/person/details/KCHP-9GL); separated from the Edinburgh weaver G11S-PB9 (our Glasgow-1150).
+
 ## Earlier identity assessment
 
 This profile correctly restores the child baptised at Inveresk and Musselburgh

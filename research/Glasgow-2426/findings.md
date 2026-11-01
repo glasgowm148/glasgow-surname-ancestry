@@ -21,6 +21,10 @@ project tree provides no inspected original record proving William's birth,
 parents, migration or death. Preserve the current fields and parent attachments
 until a sourced replacement is found, but flag them as unproved.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+This profile's FamilySearch link [K2TH-64S](https://www.familysearch.org/tree/person/details/K2TH-64S) is his father James. William's own FamilySearch person is **[MCTD-7P2](https://www.familysearch.org/tree/person/details/MCTD-7P2)**. Correct the WikiTree FamilySearch ID at the next live save.
+
 ## Source findings
 
 | Source | Finding | Assessment |

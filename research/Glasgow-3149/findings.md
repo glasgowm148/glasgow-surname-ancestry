@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-1675]
 
 Isaac’s biography ties William and Nancy directly to the cited Glendinning family memorial account. His 1836 Irish birth fits their children’s chronology; the Denver burial is later identity context. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [9SWT-LSY](https://www.familysearch.org/tree/person/details/9SWT-LSY): parents William [LJGS-BC1](https://www.familysearch.org/tree/person/details/LJGS-BC1) and Nancy [LJGS-BDN](https://www.familysearch.org/tree/person/details/LJGS-BDN) added 1 November 2026.
+
 ## FamilySearch record review, 1 November 2026
 
 William Glasgow ([Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675)): 92% → **96% (proved)**.

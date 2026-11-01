@@ -54,6 +54,10 @@ The [Rasharkin Presbyterian baptism transcription](https://genealogy.torrens.org
 - **Ordnance Survey Memoir emigrant lists**: Rasharkin is not covered; the Antrim lists exist only for Ahoghill, Drummaul, Duneane and Ballyscullion.
 - **Not done:** the New York State Historic Newspapers site was behind a browser verification page and was not searched further. The unread Clinton County results (76 of 96 for Nancy, 33 of 53 for `Glas*`) remain to be read.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On FamilySearch he is [G8WJ-HFW](https://www.familysearch.org/tree/person/details/G8WJ-HFW); on 1 November 2026 John [M68Z-54K](https://www.familysearch.org/tree/person/details/M68Z-54K) was added as a parent set and made preferred over the unsourced Robert GJ9Q-8WS / Catherine MQ57-16T set, which remains.
+
 ## Source findings
 
 ### Source audit — 6 October 2026

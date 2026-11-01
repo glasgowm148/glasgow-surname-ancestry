@@ -65,6 +65,10 @@ full-age bachelor in April 1847 and named his own father as John Glasgow,
 labourer. John `Glasgow-867` had married only five months earlier and was himself
 probably born about 1817. Alexander belongs to a different father-John branch.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On 1 November 2026 three FamilySearch copies were merged into **[M87P-YZ2](https://www.familysearch.org/tree/person/details/M87P-YZ2)**, and his wife's copies into Margaret Garvin [M87P-Y8Q](https://www.familysearch.org/tree/person/details/M87P-Y8Q) (preferred; children Anne MQ57-BBS and James Garvin G3BP-VYX).
+
 ## Source findings
 
 | Source | Finding | Assessment |

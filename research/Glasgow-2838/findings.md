@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-2699]
 
 John Bowling’s 1849 baptism citation and the held Alexander/Mary Ann family account identify a coherent New South Wales child. The rare middle name supports the Bowling/Cupid mother identity, but the literal parental fields and the convict-to-family bridge are not retained. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Father's FamilySearch person is [27VK-PWB](https://www.familysearch.org/tree/person/details/27VK-PWB) (not K83S-3C3); see Glasgow-2699.
+
 ## FamilySearch record review, 1 November 2026
 
 Alexander Glasgow ([Glasgow-2699](https://www.wikitree.com/wiki/Glasgow-2699)): 89% → **95% (proved)**.

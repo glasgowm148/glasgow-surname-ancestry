@@ -10,6 +10,10 @@ Reviewed 21 October 2026. The original Alumni Dublinenses page names Manasses Gl
 
 - [Burtchaell and Sadleir, Alumni Dublinenses (1924), printed p. 328, Findmypast image 364: John Glascow (Glasco) and Manasses Glascow; original printed page inspected 21 October 2026](https://search.findmypast.co.uk/record?id=IRE%2FIE0004%2F364&parentid=IRE%2FIE0004%2F364%2F009)
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ96-XY2](https://www.familysearch.org/tree/person/details/PJ96-XY2), with wife Susannah [PJ96-LX3](https://www.familysearch.org/tree/person/details/PJ96-LX3) and daughter Rosetta [PJ9X-HM3](https://www.familysearch.org/tree/person/details/PJ9X-HM3).
+
 ## Earlier research retained
 
 

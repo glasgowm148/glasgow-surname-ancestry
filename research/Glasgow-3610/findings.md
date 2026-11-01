@@ -14,6 +14,10 @@ The selected local father changes from John-3296, uncertain 28%, to James-991, p
 
 [Current ancestry comparison](/branches/early-scottish-records/#chapter-easter-newton-working-ancestry).
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+The FamilySearch ID 4XPK-FW2 cited for Annah (1652) has been merged into **[P3KS-18F](https://www.familysearch.org/tree/person/details/P3KS-18F)**. On 1 November 2026 the stub father of Margaret (chr. 26 Nov 1646) was merged into this John, [G9JX-XLB](https://www.familysearch.org/tree/person/details/G9JX-XLB), so Margaret [M2Q3-RZP](https://www.familysearch.org/tree/person/details/M2Q3-RZP) now sits under him in a separate unknown-mother family.
+
 ## Earlier research retained
 
 The earlier sections below retain their dated evidence and reasoning. Statements selecting John-3296 or saying the 28% upstream route is unchanged are superseded by the current James-991 selection above. Other family conclusions remain in force.

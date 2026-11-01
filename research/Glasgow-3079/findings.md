@@ -6,6 +6,10 @@ Current father assessment (22 October 2026): **83% (probable)** for [Glasgow-307
 
 The held Archbald Glasgowe 1654 baptism citation is carried with an account naming Archibald Glasgow and Agnes Watson as parents. Archibald and Agnes Watson’s distinctive full couple and South Leith sequence favour the selected Archibald’s family. His 1618 Leith childhood is chronologically compatible with a 1654 child. Probable full-profile continuity; the adult shoemaker and 1618 child have not been explicitly connected by a held kinship record.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [KH9D-X5M](https://www.familysearch.org/tree/person/details/KH9D-X5M): birth corrected on 1 November 2026 from 1618 (his father's baptism year) to 1654, from the 8 October 1654 South Leith christening.
+
 ## Father confidence review, fifth batch — 22 October 2026
 
 [Glasgow-3078](https://www.wikitree.com/wiki/Glasgow-3078) remains the selected father, assessed **83% (probable)**. Previous selected-tree status: **confident**, without an individual percentage.

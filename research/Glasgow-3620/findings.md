@@ -6,6 +6,10 @@ Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-2239]
 
 Ann E’s December 1849–August 1850 infant chronology is supported by the family page and a specifically cited 1850 census. Her Arthur-and-Elizabeth biography fits the last child before Arthur’s death, though the stone’s parent wording is not quoted. Held citation and family narrative address this specific father-child link; no original was newly inspected.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [9NRM-DKJ](https://www.familysearch.org/tree/person/details/9NRM-DKJ) (formerly 'Annie', 1841–1851) was corrected on 1 November 2026 to Ann E, born December 1849, died 30 August 1850, matching this profile.
+
 ## Father confidence review, ninth batch — 22 October 2026
 
 [Glasgow-2239](https://www.wikitree.com/wiki/Glasgow-2239) remains the selected father, assessed **91% (proved)**. Previous selected-tree status: **unmarked**, without an individual percentage.

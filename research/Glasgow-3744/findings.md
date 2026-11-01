@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **90% (proved)** for [Glasgow-2873]
 
 Hugh Glasgow’s held family reconstruction names Samuel Ramsay Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Samuel’s 1808 birth fits the second family but his child profile has no independent substantive source. Selected father-profile identity and paternal relationship; maternal identity is separate.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Death corrected in the research database to **before 10 December 1833 (about 1830)**: the 1833 York County deed already calls Samuel R. deceased. The imported 9 December 1876 death belongs to another Samuel and is withdrawn. FamilySearch [L1WN-C7Q](https://www.familysearch.org/tree/person/details/L1WN-C7Q) gives 29 August 1830, Peach Bottom (tree data). WikiTree correction pending (no live save made).
+
 ## FamilySearch record review, 1 November 2026
 
 Hugh Glasgow ([Glasgow-2873](https://www.wikitree.com/wiki/Glasgow-2873)): 84% → **90% (proved)**.

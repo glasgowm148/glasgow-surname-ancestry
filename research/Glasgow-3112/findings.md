@@ -10,6 +10,10 @@ The 1646/1649 date discrepancy and exact household remain unresolved. The possib
 
 [Current ancestry comparison](/branches/early-scottish-records/#chapter-easter-newton-working-ancestry).
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On FamilySearch she is [M2Q3-RZP](https://www.familysearch.org/tree/person/details/M2Q3-RZP) (Margreat Glasgou, chr. 26 November 1646, Kirknewton and East Calder; [VQ4K-8QZ](https://www.familysearch.org/ark:/61903/1:1:VQ4K-8QZ)), now a child of John [G9JX-XLB](https://www.familysearch.org/tree/person/details/G9JX-XLB) (unknown mother). The Findmypast transcript reads the year as 1649; the original is unchecked.
+
 ## Earlier research retained
 
 The earlier sections below retain their dated evidence and reasoning. Statements selecting John-3296 or saying the 28% upstream route is unchanged are superseded by the current James-991 selection above. Other family conclusions remain in force.

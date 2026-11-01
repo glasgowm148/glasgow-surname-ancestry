@@ -6,6 +6,10 @@ Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-1675]
 
 Henry Cunningham’s parent statement is specifically tied to the Glendinning family memorial account, rather than only a modern tree. His 1830 birth and Ohio burial align with William and Nancy’s documented family chronology. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [G5GL-FL8](https://www.familysearch.org/tree/person/details/G5GL-FL8): parents William [LJGS-BC1](https://www.familysearch.org/tree/person/details/LJGS-BC1) and Nancy [LJGS-BDN](https://www.familysearch.org/tree/person/details/LJGS-BDN) added 1 November 2026.
+
 ## FamilySearch record review, 1 November 2026
 
 William Glasgow ([Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675)): 92% → **97% (proved)**.

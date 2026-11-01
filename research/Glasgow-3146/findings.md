@@ -12,6 +12,10 @@ Source: [Unsigned, *A Brief Memorial of the Deceased Members of the Glendinning 
 
 Next useful test: seek independent parish, obituary, civil or probate evidence identifying this named child within the later adult family; retain each child’s existing identity and date qualifications.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [LVNS-W9B](https://www.familysearch.org/tree/person/details/LVNS-W9B): father William [LJGS-BC1](https://www.familysearch.org/tree/person/details/LJGS-BC1) added 1 November 2026; mother now Nancy [LJGS-BDN](https://www.familysearch.org/tree/person/details/LJGS-BDN) after duplicate merges.
+
 ## FamilySearch record review, 1 November 2026
 
 William Glasgow ([Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675)): 92% → **96% (proved)**.

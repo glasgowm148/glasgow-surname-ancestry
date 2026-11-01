@@ -26,6 +26,10 @@ No mother is selected for James-2682; do not transfer Deborah Ivey or any wife o
 
 [Current Edinburgh identity and ancestry argument](/branches/research-calder-inveresk-james/#chapter-edinburgh-duffe-older-weaver).
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On 1 November 2026 FamilySearch [G11S-PB9](https://www.familysearch.org/tree/person/details/G11S-PB9) was separated from the 1626 Inveresk James (now [PJ9X-9PX](https://www.familysearch.org/tree/person/details/PJ9X-9PX), our Glasgow-3923): the Alexander/Jannet Graham parent set and the 1626 baptism were moved off, and his birth is now 'before 16 June 1641'.
+
 ## Previous research retained
 
 The earlier dated material below remains as evidence history. Statements selecting Johnne26% or saying that ancestry and circa1655 birth stay unchanged are superseded by the current assessment. Other household, mother and child grades remain in force.

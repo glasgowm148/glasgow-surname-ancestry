@@ -6,6 +6,10 @@ Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-223
 
 Nancy M’s 1831–1840 childhood is assigned to Arthur and Elizabeth in the held family reconstruction and memorial trail. Her death before the 1850 census requires the Faris/cemetery evidence, not an assumed household entry. Held citation and family narrative address this specific father-child link; no original was newly inspected.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+Created on FamilySearch on 1 November 2026 as [PJ9X-46F](https://www.familysearch.org/tree/person/details/PJ9X-46F), child of Arthur [K4LF-MF4](https://www.familysearch.org/tree/person/details/K4LF-MF4) and Elizabeth McCullough [27SB-Z1P](https://www.familysearch.org/tree/person/details/27SB-Z1P). FamilySearch 9NRM-DKV (Nancy, b. about 1844) is a different child.
+
 ## Father confidence review, ninth batch — 22 October 2026
 
 [Glasgow-2239](https://www.wikitree.com/wiki/Glasgow-2239) remains the selected father, assessed **89% (probable)**. Previous selected-tree status: **unmarked**, without an individual percentage.
