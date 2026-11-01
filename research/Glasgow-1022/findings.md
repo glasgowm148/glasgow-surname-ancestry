@@ -15,6 +15,10 @@ people and every census detail were retained.
 
 [Current shared comparison](/branches/lisnagaver-rasharkin/#chapter-glenleslie-john-robert-father-test).
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+FamilySearch [M68Z-54K](https://www.familysearch.org/tree/person/details/M68Z-54K) conflated this John with John Glasgow, farmer (Glasgow-4090). On 1 November 2026 it was split: this Glenleslie John is now **[PJ96-VR8](https://www.familysearch.org/tree/person/details/PJ96-VR8)** (born about 1751; alive aged 100 in the 1851 Glenleslie return), and the 1791 couple with Rosanna Alexander [G74B-PC7](https://www.familysearch.org/tree/person/details/G74B-PC7) and nine children moved to him with both 1851 census indexes. FamilySearch still gives Rosanna a 28 October 1822 death, which the 1851 return (Rose, 80) contradicts.
+
 ## Extended-family identity audit, 13 August 2026
 
 The relationship labels in [Glenleslie house 21](https://durrushistory.com/wp-content/uploads/2012/10/1851irishcensusreturnscommadelimitedtextfilejul24_071.pdf)

@@ -8,6 +8,10 @@ Current father assessment (22 October 2026): **37% (possible)** for [Glasgow-417
 
 5 October 2026: this profile remains a possible County Londonderry contemporary of the John Glasco listed 24 September 1799. The [original roster and 1798 Dublin comparison](/research/subjects/newspapers-early-glasgow/#john-glasco-irish-rosters) do not identify him or establish a family relationship. The 1799 list category is unresolved; do not call him a juror or freeholder.
 
+## FamilySearch tree comparison corrections, 1 November 2026
+
+On FamilySearch this John is **[M68Z-54K](https://www.familysearch.org/tree/person/details/M68Z-54K)** after the 1 November 2026 split (the Glenleslie John, Glasgow-1022, is now [PJ96-VR8](https://www.familysearch.org/tree/person/details/PJ96-VR8)). His unknown-mother family holds Samuel, Daniel, Elizabeth G313-GJ2, Jane G3BR-35Y, John M87P-YZ2 (Glasgow-867), Ann PJ9X-RNR, Alexander G8WJ-HFW, Thomas and Nancy PJ96-Q64. Still on M68Z-54K and not placed by our research: the 1750 Mid Calder christening, its Thomas/Janet Mill parents, and a Mary Wilson family (John 9KPS-ZTB, Robert G7Z3-KTD, Adam G7ZS-RCS). His FamilySearch birth was changed to 18 March 1750 during the split by an unexplained edit; our research supports about 1770.
+
 ## Identity and relationship assessments
 
 Identity remains qualified as stated; no relationship status changes.
