@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The held account assigns Eliza Jane (Glasgow) Nelson to William Madison Glasgow and Margaret Wright, citing Faris 1990 p 53 and childhood censuses. Eliza Jane’s 1844 birth and Iowa death/burial citation fit the same family. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
+
+## FamilySearch record review, 1 November 2026
+
+William Madison Glasgow ([Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938)): 89% → **96% (proved)**.
+
+Iowa County Death Records index: Eliza Jane Nelson died 26 Jan 1914 at Washington, Iowa, born 3 Nov 1844 in Ohio, father Madison Glasgow, mother Margaret Wright, spouse John R. Nelson. The exact birth and death dates and place match the profile, and her father's 1880 household was in the same county.
+
+Limits: FamilySearch index only; image not viewed; informant-reported father.
+
+Sources: [Iowa, County Death Records, 1880-1992: Eliza Jane Nelson, 1914](https://www.familysearch.org/ark:/61903/1:1:XVHS-V4F); [Iowa, Death Records, 1904-1951: Eliza Jane Nelson (same event)](https://www.familysearch.org/ark:/61903/1:1:QPJP-FFGQ)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

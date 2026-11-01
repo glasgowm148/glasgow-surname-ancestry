@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (29 October 2026): **87% (probable)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Mariah’s 1845 Ohio birth and named Arthur-and-Jane parent pair fit the Guernsey sibling sequence. Her two bare record links support a research trail but their parent fields are not described in the held packet. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
+
+## FamilySearch record review, 1 November 2026
+
+Arthur Glasgow ([Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608)): 87% → **96% (proved)**.
+
+Ohio Deaths index: Mariah Glasgow McAdam died 19 Jan 1940 at Moorefield, Harrison Co., born 15 Sep 1844, father Arthur Glasgow, mother Jane Neal, husband William Morehand McAdam. Her brother John's 1925 obituary names Mrs Mariah McAdams of Cadiz, where she was buried, and she appears as Maria G. McAdams among Arthur's co-defendants in 1893.
+
+Limits: FamilySearch index only; image not viewed; the profile's current death record belongs to her sister Mary Gray.
+
+Sources: [Ohio, Deaths, 1908-1953: Mariah Glasgow McAdam, 1940](https://www.familysearch.org/ark:/61903/1:1:X8W5-WJK)
 
 ## Father review, 29 October 2026
 

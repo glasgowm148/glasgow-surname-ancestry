@@ -7,9 +7,19 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 Reviewed 31 October 2026. The original Rathdowney entry records Margt baptised on 5 July 1774, born on 4 July, infant of David Glascow and Anne Ford. Sponsors provisionally read Michl Brophy and Anne Gregory; both readings remain tentative. The abbreviated marginal locality is not expanded. This identifies the register child and named parental couple, not Margaret’s later identity or the later Thomas–Johanna Ryan–Michael family. David’s father remains unknown; no Scottish David Glasgow-3456 identification, new father attachment, sponsor kinship or exact townland is inferred. Margaret’s father remains 92%, Thomas’s father 98%; neither is regraded. The previously proposed July 1774 original-entry test is complete, alongside the already inspected 14 September 1773 marriage and Thomas’s 1777 baptism. The former 5 July birthday conflates baptism and birth; the original separately states birth on 4 July. The reviewed local birth field is corrected to4July;5July is retained as baptism. Live WikiTree remains unchanged.
 
-Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-3593](https://www.wikitree.com/wiki/Glasgow-3593). 1774 Margaret→adult Rathdowney David-3593. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **98% (proved)** for [Glasgow-3593](https://www.wikitree.com/wiki/Glasgow-3593). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The original birth/baptism distinction is established in the31October2026review below.
+
+## FamilySearch record review, 1 November 2026
+
+David Glasgow ([Glasgow-3593](https://www.wikitree.com/wiki/Glasgow-3593)): 92% → **98% (proved)**.
+
+Ireland Catholic Parish Registers: Margt Glascow baptised 5 Jul 1774 at Rathdowney, Queen's County, father David Glascow, mother Anne Ford, an entry whose NLI original was inspected on 31 Oct. Her profile is defined by this entry, and the only other child of a David in the parish, Thomas in 1777, has the same parents.
+
+Limits: FamilySearch index plus the earlier inspection of the NLI original; no adult record for her.
+
+Sources: [Ireland, Catholic Parish Registers, 1740-1900: Margt Glascow, Rathdowney, 1774](https://www.familysearch.org/ark:/61903/1:1:X3WR-NMMX)
 
 ## Source findings
 

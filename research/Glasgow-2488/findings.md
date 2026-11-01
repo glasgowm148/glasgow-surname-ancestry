@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-2476](https://www.wikitree.com/wiki/Glasgow-2476). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-2476](https://www.wikitree.com/wiki/Glasgow-2476). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The held 1850 census index places this same-surname child in Neely Glassgow’s Smith County household, matched to Wesley by the 1860/1870 sequence and Charley’s father record. James W recurs in 1860; later Dallas identity adds no father field. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
+
+## FamilySearch record review, 1 November 2026
+
+Wesley Guynn Glasgow ([Glasgow-2476](https://www.wikitree.com/wiki/Glasgow-2476)): 92% → **96% (proved)**.
+
+Texas Deaths index: James William Glasgow died 28 Nov 1936 at Dallas, aged 87, born 1 Jul 1849 in Tennessee, parent Wesley Glasgow. He is James W, 11 months, in the 1850 Smith Co., Tennessee household of Neely and Virginia Glassgow, and siblings' death records name Wesley Glasgow with Virginia Hughes.
+
+Limits: FamilySearch index only; image not viewed; informant-reported father.
+
+Sources: [Texas, Deaths, 1890-1977: James William Glasgow, 1936](https://www.familysearch.org/ark:/61903/1:1:K3H2-ZLJ); [United States, Census, 1850: Neely Glassgow household, Smith, Tennessee](https://www.familysearch.org/ark:/61903/1:1:MCDC-2B4)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

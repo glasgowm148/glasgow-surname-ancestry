@@ -2,9 +2,21 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-2721](https://www.wikitree.com/wiki/Glasgow-2721). Held citation and family narrative address this specific father-child link; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **94% (proved)** for [Glasgow-2721](https://www.wikitree.com/wiki/Glasgow-2721). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 John’s held source statement explicitly calls him son of John and Elizabeth, born in Lanarkshire in 1834. The named couple and younger Robert’s baptism support the selected father, though John’s account lacks an identified original event record. Held citation and family narrative address this specific father-child link; no original was newly inspected.
+
+## FamilySearch record review, 1 November 2026
+
+John Glasgow ([Glasgow-2721](https://www.wikitree.com/wiki/Glasgow-2721)): 88% → **94% (proved)**.
+
+Scotland Births and Baptisms index: John Edwards Glasgow, born 1833, christened in Glasgow, father John Glasgow, mother Elizabeth Campbell; his 1869 civil marriage to Elizabeth Dobbie (age 34, journeyman blacksmith) names the same parents. Only one John appears in that couple's sibling series.
+
+Limits: FamilySearch index only; image not vieweds; the profile is thin and the father is not yet tied to Glasgow-2721's Partick data.
+
+Next test: The 1869 marriage image or ScotlandsPeople entry for place, the father's occupation and whether he was deceased.
+
+Sources: [Scotland, Births and Baptisms, 1564-1950: John Edwards Glasgow, 1833](https://www.familysearch.org/ark:/61903/1:1:CM7B-LBZM); [Scotland, Civil Registration, 1855-1875: marriage of John Glasgow and Elizabeth Dobbie, 1869](https://www.familysearch.org/ark:/61903/1:1:X9T3-T678)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

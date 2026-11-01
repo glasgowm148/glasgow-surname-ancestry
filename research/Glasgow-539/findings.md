@@ -4,6 +4,8 @@ Last updated: 2026-10-07
 
 ## Current conclusion
 
+Current father assessment (1 November 2026): **92% (proved)** for [Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
+
 No inspected obituary has been produced that says Hugh was born in County Down
 or identifies Margaret Cunningham as his twin. The Find a Grave entry reviewed
 during the map audit says only **1786, Ireland** and does not list a twin.
@@ -11,6 +13,18 @@ during the map audit says only **1786, Ireland** and does not list a twin.
 The County Down/twin statement must therefore not be added to WikiTree or used
 to contradict the family's Portglenone/County Londonderry tradition unless the
 claimed 1875 obituary is located and quoted accurately.
+
+## FamilySearch record review, 1 November 2026
+
+Hugh Glasgow ([Glasgow-540](https://www.wikitree.com/wiki/Glasgow-540)): 91% → **92% (proved)**.
+
+An Allegheny Co. deed dated 24 Jun 1822 (recorded 1827) by Hugh Glasgow, Junior, and Margaret his wife conveys part of the Horner tract he received in 1819, showing Hugh-539 styled 'Junior' while Hugh Sr of Deer Twp was alive. Deeds of 1848 and 1874-75 carry the same tract through his family.
+
+Limits: AI full-text transcripts; images not viewed; 'Junior' is a style, not a statement of parentage.
+
+Next test: An Allegheny deed by the heirs or executors of Hugh-540 after 1831 that names Hugh as his son.
+
+Sources: [Allegheny Co., Pennsylvania, Deeds 1827-1828: Hugh Glasgow Jr and wife, 1822](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-7KWT?view=fullText); [Allegheny Co., Pennsylvania, Deeds 1848: Horner tract chain](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-4DBM?view=fullText); [Allegheny Co., Pennsylvania, Deed Books 1874-1875: release among heirs of Hugh Glasgow Jr](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-HSG7-W?view=fullText)
 
 ## WikiTree recommendations
 

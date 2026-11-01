@@ -4,9 +4,19 @@ Last updated: 2026-09-27
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076). Complete selected father-profile proposition; recorded role and adult identification distinguished below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Glasgow-3645 cites the 1867 Ardrossan death-index entry naming Amelia Glasgow, age 87, and mother L’Aborde. This accords with this profile’s Rosalie Laborde parentage and Ardrossan death. The profiles are strong duplicates, but no merge was made because this profile is managed by another member.
+
+## FamilySearch record review, 1 November 2026
+
+Robert Glasgow of Montgreenan ([Glasgow-1076](https://www.wikitree.com/wiki/Glasgow-1076)): 88% → **95% (proved)**.
+
+Scotland civil death index: Amelia Wilson, 87, widow of Andrew Wilson, died 23 Sep 1867 at Ardrossan, father Robert Glasgow, mother Roselie Laborde Glasgow. Her 1804 Kilbirnie marriage to Andrew Wilson, the Laborde mother and UCL's account of Robert's 1803 trust naming natural children John and Emilia all match Robert-1076.
+
+Limits: FamilySearch index only; image not viewed; informant-reported father, and the trust deed itself is unread.
+
+Sources: [Scotland, Civil Registration, 1855-1875, 1881, 1891: death of Amelia Wilson, 1867](https://www.familysearch.org/ark:/61903/1:1:XS7C-L9PR); [Scotland, Marriages, 1561-1910: Amelia Glasgow and Andrew Wilson, Kilbirnie, 1804](https://www.familysearch.org/ark:/61903/1:1:XTRG-QQB)
 
 ## Source findings
 

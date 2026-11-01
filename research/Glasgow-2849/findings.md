@@ -4,9 +4,19 @@
 
 The 5 May 1745 baptism names father John Glasgow and mother Margaret Anderson. The selected identification of that adult father with Glasgow-2847 remains 89% probable; Anderson-83671 stays attached as an unassessed adult-mother mapping. These are distinct from the recorded parent names.
 
-Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-2847](https://www.wikitree.com/wiki/Glasgow-2847). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-2847](https://www.wikitree.com/wiki/Glasgow-2847). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Margaret’s 1745 West Calder event fits the John/Margaret Anderson family independently named for John and Jean. The earlier bare FamilySearch child citation omitted literal parents. Two newly saved companion Findmypast transcripts identify father John Glasgow and mother Margaret Anderson in the 5 May 1745 West Calder baptism; one also records West Calder residence. This establishes the named parent roles in the child event, while the full adult-profile identification and John’s own childhood remain qualified. Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+## FamilySearch record review, 1 November 2026
+
+John Glasgow ([Glasgow-2847](https://www.wikitree.com/wiki/Glasgow-2847)): 89% → **97% (proved)**.
+
+Scotland Births and Baptisms index: Margaret Glasgow christened 5 May 1745 at West Calder, father John Glasgow, mother Margaret Anderson. The profile is defined by this record, the father profile is John, husband of Margaret Anderson, and the parent search returns only one such couple, with four West Calder children.
+
+Limits: FamilySearch index only; image not viewed.
+
+Sources: [Scotland, Births and Baptisms, 1564-1950: Margaret Glasgow, West Calder, 1745](https://www.familysearch.org/ark:/61903/1:1:VQ4T-H5Y)
 
 ## Father confidence review, seventh batch — 22 October 2026
 

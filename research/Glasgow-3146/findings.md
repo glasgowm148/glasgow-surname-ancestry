@@ -12,10 +12,20 @@ Source: [Unsigned, *A Brief Memorial of the Deceased Members of the Glendinning 
 
 Next useful test: seek independent parish, obituary, civil or probate evidence identifying this named child within the later adult family; retain each child’s existing identity and date qualifications.
 
+## FamilySearch record review, 1 November 2026
+
+William Glasgow ([Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675)): 92% → **96% (proved)**.
+
+The 27 Feb 1865 Erie Co., Ohio heirs' deeds name 'James Ewing and Matilda Ewing wife of the said James Ewing' among the heirs of William Glasgow deceased, acknowledging in Hardin Co., where she lived 1860-80; James Ewing was also a surety on the 1855 administration bond. She is Matilda R, 24, in William and Nancy's 1850 Sandusky household.
+
+Limits: AI full-text transcripts; images not viewed; the deeds name heirs rather than children.
+
+Sources: [Erie Co., Ohio, Deeds 1864-1865: heirs of William Glasgow to Jane Glasgow, 27 Feb 1865](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSTC-KQTN-F?view=fullText); [Erie Co., Ohio, Deeds 1864-1865: heirs of William Glasgow, 27 Feb 1865 (companion deed)](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSTC-KQTL-Q?view=fullText); [Erie Co., Ohio, administrators' bond, William Glasgow, 1855](https://www.familysearch.org/ark:/61903/3:1:3QS7-L9MG-MVNJ?view=fullText); [United States, Census, 1850: Wm Glasgow household, Portland, Erie, Ohio](https://www.familysearch.org/ark:/61903/1:1:MX7X-1YN)
+
 ## Earlier conclusion — 22 October 2026, superseded by the review above
 
 
-Current father assessment (22 October 2026): **83% (probable)** for [Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 [Find a Grave memorial 131676817](https://www.findagrave.com/memorial/131676817/matilda-ewing)
 includes a legible gravestone photograph recording birth on 30 March 1826 and

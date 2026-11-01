@@ -10,6 +10,14 @@
 
 Hugh’s existing father [John Glasgow-2871](/people/glasgow-2871.html) remains **probable at 82% (previously 94%)**. Matching locality and consecutive 80-acre tax entries favour the link, but Gibson’s actual p. 414 names neither parent and instead gives an unnamed father’s c1730 immigration and 1772 death. Those conflict with the selected John’s retained 1738/1792 chronology. The original surviving 1792 estate has not resolved the father question. In contrast, Gibson explicitly calls adult Cunningham R. Glasgow Hugh’s son: [Cunningham Ramsay-3742](/people/glasgow-3742.html)’s existing father assessment rises **83% → 97% confident**. No family attachment or vital date is replaced.
 
+## Maria Ramsay's death date conflict, 1 November 2026
+
+Hugh's wife Maria (Ramsay) Glasgow has two incompatible death dates. Gibson's *History of York County* (1886), biographical p. 163, says she married Hugh in 1804 and died in 1820, leaving four sons. Her Find a Grave memorial at Slate Ridge Cemetery, Delta, York County, gives 15 May 1779 to 26 August 1870, aged 91. The memorial has one photo but no transcribed inscription, biography or cited source.
+
+Neither date is preferred yet. Gibson is printed and earlier, but the 1870 date is specific, and the stone photo may show it. The 1850 and 1860 censuses for Peach Bottom Township would settle whether a widow Maria about 70–80 was still living. No father assessment changes: this concerns the mother's dates only.
+
+Sources: [Gibson 1886](https://archive.org/details/historyofyorkcou00gibs); [Find a Grave 162737283](https://www.findagrave.com/memorial/162737283/maria-glasgow).
+
 ## Relationship assessment — newspaper identity review, 6 October 2026
 
 - Glasgow-2871 (John Glasgow, d. 1792) — father of — Glasgow-2873 (Hugh Glasgow, 1769-1818): **research note only** (WikiTree now: linked (relationship status not set)). Not stated in the notice. Supporting, not proving: tax-index succession of the West Nottingham 80-acre holding from John (1787-1791) to Hugh (1793-1799), and Gibson's statement that Hugh was born at Nottingham, where his father had settled. Existing link; record the tax succession as corroboration. ([The Pennsylvania Gazette, 1760-08-14, p.3](https://www.newspapers.com/image/39404812/))

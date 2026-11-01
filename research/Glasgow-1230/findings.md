@@ -2,11 +2,23 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **85% (probable)** for [Glasgow-1227](https://www.wikitree.com/wiki/Glasgow-1227). Complete selected father-profile proposition, with identity limits below. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **92% (proved)** for [Glasgow-1227](https://www.wikitree.com/wiki/Glasgow-1227). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Magdalene’s 1756 Livingston event is chronologically coherent with Abraham/Janet’s repeatedly named family. The previously supplied bare citation did not disclose this entry’s parents; the later derivative indexes name the recorded child’s parents but still do not independently bridge Abraham’s childhood or prove the adult mother-profile identity. Complete selected father-profile proposition, with identity limits below.
 
 Reviewed 23 October 2026: saved Findmypast evidence is integrated below with its exact record role and unresolved conflicts; this reuses existing captures and proposes no new person or relationship.
+
+## FamilySearch record review, 1 November 2026
+
+Abraham Glasgow ([Glasgow-1227](https://www.wikitree.com/wiki/Glasgow-1227)): 85% → **92% (proved)**.
+
+Scotland Births and Baptisms index: Magdalene Glasgow christened 6 Jun 1756 at Livingston, father Abraham Glasgow, mother Janet Cunningham, the same basis as her siblings graded 92. Abraham married Janet Cunningham at Livingston on 17 Dec 1741.
+
+Limits: FamilySearch index only; not new independent evidence, and the bridge from the adult Abraham to the 1719 child is still inferred.
+
+Next test: A West Lothian testament, sasine or kirk-session record connecting Abraham with Thomas Glasgow and Katrin Lasson or Clarkson.
+
+Sources: [Scotland, Births and Baptisms, 1564-1950: Magdalene Glasgow, Livingston, 1756](https://www.familysearch.org/ark:/61903/1:1:X1R2-K19); [Scotland, Marriages: Abraham Glasgow and Janet Cunningham, Livingston, 1741](https://www.familysearch.org/ark:/61903/1:1:XY7B-CZV)
 
 ## Father confidence review, seventh batch — 22 October 2026
 

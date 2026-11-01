@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-2603](https://www.wikitree.com/wiki/Glasgow-2603). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-2603](https://www.wikitree.com/wiki/Glasgow-2603). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 An older migration page states that Adam Glasgow landed at Turakina, New Zealand, in 1840, but the audit passage supplies no passenger, settlement or immigration record.
+
+## FamilySearch record review, 1 November 2026
+
+Robert Glasgow ([Glasgow-2603](https://www.wikitree.com/wiki/Glasgow-2603)): 92% → **97% (proved)**.
+
+Robert Glasgow's will in the Wellington probate file 1876-77 appoints 'my said son Adam Glasgow of Turakina Farmer' executor and names daughters Isabella Lowes, Mary Knox and Ann Hogg, and Adam's affidavit in the same file says Robert died at Turakina about 1 Jan 1877. Adam's 1 Feb 1829 Manchester Cathedral christening names father Robert, and the 1841 Manchester household holds the same sibling set.
+
+Limits: AI full-text transcript; images not viewed; the testator's name is not on the will page itself and rests on the affidavit.
+
+Sources: [Wellington, New Zealand, Probate Records 1876-1877: will of Robert Glasgow (page 3)](https://www.familysearch.org/ark:/61903/3:1:3QS7-99NK-95N); [Wellington, New Zealand, Probate Records 1876-1877: executor's affidavit of Adam Glasgow](https://www.familysearch.org/ark:/61903/3:1:3QS7-99NK-95F); [England, Births and Christenings, 1538-1975: Adam Glasgow, Manchester, 1829](https://www.familysearch.org/ark:/61903/1:1:NGKH-M6J); [England and Wales Census, 1841: Robert Glasgow household, Jackson Street, Manchester](https://www.familysearch.org/ark:/61903/1:1:MQG9-L67)
 
 ## Recommended next records
 

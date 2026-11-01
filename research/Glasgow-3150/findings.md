@@ -12,10 +12,20 @@ Source: [Unsigned, *A Brief Memorial of the Deceased Members of the Glendinning 
 
 Next useful test: seek independent parish, obituary, civil or probate evidence identifying this named child within the later adult family; retain each child’s existing identity and date qualifications.
 
+## FamilySearch record review, 1 November 2026
+
+William Glasgow ([Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675)): 88% → **97% (proved)**.
+
+Ohio Deaths 1908-1953 index: Benjamine Glasgow died 17 May 1916 in Richland Twp, Logan Co., born 10 Jul 1841 in Ireland, father Wm. Glasgow, mother Nancy Glend[inning]. He is also among the heirs of William Glasgow of Sandusky in the 27 Feb 1865 Erie Co. heirs' deeds, and the 1880 census has him as head with 'Mother' Nancy and sister Jane.
+
+Limits: Death index and AI full-text transcripts only; images not viewed; the death-record father is informant-reported.
+
+Sources: [Ohio, Deaths, 1908-1953: Benjamine Glasgow, 1916](https://www.familysearch.org/ark:/61903/1:1:X8NJ-LWY); [Erie Co., Ohio, Deeds 1864-1865: heirs of William Glasgow to Jane Glasgow, 27 Feb 1865](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSTC-KQTN-F?view=fullText); [Erie Co., Ohio, Deeds 1864-1865: heirs of William Glasgow, 27 Feb 1865 (companion deed)](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSTC-KQTL-Q?view=fullText); [United States, Census, 1880: Benj Glasgow household, Richland Twp, Logan, Ohio](https://www.familysearch.org/ark:/61903/1:1:M89V-J73)
+
 ## Earlier conclusion — 22 October 2026, superseded by the review above
 
 
-Current father assessment (22 October 2026): **84% (probable)** for [Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Benjamin’s 1841 Irish birth and named William-and-Nancy parents fit the sibling group extending through Alexander. His Northwood memorial provides identity context, but no literal parent inscription is held. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
 

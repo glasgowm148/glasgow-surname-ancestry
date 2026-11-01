@@ -2,10 +2,20 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **90% (proved)** for [Glasgow-4010](https://www.wikitree.com/wiki/Glasgow-4010). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-4010](https://www.wikitree.com/wiki/Glasgow-4010). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Glasgow-4016 is the US-born Mary aged next birthday 11 in Samuel Glasgow's 1851
 Prescott household. Both parent links and her approximate birth are uncertain.
+
+## FamilySearch record review, 1 November 2026
+
+Samuel Glasgow ([Glasgow-4010](https://www.wikitree.com/wiki/Glasgow-4010)): 90% → **95% (proved)**.
+
+Ontario County Marriage Registers index: Mary E Glasgow, 18, born Prescott, married John Robertson on 30 Jun 1858, father Samuel Glasgow, mother Mary E Glasgow. Her age matches the 1851 Prescott household, and her parents match its heads and Samuel's 1866 will naming his wife Mary E. Easton.
+
+Limits: FamilySearch index only; image not viewed; the Prescott birthplace conflicts with the US birth given in 1851.
+
+Sources: [Canada, Ontario County Marriage Registers, 1858-1869: Mary E Glasgow and John Robertson, 1858](https://www.familysearch.org/ark:/61903/1:1:Q2CB-91M3)
 
 ## Source findings
 

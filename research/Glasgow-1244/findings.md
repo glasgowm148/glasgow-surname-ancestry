@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242). Unnamed child and adult Thomas household; Thomas’s proposed 1675 childhood and Dublin descendant route are separate unresolved identifications. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The father dossier’s FamilySearch citation explicitly identifies Thomas Glasghow in the unnamed 1704 child entry. The same Uphall family later includes Philips 1711 and Thomas 1715, supporting the intended adult father account rather than the child’s generic tree search URL. Unnamed child and adult Thomas household; Thomas’s proposed 1675 childhood and Dublin descendant route are separate unresolved identifications.
+
+## FamilySearch record review, 1 November 2026
+
+Thomas Glasgow ([Glasgow-1242](https://www.wikitree.com/wiki/Glasgow-1242)): 91% → **95% (proved)**.
+
+Scotland Births and Baptisms index: an unnamed son christened 2 Jul 1704 at Uphall, father Thomas Glasghow, mother Jean Duncan. The mother matches the 1701 Linlithgow marriage of Thomas Glasgow and Jean Duncan and the 1711 Uphall baptism of Philip to the same couple; the grade is scoped to Thomas as husband of Jean Duncan.
+
+Limits: FamilySearch index only; image not viewed; the 1675 birth identity of Thomas-1242 is a separate, unresolved bridge.
+
+Sources: [Scotland, Births and Baptisms, 1564-1950: unnamed son of Thomas Glasghow and Jean Duncan, Uphall, 1704](https://www.familysearch.org/ark:/61903/1:1:VQ48-MZ7)
 
 ## Father confidence review, sixth batch — 22 October 2026
 

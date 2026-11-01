@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (29 October 2026): **88% (probable)** for [Glasgow-2873](https://www.wikitree.com/wiki/Glasgow-2873). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-2873](https://www.wikitree.com/wiki/Glasgow-2873). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Hugh Glasgow’s held family reconstruction names Walter Franklin Glasgow, with Find a Grave and the U.S.House biography as sources for the 1769–1818 congressman. Walter’s 1815–1823 entry has a specific family-Bible tradition in his notes. Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+## FamilySearch record review, 1 November 2026
+
+Hugh Glasgow ([Glasgow-2873](https://www.wikitree.com/wiki/Glasgow-2873)): 88% → **97% (proved)**.
+
+York Co., Pennsylvania Orphans' Court minutes, Feb 1818 (p. 238): on the petition of Maria, widow of Hugh Glasgow, James Ramsey was appointed guardian of Hugh, Cunningham, Samuel, William and Walter Glasgow, all under fourteen, 'minor children of said deceased'. He is the only Walter and died in 1823, before the 1833 deeds.
+
+Limits: AI full-text transcript; image not viewed.
+
+Sources: [York Co., Pennsylvania, Court Records 1816-1826: Orphans' Court guardianship, Feb 1818, p. 238](https://www.familysearch.org/ark:/61903/3:1:3QS7-L99B-KDCV)
 
 ## Father review, 29 October 2026
 

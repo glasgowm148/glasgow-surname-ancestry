@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The held account assigns William Wallace Glasgow to William Madison Glasgow and Margaret Wright, citing Faris 1990 p 53 and childhood censuses. William Wallace’s 1849 Adams birth fits; Oregon death-index citation remains untranscribed. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
+
+## FamilySearch record review, 1 November 2026
+
+William Madison Glasgow ([Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938)): 88% → **95% (proved)**.
+
+1880 US census, Jackson Twp, Washington Co., Iowa: William W. Glasgow, 31, born Ohio, is 'Son' of head Madison Glasgow, 62, with mother Margeret A. and sister Eliza J. The 1850 Scott Twp, Adams Co., Ohio household of Madson and Margaret includes Wm W, 1, and Eliza J.
+
+Limits: FamilySearch index only; image not viewed; the 1921 Oregon death is linked to him by name and age only.
+
+Sources: [United States, Census, 1880: William W. Glasgow, son](https://www.familysearch.org/ark:/61903/1:1:MDLG-ZTR); [United States, Census, 1850: Madson Glasgow household, Scott Twp, Adams, Ohio](https://www.familysearch.org/ark:/61903/1:1:MX36-KC9)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

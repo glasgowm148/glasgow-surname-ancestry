@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **92% (proved)** for [Glasgow-62](https://www.wikitree.com/wiki/Glasgow-62). Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-62](https://www.wikitree.com/wiki/Glasgow-62). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Berryman’s 1830 Virginia estimate and 1850 James household entry align with the High Family Journal’s same sibling reconstruction. His distinctive name makes the household child identification strong while the paternal role remains inferred. Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected.
+
+## FamilySearch record review, 1 November 2026
+
+James Glasgow ([Glasgow-62](https://www.wikitree.com/wiki/Glasgow-62)): 92% → **97% (proved)**.
+
+Two separate Pittsylvania marriage-register entries name his parents as James and Susan Glasgow: Berryman M Glasgow to Mary D Hardy on 26 Dec 1865, and B M Glassgow to Louisa Fackler on 20 Dec 1877. The very distinctive name and the 1850 household (Berryman 18, cooper, with James and Susan) secure the identity.
+
+Limits: FamilySearch index only; image not viewed; the 1877 entry was read from search-result lines, and the 1865 entry gives the father an otherwise unused initial A.
+
+Sources: [Virginia, Bureau of Vital Statistics, County Marriage Registers, 1853-1935: Berryman M Glasgow, 1865](https://www.familysearch.org/ark:/61903/1:1:CGDV-6SN2); [Virginia, Vital Records, 1715-1912: 1865 entry (derivative, misread Benj M)](https://www.familysearch.org/ark:/61903/1:1:6NK9-5KYP); [Virginia, Bureau of Vital Statistics, County Marriage Registers, 1853-1935: B M Glassgow and Louisa Fackler, 1877](https://www.familysearch.org/ark:/61903/1:1:CVQM-KR6Z); [Virginia marriage index: B M Glassgow, 1877](https://www.familysearch.org/ark:/61903/1:1:681G-BP1V); [Virginia marriage index: B M Glassgow, 1877](https://www.familysearch.org/ark:/61903/1:1:6NV5-788M)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

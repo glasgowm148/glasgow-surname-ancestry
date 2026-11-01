@@ -2,11 +2,23 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **35% (possible)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The 1740 Edrom birth entry is a high-confidence match to Glasgow-1607. It adds
 a primary parish-index source, directly names father James Glasgow, and
 corrects the current uncertain Kelso birthplace to Edrom, Berwickshire.
+
+## FamilySearch record review, 1 November 2026
+
+James Glasgow ([Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238)): 91% → **35% (possible)**.
+
+Margaret's baptism at Edrom, Berwickshire, 8 Jun 1740, names only father James Glasgow, and the same Edrom register has John christened 25 Jul 1738 to a James, who is already given to a separate Edrom father, Glasgow-4177. Her baptism falls 4.5 months after the Stitchel James and Tait marriage, in another county, and is missing from the Stitchel series, so the same-parish James-4177 is the stronger candidate.
+
+Limits: FamilySearch index only; images not viewed; the father attachment is left unchanged pending owner review of re-pointing to Glasgow-4177.
+
+Next test: View the Edrom OPR 738/4 image (pp. 18 and 24) for residence, witnesses or the mother.
+
+Sources: [Scotland, Births and Baptisms, 1564-1950: Margaret Glasgow, Edrom, 1740](https://www.familysearch.org/ark:/61903/1:1:XYLM-8F9); [Scotland, Births and Baptisms, 1564-1950: John Glasgow, Edrom, 1738](https://www.familysearch.org/ark:/61903/1:1:XTY1-F43)
 
 ## Source findings
 

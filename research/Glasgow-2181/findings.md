@@ -2,9 +2,21 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **89% (probable)** for [Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **93% (proved)** for [Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Faris’s 1990 Glasgow Family genealogy p.80 supports Joseph Glasgow as a child of James Glasgow and Mary McNeil. The 20 October 1820 birth follows their 20 November 1817 Adams County marriage and fits the documented local family. Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+## FamilySearch record review, 1 November 2026
+
+James M Glasgow ([Glasgow-193](https://www.wikitree.com/wiki/Glasgow-193)): 89% → **93% (proved)**.
+
+The family Bible copy lists Joseph among the 'Sons of ... James Glasgow and Mary McNeil' who served in the Civil War, born 20 Oct 1821, which matches the profile's day and month. The year differs from the profile's 1820, and two Ohio-born Joseph Glasgows were in Iowa in 1860.
+
+Limits: AI transcript of a Bible copy; image not viewed; the birth year and the 1866 death are not yet tied to him.
+
+Next test: View the Bible-copy image (birth year and death column) and identify which 1860 Joseph died in 1866.
+
+Sources: [Benson [Black Hawk Co., Iowa]. Cemetery Records, Military Records, Society Records: Glasgow family Bible copy](https://www.familysearch.org/ark:/61903/3:1:3Q9M-C33H-CQHY-V)
 
 ## Father confidence review, eighth batch — 22 October 2026
 

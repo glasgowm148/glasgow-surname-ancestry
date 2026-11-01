@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460). Selected father-profile identity and paternal relationship; maternal identity is separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The held FamilySearch church-index account places Peter Glasgow, 18 March 1808, in John Glasgow and Jean Bryce’s child sequence. The 1841 Hume’s Close household supports that adult family, while identification with the 1783 Bathgate child remains strongly circumstantial. Selected father-profile identity and paternal relationship; maternal identity is separate.
+
+## FamilySearch record review, 1 November 2026
+
+John Glasgow ([Glasgow-1460](https://www.wikitree.com/wiki/Glasgow-1460)): 88% → **95% (proved)**.
+
+Scotland civil death index: Peter Glasgow died 23 Feb 1865 at Canongate, Edinburgh, aged 53, house painter, father John Glasgow, mother Jane Bryce Glasgow, spouse Agnes Newlands. Both parents are named, the place is the Canongate parish of the 1806 and 1808 baptisms, and a parent search for John and Jean Bryce returns no other adult Peter.
+
+Limits: FamilySearch index only; image not viewed; informant-reported parents, and the death age implies about 1812 rather than 1808.
+
+Sources: [Scotland, Civil Registration, 1855-1875, 1881, 1891: death of Peter Glasgow, 1865](https://www.familysearch.org/ark:/61903/1:1:XSN9-8QY6)
 
 ## Father confidence review, eighth batch — 22 October 2026
 

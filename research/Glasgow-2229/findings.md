@@ -2,9 +2,21 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **94% (proved)** for [Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The held account assigns Mary Ann Glasgow to William Madison Glasgow and Margaret Wright, citing Faris 1990 p 53 and childhood censuses. Mary Ann’s 1841 birth fits the eldest child, and her named Washington death index offers a direct verification route. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
+
+## FamilySearch record review, 1 November 2026
+
+William Madison Glasgow ([Glasgow-1938](https://www.wikitree.com/wiki/Glasgow-1938)): 88% → **94% (proved)**.
+
+Washington Death Certificates index: Mary Ann McElwain died 27 Jan 1930 in Seattle, born 6 Oct 1841 in Ohio, mother Margaret Wright (born New York), father given as 'Mathew Glasgow'. The exact birth date, the mother and the 1850 household fit, and only Madison Glasgow is paired with Margaret Wright.
+
+Limits: FamilySearch index only; image unchecked; the certificate gives the father's forename as Mathew, not Madison.
+
+Next test: View the certificate image on N357-XSJ for the father's forename and the informant.
+
+Sources: [Washington, Death Certificates, 1907-1960: Mary Ann McElwain, 1930](https://www.familysearch.org/ark:/61903/1:1:N357-XSJ); [Washington, Deaths and Burials, 1810-1960: Mary Ann McElwain (same certificate)](https://www.familysearch.org/ark:/61903/1:1:HV4X-DKMM)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

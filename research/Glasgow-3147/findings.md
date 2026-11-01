@@ -12,10 +12,20 @@ Source: [Unsigned, *A Brief Memorial of the Deceased Members of the Glendinning 
 
 Next useful test: seek independent parish, obituary, civil or probate evidence identifying this named child within the later adult family; retain each child’s existing identity and date qualifications.
 
+## FamilySearch record review, 1 November 2026
+
+William Glasgow ([Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675)): 86% → **96% (proved)**.
+
+Jane Glasgow was the grantee in the 27 Feb 1865 Erie Co. heirs' deed and is named among the heirs of William Glasgow deceased in the companion deed, and in 1880 she lived with her mother Nancy and brother Benjamin. Her 1903 Logan Co. death record (died 31 Jul 1903, aged 75 y 5 m 3 d) computes exactly to the 28 Feb 1828 birth.
+
+Limits: AI full-text transcripts and FamilySearch indexes; images not viewed; the deeds name heirs rather than children.
+
+Sources: [Erie Co., Ohio, Deeds 1864-1865: heirs of William Glasgow to Jane Glasgow, 27 Feb 1865](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSTC-KQTN-F?view=fullText); [Erie Co., Ohio, Deeds 1864-1865: heirs of William Glasgow, 27 Feb 1865 (companion deed)](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSTC-KQTL-Q?view=fullText); [Ohio, County Death Records: Jane Glasgow, 1903](https://www.familysearch.org/ark:/61903/1:1:F6XW-SPX); [United States, Census, 1880: Benj Glasgow household, Richland Twp, Logan, Ohio](https://www.familysearch.org/ark:/61903/1:1:M89V-J73)
+
 ## Earlier conclusion — 22 October 2026, superseded by the review above
 
 
-Current father assessment (22 October 2026): **82% (probable)** for [Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-1675](https://www.wikitree.com/wiki/Glasgow-1675). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Jane’s 1828 birth and named William-and-Nancy family fit the Irish-born sibling sequence and Ohio cemetery context. Her memorial citation is not accompanied by a held parent inscription, so the attachment remains a strong reconstruction. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
 

@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (29 October 2026): **89% (probable)** for [Glasgow-997](https://www.wikitree.com/wiki/Glasgow-997). Selected Glasgow-997 fatherhood of Glasgow-2374; maternal identity and upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-997](https://www.wikitree.com/wiki/Glasgow-997). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Sarah Ann's 1840 birth fits Robert Alexander's family, and her 1870 entry with Thomas supports the inherited sibling network. Her later children's marriages identify her as Sarah Glasgow but do not name her own father. Selected Glasgow-997 fatherhood of Glasgow-2374; maternal identity and upstream ancestry are separate.
+
+## FamilySearch record review, 1 November 2026
+
+Robert Alexander Glasgow ([Glasgow-997](https://www.wikitree.com/wiki/Glasgow-997)): 89% → **95% (proved)**.
+
+Iowa Death Records index: Sarah Ann Dunn died 18 Aug 1923 in Page Co., aged 82, certificate 73774, father Alexander Glasgow, mother Sarah Taggart. Death date, county, married name and mother all match the profile, and she is Sarah, 19, in the widow Sarah's 1860 household.
+
+Limits: FamilySearch index only; image not viewed; informant-reported father.
+
+Sources: [Iowa, Death Records, 1904-1951: Sarah Ann Dunn, 1923](https://www.familysearch.org/ark:/61903/1:1:68C5-FNB9); [Iowa, Death Records, 1904-1951: Sarah Ann Dunn (duplicate index)](https://www.familysearch.org/ark:/61903/1:1:Q248-4LKL); [Iowa, County Death Records, 1880-1992: Sarah Ann Dunn](https://www.familysearch.org/ark:/61903/1:1:QVMN-2XZ7); [United States, Census, 1860: Sarah Glasco household, Yellow Spring Twp, Des Moines, Iowa](https://www.familysearch.org/ark:/61903/1:1:M82V-XF6)
 
 ## Father review, 29 October 2026
 

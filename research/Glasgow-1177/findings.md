@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **87% (probable)** for [Glasgow-539](https://www.wikitree.com/wiki/Glasgow-539). Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-539](https://www.wikitree.com/wiki/Glasgow-539). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 James is explicitly in Hugh’s 1850 West Deer household, family 177, with an 1828 Pennsylvania birth appropriate to Hugh and Margaret’s children. The named parents in his biography fit the household, though 1850 does not state a relationship. Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected.
+
+## FamilySearch record review, 1 November 2026
+
+Hugh Glasgow ([Glasgow-539](https://www.wikitree.com/wiki/Glasgow-539)): 87% → **96% (proved)**.
+
+Allegheny Co. Deed Book vol. 149 pp. 564-565: a deed of gift of 22 Mar 1860 from Hugh Glasgow Sr, owner of the 1819 Hornor tract in West Deer, conveys 123 acres for 'natural affection for my said son James Glasgow', and the 1874 heirs' releases name James and wife Ann D. as a brother of Hugh Jr. Hugh Sr was alive aged 74 in 1860, which fits only Hugh-539, and James was 22 in his 1850 household.
+
+Limits: AI full-text transcript of the deed-book image; image not viewed.
+
+Sources: [Allegheny Co., Pennsylvania, Deed Book vol. 149 pp. 564-566: Hugh Glasgow Sr deeds of gift, 22 Mar 1860](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-H3DW-G); [Allegheny Co., Pennsylvania, Deed Books 1873-1874: release to John Glasgow among heirs of Hugh Glasgow Jr](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-1HXC)
 
 ## Father confidence review, ninth batch — 22 October 2026
 

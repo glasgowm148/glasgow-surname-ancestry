@@ -2,10 +2,20 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-3612](https://www.wikitree.com/wiki/Glasgow-3612). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-3612](https://www.wikitree.com/wiki/Glasgow-3612). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 <!-- site-audit-2026-10-07:overall-conclusion -->
 George Glasgow was recorded on his profile as living from 1777 to 1857; no record has yet been identified with him in this research. Newspaper notices of 1811 and 1819 naming Colonel, later Major-General, George Glasgow of the Royal Artillery were compared with him and withdrawn on 6 October 2026: they concern the artillery general who served in Canada and died in London in 1820, who has no WikiTree profile.
+
+## FamilySearch record review, 1 November 2026
+
+Alexander Glasgow ([Glasgow-3612](https://www.wikitree.com/wiki/Glasgow-3612)): 88% → **95% (proved)**.
+
+Scotland civil death index: George Glasgow, 80, widowed coachman, died 18 Jun 1857 at Newton Village, Midlothian, father Alexander Glasgow, mother Agnes Glendinan Glasgow. Age, place and the mother (Glendinning-775) match the profile, and Glasgow-3612 is defined by this record.
+
+Limits: FamilySearch index only; image not viewed; informant-reported parents.
+
+Sources: [Scotland, Civil Registration, 1855-1875, 1881, 1891: death of George Glasgow, 1857](https://www.familysearch.org/ark:/61903/1:1:XS6P-KNHG)
 
 ## Identity assessment — military newspapers, 4 October 2026
 

@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (29 October 2026): **85% (probable)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **96% (proved)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 James L’s specific 1843 Londonderry birth fits Arthur’s post-marriage Guernsey family and sibling sequence. The held 1879 Illinois record names James as a parent of another child, not Arthur as James’s father. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
+
+## FamilySearch record review, 1 November 2026
+
+Arthur Glasgow ([Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608)): 85% → **96% (proved)**.
+
+Texas Deaths index: Jas Lee Glasgow died 10 Jul 1922 in San Antonio, aged 79, born 24 Jan 1843 in Ohio, parents Arthur Glasgow and Jane Neil. Death date and place match the profile, and the mother, the 1860 household and the held obituary agree.
+
+Limits: FamilySearch index only; image not viewed; informant-reported father, and the birth day is one day off the profile.
+
+Sources: [Texas, Deaths, 1890-1977: Jas Lee Glasgow, 1922](https://www.familysearch.org/ark:/61903/1:1:K3CV-98S)
 
 ## Father review, 29 October 2026
 

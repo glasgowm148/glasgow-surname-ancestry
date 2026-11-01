@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (29 October 2026): **89% (probable)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **97% (proved)** for [Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Adam appears in Arther Glasgo’s 1860 entry, with a 1841 Guernsey birth compatible with Arthur and Jane’s 1840 marriage. His Ohio-to-Nebraska life account is coherent; the census relation remains inferred. Held citation and associated narrative supports this specific paternal assessment; no original was newly inspected.
+
+## FamilySearch record review, 1 November 2026
+
+Arthur Glasgow ([Glasgow-1608](https://www.wikitree.com/wiki/Glasgow-1608)): 89% → **97% (proved)**.
+
+A lifetime Nebraska county-history biography (Nuckolls County, pp. 754-755) says Adam Glasgow was born in Guernsey Co., Ohio, on 17 Sep 1841 and that 'His father, Arthur Glasgow' was born 1 Jul 1815 and married Jane Neal at Wheeling in 1840. Adam's exact birth date, the father's birth date in the held family register and Adam's later moves all match.
+
+Limits: AI full-text transcript of a county history probably informed by Adam; image not viewed.
+
+Sources: [Webster / Nuckolls / Clay / Adams [Nebraska]. Biographies, History Records 1868-1883: Adam Glasgow, pp. 754-755](https://www.familysearch.org/ark:/61903/3:1:3QS7-L9DX-Y3YC)
 
 ## Father review, 29 October 2026
 

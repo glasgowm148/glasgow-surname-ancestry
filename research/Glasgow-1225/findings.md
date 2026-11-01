@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **88% (probable)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Patrick’s 1742 Stichill event follows the James/Tait marriage and agrees with the maintained adult family. The supplied child citation lacks literal parents; Margaret’s neighbouring 1740 record supports the family context. Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
+
+## FamilySearch record review, 1 November 2026
+
+James Glasgow ([Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238)): 88% → **95% (proved)**.
+
+Scotland Births and Baptisms index: Patrick Glasgow christened 20 Jun 1742 at Stitchel, Roxburghshire, father James Glasgow, mother Elizabath Tait. The child profile is defined by this record, and the father profile is the husband in the only James Glasgow and Elizabath Tait marriage (Stitchel, 25 Jan 1740), whose children continue there to 1750.
+
+Limits: FamilySearch index only; image not viewed; the same held record now read correctly, not a second source.
+
+Sources: [Scotland, Births and Baptisms, 1564-1950: Patrick Glasgow, Stitchel, 1742](https://www.familysearch.org/ark:/61903/1:1:FMMQ-6Q2)
 
 ## Father confidence review, seventh batch — 22 October 2026
 

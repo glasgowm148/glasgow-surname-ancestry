@@ -11,9 +11,21 @@ The held memorial citation instead gives Rhoda M. Fulton as 1823–1868. That ni
 
 [Checked family comparison](/branches/research-irish-moneymore/#robert-phebe-children). [Actual printed pp. 46–47](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS3J-H9F6-3),DGS 007834162,image 1583. The older dated assessment below is superseded only for this father’s grade.
 
+## FamilySearch record review, 1 November 2026
+
+Robert Barclay Glasgow ([Glasgow-835](https://www.wikitree.com/wiki/Glasgow-835)): 85% → **90% (proved)**.
+
+The 1850 census of Scott Twp, Adams Co., Ohio (dwelling 2612) has Rhoda M, 18, in the household of Robt B Glasgow, 46, and Phebe, 43, and the 1860 census agrees on a birth about 1832. This removes the conflict with the memorial's 1823 birth, but no record names her father.
+
+Limits: FamilySearch index only; the census states no relationships.
+
+Next test: Her Ohio marriage to James F. Fulton (Logan or Adams Co.), or a Logan Co. probate of Robert or Phebe.
+
+Sources: [United States, Census, 1850: Robt B Glasgow household, Scott Twp, Adams, Ohio](https://www.familysearch.org/ark:/61903/1:1:MX36-KHL); [United States, Census, 1860: Rhoda M Fulton, McArthur Twp, Logan, Ohio](https://www.familysearch.org/ark:/61903/1:1:MCGP-3LK); [Ohio, County Death Records: Rhoda Fulton, 1868](https://www.familysearch.org/ark:/61903/1:1:F6XW-CZN)
+
 ## Earlier overall conclusion — superseded for this father grade
 
-Current father assessment (22 October 2026): **73% (probable)** for [Glasgow-835](https://www.wikitree.com/wiki/Glasgow-835). Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **90% (proved)** for [Glasgow-835](https://www.wikitree.com/wiki/Glasgow-835). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 The held family account identifies Rhoda Montgomery (Glasgow) Fulton as Robert Barclay Glasgow’s child, generally with Phebe McFall. Rhoda’s stated 1832 birth conflicts with memorial 1823, when Robert was18; this is a real identity/date issue requiring reconciliation. Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.
 

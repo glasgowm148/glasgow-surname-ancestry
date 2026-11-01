@@ -2,9 +2,19 @@
 
 ## Current conclusion
 
-Current father assessment (22 October 2026): **91% (proved)** for [Glasgow-3766](https://www.wikitree.com/wiki/Glasgow-3766). Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.
+Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-3766](https://www.wikitree.com/wiki/Glasgow-3766). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 James Thomas’s 1849 birth fits the young child in Thomas and Mary Ann’s 1850 family, with a second 1860 family citation. The later James-and-Eliza adult trail provides continuity; its married household is supporting identity context rather than independent proof of his father. Held citation and associated historical narrative address this selected father-child identity; no original was newly inspected.
+
+## FamilySearch record review, 1 November 2026
+
+Thomas M Glasgow ([Glasgow-3766](https://www.wikitree.com/wiki/Glasgow-3766)): 91% → **95% (proved)**.
+
+Alabama Deaths index: J. T. Glasgow died 1935 at Heflin, Cleburne Co., aged 87, born S.C., father Thos. Glasgow, mother Polly Bradford, spouse Ida. Censuses from the 1850 Abbeville household of Thomas M and Maryann, through 1860 Calhoun Co., to 1920 Cleburne, and his 1913 marriage to Ida Cook, carry the same man.
+
+Limits: FamilySearch index only; image not viewed; informant-reported father, given without a middle initial.
+
+Sources: [Alabama, Deaths, 1908-1974: J. T. Glasgow, 1935](https://www.familysearch.org/ark:/61903/1:1:JD5K-YMC)
 
 ## Father confidence review, ninth batch — 22 October 2026
 
