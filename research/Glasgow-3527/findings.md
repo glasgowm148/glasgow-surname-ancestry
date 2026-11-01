@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 **31 October 2026:** Helen-3527’s existing father James-3526 improves from 55% Possible to 97% Confident: her 1714 parish transcript and John’s 1717 entry name James, servitor at Leithhead. The shared name, residence, occupation and short interval identify the local paternal household with high confidence. John’s existing father remains 97%; James’s own William father remains 25%. The earlier tree-only limitation is superseded for Helen’s father, not for her exact birth.
 
 Earlier father assessment (22 October 2026; superseded by the 31 October review): **55% (possible)** for [Glasgow-3526](https://www.wikitree.com/wiki/Glasgow-3526). Existing child-to-father link assessed from held public evidence; The account represents the 1717 named James; 1688 is an estimate, Helen is tree-held, and 1547 remains an alternative childhood identity. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.

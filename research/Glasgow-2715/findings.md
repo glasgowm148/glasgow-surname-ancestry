@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 **Proposed son: [George Glasgow-638](https://www.wikitree.com/wiki/Glasgow-638), 88% subjective confidence.** The Crawford gamekeeper’s family fits the 1818 baptism; the later Leicester identity still needs a father-occupation test. The old William Allen Glasgow Royal Engineers comparison is withdrawn. The dated 6 October review records the engineer’s death at Martinique in 1798, incompatible with this gamekeeper’s 1841/1851 census household and 1853 memorial. The 17 October text repeated an earlier candidate and does not restore that identity. No military career is assigned to the Crawford gamekeeper.
 
 

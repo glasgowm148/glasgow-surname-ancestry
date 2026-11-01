@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 Reviewed 30 October 2026: the 1851 heirs deed now supports **97% confident inference** for the existing Elijah-108→Isaac father relationship. Isaac’s own William-357 father remains 95%. The deed explicitly establishes heirship, not a literal son clause. Its grantor group includes spouses, so not every grantor is Isaac’s biological child. The confidence concerns Elijah and the existing Isaac family-role identification; no mother or exact vital date is established by this assessment; the other coheirs are assessed separately. The original obituary and marriage bond were not inspected: the obituary is a checked published abstract, and the marriage is a checked index. Other initialled heirs and possible duplicate accounts remain separate questions.
 
 Earlier dated conclusions below are superseded only for Elijah’s father grade; other assessments and vital fields remain in force.

@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 **New probable father: [William Glasgow-2715](https://www.wikitree.com/wiki/Glasgow-2715), 88% subjective confidence.** Parent names were already in the biography; the selected existing father profile is a new working attachment. The Leicester adult bridge remains qualified.
 
 

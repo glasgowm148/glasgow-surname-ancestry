@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 Reviewed 30 October 2026: **Select [Katherine Wilson-127539](https://www.wikitree.com/wiki/Wilson-127539) as Agnes’s mother at 95% confidence.** Her own 1720 baptism and the matching 1722 Wilson couple connect her to the existing mother account. This supersedes the earlier holding position that left the mother unidentified. The current father and his 94% assessment remain unchanged.
 
 Current father assessment (22 October 2026): **94% (proved)** for [Glasgow-4168](https://www.wikitree.com/wiki/Glasgow-4168). Existing child-to-father link assessed from held public evidence; The merged account covers Gibson, Wilson and Watson entries; one common man, maternal identities and overlap with Robert-3407 remain unresolved. This scoped assessment supersedes earlier grades for this parent pair; other identity questions remain as qualified below.

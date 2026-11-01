@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 Reviewed 30 October 2026: Robert’s proposed father James-3332 remains at 23%. The 1720 maternal reading is corrected to Wilson and Agnes’s new maternal connection is assessed below. No Robert identity merge or American continuation is proved.
 
 **Libberton child review, 17 October 2026:** Robert is the **documented named father in John’s 1722 baptism**. The American continuation attributed to John and Robert’s own ancestry retain their uncertainty.

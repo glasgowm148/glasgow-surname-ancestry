@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 Harvey’s existing father Robert Barclay Glasgow-8 is now 94% Confident, superseding 58% Possible. Faris’s inspected printed page 35 lists Harvey, born 22 September 1816, among the children of Robert B. and Rosannah (Finley) Glasgow. Entry 39 on page 62 independently supplies the full named son clause within the same book and agrees with Harvey-13’s exact birth date and 1874 death year. The father’s entry on page 35 identifies Robert B. as Robert Barclay Glasgow, born 20 January 1783 in Rockbridge County, married Rosannah Finley in 1809 and dead near Hanna City on 15 May 1861, matching Glasgow-8. This explicit, identity-matched compiled family account materially strengthens the selected father beyond the former 2011 tree-import-only basis. The complete Harvey-to-Robert profile pair is assessed at 94% subjective confidence. Faris (1990) is a retrospective compiled genealogy, not an original birth, marriage or probate record. Its family list and individual entry are one source, not independent witnesses; the imported pedigree may share that source. The underlying family papers and contemporary probate were not inspected. This is a reassessment of the same attached father, not a new father or merger. The mother, all vital fields, sibling grades and upstream father grades remain separately assessed and unchanged.
 
 ## Earlier conclusion — superseded for Harvey only on 31 October 2026

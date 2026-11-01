@@ -4,6 +4,8 @@ Last updated: 2026-10-16
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 **31 October 2026:** Helen-3527’s existing father James-3526 improves from 55% Possible to 97% Confident: her 1714 parish transcript and John’s 1717 entry name James, servitor at Leithhead. The shared name, residence, occupation and short interval identify the local paternal household with high confidence. John’s existing father remains 97%; James’s own William father remains 25%. The earlier tree-only limitation is superseded for Helen’s father, not for her exact birth.
 
 Reviewed: 2026-10-16

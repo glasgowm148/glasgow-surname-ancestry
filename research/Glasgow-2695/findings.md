@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+Reviewed: 2026-11-01. Re-read against the later dated sections below; this conclusion already includes them, so no change.
+
 **New proposed father: [John Glasgow-1304](https://www.wikitree.com/wiki/Glasgow-1304), 65% subjective confidence · Probable.** This is a working inference through the 1799Colinton child, not a merger, exact birth replacement, direct parent clause or resolution of John’s ancestry. Previously no father was listed.
 
 ## Colinton–Kirknewton working connection — 31 October 2026
