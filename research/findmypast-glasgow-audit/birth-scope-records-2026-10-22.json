@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 764,
+    "inspected_transcripts": 768,
     "catalogue_integration_complete": false,
     "integrated_record_ids": [
       "R_686309313",
@@ -505,7 +505,9 @@
       "SCOT/OPR/BUR/1591550",
       "SCOT/OPR/BUR/1592752",
       "US/BMD/BILLION/008256900",
-      "US/BMD/PENN-BUR/01460438"
+      "US/BMD/PENN-BUR/01460438",
+      "SCOT/OPR/BUR/1185627",
+      "SCOT/OPR/BUR/1183694"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -774,9 +776,11 @@
       "R_104261737756",
       "R_269836377",
       "R_308760549",
-      "SCOT/OPR/BUR/1216779"
+      "SCOT/OPR/BUR/1216779",
+      "GBPRS/SCOT/MIS/344442",
+      "SCOT/OPR/BUR/1703289"
     ],
-    "next_query_page": 37,
+    "next_query_page": 38,
     "integration_scope": "Pages30–32:24new entries matched existing documentary subjects,11qualified comparisons,17source-only identity/natal-surname/index-artifact holds;8existing-source reuses retained.25current accounts and22preserved complete proposals synchronized; one explicit Montgomry birth correction.12duplicate READY creation placeholders retired to existing people, preserving histories. No new person, relationship or confidence change; originals uninspected; whole-provider scope INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
@@ -1542,9 +1546,13 @@
       "SCOT/OPR/BUR/1591550",
       "SCOT/OPR/BUR/1592752",
       "US/BMD/BILLION/008256900",
-      "US/BMD/PENN-BUR/01460438"
+      "US/BMD/PENN-BUR/01460438",
+      "SCOT/OPR/BUR/1185627",
+      "GBPRS/SCOT/MIS/344442",
+      "SCOT/OPR/BUR/1183694",
+      "SCOT/OPR/BUR/1703289"
     ],
-    "records_with_profile_or_draft_context": 497,
+    "records_with_profile_or_draft_context": 499,
     "remaining_coverage": [
       "Page30 onward of the1719–1799BMD query;15page29identity/scope comparisons remain unresolved despite completed indexing. Earlier windows, other categories/variants and later-life records still require coverage.",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
@@ -1552,27 +1560,27 @@
       "Legacy unattempted, temporarily blocked, subscription-locked and capped search results",
       "Cached subject-outside-cutoff records: screen named parents/relatives before excluding documentary evidence for pre1800 Glasgows."
     ],
-    "verification_report": "research/findmypast-glasgow-audit/page36-verification-2026-11-04.json",
+    "verification_report": "research/findmypast-glasgow-audit/page37-verification-2026-11-04.json",
     "verified_on": "2026-11-04",
-    "indexed_provider_record_count": 764,
-    "next_action": "Capture page 37 of the same query using the existing single working tab after batch verification/commit. Preserve subscription holds; no duplicate accessible-transcript fetch. Whole-provider scope INCOMPLETE.",
-    "recent_query_transcripts": 629,
+    "indexed_provider_record_count": 768,
+    "next_action": "Wind down after this verified page 37 batch is committed unless the owner overrides. Pages38–42 are already captured privately and preflighted; next integration is page 38, next uncaptured search page 43. Preserve 13 observed page 37 scope gaps. Do not start the next investigation automatically.",
+    "recent_query_transcripts": 633,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
-    "recent_query_rows_reviewed": 720,
-    "capture_ledger_note": "819 bounded indexed provider IDs = 764 literal receipts + 53 supporting IDs + 2 search-only holds. 720/5872 query rows reviewed; capture 720. Nineteen new derivative captures, one existing-source reuse and one original newspaper inspection; no new person. Whole-provider coverage INCOMPLETE. Original article is not a transcript provider ID.",
+    "recent_query_rows_reviewed": 740,
+    "capture_ledger_note": "823 bounded indexed provider IDs = 768 literal + 53 supporting + 2 search-held; 840 query rows captured, 740/5872 reviewed. Page 37 adds 4 new derivative provider IDs and 1 separate original-source row, with 0 new people, model vitals,relationships or grades. Thirteen observed scope gaps remain unresolved. Next integration 38 already captured; next uncaptured 43. Whole-provider coverage INCOMPLETE.",
     "capture_count_basis": "Explicit disjoint cohorts: indexed_record_ids, supporting_indexed_record_ids and search_only_indexed_record_ids. Search-only leads remain in pending_detail_provider_ids; fields/secondary-role scope are incomplete.",
-    "recent_query_receipt_reuses": 61,
+    "recent_query_receipt_reuses": 65,
     "recent_query_existing_index_reuses": 2,
     "recent_query_access_holds": 7,
-    "next_search_page_to_capture": 37,
-    "recent_query_rows_captured": 720,
-    "contiguous_query_rows_reviewed": 720,
+    "next_search_page_to_capture": 43,
+    "recent_query_rows_captured": 840,
+    "contiguous_query_rows_reviewed": 740,
     "recent_query_detail_gaps": 2,
     "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 53,
-    "total_indexed_reviewed_provider_ids": 819,
+    "total_indexed_reviewed_provider_ids": 823,
     "capture_review_boundary_20261025": {
       "query_rows_captured": 540,
       "query_rows_identity_reviewed": 540,
@@ -1772,7 +1780,23 @@
       "SCOT/OPR/BAP/4360754",
       "SCOT/OPR/BAP/4602371"
     ],
-    "pending_page36_detail_provider_ids": []
+    "pending_page36_detail_provider_ids": [],
+    "page37_unresolved_scope_gaps": 13,
+    "pending_page37_scope_provider_ids": [
+      "US/BMD/BILLION/006568177",
+      "US/FS/M/012884515/2",
+      "US/FS/M/012883651/1",
+      "US/FS/M/007641796/1",
+      "US/BMD/BILLION/026856539",
+      "US/FS/M/025241258/2",
+      "US/FS/M/025115812/2",
+      "US/FS/M/025478296/1",
+      "US/BMD/BILLION/017396964",
+      "US/FS/M/085281688/1",
+      "US/FS/M/085512065/1",
+      "US/FS/M/085294276/1",
+      "IRE/NAI/GENABS/00612100/1"
+    ]
   },
   "search_pages": [
     {
@@ -11437,6 +11461,295 @@
           "reviewed_on": "2026-11-04"
         }
       ]
+    },
+    {
+      "captured_pages": [
+        37
+      ],
+      "captured_rows": 20,
+      "rows": [
+        {
+          "record_id": "SCOT/OPR/BUR/1185627",
+          "last_name": "Gilmour Or Glasgow",
+          "first_name": "Janet",
+          "birth_year": "1792",
+          "death_year": "1843",
+          "event_year": "1843",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Glasgow, Lanarkshire",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1185627"
+        },
+        {
+          "record_id": "GBPRS/SCOT/MIS/344442",
+          "last_name": "Glasgow Or Gibson",
+          "first_name": "Janet",
+          "birth_year": "1797",
+          "death_year": "1872",
+          "event_year": "1872",
+          "record_set": "Scotland Monumental Inscriptions",
+          "place": "Carstairs, Lanarkshire, Scotland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F344442"
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/1183694",
+          "last_name": "Glasgow Or Scott",
+          "first_name": "Janet",
+          "birth_year": "1791",
+          "death_year": "1840",
+          "event_year": "1840",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Glasgow, Lanarkshire",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1183694"
+        },
+        {
+          "record_id": "SCOT/OPR/BUR/1703289",
+          "last_name": "Hamitton Or Glasgow",
+          "first_name": "Agnes",
+          "birth_year": "1793",
+          "death_year": "1854",
+          "event_year": "1854",
+          "record_set": "Scotland, Parish Deaths & Burials 1564-2017",
+          "place": "Leith, Midlothian",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1703289"
+        },
+        {
+          "record_id": "IRE/NAI/GENABS/00400857/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Betham Genealogical Abstracts",
+          "place": "Ireland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00400857%2F1"
+        },
+        {
+          "record_id": "IRE/NAI/GENABS/00612100/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Crossle Genealogical Abstracts",
+          "place": "Ireland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00612100%2F1"
+        },
+        {
+          "record_id": "IRE/NAI/GENABS/00859808/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Crossle Genealogical Abstracts",
+          "place": "Ireland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00859808%2F1"
+        },
+        {
+          "record_id": "IRE/NAI/GENABS/00325438/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Betham Genealogical Abstracts",
+          "place": "Ireland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=IRE%2FNAI%2FGENABS%2F00325438%2F1"
+        },
+        {
+          "record_id": "US/BMD/BILLION/006568177",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "Ireland Billion Graves Cemetery Index",
+          "place": "Newtownards, Down, Ireland",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FBILLION%2F006568177"
+        },
+        {
+          "record_id": "US/FS/M/012884515/2",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "Alfalfa, Oklahoma, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F012884515%2F2"
+        },
+        {
+          "record_id": "US/FS/M/012883651/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "Alfalfa, Oklahoma, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F012883651%2F1"
+        },
+        {
+          "record_id": "US/FS/M/007641796/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "Bourbon, Kentucky, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F007641796%2F1"
+        },
+        {
+          "record_id": "US/BMD/BILLION/026856539",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Billion Graves Index",
+          "place": "Danville, Virginia, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FBILLION%2F026856539"
+        },
+        {
+          "record_id": "US/FS/M/025241258/2",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "Philadelphia, Pennsylvania, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F025241258%2F2"
+        },
+        {
+          "record_id": "US/FS/M/025115812/2",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "Philadelphia, Pennsylvania, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F025115812%2F2"
+        },
+        {
+          "record_id": "US/FS/M/025478296/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "Philadelphia, Pennsylvania, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F025478296%2F1"
+        },
+        {
+          "record_id": "US/BMD/BILLION/017396964",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Billion Graves Index",
+          "place": "Elkhart, Polk, Iowa, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FBILLION%2F017396964"
+        },
+        {
+          "record_id": "US/FS/M/085281688/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "San Francisco, California, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F085281688%2F1"
+        },
+        {
+          "record_id": "US/FS/M/085512065/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "San Francisco, California, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F085512065%2F1"
+        },
+        {
+          "record_id": "US/FS/M/085294276/1",
+          "last_name": "Glasgow",
+          "first_name": "—",
+          "birth_year": "—",
+          "death_year": "—",
+          "event_year": "—",
+          "record_set": "United States Marriages",
+          "place": "San Francisco, California, United States",
+          "transcript_url": "https://www.findmypast.co.uk/transcript?id=US%2FFS%2FM%2F085294276%2F1"
+        }
+      ],
+      "capture_pointer": "tmp/fmp-pages36-40-20261104/page37-search-dom.json",
+      "birth_query_range": "1719–1799 inclusive (1759 ±40)",
+      "displayed_total": 5872,
+      "review_status": "All 20 rows disposed, including 13 observed unresolved scope gaps; not all 20 are historically eligible people or full transcripts.",
+      "url": "https://www.findmypast.co.uk/search/results?_page=37&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+      "captured_at": "2026-11-04T02:44:56.076989+00:00",
+      "captured_at_basis": "Original saved DOM receipt file modification time",
+      "private_capture": {
+        "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/page37-search-dom.json",
+        "sha256": "b5e759c6bdd92dffb19259807cf425fd9220d3a7077a63057b13d07869f10379"
+      }
+    },
+    {
+      "recorded_on": "2026-11-04",
+      "captured_pages": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "captured_rows": 100,
+      "reviewed_rows": 0,
+      "displayed_total": 5872,
+      "private_manifest": {
+        "path": "data/private/findmypast-captures/2026-11-04/next-pages38-42/manifest.json",
+        "sha256": "643fd3cb40835466e5ec98802ce07fcfebcb3d0e26b28ae4507e67f0b0564cb7"
+      },
+      "pages": [
+        {
+          "page": 38,
+          "url": "https://www.findmypast.co.uk/search/results?_page=38&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+          "captured_at": "2026-11-04T03:25:08.743Z",
+          "captured_rows": 20
+        },
+        {
+          "page": 39,
+          "url": "https://www.findmypast.co.uk/search/results?_page=39&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+          "captured_at": "2026-11-04T03:25:10.475Z",
+          "captured_rows": 20
+        },
+        {
+          "page": 40,
+          "url": "https://www.findmypast.co.uk/search/results?_page=40&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+          "captured_at": "2026-11-04T03:25:12.235Z",
+          "captured_rows": 20
+        },
+        {
+          "page": 41,
+          "url": "https://www.findmypast.co.uk/search/results?_page=41&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+          "captured_at": "2026-11-04T03:25:14.059Z",
+          "captured_rows": 20
+        },
+        {
+          "page": 42,
+          "url": "https://www.findmypast.co.uk/search/results?_page=42&lastname=glasgow&yearofbirth=1759&yearofbirth_offset=40&sourcecategory=life%20events%20(bmds)&sid=998",
+          "captured_at": "2026-11-04T03:25:16.632Z",
+          "captured_rows": 20
+        }
+      ],
+      "review_status": "Captured and offline-preflighted only; next integration page 38. Unbounded personal rows remain private. No transcript or identity investigation begun."
     }
   ],
   "records": {
@@ -27954,8 +28267,23 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Cua Chrome DOM transcript table",
-      "matching_status": "compatible_candidate_hold",
-      "reviewed_on": "2026-10-24"
+      "matching_status": "Inspected derivative; source-defined existing profile subject matched, prior weak association superseded",
+      "reviewed_on": "2026-11-04",
+      "matching_review_history": [
+        {
+          "matching_status": "compatible_candidate_hold",
+          "assessment": null,
+          "reviewed_on": "2026-10-24",
+          "profiles": null
+        }
+      ],
+      "assessment": "Calton burial 9 July 1840, age 49, fever, retained from this derivative. New OPR 1183694 gives Mrs Janet Glasgow Or Scott, age 49, same day labelled DEATH, matching the complete Glasgow-3066 held citation. This supersedes the weak Mrs Glasgow-only match while proving neither natal surname nor an unnamed Scott spouse. The 1843 Calton subject is distinct and now represented by Gilmour-965. Current vital/name/family fields unchanged. Original uninspected; companion derivatives are not independent witnesses. No new vital or relationship assessment.",
+      "profiles": {
+        "Glasgow-3066": {
+          "role": "Matched existing source-defined 1840 Mrs Janet Glasgow/Scott; natal orientation and death-versus-burial label unresolved",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
     },
     "GBPRS/GLASGOW/BUR/093165": {
       "access_status": "accessible",
@@ -27985,8 +28313,23 @@
       },
       "source_level": "Inspected provider derivative transcript; original image not inspected",
       "capture_method": "Cua Chrome DOM transcript table",
-      "matching_status": "compatible_candidate_hold",
-      "reviewed_on": "2026-10-24"
+      "matching_status": "Inspected derivative; source-defined existing profile subject matched, prior weak association superseded",
+      "reviewed_on": "2026-11-04",
+      "matching_review_history": [
+        {
+          "matching_status": "compatible_candidate_hold",
+          "assessment": null,
+          "reviewed_on": "2026-10-24",
+          "profiles": null
+        }
+      ],
+      "assessment": "Calton burial 26 May 1843, age 51, dropsy, retained from this derivative. Newly read OPR 1185627 gives full Gilmour Or Glasgow surname, same age/date and a DEATH label, corresponding to the complete Gilmour-965 held citation. This resolves the recorded profile subject, not her family or natal surname. The earlier Glasgow-3066 name/age comparison is superseded: its complete source defines the distinct 1840 Scott/Glasgow woman. Retain death-versus-burial label conflict and current vital/family fields. Original uninspected; companion derivatives are not independent witnesses. No new vital or relationship assessment.",
+      "profiles": {
+        "Gilmour-965": {
+          "role": "Matched existing source-defined 1843 Janet Gilmour/Glasgow; prior Glasgow-3066 comparison superseded; natal surname and family unproved",
+          "timeline_group": "Records for identity comparison"
+        }
+      }
     },
     "PRS/SCOTLAND/MI/ADD/5/00422894": {
       "access_status": "accessible",
@@ -38876,7 +39219,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1824 | Transcript of William's record",
-      "assessment": "Death 16 September and burial 19 September 1824 are separate explicit labels. Age 76 gives approximate birth 1748; Hailes Quarry is residence. Mortcloth 5/- is recorded. No relatives or occupation are supplied. No adult bridge to the 1747 child; no vital or grade change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"County\": \"Midlothian\", \"Last name\": \"Glasgow\", \"Country\": \"Scotland\", \"Residence\": \"Hailes Quarry\", \"Parish number\": \"677\", \"Birth year\": \"1748\", \"Book\": \"6\", \"Age\": \"76\", \"Page\": \"14\", \"Death year\": \"1824\", \"Additional information\": \"Mortcloth 5/-\", \"Death date\": \"16 Sep 1824\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Burial year\": \"1824\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial date\": \"19 Sep 1824\", \"Subcategory\": \"Parish Burials\", \"Burial place\": \"Colinton\", \"Collections from\": \"Great Britain, Scotland\", \"Place\": \"Colinton\", \"\": \"\"}",
+      "assessment": "Death 16 September and burial 19 September 1824 are separate explicit labels. Age 76 gives approximate birth 1748; Hailes Quarry is residence. Mortcloth 5/- is recorded. No relatives or occupation are supplied. No adult bridge to the 1747 child; no vital or grade change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-gbprs-lothian-fhs-bur-017711",
       "profiles": {
@@ -38922,7 +39265,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1832 | Transcript of William's record",
-      "assessment": "Licence 29 March 1832 for intended marriage at St Cuthbert, York; no marriage completion or actual marriage date is supplied. William age 62, resident York, and Charlotte Wise age 44, parish York; sequence 30, page 130. Wise is a recorded surname, not established maiden name. Current candidate Charlotte birth estimate differs materially. No bachelor/spinster status inferred. Country field absent; collection says England, Great Britain. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Spouse's age\": \"44\", \"Last name\": \"Glasgow\", \"Spouse's parish\": \"York\", \"Age\": \"62\", \"Spouse's county\": \"Yorkshire\", \"Birth year\": \"1770\", \"Notes\": \"-\", \"Residence parish\": \"York\", \"Document ordering\": \"http://www.york.ac.uk/borthwick/remote-services/copying/order-form\", \"Residence county\": \"Yorkshire\", \"Record sequence number\": \"30\", \"Licence year\": \"1832\", \"Page number\": \"130\", \"Licence date\": \"29 Mar 1832\", \"Record set\": \"Yorkshire, Archbishop Of York Marriage Licences Index, 1613-1839\", \"Intended marriage place\": \"St Cuthbert, York\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Spouse's first name(s)\": \"Charlotte\", \"Subcategory\": \"Parish Marriages\", \"Spouse's last name\": \"Wise\", \"Collections from\": \"England, Great Britain\"}",
+      "assessment": "Licence 29 March 1832 for intended marriage at St Cuthbert, York; no marriage completion or actual marriage date is supplied. William age 62, resident York, and Charlotte Wise age 44, parish York; sequence 30, page 130. Wise is a recorded surname, not established maiden name. Current candidate Charlotte birth estimate differs materially. No bachelor/spinster status inferred. Country field absent; collection says England, Great Britain. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-gbprs-or-york-m-00141645-1",
       "profiles": {
@@ -38968,7 +39311,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; identity HOLD",
       "access_note": "William Glasgow in 1834 | Transcript of William's record | Marriage Record | Birth Record | Birth Record",
-      "assessment": "Burial 2 March 1834, age 56, OPR 644-2/10 item 3. Death year and country are literal dashes; no death day or relatives. Country is not filled from surname or Place. Probably companion of GBPRS/GLASGOW/BUR/093125, not independent witness or new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Country\": \"-\", \"Last name\": \"Glasgow\", \"Archive reference\": \"OPR 644-2/10\", \"Birth year\": \"1778\", \"Year Range\": \"1831-1839\", \"Age\": \"56\", \"Item\": \"3\", \"Death year\": \"-\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Burial year\": \"1834\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial date\": \"02 Mar 1834\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Glasgow\", \"Collections from\": \"Great Britain, Scotland\", \"County\": \"Lanarkshire\", \"\": \"\"}",
+      "assessment": "Burial 2 March 1834, age 56, OPR 644-2/10 item 3. Death year and country are literal dashes; no death day or relatives. Country is not filled from surname or Place. Probably companion of GBPRS/GLASGOW/BUR/093125, not independent witness or new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-scot-opr-bur-1216779",
       "profiles": {},
@@ -39003,7 +39346,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; identity HOLD",
       "access_note": "William Glasgow in 1834 | Transcript of William's record",
-      "assessment": "Burial 2 March 1834, age 56. Death date is literally ? ? 1834; exact death day unknown. Notes infn retained without expansion or inference of infancy. Probably companion of SCOT/OPR/BUR/1216779. No compatible identified profile established; source-only HOLD, not new-person justification. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Burial place\": \"Gorbals, Glasgow\", \"Last name\": \"Glasgow\", \"County\": \"Lanarkshire\", \"Birth year\": \"1778\", \"Country\": \"Scotland\", \"Death year\": \"1834\", \"Notes\": \"infn\", \"Death date\": \"? ? 1834\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Age\": \"56\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial year\": \"1834\", \"Subcategory\": \"Parish Burials\", \"Burial date\": \"02 Mar 1834\", \"Collections from\": \"Great Britain, Scotland\"}",
+      "assessment": "Burial 2 March 1834, age 56. Death date is literally ? ? 1834; exact death day unknown. Notes infn retained without expansion or inference of infancy. Probably companion of SCOT/OPR/BUR/1216779. No compatible identified profile established; source-only HOLD, not new-person justification. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093125",
       "profiles": {},
@@ -39041,7 +39384,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1848 | Transcript of William's record",
-      "assessment": "Date is PUBLICATION, 12 April 1848, Manchester Courier and Lancashire General Advertiser, indexed page 6. Derivative labels death as the same day, but the separately inspected original reports 5 April. Preserve derivative status; its 66 age differs from register-index 64. The original supplies ironfounder and engineer, Great Bridgewater-street, and no wife/parents; those original facts are represented by a separate original source row, not relabelled as this derivative. Birth 1782 is age-derived. Candidate Glasgow-3545 is not identified. The original notice was inspected separately; this row preserves the derivative index reading. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Last name\": \"Glasgow\", \"Sex\": \"Male\", \"Birth year\": \"1782\", \"Age\": \"66\", \"Death year\": \"1848\", \"Death date\": \"12 Apr 1848\", \"Place\": \"Manchester\", \"Publication title\": \"Manchester Courier And Lancashire General Advertiser\", \"Publication year\": \"1848\", \"Publication date\": \"12 Apr 1848\", \"Page\": \"6\", \"County\": \"Lancashire\", \"Country\": \"England\", \"Event type\": \"Obituary\", \"Record set\": \"England, Newspaper Death Notices\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Subcategory\": \"Parish Burials\", \"Collections from\": \"Great Britain, England\"}",
+      "assessment": "Date is PUBLICATION, 12 April 1848, Manchester Courier and Lancashire General Advertiser, indexed page 6. Derivative labels death as the same day, but the separately inspected original reports 5 April. Preserve derivative status; its 66 age differs from register-index 64. The original supplies ironfounder and engineer, Great Bridgewater-street, and no wife/parents; those original facts are represented by a separate original source row, not relabelled as this derivative. Birth 1782 is age-derived. Candidate Glasgow-3545 is not identified. The original notice was inspected separately; this row preserves the derivative index reading. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-r-104260820296",
       "profiles": {
@@ -39083,7 +39426,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1848 | Transcript of William's record",
-      "assessment": "Generic Date field 5 April 1848 is not proved burial day or death day. Register type Burial and burial year 1848 are supplied; male William aged 64, spouse Ann Glasgow. No register page or entry reference. Compare 8 April companion cautiously; do not merge events solely on name, age and parish. Original newspaper death 5 April, age 66, does not settle generic index-date role. Ann is spouse, not deceased; no maiden surname supplied. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"County\": \"Lancashire\", \"Last name\": \"Glasgow\", \"Country\": \"England\", \"Sex\": \"Male\", \"Spouse's first name(s)\": \"Ann\", \"Birth year\": \"1784\", \"Spouse's last name\": \"Glasgow\", \"Age\": \"64\", \"Register type\": \"Burial\", \"Burial year\": \"1848\", \"Record set\": \"England, Greater Manchester Burials 1570-1990\", \"Date\": \"05 Apr 1848\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Place\": \"Chorlton upon Medlock, All Saints\", \"Subcategory\": \"Parish Burials\", \"Town\": \"Manchester\", \"Collections from\": \"England, Great Britain\"}",
+      "assessment": "Generic Date field 5 April 1848 is not proved burial day or death day. Register type Burial and burial year 1848 are supplied; male William aged 64, spouse Ann Glasgow. No register page or entry reference. Compare 8 April companion cautiously; do not merge events solely on name, age and parish. Original newspaper death 5 April, age 66, does not settle generic index-date role. Ann is spouse, not deceased; no maiden surname supplied. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-r-102734966661",
       "profiles": {
@@ -39127,7 +39470,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1848 | Transcript of William's record | What can these records tell me?",
-      "assessment": "Generic Date field 8 April 1848 is not proved burial day or death day. Male William, age 64, register type Burial, burial year 1848. No spouse named here. Could be related to 5 April index and original 5 April death notice, but register and identity remain unproved; original notice age 66 differs. No death or burial adopted for a profile. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Town\": \"Manchester\", \"Last name\": \"Glasgow\", \"County\": \"Lancashire\", \"Sex\": \"Male\", \"Country\": \"England\", \"Birth year\": \"1784\", \"Register type\": \"Burial\", \"Age\": \"64\", \"Record set\": \"England, Greater Manchester Burials 1570-1990\", \"Burial year\": \"1848\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Date\": \"08 Apr 1848\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Chorlton upon Medlock, All Saints\", \"Collections from\": \"England, Great Britain\"}",
+      "assessment": "Generic Date field 8 April 1848 is not proved burial day or death day. Male William, age 64, register type Burial, burial year 1848. No spouse named here. Could be related to 5 April index and original 5 April death notice, but register and identity remain unproved; original notice age 66 differs. No death or burial adopted for a profile. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-r-102734948331",
       "profiles": {
@@ -39169,7 +39512,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; identity HOLD",
       "access_note": "William Glasgow in 1849 | Transcript of William's record",
-      "assessment": "Explicit burial 1 November 1849 at St Andrew, Newcastle, age 59y; residence literal St. Andrew, England. No death day or kin. Birth 1790 is age-derived. Compare DURHAM/BT/BUR/0279703 and newspaper R_104261737756 as likely related sources, not independent votes or proved duplicate subjects. No positive catalogue identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Residence\": \"St. Andrew, England\", \"Last name\": \"Glasgow\", \"Place\": \"Newcastle upon Tyne\", \"Sex\": \"Male\", \"County\": \"Northumberland\", \"Birth year\": \"1790\", \"Country\": \"England\", \"Event year\": \"1849\", \"Record set\": \"England Deaths & Burials 1538-1991\", \"Age at death\": \"59y\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial year\": \"1849\", \"Subcategory\": \"Parish Burials\", \"Burial date\": \"01 Nov 1849\", \"Collections from\": \"England, Great Britain\", \"Burial place\": \"St. Andrew, Newcastle, England\", \"\": \"\"}",
+      "assessment": "Explicit burial 1 November 1849 at St Andrew, Newcastle, age 59y; residence literal St. Andrew, England. No death day or kin. Birth 1790 is age-derived. Compare DURHAM/BT/BUR/0279703 and newspaper R_104261737756 as likely related sources, not independent votes or proved duplicate subjects. No positive catalogue identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-r-269836377",
       "profiles": {},
@@ -39210,7 +39553,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; identity HOLD",
       "access_note": "William Glasgow in 1849 | Transcript of William's record | Marriage Record | Marriage Record",
-      "assessment": "Burial 1 November 1849, age 59, Anglican, residence Painter Heugh; Durham University Library bishop’s transcript DDR/EA/PBT/2/190, range 1838–1857. Death year is dash. Painter Heugh is residence, not birth location. Age-derived birth about 1790. No relatives; no positive profile bridge. Source-only HOLD; likely companion comparison with R_269836377 and newspaper, originals uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Country\": \"England\", \"Last name\": \"Glasgow\", \"Archive reference\": \"DDR/EA/PBT/2/190\", \"Birth year\": \"1790\", \"Archive\": \"Durham University Library\", \"Age\": \"59\", \"Register type\": \"Baptisms & burials\", \"Death year\": \"-\", \"Register year range\": \"1838-1857\", \"Burial year\": \"1849\", \"Document type\": \"Bishop's Transcripts\", \"Burial date\": \"01 Nov 1849\", \"Record set\": \"Northumberland Burials\", \"Residence\": \"Painter Heugh\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Denomination\": \"Anglican\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Newcastle upon Tyne, St Andrew\", \"Collections from\": \"England, Great Britain\", \"County\": \"Northumberland\", \"\": \"\"}",
+      "assessment": "Burial 1 November 1849, age 59, Anglican, residence Painter Heugh; Durham University Library bishop’s transcript DDR/EA/PBT/2/190, range 1838–1857. Death year is dash. Painter Heugh is residence, not birth location. Age-derived birth about 1790. No relatives; no positive profile bridge. Source-only HOLD; likely companion comparison with R_269836377 and newspaper, originals uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-durham-bt-bur-0279703",
       "profiles": {},
@@ -39249,7 +39592,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; identity HOLD",
       "access_note": "William Glasgow in 1849 | Transcript of William's record",
-      "assessment": "Date is PUBLICATION, 3 November 1849, Newcastle Guardian and Tyne Mercury, page 5. Derivative labels death 3 November as well; actual death day is not established without original notice. Age 59 and Newcastle context support comparison with 1 November burial, but literal death label postdates burial and may be publication indexing or distinct subjects. No named relatives or positive profile identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Publication date\": \"3 Nov 1849\", \"Last name\": \"Glasgow\", \"Page\": \"5\", \"Sex\": \"Male\", \"County\": \"Northumberland\", \"Birth year\": \"1790\", \"Country\": \"England\", \"Age\": \"59\", \"Event type\": \"Obituary\", \"Death year\": \"1849\", \"Record set\": \"England, Newspaper Death Notices\", \"Death date\": \"03 Nov 1849\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Place\": \"Newcastle-Upon-Tyne\", \"Subcategory\": \"Parish Burials\", \"Publication title\": \"Newcastle Guardian And Tyne Mercury\", \"Collections from\": \"Great Britain, England\", \"Publication year\": \"1849\", \"\": \"\"}",
+      "assessment": "Date is PUBLICATION, 3 November 1849, Newcastle Guardian and Tyne Mercury, page 5. Derivative labels death 3 November as well; actual death day is not established without original notice. Age 59 and Newcastle context support comparison with 1 November burial, but literal death label postdates burial and may be publication indexing or distinct subjects. No named relatives or positive profile identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-r-104261737756",
       "profiles": {},
@@ -39302,7 +39645,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected companion derivative; existing memorial identity retained, age conflict HOLD",
       "access_note": "William Glasgow in 1853 | Transcript of William's record",
-      "assessment": "Literal inscription supplies William gamekeeper to Earl of Hopetoun, died 26 April 1853 aged 71; Janet Thomson spouse, died 1 April 1845 aged 62; her children John/James died in infancy and George 21 July 1816 aged 7; Isabel Glasgow 27 November 1881 aged 73. Isabel is not explicitly called daughter in this wording; family context supports that separately. Rich exact family repetition identifies companion to existing Crawford memorial, not independent corroboration. Existing source gives William age 74 versus 71 here; retain both, original uninspected. Leadhills Cemetery is literal new locality; older Crawford/combined cemetery scope is not silently normalized. Earlier George is not 1818-born Glasgow-638; retain existing 88% without upgrade. No new people, family attachments or vital adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Place\": \"Leadhills\", \"Last name\": \"Glasgow\", \"County\": \"Lanarkshire\", \"Birth year\": \"1782\", \"Country\": \"Scotland\", \"Age\": \"71\", \"Record set\": \"Scotland Monumental Inscriptions\", \"Death year\": \"1853\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Inscription\": \"In memory of Janet Thomson spouse of William Glasgow, Gamekeeper to the Right Honourable, The Earl of Hopetoun d. 1.4.1845 aged 62. Also 3 of her children, John and James d. in infancy. George d. 21.7.1816 aged 7y. Also the said William Glasgow d. 26.4.1853 aged 71y. Isabel Glasgow d. 27.11.1881 aged 73y\", \"Subcategory\": \"Parish Burials\", \"Cemetery\": \"Leadhills Cemetery\", \"Collections from\": \"Great Britain, Scotland\"}",
+      "assessment": "Literal inscription supplies William gamekeeper to Earl of Hopetoun, died 26 April 1853 aged 71; Janet Thomson spouse, died 1 April 1845 aged 62; her children John/James died in infancy and George 21 July 1816 aged 7; Isabel Glasgow 27 November 1881 aged 73. Isabel is not explicitly called daughter in this wording; family context supports that separately. Rich exact family repetition identifies companion to existing Crawford memorial, not independent corroboration. Existing source gives William age 74 versus 71 here; retain both, original uninspected. Leadhills Cemetery is literal new locality; older Crawford/combined cemetery scope is not silently normalized. Earlier George is not 1818-born Glasgow-638; retain existing 88% without upgrade. No new people, family attachments or vital adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-gbprs-scot-mis-511339",
       "profiles": {
@@ -39350,7 +39693,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1855 | Transcript of William's record | What can these records tell me?",
-      "assessment": "Explicit death 25 March 1855, age 70; Board of Health Registers of Deaths, register labelled Burial, Philadelphia parish/diocese. No exact burial day or address (dash). Birth 1785 is age-derived. Glasgow-1552 has approximate circa 1781 birth and circa February 1853 death, not decisive exclusions; no identity or vital correction established. Original uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"State\": \"Pennsylvania\", \"Last name\": \"Glasgow\", \"Country\": \"United States\", \"Age\": \"70\", \"Institution\": \"Board of Health Registers of Deaths\", \"Birth year\": \"1785\", \"Archive\": \"Historical Society of Pennsylvania\", \"Death year\": \"1855\", \"Register\": \"Burial\", \"Death date\": \"25 Mar 1855\", \"Date range\": \"1853-1855\", \"Burial year\": \"1855\", \"Record set\": \"Historical Society Of Pennsylvania, Deaths & Burials\", \"Address\": \"-\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Parish\": \"Philadelphia\", \"Subcategory\": \"Civil Deaths & Burials\", \"Diocese\": \"Philadelphia\", \"Collections from\": \"Americas, United States\"}",
+      "assessment": "Explicit death 25 March 1855, age 70; Board of Health Registers of Deaths, register labelled Burial, Philadelphia parish/diocese. No exact burial day or address (dash). Birth 1785 is age-derived. Glasgow-1552 has approximate circa 1781 birth and circa February 1853 death, not decisive exclusions; no identity or vital correction established. Original uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-us-bmd-penn-bur-01460438",
       "profiles": {
@@ -39391,7 +39734,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; identity HOLD",
       "access_note": "William Glasgow in 1868 | Transcript of William's record",
-      "assessment": "Explicit death 18 March 1868, age 99y; burial year only 1868, parish dash. Film 1157982, batch I01580-7. Birth 1769 is age-derived, no exact birth event or kin. No Barbados identity bridge; source-only HOLD. No new person justified by missing match. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Burial year\": \"1868\", \"Last name\": \"Glasgow\", \"Parish\": \"-\", \"Sex\": \"Male\", \"Country\": \"Barbados\", \"Birth year\": \"1769\", \"Film number\": \"1157982\", \"Age\": \"99y\", \"Batch number\": \"I01580-7\", \"Record set\": \"Barbados Deaths & Burials 1637-1887\", \"Year\": \"1868\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Death year\": \"1868\", \"Subcategory\": \"Civil Deaths & Burials\", \"Death date\": \"18 Mar 1868\", \"Collections from\": \"Americas, Caribbean\"}",
+      "assessment": "Explicit death 18 March 1868, age 99y; burial year only 1868, parish dash. Film 1157982, batch I01580-7. Birth 1769 is age-derived, no exact birth event or kin. No Barbados identity bridge; source-only HOLD. No new person justified by missing match. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-r-308760549",
       "profiles": {},
@@ -39424,7 +39767,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1873 | Transcript of William's record",
-      "assessment": "Death year 1873 and age 89 only; no exact death or birth day, no inscription wording or relatives. St Johns Kirk, Biggar is indexed cemetery/place, not birth or death address. Candidate Glasgow-2876 has 25 December 1873 Symington death and uncertain 1783 birth; current Symington Churchyard versus St Johns Kirk, Biggar requires original/photo comparison. Existing Margaret Graham/Henderson inconsistency is not resolved by this spouse-free source. No vital or cemetery assignment. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"County\": \"Lanarkshire\", \"Last name\": \"Glasgow\", \"Country\": \"Scotland\", \"Birth year\": \"1784\", \"Notes\": \"For further information on this individual and a possible photograph of the grave or memorial, please contact the licensor at  www.scottish-monumental-inscriptions.com \", \"Age\": \"89\", \"Record set\": \"Scotland Monumental Inscriptions\", \"Death year\": \"1873\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Cemetery\": \"St Johns Kirk\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Biggar\", \"Collections from\": \"Great Britain, Scotland\"}",
+      "assessment": "Death year 1873 and age 89 only; no exact death or birth day, no inscription wording or relatives. St Johns Kirk, Biggar is indexed cemetery/place, not birth or death address. Candidate Glasgow-2876 has 25 December 1873 Symington death and uncertain 1783 birth; current Symington Churchyard versus St Johns Kirk, Biggar requires original/photo comparison. Existing Margaret Graham/Henderson inconsistency is not resolved by this spouse-free source. No vital or cemetery assignment. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-gbprs-scot-mis-204969",
       "profiles": {
@@ -39464,7 +39807,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "William Glasgow in 1876 | Transcript of William's record",
-      "assessment": "Explicit derivative birth 4 October 1787 and death 8 April 1876, Calvary Cemetery, St Louis, Missouri. No birthplace, relatives or explicit natal-surname clause. Linked BillionGraves image http://billiongraves.com/pages/record/William-Glasgow/5585766 uninspected. Glasgow-3678 circa 1788 and blank death permit comparison; reported 1865 death remains unverified, no St Louis bridge. Preserve 30% Joseph father and existing child grades. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"Record set\": \"United States Billion Graves Index\", \"Country\": \"United States\", \"First name(s)\": \"William\", \"Cemetery\": \"Calvary Cemetery\", \"Last name\": \"Glasgow\", \"Birth date\": \"04 Oct 1787\", \"Birth year\": \"1787\", \"Death date\": \"08 Apr 1876\", \"Death year\": \"1876\", \"Image link\": \"http://billiongraves.com/pages/record/William-Glasgow/5585766\", \"City\": \"St Louis\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"County\": \"St Louis\", \"Subcategory\": \"Civil Deaths & Burials\", \"State\": \"Missouri\", \"Collections from\": \"Americas, United States\"}",
+      "assessment": "Explicit derivative birth 4 October 1787 and death 8 April 1876, Calvary Cemetery, St Louis, Missouri. No birthplace, relatives or explicit natal-surname clause. Linked BillionGraves image http://billiongraves.com/pages/record/William-Glasgow/5585766 uninspected. Glasgow-3678 circa 1788 and blank death permit comparison; reported 1865 death remains unverified, no St Louis bridge. Preserve 30% Joseph father and existing child grades. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-us-bmd-billion-008256900",
       "profiles": {
@@ -39504,7 +39847,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected civil index; matched existing held death, no vital change",
       "access_note": "William Glasgow in 1883 | Transcript of William's record",
-      "assessment": "Civil registration index Jul–Sep 1883, Cookstown, age 87, volume 1 page 300; birth 1796 is age-derived. Matches existing held original William Glasgow death, 4 July 1883, Loy, but index itself supplies no exact death day, address, bachelor status, occupation or informant. Reuse Glasgow-3814; no vital replacement or confidence change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Country\": \"Ireland\", \"Last name\": \"Glasgow\", \"Volume\": \"1\", \"Birth year\": \"1796\", \"Page\": \"300\", \"Age\": \"87\", \"Record set\": \"Irish Deaths 1864 - 1958\", \"Registration year\": \"1883\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Registration quarter & year\": \"Jul - Sep 1883\", \"Subcategory\": \"Civil Deaths & Burials\", \"Registration district\": \"Cookstown\", \"Collections from\": \"Ireland\", \"County\": \"Tyrone\", \"\": \"\"}",
+      "assessment": "Civil registration index Jul–Sep 1883, Cookstown, age 87, volume 1 page 300; birth 1796 is age-derived. Matches existing held original William Glasgow death, 4 July 1883, Loy, but index itself supplies no exact death day, address, bachelor status, occupation or informant. Reuse Glasgow-3814; no vital replacement or confidence change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-ire-bmd-d-579147620",
       "profiles": {
@@ -39554,7 +39897,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; identity HOLD",
       "access_note": "Janet Glasgow/bryce in 1886 | Transcript of Janet's record",
-      "assessment": "Death 27 May 1886 and interment 29 May are separately labelled. Janet Glasgow/bryce age 90, Livery St, Bathgate Glasgow Road, section D lair 81 depth 5, private, charges 5/-, interment 4455, Old Age; Relict Of William Bryce Weaver By Hearse. Occupation field dash: do not assign weaver to Janet. Birth 1796 is age-derived, natal Glasgow not independently proved by slash surname. Existing 1796/1797 Janet candidates remain unexcluded but no positive identity; source-only HOLD, no new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"First name(s)\": \"Janet\", \"Last name\": \"Glasgow/bryce\", \"Burial year\": \"1886\", \"Birth year\": \"1796\", \"Death year\": \"1886\", \"Occupation\": \"-\", \"County\": \"Linlithgowshire (West Lothian)\", \"Country\": \"Scotland\", \"Place\": \"Bathgate\", \"Cemetery\": \"Bathgate Glasgow Road\", \"Death date\": \"27 May 1886\", \"Cause of death\": \"Old Age\", \"Age\": \"90\", \"Interment date\": \"29 May 1886\", \"Residence\": \"Livery St\", \"Section\": \"D\", \"Lair\": \"81\", \"Depth\": \"5\", \"Charges paid\": \"5/-\", \"Private or common ground\": \"Private\", \"Interment number\": \"4455\", \"Additional information\": \"Relict Of William Bryce Weaver By Hearse\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Subcategory\": \"Parish Burials\", \"Collections from\": \"Great Britain, Scotland\"}",
+      "assessment": "Death 27 May 1886 and interment 29 May are separately labelled. Janet Glasgow/bryce age 90, Livery St, Bathgate Glasgow Road, section D lair 81 depth 5, private, charges 5/-, interment 4455, Old Age; Relict Of William Bryce Weaver By Hearse. Occupation field dash: do not assign weaver to Janet. Birth 1796 is age-derived, natal Glasgow not independently proved by slash surname. Existing 1796/1797 Janet candidates remain unexcluded but no positive identity; source-only HOLD, no new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-gbprs-d-scot-linl-bur-018005",
       "profiles": {},
@@ -39597,7 +39940,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "Jane Bryce Or Glasgow in 1848 | Transcript of Jane's record",
-      "assessment": "Jane Bryce Or Glasgow, wife of John Glasgow, age 67, Skinners Close Edinburgh; death and burial both explicitly 25 January 1848. Preserve same-day labels, do not move either. Occupation Warhouse porter has unclear field owner; do not assign to Jane. OPR 685_3/35 item 3 page 27. Country is dash. Bryce-1075 is natal Bryce, not a Glasgow-born woman; record scope retained through named pre-1800 candidate husband John Glasgow-1460. Jane/Jean variant and Edinburgh porter context support comparison, not identity; current 1786 estimate differs from age-derived about 1781. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"Jane\", \"Place\": \"Edinburgh\", \"Last name\": \"Bryce Or Glasgow\", \"County\": \"Midlothian\", \"Occupation\": \"Warhouse porter\", \"Country\": \"-\", \"Birth year\": \"1781\", \"Page\": \"27\", \"Age\": \"67\", \"Archive reference\": \"OPR 685_3/35\", \"Death year\": \"1848\", \"Year Range\": \"1847-1854\", \"Death date\": \"25 Jan 1848\", \"Item\": \"3\", \"Burial year\": \"1848\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Burial date\": \"25 Jan 1848\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Next of kin relationship\": \"Wife of\", \"Subcategory\": \"Parish Burials\", \"Next of kin name\": \"John Glasgow\", \"Collections from\": \"Great Britain, Scotland\", \"Residence\": \"Skinners Close Edinburgh\", \"\": \"\"}",
+      "assessment": "Jane Bryce Or Glasgow, wife of John Glasgow, age 67, Skinners Close Edinburgh; death and burial both explicitly 25 January 1848. Preserve same-day labels, do not move either. Occupation Warhouse porter has unclear field owner; do not assign to Jane. OPR 685_3/35 item 3 page 27. Country is dash. Bryce-1075 is natal Bryce, not a Glasgow-born woman; record scope retained through named pre-1800 candidate husband John Glasgow-1460. Jane/Jean variant and Edinburgh porter context support comparison, not identity; current 1786 estimate differs from age-derived about 1781. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-scot-opr-bur-1592752",
       "profiles": {
@@ -39647,7 +39990,7 @@
       "source_level": "Inspected provider derivative transcript; original record uninspected",
       "matching_status": "Inspected derivative transcript; qualified existing candidate comparison, identity HOLD",
       "access_note": "Elizabeth Dick Or Glasgow in 1844 | Transcript of Elizabeth's record",
-      "assessment": "Elizabeth Dick Or Glasgow age 89, No 4 Norton Place; death 11 June, burial 14 June 1844; Relict of Peter Glurgow literal spelling, OPR 685_3/34 item 2 page 291. Country dash. Dick-6841 natal Dick and Peter-1466 remain candidate couple; record eligible through pre-1800 Glasgow husband context, not natal Glasgow woman. Current weak circa 1767 estimate differs from age-derived about 1755, but both permit childbearing chronology. Relict establishes a boundary for the record husband, not automatically Peter-1466. No death/vital/relationship adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"Elizabeth\", \"Place\": \"Edinburgh\", \"Last name\": \"Dick Or Glasgow\", \"County\": \"Midlothian\", \"Birth year\": \"1755\", \"Country\": \"-\", \"Age\": \"89\", \"Page\": \"291\", \"Death year\": \"1844\", \"Archive reference\": \"OPR 685_3/34\", \"Death date\": \"11 Jun 1844\", \"Year Range\": \"1837-1847\", \"Burial year\": \"1844\", \"Item\": \"2\", \"Burial date\": \"14 Jun 1844\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Next of kin relationship\": \"Relict of\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Next of kin name\": \"Peter Glurgow\", \"Subcategory\": \"Parish Burials\", \"Residence\": \"No 4 Norton Place\", \"Collections from\": \"Great Britain, Scotland\"}",
+      "assessment": "Elizabeth Dick Or Glasgow age 89, No 4 Norton Place; death 11 June, burial 14 June 1844; Relict of Peter Glurgow literal spelling, OPR 685_3/34 item 2 page 291. Country dash. Dick-6841 natal Dick and Glasgow-1466 remain candidate couple; record eligible through pre-1800 Glasgow husband context, not natal Glasgow woman. Current weak circa 1767 estimate differs from age-derived about 1755, but both permit childbearing chronology. Relict establishes a boundary for the record husband, not automatically Glasgow-1466. No death/vital/relationship adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged.",
       "reviewed_on": "2026-11-04",
       "canonical_record_id": "fmp-record-scot-opr-bur-1591550",
       "profiles": {
@@ -39661,6 +40004,168 @@
         }
       },
       "review_provenance": "tmp/fmp-pages36-40-20261104/page36-record-row-candidates.json"
+    },
+    "GBPRS/SCOT/MIS/344442": {
+      "provider_id": "GBPRS/SCOT/MIS/344442",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F344442",
+      "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F344442",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F344442",
+      "title": "Record Transcription: Scotland Monumental Inscriptions | findmypast.co.uk",
+      "captured_at": "2026-11-04T02:48:12.266Z",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Janet",
+        "Last name ": "Glasgow Or Gibson",
+        "Birth year ": "1797",
+        "Age ": "75",
+        "Death year ": "1872",
+        "Inscription ": "In memory of James Gibson d. 10.4.1831 aged 58y. Also Janet Glasgow his wife d. 29.10.1872 aged 75y. Also John Gibson their son d. at Keerang, Australia 1.3.1879. Also James Gibson d. at Carluke 19.9.1895 aged 68y. Erected by ***",
+        "Cemetery ": "Carstairs Churchyard",
+        "Place ": "Carstairs",
+        "County ": "Lanarkshire",
+        "Country ": "Scotland",
+        "Record set ": "Scotland Monumental Inscriptions",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Subcategory ": "Parish Burials",
+        "Collections from ": "Great Britain, Scotland"
+      },
+      "source_level": "Inspected provider derivative transcript; original record uninspected",
+      "matching_status": "Inspected derivative; source-only identity and natal-surname HOLD",
+      "access_note": "Janet Glasgow Or Gibson in 1872 | Transcript of Janet's record",
+      "assessment": "Janet Glasgow, wife of James Gibson, died 29 October 1872 aged 75. Husband James died 10 April 1831 aged 58; John Gibson is explicitly their son, died at Keerang, Australia, 1 March 1879. Another James Gibson died at Carluke 19 September 1895 aged 68; his relationship is unstated. Erector is ***. Cemetery is Carstairs Churchyard, not a proved birthplace, death place or burial day. Birth 1797 is age-derived; likely natal Glasgow usage remains qualified, no parents named. Existing Glasgow-1305 and Glasgow-3541 are near-age comparisons with no Gibson or Carstairs bridge; neither is excluded by one-year age error and neither is assigned this death. No new people, relatives or grade changes; original uninspected. Original record/image uninspected. Country field dash is retained as empty where applicable.",
+      "reviewed_on": "2026-11-04",
+      "canonical_record_id": "fmp-record-gbprs-scot-mis-344442",
+      "profiles": {},
+      "review_provenance": "tmp/fmp-pages36-40-20261104/page37-record-row-candidates.json"
+    },
+    "SCOT/OPR/BUR/1183694": {
+      "provider_id": "SCOT/OPR/BUR/1183694",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1183694",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1183694&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1183694&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "captured_at": "2026-11-04T02:48:13.298Z",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "Title ": "Mrs",
+        "Country ": "-",
+        "First name(s) ": "Janet",
+        "Page ": "167",
+        "Last name ": "Glasgow Or Scott",
+        "Archive reference ": "OPR 644/67",
+        "Birth year ": "1791",
+        "Year Range ": "1837-1854",
+        "Age ": "49",
+        "Item ": "3",
+        "Death year ": "1840",
+        "Record set ": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Death date ": "09 Jul 1840",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Burial year ": "1840",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "County ": "Lanarkshire",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record uninspected",
+      "matching_status": "Inspected derivative; source-defined existing record subject matched, vital attribution unchanged",
+      "access_note": "Janet Glasgow Or Scott in 1840 | Transcript of Janet's record",
+      "assessment": "Mrs Janet Glasgow Or Scott, age 49, Glasgow, death labelled 9 July 1840, OPR 644/67 item 3 page 167. No exact burial day field or relatives. Birth 1791 is age-derived. The complete held Glasgow-3066 biography cites Mrs Janet Scott, Glasgow/Scott surnames, Calton burial 9 July 1840, age 49, fever. Compound surname, date and age match that source-defined woman, superseding the earlier weak Mrs Glasgow-only comparison. The OPR death label differs from the held Calton burial label; retain both rather than adopting a death field. Companion GBPRS/GLASGOW/BUR/093167 is related derivative evidence, not independent witness. The 1843 age-51 dropsy event is a distinct woman represented by Gilmour-965; retire that unassigned alternative in Glasgow-3066 current account while keeping source history. No spouse named; Mrs supplies no spouse identity. Surname order and current LNAB do not independently prove natal orientation. No vital/name/family/grade change. Original record/image uninspected. Country field dash is retained as empty where applicable.",
+      "reviewed_on": "2026-11-04",
+      "canonical_record_id": "fmp-record-scot-opr-bur-1183694",
+      "profiles": {
+        "Glasgow-3066": {
+          "role": "Matched existing source-defined Mrs Janet Glasgow/Scott; death versus held burial label remains unresolved, natal-surname orientation unproved",
+          "timeline_group": "Records for identity comparison"
+        }
+      },
+      "review_provenance": "tmp/fmp-pages36-40-20261104/page37-record-row-candidates.json"
+    },
+    "SCOT/OPR/BUR/1185627": {
+      "provider_id": "SCOT/OPR/BUR/1185627",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1185627",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1185627&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1185627&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "captured_at": "2026-11-04T02:48:11.238Z",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "Title ": "Mrs",
+        "Country ": "-",
+        "First name(s) ": "Janet",
+        "Page ": "281",
+        "Last name ": "Gilmour Or Glasgow",
+        "Archive reference ": "OPR 644/67",
+        "Birth year ": "1792",
+        "Year Range ": "1837-1854",
+        "Age ": "51",
+        "Item ": "3",
+        "Death year ": "1843",
+        "Record set ": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Death date ": "26 May 1843",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Burial year ": "1843",
+        "Subcategory ": "Parish Burials",
+        "Place ": "Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "County ": "Lanarkshire",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record uninspected",
+      "matching_status": "Inspected derivative; source-defined existing record subject matched, vital attribution unchanged",
+      "access_note": "Janet Gilmour Or Glasgow in 1843 | Transcript of Janet's record",
+      "assessment": "Mrs Janet Gilmour Or Glasgow, age 51, Glasgow, death labelled 26 May 1843, OPR 644/67 item 3 page 281, register range 1837–1854. No exact burial date field or relatives in this transcript. Birth 1792 is age-derived. Full Gilmour-965 captured biography already records Mrs Janet Glasgow with Gilmour/Glasgow surnames, 26 May 1843, age 51, Calton and dropsy; this identifies that recorded profile subject despite weak conflicting 1794/1845 model fields, which remain unchanged. Existing companion GBPRS/GLASGOW/BUR/093165 labels the same day burial; no death-versus-burial resolution without original. Its earlier weak association with Glasgow-3066 should be superseded separately in favour of this source-defined woman, preserving association history; do not change that companion as an unnoticed side effect. Glasgow-3066 instead represents the distinct 1840 Scott/Glasgow burial, a concrete event conflict. No new husband, cause or parent is supplied. Dual surnames and Mrs do not explicitly prove natal Gilmour or natal Glasgow; current name/family/vital fields and grades unchanged. Original record/image uninspected. Country field dash is retained as empty where applicable.",
+      "reviewed_on": "2026-11-04",
+      "canonical_record_id": "fmp-record-scot-opr-bur-1185627",
+      "profiles": {
+        "Gilmour-965": {
+          "role": "Matched existing source-defined Janet Gilmour/Glasgow; exact date/age and dual surname identify held subject, not separately proved spouse/parent",
+          "timeline_group": "Records for identity comparison"
+        }
+      },
+      "review_provenance": "tmp/fmp-pages36-40-20261104/page37-record-row-candidates.json"
+    },
+    "SCOT/OPR/BUR/1703289": {
+      "provider_id": "SCOT/OPR/BUR/1703289",
+      "requested_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1703289",
+      "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1703289&tab=this",
+      "final_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1703289&tab=this",
+      "title": "Record Transcription: Scotland, Parish Deaths & Burials 1564-2017 | findmypast.co.uk",
+      "captured_at": "2026-11-04T02:48:15.096Z",
+      "access_status": "accessible",
+      "transcript_fields": {
+        "First name(s) ": "Agnes",
+        "County ": "Midlothian",
+        "Last name ": "Hamitton Or Glasgow",
+        "Country ": "-",
+        "Birth year ": "1793",
+        "Page ": "347",
+        "Age ": "61",
+        "Archive reference ": "OPR 692/2/38",
+        "Death year ": "1854",
+        "Year Range ": "1850-1857",
+        "Death date ": "15 Sep 1854",
+        "Item ": "1",
+        "Burial year ": "1854",
+        "Record set ": "Scotland, Parish Deaths & Burials 1564-2017",
+        "Burial date ": "17 Sep 1854",
+        "Category ": "Birth, Marriage, Death & Parish Records",
+        "Next of kin relationship ": "Relict of",
+        "Subcategory ": "Parish Burials",
+        "Next of kin name ": "John Glasgow",
+        "Collections from ": "Great Britain, Scotland",
+        "Place ": "Leith",
+        " ": ""
+      },
+      "source_level": "Inspected provider derivative transcript; original record uninspected",
+      "matching_status": "Inspected derivative; source-only identity and natal-surname HOLD",
+      "access_note": "Agnes Hamitton Or Glasgow in 1854 | Transcript of Agnes's record",
+      "assessment": "Agnes is indexed as “Hamitton Or Glasgow”, aged 61, dying on 15 September 1854 and buried on 17 September at Leith. The transcript calls her the relict of John Glasgow. Her indexed 1793 birth year derives from age; no exact birthday is supplied. Hamitton is the literal spelling; Hamilton remains an unverified search variant. The entry does not explicitly establish her surname at birth or identify either spouse with an existing catalogue person. Original register uninspected; identity and natal-surname scope remain unresolved. Relict names John Glasgow as deceased husband only, not father or informant; his birth year is absent and pre-1800 birth is not independently established. Widowhood gives a death-before-15-September-1854 boundary for that record husband, not a named catalogue profile. No positive candidate association or new person is justified. Original record/image uninspected. Country field dash is retained as empty where applicable.",
+      "reviewed_on": "2026-11-04",
+      "canonical_record_id": "fmp-record-scot-opr-bur-1703289",
+      "profiles": {},
+      "review_provenance": "tmp/fmp-pages36-40-20261104/page37-record-row-candidates.json"
     }
   },
   "identity_clusters": [
@@ -85649,7 +86154,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Death 16 September and burial 19 September 1824 are separate explicit labels. Age 76 gives approximate birth 1748; Hailes Quarry is residence. Mortcloth 5/- is recorded. No relatives or occupation are supplied. No adult bridge to the 1747 child; no vital or grade change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"County\": \"Midlothian\", \"Last name\": \"Glasgow\", \"Country\": \"Scotland\", \"Residence\": \"Hailes Quarry\", \"Parish number\": \"677\", \"Birth year\": \"1748\", \"Book\": \"6\", \"Age\": \"76\", \"Page\": \"14\", \"Death year\": \"1824\", \"Additional information\": \"Mortcloth 5/-\", \"Death date\": \"16 Sep 1824\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Burial year\": \"1824\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial date\": \"19 Sep 1824\", \"Subcategory\": \"Parish Burials\", \"Burial place\": \"Colinton\", \"Collections from\": \"Great Britain, Scotland\", \"Place\": \"Colinton\", \"\": \"\"}"
+          "assessment": "Death 16 September and burial 19 September 1824 are separate explicit labels. Age 76 gives approximate birth 1748; Hailes Quarry is residence. Mortcloth 5/- is recorded. No relatives or occupation are supplied. No adult bridge to the 1747 child; no vital or grade change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "GBPRS/OR/YORK/M/00141645/1": {
           "canonical_record_id": "fmp-record-gbprs-or-york-m-00141645-1",
@@ -85664,19 +86169,19 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Licence 29 March 1832 for intended marriage at St Cuthbert, York; no marriage completion or actual marriage date is supplied. William age 62, resident York, and Charlotte Wise age 44, parish York; sequence 30, page 130. Wise is a recorded surname, not established maiden name. Current candidate Charlotte birth estimate differs materially. No bachelor/spinster status inferred. Country field absent; collection says England, Great Britain. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Spouse's age\": \"44\", \"Last name\": \"Glasgow\", \"Spouse's parish\": \"York\", \"Age\": \"62\", \"Spouse's county\": \"Yorkshire\", \"Birth year\": \"1770\", \"Notes\": \"-\", \"Residence parish\": \"York\", \"Document ordering\": \"http://www.york.ac.uk/borthwick/remote-services/copying/order-form\", \"Residence county\": \"Yorkshire\", \"Record sequence number\": \"30\", \"Licence year\": \"1832\", \"Page number\": \"130\", \"Licence date\": \"29 Mar 1832\", \"Record set\": \"Yorkshire, Archbishop Of York Marriage Licences Index, 1613-1839\", \"Intended marriage place\": \"St Cuthbert, York\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Spouse's first name(s)\": \"Charlotte\", \"Subcategory\": \"Parish Marriages\", \"Spouse's last name\": \"Wise\", \"Collections from\": \"England, Great Britain\"}"
+          "assessment": "Licence 29 March 1832 for intended marriage at St Cuthbert, York; no marriage completion or actual marriage date is supplied. William age 62, resident York, and Charlotte Wise age 44, parish York; sequence 30, page 130. Wise is a recorded surname, not established maiden name. Current candidate Charlotte birth estimate differs materially. No bachelor/spinster status inferred. Country field absent; collection says England, Great Britain. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "SCOT/OPR/BUR/1216779": {
           "canonical_record_id": "fmp-record-scot-opr-bur-1216779",
           "status": "Inspected derivative transcript; identity HOLD",
           "profiles": {},
-          "assessment": "Burial 2 March 1834, age 56, OPR 644-2/10 item 3. Death year and country are literal dashes; no death day or relatives. Country is not filled from surname or Place. Probably companion of GBPRS/GLASGOW/BUR/093125, not independent witness or new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Country\": \"-\", \"Last name\": \"Glasgow\", \"Archive reference\": \"OPR 644-2/10\", \"Birth year\": \"1778\", \"Year Range\": \"1831-1839\", \"Age\": \"56\", \"Item\": \"3\", \"Death year\": \"-\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Burial year\": \"1834\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial date\": \"02 Mar 1834\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Glasgow\", \"Collections from\": \"Great Britain, Scotland\", \"County\": \"Lanarkshire\", \"\": \"\"}"
+          "assessment": "Burial 2 March 1834, age 56, OPR 644-2/10 item 3. Death year and country are literal dashes; no death day or relatives. Country is not filled from surname or Place. Probably companion of GBPRS/GLASGOW/BUR/093125, not independent witness or new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "GBPRS/GLASGOW/BUR/093125": {
           "canonical_record_id": "fmp-record-gbprs-glasgow-bur-093125",
           "status": "Inspected derivative transcript; identity HOLD",
           "profiles": {},
-          "assessment": "Burial 2 March 1834, age 56. Death date is literally ? ? 1834; exact death day unknown. Notes infn retained without expansion or inference of infancy. Probably companion of SCOT/OPR/BUR/1216779. No compatible identified profile established; source-only HOLD, not new-person justification. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Burial place\": \"Gorbals, Glasgow\", \"Last name\": \"Glasgow\", \"County\": \"Lanarkshire\", \"Birth year\": \"1778\", \"Country\": \"Scotland\", \"Death year\": \"1834\", \"Notes\": \"infn\", \"Death date\": \"? ? 1834\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Age\": \"56\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial year\": \"1834\", \"Subcategory\": \"Parish Burials\", \"Burial date\": \"02 Mar 1834\", \"Collections from\": \"Great Britain, Scotland\"}"
+          "assessment": "Burial 2 March 1834, age 56. Death date is literally ? ? 1834; exact death day unknown. Notes infn retained without expansion or inference of infancy. Probably companion of SCOT/OPR/BUR/1216779. No compatible identified profile established; source-only HOLD, not new-person justification. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "R_104260820296": {
           "canonical_record_id": "fmp-record-r-104260820296",
@@ -85687,7 +86192,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Date is PUBLICATION, 12 April 1848, Manchester Courier and Lancashire General Advertiser, indexed page 6. Derivative labels death as the same day, but the separately inspected original reports 5 April. Preserve derivative status; its 66 age differs from register-index 64. The original supplies ironfounder and engineer, Great Bridgewater-street, and no wife/parents; those original facts are represented by a separate original source row, not relabelled as this derivative. Birth 1782 is age-derived. Candidate Glasgow-3545 is not identified. The original notice was inspected separately; this row preserves the derivative index reading. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Last name\": \"Glasgow\", \"Sex\": \"Male\", \"Birth year\": \"1782\", \"Age\": \"66\", \"Death year\": \"1848\", \"Death date\": \"12 Apr 1848\", \"Place\": \"Manchester\", \"Publication title\": \"Manchester Courier And Lancashire General Advertiser\", \"Publication year\": \"1848\", \"Publication date\": \"12 Apr 1848\", \"Page\": \"6\", \"County\": \"Lancashire\", \"Country\": \"England\", \"Event type\": \"Obituary\", \"Record set\": \"England, Newspaper Death Notices\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Subcategory\": \"Parish Burials\", \"Collections from\": \"Great Britain, England\"}"
+          "assessment": "Date is PUBLICATION, 12 April 1848, Manchester Courier and Lancashire General Advertiser, indexed page 6. Derivative labels death as the same day, but the separately inspected original reports 5 April. Preserve derivative status; its 66 age differs from register-index 64. The original supplies ironfounder and engineer, Great Bridgewater-street, and no wife/parents; those original facts are represented by a separate original source row, not relabelled as this derivative. Birth 1782 is age-derived. Candidate Glasgow-3545 is not identified. The original notice was inspected separately; this row preserves the derivative index reading. Current family attachments and recorded confidence grades are unchanged."
         },
         "R_102734966661": {
           "canonical_record_id": "fmp-record-r-102734966661",
@@ -85702,7 +86207,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Generic Date field 5 April 1848 is not proved burial day or death day. Register type Burial and burial year 1848 are supplied; male William aged 64, spouse Ann Glasgow. No register page or entry reference. Compare 8 April companion cautiously; do not merge events solely on name, age and parish. Original newspaper death 5 April, age 66, does not settle generic index-date role. Ann is spouse, not deceased; no maiden surname supplied. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"County\": \"Lancashire\", \"Last name\": \"Glasgow\", \"Country\": \"England\", \"Sex\": \"Male\", \"Spouse's first name(s)\": \"Ann\", \"Birth year\": \"1784\", \"Spouse's last name\": \"Glasgow\", \"Age\": \"64\", \"Register type\": \"Burial\", \"Burial year\": \"1848\", \"Record set\": \"England, Greater Manchester Burials 1570-1990\", \"Date\": \"05 Apr 1848\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Place\": \"Chorlton upon Medlock, All Saints\", \"Subcategory\": \"Parish Burials\", \"Town\": \"Manchester\", \"Collections from\": \"England, Great Britain\"}"
+          "assessment": "Generic Date field 5 April 1848 is not proved burial day or death day. Register type Burial and burial year 1848 are supplied; male William aged 64, spouse Ann Glasgow. No register page or entry reference. Compare 8 April companion cautiously; do not merge events solely on name, age and parish. Original newspaper death 5 April, age 66, does not settle generic index-date role. Ann is spouse, not deceased; no maiden surname supplied. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "R_102734948331": {
           "canonical_record_id": "fmp-record-r-102734948331",
@@ -85713,25 +86218,25 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Generic Date field 8 April 1848 is not proved burial day or death day. Male William, age 64, register type Burial, burial year 1848. No spouse named here. Could be related to 5 April index and original 5 April death notice, but register and identity remain unproved; original notice age 66 differs. No death or burial adopted for a profile. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Town\": \"Manchester\", \"Last name\": \"Glasgow\", \"County\": \"Lancashire\", \"Sex\": \"Male\", \"Country\": \"England\", \"Birth year\": \"1784\", \"Register type\": \"Burial\", \"Age\": \"64\", \"Record set\": \"England, Greater Manchester Burials 1570-1990\", \"Burial year\": \"1848\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Date\": \"08 Apr 1848\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Chorlton upon Medlock, All Saints\", \"Collections from\": \"England, Great Britain\"}"
+          "assessment": "Generic Date field 8 April 1848 is not proved burial day or death day. Male William, age 64, register type Burial, burial year 1848. No spouse named here. Could be related to 5 April index and original 5 April death notice, but register and identity remain unproved; original notice age 66 differs. No death or burial adopted for a profile. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "R_269836377": {
           "canonical_record_id": "fmp-record-r-269836377",
           "status": "Inspected derivative transcript; identity HOLD",
           "profiles": {},
-          "assessment": "Explicit burial 1 November 1849 at St Andrew, Newcastle, age 59y; residence literal St. Andrew, England. No death day or kin. Birth 1790 is age-derived. Compare DURHAM/BT/BUR/0279703 and newspaper R_104261737756 as likely related sources, not independent votes or proved duplicate subjects. No positive catalogue identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Residence\": \"St. Andrew, England\", \"Last name\": \"Glasgow\", \"Place\": \"Newcastle upon Tyne\", \"Sex\": \"Male\", \"County\": \"Northumberland\", \"Birth year\": \"1790\", \"Country\": \"England\", \"Event year\": \"1849\", \"Record set\": \"England Deaths & Burials 1538-1991\", \"Age at death\": \"59y\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Burial year\": \"1849\", \"Subcategory\": \"Parish Burials\", \"Burial date\": \"01 Nov 1849\", \"Collections from\": \"England, Great Britain\", \"Burial place\": \"St. Andrew, Newcastle, England\", \"\": \"\"}"
+          "assessment": "Explicit burial 1 November 1849 at St Andrew, Newcastle, age 59y; residence literal St. Andrew, England. No death day or kin. Birth 1790 is age-derived. Compare DURHAM/BT/BUR/0279703 and newspaper R_104261737756 as likely related sources, not independent votes or proved duplicate subjects. No positive catalogue identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "DURHAM/BT/BUR/0279703": {
           "canonical_record_id": "fmp-record-durham-bt-bur-0279703",
           "status": "Inspected derivative transcript; identity HOLD",
           "profiles": {},
-          "assessment": "Burial 1 November 1849, age 59, Anglican, residence Painter Heugh; Durham University Library bishop’s transcript DDR/EA/PBT/2/190, range 1838–1857. Death year is dash. Painter Heugh is residence, not birth location. Age-derived birth about 1790. No relatives; no positive profile bridge. Source-only HOLD; likely companion comparison with R_269836377 and newspaper, originals uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Country\": \"England\", \"Last name\": \"Glasgow\", \"Archive reference\": \"DDR/EA/PBT/2/190\", \"Birth year\": \"1790\", \"Archive\": \"Durham University Library\", \"Age\": \"59\", \"Register type\": \"Baptisms & burials\", \"Death year\": \"-\", \"Register year range\": \"1838-1857\", \"Burial year\": \"1849\", \"Document type\": \"Bishop's Transcripts\", \"Burial date\": \"01 Nov 1849\", \"Record set\": \"Northumberland Burials\", \"Residence\": \"Painter Heugh\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Denomination\": \"Anglican\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Newcastle upon Tyne, St Andrew\", \"Collections from\": \"England, Great Britain\", \"County\": \"Northumberland\", \"\": \"\"}"
+          "assessment": "Burial 1 November 1849, age 59, Anglican, residence Painter Heugh; Durham University Library bishop’s transcript DDR/EA/PBT/2/190, range 1838–1857. Death year is dash. Painter Heugh is residence, not birth location. Age-derived birth about 1790. No relatives; no positive profile bridge. Source-only HOLD; likely companion comparison with R_269836377 and newspaper, originals uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "R_104261737756": {
           "canonical_record_id": "fmp-record-r-104261737756",
           "status": "Inspected derivative transcript; identity HOLD",
           "profiles": {},
-          "assessment": "Date is PUBLICATION, 3 November 1849, Newcastle Guardian and Tyne Mercury, page 5. Derivative labels death 3 November as well; actual death day is not established without original notice. Age 59 and Newcastle context support comparison with 1 November burial, but literal death label postdates burial and may be publication indexing or distinct subjects. No named relatives or positive profile identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Publication date\": \"3 Nov 1849\", \"Last name\": \"Glasgow\", \"Page\": \"5\", \"Sex\": \"Male\", \"County\": \"Northumberland\", \"Birth year\": \"1790\", \"Country\": \"England\", \"Age\": \"59\", \"Event type\": \"Obituary\", \"Death year\": \"1849\", \"Record set\": \"England, Newspaper Death Notices\", \"Death date\": \"03 Nov 1849\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Place\": \"Newcastle-Upon-Tyne\", \"Subcategory\": \"Parish Burials\", \"Publication title\": \"Newcastle Guardian And Tyne Mercury\", \"Collections from\": \"Great Britain, England\", \"Publication year\": \"1849\", \"\": \"\"}"
+          "assessment": "Date is PUBLICATION, 3 November 1849, Newcastle Guardian and Tyne Mercury, page 5. Derivative labels death 3 November as well; actual death day is not established without original notice. Age 59 and Newcastle context support comparison with 1 November burial, but literal death label postdates burial and may be publication indexing or distinct subjects. No named relatives or positive profile identity; source-only HOLD. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "PRS/SCOTLAND/MI/ADD/5/00557896": {
           "canonical_record_id": "crawford-william-gamekeeper-memorial-1853",
@@ -85761,7 +86266,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Literal inscription supplies William gamekeeper to Earl of Hopetoun, died 26 April 1853 aged 71; Janet Thomson spouse, died 1 April 1845 aged 62; her children John/James died in infancy and George 21 July 1816 aged 7; Isabel Glasgow 27 November 1881 aged 73. Isabel is not explicitly called daughter in this wording; family context supports that separately. Rich exact family repetition identifies companion to existing Crawford memorial, not independent corroboration. Existing source gives William age 74 versus 71 here; retain both, original uninspected. Leadhills Cemetery is literal new locality; older Crawford/combined cemetery scope is not silently normalized. Earlier George is not 1818-born Glasgow-638; retain existing 88% without upgrade. No new people, family attachments or vital adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Place\": \"Leadhills\", \"Last name\": \"Glasgow\", \"County\": \"Lanarkshire\", \"Birth year\": \"1782\", \"Country\": \"Scotland\", \"Age\": \"71\", \"Record set\": \"Scotland Monumental Inscriptions\", \"Death year\": \"1853\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Inscription\": \"In memory of Janet Thomson spouse of William Glasgow, Gamekeeper to the Right Honourable, The Earl of Hopetoun d. 1.4.1845 aged 62. Also 3 of her children, John and James d. in infancy. George d. 21.7.1816 aged 7y. Also the said William Glasgow d. 26.4.1853 aged 71y. Isabel Glasgow d. 27.11.1881 aged 73y\", \"Subcategory\": \"Parish Burials\", \"Cemetery\": \"Leadhills Cemetery\", \"Collections from\": \"Great Britain, Scotland\"}"
+          "assessment": "Literal inscription supplies William gamekeeper to Earl of Hopetoun, died 26 April 1853 aged 71; Janet Thomson spouse, died 1 April 1845 aged 62; her children John/James died in infancy and George 21 July 1816 aged 7; Isabel Glasgow 27 November 1881 aged 73. Isabel is not explicitly called daughter in this wording; family context supports that separately. Rich exact family repetition identifies companion to existing Crawford memorial, not independent corroboration. Existing source gives William age 74 versus 71 here; retain both, original uninspected. Leadhills Cemetery is literal new locality; older Crawford/combined cemetery scope is not silently normalized. Earlier George is not 1818-born Glasgow-638; retain existing 88% without upgrade. No new people, family attachments or vital adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "US/BMD/PENN-BUR/01460438": {
           "canonical_record_id": "fmp-record-us-bmd-penn-bur-01460438",
@@ -85772,13 +86277,13 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Explicit death 25 March 1855, age 70; Board of Health Registers of Deaths, register labelled Burial, Philadelphia parish/diocese. No exact burial day or address (dash). Birth 1785 is age-derived. Glasgow-1552 has approximate circa 1781 birth and circa February 1853 death, not decisive exclusions; no identity or vital correction established. Original uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"State\": \"Pennsylvania\", \"Last name\": \"Glasgow\", \"Country\": \"United States\", \"Age\": \"70\", \"Institution\": \"Board of Health Registers of Deaths\", \"Birth year\": \"1785\", \"Archive\": \"Historical Society of Pennsylvania\", \"Death year\": \"1855\", \"Register\": \"Burial\", \"Death date\": \"25 Mar 1855\", \"Date range\": \"1853-1855\", \"Burial year\": \"1855\", \"Record set\": \"Historical Society Of Pennsylvania, Deaths & Burials\", \"Address\": \"-\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Parish\": \"Philadelphia\", \"Subcategory\": \"Civil Deaths & Burials\", \"Diocese\": \"Philadelphia\", \"Collections from\": \"Americas, United States\"}"
+          "assessment": "Explicit death 25 March 1855, age 70; Board of Health Registers of Deaths, register labelled Burial, Philadelphia parish/diocese. No exact burial day or address (dash). Birth 1785 is age-derived. Glasgow-1552 has approximate circa 1781 birth and circa February 1853 death, not decisive exclusions; no identity or vital correction established. Original uninspected. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "R_308760549": {
           "canonical_record_id": "fmp-record-r-308760549",
           "status": "Inspected derivative transcript; identity HOLD",
           "profiles": {},
-          "assessment": "Explicit death 18 March 1868, age 99y; burial year only 1868, parish dash. Film 1157982, batch I01580-7. Birth 1769 is age-derived, no exact birth event or kin. No Barbados identity bridge; source-only HOLD. No new person justified by missing match. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Burial year\": \"1868\", \"Last name\": \"Glasgow\", \"Parish\": \"-\", \"Sex\": \"Male\", \"Country\": \"Barbados\", \"Birth year\": \"1769\", \"Film number\": \"1157982\", \"Age\": \"99y\", \"Batch number\": \"I01580-7\", \"Record set\": \"Barbados Deaths & Burials 1637-1887\", \"Year\": \"1868\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Death year\": \"1868\", \"Subcategory\": \"Civil Deaths & Burials\", \"Death date\": \"18 Mar 1868\", \"Collections from\": \"Americas, Caribbean\"}"
+          "assessment": "Explicit death 18 March 1868, age 99y; burial year only 1868, parish dash. Film 1157982, batch I01580-7. Birth 1769 is age-derived, no exact birth event or kin. No Barbados identity bridge; source-only HOLD. No new person justified by missing match. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "GBPRS/SCOT/MIS/204969": {
           "canonical_record_id": "fmp-record-gbprs-scot-mis-204969",
@@ -85789,7 +86294,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Death year 1873 and age 89 only; no exact death or birth day, no inscription wording or relatives. St Johns Kirk, Biggar is indexed cemetery/place, not birth or death address. Candidate Glasgow-2876 has 25 December 1873 Symington death and uncertain 1783 birth; current Symington Churchyard versus St Johns Kirk, Biggar requires original/photo comparison. Existing Margaret Graham/Henderson inconsistency is not resolved by this spouse-free source. No vital or cemetery assignment. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"County\": \"Lanarkshire\", \"Last name\": \"Glasgow\", \"Country\": \"Scotland\", \"Birth year\": \"1784\", \"Notes\": \"For further information on this individual and a possible photograph of the grave or memorial, please contact the licensor at  www.scottish-monumental-inscriptions.com \", \"Age\": \"89\", \"Record set\": \"Scotland Monumental Inscriptions\", \"Death year\": \"1873\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Cemetery\": \"St Johns Kirk\", \"Subcategory\": \"Parish Burials\", \"Place\": \"Biggar\", \"Collections from\": \"Great Britain, Scotland\"}"
+          "assessment": "Death year 1873 and age 89 only; no exact death or birth day, no inscription wording or relatives. St Johns Kirk, Biggar is indexed cemetery/place, not birth or death address. Candidate Glasgow-2876 has 25 December 1873 Symington death and uncertain 1783 birth; current Symington Churchyard versus St Johns Kirk, Biggar requires original/photo comparison. Existing Margaret Graham/Henderson inconsistency is not resolved by this spouse-free source. No vital or cemetery assignment. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "US/BMD/BILLION/008256900": {
           "canonical_record_id": "fmp-record-us-bmd-billion-008256900",
@@ -85800,7 +86305,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Explicit derivative birth 4 October 1787 and death 8 April 1876, Calvary Cemetery, St Louis, Missouri. No birthplace, relatives or explicit natal-surname clause. Linked BillionGraves image http://billiongraves.com/pages/record/William-Glasgow/5585766 uninspected. Glasgow-3678 circa 1788 and blank death permit comparison; reported 1865 death remains unverified, no St Louis bridge. Preserve 30% Joseph father and existing child grades. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"Record set\": \"United States Billion Graves Index\", \"Country\": \"United States\", \"First name(s)\": \"William\", \"Cemetery\": \"Calvary Cemetery\", \"Last name\": \"Glasgow\", \"Birth date\": \"04 Oct 1787\", \"Birth year\": \"1787\", \"Death date\": \"08 Apr 1876\", \"Death year\": \"1876\", \"Image link\": \"http://billiongraves.com/pages/record/William-Glasgow/5585766\", \"City\": \"St Louis\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"County\": \"St Louis\", \"Subcategory\": \"Civil Deaths & Burials\", \"State\": \"Missouri\", \"Collections from\": \"Americas, United States\"}"
+          "assessment": "Explicit derivative birth 4 October 1787 and death 8 April 1876, Calvary Cemetery, St Louis, Missouri. No birthplace, relatives or explicit natal-surname clause. Linked BillionGraves image http://billiongraves.com/pages/record/William-Glasgow/5585766 uninspected. Glasgow-3678 circa 1788 and blank death permit comparison; reported 1865 death remains unverified, no St Louis bridge. Preserve 30% Joseph father and existing child grades. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "IRE/BMD/D/579147620": {
           "canonical_record_id": "fmp-record-ire-bmd-d-579147620",
@@ -85811,13 +86316,13 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Civil registration index Jul–Sep 1883, Cookstown, age 87, volume 1 page 300; birth 1796 is age-derived. Matches existing held original William Glasgow death, 4 July 1883, Loy, but index itself supplies no exact death day, address, bachelor status, occupation or informant. Reuse Glasgow-3814; no vital replacement or confidence change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"William\", \"Country\": \"Ireland\", \"Last name\": \"Glasgow\", \"Volume\": \"1\", \"Birth year\": \"1796\", \"Page\": \"300\", \"Age\": \"87\", \"Record set\": \"Irish Deaths 1864 - 1958\", \"Registration year\": \"1883\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Registration quarter & year\": \"Jul - Sep 1883\", \"Subcategory\": \"Civil Deaths & Burials\", \"Registration district\": \"Cookstown\", \"Collections from\": \"Ireland\", \"County\": \"Tyrone\", \"\": \"\"}"
+          "assessment": "Civil registration index Jul–Sep 1883, Cookstown, age 87, volume 1 page 300; birth 1796 is age-derived. Matches existing held original William Glasgow death, 4 July 1883, Loy, but index itself supplies no exact death day, address, bachelor status, occupation or informant. Reuse Glasgow-3814; no vital replacement or confidence change. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "GBPRS/D/SCOT-LINL-BUR/018005": {
           "canonical_record_id": "fmp-record-gbprs-d-scot-linl-bur-018005",
           "status": "Inspected derivative transcript; identity HOLD",
           "profiles": {},
-          "assessment": "Death 27 May 1886 and interment 29 May are separately labelled. Janet Glasgow/bryce age 90, Livery St, Bathgate Glasgow Road, section D lair 81 depth 5, private, charges 5/-, interment 4455, Old Age; Relict Of William Bryce Weaver By Hearse. Occupation field dash: do not assign weaver to Janet. Birth 1796 is age-derived, natal Glasgow not independently proved by slash surname. Existing 1796/1797 Janet candidates remain unexcluded but no positive identity; source-only HOLD, no new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"First name(s)\": \"Janet\", \"Last name\": \"Glasgow/bryce\", \"Burial year\": \"1886\", \"Birth year\": \"1796\", \"Death year\": \"1886\", \"Occupation\": \"-\", \"County\": \"Linlithgowshire (West Lothian)\", \"Country\": \"Scotland\", \"Place\": \"Bathgate\", \"Cemetery\": \"Bathgate Glasgow Road\", \"Death date\": \"27 May 1886\", \"Cause of death\": \"Old Age\", \"Age\": \"90\", \"Interment date\": \"29 May 1886\", \"Residence\": \"Livery St\", \"Section\": \"D\", \"Lair\": \"81\", \"Depth\": \"5\", \"Charges paid\": \"5/-\", \"Private or common ground\": \"Private\", \"Interment number\": \"4455\", \"Additional information\": \"Relict Of William Bryce Weaver By Hearse\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Subcategory\": \"Parish Burials\", \"Collections from\": \"Great Britain, Scotland\"}"
+          "assessment": "Death 27 May 1886 and interment 29 May are separately labelled. Janet Glasgow/bryce age 90, Livery St, Bathgate Glasgow Road, section D lair 81 depth 5, private, charges 5/-, interment 4455, Old Age; Relict Of William Bryce Weaver By Hearse. Occupation field dash: do not assign weaver to Janet. Birth 1796 is age-derived, natal Glasgow not independently proved by slash surname. Existing 1796/1797 Janet candidates remain unexcluded but no positive identity; source-only HOLD, no new person. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "SCOT/OPR/BUR/1592752": {
           "canonical_record_id": "fmp-record-scot-opr-bur-1592752",
@@ -85832,7 +86337,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Jane Bryce Or Glasgow, wife of John Glasgow, age 67, Skinners Close Edinburgh; death and burial both explicitly 25 January 1848. Preserve same-day labels, do not move either. Occupation Warhouse porter has unclear field owner; do not assign to Jane. OPR 685_3/35 item 3 page 27. Country is dash. Bryce-1075 is natal Bryce, not a Glasgow-born woman; record scope retained through named pre-1800 candidate husband John Glasgow-1460. Jane/Jean variant and Edinburgh porter context support comparison, not identity; current 1786 estimate differs from age-derived about 1781. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"Jane\", \"Place\": \"Edinburgh\", \"Last name\": \"Bryce Or Glasgow\", \"County\": \"Midlothian\", \"Occupation\": \"Warhouse porter\", \"Country\": \"-\", \"Birth year\": \"1781\", \"Page\": \"27\", \"Age\": \"67\", \"Archive reference\": \"OPR 685_3/35\", \"Death year\": \"1848\", \"Year Range\": \"1847-1854\", \"Death date\": \"25 Jan 1848\", \"Item\": \"3\", \"Burial year\": \"1848\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Burial date\": \"25 Jan 1848\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Next of kin relationship\": \"Wife of\", \"Subcategory\": \"Parish Burials\", \"Next of kin name\": \"John Glasgow\", \"Collections from\": \"Great Britain, Scotland\", \"Residence\": \"Skinners Close Edinburgh\", \"\": \"\"}"
+          "assessment": "Jane Bryce Or Glasgow, wife of John Glasgow, age 67, Skinners Close Edinburgh; death and burial both explicitly 25 January 1848. Preserve same-day labels, do not move either. Occupation Warhouse porter has unclear field owner; do not assign to Jane. OPR 685_3/35 item 3 page 27. Country is dash. Bryce-1075 is natal Bryce, not a Glasgow-born woman; record scope retained through named pre-1800 candidate husband John Glasgow-1460. Jane/Jean variant and Edinburgh porter context support comparison, not identity; current 1786 estimate differs from age-derived about 1781. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         },
         "SCOT/OPR/BUR/1591550": {
           "canonical_record_id": "fmp-record-scot-opr-bur-1591550",
@@ -85847,7 +86352,7 @@
               "timeline_group": "Records for identity comparison"
             }
           },
-          "assessment": "Elizabeth Dick Or Glasgow age 89, No 4 Norton Place; death 11 June, burial 14 June 1844; Relict of Peter Glurgow literal spelling, OPR 685_3/34 item 2 page 291. Country dash. Dick-6841 natal Dick and Peter-1466 remain candidate couple; record eligible through pre-1800 Glasgow husband context, not natal Glasgow woman. Current weak circa 1767 estimate differs from age-derived about 1755, but both permit childbearing chronology. Relict establishes a boundary for the record husband, not automatically Peter-1466. No death/vital/relationship adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged. Literal labelled fields: {\"First name(s)\": \"Elizabeth\", \"Place\": \"Edinburgh\", \"Last name\": \"Dick Or Glasgow\", \"County\": \"Midlothian\", \"Birth year\": \"1755\", \"Country\": \"-\", \"Age\": \"89\", \"Page\": \"291\", \"Death year\": \"1844\", \"Archive reference\": \"OPR 685_3/34\", \"Death date\": \"11 Jun 1844\", \"Year Range\": \"1837-1847\", \"Burial year\": \"1844\", \"Item\": \"2\", \"Burial date\": \"14 Jun 1844\", \"Record set\": \"Scotland, Parish Deaths & Burials 1564-2017\", \"Next of kin relationship\": \"Relict of\", \"Category\": \"Birth, Marriage, Death & Parish Records\", \"Next of kin name\": \"Peter Glurgow\", \"Subcategory\": \"Parish Burials\", \"Residence\": \"No 4 Norton Place\", \"Collections from\": \"Great Britain, Scotland\"}"
+          "assessment": "Elizabeth Dick Or Glasgow age 89, No 4 Norton Place; death 11 June, burial 14 June 1844; Relict of Peter Glurgow literal spelling, OPR 685_3/34 item 2 page 291. Country dash. Dick-6841 natal Dick and Glasgow-1466 remain candidate couple; record eligible through pre-1800 Glasgow husband context, not natal Glasgow woman. Current weak circa 1767 estimate differs from age-derived about 1755, but both permit childbearing chronology. Relict establishes a boundary for the record husband, not automatically Glasgow-1466. No death/vital/relationship adoption. Original source remains uninspected for this derivative unless separately stated. Current family attachments and recorded confidence grades are unchanged."
         }
       },
       "original_record_id": "manchester-courier-william-glasgow-death-notice-18480412",
@@ -85915,6 +86420,587 @@
         "path": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
         "pointer": "/scope",
         "note": "Complete prior ID lists retained in this immutable Git version; scalar counts retained here without duplicating the full cohort."
+      }
+    },
+    "page37_review_20261104": {
+      "reviewed_on": "2026-11-04",
+      "status": "locally_published_and_verified",
+      "previous_scalar_counts": {
+        "born_before": 1800,
+        "inspected_transcripts": 764,
+        "catalogue_integration_complete": false,
+        "next_query_page": 37,
+        "records_with_profile_or_draft_context": 497,
+        "indexed_provider_record_count": 764,
+        "recent_query_transcripts": 629,
+        "recent_supporting_transcripts": 1,
+        "historical_cached_transcripts_reconciled": 134,
+        "recent_query_rows_reviewed": 720,
+        "recent_query_receipt_reuses": 61,
+        "recent_query_existing_index_reuses": 2,
+        "recent_query_access_holds": 7,
+        "next_search_page_to_capture": 37,
+        "recent_query_rows_captured": 720,
+        "contiguous_query_rows_reviewed": 720,
+        "recent_query_detail_gaps": 2,
+        "pending_transcript_matching": 0,
+        "supplemental_cached_records_indexed": 53,
+        "total_indexed_reviewed_provider_ids": 819,
+        "search_only_records_indexed": 2
+      },
+      "previous_ledger": {
+        "commit": "adbf9eac002c",
+        "path": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+        "git_blob": "adbf9eac002c:research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+        "sha256": "77b14da7824ecfe9742659fdeeb433771790ec05c3d8cfaadf5d8ada024ec380",
+        "comparison": "Parsed JSON exactly equals current pre-update ledger; formatting may differ."
+      },
+      "query_rows_captured": 740,
+      "query_rows_reviewed": 740,
+      "displayed_total": 5872,
+      "full_new_historical_receipts": 4,
+      "cached_bounded_abstract_reuses": 3,
+      "cached_unbounded_abstract_holds": 1,
+      "accessible_minimal_scope_probes": 12,
+      "new_to_bounded_coverage_provider_ids": [
+        "SCOT/OPR/BUR/1185627",
+        "GBPRS/SCOT/MIS/344442",
+        "SCOT/OPR/BUR/1183694",
+        "SCOT/OPR/BUR/1703289"
+      ],
+      "newly_indexed_provider_ids": [
+        "SCOT/OPR/BUR/1185627",
+        "GBPRS/SCOT/MIS/344442",
+        "SCOT/OPR/BUR/1183694",
+        "SCOT/OPR/BUR/1703289"
+      ],
+      "already_public_reuse_provider_ids": [
+        "IRE/NAI/GENABS/00400857/1",
+        "IRE/NAI/GENABS/00859808/1",
+        "IRE/NAI/GENABS/00325438/1"
+      ],
+      "scope_gaps": [
+        {
+          "provider_id": "US/BMD/BILLION/006568177",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_BMD_BILLION_006568177.json",
+          "captured_at": "2026-11-04T03:09:48.221Z",
+          "observed_date_fields": {
+            "Birth year ": "-",
+            "Death year ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/012884515/2",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_012884515_2.json",
+          "captured_at": "2026-11-04T03:09:50.351Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/012883651/1",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_012883651_1.json",
+          "captured_at": "2026-11-04T03:09:52.334Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/007641796/1",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_007641796_1.json",
+          "captured_at": "2026-11-04T03:09:54.161Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/BMD/BILLION/026856539",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_BMD_BILLION_026856539.json",
+          "captured_at": "2026-11-04T03:09:55.154Z",
+          "observed_date_fields": {
+            "Birth year ": "-",
+            "Death year ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/025241258/2",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_025241258_2.json",
+          "captured_at": "2026-11-04T03:09:56.895Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/025115812/2",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_025115812_2.json",
+          "captured_at": "2026-11-04T03:09:58.650Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/025478296/1",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_025478296_1.json",
+          "captured_at": "2026-11-04T03:10:00.341Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/BMD/BILLION/017396964",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_BMD_BILLION_017396964.json",
+          "captured_at": "2026-11-04T03:10:47.455Z",
+          "observed_date_fields": {
+            "Birth year ": "-",
+            "Death year ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/085281688/1",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_085281688_1.json",
+          "captured_at": "2026-11-04T03:10:49.311Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/085512065/1",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_085512065_1.json",
+          "captured_at": "2026-11-04T03:10:51.171Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "US/FS/M/085294276/1",
+          "status": "scope_gap_after_accessible_minimal_probe",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/US_FS_M_085294276_1.json",
+          "captured_at": "2026-11-04T03:10:53.165Z",
+          "observed_date_fields": {
+            "Marriage year ": "-",
+            "Date ": "-"
+          },
+          "assessment": "Minimal date/age/role probe was accessible but gave no usable event year. Historical eligibility remains unresolved; not an access denial, out-of-scope decision or permanently skipped record. No potentially modern personal data published."
+        },
+        {
+          "provider_id": "IRE/NAI/GENABS/00612100/1",
+          "status": "cached_unbounded_abstract_scope_hold",
+          "assessment": "Reuse existing accessible cached Crossle heading without refetch; no individual date or historical bound. Not an access denial."
+        }
+      ],
+      "new_people": 0,
+      "relationship_changes": 0,
+      "confidence_changes": 0,
+      "vital_adoptions": 0,
+      "rows_file": "tmp/fmp-pages36-40-20261104/page37-rows.json",
+      "candidate_rows": "tmp/fmp-pages36-40-20261104/page37-record-row-candidates.json",
+      "companion_context_changes": [
+        "GBPRS/GLASGOW/BUR/093165",
+        "GBPRS/GLASGOW/BUR/093167"
+      ],
+      "separate_original_inspections": [
+        "manchester-courier-william-glasgow-estate-notice-18480412"
+      ],
+      "superseded_editorial_passages": [
+        {
+          "path": "tools/study_stories/early-scottish-records.json",
+          "chapter_id": "findmypast-born-before-1800",
+          "body_index": 138,
+          "previous_text": "Page18 and page19 opening review, 24 October 2026: twenty new provider transcripts represent eleven documentary groups, not twenty discoveries. Four groups confirm existing events: the Ramshorn Jannet1793 burial was already cited in [Glasgow-3071](/people/glasgow-3071.html); Jean1730 matches [Glasgow-3489](/people/glasgow-3489.html) but the new20November baptism conflicts with held11November; Jean1732 matches [Glasgow-1344](/people/glasgow-1344.html) and explicitly names Margaret Multree; Jean1743 matches [Glasgow-1323](/people/glasgow-1323.html), now with Andrew Glasgow/Isobel Clerk wording. Seven groups are new source-defined or conflicting leads: distinct Calton Mrs Janet burials1840/1843 (natal surname unknown; weak [Glasgow-3066](/people/glasgow-3066.html) comparisons), unassigned Carstairs Janet/Gibson memorial, conflicting Livingston family-monument accounts, four Jannet1722 transcripts reading4or11March (fatherJamesunassigned), Irvine Jean1731 GeorgeGlasgow/MargaretMartin household lead, and Penicuik Jean1739 AlexanderWilliam/JeanRitchie lead with existingJanet-1432stillcompatible. These unresolved entries remain source-only or qualified comparisons; missing a child match is not authority to create a person. No new people, vital changes, confidence regrades or original-record inspections.",
+          "exact_replaced_clause": "distinct Calton Mrs Janet burials1840/1843 (natal surname unknown; weak [Glasgow-3066](/people/glasgow-3066.html) comparisons)",
+          "exact_replacement_clause": "distinct Calton Mrs Janet burials 1840/1843 (source-attribution review, 4 November 2026, supersedes the earlier weak Glasgow-3066 comparisons: the 1840 Scott account matches the source-defined [Glasgow-3066](/people/glasgow-3066.html) woman, while the separate 1843 Gilmour account matches [Gilmour-965](/people/gilmour-965.html); natal-surname orientation and death-versus-burial labels remain unresolved)",
+          "reason": "Explicitly supersede the old1840/1843 weak association while retaining its source account and full historical wording here."
+        },
+        {
+          "path": "tools/study_stories/early-scottish-records.json",
+          "chapter_id": "findmypast-born-before-1800",
+          "body_index": 174,
+          "previous_text": "Page 37 reconciliation, 4 November 2026: twenty query rows were reviewed: four full historical transcripts, three cached historically bounded abstract headings reused unchanged, one cached unbounded abstract retained on scope HOLD, and twelve accessible minimal date/role probes with no usable event year. These thirteen unresolved scope gaps are neither access denials nor out-of-scope findings, and can be reopened with a useful discriminator; potentially modern person details are not published. The full source citations identify the 1843 Calton Janet with [Gilmour-965](/people/gilmour-965.html) and the separate 1840 Janet Scott with [Glasgow-3066](/people/glasgow-3066.html). This corrects the old 1843 source association, while death-versus-burial labels, natal-surname orientation and family identities remain qualified. No new person, relationship, confidence grade or model vital is adopted. Coverage remains INCOMPLETE: 740/5,872 query rows reviewed and 740 captured; next page 38. Other windows, variants and unresolved scope gaps remain. Local publication verification is pending; no live WikiTree edit or deployment is claimed.",
+          "previous_scope_count_note": "823 bounded indexed provider IDs = 768 literal + 53 supporting + 2 search-held. 740/5872 query rows reviewed and 740 captured; page 37 has 4 full historical captures, 3 cached bounded-source reuses, 1 cached unbounded abstract HOLD and 12 accessible minimal date/role probes without usable years. Thirteen scope gaps remain unresolved. No new person; whole-provider scope INCOMPLETE.",
+          "reason": "Final verification and private capture metadata supersede pending page 37 status; investigation does not advance beyond reviewed 740."
+        }
+      ],
+      "verification_history": [
+        {
+          "previous_status": "records_saved_and_indexed_pending_local_publication_verification"
+        }
+      ],
+      "finalized": true,
+      "verified_on": "2026-11-04",
+      "verification_receipts": [
+        {
+          "path": "tmp/fmp-pages36-40-20261104/page37-verification.json",
+          "sha256": "fe322410ac6ba63dbcc7a728b1a62bf839604ab52a76f8e1a52c7858d86e649c"
+        },
+        {
+          "path": "tmp/fmp-pages36-40-20261104/page37-cleanup-verification.json",
+          "sha256": "fbb04afd85d75e641d679e313290569aaa701791df1977d7d3c52b06059f5ebb"
+        }
+      ],
+      "public_raw_field_maps_removed": 23,
+      "obsolete_093165_citation_archived": true,
+      "cleanup_evidence_paths": [
+        "tmp/fmp-pages36-40-20261104/public-record-note-sanitation-plan.json",
+        "tmp/fmp-pages36-40-20261104/public-source-account-repair.json",
+        "tmp/fmp-pages36-40-20261104/page37-verification.json",
+        "tmp/fmp-pages36-40-20261104/page37-superseded-source-before.json"
+      ],
+      "receipt_manifest": [
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/GBPRS_LOTHIAN_FHS_BUR_017711.json",
+          "sha256": "248f4ebe6da42a36a3259963a01d0c890142a3b07b7cc65d1ea26bd622d84af6",
+          "bytes": 1522,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/GBPRS_LOTHIAN_FHS_BUR_017711.json",
+          "captured_at": "2026-11-04T01:08:33.101Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/GBPRS_OR_YORK_M_00141645_1.json",
+          "sha256": "cf02471f32366e0cb61c34eaaaa43ac5ab66e7a17d3b9079cbb51e02106c96dd",
+          "bytes": 1704,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/GBPRS_OR_YORK_M_00141645_1.json",
+          "captured_at": "2026-11-04T01:08:34.058Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/SCOT_OPR_BUR_1216779.json",
+          "sha256": "f3039e119b8b9af170e75055583f1ac7e6e84c2fd47ceb0698c595fa06b27679",
+          "bytes": 1394,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1216779.json",
+          "captured_at": "2026-11-04T01:08:35.721Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/GBPRS_GLASGOW_BUR_093125.json",
+          "sha256": "254c84cd63f8345aa5540b04cf51fd6cb56e984735badbb71504866ba8aa3ad5",
+          "bytes": 1334,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/GBPRS_GLASGOW_BUR_093125.json",
+          "captured_at": "2026-11-04T01:08:36.679Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/R_104260820296.json",
+          "sha256": "7aa880b5ab91daed886042ccaa890bb2a7eabb3bbe7284c5fb4a02a81580782a",
+          "bytes": 1292,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/R_104260820296.json",
+          "captured_at": "2026-11-04T01:08:37.681Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/R_102734966661.json",
+          "sha256": "a695c1011514f5ba31496a5358547c06169adaea986550df0ee6ff1ec4a1efee",
+          "bytes": 1357,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/R_102734966661.json",
+          "captured_at": "2026-11-04T01:08:39.395Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/R_102734948331.json",
+          "sha256": "93bb0079587d87961e3b68262011c3229993b8910a3108582dd0377a63f51fa4",
+          "bytes": 1313,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/R_102734948331.json",
+          "captured_at": "2026-11-04T01:08:42.074Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/R_269836377.json",
+          "sha256": "8c8d26e01ee3398e085eb5a0e36e61eac8e23b96de2696e1118fb311b7bfe5d8",
+          "bytes": 1331,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/R_269836377.json",
+          "captured_at": "2026-11-04T01:08:42.962Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/DURHAM_BT_BUR_0279703.json",
+          "sha256": "6d9e71044cbac85b95b20eb0b1ab097fca144674ab2d4c481d18a91e1858aa73",
+          "bytes": 1577,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/DURHAM_BT_BUR_0279703.json",
+          "captured_at": "2026-11-04T01:10:16.581Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/R_104261737756.json",
+          "sha256": "b398978c1da0633ddc5464839215ef28b8d331f30166c0a97669c56fbada41ee",
+          "bytes": 1392,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/R_104261737756.json",
+          "captured_at": "2026-11-04T01:10:17.749Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/GBPRS_SCOT_MIS_511339.json",
+          "sha256": "ef40c082dcf6e92c9b5990b8f010f15b9b30dbd2858c1f0041486d04c58fb7ac",
+          "bytes": 1536,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/GBPRS_SCOT_MIS_511339.json",
+          "captured_at": "2026-11-04T01:10:18.651Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_BMD_PENN-BUR_01460438.json",
+          "sha256": "e53a7c75ddcd1eae97fa4fb8369d17823cfab5c1f14470b7ed2088e63bdebc8b",
+          "bytes": 1564,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_BMD_PENN-BUR_01460438.json",
+          "captured_at": "2026-11-04T01:10:20.555Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/R_308760549.json",
+          "sha256": "dee0e644f1def81f7492c6f1a2c08245e1d2137faead381aabd2a217d6416203",
+          "bytes": 1254,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/R_308760549.json",
+          "captured_at": "2026-11-04T01:10:21.646Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/GBPRS_SCOT_MIS_204969.json",
+          "sha256": "0080190480c4800e4897ecd7b0eb1ab02d3e0780db948f00ae8d575cbabde2ef",
+          "bytes": 1385,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/GBPRS_SCOT_MIS_204969.json",
+          "captured_at": "2026-11-04T01:10:22.635Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_BMD_BILLION_008256900.json",
+          "sha256": "e833ab36cf5d70e4a643d9c8db83613c73a231d3322e26f334b922595e8cd965",
+          "bytes": 1391,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_BMD_BILLION_008256900.json",
+          "captured_at": "2026-11-04T01:10:23.661Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/IRE_BMD_D_579147620.json",
+          "sha256": "a8071711f70ca85e85cd0e8e7403944e9bf40c4510a67ad8fdbbb41b77db0813",
+          "bytes": 1262,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/IRE_BMD_D_579147620.json",
+          "captured_at": "2026-11-04T01:10:24.662Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/GBPRS_D_SCOT-LINL-BUR_018005.json",
+          "sha256": "59ba16e19b5556c5d59775dc8172e7d9c4dec6563f7fb9f93eca471215fd75cc",
+          "bytes": 1706,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/GBPRS_D_SCOT-LINL-BUR_018005.json",
+          "captured_at": "2026-11-04T01:12:54.933Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/SCOT_OPR_BUR_1592752.json",
+          "sha256": "0663d62e07d6d656dbc183640b26b90f0642f11e3ecf6b11897de5f9cf271fff",
+          "bytes": 1587,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1592752.json",
+          "captured_at": "2026-11-04T01:12:56.269Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/SCOT_OPR_BUR_1591550.json",
+          "sha256": "d1d9dfb64bbd9903ef9226e3a5a8ef39479a4cbc59130ff813d572a6097561e7",
+          "bytes": 1544,
+          "page": 36,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1591550.json",
+          "captured_at": "2026-11-04T01:12:57.451Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/SCOT_OPR_BUR_1185627.json",
+          "sha256": "97ced1a4b34cbf01d3b043a99b1145c0c0d621fde37850cdd03b9a809e0725b3",
+          "bytes": 1405,
+          "page": 37,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1185627.json",
+          "captured_at": "2026-11-04T02:48:11.238Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/GBPRS_SCOT_MIS_344442.json",
+          "sha256": "dc13a78e62d4a20c74a6f505b425f92782a534bb48dd995ddcfa61bfd11344c4",
+          "bytes": 1458,
+          "page": 37,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/GBPRS_SCOT_MIS_344442.json",
+          "captured_at": "2026-11-04T02:48:12.266Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/SCOT_OPR_BUR_1183694.json",
+          "sha256": "6a8bc96ad2496b90cbf87bf5e3dfd6100aa6d8d8b28ad27c13ec09312d10f614",
+          "bytes": 1401,
+          "page": 37,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1183694.json",
+          "captured_at": "2026-11-04T02:48:13.298Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/SCOT_OPR_BUR_1703289.json",
+          "sha256": "14a819646b9ac0d666027f1fc8fa052bc04f35e90ab4c2c870e52afa817cb7e8",
+          "bytes": 1509,
+          "page": 37,
+          "kind": "full_historical_transcript",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1703289.json",
+          "captured_at": "2026-11-04T02:48:15.096Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_BMD_BILLION_006568177.json",
+          "sha256": "d24f0fd688c7142ed1884fd45fba115319e9b70dfd05415ded7fd3e78ede1d16",
+          "bytes": 956,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_BMD_BILLION_006568177.json",
+          "captured_at": "2026-11-04T03:09:48.221Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_012884515_2.json",
+          "sha256": "56e80b4a0edb1b9d1509cc8b35dc5e95a4c29f928d51e8b0c5c2c330d178a353",
+          "bytes": 804,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_012884515_2.json",
+          "captured_at": "2026-11-04T03:09:50.351Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_012883651_1.json",
+          "sha256": "e9e3139ea57f412e32d6cf942418e3f7ab8b8e7561ab43c3a6b0aa9f7bca3c27",
+          "bytes": 804,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_012883651_1.json",
+          "captured_at": "2026-11-04T03:09:52.334Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_007641796_1.json",
+          "sha256": "f8d88197fe0793485e5314bca713f31a636c5765b688a413f406c7b9abb3e0ce",
+          "bytes": 886,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_007641796_1.json",
+          "captured_at": "2026-11-04T03:09:54.161Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_BMD_BILLION_026856539.json",
+          "sha256": "7f98b8cf885ff24415f03f2e2bafa44d60139923ea162e1504fd97db871a8286",
+          "bytes": 832,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_BMD_BILLION_026856539.json",
+          "captured_at": "2026-11-04T03:09:55.154Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_025241258_2.json",
+          "sha256": "a6c2c303b67a33dafadf81a73bff9042690a7beb2dcc6b9182ed5f0c40d0e2ed",
+          "bytes": 897,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_025241258_2.json",
+          "captured_at": "2026-11-04T03:09:56.895Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_025115812_2.json",
+          "sha256": "596f837fd64a31922b9f30672da8cdeab37a665df5fc100788488057fa5890ac",
+          "bytes": 915,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_025115812_2.json",
+          "captured_at": "2026-11-04T03:09:58.650Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_025478296_1.json",
+          "sha256": "9e6a86691c4242c8e8db102a878700acb7c9ac049fd7b098938fae4f8c651359",
+          "bytes": 931,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_025478296_1.json",
+          "captured_at": "2026-11-04T03:10:00.341Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_BMD_BILLION_017396964.json",
+          "sha256": "7ad9711a29cdc2298954478a35f159e9f24cfc3d50a3b06190ac9ffbc95e0b36",
+          "bytes": 814,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_BMD_BILLION_017396964.json",
+          "captured_at": "2026-11-04T03:10:47.455Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_085281688_1.json",
+          "sha256": "fcc1272fc6a7f23abda74b3ef293fb1403958569e9059232e57e0883732b3aa0",
+          "bytes": 804,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_085281688_1.json",
+          "captured_at": "2026-11-04T03:10:49.311Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_085512065_1.json",
+          "sha256": "11d45ea95ad73898a8447166a078ee17954bffab50626bf4536cfb652554c2ff",
+          "bytes": 804,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_085512065_1.json",
+          "captured_at": "2026-11-04T03:10:51.171Z"
+        },
+        {
+          "path": "data/private/findmypast-captures/2026-11-04/current-pages36-37/US_FS_M_085294276_1.json",
+          "sha256": "0fac790d7fed915a13f53b01a1e03a30aee23c850955db5aefbbed341ff229ec",
+          "bytes": 886,
+          "page": 37,
+          "kind": "minimal_scope_probe",
+          "original_capture_pointer": "tmp/fmp-pages36-40-20261104/US_FS_M_085294276_1.json",
+          "captured_at": "2026-11-04T03:10:53.165Z"
+        }
+      ],
+      "verification_report": "research/findmypast-glasgow-audit/page37-verification-2026-11-04.json",
+      "native_identity_correction": {
+        "claim_id": "clm-c75719f71ca50f63",
+        "before_status": "attributed",
+        "before_revision": 1,
+        "after_status": "superseded",
+        "after_revision": 2,
+        "basis": "Distinct source-defined1840Scott and1843Gilmour accounts; family/vital identity limits retained",
+        "kinship_assessment_changed": false
       }
     }
   }

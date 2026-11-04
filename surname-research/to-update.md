@@ -4665,3 +4665,9 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3814) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
 | [George Glasgow](https://www.wikitree.com/wiki/Glasgow-638) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
 | [Charlotte (Unknown) Glasgow](https://www.wikitree.com/wiki/Unknown-695645) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+
+## 4 November 2026 — page 37 source-attribution reconciliation
+
+| [Janet (Gilmour) Glasgow](https://www.wikitree.com/wiki/Gilmour-965) | OPEN | Correct 1843 Gilmour / 1840 Scott source attribution; retain date-label and natal-surname limits. |
+| [Janet (Glasgow) Scott](https://www.wikitree.com/wiki/Glasgow-3066) | OPEN | Correct 1843 Gilmour / 1840 Scott source attribution; retain date-label and natal-surname limits. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3545) | OPEN | Add qualified original-source estate-notice account; retain identity HOLD and all existing family assessments. |

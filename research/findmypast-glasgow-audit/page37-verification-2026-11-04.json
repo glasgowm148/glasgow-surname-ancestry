@@ -1,0 +1,118 @@
+{
+  "scope": "Post-publication local page37 verification only; no live deployment or WikiTree claim",
+  "plan_sha256": "e2534735489d8b86cbdb274e7e4a3a2fe82fced9bbf476d3d41d2eebfaafc516",
+  "baseline_sha256": "c9fd307b669aec37a72d589938b236f3f0a3e006e05f84b5667a38fff58fc3cf",
+  "explicit_final_row_overlay": {
+    "path": "tmp/fmp-pages36-40-20261104/sanitized-record-row-overlay.json",
+    "sha256": "cf0d8ba00830fe7f2075676c3564bdb4c40a99717ed5fd3035e2be684dd2c50b",
+    "reason": "Separate post-apply sanitation: remove only terminal Literal labelled fields JSON maps, preserving exact reviewed note prefix and every other canonical field. Other-batch rows may be ignored by a scoped page37 verifier.",
+    "selected_sanitized_rows": [
+      "fmp-record-gbprs-scot-mis-344442",
+      "fmp-record-scot-opr-bur-1183694",
+      "fmp-record-scot-opr-bur-1185627",
+      "fmp-record-scot-opr-bur-1703289"
+    ]
+  },
+  "passed": true,
+  "checks": [
+    {
+      "check": "selected_canonical_providers_and_source_readers",
+      "passed": true,
+      "detail": {
+        "canonical_rows": 7,
+        "selected_providers": 6,
+        "original_rows": 1,
+        "actual_source_readers": 7
+      }
+    },
+    {
+      "check": "unchanged_abstracts_and_companion_history",
+      "passed": true,
+      "detail": {
+        "unchanged_abstracts": 3,
+        "existing_companion_source_ids_preserved": 2,
+        "prior_association_history_preserved": 2
+      }
+    },
+    {
+      "check": "current_source_binding_and_superseded_reading",
+      "passed": true,
+      "detail": {
+        "record_id": "fmp-record-gbprs-glasgow-bur-093165",
+        "source_id": "s-2f381e5f18fdbeb2",
+        "current_entry_person": "gilmour-965",
+        "active_entry_citations": 1,
+        "superseded_exact_reading": "E-d3fd0ca0f7bc2ef0",
+        "unrelated_current_bindings_preserved": true
+      }
+    },
+    {
+      "check": "complete_proposals_source_sets_and_unchanged_family",
+      "passed": true,
+      "detail": {
+        "complete_proposals": 3,
+        "exact_normalized_proposal_hashes": 3,
+        "source_sets_preserved": 3,
+        "vitals_relationships_unchanged": 3
+      }
+    },
+    {
+      "check": "actual_full_fast_hydrated_filter_membership",
+      "passed": true,
+      "detail": {
+        "full_fast_rows": 4978,
+        "selected_full_fast_hydrated_people": 3,
+        "actual_detail_shards": 3,
+        "filter_flags": [
+          "missing_profile",
+          "needs_wikitree_update",
+          "has_profile"
+        ]
+      }
+    }
+  ],
+  "provider_ids_newly_indexed": 4,
+  "original_source_rows_added": 1,
+  "existing_canonical_contexts_corrected": 2,
+  "existing_abstracts_reused": 3,
+  "existing_unbounded_abstract_holds": 1,
+  "minimal_scope_probes": 12,
+  "unresolved_scope_gaps": 13,
+  "new_people": 0,
+  "new_relationship_assessments": 0,
+  "new_vital_adoptions": 0,
+  "current_complete_proposals": 3,
+  "query_rows_reviewed": 740,
+  "query_rows_captured": 840,
+  "query_displayed_total": 5872,
+  "bounded_indexed_provider_ids": 823,
+  "literal_receipts": 768,
+  "supporting_ids": 53,
+  "subscription_holds": 2,
+  "coverage": "INCOMPLETE",
+  "next_integration_page": 38,
+  "next_uncaptured_page": 43,
+  "public_raw_field_maps_removed": 23,
+  "obsolete_source_citation_archived": true,
+  "ingestion_tests_passed": 42,
+  "source_binding_fix_commit": "2322369e422",
+  "workbench_views": "340 of 340 generated views match authority",
+  "publication_new_failures": 0,
+  "internal_link_new_pairs": 0,
+  "local_sync": true,
+  "live_deployment": false,
+  "private_receipt_manifest_rows": 35,
+  "native_identity_attribution_correction": {
+    "claim_id": "clm-c75719f71ca50f63",
+    "before_status": "attributed",
+    "before_revision": 1,
+    "after_status": "superseded",
+    "after_revision": 2,
+    "basis": "Distinct source-defined1840Scott and1843Gilmour accounts; family/vital identity limits retained",
+    "kinship_assessment_changed": false
+  },
+  "display_note_id_corrections": 2,
+  "all_current_source_bindings_checked": 37,
+  "obsolete_generated_bindings_remaining": 0,
+  "private_workbench_backup_created": true
+}

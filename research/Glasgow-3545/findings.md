@@ -13,3 +13,11 @@ The [5 April index](https://www.findmypast.co.uk/transcript?id=R_102734966661) g
 
 The current before-1787 birth bound is compatible with the notice age but remains a working profile estimate. The family context is wife [Ann Denham](https://www.wikitree.com/wiki/Denham-2159) and daughter [Agnes Glasgow](https://www.wikitree.com/wiki/Glasgow-3544); these links do not prove the notice subject. No vital, parent, spouse or relationship-grade changes follow. Inspect the original register and seek independent occupation/address evidence before assigning the records. Older dated findings remain as research history.
 <!-- END FMP-PAGE36-20261104 Glasgow-3545 -->
+
+<!-- BEGIN FMP-PAGE37-20261104 Glasgow-3545 -->
+## Manchester estate notice — 4 November 2026
+
+An [original Manchester Courier legal notice](https://www.findmypast.co.uk/image-viewer?issue=BL%2F0000206%2F18480412&page=0004&article=044), dated and published 12 April 1848, calls William Glasgow, late of Gloucester-street, Manchester, deceased, an ironfounder and engineer. Creditors and debtors were directed to accountant John Cochrane at 3 Great Bridgewater street; solicitor S. Simpson was at 33 Back King-street. The original page was visually inspected by the parent researcher. No exact death day, age, wife, parent or kinship is supplied. The accountant’s address is not automatically the deceased’s residence.
+
+The trade and address context support comparison with the page-6 original death notice already integrated in the preceding batch. They do not independently identify Glasgow-3545, whose occupation and adult address remain unproved. The existing death-notice and 5/8 April register-index comparisons, age 66 versus 64, Ann Denham household and all prior source references are retained. No model vital, occupation, address, relative or confidence changes follow. The licensed raw image remains private; public text paraphrases it.
+<!-- END FMP-PAGE37-20261104 Glasgow-3545 -->

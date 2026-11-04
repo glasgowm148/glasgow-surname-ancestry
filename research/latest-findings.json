@@ -68476,6 +68476,51 @@
         "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
       ],
       "detail_url": "/people/glasgow-3545.html"
+    },
+    {
+      "id": "fmp-calton-janet-source-attribution-correction-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The 1843 Calton Janet source belongs with the woman represented by Gilmour-965, while Glasgow-3066 represents the separate 1840 Janet Scott account.",
+      "qualification": "New OPR derivatives give full Gilmour Or Glasgow and Glasgow Or Scott surnames, matching the complete source citations already held in the respective profiles by exact date, age and locality. The old weak Glasgow-3066 association with the 1843 burial is superseded with its history retained. The 1840 burial is a concrete chronological conflict with the separate 1843 deceased. New OPR entries label the shared dates as death while Calton companions label them burial; the originals remain uninspected. Neither compound surname independently proves natal orientation, and no husband, parent, maternal identity or new relationship is established. Existing uncertain model vitals are unchanged. This is a correction of record-subject attribution, not a new person or confidence upgrade.",
+      "people": [
+        {
+          "id": "Gilmour-965",
+          "name": "Janet (Gilmour) Glasgow",
+          "url": "/people/gilmour-965.html"
+        },
+        {
+          "id": "Glasgow-3066",
+          "name": "Janet (Glasgow) Scott",
+          "url": "/people/glasgow-3066.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1843 Mrs Janet Gilmour Or Glasgow, OPR 644/67 item 3 page 281, derivative inspected 4 November 2026",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1185627"
+        },
+        {
+          "title": "1840 Mrs Janet Glasgow Or Scott, OPR 644/67 item 3 page 167, derivative inspected 4 November 2026",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1183694"
+        },
+        {
+          "title": "Held 1843 Calton burial companion, reused without refetch",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093165"
+        },
+        {
+          "title": "Held 1840 Calton burial companion, reused without refetch",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FGLASGOW%2FBUR%2F093167"
+        }
+      ],
+      "source_paths": [
+        "research/Gilmour-965/findings.md",
+        "research/Glasgow-3066/findings.md",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json",
+        "research/findmypast-glasgow-audit/page37-proposal-preservation-2026-11-04.json"
+      ],
+      "detail_url": "/people/gilmour-965.html"
     }
   ]
 }
