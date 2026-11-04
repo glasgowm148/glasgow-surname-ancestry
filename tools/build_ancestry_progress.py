@@ -320,6 +320,63 @@ def comparison_rows(cohort, selected='working'):
     return ''.join(rows)
 
 
+OPEN_SECTIONS = {"connectivity-title"}  # the headline measures stay open; every other section starts collapsed
+FOLD_STYLE = """<style>
+.progress-toc{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.35rem .9rem;align-items:center;margin:0 0 1rem;padding:.55rem .75rem;background:var(--r-surface,#fff);border:1px solid var(--r-line,#ddd);border-radius:8px;font-size:.92rem}
+.progress-toc strong{margin-right:.2rem}.progress-toc a{white-space:nowrap}.progress-toc button{font:inherit;padding:.15rem .6rem;cursor:pointer}
+.progress-toc .toc-actions{margin-left:auto;display:flex;gap:.4rem}
+.progress-fold>details>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:.6rem}
+.progress-fold>details>summary::-webkit-details-marker{display:none}
+.progress-fold>details>summary::before{content:"";flex:none;width:0;height:0;border-style:solid;border-width:.38em 0 .38em .6em;border-color:transparent transparent transparent currentColor;transform:translateY(-.12em);transition:transform .15s}
+.progress-fold>details[open]>summary::before{transform:translateY(-.12em) rotate(90deg)}
+.progress-fold>details>summary h2{display:inline;margin:0}
+.progress-fold>details>summary .fold-hint{font-size:.85rem;opacity:.7}
+.progress-fold>details[open]>summary .fold-hint{display:none}
+.progress-fold{scroll-margin-top:4rem}
+@media (max-width:640px){.progress-toc{position:static}.progress-toc .toc-actions{margin-left:0}}
+</style>"""
+FOLD_SCRIPT = """<script>
+(function(){
+  var folds=[].slice.call(document.querySelectorAll('.progress-fold>details'));
+  function redraw(){window.dispatchEvent(new Event('resize'));}
+  folds.forEach(function(d){d.addEventListener('toggle',function(){if(d.open)redraw();});});
+  function reveal(){
+    var id=decodeURIComponent(location.hash.slice(1)); if(!id)return;
+    var el=document.getElementById(id); if(!el)return;
+    if(el.classList.contains('progress-fold'))el=el.querySelector(':scope>details')||el;
+    for(var p=el;p;p=p.parentElement){if(p.tagName==='DETAILS')p.open=true;}
+    requestAnimationFrame(function(){el.scrollIntoView();});
+  }
+  window.addEventListener('hashchange',reveal); reveal();
+  document.querySelectorAll('[data-fold]').forEach(function(b){b.addEventListener('click',function(){
+    var open=b.dataset.fold==='open'; folds.forEach(function(d){d.open=open;}); if(open)redraw();});});
+})();
+</script>"""
+
+
+def fold_sections(main):
+    """Make each top-level section collapsible and add a sticky contents bar."""
+    toc = []
+
+    def fold(match):
+        attrs, heading_id, title, body = match.groups()
+        label = re.sub(r"<[^>]+>", "", title)
+        section_id = re.search(r'\bid="([^"]+)"', attrs)
+        target = section_id.group(1) if section_id else heading_id
+        toc.append(f'<a href="#{target}">{escape(label)}</a>')
+        is_open = " open" if heading_id in OPEN_SECTIONS else ""
+        attrs = re.sub(r'\bclass="([^"]*)"', r'class="\1 progress-fold"', attrs) if 'class="' in attrs else attrs + ' class="progress-fold"'
+        return (f'<section{attrs}><details{is_open}><summary><h2 id="{heading_id}">{title}</h2>'
+                f'<span class="fold-hint">Show section</span></summary>{body}</details></section>')
+
+    main = re.sub(r'<section([^>]*)>\s*<h2 id="([^"]+)">(.*?)</h2>(.*?)</section>', fold, main, flags=re.S)
+    nav = ('<nav class="progress-toc" aria-label="On this page"><strong>On this page:</strong>' + "".join(toc)
+           + '<span class="toc-actions"><button type="button" data-fold="open">Expand all</button>'
+             '<button type="button" data-fold="close">Collapse all</button></span></nav>')
+    main = main.replace("</header>", "</header>" + FOLD_STYLE + nav, 1)
+    return main.replace("</main>", FOLD_SCRIPT + "</main>", 1)
+
+
 def build(create_baseline=False):
     strategy = json.loads((WORK / "strategy.json").read_text())
     documentary = load_people(WORK / 'documentary-people.json')
@@ -644,8 +701,9 @@ def build(create_baseline=False):
 <div id="individual-findings" aria-labelledby="individual-findings-title"><h3 id="individual-findings-title">Individual findings</h3><p>Follow each selected father’s assessment, with the child’s biography and WikiTree profile. Percentage changes use saved individual estimates, including decreases and changes within a confidence band. First percentages that change a saved earlier confidence grade count as findings; unchanged initial assessments remain review coverage. New and replacement recommendations are reconciled with the catalogue. Dates are recorded review dates; same-day entries retain saved order.</p><div class="progress-controls"><label>Findings <select id="findings-kind"><option value="research">Research changes and father recommendations</option><option value="change">Confidence changes (percentages or grades)</option><option value="first">First individual ratings</option><option value="new">New / replacement fathers</option><option value="all">All findings</option></select></label><label class="inline-check"><input type="checkbox" id="findings-all-cohorts">Include beyond the selected history cohort</label></div><p id="findings-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Individual father findings"><table><thead><tr><th scope="col">Review date</th><th scope="col">Child and father</th><th scope="col">Individual assessment</th><th scope="col">Evidence and reason</th></tr></thead><tbody id="findings-rows"></tbody></table></div></div>
 </section>'''
     main = main.replace('<section aria-labelledby="connectivity-title">', history_html + '<section aria-labelledby="connectivity-title">', 1)
-    main = main.replace('<section aria-labelledby="baseline-title">', '<section aria-labelledby="baseline-title"><details><summary>Research objective and shared-origin hypothesis</summary><p>' + escape(strategy['objective']) + '</p><p>' + escape(strategy['common_origin']) + '</p></details>', 1)
+    main = main.replace('<h2 id="baseline-title">Track the same baseline people</h2>', '<h2 id="baseline-title">Track the same baseline people</h2><details><summary>Research objective and shared-origin hypothesis</summary><p>' + escape(strategy['objective']) + '</p><p>' + escape(strategy['common_origin']) + '</p></details>', 1)
     main = main.replace('<a href="#early-connections">', '<a href="#progress-history">Progress chart</a><a href="#individual-findings">Individual findings</a><a href="#early-connections">', 1)
+    main = fold_sections(main)
     page = shell_page((WEB / "about/index.html").read_text(), main, "Glasgow ancestry progress", ROUTE + "index.html")
     page = page.replace(
         "</head>", '<link rel="stylesheet" href="/assets/research/ancestry-progress.css?v=current"></head>'
