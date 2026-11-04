@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from bs4 import BeautifulSoup
 from tools import build_latest_findings as findings
@@ -49,6 +50,26 @@ class LatestFindingsTests(unittest.TestCase):
             self.assertEqual('/latest-findings/', soup.select_one('.g-nav [aria-current]')['href'])
             self.assertEqual({}, dict(findings.repair(web, ledger)))
             self.assertIn('Preserved history', (web / 'changes/index.html').read_text())
+
+    def test_subject_draft_refresh_defaults_on_and_can_be_skipped(self):
+        for options, expected_calls in [({}, 1), ({'refresh_subject_drafts': False}, 0)]:
+            with self.subTest(options=options), tempfile.TemporaryDirectory() as directory:
+                web, ledger, _ = self.fixture(directory)
+                with patch.object(findings, 'WEB', web), \
+                     patch('tools.build_research_subject_drafts.build', return_value={'changed': 0}) as drafts, \
+                     patch('tools.build_tree_research_status.write'), \
+                     patch('tools.profile_tree_links.apply', return_value={'changed': 0}):
+                    findings.repair(web, ledger, **options)
+                    self.assertEqual(expected_calls, drafts.call_count)
+                    self.assertEqual(2, len(json.loads((web / 'data/latest-findings-index.json').read_text())))
+                    self.assertTrue((web / 'latest-findings/index.html').is_file())
+                    self.assertTrue((web / 'latest-findings/feed.xml').is_file())
+                    # Skipping draft generation must still reject missing local routes.
+                    invalid = json.loads(ledger.read_text())
+                    invalid['findings'][0]['detail_url'] = '/missing-draft/'
+                    ledger.write_text(json.dumps(invalid))
+                    with self.assertRaisesRegex(ValueError, 'Missing public finding destination'):
+                        findings.repair(web, ledger, **options)
 
     def test_rejects_duplicate_ids_missing_evidence_and_unqualified_limits(self):
         with tempfile.TemporaryDirectory() as directory:

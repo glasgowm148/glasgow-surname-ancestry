@@ -419,9 +419,9 @@ def _subject_page(template, main, clean, title, description):
     return _with_base(page, clean)
 
 
-def repair(web=WEB, ledger=LEDGER):
+def repair(web=WEB, ledger=LEDGER, *, refresh_subject_drafts=True):
     changed = Counter()
-    if web == WEB and (ROOT / 'research/latest-findings-subjects/subjects.json').exists():
+    if refresh_subject_drafts and web == WEB and (ROOT / 'research/latest-findings-subjects/subjects.json').exists():
         try:
             from tools.build_research_subject_drafts import build as build_subject_drafts
         except ModuleNotFoundError:
