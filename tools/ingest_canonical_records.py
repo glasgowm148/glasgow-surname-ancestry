@@ -138,6 +138,34 @@ def repair_layout(root=ROOT):
     return changed
 
 
+def _inline_source_note(text, site_root=None):
+    """Escape source prose; link only safe external URLs or verified person pages."""
+    text = str(text or '')
+    parts, cursor = [], 0
+    root = Path(site_root).resolve() if site_root is not None else None
+    for match in re.finditer(r"\[([^\]\n]+)\]\(([^\s()]+)\)", text):
+        parts.append(escape(text[cursor:match.start()]))
+        label, url = match.groups()
+        safe = False
+        if not any(ord(c) < 32 or c in '\\<>\"\'' for c in url):
+            local = re.fullmatch(r"/people/[a-z0-9][a-z0-9_.-]*\.html(?:#[A-Za-z0-9_-]+)?", url)
+            if local and root is not None:
+                target = (root / url.split('#', 1)[0].lstrip('/')).resolve()
+                safe = target.is_relative_to(root) and target.is_file()
+            else:
+                try:
+                    parsed = urlsplit(url)
+                    safe = (parsed.scheme.lower() in {'http', 'https'} and bool(parsed.hostname)
+                            and _safe_url(url) == url)
+                except ValueError:
+                    pass
+        parts.append(f'<a href="{escape(url, quote=True)}">{escape(label)}</a>'
+                     if safe else escape(match.group(0)))
+        cursor = match.end()
+    parts.append(escape(text[cursor:]))
+    return ''.join(parts)
+
+
 def source_page(shell, doc, *, existing=False, site_root=None):
     site_root = Path(site_root) if site_root is not None else None
     canonical_ids = set()
@@ -163,7 +191,7 @@ def source_page(shell, doc, *, existing=False, site_root=None):
     for row in doc.get('records', []):
         body += '<article><h2>' + escape(' '.join((row.get('association') or row.get('name') or 'Record association').split())) + '</h2>'
         body += '<p>' + escape(' · '.join(str(row[k]) for k in ('date', 'place', 'country', 'status') if row.get(k))) + '</p>'
-        body += '<p>' + escape(row.get('note') or '') + '</p></article>'
+        body += '<p>' + _inline_source_note(row.get('note') or '', site_root) + '</p></article>'
     body += '<h2>Linked people and record roles</h2><ul>'
     for row in doc.get('citations', []):
         who = escape(row.get('name') or row.get('person') or 'Unnamed record subject')
@@ -177,7 +205,7 @@ def source_page(shell, doc, *, existing=False, site_root=None):
                 who = f'<a href="https://www.wikitree.com/wiki/{escape(target, quote=True)}">{who}</a>'
         earlier = (title_correction and (row.get('source') or {}).get('title') == title_correction['previous'])
         label = '<strong>Earlier reading, superseded:</strong> ' if earlier else ''
-        body += '<li>' + label + who + ': ' + escape(row.get('assertion') or '') + '</li>'
+        body += '<li>' + label + who + ': ' + _inline_source_note(row.get('assertion') or '', site_root) + '</li>'
     body += '</ul>'
     body = start + '<section aria-label="Reviewed canonical records">' + body + '</section>' + end
     if start in shell:

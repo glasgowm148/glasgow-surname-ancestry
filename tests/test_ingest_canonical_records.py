@@ -164,6 +164,52 @@ class CanonicalRecordIngestTest(unittest.TestCase):
             apply(self.root, ['new-canonical-id'], refresh_sources=False)
         self.assertEqual(path.read_bytes(), before)
 
+    def test_source_only_candidate_links_are_clickable_without_person_assignment(self):
+        self.canonical.update(profiles={}, note='Compare [Janet <&>](/people/glasgow-32.html) only; no event assigned. '
+                              '[Original](https://example.org/record?id=1&part=2)')
+        self.put('research/canonical_records.json', [self.canonical])
+        writes = plan(self.root, ['new-canonical-id'])
+        page = writes[self.web / 'sources' / self.source['id'] / 'index.html']
+        anchor = '<a href="/people/glasgow-32.html">Janet &lt;&amp;&gt;</a>'
+        # Both record note and repeated citation assertion use the safe renderer.
+        self.assertEqual(page.count(anchor), 2)
+        self.assertIn('<a href="https://example.org/record?id=1&amp;part=2">Original</a>', page)
+        record = writes[self.web / 'data/records-index.json'][1]
+        source = writes[self.web / 'assets/v3/sources' / (self.source['id'] + '.json')]
+        self.assertEqual(record['profile_context'], {})
+        self.assertEqual(record['catalogue_id'], '')
+        self.assertEqual(source['members'], [])
+        self.assertTrue(all(not c['person'] for c in source['citations']))
+
+    def test_source_note_links_reject_unsafe_or_unverified_targets_and_escape_html(self):
+        from html.parser import HTMLParser
+        from tools.ingest_canonical_records import source_page
+        class Tags(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.tags = []
+                self.links = []
+            def handle_starttag(self, tag, attrs):
+                self.tags.append(tag)
+                if tag == 'a':
+                    self.links.append(dict(attrs).get('href'))
+        note = ('[js](javascript:alert) [data](data:text/html,x) [relative](//evil.example/x) '
+                '[missing](/people/glasgow-999.html) [traversal](/people/../glasgow-32.html) '
+                '[query](/people/glasgow-32.html?redirect=evil) [credentials](https://u:p@example.org/x) '
+                '<script>alert(1)</script><img src=x onerror=alert(1)><a href="//evil.example">raw</a>')
+        self.canonical.update(profiles={}, note=note)
+        self.put('research/canonical_records.json', [self.canonical])
+        page = plan(self.root, ['new-canonical-id'])[self.web / 'sources' / self.source['id'] / 'index.html']
+        parsed = Tags(); parsed.feed(page)
+        self.assertNotIn('script', parsed.tags)
+        self.assertNotIn('img', parsed.tags)
+        self.assertFalse(any(href and (href.startswith(('javascript:', 'data:', '//', '/people/'))
+                                      or 'u:p@' in href) for href in parsed.links))
+        self.assertIn('&lt;script&gt;', page)
+        # An existing file cannot become a local link without a supplied site root.
+        doc = {**self.source, 'records': [{'note': '[Candidate](/people/glasgow-32.html)'}]}
+        self.assertNotIn('href="/people/glasgow-32.html"', source_page(self.shell, doc))
+
     def test_search_result_does_not_claim_transcript_locality(self):
         self.canonical.update(
             status='Search result only; transcript uninspected',
