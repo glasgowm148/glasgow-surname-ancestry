@@ -66,4 +66,10 @@ A soldier's child with an indexed birth year before 1860 is treated as an index 
 - **1939 Register:** Arthur Graham Glasgow-670 at Southampton and Henry Glasgow-4318 at Poole, both probable.
 - **Scottish probate:** four estates, for Ninian-3297, Alexander-2702, Wilhelmina Husband-862 and Robert Forsyth-442.
 
+## Batch 5 — person entries for pre-1906 Irish and Scottish indexes, 4 November 2026
+
+Owner rule (4 November 2026): every Glasgow-surname person in these records gets a research-catalogue entry. A record is linked to an existing person unless an explicit reason rules that person out: conflicting dates, a different named spouse or father, a birthplace outside the registration district, a death before the event, or an age too young for the role. Absent fields are not reasons, and the reason for each exclusion is kept in the record note and the draft. When one candidate is clearly preferred on dates and place, the record is linked as a probable match. When several stay compatible, the person gets an identity-HOLD draft listing them. With none, the person gets a creation-ready draft. Earlier records are taken first, so this batch covers the Belfast News-Letter, the Ireland birth index and the Scottish probate calendar.
+
+Result: 73 more people are linked as probable matches. 119 new draft entries (39 creation-ready, 80 identity HOLDs) are in `research/queue-review-2026-10-17/catalogue-integration.json`. Their complete sourced drafts are in `drafts/`. Each canonical record names its draft in `subject_draft_url`. The drafts reach the site at the next catalogue rebuild.
+
 **Status: INCOMPLETE.** Workers are still saving the service, pension and medal-card indexes and the 1911, 1921 and 1939 English collections.
