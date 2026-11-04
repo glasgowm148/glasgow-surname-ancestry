@@ -68662,6 +68662,41 @@
         "research/findmypast-glasgow-audit/page38-recovered-proposal-preservation-2026-11-04.json"
       ],
       "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
+    },
+    {
+      "id": "ancestry-wo363-robert-glasgow-1110-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Robert Glasgow-1110 (1882–1942) has a surviving First World War service record (WO 363): the Ancestry index of its attestation lists his wife Elizabeth Macpherson and his daughters Jessie (born 14 October 1912, Glasgow) and Elizabeth Brownlie (born 3 July 1916, Glasgow).",
+      "qualification": "Identity rests on both daughters' indexed birth dates matching the existing profiles Jessie Rodie Glasgow-1111 and Elizabeth Brownlie Glasgow-1112 exactly, with the indexed wife matching their catalogue mother Elizabeth McPherson. The index gives Jessie's middle name as Glasgow rather than Rodie; this is retained as an index or form discrepancy, not a second child. Only the family-member index entries were inspected. The soldier's own index entry, his regiment and service details and the original WO 363 images have not been read, so no service dates, unit or vital changes are adopted. Existing relationships and confidence ratings are unchanged. This is a new source for an existing family in the Camlachie/Rasharkin branch (Robert is a son of William Glasgow-939 and grandson of Robert Glasgow-938), not a new person or a new relationship.",
+      "people": [
+        {
+          "id": "Glasgow-1110",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1110.html"
+        },
+        {
+          "id": "Glasgow-1111",
+          "name": "Jessie Rodie Glasgow",
+          "url": "/people/glasgow-1111.html"
+        },
+        {
+          "id": "Glasgow-1112",
+          "name": "Elizabeth Brownlie Glasgow",
+          "url": "/people/glasgow-1112.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UK, British Army World War I Service Records, 1914-1920 (TNA WO 363) — Jessie Glasgow, child of Robert Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/1219/records/6058422"
+        },
+        {
+          "title": "UK, British Army World War I Service Records, 1914-1920 (TNA WO 363) — Elizabeth Brownlie Glasgow, child of Robert Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/1219/records/6058423"
+        }
+      ]
     }
   ]
 }
