@@ -44,4 +44,26 @@ Relatives named in a search row are published only when the row's date bounds th
 - **Irish death confirmations.** Index rows confirm the recorded death dates of 22 existing profiles: the Cookstown, Belfast, Portadown and Newry families, and three Belfast or Partick soldiers in Ireland's Memorial Records. These are confirmations only, with no date changes. Mary Elizabeth Glasgow's 1874 Belfast notice is held as a candidate comparison for Glasgow-1403.
 - **1911 households.** [Robert James Glasgow-2672](/people/glasgow-2672.html) and [Roberta-2673](/people/glasgow-2673.html) at Bootle are matched, with a son Marius outside the catalogue. [John Mawson Glasgow-999](/people/glasgow-999.html) at Huncoat is matched. [William Glasgow-2060](/people/glasgow-2060.html) at Bolton is a probable match. William "Elargow" of Rock Ferry is a candidate comparison for Glasgow-2675.
 
+## Batch 4 — 4 November 2026
+
+Running totals after this batch: **1,049 canonical records** from 1,623 captured entries. New in this batch:
+- **WO 364 pension records (1114):** 22 of 41 recorded.
+- **Medal cards:** all 42 still HOLD.
+- **1911 census:** 336 of 414 recorded.
+- **1921 census:** 7 of 20 recorded.
+- **1939 Register:** 154 of 298 recorded.
+- **Ireland civil birth index (2573):** 333 of 446 recorded.
+- **Scottish probate calendar (60558):** 22 of 49 recorded.
+- **Scottish rolls of honour (62490):** 2 recorded.
+- **Ireland Cemetery Collection (70947):** 5 HOLDs; four are post-1905 deaths.
+
+A soldier's child with an indexed birth year before 1860 is treated as an index error and HOLD, not as evidence of an early birth.
+
+**Matches.**
+- **Robert Glasgow-1110:** his WO 364 pension record also lists his daughters.
+- **Irish births:** the birth index confirms 67 profiles' births and probably 36 more; 6 registrations remain candidate comparisons only.
+- **Households:** Edwin Glasgow-2671 at Newcastle, and the Swailes-Glasgow family at Low Fell, Gateshead.
+- **1939 Register:** Arthur Graham Glasgow-670 at Southampton and Henry Glasgow-4318 at Poole, both probable.
+- **Scottish probate:** four estates, for Ninian-3297, Alexander-2702, Wilhelmina Husband-862 and Robert Forsyth-442.
+
 **Status: INCOMPLETE.** Workers are still saving the service, pension and medal-card indexes and the 1911, 1921 and 1939 English collections.
