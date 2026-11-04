@@ -1,0 +1,171 @@
+{
+  "scope": "Local page38 partial publication only; no production deployment or live WikiTree claim",
+  "plan_sha256": "c874f7f06ec7f066623837c6c99ab53e1eef0722bd34e99db6ad958373e13c05",
+  "passed": true,
+  "checks": [
+    {
+      "check": "eight_canonical_rows_source_readers_and_held_companions",
+      "passed": true,
+      "detail": {
+        "selected_rows": 8,
+        "actual_source_readers": 8,
+        "source_only_rows_without_people": 6,
+        "unchanged_named_companions": 4
+      }
+    },
+    {
+      "check": "actual_baseline_and_current_database_resolver",
+      "passed": true,
+      "detail": {
+        "people": 2,
+        "baseline_and_published_vitals_relationships_unchanged": true,
+        "database": "readonly Views.vitals()/assessments() passed to publish_resolved_dossiers.resolve"
+      }
+    },
+    {
+      "check": "complete_proposals_and_current_conclusion_proof",
+      "passed": true,
+      "detail": {
+        "complete_proposals": 2,
+        "preservation_validator_and_prior_sources": true,
+        "prior_pending_amendments_preserved": true,
+        "current_conclusion_correction_proof_honored": true
+      }
+    },
+    {
+      "check": "two_findings_and_original_title_exclusion",
+      "passed": true,
+      "detail": {
+        "visible_findings": 2,
+        "original_boyd_title_exclusion_retained": true,
+        "excluded_provider_canonical_events": 0
+      }
+    },
+    {
+      "check": "actual_catalogue_filter_flags",
+      "passed": true,
+      "detail": {
+        "selected_people_full_fast_hydrated": 2,
+        "detail_shards_read": 2
+      }
+    }
+  ],
+  "reviewed_on": "2026-11-04",
+  "coverage": {
+    "status": "INCOMPLETE",
+    "query_rows_reviewed": 760,
+    "query_rows_captured": 840,
+    "query_displayed_results": 5872,
+    "bounded_indexed_provider_ids": 831,
+    "literal_indexed": 776,
+    "supporting_indexed": 53,
+    "search_only_indexed_holds": 2,
+    "page38_fully_integrated": false,
+    "pending_page38_integration": [
+      "GBPRS/LANARKSHIRE/BUR/020567",
+      "SCOT/OPR/BUR/1610273",
+      "SCOT/OPR/BAP/4474348",
+      "SCOT/OPR/BUR/1448478",
+      "SCOT/OPR/BUR/0255429",
+      "SCOT/OPR/BAP/4476061"
+    ],
+    "newly_captured_current_provider_ids": 98,
+    "new_full_receipts": 90,
+    "minimal_scope_probes": 8,
+    "unchanged_reuses": 2,
+    "cached_access_holds_not_retried": 0,
+    "new_current_pages39_42_receipts_pending_reconciliation": 80,
+    "scope_limit": "Main query is only one birth window and record category; these figures do not establish whole-goal completeness.",
+    "daily_limit_holds_recovered": 6
+  },
+  "batch": {
+    "new_indexed_provider_entries": 8,
+    "documentary_groups": 5,
+    "complete_existing_proposals": 2,
+    "original_title_exclusion": 1,
+    "new_people": 0,
+    "vital_adoptions": 0,
+    "relationship_or_confidence_changes": 0
+  },
+  "gates": {
+    "research_publication_new_failures": 0,
+    "workbench_views_matching": 340,
+    "workbench_views_checked": 340,
+    "internal_links_new_pairs": 0,
+    "internal_links_existing_baseline_pairs": 4,
+    "asset_remaining_mismatches": [
+      0,
+      0
+    ],
+    "sitemap_source_routes_checked": 8,
+    "backup_exit": 0
+  },
+  "source_readers": [
+    {
+      "provider_id": "SCOT/OPR/BUR/1450423",
+      "source_id": "s-cb3d27b3d2f97768",
+      "path": "www/sources/s-cb3d27b3d2f97768/index.html",
+      "sha256": "62f59d72b86c852d150de45ce0810bd37c32a06d22edd78535e90efba02051af"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/1450148",
+      "source_id": "s-39fdd45ef082c219",
+      "path": "www/sources/s-39fdd45ef082c219/index.html",
+      "sha256": "ed76be606026e09f055fcbd948efa4e2a7efebad076bf761cd7ad54cf22687d2"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/0257099",
+      "source_id": "s-86e810bcc177f8f3",
+      "path": "www/sources/s-86e810bcc177f8f3/index.html",
+      "sha256": "797b6748b285b55df219230a2b2116daf04ee91a0e79510f9816a6f66928a1f7"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/0257374",
+      "source_id": "s-51c04436477de58b",
+      "path": "www/sources/s-51c04436477de58b/index.html",
+      "sha256": "616ee12ce5a115cffd3b95c966879981bf38572d26775f70ad0350e0949c5fbc"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/0261772",
+      "source_id": "s-3d6dd111fd437581",
+      "path": "www/sources/s-3d6dd111fd437581/index.html",
+      "sha256": "1ac89f333aa335463bbfc2679ffc1f1279b688bae5f191cec06d48b15f11c000"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/1454821",
+      "source_id": "s-78e5735dba43f6ef",
+      "path": "www/sources/s-78e5735dba43f6ef/index.html",
+      "sha256": "2ea0a5b197acdf54692525a04ab4cdc637d19f290e62e3d329cfcc8b4c240468"
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/4476102",
+      "source_id": "s-98ddde7677801d1d",
+      "path": "www/sources/s-98ddde7677801d1d/index.html",
+      "sha256": "3f98287db0f6c741173315c5bc19a886e4e0e80d8e629046f9f3598c4037d7cb"
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/4628212",
+      "source_id": "s-59a05fabcffe093c",
+      "path": "www/sources/s-59a05fabcffe093c/index.html",
+      "sha256": "440dce013c8155ce109e1306d6ea0d596f1a00086c495b626cebd06b7a5a87a2"
+    }
+  ],
+  "private_capture_manifest": {
+    "path": "data/private/findmypast-captures/2026-11-04/current-pages38-42/capture-manifest.json",
+    "sha256": "8794a6f3c68345fda800ae318285f443f243d3c7d10e68926e9050e70070b3be"
+  },
+  "publication": "Local only; no push, deployment or live WikiTree edit",
+  "next_action": "Integrate the Janet 1774 Symington record and five recovered page38 historical transcripts against compatible existing people, then reconcile saved pages39–42. All six historical daily-limit holds were recovered once under the fresh allowance; do not repeat them. Preserve unresolved scope and identity questions; coverage remains INCOMPLETE.",
+  "access_correction": {
+    "historical_condition": "Six raw daily-limit redirects had incorrect legacy subscription labels",
+    "new_attempts": 6,
+    "accessible_after_new_allowance": 6,
+    "new_indexed_from_recovery": 0,
+    "private_manifest": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/manifest.json"
+  },
+  "receipt_deduplication": {
+    "exact_new_receipts_registered_in_scope_ledger": 98,
+    "new_indexed_entries_still": 8,
+    "previously_saved_pending_receipts_now_discoverable_without_provider_refetch": 82
+  }
+}

@@ -68521,6 +68521,91 @@
         "research/findmypast-glasgow-audit/page37-proposal-preservation-2026-11-04.json"
       ],
       "detail_url": "/people/gilmour-965.html"
+    },
+    {
+      "id": "fmp-boyd1755-earl-title-exclusion-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Boyd 1755 Glasgow/Betty Ross marriage result indexes the Earl of Glasgow’s title rather than a Glasgow birth surname.",
+      "qualification": "The inspected contemporary Gentleman’s Magazine page284 (volume 25, June 1755) names John, Earl of Glasgow, marrying the Hon. Miss Betty, daughter to Lord George Ross. This confirms title context behind the Boyd derivative’s blank forename and Last name Glasgow. The entry is excluded from born-Glasgow surname scope, with the exact provider receipt and review history retained. No exact wedding day is adopted; conflicting secondary July dates are not treated as original evidence. No new person, canonical surname-marriage event, family attachment or confidence change is recorded.",
+      "people": [],
+      "sources": [
+        {
+          "title": "The Gentleman’s Magazine, volume 25, June 1755, printed page 284, left-column marriage list, scan leaf 49; original page visually inspected 4 November 2026",
+          "url": "https://archive.org/details/sim_gentlemans-magazine_1755-06_25_6/page/n49/mode/1up"
+        },
+        {
+          "title": "Boyd’s 1st miscellaneous marriage index, 1415–1808, Glasgow/Betty Ross, 1755, GBPRS/M/710575678/2; inspected provider derivative",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FM%2F710575678%2F2"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
+    },
+    {
+      "id": "fmp-page38-edinburgh-source-groups-john1755-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Six newly inspected Edinburgh burial derivatives form three unnamed source-only groups; a supplementary Kirknewton baptism derivative matches John Glasgow-3581’s existing 18 May 1755 event through named companions.",
+      "qualification": "The three burial pairs are 3 February 1754 (child of John Glasgow), 14 October 1754 (Mrs / Child of Mr Glasgow / Merchant role ambiguity) and 5 August 1760 (unnamed Miss Glasgow, no age). No buried person is identified. The baptism derivative leaves the child forename blank but gives John Glasgow and Mary Robertson, matching held named companions. Repeated indexes are not independent witnesses. No exact birthday or death day is adopted; the existing inclusive birth bound, 82% father proposition and separately unassessed maternal adult identity are unchanged. This is new derivative-source context and an already represented event, not a new person or relationship discovery. The 1770 West Calder derivative is only a same-event candidate: unnamed child and mother Agnes conflict with held child Agnes/mother Margaret Mill; no new mother is adopted and 81% father assessment remains unchanged. Parish originals uninspected.",
+      "people": [
+        {
+          "id": "Glasgow-3581",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3581.html"
+        },
+        {
+          "id": "Glasgow-3406",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3406.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow, indexed Mrs and child of Mr Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1450423"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow, child of John Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1450148"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow, child of John Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0257099"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow, indexed Mrs and child of Mr Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0257374"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Miss Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0261772"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Miss Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1454821"
+        },
+        {
+          "title": "Scotland, Parish Births & Baptisms 1564-1929 — unnamed Glasgow child of John Glasgow and Mary Robertson",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476102"
+        },
+        {
+          "title": "Scotland, Parish Births & Baptisms 1564–1929 — unnamed Glasgow child, West Calder, 1770",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4628212"
+        }
+      ],
+      "source_paths": [
+        "research/Glasgow-3581/findings.md",
+        "research/Glasgow-3406/findings.md",
+        "tmp/fmp-pages36-40-20261104/page38-source-only-row-candidates.json",
+        "/Users/m/genealogy/wikitree-api-scrape/tmp/fmp-pages36-40-20261104/page38-3581-drafts/record-row-candidates.json",
+        "tmp/fmp-pages36-40-20261104/page38-3406-drafts/canonical-row.json"
+      ],
+      "detail_url": "/people/glasgow-3581.html"
     }
   ]
 }
