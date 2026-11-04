@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-11-01",
+  "reviewed": "2026-11-04",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -29920,29 +29920,81 @@
       "subject_id": "Glasgow-802",
       "relative_id": "Glasgow-803",
       "relationship": "father",
-      "percent": 51,
-      "assessment_status": "possible",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022h-glasgow-802-father",
-      "basis": "Jane’s 1818 South Carolina birth fits James’s 1788 generation and 1820 Abbeville household. Her 1870/1880 Alabama and compiled-marriage citations supply no held father statement, leaving a weak specific-parent attachment.",
+      "basis": "The family-register transcription matches Jane El.’s exact 11 June 1818 birthday, her marriage to Giles Burditt on 31 March 1836, and her daughter Nancy Clementine Burditt’s 28 April 1837 birthday. The separate estate abstract calls Jane Burdit a child of James Glasgow and also names her sisters by their distinctive McClelan and Hunter married surnames. Together these identify the James/Margaret Morrow household represented by James-803 and establish this existing father relationship. This is a combined record-based identification, not a new father attachment or a mere first numerical rating.",
       "source_ids": [
-        "held-e-781c368029ed"
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-11-04",
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "assessment_history": [
+        {
+          "percent": 51,
+          "assessment_status": "possible",
+          "basis": "Jane’s 1818 South Carolina birth fits James’s 1788 generation and 1820 Abbeville household. Her 1870/1880 Alabama and compiled-marriage citations supply no held father statement, leaving a weak specific-parent attachment.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": false,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-802.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-802": "Jane Elizabeth Glasgow Burdette",
+        "Glasgow-803": "James Thomas Glasgow"
+      }
     },
     {
       "subject_id": "Glasgow-803",
       "relative_id": "Glasgow-802",
       "relationship": "child",
-      "percent": 51,
-      "assessment_status": "possible",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
       "assertion_id": "C-coverage-20261022h-glasgow-802-father",
-      "basis": "Jane’s 1818 South Carolina birth fits James’s 1788 generation and 1820 Abbeville household. Her 1870/1880 Alabama and compiled-marriage citations supply no held father statement, leaving a weak specific-parent attachment.",
+      "basis": "The family-register transcription matches Jane El.’s exact 11 June 1818 birthday, her marriage to Giles Burditt on 31 March 1836, and her daughter Nancy Clementine Burditt’s 28 April 1837 birthday. The separate estate abstract calls Jane Burdit a child of James Glasgow and also names her sisters by their distinctive McClelan and Hunter married surnames. Together these identify the James/Margaret Morrow household represented by James-803 and establish this existing father relationship. This is a combined record-based identification, not a new father attachment or a mere first numerical rating.",
       "source_ids": [
-        "held-e-781c368029ed"
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-11-04",
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "assessment_history": [
+        {
+          "percent": 51,
+          "assessment_status": "possible",
+          "basis": "Jane’s 1818 South Carolina birth fits James’s 1788 generation and 1820 Abbeville household. Her 1870/1880 Alabama and compiled-marriage citations supply no held father statement, leaving a weak specific-parent attachment.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": false,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-802.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-802": "Jane Elizabeth Glasgow Burdette",
+        "Glasgow-803": "James Thomas Glasgow"
+      }
     },
     {
       "subject_id": "Glasgow-122",
@@ -46065,6 +46117,254 @@
         "alternative_assertion_id": "C-coverage-20261022g-glasgow-1607-father",
         "previous_parent": "Glasgow-1238",
         "reason": "Owner-approved re-point to the same-parish Edrom James; the Stitchel James is retained as a possible alternative."
+      }
+    },
+    {
+      "subject_id": "Glasgow-818",
+      "relative_id": "Glasgow-803",
+      "relationship": "father",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-mary818-father-20261104",
+      "basis": "Maria Ann’s exact 11 June 1816 birthday and 11 December 1833 John P. McClellan marriage in the family-register transcription match Mary-818, as do the McLelan children’s dates. The estate abstract separately names Mary McClelan among James Glasgow’s children alongside Jane Burdit and Nancy Hunter. The published Mary-to-Nancy letter confirms the sister network. The distinctive multi-person household identifies James-803, already representing Jane’s father and Margaret Morrow’s husband. The checked live profile has no father: this is a genuine new father recommendation.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-818.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-803": "James Thomas Glasgow",
+        "Glasgow-818": "Mary Ann Glasgow McClellan"
+      }
+    },
+    {
+      "subject_id": "Glasgow-803",
+      "relative_id": "Glasgow-818",
+      "relationship": "child",
+      "percent": 96,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-mary818-father-20261104",
+      "basis": "Maria Ann’s exact 11 June 1816 birthday and 11 December 1833 John P. McClellan marriage in the family-register transcription match Mary-818, as do the McLelan children’s dates. The estate abstract separately names Mary McClelan among James Glasgow’s children alongside Jane Burdit and Nancy Hunter. The published Mary-to-Nancy letter confirms the sister network. The distinctive multi-person household identifies James-803, already representing Jane’s father and Margaret Morrow’s husband. The checked live profile has no father: this is a genuine new father recommendation.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-818.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-803": "James Thomas Glasgow",
+        "Glasgow-818": "Mary Ann Glasgow McClellan"
+      }
+    },
+    {
+      "subject_id": "Glasgow-818",
+      "relative_id": "Morrow-3682",
+      "relationship": "mother",
+      "percent": 94,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-mary818-mother-20261104",
+      "basis": "The transcribed James/Margaret Morrow family register records their 27 February 1810 marriage and Maria Ann’s 1816 birth with her exact 1833 McClellan marriage. The accompanying published McClellan account explicitly identifies Mary’s parents as James Thomas Glasgow and Margaret Anne Morrow. The 1848 sister letter refers to their deceased mother, consistent with the separately copied 1842 Margaret death note. This identifies the existing Morrow-3682 account as Mary’s mother, with the limitations of a copied family record and dependent editorial genealogy. The will itself does not name the mother, so its paternal proof is not treated as a literal maternal clause.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-818.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-818": "Mary Ann Glasgow McClellan",
+        "Morrow-3682": "Margaret Morrow Glasgow"
+      }
+    },
+    {
+      "subject_id": "Morrow-3682",
+      "relative_id": "Glasgow-818",
+      "relationship": "child",
+      "percent": 94,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-mary818-mother-20261104",
+      "basis": "The transcribed James/Margaret Morrow family register records their 27 February 1810 marriage and Maria Ann’s 1816 birth with her exact 1833 McClellan marriage. The accompanying published McClellan account explicitly identifies Mary’s parents as James Thomas Glasgow and Margaret Anne Morrow. The 1848 sister letter refers to their deceased mother, consistent with the separately copied 1842 Margaret death note. This identifies the existing Morrow-3682 account as Mary’s mother, with the limitations of a copied family record and dependent editorial genealogy. The will itself does not name the mother, so its paternal proof is not treated as a literal maternal clause.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-818.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-818": "Mary Ann Glasgow McClellan",
+        "Morrow-3682": "Margaret Morrow Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2161",
+      "relative_id": "Glasgow-803",
+      "relationship": "father",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-nancy2161-father-20261104",
+      "basis": "The register’s Nancy C. Glasgow married William Hunter on 27 June 1839, matching Nancy-2161’s spouse, and its 21 July 1822 birth fits her earlier before-1825 bound. The estate abstract names Nancy Hunter among James Glasgow’s children alongside Mary McClelan and Jane Burdit. The published letter identifies its recipient as Nancy Clementine Hunter, Mary’s sister. Together the named family and spouse identify James-803 as her father. Nancy’s former birth bound and common spouse name alone would be insufficient; the combined sister network supplies the identification. Her checked live father field is empty.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2161.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2161": "Nancy Clementine Glasgow Hunter",
+        "Glasgow-803": "James Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-803",
+      "relative_id": "Glasgow-2161",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-nancy2161-father-20261104",
+      "basis": "The register’s Nancy C. Glasgow married William Hunter on 27 June 1839, matching Nancy-2161’s spouse, and its 21 July 1822 birth fits her earlier before-1825 bound. The estate abstract names Nancy Hunter among James Glasgow’s children alongside Mary McClelan and Jane Burdit. The published letter identifies its recipient as Nancy Clementine Hunter, Mary’s sister. Together the named family and spouse identify James-803 as her father. Nancy’s former birth bound and common spouse name alone would be insufficient; the combined sister network supplies the identification. Her checked live father field is empty.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2161.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2161": "Nancy Clementine Glasgow Hunter",
+        "Glasgow-803": "James Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2161",
+      "relative_id": "Morrow-3682",
+      "relationship": "mother",
+      "percent": 94,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-nancy2161-mother-20261104",
+      "basis": "Nancy’s 1822 birth and 1839 Hunter marriage belong to the James/Margaret Morrow family-register sequence following their 1810 marriage. Mary’s copied 1848 letter to her sister Nancy refers to their deceased mother, while the published Mary account names Margaret Morrow and the family notes give Margaret’s 1842 death. The combined register, sister relationship and family identification support the existing Morrow-3682 mother account. This is an inferred maternal identification assessed separately from the will’s explicit paternal family; no maternal name is supplied by the will itself.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2161.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2161": "Nancy Clementine Glasgow Hunter",
+        "Morrow-3682": "Margaret Morrow Glasgow"
+      }
+    },
+    {
+      "subject_id": "Morrow-3682",
+      "relative_id": "Glasgow-2161",
+      "relationship": "child",
+      "percent": 94,
+      "assessment_status": "strongly_supported",
+      "assertion_id": "clm-abbeville-nancy2161-mother-20261104",
+      "basis": "Nancy’s 1822 birth and 1839 Hunter marriage belong to the James/Margaret Morrow family-register sequence following their 1810 marriage. Mary’s copied 1848 letter to her sister Nancy refers to their deceased mother, while the published Mary account names Margaret Morrow and the family notes give Margaret’s 1842 death. The combined register, sister relationship and family identification support the existing Morrow-3682 mother account. This is an inferred maternal identification assessed separately from the will’s explicit paternal family; no maternal name is supplied by the will itself.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "abbeville-glasgow-family-register-1810-transcription",
+        "abbeville-james-glasgow-will-1847-abstract",
+        "abbeville-mary-nancy-letter-1848-transcription"
+      ],
+      "scope": "Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned.",
+      "working_selection": false,
+      "attachment_status": "documented",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2161.html#research-findings",
+          "label": "Abbeville family-record comparison"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2161": "Nancy Clementine Glasgow Hunter",
+        "Morrow-3682": "Margaret Morrow Glasgow"
       }
     },
     {

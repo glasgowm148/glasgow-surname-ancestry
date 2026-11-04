@@ -15102,11 +15102,11 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-11-04",
       "draft_path": "research/Glasgow-803/father-confidence-2026-10-22d.wiki",
       "findings_path": "research/Glasgow-803/findings.md",
-      "summary": "Review existing father at 39% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 39% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Add Mary Ann Glasgow-818 and Nancy Clementine Glasgow-2161 as daughters at 96% and 95%; Jane-802’s father rises 51% to 96%. Flag conflicting 1778/1788 birth and 1848/1849 death years; retain his own 39% Possible father Glasgow-804.",
+      "work_queue_summary": "Add Mary Ann Glasgow-818 and Nancy Clementine Glasgow-2161 as daughters at 96% and 95%; Jane-802’s father rises 51% to 96%. Flag conflicting 1778/1788 birth and 1848/1849 death years; retain his own 39% Possible father Glasgow-804.",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -15119,6 +15119,32 @@
           "assertion_id": "C-coverage-20261022d-glasgow-803-father",
           "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
           "scope": "Possible only; the held adult census and vital citations do not name the father, and the long generation needs testing."
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-818",
+          "status": "strongly_supported",
+          "probability_percent": 96,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-mary818-father-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "Reciprocal daughter recommendation from the same assessed parent-child pair; not an additional father finding."
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-2161",
+          "status": "strongly_supported",
+          "probability_percent": 95,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-nancy2161-father-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "Reciprocal daughter recommendation from the same assessed parent-child pair; not an additional father finding."
         }
       ],
       "preserve_captured_detail": false,
@@ -15126,7 +15152,40 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation4-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/abbeville-family-preservation-2026-11-04.json",
+      "prior_work_summary": "Review existing father at 39% (possible), retaining source and identity limits; no new father attachment.",
+      "significance": 94,
+      "complete_captured_biography_reconciled": true,
+      "field_changes": [
+        {
+          "field": "BirthDate",
+          "before": "1788-05-16",
+          "after": "1788-05-16",
+          "after_status": "guess",
+          "basis": "Retain the inherited value but qualify its certainty: published family heading reports 1778 versus 1788, and estate abstract reports 1848 versus copied 1849 death note. The original records are needed; no year is selected from resemblance alone.",
+          "source_urls": [
+            "http://www.tngenweb.org/rutherford/glascow.html",
+            "https://genealogytrails.com/scar/pickens/wills_1.htm"
+          ],
+          "review_id": "james803-family-vital-conflicts-20261104",
+          "captured_field_value": "1788-05-16",
+          "captured_field_status": "certain"
+        },
+        {
+          "field": "DeathDate",
+          "before": "1849-10-28",
+          "after": "1849-10-28",
+          "after_status": "guess",
+          "basis": "Retain the inherited value but qualify its certainty: published family heading reports 1778 versus 1788, and estate abstract reports 1848 versus copied 1849 death note. The original records are needed; no year is selected from resemblance alone.",
+          "source_urls": [
+            "http://www.tngenweb.org/rutherford/glascow.html",
+            "https://genealogytrails.com/scar/pickens/wills_1.htm"
+          ],
+          "review_id": "james803-family-vital-conflicts-20261104",
+          "captured_field_value": "1849-10-28",
+          "captured_field_status": "certain"
+        }
+      ]
     },
     "Glasco-149": {
       "profile_id": "Glasco-149",
@@ -28413,31 +28472,35 @@
       "status": "OPEN",
       "pending": true,
       "queued_at": "2026-10-22",
-      "biography_rechecked_at": "2026-10-22",
+      "biography_rechecked_at": "2026-11-04",
       "draft_path": "research/Glasgow-802/father-confidence-2026-10-22h.wiki",
       "findings_path": "research/Glasgow-802/findings.md",
-      "summary": "Review existing father at 51% (possible), retaining source and identity limits; no new father attachment.",
-      "work_queue_summary": "Review existing father at 51% (possible), retaining source and identity limits; no new father attachment.",
+      "summary": "Strengthen the existing James Glasgow-803 father from 51% Possible to 96% Confident using the matching family-register and estate records; father is already attached, so this is a regrade, not a new father.",
+      "work_queue_summary": "Strengthen the existing James Glasgow-803 father from 51% Possible to 96% Confident using the matching family-register and estate records; father is already attached, so this is a regrade, not a new father.",
       "relationship_changes": [
         {
           "action": "regrade",
           "relationship": "father",
           "relative_id": "Glasgow-803",
-          "status": "possible",
-          "previous_status": "unmarked",
-          "previous_probability_percent": null,
-          "probability_percent": 51,
+          "status": "strongly_supported",
+          "probability_percent": 96,
+          "previous_status": "possible",
+          "previous_probability_percent": 51,
           "assertion_id": "C-coverage-20261022h-glasgow-802-father",
-          "previous_status_provenance": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit.",
-          "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "The family-register transcription matches Jane El.’s exact 11 June 1818 birthday, her marriage to Giles Burditt on 31 March 1836, and her daughter Nancy Clementine Burditt’s 28 April 1837 birthday. The separate estate abstract calls Jane Burdit a child of James Glasgow and also names her sisters by their distinctive McClelan and Hunter married surnames. Together these identify the James/Margaret Morrow household represented by James-803 and establish this existing father relationship. This is a combined record-based identification, not a new father attachment or a mere first numerical rating. Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned."
         }
       ],
       "preserve_captured_detail": false,
-      "reviewed_narrative_reduction": true,
+      "reviewed_narrative_reduction": false,
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
+      "preservation_review_path": "research/ancestry-connections/abbeville-family-preservation-2026-11-04.json",
+      "prior_work_summary": "Review existing father at 51% (possible), retaining source and identity limits; no new father attachment.",
+      "significance": 97,
+      "complete_captured_biography_reconciled": true
     },
     "Glasgow-122": {
       "profile_id": "Glasgow-122",
@@ -42687,6 +42750,162 @@
       "post_merge_replacements": [],
       "addition_wikitext": "",
       "work_queue_summary": "Add qualified comparison of held Findmypast records; no event or family attribution. Add held-record identity comparison with explicit source and age limits; no event assignment or family change."
+    },
+    "Glasgow-818": {
+      "profile_id": "Glasgow-818",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-11-04",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "summary": "Add James Glasgow-803 as a new 96% Confident father and Margaret Morrow-3682 as a new 94% Confident mother, identifying the McClellan daughter through her exact birth and marriage.",
+      "work_queue_summary": "Add James Glasgow-803 as a new 96% Confident father and Margaret Morrow-3682 as a new 94% Confident mother, identifying the McClellan daughter through her exact birth and marriage.",
+      "biography_rechecked_at": "2026-11-04",
+      "draft_path": "research/Glasgow-818/abbeville-family-2026-11-04.wiki",
+      "findings_path": "research/Glasgow-818/findings.md",
+      "significance": 99,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": false,
+      "complete_captured_biography_reconciled": true,
+      "preservation_review_path": "research/ancestry-connections/abbeville-family-preservation-2026-11-04.json",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-803",
+          "status": "strongly_supported",
+          "probability_percent": 96,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-mary818-father-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "Maria Ann’s exact 11 June 1816 birthday and 11 December 1833 John P. McClellan marriage in the family-register transcription match Mary-818, as do the McLelan children’s dates. The estate abstract separately names Mary McClelan among James Glasgow’s children alongside Jane Burdit and Nancy Hunter. The published Mary-to-Nancy letter confirms the sister network. The distinctive multi-person household identifies James-803, already representing Jane’s father and Margaret Morrow’s husband. The checked live profile has no father: this is a genuine new father recommendation. Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Morrow-3682",
+          "status": "strongly_supported",
+          "probability_percent": 94,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-mary818-mother-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "The transcribed James/Margaret Morrow family register records their 27 February 1810 marriage and Maria Ann’s 1816 birth with her exact 1833 McClellan marriage. The accompanying published McClellan account explicitly identifies Mary’s parents as James Thomas Glasgow and Margaret Anne Morrow. The 1848 sister letter refers to their deceased mother, consistent with the separately copied 1842 Margaret death note. This identifies the existing Morrow-3682 account as Mary’s mother, with the limitations of a copied family record and dependent editorial genealogy. The will itself does not name the mother, so its paternal proof is not treated as a literal maternal clause. Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned."
+        }
+      ]
+    },
+    "Glasgow-2161": {
+      "profile_id": "Glasgow-2161",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-11-04",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "summary": "Add James Glasgow-803 as a new 95% Confident father and Margaret Morrow-3682 as a new 94% Confident mother; adopt the family-register birth21 July 1822 in place of before 1825.",
+      "work_queue_summary": "Add James Glasgow-803 as a new 95% Confident father and Margaret Morrow-3682 as a new 94% Confident mother; adopt the family-register birth21 July 1822 in place of before 1825.",
+      "biography_rechecked_at": "2026-11-04",
+      "draft_path": "research/Glasgow-2161/abbeville-family-2026-11-04.wiki",
+      "findings_path": "research/Glasgow-2161/findings.md",
+      "significance": 99,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "complete_captured_biography_reconciled": true,
+      "preservation_review_path": "research/ancestry-connections/abbeville-family-preservation-2026-11-04.json",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "father",
+          "relative_id": "Glasgow-803",
+          "status": "strongly_supported",
+          "probability_percent": 95,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-nancy2161-father-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "The register’s Nancy C. Glasgow married William Hunter on 27 June 1839, matching Nancy-2161’s spouse, and its 21 July 1822 birth fits her earlier before-1825 bound. The estate abstract names Nancy Hunter among James Glasgow’s children alongside Mary McClelan and Jane Burdit. The published letter identifies its recipient as Nancy Clementine Hunter, Mary’s sister. Together the named family and spouse identify James-803 as her father. Nancy’s former birth bound and common spouse name alone would be insufficient; the combined sister network supplies the identification. Her checked live father field is empty. Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned."
+        },
+        {
+          "action": "add",
+          "relationship": "mother",
+          "relative_id": "Morrow-3682",
+          "status": "strongly_supported",
+          "probability_percent": 94,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-nancy2161-mother-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "Nancy’s 1822 birth and 1839 Hunter marriage belong to the James/Margaret Morrow family-register sequence following their 1810 marriage. Mary’s copied 1848 letter to her sister Nancy refers to their deceased mother, while the published Mary account names Margaret Morrow and the family notes give Margaret’s 1842 death. The combined register, sister relationship and family identification support the existing Morrow-3682 mother account. This is an inferred maternal identification assessed separately from the will’s explicit paternal family; no maternal name is supplied by the will itself. Published transcriptions/abstracts inspected, not the Bible, its 1979 photocopy, the will/equity manuscripts or the letter original. The Bible and letter travel through the Hunter family and their online genealogies may be dependent; they are not three independent primary witnesses. James’s inherited 1788 birth conflicts with the Bible page heading’s 1778, and the estate abstract’s 1848 death conflicts with separately copied 1849 death notes. These vital questions and his own James-804 father remain separate. No census row, birth year, death year, Scottish ancestry or Thomas M Glasgow identity is reassigned."
+        }
+      ],
+      "field_changes": [
+        {
+          "field": "BirthDate",
+          "before": "1825-00-00",
+          "after": "1822-07-21",
+          "after_status": "certain",
+          "basis": "The identified Nancy C. Glasgow in the published family-register transcription is born21 July 1822; spouse William Hunter and sister network identify this profile. Original and photocopy uninspected. Existing Abbeville place retained as context.",
+          "source_urls": [
+            "http://www.tngenweb.org/rutherford/glascow.html"
+          ],
+          "review_id": "nancy2161-family-register-birth-20261104",
+          "captured_field_value": "1825-00-00",
+          "captured_field_status": "before"
+        }
+      ]
+    },
+    "Morrow-3682": {
+      "profile_id": "Morrow-3682",
+      "status": "OPEN",
+      "pending": true,
+      "queued_at": "2026-11-04",
+      "replacements": [],
+      "post_merge_replacements": [],
+      "addition_wikitext": "",
+      "summary": "Add Mary Ann Glasgow-818 and Nancy Clementine Glasgow-2161 as 94% Confident daughters; retain Jane-802 and the existing James Glasgow spouse. The maternal inference is separate from the will’s named-child paternal evidence.",
+      "work_queue_summary": "Add Mary Ann Glasgow-818 and Nancy Clementine Glasgow-2161 as 94% Confident daughters; retain Jane-802 and the existing James Glasgow spouse. The maternal inference is separate from the will’s named-child paternal evidence.",
+      "biography_rechecked_at": "2026-11-04",
+      "draft_path": "research/Morrow-3682/abbeville-family-2026-11-04.wiki",
+      "findings_path": "research/Morrow-3682/findings.md",
+      "significance": 94,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": false,
+      "complete_captured_biography_reconciled": true,
+      "preservation_review_path": "research/ancestry-connections/abbeville-family-preservation-2026-11-04.json",
+      "relationship_changes": [
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-818",
+          "status": "strongly_supported",
+          "probability_percent": 94,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-mary818-mother-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "Reciprocal daughter recommendation from the same assessed parent-child pair; not an additional father finding."
+        },
+        {
+          "action": "add",
+          "relationship": "child",
+          "relative_id": "Glasgow-2161",
+          "status": "strongly_supported",
+          "probability_percent": 94,
+          "previous_status": "unknown",
+          "previous_probability_percent": null,
+          "assertion_id": "clm-abbeville-nancy2161-mother-20261104",
+          "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026.",
+          "reviewed_on": "2026-11-04",
+          "scope": "Reciprocal daughter recommendation from the same assessed parent-child pair; not an additional father finding."
+        }
+      ]
     }
   },
   "reviewed_on": "2026-10-22",

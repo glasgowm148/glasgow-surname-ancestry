@@ -4636,3 +4636,14 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1336) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
 | [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3646) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3647) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+
+
+## 4 November 2026 — Abbeville sister connections
+
+| Profile | Status | Outstanding update |
+| --- | --- | --- |
+| [Mary Ann Glasgow McClellan](https://www.wikitree.com/wiki/Glasgow-818) | OPEN | New 96% confident James Glasgow-803 father and 94% Margaret Morrow-3682 mother; complete preserved family-record draft. |
+| [Nancy Clementine Glasgow Hunter](https://www.wikitree.com/wiki/Glasgow-2161) | OPEN | New 95% confident James Glasgow-803 father and 94% Margaret Morrow-3682 mother; family-register birth 21 July 1822. |
+| [Jane Elizabeth Glasgow Burdette](https://www.wikitree.com/wiki/Glasgow-802) | OPEN | Existing father James Glasgow-803 strengthened 51% to 96%; not a new father attachment. |
+| [James Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-803) | OPEN | Add Mary and Nancy as daughters; retain own 39% father and qualify 1778/1788 and 1848/1849 vital conflicts. |
+| [Margaret Morrow Glasgow](https://www.wikitree.com/wiki/Morrow-3682) | OPEN | Add Mary and Nancy as 94% confident daughters; maternal inference separate from the paternal will evidence. |

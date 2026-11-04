@@ -52479,5 +52479,103 @@
     "reviewed_on": "2026-10-31",
     "provenance": "Previously reviewed research/findmypast-glasgow-surname-1650-1750.csv row fmp-glasgow-b741e434199b; current published record 1bcb2be22a87b14d; research/Glasgow-4124/findings.md. Administrative source-ID reconciliation; prior transcript capture 2026-09-03 and canonical-person reconciliation 2026-10-22 retained.",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "abbeville-glasgow-family-register-1810-transcription",
+    "association": "James Glasgow and Margaret Morrow: marriage and family register",
+    "person": "James Glasgow and Margaret Morrow",
+    "date": "27 February 1810 marriage; later family entries separately dated",
+    "year": 1810,
+    "place": "Abbeville District, South Carolina, United States",
+    "country": "United States",
+    "source_url": "http://www.tngenweb.org/rutherford/glascow.html",
+    "source_type": "Family Bible transcription",
+    "status": "Published transcription inspected; original and photocopy uninspected",
+    "note": "Nancy McClellan Feroe’s 2005 transcription identifies a photocopy sent by Oscar “Pet” Hunter on 20 February 1979. The dated anchor is the 27 February 1810 James/Margaret marriage, not a date for writing the whole Bible. Later entries give Maria Ann’s 1816, Jane El.’s 1818 and Nancy C.’s 1822 births and their McClellan, Burditt and Hunter marriages. The heading gives James’s birth as 1778, conflicting with profile 1788. Death information is expressly separately copied notes, not Bible entries. No original inspected; later James M/N and Bradford entries must not be renamed Thomas.",
+    "profiles": {
+      "Glasgow-802": {
+        "role": "Daughter identified through matching birth, spouse and family entries",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-803": {
+        "role": "Recorded parental couple; existing family identity",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-818": {
+        "role": "Daughter identified through matching birth, spouse and family entries",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-2161": {
+        "role": "Daughter identified through matching birth, spouse and family entries",
+        "timeline_group": "Family records"
+      },
+      "Morrow-3682": {
+        "role": "Recorded parental couple; existing family identity",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "research/Glasgow-802/findings.md",
+    "reviewed_on": "2026-11-04",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "abbeville-james-glasgow-will-1847-abstract",
+    "association": "James Glasgow: 1847 will and 1851 estate abstract",
+    "person": "James Glasgow",
+    "date": "12 February 1847; later equity proceedings October–November 1851",
+    "year": 1847,
+    "place": "Abbeville District, South Carolina, United States",
+    "country": "United States",
+    "source_url": "https://genealogytrails.com/scar/pickens/wills_1.htm",
+    "source_type": "Published will and equity abstracts",
+    "status": "Published abstracts inspected; original manuscripts unavailable at checked link",
+    "note": "The James Glasgow section in the published estate abstracts names Mary McClelan, Jane Burdit and Nancy Hunter among six children. It describes the 1847 will and later 1851 equity proceedings; the latter report death in 1848, conflicting with the separately copied 1849 family death note. The page attributes preceding estate material to G. Anne Sheriff, The Carolina Herald and Newsletter, Summer 2005, pp.31–39, from the Pauline Young Collection. An Abbeville ledger lists James Glasgow L01-351, box157 packet3423, issued1847; the old archive thumbnail URL returns404 and the packet identity has not been verified from its image. Do not treat omission of Thomas from this selective abstract as exclusion.",
+    "profiles": {
+      "Glasgow-802": {
+        "role": "Named daughter, married surname matched through family register",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-803": {
+        "role": "Testator identified through the three married daughters and family-register comparison; vital years unresolved",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-818": {
+        "role": "Named daughter, married surname matched through family register",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-2161": {
+        "role": "Named daughter, married surname matched through family register",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "research/Glasgow-802/findings.md",
+    "reviewed_on": "2026-11-04",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "abbeville-mary-nancy-letter-1848-transcription",
+    "association": "Mary Ann McClellan’s letter to her sister Nancy Hunter",
+    "person": "Mary Ann Glasgow McClellan and Nancy Clementine Glasgow Hunter",
+    "date": "17 September 1848",
+    "year": 1848,
+    "place": "Holmes County, Mississippi, United States",
+    "country": "United States",
+    "source_url": "https://www.argenweb.net/bradley/bios/johnpatton/aqwg01.htm",
+    "source_type": "Published family-letter transcription",
+    "status": "Published copy inspected; original five-page letter uninspected",
+    "note": "The published McClellan family page attributes the copy to Hal Glasgow and says Pet Hunter held the pencil letter on20December1965. It identifies the writer as Mary Anne Glasgow McClellan and recipient as her sister Nancy Clementine Glasgow Hunter. Its family narrative mentions a living father and deceased mother, without naming those parents in the letter body. The editor supplies the James/Margaret Morrow parental identification. “Tom” occurs without a surname or explicit kin term in the body; a separate editorial note calls a Thomas the writer’s brother. This does not itself identify Thomas M Glasgow-3766. The Hunter-family provenance may overlap the Bible transcription.",
+    "profiles": {
+      "Glasgow-818": {
+        "role": "Writer",
+        "timeline_group": "Family correspondence"
+      },
+      "Glasgow-2161": {
+        "role": "Sister and recipient identified by the published copy",
+        "timeline_group": "Family correspondence"
+      }
+    },
+    "provenance": "research/Glasgow-802/findings.md",
+    "reviewed_on": "2026-11-04",
+    "publish_to_record_index": true
   }
 ]

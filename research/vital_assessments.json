@@ -2801,6 +2801,92 @@
       "supersedes": [
         "Imported death: 4 November 1856, Rock ridge, Virginia"
       ]
+    },
+    {
+      "schema_version": 3,
+      "id": "nancy2161-family-register-birth-20261104",
+      "subject": "Glasgow-2161",
+      "status": "approved",
+      "reviewed": "2026-11-04",
+      "project_tree_vitals": true,
+      "basis": "The published transcription identifies Nancy C. born21 July 1822 with William Hunter’s wife through the dated Hunter marriage and copied sister letter. The date refines her compatible before 1825 bound; the original Bible/photocopy is uninspected.",
+      "source": {
+        "url": "http://www.tngenweb.org/rutherford/glascow.html",
+        "section": "Birth and marriage entries for Nancy C. Glasgow"
+      },
+      "summary": "Family-register birth21 July 1822; existing Abbeville place retained as context.",
+      "vitals": {
+        "birth": {
+          "date": "1822-07-21",
+          "display_date": "21 July 1822",
+          "place": "Abbeville, South Carolina, United States",
+          "place_status": "uncertain",
+          "status": "strongly_supported",
+          "label": "Family-register transcription",
+          "note": "Exact date in the published register copy, original uninspected. The Abbeville place is retained from the existing account, without new locality precision.",
+          "source_url": "http://www.tngenweb.org/rutherford/glascow.html"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "21 July 1822",
+        "birth_year": 1822,
+        "birth_note": "Transcribed family-register date; original uninspected; former before1825 bound superseded.",
+        "field_statuses": {
+          "BirthDate": "certain"
+        }
+      },
+      "supersedes": [
+        "Imported birth before1825"
+      ],
+      "relationships": []
+    },
+    {
+      "schema_version": 3,
+      "id": "james803-family-vital-conflicts-20261104",
+      "subject": "Glasgow-803",
+      "status": "approved",
+      "reviewed": "2026-11-04",
+      "project_tree_vitals": true,
+      "basis": "The newly read family-record heading gives16 May 1778 rather than the inherited16 May 1788. The estate abstract says 1848 death while separately copied family notes give28 October 1849. No original inspected; retain existing date values as disputed, rather than selecting an alternative year without resolving the sources.",
+      "source": {
+        "url": "http://www.tngenweb.org/rutherford/glascow.html",
+        "section": "Editorial heading and separately copied death notes; compare estate abstract"
+      },
+      "summary": "Existing 1788 birth and 1849 death retained with explicit conflicting-year qualifications; daughter paternity is separately supported.",
+      "vitals": {
+        "birth": {
+          "date": "1788-05-16",
+          "display_date": "16 May 1788 (1778 also reported)",
+          "place": "Newberry County, South Carolina, United States",
+          "place_status": "uncertain",
+          "status": "uncertain",
+          "label": "Conflicting reported birth years",
+          "note": "Published family-record heading gives 1778; existing profile gives 1788. Year not resolved from an inspected original. Place is retained from the existing account.",
+          "source_url": "http://www.tngenweb.org/rutherford/glascow.html"
+        },
+        "death": {
+          "date": "1849-10-28",
+          "display_date": "28 October 1849 (1848 also reported)",
+          "place": "Abbeville County, South Carolina, United States",
+          "place_status": "uncertain",
+          "status": "possible",
+          "label": "Conflicting reported death years",
+          "note": "The family’s separately copied death note gives28 October 1849; the published 1851 estate abstract reports 1848. No original will/equity or family copy inspected.",
+          "source_url": "https://genealogytrails.com/scar/pickens/wills_1.htm"
+        }
+      },
+      "catalogue_projection": {
+        "birth": "1788-05-16",
+        "birth_year": 1788,
+        "birth_note": "1788 retained;1778 also reported in the family-register heading. Original uninspected.",
+        "death": "1849-10-28",
+        "death_year": 1849,
+        "field_statuses": {
+          "BirthDate": "guess",
+          "DeathDate": "guess"
+        }
+      },
+      "relationships": []
     }
   ]
 }
