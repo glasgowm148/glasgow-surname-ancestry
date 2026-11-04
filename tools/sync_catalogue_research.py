@@ -8,6 +8,8 @@ import contextlib
 import json
 import re
 import sys
+from copy import deepcopy
+from collections import Counter
 from html import escape
 from pathlib import Path
 
@@ -47,6 +49,125 @@ def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
     metadata_changed = False
     record_path = site_root / 'assets/research/record-index.json'
     records = read_json(record_path) if record_path.exists() else None
+    catalogue_path = site_root / 'data/catalogue-search-index.json'
+    registry_path = site_root / 'assets/research/registry.json'
+    packed_path = site_root / 'assets/v3/registry-packed.json'
+    catalogue = read_json(catalogue_path) if catalogue_path.exists() else []
+    registry = read_json(registry_path) if registry_path.exists() else []
+    by_catalogue = {str(row.get('id') or '').casefold(): row for row in catalogue}
+    by_registry = {str(row.get('slug') or '').casefold(): row for row in registry}
+    added_members = set()
+    added_branches = set()
+    projection_changed = False
+    projection_branches = set()
+    affected_roots = set()
+    candidate_fathers = {}
+    for child_slug in requested & by_catalogue.keys() & by_registry.keys():
+        account_path = site_root / 'people' / (child_slug + '.json')
+        if not account_path.is_file():
+            continue
+        account = read_json(account_path)
+        fathers = [relation for relation in account.get('relationships', {}).get('parents', [])
+                   if relation.get('relationship') == 'father'
+                   and relation.get('publication_status') == 'approved'
+                   and relation.get('lifecycle') == 'current'
+                   and relation.get('display') == 'current'
+                   and relation.get('status') not in
+                   {None, '', 'unknown', 'unmarked', 'rejected', 'excluded', 'contradicted', 'non_biological'}]
+        if len(fathers) == 1:
+            candidate_fathers[child_slug] = str(fathers[0].get('id') or '').casefold()
+    for branch in branches:
+        if branch.get('kind') != 'family' or not branch.get('rootId'):
+            continue
+        root_id = str(branch['rootId'])
+        root_slug = root_id.casefold()
+        members = {str(member).casefold() for member in branch.get('members', [])}
+        prior_members = members.copy()
+        for child_slug, father_slug in sorted(candidate_fathers.items()):
+            father_row = by_catalogue.get(father_slug)
+            if father_row is None:
+                continue
+            father_root = (father_row or {}).get('family_root') or {}
+            if (father_slug not in members or father_slug != root_slug
+                    and str(father_root.get('id') or '').casefold() != root_slug):
+                continue
+            child_row = by_catalogue[child_slug]
+            prior_root = child_row.get('family_root') or {}
+            if prior_root and str(prior_root.get('id') or '').casefold() != root_slug:
+                continue
+            root = deepcopy(prior_root or father_root) if prior_root or father_root else {
+                'id': root_id, 'name': by_registry.get(root_slug, {}).get('name') or root_id,
+                'catalogue_id': root_slug, 'distance': 0,
+            }
+            if not prior_root:
+                root['distance'] = int(root.get('distance') or 0) + 1
+            existing_root = next((item for item in child_row.get('family_roots', [])
+                                  if str(item.get('id') or '').casefold() == root_slug), None)
+            roots = [*[
+                item for item in child_row.get('family_roots', [])
+                if str(item.get('id') or '').casefold() != root_slug
+            ], deepcopy(existing_root or root)]
+            if child_row.get('family_root') != root or child_row.get('family_roots') != roots:
+                child_row['family_root'] = root
+                child_row['family_roots'] = roots
+                projection_changed = True
+                projection_branches.add(branch['id'])
+                affected_roots.add(root_slug)
+            child_id = by_registry[child_slug].get('id') or child_slug
+            children = father_row.setdefault('children', [])
+            if not any(str(item.get('id') or '').casefold() == child_slug for item in children):
+                children.append({'id': child_id, 'name': by_registry[child_slug].get('name') or child_id,
+                                 'withheld': False, 'outside_export': False})
+                projection_changed = True
+                projection_branches.add(branch['id'])
+                affected_roots.add(root_slug)
+            members.add(child_slug)
+            if child_slug not in prior_members:
+                added_members.add(child_slug)
+                affected_roots.add(root_slug)
+        if members != prior_members:
+            branch['members'] = sorted(members)
+            branch['count'] = len(members)
+            branch['countries'] = dict(Counter(
+                (by_registry[member].get('country') or 'other')
+                for member in members if member in by_registry
+            ))
+            metadata_changed = True
+            added_branches.add(branch['id'])
+            for member in members:
+                row = by_registry.get(member)
+                if row is not None and branch['id'] not in row.get('branches', []):
+                    row['branches'] = [*row.get('branches', []), branch['id']]
+    if added_members or projection_changed:
+        root_counts = Counter(
+            str((row.get('family_root') or {}).get('id') or '').casefold()
+            for row in catalogue if row.get('family_root')
+        )
+        for row in catalogue:
+            primary = row.get('family_root') or {}
+            root_id = str(primary.get('id') or '').casefold()
+            if root_id in affected_roots:
+                primary['catalogued_members'] = root_counts[root_id]
+                for item in row.get('family_roots', []):
+                    if str(item.get('id') or '').casefold() == root_id:
+                        item['catalogued_members'] = root_counts[root_id]
+        if write:
+            write_json(catalogue_path, catalogue)
+            (site_root / 'data/people-index.js').write_text(
+                'window.glasgowPeopleIndex=' + json.dumps(catalogue, ensure_ascii=False, separators=(',', ':')) + ';\n',
+                encoding='utf-8',
+            )
+            if added_members:
+                write_json(registry_path, registry)
+            if added_members and packed_path.exists():
+                packed = read_json(packed_path)
+                slug_index = packed['fields'].index('slug')
+                branch_index = packed['fields'].index('branches')
+                for row in packed['rows']:
+                    member = by_registry.get(str(row[slug_index]).casefold())
+                    if member is not None:
+                        row[branch_index] = member.get('branches', [])
+                write_json(packed_path, packed)
     for branch in branches:
         ident = str(branch.get('rootId') or branch.get('root') or '')
         members = {str(member).casefold() for member in branch.get('members', [])}
@@ -123,11 +244,38 @@ def refresh_family_branch_parents(profile_ids, *, site_root=WEB, write=False):
                                              if str(record.get('p') or '').casefold() in members})
             totals = page.select('.r-group-stats > span > strong')
             if len(totals) == 3:
+                if branch['id'] in added_branches:
+                    totals[0].string = str(branch.get('count', len(members)))
                 totals[1].string = str(branch.get('record_count', 0))
                 totals[2].string = str(branch['review_count'])
+            if branch['id'] in added_branches and branch.get('countries'):
+                legend = page.select_one('.r-country-legend')
+                if legend is not None:
+                    colours = {'america': ('#aa7036', 'United States'),
+                               'scotland': ('#496e95', 'Scotland'),
+                               'ireland': ('#33786b', 'Ireland / Ulster'),
+                               'canada': ('#8b5f40', 'Canada'),
+                               'oceania': ('#776499', 'Australia / New Zealand')}
+                    markup = ''.join(
+                        '<span class="r-country" style="--c:{}">{}</span><span class="r-caption">{}</span>'.format(
+                            *colours.get(country, ('#777c76', 'Other / unknown')), count)
+                        for country, count in sorted(branch['countries'].items(), key=lambda pair: -pair[1])
+                    )
+                    legend.replace_with(BeautifulSoup('<div class="r-country-legend">' + markup + '</div>', 'html.parser').div)
+            if branch['id'] in added_branches:
+                earliest = page.select_one('.r-linklist')
+                if earliest is not None and by_registry:
+                    items = sorted((by_registry[m] for m in members if m in by_registry),
+                                   key=lambda item: (item.get('from') or 9999, item.get('name') or ''))[:5]
+                    markup = ''.join(
+                        f'<a href="{escape(item.get("url") or "", quote=True)}"><span><strong>{escape(item.get("name") or "")}</strong><br/><small>{escape(item.get("birth") or "Date not established")} · {escape(item.get("birthPlace") or "Place not established")}</small></span><span>→</span></a>'
+                        for item in items
+                    )
+                    earliest.clear()
+                    earliest.append(BeautifulSoup(markup, 'html.parser'))
         counts_changed = before_counts != (branch.get('record_count'), branch.get('review_count'))
         metadata_changed |= counts_changed
-        if str(page) == before_page and not counts_changed:
+        if str(page) == before_page and not counts_changed and branch['id'] not in projection_branches:
             continue
         changed.append(branch['id'])
         if write:
