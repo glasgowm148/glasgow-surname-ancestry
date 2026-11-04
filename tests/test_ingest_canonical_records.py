@@ -327,6 +327,17 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         self.assertEqual(record['catalogue_id'], '')
         self.assertTrue(record['person_url'].startswith('/sources/'))
 
+    def test_unpublished_draft_profile_is_refused_unless_deferred(self):
+        self.canonical['profiles'] = {'record-draft-1': {'role': 'Subject'}}
+        self.put('research/canonical_records.json', [self.canonical])
+        with self.assertRaisesRegex(ValueError, 'not public'):
+            plan(self.root, ['new-canonical-id'])
+        record = plan(self.root, ['new-canonical-id'], defer_unpublished_profiles=True)[self.web / 'data/records-index.json'][1]
+        self.assertEqual(record['pending_profile_ids'], ['record-draft-1'])
+        self.assertEqual(record['catalogue_id'], '')
+        self.assertTrue(record['person_url'].startswith('/sources/'))
+        self.assertIn('not yet published', record['note'])
+
     def test_unreviewed_or_nonpublic_context_aborts_before_writes(self):
         self.canonical.pop('reviewed_on')
         self.put('research/canonical_records.json', [self.canonical])

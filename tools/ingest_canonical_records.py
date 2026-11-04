@@ -262,8 +262,14 @@ def source_browse_pages(web, sources):
     return writes
 
 
-def plan(root: Path, record_ids: list[str]):
-    """Validate the complete batch before returning any proposed writes."""
+def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False):
+    """Validate the complete batch before returning any proposed writes.
+
+    With ``defer_unpublished_profiles`` a reviewed record whose profile is
+    only a catalogue draft not yet published is still listed, without the
+    profile link; the draft ID stays in ``pending_profile_ids`` so a later
+    replay links it once the page exists. The default refuses such rows.
+    """
     root = Path(root)
     web = root / 'www'
     canonical = read(root / 'research/canonical_records.json')
@@ -403,10 +409,13 @@ def plan(root: Path, record_ids: list[str]):
             # Its earlier canonical ID is an alias, not a second event.
             doc['records'] = [r for r in doc.get('records', []) if r['id'] != row['record_id']]
         context = row.get('profiles') or {}
-        linked = []
+        linked, pending = [], []
         for ident, assessment in context.items():
             person = destinations.get(ident.casefold())
             if not person or not (web / f'people/{person["id"]}.html').is_file():
+                if defer_unpublished_profiles:
+                    pending.append(ident)
+                    continue
                 raise ValueError(f'{rid}: profile destination is not public: {ident}')
             role = assessment.get('role') if isinstance(assessment, dict) else ''
             if not role:
@@ -421,7 +430,8 @@ def plan(root: Path, record_ids: list[str]):
                    else 'secondary' if reviewed_quality in {'secondary', 'late_compiled_history'}
                    else 'derivative')
         qualification = '; '.join(p['name'] + ': ' + role for p, role in linked)
-        note = ' '.join(filter(None, [row.get('note'), qualification, 'Reviewed ' + row['reviewed_on'] + '; ' + row['provenance']]))
+        pending_note = ('Catalogue profile not yet published; the link follows when its page exists.' if pending else '')
+        note = ' '.join(filter(None, [row.get('note'), qualification, pending_note, 'Reviewed ' + row['reviewed_on'] + '; ' + row['provenance']]))
         category = row.get('record_category') or ('Births and baptisms' if '/BAP/' in str(row.get('provider_record_id')) or 'baptis' in label.lower()
                     else 'Deaths and burials' if re.search(r'bur|death|obituar', label, re.I) or '/BUR/' in str(row.get('provider_record_id')) else 'Other records')
         # A subject's surname (Glasgow) is not a Scottish jurisdiction signal.
@@ -451,6 +461,8 @@ def plan(root: Path, record_ids: list[str]):
                       supporting_source_status='explicit', supporting_source_reason=row['status'],
                       country=country, research_date=False, document_id=sid, profile_context=deepcopy(context),
                       provenance=row['provenance'])
+        if pending:
+            record['pending_profile_ids'] = pending
         if undated:
             record['date_status'] = 'undated'
             record['historical_basis'] = deepcopy(row['historical_basis'])
@@ -547,8 +559,8 @@ def plan(root: Path, record_ids: list[str]):
     return writes
 
 
-def apply(root, record_ids, *, refresh_sources=True):
-    writes = plan(root, record_ids)
+def apply(root, record_ids, *, refresh_sources=True, defer_unpublished_profiles=False):
+    writes = plan(root, record_ids, defer_unpublished_profiles=defer_unpublished_profiles)
     if refresh_sources:
         from tools.build_source_collections import ready
         if not ready(Path(root) / 'www'):
@@ -590,6 +602,8 @@ def main():
     parser.add_argument('--reviewed', action='store_true', help='Replay only publish_to_record_index=true rows (also run by finalization)')
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--apply', action='store_true')
+    parser.add_argument('--defer-unpublished-profiles', action='store_true',
+                        help='list reviewed records whose profile is an unpublished catalogue draft, without the link')
     parser.add_argument('--repair-layout', action='store_true',
                         help='give every source page without the standard reader container one, then stop')
     args = parser.parse_args()
@@ -608,7 +622,13 @@ def main():
     if args.reviewed and not ids:
         print(json.dumps({'selected_records': 0, 'changed_files': 0} if args.apply else {'selected_records': 0, 'planned_files': 0}))
     else:
-        result = apply(args.root, ids) if args.apply else {'selected_records': len(ids), 'planned_files': len(plan(args.root, ids))}
+        defer = args.defer_unpublished_profiles
+        if args.apply:
+            result = apply(args.root, ids, defer_unpublished_profiles=defer)
+        else:
+            writes = plan(args.root, ids, defer_unpublished_profiles=defer)
+            pending = sum(1 for path, value in writes.items() if isinstance(value, dict) and value.get('pending_profile_ids'))
+            result = {'selected_records': len(ids), 'planned_files': len(writes), 'records_with_unpublished_profiles': pending}
         print(json.dumps(result))
 
 
