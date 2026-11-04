@@ -94,6 +94,76 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         self.assertNotIn('Search-result lead only.', page)
         self.assertIn('Retain this reading', page)
 
+    def test_reassigned_entry_retires_stale_generated_source_binding_and_replays_stably(self):
+        old = dict(evidence_id='E-' + sha256(b'stable-record|glasgow-99').hexdigest()[:16],
+                   person='glasgow-99', assertion='Complete earlier candidate reading.',
+                   source={'title': 'Earlier source', 'url': self.url}, claims=[])
+        manual = dict(evidence_id='manual-note', person='glasgow-88',
+                      assertion='Keep manual reading.', claims=[])
+        other = dict(evidence_id='E-' + sha256(b'other-entry|glasgow-77').hexdigest()[:16],
+                     person='glasgow-77', assertion='Other entry reading.', claims=[])
+        other_record = dict(id='other-entry', person='glasgow-77', year=1780, date='1780')
+        self.source.update(members=['glasgow-99', 'glasgow-88', 'glasgow-77', 'unrelated-binding'],
+                           citations=[old, manual, other],
+                           records=[dict(id='stable-record', person='glasgow-99', year=1784, date='1784'), other_record])
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        # Reproduce a partial prior refresh: the public record already has the
+        # new profile, while the source JSON still has the old generated binding.
+        self.put('www/data/records-index.json', [self.unrelated,
+            dict(record_id='stable-record', source_url=self.url,
+                 profile_ids='Glasgow-32', profile_context=self.canonical['profiles'])])
+        apply(self.root, ['new-canonical-id'], refresh_sources=False)
+        path = self.web / 'assets/v3/sources' / (self.source['id'] + '.json')
+        source = json.loads(path.read_text())
+        self.assertNotIn(old, source['citations'])
+        self.assertEqual(source['annotations']['superseded_citations'], [old])
+        self.assertIn(manual, source['citations'])
+        self.assertIn(other, source['citations'])
+        self.assertIn(other_record, source['records'])
+        self.assertNotIn('glasgow-99', source['members'])
+        self.assertEqual(source['members'], ['glasgow-88', 'glasgow-77', 'unrelated-binding', 'glasgow-32'])
+        self.assertEqual(next(r for r in source['records'] if r['id'] == 'stable-record')['person'], 'glasgow-32')
+        self.assertTrue(any(c['person'] == 'glasgow-32' for c in source['citations']))
+        index = json.loads((self.web / 'assets/v3/source-index.json').read_text())
+        self.assertEqual(next(r for r in index if r['id'] == self.source['id'])['members'], source['members'])
+        self.assertEqual(apply(self.root, ['new-canonical-id'], refresh_sources=False)['changed_files'], 0)
+        self.assertEqual(json.loads(path.read_text())['annotations']['superseded_citations'], [old])
+
+    def test_retired_member_stays_when_an_unrelated_active_binding_requires_it(self):
+        old = dict(evidence_id='E-' + sha256(b'stable-record|glasgow-99').hexdigest()[:16],
+                   person='glasgow-99', assertion='Earlier candidate', claims=[])
+        for binding in ('manual-citation', 'other-entry-citation', 'other-entry-record'):
+            with self.subTest(binding=binding):
+                citations, records = [old], []
+                if binding.endswith('citation'):
+                    evidence_id = ('manual-note' if binding == 'manual-citation' else
+                                   'E-' + sha256(b'other-entry|glasgow-99').hexdigest()[:16])
+                    citations.append(dict(evidence_id=evidence_id, person='glasgow-99',
+                                          assertion='Independent binding remains.', claims=[]))
+                else:
+                    records.append(dict(id='other-entry', person='glasgow-99', year=1780, date='1780'))
+                self.source.update(members=['glasgow-99'], citations=citations, records=records)
+                self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+                source = plan(self.root, ['new-canonical-id'])[self.web / 'assets/v3/sources' / (self.source['id'] + '.json')]
+                self.assertIn('glasgow-99', source['members'])
+                self.assertNotIn(old, source['citations'])
+                self.assertEqual(source['annotations']['superseded_citations'], [old])
+                for citation in citations[1:]:
+                    self.assertIn(citation, source['citations'])
+                for record in records:
+                    self.assertIn(record, source['records'])
+
+    def test_retiring_generated_citation_with_attached_claims_fails_before_writes(self):
+        self.source['citations'] = [dict(
+            evidence_id='E-' + sha256(b'stable-record|glasgow-99').hexdigest()[:16],
+            person='glasgow-99', assertion='Reviewed claim', claims=[{'id': 'manual-claim'}])]
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        path = self.web / 'assets/v3/sources' / (self.source['id'] + '.json')
+        before = path.read_bytes()
+        with self.assertRaisesRegex(ValueError, 'attached claims; review required'):
+            apply(self.root, ['new-canonical-id'], refresh_sources=False)
+        self.assertEqual(path.read_bytes(), before)
+
     def test_search_result_does_not_claim_transcript_locality(self):
         self.canonical.update(
             status='Search result only; transcript uninspected',

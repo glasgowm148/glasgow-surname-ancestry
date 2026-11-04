@@ -269,6 +269,7 @@ def plan(root: Path, record_ids: list[str]):
     writes = {}
     new_full, new_compact, selected_docs = [], [], set()
     source_records = {}
+    retired_generated_members = {}
     record_aliases = set()
     seen_providers = set()
     for rid in record_ids:
@@ -446,20 +447,29 @@ def plan(root: Path, record_ids: list[str]):
                                   type=label, date=record['year'], place=record['record_location'],
                                   assertion=role + '. ' + note, status='unassessed', quality=quality,
                                   source={'title': source_title, 'url': url, 'reference': doc['reference']}, claims=[]))
-        if linked:
-            # A later identity review replaces this entry's generated
-            # unassigned citation. Keep its reading as history, rather than
-            # displaying a stale "no identified person" claim beside the match.
-            unassigned_id = 'E-' + sha256((rid + '|').encode()).hexdigest()[:16]
-            previous_citations = doc.get('citations', [])
-            superseded = [c for c in previous_citations
-                          if c.get('evidence_id') == unassigned_id and not c.get('person')]
-            if superseded:
-                history = doc.setdefault('annotations', {}).setdefault('superseded_citations', [])
-                for citation in superseded:
-                    if citation not in history:
-                        history.append(deepcopy(citation))
-                doc['citations'] = [c for c in previous_citations if c not in superseded]
+        # Recognize this entry's generated citations directly: the public
+        # record may already have been refreshed while source bindings are stale.
+        # Never infer ownership from another entry's citation or a manual ID.
+        current_people = {p['id'] for p, _ in linked} if linked else {''}
+        previous_citations = doc.get('citations', [])
+        superseded = []
+        for citation in previous_citations:
+            person_id = citation.get('person')
+            if not isinstance(person_id, str) or person_id in current_people:
+                continue
+            generated_id = 'E-' + sha256((rid + '|' + person_id).encode()).hexdigest()[:16]
+            if citation.get('evidence_id') == generated_id:
+                if citation.get('claims'):
+                    raise ValueError(f'{rid}: retiring generated citation has attached claims; review required')
+                superseded.append(citation)
+        if superseded:
+            history = doc.setdefault('annotations', {}).setdefault('superseded_citations', [])
+            for citation in superseded:
+                if citation not in history:
+                    history.append(deepcopy(citation))
+                if citation['person']:
+                    retired_generated_members.setdefault(sid, set()).add(citation['person'])
+            doc['citations'] = [c for c in previous_citations if c not in superseded]
         doc['citations'] = merge_citations(doc.get('citations', []), citations)
         doc['members'] = list(dict.fromkeys([*doc.get('members', []), *(p['id'] for p, _ in linked)]))
         selected_docs.add(sid)
@@ -470,6 +480,11 @@ def plan(root: Path, record_ids: list[str]):
     for sid in selected_docs:
         doc = docs[sid]
         doc['records'] = merge(doc.get('records', []), source_records[sid], 'id')
+        active_people = {c.get('person') for c in doc['citations'] if c.get('person')}
+        active_people.update(r.get('person') for r in doc['records'] if r.get('person'))
+        retired = retired_generated_members.get(sid, set())
+        doc['members'] = [member for member in doc['members']
+                          if member not in retired or member in active_people]
         doc['record_count'], doc['citation_count'] = len(doc['records']), len(doc['citations'])
         years = [r['year'] if isinstance(r.get('year'), int) and not isinstance(r['year'], bool)
                  else int(str(r['date'])[:4])
