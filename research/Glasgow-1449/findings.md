@@ -48,3 +48,9 @@ Thomas Glasgow, Thomas and Christian Davidson: companions label 26 April 1787 as
 - [SCOT/OPR/BAP/4171361](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4171361) — Recorded child; Thomas/Christian Davidson family, 26 April 1787 event.
 
 Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.
+
+## Dartford death registration comparison, reviewed 4 November 2026
+
+The held England & Wales deaths derivative records Thomas Glasgow, male, aged 81, registered in Dartford, Kent, in the fourth quarter of 1871, volume 2A, page 199. Its birth year 1790 is calculated from age; the district is not a proved birthplace or exact death location, and no burial date or named relatives are supplied. This is a qualified, age-discrepant comparison only: this profile’s adopted birth on 26 April 1787 would make him 84 in that quarter, three years older than the registered age. There is no locality, occupation or relative bridge identifying him with the Dartford deceased. The retained Sarah Chapman spouse and Henry Glasgow marriage comparison do not supply that bridge. Identity remains on hold; no death or other vital event is assigned, and the existing relationships and assessments remain unchanged. The Chesham 1835 burial remains a separate source-defined deceased.
+
+Source: [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015), England & Wales Deaths 1837–2007, Thomas Glasgow, Dartford registration, fourth quarter 1871, age 81, volume 2A page 199; BMD/D/1871/4/AZ/000138/015; inspected provider derivative retained 30 October 2026, original certificate uninspected.

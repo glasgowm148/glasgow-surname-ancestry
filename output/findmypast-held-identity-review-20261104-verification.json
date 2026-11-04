@@ -1,0 +1,106 @@
+{
+  "reviewed_on": "2026-11-04",
+  "scope": "Local publication only; no live deployment or live WikiTree verification",
+  "passed": true,
+  "checks": [
+    {
+      "check": "public_records_and_source_readers",
+      "passed": true,
+      "detail": {
+        "public_entries": 9,
+        "unique_provider_ids": 9,
+        "source_readers": 9,
+        "context_links": 14
+      }
+    },
+    {
+      "check": "source_library_stability",
+      "passed": true,
+      "detail": {
+        "source_ids_preserved": 9,
+        "date_category_record_membership_stable": true
+      }
+    },
+    {
+      "check": "people_and_proposal_preservation",
+      "passed": true,
+      "detail": {
+        "standalone_people": 10,
+        "vitals_relationships_unchanged": true,
+        "preservation_validator_passed": 10
+      }
+    },
+    {
+      "check": "actual_catalogue_filters",
+      "passed": true,
+      "detail": {
+        "total_full_fast_rows": 4978,
+        "affected_hydrated_people": 10,
+        "detail_shards_read": 7,
+        "filters_agree": [
+          "missing_profile",
+          "needs_wikitree_update",
+          "has_profile"
+        ]
+      }
+    },
+    {
+      "check": "father_correction_finding_study",
+      "passed": true,
+      "detail": {
+        "father_topology_checked_by_people_comparison": true,
+        "one_finding_visible": "fmp-william1739-father-link-correction-20261104",
+        "study_updated": true
+      }
+    },
+    {
+      "check": "coverage_boundary",
+      "passed": true,
+      "detail": {
+        "bounded_provider_ids": 799,
+        "literal": 745,
+        "supporting": 52,
+        "holds": 2,
+        "query_rows_captured": 720,
+        "query_rows_reviewed": 700,
+        "page36_rows": 20,
+        "status": "INCOMPLETE"
+      }
+    }
+  ],
+  "newly_indexed_provider_ids": 0,
+  "newly_inspected_transcripts": 0,
+  "held_provider_records_reanalysed": 9,
+  "documentary_groups": 7,
+  "current_people_updated": 10,
+  "complete_existing_person_proposals": 10,
+  "first_queued_existing_person_amendments": 4,
+  "supported_biography_link_corrections": 1,
+  "new_people": 0,
+  "relationship_assessment_changes": 0,
+  "vital_changes": 0,
+  "original_images_inspected_in_this_batch": 0,
+  "indexed_provider_id_union": 799,
+  "literal_indexed_provider_ids": 745,
+  "supporting_indexed_provider_ids": 52,
+  "subscription_held_search_only_ids": 2,
+  "query_rows_captured": 720,
+  "query_rows_disposed": 700,
+  "query_displayed_total": 5872,
+  "coverage_status": "INCOMPLETE",
+  "next_page": 36,
+  "next_uncaptured_page": 37,
+  "source_index_tests_passed": 22,
+  "source_index_performance_commit": "0d3f5fedb4e",
+  "publication_new_failures": 0,
+  "link_new_broken_pairs": 0,
+  "known_baseline_link_pairs": 4,
+  "asset_version_mismatches": 0,
+  "workbench_views_all_match": true,
+  "workbench_view_log": "tmp/fmp-pages36-40-20261104/views.log",
+  "public_profile_metadata_checks": 2,
+  "live_wikitree_writes": 0,
+  "push_or_deployment": false,
+  "qmd_refresh": "Completed once after the approved research batch; repeated refresh omitted only for biography-text-only changes with unchanged approved notes and indexed basic profile fields.",
+  "separately_saved_next_batch": "19newlycaptured page36transcripts and1existing-source reuse; not counted as indexed by this batch"
+}

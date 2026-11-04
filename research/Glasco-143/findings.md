@@ -129,3 +129,9 @@ Next useful test: Verify the younger Thomas’s birth and the older Thomas’s a
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [WikiTree profile export for Glasco-143](https://www.wikitree.com/wiki/Glasco-143)
+
+## Chesham burial comparison, reviewed 4 November 2026
+
+The held National Burial Index derivative records Thomas Glasgow, aged 68, buried on 21 January 1835 at St Mary, Chesham, Buckinghamshire, Anglican. Its indexed birth year 1767 is calculated from age, not a recorded birthday; the exact death date is not supplied. This is a weak comparison for this profile: the approximate birth implied by age 68 overlaps its very weak circa 1766 estimate, but no named relative, occupation or geographic connection links the Chesham deceased with the Dublin marriage or watchmaker candidates. Glasgow as a later-life surname does not independently establish natal surname. Identity remains on hold. This burial is not assigned to this man, and his vital fields, relationships and existing assessments remain unchanged. The Dartford 1871 registration concerns a separate source-defined deceased and is not merged with this burial.
+
+Source: [Findmypast transcript](https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607), National Burial Index For England & Wales, Thomas Glasgow, burial 21 January 1835, St Mary, Chesham, age 68; BMD/NBI/01614607; inspected provider derivative retained 30 October 2026, original register uninspected.

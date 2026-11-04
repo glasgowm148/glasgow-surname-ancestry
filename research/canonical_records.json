@@ -49386,13 +49386,18 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_684963042",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — Thomas Glasgow",
-    "status": "Inspected derivative transcript; Identity HOLD",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Thomas baptised 3 November 1782 Wandell and Lamington, father William, mother dash. Parent first name and locality are new discriminators; no decisive exclusion of all existing Thomas candidates or later adult bridge. Do not manufacture a mother or new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
-    "profiles": {},
+    "note": "Thomas baptised 3 November 1782 at Wandell and Lamington, father William Glasgow, mother dash. Existing Glasgow-3646, uncertain 1783 birth and Affleck maternal attribution, remains a candidate because the birth year is unverified and a blank mother is not an exclusion. The current mother/sibling claims share an unassessed Scotland'sPeople search-results citation, not an inspected death entry. Same parish and same-named father with William 1784 do not prove full siblings or identify the adult father. No baptism, birth date or parent is assigned. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
+    "profiles": {
+      "Glasgow-3646": {
+        "role": "Candidate recorded child; unverified 1783 birth not decisive against 1782 baptism; mother blank does not prove or exclude Affleck",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_684963042",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-3",
     "record_category": "Births and baptisms",
@@ -49403,7 +49408,16 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "Thomas baptised 3 November 1782 Wandell and Lamington, father William, mother dash. Parent first name and locality are new discriminators; no decisive exclusion of all existing Thomas candidates or later adult bridge. Do not manufacture a mother or new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {},
+        "status": "Inspected derivative transcript; Identity HOLD"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4146177",
@@ -49629,22 +49643,26 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542644",
     "source_title": "Scotland Monumental Inscriptions — Thomas Glasgow",
-    "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "note": "The held Eccles/Birgham monument derivative names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 age 55; wife Agnes Whitehead, death 21 May 1840 age 84; daughter Euphans, death 7 April 1791 age 5; son Thomas, deathApril 1790 age 8; and son Thomas, death 27 April 1791 age 3. Glasgow-3604 is a candidate for the elder son: his unverified March 1781 Eccles birth would imply about 9, not 8, in April 1790. Do not assign the younger son to him. The apparent overlap of two same-named sons requires original-inscription verification. Birth years 1782/1788 are age-derived; churchyard locality is not a proved birthplace or burial date. The two Thomas entries and held Euphans entry 00352695 repeat one monument, not independent corroboration. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
     "profiles": {
+      "Glasgow-3604": {
+        "role": "Candidate indexed elder son; age 8 in April 1790 versus unverified March 1781 birth, identity unresolved",
+        "timeline_group": "Records for identity comparison"
+      },
       "Glasgow-3706": {
-        "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+        "role": "Candidate named father and memorial erector Robert, joiner/feuar at Leitholm; indexed child is not this adult",
         "timeline_group": "Records for identity comparison"
       },
       "Whitehead-9630": {
-        "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+        "role": "Candidate named wife Agnes Whitehead; maternity of each child is contextual, not separately explicit",
         "timeline_group": "Records for identity comparison"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100542644",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-5",
     "record_category": "Deaths and burials",
@@ -49655,13 +49673,31 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {
+          "Glasgow-3706": {
+            "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+            "timeline_group": "Records for identity comparison"
+          },
+          "Whitehead-9630": {
+            "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+            "timeline_group": "Records for identity comparison"
+          }
+        },
+        "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-prs-scotland-mi-add-5-00542645",
     "provider_record_id": "PRS/SCOTLAND/MI/ADD/5/00542645",
     "association": "Thomas Glasgow — death date",
-    "person": "Thomas Glasgow",
+    "person": "Robert Glasgow (candidate father; indexed younger Thomas unassigned)",
     "event_role": "Death date in inspected derivative; field conflicts qualified in note",
     "date": "27 Apr 1791",
     "year": 1791,
@@ -49669,22 +49705,26 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=PRS%2FSCOTLAND%2FMI%2FADD%2F5%2F00542645",
     "source_title": "Scotland Monumental Inscriptions — Thomas Glasgow",
-    "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+    "note": "The held Eccles/Birgham monument derivative names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 age 55; wife Agnes Whitehead, death 21 May 1840 age 84; daughter Euphans, death 7 April 1791 age 5; son Thomas, deathApril 1790 age 8; and son Thomas, death 27 April 1791 age 3. Glasgow-3604 is a candidate for the elder son: his unverified March 1781 Eccles birth would imply about 9, not 8, in April 1790. Do not assign the younger son to him. The apparent overlap of two same-named sons requires original-inscription verification. Birth years 1782/1788 are age-derived; churchyard locality is not a proved birthplace or burial date. The two Thomas entries and held Euphans entry 00352695 repeat one monument, not independent corroboration. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
     "profiles": {
       "Glasgow-3706": {
-        "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+        "role": "Candidate named father and memorial erector Robert; indexed younger son remains unassigned",
         "timeline_group": "Records for identity comparison"
       },
       "Whitehead-9630": {
-        "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+        "role": "Candidate named wife Agnes; no independent maternity assertion",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-3604": {
+        "role": "Candidate other commemorated elder son, not the indexed younger child dying 1791 aged 3",
         "timeline_group": "Records for identity comparison"
       }
     },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/PRS~1SCOTLAND~1MI~1ADD~15~100542645",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-5",
     "record_category": "Deaths and burials",
@@ -49695,7 +49735,25 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "Eccles/Birgham family monument names Robert Glasgow, joiner and feuar at Leitholm, death 8 October 1800 or 1809 aged 55; wife Agnes Whitehead died 21 May 1840 aged 84. One son Thomas died April 1790 aged 8, another 27 April 1791 aged 3; Euphans died 7 April 1791 aged 5. These are two explicitly recorded sons with different deaths/ages, unlike merely repeated baptism names. Reuse the held Robert/Agnes family comparison already supported by Euphans companion 00352695. Neither son is separately created: the bounded Thomas review has not established decisive exclusions. Birth years are age-derived; ambiguous Robert year retained. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {
+          "Glasgow-3706": {
+            "role": "Candidate named father Robert, joiner/feuar at Leitholm; two sons Thomas in shared inscription",
+            "timeline_group": "Records for identity comparison"
+          },
+          "Whitehead-9630": {
+            "role": "Candidate named wife Agnes Whitehead in the same family inscription",
+            "timeline_group": "Records for identity comparison"
+          }
+        },
+        "status": "Inspected derivative transcript; Qualified existing family comparison; indexed children unassigned"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4477789",
@@ -49995,13 +50053,18 @@
     "country": "England",
     "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FNBI%2F01614607",
     "source_title": "National Burial Index For England & Wales — Thomas Glasgow",
-    "status": "Inspected derivative transcript; Identity HOLD",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Thomas buried 21 January 1835 St Mary, Chesham, Buckinghamshire, Anglican, age 68. Birth about 1767 is age-derived; death year is indexed 1835 without an exact death date. No named relatives or childhood bridge establish an existing Thomas; no new person from the failed match. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
-    "profiles": {},
+    "note": "Thomas Glasgow, age 68, Anglican burial 21 January 1835 at St Mary, Chesham, Buckinghamshire. The exact death date and named relatives are absent. Birth about 1766–1767 is age-derived. Glasco-143 has a weak circa 1766 Dublin estimate, but there is no Chesham residence or watchmaking bridge. This is an identity comparison only; no death or burial is assigned and the potentially overlapping watchmaker draft is not an independent person or corroborating witness. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
+    "profiles": {
+      "Glasco-143": {
+        "role": "Candidate age comparison only; no Chesham residence/trade bridge or burial assignment",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1NBI~101614607",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-8",
     "record_category": "Deaths and burials",
@@ -50012,7 +50075,16 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "Thomas buried 21 January 1835 St Mary, Chesham, Buckinghamshire, Anglican, age 68. Birth about 1767 is age-derived; death year is indexed 1835 without an exact death date. No named relatives or childhood bridge establish an existing Thomas; no new person from the failed match. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {},
+        "status": "Inspected derivative transcript; Identity HOLD"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-gbprs-scot-mis-204971",
@@ -50057,13 +50129,18 @@
     "country": "England",
     "source_url": "https://www.findmypast.co.uk/transcript?id=BMD%2FD%2F1871%2F4%2FAZ%2F000138%2F015",
     "source_title": "England & Wales Deaths 1837-2007 — Thomas Glasgow",
-    "status": "Inspected derivative transcript; Identity HOLD",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "Thomas, male, Dartford Kent civil death registration fourth quarter 1871 age 81, volume 2A page 199. Birth about 1790 age-derived; district is not a proved birthplace or exact death location. No relatives or natal-surname evidence identify him; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
-    "profiles": {},
+    "note": "Thomas Glasgow, male, age 81, Dartford Kent civil death registration fourth quarter 1871, volume 2 A page 199. Birth about 1790 is age-derived, district is a registration district rather than a proved birthplace or exact death place. Glasgow-1449 is a qualified comparison: explicit birth 26 April 1787 implies 84, not 81; no locality, spouse or occupational bridge identifies him. His existing father assessment is retained unchanged. Other bounded-birth candidates, including Glasgow-3347, are not excluded merely by a later baptism date. No death assigned. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
+    "profiles": {
+      "Glasgow-1449": {
+        "role": "Candidate adult comparison only; 1787 birth implies 84 rather than indexed 81, no death assignment",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/BMD~1D~11871~14~1AZ~1000138~1015",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-10",
     "record_category": "Deaths and burials",
@@ -50074,7 +50151,16 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "Thomas, male, Dartford Kent civil death registration fourth quarter 1871 age 81, volume 2A page 199. Birth about 1790 age-derived; district is not a proved birthplace or exact death location. No relatives or natal-surname evidence identify him; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {},
+        "status": "Inspected derivative transcript; Identity HOLD"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-r-686209953",
@@ -50279,7 +50365,7 @@
     "record_id": "fmp-record-scot-opr-bap-4602994",
     "provider_record_id": "SCOT/OPR/BAP/4602994",
     "association": "William Glasgow — baptism date",
-    "person": "William Glasgow",
+    "person": "Andrew Glasgow (candidate named father; indexed William unassigned)",
     "event_role": "Baptism date in inspected derivative; field conflicts qualified in note",
     "date": "17 Apr 1754",
     "year": 1754,
@@ -50287,13 +50373,22 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4602994",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Inspected derivative transcript; Identity and event-date HOLD",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "William OPR 697/1 item 1 page 225 Penicuik, Andrew Glasgow and Margaret Linton. Literal birth 17 April 1745 and baptism 17 April 1754 are nine years apart. Retain delayed-baptism versus transcription-error possibilities; do not force infant baptism or silently change a year. Andrew/Isobell Clerk child William-1320 remains a comparison requiring maternal/chronological reconciliation; no second person from a differing maternal field alone. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
-    "profiles": {},
+    "note": "William, Penicuik OPR 697/1 item 1 page 225, Andrew Glasgow and Margaret Linton; literal birth 17 April 1745 and baptism 17 April 1754. A nine-year delayed baptism is possible; swapped year digits do not prove an error. Glasgow-1320 was baptised 6 April 1739 to Andrew Glasgow and Isobell Clerk, before this literal birth. If both readings stand, he cannot be this child; the conditional comparison requires a source discrepancy or another identity. Andrew Glasgow-1336 is only a possible named adult father; do not infer a Linton union or maternity for Isobel Clerk. The distinct Glasgow-1239 profile is not a redirect to 1336. No date, parent or existing 76%assessment changes. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
+    "profiles": {
+      "Glasgow-1336": {
+        "role": "Candidate named father Andrew; no Linton union or indexed child attached",
+        "timeline_group": "Records for identity comparison"
+      },
+      "Glasgow-1320": {
+        "role": "Conditional child comparison with real date conflict: 1739 baptism precedes literal 1745 birth; requires source discrepancy or different identity",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BAP~14602994",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-13",
     "record_category": "Births and baptisms",
@@ -50304,7 +50399,16 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "William OPR 697/1 item 1 page 225 Penicuik, Andrew Glasgow and Margaret Linton. Literal birth 17 April 1745 and baptism 17 April 1754 are nine years apart. Retain delayed-baptism versus transcription-error possibilities; do not force infant baptism or silently change a year. Andrew/Isobell Clerk child William-1320 remains a comparison requiring maternal/chronological reconciliation; no second person from a differing maternal field alone. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {},
+        "status": "Inspected derivative transcript; Identity and event-date HOLD"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-r-685841157",
@@ -50474,13 +50578,18 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=R_684962615",
     "source_title": "Scotland, Parish Births & Baptisms 1564-1929 — William Glasgow",
-    "status": "Inspected derivative transcript; Identity HOLD",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "William baptised 19 September 1784 Wandell and Lamington, father William Glasgow, mother dash. Together with Thomas 1782 this is a same-parish/same-named-father lead, not proof of full siblings or an adult father identification. Glasgow-3647 born about 1784 with Affleck maternal attribution is not excluded by this absent mother; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
-    "profiles": {},
+    "note": "William baptised 19 September 1784 at Wandell and Lamington, father William Glasgow, mother dash. Existing Glasgow-3647 has an uncertain 1784 birth and Affleck maternal attribution; retain him as a candidate without attaching this father or treating the absent mother as confirmation/exclusion. The current mother/sibling claims share an unassessed Scotland'sPeople search URL, not an inspected death entry. Same parish/father name with Thomas 1782 does not independently prove brothers or an adult father identity. No event, date or parent is assigned. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
+    "profiles": {
+      "Glasgow-3647": {
+        "role": "Candidate recorded child; uncertain 1784 birth fits baptismyear, mother blank supplies no Affleck identification",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/R_684962615",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-17",
     "record_category": "Births and baptisms",
@@ -50491,7 +50600,16 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "William baptised 19 September 1784 Wandell and Lamington, father William Glasgow, mother dash. Together with Thomas 1782 this is a same-parish/same-named-father lead, not proof of full siblings or an adult father identification. Glasgow-3647 born about 1784 with Affleck maternal attribution is not excluded by this absent mother; no new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {},
+        "status": "Inspected derivative transcript; Identity HOLD"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-r-688329658",
@@ -50688,13 +50806,18 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1292654",
     "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — William Glasgow",
-    "status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
-    "profiles": {},
+    "note": "William of Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels the date death; Lothian companion labels it burial and records mortcloth 15 s, book 4 page 3. Preserve this label discrepancy. Glasgow-4139 is a qualified chronological comparison: completed age 72 permits birth 12 November 1749–11 November 1750, overlapping birth before his 1 December 1749 Kilbirnie baptism. There is no adult residence, occupation or relative bridge to Currie. No event is assigned; other compatible candidates remain. Birth 1750 is age-derived and Ballerno is the literal residence spelling. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
+    "profiles": {
+      "Glasgow-4139": {
+        "role": "Candidate age-compatible adult identity only; 1749 baptism does not establish a Currie residence or death",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/SCOT~1OPR~1BUR~11292654",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-22",
     "record_category": "Deaths and burials",
@@ -50705,7 +50828,16 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {},
+        "status": "Inspected derivative transcript; Identity and death/burial-label HOLD"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-gbprs-lothian-fhs-bur-001369",
@@ -50719,13 +50851,18 @@
     "country": "Scotland",
     "source_url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F001369",
     "source_title": "Scotland, Parish Deaths & Burials 1564-2017 — William Glasgow",
-    "status": "Inspected derivative transcript; Identity and death/burial-label HOLD",
+    "status": "Inspected derivative transcript; identity unresolved with qualified comparisons",
     "source_status": "Inspected labelled provider transcript fields; original record uninspected",
     "source_quality": "provider_derivative",
-    "note": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
-    "profiles": {},
+    "note": "William of Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels the date death; Lothian companion labels it burial and records mortcloth 15 s, book 4 page 3. Preserve this label discrepancy. Glasgow-4139 is a qualified chronological comparison: completed age 72 permits birth 12 November 1749–11 November 1750, overlapping birth before his 1 December 1749 Kilbirnie baptism. There is no adult residence, occupation or relative bridge to Currie. No event is assigned; other compatible candidates remain. Birth 1750 is age-derived and Ballerno is the literal residence spelling. Held provider derivative reused; original record uninspected. No new person, event attribution, family attachment or confidence change.",
+    "profiles": {
+      "Glasgow-4139": {
+        "role": "Candidate age-compatible adult identity only; burial and childhood identity not assigned",
+        "timeline_group": "Records for identity comparison"
+      }
+    },
     "provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/records/GBPRS~1LOTHIAN~1FHS~1BUR~1001369",
-    "reviewed_on": "2026-10-30",
+    "reviewed_on": "2026-11-04",
     "publish_to_record_index": true,
     "documentary_group": "recovered-detail-22",
     "record_category": "Deaths and burials",
@@ -50736,7 +50873,16 @@
       "status": "Search result inspected; transcript and identity HOLD",
       "record_precision": "Search-result locality only; full transcript uninspected; not geocoded",
       "profiles": {}
-    }
+    },
+    "identity_review_history": [
+      {
+        "reviewed_on": "2026-10-30",
+        "note": "William, Ballerno, Currie, age 72, 11 November 1822. OPR 682/3 item 4 labels that date death; Lothian companion labels it burial and records mortcloth 15s, book 4 page 3. Preserve death/burial label difference and literal Ballerno spelling. Birth about 1750 age-derived; no named relatives establish identity. No new person. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change.",
+        "profiles": {},
+        "status": "Inspected derivative transcript; Identity and death/burial-label HOLD"
+      }
+    ],
+    "identity_review_provenance": "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json#/matching_review/held_identity_review_20261104"
   },
   {
     "record_id": "fmp-record-scot-opr-bap-4360754",

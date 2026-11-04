@@ -68149,7 +68149,7 @@
         {
           "id": "Glasgow-4177",
           "name": "James Glasgow",
-          "url": "/people/glasgow-4177.html",
+          "url": "https://www.wikitree.com/wiki/Glasgow-4177",
           "role": "Father"
         },
         {
@@ -68250,6 +68250,47 @@
       ],
       "detail_url": "/people/glasgow-653.html",
       "provenance": "FamilySearch tree comparison and correction session, 1 November 2026; see each person's findings.md section 'FamilySearch tree comparison corrections, 1 November 2026'."
+    },
+    {
+      "id": "fmp-william1739-father-link-correction-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "William Glasgow’s 1739 biography linked the wrong Andrew profile: the saved family field already identifies Glasgow-1336, while the text linked distinct Glasgow-1239.",
+      "qualification": "The revised complete proposal separates recorded parents Andrew Glasgow and Isobell Clerk from the probable adult identification at the unchanged 76%. It retains the old 1239 attribution as a conflicting claim. Public UID metadata proves distinct profiles, not kinship. Andrew-1336’s held 19 November 1714 christening is separated from the incomplete “11” birth reading; no model vital is changed. Held-record comparisons remain unresolved and are not counted as new people, source discoveries or confidence upgrades. No live edit.",
+      "people": [
+        {
+          "id": "Glasgow-1320",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1320.html"
+        },
+        {
+          "id": "Glasgow-1336",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1336.html"
+        },
+        {
+          "id": "Glasgow-1239",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1239.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Held 6 April1739 Andrew Glasgow/Isobell Clerk baptism citation",
+          "url": "https://familysearch.org/ark:/61903/1:1:VQ4K-PYX"
+        },
+        {
+          "title": "Public nonliving WikiTree title/UID metadata:1239and1336are distinct",
+          "url": "https://api.wikitree.com/api.php?action=getPeople&keys=Glasgow-1239%2CGlasgow-1336&fields=Id%2CName%2CPrivacy%2CIsLiving&resolveRedirect=1"
+        }
+      ],
+      "source_paths": [
+        "research/Glasgow-1320/findings.md",
+        "research/Glasgow-1336/findings.md",
+        "research/findmypast-glasgow-audit/parent-title-redirect-review-2026-10-30.json"
+      ],
+      "detail_url": "/people/glasgow-1320.html"
     }
   ]
 }

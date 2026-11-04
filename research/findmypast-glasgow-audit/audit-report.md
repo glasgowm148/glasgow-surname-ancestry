@@ -376,3 +376,9 @@ Recovered 34 previously missing labelled transcripts in 22 documentary groups. T
 Coverage remains **INCOMPLETE**: 799 bounded indexed provider IDs = 745 literal transcript receipts + 52 older supporting IDs + 2 subscription-held search-only leads. This is 34 recovered detail gaps, not 34 newly discovered people or new indexed records. 700/5,872 rows (11.9%) of one bounded query are disposed; earlier births, variants, other categories and later-life records without birth fields remain. Next uncaptured query page: 36. No live WikiTree write, push or deployment.
 
 Owner-requested pause: finish, verify and commit this recovered-detail batch, then stop. The owned Findmypast tab is closed; the existing personal/other-task tab and browser remain. Resume from query page 36 only on explicit instruction.
+
+## Held identity review — 4 November 2026
+
+Nine previously held provider records receive explicit comparisons to existing people; ten complete existing-person proposals are prepared, including four first queued biography amendments. No new historical record, original inspection, person, vital or relationship assessment is added. The supported correction is the mismatched William-1320 biography father link: saved family field1336 and biography1239are distinct public UIDs, not aliases;76%probable identification is unchanged and the old attribution is retained. Andrew-1336’s partial birthday interpretation is qualified separately from his held christening. Candidate links do not assign deaths, parents or exact birthdays.
+
+Coverage remains INCOMPLETE:799bounded indexedIDs =745literal receipts +52older supportingIDs +2subscription holds. Page36has20saved searchrows and exact-ID preflight(19missing details,1existing-index review), so720rows captured but700/5872reconciled. Next is page36detail retrieval in the existing signed-in tab, with no duplicate accessible-record fetches. No liveWikiTree edit,pushor deployment.

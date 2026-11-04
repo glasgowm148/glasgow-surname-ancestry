@@ -30,5 +30,36 @@
       "redirect_status": "Redirected to 28951547/Glasgow-1343"
     }
   ],
-  "relationship_changes": 0
+  "relationship_changes": 0,
+  "non_alias_checks": [
+    {
+      "checked_at": "2026-11-04T00:44:57.396104+00:00",
+      "profiles": [
+        {
+          "id": "Glasgow-1239",
+          "numeric_id": 28942240,
+          "privacy": 60,
+          "is_living": false
+        },
+        {
+          "id": "Glasgow-1336",
+          "numeric_id": 28949752,
+          "privacy": 60,
+          "is_living": false
+        }
+      ],
+      "result": "Distinct public nonliving profiles; no redirect or alias. Saved Glasgow-1320 family field already points to1336; biography1239link is a separate conflicting attribution. Metadata is not historical kinship evidence.",
+      "source_url": "https://api.wikitree.com/api.php?action=getPeople&keys=Glasgow-1239%2CGlasgow-1336&fields=Id%2CName%2CPrivacy%2CIsLiving&resolveRedirect=1"
+    }
+  ],
+  "public_profile_checks": [
+    {
+      "checked_at": "2026-11-04T01:23:19.616807+00:00",
+      "profile_id": "Glasgow-4177",
+      "url": "https://www.wikitree.com/wiki/Glasgow-4177",
+      "title": "James Glasgow - WikiTree Profile",
+      "historical_basis": "Visible existing profile states born before1719atEdrom; fatherofJohn. Metadata/route check only, not historical record inspection.",
+      "purpose": "Replace a nonexistent local finding destination with the checked existing WikiTree profile; no new person/claim"
+    }
+  ]
 }

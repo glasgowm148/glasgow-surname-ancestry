@@ -4623,3 +4623,16 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 
 | [John Glasgow, father](https://www.wikitree.com/wiki/Glasgow-3481) | OPEN | Add 1751 OPR weaving occupation and Bankhead residence; original uninspected, prior relationship proposals preserved. |
 | [John Glasgow, baptised1751](https://www.wikitree.com/wiki/Glasgow-3480) | OPEN | Add 1751 OPR weaving occupation and Bankhead residence; original uninspected, prior relationship proposals preserved. |
+
+## 4 November 2026 — held-record identity comparisons
+
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3604) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [Robert Glasgow](https://www.wikitree.com/wiki/Glasgow-3706) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [Agnes (Whitehead) Glasgow](https://www.wikitree.com/wiki/Whitehead-9630) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-4139) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [Thomas Glasco](https://www.wikitree.com/wiki/Glasco-143) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-1449) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1320) | OPEN | Correct the father link in the biography to the already selected probable Andrew-1336; retain distinct old1239claim in notes. |
+| [Andrew Glasgow](https://www.wikitree.com/wiki/Glasgow-1336) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-3646) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3647) | OPEN | Add qualified held-record comparison; no event, date or relationship change. |
