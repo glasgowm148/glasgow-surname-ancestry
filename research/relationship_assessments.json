@@ -53568,14 +53568,17 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The specific 1735 Kirknewton citation fits James’s 1702 generation and local family, but no parents are quoted. The 1772 Robert, son of Andrew the miller, remains a real documentary family without an identified profile bridge.",
-    "reason": "The specific 1735 Kirknewton citation fits James’s 1702 generation and local family, but no parents are quoted. The 1772 Robert, son of Andrew the miller, remains a real documentary family without an identified profile bridge.",
-    "claim": "Glasgow-1547 remains the selected father of Glasgow-1445, individually assessed 57%.",
+    "assessment_date": "2026-11-04",
+    "basis": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment.",
+    "reason": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment.",
+    "claim": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment.",
     "record_scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
     "limitations": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
     "source_ids": [
-      "held-e-ba8c32aa38ab"
+      "held-e-ba8c32aa38ab",
+      "s-65d2d4220164ce59",
+      "s-696cf5a514218cdf",
+      "s-1686465ed6f5a243"
     ],
     "assessment_history": [
       {
@@ -53588,16 +53591,22 @@
         "claim_id": "C-45fa1a765b1d",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 57,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The specific 1735 Kirknewton citation fits James’s 1702 generation and local family, but no parents are quoted. The 1772 Robert, son of Andrew the miller, remains a real documentary family without an identified profile bridge."
       }
     ],
     "perspectives": {
       "Glasgow-1445": {
         "relationship": "father",
-        "reason": "The specific 1735 Kirknewton citation fits James’s 1702 generation and local family, but no parents are quoted. The 1772 Robert, son of Andrew the miller, remains a real documentary family without an identified profile bridge."
+        "reason": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment."
       },
       "Glasgow-1547": {
         "relationship": "son",
-        "reason": "The specific 1735 Kirknewton citation fits James’s 1702 generation and local family, but no parents are quoted. The 1772 Robert, son of Andrew the miller, remains a real documentary family without an identified profile bridge."
+        "reason": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment."
       }
     },
     "analysis_links": [
@@ -53623,10 +53632,13 @@
     },
     "probability": {
       "value": 0.57,
-      "basis": "The specific 1735 Kirknewton citation fits James’s 1702 generation and local family, but no parents are quoted. The 1772 Robert, son of Andrew the miller, remains a real documentary family without an identified profile bridge.",
-      "reviewed": "2026-10-22",
+      "reviewed": "2026-11-04",
+      "basis": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment.",
       "source_ids": [
-        "held-e-ba8c32aa38ab"
+        "held-e-ba8c32aa38ab",
+        "s-65d2d4220164ce59",
+        "s-696cf5a514218cdf",
+        "s-1686465ed6f5a243"
       ],
       "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
     }

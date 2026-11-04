@@ -2270,8 +2270,8 @@
     },
     "Glasgow-1445": {
       "draft_path": "research/Glasgow-1445/father-confidence-2026-10-22g.wiki",
-      "summary": "Add the cited record accounts: Possible Robert Glasgow and father Andrew, miller at Calder, 1772; Possible Robert Glasgow, Edinburgh prisoner report, 1767. Retain the stated identity and relationship limits. Review existing father at 57% (possible), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
-      "work_queue_summary": "Add the cited record accounts: Possible Robert Glasgow and father Andrew, miller at Calder, 1772; Possible Robert Glasgow, Edinburgh prisoner report, 1767. Retain the stated identity and relationship limits. Review existing father at 57% (possible), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments.",
+      "summary": "Add the cited record accounts: Possible Robert Glasgow and father Andrew, miller at Calder, 1772; Possible Robert Glasgow, Edinburgh prisoner report, 1767. Retain the stated identity and relationship limits. Review existing father at 57% (possible), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments. Add recovered baptism derivative with named-companion and adult-identity limits; no new vital or relationship change.",
+      "work_queue_summary": "Add the cited record accounts: Possible Robert Glasgow and father Andrew, miller at Calder, 1772; Possible Robert Glasgow, Edinburgh prisoner report, 1767. Retain the stated identity and relationship limits. Review existing father at 57% (possible), retaining source and identity limits; no new father attachment. Add pages 30–32 derivative sources and explicit identity/event-label qualifications; retain existing family assessments. Add recovered baptism derivative with named-companion and adult-identity limits; no new vital or relationship change.",
       "queued_at": "2026-10-22",
       "status": "OPEN",
       "pending": true,
@@ -2285,7 +2285,7 @@
       "private_comparison": false,
       "prior_work_summary": "",
       "profile_id": "Glasgow-1445",
-      "biography_rechecked_at": "2026-10-30",
+      "biography_rechecked_at": "2026-11-04",
       "relationship_changes": [
         {
           "action": "regrade",
@@ -2305,7 +2305,8 @@
       "replacements": [],
       "post_merge_replacements": [],
       "addition_wikitext": "",
-      "preservation_review_path": "research/findmypast-glasgow-audit/pages30-32-proposal-preservation-2026-10-30.json"
+      "preservation_review_path": "research/findmypast-glasgow-audit/page38-recovered-proposal-preservation-2026-11-04.json",
+      "manual_update": true
     },
     "Glasgow-1452": {
       "draft_path": "research/Glasgow-1452/livingston-family-2026-10-30.wiki",
@@ -4671,8 +4672,8 @@
     },
     "Glasgow-3165": {
       "draft_path": "research/Glasgow-3165/queue-review-2026-10-17.wiki",
-      "summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits.",
+      "summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits. Add recovered baptism derivative with named-companion and adult-identity limits; no new vital or relationship change.",
+      "work_queue_summary": "Add the cited record account: Possible A. Retain the stated identity and relationship limits. Add recovered baptism derivative with named-companion and adult-identity limits; no new vital or relationship change.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -4681,7 +4682,13 @@
         "subject-newspapers-early-glasgow-a-glascow-dutch-arrival-1794"
       ],
       "private_comparison": false,
-      "prior_work_summary": ""
+      "prior_work_summary": "",
+      "preservation_review_path": "research/findmypast-glasgow-audit/page38-recovered-proposal-preservation-2026-11-04.json",
+      "biography_rechecked_at": "2026-11-04",
+      "manual_update": true,
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": true,
+      "profile_id": "Glasgow-3165"
     },
     "Glasgow-3166": {
       "draft_path": "research/Glasgow-3166/dalziel-banns-2026-10-18.wiki",

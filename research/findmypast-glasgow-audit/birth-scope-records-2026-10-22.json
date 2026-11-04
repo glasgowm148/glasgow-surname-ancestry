@@ -6,7 +6,7 @@
     "born_before": 1800,
     "status": "INCOMPLETE",
     "scope_note": "Birth cutoff applies to people, including their later-life events; event<=1750 legacy audit remains a separate incomplete coverage baseline.",
-    "inspected_transcripts": 776,
+    "inspected_transcripts": 783,
     "catalogue_integration_complete": false,
     "integrated_record_ids": [
       "R_686309313",
@@ -509,7 +509,9 @@
       "SCOT/OPR/BUR/1185627",
       "SCOT/OPR/BUR/1183694",
       "SCOT/OPR/BAP/4476102",
-      "SCOT/OPR/BAP/4628212"
+      "SCOT/OPR/BAP/4628212",
+      "SCOT/OPR/BAP/4474348",
+      "SCOT/OPR/BAP/4476061"
     ],
     "unassigned_record_ids": [
       "SCOT/OPR/BUR/1168201",
@@ -786,9 +788,14 @@
       "SCOT/OPR/BUR/0257099",
       "SCOT/OPR/BUR/0257374",
       "SCOT/OPR/BUR/0261772",
-      "SCOT/OPR/BUR/1454821"
+      "SCOT/OPR/BUR/1454821",
+      "SCOT/OPR/BUR/1610273",
+      "SCOT/OPR/BUR/1448478",
+      "SCOT/OPR/BUR/0255429",
+      "SCOT/OPR/BUR/0998339",
+      "GBPRS/LANARKSHIRE/BUR/020567"
     ],
-    "next_query_page": 38,
+    "next_query_page": 39,
     "integration_scope": "Pages30–32:24new entries matched existing documentary subjects,11qualified comparisons,17source-only identity/natal-surname/index-artifact holds;8existing-source reuses retained.25current accounts and22preserved complete proposals synchronized; one explicit Montgomry birth correction.12duplicate READY creation placeholders retired to existing people, preserving histories. No new person, relationship or confidence change; originals uninspected; whole-provider scope INCOMPLETE.",
     "indexed_record_ids": [
       "R_686309313",
@@ -1566,9 +1573,16 @@
       "SCOT/OPR/BUR/0261772",
       "SCOT/OPR/BUR/1454821",
       "SCOT/OPR/BAP/4476102",
-      "SCOT/OPR/BAP/4628212"
+      "SCOT/OPR/BAP/4628212",
+      "SCOT/OPR/BUR/1610273",
+      "SCOT/OPR/BUR/1448478",
+      "SCOT/OPR/BUR/0255429",
+      "SCOT/OPR/BUR/0998339",
+      "SCOT/OPR/BAP/4474348",
+      "SCOT/OPR/BAP/4476061",
+      "GBPRS/LANARKSHIRE/BUR/020567"
     ],
-    "records_with_profile_or_draft_context": 501,
+    "records_with_profile_or_draft_context": 503,
     "remaining_coverage": [
       "Page30 onward of the1719–1799BMD query;15page29identity/scope comparisons remain unresolved despite completed indexing. Earlier windows, other categories/variants and later-life records still require coverage.",
       "Earlier birth windows, later-life records lacking indexed birth, and other categories",
@@ -1578,13 +1592,13 @@
     ],
     "verification_report": "research/findmypast-glasgow-audit/page37-verification-2026-11-04.json",
     "verified_on": "2026-11-04",
-    "indexed_provider_record_count": 776,
-    "next_action": "Integrate the Janet 1774 Symington record and five recovered page38 historical transcripts against compatible existing people, then reconcile saved pages39–42. All six historical daily-limit holds were recovered once under the fresh allowance; do not repeat them. Preserve unresolved scope and identity questions; coverage remains INCOMPLETE.",
+    "indexed_provider_record_count": 783,
+    "next_action": "Reinspect SCOT/OPR/BAP/4360754 and SCOT/OPR/BAP/4602371 once under the fresh allowance: saved raw receipts prove daily limits, not subscription denials; reuse existing canonical/source IDs. Then reconcile the 79 saved receipts from pages39–42, retaining all unresolved birth-surname and eligibility questions. No new person without concrete exclusions.",
     "recent_query_transcripts": 648,
     "recent_supporting_transcripts": 1,
     "historical_cached_transcripts_reconciled": 134,
     "recent_query_rows_reviewed": 760,
-    "capture_ledger_note": "831 bounded indexed IDs = 776 literal + 53 supporting + 2 search-held. 840 query rows captured; 760/5872 have reviewed dispositions. This partial batch indexes8 new derivative IDs. The six legacy access holds were temporary daily limits, not subscription denials; one fresh-allowance attempt recovered all6. There are98 new saved receipts across pages38–42 (90 full historical transcripts and8 minimal scope probes), plus2 unchanged receipt reuses. The remaining80 page39–42 receipts and6 page38 source accounts need reconciliation; selected8 records and2 proposals pass local verification. Coverage remains INCOMPLETE; no new person, vital, relationship or confidence change.",
+    "capture_ledger_note": "838 bounded indexed provider IDs = 783 literal + 53 supporting + 2 search-held. Main query reviewed 760/5872, captured 840. Seven already-captured historical receipts newly indexed; page 38 historically indexable new receipts integrated 14, pending 0, with 3 unresolved minimal eligibility gaps. The separate page41receipt 0998339 was reviewed ahead of the contiguous boundary, reducing pages39–42saved-receipt backlog 80→79 without advancing main-query reviewed 760. Held companions are reused, not recounted. One assessment reason is corrected at unchanged Possible 57%, preserving other state and source history; no new person, vital, relationship or confidence change. Whole page/goal/provider coverage remains INCOMPLETE; selected records, proposals and basis-only correction verified locally.",
     "capture_count_basis": "Explicit disjoint cohorts: indexed_record_ids, supporting_indexed_record_ids and search_only_indexed_record_ids. Search-only leads remain in pending_detail_provider_ids; fields/secondary-role scope are incomplete.",
     "recent_query_receipt_reuses": 67,
     "recent_query_existing_index_reuses": 2,
@@ -1593,18 +1607,10 @@
     "recent_query_rows_captured": 840,
     "contiguous_query_rows_reviewed": 760,
     "recent_query_detail_gaps": 2,
-    "unindexed_captured_record_ids": [
-      "GBPRS/LANARKSHIRE/BUR/020567",
-      "SCOT/OPR/BUR/1610273",
-      "SCOT/OPR/BAP/4474348",
-      "SCOT/OPR/BUR/1448478",
-      "SCOT/OPR/BUR/0255429",
-      "SCOT/OPR/BAP/4476061",
-      "SCOT/OPR/BUR/0998339"
-    ],
+    "unindexed_captured_record_ids": [],
     "pending_transcript_matching": 0,
     "supplemental_cached_records_indexed": 53,
-    "total_indexed_reviewed_provider_ids": 831,
+    "total_indexed_reviewed_provider_ids": 838,
     "capture_review_boundary_20261025": {
       "query_rows_captured": 540,
       "query_rows_identity_reviewed": 540,
@@ -1822,15 +1828,8 @@
       "IRE/NAI/GENABS/00612100/1"
     ],
     "page38_fully_integrated": false,
-    "pending_page38_integration_provider_ids": [
-      "GBPRS/LANARKSHIRE/BUR/020567",
-      "SCOT/OPR/BUR/1610273",
-      "SCOT/OPR/BAP/4474348",
-      "SCOT/OPR/BUR/1448478",
-      "SCOT/OPR/BUR/0255429",
-      "SCOT/OPR/BAP/4476061"
-    ],
-    "pending_captured_search_rows": 80,
+    "pending_page38_integration_provider_ids": [],
+    "pending_captured_search_rows": 79,
     "pending_page38_scope_provider_ids": [
       "US/BMD/BILLION/006233074",
       "US/BMD/BILLION/012951776",
@@ -1916,26 +1915,26 @@
       "US/FS/M/056659876/1",
       "US/FS/M/076047735/1",
       "R_320773458/2",
-      "US/BMD/PENN-BUR/00255897/2",
-      "SCOT/OPR/BUR/1610273",
-      "SCOT/OPR/BAP/4474348",
-      "SCOT/OPR/BUR/1448478",
-      "SCOT/OPR/BUR/0255429",
-      "SCOT/OPR/BAP/4476061",
-      "SCOT/OPR/BUR/0998339"
+      "US/BMD/PENN-BUR/00255897/2"
     ],
-    "pending_saved_receipt_review_count": 85,
-    "pending_current_pages39_42_receipt_review_count": 80,
-    "pending_current_pages39_42_full_accessible_receipts": 75,
+    "pending_saved_receipt_review_count": 79,
+    "pending_current_pages39_42_receipt_review_count": 79,
+    "pending_current_pages39_42_full_accessible_receipts": 74,
     "pending_current_pages39_42_minimal_probes": 5,
     "current_pages38_42_capture_counts": {
       "new_exact_receipts_in_scope_ledger": 98,
       "full_historical_transcripts": 90,
       "minimal_scope_probes": 8,
       "unchanged_existing_reuses": 2,
-      "indexed_new_provider_entries": 8,
+      "indexed_new_provider_entries": 15,
       "note": "Saved receipts are discoverable by exact-ID preflight; capture is distinct from catalogue identity integration."
-    }
+    },
+    "page38_historically_indexable_new_receipts_integrated": 14,
+    "captured_minus_contiguous_reviewed_rows": 80,
+    "out_of_sequence_reviewed_provider_ids": [
+      "SCOT/OPR/BUR/0998339"
+    ],
+    "assessment_basis_corrections_this_recovered_batch": 1
   },
   "search_pages": [
     {
@@ -11896,7 +11895,10 @@
       ],
       "captured_rows": 20,
       "private_capture_pointer": "data/private/findmypast-captures/2026-11-04/next-pages38-42/page38-rows.json",
-      "review_status": "All 20 exact dispositions reviewed;8 canonical rows integrated,Janet 1774integration pending,Boyd title exclusion recorded,3 scope gaps,5 subscription holds,2 unchanged reuses. Whole-page integration incomplete."
+      "review_status": "Page 38 reviewed dispositions retain the 760 boundary retained. Fourteen historically indexable new receipts now integrated; 3 minimal eligibility gaps remain. Boyd title exclusion retained; old daily-limit failures recovered, not subscription exclusions. Whole-page scope remains incomplete.",
+      "review_status_history": [
+        "All 20 exact dispositions reviewed;8 canonical rows integrated,Janet 1774integration pending,Boyd title exclusion recorded,3 scope gaps,5 subscription holds,2 unchanged reuses. Whole-page integration incomplete."
+      ]
     }
   ],
   "records": {
@@ -40449,7 +40451,7 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected historical provider derivative transcript; original record uninspected",
-      "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+      "matching_status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
       "access_note": "Glasgow in 1725 | Transcript of record | Birth Record | Birth Record | Birth Record",
       "reviewed_on": "2026-11-04",
       "access_history": [
@@ -40465,7 +40467,20 @@
           "old_final_url": "https://www.findmypast.co.uk/steady-sherlock?limit=dailyLimit&record_id=SCOT%2FOPR%2FBUR%2F1610273&record_metadata_id=scot_opr_bur",
           "correction": "Raw historical daily-limit evidence supersedes the incorrect subscription label; old receipt retained unchanged."
         }
-      ]
+      ],
+      "review_history": [
+        {
+          "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+          "assessment": null,
+          "reviewed_on": "2026-11-04",
+          "canonical_record_id": null,
+          "profiles": null
+        }
+      ],
+      "assessment": "An unnamed Glasgow is indexed as buried on 23 January 1725 at Glencorse, Midlothian, with next-of-kin relationship “Child of” and next-of-kin name Robert Glasgow. OPR 687/2, item 2, register coverage 1673–1819. Robert is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. No existing child or adult Robert is identified; do not infer infancy or attach a family. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+      "profiles": {},
+      "canonical_record_id": "fmp-record-scot-opr-bur-1610273",
+      "review_provenance": "tmp/fmp-pages36-40-20261104/recovered-batch-preflight-review.json"
     },
     "SCOT/OPR/BAP/4474348": {
       "scope_probe_only": false,
@@ -40533,7 +40548,7 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected historical provider derivative transcript; original record uninspected",
-      "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+      "matching_status": "Inspected derivative; existing Robert child event identified through named companions; adult father identity retains prior limits",
       "access_note": "Glasgow in 1735 | Transcript of record",
       "reviewed_on": "2026-11-04",
       "access_history": [
@@ -40549,7 +40564,29 @@
           "old_final_url": "https://www.findmypast.co.uk/steady-sherlock?limit=dailyLimit&record_id=SCOT%2FOPR%2FBAP%2F4474348&record_metadata_id=scot_opr_bap",
           "correction": "Raw historical daily-limit evidence supersedes the incorrect subscription label; old receipt retained unchanged."
         }
-      ]
+      ],
+      "review_history": [
+        {
+          "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+          "assessment": null,
+          "reviewed_on": "2026-11-04",
+          "canonical_record_id": null,
+          "profiles": null
+        }
+      ],
+      "assessment": "The detailed OPR 689/20, item 1 receipt indexes an unnamed Glasgow child baptised on 13 February 1735 at Kirknewton and East Calder, father James Glasgow; no mother or exact birthday is supplied. The two held named companions R_686207970 and R_691904286 identify Robert with the same exact date, parish and father, matching Glasgow-1445’s existing baptism event. The blank forename does not define another child. Register coverage 1642–1737 is not a birth or event range. The existing adult father comparison Glasgow-1547 remains 57% possible. The 1735 baptism’s recorded father James conflicts with the 1772 notice’s father Andrew in a proposed child-to-adult identification; uncertainty about adult Glasgow-1547 identity does not remove the literal James clause. The accounts remain unequated; no parent replacement, alias, stepfather, new person or confidence change is inferred. No mother or 1767 prisoner identity is established. Three derivatives of one event are not independent witnesses. Original register uninspected; no new person, vital adoption, attachment or assessment change.",
+      "profiles": {
+        "Glasgow-1445": {
+          "role": "Existing Robert baptism event identified through named companions; this detailed index leaves the child forename blank",
+          "timeline_group": "Records for identity comparison"
+        },
+        "Glasgow-1547": {
+          "role": "Existing possible adult father comparison for the named James Glasgow; current 57% assessment unchanged, adult identity not independently proved",
+          "timeline_group": "Records for identity comparison"
+        }
+      },
+      "canonical_record_id": "fmp-record-scot-opr-bap-4474348",
+      "review_provenance": "tmp/fmp-pages36-40-20261104/recovered-batch-preflight-review.json"
     },
     "SCOT/OPR/BUR/1448478": {
       "scope_probe_only": false,
@@ -40628,7 +40665,7 @@
         " ": ""
       },
       "source_level": "Inspected historical provider derivative transcript; original record uninspected",
-      "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+      "matching_status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
       "access_note": "Glasgow in 1750 | Transcript of record | Birth Record | Birth Record | Birth Record",
       "reviewed_on": "2026-11-04",
       "access_history": [
@@ -40644,7 +40681,20 @@
           "old_final_url": "https://www.findmypast.co.uk/steady-sherlock?limit=dailyLimit&record_id=SCOT%2FOPR%2FBUR%2F1448478&record_metadata_id=scot_opr_bur",
           "correction": "Raw historical daily-limit evidence supersedes the incorrect subscription label; old receipt retained unchanged."
         }
-      ]
+      ],
+      "review_history": [
+        {
+          "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+          "assessment": null,
+          "reviewed_on": "2026-11-04",
+          "canonical_record_id": null,
+          "profiles": null
+        }
+      ],
+      "assessment": "An unnamed Glasgow is indexed as buried on 29 September 1750 at Edinburgh, with next-of-kin relationship “Child of” and next-of-kin name John Glasgow. OPR 685_1/94, item 3, page 94, register coverage 1747–1757. John is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. Companion SCOT/OPR/BUR/0255429 repeats the same event and fields: treat the pair as one source-defined burial group, not independent corroboration or two children. It is a distinct event from the February 1754 John-child burial; neither name alone identifies one adult John or a sibling group. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+      "profiles": {},
+      "canonical_record_id": "fmp-record-scot-opr-bur-1448478",
+      "review_provenance": "tmp/fmp-pages36-40-20261104/recovered-batch-preflight-review.json"
     },
     "SCOT/OPR/BUR/0255429": {
       "scope_probe_only": false,
@@ -40723,7 +40773,7 @@
         " ": ""
       },
       "source_level": "Inspected historical provider derivative transcript; original record uninspected",
-      "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+      "matching_status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
       "access_note": "Glasgow in 1750 | Transcript of record | Birth Record | Birth Record | Birth Record",
       "reviewed_on": "2026-11-04",
       "access_history": [
@@ -40739,7 +40789,20 @@
           "old_final_url": "https://www.findmypast.co.uk/steady-sherlock?limit=dailyLimit&record_id=SCOT%2FOPR%2FBUR%2F0255429&record_metadata_id=scot_opr_bur",
           "correction": "Raw historical daily-limit evidence supersedes the incorrect subscription label; old receipt retained unchanged."
         }
-      ]
+      ],
+      "review_history": [
+        {
+          "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+          "assessment": null,
+          "reviewed_on": "2026-11-04",
+          "canonical_record_id": null,
+          "profiles": null
+        }
+      ],
+      "assessment": "An unnamed Glasgow is indexed as buried on 29 September 1750 at Edinburgh, with next-of-kin relationship “Child of” and next-of-kin name John Glasgow. OPR 685_1/94, item 3, page 94, register coverage 1747–1757. John is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. Companion SCOT/OPR/BUR/1448478 repeats the same event and fields: treat the pair as one source-defined burial group, not independent corroboration or two children. It is a distinct event from the February 1754 John-child burial; neither name alone identifies one adult John or a sibling group. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+      "profiles": {},
+      "canonical_record_id": "fmp-record-scot-opr-bur-0255429",
+      "review_provenance": "tmp/fmp-pages36-40-20261104/recovered-batch-preflight-review.json"
     },
     "SCOT/OPR/BAP/4476061": {
       "scope_probe_only": false,
@@ -40812,7 +40875,7 @@
         " ": ""
       },
       "source_level": "Inspected historical provider derivative transcript; original record uninspected",
-      "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+      "matching_status": "Inspected derivative; held named event matched, existing adult candidate identity HOLD",
       "access_note": "Glasgow in 1750 | Transcript of record",
       "reviewed_on": "2026-11-04",
       "access_history": [
@@ -40828,7 +40891,25 @@
           "old_final_url": "https://www.findmypast.co.uk/steady-sherlock?limit=dailyLimit&record_id=SCOT%2FOPR%2FBAP%2F4476061&record_metadata_id=scot_opr_bap",
           "correction": "Raw historical daily-limit evidence supersedes the incorrect subscription label; old receipt retained unchanged."
         }
-      ]
+      ],
+      "review_history": [
+        {
+          "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+          "assessment": null,
+          "reviewed_on": "2026-11-04",
+          "canonical_record_id": null,
+          "profiles": null
+        }
+      ],
+      "assessment": "Unnamed Glasgow child baptised 6 May 1750 at Kirknewton & East Calder, father Andrew Glasgow, mother Isabel with no surname; OPR 690/2 item 2, range 1642–1764. Held R_686207645 and R_691904464 name child Andrew and mother Isabel Clerk with the same exact baptism day, parish and father; only R_686207645 additionally gives Kirknewton residence. The new detailed receipt does not supply the child name, maternal Clerk surname, residence or exact birthday. These are companion renderings of the held event, not independent witnesses or an extra child. [Glasgow-3165](/people/glasgow-3165.html) remains an existing weak compatible candidate: estimated circa 1760 birth differs but does not exclude; no Deanfoot adult family/estate/occupation bridge is established. [Glasgow-1336](/people/glasgow-1336.html) and [Clerk-314](/people/clerk-314.html) are possible adult-parent comparisons only, not parents adopted for 3165 or proved by this receipt. No vital, parent, family, grade or natal-identity change; original uninspected.",
+      "profiles": {
+        "Glasgow-3165": {
+          "role": "Existing weak child-to-Deanfoot adult comparison only; held event identified through named companions, no baptism or parents assigned",
+          "timeline_group": "Records for identity comparison"
+        }
+      },
+      "canonical_record_id": "fmp-record-scot-opr-bap-4476061",
+      "review_provenance": "tmp/fmp-pages36-40-20261104/recovered-batch-preflight-review.json"
     },
     "SCOT/OPR/BUR/1450423": {
       "scope_probe_only": false,
@@ -41257,10 +41338,22 @@
         " ": ""
       },
       "source_level": "Inspected historical provider derivative transcript; original record uninspected",
-      "matching_status": "historical_receipt_reviewed_integration_pending",
+      "matching_status": "Inspected derivative transcript; named subject, identity HOLD; no profile event assignment",
       "access_note": "Glasgow in 1774 | Transcript of record | What can these records tell me?",
-      "assessment": "The transcript’s Notes name Janet GLASGOW in a receipt for mortcloth, although its separate forename field is blank. It labels 9 January 1774 as burial at Symington, Lanarkshire, and gives only an uncertain day/month in deathyear 1774. The exact death date and her family are unknown. Janet Glasgow-4130 is a compatible Lanarkshire candidate; the record supplies no age, residence or relative that establishes that identification. Retain the source event without assigning it to a current person.",
-      "reviewed_on": "2026-11-04"
+      "assessment": "The Notes name Janet GLASGOW in “Recd for Mortcloth for Janet GLASGOW”, although First name(s) is a dash. The transcript labels 9 January 1774 as burial at Symington, Lanarkshire; the payment wording leaves the original transaction-versus-burial meaning to be checked. Death is indexed only as “? ? 1774”; no exact death day, age, residence or relative is supplied. Mortcloth price is literally “1.16 00”. Glasgow is the recorded surname, without an explicit birth-surname statement. Identity remains HOLD. [Janet Glasgow-4130](/people/glasgow-4130.html), born before 22 April 1718 at Libberton, is a priority compatible regional comparison; the transcript supplies no family or residence bridge. [Janet Glasgow-1329](/people/glasgow-1329.html), born before 18 August 1751 at West Calder, remains a weaker compatible comparison. [Janet Glasgow-2655](/people/glasgow-2655.html), estimated born about 1758 in Lanarkshire and associated with William Smith, remains conditional: her inherited estimated death about 1850 conflicts with 1774 but is not a decisive exclusion without the cited Robert Smith death certificate or a reliable dated later-life record. No event, death date or family is assigned to any candidate; their existing relationships and confidence grades are unchanged. Next: inspect the original mortcloth entry and adjacent headings for date meaning, payer, age, residence or household relationship. Compare those details with the Libberton/West Calder families, and inspect the Robert Smith death certificate for the chronology of Glasgow-2655. Missing corroboration or uncertain estimated dates do not justify a new person. Original register uninspected; this is an inspected provider derivative, not an independent original reading.",
+      "reviewed_on": "2026-11-04",
+      "review_history": [
+        {
+          "matching_status": "historical_receipt_reviewed_integration_pending",
+          "assessment": "The transcript’s Notes name Janet GLASGOW in a receipt for mortcloth, although its separate forename field is blank. It labels 9 January 1774 as burial at Symington, Lanarkshire, and gives only an uncertain day/month in deathyear 1774. The exact death date and her family are unknown. Janet Glasgow-4130 is a compatible Lanarkshire candidate; the record supplies no age, residence or relative that establishes that identification. Retain the source event without assigning it to a current person.",
+          "reviewed_on": "2026-11-04",
+          "canonical_record_id": null,
+          "profiles": null
+        }
+      ],
+      "profiles": {},
+      "canonical_record_id": "fmp-record-gbprs-lanarkshire-bur-020567",
+      "review_provenance": "tmp/fmp-pages36-40-20261104/recovered-batch-preflight-review.json"
     },
     "SCOT/OPR/BUR/0365452": {
       "scope_probe_only": false,
@@ -44700,7 +44793,7 @@
         "Collections from ": "Great Britain, Scotland"
       },
       "source_level": "Inspected historical provider derivative transcript; original record uninspected",
-      "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+      "matching_status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
       "access_note": "Glasgow in 1723 | Transcript of record",
       "reviewed_on": "2026-11-04",
       "access_history": [
@@ -44716,7 +44809,20 @@
           "old_final_url": "https://www.findmypast.co.uk/steady-sherlock?limit=dailyLimit&record_id=SCOT%2FOPR%2FBUR%2F0998339&record_metadata_id=scot_opr_bur",
           "correction": "Raw historical daily-limit evidence supersedes the incorrect subscription label; old receipt retained unchanged."
         }
-      ]
+      ],
+      "review_history": [
+        {
+          "matching_status": "accessible_after_fresh_allowance_reconciliation_pending",
+          "assessment": null,
+          "reviewed_on": "2026-11-04",
+          "canonical_record_id": null,
+          "profiles": null
+        }
+      ],
+      "assessment": "The transcript explicitly labels 25 December 1723 as the death date of an unnamed Glasgow, with next-of-kin relationship “Daughter of” and next-of-kin name Mr John Glasgow. The first-name field is a question mark. Place Glasgow, Lanarkshire; OPR 644/46, item 1, register coverage 1723–1739. Burial year is 1723 but no exact burial date is supplied; do not turn the death label into a burial day. Mr John is the named next of kin, not the deceased. The daughter’s age, mother, residence and birth date are unknown; daughter does not imply infancy, an unmarried adult or any particular existing child. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+      "profiles": {},
+      "canonical_record_id": "fmp-record-scot-opr-bur-0998339",
+      "review_provenance": "tmp/fmp-pages36-40-20261104/recovered-batch-preflight-review.json"
     },
     "US/FS/M/008304197/2": {
       "scope_probe_only": false,
@@ -93182,79 +93288,58 @@
           "assessment": "Reuse exact cached receipt and existing canonical disposition unchanged; register coverage span is not an event date."
         },
         "SCOT/OPR/BUR/1610273": {
-          "provider_id": "SCOT/OPR/BUR/1610273",
-          "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_1610273.json",
-          "sha256": "34c6c8c4748ee29ef730d0139fbdcd27d7eb5fa2ac536c027d4f80f989bcfc1c",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
-          "old_block_reason": "daily_limit",
-          "previous_receipt": {
-            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
-            "json_pointer": "#/records/SCOT~1OPR~1BUR~11610273",
-            "access_status": "subscription_locked",
-            "transcript_fields_present": false,
-            "captured_at": "2026-09-03T23:55:12.043Z"
-          },
-          "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+          "canonical_record_id": "fmp-record-scot-opr-bur-1610273",
+          "status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
+          "profiles": {},
+          "assessment": "An unnamed Glasgow is indexed as buried on 23 January 1725 at Glencorse, Midlothian, with next-of-kin relationship “Child of” and next-of-kin name Robert Glasgow. OPR 687/2, item 2, register coverage 1673–1819. Robert is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. No existing child or adult Robert is identified; do not infer infancy or attach a family. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1610273.json",
+          "receipt_sha256": "34c6c8c4748ee29ef730d0139fbdcd27d7eb5fa2ac536c027d4f80f989bcfc1c"
         },
         "SCOT/OPR/BAP/4474348": {
-          "provider_id": "SCOT/OPR/BAP/4474348",
-          "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BAP_4474348.json",
-          "sha256": "c34ac4d8f694ac7cdfb4866071ffc486408d39920bbbf9ed6b944d182561de52",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
-          "old_block_reason": "daily_limit",
-          "previous_receipt": {
-            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
-            "json_pointer": "#/records/SCOT~1OPR~1BAP~14474348",
-            "access_status": "subscription_locked",
-            "transcript_fields_present": false,
-            "captured_at": "2026-09-03T23:49:55.965Z"
+          "canonical_record_id": "fmp-record-scot-opr-bap-4474348",
+          "status": "Inspected derivative; existing Robert child event identified through named companions; adult father identity retains prior limits",
+          "profiles": {
+            "Glasgow-1445": {
+              "role": "Existing Robert baptism event identified through named companions; this detailed index leaves the child forename blank",
+              "timeline_group": "Records for identity comparison"
+            },
+            "Glasgow-1547": {
+              "role": "Existing possible adult father comparison for the named James Glasgow; current 57% assessment unchanged, adult identity not independently proved",
+              "timeline_group": "Records for identity comparison"
+            }
           },
-          "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+          "assessment": "The detailed OPR 689/20, item 1 receipt indexes an unnamed Glasgow child baptised on 13 February 1735 at Kirknewton and East Calder, father James Glasgow; no mother or exact birthday is supplied. The two held named companions R_686207970 and R_691904286 identify Robert with the same exact date, parish and father, matching Glasgow-1445’s existing baptism event. The blank forename does not define another child. Register coverage 1642–1737 is not a birth or event range. The existing adult father comparison Glasgow-1547 remains 57% possible. The 1735 baptism’s recorded father James conflicts with the 1772 notice’s father Andrew in a proposed child-to-adult identification; uncertainty about adult Glasgow-1547 identity does not remove the literal James clause. The accounts remain unequated; no parent replacement, alias, stepfather, new person or confidence change is inferred. No mother or 1767 prisoner identity is established. Three derivatives of one event are not independent witnesses. Original register uninspected; no new person, vital adoption, attachment or assessment change.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BAP_4474348.json",
+          "receipt_sha256": "c34ac4d8f694ac7cdfb4866071ffc486408d39920bbbf9ed6b944d182561de52"
         },
         "SCOT/OPR/BUR/1448478": {
-          "provider_id": "SCOT/OPR/BUR/1448478",
-          "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_1448478.json",
-          "sha256": "d61e6e88cef1cd1e80656d285e9a8ed1eb2b7e7931504149390d58cdc0326786",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
-          "old_block_reason": "daily_limit",
-          "previous_receipt": {
-            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
-            "json_pointer": "#/records/SCOT~1OPR~1BUR~11448478",
-            "access_status": "subscription_locked",
-            "transcript_fields_present": false,
-            "captured_at": "2026-09-03T23:54:58.298Z"
-          },
-          "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+          "canonical_record_id": "fmp-record-scot-opr-bur-1448478",
+          "status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
+          "profiles": {},
+          "assessment": "An unnamed Glasgow is indexed as buried on 29 September 1750 at Edinburgh, with next-of-kin relationship “Child of” and next-of-kin name John Glasgow. OPR 685_1/94, item 3, page 94, register coverage 1747–1757. John is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. Companion SCOT/OPR/BUR/0255429 repeats the same event and fields: treat the pair as one source-defined burial group, not independent corroboration or two children. It is a distinct event from the February 1754 John-child burial; neither name alone identifies one adult John or a sibling group. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1448478.json",
+          "receipt_sha256": "d61e6e88cef1cd1e80656d285e9a8ed1eb2b7e7931504149390d58cdc0326786"
         },
         "SCOT/OPR/BUR/0255429": {
-          "provider_id": "SCOT/OPR/BUR/0255429",
-          "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_0255429.json",
-          "sha256": "220b967d7888589ade3e4a77cbe8059a9cff1131f6a674cb32af0093e7a48872",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
-          "old_block_reason": "daily_limit",
-          "previous_receipt": {
-            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
-            "json_pointer": "#/records/SCOT~1OPR~1BUR~10255429",
-            "access_status": "subscription_locked",
-            "transcript_fields_present": false,
-            "captured_at": "2026-09-03T23:52:50.214Z"
-          },
-          "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+          "canonical_record_id": "fmp-record-scot-opr-bur-0255429",
+          "status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
+          "profiles": {},
+          "assessment": "An unnamed Glasgow is indexed as buried on 29 September 1750 at Edinburgh, with next-of-kin relationship “Child of” and next-of-kin name John Glasgow. OPR 685_1/94, item 3, page 94, register coverage 1747–1757. John is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. Companion SCOT/OPR/BUR/1448478 repeats the same event and fields: treat the pair as one source-defined burial group, not independent corroboration or two children. It is a distinct event from the February 1754 John-child burial; neither name alone identifies one adult John or a sibling group. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_0255429.json",
+          "receipt_sha256": "220b967d7888589ade3e4a77cbe8059a9cff1131f6a674cb32af0093e7a48872"
         },
         "SCOT/OPR/BAP/4476061": {
-          "provider_id": "SCOT/OPR/BAP/4476061",
-          "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BAP_4476061.json",
-          "sha256": "666149b9999aed30a888b4d45751866c8b1eacd75875d94dab9e6d737d7b9dd7",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
-          "old_block_reason": "daily_limit",
-          "previous_receipt": {
-            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
-            "json_pointer": "#/records/SCOT~1OPR~1BAP~14476061",
-            "access_status": "subscription_locked",
-            "transcript_fields_present": false,
-            "captured_at": "2026-09-03T23:50:46.235Z"
+          "canonical_record_id": "fmp-record-scot-opr-bap-4476061",
+          "status": "Inspected derivative; held named event matched, existing adult candidate identity HOLD",
+          "profiles": {
+            "Glasgow-3165": {
+              "role": "Existing weak child-to-Deanfoot adult comparison only; held event identified through named companions, no baptism or parents assigned",
+              "timeline_group": "Records for identity comparison"
+            }
           },
-          "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+          "assessment": "Unnamed Glasgow child baptised 6 May 1750 at Kirknewton & East Calder, father Andrew Glasgow, mother Isabel with no surname; OPR 690/2 item 2, range 1642–1764. Held R_686207645 and R_691904464 name child Andrew and mother Isabel Clerk with the same exact baptism day, parish and father; only R_686207645 additionally gives Kirknewton residence. The new detailed receipt does not supply the child name, maternal Clerk surname, residence or exact birthday. These are companion renderings of the held event, not independent witnesses or an extra child. [Glasgow-3165](/people/glasgow-3165.html) remains an existing weak compatible candidate: estimated circa 1760 birth differs but does not exclude; no Deanfoot adult family/estate/occupation bridge is established. [Glasgow-1336](/people/glasgow-1336.html) and [Clerk-314](/people/clerk-314.html) are possible adult-parent comparisons only, not parents adopted for 3165 or proved by this receipt. No vital, parent, family, grade or natal-identity change; original uninspected.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BAP_4476061.json",
+          "receipt_sha256": "666149b9999aed30a888b4d45751866c8b1eacd75875d94dab9e6d737d7b9dd7"
         },
         "GBPRS/M/710575678/2": {
           "status": "excluded_from_natal_glasgow_scope_title_index",
@@ -93268,12 +93353,12 @@
           "assessment": "Parent-verified contemporary marriage list names John, Earl of Glasgow; Glasgow is title context, not natal surname. Keep exact receipt/history; no canonical surname event, person or wedding-day adoption."
         },
         "GBPRS/LANARKSHIRE/BUR/020567": {
-          "status": "historical_receipt_reviewed_integration_pending",
+          "canonical_record_id": "fmp-record-gbprs-lanarkshire-bur-020567",
+          "status": "Inspected derivative transcript; named subject, identity HOLD; no profile event assignment",
+          "profiles": {},
+          "assessment": "The Notes name Janet GLASGOW in “Recd for Mortcloth for Janet GLASGOW”, although First name(s) is a dash. The transcript labels 9 January 1774 as burial at Symington, Lanarkshire; the payment wording leaves the original transaction-versus-burial meaning to be checked. Death is indexed only as “? ? 1774”; no exact death day, age, residence or relative is supplied. Mortcloth price is literally “1.16 00”. Glasgow is the recorded surname, without an explicit birth-surname statement. Identity remains HOLD. [Janet Glasgow-4130](/people/glasgow-4130.html), born before 22 April 1718 at Libberton, is a priority compatible regional comparison; the transcript supplies no family or residence bridge. [Janet Glasgow-1329](/people/glasgow-1329.html), born before 18 August 1751 at West Calder, remains a weaker compatible comparison. [Janet Glasgow-2655](/people/glasgow-2655.html), estimated born about 1758 in Lanarkshire and associated with William Smith, remains conditional: her inherited estimated death about 1850 conflicts with 1774 but is not a decisive exclusion without the cited Robert Smith death certificate or a reliable dated later-life record. No event, death date or family is assigned to any candidate; their existing relationships and confidence grades are unchanged. Next: inspect the original mortcloth entry and adjacent headings for date meaning, payer, age, residence or household relationship. Compare those details with the Libberton/West Calder families, and inspect the Robert Smith death certificate for the chronology of Glasgow-2655. Missing corroboration or uncertain estimated dates do not justify a new person. Original register uninspected; this is an inspected provider derivative, not an independent original reading.",
           "receipt_path": "tmp/fmp-pages36-40-20261104/GBPRS_LANARKSHIRE_BUR_020567.json",
-          "receipt_sha256": "8731c62749e7fd69bae86d82bd5012616c02397101dd221271aec68d6d4756ea",
-          "review_path": "tmp/fmp-pages36-40-20261104/janet-symington1774-review.json",
-          "assessment": "The transcript’s Notes name Janet GLASGOW in a receipt for mortcloth, although its separate forename field is blank. It labels 9 January 1774 as burial at Symington, Lanarkshire, and gives only an uncertain day/month in deathyear 1774. The exact death date and her family are unknown. Janet Glasgow-4130 is a compatible Lanarkshire candidate; the record supplies no age, residence or relative that establishes that identification. Retain the source event without assigning it to a current person.",
-          "integration": "Pending root canonical/current-account decision; do not call whole page fully integrated."
+          "receipt_sha256": "8731c62749e7fd69bae86d82bd5012616c02397101dd221271aec68d6d4756ea"
         }
       },
       "query_rows_reviewed": 760,
@@ -93292,14 +93377,7 @@
       "new_full_receipt_captures": 15,
       "reviewed_new_full_receipt_captures": 15,
       "pending_unreviewed_full_receipts_this_partial_batch": 0,
-      "pending_new_full_receipt_integration_ids": [
-        "GBPRS/LANARKSHIRE/BUR/020567",
-        "SCOT/OPR/BUR/1610273",
-        "SCOT/OPR/BAP/4474348",
-        "SCOT/OPR/BUR/1448478",
-        "SCOT/OPR/BUR/0255429",
-        "SCOT/OPR/BAP/4476061"
-      ],
+      "pending_new_full_receipt_integration_ids": [],
       "minimal_scope_probe_ids": [
         "US/BMD/BILLION/006233074",
         "US/BMD/BILLION/012951776",
@@ -94105,26 +94183,9 @@
           "access_status": "accessible",
           "scope_probe_only": false,
           "status": "captured_pending_review_not_indexed_by_this_partial_batch"
-        },
-        {
-          "provider_id": "SCOT/OPR/BUR/0998339",
-          "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_0998339.json",
-          "sha256": "96935bb078eeedb70bd44d6b5b69f8595c2e4ac2776674df9790951a9386a161",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
-          "old_block_reason": "daily_limit",
-          "previous_receipt": {
-            "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
-            "json_pointer": "#/records/SCOT~1OPR~1BUR~10998339",
-            "access_status": "subscription_locked",
-            "transcript_fields_present": false,
-            "captured_at": "2026-09-03T23:53:07.394Z"
-          },
-          "page": 41,
-          "scope_probe_only": false,
-          "access_status": "accessible"
         }
       ],
-      "pending_unreviewed_current_capture_receipt_count": 80,
+      "pending_unreviewed_current_capture_receipt_count": 79,
       "new_people": 0,
       "vital_adoptions": 0,
       "relationship_changes": 0,
@@ -94187,7 +94248,99 @@
         "SCOT/OPR/BUR/1448478",
         "SCOT/OPR/BUR/0255429",
         "SCOT/OPR/BAP/4476061"
-      ]
+      ],
+      "superseded_disposition_history": [
+        {
+          "reviewed_on": "2026-11-04",
+          "reason": "Recovered daily-limit receipts and Janet 1774 now integrated; prior pending dispositions retained.",
+          "dispositions": {
+            "SCOT/OPR/BUR/1610273": {
+              "provider_id": "SCOT/OPR/BUR/1610273",
+              "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_1610273.json",
+              "sha256": "34c6c8c4748ee29ef730d0139fbdcd27d7eb5fa2ac536c027d4f80f989bcfc1c",
+              "status": "accessible_full_historical_receipt_reconciliation_pending",
+              "old_block_reason": "daily_limit",
+              "previous_receipt": {
+                "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+                "json_pointer": "#/records/SCOT~1OPR~1BUR~11610273",
+                "access_status": "subscription_locked",
+                "transcript_fields_present": false,
+                "captured_at": "2026-09-03T23:55:12.043Z"
+              },
+              "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+            },
+            "SCOT/OPR/BUR/1448478": {
+              "provider_id": "SCOT/OPR/BUR/1448478",
+              "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_1448478.json",
+              "sha256": "d61e6e88cef1cd1e80656d285e9a8ed1eb2b7e7931504149390d58cdc0326786",
+              "status": "accessible_full_historical_receipt_reconciliation_pending",
+              "old_block_reason": "daily_limit",
+              "previous_receipt": {
+                "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+                "json_pointer": "#/records/SCOT~1OPR~1BUR~11448478",
+                "access_status": "subscription_locked",
+                "transcript_fields_present": false,
+                "captured_at": "2026-09-03T23:54:58.298Z"
+              },
+              "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+            },
+            "SCOT/OPR/BUR/0255429": {
+              "provider_id": "SCOT/OPR/BUR/0255429",
+              "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_0255429.json",
+              "sha256": "220b967d7888589ade3e4a77cbe8059a9cff1131f6a674cb32af0093e7a48872",
+              "status": "accessible_full_historical_receipt_reconciliation_pending",
+              "old_block_reason": "daily_limit",
+              "previous_receipt": {
+                "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+                "json_pointer": "#/records/SCOT~1OPR~1BUR~10255429",
+                "access_status": "subscription_locked",
+                "transcript_fields_present": false,
+                "captured_at": "2026-09-03T23:52:50.214Z"
+              },
+              "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+            },
+            "SCOT/OPR/BAP/4474348": {
+              "provider_id": "SCOT/OPR/BAP/4474348",
+              "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BAP_4474348.json",
+              "sha256": "c34ac4d8f694ac7cdfb4866071ffc486408d39920bbbf9ed6b944d182561de52",
+              "status": "accessible_full_historical_receipt_reconciliation_pending",
+              "old_block_reason": "daily_limit",
+              "previous_receipt": {
+                "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+                "json_pointer": "#/records/SCOT~1OPR~1BAP~14474348",
+                "access_status": "subscription_locked",
+                "transcript_fields_present": false,
+                "captured_at": "2026-09-03T23:49:55.965Z"
+              },
+              "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+            },
+            "SCOT/OPR/BAP/4476061": {
+              "provider_id": "SCOT/OPR/BAP/4476061",
+              "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BAP_4476061.json",
+              "sha256": "666149b9999aed30a888b4d45751866c8b1eacd75875d94dab9e6d737d7b9dd7",
+              "status": "accessible_full_historical_receipt_reconciliation_pending",
+              "old_block_reason": "daily_limit",
+              "previous_receipt": {
+                "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
+                "json_pointer": "#/records/SCOT~1OPR~1BAP~14476061",
+                "access_status": "subscription_locked",
+                "transcript_fields_present": false,
+                "captured_at": "2026-09-03T23:50:46.235Z"
+              },
+              "assessment": "Historical transcript recovered on the one fresh-allowance retry; exact source-role and existing-person reconciliation pending. Not a subscription denial."
+            },
+            "GBPRS/LANARKSHIRE/BUR/020567": {
+              "status": "historical_receipt_reviewed_integration_pending",
+              "receipt_path": "tmp/fmp-pages36-40-20261104/GBPRS_LANARKSHIRE_BUR_020567.json",
+              "receipt_sha256": "8731c62749e7fd69bae86d82bd5012616c02397101dd221271aec68d6d4756ea",
+              "review_path": "tmp/fmp-pages36-40-20261104/janet-symington1774-review.json",
+              "assessment": "The transcript’s Notes name Janet GLASGOW in a receipt for mortcloth, although its separate forename field is blank. It labels 9 January 1774 as burial at Symington, Lanarkshire, and gives only an uncertain day/month in deathyear 1774. The exact death date and her family are unknown. Janet Glasgow-4130 is a compatible Lanarkshire candidate; the record supplies no age, residence or relative that establishes that identification. Retain the source event without assigning it to a current person.",
+              "integration": "Pending root canonical/current-account decision; do not call whole page fully integrated."
+            }
+          }
+        }
+      ],
+      "remaining_daily_limit_recovery_provider_ids": []
     },
     "daily_limit_recovery_20261104": {
       "recovered_receipts": [
@@ -94195,7 +94348,7 @@
           "provider_id": "SCOT/OPR/BUR/1610273",
           "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_1610273.json",
           "sha256": "34c6c8c4748ee29ef730d0139fbdcd27d7eb5fa2ac536c027d4f80f989bcfc1c",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
+          "status": "reviewed_integrated_and_locally_verified",
           "old_block_reason": "daily_limit",
           "previous_receipt": {
             "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
@@ -94203,13 +94356,17 @@
             "access_status": "subscription_locked",
             "transcript_fields_present": false,
             "captured_at": "2026-09-03T23:55:12.043Z"
-          }
+          },
+          "status_history": [
+            "accessible_full_historical_receipt_reconciliation_pending"
+          ],
+          "canonical_record_id": "fmp-record-scot-opr-bur-1610273"
         },
         {
           "provider_id": "SCOT/OPR/BAP/4474348",
           "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BAP_4474348.json",
           "sha256": "c34ac4d8f694ac7cdfb4866071ffc486408d39920bbbf9ed6b944d182561de52",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
+          "status": "reviewed_integrated_and_locally_verified",
           "old_block_reason": "daily_limit",
           "previous_receipt": {
             "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
@@ -94217,13 +94374,17 @@
             "access_status": "subscription_locked",
             "transcript_fields_present": false,
             "captured_at": "2026-09-03T23:49:55.965Z"
-          }
+          },
+          "status_history": [
+            "accessible_full_historical_receipt_reconciliation_pending"
+          ],
+          "canonical_record_id": "fmp-record-scot-opr-bap-4474348"
         },
         {
           "provider_id": "SCOT/OPR/BUR/1448478",
           "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_1448478.json",
           "sha256": "d61e6e88cef1cd1e80656d285e9a8ed1eb2b7e7931504149390d58cdc0326786",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
+          "status": "reviewed_integrated_and_locally_verified",
           "old_block_reason": "daily_limit",
           "previous_receipt": {
             "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
@@ -94231,13 +94392,17 @@
             "access_status": "subscription_locked",
             "transcript_fields_present": false,
             "captured_at": "2026-09-03T23:54:58.298Z"
-          }
+          },
+          "status_history": [
+            "accessible_full_historical_receipt_reconciliation_pending"
+          ],
+          "canonical_record_id": "fmp-record-scot-opr-bur-1448478"
         },
         {
           "provider_id": "SCOT/OPR/BUR/0255429",
           "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_0255429.json",
           "sha256": "220b967d7888589ade3e4a77cbe8059a9cff1131f6a674cb32af0093e7a48872",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
+          "status": "reviewed_integrated_and_locally_verified",
           "old_block_reason": "daily_limit",
           "previous_receipt": {
             "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
@@ -94245,13 +94410,17 @@
             "access_status": "subscription_locked",
             "transcript_fields_present": false,
             "captured_at": "2026-09-03T23:52:50.214Z"
-          }
+          },
+          "status_history": [
+            "accessible_full_historical_receipt_reconciliation_pending"
+          ],
+          "canonical_record_id": "fmp-record-scot-opr-bur-0255429"
         },
         {
           "provider_id": "SCOT/OPR/BAP/4476061",
           "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BAP_4476061.json",
           "sha256": "666149b9999aed30a888b4d45751866c8b1eacd75875d94dab9e6d737d7b9dd7",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
+          "status": "reviewed_integrated_and_locally_verified",
           "old_block_reason": "daily_limit",
           "previous_receipt": {
             "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
@@ -94259,13 +94428,17 @@
             "access_status": "subscription_locked",
             "transcript_fields_present": false,
             "captured_at": "2026-09-03T23:50:46.235Z"
-          }
+          },
+          "status_history": [
+            "accessible_full_historical_receipt_reconciliation_pending"
+          ],
+          "canonical_record_id": "fmp-record-scot-opr-bap-4476061"
         },
         {
           "provider_id": "SCOT/OPR/BUR/0998339",
           "receipt_path": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/SCOT_OPR_BUR_0998339.json",
           "sha256": "96935bb078eeedb70bd44d6b5b69f8595c2e4ac2776674df9790951a9386a161",
-          "status": "accessible_full_historical_receipt_reconciliation_pending",
+          "status": "reviewed_integrated_and_locally_verified",
           "old_block_reason": "daily_limit",
           "previous_receipt": {
             "path": "/Users/m/genealogy/wikitree-api-scrape/research/findmypast-glasgow-audit/record-details-remaining-b.json",
@@ -94273,7 +94446,11 @@
             "access_status": "subscription_locked",
             "transcript_fields_present": false,
             "captured_at": "2026-09-03T23:53:07.394Z"
-          }
+          },
+          "status_history": [
+            "accessible_full_historical_receipt_reconciliation_pending"
+          ],
+          "canonical_record_id": "fmp-record-scot-opr-bur-0998339"
         }
       ],
       "legacy_status": "subscription_locked",
@@ -94284,6 +94461,238 @@
       "new_indexed_records": 0,
       "source_defined_event_groups": 5,
       "private_manifest": "data/private/findmypast-captures/2026-11-04/daily-limit-recovery/manifest.json"
+    },
+    "recovered_seven_review_20261104": {
+      "reviewed_on": "2026-11-04",
+      "status": "seven_rows_and_basis_only_revision_verified_locally",
+      "input_sha256": {
+        "tmp/fmp-pages36-40-20261104/recovered-burial-row-candidates.json": "3e968bbf49cdbb439062c0cc9a094703f89e3296ff42b62f32ab41fe70ad39d3",
+        "tmp/fmp-pages36-40-20261104/page38-recovered-1445-drafts/record-row-candidates.json": "d7a7e66db2f5e54f38c9c4436844ffaccd9a71f315db00c5189c6fe3422ba06d",
+        "tmp/fmp-pages36-40-20261104/page38-recovered-3165-drafts/canonical-row.json": "b6c757c79461a8b3de48aa57243d4bee64efb0305df46bdc11a29c2ab4380a25",
+        "tmp/fmp-pages36-40-20261104/janet1774-row-candidate.json": "d0bbd268cf4354a661a324b3dd542131db1aee79c6c3a573448c49b1298ac98f"
+      },
+      "newly_indexed_provider_ids": [
+        "SCOT/OPR/BUR/1610273",
+        "SCOT/OPR/BUR/1448478",
+        "SCOT/OPR/BUR/0255429",
+        "SCOT/OPR/BUR/0998339",
+        "SCOT/OPR/BAP/4474348",
+        "SCOT/OPR/BAP/4476061",
+        "GBPRS/LANARKSHIRE/BUR/020567"
+      ],
+      "record_dispositions": {
+        "SCOT/OPR/BUR/1610273": {
+          "canonical_record_id": "fmp-record-scot-opr-bur-1610273",
+          "status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
+          "profiles": {},
+          "assessment": "An unnamed Glasgow is indexed as buried on 23 January 1725 at Glencorse, Midlothian, with next-of-kin relationship “Child of” and next-of-kin name Robert Glasgow. OPR 687/2, item 2, register coverage 1673–1819. Robert is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. No existing child or adult Robert is identified; do not infer infancy or attach a family. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1610273.json",
+          "receipt_sha256": "34c6c8c4748ee29ef730d0139fbdcd27d7eb5fa2ac536c027d4f80f989bcfc1c"
+        },
+        "SCOT/OPR/BUR/1448478": {
+          "canonical_record_id": "fmp-record-scot-opr-bur-1448478",
+          "status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
+          "profiles": {},
+          "assessment": "An unnamed Glasgow is indexed as buried on 29 September 1750 at Edinburgh, with next-of-kin relationship “Child of” and next-of-kin name John Glasgow. OPR 685_1/94, item 3, page 94, register coverage 1747–1757. John is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. Companion SCOT/OPR/BUR/0255429 repeats the same event and fields: treat the pair as one source-defined burial group, not independent corroboration or two children. It is a distinct event from the February 1754 John-child burial; neither name alone identifies one adult John or a sibling group. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1448478.json",
+          "receipt_sha256": "d61e6e88cef1cd1e80656d285e9a8ed1eb2b7e7931504149390d58cdc0326786"
+        },
+        "SCOT/OPR/BUR/0255429": {
+          "canonical_record_id": "fmp-record-scot-opr-bur-0255429",
+          "status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
+          "profiles": {},
+          "assessment": "An unnamed Glasgow is indexed as buried on 29 September 1750 at Edinburgh, with next-of-kin relationship “Child of” and next-of-kin name John Glasgow. OPR 685_1/94, item 3, page 94, register coverage 1747–1757. John is the named next of kin, not the deceased. No child forename, age, sex, mother, residence, birth date or actual death day is supplied. Companion SCOT/OPR/BUR/1448478 repeats the same event and fields: treat the pair as one source-defined burial group, not independent corroboration or two children. It is a distinct event from the February 1754 John-child burial; neither name alone identifies one adult John or a sibling group. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_0255429.json",
+          "receipt_sha256": "220b967d7888589ade3e4a77cbe8059a9cff1131f6a674cb32af0093e7a48872"
+        },
+        "SCOT/OPR/BUR/0998339": {
+          "canonical_record_id": "fmp-record-scot-opr-bur-0998339",
+          "status": "Inspected recovered derivative transcript; unnamed source-only identity HOLD",
+          "profiles": {},
+          "assessment": "The transcript explicitly labels 25 December 1723 as the death date of an unnamed Glasgow, with next-of-kin relationship “Daughter of” and next-of-kin name Mr John Glasgow. The first-name field is a question mark. Place Glasgow, Lanarkshire; OPR 644/46, item 1, register coverage 1723–1739. Burial year is 1723 but no exact burial date is supplied; do not turn the death label into a burial day. Mr John is the named next of kin, not the deceased. The daughter’s age, mother, residence and birth date are unknown; daughter does not imply infancy, an unmarried adult or any particular existing child. No existing child has been identified from the supplied source details. That unresolved identity does not justify creating a person; keep this source event on identity HOLD. Natal-surname history and adult family identities are not independently settled. No new person, vital adoption, family attachment or confidence change is proposed. Original register uninspected. The country field is a dash; it is not adopted as an explicit country fact.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_0998339.json",
+          "receipt_sha256": "96935bb078eeedb70bd44d6b5b69f8595c2e4ac2776674df9790951a9386a161"
+        },
+        "SCOT/OPR/BAP/4474348": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4474348",
+          "status": "Inspected derivative; existing Robert child event identified through named companions; adult father identity retains prior limits",
+          "profiles": {
+            "Glasgow-1445": {
+              "role": "Existing Robert baptism event identified through named companions; this detailed index leaves the child forename blank",
+              "timeline_group": "Records for identity comparison"
+            },
+            "Glasgow-1547": {
+              "role": "Existing possible adult father comparison for the named James Glasgow; current 57% assessment unchanged, adult identity not independently proved",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "The detailed OPR 689/20, item 1 receipt indexes an unnamed Glasgow child baptised on 13 February 1735 at Kirknewton and East Calder, father James Glasgow; no mother or exact birthday is supplied. The two held named companions R_686207970 and R_691904286 identify Robert with the same exact date, parish and father, matching Glasgow-1445’s existing baptism event. The blank forename does not define another child. Register coverage 1642–1737 is not a birth or event range. The existing adult father comparison Glasgow-1547 remains 57% possible. The 1735 baptism’s recorded father James conflicts with the 1772 notice’s father Andrew in a proposed child-to-adult identification; uncertainty about adult Glasgow-1547 identity does not remove the literal James clause. The accounts remain unequated; no parent replacement, alias, stepfather, new person or confidence change is inferred. No mother or 1767 prisoner identity is established. Three derivatives of one event are not independent witnesses. Original register uninspected; no new person, vital adoption, attachment or assessment change.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BAP_4474348.json",
+          "receipt_sha256": "c34ac4d8f694ac7cdfb4866071ffc486408d39920bbbf9ed6b944d182561de52"
+        },
+        "SCOT/OPR/BAP/4476061": {
+          "canonical_record_id": "fmp-record-scot-opr-bap-4476061",
+          "status": "Inspected derivative; held named event matched, existing adult candidate identity HOLD",
+          "profiles": {
+            "Glasgow-3165": {
+              "role": "Existing weak child-to-Deanfoot adult comparison only; held event identified through named companions, no baptism or parents assigned",
+              "timeline_group": "Records for identity comparison"
+            }
+          },
+          "assessment": "Unnamed Glasgow child baptised 6 May 1750 at Kirknewton & East Calder, father Andrew Glasgow, mother Isabel with no surname; OPR 690/2 item 2, range 1642–1764. Held R_686207645 and R_691904464 name child Andrew and mother Isabel Clerk with the same exact baptism day, parish and father; only R_686207645 additionally gives Kirknewton residence. The new detailed receipt does not supply the child name, maternal Clerk surname, residence or exact birthday. These are companion renderings of the held event, not independent witnesses or an extra child. [Glasgow-3165](/people/glasgow-3165.html) remains an existing weak compatible candidate: estimated circa 1760 birth differs but does not exclude; no Deanfoot adult family/estate/occupation bridge is established. [Glasgow-1336](/people/glasgow-1336.html) and [Clerk-314](/people/clerk-314.html) are possible adult-parent comparisons only, not parents adopted for 3165 or proved by this receipt. No vital, parent, family, grade or natal-identity change; original uninspected.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BAP_4476061.json",
+          "receipt_sha256": "666149b9999aed30a888b4d45751866c8b1eacd75875d94dab9e6d737d7b9dd7"
+        },
+        "GBPRS/LANARKSHIRE/BUR/020567": {
+          "canonical_record_id": "fmp-record-gbprs-lanarkshire-bur-020567",
+          "status": "Inspected derivative transcript; named subject, identity HOLD; no profile event assignment",
+          "profiles": {},
+          "assessment": "The Notes name Janet GLASGOW in “Recd for Mortcloth for Janet GLASGOW”, although First name(s) is a dash. The transcript labels 9 January 1774 as burial at Symington, Lanarkshire; the payment wording leaves the original transaction-versus-burial meaning to be checked. Death is indexed only as “? ? 1774”; no exact death day, age, residence or relative is supplied. Mortcloth price is literally “1.16 00”. Glasgow is the recorded surname, without an explicit birth-surname statement. Identity remains HOLD. [Janet Glasgow-4130](/people/glasgow-4130.html), born before 22 April 1718 at Libberton, is a priority compatible regional comparison; the transcript supplies no family or residence bridge. [Janet Glasgow-1329](/people/glasgow-1329.html), born before 18 August 1751 at West Calder, remains a weaker compatible comparison. [Janet Glasgow-2655](/people/glasgow-2655.html), estimated born about 1758 in Lanarkshire and associated with William Smith, remains conditional: her inherited estimated death about 1850 conflicts with 1774 but is not a decisive exclusion without the cited Robert Smith death certificate or a reliable dated later-life record. No event, death date or family is assigned to any candidate; their existing relationships and confidence grades are unchanged. Next: inspect the original mortcloth entry and adjacent headings for date meaning, payer, age, residence or household relationship. Compare those details with the Libberton/West Calder families, and inspect the Robert Smith death certificate for the chronology of Glasgow-2655. Missing corroboration or uncertain estimated dates do not justify a new person. Original register uninspected; this is an inspected provider derivative, not an independent original reading.",
+          "receipt_path": "tmp/fmp-pages36-40-20261104/GBPRS_LANARKSHIRE_BUR_020567.json",
+          "receipt_sha256": "8731c62749e7fd69bae86d82bd5012616c02397101dd221271aec68d6d4756ea"
+        }
+      },
+      "receipt_metadata": [
+        {
+          "provider_id": "SCOT/OPR/BUR/1610273",
+          "path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1610273.json",
+          "sha256": "34c6c8c4748ee29ef730d0139fbdcd27d7eb5fa2ac536c027d4f80f989bcfc1c",
+          "captured_at": "2026-11-04T11:32:30.931Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/1448478",
+          "path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_1448478.json",
+          "sha256": "d61e6e88cef1cd1e80656d285e9a8ed1eb2b7e7931504149390d58cdc0326786",
+          "captured_at": "2026-11-04T11:32:33.917Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/0255429",
+          "path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_0255429.json",
+          "sha256": "220b967d7888589ade3e4a77cbe8059a9cff1131f6a674cb32af0093e7a48872",
+          "captured_at": "2026-11-04T11:32:35.563Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/0998339",
+          "path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BUR_0998339.json",
+          "sha256": "96935bb078eeedb70bd44d6b5b69f8595c2e4ac2776674df9790951a9386a161",
+          "captured_at": "2026-11-04T11:32:37.549Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4474348",
+          "path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BAP_4474348.json",
+          "sha256": "c34ac4d8f694ac7cdfb4866071ffc486408d39920bbbf9ed6b944d182561de52",
+          "captured_at": "2026-11-04T11:32:32.112Z"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4476061",
+          "path": "tmp/fmp-pages36-40-20261104/SCOT_OPR_BAP_4476061.json",
+          "sha256": "666149b9999aed30a888b4d45751866c8b1eacd75875d94dab9e6d737d7b9dd7",
+          "captured_at": "2026-11-04T11:32:36.550Z"
+        },
+        {
+          "provider_id": "GBPRS/LANARKSHIRE/BUR/020567",
+          "path": "tmp/fmp-pages36-40-20261104/GBPRS_LANARKSHIRE_BUR_020567.json",
+          "sha256": "8731c62749e7fd69bae86d82bd5012616c02397101dd221271aec68d6d4756ea",
+          "captured_at": "2026-11-04T11:03:06.506Z"
+        }
+      ],
+      "public_mapping_checks": [
+        {
+          "provider_id": "SCOT/OPR/BUR/1610273",
+          "source_id": "s-b4814a3240d76757",
+          "path": "www/sources/s-b4814a3240d76757/index.html",
+          "sha256": "e82f94ce549d9391be20bd3922f188ec4c5d7383459fda648dccba3b343764d6"
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/1448478",
+          "source_id": "s-748c66dad781edf1",
+          "path": "www/sources/s-748c66dad781edf1/index.html",
+          "sha256": "261a23fe489dad00b9cdd17ec7a5742ae4f33a5468b6e50f8f1eb955b68fbe4c"
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/0255429",
+          "source_id": "s-2e76ec827a26409d",
+          "path": "www/sources/s-2e76ec827a26409d/index.html",
+          "sha256": "4083de7000515e4355b533e413c9d957f24370c68e6c9409c9da19c8ed00f1bd"
+        },
+        {
+          "provider_id": "SCOT/OPR/BUR/0998339",
+          "source_id": "s-01f7bed7f85f3ae5",
+          "path": "www/sources/s-01f7bed7f85f3ae5/index.html",
+          "sha256": "0a35318db0b37a001eaddf655805f262f54ab9511cff9f7bbd86072843a0aadd"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4474348",
+          "source_id": "s-1686465ed6f5a243",
+          "path": "www/sources/s-1686465ed6f5a243/index.html",
+          "sha256": "4759300801abaf484b9231c68ab055f0d31317839e254217a14dcc7ec2ab394a"
+        },
+        {
+          "provider_id": "SCOT/OPR/BAP/4476061",
+          "source_id": "s-0c9af52c351290c6",
+          "path": "www/sources/s-0c9af52c351290c6/index.html",
+          "sha256": "a1f5d74d984e54a03ad11b9129bf61d54a1c0b9785f34b6794e3a51607ec846b"
+        },
+        {
+          "provider_id": "GBPRS/LANARKSHIRE/BUR/020567",
+          "source_id": "s-dfff8e5e3f3a8647",
+          "path": "www/sources/s-dfff8e5e3f3a8647/index.html",
+          "sha256": "2c3264e16e04decb52185d2e3c3422b49b204f6ccdb0ad1fa1efd449372b1932"
+        }
+      ],
+      "canonical_entries": 7,
+      "source_defined_event_groups": 6,
+      "new_full_receipt_captures_this_finalization": 0,
+      "capture_basis": "Six recovered full receipts and Janet 1774 receipt were already captured/counted before this integration; do not add 7 new captures or recount held named companions.",
+      "main_query_rows_reviewed": 760,
+      "search_rows_captured": 840,
+      "out_of_sequence_reviewed_provider_ids": [
+        "SCOT/OPR/BUR/0998339"
+      ],
+      "remaining_pages39_42_saved_receipts_pending_review": 79,
+      "page38_pending_historical_integration_count": 0,
+      "page38_new_historical_receipts_integrated": 14,
+      "page38_remaining_minimal_eligibility_gaps": [
+        "US/BMD/BILLION/006233074",
+        "US/BMD/BILLION/012951776",
+        "US/BMD/BILLION/012757984"
+      ],
+      "new_people": 0,
+      "vital_adoptions": 0,
+      "relationship_changes": 0,
+      "confidence_changes": 0,
+      "assessment_basis_corrections": [
+        {
+          "assertion_id": "C-coverage-20261022g-glasgow-1445-father",
+          "subject_id": "Glasgow-1445",
+          "relative_id": "Glasgow-1547",
+          "previous_revision": 2,
+          "new_revision": 3,
+          "status_before": "possible",
+          "status_after": "possible",
+          "probability_percent_before": 57,
+          "probability_percent_after": 57,
+          "correction": "Replace stale no-parents-quoted rationale with explicit James father in 1735 and Andrew father in 1772 proposed adult-identity conflict; retain all other state/source history.",
+          "authority_view": "research/relationship_assessments.json",
+          "authority_view_sha256": "09e0420cb1297c3f226fd2fc819c001b70e1edf5d78eddaa42e2f137887066a6",
+          "current_basis": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment.",
+          "revision_transition_provenance": "Root official assessment/proposal apply; helper checks generated status/probability/current reason only and performs no assessment write."
+        }
+      ],
+      "assessment_basis_correction_count": 1,
+      "integration_plan": {
+        "path": "tmp/fmp-pages36-40-20261104/page38-recovered-integration-plan-v2.json",
+        "sha256": "c7ed387b7d1fb03c46329ba98cc3208680b1cef20ee59963cb37753f0bd514a8"
+      },
+      "page_or_goal_complete": false,
+      "superseded_editorial_passages": [
+        {
+          "path": "tools/study_stories/early-scottish-records.json",
+          "body_index": 175,
+          "previous_text": "Page 38 partial source review, 4 November 2026: six Edinburgh burial derivatives form three unnamed companion pairs. Their reported roles and unknown ages remain explicit. A supplementary Kirknewton derivative matches [John Glasgow-3581](/people/glasgow-3581.html) through named companions for his existing 18 May 1755 baptism. The 1770 West Calder derivative remains a candidate for [Agnes Glasgow-3406](/people/glasgow-3406.html): its mother Agnes field conflicts with the held child Agnes/mother Margaret Mill readings. Existing 82% and 81% father assessments are unchanged. Original magazine inspection confirms that the Boyd Glasgow/Betty Ross result refers to the Earl’s title, rather than a Glasgow birth surname. The old access holds were incorrectly labelled subscription denials: their raw redirects show daily limits, and one fresh-allowance attempt recovered all six transcripts. Eight new provider entries are indexed; Janet’s 1774 Symington mortcloth account and five recovered page 38 entries still need catalogue reconciliation. Three undated probes remain scope gaps, and two held receipts are reused. Another 80 saved receipts from pages 39–42 await reconciliation. Coverage remains INCOMPLETE: 760 of 5,872 query rows have reviewed dispositions and 840 rows are captured. These counts cover one query, not the whole research goal; no new people or vital or relationship changes are proposed."
+        }
+      ],
+      "verification_report": "research/findmypast-glasgow-audit/page38-recovered-verification-2026-11-04.json"
     }
   }
 }

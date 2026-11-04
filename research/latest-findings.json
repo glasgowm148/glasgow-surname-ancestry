@@ -68606,6 +68606,62 @@
         "tmp/fmp-pages36-40-20261104/page38-3406-drafts/canonical-row.json"
       ],
       "detail_url": "/people/glasgow-3581.html"
+    },
+    {
+      "id": "fmp-recovered-detail-source-review-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Recovered detailed baptism indexes are reconciled with their already-held named companion events; unnamed burial and mortcloth subjects retain explicit identity limits.",
+      "qualification": "This is a source-level detail review, not newly named people, a new family connection or a confidence upgrade. The 1735 baptism event matches Robert Glasgow-1445 through held named companions and literally names father James. The 1772 Robert miller account names father Andrew: identifying that later man with this child entails a real recorded father-name conflict. Uncertainty about which adult James profile is meant does not erase the recorded James name or make it Andrew. No alias, stepfather, parent replacement or new person is inferred; the existing 57% adult-father assessment is unchanged. The 1750 event is already named Andrew in held companions, but Andrew of Deanfoot remains only a weak compatible candidate; no parents or birthday are adopted. Four recovered unnamed burial entries and Janet’s 1774 mortcloth wording remain qualified source accounts. Original registers remain uninspected.",
+      "people": [
+        {
+          "id": "Glasgow-1445",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1445.html"
+        },
+        {
+          "id": "Glasgow-3165",
+          "name": "Andrew Glasgow Esq",
+          "url": "/people/glasgow-3165.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Parish Births & Baptisms 1564-1929 — unnamed Glasgow child, father James Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4474348"
+        },
+        {
+          "title": "Scotland, Parish Births & Baptisms 1564–1929 — unnamed Glasgow child, 6 May 1750",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476061"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow, child of Robert Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1610273"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow, child of John Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1448478"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow, child of John Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0255429"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Unnamed Glasgow daughter of Mr John Glasgow",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F0998339"
+        },
+        {
+          "title": "Scotland, Parish Deaths & Burials 1564-2017 — Janet Glasgow, Symington mortcloth entry",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FLANARKSHIRE%2FBUR%2F020567"
+        }
+      ],
+      "source_paths": [
+        "research/Glasgow-1445/findings.md",
+        "research/Glasgow-3165/findings.md",
+        "research/findmypast-glasgow-audit/page38-recovered-proposal-preservation-2026-11-04.json"
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
     }
   ]
 }

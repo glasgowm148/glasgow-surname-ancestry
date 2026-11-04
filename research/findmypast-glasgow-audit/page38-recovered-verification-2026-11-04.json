@@ -1,0 +1,170 @@
+{
+  "scope": "Local page38 recovered publication only; no production deployment or live WikiTree claim",
+  "plan_sha256": "c7ed387b7d1fb03c46329ba98cc3208680b1cef20ee59963cb37753f0bd514a8",
+  "passed": true,
+  "checks": [
+    {
+      "check": "optional_assessment_basis_only_correction",
+      "passed": true,
+      "detail": {
+        "claim_id": "clm-785d0c92c5d5e612",
+        "before_revision": 2,
+        "after_revision": 3,
+        "semantic_state_unchanged": true,
+        "old_revision_retained": true,
+        "source_document_ids_checked": 3
+      }
+    },
+    {
+      "check": "seven_canonical_rows_source_readers_and_held_companions",
+      "passed": true,
+      "detail": {
+        "selected_rows": 7,
+        "actual_source_readers": 7,
+        "source_only_rows_without_people": 5,
+        "unchanged_named_companions": 4
+      }
+    },
+    {
+      "check": "actual_baseline_and_current_database_resolver",
+      "passed": true,
+      "detail": {
+        "proposal_subjects": 2,
+        "vitals_unchanged": true,
+        "relationships_resolved_from_current_DB": true,
+        "approved_basis_metadata_correction": true,
+        "reciprocal1547_checked": true
+      }
+    },
+    {
+      "check": "complete_public_native_proposals_and_preserved_pending_work",
+      "passed": true,
+      "detail": {
+        "complete_proposals": 2,
+        "prior_sources_and_pending_amendments_preserved": true,
+        "new_3165_native_entry_preserves_existing_public_work": true
+      }
+    },
+    {
+      "check": "new_dated_finding_visible",
+      "passed": true,
+      "detail": {
+        "visible_findings": 1,
+        "no_relationship_improvement_claim": true
+      }
+    },
+    {
+      "check": "actual_catalogue_filter_flags",
+      "passed": true,
+      "detail": {
+        "selected_people_full_fast_hydrated": 2,
+        "detail_shards_read": 2
+      }
+    }
+  ],
+  "reviewed_on": "2026-11-04",
+  "coverage": {
+    "status": "INCOMPLETE",
+    "contiguous_query_rows_reviewed": 760,
+    "additional_out_of_sequence_result_rows_reviewed": 1,
+    "query_result_rows_accounted_for": 761,
+    "query_rows_captured": 840,
+    "query_displayed_results": 5872,
+    "bounded_indexed_provider_ids": 838,
+    "literal_indexed": 783,
+    "supporting_indexed": 53,
+    "search_only_holds": 2,
+    "page38_historical_indexable_entries_integrated": 14,
+    "page38_minimal_eligibility_gaps": 3,
+    "remaining_pages39_42_saved_receipts": 79,
+    "scope_limit": "Counts concern saved query dispositions and the bounded audit cohort, not proof that all birth windows, variants, categories or identities are complete.",
+    "current_pages38_42_newly_indexed_entries": 15
+  },
+  "batch": {
+    "newly_indexed_provider_entries": 7,
+    "source_defined_event_groups": 6,
+    "full_existing_proposals_updated": 2,
+    "reciprocal_model_refreshed": "Glasgow-1547",
+    "new_people": 0,
+    "vital_adoptions": 0,
+    "confidence_changes": 0,
+    "assessment_basis_corrections": 1
+  },
+  "assessment_basis_corrections": [
+    {
+      "assertion_id": "C-coverage-20261022g-glasgow-1445-father",
+      "subject_id": "Glasgow-1445",
+      "relative_id": "Glasgow-1547",
+      "previous_revision": 2,
+      "new_revision": 3,
+      "status_before": "possible",
+      "status_after": "possible",
+      "probability_percent_before": 57,
+      "probability_percent_after": 57,
+      "correction": "Replace stale no-parents-quoted rationale with explicit James father in 1735 and Andrew father in 1772 proposed adult-identity conflict; retain all other state/source history.",
+      "authority_view": "research/relationship_assessments.json",
+      "authority_view_sha256": "09e0420cb1297c3f226fd2fc819c001b70e1edf5d78eddaa42e2f137887066a6",
+      "current_basis": "The held named 13 February 1735 Kirknewton and East Calder derivatives explicitly identify Robert and father James Glasgow; the recovered unnamed-child derivative agrees on date, parish and father (OPR 689/20, item 1). The former limitation that no parents were quoted is superseded. Which adult James is meant remains uncertain: the record-defined name, compatible generation and locality do not uniquely identify Glasgow-1547, so the complete adult-father proposition remains Possible at 57%. The 1772 notice names its Robert as son of Andrew Glasgow, miller at Calder. James in 1735 versus Andrew in 1772 is a recorded father-name conflict for identifying those two Roberts; uncertainty about the modern James profile does not erase the literal James name. No alias, stepfather, parent replacement or additional child is inferred. The indexes describe one baptism, not independent witnesses; original registers remain uninspected. This revision corrects the explanation and source basis without changing the rating or family attachment.",
+      "revision_transition_provenance": "Root official assessment/proposal apply; helper checks generated status/probability/current reason only and performs no assessment write."
+    }
+  ],
+  "source_readers": [
+    {
+      "provider_id": "SCOT/OPR/BUR/1610273",
+      "source_id": "s-b4814a3240d76757",
+      "path": "www/sources/s-b4814a3240d76757/index.html",
+      "sha256": "e82f94ce549d9391be20bd3922f188ec4c5d7383459fda648dccba3b343764d6"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/1448478",
+      "source_id": "s-748c66dad781edf1",
+      "path": "www/sources/s-748c66dad781edf1/index.html",
+      "sha256": "261a23fe489dad00b9cdd17ec7a5742ae4f33a5468b6e50f8f1eb955b68fbe4c"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/0255429",
+      "source_id": "s-2e76ec827a26409d",
+      "path": "www/sources/s-2e76ec827a26409d/index.html",
+      "sha256": "4083de7000515e4355b533e413c9d957f24370c68e6c9409c9da19c8ed00f1bd"
+    },
+    {
+      "provider_id": "SCOT/OPR/BUR/0998339",
+      "source_id": "s-01f7bed7f85f3ae5",
+      "path": "www/sources/s-01f7bed7f85f3ae5/index.html",
+      "sha256": "0a35318db0b37a001eaddf655805f262f54ab9511cff9f7bbd86072843a0aadd"
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/4474348",
+      "source_id": "s-1686465ed6f5a243",
+      "path": "www/sources/s-1686465ed6f5a243/index.html",
+      "sha256": "4759300801abaf484b9231c68ab055f0d31317839e254217a14dcc7ec2ab394a"
+    },
+    {
+      "provider_id": "SCOT/OPR/BAP/4476061",
+      "source_id": "s-0c9af52c351290c6",
+      "path": "www/sources/s-0c9af52c351290c6/index.html",
+      "sha256": "a1f5d74d984e54a03ad11b9129bf61d54a1c0b9785f34b6794e3a51607ec846b"
+    },
+    {
+      "provider_id": "GBPRS/LANARKSHIRE/BUR/020567",
+      "source_id": "s-dfff8e5e3f3a8647",
+      "path": "www/sources/s-dfff8e5e3f3a8647/index.html",
+      "sha256": "2c3264e16e04decb52185d2e3c3422b49b204f6ccdb0ad1fa1efd449372b1932"
+    }
+  ],
+  "gates": {
+    "research_publication_subjects": 3,
+    "research_publication_new_failures": 0,
+    "workbench_views_matching": 340,
+    "internal_links_new_pairs": 0,
+    "existing_baseline_link_pairs": 4,
+    "remaining_asset_mismatches": [
+      0,
+      0
+    ],
+    "new_source_routes_in_sitemap": 7,
+    "ingest_tests_passed": 44
+  },
+  "publication": "Local only; no push, deployment or live WikiTree save",
+  "next_action": "Reinspect SCOT/OPR/BAP/4360754 and SCOT/OPR/BAP/4602371 once under the fresh allowance: saved raw receipts prove daily limits, not subscription denials; reuse existing canonical/source IDs. Then reconcile the 79 saved receipts from pages39–42, retaining all unresolved birth-surname and eligibility questions. No new person without concrete exclusions."
+}

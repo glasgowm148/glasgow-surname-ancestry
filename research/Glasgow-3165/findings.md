@@ -1,7 +1,17 @@
 # Findings: Glasgow-3165
 
 
-## Current conclusion — initial-only newspaper lead, 5 October 2026
+## Current conclusion
+
+Reviewed 4 November 2026. **The 6 May 1750 Kirknewton baptism event is identified, but its connection to Andrew Glasgow of Deanfoot remains unresolved.** The recovered detailed derivative indexes an unnamed Glasgow child, father Andrew Glasgow and mother Isabel (OPR 690/2, item 2). Two held named companions call the child Andrew and the mother Isabel Clerk, with the same exact date, parish and father. Those companion readings identify the already-held event; they are not newly supplied names in the detailed receipt or proof of an additional child.
+
+Glasgow-3165 remains a **weak compatible adult candidate**, with an estimated birth about 1760 and an uncertain November 1819 death field. The Deanfoot account cites the 1819 Blackwood's notice, but no inspected family, estate, occupation or residence record connects that adult to the 1750 child. The approximate ten-year birth discrepancy is a concern, not a decisive exclusion based on the unverified estimate. Neither the baptism nor its date is adopted for this profile; the current vital fields remain unchanged.
+
+[Andrew Glasgow-1336](https://www.wikitree.com/wiki/Glasgow-1336) and [Isobel Clerk-314](https://www.wikitree.com/wiki/Clerk-314) remain possible adult-parent comparisons for the recorded couple, independently of identifying the child with the Deanfoot adult. No parent, spouse or other relative is attached to Glasgow-3165, and no mother-profile identity is promoted. The initial-only A. Glascow in the 1794 shipping report does not identify this man, establish a maritime occupation, or supply the missing childhood bridge. Its prior comparisons and withdrawal remain below as dated history.
+
+Sources: [detailed OPR derivative SCOT/OPR/BAP/4476061](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476061), inspected 4 November 2026; [R_686207645](https://www.findmypast.co.uk/transcript?id=R_686207645&tab=this) and [R_691904464](https://www.findmypast.co.uk/transcript?id=R_691904464&tab=this), inspected 22 October 2026. These are renderings of one baptism, not independent witnesses or an exact birth record. The original register is uninspected; no new person, vital fact or family assessment follows. The useful next tests are the original parish entry and an independent Deanfoot family or estate source.
+
+## Earlier conclusion — initial-only newspaper lead, 5 October 2026, retained history
 
 This is a weak chronological candidate for A. Glascow in a June 1794 Dutch shipping report. Chronologically adult in 1794, with a later reported Scottish death. The captured public profile cites an October 1819 Blackwood’s Magazine result but supplies no occupation or event bridge. The title ‘Esq’ is not maritime evidence. No forename expansion, maritime occupation, migration or family relationship is established for this profile.
 
@@ -52,3 +62,15 @@ HOLD — Rothesay OPR 558/2 item 4 p.92 gives Andrew Glasgow born 6 Jun 1793, ba
 
 [Shared record account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800). Identity comparisons do not assign events or alter family attachments.
 <!-- END FMP-BIRTH-SCOPE-PAGES4-6-20261023 -->
+
+<!-- BEGIN FMP-PAGE38-RECOVERED-Glasgow-3165-20261104 -->
+## Recovered Kirknewton baptism detail — 4 November 2026
+
+The [newly recovered detailed OPR derivative](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4476061) records an unnamed Glasgow child baptised 6 May 1750 at Kirknewton and East Calder, father Andrew Glasgow, mother Isabel without surname, OPR 690/2 item 2. It contains no separate birth date. The missing name does not define another child.
+
+The already-held [R_686207645](https://www.findmypast.co.uk/transcript?id=R_686207645&tab=this) and [R_691904464](https://www.findmypast.co.uk/transcript?id=R_691904464&tab=this) explicitly name child Andrew and mother Isabel Clerk, with the same date, parish and father. Only the former adds Kirknewton residence. This matches the held documentary event, not the Deanfoot adult. Child Andrew and maternal Clerk are reused companion readings, not newly read fields in the detailed receipt. The derivatives are not independent corroboration; baptism-derived 1750 does not establish an exact birthday.
+
+Glasgow-3165 remains the existing weak adult candidate. Current birth about 1760 is estimated and differs by ten years; current November 1819 Peeblesshire death remains uncertain, with the Deanfoot account supported by the existing Blackwood's citation. No family, estate, occupation or residence bridge links that adult to the 1750 child. The separate initial-only shipping comparison does not prove this identity. Keep the full earlier narrative and its distinct sources; no birth, baptism, death or relationship is adopted.
+
+The recorded father and mother may be compared separately with [Andrew Glasgow-1336](https://www.wikitree.com/wiki/Glasgow-1336) and [Isobel Clerk-314](https://www.wikitree.com/wiki/Clerk-314), but their adult identities and this child's later life are separate unresolved claims. No parent is attached and no existing grade changes. The original entry and an independent Deanfoot family or estate source could discriminate the candidate; no new person is justified merely because the adult bridge is missing.
+<!-- END FMP-PAGE38-RECOVERED-Glasgow-3165-20261104 -->
