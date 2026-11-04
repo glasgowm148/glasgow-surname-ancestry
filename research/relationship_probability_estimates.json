@@ -22489,12 +22489,13 @@
       "percent": 74,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3485-father",
-      "basis": "Marion’s specific 1751 Kirknewton index fits James/Katharine Rule’s family and a plausible paternal age about 21. The father’s 1730 date appears estimated, but no record parents are reproduced.",
+      "basis": "Correction, 4 November 2026: the Ancestry Scotland, Burial Monument Inscriptions transcript (Kirknewton churchyard: Marion Glasgow, daughter to James Glasgow, tenant in Newton, died 20 July 1774 aged 23) is a further copy of the same stone already reviewed on 25 October 2026 from its Findmypast transcript, when the link was kept at 74%. A correlated copy is not independent evidence, so the same-day 88% revision is withdrawn and the earlier assessment is restored. Marion's specific 1751 Kirknewton baptism names James Glasgow and Katharine Rule and fits James-3486's family with a plausible paternal age about 21; the inscription agrees on her father's forename, parish and her age.",
       "source_ids": [
-        "held-e-fd931ebf9790"
+        "held-e-fd931ebf9790",
+        "ancestry-62497-348551"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-04",
+      "scope": "Complete selected father-profile proposition. The inscription does not name her mother or independently identify its James with James-3486 beyond name, parish and chronology; James's 1730 birth remains estimated. Original register and stone image uninspected. No mother change follows."
     },
     {
       "subject_id": "Glasgow-3486",
@@ -22503,12 +22504,13 @@
       "percent": 74,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3485-father",
-      "basis": "Marion’s specific 1751 Kirknewton index fits James/Katharine Rule’s family and a plausible paternal age about 21. The father’s 1730 date appears estimated, but no record parents are reproduced.",
+      "basis": "Correction, 4 November 2026: the Ancestry Scotland, Burial Monument Inscriptions transcript (Kirknewton churchyard: Marion Glasgow, daughter to James Glasgow, tenant in Newton, died 20 July 1774 aged 23) is a further copy of the same stone already reviewed on 25 October 2026 from its Findmypast transcript, when the link was kept at 74%. A correlated copy is not independent evidence, so the same-day 88% revision is withdrawn and the earlier assessment is restored. Marion's specific 1751 Kirknewton baptism names James Glasgow and Katharine Rule and fits James-3486's family with a plausible paternal age about 21; the inscription agrees on her father's forename, parish and her age.",
       "source_ids": [
-        "held-e-fd931ebf9790"
+        "held-e-fd931ebf9790",
+        "ancestry-62497-348551"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-04",
+      "scope": "Complete selected father-profile proposition. The inscription does not name her mother or independently identify its James with James-3486 beyond name, parish and chronology; James's 1730 birth remains estimated. Original register and stone image uninspected. No mother change follows."
     },
     {
       "subject_id": "Glasgow-1329",
@@ -46485,6 +46487,124 @@
       "profile_names": {
         "Brash-171": "Margaret Brash",
         "Glasgow-2822": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-810",
+      "relative_id": "record-ancestry-glasgow-0c9011a8adf0",
+      "relationship": "father",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-jean810-father-20261104",
+      "basis": "The Ancestry Scotland, Select Marriages index entry for 5 March 1754 at Falkirk records Jean Glasgow marrying John and names her father as George Glasgow. Jean Glasgow-810's account already gives exactly this marriage: 5 March 1754, to John Renny, writer and later bailie of Falkirk, whose 1809 estate settlement names their daughters. Date, parish and the husband's forename all agree, so the bride is very probably Jean-810. Her previously unknown father is therefore attached as George Glasgow, the record-defined draft record-ancestry-glasgow-0c9011a8adf0, at 80% probable.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "ancestry-60144-1933642"
+      ],
+      "scope": "Search-result index row only: relatives appear as forenames, so the father's surname is inferred from the bride's, and reading George as her father follows the collection's father-then-spouse pattern confirmed by full parent rows elsewhere in the same index (for example record 1009144). The original Falkirk register entry has not been inspected, and Ancestry's index shares its Old Parish Register indexing with other providers, so their copies are not independent. No existing catalogue George fits Falkirk: George-1058 (Kilwinning), George-3966 (Ireland), George-4165 (Irvine) and the 1724 court-file George remain unexcluded comparisons, not identifications, and the draft is not merged with any of them. Jean's birth about 1733 is an estimate from the marriage. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-810.html#research-findings",
+          "label": "Ancestry marriage index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-810": "Jean Glasgow",
+        "record-ancestry-glasgow-0c9011a8adf0": "George Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-0c9011a8adf0",
+      "relative_id": "Glasgow-810",
+      "relationship": "child",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-jean810-father-20261104",
+      "basis": "The Ancestry Scotland, Select Marriages index entry for 5 March 1754 at Falkirk records Jean Glasgow marrying John and names her father as George Glasgow. Jean Glasgow-810's account already gives exactly this marriage: 5 March 1754, to John Renny, writer and later bailie of Falkirk, whose 1809 estate settlement names their daughters. Date, parish and the husband's forename all agree, so the bride is very probably Jean-810. Her previously unknown father is therefore attached as George Glasgow, the record-defined draft record-ancestry-glasgow-0c9011a8adf0, at 80% probable.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "ancestry-60144-1933642"
+      ],
+      "scope": "Search-result index row only: relatives appear as forenames, so the father's surname is inferred from the bride's, and reading George as her father follows the collection's father-then-spouse pattern confirmed by full parent rows elsewhere in the same index (for example record 1009144). The original Falkirk register entry has not been inspected, and Ancestry's index shares its Old Parish Register indexing with other providers, so their copies are not independent. No existing catalogue George fits Falkirk: George-1058 (Kilwinning), George-3966 (Ireland), George-4165 (Irvine) and the 1724 court-file George remain unexcluded comparisons, not identifications, and the draft is not merged with any of them. Jean's birth about 1733 is an estimate from the marriage. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-810.html#research-findings",
+          "label": "Ancestry marriage index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-810": "Jean Glasgow",
+        "record-ancestry-glasgow-0c9011a8adf0": "George Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-895",
+      "relative_id": "record-ancestry-glasgow-c615b38b160b",
+      "relationship": "father",
+      "percent": 55,
+      "assessment_status": "possible",
+      "assertion_id": "clm-ancestry-susanna895-father-20261104",
+      "basis": "The Ancestry Scotland, Select Marriages index records Susan Glasgow marrying John on 17 July 1826 at St Cuthbert's, Edinburgh, and a separate parent row in the same index names William Glasgow as father of Susan Glasgow. Susanna (Glasgow) McIntosh-895's account gives the same marriage, to John McIntosh on 17 July 1826 at St Cuthbert's, so the bride identity is strong. William Glasgow, the record-defined draft record-ancestry-glasgow-c615b38b160b, is added as her possible father at 55%.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "ancestry-60144-1009146",
+        "ancestry-60144-1009144"
+      ],
+      "scope": "Her biography instead calls her the daughter of Colin Glasgow and Margaret Fraser of Clackmannan, without a cited source (perhaps family tradition or her 1862 New South Wales death registration, which has not been inspected). The two named fathers conflict and neither is excluded: the contemporary marriage index is preferred, but held at possible because of that conflict. Search-result and parent index rows only; the original St Cuthbert's register is uninspected. No catalogue William is identified with the draft; William-2965, William-563, William-2130 and others remain unexcluded comparisons. No Colin profile is created and no mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-895.html#research-findings",
+          "label": "Ancestry marriage index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-895": "Susanna (Glasgow) McIntosh",
+        "record-ancestry-glasgow-c615b38b160b": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-c615b38b160b",
+      "relative_id": "Glasgow-895",
+      "relationship": "child",
+      "percent": 55,
+      "assessment_status": "possible",
+      "assertion_id": "clm-ancestry-susanna895-father-20261104",
+      "basis": "The Ancestry Scotland, Select Marriages index records Susan Glasgow marrying John on 17 July 1826 at St Cuthbert's, Edinburgh, and a separate parent row in the same index names William Glasgow as father of Susan Glasgow. Susanna (Glasgow) McIntosh-895's account gives the same marriage, to John McIntosh on 17 July 1826 at St Cuthbert's, so the bride identity is strong. William Glasgow, the record-defined draft record-ancestry-glasgow-c615b38b160b, is added as her possible father at 55%.",
+      "reviewed": "2026-11-04",
+      "source_ids": [
+        "ancestry-60144-1009146",
+        "ancestry-60144-1009144"
+      ],
+      "scope": "Her biography instead calls her the daughter of Colin Glasgow and Margaret Fraser of Clackmannan, without a cited source (perhaps family tradition or her 1862 New South Wales death registration, which has not been inspected). The two named fathers conflict and neither is excluded: the contemporary marriage index is preferred, but held at possible because of that conflict. Search-result and parent index rows only; the original St Cuthbert's register is uninspected. No catalogue William is identified with the draft; William-2965, William-563, William-2130 and others remain unexcluded comparisons. No Colin profile is created and no mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-895.html#research-findings",
+          "label": "Ancestry marriage index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-895": "Susanna (Glasgow) McIntosh",
+        "record-ancestry-glasgow-c615b38b160b": "William Glasgow"
       }
     },
     {
