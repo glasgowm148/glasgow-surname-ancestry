@@ -68446,6 +68446,36 @@
           "url": "https://www.ncgenweb.us/currituck/deeds/db02.html"
         }
       ]
+    },
+    {
+      "id": "fmp-manchester-original-death-day-correction-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An original Manchester death notice reports William Glasgow’s death on 5 April 1848; 12 April is its publication date, despite the derivative index repeating that day as death.",
+      "qualification": "The original Manchester Courier and Lancashire General Advertiser notice, 12 April 1848, printed page 240 (viewer page 6), Deaths column 1, calls him an ironfounder and engineer, aged 66, residing at Great Bridgewater-street, Manchester. William Glasgow-3545 is a compatible comparison without an independent occupation or address bridge. No wife or parent is named. Burial indexes with generic dates 5/8 April and age 64 remain unresolved; this notice does not establish a burial date or exact birth. No person, relationship, profile vital adoption or confidence change follows. The licensed raw capture remains private.",
+      "people": [
+        {
+          "id": "Glasgow-3545",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3545.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Manchester Courier and Lancashire General Advertiser, 12 April 1848, printed page 240, Deaths column 1; original inspected 4 November 2026",
+          "url": "https://www.findmypast.co.uk/image-viewer?issue=BL%2F0000206%2F18480412&page=0006&article=049"
+        },
+        {
+          "title": "Derivative death-notice transcript with conflicting death/publication day",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_104260820296"
+        }
+      ],
+      "source_paths": [
+        "research/Glasgow-3545/findings.md",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/people/glasgow-3545.html"
     }
   ]
 }

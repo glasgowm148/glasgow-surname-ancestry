@@ -93,3 +93,11 @@ The retired-merchant occupation, locality and age in the 1883 death return make 
 
 In the 1858 Cookstown mill dispute, Benjamin Glasgow described a companion as “witness’s uncle, Mr. Glasgow, sen.”; identification as William belongs to the separate case context. Extending the uncle relationship to co-plaintiff William depends on the qualified brother inference. The original names Benjamin as witness; it does not directly call the senior man uncle of both plaintiffs.
 <!-- queue-record-integration-2026-10-17:end -->
+
+<!-- BEGIN FMP-PAGE36-20261104 Glasgow-3814 -->
+## Findmypast page 36 source review — 4 November 2026
+
+The new Irish death-index derivative matches the already-inspected William Glasgow civil return by name, age 87, Cookstown, July–September 1883 and printed page 300. It adds volume 1 and the exact provider receipt, not a new death date or independent witness. The held death remains 4 July 1883 at Loy. Merchant, retirement and uncle identifications retain their existing qualifications.
+
+[Inspected provider derivative](https://www.findmypast.co.uk/transcript?id=IRE%2FBMD%2FD%2F579147620). Transcript captured 4 November 2026; original register/index image not inspected in this batch. Existing complete proposed biography and distinct source citations are preserved.
+<!-- END FMP-PAGE36-20261104 Glasgow-3814 -->

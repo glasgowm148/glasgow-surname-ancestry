@@ -1,0 +1,90 @@
+{
+  "scope": "Post-publication local page36 verification only; no live deployment or WikiTree claim",
+  "plan_sha256": "df12a8fb831b59cbae118ffa7702f3d5f242429f79d54a0e07e2fbb3ddb89e54",
+  "baseline_sha256": "13499fdb2a2ab6a65770859a80406c2af57a37c9bf93f9d710ea8b4a85657a2a",
+  "passed": true,
+  "checks": [
+    {
+      "check": "selected_canonical_providers_and_source_readers",
+      "passed": true,
+      "detail": {
+        "canonical_rows": 21,
+        "selected_providers": 20,
+        "original_rows": 1,
+        "actual_source_readers": 21
+      }
+    },
+    {
+      "check": "complete_proposals_source_sets_and_unchanged_family",
+      "passed": true,
+      "detail": {
+        "complete_proposals": 15,
+        "exact_normalized_proposal_hashes": 15,
+        "source_sets_preserved": 15,
+        "vitals_unchanged": 15,
+        "relationships_equal_raw_baseline": 14,
+        "relationships_reconciled_to_unchanged_preexisting_authority": [
+          {
+            "parent": "Glasgow-1460",
+            "child": "Glasgow-1462",
+            "assertion_id": "C-coverage-20261022h-glasgow-1462-father",
+            "stale_public_probability": 0.89,
+            "approved_probability": 0.95,
+            "approved_date": "2026-11-01",
+            "authority_commit": "aeb14965e71cf6b79a1e07ba9bd4e369ebe866e4",
+            "classification": "Refresh of preexisting approved assessment; no page36 regrade"
+          },
+          {
+            "parent": "Glasgow-1460",
+            "child": "Glasgow-1461",
+            "assertion_id": "C-coverage-20261022h-glasgow-1461-father",
+            "stale_public_probability": 0.88,
+            "approved_probability": 0.95,
+            "approved_date": "2026-11-01",
+            "authority_commit": "aeb14965e71cf6b79a1e07ba9bd4e369ebe866e4",
+            "classification": "Refresh of preexisting approved assessment; no page36 regrade"
+          }
+        ],
+        "new_page36_vital_or_relationship_changes": 0
+      }
+    },
+    {
+      "check": "actual_full_fast_hydrated_filter_membership",
+      "passed": true,
+      "detail": {
+        "full_fast_rows": 4978,
+        "selected_full_fast_hydrated_people": 15,
+        "actual_detail_shards": 9,
+        "filter_flags": [
+          "missing_profile",
+          "needs_wikitree_update",
+          "has_profile"
+        ]
+      }
+    }
+  ],
+  "newly_indexed_derivative_provider_ids": 19,
+  "existing_public_source_reuses": 1,
+  "new_to_bounded_coverage_provider_ids": 20,
+  "original_notices_added": 1,
+  "complete_existing_person_proposals": 15,
+  "new_people": 0,
+  "new_vital_adoptions": 0,
+  "new_relationship_assessments": 0,
+  "indexed_provider_cohort": 819,
+  "literal_receipts": 764,
+  "supporting_ids": 53,
+  "subscription_holds": 2,
+  "query_rows_reviewed": 720,
+  "query_displayed_rows": 5872,
+  "coverage": "INCOMPLETE",
+  "publication_new_failures": 0,
+  "workbench_views": "340 of 340 generated views match authority",
+  "local_search": "QMD updated once; unrelated Glasgow-428 note correctly withheld after hash change",
+  "live_publication": false,
+  "next_step": "Page 37: four historical receipts saved; two existing-record matches and two source-only holds; four cached abstracts reused and twelve undated scope holds. A separately inspected Manchester estate notice awaits integration.",
+  "internal_links": {
+    "new_broken_pairs": 0,
+    "known_baseline_pairs": 4
+  }
+}

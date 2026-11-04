@@ -32,3 +32,11 @@ The original 1825 will explicitly names William among John’s children and give
 [Huntingdon County, Pennsylvania, Wills 1822–1847, volumes 3–4, register pp. 139–140; John Glasgow of Antis Township, will 21 January 1825, proved 12 March 1825; FamilySearch, Pennsylvania Probate Records, image 103 of 607. Original full page and both page details inspected 24 October 2026.](https://familysearch.org/ark:/61903/3:1:3QS7-L99B-T8NH?cc=1999196&wc=9PM6-7MN%3A268496101%2C268530601)
 
 [Father’s full family account](/people/glasgow-1549.html#research-findings). The private full-page capture is not published.
+
+<!-- BEGIN FMP-PAGE36-20261104 Glasgow-1552 -->
+## Possible Philadelphia death, 1855 — 4 November 2026
+
+A Findmypast transcript of the Philadelphia Board of Health Registers of Deaths records William Glasgow, aged 70, with death dated 25 March 1855. It describes the register as Burial, but supplies no separate burial day. Its indexed birth year of 1785 is calculated from the age, not an exact birthday. The parish and diocese are Philadelphia; the address field is blank. ([Findmypast transcript](https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FPENN-BUR%2F01460438); inspected provider derivative, 4 November 2026; original record or gravestone image uninspected.)
+
+This is a possible comparison for William’s Pennsylvania identity, not an assigned death record. His earlier account gives birth about 1781 and death about 1853; the more specific inherited death date is 7 February 1853. Those estimated dates have not been established by the 1825 will. Their differences from this transcript need investigation and do not by themselves exclude a match. The transcript names no relative, birthplace or occupation connecting the Philadelphia man to William, and no death date is changed. The original death entry may supply distinguishing details.
+<!-- END FMP-PAGE36-20261104 Glasgow-1552 -->

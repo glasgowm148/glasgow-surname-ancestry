@@ -57,3 +57,13 @@ Next useful test: Inspect the parish image for any unresolved day or spelling de
 This reviews an existing father; it adds no father attachment. The source basis and identity limits are stated above. The previous grade and its basis remain in the structured assessment history.
 
 Held source basis: [Findmypast, Scotland, Parish Births & Baptisms 1564-1929: William Glasgow, ? Nov 1747, record SCOT/OPR/BAP/3881440](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3881440&tab=this)
+
+<!-- BEGIN FMP-PAGE36-20261104 Glasgow-1124 -->
+## Possible Colinton death and burial, 1824 — 4 November 2026
+
+A Colinton transcript records William Glasgow of Hailes Quarry, aged 76, dying on 16 September 1824 and buried on 19 September. It gives a mortcloth charge of 5/-.
+
+This is a possible later record for William, whose November 1747 Covington and Thankerton baptism fits the reported age. If 76 is a completed age on 16 September 1824, it permits a birth between 17 September 1747 and 16 September 1748. The indexed birth year 1748 is calculated from age, rather than supplied by a birth record. No relative, occupation or other detail connects the Hailes Quarry man to the baptised child. The baptism's location and parents therefore remain separate from this adult comparison; neither death nor burial is assigned to William. Other compatible Williams remain possible. The original Colinton entry and a documented adult household or residence link are needed to resolve the identification.
+
+Source: [Colinton death and burial transcript](https://www.findmypast.co.uk/transcript?id=GBPRS%2FLOTHIAN%2FFHS%2FBUR%2F017711), Findmypast derivative inspected 4 November 2026; original uninspected. Colinton parish 677, book 6, page 14; death 16 September, burial 19 September 1824, age 76, Hailes Quarry, mortcloth 5/-.
+<!-- END FMP-PAGE36-20261104 Glasgow-1124 -->

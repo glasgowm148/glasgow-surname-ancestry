@@ -34,3 +34,11 @@ Role in this account: candidate father: profile birth 1783 uncertain and associa
 
 Dates retain their source roles: register ranges are not event dates, and a later-born child can supply evidence for an earlier Glasgow parent. Candidate links do not assign the event or parents to the candidate. Existing vital fields, family attachments and relationship grades are retained. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-CACHE-NEXT-20261023 -->
+
+<!-- BEGIN FMP-PAGE36-20261104 Glasgow-2876 -->
+## Possible Biggar memorial, 1873 — 4 November 2026
+
+A Findmypast Scotland Monumental Inscriptions transcript records William Glasgow, aged 89, death year 1873, at St Johns Kirk, Biggar, Lanarkshire. The indexed birth year of 1784 appears to derive from the age and death year; it is not an exact birthday. No exact death date is supplied. ([Findmypast transcript](https://www.findmypast.co.uk/transcript?id=GBPRS%2FSCOT%2FMIS%2F204969); inspected provider derivative, 4 November 2026; original record or gravestone image uninspected.)
+
+William’s uncertain 1783 birth and recorded death on 25 December 1873 are compatible with age 89. This remains a possible memorial comparison, not an identification. The cited Findagrave account and churchyard category associate him with Symington Churchyard, whereas the new transcript names St Johns Kirk, Biggar. The monument wording or image is needed to determine whether these describe the same man, different commemorations or different people. The transcript names no spouse or other relative. No cemetery, date or family field is changed.
+<!-- END FMP-PAGE36-20261104 Glasgow-2876 -->

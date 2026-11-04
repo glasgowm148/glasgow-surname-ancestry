@@ -4647,3 +4647,21 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Jane Elizabeth Glasgow Burdette](https://www.wikitree.com/wiki/Glasgow-802) | OPEN | Existing father James Glasgow-803 strengthened 51% to 96%; not a new father attachment. |
 | [James Thomas Glasgow](https://www.wikitree.com/wiki/Glasgow-803) | OPEN | Add Mary and Nancy as daughters; retain own 39% father and qualify 1778/1788 and 1848/1849 vital conflicts. |
 | [Margaret Morrow Glasgow](https://www.wikitree.com/wiki/Morrow-3682) | OPEN | Add Mary and Nancy as 94% confident daughters; maternal inference separate from the paternal will evidence. |
+
+## 4 November 2026 — page 36 source reconciliation
+
+| [Jean (Bryce) Glasgow](https://www.wikitree.com/wiki/Bryce-1075) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [Ann (Denham) Glasgow](https://www.wikitree.com/wiki/Denham-2159) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [Elizabeth (Dick) Glasgow](https://www.wikitree.com/wiki/Dick-6841) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1124) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1460) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [Peter Glasgow](https://www.wikitree.com/wiki/Glasgow-1466) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-1552) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2715) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2876) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-2965) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3545) | OPEN | Add original-notice death-day correction with identity HOLD; no profile death assigned. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3678) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3814) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [George Glasgow](https://www.wikitree.com/wiki/Glasgow-638) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |
+| [Charlotte (Unknown) Glasgow](https://www.wikitree.com/wiki/Unknown-695645) | OPEN | Add source-backed page 36 account and qualified record roles; retain existing vital and relationship assessments. |

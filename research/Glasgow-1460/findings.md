@@ -52,3 +52,11 @@ Dates retain their source roles: register ranges are not event dates, and a late
 ## Bathgate transcript comparison — 24 October 2026
 
 Findmypast [SCOT/OPR/BAP/4121535](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4121535&tab=this) reports John Glasgow, birth date 29 June 1783, baptism 6 July 1783, Bathgate OPR 662/2 item 1; father Patrick Glasgow and mother Elizabeth Dick. This is the same named Bathgate baptism already represented by the held FamilySearch citation [X151-7QY](https://www.familysearch.org/ark:/61903/1:1:X151-7QY), which reports the 6 July baptism and cites connected-profile birth 7 June. The 7-versus-29 June difference remains unresolved; no original image was inspected. Current Glasgow-1460 remains estimated c.1785 in Edinburgh and is not assigned to this event by this transcript. The existing Glasgow-1466 father assessment remains 89% probable; the record-defined mother profile remains unassessed. No vital field, family link or relationship grade changes.
+
+<!-- BEGIN FMP-PAGE36-20261104 Glasgow-1460 -->
+## Findmypast page 36 source review — 4 November 2026
+
+The derivative records Jane Bryce Or Glasgow, wife of John Glasgow, age 67, Skinners Close Edinburgh; death and burial both read 25 January 1848, OPR 685_3/35 item 3 page 27. Bryce-1075 and Glasgow-1460 are compatible couple comparisons through their 1841 Canongate porter household. Age-derived 1780–1781 differs from Jean’s uncertain 1786 estimate; there is no checked address bridge. The literal occupation “Warhouse porter” has unclear ownership and is assigned to neither spouse. The woman is not established as born Glasgow; the record enters Glasgow-family scope through her named husband. No death, address, family attachment or grade is assigned.
+
+[Inspected provider derivative](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBUR%2F1592752). Transcript captured 4 November 2026; original register/index image not inspected in this batch. Existing complete proposed biography and distinct source citations are preserved.
+<!-- END FMP-PAGE36-20261104 Glasgow-1460 -->

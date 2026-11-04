@@ -21,3 +21,13 @@ Clarita H. Morgan, Births and deaths 1853–1871, on record in Pulaski County Co
 [Published abstract](https://www.familysearch.org/library/books/viewer/1018151/).
 
 [Family comparison](/branches/research-irish-moneymore/#wythe-william-possible-father).
+
+<!-- BEGIN FMP-PAGE36-20261104 Glasgow-3678 -->
+## Possible St Louis memorial, 1876 — 4 November 2026
+
+The Findmypast United States Billion Graves Index records William Glasgow, born 4 October 1787 and died 8 April 1876, at Calvary Cemetery, St Louis, Missouri. These are explicitly labelled birth and death dates in the derivative index. It also supplies a link to the BillionGraves record; the gravestone image has not been inspected. ([Findmypast transcript](https://www.findmypast.co.uk/transcript?id=US%2FBMD%2FBILLION%2F008256900); inspected provider derivative, 4 November 2026; original record or gravestone image uninspected.)
+
+The explicit birthday is compatible with William’s approximate 1788 birth from the Virginia census accounts, but this is a possible comparison only. His reported death in 1865 remains unverified, as discussed below, and cannot by itself exclude the later memorial. No held evidence connects William’s Virginia household with St Louis. The index names no spouse, parent or birthplace. It therefore supplies no support for the possible Joseph Glasgow father identification or the existing child placements, and no date, relative or confidence assessment is changed. The memorial image and burial details may supply a distinguishing family or locality connection.
+
+[Linked BillionGraves record](http://billiongraves.com/pages/record/William-Glasgow/5585766); image not inspected.
+<!-- END FMP-PAGE36-20261104 Glasgow-3678 -->
