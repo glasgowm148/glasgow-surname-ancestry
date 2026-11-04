@@ -72,4 +72,10 @@ Owner rule (4 November 2026): every Glasgow-surname person in these records gets
 
 Result: 73 more people are linked as probable matches. 119 new draft entries (39 creation-ready, 80 identity HOLDs) are in `research/queue-review-2026-10-17/catalogue-integration.json`. Their complete sourced drafts are in `drafts/`. Each canonical record names its draft in `subject_draft_url`. The drafts reach the site at the next catalogue rebuild.
 
-**Status: INCOMPLETE.** Workers are still saving the service, pension and medal-card indexes and the 1911, 1921 and 1939 English collections.
+## Batch 6 — person entries for 1911–1939 and First World War records, 4 November 2026
+
+The same rule is applied to the WO 363 and WO 364 entries, the 1911 and 1921 censuses, the 1939 Register and the Irish 1922 and 1926 indexes. This includes the 34 entries left unmatched in batch 1. 22 more existing people are linked as probable matches. 543 new draft entries (314 creation-ready, 229 identity HOLDs) are added, consolidating companion entries for the same person. A differing exact birth date, or a birthplace in a different town, is treated as an explicit conflict.
+
+**Withheld.** Glasgow-surname people in these records who were born after 1905 with no recorded death get no entry: 366 entries across all collections so far. The 42 medal index cards and other entries without a birth bound before 1906 are also withheld.
+
+**Status: INCOMPLETE.** Harvesters stopped part-way: the 1911 census at 498 of 542 transcriptions, the 1939 Register at 448 of 626, and the WO 372 medal cards at 43 of 170. Workers are still saving the service, pension and medal-card indexes and the 1911, 1921 and 1939 English collections.
