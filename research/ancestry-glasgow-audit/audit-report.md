@@ -23,4 +23,25 @@ Coverage ledger for Glasgow-surname entries saved from Ancestry's free-access co
 
 **Matches.** [Mary Janet Glasgow-639](/people/glasgow-639.html), 60 and single, heads a household at 8 Severn Street, Leicester, with her sister [Ann Isabella (Glasgow) Williams-640](/people/glasgow-640.html), 56: a match on full name, birthplace, ages and the named sister. [William Glasgow-1003](/people/glasgow-1003.html), 35, single and born Kendal, boards at 14 Nairne Street, Burnley, where his family had earlier lived: a probable match, with no named relative in the household. No vital or relationship changes follow.
 
+## Batch 3 — 4 November 2026
+
+Running totals after this batch: **303 canonical records** from 507 captured entries.
+
+- **WO 363 (1219):** 75 captured; 52 recorded.
+- **WO 372 medal cards (1262):** 21 captured, all HOLD.
+- **1911 census (2352):** 135 captured; 115 recorded, 9 with profile roles.
+- **1921 census (63150):** 2 captured; 1 recorded.
+- **1939 Register (61596):** 58 captured; 28 recorded. There were 30 HOLDs: 22 born after 1905, 7 whose indexed surname is not Glasgow (for example Robertson-Glasgan or a household member's own surname) and 1 with no date. Closed 1939 entries are counted, never named.
+- **Search-result rows only (source level "index"):**
+  - Belfast News-Letter notices (2193): 190 rows; 91 recorded, 99 HOLDs (76 rows with no dated event, 23 events after the bound).
+  - 1926 Irish Free State census (63564): 20 rows; 11 recorded.
+  - Irish National Army census 1922 (62515): 2 rows; 1 recorded.
+  - Ireland's Memorial Records (1633): 4 rows; 4 recorded.
+
+Relatives named in a search row are published only when the row's date bounds them too.
+
+**Matches.**
+- **Irish death confirmations.** Index rows confirm the recorded death dates of 22 existing profiles: the Cookstown, Belfast, Portadown and Newry families, and three Belfast or Partick soldiers in Ireland's Memorial Records. These are confirmations only, with no date changes. Mary Elizabeth Glasgow's 1874 Belfast notice is held as a candidate comparison for Glasgow-1403.
+- **1911 households.** [Robert James Glasgow-2672](/people/glasgow-2672.html) and [Roberta-2673](/people/glasgow-2673.html) at Bootle are matched, with a son Marius outside the catalogue. [John Mawson Glasgow-999](/people/glasgow-999.html) at Huncoat is matched. [William Glasgow-2060](/people/glasgow-2060.html) at Bolton is a probable match. William "Elargow" of Rock Ferry is a candidate comparison for Glasgow-2675.
+
 **Status: INCOMPLETE.** Workers are still saving the service, pension and medal-card indexes and the 1911, 1921 and 1939 English collections.
