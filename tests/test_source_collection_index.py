@@ -23,6 +23,16 @@ def row_only_fixture(row):
 
 
 class SourceCollectionIndexTest(unittest.TestCase):
+    def test_selected_sources_do_not_read_unrelated_details(self):
+        root = fixture({"title": "Parish baptism register", "records": [{"date": "1749"}]})
+        expected = build_index(root)
+        rows = json.loads((root / "assets/v3/source-index.json").read_text())
+        rows.append({"id": "s-unrelated", "title": "Unrelated source"})
+        (root / "assets/v3/source-index.json").write_text(json.dumps(rows))
+        (root / "assets/v3/sources/s-unrelated.json").write_text("unfinished unrelated build")
+        self.assertEqual(build_index(root, source_ids={"s-test"}), expected)
+        self.assertEqual(build_index(root, source_ids=set()), [])
+
     def test_monumental_inscriptions_are_death_sources(self):
         root = fixture({"title": "West Lothian, Monumental Inscriptions",
                         "records": [{"type": "monumental inscription", "date": "1831"}]})

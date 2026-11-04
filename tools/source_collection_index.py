@@ -183,14 +183,20 @@ def _values(doc: dict, field: str) -> list[str]:
     return out
 
 
-def build_index(web: Path) -> list[dict]:
-    """Return normalized public source items from the generated public assets."""
+def build_index(web: Path, *, source_ids: set[str] | None = None) -> list[dict]:
+    """Return normalized public sources, optionally restricted to selected IDs.
+
+    A selected result is partial: callers must merge it into the full index.
+    Unselected source details are not read.
+    """
     root = Path(web)
     override_path = Path(__file__).resolve().parents[1] / 'research/source-library/census-reference-overrides.json'
     overrides = {r['id']: r for r in json.loads(override_path.read_text())['sources']} if override_path.exists() else {}
     rows = json.loads((root / "assets/v3/source-index.json").read_text(encoding="utf-8"))
     result = []
     for row in rows:
+        if source_ids is not None and row["id"] not in source_ids:
+            continue
         detail = root / "assets/v3/sources" / (row["id"] + ".json")
         doc = json.loads(detail.read_text(encoding="utf-8")) if detail.exists() else dict(row)
         text = _text(doc)

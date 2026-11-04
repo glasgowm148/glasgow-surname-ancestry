@@ -83,6 +83,8 @@ PYTHONPATH=. .venv/bin/python tools/ingest_canonical_records.py --record-id <can
 
 Repeat `--record-id` for a batch, or use a deliberately reviewed `--source-file` selection. `publish_to_record_index=true` opts a canonical row into reviewed replay. The ingester does not itself decide a person's identity or authorize vital/relationship changes.
 
+For existing-source association or note changes with no new routes, dates or categories, use `apply(..., refresh_sources=False)` and `tools.source_collection_index.build_index(web, source_ids=selected_source_ids)` to refresh only the affected library rows. The latter returns a partial list: verify every requested ID is present, merge by source ID into the full collection index, and retain unrelated rows. Confirm category/date membership is unchanged; otherwise run the affected collection builders. This avoids rereading every unrelated source for a small identity review.
+
 Review literal country/place conflicts explicitly. The Glasgow surname is not a Scottish-location signal. Age-derived and baptism-derived years need their real roles. Preserve both indexed values when unresolved.
 
 For a historically bounded receipt without an event date, use `year: null`, `date_status: "undated"`, a clear display label, and a cited `historical_basis` with an explanation and either `latest_event_year <= 1900` or an independently proved historical birth bound. A register or collection span can establish that bound; never turn its first year into the person's event year. Without a defensible bound, retain a scope HOLD without publishing potentially modern details.
