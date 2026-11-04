@@ -70654,6 +70654,61 @@
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/4030191"
         }
       ]
+    },
+    {
+      "id": "ancestry-late-captures-person-entries-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Later Ancestry captures add 148 Glasgow index entries: 1911 England and Wales censuses, the 1939 Register and the 1921 census. Seven are linked to existing people as probable matches. They include Mary Ann (Maclean) Glasgow-5405, a Nova Scotia-born widow at Rhayader in 1911, and Rosa Alice (Eades) Glasgow-741, whose exact birth date matches in the 1939 Register. 140 have new draft entries.",
+      "qualification": "Mary Ann's index birthplace reads \"Newascoted (resident), Halifax\", a probable misreading of Nova Scotia; it is retained literally. Matches follow the explicit-conflict rule and remain probable. Index transcripts only; no vital, relationship or confidence change. Drafts are pending a catalogue rebuild.",
+      "people": [
+        {
+          "id": "Maclean-5405",
+          "name": "Mary Ann (Maclean) Glasgow",
+          "url": "/people/maclean-5405.html"
+        },
+        {
+          "id": "Glasgow-4263",
+          "name": "Ann Glasgow",
+          "url": "/people/glasgow-4263.html"
+        },
+        {
+          "id": "Glasgow-4253",
+          "name": "Allan Glasgow",
+          "url": "/people/glasgow-4253.html"
+        },
+        {
+          "id": "Eades-741",
+          "name": "Rosa Alice (Eades) Glasgow",
+          "url": "/people/eades-741.html"
+        },
+        {
+          "id": "Glasgow-4249",
+          "name": "Benjamin Glasgow",
+          "url": "/people/glasgow-4249.html"
+        },
+        {
+          "id": "Glasgow-4004",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-4004.html"
+        },
+        {
+          "id": "Glasgow-1842",
+          "name": "Annie (Glasgow) Webb",
+          "url": "/people/glasgow-1842.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1911 Wales Census — Mary Ann Glasgow, Rhayader",
+          "url": "https://www.ancestry.co.uk/search/collections/2353/records/648615"
+        },
+        {
+          "title": "1939 England and Wales Register — Rosa A Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/61596/records/34514116"
+        }
+      ]
     }
   ]
 }

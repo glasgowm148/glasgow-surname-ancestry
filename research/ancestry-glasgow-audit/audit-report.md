@@ -78,4 +78,8 @@ The same rule is applied to the WO 363 and WO 364 entries, the 1911 and 1921 cen
 
 **Withheld.** Glasgow-surname people in these records who were born after 1905 with no recorded death get no entry: 366 entries across all collections so far. The 42 medal index cards and other entries without a birth bound before 1906 are also withheld.
 
+## Batch 7 — late captures, 4 November 2026
+
+158 more in-scope entries from the resumed 1911 England, 1911 Wales (collection 2353), 1921 and 1939 harvests were recorded and matched. Seven are linked as probable matches, including Mary Ann (Maclean) Glasgow-5405 at Rhayader and Rosa Alice (Eades) Glasgow-741. 140 new draft entries (95 creation-ready, 45 identity HOLDs) are added.
+
 **Status: INCOMPLETE.** Harvesters stopped part-way: the 1911 census at 498 of 542 transcriptions, the 1939 Register at 448 of 626, and the WO 372 medal cards at 43 of 170. Workers are still saving the service, pension and medal-card indexes and the 1911, 1921 and 1939 English collections.
