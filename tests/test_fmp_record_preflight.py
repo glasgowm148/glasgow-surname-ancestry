@@ -49,6 +49,44 @@ class FmpPreflightTests(unittest.TestCase):
         self.assertEqual(result["cached_receipt"]["access_status"], "accessible")
         self.assertTrue(result["cached_receipt"]["transcript_fields_present"])
 
+    def test_minimal_scope_probe_with_blank_dates_is_reused_without_full_transcript_claim(self):
+        for fields in ({"Birth year": "-", "Death year": "—"}, {}):
+            with self.subTest(fields=fields):
+                self.detail("R_59", {
+                    "access_status": "accessible", "scope_probe_only": True,
+                    "transcript_fields": fields, "matching_status": "scope_hold",
+                }, "birth-scope-records-test.json")
+                path = self.audit / "birth-scope-records-test.json"
+                before = path.read_bytes()
+                result = self.run_one("R_59")
+                self.assertEqual(result["disposition"], "reusable_receipt")
+                self.assertEqual(result["receipt_status"], "accessible")
+                self.assertTrue(result["cached_receipt"]["scope_probe_only"])
+                self.assertEqual(result["cached_receipt"]["transcript_fields_present"], bool(fields))
+                self.assertTrue(result["receipt_pointers"][0]["scope_probe_only"])
+                self.assertTrue(result["matching_hold"])
+                self.assertIn("minimal scope probe, not a full transcript", result["reason"])
+                self.assertIn("preserve the scope HOLD", result["reason"])
+                self.assertIn("No automatic refetch absent a changed source question", result["reason"])
+                self.assertIsNone(result["reinspect"])
+                self.assertEqual(path.read_bytes(), before)
+                changed_question = "A new linked dated source may resolve the previously blank year."
+                self.assertTrue(self.run_one("R_59", changed_question)["reinspect"]["requested"])
+
+    def test_legacy_full_receipt_retains_normal_reuse_reason_and_explicit_scope_flag(self):
+        self.detail("R_60", {"access_status": "accessible",
+                              "transcript_fields": {"Last name": "Glasgow", "Birth year": "1780"}})
+        result = self.run_one("R_60")
+        self.assertEqual(result["disposition"], "reusable_receipt")
+        self.assertFalse(result["cached_receipt"]["scope_probe_only"])
+        self.assertFalse(result["receipt_pointers"][0]["scope_probe_only"])
+        self.assertEqual(result["reason"], "Compatible cached accessible receipt has nonempty transcript_fields.")
+        self.detail("R_60", {"access_status": "accessible", "transcript_fields": {}})
+        empty_full = self.run_one("R_60")
+        self.assertEqual(empty_full["disposition"], "blocked_receipt")
+        self.assertFalse(empty_full["cached_receipt"]["scope_probe_only"])
+        self.assertIn("no nonempty transcript_fields", empty_full["reason"])
+
     def test_result_citation_is_not_a_transcript_receipt(self):
         result = preflight(self.root, [{"record_id": "R_2", "title": "Search result", "links": [{"label": "View transcript", "url": "https://www.findmypast.co.uk/transcript?id=R_2"}]}])["records"][0]
         self.assertEqual(result["disposition"], "detail_needed")

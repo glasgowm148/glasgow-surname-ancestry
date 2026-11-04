@@ -201,7 +201,7 @@ def _successful(candidate: dict) -> bool:
     receipt = candidate["receipt"]
     return (_effective_access_status(receipt) == "accessible"
             and isinstance(receipt.get("transcript_fields"), dict)
-            and bool(receipt["transcript_fields"]))
+            and (bool(receipt["transcript_fields"]) or receipt.get("scope_probe_only") is True))
 
 
 def _normalized_field_label(label) -> str:
@@ -319,7 +319,10 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
             receipt = max(successes, key=_candidate_sort)
             disposition = "reusable_receipt"
             receipt_state = "accessible"
-            reason = "Compatible cached accessible receipt has nonempty transcript_fields."
+            reason = ("Cached accessible minimal scope probe, not a full transcript; preserve the scope HOLD. "
+                      "No automatic refetch absent a changed source question."
+                      if receipt["receipt"].get("scope_probe_only") is True else
+                      "Compatible cached accessible receipt has nonempty transcript_fields.")
         elif matched_receipts:
             receipt = max(matched_receipts, key=_candidate_sort)
             disposition = "blocked_receipt"
@@ -358,12 +361,14 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
             "cached_receipt": ({"path": receipt["path"], "json_pointer": receipt["json_pointer"],
                                  "access_status": _effective_access_status(receipt["receipt"]),
                                  "raw_access_status": receipt["receipt"].get("access_status"),
+                                 "scope_probe_only": receipt["receipt"].get("scope_probe_only") is True,
                                  "transcript_fields_present": bool(receipt["receipt"].get("transcript_fields")),
                                  "captured_at": receipt["receipt"].get("captured_at")}
                                 if receipt else None),
             "receipt_pointers": [{"path": item["path"], "json_pointer": item["json_pointer"],
                                   "access_status": _effective_access_status(item["receipt"]),
                                   "raw_access_status": item["receipt"].get("access_status"),
+                                  "scope_probe_only": item["receipt"].get("scope_probe_only") is True,
                                   "captured_at": item["receipt"].get("captured_at")}
                                  for item in sorted(matched_receipts, key=_candidate_sort)],
             "conflicting_fields": conflicts,
