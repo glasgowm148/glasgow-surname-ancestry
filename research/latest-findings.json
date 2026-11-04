@@ -70288,8 +70288,8 @@
       "found_on": "2026-11-04",
       "kind": "record",
       "status": "qualified",
-      "finding": "The Ancestry index Scotland, Select Marriages, 1561-1910 adds marriage entries to 103 catalogue Glasgow people where the indexed spouse's given name matches the catalogue spouse, among them Margaret Glasgow (Glasgow-3598, 16 Jul 1611, Edinburgh); Barbara Glasgow (Glasgow-3302, 21 Nov 1616, Edinburgh); Thomas Glasgow (Glasgow-3187, 12 Oct 1643, Edinburgh); James Glasgow (Glasgow-1150, 6 Jul 1649, Edinburgh); Robert Glasgow (Glasgow-3938, 1 Jul 1652, Edinburgh); David Glasgow (Glasgow-1518, 19 Apr 1666, Glasgow). A further 50 people receive possible marriage entries, and 300 otherwise unplaced Glasgow brides and grooms enter the catalogue as sourced drafts.",
-      "qualification": "These are search-result index rows: they give the marriage date, parish and only the spouse's given name. A probable match rests on that spouse name agreeing with the catalogue and no conflict of dates, parents or place; a possible match is the only, or clearly best, compatible catalogue person. 259 of the new drafts are held for identity review because several compatible catalogue people remain. The parish registers themselves are uninspected; no relationship or vital date is changed here.",
+      "finding": "The Ancestry index Scotland, Select Marriages, 1561-1910 adds marriage entries to 93 catalogue Glasgow people where the indexed spouse (or parent) agrees with the catalogue, among them Margaret Glasgow (Glasgow-3598, 16 Jul 1611, Edinburgh); Barbara Glasgow (Glasgow-3302, 21 Nov 1616, Edinburgh); Thomas Glasgow (Glasgow-3187, 12 Oct 1643, Edinburgh); James Glasgow (Glasgow-1150, 6 Jul 1649, Edinburgh); Robert Glasgow (Glasgow-3938, 1 Jul 1652, Edinburgh); David Glasgow (Glasgow-1518, 19 Apr 1666, Glasgow). A further 71 people receive possible marriage entries, and 288 otherwise unplaced Glasgow brides, grooms and parents are prepared as sourced catalogue drafts.",
+      "qualification": "Most entries are search-result rows giving the marriage date, parish and only given names for the spouse and the bride's or groom's father; 21 were read as full index transcripts. A probable match rests on that spouse or parent agreeing with the catalogue with no conflict of dates, parents or place; a possible match is the only, or clearly best, compatible catalogue person. 245 of the drafts are held for identity review because several compatible catalogue people remain. The parish registers are uninspected; no relationship or vital date is changed here.",
       "people": [
         {
           "id": "Glasgow-3598",
@@ -70327,19 +70327,14 @@
           "url": "/people/glasgow-3118.html"
         },
         {
-          "id": "Glasgow-1026",
-          "name": "William Walter Glasgow",
-          "url": "/people/glasgow-1026.html"
-        },
-        {
           "id": "Glasgow-3025",
           "name": "Marion Glasgow",
           "url": "/people/glasgow-3025.html"
         },
         {
-          "id": "Glasgow-3087",
-          "name": "John Glasgow",
-          "url": "/people/glasgow-3087.html"
+          "id": "Glasgow-1026",
+          "name": "William Walter Glasgow",
+          "url": "/people/glasgow-1026.html"
         },
         {
           "id": "Glasgow-3969",
@@ -70357,29 +70352,9 @@
           "url": "/people/glasgow-1242.html"
         },
         {
-          "id": "Glasgow-1927",
-          "name": "John Glasgow",
-          "url": "/people/glasgow-1927.html"
-        },
-        {
           "id": "Glasgow-1314",
           "name": "Alexander Glasgow",
           "url": "/people/glasgow-1314.html"
-        },
-        {
-          "id": "Glasgow-32",
-          "name": "Agnes Glasgow",
-          "url": "/people/glasgow-32.html"
-        },
-        {
-          "id": "Glasgow-1562",
-          "name": "Agnes Glasgow",
-          "url": "/people/glasgow-1562.html"
-        },
-        {
-          "id": "Glasgow-1440",
-          "name": "Patrick Glasgow",
-          "url": "/people/glasgow-1440.html"
         },
         {
           "id": "Glasgow-3587",
@@ -70397,11 +70372,6 @@
           "url": "/people/glasgow-2730.html"
         },
         {
-          "id": "Glasgow-1068",
-          "name": "Robert Glasgow",
-          "url": "/people/glasgow-1068.html"
-        },
-        {
           "id": "Glasgow-3166",
           "name": "Samuel Glasgow",
           "url": "/people/glasgow-3166.html"
@@ -70412,19 +70382,9 @@
           "url": "/people/glasgow-1055.html"
         },
         {
-          "id": "Glasgow-2682",
-          "name": "James Glasgow",
-          "url": "/people/glasgow-2682.html"
-        },
-        {
           "id": "Glasgow-1058",
           "name": "George Glasgow",
           "url": "/people/glasgow-1058.html"
-        },
-        {
-          "id": "Glasgow-3528",
-          "name": "Jean Glasgow",
-          "url": "/people/glasgow-3528.html"
         },
         {
           "id": "Glasgow-1336",
@@ -70435,11 +70395,6 @@
           "id": "Glasgow-1929",
           "name": "Hugh Glasgow",
           "url": "/people/glasgow-1929.html"
-        },
-        {
-          "id": "Glasgow-3052",
-          "name": "Andrew Glasgow",
-          "url": "/people/glasgow-3052.html"
         },
         {
           "id": "Glasgow-1342",
@@ -70462,9 +70417,19 @@
           "url": "/people/glasgow-3582.html"
         },
         {
+          "id": "Glasgow-810",
+          "name": "Jean Glasgow",
+          "url": "/people/glasgow-810.html"
+        },
+        {
           "id": "Glasgow-1343",
           "name": "John Glasgow",
           "url": "/people/glasgow-1343.html"
+        },
+        {
+          "id": "Glasgow-3052",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3052.html"
         },
         {
           "id": "Glasgow-3008",
@@ -70477,11 +70442,6 @@
           "url": "/people/glasgow-3005.html"
         },
         {
-          "id": "Glasgow-1509",
-          "name": "James Glasgow",
-          "url": "/people/glasgow-1509.html"
-        },
-        {
           "id": "Glasgow-1127",
           "name": "Isobel Glasgow",
           "url": "/people/glasgow-1127.html"
@@ -70490,6 +70450,46 @@
           "id": "Glasgow-3316",
           "name": "Elizabeth Glasgow",
           "url": "/people/glasgow-3316.html"
+        },
+        {
+          "id": "Glasgow-3878",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3878.html"
+        },
+        {
+          "id": "Glasgow-1321",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1321.html"
+        },
+        {
+          "id": "Glasgow-3706",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3706.html"
+        },
+        {
+          "id": "Glasgow-2915",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2915.html"
+        },
+        {
+          "id": "Glasgow-3298",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3298.html"
+        },
+        {
+          "id": "Glasgow-1620",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1620.html"
+        },
+        {
+          "id": "Glasgow-1530",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1530.html"
+        },
+        {
+          "id": "Glasgow-3094",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3094.html"
         }
       ],
       "sources": [
@@ -70522,16 +70522,12 @@
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/4158495"
         },
         {
+          "title": "Scotland, Select Marriages, 1561-1910 — Marion Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/3098376"
+        },
+        {
           "title": "Scotland, Select Marriages, 1561-1910 — William Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/3098377"
-        },
-        {
-          "title": "Scotland, Select Marriages, 1561-1910 — Marion Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/2101579"
-        },
-        {
-          "title": "Scotland, Select Marriages, 1561-1910 — John Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/2717575"
         },
         {
           "title": "Scotland, Select Marriages, 1561-1910 — James Glasgow",
@@ -70546,24 +70542,8 @@
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/2524533"
         },
         {
-          "title": "Scotland, Select Marriages, 1561-1910 — John Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/4128220"
-        },
-        {
           "title": "Scotland, Select Marriages, 1561-1910 — Alexander Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/1512006"
-        },
-        {
-          "title": "Scotland, Select Marriages, 1561-1910 — Agnes Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/231057"
-        },
-        {
-          "title": "Scotland, Select Marriages, 1561-1910 — Agnes Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/2688512"
-        },
-        {
-          "title": "Scotland, Select Marriages, 1561-1910 — Patrick Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/3899364"
         },
         {
           "title": "Scotland, Select Marriages, 1561-1910 — William Glasgow",
@@ -70578,10 +70558,6 @@
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/2622273"
         },
         {
-          "title": "Scotland, Select Marriages, 1561-1910 — Robert Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1233212"
-        },
-        {
           "title": "Scotland, Select Marriages, 1561-1910 — Samuel Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/4196612"
         },
@@ -70590,16 +70566,8 @@
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/397297"
         },
         {
-          "title": "Scotland, Select Marriages, 1561-1910 — James Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/353849"
-        },
-        {
           "title": "Scotland, Select Marriages, 1561-1910 — George Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/4190312"
-        },
-        {
-          "title": "Scotland, Select Marriages, 1561-1910 — Janet Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/2284671"
         },
         {
           "title": "Scotland, Select Marriages, 1561-1910 — Andrew Glasgow",
@@ -70608,10 +70576,6 @@
         {
           "title": "Scotland, Select Marriages, 1561-1910 — Hugh Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/1746954"
-        },
-        {
-          "title": "Scotland, Select Marriages, 1561-1910 — Andrew Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/278387"
         },
         {
           "title": "Scotland, Select Marriages, 1561-1910 — Alexander Glasgow",
@@ -70630,8 +70594,16 @@
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/3175125"
         },
         {
+          "title": "Scotland, Select Marriages, 1561-1910 — Jean Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1933642"
+        },
+        {
           "title": "Scotland, Select Marriages, 1561-1910 — John Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/2173560"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Andrew Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/3258245"
         },
         {
           "title": "Scotland, Select Marriages, 1561-1910 — Janet Glasgow",
@@ -70642,16 +70614,44 @@
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/3502199"
         },
         {
-          "title": "Scotland, Select Marriages, 1561-1910 — James Glasgow",
-          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1686756"
-        },
-        {
           "title": "Scotland, Select Marriages, 1561-1910 — Isabel Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/3207737"
         },
         {
           "title": "Scotland, Select Marriages, 1561-1910 — Elizabeth Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/4030191"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Margaret Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1583432"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Alexander Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/3102201"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Robert Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/4272259"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — William Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1100855"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — John Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/2259231"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Thomas Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1517951"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Robert Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/3172111"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — John Glasgow",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/1137283"
         }
       ]
     },
