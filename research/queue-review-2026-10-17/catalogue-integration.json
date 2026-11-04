@@ -96135,173 +96135,6 @@
       ]
     },
     {
-      "catalogue_id": "record-ancestry-glasgow-051504ec296e",
-      "subject_id": "ancestry-glasgow-051504ec296e",
-      "name": "Robert Glasgow",
-      "first_names": [
-        "Robert"
-      ],
-      "last_names_at_birth": [
-        "Glasgow"
-      ],
-      "last_names_current": [],
-      "gender": "Male",
-      "birth": "",
-      "birth_note": "",
-      "birth_location": "",
-      "death": "",
-      "death_location": "",
-      "occupations": [],
-      "historical_basis": {
-        "latest_birth_year": 1819,
-        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4145328",
-        "basis_kind": "record",
-        "explanation": "Marriage 25 Aug 1847"
-      },
-      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/4145328",
-      "research_subject_url": "/people/record-ancestry-glasgow-051504ec296e.html",
-      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow is named as father of Charlotte Marie Cealia Glasgow at her marriage on 25 Aug 1847 at , Kilwinning, Ayr, Scotland.<ref name=\"anc4145328\">[https://www.ancestry.co.uk/search/collections/60144/records/4145328 Ancestry, Scotland, Select Marriages, 1561-1910, Robert Glasgow, 25 Aug 1847, , Kilwinning, Ayr, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: catalogue people with the same given name and a Glasgow-surname variant were compared by dates, spouse, parents and place. Possible profile identities: Glasgow-902 Robert Arthur Glasgow b. 1792 d. 1862-06-26 (chronology fits); Glasgow-546 Robert Glasgow b. 1791-09-17 d. 1881-05-31 (chronology fits); Glasgow-2603 Robert Glasgow b. 1795-12-05 d. 1877-01-01 (chronology fits); Glasgow-3449 Robert Glasgow b. 1797 d. 1868-03-31 (chronology fits); Glasgow-1598 Robert Glasgow b. 1799-04-18 (chronology fits); Glasgow-3428 Robert Glasgow b. 1800 (chronology fits); Glasgow-3415 Robert Glasgow b. 1800-08-18 d. 1855-11-21 (chronology fits); Glasgow-2769 Robert Glasgow b. c. 1790 d. c. 1860 (chronology fits). None is clearly preferred on the indexed facts, so this entry is held for identity review. Ruled out: Glasgow-1076 Robert (Glasgow) Glasgow of Montgreenan b. before 1747-10-15 d. 1827-04-19: died 1827-04-19, before the 1847 parent; Robertson-30564 Robert (Robertson) Glasgow b. 1775-11-06 d. 1845-01-27: died 1845-01-27, before the 1847 parent; Glasgow-2307 Robert A Glasgow b. c. 1888-03: dates conflict: catalogue birth c. 1888-03 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasgow-3728 Robert A. Glasgow b. 1910 d. 1977: dates conflict: catalogue birth 1910 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States); Glasgow-721 Robert Adair Glasgow b. 1897-06-05 d. 1964-10-02: dates conflict: catalogue birth 1897-06-05 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Texas, United States); Glasgow-3562 Robert Alexander Glasgow b. 1882-02-13 d. 1930: dates conflict: catalogue birth 1882-02-13 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Page County, Iowa, United States); Glasgow-2175 Robert Anderson Glasgow b. 1820 d. 1894-03-16: dates conflict: catalogue birth 1820 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-1632 Robert Arthur Glasgow b. 1852-05-28 d. 1938-10-01: dates conflict: catalogue birth 1852-05-28 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States).\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Robert Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Charlotte Marie Cealia Glasgow). Several compatible catalogue people remain; identity held.",
-      "current_conclusion": "Robert Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Charlotte Marie Cealia Glasgow). Several compatible catalogue people remain; identity held.",
-      "current_questions": [
-        "Inspect the original register entry for fuller names, residences and relatives."
-      ],
-      "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-04",
-      "candidates": [
-        {
-          "profile_id": "Glasgow-902",
-          "name": "Robert Arthur Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-546",
-          "name": "Robert Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-2603",
-          "name": "Robert Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-3449",
-          "name": "Robert Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-1598",
-          "name": "Robert Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-3428",
-          "name": "Robert Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-3415",
-          "name": "Robert Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-2769",
-          "name": "Robert Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        }
-      ],
-      "duplicate_audit": {
-        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant",
-        "candidates": [
-          {
-            "profile_id": "Glasgow-1076",
-            "name": "Robert (Glasgow) Glasgow of Montgreenan",
-            "exclusion": "died 1827-04-19, before the 1847 parent"
-          },
-          {
-            "profile_id": "Robertson-30564",
-            "name": "Robert (Robertson) Glasgow",
-            "exclusion": "died 1845-01-27, before the 1847 parent"
-          },
-          {
-            "profile_id": "Glasgow-2307",
-            "name": "Robert A Glasgow",
-            "exclusion": "dates conflict: catalogue birth c. 1888-03 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States)"
-          },
-          {
-            "profile_id": "Glasgow-3728",
-            "name": "Robert A. Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1910 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States)"
-          },
-          {
-            "profile_id": "Glasgow-721",
-            "name": "Robert Adair Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1897-06-05 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Texas, United States)"
-          },
-          {
-            "profile_id": "Glasgow-3562",
-            "name": "Robert Alexander Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1882-02-13 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Page County, Iowa, United States)"
-          },
-          {
-            "profile_id": "Glasgow-2175",
-            "name": "Robert Anderson Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1820 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States)"
-          },
-          {
-            "profile_id": "Glasgow-1632",
-            "name": "Robert Arthur Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1852-05-28 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States)"
-          },
-          {
-            "profile_id": "Glasgow-2157",
-            "name": "Robert Arthur Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1879-09-01 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Hale Township, Warren, Illinois, United States)"
-          },
-          {
-            "profile_id": "Glasgow-3732",
-            "name": "Robert Arthur Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1907-11-13 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Memphis, Tennessee, United States)"
-          },
-          {
-            "profile_id": "Glasgow-3733",
-            "name": "Robert Arthur Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1933-10-22 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Los Angeles, California, United States)"
-          },
-          {
-            "profile_id": "Glasgow-2567",
-            "name": "Robert Aubrey Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1889-03-11 too late for a parent in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Weakley, Tennessee, United States)"
-          }
-        ],
-        "conclusion": "identity_hold"
-      },
-      "records": [
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Robert Glasgow, 25 Aug 1847",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4145328",
-          "source_type": "Provider index search row",
-          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-          "year": "1847",
-          "filter_year": 1847,
-          "record_location": ", Kilwinning, Ayr, Scotland",
-          "region": "Scotland",
-          "association": "Robert Glasgow is named as father of Charlotte Marie Cealia Glasgow at her marriage on 25 Aug 1847 at , Kilwinning, Ayr, Scotland.",
-          "note": "",
-          "evidence": "Provider index search row"
-        }
-      ]
-    },
-    {
       "catalogue_id": "record-ancestry-glasgow-05fd9e3d6b43",
       "subject_id": "ancestry-glasgow-05fd9e3d6b43",
       "name": "William Glasgow",
@@ -118623,185 +118456,6 @@
       ]
     },
     {
-      "catalogue_id": "record-ancestry-glasgow-59a2f03fa270",
-      "subject_id": "ancestry-glasgow-59a2f03fa270",
-      "name": "Andrew Glasgow",
-      "first_names": [
-        "Andrew"
-      ],
-      "last_names_at_birth": [
-        "Glasgow"
-      ],
-      "last_names_current": [],
-      "gender": "Male",
-      "birth": "",
-      "birth_note": "",
-      "birth_location": "",
-      "death": "",
-      "death_location": "",
-      "occupations": [],
-      "historical_basis": {
-        "latest_birth_year": 1777,
-        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/202416",
-        "basis_kind": "record",
-        "explanation": "Marriage 13 Aug 1790"
-      },
-      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/202416",
-      "research_subject_url": "/people/record-ancestry-glasgow-59a2f03fa270.html",
-      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAndrew Glasgow married Mary on 13 Aug 1790 at Rothesay, Bute, Scotland, United Kingdom.<ref name=\"anc202416\">[https://www.ancestry.co.uk/search/collections/60144/records/202416 Ancestry, Scotland, Select Marriages, 1561-1910, Andrew Glasgow, 13 Aug 1790, Rothesay, Bute, Scotland, United Kingdom]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nAndrew Glasgow married Mary on 13 Aug 1790 at , Rothesay, Bute, Scotland; father David Glasgow. This entry is attributed to the same person as a consolidated, compatible record (groom).<ref name=\"anc4131423\">[https://www.ancestry.co.uk/search/collections/60144/records/4131423 Ancestry, Scotland, Select Marriages, 1561-1910, Andrew Glasgow, 13 Aug 1790, , Rothesay, Bute, Scotland]. Index entry read 2026-11-04; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: catalogue people with the same given name and a Glasgow-surname variant were compared by dates, spouse, parents and place. Possible profile identities: Glasgow-3404 Andrew Glasgow b. before 1764-08-26 (chronology fits); Glasgow-1616 Andrew Glasgow b. c. 1767-11-25 (chronology fits); Glasgow-3165 Andrew Glasgow Esq b. c. 1760 d. 1819-11 (chronology fits); Glasgow-1931 Andrew Glasgow b. 1712-01-24; Glasgow-3313 Andrew Glasgow b. 1733-05-21; Glasgow-2468 Andrew Glasgow b. 1746-10-24; Glasgow-1313 Andrew Glasgow b. before 1703-11-11; Glasgow-1333 Andrew Glasgow b. before 1747-01-11. None is clearly preferred on the indexed facts, so this entry is held for identity review. Ruled out: Glasgow-677 Andrew Edward Glasgow b. 1863-04-03 d. 1922-11-27: dates conflict: catalogue birth 1863-04-03 too late for a marriage in 1790; place cannot fit: catalogue life recorded only outside the British Isles (Hadley, Hampshire, Massachusetts, United States); Glasgow-2486 Andrew G Glasgow b. 1845-06-21 d. 1912-09-01: dates conflict: catalogue birth 1845-06-21 too late for a marriage in 1790; place cannot fit: catalogue life recorded only outside the British Isles (Tennessee, United States); Glasgow-3052 Andrew Glasgow b. 1720: different named spouse (Janet Clerk; record names Mary); unlikely without further evidence: already linked to the 1754 marriage to Janet (ancestry-60144-3258245); Glasgow-3400 Andrew Glasgow b. 1790-03-27: dates conflict: catalogue birth 1790-03-27 too late for a marriage in 1790; Glasgow-2946 Andrew Glasgow b. 1800-04-11 d. 1887-04-06: dates conflict: catalogue birth 1800-04-11 too late for a marriage in 1790; place cannot fit: catalogue life recorded only outside the British Isles (Lancaster, Pennsylvania, United States); Glasgow-3495 Andrew Glasgow b. 1814: dates conflict: catalogue birth 1814 too late for a marriage in 1790; Glasgow-1050 Andrew Glasgow b. 1818 d. 1848: dates conflict: catalogue birth 1818 too late for a marriage in 1790; different named spouse (Elizabeth Glasgow McCullow; record names Mary); Glasgow-516 Andrew Glasgow b. 1855-03-12 d. 1923: dates conflict: catalogue birth 1855-03-12 too late for a marriage in 1790; different named spouse (Elizabeth (Redhead) Glasgow; Jane (Rae) Glasgow; record names Mary).\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Andrew Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). Several compatible catalogue people remain; identity held.",
-      "current_conclusion": "Andrew Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). Several compatible catalogue people remain; identity held.",
-      "current_questions": [
-        "Inspect the original register entry for fuller names, residences and relatives."
-      ],
-      "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-04",
-      "candidates": [
-        {
-          "profile_id": "Glasgow-3404",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-1616",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-3165",
-          "name": "Andrew Glasgow Esq",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-1931",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-3313",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-2468",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-1313",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-1333",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        }
-      ],
-      "duplicate_audit": {
-        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant",
-        "candidates": [
-          {
-            "profile_id": "Glasgow-677",
-            "name": "Andrew Edward Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1863-04-03 too late for a marriage in 1790; place cannot fit: catalogue life recorded only outside the British Isles (Hadley, Hampshire, Massachusetts, United States)"
-          },
-          {
-            "profile_id": "Glasgow-2486",
-            "name": "Andrew G Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1845-06-21 too late for a marriage in 1790; place cannot fit: catalogue life recorded only outside the British Isles (Tennessee, United States)"
-          },
-          {
-            "profile_id": "Glasgow-3052",
-            "name": "Andrew Glasgow",
-            "exclusion": "different named spouse (Janet Clerk; record names Mary); unlikely without further evidence: already linked to the 1754 marriage to Janet (ancestry-60144-3258245)"
-          },
-          {
-            "profile_id": "Glasgow-3400",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1790-03-27 too late for a marriage in 1790"
-          },
-          {
-            "profile_id": "Glasgow-2946",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1800-04-11 too late for a marriage in 1790; place cannot fit: catalogue life recorded only outside the British Isles (Lancaster, Pennsylvania, United States)"
-          },
-          {
-            "profile_id": "Glasgow-3495",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1814 too late for a marriage in 1790"
-          },
-          {
-            "profile_id": "Glasgow-1050",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1818 too late for a marriage in 1790; different named spouse (Elizabeth Glasgow McCullow; record names Mary)"
-          },
-          {
-            "profile_id": "Glasgow-516",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1855-03-12 too late for a marriage in 1790; different named spouse (Elizabeth (Redhead) Glasgow; Jane (Rae) Glasgow; record names Mary)"
-          },
-          {
-            "profile_id": "Glasgow-1812",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1867-01-01 too late for a marriage in 1790"
-          },
-          {
-            "profile_id": "Glasgow-1424",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1878-01-10 too late for a marriage in 1790"
-          },
-          {
-            "profile_id": "Glasgow-1117",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1889-09-28 too late for a marriage in 1790; different named spouse (Jessie Birrell (Smith) Glasgow; record names Mary)"
-          },
-          {
-            "profile_id": "Glasgow-3163",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth before 1540 too early for a marriage in 1790; chronology conflict: catalogue events are dated 1540-1598; died 1598-02-07, before the 1790 marriage; different named spouse (Elizat Stevinsoun; record names Mary)"
-          }
-        ],
-        "conclusion": "identity_hold"
-      },
-      "records": [
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Andrew Glasgow, 13 Aug 1790",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/202416",
-          "source_type": "Provider index search row",
-          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-          "year": "1790",
-          "filter_year": 1790,
-          "record_location": "Rothesay, Bute, Scotland, United Kingdom",
-          "region": "Scotland",
-          "association": "Andrew Glasgow married Mary on 13 Aug 1790 at Rothesay, Bute, Scotland, United Kingdom.",
-          "note": "",
-          "evidence": "Provider index search row"
-        },
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Andrew Glasgow, 13 Aug 1790",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4131423",
-          "source_type": "Provider index entry",
-          "source_status": "Ancestry index entry read 2026-11-04; original uninspected",
-          "year": "1790",
-          "filter_year": 1790,
-          "record_location": ", Rothesay, Bute, Scotland",
-          "association": "Andrew Glasgow married Mary on 13 Aug 1790 at , Rothesay, Bute, Scotland; father David Glasgow.",
-          "note": "Consolidated onto this documentary person: no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
-        }
-      ]
-    },
-    {
       "catalogue_id": "record-ancestry-glasgow-5ae432968838",
       "subject_id": "ancestry-glasgow-5ae432968838",
       "name": "Thomas Glasgow",
@@ -119195,185 +118849,6 @@
           "association": "Agnes Glasgow married James on 15 Aug 1748 at Kilwinning, Ayr, Scotland.",
           "note": "",
           "evidence": "Provider index search row"
-        }
-      ]
-    },
-    {
-      "catalogue_id": "record-ancestry-glasgow-5dcff552b0ad",
-      "subject_id": "ancestry-glasgow-5dcff552b0ad",
-      "name": "Andrew Glasgow",
-      "first_names": [
-        "Andrew"
-      ],
-      "last_names_at_birth": [
-        "Glasgow"
-      ],
-      "last_names_current": [],
-      "gender": "Male",
-      "birth": "",
-      "birth_note": "",
-      "birth_location": "",
-      "death": "",
-      "death_location": "",
-      "occupations": [],
-      "historical_basis": {
-        "latest_birth_year": 1790,
-        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4132486",
-        "basis_kind": "record",
-        "explanation": "Marriage 9 Jun 1818"
-      },
-      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/4132486",
-      "research_subject_url": "/people/record-ancestry-glasgow-5dcff552b0ad.html",
-      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAndrew Glasgow is named as father of Margaret Glasgow at her marriage on 9 Jun 1818 at , Rothesay, Bute, Scotland.<ref name=\"anc4132486\">[https://www.ancestry.co.uk/search/collections/60144/records/4132486 Ancestry, Scotland, Select Marriages, 1561-1910, Andrew Glasgow, 9 Jun 1818, , Rothesay, Bute, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nAndrew Glasgow is indexed as a parent in the marriage record of Margaret Glasgow, 9 Jun 1818 at , Rothesay, Bute, Scotland. This entry is attributed to the same person as a consolidated, compatible record (parent named in the marriage of Margaret Glasgow).<ref name=\"anc4132485\">[https://www.ancestry.co.uk/search/collections/60144/records/4132485 Ancestry, Scotland, Select Marriages, 1561-1910, Andrew Glasgow, 9 Jun 1818, , Rothesay, Bute, Scotland]. Index entry read 2026-11-04; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: catalogue people with the same given name and a Glasgow-surname variant were compared by dates, spouse, parents and place. Possible profile identities: Glasgow-3404 Andrew Glasgow b. before 1764-08-26 (chronology fits); Glasgow-1616 Andrew Glasgow b. c. 1767-11-25 (chronology fits); Glasgow-3165 Andrew Glasgow Esq b. c. 1760 d. 1819-11 (chronology fits); Glasgow-3052 Andrew Glasgow b. 1720; Glasgow-3313 Andrew Glasgow b. 1733-05-21; Glasgow-2468 Andrew Glasgow b. 1746-10-24; Glasgow-1333 Andrew Glasgow b. before 1747-01-11; Glasgow-1481 Andrew Glasgow b. 1775-12-30. None is clearly preferred on the indexed facts, so this entry is held for identity review. Ruled out: Glasgow-677 Andrew Edward Glasgow b. 1863-04-03 d. 1922-11-27: dates conflict: catalogue birth 1863-04-03 too late for a parent in 1818; place cannot fit: catalogue life recorded only outside the British Isles (Hadley, Hampshire, Massachusetts, United States); Glasgow-2486 Andrew G Glasgow b. 1845-06-21 d. 1912-09-01: dates conflict: catalogue birth 1845-06-21 too late for a parent in 1818; place cannot fit: catalogue life recorded only outside the British Isles (Tennessee, United States); Glasgow-1931 Andrew Glasgow b. 1712-01-24: dates conflict: catalogue birth 1712-01-24 too early for a parent in 1818; chronology conflict: catalogue events are dated 1712-1712; Glasgow-3400 Andrew Glasgow b. 1790-03-27: dates conflict: catalogue birth 1790-03-27 too late for a parent in 1818; Glasgow-2946 Andrew Glasgow b. 1800-04-11 d. 1887-04-06: dates conflict: catalogue birth 1800-04-11 too late for a parent in 1818; place cannot fit: catalogue life recorded only outside the British Isles (Lancaster, Pennsylvania, United States); Glasgow-3495 Andrew Glasgow b. 1814: dates conflict: catalogue birth 1814 too late for a parent in 1818; Glasgow-1050 Andrew Glasgow b. 1818 d. 1848: dates conflict: catalogue birth 1818 too late for a parent in 1818; Glasgow-516 Andrew Glasgow b. 1855-03-12 d. 1923: dates conflict: catalogue birth 1855-03-12 too late for a parent in 1818.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Andrew Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Margaret Glasgow). Several compatible catalogue people remain; identity held.",
-      "current_conclusion": "Andrew Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Margaret Glasgow). Several compatible catalogue people remain; identity held.",
-      "current_questions": [
-        "Inspect the original register entry for fuller names, residences and relatives."
-      ],
-      "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-04",
-      "candidates": [
-        {
-          "profile_id": "Glasgow-3404",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-1616",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-3165",
-          "name": "Andrew Glasgow Esq",
-          "assessment": "compatible, not preferred",
-          "evidence": "chronology fits"
-        },
-        {
-          "profile_id": "Glasgow-3052",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-3313",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-2468",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-1333",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-1481",
-          "name": "Andrew Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        }
-      ],
-      "duplicate_audit": {
-        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant",
-        "candidates": [
-          {
-            "profile_id": "Glasgow-677",
-            "name": "Andrew Edward Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1863-04-03 too late for a parent in 1818; place cannot fit: catalogue life recorded only outside the British Isles (Hadley, Hampshire, Massachusetts, United States)"
-          },
-          {
-            "profile_id": "Glasgow-2486",
-            "name": "Andrew G Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1845-06-21 too late for a parent in 1818; place cannot fit: catalogue life recorded only outside the British Isles (Tennessee, United States)"
-          },
-          {
-            "profile_id": "Glasgow-1931",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1712-01-24 too early for a parent in 1818; chronology conflict: catalogue events are dated 1712-1712"
-          },
-          {
-            "profile_id": "Glasgow-3400",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1790-03-27 too late for a parent in 1818"
-          },
-          {
-            "profile_id": "Glasgow-2946",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1800-04-11 too late for a parent in 1818; place cannot fit: catalogue life recorded only outside the British Isles (Lancaster, Pennsylvania, United States)"
-          },
-          {
-            "profile_id": "Glasgow-3495",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1814 too late for a parent in 1818"
-          },
-          {
-            "profile_id": "Glasgow-1050",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1818 too late for a parent in 1818"
-          },
-          {
-            "profile_id": "Glasgow-516",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1855-03-12 too late for a parent in 1818"
-          },
-          {
-            "profile_id": "Glasgow-1812",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1867-01-01 too late for a parent in 1818"
-          },
-          {
-            "profile_id": "Glasgow-1424",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1878-01-10 too late for a parent in 1818"
-          },
-          {
-            "profile_id": "Glasgow-1117",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1889-09-28 too late for a parent in 1818"
-          },
-          {
-            "profile_id": "Glasgow-3163",
-            "name": "Andrew Glasgow",
-            "exclusion": "dates conflict: catalogue birth before 1540 too early for a parent in 1818; chronology conflict: catalogue events are dated 1540-1598; died 1598-02-07, before the 1818 parent"
-          }
-        ],
-        "conclusion": "identity_hold"
-      },
-      "records": [
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Andrew Glasgow, 9 Jun 1818",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4132486",
-          "source_type": "Provider index search row",
-          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-          "year": "1818",
-          "filter_year": 1818,
-          "record_location": ", Rothesay, Bute, Scotland",
-          "region": "Scotland",
-          "association": "Andrew Glasgow is named as father of Margaret Glasgow at her marriage on 9 Jun 1818 at , Rothesay, Bute, Scotland.",
-          "note": "",
-          "evidence": "Provider index search row"
-        },
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Andrew Glasgow, 9 Jun 1818",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4132485",
-          "source_type": "Provider index entry",
-          "source_status": "Ancestry index entry read 2026-11-04; original uninspected",
-          "year": "1818",
-          "filter_year": 1818,
-          "record_location": ", Rothesay, Bute, Scotland",
-          "association": "Andrew Glasgow is indexed as a parent in the marriage record of Margaret Glasgow, 9 Jun 1818 at , Rothesay, Bute, Scotland.",
-          "note": "Consolidated onto this documentary person: no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
         }
       ]
     },
@@ -129567,161 +129042,6 @@
           "association": "John Glasgow married Isabella on 28 Nov 1859 at Beith, Ayr, Scotland.",
           "note": "",
           "evidence": "Provider index search row"
-        }
-      ]
-    },
-    {
-      "catalogue_id": "record-ancestry-glasgow-88fa8569cae8",
-      "subject_id": "ancestry-glasgow-88fa8569cae8",
-      "name": "Anne Glasgow",
-      "first_names": [
-        "Anne"
-      ],
-      "last_names_at_birth": [
-        "Glasgow"
-      ],
-      "last_names_current": [],
-      "gender": "Female",
-      "birth": "",
-      "birth_note": "",
-      "birth_location": "",
-      "death": "",
-      "death_location": "",
-      "occupations": [],
-      "historical_basis": {
-        "latest_birth_year": 1834,
-        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3037520",
-        "basis_kind": "record",
-        "explanation": "Marriage 25 Aug 1847"
-      },
-      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/3037520",
-      "research_subject_url": "/people/record-ancestry-glasgow-88fa8569cae8.html",
-      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnne Glasgow married George Sherbrooke on 25 Aug 1847 at , Kilwinning, Ayr, Scotland.<ref name=\"anc3037520\">[https://www.ancestry.co.uk/search/collections/60144/records/3037520 Ancestry, Scotland, Select Marriages, 1561-1910, Anne Glasgow, 25 Aug 1847, , Kilwinning, Ayr, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nAnne Glasgow married George Sherbrooke on 25 Aug 1847 at , Kilwinning, Ayr, Scotland; father Robert Glasgow. This entry is attributed to the same person as a consolidated, compatible record (bride).<ref name=\"anc4137023\">[https://www.ancestry.co.uk/search/collections/60144/records/4137023 Ancestry, Scotland, Select Marriages, 1561-1910, Anne Glasgow, 25 Aug 1847, , Kilwinning, Ayr, Scotland]. Index entry read 2026-11-04; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: catalogue people with the same given name and a Glasgow-surname variant were compared by dates, spouse, parents and place. Possible profile identities: Glasgow-3950 Ann (Glasgow) McCleery b. before 1838; Glasgow-3168 Ann Glasgow b. 1833; Glasgow-3505 Ann Glasgow b. 1834; Glasgow-3000 Anne Glasgow b. 1805. None is clearly preferred on the indexed facts, so this entry is held for identity review. Ruled out: Andrews-25691 Ann (Andrews) Glasgow b. 1831 d. 1912-05-16: different named spouse (James Alexander Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Baigrie-43 Ann (Baigrie) Glasgow b. before 1810-12-06: different named spouse (Alexander Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Baigrie-28 Ann (Baigrie) Glasgow b. c. 1816: different named spouse (Alexander Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Denham-2159 Ann (Denham) Glasgow b. 1779-01-24: different named spouse (William Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Duffy-6026 Ann (Duffy) Glasco b. 1756: dates conflict: catalogue birth 1756 too early for a marriage in 1847; different named spouse (Thomas Glasco; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-3468 Ann (Glasgow) Douglas b. 1749-08-25: dates conflict: catalogue birth 1749-08-25 too early for a marriage in 1847; Glasgow-2608 Ann (Glasgow) Hogg b. c. 1839 d. 1904-09-10: dates conflict: catalogue birth c. 1839 too late for a marriage in 1847; Hartshorne-320 Ann (Hartshorne) Glasgow b. Unknown d. 1784: died 1784, before the 1847 marriage; place cannot fit: catalogue life recorded only outside the British Isles (Cecil County, Maryland); different named spouse (James Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Anne Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). Several compatible catalogue people remain; identity held.",
-      "current_conclusion": "Anne Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). Several compatible catalogue people remain; identity held.",
-      "current_questions": [
-        "Inspect the original register entry for fuller names, residences and relatives."
-      ],
-      "creation_status": "identity_hold",
-      "reviewed_at": "2026-11-04",
-      "candidates": [
-        {
-          "profile_id": "Glasgow-3950",
-          "name": "Ann (Glasgow) McCleery",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-3168",
-          "name": "Ann Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-3505",
-          "name": "Ann Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        },
-        {
-          "profile_id": "Glasgow-3000",
-          "name": "Anne Glasgow",
-          "assessment": "compatible, not preferred",
-          "evidence": ""
-        }
-      ],
-      "duplicate_audit": {
-        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant",
-        "candidates": [
-          {
-            "profile_id": "Andrews-25691",
-            "name": "Ann (Andrews) Glasgow",
-            "exclusion": "different named spouse (James Alexander Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Baigrie-43",
-            "name": "Ann (Baigrie) Glasgow",
-            "exclusion": "different named spouse (Alexander Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Baigrie-28",
-            "name": "Ann (Baigrie) Glasgow",
-            "exclusion": "different named spouse (Alexander Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Denham-2159",
-            "name": "Ann (Denham) Glasgow",
-            "exclusion": "different named spouse (William Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Duffy-6026",
-            "name": "Ann (Duffy) Glasco",
-            "exclusion": "dates conflict: catalogue birth 1756 too early for a marriage in 1847; different named spouse (Thomas Glasco; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Glasgow-3468",
-            "name": "Ann (Glasgow) Douglas",
-            "exclusion": "dates conflict: catalogue birth 1749-08-25 too early for a marriage in 1847"
-          },
-          {
-            "profile_id": "Glasgow-2608",
-            "name": "Ann (Glasgow) Hogg",
-            "exclusion": "dates conflict: catalogue birth c. 1839 too late for a marriage in 1847"
-          },
-          {
-            "profile_id": "Hartshorne-320",
-            "name": "Ann (Hartshorne) Glasgow",
-            "exclusion": "died 1784, before the 1847 marriage; place cannot fit: catalogue life recorded only outside the British Isles (Cecil County, Maryland); different named spouse (James Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Houston-4780",
-            "name": "Ann (Houston) Glasgow",
-            "exclusion": "died c. 1845-05-19, before the 1847 marriage; different named spouse (James Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Ivington-1",
-            "name": "Ann (Ivington) Glasgow",
-            "exclusion": "different named spouse (Theodore Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Johnson-102174",
-            "name": "Ann (Johnson) Glasgow",
-            "exclusion": "dates conflict: catalogue birth c. 1620 too early for a marriage in 1847; chronology conflict: catalogue events are dated 1620-1682; died c. 1682, before the 1847 marriage; different named spouse (Robert Glasgow II; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Mcconaughy-57",
-            "name": "Ann (Mcconaughy) Glasgow",
-            "exclusion": "unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          }
-        ],
-        "conclusion": "identity_hold"
-      },
-      "records": [
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Anne Glasgow, 25 Aug 1847",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3037520",
-          "source_type": "Provider index search row",
-          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-          "year": "1847",
-          "filter_year": 1847,
-          "record_location": ", Kilwinning, Ayr, Scotland",
-          "region": "Scotland",
-          "association": "Anne Glasgow married George Sherbrooke on 25 Aug 1847 at , Kilwinning, Ayr, Scotland.",
-          "note": "",
-          "evidence": "Provider index search row"
-        },
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Anne Glasgow, 25 Aug 1847",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4137023",
-          "source_type": "Provider index entry",
-          "source_status": "Ancestry index entry read 2026-11-04; original uninspected",
-          "year": "1847",
-          "filter_year": 1847,
-          "record_location": ", Kilwinning, Ayr, Scotland",
-          "association": "Anne Glasgow married George Sherbrooke on 25 Aug 1847 at , Kilwinning, Ayr, Scotland; father Robert Glasgow.",
-          "note": "Consolidated onto this documentary person: no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
         }
       ]
     },
@@ -153519,113 +152839,6 @@
       ]
     },
     {
-      "catalogue_id": "record-ancestry-glasgow-f0c91d7a4377",
-      "subject_id": "ancestry-glasgow-f0c91d7a4377",
-      "name": "Charlotte Marie Cealia Glasgow",
-      "first_names": [
-        "Charlotte",
-        "Marie",
-        "Cealia"
-      ],
-      "last_names_at_birth": [
-        "Glasgow"
-      ],
-      "last_names_current": [],
-      "gender": "Female",
-      "birth": "",
-      "birth_note": "",
-      "birth_location": "",
-      "death": "",
-      "death_location": "",
-      "occupations": [],
-      "historical_basis": {
-        "latest_birth_year": 1834,
-        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4145328",
-        "basis_kind": "record",
-        "explanation": "Marriage 25 Aug 1847"
-      },
-      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/4145328",
-      "research_subject_url": "/people/record-ancestry-glasgow-f0c91d7a4377.html",
-      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nCharlotte Marie Cealia Glasgow married George on 25 Aug 1847 at , Kilwinning, Ayr, Scotland; father Robert Glasgow.<ref name=\"anc4145328\">[https://www.ancestry.co.uk/search/collections/60144/records/4145328 Ancestry, Scotland, Select Marriages, 1561-1910, Charlotte Marie Cealia Glasgow, 25 Aug 1847, , Kilwinning, Ayr, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nCharlotte Marie Cealia Glasgow married George on 25 Aug 1847 at , Kilwinning, Ayr, Scotland. This entry is attributed to the same person as a consolidated, compatible record (bride).<ref name=\"anc4158329\">[https://www.ancestry.co.uk/search/collections/60144/records/4158329 Ancestry, Scotland, Select Marriages, 1561-1910, Charlotte Marie Cealia Glasgow, 25 Aug 1847, , Kilwinning, Ayr, Scotland]. Index entry read 2026-11-04; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: catalogue people with the same given name and a Glasgow-surname variant were compared by dates, spouse, parents and place. Possible profile identities: none compatible. Ruled out: GLASGOW-2141 Charlotte (GLASGOW) Disson b. 1849 d. c. 1900: dates conflict: catalogue birth 1849 too late for a marriage in 1847; Glasgow-184 Charlotte (Glasgow) Row b. 1877-11-23 d. 1950: dates conflict: catalogue birth 1877-11-23 too late for a marriage in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Ripley, Indiana, United States); different named spouse (John Clarence Row; record names George); different named father (William R Glasgow; record names Robert); Unknown-695645 Charlotte (Unknown) Glasgow b. c. 1761: different named spouse (William Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Pike-16534 Charlotte E (Pike) Glasgow b. 1854 d. 1884-02-22: dates conflict: catalogue birth 1854 too late for a marriage in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Isle La Motte, Grand Isle, Vermont, United States); different named father (William; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Stoltz-1145 Charlotte Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); different named father (Parent outside current One-Tree export; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-1126 Charlotte Glasgow b. 1859 d. 1944: dates conflict: catalogue birth 1859 too late for a marriage in 1847; different named spouse (Henry Darch; record names George); Glasgow-3003 Charlotte Marie Cecilia (Glasgow) Drake b. 1827-11-22 d. 1875: place cannot fit: catalogue life recorded only outside the British Isles (Rome, Italy); different named spouse (Rev George Drake; record names George).\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "Charlotte Marie Cealia Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). No compatible catalogue person was found; a documentary draft is created.",
-      "current_conclusion": "Charlotte Marie Cealia Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). No compatible catalogue person was found; a documentary draft is created.",
-      "current_questions": [
-        "Inspect the original register entry for fuller names, residences and relatives."
-      ],
-      "creation_status": "creation_ready",
-      "reviewed_at": "2026-11-04",
-      "candidates": [],
-      "duplicate_audit": {
-        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant",
-        "candidates": [
-          {
-            "profile_id": "GLASGOW-2141",
-            "name": "Charlotte (GLASGOW) Disson",
-            "exclusion": "dates conflict: catalogue birth 1849 too late for a marriage in 1847"
-          },
-          {
-            "profile_id": "Glasgow-184",
-            "name": "Charlotte (Glasgow) Row",
-            "exclusion": "dates conflict: catalogue birth 1877-11-23 too late for a marriage in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Ripley, Indiana, United States); different named spouse (John Clarence Row; record names George); different named father (William R Glasgow; record names Robert)"
-          },
-          {
-            "profile_id": "Unknown-695645",
-            "name": "Charlotte (Unknown) Glasgow",
-            "exclusion": "different named spouse (William Glasgow; record names George); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Pike-16534",
-            "name": "Charlotte E (Pike) Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1854 too late for a marriage in 1847; place cannot fit: catalogue life recorded only outside the British Isles (Isle La Motte, Grand Isle, Vermont, United States); different named father (William; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Stoltz-1145",
-            "name": "Charlotte Glasgow",
-            "exclusion": "place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); different named father (Parent outside current One-Tree export; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride"
-          },
-          {
-            "profile_id": "Glasgow-1126",
-            "name": "Charlotte Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1859 too late for a marriage in 1847; different named spouse (Henry Darch; record names George)"
-          },
-          {
-            "profile_id": "Glasgow-3003",
-            "name": "Charlotte Marie Cecilia (Glasgow) Drake",
-            "exclusion": "place cannot fit: catalogue life recorded only outside the British Isles (Rome, Italy); different named spouse (Rev George Drake; record names George)"
-          }
-        ],
-        "conclusion": "creation_ready"
-      },
-      "records": [
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Charlotte Marie Cealia Glasgow, 25 Aug 1847",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4145328",
-          "source_type": "Provider index search row",
-          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-          "year": "1847",
-          "filter_year": 1847,
-          "record_location": ", Kilwinning, Ayr, Scotland",
-          "region": "Scotland",
-          "association": "Charlotte Marie Cealia Glasgow married George on 25 Aug 1847 at , Kilwinning, Ayr, Scotland; father Robert Glasgow.",
-          "note": "",
-          "evidence": "Provider index search row"
-        },
-        {
-          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Charlotte Marie Cealia Glasgow, 25 Aug 1847",
-          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4158329",
-          "source_type": "Provider index entry",
-          "source_status": "Ancestry index entry read 2026-11-04; original uninspected",
-          "year": "1847",
-          "filter_year": 1847,
-          "record_location": ", Kilwinning, Ayr, Scotland",
-          "association": "Charlotte Marie Cealia Glasgow married George on 25 Aug 1847 at , Kilwinning, Ayr, Scotland.",
-          "note": "Consolidated onto this documentary person: no recorded conflict of dates, spouse, parents or place.",
-          "evidence": "Provider index entry"
-        }
-      ]
-    },
-    {
       "catalogue_id": "record-ancestry-glasgow-f0dba0c01e41",
       "subject_id": "ancestry-glasgow-f0dba0c01e41",
       "name": "George Frederick Glasgow",
@@ -157871,6 +157084,1965 @@
           "record_location": "Gannow, Lancashire, England",
           "region": "England",
           "association": "George Edwin Glasgow was christened on 12 Jul 1900 at Gannow, Lancashire, England, born 4 Jun 1900; parents George Edwin Glasgow and Margaret Glasgow.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-83ec3fb0383d",
+      "subject_id": "ancestry-glasgow-83ec3fb0383d",
+      "name": "Margaret Glasgow",
+      "first_names": [
+        "Margaret"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1805,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4132486",
+        "basis_kind": "record",
+        "explanation": "Marriage 9 Jun 1818"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/4132486",
+      "research_subject_url": "/people/record-ancestry-glasgow-83ec3fb0383d.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nMargaret Glasgow married James on 9 Jun 1818 at Rothesay, Bute, Scotland; father Andrew Glasgow.<ref name=\"anc4132486\">[https://www.ancestry.co.uk/search/collections/60144/records/4132486 Ancestry, Scotland, Select Marriages, 1561-1910, Margaret Glasgow, 9 Jun 1818, Rothesay, Bute, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-3053 (Margaret Glasgow, born 1734 at Kirknewton) was removed as the bride: she would have been 84 at this marriage. The bride is held as a new draft. Her father Andrew is linked as a possible identity to Glasgow-1616, the son of David Glasgow who married Mary at Rothesay in 1790; consolidated draft record-ancestry-glasgow-5dcff552b0ad is withdrawn. Probably a daughter of Andrew Glasgow (Glasgow-1616), who married Mary at Rothesay in 1790; not yet tested against a baptism. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Margaret Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Margaret Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Margaret Glasgow, 9 Jun 1818",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4132486",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1818",
+          "filter_year": 1818,
+          "record_location": "Rothesay, Bute, Scotland",
+          "region": "Scotland",
+          "association": "Margaret Glasgow married James on 9 Jun 1818 at Rothesay, Bute, Scotland; father Andrew Glasgow.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-f97c0b0b817d",
+      "subject_id": "ancestry-glasgow-f97c0b0b817d",
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1817,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/9866547",
+        "basis_kind": "record",
+        "explanation": "Indexed birth 1817"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/9866547",
+      "research_subject_url": "/people/record-ancestry-glasgow-f97c0b0b817d.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow was buried on 20 Jun 1819 at Birmingham, Warwick, England, aged 2.<ref name=\"anc9866547\">[https://www.ancestry.co.uk/search/collections/9840/records/9866547 Ancestry, England, Select Deaths and Burials, 1538-1991, Robert Glasgow, 20 Jun 1819, Birmingham, Warwick, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-4018 (Robert Glasgow of Drumgreenagh, County Armagh, an adult in an 1836 Armagh probate) was removed: this Robert was a two-year-old child buried at Birmingham in 1819. The child is held as a new draft. Child of Robert and Mary Glasgow of Birmingham, buried aged 2. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Robert Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Robert Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Robert Glasgow, 20 Jun 1819",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/9866547",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1819",
+          "filter_year": 1819,
+          "record_location": "Birmingham, Warwick, England",
+          "region": "England",
+          "association": "Robert Glasgow was buried on 20 Jun 1819 at Birmingham, Warwick, England, aged 2.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e57d5cbfcb5e",
+      "subject_id": "ancestry-glasgow-e57d5cbfcb5e",
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1772,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4822731",
+        "basis_kind": "record",
+        "explanation": "Indexed birth 6 Feb 1772"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1351/records/4822731",
+      "research_subject_url": "/people/record-ancestry-glasgow-e57d5cbfcb5e.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-wales-christening-index-1351.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow was christened on 16 Feb 1772 at Westminster, London, England, born 6 Feb 1772; parents John Glasgow and Eleanor Glasgow.<ref name=\"anc4822731\">[https://www.ancestry.co.uk/search/collections/1351/records/4822731 Ancestry, England & Wales, Christening Index, 1530-1980, John Glasgow, 16 Feb 1772, Westminster, London, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-4090 (John Glasgow of Desertoghill, County Londonderry) was removed: nothing places him at Westminster, and his own father is recorded in County Antrim. The child is held as a new draft. Brother, on the indexed parents, of Mary Glasgow christened at Westminster in 1770; parents John and Eleanor Glasgow. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "John Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "John Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England & Wales, Christening Index, 1530-1980: John Glasgow, 16 Feb 1772",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4822731",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1772",
+          "filter_year": 1772,
+          "record_location": "Westminster, London, England",
+          "region": "England",
+          "association": "John Glasgow was christened on 16 Feb 1772 at Westminster, London, England, born 6 Feb 1772; parents John Glasgow and Eleanor Glasgow.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-ab89bb3000d9",
+      "subject_id": "ancestry-glasgow-ab89bb3000d9",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1820,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3476627",
+        "basis_kind": "record",
+        "explanation": "Marriage 30 Dec 1833"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/3476627",
+      "research_subject_url": "/people/record-ancestry-glasgow-ab89bb3000d9.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow is named as father of Janet Glasgow at her marriage on 30 Dec 1833 at Inveresk With Musselburgh, Midlothian, Scotland.<ref name=\"anc3476627\">[https://www.ancestry.co.uk/search/collections/60144/records/3476627 Ancestry, Scotland, Select Marriages, 1561-1910, William Glasgow, 30 Dec 1833, Inveresk With Musselburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\nWilliam Glasgow is named as father of Janet Glasgow at her marriage on 30 Dec 1833 at Inveresk With Musselburgh, Midlothian, Scotland.<ref name=\"anc3476628\">[https://www.ancestry.co.uk/search/collections/60144/records/3476628 Ancestry, Scotland, Select Marriages, 1561-1910, William Glasgow, 30 Dec 1833, Inveresk With Musselburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1675 (William Glasgow, born 1799 in County Tyrone, died 1855 in Ohio) was removed as the father: he would have been 34 with a daughter already marrying, and nothing places him at Inveresk. The father is held as a new draft. Glasgow-1675 (William Glasgow, born 1799 in County Tyrone, died 1855 in Ohio) was removed: he would have been 34 with a daughter already marrying, and nothing places him at Inveresk. The father is held as a new draft. Father of Janet Glasgow, who married William at Inveresk in 1833. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "William Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Janet Glasgow). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "William Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Janet Glasgow). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Janet Glasgow, 30 Dec 1833",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3476627",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1833",
+          "filter_year": 1833,
+          "record_location": "Inveresk With Musselburgh, Midlothian, Scotland",
+          "region": "Scotland",
+          "association": "Janet Glasgow married William on 30 Dec 1833 at Inveresk With Musselburgh, Midlothian, Scotland; father William Glasgow.",
+          "note": "",
+          "evidence": "Provider index search row"
+        },
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: William Glasgow, 30 Dec 1833",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3476628",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1833",
+          "filter_year": 1833,
+          "record_location": "Inveresk With Musselburgh, Midlothian, Scotland",
+          "region": "Scotland",
+          "association": "William Glasgow — parent named in the marriage of Janet Glasgow; Scotland, Select Marriages, 1561-1910",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-84e25b360b3a",
+      "subject_id": "ancestry-glasgow-84e25b360b3a",
+      "name": "John James Glasgow",
+      "first_names": [
+        "John",
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1789,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4936290",
+        "basis_kind": "record",
+        "explanation": "Christening 8 Feb 1789"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1351/records/4936290",
+      "research_subject_url": "/people/record-ancestry-glasgow-84e25b360b3a.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-wales-christening-index-1351.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn James Glasgow was christened on 8 Feb 1789 at Chertsey, Surrey, England; parents Mary Glasgow.<ref name=\"anc4936290\">[https://www.ancestry.co.uk/search/collections/1351/records/4936290 Ancestry, England & Wales, Christening Index, 1530-1980, John James Glasgow, 8 Feb 1789, Chertsey, Surrey, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-2058 (John Glasgow of Killycurragh, County Tyrone, born before 1788) was removed: nothing places him at Chertsey, and the Tyrone profile is not John James. The child is held as a new draft. Child of Mary Glasgow; no father is indexed. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "John James Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "John James Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England & Wales, Christening Index, 1530-1980: John James Glasgow, 8 Feb 1789",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4936290",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1789",
+          "filter_year": 1789,
+          "record_location": "Chertsey, Surrey, England",
+          "region": "England",
+          "association": "John James Glasgow was christened on 8 Feb 1789 at Chertsey, Surrey, England; parents Mary Glasgow.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-bb7cb63f9cc1",
+      "subject_id": "ancestry-glasgow-bb7cb63f9cc1",
+      "name": "George Glasgow",
+      "first_names": [
+        "George"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1809,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/370985",
+        "basis_kind": "record",
+        "explanation": "Indexed birth abt 1809"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/370985",
+      "research_subject_url": "/people/record-ancestry-glasgow-bb7cb63f9cc1.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow died in 1816 aged 7 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.<ref name=\"anc370985\">[https://www.ancestry.co.uk/search/collections/62497/records/370985 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, George Glasgow, 1816, Leadhills Cemetery, Lanarkshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1307 (George Glasgow of Kirknewton, son of John Glasgow and Margaret Muckle) was removed: the monument makes this George, died 21 July 1816 aged 7, one of the children of Janet Thomson and William Glasgow, gamekeeper to the Earl of Hopetoun. Those parents are Thomson-14488 and Glasgow-2715 of Crawford parish, which includes Leadhills; George is held as a new draft. Son of William Glasgow (Glasgow-2715), gamekeeper to the Earl of Hopetoun, and Janet Thomson (Thomson-14488), on their Leadhills monument. The later George (Glasgow-638, born 1818) is a younger brother of the same name, not this child. No catalogue profile represents this child.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "George Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The parents are identified on the same monument.",
+      "current_conclusion": "George Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The parents are identified on the same monument.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "creation_ready",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "creation_ready"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: George Glasgow, 1816",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/370985",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1816",
+          "filter_year": 1816,
+          "record_location": "Leadhills Cemetery, Lanarkshire, Scotland",
+          "region": "Scotland",
+          "association": "George Glasgow died in 1816 aged 7 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-22a21851a2cc",
+      "subject_id": "ancestry-glasgow-22a21851a2cc",
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1820,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/370621",
+        "basis_kind": "record",
+        "explanation": "Indexed birth abt 1820"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/370621",
+      "research_subject_url": "/people/record-ancestry-glasgow-22a21851a2cc.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow died in 1894 aged 74 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.<ref name=\"anc370621\">[https://www.ancestry.co.uk/search/collections/62497/records/370621 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, James Glasgow, 1894, Leadhills Cemetery, Lanarkshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-2089 (James W Glasgow, born about 1821 in South Carolina) was removed: his recorded life is in the United States, while this James was long in the service of the Hopetoun family and is buried at Leadhills. He is held as a new draft. For many years in the service of the Hopetoun family; possibly connected with the Leadhills family of William Glasgow, gamekeeper (Glasgow-2715), not tested. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: James Glasgow, 1894",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/370621",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1894",
+          "filter_year": 1894,
+          "record_location": "Leadhills Cemetery, Lanarkshire, Scotland",
+          "region": "Scotland",
+          "association": "James Glasgow died in 1894 aged 74 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-c893b177e7e3",
+      "subject_id": "ancestry-glasgow-c893b177e7e3",
+      "name": "Annie Glasgow",
+      "first_names": [
+        "Annie"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1884,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/370623",
+        "basis_kind": "record",
+        "explanation": "Indexed birth abt 1884"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/370623",
+      "research_subject_url": "/people/record-ancestry-glasgow-c893b177e7e3.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnnie Glasgow died in 1911 aged 27 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.<ref name=\"anc370623\">[https://www.ancestry.co.uk/search/collections/62497/records/370623 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, Annie Glasgow, 1911, Leadhills Cemetery, Lanarkshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-900 (Anna Greiner, of a County Tyrone family) was removed: nothing places her at Leadhills, and the monument groups this Annie with James Glasgow of the Hopetoun service. She is held as a new draft. Commemorated on the monument of James Glasgow of the Hopetoun service at Leadhills. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Annie Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Annie Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: Annie Glasgow, 1911",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/370623",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1911",
+          "filter_year": 1911,
+          "record_location": "Leadhills Cemetery, Lanarkshire, Scotland",
+          "region": "Scotland",
+          "association": "Annie Glasgow died in 1911 aged 27 and is commemorated at Leadhills Cemetery, Lanarkshire, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-f0aa8bf0acb1",
+      "subject_id": "ancestry-glasgow-f0aa8bf0acb1",
+      "name": "Jessie Glasgow",
+      "first_names": [
+        "Jessie"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1854,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1339120",
+        "basis_kind": "record",
+        "explanation": "Marriage 20 Sep 1867"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/1339120",
+      "research_subject_url": "/people/record-ancestry-glasgow-f0aa8bf0acb1.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJessie Glasgow married William on 20 Sep 1867 at Edinburgh Parish, Edinburgh, Midlothian, Scotland.<ref name=\"anc1339120\">[https://www.ancestry.co.uk/search/collections/60144/records/1339120 Ancestry, Scotland, Select Marriages, 1561-1910, Jessie Glasgow, 20 Sep 1867, Edinburgh Parish, Edinburgh, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-2129 (Jane Glasgow, born about 1812 in Pennsylvania, wife of William Smiley) was removed: her recorded life is in the United States, and she would have been 55. The bride is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Jessie Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Jessie Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Jessie Glasgow, 20 Sep 1867",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1339120",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1867",
+          "filter_year": 1867,
+          "record_location": "Edinburgh Parish, Edinburgh, Midlothian, Scotland",
+          "region": "Scotland",
+          "association": "Jessie Glasgow married William on 20 Sep 1867 at Edinburgh Parish, Edinburgh, Midlothian, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-5ae4eb01f526",
+      "subject_id": "ancestry-glasgow-5ae4eb01f526",
+      "name": "Agnes Glasgow",
+      "first_names": [
+        "Agnes"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1828,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1479001",
+        "basis_kind": "record",
+        "explanation": "Marriage 22 Oct 1841"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/1479001",
+      "research_subject_url": "/people/record-ancestry-glasgow-5ae4eb01f526.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAgnes Glasgow married Thomas on 22 Oct 1841 at Aberlady, East Lothian, Scotland.<ref name=\"anc1479001\">[https://www.ancestry.co.uk/search/collections/60144/records/1479001 Ancestry, Scotland, Select Marriages, 1561-1910, Agnes Glasgow, 22 Oct 1841, Aberlady, East Lothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glascoe-11 (Nancy Wright, born about 1778, of Peters Township, Pennsylvania) was removed: her married life is in Pennsylvania, and she would have been 63. The bride is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Agnes Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Agnes Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Agnes Glasgow, 22 Oct 1841",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1479001",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1841",
+          "filter_year": 1841,
+          "record_location": "Aberlady, East Lothian, Scotland",
+          "region": "Scotland",
+          "association": "Agnes Glasgow married Thomas on 22 Oct 1841 at Aberlady, East Lothian, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-d1d59c116410",
+      "subject_id": "ancestry-glasgow-d1d59c116410",
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1740,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1510172",
+        "basis_kind": "record",
+        "explanation": "Marriage 16 Nov 1753"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/1510172",
+      "research_subject_url": "/people/record-ancestry-glasgow-d1d59c116410.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow married Janet on 16 Nov 1753 at Kirknewton, Linlithgowshire, Scotland.<ref name=\"anc1510172\">[https://www.ancestry.co.uk/search/collections/60144/records/1510172 Ancestry, Scotland, Select Marriages, 1561-1910, James Glasgow, 16 Nov 1753, Kirknewton, Linlithgowshire, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1509 (James Glasgow, born 1737 in County Antrim, of the Larne family) was removed: he would have been 16, and nothing places him at Kirknewton. The groom is held as a new draft. Compare the Kirknewton Glasgow family of the 1730s and 1750s. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "James Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: James Glasgow, 16 Nov 1753",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1510172",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1753",
+          "filter_year": 1753,
+          "record_location": "Kirknewton, Linlithgowshire, Scotland",
+          "region": "Scotland",
+          "association": "James Glasgow married Janet on 16 Nov 1753 at Kirknewton, Linlithgowshire, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-7427f91b9f8a",
+      "subject_id": "ancestry-glasgow-7427f91b9f8a",
+      "name": "Alexander Glasgow",
+      "first_names": [
+        "Alexander"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1857,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2395154",
+        "basis_kind": "record",
+        "explanation": "Marriage 28 Jun 1870"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/2395154",
+      "research_subject_url": "/people/record-ancestry-glasgow-7427f91b9f8a.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAlexander Glasgow married Lizzie on 28 Jun 1870 at Central District, Glasgow, Lanark, Scotland.<ref name=\"anc2395154\">[https://www.ancestry.co.uk/search/collections/60144/records/2395154 Ancestry, Scotland, Select Marriages, 1561-1910, Alexander Glasgow, 28 Jun 1870, Central District, Glasgow, Lanark, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-970 (Alexander John Glasgow, born about 1857 in County Cork, died in New Zealand) was removed: he would have been 13 at this marriage. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Alexander Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Alexander Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Alexander Glasgow, 28 Jun 1870",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2395154",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1870",
+          "filter_year": 1870,
+          "record_location": "Central District, Glasgow, Lanark, Scotland",
+          "region": "Scotland",
+          "association": "Alexander Glasgow married Lizzie on 28 Jun 1870 at Central District, Glasgow, Lanark, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-8a6f79c09e09",
+      "subject_id": "ancestry-glasgow-8a6f79c09e09",
+      "name": "Philip Glasgow",
+      "first_names": [
+        "Philip"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1831,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1250310",
+        "basis_kind": "record",
+        "explanation": "Marriage 7 Jun 1844"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/1250310",
+      "research_subject_url": "/people/record-ancestry-glasgow-8a6f79c09e09.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nPhilip Glasgow married Agnes Rutherford on 7 Jun 1844 at Newton, Midlothian, Scotland.<ref name=\"anc1250310\">[https://www.ancestry.co.uk/search/collections/60144/records/1250310 Ancestry, Scotland, Select Marriages, 1561-1910, Philip Glasgow, 7 Jun 1844, Newton, Midlothian, Scotland]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasco-150 (Philip Glasco, born 1762 in County Dublin) was removed: he would have been 82, and nothing places him in Midlothian. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Philip Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Philip Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Philip Glasgow, 7 Jun 1844",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1250310",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1844",
+          "filter_year": 1844,
+          "record_location": "Newton, Midlothian, Scotland",
+          "region": "Scotland",
+          "association": "Philip Glasgow married Agnes Rutherford on 7 Jun 1844 at Newton, Midlothian, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-39fd2e91bbf2",
+      "subject_id": "ancestry-glasgow-39fd2e91bbf2",
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1711,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/353849",
+        "basis_kind": "record",
+        "explanation": "Marriage 6 Mar 1724"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/353849",
+      "research_subject_url": "/people/record-ancestry-glasgow-39fd2e91bbf2.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow married Isabel on 6 Mar 1724 at Cavers, Roxburgh, Scotland.<ref name=\"anc353849\">[https://www.ancestry.co.uk/search/collections/60144/records/353849 Ancestry, Scotland, Select Marriages, 1561-1910, James Glasgow, 6 Mar 1724, Cavers, Roxburgh, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-2682 (James Glasgow, baptised before 1641 in Midlothian) was removed: he would have been over 80 at this 1724 marriage. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "James Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: James Glasgow, 6 Mar 1724",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/353849",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1724",
+          "filter_year": 1724,
+          "record_location": "Cavers, Roxburgh, Scotland",
+          "region": "Scotland",
+          "association": "James Glasgow married Isabel on 6 Mar 1724 at Cavers, Roxburgh, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-3047e83733d7",
+      "subject_id": "ancestry-glasgow-3047e83733d7",
+      "name": "Catherine Glasgow",
+      "first_names": [
+        "Catherine"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1842,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3258038",
+        "basis_kind": "record",
+        "explanation": "Marriage 13 Jul 1855"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/3258038",
+      "research_subject_url": "/people/record-ancestry-glasgow-3047e83733d7.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nCatherine Glasgow married James on 13 Jul 1855 at Kirknewton and East Calder, Midlothian, Scotland.<ref name=\"anc3258038\">[https://www.ancestry.co.uk/search/collections/60144/records/3258038 Ancestry, Scotland, Select Marriages, 1561-1910, Catherine Glasgow, 13 Jul 1855, Kirknewton and East Calder, Midlothian, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-953 (Katherine (Glasgow) McClelland, born 1818 in West Virginia, died 1897 in Iowa) was removed: her recorded life is in the United States. The bride is held as a new draft. Compare the Kirknewton Glasgow family. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Catherine Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Catherine Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (bride). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Catherine Glasgow, 13 Jul 1855",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3258038",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1855",
+          "filter_year": 1855,
+          "record_location": "Kirknewton and East Calder, Midlothian, Scotland",
+          "region": "Scotland",
+          "association": "Catherine Glasgow married James on 13 Jul 1855 at Kirknewton and East Calder, Midlothian, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-300b6dc6b7ef",
+      "subject_id": "ancestry-glasgow-300b6dc6b7ef",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1852,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3572094",
+        "basis_kind": "record",
+        "explanation": "Marriage 16 Feb 1865"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/3572094",
+      "research_subject_url": "/people/record-ancestry-glasgow-300b6dc6b7ef.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow married Marion on 16 Feb 1865 at Hutchesontown, Glasgow, Lanark, Scotland.<ref name=\"anc3572094\">[https://www.ancestry.co.uk/search/collections/60144/records/3572094 Ancestry, Scotland, Select Marriages, 1561-1910, William Glasgow, 16 Feb 1865, Hutchesontown, Glasgow, Lanark, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-875 (William Barclay Glasgow, born 1816 in the United States, died 1907 in Adams County, Ohio) was removed: his recorded life is in the United States. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "William Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "William Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: William Glasgow, 16 Feb 1865",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3572094",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1865",
+          "filter_year": 1865,
+          "record_location": "Hutchesontown, Glasgow, Lanark, Scotland",
+          "region": "Scotland",
+          "association": "William Glasgow married Marion on 16 Feb 1865 at Hutchesontown, Glasgow, Lanark, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-311a2b9faafb",
+      "subject_id": "ancestry-glasgow-311a2b9faafb",
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1848,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3796253",
+        "basis_kind": "record",
+        "explanation": "Marriage 16 Jul 1861"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/3796253",
+      "research_subject_url": "/people/record-ancestry-glasgow-311a2b9faafb.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-select-marriages-60144.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow married Catherine on 16 Jul 1861 at Tradeston, Glasgow, Lanark, Scotland.<ref name=\"anc3796253\">[https://www.ancestry.co.uk/search/collections/60144/records/3796253 Ancestry, Scotland, Select Marriages, 1561-1910, Robert Glasgow, 16 Jul 1861, Tradeston, Glasgow, Lanark, Scotland]. Ancestry search-result row read 2026-11-04; original register uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-902 (Robert Arthur Glasgow, born 1792 and died 1862 in Rockbridge County, Virginia) was removed: his whole recorded life is in Virginia, and he would have been 69. The groom is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Robert Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Robert Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (groom). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Robert Glasgow, 16 Jul 1861",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3796253",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
+          "year": "1861",
+          "filter_year": 1861,
+          "record_location": "Tradeston, Glasgow, Lanark, Scotland",
+          "region": "Scotland",
+          "association": "Robert Glasgow married Catherine on 16 Jul 1861 at Tradeston, Glasgow, Lanark, Scotland.",
+          "note": "",
+          "evidence": "Provider index search row"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-2c72da352654",
+      "subject_id": "ancestry-glasgow-2c72da352654",
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/132852",
+        "basis_kind": "record",
+        "explanation": "Indexed birth abt 1840"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/132852",
+      "research_subject_url": "/people/record-ancestry-glasgow-2c72da352654.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow died in 1904 aged 64 and is commemorated at Coylton Churchyard and Cemetery, Ayrshire, Scotland.<ref name=\"anc132852\">[https://www.ancestry.co.uk/search/collections/62497/records/132852 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, James Glasgow, 1904, Coylton Churchyard and Cemetery, Ayrshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-3673 (James Glasgow, born about 1840 in Virginia) was removed: his recorded life is in the United States, and the same profile had also been linked to a different James buried at Kirknewton. This James is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: James Glasgow, 1904",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/132852",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1904",
+          "filter_year": 1904,
+          "record_location": "Coylton Churchyard and Cemetery, Ayrshire, Scotland",
+          "region": "Scotland",
+          "association": "James Glasgow died in 1904 aged 64 and is commemorated at Coylton Churchyard and Cemetery, Ayrshire, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-98605ded7d74",
+      "subject_id": "ancestry-glasgow-98605ded7d74",
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1841,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/348011",
+        "basis_kind": "record",
+        "explanation": "Indexed birth abt 1841"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/348011",
+      "research_subject_url": "/people/record-ancestry-glasgow-98605ded7d74.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Glasgow died in 1903 aged 62 and is commemorated at Kirknewton Churchyard, West Lothian, Scotland.<ref name=\"anc348011\">[https://www.ancestry.co.uk/search/collections/62497/records/348011 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, James Glasgow, 1903, Kirknewton Churchyard, West Lothian, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-3673 (James Glasgow, born about 1840 in Virginia) was removed: his recorded life is in the United States, and the same profile had also been linked to a different James buried at Coylton. This James is held as a new draft. Compare the Kirknewton Glasgow family. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "James Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: James Glasgow, 1903",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/348011",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1903",
+          "filter_year": 1903,
+          "record_location": "Kirknewton Churchyard, West Lothian, Scotland",
+          "region": "Scotland",
+          "association": "James Glasgow died in 1903 aged 62 and is commemorated at Kirknewton Churchyard, West Lothian, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e1813d63a866",
+      "subject_id": "ancestry-glasgow-e1813d63a866",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1844,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/17110",
+        "basis_kind": "record",
+        "explanation": "Indexed birth abt 1844"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/17110",
+      "research_subject_url": "/people/record-ancestry-glasgow-e1813d63a866.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow died in 1875 aged 31 and is commemorated at Alloway Old Kirkyard and Cemetery, Ayrshire, Scotland.<ref name=\"anc17110\">[https://www.ancestry.co.uk/search/collections/62497/records/17110 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, William Glasgow, 1875, Alloway Old Kirkyard and Cemetery, Ayrshire, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasco-103 (William Emery Glasco, born about 1843 in Illinois) was removed: his recorded life is in the United States. This William is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "William Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "William Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: William Glasgow, 1875",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/17110",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1875",
+          "filter_year": 1875,
+          "record_location": "Alloway Old Kirkyard and Cemetery, Ayrshire, Scotland",
+          "region": "Scotland",
+          "association": "William Glasgow died in 1875 aged 31 and is commemorated at Alloway Old Kirkyard and Cemetery, Ayrshire, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-d33655e713de",
+      "subject_id": "ancestry-glasgow-d33655e713de",
+      "name": "James Ker Glasgow",
+      "first_names": [
+        "James",
+        "Ker"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1886,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/3843",
+        "basis_kind": "record",
+        "explanation": "Indexed birth 1886"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/3843",
+      "research_subject_url": "/people/record-ancestry-glasgow-d33655e713de.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Ker Glasgow died in 1886 in infancy and is commemorated at Abbotshall Churchyard, Fife, Scotland.<ref name=\"anc3843\">[https://www.ancestry.co.uk/search/collections/62497/records/3843 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, James Ker Glasgow, 1886, Abbotshall Churchyard, Fife, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-4319 (James Glasgow, born 8 October 1886 at Cookstown) was removed: this James Ker Glasgow died in infancy in 1886 and is commemorated in Fife. He is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Ker Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "James Ker Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: James Ker Glasgow, 1886",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/3843",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1886",
+          "filter_year": 1886,
+          "record_location": "Abbotshall Churchyard, Fife, Scotland",
+          "region": "Scotland",
+          "association": "James Ker Glasgow died in 1886 in infancy and is commemorated at Abbotshall Churchyard, Fife, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-f6c6fd324a45",
+      "subject_id": "ancestry-glasgow-f6c6fd324a45",
+      "name": "Thomas L Glasgow",
+      "first_names": [
+        "Thomas",
+        "L"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1893,
+        "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/8337",
+        "basis_kind": "record",
+        "explanation": "Indexed birth abt 1893"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/62497/records/8337",
+      "research_subject_url": "/people/record-ancestry-glasgow-f6c6fd324a45.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/scotland-burial-monument-inscriptions-62497.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThomas L Glasgow died in 1898 aged 5 and is commemorated at Aberlady Churchyard, East Lothian, Scotland.<ref name=\"anc8337\">[https://www.ancestry.co.uk/search/collections/62497/records/8337 Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024, Thomas L Glasgow, 1898, Aberlady Churchyard, East Lothian, Scotland]. Ancestry index transcript inspected 2026-11-04; original images uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-4277 (Thomas Glasgow, born 24 November 1894 at Belfast) was removed: this Thomas L Glasgow, born about 1893, died aged 5 and is commemorated at Aberlady. He is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Thomas L Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Thomas L Glasgow is known here from the Ancestry Scotland, Burial Monument Inscriptions, 1507-2024 entry (commemorated person). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Burial Monument Inscriptions, 1507-2024: Thomas L Glasgow, 1898",
+          "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/8337",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original images uninspected",
+          "year": "1898",
+          "filter_year": 1898,
+          "record_location": "Aberlady Churchyard, East Lothian, Scotland",
+          "region": "Scotland",
+          "association": "Thomas L Glasgow died in 1898 aged 5 and is commemorated at Aberlady Churchyard, East Lothian, Scotland.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-1661589425a2",
+      "subject_id": "ancestry-glasgow-1661589425a2",
+      "name": "William James Theodore Glasgow",
+      "first_names": [
+        "William",
+        "James",
+        "Theodore"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1862,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/808086",
+        "basis_kind": "record",
+        "explanation": "Christening 11 May 1862"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1351/records/808086",
+      "research_subject_url": "/people/record-ancestry-glasgow-1661589425a2.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-wales-christening-index-1351.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam James Theodore Glasgow was christened on 11 May 1862 at Sandown, Hampshire, England; parents William James Glasgow and Dora Glasgow.<ref name=\"anc808086\">[https://www.ancestry.co.uk/search/collections/1351/records/808086 Ancestry, England & Wales, Christening Index, 1530-1980, William James Theodore Glasgow, 11 May 1862, Sandown, Hampshire, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-3156 (an unnamed Glasgow born before 1860 at Derrynoose, County Armagh) was removed as the child: this is William James Theodore, christened at Sandown in 1862, son of William James and Dora Glasgow. He is held as a new draft. Son of William James Glasgow and Dora Glasgow; compare Glasgow-969 and Shaw-18558, whose children Rose Mary and John were christened at Ryde in 1877. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "William James Theodore Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "William James Theodore Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England & Wales, Christening Index, 1530-1980: William James Theodore Glasgow, 11 May 1862",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/808086",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1862",
+          "filter_year": 1862,
+          "record_location": "Sandown, Hampshire, England",
+          "region": "England",
+          "association": "William James Theodore Glasgow was christened on 11 May 1862 at Sandown, Hampshire, England; parents William James Glasgow and Dora Glasgow.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-0722bbd77b4e",
+      "subject_id": "ancestry-glasgow-0722bbd77b4e",
+      "name": "Annie Glasgow",
+      "first_names": [
+        "Annie"
+      ],
+      "last_names_at_birth": [],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1886,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/927162",
+        "basis_kind": "record",
+        "explanation": "Christening 20 Jun 1886"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1351/records/927162",
+      "research_subject_url": "/people/record-ancestry-glasgow-0722bbd77b4e.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-wales-christening-index-1351.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnnie Glasgow is named as mother of Edith Glasgow, christened on 20 Jun 1886 at Kendal, Westmorland, England.<ref name=\"anc927162\">[https://www.ancestry.co.uk/search/collections/1351/records/927162 Ancestry, England & Wales, Christening Index, 1530-1980, Annie Glasgow, 20 Jun 1886, Kendal, Westmorland, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-2901 (Annie Coulson (Glasgow) Crawford, born 1848 in India) was removed as the mother: she was a Glasgow by birth and married William Crawford, so her children would not be christened Glasgow. The mother is held as a new draft. Wife of William Glasgow and mother of Edith, christened at Kendal in 1886. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Annie Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (mother of Edith Glasgow). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Annie Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (mother of Edith Glasgow). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England & Wales, Christening Index, 1530-1980: Edith Glasgow, 20 Jun 1886",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/927162",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1886",
+          "filter_year": 1886,
+          "record_location": "Kendal, Westmorland, England",
+          "region": "England",
+          "association": "Edith Glasgow was christened on 20 Jun 1886 at Kendal, Westmorland, England; parents William Glasgow and Annie Glasgow.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-7e0b9e971a9c",
+      "subject_id": "ancestry-glasgow-7e0b9e971a9c",
+      "name": "Margaret Glasgow",
+      "first_names": [
+        "Margaret"
+      ],
+      "last_names_at_birth": [],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1900,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4149797",
+        "basis_kind": "record",
+        "explanation": "Indexed birth 4 Jun 1900"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1351/records/4149797",
+      "research_subject_url": "/people/record-ancestry-glasgow-7e0b9e971a9c.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-wales-christening-index-1351.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nMargaret Glasgow is named as mother of George Edwin Glasgow, christened on 12 Jul 1900 at Gannow, Lancashire, England.<ref name=\"anc4149797\">[https://www.ancestry.co.uk/search/collections/1351/records/4149797 Ancestry, England & Wales, Christening Index, 1530-1980, Margaret Glasgow, 12 Jul 1900, Gannow, Lancashire, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-4076 (Margaret Jane (Glasgow) Fisher, born about 1869 in the United States, died about 1951 in Illinois) was removed as the mother: she was a Glasgow by birth, married George William Fisher, and her recorded life is in the United States. The mother is held as a new draft. Wife of George Edwin Glasgow and mother of George Edwin, christened at Gannow in 1900. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Margaret Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (mother of George Edwin Glasgow). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Margaret Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (mother of George Edwin Glasgow). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England & Wales, Christening Index, 1530-1980: George Edwin Glasgow, 12 Jul 1900",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4149797",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1900",
+          "filter_year": 1900,
+          "record_location": "Gannow, Lancashire, England",
+          "region": "England",
+          "association": "George Edwin Glasgow was christened on 12 Jul 1900 at Gannow, Lancashire, England, born 4 Jun 1900; parents George Edwin Glasgow and Margaret Glasgow.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-922e4651cd7b",
+      "subject_id": "ancestry-glasgow-922e4651cd7b",
+      "name": "Elizabeth Millicent Glasgow",
+      "first_names": [
+        "Elizabeth",
+        "Millicent"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1866,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/12411130",
+        "basis_kind": "record",
+        "explanation": "Indexed birth 1866"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/12411130",
+      "research_subject_url": "/people/record-ancestry-glasgow-922e4651cd7b.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nElizabeth Millicent Glasgow was buried on 25 Jul 1925 at Morden Parish, Surrey County, England, aged 59.<ref name=\"anc12411130\">[https://www.ancestry.co.uk/search/collections/9840/records/12411130 Ancestry, England, Select Deaths and Burials, 1538-1991, Elizabeth Millicent Glasgow, 25 Jul 1925, Morden Parish, Surrey County, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-2282 (Eliza Glasgow, born about 1867 in North Carolina) was removed: her recorded life is in the United States. Elizabeth Millicent is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Elizabeth Millicent Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Elizabeth Millicent Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Elizabeth Millicent Glasgow, 25 Jul 1925",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/12411130",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1925",
+          "filter_year": 1925,
+          "record_location": "Morden Parish, Surrey County, England",
+          "region": "England",
+          "association": "Elizabeth Millicent Glasgow was buried on 25 Jul 1925 at Morden Parish, Surrey County, England, aged 59.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-74f823f8eee6",
+      "subject_id": "ancestry-glasgow-74f823f8eee6",
+      "name": "Elizabeth Emma Glasgow",
+      "first_names": [
+        "Elizabeth",
+        "Emma"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1848,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/1392192",
+        "basis_kind": "record",
+        "explanation": "Indexed birth 1848"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/1392192",
+      "research_subject_url": "/people/record-ancestry-glasgow-74f823f8eee6.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nElizabeth Emma Glasgow was buried on 6 Oct 1924 at Morden Parish, Surrey, England, aged 76.<ref name=\"anc1392192\">[https://www.ancestry.co.uk/search/collections/9840/records/1392192 Ancestry, England, Select Deaths and Burials, 1538-1991, Elizabeth Emma Glasgow, 6 Oct 1924, Morden Parish, Surrey, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-444 (Elizabeth J Glasgow, born about 1848 in Tennessee, wife of Alexander Henry Twente) was removed: her recorded life is in the United States. Elizabeth Emma is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Elizabeth Emma Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Elizabeth Emma Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Elizabeth Emma Glasgow, 6 Oct 1924",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/1392192",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1924",
+          "filter_year": 1924,
+          "record_location": "Morden Parish, Surrey, England",
+          "region": "England",
+          "association": "Elizabeth Emma Glasgow was buried on 6 Oct 1924 at Morden Parish, Surrey, England, aged 76.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-6a992dea1b57",
+      "subject_id": "ancestry-glasgow-6a992dea1b57",
+      "name": "Mary Glasgow",
+      "first_names": [
+        "Mary"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1868,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/10585256",
+        "basis_kind": "record",
+        "explanation": "Death abt 1868"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/10585256",
+      "research_subject_url": "/people/record-ancestry-glasgow-6a992dea1b57.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nMary Glasgow was buried on 12 Jan 1868 at Yarmouth, Norfolk, England.<ref name=\"anc10585256\">[https://www.ancestry.co.uk/search/collections/9840/records/10585256 Ancestry, England, Select Deaths and Burials, 1538-1991, Mary Glasgow, 12 Jan 1868, Yarmouth, Norfolk, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Alsup-498 (Mary Ann (Alsup) Glasco, born about 1832 in Tennessee) was removed: her recorded life is in the United States. This Mary is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Mary Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Mary Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Mary Glasgow, 12 Jan 1868",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/10585256",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1868",
+          "filter_year": 1868,
+          "record_location": "Yarmouth, Norfolk, England",
+          "region": "England",
+          "association": "Mary Glasgow was buried on 12 Jan 1868 at Yarmouth, Norfolk, England.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-5225c7759342",
+      "subject_id": "ancestry-glasgow-5225c7759342",
+      "name": "Ann Glasgow",
+      "first_names": [
+        "Ann"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1861,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/19100268",
+        "basis_kind": "record",
+        "explanation": "Death abt 1861"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/19100268",
+      "research_subject_url": "/people/record-ancestry-glasgow-5225c7759342.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnn Glasgow was buried on 24 Sep 1861 at All Saints, Chorlton-Upon-Medlock, Lancashire, England.<ref name=\"anc19100268\">[https://www.ancestry.co.uk/search/collections/9840/records/19100268 Ancestry, England, Select Deaths and Burials, 1538-1991, Ann Glasgow, 24 Sep 1861, All Saints, Chorlton-Upon-Medlock, Lancashire, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-2057 (Ann Glasgow Little, died 6 January 1862 at Drumearn, County Tyrone) was removed: her recorded death is after this burial and in Ireland. This Ann is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Ann Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Ann Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Ann Glasgow, 24 Sep 1861",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/19100268",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1861",
+          "filter_year": 1861,
+          "record_location": "All Saints, Chorlton-Upon-Medlock, Lancashire, England",
+          "region": "England",
+          "association": "Ann Glasgow was buried on 24 Sep 1861 at All Saints, Chorlton-Upon-Medlock, Lancashire, England.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-2483dc7613c6",
+      "subject_id": "ancestry-glasgow-2483dc7613c6",
+      "name": "Ann Glasgow",
+      "first_names": [
+        "Ann"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1868,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/7195960",
+        "basis_kind": "record",
+        "explanation": "Death abt 1868"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/7195960",
+      "research_subject_url": "/people/record-ancestry-glasgow-2483dc7613c6.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAnn Glasgow was buried on 8 Feb 1868 at Hartly-Wintney, Hampshire, England.<ref name=\"anc7195960\">[https://www.ancestry.co.uk/search/collections/9840/records/7195960 Ancestry, England, Select Deaths and Burials, 1538-1991, Ann Glasgow, 8 Feb 1868, Hartly-Wintney, Hampshire, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Unknown-554355 (Anne Glasgow, died 5 February 1867 at Killycurragh, County Tyrone) was removed: her recorded death is a year earlier and in Ireland. This Ann is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Ann Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Ann Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Ann Glasgow, 8 Feb 1868",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/7195960",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1868",
+          "filter_year": 1868,
+          "record_location": "Hartly-Wintney, Hampshire, England",
+          "region": "England",
+          "association": "Ann Glasgow was buried on 8 Feb 1868 at Hartly-Wintney, Hampshire, England.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-f63f9f37f861",
+      "subject_id": "ancestry-glasgow-f63f9f37f861",
+      "name": "Thomas Glasgow",
+      "first_names": [
+        "Thomas"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1835,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/1043872",
+        "basis_kind": "record",
+        "explanation": "Death abt 1835"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/1043872",
+      "research_subject_url": "/people/record-ancestry-glasgow-f63f9f37f861.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThomas Glasgow was buried on 21 Jan 1835 at Chesham-Bois, Buckingham, England.<ref name=\"anc1043872\">[https://www.ancestry.co.uk/search/collections/9840/records/1043872 Ancestry, England, Select Deaths and Burials, 1538-1991, Thomas Glasgow, 21 Jan 1835, Chesham-Bois, Buckingham, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1620 (Thomas Glasgow of Currie, died about 1834 in Midlothian) was removed: his recorded death is in Scotland, and nothing places him in Buckinghamshire. This Thomas is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Thomas Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Thomas Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Thomas Glasgow, 21 Jan 1835",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/1043872",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1835",
+          "filter_year": 1835,
+          "record_location": "Chesham-Bois, Buckingham, England",
+          "region": "England",
+          "association": "Thomas Glasgow was buried on 21 Jan 1835 at Chesham-Bois, Buckingham, England.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-4d56f70e7762",
+      "subject_id": "ancestry-glasgow-4d56f70e7762",
+      "name": "Thomas Glasgow",
+      "first_names": [
+        "Thomas"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1845,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/1174136",
+        "basis_kind": "record",
+        "explanation": "Death abt 1845"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/1174136",
+      "research_subject_url": "/people/record-ancestry-glasgow-4d56f70e7762.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThomas Glasgow was buried on 23 May 1845 at Bolton-Le-Sands, Lancashire, England.<ref name=\"anc1174136\">[https://www.ancestry.co.uk/search/collections/9840/records/1174136 Ancestry, England, Select Deaths and Burials, 1538-1991, Thomas Glasgow, 23 May 1845, Bolton-Le-Sands, Lancashire, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1684 (Thomas Glasgow of Killycurragh, County Tyrone, died before 1844) was removed: his recorded death is before this burial. This Thomas is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Thomas Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Thomas Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Thomas Glasgow, 23 May 1845",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/1174136",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1845",
+          "filter_year": 1845,
+          "record_location": "Bolton-Le-Sands, Lancashire, England",
+          "region": "England",
+          "association": "Thomas Glasgow was buried on 23 May 1845 at Bolton-Le-Sands, Lancashire, England.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-d6a3adb8b7ec",
+      "subject_id": "ancestry-glasgow-d6a3adb8b7ec",
+      "name": "Margaret Ann Glasgow",
+      "first_names": [
+        "Margaret",
+        "Ann"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1877,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/6982737",
+        "basis_kind": "record",
+        "explanation": "Indexed birth 1877"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/6982737",
+      "research_subject_url": "/people/record-ancestry-glasgow-d6a3adb8b7ec.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nMargaret Ann Glasgow was buried on 6 Sep 1877 at Durham County, aged 0.<ref name=\"anc6982737\">[https://www.ancestry.co.uk/search/collections/9840/records/6982737 Ancestry, England, Select Deaths and Burials, 1538-1991, Margaret Ann Glasgow, 6 Sep 1877, Durham County]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1688 (Margaret Glasgow, born 23 January 1876 at Ballynasollus, County Tyrone) was removed: this Margaret Ann was an infant born in 1877 and buried in County Durham. She is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Margaret Ann Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Margaret Ann Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Margaret Ann Glasgow, 6 Sep 1877",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/6982737",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1877",
+          "filter_year": 1877,
+          "record_location": "Durham County",
+          "region": "England",
+          "association": "Margaret Ann Glasgow was buried on 6 Sep 1877 at Durham County, aged 0.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-792a4a5e6b0e",
+      "subject_id": "ancestry-glasgow-792a4a5e6b0e",
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1838,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/18107774",
+        "basis_kind": "record",
+        "explanation": "Death abt 1838"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9840/records/18107774",
+      "research_subject_url": "/people/record-ancestry-glasgow-792a4a5e6b0e.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-deaths-burials-9840.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow was buried on 8 Mar 1838 at All Saints, Chorlton-Upon-Medlock, Lancashire, England.<ref name=\"anc18107774\">[https://www.ancestry.co.uk/search/collections/9840/records/18107774 Ancestry, England, Select Deaths and Burials, 1538-1991, Robert Glasgow, 8 Mar 1838, All Saints, Chorlton-Upon-Medlock, Lancashire, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: Glasgow-1530 (Robert Glasgow, baptised before 1760 at Wendell and Lamington, died before 1839 at Glasgow) was removed: his recorded death is in Glasgow, and nothing places him in Manchester. This Robert is held as a new draft. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Robert Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "Robert Glasgow is known here from the Ancestry England, Select Deaths and Burials, 1538-1991 entry (person buried). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-04",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Corrected catalogue link (RF, 2026-11-04); the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Deaths and Burials, 1538-1991: Robert Glasgow, 8 Mar 1838",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9840/records/18107774",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1838",
+          "filter_year": 1838,
+          "record_location": "All Saints, Chorlton-Upon-Medlock, Lancashire, England",
+          "region": "England",
+          "association": "Robert Glasgow was buried on 8 Mar 1838 at All Saints, Chorlton-Upon-Medlock, Lancashire, England.",
           "note": "",
           "evidence": "Provider index transcript"
         }

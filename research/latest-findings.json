@@ -68407,6 +68407,36 @@
       ]
     },
     {
+      "id": "fmp-manchester-original-death-day-correction-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "An original Manchester death notice reports William Glasgow’s death on 5 April 1848; 12 April is its publication date, despite the derivative index repeating that day as death.",
+      "qualification": "The original Manchester Courier and Lancashire General Advertiser notice, 12 April 1848, printed page 240 (viewer page 6), Deaths column 1, calls him an ironfounder and engineer, aged 66, residing at Great Bridgewater-street, Manchester. William Glasgow-3545 is a compatible comparison without an independent occupation or address bridge. No wife or parent is named. Burial indexes with generic dates 5/8 April and age 64 remain unresolved; this notice does not establish a burial date or exact birth. No person, relationship, profile vital adoption or confidence change follows. The licensed raw capture remains private.",
+      "people": [
+        {
+          "id": "Glasgow-3545",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3545.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Manchester Courier and Lancashire General Advertiser, 12 April 1848, printed page 240, Deaths column 1; original inspected 4 November 2026",
+          "url": "https://www.findmypast.co.uk/image-viewer?issue=BL%2F0000206%2F18480412&page=0006&article=049"
+        },
+        {
+          "title": "Derivative death-notice transcript with conflicting death/publication day",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_104260820296"
+        }
+      ],
+      "source_paths": [
+        "research/Glasgow-3545/findings.md",
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/people/glasgow-3545.html"
+    },
+    {
       "id": "currituck-daniel-later-title-leads-20261104",
       "found_on": "2026-11-04",
       "reviewed_on": "2026-11-04",
@@ -68446,36 +68476,6 @@
           "url": "https://www.ncgenweb.us/currituck/deeds/db02.html"
         }
       ]
-    },
-    {
-      "id": "fmp-manchester-original-death-day-correction-20261104",
-      "found_on": "2026-11-04",
-      "kind": "record",
-      "status": "qualified",
-      "finding": "An original Manchester death notice reports William Glasgow’s death on 5 April 1848; 12 April is its publication date, despite the derivative index repeating that day as death.",
-      "qualification": "The original Manchester Courier and Lancashire General Advertiser notice, 12 April 1848, printed page 240 (viewer page 6), Deaths column 1, calls him an ironfounder and engineer, aged 66, residing at Great Bridgewater-street, Manchester. William Glasgow-3545 is a compatible comparison without an independent occupation or address bridge. No wife or parent is named. Burial indexes with generic dates 5/8 April and age 64 remain unresolved; this notice does not establish a burial date or exact birth. No person, relationship, profile vital adoption or confidence change follows. The licensed raw capture remains private.",
-      "people": [
-        {
-          "id": "Glasgow-3545",
-          "name": "William Glasgow",
-          "url": "/people/glasgow-3545.html"
-        }
-      ],
-      "sources": [
-        {
-          "title": "Manchester Courier and Lancashire General Advertiser, 12 April 1848, printed page 240, Deaths column 1; original inspected 4 November 2026",
-          "url": "https://www.findmypast.co.uk/image-viewer?issue=BL%2F0000206%2F18480412&page=0006&article=049"
-        },
-        {
-          "title": "Derivative death-notice transcript with conflicting death/publication day",
-          "url": "https://www.findmypast.co.uk/transcript?id=R_104260820296"
-        }
-      ],
-      "source_paths": [
-        "research/Glasgow-3545/findings.md",
-        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
-      ],
-      "detail_url": "/people/glasgow-3545.html"
     },
     {
       "id": "fmp-calton-janet-source-attribution-correction-20261104",
@@ -68521,29 +68521,6 @@
         "research/findmypast-glasgow-audit/page37-proposal-preservation-2026-11-04.json"
       ],
       "detail_url": "/people/gilmour-965.html"
-    },
-    {
-      "id": "fmp-boyd1755-earl-title-exclusion-20261104",
-      "found_on": "2026-11-04",
-      "kind": "record",
-      "status": "qualified",
-      "finding": "The Boyd 1755 Glasgow/Betty Ross marriage result indexes the Earl of Glasgow’s title rather than a Glasgow birth surname.",
-      "qualification": "The inspected contemporary Gentleman’s Magazine page284 (volume 25, June 1755) names John, Earl of Glasgow, marrying the Hon. Miss Betty, daughter to Lord George Ross. This confirms title context behind the Boyd derivative’s blank forename and Last name Glasgow. The entry is excluded from born-Glasgow surname scope, with the exact provider receipt and review history retained. No exact wedding day is adopted; conflicting secondary July dates are not treated as original evidence. No new person, canonical surname-marriage event, family attachment or confidence change is recorded.",
-      "people": [],
-      "sources": [
-        {
-          "title": "The Gentleman’s Magazine, volume 25, June 1755, printed page 284, left-column marriage list, scan leaf 49; original page visually inspected 4 November 2026",
-          "url": "https://archive.org/details/sim_gentlemans-magazine_1755-06_25_6/page/n49/mode/1up"
-        },
-        {
-          "title": "Boyd’s 1st miscellaneous marriage index, 1415–1808, Glasgow/Betty Ross, 1755, GBPRS/M/710575678/2; inspected provider derivative",
-          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FM%2F710575678%2F2"
-        }
-      ],
-      "source_paths": [
-        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
-      ],
-      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
     },
     {
       "id": "fmp-page38-edinburgh-source-groups-john1755-20261104",
@@ -68606,6 +68583,29 @@
         "tmp/fmp-pages36-40-20261104/page38-3406-drafts/canonical-row.json"
       ],
       "detail_url": "/people/glasgow-3581.html"
+    },
+    {
+      "id": "fmp-boyd1755-earl-title-exclusion-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Boyd 1755 Glasgow/Betty Ross marriage result indexes the Earl of Glasgow’s title rather than a Glasgow birth surname.",
+      "qualification": "The inspected contemporary Gentleman’s Magazine page284 (volume 25, June 1755) names John, Earl of Glasgow, marrying the Hon. Miss Betty, daughter to Lord George Ross. This confirms title context behind the Boyd derivative’s blank forename and Last name Glasgow. The entry is excluded from born-Glasgow surname scope, with the exact provider receipt and review history retained. No exact wedding day is adopted; conflicting secondary July dates are not treated as original evidence. No new person, canonical surname-marriage event, family attachment or confidence change is recorded.",
+      "people": [],
+      "sources": [
+        {
+          "title": "The Gentleman’s Magazine, volume 25, June 1755, printed page 284, left-column marriage list, scan leaf 49; original page visually inspected 4 November 2026",
+          "url": "https://archive.org/details/sim_gentlemans-magazine_1755-06_25_6/page/n49/mode/1up"
+        },
+        {
+          "title": "Boyd’s 1st miscellaneous marriage index, 1415–1808, Glasgow/Betty Ross, 1755, GBPRS/M/710575678/2; inspected provider derivative",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPRS%2FM%2F710575678%2F2"
+        }
+      ],
+      "source_paths": [
+        "research/findmypast-glasgow-audit/birth-scope-records-2026-10-22.json"
+      ],
+      "detail_url": "/branches/early-scottish-records/#chapter-findmypast-born-before-1800"
     },
     {
       "id": "fmp-recovered-detail-source-review-20261104",
@@ -68696,7 +68696,8 @@
           "title": "UK, British Army World War I Service Records, 1914-1920 (TNA WO 363) — Elizabeth Brownlie Glasgow, child of Robert Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/1219/records/6058423"
         }
-      ]
+      ],
+      "detail_url": "/people/glasgow-1110.html"
     },
     {
       "id": "ancestry-1911-census-leicester-kendal-glasgows-20261104",
@@ -68731,7 +68732,8 @@
           "title": "1911 England Census (TNA RG 14) — William Glasgow, 14 Nairne St, Burnley",
           "url": "https://www.ancestry.co.uk/search/collections/2352/records/22062644"
         }
-      ]
+      ],
+      "detail_url": "/sources/census/"
     },
     {
       "id": "ancestry-irish-notices-death-confirmations-20261104",
@@ -68941,7 +68943,8 @@
           "title": "Ireland, World War I Casualties, 1914-1922 — Robert Glasgow, Belfast, Northern Ireland",
           "url": "https://www.ancestry.co.uk/search/collections/1633/records/23348"
         }
-      ]
+      ],
+      "detail_url": "/sources/newspapers/"
     },
     {
       "id": "ancestry-1911-census-lancashire-glasgows-20261104",
@@ -68985,7 +68988,8 @@
           "title": "1911 England Census (TNA RG 14) — William Glasgow, 36 Whittaker St, Bolton",
           "url": "https://www.ancestry.co.uk/search/collections/2352/records/24410007"
         }
-      ]
+      ],
+      "detail_url": "/sources/census/"
     },
     {
       "id": "ancestry-ireland-civil-birth-index-confirmations-20261104",
@@ -69672,7 +69676,8 @@
           "title": "Ireland, Civil Registration Births Index, 1864-1958 — George Sloan Glasgow, Cookstown, Ireland",
           "url": "https://www.ancestry.co.uk/search/collections/2573/records/3531182"
         }
-      ]
+      ],
+      "detail_url": "/sources/births/"
     },
     {
       "id": "ancestry-wo364-robert-glasgow-1110-pension-20261104",
@@ -69707,7 +69712,8 @@
           "title": "UK, British Army World War I Pension Records 1914-1920 (TNA WO 364) — Elizabeth Glasgow, child of the soldier",
           "url": "https://www.ancestry.co.uk/search/collections/1114/records/2420030"
         }
-      ]
+      ],
+      "detail_url": "/people/glasgow-1110.html"
     },
     {
       "id": "ancestry-1911-1939-households-batch4-20261104",
@@ -69775,7 +69781,8 @@
           "title": "1939 England and Wales Register (RG 101) — Henry B Glasgow, Poole",
           "url": "https://www.ancestry.co.uk/search/collections/61596/records/29975995"
         }
-      ]
+      ],
+      "detail_url": "/sources/census/"
     },
     {
       "id": "ancestry-scotland-probate-index-matches-20261104",
@@ -69823,7 +69830,8 @@
           "title": "Scotland, National Probate Index 1876-1936 — Robert Forsyth Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60558/records/164921"
         }
-      ]
+      ],
+      "detail_url": "/people/glasgow-3297.html"
     },
     {
       "id": "ancestry-pre1906-irish-scottish-person-entries-20261104",
@@ -70147,141 +70155,8 @@
           "title": "Scotland, National Probate Index, 1876-1936 (Ancestry collection 60558)",
           "url": "https://www.ancestry.co.uk/search/collections/60558/"
         }
-      ]
-    },
-    {
-      "id": "ancestry-1911-1939-ww1-person-entries-20261104",
-      "found_on": "2026-11-04",
-      "kind": "record",
-      "status": "qualified",
-      "finding": "Every in-scope Glasgow-surname person in the Ancestry 1911 and 1921 censuses, the 1939 Register, the WWI service and pension records and the Irish 1922 and 1926 indexes now has a catalogue entry. 22 are linked to existing people as probable matches, and 543 have new sourced draft entries: 314 distinct new people and 229 identity HOLDs that list their compatible candidates.",
-      "qualification": "This applies the explicit-conflict matching rule. A differing exact birth date, a birthplace in a different town or country, a different named spouse or father, a death before the record or an age too young for the role rules a candidate out. A lack of corroboration does not. Companion entries for one person (two forms of one soldier's file, census and WWI entries with the same birth date and place) are consolidated into one draft. Only subjects with a birth before 1906, or with a recorded death on a public profile, are entered; younger people in these records are withheld. Index transcripts only; no vital, relationship or confidence change. The drafts reach the site at the next catalogue rebuild.",
-      "people": [
-        {
-          "id": "Blair-14641",
-          "name": "Margaret (Blair) Glasgow",
-          "url": "/people/blair-14641.html"
-        },
-        {
-          "id": "Coventry-776",
-          "name": "Margaret Cecilia (Coventry) Glasgow",
-          "url": "/people/coventry-776.html"
-        },
-        {
-          "id": "Glasgow-1712",
-          "name": "Walter Glasgow",
-          "url": "/people/glasgow-1712.html"
-        },
-        {
-          "id": "Glasgow-1802",
-          "name": "David Glasgow",
-          "url": "/people/glasgow-1802.html"
-        },
-        {
-          "id": "Glasgow-2136",
-          "name": "John Glasgow",
-          "url": "/people/glasgow-2136.html"
-        },
-        {
-          "id": "Glasgow-2316",
-          "name": "William Glasgow",
-          "url": "/people/glasgow-2316.html"
-        },
-        {
-          "id": "Glasgow-2415",
-          "name": "Elizabeth Boyd Glasgow",
-          "url": "/people/glasgow-2415.html"
-        },
-        {
-          "id": "Glasgow-2671",
-          "name": "Edwin Glasgow",
-          "url": "/people/glasgow-2671.html"
-        },
-        {
-          "id": "Glasgow-2673",
-          "name": "Roberta Glasgow",
-          "url": "/people/glasgow-2673.html"
-        },
-        {
-          "id": "Glasgow-2674",
-          "name": "George Glasgow",
-          "url": "/people/glasgow-2674.html"
-        },
-        {
-          "id": "Glasgow-2675",
-          "name": "William Glasgow",
-          "url": "/people/glasgow-2675.html"
-        },
-        {
-          "id": "Glasgow-2904",
-          "name": "Jean Glasgow",
-          "url": "/people/glasgow-2904.html"
-        },
-        {
-          "id": "Glasgow-3341",
-          "name": "Thomas Glasgow",
-          "url": "/people/glasgow-3341.html"
-        },
-        {
-          "id": "Glasgow-3531",
-          "name": "Jennie Glasgow",
-          "url": "/people/glasgow-3531.html"
-        },
-        {
-          "id": "Glasgow-3899",
-          "name": "David Glasgow",
-          "url": "/people/glasgow-3899.html"
-        },
-        {
-          "id": "Glasgow-4242",
-          "name": "William Glasgow",
-          "url": "/people/glasgow-4242.html"
-        },
-        {
-          "id": "Glasgow-4282",
-          "name": "Anne Glasgow",
-          "url": "/people/glasgow-4282.html"
-        },
-        {
-          "id": "Glasgow-4319",
-          "name": "James Glasgow",
-          "url": "/people/glasgow-4319.html"
-        },
-        {
-          "id": "Glasgow-972",
-          "name": "John Glasgow",
-          "url": "/people/glasgow-972.html"
-        },
-        {
-          "id": "Hewitt-8271",
-          "name": "Helen Glasgow",
-          "url": "/people/hewitt-8271.html"
-        },
-        {
-          "id": "Johnston-17271",
-          "name": "Annie (Johnston) Glasgow",
-          "url": "/people/johnston-17271.html"
-        },
-        {
-          "id": "Redhead-524",
-          "name": "Elizabeth (Redhead) Glasgow",
-          "url": "/people/redhead-524.html"
-        }
       ],
-      "sources": [
-        {
-          "title": "1911 England Census (Ancestry collection 2352, TNA RG 14)",
-          "url": "https://www.ancestry.co.uk/search/collections/2352/"
-        },
-        {
-          "title": "1939 England and Wales Register (Ancestry collection 61596, TNA RG 101)",
-          "url": "https://www.ancestry.co.uk/search/collections/61596/"
-        },
-        {
-          "title": "UK, British Army World War I Service Records (Ancestry collection 1219, TNA WO 363)",
-          "url": "https://www.ancestry.co.uk/search/collections/1219/"
-        }
-      ]
+      "detail_url": "/sources/other/"
     },
     {
       "id": "ancestry-scotland-select-marriages-60144-matches-20261104",
@@ -70653,7 +70528,143 @@
           "title": "Scotland, Select Marriages, 1561-1910 — John Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/60144/records/1137283"
         }
-      ]
+      ],
+      "detail_url": "/sources/marriages/"
+    },
+    {
+      "id": "ancestry-1911-1939-ww1-person-entries-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Every in-scope Glasgow-surname person in the Ancestry 1911 and 1921 censuses, the 1939 Register, the WWI service and pension records and the Irish 1922 and 1926 indexes now has a catalogue entry. 22 are linked to existing people as probable matches, and 543 have new sourced draft entries: 314 distinct new people and 229 identity HOLDs that list their compatible candidates.",
+      "qualification": "This applies the explicit-conflict matching rule. A differing exact birth date, a birthplace in a different town or country, a different named spouse or father, a death before the record or an age too young for the role rules a candidate out. A lack of corroboration does not. Companion entries for one person (two forms of one soldier's file, census and WWI entries with the same birth date and place) are consolidated into one draft. Only subjects with a birth before 1906, or with a recorded death on a public profile, are entered; younger people in these records are withheld. Index transcripts only; no vital, relationship or confidence change. The drafts reach the site at the next catalogue rebuild.",
+      "people": [
+        {
+          "id": "Blair-14641",
+          "name": "Margaret (Blair) Glasgow",
+          "url": "/people/blair-14641.html"
+        },
+        {
+          "id": "Coventry-776",
+          "name": "Margaret Cecilia (Coventry) Glasgow",
+          "url": "/people/coventry-776.html"
+        },
+        {
+          "id": "Glasgow-1712",
+          "name": "Walter Glasgow",
+          "url": "/people/glasgow-1712.html"
+        },
+        {
+          "id": "Glasgow-1802",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-1802.html"
+        },
+        {
+          "id": "Glasgow-2136",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2136.html"
+        },
+        {
+          "id": "Glasgow-2316",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2316.html"
+        },
+        {
+          "id": "Glasgow-2415",
+          "name": "Elizabeth Boyd Glasgow",
+          "url": "/people/glasgow-2415.html"
+        },
+        {
+          "id": "Glasgow-2671",
+          "name": "Edwin Glasgow",
+          "url": "/people/glasgow-2671.html"
+        },
+        {
+          "id": "Glasgow-2673",
+          "name": "Roberta Glasgow",
+          "url": "/people/glasgow-2673.html"
+        },
+        {
+          "id": "Glasgow-2674",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-2674.html"
+        },
+        {
+          "id": "Glasgow-2675",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2675.html"
+        },
+        {
+          "id": "Glasgow-2904",
+          "name": "Jean Glasgow",
+          "url": "/people/glasgow-2904.html"
+        },
+        {
+          "id": "Glasgow-3341",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-3341.html"
+        },
+        {
+          "id": "Glasgow-3531",
+          "name": "Jennie Glasgow",
+          "url": "/people/glasgow-3531.html"
+        },
+        {
+          "id": "Glasgow-3899",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3899.html"
+        },
+        {
+          "id": "Glasgow-4242",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-4242.html"
+        },
+        {
+          "id": "Glasgow-4282",
+          "name": "Anne Glasgow",
+          "url": "/people/glasgow-4282.html"
+        },
+        {
+          "id": "Glasgow-4319",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-4319.html"
+        },
+        {
+          "id": "Glasgow-972",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-972.html"
+        },
+        {
+          "id": "Hewitt-8271",
+          "name": "Helen Glasgow",
+          "url": "/people/hewitt-8271.html"
+        },
+        {
+          "id": "Johnston-17271",
+          "name": "Annie (Johnston) Glasgow",
+          "url": "/people/johnston-17271.html"
+        },
+        {
+          "id": "Redhead-524",
+          "name": "Elizabeth (Redhead) Glasgow",
+          "url": "/people/redhead-524.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1911 England Census (Ancestry collection 2352, TNA RG 14)",
+          "url": "https://www.ancestry.co.uk/search/collections/2352/"
+        },
+        {
+          "title": "1939 England and Wales Register (Ancestry collection 61596, TNA RG 101)",
+          "url": "https://www.ancestry.co.uk/search/collections/61596/"
+        },
+        {
+          "title": "UK, British Army World War I Service Records (Ancestry collection 1219, TNA WO 363)",
+          "url": "https://www.ancestry.co.uk/search/collections/1219/"
+        }
+      ],
+      "detail_url": "/sources/other/"
     },
     {
       "id": "ancestry-late-captures-person-entries-20261104",
@@ -70708,7 +70719,8 @@
           "title": "1939 England and Wales Register — Rosa A Glasgow",
           "url": "https://www.ancestry.co.uk/search/collections/61596/records/34514116"
         }
-      ]
+      ],
+      "detail_url": "/sources/other/"
     },
     {
       "id": "ancestry-marriage-index-new-fathers-20261104",
@@ -70825,6 +70837,78 @@
         "research/relationship_assessments.json",
         "research/Glasgow-3485/findings.md"
       ]
+    },
+    {
+      "id": "ancestry-identity-link-corrections-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "finding": "A review of the 4 November Ancestry integration corrects 54 index entries that were attached to the wrong catalogue person. Andrew Glasgow, son of David, is now the 1790 Rothesay groom (Glasgow-1616) and possibly the father of the 1818 Rothesay bride Margaret. The Kilwinning brides of 25 August 1847 are Anne (Glasgow-3000) and Charlotte (Glasgow-3003), daughters of Robert (Robertson) Glasgow. The Leadhills monument belongs to William Glasgow, gamekeeper (Glasgow-2715), his wife Janet Thomson (Thomson-14488) and their son George, who died in 1816. The 1839 Kilwinning groom is Robert Robertson-Glasgow. Thirty-six other links were withdrawn because the profile's dates or recorded places cannot fit, among them United States residents attached to Scottish and English burials and marriages; 28 of those subjects are now separate sourced drafts held for identity review.",
+      "status": "qualified",
+      "qualification": "The corrected links rest on Ancestry index entries; the registers and monuments themselves are uninspected. Andrew Glasgow-1616 as Margaret's father is only possible. William Glasgow's monument age (71 in 1853) differs by about three years from Glasgow-2715's estimated birth. Eight recent or undated entries were unlinked without new drafts. A further group of weaker links, mostly Irish-born profiles matched to Scottish marriages, is listed for review rather than changed.",
+      "people": [
+        {
+          "id": "Glasgow-1616",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1616.html"
+        },
+        {
+          "id": "Glasgow-3000",
+          "name": "Anne Glasgow",
+          "url": "/people/glasgow-3000.html"
+        },
+        {
+          "id": "Glasgow-3003",
+          "name": "Charlotte Marie Cecilia (Glasgow) Drake",
+          "url": "/people/glasgow-3003.html"
+        },
+        {
+          "id": "Robertson-30564",
+          "name": "Robert (Robertson) Glasgow",
+          "url": "/people/robertson-30564.html"
+        },
+        {
+          "id": "Glasgow-2715",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2715.html"
+        },
+        {
+          "id": "Thomson-14488",
+          "name": "Janet (Thomson) Glasgow",
+          "url": "/people/thomson-14488.html"
+        },
+        {
+          "id": "Robertson-Glasgow-11",
+          "name": "Robert Robertson-Glasgow J.P.",
+          "url": "https://www.wikitree.com/wiki/Robertson-Glasgow-11"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Andrew Glasgow, 13 Aug 1790, Rothesay",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/4131423"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Margaret Glasgow, 9 Jun 1818, Rothesay",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/4132486"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Anne Glasgow, 25 Aug 1847, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/4137023"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Charlotte Marie Cealia Glasgow, 25 Aug 1847, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/4145328"
+        },
+        {
+          "title": "Scotland, Burial Monument Inscriptions — George Glasgow, 1816, Leadhills",
+          "url": "https://www.ancestry.co.uk/search/collections/62497/records/370985"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 — Robert Robertson Glasgow, 11 Jul 1839, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/3006250"
+        }
+      ],
+      "detail_url": "/people/glasgow-1616.html"
     }
   ]
 }
