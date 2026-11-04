@@ -68697,6 +68697,41 @@
           "url": "https://www.ancestry.co.uk/search/collections/1219/records/6058423"
         }
       ]
+    },
+    {
+      "id": "ancestry-1911-census-leicester-kendal-glasgows-20261104",
+      "found_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The 1911 England census places Mary Janet Glasgow-639 (aged 60, single, of private means) at 8 Severn Street, Leicester, with her sister Ann Isabella Williams-640. It probably places William Glasgow-1003 (aged 35, single, born Kendal) as a boarder at 14 Nairne Street, Burnley, six years before his 1917 death in Hamilton, Ontario.",
+      "qualification": "Mary Janet's identification rests on her full name, birthplace, age, marital status and her named sister's matching age; it is treated as a match. William's rests on name, Kendal birthplace, age and his family's earlier Burnley (Habergham Eaves) residence, without a named relative in the household, so it is probable, not certain. Both readings come from inspected Ancestry index transcripts of RG 14; the household schedule images were not inspected. Ages are not used to change existing birth dates, and no relationship or confidence rating changes.",
+      "people": [
+        {
+          "id": "Glasgow-639",
+          "name": "Mary Janet Glasgow",
+          "url": "/people/glasgow-639.html"
+        },
+        {
+          "id": "Glasgow-640",
+          "name": "Ann Isabella (Glasgow) Williams",
+          "url": "/people/glasgow-640.html"
+        },
+        {
+          "id": "Glasgow-1003",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1003.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "1911 England Census (TNA RG 14) — Mary Janet Glasgow, 8 Severn St, Leicester",
+          "url": "https://www.ancestry.co.uk/search/collections/2352/records/22097316"
+        },
+        {
+          "title": "1911 England Census (TNA RG 14) — William Glasgow, 14 Nairne St, Burnley",
+          "url": "https://www.ancestry.co.uk/search/collections/2352/records/22062644"
+        }
+      ]
     }
   ]
 }

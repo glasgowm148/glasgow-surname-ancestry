@@ -17,4 +17,10 @@ Coverage ledger for Glasgow-surname entries saved from Ancestry's free-access co
 
 **Unmatched.** No catalogue profile is identified with the other 34 entries. Scottish fathers on 1915–1917 documents (Glasgow East, Shettleston, Stirling, Prestonpans and Leadhills) have only name-level candidates. Robert Glasgow-938 died in 1902 and is excluded as the 1915 Prestonpans father.
 
+## Batch 2 — 4 November 2026
+
+**WO 363 (collection 1219):** 12 more entries captured (68 in all); 11 more canonical records (47 in all, 45 unmatched). **WO 372 medal index cards (collection 1262):** 14 captured, all scope HOLDs. **1911 England census (collection 2352, RG 14):** 49 entries captured; 45 recorded as canonical records, 2 linked and 43 unmatched; 4 scope HOLDs (aged under 6 in 1911). Household members are named only when their indexed age puts their birth before 1906. Three entries index the surname as "Elargow", a probable misreading of Glasgow; they are recorded with that literal reading and no identity.
+
+**Matches.** [Mary Janet Glasgow-639](/people/glasgow-639.html), 60 and single, heads a household at 8 Severn Street, Leicester, with her sister [Ann Isabella (Glasgow) Williams-640](/people/glasgow-640.html), 56: a match on full name, birthplace, ages and the named sister. [William Glasgow-1003](/people/glasgow-1003.html), 35, single and born Kendal, boards at 14 Nairne Street, Burnley, where his family had earlier lived: a probable match, with no named relative in the household. No vital or relationship changes follow.
+
 **Status: INCOMPLETE.** Workers are still saving the service, pension and medal-card indexes and the 1911, 1921 and 1939 English collections.
