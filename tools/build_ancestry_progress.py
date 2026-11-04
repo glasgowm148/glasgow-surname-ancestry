@@ -316,71 +316,65 @@ def comparison_rows(cohort, selected='working'):
         if view == selected:
             label = '<strong>' + label + '</strong>'
         rows.append(f"<tr><th scope='row'>{label}</th><td>{summary['component_count']:,}</td>"
-                    f"<td>{summary['largest_component_size']:,}</td><td>{summary['connected_pairs_percent']:.2f}%</td></tr>")
+                    f"<td>{summary['largest_component_size']:,}</td><td>{len(summary['unattached_multi_child_roots']):,}</td>"
+                    f"<td>{summary['connected_pairs_percent']:.2f}%</td></tr>")
     return ''.join(rows)
 
 
-OPEN_SECTIONS = {"connectivity-title"}  # the headline measures stay open; every other section starts collapsed
-FOLD_STYLE = """<style>
-.progress-toc{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:.35rem .9rem;align-items:center;margin:0 0 1rem;padding:.55rem .75rem;background:var(--r-surface,#fff);border:1px solid var(--r-line,#ddd);border-radius:8px;font-size:.92rem}
-.progress-toc strong{margin-right:.2rem}.progress-toc a{white-space:nowrap}.progress-toc button{font:inherit;padding:.15rem .6rem;cursor:pointer}
-.progress-toc .toc-actions{margin-left:auto;display:flex;gap:.4rem}
-.progress-fold>details>summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:.6rem}
-.progress-fold>details>summary::-webkit-details-marker{display:none}
-.progress-fold>details>summary::before{content:"";flex:none;width:0;height:0;border-style:solid;border-width:.38em 0 .38em .6em;border-color:transparent transparent transparent currentColor;transform:translateY(-.12em);transition:transform .15s}
-.progress-fold>details[open]>summary::before{transform:translateY(-.12em) rotate(90deg)}
-.progress-fold>details>summary h2{display:inline;margin:0}
-.progress-fold>details>summary .fold-hint{font-size:.85rem;opacity:.7}
-.progress-fold>details[open]>summary .fold-hint{display:none}
-.progress-fold{scroll-margin-top:4rem}
-.sub-fold{margin-top:1.2rem;border-top:1px solid var(--r-line,#ddd);padding-top:.6rem}
-.sub-fold>summary{cursor:pointer;display:flex;align-items:baseline;gap:.6rem;list-style:none}
-.sub-fold>summary::-webkit-details-marker{display:none}
-.sub-fold>summary::before{content:"";flex:none;width:0;height:0;border-style:solid;border-width:.33em 0 .33em .5em;border-color:transparent transparent transparent currentColor;transition:transform .15s}
-.sub-fold[open]>summary::before{transform:rotate(90deg)}
-.sub-fold>summary h3{display:inline;margin:0}.sub-fold>summary .fold-hint{font-size:.85rem;opacity:.7}.sub-fold[open]>summary .fold-hint{display:none}
-@media (max-width:640px){.progress-toc{position:static}.progress-toc .toc-actions{margin-left:0}}
-</style>"""
-FOLD_SCRIPT = """<script>
-(function(){
-  var folds=[].slice.call(document.querySelectorAll('.progress-fold>details'));
-  function redraw(){window.dispatchEvent(new Event('resize'));}
-  folds.forEach(function(d){d.addEventListener('toggle',function(){if(d.open)redraw();});});
-  function reveal(){
-    var id=decodeURIComponent(location.hash.slice(1)); if(!id)return;
-    var el=document.getElementById(id); if(!el)return;
-    if(el.classList.contains('progress-fold'))el=el.querySelector(':scope>details')||el;
-    for(var p=el;p;p=p.parentElement){if(p.tagName==='DETAILS')p.open=true;}
-    requestAnimationFrame(function(){el.scrollIntoView();});
-  }
-  window.addEventListener('hashchange',reveal); reveal();
-  document.querySelectorAll('[data-fold]').forEach(function(b){b.addEventListener('click',function(){
-    var open=b.dataset.fold==='open'; folds.forEach(function(d){d.open=open;}); if(open)redraw();});});
-})();
-</script>"""
+SHORT_VIEW_LABELS = {'working': 'Working (all links)', 'supported': 'Probable or stronger', 'confident': 'Confident only'}
+SNAPSHOT_FIELDS = ('population', 'edge_count', 'component_count', 'largest_component_size', 'largest_component_percent',
+                   'connected_pairs_percent', 'edge_status_counts', 'individual_confidence', 'father_listing',
+                   'unattached_multi_child_roots', 'family_root_count')
 
 
-def fold_sections(main):
-    """Make each top-level section collapsible and add a sticky contents bar."""
-    toc = []
+def slim_snapshot_metrics(pair):
+    """Keep only the measures the page charts; ID lists stay in the saved history."""
+    return {view: {key: summary[key] for key in SNAPSHOT_FIELDS if key in summary}
+            for view, summary in (pair or {}).items() if isinstance(summary, dict)}
 
-    def fold(match):
-        attrs, heading_id, title, body = match.groups()
-        label = re.sub(r"<[^>]+>", "", title)
-        section_id = re.search(r'\bid="([^"]+)"', attrs)
-        target = section_id.group(1) if section_id else heading_id
-        toc.append(f'<a href="#{target}">{escape(label)}</a>')
-        is_open = " open" if heading_id in OPEN_SECTIONS else ""
-        attrs = re.sub(r'\bclass="([^"]*)"', r'class="\1 progress-fold"', attrs) if 'class="' in attrs else attrs + ' class="progress-fold"'
-        return (f'<section{attrs}><details{is_open}><summary><h2 id="{heading_id}">{title}</h2>'
-                f'<span class="fold-hint">Show section</span></summary>{body}</details></section>')
 
-    main = re.sub(r'<section([^>]*)>\s*<h2 id="([^"]+)">(.*?)</h2>(.*?)</section>', fold, main, flags=re.S)
-    nav = ('<nav class="progress-toc" aria-label="On this page"><strong>On this page:</strong>' + "".join(toc)
-           + '<span class="toc-actions"><button type="button" data-fold="open">Expand all</button>'
-             '<button type="button" data-fold="close">Collapse all</button></span></nav>')
-    main = main.replace("</header>", "</header>" + FOLD_STYLE + nav, 1)
-    return main.replace("</main>", FOLD_SCRIPT + "</main>", 1)
+def method_html(strategy, report, quality, baseline):
+    """Every explanatory paragraph, gathered in one place below the dashboard."""
+    p = lambda text: '<p>' + escape(text) + '</p>'
+    views = ''.join(f'<dt>{escape(SHORT_VIEW_LABELS[view])}</dt><dd>{escape(LINK_VIEWS[view]["description"])}</dd>'
+                    for view in MEASUREMENT_VIEWS)
+    metrics = strategy['metrics']
+    return (
+        '<h3>The key measures</h3><dl class="pd-defs">'
+        f'<dt>Connected pairs</dt><dd>{escape(metrics["connected_pairs"])} A connection between two branches joins every cross-branch pair, so one join can move this a lot. Higher is better.</dd>'
+        f'<dt>Separate branches</dt><dd>{escape(metrics["components"])} Lower is better.</dd>'
+        f'<dt>People in the largest branch</dt><dd>{escape(metrics["largest_component"])} Higher is better.</dd>'
+        f'<dt>Unknown fathers</dt><dd>{escape(report["unknown_father_method"])} Lower is better.</dd>'
+        f'<dt>Unattached family heads</dt><dd>{escape(metrics["family_heads"])}</dd>'
+        '<dt>Named fathers rated</dt><dd>Current rating coverage includes every retained selected named father, including fathers outside the surname graph. Alternatives and unnamed fathers are excluded. Its daily history has not been recorded, so the tile shows no change figures.</dd>'
+        '<dt>Father links by grade</dt><dd>Named father links in the working pedigree, by their current confidence grade. Confident includes strongly supported and confidently marked links. More confident links and fewer uncertain links are better; probable and possible links move both ways as ratings change.</dd>'
+        '<dt>Research changes</dt><dd>Findings recorded on that date for the selected cohort: ratings improved or lowered after new evidence or a revised assessment, newly attached fathers and replacement fathers. Initial indexing and unchanged first ratings are review coverage, not research changes.</dd>'
+        '<dt>Day-to-day and 7-day changes</dt><dd>Each tile compares the latest daily snapshot with the previous recorded day and with the last snapshot at least seven days earlier. When fewer than seven days are recorded, the change runs from the first recorded day and says so. Green marks a change in the better direction, red a change in the worse direction, whichever way the number moves.</dd>'
+        '</dl><h3>Links counted</h3><dl class="pd-defs">' + views + '</dl>'
+        + p('Probable assessments can strengthen the middle measure while the confident measure stays separate. The original baseline has no probable-or-stronger measurement; that series starts with its first review. An unmarked link is a review gap rather than a disproof.')
+        + p(metrics['target'])
+        + p('Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.')
+        + '<h3>Daily research changes</h3>'
+        + p('Changes count findings supported by new evidence or a revised assessment, including decreases. A first percentage counts when it changes a saved earlier confidence grade. A change within a grade still counts as an improved or lowered rating even though the grade totals do not move. The net grade columns show how many links each grade gained or lost that day; Unknown falls only when a previously absent father is attached. Each date combines the findings recorded that day; nothing is back-dated and no earlier percentage is invented.')
+        + p('Individual findings use saved individual estimates, including decreases and changes within a confidence band. New and replacement recommendations are reconciled with the catalogue. Dates are recorded review dates; same-day entries keep their saved order.')
+        + '<h3>Research priorities</h3>' + p(report['research_priority_method'])
+        + p('Unknown means no retained named father. Its possible pair gain cannot be calculated until a father is identified; a blank gain is not zero. These counts concern retained profile accounts, including unresolved identity questions. Named documentary ancestors can connect them but do not increase the person counts. Ranking measures impact; it does not measure whether an upgrade is attainable.')
+        + '<h3>Catalogue coverage history</h3>'
+        + p('Unknown means no named father is retained, including an unnamed placeholder or only unselected candidates. Below confident counts named father links graded probable, possible, uncertain or unmarked. Unknown counts people; the other series count father links. Lower is better. Counts use each day’s last comparable measurement. Changes include regrading existing fathers, review coverage and changes to the people or links included; they are not all new family connections. Unknown-father history starts with its first saved count.')
+        + p(report['individual_confidence_method'] + ' Every changed saved review is shown, including changes within the same day; reviews are evenly spaced because recording times were not retained.')
+        + p('Graph-link coverage is the number of links at each confidence level divided by all working graph father–child links. Probable or stronger includes confident links. Missing measurements are gaps; earlier cutoff measurements have not been reconstructed. These are not probabilities that an entire branch is correct.')
+        + '<h3>Cohorts, baseline and scope</h3>'
+        + p('The working pedigree is measured at each birth-year cutoff. Estimated vital dates remain estimates. Undated fathers of included people enter by ancestry; unrelated undated entries stay outside the dated cohorts.')
+        + p('The score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component’s size and N is the cohort. The common-origin model stays outside the measurements. Dotted lines in the origin map mean an unknown route through generations; they are research targets and do not change the measured pedigree.')
+        + p('Confidence grades come from the current resolved public dossiers. A confidently marked tree link is not a claim that every underlying source has been independently re-audited. Women born with the surname count; their fathers can join the paternal family, while spouses and maternal paths cannot.')
+        + p(f'Coverage: {report["available_surname_people"]:,} public surname profiles and {report["documentary_ancestors"]} separately listed documentary ancestors available; '
+            f'{report["undated_surname_people"]:,} have no usable structured date before ancestry closure; {len(quality["missing_dossiers"])} dossiers unavailable; '
+            f'{len(quality["multiple_fathers"])} competing-father cases held out; {len(quality["cycles"])} paternal cycles flagged. Cyclic edges are excluded from the score. '
+            'Named documentary ancestors with complete public research accounts can connect these profiles. They are listed separately as connectors and never increase the profile denominator. An unnamed conceptual ancestor cannot connect branches in this measure.')
+        + p(metrics['baseline']) + p(strategy['later_records'])
+        + '<h3>Research objective and shared-origin hypothesis</h3>' + p(strategy['objective']) + p(strategy['common_origin'])
+        + '<p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements, findings and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p>'
+    )
 
 
 def build(create_baseline=False):
@@ -623,10 +617,11 @@ def build(create_baseline=False):
             f'<article class="connection-case" id="{case["id"]}"><p class="eyebrow">{case["year"]} onwards · {escape(case["status"])}</p><h3>{escape(case["title"])}</h3><p>{people}</p><p>{escape(case["basis"])}</p><p><strong>Next discriminating record:</strong> {escape(case["next_test"])}</p><p class="source-line">{sources}<br>{escape("; ".join(case["record_references"]))}</p></article>'
         )
     cohort_rows = "".join(
-        f"<tr><td>Through {cutoff}</td><td>{data['working']['population']:,}</td><td>{data['working']['component_count']:,}</td><td>{len(data['working']['unattached_multi_child_roots']):,}</td><td>{data['working']['connected_pairs_percent']:.2f}%</td></tr>"
+        f"<tr><th scope='row'>Through {cutoff}</th><td>{data['working']['population']:,}</td><td>{data['working']['component_count']:,}</td><td>{len(data['working']['unattached_multi_child_roots']):,}</td><td>{data['working']['connected_pairs_percent']:.2f}%</td></tr>"
         for cutoff, data in cohorts.items()
     )
     client = dict(
+        reviewed=report['reviewed'],
         current_named_father_coverage=current_named_father_coverage,
         cohorts={
             cutoff: {view: {k: v for k, v in value.items() if k != "cohort_ids"} for view, value in pair.items()}
@@ -637,8 +632,13 @@ def build(create_baseline=False):
         views=LINK_VIEWS,
         history_method_version=METHOD_VERSION,
         history_baseline=dict(cutoff=baseline['cutoff'], population=len(baseline['cohort_ids'])),
+        # Presentation only: the page reads these measures, so the payload omits
+        # per-snapshot ID lists. The full history stays in research/ and /data/.
         progress_history=[
-            {key: row[key] for key in ('date', 'method_version', 'fixed_cohort', 'cohorts') if key in row}
+            {key: (slim_snapshot_metrics(row[key]) if key == 'fixed_cohort'
+                   else {cutoff: slim_snapshot_metrics(pair) for cutoff, pair in row[key].items()} if key == 'cohorts'
+                   else row[key])
+             for key in ('date', 'method_version', 'fixed_cohort', 'cohorts') if key in row}
             for row in history['snapshots']
         ],
         research_priorities=priorities,
@@ -646,70 +646,101 @@ def build(create_baseline=False):
     )
     payload = json.dumps(client, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     options = "".join(
-        f'<option value="{c}"' + (" selected" if c == strategy["primary_cutoff"] else "") + f">Through {c}</option>"
+        f'<option value="{c}"' + (" selected" if c == strategy["primary_cutoff"] else "") + f">Born through {c}</option>"
         for c in strategy["cutoffs"]
     )
-    view_options = ''.join(f'<option value="{view}">{escape(LINK_VIEWS[view]["label"])}</option>'
+    view_options = ''.join(f'<option value="{view}">{escape(SHORT_VIEW_LABELS[view])}</option>'
                            for view in MEASUREMENT_VIEWS)
     named_coverage = current_named_father_coverage['cohorts'][str(strategy['primary_cutoff'])]
     named_coverage_text = (f"{named_coverage['rated_count']:,} of {named_coverage['named_count']:,} retained named fathers individually rated; "
                            f"{named_coverage['unrated_count']:,} ungraded. "
                            + (f"{named_coverage['coverage_percent']:.1f}% coverage." if named_coverage['coverage_percent'] is not None
                               else "No retained named fathers."))
-    main = f"""<main class="r-main ancestry-progress" id="main">
-<header class="r-page-head"><span class="r-kicker">Glasgow ancestry programme · {report["reviewed"]}</span><h1>Ancestry research progress</h1><p class="lead">Track stronger father–child connections and fewer separate branches as the research develops.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#uncertain-connections">Largest uncertain connections</a><a href="#early-connections">First connections to investigate</a></p></header>
-<section aria-labelledby="connectivity-title"><h2 id="connectivity-title">How connected is the family?</h2><div class="progress-controls"><label>Historical cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label></div><p id="link-view-note" aria-live="polite">{escape(LINK_VIEWS['working']['description'])}</p><div class="connectivity-stats" id="connectivity-stats">{metrics_html(selected)}</div><p id="cohort-detail" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All views use the same people.</p><p id="named-father-coverage" aria-live="polite">{escape(named_coverage_text)}</p><p class="source-line">Current rating coverage includes every retained selected named father, including fathers outside the surname graph. Alternatives and unnamed fathers are excluded. Historical graph-link series below retain their original scope.</p><div class="progress-table-wrap"><table><caption>Compare the same people at each link threshold</caption><thead><tr><th>Links counted</th><th>Branches</th><th>People in largest branch</th><th>Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div><p>Probable assessments can strengthen the middle measure while the confidently marked measure stays separate. The original baseline has no probable-or-stronger measurement; this series starts with the current review. An unmarked link is a review gap rather than a disproof.</p><p>{escape(strategy["metrics"]["target"])}</p><p>Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.</p></section>
+    demote = lambda html: re.sub(r'<(/?)h2\b', r'<\1h3', html).replace('<section', '<div class="pd-block"', 1).replace('</section>', '</div>') if html else ''
+    priority_unknown = sum(row['status'] == 'unknown' for row in priorities)
+    findings_research = sum(bool(row['research_event']) for row in individual_findings)
+
+    def panel(panel_id, title_id, title, summary_id, summary, body):
+        return (f'<details class="pd-panel" id="{panel_id}"><summary><span class="pd-panel-title"><h2 id="{title_id}">{title}</h2>'
+                f'<span class="pd-panel-sum" id="{summary_id}">{summary}</span></span></summary><div class="pd-panel-body">{body}</div></details>')
+
+    panels = "".join([
+        panel('uncertain-connections', 'uncertain-connections-title', 'Which missing or uncertain fathers would help most?', 'sum-priorities',
+              f'{priority_unknown:,} unknown fathers and {len(priorities) - priority_unknown:,} named links below confident, ranked by the size of the branch they would join.',
+              f'<p class="pd-lede">People born through {strategy["primary_cutoff"]}. Each row is one missing or below-confident father; the gain columns show what upgrading that link alone would join. Gains overlap, so do not add them up.</p>'
+              '<div id="priority-uncertainty-summary" class="pd-chips"></div>'
+              '<div class="pd-filters"><label>Rank by <select id="priority-order"><option value="branch">Largest descendant branch</option><option value="confident">Immediate gain in confident pairs</option><option value="working">Pairs depending on the working connection</option></select></label>'
+              '<label>Father listing <select id="priority-kind"><option value="all">Unknown and named fathers</option><option value="unknown">Unknown · no father listed</option><option value="named">Named fathers below confident</option></select></label>'
+              f'<label class="pd-check"><input type="checkbox" id="priority-early">Only children dated by {strategy["early_priority_cutoff"]}</label></div>'
+              '<p id="priority-count" class="pd-count" aria-live="polite"></p>'
+              f'<div class="progress-table-wrap" tabindex="0" role="region" aria-label="Research priority table"><table class="research-priority-table"><caption class="pd-sr">Potential research yield · cohort through {strategy["primary_cutoff"]}</caption><thead><tr><th scope="col">Father → child</th><th scope="col">Current confidence</th><th scope="col">People at or below child</th><th scope="col">Working pairs depending on link</th><th scope="col">Confident pairs gained if upgraded alone</th><th scope="col">Next useful evidence test</th></tr></thead><tbody id="priority-rows"></tbody></table></div>'
+              '<p><button type="button" class="pd-more" id="priority-more" hidden>Show 20 more</button></p>'
+              '<noscript><p>Enable JavaScript to rank the queue, or <a href="/data/ancestry-connectivity.json">download all priorities</a>.</p></noscript>'),
+        panel('individual-findings', 'individual-findings-title', 'Individual findings', 'sum-findings',
+              f'{len(individual_findings):,} saved father assessments, {findings_research:,} of them research changes or father recommendations. Searchable.',
+              '<p class="pd-lede">Every selected father’s saved assessment, newest first, with the child’s biography and WikiTree profile.</p>'
+              '<div class="pd-filters"><label>Show <select id="findings-kind"><option value="research">Research changes and father recommendations</option><option value="change">Confidence changes (percentages or grades)</option><option value="first">First individual ratings</option><option value="new">New / replacement fathers</option><option value="all">All findings</option></select></label>'
+              '<label>Search <input id="findings-search" type="search" placeholder="Name, profile ID or date"></label>'
+              '<label class="pd-check"><input type="checkbox" id="findings-all-cohorts">Include people outside the selected cohort</label></div>'
+              '<p id="findings-count" class="pd-count" aria-live="polite"></p>'
+              '<div class="progress-table-wrap" tabindex="0" role="region" aria-label="Individual father findings"><table class="pd-findings-table"><thead><tr><th scope="col">Review date</th><th scope="col">Child and father</th><th scope="col">Individual assessment</th><th scope="col">Evidence and reason</th></tr></thead><tbody id="findings-rows"></tbody></table></div>'
+              '<p><button type="button" class="pd-more" id="findings-more" hidden>Show 100 more</button></p>'),
+        panel('early-connections', 'early-connections-title', 'Earliest connections to investigate', 'sum-early',
+              f'{len(cards):,} source-backed hypotheses, oldest record first, each with the next record that would decide it.',
+              '<h3 id="working-map-title">One family, with the missing joins visible</h3><div id="working-origin-map" class="working-origin-map"></div>'
+              '<h3>Connections, oldest first</h3><p class="pd-lede">Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>'
+              + "".join(cards)),
+        panel('family-heads', 'family-heads-title', 'Unattached family heads', 'sum-heads',
+              f'{len(roots):,} early heads of families without a father in the selected pedigree.',
+              f'<p class="pd-lede">Work upwards from families rather than isolated later records. Heads with one child but two or more surname descendants are included.</p>'
+              f'<div class="pd-filters"><label class="pd-check"><input type="checkbox" id="early-heads" checked>Only heads dated by {strategy["early_priority_cutoff"]}</label><label>Find a family <input id="head-search" type="search" placeholder="Name or profile ID"></label></div>'
+              f'<p id="head-count" class="pd-count" aria-live="polite">{len(roots)} early family heads</p><div class="progress-table-wrap"><table><thead><tr><th scope="col">Family head</th><th scope="col">Earliest cohort year</th><th scope="col">Children</th><th scope="col">Descendants</th></tr></thead><tbody id="family-head-rows">{root_rows(roots)}</tbody></table></div>'),
+        panel('cohort-tracking', 'cohorts-title', 'Cohort and baseline tracking', 'sum-cohorts',
+              f'Every cohort and link threshold side by side, and the {len(baseline["cohort_ids"]):,} fixed baseline people from {baseline["captured"]}.',
+              f'<h3 id="threshold-title">Selected cohort at each link threshold</h3><p id="cohort-detail" class="pd-count" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All thresholds use the same people.</p>'
+              f'<div class="progress-table-wrap"><table><thead><tr><th scope="col">Links counted</th><th scope="col">Branches</th><th scope="col">People in largest branch</th><th scope="col">Unattached fathers, 2+ children</th><th scope="col">Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div>'
+              f'<p id="named-father-coverage" class="pd-count" aria-live="polite">{escape(named_coverage_text)}</p>'
+              '<h3>Working pedigree at each cutoff</h3><div class="progress-table-wrap"><table><thead><tr><th scope="col">Cutoff</th><th scope="col">People</th><th scope="col">Branches</th><th scope="col">Unattached fathers, 2+ children</th><th scope="col">Connected pairs</th></tr></thead>'
+              f'<tbody>{cohort_rows}</tbody></table></div>'
+              f'<h3 id="baseline-title">The same baseline people</h3><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving people the working connected-pair score is <strong>{fixed["working"]["connected_pairs_percent"]:.2f}%</strong> (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p>'
+              + demote(confidence_note) + demote(publication_html)
+              + '<p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p>'),
+        panel('catalogue-history', 'catalogue-history-title', 'Catalogue coverage history', 'sum-catalogue',
+              'Daily snapshots of unknown and below-confident fathers, connectivity and mean confidence, including first-time grading.',
+              '<p class="pd-lede">These snapshots also move when people are indexed, first assessed or reconciled, so they measure coverage rather than research gains.</p>'
+              f'<div class="pd-filters"><label>History cohort <select id="history-cohort"><option value="fixed">Fixed baseline · {len(baseline["cohort_ids"]):,} people through {baseline["cutoff"]}</option><option value="selected">Selected cohort</option></select></label></div>'
+              '<p id="history-scope" class="pd-count"></p>'
+              '<div id="uncertainty-history" class="uncertainty-trend"><h3 id="uncertainty-history-title">How many fathers remain unknown or below confident?</h3>'
+              '<div id="uncertainty-totals" class="uncertainty-totals" aria-live="polite"></div><div id="uncertainty-breakdown" class="uncertainty-breakdown"></div>'
+              '<div class="pd-legend"><span><i style="background:#9b5610"></i>Named fathers below confident</span><span><i class="dash" style="border-color:#a33237"></i>Uncertain grade only</span><span><i style="background:#303f4b"></i>Unknown father</span></div><div id="uncertainty-trend-chart" class="pd-chart"></div>'
+              '<details><summary>Uncertainty counts by date</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Date</th><th scope="col">All below confident</th><th scope="col">Share of father links</th><th scope="col">Unknown father</th><th scope="col">Uncertain</th><th scope="col">Possible</th><th scope="col">Probable</th><th scope="col">Unmarked</th></tr></thead><tbody id="uncertainty-trend-rows"></tbody></table></div></details></div>'
+              '<h3 id="research-history-title">Links, branches and connectivity over time</h3><div class="pd-filters"><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="assessed_links_percent">Graph-link coverage (%)</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div>'
+              '<fieldset class="history-legend" id="history-confidence-levels"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset>'
+              '<div id="history-changes" class="history-changes" aria-live="polite"></div><div id="history-chart" class="pd-chart"></div><p id="history-note" class="pd-count"></p>'
+              '<details><summary>Snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>'
+              '<div class="confidence-trend"><h3>Graph-link review coverage and mean confidence</h3><p id="confidence-trend-summary" aria-live="polite"></p><div id="confidence-trend-chart" class="pd-chart"></div>'
+              '<details><summary>Exact confidence review data</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Saved review</th><th scope="col">Mean confidence</th><th scope="col">Rated father links</th><th scope="col">Review coverage</th></tr></thead><tbody id="confidence-trend-rows"></tbody></table></div></details></div>'),
+        panel('method', 'method-title', 'Method and definitions', 'sum-method',
+              'How each number is counted, what the grades mean, and what the measures do not claim.',
+              method_html(strategy, report, quality, baseline)),
+    ])
+    main = f"""<main class="r-main ancestry-progress pd" id="main">
+<header class="r-page-head pd-head"><span class="r-kicker">Glasgow ancestry programme · updated {report["reviewed"]}</span><h1>Ancestry research progress</h1><p class="lead">How much of the Glasgow paternal family is joined up, and what the research changed each day.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a></p></header>
+<div class="pd-bar" role="group" aria-label="Dashboard settings"><label>Cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label><span class="pd-bar-links"><a href="#progress-history">Daily changes</a><a href="#explore">Explore</a><a href="#method">Method</a></span></div>
 {reconciliation_note}
-{confidence_note}
-{publication_html}
-<section id="uncertain-connections" aria-labelledby="uncertain-connections-title"><h2 id="uncertain-connections-title">Which missing or uncertain fathers would help most?</h2><p>Missing fathers and father links for the cohort through {strategy['primary_cutoff']}. Coverage is measured above; this queue focuses research on the larger remaining uncertainties. Compare the whole working branch with the immediate gain from making just one link confident. Every other uncertain link stays uncertain.</p><div id="priority-uncertainty-summary" class="priority-uncertainty-summary"></div><div class="progress-controls"><label>Rank connections by <select id="priority-order"><option value="branch">Largest descendant branch</option><option value="confident">Immediate gain in confident pairs</option><option value="working">Pairs depending on the working connection</option></select></label><label>Father listing <select id="priority-kind"><option value="all">Unknown and named fathers</option><option value="unknown">Unknown · no father listed</option><option value="named">Named fathers below confident</option></select></label><label class="inline-check"><input type="checkbox" id="priority-early">Only children dated by 1650</label></div><p id="priority-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Research priority table; scroll horizontally on small screens"><table class="research-priority-table"><caption>Potential research yield · fixed cohort through {strategy['primary_cutoff']}</caption><thead><tr><th>Proposed father → child</th><th>Current confidence</th><th>People at or below child</th><th>Working pairs depending on link</th><th>Confident pairs gained if upgraded alone</th><th>Next useful evidence test</th></tr></thead><tbody id="priority-rows"></tbody></table></div><p>Unknown means no retained named father. Its possible pair gain cannot be calculated until a father is identified; a blank gain is not zero. Branch size includes the child and eligible descendants. These counts concern retained profile accounts, including unresolved identity questions. Named documentary ancestors can connect them but do not increase the person counts. Potential gains overlap and must not be added. Ranking measures impact; it does not measure whether an upgrade is attainable. <a href="/data/ancestry-connectivity.json">Download all priorities and the method</a>.</p><noscript><p>Enable JavaScript to rank the queue, or use the download above. The source-backed early cases follow below.</p></noscript></section>
-<section aria-labelledby="working-map-title"><h2 id="working-map-title">One family, with the missing joins visible</h2><p>The shared-origin model gathers the branches below one ancestral lineage. Dotted lines mean an unknown route through generations; they are research targets and do not change the measured pedigree.</p><div id="working-origin-map" class="working-origin-map"></div><noscript><p>The earliest branch heads and their descendants appear in the table below. Each belongs to the shared-origin working model; the intervening generations remain open.</p></noscript></section>
-<section id="early-connections" aria-labelledby="early-connections-title"><h2 id="early-connections-title">Start with the earliest connections</h2><p>These comparisons are already supported as research hypotheses. They are arranged by the oldest record involved. Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>{"".join(cards)}</section>
-<section aria-labelledby="family-heads-title"><h2 id="family-heads-title">Unattached family heads</h2><p>Work upwards from families rather than collecting isolated later records. Heads with one child but two or more surname descendants are included in this queue too.</p><div class="progress-controls"><label class="inline-check"><input type="checkbox" id="early-heads" checked>Prioritise heads dated by 1650</label><label>Find a family <input id="head-search" type="search" placeholder="Name or profile ID"></label></div><p id="head-count" aria-live="polite">{len(roots)} early family heads</p><div class="progress-table-wrap"><table><thead><tr><th>Family head</th><th>Earliest cohort year</th><th>Children</th><th>Descendants</th></tr></thead><tbody id="family-head-rows">{root_rows(roots)}</tbody></table></div></section>
-<section aria-labelledby="cohorts-title"><h2 id="cohorts-title">Track the earlier generations separately</h2><p>The working pedigree at each cutoff. Estimated vital dates remain estimates. Undated fathers of included people enter by ancestry; unrelated undated entries stay outside the dated cohorts.</p><div class="progress-table-wrap"><table><thead><tr><th>Cutoff</th><th>People</th><th>Branches</th><th>Unattached fathers, 2+ children</th><th>Connected pairs</th></tr></thead><tbody>{cohort_rows}</tbody></table></div></section>
-<section aria-labelledby="baseline-title"><h2 id="baseline-title">Track the same baseline people</h2><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving baseline people, the working connected-pair score is {fixed["working"]["connected_pairs_percent"]:.2f}% (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p><p>A connection between two components joins every cross-branch pair. The score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component's size and N is the cohort. The common-origin model stays outside the measurements.</p><p>Confidence grades come from the current resolved public dossiers. A confidently marked tree link is not a claim that every underlying source has been independently re-audited. Women born with the surname count; their fathers can join the paternal family, while spouses and maternal paths cannot.</p><p>Coverage: {report["available_surname_people"]:,} public surname profiles and {report["documentary_ancestors"]} separately listed documentary ancestors available; {report["undated_surname_people"]:,} have no usable structured date before ancestry closure; {len(quality["missing_dossiers"])} dossiers unavailable; {len(quality["multiple_fathers"])} competing-father cases held out; {len(quality["cycles"])} paternal cycles flagged. Cyclic edges are excluded from the score. Named documentary ancestors with complete public research accounts can connect these profiles. They are listed separately as connectors and never increase the profile denominator. An unnamed conceptual ancestor cannot connect branches in this measure.</p><p>{escape(strategy["later_records"])}</p><p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p></section>
+<section class="pd-section" id="connectivity" aria-labelledby="connectivity-title"><div class="pd-section-head"><h2 id="connectivity-title">Key measures</h2><p id="kpi-scope" class="pd-sub"></p></div>
+<div id="kpi-grid" class="pd-kpis"><noscript><div class="connectivity-stats">{metrics_html(selected)}</div></noscript></div><p id="link-view-note" class="pd-foot">{escape(LINK_VIEWS['working']['description'])}</p></section>
+<section class="pd-section progress-history" id="progress-history" aria-labelledby="history-title"><div class="pd-section-head"><h2 id="history-title">What changed each day</h2><p id="research-history-scope" class="pd-sub"></p></div>
+<div id="research-history-summary" class="pd-chips" aria-live="polite"></div>
+<div class="pd-chart-head"><p class="pd-hint">Bars above the line add or strengthen fathers; bars below are lowered ratings. Select a day to list its findings.</p><div class="pd-seg" role="group" aria-label="Date range"><button type="button" data-range="14">14 days</button><button type="button" data-range="30">30 days</button><button type="button" data-range="all">All</button></div></div>
+<div class="pd-chart pd-daychart" id="research-history-chart"></div>
+<div id="day-detail" class="pd-day" aria-live="polite" tabindex="-1"></div>
+<details class="pd-daytable" id="research-history-table" open><summary>Changes per day</summary><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Changes per day"><table><caption class="pd-sr">Findings per day and the net change in each confidence grade that day</caption><thead><tr><th scope="col" rowspan="2">Date</th><th scope="colgroup" colspan="4">Findings</th><th scope="colgroup" colspan="5">Net change in father links by grade</th><th scope="col" rowspan="2"><span class="pd-sr">Details</span></th></tr><tr><th scope="col">Improved</th><th scope="col">Lowered</th><th scope="col">New fathers</th><th scope="col">Replaced</th><th scope="col">Confident</th><th scope="col">Probable</th><th scope="col">Possible</th><th scope="col">Uncertain</th><th scope="col">Unknown</th></tr></thead><tbody id="research-history-rows"></tbody><tfoot id="research-history-total"></tfoot></table></div>
+<p id="research-history-exclusions" class="pd-count"></p><p id="research-catalogue-reconciliation" class="pd-count"></p></details>
+</section>
+<section class="pd-section" id="explore" aria-labelledby="explore-title"><div class="pd-section-head"><h2 id="explore-title" class="pd-sr">Explore further</h2></div>{panels}</section>
+<noscript><p>Enable JavaScript for the interactive dashboard, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript>
 <script type="application/json" id="ancestry-progress-data">{payload}</script></main>"""
-    history_html = f'''<section id="progress-history" class="progress-history" aria-labelledby="history-title">
-<h2 id="history-title">Research findings over time</h2>
-<p>Track changes supported by new evidence or a revised assessment, including decreases. A first percentage counts when it changes a saved earlier confidence grade. Initial indexing and unchanged grades are review coverage. <a href="#individual-findings">See whose assessment changed ↓</a></p>
-<div class="progress-controls"><label>History cohort <select id="history-cohort"><option value="fixed">Fixed baseline · {len(baseline['cohort_ids']):,} people through {baseline['cutoff']}</option><option value="selected">Selected historical cohort</option></select></label></div>
-<div id="uncertainty-history" class="research-findings-trend" aria-labelledby="research-history-title">
-<h3 id="research-history-title">Confidence changes from research</h3>
-<p id="research-history-scope" class="source-line"></p>
-<div id="research-history-summary" class="history-changes" aria-live="polite"></div>
-<p>Net movement from recorded findings · positive means more links in that grade; negative means fewer.</p>
-<div id="research-history-legend" class="research-grade-legend"></div><div id="research-history-chart"></div>
-<p id="research-history-exclusions" class="source-line"></p><p id="research-catalogue-reconciliation" class="source-line"></p>
-<p class="source-line">A change within a grade still counts as an improved or lowered rating above, even when its line stays level. Each date combines the findings recorded that day; the baseline does not invent an earlier date or percentage.</p>
-<details><summary>View dated research changes</summary><div class="progress-table-wrap"><table><caption>Grade columns show cumulative net change; review columns count that date’s findings.</caption><thead><tr><th scope="col">Date</th><th scope="col">Confident</th><th scope="col">Probable</th><th scope="col">Possible</th><th scope="col">Uncertain</th><th scope="col">Unknown</th><th scope="col">Ratings improved</th><th scope="col">Ratings lowered</th><th scope="col">New fathers</th><th scope="col">Replacements</th></tr></thead><tbody id="research-history-rows"></tbody></table></div></details>
-<h3>Current counts</h3><div id="research-current-counts" class="research-grade-legend"></div><p class="source-line">Unknown means no named father is retained. The other grades count named father links. These current totals are separate from research gains.</p>
-</div>
-<details id="catalogue-history"><summary>Catalogue and review coverage history · includes first-time grading</summary><p>These older snapshot charts also change when people are indexed, first assessed or reconciled. They measure catalogue coverage and connectivity, and are not used to count research improvements above.</p>
-<p id="history-scope" class="source-line"></p>
-<div id="catalogue-uncertainty-history" class="uncertainty-trend" aria-labelledby="uncertainty-history-title">
-<h3 id="uncertainty-history-title">How many fathers remain unknown or uncertain?</h3>
-<p>Unknown means no named father is retained, including an unnamed placeholder or only unselected candidates. Below confident counts named father links graded probable, possible, uncertain or unmarked. Unknown counts people; the other series count father links. <a href="#family-heads-title">Explore unattached family heads</a>.</p>
-<div id="uncertainty-totals" class="uncertainty-totals" aria-live="polite"></div><div id="uncertainty-breakdown" class="uncertainty-breakdown"></div>
-<p class="uncertainty-legend"><span>━ Named fathers below confident</span><span>┄ Uncertain grade only</span><span>● Unknown father</span></p><div id="uncertainty-trend-chart"></div>
-<p class="source-line">Lower is better. Counts follow the history cohort selected above, using each day's last comparable measurement. Changes include regrading existing fathers, review coverage and changes to the people or links included; they are not all new family connections. Unknown-father history starts with its first saved count; earlier missing measurements stay blank.</p>
-<details><summary>View uncertainty counts by date</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Date</th><th scope="col">All below confident</th><th scope="col">Share of father links</th><th scope="col">Unknown father</th><th scope="col">Uncertain</th><th scope="col">Possible</th><th scope="col">Probable</th><th scope="col">Unmarked</th></tr></thead><tbody id="uncertainty-trend-rows"></tbody></table></div></details>
-</div>
-<h3>Confident connections and other measures</h3><p>Green tracks confident father links; blue includes probable links. Change the measure to explore confidence or branch connectivity.</p><div class="progress-controls"><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="assessed_links_percent">Graph-link coverage (%)</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div><fieldset class="history-legend" id="history-confidence-levels"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset><div id="history-changes" class="history-changes" aria-live="polite"></div><div id="history-chart"></div><p id="history-note" class="source-line"></p>
-<details><summary>View snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>
-<noscript><p>Enable JavaScript to explore the chart, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript>
-<div class="confidence-trend">
-<h3>Graph-link review coverage and recorded mean confidence</h3><p id="confidence-trend-summary" aria-live="polite"></p>
-<div id="confidence-trend-chart"></div>
-<p class="source-line">Every changed saved review is shown, including changes within the same day. Reviews are evenly spaced; recording times were not retained. The mean covers individually assessed fathers, so review coverage and new or revised links can move it up or down. It is not a probability for the whole tree. Earlier unrecorded percentages are not reconstructed.</p>
-<details><summary>View exact confidence review data</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Saved review</th><th scope="col">Mean confidence</th><th scope="col">Rated father links</th><th scope="col">Review coverage</th></tr></thead><tbody id="confidence-trend-rows"></tbody></table></div></details>
-</div>
-</details>
-<details id="individual-findings" class="sub-fold"><summary><h3 id="individual-findings-title">Individual findings</h3><span class="fold-hint">Show every saved father assessment</span></summary><p>Follow each selected father’s assessment, with the child’s biography and WikiTree profile. Percentage changes use saved individual estimates, including decreases and changes within a confidence band. First percentages that change a saved earlier confidence grade count as findings; unchanged initial assessments remain review coverage. New and replacement recommendations are reconciled with the catalogue. Dates are recorded review dates; same-day entries retain saved order.</p><div class="progress-controls"><label>Findings <select id="findings-kind"><option value="research">Research changes and father recommendations</option><option value="change">Confidence changes (percentages or grades)</option><option value="first">First individual ratings</option><option value="new">New / replacement fathers</option><option value="all">All findings</option></select></label><label class="inline-check"><input type="checkbox" id="findings-all-cohorts">Include beyond the selected history cohort</label></div><p id="findings-count" aria-live="polite"></p><div class="progress-table-wrap" tabindex="0" role="region" aria-label="Individual father findings"><table><thead><tr><th scope="col">Review date</th><th scope="col">Child and father</th><th scope="col">Individual assessment</th><th scope="col">Evidence and reason</th></tr></thead><tbody id="findings-rows"></tbody></table></div></details>
-</section>'''
-    main = main.replace('<section aria-labelledby="connectivity-title">', history_html + '<section aria-labelledby="connectivity-title">', 1)
-    main = main.replace('<h2 id="baseline-title">Track the same baseline people</h2>', '<h2 id="baseline-title">Track the same baseline people</h2><details><summary>Research objective and shared-origin hypothesis</summary><p>' + escape(strategy['objective']) + '</p><p>' + escape(strategy['common_origin']) + '</p></details>', 1)
-    main = main.replace('<a href="#early-connections">', '<a href="#progress-history">Progress chart</a><a href="#individual-findings">Individual findings</a><a href="#early-connections">', 1)
-    main = fold_sections(main)
     page = shell_page((WEB / "about/index.html").read_text(), main, "Glasgow ancestry progress", ROUTE + "index.html")
     page = page.replace(
         "</head>", '<link rel="stylesheet" href="/assets/research/ancestry-progress.css?v=current"></head>'
