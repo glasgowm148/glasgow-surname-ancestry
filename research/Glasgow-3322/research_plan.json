@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "case_id": "Glasgow-3322",
+  "objective": "Identify the later Daniel title holders and test the unproved William-428 parent link from named kin or an actual title succession.",
+  "questions": [
+    {
+      "id": "white-assignment-title",
+      "question": "What tract and prior deed underlie the 5 January 1736/7 assignment to Daniel, and does the original identify senior, junior, wife or kin?",
+      "status": "open"
+    },
+    {
+      "id": "later-boundary-owner",
+      "question": "Does the 1768 Tulls Creek boundary preserve an old proprietor’s name or identify a later Daniel, and what recorded chain connects it?",
+      "status": "open"
+    }
+  ],
+  "research_state": {
+    "disposition": "awaiting_source",
+    "reviewed_on": "2026-11-04",
+    "last_test": "Read the public Book 3 p.45 assignment and Book 2 pp.98–99 boundary extracts; compared existing original1692/1714 title conclusions. No father or lifetime identity clause obtained. Books1/2/3 and LetterBook1 are partial published extracts, not a complete original-register search. OCCGS OCR is a lead; requested PDF page image unavailable, not visually verified.",
+    "next_test": "Read original Book3 p.45 with its underlying instrument/endorsement and compare any actual tract recital with the separate Richford, Miller, Slade and New Entry titles. Then trace only the identified tract forward for named heirs or a William connection.",
+    "resume_when": "An original assignment/underlying deed, forward title recital, probate/distribution or other identifying kin clause is available. Do not repeat the completed1692/1714 originals or count the 1768 boundary as proof of life.",
+    "source_locators": [
+      "https://www.ncgenweb.us/currituck/deeds/db03.html",
+      "https://www.ncgenweb.us/currituck/deeds/db02.html"
+    ]
+  },
+  "findings": [
+    "currituck-daniel-glasgoe-white-assignment-1737",
+    "currituck-daniel-glasgow-boundary-1768"
+  ],
+  "web_searches": [
+    {
+      "date": "2026-11-04",
+      "scope": "Public indexed search and NCGenWeb published Books1/2/3 and LetterBook1; not exhaustive manuscript coverage",
+      "queries": [
+        "\"Daniel Glasgow\" \"William\" Currituck deed",
+        "\"Daniel Glasco\" \"Richford\"",
+        "\"Glasgow\" \"Richford\" -site:glasgow.phenotype.dev",
+        "\"Daniel\" \"Glascoe\" \"White\" 1737"
+      ]
+    }
+  ]
+}

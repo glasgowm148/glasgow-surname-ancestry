@@ -68405,6 +68405,47 @@
           "previous_status_provenance": "Anonymous live WikiTree getPeople readback 4 November 2026, saved privately in tmp/resume-ancestry-20261104/live-parent-baseline.json: Mary-818 and Nancy-2161 each Father=0 and Mother=0; Jane-802 retains James-803 with an unmarked saved father status. Jane’s maintained native father assessment is 51% Possible, revision 2, dated 22 October 2026."
         }
       ]
+    },
+    {
+      "id": "currituck-daniel-later-title-leads-20261104",
+      "found_on": "2026-11-04",
+      "reviewed_on": "2026-11-04",
+      "kind": "record",
+      "status": "qualified",
+      "significance": "Two later title anchors give new tests for the unresolved Daniel identities; father ratings unchanged.",
+      "finding": "A 1737 White-to-Daniel Glasgoe assignment and a 1768 Tulls Creek boundary naming Daniel Glasgow are newly integrated into the Norfolk–Currituck family comparison. The assignment’s underlying deed and later title succession, rather than another repeated1714 reading, are the next tests.",
+      "qualification": "Published extracts inspected; originals uninspected. Neither names William as Daniel’s son. The 1737 grantee is not allocated to senior/junior or a modern profile; the 1768 boundary is not proof of Daniel’s survival. No confidence rating, father attachment or vital date changes.",
+      "detail_url": "/people/glasgow-3322.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3322",
+          "name": "Daniel Glasgow, Mary Gamon husband account",
+          "url": "/people/glasgow-3322.html",
+          "role": "Unselected title/kinship comparison"
+        },
+        {
+          "id": "Glasgow-1158",
+          "name": "William Daniel Glasgow, overlapping account",
+          "url": "/people/glasgow-1158.html",
+          "role": "Unselected title/kinship comparison"
+        },
+        {
+          "id": "Glasgow-428",
+          "name": "William Glasgow of Currituck",
+          "url": "/people/glasgow-428.html",
+          "role": "Unselected title/kinship comparison"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Currituck Deed Book3 p.45, 1737 assignment: published transcription",
+          "url": "https://www.ncgenweb.us/currituck/deeds/db03.html"
+        },
+        {
+          "title": "Currituck Deed Book2 pp.98–99,1768 boundary: published abstract",
+          "url": "https://www.ncgenweb.us/currituck/deeds/db02.html"
+        }
+      ]
     }
   ]
 }
