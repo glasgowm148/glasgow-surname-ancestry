@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 import re
 import sys
-from urllib.parse import quote, unquote
+from urllib.parse import parse_qs, quote, unquote, urlsplit
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 if str(PROJECT_ROOT) not in sys.path:
@@ -178,9 +178,28 @@ def _scope_holds(audit_dir: Path) -> dict[str, list[dict]]:
     return holds
 
 
+def _effective_access_status(receipt: dict) -> str:
+    """Interpret a fair-use redirect without rewriting its historical status."""
+    if str(receipt.get("block_reason") or "").strip().casefold() == "daily_limit":
+        return "daily_limit"
+    for field in ("final_url", "url"):
+        url = receipt.get(field)
+        if not isinstance(url, str):
+            continue
+        try:
+            parsed = urlsplit(url)
+            limits = parse_qs(parsed.query).get("limit", [])
+        except ValueError:
+            continue
+        if (parsed.path.rstrip("/").endswith("/steady-sherlock")
+                and any(value.casefold() == "dailylimit" for value in limits)):
+            return "daily_limit"
+    return receipt.get("access_status") or "incomplete"
+
+
 def _successful(candidate: dict) -> bool:
     receipt = candidate["receipt"]
-    return (receipt.get("access_status") == "accessible"
+    return (_effective_access_status(receipt) == "accessible"
             and isinstance(receipt.get("transcript_fields"), dict)
             and bool(receipt["transcript_fields"]))
 
@@ -304,8 +323,11 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
         elif matched_receipts:
             receipt = max(matched_receipts, key=_candidate_sort)
             disposition = "blocked_receipt"
-            receipt_state = receipt["receipt"].get("access_status") or "incomplete"
-            reason = ("Cached receipt has no nonempty transcript_fields; do not automatically retry."
+            receipt_state = _effective_access_status(receipt["receipt"])
+            reason = ("Cached temporary daily fair-use limit, not a record-specific subscription lock; "
+                      "do not automatically retry before the allowance resets."
+                      if receipt_state == "daily_limit" else
+                      "Cached receipt has no nonempty transcript_fields; do not automatically retry."
                       if receipt_state == "accessible" else "Cached access failure; do not automatically retry.")
         else:
             disposition = "detail_needed"
@@ -334,12 +356,14 @@ def preflight(root: Path, rows: list[dict], reinspect_reason: str = "") -> dict:
             "disposition": disposition,
             "receipt_status": receipt_state,
             "cached_receipt": ({"path": receipt["path"], "json_pointer": receipt["json_pointer"],
-                                 "access_status": receipt["receipt"].get("access_status"),
+                                 "access_status": _effective_access_status(receipt["receipt"]),
+                                 "raw_access_status": receipt["receipt"].get("access_status"),
                                  "transcript_fields_present": bool(receipt["receipt"].get("transcript_fields")),
                                  "captured_at": receipt["receipt"].get("captured_at")}
                                 if receipt else None),
             "receipt_pointers": [{"path": item["path"], "json_pointer": item["json_pointer"],
-                                  "access_status": item["receipt"].get("access_status"),
+                                  "access_status": _effective_access_status(item["receipt"]),
+                                  "raw_access_status": item["receipt"].get("access_status"),
                                   "captured_at": item["receipt"].get("captured_at")}
                                  for item in sorted(matched_receipts, key=_candidate_sort)],
             "conflicting_fields": conflicts,

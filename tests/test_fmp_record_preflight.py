@@ -117,6 +117,50 @@ class FmpPreflightTests(unittest.TestCase):
         self.assertFalse(result["reinspect"]["requested"])
         self.assertIsNone(result["reinspect"]["reason"])
 
+    def test_daily_limit_overrides_old_lock_status_and_preserves_raw_history(self):
+        redirect = "https://www.findmypast.co.uk/steady-sherlock?limit=dailyLimit&record_id=R_55"
+        for markers in ({"block_reason": "daily_limit"}, {"final_url": redirect}, {"url": redirect}):
+            with self.subTest(markers=markers):
+                receipt = {"access_status": "subscription_locked", "transcript_fields": {}, **markers}
+                self.detail("R_55", receipt)
+                path = self.audit / "record-details-test.json"
+                before = path.read_bytes()
+                result = self.run_one("R_55")
+                self.assertEqual(result["disposition"], "blocked_receipt")
+                self.assertEqual(result["receipt_status"], "daily_limit")
+                self.assertEqual(result["cached_receipt"]["access_status"], "daily_limit")
+                self.assertEqual(result["cached_receipt"]["raw_access_status"], "subscription_locked")
+                self.assertEqual(result["receipt_pointers"][0]["raw_access_status"], "subscription_locked")
+                self.assertEqual(result["receipt_pointers"][0]["access_status"], "daily_limit")
+                self.assertIn("not a record-specific subscription lock", result["reason"])
+                self.assertEqual(path.read_bytes(), before)
+
+    def test_daily_limit_marker_cannot_turn_stale_fields_into_success(self):
+        self.detail("R_56", {"access_status": "accessible", "block_reason": "daily_limit",
+                              "transcript_fields": {"Last name": "Glasgow"}})
+        result = self.run_one("R_56")
+        self.assertEqual(result["disposition"], "blocked_receipt")
+        self.assertEqual(result["receipt_status"], "daily_limit")
+        self.assertEqual(result["cached_receipt"]["raw_access_status"], "accessible")
+
+    def test_real_subscription_lock_is_not_reclassified_by_unrelated_limit_url(self):
+        self.detail("R_57", {"access_status": "subscription_locked", "transcript_fields": {},
+                              "final_url": "https://www.findmypast.co.uk/transcript?limit=dailyLimit"})
+        result = self.run_one("R_57")
+        self.assertEqual(result["receipt_status"], "subscription_locked")
+        self.assertEqual(result["cached_receipt"]["raw_access_status"], "subscription_locked")
+
+    def test_fresh_accessible_receipt_outranks_old_mislabelled_daily_limit(self):
+        self.detail("R_58", {"access_status": "subscription_locked", "block_reason": "daily_limit",
+                              "captured_at": "2026-10-01", "transcript_fields": {}}, "record-details-old.json")
+        self.detail("R_58", {"access_status": "accessible", "captured_at": "2026-10-02",
+                              "transcript_fields": {"Last name": "Glasgow"}}, "record-details-new.json")
+        result = self.run_one("R_58")
+        self.assertEqual(result["disposition"], "reusable_receipt")
+        self.assertEqual(result["receipt_status"], "accessible")
+        self.assertEqual(result["receipt_pointers"][0]["access_status"], "daily_limit")
+        self.assertEqual(result["receipt_pointers"][0]["raw_access_status"], "subscription_locked")
+
     def test_cached_accessible_receipt_reinspect_needs_specific_reason(self):
         self.detail("R_6", {"access_status": "accessible", "transcript_fields": {"Last name": "Glasgow"}})
         result = self.run_one("R_6", "The saved fields omit the named spouse needed to check this relationship.")
