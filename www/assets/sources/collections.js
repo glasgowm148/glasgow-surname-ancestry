@@ -8,10 +8,10 @@ const LABELS={newspapers:'Newspapers',census:'Census',births:'Births & baptisms'
 const LEVELS=['Original','Image','Transcript','Index','Published account','Family account','Not assessed'];
 const LINKED=[['yes','Linked profile'],['pending','Profile pending'],['no','No profile']];
 const SORTS={date:'Date, earliest first','-date':'Date, latest first',name:'Person named, A–Z',collection:'Collection, A–Z'};
-const form=root.querySelector('.sc-m-search'),facetBox=root.querySelector('.sc-m-facets'),timeline=root.querySelector('.sc-m-timeline'),count=root.querySelector('.sc-m-count'),out=root.querySelector('.sc-m-results'),more=root.querySelector('.sc-m-more');
-const KEYS=['q','cat','country','provider','decade','year','linked','level','sort'];
-let rows=[],base=[],cats=[],state={},shown=0,filtered=[],zoom='';
-const read=()=>{const u=new URLSearchParams(location.search);const s={};for(const k of KEYS)s[k]=u.get(P+k)||'';if(!SORTS[s.sort])s.sort='date';if(!/^\d{4}$|^undated$/.test(s.year))s.year='';if(!/^\d{3}0$/.test(s.decade))s.decade='';return s};
+const form=root.querySelector('.sc-m-search'),facetBox=root.querySelector('.sc-m-facets'),activeBox=root.querySelector('.sc-m-active'),filterBox=root.querySelector('.sc-m-filters'),filterSummary=root.querySelector('.sc-m-filters-summary'),timeline=root.querySelector('.sc-m-timeline'),count=root.querySelector('.sc-m-count'),out=root.querySelector('.sc-m-results'),more=root.querySelector('.sc-m-more');
+const KEYS=['q','cat','country','provider','century','decade','year','linked','level','sort'];
+let rows=[],base=[],cats=[],state={},shown=0,filtered=[];
+const read=()=>{const u=new URLSearchParams(location.search);const s={};for(const k of KEYS)s[k]=u.get(P+k)||'';if(!SORTS[s.sort])s.sort='date';if(!/^\d{4}$|^undated$/.test(s.year))s.year='';if(!/^\d{3}0$/.test(s.decade))s.decade='';if(!/^\d{2}00$/.test(s.century))s.century='';return s};
 function write(push){const u=new URLSearchParams(location.search);for(const k of KEYS){const v=k==='sort'&&state.sort==='date'?'':state[k];if(v)u.set(P+k,v);else u.delete(P+k)}const qs=u.toString(),url=location.pathname+(qs?'?'+qs:'')+location.hash;try{history[push?'pushState':'replaceState']({sc:1},'',url)}catch{}}
 const linkedOf=r=>r.p?'yes':r.pp?'pending':'no';
 const decadeOf=r=>r.y==null?'':String(Math.floor(r.y/10)*10);
@@ -21,43 +21,67 @@ function hit(r,skip){
  if(skip!=='provider'&&state.provider&&(r.pv||'Not recorded')!==state.provider)return false;
  if(skip!=='linked'&&state.linked&&linkedOf(r)!==state.linked)return false;
  if(skip!=='level'&&state.level&&r.lv!==state.level)return false;
- if(skip!=='time'){if(state.year==='undated'?r.y!=null:state.year&&!(r.y===Number(state.year)||(r.ys||[]).includes(Number(state.year))))return false;if(state.decade&&decadeOf(r)!==state.decade)return false}
+ if(skip!=='time'){if(state.year==='undated'?r.y!=null:state.year&&!(r.y===Number(state.year)||(r.ys||[]).includes(Number(state.year))))return false;if(state.decade&&decadeOf(r)!==state.decade)return false;if(state.century&&(r.y==null||String(Math.floor(r.y/100)*100)!==state.century))return false}
  if(state.terms.length&&!state.terms.every(t=>r.h.includes(t)))return false;
  return true}
 const tally=(skip,key)=>{const m=new Map();for(const r of base)if(hit(r,skip))for(const k of [].concat(key(r)))m.set(k,(m.get(k)||0)+1);return m};
 const chip=(g,v,l,n,on)=>`<button type="button" class="sc-chip" data-group="${g}" data-value="${esc(v)}" aria-pressed="${on}" ${n||on?'':'disabled'}>${esc(l)} <span>${n.toLocaleString()}</span></button>`;
+const PERIOD_LABEL=v=>v==='undated'?'Date unresolved':v;
+function options(m,list,label,cur){return list.map(k=>`<option value="${esc(k)}"${cur===k?' selected':''}${!(m.get(k)||0)&&cur!==k?' disabled':''}>${esc(label(k))} (${(m.get(k)||0).toLocaleString()})</option>`).join('')}
+function field(name,label,body,locked){return `<label class="sc-m-field${locked?' is-locked':''}"><span>${esc(label)}</span>${body}</label>`}
 function renderFacets(){
- const parts=[];
- if(d.category){parts.push(`<div class="sc-facet"><span class="sc-facet-label">Record type</span><span class="sc-chip" aria-pressed="true">${esc(LABELS[d.category]||d.category)}</span><a class="sc-m-all" href="/sources/${esc(allQuery())}">All record types →</a></div>`)}
- else{const m=tally('cat',r=>r.c.map(i=>cats[i]));parts.push(`<div class="sc-facet"><span class="sc-facet-label">Record type</span>${cats.map(c=>chip('cat',c,LABELS[c]||c,m.get(c)||0,state.cat===c)).join('')}</div>`)}
- if(!d.country){const m=tally('country',r=>r.co.length?r.co:['unresolved']);const list=[...m.keys()].filter(k=>k!=='unresolved').sort((a,b)=>m.get(b)-m.get(a));if(state.country&&!m.has(state.country))list.push(state.country);parts.push(`<div class="sc-facet"><span class="sc-facet-label">Country</span>${list.map(c=>chip('country',c,c,m.get(c)||0,state.country===c)).join('')}${chip('country','unresolved','Unresolved',m.get('unresolved')||0,state.country==='unresolved')}</div>`)}
- const pm=tally('provider',r=>r.pv||'Not recorded');const prov=[...pm.entries()].sort((a,b)=>b[1]-a[1]);const top=prov.slice(0,9).map(([k])=>k);if(state.provider&&!top.includes(state.provider))top.push(state.provider);
- const rest=prov.filter(([k])=>!top.includes(k));
- parts.push(`<div class="sc-facet"><span class="sc-facet-label">Provider</span>${top.map(k=>chip('provider',k,k,pm.get(k)||0,state.provider===k)).join('')}${rest.length?`<label class="sc-m-more-prov"><span class="sr-only">More providers</span><select data-group="provider"><option value="">${rest.length} more…</option>${rest.map(([k,n])=>`<option value="${esc(k)}">${esc(k)} (${n})</option>`).join('')}</select></label>`:''}</div>`);
- const lm=tally('linked',linkedOf);parts.push(`<div class="sc-facet"><span class="sc-facet-label">Linked profile</span>${LINKED.map(([v,l])=>chip('linked',v,l,lm.get(v)||0,state.linked===v)).join('')}</div>`);
- const vm=tally('level',r=>r.lv);parts.push(`<div class="sc-facet"><span class="sc-facet-label">Source level</span>${LEVELS.filter(v=>vm.has(v)||state.level===v).map(v=>chip('level',v,v,vm.get(v)||0,state.level===v)).join('')}</div>`);
- facetBox.innerHTML=parts.join('')}
+ const f=[];
+ if(d.category)f.push(field('cat','Record type',`<select disabled><option>${esc(LABELS[d.category]||d.category)}</option></select><a class="sc-m-all" href="/sources/${esc(allQuery())}">All record types →</a>`,true));
+ else{const m=tally('cat',r=>r.c.map(i=>cats[i]));f.push(field('cat','Record type',`<select data-group="cat"><option value="">All record types</option>${options(m,cats,c=>LABELS[c]||c,state.cat)}</select>`))}
+ if(d.country)f.push(field('country','Country',`<select disabled><option>${esc(d.country)}</option></select>`,true));
+ else{const m=tally('country',r=>r.co.length?r.co:['unresolved']);const list=[...m.keys()].filter(k=>k!=='unresolved').sort((a,b)=>m.get(b)-m.get(a));if(state.country&&!list.includes(state.country)&&state.country!=='unresolved')list.push(state.country);list.push('unresolved');f.push(field('country','Country',`<select data-group="country"><option value="">All countries</option>${options(m,list,c=>c==='unresolved'?'Country unresolved':c,state.country)}</select>`))}
+ {const m=tally('provider',r=>r.pv||'Not recorded');const list=[...m.keys()].sort((a,b)=>m.get(b)-m.get(a)||a.localeCompare(b));if(state.provider&&!list.includes(state.provider))list.push(state.provider);f.push(field('provider','Provider',`<select data-group="provider"><option value="">All providers</option>${options(m,list,k=>k,state.provider)}</select>`))}
+ {const m=tally('time',r=>r.y==null?'undated':Math.floor(r.y/100)*100+'s');const list=[...m.keys()].filter(k=>k!=='undated').sort();list.push('undated');const cur=state.year==='undated'?'undated':state.century?state.century+'s':state.decade?Math.floor(state.decade/100)*100+'s':'';f.push(field('period','Period',`<select data-group="period"><option value="">All periods</option>${options(m,list,PERIOD_LABEL,cur)}</select>`))}
+ {const m=tally('linked',linkedOf);f.push(field('linked','Linked profile',`<select data-group="linked"><option value="">Any</option>${options(m,LINKED.map(x=>x[0]),k=>LINKED.find(x=>x[0]===k)[1],state.linked)}</select>`))}
+ {const m=tally('level',r=>r.lv);f.push(field('level','Source level',`<select data-group="level"><option value="">Any level</option>${options(m,LEVELS.filter(v=>m.has(v)||state.level===v),v=>v,state.level)}</select>`))}
+ facetBox.innerHTML=f.join('');
+ // One row of active filters, each removable, with Clear all.
+ const act=[];const add=(k,label)=>act.push(`<button type="button" class="sc-m-active-chip" data-clear="${k}">${esc(label)} <span aria-hidden="true">×</span><span class="sr-only">Remove filter</span></button>`);
+ if(d.category)act.push(`<span class="sc-m-active-chip is-fixed">${esc(LABELS[d.category]||d.category)}</span>`);
+ if(d.country)act.push(`<span class="sc-m-active-chip is-fixed">${esc(d.country)}</span>`);
+ if(d.year)act.push(`<span class="sc-m-active-chip is-fixed">${esc(d.year==='undated'?'Year unresolved':d.year)}</span>`);
+ if(state.q)add('q',`“${state.q}”`);if(state.cat)add('cat',LABELS[state.cat]||state.cat);if(state.country)add('country',state.country==='unresolved'?'Country unresolved':state.country);if(state.provider)add('provider',state.provider);
+ if(state.century)add('century',state.century+'s');if(state.decade)add('decade',state.decade+'s');if(state.year)add('year',state.year==='undated'?'Date unresolved':state.year);if(state.linked)add('linked',LINKED.find(x=>x[0]===state.linked)?.[1]||state.linked);if(state.level)add('level',state.level);
+ const n=act.filter(a=>a.includes('data-clear')).length;
+ activeBox.innerHTML=act.length?`<span class="sc-m-active-label">Showing</span>${act.join('')}${n?'<button type="button" class="sc-m-clear-all">Clear all</button>':''}`:'<span class="sc-m-active-label">No filters applied</span>';
+ filterSummary.textContent=n?`Filters · ${n} active`:'Filters'}
 function allQuery(){const u=new URLSearchParams();for(const k of KEYS)if(state[k]&&k!=='cat'&&!(k==='sort'&&state.sort==='date'))u.set(k,state[k]);if(d.category)u.set('cat',d.category);const s=u.toString();return s?'?'+s+'#source-list':'#source-list'}
+// Timeline: a by-century overview strip, and a main chart of decades (or the
+// years of one century). Heights use a square-root scale by default so early
+// centuries stay visible beside the many twentieth-century references.
+let scale='sqrt';try{const s=localStorage.getItem('sc-m-scale');if(['sqrt','log','linear'].includes(s))scale=s}catch{}
+const SCALE_TEXT={sqrt:'square-root',log:'logarithmic',linear:'linear'};
+const hgt=(n,max)=>{if(!n)return 0;const f=scale==='log'?Math.log10(n+1)/Math.log10(max+1):scale==='linear'?n/max:Math.sqrt(n)/Math.sqrt(max);return Math.max(3,Math.round(f*100))};
 function renderTimeline(){
  const per=new Map(),all=new Map();let undated=0,undatedHit=0;
  for(const r of base){if(r.y==null){undated++;if(hit(r,'time'))undatedHit++;continue}all.set(r.y,(all.get(r.y)||0)+1);if(hit(r,'time'))per.set(r.y,(per.get(r.y)||0)+1)}
- if(!all.size){timeline.hidden=true;return}timeline.hidden=false;
- const ys=[...all.keys()],lo0=Math.min(...ys),hi0=Math.max(...ys);
- const cz=zoom||(state.decade?String(Math.floor(state.decade/100)*100):state.year&&state.year!=='undated'?String(Math.floor(state.year/100)*100):'');
- const span=hi0-lo0;let bars='',labels='',cols,labelCols,hint;
- if(cz||span<=110){
-  const lo=cz?Number(cz):Math.floor(lo0/10)*10,hi=cz?lo+99:Math.floor(hi0/10)*10+9;cols=hi-lo+1;labelCols=cols/10;let max=1;for(let y=lo;y<=hi;y++)max=Math.max(max,all.get(y)||0);
-  for(let y=lo;y<=hi;y++){const n=per.get(y)||0,t=all.get(y)||0,sel=state.year===String(y)||(state.decade&&Math.floor(y/10)*10===Number(state.decade));bars+=`<button type="button" class="sc-tl-bar${sel?' is-selected':''}" data-year="${y}" ${t?'':'disabled'} title="${y}: ${n.toLocaleString()} of ${t.toLocaleString()}" aria-label="${y}: ${n} references" style="--h:${n?Math.max(4,Math.round(n/max*100)):0}%;--ht:${t?Math.max(4,Math.round(t/max*100)):0}%"></button>`}
-  for(let x=lo;x<=hi;x+=10){let n=0;for(let y=x;y<x+10;y++)n+=per.get(y)||0;labels+=`<button type="button" class="sc-tl-decade${state.decade===String(x)?' is-selected':''}" data-decade="${x}" ${n?'':'disabled'}><i>${String(x).slice(0,2)}</i>${String(x).slice(2)}<u>s</u><span>${n.toLocaleString()}</span></button>`}
-  hint=`References per year${cz?`, ${cz}s`:''} · select a bar or decade`;
- }else{
-  const lo=Math.floor(lo0/100)*100,hi=Math.floor(hi0/10)*10;cols=(hi-lo)/10+1;labelCols=cols;const dec=new Map(),decAll=new Map();for(const [y,t] of all){const k=Math.floor(y/10)*10;decAll.set(k,(decAll.get(k)||0)+t);dec.set(k,(dec.get(k)||0)+(per.get(y)||0))}const max=Math.max(1,...decAll.values());
-  for(let x=lo;x<=hi;x+=10){const n=dec.get(x)||0,t=decAll.get(x)||0;bars+=`<button type="button" class="sc-tl-bar${state.decade===String(x)?' is-selected':''}" data-decade="${x}" ${t?'':'disabled'} title="${x}s: ${n.toLocaleString()} of ${t.toLocaleString()}" aria-label="${x}s: ${n} references" style="--h:${n?Math.max(4,Math.round(n/max*100)):0}%;--ht:${t?Math.max(4,Math.round(t/max*100)):0}%"></button>`}
-  for(let c=lo;c<=hi;c+=100){let n=0;for(let x=c;x<c+100;x+=10)n+=dec.get(x)||0;const w=Math.min(10,(hi-c)/10+1);labels+=`<button type="button" class="sc-tl-decade sc-tl-century" style="grid-column:span ${w}" data-century="${c}" ${n?'':'disabled'}>${c}s<span>${n.toLocaleString()}</span></button>`}
-  hint='References per decade · select a decade, or a century to see its years';
- }
- const active=state.year||state.decade||zoom;
- timeline.innerHTML=`<div class="sc-tl-head"><span class="sc-facet-label">Timeline</span><span class="sc-tl-hint">${hint}</span>${undated?`<button type="button" class="sc-chip sc-tl-undated" data-undated="1" aria-pressed="${state.year==='undated'}">Date unresolved <span>${undatedHit.toLocaleString()}</span></button>`:''}${active?'<button type="button" class="sc-tl-clear">All years</button>':''}</div><div class="sc-tl-bars" style="--cols:${cols}">${bars}</div><div class="sc-tl-decades" style="--cols:${labelCols}">${labels}</div>`}
+ if(!all.size&&!undated){timeline.hidden=true;return}timeline.hidden=false;
+ const ys=[...all.keys()];const lo0=ys.length?Math.min(...ys):0,hi0=ys.length?Math.max(...ys):0;
+ const c0=Math.floor(lo0/100)*100,c1=Math.floor(hi0/100)*100;
+ const cz=state.century||(state.decade?String(Math.floor(state.decade/100)*100):state.year&&state.year!=='undated'?String(Math.floor(state.year/100)*100):'');
+ // Overview strip: one cell per century.
+ const cent=new Map(),centAll=new Map();for(const [y,t] of all){const k=Math.floor(y/100)*100;centAll.set(k,(centAll.get(k)||0)+t);cent.set(k,(cent.get(k)||0)+(per.get(y)||0))}
+ const cmax=Math.max(1,...cent.values());let strip='';
+ if(ys.length)for(let c=c0;c<=c1;c+=100){const n=cent.get(c)||0,t=centAll.get(c)||0;strip+=`<button type="button" class="sc-tl-cell${cz===String(c)?' is-selected':''}" data-century="${c}" ${t?'':'disabled'} aria-label="${c}s: ${n} references"><i style="--h:${hgt(n,cmax)}%"></i><b>${c}s</b><span>${n.toLocaleString()}</span></button>`}
+ // Main chart.
+ let bars='',axis='',cols,unit;
+ if(cz){const lo=Number(cz),hi=lo+99;cols=100;unit='year';let max=1;for(let y=lo;y<=hi;y++)max=Math.max(max,per.get(y)||0);
+  for(let y=lo;y<=hi;y++){const n=per.get(y)||0,t=all.get(y)||0,sel=state.year===String(y)||(state.decade&&Math.floor(y/10)*10===Number(state.decade));bars+=`<button type="button" class="sc-tl-bar${sel?' is-selected':''}" data-year="${y}" ${t?'':'disabled'} title="${y}: ${n.toLocaleString()} references" aria-label="${y}: ${n} references" style="--h:${hgt(n,max)}%"></button>`}
+  for(let x=lo;x<=hi;x+=10){let n=0;for(let y=x;y<x+10;y++)n+=per.get(y)||0;axis+=`<button type="button" class="sc-tl-decade${state.decade===String(x)?' is-selected':''}" data-decade="${x}" ${n?'':'disabled'}>${x}s<span>${n.toLocaleString()}</span></button>`}}
+ else{const lo=c0,hi=Math.floor(hi0/10)*10;cols=(hi-lo)/10+1;unit='decade';const dec=new Map();for(const [y,n] of per){const k=Math.floor(y/10)*10;dec.set(k,(dec.get(k)||0)+n)}const max=Math.max(1,...dec.values());const decAll=new Set([...all.keys()].map(y=>Math.floor(y/10)*10));
+  for(let x=lo;x<=hi;x+=10){const n=dec.get(x)||0;bars+=`<button type="button" class="sc-tl-bar${state.decade===String(x)?' is-selected':''}" data-decade="${x}" ${decAll.has(x)?'':'disabled'} title="${x}s: ${n.toLocaleString()} references" aria-label="${x}s: ${n} references" style="--h:${hgt(n,max)}%">${n?`<span class="sc-tl-n">${n.toLocaleString()}</span>`:''}</button>`}
+  for(let c=lo;c<=hi;c+=100){const w=Math.min(10,(hi-c)/10+1);axis+=`<span class="sc-tl-axis" style="grid-column:span ${w}">${c}</span>`}}
+ const active=state.year||state.decade||state.century;
+ const scaleBtns=['sqrt','log','linear'].map(s=>`<button type="button" data-scale="${s}" aria-pressed="${scale===s}">${s==='sqrt'?'√ Square root':s==='log'?'Log':'Linear'}</button>`).join('');
+ timeline.innerHTML=`<div class="sc-tl-head"><span class="sc-facet-label">Timeline</span><span class="sc-tl-hint">${cz?`References per year, ${cz}s · select a year or decade`:'References per decade · select a decade, or a century above to see its years'}</span><span class="sc-tl-tools"><span class="sc-tl-scale" role="group" aria-label="Bar scale">${scaleBtns}</span>${active?'<button type="button" class="sc-tl-clear">All years</button>':''}</span></div>`+
+  (strip?`<div class="sc-tl-strip" style="--cols:${(c1-c0)/100+1}" aria-label="References by century">${strip}</div>`:'')+
+  (ys.length?`<div class="sc-tl-main sc-tl-by-${unit}"><div class="sc-tl-bars" style="--cols:${cols}">${bars}</div><div class="sc-tl-${unit==='year'?'decades':'axisrow'}" style="--cols:${unit==='year'?10:cols}">${axis}</div></div>`:'')+
+  `<div class="sc-tl-foot"><span>Bar heights on a ${SCALE_TEXT[scale]} scale${scale==='linear'?'':'; compare the counts, not the heights'}.</span>${undated?`<button type="button" class="sc-chip sc-tl-undated" data-undated="1" aria-pressed="${state.year==='undated'}">Date unresolved, not on the chart <span>${undatedHit.toLocaleString()}</span></button>`:''}</div>`}
 const sorters={date:(a,b)=>(a.y??9999)-(b.y??9999),name:(a,b)=>a.sn.localeCompare(b.sn)||(a.y??9999)-(b.y??9999),collection:(a,b)=>a.sc.localeCompare(b.sc)||(a.y??9999)-(b.y??9999)};
 const pill=m=>`<span class="sc-m-match sc-m-match-${esc(m.toLowerCase().replace(/\W+/g,'-'))}">${esc(m)}</span>`;
 function row(r,i){
@@ -107,18 +131,22 @@ more.addEventListener('click',appendChunk);
 let typing;form.addEventListener('input',ev=>{if(ev.target.name!=='q')return;clearTimeout(typing);typing=setTimeout(()=>{const first=!state.q;set({q:ev.target.value},first)},120)});
 form.addEventListener('change',ev=>{if(ev.target.name==='sort')set({sort:ev.target.value})});
 form.addEventListener('submit',ev=>ev.preventDefault());
-form.addEventListener('reset',ev=>{ev.preventDefault();zoom='';set({q:'',cat:'',country:'',provider:'',decade:'',year:'',linked:'',level:'',sort:'date'})});
-facetBox.addEventListener('click',ev=>{const b=ev.target.closest('button.sc-chip');if(!b)return;const g=b.dataset.group,v=b.dataset.value;set({[g]:state[g]===v?'':v})});
-facetBox.addEventListener('change',ev=>{const s=ev.target.closest('select[data-group]');if(s&&s.value)set({[s.dataset.group]:s.value})});
+form.addEventListener('reset',ev=>{ev.preventDefault();set({q:'',cat:'',country:'',provider:'',century:'',decade:'',year:'',linked:'',level:'',sort:'date'})});
+facetBox.addEventListener('change',ev=>{const s=ev.target.closest('select[data-group]');if(!s)return;const g=s.dataset.group,v=s.value;
+ if(g==='period'){set(v==='undated'?{year:'undated',decade:'',century:''}:{century:v?v.slice(0,4):'',decade:'',year:''});return}
+ set({[g]:v})});
+activeBox.addEventListener('click',ev=>{const b=ev.target.closest('button');if(!b)return;if(b.classList.contains('sc-m-clear-all')){form.reset();return}const k=b.dataset.clear;set({[k]:''})});
+try{if(matchMedia('(max-width:760px)').matches)filterBox.open=false}catch{}
 timeline.addEventListener('click',ev=>{const t=ev.target.closest('button');if(!t||t.disabled)return;
  if(t.dataset.year)set({year:state.year===t.dataset.year?'':t.dataset.year,decade:''});
  else if(t.dataset.decade){const v=state.decade===t.dataset.decade?'':t.dataset.decade;set({decade:v,year:''})}
- else if(t.dataset.century){zoom=t.dataset.century;render()}
+ else if(t.dataset.century)set({century:state.century===t.dataset.century?'':t.dataset.century,decade:'',year:''});
  else if(t.dataset.undated)set({year:state.year==='undated'?'':'undated',decade:''});
- else if(t.classList.contains('sc-tl-clear')){zoom='';set({year:'',decade:''})}});
+ else if(t.dataset.scale){scale=t.dataset.scale;try{localStorage.setItem('sc-m-scale',scale)}catch{}renderTimeline()}
+ else if(t.classList.contains('sc-tl-clear'))set({year:'',decade:'',century:''})});
 out.addEventListener('click',ev=>{const s=ev.target.closest('[data-sort]');if(s){const k=s.dataset.sort;set({sort:state.sort===k?'-'+k:k});return}
  const tg=ev.target.closest('.sc-m-toggle')||(!ev.target.closest('a,button')&&ev.target.closest('.sc-m-row'));if(!tg)return;const body=tg.closest('.sc-m-item');const btn=body.querySelector('.sc-m-toggle');const open=btn.getAttribute('aria-expanded')!=='true';btn.setAttribute('aria-expanded',String(open));body.classList.toggle('is-open',open);const det=body.querySelector('.sc-m-detail');if(open&&!det)body.insertAdjacentHTML('beforeend',detail(filtered[Number(body.dataset.i)]));else if(det)det.hidden=!open});
-addEventListener('popstate',()=>{state=read();zoom='';render()});
+addEventListener('popstate',()=>{state=read();if(d.category)state.cat='';render()});
 const started=performance.now();
 count.textContent='Loading the complete source list…';
 fetch('/assets/sources/master-index.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('master index');return r.json()}).then(data=>{

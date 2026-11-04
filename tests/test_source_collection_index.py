@@ -151,5 +151,25 @@ class SourceCollectionIndexTest(unittest.TestCase):
         self.assertEqual(item['years'], [1911])
 
 
+
+class TitleYearTest(unittest.TestCase):
+    def year(self, title):
+        from tools.source_collection_index import _years
+        return _years({'title': title}, title, ['deaths'])[0]
+
+    def test_ids_references_and_url_parts_are_not_record_years(self):
+        for title in ('Forthill Cemetery, Cookstown, Tyrone - OP/A/1018',
+                      'Source: S142 Page: Database online. Data: Text: Record for J Boman Glasgow Object: @M1059@',
+                      'Source: S-790986517 APID: 1,1124::1411344', 'T71/1266, Marriage of Robert Robertson to Anne Glasgow.',
+                      'captures/20260716T204652Z_Glasgow-1406.json',
+                      'https://www.ancestry.com/mediaui-viewer/collection/1030/tree/176102869/person/152656175477',
+                      'Glasgow Branches in Early Ireland, accessed 19 August 2026.'):
+            self.assertIsNone(self.year(title), title)
+
+    def test_real_title_years_remain(self):
+        self.assertEqual(self.year('Glasgow University Archives GUA BL/204, instrument of 28 Apr 1506'), 1506)
+        self.assertEqual(self.year('Cookstown SR District https://www.irishgenealogy.ie/files/civil/deaths_returns/deaths_1889/06144/475'), 1889)
+
+
 if __name__ == "__main__":
     unittest.main()

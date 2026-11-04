@@ -109,6 +109,37 @@ def _census_metadata(doc: dict) -> tuple[list[int], list[str]]:
     return sorted(years), countries
 
 
+# Numbers in citation titles that are not years: profile and record IDs,
+# URLs, archive references (OP/A/1018, T71/1266), GEDCOM objects (@M1059@),
+# Ancestry APIDs, source numbers (S142) and labelled page, roll or box numbers.
+_NOT_YEAR = [
+    r"https?://\S+|\bwww\.\S+|\S+\.(?:json|html?|php|dll|pdf|jpe?g|ged)\b",
+    r"\b[A-Za-z][A-Za-z'-]*-\d+\b",
+    r"@[A-Za-z]*\d+@",
+    r"\bAPID:?\s*[\d,:]+",
+    r"(?<![\d/])\d{1,3}(?:,\d{3})+(?![\d/])",
+    r"\b(?:[A-Z]{1,4}\d*/)+[A-Z]?\d{1,4}\b(?!/)",
+    r"\b(?:accessed|reviewed|retrieved|downloaded|viewed)\b\s*:?\s*(?:\d{4}-\d{2}-\d{2}|\d{1,2}\s+[a-z]+\s+\d{4}|[a-z]+\s+\d{1,2},?\s+\d{4}|\d{4})",
+    r"\b(?:DOB|born|b\.?)\s*:?\s*(?:\d{1,2}\s+[a-z]+\.?\s+\d{4}|[a-z]+\.?\s+\d{1,2},?\s+\d{4}|\d{4})",
+    r"\b(?:roll|draft board|board|page|pages|p|pp|no|nos|number|object|entry|item|folio|fol|film|microfilm|piece|box|vol|volume|lot|id|grave|plot|section|book|image|frame|line|reel|protocol)\.?\s*(?:no\.?\s*)?[:#]?\s*\d+[a-z]?\b(?!/)",
+    r"\b[A-Z]{1,4}\d{3,}[A-Z]?\b",
+]
+
+
+def _title_year_text(title: str) -> str:
+    """Citation title with numbers that are not record years removed.
+
+    Registration numbers such as 1975/36269 stay: their year is real, and a
+    second year in the same title still leaves the item unresolved.
+    """
+    # File and path names can carry the record year itself (births_1867,
+    # 1927_00009043, cavers_1694_transcription); keep those, not upload dates.
+    kept = re.findall(r"(?<![\d])(1[5-9]\d{2}|20[0-2]\d)(?=[_-][A-Za-z0-9])|(?<=[A-Za-z]_)(1[5-9]\d{2}|20[0-2]\d)(?!\d)", title)
+    for pattern in _NOT_YEAR:
+        title = re.sub(pattern, " ", title, flags=re.I)
+    return title + " " + " ".join(a or b for a, b in kept)
+
+
 def _years(doc: dict, text: str, categories: list[str]) -> tuple[int | None, str]:
     if re.search(r"\bwikitree\b|profile export|tree-only|family tree", _classification_text(doc), re.I):
         return None, "unknown"
@@ -131,6 +162,11 @@ def _years(doc: dict, text: str, categories: list[str]) -> tuple[int | None, str
             return (recorded[0], "record year") if len(recorded) == 1 else (None, "multiple record years")
     title = re.sub(r"\b[A-Za-z][A-Za-z'-]*-\d+\b", "", str(doc.get("title") or ""))
     title_years = [] if "census" in categories else [int(x) for x in _YEAR.findall(title)]
+    # A lone title number that is really an ID, page, reference or URL part
+    # (OP/A/1018, @M1059@, collection/1030) is not a record year. This only
+    # withdraws such a year; it never resolves a title that has several.
+    if len(set(title_years)) == 1 and title_years[0] not in {int(x) for x in _YEAR.findall(_title_year_text(title))}:
+        return None, "unknown"
     if len(set(title_years)) == 1:
         return title_years[0], "source title"
     if title_years:
