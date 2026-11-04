@@ -13,11 +13,13 @@ from urllib.parse import urlparse, unquote
 
 try:
     from tools.source_collection_index import build_index
+    from tools.source_master_index import build_rows as build_master_rows, reviewed_categories
     from tools.newspaper_card_targets import target_for, evidence_tags, identity_status, load_targets, TAG_LABELS
     from tools.repair_primary_navigation import render_breadcrumbs
     from tools.site_identity import page_title
 except ModuleNotFoundError:
     from source_collection_index import build_index
+    from source_master_index import build_rows as build_master_rows, reviewed_categories
     from newspaper_card_targets import target_for, evidence_tags, identity_status, load_targets, TAG_LABELS
     from repair_primary_navigation import render_breadcrumbs
     from site_identity import page_title
@@ -142,14 +144,33 @@ def census_summary(rows):
     return f'<section class="sc-census-summary"><h2>People in the collected census references</h2><p><strong>{len(rows):,} reference items · {len(people):,} linked catalogue people</strong>. Several citations may describe the same household; one return can name several people. Linked people include spouses and relatives and are not a verified count of Glasgow surname entries. This is our collected evidence, not a complete surname search of the surviving census.</p><p>{dated:,} references have a supported census year; {len(rows)-dated:,} remain unresolved. Years come from the enumeration title or original census URL; access dates, birth years and archive numbers are excluded. Countries identify the census jurisdiction where stated, rather than a person’s birthplace.</p></section>'
 
 
-def browser(rows, category, country='', year='', period=''):
+def browser(rows, category, country='', year='', period='', prefix='', static_index=True):
+    """The master source list, pre-filtered by the page's category, country and year.
+
+    The static table and complete link index are the no-JavaScript fallback;
+    the script replaces the table with the full list from master-index.json.
+    """
     rows = sorted(rows, key=lambda r: (r['year'] or 9999, r['title'].casefold(), r['id']))
-    opts = ''.join(f'<option>{e(v)}</option>' for v in COUNTRIES)
-    years = sorted({y for r in rows for y in r.get('years', [])})
-    yearopts = '<option value="undated">Year unresolved</option>' + ''.join(f'<option value="{y}">{y}</option>' for y in years)
+    # The newspaper notice filters own the plain query parameters there.
+    prefix = prefix or ('ref-' if category == 'newspapers' else '')
     initial = (REF_TABLE_HEAD + ''.join(card(r) for r in rows[:50]) + '</tbody></table>') if rows else ''
     rest = '<details class="sc-static-index"><summary>Complete collection index — all reference links</summary><ul>' + ''.join(f'<li><a href="/sources/{e(r["id"])}/">{e(display_title(r))}</a></li>' for r in rows) + '</ul></details>'
-    return f'''<section class="sc-browser" data-category="{category}" data-country="{e(country, quote=True)}" data-year="{year}" data-period="{period}"><h2>Collected references <span class="sc-count-badge">{len(rows):,}</span></h2><p>Reference items in this project, not the total surviving archive. A reference can appear in several types or locations; several references can concern the same record. Countries are inferred from source descriptions and recorded places, so check the citation. Undated and ambiguous items remain available.</p><form class="sc-filters"><label>Search within this collection<input type="search" name="q" placeholder="Name, parish, townland, archive reference…"></label><label>Country / jurisdiction<select name="country"><option value="">All / unresolved</option>{opts}</select></label><label>Record year<select name="year"><option value="">All / unresolved</option>{yearopts}</select></label><label>Source link<select name="availability"><option value="">All references</option><option value="original">Original / provider link recorded</option><option value="none">Original link missing</option></select></label><label class="sc-page-size">Show<select name="size"><option>25</option><option selected>50</option><option>100</option></select></label><button type="reset">Clear filters</button></form><p class="sc-result-count" role="status">{len(rows):,} reference items · earliest first</p><div class="sc-results">{initial or '<p>No reference item assigned to this collection yet. This does not mean the archive has no relevant records.</p>'}</div><nav class="sc-pager" aria-label="Reference pages"></nav>{rest}<noscript><p>Open the complete collection index above to see every reference without JavaScript.</p></noscript></section>'''
+    if not static_index:
+        rest = '<p class="sc-static-index"><a href="/sources/browse/">Complete reference index</a> lists every reference link without the interactive table.</p>'
+    heading = 'All collected references' if not category else 'Collected references'
+    scope = '' if not category else ' This view is pre-filtered; <a href="/sources/#source-list">open the complete source list</a> to search every type.'
+    return (f'<section class="sc-master" id="source-list" data-category="{e(category, quote=True)}" data-country="{e(country, quote=True)}" data-year="{year}" data-period="{period}" data-prefix="{prefix}">'
+            f'<h2>{heading} <span class="sc-count-badge">{len(rows):,}</span></h2>'
+            '<p class="sc-m-intro">Reference items in this project, not the total surviving archive. One reference can belong to several record types or countries, and several references can describe the same record. Countries come from source descriptions and recorded places; undated and ambiguous items stay in the list. Select a row for its details.' + scope + '</p>'
+            '<div class="sc-np-timeline sc-m-timeline" hidden></div>'
+            '<form class="sc-m-search" role="search"><label class="sc-m-q">Search names, places and references<input type="search" name="q" placeholder="Name, parish, townland, collection, RG 14…" autocomplete="off"></label>'
+            '<label>Sort<select name="sort"><option value="date">Date, earliest first</option><option value="-date">Date, latest first</option><option value="name">Person named, A–Z</option><option value="collection">Collection, A–Z</option></select></label>'
+            '<button type="reset">Clear filters</button></form>'
+            '<div class="sc-np-facets sc-m-facets"></div>'
+            f'<p class="sc-result-count sc-m-count" role="status">{len(rows):,} reference items · earliest first</p>'
+            f'<div class="sc-m-results">{initial or "<p>No reference item assigned to this collection yet. This does not mean the archive has no relevant records.</p>"}</div>'
+            '<button type="button" class="sc-m-more" hidden>Show more</button>'
+            f'{rest}<noscript><p>Open the complete collection index above to see every reference without JavaScript.</p></noscript></section>')
 
 
 def guide(config, category, country='', year=None):
@@ -605,8 +626,13 @@ def repair(web=None):
     web = web or WEB
     config = json.loads((INPUT / 'coverage.json').read_text())
     rows = build_index(web)
+    reviewed = reviewed_categories(web)
     for row in rows:
         row['display_title'] = display_title(row)
+        if reviewed.get(row['id']):
+            # Reviewed record categories outrank title keywords (a "Register"
+            # in a census title is not a church record).
+            row['categories'] = reviewed[row['id']]
         for person in row.get('people', []):
             local = '/people/' + person['id'].lower() + '.html'
             person['url'] = local if (web / local.lstrip('/')).exists() else '/sources/' + row['id'] + '/'
@@ -623,8 +649,10 @@ def repair(web=None):
     stats['targets'] += write(web / 'data/newspaper-targets.json', json.dumps({'targets': load_targets()}, ensure_ascii=False, separators=(',', ':')) + '\n')
     index_path = web / 'assets/sources/collection-index.json'
     stats['index'] += write(index_path, json.dumps(rows, ensure_ascii=False, separators=(',', ':')) + '\n')
+    master = build_master_rows(web, rows, ROOT)
+    stats['master'] += write(web / 'assets/sources/master-index.json', json.dumps(master, ensure_ascii=False, separators=(',', ':')) + '\n')
     css = Path(__file__).with_name('source_collections.css').read_text() + '\n'
-    js = Path(__file__).with_name('source_collections.js').read_text() + '\n'
+    js = Path(__file__).with_name('source_master.js').read_text() + '\n' + Path(__file__).with_name('source_collections.js').read_text() + '\n'
     stats['assets'] += write(web / 'assets/sources/collections.css', css)
     stats['assets'] += write(web / 'assets/sources/collections.js', js)
     cv, jv = sha256(css.encode()).hexdigest()[:10], sha256(js.encode()).hexdigest()[:10]
@@ -652,10 +680,10 @@ def repair(web=None):
         if total_text: total = total_text
         if people is not None: total += f' · {people:,} linked catalogue people'
         return '<header class="sc-hero"><p class="sc-eyebrow">The source library</p><h1>' + e(title) + '</h1><p>' + e(intro) + '</p>' + (f'<span class="sc-total">{total}</span>' if total else '') + '</header>'
-    tiles = ''.join(f'<a class="sc-tile" href="/sources/{key}/"><span>{counts[key]:,} references</span><h2>{e(title)}</h2><p>{e(description)}</p></a>' for key,(title,description) in TYPES.items())
-    featured = '<section><h2>Start with a reviewed collection</h2><div class="sc-featured">' + ''.join(f'<a href="{url}">{label}<span>{description}</span></a>' for url,label,description in [('/sources/newspapers/?clip=1#newspaper-records','Saved newspaper clippings',f'{len(clips)} reviewed pages with saved excerpts and identity limits'),('/sources/census/ireland/1851/','1851 Irish Census','Surviving fragments, local references and the records lost in 1922'),('/sources/census/ireland/1831/','1831 Irish Census','Derry householders and religious counts; not a list of every person'),('/sources/deaths/ireland/civil-1864-1900/','Irish civil deaths, 1864–1900','241 index leads, qualified matches and original-record checks'),('/sources/births/scotland/opr-to-1700/','Scottish parish registers through 1700','Reviewed births, baptisms, parents and unresolved identities')]) + '</div></section>'
+    typelinks = '<nav class="sc-m-types" aria-label="Record-type guides"><span class="sc-facet-label">Record-type guides</span>' + ''.join(f'<a href="/sources/{key}/" title="{e(description, quote=True)}">{e(title)} <span>{counts[key]:,}</span></a>' for key,(title,description) in TYPES.items()) + '</nav>'
+    featured = '<details class="sc-m-featured"><summary>Featured reviewed collections</summary><div class="sc-featured">' + ''.join(f'<a href="{url}">{label}<span>{description}</span></a>' for url,label,description in [('/sources/newspapers/?clip=1#newspaper-records','Saved newspaper clippings',f'{len(clips)} reviewed pages with saved excerpts and identity limits'),('/sources/census/ireland/1851/','1851 Irish Census','Surviving fragments, local references and the records lost in 1922'),('/sources/census/ireland/1831/','1831 Irish Census','Derry householders and religious counts; not a list of every person'),('/sources/deaths/ireland/civil-1864-1900/','Irish civil deaths, 1864–1900','241 index leads, qualified matches and original-record checks'),('/sources/births/scotland/opr-to-1700/','Scottish parish registers through 1700','Reviewed births, baptisms, parents and unresolved identities')]) + '</div></details>'
     intro = '<p class="sc-callout">This library brings together original-record references, indexes, transcripts and family accounts. Counts describe our collected references, not unique people or complete archival holdings. Country and year groups are navigation aids; uncertain or missing dates remain visible. Each item opens its evidence, linked profiles and the recorded provider link. A profile citation is labelled as a family account.</p>'
-    page('', 'Sources', hero('Sources', 'Follow the record, its people and the original source.', len(rows)) + featured + '<section><h2>Browse by record type</h2><div class="sc-type-grid">' + tiles + '</div></section>' + intro + '<p><a href="/sources/browse/">Complete reference index</a> · <a href="/records/">Records by person</a> · <a href="/research/transcriptions/">Wills & transcriptions</a></p>')
+    page('', 'Sources', hero('Sources', 'Every collected reference in one list: filter by record type, country, provider or date, and follow each record to its people and original source.', len(rows)) + featured + typelinks + browser(rows, '', static_index=False) + intro + '<p><a href="/sources/browse/">Complete reference index</a> · <a href="/records/">Records by person</a> · <a href="/research/transcriptions/">Wills & transcriptions</a></p>')
     for category, (title, description) in TYPES.items():
         selected = [r for r in rows if category in r['categories']]
         countries = [c for c in COUNTRIES if any(c in r['countries'] for r in selected)]

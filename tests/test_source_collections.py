@@ -81,14 +81,13 @@ class SourceCollectionsTests(unittest.TestCase):
             page = path.read_text()
             self.assertIn('<main', page)
             self.assertNotIn('/assets/v3/sources.js', page)
-            if 'sc-browser' in page:
+            if 'sc-master' in page and 'data-category=""' not in page:
                 self.assertIn('Complete collection index', page)
-                self.assertIn('Year unresolved', page)
 
     @requires_generated_data
     def test_1851_irish_census_keeps_coverage_and_actual_evidence_together(self):
         page = (WEB/'sources/census/ireland/1851/index.html').read_text()
-        for term in ('1851 Irish Census', 'one Belfast ward', 'Fermanagh', 'heads-of-household index', '1922', 'deaths since 1841', 'National Archives', 'Original / provider link'):
+        for term in ('1851 Irish Census', 'one Belfast ward', 'Fermanagh', 'heads-of-household index', '1922', 'deaths since 1841', 'National Archives', 'class="sc-master"'):
             self.assertIn(term, page)
         expected = [r['id'] for r in self.rows if 'census' in r['categories'] and 'Ireland' in r['countries'] and 1851 in r.get('years', [])]
         self.assertTrue(expected)
@@ -502,3 +501,36 @@ class SourceCollectionsTests(unittest.TestCase):
         ireland=(WEB/'branches/early-ireland/index.html').read_text()
         self.assertIn('Armagh children',ireland)
         self.assertIn('cannot both be their death',ireland)
+
+
+class MasterSourceListTests(unittest.TestCase):
+    @requires_generated_data
+    def test_master_index_lists_every_reference_and_published_records(self):
+        master = json.loads((WEB / 'assets/sources/master-index.json').read_text())
+        rows = json.loads((WEB / 'assets/sources/collection-index.json').read_text())
+        self.assertEqual({r['i'] for r in master['rows']}, {r['id'] for r in rows})
+        published = {r['document_id'] for r in json.loads((WEB / 'data/records-index.json').read_text()) if r.get('document_id')}
+        self.assertTrue(published <= {r['i'] for r in master['rows']})
+        hub = (WEB / 'sources/index.html').read_text()
+        self.assertIn('class="sc-master"', hub)
+        self.assertIn('data-category=""', hub)
+        census = (WEB / 'sources/census/index.html').read_text()
+        self.assertIn('data-category="census"', census)
+        self.assertIn('data-prefix="ref-"', (WEB / 'sources/newspapers/index.html').read_text())
+
+    def test_master_rows_hold_back_canonical_rows_outside_the_record_index(self):
+        import tempfile
+        from tools.source_master_index import build_rows
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); web = root / 'www'; (web / 'data').mkdir(parents=True); (root / 'research').mkdir()
+            (web / 'data/records-index.json').write_text(json.dumps([{'record_id': 'a', 'document_id': 's-1', 'person': 'Ann Glasgow', 'year': '1911', 'filter_year': 1911, 'record_category': 'Census', 'association': 'Ann Glasgow — Head; 1911', 'profile_context': {'Draft-1': {'role': 'Subject'}}, 'pending_profile_ids': ['Draft-1']}]))
+            (root / 'research/canonical_records.json').write_text(json.dumps([
+                {'record_id': 'a', 'publish_to_record_index': True, 'provider': 'Ancestry', 'collection': '1911 England Census', 'tna_reference': 'RG 14', 'source_level': 'inspected transcript', 'event_role': 'Head', 'person': 'Ann Glasgow'},
+                {'record_id': 'b', 'publish_to_record_index': False, 'provider': 'Ancestry', 'person': 'Withheld Person'}]))
+            rows = [{'id': 's-1', 'title': '1911 England Census — Ann Glasgow', 'categories': ['census'], 'year': 1911, 'year_basis': 'record year', 'years': [1911], 'countries': ['England'], 'places': [], 'people': [], 'original_url': 'https://www.ancestry.co.uk/x', 'original_kind': 'record or provider'},
+                    {'id': 's-2', 'title': 'Other', 'categories': ['other'], 'year': None, 'year_basis': 'unknown', 'years': [], 'countries': [], 'places': [], 'people': [], 'original_url': None, 'original_kind': 'none'}]
+            out = build_rows(web, rows, root)
+        first = out['rows'][0]
+        self.assertEqual((first['pv'], first['cl'], first['rf'], first['lv'], first['n'], first['pp']),
+                         ('Ancestry', '1911 England Census', 'RG 14', 'Transcript', [['Ann Glasgow', 'Head']], 1))
+        self.assertNotIn('Withheld Person', json.dumps(out))
