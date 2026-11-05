@@ -71634,6 +71634,98 @@
         "research/relationship_assessments.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "ancestry-manchester-birmingham-robert-fathers-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Robert Glasgow-2866, the Manchester iron founder who married Mary Ann Anthony in 1834 with Annie, Agnes and William Glasgow as witnesses, is very probably the Robert baptised in 1806 at Lloyd Street Presbyterian Chapel to William and Ann Glasgow; William Glasgow-3545 is attached as his father at 70% probable, joining him to the family of his sister Agnes-3544. Separately, David Glasgow (baptised Birmingham 1806 to Robert and Mary) gains Robert Glasgow-3220 (buried Birmingham 1827 aged 48) as a possible father at 45%.",
+      "qualification": "Index transcripts and a contributed register extract; originals uninspected. Witnesses suggest but do not state kinship, and several other Robert Glasgows (with Martha, Jane and Lucy Gatliff) were having children in Manchester in the 1830s. Robert-2866's 'about 1815' birth is only an estimate; the 1806 baptism, if his, puts him at 28 at marriage. The record-defined draft for the 1806 baptism (record-ancestry-glasgow-f0367a88c291) is probably the same man and should be consolidated with Robert-2866. No mother is assessed. Name, town and chronology only: no record names Robert-3220's wife or children, the burial index does not identify him as Mary's husband, and Robert-3220's profile itself notes possible duplicates (Glasgow-1367, Glasgow-2963). Index transcripts only. A later Birmingham Robert (with Emma, 1848) is a different generation. No mother is assessed.",
+      "detail_url": "/people/glasgow-2866.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2866",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2866.html",
+          "role": "New probable father William-3545, 70%"
+        },
+        {
+          "id": "Glasgow-3545",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3545.html",
+          "role": "Father; husband of Ann Denham"
+        },
+        {
+          "id": "record-ancestry-glasgow-f0367a88c291",
+          "name": "Robert Glasgow",
+          "url": "",
+          "role": "1806 baptism draft; probably Robert-2866"
+        },
+        {
+          "id": "record-ancestry-glasgow-d31d8d4d9353",
+          "name": "David Glasgow",
+          "url": "",
+          "role": "New possible father Robert-3220, 45%"
+        },
+        {
+          "id": "Glasgow-3220",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3220.html",
+          "role": "Possible father; buried Birmingham 1827"
+        }
+      ],
+      "sources": [
+        {
+          "title": "England, Select Marriages, 1538-1973 — Robert Glasgow, 16 Sep 1834, Cathedral,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/16928047"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Robert Glasgow, 28 Sep 1806, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/122660630"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — David Glasgow, 24 Nov 1806, Saint Martin,Birmingham,Warwick,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/113554292"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Robert Glasgow, 5 Jan 1818, Saint Martin,Birmingham,Warwick,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/20217680"
+        },
+        {
+          "title": "England, Select Deaths and Burials, 1538-1991 — Robert Glasgow, 6 May 1827, St. Marys, Birmingham, Warwick, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9840/records/10086412"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2866",
+          "relative": "Glasgow-3545",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 70,
+          "explanation": "Robert Glasgow-2866, iron founder and bachelor, married Mary Ann Anthony by licence at Manchester Collegiate Church on 16 September 1834 (his biography's register extract; England, Select Marriages index entry). The witnesses were Annie Glasgow, Agnes Glasgow and William Glasgow: the names of William Glasgow-3545, his wife Ann (Denham) and their daughter Agnes-3544. The Lloyd Street Presbyterian Chapel baptised a Robert, born 5 September 1806, to William and Ann Glasgow, the first child after William and Ann's 1805 Manchester marriage. Robert-2866 is therefore very probably that son, and William-3545 is attached as his father at 70% probable.",
+          "previous_status_provenance": "Before 5 November 2026 Robert-2866 had no attached or assessed father (research priority queue: unknown father). No previous percentage is invented."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-d31d8d4d9353",
+          "relative": "Glasgow-3220",
+          "action": "add",
+          "before": "unknown",
+          "after": "possible",
+          "probability_percent": 45,
+          "explanation": "David Glasgow was baptised on 24 November 1806 at St Martin, Birmingham, to Robert and Mary Glasgow; the same couple baptised Robert (born 27 May 1817) at St Martin in January 1818 and buried him, aged 2, in 1819. Robert Glasgow-3220 of Bristol Street, Birmingham, was buried at St Mary's, Birmingham, on 6 May 1827 aged 48 (born about 1779), and is the only Birmingham Robert of that generation in the catalogue. He is added as David's possible father at 45%.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }

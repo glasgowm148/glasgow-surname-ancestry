@@ -46704,6 +46704,70 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-d31d8d4d9353",
+      "relative_id": "Glasgow-3220",
+      "relationship": "father",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-ancestry-r2-birmingham-david1806-father-20261105",
+      "basis": "David Glasgow was baptised on 24 November 1806 at St Martin, Birmingham, to Robert and Mary Glasgow; the same couple baptised Robert (born 27 May 1817) at St Martin in January 1818 and buried him, aged 2, in 1819. Robert Glasgow-3220 of Bristol Street, Birmingham, was buried at St Mary's, Birmingham, on 6 May 1827 aged 48 (born about 1779), and is the only Birmingham Robert of that generation in the catalogue. He is added as David's possible father at 45%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9841-113554292",
+        "ancestry-9841-20217680",
+        "ancestry-9840-9866547",
+        "ancestry-9840-10086412"
+      ],
+      "scope": "Name, town and chronology only: no record names Robert-3220's wife or children, the burial index does not identify him as Mary's husband, and Robert-3220's profile itself notes possible duplicates (Glasgow-1367, Glasgow-2963). Index transcripts only. A later Birmingham Robert (with Emma, 1848) is a different generation. No mother is assessed.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry England index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3220": "Robert Glasgow",
+        "record-ancestry-glasgow-d31d8d4d9353": "David Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3220",
+      "relative_id": "record-ancestry-glasgow-d31d8d4d9353",
+      "relationship": "child",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-ancestry-r2-birmingham-david1806-father-20261105",
+      "basis": "David Glasgow was baptised on 24 November 1806 at St Martin, Birmingham, to Robert and Mary Glasgow; the same couple baptised Robert (born 27 May 1817) at St Martin in January 1818 and buried him, aged 2, in 1819. Robert Glasgow-3220 of Bristol Street, Birmingham, was buried at St Mary's, Birmingham, on 6 May 1827 aged 48 (born about 1779), and is the only Birmingham Robert of that generation in the catalogue. He is added as David's possible father at 45%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9841-113554292",
+        "ancestry-9841-20217680",
+        "ancestry-9840-9866547",
+        "ancestry-9840-10086412"
+      ],
+      "scope": "Name, town and chronology only: no record names Robert-3220's wife or children, the burial index does not identify him as Mary's husband, and Robert-3220's profile itself notes possible duplicates (Glasgow-1367, Glasgow-2963). Index transcripts only. A later Birmingham Robert (with Emma, 1848) is a different generation. No mother is assessed.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry England index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3220": "Robert Glasgow",
+        "record-ancestry-glasgow-d31d8d4d9353": "David Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-1001",
       "relative_id": "record-ancestry-glasgow-04d267d61354",
       "relationship": "father",
@@ -46765,6 +46829,70 @@
       "profile_names": {
         "Glasgow-1001": "William Brown Glasgow",
         "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2866",
+      "relative_id": "Glasgow-3545",
+      "relationship": "father",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-glasgow2866-father-20261105",
+      "basis": "Robert Glasgow-2866, iron founder and bachelor, married Mary Ann Anthony by licence at Manchester Collegiate Church on 16 September 1834 (his biography's register extract; England, Select Marriages index entry). The witnesses were Annie Glasgow, Agnes Glasgow and William Glasgow: the names of William Glasgow-3545, his wife Ann (Denham) and their daughter Agnes-3544. The Lloyd Street Presbyterian Chapel baptised a Robert, born 5 September 1806, to William and Ann Glasgow, the first child after William and Ann's 1805 Manchester marriage. Robert-2866 is therefore very probably that son, and William-3545 is attached as his father at 70% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9841-122660630",
+        "ancestry-9852-16928047",
+        "ancestry-9852-10952888",
+        "ancestry-9841-2392597"
+      ],
+      "scope": "Index transcripts and a contributed register extract; originals uninspected. Witnesses suggest but do not state kinship, and several other Robert Glasgows (with Martha, Jane and Lucy Gatliff) were having children in Manchester in the 1830s. Robert-2866's 'about 1815' birth is only an estimate; the 1806 baptism, if his, puts him at 28 at marriage. The record-defined draft for the 1806 baptism (record-ancestry-glasgow-f0367a88c291) is probably the same man and should be consolidated with Robert-2866. No mother is assessed.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2866.html#research-findings",
+          "label": "Ancestry England index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2866": "Robert Glasgow",
+        "Glasgow-3545": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3545",
+      "relative_id": "Glasgow-2866",
+      "relationship": "child",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-glasgow2866-father-20261105",
+      "basis": "Robert Glasgow-2866, iron founder and bachelor, married Mary Ann Anthony by licence at Manchester Collegiate Church on 16 September 1834 (his biography's register extract; England, Select Marriages index entry). The witnesses were Annie Glasgow, Agnes Glasgow and William Glasgow: the names of William Glasgow-3545, his wife Ann (Denham) and their daughter Agnes-3544. The Lloyd Street Presbyterian Chapel baptised a Robert, born 5 September 1806, to William and Ann Glasgow, the first child after William and Ann's 1805 Manchester marriage. Robert-2866 is therefore very probably that son, and William-3545 is attached as his father at 70% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9841-122660630",
+        "ancestry-9852-16928047",
+        "ancestry-9852-10952888",
+        "ancestry-9841-2392597"
+      ],
+      "scope": "Index transcripts and a contributed register extract; originals uninspected. Witnesses suggest but do not state kinship, and several other Robert Glasgows (with Martha, Jane and Lucy Gatliff) were having children in Manchester in the 1830s. Robert-2866's 'about 1815' birth is only an estimate; the 1806 baptism, if his, puts him at 28 at marriage. The record-defined draft for the 1806 baptism (record-ancestry-glasgow-f0367a88c291) is probably the same man and should be consolidated with Robert-2866. No mother is assessed.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2866.html#research-findings",
+          "label": "Ancestry England index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2866": "Robert Glasgow",
+        "Glasgow-3545": "William Glasgow"
       }
     },
     {
