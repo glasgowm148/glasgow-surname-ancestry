@@ -415577,24 +415577,33 @@
       "Address": "Port Bannatyne",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "John Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "John Glasgow — wright, Port Bannatyne, Bute, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "Port Bannatyne, Isle of Bute, Scotland",
+    "place": "Port Bannatyne, Bute, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "Pigot lists John Glasgow of Port Bannatyne under wrights in the Rothesay section. The two Ancestry entries index the same address.",
+    "profiles": {
+      "record-ancestry-john-glasgow-port-bannatyne-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists John Glasgow under wrights at Port Bannatyne. A 1795 Rothesay baptism names John Glasgow, wright, with Isobel Thomson. Other Rothesay baptisms name John Glasgow and Isobel Hunter. The directory supplies no spouse or child, so the relationship between these households and the wright in 1825 remains open.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "documentary_group": "directory-23184605",
-    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Rothesay, wrights",
     "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
-    "supporting_source_quality": "derivative",
-    "supporting_source_status": "corroborating directory entry",
-    "supporting_source_reason": "Pigot lists John Glasgow of Port Bannatyne under wrights in the Rothesay section. The two Ancestry entries index the same address."
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists John Glasgow under wrights at Port Bannatyne.",
+    "related_evidence_ids": [
+      "ancestry-3145-13397393"
+    ]
   },
   {
     "record_id": "ancestry-3145-26518361",
@@ -415616,24 +415625,33 @@
       "Address": "2 Main point",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "John Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "John Glasgow — spirit dealer, 2 Main Point, Edinburgh, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "2 Main Point, Edinburgh, Midlothian, Scotland",
+    "place": "2 Main Point, Edinburgh, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "Pigot lists John Glasgow of 2 Main Point under Edinburgh spirit dealers. The two Ancestry entries index the same address.",
+    "profiles": {
+      "record-ancestry-john-glasgow-main-point-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists John Glasgow as a spirit dealer at 2 Main Point in Edinburgh. The Edinburgh Post Office directories give the same address and trade in 1824–25, 1825–26, 1826–27 and 1830–31. The 1825–26 directory also lists John Glasgow the brewer at 145 Cowgate. No source here shows they were the same person.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "documentary_group": "directory-26518361",
-    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Edinburgh, spirit dealers",
     "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
-    "supporting_source_quality": "derivative",
-    "supporting_source_status": "corroborating directory entry",
-    "supporting_source_reason": "Pigot lists John Glasgow of 2 Main Point under Edinburgh spirit dealers. The two Ancestry entries index the same address."
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists John Glasgow as a spirit dealer at 2 Main Point in Edinburgh. The Edinburgh Post Office directories give the same address and trade in 1824–25, 1825–26, 1826–27 and 1830–31.",
+    "related_evidence_ids": [
+      "ancestry-3145-23204056"
+    ]
   },
   {
     "record_id": "ancestry-61596-1020591",
@@ -427829,26 +427847,32 @@
       "Address": "Port Bannatyne",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "John Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "John Glasgow — wright, Port Bannatyne, Bute, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "Port Bannatyne, Isle of Bute, Scotland",
+    "place": "Port Bannatyne, Bute, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "Pigot lists John Glasgow of Port Bannatyne under wrights in the Rothesay section. The two Ancestry entries index the same address.",
+    "profiles": {
+      "record-ancestry-john-glasgow-port-bannatyne-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists John Glasgow under wrights at Port Bannatyne. A 1795 Rothesay baptism names John Glasgow, wright, with Isobel Thomson. Other Rothesay baptisms name John Glasgow and Isobel Hunter. The directory supplies no spouse or child, so the relationship between these households and the wright in 1825 remains open.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "related_evidence_ids": [
       "ancestry-3145-23184605"
     ],
-    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Rothesay, wrights",
     "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
-    "supporting_source_quality": "derivative",
-    "supporting_source_status": "corroborating directory entry",
-    "supporting_source_reason": "Pigot lists John Glasgow of Port Bannatyne under wrights in the Rothesay section. The two Ancestry entries index the same address."
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists John Glasgow under wrights at Port Bannatyne."
   },
   {
     "record_id": "ancestry-3145-13675428",
@@ -428515,21 +428539,32 @@
       "Address": "Half Way",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "David Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "David Glasgow — hairdresser, Half Way, Irvine, Ayrshire, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "Scotland",
+    "place": "Half Way, Irvine, Ayrshire, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "The 1825 directory indexes David Glasgow, with residence field Scotland. Indexed address: Half Way. The address is given as Half Way, with Scotland as the residence field.",
+    "profiles": {
+      "record-ancestry-david-glasgow-half-way-irvine-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists David Glasgow, hairdresser, at Half Way in the Irvine section. The two Ancestry entries index the same name and address. The contemporary Edinburgh directory also lists a David Glasgow, spirit dealer in Ponton Street. That different trade and town do not support joining the entries.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "related_evidence_ids": [
       "ancestry-3145-24820336"
-    ]
+    ],
+    "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Irvine, hairdressers",
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists David Glasgow, hairdresser, at Half Way in the Irvine section. The two Ancestry entries index the same name and address."
   },
   {
     "record_id": "ancestry-3145-23203711",
@@ -428551,26 +428586,32 @@
       "Address": "13 St Leonard-St",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "George Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "George Glasgow — victual dealer, 13 St Leonard Street, Edinburgh, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "13 St Leonard Street, Edinburgh, Midlothian, Scotland",
+    "place": "13 St Leonard Street, Edinburgh, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "Pigot lists George Glasgow at 13 St Leonard Street, Edinburgh. The two Ancestry entries index the same address.",
+    "profiles": {
+      "record-ancestry-george-glasgow-st-leonard-street-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists George Glasgow at 13 St Leonard Street. The Edinburgh Post Office directories for 1824–25 through 1826–27 name George Glasgow, victual dealer, at number 11; the 1830–31 edition gives the same name and trade at number 33. The name, street and related trades support a common directory subject. The house numbers vary, and the listings do not establish whether he moved or numbering changed. No birth or family identity is assigned.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "related_evidence_ids": [
       "ancestry-3145-26519000"
     ],
-    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Edinburgh, corn chandlers and meal and flour dealers",
     "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
-    "supporting_source_quality": "derivative",
-    "supporting_source_status": "corroborating directory entry",
-    "supporting_source_reason": "Pigot lists George Glasgow at 13 St Leonard Street, Edinburgh. The two Ancestry entries index the same address."
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists George Glasgow at 13 St Leonard Street. The Edinburgh Post Office directories for 1824–25 through 1826–27 name George Glasgow, victual dealer, at number 11; the 1830–31 edition gives the same name and trade at number 33."
   },
   {
     "record_id": "ancestry-3145-23204056",
@@ -428592,26 +428633,32 @@
       "Address": "2 Main point",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "John Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "John Glasgow — spirit dealer, 2 Main Point, Edinburgh, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "2 Main Point, Edinburgh, Midlothian, Scotland",
+    "place": "2 Main Point, Edinburgh, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "Pigot lists John Glasgow of 2 Main Point under Edinburgh spirit dealers. The two Ancestry entries index the same address.",
+    "profiles": {
+      "record-ancestry-john-glasgow-main-point-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists John Glasgow as a spirit dealer at 2 Main Point in Edinburgh. The Edinburgh Post Office directories give the same address and trade in 1824–25, 1825–26, 1826–27 and 1830–31. The 1825–26 directory also lists John Glasgow the brewer at 145 Cowgate. No source here shows they were the same person.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "related_evidence_ids": [
       "ancestry-3145-26518361"
     ],
-    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Edinburgh, spirit dealers",
     "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
-    "supporting_source_quality": "derivative",
-    "supporting_source_status": "corroborating directory entry",
-    "supporting_source_reason": "Pigot lists John Glasgow of 2 Main Point under Edinburgh spirit dealers. The two Ancestry entries index the same address."
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists John Glasgow as a spirit dealer at 2 Main Point in Edinburgh. The Edinburgh Post Office directories give the same address and trade in 1824–25, 1825–26, 1826–27 and 1830–31."
   },
   {
     "record_id": "ancestry-3145-23808996",
@@ -428784,21 +428831,32 @@
       "Address": "Half Way",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "David Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "David Glasgow — hairdresser, Half Way, Irvine, Ayrshire, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "Scotland",
+    "place": "Half Way, Irvine, Ayrshire, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "The 1825 directory indexes David Glasgow, with residence field Scotland. Indexed address: Half Way. The address is given as Half Way, with Scotland as the residence field.",
+    "profiles": {
+      "record-ancestry-david-glasgow-half-way-irvine-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists David Glasgow, hairdresser, at Half Way in the Irvine section. The two Ancestry entries index the same name and address. The contemporary Edinburgh directory also lists a David Glasgow, spirit dealer in Ponton Street. That different trade and town do not support joining the entries.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "related_evidence_ids": [
       "ancestry-3145-23171952"
-    ]
+    ],
+    "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Irvine, hairdressers",
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists David Glasgow, hairdresser, at Half Way in the Irvine section. The two Ancestry entries index the same name and address."
   },
   {
     "record_id": "ancestry-3145-25032916",
@@ -428923,18 +428981,32 @@
       "Residence Place": "Scotland",
       "Occupation": "grocer auditor spirit dealer, Blackburn"
     },
-    "event_role": "indexed directory subject",
-    "association": "John Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "John Glasgow — grocer and spirit dealer, Blackburn, Linlithgowshire, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "Scotland",
+    "place": "Blackburn, Linlithgowshire, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "The 1825 directory indexes John Glasgow, with residence field Scotland. The index gives grocer and spirit dealer with Blackburn in the occupation field.",
+    "profiles": {
+      "record-ancestry-john-glasgow-blackburn-grocer-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists John Glasgow, grocer and spirit dealer, at Blackburn in the Livingstone and Blackburn section. The text places this Blackburn in Linlithgowshire. The two Ancestry entries index the same town and trade. The Edinburgh spirit dealers remain separate comparisons; no family identity is assigned.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": true
+    "publish_to_record_index": true,
+    "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Livingstone and Blackburn",
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists John Glasgow, grocer and spirit dealer, at Blackburn in the Livingstone and Blackburn section. The text places this Blackburn in Linlithgowshire.",
+    "related_evidence_ids": [
+      "ancestry-3145-23162551"
+    ]
   },
   {
     "record_id": "ancestry-3145-26517697",
@@ -428989,26 +429061,32 @@
       "Address": "13 St Leonard-St",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "George Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "George Glasgow — victual dealer, 13 St Leonard Street, Edinburgh, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "13 St Leonard Street, Edinburgh, Midlothian, Scotland",
+    "place": "13 St Leonard Street, Edinburgh, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "Pigot lists George Glasgow at 13 St Leonard Street, Edinburgh. The two Ancestry entries index the same address.",
+    "profiles": {
+      "record-ancestry-george-glasgow-st-leonard-street-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists George Glasgow at 13 St Leonard Street. The Edinburgh Post Office directories for 1824–25 through 1826–27 name George Glasgow, victual dealer, at number 11; the 1830–31 edition gives the same name and trade at number 33. The name, street and related trades support a common directory subject. The house numbers vary, and the listings do not establish whether he moved or numbering changed. No birth or family identity is assigned.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "related_evidence_ids": [
       "ancestry-3145-23203711"
     ],
-    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Edinburgh, corn chandlers and meal and flour dealers",
     "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
-    "supporting_source_quality": "derivative",
-    "supporting_source_status": "corroborating directory entry",
-    "supporting_source_reason": "Pigot lists George Glasgow at 13 St Leonard Street, Edinburgh. The two Ancestry entries index the same address."
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists George Glasgow at 13 St Leonard Street. The Edinburgh Post Office directories for 1824–25 through 1826–27 name George Glasgow, victual dealer, at number 11; the 1830–31 edition gives the same name and trade at number 33."
   },
   {
     "record_id": "ancestry-3145-29171621",
@@ -433806,7 +433884,7 @@
     "provider": "Ancestry",
     "provider_record_id": "3145/23162551",
     "collection": "UK, City and County Directories, 1766–1946",
-    "person": "Johu Glasgow",
+    "person": "John Glasgow",
     "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/23162551",
     "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Johu Glasgow, 1825, record 3145/23162551",
     "source_type": "Provider index transcript",
@@ -433821,28 +433899,39 @@
       "Residence Place": "Scotland",
       "Occupation": "grocer and spirit dealer, Blackburn"
     },
-    "event_role": "indexed directory subject",
-    "association": "Johu Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "John Glasgow — grocer and spirit dealer, Blackburn, Linlithgowshire, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "Scotland",
+    "place": "Blackburn, Linlithgowshire, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "The 1825 directory indexes Johu Glasgow with the residence field Scotland. The occupation field reads grocer and spirit dealer, Blackburn. A second 1825 index entry gives John Glasgow and the same trade and locality.",
+    "profiles": {
+      "record-ancestry-john-glasgow-blackburn-grocer-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists John Glasgow, grocer and spirit dealer, at Blackburn in the Livingstone and Blackburn section. The text places this Blackburn in Linlithgowshire. The two Ancestry entries index the same town and trade. The Edinburgh spirit dealers remain separate comparisons; no family identity is assigned.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "related_evidence_ids": [
       "ancestry-3145-26505386"
-    ]
+    ],
+    "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Livingstone and Blackburn",
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists John Glasgow, grocer and spirit dealer, at Blackburn in the Livingstone and Blackburn section. The text places this Blackburn in Linlithgowshire."
   },
   {
     "record_id": "ancestry-3145-23201069",
     "provider": "Ancestry",
     "provider_record_id": "3145/23201069",
     "collection": "UK, City and County Directories, 1766–1946",
-    "person": "Jolm Glasgow",
+    "person": "John Glasgow",
     "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/23201069",
     "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Jolm Glasgow, 1825, record 3145/23201069",
     "source_type": "Provider index transcript",
@@ -433857,18 +433946,30 @@
       "Address": "145 Cowgate",
       "Residence Place": "Scotland"
     },
-    "event_role": "indexed directory subject",
-    "association": "Jolm Glasgow — 1825 directory",
-    "status": "Documentary source; identity held",
+    "event_role": "Named directory subject",
+    "association": "John Glasgow — brewer, 145 Cowgate, Edinburgh, Scotland",
+    "status": "Documentary directory subject; family identity held",
     "date": "1825",
     "year": 1825,
-    "place": "Scotland",
+    "place": "145 Cowgate, Edinburgh, Scotland",
     "country": "Scotland",
-    "profiles": {},
-    "note": "The 1825 directory indexes Jolm Glasgow with the residence field Scotland. The index gives Jolm Glasgow at 145 Cowgate and does not name the town. The 115 Cowgate listing has a different number.",
+    "profiles": {
+      "record-ancestry-john-glasgow-cowgate-brewer-1825": {
+        "role": "Documentary subject: named in the directory",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Pigot lists John Glasgow under brewers at 145 Cowgate in Edinburgh. The Edinburgh Post Office directories for 1824–25, 1825–26 and 1826–27 also list his brewery there and give his house as 16 Argyll Square. The 115 Cowgate index hit gives a different number and remains unassigned. John Glasgow the Main Point spirit dealer has a separate listing.",
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": true
+    "publish_to_record_index": true,
+    "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+    "supporting_source_title": "Pigot & Co., New Commercial Directory of Scotland for 1825–26, Edinburgh, brewers",
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Pigot lists John Glasgow under brewers at 145 Cowgate in Edinburgh. The Edinburgh Post Office directories for 1824–25, 1825–26 and 1826–27 also list his brewery there and give his house as 16 Argyll Square.",
+    "related_evidence_ids": []
   },
   {
     "record_id": "ancestry-3145-25853440",
