@@ -409066,5 +409066,942 @@
       "held-e-b66d20ea90b3",
       "ancestry-1778-2568704"
     ]
+  },
+  {
+    "record_id": "ancestry-1778-1113260",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/1113260",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "Mary Ethel Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113260",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Mary Ethel Glasgow, record 1778/1113260",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Mary Ethel Glasgow",
+      "Birth Date": "Abt 1882",
+      "Birth Place": "Brunswick, Victoria",
+      "Registration Year": "1882",
+      "Registration Place": "Victoria, Australia",
+      "Father": "Alexander Glasgow",
+      "Mother": "Eva Benjamin",
+      "Registration Number": "21176"
+    },
+    "event_role": "indexed child",
+    "association": "Mary Ethel Glasgow — Brunswick birth registration",
+    "status": "Probable identity",
+    "date": "1882",
+    "year": 1882,
+    "place": "Brunswick, Victoria, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2951": {
+        "role": "Probable child; the name, Brunswick and the parents agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names Mary Ethel Glasgow, born about 1882 at Brunswick, Victoria, with parents Alexander Glasgow and Eva Benjamin. Victoria registration number 21176.",
+    "provenance": "Ancestry, Australia, Birth Index, 1788–1922.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "brunswick-mary-ethel-glasgow-1882",
+    "related_evidence_ids": [
+      "ancestry-9776-1853544",
+      "ancestry-9776-1853545",
+      "ancestry-9776-1853546",
+      "ancestry-9776-68683"
+    ]
+  },
+  {
+    "record_id": "ancestry-9776-1853544",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/1853544",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Mary Ethel Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/1853544",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Mary Ethel Glasgow, record 9776/1853544",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Mary Ethel Glasgow",
+      "Gender": "Female",
+      "Baptism Age": "0",
+      "Baptism Place": "Christ Church, Brunswick, Victoria, Australia",
+      "Residence Place": "Brunswick, Victoria, Australia",
+      "Father": "Alexander Glasgow",
+      "Mother": "Eva Glasgow",
+      "FHL Film Number": "993777"
+    },
+    "event_role": "indexed child",
+    "association": "Mary Ethel Glasgow — Brunswick baptism",
+    "status": "Probable identity",
+    "date": "Undated",
+    "year": null,
+    "place": "Brunswick, Victoria, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2951": {
+        "role": "Probable child; the name, Brunswick and the parents agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The baptism index names Mary Ethel Glasgow, baptised at Christ Church, Brunswick, and names Alexander Glasgow and Eva Glasgow as her parents. The Brunswick birth index names her mother as Eva Benjamin.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113260",
+      "reason": "The matching Brunswick birth index records Mary Ethel’s birth about 1882 and names her parents, who were already living by then.",
+      "latest_birth_year": 1882
+    },
+    "documentary_group": "brunswick-mary-ethel-glasgow-1882",
+    "related_evidence_ids": [
+      "ancestry-1778-1113260",
+      "ancestry-9776-1853545",
+      "ancestry-9776-1853546",
+      "ancestry-9776-68683"
+    ]
+  },
+  {
+    "record_id": "ancestry-9776-1853545",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/1853545",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Alexander Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/1853545",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Alexander Glasgow, record 9776/1853545",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Alexander Glasgow",
+      "Gender": "Male",
+      "Spouse": "Eva Glasgow",
+      "Child": "Mary Ethel Glasgow"
+    },
+    "event_role": "indexed parent",
+    "association": "Mary Ethel Glasgow — Brunswick baptism",
+    "status": "Probable identity",
+    "date": "Undated",
+    "year": null,
+    "place": "Brunswick, Victoria, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2951": {
+        "role": "Probable child; the name, Brunswick and the parents agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names Alexander Glasgow, spouse Eva Glasgow and child Mary Ethel Glasgow. The Brunswick birth index names her mother as Eva Benjamin.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113260",
+      "reason": "The matching Brunswick birth index records Mary Ethel’s birth about 1882 and names her parents, who were already living by then.",
+      "latest_birth_year": 1882
+    },
+    "documentary_group": "brunswick-mary-ethel-glasgow-1882",
+    "related_evidence_ids": [
+      "ancestry-1778-1113260",
+      "ancestry-9776-1853544",
+      "ancestry-9776-1853546",
+      "ancestry-9776-68683"
+    ]
+  },
+  {
+    "record_id": "ancestry-9776-1853546",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/1853546",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Eva Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/1853546",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Eva Glasgow, record 9776/1853546",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Eva Glasgow",
+      "Gender": "Female",
+      "Spouse": "Alexander Glasgow",
+      "Child": "Mary Ethel Glasgow"
+    },
+    "event_role": "indexed parent",
+    "association": "Mary Ethel Glasgow — Brunswick baptism",
+    "status": "Probable identity",
+    "date": "Undated",
+    "year": null,
+    "place": "Brunswick, Victoria, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2951": {
+        "role": "Probable child; the name, Brunswick and the parents agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names Eva Glasgow, spouse Alexander Glasgow and child Mary Ethel Glasgow. The Brunswick birth index names her mother as Eva Benjamin.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113260",
+      "reason": "The matching Brunswick birth index records Mary Ethel’s birth about 1882 and names her parents, who were already living by then.",
+      "latest_birth_year": 1882
+    },
+    "documentary_group": "brunswick-mary-ethel-glasgow-1882",
+    "related_evidence_ids": [
+      "ancestry-1778-1113260",
+      "ancestry-9776-1853544",
+      "ancestry-9776-1853545",
+      "ancestry-9776-68683"
+    ]
+  },
+  {
+    "record_id": "ancestry-9776-68683",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/68683",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Mary Ethel Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/68683",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Mary Ethel Glasgow, record 9776/68683",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Mary Ethel Glasgow",
+      "Gender": "Female",
+      "Baptism Age": "0",
+      "Baptism Place": "Christ Church, Brunswick, Victoria, Australia",
+      "Father": "Alexander Glasgow",
+      "Mother": "Eva Glasgow",
+      "FHL Film Number": "993777"
+    },
+    "event_role": "indexed child",
+    "association": "Mary Ethel Glasgow — Brunswick baptism",
+    "status": "Probable identity",
+    "date": "Undated",
+    "year": null,
+    "place": "Brunswick, Victoria, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2951": {
+        "role": "Probable child; the name, Brunswick and the parents agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The baptism index names Mary Ethel Glasgow, baptised at Christ Church, Brunswick, and names Alexander Glasgow and Eva Glasgow as her parents. The Brunswick birth index names her mother as Eva Benjamin.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113260",
+      "reason": "The matching Brunswick birth index records Mary Ethel’s birth about 1882 and names her parents, who were already living by then.",
+      "latest_birth_year": 1882
+    },
+    "documentary_group": "brunswick-mary-ethel-glasgow-1882",
+    "related_evidence_ids": [
+      "ancestry-1778-1113260",
+      "ancestry-9776-1853544",
+      "ancestry-9776-1853545",
+      "ancestry-9776-1853546"
+    ]
+  },
+  {
+    "record_id": "ancestry-9776-859227",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/859227",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/859227",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: William Glasgow, record 9776/859227",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Rebecca Ross",
+      "Child": "Carl Fredrick Spencer Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "Carl Fredrick Spencer Glasgow — Goulburn baptism",
+    "status": "Probable identity",
+    "date": "1883",
+    "year": 1883,
+    "place": "Goulburn, New South Wales, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Ross-17711": {
+        "role": "Probable mother; the child, Goulburn and film number agree with her cited baptism source",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-851": {
+        "role": "Probable father; William Glasgow, Rebecca Ross and the child’s name agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index names William Glasgow, his spouse Rebecca Ross and their child Carl Fredrick Spencer Glasgow. The companion entry gives Goulburn as the baptism place. The matching baptism citation gives 24 September 1883.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "goulburn-carl-spencer-glasgow-1883",
+    "related_evidence_ids": [
+      "ancestry-9776-859228"
+    ]
+  },
+  {
+    "record_id": "ancestry-9776-859228",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/859228",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Carl Fredrick Spencer Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/859228",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Carl Fredrick Spencer Glasgow, record 9776/859228",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Carl Fredrick Spencer Glasgow",
+      "Gender": "Male",
+      "Baptism Age": "0",
+      "Birth Place": "Goulburn, New South Wales, Australia",
+      "Baptism Place": "Goulburn, New South Wales, Australia",
+      "Residence Place": "New South Wales, Australia",
+      "Father": "William Glasgow",
+      "Mother": "Rebecca Ross",
+      "FHL Film Number": "1238833"
+    },
+    "event_role": "indexed child",
+    "association": "Carl Fredrick Spencer Glasgow — Goulburn baptism",
+    "status": "Probable identity",
+    "date": "1883",
+    "year": 1883,
+    "place": "Goulburn, New South Wales, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Ross-17711": {
+        "role": "Probable mother; the child, Goulburn and film number agree with her cited baptism source",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "Glasgow-851": {
+        "role": "Probable father; William Glasgow, Rebecca Ross and the child’s name agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index records the baptism of Carl Fredrick Spencer Glasgow at Goulburn, New South Wales. It names William Glasgow and Rebecca Ross as his parents. The matching baptism citation gives 24 September 1883.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "goulburn-carl-spencer-glasgow-1883",
+    "related_evidence_ids": [
+      "ancestry-9776-859227"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-1271488",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1271488",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1271488",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/1271488",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "William Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of William Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Barrackpore, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child William Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1271490",
+      "reason": "The corresponding baptism index names William Glasgow and his or her father William Glasgow; the event is dated 1826.",
+      "latest_event_year": 1826
+    },
+    "documentary_group": "india-baptism-1271490",
+    "related_evidence_ids": [
+      "ancestry-9899-1271490"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-1390691",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1390691",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1390691",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/1390691",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Child": "George Thomas James Dennis Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of George Thomas James Dennis Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow as father of George Thomas James Dennis Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1390692",
+      "reason": "The corresponding baptism index names George Thomas James Dennis Glasgow and his or her father William Glasgow; the event is dated 1842.",
+      "latest_event_year": 1842
+    },
+    "documentary_group": "india-baptism-1390692",
+    "related_evidence_ids": [
+      "ancestry-9899-1390692"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-247031",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/247031",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/247031",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/247031",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "Eliza Graves Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of Eliza Graves Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Serampore, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child Eliza Graves Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/247030",
+      "reason": "The corresponding baptism index names Eliza Graves Glasgow and his or her father William Glasgow; the event is dated 1836.",
+      "latest_event_year": 1836
+    },
+    "documentary_group": "india-baptism-247030",
+    "related_evidence_ids": [
+      "ancestry-9899-247030",
+      "ancestry-9899-834443"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-362342",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/362342",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/362342",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/362342",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "Amelia Magdalene Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of Amelia Magdalene Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Etawah, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child Amelia Magdalene Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/362341",
+      "reason": "The corresponding baptism index names Amelia Magdalene Glasgow and his or her father William Glasgow; the event is dated 1831.",
+      "latest_event_year": 1831
+    },
+    "documentary_group": "india-baptism-362341",
+    "related_evidence_ids": [
+      "ancestry-9899-362341",
+      "ancestry-9899-4205"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-4205",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/4205",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/4205",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/4205",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "Amelia Magdalene Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of Amelia Magdalene Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Etawah, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child Amelia Magdalene Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/362341",
+      "reason": "The corresponding baptism index names Amelia Magdalene Glasgow and his or her father William Glasgow; the event is dated 1831.",
+      "latest_event_year": 1831
+    },
+    "documentary_group": "india-baptism-362341",
+    "related_evidence_ids": [
+      "ancestry-9899-362341",
+      "ancestry-9899-362342"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-75898",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/75898",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/75898",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/75898",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "John Blythe Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of John Blythe Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Budgerow, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child John Blythe Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/76113",
+      "reason": "The corresponding baptism index names John Blythe Glasgow and his or her father William Glasgow; the event is dated 1829.",
+      "latest_event_year": 1829
+    },
+    "documentary_group": "india-baptism-76113",
+    "related_evidence_ids": [
+      "ancestry-9899-76113"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-794516",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/794516",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/794516",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/794516",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "Harrietta Fordyce Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of Harrietta Fordyce Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Dehra, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child Harrietta Fordyce Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/870786",
+      "reason": "The corresponding baptism index names Harrietta Fordyce Glasgow and his or her father William Glasgow; the event is dated 1840.",
+      "latest_event_year": 1840
+    },
+    "documentary_group": "india-baptism-870786",
+    "related_evidence_ids": [
+      "ancestry-9899-870786",
+      "ancestry-9899-870785"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-834443",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/834443",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/834443",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/834443",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "Eliza Graves Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of Eliza Graves Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Serampore, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child Eliza Graves Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/247030",
+      "reason": "The corresponding baptism index names Eliza Graves Glasgow and his or her father William Glasgow; the event is dated 1836.",
+      "latest_event_year": 1836
+    },
+    "documentary_group": "india-baptism-247030",
+    "related_evidence_ids": [
+      "ancestry-9899-247030",
+      "ancestry-9899-247031"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-870785",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/870785",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/870785",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/870785",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Amelia",
+      "Child": "Harrietta Fordyce Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of Harrietta Fordyce Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Dehra, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow and spouse Amelia with their child Harrietta Fordyce Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/870786",
+      "reason": "The corresponding baptism index names Harrietta Fordyce Glasgow and his or her father William Glasgow; the event is dated 1840.",
+      "latest_event_year": 1840
+    },
+    "documentary_group": "india-baptism-870786",
+    "related_evidence_ids": [
+      "ancestry-9899-870786",
+      "ancestry-9899-794516"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-91571",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/91571",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Noel Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/91571",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Noel Robertson-Glasgow, record 9899/91571",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Noel Robertson-Glasgow",
+      "Gender": "Male",
+      "Birth Date": "25 Dec 1881",
+      "Baptism Date": "19 Jan 1882",
+      "Baptism Age": "0",
+      "Baptism Place": "Kasauli, Bengal, India",
+      "Father": "John Campbell Robertson-Glasgow",
+      "Mother": "Geraldine",
+      "Reference ID": "510867",
+      "FHL Film Number": "510867"
+    },
+    "event_role": "indexed child",
+    "association": "Noel Robertson-Glasgow — baptism",
+    "status": "Documentary source; identity held",
+    "date": "19 Jan 1882",
+    "year": 1882,
+    "place": "Kasauli, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index records Noel Robertson-Glasgow, born 25 December 1881 and baptised 19 January 1882 at Kasauli. It names his parents as John Campbell Robertson-Glasgow and Geraldine.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "india-kasauli-noel-1882",
+    "related_evidence_ids": [
+      "ancestry-9899-91572",
+      "ancestry-9901-444956"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-91572",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/91572",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "John Campbell Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/91572",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: John Campbell Robertson-Glasgow, record 9899/91572",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "John Campbell Robertson-Glasgow",
+      "Gender": "Male",
+      "Spouse": "Geraldine",
+      "Child": "Noel Robertson-Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "John Campbell Robertson-Glasgow — father of Noel",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Kasauli, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names John Campbell Robertson-Glasgow, his spouse Geraldine and their child Noel Robertson-Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/91571",
+      "reason": "The companion entry dates Noel’s baptism to 19 January 1882 and names the same parents.",
+      "latest_event_year": 1882
+    },
+    "documentary_group": "india-kasauli-noel-1882",
+    "related_evidence_ids": [
+      "ancestry-9899-91571",
+      "ancestry-9901-444955"
+    ]
+  },
+  {
+    "record_id": "ancestry-9901-444955",
+    "provider": "Ancestry",
+    "provider_record_id": "9901/444955",
+    "collection": "India, Select Marriages, 1792–1948",
+    "person": "John Campbell Robertson Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9901/records/444955",
+    "source_title": "Ancestry, India, Select Marriages, 1792–1948: John Campbell Robertson Glasgow, record 9901/444955",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "indexed_facts": {
+      "Name": "John Campbell Robertson Glasgow",
+      "Gender": "Male",
+      "Child": "Noel Robertson Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "John Campbell Robertson Glasgow — father of Noel",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Dunga Gali, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The marriage index names John Campbell Robertson Glasgow as Noel Robertson Glasgow’s father. The companion entry names the groom and dates his marriage to 22 July 1909.",
+    "provenance": "Ancestry, India, Select Marriages, 1792–1948.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/91571",
+      "reason": "The same father is named in his son Noel’s baptism index, which gives Noel’s birth in 1881.",
+      "latest_birth_year": 1881
+    },
+    "documentary_group": "india-dunga-gali-noel-effie-1909",
+    "related_evidence_ids": [
+      "ancestry-9901-444956",
+      "ancestry-9899-91572"
+    ]
+  },
+  {
+    "record_id": "ancestry-9901-444956",
+    "provider": "Ancestry",
+    "provider_record_id": "9901/444956",
+    "collection": "India, Select Marriages, 1792–1948",
+    "person": "Noel Robertson Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9901/records/444956",
+    "source_title": "Ancestry, India, Select Marriages, 1792–1948: Noel Robertson Glasgow, record 9901/444956",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "indexed_facts": {
+      "Name": "Noel Robertson Glasgow",
+      "Gender": "Male",
+      "Age": "27",
+      "Birth Date": "1882",
+      "Marriage Date": "22 Jul 1909",
+      "Marriage Place": "Dunga Gali, Bengal, India",
+      "Father": "John Campbell Robertson Glasgow",
+      "Spouse": "Effie Lorne Campbell",
+      "FHL Film Number": "528126"
+    },
+    "event_role": "groom",
+    "association": "Noel Robertson Glasgow and Effie Lorne Campbell — marriage",
+    "status": "Documentary source; identity held",
+    "date": "22 Jul 1909",
+    "year": 1909,
+    "place": "Dunga Gali, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index records Noel Robertson Glasgow’s marriage to Effie Lorne Campbell on 22 July 1909 at Dunga Gali. It gives his age as 27 and names John Campbell Robertson Glasgow as his father. The corresponding baptism index gives his birth as 25 December 1881.",
+    "provenance": "Ancestry, India, Select Marriages, 1792–1948.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/91571",
+      "reason": "The baptism index records his birth in 1881 and names the same father; the marriage index gives an age consistent with that birth.",
+      "latest_birth_year": 1881
+    },
+    "documentary_group": "india-dunga-gali-noel-effie-1909",
+    "related_evidence_ids": [
+      "ancestry-9901-444955",
+      "ancestry-9899-91571"
+    ]
   }
 ]
