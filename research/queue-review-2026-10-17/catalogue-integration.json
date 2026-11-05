@@ -407144,6 +407144,55 @@
           "note": "The 1921 census indexes Hilda Shirley, age 17 Years 8 Months, at 113 Cambridge Road, Willesden, Middlesex, England. The schedule calls her Hilda Shirley; the index also gives Hilda Glasgow. The indexed relationship is inconsistent. A Hilda Shirley of similar age is listed at the Kilburn address of Thomas Henry Glasgow in 1911."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-harriett-treson-denmark-road-1921",
+      "subject_id": "ancestry-harriett-treson-denmark-road-1921",
+      "name": "Harriett Treson Glasgow",
+      "first_names": [
+        "Harriett"
+      ],
+      "last_names_at_birth": [],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "about 1863",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/63150/records/10429121",
+      "historical_basis": {
+        "latest_birth_year": 1864,
+        "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10429121",
+        "reason": "The named resident is aged 58 years and four months on the 1921 household schedule."
+      },
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-1921-denmark-road-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe 1921 census lists Harriett Treson Glasgow, aged 58 years and four months, as wife in George Glasgow’s household at 21 Denmark Road, Willesden, Middlesex, England. The age suggests a birth about 1863.<ref>[https://www.ancestry.co.uk/search/collections/63150/records/10429121 Ancestry, 1921 England Census: Harriett Treson Glasgow, RG 15/6466, ED 10, Sch 154, record 63150/10429121].</ref>\n\n== Research Notes ==\nThe census identifies the resident and household. Birth surname and earlier identity remain unresolved.\n\n== Sources ==\n<references />\n",
+      "assessment": "Documentary resident; wider identity unresolved.",
+      "current_conclusion": "The census identifies the resident and household. Birth surname and earlier identity remain unresolved.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, 1921 England Census: Harriett Treson Glasgow, RG 15/6466, ED 10, Sch 154, record 63150/10429121",
+          "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10429121",
+          "source_type": "Provider index transcript",
+          "date": "1921",
+          "year": 1921,
+          "place": "21 Denmark Road, Willesden, Middlesex, England",
+          "indexed_facts": {
+            "Name": "Harriett Treson Glasgow",
+            "Age in household schedule": "58 Years 4 Months",
+            "Residence Street Address": "21 Denmark Rd, N W 6",
+            "Residence Place": "Willesden, Middlesex, England",
+            "Schedule reference": "RG 15/6466, ED 10, Sch 154",
+            "Relation to Head": "Wife",
+            "Household head": "George Glasgow"
+          },
+          "note": "The 1921 census lists Harriett Treson Glasgow, aged 58 years and four months, as wife in George Glasgow’s household at 21 Denmark Road, Willesden, Middlesex, England. The age suggests a birth about 1863."
+        }
+      ]
     }
   ]
 }
