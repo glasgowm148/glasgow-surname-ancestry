@@ -435286,5 +435286,87 @@
     "related_evidence_ids": [
       "ancestry-2352-43736903"
     ]
+  },
+  {
+    "record_id": "ancestry-3145-16923827",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/16923827",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Rev. Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/16923827",
+    "source_title": "Ancestry, UK, City and County Directories: Rev. Glasgow, 1888, record 3145/16923827",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index transcript",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Rev Glasgow",
+      "Gender": "Male",
+      "Publication Year": "1888",
+      "Address": "John Baptist",
+      "Residence Place": "Suffolk, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Rev. Glasgow — 1888 Suffolk directory index",
+    "date": "1888",
+    "year": 1888,
+    "place": "Suffolk, England",
+    "country": "England",
+    "status": "Documentary source; identity held",
+    "note": "The 1888 directory index reads “Rev Glasgow” and gives “John Baptist” in the address field. Kelly’s 1892 directory lists Rev. W. Glasgow at Tunstall. The 1888 entry needs its original page checked before assigning an identity.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/245483",
+    "supporting_source_title": "Kelly’s 1892 directory, Suffolk section: Rev. W. Glasgow at Tunstall",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "comparison",
+    "supporting_source_reason": "The later directory gives initial W; the 1888 index gives John.",
+    "related_evidence_ids": [
+      "ancestry-3145-16926707"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-16926707",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/16926707",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Rev. Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/16926707",
+    "source_title": "Ancestry, UK, City and County Directories: Rev. Glasgow, 1888, record 3145/16926707",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index transcript",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Rev Glasgow",
+      "Gender": "Male",
+      "Publication Year": "1888",
+      "Residence Place": "Suffolk, England",
+      "Occupation": "John, Tunstall R.S.O"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Rev. Glasgow — 1888 Suffolk directory index",
+    "date": "1888",
+    "year": 1888,
+    "place": "Tunstall, Suffolk, England",
+    "country": "England",
+    "status": "Documentary source; identity held",
+    "note": "The 1888 directory index reads “Rev Glasgow” and gives “John, Tunstall R.S.O.” in the occupation field. Kelly’s 1892 directory lists Rev. W. Glasgow at Tunstall. The 1888 entry needs its original page checked before assigning an identity.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/245483",
+    "supporting_source_title": "Kelly’s 1892 directory, Suffolk section: Rev. W. Glasgow at Tunstall",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "comparison",
+    "supporting_source_reason": "The later directory gives initial W; the 1888 index gives John.",
+    "related_evidence_ids": [
+      "ancestry-3145-16923827"
+    ]
   }
 ]
