@@ -592,7 +592,10 @@ def publish_reviewed(root=ROOT):
     if not ids:
         return {'selected_records': 0, 'changed_files': 0}
     # The finalizer rebuilds Sources collections immediately afterwards.
-    return apply(Path(root), ids, refresh_sources=False)
+    # Reviewed rows may name drafts that stay unpublished (identity HOLD):
+    # list them without the link, as the targeted ingest does, rather than
+    # failing the whole site finalization.
+    return apply(Path(root), ids, refresh_sources=False, defer_unpublished_profiles=True)
 
 
 def main():

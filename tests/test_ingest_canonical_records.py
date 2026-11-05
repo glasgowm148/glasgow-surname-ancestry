@@ -510,6 +510,16 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         mutation.assert_not_called()
         self.assertEqual((self.web / 'records/index.html').read_text(), before)
 
+    def test_replay_lists_unpublished_draft_record_without_link(self):
+        self.canonical['publish_to_record_index'] = True
+        self.canonical['profiles'] = {'record-draft-1': {'role': 'Subject'}}
+        self.put('research/canonical_records.json', [self.canonical])
+        self.assertEqual(publish_reviewed(self.root)['selected_records'], 1)
+        row = next(r for r in json.loads((self.web / 'data/records-index.json').read_text())
+                   if r.get('pending_profile_ids'))
+        self.assertEqual(row['pending_profile_ids'], ['record-draft-1'])
+        self.assertEqual(row['catalogue_id'], '')
+
     def test_opt_in_does_not_bypass_review_guard(self):
         self.canonical['publish_to_record_index'] = True
         self.canonical.pop('reviewed_on')
