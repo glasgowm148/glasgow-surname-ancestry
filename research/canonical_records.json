@@ -162969,7 +162969,7 @@
     "source_type": "Provider search-result index",
     "record_type": "Index search row",
     "record_category": "Census",
-    "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-william-a-glasgow-1895-67881)",
+    "status": "Ancestry search-result index row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry search-result row saved 2026-11-04, reviewed 2026-11-05; transcript and original uninspected",
     "source_level": "index",
@@ -162979,8 +162979,14 @@
       "Residence Place": "Durham, England",
       "Household Members (given names)": "Ivy, Joan"
     },
-    "note": "Ancestry search-result row for William A Glasgow. Birth Date: 16 Feb 1895. Residence Place: Durham, England. Household Members (given names): Ivy, Joan. New-person draft record-anc-william-a-glasgow-1895-67881: William A Glasgow has 4 compatible catalogue candidate(s) and none can be preferred on this evidence, so the account is held as an identity HOLD with the candidates listed, not as a distinct person. Ruled out: Glasgow-3408 (exact birth date 1706-04-16 differs from the record's 1895-02-16); Glasgow-2060 (exact birth date 1893-11-23 differs from the record's 1895-02-16); Glasgow-1220 (exact birth date 1786-05-11 differs from the record's 1895-02-16); Glasgow-3455 (birth 1875 conflicts with the record's 1895–1895). Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected.",
-    "profiles": {},
+    "note": "Ancestry search-result row for William A Glasgow. Birth Date: 16 Feb 1895. Residence Place: Durham, England. Household Members (given names): Ivy, Joan. New-person draft record-anc-william-a-glasgow-1895-67881: William A Glasgow has 4 compatible catalogue candidate(s) and none can be preferred on this evidence, so the account is held as an identity HOLD with the candidates listed, not as a distinct person. Ruled out: Glasgow-3408 (exact birth date 1706-04-16 differs from the record's 1895-02-16); Glasgow-2060 (exact birth date 1893-11-23 differs from the record's 1895-02-16); Glasgow-1220 (exact birth date 1786-05-11 differs from the record's 1895-02-16); Glasgow-3455 (birth 1875 conflicts with the record's 1895–1895). Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected. Integration audit, 2026-11-05: identity hold resolved: linked to Glasgow-2978 (exact birth date 16 Feb 1895 and wife Ivy (Acomb-98, exact birth date 22 Oct 1898) match William Smith Glasgow; the index reads his middle initial as A); draft record-anc-william-a-glasgow-1895-67881 is withdrawn for this entry. Integration audit, 2026-11-05: identity hold resolved: linked to Glasgow-2978 (exact birth date 16 Feb 1895 and wife Ivy (Acomb-98, exact birth date 22 Oct 1898) match William Smith Glasgow; the index reads his middle initial as A); draft record-anc-william-a-glasgow-1895-67881 is withdrawn for this entry.",
+    "profiles": {
+      "Glasgow-2978": {
+        "role": "Probable identity: household member; exact birth date 16 Feb 1895 and wife Ivy (Acomb-98, exact birth date 22 Oct 1898) match William Smith Glasgow; the index reads his middle initial as A",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1895,
       "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/4667881",
@@ -163106,7 +163112,7 @@
     "source_type": "Provider search-result index",
     "record_type": "Index search row",
     "record_category": "Census",
-    "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-margaret-w-glasgow-1894-83026)",
+    "status": "Ancestry search-result index row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry search-result row saved 2026-11-04, reviewed 2026-11-05; transcript and original uninspected",
     "source_level": "index",
@@ -163116,8 +163122,14 @@
       "Residence Place": "Durham, England",
       "Household Members (given names)": "Alexander, Alexander"
     },
-    "note": "Ancestry search-result row for Margaret W Glasgow. Birth Date: 11 Jul 1894. Residence Place: Durham, England. Household Members (given names): Alexander, Alexander. New-person draft record-anc-margaret-w-glasgow-1894-83026: Margaret W Glasgow has 4 compatible catalogue candidate(s) and none can be preferred on this evidence, so the account is held as an identity HOLD with the candidates listed, not as a distinct person. Ruled out: Glasgow-2033 (exact birth date 1903-11-22 differs from the record's 1894-07-11); Glasgow-4206 (exact birth date 1885-01-03 differs from the record's 1894-07-11); Glasgow-307 (exact birth date 1895-12-28 differs from the record's 1894-07-11); Glasgow-2021 (birth c. 1861 conflicts with the record's 1894–1894). Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected.",
-    "profiles": {},
+    "note": "Ancestry search-result row for Margaret W Glasgow. Birth Date: 11 Jul 1894. Residence Place: Durham, England. Household Members (given names): Alexander, Alexander. New-person draft record-anc-margaret-w-glasgow-1894-83026: Margaret W Glasgow has 4 compatible catalogue candidate(s) and none can be preferred on this evidence, so the account is held as an identity HOLD with the candidates listed, not as a distinct person. Ruled out: Glasgow-2033 (exact birth date 1903-11-22 differs from the record's 1894-07-11); Glasgow-4206 (exact birth date 1885-01-03 differs from the record's 1894-07-11); Glasgow-307 (exact birth date 1895-12-28 differs from the record's 1894-07-11); Glasgow-2021 (birth c. 1861 conflicts with the record's 1894–1894). Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected. Integration audit, 2026-11-05: identity hold resolved: linked to Mclean-13267 (exact birth date 11 Jul 1894 and husband Alexander (Glasgow-2976) match Margaret (Mclean) Glasgow); draft record-anc-margaret-w-glasgow-1894-83026 is withdrawn for this entry.",
+    "profiles": {
+      "Mclean-13267": {
+        "role": "Probable identity: household member; exact birth date 11 Jul 1894 and husband Alexander (Glasgow-2976) match Margaret (Mclean) Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1894,
       "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/4683026",
@@ -164743,7 +164755,7 @@
     "source_type": "Provider search-result index",
     "record_type": "Index search row",
     "record_category": "Census",
-    "status": "Ancestry search-result index row; catalogue person is a new-person draft (record-anc-mary-c-glasgow-1905-78963)",
+    "status": "Ancestry search-result index row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry search-result row saved 2026-11-04, reviewed 2026-11-05; transcript and original uninspected",
     "source_level": "index",
@@ -164752,8 +164764,14 @@
       "Birth Date": "24 May 1905",
       "Residence Place": "London, England"
     },
-    "note": "Ancestry search-result row for Mary C Glasgow. Birth Date: 24 May 1905. Residence Place: London, England. New-person draft record-anc-mary-c-glasgow-1905-78963: Mary C Glasgow has 3 compatible catalogue candidate(s) and none can be preferred on this evidence, so the account is held as an identity HOLD with the candidates listed, not as a distinct person. Ruled out: Arnold-23449 (exact birth date 1860-05-05 differs from the record's 1905-05-24); Auld-1724 (birth before 1728 conflicts with the record's 1905–1905); Barber-16725 (birth 1730 conflicts with the record's 1905–1905); Bones-544 (birth before 1827 conflicts with the record's 1905–1905). Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected.",
-    "profiles": {},
+    "note": "Ancestry search-result row for Mary C Glasgow. Birth Date: 24 May 1905. Residence Place: London, England. New-person draft record-anc-mary-c-glasgow-1905-78963: Mary C Glasgow has 3 compatible catalogue candidate(s) and none can be preferred on this evidence, so the account is held as an identity HOLD with the candidates listed, not as a distinct person. Ruled out: Arnold-23449 (exact birth date 1860-05-05 differs from the record's 1905-05-24); Auld-1724 (birth before 1728 conflicts with the record's 1905–1905); Barber-16725 (birth 1730 conflicts with the record's 1905–1905); Bones-544 (birth before 1827 conflicts with the record's 1905–1905). Source level: Ancestry search-result index row only; neither the full transcript nor the original image was inspected. Integration audit, 2026-11-05: identity hold resolved: linked to Glasgow-2668 (exact birth date 24 May 1905 and middle initial C match Mary Cecilia Glasgow); draft record-anc-mary-c-glasgow-1905-78963 is withdrawn for this entry.",
+    "profiles": {
+      "Glasgow-2668": {
+        "role": "Probable identity: household member; exact birth date 24 May 1905 and middle initial C match Mary Cecilia Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1905,
       "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/6378963",
