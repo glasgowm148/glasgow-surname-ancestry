@@ -71919,6 +71919,30 @@
         "research/relationship_assessments.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "ancestry-integration-gaps-20261105",
+      "found_on": "2026-11-05",
+      "kind": "record",
+      "finding": "An audit of the saved Ancestry captures found 160 entries that had no canonical record: 41 rows of the 1911 England Census and 77 of the 1939 Register saved only as search results, for people born before 1906, and 42 WWI medal index cards that had been held back for want of a birth year, although medal entitlement required service in a theatre of war by November 1918. Each now has a record row. Nine are linked to catalogue people; the rest are new sourced drafts, or consolidated onto existing drafts where the name, birth year and London residence agree, and identity holds where several catalogue people remain compatible. Medal cards with the same name and regiment are consolidated, with a note that they may cover more than one man.",
+      "status": "qualified",
+      "qualification": "Index search rows and medal index cards only; transcripts and originals are uninspected. Entries for people born after 1905 (including later 1939 Register rows, 1911 children and soldiers' children) remain withheld under the publication threshold, as do undated relatives' entries whose event cannot be identified.",
+      "people": [],
+      "sources": [
+        {
+          "title": "1911 England Census (Ancestry collection 2352)",
+          "url": "https://www.ancestry.co.uk/search/collections/2352"
+        },
+        {
+          "title": "1939 England and Wales Register (Ancestry collection 61596)",
+          "url": "https://www.ancestry.co.uk/search/collections/61596"
+        },
+        {
+          "title": "UK, British Army World War I Medal Rolls Index Cards, 1914-1920 (Ancestry collection 1262)",
+          "url": "https://www.ancestry.co.uk/search/collections/1262"
+        }
+      ],
+      "detail_url": "/sources/"
     }
   ]
 }
