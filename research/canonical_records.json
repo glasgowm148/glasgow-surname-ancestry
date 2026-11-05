@@ -107840,24 +107840,29 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1536977",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Gorg Glasgow, 8 Nov 1678, , Kilwinning, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
-    "status": "Provider index search row; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Gorg Glasgow",
       "Marriage Date": "8 Nov 1678",
       "Marriage Place": ", Kilwinning, Ayr, Scotland",
-      "Spouse": "Jean"
+      "Spouse": "Jean Gardiner"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Gorg Glasgow married Jean on 8 Nov 1678 at , Kilwinning, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom Gorg Glasgow: new catalogue draft record-ancestry-glasgow-d7d812d90b2f, no compatible catalogue person. Integration audit, 2026-11-05: role corrected from bride to groom: the given name is a man's, or the indexed spouse is a woman.",
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 transcript: Gorg Glasgow married Jean Gardiner on 8 Nov 1678 at Kilwinning, Ayr, Scotland. The transcript gives the full spouse name that the earlier search row lacked. Identity hold resolved 5 November 2026 (ER3): the groom is George Glasgow-2714 only as a possible identity, because the catalogue George was born at South Leith before 1658 and nothing yet carries him to Kilwinning; no other catalogue George fits a Kilwinning marriage of 1678. The bride Jean Gardiner is the catalogue wife of George-2714 (Gardiner-6839), named as mother in the Kilwinning baptism of Agnes on 21 September 1679. The earlier hold draft record-ancestry-glasgow-d7d812d90b2f duplicates the catalogue groom and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-d7d812d90b2f": {
-        "role": "Documentary subject: groom",
-        "assessment": "documentary",
+      "Glasgow-2714": {
+        "role": "Possible identity: groom; spouse Jean Gardiner matches, place Kilwinning, Ayr, Scotland recorded",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      },
+      "Gardiner-6839": {
+        "role": "Probable identity: bride Jean Gardiner; matches the catalogue spouse",
+        "assessment": "probable",
         "timeline_group": "Life events"
       }
     },
@@ -107867,8 +107872,8 @@
       "basis": "Marriage 8 Nov 1678; publication requires a birth more than 120 years ago.",
       "explanation": "Marriage 8 Nov 1678"
     },
-    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/EH3-18-Gorg_Glasgow-1678.txt",
+    "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -111300,24 +111305,29 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2119269",
     "source_title": "Scotland, Select Marriages, 1561-1910 — John Glasgow, 19 Apr 1699, Kilbirnie, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
-    "status": "Provider index search row; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
       "Marriage Date": "19 Apr 1699",
       "Marriage Place": "Kilbirnie, Ayr, Scotland",
-      "Spouse": "Margaret"
+      "Spouse": "Margaret Scot"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: John Glasgow married Margaret on 19 Apr 1699 at Kilbirnie, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom John Glasgow: new catalogue draft record-ancestry-glasgow-d57f41896a37, held for identity review; compatible catalogue people remain (Glasgow-1073 John Glasgow M.A b. c. 1653 d. 1721-12 (spouse Margaret Scott matches indexed spouse given name Margaret, place Kilbirnie recorded); Glasgow-3117 John Glasgow b. 1666-04-29 (chronology fits, spouse Margaret (Purves) Glasgow matches indexed spouse given name Margaret); Glasgow-1434 Jon Glasgow b. c. 1679-07-06 (chronology fits, spouse Margaret Cowan matches indexed spouse given name Margaret); Glasgow-1088 John Glasgow b. 1619-05-13 (spouse Margaret (Sluman) Glasgow matches indexed spouse given name Margaret); Glasgow-3012 John Glasgow b. 1649-04-04 (spouse Margaret (Currie) Glasgow matches indexed spouse given name Margaret); john-glasgow-new-row-1801 Rev. John Glasgow of New Row, Coleraine d. 1801-07-13 (spouse Margaret Glasgow, wife of the Coleraine minister matches indexed spouse given name Margaret); Glasgow-3161 John Glasgow b. before 1680 (chronology fits); Glasgow-3990 John Glasgow b. c. 1680 (chronology fits)). Ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a marriage in 1699; died c. 1685, before the 1699 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Margaret); Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1699; chronology conflict: catalogue events are dated 1853-1860; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1699; chronology conflict: catalogue events are dated 1871-1871; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1699; chronology conflict: catalogue events are dated 1923-1977; different named spouse (Living person (details withheld); record names Margaret); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1699; chronology conflict: catalogue events are dated 1839-1917; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Margaret); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1699; chronology conflict: catalogue events are dated 1847-1922; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Margaret); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1699; chronology conflict: catalogue events are dated 1897-1897; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1567 John B Glasgow b. 1836 d. 1911-02-18: dates conflict: catalogue birth 1836 too late for a marriage in 1699; chronology conflict: catalogue events are dated 1836-1911; place cannot fit: catalogue life recorded only outside the British Isles (Allegheny, Pennsylvania, United States).",
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 transcript: John Glasgow married Margaret Scot on 19 Apr 1699 at Kilbirnie, Ayr, Scotland. The transcript gives the full spouse name that the earlier search row lacked. Identity hold resolved 5 November 2026 (ER3): the groom is the Rev. John Glasgow M.A. of Kilbirnie (Glasgow-1073) taking a second wife after Jean Cunningham's death (before March 1699); the Kilbirnie baptism of James on 17 March 1700 names John Glasgow and Margaret Scot. The bride Margaret Scot is the catalogue second wife Margaret Scott (Scott-40313). The earlier hold draft record-ancestry-glasgow-d57f41896a37 duplicates the catalogue groom and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-d57f41896a37": {
-        "role": "Documentary subject: groom",
-        "assessment": "identity_hold",
+      "Glasgow-1073": {
+        "role": "Probable identity: groom; spouse Margaret Scot matches, place Kilbirnie, Ayr, Scotland recorded",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Scott-40313": {
+        "role": "Probable identity: bride Margaret Scot; matches the catalogue spouse",
+        "assessment": "probable",
         "timeline_group": "Life events"
       }
     },
@@ -111327,8 +111337,8 @@
       "basis": "Marriage 19 Apr 1699; publication requires a birth more than 120 years ago.",
       "explanation": "Marriage 19 Apr 1699"
     },
-    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/EH3-39-John_Glasgow-1699.txt",
+    "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -112864,24 +112874,29 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2319387",
     "source_title": "Scotland, Select Marriages, 1561-1910 — John Glasgow, 14 Jan 1690, Kilbirnie, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
-    "status": "Provider index search row; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
       "Marriage Date": "14 Jan 1690",
       "Marriage Place": "Kilbirnie, Ayr, Scotland",
-      "Spouse": "Jeane"
+      "Spouse": "Jeane Cunynghame"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: John Glasgow married Jeane on 14 Jan 1690 at Kilbirnie, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom John Glasgow: new catalogue draft record-ancestry-glasgow-75a6220741ea, held for identity review; compatible catalogue people remain (Glasgow-3516 John Glasgow b. 1656-04-27 (chronology fits); Glasgow-3984 John Glasgow b. before 1664 (chronology fits); Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700; Glasgow-1151 John Glasgow b. 1632-11-25; Glasgow-3014 John Glasgow b. 1638-01-11; Glasgow-3610 John Glasgow b. before 1629; Glasgow-3331 John Glasgow b. before 1632; Glasgow-1559 John Glasgow b. before 1639-04-04). Ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: died c. 1685, before the 1690 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Jeane); Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1690; chronology conflict: catalogue events are dated 1853-1860; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1690; chronology conflict: catalogue events are dated 1871-1871; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1690; chronology conflict: catalogue events are dated 1923-1977; different named spouse (Living person (details withheld); record names Jeane); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1690; chronology conflict: catalogue events are dated 1839-1917; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Jeane); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1690; chronology conflict: catalogue events are dated 1847-1922; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Jeane); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1690; chronology conflict: catalogue events are dated 1897-1897; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1567 John B Glasgow b. 1836 d. 1911-02-18: dates conflict: catalogue birth 1836 too late for a marriage in 1690; chronology conflict: catalogue events are dated 1836-1911; place cannot fit: catalogue life recorded only outside the British Isles (Allegheny, Pennsylvania, United States).",
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 transcript: John Glasgow married Jeane Cunynghame on 14 Jan 1690 at Kilbirnie, Ayr, Scotland. The transcript gives the full spouse name that the earlier search row lacked. Identity hold resolved 5 November 2026 (ER3): the groom is the Rev. John Glasgow M.A. of Kilbirnie (Glasgow-1073): the full spouse name Jeane Cunynghame equals his catalogue wife Jean Cunningham, and the Kilbirnie baptisms of their children begin in December 1690. The bride is Jean (Cunningham) Glasgow (Cunningham-20924), named Jeane Cunynghame in the Kilbirnie baptisms of 1690-97. The earlier hold draft record-ancestry-glasgow-75a6220741ea duplicates the catalogue groom and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-75a6220741ea": {
-        "role": "Documentary subject: groom",
-        "assessment": "identity_hold",
+      "Glasgow-1073": {
+        "role": "Probable identity: groom; spouse Jeane Cunynghame matches, place Kilbirnie, Ayr, Scotland recorded",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Cunningham-20924": {
+        "role": "Probable identity: bride Jeane Cunynghame; matches the catalogue spouse",
+        "assessment": "probable",
         "timeline_group": "Life events"
       }
     },
@@ -112891,8 +112906,8 @@
       "basis": "Marriage 14 Jan 1690; publication requires a birth more than 120 years ago.",
       "explanation": "Marriage 14 Jan 1690"
     },
-    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/EH3-34-John_Glasgow-1690.txt",
+    "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -117208,24 +117223,29 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2937139",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Alexander Glasgow, 16 Jun 1665, Edinburgh, Midlothian, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
-    "status": "Provider index search row; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Alexander Glasgow",
       "Marriage Date": "16 Jun 1665",
       "Marriage Place": "Edinburgh, Midlothian, Scotland",
-      "Spouse": "Issobell"
+      "Spouse": "Issobell Anderson"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Alexander Glasgow married Issobell on 16 Jun 1665 at Edinburgh, Midlothian, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom Alexander Glasgow: new catalogue draft record-ancestry-glasgow-a6302e5e286f, no compatible catalogue person. Ruled out: Glasgow-1280 Alexander Clarkson Glasgow b. c. 1922-09-22 d. c. 1994-06-30: dates conflict: catalogue birth c. 1922-09-22 too late for a marriage in 1665; chronology conflict: catalogue events are dated 1922-1994; different named spouse (Living person (details withheld); record names Issobell); medieval-1289-alexander-escheator Alexander de Glasgow b. c. 1272 (estimated): dates conflict: catalogue birth c. 1272 (estimated) too early for a marriage in 1665; chronology conflict: catalogue events are dated 1272-1290; Glasgow-2825 Alexander Fleming Glasgow b. 1844-02-14 d. 1934-09-23: dates conflict: catalogue birth 1844-02-14 too late for a marriage in 1665; chronology conflict: catalogue events are dated 1844-1934; different named spouse (Mary Nesbit; record names Issobell); Glasgow-3694 Alexander Glasgow d. 2018-07-18: chronology conflict: catalogue events are dated 2000-2018; Glasgow-3118 Alexander Glasgow b. 1650: different named spouse (Margaret Glasgow Smith; record names Issobell); Glasgow-3101 Alexander Glasgow b. 1659-04-12: dates conflict: catalogue birth 1659-04-12 too late for a marriage in 1665; Glasgow-3514 Alexander Glasgow b. 1695-07-15: dates conflict: catalogue birth 1695-07-15 too late for a marriage in 1665; Glasgow-3612 Alexander Glasgow b. 1760: dates conflict: catalogue birth 1760 too late for a marriage in 1665; different named spouse (Agnes (Glendinning) Glasgow; record names Issobell).",
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 transcript: Alexander Glasgow married Issobell Anderson on 16 Jun 1665 at Edinburgh, Midlothian, Scotland. The transcript gives the full spouse name that the earlier search row lacked. Identity hold resolved 5 November 2026 (ER3): the groom is Allexander Glasgow-1152, whose catalogue wife is Issobell Anderson and whose children Thomas (1666) and Marie (1674) were baptised in Edinburgh. The bride Issobell Anderson is the catalogue wife Issobell Glasgow Anderson (Anderson-56713), named as mother of Thomas (1666) and Marie (1674). The earlier hold draft record-ancestry-glasgow-a6302e5e286f duplicates the catalogue groom and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-a6302e5e286f": {
-        "role": "Documentary subject: groom",
-        "assessment": "documentary",
+      "Glasgow-1152": {
+        "role": "Probable identity: groom; spouse Issobell Anderson matches, place Edinburgh, Midlothian, Scotland recorded",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Anderson-56713": {
+        "role": "Probable identity: bride Issobell Anderson; matches the catalogue spouse",
+        "assessment": "probable",
         "timeline_group": "Life events"
       }
     },
@@ -117235,8 +117255,8 @@
       "basis": "Marriage 16 Jun 1665; publication requires a birth more than 120 years ago.",
       "explanation": "Marriage 16 Jun 1665"
     },
-    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/EH3-05-Alexander_Glasgow-1665.txt",
+    "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -210541,7 +210561,7 @@
     "source_type": "Provider index transcript",
     "record_type": "Christening index",
     "record_category": "Baptism",
-    "status": "Provider index transcript; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
     "source_level": "inspected transcript",
@@ -210554,11 +210574,21 @@
       "Father": "James Glasgow",
       "Mother": "Margate Park"
     },
-    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 14 Jul 1689 at Kilwinning, Ayr, Scotland; father James Glasgow; mother Margate Park. child christened James Glasgow: new catalogue draft record-ancestry-glasgow-c35dedfe4364, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-b6446ea0a0cc James Craig Glasgow d. 1901 (Scottish life events); record-ancestry-glasgow-f400b19e50da James Glasgow (Scottish life events); record-ancestry-glasgow-4a0f754772db James Glasgow (Scottish life events); record-ancestry-glasgow-4e4e93033757 James Glasgow (Scottish life events); record-ancestry-glasgow-146ff269f574 James Glasgow (Scottish life events); record-ancestry-glasgow-95b93aaaf023 James Glasgow (Scottish life events); record-ancestry-glasgow-be3c51d355e1 James Glasgow (Scottish life events); record-ancestry-glasgow-670c7717f46f James Glasgow (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a baptism in 1689; dates conflict: catalogue birth 1884-08 vs recorded birth 1689; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); different named father (Washington Barry Jeans Glasgow; record names James); different named mother (Angeline Glasgow; record names Margate); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a baptism in 1689; dates conflict: catalogue birth 1893-12 vs recorded birth 1689; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); different named father (Bascomb B Glasgow; record names James); different named mother (Katherine Glasgow; record names Margate); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a baptism in 1689; dates conflict: catalogue birth 1860 vs recorded birth 1689; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); different named father (Isaac Moodey Glasko; record names James); different named mother (Mary Esther (Billings) Glasko; record names Margate); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a baptism in 1689; dates conflict: catalogue birth 1874 vs recorded birth 1689; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named mother (Annie (Turnbull) Glasgow; record names Margate); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a baptism in 1689; dates conflict: catalogue birth c. 1796 vs recorded birth 1689; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a baptism in 1689; dates conflict: catalogue birth 1835 vs recorded birth 1689; chronology conflict: catalogue events are dated 1835-1835; dates conflict: a birth in 1689 does not fit the 1851 marriage already attributed; dates conflict: birth about 1689 does not fit the 1851 marriage already attributed; Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a baptism in 1689; dates conflict: catalogue birth 1867-01-11 vs recorded birth 1689; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a baptism in 1689; dates conflict: catalogue birth c. 1863 vs recorded birth 1689; chronology conflict: catalogue events are dated 1863-1935; place cannot fit: catalogue birth place Killycurragh, Derryloran, Cookstown, County Tyrone (Ireland) vs a Scotland baptism; different named father (Silas Ebenezer Glasgow; record names James); different named mother (Isabella (Loughlin) Glasgow; record names Margate). father of James Glasgow James Glasgow: new catalogue draft record-ancestry-glasgow-c35dedfe4364, held for identity review; compatible catalogue people remain (Glasgow-1081 James Glascho b. before 1651 d. 1726 (chronology fits, child James matches a catalogue child); record-ancestry-glasgow-5203992ee1cc James Glasgow (Scottish life events, place Kilwinning recorded); Glasgow-3076 James Glasgow b. 1661-03-03 (chronology fits, Scottish life events); Glasgow-3971 James Glasgow b. 1645-11-25 (Scottish life events); Glasgow-4176 James Glasgow b. before 1670 (Scottish life events); Glasgow-3332 James Glasgow b. c. 1634 (Scottish life events); Glasgow-3172 James Glasgow b. c. 1640 d. after 1679-11-08 (Scottish life events); Glasgow-1376 James Glasgow b. c. 1650 (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1689; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1689; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1689; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1689; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Margate); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a parent in 1689; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); different named spouse (Elizabeth (Groff) Glasgow; record names Margate); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a parent in 1689; chronology conflict: catalogue events are dated 1835-1835; different named spouse (Ann (Andrews) Glasgow; record names Margate); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1689; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Margate); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1689; chronology conflict: catalogue events are dated 1863-1935; different named spouse (Mary Jane (Black) Glasgow; record names Margate).",
+    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 14 Jul 1689 at Kilwinning, Ayr, Scotland; father James Glasgow; mother Margate Park. child christened James Glasgow linked to Glasgow-3104 (James Glasgow) as a probable identity: the baptism date and parish equal the catalogue birth and the father and mother match the catalogue couple (Glasgow-3105, Park-8050; Margate is a spelling of Margaret). Identity hold resolved 5 November 2026 (ER3): this entry is another index of the register baptism already held for Glasgow-3104, together with the OPR/FamilySearch index kilwinning-james-park-1689, and is counted once as evidence. The earlier hold draft record-ancestry-glasgow-c35dedfe4364 duplicates Glasgow-3104 and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-c35dedfe4364": {
-        "role": "Documentary subject: father of James Glasgow",
-        "assessment": "identity_hold",
+      "Glasgow-3104": {
+        "role": "Probable identity: child christened; baptism date and parish equal the catalogue birth, father James Glasgow matches, mother Margate Park (Margate is a spelling of Margaret)",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-3105": {
+        "role": "Probable identity: father of James Glasgow; the catalogue already gives James Glasgow (Glasgow-3104) this father",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "Park-8050": {
+        "role": "Probable identity: mother of James Glasgow; Margate is a spelling of Margaret",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -249172,7 +249202,7 @@
     "source_type": "Provider index transcript",
     "record_type": "Christening index",
     "record_category": "Baptism",
-    "status": "Provider index transcript; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
     "source_level": "inspected transcript",
@@ -249185,11 +249215,21 @@
       "Father": "James Glasgow",
       "Mother": "Elizabeth Duffe"
     },
-    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 16 Mar 1679 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Elizabeth Duffe. child christened James Glasgow: new catalogue draft record-ancestry-glasgow-5dc94479b547, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-b6446ea0a0cc James Craig Glasgow d. 1901 (Scottish life events); record-ancestry-glasgow-f400b19e50da James Glasgow (Scottish life events); record-ancestry-glasgow-4a0f754772db James Glasgow (Scottish life events); record-ancestry-glasgow-4e4e93033757 James Glasgow (Scottish life events); record-ancestry-glasgow-146ff269f574 James Glasgow (Scottish life events); record-ancestry-glasgow-670c7717f46f James Glasgow (Scottish life events); record-ancestry-glasgow-a2235cbd3ba7 James Glasgow (Scottish life events); record-ancestry-glasgow-a9c28bcb166a James Glasgow (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a baptism in 1679; dates conflict: catalogue birth 1884-08 vs recorded birth 1679; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); different named father (Washington Barry Jeans Glasgow; record names James); different named mother (Angeline Glasgow; record names Elizabeth); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a baptism in 1679; dates conflict: catalogue birth 1893-12 vs recorded birth 1679; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); different named father (Bascomb B Glasgow; record names James); different named mother (Katherine Glasgow; record names Elizabeth); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a baptism in 1679; dates conflict: catalogue birth 1860 vs recorded birth 1679; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); different named father (Isaac Moodey Glasko; record names James); different named mother (Mary Esther (Billings) Glasko; record names Elizabeth); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a baptism in 1679; dates conflict: catalogue birth 1874 vs recorded birth 1679; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named mother (Annie (Turnbull) Glasgow; record names Elizabeth); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a baptism in 1679; dates conflict: catalogue birth c. 1796 vs recorded birth 1679; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a baptism in 1679; dates conflict: catalogue birth 1835 vs recorded birth 1679; chronology conflict: catalogue events are dated 1835-1835; dates conflict: a birth in 1679 does not fit the 1851 marriage already attributed; dates conflict: birth about 1679 does not fit the 1851 marriage already attributed; Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a baptism in 1679; dates conflict: catalogue birth 1867-01-11 vs recorded birth 1679; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a baptism in 1679; dates conflict: catalogue birth c. 1863 vs recorded birth 1679; chronology conflict: catalogue events are dated 1863-1935; place cannot fit: catalogue birth place Killycurragh, Derryloran, Cookstown, County Tyrone (Ireland) vs a Scotland baptism; different named father (Silas Ebenezer Glasgow; record names James); different named mother (Isabella (Loughlin) Glasgow; record names Elizabeth). father of James Glasgow James Glasgow: new catalogue draft record-ancestry-glasgow-5dc94479b547, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-10162c6c81d0 James Glasgow (Scottish life events, spouse Bessie matches indexed spouse given name Elizabeth, place Edinburgh Parish recorded); record-ancestry-glasgow-3ba43063a833 James Glasgow (Scottish life events, spouse Bessie matches indexed spouse given name Elizabeth, place Edinburgh Parish recorded); Glasgow-1150 James Glasgow b. c. 1620 (Scottish life events, spouse Bessie (Whyte) Glasgow matches indexed spouse given name Elizabeth); record-ancestry-glasgow-349a8a9aa2d4 James Glasgow (Scottish life events, spouse Elisabeth matches indexed spouse given name Elizabeth); record-ancestry-glasgow-298460ee8d81 James Glasgow (Scottish life events, spouse Elizabeth matches indexed spouse given name Elizabeth); Glasgow-1081 James Glascho b. before 1651 d. 1726 (chronology fits, child James matches a catalogue child); record-ancestry-glasgow-b91cb9056033 Jas. Glasgow (Scottish life events, place Edinburgh Parish recorded); Glasgow-3971 James Glasgow b. 1645-11-25 (chronology fits, Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1679; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1679; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1679; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1679; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Elizabeth); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a parent in 1679; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a parent in 1679; chronology conflict: catalogue events are dated 1835-1835; different named spouse (Ann (Andrews) Glasgow; record names Elizabeth); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1679; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Elizabeth); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1679; chronology conflict: catalogue events are dated 1863-1935; different named spouse (Mary Jane (Black) Glasgow; record names Elizabeth).",
+    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 16 Mar 1679 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Elizabeth Duffe. child christened James Glasgow linked to Glasgow-3103 (James Glasgow) as a probable identity: the baptism date and parish equal the catalogue birth and the father and mother match the catalogue couple (Glasgow-2682, Duffe-18; the indexed forename Elizabeth differs from Isobell). Identity hold resolved 5 November 2026 (ER3): this entry is another index of the register baptism already held for Glasgow-3103, together with the Ancestry copy ancestry-60143-8973394 and the OPR index held for Glasgow-3103, and is counted once as evidence. The earlier hold draft record-ancestry-glasgow-5dc94479b547 duplicates Glasgow-3103 and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-5dc94479b547": {
-        "role": "Documentary subject: father of James Glasgow",
-        "assessment": "identity_hold",
+      "Glasgow-3103": {
+        "role": "Probable identity: child christened; baptism date and parish equal the catalogue birth, father James Glasgow matches, mother Elizabeth Duffe (the indexed forename Elizabeth differs from Isobell)",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2682": {
+        "role": "Probable identity: father of James Glasgow; the catalogue already gives James Glasgow (Glasgow-3103) this father",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "Duffe-18": {
+        "role": "Possible identity: mother of James Glasgow; the indexed forename Elizabeth differs from Isobell",
+        "assessment": "possible",
         "timeline_group": "Family records"
       }
     },
@@ -297647,7 +297687,7 @@
     "source_type": "Provider index transcript",
     "record_type": "Christening index",
     "record_category": "Baptism",
-    "status": "Provider index transcript; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
     "source_level": "inspected transcript",
@@ -297659,11 +297699,21 @@
       "Father": "James Glasgow",
       "Mother": "Issobell Duff"
     },
-    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 18 Apr 1680 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Issobell Duff. child christened James Glasgow: new catalogue draft record-ancestry-glasgow-cd75dd899ec7, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-b6446ea0a0cc James Craig Glasgow d. 1901 (Scottish life events); record-ancestry-glasgow-f400b19e50da James Glasgow (Scottish life events); record-ancestry-glasgow-4a0f754772db James Glasgow (Scottish life events); record-ancestry-glasgow-4e4e93033757 James Glasgow (Scottish life events); record-ancestry-glasgow-146ff269f574 James Glasgow (Scottish life events); record-ancestry-glasgow-95b93aaaf023 James Glasgow (Scottish life events); record-ancestry-glasgow-670c7717f46f James Glasgow (Scottish life events); record-ancestry-glasgow-a2235cbd3ba7 James Glasgow (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a baptism in 1680; dates conflict: catalogue birth 1884-08 vs recorded birth 1680; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); different named father (Washington Barry Jeans Glasgow; record names James); different named mother (Angeline Glasgow; record names Issobell); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a baptism in 1680; dates conflict: catalogue birth 1893-12 vs recorded birth 1680; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); different named father (Bascomb B Glasgow; record names James); different named mother (Katherine Glasgow; record names Issobell); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a baptism in 1680; dates conflict: catalogue birth 1860 vs recorded birth 1680; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); different named father (Isaac Moodey Glasko; record names James); different named mother (Mary Esther (Billings) Glasko; record names Issobell); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a baptism in 1680; dates conflict: catalogue birth 1874 vs recorded birth 1680; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named mother (Annie (Turnbull) Glasgow; record names Issobell); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a baptism in 1680; dates conflict: catalogue birth c. 1796 vs recorded birth 1680; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a baptism in 1680; dates conflict: catalogue birth 1835 vs recorded birth 1680; chronology conflict: catalogue events are dated 1835-1835; dates conflict: a birth in 1680 does not fit the 1851 marriage already attributed; dates conflict: birth about 1680 does not fit the 1851 marriage already attributed; Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a baptism in 1680; dates conflict: catalogue birth 1867-01-11 vs recorded birth 1680; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a baptism in 1680; dates conflict: catalogue birth c. 1863 vs recorded birth 1680; chronology conflict: catalogue events are dated 1863-1935; place cannot fit: catalogue birth place Killycurragh, Derryloran, Cookstown, County Tyrone (Ireland) vs a Scotland baptism; different named father (Silas Ebenezer Glasgow; record names James); different named mother (Isabella (Loughlin) Glasgow; record names Issobell). father of James Glasgow James Glasgow: new catalogue draft record-ancestry-glasgow-cd75dd899ec7, held for identity review; compatible catalogue people remain (Glasgow-1081 James Glascho b. before 1651 d. 1726 (chronology fits, child James matches a catalogue child); record-ancestry-glasgow-b91cb9056033 Jas. Glasgow (Scottish life events, place Edinburgh Parish recorded); Glasgow-3971 James Glasgow b. 1645-11-25 (chronology fits, Scottish life events); Glasgow-1376 James Glasgow b. c. 1650 (chronology fits, Scottish life events); record-ancestry-glasgow-70d492cd43b1 James Glasgow b. c. 1645 (chronology fits, Scottish life events); Glasgow-3076 James Glasgow b. 1661-03-03 (Scottish life events); Glasgow-3923 James Glasgow b. c. 1626 (Scottish life events); Glasgow-3332 James Glasgow b. c. 1634 (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1680; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1680; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1680; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1680; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Issobell); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a parent in 1680; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); different named spouse (Elizabeth (Groff) Glasgow; record names Issobell); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a parent in 1680; chronology conflict: catalogue events are dated 1835-1835; different named spouse (Ann (Andrews) Glasgow; record names Issobell); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1680; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Issobell); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1680; chronology conflict: catalogue events are dated 1863-1935; different named spouse (Mary Jane (Black) Glasgow; record names Issobell).",
+    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 18 Apr 1680 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Issobell Duff. child christened James Glasgow linked to Glasgow-3368 (James Glasgow) as a probable identity: the baptism date and parish equal the catalogue birth and the father and mother match the catalogue couple (Glasgow-2682, Duffe-18; Duff is a spelling of Duffe). Identity hold resolved 5 November 2026 (ER3): this entry is another index of the register baptism already held for Glasgow-3368, together with the Ancestry copy ancestry-60143-5753543 and the OPR index held for Glasgow-3368, and is counted once as evidence. The earlier hold draft record-ancestry-glasgow-cd75dd899ec7 duplicates Glasgow-3368 and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-cd75dd899ec7": {
-        "role": "Documentary subject: father of James Glasgow",
-        "assessment": "identity_hold",
+      "Glasgow-3368": {
+        "role": "Probable identity: child christened; baptism date and parish equal the catalogue birth, father James Glasgow matches, mother Issobell Duff (Duff is a spelling of Duffe)",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2682": {
+        "role": "Probable identity: father of James Glasgow; the catalogue already gives James Glasgow (Glasgow-3368) this father",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "Duffe-18": {
+        "role": "Probable identity: mother of James Glasgow; Duff is a spelling of Duffe",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -362657,7 +362707,7 @@
     "source_type": "Provider index transcript",
     "record_type": "Christening index",
     "record_category": "Baptism",
-    "status": "Provider index transcript; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
     "source_level": "inspected transcript",
@@ -362670,11 +362720,21 @@
       "Father": "James Glasgow",
       "Mother": "Issobell Duff"
     },
-    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 18 Apr 1680 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Issobell Duff. child christened James Glasgow: new catalogue draft record-ancestry-glasgow-e322c7aa0424, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-b6446ea0a0cc James Craig Glasgow d. 1901 (Scottish life events); record-ancestry-glasgow-f400b19e50da James Glasgow (Scottish life events); record-ancestry-glasgow-4a0f754772db James Glasgow (Scottish life events); record-ancestry-glasgow-4e4e93033757 James Glasgow (Scottish life events); record-ancestry-glasgow-146ff269f574 James Glasgow (Scottish life events); record-ancestry-glasgow-95b93aaaf023 James Glasgow (Scottish life events); record-ancestry-glasgow-670c7717f46f James Glasgow (Scottish life events); record-ancestry-glasgow-a2235cbd3ba7 James Glasgow (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a baptism in 1680; dates conflict: catalogue birth 1884-08 vs recorded birth 1680; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); different named father (Washington Barry Jeans Glasgow; record names James); different named mother (Angeline Glasgow; record names Issobell); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a baptism in 1680; dates conflict: catalogue birth 1893-12 vs recorded birth 1680; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); different named father (Bascomb B Glasgow; record names James); different named mother (Katherine Glasgow; record names Issobell); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a baptism in 1680; dates conflict: catalogue birth 1860 vs recorded birth 1680; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); different named father (Isaac Moodey Glasko; record names James); different named mother (Mary Esther (Billings) Glasko; record names Issobell); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a baptism in 1680; dates conflict: catalogue birth 1874 vs recorded birth 1680; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named mother (Annie (Turnbull) Glasgow; record names Issobell); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a baptism in 1680; dates conflict: catalogue birth c. 1796 vs recorded birth 1680; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a baptism in 1680; dates conflict: catalogue birth 1835 vs recorded birth 1680; chronology conflict: catalogue events are dated 1835-1835; dates conflict: a birth in 1680 does not fit the 1851 marriage already attributed; dates conflict: birth about 1680 does not fit the 1851 marriage already attributed; Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a baptism in 1680; dates conflict: catalogue birth 1867-01-11 vs recorded birth 1680; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a baptism in 1680; dates conflict: catalogue birth c. 1863 vs recorded birth 1680; chronology conflict: catalogue events are dated 1863-1935; place cannot fit: catalogue birth place Killycurragh, Derryloran, Cookstown, County Tyrone (Ireland) vs a Scotland baptism; different named father (Silas Ebenezer Glasgow; record names James); different named mother (Isabella (Loughlin) Glasgow; record names Issobell). father of James Glasgow James Glasgow: new catalogue draft record-ancestry-glasgow-e322c7aa0424, held for identity review; compatible catalogue people remain (Glasgow-1081 James Glascho b. before 1651 d. 1726 (chronology fits, child James matches a catalogue child); record-ancestry-glasgow-b91cb9056033 Jas. Glasgow (Scottish life events, place Edinburgh Parish recorded); Glasgow-3971 James Glasgow b. 1645-11-25 (chronology fits, Scottish life events); Glasgow-1376 James Glasgow b. c. 1650 (chronology fits, Scottish life events); record-ancestry-glasgow-70d492cd43b1 James Glasgow b. c. 1645 (chronology fits, Scottish life events); Glasgow-3076 James Glasgow b. 1661-03-03 (Scottish life events); Glasgow-3923 James Glasgow b. c. 1626 (Scottish life events); Glasgow-3332 James Glasgow b. c. 1634 (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1680; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1680; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1680; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1680; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Issobell); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a parent in 1680; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); different named spouse (Elizabeth (Groff) Glasgow; record names Issobell); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a parent in 1680; chronology conflict: catalogue events are dated 1835-1835; different named spouse (Ann (Andrews) Glasgow; record names Issobell); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1680; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Issobell); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1680; chronology conflict: catalogue events are dated 1863-1935; different named spouse (Mary Jane (Black) Glasgow; record names Issobell).",
+    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 18 Apr 1680 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Issobell Duff. child christened James Glasgow linked to Glasgow-3368 (James Glasgow) as a probable identity: the baptism date and parish equal the catalogue birth and the father and mother match the catalogue couple (Glasgow-2682, Duffe-18; Duff is a spelling of Duffe). Identity hold resolved 5 November 2026 (ER3): this entry is another index of the register baptism already held for Glasgow-3368, together with the Ancestry copy ancestry-60143-22217759 (counted once), and is counted once as evidence. The earlier hold draft record-ancestry-glasgow-e322c7aa0424 duplicates Glasgow-3368 and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-e322c7aa0424": {
-        "role": "Documentary subject: father of James Glasgow",
-        "assessment": "identity_hold",
+      "Glasgow-3368": {
+        "role": "Probable identity: child christened; baptism date and parish equal the catalogue birth, father James Glasgow matches, mother Issobell Duff (Duff is a spelling of Duffe)",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2682": {
+        "role": "Probable identity: father of James Glasgow; the catalogue already gives James Glasgow (Glasgow-3368) this father",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "Duffe-18": {
+        "role": "Probable identity: mother of James Glasgow; Duff is a spelling of Duffe",
+        "assessment": "probable",
         "timeline_group": "Family records"
       }
     },
@@ -388566,7 +388626,7 @@
     "source_type": "Provider index transcript",
     "record_type": "Christening index",
     "record_category": "Baptism",
-    "status": "Provider index transcript; new catalogue draft",
+    "status": "Provider index transcript; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
     "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
     "source_level": "inspected transcript",
@@ -388578,11 +388638,21 @@
       "Father": "James Glasgow",
       "Mother": "Elizabeth Duffe"
     },
-    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 16 Mar 1679 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Elizabeth Duffe. child christened James Glasgow: new catalogue draft record-ancestry-glasgow-57d865127b24, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-b6446ea0a0cc James Craig Glasgow d. 1901 (Scottish life events); record-ancestry-glasgow-f400b19e50da James Glasgow (Scottish life events); record-ancestry-glasgow-4a0f754772db James Glasgow (Scottish life events); record-ancestry-glasgow-4e4e93033757 James Glasgow (Scottish life events); record-ancestry-glasgow-146ff269f574 James Glasgow (Scottish life events); record-ancestry-glasgow-670c7717f46f James Glasgow (Scottish life events); record-ancestry-glasgow-a2235cbd3ba7 James Glasgow (Scottish life events); record-ancestry-glasgow-a9c28bcb166a James Glasgow (Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a baptism in 1679; dates conflict: catalogue birth 1884-08 vs recorded birth 1679; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); different named father (Washington Barry Jeans Glasgow; record names James); different named mother (Angeline Glasgow; record names Elizabeth); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a baptism in 1679; dates conflict: catalogue birth 1893-12 vs recorded birth 1679; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); different named father (Bascomb B Glasgow; record names James); different named mother (Katherine Glasgow; record names Elizabeth); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a baptism in 1679; dates conflict: catalogue birth 1860 vs recorded birth 1679; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); different named father (Isaac Moodey Glasko; record names James); different named mother (Mary Esther (Billings) Glasko; record names Elizabeth); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a baptism in 1679; dates conflict: catalogue birth 1874 vs recorded birth 1679; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named mother (Annie (Turnbull) Glasgow; record names Elizabeth); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a baptism in 1679; dates conflict: catalogue birth c. 1796 vs recorded birth 1679; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a baptism in 1679; dates conflict: catalogue birth 1835 vs recorded birth 1679; chronology conflict: catalogue events are dated 1835-1835; dates conflict: a birth in 1679 does not fit the 1851 marriage already attributed; dates conflict: birth about 1679 does not fit the 1851 marriage already attributed; Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a baptism in 1679; dates conflict: catalogue birth 1867-01-11 vs recorded birth 1679; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada (outside) vs a Scotland baptism; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a baptism in 1679; dates conflict: catalogue birth c. 1863 vs recorded birth 1679; chronology conflict: catalogue events are dated 1863-1935; place cannot fit: catalogue birth place Killycurragh, Derryloran, Cookstown, County Tyrone (Ireland) vs a Scotland baptism; different named father (Silas Ebenezer Glasgow; record names James); different named mother (Isabella (Loughlin) Glasgow; record names Elizabeth). father of James Glasgow James Glasgow: new catalogue draft record-ancestry-glasgow-57d865127b24, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-10162c6c81d0 James Glasgow (Scottish life events, spouse Bessie matches indexed spouse given name Elizabeth, place Edinburgh Parish recorded); record-ancestry-glasgow-3ba43063a833 James Glasgow (Scottish life events, spouse Bessie matches indexed spouse given name Elizabeth, place Edinburgh Parish recorded); Glasgow-1150 James Glasgow b. c. 1620 (Scottish life events, spouse Bessie (Whyte) Glasgow matches indexed spouse given name Elizabeth); record-ancestry-glasgow-349a8a9aa2d4 James Glasgow (Scottish life events, spouse Elisabeth matches indexed spouse given name Elizabeth); record-ancestry-glasgow-298460ee8d81 James Glasgow (Scottish life events, spouse Elizabeth matches indexed spouse given name Elizabeth); Glasgow-1081 James Glascho b. before 1651 d. 1726 (chronology fits, child James matches a catalogue child); record-ancestry-glasgow-b91cb9056033 Jas. Glasgow (Scottish life events, place Edinburgh Parish recorded); Glasgow-3971 James Glasgow b. 1645-11-25 (chronology fits, Scottish life events)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a parent in 1679; chronology conflict: catalogue events are dated 1884-1884; place cannot fit: catalogue birth place Arkansas, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a parent in 1679; chronology conflict: catalogue events are dated 1893-1893; place cannot fit: catalogue birth place Alabama, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a parent in 1679; chronology conflict: catalogue events are dated 1860-1860; place cannot fit: catalogue birth place Connecticut, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a parent in 1679; chronology conflict: catalogue events are dated 1874-1945; place cannot fit: catalogue birth place Westland, New Zealand is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Elizabeth); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: dates conflict: catalogue birth c. 1796 too late for a parent in 1679; chronology conflict: catalogue events are dated 1796-1878; place cannot fit: catalogue birth place Pennsylvania, United States is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a parent in 1679; chronology conflict: catalogue events are dated 1835-1835; different named spouse (Ann (Andrews) Glasgow; record names Elizabeth); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a parent in 1679; chronology conflict: catalogue events are dated 1867-1949; place cannot fit: catalogue birth place Halifax, Halifax, Nova Scotia, Canada is outside the British Isles; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Elizabeth); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a parent in 1679; chronology conflict: catalogue events are dated 1863-1935; different named spouse (Mary Jane (Black) Glasgow; record names Elizabeth).",
+    "note": "Ancestry Scotland, Select Births and Baptisms, 1564-1950 transcript: James Glasgow christened 16 Mar 1679 at Edinburgh Parish, Edinburgh, Midlothian, Scotland; father James Glasgow; mother Elizabeth Duffe. child christened James Glasgow linked to Glasgow-3103 (James Glasgow) as a probable identity: the baptism date and parish equal the catalogue birth and the father and mother match the catalogue couple (Glasgow-2682, Duffe-18; the indexed forename Elizabeth differs from Isobell). Identity hold resolved 5 November 2026 (ER3): this entry is another index of the register baptism already held for Glasgow-3103, together with the Ancestry copy ancestry-60143-17087464 (counted once), and is counted once as evidence. The earlier hold draft record-ancestry-glasgow-57d865127b24 duplicates Glasgow-3103 and is left for the duplicate-draft review; no profile is merged here.",
     "profiles": {
-      "record-ancestry-glasgow-57d865127b24": {
-        "role": "Documentary subject: father of James Glasgow",
-        "assessment": "identity_hold",
+      "Glasgow-3103": {
+        "role": "Probable identity: child christened; baptism date and parish equal the catalogue birth, father James Glasgow matches, mother Elizabeth Duffe (the indexed forename Elizabeth differs from Isobell)",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-2682": {
+        "role": "Probable identity: father of James Glasgow; the catalogue already gives James Glasgow (Glasgow-3103) this father",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "Duffe-18": {
+        "role": "Possible identity: mother of James Glasgow; the indexed forename Elizabeth differs from Isobell",
+        "assessment": "possible",
         "timeline_group": "Family records"
       }
     },
@@ -405012,5 +405082,1548 @@
     "provenance": "National Archives of Ireland pre-1901 census search (census_year=1831, surname Glasgow, county Londonderry, townland Coltrim), record id 164161, read in the built-in browser 5 November 2026; earlier citation: Colin Rynne, Industrial Archaeology Review 33:2 (2011), citing W. E. Hogg, p. 295.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-60144-47689",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/47689",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Effie Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Effie Glasgow",
+    "event_role": "bride",
+    "date": "17 Sep 1671",
+    "year": 1671,
+    "place": "Channelkirk, Berwick, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/47689",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Effie Glasgow, 17 Sep 1671, Channelkirk, Berwick, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Effie Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "17 Sep 1671",
+      "Marriage Place": "Channelkirk, Berwick, Scotland",
+      "Spouse": "Alexander Hutcshesone"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Effie Glasgow married Alexander Hutcshesone on 17 Sep 1671 at Channelkirk, Berwick, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. bride Effie Glasgow linked to Glasgow-3358 as a possible identity: same marriage (17 September 1671, Channelkirk, Alexander Hutcshesone) as finding opr-marriage-32, whose compatible candidate is Glasgow-3358 (Eupham, baptised before 1651 at Edinburgh); Effie is a recognised diminutive of Euphame, chronology fits, but neither spouse nor parish is recorded on the profile, so the identity stays qualified.",
+    "profiles": {
+      "Glasgow-3358": {
+        "role": "Possible identity: bride; same marriage as finding opr-marriage-32 (Channelkirk, Alexander Hutcshesone); identity qualified",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1658,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/47689",
+      "basis": "Marriage 17 Sep 1671; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 17 Sep 1671"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH3.csv and EH3 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "opr-marriage-32"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-517233",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/517233",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Anna Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Anna Glasgow",
+    "event_role": "bride",
+    "date": "16 Jun 1676",
+    "year": 1676,
+    "place": "Kirknewton, Linlithgowshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/517233",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Anna Glasgow, 16 Jun 1676, Kirknewton, Linlithgowshire, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Anna Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "16 Jun 1676",
+      "Marriage Place": "Kirknewton, Linlithgowshire, Scotland",
+      "Spouse": "Thomas Gray"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Anna Glasgow married Thomas Gray on 16 Jun 1676 at Kirknewton, Linlithgowshire, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. bride Anna Glasgow linked to Glasgow-1439 as a probable identity: same marriage (16 June 1676, Kirknewton, Thomas Gray) as finding opr-marriage-29 and profile-matches-opr-couples-20260930, which match Glasgow-1439 (baptised 1652 at Kirknewton) and Grey-2711; this is the FamilySearch index copy.",
+    "profiles": {
+      "Glasgow-1439": {
+        "role": "Probable identity: bride; same marriage as finding opr-marriage-29 (Kirknewton, Thomas Gray)",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Grey-2711": {
+        "role": "Probable identity: spouse named Thomas Gray",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1663,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/517233",
+      "basis": "Marriage 16 Jun 1676; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 16 Jun 1676"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH3.csv and EH3 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "opr-marriage-29"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-518544",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/518544",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Johne Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "Johne Glasgow",
+    "event_role": "groom",
+    "date": "25 Jul 1673",
+    "year": 1673,
+    "place": "Kirknewton, Linlithgowshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/518544",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Johne Glasgow, 25 Jul 1673, Kirknewton, Linlithgowshire, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Johne Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "25 Jul 1673",
+      "Marriage Place": "Kirknewton, Linlithgowshire, Scotland",
+      "Spouse": "Margaret Currie"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Johne Glasgow married Margaret Currie on 25 Jul 1673 at Kirknewton, Linlithgowshire, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom Johne Glasgow linked to Glasgow-3012 as a probable identity: chronology fits (baptised 1649 at Kirknewton and East Calder, aged about 24), the parish matches, and the catalogue already gives his wife as Margaret (Currie) Glasgow, matching the indexed spouse Margaret Currie; the 1648 Mid Calder Johne (Glasgow-2452) has no recorded wife and a different parish, so he is not preferred.",
+    "profiles": {
+      "Glasgow-3012": {
+        "role": "Probable identity: groom; chronology and parish fit; indexed spouse Margaret Currie matches the catalogue wife",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Currie-4998": {
+        "role": "Probable identity: spouse named Margaret Currie",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1660,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/518544",
+      "basis": "Marriage 25 Jul 1673; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 25 Jul 1673"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH3.csv and EH3 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+  },
+  {
+    "record_id": "ancestry-60144-532805",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/532805",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Agnes Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Agnes Glasgow",
+    "event_role": "bride",
+    "date": "15 Dec 1681",
+    "year": 1681,
+    "place": "Carstairs, Lanark, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/532805",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Agnes Glasgow, 15 Dec 1681, Carstairs, Lanark, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Agnes Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "15 Dec 1681",
+      "Marriage Place": "Carstairs, Lanark, Scotland",
+      "Spouse": "William Thomsone"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Agnes Glasgow married William Thomsone on 15 Dec 1681 at Carstairs, Lanark, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. bride Agnes Glasgow linked to Glasgow-2460 as a possible identity: same marriage (15 December 1681, Carstairs, William Thomsone) as finding opr-marriage-01, whose compatible candidates are Glasgow-2460 and Thomson-263; the identity stays qualified because the candidate was baptised in 1634 at Inveresk, the profile records no spouse, and the 1666 Longformacus bride Agnas/William Anderson is linked to the same candidate.",
+    "profiles": {
+      "Glasgow-2460": {
+        "role": "Possible identity: bride; same marriage as finding opr-marriage-01 (Carstairs, William Thomsone); identity qualified",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      },
+      "Thomson-263": {
+        "role": "Possible identity: spouse named William Thomsone",
+        "assessment": "possible",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1668,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/532805",
+      "basis": "Marriage 15 Dec 1681; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 15 Dec 1681"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH3.csv and EH3 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "opr-marriage-01"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-541759",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/541759",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Agnas Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Agnas Glasgow",
+    "event_role": "bride",
+    "date": "5 Jul 1666",
+    "year": 1666,
+    "place": "Longformacus, Berwick, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/541759",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Agnas Glasgow, 5 Jul 1666, Longformacus, Berwick, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Agnas Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "5 Jul 1666",
+      "Marriage Place": "Longformacus, Berwick, Scotland",
+      "Spouse": "William Anderson"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Agnas Glasgow married William Anderson on 5 Jul 1666 at Longformacus, Berwick, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. bride Agnas Glasgow linked to Glasgow-2460 as a possible identity: same marriage (5 July 1666, Longformacus, William Anderson) as finding opr-marriage-26, whose compatible candidates are Glasgow-2460 and Anderson-3493; the identity stays qualified (candidate born 1634 at Inveresk; no spouse recorded on the profile) and the 1681 Carstairs bride Agnes/William Thomsone is linked to the same candidate, so at most one of the two may be her first marriage.",
+    "profiles": {
+      "Glasgow-2460": {
+        "role": "Possible identity: bride; same marriage as finding opr-marriage-26 (Longformacus, William Anderson); identity qualified",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      },
+      "Anderson-3493": {
+        "role": "Possible identity: spouse named William Anderson",
+        "assessment": "possible",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1653,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/541759",
+      "basis": "Marriage 5 Jul 1666; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 5 Jul 1666"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH3.csv and EH3 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "opr-marriage-26"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-641112",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/641112",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "James Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "James Glasgow",
+    "event_role": "groom",
+    "date": "18 Jun 1663",
+    "year": 1663,
+    "place": "Polwarth, Berwick, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/641112",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — James Glasgow, 18 Jun 1663, Polwarth, Berwick, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "James Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "18 Jun 1663",
+      "Marriage Place": "Polwarth, Berwick, Scotland",
+      "Spouse": "Agnes Waitte"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: James Glasgow married Agnes Waitte on 18 Jun 1663 at Polwarth, Berwick, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom James Glasgow linked to Glasgow-3107 as a probable identity: same marriage (18 June 1663, Polwarth, bride Agnes Waitte/Watt) as the ScotlandsPeople OPR index record polwarth-james-waitte-marriage-1663 already linked to Glasgow-3107 and Watt-5185; this is the FamilySearch index copy, not an independent event.",
+    "profiles": {
+      "Glasgow-3107": {
+        "role": "Probable identity: groom; same marriage as the OPR index record already linked to this profile (18 June 1663, Polwarth, Agnes Waitte)",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Watt-5185": {
+        "role": "Probable identity: spouse named Agnes Waitte",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1650,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/641112",
+      "basis": "Marriage 18 Jun 1663; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 18 Jun 1663"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH3.csv and EH3 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "polwarth-james-waitte-marriage-1663"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-1271490",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1271490",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "William Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "William Glasgow",
+    "event_role": "child baptised",
+    "date": "26 Jan 1826",
+    "year": 1826,
+    "place": "India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1271490",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — William Glasgow, 26 Jan 1826, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; not linked to a catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Birth Date": "06 Sep 1825",
+      "Birth Place": "Barrackpore Bengal India",
+      "Baptism Date": "26 Jan 1826",
+      "Baptism Age": "0",
+      "Baptism Place": "India",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for William Glasgow: born 06 Sep 1825 at Barrackpore Bengal India, baptised 26 Jan 1826 at India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1826,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1271490",
+      "basis": "Birth 06 Sep 1825; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 06 Sep 1825"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0004-William_Glasgow-1825.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+  },
+  {
+    "record_id": "ancestry-9899-1390692",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1390692",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "George Thomas James Dennis Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "George Thomas James Dennis Glasgow",
+    "event_role": "child baptised",
+    "date": "08 Oct 1842",
+    "year": 1842,
+    "place": "Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1390692",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — George Thomas James Dennis Glasgow, 08 Oct 1842, Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; not linked to a catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "George Thomas James Dennis Glasgow",
+      "Gender": "Male",
+      "Birth Date": "06 Sep 1840",
+      "Baptism Date": "08 Oct 1842",
+      "Baptism Age": "2",
+      "Baptism Place": "Bengal, India",
+      "Father": "William Glasgow"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for George Thomas James Dennis Glasgow: born 06 Sep 1840, baptised 08 Oct 1842 at Bengal, India; father William Glasgow. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1842,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1390692",
+      "basis": "Birth 06 Sep 1840; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 06 Sep 1840"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0006-George_Thomas_James_Dennis_Glasgow-1840.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+  },
+  {
+    "record_id": "ancestry-9899-247030",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/247030",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "Eliza Graves Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "Eliza Graves Glasgow",
+    "event_role": "child baptised",
+    "date": "09 Oct 1836",
+    "year": 1836,
+    "place": "Serampore, Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/247030",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — Eliza Graves Glasgow, 09 Oct 1836, Serampore, Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; not linked to a catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Eliza Graves Glasgow",
+      "Gender": "Female",
+      "Birth Date": "05 Aug 1836",
+      "Baptism Date": "09 Oct 1836",
+      "Baptism Age": "0",
+      "Baptism Place": "Serampore, Bengal, India",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for Eliza Graves Glasgow: born 05 Aug 1836, baptised 09 Oct 1836 at Serampore, Bengal, India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1836,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/247030",
+      "basis": "Birth 05 Aug 1836; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 05 Aug 1836"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0013-Eliza_Graves_Glasgow-1836.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+  },
+  {
+    "record_id": "ancestry-9899-362341",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/362341",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "Amelia Magdalene Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "Amelia Magdalene Glasgow",
+    "event_role": "child baptised",
+    "date": "27 Jul 1831",
+    "year": 1831,
+    "place": "Etawah, Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/362341",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — Amelia Magdalene Glasgow, 27 Jul 1831, Etawah, Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; identity held for review",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Amelia Magdalene Glasgow",
+      "Gender": "Female",
+      "Birth Date": "22 Nov 1830",
+      "Baptism Date": "27 Jul 1831",
+      "Baptism Age": "0",
+      "Baptism Place": "Etawah, Bengal, India",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for Amelia Magdalene Glasgow: born 22 Nov 1830, baptised 27 Jul 1831 at Etawah, Bengal, India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1831,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/362341",
+      "basis": "Birth 22 Nov 1830; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 22 Nov 1830"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0015-Amelia_Magdalene_Glasgow-1830.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "Glasgow-482": {
+        "role": "Candidate subject: child baptised",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-9899-4204",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/4204",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "Amelia Magdalene Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "Amelia Magdalene Glasgow",
+    "event_role": "child baptised",
+    "date": "27 Jul 1831",
+    "year": 1831,
+    "place": "Etawah, Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/4204",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — Amelia Magdalene Glasgow, 27 Jul 1831, Etawah, Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; identity held for review",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Amelia Magdalene Glasgow",
+      "Gender": "Female",
+      "Birth Date": "22 Nov 1830",
+      "Baptism Date": "27 Jul 1831",
+      "Baptism Age": "0",
+      "Baptism Place": "Etawah, Bengal, India",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for Amelia Magdalene Glasgow: born 22 Nov 1830, baptised 27 Jul 1831 at Etawah, Bengal, India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1831,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/4204",
+      "basis": "Birth 22 Nov 1830; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 22 Nov 1830"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0017-Amelia_Magdalene_Glasgow-1830.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "Glasgow-482": {
+        "role": "Candidate subject: child baptised",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-9899-76113",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/76113",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "John Blythe Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "John Blythe Glasgow",
+    "event_role": "child baptised",
+    "date": "09 Jan 1829",
+    "year": 1829,
+    "place": "Budgerow, Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/76113",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — John Blythe Glasgow, 09 Jan 1829, Budgerow, Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; identity held for review",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "John Blythe Glasgow",
+      "Gender": "Male",
+      "Birth Date": "07 Jan 1829",
+      "Baptism Date": "09 Jan 1829",
+      "Baptism Age": "0",
+      "Baptism Place": "Budgerow, Bengal, India",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for John Blythe Glasgow: born 07 Jan 1829, baptised 09 Jan 1829 at Budgerow, Bengal, India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1829,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/76113",
+      "basis": "Birth 07 Jan 1829; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 07 Jan 1829"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0024-John_Blythe_Glasgow-1829.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "record-ancestry-glasgow-5a77c30ca011": {
+        "role": "Documentary subject: child baptised (same child as the 9898 burial of 12 Jan 1829)",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-9899-794514",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/794514",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "Harrietta Fordyce Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "Harrietta Fordyce Glasgow",
+    "event_role": "child baptised",
+    "date": "11 Oct 1838",
+    "year": 1838,
+    "place": "Dehra, West Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/794514",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — Harrietta Fordyce Glasgow, 11 Oct 1838, Dehra, West Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; not linked to a catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Harrietta Fordyce Glasgow",
+      "Gender": "Female",
+      "Birth Date": "11 Oct 1838",
+      "Birth Place": "Dehra, West Bengal, India",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for Harrietta Fordyce Glasgow: born 11 Oct 1838 at Dehra, West Bengal, India, baptised date not given at Dehra, West Bengal, India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1838,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/794514",
+      "basis": "Birth 11 Oct 1838; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 11 Oct 1838"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0025-Harrietta_Fordyce_Glasgow-1838.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+  },
+  {
+    "record_id": "ancestry-9899-834444",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/834444",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "Eliza Graves Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "Eliza Graves Glasgow",
+    "event_role": "child baptised",
+    "date": "09 Oct 1836",
+    "year": 1836,
+    "place": "Serampore, Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/834444",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — Eliza Graves Glasgow, 09 Oct 1836, Serampore, Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; not linked to a catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Eliza Graves Glasgow",
+      "Gender": "Female",
+      "Birth Date": "05 Aug 1836",
+      "Baptism Date": "09 Oct 1836",
+      "Baptism Age": "0",
+      "Baptism Place": "Serampore, Bengal, India",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for Eliza Graves Glasgow: born 05 Aug 1836, baptised 09 Oct 1836 at Serampore, Bengal, India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1836,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/834444",
+      "basis": "Birth 05 Aug 1836; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 05 Aug 1836"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0028-Eliza_Graves_Glasgow-1836.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+  },
+  {
+    "record_id": "ancestry-9899-870786",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/870786",
+    "collection": "India, Select Births and Baptisms, 1786-1947",
+    "association": "Harrietta Fordyce Glasgow — child baptised; India, Select Births and Baptisms, 1786-1947",
+    "person": "Harrietta Fordyce Glasgow",
+    "event_role": "child baptised",
+    "date": "01 Apr 1840",
+    "year": 1840,
+    "place": "DEHRA, Bengal, India",
+    "country": "India",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/870786",
+    "source_title": "India, Select Births and Baptisms, 1786-1947 — Harrietta Fordyce Glasgow, 01 Apr 1840, DEHRA, Bengal, India",
+    "source_type": "Provider index transcript",
+    "record_type": "Baptism index",
+    "record_category": "Baptism",
+    "status": "Provider index transcript; not linked to a catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Harrietta Fordyce Glasgow",
+      "Gender": "Female",
+      "Birth Date": "11 Oct 1838",
+      "Birth Place": "DEHRA, Bengal, India",
+      "Baptism Date": "01 Apr 1840",
+      "Baptism Age": "1",
+      "Father": "William Glasgow",
+      "Mother": "Amelia"
+    },
+    "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for Harrietta Fordyce Glasgow: born 11 Oct 1838 at DEHRA, Bengal, India, baptised 01 Apr 1840 at DEHRA, Bengal, India; father William Glasgow; mother Amelia. Index transcript only; original register uninspected.",
+    "historical_basis": {
+      "latest_birth_year": 1840,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/870786",
+      "basis": "Birth 11 Oct 1838; publication requires a birth more than 120 years ago.",
+      "explanation": "Birth 11 Oct 1838"
+    },
+    "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0030-Harrietta_Fordyce_Glasgow-1838.txt",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+  },
+  {
+    "record_id": "ancestry-60144-61452",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/61452",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Jean Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Jean Glasgow",
+    "event_role": "bride",
+    "date": "3 Jun 1702",
+    "year": 1702,
+    "place": "Gordon, Berwick, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/61452",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Jean Glasgow, 3 Jun 1702, Gordon, Berwick, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Jean Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "3 Jun 1702",
+      "Marriage Place": "Gordon, Berwick, Scotland",
+      "Father": "James Glasgow",
+      "Spouse": "John Smith"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Jean Glasgow married John Smith on 3 Jun 1702 at Gordon, Berwick, Scotland; father James Glasgow. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. bride Jean Glasgow linked to Glasgow-3364 as a probable identity: baptised 16 Apr 1671 at Gordon, father James Glasgow; the marriage record names the bride's father as James Glasgow at Gordon, aged 31 at marriage. The father James Glasgow is linked to Glasgow-3107 (James of Gordon, married Agnes Watt at Polwarth in 1663, children baptised at Gordon 1666-1679) as a probable identity. No conflicting date, parent or place. The catalogue records no spouse for Glasgow-3364, so John Smith is not matched.",
+    "profiles": {
+      "Glasgow-3364": {
+        "role": "Probable identity: bride; daughter of James of Gordon; baptised Gordon 1671; marriage at Gordon names father James",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-3107": {
+        "role": "Probable identity: father of the bride Jean Glasgow (named in the record); Gordon household of James and Agnes Watt",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1689,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/61452",
+      "basis": "Marriage 3 Jun 1702; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 3 Jun 1702"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "gordon-jean-james-index-1671"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-729862",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/729862",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Mary Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Mary Glasgow",
+    "event_role": "bride",
+    "date": "19 Jan 1703",
+    "year": 1703,
+    "place": "Stevenston, Ayr, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/729862",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Mary Glasgow, 19 Jan 1703, Stevenston, Ayr, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; held draft person",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Mary Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "19 Jan 1703",
+      "Marriage Place": "Stevenston, Ayr, Scotland",
+      "Spouse": "Robert Cochran"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Mary Glasgow married Robert Cochran on 19 Jan 1703 at Stevenston, Ayr, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Same couple (Mary Glasgow and Robert Cochran) as the West Kilbride marriage of 29 Dec 1702 (record 2144971), held draft record-ancestry-glasgow-607dd06e38b7; the two index entries are three weeks apart in neighbouring parishes and are read as one marriage entered twice, which the original registers must confirm. The fuller transcript gives the groom's surname Cochran; no catalogue profile has a Cochran husband, so the hold stands.",
+    "profiles": {
+      "record-ancestry-glasgow-607dd06e38b7": {
+        "role": "Documentary identity: bride; documentary bride; same couple as the 29 Dec 1702 West Kilbride entry (record 2144971)",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1690,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/729862",
+      "basis": "Marriage 19 Jan 1703; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 19 Jan 1703"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "ancestry-60144-2144971"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-92840",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/92840",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "John Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "John Glasgow",
+    "event_role": "groom",
+    "date": "14 Oct 1704",
+    "year": 1704,
+    "place": "Kilwinning, Ayr, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/92840",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — John Glasgow, 14 Oct 1704, Kilwinning, Ayr, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "14 Oct 1704",
+      "Marriage Place": ", Kilwinning, Ayr, Scotland",
+      "Spouse": "Mary Gemill"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: John Glasgow married Mary Gemill on 14 Oct 1704 at Kilwinning, Ayr, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom John Glasgow linked to Glasgow-1927 as a probable identity: John Glasgow baptised 26 Feb 1671 at Linlithgow (aged 33), whose wife is Mary Gemill/Gemmill and who baptised children at Kilwinning from 1707 (James 1707, Hugh 1710, Andrew 1712, Margaret 1714, Mary 1717, John 1720, Margaret 1723, Sarah 1726, all with Mary Gemmill). The full spouse name in the EH4 transcript resolves the hold on draft record-ancestry-glasgow-b351597a7857, which was written when only the given name Mary was indexed and wrongly folded in a different John, baptised 1683 to George Glasgow and Jean Gardiner.",
+    "profiles": {
+      "Glasgow-1927": {
+        "role": "Probable identity: groom; groom; wife Mary Gemill and Kilwinning children 1707-1726",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Gemill-4": {
+        "role": "Probable identity: spouse named Mary Gemill",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1691,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/92840",
+      "basis": "Marriage 14 Oct 1704; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 14 Oct 1704"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+  },
+  {
+    "record_id": "ancestry-60144-550779",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/550779",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Patrick Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "Patrick Glasgow",
+    "event_role": "groom",
+    "date": "1 Jul 1707",
+    "year": 1707,
+    "place": "Eccles, Berwick, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/550779",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Patrick Glasgow, 1 Jul 1707, Eccles, Berwick, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Patrick Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "1 Jul 1707",
+      "Marriage Place": "Eccles, Berwick, Scotland",
+      "Spouse": "Helen Fairbarne"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Patrick Glasgow married Helen Fairbarne on 1 Jul 1707 at Eccles, Berwick, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom Patrick Glasgow linked to Glasgow-1440 (baptised at Gordon 1667) as a possible identity: same groom and bride (Helen Fairbairn) as the Stitchel marriage of 23 May 1707 (record 3899364), and the Stitchel children of Patrick and Helen Fairbairn (1708, 1709) already cited on the profile; the existing account stitchel-eccles-patrick-fairbairn-marriages-1707 treats the two entries as one couple. The adult identity (Gordon-born Patrick) stays qualified.",
+    "profiles": {
+      "Glasgow-1440": {
+        "role": "Possible identity: groom; groom Patrick; same couple as the Stitchel entry already linked to this profile",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      },
+      "Fairburn-170": {
+        "role": "Possible identity: spouse named Helen Fairbarne",
+        "assessment": "possible",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1694,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/550779",
+      "basis": "Marriage 1 Jul 1707; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 1 Jul 1707"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "stitchel-eccles-patrick-fairbairn-marriages-1707"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-518177",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/518177",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "James Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "James Glasgow",
+    "event_role": "groom",
+    "date": "7 Aug 1713",
+    "year": 1713,
+    "place": "Kirknewton, Linlithgowshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/518177",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — James Glasgow, 7 Aug 1713, Kirknewton, Linlithgowshire, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "James Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "7 Aug 1713",
+      "Marriage Place": "Kirknewton, Linlithgowshire, Scotland",
+      "Spouse": "Margaret Cruikshanks"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: James Glasgow married Margaret Cruikshanks on 7 Aug 1713 at Kirknewton, Linlithgowshire, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom James Glasgow linked to Glasgow-3526 as a possible identity: James Glasgow born 1688 at Kirknewton, father of Helen (baptised 24 Oct 1714, 14 months after this marriage), John (1717) and later children at Kirknewton and East Calder; chronology and parish fit. The baptism entries do not name the mother and the catalogue records no spouse, so Margaret Cruikshanks is not matched; no concrete conflict was found against this profile.",
+    "profiles": {
+      "Glasgow-3526": {
+        "role": "Possible identity: groom; groom at Kirknewton; fits the Kirknewton James whose children are baptised from 1714",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1700,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/518177",
+      "basis": "Marriage 7 Aug 1713; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 7 Aug 1713"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+  },
+  {
+    "record_id": "ancestry-60144-845556",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/845556",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Robert Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "Robert Glasgow",
+    "event_role": "groom",
+    "date": "1713",
+    "year": 1713,
+    "place": "Carnwath, Lanark, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/845556",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Robert Glasgow, 1713, Carnwath, Lanark, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Robert Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "1713",
+      "Marriage Place": "Carnwath, Lanark, Scotland",
+      "Spouse": "Katherine Wilson"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Robert Glasgow married Katherine Wilson on 1713 at Carnwath, Lanark, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom Robert Glasgow linked to Glasgow-3407 as a probable identity: born 1690 at Carnwath, and the catalogue already gives his wife as Katherine (Wilson) Glasgow, matching the indexed spouse Katherine Wilson; the existing account carnwath-robert-wilson-marriage-1713 is the same marriage (compatible indexed groom). Their Libberton child John was baptised in 1722.",
+    "profiles": {
+      "Glasgow-3407": {
+        "role": "Probable identity: groom; groom at Carnwath; wife Katherine Wilson matches the catalogue wife",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Wilson-127539": {
+        "role": "Probable identity: spouse named Katherine Wilson",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1700,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/845556",
+      "basis": "Marriage 1713; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 1713"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "carnwath-robert-wilson-marriage-1713"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-946580",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/946580",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Robert Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "Robert Glasgow",
+    "event_role": "groom",
+    "date": "6 May 1715",
+    "year": 1715,
+    "place": "West Kilbride, Ayr, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/946580",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Robert Glasgow, 6 May 1715, West Kilbride, Ayr, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Robert Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "6 May 1715",
+      "Marriage Place": "West Kilbride, Ayr, Scotland",
+      "Spouse": "Mary Simson"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Robert Glasgow married Mary Simson on 6 May 1715 at West Kilbride, Ayr, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Same couple (Robert Glasgow and Mary Simson) as the Kilwinning marriage of 3 Jun 1715 (records 1233212 and 4109206) already linked to Glasgow-1068 (Robert, baptised before 1678 at Kilwinning, wife Mary (Simpson) Glasgow, children baptised at Kilwinning 1716, 1719, 1722). The West Kilbride entry is a month earlier in the neighbouring parish and is read as the same marriage entered twice; the identity stays qualified as for the Kilwinning rows.",
+    "profiles": {
+      "Glasgow-1068": {
+        "role": "Possible identity: groom; groom Robert; same couple as the Kilwinning entries already linked to this profile",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      },
+      "Simpson-18136": {
+        "role": "Possible identity: spouse named Mary Simson",
+        "assessment": "possible",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1702,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/946580",
+      "basis": "Marriage 6 May 1715; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 6 May 1715"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "ancestry-60144-1233212"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-642224",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/642224",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Thomas Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "Thomas Glasgow",
+    "event_role": "groom",
+    "date": "22 Jun 1716",
+    "year": 1716,
+    "place": "Kirkliston, West Lothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/642224",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Thomas Glasgow, 22 Jun 1716, Kirkliston, West Lothian, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Thomas Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "22 Jun 1716",
+      "Marriage Place": "Kirkliston, West Lothian, Scotland",
+      "Spouse": "Catharine Clerkson"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Thomas Glasgow married Catharine Clerkson on 22 Jun 1716 at Kirkliston, West Lothian, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom Thomas Glasgow linked to Glasgow-1226 as a probable identity: the catalogue already gives his wife as Catherine Clarkson, and the existing account kirkliston-thomas-clerkson-banns-1716 is the same marriage (groom resident at Uphall); their children are baptised at Uphall and Livingston from 1717.",
+    "profiles": {
+      "Glasgow-1226": {
+        "role": "Probable identity: groom; groom at Kirkliston; wife Catharine Clerkson matches the catalogue wife",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Clarkson-2169": {
+        "role": "Probable identity: spouse named Catharine Clerkson",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1703,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/642224",
+      "basis": "Marriage 22 Jun 1716; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 22 Jun 1716"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "kirkliston-thomas-clerkson-banns-1716"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-519647",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/519647",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Andrew Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "Andrew Glasgow",
+    "event_role": "groom",
+    "date": "11 Jun 1731",
+    "year": 1731,
+    "place": "Kirknewton, Linlithgowshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/519647",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Andrew Glasgow, 11 Jun 1731, Kirknewton, Linlithgowshire, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Andrew Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "11 Jun 1731",
+      "Marriage Place": "Kirknewton, Linlithgowshire, Scotland",
+      "Spouse": "Janet Henderson"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Andrew Glasgow married Janet Henderson on 11 Jun 1731 at Kirknewton, Linlithgowshire, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom Andrew Glasgow linked to Glasgow-1313 (baptised 21 Nov 1703 at Kirknewton, aged 27) as a possible identity: chronology and parish fit and the catalogue records no spouse or other marriage for him; no concrete conflict was found. Two other Kirknewton Andrews were considered and kept as alternatives, not ruled out on a concrete conflict: Glasgow-1336 (baptised 19 Nov 1714; he married Isobel Clerk five months later, 19 Nov 1731) and Glasgow-1546 (about 1685, wife Christian Cook, nine children).",
+    "profiles": {
+      "Glasgow-1313": {
+        "role": "Possible identity: groom; groom Andrew at Kirknewton; baptised there 1703; no spouse recorded",
+        "assessment": "possible",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1718,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/519647",
+      "basis": "Marriage 11 Jun 1731; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 11 Jun 1731"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+  },
+  {
+    "record_id": "ancestry-60144-466991",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/466991",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "John Glasgow — groom; Scotland, Select Marriages, 1561-1910",
+    "person": "John Glasgow",
+    "event_role": "groom",
+    "date": "23 Jun 1738",
+    "year": 1738,
+    "place": "Penicuik, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/466991",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — John Glasgow, 23 Jun 1738, Penicuik, Midlothian, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; identity linked to catalogue profile",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "23 Jun 1738",
+      "Marriage Place": "Penicuik, Midlothian, Scotland",
+      "Spouse": "Magdalen Guthrie"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: John Glasgow married Magdalen Guthrie on 23 Jun 1738 at Penicuik, Midlothian, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. groom John Glasgow linked to Glasgow-81 as a probable identity: the catalogue already gives his wife as Magdalene (Guthrie) Glasgow, matching the indexed spouse Magdalen Guthrie, and the existing account penicuik-john-magdalene-guthrie-marriage-1738 is the same marriage; the couple's children are baptised at West Calder from 1745 to 1753.",
+    "profiles": {
+      "Glasgow-81": {
+        "role": "Probable identity: groom; groom at Penicuik; wife Magdalen Guthrie matches the catalogue wife",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Guthrie-777": {
+        "role": "Probable identity: spouse named Magdalen Guthrie",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1725,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/466991",
+      "basis": "Marriage 23 Jun 1738; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 23 Jun 1738"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "penicuik-john-magdalene-guthrie-marriage-1738"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-4300887",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/4300887",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Isobel Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Isobel Glasgow",
+    "event_role": "bride",
+    "date": "1744",
+    "year": 1744,
+    "place": "Covington and Thankerton, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4300887",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Isobel Glasgow, 1744, Covington and Thankerton, Lanarkshire, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; held draft person",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Isobel Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "1744",
+      "Marriage Place": "Covington and Thankerton, Lanarkshire, Scotland",
+      "Spouse": "James Purdie"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Isobel Glasgow married James Purdie on 1744 at Covington and Thankerton, Lanarkshire, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Second index copy of the Covington and Thankerton marriage of 1744 (Isobel Glasgow and James Purdie), record 2561638, held draft record-ancestry-glasgow-d83b624a660b; the fuller transcript names the groom James Purdie. Parent entries for the children of Isobel Glasgow and James Purdie are already held (Elizabeth, Catharin, William, John).",
+    "profiles": {
+      "record-ancestry-glasgow-d83b624a660b": {
+        "role": "Documentary identity: bride; documentary bride; second index copy of record 2561638",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1731,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4300887",
+      "basis": "Marriage 1744; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 1744"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "ancestry-60144-2561638"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-540103",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/540103",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Agnes Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Agnes Glasgow",
+    "event_role": "bride",
+    "date": "16 Aug 1748",
+    "year": 1748,
+    "place": "Kilmarnock, Ayr, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/540103",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Agnes Glasgow, 16 Aug 1748, Kilmarnock, Ayr, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; held draft person",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Agnes Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "16 Aug 1748",
+      "Marriage Place": "Kilmarnock, Ayr, Scotland",
+      "Spouse": "James Taylor"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Agnes Glasgow married James Taylor on 16 Aug 1748 at Kilmarnock, Ayr, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Same couple (Agnes Glasgow and James Taylor/Taylour) as the Kilwinning marriage of 15 Aug 1748 (record 2415544), held draft record-ancestry-glasgow-5d9f30275eea; one day apart, read as one marriage indexed under two parishes. The fuller transcript names the groom James Taylor.",
+    "profiles": {
+      "record-ancestry-glasgow-5d9f30275eea": {
+        "role": "Documentary identity: bride; documentary bride; same couple as the 15 Aug 1748 Kilwinning entry",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1735,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/540103",
+      "basis": "Marriage 16 Aug 1748; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 16 Aug 1748"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "ancestry-60144-2415544"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-58450",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/58450",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Janet Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Janet Glasgow",
+    "event_role": "bride",
+    "date": "28 Apr 1715",
+    "year": 1715,
+    "place": "Gordon, Berwick, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/58450",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Janet Glasgow, 28 Apr 1715, Gordon, Berwick, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; held draft person",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Janet Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "28 Apr 1715",
+      "Marriage Place": "Gordon, Berwick, Scotland",
+      "Spouse": "Thomas Gray"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Janet Glasgow married Thomas Gray on 28 Apr 1715 at Gordon, Berwick, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Held draft person record-ancestry-glasgow-840a0b08c3ae (identity_hold): 1 compatible catalogue person remains and none is preferred; see the draft's research notes.",
+    "profiles": {
+      "record-ancestry-glasgow-840a0b08c3ae": {
+        "role": "Documentary subject: bride",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1702,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/58450",
+      "basis": "Marriage 28 Apr 1715; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 28 Apr 1715"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+  },
+  {
+    "record_id": "ancestry-60144-58477",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/58477",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Janet Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Janet Glasgow",
+    "event_role": "bride",
+    "date": "19 Feb 1716",
+    "year": 1716,
+    "place": "Gordon, Berwick, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/58477",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Janet Glasgow, 19 Feb 1716, Gordon, Berwick, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; held draft person",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Janet Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "19 Feb 1716",
+      "Marriage Place": "Gordon, Berwick, Scotland",
+      "Spouse": "Thomas Gray"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Janet Glasgow married Thomas Gray on 19 Feb 1716 at Gordon, Berwick, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Held draft person record-ancestry-glasgow-840a0b08c3ae (identity_hold): 1 compatible catalogue person remains and none is preferred; see the draft's research notes. Second index entry for the same couple (see 58450).",
+    "profiles": {
+      "record-ancestry-glasgow-840a0b08c3ae": {
+        "role": "Documentary subject: bride",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1703,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/58477",
+      "basis": "Marriage 19 Feb 1716; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 19 Feb 1716"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+  },
+  {
+    "record_id": "ancestry-60144-884081",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/884081",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Joanet Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Joanet Glasgow",
+    "event_role": "bride",
+    "date": "28 Jul 1715",
+    "year": 1715,
+    "place": "Govan, Lanark, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/884081",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Joanet Glasgow, 28 Jul 1715, Govan, Lanark, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; held draft person",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Joanet Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "28 Jul 1715",
+      "Marriage Place": "Govan, Lanark, Scotland",
+      "Spouse": "James Macklame"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Joanet Glasgow married James Macklame on 28 Jul 1715 at Govan, Lanark, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Held draft person record-ancestry-glasgow-d792e8f0e23a (identity_hold): 1 compatible catalogue person remains and none is preferred; see the draft's research notes.",
+    "profiles": {
+      "record-ancestry-glasgow-d792e8f0e23a": {
+        "role": "Documentary subject: bride",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1702,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/884081",
+      "basis": "Marriage 28 Jul 1715; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 28 Jul 1715"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+  },
+  {
+    "record_id": "ancestry-60144-825225",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/825225",
+    "collection": "Scotland, Select Marriages, 1561-1910",
+    "association": "Jean Glasgow — bride; Scotland, Select Marriages, 1561-1910",
+    "person": "Jean Glasgow",
+    "event_role": "bride",
+    "date": "30 May 1746",
+    "year": 1746,
+    "place": "Dalkeith, Midlothian, Scotland",
+    "country": "Scotland",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/825225",
+    "source_title": "Scotland, Select Marriages, 1561-1910 — Jean Glasgow, 30 May 1746, Dalkeith, Midlothian, Scotland",
+    "source_type": "Provider index transcript",
+    "record_type": "Marriage index",
+    "record_category": "Marriage",
+    "status": "Provider index transcript; held draft person",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+    "source_level": "inspected transcript",
+    "indexed_facts": {
+      "Name": "Jean Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "30 May 1746",
+      "Marriage Place": "Dalkeith, Midlothian, Scotland",
+      "Spouse": "William Alexander"
+    },
+    "note": "Ancestry Scotland, Select Marriages, 1561-1910 index entry: Jean Glasgow married William Alexander on 30 May 1746 at Dalkeith, Midlothian, Scotland. Index transcript only (FamilySearch index of Scottish parish registers); the original register has not been inspected. Held draft person record-ancestry-glasgow-1f1e99c5b87c (identity_hold): 11 compatible catalogue people remain and none is preferred; see the draft's research notes.",
+    "profiles": {
+      "record-ancestry-glasgow-1f1e99c5b87c": {
+        "role": "Documentary subject: bride",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "historical_basis": {
+      "latest_birth_year": 1733,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/825225",
+      "basis": "Marriage 30 May 1746; publication requires a birth more than 120 years ago.",
+      "explanation": "Marriage 30 May 1746"
+    },
+    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-EH4.csv and EH4 transcription",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   }
 ]

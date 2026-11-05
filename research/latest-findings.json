@@ -81107,6 +81107,1765 @@
         "research/canonical_records.json",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-covington-and-thankerton-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Covington and Thankerton against the Ancestry Scotland, Select Births and Baptisms index: 2 assessments changed and 3 father/mother links gained the matching entry in their basis with the percentage unchanged. 2 mother links that were attached only through the WikiTree tree now carry a record-based assessment (Marion Glasgow 90% proved; William Glasgow 90% proved). Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1121.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1121",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-1121.html",
+          "role": "Child; mother Agnes Williamson 90% proved"
+        },
+        {
+          "id": "Glasgow-1124",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1124.html",
+          "role": "Child; mother Agnes Williamson 90% proved"
+        },
+        {
+          "id": "Glasgow-1070",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1070.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — James Glasgow, 21 May 1738, Covington and Thankerton",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/15441533"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Marion Glasgow, 6 Apr 1740, Covington and Thankerton",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/26485000"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Robert Glasgow, 12 Dec 1742, Covington and Thankerton",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/18855852"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, Nov 1747, Covington and Thankerton",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/27393759"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1121",
+          "relative": "Williamson-12853",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for Marion Glasgow, 6 Apr 1740 at Covington and Thankerton (https://www.ancestry.co.uk/search/collections/60143/records/26485000), names father George Glasgow and mother Agnes Williamson. Agnes Williamson is recorded in the catalogue as the wife of George Glasgow (the father named in the entry), so the entry names the catalogue couple. The same parents recur in the parish index: James 21 May 1738 (https://www.ancestry.co.uk/search/collections/60143/records/15441533), Robert 12 Dec 1742 (https://www.ancestry.co.uk/search/collections/60143/records/18855852), Agnes 23 Dec 1744 (https://www.ancestry.co.uk/search/collections/60143/records/3769106), William Nov 1747 (https://www.ancestry.co.uk/search/collections/60143/records/27393759), Bessie 30 Jun 1750 (https://www.ancestry.co.uk/search/collections/60143/records/3769002). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Agnes Williamson as Marion Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        },
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1124",
+          "relative": "Williamson-12853",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, Nov 1747 at Covington and Thankerton (https://www.ancestry.co.uk/search/collections/60143/records/27393759), names father George Glasgow and mother Agnes Williamson. Agnes Williamson is recorded in the catalogue as the wife of George Glasgow (the father named in the entry), so the entry names the catalogue couple. The same parents recur in the parish index: James 21 May 1738 (https://www.ancestry.co.uk/search/collections/60143/records/15441533), Marion 6 Apr 1740 (https://www.ancestry.co.uk/search/collections/60143/records/26485000), Robert 12 Dec 1742 (https://www.ancestry.co.uk/search/collections/60143/records/18855852), Agnes 23 Dec 1744 (https://www.ancestry.co.uk/search/collections/60143/records/3769106), Bessie 30 Jun 1750 (https://www.ancestry.co.uk/search/collections/60143/records/3769002). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Agnes Williamson as William Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-dundonald-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Dundonald against the Ancestry Scotland, Select Births and Baptisms index: 1 assessment changed and 0 father/mother links gained the matching entry in their basis with the percentage unchanged. Father change: William Glasgow 52% to 60%.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-4101.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-4101",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-4101.html",
+          "role": "Child; father William Glasgow 60% probable"
+        },
+        {
+          "id": "Glasgow-3586",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3586.html",
+          "role": "Father tested"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 12 Jun 1733, Dundonald",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/15153407"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-4101",
+          "relative": "Glasgow-3586",
+          "action": "reassess",
+          "before": "possible",
+          "after": "probable",
+          "probability_percent": 60,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 12 June 1733 at Dundonald (https://www.ancestry.co.uk/search/collections/60143/records/15153407), carries a father field reading only 'Glasgow' (no forename) beside mother Barbara Stevenson. The earlier assessment rested on a Findmypast transcript with no father field at all; the Ancestry index shows a Glasgow father was indexed, which removes the objection that the 1733 baptism may have been recorded without a father. Barbara Stevenson is recorded in the catalogue as the wife of William Glasgow-3586, the weaver named in Jean's baptism of 1 October 1732 (https://www.ancestry.co.uk/search/collections/60143/records/10876670), and the boy's name agrees with the proposed father. The father's forename is still not given, the pairing of William and Barbara is a tree pairing not traced to a marriage record, and the 254-day spacing from Jean's baptism remains unexplained, so the confidence rises only from 52% to 60% (probable). Earlier reasoning retained: Select William Glasgow-3586, the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as William Glasgow-4101’s possible f",
+          "previous_status_provenance": "Assessment of 2026-10-21: 52% possible. Select William Glasgow-3586, the weaver at Achenyeards named as Jean’s father in the 1 October 1732 Dundonald baptism, as William Glasgow-4101’s possible father at 52% subjective confidence. The specific existing local household offers a more useful working placement than leaving the 1733 child isolated: the children share the uncommon surname and parish, their entries occur on nearby pages of the",
+          "previous_probability_percent": 52
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-father-links-tested-other-parishes-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Ayr, Currie, Edinburgh Parish, Edrom, Glencorse, Kilmarnock, Kirknewton and East Calder, North Leith, Penicuik, Uphall against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 20 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-3052.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3052",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3052.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1336",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1336.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1546",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1546.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1547",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1547.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-3011",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3011.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1342",
+          "name": "Alexander William Glasgow",
+          "url": "/people/glasgow-1342.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-3408",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3408.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1238",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1238.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1242",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1242.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1929",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1929.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "McEachin-120",
+          "name": "Margaret (McEachin) Glasgow",
+          "url": "/people/mceachin-120.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-3103",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3103.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Alexander Glasgow, 9 Mar 1741, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11125655"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Alexander Glasgow, 7 Jun 1747, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/8132282"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Andrew Glasgow, 19 Nov 1714, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/7445632"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 27 May 1709, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11966754"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Robert Glasgow, 13 Feb 1735, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/5907305"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Christian Glasgow, 15 Feb 1708, Glencorse",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6978463"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Isobell Glasgow, 26 Dec 1714, Glencorse",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/19956885"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — James Glasgow, 14 Feb 1720, Glencorse",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/21098483"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 1 Jan 1710, Glencorse",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/16899657"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Janet Glasgow, 4 Jun 1745, Currie",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12159734"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 6 Nov 1730, Ayr",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/10104966"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 8 Jun 1740, Edrom",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/7380276"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Philip Glasgow, 3 Jun 1711, Uphall",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/5215019"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 11 Apr 1744, Kilmarnock",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/1499926"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Hugh Glasgow, 29 Aug 1742, Kilmarnock",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/26465540"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 31 Aug 1738, Kilmarnock",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/26495858"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 17 Dec 1732, Kilmarnock",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/14232360"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — McKenzie Glasgow, 17 Dec 1734, North Leith",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/3379516"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Robert Glasgow, 7 Jan 1703, Edinburgh Parish",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/2481998"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 16 Apr 1743, Penicuik",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/442311"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-irvine-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Irvine against the Ancestry Scotland, Select Births and Baptisms index: 1 assessment changed and 10 father/mother links gained the matching entry in their basis with the percentage unchanged. 1 mother links that were attached only through the WikiTree tree now carry a record-based assessment (Elizabeth Glasgow 90% proved). Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1418.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1418",
+          "name": "Elizabeth Glasgow",
+          "url": "/people/glasgow-1418.html",
+          "role": "Child; mother Elizabeth Garven 90% proved"
+        },
+        {
+          "id": "Garven-52",
+          "name": "Elizabeth Garven",
+          "url": "/people/garven-52.html",
+          "role": "Mother tested"
+        },
+        {
+          "id": "Glasgow-1058",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1058.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1473",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1473.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1077",
+          "name": "John Glasgow MA",
+          "url": "/people/glasgow-1077.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1067",
+          "name": "Hew Glasgow",
+          "url": "/people/glasgow-1067.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-2474",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2474.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1410",
+          "name": "Michael Glasgow",
+          "url": "/people/glasgow-1410.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Andrew Glasgow, 22 May 1733, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/15973105"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Elizabeth Glasgow, 24 Jul 1737, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/14510115"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Grizal Glasgow, 17 May 1719, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/2667202"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Hugh Glasgow, 9 Mar 1736, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/25081197"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Hugh Glasgow, 8 Dec 1713, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6614083"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Janet Glasgow, 11 Jul 1738, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11809449"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 30 Mar 1740, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11809291"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 5 Oct 1738, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/8126993"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Michael Glasgow, 22 Nov 1741, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/25262975"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Robert Glasgow, 7 Jun 1747, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/5676847"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Elizabeth Glasgow, 1700, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6223340"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1418",
+          "relative": "Garven-52",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for Elizabeth Glasgow, 1700 at Irvine (https://www.ancestry.co.uk/search/collections/60143/records/6223340), names father Michael Glasgow and mother Elizabeth Garven. Elizabeth Garven is recorded in the catalogue as the wife of Michael Glasgow (the father named in the entry), so the entry names the catalogue couple. The same parents recur in the parish index: Katharine 3 Aug 1749 (https://www.ancestry.co.uk/search/collections/60143/records/8811194). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Elizabeth Garven as Elizabeth Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-kilbirnie-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Kilbirnie against the Ancestry Scotland, Select Births and Baptisms index: 1 assessment changed and 0 father/mother links gained the matching entry in their basis with the percentage unchanged. 1 mother links that were attached only through the WikiTree tree now carry a record-based assessment (John Glasgow 90% proved).",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-3551.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3551",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3551.html",
+          "role": "Child; mother Margaret Scott 90% proved"
+        },
+        {
+          "id": "Scott-40313",
+          "name": "Margaret Scott",
+          "url": "/people/scott-40313.html",
+          "role": "Mother tested"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 3 May 1713, Kilbirnie",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12060099"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-3551",
+          "relative": "Scott-40313",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for John Glasgow, 3 May 1713 at Kilbirnie (https://www.ancestry.co.uk/search/collections/60143/records/12060099), names father John Glasgow and mother Margarat Scot. Margaret Scott is recorded in the catalogue as the wife of John Glasgow M.A (the father named in the entry), so the entry names the catalogue couple. The index spelling Margarat Scot is read as a variant of Margaret Scott. The same parents recur in the parish index: Jean 3 Apr 1715 (https://www.ancestry.co.uk/search/collections/60143/records/2306321), John 22 Sep 1717 (https://www.ancestry.co.uk/search/collections/60143/records/10171854). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Margaret Scott as John Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-kilwinning-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Kilwinning against the Ancestry Scotland, Select Births and Baptisms index: 3 assessments changed and 12 father/mother links gained the matching entry in their basis with the percentage unchanged. 3 mother links that were attached only through the WikiTree tree now carry a record-based assessment (George Glasgow 90% proved; Hugh Glasgow 90% proved; Jean Glasgow 90% proved). Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1070.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1070",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1070.html",
+          "role": "Child; mother Mary (Simpson) Glasgow 90% proved"
+        },
+        {
+          "id": "Simpson-18136",
+          "name": "Mary (Simpson) Glasgow",
+          "url": "/people/simpson-18136.html",
+          "role": "Mother tested"
+        },
+        {
+          "id": "Glasgow-1071",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1071.html",
+          "role": "Child; mother Mary (Simpson) Glasgow 90% proved"
+        },
+        {
+          "id": "Glasgow-1072",
+          "name": "Jean Glasgow",
+          "url": "/people/glasgow-1072.html",
+          "role": "Child; mother Mary (Simpson) Glasgow 90% proved"
+        },
+        {
+          "id": "Glasgow-1065",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1065.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1927",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1927.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1058",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1058.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Alexander Glasgow, 29 Nov 1710, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/10385683"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Andrew Glasgow, 25 Jan 1712, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/26671483"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — George Glasgow, 20 Jul 1729, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12985017"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Hugh Glasgow, 5 Feb 1710, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/17620473"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — James Glasgow, 12 Mar 1707, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11797031"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 19 Dec 1703, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/19616509"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 6 Mar 1720, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/3283276"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 10 Aug 1712, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/19599329"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 12 Sep 1714, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/8488620"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 13 Nov 1723, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/8488914"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 25 Jul 1717, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/3283339"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Sarah Glasgow, 20 Feb 1726, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/4290684"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — George Glasgow, 9 Oct 1719, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/5981579"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Hugh Glasgow, 5 Aug 1716, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/10425427"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Jean Glasgow, 11 Nov 1722, Kilwinning",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6658843"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1070",
+          "relative": "Simpson-18136",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for George Glasgow, 9 Oct 1719 at Kilwinning (https://www.ancestry.co.uk/search/collections/60143/records/5981579), names father Robert Glasgow and mother Mary Simson. Mary (Simpson) Glasgow is recorded in the catalogue as the wife of Robert Glasgow (the father named in the entry), so the entry names the catalogue couple. The index spelling Mary Simson is read as a variant of Mary (Simpson) Glasgow. The same parents recur in the parish index: Hugh 5 Aug 1716 (https://www.ancestry.co.uk/search/collections/60143/records/10425427), Jean 11 Nov 1722 (https://www.ancestry.co.uk/search/collections/60143/records/6658843). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Mary (Simpson) Glasgow as George Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        },
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1071",
+          "relative": "Simpson-18136",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for Hugh Glasgow, 5 Aug 1716 at Kilwinning (https://www.ancestry.co.uk/search/collections/60143/records/10425427), names father Robert Glasgow and mother Mary Simson. Mary (Simpson) Glasgow is recorded in the catalogue as the wife of Robert Glasgow (the father named in the entry), so the entry names the catalogue couple. The index spelling Mary Simson is read as a variant of Mary (Simpson) Glasgow. The same parents recur in the parish index: George 9 Oct 1719 (https://www.ancestry.co.uk/search/collections/60143/records/5981579), Jean 11 Nov 1722 (https://www.ancestry.co.uk/search/collections/60143/records/6658843). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Mary (Simpson) Glasgow as Hugh Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        },
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1072",
+          "relative": "Simpson-18136",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 11 Nov 1722 at Kilwinning (https://www.ancestry.co.uk/search/collections/60143/records/6658843), names father Robert Glasgow and mother Mary Simson. Mary (Simpson) Glasgow is recorded in the catalogue as the wife of Robert Glasgow (the father named in the entry), so the entry names the catalogue couple. The index spelling Mary Simson is read as a variant of Mary (Simpson) Glasgow. The same parents recur in the parish index: Hugh 5 Aug 1716 (https://www.ancestry.co.uk/search/collections/60143/records/10425427), George 9 Oct 1719 (https://www.ancestry.co.uk/search/collections/60143/records/5981579). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Mary (Simpson) Glasgow as Jean Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-libberton-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Libberton against the Ancestry Scotland, Select Births and Baptisms index: 1 assessment changed and 0 father/mother links gained the matching entry in their basis with the percentage unchanged. 1 mother links that were attached only through the WikiTree tree now carry a record-based assessment (John Glasgow 90% proved).",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-2870.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2870",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2870.html",
+          "role": "Child; mother Katherine (Wilson) Glasgow 90% proved"
+        },
+        {
+          "id": "Wilson-127539",
+          "name": "Katherine (Wilson) Glasgow",
+          "url": "/people/wilson-127539.html",
+          "role": "Mother tested"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 23 Sep 1722, Libberton",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/18844739"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-2870",
+          "relative": "Wilson-127539",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for John Glasgow, 23 Sep 1722 at Libberton (https://www.ancestry.co.uk/search/collections/60143/records/18844739), names father Robert Glasgow and mother Katharin Wilson. Katherine (Wilson) Glasgow is recorded in the catalogue as the wife of Robert Glasgow (the father named in the entry), so the entry names the catalogue couple. The index spelling Katharin Wilson is read as a variant of Katherine (Wilson) Glasgow. The same parents recur in the parish index: Janet 22 Apr 1718 (https://www.ancestry.co.uk/search/collections/60143/records/18885484), Agnis 21 Aug 1720 (https://www.ancestry.co.uk/search/collections/60143/records/24972731), Elizabeth 10 Jun 1726 (https://www.ancestry.co.uk/search/collections/60143/records/8882665). Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Katherine (Wilson) Glasgow as John Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-livingston-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Livingston against the Ancestry Scotland, Select Births and Baptisms index: 1 assessment changed and 2 father/mother links gained the matching entry in their basis with the percentage unchanged. 1 mother links that were attached only through the WikiTree tree now carry a record-based assessment (Andrew Glasgow 90% proved). Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1239.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1239",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-1239.html",
+          "role": "Child; mother Catherine Clarkson 90% proved"
+        },
+        {
+          "id": "Clarkson-2169",
+          "name": "Catherine Clarkson",
+          "url": "/people/clarkson-2169.html",
+          "role": "Mother tested"
+        },
+        {
+          "id": "Glasgow-1023",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1023.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Hendry Glasgow, 11 Dec 1743, Livingston",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/10028014"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 20 Dec 1747, Livingston",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12290635"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Andrew Glasgow, Jan 1730, Livingston",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/8526563"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1239",
+          "relative": "Clarkson-2169",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for Andrew Glasgow, Jan 1730 at Livingston (https://www.ancestry.co.uk/search/collections/60143/records/8526563), names father Thomas Glasgow and mother Cathrine Clerkson. Catherine Clarkson is recorded in the catalogue as the wife of Thomas Glasgow (the father named in the entry), so the entry names the catalogue couple. The index spelling Cathrine Clerkson is read as a variant of Catherine Clarkson. Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Catherine Clarkson as Andrew Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er4-scotland-1700-1749-stevenston-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1700-1749 and baptised at Stevenston against the Ancestry Scotland, Select Births and Baptisms index: 1 assessment changed and 2 father/mother links gained the matching entry in their basis with the percentage unchanged. 1 mother links that were attached only through the WikiTree tree now carry a record-based assessment (William Glasgow 90% proved). Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1055.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1055",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1055.html",
+          "role": "Child; mother Agnes (Spark) Glasgow 90% proved"
+        },
+        {
+          "id": "Spark-330",
+          "name": "Agnes (Spark) Glasgow",
+          "url": "/people/spark-330.html",
+          "role": "Mother tested"
+        },
+        {
+          "id": "Glasgow-1434",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1434.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Adam Glasgow, 20 Jan 1706, Stevenston",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/7347384"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 24 Jul 1701, Stevenston",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12827704"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 1701, Stevenston",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/16384297"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1055",
+          "relative": "Spark-330",
+          "action": "reassess",
+          "before": "unmarked",
+          "after": "certain",
+          "probability_percent": 90,
+          "explanation": "The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 1701 at Stevenston (https://www.ancestry.co.uk/search/collections/60143/records/16384297), names father John Glasgow and mother Agnas Spark. Agnes (Spark) Glasgow is recorded in the catalogue as the wife of John Glasgow (the father named in the entry), so the entry names the catalogue couple. The index spelling Agnas Spark is read as a variant of Agnes (Spark) Glasgow. Assessed separately from the father link at 90% (proved); the register names the mother but no age or marriage detail, and the father's link is not used to infer her.",
+          "previous_status_provenance": "Before 5 November 2026 the catalogue attached Agnes (Spark) Glasgow as William Glasgow's mother only through the WikiTree family tree, with no research assessment or percentage; none is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "era1699-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "kind": "relationship",
+      "finding": "Testing the father and mother links of the 210 catalogue people born 1650-1699 against every saved record dated 1650-1749: 281 distinct Scotland Select Births and Baptisms transcripts (68 dated 1650-1699), 94 Scotland Select Marriages rows and transcripts (36 dated 1650-1699, now including the EH3 harvest), and the inscription and christening-index captures. About 70 people have their own baptism among the 60143 transcripts, and in 63 of them the father named in the record agrees with the catalogue father (the other mismatches are same-name children of different parents). No saved record contradicts an attached father; the fathers' remaining doubt is identity (which man of that name), which these baptisms cannot settle, so no father percentage was raised on an index copy of an entry already cited. The new work is on mothers and holds: 22 mothers named in the same entries as already-assessed fathers now get their own assessments (6 at 90% proved, the rest 55-88%); the six Gordon children's Agnes Watt link, probable but unpercentaged, is set at 65%; three baptism holds (five index rows: the Edinburgh Jameses of 1679 and 1680 and the Kilwinning James of 1689) and four marriage holds (Kilwinning 1678, Edinburgh 1665, Kilbirnie 1690 and 1699) are joined to catalogue profiles. Three catalogue birth dates carry day and month swapped against the baptism (Glasgow-1473 baptised 8 Oct 1693, Glasgow-1440 4 Aug 1667, Glasgow-3106 1 Apr 1673).",
+      "status": "qualified",
+      "qualification": "Index transcripts of parish registers only; no register image was inspected. The Ancestry baptisms and marriages are second indexes of entries already cited from the Scotland's People/FamilySearch OPR indexes and are counted once. Mothers inferred from a marriage (Glasgow-1312, Glasgow-1314) or a family account (Glasgow-1056) are held at 55-62%. Persons whose mothers have no profile (Orr-7027 for Glasgow-1511) or whose parents come from inherited compilations (Virginia and Guernsey lines) have no saved 1650-1749 record and are untested. Children born 1700-1749 of these parents belong to the next era.",
+      "people": [
+        {
+          "id": "Glasgow-3104",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3104.html",
+          "role": "Child; mother Margaret (Park) Glasgow assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-3368",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3368.html",
+          "role": "Child; mother Isobell (Duffe) Glasgow assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-2681",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-2681.html",
+          "role": "Child; mother Isobell (Duffe) Glasgow assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-3103",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3103.html",
+          "role": "Child; mother Isobell (Duffe) Glasgow assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-1433",
+          "name": "Jannet Glasgow",
+          "url": "/people/glasgow-1433.html",
+          "role": "Child; mother Barbara (Allison) Glasgow assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-3092",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3092.html",
+          "role": "Child; mother Helen (Clerk) Glasgow assessed 85% probable"
+        },
+        {
+          "id": "Glasgow-1069",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-1069.html",
+          "role": "Child; mother Dean-11400 assessed 85% probable"
+        },
+        {
+          "id": "Glasgow-3116",
+          "name": "Alison Glasgow",
+          "url": "/people/glasgow-3116.html",
+          "role": "Child; mother Margaret (Purves) Glasgow assessed 70% probable"
+        },
+        {
+          "id": "Glasgow-3369",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3369.html",
+          "role": "Child; mother Margaret (Purves) Glasgow assessed 75% probable"
+        },
+        {
+          "id": "Glasgow-3079",
+          "name": "Archibald Glasgow",
+          "url": "/people/glasgow-3079.html",
+          "role": "Child; mother Agnes (Watson) Glasgow assessed 85% probable"
+        },
+        {
+          "id": "Glasgow-2714",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-2714.html",
+          "role": "Child; mother Agnes (Watson) Glasgow assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-2917",
+          "name": "Charles James Glasgow",
+          "url": "/people/glasgow-2917.html",
+          "role": "Child; mother Margaret (Currie) Glasgow assessed 85% probable"
+        },
+        {
+          "id": "Glasgow-3085",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3085.html",
+          "role": "Child; mother Margaret (Currie) Glasgow assessed 78% probable"
+        },
+        {
+          "id": "Glasgow-3076",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3076.html",
+          "role": "Child; mother Annapill (Glessie) Glasgow assessed 85% probable"
+        },
+        {
+          "id": "Glasgow-3091",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-3091.html",
+          "role": "Child; mother Annapill (Glessie) Glasgow assessed 82% probable"
+        },
+        {
+          "id": "Glasgow-3285",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-3285.html",
+          "role": "Child; mother Isobell (Duffe) Glasgow assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-1242",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1242.html",
+          "role": "Child; mother Agnes (Eastone) Glasgow assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-3143",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-3143.html",
+          "role": "Child; mother Agnes (Duncan) Glasgow assessed 88% proved"
+        },
+        {
+          "id": "Glasgow-3371",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3371.html",
+          "role": "Child; mother Jean (Service) Glasgow assessed 80% probable"
+        },
+        {
+          "id": "Glasgow-1056",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1056.html",
+          "role": "Child; mother Agnes (Spark) Glasgow assessed 55% possible"
+        },
+        {
+          "id": "Glasgow-1314",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1314.html",
+          "role": "Child; mother Margaret Glasgow assessed 62% probable"
+        },
+        {
+          "id": "Glasgow-1312",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-1312.html",
+          "role": "Child; mother Margaret Glasgow assessed 60% probable"
+        },
+        {
+          "id": "Park-8050",
+          "name": "Margaret (Park) Glasgow",
+          "url": "/people/park-8050.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Duffe-18",
+          "name": "Isobell (Duffe) Glasgow",
+          "url": "/people/duffe-18.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Allison-6866",
+          "name": "Barbara (Allison) Glasgow",
+          "url": "/people/allison-6866.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Clerk-460",
+          "name": "Helen (Clerk) Glasgow",
+          "url": "/people/clerk-460.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Dean-11400",
+          "name": "Dean-11400",
+          "url": "/people/dean-11400.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Purves-614",
+          "name": "Margaret (Purves) Glasgow",
+          "url": "/people/purves-614.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Watson-45727",
+          "name": "Agnes (Watson) Glasgow",
+          "url": "/people/watson-45727.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Currie-4998",
+          "name": "Margaret (Currie) Glasgow",
+          "url": "/people/currie-4998.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Glessie-1",
+          "name": "Annapill (Glessie) Glasgow",
+          "url": "/people/glessie-1.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Eastone-3",
+          "name": "Agnes (Eastone) Glasgow",
+          "url": "/people/eastone-3.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Duncan-16106",
+          "name": "Agnes (Duncan) Glasgow",
+          "url": "/people/duncan-16106.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Service-456",
+          "name": "Jean (Service) Glasgow",
+          "url": "/people/service-456.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Spark-330",
+          "name": "Agnes (Spark) Glasgow",
+          "url": "/people/spark-330.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Smith-230509",
+          "name": "Margaret Glasgow",
+          "url": "/people/smith-230509.html",
+          "role": "Mother assessed separately from the father link"
+        },
+        {
+          "id": "Glasgow-3117",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3117.html",
+          "role": "Gordon child; Agnes Watt mother link now 65% probable"
+        },
+        {
+          "id": "Glasgow-1440",
+          "name": "Patrick Glasgow",
+          "url": "/people/glasgow-1440.html",
+          "role": "Gordon child; Agnes Watt mother link now 65% probable"
+        },
+        {
+          "id": "Glasgow-3364",
+          "name": "Jean Glasgow",
+          "url": "/people/glasgow-3364.html",
+          "role": "Gordon child; Agnes Watt mother link now 65% probable"
+        },
+        {
+          "id": "Glasgow-3106",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3106.html",
+          "role": "Gordon child; Agnes Watt mother link now 65% probable"
+        },
+        {
+          "id": "Glasgow-3363",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3363.html",
+          "role": "Gordon child; Agnes Watt mother link now 65% probable"
+        },
+        {
+          "id": "Glasgow-3365",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3365.html",
+          "role": "Gordon child; Agnes Watt mother link now 65% probable"
+        },
+        {
+          "id": "Watt-5185",
+          "name": "Agnes (Watt) Glasgow",
+          "url": "/people/watt-5185.html",
+          "role": "Agnes Watt, wife of James Glasgow-3107; married at Polwarth 18 June 1663"
+        },
+        {
+          "id": "Glasgow-3105",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3105.html",
+          "role": "Father in the 1689 Kilwinning baptism, hold resolved"
+        },
+        {
+          "id": "Glasgow-2682",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-2682.html",
+          "role": "Father in the Edinburgh baptisms of 1679 and 1680, holds resolved"
+        },
+        {
+          "id": "Glasgow-1073",
+          "name": "John Glasgow M.A",
+          "url": "/people/glasgow-1073.html",
+          "role": "Groom in the Kilbirnie marriages of 14 January 1690 and 19 April 1699, holds resolved"
+        },
+        {
+          "id": "Glasgow-1152",
+          "name": "Allexander Glasgow",
+          "url": "/people/glasgow-1152.html",
+          "role": "Groom in the Edinburgh marriage of 16 June 1665"
+        },
+        {
+          "id": "Cunningham-20924",
+          "name": "Jean (Cunningham) Glasgow",
+          "url": "/people/cunningham-20924.html",
+          "role": "Bride, Kilbirnie 1690"
+        },
+        {
+          "id": "Scott-40313",
+          "name": "Margaret Scott",
+          "url": "/people/scott-40313.html",
+          "role": "Bride, Kilbirnie 1699"
+        },
+        {
+          "id": "Gardiner-6839",
+          "name": "Jean (Gardiner) Glasgow",
+          "url": "/people/gardiner-6839.html",
+          "role": "Bride, Kilwinning 1678"
+        },
+        {
+          "id": "Anderson-56713",
+          "name": "Issobell Glasgow",
+          "url": "/people/anderson-56713.html",
+          "role": "Bride, Edinburgh 1665"
+        },
+        {
+          "id": "Glasgow-4114",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-4114.html",
+          "role": "Edinburgh apprentice of 1696; identity with Glasgow-3368 left open"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564-1950 (FamilySearch index of parish registers)",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Marriages, 1561-1910 (FamilySearch index of parish registers)",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/"
+        }
+      ],
+      "detail_url": "/people/glasgow-3104.html#research-findings",
+      "provenance": [
+        "research/canonical_records.json",
+        "research/relationship_assessments.json"
+      ]
+    },
+    {
+      "id": "er5-india-9898-9899-john-blyth-and-eliza-corbitt-glasgow-fathers-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "Two Ancestry India burial entries that name a father were re-read against the saved India baptism entries. (1) John Blyth Glasgow, buried 12 Jan 1829 at Cawnpore with father William Glasgow Esq. (9898/90749), is the same child as John Blythe Glasgow, born 7 Jan 1829 at Budgerow and baptised 9 Jan 1829, son of William Glasgow and Amelia (9899/76113): a newborn buried five days after birth. That rules out the adult John Glasgows (for example Glasgow-1326, born 1797 to William and Catharine Nisbet) that the burial entry had listed as compatible, because the baptism names a different mother and a baby. The same 9899 entries show the household of William Glasgow and Amelia in Bengal: William born 6 Sep 1825 at Barrackpore, Amelia Magdalene born 22 Nov 1830 at Etawah, Eliza Graves born 5 Aug 1836 at Serampore, Harrietta Fordyce born 11 Oct 1838 at Dehra and George Thomas James Dennis born 6 Sep 1840. Amelia Magdalene fits Amelia Magdaline (Glasgow) Belson, Glasgow-482 (born 1830, died Cawnpore 1857), whose parents are not yet in the catalogue; the match is held for identity review and no parent link is made. (2) Eliza Corbitt Glasgow, buried 27 May 1845 at Rajkote aged 0 with father A.D Glasgow (9898/310212), fits Adam Dickie Glasgow, Glasgow-1781 (born 1815, died Dunedin 1863), whose sons William Thompson (born about 1843 in India) and James McClure (born 1850 in Gujarat) were born in the same region; his brother James McClure Glasgow, Glasgow-1780, also had children at Rajkot in 1841 to 1848, so the initials and place agree with Adam Dickie rather than with his brother. This is a probable but unproved attachment: the entry gives no mother, the middle name Corbitt is not explained in the catalogue, and the child was born after 1800, so no relationship assessment was recorded.",
+      "qualification": "Index transcripts only; original registers uninspected. The identification of the baby John Blythe with the burial rests on name, dates three to five days apart and the neighbouring places; the father of both is only 'William Glasgow' and has no catalogue profile. The Eliza Corbitt attachment rests on initials and region.",
+      "detail_url": "/people/glasgow-482.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-482",
+          "name": "Amelia Magdaline (Glasgow) Belson",
+          "url": "/people/glasgow-482.html",
+          "role": "Candidate for the 1830 Etawah baptism; parents not yet catalogued"
+        },
+        {
+          "id": "Glasgow-1781",
+          "name": "Adam Dickie Glasgow",
+          "url": "/people/glasgow-1781.html",
+          "role": "Probable A.D Glasgow, father of the Rajkote burial of 1845"
+        },
+        {
+          "id": "Glasgow-1326",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1326.html",
+          "role": "Ruled out as the John Blyth Glasgow buried at Cawnpore in 1829"
+        }
+      ],
+      "sources": [
+        {
+          "title": "India, Select Deaths and Burials, 1719-1948 — John Blyth Glasgow, 12 Jan 1829, Cawnpore",
+          "url": "https://www.ancestry.co.uk/search/collections/9898/records/90749"
+        },
+        {
+          "title": "India, Select Births and Baptisms, 1786-1947 — John Blythe Glasgow, 9 Jan 1829, Budgerow",
+          "url": "https://www.ancestry.co.uk/search/collections/9899/records/76113"
+        },
+        {
+          "title": "India, Select Births and Baptisms, 1786-1947 — Amelia Magdalene Glasgow, 27 Jul 1831, Etawah",
+          "url": "https://www.ancestry.co.uk/search/collections/9899/records/362341"
+        },
+        {
+          "title": "India, Select Deaths and Burials, 1719-1948 — Eliza Corbitt Glasgow, 27 May 1845, Rajkote",
+          "url": "https://www.ancestry.co.uk/search/collections/9898/records/310212"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-barony-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Barony against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 2 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1304.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1304",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1304.html",
+          "role": "Child; father link tested, 78% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1309",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1309.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1531",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-1531.html",
+          "role": "Child; father link tested, 84% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1530",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1530.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 19 Oct 1771, Barony",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/13757025"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 20 Mar 1790, Barony",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/8048199"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-bathgate-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Bathgate against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 5 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-3402.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3402",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3402.html",
+          "role": "Child; father link tested, 82% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1466",
+          "name": "Peter Glasgow",
+          "url": "/people/glasgow-1466.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-3400",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3400.html",
+          "role": "Child; father link tested, 82% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3399",
+          "name": "Elizabeth Glasgow",
+          "url": "/people/glasgow-3399.html",
+          "role": "Child; father link tested, 84% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3398",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3398.html",
+          "role": "Child; father link tested, 83% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3401",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3401.html",
+          "role": "Child; father link tested, 81% probable unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Agnes Glasgow, 22 Mar 1795, Bathgate",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/2912368"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Andrew Glasgow, 11 Apr 1790, Bathgate",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6742693"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Elizabeth Glasgow, 17 Jun 1787, Bathgate",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/2912508"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 10 Apr 1785, Bathgate",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/1666221"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — William Glasgow, 29 Jul 1792, Bathgate",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/5547340"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-father-links-tested-other-parishes-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Currie by Edinburgh, Kilbirnie, Kilmarnock, Livingston, Mid Calder, Ratho, Saint Cuthberts against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 7 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-3458.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3458",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3458.html",
+          "role": "Child; father link tested, 66% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1235",
+          "name": "Abraham Glasgow",
+          "url": "/people/glasgow-1235.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1384",
+          "name": "Elizabeth Glasgow",
+          "url": "/people/glasgow-1384.html",
+          "role": "Child; father link tested, 78% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1023",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1023.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1573",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1573.html",
+          "role": "Child; father link tested, 63% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1572",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1572.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1619",
+          "name": "Jean Glasgow",
+          "url": "/people/glasgow-1619.html",
+          "role": "Child; father link tested, 78% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1343",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1343.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-2980",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2980.html",
+          "role": "Child; father link tested, 83% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3390",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3390.html",
+          "role": "Child; father link tested, 65% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3298",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3298.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1618",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-1618.html",
+          "role": "Child; father link tested, 77% probable unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — David Glasgow, 24 Nov 1765, Saint Cuthberts",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/13388187"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Elizabeth Glasgow, 20 Jul 1755, Livingston",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/21027693"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — James Glasgow, 8 Jul 1799, Kilbirnie",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/23353167"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Jean Glasgow, 31 Jul 1757, Currie by Edinburgh",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11328497"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 18 Mar 1750, Mid Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6690455"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 29 Mar 1789, Kilmarnock",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6437623"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 24 Oct 1768, Ratho",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/3327785"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-govan-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Govan against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 2 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1483.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1483",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1483.html",
+          "role": "Child; father link tested, 78% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3063",
+          "name": "Samuel Glasgow",
+          "url": "/people/glasgow-3063.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "record-lillias-stewart-govan-1790",
+          "name": "Lillias Stewart",
+          "url": "/people/record-lillias-stewart-govan-1790.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — James Glasgow, 25 Apr 1790, Govan",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/21687149"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-irvine-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Irvine against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 2 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-3483.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3483",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3483.html",
+          "role": "Child; father link tested, 76% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3484",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3484.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1414",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-1414.html",
+          "role": "Child; father link tested, 73% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1410",
+          "name": "Michael Glasgow",
+          "url": "/people/glasgow-1410.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Margaret Glasgow, 25 Aug 1751, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/14179874"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Mary Glasgow, 29 Nov 1751, Irvine",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/14180511"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-kirknewton-and-east-calder-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Kirknewton and East Calder against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 4 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1327.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1327",
+          "name": "Elizabeth Glasgow",
+          "url": "/people/glasgow-1327.html",
+          "role": "Child; father link tested, 86% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1223",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1223.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-3581",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3581.html",
+          "role": "Child; father link tested, 82% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1343",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1343.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1326",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1326.html",
+          "role": "Child; father link tested, 87% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3485",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-3485.html",
+          "role": "Child; father link tested, 74% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3486",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3486.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Elizabeth Glasgow, 27 Mar 1796, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/20763383"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 18 May 1755, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/4022485"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 13 Jan 1798, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/7320763"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Marion Glasgow, 9 Jun 1751, Kirknewton and East Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/20214248"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-rothesay-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Rothesay against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 3 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-3541.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3541",
+          "name": "Janet Glasgow",
+          "url": "/people/glasgow-3541.html",
+          "role": "Child; father link tested, 83% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1221",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1221.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-3542",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3542.html",
+          "role": "Child; father link tested, 84% probable unchanged"
+        },
+        {
+          "id": "Glasgow-2603",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2603.html",
+          "role": "Child; father link tested, 81% probable unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Janet Glasgow, 19 Nov 1797, Rothesay",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/14569053"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — John Glasgow, 22 Dec 1799, Rothesay",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/9956342"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Robert Glasgow, 7 Dec 1795, Rothesay",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12334790"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-wandell-and-lamington-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at Wandell and Lamington against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 4 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-1529.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1529",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1529.html",
+          "role": "Child; father link tested, 61% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1120",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1120.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-1530",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1530.html",
+          "role": "Child; father link tested, 84% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1538",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1538.html",
+          "role": "Child; father link tested, 62% probable unchanged"
+        },
+        {
+          "id": "Sadler-2849",
+          "name": "Marion Sadler",
+          "url": "/people/sadler-2849.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — George Glasgow, 7 May 1769, Wandell and Lamington",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/7446511"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Robert Glasgow, 17 Feb 1760, Wandell and Lamington",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/9954739"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "er5-scotland-1750-1799-west-calder-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Testing the father and mother links of catalogue people born 1750-1799 and baptised at West Calder against the Ancestry Scotland, Select Births and Baptisms index: 0 assessments changed and 3 father/mother links gained the matching entry in their basis with the percentage unchanged. Where the entry names the father already attached, the existing percentage is kept because its stated limit concerns the father's own identification or the earlier wording, which a child's baptism cannot settle.",
+      "qualification": "Index transcripts only; the Ancestry rows copy the FamilySearch Scotland Births and Baptisms index, so they verify the indexed parent fields rather than adding an independent source, and the original registers are uninspected. Where an index copy appears twice for one baptism it is counted once.",
+      "detail_url": "/people/glasgow-3406.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3406",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3406.html",
+          "role": "Child; father link tested, 81% probable unchanged"
+        },
+        {
+          "id": "Glasgow-3314",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3314.html",
+          "role": "Parent whose child-link bases gained Ancestry entries"
+        },
+        {
+          "id": "Glasgow-3404",
+          "name": "Andrew Glasgow",
+          "url": "/people/glasgow-3404.html",
+          "role": "Child; father link tested, 79% probable unchanged"
+        },
+        {
+          "id": "Glasgow-1466",
+          "name": "Peter Glasgow",
+          "url": "/people/glasgow-1466.html",
+          "role": "Child; father link tested, 79% probable unchanged"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Agnes Glasgow, 15 Jul 1770, West Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/3141741"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Andrew Glasgow, 26 Aug 1764, West Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/18368515"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Peter Glasgow, 10 Oct 1762, West Calder",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/11162735"
+        }
+      ],
+      "relationship_changes": [],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
