@@ -1163,15 +1163,34 @@
       "subject_id": "Glasgow-4165",
       "relative_id": "Glasgow-1057",
       "relationship": "father",
-      "percent": 22,
-      "assessment_status": "uncertain",
+      "percent": 75,
+      "assessment_status": "probable",
       "assertion_id": "C-working-20261016-calder-irvine-working-family-george-father",
-      "basis": "Select John Glasgow-1057 and Agnes Spark-330 as the uncertain working parents of George Glasgow-4165, father with Margt at Irvine in 1741–1745. The preferred model uses possible identity with their son George Glasgow-1058, baptised at Kilwinning on 20 November 1687 and already associated with the George/Margaret Martain couple indexed marrying there on 11 June 1728. That couple’s son George-3312 is indexed at Kilwinning in 1729. The nearby Irvine household later repeats George and Margt, with no maternal surname or father’s age stated. This offers a specific existing couple and a compatible continuation across neighbouring parishes. On an infant-baptism assumption, the elder George would be about 54–58 at the Irvine children; late fatherhood remains possible. Margaret’s circa 1704 estimate would fit an adult mother in 1741–1745, but it is only a marriage-derived estimate. Neither calculation proves the identities or a move.",
+      "basis": "George Glasgow-4165 is defined as the father of Isabel (1741), Magdalen (1743) and Mary (1745) at Irvine. The 16 October assessment kept his link to John Glasgow-1057 at 22% because those entries showed only 'Margt', so the mother was not a full surname match with Margaret Martin. The full Ancestry transcripts now read Margaret Martine for all three (https://www.ancestry.co.uk/search/collections/60143/records/12995652, https://www.ancestry.co.uk/search/collections/60143/records/20284470, https://www.ancestry.co.uk/search/collections/60143/records/2169890). George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. There is no second George and Margaret couple at Irvine, so George-4165 is a second account of the Irvine shipmaster George whose other children are attached to George Glasgow-1058 at 82-84% (WikiTree merge candidate 4165/1058). Through that identity George-4165's father is John Glasgow-1057, raised from 22% to 75% probable.",
       "source_ids": [
         "kilwinning-george-spark-child-1687",
-        "irvine-george-margt-isabel-1741"
+        "irvine-george-margt-isabel-1741",
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115",
+        "ancestry-60143-11809291",
+        "ancestry-60143-12995652",
+        "ancestry-60143-20284470",
+        "ancestry-60143-2169890",
+        "ancestry-60143-5676847"
       ],
-      "reviewed": "2026-10-17"
+      "reviewed": "2026-11-05",
+      "assessment_history": [
+        {
+          "percent": 22,
+          "assessment_status": "uncertain",
+          "basis": "Select John Glasgow-1057 and Agnes Spark-330 as the uncertain working parents of George Glasgow-4165, father with Margt at Irvine in 1741–1745. The preferred model uses possible identity with their son George Glasgow-1058, baptised at Kilwinning on 20 November 1687 and already associated with the George/Margaret Martain couple indexed marrying there on 11 June 1728. That couple’s son George-3312 is indexed at Kilwinning in 1729. The nearby Irvine household later repeats George and Margt, with no maternal surname or father’s age stated. This offers a specific existing couple and a compatible continuation across neighbouring parishes. On an infant-baptism assumption, the elder George would be about 54–58 at the Irvine children; late fatherhood remains possible. Margaret’s circa 1704 estimate would fit an adult mother in 1741–1745, but it is only a marriage-derived estimate. Neither calculation proves the identities or a move.",
+          "reviewed": "2026-10-17",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": true
     },
     {
       "subject_id": "Glasgow-591",
@@ -21762,29 +21781,53 @@
       "subject_id": "Glasgow-3456",
       "relative_id": "Glasgow-3457",
       "relationship": "father",
-      "percent": 55,
-      "assessment_status": "possible",
+      "percent": 85,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3456-father",
-      "basis": "David’s specific 1744 index fits the inherited Robert/Mary Borland family and a plausible paternal age about twenty, but the father’s 1724 birth is unsupported and this account may duplicate another Robert/Borland family.",
+      "basis": "David's Ayr baptism of 29 July 1744 names Robert Glasgow and Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Robert Glasgow-3457 is defined only as that father; the earlier 55% was held down by Robert-3457's unsupported 1724 birth and the possibility that he duplicated another Robert/Borland family. R1 (5 November) resolved that duplication: Robert-3457 is the Irvine shipmaster Robert-2474. The full transcripts now add David's elder brother Robert, baptised at Ayr on 16 November 1740 to the same couple (https://www.ancestry.co.uk/search/collections/60143/records/16346646). Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). The child-to-father link is the literal parent clause of a record-defined father, raised from 55% to 85% probable.",
       "source_ids": [
-        "held-e-1729f29e82e3"
+        "held-e-1729f29e82e3",
+        "ancestry-60143-4400472",
+        "ancestry-60143-16346646"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "Robert-3457's 1724 birth remains unsupported and conflicts with the identity with Robert-2474 (baptised 1716); the vital field is not changed. Ayr and Irvine are separate parishes. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "assessment_history": [
+        {
+          "percent": 55,
+          "assessment_status": "possible",
+          "basis": "David’s specific 1744 index fits the inherited Robert/Mary Borland family and a plausible paternal age about twenty, but the father’s 1724 birth is unsupported and this account may duplicate another Robert/Borland family.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3457",
       "relative_id": "Glasgow-3456",
       "relationship": "child",
-      "percent": 55,
-      "assessment_status": "possible",
+      "percent": 85,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3456-father",
-      "basis": "David’s specific 1744 index fits the inherited Robert/Mary Borland family and a plausible paternal age about twenty, but the father’s 1724 birth is unsupported and this account may duplicate another Robert/Borland family.",
+      "basis": "David's Ayr baptism of 29 July 1744 names Robert Glasgow and Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Robert Glasgow-3457 is defined only as that father; the earlier 55% was held down by Robert-3457's unsupported 1724 birth and the possibility that he duplicated another Robert/Borland family. R1 (5 November) resolved that duplication: Robert-3457 is the Irvine shipmaster Robert-2474. The full transcripts now add David's elder brother Robert, baptised at Ayr on 16 November 1740 to the same couple (https://www.ancestry.co.uk/search/collections/60143/records/16346646). Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). The child-to-father link is the literal parent clause of a record-defined father, raised from 55% to 85% probable.",
       "source_ids": [
-        "held-e-1729f29e82e3"
+        "held-e-1729f29e82e3",
+        "ancestry-60143-4400472",
+        "ancestry-60143-16346646"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "Robert-3457's 1724 birth remains unsupported and conflicts with the identity with Robert-2474 (baptised 1716); the vital field is not changed. Ayr and Irvine are separate parishes. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "assessment_history": [
+        {
+          "percent": 55,
+          "assessment_status": "possible",
+          "basis": "David’s specific 1744 index fits the inherited Robert/Mary Borland family and a plausible paternal age about twenty, but the father’s 1724 birth is unsupported and this account may duplicate another Robert/Borland family.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3945",
@@ -49785,6 +49828,2148 @@
       "profile_names": {
         "Glasgow-1124": "William Glasgow",
         "Glasgow-2876": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1227",
+      "relative_id": "Clarkson-2169",
+      "relationship": "mother",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1227-mother-20261105",
+      "basis": "Abraham Glasgow's Uphall baptism of 29 March 1719 (https://www.ancestry.co.uk/search/collections/60143/records/21241272) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-21241272"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1227.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1227": "Abraham Glasgow"
+      }
+    },
+    {
+      "subject_id": "Clarkson-2169",
+      "relative_id": "Glasgow-1227",
+      "relationship": "child",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1227-mother-20261105",
+      "basis": "Abraham Glasgow's Uphall baptism of 29 March 1719 (https://www.ancestry.co.uk/search/collections/60143/records/21241272) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-21241272"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1227.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1227": "Abraham Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1236",
+      "relative_id": "Clarkson-2169",
+      "relationship": "mother",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1236-mother-20261105",
+      "basis": "Margaret Glasgow's Uphall baptism of 12 May 1717 (https://www.ancestry.co.uk/search/collections/60143/records/4376560) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4376560"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1236.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1236": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Clarkson-2169",
+      "relative_id": "Glasgow-1236",
+      "relationship": "child",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1236-mother-20261105",
+      "basis": "Margaret Glasgow's Uphall baptism of 12 May 1717 (https://www.ancestry.co.uk/search/collections/60143/records/4376560) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4376560"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1236.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1236": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1237",
+      "relative_id": "Clarkson-2169",
+      "relationship": "mother",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1237-mother-20261105",
+      "basis": "Alexander Glasgow's Uphall baptism of 12 February 1721 (https://www.ancestry.co.uk/search/collections/60143/records/21244350) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-21244350"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1237.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1237": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Clarkson-2169",
+      "relative_id": "Glasgow-1237",
+      "relationship": "child",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1237-mother-20261105",
+      "basis": "Alexander Glasgow's Uphall baptism of 12 February 1721 (https://www.ancestry.co.uk/search/collections/60143/records/21244350) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-21244350"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1237.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1237": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1442",
+      "relative_id": "Clarkson-2169",
+      "relationship": "mother",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1442-mother-20261105",
+      "basis": "James Glasgow's Uphall baptism of 7 April 1723 (https://www.ancestry.co.uk/search/collections/60143/records/2814088) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2814088"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1442.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1442": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Clarkson-2169",
+      "relative_id": "Glasgow-1442",
+      "relationship": "child",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-1442-mother-20261105",
+      "basis": "James Glasgow's Uphall baptism of 7 April 1723 (https://www.ancestry.co.uk/search/collections/60143/records/2814088) names Thomas Glasgow and the mother as transcribed. Thomas Glasgow and Catherine Clarkson baptised Margaret at Uphall on 12 May 1717 (mother 'Kathrin Clerkson', https://www.ancestry.co.uk/search/collections/60143/records/4376560), Abraham on 29 March 1719 ('Katrin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21241272), Alexander on 12 February 1721 ('Catharin Classon', https://www.ancestry.co.uk/search/collections/60143/records/21244350) and James on 7 April 1723 ('Cathrine Clarkson', https://www.ancestry.co.uk/search/collections/60143/records/2814088). The four spellings are one woman, Catherine Clarkson-2169, wife of Thomas-1226 and already the attached WikiTree mother; her maternity is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2814088"
+      ],
+      "scope": "Clerkson/Classon/Clarkson are register spellings of one surname. The Ancestry rows for these children were linked to new drafts (and James's to James Glasgow-3001 of Killybegs); those drafts are duplicates of the catalogue children and the Killybegs link is a mis-identification, reported to the integrator. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1442.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Clarkson-2169": "Catherine Clarkson",
+        "Glasgow-1442": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2078",
+      "relative_id": "Glasgow-1382",
+      "relationship": "father",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2078-father-20261105",
+      "basis": "Mary Glasgow-2078 has no parents and a birth of 18 May 1783 at Blackburn, West Lothian. The Livingston register records Mary Glasgow, born 18 May 1783, baptised 29 June, daughter of Thomas Glasgow and Christian Davidson (https://www.ancestry.co.uk/search/collections/60143/records/16442375); a second entry registers her at Whitburn on 6 July (https://www.ancestry.co.uk/search/collections/60143/records/11614598). Mary Glasgow-1453 (c. 29 June 1783, Livingston) is the same child, attached to Thomas Glasgow-1382 at 97%. Thomas Glasgow and Christian Davidson's children Nathaniel 1774, Janet 1777, Catharine 1780, Mary 1783, Thomas 1787 and Peter 1790 are recorded at Livingston and Whitburn (the family lived at Blackburn). Mary-2078 is a second profile of Mary-1453 (WikiTree merge candidate) and inherits her father at 88% probable (about 91% for the identity times 97%).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16442375",
+        "ancestry-60143-17282003",
+        "ancestry-60143-11614598",
+        "ancestry-60143-22776632"
+      ],
+      "scope": "Blackburn lies in Livingston parish (Whitburn registration for the same family in 1787). The profiles have not been merged. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2078.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1382": "Thomas Glasgow",
+        "Glasgow-2078": "Mary Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1382",
+      "relative_id": "Glasgow-2078",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2078-father-20261105",
+      "basis": "Mary Glasgow-2078 has no parents and a birth of 18 May 1783 at Blackburn, West Lothian. The Livingston register records Mary Glasgow, born 18 May 1783, baptised 29 June, daughter of Thomas Glasgow and Christian Davidson (https://www.ancestry.co.uk/search/collections/60143/records/16442375); a second entry registers her at Whitburn on 6 July (https://www.ancestry.co.uk/search/collections/60143/records/11614598). Mary Glasgow-1453 (c. 29 June 1783, Livingston) is the same child, attached to Thomas Glasgow-1382 at 97%. Thomas Glasgow and Christian Davidson's children Nathaniel 1774, Janet 1777, Catharine 1780, Mary 1783, Thomas 1787 and Peter 1790 are recorded at Livingston and Whitburn (the family lived at Blackburn). Mary-2078 is a second profile of Mary-1453 (WikiTree merge candidate) and inherits her father at 88% probable (about 91% for the identity times 97%).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16442375",
+        "ancestry-60143-17282003",
+        "ancestry-60143-11614598",
+        "ancestry-60143-22776632"
+      ],
+      "scope": "Blackburn lies in Livingston parish (Whitburn registration for the same family in 1787). The profiles have not been merged. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2078.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1382": "Thomas Glasgow",
+        "Glasgow-2078": "Mary Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2078",
+      "relative_id": "Davidson-14073",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2078-mother-20261105",
+      "basis": "The 1783 Livingston and Whitburn entries for Mary, born 18 May 1783, name the mother Christian Davidson (https://www.ancestry.co.uk/search/collections/60143/records/16442375), the attached mother of Mary-1453 and wife of Thomas-1382. Assessed 88% probable through the same identity.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16442375",
+        "ancestry-60143-11614598"
+      ],
+      "scope": "Profiles not merged. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2078.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Davidson-14073": "Christian Davidson",
+        "Glasgow-2078": "Mary Glasgow"
+      }
+    },
+    {
+      "subject_id": "Davidson-14073",
+      "relative_id": "Glasgow-2078",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2078-mother-20261105",
+      "basis": "The 1783 Livingston and Whitburn entries for Mary, born 18 May 1783, name the mother Christian Davidson (https://www.ancestry.co.uk/search/collections/60143/records/16442375), the attached mother of Mary-1453 and wife of Thomas-1382. Assessed 88% probable through the same identity.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16442375",
+        "ancestry-60143-11614598"
+      ],
+      "scope": "Profiles not merged. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2078.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Davidson-14073": "Christian Davidson",
+        "Glasgow-2078": "Mary Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-20e109ab95b4",
+      "relative_id": "Martin-103040",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-20e109ab95b4-mother-20261105",
+      "basis": "The Irvine baptism of 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213) names mother Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. The register's Margaret Martin is the attached mother of the other children, Martin-103040. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780213",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "No maternal age or parents are recorded. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-20e109ab95b4.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Martin-103040": "Margaret (Martin) Glasgow",
+        "record-ancestry-glasgow-20e109ab95b4": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Martin-103040",
+      "relative_id": "record-ancestry-glasgow-20e109ab95b4",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-20e109ab95b4-mother-20261105",
+      "basis": "The Irvine baptism of 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213) names mother Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. The register's Margaret Martin is the attached mother of the other children, Martin-103040. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780213",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "No maternal age or parents are recorded. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-20e109ab95b4.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Martin-103040": "Margaret (Martin) Glasgow",
+        "record-ancestry-glasgow-20e109ab95b4": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3058",
+      "relative_id": "record-ancestry-glasgow-3ddef1dab3c4",
+      "relationship": "father",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3058-father-20261105",
+      "basis": "Elizabeth Glasgow-3058's profile gives birth on 4 March 1841 at Gorbals. The Gorbals register records exactly that birth: Elizabeth Glasgow, born 4 March 1841, daughter of Samuel Glasgow and Jemima Allan (https://www.ancestry.co.uk/search/collections/60143/records/1536419). The same couple, married at Greenock on 16 May 1841 (ancestry-60144-214665), baptised Samuel (Gorbals, 12 November 1842), James (Gorbals, born 16 April 1845) and Robert (Barony, 21 June 1849). The exact date and place identify the profile with the entry; her previously unknown father is the record-defined Samuel, at 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1536419",
+        "ancestry-60143-6490690",
+        "ancestry-60143-10537587",
+        "ancestry-60143-21102627",
+        "ancestry-60144-214665"
+      ],
+      "scope": "Her later life (death 1907) is not re-examined against this identification. Samuel's own origin is unknown; Samuel Glasgow-1486 (born before 1817 at Gorbals, son of James-1483) is a possible but untested identity, not selected. Jemima Allan has no catalogue profile, so no mother is attached. An October 1841 West Calder entry for 'Elisabeth Meek Glasgow', mother Mary Glasgow, also linked to this profile, is a different child. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3058.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3058": "Elizabeth Glasgow",
+        "record-ancestry-glasgow-3ddef1dab3c4": "Samuel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-3ddef1dab3c4",
+      "relative_id": "Glasgow-3058",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3058-father-20261105",
+      "basis": "Elizabeth Glasgow-3058's profile gives birth on 4 March 1841 at Gorbals. The Gorbals register records exactly that birth: Elizabeth Glasgow, born 4 March 1841, daughter of Samuel Glasgow and Jemima Allan (https://www.ancestry.co.uk/search/collections/60143/records/1536419). The same couple, married at Greenock on 16 May 1841 (ancestry-60144-214665), baptised Samuel (Gorbals, 12 November 1842), James (Gorbals, born 16 April 1845) and Robert (Barony, 21 June 1849). The exact date and place identify the profile with the entry; her previously unknown father is the record-defined Samuel, at 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1536419",
+        "ancestry-60143-6490690",
+        "ancestry-60143-10537587",
+        "ancestry-60143-21102627",
+        "ancestry-60144-214665"
+      ],
+      "scope": "Her later life (death 1907) is not re-examined against this identification. Samuel's own origin is unknown; Samuel Glasgow-1486 (born before 1817 at Gorbals, son of James-1483) is a possible but untested identity, not selected. Jemima Allan has no catalogue profile, so no mother is attached. An October 1841 West Calder entry for 'Elisabeth Meek Glasgow', mother Mary Glasgow, also linked to this profile, is a different child. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3058.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3058": "Elizabeth Glasgow",
+        "record-ancestry-glasgow-3ddef1dab3c4": "Samuel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3456",
+      "relative_id": "Borland-1478",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3456-mother-20261105",
+      "basis": "David's Ayr baptism of 29 July 1744 names his mother Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Mary (Borland) Glasgow-1478 is the catalogue wife of his father Robert-3457, so the register's mother is matched to her. Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4400472",
+        "ancestry-60143-16346646",
+        "ancestry-60143-2461718"
+      ],
+      "scope": "Mary Borland is duplicated as Borland-1478 (wife of Robert-3457) and Borland-1479 (wife of Robert-2474); the two profiles are a WikiTree merge candidate, not merged. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3456.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Borland-1478": "Mary (Borland) Glasgow",
+        "Glasgow-3456": "David Glasgow"
+      }
+    },
+    {
+      "subject_id": "Borland-1478",
+      "relative_id": "Glasgow-3456",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3456-mother-20261105",
+      "basis": "David's Ayr baptism of 29 July 1744 names his mother Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Mary (Borland) Glasgow-1478 is the catalogue wife of his father Robert-3457, so the register's mother is matched to her. Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4400472",
+        "ancestry-60143-16346646",
+        "ancestry-60143-2461718"
+      ],
+      "scope": "Mary Borland is duplicated as Borland-1478 (wife of Robert-3457) and Borland-1479 (wife of Robert-2474); the two profiles are a WikiTree merge candidate, not merged. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3456.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Borland-1478": "Mary (Borland) Glasgow",
+        "Glasgow-3456": "David Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3604",
+      "relative_id": "Whitehead-9630",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3604-mother-20261105",
+      "basis": "Thomas's Eccles baptism of 14 March 1781 now reads in full: father Robert James Glasgow, mother Agnes Whitehead (https://www.ancestry.co.uk/search/collections/60143/records/27365562); R1 saw only the forename Agnes. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. She is the attached wife of his father Robert-3706. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365562",
+        "ancestry-60143-27458592"
+      ],
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3604.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3604": "Thomas Glasgow",
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Whitehead-9630",
+      "relative_id": "Glasgow-3604",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3604-mother-20261105",
+      "basis": "Thomas's Eccles baptism of 14 March 1781 now reads in full: father Robert James Glasgow, mother Agnes Whitehead (https://www.ancestry.co.uk/search/collections/60143/records/27365562); R1 saw only the forename Agnes. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. She is the attached wife of his father Robert-3706. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365562",
+        "ancestry-60143-27458592"
+      ],
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3604.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3604": "Thomas Glasgow",
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4103",
+      "relative_id": "Martin-103040",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4103-mother-20261105",
+      "basis": "The full Ancestry transcript of Magdalen Glasgow's Irvine baptism on 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470) names her mother Margaret Martine, where the earlier review saw only 'Margt'. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. That is one couple, Margaret Martin-103040 already being the attached mother of the 1733-1747 children, so the register's Margaret Martine is matched to her rather than to a new woman. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-20284470",
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "The register gives no age, residence or occupation for the mother; Martin/Martine is a spelling variant within the one series. Her father is not assessed. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4103.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4103": "Magdalen Glasgow",
+        "Martin-103040": "Margaret (Martin) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Martin-103040",
+      "relative_id": "Glasgow-4103",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4103-mother-20261105",
+      "basis": "The full Ancestry transcript of Magdalen Glasgow's Irvine baptism on 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470) names her mother Margaret Martine, where the earlier review saw only 'Margt'. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. That is one couple, Margaret Martin-103040 already being the attached mother of the 1733-1747 children, so the register's Margaret Martine is matched to her rather than to a new woman. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-20284470",
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "The register gives no age, residence or occupation for the mother; Martin/Martine is a spelling variant within the one series. Her father is not assessed. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4103.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4103": "Magdalen Glasgow",
+        "Martin-103040": "Margaret (Martin) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4106",
+      "relative_id": "Auld-2246",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4106-mother-20261105",
+      "basis": "Euphan's Stevenston baptism of 10 August 1718 gives father James Glasgow and the mother's surname only, Auld (https://www.ancestry.co.uk/search/collections/60143/records/10890703). Her sister Margaret-4111, baptised at Stevenston on 17 February 1717, has James Glasgow and Mary Auld (https://www.ancestry.co.uk/search/collections/60143/records/10890077), and Mary Auld-2246 is Margaret's attached mother and the wife of James-4170. One Stevenston couple eighteen months apart is the simplest reading. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10890703",
+        "ancestry-60143-10890077"
+      ],
+      "scope": "The 1718 entry omits the forename; the identification with Mary Auld rests on the sister's entry. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4106.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Auld-2246": "Mary Auld",
+        "Glasgow-4106": "Euphan Glasgow"
+      }
+    },
+    {
+      "subject_id": "Auld-2246",
+      "relative_id": "Glasgow-4106",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4106-mother-20261105",
+      "basis": "Euphan's Stevenston baptism of 10 August 1718 gives father James Glasgow and the mother's surname only, Auld (https://www.ancestry.co.uk/search/collections/60143/records/10890703). Her sister Margaret-4111, baptised at Stevenston on 17 February 1717, has James Glasgow and Mary Auld (https://www.ancestry.co.uk/search/collections/60143/records/10890077), and Mary Auld-2246 is Margaret's attached mother and the wife of James-4170. One Stevenston couple eighteen months apart is the simplest reading. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10890703",
+        "ancestry-60143-10890077"
+      ],
+      "scope": "The 1718 entry omits the forename; the identification with Mary Auld rests on the sister's entry. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4106.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Auld-2246": "Mary Auld",
+        "Glasgow-4106": "Euphan Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4111",
+      "relative_id": "Auld-2246",
+      "relationship": "mother",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-4111-mother-20261105",
+      "basis": "Margaret's Stevenston baptism of 17 February 1717 names James Glasgow and Mary Auld (https://www.ancestry.co.uk/search/collections/60143/records/10890077), the couple that defines James-4170 and Mary Auld-2246. Her attached WikiTree mother is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10890077"
+      ],
+      "scope": "An Ancestry search row also linked to Margaret-4111 (Kirknewton, 12 July 1719, https://www.ancestry.co.uk/search/collections/60143/records/22406696) is a different child and is not used. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4111.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Auld-2246": "Mary Auld",
+        "Glasgow-4111": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Auld-2246",
+      "relative_id": "Glasgow-4111",
+      "relationship": "child",
+      "percent": 90,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-4111-mother-20261105",
+      "basis": "Margaret's Stevenston baptism of 17 February 1717 names James Glasgow and Mary Auld (https://www.ancestry.co.uk/search/collections/60143/records/10890077), the couple that defines James-4170 and Mary Auld-2246. Her attached WikiTree mother is confirmed at 90%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10890077"
+      ],
+      "scope": "An Ancestry search row also linked to Margaret-4111 (Kirknewton, 12 July 1719, https://www.ancestry.co.uk/search/collections/60143/records/22406696) is a different child and is not used. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4111.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Auld-2246": "Mary Auld",
+        "Glasgow-4111": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4121",
+      "relative_id": "Martin-103040",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4121-mother-20261105",
+      "basis": "The full Ancestry transcript of Isabel Glasgow's Irvine baptism on 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652) names her mother Margaret Martine, where the earlier review saw only 'Margt'. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. That is one couple, Margaret Martin-103040 already being the attached mother of the 1733-1747 children, so the register's Margaret Martine is matched to her rather than to a new woman. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-12995652",
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "The register gives no age, residence or occupation for the mother; Martin/Martine is a spelling variant within the one series. Her father is not assessed. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4121.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4121": "Isabel Glasgow",
+        "Martin-103040": "Margaret (Martin) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Martin-103040",
+      "relative_id": "Glasgow-4121",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4121-mother-20261105",
+      "basis": "The full Ancestry transcript of Isabel Glasgow's Irvine baptism on 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652) names her mother Margaret Martine, where the earlier review saw only 'Margt'. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. That is one couple, Margaret Martin-103040 already being the attached mother of the 1733-1747 children, so the register's Margaret Martine is matched to her rather than to a new woman. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-12995652",
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "The register gives no age, residence or occupation for the mother; Martin/Martine is a spelling variant within the one series. Her father is not assessed. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4121.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4121": "Isabel Glasgow",
+        "Martin-103040": "Margaret (Martin) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-4126",
+      "relative_id": "Martin-103040",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4126-mother-20261105",
+      "basis": "The full Ancestry transcript of Mary Glasgow's Irvine baptism on 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) names her mother Margaret Martine, where the earlier review saw only 'Margt'. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. That is one couple, Margaret Martin-103040 already being the attached mother of the 1733-1747 children, so the register's Margaret Martine is matched to her rather than to a new woman. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2169890",
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "The register gives no age, residence or occupation for the mother; Martin/Martine is a spelling variant within the one series. Her father is not assessed. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4126.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4126": "Mary Glasgow",
+        "Martin-103040": "Margaret (Martin) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Martin-103040",
+      "relative_id": "Glasgow-4126",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4126-mother-20261105",
+      "basis": "The full Ancestry transcript of Mary Glasgow's Irvine baptism on 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) names her mother Margaret Martine, where the earlier review saw only 'Margt'. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. That is one couple, Margaret Martin-103040 already being the attached mother of the 1733-1747 children, so the register's Margaret Martine is matched to her rather than to a new woman. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2169890",
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "The register gives no age, residence or occupation for the mother; Martin/Martine is a spelling variant within the one series. Her father is not assessed. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4126.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4126": "Mary Glasgow",
+        "Martin-103040": "Margaret (Martin) Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-45cf47435a75",
+      "relative_id": "Glasgow-3706",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-45cf47435a75-father-20261105",
+      "basis": "William Glasgow's Eccles baptism of 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/27365604) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so William joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365604",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-45cf47435a75.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-45cf47435a75": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3706",
+      "relative_id": "record-ancestry-glasgow-45cf47435a75",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-45cf47435a75-father-20261105",
+      "basis": "William Glasgow's Eccles baptism of 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/27365604) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so William joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365604",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-45cf47435a75.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-45cf47435a75": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-45cf47435a75",
+      "relative_id": "Whitehead-9630",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-45cf47435a75-mother-20261105",
+      "basis": "The Eccles baptism of 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/27365604) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365604"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-45cf47435a75.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-45cf47435a75": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Whitehead-9630",
+      "relative_id": "record-ancestry-glasgow-45cf47435a75",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-45cf47435a75-mother-20261105",
+      "basis": "The Eccles baptism of 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/27365604) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365604"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-45cf47435a75.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-45cf47435a75": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-49c697fa7452",
+      "relative_id": "Glasgow-3706",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-49c697fa7452-father-20261105",
+      "basis": "Isobel Glasgow's Eccles baptism of 2 March 1795 (https://www.ancestry.co.uk/search/collections/60143/records/24068720) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Isobel joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068720",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-49c697fa7452.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-49c697fa7452": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3706",
+      "relative_id": "record-ancestry-glasgow-49c697fa7452",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-49c697fa7452-father-20261105",
+      "basis": "Isobel Glasgow's Eccles baptism of 2 March 1795 (https://www.ancestry.co.uk/search/collections/60143/records/24068720) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Isobel joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068720",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-49c697fa7452.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-49c697fa7452": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-49c697fa7452",
+      "relative_id": "Whitehead-9630",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-49c697fa7452-mother-20261105",
+      "basis": "The Eccles baptism of 2 March 1795 (https://www.ancestry.co.uk/search/collections/60143/records/24068720) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068720"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-49c697fa7452.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-49c697fa7452": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Whitehead-9630",
+      "relative_id": "record-ancestry-glasgow-49c697fa7452",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-49c697fa7452-mother-20261105",
+      "basis": "The Eccles baptism of 2 March 1795 (https://www.ancestry.co.uk/search/collections/60143/records/24068720) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068720"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-49c697fa7452.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-49c697fa7452": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-638",
+      "relative_id": "Thomson-14488",
+      "relationship": "mother",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-638-mother-20261105",
+      "basis": "George's Crawford baptism (born 8 June, baptised 14 June 1818) names William Glasgow and Janet Thomson (https://www.ancestry.co.uk/search/collections/60143/records/26629355). His father is attached as William Glasgow-2715 at 88%, and Janet (Thomson) Glasgow-14488 is William-2715's catalogue wife, so the register's mother is matched to her. Assessed 86% probable, as the maternal counterpart of the same entry.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-26629355",
+        "crawford-george-william-janet-baptism-1818"
+      ],
+      "scope": "This Ancestry row copies the baptism index already cited for the father (crawford-george-william-janet-baptism-1818); the mother link uses the same entry, not an independent one. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-638.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-638": "George Glasgow",
+        "Thomson-14488": "Janet (Thomson) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Thomson-14488",
+      "relative_id": "Glasgow-638",
+      "relationship": "child",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-638-mother-20261105",
+      "basis": "George's Crawford baptism (born 8 June, baptised 14 June 1818) names William Glasgow and Janet Thomson (https://www.ancestry.co.uk/search/collections/60143/records/26629355). His father is attached as William Glasgow-2715 at 88%, and Janet (Thomson) Glasgow-14488 is William-2715's catalogue wife, so the register's mother is matched to her. Assessed 86% probable, as the maternal counterpart of the same entry.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-26629355",
+        "crawford-george-william-janet-baptism-1818"
+      ],
+      "scope": "This Ancestry row copies the baptism index already cited for the father (crawford-george-william-janet-baptism-1818); the mother link uses the same entry, not an independent one. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-638.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-638": "George Glasgow",
+        "Thomson-14488": "Janet (Thomson) Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-721dc55b25ca",
+      "relative_id": "Glasgow-3706",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-721dc55b25ca-father-20261105",
+      "basis": "Agnes Glasgow's Eccles baptism of 22 July 1789 (https://www.ancestry.co.uk/search/collections/60143/records/24068593) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Agnes joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068593",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-721dc55b25ca.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-721dc55b25ca": "Agnes Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3706",
+      "relative_id": "record-ancestry-glasgow-721dc55b25ca",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-721dc55b25ca-father-20261105",
+      "basis": "Agnes Glasgow's Eccles baptism of 22 July 1789 (https://www.ancestry.co.uk/search/collections/60143/records/24068593) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Agnes joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068593",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-721dc55b25ca.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-721dc55b25ca": "Agnes Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-721dc55b25ca",
+      "relative_id": "Whitehead-9630",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-721dc55b25ca-mother-20261105",
+      "basis": "The Eccles baptism of 22 July 1789 (https://www.ancestry.co.uk/search/collections/60143/records/24068593) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068593"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-721dc55b25ca.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-721dc55b25ca": "Agnes Glasgow"
+      }
+    },
+    {
+      "subject_id": "Whitehead-9630",
+      "relative_id": "record-ancestry-glasgow-721dc55b25ca",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-721dc55b25ca-mother-20261105",
+      "basis": "The Eccles baptism of 22 July 1789 (https://www.ancestry.co.uk/search/collections/60143/records/24068593) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24068593"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-721dc55b25ca.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-721dc55b25ca": "Agnes Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-bfe4b7d9ef6a",
+      "relative_id": "Glasgow-3706",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-bfe4b7d9ef6a-father-20261105",
+      "basis": "Thomas Glasgow's Eccles baptism of 20 March 1791 (https://www.ancestry.co.uk/search/collections/60143/records/27458919) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Thomas joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458919",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-bfe4b7d9ef6a.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-bfe4b7d9ef6a": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3706",
+      "relative_id": "record-ancestry-glasgow-bfe4b7d9ef6a",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-bfe4b7d9ef6a-father-20261105",
+      "basis": "Thomas Glasgow's Eccles baptism of 20 March 1791 (https://www.ancestry.co.uk/search/collections/60143/records/27458919) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Thomas joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458919",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-bfe4b7d9ef6a.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-bfe4b7d9ef6a": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-bfe4b7d9ef6a",
+      "relative_id": "Whitehead-9630",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-bfe4b7d9ef6a-mother-20261105",
+      "basis": "The Eccles baptism of 20 March 1791 (https://www.ancestry.co.uk/search/collections/60143/records/27458919) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458919"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-bfe4b7d9ef6a.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-bfe4b7d9ef6a": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Whitehead-9630",
+      "relative_id": "record-ancestry-glasgow-bfe4b7d9ef6a",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-bfe4b7d9ef6a-mother-20261105",
+      "basis": "The Eccles baptism of 20 March 1791 (https://www.ancestry.co.uk/search/collections/60143/records/27458919) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458919"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-bfe4b7d9ef6a.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-bfe4b7d9ef6a": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ea966800d04e",
+      "relative_id": "Glasgow-3706",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ea966800d04e-father-20261105",
+      "basis": "James Glasgow's Eccles baptism of 30 December 1779 (https://www.ancestry.co.uk/search/collections/60143/records/27458082) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so James joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458082",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ea966800d04e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-ea966800d04e": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3706",
+      "relative_id": "record-ancestry-glasgow-ea966800d04e",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ea966800d04e-father-20261105",
+      "basis": "James Glasgow's Eccles baptism of 30 December 1779 (https://www.ancestry.co.uk/search/collections/60143/records/27458082) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so James joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458082",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ea966800d04e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-ea966800d04e": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ea966800d04e",
+      "relative_id": "Whitehead-9630",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ea966800d04e-mother-20261105",
+      "basis": "The Eccles baptism of 30 December 1779 (https://www.ancestry.co.uk/search/collections/60143/records/27458082) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458082"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ea966800d04e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-ea966800d04e": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Whitehead-9630",
+      "relative_id": "record-ancestry-glasgow-ea966800d04e",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ea966800d04e-mother-20261105",
+      "basis": "The Eccles baptism of 30 December 1779 (https://www.ancestry.co.uk/search/collections/60143/records/27458082) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27458082"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ea966800d04e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-ea966800d04e": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ee34f161fe43",
+      "relative_id": "Martin-103040",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ee34f161fe43-mother-20261105",
+      "basis": "The Irvine baptism of 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211) names mother Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. The register's Margaret Martin is the attached mother of the other children, Martin-103040. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "No maternal age or parents are recorded. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ee34f161fe43.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Martin-103040": "Margaret (Martin) Glasgow",
+        "record-ancestry-glasgow-ee34f161fe43": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "Martin-103040",
+      "relative_id": "record-ancestry-glasgow-ee34f161fe43",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ee34f161fe43-mother-20261105",
+      "basis": "The Irvine baptism of 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211) names mother Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. The register's Margaret Martin is the attached mother of the other children, Martin-103040. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780211",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115"
+      ],
+      "scope": "No maternal age or parents are recorded. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ee34f161fe43.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Martin-103040": "Margaret (Martin) Glasgow",
+        "record-ancestry-glasgow-ee34f161fe43": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-fe4851dd884f",
+      "relative_id": "Glasgow-3706",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-fe4851dd884f-father-20261105",
+      "basis": "Marrion Glasgow's Eccles baptism of 13 October 1782 (https://www.ancestry.co.uk/search/collections/60143/records/24069213) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Marrion joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24069213",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fe4851dd884f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-fe4851dd884f": "Marrion Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3706",
+      "relative_id": "record-ancestry-glasgow-fe4851dd884f",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-fe4851dd884f-father-20261105",
+      "basis": "Marrion Glasgow's Eccles baptism of 13 October 1782 (https://www.ancestry.co.uk/search/collections/60143/records/24069213) names Robert Glasgow and Agnes Whitehead. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Their brothers John-2433 and Thomas-3604 are attached to Robert Glasgow-3706 at 85%, so Marrion joins the sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24069213",
+        "ancestry-60143-27458592",
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Robert-3706's 1745 Leitholm birth is not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fe4851dd884f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3706": "Robert Glasgow",
+        "record-ancestry-glasgow-fe4851dd884f": "Marrion Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-fe4851dd884f",
+      "relative_id": "Whitehead-9630",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-fe4851dd884f-mother-20261105",
+      "basis": "The Eccles baptism of 13 October 1782 (https://www.ancestry.co.uk/search/collections/60143/records/24069213) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24069213"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fe4851dd884f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-fe4851dd884f": "Marrion Glasgow"
+      }
+    },
+    {
+      "subject_id": "Whitehead-9630",
+      "relative_id": "record-ancestry-glasgow-fe4851dd884f",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-fe4851dd884f-mother-20261105",
+      "basis": "The Eccles baptism of 13 October 1782 (https://www.ancestry.co.uk/search/collections/60143/records/24069213) names the mother Agnes Whitehead, matched to Agnes (Whitehead) Glasgow-9630, wife of Robert-3706. Robert Glasgow and Agnes Whitehead (married at Leitholm in 1779) baptised one family at Eccles, Berwickshire: James 1779, Thomas 14 March 1781 (Thomas-3604, https://www.ancestry.co.uk/search/collections/60143/records/27365562), Marrion 1782, William 1784, John 6 July 1786 (John-2433, https://www.ancestry.co.uk/search/collections/60143/records/27458592), Agnes 1789, Thomas 1791 and Isobel 1795; the full transcripts give the mother as Agnes Whitehead (Whithead, Agnus) throughout. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24069213"
+      ],
+      "scope": "Whitehead-9630's 1756 birth would make her 23 at the first baptism; not re-examined. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fe4851dd884f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Whitehead-9630": "Agnes (Whitehead) Glasgow",
+        "record-ancestry-glasgow-fe4851dd884f": "Marrion Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ee34f161fe43",
+      "relative_id": "Glasgow-1058",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-jean1731-irvine-father-20261105",
+      "basis": "Jean's Irvine baptism of 4 May 1731, born 1 May (https://www.ancestry.co.uk/search/collections/60143/records/11780211; duplicate entry https://www.ancestry.co.uk/search/collections/60143/records/6223669), names George Glasgow and Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. Her brothers and sisters Andrew-3313, Elizabeth-3316, John-3314 and Robert-3315 are attached to George Glasgow-1058 at 82-84%, so Jean is placed in the same sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780211",
+        "ancestry-60143-6223669",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115",
+        "ancestry-60143-11809291"
+      ],
+      "scope": "The draft was held for identity review only against unrelated same-name drafts; no catalogue Jean of this family exists. The father percentage inherits the open question whether the Irvine shipmaster is the 1687 Kilwinning child George-1058. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ee34f161fe43.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-ee34f161fe43": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1058",
+      "relative_id": "record-ancestry-glasgow-ee34f161fe43",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-jean1731-irvine-father-20261105",
+      "basis": "Jean's Irvine baptism of 4 May 1731, born 1 May (https://www.ancestry.co.uk/search/collections/60143/records/11780211; duplicate entry https://www.ancestry.co.uk/search/collections/60143/records/6223669), names George Glasgow and Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. Her brothers and sisters Andrew-3313, Elizabeth-3316, John-3314 and Robert-3315 are attached to George Glasgow-1058 at 82-84%, so Jean is placed in the same sibling group at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780211",
+        "ancestry-60143-6223669",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115",
+        "ancestry-60143-11809291"
+      ],
+      "scope": "The draft was held for identity review only against unrelated same-name drafts; no catalogue Jean of this family exists. The father percentage inherits the open question whether the Irvine shipmaster is the 1687 Kilwinning child George-1058. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ee34f161fe43.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-ee34f161fe43": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-c7fd307781f2",
+      "relative_id": "Glasgow-2474",
+      "relationship": "father",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-john1736-irvine-father-20261105",
+      "basis": "John's Irvine baptism of 10 October 1736 names Robert Glasgow and Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/2461718), the couple of John Glasgow-3478 (baptised 5 October 1738, father Robert-2474 at 86%). The second John suggests the first died young. Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Placed with his brother at 86% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2461718",
+        "ancestry-60143-8126993"
+      ],
+      "scope": "The draft was held for identity review only against unrelated same-name drafts. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c7fd307781f2.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2474": "Robert Glasgow",
+        "record-ancestry-glasgow-c7fd307781f2": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2474",
+      "relative_id": "record-ancestry-glasgow-c7fd307781f2",
+      "relationship": "child",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-john1736-irvine-father-20261105",
+      "basis": "John's Irvine baptism of 10 October 1736 names Robert Glasgow and Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/2461718), the couple of John Glasgow-3478 (baptised 5 October 1738, father Robert-2474 at 86%). The second John suggests the first died young. Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). Placed with his brother at 86% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2461718",
+        "ancestry-60143-8126993"
+      ],
+      "scope": "The draft was held for identity review only against unrelated same-name drafts. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c7fd307781f2.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2474": "Robert Glasgow",
+        "record-ancestry-glasgow-c7fd307781f2": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-c7fd307781f2",
+      "relative_id": "Borland-1479",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-john1736-irvine-mother-20261105",
+      "basis": "The Irvine baptism of 10 October 1736 names mother Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/2461718), matched to Mary Borland-1479, wife of Robert-2474. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2461718"
+      ],
+      "scope": "Borland-1478 and Borland-1479 are duplicate profiles. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c7fd307781f2.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Borland-1479": "Mary Borland",
+        "record-ancestry-glasgow-c7fd307781f2": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Borland-1479",
+      "relative_id": "record-ancestry-glasgow-c7fd307781f2",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-john1736-irvine-mother-20261105",
+      "basis": "The Irvine baptism of 10 October 1736 names mother Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/2461718), matched to Mary Borland-1479, wife of Robert-2474. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2461718"
+      ],
+      "scope": "Borland-1478 and Borland-1479 are duplicate profiles. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-c7fd307781f2.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Borland-1479": "Mary Borland",
+        "record-ancestry-glasgow-c7fd307781f2": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-20e109ab95b4",
+      "relative_id": "Glasgow-1058",
+      "relationship": "father",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-margaret1735-irvine-father-20261105",
+      "basis": "Margaret's Irvine baptism of 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213; duplicate https://www.ancestry.co.uk/search/collections/60143/records/2400484) names George Glasgow and Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. She is placed with her attached siblings under George Glasgow-1058 at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780213",
+        "ancestry-60143-2400484",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115",
+        "ancestry-60143-11809291"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Inherits the open 1687-child identification of George-1058. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-20e109ab95b4.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-20e109ab95b4": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1058",
+      "relative_id": "record-ancestry-glasgow-20e109ab95b4",
+      "relationship": "child",
+      "percent": 83,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-margaret1735-irvine-father-20261105",
+      "basis": "Margaret's Irvine baptism of 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213; duplicate https://www.ancestry.co.uk/search/collections/60143/records/2400484) names George Glasgow and Margaret Martin. George Glasgow and Margaret Martin(e) baptised one continuous family at Irvine: Jean 4 May 1731 (https://www.ancestry.co.uk/search/collections/60143/records/11780211), Andrew 22 May 1733 (https://www.ancestry.co.uk/search/collections/60143/records/15973105), Margaret 19 June 1735 (https://www.ancestry.co.uk/search/collections/60143/records/11780213), Elizabeth 24 July 1737 (https://www.ancestry.co.uk/search/collections/60143/records/14510115), John 30 March 1740 (https://www.ancestry.co.uk/search/collections/60143/records/11809291), Isabel 26 April 1741 (https://www.ancestry.co.uk/search/collections/60143/records/12995652), Magdalen 29 March 1743 (https://www.ancestry.co.uk/search/collections/60143/records/20284470), Mary 21 April 1745 (https://www.ancestry.co.uk/search/collections/60143/records/2169890) and Robert 7 June 1747 (https://www.ancestry.co.uk/search/collections/60143/records/5676847), after son George at Kilwinning in 1729. She is placed with her attached siblings under George Glasgow-1058 at 83% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-11780213",
+        "ancestry-60143-2400484",
+        "ancestry-60143-15973105",
+        "ancestry-60143-11780213",
+        "ancestry-60143-14510115",
+        "ancestry-60143-11809291"
+      ],
+      "scope": "Held for identity review only against unrelated same-name drafts. Inherits the open 1687-child identification of George-1058. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-20e109ab95b4.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1058": "George Glasgow",
+        "record-ancestry-glasgow-20e109ab95b4": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-50d2a6072630",
+      "relative_id": "Glasgow-3457",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-robert1740-ayr-father-20261105",
+      "basis": "Robert's Ayr baptism of 16 November 1740 names Robert Glasgow and Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/16346646), the same couple as his brother David-3456 at Ayr in 1744. Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). He joins David under Robert Glasgow-3457 at 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16346646",
+        "ancestry-60143-4400472"
+      ],
+      "scope": "Index rows only. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-50d2a6072630.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3457": "Robert Glasgow",
+        "record-ancestry-glasgow-50d2a6072630": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3457",
+      "relative_id": "record-ancestry-glasgow-50d2a6072630",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-robert1740-ayr-father-20261105",
+      "basis": "Robert's Ayr baptism of 16 November 1740 names Robert Glasgow and Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/16346646), the same couple as his brother David-3456 at Ayr in 1744. Robert Glasgow and Mary Borland baptised John at Irvine on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and again on 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), then Robert at Ayr on 16 November 1740 (https://www.ancestry.co.uk/search/collections/60143/records/16346646) and David at Ayr on 29 July 1744 (https://www.ancestry.co.uk/search/collections/60143/records/4400472). He joins David under Robert Glasgow-3457 at 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16346646",
+        "ancestry-60143-4400472"
+      ],
+      "scope": "Index rows only. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-50d2a6072630.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3457": "Robert Glasgow",
+        "record-ancestry-glasgow-50d2a6072630": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-50d2a6072630",
+      "relative_id": "Borland-1478",
+      "relationship": "mother",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-robert1740-ayr-mother-20261105",
+      "basis": "The Ayr baptism of 16 November 1740 names mother Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/16346646), matched to Mary (Borland) Glasgow-1478, wife of Robert-3457. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16346646",
+        "ancestry-60143-4400472"
+      ],
+      "scope": "Borland-1478 and Borland-1479 are duplicate profiles. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-50d2a6072630.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Borland-1478": "Mary (Borland) Glasgow",
+        "record-ancestry-glasgow-50d2a6072630": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Borland-1478",
+      "relative_id": "record-ancestry-glasgow-50d2a6072630",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-robert1740-ayr-mother-20261105",
+      "basis": "The Ayr baptism of 16 November 1740 names mother Mary Borland (https://www.ancestry.co.uk/search/collections/60143/records/16346646), matched to Mary (Borland) Glasgow-1478, wife of Robert-3457. Assessed 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16346646",
+        "ancestry-60143-4400472"
+      ],
+      "scope": "Borland-1478 and Borland-1479 are duplicate profiles. The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index; where the same entry was already held it is not counted twice. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-50d2a6072630.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Borland-1478": "Mary (Borland) Glasgow",
+        "record-ancestry-glasgow-50d2a6072630": "Robert Glasgow"
       }
     },
     {
