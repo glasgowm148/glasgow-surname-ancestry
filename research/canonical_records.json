@@ -434703,5 +434703,155 @@
       "ancestry-3145-24819655",
       "ancestry-3145-23177844"
     ]
+  },
+  {
+    "record_id": "ancestry-60144-500273",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/500273",
+    "collection": "Scotland, Select Marriages, 1561–1910",
+    "person": "John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/500273",
+    "source_title": "Ancestry, Scotland, Select Marriages: John Glasgow, 26 Feb 1820, record 60144/500273",
+    "source_type": "Provider search index",
+    "source_level": "index",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage search index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages and banns",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Marriage Date": "26 Feb 1820",
+      "Marriage Place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
+      "Relatives": "Isobella",
+      "Primary": "Primary record"
+    },
+    "event_role": "indexed principal",
+    "association": "John Glasgow — marriage index",
+    "date": "26 Feb 1820",
+    "year": 1820,
+    "place": "St Cuthbert’s, Edinburgh, Midlothian, Scotland",
+    "country": "Scotland",
+    "status": "Reviewed search index; identity unassigned",
+    "note": "The marriage index lists John Glasgow with Isobella on 26 Feb 1820 at St Cuthbert’s, Edinburgh, Midlothian, Scotland. The search index gives the other spouse’s given name only.",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-60144-540253",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/540253",
+    "collection": "Scotland, Select Marriages, 1561–1910",
+    "person": "John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/540253",
+    "source_title": "Ancestry, Scotland, Select Marriages: John Glasgow, 20 Feb 1820, record 60144/540253",
+    "source_type": "Provider search index",
+    "source_level": "index",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage search index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages and banns",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Marriage Date": "20 Feb 1820",
+      "Marriage Place": "Glasgow, Lanark, Scotland",
+      "Relatives": "Elizabeth",
+      "Primary": "Primary record"
+    },
+    "event_role": "indexed principal",
+    "association": "John Glasgow — marriage index",
+    "date": "20 Feb 1820",
+    "year": 1820,
+    "place": "Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "status": "Reviewed search index; identity unassigned",
+    "note": "The marriage index lists John Glasgow with Elizabeth on 20 Feb 1820 at Glasgow, Lanarkshire, Scotland. The search index gives the other spouse’s given name only.",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-60144-577936",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/577936",
+    "collection": "Scotland, Select Marriages, 1561–1910",
+    "person": "Margaret Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/577936",
+    "source_title": "Ancestry, Scotland, Select Marriages: Margaret Glasgow, 9 Jun 1818, record 60144/577936",
+    "source_type": "Provider search index",
+    "source_level": "index",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage search index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages and banns",
+    "indexed_facts": {
+      "Name": "Margaret Glasgow",
+      "Marriage Date": "9 Jun 1818",
+      "Marriage Place": "Rothesay, Bute, Scotland, United Kingdom",
+      "Relatives": "James",
+      "Primary": "Primary record"
+    },
+    "event_role": "indexed principal",
+    "association": "Margaret Glasgow — marriage index",
+    "date": "9 Jun 1818",
+    "year": 1818,
+    "place": "Rothesay, Bute, Scotland",
+    "country": "Scotland",
+    "status": "Companion marriage index; adult identity unassigned",
+    "note": "The marriage index lists Margaret Glasgow with James on 9 Jun 1818 at Rothesay, Bute, Scotland. The search index gives the other spouse’s given name only. The name, date, parish and spouse’s given name match another index entry for the same marriage.",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-60144-4132486",
+      "ancestry-60144-4132485"
+    ]
+  },
+  {
+    "record_id": "ancestry-60143-786819",
+    "provider": "Ancestry",
+    "provider_record_id": "60143/786819",
+    "collection": "Scotland, Select Births and Baptisms, 1564–1950",
+    "person": "Isabella Glasgow Lamond",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/786819",
+    "source_title": "Ancestry, Scotland, Select Births and Baptisms: Isabella Glasgow Lamond, record 60143/786819",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry parent index transcript",
+    "record_type": "Parent index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Isabella Glasgow Lamond",
+      "Gender": "Female",
+      "Spouse": "Alexander Lamond"
+    },
+    "event_role": "indexed mother",
+    "association": "Isabella Glasgow Lamond — mother named in birth or baptism index",
+    "date": "Undated",
+    "year": null,
+    "date_status": "undated",
+    "place": "",
+    "country": "Scotland",
+    "status": "Matched existing documentary subject",
+    "profiles": {
+      "record-ancestry-glasgow-a418c675f276": {
+        "role": "Indexed mother; both spouses match the memorial",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index names Isabella Glasgow Lamond as the mother and Alexander Lamond as her spouse. The couple also appears on the Clarkston Churchyard inscription, where Isabella’s death in 1936 at age 75 places her birth around 1861. The parent index supplies no date or parish.",
+    "historical_basis": {
+      "latest_birth_year": 1863,
+      "source_url": "https://www.ancestry.co.uk/search/collections/62497/records/125227",
+      "reason": "The monument names Isabella Glasgow, wife of Alexander Lamond, and records her death in 1936 aged 75."
+    },
+    "related_evidence_ids": [
+      "ancestry-62497-125227"
+    ],
+    "provenance": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
   }
 ]
