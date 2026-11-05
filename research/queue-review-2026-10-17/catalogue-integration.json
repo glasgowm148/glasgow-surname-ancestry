@@ -184253,6 +184253,75 @@
       "current_questions": [
         "Inspect the original register entry for fuller names, residences and relatives."
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-3d16f41d6cc7",
+      "subject_id": "ancestry-glasgow-3d16f41d6cc7",
+      "name": "George Glasgow",
+      "first_names": [
+        "George"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "before 1689",
+      "birth_note": "A father at a 1702 baptism; WikiTree Glasgow-4171 estimates 1683.",
+      "birth_location": "Stevenston, Ayrshire, Scotland",
+      "birth_location_note": "Residence at the 1702 baptism; birthplace not recorded.",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1689,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/19703841",
+        "basis_kind": "record",
+        "explanation": "Father at the baptism of Jean Glasgow, 19 Jul 1702"
+      },
+      "source_subject_url": "https://www.wikitree.com/wiki/Glasgow-4171",
+      "research_subject_url": "/people/record-ancestry-glasgow-3d16f41d6cc7.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/wikitree-parent-drafts.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Glasgow is named as father of Jean (Joan) Glasgow, baptised at Stevenston, Ayrshire, on 19 July 1702; her mother is indexed as Jean Smith.<ref name=\"anc19703841\">[https://www.ancestry.co.uk/search/collections/60143/records/19703841 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, Jean Glasgow, 19 Jul 1702, Stevenston, Ayr, Scotland]. Ancestry index transcript inspected 2026-11-05; original register uninspected.</ref><ref name=\"anc19703839\">[https://www.ancestry.co.uk/search/collections/60143/records/19703839 Ancestry, Scotland, Select Births and Baptisms, 1564-1950, George Glasgow (father entry), 19 Jul 1702, Stevenston]. Ancestry index entry read 2026-11-05; original uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-05: this is the George Glasgow of the WikiTree profile Glasgow-4171 (father of Joan Glasgow-4105, husband of Joan Smith, Smith-407061; WikiTree estimates his birth at 1683 at Stevenston), which is not yet in the local catalogue export. Glasgow-2714 (George Glasgow, born before 1658, husband of Jean Gardiner) is not this father: the baptism names the mother Jean Smith. He was born by about 1689 (a father in 1702). His own parentage is not yet researched.\n\nNext research: Inspect the Stevenston register entry and seek George's marriage to Jean Smith and other children.\n\n== Sources ==\n<references />\n",
+      "assessment": "George Glasgow of Stevenston, father of Jean (Joan) Glasgow baptised 19 July 1702 and husband of Jean Smith; the same man as WikiTree Glasgow-4171, which the local catalogue does not yet hold.",
+      "current_conclusion": "George Glasgow of Stevenston, father of Jean (Joan) Glasgow baptised 19 July 1702 and husband of Jean Smith; the same man as WikiTree Glasgow-4171, which the local catalogue does not yet hold.",
+      "current_questions": [
+        "Inspect the Stevenston register entry and seek his marriage to Jean Smith and other children.",
+        "Add WikiTree Glasgow-4171 to the catalogue export and merge this draft into it."
+      ],
+      "creation_status": "creation_ready",
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "id": "Glasgow-2714",
+          "name": "George Glasgow",
+          "conclusion": "ruled out: wife Jean Gardiner, while the baptism names the mother Jean Smith"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Catalogue people and drafts named George Glasgow of Ayrshire born 1640-1700",
+        "candidates": [
+          "Glasgow-2714",
+          "Glasgow-1058",
+          "Glasgow-3120"
+        ],
+        "conclusion": "creation_ready"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Births and Baptisms, 1564-1950: Jean Glasgow, 19 Jul 1702",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/19703841",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-05; original register uninspected",
+          "year": "1702",
+          "filter_year": 1702,
+          "record_location": "Stevenston, Ayr, Scotland",
+          "region": "Scotland",
+          "association": "Father of Jean Glasgow, baptised 19 Jul 1702 at Stevenston; mother Jean Smith",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
     }
   ]
 }
