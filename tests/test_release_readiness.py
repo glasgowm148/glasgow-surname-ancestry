@@ -42,6 +42,16 @@ class ReleaseReadinessTests(unittest.TestCase):
         self.assertIn("Catalogue · 27 Sep 2026", repaired)
         self.assertIn("Tree and DNA have separate snapshot dates.", repaired)
 
+    def test_snapshot_shows_build_time_when_given(self):
+        from datetime import datetime
+        helper = module()
+        page = '<a class="g-snapshot-link" href="/status/" title="Old">Catalogue · old</a>'
+        built = datetime(2026, 11, 5, 9, 7)
+        repaired = helper.snapshot(page, date(2026, 10, 31), built)
+        self.assertIn(">Built 5 Nov 2026, 09:07</a>", repaired)
+        self.assertIn("Site built 5 November 2026 at 09:07. Catalogue snapshot: 31 October 2026.", repaired)
+        self.assertEqual(helper.snapshot(repaired, date(2026, 10, 31), built), repaired)
+
     @requires_generated_data
     def test_changes_feed_uses_dated_native_research_updates(self):
         helper = module()

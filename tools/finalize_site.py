@@ -22,7 +22,7 @@ def finalize(site_root=ROOT/'www'):
     from tools.repair_person_hierarchy import CSS as person_css
     from tools.site_analytics import with_analytics
     from tools.repair_release_readiness import snapshot, about_dates
-    from datetime import date
+    from datetime import date, datetime
     from tools.publish_reviewed_collections import publish as publish_collections
     from tools.ingest_canonical_records import publish_reviewed
     counts=Counter()
@@ -41,6 +41,7 @@ def finalize(site_root=ROOT/'www'):
         counts.update(repair_source_collections(site_root))
     health_path=site_root/'health.json'
     generated=date.fromisoformat(json.loads(health_path.read_text())['generated']) if health_path.exists() else None
+    built=datetime.now().replace(second=0,microsecond=0)  # one stamp for every page in this build
     manifest_path=site_root/'data/manifest.json'
     manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     counts.update(build_search(site_root))
@@ -82,7 +83,7 @@ def finalize(site_root=ROOT/'www'):
             # The family tree page states its own import date (repair_public_dna);
             # the catalogue date must not overwrite it.
             if path.relative_to(site_root).as_posix()!='onetree/index.html':
-                after=snapshot(after,generated)
+                after=snapshot(after,generated,built)
             if path.relative_to(site_root).as_posix()=='about/index.html':
                 after=about_dates(after,generated,manifest)
         tree = 'g-kind-tree' in after

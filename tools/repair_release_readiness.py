@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from collections import Counter
-from datetime import date
+from datetime import date, datetime
 from html import escape
 import json
 from pathlib import Path
@@ -34,10 +34,14 @@ def release_data() -> tuple[dict, dict, date]:
     return health, manifest, date.fromisoformat(health["generated"])
 
 
-def snapshot(page: str, generated: date) -> str:
+def snapshot(page: str, generated: date, built: datetime | None = None) -> str:
     label = generated.strftime("Catalogue · %d %b %Y").replace(" 0", " ")
     title = generated.strftime("Catalogue snapshot: %d %B %Y").replace(" 0", " ")
     title += ". Tree and DNA have separate snapshot dates."
+    if built:
+        # The badge shows when the site was last built; the catalogue date stays in the title.
+        label = f"Built {built.day} {built.strftime('%b %Y, %H:%M')}"
+        title = f"Site built {built.day} {built.strftime('%B %Y at %H:%M')}. " + title
     def replace(match):
         opening = re.sub(r'\s+title=["\'][^"\']*["\']', '', match[1])
         return opening[:-1] + f' title="{escape(title, quote=True)}">{label}</a>'
