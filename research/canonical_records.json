@@ -430333,5 +430333,105 @@
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-61596-10449149",
+    "provider": "Ancestry",
+    "provider_record_id": "61596/10449149",
+    "collection": "1939 England and Wales Register",
+    "person": "Beatrice M Simmons",
+    "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/10449149",
+    "source_title": "Ancestry, 1939 England and Wales Register: Beatrice M Simmons, RG 101/807F, schedule 65, record 61596/10449149",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry register index",
+    "record_type": "Population register",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Beatrice M Simmons",
+      "Alternate indexed names": "Beatrice M Glasgow",
+      "Birth Date": "1 Aug 1904",
+      "Residence Date": "1939",
+      "Residence Place": "Middlesex, England",
+      "Address": "276 Lansbury Drive",
+      "Borough": "Hayes and Harlington",
+      "Schedule Number": "65",
+      "Sub Schedule Number": "2",
+      "Archive reference": "RG 101/807F"
+    },
+    "event_role": "indexed resident",
+    "association": "Beatrice M Simmons — 1939 register",
+    "status": "Documentary source; identity held",
+    "date": "1939",
+    "year": 1939,
+    "place": "Hayes and Harlington, Middlesex, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-register-beatrice-simmons-1904": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The register indexes Beatrice M Simmons, born 1 Aug 1904, at 276 Lansbury Drive in Hayes and Harlington, Middlesex, England in 1939. Beatrice M Glasgow is an indexed alternate name.",
+    "provenance": "The National Archives, 1939 Register, RG 101/807F. Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1904,
+      "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/10449149",
+      "reason": "Named principal has an explicit birth date in the 1939 register index."
+    }
+  },
+  {
+    "record_id": "ancestry-61596-14207406",
+    "provider": "Ancestry",
+    "provider_record_id": "61596/14207406",
+    "collection": "1939 England and Wales Register",
+    "person": "Marjorie Kehl",
+    "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/14207406",
+    "source_title": "Ancestry, 1939 England and Wales Register: Marjorie Kehl, RG 101/1379I, schedule 74, record 61596/14207406",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry register index",
+    "record_type": "Population register",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Marjorie Kehl",
+      "Alternate indexed names": "Marjorie Glasgow",
+      "Birth Date": "19 Dec 1904",
+      "Residence Date": "1939",
+      "Residence Place": "Surrey, England",
+      "Address": "70 Church Road",
+      "Borough": "Richmond",
+      "Schedule Number": "74",
+      "Sub Schedule Number": "3",
+      "Archive reference": "RG 101/1379I"
+    },
+    "event_role": "indexed resident",
+    "association": "Marjorie Kehl — 1939 register",
+    "status": "Documentary source; identity held",
+    "date": "1939",
+    "year": 1939,
+    "place": "Richmond, Surrey, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-register-marjorie-kehl-1904": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The register indexes Marjorie Kehl, born 19 Dec 1904, at 70 Church Road in Richmond, Surrey, England in 1939. Marjorie Glasgow is an indexed alternate name.",
+    "provenance": "The National Archives, 1939 Register, RG 101/1379I. Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1904,
+      "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/14207406",
+      "reason": "Named principal has an explicit birth date in the 1939 register index."
+    }
   }
 ]
