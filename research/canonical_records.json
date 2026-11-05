@@ -112866,24 +112866,26 @@
     "event_role": "bride",
     "date": "17 Feb 1705",
     "year": 1705,
-    "place": ", Kilwinning, Ayr, Scotland",
+    "place": "Kilwinning, Ayr, Scotland",
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/231057",
-    "source_title": "Scotland, Select Marriages, 1561-1910 — Agnes Glasgow, 17 Feb 1705, , Kilwinning, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_title": "Ancestry, Scotland, Select Marriages, 1561–1910: Agnes Glasgow and Robert Weir, 17 Feb 1705, Kilwinning, Ayr, Scotland, record 60144/231057",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Agnes Glasgow",
+      "Gender": "Female",
       "Marriage Date": "17 Feb 1705",
       "Marriage Place": ", Kilwinning, Ayr, Scotland",
-      "Spouse": "Robert"
+      "Spouse": "Robert Weir",
+      "Reference ID": "2:g3sx01"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Agnes Glasgow married Robert on 17 Feb 1705 at , Kilwinning, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Agnes Glasgow linked to Glasgow-32 (Agnes Glasgow) as a possible identity: spouse Robert Weir matches indexed spouse given name Robert. Same-name candidates ruled out: Brydon-460 Agnes (Brydon) Glasgow b. 1839: dates conflict: catalogue birth 1839 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1839-1839; different named spouse (William Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Craigie-764 Agnes (Craigie) Glasgow b. 1839: dates conflict: catalogue birth 1839 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1839-1839; different named spouse (Thomas Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Cunningham-20926 Agnes (Cunningham) Glasgow b. c. 1755: dates conflict: catalogue birth c. 1755 too late for a marriage in 1705; different named spouse (Alexander Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Duncan-16106 Agnes (Duncan) Glasgow b. 1632: different named spouse (James Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Eastone-3 Agnes (Eastone) Glasgow b. c. 1647: different named spouse (John Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Ferguson-15168 Agnes (Ferguson) Glasgow b. c. 1695 d. c. 1747: dates conflict: catalogue birth c. 1695 too late for a marriage in 1705; different named spouse (John Glasgow MA; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-3838 Agnes (Glasgow) Greenfield b. 1841: dates conflict: catalogue birth 1841 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1841-1841; Glasgow-1455 Agnes (Glasgow) Watt b. before 1829-08-10 d. 1909-08-15: dates conflict: catalogue birth before 1829-08-10 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1829-1909.",
+    "note": "The index names Agnes Glasgow and Robert Weir, 17 Feb 1705, Kilwinning, Ayr, Scotland. The Stevenston entry dated 15 February and the Kilwinning entries dated 17 February name the same couple. The abstracts do not establish whether these were banns or a ceremony. Glasgow-32 has a spouse named Robert Weir, but her estimated chronology and the imported 1801 death remain unresolved.",
     "profiles": {
       "Glasgow-32": {
         "role": "Possible identity: bride; spouse Robert Weir matches indexed spouse given name Robert",
@@ -112897,10 +112899,14 @@
       "basis": "Marriage 17 Feb 1705; publication requires a birth more than 120 years ago.",
       "explanation": "Marriage 17 Feb 1705"
     },
-    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910; FamilySearch index.",
+    "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "ancestry-60144-2415605",
+      "ancestry-60144-877150"
+    ]
   },
   {
     "record_id": "ancestry-60144-2319387",
@@ -113899,24 +113905,25 @@
     "event_role": "bride",
     "date": "17 Feb 1705",
     "year": 1705,
-    "place": ", Kilwinning, Ayr, Scotland",
+    "place": "Kilwinning, Ayr, Scotland",
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2415605",
-    "source_title": "Scotland, Select Marriages, 1561-1910 — Agnes Glasgow, 17 Feb 1705, , Kilwinning, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_title": "Ancestry, Scotland, Select Marriages, 1561–1910: Agnes Glasgow and Robert Weir, 17 Feb 1705, Kilwinning, Ayr, Scotland, record 60144/2415605",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Agnes Glasgow",
+      "Gender": "Female",
       "Marriage Date": "17 Feb 1705",
       "Marriage Place": ", Kilwinning, Ayr, Scotland",
-      "Spouse": "Robert"
+      "Spouse": "Robert Weir"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Agnes Glasgow married Robert on 17 Feb 1705 at , Kilwinning, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Agnes Glasgow linked to Glasgow-32 (Agnes Glasgow) as a possible identity: spouse Robert Weir matches indexed spouse given name Robert. Same-name candidates ruled out: Brydon-460 Agnes (Brydon) Glasgow b. 1839: dates conflict: catalogue birth 1839 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1839-1839; different named spouse (William Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Craigie-764 Agnes (Craigie) Glasgow b. 1839: dates conflict: catalogue birth 1839 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1839-1839; different named spouse (Thomas Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Cunningham-20926 Agnes (Cunningham) Glasgow b. c. 1755: dates conflict: catalogue birth c. 1755 too late for a marriage in 1705; different named spouse (Alexander Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Duncan-16106 Agnes (Duncan) Glasgow b. 1632: different named spouse (James Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Eastone-3 Agnes (Eastone) Glasgow b. c. 1647: different named spouse (John Glasgow; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Ferguson-15168 Agnes (Ferguson) Glasgow b. c. 1695 d. c. 1747: dates conflict: catalogue birth c. 1695 too late for a marriage in 1705; different named spouse (John Glasgow MA; record names Robert); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-3838 Agnes (Glasgow) Greenfield b. 1841: dates conflict: catalogue birth 1841 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1841-1841; Glasgow-1455 Agnes (Glasgow) Watt b. before 1829-08-10 d. 1909-08-15: dates conflict: catalogue birth before 1829-08-10 too late for a marriage in 1705; chronology conflict: catalogue events are dated 1829-1909.",
+    "note": "The index names Agnes Glasgow and Robert Weir, 17 Feb 1705, Kilwinning, Ayr, Scotland. The Stevenston entry dated 15 February and the Kilwinning entries dated 17 February name the same couple. The abstracts do not establish whether these were banns or a ceremony. Glasgow-32 has a spouse named Robert Weir, but her estimated chronology and the imported 1801 death remain unresolved.",
     "profiles": {
       "Glasgow-32": {
         "role": "Possible identity: bride; spouse Robert Weir matches indexed spouse given name Robert",
@@ -113930,10 +113937,14 @@
       "basis": "Marriage 17 Feb 1705; publication requires a birth more than 120 years ago.",
       "explanation": "Marriage 17 Feb 1705"
     },
-    "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910; FamilySearch index.",
+    "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
+    "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)",
+    "related_evidence_ids": [
+      "ancestry-60144-231057",
+      "ancestry-60144-877150"
+    ]
   },
   {
     "record_id": "ancestry-60144-2416694",
@@ -413846,6 +413857,44 @@
     },
     "related_evidence_ids": [
       "ancestry-61596-46053714"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-877150",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/877150",
+    "collection": "Scotland, Select Marriages, 1561–1910",
+    "person": "Agnes Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/877150",
+    "country": "Scotland",
+    "event_role": "indexed bride",
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "association": "Agnes Glasgow and Robert Weir — Stevenston marriage entry",
+    "status": "Documentary source; identity held",
+    "publish_to_record_index": true,
+    "profiles": {},
+    "source_title": "Ancestry, Scotland, Select Marriages, 1561–1910: Agnes Glasgow and Robert Weir, 15 Feb 1705, Stevenston, Ayr, Scotland, record 60144/877150",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index",
+    "indexed_facts": {
+      "Name": "Agnes Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "15 Feb 1705",
+      "Marriage Place": "Stevenston, Ayr, Scotland",
+      "Spouse": "Robert Weir"
+    },
+    "note": "The index names Agnes Glasgow and Robert Weir at Stevenston on 15 February 1705. Two Kilwinning entries dated 17 February name the same couple. The abstracts do not establish whether these were banns or a ceremony.",
+    "date": "15 Feb 1705",
+    "year": 1705,
+    "place": "Stevenston, Ayr, Scotland",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910; FamilySearch index.",
+    "reviewed_on": "2026-11-05",
+    "related_evidence_ids": [
+      "ancestry-60144-231057",
+      "ancestry-60144-2415605"
     ]
   }
 ]
