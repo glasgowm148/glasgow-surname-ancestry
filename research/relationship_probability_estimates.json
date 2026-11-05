@@ -12658,29 +12658,51 @@
       "subject_id": "Glasgow-2433",
       "relative_id": "Glasgow-3706",
       "relationship": "father",
-      "percent": 49,
-      "assessment_status": "possible",
+      "percent": 85,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022d-glasgow-2433-father",
-      "basis": "John’s 6 July 1786 birth is compatible with Robert’s 1745 generation and the handed-down Gardiner family tree. The exact birth detail makes this more specific than an undated surname connection.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for John Glasgow, 6 July 1786 at Eccles, Berwickshire (https://www.ancestry.co.uk/search/collections/60143/records/27458592), reads the parent fields that the previous review could not see: father Robert and mother Agnes (forenames only). The previous 49% rested only on a handed-down family tree that quotes no record. John's birth date 6 July 1786 is exactly this entry, and the index shows one Robert and Agnes family at Eccles (which includes Leitholm) from 1779 to 1795: James 1779, Thomas 1781, Marion 1782, William 1784, John 1786, Agnes 1789, Thomas 1791 and Isobel 1795 (for example https://www.ancestry.co.uk/search/collections/60143/records/27458082). That is the household of Robert Glasgow-3706 and Agnes Whitehead, who married at Leitholm in 1779. Confidence rises from 49% to 85% probable.",
       "source_ids": [
-        "held-e-38ca4f1165cf"
+        "held-e-38ca4f1165cf",
+        "ancestry-60143-27458592"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible inherited placement; the held account does not quote a record naming Robert as father."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only; Whitehead comes from the couple's 1779 marriage. John's later identity as the Leitholm man who died in 1864 rests on his profile's birth date and residence. Robert-3706's own father link (James-1238, 34%) is separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 49,
+          "assessment_status": "possible",
+          "basis": "John’s 6 July 1786 birth is compatible with Robert’s 1745 generation and the handed-down Gardiner family tree. The exact birth detail makes this more specific than an undated surname connection.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3706",
       "relative_id": "Glasgow-2433",
       "relationship": "child",
-      "percent": 49,
-      "assessment_status": "possible",
+      "percent": 85,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022d-glasgow-2433-father",
-      "basis": "John’s 6 July 1786 birth is compatible with Robert’s 1745 generation and the handed-down Gardiner family tree. The exact birth detail makes this more specific than an undated surname connection.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for John Glasgow, 6 July 1786 at Eccles, Berwickshire (https://www.ancestry.co.uk/search/collections/60143/records/27458592), reads the parent fields that the previous review could not see: father Robert and mother Agnes (forenames only). The previous 49% rested only on a handed-down family tree that quotes no record. John's birth date 6 July 1786 is exactly this entry, and the index shows one Robert and Agnes family at Eccles (which includes Leitholm) from 1779 to 1795: James 1779, Thomas 1781, Marion 1782, William 1784, John 1786, Agnes 1789, Thomas 1791 and Isobel 1795 (for example https://www.ancestry.co.uk/search/collections/60143/records/27458082). That is the household of Robert Glasgow-3706 and Agnes Whitehead, who married at Leitholm in 1779. Confidence rises from 49% to 85% probable.",
       "source_ids": [
-        "held-e-38ca4f1165cf"
+        "held-e-38ca4f1165cf",
+        "ancestry-60143-27458592"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Possible inherited placement; the held account does not quote a record naming Robert as father."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only; Whitehead comes from the couple's 1779 marriage. John's later identity as the Leitholm man who died in 1864 rests on his profile's birth date and residence. Robert-3706's own father link (James-1238, 34%) is separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 49,
+          "assessment_status": "possible",
+          "basis": "John’s 6 July 1786 birth is compatible with Robert’s 1745 generation and the handed-down Gardiner family tree. The exact birth detail makes this more specific than an undated surname connection.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-2439",
@@ -18085,29 +18107,51 @@
       "subject_id": "Glasgow-1335",
       "relative_id": "Glasgow-1546",
       "relationship": "father",
-      "percent": 81,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1335-father",
-      "basis": "Mary 1707 has a specific Kirknewton FamilySearch citation and the same inherited Andrew/Christian Cook pair as the earlier Mary 1701. The ongoing local family fits, while repeated naming and absent published fields prevent a near-certain reading.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Mary Glasgow, 4 April 1707 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/14547591), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-b22786f3e91d"
+        "held-e-b22786f3e91d",
+        "ancestry-60143-14547591"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "1707 child’s inherited family link; do not merge the two Mary accounts or infer a death for 1701."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. The earlier Mary of 1701 is not merged with her. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 81,
+          "assessment_status": "probable",
+          "basis": "Mary 1707 has a specific Kirknewton FamilySearch citation and the same inherited Andrew/Christian Cook pair as the earlier Mary 1701. The ongoing local family fits, while repeated naming and absent published fields prevent a near-certain reading.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1546",
       "relative_id": "Glasgow-1335",
       "relationship": "child",
-      "percent": 81,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1335-father",
-      "basis": "Mary 1707 has a specific Kirknewton FamilySearch citation and the same inherited Andrew/Christian Cook pair as the earlier Mary 1701. The ongoing local family fits, while repeated naming and absent published fields prevent a near-certain reading.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Mary Glasgow, 4 April 1707 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/14547591), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-b22786f3e91d"
+        "held-e-b22786f3e91d",
+        "ancestry-60143-14547591"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "1707 child’s inherited family link; do not merge the two Mary accounts or infer a death for 1701."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. The earlier Mary of 1701 is not merged with her. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 81,
+          "assessment_status": "probable",
+          "basis": "Mary 1707 has a specific Kirknewton FamilySearch citation and the same inherited Andrew/Christian Cook pair as the earlier Mary 1701. The ongoing local family fits, while repeated naming and absent published fields prevent a near-certain reading.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1932",
@@ -18617,29 +18661,51 @@
       "subject_id": "Glasgow-1337",
       "relative_id": "Glasgow-1546",
       "relationship": "father",
-      "percent": 83,
+      "percent": 86,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1337-father",
-      "basis": "Christian 1713 has the same inherited Andrew/Cook couple and a specific Kirknewton record citation; recurrence of the mother’s given name and coherent sibling sequence modestly strengthen placement. Naming is supporting context, not proof.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Christian Glasgow, 24 April 1713 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/14547753), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 86%.",
       "source_ids": [
-        "held-e-7f48bb2e658d"
+        "held-e-7f48bb2e658d",
+        "ancestry-60143-14547753"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Inherited family link, with no verified parent fields in the supplied public summary."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 83,
+          "assessment_status": "probable",
+          "basis": "Christian 1713 has the same inherited Andrew/Cook couple and a specific Kirknewton record citation; recurrence of the mother’s given name and coherent sibling sequence modestly strengthen placement. Naming is supporting context, not proof.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1546",
       "relative_id": "Glasgow-1337",
       "relationship": "child",
-      "percent": 83,
+      "percent": 86,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1337-father",
-      "basis": "Christian 1713 has the same inherited Andrew/Cook couple and a specific Kirknewton record citation; recurrence of the mother’s given name and coherent sibling sequence modestly strengthen placement. Naming is supporting context, not proof.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Christian Glasgow, 24 April 1713 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/14547753), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 86%.",
       "source_ids": [
-        "held-e-7f48bb2e658d"
+        "held-e-7f48bb2e658d",
+        "ancestry-60143-14547753"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Inherited family link, with no verified parent fields in the supplied public summary."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 83,
+          "assessment_status": "probable",
+          "basis": "Christian 1713 has the same inherited Andrew/Cook couple and a specific Kirknewton record citation; recurrence of the mother’s given name and coherent sibling sequence modestly strengthen placement. Naming is supporting context, not proof.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-4102",
@@ -19003,29 +19069,51 @@
       "subject_id": "Glasgow-1338",
       "relative_id": "Glasgow-1546",
       "relationship": "father",
-      "percent": 81,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1338-father",
-      "basis": "Elizabeth 1717 has an exact indexed-record link within the inherited Andrew/Christian Cook family, whose 1700 banns establish a plausible local adult couple. The seventeen-year span is ordinary, but no held transcript exposes her parents.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Elizabeth Glasgow, 15 September 1717 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/22406676), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-50439360a72c"
+        "held-e-50439360a72c",
+        "ancestry-60143-22406676"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Inherited 1717 child placement; Andrew’s estimated 1685 birth and 58% upstream father are separate."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 81,
+          "assessment_status": "probable",
+          "basis": "Elizabeth 1717 has an exact indexed-record link within the inherited Andrew/Christian Cook family, whose 1700 banns establish a plausible local adult couple. The seventeen-year span is ordinary, but no held transcript exposes her parents.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1546",
       "relative_id": "Glasgow-1338",
       "relationship": "child",
-      "percent": 81,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1338-father",
-      "basis": "Elizabeth 1717 has an exact indexed-record link within the inherited Andrew/Christian Cook family, whose 1700 banns establish a plausible local adult couple. The seventeen-year span is ordinary, but no held transcript exposes her parents.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Elizabeth Glasgow, 15 September 1717 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/22406676), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-50439360a72c"
+        "held-e-50439360a72c",
+        "ancestry-60143-22406676"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Inherited 1717 child placement; Andrew’s estimated 1685 birth and 58% upstream father are separate."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 81,
+          "assessment_status": "probable",
+          "basis": "Elizabeth 1717 has an exact indexed-record link within the inherited Andrew/Christian Cook family, whose 1700 banns establish a plausible local adult couple. The seventeen-year span is ordinary, but no held transcript exposes her parents.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1933",
@@ -19199,29 +19287,51 @@
       "subject_id": "Glasgow-1340",
       "relative_id": "Glasgow-1546",
       "relationship": "father",
-      "percent": 80,
+      "percent": 83,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1340-father",
-      "basis": "Bessie 1719 is supported by a specific FamilySearch citation and the same inherited Andrew/Cook Kirknewton family. A nineteen-year family span remains plausible; the prior Elizabeth 1717 makes name reuse or duplicate identity a useful question rather than a father exclusion.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Bessie Glasgow, 5 April 1719 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/13889209), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 83%.",
       "source_ids": [
-        "held-e-a151396cc701"
+        "held-e-a151396cc701",
+        "ancestry-60143-13889209"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Inherited 1719 child-parent edge; neither a literal parent clause nor distinctness from Elizabeth 1717 is verified in the public dossier."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. Whether Bessie 1719 and Elizabeth 1717 are distinct children is still open. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 80,
+          "assessment_status": "probable",
+          "basis": "Bessie 1719 is supported by a specific FamilySearch citation and the same inherited Andrew/Cook Kirknewton family. A nineteen-year family span remains plausible; the prior Elizabeth 1717 makes name reuse or duplicate identity a useful question rather than a father exclusion.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1546",
       "relative_id": "Glasgow-1340",
       "relationship": "child",
-      "percent": 80,
+      "percent": 83,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1340-father",
-      "basis": "Bessie 1719 is supported by a specific FamilySearch citation and the same inherited Andrew/Cook Kirknewton family. A nineteen-year family span remains plausible; the prior Elizabeth 1717 makes name reuse or duplicate identity a useful question rather than a father exclusion.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Bessie Glasgow, 5 April 1719 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/13889209), reads the parent fields that the previous review could not see: father Andrew (forenames only). It sits in the Andrew Glasgow and Christian Cook family of Kirknewton attached as Andrew Glasgow-1546, so the father clause now confirms the inherited placement. Confidence rises to 83%.",
       "source_ids": [
-        "held-e-a151396cc701"
+        "held-e-a151396cc701",
+        "ancestry-60143-13889209"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Inherited 1719 child-parent edge; neither a literal parent clause nor distinctness from Elizabeth 1717 is verified in the public dossier."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row names the father only, not the mother. Andrew-1546's own birth (estimated 1685) and upstream father are separate and unchanged. Whether Bessie 1719 and Elizabeth 1717 are distinct children is still open. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 80,
+          "assessment_status": "probable",
+          "basis": "Bessie 1719 is supported by a specific FamilySearch citation and the same inherited Andrew/Cook Kirknewton family. A nineteen-year family span remains plausible; the prior Elizabeth 1717 makes name reuse or duplicate identity a useful question rather than a father exclusion.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3424",
@@ -20290,29 +20400,51 @@
       "subject_id": "Glasgow-1322",
       "relative_id": "Glasgow-1336",
       "relationship": "father",
-      "percent": 74,
+      "percent": 78,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1322-father",
-      "basis": "Margaret’s 1732 Kirknewton event citation and attached Andrew fit the local family, including another Margaret in 1734. No held published literal parent field establishes this Andrew, and the presumed early death is only estimated.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 16 October 1732 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/16870555), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 78%.",
       "source_ids": [
-        "held-e-4e7fd275bebd"
+        "held-e-4e7fd275bebd",
+        "ancestry-60143-16870555"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Existing child-to-father link assessed from held public evidence; No published transcript fields bridge the 1714 child Andrew to the 1732–1734 father; retain this open scope."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. A second Margaret was baptised in 1734; this Margaret's early death is still only presumed. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 74,
+          "assessment_status": "probable",
+          "basis": "Margaret’s 1732 Kirknewton event citation and attached Andrew fit the local family, including another Margaret in 1734. No held published literal parent field establishes this Andrew, and the presumed early death is only estimated.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1336",
       "relative_id": "Glasgow-1322",
       "relationship": "child",
-      "percent": 74,
+      "percent": 78,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-1322-father",
-      "basis": "Margaret’s 1732 Kirknewton event citation and attached Andrew fit the local family, including another Margaret in 1734. No held published literal parent field establishes this Andrew, and the presumed early death is only estimated.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 16 October 1732 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/16870555), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 78%.",
       "source_ids": [
-        "held-e-4e7fd275bebd"
+        "held-e-4e7fd275bebd",
+        "ancestry-60143-16870555"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Existing child-to-father link assessed from held public evidence; No published transcript fields bridge the 1714 child Andrew to the 1732–1734 father; retain this open scope."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. A second Margaret was baptised in 1734; this Margaret's early death is still only presumed. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 74,
+          "assessment_status": "probable",
+          "basis": "Margaret’s 1732 Kirknewton event citation and attached Andrew fit the local family, including another Margaret in 1734. No held published literal parent field establishes this Andrew, and the presumed early death is only estimated.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3327",
@@ -20480,29 +20612,51 @@
       "subject_id": "Glasgow-3053",
       "relative_id": "Glasgow-1336",
       "relationship": "father",
-      "percent": 79,
+      "percent": 83,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-3053-father",
-      "basis": "The 1734 Margaret index citation identifies mother Isobel Clerk and fits the earlier Margaret/Andrew grouping in Kirknewton. The supplied citation does not reproduce the father field; the 1714-child-to-adult Andrew bridge remains open.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 19 March 1734 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/2286303), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 83%.",
       "source_ids": [
-        "held-e-15ca936f6e11"
+        "held-e-15ca936f6e11",
+        "ancestry-60143-2286303"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Existing child-to-father link assessed from held public evidence; No published transcript fields bridge the 1714 child Andrew to the 1732–1734 father; retain this open scope."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 79,
+          "assessment_status": "probable",
+          "basis": "The 1734 Margaret index citation identifies mother Isobel Clerk and fits the earlier Margaret/Andrew grouping in Kirknewton. The supplied citation does not reproduce the father field; the 1714-child-to-adult Andrew bridge remains open.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1336",
       "relative_id": "Glasgow-3053",
       "relationship": "child",
-      "percent": 79,
+      "percent": 83,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022f-glasgow-3053-father",
-      "basis": "The 1734 Margaret index citation identifies mother Isobel Clerk and fits the earlier Margaret/Andrew grouping in Kirknewton. The supplied citation does not reproduce the father field; the 1714-child-to-adult Andrew bridge remains open.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 19 March 1734 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/2286303), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 83%.",
       "source_ids": [
-        "held-e-15ca936f6e11"
+        "held-e-15ca936f6e11",
+        "ancestry-60143-2286303"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Existing child-to-father link assessed from held public evidence; No published transcript fields bridge the 1714 child Andrew to the 1732–1734 father; retain this open scope."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 79,
+          "assessment_status": "probable",
+          "basis": "The 1734 Margaret index citation identifies mother Isobel Clerk and fits the earlier Margaret/Andrew grouping in Kirknewton. The supplied citation does not reproduce the father field; the 1714-child-to-adult Andrew bridge remains open.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3588",
@@ -20996,29 +21150,51 @@
       "subject_id": "Glasgow-1320",
       "relative_id": "Glasgow-1336",
       "relationship": "father",
-      "percent": 76,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1320-father",
-      "basis": "William’s 1739 Kirknewton index citation belongs to an ordered Andrew/Isobel Clerk family including the explicitly summarized 1747 Alexander. Family place and maternal pairing favour selected Andrew, but his 1714 childhood-to-adult bridge is unproved.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 6 April 1739 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/15925606), reads the parent fields that the previous review could not see: father Andrew and mother Isobell (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-06da16f3c91a"
+        "held-e-06da16f3c91a",
+        "ancestry-60143-15925606"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 76,
+          "assessment_status": "probable",
+          "basis": "William’s 1739 Kirknewton index citation belongs to an ordered Andrew/Isobel Clerk family including the explicitly summarized 1747 Alexander. Family place and maternal pairing favour selected Andrew, but his 1714 childhood-to-adult bridge is unproved.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1336",
       "relative_id": "Glasgow-1320",
       "relationship": "child",
-      "percent": 76,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1320-father",
-      "basis": "William’s 1739 Kirknewton index citation belongs to an ordered Andrew/Isobel Clerk family including the explicitly summarized 1747 Alexander. Family place and maternal pairing favour selected Andrew, but his 1714 childhood-to-adult bridge is unproved.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 6 April 1739 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/15925606), reads the parent fields that the previous review could not see: father Andrew and mother Isobell (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-06da16f3c91a"
+        "held-e-06da16f3c91a",
+        "ancestry-60143-15925606"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 76,
+          "assessment_status": "probable",
+          "basis": "William’s 1739 Kirknewton index citation belongs to an ordered Andrew/Isobel Clerk family including the explicitly summarized 1747 Alexander. Family place and maternal pairing favour selected Andrew, but his 1714 childhood-to-adult bridge is unproved.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3305",
@@ -21396,29 +21572,51 @@
       "subject_id": "Glasgow-1323",
       "relative_id": "Glasgow-1336",
       "relationship": "father",
-      "percent": 77,
+      "percent": 81,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1323-father",
-      "basis": "Jean’s 1743 Kirknewton index and same attached Clerk couple fit the 1739–1747 household closely. The 1747 named-couple record supports the family; Jean’s own wording and Andrew’s 1714 adult continuity remain unverified.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 12 July 1743 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/2171160), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 81%.",
       "source_ids": [
-        "held-e-8145922a53a8"
+        "held-e-8145922a53a8",
+        "ancestry-60143-2171160"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 77,
+          "assessment_status": "probable",
+          "basis": "Jean’s 1743 Kirknewton index and same attached Clerk couple fit the 1739–1747 household closely. The 1747 named-couple record supports the family; Jean’s own wording and Andrew’s 1714 adult continuity remain unverified.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1336",
       "relative_id": "Glasgow-1323",
       "relationship": "child",
-      "percent": 77,
+      "percent": 81,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1323-father",
-      "basis": "Jean’s 1743 Kirknewton index and same attached Clerk couple fit the 1739–1747 household closely. The 1747 named-couple record supports the family; Jean’s own wording and Andrew’s 1714 adult continuity remain unverified.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 12 July 1743 at Kirknewton and East Calder (https://www.ancestry.co.uk/search/collections/60143/records/2171160), reads the parent fields that the previous review could not see: father Andrew and mother Isobel (forenames only). It belongs to the Andrew Glasgow and Isobel Clerk family of Kirknewton attached as Andrew Glasgow-1336, so the child's link to that household is now read from the index rather than inherited. Confidence rises to 81%.",
       "source_ids": [
-        "held-e-8145922a53a8"
+        "held-e-8145922a53a8",
+        "ancestry-60143-2171160"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. The remaining uncertainty is Andrew-1336's identification with the 1714 Kirknewton child, which this record does not address. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 77,
+          "assessment_status": "probable",
+          "basis": "Jean’s 1743 Kirknewton index and same attached Clerk couple fit the 1739–1747 household closely. The 1747 named-couple record supports the family; Jean’s own wording and Andrew’s 1714 adult continuity remain unverified.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1430",
@@ -21782,29 +21980,51 @@
       "subject_id": "Glasgow-1332",
       "relative_id": "Glasgow-81",
       "relationship": "father",
-      "percent": 62,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1332-father",
-      "basis": "Jean’s 1745 West Calder citation fits John/Magdalene Guthrie’s ordered family and a circa-1709 paternal generation, but no held wording establishes the adult parental couple.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 3 February 1745 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/18844768), reads the parent fields that the previous review could not see: father John and mother Magdalen (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-a981e1580fb8"
+        "held-e-a981e1580fb8",
+        "ancestry-60143-18844768"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 62,
+          "assessment_status": "probable",
+          "basis": "Jean’s 1745 West Calder citation fits John/Magdalene Guthrie’s ordered family and a circa-1709 paternal generation, but no held wording establishes the adult parental couple.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-81",
       "relative_id": "Glasgow-1332",
       "relationship": "child",
-      "percent": 62,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1332-father",
-      "basis": "Jean’s 1745 West Calder citation fits John/Magdalene Guthrie’s ordered family and a circa-1709 paternal generation, but no held wording establishes the adult parental couple.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Jean Glasgow, 3 February 1745 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/18844768), reads the parent fields that the previous review could not see: father John and mother Magdalen (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-a981e1580fb8"
+        "held-e-a981e1580fb8",
+        "ancestry-60143-18844768"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 62,
+          "assessment_status": "probable",
+          "basis": "Jean’s 1745 West Calder citation fits John/Magdalene Guthrie’s ordered family and a circa-1709 paternal generation, but no held wording establishes the adult parental couple.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-2468",
@@ -22172,29 +22392,51 @@
       "subject_id": "Glasgow-1331",
       "relative_id": "Glasgow-81",
       "relationship": "father",
-      "percent": 64,
+      "percent": 82,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1331-father",
-      "basis": "Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This is positive context, not a literal reading of the entry.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Magdalen Glasgow, 29 January 1749 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/21216254), reads the parent fields that the previous review could not see: father John and mother Magdalen (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 82%.",
       "source_ids": [
-        "held-e-092b11b32315"
+        "held-e-092b11b32315",
+        "ancestry-60143-21216254"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 64,
+          "assessment_status": "probable",
+          "basis": "Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This is positive context, not a literal reading of the entry.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-81",
       "relative_id": "Glasgow-1331",
       "relationship": "child",
-      "percent": 64,
+      "percent": 82,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1331-father",
-      "basis": "Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This is positive context, not a literal reading of the entry.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Magdalen Glasgow, 29 January 1749 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/21216254), reads the parent fields that the previous review could not see: father John and mother Magdalen (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 82%.",
       "source_ids": [
-        "held-e-092b11b32315"
+        "held-e-092b11b32315",
+        "ancestry-60143-21216254"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 64,
+          "assessment_status": "probable",
+          "basis": "Magdalen’s 1749 West Calder citation and maternal namesake fit John/Magdalene Guthrie’s ordered family. This is positive context, not a literal reading of the entry.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-2980",
@@ -22516,57 +22758,101 @@
       "subject_id": "Glasgow-1329",
       "relative_id": "Glasgow-81",
       "relationship": "father",
-      "percent": 61,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1329-father",
-      "basis": "Janet’s 1751 West Calder citation fills a coherent interval between Magdalen in 1749 and Margaret in 1753, but only inherited parents are held.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Janet Glasgow, 18 August 1751 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/12599868), reads the parent fields that the previous review could not see: father John and mother Magdalene (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-e648fd1e5ac1"
+        "held-e-e648fd1e5ac1",
+        "ancestry-60143-12599868"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 61,
+          "assessment_status": "probable",
+          "basis": "Janet’s 1751 West Calder citation fills a coherent interval between Magdalen in 1749 and Margaret in 1753, but only inherited parents are held.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-81",
       "relative_id": "Glasgow-1329",
       "relationship": "child",
-      "percent": 61,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1329-father",
-      "basis": "Janet’s 1751 West Calder citation fills a coherent interval between Magdalen in 1749 and Margaret in 1753, but only inherited parents are held.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Janet Glasgow, 18 August 1751 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/12599868), reads the parent fields that the previous review could not see: father John and mother Magdalene (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-e648fd1e5ac1"
+        "held-e-e648fd1e5ac1",
+        "ancestry-60143-12599868"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 61,
+          "assessment_status": "probable",
+          "basis": "Janet’s 1751 West Calder citation fills a coherent interval between Magdalen in 1749 and Margaret in 1753, but only inherited parents are held.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1380",
       "relative_id": "Glasgow-1023",
       "relationship": "father",
-      "percent": 81,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1380-father",
-      "basis": "The 1752 Livingston child and citation fit Thomas/Janet’s established local sequence; no literal parent fields for this event survive in the supplied notes, and Thomas’s earlier identity remains inferred.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Grissell Glasgow, 18 June 1752 at Livingston (https://www.ancestry.co.uk/search/collections/60143/records/21027715), reads the parent fields that the previous review could not see: father Thomas and mother Janet (forenames only). It belongs to the Thomas Glasgow and Janet Mill family of Livingston attached as Thomas Glasgow-1023, whose other children's transcripts name the full couple. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-3853c80c75ad"
+        "held-e-3853c80c75ad",
+        "ancestry-60143-21027715"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. Thomas-1023's identification with the 1725 Kilwinning child remains inferred and is not addressed by this record. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 81,
+          "assessment_status": "probable",
+          "basis": "The 1752 Livingston child and citation fit Thomas/Janet’s established local sequence; no literal parent fields for this event survive in the supplied notes, and Thomas’s earlier identity remains inferred.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1023",
       "relative_id": "Glasgow-1380",
       "relationship": "child",
-      "percent": 81,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1380-father",
-      "basis": "The 1752 Livingston child and citation fit Thomas/Janet’s established local sequence; no literal parent fields for this event survive in the supplied notes, and Thomas’s earlier identity remains inferred.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Grissell Glasgow, 18 June 1752 at Livingston (https://www.ancestry.co.uk/search/collections/60143/records/21027715), reads the parent fields that the previous review could not see: father Thomas and mother Janet (forenames only). It belongs to the Thomas Glasgow and Janet Mill family of Livingston attached as Thomas Glasgow-1023, whose other children's transcripts name the full couple. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-3853c80c75ad"
+        "held-e-3853c80c75ad",
+        "ancestry-60143-21027715"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. Thomas-1023's identification with the 1725 Kilwinning child remains inferred and is not addressed by this record. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 81,
+          "assessment_status": "probable",
+          "basis": "The 1752 Livingston child and citation fit Thomas/Janet’s established local sequence; no literal parent fields for this event survive in the supplied notes, and Thomas’s earlier identity remains inferred.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3470",
@@ -22674,29 +22960,51 @@
       "subject_id": "Glasgow-1330",
       "relative_id": "Glasgow-81",
       "relationship": "father",
-      "percent": 60,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1330-father",
-      "basis": "Margaret’s 1753 West Calder citation continues the coherent John/Guthrie sequence, but neither a literal parent clause nor the father’s own adult household is verified here.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 13 December 1753 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/12992896), reads the parent fields that the previous review could not see: father John and mother Magdalene (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-96cdee77c343"
+        "held-e-96cdee77c343",
+        "ancestry-60143-12992896"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 60,
+          "assessment_status": "probable",
+          "basis": "Margaret’s 1753 West Calder citation continues the coherent John/Guthrie sequence, but neither a literal parent clause nor the father’s own adult household is verified here.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-81",
       "relative_id": "Glasgow-1330",
       "relationship": "child",
-      "percent": 60,
+      "percent": 80,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1330-father",
-      "basis": "Margaret’s 1753 West Calder citation continues the coherent John/Guthrie sequence, but neither a literal parent clause nor the father’s own adult household is verified here.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 13 December 1753 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/12992896), reads the parent fields that the previous review could not see: father John and mother Magdalene (forenames only). This is the John Glasgow and Magdalene Guthrie household of West Calder already attached as John Glasgow-81; with the parent clause now read, the child-to-household link is no longer an inherited placement. Confidence rises to 80%.",
       "source_ids": [
-        "held-e-96cdee77c343"
+        "held-e-96cdee77c343",
+        "ancestry-60143-12992896"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. John-81's own identification with the Kirknewton child of about 1709 and his father link (Andrew-1546) are separate and unchanged. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 60,
+          "assessment_status": "probable",
+          "basis": "Margaret’s 1753 West Calder citation continues the coherent John/Guthrie sequence, but neither a literal parent clause nor the father’s own adult household is verified here.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1384",
@@ -22944,29 +23252,51 @@
       "subject_id": "Glasgow-1385",
       "relative_id": "Glasgow-1023",
       "relationship": "father",
-      "percent": 80,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1385-father",
-      "basis": "William’s 1757 Livingston event fits Thomas/Mill’s preceding children and feasible generation. The bare index and contributed accounts do not themselves verify its parent fields or Thomas’s earlier identity.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 26 June 1757 at Livingston (https://www.ancestry.co.uk/search/collections/60143/records/12572568), reads the parent fields that the previous review could not see: father Thomas and mother Janet (forenames only). It belongs to the Thomas Glasgow and Janet Mill family of Livingston attached as Thomas Glasgow-1023, whose other children's transcripts name the full couple. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-fc26db3ead4b"
+        "held-e-fc26db3ead4b",
+        "ancestry-60143-12572568"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. Thomas-1023's identification with the 1725 Kilwinning child remains inferred and is not addressed by this record. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 80,
+          "assessment_status": "probable",
+          "basis": "William’s 1757 Livingston event fits Thomas/Mill’s preceding children and feasible generation. The bare index and contributed accounts do not themselves verify its parent fields or Thomas’s earlier identity.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1023",
       "relative_id": "Glasgow-1385",
       "relationship": "child",
-      "percent": 80,
+      "percent": 85,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1385-father",
-      "basis": "William’s 1757 Livingston event fits Thomas/Mill’s preceding children and feasible generation. The bare index and contributed accounts do not themselves verify its parent fields or Thomas’s earlier identity.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for William Glasgow, 26 June 1757 at Livingston (https://www.ancestry.co.uk/search/collections/60143/records/12572568), reads the parent fields that the previous review could not see: father Thomas and mother Janet (forenames only). It belongs to the Thomas Glasgow and Janet Mill family of Livingston attached as Thomas Glasgow-1023, whose other children's transcripts name the full couple. Confidence rises to 85%.",
       "source_ids": [
-        "held-e-fc26db3ead4b"
+        "held-e-fc26db3ead4b",
+        "ancestry-60143-12572568"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. Thomas-1023's identification with the 1725 Kilwinning child remains inferred and is not addressed by this record. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 80,
+          "assessment_status": "probable",
+          "basis": "William’s 1757 Livingston event fits Thomas/Mill’s preceding children and feasible generation. The bare index and contributed accounts do not themselves verify its parent fields or Thomas’s earlier identity.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1619",
@@ -23330,29 +23660,51 @@
       "subject_id": "Glasgow-3405",
       "relative_id": "Glasgow-3314",
       "relationship": "father",
-      "percent": 78,
+      "percent": 82,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3405-father",
-      "basis": "Margaret’s 1766 West Calder citation indexes John and fits the local Mill family sequence. The complete parent fields are not held; the father’s 1740 Irvine-to-West-Calder adult bridge remains unproved.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 28 September 1766 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/3142391), reads the parent fields that the previous review could not see: father John and mother Margaret (forenames only). It belongs to the John Glasgow and Margaret Mill household of West Calder attached as John Glasgow-3314, whose Agnes of 1770 is transcribed with the full couple. Confidence rises to 82%.",
       "source_ids": [
-        "held-e-e561744c7241"
+        "held-e-e561744c7241",
+        "ancestry-60143-3142391"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. John-3314's identification with the 1740 Irvine child still needs a bridge and is not addressed here. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 78,
+          "assessment_status": "probable",
+          "basis": "Margaret’s 1766 West Calder citation indexes John and fits the local Mill family sequence. The complete parent fields are not held; the father’s 1740 Irvine-to-West-Calder adult bridge remains unproved.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-3314",
       "relative_id": "Glasgow-3405",
       "relationship": "child",
-      "percent": 78,
+      "percent": 82,
       "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-3405-father",
-      "basis": "Margaret’s 1766 West Calder citation indexes John and fits the local Mill family sequence. The complete parent fields are not held; the father’s 1740 Irvine-to-West-Calder adult bridge remains unproved.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, 28 September 1766 at West Calder (https://www.ancestry.co.uk/search/collections/60143/records/3142391), reads the parent fields that the previous review could not see: father John and mother Margaret (forenames only). It belongs to the John Glasgow and Margaret Mill household of West Calder attached as John Glasgow-3314, whose Agnes of 1770 is transcribed with the full couple. Confidence rises to 82%.",
       "source_ids": [
-        "held-e-e561744c7241"
+        "held-e-e561744c7241",
+        "ancestry-60143-3142391"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition, with identity limits below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The row gives the mother's forename only. John-3314's identification with the 1740 Irvine child still needs a bridge and is not addressed here. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 78,
+          "assessment_status": "probable",
+          "basis": "Margaret’s 1766 West Calder citation indexes John and fits the local Mill family sequence. The complete parent fields are not held; the father’s 1740 Irvine-to-West-Calder adult bridge remains unproved.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1616",
@@ -24908,29 +25260,51 @@
       "subject_id": "Glasgow-1220",
       "relative_id": "Glasgow-1218",
       "relationship": "father",
-      "percent": 54,
-      "assessment_status": "possible",
+      "percent": 62,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1220-father",
-      "basis": "Kelso local history links William Glass to David/Janet’s family; compatible 1786 generation and regional sibling context support it, but father’s published account expressly calls identification possible.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for William (Glasgow) Glass, 11 May 1786 at Kelso (https://www.ancestry.co.uk/search/collections/60143/records/26315521), reads the parent fields that the previous review could not see: father David and mother Janet (forenames only). William's recorded birth date, 11 May 1786 at Kelso, is this entry, so the baptised child is now shown in the David Glasgow and Janet Hood household (David-1218). The remaining doubt is whether the adult William Glass is this child, which rests on Kelso local history. Confidence rises from 54% to 62% probable.",
       "source_ids": [
-        "held-e-670481570fdc"
+        "held-e-670481570fdc",
+        "ancestry-60143-26315521"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. No record yet links the adult surname Glass to this William Glasgow; the father's published account calls the identification possible. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 54,
+          "assessment_status": "possible",
+          "basis": "Kelso local history links William Glass to David/Janet’s family; compatible 1786 generation and regional sibling context support it, but father’s published account expressly calls identification possible.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1218",
       "relative_id": "Glasgow-1220",
       "relationship": "child",
-      "percent": 54,
-      "assessment_status": "possible",
+      "percent": 62,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-1220-father",
-      "basis": "Kelso local history links William Glass to David/Janet’s family; compatible 1786 generation and regional sibling context support it, but father’s published account expressly calls identification possible.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for William (Glasgow) Glass, 11 May 1786 at Kelso (https://www.ancestry.co.uk/search/collections/60143/records/26315521), reads the parent fields that the previous review could not see: father David and mother Janet (forenames only). William's recorded birth date, 11 May 1786 at Kelso, is this entry, so the baptised child is now shown in the David Glasgow and Janet Hood household (David-1218). The remaining doubt is whether the adult William Glass is this child, which rests on Kelso local history. Confidence rises from 54% to 62% probable.",
       "source_ids": [
-        "held-e-670481570fdc"
+        "held-e-670481570fdc",
+        "ancestry-60143-26315521"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "The Ancestry Scotland, Select Births and Baptisms rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index already cited, so they verify the indexed parent fields rather than adding an independent source; the original register is uninspected. The index row gives the mother's forename only. No record yet links the adult surname Glass to this William Glasgow; the father's published account calls the identification possible. No mother change follows.",
+      "assessment_history": [
+        {
+          "percent": 54,
+          "assessment_status": "possible",
+          "basis": "Kelso local history links William Glass to David/Janet’s family; compatible 1786 generation and regional sibling context support it, but father’s published account expressly calls identification possible.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-543",
@@ -48680,6 +49054,124 @@
       }
     },
     {
+      "subject_id": "Glasgow-37",
+      "relative_id": "Glasgow-1221",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-isabella37-father-20261105",
+      "basis": "Isabella (Glasgow) Laing-37's own account calls her the daughter of John Glasgow and Isabel Hunter, baptised in 1806, but no father was attached. The Ancestry Scotland, Select Births and Baptisms index records Isobel Glasgow baptised at Rothesay, Bute, on 7 December 1806 to John and Isobel (https://www.ancestry.co.uk/search/collections/60143/records/10640522). John Glasgow-1221 and Isabella Hunter are the existing Rothesay couple whose son Robert was born there in 1795. Name, mother, year and island all agree, so her father is attached as John Glasgow-1221 at 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10640522"
+      ],
+      "scope": "Index search row only, giving parents' forenames; the original Rothesay register is uninspected. Her 1830 marriage to Charles Laing at Bowden, Cheshire, and later English residence rest on her profile's sources and are not re-examined here. No other John and Isobel Glasgow couple is known at Rothesay, but none is formally excluded. No mother is attached or inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-37.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1221": "John Glasgow",
+        "Glasgow-37": "Isabella (Glasgow) Laing"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1221",
+      "relative_id": "Glasgow-37",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-isabella37-father-20261105",
+      "basis": "Isabella (Glasgow) Laing-37's own account calls her the daughter of John Glasgow and Isabel Hunter, baptised in 1806, but no father was attached. The Ancestry Scotland, Select Births and Baptisms index records Isobel Glasgow baptised at Rothesay, Bute, on 7 December 1806 to John and Isobel (https://www.ancestry.co.uk/search/collections/60143/records/10640522). John Glasgow-1221 and Isabella Hunter are the existing Rothesay couple whose son Robert was born there in 1795. Name, mother, year and island all agree, so her father is attached as John Glasgow-1221 at 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10640522"
+      ],
+      "scope": "Index search row only, giving parents' forenames; the original Rothesay register is uninspected. Her 1830 marriage to Charles Laing at Bowden, Cheshire, and later English residence rest on her profile's sources and are not re-examined here. No other John and Isobel Glasgow couple is known at Rothesay, but none is formally excluded. No mother is attached or inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-37.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1221": "John Glasgow",
+        "Glasgow-37": "Isabella (Glasgow) Laing"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3648",
+      "relative_id": "Glasgow-1620",
+      "relationship": "father",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-james3648-father-20261105",
+      "basis": "James Glasgow-3648 died in 1869 at Kelvin, Glasgow; the ScotlandsPeople death index cited on his profile gives his mother's maiden surname as Chapman and a birth about 1791. Thomas Glasgow-1620 and Margaret Chapman are the only Glasgow–Chapman couple known; the Ancestry Scotland, Select Births and Baptisms index records their children at Kirknewton, including John on 15 August 1790 (https://www.ancestry.co.uk/search/collections/60143/records/11364315) and James on 10 August 1794 (https://www.ancestry.co.uk/search/collections/60143/records/6841320), the latter already attached as James Glasgow-3346. James-3648 is very probably that same James (or, less likely, an unrecorded brother), so his father is attached as Thomas-1620 at 70% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6841320",
+        "ancestry-60143-11364315"
+      ],
+      "scope": "The death index gives only the mother's maiden surname; the death entry itself, which should name both parents, has not been read. The age implied by the index (born about 1791) differs by three years from the 1794 baptism. James-3648 and James-3346 may be duplicates; they have not been merged. No mother is attached or inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3648.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1620": "Thomas Glasgow",
+        "Glasgow-3648": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1620",
+      "relative_id": "Glasgow-3648",
+      "relationship": "child",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-james3648-father-20261105",
+      "basis": "James Glasgow-3648 died in 1869 at Kelvin, Glasgow; the ScotlandsPeople death index cited on his profile gives his mother's maiden surname as Chapman and a birth about 1791. Thomas Glasgow-1620 and Margaret Chapman are the only Glasgow–Chapman couple known; the Ancestry Scotland, Select Births and Baptisms index records their children at Kirknewton, including John on 15 August 1790 (https://www.ancestry.co.uk/search/collections/60143/records/11364315) and James on 10 August 1794 (https://www.ancestry.co.uk/search/collections/60143/records/6841320), the latter already attached as James Glasgow-3346. James-3648 is very probably that same James (or, less likely, an unrecorded brother), so his father is attached as Thomas-1620 at 70% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6841320",
+        "ancestry-60143-11364315"
+      ],
+      "scope": "The death index gives only the mother's maiden surname; the death entry itself, which should name both parents, has not been read. The age implied by the index (born about 1791) differs by three years from the 1794 baptism. James-3648 and James-3346 may be duplicates; they have not been merged. No mother is attached or inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3648.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1620": "Thomas Glasgow",
+        "Glasgow-3648": "James Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-3837",
       "relative_id": "Glasgow-2695",
       "relationship": "father",
@@ -48867,6 +49359,248 @@
       "profile_names": {
         "Glasgow-2475": "John Glasgow",
         "Glasgow-3457": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3329",
+      "relative_id": "Glasgow-2715",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-thomas3329-father-20261105",
+      "basis": "Thomas Glasgow-3329 is recorded in the 1861 census at Crawford, Lanarkshire, with a birth about 1814. The Ancestry Scotland, Select Births and Baptisms index records Thomas Glasgow born 11 March 1813 and baptised at Crawford on 21 March 1813 to William and Janet (https://www.ancestry.co.uk/search/collections/60143/records/13622746). William and Janet were the only Glasgow couple baptising at Crawford in these years (Robert 1802, John 1804 and 1806, Isabel 1808, George 1810, Thomas 1813, William 1815, Jean 1816 and later children to 1828). The Leadhills (Crawford parish) monument of Janet Thomson, spouse of William Glasgow, gamekeeper to the Earl of Hopetoun (ancestry-62497-370985), names her son George who died in 1816 aged 7 and Isabel Glasgow who died in 1881 aged 73, matching the 1810 and 1808 baptisms, so the Crawford couple is William Glasgow-2715 and Janet Thomson. Thomas's father is attached as William-2715 at 75% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-13622746",
+        "ancestry-62497-370985"
+      ],
+      "scope": "Identity of the 1861 Crawford man with the 1813 child rests on name, parish and a one-year age difference; no parent-naming record of his adult life has been read. The index row gives the mother's forename only. The monument does not name Thomas. William-2715's own birth (about 1781, from his 1853 death aged 71) and father are unknown. A separate William Glasgow-1533, born 1795 in Barony, is also recorded as husband of a Janet Thomson; he is too young to be the father of the 1802 Crawford child and is not identified with William-2715. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3329.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2715": "William Glasgow",
+        "Glasgow-3329": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2715",
+      "relative_id": "Glasgow-3329",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-thomas3329-father-20261105",
+      "basis": "Thomas Glasgow-3329 is recorded in the 1861 census at Crawford, Lanarkshire, with a birth about 1814. The Ancestry Scotland, Select Births and Baptisms index records Thomas Glasgow born 11 March 1813 and baptised at Crawford on 21 March 1813 to William and Janet (https://www.ancestry.co.uk/search/collections/60143/records/13622746). William and Janet were the only Glasgow couple baptising at Crawford in these years (Robert 1802, John 1804 and 1806, Isabel 1808, George 1810, Thomas 1813, William 1815, Jean 1816 and later children to 1828). The Leadhills (Crawford parish) monument of Janet Thomson, spouse of William Glasgow, gamekeeper to the Earl of Hopetoun (ancestry-62497-370985), names her son George who died in 1816 aged 7 and Isabel Glasgow who died in 1881 aged 73, matching the 1810 and 1808 baptisms, so the Crawford couple is William Glasgow-2715 and Janet Thomson. Thomas's father is attached as William-2715 at 75% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-13622746",
+        "ancestry-62497-370985"
+      ],
+      "scope": "Identity of the 1861 Crawford man with the 1813 child rests on name, parish and a one-year age difference; no parent-naming record of his adult life has been read. The index row gives the mother's forename only. The monument does not name Thomas. William-2715's own birth (about 1781, from his 1853 death aged 71) and father are unknown. A separate William Glasgow-1533, born 1795 in Barony, is also recorded as husband of a Janet Thomson; he is too young to be the father of the 1802 Crawford child and is not identified with William-2715. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3329.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2715": "William Glasgow",
+        "Glasgow-3329": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3604",
+      "relative_id": "Glasgow-3706",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-thomas3604-father-20261105",
+      "basis": "Thomas Glasgow-3604 is recorded only by his March 1781 birth at Eccles, Berwickshire. The Ancestry Scotland, Select Births and Baptisms index records Thomas Glasgow baptised at Eccles on 14 March 1781 to Robert James Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/60143/records/27365562), within the one Robert and Agnes family baptising children at Eccles from 1779 to 1795 — the household of Robert Glasgow-3706 and Agnes Whitehead, who married at Leitholm in 1779. His father is attached as Robert Glasgow-3706 at 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Index rows only; the original register is uninspected. The father is indexed here as 'Robert James Glasgow', a fuller name not otherwise recorded for Robert-3706. A second Thomas was baptised to Robert and Agnes on 20 March 1791, which suggests the 1781 child died young; the profile is the 1781 child. Robert-3706's own father link (34%) is unchanged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3604.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3604": "Thomas Glasgow",
+        "Glasgow-3706": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3706",
+      "relative_id": "Glasgow-3604",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-thomas3604-father-20261105",
+      "basis": "Thomas Glasgow-3604 is recorded only by his March 1781 birth at Eccles, Berwickshire. The Ancestry Scotland, Select Births and Baptisms index records Thomas Glasgow baptised at Eccles on 14 March 1781 to Robert James Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/60143/records/27365562), within the one Robert and Agnes family baptising children at Eccles from 1779 to 1795 — the household of Robert Glasgow-3706 and Agnes Whitehead, who married at Leitholm in 1779. His father is attached as Robert Glasgow-3706 at 85% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-27365562"
+      ],
+      "scope": "Index rows only; the original register is uninspected. The father is indexed here as 'Robert James Glasgow', a fuller name not otherwise recorded for Robert-3706. A second Thomas was baptised to Robert and Agnes on 20 March 1791, which suggests the 1781 child died young; the profile is the 1781 child. Robert-3706's own father link (34%) is unchanged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3604.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3604": "Thomas Glasgow",
+        "Glasgow-3706": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3646",
+      "relative_id": "Glasgow-1124",
+      "relationship": "father",
+      "percent": 35,
+      "assessment_status": "possible",
+      "assertion_id": "clm-r1-thomas3646-father-20261105",
+      "basis": "The Symington (St John's Kirk) monument erected by James Glasgow, late of Wiston (ancestry-62497-519248), commemorates his father William Glasgow, died at Broadlees, Symington, 25 December 1873 aged 89, his mother Margaret Graham, died at Burnhouse of Wiston 1814 aged 31, and 'Thomas Glasgow his uncle', died at Symington 25 July 1866 aged 84, with Janet Brown his aunt. William (born about 1784) and Thomas (born about 1782) are therefore brothers. The Ancestry Scotland, Select Births and Baptisms index has exactly these two children at Wandel and Lamington, the parish adjoining Symington: Thomas on 3 November 1782 (https://www.ancestry.co.uk/search/collections/60143/records/22717013) and William on 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/18392837), both to William Glasgow; the ScotlandsPeople death index cited for Thomas gives his mother's maiden surname as Affleck. Their father is an otherwise unrecorded William Glasgow of Wandel. The only catalogue candidate is William Glasgow-1124, baptised at neighbouring Covington in November 1747 (https://www.ancestry.co.uk/search/collections/60143/records/27393759) to George Glasgow-1070 and Agnes Williamson, whose son James-1120 was already baptising children at Wandel and Lamington from 1760. A man of 35 fathering children in the next parish fits, so William-1124 is selected as the possible working father at 35%. Thomas-3646, who died at Symington in 1866 aged 84 (ancestry-62497-519250), is the 1782 child and the proved brother of William-2876, so the same father hypothesis is extended to him with the same uncertainty.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-22717013",
+        "ancestry-62497-519250",
+        "ancestry-60143-27393759"
+      ],
+      "scope": "No record names the Wandel father's age, wife's forename, residence or parents, and William-1124 has no recorded adult life, marriage or death; the identification rests on name, generation and the George-1070 family's documented move from Covington into Wandel. Other William Glasgows of the right age are not excluded. The baptism rows give the father's name only. The Affleck mother is from a death-index summary on Thomas's profile and is not attached here. William Glasgow-3647 (born 1784, died 1865 at Symington, mother Affleck) is probably a duplicate of William-2876 with a misread death year; they are not merged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3646.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1124": "William Glasgow",
+        "Glasgow-3646": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1124",
+      "relative_id": "Glasgow-3646",
+      "relationship": "child",
+      "percent": 35,
+      "assessment_status": "possible",
+      "assertion_id": "clm-r1-thomas3646-father-20261105",
+      "basis": "The Symington (St John's Kirk) monument erected by James Glasgow, late of Wiston (ancestry-62497-519248), commemorates his father William Glasgow, died at Broadlees, Symington, 25 December 1873 aged 89, his mother Margaret Graham, died at Burnhouse of Wiston 1814 aged 31, and 'Thomas Glasgow his uncle', died at Symington 25 July 1866 aged 84, with Janet Brown his aunt. William (born about 1784) and Thomas (born about 1782) are therefore brothers. The Ancestry Scotland, Select Births and Baptisms index has exactly these two children at Wandel and Lamington, the parish adjoining Symington: Thomas on 3 November 1782 (https://www.ancestry.co.uk/search/collections/60143/records/22717013) and William on 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/18392837), both to William Glasgow; the ScotlandsPeople death index cited for Thomas gives his mother's maiden surname as Affleck. Their father is an otherwise unrecorded William Glasgow of Wandel. The only catalogue candidate is William Glasgow-1124, baptised at neighbouring Covington in November 1747 (https://www.ancestry.co.uk/search/collections/60143/records/27393759) to George Glasgow-1070 and Agnes Williamson, whose son James-1120 was already baptising children at Wandel and Lamington from 1760. A man of 35 fathering children in the next parish fits, so William-1124 is selected as the possible working father at 35%. Thomas-3646, who died at Symington in 1866 aged 84 (ancestry-62497-519250), is the 1782 child and the proved brother of William-2876, so the same father hypothesis is extended to him with the same uncertainty.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-22717013",
+        "ancestry-62497-519250",
+        "ancestry-60143-27393759"
+      ],
+      "scope": "No record names the Wandel father's age, wife's forename, residence or parents, and William-1124 has no recorded adult life, marriage or death; the identification rests on name, generation and the George-1070 family's documented move from Covington into Wandel. Other William Glasgows of the right age are not excluded. The baptism rows give the father's name only. The Affleck mother is from a death-index summary on Thomas's profile and is not attached here. William Glasgow-3647 (born 1784, died 1865 at Symington, mother Affleck) is probably a duplicate of William-2876 with a misread death year; they are not merged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3646.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1124": "William Glasgow",
+        "Glasgow-3646": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2876",
+      "relative_id": "Glasgow-1124",
+      "relationship": "father",
+      "percent": 35,
+      "assessment_status": "possible",
+      "assertion_id": "clm-r1-william2876-father-20261105",
+      "basis": "The Symington (St John's Kirk) monument erected by James Glasgow, late of Wiston (ancestry-62497-519248), commemorates his father William Glasgow, died at Broadlees, Symington, 25 December 1873 aged 89, his mother Margaret Graham, died at Burnhouse of Wiston 1814 aged 31, and 'Thomas Glasgow his uncle', died at Symington 25 July 1866 aged 84, with Janet Brown his aunt. William (born about 1784) and Thomas (born about 1782) are therefore brothers. The Ancestry Scotland, Select Births and Baptisms index has exactly these two children at Wandel and Lamington, the parish adjoining Symington: Thomas on 3 November 1782 (https://www.ancestry.co.uk/search/collections/60143/records/22717013) and William on 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/18392837), both to William Glasgow; the ScotlandsPeople death index cited for Thomas gives his mother's maiden surname as Affleck. Their father is an otherwise unrecorded William Glasgow of Wandel. The only catalogue candidate is William Glasgow-1124, baptised at neighbouring Covington in November 1747 (https://www.ancestry.co.uk/search/collections/60143/records/27393759) to George Glasgow-1070 and Agnes Williamson, whose son James-1120 was already baptising children at Wandel and Lamington from 1760. A man of 35 fathering children in the next parish fits, so William-1124 is selected as the possible working father at 35%. William-2876 is the 1784 child: his age at death, his Wiston family (children William 1812 and James 1813 baptised at Wiston to William and Margaret, https://www.ancestry.co.uk/search/collections/60143/records/13144619) and the monument all agree.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-18392837",
+        "ancestry-62497-519248",
+        "ancestry-60143-27393759"
+      ],
+      "scope": "No record names the Wandel father's age, wife's forename, residence or parents, and William-1124 has no recorded adult life, marriage or death; the identification rests on name, generation and the George-1070 family's documented move from Covington into Wandel. Other William Glasgows of the right age are not excluded. The baptism rows give the father's name only. The Affleck mother is from a death-index summary on Thomas's profile and is not attached here. William Glasgow-3647 (born 1784, died 1865 at Symington, mother Affleck) is probably a duplicate of William-2876 with a misread death year; they are not merged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2876.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1124": "William Glasgow",
+        "Glasgow-2876": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1124",
+      "relative_id": "Glasgow-2876",
+      "relationship": "child",
+      "percent": 35,
+      "assessment_status": "possible",
+      "assertion_id": "clm-r1-william2876-father-20261105",
+      "basis": "The Symington (St John's Kirk) monument erected by James Glasgow, late of Wiston (ancestry-62497-519248), commemorates his father William Glasgow, died at Broadlees, Symington, 25 December 1873 aged 89, his mother Margaret Graham, died at Burnhouse of Wiston 1814 aged 31, and 'Thomas Glasgow his uncle', died at Symington 25 July 1866 aged 84, with Janet Brown his aunt. William (born about 1784) and Thomas (born about 1782) are therefore brothers. The Ancestry Scotland, Select Births and Baptisms index has exactly these two children at Wandel and Lamington, the parish adjoining Symington: Thomas on 3 November 1782 (https://www.ancestry.co.uk/search/collections/60143/records/22717013) and William on 19 September 1784 (https://www.ancestry.co.uk/search/collections/60143/records/18392837), both to William Glasgow; the ScotlandsPeople death index cited for Thomas gives his mother's maiden surname as Affleck. Their father is an otherwise unrecorded William Glasgow of Wandel. The only catalogue candidate is William Glasgow-1124, baptised at neighbouring Covington in November 1747 (https://www.ancestry.co.uk/search/collections/60143/records/27393759) to George Glasgow-1070 and Agnes Williamson, whose son James-1120 was already baptising children at Wandel and Lamington from 1760. A man of 35 fathering children in the next parish fits, so William-1124 is selected as the possible working father at 35%. William-2876 is the 1784 child: his age at death, his Wiston family (children William 1812 and James 1813 baptised at Wiston to William and Margaret, https://www.ancestry.co.uk/search/collections/60143/records/13144619) and the monument all agree.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-18392837",
+        "ancestry-62497-519248",
+        "ancestry-60143-27393759"
+      ],
+      "scope": "No record names the Wandel father's age, wife's forename, residence or parents, and William-1124 has no recorded adult life, marriage or death; the identification rests on name, generation and the George-1070 family's documented move from Covington into Wandel. Other William Glasgows of the right age are not excluded. The baptism rows give the father's name only. The Affleck mother is from a death-index summary on Thomas's profile and is not attached here. William Glasgow-3647 (born 1784, died 1865 at Symington, mother Affleck) is probably a duplicate of William-2876 with a misread death year; they are not merged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2876.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1124": "William Glasgow",
+        "Glasgow-2876": "William Glasgow"
       }
     },
     {
