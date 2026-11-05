@@ -71778,6 +71778,73 @@
         "research/relationship_assessments.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "ancestry-integration-audit-20261105",
+      "found_on": "2026-11-05",
+      "kind": "record",
+      "finding": "An audit of the integrated Ancestry index entries corrects 175 record rows. William Brown Glasgow of Kendal (Glasgow-1001) is the groom of both Kendal marriages, to Dinah Bell in 1845 and Margaret Ward in 1862; his father William Alexander Glasgow married Elizabeth Rachel Brown at Berwick in 1810, and his son George (Glasgow-562) and grandsons Edwin (Glasgow-1000) and George Alexander (Glasgow-1002) are the children christened at Kendal and Habergham Eaves. The 1832 Edinburgh bride Margaret, daughter of John, is linked with her father Glasgow-822; four other brides' fathers are linked to their catalogue fathers. Robert Forsyth Glasgow's Shotts monument is Glasgow-442's. About thirty links were withdrawn for a stated conflict of dates, spouse or place, among them Scottish marriages attached to Tyrone and United States residents who were already married with families elsewhere, and new drafts hold those people. Fifteen Scottish marriage entries had a man filed as the bride; 67 parent and spouse entries filed undated as christenings or burials are now dated from their event; ten pairs of duplicate drafts are consolidated.",
+      "status": "qualified",
+      "qualification": "The corrections rest on Ancestry index entries; the registers are uninspected. William Alexander Glasgow as William Brown Glasgow's father is a research-database assessment (85%); Peter Glasgow of Sunderland (Glasgow-1467) and George Glasgow of Newton (Glasgow-1529) are only possible identities. Three links whose only support is the spouse's given name were downgraded from probable to possible rather than withdrawn.",
+      "people": [
+        {
+          "id": "Glasgow-1001",
+          "name": "William Brown Glasgow",
+          "url": "/people/glasgow-1001.html"
+        },
+        {
+          "id": "Glasgow-562",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-562.html"
+        },
+        {
+          "id": "Glasgow-1000",
+          "name": "Edwin Glasgow",
+          "url": "/people/glasgow-1000.html"
+        },
+        {
+          "id": "Glasgow-1002",
+          "name": "George Alexander Glasgow",
+          "url": "/people/glasgow-1002.html"
+        },
+        {
+          "id": "Glasgow-822",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-822.html"
+        },
+        {
+          "id": "Glasgow-442",
+          "name": "Robert Forsyth Glasgow",
+          "url": "/people/glasgow-442.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "England, Select Marriages, 1538-1973 — William Brown Glasgow, 19 Jun 1845, Kendal",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/31321022"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — William Glasgow, 9 Mar 1862, Kendal",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/1901246"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — William Alexander Glasgow, 24 Dec 1810, Berwick",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/36465000"
+        },
+        {
+          "title": "England & Wales, Christening Index — George Glasgow, 27 Feb 1848, Kendal",
+          "url": "https://www.ancestry.co.uk/search/collections/1351/records/920387"
+        },
+        {
+          "title": "England & Wales, Christening Index — Edwin Glasgow, 27 Dec 1872, Habergham Eaves",
+          "url": "https://www.ancestry.co.uk/search/collections/1351/records/1131452"
+        },
+        {
+          "title": "Scotland, Burial Monument Inscriptions — Robert Forsyth Glasgow, 1920, Shotts",
+          "url": "https://www.ancestry.co.uk/search/collections/62497/records/490169"
+        }
+      ],
+      "detail_url": "/people/glasgow-1001.html"
     }
   ]
 }
