@@ -458530,5 +458530,60 @@
     "note": "The full name and confirmation year agree with the entry indexed as 60558/249175. This index uses a different image and gives no day, death date or place.",
     "provenance": "Ancestry, Scotland, National Probate Index; Commissary Clerk of Edinburgh, Calendar of Confirmations and Inventories.",
     "publish_to_record_index": false
+  },
+  {
+    "record_id": "fmp-scot-opr-bap-3587035",
+    "provider_record_id": "SCOT/OPR/BAP/3587035",
+    "association": "Janet Glasgow, baptised 17 July 1748 at Kilbirnie; parents indexed as William Davies, farmer, and Janet Kerr",
+    "person": "Janet Glasgow",
+    "date": "1748-07-17",
+    "year": 1748,
+    "place": "Kilbirnie, Ayrshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3587035&tab=this",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929, Kilbirnie, OPR 596/1: Janet Glasgow, baptised 17 July 1748; father William Davies, farmer; mother Janet Kerr; transcript SCOT/OPR/BAP/3587035",
+    "status": "Provider index transcript inspected (worker FA1, 5 Nov 2026); original register uninspected",
+    "note": "The transcript indexes the father's surname as Davies although the child is indexed as Glasgow; the mismatch may be an indexing error for either surname. Cited as the basis of the tentative father link clm-fa1-glasgow-4137-father-20261105 (70%).",
+    "profiles": {
+      "Glasgow-4137": {
+        "role": "baptised child",
+        "timeline_group": "Life events"
+      },
+      "record-fmp-davies-william-kilbirnie-1748": {
+        "role": "Documentary subject: named father",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "handoff-2026-11-05/fathers/w1/decisions.jsonl (FA1), recorded by FAP 5 Nov 2026",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Baptisms"
+  },
+  {
+    "record_id": "fmp-scot-opr-bap-2975865",
+    "provider_record_id": "SCOT/OPR/BAP/2975865",
+    "association": "Jonnat Glasgow, baptised 23 October 1685 at Kirkintilloch; father indexed only as Glasgow, mother Margrat Millar",
+    "person": "Jonnat Glasgow",
+    "date": "1685-10-23",
+    "year": 1685,
+    "place": "Kirkintilloch, Dunbartonshire, Scotland",
+    "country": "scotland",
+    "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F2975865&tab=this",
+    "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929, Kirkintilloch (indexed Kirkintillock), OPR 498/1: Jonnat Glasgow, baptised 23 October 1685; father Glasgow (forename not indexed); mother Margrat Millar; transcript SCOT/OPR/BAP/2975865",
+    "status": "Provider index transcript inspected (worker FA1, 5 Nov 2026); original register uninspected",
+    "note": "The index gives the father's surname only. FamilySearch indexes the same baptism (https://familysearch.org/ark:/61903/1:1:XY7V-WYX). Cited as the basis of the uncertain father link clm-fa1-glasgow-4140-father-20261105 (20%); no father is identified by the record itself.",
+    "profiles": {
+      "Glasgow-4140": {
+        "role": "baptised child",
+        "timeline_group": "Life events"
+      }
+    },
+    "provenance": "handoff-2026-11-05/fathers/w1/decisions.jsonl (FA1), recorded by FAP 5 Nov 2026",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "exact_event_date",
+    "record_category": "Baptisms"
   }
 ]
