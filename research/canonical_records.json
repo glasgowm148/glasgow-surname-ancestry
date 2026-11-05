@@ -164166,21 +164166,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/112276585",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Mary Jane Glasgow — mother of Henrietta Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Mary Jane Glasgow — mother of Henrietta Glasgow",
     "person": "Mary Jane Glasgow",
-    "event_role": "mother of Henrietta Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Christ Church, New Castle-upon-Tyne, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276585",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Mary Jane Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Mary Jane Glasgow, mother of Henrietta Glasgow, record 9841/112276585",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Mary Jane Glasgow",
@@ -164188,40 +164188,58 @@
       "Spouse": "Thomas Glasgow",
       "Child": "Henrietta Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Mary Jane Glasgow, parent of Henrietta Glasgow, other parent Thomas Glasgow. mother of Henrietta Glasgow Mary Jane Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276585",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Mary Jane Glasgow as mother of Henrietta Glasgow and gives Thomas Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 11 April 1889 at Christ Church, New Castle-upon-Tyne, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-fa6823379eba": {
+        "role": "Probable match: mother named in the companion index for Henrietta Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-dd933664b086": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/052-Mary_Jane_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276797",
+      "latest_event_year": 1889,
+      "reason": "The dated baptism index names the same child and both parents on 11 April 1889."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276797",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Henrietta Glasgow, 11 Apr 1889, Christ Church, New Castle-upon-Tyne, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-112276797"
+    ]
   },
   {
     "record_id": "ancestry-9841-112276796",
     "provider": "Ancestry",
     "provider_record_id": "9841/112276796",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Thomas Glasgow — father of Henrietta Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Thomas Glasgow — father of Henrietta Glasgow",
     "person": "Thomas Glasgow",
-    "event_role": "father of Henrietta Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Christ Church, New Castle-upon-Tyne, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276796",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Thomas Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Thomas Glasgow, father of Henrietta Glasgow, record 9841/112276796",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Thomas Glasgow",
@@ -164229,19 +164247,37 @@
       "Spouse": "Mary Jane Glasgow",
       "Child": "Henrietta Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Thomas Glasgow, parent of Henrietta Glasgow, other parent Mary Jane Glasgow. father of Henrietta Glasgow Thomas Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276796",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Thomas Glasgow as father of Henrietta Glasgow and gives Mary Jane Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 11 April 1889 at Christ Church, New Castle-upon-Tyne, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-a4a307c1b736": {
+        "role": "Probable match: father named in the companion index for Henrietta Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-dd933664b086": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/053-Thomas_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276797",
+      "latest_event_year": 1889,
+      "reason": "The dated baptism index names the same child and both parents on 11 April 1889."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112276797",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Henrietta Glasgow, 11 Apr 1889, Christ Church, New Castle-upon-Tyne, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-112276797"
+    ]
   },
   {
     "record_id": "ancestry-9841-112276797",
@@ -165295,21 +165331,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/118328044",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "James Glasgow — father of Henry Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "James Glasgow — father of Henry Glasgow",
     "person": "James Glasgow",
-    "event_role": "father of Henry Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Mortlake, Surrey, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/118328044",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — James Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: James Glasgow, father of Henry Glasgow, record 9841/118328044",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Glasgow",
@@ -165317,19 +165353,37 @@
       "Spouse": "Florence Glasgow",
       "Child": "Henry Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: James Glasgow, parent of Henry Glasgow, other parent Florence Glasgow. father of Henry Glasgow James Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/118328044",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names James Glasgow as father of Henry Glasgow and gives Florence Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 4 September 1892 at Mortlake, Surrey, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-a337607cc0ec": {
+        "role": "Probable match: father named in the companion index for Henry Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-e9bbeed25991": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/075-James_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/118328045",
+      "latest_event_year": 1892,
+      "reason": "The dated baptism index names the same child and both parents on 4 September 1892."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/118328045",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Henry Glasgow, 4 Sep 1892, Mortlake, Surrey, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-118328045"
+    ]
   },
   {
     "record_id": "ancestry-9841-118328045",
@@ -166227,21 +166281,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/122874988",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Edward George Glasgow — father of Edward William Morris Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Edward George Glasgow — father of Edward William Morris Glasgow",
     "person": "Edward George Glasgow",
-    "event_role": "father of Edward William Morris Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Saint James The Apostle,Dover,Kent,England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/122874988",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Edward George Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Edward George Glasgow, father of Edward William Morris Glasgow, record 9841/122874988",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Edward George Glasgow",
@@ -166249,19 +166303,37 @@
       "Spouse": "Emily Caroline",
       "Child": "Edward William Morris Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Edward George Glasgow, parent of Edward William Morris Glasgow, other parent Emily Caroline. father of Edward William Morris Glasgow Edward George Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/122874988",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Edward George Glasgow as father of Edward William Morris Glasgow and gives Emily Caroline as the other parent. The dated baptism index gives the same three names and records the baptism on 24 February 1828 at Saint James The Apostle,Dover,Kent,England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-d71b0ae3f539": {
+        "role": "Possible match: father named in the companion index for Edward William Morris Glasgow",
+        "assessment": "possible",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-0adb245ea0ea": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/094-Edward_George_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/122874989",
+      "latest_event_year": 1828,
+      "reason": "The dated baptism index names the same child and both parents on 24 February 1828."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/122874989",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Edward William Morris Glasgow, 24 Feb 1828, Saint James The Apostle,Dover,Kent,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-122874989"
+    ]
   },
   {
     "record_id": "ancestry-9841-122874989",
@@ -167353,21 +167425,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/128432105",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Agnes Glasgow — mother of Agnes Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Agnes Glasgow — mother of Agnes Glasgow",
     "person": "Agnes Glasgow",
-    "event_role": "mother of Agnes Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Manchester, Lancaster, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432105",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Agnes Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Agnes Glasgow, mother of Agnes Glasgow, record 9841/128432105",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Agnes Glasgow",
@@ -167375,19 +167447,37 @@
       "Spouse": "David Glasgow",
       "Child": "Agnes Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Agnes Glasgow, parent of Agnes Glasgow, other parent David Glasgow. mother of Agnes Glasgow Agnes Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432105",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Agnes Glasgow as mother of Agnes Glasgow and gives David Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 28 November 1839 at Manchester, Lancaster, England. The parent index gives no date.",
+    "profiles": {
+      "Glasgow-3544": {
+        "role": "Probable match: mother named in the companion index for Agnes Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-2cb50d1d2fbe": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/117-Agnes_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432106",
+      "latest_event_year": 1839,
+      "reason": "The dated baptism index names the same child and both parents on 28 November 1839."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432106",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Agnes Glasgow, 28 Nov 1839, Manchester, Lancaster, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-128432106"
+    ]
   },
   {
     "record_id": "ancestry-9841-128432106",
@@ -167452,21 +167542,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/128432107",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "David Glasgow — father of Agnes Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "David Glasgow — father of Agnes Glasgow",
     "person": "David Glasgow",
-    "event_role": "father of Agnes Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Manchester, Lancaster, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432107",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — David Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: David Glasgow, father of Agnes Glasgow, record 9841/128432107",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "David Glasgow",
@@ -167474,19 +167564,37 @@
       "Spouse": "Agnes Glasgow",
       "Child": "Agnes Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: David Glasgow, parent of Agnes Glasgow, other parent Agnes Glasgow. father of Agnes Glasgow David Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432107",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names David Glasgow as father of Agnes Glasgow and gives Agnes Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 28 November 1839 at Manchester, Lancaster, England. The parent index gives no date.",
+    "profiles": {
+      "Glasgow-3543": {
+        "role": "Probable match: father named in the companion index for Agnes Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-2cb50d1d2fbe": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/119-David_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432106",
+      "latest_event_year": 1839,
+      "reason": "The dated baptism index names the same child and both parents on 28 November 1839."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/128432106",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Agnes Glasgow, 28 Nov 1839, Manchester, Lancaster, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-128432106"
+    ]
   },
   {
     "record_id": "ancestry-9841-128869193",
@@ -167945,21 +168053,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/130779778",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Alexander Glasgow — father of John Smith Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Alexander Glasgow — father of John Smith Glasgow",
     "person": "Alexander Glasgow",
-    "event_role": "father of John Smith Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779778",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Alexander Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Alexander Glasgow, father of John Smith Glasgow, record 9841/130779778",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Alexander Glasgow",
@@ -167967,19 +168075,37 @@
       "Spouse": "Mary Jane Glasgow",
       "Child": "John Smith Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Alexander Glasgow, parent of John Smith Glasgow, other parent Mary Jane Glasgow. father of John Smith Glasgow Alexander Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779778",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Alexander Glasgow as father of John Smith Glasgow and gives Mary Jane Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 6 October 1891 at St. Andrew's, Newcastle-upon-Tyne, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "Glasgow-937": {
+        "role": "Probable match: father named in the companion index for John Smith Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-ae3285bfae78": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/129-Alexander_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779779",
+      "latest_event_year": 1891,
+      "reason": "The dated baptism index names the same child and both parents on 6 October 1891."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779779",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — John Smith Glasgow, 6 Oct 1891, St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-130779779"
+    ]
   },
   {
     "record_id": "ancestry-9841-130779779",
@@ -168044,21 +168170,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/130779780",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Mary Jane Glasgow — mother of John Smith Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Mary Jane Glasgow — mother of John Smith Glasgow",
     "person": "Mary Jane Glasgow",
-    "event_role": "mother of John Smith Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779780",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Mary Jane Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Mary Jane Glasgow, mother of John Smith Glasgow, record 9841/130779780",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Mary Jane Glasgow",
@@ -168066,19 +168192,37 @@
       "Spouse": "Alexander Glasgow",
       "Child": "John Smith Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Mary Jane Glasgow, parent of John Smith Glasgow, other parent Alexander Glasgow. mother of John Smith Glasgow Mary Jane Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779780",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Mary Jane Glasgow as mother of John Smith Glasgow and gives Alexander Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 6 October 1891 at St. Andrew's, Newcastle-upon-Tyne, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-d5afbcf2fab4": {
+        "role": "Documentary comparison: mother named in the companion index for John Smith Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-ae3285bfae78": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/131-Mary_Jane_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779779",
+      "latest_event_year": 1891,
+      "reason": "The dated baptism index names the same child and both parents on 6 October 1891."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779779",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — John Smith Glasgow, 6 Oct 1891, St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-130779779"
+    ]
   },
   {
     "record_id": "ancestry-9841-130779953",
@@ -168143,21 +168287,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/130779955",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Alexander Glasgow — father of James Swailer Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Alexander Glasgow — father of James Swailer Glasgow",
     "person": "Alexander Glasgow",
-    "event_role": "father of James Swailer Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779955",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Alexander Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Alexander Glasgow, father of James Swailer Glasgow, record 9841/130779955",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Alexander Glasgow",
@@ -168165,40 +168309,58 @@
       "Spouse": "Mary Jane Glasgow",
       "Child": "James Swailer Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Alexander Glasgow, parent of James Swailer Glasgow, other parent Mary Jane Glasgow. father of James Swailer Glasgow Alexander Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779955",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Alexander Glasgow as father of James Swailer Glasgow and gives Mary Jane Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 6 October 1891 at St. Andrew's, Newcastle-upon-Tyne, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "Glasgow-2977": {
+        "role": "Probable match: father named in the companion index for James Swailer Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-anc-james-glasgow-1891-32796": {
+        "role": "Possible match: child named in the companion parent index for the same event",
+        "assessment": "possible",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/133-Alexander_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779953",
+      "latest_event_year": 1891,
+      "reason": "The dated baptism index names the same child and both parents on 6 October 1891."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779953",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — James Swailer Glasgow, 6 Oct 1891, St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-130779953"
+    ]
   },
   {
     "record_id": "ancestry-9841-130779956",
     "provider": "Ancestry",
     "provider_record_id": "9841/130779956",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Mary Jane Glasgow — mother of James Swailer Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Mary Jane Glasgow — mother of James Swailer Glasgow",
     "person": "Mary Jane Glasgow",
-    "event_role": "mother of James Swailer Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779956",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Mary Jane Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Mary Jane Glasgow, mother of James Swailer Glasgow, record 9841/130779956",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Mary Jane Glasgow",
@@ -168206,19 +168368,37 @@
       "Spouse": "Alexander Glasgow",
       "Child": "James Swailer Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Mary Jane Glasgow, parent of James Swailer Glasgow, other parent Alexander Glasgow. mother of James Swailer Glasgow Mary Jane Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779956",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Mary Jane Glasgow as mother of James Swailer Glasgow and gives Alexander Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 6 October 1891 at St. Andrew's, Newcastle-upon-Tyne, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "Swailes-66": {
+        "role": "Probable match: mother named in the companion index for James Swailer Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-anc-james-glasgow-1891-32796": {
+        "role": "Possible match: child named in the companion parent index for the same event",
+        "assessment": "possible",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/134-Mary_Jane_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779953",
+      "latest_event_year": 1891,
+      "reason": "The dated baptism index names the same child and both parents on 6 October 1891."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/130779953",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — James Swailer Glasgow, 6 Oct 1891, St. Andrew's, Newcastle-upon-Tyne, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-130779953"
+    ]
   },
   {
     "record_id": "ancestry-9841-130979184",
@@ -169152,21 +169332,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/134820115",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Mary Glasgow — mother of Mary Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Mary Glasgow — mother of Mary Glasgow",
     "person": "Mary Glasgow",
-    "event_role": "mother of Mary Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Manchester, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820115",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Mary Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Mary Glasgow, mother of Mary Glasgow, record 9841/134820115",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Mary Glasgow",
@@ -169174,40 +169354,53 @@
       "Spouse": "John Glasgow",
       "Child": "Mary Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Mary Glasgow, parent of Mary Glasgow, other parent John Glasgow. mother of Mary Glasgow Mary Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820115",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Mary Glasgow as mother of Mary Glasgow and gives John Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 10 January 1836 at Manchester, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-cf245dc16d40": {
+        "role": "Documentary comparison: mother named in the companion index for Mary Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/154-Mary_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820117",
+      "latest_event_year": 1836,
+      "reason": "The dated baptism index names the same child and both parents on 10 January 1836."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820117",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Mary Glasgow, 10 Jan 1836, Manchester, Lancashire, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-134820117"
+    ]
   },
   {
     "record_id": "ancestry-9841-134820116",
     "provider": "Ancestry",
     "provider_record_id": "9841/134820116",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "John Glasgow — father of Mary Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "John Glasgow — father of Mary Glasgow",
     "person": "John Glasgow",
-    "event_role": "father of Mary Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Manchester, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820116",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — John Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: John Glasgow, father of Mary Glasgow, record 9841/134820116",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
@@ -169215,19 +169408,32 @@
       "Spouse": "Mary Glasgow",
       "Child": "Mary Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: John Glasgow, parent of Mary Glasgow, other parent Mary Glasgow. father of Mary Glasgow John Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820116",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names John Glasgow as father of Mary Glasgow and gives Mary Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 10 January 1836 at Manchester, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-b8d8be27aa96": {
+        "role": "Documentary comparison: father named in the companion index for Mary Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/155-John_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820117",
+      "latest_event_year": 1836,
+      "reason": "The dated baptism index names the same child and both parents on 10 January 1836."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/134820117",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Mary Glasgow, 10 Jan 1836, Manchester, Lancashire, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-134820117"
+    ]
   },
   {
     "record_id": "ancestry-9841-134820117",
@@ -170702,21 +170908,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/140596744",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Eliza Hannah Glasgow — mother of Edith Maud Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Eliza Hannah Glasgow — mother of Edith Maud Glasgow",
     "person": "Eliza Hannah Glasgow",
-    "event_role": "mother of Edith Maud Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "St James, Handsworth, Stafford, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/140596744",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Eliza Hannah Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Eliza Hannah Glasgow, mother of Edith Maud Glasgow, record 9841/140596744",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Eliza Hannah Glasgow",
@@ -170724,19 +170930,38 @@
       "Spouse": "George James Glasgow",
       "Child": "Edith Maud Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Eliza Hannah Glasgow, parent of Edith Maud Glasgow, other parent George James Glasgow. mother of Edith Maud Glasgow Eliza Hannah Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/140596744",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Eliza Hannah Glasgow as mother of Edith Maud Glasgow and gives George James Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 27 December 1885 at St James, Handsworth, Stafford, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-fd3c760b475b": {
+        "role": "Documentary comparison: mother named in the companion index for Edith Maud Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-8da2958244d5": {
+        "role": "Probable match: child named in the companion parent index for the same event",
+        "assessment": "probable",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/186-Eliza_Hannah_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82866038",
+      "latest_event_year": 1885,
+      "reason": "The dated baptism index names the same child and both parents on 27 December 1885."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82866038",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Edith Maud Glasgow, 27 Dec 1885, St James, Handsworth, Stafford, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-140596740",
+      "ancestry-9841-82866038"
+    ]
   },
   {
     "record_id": "ancestry-9841-140597105",
@@ -173276,21 +173501,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/153479748",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "John Glasgow — father of John George Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "John Glasgow — father of John George Glasgow",
     "person": "John Glasgow",
-    "event_role": "father of John George Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Walker,Northumberland,England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/153479748",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — John Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: John Glasgow, father of John George Glasgow, record 9841/153479748",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
@@ -173298,19 +173523,37 @@
       "Spouse": "Mary Rose",
       "Child": "John George Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: John Glasgow, parent of John George Glasgow, other parent Mary Rose. father of John George Glasgow John Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/153479748",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names John Glasgow as father of John George Glasgow and gives Mary Rose as the other parent. The dated baptism index gives the same three names and records the baptism on 20 February 1878 at Walker,Northumberland,England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-53004017afee": {
+        "role": "Documentary comparison: father named in the companion index for John George Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-169b7de5ebe9": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/239-John_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/153479749",
+      "latest_event_year": 1878,
+      "reason": "The dated baptism index names the same child and both parents on 20 February 1878."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/153479749",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — John George Glasgow, 20 Feb 1878, Walker,Northumberland,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-153479749"
+    ]
   },
   {
     "record_id": "ancestry-9841-153479749",
@@ -174076,21 +174319,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/161739790",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "John Glasgow — father of James Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "John Glasgow — father of James Glasgow",
     "person": "John Glasgow",
-    "event_role": "father of James Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Bishop-Wearmouth, Durham, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739790",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — John Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: John Glasgow, father of James Glasgow, record 9841/161739790",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
@@ -174098,19 +174341,37 @@
       "Spouse": "Margaret Glasgow",
       "Child": "James Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: John Glasgow, parent of James Glasgow, other parent Margaret Glasgow. father of James Glasgow John Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739790",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names John Glasgow as father of James Glasgow and gives Margaret Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 21 July 1822 at Bishop-Wearmouth, Durham, England. The parent index gives no date.",
+    "profiles": {
+      "Glasgow-867": {
+        "role": "Probable match: father named in the companion index for James Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-8f0fbf00be9d": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/256-John_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739791",
+      "latest_event_year": 1822,
+      "reason": "The dated baptism index names the same child and both parents on 21 July 1822."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739791",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — James Glasgow, 21 Jul 1822, Bishop-Wearmouth, Durham, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-161739791"
+    ]
   },
   {
     "record_id": "ancestry-9841-161739791",
@@ -174175,21 +174436,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/161739792",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Margaret Glasgow — mother of James Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Margaret Glasgow — mother of James Glasgow",
     "person": "Margaret Glasgow",
-    "event_role": "mother of James Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Bishop-Wearmouth, Durham, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739792",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Margaret Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Margaret Glasgow, mother of James Glasgow, record 9841/161739792",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Margaret Glasgow",
@@ -174197,19 +174458,37 @@
       "Spouse": "John Glasgow",
       "Child": "James Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Margaret Glasgow, parent of James Glasgow, other parent John Glasgow. mother of James Glasgow Margaret Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739792",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Margaret Glasgow as mother of James Glasgow and gives John Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 21 July 1822 at Bishop-Wearmouth, Durham, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-5566ef924b02": {
+        "role": "Documentary comparison: mother named in the companion index for James Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-8f0fbf00be9d": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/258-Margaret_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739791",
+      "latest_event_year": 1822,
+      "reason": "The dated baptism index names the same child and both parents on 21 July 1822."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/161739791",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — James Glasgow, 21 Jul 1822, Bishop-Wearmouth, Durham, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-161739791"
+    ]
   },
   {
     "record_id": "ancestry-9841-161739866",
@@ -176488,21 +176767,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/172541948",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "James Glasgow — father of Elizabeth Duncan Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "James Glasgow — father of Elizabeth Duncan Glasgow",
     "person": "James Glasgow",
-    "event_role": "father of Elizabeth Duncan Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Sunderland,Durham,England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/172541948",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — James Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: James Glasgow, father of Elizabeth Duncan Glasgow, record 9841/172541948",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Glasgow",
@@ -176510,19 +176789,37 @@
       "Spouse": "Jane Clough Duncan",
       "Child": "Elizabeth Duncan Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: James Glasgow, parent of Elizabeth Duncan Glasgow, other parent Jane Clough Duncan. father of Elizabeth Duncan Glasgow James Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/172541948",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names James Glasgow as father of Elizabeth Duncan Glasgow and gives Jane Clough Duncan as the other parent. The dated birth index gives the same three names and records the birth on 29 April 1827 at Sunderland,Durham,England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-7e069175d679": {
+        "role": "Documentary comparison: father named in the companion index for Elizabeth Duncan Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-b6cb4976eea3": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/306-James_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/172541950",
+      "latest_event_year": 1827,
+      "reason": "The dated birth index names the same child and both parents on 29 April 1827."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/172541950",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Elizabeth Duncan Glasgow, 29 Apr 1827, Sunderland,Durham,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated birth entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-172541950"
+    ]
   },
   {
     "record_id": "ancestry-9841-172541950",
@@ -176836,21 +177133,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/173125056",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "James Glasgow — father of Matilda Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "James Glasgow — father of Matilda Glasgow",
     "person": "James Glasgow",
-    "event_role": "father of Matilda Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/173125056",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — James Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: James Glasgow, father of Matilda Glasgow, record 9841/173125056",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Glasgow",
@@ -176858,19 +177155,37 @@
       "Spouse": "Mary Ann",
       "Child": "Matilda Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: James Glasgow, parent of Matilda Glasgow, other parent Mary Ann. father of Matilda Glasgow James Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/173125056",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names James Glasgow as father of Matilda Glasgow and gives Mary Ann as the other parent. The dated baptism index gives the same three names and records the baptism on 20 August 1879 at Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-75dea901d5b3": {
+        "role": "Probable match: father named in the companion index for Matilda Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-24fb487cd892": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/313-James_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/173125055",
+      "latest_event_year": 1879,
+      "reason": "The dated baptism index names the same child and both parents on 20 August 1879."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/173125055",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Matilda Glasgow, 20 Aug 1879, Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-173125055"
+    ]
   },
   {
     "record_id": "ancestry-9841-173520043",
@@ -178009,21 +178324,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/176288954",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "John Hanry Glasgow — father of John William Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "John Hanry Glasgow — father of John William Glasgow",
     "person": "John Hanry Glasgow",
-    "event_role": "father of John William Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Christ Church, Birmingham, Warwick, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/176288954",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — John Hanry Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: John Hanry Glasgow, father of John William Glasgow, record 9841/176288954",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Hanry Glasgow",
@@ -178031,19 +178346,37 @@
       "Spouse": "Clara Jane Glasgow",
       "Child": "John William Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: John Hanry Glasgow, parent of John William Glasgow, other parent Clara Jane Glasgow. father of John William Glasgow John Hanry Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/176288954",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names John Hanry Glasgow as father of John William Glasgow and gives Clara Jane Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 6 March 1887 at Christ Church, Birmingham, Warwick, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-89f158800b60": {
+        "role": "Documentary comparison: father named in the companion index for John William Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-anc-john-w-glasgow-1887-16466": {
+        "role": "Possible match: child named in the companion parent index for the same event",
+        "assessment": "possible",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/338-John_Hanry_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/176288956",
+      "latest_event_year": 1887,
+      "reason": "The dated baptism index names the same child and both parents on 6 March 1887."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/176288956",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — John William Glasgow, 6 Mar 1887, Christ Church, Birmingham, Warwick, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-176288956"
+    ]
   },
   {
     "record_id": "ancestry-9841-176288956",
@@ -178249,21 +178582,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/179141828",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "James Henry Glasgow — father of Alfred Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "James Henry Glasgow — father of Alfred Glasgow",
     "person": "James Henry Glasgow",
-    "event_role": "father of Alfred Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/179141828",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — James Henry Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: James Henry Glasgow, father of Alfred Glasgow, record 9841/179141828",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Henry Glasgow",
@@ -178271,19 +178604,37 @@
       "Spouse": "Mary Ann",
       "Child": "Alfred Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: James Henry Glasgow, parent of Alfred Glasgow, other parent Mary Ann. father of Alfred Glasgow James Henry Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/179141828",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names James Henry Glasgow as father of Alfred Glasgow and gives Mary Ann as the other parent. The dated baptism index gives the same three names and records the baptism on 18 February 1885 at Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-75dea901d5b3": {
+        "role": "Probable match: father named in the companion index for Alfred Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-61fc02e7aa51": {
+        "role": "Possible match: child named in the companion parent index for the same event",
+        "assessment": "possible",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/343-James_Henry_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/179141829",
+      "latest_event_year": 1885,
+      "reason": "The dated baptism index names the same child and both parents on 18 February 1885."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/179141829",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Alfred Glasgow, 18 Feb 1885, Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-179141829"
+    ]
   },
   {
     "record_id": "ancestry-9841-179141829",
@@ -180528,21 +180879,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/187897020",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "James Henry Glasgow — father of Charles Henry Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "James Henry Glasgow — father of Charles Henry Glasgow",
     "person": "James Henry Glasgow",
-    "event_role": "father of Charles Henry Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/187897020",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — James Henry Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: James Henry Glasgow, father of Charles Henry Glasgow, record 9841/187897020",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Henry Glasgow",
@@ -180550,19 +180901,37 @@
       "Spouse": "Mary Ann",
       "Child": "Charles Henry Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: James Henry Glasgow, parent of Charles Henry Glasgow, other parent Mary Ann. father of Charles Henry Glasgow James Henry Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/187897020",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names James Henry Glasgow as father of Charles Henry Glasgow and gives Mary Ann as the other parent. The dated baptism index gives the same three names and records the baptism on 30 December 1877 at Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-75dea901d5b3": {
+        "role": "Documentary comparison: father named in the companion index for Charles Henry Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-anc-charles-f-glasgow-1877-66172": {
+        "role": "Possible match: child named in the companion parent index for the same event",
+        "assessment": "possible",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/390-James_Henry_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/187897019",
+      "latest_event_year": 1877,
+      "reason": "The dated baptism index names the same child and both parents on 30 December 1877."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/187897019",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Charles Henry Glasgow, 30 Dec 1877, Chapelry of St. Clement, Ordsall-in-Salford, Lancashire, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-187897019"
+    ]
   },
   {
     "record_id": "ancestry-9841-188138758",
@@ -181287,21 +181656,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/189362804",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Jane Glasgow — mother of Mary Rosa Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Jane Glasgow — mother of Mary Rosa Glasgow",
     "person": "Jane Glasgow",
-    "event_role": "mother of Mary Rosa Glasgow",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Christ Church, Walker, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362804",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Jane Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Jane Glasgow, mother of Mary Rosa Glasgow, record 9841/189362804",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Jane Glasgow",
@@ -181309,19 +181678,37 @@
       "Spouse": "James Matthew Glasgow",
       "Child": "Mary Rosa Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Jane Glasgow, parent of Mary Rosa Glasgow, other parent James Matthew Glasgow. mother of Mary Rosa Glasgow Jane Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362804",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Jane Glasgow as mother of Mary Rosa Glasgow and gives James Matthew Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 5 August 1898 at Christ Church, Walker, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-a47c9dfbeb3f": {
+        "role": "Documentary comparison: mother named in the companion index for Mary Rosa Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-aaa1c3aa7b04": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/406-Jane_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362805",
+      "latest_event_year": 1898,
+      "reason": "The dated baptism index names the same child and both parents on 5 August 1898."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362805",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Mary Rosa Glasgow, 5 Aug 1898, Christ Church, Walker, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-189362805"
+    ]
   },
   {
     "record_id": "ancestry-9841-189362805",
@@ -181387,21 +181774,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/189362806",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "James Matthew Glasgow — father of Mary Rosa Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "James Matthew Glasgow — father of Mary Rosa Glasgow",
     "person": "James Matthew Glasgow",
-    "event_role": "father of Mary Rosa Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Christ Church, Walker, Northumberland, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362806",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — James Matthew Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: James Matthew Glasgow, father of Mary Rosa Glasgow, record 9841/189362806",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Matthew Glasgow",
@@ -181409,19 +181796,37 @@
       "Spouse": "Jane Glasgow",
       "Child": "Mary Rosa Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: James Matthew Glasgow, parent of Mary Rosa Glasgow, other parent Jane Glasgow. father of Mary Rosa Glasgow James Matthew Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362806",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names James Matthew Glasgow as father of Mary Rosa Glasgow and gives Jane Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 5 August 1898 at Christ Church, Walker, Northumberland, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-b683f034a10c": {
+        "role": "Documentary comparison: father named in the companion index for Mary Rosa Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-aaa1c3aa7b04": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/408-James_Matthew_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362805",
+      "latest_event_year": 1898,
+      "reason": "The dated baptism index names the same child and both parents on 5 August 1898."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/189362805",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Mary Rosa Glasgow, 5 Aug 1898, Christ Church, Walker, Northumberland, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-189362805"
+    ]
   },
   {
     "record_id": "ancestry-9841-189959850",
@@ -185983,21 +186388,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/34854616",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "John Glasgow — father of William Anderson Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "John Glasgow — father of William Anderson Glasgow",
     "person": "John Glasgow",
-    "event_role": "father of William Anderson Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Saint Martin,Hereford,Hereford,England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/34854616",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — John Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: John Glasgow, father of William Anderson Glasgow, record 9841/34854616",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
@@ -186005,19 +186410,37 @@
       "Spouse": "Margaret Anderson",
       "Child": "William Anderson Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: John Glasgow, parent of William Anderson Glasgow, other parent Margaret Anderson. father of William Anderson Glasgow John Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/34854616",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names John Glasgow as father of William Anderson Glasgow and gives Margaret Anderson as the other parent. The dated baptism index gives the same three names and records the baptism on 10 October 1875 at Saint Martin,Hereford,Hereford,England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-99b4e43fab60": {
+        "role": "Documentary comparison: father named in the companion index for William Anderson Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-7ccc409fdcd8": {
+        "role": "Child named in the companion parent index for the same event",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/502-John_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/34854334",
+      "latest_event_year": 1875,
+      "reason": "The dated baptism index names the same child and both parents on 10 October 1875."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/34854334",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — William Anderson Glasgow, 10 Oct 1875, Saint Martin,Hereford,Hereford,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-34854334"
+    ]
   },
   {
     "record_id": "ancestry-9841-35393207",
@@ -196683,21 +197106,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/82865973",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Eliza Hannah Glasgow — child christened; England, Select Births and Christenings, 1538-1975",
+    "association": "Eliza Hannah Glasgow — mother of Edith Maud Glasgow",
     "person": "Eliza Hannah Glasgow",
-    "event_role": "child christened",
-    "date": "",
+    "event_role": "indexed mother",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "St James, Handsworth, Stafford, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82865973",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Eliza Hannah Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Eliza Hannah Glasgow, mother of Edith Maud Glasgow, record 9841/82865973",
     "source_type": "Provider index transcript",
     "record_type": "Christening index",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Eliza Hannah Glasgow",
@@ -196705,40 +197128,59 @@
       "Spouse": "George James Glasgow",
       "Child": "Edith Maud Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Eliza Hannah Glasgow, parent of Edith Maud Glasgow, other parent George James Glasgow. [Transcript read after the first integration; identity links unchanged.] Ancestry England, Select Births and Christenings, 1538-1975 search-result row: Eliza Hannah Glasgow christened. Search-result row only: relatives are given names, surnames are not indexed in the row. child christened Eliza Hannah Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82865973",
-      "basis": "Christening .",
-      "explanation": "Christening "
+    "note": "The parent index names Eliza Hannah Glasgow as mother of Edith Maud Glasgow and gives George James Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 27 December 1885 at St James, Handsworth, Stafford, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-fd3c760b475b": {
+        "role": "Documentary comparison: mother named in the companion index for Edith Maud Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-8da2958244d5": {
+        "role": "Probable match: child named in the companion parent index for the same event",
+        "assessment": "probable",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/722-Eliza_Hannah_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82866038",
+      "latest_event_year": 1885,
+      "reason": "The dated baptism index names the same child and both parents on 27 December 1885."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82866038",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Edith Maud Glasgow, 27 Dec 1885, St James, Handsworth, Stafford, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-140596740",
+      "ancestry-9841-82866038"
+    ]
   },
   {
     "record_id": "ancestry-9841-82865974",
     "provider": "Ancestry",
     "provider_record_id": "9841/82865974",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "George James Glasgow — child christened; England, Select Births and Christenings, 1538-1975",
+    "association": "George James Glasgow — father of Edith Maud Glasgow",
     "person": "George James Glasgow",
-    "event_role": "child christened",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "St James, Handsworth, Stafford, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82865974",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — George James Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: George James Glasgow, father of Edith Maud Glasgow, record 9841/82865974",
     "source_type": "Provider index transcript",
     "record_type": "Christening index",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "George James Glasgow",
@@ -196746,19 +197188,38 @@
       "Spouse": "Eliza Hannah Glasgow",
       "Child": "Edith Maud Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: George James Glasgow, parent of Edith Maud Glasgow, other parent Eliza Hannah Glasgow. [Transcript read after the first integration; identity links unchanged.] Ancestry England, Select Births and Christenings, 1538-1975 search-result row: George James Glasgow christened. Search-result row only: relatives are given names, surnames are not indexed in the row. child christened George James Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82865974",
-      "basis": "Christening .",
-      "explanation": "Christening "
+    "note": "The parent index names George James Glasgow as father of Edith Maud Glasgow and gives Eliza Hannah Glasgow as the other parent. The dated baptism index gives the same three names and records the baptism on 27 December 1885 at St James, Handsworth, Stafford, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-1a06c002dfde": {
+        "role": "Probable match: father named in the companion index for Edith Maud Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      },
+      "record-ancestry-glasgow-8da2958244d5": {
+        "role": "Probable match: child named in the companion parent index for the same event",
+        "assessment": "probable",
+        "timeline_group": "Birth and death"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/723-George_James_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82866038",
+      "latest_event_year": 1885,
+      "reason": "The dated baptism index names the same child and both parents on 27 December 1885."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index rows for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/82866038",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Edith Maud Glasgow, 27 Dec 1885, St James, Handsworth, Stafford, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "Child and both parents match in the dated baptism entry.",
+    "related_evidence_ids": [
+      "ancestry-9841-140596740",
+      "ancestry-9841-82866038"
+    ]
   },
   {
     "record_id": "ancestry-9841-82866038",
