@@ -430848,5 +430848,54 @@
     "related_evidence_ids": [
       "ancestry-63150-10429120"
     ]
+  },
+  {
+    "record_id": "ancestry-1778-4729892",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/4729892",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "Jack Banks Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/4729892",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Jack Banks Glasgow, Queensland registration 005257 (1906), record 1778/4729892",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth registration index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Jack Banks Glasgow",
+      "Birth Date": "23 Aug 1906",
+      "Birth Place": "Queensland",
+      "Registration Year": "1906",
+      "Registration Place": "Queensland, Australia",
+      "Father": "Samuet Renry Glasgow",
+      "Mother": "Isabelle Agnes Banks",
+      "Page number": "9424",
+      "Registration Number": "005257"
+    },
+    "event_role": "indexed child",
+    "association": "Jack Banks Glasgow — Queensland birth registration",
+    "status": "Identified catalogue subject",
+    "date": "23 Aug 1906",
+    "year": 1906,
+    "place": "Queensland, Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-864": {
+        "role": "Indexed child; exact birth date, full name and parental names agree",
+        "assessment": "confirmed",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "note": "Queensland birth registration 005257 indexes Jack Banks Glasgow, born 23 August 1906, with parents Samuet Renry Glasgow and Isabelle Agnes Banks. The latter two are the indexed spellings.",
+    "provenance": "Queensland Federation Index 1890–1914, registration 005257, page 9424; Ancestry birth index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": false,
+    "supporting_source_title": "Virtual War Memorial Australia, Jack Banks Glasgow, QX4374",
+    "supporting_source_url": "https://vwma.org.au/explore/people/696241",
+    "supporting_source_quality": "secondary",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "Same full name and birth date; records death on 23 January 2010, citing the Courier-Mail."
   }
 ]
