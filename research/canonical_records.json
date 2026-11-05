@@ -409894,7 +409894,13 @@
     "year": 1882,
     "place": "Kasauli, Bengal, India",
     "country": "India",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-noel-robertson-1881": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
     "note": "The index records Noel Robertson-Glasgow, born 25 December 1881 and baptised 19 January 1882 at Kasauli. It names his parents as John Campbell Robertson-Glasgow and Geraldine.",
     "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
     "reviewed_on": "2026-11-05",
@@ -409932,7 +409938,13 @@
     "year": null,
     "place": "Kasauli, Bengal, India",
     "country": "India",
-    "profiles": {},
+    "profiles": {
+      "record-anc-john-campbell-robertson-glasgow-1845-83063": {
+        "role": "Probable indexed father; census household and family names agree.",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
     "note": "The index names John Campbell Robertson-Glasgow, his spouse Geraldine and their child Noel Robertson-Glasgow.",
     "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
     "reviewed_on": "2026-11-05",
@@ -409975,7 +409987,13 @@
     "year": null,
     "place": "Dunga Gali, Bengal, India",
     "country": "India",
-    "profiles": {},
+    "profiles": {
+      "record-anc-john-campbell-robertson-glasgow-1845-83063": {
+        "role": "Probable indexed father; full name matches the census and baptism family.",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
     "note": "The marriage index names John Campbell Robertson Glasgow as Noel Robertson Glasgow’s father. The companion entry names the groom and dates his marriage to 22 July 1909.",
     "provenance": "Ancestry, India, Select Marriages, 1792–1948.",
     "reviewed_on": "2026-11-05",
@@ -410024,7 +410042,13 @@
     "year": 1909,
     "place": "Dunga Gali, Bengal, India",
     "country": "India",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-noel-robertson-1881": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
     "note": "The index records Noel Robertson Glasgow’s marriage to Effie Lorne Campbell on 22 July 1909 at Dunga Gali. It gives his age as 27 and names John Campbell Robertson Glasgow as his father. The corresponding baptism index gives his birth as 25 December 1881.",
     "provenance": "Ancestry, India, Select Marriages, 1792–1948.",
     "reviewed_on": "2026-11-05",
@@ -410532,5 +410556,504 @@
       "latest_birth_year": 1898,
       "reason": "The Royal Naval Air Service casualty listing gives Theodore Linscott Glasgow’s death in 1917 at age 19."
     }
+  },
+  {
+    "record_id": "ancestry-9899-1137351",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1137351",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Caroline Eleanor Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1137351",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Caroline Eleanor Glasgow, record 9899/1137351",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Caroline Eleanor Glasgow",
+      "Gender": "Female",
+      "Birth Date": "23 Mar 1865",
+      "Baptism Date": "03 Jun 1865",
+      "Baptism Age": "0",
+      "Baptism Place": "Umritsur, Bengal, India",
+      "Father": "Francis Charles Macpherson Glasgow",
+      "Mother": "Mary Caroline",
+      "FHL Film Number": "499018"
+    },
+    "event_role": "indexed child",
+    "association": "Caroline Eleanor Glasgow — baptism",
+    "status": "Documentary source; identity held",
+    "date": "03 Jun 1865",
+    "year": 1865,
+    "place": "Umritsur, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-ancestry-glasgow-caroline-eleanor-1865": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names Caroline Eleanor Glasgow, child of Francis Charles Macpherson Glasgow and Mary Caroline. Birth: 23 Mar 1865. Baptism: 03 Jun 1865, Umritsur, Bengal, India.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "india-baptism-1137351",
+    "related_evidence_ids": [
+      "ancestry-9899-218941",
+      "ancestry-9899-1137353",
+      "ancestry-9899-218942"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-1137353",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1137353",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Francis Charles Macpherson Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1137353",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Francis Charles Macpherson Glasgow, record 9899/1137353",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Francis Charles Macpherson Glasgow",
+      "Gender": "Male",
+      "Spouse": "Mary Caroline",
+      "Child": "Caroline Eleanor Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "Francis Charles Macpherson Glasgow — father of Caroline Eleanor Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Umritsur, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names Francis Charles Macpherson Glasgow, his spouse Mary Caroline and their child Caroline Eleanor Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1137351",
+      "reason": "The corresponding baptism index names the same child and father and dates the baptism to 1865.",
+      "latest_event_year": 1865
+    },
+    "documentary_group": "india-baptism-1137351",
+    "related_evidence_ids": [
+      "ancestry-9899-1137351",
+      "ancestry-9899-218941",
+      "ancestry-9899-218942"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-218941",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/218941",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Caroline Eleanor Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/218941",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Caroline Eleanor Glasgow, record 9899/218941",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Caroline Eleanor Glasgow",
+      "Gender": "Female",
+      "Birth Date": "23 Mar 1865",
+      "Birth Place": "Chr. Umritsur Bengal India",
+      "Baptism Date": "03 Jun 1865",
+      "Baptism Age": "0",
+      "Baptism Place": "Umritsur, Bengal, India",
+      "Father": "Francis Charles Macpherson Glasgow",
+      "Mother": "Mary Caroline",
+      "Reference ID": "v 112 p 78",
+      "FHL Film Number": "499018"
+    },
+    "event_role": "indexed child",
+    "association": "Caroline Eleanor Glasgow — baptism",
+    "status": "Documentary source; identity held",
+    "date": "03 Jun 1865",
+    "year": 1865,
+    "place": "Umritsur, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-ancestry-glasgow-caroline-eleanor-1865": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names Caroline Eleanor Glasgow, child of Francis Charles Macpherson Glasgow and Mary Caroline. Birth: 23 Mar 1865. Baptism: 03 Jun 1865, Umritsur, Bengal, India.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "india-baptism-1137351",
+    "related_evidence_ids": [
+      "ancestry-9899-1137351",
+      "ancestry-9899-1137353",
+      "ancestry-9899-218942"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-218942",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/218942",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Francis Charles Macpherson Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/218942",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Francis Charles Macpherson Glasgow, record 9899/218942",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Francis Charles Macpherson Glasgow",
+      "Gender": "Male",
+      "Spouse": "Mary Caroline",
+      "Child": "Caroline Eleanor Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "Francis Charles Macpherson Glasgow — father of Caroline Eleanor Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Umritsur, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names Francis Charles Macpherson Glasgow, his spouse Mary Caroline and their child Caroline Eleanor Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1137351",
+      "reason": "The corresponding baptism index names the same child and father and dates the baptism to 1865.",
+      "latest_event_year": 1865
+    },
+    "documentary_group": "india-baptism-1137351",
+    "related_evidence_ids": [
+      "ancestry-9899-1137351",
+      "ancestry-9899-218941",
+      "ancestry-9899-1137353"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-230091",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/230091",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "John Campbell Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/230091",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: John Campbell Robertson-Glasgow, record 9899/230091",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "John Campbell Robertson-Glasgow",
+      "Gender": "Male",
+      "Spouse": "Geraldine",
+      "Child": "Esther Robertson-Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "John Campbell Robertson-Glasgow — father of Esther Robertson-Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Bareilly, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-anc-john-campbell-robertson-glasgow-1845-83063": {
+        "role": "Probable indexed father; census household and family names agree.",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index names John Campbell Robertson-Glasgow, his spouse Geraldine and their child Esther Robertson-Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/230093",
+      "reason": "The corresponding baptism index names the same child and father and dates the baptism to 1887.",
+      "latest_event_year": 1887
+    },
+    "documentary_group": "india-baptism-230093",
+    "related_evidence_ids": [
+      "ancestry-9899-230093",
+      "ancestry-9899-729153",
+      "ancestry-9899-729155",
+      "ancestry-9899-91571",
+      "ancestry-9899-91572"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-230093",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/230093",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Esther Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/230093",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Esther Robertson-Glasgow, record 9899/230093",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Esther Robertson-Glasgow",
+      "Gender": "Female",
+      "Birth Date": "26 Nov 1887",
+      "Baptism Date": "19 Dec 1887",
+      "Baptism Age": "0",
+      "Baptism Place": "Bareilly, Bengal, India",
+      "Father": "John Campbell Robertson-Glasgow",
+      "Mother": "Geraldine",
+      "Reference ID": "Film 510-883",
+      "FHL Film Number": "510883"
+    },
+    "event_role": "indexed child",
+    "association": "Esther Robertson-Glasgow — baptism",
+    "status": "Documentary source; identity held",
+    "date": "19 Dec 1887",
+    "year": 1887,
+    "place": "Bareilly, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-anc-esther-robertson-glasgow-1888-83066": {
+        "role": "Probable indexed child; name, birth period and father agree with the 1911 household.",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index names Esther Robertson-Glasgow, child of John Campbell Robertson-Glasgow and Geraldine. Birth: 26 Nov 1887. Baptism: 19 Dec 1887, Bareilly, Bengal, India. The same parent names appear in Noel Robertson-Glasgow’s baptism index.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "india-baptism-230093",
+    "related_evidence_ids": [
+      "ancestry-9899-729153",
+      "ancestry-9899-230091",
+      "ancestry-9899-729155",
+      "ancestry-9899-91571",
+      "ancestry-9899-91572"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-615954",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/615954",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Henry Frederick Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/615954",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Henry Frederick Glasgow, record 9899/615954",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Henry Frederick Glasgow",
+      "Gender": "Male",
+      "Birth Date": "19 Oct 1853",
+      "Baptism Date": "20 Nov 1853",
+      "Baptism Age": "0",
+      "Baptism Place": "Barrackpore, Bengal, India",
+      "Father": "William Glasgow",
+      "Mother": "Sophia Hannah",
+      "Reference ID": "v 84 p 247",
+      "FHL Film Number": "498991"
+    },
+    "event_role": "indexed child",
+    "association": "William Henry Frederick Glasgow — baptism",
+    "status": "Documentary source; identity held",
+    "date": "20 Nov 1853",
+    "year": 1853,
+    "place": "Barrackpore, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-ancestry-glasgow-william-henry-frederick-1853": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names William Henry Frederick Glasgow, child of William Glasgow and Sophia Hannah. Birth: 19 Oct 1853. Baptism: 20 Nov 1853, Barrackpore, Bengal, India. The names William Glasgow and Sophia Hannah agree with the couple in the 1849 marriage index.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "india-baptism-615954",
+    "related_evidence_ids": [
+      "ancestry-9899-615955",
+      "ancestry-9901-401354",
+      "ancestry-9901-450377"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-615955",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/615955",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/615955",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: William Glasgow, record 9899/615955",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Gender": "Male",
+      "Spouse": "Sophia Hannah",
+      "Child": "William Henry Frederick Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "William Glasgow — father of William Henry Frederick Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Barrackpore, Bengal, India",
+    "country": "India",
+    "profiles": {},
+    "note": "The index names William Glasgow, his spouse Sophia Hannah and their child William Henry Frederick Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/615954",
+      "reason": "The corresponding baptism index names the same child and father and dates the baptism to 1853.",
+      "latest_event_year": 1853
+    },
+    "documentary_group": "india-baptism-615954",
+    "related_evidence_ids": [
+      "ancestry-9899-615954",
+      "ancestry-9901-401354",
+      "ancestry-9901-450377"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-729153",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/729153",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Esther Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/729153",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Esther Robertson-Glasgow, record 9899/729153",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Esther Robertson-Glasgow",
+      "Gender": "Female",
+      "Birth Date": "26 Nov 1887",
+      "Baptism Date": "19 Dec 1887",
+      "Baptism Age": "0",
+      "Baptism Place": "Bareilly, Bengal, India",
+      "Father": "John Campbell Robertson-Glasgow",
+      "Mother": "Geraldine",
+      "FHL Film Number": "510883"
+    },
+    "event_role": "indexed child",
+    "association": "Esther Robertson-Glasgow — baptism",
+    "status": "Documentary source; identity held",
+    "date": "19 Dec 1887",
+    "year": 1887,
+    "place": "Bareilly, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-anc-esther-robertson-glasgow-1888-83066": {
+        "role": "Probable indexed child; name, birth period and father agree with the 1911 household.",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index names Esther Robertson-Glasgow, child of John Campbell Robertson-Glasgow and Geraldine. Birth: 26 Nov 1887. Baptism: 19 Dec 1887, Bareilly, Bengal, India. The same parent names appear in Noel Robertson-Glasgow’s baptism index.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "documentary_group": "india-baptism-230093",
+    "related_evidence_ids": [
+      "ancestry-9899-230093",
+      "ancestry-9899-230091",
+      "ancestry-9899-729155",
+      "ancestry-9899-91571",
+      "ancestry-9899-91572"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-729155",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/729155",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "John Campbell Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/729155",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: John Campbell Robertson-Glasgow, record 9899/729155",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "John Campbell Robertson-Glasgow",
+      "Gender": "Male",
+      "Spouse": "Geraldine",
+      "Child": "Esther Robertson-Glasgow"
+    },
+    "event_role": "indexed father",
+    "association": "John Campbell Robertson-Glasgow — father of Esther Robertson-Glasgow",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Bareilly, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-anc-john-campbell-robertson-glasgow-1845-83063": {
+        "role": "Probable indexed father; census household and family names agree.",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index names John Campbell Robertson-Glasgow, his spouse Geraldine and their child Esther Robertson-Glasgow.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "date_status": "undated",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/230093",
+      "reason": "The corresponding baptism index names the same child and father and dates the baptism to 1887.",
+      "latest_event_year": 1887
+    },
+    "documentary_group": "india-baptism-230093",
+    "related_evidence_ids": [
+      "ancestry-9899-230093",
+      "ancestry-9899-729153",
+      "ancestry-9899-230091",
+      "ancestry-9899-91571",
+      "ancestry-9899-91572"
+    ]
   }
 ]
