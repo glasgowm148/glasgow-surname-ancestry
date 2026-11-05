@@ -73271,18 +73271,20 @@
       "Glasgow-3544",
       "Glasgow-3545"
     ],
-    "status": "possible",
+    "status": "probable",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented.",
-    "reason": "Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented.",
-    "claim": "Glasgow-3545 remains the selected father of Glasgow-3544, individually assessed 57%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "assessment_date": "2026-11-05",
+    "basis": "'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William Glasgow-3545 married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes Glasgow-3544, who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable.",
+    "reason": "'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William Glasgow-3545 married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes Glasgow-3544, who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable.",
+    "claim": "'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William Glasgow-3545 married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes Glasgow-3544, who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable.",
+    "record_scope": "Index transcripts only; originals uninspected. Ann's surname is not in the baptism, Agnes's 1833 marriage entry does not name her father, and another William and Ann Glasgow in Manchester is not excluded. No mother change follows.",
+    "limitations": "Index transcripts only; originals uninspected. Ann's surname is not in the baptism, Agnes's 1833 marriage entry does not name her father, and another William and Ann Glasgow in Manchester is not excluded. No mother change follows.",
     "source_ids": [
-      "held-e-9fd9c0208e78"
+      "held-e-9fd9c0208e78",
+      "ancestry-9841-2392597",
+      "ancestry-9852-10952888"
     ],
     "assessment_history": [
       {
@@ -73295,16 +73297,22 @@
         "claim_id": "C-66bc3df1fb80",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 57,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented."
       }
     ],
     "perspectives": {
       "Glasgow-3544": {
         "relationship": "father",
-        "reason": "Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented."
+        "reason": "'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William Glasgow-3545 married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes Glasgow-3544, who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable."
       },
       "Glasgow-3545": {
         "relationship": "daughter",
-        "reason": "Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented."
+        "reason": "'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William Glasgow-3545 married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes Glasgow-3544, who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable."
       }
     },
     "analysis_links": [
@@ -73315,27 +73323,28 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-66bc3df1fb80",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 57,
+        "relationship": "father",
+        "relative_id": "Glasgow-3545",
+        "reviewed": "2026-10-22",
+        "source_basis": "Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented.",
+        "status": "possible"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_england_baptism_index_father"
     },
     "probability": {
-      "value": 0.57,
-      "basis": "Agnes’s 1833 Manchester parish citation names David Glasgow and Agnes Glasgow but does not transcribe William as father. The selected William links only a FamilySearch sources page, leaving this assignment weakly documented.",
-      "reviewed": "2026-10-22",
+      "value": 0.76,
+      "reviewed": "2026-11-05",
+      "basis": "'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William Glasgow-3545 married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes Glasgow-3544, who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable.",
       "source_ids": [
-        "held-e-9fd9c0208e78"
+        "held-e-9fd9c0208e78",
+        "ancestry-9841-2392597",
+        "ancestry-9852-10952888"
       ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "scope": "Index transcripts only; originals uninspected. Ann's surname is not in the baptism, Agnes's 1833 marriage entry does not name her father, and another William and Ann Glasgow in Manchester is not excluded. No mother change follows."
     }
   },
   {
@@ -80853,18 +80862,19 @@
       "Glasgow-2604",
       "Glasgow-2603"
     ],
-    "status": "probable",
+    "status": "proved",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents.",
-    "reason": "The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents.",
-    "claim": "Glasgow-2603 remains the selected father of Glasgow-2604, individually assessed 81%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-11-05",
+    "basis": "John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert Glasgow-2603 and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%.",
+    "reason": "John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert Glasgow-2603 and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%.",
+    "claim": "John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert Glasgow-2603 and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%.",
+    "record_scope": "Index transcript only; the cathedral register is uninspected and John's 1910 death registration is not transcribed for parents. Robert's own parentage is separate. No mother change follows.",
+    "limitations": "Index transcript only; the cathedral register is uninspected and John's 1910 death registration is not transcribed for parents. Robert's own parentage is separate. No mother change follows.",
     "source_ids": [
-      "held-e-7a0ea9fedae8"
+      "held-e-7a0ea9fedae8",
+      "ancestry-9841-125802717"
     ],
     "assessment_history": [
       {
@@ -80877,16 +80887,22 @@
         "claim_id": "C-ad9b37694d1e",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 81,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents."
       }
     ],
     "perspectives": {
       "Glasgow-2604": {
         "relationship": "father",
-        "reason": "The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents."
+        "reason": "John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert Glasgow-2603 and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%."
       },
       "Glasgow-2603": {
         "relationship": "son",
-        "reason": "The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents."
+        "reason": "John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert Glasgow-2603 and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%."
       }
     },
     "analysis_links": [
@@ -80897,27 +80913,27 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-ad9b37694d1e",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 81,
+        "relationship": "father",
+        "relative_id": "Glasgow-2603",
+        "reviewed": "2026-10-22",
+        "source_basis": "The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_england_baptism_index_father"
     },
     "probability": {
-      "value": 0.81,
-      "basis": "The held account assigns John Glasgow to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. John’s 1827 Manchester birth and Bombay family grouping fit, but his 1910 death registration is not transcribed for parents.",
-      "reviewed": "2026-10-22",
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert Glasgow-2603 and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%.",
       "source_ids": [
-        "held-e-7a0ea9fedae8"
+        "held-e-7a0ea9fedae8",
+        "ancestry-9841-125802717"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Index transcript only; the cathedral register is uninspected and John's 1910 death registration is not transcribed for parents. Robert's own parentage is separate. No mother change follows."
     }
   },
   {
@@ -87526,18 +87542,21 @@
       "Glasgow-1674",
       "Glasgow-2603"
     ],
-    "status": "probable",
+    "status": "proved",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category.",
-    "reason": "The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category.",
-    "claim": "Glasgow-2603 remains the selected father of Glasgow-1674, individually assessed 83%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-11-05",
+    "basis": "Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved.",
+    "reason": "Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved.",
+    "claim": "Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved.",
+    "record_scope": "Baptism index transcript only; register uninspected. The 1841 arrival claim's conflict with the 1842 sailing is unaffected. No mother change follows.",
+    "limitations": "Baptism index transcript only; register uninspected. The 1841 arrival claim's conflict with the 1842 sailing is unaffected. No mother change follows.",
     "source_ids": [
-      "held-e-2e6250e5ddd9"
+      "held-e-2e6250e5ddd9",
+      "ancestry-9841-51256545",
+      "ancestry-9841-130979184",
+      "held-e-fc461fa36a82"
     ],
     "assessment_history": [
       {
@@ -87550,16 +87569,22 @@
         "claim_id": "C-1f329e5a7ca9",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 83,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category."
       }
     ],
     "perspectives": {
       "Glasgow-1674": {
         "relationship": "father",
-        "reason": "The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category."
+        "reason": "Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved."
       },
       "Glasgow-2603": {
         "relationship": "daughter",
-        "reason": "The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category."
+        "reason": "Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved."
       }
     },
     "analysis_links": [
@@ -87570,27 +87595,29 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-1f329e5a7ca9",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 83,
+        "relationship": "father",
+        "relative_id": "Glasgow-2603",
+        "reviewed": "2026-10-22",
+        "source_basis": "The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_england_baptism_index_father"
     },
     "probability": {
-      "value": 0.83,
-      "basis": "The held account assigns Isabella (Glasgow) Lowes to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Isabella’s detailed later life and Bombay grouping support the family account; the 1841 arrival claim conflicts with the 1842 sailing category.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "reviewed": "2026-11-05",
+      "basis": "Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved.",
       "source_ids": [
-        "held-e-2e6250e5ddd9"
+        "held-e-2e6250e5ddd9",
+        "ancestry-9841-51256545",
+        "ancestry-9841-130979184",
+        "held-e-fc461fa36a82"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Baptism index transcript only; register uninspected. The 1841 arrival claim's conflict with the 1842 sailing is unaffected. No mother change follows."
     }
   },
   {
@@ -87603,14 +87630,16 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause.",
-    "reason": "The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause.",
-    "claim": "Glasgow-2603 remains the selected father of Glasgow-2691, individually assessed 79%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-11-05",
+    "basis": "An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable.",
+    "reason": "An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable.",
+    "claim": "An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable.",
+    "record_scope": "Her birth about 1834 (from later records) fits a late pre-emigration baptism but not a birth in 1842; the baptism index gives no birth date, so it could instead belong to a younger child. Robert's will does not name an Elizabeth. Index transcripts only. No mother change follows.",
+    "limitations": "Her birth about 1834 (from later records) fits a late pre-emigration baptism but not a birth in 1842; the baptism index gives no birth date, so it could instead belong to a younger child. Robert's will does not name an Elizabeth. Index transcripts only. No mother change follows.",
     "source_ids": [
-      "held-e-448fb2e76be4"
+      "held-e-448fb2e76be4",
+      "ancestry-9841-22695024",
+      "ancestry-9841-135748115"
     ],
     "assessment_history": [
       {
@@ -87623,16 +87652,22 @@
         "claim_id": "C-4e079a920268",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 79,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause."
       }
     ],
     "perspectives": {
       "Glasgow-2691": {
         "relationship": "father",
-        "reason": "The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause."
+        "reason": "An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable."
       },
       "Glasgow-2603": {
         "relationship": "daughter",
-        "reason": "The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause."
+        "reason": "An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable."
       }
     },
     "analysis_links": [
@@ -87643,27 +87678,28 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-4e079a920268",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 79,
+        "relationship": "father",
+        "relative_id": "Glasgow-2603",
+        "reviewed": "2026-10-22",
+        "source_basis": "The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_england_baptism_index_father"
     },
     "probability": {
-      "value": 0.79,
-      "basis": "The held account assigns Elizabeth (Glasgow) Hurst to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Elizabeth’s approximate 1834 birth fits the reported sibling group, but the 1894 death index supplies no held parent clause.",
-      "reviewed": "2026-10-22",
+      "value": 0.84,
+      "reviewed": "2026-11-05",
+      "basis": "An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable.",
       "source_ids": [
-        "held-e-448fb2e76be4"
+        "held-e-448fb2e76be4",
+        "ancestry-9841-22695024",
+        "ancestry-9841-135748115"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Her birth about 1834 (from later records) fits a late pre-emigration baptism but not a birth in 1842; the baptism index gives no birth date, so it could instead belong to a younger child. Robert's will does not name an Elizabeth. Index transcripts only. No mother change follows."
     }
   },
   {
@@ -90013,18 +90049,20 @@
       "Glasgow-3546",
       "Glasgow-3543"
     ],
-    "status": "probable",
+    "status": "proved",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David.",
-    "reason": "William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David.",
-    "claim": "Glasgow-3543 remains the selected father of Glasgow-3546, individually assessed 66%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-11-05",
+    "basis": "William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David Glasgow-3543 and Agnes Glasgow-3544, who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved.",
+    "reason": "William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David Glasgow-3543 and Agnes Glasgow-3544, who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved.",
+    "claim": "William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David Glasgow-3543 and Agnes Glasgow-3544, who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved.",
+    "record_scope": "Index transcript only; the cathedral register is uninspected and his 1870 Chorlton death is not transcribed for parents. No mother change follows.",
+    "limitations": "Index transcript only; the cathedral register is uninspected and his 1870 Chorlton death is not transcribed for parents. No mother change follows.",
     "source_ids": [
-      "held-e-d748b04fa5de"
+      "held-e-d748b04fa5de",
+      "ancestry-9841-125222894",
+      "ancestry-9841-133649380"
     ],
     "assessment_history": [
       {
@@ -90037,16 +90075,22 @@
         "claim_id": "C-627faa0da542",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 66,
+        "assessment_date": "2026-10-22",
+        "source_basis": "William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David."
       }
     ],
     "perspectives": {
       "Glasgow-3546": {
         "relationship": "father",
-        "reason": "William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David."
+        "reason": "William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David Glasgow-3543 and Agnes Glasgow-3544, who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved."
       },
       "Glasgow-3543": {
         "relationship": "son",
-        "reason": "William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David."
+        "reason": "William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David Glasgow-3543 and Agnes Glasgow-3544, who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved."
       }
     },
     "analysis_links": [
@@ -90057,27 +90101,28 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-627faa0da542",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 66,
+        "relationship": "father",
+        "relative_id": "Glasgow-3543",
+        "reviewed": "2026-10-22",
+        "source_basis": "William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_england_baptism_index_father"
     },
     "probability": {
-      "value": 0.66,
-      "basis": "William Robert’s account assigns David and Agnes and gives a compatible 1836 birth in the Manchester sibling family. The sole held source is a FamilySearch contributed source list, without a parent quotation or household linking him to this David.",
-      "reviewed": "2026-10-22",
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David Glasgow-3543 and Agnes Glasgow-3544, who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved.",
       "source_ids": [
-        "held-e-d748b04fa5de"
+        "held-e-d748b04fa5de",
+        "ancestry-9841-125222894",
+        "ancestry-9841-133649380"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Index transcript only; the cathedral register is uninspected and his 1870 Chorlton death is not transcribed for parents. No mother change follows."
     }
   },
   {
@@ -90822,18 +90867,20 @@
       "Glasgow-2607",
       "Glasgow-2603"
     ],
-    "status": "probable",
+    "status": "proved",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field.",
-    "reason": "The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field.",
-    "claim": "Glasgow-2603 remains the selected father of Glasgow-2607, individually assessed 82%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-11-05",
+    "basis": "Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved.",
+    "reason": "Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved.",
+    "claim": "Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved.",
+    "record_scope": "Baptism index transcript only; register uninspected. The will names her as Mary Knox, identified with Mary Maria by the Turakina family account. No mother change follows.",
+    "limitations": "Baptism index transcript only; register uninspected. The will names her as Mary Knox, identified with Mary Maria by the Turakina family account. No mother change follows.",
     "source_ids": [
-      "held-e-ed8f8b7f43be"
+      "held-e-ed8f8b7f43be",
+      "ancestry-9841-34597737",
+      "held-e-fc461fa36a82"
     ],
     "assessment_history": [
       {
@@ -90846,16 +90893,22 @@
         "claim_id": "C-ef63930ec612",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 82,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field."
       }
     ],
     "perspectives": {
       "Glasgow-2607": {
         "relationship": "father",
-        "reason": "The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field."
+        "reason": "Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved."
       },
       "Glasgow-2603": {
         "relationship": "daughter",
-        "reason": "The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field."
+        "reason": "Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved."
       }
     },
     "analysis_links": [
@@ -90866,27 +90919,28 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-ef63930ec612",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 82,
+        "relationship": "father",
+        "relative_id": "Glasgow-2603",
+        "reviewed": "2026-10-22",
+        "source_basis": "The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_england_baptism_index_father"
     },
     "probability": {
-      "value": 0.82,
-      "basis": "The held account assigns Mary Maria (Glasgow) Knox to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Mary Maria’s 1837 Manchester birth and Turakina family placement fit, without a held direct parent field.",
-      "reviewed": "2026-10-22",
+      "value": 0.94,
+      "reviewed": "2026-11-05",
+      "basis": "Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved.",
       "source_ids": [
-        "held-e-ed8f8b7f43be"
+        "held-e-ed8f8b7f43be",
+        "ancestry-9841-34597737",
+        "held-e-fc461fa36a82"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Baptism index transcript only; register uninspected. The will names her as Mary Knox, identified with Mary Maria by the Turakina family account. No mother change follows."
     }
   },
   {
@@ -93161,18 +93215,21 @@
       "Glasgow-2608",
       "Glasgow-2603"
     ],
-    "status": "probable",
+    "status": "proved",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death.",
-    "reason": "The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death.",
-    "claim": "Glasgow-2603 remains the selected father of Glasgow-2608, individually assessed 76%.",
-    "record_scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
-    "limitations": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate.",
+    "assessment_date": "2026-11-05",
+    "basis": "Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved.",
+    "reason": "Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved.",
+    "claim": "Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved.",
+    "record_scope": "Baptism index transcript only; register uninspected. Her cited 1920 death number duplicating Mary Knox's remains an unrelated citation error against her 1904 death. No mother change follows.",
+    "limitations": "Baptism index transcript only; register uninspected. Her cited 1920 death number duplicating Mary Knox's remains an unrelated citation error against her 1904 death. No mother change follows.",
     "source_ids": [
-      "held-e-074ad674014d"
+      "held-e-074ad674014d",
+      "ancestry-9841-189039485",
+      "ancestry-9841-101712439",
+      "held-e-fc461fa36a82"
     ],
     "assessment_history": [
       {
@@ -93185,16 +93242,22 @@
         "claim_id": "C-27fa2d8fb583",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 76,
+        "assessment_date": "2026-10-22",
+        "source_basis": "The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death."
       }
     ],
     "perspectives": {
       "Glasgow-2608": {
         "relationship": "father",
-        "reason": "The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death."
+        "reason": "Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved."
       },
       "Glasgow-2603": {
         "relationship": "daughter",
-        "reason": "The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death."
+        "reason": "Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved."
       }
     },
     "analysis_links": [
@@ -93205,27 +93268,29 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-27fa2d8fb583",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 76,
+        "relationship": "father",
+        "relative_id": "Glasgow-2603",
+        "reviewed": "2026-10-22",
+        "source_basis": "The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_england_baptism_index_father"
     },
     "probability": {
-      "value": 0.76,
-      "basis": "The held account assigns Ann (Glasgow) Hogg to Robert Glasgow and Mary Lamb in the Bombay/Turakina family. Ann’s 1839 Lancashire birth fits, but her cited 1920/10746 death number duplicates Mary Knox’s and contradicts her 1904 death.",
-      "reviewed": "2026-10-22",
+      "value": 0.93,
+      "reviewed": "2026-11-05",
+      "basis": "Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved.",
       "source_ids": [
-        "held-e-074ad674014d"
+        "held-e-074ad674014d",
+        "ancestry-9841-189039485",
+        "ancestry-9841-101712439",
+        "held-e-fc461fa36a82"
       ],
-      "scope": "Confidence concerns this recorded child and the selected father as identified by the held family evidence; maternity and the father’s upstream ancestry are separate."
+      "scope": "Baptism index transcript only; register uninspected. Her cited 1920 death number duplicating Mary Knox's remains an unrelated citation error against her 1904 death. No mother change follows."
     }
   },
   {
@@ -112673,6 +112738,334 @@
     "profile_names": {
       "Glasgow-810": "Jean Glasgow",
       "record-ancestry-glasgow-0c9011a8adf0": "George Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-ancestry-r2-glasgow1001-father-20261105",
+    "people": [
+      "Glasgow-1001",
+      "record-ancestry-glasgow-04d267d61354"
+    ],
+    "claim": "William Alexander Glasgow, father in the 23 July 1815 Berwick-upon-Tweed baptism index (draft record-ancestry-glasgow-04d267d61354), is the proposed father of William Brown Glasgow-1001.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-1001": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-04d267d61354": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-114661706",
+      "ancestry-9852-1901246",
+      "ancestry-9852-13923752",
+      "ancestry-9852-36465000"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "Before 5 November 2026 William Brown Glasgow-1001 had no attached or assessed father (research priority queue: unknown father; his biography already quoted the baptism's parents without a selected father). No previous percentage is invented.",
+        "status": "unknown"
+      },
+      "review_kind": "ancestry_england_index_new_father",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "Ancestry's England, Select Births and Christenings index records William, son of William Alexander Glasgow and Elizabeth Rachel, baptised 23 July 1815 at Berwick-upon-Tweed; William Brown Glasgow-1001's account gives exactly that date and place. The England, Select Marriages index records the 9 March 1862 Kendal marriage of William Glasgow, aged 44, to Margaret Ward, naming his father as William Alexander Glasgow; William Brown Glasgow was then living at Kendal, and children John Harrison (1862) and Joseph Alexander (1864) were baptised there to William (Brown) Glasgow and Margaret, so the 1862 groom is William-1001 remarrying after Dinah. A third index entry records William Alexander Glasgow marrying Elizabeth Rachel Brown at Berwick on 24 December 1810, which explains William's middle name Brown. Two separate registers, 47 years apart, name the same distinctive father, so William Alexander Glasgow (record-defined draft record-ancestry-glasgow-04d267d61354) is attached at 85% probable.",
+    "assessment_history": [],
+    "reason": "Ancestry's England, Select Births and Christenings index records William, son of William Alexander Glasgow and Elizabeth Rachel, baptised 23 July 1815 at Berwick-upon-Tweed; William Brown Glasgow-1001's account gives exactly that date and place. The England, Select Marriages index records the 9 March 1862 Kendal marriage of William Glasgow, aged 44, to Margaret Ward, naming his father as William Alexander Glasgow; William Brown Glasgow was then living at Kendal, and children John Harrison (1862) and Joseph Alexander (1864) were baptised there to William (Brown) Glasgow and Margaret, so the 1862 groom is William-1001 remarrying after Dinah. A third index entry records William Alexander Glasgow marrying Elizabeth Rachel Brown at Berwick on 24 December 1810, which explains William's middle name Brown. Two separate registers, 47 years apart, name the same distinctive father, so William Alexander Glasgow (record-defined draft record-ancestry-glasgow-04d267d61354) is attached at 85% probable.",
+    "limitations": "Index transcripts only (FamilySearch-derived); the Berwick and Kendal registers are uninspected. The 1862 age 44 implies about 1818, three years later than the 1815 baptism, a common remarriage understatement. The 1845 Kendal marriage index for William Brown Glasgow and Dinah Bell gives his father as 'William Brown', read here as a truncated or garbled entry rather than a different father; it is kept as a stated discrepancy. The 1810 Berwick groom is not Glasgow-3324 of Larne (died there in 1816, wife Elizabeth Stewart); Scottish index entries at Montrose for Joseph Brown Glasgow (1817) and Rachael Glasgow (1824), children of William Alexander and Elizabeth Rachael, suggest the family moved to Angus, but are not yet linked. William Alexander's own parentage is unknown. No mother is assessed here.",
+    "probability": {
+      "value": 0.85,
+      "reviewed": "2026-11-05",
+      "basis": "Ancestry's England, Select Births and Christenings index records William, son of William Alexander Glasgow and Elizabeth Rachel, baptised 23 July 1815 at Berwick-upon-Tweed; William Brown Glasgow-1001's account gives exactly that date and place. The England, Select Marriages index records the 9 March 1862 Kendal marriage of William Glasgow, aged 44, to Margaret Ward, naming his father as William Alexander Glasgow; William Brown Glasgow was then living at Kendal, and children John Harrison (1862) and Joseph Alexander (1864) were baptised there to William (Brown) Glasgow and Margaret, so the 1862 groom is William-1001 remarrying after Dinah. A third index entry records William Alexander Glasgow marrying Elizabeth Rachel Brown at Berwick on 24 December 1810, which explains William's middle name Brown. Two separate registers, 47 years apart, name the same distinctive father, so William Alexander Glasgow (record-defined draft record-ancestry-glasgow-04d267d61354) is attached at 85% probable.",
+      "source_ids": [
+        "ancestry-9841-114661706",
+        "ancestry-9852-1901246",
+        "ancestry-9852-13923752",
+        "ancestry-9852-36465000"
+      ],
+      "scope": "Index transcripts only (FamilySearch-derived); the Berwick and Kendal registers are uninspected. The 1862 age 44 implies about 1818, three years later than the 1815 baptism, a common remarriage understatement. The 1845 Kendal marriage index for William Brown Glasgow and Dinah Bell gives his father as 'William Brown', read here as a truncated or garbled entry rather than a different father; it is kept as a stated discrepancy. The 1810 Berwick groom is not Glasgow-3324 of Larne (died there in 1816, wife Elizabeth Stewart); Scottish index entries at Montrose for Joseph Brown Glasgow (1817) and Rachael Glasgow (1824), children of William Alexander and Elizabeth Rachael, suggest the family moved to Angus, but are not yet linked. William Alexander's own parentage is unknown. No mother is assessed here."
+    },
+    "working_selection": true,
+    "attachment_status": "hypothesis",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-1001.html#research-findings",
+        "label": "Ancestry England index father"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1001": "William Brown Glasgow",
+      "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-ancestry-r2-glasgow3219-father-20261105",
+    "people": [
+      "Glasgow-3219",
+      "record-ancestry-glasgow-fd84e4728b02"
+    ],
+    "claim": "James Glasgow of Sunderland, husband of Jane Clough Duncan (draft record-ancestry-glasgow-fd84e4728b02), is the proposed father of Sarah Jane (Glasgow) Tulip-3219.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-3219": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-fd84e4728b02": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-46657939",
+      "ancestry-9852-11864960"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "Before 5 November 2026 Sarah Jane-3219 had no attached or assessed father (research priority queue: unknown father). No previous percentage is invented.",
+        "status": "unknown"
+      },
+      "review_kind": "ancestry_england_index_new_father",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "Ancestry's England, Select Births and Christenings index records Sarah Jane Glasgow, born 2 December 1831 at Sunderland, daughter of James Glasgow and Jane Clough Duncan; Sarah Jane (Glasgow) Tulip-3219's account gives exactly that birth date and place. The England, Select Marriages index records her marriage to Robert Robson Tulip at Bishopwearmouth on 16 December 1852 and names her father as James Glasgow. Birth and marriage registers agree on the father, so James Glasgow of Sunderland, husband of Jane Clough Duncan (record-defined draft record-ancestry-glasgow-fd84e4728b02), is attached at 88% probable.",
+    "assessment_history": [],
+    "reason": "Ancestry's England, Select Births and Christenings index records Sarah Jane Glasgow, born 2 December 1831 at Sunderland, daughter of James Glasgow and Jane Clough Duncan; Sarah Jane (Glasgow) Tulip-3219's account gives exactly that birth date and place. The England, Select Marriages index records her marriage to Robert Robson Tulip at Bishopwearmouth on 16 December 1852 and names her father as James Glasgow. Birth and marriage registers agree on the father, so James Glasgow of Sunderland, husband of Jane Clough Duncan (record-defined draft record-ancestry-glasgow-fd84e4728b02), is attached at 88% probable.",
+    "limitations": "Index transcripts only; the Sunderland and Bishopwearmouth registers are uninspected. The indexing pipeline's possible link of the 1852 marriage's father to James Glasgow-1701 of Killycurragh, County Tyrone, has no support beyond the name and is not adopted. Other Sunderland Glasgow fathers (John, Peter) are distinct couples. James's own birth and parentage are unknown. Mother Jane Clough Duncan is named but not assessed here.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-05",
+      "basis": "Ancestry's England, Select Births and Christenings index records Sarah Jane Glasgow, born 2 December 1831 at Sunderland, daughter of James Glasgow and Jane Clough Duncan; Sarah Jane (Glasgow) Tulip-3219's account gives exactly that birth date and place. The England, Select Marriages index records her marriage to Robert Robson Tulip at Bishopwearmouth on 16 December 1852 and names her father as James Glasgow. Birth and marriage registers agree on the father, so James Glasgow of Sunderland, husband of Jane Clough Duncan (record-defined draft record-ancestry-glasgow-fd84e4728b02), is attached at 88% probable.",
+      "source_ids": [
+        "ancestry-9841-46657939",
+        "ancestry-9852-11864960"
+      ],
+      "scope": "Index transcripts only; the Sunderland and Bishopwearmouth registers are uninspected. The indexing pipeline's possible link of the 1852 marriage's father to James Glasgow-1701 of Killycurragh, County Tyrone, has no support beyond the name and is not adopted. Other Sunderland Glasgow fathers (John, Peter) are distinct couples. James's own birth and parentage are unknown. Mother Jane Clough Duncan is named but not assessed here."
+    },
+    "working_selection": true,
+    "attachment_status": "hypothesis",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3219.html#research-findings",
+        "label": "Ancestry England index father"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3219": "Sarah Jane (Glasgow) Tulip",
+      "record-ancestry-glasgow-fd84e4728b02": "James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-ancestry-r2-manchester-robert1806-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-f0367a88c291",
+      "Glasgow-3545"
+    ],
+    "claim": "William Glasgow-3545, husband of Ann Denham, is the proposed father of Robert Glasgow, born 5 September 1806 and baptised 28 September 1806 at Lloyd Street Presbyterian Chapel, Manchester, to William and Ann Glasgow.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-ancestry-glasgow-f0367a88c291": {
+        "relationship": "father"
+      },
+      "Glasgow-3545": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-122660630",
+      "ancestry-9852-10952888",
+      "ancestry-9841-2392597"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No earlier father assessment for this record-defined draft.",
+        "status": "unknown"
+      },
+      "review_kind": "ancestry_england_index_new_father",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "Robert Glasgow, born 5 September 1806 and baptised 28 September 1806 at Lloyd Street Presbyterian Chapel, Manchester, is indexed as a son of William and Ann Glasgow. William Glasgow-3545 married Ann Denham at Manchester on 30 September 1805, and the same chapel baptised Agnes (1812) and William (1816) to William and Ann Glasgow. Robert is the first child of that marriage on chronology and place, so William-3545 is extended to him at 75% probable.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow, born 5 September 1806 and baptised 28 September 1806 at Lloyd Street Presbyterian Chapel, Manchester, is indexed as a son of William and Ann Glasgow. William Glasgow-3545 married Ann Denham at Manchester on 30 September 1805, and the same chapel baptised Agnes (1812) and William (1816) to William and Ann Glasgow. Robert is the first child of that marriage on chronology and place, so William-3545 is extended to him at 75% probable.",
+    "limitations": "Index transcripts only; originals uninspected. Ann's surname is not given in the baptisms, and another William and Ann Glasgow in Manchester is not excluded. Robert is not identified with Glasgow-2866 (Robert, about 1815, died Manchester), whose dates do not fit. No mother assessment.",
+    "probability": {
+      "value": 0.75,
+      "reviewed": "2026-11-05",
+      "basis": "Robert Glasgow, born 5 September 1806 and baptised 28 September 1806 at Lloyd Street Presbyterian Chapel, Manchester, is indexed as a son of William and Ann Glasgow. William Glasgow-3545 married Ann Denham at Manchester on 30 September 1805, and the same chapel baptised Agnes (1812) and William (1816) to William and Ann Glasgow. Robert is the first child of that marriage on chronology and place, so William-3545 is extended to him at 75% probable.",
+      "source_ids": [
+        "ancestry-9841-122660630",
+        "ancestry-9852-10952888",
+        "ancestry-9841-2392597"
+      ],
+      "scope": "Index transcripts only; originals uninspected. Ann's surname is not given in the baptisms, and another William and Ann Glasgow in Manchester is not excluded. Robert is not identified with Glasgow-2866 (Robert, about 1815, died Manchester), whose dates do not fit. No mother assessment."
+    },
+    "working_selection": true,
+    "attachment_status": "hypothesis",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/latest-findings/",
+        "label": "Ancestry England index father"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3545": "William Glasgow",
+      "record-ancestry-glasgow-f0367a88c291": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-ancestry-r2-sunderland-elizabeth-duncan-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-b6cb4976eea3",
+      "record-ancestry-glasgow-fd84e4728b02"
+    ],
+    "claim": "James Glasgow of Sunderland (draft record-ancestry-glasgow-fd84e4728b02) is the proposed father of Elizabeth Duncan Glasgow, born 29 April 1827 at Sunderland to James Glasgow and Jane Clough Duncan.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-ancestry-glasgow-b6cb4976eea3": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-fd84e4728b02": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-172541950",
+      "ancestry-9852-11939991",
+      "ancestry-9841-46657939"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No earlier father assessment for this record-defined draft.",
+        "status": "unknown"
+      },
+      "review_kind": "ancestry_england_index_new_father",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "Elizabeth Duncan Glasgow, born 29 April 1827 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219; her Monkwearmouth marriage to David Burns on 26 January 1850 also names her father James Glasgow. The Sunderland James is extended to her at the same 88% probable, consolidating the record-defined fathers onto one draft.",
+    "assessment_history": [],
+    "reason": "Elizabeth Duncan Glasgow, born 29 April 1827 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219; her Monkwearmouth marriage to David Burns on 26 January 1850 also names her father James Glasgow. The Sunderland James is extended to her at the same 88% probable, consolidating the record-defined fathers onto one draft.",
+    "limitations": "Index transcripts only; originals uninspected. The sibling link rests on the identical parents' names in one town; no household record joins them yet. No mother assessment.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-05",
+      "basis": "Elizabeth Duncan Glasgow, born 29 April 1827 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219; her Monkwearmouth marriage to David Burns on 26 January 1850 also names her father James Glasgow. The Sunderland James is extended to her at the same 88% probable, consolidating the record-defined fathers onto one draft.",
+      "source_ids": [
+        "ancestry-9841-172541950",
+        "ancestry-9852-11939991",
+        "ancestry-9841-46657939"
+      ],
+      "scope": "Index transcripts only; originals uninspected. The sibling link rests on the identical parents' names in one town; no household record joins them yet. No mother assessment."
+    },
+    "working_selection": true,
+    "attachment_status": "hypothesis",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/latest-findings/",
+        "label": "Ancestry England index father"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-b6cb4976eea3": "Elizabeth Duncan Glasgow",
+      "record-ancestry-glasgow-fd84e4728b02": "James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-ancestry-r2-sunderland-mary-frances-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-7066813a3983",
+      "record-ancestry-glasgow-fd84e4728b02"
+    ],
+    "claim": "James Glasgow of Sunderland (draft record-ancestry-glasgow-fd84e4728b02) is the proposed father of Mary Frances Glasgow, born 3 July 1835 at Sunderland to James Glasgow and Jane Clough Duncan.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-ancestry-glasgow-7066813a3983": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-fd84e4728b02": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-46665898",
+      "ancestry-9841-46657939"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No earlier father assessment for this record-defined draft.",
+        "status": "unknown"
+      },
+      "review_kind": "ancestry_england_index_new_father",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "Mary Frances Glasgow, born 3 July 1835 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219. The Sunderland James is extended to her at 88% probable.",
+    "assessment_history": [],
+    "reason": "Mary Frances Glasgow, born 3 July 1835 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219. The Sunderland James is extended to her at 88% probable.",
+    "limitations": "Index transcript only; original uninspected. Sibling link rests on identical parents' names in one town. No mother assessment.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-05",
+      "basis": "Mary Frances Glasgow, born 3 July 1835 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219. The Sunderland James is extended to her at 88% probable.",
+      "source_ids": [
+        "ancestry-9841-46665898",
+        "ancestry-9841-46657939"
+      ],
+      "scope": "Index transcript only; original uninspected. Sibling link rests on identical parents' names in one town. No mother assessment."
+    },
+    "working_selection": true,
+    "attachment_status": "hypothesis",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/latest-findings/",
+        "label": "Ancestry England index father"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-7066813a3983": "Mary Frances Glasgow",
+      "record-ancestry-glasgow-fd84e4728b02": "James Glasgow"
     }
   },
   {

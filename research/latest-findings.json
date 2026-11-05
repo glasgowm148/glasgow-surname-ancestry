@@ -71251,6 +71251,389 @@
         "research/relationship_assessments.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "ancestry-berwick-kendal-william-alexander-father-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "William Brown Glasgow-1001 of Kendal (baptised Berwick-upon-Tweed 23 July 1815, died Kendal 1876) now has a named father: William Alexander Glasgow, who married Elizabeth Rachel Brown at Berwick on 24 December 1810. Both William’s 1815 baptism and his 1862 Kendal remarriage to Margaret Ward name William Alexander Glasgow as his father; the father link is 85% probable, joining the Kendal–Burnley branch (George-562 and his children) to a Berwick parent couple.",
+      "qualification": "Index transcripts only (FamilySearch-derived); the Berwick and Kendal registers are uninspected. The 1862 age 44 implies about 1818, three years later than the 1815 baptism, a common remarriage understatement. The 1845 Kendal marriage index for William Brown Glasgow and Dinah Bell gives his father as 'William Brown', read here as a truncated or garbled entry rather than a different father; it is kept as a stated discrepancy. The 1810 Berwick groom is not Glasgow-3324 of Larne (died there in 1816, wife Elizabeth Stewart); Scottish index entries at Montrose for Joseph Brown Glasgow (1817) and Rachael Glasgow (1824), children of William Alexander and Elizabeth Rachael, suggest the family moved to Angus, but are not yet linked. William Alexander's own parentage is unknown. No mother is assessed here.",
+      "detail_url": "/people/glasgow-1001.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-1001",
+          "name": "William Brown Glasgow",
+          "url": "/people/glasgow-1001.html",
+          "role": "New probable father William Alexander Glasgow, 85%"
+        },
+        {
+          "id": "record-ancestry-glasgow-04d267d61354",
+          "name": "William Alexander Glasgow",
+          "url": "",
+          "role": "Father named in the 1815 Berwick baptism and 1862 Kendal marriage; married Elizabeth Rachel Brown 1810; draft"
+        },
+        {
+          "id": "Glasgow-562",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-562.html",
+          "role": "Son of William Brown Glasgow (1848 Kendal christening)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — William Glasgow, 23 Jul 1815, Berwick-upon-Tweed, Northumberland, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/114661706"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — William Glasgow, 9 Mar 1862, Kendal, Westmoreland, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/1901246"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — William Glasgow, 1862, Kendal, Westmoreland, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/13923752"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — William Alexander Glasgow, 24 Dec 1810, Berwick Upon Tweed,Northumberland,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/36465000"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — William Brown Glasgow, 19 Jun 1845, Kendal, Westmoreland, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/31321022"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1001",
+          "relative": "record-ancestry-glasgow-04d267d61354",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 85,
+          "explanation": "Ancestry's England, Select Births and Christenings index records William, son of William Alexander Glasgow and Elizabeth Rachel, baptised 23 July 1815 at Berwick-upon-Tweed; William Brown Glasgow-1001's account gives exactly that date and place. The England, Select Marriages index records the 9 March 1862 Kendal marriage of William Glasgow, aged 44, to Margaret Ward, naming his father as William Alexander Glasgow; William Brown Glasgow was then living at Kendal, and children John Harrison (1862) and Joseph Alexander (1864) were baptised there to William (Brown) Glasgow and Margaret, so the 1862 groom is William-1001 remarrying after Dinah. A third index entry records William Alexander Glasgow marrying Elizabeth Rachel Brown at Berwick on 24 December 1810, which explains William's middle name Brown. Two separate registers, 47 years apart, name the same distinctive father, so William Alexander Glasgow (record-defined draft record-ancestry-glasgow-04d267d61354) is attached at 85% probable.",
+          "previous_status_provenance": "Before 5 November 2026 William Brown Glasgow-1001 had no attached or assessed father (research priority queue: unknown father; his biography already quoted the baptism's parents without a selected father). No previous percentage is invented."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "ancestry-sunderland-james-glasgow-father-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Sarah Jane (Glasgow) Tulip-3219 (born Sunderland 2 December 1831, married Robert Robson Tulip 1852) now has a named father: James Glasgow of Sunderland, husband of Jane Clough Duncan, named in both her birth index entry and her 1852 Bishopwearmouth marriage (88% probable). The same couple’s daughters Elizabeth Duncan Glasgow (born 1827, married David Burns 1850) and Mary Frances Glasgow (born 1835) are attached to the same James at 88%, forming one Sunderland family.",
+      "qualification": "Index transcripts only; the Sunderland and Bishopwearmouth registers are uninspected. The indexing pipeline's possible link of the 1852 marriage's father to James Glasgow-1701 of Killycurragh, County Tyrone, has no support beyond the name and is not adopted. Other Sunderland Glasgow fathers (John, Peter) are distinct couples. James's own birth and parentage are unknown. Mother Jane Clough Duncan is named but not assessed here.",
+      "detail_url": "/people/glasgow-3219.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3219",
+          "name": "Sarah Jane (Glasgow) Tulip",
+          "url": "/people/glasgow-3219.html",
+          "role": "New probable father James Glasgow, 88%"
+        },
+        {
+          "id": "record-ancestry-glasgow-fd84e4728b02",
+          "name": "James Glasgow",
+          "url": "",
+          "role": "Father; husband of Jane Clough Duncan, Sunderland; draft"
+        },
+        {
+          "id": "record-ancestry-glasgow-b6cb4976eea3",
+          "name": "Elizabeth Duncan Glasgow",
+          "url": "",
+          "role": "Sister; father extended at 88%"
+        },
+        {
+          "id": "record-ancestry-glasgow-7066813a3983",
+          "name": "Mary Frances Glasgow",
+          "url": "",
+          "role": "Sister; father extended at 88%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Sarah Jane Glasgow, 2 Dec 1831, Sunderland,Durham,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/46657939"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — Sarah Jane Glasgow, 16 Dec 1852, Bishop-Wearmouth, Durham, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/11864960"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Elizabeth Duncan Glasgow, 29 Apr 1827, Sunderland,Durham,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/172541950"
+        },
+        {
+          "title": "England, Select Marriages, 1538-1973 — Elizabeth Duncan Glasgow, 26 Jan 1850, Monk-Wearmouth, Durham, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9852/records/11939991"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Mary Frances Glasgow, 3 Jul 1835, Sunderland,Durham,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/46665898"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3219",
+          "relative": "record-ancestry-glasgow-fd84e4728b02",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 88,
+          "explanation": "Ancestry's England, Select Births and Christenings index records Sarah Jane Glasgow, born 2 December 1831 at Sunderland, daughter of James Glasgow and Jane Clough Duncan; Sarah Jane (Glasgow) Tulip-3219's account gives exactly that birth date and place. The England, Select Marriages index records her marriage to Robert Robson Tulip at Bishopwearmouth on 16 December 1852 and names her father as James Glasgow. Birth and marriage registers agree on the father, so James Glasgow of Sunderland, husband of Jane Clough Duncan (record-defined draft record-ancestry-glasgow-fd84e4728b02), is attached at 88% probable.",
+          "previous_status_provenance": "Before 5 November 2026 Sarah Jane-3219 had no attached or assessed father (research priority queue: unknown father). No previous percentage is invented."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-b6cb4976eea3",
+          "relative": "record-ancestry-glasgow-fd84e4728b02",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 88,
+          "explanation": "Elizabeth Duncan Glasgow, born 29 April 1827 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219; her Monkwearmouth marriage to David Burns on 26 January 1850 also names her father James Glasgow. The Sunderland James is extended to her at the same 88% probable, consolidating the record-defined fathers onto one draft.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-7066813a3983",
+          "relative": "record-ancestry-glasgow-fd84e4728b02",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 88,
+          "explanation": "Mary Frances Glasgow, born 3 July 1835 at Sunderland, is indexed as a daughter of James Glasgow and Jane Clough Duncan, the same distinctive parents as her sister Sarah Jane (Glasgow) Tulip-3219. The Sunderland James is extended to her at 88% probable.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
+    },
+    {
+      "id": "ancestry-manchester-baptisms-father-links-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Manchester baptism index entries (England, Select Births and Christenings) strengthen seven father links in the Rothesay-to-Manchester Glasgow family. Robert Glasgow-2603 and Mary Lamb baptised John (1826), Adam (1829), Isabella (1834), Mary Maria (1836), Ann (1839) and an Elizabeth (1842) at Manchester; with Robert’s will naming Isabella Lowes, Mary Knox and Ann Hogg, those daughters rise to 93–94% proved, John to 90% and Elizabeth Hurst to 84%. William Robert Glasgow-3546’s 1835 baptism to David and Agnes raises his father link from 66% to 90%. Agnes Glasgow-3544’s 1812 Lloyd Street baptism to William and Ann raises her father link to William Glasgow-3545 (husband of Ann Denham) from 57% to 76%, and their son Robert (1806) is added at 75%.",
+      "qualification": "Index transcripts only; the Manchester registers are uninspected. Elizabeth Hurst’s birth about 1834 does not fit an 1842 birth, so that baptism may belong to a younger child. Agnes’s 1833 marriage does not name her father, and another William and Ann Glasgow in Manchester is not excluded. No mother assessments change.",
+      "detail_url": "/people/glasgow-2603.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-2604",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-2604.html",
+          "role": "Father link 81% → 90%"
+        },
+        {
+          "id": "Glasgow-1674",
+          "name": "Isabella (Glasgow) Lowes",
+          "url": "/people/glasgow-1674.html",
+          "role": "Father link 83% → 94%"
+        },
+        {
+          "id": "Glasgow-2607",
+          "name": "Mary Maria (Glasgow) Knox",
+          "url": "/people/glasgow-2607.html",
+          "role": "Father link 82% → 94%"
+        },
+        {
+          "id": "Glasgow-2608",
+          "name": "Ann (Glasgow) Hogg",
+          "url": "/people/glasgow-2608.html",
+          "role": "Father link 76% → 93%"
+        },
+        {
+          "id": "Glasgow-2691",
+          "name": "Elizabeth (Glasgow) Hurst",
+          "url": "/people/glasgow-2691.html",
+          "role": "Father link 79% → 84%"
+        },
+        {
+          "id": "Glasgow-3546",
+          "name": "William Robert Glasgow",
+          "url": "/people/glasgow-3546.html",
+          "role": "Father link 66% → 90%"
+        },
+        {
+          "id": "Glasgow-3544",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-3544.html",
+          "role": "Father link 57% → 76%"
+        },
+        {
+          "id": "Glasgow-2603",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-2603.html",
+          "role": "Father; Manchester Cathedral baptisms 1826–1842"
+        },
+        {
+          "id": "Glasgow-3543",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-3543.html",
+          "role": "Father of William Robert"
+        },
+        {
+          "id": "Glasgow-3545",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3545.html",
+          "role": "Father; Lloyd Street Presbyterian Chapel baptisms 1806–1816"
+        },
+        {
+          "id": "record-ancestry-glasgow-f0367a88c291",
+          "name": "Robert Glasgow",
+          "url": "",
+          "role": "Son, baptised 1806; father William-3545 extended at 75%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — John Glasgow, 8 Oct 1826, Cathedral,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/125802717"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Adam Glasgow, 1 Feb 1829, Cathedral,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/155864169"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Isabella Glasgow, 18 May 1834, Cathedral,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/51256545"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Mary Maria Glasgow, 31 Aug 1836, Manchester, Lancashire, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/34597737"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Ann Glasgow, 18 Dec 1839, Cathedral,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/189039485"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Elizabeth Glasgow, 10 Jul 1842, Manchester, Lancashire, England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/22695024"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — William Robert Glasgow, 14 Dec 1835, Cathedral,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/125222894"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Agnus Glasgow, 3 Jan 1812, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/2392597"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Robert Glasgow, 28 Sep 1806, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/122660630"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2604",
+          "relative": "Glasgow-2603",
+          "action": "regrade",
+          "before": "probable",
+          "after": "proved",
+          "previous_probability_percent": 81,
+          "probability_percent": 90,
+          "explanation": "John Glasgow's baptism on 8 October 1826 at Manchester Cathedral is indexed to Robert Glasgow and Mary, the couple of Robert Glasgow-2603 and Mary Lamb, whose further children Adam (1829), Isabella (1834), Mary Maria (1836) and Ann (1839) were baptised at Manchester to Robert and Mary. That parent-naming baptism, his 1827 Manchester birth, the 1841 Manchester household and the 1842 Bombay family grouping raise the father link from 81% to 90%.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 81% from the held family evidence (held-e-7a0ea9fedae8)."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1674",
+          "relative": "Glasgow-2603",
+          "action": "regrade",
+          "before": "probable",
+          "after": "proved",
+          "previous_probability_percent": 83,
+          "probability_percent": 94,
+          "explanation": "Isabella Glasgow's baptism on 18 May 1834 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Isabella Lowes. The baptism fits her 1834 birth, raising the father link from 83% to 94% proved.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 83% from the held family evidence (held-e-2e6250e5ddd9)."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2607",
+          "relative": "Glasgow-2603",
+          "action": "regrade",
+          "before": "probable",
+          "after": "proved",
+          "previous_probability_percent": 82,
+          "probability_percent": 94,
+          "explanation": "Mary Maria Glasgow's baptism on 31 August 1836 at Manchester is indexed to Robert Glasgow and Mary Glasgow, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Mary Knox. A parent-naming baptism with her distinctive double forename and a will naming her by married name raise the father link from 82% to 94% proved.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 82% from the held family evidence (held-e-ed8f8b7f43be)."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2608",
+          "relative": "Glasgow-2603",
+          "action": "regrade",
+          "before": "probable",
+          "after": "proved",
+          "previous_probability_percent": 76,
+          "probability_percent": 93,
+          "explanation": "Ann Glasgow's baptism on 18 December 1839 at Manchester Cathedral is indexed (two copies of one entry) to Robert Glasgow and Mary, and Robert Glasgow-2603's will in the 1876-77 Wellington probate file names his daughter Ann Hogg. The baptism fits her 1839 Lancashire birth, raising the father link from 76% to 93% proved.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 76% from the held family evidence (held-e-074ad674014d)."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2691",
+          "relative": "Glasgow-2603",
+          "action": "regrade",
+          "before": "probable",
+          "after": "probable",
+          "previous_probability_percent": 79,
+          "probability_percent": 84,
+          "explanation": "An Elizabeth Glasgow was baptised at Manchester Cathedral on 10 July 1842 to Robert Glasgow and Mary, three weeks before the family sailed on the Bombay (1 August 1842). Elizabeth (Glasgow) Hurst is placed in that family by the held account, so the baptism supports her father link modestly, from 79% to 84% probable.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 79% from the held family evidence (held-e-448fb2e76be4)."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3546",
+          "relative": "Glasgow-3543",
+          "action": "regrade",
+          "before": "probable",
+          "after": "proved",
+          "previous_probability_percent": 66,
+          "probability_percent": 90,
+          "explanation": "William Robert Glasgow's baptism on 14 December 1835 at Manchester Cathedral is indexed (two copies of one entry) to David Glasgow and Agnes, the couple of David Glasgow-3543 and Agnes Glasgow-3544, who married at Manchester in 1833 and baptised Isabella (1837), Agnes (1839) and David Alfred (1841) there. His exact double forename, 1836 birth estimate and Manchester life fit, and only one David and Agnes Glasgow couple appears in Manchester. The father link rises from 66% to 90% proved.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 66% from the held family evidence (held-e-d748b04fa5de)."
+        },
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3544",
+          "relative": "Glasgow-3545",
+          "action": "regrade",
+          "before": "possible",
+          "after": "probable",
+          "previous_probability_percent": 57,
+          "probability_percent": 76,
+          "explanation": "'Agnus' Glasgow was baptised on 3 January 1812 at Lloyd Street Presbyterian Chapel, Manchester, a daughter of William and Ann Glasgow; William Glasgow-3545 married Ann Denham at Manchester in 1805 and the same chapel baptised Robert (1806) and William (1816) to William and Ann. Agnes Glasgow-3544, who married David Glasgow at Manchester in 1833 and died there in 1846, fits that baptism by name, place and an approximate 1812-13 birth. The father link rises from 57% to 76% probable.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 57% from the held family evidence (held-e-9fd9c0208e78)."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-f0367a88c291",
+          "relative": "Glasgow-3545",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 75,
+          "explanation": "Robert Glasgow, born 5 September 1806 and baptised 28 September 1806 at Lloyd Street Presbyterian Chapel, Manchester, is indexed as a son of William and Ann Glasgow. William Glasgow-3545 married Ann Denham at Manchester on 30 September 1805, and the same chapel baptised Agnes (1812) and William (1816) to William and Ann Glasgow. Robert is the first child of that marriage on chronology and place, so William-3545 is extended to him at 75% probable.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
