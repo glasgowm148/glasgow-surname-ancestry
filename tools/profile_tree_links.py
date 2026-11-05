@@ -45,8 +45,12 @@ CSS = (".profile-tree-links{--ptl-fg:#315a43;--ptl-bd:#b8cbbd;--ptl-bg:#fffef9;-
 STYLE = f'<style id="profile-tree-links-css">{CSS}</style>'
 
 _ACTIONS = re.compile(r'<div class="dossier-actions">(?:(?!</?div\b).)*?</div>', re.S)
-_EXISTING_NAV = re.compile(r'<nav id="profile-tree-links"[^>]*>.*?</nav>', re.S)
-_EXISTING_STYLE = re.compile(r'<style id="profile-tree-links-css">.*?</style>', re.S)
+# Later passes may reserialize the tag with its attributes in another order.
+_EXISTING_NAV = re.compile(r'<nav\b[^>]*\bid="profile-tree-links"[^>]*>.*?</nav>', re.S)
+_EXISTING_STYLE = re.compile(r'<style\b[^>]*\bid="profile-tree-links-css"[^>]*>.*?</style>', re.S)
+_EXISTING_FS = re.compile(r'<a\b[^>]*\bdata-fs-link\b[^>]*>.*?</a>', re.S)
+FS_LINKS = ROOT / "data" / "familysearch" / "person-links.json"
+_FS_CACHE: dict = {}
 _PERSON = re.compile(r"""<body\b[^>]*\sdata-g-person=(?:"([^"]*)"|'([^']*)')""")
 
 
@@ -104,10 +108,36 @@ def person_of(page: str) -> dict | None:
     return person if isinstance(person, dict) else None
 
 
-def add_to_page(page: str, lines: dict | None) -> str:
+def familysearch_links(path: Path = FS_LINKS) -> dict:
+    """catalogue id (lower case) -> FamilySearch person ID, from tools/sync_familysearch_links.py."""
+    if path not in _FS_CACHE:
+        _FS_CACHE[path] = json.loads(path.read_text(encoding="utf-8")).get("people", {}) if path.is_file() else {}
+    return _FS_CACHE[path]
+
+
+def add_familysearch_link(page: str, person: dict | None, links: dict | None = None) -> str:
+    """Put "View on FamilySearch" after the WikiTree button, or refresh it. Idempotent."""
+    page = _EXISTING_FS.sub("", page)
+    entry = (familysearch_links() if links is None else links).get(str((person or {}).get("id", "")).lower())
+    actions = _ACTIONS.search(page)
+    if not entry or not actions:
+        return page
+    fs_id = escape(entry["id"], quote=True)
+    title = "Matched FamilySearch profile" + ("" if entry.get("confidence") == "high" else " (probable match)")
+    link = (f'<a data-fs-link href="https://www.familysearch.org/tree/person/details/{fs_id}" '
+            f'rel="noopener noreferrer" target="_blank" title="{title}">View on FamilySearch</a>')
+    block = actions[0]
+    wiki = re.search(r'<a\b[^>]*wikitree\.com[^>]*>.*?</a>', block, re.S)
+    at = wiki.end() if wiki else len('<div class="dossier-actions">')
+    block = block[:at] + link + block[at:]
+    return page[:actions.start()] + block + page[actions.end():]
+
+
+def add_to_page(page: str, lines: dict | None, fs_links: dict | None = None) -> str:
     """Insert, or refresh, the row after the header's action buttons. Idempotent."""
     person = person_of(page)
     page = _EXISTING_STYLE.sub("", _EXISTING_NAV.sub("", page))
+    page = add_familysearch_link(page, person, fs_links)
     if not person or person.get("tree") is not True or not person.get("id"):
         return page
     actions = _ACTIONS.search(page)

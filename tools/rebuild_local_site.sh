@@ -77,6 +77,7 @@ step 0 ancestry-progress   $PY tools/build_ancestry_progress.py
 step 0 release-repairs     $PY -c "import runpy; runpy.run_path('tools/publish_research_release.py')['publish'](gate=False, refresh_index=False)"
 step 0 irish-death-index   $PY tools/publish_irish_death_index.py
 step 0 opr-marriages       $PY tools/publish_opr_marriage_review.py
+step 1 familysearch-links  $PY tools/sync_familysearch_links.py   # tolerated: map.tsv lives outside the repository
 step 0 tree-links          $PY tools/profile_tree_links.py   # the check below expects every page's tree row
 step 0 group-places        $PY tools/study_place_links.py   # tree-group place lists link only existing place pages
 # Later steps rewrite the atlas models after the release's DNA repair; restore the

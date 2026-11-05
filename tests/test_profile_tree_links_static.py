@@ -20,6 +20,24 @@ def page(person='{"id": "Glasgow-1", "name": "Ada Glasgow", "url": "/people/glas
 
 
 class StaticProfileTreeLinkTests(unittest.TestCase):
+    def test_reserialized_row_is_replaced_not_repeated(self):
+        once = links.add_to_page(page(), {"Glasgow-1": [5, 1]}, {})
+        # A later pass may write the tag's attributes in another order.
+        reordered = once.replace('<nav id="profile-tree-links" class="profile-tree-links"',
+                                 '<nav class="profile-tree-links" id="profile-tree-links"')
+        twice = links.add_to_page(reordered, {"Glasgow-1": [5, 1]}, {})
+        self.assertEqual(twice.count('class="ptl-label"'), 1)
+        self.assertEqual(twice.count('id="profile-tree-links-css"'), 1)
+
+    def test_familysearch_button_follows_wikitree_and_is_idempotent(self):
+        fs = {"glasgow-1": {"id": "ABCD-123", "confidence": "high"}}
+        html = links.add_to_page(page(), {"Glasgow-1": [5, 1]}, fs)
+        actions = BeautifulSoup(html, "html.parser").select(".dossier-actions a")
+        self.assertEqual([a.get_text() for a in actions][:3], ["View on WikiTree", "View on FamilySearch", "Explore family"])
+        self.assertEqual(actions[1]["href"], "https://www.familysearch.org/tree/person/details/ABCD-123")
+        self.assertEqual(links.add_to_page(html, {"Glasgow-1": [5, 1]}, fs), html)
+        self.assertNotIn("data-fs-link", links.add_to_page(html, {"Glasgow-1": [5, 1]}, {}))
+
     def views(self, html):
         return [a["data-view"] for a in BeautifulSoup(html, "html.parser").select("#profile-tree-links a")]
 
