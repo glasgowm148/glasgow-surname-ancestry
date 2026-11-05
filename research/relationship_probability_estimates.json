@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed": "2026-11-04",
+  "reviewed": "2026-11-05",
   "method": "subjective_evidence_assessment",
   "note": "Individual estimates of belief from the maintained evidence and stated alternatives, not measured frequencies. The confidence categories are guides. Record-specific estimates do not certify an unresolved later identity. Unreviewed contributor marks have no assigned percentage.",
   "estimates": [
@@ -47879,6 +47879,258 @@
       "profile_names": {
         "Glasgow-2357": "Lois Ladd Glasgow",
         "Pierce-14470": "Mary J. (Pierce) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3529",
+      "relative_id": "Glasgow-1529",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-alexander3529-father-20261105",
+      "basis": "Alexander Glasgow-3529 (born about 1816 at Newton, husband of Ann Baigrie, father of John Baigrie Glasgow-3530) is very probably a second account of Alexander Glasgow-1574, the Newton joiner baptised on 25 November 1814 as the son of George Glasgow and Lilias Robertson and himself married to Ann Baigrie. The Ancestry Scotland, Select Births and Baptisms index records John Baigrie Glasgow's baptism at Newton on 1 October 1848 to Alexander and Ann (https://www.ancestry.co.uk/search/collections/60143/records/8816042), the same couple whose Newton daughters Lilias (1843) and Margaret Baigrie (1845) are already attached to Alexander-1574, and Alexander-1574's 1861 Newton census household (aged 45) includes a son John B. Glasgow. Alexander-3529's 1816 birth is that census age. Through this identity his previously unknown father is George Glasgow-1529, at 85% probable (about 87% for the identity times the 98% Alexander-1574 father link).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "held-e-3bfdc8616c96",
+        "held-e-0f41358a1786",
+        "held-e-7c8827ca6a34"
+      ],
+      "scope": "Index rows and census summaries only. The Ancestry index entries for 1814 (https://www.ancestry.co.uk/search/collections/60143/records/21258912) and 1848 are copies of the FamilySearch index already held (held-e-0f41358a1786, held-e-3bfdc8616c96), so they add no independent parentage evidence; the gain is the identification of the two Alexander profiles. Alexander-3529's unsourced 1852 death conflicts with Alexander-1574 in the 1861 and 1871 censuses and may have been borrowed from Alexander Glasgow-2699, a different man who died in New South Wales in 1852. Ann Baigrie is duplicated as Baigrie-28 and Baigrie-43. The WikiTree profiles have not been merged. No mother change follows.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3529.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1529": "George Glasgow",
+        "Glasgow-3529": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1529",
+      "relative_id": "Glasgow-3529",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-alexander3529-father-20261105",
+      "basis": "Alexander Glasgow-3529 (born about 1816 at Newton, husband of Ann Baigrie, father of John Baigrie Glasgow-3530) is very probably a second account of Alexander Glasgow-1574, the Newton joiner baptised on 25 November 1814 as the son of George Glasgow and Lilias Robertson and himself married to Ann Baigrie. The Ancestry Scotland, Select Births and Baptisms index records John Baigrie Glasgow's baptism at Newton on 1 October 1848 to Alexander and Ann (https://www.ancestry.co.uk/search/collections/60143/records/8816042), the same couple whose Newton daughters Lilias (1843) and Margaret Baigrie (1845) are already attached to Alexander-1574, and Alexander-1574's 1861 Newton census household (aged 45) includes a son John B. Glasgow. Alexander-3529's 1816 birth is that census age. Through this identity his previously unknown father is George Glasgow-1529, at 85% probable (about 87% for the identity times the 98% Alexander-1574 father link).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "held-e-3bfdc8616c96",
+        "held-e-0f41358a1786",
+        "held-e-7c8827ca6a34"
+      ],
+      "scope": "Index rows and census summaries only. The Ancestry index entries for 1814 (https://www.ancestry.co.uk/search/collections/60143/records/21258912) and 1848 are copies of the FamilySearch index already held (held-e-0f41358a1786, held-e-3bfdc8616c96), so they add no independent parentage evidence; the gain is the identification of the two Alexander profiles. Alexander-3529's unsourced 1852 death conflicts with Alexander-1574 in the 1861 and 1871 censuses and may have been borrowed from Alexander Glasgow-2699, a different man who died in New South Wales in 1852. Ann Baigrie is duplicated as Baigrie-28 and Baigrie-43. The WikiTree profiles have not been merged. No mother change follows.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3529.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1529": "George Glasgow",
+        "Glasgow-3529": "Alexander Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3837",
+      "relative_id": "Glasgow-2695",
+      "relationship": "father",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-james3837-father-20261105",
+      "basis": "James Glasgow-3837 (Crichton, husband of Mary Anne Leitch) and James Glasgow-3307 (born 1832, husband of Mary Ann Leitch) are two accounts of one man. The Ancestry Scotland, Select Marriages index records James Glasgow marrying Mary Anne at Crichton on 19 January 1857 (ancestry-60144-286081); James-3307's existing assessment cites the same 1857 marriage (James aged 24, ploughman, to Mary Anne Leitch) as naming his parents Alexander Glasgow and Margaret Murray. The Ancestry baptism index then shows one James and Mary Anne family at Crichton from 1857 to 1873 (Margaret Dickson 1857, Isabella 1859, William 1863, Marion 1866, Alexander 1870, James 1873; for example https://www.ancestry.co.uk/search/collections/60143/records/20816573), with no second James and Mary Anne couple. James-3837's 1839 birth matches his wife's Leitch-1634 profile rather than any record of his own. His previously unknown father is therefore Alexander Glasgow-2695, at 84% probable (about 88% for the identity times the 96% James-3307 father link).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "held-e-60198749a006",
+        "ancestry-60144-286081"
+      ],
+      "scope": "Index rows only; the 1857 marriage's parent names are taken from the existing James-3307 assessment, not re-read here. James-3837's own cited 'Crichton 681/1' reference has not been identified. Mary Anne Leitch is duplicated as Leitch-1634 (born 1839, Crichton) and Leitch-1493 (born 1832, Cranston), whose birth details disagree. The WikiTree profiles have not been merged. No mother change follows.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3837.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2695": "Alexander Glasgow",
+        "Glasgow-3837": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2695",
+      "relative_id": "Glasgow-3837",
+      "relationship": "child",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-james3837-father-20261105",
+      "basis": "James Glasgow-3837 (Crichton, husband of Mary Anne Leitch) and James Glasgow-3307 (born 1832, husband of Mary Ann Leitch) are two accounts of one man. The Ancestry Scotland, Select Marriages index records James Glasgow marrying Mary Anne at Crichton on 19 January 1857 (ancestry-60144-286081); James-3307's existing assessment cites the same 1857 marriage (James aged 24, ploughman, to Mary Anne Leitch) as naming his parents Alexander Glasgow and Margaret Murray. The Ancestry baptism index then shows one James and Mary Anne family at Crichton from 1857 to 1873 (Margaret Dickson 1857, Isabella 1859, William 1863, Marion 1866, Alexander 1870, James 1873; for example https://www.ancestry.co.uk/search/collections/60143/records/20816573), with no second James and Mary Anne couple. James-3837's 1839 birth matches his wife's Leitch-1634 profile rather than any record of his own. His previously unknown father is therefore Alexander Glasgow-2695, at 84% probable (about 88% for the identity times the 96% James-3307 father link).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "held-e-60198749a006",
+        "ancestry-60144-286081"
+      ],
+      "scope": "Index rows only; the 1857 marriage's parent names are taken from the existing James-3307 assessment, not re-read here. James-3837's own cited 'Crichton 681/1' reference has not been identified. Mary Anne Leitch is duplicated as Leitch-1634 (born 1839, Crichton) and Leitch-1493 (born 1832, Cranston), whose birth details disagree. The WikiTree profiles have not been merged. No mother change follows.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3837.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2695": "Alexander Glasgow",
+        "Glasgow-3837": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3428",
+      "relative_id": "Glasgow-1142",
+      "relationship": "father",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-r1-robert3428-father-20261105",
+      "basis": "Robert Glasgow-3428 is defined by his son Robert, born 9 May 1825 and baptised at Beith on 27 January 1826 to Robert Glasgow and Jean Mcconnohy (held-e-60788fd1be35), and by his wife Jane McConnachie. Robert Glasgow-2963 is the husband of Jean McConechie (born 1782 at Dalry), with attached children John (Kilbirnie, 1807, Glasgow-3463), Janet (Kilbirnie, 1809) and Rachel Dunlop (Kilwinning, 1817), whose index entries spell the mother McConnachy, McConnochy and McConechie. The Ancestry Scotland, Select Births and Baptisms index shows one continuous Robert and Jean family in neighbouring north Ayrshire parishes: James at Beith in 1804 (https://www.ancestry.co.uk/search/collections/60143/records/15162976), John at Kilbirnie in 1807 (https://www.ancestry.co.uk/search/collections/60143/records/2004120), Janet in 1809 (https://www.ancestry.co.uk/search/collections/60143/records/16477979), Rachel Dunlop at Kilwinning in 1817 (https://www.ancestry.co.uk/search/collections/60143/records/23331038) and Robert at Beith in 1826 (https://www.ancestry.co.uk/search/collections/60143/records/22822578). Robert-3428 is therefore very probably the same man as Robert-2963 and is placed with Robert-2963's existing father hypothesis, James Glasgow-1142, at 40% possible (about 88% for the identity times the 46% Robert-2963 father link).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "held-e-60788fd1be35",
+        "held-e-974fc14fdaf2",
+        "held-e-bde4f0cb7d14",
+        "kilbirnie-john-robert-mcconnachy-baptism-1807",
+        "held-e-757bf6913a55"
+      ],
+      "scope": "Index rows only; the Ancestry rows give relatives' forenames, and the mother's surname comes from the held FamilySearch entries. Both men's birth years (1780 and 1800) are unsourced estimates; children from 1804 to 1826 suit a birth about 1775–1782. The father link inherits every weakness of Robert-2963's own: it rests on an unsourced account naming James Glasgow and Jean Simpson, and Robert Glasgow junior's will provides for a Robert, 'reputed natural son of my late brother James', who is not shown to be this Robert; James-1142 and Jean Simpson also had a lawful son Robert baptised at West Kilbride in 1800 (Glasgow-3415). Jean/Jane McConechie is duplicated as McConechie-2 and McConnachie-196. The WikiTree profiles have not been merged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3428.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1142": "James Glasgow",
+        "Glasgow-3428": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1142",
+      "relative_id": "Glasgow-3428",
+      "relationship": "child",
+      "percent": 40,
+      "assessment_status": "possible",
+      "assertion_id": "clm-r1-robert3428-father-20261105",
+      "basis": "Robert Glasgow-3428 is defined by his son Robert, born 9 May 1825 and baptised at Beith on 27 January 1826 to Robert Glasgow and Jean Mcconnohy (held-e-60788fd1be35), and by his wife Jane McConnachie. Robert Glasgow-2963 is the husband of Jean McConechie (born 1782 at Dalry), with attached children John (Kilbirnie, 1807, Glasgow-3463), Janet (Kilbirnie, 1809) and Rachel Dunlop (Kilwinning, 1817), whose index entries spell the mother McConnachy, McConnochy and McConechie. The Ancestry Scotland, Select Births and Baptisms index shows one continuous Robert and Jean family in neighbouring north Ayrshire parishes: James at Beith in 1804 (https://www.ancestry.co.uk/search/collections/60143/records/15162976), John at Kilbirnie in 1807 (https://www.ancestry.co.uk/search/collections/60143/records/2004120), Janet in 1809 (https://www.ancestry.co.uk/search/collections/60143/records/16477979), Rachel Dunlop at Kilwinning in 1817 (https://www.ancestry.co.uk/search/collections/60143/records/23331038) and Robert at Beith in 1826 (https://www.ancestry.co.uk/search/collections/60143/records/22822578). Robert-3428 is therefore very probably the same man as Robert-2963 and is placed with Robert-2963's existing father hypothesis, James Glasgow-1142, at 40% possible (about 88% for the identity times the 46% Robert-2963 father link).",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "held-e-60788fd1be35",
+        "held-e-974fc14fdaf2",
+        "held-e-bde4f0cb7d14",
+        "kilbirnie-john-robert-mcconnachy-baptism-1807",
+        "held-e-757bf6913a55"
+      ],
+      "scope": "Index rows only; the Ancestry rows give relatives' forenames, and the mother's surname comes from the held FamilySearch entries. Both men's birth years (1780 and 1800) are unsourced estimates; children from 1804 to 1826 suit a birth about 1775–1782. The father link inherits every weakness of Robert-2963's own: it rests on an unsourced account naming James Glasgow and Jean Simpson, and Robert Glasgow junior's will provides for a Robert, 'reputed natural son of my late brother James', who is not shown to be this Robert; James-1142 and Jean Simpson also had a lawful son Robert baptised at West Kilbride in 1800 (Glasgow-3415). Jean/Jane McConechie is duplicated as McConechie-2 and McConnachie-196. The WikiTree profiles have not been merged. No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3428.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1142": "James Glasgow",
+        "Glasgow-3428": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3457",
+      "relative_id": "Glasgow-2475",
+      "relationship": "father",
+      "percent": 72,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-robert3457-father-20261105",
+      "basis": "Robert Glasgow-3457 is defined only as the father, with Mary Borland, of David Glasgow, baptised at Ayr on 29 July 1744 (Findmypast transcript fmp-record-r-692915698; the same entry is https://www.ancestry.co.uk/search/collections/60143/records/4400472). Robert Glasgow-2474, baptised at Irvine on 10 January 1716 as the son of John Glasgow-2475 and Isabell Kyle, is the husband of Mary Borland at the Irvine baptisms of John on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), and an Irvine shipmaster in 1738. A Robert Glasgow and Mary Borland couple six years later in the neighbouring burgh of Ayr is very probably the same family; the Ancestry index shows no second couple of these names. Robert-3457's previously unknown father is therefore attached as John Glasgow-2475 through that identity, at 72% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "fmp-record-r-692915698",
+        "held-e-1729f29e82e3",
+        "held-e-e1f2a07ed69c",
+        "held-e-d7e36fd0ac44"
+      ],
+      "scope": "Identity rests on the full couple and the neighbouring locality only: the Ayr entry gives no residence or occupation, and Ayr and Irvine are separate parishes about eleven miles apart. Robert-3457's 1724 birth is unsupported. Robert-2474's own 98% father link rests on identifying the 1716 Irvine child with the 1736–1738 father, an inference of same-town chronology. Mary Borland is duplicated as Borland-1478 and Borland-1479. The WikiTree profiles have not been merged. No mother change follows.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3457.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2475": "John Glasgow",
+        "Glasgow-3457": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2475",
+      "relative_id": "Glasgow-3457",
+      "relationship": "child",
+      "percent": 72,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r1-robert3457-father-20261105",
+      "basis": "Robert Glasgow-3457 is defined only as the father, with Mary Borland, of David Glasgow, baptised at Ayr on 29 July 1744 (Findmypast transcript fmp-record-r-692915698; the same entry is https://www.ancestry.co.uk/search/collections/60143/records/4400472). Robert Glasgow-2474, baptised at Irvine on 10 January 1716 as the son of John Glasgow-2475 and Isabell Kyle, is the husband of Mary Borland at the Irvine baptisms of John on 10 October 1736 (https://www.ancestry.co.uk/search/collections/60143/records/2461718) and 5 October 1738 (https://www.ancestry.co.uk/search/collections/60143/records/8126993), and an Irvine shipmaster in 1738. A Robert Glasgow and Mary Borland couple six years later in the neighbouring burgh of Ayr is very probably the same family; the Ancestry index shows no second couple of these names. Robert-3457's previously unknown father is therefore attached as John Glasgow-2475 through that identity, at 72% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "fmp-record-r-692915698",
+        "held-e-1729f29e82e3",
+        "held-e-e1f2a07ed69c",
+        "held-e-d7e36fd0ac44"
+      ],
+      "scope": "Identity rests on the full couple and the neighbouring locality only: the Ayr entry gives no residence or occupation, and Ayr and Irvine are separate parishes about eleven miles apart. Robert-3457's 1724 birth is unsupported. Robert-2474's own 98% father link rests on identifying the 1716 Irvine child with the 1736–1738 father, an inference of same-town chronology. Mary Borland is duplicated as Borland-1478 and Borland-1479. The WikiTree profiles have not been merged. No mother change follows.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-3457.html#research-findings",
+          "label": "Ancestry Scottish records review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2475": "John Glasgow",
+        "Glasgow-3457": "Robert Glasgow"
       }
     },
     {
