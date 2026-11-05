@@ -47782,6 +47782,66 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-cb7d30031f5e",
+      "relative_id": "Glasgow-1781",
+      "relationship": "father",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-sj-eliza-corbitt-father-20261105",
+      "basis": "The Ancestry India, Select Deaths and Burials index records Eliza Corbitt Glasgow, aged 0, buried at Rajkot, Bombay, on 27 May 1845, with her father indexed as 'A.D Glasgow' (record 310212, and the paired father entry 310211). Adam Dickie Glasgow-1781 (born 1815 at Lisburn) is the only catalogue Glasgow with those initials, and his brother, the missionary James McClure Glasgow-1780, was at Rajkot that year: James's daughter Jane Henrie Glasgow-2899 was buried there on 14 April 1845 in the same register. Eliza is therefore attached to Adam Dickie Glasgow as a probable father at 70%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9898-310212",
+        "ancestry-9898-310211"
+      ],
+      "scope": "Index transcript only (FamilySearch's India burial index via Ancestry); the Bombay ecclesiastical return is uninspected. The father is given by initials only, and Adam Dickie Glasgow's own presence in India in 1845 is not independently documented here; a different A. D. Glasgow attached to the Irish Presbyterian mission is not excluded. Eliza is a record-defined draft (record-ancestry-glasgow-cb7d30031f5e). No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1781.html#research-findings",
+          "label": "Ancestry India burial index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1781": "Adam Dickie Glasgow",
+        "record-ancestry-glasgow-cb7d30031f5e": "Eliza Corbitt Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1781",
+      "relative_id": "record-ancestry-glasgow-cb7d30031f5e",
+      "relationship": "child",
+      "percent": 70,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-sj-eliza-corbitt-father-20261105",
+      "basis": "The Ancestry India, Select Deaths and Burials index records Eliza Corbitt Glasgow, aged 0, buried at Rajkot, Bombay, on 27 May 1845, with her father indexed as 'A.D Glasgow' (record 310212, and the paired father entry 310211). Adam Dickie Glasgow-1781 (born 1815 at Lisburn) is the only catalogue Glasgow with those initials, and his brother, the missionary James McClure Glasgow-1780, was at Rajkot that year: James's daughter Jane Henrie Glasgow-2899 was buried there on 14 April 1845 in the same register. Eliza is therefore attached to Adam Dickie Glasgow as a probable father at 70%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9898-310212",
+        "ancestry-9898-310211"
+      ],
+      "scope": "Index transcript only (FamilySearch's India burial index via Ancestry); the Bombay ecclesiastical return is uninspected. The father is given by initials only, and Adam Dickie Glasgow's own presence in India in 1845 is not independently documented here; a different A. D. Glasgow attached to the Irish Presbyterian mission is not excluded. Eliza is a record-defined draft (record-ancestry-glasgow-cb7d30031f5e). No mother is inferred.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-1781.html#research-findings",
+          "label": "Ancestry India burial index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1781": "Adam Dickie Glasgow",
+        "record-ancestry-glasgow-cb7d30031f5e": "Eliza Corbitt Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-895",
       "relative_id": "record-ancestry-glasgow-c615b38b160b",
       "relationship": "father",
