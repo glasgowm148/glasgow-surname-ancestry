@@ -49,6 +49,17 @@ class IndividualFindingTests(unittest.TestCase):
                                        {'1850': {'working': {'cohort_ids': ['Glasgow-875']}}},
                                        {'Glasgow-875'}, identity_hold_ids, father_changes)
 
+    def test_latest_percent_comes_from_assessment_not_stale_catalogue_edge(self):
+        history = [{'status': 'probable', 'probability_percent': 83, 'assessment_date': '2026-10-22'}]
+        nodes = {key: dict(name=key, url=f'/people/{key.lower()}.html') for key in ['Glasgow-875', 'Glasgow-653']}
+        assertion = dict(assertion_id='selected', publication_status='approved', status='proved',
+                         assessment_date='2026-11-05', probability={'value': 0.94}, assessment_history=history)
+        # The built catalogue still carries the earlier 83%.
+        edges = [dict(child='Glasgow-875', father='Glasgow-653', assertion_id='selected', confidence_percent=83)]
+        rows = individual_finding_rows(nodes, edges, {'selected': assertion},
+                                       {'1850': {'working': {'cohort_ids': ['Glasgow-875']}}}, {'Glasgow-875'})
+        self.assertEqual((rows[0]['before_percent'], rows[0]['after_percent']), (83, 94))
+
     def test_exact_pair_change_date_and_preserved_prior(self):
         history = [{'status': 'unmarked', 'probability_percent': None},
                    {'status': 'probable', 'probability_percent': 71, 'assessment_date': '2026-10-22'}]

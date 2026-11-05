@@ -126,7 +126,8 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
             if index != len(states)-1 and historical_father and historical_father != father:
                 previous = state
                 continue
-            value = current if index == len(states)-1 else percent(state)
+            # The research database is the authority; the built catalogue edge can lag a rebuild.
+            value = percent(state) if index != len(states)-1 else (percent(state) if percent(state) is not None else current)
             if value is None:
                 previous = state
                 continue
