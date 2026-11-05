@@ -408442,6 +408442,69 @@
       "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire.<ref>[https://discovery.nationalarchives.gov.uk/details/r/D7078857 The National Archives, ADM 188/1119/113241: Royal Navy register entry for William Sim Glasgow].</ref> The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal.<ref>[https://www.ancestry.co.uk/search/collections/1687/records/986876 The National Archives, ADM 171/103: Wm S Glasgow, service number SS113241].</ref>\n\n== Research Notes ==\nThe Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire. The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal. No relatives are named in these service entries.\n\n== Sources ==\n<references />\n",
       "assessment": "The Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire. The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal. No relatives are named in these service entries.",
       "current_conclusion": "The Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire. The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal. No relatives are named in these service entries."
+    },
+    {
+      "catalogue_id": "record-ancestry-james-glasgow-navy-z2612",
+      "subject_id": "ancestry-james-glasgow-navy-z2612",
+      "name": "James Glasgow",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Male",
+      "birth": "24 September 1895",
+      "birth_note": "Date stated in the Royal Naval Division service catalogue.",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [
+        "Ordinary seaman"
+      ],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1687/records/1894550",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/naval-reserve-james-glasgow-z2612.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe service catalogue records James Glasgow, ordinary seaman, Z/2612, born 24 September 1895.<ref>[https://discovery.nationalarchives.gov.uk/details/r/D7273068 The National Archives, ADM 339/1/14311: service record for James Glasgow].</ref> The medal roll lists him for the British War Medal.<ref>[https://www.ancestry.co.uk/search/collections/1687/records/1894550 The National Archives, ADM 171/126: Jas Glasgow, service number C Z/2612].</ref>\n\n== Research Notes ==\nThe medal roll and service record catalogue identify the same sailor by number. James Sim Glasgow, born 24 September 1898 according to his current profile, is a possible comparison. The year differs, and the service catalogue gives no middle name or birthplace.\n\n== Sources ==\n<references />\n",
+      "assessment": "The medal roll and service record catalogue identify the same sailor by number. James Sim Glasgow, born 24 September 1898 according to his current profile, is a possible comparison. The year differs, and the service catalogue gives no middle name or birthplace.",
+      "current_conclusion": "The medal roll and service record catalogue identify the same sailor by number. James Sim Glasgow, born 24 September 1898 according to his current profile, is a possible comparison. The year differs, and the service catalogue gives no middle name or birthplace.",
+      "reviewed_at": "2026-11-05",
+      "historical_basis": {
+        "latest_birth_year": 1895,
+        "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7273068",
+        "reason": "The service record catalogue identifies James Glasgow, service number Z/2612, born 24 September 1895."
+      },
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "The National Archives, ADM 171/126: Jas Glasgow, service number C Z/2612",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1687/records/1894550",
+          "source_type": "Provider index transcript",
+          "date": "1914–1920",
+          "year": null,
+          "place": "Europe",
+          "indexed_facts": {
+            "Name": "Jas Glasgow",
+            "Medal or Award": "British War Medal",
+            "Service Year": "1914-1920",
+            "Service Location": "Europe",
+            "Campaign or Service": "World War I",
+            "Service Number": "C Z/2612"
+          },
+          "note": "The medal roll lists Jas Glasgow under C Z/2612: British War Medal. The service record catalogue identifies James Glasgow, service number Z/2612, born 24 September 1895. James Sim Glasgow (Glasgow-643) has the same birth day and month, but his profile gives 1898. The service record’s catalogue entry gives no birthplace or middle name; this possible match remains unresolved."
+        },
+        {
+          "source_title": "The National Archives, ADM 339/1/14311: service record for James Glasgow",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7273068",
+          "source_type": "Archival catalogue entry",
+          "year": 1895,
+          "date": "24 September 1895",
+          "note": "The service catalogue records James Glasgow, ordinary seaman, Z/2612, born 24 September 1895."
+        }
+      ]
     }
   ]
 }

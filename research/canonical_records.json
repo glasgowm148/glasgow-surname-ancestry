@@ -437892,5 +437892,111 @@
     "provenance": "Ancestry, UK, Naval Medal and Award Rolls, 1793–1972; The National Archives, ADM 171/103 and ADM 188.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-1687-1694062",
+    "provider": "Ancestry",
+    "provider_record_id": "1687/1694062",
+    "collection": "UK, Naval Medal and Award Rolls, 1793–1972",
+    "person": "Frank William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1687/records/1694062",
+    "source_title": "The National Archives, ADM 171/121: Frank W Glasgow, service number 292/Sa",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry medal roll index transcript",
+    "record_type": "Medal roll index",
+    "record_category": "Military and service",
+    "indexed_facts": {
+      "Name": "Frank W Glasgow",
+      "Medal or Award": "Star, Victory Medal, British War Medal",
+      "Service Year": "1914-1920",
+      "Service Location": "Europe",
+      "Campaign or Service": "World War I",
+      "Service Number": "292/Sa"
+    },
+    "reference": "The National Archives, ADM 171/121",
+    "event_role": "indexed medal recipient",
+    "association": "Frank William Glasgow — naval medal roll",
+    "date": "1914–1920",
+    "year": null,
+    "date_status": "undated",
+    "place": "Europe",
+    "country": "",
+    "status": "Identified by naval service number",
+    "profiles": {
+      "glasgow-644": {
+        "role": "Medal recipient; exact service number corroborates the roll",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The medal roll lists Frank W Glasgow under 292/Sa: Star, Victory Medal, British War Medal. The service record catalogue identifies Frank William Glasgow, service number SA 292, born 23 December 1869 in London. The catalogue profile Glasgow-644 agrees on full name and date of birth. Its birthplace is given as Scotland, while the reserve register gives London. The birth register is needed to resolve the difference.",
+    "historical_basis": {
+      "latest_birth_year": 1869,
+      "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D8547054",
+      "reason": "The service record catalogue identifies Frank William Glasgow, service number SA 292, born 23 December 1869 in London."
+    },
+    "supporting_source_title": "The National Archives, BT 377/7/86471: service record for Frank William Glasgow",
+    "supporting_source_url": "https://discovery.nationalarchives.gov.uk/details/r/D8547054",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborating archival catalogue entry",
+    "supporting_source_reason": "The service record catalogue identifies Frank William Glasgow, service number SA 292, born 23 December 1869 in London.",
+    "provenance": "Ancestry, UK, Naval Medal and Award Rolls, 1793–1972; The National Archives, ADM 171 and service record catalogue.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-1687-1894550",
+    "provider": "Ancestry",
+    "provider_record_id": "1687/1894550",
+    "collection": "UK, Naval Medal and Award Rolls, 1793–1972",
+    "person": "James Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1687/records/1894550",
+    "source_title": "The National Archives, ADM 171/126: Jas Glasgow, service number C Z/2612",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry medal roll index transcript",
+    "record_type": "Medal roll index",
+    "record_category": "Military and service",
+    "indexed_facts": {
+      "Name": "Jas Glasgow",
+      "Medal or Award": "British War Medal",
+      "Service Year": "1914-1920",
+      "Service Location": "Europe",
+      "Campaign or Service": "World War I",
+      "Service Number": "C Z/2612"
+    },
+    "reference": "The National Archives, ADM 171/126",
+    "event_role": "indexed medal recipient",
+    "association": "James Glasgow — naval medal roll",
+    "date": "1914–1920",
+    "year": null,
+    "date_status": "undated",
+    "place": "Europe",
+    "country": "",
+    "status": "Identified by naval service number",
+    "profiles": {
+      "record-ancestry-james-glasgow-navy-z2612": {
+        "role": "Medal recipient; exact service number corroborates the roll",
+        "assessment": "documentary",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The medal roll lists Jas Glasgow under C Z/2612: British War Medal. The service record catalogue identifies James Glasgow, service number Z/2612, born 24 September 1895. James Sim Glasgow (Glasgow-643) has the same birth day and month, but his profile gives 1898. The service record’s catalogue entry gives no birthplace or middle name; this possible match remains unresolved.",
+    "historical_basis": {
+      "latest_birth_year": 1895,
+      "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7273068",
+      "reason": "The service record catalogue identifies James Glasgow, service number Z/2612, born 24 September 1895."
+    },
+    "supporting_source_title": "The National Archives, ADM 339/1/14311: service record for James Glasgow",
+    "supporting_source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7273068",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborating archival catalogue entry",
+    "supporting_source_reason": "The service record catalogue identifies James Glasgow, service number Z/2612, born 24 September 1895.",
+    "provenance": "Ancestry, UK, Naval Medal and Award Rolls, 1793–1972; The National Archives, ADM 171 and service record catalogue.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
   }
 ]
