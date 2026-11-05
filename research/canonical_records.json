@@ -433463,5 +433463,93 @@
     "supporting_source_quality": "secondary",
     "supporting_source_status": "corroborated",
     "supporting_source_reason": "Fasti names Robert Glasgow as the parish minister during all three directory edition spans."
+  },
+  {
+    "record_id": "ancestry-3145-2931466",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/2931466",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "David Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/2931466",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: David Glasgow, 1852, record 3145/2931466",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Mr Glasgow",
+      "Publication Year": "1852",
+      "Address": "David Cornbrook park Him",
+      "Residence Place": "Manchester, Lancashire, England"
+    },
+    "event_role": "probable indexed subject",
+    "association": "David Glasgow — 1852 directory",
+    "status": "Probable catalogue identity",
+    "date": "1852",
+    "year": 1852,
+    "place": "Manchester, Lancashire, England",
+    "country": "England",
+    "profiles": {
+      "Glasgow-3543": {
+        "role": "Probable directory subject; name and locality agree with an independent source",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives Mr Glasgow, with David and Cornbrook Park in the address field. The Traill family history names David Glasgow of Cornbrook Park, Manchester, as Isabella Glasgow Traill’s father.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "supporting_source_title": "The Frotoft Branch of the Orkney Traills, p. 13",
+    "supporting_source_url": "https://deriv.nls.uk/dcn23/9555/95555264.23.pdf",
+    "supporting_source_quality": "secondary",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The independent account gives the same name and address or locality."
+  },
+  {
+    "record_id": "ancestry-3145-5099877",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/5099877",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/5099877",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: John Glasgow, 1855, record 3145/5099877",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Mr Glasgow",
+      "Publication Year": "1855",
+      "Residence Place": "Lancashire, England",
+      "Occupation": "John, Old Trafford"
+    },
+    "event_role": "probable indexed subject",
+    "association": "John Glasgow — 1855 directory",
+    "status": "Probable catalogue identity",
+    "date": "1855",
+    "year": 1855,
+    "place": "Manchester, Lancashire, England",
+    "country": "England",
+    "profiles": {
+      "Glasgow-960": {
+        "role": "Probable directory subject; name and locality agree with an independent source",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives Mr Glasgow, with John and Old Trafford in the occupation field. Dod’s Peerage identifies John Glasgow of Old Trafford as Caroline Hill Rigby’s adoptive father.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "supporting_source_title": "Dod’s Peerage, Baronetage and Knightage, Tate entry, p. 559",
+    "supporting_source_url": "https://en.wikisource.org/wiki/Page:Dod%27s_Peerage%2C_Baronetage%2C_Knightage_etc._of_Great_Britain_and_Ireland.djvu/559",
+    "supporting_source_quality": "secondary",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The independent account gives the same name and address or locality."
   }
 ]
