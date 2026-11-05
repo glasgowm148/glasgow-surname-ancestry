@@ -433050,5 +433050,61 @@
     "supporting_source_quality": "secondary",
     "supporting_source_status": "corroborated",
     "supporting_source_reason": "The cemetery transcription gives Irene Susannah Raddatz’s death on 9 January 1966. The birth date and maiden name agree with the existing Raddatz profile."
+  },
+  {
+    "record_id": "ancestry-2352-55637653",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/55637653",
+    "collection": "1911 England Census",
+    "person": "Hannah Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/55637653",
+    "source_title": "Ancestry, 1911 England Census: Hannah Glasgow, RG 14/14875, record 2352/55637653",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name in household list": "Hannah Glasgow",
+      "Age in 1911": 70,
+      "Relation to Head": "Mother",
+      "Household head": "Amy Isabel Glasgow",
+      "Birth Place": "Bradford, Yorkshire",
+      "Street Address": "Elephant & Castle, 1 Merchant St",
+      "Piece": "14875",
+      "Registration District Number": "319",
+      "ED, institution, or vessel": "14",
+      "Marital Status": "Widowed"
+    },
+    "event_role": "indexed household member",
+    "association": "Hannah Glasgow — 1911 census",
+    "status": "Documentary source; identity held",
+    "date": "2 Apr 1911",
+    "year": 1911,
+    "place": "Elephant & Castle, 1 Merchant Street, Bristol, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-hannah-glasgow-bristol-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The 1911 census household list names Hannah Glasgow, aged 70, as the widowed mother of the head, Amy Isabel Glasgow, at Elephant & Castle, 1 Merchant Street, Bristol, England. Hannah’s birthplace is indexed as Bradford, Yorkshire. The same household list appears on the four companion entries. National Archives reference RG 14/14875, enumeration district 14.",
+    "provenance": "The National Archives, 1911 census returns of England and Wales, RG 14/14875; Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1841,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/55637653",
+      "reason": "Age 70 at the 2 April 1911 census bounds this named person’s birth."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-55637649",
+      "ancestry-2352-55637650",
+      "ancestry-2352-55637652",
+      "ancestry-2352-55637654"
+    ]
   }
 ]

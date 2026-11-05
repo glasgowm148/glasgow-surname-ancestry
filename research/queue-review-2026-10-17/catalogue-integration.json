@@ -407193,6 +407193,58 @@
           "note": "The 1921 census lists Harriett Treson Glasgow, aged 58 years and four months, as wife in George Glasgow’s household at 21 Denmark Road, Willesden, Middlesex, England. The age suggests a birth about 1863."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-hannah-glasgow-bristol-1911",
+      "subject_id": "ancestry-hannah-glasgow-bristol-1911",
+      "name": "Hannah Glasgow",
+      "first_names": [
+        "Hannah"
+      ],
+      "last_names_at_birth": [],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "about 1841",
+      "birth_location": "Bradford, Yorkshire",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/2352/records/55637653",
+      "historical_basis": {
+        "latest_birth_year": 1841,
+        "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/55637653",
+        "reason": "Age 70 at the 2 April 1911 census bounds this named person’s birth."
+      },
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-hannah-bristol-1911-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe 1911 census household list names Hannah Glasgow, aged 70, as the widowed mother of the head, Amy Isabel Glasgow, at Elephant & Castle, 1 Merchant Street, Bristol, England. Hannah’s birthplace is indexed as Bradford, Yorkshire. The same household list appears on the four companion entries. National Archives reference RG 14/14875, enumeration district 14.<ref>[https://www.ancestry.co.uk/search/collections/2352/records/55637653 Ancestry, 1911 England Census: Hannah Glasgow, RG 14/14875, record 2352/55637653].</ref>\n\n== Research Notes ==\nThe census identifies this resident in the Bristol household. Birth surname and earlier identity remain unresolved.\n\n== Sources ==\n<references />\n",
+      "assessment": "Documentary household member; wider identity unresolved.",
+      "current_conclusion": "The census identifies this resident in the Bristol household. Birth surname and earlier identity remain unresolved.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, 1911 England Census: Hannah Glasgow, RG 14/14875, record 2352/55637653",
+          "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/55637653",
+          "source_type": "Provider index transcript",
+          "date": "2 Apr 1911",
+          "year": 1911,
+          "place": "Elephant & Castle, 1 Merchant Street, Bristol, England",
+          "indexed_facts": {
+            "Name in household list": "Hannah Glasgow",
+            "Age in 1911": 70,
+            "Relation to Head": "Mother",
+            "Household head": "Amy Isabel Glasgow",
+            "Birth Place": "Bradford, Yorkshire",
+            "Street Address": "Elephant & Castle, 1 Merchant St",
+            "Piece": "14875",
+            "Registration District Number": "319",
+            "ED, institution, or vessel": "14",
+            "Marital Status": "Widowed"
+          },
+          "note": "The 1911 census household list names Hannah Glasgow, aged 70, as the widowed mother of the head, Amy Isabel Glasgow, at Elephant & Castle, 1 Merchant Street, Bristol, England. Hannah’s birthplace is indexed as Bradford, Yorkshire. The same household list appears on the four companion entries. National Archives reference RG 14/14875, enumeration district 14."
+        }
+      ]
     }
   ]
 }
