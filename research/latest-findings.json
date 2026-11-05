@@ -71258,8 +71258,8 @@
       "reviewed_on": "2026-11-05",
       "kind": "relationship",
       "status": "qualified",
-      "finding": "William Brown Glasgow-1001 of Kendal (baptised Berwick-upon-Tweed 23 July 1815, died Kendal 1876) now has a named father: William Alexander Glasgow, who married Elizabeth Rachel Brown at Berwick on 24 December 1810. Both William’s 1815 baptism and his 1862 Kendal remarriage to Margaret Ward name William Alexander Glasgow as his father; the father link is 85% probable, joining the Kendal–Burnley branch (George-562 and his children) to a Berwick parent couple.",
-      "qualification": "Index transcripts only (FamilySearch-derived); the Berwick and Kendal registers are uninspected. The 1862 age 44 implies about 1818, three years later than the 1815 baptism, a common remarriage understatement. The 1845 Kendal marriage index for William Brown Glasgow and Dinah Bell gives his father as 'William Brown', read here as a truncated or garbled entry rather than a different father; it is kept as a stated discrepancy. The 1810 Berwick groom is not Glasgow-3324 of Larne (died there in 1816, wife Elizabeth Stewart); Scottish index entries at Montrose for Joseph Brown Glasgow (1817) and Rachael Glasgow (1824), children of William Alexander and Elizabeth Rachael, suggest the family moved to Angus, but are not yet linked. William Alexander's own parentage is unknown. No mother is assessed here.",
+      "finding": "William Brown Glasgow-1001 of Kendal (baptised Berwick-upon-Tweed 23 July 1815, died Kendal 1876) now has a named father: William Alexander Glasgow, who married Elizabeth Rachel Brown at Berwick on 24 December 1810. Both William’s 1815 baptism and his 1862 Kendal remarriage to Margaret Ward name William Alexander Glasgow as his father; the father link is 85% probable, joining the Kendal–Burnley branch (George-562 and his children) to a Berwick parent couple. Two Montrose baptisms to William Alexander and Elizabeth Rachael Glasgow, Joseph Brown (1817) and Rachael (1824), show the family moved to Angus; William Alexander is extended to both at 88%.",
+      "qualification": "Index transcripts only (FamilySearch-derived); the Berwick and Kendal registers are uninspected. The 1862 age 44 implies about 1818, three years later than the 1815 baptism, a common remarriage understatement. The 1845 Kendal marriage index for William Brown Glasgow and Dinah Bell gives his father as 'William Brown', read here as a truncated or garbled entry rather than a different father; it is kept as a stated discrepancy. The 1810 Berwick groom is not Glasgow-3324 of Larne (died there in 1816, wife Elizabeth Stewart); Scottish index entries at Montrose for Joseph Brown Glasgow (1817) and Rachael Glasgow (1824), children of William Alexander and Elizabeth Rachael, show the family moved to Angus; both children are now attached to William Alexander. William Alexander's own parentage is unknown. No mother is assessed here.",
       "detail_url": "/people/glasgow-1001.html#research-findings",
       "people": [
         {
@@ -71279,6 +71279,18 @@
           "name": "George Glasgow",
           "url": "/people/glasgow-562.html",
           "role": "Son of William Brown Glasgow (1848 Kendal christening)"
+        },
+        {
+          "id": "record-ancestry-glasgow-883f563ee810",
+          "name": "Joseph Brown Glasgow",
+          "url": "",
+          "role": "Sibling, Montrose; father extended at 88%"
+        },
+        {
+          "id": "record-ancestry-glasgow-194612b3e16a",
+          "name": "Rachael Glasgow",
+          "url": "",
+          "role": "Sibling, Montrose; father extended at 88%"
         }
       ],
       "sources": [
@@ -71301,6 +71313,14 @@
         {
           "title": "England, Select Marriages, 1538-1973 — William Brown Glasgow, 19 Jun 1845, Kendal, Westmoreland, England",
           "url": "https://www.ancestry.co.uk/search/collections/9852/records/31321022"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Joseph Brown Glasgow, 4 May 1817, Montrose",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6456203"
+        },
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 — Rachael Glasgow, 5 Dec 1824, Montrose",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/24468584"
         }
       ],
       "relationship_changes": [
@@ -71314,6 +71334,28 @@
           "probability_percent": 85,
           "explanation": "Ancestry's England, Select Births and Christenings index records William, son of William Alexander Glasgow and Elizabeth Rachel, baptised 23 July 1815 at Berwick-upon-Tweed; William Brown Glasgow-1001's account gives exactly that date and place. The England, Select Marriages index records the 9 March 1862 Kendal marriage of William Glasgow, aged 44, to Margaret Ward, naming his father as William Alexander Glasgow; William Brown Glasgow was then living at Kendal, and children John Harrison (1862) and Joseph Alexander (1864) were baptised there to William (Brown) Glasgow and Margaret, so the 1862 groom is William-1001 remarrying after Dinah. A third index entry records William Alexander Glasgow marrying Elizabeth Rachel Brown at Berwick on 24 December 1810, which explains William's middle name Brown. Two separate registers, 47 years apart, name the same distinctive father, so William Alexander Glasgow (record-defined draft record-ancestry-glasgow-04d267d61354) is attached at 85% probable.",
           "previous_status_provenance": "Before 5 November 2026 William Brown Glasgow-1001 had no attached or assessed father (research priority queue: unknown father; his biography already quoted the baptism's parents without a selected father). No previous percentage is invented."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-883f563ee810",
+          "relative": "record-ancestry-glasgow-04d267d61354",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 88,
+          "explanation": "Joseph Brown Glasgow was baptised at Montrose on 4 May 1817 to William Alexr. Glasgow and Elizth. Rachael. The distinctive parents' names, and the middle name Brown, match William Alexander Glasgow and Elizabeth Rachel Brown, who married at Berwick-upon-Tweed in 1810 and baptised William (later William Brown Glasgow-1001 of Kendal) there in 1815. William Alexander is extended to Joseph Brown at 88% probable.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-194612b3e16a",
+          "relative": "record-ancestry-glasgow-04d267d61354",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 88,
+          "explanation": "Rachael Glasgow, born 5 December 1824 at Montrose, is indexed to William Alexander and Elizabeth Rachael Glasgow, the parents of Joseph Brown Glasgow (Montrose 1817) and of William Brown Glasgow-1001 (Berwick 1815). William Alexander is extended to her at 88% probable.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
         }
       ],
       "provenance": [

@@ -47476,6 +47476,130 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-883f563ee810",
+      "relative_id": "record-ancestry-glasgow-04d267d61354",
+      "relationship": "father",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-montrose-joseph-brown-father-20261105",
+      "basis": "Joseph Brown Glasgow was baptised at Montrose on 4 May 1817 to William Alexr. Glasgow and Elizth. Rachael. The distinctive parents' names, and the middle name Brown, match William Alexander Glasgow and Elizabeth Rachel Brown, who married at Berwick-upon-Tweed in 1810 and baptised William (later William Brown Glasgow-1001 of Kendal) there in 1815. William Alexander is extended to Joseph Brown at 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6456203",
+        "ancestry-9852-36465000",
+        "ancestry-9841-114661706"
+      ],
+      "scope": "Index transcripts only; the Montrose and Berwick registers are uninspected. The move from Berwick to Montrose between 1815 and 1817 is inferred from the baptisms, not stated. No mother assessment.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry index father"
+        }
+      ],
+      "profile_names": {
+        "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow",
+        "record-ancestry-glasgow-883f563ee810": "Joseph Brown Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-04d267d61354",
+      "relative_id": "record-ancestry-glasgow-883f563ee810",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-montrose-joseph-brown-father-20261105",
+      "basis": "Joseph Brown Glasgow was baptised at Montrose on 4 May 1817 to William Alexr. Glasgow and Elizth. Rachael. The distinctive parents' names, and the middle name Brown, match William Alexander Glasgow and Elizabeth Rachel Brown, who married at Berwick-upon-Tweed in 1810 and baptised William (later William Brown Glasgow-1001 of Kendal) there in 1815. William Alexander is extended to Joseph Brown at 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6456203",
+        "ancestry-9852-36465000",
+        "ancestry-9841-114661706"
+      ],
+      "scope": "Index transcripts only; the Montrose and Berwick registers are uninspected. The move from Berwick to Montrose between 1815 and 1817 is inferred from the baptisms, not stated. No mother assessment.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry index father"
+        }
+      ],
+      "profile_names": {
+        "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow",
+        "record-ancestry-glasgow-883f563ee810": "Joseph Brown Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-194612b3e16a",
+      "relative_id": "record-ancestry-glasgow-04d267d61354",
+      "relationship": "father",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-montrose-rachael-father-20261105",
+      "basis": "Rachael Glasgow, born 5 December 1824 at Montrose, is indexed to William Alexander and Elizabeth Rachael Glasgow, the parents of Joseph Brown Glasgow (Montrose 1817) and of William Brown Glasgow-1001 (Berwick 1815). William Alexander is extended to her at 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24468584",
+        "ancestry-60143-6456203",
+        "ancestry-9852-36465000"
+      ],
+      "scope": "Index transcript only; the Montrose register is uninspected. No mother assessment.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry index father"
+        }
+      ],
+      "profile_names": {
+        "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow",
+        "record-ancestry-glasgow-194612b3e16a": "Rachael Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-04d267d61354",
+      "relative_id": "record-ancestry-glasgow-194612b3e16a",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-montrose-rachael-father-20261105",
+      "basis": "Rachael Glasgow, born 5 December 1824 at Montrose, is indexed to William Alexander and Elizabeth Rachael Glasgow, the parents of Joseph Brown Glasgow (Montrose 1817) and of William Brown Glasgow-1001 (Berwick 1815). William Alexander is extended to her at 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24468584",
+        "ancestry-60143-6456203",
+        "ancestry-9852-36465000"
+      ],
+      "scope": "Index transcript only; the Montrose register is uninspected. No mother assessment.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry index father"
+        }
+      ],
+      "profile_names": {
+        "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow",
+        "record-ancestry-glasgow-194612b3e16a": "Rachael Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-b6cb4976eea3",
       "relative_id": "record-ancestry-glasgow-fd84e4728b02",
       "relationship": "father",
