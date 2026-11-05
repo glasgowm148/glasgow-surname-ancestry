@@ -407654,7 +407654,14 @@
     "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0004-William_Glasgow-1825.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "record-ancestry-glasgow-william-barrackpore-1825": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   },
   {
     "record_id": "ancestry-9899-1390692",
@@ -407696,7 +407703,14 @@
     "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0006-George_Thomas_James_Dennis_Glasgow-1840.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "record-ancestry-glasgow-george-thomas-james-dennis-bengal-1840": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   },
   {
     "record_id": "ancestry-9899-247030",
@@ -407739,7 +407753,14 @@
     "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0013-Eliza_Graves_Glasgow-1836.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "record-ancestry-glasgow-eliza-graves-serampore-1836": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   },
   {
     "record_id": "ancestry-9899-362341",
@@ -407930,7 +407951,14 @@
     "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0025-Harrietta_Fordyce_Glasgow-1838.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "record-ancestry-glasgow-harrietta-fordyce-dehra-1838": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   },
   {
     "record_id": "ancestry-9899-834444",
@@ -407973,7 +408001,14 @@
     "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0028-Eliza_Graves_Glasgow-1836.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "record-ancestry-glasgow-eliza-graves-serampore-1836": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   },
   {
     "record_id": "ancestry-9899-870786",
@@ -408016,7 +408051,14 @@
     "provenance": "private Ancestry capture glasgow-records/india-select-births-and-baptisms-1786-1947-9899/0030-Harrietta_Fordyce_Glasgow-1838.txt",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
-    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)"
+    "reference": "Original data: India Births and Baptisms, 1786-1947 (FamilySearch index)",
+    "profiles": {
+      "record-ancestry-glasgow-harrietta-fordyce-dehra-1838": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   },
   {
     "record_id": "ancestry-60144-61452",
@@ -411839,7 +411881,13 @@
     "year": null,
     "place": "Budgerow, Bengal, India",
     "country": "India",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-37d6375f3fdd": {
+        "role": "Father named in the companion baptism index for John Blythe Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
     "note": "The index names William Glasgow and spouse Amelia with their child John Blythe Glasgow.",
     "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
     "reviewed_on": "2026-11-05",
