@@ -82924,6 +82924,51 @@
       "provenance": [
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "sydney-alexander-glasgow-household-indexes-1838-1849-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The New South Wales index records John Glasgow in 1840 with parents Alexander and Helen Glasgow, and John B Glasgow in 1849 with parents Alexander and Mary A Glasgow. The 1838 Sydney marriage names Alexander Glasgow and Helen McDonald; the 1848 Sydney entry names Alexander Glasgow and Mary A Cupid. The 1849 birth index fits the existing John Bowling Glasgow baptism and dossier.",
+      "qualification": "The 1840 child has not been identified with an existing profile. The two 1840 index entries give different volume references and may refer to the same child.",
+      "detail_url": "/people/glasgow-2838.html",
+      "people": [
+        {
+          "id": "Glasgow-2838",
+          "name": "John Bowling Glasgow",
+          "url": "/people/glasgow-2838.html",
+          "role": "Probable 1849 indexed child"
+        },
+        {
+          "id": "Glasgow-2699",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-2699.html",
+          "role": "Probable father"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: John Glasgow, Sydney, 1840, volume V18403504 45b",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/2568701"
+        },
+        {
+          "title": "Ancestry, Australia, Birth Index, 1788–1922: John B Glasgow, New South Wales, 1849, volume V18491864 34a",
+          "url": "https://www.ancestry.co.uk/search/collections/1778/records/2568704"
+        },
+        {
+          "title": "Ancestry, Australia, Marriage Index, 1788–1950: Alexander Glasgow and Helen McDonald, Sydney, 1838",
+          "url": "https://www.ancestry.co.uk/search/collections/1780/records/1764369"
+        },
+        {
+          "title": "Ancestry, Australia, Marriage Index, 1788–1950: Alexander Glasgow and Mary A Cupid, Sydney, 1848",
+          "url": "https://www.ancestry.co.uk/search/collections/1780/records/1764370"
+        }
+      ],
+      "provenance": [
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
