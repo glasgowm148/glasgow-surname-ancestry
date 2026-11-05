@@ -80411,6 +80411,89 @@
         "research/source-library/census-reference-overrides.json",
         "research/Glasgow-3941/findings.md"
       ]
+    },
+    {
+      "id": "era1599-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "kind": "relationship",
+      "finding": "Testing the mother and father links of the 96 catalogue people born before 1600 against every saved record dated to 1599 or earlier: the Ancestry harvest holds no era-dated rows yet (60143 starts 1605, 60144 saved rows start 1611, 62497/9841/9840/1352 start later), so the evidence is the 34 canonical archive and protocol records. They show that Esbell Brade is named as mother of John Glasgow-1093 (1534), that Elizat Stevinsoun is the only wife in Andrew Glasgow's 1598 testament (probable mother of Jonet, Isobell and Marione), and that Jonet (Meik) Glasgow is Ninian's wife, so the attached mother link to Ninian's sister Marion-3062 is a conflation.",
+      "status": "qualified",
+      "qualification": "Printed abstracts and archive catalogue wording only; originals uninspected. Father links for the cohort are unchanged: every one already carries an assessment from the record that bears on it. Ancestry 60144 and 60143 rows dated to 1599 are still to be harvested.",
+      "people": [
+        {
+          "id": "Glasgow-1093",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1093.html",
+          "role": "Child; mother Isobel (Brade) assessed 92% proved"
+        },
+        {
+          "id": "Brade-232",
+          "name": "Isobel (Brade) Glasgow",
+          "url": "/people/brade-232.html",
+          "role": "Mother of John-1093 named in the 1534 protocol"
+        },
+        {
+          "id": "Glasgow-3183",
+          "name": "Janet Glasgow",
+          "url": "/people/glasgow-3183.html",
+          "role": "Daughter; mother Elizat Stevinsoun 72% probable"
+        },
+        {
+          "id": "Glasgow-3336",
+          "name": "Isobel Glasgow",
+          "url": "/people/glasgow-3336.html",
+          "role": "Daughter; mother Elizat Stevinsoun 72% probable"
+        },
+        {
+          "id": "Glasgow-4095",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-4095.html",
+          "role": "Daughter; mother Elizat Stevinsoun 72% probable"
+        },
+        {
+          "id": "Stevinsoun-2",
+          "name": "Elizat Stevinsoun",
+          "url": "/people/stevinsoun-2.html",
+          "role": "Wife of Andrew Glasgow-3163"
+        },
+        {
+          "id": "Glasgow-1027",
+          "name": "Rot. Glasgow",
+          "url": "/people/glasgow-1027.html",
+          "role": "Son; mother Jonet (Meik) 85% probable"
+        },
+        {
+          "id": "Meik-14",
+          "name": "Jonet (Meik) Glasgow",
+          "url": "/people/meik-14.html",
+          "role": "Ninian's wife; mother of Robert-1027, not of Marion-3062"
+        },
+        {
+          "id": "Glasgow-3062",
+          "name": "Marion Glasgow",
+          "url": "/people/glasgow-3062.html",
+          "role": "Ninian's sister; Meik mother link 4%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Renwick, Abstracts of Protocols of the Town Clerks of Glasgow, vol. 4, protocol 1196",
+          "url": "https://archive.org/"
+        },
+        {
+          "title": "NRS CC8/8/32 Edinburgh Commissary Court, testament of Andrew Glasgow, 1598",
+          "url": "https://www.nrscotland.gov.uk/"
+        },
+        {
+          "title": "NRS CC9/7/9 Glasgow Commissary Court, testament of Ninian Glasgow, 1613",
+          "url": "https://www.nrscotland.gov.uk/"
+        }
+      ],
+      "detail_url": "/people/glasgow-1093.html#research-findings",
+      "provenance": [
+        "research/canonical_records.json",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }
