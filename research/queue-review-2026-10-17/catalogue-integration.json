@@ -184196,6 +184196,63 @@
           "reason": "No explicit conflict; not distinguishable on this evidence."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-ebdb5710718c",
+      "subject_id": "ancestry-glasgow-ebdb5710718c",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9852/records/1830261",
+      "research_subject_url": "/people/record-ancestry-glasgow-ebdb5710718c.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/england-select-marriages-9852.wiki",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Integration audit (IA, 2026-11-05): corrected catalogue link; the withdrawn profile is excluded in the research note",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Marriages, 1538-1973: William Glasgow, 13 Sep 1869",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9852/records/1830261",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
+          "year": "1869",
+          "filter_year": 1869,
+          "record_location": "Christ Church, Newcastle-Upon-Tyne, Northumberland, England",
+          "region": "England",
+          "association": "William Glasgow — groom; England, Select Marriages, 1538-1973",
+          "note": "Integration audit (IA, 2026-11-05): Documentary subject: groom.",
+          "evidence": "Provider index transcript"
+        }
+      ],
+      "historical_basis": {
+        "latest_birth_year": 1856,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9852/records/1830261",
+        "basis_kind": "record",
+        "explanation": "Marriage 13 Sep 1869"
+      },
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow married Mary Stewart on 13 Sep 1869 at Christ Church, Newcastle-Upon-Tyne, Northumberland, England; father Robert London.<ref name=\"anc1830261\">[https://www.ancestry.co.uk/search/collections/9852/records/1830261 Ancestry, England, Select Marriages, 1538-1973, William Glasgow, 13 Sep 1869, Christ Church, Newcastle-Upon-Tyne, Northumberland, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-05: Glasgow-3872 (William James Glasgow of Belfast, died about 1881) was removed: his wife was Mary Bones, while this groom married Mary Stewart, and his family lived in Belfast. The groom is held as a new draft. The index names his father as Robert London, possibly a misreading. No catalogue person is preferred on the indexed facts, so this entry is held for identity review.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "William Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
+      "current_conclusion": "William Glasgow is known here from Ancestry index entries (1). The earlier catalogue link was withdrawn; identity held.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ]
     }
   ]
 }
