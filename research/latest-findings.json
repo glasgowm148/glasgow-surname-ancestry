@@ -71866,6 +71866,59 @@
         }
       ],
       "detail_url": "/people/glasgow-1001.html"
+    },
+    {
+      "id": "ancestry-woolwich-clement-stuart-george-mark-father-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "Clement Stuart Glasgow, baptised at Woolwich on 16 April 1833 to George Mark Glasgow and Ann Mary, is attached as a son of George Mark Glasgow-3785 (born Quebec 1795, died Kingston, Canada West, 1851) at 90%. The baptism draft’s separate father entry is the same George Mark.",
+      "qualification": "Index transcript only; the Woolwich register is uninspected. A second profile, George Mark Glasgow-3127 (about 1805, died before 1846), is not excluded by this entry but cannot be the husband of the 1851 widow. No mother assessment.",
+      "detail_url": "/people/glasgow-3785.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3785",
+          "name": "George Mark Glasgow",
+          "url": "/people/glasgow-3785.html",
+          "role": "Father; Royal Artillery officer, died Kingston 1851"
+        },
+        {
+          "id": "record-ancestry-glasgow-499ede7cc1b5",
+          "name": "Clement Stuart Glasgow",
+          "url": "",
+          "role": "Son, born 1832; father attached at 90%"
+        },
+        {
+          "id": "record-ancestry-glasgow-f6f6ae41dd00",
+          "name": "George Mark Glasgow",
+          "url": "",
+          "role": "Record-defined father entry; same man as Glasgow-3785"
+        }
+      ],
+      "sources": [
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Clement Stuart Glasgow, 16 Apr 1833, St Mary Magdalene, Woolwich",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/39849496"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-499ede7cc1b5",
+          "relative": "Glasgow-3785",
+          "action": "add",
+          "before": "unknown",
+          "after": "proved",
+          "probability_percent": 90,
+          "explanation": "Clement Stuart Glasgow, born 2 November 1832, was baptised on 16 April 1833 at St Mary Magdalene, Woolwich (the Royal Artillery's home parish), to George Mark Glasgow and Ann Mary. George Mark Glasgow-3785 (born Quebec 1795, died Kingston, Canada West, January 1851) already cites this baptism as a source, and an army pension entry records Captain George M. Glasgow's widow as Ann Mary. The father named in the baptism is therefore George Mark-3785, attached at 90% proved; the record-defined father draft record-ancestry-glasgow-f6f6ae41dd00 is the same man.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
