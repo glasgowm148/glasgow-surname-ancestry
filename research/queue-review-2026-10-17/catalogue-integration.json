@@ -407524,6 +407524,64 @@
           "note": "The 1898 directory indexes Ernest Glasgow with the residence field Middlesex, England. The occupation field gives tailor and Chestnut ho. The full address and links to other men named Ernest Glasgow remain unresolved."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-joseph-glasgow-chesham-1883",
+      "subject_id": "ancestry-joseph-glasgow-chesham-1883",
+      "name": "Joseph Glasgow",
+      "first_names": [
+        "Joseph"
+      ],
+      "last_names_at_birth": [],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [
+        "Boot manufacturer"
+      ],
+      "source_subject_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/39044",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-chesham-and-bannerdown-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nKelly’s 1883 directory lists Joseph Glasgow as a boot manufacturer in New Town, Chesham.<ref>[https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/39044 Kelly's Directory of Buckinghamshire, 1883 - Page 53]</ref>\n\n== Research Notes ==\nThe later Chesham dossier estimates a birth around 1869 for the 1911 shoemaker. He would have been about fourteen in 1883, so these directory entries are held separately pending evidence that connects the two.\n\n== Sources ==\n* [https://www.ancestry.co.uk/search/collections/3145/records/5271140 Ancestry, UK, City and County Directories: Joseph Glasgow, 1883, record 3145/5271140]\n* [https://www.ancestry.co.uk/search/collections/3145/records/5284790 Ancestry, UK, City and County Directories: Joseph Glasgow, 1883, record 3145/5284790]\n<references />\n",
+      "assessment": "Documentary subject; identity relative to the later Chesham shoemaker remains open.",
+      "current_conclusion": "The later Chesham dossier estimates a birth around 1869 for the 1911 shoemaker. He would have been about fourteen in 1883, so these directory entries are held separately pending evidence that connects the two.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, UK, City and County Directories: Joseph Glasgow, 1883, record 3145/5271140",
+          "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/5271140",
+          "source_type": "Provider index transcript",
+          "date": "1883",
+          "year": 1883,
+          "place": "Chesham, Buckinghamshire, England",
+          "indexed_facts": {
+            "Name": "Joseph Glasgow",
+            "Publication Year": "1883",
+            "Residence Place": "Buckinghamshire, England",
+            "Occupation": "bqpt manufacturer, New town"
+          },
+          "note": "The 1883 Kelly directory names Joseph Glasgow as a boot manufacturer in New Town, Chesham. The index’s “bqpt” is a misreading of “boot”."
+        },
+        {
+          "source_title": "Ancestry, UK, City and County Directories: Joseph Glasgow, 1883, record 3145/5284790",
+          "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/5284790",
+          "source_type": "Provider index transcript",
+          "date": "1883",
+          "year": 1883,
+          "place": "Chesham, Buckinghamshire, England",
+          "indexed_facts": {
+            "Name": "Joseph Glasgow",
+            "Publication Year": "1883",
+            "Residence Place": "Buckinghamshire, England",
+            "Occupation": "New town, Chesham S.O-"
+          },
+          "note": "This 1883 index entry names Joseph Glasgow at New Town, Chesham. The directory page names a boot manufacturer there; the two 1883 index entries are treated as companions."
+        }
+      ]
     }
   ]
 }

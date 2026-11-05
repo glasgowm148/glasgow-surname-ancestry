@@ -433822,5 +433822,195 @@
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-3145-2668763",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/2668763",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Joseph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/2668763",
+    "source_title": "Ancestry, UK, City and County Directories: J Glasgow, 1895, record 3145/2668763",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "J Glasgow",
+      "Publication Year": "1895",
+      "Address": "Townsend rdOhshmRSO-",
+      "Residence Place": "Buckinghamshire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Joseph Glasgow — 1895 directory",
+    "status": "Probable catalogue identity",
+    "date": "1895",
+    "year": 1895,
+    "place": "Chesham, Buckinghamshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-joseph-chesham-1911": {
+        "role": "Probable directory subject; name, location and other records agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives J Glasgow and a damaged Townsend Road address. The other 1895 entries give Joseph Glasgow on Townsend Road; the 1899 Kelly directory lists J Glasgow there among wholesale boot and shoe manufacturers.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-2663497",
+      "ancestry-3145-2659593"
+    ],
+    "supporting_source_title": "Kelly's Directory of Buckinghamshire, 1899 - Page 241",
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/43158",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The University of Leicester directory page corroborates the reading."
+  },
+  {
+    "record_id": "ancestry-3145-45616643",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/45616643",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Robert Bruce Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/45616643",
+    "source_title": "Ancestry, UK, City and County Directories: R. B Robertson-Glasgow, 1895, record 3145/45616643",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "R. B Robertson-Glasgow",
+      "Publication Year": "1895",
+      "Address": "Bannerdown - house",
+      "Residence Place": "Bath, Somerset, England",
+      "Occupation": "Esq"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Robert Bruce Robertson-Glasgow — 1895 directory",
+    "status": "Probable catalogue identity",
+    "date": "1895",
+    "year": 1895,
+    "place": "Batheaston, Somerset, England",
+    "country": "England",
+    "profiles": {
+      "record-anc-robert-bruce-robertson-glasgow-1896-49175": {
+        "role": "Probable directory subject; name, location and other records agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The 1895 Bath directory lists R. B. Robertson-Glasgow at Bannerdown House. The census summary for the same house names Robert B. R. Glasgow in 1891, and his probate index gives death in Bath on 4 December 1895.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-60558-249175"
+    ],
+    "supporting_source_title": "Post Office Bath Directory, 1895 - Page 524",
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/73045",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The 1895 Bath directory confirms the initials and Bannerdown address; Bath Record Office’s Hinton Charterhouse memorial notes identify the 1891 resident at that address."
+  },
+  {
+    "record_id": "ancestry-3145-5271140",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/5271140",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Joseph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/5271140",
+    "source_title": "Ancestry, UK, City and County Directories: Joseph Glasgow, 1883, record 3145/5271140",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Joseph Glasgow",
+      "Publication Year": "1883",
+      "Residence Place": "Buckinghamshire, England",
+      "Occupation": "bqpt manufacturer, New town"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Joseph Glasgow — 1883 directory",
+    "status": "Documentary source; identity held",
+    "date": "1883",
+    "year": 1883,
+    "place": "Chesham, Buckinghamshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-joseph-glasgow-chesham-1883": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The 1883 Kelly directory names Joseph Glasgow as a boot manufacturer in New Town, Chesham. The index’s “bqpt” is a misreading of “boot”.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-5284790"
+    ],
+    "supporting_source_title": "Kelly's Directory of Buckinghamshire, 1883 - Page 53",
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/39044",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The University of Leicester directory page corroborates the reading."
+  },
+  {
+    "record_id": "ancestry-3145-5284790",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/5284790",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Joseph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/5284790",
+    "source_title": "Ancestry, UK, City and County Directories: Joseph Glasgow, 1883, record 3145/5284790",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Joseph Glasgow",
+      "Publication Year": "1883",
+      "Residence Place": "Buckinghamshire, England",
+      "Occupation": "New town, Chesham S.O-"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Joseph Glasgow — 1883 directory",
+    "status": "Documentary source; identity held",
+    "date": "1883",
+    "year": 1883,
+    "place": "Chesham, Buckinghamshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-joseph-glasgow-chesham-1883": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "This 1883 index entry names Joseph Glasgow at New Town, Chesham. The directory page names a boot manufacturer there; the two 1883 index entries are treated as companions.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-5271140"
+    ],
+    "supporting_source_title": "Kelly's Directory of Buckinghamshire, 1883 - Page 53",
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/39044",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The University of Leicester directory page corroborates the reading."
   }
 ]
