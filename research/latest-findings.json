@@ -82893,6 +82893,37 @@
       "provenance": [
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "ayr-mckina-glasgow-margaret-davidson-1753-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The 1753 Ayr marriage index names McKina Glasgow and Margaret Davidson. The 1755 Ayr baptism of Jean Mckinzie Glasgow names Mckinzie Glasgow and Margaret Davidson as her parents. The uncommon given name, the same spouse and the same parish support identifying the groom with the existing documentary subject.",
+      "qualification": "The 1781 Ayr entry for Kinzie Glasgow names Jean McCormick. The similar name alone does not show whether he was the same man.",
+      "detail_url": "/people/record-ancestry-glasgow-559274d4a017.html",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-559274d4a017",
+          "name": "Mckinzie Glasgow",
+          "url": "/people/record-ancestry-glasgow-559274d4a017.html",
+          "role": "Probable groom"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Scotland, Select Marriages, 1561–1910: McKina Glasgow and Margaret Davidson, Ayr, 25 July 1753",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/664441"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: Jean Mckinzie Glasgow, Ayr, 8 October 1755",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/15389358"
+        }
+      ],
+      "provenance": [
+        "research/canonical_records.json"
+      ]
     }
   ]
 }

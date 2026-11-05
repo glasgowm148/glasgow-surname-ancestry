@@ -406731,7 +406731,7 @@
       "FHL Film Number": "1041331"
     },
     "status": "Identity hold",
-    "note": "The index records Kinzie Glasgow and Jean McCormick under marriage on 22 Dec 1781 at Ayr, Ayr, Scotland. The index does not establish whether this was banns or a ceremony. The indexed person is retained as an unresolved documentary identity; no catalogue profile is selected.",
+    "note": "The index records Kinzie Glasgow and Jean McCormick under marriage on 22 Dec 1781 at Ayr, Ayr, Scotland. The index does not establish whether this was banns or a ceremony. The indexed person is retained as an unresolved documentary identity; no catalogue profile is selected. The Ayr Mckinzie Glasgow household is a candidate comparison; the indexed spouse in 1781 is Jean McCormick.",
     "provenance": "Reviewed Ancestry marriage index transcription, era 1750–1799.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
@@ -406740,7 +406740,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-559274d4a017": {
+        "role": "Candidate identity: similar rare Glasgow given name in Ayr; the 1781 entry names a different spouse",
+        "assessment": "possible",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1781,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/519958",
@@ -406779,7 +406785,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-eh5-jean-1769": {
+        "role": "Documentary subject: named marriage party; identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1769,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/606708",
@@ -406849,7 +406861,7 @@
       "FHL Film Number": "1041331"
     },
     "status": "Identity hold",
-    "note": "The index records McKina Glasgow and Margaret Davidson under marriage on 25 Jul 1753 at Ayr, Ayr, Scotland. The index does not establish whether this was banns or a ceremony. The rare McKina/Mckinzie name, the Ayr parish and Margaret Davidson also fit later Ayr baptisms naming those parents. That makes this a likely marriage for the documentary household; no individual catalogue profile for the groom is selected.",
+    "note": "The index records McKina Glasgow and Margaret Davidson under marriage on 25 Jul 1753 at Ayr, Ayr, Scotland. The index does not establish whether this was banns or a ceremony. The rare McKina/Mckinzie name, the Ayr parish and Margaret Davidson also fit later Ayr baptisms naming those parents. That makes this a likely marriage for the documentary household; the marriage probably names the existing documentary subject, Mckinzie Glasgow.",
     "provenance": "Reviewed Ancestry marriage index transcription, era 1750–1799.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true,
@@ -406858,7 +406870,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-559274d4a017": {
+        "role": "Probable identity: the Ayr index names Margaret Davidson, also named as the mother with Mckinzie Glasgow in the 1755 Ayr baptism",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1753,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/664441",
@@ -406999,7 +407017,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-eh5-matthew-1785": {
+        "role": "Documentary subject: named marriage party; identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1785,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/778721",
@@ -407136,7 +407160,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-eh5-jean-1754": {
+        "role": "Documentary subject: named marriage party; identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1754,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/825424",
@@ -407175,7 +407205,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-eh5-william-1789": {
+        "role": "Documentary subject: named marriage party; identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1789,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/879482",
@@ -407214,7 +407250,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-eh5-isobel-1781": {
+        "role": "Documentary subject: named marriage party; identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1781,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/915332",
@@ -407253,7 +407295,13 @@
     "country": "Scotland",
     "source_quality": "provider_derivative",
     "source_level": "inspected transcript",
-    "profiles": {},
+    "profiles": {
+      "record-ancestry-glasgow-eh5-elizabeth-1759": {
+        "role": "Documentary subject: named marriage party; identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
+    },
     "historical_basis": {
       "latest_birth_year": 1759,
       "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/986202",
