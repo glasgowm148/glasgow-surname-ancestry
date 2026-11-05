@@ -8,7 +8,7 @@ it resolves an earlier branch connection.
 
 The maintained goal, surname variants and specific early tests are in
 `research/ancestry-connections/strategy.json`. The project research skill carries
-this priority. `/onetree/progress/` presents the measurements, oldest family
+this priority. `/latest-findings/` (its Research progress section) presents the measurements, oldest family
 heads, common-origin working model and specific connection investigations.
 
 ## Recompute

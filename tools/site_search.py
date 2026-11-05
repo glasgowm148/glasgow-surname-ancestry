@@ -21,7 +21,7 @@ PUBLIC_ROUTES = (
     ("People", "/catalogue/", "people", "Search people, relatives, dates and places", "People Catalogue Catalogue"),
     ("Families & places", "/branches/", "people", "Named family and locality pages", "Families and places Branch cards"),
     ("Family tree", "/onetree/", "tree", "Public profiles, branches and Y-DNA tester markers", "Family Atlas Whole tree"),
-    ("Ancestry progress", "/onetree/progress/", "tree", "Early branches, reviewed connections and remaining work", "Paternal connectivity Programme"),
+    ("Ancestry progress", "/latest-findings/#research-progress", "desk", "Early branches, reviewed connections and remaining work", "Paternal connectivity Programme Research progress charts"),
     ("Y-DNA", "/ydna/", "dna", "Testers, haplogroups and the genetic explorer", "Y DNA"),
     ("Records & sources", "/sources/", "records", "Search source references and read linked evidence", "Records Source library Source references"),
     ("Research", "/research/", "desk", "Findings, unresolved links and comparison tools", "Research questions"),
@@ -145,8 +145,9 @@ def _question_rows(site_root: Path) -> list[list[str]]:
 
 def _research_page_rows(site_root: Path) -> list[list[str]]:
     rows = []
-    if (site_root / "onetree/progress/index.html").is_file():
-        rows.append(["ancestry-progress", "Glasgow ancestry progress", "/onetree/progress/",
+    latest = site_root / "latest-findings/index.html"
+    if latest.is_file() and 'id="research-progress"' in latest.read_text(encoding="utf-8", errors="ignore"):
+        rows.append(["ancestry-progress", "Glasgow ancestry progress", "/latest-findings/#research-progress",
                      "Connect the earliest branches; measure unattached paternal families",
                      "surname ancestry connectivity orphan family heads oldest records", "Research programme"])
     for path in sorted((site_root / "research/subjects").glob("*/subjects.json")):

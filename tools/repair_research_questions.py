@@ -243,11 +243,11 @@ def repair():
         strategy = json.loads(programme_path.read_text())
         programme = (
             '<article class="repair-question-focus"><span class="r-kicker">Main research goal · earliest branches first</span>'
-            '<h3><a href="/onetree/progress/">Connect the Glasgow surname family</a></h3>'
+            '<h3><a href="/latest-findings/#research-progress">Connect the Glasgow surname family</a></h3>'
             f'<p>{escape(strategy["objective"])}</p>'
             '<p>Begin with the medieval Johns, Alan and the Saltmarket succession. '
             'Track separate paternal branches and unattached family heads; preserve the evidence grade of tentative joins.</p>'
-            '<a class="repair-question-arrow" href="/onetree/progress/#early-connections">'
+            '<a class="repair-question-arrow" href="/latest-findings/#early-connections">'
             'See the baseline and oldest connection tests &rarr;</a></article>'
         )
     lead, *trails = QUESTIONS

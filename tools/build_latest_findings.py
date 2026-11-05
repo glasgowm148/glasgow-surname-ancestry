@@ -45,6 +45,40 @@ FINDINGS_PER_PAGE = 50
 LATEST_SHOWN = 30
 # Per-subject export for other builders: read it with findings_for().
 SUBJECT_INDEX = 'data/findings-by-subject.json'
+# Research progress dashboard, written by build_ancestry_progress.py; either
+# builder can run last and the page keeps both (owner, 5 Nov 2026).
+PROGRESS_SECTIONS = 'data/ancestry-progress-sections.json'
+PROGRESS_MARKERS = {'dashboard': ('<!--research-progress-->', '<!--/research-progress-->'),
+                    'findings': ('<!--research-progress-findings-->', '<!--/research-progress-findings-->')}
+PROGRESS_ASSET = re.compile(r'<(?:link|script)\b[^>]*/assets/research/ancestry-progress\.(?:css|js)[^>]*>(?:</script>)?')
+
+
+def with_progress(page, web=WEB):
+    """Fill the dashboard markers of the opening page from the progress builder's output."""
+    path = Path(web) / PROGRESS_SECTIONS
+    if not all(start in page for start, _ in PROGRESS_MARKERS.values()):
+        return page
+    sections = json.loads(path.read_text(encoding='utf-8')) if path.is_file() else {}
+    for key, (start, end) in PROGRESS_MARKERS.items():
+        page = re.sub(re.escape(start) + '.*?' + re.escape(end), lambda _: start + sections.get(key, '') + end, page, count=1, flags=re.S)
+    page = PROGRESS_ASSET.sub('', page)
+    if sections.get('css') and sections.get('js'):
+        page = page.replace('</head>', f'<link rel="stylesheet" href="{escape(sections["css"], quote=True)}"></head>', 1)
+        page = page.replace('</body>', f'<script src="{escape(sections["js"], quote=True)}" defer></script></body>', 1)
+    return page
+
+
+def apply_progress_sections(web=WEB):
+    """Refresh only the dashboard on the existing opening page; True when it changed."""
+    target = Path(web) / 'latest-findings/index.html'
+    if not target.is_file():
+        return False
+    original = target.read_text(encoding='utf-8')
+    updated = with_progress(original, web)
+    if updated != original:
+        target.write_text(updated, encoding='utf-8')
+    return updated != original
+
 
 
 def local_url(value, web):
@@ -236,13 +270,24 @@ def render_main(rows, total=None, page_number=None, studies=(), browse=False, pl
         f'<a id="{ident}" href="{page_url(target)}" aria-disabled="false">{text}</a>' if target else
         f'<a id="{ident}" href="/latest-findings/" aria-disabled="true">{text}</a>')
     options = ''.join(f'<option value="{key}">{label}</option>' for key, label in KINDS.items())
+    dashboard, feed_start, findings_table = '', '', ''
+    if page_number is None:
+        start, end = PROGRESS_MARKERS['dashboard']
+        dashboard = f'</header>{start}{end}'
+        feed_start = '<div class="lf-intro lf-feed-intro"><h2 id="lf-feed-title" class="lf-feed-title">New findings, newest first</h2>'
+        start, end = PROGRESS_MARKERS['findings']
+        findings_table = start + end
+        lede = 'Research progress across the Glasgow paternal family, then new records and supported corrections, newest first.'
+        progress = ''
+    else:
+        lede = 'New records and supported corrections from the Glasgow research, newest first.'
+        progress = '<p class="lf-progress"><a href="/latest-findings/#research-progress">Research progress charts →</a><span>See how father-link confidence and branch connectivity change over time.</span></p>'
     return f'''<main id="main" class="latest-findings-page" data-lf-total="{total}" data-lf-page="{page_number or 'latest'}">
 <header class="lf-intro"><p class="r-kicker">What we have learned</p><h1>Latest findings</h1>
-<p class="lf-lede">New records and supported corrections from the Glasgow research, newest first.</p>
-<p class="lf-progress"><a href="/onetree/progress/?through=1650&amp;links=confident#progress-history">Research progress charts →</a><span>See how father-link confidence and branch connectivity change over time.</span></p>
+<p class="lf-lede">{lede}</p>{progress}{dashboard}{feed_start}
 <p>Dates show when evidence was found or reviewed. Each finding gives its sources and what remains uncertain.</p>
 <p>The finding assessment applies to the statement in that row. A supported record fact does not confirm its identification with a linked WikiTree profile. Profile identification limits appear beside the person and in the research.</p>
-<p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p>{follow}</header>
+<p>Use Assessment to find relationships that became certain. <a href="/research/relationship-audit/">Read the historical audit and counts →</a></p>{follow}{'</div>' if feed_start else '</header>'}
 <section class="lf-content" aria-labelledby="lf-table-title"><h2 id="lf-table-title" class="lf-sr-only">Dated research findings</h2>
 <form class="lf-controls" id="lf-controls" role="search">
 <div class="lf-search"><label for="lf-query">Search findings</label><input type="search" id="lf-query" placeholder="Name, place, record or finding" autocomplete="off"></div>
@@ -260,7 +305,7 @@ def render_main(rows, total=None, page_number=None, studies=(), browse=False, pl
 <p class="lf-empty" id="lf-empty" hidden>No findings match those filters. Try another name or place, or reset the filters.</p>
 <nav class="lf-pagination" id="lf-pagination" aria-label="Finding pages">{nav_link(newer, 'lf-prev', '← Newer')}<span id="lf-page">{place_label}</span>{nav_link(older, 'lf-next', 'Older →')}</nav>
 <p class="lf-context">Archive pages are numbered from the earliest finding, so a finding keeps its page and its link. Undated findings remain on the person and family pages. <a href="/changes/">Website change log →</a></p>
-</section></main>'''
+</section>{findings_table}</main>'''
 
 
 def _links_module():
@@ -493,7 +538,9 @@ def repair(web=WEB, ledger=LEDGER, *, refresh_subject_drafts=True):
     for number in [None, *sorted(archive)]:
         selected = rows[:LATEST_SHOWN] if number is None else archive[number]
         rendered = re.sub(r'<main\b[^>]*>.*?</main>', lambda _: render_main(selected, len(rows), number, study_options, browse, place_options), page, count=1, flags=re.S)
-        if number is not None:
+        if number is None:
+            rendered = with_progress(rendered, web)
+        else:
             rendered = rendered.replace('https://glasgow.phenotype.dev/latest-findings/', 'https://glasgow.phenotype.dev' + page_url(number), 1)
             rendered = re.sub(r'<title>.*?</title>', f'<title>Latest findings, page {number} · Glasgow Surname Project</title>', rendered, count=1, flags=re.S)
         target = web / ('latest-findings/index.html' if number is None else f'latest-findings/page/{number}/index.html')

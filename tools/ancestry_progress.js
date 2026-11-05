@@ -143,9 +143,20 @@
   }
   if (typeof module !== 'undefined' && module.exports) module.exports = {parentBandShares, PARENT_BANDS, BANDS_IN_VIEW, priorityRows, namedFatherCoverage, dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
   if (typeof document === 'undefined') return;
-  const element = document.getElementById('ancestry-progress-data');
-  if (!element) return;
-  const data = JSON.parse(element.textContent), byId = id => document.getElementById(id);
+  // The dashboard's measures load from a data file, keeping the page itself small.
+  const host = document.getElementById('research-progress');
+  if (!host || !host.dataset.src) return;
+  fetch(host.dataset.src).then(response => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  }).then(start).catch(error => {
+    const grid = document.getElementById('kpi-grid');
+    if (grid) grid.insertAdjacentHTML('beforeend', `<p class="pd-count" role="alert">The progress measures could not be loaded (${String(error.message).replace(/[<>&]/g, '')}). <a href="/data/ancestry-connectivity.json">Read the dated measurements</a>.</p>`);
+  });
+  function start(data) {
+  const byId = id => document.getElementById(id);
+  // In-page links stay on this page despite the site's <base href>.
+  const here = location.pathname;
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const number = value => Number(value).toLocaleString('en-GB');
   const DAY = 86400000;
@@ -242,7 +253,7 @@
       tile({id:'rated', label:'Named fathers rated', value:coverage?.coverage_percent == null ? '–' : `${coverage.coverage_percent.toFixed(1)}%`,
         sub:coverage ? `${number(coverage.rated_count)} of ${number(coverage.named_count)} named fathers individually rated; ${number(coverage.unrated_count)} ungraded` : 'Coverage unavailable',
         note:'Current figure only; daily history of this measure is not recorded yet.'}),
-      `<article class="pd-kpi" id="kpi-today"><h3>Research changes today</h3><p class="pd-value">${number(todays.length)}</p><p class="pd-kpi-sub">${todays.length ? esc(byKind(todays)) : lastActive ? `None recorded on ${esc(shortDate(today))}; last on <a href="#day-${esc(lastActive)}" data-day="${esc(lastActive)}">${esc(shortDate(lastActive))}</a>` : 'No dated research changes yet'}</p><div class="pd-deltas"><span><span class="pd-delta neutral">${number(dayCount(addDays(today,-1)))}</span> <small>yesterday</small></span><span><span class="pd-delta neutral">${number(weekTotal)}</span> <small>in the last 7 days</small></span></div>${bars}</article>`,
+      `<article class="pd-kpi" id="kpi-today"><h3>Research changes today</h3><p class="pd-value">${number(todays.length)}</p><p class="pd-kpi-sub">${todays.length ? esc(byKind(todays)) : lastActive ? `None recorded on ${esc(shortDate(today))}; last on <a href="${here}#day-${esc(lastActive)}" data-day="${esc(lastActive)}">${esc(shortDate(lastActive))}</a>` : 'No dated research changes yet'}</p><div class="pd-deltas"><span><span class="pd-delta neutral">${number(dayCount(addDays(today,-1)))}</span> <small>yesterday</small></span><span><span class="pd-delta neutral">${number(weekTotal)}</span> <small>in the last 7 days</small></span></div>${bars}</article>`,
       ...bandTiles(rows, current),
       gradeTile(rows, current)
     ];
@@ -368,7 +379,7 @@
     const research = state.research, dates = Object.keys(research.rowsByDate).sort().reverse();
     byId('research-history-rows').innerHTML = dates.length ? dates.map(date => {
       const c = dayCounts(date), net = netByGrade(date), n = research.rowsByDate[date].length;
-      return `<tr id="day-${date}" class="${date === state.day ? 'is-selected' : ''}"><th scope="row"><a href="#day-${date}" data-day="${date}">${esc(shortDate(date))}</a><small>${esc(new Date(time(date)).toLocaleDateString('en-GB',{weekday:'short',timeZone:'UTC'}))}</small></th><td>${c.improved || ''}</td><td>${c.lowered || ''}</td><td>${c.new || ''}</td><td>${c.replaced || ''}</td>${GRADES.map(g => `<td>${signed(net[g])}</td>`).join('')}<td><button type="button" class="pd-link" data-day="${date}" aria-label="Show the ${n} findings of ${esc(longDate(date))}">${n} finding${n === 1 ? '' : 's'}</button></td></tr>`;
+      return `<tr id="day-${date}" class="${date === state.day ? 'is-selected' : ''}"><th scope="row"><a href="${here}#day-${date}" data-day="${date}">${esc(shortDate(date))}</a><small>${esc(new Date(time(date)).toLocaleDateString('en-GB',{weekday:'short',timeZone:'UTC'}))}</small></th><td>${c.improved || ''}</td><td>${c.lowered || ''}</td><td>${c.new || ''}</td><td>${c.replaced || ''}</td>${GRADES.map(g => `<td>${signed(net[g])}</td>`).join('')}<td><button type="button" class="pd-link" data-day="${date}" aria-label="Show the ${n} findings of ${esc(longDate(date))}">${n} finding${n === 1 ? '' : 's'}</button></td></tr>`;
     }).join('') : '<tr><td colspan="11">No dated research changes are recorded for this cohort.</td></tr>';
     const last = research.points.at(-1);
     byId('research-history-total').innerHTML = `<tr><th scope="row">All dates</th><td>${number(research.increases)}</td><td>${number(research.decreases)}</td><td>${number(research.newFathers)}</td><td>${number(research.replacements)}</td>${GRADES.map(g => `<td>${signed(last[g])}</td>`).join('')}<td></td></tr>`;
@@ -672,4 +683,5 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
   if (params.get('day')) selectDay(params.get('day'), false);
   window.addEventListener('hashchange', reveal);
   reveal();
+  }
 })();

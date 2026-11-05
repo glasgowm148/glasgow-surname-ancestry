@@ -21,7 +21,13 @@ from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
 
 WORK = ROOT / "research/ancestry-connections"
 WEB = ROOT / "www"
-ROUTE = "/onetree/progress/"
+# The dashboard is part of the Latest findings page (owner, 5 Nov 2026); its
+# former route redirects there with its settings and anchor.
+ROUTE = "/latest-findings/"
+ANCHOR = "research-progress"
+OLD_ROUTE = "/onetree/progress/"
+SECTIONS = "data/ancestry-progress-sections.json"
+DASHBOARD_DATA = "data/ancestry-progress-dashboard.json"
 # The cohort the dashboard opens on when the URL names none (owner, 5 Nov 2026).
 DEFAULT_CUTOFF = 1850
 # Confidence bands for each parent slot, strongest first. "unmarked" is a named
@@ -316,6 +322,30 @@ def compact(summary):
         "unattached_multi_child_roots": len(summary["unattached_multi_child_roots"]),
         "family_root_count": len(summary["family_roots"]),
     }
+
+
+def legacy_redirect():
+    """The former dashboard route, keeping its settings (through, links, parents) and anchor."""
+    target = ROUTE
+    return ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<title>Ancestry progress moved · Glasgow Surname Project</title><meta name="robots" content="noindex">'
+            f'<link rel="canonical" href="{target}"><meta http-equiv="refresh" content="0;url={target}#{ANCHOR}">'
+            f"<script>location.replace('{target}'+location.search+(location.hash||'#{ANCHOR}'))</script></head>"
+            f'<body><p>Ancestry research progress is now part of <a href="{target}#{ANCHOR}">Latest findings</a>.</p></body></html>\n')
+
+
+def atlas_link(html):
+    """The Whole tree toolbar links to the dashboard at its current home."""
+    link = f'<a href="{ROUTE}#{ANCHOR}">Ancestry progress</a>'
+    if link in html:
+        return html
+    updated, count = re.subn(r'<a href="/onetree/progress/[^"]*">Ancestry progress</a>', link, html)
+    if count:
+        return updated
+    updated = re.sub(r'(<div[^>]+class="v3-atlas-tools"[^>]*>)', lambda m: m[1] + link, html, count=1)
+    if updated == html:
+        raise ValueError("Whole tree toolbar was not found")
+    return updated
 
 
 def write_json(path, value):
@@ -618,8 +648,6 @@ def build(create_baseline=False):
     )
     write_json(WEB / "data/ancestry-connectivity.json", report)
     write_json(WEB / "data/ancestry-connectivity-baseline.json", baseline)
-    target = WEB / ROUTE.strip("/") / "index.html"
-    target.parent.mkdir(parents=True, exist_ok=True)
     assets = WEB / "assets/research"
     for extension in ["css", "js"]:
         (assets / ("ancestry-progress." + extension)).write_text(
@@ -711,7 +739,9 @@ def build(create_baseline=False):
         research_priorities=priorities,
         individual_findings=individual_findings,
     )
-    payload = json.dumps(client, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+    payload = json.dumps(client, ensure_ascii=False, separators=(",", ":"))
+    (WEB / DASHBOARD_DATA).write_text(payload + "\n")
+    data_version = hashlib.sha256(payload.encode()).hexdigest()[:10]
     options = "".join(
         f'<option value="{c}"' + (" selected" if str(c) == str(client["default_cutoff"]) else "") + f">Born through {c}</option>"
         for c in strategy["cutoffs"]
@@ -731,7 +761,7 @@ def build(create_baseline=False):
         return (f'<details class="pd-panel" id="{panel_id}"><summary><span class="pd-panel-title"><h2 id="{title_id}">{title}</h2>'
                 f'<span class="pd-panel-sum" id="{summary_id}">{summary}</span></span></summary><div class="pd-panel-body">{body}</div></details>')
 
-    panels = "".join([
+    panel_list = [
         panel('uncertain-connections', 'uncertain-connections-title', 'Which missing or uncertain fathers would help most?', 'sum-priorities',
               f'{priority_unknown:,} unknown fathers and {len(priorities) - priority_unknown:,} named links below confident, ranked by the size of the branch they would join.',
               f'<p class="pd-lede">People born through {strategy["primary_cutoff"]}. Each row is one missing or below-confident father; the gain columns show what upgrading that link alone would join. Gains overlap, so do not add them up.</p>'
@@ -790,9 +820,12 @@ def build(create_baseline=False):
         panel('method', 'method-title', 'Method and definitions', 'sum-method',
               'How each number is counted, what the grades mean, and what the measures do not claim.',
               method_html(strategy, report, quality, baseline)),
-    ])
-    main = f"""<main class="r-main ancestry-progress pd" id="main">
-<header class="r-page-head pd-head"><span class="r-kicker">Glasgow ancestry programme · updated {report["reviewed"]}</span><h1>Ancestry research progress</h1><p class="lead">How much of the Glasgow paternal family is joined up, and what the research changed each day.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a></p></header>
+    ]
+    # The large findings table sits below the latest-findings feed.
+    findings_panel = panel_list.pop(1)
+    panels = "".join(panel_list)
+    dashboard = f"""<section class="ancestry-progress pd" id="{ANCHOR}" aria-labelledby="research-progress-title" data-src="/{DASHBOARD_DATA}?v={data_version}">
+<div class="pd-head"><span class="r-kicker">Glasgow ancestry programme · updated {report["reviewed"]}</span><h2 id="research-progress-title">Research progress</h2><p class="lead">How much of the Glasgow paternal family is joined up, and what the research changed each day.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a><a href="#lf-feed-title">Latest findings below ↓</a></p></div>
 <div class="pd-bar" role="group" aria-label="Dashboard settings"><label>Cohort <select id="progress-cutoff" autocomplete="off">{options}</select></label><label>Links counted <select id="progress-view" autocomplete="off">{view_options}</select></label><span class="pd-bar-links"><a href="#progress-history">Daily changes</a><a href="#explore">Explore</a><a href="#method">Method</a></span></div>
 {reconciliation_note}
 <section class="pd-section" id="connectivity" aria-labelledby="connectivity-title"><div class="pd-section-head"><h2 id="connectivity-title">Key measures</h2><p id="kpi-scope" class="pd-sub"></p></div>
@@ -806,29 +839,25 @@ def build(create_baseline=False):
 <p id="research-history-exclusions" class="pd-count"></p><p id="research-catalogue-reconciliation" class="pd-count"></p></details>
 </section>
 <section class="pd-section" id="explore" aria-labelledby="explore-title"><div class="pd-section-head"><h2 id="explore-title" class="pd-sr">Explore further</h2></div>{panels}</section>
-<noscript><p>Enable JavaScript for the interactive dashboard, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript>
-<script type="application/json" id="ancestry-progress-data">{payload}</script></main>"""
-    page = shell_page((WEB / "about/index.html").read_text(), main, "Glasgow ancestry progress", ROUTE + "index.html")
-    page = page.replace(
-        "</head>", '<link rel="stylesheet" href="/assets/research/ancestry-progress.css?v=current"></head>'
-    )
-    page = page.replace(
-        "</body>", '<script defer src="/assets/research/ancestry-progress.js?v=current"></script></body>'
-    )
-    target.write_text(page)
-    stamp(target)
+<noscript><p>Enable JavaScript for the interactive dashboard, or <a href="/data/ancestry-connectivity.json">read the dated measurements</a>.</p></noscript></section>"""
+    findings = f'<section class="ancestry-progress pd pd-findings-section" aria-label="Individual father findings">{findings_panel}</section>'
+    # The page has <base href="../">: keep in-page anchors on this page.
+    local = lambda html: html.replace('href="#', f'href="{ROUTE}#')
+    css, js = (f'/assets/research/ancestry-progress.{ext}?v={content_hash(assets / ("ancestry-progress." + ext))}' for ext in ('css', 'js'))
+    write_json(WEB / SECTIONS, dict(dashboard=local(dashboard), findings=local(findings), css=css, js=js))
+    try:
+        from tools.build_latest_findings import apply_progress_sections
+    except ModuleNotFoundError:
+        from build_latest_findings import apply_progress_sections
+    apply_progress_sections(WEB)
+    old_target = WEB / OLD_ROUTE.strip("/") / "index.html"
+    old_target.parent.mkdir(parents=True, exist_ok=True)
+    old_target.write_text(legacy_redirect())
     # This is a durable, targeted integration into the existing Whole tree tools.
     atlas = WEB / "onetree/index.html"
     original = atlas.read_text()
-    if 'href="/onetree/progress/"' not in original:
-        updated = re.sub(
-            r'(<div[^>]+class="v3-atlas-tools"[^>]*>)',
-            r'\1<a href="/onetree/progress/">Ancestry progress</a>',
-            original,
-            count=1,
-        )
-        if updated == original:
-            raise ValueError("Whole tree toolbar was not found")
+    updated = atlas_link(original)
+    if updated != original:
         atlas.write_text(updated)
     print(
         json.dumps(
