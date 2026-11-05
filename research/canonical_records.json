@@ -165037,21 +165037,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/117790872",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "David Glasgow — father of David Alfred Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "David Glasgow — father of David Alfred Glasgow",
     "person": "David Glasgow",
-    "event_role": "father of David Alfred Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Cathedral, Manchester, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/117790872",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — David Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: David Glasgow, father of David Alfred Glasgow, record 9841/117790872",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "David Glasgow",
@@ -165059,19 +165059,37 @@
       "Spouse": "Agnes",
       "Child": "David Alfred Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: David Glasgow, parent of David Alfred Glasgow, other parent Agnes. father of David Alfred Glasgow David Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/117790872",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names David Glasgow as father of David Alfred Glasgow and gives the mother’s forename as Agnes. The adjacent baptism entry gives the same names and records the baptism on 12 August 1841 at Cathedral, Manchester, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-a41de75ea3dc": {
+        "role": "Child named in the companion parent index for the same baptism",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      },
+      "record-ancestry-glasgow-bd264e8990fa": {
+        "role": "Father named in the companion index for David Alfred Glasgow",
+        "assessment": "identity_hold",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/069-David_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/117790873",
+      "latest_event_year": 1841,
+      "reason": "The adjacent index entries name the same child and father and give the same mother’s forename. The baptism is dated 12 August 1841."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index entries for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/117790873",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — David Alfred Glasgow, 12 Aug 1841, Cathedral,Manchester,Lancashire,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "The adjacent index entries name the same child and father and give the same mother’s forename.",
+    "related_evidence_ids": [
+      "ancestry-9841-117790873"
+    ]
   },
   {
     "record_id": "ancestry-9841-117790873",
@@ -170270,21 +170288,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/138408795",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Thomas Glasgow — father of George Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Thomas Glasgow — father of George Glasgow",
     "person": "Thomas Glasgow",
-    "event_role": "father of George Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Bridge St. Chapel, Prim. Methodist Church, Bolton, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/138408795",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Thomas Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Thomas Glasgow, father of George Glasgow, record 9841/138408795",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Thomas Glasgow",
@@ -170292,19 +170310,37 @@
       "Spouse": "Hannah",
       "Child": "George Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Thomas Glasgow, parent of George Glasgow, other parent Hannah. father of George Glasgow Thomas Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/138408795",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Thomas Glasgow as father of George Glasgow and gives the mother’s forename as Hannah. The adjacent baptism entry gives the same names and records the baptism on 27 September 1891 at Bridge St. Chapel, Prim. Methodist Church, Bolton, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-anc-george-a-glasgow-1891-74537": {
+        "role": "Child named in the companion parent index for the same baptism",
+        "assessment": "possible",
+        "timeline_group": "Birth and death"
+      },
+      "record-ancestry-glasgow-04bb07ec7bfe": {
+        "role": "Father named in the companion index for George Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/173-Thomas_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/138408794",
+      "latest_event_year": 1891,
+      "reason": "The adjacent index entries name the same child and father and give the same mother’s forename. The baptism is dated 27 September 1891."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index entries for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/138408794",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — George Glasgow, 27 Sep 1891, Bridge St. Chapel, Prim. Methodist Church, Bolton, Lancashire, England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "The adjacent index entries name the same child and father and give the same mother’s forename.",
+    "related_evidence_ids": [
+      "ancestry-9841-138408794"
+    ]
   },
   {
     "record_id": "ancestry-9841-138888527",
@@ -171914,21 +171950,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/144799714",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "David Glasgow — father of Walter Hunter Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "David Glasgow — father of Walter Hunter Glasgow",
     "person": "David Glasgow",
-    "event_role": "father of Walter Hunter Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Cathedral, Manchester, Lancashire, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/144799714",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — David Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: David Glasgow, father of Walter Hunter Glasgow, record 9841/144799714",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "David Glasgow",
@@ -171936,19 +171972,37 @@
       "Spouse": "Jane",
       "Child": "Walter Hunter Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: David Glasgow, parent of Walter Hunter Glasgow, other parent Jane. father of Walter Hunter Glasgow David Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/144799714",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names David Glasgow as father of Walter Hunter Glasgow and gives the mother’s forename as Jane. The adjacent baptism entry gives the same names and records the baptism on 23 January 1852 at Cathedral, Manchester, Lancashire, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-75df1d161125": {
+        "role": "Child named in the companion parent index for the same baptism",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      },
+      "record-ancestry-glasgow-a30c69e04457": {
+        "role": "Father named in the companion index for Walter Hunter Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/206-David_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/144799713",
+      "latest_event_year": 1852,
+      "reason": "The adjacent index entries name the same child and father and give the same mother’s forename. The baptism is dated 23 January 1852."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index entries for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/144799713",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Walter Hunter Glasgow, 23 Jan 1852, Cathedral,Manchester,Lancashire,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "The adjacent index entries name the same child and father and give the same mother’s forename.",
+    "related_evidence_ids": [
+      "ancestry-9841-144799713"
+    ]
   },
   {
     "record_id": "ancestry-9841-145077996",
@@ -172681,21 +172735,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/148573463",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Samuel Glasgow — father of Sarah Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Samuel Glasgow — father of Sarah Glasgow",
     "person": "Samuel Glasgow",
-    "event_role": "father of Sarah Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Saint Benet Pauls Wharf, London, London, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/148573463",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Samuel Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Samuel Glasgow, father of Sarah Glasgow, record 9841/148573463",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Samuel Glasgow",
@@ -172703,19 +172757,37 @@
       "Spouse": "Sarah",
       "Child": "Sarah Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Samuel Glasgow, parent of Sarah Glasgow, other parent Sarah. father of Sarah Glasgow Samuel Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/148573463",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Samuel Glasgow as father of Sarah Glasgow and gives the mother’s forename as Sarah. The adjacent baptism entry gives the same names and records the baptism on 1 March 1779 at Saint Benet Pauls Wharf, London, London, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-54fbfcf9a342": {
+        "role": "Child named in the companion parent index for the same baptism",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      },
+      "record-ancestry-glasgow-d54b26479243": {
+        "role": "Father named in the companion index for Sarah Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/222-Samuel_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/148573462",
+      "latest_event_year": 1779,
+      "reason": "The adjacent index entries name the same child and father and give the same mother’s forename. The baptism is dated 1 March 1779."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index entries for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/148573462",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Sarah Glasgow, 1 Mar 1779, Saint Benet Pauls Wharf,London,London,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "The adjacent index entries name the same child and father and give the same mother’s forename.",
+    "related_evidence_ids": [
+      "ancestry-9841-148573462"
+    ]
   },
   {
     "record_id": "ancestry-9841-148732550",
@@ -174092,21 +174164,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/159558064",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Samuel Glasgow — father of Henry Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Samuel Glasgow — father of Henry Glasgow",
     "person": "Samuel Glasgow",
-    "event_role": "father of Henry Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Saint Benet Pauls Wharf, London, London, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/159558064",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Samuel Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Samuel Glasgow, father of Henry Glasgow, record 9841/159558064",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Samuel Glasgow",
@@ -174114,19 +174186,37 @@
       "Spouse": "Sarah",
       "Child": "Henry Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Samuel Glasgow, parent of Henry Glasgow, other parent Sarah. father of Henry Glasgow Samuel Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/159558064",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Samuel Glasgow as father of Henry Glasgow and gives the mother’s forename as Sarah. The adjacent baptism entry gives the same names and records the baptism on 10 August 1783 at Saint Benet Pauls Wharf, London, London, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-922b7fd43152": {
+        "role": "Child named in the companion parent index for the same baptism",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      },
+      "record-ancestry-glasgow-d54b26479243": {
+        "role": "Father named in the companion index for Henry Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/251-Samuel_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/159558065",
+      "latest_event_year": 1783,
+      "reason": "The adjacent index entries name the same child and father and give the same mother’s forename. The baptism is dated 10 August 1783."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index entries for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/159558065",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Henry Glasgow, 10 Aug 1783, Saint Benet Pauls Wharf,London,London,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "The adjacent index entries name the same child and father and give the same mother’s forename.",
+    "related_evidence_ids": [
+      "ancestry-9841-159558065"
+    ]
   },
   {
     "record_id": "ancestry-9841-159558065",
@@ -176338,21 +176428,21 @@
     "provider": "Ancestry",
     "provider_record_id": "9841/169321942",
     "collection": "England, Select Births and Christenings, 1538-1975",
-    "association": "Samuel Glasgow — father of Ann Glasgow; England, Select Births and Christenings, 1538-1975",
+    "association": "Samuel Glasgow — father of Ann Glasgow",
     "person": "Samuel Glasgow",
-    "event_role": "father of Ann Glasgow",
-    "date": "",
+    "event_role": "indexed father",
+    "date": "Undated",
     "year": null,
-    "place": "",
+    "place": "Saint Benet Pauls Wharf, London, London, England",
     "country": "England",
     "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/169321942",
-    "source_title": "England, Select Births and Christenings, 1538-1975 — Samuel Glasgow",
+    "source_title": "Ancestry, England, Select Births and Christenings: Samuel Glasgow, father of Ann Glasgow, record 9841/169321942",
     "source_type": "Provider index transcript",
     "record_type": "Baptism index (parent entry)",
     "record_category": "Baptism",
-    "status": "Provider index transcript; unassigned Glasgow-surname record",
+    "status": "Parent index matched to dated child entry",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+    "source_status": "Ancestry parent index with dated companion",
     "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Samuel Glasgow",
@@ -176360,19 +176450,37 @@
       "Spouse": "Sarah",
       "Child": "Ann Glasgow"
     },
-    "note": "Ancestry England, Select Births and Christenings, 1538-1975 parent entry: Samuel Glasgow, parent of Ann Glasgow, other parent Sarah. father of Ann Glasgow Samuel Glasgow: no birth bound more than 120 years ago and no compatible catalogue person; no catalogue draft is created (privacy threshold).",
-    "profiles": {},
-    "historical_basis": {
-      "latest_birth_year": null,
-      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/169321942",
-      "basis": "Parent entry; see the linked baptism.",
-      "explanation": "Parent entry; see the linked baptism"
+    "note": "The parent index names Samuel Glasgow as father of Ann Glasgow and gives the mother’s forename as Sarah. The adjacent baptism entry gives the same names and records the baptism on 19 November 1780 at Saint Benet Pauls Wharf, London, London, England. The parent index gives no date.",
+    "profiles": {
+      "record-ancestry-glasgow-ba541d59660f": {
+        "role": "Child named in the companion parent index for the same baptism",
+        "assessment": "documentary",
+        "timeline_group": "Birth and death"
+      },
+      "record-ancestry-glasgow-d54b26479243": {
+        "role": "Father named in the companion index for Ann Glasgow",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
     },
-    "provenance": "private Ancestry capture glasgow-records/england-select-births-and-christenings-1538-1975-9841/297-Samuel_Glasgow-nd.txt",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/169321940",
+      "latest_event_year": 1780,
+      "reason": "The adjacent index entries name the same child and father and give the same mother’s forename. The baptism is dated 19 November 1780."
+    },
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975; companion index entries for the same parish record.",
     "reviewed_on": "2026-11-05",
-    "publish_to_record_index": false,
+    "publish_to_record_index": true,
     "reference": "Original data: England, Births and Christenings, 1538-1975 (FamilySearch index of parish registers)",
-    "record_publication_scope": "Held out of the public record index: no death is recorded and the index gives no birth more than 120 years ago."
+    "date_status": "undated",
+    "supporting_source_url": "https://www.ancestry.co.uk/search/collections/9841/records/169321940",
+    "supporting_source_title": "England, Select Births and Christenings, 1538-1975 — Ann Glasgow, 19 Nov 1780, Saint Benet Pauls Wharf,London,London,England",
+    "supporting_source_status": "same event indexed separately",
+    "supporting_source_quality": "provider_derivative",
+    "supporting_source_reason": "The adjacent index entries name the same child and father and give the same mother’s forename.",
+    "related_evidence_ids": [
+      "ancestry-9841-169321940"
+    ]
   },
   {
     "record_id": "ancestry-9841-170383333",
