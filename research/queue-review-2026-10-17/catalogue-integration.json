@@ -407900,6 +407900,71 @@
           "note": "Ancestry India, Select Births and Baptisms, 1786-1947 transcript for George Thomas James Dennis Glasgow: born 06 Sep 1840, baptised 08 Oct 1842 at Bengal, India; father William Glasgow. Index transcript only; original register uninspected."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-william-delhi-groom-1849",
+      "subject_id": "ancestry-glasgow-william-delhi-groom-1849",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Male",
+      "birth": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9901/records/401354",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/delhi-william-glasgow-1849-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow married Sophia Hannah Taylor on 31 May 1849 at Delhi. Both index entries refer to the same marriage. One names William Glasgow as the groom’s father.<ref>[https://www.ancestry.co.uk/search/collections/9901/records/401354 Ancestry, India, Select Marriages, 1792–1948: William Glasgow and Sophia Hannah Taylor, 31 May 1849, record 9901/401354].</ref><ref>[https://www.ancestry.co.uk/search/collections/9901/records/450377 Ancestry, India, Select Marriages, 1792–1948: William Glasgow and Sophia Hannah Taylor, 31 May 1849, record 9901/450377].</ref>\n\n== Research Notes ==\nThe 1853 Barrackpore baptism names William Glasgow and Sophia Hannah as the parents of William Henry Frederick Glasgow. Their names agree with the couple in the 1849 marriage. The William born at Barrackpore in 1825 is a possible match for this groom: his age fits and his father was also William. Neither index directly identifies the two as the same man.\n[https://www.ancestry.co.uk/search/collections/9899/records/615954 Baptism, 1853]; [https://www.ancestry.co.uk/search/collections/9899/records/1271490 Birth and baptism, 1825–26].\n\n== Sources ==\n<references />\n",
+      "assessment": "Documentary groom; childhood identity unresolved.",
+      "current_conclusion": "The 1853 Barrackpore baptism names William Glasgow and Sophia Hannah as the parents of William Henry Frederick Glasgow. Their names agree with the couple in the 1849 marriage. The William born at Barrackpore in 1825 is a possible match for this groom: his age fits and his father was also William. Neither index directly identifies the two as the same man.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, India, Select Marriages, 1792–1948: William Glasgow and Sophia Hannah Taylor, 31 May 1849, record 9901/401354",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9901/records/401354",
+          "source_type": "Provider index transcript",
+          "date": "31 May 1849",
+          "year": 1849,
+          "place": "Dehli, Bengal, India",
+          "indexed_facts": {
+            "Name": "William Glasgow",
+            "Gender": "Male",
+            "Marriage Date": "31 May 1849",
+            "Marriage Place": "Dehli, Bengal, India",
+            "Father": "William Glasgow",
+            "Spouse": "Sophia Hannah Taylor",
+            "FHL Film Number": "498987"
+          },
+          "note": "The index names William Glasgow and Sophia Hannah Taylor, married at Dehli on 31 May 1849. It names William Glasgow as the groom’s father."
+        },
+        {
+          "source_title": "Ancestry, India, Select Marriages, 1792–1948: William Glasgow and Sophia Hannah Taylor, 31 May 1849, record 9901/450377",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9901/records/450377",
+          "source_type": "Provider index transcript",
+          "date": "31 May 1849",
+          "year": 1849,
+          "place": "Dehli, West Bengal, India",
+          "indexed_facts": {
+            "Name": "William Glasgow",
+            "Gender": "Male",
+            "Marriage Date": "31 May 1849",
+            "Marriage Place": "Dehli, West Bengal, India",
+            "Spouse": "Sophia Hannah Taylor",
+            "FHL Film Number": "498987"
+          },
+          "note": "The index names William Glasgow and Sophia Hannah Taylor, married at Dehli on 31 May 1849. The companion entry also names the groom’s father."
+        }
+      ]
     }
   ]
 }
