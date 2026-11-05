@@ -57,6 +57,78 @@
       ],
       "basis": "Explicit year beside the Robert J. Elder household in Gortahar.",
       "title_sha256": "fd70d5b64948d45dd46e3e1fd5024a637704901822ff403cbfae3102c6957150"
+    },
+    {
+      "id": "s-5667c90efab71aa4",
+      "years": [
+        1831
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "basis": "Explicit 1831 census of County Londonderry in the citation title.",
+      "title_sha256": "874e510780fff6275964482d2baf5af801dcd49afcae1b375268ddbed8f45803",
+      "identified": {
+        "record_id": "nai-1831-londonderry-lissan-coltrim-house-2",
+        "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#census_year=1831&id=164161",
+        "label": "1831 census, Coltrim house 2, Lissan: Robt Glasgow, 11 Presbyterians (6 males, 5 females)",
+        "profiles": {
+          "Glasgow-3941": {
+            "name": "Robert Glasgow",
+            "role": "Head of household, Coltrim 1831 (identified by name, townland, parish and year)"
+          }
+        },
+        "basis": "The citation's 1831 census entry is the NAI index record for Robt Glasgow, Coltrim house 2, Lissane, read 5 November 2026. The household head is Robert of Coltrim (Glasgow-3941), the 1820 Drapers' lessee and 1827 tithe occupier there. The citation stays on the Unknown Glasgow (Glasgow-3905) profile only as comparison evidence; no kinship to Adam of Inishrush is shown.",
+        "reviewed": "2026-11-05"
+      }
+    },
+    {
+      "id": "s-5bc7c2c4e5a7eea3",
+      "years": [
+        1831
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "basis": "Explicit 1831 census of County Londonderry in the citation title (a second copy of the Rynne/Hogg citation).",
+      "title_sha256": "874e510780fff6275964482d2baf5af801dcd49afcae1b375268ddbed8f45803",
+      "identified": {
+        "record_id": "nai-1831-londonderry-lissan-coltrim-house-2",
+        "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#census_year=1831&id=164161",
+        "label": "1831 census, Coltrim house 2, Lissan: Robt Glasgow, 11 Presbyterians (6 males, 5 females)",
+        "profiles": {
+          "Glasgow-3941": {
+            "name": "Robert Glasgow",
+            "role": "Head of household, Coltrim 1831 (identified by name, townland, parish and year)"
+          }
+        },
+        "basis": "The citation's 1831 census entry is the NAI index record for Robt Glasgow, Coltrim house 2, Lissane, read 5 November 2026. The household head is Robert of Coltrim (Glasgow-3941), the 1820 Drapers' lessee and 1827 tithe occupier there. The citation stays on the Unknown Glasgow (Glasgow-3905) profile only as comparison evidence; no kinship to Adam of Inishrush is shown.",
+        "reviewed": "2026-11-05"
+      }
+    },
+    {
+      "id": "s-bf50d72e4ffabd19",
+      "years": [
+        1831
+      ],
+      "countries": [
+        "Ireland"
+      ],
+      "basis": "Explicit 1831 census, Coltrim house 2, in the citation title and the former NAI page URL.",
+      "title_sha256": "4223ae27c3c2577a43557ac1325120a7953283ada189726566ae1504dc904e0a",
+      "identified": {
+        "record_id": "nai-1831-londonderry-lissan-coltrim-house-2",
+        "source_url": "https://nationalarchives.ie/collections/search-the-census/census-record/#census_year=1831&id=164161",
+        "label": "1831 census, Coltrim house 2, Lissan: Robt Glasgow, 11 Presbyterians (6 males, 5 females)",
+        "profiles": {
+          "Glasgow-3941": {
+            "name": "Robert Glasgow",
+            "role": "Head of household, Coltrim 1831 (identified by name, townland, parish and year)"
+          }
+        },
+        "basis": "This citation points at the former census.nationalarchives.ie page for Coltrim house 2, which no longer loads. The same entry is NAI index record 164161 on the current census site, read 5 November 2026: Robt Glasgow, one family of six males and five females, eleven Presbyterians.",
+        "reviewed": "2026-11-05"
+      }
     }
   ]
 }

@@ -19,6 +19,7 @@ from pathlib import Path
 import csv
 import json
 import re
+from urllib.parse import urlencode
 
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'www'
@@ -221,7 +222,9 @@ def source_collections(records, *, collection_exists) -> list[dict]:
     rows = []
     for (folder, country, region), count in counts.items():
         if collection_exists(folder, country):
-            rows.append({'url': f'/sources/{folder}/{country}/', 'label': f'{COLLECTION_LABELS[folder]}: {region}', 'records': count})
+            # The complete source list, filtered; /sources/<type>/<country>/ now redirects there.
+            query = urlencode({'cat': folder, 'country': region})
+            rows.append({'url': f'/sources/?{query}#source-list', 'label': f'{COLLECTION_LABELS[folder]}: {region}', 'records': count})
     return sorted(rows, key=lambda row: (-row['records'], row['label']))
 
 

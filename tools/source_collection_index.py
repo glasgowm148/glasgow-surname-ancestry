@@ -61,6 +61,22 @@ def _classification_text(doc: dict) -> str:
     return " ".join(bits)
 
 
+def _has_text(value: object) -> bool:
+    """A transcription is present only when it holds text; "[]" is the empty placeholder."""
+    if isinstance(value, str):
+        value = value.strip()
+        if value.startswith('['):
+            try:
+                value = json.loads(value)
+            except ValueError:
+                return bool(value)
+        else:
+            return bool(value)
+    if isinstance(value, list):
+        return any(_has_text(v) if not isinstance(v, dict) else any(_has_text(x) for x in v.values() if isinstance(x, str)) for v in value)
+    return bool(value)
+
+
 def _safe_url(value: object) -> str | None:
     url = str(value or "")
     parsed = urlparse(url)
@@ -270,16 +286,25 @@ def build_index(web: Path, *, source_ids: set[str] | None = None) -> list[dict]:
             for entry in entries if isinstance(entries, list) else []:
                 if isinstance(entry, dict) and entry.get("person") and entry.get("name"):
                     people[str(entry["person"]).lower()] = str(entry["name"])
+        identified = (overrides.get(row['id']) or {}).get('identified') if not reviewed_undated else None
+        members = list(row.get("members") or [])
+        if identified:
+            for ident, info in (identified.get('profiles') or {}).items():
+                if ident.lower() not in [m.lower() for m in members]:
+                    members.append(ident.lower())
+                people.setdefault(ident.lower(), str((info or {}).get('name') or ident))
         result.append({
             "id": row["id"], "title": row.get("title") or doc.get("title") or "",
             "categories": categories, "year": year, "year_basis": year_basis,
             "years": census_years or recorded_years or ([year] if year else []),
-            "countries": countries, "places": places, "members": row.get("members") or [],
-            "people": [{"id": ident, "name": people.get(ident.lower(), ident)} for ident in row.get("members") or []],
+            "countries": countries, "places": places, "members": members,
+            "people": [{"id": ident, "name": people.get(ident.lower(), ident)} for ident in members],
             "records": row.get("records") or 0, "citations": row.get("citations") or 0,
             "image": bool(row.get("image") or doc.get("image")),
-            "transcription": bool(row.get("transcription") or doc.get("transcription")),
+            # The source-index flag counts the "[]" placeholder; read the document itself.
+            "transcription": _has_text(doc.get("transcription")) or bool((doc.get("annotations") or {}).get("lines")),
             "original_url": original_url,
             "original_kind": "profile" if profile else ("record or provider" if original_url else "none"),
+            **({"identified": identified} if identified else {}),
         })
     return result

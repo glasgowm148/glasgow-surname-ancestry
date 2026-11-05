@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 import re
 import shutil
-from urllib.parse import urlparse, unquote
+from urllib.parse import urlparse, unquote, quote
 
 try:
     from tools.source_collection_index import build_index
@@ -175,6 +175,16 @@ def browser(rows, category, country='', year='', period='', prefix='', static_in
 
 
 def guide(config, category, country='', year=None):
+    sections = guide_sections(config, category, country, year)
+    if not sections:
+        sections.append('<p>Availability depends on the particular repository, locality, date range and record series. We have not established complete coverage for this collection. Follow each provider link for its holdings and access terms; a missing result is not proof of absence.</p>')
+    return '<section class="sc-coverage"><h2>Coverage, survival & limitations</h2>' + ''.join(sections) + READING_NOTE + '</section>'
+
+
+READING_NOTE = '<p><strong>Reading the evidence:</strong> an index, transcript, provider search page and original image are different sources. A recorded image link does not mean its reading or identity match is confirmed. Inspect the assessment and source page before changing a family relationship. Repository guides checked 4 October 2026.</p>'
+
+
+def guide_keys(category, country='', year=None):
     keys = []
     if category == 'census' and country == 'Ireland':
         if year in (1821, 1831, 1841, 1851) or year is None: keys.append('census/ireland/1821-1851')
@@ -190,15 +200,24 @@ def guide(config, category, country='', year=None):
         if country == 'England': keys.append('civil/england-wales/bmd')
     if category == 'wills-probate' and country == 'Ireland': keys.append('probate/ireland/1858-1922')
     if category == 'land-tax' and country == 'Ireland': keys.extend(['land/ireland/tithe-1823-1837', 'land/ireland/griffiths-1847-1864'])
+    return keys
+
+
+CENSUS_1851_NOTE = '<p class="sc-callout"><strong>1851 survives in fragments.</strong> Antrim, one Belfast ward and parts of Fermanagh retain material; Dublin city has a heads-of-household index. These are not complete county or national returns. Some returns record people absent and deaths since 1841, making the original page particularly useful for family research.</p>'
+
+
+def guide_section(config, key):
+    g = config['collections'][key]
+    return f'<section class="sc-guide"><h3>{e(g["title"])}</h3>' + ''.join(f'<p>{e(p)}</p>' for p in g['paragraphs']) + links(g['links']) + '</section>'
+
+
+def guide_sections(config, category, country='', year=None):
     sections = []
     if category == 'census' and country == 'Ireland' and year == 1851:
-        sections.append('<p class="sc-callout"><strong>1851 survives in fragments.</strong> Antrim, one Belfast ward and parts of Fermanagh retain material; Dublin city has a heads-of-household index. These are not complete county or national returns. Some returns record people absent and deaths since 1841, making the original page particularly useful for family research.</p>')
-    for key in keys:
-        g = config['collections'][key]
-        sections.append(f'<section class="sc-guide"><h3>{e(g["title"])}</h3>' + ''.join(f'<p>{e(p)}</p>' for p in g['paragraphs']) + links(g['links']) + '</section>')
-    if not sections:
-        sections.append('<p>Availability depends on the particular repository, locality, date range and record series. We have not established complete coverage for this collection. Follow each provider link for its holdings and access terms; a missing result is not proof of absence.</p>')
-    return '<section class="sc-coverage"><h2>Coverage, survival & limitations</h2>' + ''.join(sections) + '<p><strong>Reading the evidence:</strong> an index, transcript, provider search page and original image are different sources. A recorded image link does not mean its reading or identity match is confirmed. Inspect the assessment and source page before changing a family relationship. Repository guides checked 4 October 2026.</p></section>'
+        sections.append(CENSUS_1851_NOTE)
+    for key in guide_keys(category, country, year):
+        sections.append(guide_section(config, key))
+    return sections
 
 
 def profile_links(row, web, compact=False):
@@ -569,12 +588,14 @@ def move_branch_tables(web, data, sections):
     for kind in ('births', 'marriages', 'deaths'):
         name = f'opr-{kind}-to-1700'
         pattern = rf'<!-- {name}:start -->.*?<!-- {name}:end -->'
-        target = f'/sources/{kind}/scotland/opr-to-1700/'
-        ids = re.findall(r'\bid="([^"]+)"', sections[f'{kind}/scotland/opr-to-1700'])
-        aliases = ''.join(f'<span id="{e(ident, quote=True)}" data-source-target="{target}#{e(ident, quote=True)}"></span>' for ident in ids if ident != name)
+        route = f'{kind}/scotland/opr-to-1700'
+        target = master_query(coll=route)
+        ids = re.findall(r'\bid="([^"]+)"', sections[route])
+        row_target = lambda ident: master_query(coll=route, id='c-' + slug(route) + '-' + ident)
+        aliases = ''.join(f'<span id="{e(ident, quote=True)}" data-source-target="{e(row_target(ident), quote=True)}"></span>' for ident in ids if ident != name)
         metadata = json.loads((ROOT / f'surname-research/indexes/scotlandspeople-opr-{kind}-to-1700.json').read_text())
         conclusion = '<p>' + e(metadata.get('conclusion','')) + '</p>'
-        replacement = f'<!-- {name}:start --><section id="{name}"><h2>Scottish parish {kind} through 1700</h2>{conclusion}<p>The reviewed index, profile assessments, source links and record limitations are now in <a href="{target}">Sources: {TYPES[kind][0]}</a>. These index entries remain subject to original-register and identity checks.</p>{aliases}</section><!-- {name}:end -->'
+        replacement = f'<!-- {name}:start --><section id="{name}"><h2>Scottish parish {kind} through 1700</h2>{conclusion}<p>The reviewed index, profile assessments, source links and record limitations are now in <a href="{e(target, quote=True)}">the source list: {e(SPECIAL_COLLECTIONS[route][0])}</a>. These index entries remain subject to original-register and identity checks.</p>{aliases}</section><!-- {name}:end -->'
         text = re.sub(pattern, lambda _: replacement, text, flags=re.S)
     counts = Counter(r['status'] for r in data['rows'])
     aliases = ''.join(f'<span id="newspaper-{e(str(r["image_id"]))}" data-source-target="/sources/newspapers/#newspaper-{e(str(r["image_id"]))}"></span>' for r in data['rows'])
@@ -585,14 +606,14 @@ def move_branch_tables(web, data, sections):
     write(branch, text)
     branch = web / 'branches/early-ireland/index.html'
     text = branch.read_text()
-    for name, title, target, start, end in [('groni-death-matches', 'Northern Ireland Glasgow death entries', '/sources/deaths/ireland/groni-matches/', 'BEGIN GRONI-DEATH-MATCH', 'END GRONI-DEATH-MATCH'), ('irish-civil-death-index', 'Irish civil deaths, 1864–1900', '/sources/deaths/ireland/civil-1864-1900/', 'BEGIN IRISH-CIVIL-DEATH-INDEX', 'END IRISH-CIVIL-DEATH-INDEX')]:
+    for name, title, target, start, end in [('groni-death-matches', 'Northern Ireland Glasgow death entries', master_query(coll='deaths/ireland/groni-matches'), 'BEGIN GRONI-DEATH-MATCH', 'END GRONI-DEATH-MATCH'), ('irish-civil-death-index', 'Irish civil deaths, 1864–1900', master_query(coll='deaths/ireland/civil-1864-1900'), 'BEGIN IRISH-CIVIL-DEATH-INDEX', 'END IRISH-CIVIL-DEATH-INDEX')]:
         conclusions = ''
         if name == 'groni-death-matches':
             # Keep the family's substantive connections and competing identities
             # visible here; only the source tables and lookup tools move.
             section = sections.get('deaths/ireland/groni-matches','').split('<h3>')[0]
             conclusions = ''.join(p for p in re.findall(r'<p\b[^>]*>.*?</p>', section, re.S) if 'download' not in p.lower())
-        replacement = f'<!-- {start} --><section id="{name}"><h2>{title}</h2>{conclusions}<p>The collected entries, match review, outstanding questions and original-provider links are in <a href="{target}">Sources: {title}</a>. Index references and proposed identities are separately qualified there.</p></section><!-- {end} -->'
+        replacement = f'<!-- {start} --><section id="{name}"><h2>{title}</h2>{conclusions}<p>The collected entries, match review, outstanding questions and original-provider links are in <a href="{e(target, quote=True)}">the source list: {title}</a>. Index references and proposed identities are separately qualified there.</p></section><!-- {end} -->'
         text, replaced = re.subn(re.escape('<!-- ' + start + ' -->') + r'.*?' + re.escape('<!-- ' + end + ' -->'), lambda _: replacement, text, flags=re.S)
         # A full catalogue rebuild can replace the regional page entirely.
         # Restore the reviewed introduction even when its old marker is gone.
@@ -603,24 +624,181 @@ def move_branch_tables(web, data, sections):
     write(branch, text)
 
 
-def publish_collection_redirects(web, template, redirects):
-    """Keep reviewed former collection URLs after their records move category."""
+REDIRECT_ROUTE = re.compile(r'/sources/[a-z0-9/-]+/')
+REDIRECT_DESTINATION = re.compile(r'/sources/(?:[a-z0-9/-]+/)?(?:\?[A-Za-z0-9%=&._~+/-]*)?(?:#[a-z0-9-]+)?')
+
+
+def publish_collection_redirects(web, template, redirects, id_prefixes=None):
+    """Keep former collection URLs working as redirects to their replacement.
+
+    A destination may carry master-list filters in its query string. A former
+    in-page anchor (#row-id) on a reviewed collection table is carried over as
+    the master list's ``id`` filter when ``id_prefixes`` names that route.
+    """
     pages = []
+    id_prefixes = id_prefixes or {}
     for old, destination in redirects.items():
-        if not all(re.fullmatch(r'/sources/[a-z0-9/-]+/', value) for value in (old, destination)) or old == destination:
+        if not REDIRECT_ROUTE.fullmatch(old) or not REDIRECT_DESTINATION.fullmatch(destination) or old == destination.split('#')[0]:
             raise ValueError('Collection redirects require distinct local source routes')
-        if not (web / destination.lstrip('/') / 'index.html').is_file():
+        path = destination.split('#')[0].split('?')[0]
+        if not (web / path.lstrip('/') / 'index.html').is_file():
             raise ValueError(f'Missing collection redirect destination: {destination}')
+        moved = '?' in destination
         body = ('<main id="main" class="r-main sc-main"><h1>Source collection moved</h1>'
-                '<p>These references are now grouped under their reviewed record type.</p>'
-                f'<p><a href="{e(destination, quote=True)}">Continue to the source collection</a></p></main>')
+                + ('<p>These references are now part of the complete source list, filtered to this collection.</p>' if moved else
+                   '<p>These references are now grouped under their reviewed record type.</p>')
+                + f'<p><a href="{e(destination, quote=True)}">Continue to the source collection</a></p></main>')
         out = re.sub(r'<main\b[\s\S]*?</main>', lambda _: body, template, count=1, flags=re.I)
         out = re.sub(r'<title>.*?</title>', '<title>Source collection moved · Glasgow Surname Project</title>', out, count=1, flags=re.S)
         out = re.sub(r'<link\b[^>]*rel=["\']canonical["\'][^>]*>', '', out, flags=re.I)
-        out = out.replace('</head>', f'<link rel="canonical" href="https://glasgow.phenotype.dev{destination}"><meta http-equiv="refresh" content="0;url={e(destination, quote=True)}"></head>', 1)
+        prefix = id_prefixes.get(old)
+        base, _, fragment = destination.partition('#')
+        # A former in-page anchor is kept on the destination.
+        follow = (f'<script>(()=>{{if(location.protocol!=="file:"&&location.hash)'
+                  f'location.replace({json.dumps(base)}+location.hash)}})();</script>') if '?' in destination else ''
+        if prefix:
+            # Old row anchors open that row in the master list.
+            follow = (f'<script>(()=>{{if(location.protocol==="file:")return;const h=location.hash.slice(1);'
+                      f'location.replace({json.dumps(base)}+(h&&/^[\\w-]+$/.test(h)?"&id="+{json.dumps(prefix)}+h:"")+{json.dumps("#" + fragment if fragment else "")})}})();</script>')
+        out = out.replace('</head>', f'<link rel="canonical" href="https://glasgow.phenotype.dev{e(path, quote=True)}"><meta name="robots" content="noindex">{follow}<meta http-equiv="refresh" content="0;url={e(destination, quote=True)}"></head>', 1)
         write(web / old.lstrip('/') / 'index.html', out)
         pages.append(old)
     return pages
+
+
+SPECIAL_COLLECTIONS = {
+    # route: (title, category, country, provider, provider URL)
+    'births/scotland/opr-to-1700': ('Scottish parish births & baptisms through 1700', 'births', 'Scotland', 'ScotlandsPeople', 'https://www.scotlandspeople.gov.uk/'),
+    'marriages/scotland/opr-to-1700': ('Scottish parish banns & marriages through 1700', 'marriages', 'Scotland', 'ScotlandsPeople', 'https://www.scotlandspeople.gov.uk/'),
+    'deaths/scotland/opr-to-1700': ('Scottish parish deaths & burials through 1700', 'deaths', 'Scotland', 'ScotlandsPeople', 'https://www.scotlandspeople.gov.uk/'),
+    'deaths/ireland/civil-1864-1900': ('Irish civil deaths, 1864–1900', 'deaths', 'Ireland', 'IrishGenealogy.ie', 'https://civilrecords.irishgenealogy.ie/churchrecords/civil-search.jsp'),
+    'deaths/ireland/groni-matches': ('Northern Ireland death match review (GRONI)', 'deaths', 'Ireland', 'GRONI', 'https://geni.nidirect.gov.uk/search/death'),
+}
+ADJECTIVE = {'Ireland': 'Irish', 'Scotland': 'Scottish', 'England': 'England', 'United States': 'United States'}
+CENSUS_HEADINGS = {('Ireland', 1740): '1740 Irish Protestant householders', ('Ireland', 1766): '1766 Irish religious census',
+                   ('Canada', 1793): '1793 Nova Scotia poll-tax returns', ('England', 1939): '1939 England & Wales Register'}
+
+
+def census_heading(country, year):
+    return CENSUS_HEADINGS.get((country, year), f'{year} {ADJECTIVE.get(country, country)} Census')
+
+
+def master_query(**filters):
+    """A link to the master list with the given filters (the redirect target of a former subpage)."""
+    from urllib.parse import urlencode
+    query = urlencode({k: v for k, v in filters.items() if v not in (None, '')})
+    return '/sources/' + ('?' + query if query else '') + '#source-list'
+
+
+def collection_key(label):
+    return slug(label)[:80]
+
+
+def master_extras(config, master, rows, sections, web):
+    """Collections, collection notes and reviewed-collection rows for the master list.
+
+    Collections are the reviewed census-year groups and collection tables that
+    used to have their own pages, plus the provider collections named on rows.
+    """
+    try:
+        from tools.source_master_index import section_rows, section_prose, EVIDENCE
+    except ModuleNotFoundError:
+        from source_master_index import section_rows, section_prose, EVIDENCE
+    people = {}
+    people_path = web / 'data/people-index.json'
+    if people_path.exists():
+        people = {p['id']: p.get('name') or p['id'] for p in json.loads(people_path.read_text())}
+    collections, index = [], {}
+    def add(key, label, implied=None):
+        if key not in index:
+            index[key] = len(collections)
+            collections.append([key, label] + ([implied] if implied else []))
+        return index[key]
+    notes = []
+    for route, (title, category, country, provider, url) in SPECIAL_COLLECTIONS.items():
+        if route not in sections:
+            continue
+        number = add(route, title, [category, country, ''])
+        extra = section_rows(route, title, sections[route], category=category, country=country,
+                             provider=provider, url=url, people=people, web=web)
+        for row in extra:
+            row['g'] = [number]
+        master['rows'].extend(extra)
+        notes.append({'g': route, 'h': section_prose(sections[route])})
+    by_id = {r['i']: r for r in master['rows']}
+    for row in rows:
+        item = by_id.get(row['id'])
+        if item is None:
+            continue
+        found = []
+        if 'census' in row['categories']:
+            for country in row['countries']:
+                for year in row.get('years') or []:
+                    found.append(add(f'census/{slug(country)}/{year}', census_heading(country, year), ['census', country, year]))
+        if item.get('cl') and not item['cl'].lower() in {c[1].lower() for c in collections if c[0] in SPECIAL_COLLECTIONS}:
+            label = item['cl']
+            same = next((i for i, c in enumerate(collections) if c[1].casefold() == label.casefold()), None)
+            found.append(same if same is not None else add('p-' + collection_key(label), label))
+        if found:
+            item['g'] = sorted(set(found))
+    # Coverage guides: shown when the filters (or a selected collection) match.
+    for key in config['collections']:
+        scope = {}
+        for category in TYPES:
+            for country in COUNTRIES:
+                if key not in guide_keys(category, country):
+                    continue
+                years = [y for y in range(1700, 1950) if key in guide_keys(category, country, y)]
+                scope.setdefault((country, None if len(years) == 250 else tuple(years)), []).append(category)
+        for (country, years), cats in scope.items():
+            note = {'k': key, 'c': cats, 'co': country, 'h': guide_section(config, key)}
+            if years:
+                note['y'] = list(years)
+            notes.append(note)
+    notes.append({'k': 'census/ireland/1851-fragments', 'c': ['census'], 'co': 'Ireland', 'y': [1851], 'h': CENSUS_1851_NOTE})
+    master['collections'] = collections
+    master['notes'] = notes
+    master['reading'] = READING_NOTE
+    master['evidence'] = EVIDENCE
+    return master
+
+
+def subpage_redirects(rows, newspaper, sections):
+    """Former collection subpages and the master-list filters that replace them."""
+    redirects = {}
+    for category in TYPES:
+        selected = [r for r in rows if category in r['categories']]
+        countries = {c for r in selected for c in r['countries'] if c in COUNTRIES}
+        if category in ('census', 'newspapers'):
+            countries |= {'Ireland', 'Scotland'}
+        if category == 'newspapers':
+            retained = [r for r in newspaper['rows'] if r['status'] in ('confirmed surname', 'place study')]
+            countries |= {newspaper_country(r['paper']) for r in retained} - {'Unresolved'}
+            for country in countries:
+                route = f'/sources/newspapers/{slug(country)}/'
+                redirects[route] = f'/sources/newspapers/?country={quote(country)}&ref-country={quote(country)}#newspaper-records'
+                for year in sorted({r['date'][:4] for r in retained if newspaper_country(r['paper']) == country}):
+                    redirects[f'{route}{year}/'] = f'/sources/newspapers/?country={quote(country)}&year={year}&ref-country={quote(country)}&ref-year={year}#newspaper-records'
+            continue
+        for country in countries:
+            subset = [r for r in selected if country in r['countries']]
+            route = f'/sources/{category}/{slug(country)}/'
+            redirects[route] = master_query(cat=category, country=country)
+            years = sorted({y for r in subset for y in r.get('years', [])}) if category == 'census' else []
+            if category == 'census' and country == 'Ireland': years = sorted(set(years) | {1821, 1831, 1841, 1851, 1861, 1871, 1881, 1891, 1901, 1911, 1926})
+            if category == 'census' and country == 'United States': years = sorted(set(years) | {1890})
+            for year in years:
+                redirects[f'{route}{year}/'] = master_query(cat=category, country=country, year=year)
+            if category == 'census' and any(not r.get('years') for r in subset):
+                redirects[f'{route}undated/'] = master_query(cat=category, country=country, year='undated')
+            elif category != 'census':
+                for period, (_, lo, hi) in PERIODS.items():
+                    if not any((r['year'] is None if lo is None else r['year'] is not None and lo <= r['year'] <= hi) for r in subset):
+                        continue
+                    redirects[f'{route}{period}/'] = master_query(cat=category, country=country, year='undated' if period == 'undated' else '', period='' if period == 'undated' else period)
+    for route in sections:
+        redirects[f'/sources/{route}/'] = master_query(coll=route)
+    return redirects
 
 
 def repair(web=None):
@@ -650,7 +828,7 @@ def repair(web=None):
     stats['targets'] += write(web / 'data/newspaper-targets.json', json.dumps({'targets': load_targets()}, ensure_ascii=False, separators=(',', ':')) + '\n')
     index_path = web / 'assets/sources/collection-index.json'
     stats['index'] += write(index_path, json.dumps(rows, ensure_ascii=False, separators=(',', ':')) + '\n')
-    master = build_master_rows(web, rows, ROOT)
+    master = master_extras(config, build_master_rows(web, rows, ROOT), rows, sections, web)
     stats['master'] += write(web / 'assets/sources/master-index.json', json.dumps(master, ensure_ascii=False, separators=(',', ':')) + '\n')
     css = Path(__file__).with_name('source_collections.css').read_text() + '\n'
     js = Path(__file__).with_name('source_master.js').read_text() + '\n' + Path(__file__).with_name('source_collections.js').read_text() + '\n'
@@ -682,12 +860,14 @@ def repair(web=None):
         if people is not None: total += f' · {people:,} linked catalogue people'
         return '<header class="sc-hero"><p class="sc-eyebrow">The source library</p><h1>' + e(title) + '</h1><p>' + e(intro) + '</p>' + (f'<span class="sc-total">{total}</span>' if total else '') + '</header>'
     typelinks = '<nav class="sc-m-types" aria-label="Record-type guides"><span class="sc-facet-label">Record-type guides</span>' + ''.join(f'<a href="/sources/{key}/" title="{e(description, quote=True)}">{e(title)} <span>{counts[key]:,}</span></a>' for key,(title,description) in TYPES.items()) + '</nav>'
-    featured = '<details class="sc-m-featured"><summary>Featured reviewed collections</summary><div class="sc-featured">' + ''.join(f'<a href="{url}">{label}<span>{description}</span></a>' for url,label,description in [('/sources/newspapers/?clip=1#newspaper-records','Saved newspaper clippings',f'{len(clips)} reviewed pages with saved excerpts and identity limits'),('/sources/census/ireland/1851/','1851 Irish Census','Surviving fragments, local references and the records lost in 1922'),('/sources/census/ireland/1831/','1831 Irish Census','Derry householders and religious counts; not a list of every person'),('/sources/deaths/ireland/civil-1864-1900/','Irish civil deaths, 1864–1900','241 index leads, qualified matches and original-record checks'),('/sources/births/scotland/opr-to-1700/','Scottish parish registers through 1700','Reviewed births, baptisms, parents and unresolved identities')]) + '</div></details>'
-    intro = '<p class="sc-callout">This library brings together original-record references, indexes, transcripts and family accounts. Counts describe our collected references, not unique people or complete archival holdings. Country and year groups are navigation aids; uncertain or missing dates remain visible. Each item opens its evidence, linked profiles and the recorded provider link. A profile citation is labelled as a family account.</p>'
-    page('', 'Sources', hero('Sources', 'Every collected reference in one list: filter by record type, country, provider or date, and follow each record to its people and original source.', len(rows)) + featured + typelinks + browser(rows, '', static_index=False) + intro + '<p><a href="/sources/browse/">Complete reference index</a> · <a href="/records/">Records by person</a> · <a href="/research/transcriptions/">Wills & transcriptions</a></p>')
+    intro = '<p class="sc-callout">This library brings together original-record references, indexes, transcripts and family accounts. Counts describe our collected references, not unique people or complete archival holdings. Collections, countries and years are filters on one list; uncertain or missing dates remain visible. Select a row for its record text, linked people and the recorded provider link. A profile citation is labelled as a family account, and an item we hold only as a citation is labelled “citation only — no transcription yet”.</p>'
+    todo = sum(1 for r in master['rows'] if r.get('a') == 'c')
+    todolink = f'<p class="sc-m-todo"><a href="{master_query(ev="c")}">Citation-only to-do list</a> — {todo:,} items with no transcription, image or record entry yet; each needs the underlying record found and transcribed.</p>'
+    page('', 'Sources', hero('Sources', 'Every collected reference in one list: filter by record type, collection, country, provider or date, and follow each record to its people and original source.', len(rows)) + typelinks + browser(rows, '', static_index=False) + todolink + intro + '<p><a href="/sources/browse/">Complete reference index</a> · <a href="/records/">Records by person</a> · <a href="/research/transcriptions/">Wills & transcriptions</a></p>')
+    redirects = subpage_redirects(rows, newspaper, sections)
     for category, (title, description) in TYPES.items():
         selected = [r for r in rows if category in r['categories']]
-        countries = [c for c in COUNTRIES if any(c in r['countries'] for r in selected)]
+        countries = sorted({c for c in COUNTRIES if any(c in r['countries'] for r in selected)})
         if category in ('census','newspapers'): countries = sorted(set(countries + ['Ireland','Scotland']))
         if category == 'newspapers': countries = sorted(set(countries + [newspaper_country(r['paper']) for r in newspaper['rows'] if r['status'] in ('confirmed surname','place study')]) - {'Unresolved'})
         def country_count(country):
@@ -696,12 +876,21 @@ def repair(web=None):
                 notices = len(newspaper_groups([r for r in newspaper['rows'] if newspaper_country(r['paper']) == country and r['status'] in ('confirmed surname','place study')]))
                 return f'{notices} notices' if notices else f'{count} other references'
             return f'{count:,} references'
-        countrylinks = '<section><h2>By country & location</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{category}/{slug(c)}/">{c} <span>{country_count(c)}</span></a>' for c in countries) + '</div><p>Use the collection search for a county, parish, townland or address. Newspaper country groups identify the place of publication; the subject may have lived elsewhere.</p></section>'
+        def country_href(country):
+            return redirects.get(f'/sources/{category}/{slug(country)}/') or master_query(cat=category, country=country)
+        countrylinks = '<section><h2>By country & location</h2><div class="sc-location-links">' + ''.join(f'<a href="{e(country_href(c), quote=True)}">{c} <span>{country_count(c)}</span></a>' for c in countries) + '</div><p>Each link filters the complete source list. Use its search for a county, parish, townland or address. Newspaper country groups identify the place of publication; the subject may have lived elsewhere.</p></section>'
+        collectionlinks = ''
+        reviewed = [(route, spec) for route, spec in SPECIAL_COLLECTIONS.items() if spec[1] == category and route in sections]
+        if category == 'census':
+            census_years = sorted({(c, y) for r in selected for c in r['countries'] for y in r.get('years', [])}, key=lambda cy: (cy[1], cy[0]))
+            collectionlinks = '<section><h2>By census collection</h2><div class="sc-location-links">' + ''.join(f'<a href="{e(master_query(coll=f"census/{slug(c)}/{y}"), quote=True)}">{e(census_heading(c, y))}<span>{sum(c in r["countries"] and y in r.get("years", []) for r in selected)} references</span></a>' for c, y in census_years) + '</div></section>'
+        elif reviewed:
+            collectionlinks = '<section><h2>Reviewed collections</h2><div class="sc-location-links">' + ''.join(f'<a href="{e(master_query(coll=route), quote=True)}">{e(spec[0])}<span>{sum(1 for r in master["rows"] if r["i"].startswith("c-" + slug(route) + "-"))} entries</span></a>' for route, spec in reviewed) + '</div></section>'
         np_total = None
         if category == 'newspapers':
             np_retained = [r for r in newspaper['rows'] if r['status'] in ('confirmed surname','place study')]
             np_total = f'{len(newspaper_groups(np_retained)):,} distinct notices · {len(np_retained):,} newspaper pages'
-        body = hero(title, description, len(selected), people_count(selected) if category == 'census' else None, np_total) + (countrylinks if category != 'newspapers' else '')
+        body = hero(title, description, len(selected), people_count(selected) if category == 'census' else None, np_total) + (countrylinks + collectionlinks if category != 'newspapers' else '')
         if category == 'census': body += census_summary(selected)
         if category == 'newspapers':
             checked_pending = checked_pending_newspaper_ids(json.loads((ROOT / 'surname-research/indexes/glasgow-newspaper-review.json').read_text())['rows'])
@@ -711,59 +900,22 @@ def repair(web=None):
             body += f'<details class="sc-coverage"><summary><h2>Coverage, method & limits</h2></summary><p>{len(newspaper["rows"])} pages catalogued · {inspected} original passages reviewed · {review_counts["confirmed surname"]} surname pages retained · {review_counts["place study"]} place-study page · {review_counts["place or ship"]} place/vessel/other-name pages excluded · {review_counts["reading pending"]} readings pending. Searches are selective and incomplete; these totals do not measure all newspaper holdings or all Glasgow mentions.</p><p>OCR hits and highlighted search words are leads. Saved excerpts may show only part of a notice; inspect the original page before treating a reading or namesake as proved. Missing issues, uneven digitisation, spelling variants and poor OCR can hide a relevant record. Free promotional access is temporary; original links may later require a subscription.</p><details><summary>Search coverage and detailed qualifications</summary><p>' + e(newspaper['scope']) + '</p><p>' + e(' '.join(newspaper['limitations'])) + '</p></details></details>' 
         body += browser(selected, category)
         page(category, title, body)
-        for country in countries:
-            subset = [r for r in selected if country in r['countries']]
-            route = category + '/' + slug(country)
-            exact_years = sorted({y for r in subset for y in r.get('years', [])}) if category == 'census' else []
-            if category == 'census' and country == 'Ireland': exact_years = sorted(set(exact_years + [1821,1831,1841,1851,1861,1871,1881,1891,1901,1911,1926]))
-            if category == 'census' and country == 'United States': exact_years = sorted(set(exact_years + [1890]))
-            if category == 'newspapers': exact_years = sorted({int(r['date'][:4]) for r in newspaper['rows'] if newspaper_country(r['paper']) == country and r['status'] in ('confirmed surname','place study')})
-            if exact_years:
-                subdivisions = '<h2>By record year</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{route}/{y}/">{y}<span>{sum(y in r.get("years",[]) for r in subset)} references</span></a>' if category == 'census' else f'<a href="/sources/{route}/{y}/">{y}</a>' for y in exact_years) + (f'<a href="/sources/{route}/undated/">Year unresolved<span>{sum(not r.get("years") for r in subset)} references</span></a>' if category == 'census' and any(not r.get('years') for r in subset) else '') + '</div>'
-            else:
-                subdivisions = '<h2>By record period</h2><div class="sc-location-links">' + ''.join(f'<a href="/sources/{route}/{p}/">{label}</a>' for p,(label,lo,hi) in PERIODS.items() if any((r['year'] is None if lo is None else r['year'] is not None and lo <= r['year'] <= hi) for r in subset)) + '</div>'
-            speciallinks = '<div class="sc-location-links">' + ''.join(f'<a href="/sources/{key}/">{e("Old Parish Registers through 1700" if "opr-to-1700" in key else "GRONI death match review" if "groni" in key else "Civil deaths 1864–1900")}</a>' for key in sections if key.startswith(route + '/')) + '</div>'
-            body = hero(f'{country}: {title}', description, len(subset), people_count(subset) if category == 'census' else None) + subdivisions + speciallinks + guide(config, category, country)
-            if category == 'census': body += census_summary(subset)
-            if category == 'newspapers': body += newspaper_body(newspaper, clips, web, country)
-            body += browser(subset, category, country)
-            page(route, f'{country}: {title}', body)
-            for year in exact_years:
-                group = [r for r in subset if year in r.get('years', [])]
-                adjective = {'Ireland':'Irish', 'Scotland':'Scottish', 'England':'England', 'United States':'United States'}.get(country, country)
-                heading = f'{year} {adjective} Census' if category == 'census' else f'{country} newspapers, {year}'
-                if category == 'census':
-                    heading = {('Ireland',1740): '1740 Irish Protestant householders', ('Ireland',1766): '1766 Irish religious census', ('Canada',1793): '1793 Nova Scotia poll-tax returns', ('England',1939): '1939 England & Wales Register'}.get((country,year), heading)
-                body = hero(heading, description, len(group), people_count(group) if category == 'census' else None) + f'<p><a href="/sources/{route}/">← All {country} {title.lower()}</a></p>' + guide(config, category, country, year)
-                if category == 'census': body += census_summary(group)
-                if category == 'newspapers': body += newspaper_body(newspaper, clips, web, country, year)
-                body += browser(group, category, country, year=year)
-                page(route + '/' + str(year), heading, body)
-            if category == 'census' and exact_years and any(not r.get('years') for r in subset):
-                group = [r for r in subset if not r.get('years')]
-                title_undated = f'{country}: census year unresolved'
-                page(route + '/undated', title_undated, hero(title_undated, 'Collected census references whose enumeration year is not established.', len(group)) + census_summary(group) + browser(group, category, country, year='undated'))
-            if not exact_years:
-                for period,(label,lo,hi) in PERIODS.items():
-                    group = [r for r in subset if (r['year'] is None if lo is None else r['year'] is not None and lo <= r['year'] <= hi)]
-                    if not group: continue
-                    body = hero(f'{country}: {title}, {label}', description, len(group)) + f'<p><a href="/sources/{route}/">← All {country} {title.lower()}</a></p>' + guide(config, category, country) + browser(group, category, country, period=period)
-                    page(route + '/' + period, f'{country}: {title}, {label}', body)
-    for route, section in sections.items():
-        category, country, _ = route.split('/')
-        country = next(c for c in COUNTRIES if slug(c) == country)
-        title = ('Scottish ' + TYPES[category][0].lower() + ' through 1700') if 'opr' in route else 'Irish civil deaths, 1864–1900' if 'civil' in route else 'Northern Ireland death match review'
-        page(route, title, hero(title, 'The collected entries, their source references, profile assessments and outstanding checks.') + guide(config, category, country) + section)
     if supplied: page('newspapers/supplied-clippings', 'Supplied newspaper clippings', hero('Supplied newspaper clippings', 'The excerpts received during the newspaper study, with their provenance and remaining source checks.') + supplied)
     move_branch_tables(web, newspaper, sections)
-    written.extend(publish_collection_redirects(web, template, config.get('collection_redirects', {})))
+    # Former country, year, period and reviewed-collection pages now redirect
+    # to the master list with matching filters; older reviewed redirects follow
+    # their destination to its replacement.
+    moved = {old: redirects.get(destination, destination) for old, destination in config.get('collection_redirects', {}).items()}
+    redirects.update({old: destination for old, destination in moved.items() if old not in redirects})
+    prefixes = {f'/sources/{route}/': 'c-' + slug(route) + '-' for route in sections}
+    redirected = publish_collection_redirects(web, template, redirects, prefixes)
     # Remove only obsolete pages previously owned by this builder.
-    for obsolete in set(old_pages) - set(written):
+    for obsolete in set(old_pages) - set(written) - set(redirected):
         if re.fullmatch(r'/sources/[a-z-]+/[a-z-]+/[a-z0-9-]+/', obsolete):
             target = web / obsolete.lstrip('/') / 'index.html'
             if target.exists(): target.unlink(); stats['retired_pages'] += 1
     excerpt_count = sum(1 + len(clip.get('additional_excerpts', [])) for clip in clips.values())
-    stats['manifest'] += write(web / 'assets/sources/collection-pages.json', json.dumps({'reference_items':len(rows), 'reference_counts':dict(counts), 'inline_newspaper_excerpts':excerpt_count, 'newspaper_pages_with_excerpts':len(clips), 'pages':written}, indent=2) + '\n')
+    stats['manifest'] += write(web / 'assets/sources/collection-pages.json', json.dumps({'reference_items':len(rows), 'reference_counts':dict(counts), 'inline_newspaper_excerpts':excerpt_count, 'newspaper_pages_with_excerpts':len(clips), 'pages':written, 'redirects':sorted(redirected)}, indent=2) + '\n')
     return dict(stats)
 
 if __name__ == '__main__': print(repair())

@@ -1,6 +1,8 @@
 """Check source migration, reference parity and approved excerpt boundaries."""
 from functools import cached_property
 import hashlib
+import html
+import re
 from tests._generated_data import requires_generated_data
 import json
 from pathlib import Path
@@ -47,7 +49,8 @@ class SourceCollectionsTests(unittest.TestCase):
                 path = web / 'branches/early-ireland/index.html'
                 first = path.read_text()
                 self.assertIn('Reviewed family connections remain qualified.', first)
-                self.assertIn('/sources/deaths/ireland/groni-matches/', first)
+                self.assertIn('coll=deaths%2Fireland%2Fgroni-matches', first)
+                self.assertNotIn('/sources/deaths/ireland/groni-matches/', first)
                 builder.move_branch_tables(web, data, sections)
                 self.assertEqual(path.read_text(), first)
 
@@ -84,31 +87,48 @@ class SourceCollectionsTests(unittest.TestCase):
             if 'sc-master' in page and 'data-category=""' not in page:
                 self.assertIn('Complete collection index', page)
 
+    @cached_property
+    def master(self):
+        return json.loads((WEB/'assets/sources/master-index.json').read_text())
+
+    def redirect_target(self, route):
+        page = (WEB/route.lstrip('/')/'index.html').read_text()
+        match = re.search(r'http-equiv="refresh" content="0;url=([^"]+)"', page)
+        self.assertTrue(match, route)
+        return html.unescape(match[1])
+
     @requires_generated_data
     def test_1851_irish_census_keeps_coverage_and_actual_evidence_together(self):
-        page = (WEB/'sources/census/ireland/1851/index.html').read_text()
-        for term in ('1851 Irish Census', 'one Belfast ward', 'Fermanagh', 'heads-of-household index', '1922', 'deaths since 1841', 'National Archives', 'class="sc-master"'):
-            self.assertIn(term, page)
-        expected = [r['id'] for r in self.rows if 'census' in r['categories'] and 'Ireland' in r['countries'] and 1851 in r.get('years', [])]
+        # The former collection page redirects to the filtered master list,
+        # whose collection notes keep the coverage text.
+        target = self.redirect_target('/sources/census/ireland/1851/')
+        self.assertEqual(target, '/sources/?cat=census&country=Ireland&year=1851#source-list')
+        notes = ' '.join(n['h'] for n in self.master['notes'] if n.get('co') == 'Ireland' and 'census' in n.get('c', []) and (not n.get('y') or 1851 in n['y']))
+        for term in ('one Belfast ward', 'Fermanagh', 'heads-of-household index', '1922', 'deaths since 1841', 'NAI census'):
+            self.assertIn(term, notes)
+        colls = {c[0]: i for i, c in enumerate(self.master['collections'])}
+        self.assertEqual(self.master['collections'][colls['census/ireland/1851']][1], '1851 Irish Census')
+        expected = {r['id'] for r in self.rows if 'census' in r['categories'] and 'Ireland' in r['countries'] and 1851 in r.get('years', [])}
         self.assertTrue(expected)
-        for ident in expected: self.assertIn('/sources/'+ident+'/', page)
+        members = {r['i'] for r in self.master['rows'] if colls['census/ireland/1851'] in r.get('g', [])}
+        self.assertEqual(expected, members)
+        hub = (WEB/'sources/index.html').read_text()
+        self.assertNotIn('Featured reviewed collections', hub)
 
     @requires_generated_data
     def test_census_year_pages_include_shared_references_and_linked_people(self):
+        colls = {c[0]: i for i, c in enumerate(self.master['collections'])}
+        by_id = {r['i']: r for r in self.master['rows']}
         census = [r for r in self.rows if 'census' in r['categories']]
         for row in census:
             for country in row['countries']:
-                country = country.lower().replace(' ', '-')
-                for year in row.get('years', []) or ['undated']:
-                    path = WEB/f'sources/census/{country}/{year}/index.html'
-                    self.assertTrue(path.exists(), str(path))
-                    self.assertIn('/sources/'+row['id']+'/', path.read_text())
+                slug = country.lower().replace(' ', '-')
+                for year in row.get('years', []):
+                    self.assertIn(colls[f'census/{slug}/{year}'], by_id[row['id']].get('g', []), row['id'])
+                    self.assertTrue((WEB/f'sources/census/{slug}/{year}/index.html').exists())
         ireland = [r for r in census if 'Ireland' in r['countries'] and 1851 in r.get('years', [])]
-        people = {p['id'] for row in ireland for p in row['people']}
-        page = (WEB/'sources/census/ireland/1851/index.html').read_text()
-        self.assertIn(f'{len(ireland)} reference items · {len(people)} linked catalogue people', page)
-        self.assertIn('Alexander Glasgow', page)
-        self.assertIn('not a complete surname search', page)
+        names = {p[0] for r in ireland for p in by_id[r['id']].get('p', []) + by_id[r['id']].get('n', [])}
+        self.assertIn('Alexander Glasgow', ' '.join(names))
 
     @requires_generated_data
     def test_census_access_dates_and_emigrant_birthplaces_do_not_create_year_pages(self):
@@ -118,7 +138,9 @@ class SourceCollectionsTests(unittest.TestCase):
         self.assertEqual(overseas['countries'], ['United States'])
         scottish = next(r for r in census if r['id']=='s-2e89040aaf680d40')
         self.assertEqual(scottish['years'], [1841])
-        self.assertIn(scottish['id'], (WEB/'sources/census/scotland/1841/index.html').read_text())
+        colls = {c[0] for c in self.master['collections']}
+        self.assertIn('census/scotland/1841', colls)
+        self.assertNotIn('census/ireland/2026', colls)
         self.assertFalse((WEB/'sources/census/ireland/2026/index.html').exists())
 
     @requires_generated_data
@@ -471,33 +493,36 @@ class SourceCollectionsTests(unittest.TestCase):
 
     @requires_generated_data
     def test_parish_and_civil_collections_keep_full_tables(self):
-        for kind,n in [('births',127),('marriages',55),('deaths',7)]:
-            page = (WEB/f'sources/{kind}/scotland/opr-to-1700/index.html').read_text()
-            soup=BeautifulSoup(page,'html.parser')
-            self.assertEqual(len(soup.select('table tbody tr')),n,kind)
-            self.assertIn('original',page.lower())
-            self.assertIn('scotlandspeople.gov.uk',page)
-        civil = (WEB/'sources/deaths/ireland/civil-1864-1900/index.html').read_text()
-        self.assertEqual(len(BeautifulSoup(civil,'html.parser').select('table tbody tr')),241)
-        self.assertIn('HOLD',civil)
-        groni = (WEB/'sources/deaths/ireland/groni-matches/index.html').read_text()
-        self.assertIn('152 distinct entries',groni)
-        self.assertIn('Paid certificates were not consulted',groni)
-        self.assertGreater(len(BeautifulSoup(groni,'html.parser').select('table tbody tr')),150)
+        rows = self.master['rows']
+        def entries(route):
+            return [r for r in rows if r['i'].startswith('c-' + route.replace('/', '-') + '-')]
+        for kind, n in [('births', 127), ('marriages', 55), ('deaths', 7)]:
+            found = entries(f'{kind}/scotland/opr-to-1700')
+            self.assertEqual(len(found), n, kind)
+            self.assertTrue(all(r['pv'] == 'ScotlandsPeople' and r.get('x') for r in found))
+        self.assertEqual(len(entries('deaths/ireland/civil-1864-1900')), 241)
+        self.assertIn('HOLD', json.dumps(entries('deaths/ireland/civil-1864-1900')))
+        self.assertGreater(len(entries('deaths/ireland/groni-matches')), 150)
+        notes = {n['g']: n['h'] for n in self.master['notes'] if n.get('g')}
+        self.assertIn('152 distinct entries', notes['deaths/ireland/groni-matches'])
+        self.assertIn('Paid certificates were not consulted', notes['deaths/ireland/groni-matches'])
+        self.assertIn('original', notes['births/scotland/opr-to-1700'].lower())
 
     @requires_generated_data
     def test_moved_collections_and_downloads_have_no_dead_local_links(self):
-        for route in ['newspapers','births/scotland/opr-to-1700','marriages/scotland/opr-to-1700','deaths/scotland/opr-to-1700','deaths/ireland/civil-1864-1900','deaths/ireland/groni-matches']:
-            soup=BeautifulSoup((WEB/'sources'/route/'index.html').read_text(),'html.parser')
-            for a in soup.select('main a[href^="/"]'):
-                href=a['href'].split('#')[0].split('?')[0]
-                target=WEB/href.lstrip('/')
-                self.assertTrue(target.is_file() or (target/'index.html').is_file(),href)
+        for route in ['births/scotland/opr-to-1700','marriages/scotland/opr-to-1700','deaths/scotland/opr-to-1700','deaths/ireland/civil-1864-1900','deaths/ireland/groni-matches']:
+            self.assertEqual(self.redirect_target(f'/sources/{route}/'), '/sources/?coll=' + route.replace('/', '%2F') + '#source-list')
+        soup=BeautifulSoup((WEB/'sources/newspapers/index.html').read_text(),'html.parser')
+        for a in soup.select('main a[href^="/"]'):
+            href=a['href'].split('#')[0].split('?')[0]
+            target=WEB/href.lstrip('/')
+            self.assertTrue(target.is_file() or (target/'index.html').is_file(),href)
         branch=(WEB/'branches/scottish-families/index.html').read_text()
         self.assertIn('id="early-newspapers"',branch)
         self.assertIn('/sources/newspapers/',branch)
         self.assertNotIn('early-newspaper-table-wrap',branch)
         self.assertIn('data-source-target="/sources/newspapers/#newspaper-',branch)
+        self.assertIn('coll=births%2Fscotland%2Fopr-to-1700',branch)
         ireland=(WEB/'branches/early-ireland/index.html').read_text()
         self.assertIn('Armagh children',ireland)
         self.assertIn('cannot both be their death',ireland)
@@ -508,7 +533,10 @@ class MasterSourceListTests(unittest.TestCase):
     def test_master_index_lists_every_reference_and_published_records(self):
         master = json.loads((WEB / 'assets/sources/master-index.json').read_text())
         rows = json.loads((WEB / 'assets/sources/collection-index.json').read_text())
-        self.assertEqual({r['i'] for r in master['rows']}, {r['id'] for r in rows})
+        ids = {r['i'] for r in master['rows']}
+        self.assertTrue({r['id'] for r in rows} <= ids)
+        # The only other rows are entries of the reviewed collection tables.
+        self.assertTrue(all(i.startswith('c-') for i in ids - {r['id'] for r in rows}))
         published = {r['document_id'] for r in json.loads((WEB / 'data/records-index.json').read_text()) if r.get('document_id')}
         self.assertTrue(published <= {r['i'] for r in master['rows']})
         hub = (WEB / 'sources/index.html').read_text()
@@ -534,3 +562,63 @@ class MasterSourceListTests(unittest.TestCase):
         self.assertEqual((first['pv'], first['cl'], first['rf'], first['lv'], first['n'], first['pp']),
                          ('Ancestry', '1911 England Census', 'RG 14', 'Transcript', [['Ann Glasgow', 'Head']], 1))
         self.assertNotIn('Withheld Person', json.dumps(out))
+
+    def test_reviewed_collection_table_rows_keep_every_field(self):
+        from tools.source_master_index import section_rows, section_prose
+        html = ('<section><p>Reviewed index; originals uninspected.</p><table><thead><tr><th>Indexed child</th><th>Date and reference</th><th>Parish</th><th>Profiles</th><th>Assessment</th></tr></thead>'
+                '<tbody><tr id="opr-birth-001"><th scope="row">ALEXANDER GLASGOW</th><td>20 Jul 1673<br>OPR 690/10 / 75</td><td>Kirknewton</td>'
+                '<td><a href="/people/glasgow-1314.html">Possible: Glasgow-1314</a></td><td><strong>HOLD</strong><p>Two candidates.</p></td></tr></tbody></table></section>')
+        [row] = section_rows('births/scotland/opr-to-1700', 'Parish births', html, category='births', country='Scotland',
+                             provider='ScotlandsPeople', url='https://www.scotlandspeople.gov.uk/', people={'Glasgow-1314': 'Alexander Glasgow'})
+        self.assertEqual(row['i'], 'c-births-scotland-opr-to-1700-opr-birth-001')
+        self.assertEqual((row['y'], row['d'], row['pl'], row['rf']), (1673, '20 Jul 1673', ['Kirknewton'], 'OPR 690/10 / 75'))
+        self.assertEqual(row['p'][0][:3], ['Alexander Glasgow (Glasgow-1314)', '/people/glasgow-1314.html', 'Candidate'])
+        self.assertIn(['Assessment', 'HOLD · Two candidates.'], row['x'])
+        self.assertEqual(section_prose(html), '<p>Reviewed index; originals uninspected.</p>')
+
+    def test_former_subpages_redirect_to_filtered_master_list(self):
+        from tools.build_source_collections import publish_collection_redirects
+        with tempfile.TemporaryDirectory() as tmp:
+            web = Path(tmp); (web/'sources').mkdir(); (web/'sources/index.html').write_text('hub')
+            template = '<html><head><title>Sources</title></head><body><main>Old</main></body></html>'
+            old = '/sources/births/scotland/opr-to-1700/'
+            dest = '/sources/?coll=births%2Fscotland%2Fopr-to-1700#source-list'
+            self.assertEqual(publish_collection_redirects(web, template, {old: dest, '/sources/census/ireland/1831/': '/sources/?cat=census&country=Ireland&year=1831#source-list'},
+                                                          {old: 'c-births-scotland-opr-to-1700-'}), [old, '/sources/census/ireland/1831/'])
+            page = (web/old.lstrip('/')/'index.html').read_text()
+            self.assertIn('content="0;url=/sources/?coll=births%2Fscotland%2Fopr-to-1700#source-list"', page)
+            self.assertIn('"&id="+"c-births-scotland-opr-to-1700-"+h', page)
+            self.assertIn('noindex', page)
+            census = (web/'sources/census/ireland/1831/index.html').read_text()
+            self.assertIn('url=/sources/?cat=census&amp;country=Ireland&amp;year=1831#source-list', census)
+            with self.assertRaises(ValueError):
+                publish_collection_redirects(web, template, {old: '/sources/?q=<script>'})
+
+    def test_citation_only_items_are_marked_and_identified_records_linked(self):
+        from tools.source_master_index import build_rows, evidence
+        self.assertEqual(evidence({}, []), 'c')
+        self.assertEqual(evidence({'transcription': True}, []), 't')
+        self.assertEqual(evidence({'identified': {'record_id': 'r1'}}, []), 'm')
+        from tools.source_collection_index import _has_text
+        self.assertFalse(_has_text('[]'))
+        self.assertTrue(_has_text('["House 2, Coltrim"]'))
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); web = root/'www'; (web/'data').mkdir(parents=True)
+            (web/'data/records-index.json').write_text(json.dumps([{'record_id': 'r1', 'document_id': 's-9', 'person': 'Robt Glasgow'}]))
+            rows = [{'id': 's-1', 'title': 'Rynne citing the 1831 census', 'categories': ['census'], 'year': 1831, 'year_basis': 'reviewed citation title', 'years': [1831],
+                     'countries': ['Ireland'], 'places': [], 'original_kind': 'none',
+                     'people': [{'id': 'glasgow-3905', 'name': 'Unknown Glasgow', 'url': '/people/glasgow-3905.html'},
+                                {'id': 'glasgow-3941', 'name': 'Robert Glasgow', 'url': '/people/glasgow-3941.html'}],
+                     'identified': {'record_id': 'r1', 'label': 'Coltrim house 2', 'profiles': {'Glasgow-3941': {'role': 'Head'}}, 'basis': 'Same townland.'}}]
+            [row] = build_rows(web, rows, root)['rows']
+        self.assertEqual(row['a'], 'm')
+        self.assertEqual(row['m'][:2], ['Coltrim house 2', '/sources/s-9/'])
+        self.assertEqual(row['p'][0], ['Robert Glasgow', '/people/glasgow-3941.html', 'Identified', 'Head'])
+        self.assertEqual(row['p'][1][2], 'Cited')
+
+    def test_static_source_page_labels_citation_only_items(self):
+        from tools.publish_static_sources import block
+        doc = {'id': 's-x', 'title': 'A citation', 'citations': [], 'records': [], 'transcription': '[]', 'image': None}
+        self.assertIn('Citation only — no transcription yet.', block(doc, {}, {}))
+        self.assertNotIn('published extract or transcription is available', block(doc, {}, {}))
+

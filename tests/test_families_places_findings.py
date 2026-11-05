@@ -61,7 +61,7 @@ class StudyPlaceLinkTests(unittest.TestCase):
 
     def test_source_library_links_only_existing_collections(self):
         rows = links.source_collections(self.records[:2], collection_exists=lambda folder, country: folder != 'church')
-        self.assertEqual({'/sources/marriages/ireland/', '/sources/wills-probate/ireland/'}, {r['url'] for r in rows})
+        self.assertEqual({'/sources/?cat=marriages&country=Ireland#source-list', '/sources/?cat=wills-probate&country=Ireland#source-list'}, {r['url'] for r in rows})
 
     def test_one_label_per_kind_of_group(self):
         self.assertEqual(links.TREE_GROUP, links.study_type({'kind': 'family'}))

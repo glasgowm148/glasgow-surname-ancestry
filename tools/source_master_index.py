@@ -146,6 +146,7 @@ def build_rows(web: Path, rows: list[dict], root: Path) -> dict:
         if record.get('document_id'):
             by_doc.setdefault(record['document_id'], []).append(record)
     public_ids = {r['record_id'] for r in records if r.get('document_id')}
+    by_record = {r['record_id']: r for r in records if r.get('document_id')}
     canonical_path = root / 'research/canonical_records.json'
     canonical = {}
     if canonical_path.exists():
@@ -183,8 +184,17 @@ def build_rows(web: Path, rows: list[dict], root: Path) -> dict:
                 if person:
                     linked.setdefault(person['id'], [clean(person['name']), person.get('url') or '', match_label(context_role), clean(context_role)])
             pending += len(entry.get('pending_profile_ids') or [])
+        identified = row.get('identified') or {}
+        found = {k.casefold(): v or {} for k, v in (identified.get('profiles') or {}).items()}
         for person in row.get('people') or []:
-            linked.setdefault(person['id'], [clean(person['name']), person.get('url') or '', 'Cited', ''])
+            info = found.get(person['id'].casefold())
+            if info is not None:
+                linked[person['id']] = [clean(person['name']), person.get('url') or '', 'Identified', clean(info.get('role'))]
+            else:
+                linked.setdefault(person['id'], [clean(person['name']), person.get('url') or '', 'Cited', ''])
+        # Identified people first: a citation copied from another profile names
+        # the person it was copied from, who is usually not its subject.
+        linked = dict(sorted(linked.items(), key=lambda kv: kv[1][2] != 'Identified'))
         if not named:
             named = [[name, role] for name, _, _, role in list(linked.values())[:MAX_PEOPLE]]
         url = row.get('original_url') or ''
@@ -215,5 +225,199 @@ def build_rows(web: Path, rows: list[dict], root: Path) -> dict:
             'r': len(entries) or None,
         }
         item.update({k: v for k, v in optional.items() if v})
+        item['a'] = evidence(row, entries)
+        if identified.get('record_id'):
+            record = by_record.get(identified['record_id'])
+            href = f"/sources/{record['document_id']}/" if record else identified.get('source_url') or ''
+            item['m'] = [clean(identified.get('label') or identified['record_id']), href, clean(identified.get('basis'))]
         out.append(item)
     return {'categories': CATEGORY_ORDER, 'rows': out}
+
+
+EVIDENCE = {'i': 'Image', 't': 'Transcription', 'r': 'Record entry', 'm': 'Matching record found',
+            'c': 'Citation only — no transcription yet'}
+
+
+def evidence(row, entries):
+    """What the item holds beyond its citation; 'c' marks the citation-only to-do list."""
+    if row.get('image'):
+        return 'i'
+    if row.get('transcription'):
+        return 't'
+    if entries:
+        return 'r'
+    if (row.get('identified') or {}).get('record_id'):
+        return 'm'
+    return 'c'
+
+
+# ---------------------------------------------------------------------------
+# Reviewed collection tables (Scottish OPR to 1700, Irish civil deaths, GRONI
+# match review). Their rows join the master list so the table holds every
+# record and field those collections publish; the tables' own prose becomes
+# the collection note shown when the collection filter is selected.
+
+from html.parser import HTMLParser
+
+_PROFILE_ID = re.compile(r"\b([A-Z][A-Za-z'’]*(?:-[A-Z][A-Za-z'’]*)*-\d+)\b")
+_BLOCK = {'br', 'p', 'li', 'div', 'ul', 'ol', 'span'}
+
+
+class _Tables(HTMLParser):
+    """Collect each table's header labels and body rows (cell text chunks and links)."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.tables, self._table, self._row, self._cell, self._head, self._link = [], None, None, None, False, None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'table':
+            self._table = {'headers': [], 'rows': []}
+        elif self._table is None:
+            return
+        elif tag == 'thead':
+            self._head = True
+        elif tag == 'tbody':
+            self._head = False
+        elif tag == 'tr':
+            self._row = {'id': attrs.get('id') or '', 'cells': []}
+        elif tag in ('td', 'th') and self._row is not None:
+            self._cell = {'chunks': [''], 'links': [], 'head': self._head}
+        elif tag == 'a' and self._cell is not None:
+            self._link = [attrs.get('href') or '', '']
+        elif tag in _BLOCK and self._cell is not None and self._cell['chunks'][-1].strip():
+            self._cell['chunks'].append('')
+
+    def handle_endtag(self, tag):
+        if self._table is None:
+            return
+        if tag == 'a' and self._link is not None and self._cell is not None:
+            if self._link[0]:
+                self._cell['links'].append([' '.join(self._link[1].split()), self._link[0]])
+            self._link = None
+        elif tag in ('td', 'th') and self._cell is not None and self._row is not None:
+            cell = self._cell
+            cell['chunks'] = [' '.join(c.split()) for c in cell['chunks'] if c.strip()]
+            self._row['cells'].append(cell)
+            self._cell = None
+        elif tag == 'tr' and self._row is not None:
+            row, self._row = self._row, None
+            if row['cells'] and all(c['head'] for c in row['cells']):
+                self._table['headers'] = [' '.join(c['chunks']) for c in row['cells']]
+            elif row['cells']:
+                self._table['rows'].append(row)
+        elif tag == 'table':
+            self.tables.append(self._table)
+            self._table = None
+        elif tag in _BLOCK and self._cell is not None and self._cell['chunks'][-1].strip():
+            self._cell['chunks'].append('')
+
+    def handle_data(self, data):
+        if self._cell is not None:
+            self._cell['chunks'][-1] += data
+        if self._link is not None:
+            self._link[1] += data
+
+
+def section_tables(html: str) -> list[dict]:
+    parser = _Tables()
+    parser.feed(html)
+    return parser.tables
+
+
+def section_prose(html: str) -> str:
+    """The section's explanatory paragraphs and lists, outside its tables and tools."""
+    body = re.sub(r'<(table|style|script|details|form)\b.*?</\1>', '', html, flags=re.S | re.I)
+    blocks = re.findall(r'<(?:p|h3|ul)\b[^>]*>.*?</(?:p|h3|ul)>', body, flags=re.S | re.I)
+    keep = []
+    for block in blocks:
+        text = re.sub(r'<[^>]+>', '', block).strip()
+        if not text or 'idi-count' in block:
+            continue
+        # Keep links, emphasis and list structure only.
+        block = re.sub(r'<(?!/?(?:a|p|h3|ul|li|strong|em|b|i|br)\b)[^>]+>', '', block)
+        block = re.sub(r'<(p|h3|ul|li)\b[^>]*>', r'<\1>', block)
+        keep.append(block.strip())
+    return ''.join(keep)
+
+
+def _year(text):
+    match = re.search(r'(?<!\d)(1[4-9]\d\d)(?!\d)', text or '')
+    return int(match[1]) if match else None
+
+
+def section_rows(key, label, html, *, category, country, provider, url, people=None, web=None):
+    """Master-list rows for one reviewed collection table, keeping every column."""
+    people = people or {}
+    out = []
+    for number, table in enumerate(section_tables(html)):
+        headers = table['headers']
+        for index, row in enumerate(table['rows'], 1):
+            cells = row['cells']
+            fields, links, named, linked = [], [], [], {}
+            year = date = place = None
+            refs = []
+            for position, cell in enumerate(cells):
+                header = headers[position] if position < len(headers) else f'Column {position + 1}'
+                text = ' · '.join(cell['chunks'])
+                low = header.casefold()
+                if text:
+                    fields.append([header, text])
+                if position == 0 and cell['chunks'] and re.fullmatch(r'\d+', cell['chunks'][0]) and len(cells) > 1 and cells[1]['chunks']:
+                    # A ranked question table: the person is named in the next column.
+                    named.append([cells[1]['chunks'][0].split(',')[0], 'Subject'])
+                elif position == 0 and cell['chunks']:
+                    named.append([cell['chunks'][0], header])
+                    for extra in cell['chunks'][1:]:
+                        if 'spouse' in low:
+                            named.append([extra, 'Spouse'])
+                if ('date' in low or 'year' in low) and year is None:
+                    year = _year(text)
+                    date = cell['chunks'][0].split(' · ')[0] if cell['chunks'] else ''
+                    if low == 'registration' and ', ' in date:
+                        date = date.split(', ')[-1].split(' · ')[0]
+                if ('reference' in low or 'registration' == low or 'group id' in low) and text:
+                    ref = next((c for c in cell['chunks'] if re.search(r'OPR|\d+\s*/\s*\d+|^[A-Z]/\d', c)), '')
+                    if 'date' in low and ' · ' in (cell['chunks'][0] if cell['chunks'] else ''):
+                        ref = cell['chunks'][0].split(' · ', 1)[1]
+                    ref = ref or (text if 'date' not in low else '')
+                    if ref:
+                        refs.append(ref if ref.upper().startswith('OPR') or 'opr' not in key else 'OPR ' + ref)
+                if low in ('parish', 'district', 'registration district') and text:
+                    place = text
+                if low == 'registration' and year is None:
+                    year = _year(text)
+                for name, href in cell['links']:
+                    ident = _PROFILE_ID.search(name) or _PROFILE_ID.search(unquote(href.rsplit('/', 1)[-1]).replace('.html', '').title())
+                    found = None
+                    if ident:
+                        found = ident[1]
+                        if found.casefold() + '.html' not in href.casefold() and 'wikitree.com/wiki/' not in href:
+                            found = None
+                    if found:
+                        local = f'/people/{found.lower()}.html'
+                        target = local if web is None or (Path(web) / local.lstrip('/')).exists() else 'https://www.wikitree.com/wiki/' + found
+                        match = 'Candidate' if re.search(r'possible|candidate|probable', name + ' ' + text, re.I) else 'Linked'
+                        linked.setdefault(found, [people.get(found, found) + f' ({found})', target, match, header])
+                    else:
+                        links.append([name or href, href])
+            if not cells:
+                continue
+            ident = 'c-' + re.sub(r'[^a-z0-9]+', '-', key.lower()).strip('-') + '-' + (row['id'] or f'{number + 1}-{index}')
+            subject = named[0][0] if named else label
+            item = {
+                'i': ident, 't': f'{label}: {subject}' + (f', {date}' if date else ''),
+                'y': year, 'ds': 'Record date' if year else 'Unresolved',
+                'c': [CATEGORY_ORDER.index(category)], 'co': [country], 'pv': provider,
+            }
+            optional = {
+                'd': date if date and not re.fullmatch(r'\d{4}', date) else '', 'pl': [place] if place else [],
+                'cl': label, 'rf': ' · '.join(dict.fromkeys(refs)), 'lv': 'Index',
+                'rt': label, 'n': named[:MAX_PEOPLE], 'p': list(linked.values())[:MAX_PEOPLE],
+                'pn': len(linked) if len(linked) > MAX_PEOPLE else None, 'u': url,
+                'x': fields, 'xl': links, 'a': 'r',
+            }
+            item.update({k: v for k, v in optional.items() if v})
+            out.append(item)
+    return out

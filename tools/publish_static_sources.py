@@ -6,6 +6,7 @@ from __future__ import annotations
 import html
 import json
 from collections import OrderedDict
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -26,18 +27,59 @@ def person_link(person: str, name: str) -> str:
     return f'<a href="/people/{esc(person)}.html">{label}</a>' if page.exists() else label
 
 
+IDENTIFIED = ROOT / "research" / "source-library" / "census-reference-overrides.json"
+CITATION_ONLY = "Citation only — no transcription yet."
+
+
+def has_extract(doc: dict) -> bool:
+    """A transcription or annotated text; the "[]" placeholder is not one."""
+    text = doc.get("transcription")
+    if isinstance(text, str):
+        try:
+            text = json.loads(text) if text.strip().startswith("[") else text.strip()
+        except ValueError:
+            text = text.strip()
+    return bool(text) or bool((doc.get("annotations") or {}).get("lines"))
+
+
+def citation_only(doc: dict) -> bool:
+    image = doc.get("image")
+    return not (image and (not isinstance(image, dict) or image.get("url"))) and not has_extract(doc) and not doc.get("records")
+
+
+@lru_cache(maxsize=1)
+def identified_records() -> dict:
+    if not IDENTIFIED.exists():
+        return {}
+    return {row["id"]: row["identified"] for row in json.loads(IDENTIFIED.read_text(encoding="utf-8")).get("sources", []) if row.get("identified")}
+
+
 def availability(doc: dict) -> str:
     image = doc.get("image")
-    extract = bool(doc.get("transcription")) or bool((doc.get("annotations") or {}).get("lines"))
+    extract = has_extract(doc)
     if isinstance(image, dict) and image.get("url"):
         return "A public image or document is supplied with this source item" + (", alongside a published extract." if extract else ".")
     if isinstance(image, str) and image:
         return "A public image or document is supplied with this source item" + (", alongside a published extract." if extract else ".")
     if extract:
         return "A published extract or transcription is available here; no local image is attached to this source item."
+    if citation_only(doc):
+        return CITATION_ONLY + (" The cited external archive is the route to the original or its catalogue description." if doc.get("url") else " No local image, record entry or external archive link is attached; the underlying record still has to be found and transcribed.")
     if doc.get("url"):
         return "This page publishes catalogue citations and assessments, but no local image or transcription. The cited external archive is the route to the original or its catalogue description."
     return "This page publishes catalogue citations and assessments only; no local image, transcription, or external archive link is attached."
+
+
+def identified_block(found: dict | None, record_pages: dict) -> str:
+    if not found:
+        return ""
+    page = record_pages.get(found.get("record_id"))
+    href = f"/sources/{page}/" if page else found.get("source_url") or ""
+    label = esc(found.get("label") or found.get("record_id"))
+    people = "".join(f"<li>{person_link(ident.lower(), (info or {}).get('name') or ident)} — {esc((info or {}).get('role'))}</li>" for ident, info in (found.get("profiles") or {}).items())
+    return (f'<section class="static-source-identified"><h3>Matching record found</h3>'
+            f'<p>{f"<a href={chr(34)}{esc(href)}{chr(34)}>{label}</a>" if href else label}</p>'
+            f'<p>{esc(found.get("basis"))}</p>' + (f"<ul>{people}</ul>" if people else "") + "</section>")
 
 
 def metadata(parts: list[tuple[str, object]]) -> str:
@@ -45,7 +87,11 @@ def metadata(parts: list[tuple[str, object]]) -> str:
     return "<ul class=\"r-caption\">" + "".join(values) + "</ul>" if values else ""
 
 
-def block(doc: dict) -> str:
+def block(doc: dict, found: dict | None = None, pages: dict | None = None) -> str:
+    if found is None:
+        found = identified_records().get(doc.get("id"))
+    if found and pages is None:
+        pages = record_pages()
     names = {c.get("person"): c.get("name") for c in doc.get("citations", []) if c.get("person")}
     for row in [*doc.get("records", []), *doc.get("events", [])]:
         if row.get("person"):
@@ -96,21 +142,33 @@ def block(doc: dict) -> str:
     archive = f'<p><a href="{esc(url)}" target="_blank" rel="noopener noreferrer">Open cited archive ↗</a></p>' if url else ""
     return f'''{START}
 <section class="v3-reader-bottom static-source-evidence" aria-label="Published source evidence">
-<section><h2>Published source evidence</h2><p>{esc(availability(doc))}</p>{archive}<h3>Linked people</h3><ul>{people_html}</ul><h3>Citation entries</h3><ul>{citation_html}</ul><h3>Record associations</h3><ul>{record_html}</ul></section>
+<section><h2>Published source evidence</h2><p{' class="static-source-citation-only"' if citation_only(doc) and not found else ''}>{esc(CITATION_ONLY + " The record it cites has been found and is linked below." if found and citation_only(doc) else availability(doc))}</p>{identified_block(found, pages or {})}{archive}<h3>Linked people</h3><ul>{people_html}</ul><h3>Citation entries</h3><ul>{citation_html}</ul><h3>Record associations</h3><ul>{record_html}</ul></section>
 <section><h2>Assertions and assessments</h2>{assertion_html}{reviewed_html}<p class="r-caption">These are published catalogue assertions and linked claims, not a transcription of the original record. Assessment labels and provenance retain their published status.</p></section>
 </section>
 {END}'''
 
 
-def main() -> None:
+@lru_cache(maxsize=1)
+def record_pages() -> dict:
+    path = ROOT / "www" / "data" / "records-index.json"
+    if not path.exists():
+        return {}
+    return {r["record_id"]: r["document_id"] for r in json.loads(path.read_text(encoding="utf-8")) if r.get("document_id")}
+
+
+def main(ids: list[str] | None = None) -> None:
     changed = 0
-    for source_file in SOURCES.glob("*.json"):
+    found = identified_records()
+    pages = record_pages() if found else {}
+
+    files = [SOURCES / f"{i}.json" for i in ids] if ids else SOURCES.glob("*.json")
+    for source_file in files:
         doc = json.loads(source_file.read_text(encoding="utf-8"))
         page = PAGES / source_file.stem / "index.html"
         if not page.exists():
             continue
         text = page.read_text(encoding="utf-8")
-        replacement = block(doc)
+        replacement = block(doc, found.get(source_file.stem), pages)
         if START in text:
             before, rest = text.split(START, 1)
             _, after = rest.split(END, 1)
@@ -127,4 +185,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    main(sys.argv[1:] or None)
