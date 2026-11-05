@@ -91948,14 +91948,16 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence.",
-    "reason": "Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence.",
-    "claim": "Glasgow-2074 remains the selected father of Glasgow-3502, individually assessed 75%.",
-    "record_scope": "Held citation and family narrative address this specific father-child link; no original was newly inspected.",
-    "limitations": "Held citation and family narrative address this specific father-child link; no original was newly inspected.",
+    "assessment_date": "2026-11-05",
+    "basis": "Edward William's 1838 North Carolina birth fits the male child under five in Edward Glasgow-2074's 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable.",
+    "reason": "Edward William's 1838 North Carolina birth fits the male child under five in Edward Glasgow-2074's 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable.",
+    "claim": "Edward William's 1838 North Carolina birth fits the male child under five in Edward Glasgow-2074's 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable.",
+    "record_scope": "Belfast News-Letter index rows only: the notice text and image are uninspected, and the index does not state how Edward is related (father is the usual reading but is not quoted). The 1840 household and 1860 entry do not name his father, and slave ownership is not used as kinship evidence. No mother change follows.",
+    "limitations": "Belfast News-Letter index rows only: the notice text and image are uninspected, and the index does not state how Edward is related (father is the usual reading but is not quoted). The 1840 household and 1860 entry do not name his father, and slave ownership is not used as kinship evidence. No mother change follows.",
     "source_ids": [
-      "held-e-c66c2c09bb01"
+      "held-e-c66c2c09bb01",
+      "ancestry-2193-1149319",
+      "ancestry-2193-1162440"
     ],
     "assessment_history": [
       {
@@ -91968,16 +91970,22 @@
         "claim_id": "C-88af766023f9",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "probable",
+        "probability_percent": 75,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence."
       }
     ],
     "perspectives": {
       "Glasgow-3502": {
         "relationship": "father",
-        "reason": "Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence."
+        "reason": "Edward William's 1838 North Carolina birth fits the male child under five in Edward Glasgow-2074's 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable."
       },
       "Glasgow-2074": {
         "relationship": "son",
-        "reason": "Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence."
+        "reason": "Edward William's 1838 North Carolina birth fits the male child under five in Edward Glasgow-2074's 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable."
       }
     },
     "analysis_links": [
@@ -91988,27 +91996,28 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-88af766023f9",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 75,
+        "relationship": "father",
+        "relative_id": "Glasgow-2074",
+        "reviewed": "2026-10-22",
+        "source_basis": "Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence.",
+        "status": "probable"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "new_father_attachment": false,
+      "review_kind": "ancestry_newspaper_index_father_support"
     },
     "probability": {
-      "value": 0.75,
-      "basis": "Edward William’s 1838 North Carolina birth fits the male child under five in Edward’s 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The later household and slave schedule do not themselves name his father, so ownership is not used as kinship evidence.",
-      "reviewed": "2026-10-22",
+      "value": 0.84,
+      "reviewed": "2026-11-05",
+      "basis": "Edward William's 1838 North Carolina birth fits the male child under five in Edward Glasgow-2074's 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable.",
       "source_ids": [
-        "held-e-c66c2c09bb01"
+        "held-e-c66c2c09bb01",
+        "ancestry-2193-1149319",
+        "ancestry-2193-1162440"
       ],
-      "scope": "Held citation and family narrative address this specific father-child link; no original was newly inspected."
+      "scope": "Belfast News-Letter index rows only: the notice text and image are uninspected, and the index does not state how Edward is related (father is the usual reading but is not quoted). The 1840 household and 1860 entry do not name his father, and slave ownership is not used as kinship evidence. No mother change follows."
     }
   },
   {

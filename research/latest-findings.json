@@ -71726,6 +71726,58 @@
         "research/relationship_assessments.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "belfast-newsletter-edward-william-north-carolina-father-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "relationship",
+      "status": "qualified",
+      "finding": "The Belfast News-Letter noticed both the 1860 death of Dr Edward Glasgow of Hamilton, North Carolina (Glasgow-2074, born Cookstown) and the 5 October 1870 death of Edward William Glasgow of Jamesville, North Carolina, whose index entry lists the relative Edward. The Ulster notice for the young North Carolina man supports his place as the doctor’s son: Edward William Glasgow-3502’s father link rises from 75% to 84% probable.",
+      "qualification": "Belfast News-Letter index rows only: the notice text and image are uninspected, and the index does not state how Edward is related (father is the usual reading but is not quoted). The 1840 household and 1860 entry do not name his father, and slave ownership is not used as kinship evidence. No mother change follows.",
+      "detail_url": "/people/glasgow-3502.html#research-findings",
+      "people": [
+        {
+          "id": "Glasgow-3502",
+          "name": "Edward William Glasgow",
+          "url": "/people/glasgow-3502.html",
+          "role": "Father link 75% → 84%"
+        },
+        {
+          "id": "Glasgow-2074",
+          "name": "Edward Glasgow",
+          "url": "/people/glasgow-2074.html",
+          "role": "Father; Cookstown-born doctor, died Hamilton NC 1860"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738-1925 — Edward William Glasgow, Jamesville,North Carolina, USA",
+          "url": "https://www.ancestry.co.uk/search/collections/2193/records/1149319"
+        },
+        {
+          "title": "Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738-1925 — Dr Edward Glasgow, Hamilton, North Carolina",
+          "url": "https://www.ancestry.co.uk/search/collections/2193/records/1162440"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-3502",
+          "relative": "Glasgow-2074",
+          "action": "regrade",
+          "before": "probable",
+          "after": "probable",
+          "previous_probability_percent": 75,
+          "probability_percent": 84,
+          "explanation": "Edward William's 1838 North Carolina birth fits the male child under five in Edward Glasgow-2074's 1840 household, and his 1860 entry with Nancy is compatible with the reconstructed family. The Belfast News-Letter, an Ulster paper, carried a death notice for Edward William Glasgow of Jamesville, North Carolina (5 October 1870) whose index lists one relative, Edward; the same paper had noticed the death of Dr Edward Glasgow of Hamilton, North Carolina, on 8 April 1860. A Belfast notice for a young North Carolina man naming an Edward fits a son of the Cookstown-born doctor whose Irish kin followed the family. The father link rises from 75% to 84% probable.",
+          "previous_status_provenance": "Assessment of 22 October 2026 at 75% from the 1840 household and 1860 entry (held-e-c66c2c09bb01)."
+        }
+      ],
+      "provenance": [
+        "research/relationship_assessments.json",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
