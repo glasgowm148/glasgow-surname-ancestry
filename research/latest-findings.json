@@ -71424,7 +71424,7 @@
       "reviewed_on": "2026-11-05",
       "kind": "relationship",
       "status": "qualified",
-      "finding": "Manchester baptism index entries (England, Select Births and Christenings) strengthen seven father links in the Rothesay-to-Manchester Glasgow family. Robert Glasgow-2603 and Mary Lamb baptised John (1826), Adam (1829), Isabella (1834), Mary Maria (1836), Ann (1839) and an Elizabeth (1842) at Manchester; with Robert’s will naming Isabella Lowes, Mary Knox and Ann Hogg, those daughters rise to 93–94% proved, John to 90% and Elizabeth Hurst to 84%. William Robert Glasgow-3546’s 1835 baptism to David and Agnes raises his father link from 66% to 90%. Agnes Glasgow-3544’s 1812 Lloyd Street baptism to William and Ann raises her father link to William Glasgow-3545 (husband of Ann Denham) from 57% to 76%, and their son Robert (1806) is added at 75%.",
+      "finding": "Manchester baptism index entries (England, Select Births and Christenings) strengthen seven father links in the Rothesay-to-Manchester Glasgow family. Robert Glasgow-2603 and Mary Lamb baptised John (1826), Adam (1829), Isabella (1834), Mary Maria (1836), Ann (1839) and an Elizabeth (1842) at Manchester; with Robert’s will naming Isabella Lowes, Mary Knox and Ann Hogg, those daughters rise to 93–94% proved, John to 90% and Elizabeth Hurst to 84%. William Robert Glasgow-3546’s 1835 baptism to David and Agnes raises his father link from 66% to 90%. Agnes Glasgow-3544’s 1812 Lloyd Street baptism to William and Ann raises her father link to William Glasgow-3545 (husband of Ann Denham) from 57% to 76%, and their children Robert (1806) and Isabella (1825) are added at 75%.",
       "qualification": "Index transcripts only; the Manchester registers are uninspected. Elizabeth Hurst’s birth about 1834 does not fit an 1842 birth, so that baptism may belong to a younger child. Agnes’s 1833 marriage does not name her father, and another William and Ann Glasgow in Manchester is not excluded. No mother assessments change.",
       "detail_url": "/people/glasgow-2603.html#research-findings",
       "people": [
@@ -71493,6 +71493,12 @@
           "name": "Robert Glasgow",
           "url": "",
           "role": "Son, baptised 1806; father William-3545 extended at 75%"
+        },
+        {
+          "id": "record-ancestry-glasgow-e674965c4c17",
+          "name": "Isabella Glasgow",
+          "url": "",
+          "role": "Daughter, baptised 1825; father William-3545 extended at 75%"
         }
       ],
       "sources": [
@@ -71531,6 +71537,10 @@
         {
           "title": "England, Select Births and Christenings, 1538-1975 — Robert Glasgow, 28 Sep 1806, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England",
           "url": "https://www.ancestry.co.uk/search/collections/9841/records/122660630"
+        },
+        {
+          "title": "England, Select Births and Christenings, 1538-1975 — Isabella Glasgow, 23 Mar 1825, Manchester",
+          "url": "https://www.ancestry.co.uk/search/collections/9841/records/68477306"
         }
       ],
       "relationship_changes": [
@@ -71627,6 +71637,17 @@
           "after": "probable",
           "probability_percent": 75,
           "explanation": "Robert Glasgow, born 5 September 1806 and baptised 28 September 1806 at Lloyd Street Presbyterian Chapel, Manchester, is indexed as a son of William and Ann Glasgow. William Glasgow-3545 married Ann Denham at Manchester on 30 September 1805, and the same chapel baptised Agnes (1812) and William (1816) to William and Ann Glasgow. Robert is the first child of that marriage on chronology and place, so William-3545 is extended to him at 75% probable.",
+          "previous_status_provenance": "No earlier father assessment for this record-defined draft."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-e674965c4c17",
+          "relative": "Glasgow-3545",
+          "action": "add",
+          "before": "unknown",
+          "after": "probable",
+          "probability_percent": 75,
+          "explanation": "Isabella Glasgow was baptised at Manchester on 23 March 1825 to William and Ann Glasgow; the index's mother row is matched to Ann (Denham) Glasgow, wife of William Glasgow-3545 since their 1805 Manchester marriage, whose children Robert (1806), Agnes (1812) and William (1816) were baptised at Lloyd Street. William-3545 is extended to Isabella at 75% probable.",
           "previous_status_provenance": "No earlier father assessment for this record-defined draft."
         }
       ],

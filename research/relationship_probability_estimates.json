@@ -46978,6 +46978,68 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-e674965c4c17",
+      "relative_id": "Glasgow-3545",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-manchester-isabella1825-father-20261105",
+      "basis": "Isabella Glasgow was baptised at Manchester on 23 March 1825 to William and Ann Glasgow; the index's mother row is matched to Ann (Denham) Glasgow, wife of William Glasgow-3545 since their 1805 Manchester marriage, whose children Robert (1806), Agnes (1812) and William (1816) were baptised at Lloyd Street. William-3545 is extended to Isabella at 75% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9841-68477306",
+        "ancestry-9841-68477304",
+        "ancestry-9852-10952888"
+      ],
+      "scope": "Index transcripts only; originals uninspected. The baptism does not give Ann's surname, and another William and Ann Glasgow in Manchester is not excluded. No mother assessment.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3545": "William Glasgow",
+        "record-ancestry-glasgow-e674965c4c17": "Isabella Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3545",
+      "relative_id": "record-ancestry-glasgow-e674965c4c17",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-ancestry-r2-manchester-isabella1825-father-20261105",
+      "basis": "Isabella Glasgow was baptised at Manchester on 23 March 1825 to William and Ann Glasgow; the index's mother row is matched to Ann (Denham) Glasgow, wife of William Glasgow-3545 since their 1805 Manchester marriage, whose children Robert (1806), Agnes (1812) and William (1816) were baptised at Lloyd Street. William-3545 is extended to Isabella at 75% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-9841-68477306",
+        "ancestry-9841-68477304",
+        "ancestry-9852-10952888"
+      ],
+      "scope": "Index transcripts only; originals uninspected. The baptism does not give Ann's surname, and another William and Ann Glasgow in Manchester is not excluded. No mother assessment.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/latest-findings/",
+          "label": "Ancestry index father"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3545": "William Glasgow",
+        "record-ancestry-glasgow-e674965c4c17": "Isabella Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-f0367a88c291",
       "relative_id": "Glasgow-3545",
       "relationship": "father",
