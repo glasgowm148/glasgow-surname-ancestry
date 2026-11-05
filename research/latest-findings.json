@@ -80494,6 +80494,619 @@
         "research/canonical_records.json",
         "research/relationship_assessments.json"
       ]
+    },
+    {
+      "id": "era1649-parent-link-test-20261105",
+      "found_on": "2026-11-05",
+      "kind": "relationship",
+      "finding": "Testing the father and mother links of the 166 catalogue people born 1600-1649 against every saved record dated 1600-1699 (487 Ancestry rows from 60143 and 60144, of which 251 full 60143 transcripts, plus the canonical archive, christening-index and inscription records). Every saved baptism entry is already integrated as a canonical record, so no new child or parent profile was needed; the gap was assessment. 71 parent attachments in the cohort carried no assessment (63 mothers, 8 fathers). They are now assessed separately: 14 proved, 21 probable, 8 possible, 28 uncertain. Mothers named in an entry for the child: Alexander Glasgow-1148's Allexander (1637), Robert Glasgow's Catherine (1627) and Rot. (1618), William Glasgow and Bessie Howie's David (1639), Wm. (1641), Margaret (1643) and William (1648), George Glasgow and Margaret Stewart's Margaret (1610), John Glasgow and Margaret Sluman's John (1639), Thomas Glasgow and Agnes Thomsone's Thomas (1637), Marione (1642) and William (1639). The Currie entry of 1646 names Robert's mother as Janet Glasgow with no father, so Unknown-719146 may be a Glasgow by birth. Three identity or chronology holds: John Bryse-10 (born 1605) cannot be the father of Hellin Bryse (c. 1619; 5%); the two successive wives of James Glasgow-991 (Christina Adamson and Christina Bie) are unsupported by any record and overlap Mid Calder and Inveresk entries (15% each); Christian Scot, named in the 1612 Glasgow baptism of William, is not Catherine Fraser of the South Leith William-3075 household.",
+      "status": "qualified",
+      "qualification": "Ancestry index transcripts and held citations; originals uninspected. Mothers who are only tree attachments are kept at 20-35%. 60144 rows saved to date include no entry naming a bride's or groom's parents before 1650, so no new father was named.",
+      "people": [
+        {
+          "id": "Glasgow-2460",
+          "name": "Agnes Glasgow",
+          "url": "/people/glasgow-2460.html",
+          "role": "Child; mother link assessed 60% probable"
+        },
+        {
+          "id": "Thomsone-70",
+          "name": "Agnes (Thomsone) Glasgow",
+          "url": "/people/thomsone-70.html",
+          "role": "Mother of Agnes Glasgow; Mother of James Glasgow; Mother of Margaret Glasgow; Mother of Marione Glasgow; Mother of Thomas Glasgow; Mother of William Glasgow"
+        },
+        {
+          "id": "Glasgow-1148",
+          "name": "Alexander Glasgow",
+          "url": "/people/glasgow-1148.html",
+          "role": "Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Bie-55",
+          "name": "Christina Glasgow",
+          "url": "/people/bie-55.html",
+          "role": "Mother of Alexander Glasgow; Mother of Cathrin Glasgow; Mother of Eduard Glasgow; Mother of Elizabeth Ann Glasgow; Mother of William Glasgow"
+        },
+        {
+          "id": "Porteous-915",
+          "name": "Alexander Porteous",
+          "url": "/people/porteous-915.html",
+          "role": "Child; mother link assessed 35% possible"
+        },
+        {
+          "id": "Porteous-914",
+          "name": "Porteous-914",
+          "url": "/people/porteous-914.html",
+          "role": "Mother of Alexander Porteous; Mother of Issobell (Porteous) Glasgow"
+        },
+        {
+          "id": "Glasgow-1152",
+          "name": "Allexander Glasgow",
+          "url": "/people/glasgow-1152.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Clerk-296",
+          "name": "Jannet (Clerk) Glasgow",
+          "url": "/people/clerk-296.html",
+          "role": "Mother of Allexander Glasgow; Mother of Bessie Glasgow; Mother of James Glasgow; Mother of John Glasgow; Mother of Marioune Glasgow; Mother of Robert Glasgow"
+        },
+        {
+          "id": "Johnstoun-32",
+          "name": "Archebald Johnstoun",
+          "url": "/people/johnstoun-32.html",
+          "role": "Child; mother link assessed 60% probable"
+        },
+        {
+          "id": "Glasgow-3302",
+          "name": "Barbara Glasgow",
+          "url": "/people/glasgow-3302.html",
+          "role": "Mother of Archebald Johnstoun; Mother of Catharine Johnstoun; Mother of Daniel Johnstoun; Mother of James Johnstoun; Mother of Margaret Johnstoun; Mother of Marion Johnstoun"
+        },
+        {
+          "id": "Glasgow-3078",
+          "name": "Archibald Glasgow",
+          "url": "/people/glasgow-3078.html",
+          "role": "Child; mother link assessed 35% possible"
+        },
+        {
+          "id": "Fraser-15286",
+          "name": "Catherine (Fraser) Glasgow",
+          "url": "/people/fraser-15286.html",
+          "role": "Mother of Archibald Glasgow; Mother of Bessie Glasgow"
+        },
+        {
+          "id": "Glasgow-1083",
+          "name": "Beatrix Glasgow",
+          "url": "/people/glasgow-1083.html",
+          "role": "Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Adamson-3318",
+          "name": "Christina Adamson",
+          "url": "/people/adamson-3318.html",
+          "role": "Mother of Beatrix Glasgow; Mother of George Glasgow; Mother of John Glasgow"
+        },
+        {
+          "id": "Glasgow-3361",
+          "name": "Bessie Glasgow",
+          "url": "/people/glasgow-3361.html",
+          "role": "Child; mother link assessed 85% probable"
+        },
+        {
+          "id": "Glasgow-1155",
+          "name": "Bessie Glasgow",
+          "url": "/people/glasgow-1155.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Johnstoun-33",
+          "name": "Catharine Johnstoun",
+          "url": "/people/johnstoun-33.html",
+          "role": "Child; mother link assessed 60% probable"
+        },
+        {
+          "id": "Little-6307",
+          "name": "Catharine Little",
+          "url": "/people/little-6307.html",
+          "role": "Child; father link assessed 20% uncertain; Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Little-6308",
+          "name": "Johne Little",
+          "url": "/people/little-6308.html",
+          "role": "Father of Catharine Little"
+        },
+        {
+          "id": "Glasgow-567",
+          "name": "Barbara (Glasgow) Little",
+          "url": "/people/glasgow-567.html",
+          "role": "Mother of Catharine Little"
+        },
+        {
+          "id": "Glasgow-1490",
+          "name": "Catherine Glasgow",
+          "url": "/people/glasgow-1490.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Cunningham-20923",
+          "name": "Jonet (Cunningham) Glasgow",
+          "url": "/people/cunningham-20923.html",
+          "role": "Mother of Catherine Glasgow; Mother of Rot. Glasgow"
+        },
+        {
+          "id": "Glasgow-3321",
+          "name": "Cathrin Glasgow",
+          "url": "/people/glasgow-3321.html",
+          "role": "Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Glasgow-2456",
+          "name": "Cristiane Glasgow",
+          "url": "/people/glasgow-2456.html",
+          "role": "Child; mother link assessed 35% possible"
+        },
+        {
+          "id": "Hamilton-31734",
+          "name": "Catherine (Hamilton) Glasgow",
+          "url": "/people/hamilton-31734.html",
+          "role": "Mother of Cristiane Glasgow; Mother of Edward Glasgow; Mother of Jonet (Glasgow) Logan; Mother of Mary Glasgow"
+        },
+        {
+          "id": "Johnstoun-31",
+          "name": "Daniel Johnstoun",
+          "url": "/people/johnstoun-31.html",
+          "role": "Child; mother link assessed 60% probable"
+        },
+        {
+          "id": "Glasgow-1518",
+          "name": "David Glasgow",
+          "url": "/people/glasgow-1518.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Howie-1119",
+          "name": "Bessie (Howie) Glasgow",
+          "url": "/people/howie-1119.html",
+          "role": "Mother of David Glasgow; Mother of Margaret Glasgow; Mother of William Glasgow"
+        },
+        {
+          "id": "Glasgow-994",
+          "name": "Eduard Glasgow",
+          "url": "/people/glasgow-994.html",
+          "role": "Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Glasgow-1558",
+          "name": "Edward Glasgow",
+          "url": "/people/glasgow-1558.html",
+          "role": "Child; mother link assessed 35% possible"
+        },
+        {
+          "id": "Glasgow-3519",
+          "name": "Edward Travis Glasgow",
+          "url": "/people/glasgow-3519.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Johnson-102174",
+          "name": "Ann (Johnson) Glasgow",
+          "url": "/people/johnson-102174.html",
+          "role": "Mother of Edward Travis Glasgow; Mother of Robert Glasgow"
+        },
+        {
+          "id": "Glasgow-3144",
+          "name": "Elizabeth Ann Glasgow",
+          "url": "/people/glasgow-3144.html",
+          "role": "Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Glasgow-1082",
+          "name": "George Glasgow",
+          "url": "/people/glasgow-1082.html",
+          "role": "Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Bryse-8",
+          "name": "Hellin (Bryse) Glasgow",
+          "url": "/people/bryse-8.html",
+          "role": "Child; father link assessed 5% uncertain; Mother of Jannet Glasgow"
+        },
+        {
+          "id": "Bryse-10",
+          "name": "John Bryse",
+          "url": "/people/bryse-10.html",
+          "role": "Father of Hellin (Bryse) Glasgow; Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Porteous-912",
+          "name": "Issobell (Porteous) Glasgow",
+          "url": "/people/porteous-912.html",
+          "role": "Child; mother link assessed 35% possible; Mother of Issobell Glasgow"
+        },
+        {
+          "id": "Glasgow-1438",
+          "name": "Issobell Glasgow",
+          "url": "/people/glasgow-1438.html",
+          "role": "Child; mother link assessed 85% probable"
+        },
+        {
+          "id": "Glasgow-3077",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3077.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-1150",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1150.html",
+          "role": "Child; mother link assessed 35% possible"
+        },
+        {
+          "id": "Ivey-2264",
+          "name": "Deborah (Ivey) Glasgow",
+          "url": "/people/ivey-2264.html",
+          "role": "Mother of James Glasgow"
+        },
+        {
+          "id": "Glasgow-3923",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3923.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-3332",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3332.html",
+          "role": "Child; father link assessed 20% uncertain; Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-1086",
+          "name": "Jhone Glasgow",
+          "url": "/people/glasgow-1086.html",
+          "role": "Father of James Glasgow; Child; father link assessed 90% proved"
+        },
+        {
+          "id": "Unknown-717333",
+          "name": "Jonet Kinnie?",
+          "url": "/people/unknown-717333.html",
+          "role": "Mother of James Glasgow; Mother of John Glasgow"
+        },
+        {
+          "id": "Glasgow-3107",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-3107.html",
+          "role": "Child; father link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-1084",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1084.html",
+          "role": "Father of James Glasgow; Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Johnstoun-30",
+          "name": "James Johnstoun",
+          "url": "/people/johnstoun-30.html",
+          "role": "Child; mother link assessed 60% probable"
+        },
+        {
+          "id": "Wilson-142005",
+          "name": "James Wilson",
+          "url": "/people/wilson-142005.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-3179",
+          "name": "Geillis Glasgow",
+          "url": "/people/glasgow-3179.html",
+          "role": "Mother of James Wilson"
+        },
+        {
+          "id": "Glasgow-1104",
+          "name": "Jannet Glasgow",
+          "url": "/people/glasgow-1104.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-3296",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3296.html",
+          "role": "Father of Jhone Glasgow"
+        },
+        {
+          "id": "Alexander-32252",
+          "name": "Alexander-32252",
+          "url": "/people/alexander-32252.html",
+          "role": "Mother of John Bryse"
+        },
+        {
+          "id": "Glasgow-1151",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1151.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-3014",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3014.html",
+          "role": "Child; mother link assessed 85% probable"
+        },
+        {
+          "id": "Patoune-11",
+          "name": "Helen (Patoune) Glasgow",
+          "url": "/people/patoune-11.html",
+          "role": "Mother of John Glasgow"
+        },
+        {
+          "id": "Glasgow-3331",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-3331.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-1559",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1559.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Sluman-45",
+          "name": "Margaret (Sluman) Glasgow",
+          "url": "/people/sluman-45.html",
+          "role": "Mother of John Glasgow"
+        },
+        {
+          "id": "Glasgow-1604",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1604.html",
+          "role": "Child; father link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-1603",
+          "name": "Hugh Glasgow",
+          "url": "/people/glasgow-1603.html",
+          "role": "Father of John Glasgow"
+        },
+        {
+          "id": "Glassfuird-1",
+          "name": "John Glassford",
+          "url": "/people/glassfuird-1.html",
+          "role": "Child; mother link assessed 35% possible"
+        },
+        {
+          "id": "Blair-16146",
+          "name": "Blair-16146",
+          "url": "/people/blair-16146.html",
+          "role": "Mother of John Glassford"
+        },
+        {
+          "id": "Glasgow-1494",
+          "name": "Jonet (Glasgow) Logan",
+          "url": "/people/glasgow-1494.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-3061",
+          "name": "Jonet (Glasgow) Stewart",
+          "url": "/people/glasgow-3061.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Stewart-65226",
+          "name": "Margaret (Stewart) Glasgow",
+          "url": "/people/stewart-65226.html",
+          "role": "Mother of Jonet (Glasgow) Stewart; Mother of Margaret Glasgow; Mother of Thomas Glasgow; Mother of William Glasgow"
+        },
+        {
+          "id": "Glasgow-1100",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-1100.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-1524",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-1524.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-3050",
+          "name": "Margaret Glasgow",
+          "url": "/people/glasgow-3050.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Johnstoun-48",
+          "name": "Margaret Johnstoun",
+          "url": "/people/johnstoun-48.html",
+          "role": "Child; mother link assessed 60% probable"
+        },
+        {
+          "id": "Symington-722",
+          "name": "Margaret Symington",
+          "url": "/people/symington-722.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-3336",
+          "name": "Isobel Glasgow",
+          "url": "/people/glasgow-3336.html",
+          "role": "Mother of Margaret Symington; Mother of William Symington"
+        },
+        {
+          "id": "Johnstoun-47",
+          "name": "Marion Johnstoun",
+          "url": "/people/johnstoun-47.html",
+          "role": "Child; mother link assessed 60% probable"
+        },
+        {
+          "id": "Glasgow-3049",
+          "name": "Marione Glasgow",
+          "url": "/people/glasgow-3049.html",
+          "role": "Child; mother link assessed 88% proved"
+        },
+        {
+          "id": "Glasgow-1429",
+          "name": "Marioune Glasgow",
+          "url": "/people/glasgow-1429.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-3539",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-3539.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Prime-957",
+          "name": "Richard Prime",
+          "url": "/people/prime-957.html",
+          "role": "Child; father link assessed 20% uncertain; Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Prime-958",
+          "name": "Richard Prime",
+          "url": "/people/prime-958.html",
+          "role": "Father of Richard Prime"
+        },
+        {
+          "id": "Unknown-765128",
+          "name": "Alis Prime",
+          "url": "/people/unknown-765128.html",
+          "role": "Mother of Richard Prime"
+        },
+        {
+          "id": "Glasgow-1149",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1149.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-3357",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-3357.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Unknown-719146",
+          "name": "Janet (Unknown) Glasgow",
+          "url": "/people/unknown-719146.html",
+          "role": "Mother of Robert Glasgow"
+        },
+        {
+          "id": "Glasgow-1526",
+          "name": "Robert Glasgow",
+          "url": "/people/glasgow-1526.html",
+          "role": "Child; mother link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-1157",
+          "name": "Robert Glasgow II",
+          "url": "/people/glasgow-1157.html",
+          "role": "Child; father link assessed 20% uncertain"
+        },
+        {
+          "id": "Glasgow-1557",
+          "name": "Edward Glasgow",
+          "url": "/people/glasgow-1557.html",
+          "role": "Father of Robert Glasgow II"
+        },
+        {
+          "id": "Glasgow-1078",
+          "name": "Rot. Glasgow",
+          "url": "/people/glasgow-1078.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-1103",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-1103.html",
+          "role": "Child; mother link assessed 72% probable"
+        },
+        {
+          "id": "Glasgow-2461",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-2461.html",
+          "role": "Child; mother link assessed 88% proved"
+        },
+        {
+          "id": "Glasgow-3187",
+          "name": "Thomas Glasgow",
+          "url": "/people/glasgow-3187.html",
+          "role": "Child; mother link assessed 55% probable"
+        },
+        {
+          "id": "Mathie-159",
+          "name": "Jonet (Mathie) Glasgow",
+          "url": "/people/mathie-159.html",
+          "role": "Mother of Thomas Glasgow"
+        },
+        {
+          "id": "Glasgow-1556",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1556.html",
+          "role": "Child; mother link assessed 85% probable"
+        },
+        {
+          "id": "Scot-373",
+          "name": "Christian (Scot) Glasgow",
+          "url": "/people/scot-373.html",
+          "role": "Mother of William Glasgow"
+        },
+        {
+          "id": "Glasgow-3517",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-3517.html",
+          "role": "Child; mother link assessed 15% uncertain"
+        },
+        {
+          "id": "Glasgow-1497",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1497.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-992",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-992.html",
+          "role": "Child; mother link assessed 55% probable"
+        },
+        {
+          "id": "Glasgow-2462",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-2462.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Glasgow-1521",
+          "name": "William Glasgow",
+          "url": "/people/glasgow-1521.html",
+          "role": "Child; mother link assessed 90% proved"
+        },
+        {
+          "id": "Symington-724",
+          "name": "William Symington",
+          "url": "/people/symington-724.html",
+          "role": "Child; mother link assessed 35% possible"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Births and Baptisms, 1564-1950 (Ancestry 60143)",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/"
+        },
+        {
+          "title": "Scotland, Select Marriages, 1561-1910 (Ancestry 60144)",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/"
+        }
+      ],
+      "detail_url": "/people/glasgow-1148.html#research-findings",
+      "provenance": [
+        "research/canonical_records.json",
+        "research/relationship_assessments.json"
+      ]
     }
   ]
 }
