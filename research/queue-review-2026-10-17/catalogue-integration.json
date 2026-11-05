@@ -398818,6 +398818,110 @@
         "latest_birth_year": 1847,
         "reason": "The 1911 census index records age 65 and estimates birth about 1846."
       }
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-benjamin-belfast-1908",
+      "subject_id": "ancestry-glasgow-benjamin-belfast-1908",
+      "name": "Benjamin Glasgow",
+      "first_names": [
+        "Benjamin"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "about 1835",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/2193/records/166245",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-belfast-residence-holds-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index names Benjamin Glasgow, aged 73, and classifies the entry as residence. It gives 16 Nov 1908 as the event date and 17 Nov 1908 as the publication date.<ref>[https://www.ancestry.co.uk/search/collections/2193/records/166245 Ancestry, Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738–1925: Benjamin Glasgow, 17 Nov 1908, record 2193/166245].</ref>\n\n== Research Notes ==\nThe index gives his age as 73. His birthplace and earlier identity remain open.\n\n== Sources ==\n<references />\n",
+      "assessment": "Named documentary subject; wider identity unresolved.",
+      "current_conclusion": "The index gives his age as 73. His birthplace and earlier identity remain open.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "historical_basis": {
+        "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/166245",
+        "latest_birth_year": 1836,
+        "reason": "The index gives age 73 and estimates birth about 1835."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738–1925: Benjamin Glasgow, 17 Nov 1908, record 2193/166245",
+          "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/166245",
+          "source_type": "Provider index transcript",
+          "date": "17 Nov 1908",
+          "year": 1908,
+          "place": "",
+          "indexed_facts": {
+            "Name": "Benjamin Glasgow",
+            "Gender": "Male",
+            "Residence Age": "73",
+            "Record Type": "Residence",
+            "Birth Date": "abt 1835",
+            "Residence Date": "16 Nov 1908",
+            "Publication Date": "17 Nov 1908"
+          },
+          "note": "The index names Benjamin Glasgow, aged 73, and classifies the entry as residence. It gives 16 Nov 1908 as the event date and 17 Nov 1908 as the publication date."
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-patrick-jn-belfast-1914",
+      "subject_id": "ancestry-glasgow-patrick-jn-belfast-1914",
+      "name": "Patrick J N Glasgow",
+      "first_names": [
+        "Patrick",
+        "J",
+        "N"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "about 1875",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/2193/records/193598",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-belfast-residence-holds-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index names Mr Patrick J N Glasgow, aged 39, and classifies the entry as residence. It gives 1914 as the event date and 10 Oct 1914 as the publication date.<ref>[https://www.ancestry.co.uk/search/collections/2193/records/193598 Ancestry, Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738–1925: Mr Patrick J N Glasgow, 10 Oct 1914, record 2193/193598].</ref>\n\n== Research Notes ==\nThe index gives his age as 39. The initials do not establish his full name.\n\n== Sources ==\n<references />\n",
+      "assessment": "Named documentary subject; wider identity unresolved.",
+      "current_conclusion": "The index gives his age as 39. The initials do not establish his full name.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "historical_basis": {
+        "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/193598",
+        "latest_birth_year": 1876,
+        "reason": "The index gives age 39 and estimates birth about 1875."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Belfast, Northern Ireland, The Belfast Newsletter (Birth, Marriage and Death Notices), 1738–1925: Mr Patrick J N Glasgow, 10 Oct 1914, record 2193/193598",
+          "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/193598",
+          "source_type": "Provider index transcript",
+          "date": "10 Oct 1914",
+          "year": 1914,
+          "place": "",
+          "indexed_facts": {
+            "Name": "Mr Patrick J N Glasgow",
+            "Gender": "Male",
+            "Residence Age": "39",
+            "Record Type": "Residence",
+            "Birth Date": "abt 1875",
+            "Residence Date": "1914",
+            "Publication Date": "10 Oct 1914"
+          },
+          "note": "The index names Mr Patrick J N Glasgow, aged 39, and classifies the entry as residence. It gives 1914 as the event date and 10 Oct 1914 as the publication date."
+        }
+      ]
     }
   ]
 }
