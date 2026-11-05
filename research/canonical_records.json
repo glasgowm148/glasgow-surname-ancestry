@@ -429390,5 +429390,948 @@
       "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/91571",
       "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
     }
+  },
+  {
+    "record_id": "ancestry-2352-22485258",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/22485258",
+    "collection": "1911 England Census",
+    "person": "Richard Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/22485258",
+    "source_title": "Ancestry, 1911 England Census: Richard Glasgow, record 2352/22485258",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Richard Glasgow",
+      "Age in 1911": "6",
+      "Estimated Birth Year": "abt 1905",
+      "Relation to Head": "Son",
+      "Gender": "Male",
+      "Birth Place": "Burnley, Lancashire, England",
+      "Civil parish": "Burnley",
+      "County/Island": "Lancashire",
+      "Country": "England",
+      "Street Address": "292 Lowerhouse Lane Burnley Lancs",
+      "Registration District Number": "472",
+      "Sub-registration district": "West Ward",
+      "ED, institution, or vessel": "27",
+      "Piece": "24850",
+      "Household head": "George Edwin Glasgow"
+    },
+    "event_role": "indexed household member",
+    "association": "Richard Glasgow — 1911 census",
+    "status": "Documentary source; identity held",
+    "date": "2 Apr 1911",
+    "year": 1911,
+    "place": "292 Lowerhouse Lane Burnley Lancs",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-richard-burnley-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Richard Glasgow was listed as son in the household of George Edwin Glasgow, 292 Lowerhouse Lane Burnley Lancs. Age: six; indexed birthplace: Burnley, Lancashire, England. The reported age places birth between April 1904 and April 1905.",
+    "provenance": "The National Archives, census returns of England and Wales, RG 14; Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1905,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/22485258",
+      "reason": "Age six at the 2 April 1911 census places the named subject’s birth no later than 2 April 1905."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-22485251"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-24410013",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/24410013",
+    "collection": "1911 England Census",
+    "person": "Norman Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/24410013",
+    "source_title": "Ancestry, 1911 England Census: Norman Glasgow, record 2352/24410013",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Norman Glasgow",
+      "Age in 1911": "6",
+      "Estimated Birth Year": "abt 1905",
+      "Relation to Head": "Son",
+      "Gender": "Male",
+      "Birth Place": "Bolton, Lancashire, England",
+      "Civil parish": "Bolton",
+      "County/Island": "Lancashire",
+      "Country": "England",
+      "Street Address": "36 Whittaker St Bolton",
+      "Registration District Number": "461",
+      "Sub-registration district": "Great Bolton and Lever",
+      "ED, institution, or vessel": "12",
+      "Piece": "23421",
+      "Household head": "Peter Glasgow"
+    },
+    "event_role": "indexed household member",
+    "association": "Norman Glasgow — 1911 census",
+    "status": "Probable catalogue identity",
+    "date": "2 Apr 1911",
+    "year": 1911,
+    "place": "36 Whittaker St Bolton",
+    "country": "England",
+    "profiles": {
+      "record-anc-norman-glasgow-1904-74304": {
+        "role": "Probable subject; full name, exact Bolton address and age agree",
+        "assessment": "probable",
+        "timeline_group": "Census and residence"
+      }
+    },
+    "note": "Norman Glasgow was listed as son in the household of Peter Glasgow, 36 Whittaker St Bolton. Age: six; indexed birthplace: Bolton, Lancashire, England. The reported age places birth between April 1904 and April 1905. The 1939 register gives Norman Glasgow at the same address, born 17 November 1904.",
+    "provenance": "The National Archives, census returns of England and Wales, RG 14; Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1905,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/24410013",
+      "reason": "Age six at the 2 April 1911 census places the named subject’s birth no later than 2 April 1905."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-24410003",
+      "ancestry-61596-43174304"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35787138",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35787138",
+    "collection": "1911 England Census",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35787138",
+    "source_title": "Ancestry, 1911 England Census: William Glasgow, record 2352/35787138",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Age in 1911": "6",
+      "Estimated Birth Year": "abt 1905",
+      "Relation to Head": "Son",
+      "Gender": "Male",
+      "Birth Place": "Middlesbrough, Yorkshire, England",
+      "Civil parish": "Middlesbrough",
+      "County/Island": "Yorkshire-North Riding",
+      "Country": "England",
+      "Street Address": "2 Olive St Middlesbrough",
+      "Occupation": "School",
+      "Registration District Number": "535",
+      "Sub-registration district": "Middlesbrough West",
+      "ED, institution, or vessel": "06",
+      "Piece": "29269",
+      "Household head": "Robert Glasgow"
+    },
+    "event_role": "indexed household member",
+    "association": "William Glasgow — 1911 census",
+    "status": "Documentary source; identity held",
+    "date": "2 Apr 1911",
+    "year": 1911,
+    "place": "2 Olive St Middlesbrough",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-william-middlesbrough-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "William Glasgow was listed as son in the household of Robert Glasgow, 2 Olive St Middlesbrough. Age: six; indexed birthplace: Middlesbrough, Yorkshire, England. The reported age places birth between April 1904 and April 1905.",
+    "provenance": "The National Archives, census returns of England and Wales, RG 14; Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1905,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35787138",
+      "reason": "Age six at the 2 April 1911 census places the named subject’s birth no later than 2 April 1905."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-35787133"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35869738",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35869738",
+    "collection": "1911 England Census",
+    "person": "Elsie Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35869738",
+    "source_title": "Ancestry, 1911 England Census: Elsie Glasgow, record 2352/35869738",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Elsie Glasgow",
+      "Age in 1911": "6",
+      "Estimated Birth Year": "abt 1905",
+      "Relation to Head": "Daughter",
+      "Gender": "Female",
+      "Birth Place": "Dunston, Durham, England",
+      "Civil parish": "Whickham",
+      "County/Island": "Durham",
+      "Country": "England",
+      "Street Address": "31 Renforth St Dunston",
+      "Occupation": "School",
+      "Registration District Number": "557",
+      "Sub-registration district": "Whickham",
+      "ED, institution, or vessel": "06",
+      "Piece": "30501",
+      "Household head": "William Glasgow"
+    },
+    "event_role": "indexed household member",
+    "association": "Elsie Glasgow — 1911 census",
+    "status": "Documentary source; identity held",
+    "date": "2 Apr 1911",
+    "year": 1911,
+    "place": "31 Renforth St Dunston",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-elsie-dunston-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Elsie Glasgow was listed as daughter in the household of William Glasgow, 31 Renforth St Dunston. Age: six; indexed birthplace: Dunston, Durham, England. The reported age places birth between April 1904 and April 1905.",
+    "provenance": "The National Archives, census returns of England and Wales, RG 14; Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1905,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35869738",
+      "reason": "Age six at the 2 April 1911 census places the named subject’s birth no later than 2 April 1905."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-35869731"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-40574994",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/40574994",
+    "collection": "1911 England Census",
+    "person": "Frances Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40574994",
+    "source_title": "Ancestry, 1911 England Census: Frances Glasgow, record 2352/40574994",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Frances Slasgow",
+      "Age in 1911": "6",
+      "Estimated Birth Year": "abt 1905",
+      "Relation to Head": "Grand Daughter (Granddaughter)",
+      "Gender": "Female",
+      "Birth Place": "Chesham, Buckinghamshire, England",
+      "Civil parish": "Chesham",
+      "County/Island": "Buckinghamshire",
+      "Country": "England",
+      "Street Address": "4 Vale Road, Chesham, Bucks",
+      "Registration District Number": "143",
+      "Sub-registration district": "Chesham",
+      "ED, institution, or vessel": "07",
+      "Piece": "7794",
+      "Alternate indexed names": "Frances Glasgow",
+      "Household head": "Sarah Aitken"
+    },
+    "event_role": "indexed household member",
+    "association": "Frances Glasgow — 1911 census",
+    "status": "Documentary source; identity held",
+    "date": "2 Apr 1911",
+    "year": 1911,
+    "place": "4 Vale Road, Chesham, Bucks",
+    "country": "England",
+    "profiles": {},
+    "note": "Frances Slasgow was listed as grand daughter (granddaughter) in the household of Sarah Aitken, 4 Vale Road, Chesham, Bucks. Age: six; indexed birthplace: Chesham, Buckinghamshire, England. The reported age places birth between April 1904 and April 1905. The alternate name is Frances Glasgow. The exact later identity remains unresolved.",
+    "provenance": "The National Archives, census returns of England and Wales, RG 14; Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1905,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40574994",
+      "reason": "Age six at the 2 April 1911 census places the named subject’s birth no later than 2 April 1905."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-40574992",
+      "ancestry-2352-40574993",
+      "ancestry-61596-15556956"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-55637650",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/55637650",
+    "collection": "1911 England Census",
+    "person": "Minne Evelyn Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/55637650",
+    "source_title": "Ancestry, 1911 England Census: Minne Evelyn Glasgow, record 2352/55637650",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Minne Evelyn Glasgow",
+      "Age in 1911": "6",
+      "Estimated Birth Year": "abt 1905",
+      "Relation to Head": "Daughter",
+      "Gender": "Female",
+      "Birth Place": "Bromsgrove, Worcestershire",
+      "Civil parish": "Bristol",
+      "County/Island": "Gloucestershire",
+      "Country": "England",
+      "Street Address": "Elephant & Castle, 1 Merchant St",
+      "Registration District Number": "319",
+      "Sub-registration district": "Bristol Central",
+      "ED, institution, or vessel": "14",
+      "Piece": "14875",
+      "Alternate indexed names": "Minne Evelyn George",
+      "Household head": "Amy Isabel Glasgow"
+    },
+    "event_role": "indexed household member",
+    "association": "Minne Evelyn Glasgow — 1911 census",
+    "status": "Documentary source; identity held",
+    "date": "2 Apr 1911",
+    "year": 1911,
+    "place": "Elephant & Castle, 1 Merchant St",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-minne-evelyn-bristol-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Minne Evelyn Glasgow was listed as daughter in the household of Amy Isabel Glasgow, Elephant & Castle, 1 Merchant St. Age: six; indexed birthplace: Bromsgrove, Worcestershire. The reported age places birth between April 1904 and April 1905. The alternate name is Minne Evelyn George; no birth surname is assigned.",
+    "provenance": "The National Archives, census returns of England and Wales, RG 14; Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1905,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/55637650",
+      "reason": "Age six at the 2 April 1911 census places the named subject’s birth no later than 2 April 1905."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-55637652"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-10043176",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/10043176",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "D Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/10043176",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: D Glasgow, 1862, record 3145/10043176",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "D Glasgow",
+      "Publication Year": "1862",
+      "Address": "Cross street",
+      "Residence Place": "Birmingham, Warwickshire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "D Glasgow — 1862 directory",
+    "status": "Probable catalogue identity",
+    "date": "1862",
+    "year": 1862,
+    "place": "Birmingham, Warwickshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-david-cross-street-birmingham-1850": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The initial, Cross Street and Birmingham agree with the 1862 David Glasgow engineering listing.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-10056912"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-11116536",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/11116536",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Mrs S Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/11116536",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Mrs S Glasgow, 1870, record 3145/11116536",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Mrs S Glasgow",
+      "Gender": "Female",
+      "Publication Year": "1870",
+      "Address": "83 Stobcross at",
+      "Residence Place": "Glasgow, Scotland"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Mrs S Glasgow — 1870 directory",
+    "status": "Documentary source; identity held",
+    "date": "1870",
+    "year": 1870,
+    "place": "Glasgow, Scotland",
+    "country": "Scotland",
+    "profiles": {},
+    "note": "This entry gives Mrs S Glasgow and 83 Stobcross at; the same-year companion gives Mrs Glasgow, 83 Stobcross St. Neither provides a full given name.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-11086203"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-14894803",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/14894803",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "A Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/14894803",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: A Glasgow, 1894, record 3145/14894803",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "A Glasgow",
+      "Publication Year": "1894",
+      "Address": "279 Scotswood rdNewcastle",
+      "Residence Place": "Northumberland, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "A Glasgow — 1894 directory",
+    "status": "Probable catalogue identity",
+    "date": "1894",
+    "year": 1894,
+    "place": "Northumberland, England",
+    "country": "England",
+    "profiles": {
+      "record-anc-andrew-glasgow-1857-43043": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The initial and 279 Scotswood Road agree with the 1894 chimney-sweep entry and the 1911 Andrew Glasgow household.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-14920101",
+      "ancestry-2352-35743043"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-17586407",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/17586407",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "J Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/17586407",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: J Glasgow, 1891, record 3145/17586407",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "J Glasgow",
+      "Publication Year": "1891",
+      "Address": "2 Townsend rd Chesham SO",
+      "Residence Place": "Buckinghamshire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "J Glasgow — 1891 directory",
+    "status": "Probable catalogue identity",
+    "date": "1891",
+    "year": 1891,
+    "place": "Buckinghamshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-joseph-chesham-1911": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The initial and 2 Townsend Road agree with the 1891 Jodeph Glasgow entry and the 1895 full-name listing. The 1911 census records a Joseph Glasgow, shoemaker, at a different address in Chesham.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-17586529",
+      "ancestry-3145-2663497",
+      "ancestry-2352-40574992"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-17586529",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/17586529",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Jodeph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/17586529",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Jodeph Glasgow, 1891, record 3145/17586529",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Jodeph Glasgow",
+      "Publication Year": "1891",
+      "Address": "2 Townsend road",
+      "Residence Place": "Buckinghamshire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Jodeph Glasgow — 1891 directory",
+    "status": "Probable catalogue identity",
+    "date": "1891",
+    "year": 1891,
+    "place": "Buckinghamshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-joseph-chesham-1911": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index spells the given name Jodeph. The address agrees with the same-year initial entry and the 1895 Joseph Glasgow listing.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-17586407",
+      "ancestry-3145-2663497"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-18974290",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/18974290",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "D Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/18974290",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: D Glasgow, 1850, record 3145/18974290",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "D Glasgow",
+      "Publication Year": "1850",
+      "Address": "10 Cross street",
+      "Residence Place": "Warwickshire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "D Glasgow — 1850 directory",
+    "status": "Probable catalogue identity",
+    "date": "1850",
+    "year": 1850,
+    "place": "Warwickshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-david-cross-street-birmingham-1850": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The initial and 10 Cross Street agree with the 1850 David Glasgow directory entry.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-18969320"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-2659593",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/2659593",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Joseph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/2659593",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Joseph Glasgow, 1895, record 3145/2659593",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Joseph Glasgow",
+      "Publication Year": "1895",
+      "Address": "Townsend road",
+      "Residence Place": "Buckinghamshire, England",
+      "Occupation": "Boot Manufacturer"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Joseph Glasgow — 1895 directory",
+    "status": "Probable catalogue identity",
+    "date": "1895",
+    "year": 1895,
+    "place": "Buckinghamshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-joseph-chesham-1911": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives Townsend Road and the occupation boot manufacturer. The 1895 companion supplies the house number; the 1911 census names a Joseph Glasgow shoemaker in Chesham.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-2663497",
+      "ancestry-2352-40574992"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-2663497",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/2663497",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Joseph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/2663497",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Joseph Glasgow, 1895, record 3145/2663497",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Joseph Glasgow",
+      "Publication Year": "1895",
+      "Address": "2 Townsend road",
+      "Residence Place": "Buckinghamshire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Joseph Glasgow — 1895 directory",
+    "status": "Probable catalogue identity",
+    "date": "1895",
+    "year": 1895,
+    "place": "Buckinghamshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-joseph-chesham-1911": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives 2 Townsend Road; the companion gives Townsend Road and boot manufacturer. A 1911 Joseph Glasgow shoemaker is a probable match.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-2659593",
+      "ancestry-2352-40574992"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-2931049",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/2931049",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Mrs Ann Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/2931049",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Mrs Ann Glasgow, 1852, record 3145/2931049",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Mrs Ann Glasgow",
+      "Gender": "Female",
+      "Publication Year": "1852",
+      "Address": "55 Liverpool road",
+      "Residence Place": "Manchester, Lancashire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Mrs Ann Glasgow — 1852 directory",
+    "status": "Documentary source; identity held",
+    "date": "1852",
+    "year": 1852,
+    "place": "Manchester, Lancashire, England",
+    "country": "England",
+    "profiles": {},
+    "note": "Mrs Ann Glasgow is listed at 55 Liverpool Road. The index does not name a spouse.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-3145-5833551",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/5833551",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "P Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/5833551",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: P Glasgow, 1858, record 3145/5833551",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "P Glasgow",
+      "Publication Year": "1858",
+      "Address": "139 High stwB Sunderland",
+      "Residence Place": "Durham, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "P Glasgow — 1858 directory",
+    "status": "Documentary source; identity held",
+    "date": "1858",
+    "year": 1858,
+    "place": "Durham, England",
+    "country": "England",
+    "profiles": {},
+    "note": "The address and initial agree with the 1858 Peter Glasgow directory entry. The index gives Sunderland in the address field.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-5820629"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-6005931",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/6005931",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Mrs H Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/6005931",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Mrs H Glasgow, 1889, record 3145/6005931",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Mrs H Glasgow",
+      "Gender": "Female",
+      "Publication Year": "1889",
+      "Address": "30 Anioy St S'hamptn",
+      "Residence Place": "Hampshire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Mrs H Glasgow — 1889 directory",
+    "status": "Probable catalogue identity",
+    "date": "1889",
+    "year": 1889,
+    "place": "Hampshire, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-henrietta-amoy-street-1889": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives Mrs H Glasgow and 30 Anioy St. Compare the same-year Mrs Henrietta Glasgow entry giving 30 Amoy Street.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-6001757"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-6257871",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/6257871",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/6257871",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: John Glasgow, 1855, record 3145/6257871",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Publication Year": "1855",
+      "Address": "25 ' 2 Rafiord St",
+      "Residence Place": "Manchester, Lancashire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "John Glasgow — 1855 directory",
+    "status": "Documentary source; identity held",
+    "date": "1855",
+    "year": 1855,
+    "place": "Manchester, Lancashire, England",
+    "country": "England",
+    "profiles": {},
+    "note": "The index gives John Glasgow in Manchester; the address is indexed as 25 ' 2 Rafiord St. No identity is assigned.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-3145-6261904",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/6261904",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/6261904",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: John Glasgow, 1855, record 3145/6261904",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Publication Year": "1855",
+      "Address": "27 TratFord St Deansgate",
+      "Residence Place": "Manchester, Lancashire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "John Glasgow — 1855 directory",
+    "status": "Documentary source; identity held",
+    "date": "1855",
+    "year": 1855,
+    "place": "Manchester, Lancashire, England",
+    "country": "England",
+    "profiles": {},
+    "note": "The index gives John Glasgow at 27 TratFord St Deansgate. Same-name Manchester directory subjects remain separate.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-3145-8443356",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/8443356",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "A Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/8443356",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: A Glasgow, 1887, record 3145/8443356",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "A Glasgow",
+      "Publication Year": "1887",
+      "Address": "279 Scotswood road",
+      "Residence Place": "Newcastle Upon Tyne, Northumberland, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "A Glasgow — 1887 directory",
+    "status": "Probable catalogue identity",
+    "date": "1887",
+    "year": 1887,
+    "place": "Newcastle Upon Tyne, Northumberland, England",
+    "country": "England",
+    "profiles": {
+      "record-anc-andrew-glasgow-1857-43043": {
+        "role": "Probable indexed subject; see the address and trade comparison",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The initial and exact address 279 Scotswood Road agree with Andrew Glasgow in the 1883 directory and 1911 census.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-3145-18371005",
+      "ancestry-2352-35743043"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-8923484",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/8923484",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Mrs William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/8923484",
+    "source_title": "Ancestry, UK, City and County Directories, 1766–1946: Mrs William Glasgow, 1848, record 3145/8923484",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Mrs William Glasgow",
+      "Gender": "Female",
+      "Publication Year": "1848",
+      "Address": "34 Great Bridge-",
+      "Residence Place": "Lancashire, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "Mrs William Glasgow — 1848 directory",
+    "status": "Documentary source; identity held",
+    "date": "1848",
+    "year": 1848,
+    "place": "Lancashire, England",
+    "country": "England",
+    "profiles": {},
+    "note": "Mrs William Glasgow is listed with the partial address 34 Great Bridge-. The entry does not give her own first name.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
   }
 ]
