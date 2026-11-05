@@ -3,7 +3,8 @@ from pathlib import Path
 import subprocess
 import unittest
 
-from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes, named_father_review_counts, missing_father_priorities
+from tools.build_ancestry_progress import individual_finding_rows, pending_father_changes, named_father_review_counts, missing_father_priorities, parent_bands, parent_band_counts, PARENT_BANDS
+from tools.branch_connectivity import has_named_father, summarize
 
 
 class MissingFatherPriorityTests(unittest.TestCase):
@@ -31,6 +32,63 @@ class MissingFatherPriorityTests(unittest.TestCase):
                  dict(child='root', father='child', status='possible')]
         row, = missing_father_priorities(nodes, edges, {'root', 'child'}, {'root': False, 'child': True})
         self.assertEqual(row['child_side'], 2)
+
+
+class ParentBandTests(unittest.TestCase):
+    def dossier(self, *parents):
+        return {'relationships': {'parents': list(parents)}}
+
+    def test_each_slot_takes_its_retained_parent_band(self):
+        cases = [
+            (self.dossier(dict(relationship='Father', id='F-1', name='John', status='proved'),
+                          dict(relationship='mother', id='M-1', name='Jean', status='probable')),
+             {'father': 'confident', 'mother': 'probable'}),
+            (self.dossier(dict(relationship='father', id='F-1', name='John', status='unknown', tree_status='confident'),
+                          dict(relationship='mother', id='M-1', name='Jean', status='unmarked')),
+             {'father': 'confident', 'mother': 'unmarked'}),
+            # Placeholders, alternatives and excluded links leave the slot unknown.
+            (self.dossier(dict(relationship='father', id='F-0', name='Unknown Glasgow', status='uncertain'),
+                          dict(relationship='mother', id='M-2', name='Ann', status='possible', display='alternative'),
+                          dict(relationship='stepmother', id='M-3', name='Kate', status='proved')),
+             {'father': 'unknown', 'mother': 'unknown'}),
+            (self.dossier(dict(relationship='father', id='F-2', name='Hugh', status='contradicted')),
+             {'father': 'unknown', 'mother': 'unknown'}),
+        ]
+        for dossier, expected in cases:
+            self.assertEqual(parent_bands(dossier), expected)
+            # The father slot agrees with the Unknown fathers listing rule.
+            self.assertEqual(expected['father'] != 'unknown', has_named_father(dossier))
+
+    def test_competing_fathers_prefer_the_approved_working_selection(self):
+        dossier = self.dossier(
+            dict(relationship='father', id='F-1', name='John', status='uncertain', tree_relationship=True),
+            dict(relationship='father', id='F-2', name='Hugh', status='probable', publication_status='approved',
+                 working_selection=True, lifecycle='current', display='current'))
+        self.assertEqual(parent_bands(dossier)['father'], 'probable')
+
+    def test_counts_are_slots_and_missing_accounts_leave_the_denominator(self):
+        bands = {'a': {'father': 'confident', 'mother': 'unknown'},
+                 'b': {'father': 'uncertain', 'mother': 'confident'}}
+        counts = parent_band_counts(['a', 'b', 'no-account'], bands)
+        self.assertEqual((counts['population'], counts['unavailable_count']), (3, 1))
+        self.assertEqual(list(counts['father']), list(PARENT_BANDS))
+        self.assertEqual(sum(counts['father'].values()) + sum(counts['mother'].values()), 4)
+        self.assertEqual((counts['father']['confident'], counts['mother']['confident'], counts['mother']['unknown']), (1, 1, 1))
+
+
+class JoinedPeopleTests(unittest.TestCase):
+    def test_joined_people_counts_everyone_sharing_a_branch(self):
+        nodes = {key: dict(name=key, url='/people/' + key, year=1800, gender='male')
+                 for key in ['f', 'c1', 'c2', 'g', 'h', 'alone']}
+        edges = [dict(child='c1', father='f', status='proved'), dict(child='c2', father='f', status='possible'),
+                 dict(child='h', father='g', status='possible')]
+        working = summarize(nodes, edges, 1850)
+        self.assertEqual((working['joined_people_count'], working['component_count']), (5, 3))
+        self.assertAlmostEqual(working['joined_people_percent'], 500 / 6)
+        # 3·2 + 2·1 same-branch ordered pairs out of 6·5: the old figure stays tiny.
+        self.assertAlmostEqual(working['connected_pairs_percent'], 100 * 8 / 30)
+        confident = summarize(nodes, edges, 1850, 'confident', cohort_ids=working['cohort_ids'])
+        self.assertEqual(confident['joined_people_count'], 2)
 
 
 class IndividualFindingTests(unittest.TestCase):

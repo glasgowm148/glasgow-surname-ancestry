@@ -160,3 +160,17 @@ test('missing-father priorities rank by branch and retain unknown pair gains', (
   assert.equal(rows[0].confident_pair_gain,null);
   assert.equal(rows[0].child,'unknown-large'); // Sorting does not mutate the report.
 });
+
+test('parent bands share father and mother slots, and every setting names the bands it counts',()=>{
+  const {parentBandShares,BANDS_IN_VIEW,PARENT_BANDS}=require('../tools/ancestry_progress.js');
+  const zero=Object.fromEntries(PARENT_BANDS.map(b=>[b.key,0]));
+  const bands={population:3,unavailable_count:1,father:{...zero,confident:1,unknown:1},mother:{...zero,probable:1,unmarked:1}};
+  const both=parentBandShares(bands,'both');
+  assert.equal(both.total,4);assert.equal(both.share.confident,25);assert.equal(both.share.unknown,25);
+  assert.equal(Object.values(both.share).reduce((a,b)=>a+b,0),100);
+  assert.equal(parentBandShares(bands,'father').share.confident,50);
+  assert.equal(parentBandShares(bands,'mother').share.unknown,0);
+  assert.equal(parentBandShares(undefined),null);
+  assert.deepEqual(BANDS_IN_VIEW.confident,['confident']);
+  assert.ok(!BANDS_IN_VIEW.working.includes('unknown'));
+});

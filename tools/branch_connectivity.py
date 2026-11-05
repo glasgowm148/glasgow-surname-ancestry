@@ -477,6 +477,8 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
     population = len(cohort)
     largest = max(map(len, components), default=0)
     pair_count = sum(len(c) * (len(c) - 1) for c in components)
+    # People sharing a paternal branch with at least one other cohort member.
+    joined = sum(len(c) for c in components if len(c) > 1)
     confidence = [e['confidence_percent'] for e in selected
                   if type(e.get('confidence_percent')) in (int, float)
                   and 0 < e['confidence_percent'] < 100]
@@ -488,6 +490,8 @@ def summarize(nodes, edges, cutoff, view="working", cohort_ids=None):
         largest_component_size=largest,
         largest_component_percent=100 * largest / population if population else 0,
         connected_pairs_percent=100 * pair_count / (population * (population - 1)) if population > 1 else 0,
+        joined_people_count=joined,
+        joined_people_percent=100 * joined / population if population else 0,
         unattached_multi_child_roots=[r for r in roots if r["child_count"] >= 2],
         family_roots=roots,
         edge_status_counts=dict(sorted(Counter(e["status"] for e in selected).items())),

@@ -115,6 +115,24 @@
       catalogueProposals:proposals(findings),cohortProposals:proposals(scoped),
       firstRatings:scoped.filter(row=>row.kind==='first' && !row.research_event).length};
   }
+  const PARENT_BANDS = [
+    {key:'confident', label:'Confident', better:'up', desc:'proved, confident or strongly supported'},
+    {key:'probable', label:'Probable', better:null, desc:'probable, not yet proved'},
+    {key:'possible', label:'Possible', better:null, desc:'possible on the evidence so far'},
+    {key:'uncertain', label:'Uncertain', better:'down', desc:'uncertain or doubtful'},
+    {key:'unmarked', label:'Ungraded', better:'down', desc:'parent named, no grade recorded yet'},
+    {key:'unknown', label:'Unknown', better:'down', desc:'no parent named'}
+  ];
+  // Bands each links-counted setting includes; unknown slots have no link at all.
+  const BANDS_IN_VIEW = {working:['confident','probable','possible','uncertain','unmarked'], supported:['confident','probable'], confident:['confident']};
+  function parentBandShares(bands, slot = 'both') {
+    if (!bands || !bands.father || !bands.mother) return null;
+    const counts = Object.fromEntries(PARENT_BANDS.map(({key}) => [key,
+      slot === 'both' ? (bands.father[key] || 0)+(bands.mother[key] || 0) : (bands[slot]?.[key] || 0)]));
+    const total = Object.values(counts).reduce((a,b) => a+b, 0);
+    const share = Object.fromEntries(PARENT_BANDS.map(({key}) => [key, total ? 100*counts[key]/total : null]));
+    return {counts, total, share};
+  }
   function priorityRows(rows, order='branch', kind='all', early=false) {
     const value = n => Number.isFinite(n) ? n : -1;
     return rows.filter(row => (!early || (row.year != null && row.year <= 1650)) &&
@@ -123,7 +141,7 @@
         : order === 'working' ? value(b.cross_pairs)-value(a.cross_pairs) : b.child_side-a.child_side) ||
         b.child_side-a.child_side || a.child.localeCompare(b.child));
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = {priorityRows, namedFatherCoverage, dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
+  if (typeof module !== 'undefined' && module.exports) module.exports = {parentBandShares, PARENT_BANDS, BANDS_IN_VIEW, priorityRows, namedFatherCoverage, dailyHistory, historySeries, confidenceHistory, uncertaintyMeasurements, individualFindings, researchHistory};
   if (typeof document === 'undefined') return;
   const element = document.getElementById('ancestry-progress-data');
   if (!element) return;
@@ -146,7 +164,8 @@
     {key:'lowered', count:'decreases', label:'Ratings lowered', one:'Rating lowered', short:'lowered', up:false}
   ];
   const GRADES = ['confident','probable','possible','uncertain','unknown'];
-  const state = {cutoff:String(data.primary_cutoff), view:'working', range:'30', day:null, priorityLimit:20, findingsLimit:100, research:null};
+  const defaultCutoff = String(data.default_cutoff ?? data.primary_cutoff);
+  const state = {cutoff:defaultCutoff, view:'working', parents:'both', range:'30', day:null, priorityLimit:20, findingsLimit:100, research:null};
 
   // ---------- Key measure tiles ----------
   function sparkline(points, label) {
@@ -207,8 +226,13 @@
     })();
     const byKind = rows => CHANGES.map(c => [c, rows.filter(r => r.change === c.key).length]).filter(([,n]) => n).map(([c,n]) => `${number(n)} ${c.short}`).join(' · ');
     const tiles = [
-      tile({id:'pairs', label:'Connected pairs', value:`${summary.connected_pairs_percent.toFixed(2)}%`, sub:'of all pairs of people are joined through fathers', better:'up', format:pts,
-        series:seriesOf(rows, m => m[view]?.connected_pairs_percent)}),
+      Number.isFinite(summary.joined_people_percent)
+        ? tile({id:'joined', label:'Joined to relatives', value:`${summary.joined_people_percent.toFixed(1)}%`,
+          sub:`${number(summary.joined_people_count)} of ${number(summary.population)} people share a paternal branch with at least one other person; ${number(summary.population-summary.joined_people_count)} stand alone`,
+          better:'up', format:pts1, series:seriesOf(rows, m => m[view]?.joined_people_percent),
+          note:`Same-branch pairs: ${summary.connected_pairs_percent.toFixed(2)}%, the chance that two people picked at random share a branch. It stays small while the family is split into many branches.`})
+        : tile({id:'pairs', label:'Same-branch pairs', value:`${summary.connected_pairs_percent.toFixed(2)}%`, sub:'chance that two people picked at random share a paternal branch', better:'up', format:pts,
+          series:seriesOf(rows, m => m[view]?.connected_pairs_percent)}),
       tile({id:'branches', label:'Separate branches', value:number(summary.component_count), sub:`paternal branches, including ${number(summary.unattached_multi_child_roots.length)} unattached fathers with 2+ children`, better:'down', format:count,
         series:seriesOf(rows, m => m[view]?.component_count)}),
       tile({id:'largest', label:'People in largest branch', value:number(summary.largest_component_size), sub:`${summary.largest_component_percent.toFixed(1)}% of ${number(summary.population)} people`, better:'up', format:count,
@@ -219,10 +243,33 @@
         sub:coverage ? `${number(coverage.rated_count)} of ${number(coverage.named_count)} named fathers individually rated; ${number(coverage.unrated_count)} ungraded` : 'Coverage unavailable',
         note:'Current figure only; daily history of this measure is not recorded yet.'}),
       `<article class="pd-kpi" id="kpi-today"><h3>Research changes today</h3><p class="pd-value">${number(todays.length)}</p><p class="pd-kpi-sub">${todays.length ? esc(byKind(todays)) : lastActive ? `None recorded on ${esc(shortDate(today))}; last on <a href="#day-${esc(lastActive)}" data-day="${esc(lastActive)}">${esc(shortDate(lastActive))}</a>` : 'No dated research changes yet'}</p><div class="pd-deltas"><span><span class="pd-delta neutral">${number(dayCount(addDays(today,-1)))}</span> <small>yesterday</small></span><span><span class="pd-delta neutral">${number(weekTotal)}</span> <small>in the last 7 days</small></span></div>${bars}</article>`,
+      ...bandTiles(rows, current),
       gradeTile(rows, current)
     ];
     byId('kpi-grid').innerHTML = tiles.join('');
     byId('link-view-note').textContent = `Links counted: ${data.views[view].label}. ${data.views[view].description}`;
+  }
+  function bandTiles(rows, current) {
+    const {view, cutoff, parents} = state, bands = current.working.parent_bands, now = parentBandShares(bands, parents);
+    if (!now) return [];
+    const slotWord = {both:'father and mother slots', father:'father slots', mother:'mother slots'}[parents];
+    const included = BANDS_IN_VIEW[view] || [], countedShare = included.reduce((sum,key) => sum+(now.share[key] || 0), 0);
+    const pts1 = v => v.toFixed(1)+' pts';
+    const people = bands.population - bands.unavailable_count;
+    const seg = [['both','Both parents'],['father','Fathers'],['mother','Mothers']].map(([key,label]) =>
+      `<button type="button" data-parents="${key}" aria-pressed="${key === parents}">${label}</button>`).join('');
+    const bar = PARENT_BANDS.map(b => now.counts[b.key] ? `<span class="g-${b.key}" style="flex:${now.counts[b.key]}" title="${esc(b.label)}: ${now.share[b.key].toFixed(1)}%"></span>` : '').join('');
+    const head = `<div class="pd-kpi-group" id="kpi-bands"><div class="pd-kpi-group-head"><h3>Parent links by confidence band</h3><div class="pd-seg pd-seg-parents" role="group" aria-label="Parent slots counted">${seg}</div></div>`
+      + `<p class="pd-kpi-sub">Share of the ${number(now.total)} ${slotWord} of ${number(people)} people born through ${esc(cutoff)}${parents === 'both' ? ' (two per person)' : ' (one per person)'}${bands.unavailable_count ? `; ${number(bands.unavailable_count)} without a public account are left out` : ''}. Each slot counts once, in the band of its retained parent.</p>`
+      + `<div class="pd-stack" role="img" aria-label="${esc(PARENT_BANDS.map(b => `${b.label} ${(now.share[b.key] ?? 0).toFixed(1)}%`).join(', '))}">${bar}</div>`
+      + `<p class="pd-kpi-note">Links counted, ${esc(data.views[view].label.toLowerCase())}: ${included.map(key => PARENT_BANDS.find(b => b.key === key).label.toLowerCase()).join(', ')} ${included.length === 1 ? 'band' : 'bands'}, ${countedShare.toFixed(1)}% of these slots. Other bands are dimmed.</p></div>`;
+    const tiles = PARENT_BANDS.map(b => {
+      const series = seriesOf(rows, m => parentBandShares(m.working?.parent_bands, parents)?.share[b.key]);
+      const html = tile({id:'band-'+b.key, label:b.label, value:`${now.share[b.key] === null ? '–' : now.share[b.key].toFixed(1)+'%'}`,
+        sub:`${number(now.counts[b.key])} of ${number(now.total)} ${slotWord} · ${esc(b.desc)}`, better:b.better, format:pts1, series});
+      return html.replace('class="pd-kpi"', `class="pd-kpi pd-kpi-band${included.includes(b.key) ? '' : ' is-out'}"`).replace('<h3>', `<h3><span><i class="pd-swatch g-${b.key}"></i>`).replace(/(<h3><span>.*?)(<span class="pd-better">|<\/h3>)/, '$1</span>$2');
+    });
+    return [head, ...tiles];
   }
   function gradeTile(rows, current) {
     const grades = [
@@ -359,7 +406,7 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
   }
   function setRange(range, draw = true) {
     state.range = range;
-    document.querySelectorAll('.pd-seg button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.range === range)));
+    document.querySelectorAll('.pd-seg button[data-range]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.range === range)));
     if (draw) { renderDayChart(); saveParams(); }
   }
   function renderResearch() {
@@ -433,7 +480,7 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
     reviewed_confidence_percent:'Mean individually reviewed father confidence (%)',
     assessed_links_percent:'Share of working graph father–child links (%)',
     edge_count:'Father–child links', largest_component_size:'People in largest branch',
-    connected_pairs_percent:'Connected pairs (%)', component_count:'Separate paternal components'
+    connected_pairs_percent:'Same-branch pairs (%)', joined_people_percent:'People joined to relatives (%)', component_count:'Separate paternal components'
   };
   const chartWidth = target => Math.max(300, Math.min(960, target.clientWidth || 720));
   function renderUncertaintyTrend(rows) {
@@ -509,7 +556,7 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
     byId('history-confidence-levels').hidden = exactConfidence;
     const series = views.map(view => ({...view, points:historySeries(rows, view.key, metric)}));
     const values = series.flatMap(view => view.points.filter(p => p.value !== null).map(p => p.value));
-    const percent = metric.endsWith('_percent'), decimals = metric === 'assessed_links_percent' ? 1 : 3;
+    const percent = metric.endsWith('_percent'), decimals = ['assessed_links_percent','joined_people_percent'].includes(metric) ? 1 : 3;
     const format = value => percent ? value.toFixed(decimals)+'%' : number(value);
     byId('history-note').textContent = rows.length < 2 ? 'Only one dated snapshot is available for this cohort; its history starts here.' : '';
     byId('history-table-caption').textContent = `${historyMetrics[metric]} · ${scope}`;
@@ -554,6 +601,7 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
   function saveParams() {
     const params = new URLSearchParams(location.search);
     params.set('through', state.cutoff); params.set('links', state.view);
+    if (state.parents === 'both') params.delete('parents'); else params.set('parents', state.parents);
     const metric = byId('history-metric').value;
     if (metric === 'edge_count') params.delete('history'); else params.set('history', metric);
     if (byId('history-cohort').value === 'fixed') params.delete('historyCohort'); else params.set('historyCohort', 'selected');
@@ -573,8 +621,10 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
     saveParams();
   }
   const params = new URLSearchParams(location.search);
-  if (data.cohorts[params.get('through')]) byId('progress-cutoff').value = params.get('through');
-  if (Object.keys(data.views).includes(params.get('links'))) byId('progress-view').value = params.get('links');
+  // Set both explicitly so a browser's restored form state cannot override the default.
+  byId('progress-cutoff').value = data.cohorts[params.get('through')] ? params.get('through') : defaultCutoff;
+  byId('progress-view').value = Object.keys(data.views).includes(params.get('links')) ? params.get('links') : 'working';
+  if (['father','mother'].includes(params.get('parents'))) state.parents = params.get('parents');
   if (Object.hasOwn(historyMetrics, params.get('history'))) byId('history-metric').value = params.get('history');
   if (params.get('historyCohort') === 'selected') byId('history-cohort').value = 'selected';
   setRange(['14','30','all'].includes(params.get('range')) ? params.get('range') : '30', false);
@@ -587,7 +637,13 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
   byId('findings-more').addEventListener('click', () => { state.findingsLimit += 100; renderFindings(); });
   ['priority-order','priority-early','priority-kind'].forEach(id => byId(id).addEventListener('change', () => { state.priorityLimit = 20; renderPriorities(); }));
   byId('priority-more').addEventListener('click', () => { state.priorityLimit += 20; renderPriorities(); });
-  document.querySelectorAll('.pd-seg button').forEach(button => button.addEventListener('click', () => setRange(button.dataset.range)));
+  document.querySelectorAll('.pd-seg button[data-range]').forEach(button => button.addEventListener('click', () => setRange(button.dataset.range)));
+  byId('kpi-grid').addEventListener('click', event => {
+    const button = event.target.closest('[data-parents]');
+    if (!button) return;
+    state.parents = button.dataset.parents; renderKpis(); saveParams();
+    byId('kpi-grid').querySelector(`[data-parents="${state.parents}"]`)?.focus();
+  });
   document.addEventListener('click', event => {
     const link = event.target.closest('[data-day]');
     if (!link || link.classList.contains('pd-hit')) return;

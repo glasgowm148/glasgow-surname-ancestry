@@ -22,6 +22,11 @@ from tools.stamp_asset_versions import VERSIONED_ASSET, asset_path, content_hash
 WORK = ROOT / "research/ancestry-connections"
 WEB = ROOT / "www"
 ROUTE = "/onetree/progress/"
+# The cohort the dashboard opens on when the URL names none (owner, 5 Nov 2026).
+DEFAULT_CUTOFF = 1850
+# Confidence bands for each parent slot, strongest first. "unmarked" is a named
+# parent without a recorded grade; "unknown" is no retained named parent.
+PARENT_BANDS = ('confident', 'probable', 'possible', 'uncertain', 'unmarked', 'unknown')
 LINK_VIEWS = {
     'working': {'label': 'Working pedigree, including uncertain links',
                 'description': 'Counts working parents, including uncertain and ungraded links. Competing fathers and cyclic links remain excluded.'},
@@ -195,6 +200,61 @@ def individual_finding_rows(nodes, edges, assessments, cohorts, baseline_ids, id
     return sorted(rows, key=lambda row: (row['research_event'] or {}).get('date') or row['date'] or '', reverse=True)
 
 
+def selected_parent_status(dossier, relationship):
+    """Resolved status of the retained named parent, or None when there is none.
+
+    Applies the public father-listing rule (has_named_father) to either slot and,
+    where several current parents remain, prefers the approved working selection.
+    """
+    best = None
+    for relation in (dossier.get('relationships') or {}).get('parents') or []:
+        status, _ = relationship_status(relation)
+        if (str(relation.get('relationship', '')).casefold() != relationship
+                or not relation.get('id') or status in EXCLUDED
+                or relation.get('lifecycle') not in (None, 'current')
+                or relation.get('display') in {'alternative', 'historical', 'superseded'}
+                or relation.get('publication_status') in {'withheld', 'blocked', 'rejected'}
+                or not is_named_father_name(relation.get('name'))):
+            continue
+        approved = relation.get('publication_status') == 'approved'
+        priority = (3 if approved and relation.get('working_selection') is True else
+                    2 if approved and relation.get('display') == 'current' else
+                    1 if relation.get('tree_relationship') is True else 0)
+        if best is None or priority > best[0]:
+            best = (priority, status)
+    return best and best[1]
+
+
+def parent_band(status):
+    if status is None:
+        return 'unknown'
+    if status in CONFIDENT:
+        return 'confident'
+    if status in {'probable', 'possible', 'uncertain'}:
+        return status
+    if status in {'unlikely', 'doubtful', 'speculative'}:
+        return 'uncertain'
+    return 'unmarked'
+
+
+def parent_bands(dossier):
+    return {slot: parent_band(selected_parent_status(dossier, slot)) for slot in ('father', 'mother')}
+
+
+def parent_band_counts(cohort_ids, bands):
+    """Father and mother slots of each cohort person, by confidence band."""
+    counts = {slot: dict.fromkeys(PARENT_BANDS, 0) for slot in ('father', 'mother')}
+    unavailable = 0
+    for ident in cohort_ids:
+        person = bands.get(ident)
+        if person is None:
+            unavailable += 1
+            continue
+        for slot in counts:
+            counts[slot][person[slot]] += 1
+    return dict(population=len(cohort_ids), unavailable_count=unavailable, **counts)
+
+
 def father_listing_counts(cohort_ids, listings):
     values = [listings.get(ident) for ident in cohort_ids]
     return dict(unknown_count=values.count(False), named_count=values.count(True),
@@ -283,7 +343,7 @@ def metrics_html(summary):
         (f"{summary['component_count']:,}", "separate paternal branches"),
         (f"{len(summary['unattached_multi_child_roots']):,}", "unattached fathers with 2+ children"),
         (f"{summary['largest_component_percent']:.1f}%", "people in the largest branch"),
-        (f"{summary['connected_pairs_percent']:.2f}%", "pairs connected through fathers"),
+        (f"{summary['joined_people_percent']:.1f}%", "people joined to a relative through fathers"),
     ]
     return "".join(f"<div><strong>{value}</strong><span>{label}</span></div>" for value, label in values)
 
@@ -318,13 +378,13 @@ def comparison_rows(cohort, selected='working'):
             label = '<strong>' + label + '</strong>'
         rows.append(f"<tr><th scope='row'>{label}</th><td>{summary['component_count']:,}</td>"
                     f"<td>{summary['largest_component_size']:,}</td><td>{len(summary['unattached_multi_child_roots']):,}</td>"
-                    f"<td>{summary['connected_pairs_percent']:.2f}%</td></tr>")
+                    f"<td>{summary['joined_people_percent']:.1f}%</td><td>{summary['connected_pairs_percent']:.2f}%</td></tr>")
     return ''.join(rows)
 
 
 SHORT_VIEW_LABELS = {'working': 'Working (all links)', 'supported': 'Probable or stronger', 'confident': 'Confident only'}
 SNAPSHOT_FIELDS = ('population', 'edge_count', 'component_count', 'largest_component_size', 'largest_component_percent',
-                   'connected_pairs_percent', 'edge_status_counts', 'individual_confidence', 'father_listing',
+                   'connected_pairs_percent', 'joined_people_count', 'joined_people_percent', 'parent_bands', 'edge_status_counts', 'individual_confidence', 'father_listing',
                    'unattached_multi_child_roots', 'family_root_count')
 
 
@@ -342,7 +402,9 @@ def method_html(strategy, report, quality, baseline):
     metrics = strategy['metrics']
     return (
         '<h3>The key measures</h3><dl class="pd-defs">'
-        f'<dt>Connected pairs</dt><dd>{escape(metrics["connected_pairs"])} A connection between two branches joins every cross-branch pair, so one join can move this a lot. Higher is better.</dd>'
+        '<dt>Joined to relatives</dt><dd>The share of the cohort who share a paternal branch with at least one other cohort person, through the father–child links counted. Someone with no counted father and no counted children stands alone. Higher is better.</dd>'
+        f'<dt>Same-branch pairs (formerly “connected pairs”)</dt><dd>The chance that two cohort people picked at random belong to the same paternal branch: {escape(metrics["connected_pairs"])} It is small while the family is split into many branches, even when most people are in some branch, and reaches 100% only when everyone is in one branch. A join between two large branches can move it a lot. Higher is better.</dd>'
+        '<dt>Parent links by confidence band</dt><dd>Every cohort person has two parent slots, father and mother. Each slot takes the confidence band of the retained named parent in the public account: confident (proved, confident, strongly supported or DNA-confirmed), probable, possible, uncertain, or ungraded when a parent is named without a grade. Unknown means no named parent is retained. The tiles show each band’s share of all slots, or of the father or mother slots alone; people without a public account are left out of the denominator. This counts slots, not people, and covers fathers outside the surname graph as well as mothers, so it differs from the father-link grades below, which count only links in the paternal graph. The links-counted setting marks which bands that measure includes; it does not change the slots. Changes compare daily snapshots; the series starts with its first recorded day and earlier days are not reconstructed.</dd>'
         f'<dt>Separate branches</dt><dd>{escape(metrics["components"])} Lower is better.</dd>'
         f'<dt>People in the largest branch</dt><dd>{escape(metrics["largest_component"])} Higher is better.</dd>'
         f'<dt>Unknown fathers</dt><dd>{escape(report["unknown_father_method"])} Lower is better.</dd>'
@@ -354,7 +416,7 @@ def method_html(strategy, report, quality, baseline):
         '</dl><h3>Links counted</h3><dl class="pd-defs">' + views + '</dl>'
         + p('Probable assessments can strengthen the middle measure while the confident measure stays separate. The original baseline has no probable-or-stronger measurement; that series starts with its first review. An unmarked link is a review gap rather than a disproof.')
         + p(metrics['target'])
-        + p('Smaller branch and unattached-father counts mean fewer gaps; larger connected-pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.')
+        + p('Smaller branch and unattached-father counts mean fewer gaps; larger joined, same-branch pair and largest-branch percentages mean more of the family is joined. A tentative connection remains tentative.')
         + '<h3>Daily research changes</h3>'
         + p('Changes count findings supported by new evidence or a revised assessment, including decreases. A first percentage counts when it changes a saved earlier confidence grade. A change within a grade still counts as an improved or lowered rating even though the grade totals do not move. The net grade columns show how many links each grade gained or lost that day; Unknown falls only when a previously absent father is attached. Each date combines the findings recorded that day; nothing is back-dated and no earlier percentage is invented.')
         + p('Individual findings use saved individual estimates, including decreases and changes within a confidence band. New and replacement recommendations are reconciled with the catalogue. Dates are recorded review dates; same-day entries keep their saved order.')
@@ -366,7 +428,7 @@ def method_html(strategy, report, quality, baseline):
         + p('Graph-link coverage is the number of links at each confidence level divided by all working graph father–child links. Probable or stronger includes confident links. Missing measurements are gaps; earlier cutoff measurements have not been reconstructed. These are not probabilities that an entire branch is correct.')
         + '<h3>Cohorts, baseline and scope</h3>'
         + p('The working pedigree is measured at each birth-year cutoff. Estimated vital dates remain estimates. Undated fathers of included people enter by ancestry; unrelated undated entries stay outside the dated cohorts.')
-        + p('The score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component’s size and N is the cohort. The common-origin model stays outside the measurements. Dotted lines in the origin map mean an unknown route through generations; they are research targets and do not change the measured pedigree.')
+        + p('The same-branch pair score is 100 × Σ n(n−1) ÷ N(N−1), where n is each paternal component’s size and N is the cohort. The common-origin model stays outside the measurements. Dotted lines in the origin map mean an unknown route through generations; they are research targets and do not change the measured pedigree.')
         + p('Confidence grades come from the current resolved public dossiers. A confidently marked tree link is not a claim that every underlying source has been independently re-audited. Women born with the surname count; their fathers can join the paternal family, while spouses and maternal paths cannot.')
         + p(f'Coverage: {report["available_surname_people"]:,} public surname profiles and {report["documentary_ancestors"]} separately listed documentary ancestors available; '
             f'{report["undated_surname_people"]:,} have no usable structured date before ancestry closure; {len(quality["missing_dossiers"])} dossiers unavailable; '
@@ -386,7 +448,7 @@ def build(create_baseline=False):
                json.loads(documentary_path.read_text()) if documentary_path.exists() else {'schema_version': 1, 'people': []})
     retained_fathers = []
     nodes, edges, quality = load_public_nodes(WEB, set(strategy["variants"]), retained_fathers=retained_fathers)
-    listings = {}
+    listings, bands = {}, {}
     identity_hold_ids = set()
     for ident, node in nodes.items():
         # Read the public account, including named fathers excluded from the
@@ -395,6 +457,7 @@ def build(create_baseline=False):
         if path.suffix == '.html' and path.with_suffix('.json').is_file():
             dossier = json.loads(path.with_suffix('.json').read_text())
             listings[ident] = has_named_father(dossier)
+            bands[ident] = parent_bands(dossier)
             if dossier.get('creation_status') == 'identity_hold':
                 identity_hold_ids.add(ident)
     cohorts = {}
@@ -406,6 +469,7 @@ def build(create_baseline=False):
             for view in MEASUREMENT_VIEWS if view != 'working'}}
         for summary in cohorts[str(cutoff)].values():
             summary['father_listing'] = father_listing_counts(working['cohort_ids'], listings)
+        working['parent_bands'] = parent_band_counts(working['cohort_ids'], bands)
     primary = cohorts[str(strategy["primary_cutoff"])]
     try:
         import research_data
@@ -468,6 +532,7 @@ def build(create_baseline=False):
     }
     for summary in fixed.values():
         summary['father_listing'] = father_listing_counts(fixed_ids, listings)
+    fixed['working']['parent_bands'] = parent_band_counts(fixed_ids, bands)
     history_path = WORK / "progress-history.json"
     history = json.loads(history_path.read_text()) if history_path.exists() else {"schema_version": 1, "snapshots": []}
     previous_version = history['snapshots'][-1].get('method_version') if history['snapshots'] else None
@@ -618,7 +683,7 @@ def build(create_baseline=False):
             f'<article class="connection-case" id="{case["id"]}"><p class="eyebrow">{case["year"]} onwards · {escape(case["status"])}</p><h3>{escape(case["title"])}</h3><p>{people}</p><p>{escape(case["basis"])}</p><p><strong>Next discriminating record:</strong> {escape(case["next_test"])}</p><p class="source-line">{sources}<br>{escape("; ".join(case["record_references"]))}</p></article>'
         )
     cohort_rows = "".join(
-        f"<tr><th scope='row'>Through {cutoff}</th><td>{data['working']['population']:,}</td><td>{data['working']['component_count']:,}</td><td>{len(data['working']['unattached_multi_child_roots']):,}</td><td>{data['working']['connected_pairs_percent']:.2f}%</td></tr>"
+        f"<tr><th scope='row'>Through {cutoff}</th><td>{data['working']['population']:,}</td><td>{data['working']['component_count']:,}</td><td>{len(data['working']['unattached_multi_child_roots']):,}</td><td>{data['working']['joined_people_percent']:.1f}%</td><td>{data['working']['connected_pairs_percent']:.2f}%</td></tr>"
         for cutoff, data in cohorts.items()
     )
     client = dict(
@@ -629,6 +694,7 @@ def build(create_baseline=False):
             for cutoff, pair in cohorts.items()
         },
         primary_cutoff=strategy["primary_cutoff"],
+        default_cutoff=DEFAULT_CUTOFF if str(DEFAULT_CUTOFF) in cohorts else strategy["primary_cutoff"],
         early_cutoff=strategy["early_priority_cutoff"],
         views=LINK_VIEWS,
         history_method_version=METHOD_VERSION,
@@ -647,7 +713,7 @@ def build(create_baseline=False):
     )
     payload = json.dumps(client, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     options = "".join(
-        f'<option value="{c}"' + (" selected" if c == strategy["primary_cutoff"] else "") + f">Born through {c}</option>"
+        f'<option value="{c}"' + (" selected" if str(c) == str(client["default_cutoff"]) else "") + f">Born through {c}</option>"
         for c in strategy["cutoffs"]
     )
     view_options = ''.join(f'<option value="{view}">{escape(SHORT_VIEW_LABELS[view])}</option>'
@@ -699,11 +765,11 @@ def build(create_baseline=False):
         panel('cohort-tracking', 'cohorts-title', 'Cohort and baseline tracking', 'sum-cohorts',
               f'Every cohort and link threshold side by side, and the {len(baseline["cohort_ids"]):,} fixed baseline people from {baseline["captured"]}.',
               f'<h3 id="threshold-title">Selected cohort at each link threshold</h3><p id="cohort-detail" class="pd-count" aria-live="polite">{selected["population"]:,} public surname bearers; {selected["edge_count"]:,} father–child links. All thresholds use the same people.</p>'
-              f'<div class="progress-table-wrap"><table><thead><tr><th scope="col">Links counted</th><th scope="col">Branches</th><th scope="col">People in largest branch</th><th scope="col">Unattached fathers, 2+ children</th><th scope="col">Connected pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div>'
+              f'<div class="progress-table-wrap"><table><thead><tr><th scope="col">Links counted</th><th scope="col">Branches</th><th scope="col">People in largest branch</th><th scope="col">Unattached fathers, 2+ children</th><th scope="col">Joined to relatives</th><th scope="col">Same-branch pairs</th></tr></thead><tbody id="threshold-comparison">{comparison_rows(primary)}</tbody></table></div>'
               f'<p id="named-father-coverage" class="pd-count" aria-live="polite">{escape(named_coverage_text)}</p>'
-              '<h3>Working pedigree at each cutoff</h3><div class="progress-table-wrap"><table><thead><tr><th scope="col">Cutoff</th><th scope="col">People</th><th scope="col">Branches</th><th scope="col">Unattached fathers, 2+ children</th><th scope="col">Connected pairs</th></tr></thead>'
+              '<h3>Working pedigree at each cutoff</h3><div class="progress-table-wrap"><table><thead><tr><th scope="col">Cutoff</th><th scope="col">People</th><th scope="col">Branches</th><th scope="col">Unattached fathers, 2+ children</th><th scope="col">Joined to relatives</th><th scope="col">Same-branch pairs</th></tr></thead>'
               f'<tbody>{cohort_rows}</tbody></table></div>'
-              f'<h3 id="baseline-title">The same baseline people</h3><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving people the working connected-pair score is <strong>{fixed["working"]["connected_pairs_percent"]:.2f}%</strong> (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p>'
+              f'<h3 id="baseline-title">The same baseline people</h3><p>Initial baseline: {baseline["captured"]}, through {baseline["cutoff"]}, {len(baseline["cohort_ids"]):,} people. On those same surviving people the working same-branch pair score is <strong>{fixed["working"]["connected_pairs_percent"]:.2f}%</strong> (initially {baseline["metrics"]["working"]["connected_pairs_percent"]:.2f}%). New cohort people: {len(report["fixed_cohort"]["added_ids"])}; missing baseline people: {len(report["fixed_cohort"]["missing_ids"])}.</p>'
               + demote(confidence_note) + demote(publication_html)
               + '<p class="progress-actions"><a href="/data/ancestry-connectivity.json">Current measurements and research queue (JSON)</a><a href="/data/ancestry-connectivity-baseline.json">Fixed initial baseline (JSON)</a></p>'),
         panel('catalogue-history', 'catalogue-history-title', 'Catalogue coverage history', 'sum-catalogue',
@@ -715,7 +781,7 @@ def build(create_baseline=False):
               '<div id="uncertainty-totals" class="uncertainty-totals" aria-live="polite"></div><div id="uncertainty-breakdown" class="uncertainty-breakdown"></div>'
               '<div class="pd-legend"><span><i style="background:#9b5610"></i>Named fathers below confident</span><span><i class="dash" style="border-color:#a33237"></i>Uncertain grade only</span><span><i style="background:#303f4b"></i>Unknown father</span></div><div id="uncertainty-trend-chart" class="pd-chart"></div>'
               '<details><summary>Uncertainty counts by date</summary><div class="progress-table-wrap"><table><thead><tr><th scope="col">Date</th><th scope="col">All below confident</th><th scope="col">Share of father links</th><th scope="col">Unknown father</th><th scope="col">Uncertain</th><th scope="col">Possible</th><th scope="col">Probable</th><th scope="col">Unmarked</th></tr></thead><tbody id="uncertainty-trend-rows"></tbody></table></div></details></div>'
-              '<h3 id="research-history-title">Links, branches and connectivity over time</h3><div class="pd-filters"><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="assessed_links_percent">Graph-link coverage (%)</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Connected pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div>'
+              '<h3 id="research-history-title">Links, branches and connectivity over time</h3><div class="pd-filters"><label>Measure <select id="history-metric"><option value="edge_count">Father–child links</option><option value="reviewed_confidence_percent">Mean reviewed father confidence (%)</option><option value="assessed_links_percent">Graph-link coverage (%)</option><option value="joined_people_percent">People joined to relatives (%)</option><option value="largest_component_size">People in largest branch</option><option value="connected_pairs_percent">Same-branch pairs (%)</option><option value="component_count">Separate paternal components</option></select></label></div>'
               '<fieldset class="history-legend" id="history-confidence-levels"><legend>Confidence levels shown</legend><label class="history-confident"><input id="history-confident" type="checkbox" checked> Confident</label><label class="history-supported"><input id="history-supported" type="checkbox" checked> Probable or stronger</label><label class="history-working"><input id="history-working" type="checkbox"> Working, including uncertain</label></fieldset>'
               '<div id="history-changes" class="history-changes" aria-live="polite"></div><div id="history-chart" class="pd-chart"></div><p id="history-note" class="pd-count"></p>'
               '<details><summary>Snapshot data</summary><div class="progress-table-wrap"><table><caption id="history-table-caption">Daily measurements</caption><thead id="history-table-head"></thead><tbody id="history-table-body"></tbody></table></div></details>'
@@ -727,7 +793,7 @@ def build(create_baseline=False):
     ])
     main = f"""<main class="r-main ancestry-progress pd" id="main">
 <header class="r-page-head pd-head"><span class="r-kicker">Glasgow ancestry programme · updated {report["reviewed"]}</span><h1>Ancestry research progress</h1><p class="lead">How much of the Glasgow paternal family is joined up, and what the research changed each day.</p><p class="progress-actions"><a href="/onetree/#view=all">Explore the whole tree →</a><a href="/branches/early-scottish-records/">Early Scottish evidence</a></p></header>
-<div class="pd-bar" role="group" aria-label="Dashboard settings"><label>Cohort <select id="progress-cutoff">{options}</select></label><label>Links counted <select id="progress-view">{view_options}</select></label><span class="pd-bar-links"><a href="#progress-history">Daily changes</a><a href="#explore">Explore</a><a href="#method">Method</a></span></div>
+<div class="pd-bar" role="group" aria-label="Dashboard settings"><label>Cohort <select id="progress-cutoff" autocomplete="off">{options}</select></label><label>Links counted <select id="progress-view" autocomplete="off">{view_options}</select></label><span class="pd-bar-links"><a href="#progress-history">Daily changes</a><a href="#explore">Explore</a><a href="#method">Method</a></span></div>
 {reconciliation_note}
 <section class="pd-section" id="connectivity" aria-labelledby="connectivity-title"><div class="pd-section-head"><h2 id="connectivity-title">Key measures</h2><p id="kpi-scope" class="pd-sub"></p></div>
 <div id="kpi-grid" class="pd-kpis"><noscript><div class="connectivity-stats">{metrics_html(selected)}</div></noscript></div><p id="link-view-note" class="pd-foot">{escape(LINK_VIEWS['working']['description'])}</p></section>
@@ -770,6 +836,7 @@ def build(create_baseline=False):
                 population=selected["population"],
                 branches=selected["component_count"],
                 multi_child_roots=len(selected["unattached_multi_child_roots"]),
+                joined_people_percent=round(selected["joined_people_percent"], 2),
                 connected_pairs_percent=selected["connected_pairs_percent"],
                 early_family_heads=len(roots),
                 baseline=baseline["captured"],
