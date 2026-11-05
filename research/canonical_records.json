@@ -411336,5 +411336,494 @@
     "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-2352-35265007",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265007",
+    "collection": "1911 England Census",
+    "person": "John Glascow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265007",
+    "source_title": "Ancestry, 1911 England Census: John Glascow, record 2352/35265007",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "indexed_facts": {
+      "Name": "John Glascow",
+      "Alternate Name": "John Glasgow",
+      "Age in 1911": "65",
+      "Estimated Birth Year": "abt 1846",
+      "Relation to Head": "Head",
+      "Birth Place": "Edinburgh, Scotland",
+      "Civil Parish": "Walker",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Occupation": "Joiner",
+      "Piece": "30786"
+    },
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "note": "The census index lists John Glascow, also indexed as John Glasgow, aged 65, at 23 Eastbourne Avenue, Walker. He was a joiner and gave Edinburgh as his birthplace.",
+    "provenance": "Ancestry, 1911 England Census.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "status": "Documentary source; identity held",
+    "association": "John Glascow — Walker census",
+    "event_role": "head of household",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265007",
+      "latest_birth_year": 1847,
+      "reason": "The 1911 census index records age 65 and estimates birth about 1846."
+    }
+  },
+  {
+    "record_id": "ancestry-60143-179686",
+    "provider": "Ancestry",
+    "provider_record_id": "60143/179686",
+    "collection": "Scotland, Select Births and Baptisms, 1564–1950",
+    "person": "Wilhilmina Colquhouv Robertson",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/179686",
+    "source_title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: Wilhilmina Colquhouv Robertson, record 60143/179686",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "indexed_facts": {
+      "Name": "Wilhilmina Colquhouv Robertson",
+      "Alternate Name": "Wilhilmina Colquhouv Glasgow",
+      "Gender": "Female",
+      "Baptism Date": "29 Jul 1840",
+      "Baptism Place": "Kilwinning, Ayr, Scotland",
+      "Father": "R. Robertson Glasgow",
+      "Mother": "Mary Wilhimina Campbell"
+    },
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "note": "The index records Wilhilmina Colquhouv Robertson, also indexed as Wilhilmina Colquhouv Glasgow, baptised at Kilwinning on 29 July 1840. It names R. Robertson Glasgow and Mary Wilhimina Campbell as her parents.",
+    "provenance": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950.",
+    "profiles": {
+      "record-ancestry-glasgow-wilhilmina-kilwinning-1840": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "status": "Documentary source; identity held",
+    "association": "Wilhilmina Colquhouv Robertson — Kilwinning baptism",
+    "event_role": "indexed child",
+    "date": "29 Jul 1840",
+    "year": 1840,
+    "place": "Kilwinning, Ayr, Scotland",
+    "country": "Scotland",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms"
+  },
+  {
+    "record_id": "ancestry-2352-35265009",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265009",
+    "collection": "1911 England Census",
+    "association": "Mary Glascow — Walker census",
+    "person": "Mary Glascow",
+    "event_role": "Indexed wife",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265009",
+    "source_title": "Ancestry, 1911 England Census: Mary Glascow, Walker, Northumberland, record 2352/35265009",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "status": "Documentary household; subject identity held",
+    "indexed_facts": {
+      "Name": "Mary Glascow",
+      "Age in 1911": "59",
+      "Estimated Birth Year": "abt 1852",
+      "Relation to Head": "Wife",
+      "Gender": "Female",
+      "Birth Place": "Badminton, Glusburnshire",
+      "Civil parish": "Walker",
+      "County/Island": "Northumberland",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Marital Status": "Married",
+      "Piece": "30786",
+      "Alternate Name (indexed)": "Mary Glasgow"
+    },
+    "note": "The census indexes Mary Glascow, aged 59, as wife in John Glascow’s household at 23 Eastbourne Avenue, Walker.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary household head; same census address and return",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "Ancestry, 1911 England Census; The National Archives, RG 14, piece 30786.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265009",
+      "latest_birth_year": 1853,
+      "reason": "The 1911 census index records age 59 and estimates birth about 1852."
+    },
+    "documentary_group": "walker-eastbourne-avenue-1911",
+    "related_evidence_ids": [
+      "ancestry-2352-35265007"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35265012",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265012",
+    "collection": "1911 England Census",
+    "association": "John George Glascow — Walker census",
+    "person": "John George Glascow",
+    "event_role": "Indexed son",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265012",
+    "source_title": "Ancestry, 1911 England Census: John George Glascow, Walker, Northumberland, record 2352/35265012",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "status": "Documentary household; subject identity held",
+    "indexed_facts": {
+      "Name": "John George Glascow",
+      "Age in 1911": "33",
+      "Estimated Birth Year": "abt 1878",
+      "Relation to Head": "Son",
+      "Gender": "Male",
+      "Birth Place": "Walker, Northumberland, England",
+      "Civil parish": "Walker",
+      "County/Island": "Northumberland",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Marital Status": "Single",
+      "Occupation": "Dalicaste",
+      "Piece": "30786",
+      "Alternate Name (indexed)": "John George Glasgow"
+    },
+    "note": "The census indexes John George Glascow, aged 33, as son in John Glascow’s household at 23 Eastbourne Avenue, Walker.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary household head; same census address and return",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "Ancestry, 1911 England Census; The National Archives, RG 14, piece 30786.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265012",
+      "latest_birth_year": 1879,
+      "reason": "The 1911 census index records age 33 and estimates birth about 1878."
+    },
+    "documentary_group": "walker-eastbourne-avenue-1911",
+    "related_evidence_ids": [
+      "ancestry-2352-35265007"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35265014",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265014",
+    "collection": "1911 England Census",
+    "association": "Albert Edward Glascow — Walker census",
+    "person": "Albert Edward Glascow",
+    "event_role": "Indexed son",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265014",
+    "source_title": "Ancestry, 1911 England Census: Albert Edward Glascow, Walker, Northumberland, record 2352/35265014",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "status": "Documentary household; subject identity held",
+    "indexed_facts": {
+      "Name": "Albert Edward Glascow",
+      "Age in 1911": "28",
+      "Estimated Birth Year": "abt 1883",
+      "Relation to Head": "Son",
+      "Gender": "Male",
+      "Birth Place": "Walker, Northumberland, England",
+      "Civil parish": "Walker",
+      "County/Island": "Northumberland",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Marital Status": "Single",
+      "Occupation": "Joiner",
+      "Piece": "30786",
+      "Alternate Name (indexed)": "Albert Edward Glasgow"
+    },
+    "note": "The census indexes Albert Edward Glascow, aged 28, as son in John Glascow’s household at 23 Eastbourne Avenue, Walker.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary household head; same census address and return",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "Ancestry, 1911 England Census; The National Archives, RG 14, piece 30786.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265014",
+      "latest_birth_year": 1884,
+      "reason": "The 1911 census index records age 28 and estimates birth about 1883."
+    },
+    "documentary_group": "walker-eastbourne-avenue-1911",
+    "related_evidence_ids": [
+      "ancestry-2352-35265007"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35265017",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265017",
+    "collection": "1911 England Census",
+    "association": "Screw Boline Glascow — Walker census",
+    "person": "Screw Boline Glascow",
+    "event_role": "Indexed daughter",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265017",
+    "source_title": "Ancestry, 1911 England Census: Screw Boline Glascow, Walker, Northumberland, record 2352/35265017",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "status": "Documentary household; subject identity held",
+    "indexed_facts": {
+      "Name": "Screw Boline Glascow",
+      "Age in 1911": "25",
+      "Estimated Birth Year": "abt 1886",
+      "Relation to Head": "Daughter",
+      "Gender": "Female",
+      "Birth Place": "Walker, Northumberland, England",
+      "Civil parish": "Walker",
+      "County/Island": "Northumberland",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Marital Status": "Single",
+      "Piece": "30786",
+      "Alternate Name (indexed)": "Screw Boline Glasgow"
+    },
+    "note": "The census indexes Screw Boline Glascow, aged 25, as daughter in John Glascow’s household at 23 Eastbourne Avenue, Walker. The given name is uncertain in the index.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary household head; same census address and return",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "Ancestry, 1911 England Census; The National Archives, RG 14, piece 30786.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265017",
+      "latest_birth_year": 1887,
+      "reason": "The 1911 census index records age 25 and estimates birth about 1886."
+    },
+    "documentary_group": "walker-eastbourne-avenue-1911",
+    "related_evidence_ids": [
+      "ancestry-2352-35265007"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35265020",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265020",
+    "collection": "1911 England Census",
+    "association": "Jessie Plant Glascow — Walker census",
+    "person": "Jessie Plant Glascow",
+    "event_role": "Indexed daughter",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265020",
+    "source_title": "Ancestry, 1911 England Census: Jessie Plant Glascow, Walker, Northumberland, record 2352/35265020",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "status": "Documentary household; subject identity held",
+    "indexed_facts": {
+      "Name": "Jessie Plant Glascow",
+      "Age in 1911": "21",
+      "Estimated Birth Year": "abt 1890",
+      "Relation to Head": "Daughter",
+      "Gender": "Female",
+      "Birth Place": "Walker, Northumberland, England",
+      "Civil parish": "Walker",
+      "County/Island": "Northumberland",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Marital Status": "Single",
+      "Occupation": "House Maid",
+      "Piece": "30786",
+      "Alternate Name (indexed)": "Jessie Plant Glasgow"
+    },
+    "note": "The census indexes Jessie Plant Glascow, aged 21, as daughter in John Glascow’s household at 23 Eastbourne Avenue, Walker.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary household head; same census address and return",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "Ancestry, 1911 England Census; The National Archives, RG 14, piece 30786.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265020",
+      "latest_birth_year": 1891,
+      "reason": "The 1911 census index records age 21 and estimates birth about 1890."
+    },
+    "documentary_group": "walker-eastbourne-avenue-1911",
+    "related_evidence_ids": [
+      "ancestry-2352-35265007"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35265023",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265023",
+    "collection": "1911 England Census",
+    "association": "Chels Campbell Glascow — Walker census",
+    "person": "Chels Campbell Glascow",
+    "event_role": "Indexed son",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265023",
+    "source_title": "Ancestry, 1911 England Census: Chels Campbell Glascow, Walker, Northumberland, record 2352/35265023",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "status": "Documentary household; subject identity held",
+    "indexed_facts": {
+      "Name": "Chels Campbell Glascow",
+      "Age in 1911": "21",
+      "Estimated Birth Year": "abt 1890",
+      "Relation to Head": "Son",
+      "Gender": "Male",
+      "Birth Place": "Walker, Northumberland, England",
+      "Civil parish": "Walker",
+      "County/Island": "Northumberland",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Marital Status": "Single",
+      "Occupation": "Ship Yard Labourer",
+      "Piece": "30786",
+      "Alternate Name (indexed)": "Chels Campbell Glasgow"
+    },
+    "note": "The census indexes Chels Campbell Glascow, aged 21, as son in John Glascow’s household at 23 Eastbourne Avenue, Walker. The given name is uncertain in the index.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary household head; same census address and return",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "Ancestry, 1911 England Census; The National Archives, RG 14, piece 30786.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265023",
+      "latest_birth_year": 1891,
+      "reason": "The 1911 census index records age 21 and estimates birth about 1890."
+    },
+    "documentary_group": "walker-eastbourne-avenue-1911",
+    "related_evidence_ids": [
+      "ancestry-2352-35265007"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-35265026",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35265026",
+    "collection": "1911 England Census",
+    "association": "Mawice Glascow — Walker census",
+    "person": "Mawice Glascow",
+    "event_role": "Indexed son",
+    "date": "1911",
+    "year": 1911,
+    "place": "Walker, Northumberland, England",
+    "country": "England",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265026",
+    "source_title": "Ancestry, 1911 England Census: Mawice Glascow, Walker, Northumberland, record 2352/35265026",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "status": "Documentary household; subject identity held",
+    "indexed_facts": {
+      "Name": "Mawice Glascow",
+      "Age in 1911": "20",
+      "Estimated Birth Year": "abt 1891",
+      "Relation to Head": "Son",
+      "Gender": "Male",
+      "Birth Place": "Walker, Northumberland, England",
+      "Civil parish": "Walker",
+      "County/Island": "Northumberland",
+      "Street Address": "23 Eastbourne Avenue Walker",
+      "Marital Status": "Single",
+      "Occupation": "Apprentice Enginer",
+      "Piece": "30786",
+      "Alternate Name (indexed)": "Mawice Glasgow"
+    },
+    "note": "The census indexes Mawice Glascow, aged 20, as son in John Glascow’s household at 23 Eastbourne Avenue, Walker. The given name is uncertain in the index.",
+    "profiles": {
+      "record-ancestry-glascow-john-walker-1911": {
+        "role": "Documentary household head; same census address and return",
+        "assessment": "documentary",
+        "timeline_group": "Family records"
+      }
+    },
+    "provenance": "Ancestry, 1911 England Census; The National Archives, RG 14, piece 30786.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265026",
+      "latest_birth_year": 1892,
+      "reason": "The 1911 census index records age 20 and estimates birth about 1891."
+    },
+    "documentary_group": "walker-eastbourne-avenue-1911",
+    "related_evidence_ids": [
+      "ancestry-2352-35265007"
+    ]
   }
 ]

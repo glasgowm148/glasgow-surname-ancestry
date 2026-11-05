@@ -398715,6 +398715,109 @@
           "note": "The index names Janet Glasgow and John Smith, married on 9 Mar 1811 at Lesmahagow, Lanark, Scotland."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-wilhilmina-kilwinning-1840",
+      "subject_id": "ancestry-glasgow-wilhilmina-kilwinning-1840",
+      "name": "Wilhilmina Colquhouv Robertson",
+      "first_names": [
+        "Wilhilmina",
+        "Colquhouv"
+      ],
+      "last_names_at_birth": [
+        "Robertson"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60143/records/179686",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-kilwinning-walker-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe index records Wilhilmina Colquhouv Robertson, also indexed as Wilhilmina Colquhouv Glasgow, baptised at Kilwinning on 29 July 1840. It names R. Robertson Glasgow and Mary Wilhimina Campbell as her parents.<ref>[https://www.ancestry.co.uk/search/collections/60143/records/179686 Ancestry, Scotland, Select Births and Baptisms, 1564–1950: Wilhilmina Colquhouv Robertson, record 60143/179686].</ref>\n\n== Research Notes ==\nThe index uses both Robertson and Glasgow for the child. This baptism does not identify her in later life.\n\n== Sources ==\n<references />\n",
+      "assessment": "Named documentary subject; wider identity unresolved.",
+      "current_conclusion": "The index uses both Robertson and Glasgow for the child. This baptism does not identify her in later life.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: Wilhilmina Colquhouv Robertson, record 60143/179686",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/179686",
+          "source_type": "Provider index transcript",
+          "date": "29 Jul 1840",
+          "year": 1840,
+          "place": "Kilwinning, Ayr, Scotland",
+          "indexed_facts": {
+            "Name": "Wilhilmina Colquhouv Robertson",
+            "Alternate Name": "Wilhilmina Colquhouv Glasgow",
+            "Gender": "Female",
+            "Baptism Date": "29 Jul 1840",
+            "Baptism Place": "Kilwinning, Ayr, Scotland",
+            "Father": "R. Robertson Glasgow",
+            "Mother": "Mary Wilhimina Campbell"
+          },
+          "note": "The index records Wilhilmina Colquhouv Robertson, also indexed as Wilhilmina Colquhouv Glasgow, baptised at Kilwinning on 29 July 1840. It names R. Robertson Glasgow and Mary Wilhimina Campbell as her parents."
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glascow-john-walker-1911",
+      "subject_id": "ancestry-glascow-john-walker-1911",
+      "name": "John Glascow",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glascow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "about 1846",
+      "birth_location": "Edinburgh, Scotland",
+      "death": "",
+      "death_location": "",
+      "occupations": [
+        "Joiner"
+      ],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265007",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-kilwinning-walker-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe census index lists John Glascow, also indexed as John Glasgow, aged 65, at 23 Eastbourne Avenue, Walker. He was a joiner and gave Edinburgh as his birthplace.<ref>[https://www.ancestry.co.uk/search/collections/2352/records/35265007 Ancestry, 1911 England Census: John Glascow, record 2352/35265007].</ref>\n\n== Research Notes ==\nThe 1911 index gives his age as 65 and birthplace as Edinburgh. His identity in earlier records is unresolved.\n\n== Sources ==\n<references />\n",
+      "assessment": "Named documentary subject; wider identity unresolved.",
+      "current_conclusion": "The 1911 index gives his age as 65 and birthplace as Edinburgh. His identity in earlier records is unresolved.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "Ancestry, 1911 England Census: John Glascow, record 2352/35265007",
+          "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265007",
+          "source_type": "Provider index transcript",
+          "date": "1911",
+          "year": 1911,
+          "place": "Walker, Northumberland, England",
+          "indexed_facts": {
+            "Name": "John Glascow",
+            "Alternate Name": "John Glasgow",
+            "Age in 1911": "65",
+            "Estimated Birth Year": "abt 1846",
+            "Relation to Head": "Head",
+            "Birth Place": "Edinburgh, Scotland",
+            "Civil Parish": "Walker",
+            "Street Address": "23 Eastbourne Avenue Walker",
+            "Occupation": "Joiner",
+            "Piece": "30786"
+          },
+          "note": "The census index lists John Glascow, also indexed as John Glasgow, aged 65, at 23 Eastbourne Avenue, Walker. He was a joiner and gave Edinburgh as his birthplace."
+        }
+      ],
+      "historical_basis": {
+        "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35265007",
+        "latest_birth_year": 1847,
+        "reason": "The 1911 census index records age 65 and estimates birth about 1846."
+      }
     }
   ]
 }
