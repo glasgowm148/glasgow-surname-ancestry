@@ -458396,5 +458396,139 @@
         "timeline_group": "Life events"
       }
     }
+  },
+  {
+    "record_id": "ancestry-3145-24421739",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/24421739",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/24421739",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "reviewed_on": "2026-11-05",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "William Glasgow",
+    "source_title": "Kelly’s Directory of Suffolk (1900), p. 358: Rev. William Glasgow",
+    "source_status": "Ancestry index corroborated by printed directory",
+    "indexed_facts": {
+      "Name": "Rev Glasgow",
+      "Gender": "Male",
+      "Publication Year": "1900",
+      "Residence Place": "Suffolk, England",
+      "Occupation": "William. (Baptist"
+    },
+    "record_type": "Directory entry",
+    "record_category": "Directories and registers",
+    "date": "1900",
+    "year": 1900,
+    "date_status": "publication_date",
+    "place": "Tunstall, Suffolk, England",
+    "country": "England",
+    "event_role": "named directory resident",
+    "association": "Rev. William Glasgow — Tunstall",
+    "status": "Matched existing catalogue person by name, ministry and locality",
+    "profiles": {
+      "record-anc-william-glasgow-1831-36903": {
+        "role": "Listed as a Baptist minister in the Tunstall parish entry",
+        "assessment": "confident",
+        "timeline_group": "Life events"
+      }
+    },
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/api/collection/p16445coll4/id/326274/download",
+    "supporting_source_title": "Kelly’s Directory of Suffolk (1900), p. 358",
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "original directory corroboration",
+    "supporting_source_reason": "Listed as a Baptist minister in the Tunstall parish entry",
+    "note": "Listed as a Baptist minister in the Tunstall parish entry. The name, Baptist ministry and Tunstall association agree with the existing William Glasgow dossier and his 1913 obituary.",
+    "provenance": "Ancestry, UK, City and County Directories; University of Leicester, Historical Directories collection.",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-3145-24432298",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/24432298",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/24432298",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "reviewed_on": "2026-11-05",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "William Glasgow",
+    "source_title": "Kelly’s Directory of Suffolk (1900), p. 408: Rev. William Glasgow",
+    "source_status": "Ancestry index corroborated by printed directory",
+    "indexed_facts": {
+      "Name": "Rev Glasgow",
+      "Gender": "Male",
+      "Publication Year": "1900",
+      "Residence Place": "Suffolk, England",
+      "Address": "William TunstallWickMarket"
+    },
+    "record_type": "Directory entry",
+    "record_category": "Directories and registers",
+    "date": "1900",
+    "year": 1900,
+    "date_status": "publication_date",
+    "place": "Tunstall, Suffolk, England",
+    "country": "England",
+    "event_role": "named directory resident",
+    "association": "Rev. William Glasgow — Tunstall",
+    "status": "Matched existing catalogue person by name, ministry and locality",
+    "profiles": {
+      "record-anc-william-glasgow-1831-36903": {
+        "role": "Named in the county’s private residents list at Tunstall, Wickham Market",
+        "assessment": "confident",
+        "timeline_group": "Life events"
+      }
+    },
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/api/collection/p16445coll4/id/326324/download",
+    "supporting_source_title": "Kelly’s Directory of Suffolk (1900), p. 408",
+    "supporting_source_quality": "printed_directory",
+    "supporting_source_status": "original directory corroboration",
+    "supporting_source_reason": "Named in the county’s private residents list at Tunstall, Wickham Market",
+    "note": "Named in the county’s private residents list at Tunstall, Wickham Market. The name, Baptist ministry and Tunstall association agree with the existing William Glasgow dossier and his 1913 obituary.",
+    "provenance": "Ancestry, UK, City and County Directories; University of Leicester, Historical Directories collection.",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-60558-251303",
+    "provider": "Ancestry",
+    "provider_record_id": "60558/251303",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60558/records/251303",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "reviewed_on": "2026-11-05",
+    "collection": "Scotland, National Probate Index (Calendar of Confirmations and Inventories), 1876–1936",
+    "person": "Robert Bruce Robertson-Glasgow",
+    "source_title": "Scottish Calendar of Confirmations and Inventories (1896): Robert Bruce Robertson-Glasgow",
+    "source_status": "Inspected Ancestry index entry",
+    "record_type": "Probate index entry",
+    "record_category": "Wills and probate",
+    "indexed_facts": {
+      "Name": "Robert Bruce Robertson-Glasgow",
+      "Alternate indexed name": "Glasgow Robertson-Glasgow",
+      "Confirmation Date": "1896"
+    },
+    "date": "1896",
+    "year": 1896,
+    "date_status": "confirmation_year",
+    "country": "Scotland",
+    "event_role": "indexed deceased subject",
+    "association": "Robert Bruce Robertson-Glasgow — confirmation index",
+    "status": "Probable companion to the dated probate entry; documentary identity held",
+    "profiles": {
+      "record-anc-robert-bruce-robertson-glasgow-1896-49175": {
+        "role": "Probable same subject as the dated probate entry",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60558-249175"
+    ],
+    "reference": "Ancestry image 40884_b206790-00202",
+    "note": "The full name and confirmation year agree with the entry indexed as 60558/249175. This index uses a different image and gives no day, death date or place.",
+    "provenance": "Ancestry, Scotland, National Probate Index; Commissary Clerk of Edinburgh, Calendar of Confirmations and Inventories.",
+    "publish_to_record_index": false
   }
 ]
