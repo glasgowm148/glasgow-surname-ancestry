@@ -430559,5 +430559,223 @@
       "source_url": "https://www.ancestry.co.uk/search/collections/61596/records/14207406",
       "reason": "Named principal has an explicit birth date in the 1939 register index."
     }
+  },
+  {
+    "record_id": "ancestry-63150-10423353",
+    "provider": "Ancestry",
+    "provider_record_id": "63150/10423353",
+    "collection": "1921 England Census",
+    "person": "Thomas Henry Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423353",
+    "source_title": "Ancestry, 1921 England Census: Thomas Henry Glasgow, RG 15/6463, ED 7, Sch 40, record 63150/10423353",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Thomas Henry Glasgow",
+      "Gender": "Male",
+      "Age": "42 Years 1 Month",
+      "Estimated Birth Year": "1879",
+      "Birth Place": "Camberwell, London, England",
+      "Residence Street Address": "113 Cambridge Roasd, N W 6",
+      "Residence Place": "Willesden, Middlesex, England",
+      "Occupation": "Greengrocer",
+      "Schedule reference": "RG 15/6463, ED 7, Sch 40"
+    },
+    "event_role": "indexed household member",
+    "association": "Thomas Henry Glasgow — 1921 census",
+    "status": "Probable catalogue identity",
+    "date": "1921",
+    "year": 1921,
+    "place": "113 Cambridge Road, Willesden, Middlesex, England",
+    "country": "England",
+    "profiles": {
+      "record-anc-thomas-henry-glasgow-1881-77617": {
+        "role": "Probable resident; occupation, locality and children agree, but indexed age and birthplace differ",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The 1921 census indexes Thomas Henry Glasgow, age 42 Years 1 Month, at 113 Cambridge Road, Willesden, Middlesex, England. The schedule calls him Thomas A Glasgow and lists him as head, a greengrocer. The 1911 census names a Thomas Henry Glasgow who also worked in the grocery trade in Kilburn, with Lily and Alfred of matching ages. The indexed ages and birthplaces differ.",
+    "provenance": "The National Archives, 1921 Census Returns, RG 15/6463, ED 7, Sch 40. Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1880,
+      "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423353",
+      "reason": "Reported age at the 1921 census places the named person’s birth no later than this year."
+    },
+    "related_evidence_ids": [
+      "ancestry-63150-10423354",
+      "ancestry-63150-10423358",
+      "ancestry-63150-10423359",
+      "ancestry-2352-39777617"
+    ]
+  },
+  {
+    "record_id": "ancestry-63150-10423354",
+    "provider": "Ancestry",
+    "provider_record_id": "63150/10423354",
+    "collection": "1921 England Census",
+    "person": "Lily Agnes Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423354",
+    "source_title": "Ancestry, 1921 England Census: Lily Agnes Glasgow, RG 15/6463, ED 7, Sch 40, record 63150/10423354",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Lily Agnes Glasgow",
+      "Gender": "Female",
+      "Age": "39 Years 7 Months",
+      "Estimated Birth Year": "1881",
+      "Birth Place": "Paddington, London, England",
+      "Residence Street Address": "113 Cambridge Roasd, N W 6",
+      "Residence Place": "Willesden, Middlesex, England",
+      "Occupation": "Charwoman",
+      "Schedule reference": "RG 15/6463, ED 7, Sch 40"
+    },
+    "event_role": "indexed household member",
+    "association": "Lily Agnes Glasgow — 1921 census",
+    "status": "Documentary source; identity held",
+    "date": "1921",
+    "year": 1921,
+    "place": "113 Cambridge Road, Willesden, Middlesex, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-lily-agnes-kilburn-1921": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The 1921 census indexes Lily Agnes Glasgow, age 39 Years 7 Months, at 113 Cambridge Road, Willesden, Middlesex, England. The schedule calls her Lily A Glasgow and lists her as wife, a charwoman. An alternate indexed name is Lily A Shirley.",
+    "provenance": "The National Archives, 1921 Census Returns, RG 15/6463, ED 7, Sch 40. Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1882,
+      "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423354",
+      "reason": "Reported age at the 1921 census places the named person’s birth no later than this year."
+    },
+    "related_evidence_ids": [
+      "ancestry-63150-10423353",
+      "ancestry-63150-10423358",
+      "ancestry-63150-10423359"
+    ]
+  },
+  {
+    "record_id": "ancestry-63150-10423358",
+    "provider": "Ancestry",
+    "provider_record_id": "63150/10423358",
+    "collection": "1921 England Census",
+    "person": "Sarah G Shirley",
+    "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423358",
+    "source_title": "Ancestry, 1921 England Census: Sarah G Shirley, RG 15/6463, ED 7, Sch 40, record 63150/10423358",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Sarah G Shirley",
+      "Gender": "Female",
+      "Age": "19",
+      "Estimated Birth Year": "1902",
+      "Birth Place": "Kilburn, London, England",
+      "Residence Street Address": "113 Cambridge Roasd, N W 6",
+      "Residence Place": "Willesden, Middlesex, England",
+      "Occupation": "Domestic Servant",
+      "Schedule reference": "RG 15/6463, ED 7, Sch 40"
+    },
+    "event_role": "indexed household member",
+    "association": "Sarah G Shirley — 1921 census",
+    "status": "Documentary source; identity held",
+    "date": "1921",
+    "year": 1921,
+    "place": "113 Cambridge Road, Willesden, Middlesex, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-sarah-shirley-kilburn-1921": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The 1921 census indexes Sarah G Shirley, age 19, at 113 Cambridge Road, Willesden, Middlesex, England. The schedule calls her Sarah G Shirley; the index also gives Sarah G Glasgow. The indexed relationship is inconsistent, so her relationship to the head is unresolved.",
+    "provenance": "The National Archives, 1921 Census Returns, RG 15/6463, ED 7, Sch 40. Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1903,
+      "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423358",
+      "reason": "Reported age at the 1921 census places the named person’s birth no later than this year."
+    },
+    "related_evidence_ids": [
+      "ancestry-63150-10423353",
+      "ancestry-63150-10423354",
+      "ancestry-63150-10423359"
+    ]
+  },
+  {
+    "record_id": "ancestry-63150-10423359",
+    "provider": "Ancestry",
+    "provider_record_id": "63150/10423359",
+    "collection": "1921 England Census",
+    "person": "Hilda Shirley",
+    "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423359",
+    "source_title": "Ancestry, 1921 England Census: Hilda Shirley, RG 15/6463, ED 7, Sch 40, record 63150/10423359",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Hilda Shirley",
+      "Gender": "Female",
+      "Age": "17 Years 8 Months",
+      "Estimated Birth Year": "1903",
+      "Birth Place": "Kilburn, London, England",
+      "Residence Street Address": "113 Cambridge Roasd, N W 6",
+      "Residence Place": "Willesden, Middlesex, England",
+      "Occupation": "Brain Pipe Factory",
+      "Schedule reference": "RG 15/6463, ED 7, Sch 40"
+    },
+    "event_role": "indexed household member",
+    "association": "Hilda Shirley — 1921 census",
+    "status": "Documentary source; identity held",
+    "date": "1921",
+    "year": 1921,
+    "place": "113 Cambridge Road, Willesden, Middlesex, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-hilda-shirley-kilburn-1921": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The 1921 census indexes Hilda Shirley, age 17 Years 8 Months, at 113 Cambridge Road, Willesden, Middlesex, England. The schedule calls her Hilda Shirley; the index also gives Hilda Glasgow. The indexed relationship is inconsistent. A Hilda Shirley of similar age is listed at the Kilburn address of Thomas Henry Glasgow in 1911.",
+    "provenance": "The National Archives, 1921 Census Returns, RG 15/6463, ED 7, Sch 40. Ancestry index.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1904,
+      "source_url": "https://www.ancestry.co.uk/search/collections/63150/records/10423359",
+      "reason": "Reported age at the 1921 census places the named person’s birth no later than this year."
+    },
+    "related_evidence_ids": [
+      "ancestry-63150-10423353",
+      "ancestry-63150-10423354",
+      "ancestry-63150-10423358",
+      "ancestry-2352-39777617"
+    ]
   }
 ]
