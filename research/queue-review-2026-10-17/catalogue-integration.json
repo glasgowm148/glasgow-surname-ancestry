@@ -66211,11 +66211,11 @@
       "name": "George Edwin Glasgow",
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/2352/records/22485256",
       "research_subject_url": "/people/record-anc-george-edwin-glasgow-1901-85256.html",
-      "draft_path": "research/ancestry-glasgow-audit/drafts/census-1911-england.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Edwin Glasgow appears in 1911 England Census: Age in 1911: 10; Estimated Birth Year: abt 1901; Relation to Head: Son; Gender: Male; Birth Place: Burnley, Lancashire, England; Civil parish: Burnley; County/Island: Lancashire; Country: England; Street Address: 292 Lowerhouse Lane Burnley Lancs; Occupation: School; Sub-registration district: West Ward.<ref name=\"anc1\">[https://www.ancestry.co.uk/search/collections/2352/records/22485256 1911 England Census — George Edwin Glasgow]. Ancestry index transcript, saved and reviewed 4 November 2026; TNA RG 14 original not inspected.</ref>\n\n== Research Notes ==\nNo catalogue person is compatible with George Edwin Glasgow once explicit conflicts are applied; a new sourced draft is proposed. Birth: Derived from the indexed age or estimated year (1900–1901); not a recorded birth date. Publication bound: Indexed birth date \"abt 1901\" (approximate; one year allowed).\n\n=== Identity comparisons ===\n* George Alexander Glasgow (Glasgow-1002): ruled out, birth 1874-02-04 conflicts with the record's 1900–1901.\n* George Benjamin Little Glasgow (Glasgow-2132): ruled out, birth c. 1897 conflicts with the record's 1900–1901.\n* George Cannon Glasgow (Glasgow-3043): ruled out, birth 1863-04-25 conflicts with the record's 1900–1901.\n* George Ernest Glasgow (Glasgow-1637): ruled out, birth 1894-12-17 conflicts with the record's 1900–1901.\n* George Glasgow (Glasgow-1082): ruled out, birth 1605-02-17 conflicts with the record's 1900–1901.\n* George Glasgow (Glasgow-1090): ruled out, birth 1627-02-02 conflicts with the record's 1900–1901.\n\n=== Next records ===\nSeek the original record images and a civil birth, marriage or death registration naming parents before any profile creation.\n\n== Sources ==\n<references />\n",
-      "assessment": "No catalogue person is compatible with George Edwin Glasgow once explicit conflicts are applied; a new sourced draft is proposed.",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/naval-medal-roll-adm171-103-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Royal Navy service register lists George Edwin Glasgow, official number SS8725, born 4 June 1900 at Burnley, Lancashire.<ref>[https://discovery.nationalarchives.gov.uk/details/r/D7082312 The National Archives, ADM 188/1102/8725: Royal Navy register entry for George Edwin Glasgow].</ref> The medal roll index lists Geo E Glasgow, SS8725, for the following awards: Victory Medal, British War Medal.<ref>[https://www.ancestry.co.uk/search/collections/1687/records/986875 The National Archives, ADM 171/103: Geo E Glasgow, service number SS8725].</ref> He was christened on 12 July 1900 at Gannow, the son of George Edwin and Margaret Glasgow.<ref>[https://www.ancestry.co.uk/search/collections/1351/records/4149797 England & Wales, Christening Index, 1530-1980 — George Edwin Glasgow, 12 Jul 1900, Gannow, Lancashire, England].</ref> In 1911 he was aged ten and lived with his parents at 292 Lowerhouse Lane, Burnley.<ref>[https://www.ancestry.co.uk/search/collections/2352/records/22485256 1911 England Census — George Edwin Glasgow, 292 Lowerhouse Lane Burnley Lancs, Burnley, Lancashire].</ref>\n\n== Research Notes ==\nThe Royal Navy service register lists George Edwin Glasgow, official number SS8725, born 4 June 1900 at Burnley, Lancashire. The christening and census identify him as the Burnley-born son of George Edwin and Margaret Glasgow. His father, born about 1878 in Kendal, was a different man. The census-derived estimate of about 1901 is replaced by the recorded birth date.\n\n== Sources ==\n<references />\n",
+      "assessment": "The Royal Navy service register lists George Edwin Glasgow, official number SS8725, born 4 June 1900 at Burnley, Lancashire. The christening and census identify him as the Burnley-born son of George Edwin and Margaret Glasgow. His father, born about 1878 in Kendal, was a different man. The census-derived estimate of about 1901 is replaced by the recorded birth date.",
       "creation_status": "creation_ready",
-      "reviewed_at": "2026-11-04",
+      "reviewed_at": "2026-11-05",
       "first_names": [
         "George",
         "Edwin"
@@ -66227,31 +66227,104 @@
         "Glasgow"
       ],
       "gender": "Male",
-      "birth": "about 1901",
-      "birth_note": "Derived from the indexed age or estimated year (1900–1901); not a recorded birth date.",
+      "birth": "4 June 1900",
+      "birth_note": "Date recorded independently by the christening index and the Royal Navy register catalogue.",
       "death": "",
-      "birth_location": "Burnley, Lancashire, England",
-      "birth_location_note": "As indexed; not independently verified.",
+      "birth_location": "Burnley, Lancashire",
+      "birth_location_note": "",
       "death_location": "",
       "records": [
         {
-          "year": "1911",
-          "filter_year": 1911,
-          "association": "George Edwin Glasgow — 1911 England Census",
-          "note": "Ancestry index transcript; Age in 1911: 10; Estimated Birth Year: abt 1901; Relation to Head: Son; Gender: Male; Birth Place: Burnley, Lancashire, England; Civil parish: Burnley; County/Island: Lancashire; Country: England; Street Address: 292 Lowerhouse Lane Burnley Lancs; Occupation: School; Sub-registration district: West Ward.",
-          "source_title": "1911 England Census — George Edwin Glasgow",
+          "source_title": "England & Wales, Christening Index, 1530-1980 — George Edwin Glasgow, 12 Jul 1900, Gannow, Lancashire, England",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4149797",
+          "source_type": "Provider index transcript",
+          "date": "12 Jul 1900",
+          "year": "1900",
+          "place": "Gannow, Lancashire, England",
+          "indexed_facts": {
+            "Name": "George Edwin Glasgow",
+            "Gender": "Male",
+            "Birth Date": "4 Jun 1900",
+            "Christening Date": "12 Jul 1900",
+            "Christening Place": "Gannow, Lancashire, England",
+            "Father": "George Edwin Glasgow",
+            "Mother": "Margaret Glasgow"
+          },
+          "note": "The christening index records George Edwin Glasgow, born 4 June 1900 and christened 12 July 1900 at Gannow, Lancashire, son of George Edwin and Margaret Glasgow. The Royal Navy service register for SS8725 gives the same birth date. The 1911 Burnley census names the same parents and gives the son’s age as ten. The father’s link to the 1899 Gannow marriage is probable; the mother’s identity beyond the christening is held for review.",
+          "association": "Christening at Gannow, 12 July 1900",
+          "filter_year": 1900,
+          "record_location": "Gannow, Lancashire, England",
+          "region": "England",
+          "source_status": "Ancestry index transcript"
+        },
+        {
+          "source_title": "1911 England Census — George Edwin Glasgow, 292 Lowerhouse Lane Burnley Lancs, Burnley, Lancashire",
           "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/22485256",
-          "source_type": "Provider index",
-          "source_status": "Ancestry index transcript, saved 4 November 2026; original uninspected",
-          "record_location": "292 Lowerhouse Lane Burnley Lancs"
+          "source_type": "Provider index transcript",
+          "date": "1911",
+          "year": "1911",
+          "place": "292 Lowerhouse Lane Burnley Lancs, Burnley, Lancashire",
+          "indexed_facts": {
+            "Name": "George Edwin Glasgow",
+            "Gender": "Male",
+            "Birth Place": "Burnley, Lancashire, England",
+            "Relation to Head": "Son",
+            "Occupation": "School",
+            "Age in 1911": "10",
+            "Estimated Birth Year": "abt 1901",
+            "Street Address": "292 Lowerhouse Lane Burnley Lancs",
+            "Civil parish": "Burnley",
+            "County/Island": "Lancashire",
+            "Country": "England",
+            "Registration District Number": "472",
+            "Sub-registration district": "West Ward",
+            "ED, institution, or vessel": "27",
+            "Piece": "24850"
+          },
+          "note": "The census records George Edwin Glasgow, age ten, born in Burnley, in the household of George Edwin and Margaret Glasgow. His Gannow baptism gives a birth date of 4 June 1900, consistent with age ten at the census.",
+          "association": "Son in the Burnley household in 1911",
+          "filter_year": 1911,
+          "record_location": "292 Lowerhouse Lane Burnley Lancs, Burnley, Lancashire",
+          "region": "England",
+          "source_status": "Ancestry index transcript"
+        },
+        {
+          "source_title": "The National Archives, ADM 171/103: Geo E Glasgow, service number SS8725",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1687/records/986875",
+          "source_type": "Provider index transcript",
+          "date": "1914–1920",
+          "year": null,
+          "place": "Europe",
+          "indexed_facts": {
+            "Name": "Geo E Glasgow",
+            "Medal or Award": "Victory Medal, British War Medal",
+            "Service Year": "1914-1920",
+            "Service Location": "Europe",
+            "Campaign or Service": "World War I",
+            "Service Number": "S S 8725"
+          },
+          "note": "The medal roll index lists Geo E Glasgow, SS8725, for the following awards: Victory Medal, British War Medal. The Royal Navy service register lists George Edwin Glasgow, official number SS8725, born 4 June 1900 at Burnley, Lancashire. His exact birth date matches the Gannow baptism; the 1911 census names the same parents and places the son in Burnley. The index gives a service span of 1914–1920 without an individual award date."
+        },
+        {
+          "source_title": "The National Archives, ADM 188/1102/8725: Royal Navy register entry for George Edwin Glasgow",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7082312",
+          "source_type": "Archival catalogue entry",
+          "date": "4 June 1900",
+          "year": 1900,
+          "place": "Burnley, Lancashire",
+          "note": "The Royal Navy service register lists George Edwin Glasgow, official number SS8725, born 4 June 1900 at Burnley, Lancashire."
         }
       ],
       "historical_basis": {
-        "latest_birth_year": 1902,
-        "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/22485256",
-        "explanation": "Indexed birth date \"abt 1901\" (approximate; one year allowed)"
+        "latest_birth_year": 1900,
+        "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7082312",
+        "reason": "The Royal Navy register catalogue gives George Edwin Glasgow a birth date of 4 June 1900 and the same official number, SS8725, as the medal roll."
       },
-      "candidates": []
+      "candidates": [],
+      "occupations": [
+        "Royal Navy sailor"
+      ],
+      "current_conclusion": "The Royal Navy service register lists George Edwin Glasgow, official number SS8725, born 4 June 1900 at Burnley, Lancashire. The christening and census identify him as the Burnley-born son of George Edwin and Margaret Glasgow. His father, born about 1878 in Kendal, was a different man. The census-derived estimate of about 1901 is replaced by the recorded birth date."
     },
     {
       "subject_id": "anc-george-glasgow-1880-50108",
@@ -162153,125 +162226,6 @@
           "association": "Cecelia Maud Glasgow married George Hardy on 1921 at Amesbury, Wiltshire, England; father John Glasgow.",
           "note": "Consolidated onto this documentary person (SJ, 5 November 2026): no recorded conflict of dates, spouse, parents or place.",
           "evidence": "Provider index entry"
-        }
-      ]
-    },
-    {
-      "catalogue_id": "record-ancestry-glasgow-fffabd75a3af",
-      "subject_id": "ancestry-glasgow-fffabd75a3af",
-      "name": "George Edwin Glasgow",
-      "first_names": [
-        "George",
-        "Edwin"
-      ],
-      "last_names_at_birth": [
-        "Glasgow"
-      ],
-      "last_names_current": [],
-      "gender": "Male",
-      "birth": "4 Jun 1900",
-      "birth_note": "",
-      "birth_location": "",
-      "death": "",
-      "death_location": "",
-      "occupations": [],
-      "historical_basis": {
-        "latest_birth_year": 1900,
-        "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4149797",
-        "basis_kind": "record",
-        "explanation": "Indexed birth 4 Jun 1900"
-      },
-      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1351/records/4149797",
-      "research_subject_url": "/people/record-ancestry-glasgow-fffabd75a3af.html",
-      "draft_path": "research/ancestry-glasgow-audit/drafts/england-wales-christening-index-1351.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nGeorge Edwin Glasgow was christened on 12 Jul 1900 at Gannow, Lancashire, England, born 4 Jun 1900; parents George Edwin Glasgow and Margaret Glasgow.<ref name=\"anc4149797\">[https://www.ancestry.co.uk/search/collections/1351/records/4149797 Ancestry, England & Wales, Christening Index, 1530-1980, George Edwin Glasgow, 12 Jul 1900, Gannow, Lancashire, England]. Ancestry index transcript inspected 2026-11-04; original source uninspected.</ref>\n\n== Research Notes ==\nIdentity review, 2026-11-04: catalogue people with the same given name and a Glasgow-surname variant were compared by dates, spouse, parents and place. Possible profile identities: none compatible. Ruled out: Glasgow-1002 George Alexander Glasgow b. 1874-02-04 d. 1874-10: dates conflict: catalogue birth 1874-02-04 too early for a baptism in 1900; dates conflict: catalogue birth 1874-02-04 vs recorded birth 1900; died 1874-10, before the 1900 baptism; different named mother (Eleanor Margaret (Thexton) Glasgow; record names Margaret); different middle name (Alexander vs Edwin); Glasco-22 George B Glasco b. c. 1901-04: dates conflict: catalogue birth c. 1901-04 too late for a baptism in 1900; place cannot fit: catalogue life recorded only outside the British Isles (Indiana, United States); different named father (Benjamin Glasco; record names George); different named mother (Evaline May (Van Ausdil) Glasco; record names Margaret); Glasgow-2132 George Benjamin Little Glasgow b. c. 1897: dates conflict: catalogue birth c. 1897 too early for a baptism in 1900; dates conflict: catalogue birth c. 1897 vs recorded birth 1900; different named father (Henry Little Glasgow; record names George); different named mother (Matilda Cowan (Stanton) Glasgow; record names Margaret); different middle name (Benjamin Little vs Edwin); Glasgow-3043 George Cannon Glasgow b. 1863-04-25 d. 1916-07-30: dates conflict: catalogue birth 1863-04-25 too early for a baptism in 1900; dates conflict: catalogue birth 1863-04-25 vs recorded birth 1900; different middle name (Cannon vs Edwin); Glasgow-1637 George Ernest Glasgow b. 1894-12-17 d. 1956-02-21: dates conflict: catalogue birth 1894-12-17 too early for a baptism in 1900; dates conflict: catalogue birth 1894-12-17 vs recorded birth 1900; different named father (John R Glasgow; record names George); different named mother (Rachael (Mitchell) Glasgow; record names Margaret); different middle name (Ernest vs Edwin); Glasco-18 George Glasco b. c. 1857: dates conflict: catalogue birth c. 1857 too early for a baptism in 1900; dates conflict: catalogue birth c. 1857 vs recorded birth 1900; different named father (Thomas Glasco; record names George); different named mother (Mary (Lyle) Glasco; record names Margaret); Glasco-60 George Glasco b. c. 1904: dates conflict: catalogue birth c. 1904 too late for a baptism in 1900; dates conflict: catalogue birth c. 1904 vs recorded birth 1900; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); different named father (Richard B Glasgow; record names George); different named mother (Annie (Unknown) Glasco; record names Margaret); Glascoe-36 George Glascoe d. By 3 July 1589 (buried that day): chronology conflict: catalogue events are dated 1589-1589; died By 3 July 1589 (buried that day), before the 1900 baptism.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
-      "assessment": "George Edwin Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). No compatible catalogue person was found; a documentary draft is created.",
-      "current_conclusion": "George Edwin Glasgow is known here from the Ancestry England & Wales, Christening Index, 1530-1980 entry (child christened). No compatible catalogue person was found; a documentary draft is created.",
-      "current_questions": [
-        "Inspect the original register entry for fuller names, residences and relatives."
-      ],
-      "creation_status": "creation_ready",
-      "reviewed_at": "2026-11-04",
-      "candidates": [],
-      "duplicate_audit": {
-        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant",
-        "candidates": [
-          {
-            "profile_id": "Glasgow-1002",
-            "name": "George Alexander Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1874-02-04 too early for a baptism in 1900; dates conflict: catalogue birth 1874-02-04 vs recorded birth 1900; died 1874-10, before the 1900 baptism; different named mother (Eleanor Margaret (Thexton) Glasgow; record names Margaret); different middle name (Alexander vs Edwin)"
-          },
-          {
-            "profile_id": "Glasco-22",
-            "name": "George B Glasco",
-            "exclusion": "dates conflict: catalogue birth c. 1901-04 too late for a baptism in 1900; place cannot fit: catalogue life recorded only outside the British Isles (Indiana, United States); different named father (Benjamin Glasco; record names George); different named mother (Evaline May (Van Ausdil) Glasco; record names Margaret)"
-          },
-          {
-            "profile_id": "Glasgow-2132",
-            "name": "George Benjamin Little Glasgow",
-            "exclusion": "dates conflict: catalogue birth c. 1897 too early for a baptism in 1900; dates conflict: catalogue birth c. 1897 vs recorded birth 1900; different named father (Henry Little Glasgow; record names George); different named mother (Matilda Cowan (Stanton) Glasgow; record names Margaret); different middle name (Benjamin Little vs Edwin)"
-          },
-          {
-            "profile_id": "Glasgow-3043",
-            "name": "George Cannon Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1863-04-25 too early for a baptism in 1900; dates conflict: catalogue birth 1863-04-25 vs recorded birth 1900; different middle name (Cannon vs Edwin)"
-          },
-          {
-            "profile_id": "Glasgow-1637",
-            "name": "George Ernest Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1894-12-17 too early for a baptism in 1900; dates conflict: catalogue birth 1894-12-17 vs recorded birth 1900; different named father (John R Glasgow; record names George); different named mother (Rachael (Mitchell) Glasgow; record names Margaret); different middle name (Ernest vs Edwin)"
-          },
-          {
-            "profile_id": "Glasco-18",
-            "name": "George Glasco",
-            "exclusion": "dates conflict: catalogue birth c. 1857 too early for a baptism in 1900; dates conflict: catalogue birth c. 1857 vs recorded birth 1900; different named father (Thomas Glasco; record names George); different named mother (Mary (Lyle) Glasco; record names Margaret)"
-          },
-          {
-            "profile_id": "Glasco-60",
-            "name": "George Glasco",
-            "exclusion": "dates conflict: catalogue birth c. 1904 too late for a baptism in 1900; dates conflict: catalogue birth c. 1904 vs recorded birth 1900; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); different named father (Richard B Glasgow; record names George); different named mother (Annie (Unknown) Glasco; record names Margaret)"
-          },
-          {
-            "profile_id": "Glascoe-36",
-            "name": "George Glascoe",
-            "exclusion": "chronology conflict: catalogue events are dated 1589-1589; died By 3 July 1589 (buried that day), before the 1900 baptism"
-          },
-          {
-            "profile_id": "Glasgow-1082",
-            "name": "George Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1605-02-17 too early for a baptism in 1900; dates conflict: catalogue birth 1605-02-17 vs recorded birth 1900; chronology conflict: catalogue events are dated 1605-1605; different named father (James Glasgow; record names George); different named mother (Christina Adamson; record names Margaret)"
-          },
-          {
-            "profile_id": "Glasgow-1090",
-            "name": "George Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1627-02-02 too early for a baptism in 1900; dates conflict: catalogue birth 1627-02-02 vs recorded birth 1900; chronology conflict: catalogue events are dated 1627-1627; different named father (John Glasgow; record names George); different named mother (Jonet (Mathie) Glasgow; record names Margaret)"
-          },
-          {
-            "profile_id": "Glasgow-3100",
-            "name": "George Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1630 too early for a baptism in 1900; dates conflict: catalogue birth 1630 vs recorded birth 1900; chronology conflict: catalogue events are dated 1630-1630; different named father (John Glasgow of Linlithgow; record names George)"
-          },
-          {
-            "profile_id": "Glasgow-3312",
-            "name": "George Glasgow",
-            "exclusion": "dates conflict: catalogue birth 1729-07-19 too early for a baptism in 1900; dates conflict: catalogue birth 1729-07-19 vs recorded birth 1900; chronology conflict: catalogue events are dated 1729-1768; died 1768-06-27, before the 1900 baptism"
-          }
-        ],
-        "conclusion": "creation_ready"
-      },
-      "records": [
-        {
-          "source_title": "Ancestry, England & Wales, Christening Index, 1530-1980: George Edwin Glasgow, 12 Jul 1900",
-          "source_url": "https://www.ancestry.co.uk/search/collections/1351/records/4149797",
-          "source_type": "Provider index transcript",
-          "source_status": "Ancestry index transcript inspected 2026-11-04; original source uninspected",
-          "year": "1900",
-          "filter_year": 1900,
-          "record_location": "Gannow, Lancashire, England",
-          "region": "England",
-          "association": "George Edwin Glasgow was christened on 12 Jul 1900 at Gannow, Lancashire, England, born 4 Jun 1900; parents George Edwin Glasgow and Margaret Glasgow.",
-          "note": "",
-          "evidence": "Provider index transcript"
         }
       ]
     },
@@ -408356,6 +408310,138 @@
           "note": "Pigot lists John Glasgow, grocer and spirit dealer, at Blackburn in the Livingstone and Blackburn section. The text places this Blackburn in Linlithgowshire. The two Ancestry entries index the same town and trade. The Edinburgh spirit dealers remain separate comparisons; no family identity is assigned."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-edward-dennis-glasgow-1886",
+      "subject_id": "ancestry-edward-dennis-glasgow-1886",
+      "name": "Edward Dennis Glasgow",
+      "first_names": [
+        "Edward",
+        "Dennis"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Male",
+      "birth": "21 November 1886",
+      "birth_location": "Hammersmith, London",
+      "birth_note": "Date given by the Royal Navy register catalogue.",
+      "birth_location_note": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [
+        "Royal Navy sailor"
+      ],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1687/records/986874",
+      "creation_status": "creation_ready",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/naval-medal-roll-adm171-103-20261105.wiki",
+      "reviewed_at": "2026-11-05",
+      "historical_basis": {
+        "latest_birth_year": 1886,
+        "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D6953230",
+        "reason": "The Royal Navy register catalogue gives Edward Dennis Glasgow a birth date of 21 November 1886 and the same official number, J54313, as the medal roll."
+      },
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "The National Archives, ADM 171/103: Edward D Glasgow, service number J54313",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1687/records/986874",
+          "source_type": "Provider index transcript",
+          "date": "1914–1920",
+          "year": null,
+          "place": "Europe",
+          "indexed_facts": {
+            "Name": "Edward D Glasgow",
+            "Medal or Award": "Victory Medal, British War Medal",
+            "Service Year": "1914-1920",
+            "Service Location": "Europe",
+            "Campaign or Service": "World War I",
+            "Service Number": "J 54313"
+          },
+          "note": "The medal roll index lists Edward D Glasgow, J54313, for the following awards: Victory Medal, British War Medal. The Royal Navy service register lists Edward Dennis Glasgow, official number J54313, born 21 November 1886 at Hammersmith, London. The index gives a service span of 1914–1920 without an individual award date."
+        },
+        {
+          "source_title": "The National Archives, ADM 188/755/54313: Royal Navy register entry for Edward Dennis Glasgow",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D6953230",
+          "source_type": "Archival catalogue entry",
+          "date": "21 November 1886",
+          "year": 1886,
+          "place": "Hammersmith, London",
+          "note": "The Royal Navy service register lists Edward Dennis Glasgow, official number J54313, born 21 November 1886 at Hammersmith, London."
+        }
+      ],
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Royal Navy service register lists Edward Dennis Glasgow, official number J54313, born 21 November 1886 at Hammersmith, London.<ref>[https://discovery.nationalarchives.gov.uk/details/r/D6953230 The National Archives, ADM 188/755/54313: Royal Navy register entry for Edward Dennis Glasgow].</ref> The medal roll index lists Edward D Glasgow, J54313, for the following awards: Victory Medal, British War Medal.<ref>[https://www.ancestry.co.uk/search/collections/1687/records/986874 The National Archives, ADM 171/103: Edward D Glasgow, service number J54313].</ref>\n\n== Research Notes ==\nThe Royal Navy service register lists Edward Dennis Glasgow, official number J54313, born 21 November 1886 at Hammersmith, London. The medal roll index lists Edward D Glasgow, J54313, for the following awards: Victory Medal, British War Medal. No relatives are named in these service entries.\n\n== Sources ==\n<references />\n",
+      "assessment": "The Royal Navy service register lists Edward Dennis Glasgow, official number J54313, born 21 November 1886 at Hammersmith, London. The medal roll index lists Edward D Glasgow, J54313, for the following awards: Victory Medal, British War Medal. No relatives are named in these service entries.",
+      "current_conclusion": "The Royal Navy service register lists Edward Dennis Glasgow, official number J54313, born 21 November 1886 at Hammersmith, London. The medal roll index lists Edward D Glasgow, J54313, for the following awards: Victory Medal, British War Medal. No relatives are named in these service entries."
+    },
+    {
+      "catalogue_id": "record-ancestry-william-sim-glasgow-1892",
+      "subject_id": "ancestry-william-sim-glasgow-1892",
+      "name": "William Sim Glasgow",
+      "first_names": [
+        "William",
+        "Sim"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [
+        "Glasgow"
+      ],
+      "gender": "Male",
+      "birth": "25 April 1892",
+      "birth_location": "Fraserburgh, Aberdeenshire",
+      "birth_note": "Date given by the Royal Navy register catalogue.",
+      "birth_location_note": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [
+        "Royal Navy sailor"
+      ],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1687/records/986876",
+      "creation_status": "creation_ready",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/naval-medal-roll-adm171-103-20261105.wiki",
+      "reviewed_at": "2026-11-05",
+      "historical_basis": {
+        "latest_birth_year": 1892,
+        "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7078857",
+        "reason": "The Royal Navy register catalogue gives William Sim Glasgow a birth date of 25 April 1892 and the same official number, SS113241, as the medal roll."
+      },
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "The National Archives, ADM 171/103: Wm S Glasgow, service number SS113241",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1687/records/986876",
+          "source_type": "Provider index transcript",
+          "date": "1914–1920",
+          "year": null,
+          "place": "Europe",
+          "indexed_facts": {
+            "Name": "Wm S Glasgow",
+            "Medal or Award": "Star, Victory Medal, British War Medal",
+            "Service Year": "1914-1920",
+            "Service Location": "Europe",
+            "Campaign or Service": "World War I",
+            "Service Number": "S S 113241"
+          },
+          "note": "The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal. The Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire. The index gives a service span of 1914–1920 without an individual award date."
+        },
+        {
+          "source_title": "The National Archives, ADM 188/1119/113241: Royal Navy register entry for William Sim Glasgow",
+          "source_url": "https://discovery.nationalarchives.gov.uk/details/r/D7078857",
+          "source_type": "Archival catalogue entry",
+          "date": "25 April 1892",
+          "year": 1892,
+          "place": "Fraserburgh, Aberdeenshire",
+          "note": "The Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire."
+        }
+      ],
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire.<ref>[https://discovery.nationalarchives.gov.uk/details/r/D7078857 The National Archives, ADM 188/1119/113241: Royal Navy register entry for William Sim Glasgow].</ref> The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal.<ref>[https://www.ancestry.co.uk/search/collections/1687/records/986876 The National Archives, ADM 171/103: Wm S Glasgow, service number SS113241].</ref>\n\n== Research Notes ==\nThe Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire. The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal. No relatives are named in these service entries.\n\n== Sources ==\n<references />\n",
+      "assessment": "The Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire. The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal. No relatives are named in these service entries.",
+      "current_conclusion": "The Royal Navy service register lists William Sim Glasgow, official number SS113241, born 25 April 1892 at Fraserburgh, Aberdeenshire. The medal roll index lists Wm S Glasgow, SS113241, for the following awards: Star, Victory Medal, British War Medal. No relatives are named in these service entries."
     }
   ]
 }
