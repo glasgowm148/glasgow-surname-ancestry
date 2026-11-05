@@ -82866,6 +82866,33 @@
         "research/relationship_assessments.json",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "currie-mary-glasgow-george-denholm-marriage-index-20261105",
+      "found_on": "2026-11-05",
+      "reviewed_on": "2026-11-05",
+      "kind": "record",
+      "status": "qualified",
+      "finding": "The Scottish marriage index names Mary Glasgow and George Denholm at Currie on 19 June 1767. The two names agree with the spouse already recorded for Mary Glasgow (Glasgow-369), making this a probable record match.",
+      "qualification": "The index does not distinguish banns from the ceremony, and does not establish the couple’s parents or birth dates.",
+      "detail_url": "/people/glasgow-369.html#source-ancestry-60144-819882",
+      "people": [
+        {
+          "id": "Glasgow-369",
+          "name": "Mary Glasgow",
+          "url": "/people/glasgow-369.html",
+          "role": "Probable bride identification; her dossier records George Denholm as spouse"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scotland, Select Marriages, 1561–1910: Mary Glasgow and George Denholm, 19 June 1767, Currie",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/819882"
+        }
+      ],
+      "provenance": [
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
