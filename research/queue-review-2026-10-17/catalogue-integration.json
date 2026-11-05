@@ -408505,6 +408505,48 @@
           "note": "The service catalogue records James Glasgow, ordinary seaman, Z/2612, born 24 September 1895."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-william-glasgow-ryde-1878",
+      "subject_id": "ancestry-william-glasgow-ryde-1878",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/3145/records/16270832",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-ryde-directory-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Ryde alphabetical list names Mr William Glasgow at The Lawn, Spencer Road. The Ancestry index puts William in the address field. His age, family and wider identity are unknown.<ref>[https://www.ancestry.co.uk/search/collections/3145/records/16270832 Ancestry, UK City and County Directories, record 3145/16270832].</ref><ref>[https://www.bartiesworld.co.uk/directory-db/diroutput-town.php?loc=1878Ryde&p=9 White’s Directory of Hampshire and the Isle of Wight (1878), Ryde alphabetical list].</ref>\n\n== Research Notes ==\nWilliam Maurice Glasgow, baptised at Cowes in 1879, is not identified with the adult listed here.\n\n== Sources ==\n<references />\n",
+      "assessment": "Named directory resident; wider identity unresolved.",
+      "current_conclusion": "William Glasgow was listed at The Lawn in 1878; no parent or other family link is established.",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "records": [
+        {
+          "source_title": "White’s Directory of Hampshire and the Isle of Wight (1878), Ryde alphabetical list: William Glasgow",
+          "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/16270832",
+          "source_type": "Provider index transcript",
+          "date": "1878",
+          "year": 1878,
+          "place": "The Lawn, Spencer Road, Ryde, Isle of Wight, England",
+          "indexed_facts": {
+            "Name": "Mr Glasgow",
+            "Gender": "Male",
+            "Publication Year": "1878",
+            "Address": "William The Lawn Spencer road",
+            "Residence Place": "Hampshire, England"
+          },
+          "note": "The Ryde alphabetical list names Mr William Glasgow at The Lawn, Spencer Road. The Ancestry index puts William in the address field. His age, family and wider identity are unknown."
+        }
+      ]
     }
   ]
 }

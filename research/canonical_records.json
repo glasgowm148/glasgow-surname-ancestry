@@ -458345,5 +458345,56 @@
     "provenance": "Ancestry, UK, City and County Directories; University of Leicester Historical Directories collection.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-3145-16270832",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/16270832",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/16270832",
+    "source_title": "White’s Directory of Hampshire and the Isle of Wight (1878), Ryde alphabetical list: William Glasgow",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry index and matching directory transcription",
+    "indexed_facts": {
+      "Name": "Mr Glasgow",
+      "Gender": "Male",
+      "Publication Year": "1878",
+      "Address": "William The Lawn Spencer road",
+      "Residence Place": "Hampshire, England"
+    },
+    "event_role": "named directory resident",
+    "record_type": "Directory entry",
+    "record_category": "Directories and registers",
+    "association": "William Glasgow — The Lawn, Ryde",
+    "date": "1878",
+    "year": 1878,
+    "date_status": "publication_date",
+    "place": "The Lawn, Spencer Road, Ryde, Isle of Wight, England",
+    "country": "England",
+    "status": "Documentary subject; wider identity unresolved",
+    "note": "The Ryde alphabetical list names Mr William Glasgow at The Lawn, Spencer Road. The Ancestry index puts William in the address field. His age, family and wider identity are unknown.",
+    "supporting_source_url": "https://www.bartiesworld.co.uk/directory-db/diroutput-town.php?loc=1878Ryde&p=9",
+    "supporting_source_title": "White’s Directory of Hampshire and the Isle of Wight (1878), Ryde alphabetical list",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "matching directory transcription",
+    "supporting_source_reason": "The alphabetical list puts William with the surname, before the address.",
+    "provenance": "Ancestry, UK, City and County Directories; White’s Ryde alphabetical list, transcribed.",
+    "historical_basis": {
+      "latest_birth_year": 1878,
+      "source_url": "https://www.bartiesworld.co.uk/directory-db/diroutput-town.php?loc=1878Ryde&p=9",
+      "reason": "The 1878 directory names the resident."
+    },
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "profiles": {
+      "record-ancestry-william-glasgow-ryde-1878": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   }
 ]
