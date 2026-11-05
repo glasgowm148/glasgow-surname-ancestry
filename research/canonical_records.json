@@ -428752,5 +428752,643 @@
     "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
     "reviewed_on": "2026-11-05",
     "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-2352-39774662",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/39774662",
+    "collection": "1911 England Census",
+    "person": "Annie Whiteway",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/39774662",
+    "source_title": "Ancestry, 1911 England Census: Annie Whiteway, record 2352/39774662",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Annie Whiteway",
+      "Age in 1911": "28",
+      "Estimated Birth Year": "abt 1883",
+      "Relation to Head": "Wife",
+      "Gender": "Female",
+      "Birth Place": "Camberwell",
+      "Civil parish": "Willesden",
+      "County/Island": "Middlesex",
+      "Country": "England",
+      "Street Address": "53 Granville Rd, West Kilburn",
+      "Marital Status": "Married",
+      "Years Married": "7",
+      "Estimated Marriage Year": "1904",
+      "Registration District Number": "129",
+      "Sub-registration district": "Willesden",
+      "ED, institution, or vessel": "04",
+      "Piece": "6984",
+      "Alternate indexed names": "Annie Glasgow"
+    },
+    "event_role": "indexed principal",
+    "association": "Annie Whiteway — census index",
+    "status": "Documentary source; identity held",
+    "date": "1911",
+    "year": 1911,
+    "place": "53 Granville Rd, West Kilburn",
+    "country": "England",
+    "profiles": {},
+    "note": "Annie Whiteway, alternate Annie Glasgow, was 28, born in Camberwell and listed as wife in William Whiteway’s household at 53 Granville Road, West Kilburn. A separate index entry names Lizzie Glasgow as wife’s mother.",
+    "provenance": "Ancestry, 1911 England Census.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-2352-39774665"
+    ],
+    "historical_basis": {
+      "latest_birth_year": 1884,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/39774662",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-1364090",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/1364090",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Marvis Anne Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/1364090",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Marvis Anne Glasgow, record 9776/1364090",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Marvis Anne Glasgow",
+      "Gender": "Female",
+      "Baptism Age": "22",
+      "Baptism Place": "St. Mary's, Tenterfield, New South Wales, Australia",
+      "Residence Place": "Tenterfield, New South Wales, Australia",
+      "Father": "James Glasgow",
+      "Mother": "Mary Hill",
+      "FHL Film Number": "993628"
+    },
+    "event_role": "Probable indexed child; locality and parents agree; indexed spelling differs",
+    "association": "Marvis Anne Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "St. Mary's, Tenterfield, New South Wales, Australia",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-mavis-a-tenterfield-1894": {
+        "role": "Probable indexed child; locality and parents agree; indexed spelling differs",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The baptism index gives Marvis Anne Glasgow, age 22, parents James Glasgow and Mary Hill, at St Mary’s, Tenterfield. Compare the 1894 Tenterfield birth entry for Mavis A. The baptism date is unspecified.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-3248489"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1894,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248489",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-1364091",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/1364091",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "James Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/1364091",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: James Glasgow, record 9776/1364091",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "James Glasgow",
+      "Gender": "Male",
+      "Spouse": "Mary Hill",
+      "Child": "Marvis Anne Glasgow"
+    },
+    "event_role": "Probable referenced child; parents and name variant agree",
+    "association": "James Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-mavis-a-tenterfield-1894": {
+        "role": "Probable referenced child; parents and name variant agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The parent entry names James Glasgow, spouse Mary Hill, and child Marvis Anne. Compare the 1894 Tenterfield birth entry for Mavis A.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-3248489"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1894,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248489",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-1538210",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/1538210",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Helena Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/1538210",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Helena Glasgow, record 9776/1538210",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Helena Glasgow",
+      "Gender": "Female",
+      "Spouse": "Laurentio Cook Hinitt"
+    },
+    "event_role": "Probable indexed mother; given-name variant and unusual spouse name agree",
+    "association": "Helena Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-helen-hinitt-tenterfield-1882": {
+        "role": "Probable indexed mother; given-name variant and unusual spouse name agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The baptism parent index names Helena Glasgow and Laurentio Cook Hinitt. Compare Helen Glasgow and Lawrence C Hinitt in the 1882 Tenterfield marriage index. The baptism date is unspecified.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1780-1764817"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1882,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764817",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-1879875",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/1879875",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Ellen Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/1879875",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Ellen Glasgow, record 9776/1879875",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Ellen Glasgow",
+      "Gender": "Female",
+      "Spouse": "Laurence Cook Hissitt"
+    },
+    "event_role": "Probable indexed mother; indexed names vary across the family records",
+    "association": "Ellen Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-helen-hinitt-tenterfield-1882": {
+        "role": "Probable indexed mother; indexed names vary across the family records",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The baptism parent index gives Ellen Glasgow and Laurence Cook Hissitt. Compare Helen Glasgow and Lawrence C Hinitt in the 1882 Tenterfield marriage index. The baptism date is unspecified.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1780-1764817"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1882,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764817",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-613126",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/613126",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Colin Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/613126",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Colin Glasgow, record 9776/613126",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Colin Glasgow",
+      "Gender": "Male",
+      "Baptism Place": "Casino, New South Wales, Australia",
+      "Residence Place": "Casino, New South Wales, Australia",
+      "Father": "Louis Henry Glasgow",
+      "Mother": "Mabel Frances Campbell",
+      "FHL Film Number": "993750"
+    },
+    "event_role": "Probable indexed child; Casino and both parents agree",
+    "association": "Colin Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "Casino, New South Wales, Australia",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-colin-casino-1894": {
+        "role": "Probable indexed child; Casino and both parents agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The baptism index names Colin Glasgow, parents Louis Henry Glasgow and Mabel Frances Campbell, at Casino. The 1894 Casino birth entry gives their corresponding initials.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-3247840"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1894,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247840",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-613127",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/613127",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Louis Henry Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/613127",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Louis Henry Glasgow, record 9776/613127",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Louis Henry Glasgow",
+      "Gender": "Male",
+      "Spouse": "Mabel Frances Campbell",
+      "Child": "Colin Glasgow"
+    },
+    "event_role": "Probable referenced child; name and both parents agree",
+    "association": "Louis Henry Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-colin-casino-1894": {
+        "role": "Probable referenced child; name and both parents agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The parent entry names Louis Henry Glasgow, spouse Mabel Frances Campbell and child Colin. The 1894 Casino registration supplies the historical bound.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-3247840"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1894,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3247840",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-613415",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/613415",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Louis Henry Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/613415",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Louis Henry Glasgow, record 9776/613415",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Louis Henry Glasgow",
+      "Gender": "Male",
+      "Spouse": "Mabel Frances Campbell",
+      "Child": "Mary Clare Glasgow"
+    },
+    "event_role": "Probable referenced child; first name, middle initial and parents agree",
+    "association": "Louis Henry Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-mary-c-casino-1896": {
+        "role": "Probable referenced child; first name, middle initial and parents agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The parent entry names Louis Henry Glasgow, spouse Mabel Frances Campbell and child Mary Clare. Compare the 1896 Casino birth entry for Mary C.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-3248487"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1896,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248487",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-613416",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/613416",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Mary Clare Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/613416",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Mary Clare Glasgow, record 9776/613416",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Mary Clare Glasgow",
+      "Gender": "Female",
+      "Baptism Place": "Casino, New South Wales, Australia",
+      "Residence Place": "Casino, New South Wales, Australia",
+      "Father": "Louis Henry Glasgow",
+      "Mother": "Mabel Frances Campbell",
+      "FHL Film Number": "993750"
+    },
+    "event_role": "Probable indexed child; first name, middle initial, locality and parents agree",
+    "association": "Mary Clare Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "Casino, New South Wales, Australia",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-mary-c-casino-1896": {
+        "role": "Probable indexed child; first name, middle initial, locality and parents agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The baptism index names Mary Clare Glasgow and her parents Louis Henry Glasgow and Mabel Frances Campbell. Compare the 1896 Casino birth entry for Mary C.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-3248487"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1896,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/3248487",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-68473",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/68473",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Alexander Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/68473",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Alexander Glasgow, record 9776/68473",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Alexander Glasgow",
+      "Gender": "Male",
+      "Spouse": "Eva Glasgow",
+      "Child": "Mary Ethel Glasgow"
+    },
+    "event_role": "Probable referenced child; name and indexed parent names agree",
+    "association": "Alexander Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2951": {
+        "role": "Probable referenced child; name and indexed parent names agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The parent entry names Alexander Glasgow, spouse Eva, and child Mary Ethel. Compare the 1882 Brunswick birth index naming Alexander Glasgow and Eva Benjamin.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-1179661"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1883,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179661",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9776-68474",
+    "provider": "Ancestry",
+    "provider_record_id": "9776/68474",
+    "collection": "Australia, Births and Baptisms, 1792–1981",
+    "person": "Eva Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9776/records/68474",
+    "source_title": "Ancestry, Australia, Births and Baptisms, 1792–1981: Eva Glasgow, record 9776/68474",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Eva Glasgow",
+      "Gender": "Female",
+      "Spouse": "Alexander Glasgow",
+      "Child": "Mary Ethel Glasgow"
+    },
+    "event_role": "Probable referenced child; name and indexed parent names agree",
+    "association": "Eva Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2951": {
+        "role": "Probable referenced child; name and indexed parent names agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The parent entry names Eva Glasgow, spouse Alexander, and child Mary Ethel. Compare the 1882 Brunswick birth index naming Alexander Glasgow and Eva Benjamin.",
+    "provenance": "Ancestry, Australia, Births and Baptisms, 1792–1981.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-1179661"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1883,
+      "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179661",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
+  },
+  {
+    "record_id": "ancestry-9899-1576503",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1576503",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "Noel Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1576503",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: Noel Robertson-Glasgow, record 9899/1576503",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Noel Robertson-Glasgow",
+      "Gender": "Male",
+      "Birth Date": "25 Dec 1881",
+      "Baptism Date": "19 Jan 1882",
+      "Baptism Age": "0",
+      "Baptism Place": "Kasauli, Bengal, India",
+      "Father": "John Campbell Robertson-Glasgow",
+      "Mother": "Geraldine",
+      "FHL Film Number": "510867"
+    },
+    "event_role": "Indexed child; baptism date, birthplace and both parents agree",
+    "association": "Noel Robertson-Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "19 Jan 1882",
+    "year": 1882,
+    "place": "Kasauli, Bengal, India",
+    "country": "India",
+    "profiles": {
+      "record-ancestry-glasgow-noel-robertson-1881": {
+        "role": "Indexed child; baptism date, birthplace and both parents agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "The index records Noel Robertson-Glasgow, born 25 December 1881 and baptised 19 January 1882 at Kasauli. It names John Campbell Robertson-Glasgow and Geraldine as his parents.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-9899-91571"
+    ]
+  },
+  {
+    "record_id": "ancestry-9899-1576505",
+    "provider": "Ancestry",
+    "provider_record_id": "9899/1576505",
+    "collection": "India, Select Births and Baptisms, 1786–1947",
+    "person": "John Campbell Robertson-Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1576505",
+    "source_title": "Ancestry, India, Select Births and Baptisms, 1786–1947: John Campbell Robertson-Glasgow, record 9899/1576505",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "John Campbell Robertson-Glasgow",
+      "Gender": "Male",
+      "Spouse": "Geraldine",
+      "Child": "Noel Robertson-Glasgow"
+    },
+    "event_role": "Indexed father; full name, spouse and child agree",
+    "association": "John Campbell Robertson-Glasgow — baptism index",
+    "status": "Probable catalogue identity",
+    "date": "Undated",
+    "year": null,
+    "place": "",
+    "country": "India",
+    "profiles": {
+      "record-anc-john-campbell-robertson-glasgow-1845-83063": {
+        "role": "Indexed father; full name, spouse and child agree",
+        "assessment": "probable",
+        "timeline_group": "Family records"
+      }
+    },
+    "note": "This parent entry names John Campbell Robertson-Glasgow, spouse Geraldine and child Noel. The dated baptism entry supplies the 1881 historical bound.",
+    "provenance": "Ancestry, India, Select Births and Baptisms, 1786–1947.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-9899-91571"
+    ],
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_birth_year": 1881,
+      "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/91571",
+      "reason": "A dated index establishes a historical birth bound for the named or referenced subject."
+    }
   }
 ]
