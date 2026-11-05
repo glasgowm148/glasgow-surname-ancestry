@@ -408547,6 +408547,458 @@
           "note": "The Ryde alphabetical list names Mr William Glasgow at The Lawn, Spencer Road. The Ancestry index puts William in the address field. His age, family and wider identity are unknown."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-fmp-davies-william-kilbirnie-1748",
+      "subject_id": "fmp-davies-william-kilbirnie-1748",
+      "name": "William Davies",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Davies"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "before 1735",
+      "birth_note": "A father at a 1748 baptism; no age given.",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": null,
+      "source_subject_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3587035&tab=this",
+      "research_subject_url": "/people/record-fmp-davies-william-kilbirnie-1748.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Davies, a farmer, is named as father of Janet (indexed as Janet Glasgow), baptised at Kilbirnie, Ayrshire, on 17 July 1748; her mother is indexed as Janet Kerr.<ref name=\"fmp3587035\">[https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3587035&tab=this Findmypast, Scotland, Parish Births & Baptisms 1564-1929, transcript SCOT/OPR/BAP/3587035], OPR 596/1. Index transcript inspected; original register not inspected.</ref>\n\n== Research Notes ==\nIdentity hold, 5 November 2026: the index gives the father's surname as Davies although the child is indexed as Glasgow; either surname may be an indexing error. Held as a separate record-defined person until the register is read. Not equated with any Glasgow man at Kilbirnie.\n\nNext research: inspect OPR 596/1 for the child's and the father's surnames, residence and witnesses.\n\n== Sources ==\n<references />\n",
+      "assessment": "William Davies, farmer, named as father of Janet (indexed Janet Glasgow) in the Kilbirnie baptism of 17 July 1748 (Findmypast OPR 596/1, SCOT/OPR/BAP/3587035), with mother Janet Kerr. The surname mismatch between father and child is unexplained, so the person is held separate (identity_hold) and is not equated with any Glasgow man.",
+      "current_conclusion": "William Davies, farmer, father of Janet baptised at Kilbirnie on 17 July 1748; identity and surname unverified against the register.",
+      "current_questions": [
+        "Inspect OPR 596/1 for the surnames, residence and witnesses.",
+        "Decide whether the child is a Glasgow or a Davies and merge or retire this draft accordingly."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Documentary persons already held for the same index entry and the record matcher candidates",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Findmypast, Scotland, Parish Births & Baptisms 1564-1929: Janet Glasgow, 17 Jul 1748, SCOT/OPR/BAP/3587035",
+          "source_url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F3587035&tab=this",
+          "source_type": "Provider index transcript",
+          "source_status": "Index transcript inspected; original register uninspected",
+          "year": "1748",
+          "filter_year": 1748,
+          "record_location": "Kilbirnie, Ayrshire, Scotland",
+          "region": "Scotland",
+          "association": "Father (William Davies, farmer) of Janet, baptised 17 Jul 1748 at Kilbirnie; mother Janet Kerr",
+          "note": "Surname of father (Davies) differs from the child's indexed surname (Glasgow).",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-9bf82b595c55",
+      "subject_id": "ancestry-glasgow-9bf82b595c55",
+      "name": "Adam Glasgow",
+      "first_names": [
+        "Adam"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Not recorded; born before 1756 (DERIVED from a daughter married in 1776, assuming she was at least 20).",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1756,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1686895",
+        "basis_kind": "record",
+        "explanation": "Marriage of daughter 8 Dec 1776"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/1686895",
+      "research_subject_url": "/people/record-ancestry-glasgow-9bf82b595c55.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nAdam Glasgow is named as father of Anne Glasgow at her marriage on 8 Dec 1776 at Edinburgh, Midlothian, Scotland.<ref name=\"anc1686895\">[https://www.ancestry.co.uk/search/collections/60144/records/1686895 Ancestry, Scotland, Select Marriages, 1561-1910, Anne Glasgow, 8 Dec 1776, Edinburgh, Midlothian, Scotland]. Index entry; original register uninspected.</ref>\n\n== Research Notes ==\nNamed only as the bride's father; no birth, residence or occupation is recorded. Proposed father of draft record-ancestry-glasgow-08ca5beeea0e (tentative, 85%).\n\n== Sources ==\n<references />\n",
+      "assessment": "Adam Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Anne Glasgow). No compatible catalogue person was found; identity held as a record-defined documentary person.",
+      "current_conclusion": "Adam Glasgow is known here from the Ancestry Scotland, Select Marriages, 1561-1910 entry (father of Anne Glasgow, married 8 Dec 1776 at Edinburgh). No compatible catalogue person was found.",
+      "current_questions": [
+        "Inspect the original Edinburgh register entry for the bride's parents' residence and occupation."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1475",
+          "name": "Adam Glasgow",
+          "assessment": "possible, not adopted",
+          "evidence": "the record matcher lists him as a possible identity for the father of Anne Glasgow; nothing places him in Edinburgh in 1776"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant",
+        "candidates": [],
+        "conclusion": "No Adam Glasgow of Edinburgh in the right generation is catalogued (only Adam Boyd Glasgow, a later draft, and Adam of Inishrush, Co. Londonderry); held rather than created ready."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561-1910: Anne Glasgow, 8 Dec 1776 (father Adam Glasgow)",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1686895",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected",
+          "year": "1776",
+          "filter_year": 1776,
+          "record_location": "Edinburgh, Midlothian, Scotland",
+          "region": "Scotland",
+          "association": "Adam Glasgow is named as father of Anne Glasgow at her marriage on 8 Dec 1776 at Edinburgh, Midlothian, Scotland.",
+          "note": "",
+          "evidence": "Provider index entry"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-fa3-william-glasgow-richmond-yorks",
+      "subject_id": "fa3-william-glasgow-richmond-yorks",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1778,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/193434698",
+        "basis_kind": "record",
+        "explanation": "Named as father in the christening of Mary, 17 Apr 1794 (so born by about 1778)"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9841/records/193434698",
+      "research_subject_url": "/people/record-fa3-william-glasgow-richmond-yorks.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow is named as the father of Mary Glasgow, christened on 17 Apr 1794 at Richmond near Leyburn, Yorkshire.<ref name=\"anc193434698\">[https://www.ancestry.co.uk/search/collections/9841/records/193434698 Ancestry, England, Select Births and Christenings, 1538-1975, Mary Glasgow, 17 Apr 1794, Richmond Near Leyburn, York]. Index entry; original uninspected.</ref> A father written Willm. Glasgow is named at the christening of a second Mary Glasgow on 4 Nov 1801 at the same place, probably the same man after the first Mary's death; this is an inference from the shared name and place.<ref name=\"anc193434524\">[https://www.ancestry.co.uk/search/collections/9841/records/193434524 Ancestry, England, Select Births and Christenings, 1538-1975, Mary Glasgow, 4 Nov 1801, Richmond Near Leyburn, York]. Index entry; original uninspected.</ref>\n\n== Research Notes ==\nCreated 5 Nov 2026 (worker FA3) as the documentary father of the two Richmond christenings. The earlier matcher suggested Glasgow-3324 (William Glasgow of Larne, County Antrim, 1763-1816) as a possible identity; the place does not fit and that William's children (Elizabeth, Jane Shutter, Mary) are an Antrim family, so he is not adopted. William Glasgow, father of John christened at Richmond on 7 Sep 1795 (Ancestry 156478595), is probably the same man; that entry is held on a separate draft (record-ancestry-glasgow-24953d4cdb62) and was not merged here.\n\nNext research: inspect the Richmond (St Mary / Holy Trinity) registers for the mother, residence and occupation; look for a marriage of William Glasgow about 1790-93 in the North Riding.\n\n== Sources ==\n<references />\n",
+      "assessment": "William Glasgow is known here only as the father named at the christenings of Mary Glasgow (1794) and, as Willm., Mary Glasgow (1801) at Richmond near Leyburn, Yorkshire. No compatible catalogue man was found; a documentary draft is created and held for identity review.",
+      "current_conclusion": "William Glasgow is known here only as the father named at the christenings of Mary Glasgow (1794) and, as Willm., Mary Glasgow (1801) at Richmond near Leyburn, Yorkshire. No compatible catalogue man was found; a documentary draft is created and held for identity review.",
+      "current_questions": [
+        "Inspect the Richmond registers for the mother, residence and occupation, and for the christening of John (7 Sep 1795), probably the same family."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "Glasgow-3324",
+          "name": "William Glasgow",
+          "assessment": "compatible by name and period only; place (Larne, Antrim) and family do not fit, not adopted",
+          "evidence": "matcher suggestion on the 1794 and 1801 entries"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Matcher suggestion on the 1794 and 1801 Richmond entries; same-name catalogue men born before 1778 checked by place",
+        "candidates": [
+          {
+            "profile_id": "Glasgow-3324",
+            "name": "William Glasgow",
+            "exclusion": "place and children (Antrim) do not fit a Yorkshire household"
+          }
+        ]
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, England, Select Births and Christenings, 1538-1975: Mary Glasgow, 17 Apr 1794",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/193434698",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+          "year": "1794",
+          "filter_year": 1794,
+          "record_location": "Richmond Near Leyburn,York,England",
+          "region": "England",
+          "association": "William Glasgow is named as father of Mary Glasgow, christened 17 Apr 1794.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, England, Select Births and Christenings, 1538-1975: Mary Glasgow, 4 Nov 1801",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/193434524",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry index transcript inspected 2026-11-05; original source uninspected",
+          "year": "1801",
+          "filter_year": 1801,
+          "record_location": "Richmond Near Leyburn,York,England",
+          "region": "England",
+          "association": "Willm. Glasgow is named as father of Mary Glasgow, christened 4 Nov 1801.",
+          "note": "",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-father-henry-glasgow-hertford-sarah",
+      "subject_id": "father-henry-glasgow-hertford-sarah",
+      "name": "Henry Glasgow",
+      "first_names": [
+        "Henry"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Not recorded; born before 1815 (DERIVED from a child christened in 1830).",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1815,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112363291",
+        "basis_kind": "record",
+        "explanation": "Child christened 1830"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9841/records/112363291",
+      "research_subject_url": "/people/record-father-henry-glasgow-hertford-sarah.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nHenry Glasgow is named as father (mother Sarah) in 1 index entries: Louisa Glasgow christened 14 Mar 1830, Saint Andrew, Hertford; father Henry Glasgow, mother Sarah (Louisa died 7 Sep 1845).<ref name=\"anc112363291\">[https://www.ancestry.co.uk/search/collections/9841/records/112363291 Ancestry England, Select Births and Christenings, 1538-1975, Louisa Glasgow christened 14 Mar 1830, Saint Andrew, Hertford; father Henry Glasgow, mother Sarah (Louisa died 7 Sep 1845)]. Ancestry index entry; original register uninspected.</ref>\n\n== Research Notes ==\nFA5 father review, 2026-11-05: Known only as the father Henry Glasgow, with a wife Sarah, in the Saint Andrew, Hertford, christening of Louisa on 14 Mar 1830. No other Henry Glasgow with a wife Sarah has been found in the saved records near Hertford. Identity hold: no age, trade or later trace.\n\nNext research: Inspect the original register entries for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Henry Glasgow is known here from the Ancestry index entries that name him as a father (Hertford, Hertfordshire, England). No compatible catalogue person was found; a documentary draft is proposed as the father of Louisa Glasgow (record-ancestry-glasgow-58b4256bf50e).",
+      "current_conclusion": "Henry Glasgow is known here from the Ancestry index entries that name him as a father. Known only as the father Henry Glasgow, with a wife Sarah, in the Saint Andrew, Hertford, christening of Louisa on 14 Mar 1830. No other Henry Glasgow with a wife Sarah has been found in the saved records near Hertford. Identity hold: no age, trade or later trace.",
+      "current_questions": [
+        "Inspect the original register entries for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1735",
+          "name": "Henry Glasgow",
+          "assessment": "possible, not adopted",
+          "evidence": "spouse Sarah (Little) Glasgow matches the indexed mother Sarah (record matcher); no place or date ties him to Hertford in 1830"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant, plus the family groups from the saved index",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry England, Select Births and Christenings, 1538-1975: Louisa Glasgow christened 14 Mar 1830, Saint Andrew, Hertford; father Henry Glasgow, mother Sarah (Louisa died 7 Sep 1845)",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/112363291",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (FA5, read 2026-11-05)",
+          "year": "1830",
+          "filter_year": 1830,
+          "record_location": "Saint Andrew, Hertford, Hertfordshire, England",
+          "region": "England",
+          "association": "Louisa Glasgow christened 14 Mar 1830, Saint Andrew, Hertford; father Henry Glasgow, mother Sarah (Louisa died 7 Sep 1845)",
+          "note": "",
+          "evidence": "Provider index entry"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-fa6-24911f336be3-father",
+      "subject_id": "record-fa6-24911f336be3-father",
+      "name": "James Bennett",
+      "first_names": [
+        "James"
+      ],
+      "last_names_at_birth": [
+        "Bennett"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Not recorded; born before about 1831 (derived from a child's 1846 entry).",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1831,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9852/records/5689798",
+        "basis_kind": "record",
+        "explanation": "Named as a father in 1846"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9852/records/5689798",
+      "research_subject_url": "/people/record-fa6-24911f336be3-father.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJames Bennett is named as the father of Sophia Glasgow at her marriage to Edward Dudley on 16 Nov 1846 at Saint Phillips, Birmingham, Warwickshire.<ref name=\"fap5689798\">[https://www.ancestry.co.uk/search/collections/9852/records/5689798 Ancestry, England, Select Marriages, 1538-1973: Sophia Glasgow, 16 Nov 1846]. Ancestry index entry read 2026-11-05; original uninspected</ref>\n\n== Research Notes ==\nTentative father review (FA6), 5 November 2026: Sophia is indexed under the surname Glasgow with her father as James Bennett, so Glasgow is probably a married name from an earlier marriage and Bennett her maiden name. James Bennett is known only from this entry; no age, occupation or residence is given, and no catalogue James Bennett has been compared. Identity hold.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "James Bennett is known only as the father named in Sophia Glasgow's marriage entry (Ancestry, England, Select Marriages, 1538-1973: Sophia Glasgow, 16 Nov 1846). No age, occupation or other record is attached. Identity with any catalogue James Bennett is not established (identity hold). Worker FA6, 5 November 2026.",
+      "current_conclusion": "James Bennett is known only as the father named in Sophia Glasgow's marriage entry (Ancestry, England, Select Marriages, 1538-1973: Sophia Glasgow, 16 Nov 1846). No age, occupation or other record is attached. Identity with any catalogue James Bennett is not established (identity hold). Worker FA6, 5 November 2026.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Documentary persons already held for the same index entry and the record matcher candidates",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "year": "1846",
+          "filter_year": 1846,
+          "region": null,
+          "record_location": "Saint Phillips,Birmingham,Warwick,England",
+          "association": "James Bennett is named as the father of Sophia Glasgow in this marriage entry: \"Sophia Glasgow married Edward Dudley on 16 Nov 1846 at Saint Phillips,Birmingham,Warwick,England.\"",
+          "note": "Father of the record person record-ancestry-glasgow-24911f336be3; drafted by FA6.",
+          "source_title": "Ancestry, England, Select Marriages, 1538-1973: Sophia Glasgow, 16 Nov 1846",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9852/records/5689798",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry read 2026-11-05; original uninspected",
+          "evidence": "Provider index entry"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-fa6-4c442fff8f7d-father",
+      "subject_id": "record-fa6-4c442fff8f7d-father",
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Not recorded; born before about 1835 (derived from a child's 1850 entry).",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1835,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/67140322",
+        "basis_kind": "record",
+        "explanation": "Named as a father in 1850"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9841/records/67140322",
+      "research_subject_url": "/people/record-fa6-4c442fff8f7d-father.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow is named as the father of David Glasgow, christened on 18 Aug 1850 at All Saints, Newcastle-upon-Tyne, Northumberland; the mother is Mary.<ref name=\"fap67140322\">[https://www.ancestry.co.uk/search/collections/9841/records/67140322 Ancestry, England, Select Births and Christenings, 1538-1975: David Glasgow, 18 Aug 1850]. Ancestry index entry read 2026-11-05; original uninspected</ref>\n\n== Research Notes ==\nTentative father review (FA6), 5 November 2026: Known here from this christening entry. The record matcher rates record-ancestry-glasgow-74cf9a936c43 (the John Glasgow who married a Mary at All Saints in 1850) as a probable identity; the two are not merged. Identity hold.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "John Glasgow is known only as the father named in David Glasgow's baptism entry (Ancestry, England, Select Births and Christenings, 1538-1975: David Glasgow, 18 Aug 1850). No age, occupation or other record is attached. Identity with any catalogue John Glasgow is not established (identity hold). Worker FA6, 5 November 2026.",
+      "current_conclusion": "John Glasgow is known only as the father named in David Glasgow's baptism entry (Ancestry, England, Select Births and Christenings, 1538-1975: David Glasgow, 18 Aug 1850). No age, occupation or other record is attached. Identity with any catalogue John Glasgow is not established (identity hold). Worker FA6, 5 November 2026.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "record-ancestry-glasgow-74cf9a936c43",
+          "name": "John Glasgow",
+          "assessment": "probable identity, not merged",
+          "evidence": "the John Glasgow who married a Mary at All Saints, Newcastle, in 1850 (record matcher: spouse Mary and place agree)"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Documentary persons already held for the same index entry and the record matcher candidates",
+        "candidates": [
+          "record-ancestry-glasgow-74cf9a936c43"
+        ],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "year": "1850",
+          "filter_year": 1850,
+          "region": null,
+          "record_location": "All Saints, Newcastle-upon-Tyne, Northumberland, England",
+          "association": "John Glasgow is named as the father of David Glasgow in this baptism entry: \"David Glasgow was christened on 18 Aug 1850 at All Saints, Newcastle-upon-Tyne, Northumberland, England; parents John Glasgow and Mary.\"",
+          "note": "Father of the record person record-ancestry-glasgow-4c442fff8f7d; drafted by FA6.",
+          "source_title": "Ancestry, England, Select Births and Christenings, 1538-1975: David Glasgow, 18 Aug 1850",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/67140322",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry read 2026-11-05; original uninspected",
+          "evidence": "Provider index entry"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-fa6-88449ec1dbec-father",
+      "subject_id": "record-fa6-88449ec1dbec-father",
+      "name": "Robert Glasgow",
+      "first_names": [
+        "Robert"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Not recorded; born before about 1831 (derived from a child's 1846 entry).",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1831,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/7689982",
+        "basis_kind": "record",
+        "explanation": "Named as a father in 1846"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9841/records/7689982",
+      "research_subject_url": "/people/record-fa6-88449ec1dbec-father.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261105.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nRobert Glasgow is named as the father of Robert Glasgow, christened on 27 Sep 1846 at Hulme, near Manchester, Lancashire; the mother is Elizabeth.<ref name=\"fap7689982\">[https://www.ancestry.co.uk/search/collections/9841/records/7689982 Ancestry, England, Select Births and Christenings, 1538-1975: Robert Glasgow, 27 Sep 1846]. Ancestry search-result row read 2026-11-05; original register uninspected</ref>\n\n== Research Notes ==\nTentative father review (FA6), 5 November 2026: Known here from this christening entry. The record matcher rates Glasgow-1594 (wife Elizabeth Campbell, with a catalogue son Robert) as a probable identity; the two are not merged, and the catalogue son may duplicate the child of this entry. Identity hold.\n\nNext research: Inspect the original register entry for fuller names, residences and relatives.\n\n== Sources ==\n<references />\n",
+      "assessment": "Robert Glasgow is known only as the father named in Robert Glasgow's baptism entry (Ancestry, England, Select Births and Christenings, 1538-1975: Robert Glasgow, 27 Sep 1846). No age, occupation or other record is attached. Identity with any catalogue Robert Glasgow is not established (identity hold). Worker FA6, 5 November 2026.",
+      "current_conclusion": "Robert Glasgow is known only as the father named in Robert Glasgow's baptism entry (Ancestry, England, Select Births and Christenings, 1538-1975: Robert Glasgow, 27 Sep 1846). No age, occupation or other record is attached. Identity with any catalogue Robert Glasgow is not established (identity hold). Worker FA6, 5 November 2026.",
+      "current_questions": [
+        "Inspect the original register entry for fuller names, residences and relatives."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "Glasgow-1594",
+          "name": "Robert Glasgow",
+          "assessment": "probable identity, not merged",
+          "evidence": "spouse Elizabeth (Campbell) Glasgow matches the indexed mother Elizabeth and he has a catalogue son Robert (record matcher)"
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Documentary persons already held for the same index entry and the record matcher candidates",
+        "candidates": [
+          "Glasgow-1594"
+        ],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "year": "1846",
+          "filter_year": 1846,
+          "region": "England",
+          "record_location": "Hulme (near Manchester), Lancashire, England",
+          "association": "Robert Glasgow is named as the father of Robert Glasgow in this baptism entry: \"Robert Glasgow was christened on 27 Sep 1846 at Hulme (near Manchester), Lancashire, England; parents Robert Glasgow and Elizabeth.\"",
+          "note": "Father of the record person record-ancestry-glasgow-88449ec1dbec; drafted by FA6.",
+          "source_title": "Ancestry, England, Select Births and Christenings, 1538-1975: Robert Glasgow, 27 Sep 1846",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/7689982",
+          "source_type": "Provider index search row",
+          "source_status": "Ancestry search-result row read 2026-11-05; original register uninspected",
+          "evidence": "Provider index search row"
+        }
+      ]
     }
   ]
 }

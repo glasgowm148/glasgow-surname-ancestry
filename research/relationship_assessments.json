@@ -116998,26 +116998,27 @@
       "review_kind": "era1649_parent_assessment",
       "source_newly_discovered": false
     },
-    "status": "proved",
+    "status": "superseded",
     "assessment_date": "2026-11-05",
-    "basis": "The Scotland, Select Births and Baptisms entry for Jhone Glasgow (1608, Mid Calder, Midlothian, Scotland) names father Jhone Glasgow. The entry matches the catalogue child by name, year and parish, and the father it names (Jhone Glasgow) corresponds to the father attached: John Glasgow. The father link is assessed separately from the mother link at 90% proved on this one entry (index copies counted once).",
-    "assessment_history": [],
-    "reason": "The Scotland, Select Births and Baptisms entry for Jhone Glasgow (1608, Mid Calder, Midlothian, Scotland) names father Jhone Glasgow. The entry matches the catalogue child by name, year and parish, and the father it names (Jhone Glasgow) corresponds to the father attached: John Glasgow. The father link is assessed separately from the mother link at 90% proved on this one entry (index copies counted once).",
-    "limitations": "Ancestry index transcript of the register; the original entry is uninspected. The spelling in the entry (Jhone Glasgow) differs from the catalogue form (John Glasgow); the parent's identity with the catalogue person rests on that name, the parish and the sibling group.",
-    "probability": {
-      "value": 0.9,
-      "reviewed": "2026-11-05",
-      "basis": "The Scotland, Select Births and Baptisms entry for Jhone Glasgow (1608, Mid Calder, Midlothian, Scotland) names father Jhone Glasgow. The entry matches the catalogue child by name, year and parish, and the father it names (Jhone Glasgow) corresponds to the father attached: John Glasgow. The father link is assessed separately from the mother link at 90% proved on this one entry (index copies counted once).",
-      "source_ids": [
-        "ancestry-60143-6519788"
-      ],
-      "scope": "Ancestry index transcript of the register; the original entry is uninspected. The spelling in the entry (Jhone Glasgow) differs from the catalogue form (John Glasgow); the parent's identity with the catalogue person rests on that name, the parish and the sibling group."
-    },
-    "working_selection": true,
+    "basis": "Superseded 5 November 2026 (FAP): this assessment duplicated the father estimate for the same pair (Glasgow-1086 and Glasgow-3296) already held as clm-2a97e12378032fef at 20% uncertain, which rests on the reread 1650 Lanark testament (CC14/5/5, images 65-66: an edict to kin brought no one and 'Na divisioun' shows no wife or children in the household). The 20% assessment remains the working estimate; this 90% proposal from a single baptism name match is retained as history only and no longer carries an estimate. Earlier reasoning: The Scotland, Select Births and Baptisms entry for Jhone Glasgow (1608, Mid Calder, Midlothian, Scotland) names father Jhone Glasgow. The entry matches the catalogue child by name, year and parish, and the father it names (Jhone Glasgow) corresponds to the father attached: John Glasgow. The father link is assessed separately from the mother link at 90% proved on this one entry (index copies counted once).",
+    "assessment_history": [
+      {
+        "status": "proved",
+        "probability_percent": 90,
+        "assessment_date": "2026-11-05",
+        "source_basis": "The Scotland, Select Births and Baptisms entry for Jhone Glasgow (1608, Mid Calder, Midlothian, Scotland) names father Jhone Glasgow. The entry matches the catalogue child by name, year and parish, and the father it names (Jhone Glasgow) corresponds to the father attached: John Glasgow. The father link is assessed separately from the mother link at 90% proved on this one entry (index copies counted once)."
+      }
+    ],
+    "reason": "Superseded 5 November 2026 (FAP): this assessment duplicated the father estimate for the same pair (Glasgow-1086 and Glasgow-3296) already held as clm-2a97e12378032fef at 20% uncertain, which rests on the reread 1650 Lanark testament (CC14/5/5, images 65-66: an edict to kin brought no one and 'Na divisioun' shows no wife or children in the household). The 20% assessment remains the working estimate; this 90% proposal from a single baptism name match is retained as history only and no longer carries an estimate. Earlier reasoning: The Scotland, Select Births and Baptisms entry for Jhone Glasgow (1608, Mid Calder, Midlothian, Scotland) names father Jhone Glasgow. The entry matches the catalogue child by name, year and parish, and the father it names (Jhone Glasgow) corresponds to the father attached: John Glasgow. The father link is assessed separately from the mother link at 90% proved on this one entry (index copies counted once).",
+    "limitations": "Ancestry index transcript of the register; the original entry is uninspected. The spelling in the entry (Jhone Glasgow) differs from the catalogue form (John Glasgow); the parent's identity with the catalogue person rests on that name, the parish and the sibling group. The 1608 Mid Calder baptism of Jhone Glasgow, son of Jhone (ancestry-60143-6519788), is a possible match for this child, not a proved one: the entry matches on name, year and parish only, and the identity of the 1608 child with the catalogue person, and of his father with Glasgow-3296, is unresolved.",
+    "probability": null,
+    "working_selection": false,
     "attachment_status": "attached",
-    "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "allow_new_relationship": false,
+    "lifecycle": "superseded",
+    "display": "historical",
+    "hypothesis_status": "superseded",
+    "status_label": "Superseded proposal",
     "analysis_links": [
       {
         "href": "/people/glasgow-1086.html#research-findings",
