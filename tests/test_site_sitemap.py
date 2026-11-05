@@ -93,7 +93,9 @@ class SitemapTests(unittest.TestCase):
             page("candidate-matches/index.html", head='<meta name="robots" content="noindex">')
             page("research/hidden/index.html", head='<meta name="robots" content="noindex">')
             page("research/argument/index.html", "A &amp; B &lt;script&gt; · Glasgow Surname Project")
+            from tools.build_ancestry_progress import legacy_redirect
             page("onetree/progress/index.html")
+            (site / "onetree/progress/index.html").write_text(legacy_redirect())
             page("resources/index.html")
             asset = site / "assets/unified/site.js"
             asset.parent.mkdir(parents=True)
@@ -113,7 +115,7 @@ class SitemapTests(unittest.TestCase):
             routes = {row["url"] for row in rows}
             self.assertIn("/research/queue/", routes)
             self.assertIn("/candidate-matches/", routes)
-            self.assertIn("/onetree/progress/", routes)
+            self.assertNotIn("/onetree/progress/", routes)
             self.assertNotIn("/research/hidden/", routes)
             self.assertNotIn("/people/public-1.html", routes)
             build_sitemap(site)

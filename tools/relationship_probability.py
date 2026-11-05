@@ -44,13 +44,30 @@ def reviewed_estimates():
     except ModuleNotFoundError:
         from tools import research_data
     rows = research_data.relationship_estimates(Path(__file__).resolve().parents[1]).get('estimates', [])
+    return index_reviewed_estimates(rows)
+
+
+def index_reviewed_estimates(rows):
+    def supersedes(current, legacy):
+        return (current.get('assertion_id') and current.get('lifecycle') == 'current'
+                and current.get('display') == 'current' and not legacy.get('assertion_id')
+                and not legacy.get('lifecycle')
+                and (current.get('reviewed') or '') > (legacy.get('reviewed') or ''))
+
     result = {}
     for row in rows:
         if row.get('percent') is None and row.get('lifecycle') == 'historical':
             continue  # a retired assessment keeps its earlier estimate only as history
         key = (row['subject_id'].casefold(), row['relative_id'].casefold(), row['relationship'])
-        if key in result or not 0 < row['percent'] < 100 or not row.get('basis'):
+        if not 0 < row['percent'] < 100 or not row.get('basis'):
             raise ValueError(f'Invalid or duplicate relationship estimate: {key}')
+        if key in result:
+            # The workbench retains the earlier unlinked estimate for audit.
+            # Use a newer explicit assessment of this same pair for display.
+            if supersedes(result[key], row):
+                continue
+            if not supersedes(row, result[key]):
+                raise ValueError(f'Invalid or duplicate relationship estimate: {key}')
         result[key] = row
     return result
 

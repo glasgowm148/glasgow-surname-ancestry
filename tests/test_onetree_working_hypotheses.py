@@ -221,6 +221,27 @@ class WorkingHypothesisTests(unittest.TestCase):
             apply_working_mothers(model, [alternative, selected])
         self.assertEqual(model, before)
 
+    def test_workbench_selection_of_recorded_mother_does_not_create_hypothesis(self):
+        model, _, selected = self.maternal_replacement_case()
+        selected.pop('working_parent_replacement')
+        selected.update(attachment_status='attached', status='proved')
+        model[0]['parents'][1]['id'] = 'NewMother-1'
+        before = deepcopy(model)
+        self.assertEqual(apply_working_mothers(model, [selected]), 0)
+        self.assertEqual(model, before)
+
+    def test_projected_mother_can_be_drawn_without_duplicate_parent(self):
+        model, _, selected = self.maternal_replacement_case()
+        selected.pop('working_parent_replacement')
+        projected = dict(id='NewMother-1', role='mother', status=selected['status'],
+                         assertion_id=selected['assertion_id'], tree_relationship=False)
+        model[0]['parents'][1] = projected
+        self.assertEqual(apply_working_mothers(model, [selected]), 1)
+        mothers = [row for row in model[0]['parents'] if row['role'] == 'mother']
+        self.assertEqual(len(mothers), 1)
+        self.assertTrue(mothers[0]['hypothesis'])
+        self.assertEqual(mothers[0]['assertion_id'], selected['assertion_id'])
+
     def test_maternal_replacement_can_reassess_an_inherited_confidence_flag(self):
         model, alternative, selected = self.maternal_replacement_case()
         model[0]['parents'][1]['status'] = 'confident'

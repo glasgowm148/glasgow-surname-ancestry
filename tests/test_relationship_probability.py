@@ -1,9 +1,20 @@
 import unittest
 
-from tools.relationship_probability import BANDS, probability_for_relationship, confidence_band
+from tools.relationship_probability import BANDS, probability_for_relationship, confidence_band, index_reviewed_estimates
 
 
 class RelationshipProbabilityTests(unittest.TestCase):
+    def test_explicit_reassessment_takes_precedence_over_same_pair_legacy_estimate(self):
+        older = dict(subject_id='Child-1', relative_id='Father-1', relationship='father',
+                     percent=20, basis='Earlier estimate', reviewed='2026-10-29')
+        newer = dict(older, percent=90, basis='New evidence', reviewed='2026-11-05',
+                     assertion_id='reviewed-claim', lifecycle='current', display='current')
+        key = ('child-1', 'father-1', 'father')
+        for rows in ([older, newer], [newer, older]):
+            self.assertEqual(index_reviewed_estimates(rows)[key], newer)
+        with self.assertRaisesRegex(ValueError, 'duplicate relationship estimate'):
+            index_reviewed_estimates([newer, dict(newer, assertion_id='different-claim')])
+
     def test_bands_and_aliases(self):
         self.assertEqual((BANDS["confident"]["minimum"], BANDS["confident"]["maximum"], BANDS["confident"]["rank"]), (.9, .99, 4))
         self.assertEqual(confidence_band("proved"), "confident")

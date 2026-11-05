@@ -155,6 +155,9 @@
   });
   function start(data) {
   const byId = id => document.getElementById(id);
+  // The builder escapes these sourced case cards before serializing them.
+  const cards = byId('early-connection-cards');
+  if (cards) cards.innerHTML = data.early_connection_cards || '';
   // In-page links stay on this page despite the site's <base href>.
   const here = location.pathname;
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

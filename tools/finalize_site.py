@@ -42,6 +42,9 @@ def finalize(site_root=ROOT/'www'):
     health_path=site_root/'health.json'
     generated=date.fromisoformat(json.loads(health_path.read_text())['generated']) if health_path.exists() else None
     built=datetime.now().replace(second=0,microsecond=0)  # one stamp for every page in this build
+    atlas_path=site_root/'assets/research/atlas-model.json'
+    atlas_stamp=json.loads(atlas_path.read_text()).get('meta', {}).get('catalogueGenerated') if atlas_path.exists() else None
+    atlas_generated=date.fromisoformat(atlas_stamp[:10]) if atlas_stamp else None
     manifest_path=site_root/'data/manifest.json'
     manifest=json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     counts.update(build_search(site_root))
@@ -80,11 +83,10 @@ def finalize(site_root=ROOT/'www'):
         # original presentation is preserved apart from existing cache versions.
         reference = path.relative_to(site_root).parts[0]=='reference'
         if generated and not reference:
-            # The family tree page states its own import date (repair_public_dna);
-            # the catalogue date must not overwrite it.
-            if path.relative_to(site_root).as_posix()!='onetree/index.html':
-                after=snapshot(after,generated,built)
-            if path.relative_to(site_root).as_posix()=='about/index.html':
+            relative = path.relative_to(site_root)
+            tree_section = relative.parts[0] in {'onetree', 'branches', 'ydna'}
+            after=snapshot(after,generated,built,atlas_generated=atlas_generated if tree_section else None)
+            if relative.as_posix()=='about/index.html':
                 after=about_dates(after,generated,manifest)
         tree = 'g-kind-tree' in after
         if reference or not tree:

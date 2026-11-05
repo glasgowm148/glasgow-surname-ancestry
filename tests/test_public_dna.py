@@ -70,7 +70,8 @@ class PublicDnaRepairTests(unittest.TestCase):
             original = json.loads(source(entries()[relative]))
             self.assertEqual(original['dna'], model['dna'])
             self.assertTrue(set(original['landmarks']).issubset(model['landmarks']))
-        self.assertIn("Atlas · 6 Sep 2026", (web / "onetree/index.html").read_text(encoding="utf-8"))
+        self.assertRegex((web / "onetree/index.html").read_text(encoding="utf-8"),
+                         r'g-snapshot-link"[^>]*>(?:Built |Atlas · )')
         self.assertIn('id="repair-tester-panel"', (web / "onetree/index.html").read_text())
         self.assertIn('dnaMarkers:()=>[...DNA.values()]', (web / "assets/research/atlas.js").read_text())
 

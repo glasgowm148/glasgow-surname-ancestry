@@ -34,10 +34,14 @@ def release_data() -> tuple[dict, dict, date]:
     return health, manifest, date.fromisoformat(health["generated"])
 
 
-def snapshot(page: str, generated: date, built: datetime | None = None) -> str:
+def snapshot(page: str, generated: date, built: datetime | None = None, *,
+             atlas_generated: date | None = None) -> str:
     label = generated.strftime("Catalogue · %d %b %Y").replace(" 0", " ")
     title = generated.strftime("Catalogue snapshot: %d %B %Y").replace(" 0", " ")
-    title += ". Tree and DNA have separate snapshot dates."
+    if atlas_generated:
+        title += f". Atlas catalogue snapshot: {atlas_generated.day} {atlas_generated.strftime('%B %Y')}."
+    else:
+        title += ". Tree and DNA have separate snapshot dates."
     if built:
         # The badge shows when the site was last built; the catalogue date stays in the title.
         label = f"Built {built.day} {built.strftime('%b %Y, %H:%M')}"

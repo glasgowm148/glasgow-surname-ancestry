@@ -455,7 +455,12 @@ def audit(web: Path = WEB, private_root: Path = PRIVATE_ROOT) -> list[str]:
         f"{imported.year}; current catalogue has separate updates."
     )
     onetree = (web / "onetree/index.html").read_text(encoding="utf-8")
-    if badge not in onetree or title not in onetree:
+    finalized = re.search(
+        r'<a(?=[^>]*class="[^"]*\bg-snapshot-link\b[^"]*")[^>]*>Built [^<]+</a>',
+        onetree,
+    )
+    atlas_title = f"Atlas catalogue snapshot: {imported.day} {imported.strftime('%B %Y')}."
+    if not ((badge in onetree and title in onetree) or (finalized and atlas_title in finalized.group())):
         failures.append("unsafe OneTree snapshot badge")
     return failures
 

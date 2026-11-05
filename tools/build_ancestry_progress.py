@@ -708,14 +708,17 @@ def build(create_baseline=False):
             f'<a href="{escape(s["url"], quote=True)}">{escape(s["label"])}</a>' for s in case["sources"]
         )
         cards.append(
-            f'<article class="connection-case" id="{case["id"]}"><p class="eyebrow">{case["year"]} onwards · {escape(case["status"])}</p><h3>{escape(case["title"])}</h3><p>{people}</p><p>{escape(case["basis"])}</p><p><strong>Next discriminating record:</strong> {escape(case["next_test"])}</p><p class="source-line">{sources}<br>{escape("; ".join(case["record_references"]))}</p></article>'
+            f'<article class="connection-case" id="{escape(case["id"], quote=True)}"><p class="eyebrow">{case["year"]} onwards · {escape(case["status"])}</p><h3>{escape(case["title"])}</h3><p>{people}</p><p>{escape(case["basis"])}</p><p><strong>Next discriminating record:</strong> {escape(case["next_test"])}</p><p class="source-line">{sources}<br>{escape("; ".join(case["record_references"]))}</p></article>'
         )
+    card_anchors = "".join(f'<span id="{escape(case["id"], quote=True)}"></span>'
+                           for case in strategy["early_connections"])
     cohort_rows = "".join(
         f"<tr><th scope='row'>Through {cutoff}</th><td>{data['working']['population']:,}</td><td>{data['working']['component_count']:,}</td><td>{len(data['working']['unattached_multi_child_roots']):,}</td><td>{data['working']['joined_people_percent']:.1f}%</td><td>{data['working']['connected_pairs_percent']:.2f}%</td></tr>"
         for cutoff, data in cohorts.items()
     )
     client = dict(
         reviewed=report['reviewed'],
+        early_connection_cards="".join(cards),
         current_named_father_coverage=current_named_father_coverage,
         cohorts={
             cutoff: {view: {k: v for k, v in value.items() if k != "cohort_ids"} for view, value in pair.items()}
@@ -786,7 +789,8 @@ def build(create_baseline=False):
               f'{len(cards):,} source-backed hypotheses, oldest record first, each with the next record that would decide it.',
               '<h3 id="working-map-title">One family, with the missing joins visible</h3><div id="working-origin-map" class="working-origin-map"></div>'
               '<h3>Connections, oldest first</h3><p class="pd-lede">Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>'
-              + "".join(cards)),
+              f'<div id="early-connection-cards">{card_anchors}</div>'
+              '<noscript><p>Enable JavaScript to read the full case list.</p></noscript>'),
         panel('family-heads', 'family-heads-title', 'Unattached family heads', 'sum-heads',
               f'{len(roots):,} early heads of families without a father in the selected pedigree.',
               f'<p class="pd-lede">Work upwards from families rather than isolated later records. Heads with one child but two or more surname descendants are included.</p>'
