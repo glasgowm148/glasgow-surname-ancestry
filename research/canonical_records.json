@@ -435368,5 +435368,61 @@
     "related_evidence_ids": [
       "ancestry-3145-16923827"
     ]
+  },
+  {
+    "record_id": "ancestry-1687-1234254",
+    "provider": "Ancestry",
+    "provider_record_id": "1687/1234254",
+    "collection": "UK, Naval Medal and Award Rolls, 1793–1972",
+    "person": "Ernest Moore Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1687/records/1234254",
+    "source_title": "The National Archives, ADM 171/168: Ernest M. Glasgow, RMA 1446/S",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry medal roll index transcript",
+    "record_type": "Medal roll index",
+    "record_category": "Military and service",
+    "indexed_facts": {
+      "Name": "Ernest M Glasgow",
+      "Medal or Award": "British War Medal",
+      "Service Year": "1914-1920",
+      "Service Location": "Europe",
+      "Campaign or Service": "World War I",
+      "Service Number": "Rma 1446/S"
+    },
+    "reference": "The National Archives, ADM 171/168",
+    "event_role": "indexed medal recipient",
+    "association": "Ernest Moore Glasgow — British War Medal roll",
+    "date": "1914–1920",
+    "year": null,
+    "date_status": "undated",
+    "place": "Europe",
+    "country": "",
+    "status": "Matched existing catalogue person",
+    "profiles": {
+      "glasgow-4320": {
+        "role": "Medal recipient; name and Royal Marine Artillery service number agree",
+        "assessment": "confirmed",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The medal roll index lists Ernest M. Glasgow, Royal Marine Artillery service number 1446/S, for the British War Medal. The Belfast Bank memorial account gives the same number for Ernest Moore Glasgow, born at Cookstown in July 1893. The roll’s date span is 1914–1920; the index supplies no individual award date.",
+    "historical_basis": {
+      "latest_birth_year": 1893,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2573/records/4835488",
+      "reason": "The Cookstown birth registration indexes Ernest Moore Glasgow in the July–September quarter of 1893; the memorial account gives the same full name and birth district and identifies service number RMA 1446/S."
+    },
+    "supporting_source_title": "Gavin Bamford, Northern Bank War Memorials: Ernest Moore Glasgow",
+    "supporting_source_url": "https://northernbankwarmemorials.blogspot.com/2019/09/glasgow-ernest-moore.html?m=1",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborating service reference",
+    "supporting_source_reason": "The memorial account identifies Ernest Moore Glasgow by the same service number and reproduces the medal roll.",
+    "related_evidence_ids": [
+      "ancestry-2573-4835488"
+    ],
+    "provenance": "Ancestry, UK, Naval Medal and Award Rolls, 1793–1972.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
   }
 ]
