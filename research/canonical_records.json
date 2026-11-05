@@ -434012,5 +434012,111 @@
     "supporting_source_quality": "derivative",
     "supporting_source_status": "corroborated",
     "supporting_source_reason": "The University of Leicester directory page corroborates the reading."
+  },
+  {
+    "record_id": "ancestry-3145-3069948",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/3069948",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "John Campbell Robertson Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/3069948",
+    "source_title": "Ancestry, UK, City and County Directories: Robertson Glasgow, Abbeyfield, record 3145/3069948",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Robertson Glasgow",
+      "Publication Year": "1895",
+      "Address": "AbbeyJield Colchester",
+      "Residence Place": "Essex, England"
+    },
+    "event_role": "indexed directory subject",
+    "association": "John Campbell Robertson Glasgow — Abbeyfield directory listing",
+    "status": "Probable catalogue identity",
+    "date": "1894–1895",
+    "year": null,
+    "date_status": "undated",
+    "place": "Abbeyfield, Colchester, Essex, England",
+    "country": "England",
+    "profiles": {
+      "record-anc-john-campbell-robertson-glasgow-1845-83063": {
+        "role": "Probable listed subject; name, address and regiment agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The Ancestry index gives Robertson Glasgow at Abbeyfield, Colchester, with a Suffolk Regiment reference on the companion entry. The 1894 Kelly directory names Lieutenant-Colonel John Campbell Robertson Glasgow at that address. The Ancestry edition is indexed as 1895.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_event_year": 1895,
+      "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/3069948",
+      "reason": "The provider labels the listing 1895; the matching Kelly directory is dated 1894."
+    },
+    "supporting_source_title": "Kelly's Directory of Essex, 1894 - Page 434",
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/58171",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The original directory names John Campbell Robertson Glasgow at Abbeyfield, Colchester.",
+    "related_evidence_ids": [
+      "ancestry-3145-3122692"
+    ]
+  },
+  {
+    "record_id": "ancestry-3145-3122692",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/3122692",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "John Campbell Robertson Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/3122692",
+    "source_title": "Ancestry, UK, City and County Directories: Robertson Glasgow, Abbeyfield, record 3145/3122692",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Robertson Glasgow",
+      "Publication Year": "1895",
+      "Residence Place": "Essex, England",
+      "Occupation": "Suffolk Regt.), Abbeyfld"
+    },
+    "event_role": "indexed directory subject",
+    "association": "John Campbell Robertson Glasgow — Abbeyfield directory listing",
+    "status": "Probable catalogue identity",
+    "date": "1894–1895",
+    "year": null,
+    "date_status": "undated",
+    "place": "Abbeyfield, Colchester, Essex, England",
+    "country": "England",
+    "profiles": {
+      "record-anc-john-campbell-robertson-glasgow-1845-83063": {
+        "role": "Probable listed subject; name, address and regiment agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The Ancestry index gives Robertson Glasgow at Abbeyfield, Colchester, with a Suffolk Regiment reference on the companion entry. The 1894 Kelly directory names Lieutenant-Colonel John Campbell Robertson Glasgow at that address. The Ancestry edition is indexed as 1895.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_event_year": 1895,
+      "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/3122692",
+      "reason": "The provider labels the listing 1895; the matching Kelly directory is dated 1894."
+    },
+    "supporting_source_title": "Kelly's Directory of Essex, 1894 - Page 434",
+    "supporting_source_url": "https://leicester.contentdm.oclc.org/digital/collection/p16445coll4/id/58171",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborated",
+    "supporting_source_reason": "The original directory names John Campbell Robertson Glasgow at Abbeyfield, Colchester.",
+    "related_evidence_ids": [
+      "ancestry-3145-3069948"
+    ]
   }
 ]
