@@ -131165,6 +131165,1624 @@
     }
   },
   {
+    "assertion_id": "clm-fa6-glasgow-1006-father-20261105",
+    "people": [
+      "Glasgow-1006",
+      "Glasgow-474"
+    ],
+    "claim": "Francis Thomas Glasgow Sr. is recorded as the father of Thomas Lewis Glasgow in the evidence cited in the assessment (tentative link, 45%).",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-1006": {
+        "relationship": "father"
+      },
+      "Glasgow-474": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "possible",
+    "assessment_date": "2026-11-05",
+    "basis": "Thomas Lewis Glasgow, born 19 Jan 1848 in Georgia, has his mother attached as Vilantia (Lewis) Glasgow (Lewis-42902, born 1830 Rockbridge, Virginia), whose husband in the tree is Francis Thomas Glasgow Sr., Glasgow-474 (born 1829 Rockbridge, Virginia). The son's middle name Lewis is his mother's maiden name and the two spouses are the same age, so the husband is the natural father.",
+    "assessment_history": [],
+    "reason": "Thomas Lewis Glasgow, born 19 Jan 1848 in Georgia, has his mother attached as Vilantia (Lewis) Glasgow (Lewis-42902, born 1830 Rockbridge, Virginia), whose husband in the tree is Francis Thomas Glasgow Sr., Glasgow-474 (born 1829 Rockbridge, Virginia). The son's middle name Lewis is his mother's maiden name and the two spouses are the same age, so the husband is the natural father.",
+    "limitations": "The mother's own attachment is from the WikiTree tree only (no record), Thomas is not listed among Glasgow-474's children there, and 474 had a second wife, Martha Gholson. No birth, census or marriage record has been read. A Georgia birth for Rockbridge-born parents is unexplained.",
+    "probability": {
+      "value": 0.45,
+      "reviewed": "2026-11-05",
+      "basis": "Thomas Lewis Glasgow, born 19 Jan 1848 in Georgia, has his mother attached as Vilantia (Lewis) Glasgow (Lewis-42902, born 1830 Rockbridge, Virginia), whose husband in the tree is Francis Thomas Glasgow Sr., Glasgow-474 (born 1829 Rockbridge, Virginia). The son's middle name Lewis is his mother's maiden name and the two spouses are the same age, so the husband is the natural father.",
+      "source_ids": [],
+      "scope": "The mother's own attachment is from the WikiTree tree only (no record), Thomas is not listed among Glasgow-474's children there, and 474 had a second wife, Martha Gholson. No birth, census or marriage record has been read. A Georgia birth for Rockbridge-born parents is unexplained."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-1006.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1006": "Thomas Lewis Glasgow",
+      "Glasgow-474": "Francis Thomas Glasgow Sr."
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-glasgow-2316-father-20261105",
+    "people": [
+      "Glasgow-2316",
+      "Glasgow-1701"
+    ],
+    "claim": "James Glasgow jun is recorded as the father of William Glasgow in the evidence cited in the assessment (tentative link, 12%).",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-2316": {
+        "relationship": "father"
+      },
+      "Glasgow-1701": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-05",
+    "basis": "William Glasgow, born about 1841 at Killycurragh, Derryloran, Tyrone, has no recorded family. Several Killycurragh men could be his father; Glasgow-1701, James Glasgow jun (born about 1805, wife Margaret Henry), had children from about 1832 to 1851 (Thomas James 1832, Allen 1839, Samuel Johnston 1847, John 1851) with no William, so 1841 falls in an open gap.",
+    "assessment_history": [],
+    "reason": "William Glasgow, born about 1841 at Killycurragh, Derryloran, Tyrone, has no recorded family. Several Killycurragh men could be his father; Glasgow-1701, James Glasgow jun (born about 1805, wife Margaret Henry), had children from about 1832 to 1851 (Thomas James 1832, Allen 1839, Samuel Johnston 1847, John 1851) with no William, so 1841 falls in an open gap.",
+    "limitations": "The other Killycurragh men are no less likely: David Glasgow-1654 (children c. 1833-42 including a William, Glasgow-1737, born c. 1824), John Glasgow-2058, John Glasgow-2056 (c. 1812, wife Matilda Little, no children listed) and Henry Glasgow-3135. This William might also be a duplicate of Glasgow-1737.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-05",
+      "basis": "William Glasgow, born about 1841 at Killycurragh, Derryloran, Tyrone, has no recorded family. Several Killycurragh men could be his father; Glasgow-1701, James Glasgow jun (born about 1805, wife Margaret Henry), had children from about 1832 to 1851 (Thomas James 1832, Allen 1839, Samuel Johnston 1847, John 1851) with no William, so 1841 falls in an open gap.",
+      "source_ids": [],
+      "scope": "The other Killycurragh men are no less likely: David Glasgow-1654 (children c. 1833-42 including a William, Glasgow-1737, born c. 1824), John Glasgow-2058, John Glasgow-2056 (c. 1812, wife Matilda Little, no children listed) and Henry Glasgow-3135. This William might also be a duplicate of Glasgow-1737."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-2316.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1701": "James Glasgow jun",
+      "Glasgow-2316": "William Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-glasgow-3838-father-20261105",
+    "people": [
+      "Glasgow-3838",
+      "Glasgow-1461"
+    ],
+    "claim": "Peter Glasgow is recorded as the father of Agnes (Glasgow) Greenfield in the evidence cited in the assessment (tentative link, 12%).",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3838": {
+        "relationship": "father"
+      },
+      "Glasgow-1461": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-05",
+    "basis": "Agnes (Glasgow) Greenfield is stated to have been born in 1841 in the Canongate, Edinburgh. Glasgow-1461, Peter Glasgow (born 18 Mar 1808 Canongate, wife Agnes Newlands), was 33, of the right parish, and has a wife Agnes (a daughter's name after the mother is common in Scotland). He is the only catalogue Glasgow man of fathering age in the Canongate.",
+    "assessment_history": [],
+    "reason": "Agnes (Glasgow) Greenfield is stated to have been born in 1841 in the Canongate, Edinburgh. Glasgow-1461, Peter Glasgow (born 18 Mar 1808 Canongate, wife Agnes Newlands), was 33, of the right parish, and has a wife Agnes (a daughter's name after the mother is common in Scotland). He is the only catalogue Glasgow man of fathering age in the Canongate.",
+    "limitations": "Name and parish only; the tree gives no parents for Agnes, and Peter's only recorded child is John (1857). Other Edinburgh Glasgow men (George 3345, James 1325, John 1464, John 1306, John 3601) were not in the Canongate in the catalogue but cannot be excluded. No baptism has been found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-05",
+      "basis": "Agnes (Glasgow) Greenfield is stated to have been born in 1841 in the Canongate, Edinburgh. Glasgow-1461, Peter Glasgow (born 18 Mar 1808 Canongate, wife Agnes Newlands), was 33, of the right parish, and has a wife Agnes (a daughter's name after the mother is common in Scotland). He is the only catalogue Glasgow man of fathering age in the Canongate.",
+      "source_ids": [],
+      "scope": "Name and parish only; the tree gives no parents for Agnes, and Peter's only recorded child is John (1857). Other Edinburgh Glasgow men (George 3345, James 1325, John 1464, John 1306, John 3601) were not in the Canongate in the catalogue but cannot be excluded. No baptism has been found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3838.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1461": "Peter Glasgow",
+      "Glasgow-3838": "Agnes (Glasgow) Greenfield"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-glasgow-3846-father-20261105",
+    "people": [
+      "Glasgow-3846",
+      "Glasgow-424"
+    ],
+    "claim": "John Glasgow is recorded as the father of Helen Brown (Glasgow) Anderson in the evidence cited in the assessment (tentative link, 18%).",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3846": {
+        "relationship": "father"
+      },
+      "Glasgow-424": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-05",
+    "basis": "Helen Brown (Glasgow) Anderson was born in 1840 at New Monkland. Glasgow-424, John Glasgow (born 1816 Airdrie, living at New Monkland, wives Christina Forsyth and Helen Murray), has a daughter Helen, Glasgow-434, born about 1837. This profile may be a duplicate of Glasgow-434, or another daughter.",
+    "assessment_history": [],
+    "reason": "Helen Brown (Glasgow) Anderson was born in 1840 at New Monkland. Glasgow-424, John Glasgow (born 1816 Airdrie, living at New Monkland, wives Christina Forsyth and Helen Murray), has a daughter Helen, Glasgow-434, born about 1837. This profile may be a duplicate of Glasgow-434, or another daughter.",
+    "limitations": "Glasgow-424's daughter Marion was born on 4 Sep 1840, so a Helen born in 1840 cannot also be his unless the year is wrong; the case rests on a probable duplicate, which is untested. No record names Helen Brown's parents.",
+    "probability": {
+      "value": 0.18,
+      "reviewed": "2026-11-05",
+      "basis": "Helen Brown (Glasgow) Anderson was born in 1840 at New Monkland. Glasgow-424, John Glasgow (born 1816 Airdrie, living at New Monkland, wives Christina Forsyth and Helen Murray), has a daughter Helen, Glasgow-434, born about 1837. This profile may be a duplicate of Glasgow-434, or another daughter.",
+      "source_ids": [],
+      "scope": "Glasgow-424's daughter Marion was born on 4 Sep 1840, so a Helen born in 1840 cannot also be his unless the year is wrong; the case rests on a probable duplicate, which is untested. No record names Helen Brown's parents."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3846.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3846": "Helen Brown (Glasgow) Anderson",
+      "Glasgow-424": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-glasgow-3849-father-20261105",
+    "people": [
+      "Glasgow-3849",
+      "Glasgow-1573"
+    ],
+    "claim": "James Glasgow is recorded as the father of John Glasgow in the evidence cited in the assessment (tentative link, 12%).",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3849": {
+        "relationship": "father"
+      },
+      "Glasgow-1573": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-05",
+    "basis": "John Glasgow, born 1842 in Kilbirnie, Ayrshire, married Margaret Whitford. Two catalogue men of the right age were born at Kilbirnie: Glasgow-1573, James Glasgow (born 1799, wife Margaret Anderson, sons Robert 1827 and George 1829) and Glasgow-3507, James Glasgow (born 1804, no family recorded). James-1573 is picked because his family is recorded there.",
+    "assessment_history": [],
+    "reason": "John Glasgow, born 1842 in Kilbirnie, Ayrshire, married Margaret Whitford. Two catalogue men of the right age were born at Kilbirnie: Glasgow-1573, James Glasgow (born 1799, wife Margaret Anderson, sons Robert 1827 and George 1829) and Glasgow-3507, James Glasgow (born 1804, no family recorded). James-1573 is picked because his family is recorded there.",
+    "limitations": "Name and parish only; John is not a name of either James's recorded children, and the two Jameses are equally possible. No baptism has been found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-05",
+      "basis": "John Glasgow, born 1842 in Kilbirnie, Ayrshire, married Margaret Whitford. Two catalogue men of the right age were born at Kilbirnie: Glasgow-1573, James Glasgow (born 1799, wife Margaret Anderson, sons Robert 1827 and George 1829) and Glasgow-3507, James Glasgow (born 1804, no family recorded). James-1573 is picked because his family is recorded there.",
+      "source_ids": [],
+      "scope": "Name and parish only; John is not a name of either James's recorded children, and the two Jameses are equally possible. No baptism has been found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3849.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1573": "James Glasgow",
+      "Glasgow-3849": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-19c569c7dfaf-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-19c569c7dfaf",
+      "record-ancestry-glasgow-797f07ae61e0"
+    ],
+    "claim": "William Glasgow is recorded as the father of Christiana Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-19c569c7dfaf": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-797f07ae61e0": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9852-27027668"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/27027668) names William Glasgow as the father of Christiana Glasgow. The father is the documentary person record-ancestry-glasgow-797f07ae61e0 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other William Glasgow is not claimed.",
+    "assessment_history": [],
+    "reason": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/27027668) names William Glasgow as the father of Christiana Glasgow. The father is the documentary person record-ancestry-glasgow-797f07ae61e0 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other William Glasgow is not claimed.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father. A marriage entry gives the bride's father as stated at the wedding; it is not a birth record.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/27027668) names William Glasgow as the father of Christiana Glasgow. The father is the documentary person record-ancestry-glasgow-797f07ae61e0 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other William Glasgow is not claimed.",
+      "source_ids": [
+        "ancestry-9852-27027668"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father. A marriage entry gives the bride's father as stated at the wedding; it is not a birth record."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-19c569c7dfaf.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-19c569c7dfaf": "Christiana Glasgow",
+      "record-ancestry-glasgow-797f07ae61e0": "William Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-1fe621225974-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-1fe621225974",
+      "record-ancestry-glasgow-382a6c08d982"
+    ],
+    "claim": "James Glasgow is recorded as the father of Charlotte Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-1fe621225974": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-382a6c08d982": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-142714774",
+      "ancestry-9841-154916880"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/142714774) names James Glasgow as the father of Charlotte Glasgow, beside mother Hannah. The father is the documentary person record-ancestry-glasgow-382a6c08d982 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other James Glasgow is not claimed. Same parents' names as John James (Woolwich 1844); the two entries are not assumed to be one family.",
+    "assessment_history": [],
+    "reason": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/142714774) names James Glasgow as the father of Charlotte Glasgow, beside mother Hannah. The father is the documentary person record-ancestry-glasgow-382a6c08d982 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other James Glasgow is not claimed. Same parents' names as John James (Woolwich 1844); the two entries are not assumed to be one family.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/142714774) names James Glasgow as the father of Charlotte Glasgow, beside mother Hannah. The father is the documentary person record-ancestry-glasgow-382a6c08d982 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other James Glasgow is not claimed. Same parents' names as John James (Woolwich 1844); the two entries are not assumed to be one family.",
+      "source_ids": [
+        "ancestry-9841-142714774",
+        "ancestry-9841-154916880"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-1fe621225974.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-1fe621225974": "Charlotte Glasgow",
+      "record-ancestry-glasgow-382a6c08d982": "James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-24911f336be3-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-24911f336be3",
+      "record-fa6-24911f336be3-father"
+    ],
+    "claim": "James Bennett is recorded as the father of Sophia Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-24911f336be3": {
+        "relationship": "father"
+      },
+      "record-fa6-24911f336be3-father": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9852-5689798",
+      "ancestry-9852-31155248"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/5689798) names James Bennett (the bride is indexed as Glasgow; Bennett is probably her maiden name) as the father of Sophia Glasgow. The father is a new documentary person (record-fa6-24911f336be3-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other James Bennett is not claimed. The bride is indexed as Sophia Glasgow with father James Bennett, so Glasgow may be a married name from an earlier marriage and Bennett her maiden name; the father is therefore drafted as James Bennett.",
+    "assessment_history": [],
+    "reason": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/5689798) names James Bennett (the bride is indexed as Glasgow; Bennett is probably her maiden name) as the father of Sophia Glasgow. The father is a new documentary person (record-fa6-24911f336be3-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other James Bennett is not claimed. The bride is indexed as Sophia Glasgow with father James Bennett, so Glasgow may be a married name from an earlier marriage and Bennett her maiden name; the father is therefore drafted as James Bennett.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father. A marriage entry gives the bride's father as stated at the wedding; it is not a birth record.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-05",
+      "basis": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/5689798) names James Bennett (the bride is indexed as Glasgow; Bennett is probably her maiden name) as the father of Sophia Glasgow. The father is a new documentary person (record-fa6-24911f336be3-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other James Bennett is not claimed. The bride is indexed as Sophia Glasgow with father James Bennett, so Glasgow may be a married name from an earlier marriage and Bennett her maiden name; the father is therefore drafted as James Bennett.",
+      "source_ids": [
+        "ancestry-9852-5689798",
+        "ancestry-9852-31155248"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father. A marriage entry gives the bride's father as stated at the wedding; it is not a birth record."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-24911f336be3.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-24911f336be3": "Sophia Glasgow",
+      "record-fa6-24911f336be3-father": "James Bennett"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-295bc4e3f912-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-295bc4e3f912",
+      "Glasgow-1574"
+    ],
+    "claim": "Alexander Glasgow is recorded as the father of Margaret Baigrie Glasgow in the evidence cited in the assessment (tentative link, 96%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-295bc4e3f912": {
+        "relationship": "father"
+      },
+      "Glasgow-1574": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-16742160",
+      "ancestry-60143-21605716"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "Margaret Baigrie Glasgow was christened on 25 May 1845 at Newton, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/16742160). Glasgow-1574 (Alexander, born 1814 Newton, wife Ann Baigrie) already has Margaret, c. 1846, Glasgow-1592 as his daughter at 98%, from the held Newton baptism naming Alexander Glasgow and Ann Baigrie. The middle name Baigrie is the mother's maiden name. This documentary person is almost certainly the same child as Glasgow-1592 and should be merged with it.",
+    "assessment_history": [],
+    "reason": "Margaret Baigrie Glasgow was christened on 25 May 1845 at Newton, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/16742160). Glasgow-1574 (Alexander, born 1814 Newton, wife Ann Baigrie) already has Margaret, c. 1846, Glasgow-1592 as his daughter at 98%, from the held Newton baptism naming Alexander Glasgow and Ann Baigrie. The middle name Baigrie is the mother's maiden name. This documentary person is almost certainly the same child as Glasgow-1592 and should be merged with it.",
+    "limitations": "Merge with Glasgow-1592 not yet made; the father link rests on the same baptism that supports Glasgow-1592's, so it is not independent. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.96,
+      "reviewed": "2026-11-05",
+      "basis": "Margaret Baigrie Glasgow was christened on 25 May 1845 at Newton, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/16742160). Glasgow-1574 (Alexander, born 1814 Newton, wife Ann Baigrie) already has Margaret, c. 1846, Glasgow-1592 as his daughter at 98%, from the held Newton baptism naming Alexander Glasgow and Ann Baigrie. The middle name Baigrie is the mother's maiden name. This documentary person is almost certainly the same child as Glasgow-1592 and should be merged with it.",
+      "source_ids": [
+        "ancestry-60143-16742160",
+        "ancestry-60143-21605716"
+      ],
+      "scope": "Merge with Glasgow-1592 not yet made; the father link rests on the same baptism that supports Glasgow-1592's, so it is not independent. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-295bc4e3f912.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1574": "Alexander Glasgow",
+      "record-ancestry-glasgow-295bc4e3f912": "Margaret Baigrie Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-2bec8175e41c-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-2bec8175e41c",
+      "record-ancestry-glasgow-3ddef1dab3c4"
+    ],
+    "claim": "Samuel Glasgow is recorded as the father of Samuel Glasgow in the evidence cited in the assessment (tentative link, 92%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-2bec8175e41c": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-3ddef1dab3c4": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-6490690"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "Samuel Glasgow was christened on 12 Nov 1842 at Gorbals, Lanarkshire, naming parents Samuel Glasgow and Jemima (https://www.ancestry.co.uk/search/collections/60143/records/6490690). The documentary person Samuel Glasgow (record-ancestry-glasgow-3ddef1dab3c4) was consolidated from this entry (Ancestry 6490690, 'named as father of Samuel Glasgow'), and married Jemima on 16 May 1841 at Greenock; his other children Elizabeth (4 Mar 1841, Gorbals), James (1845) and Robert (1849) have the same mother.",
+    "assessment_history": [],
+    "reason": "Samuel Glasgow was christened on 12 Nov 1842 at Gorbals, Lanarkshire, naming parents Samuel Glasgow and Jemima (https://www.ancestry.co.uk/search/collections/60143/records/6490690). The documentary person Samuel Glasgow (record-ancestry-glasgow-3ddef1dab3c4) was consolidated from this entry (Ancestry 6490690, 'named as father of Samuel Glasgow'), and married Jemima on 16 May 1841 at Greenock; his other children Elizabeth (4 Mar 1841, Gorbals), James (1845) and Robert (1849) have the same mother.",
+    "limitations": "Father identified only as the Samuel named in the Gorbals entries; whether he is the catalogue Samuel Glasgow-1486 (Gorbals, before 1817) is untested. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.92,
+      "reviewed": "2026-11-05",
+      "basis": "Samuel Glasgow was christened on 12 Nov 1842 at Gorbals, Lanarkshire, naming parents Samuel Glasgow and Jemima (https://www.ancestry.co.uk/search/collections/60143/records/6490690). The documentary person Samuel Glasgow (record-ancestry-glasgow-3ddef1dab3c4) was consolidated from this entry (Ancestry 6490690, 'named as father of Samuel Glasgow'), and married Jemima on 16 May 1841 at Greenock; his other children Elizabeth (4 Mar 1841, Gorbals), James (1845) and Robert (1849) have the same mother.",
+      "source_ids": [
+        "ancestry-60143-6490690"
+      ],
+      "scope": "Father identified only as the Samuel named in the Gorbals entries; whether he is the catalogue Samuel Glasgow-1486 (Gorbals, before 1817) is untested. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-2bec8175e41c.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-2bec8175e41c": "Samuel Glasgow",
+      "record-ancestry-glasgow-3ddef1dab3c4": "Samuel Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-3381ce66e79f-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-3381ce66e79f",
+      "Glasgow-1574"
+    ],
+    "claim": "Alexander Glasgow is recorded as the father of Euphemia Glasgow in the evidence cited in the assessment (tentative link, 91%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-3381ce66e79f": {
+        "relationship": "father"
+      },
+      "Glasgow-1574": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-17486287",
+      "ancestry-60143-22107605"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "Euphemia Glasgow was christened on 22 Aug 1841 at Newton, Midlothian, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/17486287). Glasgow-1574, Alexander Glasgow (born 1814 Newton, a joiner, wife Ann Baigrie), is the only Alexander of that age recorded at Newton and is the father of George (christened 1 Sep 1839, parents Alexander and Ann), Lilias (1843) and Margaret (1845) in the same parish; the catalogue assesses those links at 93 to 99%. The entry sits between the 1839 and 1843 baptisms of the same named couple.",
+    "assessment_history": [],
+    "reason": "Euphemia Glasgow was christened on 22 Aug 1841 at Newton, Midlothian, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/17486287). Glasgow-1574, Alexander Glasgow (born 1814 Newton, a joiner, wife Ann Baigrie), is the only Alexander of that age recorded at Newton and is the father of George (christened 1 Sep 1839, parents Alexander and Ann), Lilias (1843) and Margaret (1845) in the same parish; the catalogue assesses those links at 93 to 99%. The entry sits between the 1839 and 1843 baptisms of the same named couple.",
+    "limitations": "The entry gives the mother only as Ann, not Ann Baigrie, and a second Newton Alexander of the right age cannot be fully excluded without the 1841 census. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.91,
+      "reviewed": "2026-11-05",
+      "basis": "Euphemia Glasgow was christened on 22 Aug 1841 at Newton, Midlothian, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/17486287). Glasgow-1574, Alexander Glasgow (born 1814 Newton, a joiner, wife Ann Baigrie), is the only Alexander of that age recorded at Newton and is the father of George (christened 1 Sep 1839, parents Alexander and Ann), Lilias (1843) and Margaret (1845) in the same parish; the catalogue assesses those links at 93 to 99%. The entry sits between the 1839 and 1843 baptisms of the same named couple.",
+      "source_ids": [
+        "ancestry-60143-17486287",
+        "ancestry-60143-22107605"
+      ],
+      "scope": "The entry gives the mother only as Ann, not Ann Baigrie, and a second Newton Alexander of the right age cannot be fully excluded without the 1841 census. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-3381ce66e79f.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1574": "Alexander Glasgow",
+      "record-ancestry-glasgow-3381ce66e79f": "Euphemia Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-3f8efeceb5c0-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-3f8efeceb5c0",
+      "record-ancestry-glasgow-3897fca55246"
+    ],
+    "claim": "Thomas Glasgow is recorded as the father of Sarah Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-3f8efeceb5c0": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-3897fca55246": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9852-36155773"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/36155773) names Thomas Glasgow as the father of Sarah Glasgow. The father is the documentary person record-ancestry-glasgow-3897fca55246 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other Thomas Glasgow is not claimed.",
+    "assessment_history": [],
+    "reason": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/36155773) names Thomas Glasgow as the father of Sarah Glasgow. The father is the documentary person record-ancestry-glasgow-3897fca55246 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other Thomas Glasgow is not claimed.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father. A marriage entry gives the bride's father as stated at the wedding; it is not a birth record.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The marriage entry (https://www.ancestry.co.uk/search/collections/9852/records/36155773) names Thomas Glasgow as the father of Sarah Glasgow. The father is the documentary person record-ancestry-glasgow-3897fca55246 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other Thomas Glasgow is not claimed.",
+      "source_ids": [
+        "ancestry-9852-36155773"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father. A marriage entry gives the bride's father as stated at the wedding; it is not a birth record."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-3f8efeceb5c0.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-3897fca55246": "Thomas Glasgow",
+      "record-ancestry-glasgow-3f8efeceb5c0": "Sarah Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-49d55866de6d-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-49d55866de6d",
+      "record-ancestry-glasgow-619eba71eddc"
+    ],
+    "claim": "Philip Glasgow is recorded as the father of George Glasgow in the evidence cited in the assessment (tentative link, 92%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-49d55866de6d": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-619eba71eddc": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-11722209",
+      "ancestry-60143-7765535"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "George Glasgow was christened on 4 Apr 1850 at Newton, naming parents Philip Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/60143/records/11722209). The documentary person Philip Glasgow (record-ancestry-glasgow-619eba71eddc) was already consolidated from this same entry (Ancestry 11722209 and 7765535, 'named as father of George Glasgow'), with the Newton baptism of John Wauchope Glasgow (18 May 1845, Philip and Agnes) and of Jane (26 May 1847), so the father named here is that person by construction.",
+    "assessment_history": [],
+    "reason": "George Glasgow was christened on 4 Apr 1850 at Newton, naming parents Philip Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/60143/records/11722209). The documentary person Philip Glasgow (record-ancestry-glasgow-619eba71eddc) was already consolidated from this same entry (Ancestry 11722209 and 7765535, 'named as father of George Glasgow'), with the Newton baptism of John Wauchope Glasgow (18 May 1845, Philip and Agnes) and of Jane (26 May 1847), so the father named here is that person by construction.",
+    "limitations": "The identification of the child with any later adult George is untested. Philip's later baptisms at Cranston, Corstorphine and Edinburgh are attached to the same documentary person on name and a recurring Agnes, not on proof. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.92,
+      "reviewed": "2026-11-05",
+      "basis": "George Glasgow was christened on 4 Apr 1850 at Newton, naming parents Philip Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/60143/records/11722209). The documentary person Philip Glasgow (record-ancestry-glasgow-619eba71eddc) was already consolidated from this same entry (Ancestry 11722209 and 7765535, 'named as father of George Glasgow'), with the Newton baptism of John Wauchope Glasgow (18 May 1845, Philip and Agnes) and of Jane (26 May 1847), so the father named here is that person by construction.",
+      "source_ids": [
+        "ancestry-60143-11722209",
+        "ancestry-60143-7765535"
+      ],
+      "scope": "The identification of the child with any later adult George is untested. Philip's later baptisms at Cranston, Corstorphine and Edinburgh are attached to the same documentary person on name and a recurring Agnes, not on proof. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-49d55866de6d.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-49d55866de6d": "George Glasgow",
+      "record-ancestry-glasgow-619eba71eddc": "Philip Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-4b47734b64c9-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-4b47734b64c9",
+      "Glasgow-2433"
+    ],
+    "claim": "John Glasgow is recorded as the father of Marion Glasgow in the evidence cited in the assessment (tentative link, 15%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-4b47734b64c9": {
+        "relationship": "father"
+      },
+      "Glasgow-2433": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60144-3124048"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-05",
+    "basis": "Marion Glasgow married Kenneth on 25 Jun 1849 at South Leith, her father being given as John Glasgow (https://www.ancestry.co.uk/search/collections/60144/records/3124048). Glasgow-2433, John Glasgow (born 1786 Leitholm, wife Nanny Fairbairn, recorded in South Leith, died 1864), is the one catalogue John of the right generation (about 30 to 45 years older than a bride of the 1820s) tied to South Leith. John was a very common name and the catalogue's only child of his is Elizabeth Jane Elspeth, born 1812 in Eccles.",
+    "assessment_history": [],
+    "reason": "Marion Glasgow married Kenneth on 25 Jun 1849 at South Leith, her father being given as John Glasgow (https://www.ancestry.co.uk/search/collections/60144/records/3124048). Glasgow-2433, John Glasgow (born 1786 Leitholm, wife Nanny Fairbairn, recorded in South Leith, died 1864), is the one catalogue John of the right generation (about 30 to 45 years older than a bride of the 1820s) tied to South Leith. John was a very common name and the catalogue's only child of his is Elizabeth Jane Elspeth, born 1812 in Eccles.",
+    "limitations": "Name and parish only; no age is given for Marion, so the generation is assumed. Other South Leith Johns are likely to be unrecorded. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.15,
+      "reviewed": "2026-11-05",
+      "basis": "Marion Glasgow married Kenneth on 25 Jun 1849 at South Leith, her father being given as John Glasgow (https://www.ancestry.co.uk/search/collections/60144/records/3124048). Glasgow-2433, John Glasgow (born 1786 Leitholm, wife Nanny Fairbairn, recorded in South Leith, died 1864), is the one catalogue John of the right generation (about 30 to 45 years older than a bride of the 1820s) tied to South Leith. John was a very common name and the catalogue's only child of his is Elizabeth Jane Elspeth, born 1812 in Eccles.",
+      "source_ids": [
+        "ancestry-60144-3124048"
+      ],
+      "scope": "Name and parish only; no age is given for Marion, so the generation is assumed. Other South Leith Johns are likely to be unrecorded. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-4b47734b64c9.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2433": "John Glasgow",
+      "record-ancestry-glasgow-4b47734b64c9": "Marion Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-4c442fff8f7d-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-4c442fff8f7d",
+      "record-fa6-4c442fff8f7d-father"
+    ],
+    "claim": "John Glasgow is recorded as the father of David Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-4c442fff8f7d": {
+        "relationship": "father"
+      },
+      "record-fa6-4c442fff8f7d-father": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-67140322",
+      "ancestry-1351-1789056"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/67140322) names John Glasgow as the father of David Glasgow, beside mother Mary. The father is a new documentary person (record-fa6-4c442fff8f7d-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other John Glasgow is not claimed.",
+    "assessment_history": [],
+    "reason": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/67140322) names John Glasgow as the father of David Glasgow, beside mother Mary. The father is a new documentary person (record-fa6-4c442fff8f7d-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other John Glasgow is not claimed.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/67140322) names John Glasgow as the father of David Glasgow, beside mother Mary. The father is a new documentary person (record-fa6-4c442fff8f7d-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other John Glasgow is not claimed.",
+      "source_ids": [
+        "ancestry-9841-67140322",
+        "ancestry-1351-1789056"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-4c442fff8f7d.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-4c442fff8f7d": "David Glasgow",
+      "record-fa6-4c442fff8f7d-father": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-58726eeb9d99-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-58726eeb9d99",
+      "Glasgow-2603"
+    ],
+    "claim": "Robert Glasgow is recorded as the father of Elizabeth Glasgow in the evidence cited in the assessment (tentative link, 85%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-58726eeb9d99": {
+        "relationship": "father"
+      },
+      "Glasgow-2603": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-135748115",
+      "ancestry-9841-22695024"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "Elizabeth Glasgow was christened on 10 Jul 1842 at Manchester Cathedral, parents Robert Glasgow and Mary (https://www.ancestry.co.uk/search/collections/9841/records/135748115). Glasgow-2603, Robert Glasgow (born 1795 Rothesay, wife Mary Lamb), had children christened at Manchester Cathedral to Robert and Mary from 1826 to 1839 (John, Adam, Isabella, Mary Maria, Ann), and the catalogue places Elizabeth (Glasgow) Hurst, Glasgow-2691, in this family at 84% from the same 10 Jul 1842 baptism, three weeks before the family sailed for New Zealand. This documentary person is probably the same child as Glasgow-2691 and may be merged with it.",
+    "assessment_history": [],
+    "reason": "Elizabeth Glasgow was christened on 10 Jul 1842 at Manchester Cathedral, parents Robert Glasgow and Mary (https://www.ancestry.co.uk/search/collections/9841/records/135748115). Glasgow-2603, Robert Glasgow (born 1795 Rothesay, wife Mary Lamb), had children christened at Manchester Cathedral to Robert and Mary from 1826 to 1839 (John, Adam, Isabella, Mary Maria, Ann), and the catalogue places Elizabeth (Glasgow) Hurst, Glasgow-2691, in this family at 84% from the same 10 Jul 1842 baptism, three weeks before the family sailed for New Zealand. This documentary person is probably the same child as Glasgow-2691 and may be merged with it.",
+    "limitations": "Another Manchester Robert and Mary cannot be fully excluded (the catalogue also holds Robert Glasgow-2866, c. 1815, Manchester). Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.85,
+      "reviewed": "2026-11-05",
+      "basis": "Elizabeth Glasgow was christened on 10 Jul 1842 at Manchester Cathedral, parents Robert Glasgow and Mary (https://www.ancestry.co.uk/search/collections/9841/records/135748115). Glasgow-2603, Robert Glasgow (born 1795 Rothesay, wife Mary Lamb), had children christened at Manchester Cathedral to Robert and Mary from 1826 to 1839 (John, Adam, Isabella, Mary Maria, Ann), and the catalogue places Elizabeth (Glasgow) Hurst, Glasgow-2691, in this family at 84% from the same 10 Jul 1842 baptism, three weeks before the family sailed for New Zealand. This documentary person is probably the same child as Glasgow-2691 and may be merged with it.",
+      "source_ids": [
+        "ancestry-9841-135748115",
+        "ancestry-9841-22695024"
+      ],
+      "scope": "Another Manchester Robert and Mary cannot be fully excluded (the catalogue also holds Robert Glasgow-2866, c. 1815, Manchester). Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-58726eeb9d99.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2603": "Robert Glasgow",
+      "record-ancestry-glasgow-58726eeb9d99": "Elizabeth Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-67016cf3d3d3-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-67016cf3d3d3",
+      "record-ancestry-glasgow-a675e379f29d"
+    ],
+    "claim": "Robert Glasgow is recorded as the father of John Hugh Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-67016cf3d3d3": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-a675e379f29d": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-131262447",
+      "ancestry-9841-50286440"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/131262447) names Robert Glasgow as the father of John Hugh Glasgow, beside mother Elizabeth. The father is the documentary person record-ancestry-glasgow-a675e379f29d (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other Robert Glasgow is not claimed. Same parents' names as Robert (Hulme 1846); not assumed to be one family.",
+    "assessment_history": [],
+    "reason": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/131262447) names Robert Glasgow as the father of John Hugh Glasgow, beside mother Elizabeth. The father is the documentary person record-ancestry-glasgow-a675e379f29d (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other Robert Glasgow is not claimed. Same parents' names as Robert (Hulme 1846); not assumed to be one family.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/131262447) names Robert Glasgow as the father of John Hugh Glasgow, beside mother Elizabeth. The father is the documentary person record-ancestry-glasgow-a675e379f29d (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other Robert Glasgow is not claimed. Same parents' names as Robert (Hulme 1846); not assumed to be one family.",
+      "source_ids": [
+        "ancestry-9841-131262447",
+        "ancestry-9841-50286440"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-67016cf3d3d3.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-67016cf3d3d3": "John Hugh Glasgow",
+      "record-ancestry-glasgow-a675e379f29d": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-6b379cbf326f-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-6b379cbf326f",
+      "Glasgow-424"
+    ],
+    "claim": "John Glasgow is recorded as the father of Isobella Glasgow in the evidence cited in the assessment (tentative link, 92%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-6b379cbf326f": {
+        "relationship": "father"
+      },
+      "Glasgow-424": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-22339451",
+      "ancestry-60143-22827940"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "Isobella Glasgow was christened on 14 Jul 1850 at New Monkland, Lanarkshire, parents John Glasgow and Christina (https://www.ancestry.co.uk/search/collections/60143/records/22339451). Glasgow-424, John Glasgow (born 1816, wife Christina Forsyth, living at New Monkland), has a daughter Isabella (Glasgow) Wells, Glasgow-440, born 8 Apr 1850 at New Monkland, assessed 99% from a baptism naming John Glasgow and Christina Forsyth. This documentary person is very probably the same child as Glasgow-440 and should be merged with it.",
+    "assessment_history": [],
+    "reason": "Isobella Glasgow was christened on 14 Jul 1850 at New Monkland, Lanarkshire, parents John Glasgow and Christina (https://www.ancestry.co.uk/search/collections/60143/records/22339451). Glasgow-424, John Glasgow (born 1816, wife Christina Forsyth, living at New Monkland), has a daughter Isabella (Glasgow) Wells, Glasgow-440, born 8 Apr 1850 at New Monkland, assessed 99% from a baptism naming John Glasgow and Christina Forsyth. This documentary person is very probably the same child as Glasgow-440 and should be merged with it.",
+    "limitations": "The merge with Glasgow-440 is untested (the entry is three months after the recorded birth date, which is normal). Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.92,
+      "reviewed": "2026-11-05",
+      "basis": "Isobella Glasgow was christened on 14 Jul 1850 at New Monkland, Lanarkshire, parents John Glasgow and Christina (https://www.ancestry.co.uk/search/collections/60143/records/22339451). Glasgow-424, John Glasgow (born 1816, wife Christina Forsyth, living at New Monkland), has a daughter Isabella (Glasgow) Wells, Glasgow-440, born 8 Apr 1850 at New Monkland, assessed 99% from a baptism naming John Glasgow and Christina Forsyth. This documentary person is very probably the same child as Glasgow-440 and should be merged with it.",
+      "source_ids": [
+        "ancestry-60143-22339451",
+        "ancestry-60143-22827940"
+      ],
+      "scope": "The merge with Glasgow-440 is untested (the entry is three months after the recorded birth date, which is normal). Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-6b379cbf326f.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-424": "John Glasgow",
+      "record-ancestry-glasgow-6b379cbf326f": "Isobella Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-7bb1ff03045f-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-7bb1ff03045f",
+      "Glasgow-1574"
+    ],
+    "claim": "Alexander Glasgow is recorded as the father of Lilias Glasgow in the evidence cited in the assessment (tentative link, 96%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-7bb1ff03045f": {
+        "relationship": "father"
+      },
+      "Glasgow-1574": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-1345124",
+      "ancestry-60143-16742460"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "Lilias Glasgow was christened on 29 Jan 1843 at Newton, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/1345124). Glasgow-1574 (Alexander, born 1814 Newton, wife Ann Baigrie) already has Lillias, c. 1843, Glasgow-1591 as his daughter at 99%, whose held Newton baptism names Alexander Glasgow and Ann Baigrie. This documentary person is almost certainly the same child as Glasgow-1591 (same name, year, parish and parents) and should be merged with it; the father link is recorded here so that it survives until then.",
+    "assessment_history": [],
+    "reason": "Lilias Glasgow was christened on 29 Jan 1843 at Newton, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/1345124). Glasgow-1574 (Alexander, born 1814 Newton, wife Ann Baigrie) already has Lillias, c. 1843, Glasgow-1591 as his daughter at 99%, whose held Newton baptism names Alexander Glasgow and Ann Baigrie. This documentary person is almost certainly the same child as Glasgow-1591 (same name, year, parish and parents) and should be merged with it; the father link is recorded here so that it survives until then.",
+    "limitations": "Merge with Glasgow-1591 not yet made; the father link rests on the same baptism that supports Glasgow-1591's father link, so it is not independent evidence. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.96,
+      "reviewed": "2026-11-05",
+      "basis": "Lilias Glasgow was christened on 29 Jan 1843 at Newton, naming parents Alexander Glasgow and Ann (https://www.ancestry.co.uk/search/collections/60143/records/1345124). Glasgow-1574 (Alexander, born 1814 Newton, wife Ann Baigrie) already has Lillias, c. 1843, Glasgow-1591 as his daughter at 99%, whose held Newton baptism names Alexander Glasgow and Ann Baigrie. This documentary person is almost certainly the same child as Glasgow-1591 (same name, year, parish and parents) and should be merged with it; the father link is recorded here so that it survives until then.",
+      "source_ids": [
+        "ancestry-60143-1345124",
+        "ancestry-60143-16742460"
+      ],
+      "scope": "Merge with Glasgow-1591 not yet made; the father link rests on the same baptism that supports Glasgow-1591's father link, so it is not independent evidence. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-7bb1ff03045f.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1574": "Alexander Glasgow",
+      "record-ancestry-glasgow-7bb1ff03045f": "Lilias Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-7dee49476ed2-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-7dee49476ed2",
+      "Glasgow-3543"
+    ],
+    "claim": "David Glasgow is recorded as the father of Charles Douglas Glasgow in the evidence cited in the assessment (tentative link, 28%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-7dee49476ed2": {
+        "relationship": "father"
+      },
+      "Glasgow-3543": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-146900754"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-05",
+    "basis": "Charles Douglas Glasgow was christened on 1 Nov 1849 at Manchester Cathedral, parents David Glasgow and Jane (https://www.ancestry.co.uk/search/collections/9841/records/146900754). Glasgow-3543, David Glasgow (born 1804 Bute), had children christened at the same church in 1835-41 with a wife Agnes. The father's name and church agree, but the mother is Jane, so this requires either a second marriage after Agnes or a different Manchester David.",
+    "assessment_history": [],
+    "reason": "Charles Douglas Glasgow was christened on 1 Nov 1849 at Manchester Cathedral, parents David Glasgow and Jane (https://www.ancestry.co.uk/search/collections/9841/records/146900754). Glasgow-3543, David Glasgow (born 1804 Bute), had children christened at the same church in 1835-41 with a wife Agnes. The father's name and church agree, but the mother is Jane, so this requires either a second marriage after Agnes or a different Manchester David.",
+    "limitations": "The mother's name differs from David's recorded wife Agnes; no death of Agnes or second marriage has been found. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.28,
+      "reviewed": "2026-11-05",
+      "basis": "Charles Douglas Glasgow was christened on 1 Nov 1849 at Manchester Cathedral, parents David Glasgow and Jane (https://www.ancestry.co.uk/search/collections/9841/records/146900754). Glasgow-3543, David Glasgow (born 1804 Bute), had children christened at the same church in 1835-41 with a wife Agnes. The father's name and church agree, but the mother is Jane, so this requires either a second marriage after Agnes or a different Manchester David.",
+      "source_ids": [
+        "ancestry-9841-146900754"
+      ],
+      "scope": "The mother's name differs from David's recorded wife Agnes; no death of Agnes or second marriage has been found. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-7dee49476ed2.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3543": "David Glasgow",
+      "record-ancestry-glasgow-7dee49476ed2": "Charles Douglas Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-88449ec1dbec-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-88449ec1dbec",
+      "record-fa6-88449ec1dbec-father"
+    ],
+    "claim": "Robert Glasgow is recorded as the father of Robert Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-88449ec1dbec": {
+        "relationship": "father"
+      },
+      "record-fa6-88449ec1dbec-father": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-7689982",
+      "ancestry-9841-95220512"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/7689982) names Robert Glasgow as the father of Robert Glasgow, beside mother Elizabeth. The father is a new documentary person (record-fa6-88449ec1dbec-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other Robert Glasgow is not claimed.",
+    "assessment_history": [],
+    "reason": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/7689982) names Robert Glasgow as the father of Robert Glasgow, beside mother Elizabeth. The father is a new documentary person (record-fa6-88449ec1dbec-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other Robert Glasgow is not claimed.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/7689982) names Robert Glasgow as the father of Robert Glasgow, beside mother Elizabeth. The father is a new documentary person (record-fa6-88449ec1dbec-father, identity hold) created from this entry alone, so the child-to-father link is as secure as the entry itself; his identity with any other Robert Glasgow is not claimed.",
+      "source_ids": [
+        "ancestry-9841-7689982",
+        "ancestry-9841-95220512"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-88449ec1dbec.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-88449ec1dbec": "Robert Glasgow",
+      "record-fa6-88449ec1dbec-father": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-89be303b73fb-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-89be303b73fb",
+      "record-ancestry-glasgow-5520cd88bcce"
+    ],
+    "claim": "James Glasgow is recorded as the father of John James Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-89be303b73fb": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-5520cd88bcce": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-127639495"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/127639495) names James Glasgow as the father of John James Glasgow, beside mother Hannah. The father is the documentary person record-ancestry-glasgow-5520cd88bcce (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other James Glasgow is not claimed.",
+    "assessment_history": [],
+    "reason": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/127639495) names James Glasgow as the father of John James Glasgow, beside mother Hannah. The father is the documentary person record-ancestry-glasgow-5520cd88bcce (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other James Glasgow is not claimed.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/127639495) names James Glasgow as the father of John James Glasgow, beside mother Hannah. The father is the documentary person record-ancestry-glasgow-5520cd88bcce (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other James Glasgow is not claimed.",
+      "source_ids": [
+        "ancestry-9841-127639495"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-89be303b73fb.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-5520cd88bcce": "James Glasgow",
+      "record-ancestry-glasgow-89be303b73fb": "John James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-a41de75ea3dc-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-a41de75ea3dc",
+      "Glasgow-3543"
+    ],
+    "claim": "David Glasgow is recorded as the father of David Alfred Glasgow in the evidence cited in the assessment (tentative link, 85%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-a41de75ea3dc": {
+        "relationship": "father"
+      },
+      "Glasgow-3543": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-117790873"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "David Alfred Glasgow was christened on 12 Aug 1841 at Manchester Cathedral, parents David Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/9841/records/117790873). Glasgow-3543, David Glasgow (born 1804 Bute, wife Agnes), had children christened at Manchester Cathedral to David and Agnes: William Robert (Dec 1835) and Isabella (1837), assessed at 90 to 95%. The same couple, church and a gap of four years fit David Alfred.",
+    "assessment_history": [],
+    "reason": "David Alfred Glasgow was christened on 12 Aug 1841 at Manchester Cathedral, parents David Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/9841/records/117790873). Glasgow-3543, David Glasgow (born 1804 Bute, wife Agnes), had children christened at Manchester Cathedral to David and Agnes: William Robert (Dec 1835) and Isabella (1837), assessed at 90 to 95%. The same couple, church and a gap of four years fit David Alfred.",
+    "limitations": "A second Manchester David and Agnes cannot be excluded; the entry does not give an occupation or address. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.85,
+      "reviewed": "2026-11-05",
+      "basis": "David Alfred Glasgow was christened on 12 Aug 1841 at Manchester Cathedral, parents David Glasgow and Agnes (https://www.ancestry.co.uk/search/collections/9841/records/117790873). Glasgow-3543, David Glasgow (born 1804 Bute, wife Agnes), had children christened at Manchester Cathedral to David and Agnes: William Robert (Dec 1835) and Isabella (1837), assessed at 90 to 95%. The same couple, church and a gap of four years fit David Alfred.",
+      "source_ids": [
+        "ancestry-9841-117790873"
+      ],
+      "scope": "A second Manchester David and Agnes cannot be excluded; the entry does not give an occupation or address. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-a41de75ea3dc.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3543": "David Glasgow",
+      "record-ancestry-glasgow-a41de75ea3dc": "David Alfred Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-b8433346f59c-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-b8433346f59c",
+      "record-ancestry-glasgow-0dccd2032506"
+    ],
+    "claim": "John Glasgow is recorded as the father of Rosabella Ann Glasgow in the entry cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-b8433346f59c": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-0dccd2032506": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-150410797",
+      "ancestry-9841-47934619"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-05",
+    "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/150410797) names John Glasgow as the father of Rosabella Ann Glasgow. The father is the documentary person record-ancestry-glasgow-0dccd2032506 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other John Glasgow is not claimed.",
+    "assessment_history": [],
+    "reason": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/150410797) names John Glasgow as the father of Rosabella Ann Glasgow. The father is the documentary person record-ancestry-glasgow-0dccd2032506 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other John Glasgow is not claimed.",
+    "limitations": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-05",
+      "basis": "The baptism entry (https://www.ancestry.co.uk/search/collections/9841/records/150410797) names John Glasgow as the father of Rosabella Ann Glasgow. The father is the documentary person record-ancestry-glasgow-0dccd2032506 (identity hold) already held for this entry, so the child-to-father link is as secure as the entry itself; his identity with any other John Glasgow is not claimed.",
+      "source_ids": [
+        "ancestry-9841-150410797",
+        "ancestry-9841-47934619"
+      ],
+      "scope": "Ancestry index transcript only; the original register was not inspected, and the index gives no age, occupation or address for the father."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-b8433346f59c.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-0dccd2032506": "John Glasgow",
+      "record-ancestry-glasgow-b8433346f59c": "Rosabella Ann Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-e9b3d2a2d6a8-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-e9b3d2a2d6a8",
+      "Glasgow-1001"
+    ],
+    "claim": "William Brown Glasgow is recorded as the father of Rachel Jane Glasgow in the evidence cited in the assessment (tentative link, 88%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-e9b3d2a2d6a8": {
+        "relationship": "father"
+      },
+      "Glasgow-1001": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-76326470"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-05",
+    "basis": "Rachel Jane Glasgow was christened on 20 Dec 1845 at Kendal, Westmorland, parents William Glasgow and Dinah (https://www.ancestry.co.uk/search/collections/9841/records/76326470). Glasgow-1001, William Brown Glasgow (born 1815 Berwick-upon-Tweed, married Dinah Bell in 1845, later of Kendal), is the father of George, Glasgow-562, whose 1848 Kendal baptism names William Brown Glasgow and Dinah at 99%. The same forename, wife's forename and parish three years apart identify him.",
+    "assessment_history": [],
+    "reason": "Rachel Jane Glasgow was christened on 20 Dec 1845 at Kendal, Westmorland, parents William Glasgow and Dinah (https://www.ancestry.co.uk/search/collections/9841/records/76326470). Glasgow-1001, William Brown Glasgow (born 1815 Berwick-upon-Tweed, married Dinah Bell in 1845, later of Kendal), is the father of George, Glasgow-562, whose 1848 Kendal baptism names William Brown Glasgow and Dinah at 99%. The same forename, wife's forename and parish three years apart identify him.",
+    "limitations": "The 1845 entry does not give the father's middle name or the mother's surname, and the christening followed the marriage by only a few months, so another William and Dinah is not wholly excluded. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-05",
+      "basis": "Rachel Jane Glasgow was christened on 20 Dec 1845 at Kendal, Westmorland, parents William Glasgow and Dinah (https://www.ancestry.co.uk/search/collections/9841/records/76326470). Glasgow-1001, William Brown Glasgow (born 1815 Berwick-upon-Tweed, married Dinah Bell in 1845, later of Kendal), is the father of George, Glasgow-562, whose 1848 Kendal baptism names William Brown Glasgow and Dinah at 99%. The same forename, wife's forename and parish three years apart identify him.",
+      "source_ids": [
+        "ancestry-9841-76326470"
+      ],
+      "scope": "The 1845 entry does not give the father's middle name or the mother's surname, and the christening followed the marriage by only a few months, so another William and Dinah is not wholly excluded. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-e9b3d2a2d6a8.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1001": "William Brown Glasgow",
+      "record-ancestry-glasgow-e9b3d2a2d6a8": "Rachel Jane Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-fa6-record-ancestry-glasgow-f69c95bf588b-father-20261105",
+    "people": [
+      "record-ancestry-glasgow-f69c95bf588b",
+      "record-ancestry-glasgow-619eba71eddc"
+    ],
+    "claim": "Philip Glasgow is recorded as the father of Grace Rae Johnstone Glasgow in the evidence cited in the assessment (tentative link, 55%).",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-f69c95bf588b": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-619eba71eddc": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-14657091",
+      "ancestry-60143-16204355"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": null,
+        "source_basis": "No father was attached or assessed for this person before 5 November 2026 (worker FA6, tentative fathers for people born through 1850).",
+        "status": "none"
+      },
+      "review_kind": "tentative_father_fa6",
+      "source_newly_discovered": false
+    },
+    "status": "possible",
+    "assessment_date": "2026-11-05",
+    "basis": "Grace Rae Johnstone Glasgow was christened on 22 Jun 1841 at Newton, naming parents Philip Glasgow and Grace Rae (https://www.ancestry.co.uk/search/collections/60143/records/14657091). The documentary person Philip Glasgow is the father in later Newton baptisms (John Wauchope 1845, Jane 1847, George 1850; mother Agnes). A Philip at Newton four years earlier is probably the same man, but the mother differs (Grace Rae, then Agnes), so a first wife who died, or a second Newton Philip, are both possible.",
+    "assessment_history": [],
+    "reason": "Grace Rae Johnstone Glasgow was christened on 22 Jun 1841 at Newton, naming parents Philip Glasgow and Grace Rae (https://www.ancestry.co.uk/search/collections/60143/records/14657091). The documentary person Philip Glasgow is the father in later Newton baptisms (John Wauchope 1845, Jane 1847, George 1850; mother Agnes). A Philip at Newton four years earlier is probably the same man, but the mother differs (Grace Rae, then Agnes), so a first wife who died, or a second Newton Philip, are both possible.",
+    "limitations": "Different mother's name in 1841 and 1845-50, so the match rests on the forename, the parish and the date only. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated.",
+    "probability": {
+      "value": 0.55,
+      "reviewed": "2026-11-05",
+      "basis": "Grace Rae Johnstone Glasgow was christened on 22 Jun 1841 at Newton, naming parents Philip Glasgow and Grace Rae (https://www.ancestry.co.uk/search/collections/60143/records/14657091). The documentary person Philip Glasgow is the father in later Newton baptisms (John Wauchope 1845, Jane 1847, George 1850; mother Agnes). A Philip at Newton four years earlier is probably the same man, but the mother differs (Grace Rae, then Agnes), so a first wife who died, or a second Newton Philip, are both possible.",
+      "source_ids": [
+        "ancestry-60143-14657091",
+        "ancestry-60143-16204355"
+      ],
+      "scope": "Different mother's name in 1841 and 1845-50, so the match rests on the forename, the parish and the date only. Ancestry index transcript only (a copy of the church-register index); the original register was not inspected. The index gives no age or occupation for the father, and the father's identity beyond the name in the entry is an inference where stated."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-f69c95bf588b.html#research-findings",
+        "label": "Tentative fathers FA6"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-619eba71eddc": "Philip Glasgow",
+      "record-ancestry-glasgow-f69c95bf588b": "Grace Rae Johnstone Glasgow"
+    }
+  },
+  {
     "assertion_id": "clm-john-infant-mary-20261026",
     "people": [
       "record-john-cameron-glasgow-infant-before-1846",
