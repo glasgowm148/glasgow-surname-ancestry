@@ -22901,29 +22901,57 @@
       "subject_id": "Glasgow-3470",
       "relative_id": "Glasgow-1929",
       "relationship": "father",
-      "percent": 61,
-      "assessment_status": "probable",
+      "percent": 90,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022g-glasgow-3470-father",
-      "basis": "Hugh’s 1752 Ayrshire date fits the older Hugh’s child sequence, but the sole FamilySearch sources page is a contributed lead without literal parents.",
+      "basis": "Hugh's Kilmarnock baptism of 1752 names Hugh Glasgow and Margaret Mcgechen (https://www.ancestry.co.uk/search/collections/60143/records/24646105); the previous 61% rested on a FamilySearch sources page without literal parents. Hugh Glasgow-1929, the Kilmarnock glover who married Margaret McEachin in 1732, has the same couple's children Margaret 1738 (https://www.ancestry.co.uk/search/collections/60143/records/25993043), Hugh 1742 (https://www.ancestry.co.uk/search/collections/60143/records/26465540) and Ann 1749 (https://www.ancestry.co.uk/search/collections/60143/records/11853749), attached at 96-99%. The mother's surname, spelled McGechen, McGeachen and McEachen across the series, separates this household from the Hugh and Margaret Giffen entry of 1744 (Mary-4108). Raised from 61% to 90%.",
       "source_ids": [
-        "held-e-6ea6c19a9791"
+        "held-e-6ea6c19a9791",
+        "ancestry-60143-24646105",
+        "ancestry-60143-25993043",
+        "ancestry-60143-26465540",
+        "ancestry-60143-11853749"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "A second Hugh born ten years after Hugh-4104 (1742) implies the first died young; no burial is held. The father's own childhood identity (Hugh-1929 as the 1710 Kilwinning child) is a separate link and unchanged. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "assessment_history": [
+        {
+          "percent": 61,
+          "assessment_status": "probable",
+          "basis": "Hugh’s 1752 Ayrshire date fits the older Hugh’s child sequence, but the sole FamilySearch sources page is a contributed lead without literal parents.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1929",
       "relative_id": "Glasgow-3470",
       "relationship": "child",
-      "percent": 61,
-      "assessment_status": "probable",
+      "percent": 90,
+      "assessment_status": "proved",
       "assertion_id": "C-coverage-20261022g-glasgow-3470-father",
-      "basis": "Hugh’s 1752 Ayrshire date fits the older Hugh’s child sequence, but the sole FamilySearch sources page is a contributed lead without literal parents.",
+      "basis": "Hugh's Kilmarnock baptism of 1752 names Hugh Glasgow and Margaret Mcgechen (https://www.ancestry.co.uk/search/collections/60143/records/24646105); the previous 61% rested on a FamilySearch sources page without literal parents. Hugh Glasgow-1929, the Kilmarnock glover who married Margaret McEachin in 1732, has the same couple's children Margaret 1738 (https://www.ancestry.co.uk/search/collections/60143/records/25993043), Hugh 1742 (https://www.ancestry.co.uk/search/collections/60143/records/26465540) and Ann 1749 (https://www.ancestry.co.uk/search/collections/60143/records/11853749), attached at 96-99%. The mother's surname, spelled McGechen, McGeachen and McEachen across the series, separates this household from the Hugh and Margaret Giffen entry of 1744 (Mary-4108). Raised from 61% to 90%.",
       "source_ids": [
-        "held-e-6ea6c19a9791"
+        "held-e-6ea6c19a9791",
+        "ancestry-60143-24646105",
+        "ancestry-60143-25993043",
+        "ancestry-60143-26465540",
+        "ancestry-60143-11853749"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-05",
+      "scope": "A second Hugh born ten years after Hugh-4104 (1742) implies the first died young; no burial is held. The father's own childhood identity (Hugh-1929 as the 1710 Kilwinning child) is a separate link and unchanged. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "assessment_history": [
+        {
+          "percent": 61,
+          "assessment_status": "probable",
+          "basis": "Hugh’s 1752 Ayrshire date fits the older Hugh’s child sequence, but the sole FamilySearch sources page is a contributed lead without literal parents.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1231",
@@ -49831,6 +49859,238 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-050c063634eb",
+      "relative_id": "Glasgow-1573",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-050c063634eb-father-20261105",
+      "basis": "Margaret Glasgow's baptism at Kilbirnie on 18 May 1834 (https://www.ancestry.co.uk/search/collections/60143/records/16385391) names James Glasgow and Margaret Anderson. The full transcript's mother's surname places Margaret in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. Margaret joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16385391"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-050c063634eb.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-050c063634eb": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1573",
+      "relative_id": "record-ancestry-glasgow-050c063634eb",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-050c063634eb-father-20261105",
+      "basis": "Margaret Glasgow's baptism at Kilbirnie on 18 May 1834 (https://www.ancestry.co.uk/search/collections/60143/records/16385391) names James Glasgow and Margaret Anderson. The full transcript's mother's surname places Margaret in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. Margaret joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16385391"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-050c063634eb.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-050c063634eb": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-050c063634eb",
+      "relative_id": "Anderson-57123",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-050c063634eb-mother-20261105",
+      "basis": "The baptism of 18 May 1834 (https://www.ancestry.co.uk/search/collections/60143/records/16385391) names the mother Margaret Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of Margaret's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16385391"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-050c063634eb.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-050c063634eb": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "Anderson-57123",
+      "relative_id": "record-ancestry-glasgow-050c063634eb",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-050c063634eb-mother-20261105",
+      "basis": "The baptism of 18 May 1834 (https://www.ancestry.co.uk/search/collections/60143/records/16385391) names the mother Margaret Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of Margaret's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-16385391"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-050c063634eb.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-050c063634eb": "Margaret Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-0fa7ffc14439",
+      "relative_id": "Glasgow-1573",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-0fa7ffc14439-father-20261105",
+      "basis": "Elizabeth Glasgow's baptism at Kilbirnie on 18 Mar 1832 (https://www.ancestry.co.uk/search/collections/60143/records/23587535) names James Glasgow and Margaret Anderson. The full transcript's mother's surname places Elizabeth in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. Elizabeth joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-23587535"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-0fa7ffc14439.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-0fa7ffc14439": "Elizabeth Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1573",
+      "relative_id": "record-ancestry-glasgow-0fa7ffc14439",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-0fa7ffc14439-father-20261105",
+      "basis": "Elizabeth Glasgow's baptism at Kilbirnie on 18 Mar 1832 (https://www.ancestry.co.uk/search/collections/60143/records/23587535) names James Glasgow and Margaret Anderson. The full transcript's mother's surname places Elizabeth in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. Elizabeth joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-23587535"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-0fa7ffc14439.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-0fa7ffc14439": "Elizabeth Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-0fa7ffc14439",
+      "relative_id": "Anderson-57123",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-0fa7ffc14439-mother-20261105",
+      "basis": "The baptism of 18 Mar 1832 (https://www.ancestry.co.uk/search/collections/60143/records/23587535) names the mother Margaret Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of Elizabeth's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-23587535"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-0fa7ffc14439.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-0fa7ffc14439": "Elizabeth Glasgow"
+      }
+    },
+    {
+      "subject_id": "Anderson-57123",
+      "relative_id": "record-ancestry-glasgow-0fa7ffc14439",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-0fa7ffc14439-mother-20261105",
+      "basis": "The baptism of 18 Mar 1832 (https://www.ancestry.co.uk/search/collections/60143/records/23587535) names the mother Margaret Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of Elizabeth's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-23587535"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-0fa7ffc14439.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-0fa7ffc14439": "Elizabeth Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-1227",
       "relative_id": "Clarkson-2169",
       "relationship": "mother",
@@ -50251,6 +50511,238 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-2e5cf5ce956f",
+      "relative_id": "Glasgow-160",
+      "relationship": "father",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2e5cf5ce956f-father-20261105",
+      "basis": "James Glasgow's baptism at Aberlady on 13 Jan 1833 (https://www.ancestry.co.uk/search/collections/60143/records/4660605) names Thomas Glasgow and Euphemia Burns. The full transcript's mother's surname places James in the same couple's family as the attached children Peter (1829, Glasgow-214), whose father is Thomas Glasgow Glasgow-160. James joins that sibling group at 86% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4660605"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2e5cf5ce956f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-160": "Thomas Glasgow",
+        "record-ancestry-glasgow-2e5cf5ce956f": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-160",
+      "relative_id": "record-ancestry-glasgow-2e5cf5ce956f",
+      "relationship": "child",
+      "percent": 86,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2e5cf5ce956f-father-20261105",
+      "basis": "James Glasgow's baptism at Aberlady on 13 Jan 1833 (https://www.ancestry.co.uk/search/collections/60143/records/4660605) names Thomas Glasgow and Euphemia Burns. The full transcript's mother's surname places James in the same couple's family as the attached children Peter (1829, Glasgow-214), whose father is Thomas Glasgow Glasgow-160. James joins that sibling group at 86% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4660605"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2e5cf5ce956f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-160": "Thomas Glasgow",
+        "record-ancestry-glasgow-2e5cf5ce956f": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-2e5cf5ce956f",
+      "relative_id": "Burns-2926",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2e5cf5ce956f-mother-20261105",
+      "basis": "The baptism of 13 Jan 1833 (https://www.ancestry.co.uk/search/collections/60143/records/4660605) names the mother Euphemia Burns, matched to Euphemia (Burns) Glasgow Burns-2926, the attached mother of James's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4660605"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2e5cf5ce956f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Burns-2926": "Euphemia (Burns) Glasgow",
+        "record-ancestry-glasgow-2e5cf5ce956f": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Burns-2926",
+      "relative_id": "record-ancestry-glasgow-2e5cf5ce956f",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2e5cf5ce956f-mother-20261105",
+      "basis": "The baptism of 13 Jan 1833 (https://www.ancestry.co.uk/search/collections/60143/records/4660605) names the mother Euphemia Burns, matched to Euphemia (Burns) Glasgow Burns-2926, the attached mother of James's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-4660605"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2e5cf5ce956f.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Burns-2926": "Euphemia (Burns) Glasgow",
+        "record-ancestry-glasgow-2e5cf5ce956f": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-2f3da7f8a597",
+      "relative_id": "Glasgow-1620",
+      "relationship": "father",
+      "percent": 95,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-2f3da7f8a597-father-20261105",
+      "basis": "Thomas Glasgow's baptism at Kirknewton and East Calder on 17 Jul 1796 (https://www.ancestry.co.uk/search/collections/60143/records/19933079) names Thomas Glasgow and Margaret Chapman. The full transcript's mother's surname places Thomas in the same couple's family as the attached children John (1790, Glasgow-427), George (1792, Glasgow-3345), James (1794, Glasgow-3346), Thomas (1800, Glasgow-3347), whose father is Thomas Glasgow Glasgow-1620. Thomas joins that sibling group at 95% proved, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-19933079"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2f3da7f8a597.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1620": "Thomas Glasgow",
+        "record-ancestry-glasgow-2f3da7f8a597": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1620",
+      "relative_id": "record-ancestry-glasgow-2f3da7f8a597",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-2f3da7f8a597-father-20261105",
+      "basis": "Thomas Glasgow's baptism at Kirknewton and East Calder on 17 Jul 1796 (https://www.ancestry.co.uk/search/collections/60143/records/19933079) names Thomas Glasgow and Margaret Chapman. The full transcript's mother's surname places Thomas in the same couple's family as the attached children John (1790, Glasgow-427), George (1792, Glasgow-3345), James (1794, Glasgow-3346), Thomas (1800, Glasgow-3347), whose father is Thomas Glasgow Glasgow-1620. Thomas joins that sibling group at 95% proved, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-19933079"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2f3da7f8a597.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1620": "Thomas Glasgow",
+        "record-ancestry-glasgow-2f3da7f8a597": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-2f3da7f8a597",
+      "relative_id": "Chapman-28491",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2f3da7f8a597-mother-20261105",
+      "basis": "The baptism of 17 Jul 1796 (https://www.ancestry.co.uk/search/collections/60143/records/19933079) names the mother Margaret Chapman, matched to Chapman-28491 Chapman-28491, the attached mother of Thomas's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-19933079"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2f3da7f8a597.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Chapman-28491": "Chapman-28491",
+        "record-ancestry-glasgow-2f3da7f8a597": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "Chapman-28491",
+      "relative_id": "record-ancestry-glasgow-2f3da7f8a597",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-2f3da7f8a597-mother-20261105",
+      "basis": "The baptism of 17 Jul 1796 (https://www.ancestry.co.uk/search/collections/60143/records/19933079) names the mother Margaret Chapman, matched to Chapman-28491 Chapman-28491, the attached mother of Thomas's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-19933079"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-2f3da7f8a597.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Chapman-28491": "Chapman-28491",
+        "record-ancestry-glasgow-2f3da7f8a597": "Thomas Glasgow"
+      }
+    },
+    {
       "subject_id": "Glasgow-3058",
       "relative_id": "record-ancestry-glasgow-3ddef1dab3c4",
       "relationship": "father",
@@ -50376,6 +50868,122 @@
       "profile_names": {
         "Borland-1478": "Mary (Borland) Glasgow",
         "Glasgow-3456": "David Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-3501cf2f2001",
+      "relative_id": "Glasgow-1573",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3501cf2f2001-father-20261105",
+      "basis": "William Glasgow's baptism at Kilbirnie on 5 Oct 1823 (https://www.ancestry.co.uk/search/collections/60143/records/13964869) names James Glasgow and Margat Anderson. The full transcript's mother's surname places William in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. William joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-13964869"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-3501cf2f2001.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-3501cf2f2001": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1573",
+      "relative_id": "record-ancestry-glasgow-3501cf2f2001",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3501cf2f2001-father-20261105",
+      "basis": "William Glasgow's baptism at Kilbirnie on 5 Oct 1823 (https://www.ancestry.co.uk/search/collections/60143/records/13964869) names James Glasgow and Margat Anderson. The full transcript's mother's surname places William in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. William joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-13964869"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-3501cf2f2001.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-3501cf2f2001": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-3501cf2f2001",
+      "relative_id": "Anderson-57123",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3501cf2f2001-mother-20261105",
+      "basis": "The baptism of 5 Oct 1823 (https://www.ancestry.co.uk/search/collections/60143/records/13964869) names the mother Margat Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of William's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-13964869"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-3501cf2f2001.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-3501cf2f2001": "William Glasgow"
+      }
+    },
+    {
+      "subject_id": "Anderson-57123",
+      "relative_id": "record-ancestry-glasgow-3501cf2f2001",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-3501cf2f2001-mother-20261105",
+      "basis": "The baptism of 5 Oct 1823 (https://www.ancestry.co.uk/search/collections/60143/records/13964869) names the mother Margat Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of William's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-13964869"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-3501cf2f2001.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-3501cf2f2001": "William Glasgow"
       }
     },
     {
@@ -50755,6 +51363,70 @@
       }
     },
     {
+      "subject_id": "Glasgow-4130",
+      "relative_id": "Wilson-127539",
+      "relationship": "mother",
+      "percent": 72,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4130-mother-wilson-20261105",
+      "basis": "Janet's attached mother, Katherin Gibson-37713, rests on a transcript of her 22 April 1718 Libberton baptism reading 'Katherin Gibson'. The full Ancestry transcript of the same entry reads 'Katharin Wilson Or Glasgow' (two index copies, https://www.ancestry.co.uk/search/collections/60143/records/18885484 and https://www.ancestry.co.uk/search/collections/60143/records/26410942). Robert Glasgow and Katharin Wilson baptised Janet at Libberton on 22 April 1718 (mother 'Katharin Wilson Or Glasgow', https://www.ancestry.co.uk/search/collections/60143/records/18885484), Agnis on 21 August 1720 (https://www.ancestry.co.uk/search/collections/60143/records/24972731) and John on 23 September 1722 (https://www.ancestry.co.uk/search/collections/60143/records/18844739); Robert and Katharine Watson baptised Elizabeth there on 10 June 1726 (https://www.ancestry.co.uk/search/collections/60143/records/24722181). The 1720 and 1722 entries for the same Robert name Katharin Wilson, and Robert and Katherine Wilson married at Carnwath in 1713; no Robert/Gibson marriage is recorded. Katherine (Wilson) Glasgow-127539 is therefore selected as Janet's probable mother at 72%, with Gibson-37713 retained as the competing reading of the same entry.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-18885484",
+        "ancestry-60143-26410942",
+        "ancestry-60143-24972731",
+        "ancestry-60143-18844739"
+      ],
+      "scope": "Two readings of one register entry conflict (Gibson vs Wilson); the original page is uninspected and would settle it. Elizabeth's 1726 'Katharine Watson' may be a further misreading or a second wife; not resolved here. The attached WikiTree mother is not removed. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4130.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4130": "Janet Glasgow",
+        "Wilson-127539": "Katherine (Wilson) Glasgow"
+      }
+    },
+    {
+      "subject_id": "Wilson-127539",
+      "relative_id": "Glasgow-4130",
+      "relationship": "child",
+      "percent": 72,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4130-mother-wilson-20261105",
+      "basis": "Janet's attached mother, Katherin Gibson-37713, rests on a transcript of her 22 April 1718 Libberton baptism reading 'Katherin Gibson'. The full Ancestry transcript of the same entry reads 'Katharin Wilson Or Glasgow' (two index copies, https://www.ancestry.co.uk/search/collections/60143/records/18885484 and https://www.ancestry.co.uk/search/collections/60143/records/26410942). Robert Glasgow and Katharin Wilson baptised Janet at Libberton on 22 April 1718 (mother 'Katharin Wilson Or Glasgow', https://www.ancestry.co.uk/search/collections/60143/records/18885484), Agnis on 21 August 1720 (https://www.ancestry.co.uk/search/collections/60143/records/24972731) and John on 23 September 1722 (https://www.ancestry.co.uk/search/collections/60143/records/18844739); Robert and Katharine Watson baptised Elizabeth there on 10 June 1726 (https://www.ancestry.co.uk/search/collections/60143/records/24722181). The 1720 and 1722 entries for the same Robert name Katharin Wilson, and Robert and Katherine Wilson married at Carnwath in 1713; no Robert/Gibson marriage is recorded. Katherine (Wilson) Glasgow-127539 is therefore selected as Janet's probable mother at 72%, with Gibson-37713 retained as the competing reading of the same entry.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-18885484",
+        "ancestry-60143-26410942",
+        "ancestry-60143-24972731",
+        "ancestry-60143-18844739"
+      ],
+      "scope": "Two readings of one register entry conflict (Gibson vs Wilson); the original page is uninspected and would settle it. Elizabeth's 1726 'Katharine Watson' may be a further misreading or a second wife; not resolved here. The attached WikiTree mother is not removed. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-4130.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-4130": "Janet Glasgow",
+        "Wilson-127539": "Katherine (Wilson) Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-45cf47435a75",
       "relative_id": "Glasgow-3706",
       "relationship": "father",
@@ -50992,6 +51664,354 @@
       "profile_names": {
         "Whitehead-9630": "Agnes (Whitehead) Glasgow",
         "record-ancestry-glasgow-49c697fa7452": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-4c1543b70f2e",
+      "relative_id": "Glasgow-1573",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4c1543b70f2e-father-20261105",
+      "basis": "John Glasgow's baptism at Kilbirnie on 4 Aug 1836 (https://www.ancestry.co.uk/search/collections/60143/records/10377667) names James Glasgow and Margaret Anderson. The full transcript's mother's surname places John in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. John joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10377667"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-4c1543b70f2e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-4c1543b70f2e": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1573",
+      "relative_id": "record-ancestry-glasgow-4c1543b70f2e",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4c1543b70f2e-father-20261105",
+      "basis": "John Glasgow's baptism at Kilbirnie on 4 Aug 1836 (https://www.ancestry.co.uk/search/collections/60143/records/10377667) names James Glasgow and Margaret Anderson. The full transcript's mother's surname places John in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. John joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10377667"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-4c1543b70f2e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-4c1543b70f2e": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-4c1543b70f2e",
+      "relative_id": "Anderson-57123",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4c1543b70f2e-mother-20261105",
+      "basis": "The baptism of 4 Aug 1836 (https://www.ancestry.co.uk/search/collections/60143/records/10377667) names the mother Margaret Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of John's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10377667"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-4c1543b70f2e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-4c1543b70f2e": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "Anderson-57123",
+      "relative_id": "record-ancestry-glasgow-4c1543b70f2e",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-4c1543b70f2e-mother-20261105",
+      "basis": "The baptism of 4 Aug 1836 (https://www.ancestry.co.uk/search/collections/60143/records/10377667) names the mother Margaret Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of John's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10377667"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-4c1543b70f2e.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-4c1543b70f2e": "John Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-5257d806690d",
+      "relative_id": "Glasgow-3314",
+      "relationship": "father",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-5257d806690d-father-20261105",
+      "basis": "Issobel Glasgow's baptism at West Calder on 30 Oct 1773 (https://www.ancestry.co.uk/search/collections/60143/records/6102588) names John Glasgow and Margaret Mill. The full transcript's mother's surname places Issobel in the same couple's family as the attached children Andrew (1764, Glasgow-3404), Margaret (1766, Glasgow-3405), Agnes (1770, Glasgow-3406), whose father is John Glasgow Glasgow-3314. Issobel joins that sibling group at 80% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6102588"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5257d806690d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3314": "John Glasgow",
+        "record-ancestry-glasgow-5257d806690d": "Issobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3314",
+      "relative_id": "record-ancestry-glasgow-5257d806690d",
+      "relationship": "child",
+      "percent": 80,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-5257d806690d-father-20261105",
+      "basis": "Issobel Glasgow's baptism at West Calder on 30 Oct 1773 (https://www.ancestry.co.uk/search/collections/60143/records/6102588) names John Glasgow and Margaret Mill. The full transcript's mother's surname places Issobel in the same couple's family as the attached children Andrew (1764, Glasgow-3404), Margaret (1766, Glasgow-3405), Agnes (1770, Glasgow-3406), whose father is John Glasgow Glasgow-3314. Issobel joins that sibling group at 80% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6102588"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5257d806690d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3314": "John Glasgow",
+        "record-ancestry-glasgow-5257d806690d": "Issobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-5257d806690d",
+      "relative_id": "Mill-757",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-5257d806690d-mother-20261105",
+      "basis": "The baptism of 30 Oct 1773 (https://www.ancestry.co.uk/search/collections/60143/records/6102588) names the mother Margaret Mill, matched to Margaret (Mill) Glasgow Mill-757, the attached mother of Issobel's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6102588"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5257d806690d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Mill-757": "Margaret (Mill) Glasgow",
+        "record-ancestry-glasgow-5257d806690d": "Issobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Mill-757",
+      "relative_id": "record-ancestry-glasgow-5257d806690d",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-5257d806690d-mother-20261105",
+      "basis": "The baptism of 30 Oct 1773 (https://www.ancestry.co.uk/search/collections/60143/records/6102588) names the mother Margaret Mill, matched to Margaret (Mill) Glasgow Mill-757, the attached mother of Issobel's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-6102588"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5257d806690d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Mill-757": "Margaret (Mill) Glasgow",
+        "record-ancestry-glasgow-5257d806690d": "Issobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-5569a04cbcda",
+      "relative_id": "Glasgow-1227",
+      "relationship": "father",
+      "percent": 92,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-5569a04cbcda-father-20261105",
+      "basis": "Robert Glasgow's baptism at Livingston on 16 Sep 1758 (https://www.ancestry.co.uk/search/collections/60143/records/2771953) names Abraham Glasgow and Janet Cunnyngham. The full transcript's mother's surname places Robert in the same couple's family as the attached children David (1742, Glasgow-1228), Robert (1744, Glasgow-1229), Abraham (1745, Glasgow-1235), Ann (1748, Glasgow-1233), Elizabeth (1750, Glasgow-1232), William (1753, Glasgow-1231), whose father is Abraham Glasgow Glasgow-1227. Robert joins that sibling group at 92% proved, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2771953"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5569a04cbcda.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1227": "Abraham Glasgow",
+        "record-ancestry-glasgow-5569a04cbcda": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1227",
+      "relative_id": "record-ancestry-glasgow-5569a04cbcda",
+      "relationship": "child",
+      "percent": 92,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-5569a04cbcda-father-20261105",
+      "basis": "Robert Glasgow's baptism at Livingston on 16 Sep 1758 (https://www.ancestry.co.uk/search/collections/60143/records/2771953) names Abraham Glasgow and Janet Cunnyngham. The full transcript's mother's surname places Robert in the same couple's family as the attached children David (1742, Glasgow-1228), Robert (1744, Glasgow-1229), Abraham (1745, Glasgow-1235), Ann (1748, Glasgow-1233), Elizabeth (1750, Glasgow-1232), William (1753, Glasgow-1231), whose father is Abraham Glasgow Glasgow-1227. Robert joins that sibling group at 92% proved, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2771953"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5569a04cbcda.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1227": "Abraham Glasgow",
+        "record-ancestry-glasgow-5569a04cbcda": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-5569a04cbcda",
+      "relative_id": "Cunningham-20925",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-5569a04cbcda-mother-20261105",
+      "basis": "The baptism of 16 Sep 1758 (https://www.ancestry.co.uk/search/collections/60143/records/2771953) names the mother Janet Cunnyngham, matched to Janet (Cunningham) Glasgow Cunningham-20925, the attached mother of Robert's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2771953"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5569a04cbcda.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Cunningham-20925": "Janet (Cunningham) Glasgow",
+        "record-ancestry-glasgow-5569a04cbcda": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Cunningham-20925",
+      "relative_id": "record-ancestry-glasgow-5569a04cbcda",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-5569a04cbcda-mother-20261105",
+      "basis": "The baptism of 16 Sep 1758 (https://www.ancestry.co.uk/search/collections/60143/records/2771953) names the mother Janet Cunnyngham, matched to Janet (Cunningham) Glasgow Cunningham-20925, the attached mother of Robert's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2771953"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-5569a04cbcda.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Cunningham-20925": "Janet (Cunningham) Glasgow",
+        "record-ancestry-glasgow-5569a04cbcda": "Robert Glasgow"
       }
     },
     {
@@ -51175,6 +52195,484 @@
       }
     },
     {
+      "subject_id": "record-ancestry-glasgow-84e5305cad57",
+      "relative_id": "Glasgow-1221",
+      "relationship": "father",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-84e5305cad57-father-20261105",
+      "basis": "Isobel Glasgow's baptism at Rothesay on 7 Dec 1806 (https://www.ancestry.co.uk/search/collections/60143/records/10640522) names John Glasgow and Isobel Hunter. The full transcript's mother's surname places Isobel in the same couple's family as the attached children Robert (1795, Glasgow-2603), Janet (1797, Glasgow-3541), John (1799, Glasgow-3542), David (1804, Glasgow-3543), whose father is John Glasgow Glasgow-1221. Isobel joins that sibling group at 84% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10640522"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-84e5305cad57.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1221": "John Glasgow",
+        "record-ancestry-glasgow-84e5305cad57": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1221",
+      "relative_id": "record-ancestry-glasgow-84e5305cad57",
+      "relationship": "child",
+      "percent": 84,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-84e5305cad57-father-20261105",
+      "basis": "Isobel Glasgow's baptism at Rothesay on 7 Dec 1806 (https://www.ancestry.co.uk/search/collections/60143/records/10640522) names John Glasgow and Isobel Hunter. The full transcript's mother's surname places Isobel in the same couple's family as the attached children Robert (1795, Glasgow-2603), Janet (1797, Glasgow-3541), John (1799, Glasgow-3542), David (1804, Glasgow-3543), whose father is John Glasgow Glasgow-1221. Isobel joins that sibling group at 84% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10640522"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-84e5305cad57.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1221": "John Glasgow",
+        "record-ancestry-glasgow-84e5305cad57": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-84e5305cad57",
+      "relative_id": "Hunter-30137",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-84e5305cad57-mother-20261105",
+      "basis": "The baptism of 7 Dec 1806 (https://www.ancestry.co.uk/search/collections/60143/records/10640522) names the mother Isobel Hunter, matched to Isabella (Hunter) Glasgow Hunter-30137, the attached mother of Isobel's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10640522"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-84e5305cad57.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Hunter-30137": "Isabella (Hunter) Glasgow",
+        "record-ancestry-glasgow-84e5305cad57": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "Hunter-30137",
+      "relative_id": "record-ancestry-glasgow-84e5305cad57",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-84e5305cad57-mother-20261105",
+      "basis": "The baptism of 7 Dec 1806 (https://www.ancestry.co.uk/search/collections/60143/records/10640522) names the mother Isobel Hunter, matched to Isabella (Hunter) Glasgow Hunter-30137, the attached mother of Isobel's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-10640522"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-84e5305cad57.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Hunter-30137": "Isabella (Hunter) Glasgow",
+        "record-ancestry-glasgow-84e5305cad57": "Isobel Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-a18aeb528dd3",
+      "relative_id": "Glasgow-3407",
+      "relationship": "father",
+      "percent": 93,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-a18aeb528dd3-father-20261105",
+      "basis": "Agnis's Libberton baptism of 21 August 1720 (https://www.ancestry.co.uk/search/collections/60143/records/24972731) names Robert Glasgow and Katharin Wilson, the couple who married at Carnwath in 1713 and whose son John-2870 (Libberton, 1722) is attached to Robert Glasgow-3407 at 99%. Robert Glasgow and Katharin Wilson baptised Janet at Libberton on 22 April 1718 (mother 'Katharin Wilson Or Glasgow', https://www.ancestry.co.uk/search/collections/60143/records/18885484), Agnis on 21 August 1720 (https://www.ancestry.co.uk/search/collections/60143/records/24972731) and John on 23 September 1722 (https://www.ancestry.co.uk/search/collections/60143/records/18844739); Robert and Katharine Watson baptised Elizabeth there on 10 June 1726 (https://www.ancestry.co.uk/search/collections/60143/records/24722181). Agnis joins her brother at 93%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24972731",
+        "ancestry-60143-18844739",
+        "ancestry-60143-18885484"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-a18aeb528dd3.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3407": "Robert Glasgow",
+        "record-ancestry-glasgow-a18aeb528dd3": "Agnis Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-3407",
+      "relative_id": "record-ancestry-glasgow-a18aeb528dd3",
+      "relationship": "child",
+      "percent": 93,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-a18aeb528dd3-father-20261105",
+      "basis": "Agnis's Libberton baptism of 21 August 1720 (https://www.ancestry.co.uk/search/collections/60143/records/24972731) names Robert Glasgow and Katharin Wilson, the couple who married at Carnwath in 1713 and whose son John-2870 (Libberton, 1722) is attached to Robert Glasgow-3407 at 99%. Robert Glasgow and Katharin Wilson baptised Janet at Libberton on 22 April 1718 (mother 'Katharin Wilson Or Glasgow', https://www.ancestry.co.uk/search/collections/60143/records/18885484), Agnis on 21 August 1720 (https://www.ancestry.co.uk/search/collections/60143/records/24972731) and John on 23 September 1722 (https://www.ancestry.co.uk/search/collections/60143/records/18844739); Robert and Katharine Watson baptised Elizabeth there on 10 June 1726 (https://www.ancestry.co.uk/search/collections/60143/records/24722181). Agnis joins her brother at 93%.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24972731",
+        "ancestry-60143-18844739",
+        "ancestry-60143-18885484"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-a18aeb528dd3.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-3407": "Robert Glasgow",
+        "record-ancestry-glasgow-a18aeb528dd3": "Agnis Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-a18aeb528dd3",
+      "relative_id": "Wilson-127539",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-a18aeb528dd3-mother-20261105",
+      "basis": "The 1720 Libberton baptism (https://www.ancestry.co.uk/search/collections/60143/records/24972731) names mother Katharin Wilson, matched to Katherine (Wilson) Glasgow-127539, wife of Robert-3407. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24972731"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-a18aeb528dd3.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Wilson-127539": "Katherine (Wilson) Glasgow",
+        "record-ancestry-glasgow-a18aeb528dd3": "Agnis Glasgow"
+      }
+    },
+    {
+      "subject_id": "Wilson-127539",
+      "relative_id": "record-ancestry-glasgow-a18aeb528dd3",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-a18aeb528dd3-mother-20261105",
+      "basis": "The 1720 Libberton baptism (https://www.ancestry.co.uk/search/collections/60143/records/24972731) names mother Katharin Wilson, matched to Katherine (Wilson) Glasgow-127539, wife of Robert-3407. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-24972731"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-a18aeb528dd3.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Wilson-127539": "Katherine (Wilson) Glasgow",
+        "record-ancestry-glasgow-a18aeb528dd3": "Agnis Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-af1e6e3c480d",
+      "relative_id": "Glasgow-1342",
+      "relationship": "father",
+      "percent": 62,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-af1e6e3c480d-father-20261105",
+      "basis": "Jean's Penicuik baptism of 18 November 1739 (https://www.ancestry.co.uk/search/collections/60143/records/26269566) names her father in full as Alexander William Glasgow, with mother Jean Ritchie. The same couple baptised William (16 April 1743, Glasgow-1430), Janet (June 1745, Glasgow-1432) and James (January 1748, Glasgow-1431) at Penicuik, all attached to Alexander William Glasgow-1342, the child of that rare double name baptised at Kirknewton in February 1724 to Alexander Glasgow and Margaret Moultrie (https://www.ancestry.co.uk/search/collections/60143/records/11125294). The double forename is a new link between the Kirknewton child and the Penicuik father, but it comes with a chronological objection: the 1724 child would have been only fifteen at Jean's baptism. Jean is placed with her siblings at 62%, a little below their 65-69%, and the siblings are not raised.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-26269566",
+        "ancestry-60143-5697348",
+        "ancestry-60143-10927023",
+        "ancestry-60143-10167229",
+        "ancestry-60143-19407308",
+        "ancestry-60143-11125294"
+      ],
+      "scope": "A father aged fifteen is very unusual; an older, unrecorded Alexander William, or a later birth than the 1724 baptism, would also explain the record. The siblings' father percentages are deliberately left unchanged until the age question is tested. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-af1e6e3c480d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1342": "Alexander William Glasgow",
+        "record-ancestry-glasgow-af1e6e3c480d": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1342",
+      "relative_id": "record-ancestry-glasgow-af1e6e3c480d",
+      "relationship": "child",
+      "percent": 62,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-af1e6e3c480d-father-20261105",
+      "basis": "Jean's Penicuik baptism of 18 November 1739 (https://www.ancestry.co.uk/search/collections/60143/records/26269566) names her father in full as Alexander William Glasgow, with mother Jean Ritchie. The same couple baptised William (16 April 1743, Glasgow-1430), Janet (June 1745, Glasgow-1432) and James (January 1748, Glasgow-1431) at Penicuik, all attached to Alexander William Glasgow-1342, the child of that rare double name baptised at Kirknewton in February 1724 to Alexander Glasgow and Margaret Moultrie (https://www.ancestry.co.uk/search/collections/60143/records/11125294). The double forename is a new link between the Kirknewton child and the Penicuik father, but it comes with a chronological objection: the 1724 child would have been only fifteen at Jean's baptism. Jean is placed with her siblings at 62%, a little below their 65-69%, and the siblings are not raised.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-26269566",
+        "ancestry-60143-5697348",
+        "ancestry-60143-10927023",
+        "ancestry-60143-10167229",
+        "ancestry-60143-19407308",
+        "ancestry-60143-11125294"
+      ],
+      "scope": "A father aged fifteen is very unusual; an older, unrecorded Alexander William, or a later birth than the 1724 baptism, would also explain the record. The siblings' father percentages are deliberately left unchanged until the age question is tested. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-af1e6e3c480d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1342": "Alexander William Glasgow",
+        "record-ancestry-glasgow-af1e6e3c480d": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-af1e6e3c480d",
+      "relative_id": "Richie-525",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-af1e6e3c480d-mother-20261105",
+      "basis": "The Penicuik baptism of 18 November 1739 (https://www.ancestry.co.uk/search/collections/60143/records/26269566) names mother Jean Ritchie, matched to Jean Richie-525, mother of the 1743-1748 Penicuik children. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-26269566"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-af1e6e3c480d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Richie-525": "Jean Richie",
+        "record-ancestry-glasgow-af1e6e3c480d": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "Richie-525",
+      "relative_id": "record-ancestry-glasgow-af1e6e3c480d",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-af1e6e3c480d-mother-20261105",
+      "basis": "The Penicuik baptism of 18 November 1739 (https://www.ancestry.co.uk/search/collections/60143/records/26269566) names mother Jean Ritchie, matched to Jean Richie-525, mother of the 1743-1748 Penicuik children. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-26269566"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-af1e6e3c480d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Richie-525": "Jean Richie",
+        "record-ancestry-glasgow-af1e6e3c480d": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ba1f435aba0d",
+      "relative_id": "Glasgow-1573",
+      "relationship": "father",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ba1f435aba0d-father-20261105",
+      "basis": "James Glasgow's baptism at Kilbirnie on 24 Apr 1825 (https://www.ancestry.co.uk/search/collections/60143/records/2397785) names James Glasgow and Margat Anderson. The full transcript's mother's surname places James in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. James joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2397785"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ba1f435aba0d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-ba1f435aba0d": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1573",
+      "relative_id": "record-ancestry-glasgow-ba1f435aba0d",
+      "relationship": "child",
+      "percent": 85,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ba1f435aba0d-father-20261105",
+      "basis": "James Glasgow's baptism at Kilbirnie on 24 Apr 1825 (https://www.ancestry.co.uk/search/collections/60143/records/2397785) names James Glasgow and Margat Anderson. The full transcript's mother's surname places James in the same couple's family as the attached children George (1829, Glasgow-3308), whose father is James Glasgow Glasgow-1573. James joins that sibling group at 85% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2397785"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ba1f435aba0d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1573": "James Glasgow",
+        "record-ancestry-glasgow-ba1f435aba0d": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-ba1f435aba0d",
+      "relative_id": "Anderson-57123",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ba1f435aba0d-mother-20261105",
+      "basis": "The baptism of 24 Apr 1825 (https://www.ancestry.co.uk/search/collections/60143/records/2397785) names the mother Margat Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of James's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2397785"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ba1f435aba0d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-ba1f435aba0d": "James Glasgow"
+      }
+    },
+    {
+      "subject_id": "Anderson-57123",
+      "relative_id": "record-ancestry-glasgow-ba1f435aba0d",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-ba1f435aba0d-mother-20261105",
+      "basis": "The baptism of 24 Apr 1825 (https://www.ancestry.co.uk/search/collections/60143/records/2397785) names the mother Margat Anderson, matched to Margaret (Anderson) Glasgow Anderson-57123, the attached mother of James's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-2397785"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-ba1f435aba0d.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Anderson-57123": "Margaret (Anderson) Glasgow",
+        "record-ancestry-glasgow-ba1f435aba0d": "James Glasgow"
+      }
+    },
+    {
       "subject_id": "record-ancestry-glasgow-bfe4b7d9ef6a",
       "relative_id": "Glasgow-3706",
       "relationship": "father",
@@ -51292,6 +52790,122 @@
       "profile_names": {
         "Whitehead-9630": "Agnes (Whitehead) Glasgow",
         "record-ancestry-glasgow-bfe4b7d9ef6a": "Thomas Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-db961d09c92c",
+      "relative_id": "Glasgow-1238",
+      "relationship": "father",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-db961d09c92c-father-20261105",
+      "basis": "Heling Glasgow's baptism at Stitchel on 2 Apr 1750 (https://www.ancestry.co.uk/search/collections/60143/records/1125614) names James Glasgow and Elizabath Tait. The full transcript's mother's surname places Heling in the same couple's family as the attached children Patrick (1742, Glasgow-1225), whose father is James Glasgow Glasgow-1238. Heling joins that sibling group at 75% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1125614"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-db961d09c92c.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1238": "James Glasgow",
+        "record-ancestry-glasgow-db961d09c92c": "Heling Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1238",
+      "relative_id": "record-ancestry-glasgow-db961d09c92c",
+      "relationship": "child",
+      "percent": 75,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-db961d09c92c-father-20261105",
+      "basis": "Heling Glasgow's baptism at Stitchel on 2 Apr 1750 (https://www.ancestry.co.uk/search/collections/60143/records/1125614) names James Glasgow and Elizabath Tait. The full transcript's mother's surname places Heling in the same couple's family as the attached children Patrick (1742, Glasgow-1225), whose father is James Glasgow Glasgow-1238. Heling joins that sibling group at 75% probable, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1125614"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-db961d09c92c.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1238": "James Glasgow",
+        "record-ancestry-glasgow-db961d09c92c": "Heling Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-db961d09c92c",
+      "relative_id": "Tait-2506",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-db961d09c92c-mother-20261105",
+      "basis": "The baptism of 2 Apr 1750 (https://www.ancestry.co.uk/search/collections/60143/records/1125614) names the mother Elizabath Tait, matched to Tait-2506 Tait-2506, the attached mother of Heling's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1125614"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-db961d09c92c.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Tait-2506": "Tait-2506",
+        "record-ancestry-glasgow-db961d09c92c": "Heling Glasgow"
+      }
+    },
+    {
+      "subject_id": "Tait-2506",
+      "relative_id": "record-ancestry-glasgow-db961d09c92c",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-db961d09c92c-mother-20261105",
+      "basis": "The baptism of 2 Apr 1750 (https://www.ancestry.co.uk/search/collections/60143/records/1125614) names the mother Elizabath Tait, matched to Tait-2506 Tait-2506, the attached mother of Heling's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1125614"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-db961d09c92c.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Tait-2506": "Tait-2506",
+        "record-ancestry-glasgow-db961d09c92c": "Heling Glasgow"
       }
     },
     {
@@ -51476,6 +53090,122 @@
       "profile_names": {
         "Martin-103040": "Margaret (Martin) Glasgow",
         "record-ancestry-glasgow-ee34f161fe43": "Jean Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-fcdcb3f20b64",
+      "relative_id": "Glasgow-1450",
+      "relationship": "father",
+      "percent": 95,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-fcdcb3f20b64-father-20261105",
+      "basis": "Euphemia Glasgow's baptism at Athelstaneford on 29 Aug 1824 (https://www.ancestry.co.uk/search/collections/60143/records/1522828) names Peter Glasgow and Agnes Scott. The full transcript's mother's surname places Euphemia in the same couple's family as the attached children John (1827, Glasgow-1186), whose father is Peter Glasgow Glasgow-1450. Euphemia joins that sibling group at 95% proved, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1522828"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fcdcb3f20b64.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1450": "Peter Glasgow",
+        "record-ancestry-glasgow-fcdcb3f20b64": "Euphemia Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1450",
+      "relative_id": "record-ancestry-glasgow-fcdcb3f20b64",
+      "relationship": "child",
+      "percent": 95,
+      "assessment_status": "proved",
+      "assertion_id": "clm-r3-fcdcb3f20b64-father-20261105",
+      "basis": "Euphemia Glasgow's baptism at Athelstaneford on 29 Aug 1824 (https://www.ancestry.co.uk/search/collections/60143/records/1522828) names Peter Glasgow and Agnes Scott. The full transcript's mother's surname places Euphemia in the same couple's family as the attached children John (1827, Glasgow-1186), whose father is Peter Glasgow Glasgow-1450. Euphemia joins that sibling group at 95% proved, the level of the attached siblings' own father links.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1522828"
+      ],
+      "scope": "The draft was created (or held for identity review) only against unrelated same-name drafts; no catalogue child of this name and date exists in the family. The father percentage inherits the siblings' father-profile uncertainty. The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fcdcb3f20b64.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1450": "Peter Glasgow",
+        "record-ancestry-glasgow-fcdcb3f20b64": "Euphemia Glasgow"
+      }
+    },
+    {
+      "subject_id": "record-ancestry-glasgow-fcdcb3f20b64",
+      "relative_id": "Scott-41744",
+      "relationship": "mother",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-fcdcb3f20b64-mother-20261105",
+      "basis": "The baptism of 29 Aug 1824 (https://www.ancestry.co.uk/search/collections/60143/records/1522828) names the mother Agnes Scott, matched to Agnes Scott Scott-41744, the attached mother of Euphemia's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1522828"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fcdcb3f20b64.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Scott-41744": "Agnes Scott",
+        "record-ancestry-glasgow-fcdcb3f20b64": "Euphemia Glasgow"
+      }
+    },
+    {
+      "subject_id": "Scott-41744",
+      "relative_id": "record-ancestry-glasgow-fcdcb3f20b64",
+      "relationship": "child",
+      "percent": 88,
+      "assessment_status": "probable",
+      "assertion_id": "clm-r3-fcdcb3f20b64-mother-20261105",
+      "basis": "The baptism of 29 Aug 1824 (https://www.ancestry.co.uk/search/collections/60143/records/1522828) names the mother Agnes Scott, matched to Agnes Scott Scott-41744, the attached mother of Euphemia's brothers and sisters. Assessed 88% probable.",
+      "reviewed": "2026-11-05",
+      "source_ids": [
+        "ancestry-60143-1522828"
+      ],
+      "scope": "The Ancestry rows are Ancestry's copy of the FamilySearch Scotland Births and Baptisms index, not counted twice where already cited. Index transcripts only; original registers uninspected.",
+      "working_selection": true,
+      "attachment_status": "hypothesis",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/record-ancestry-glasgow-fcdcb3f20b64.html#research-findings",
+          "label": "Ancestry Scottish baptism transcripts review"
+        }
+      ],
+      "profile_names": {
+        "Scott-41744": "Agnes Scott",
+        "record-ancestry-glasgow-fcdcb3f20b64": "Euphemia Glasgow"
       }
     },
     {
