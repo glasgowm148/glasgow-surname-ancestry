@@ -397789,6 +397789,483 @@
           "evidence": "Provider index transcript"
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e6-john-1840",
+      "subject_id": "ancestry-glasgow-e6-john-1840",
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "",
+      "birth": "1840",
+      "birth_note": "Index year only",
+      "birth_location": "New South Wales, Australia",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568701",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-e6-australia-holds.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Australian birth index lists John Glasgow, born 1840 in New South Wales, son of Alexander Glasgow and Helen Glasgow.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568701 Ancestry birth index, John Glasgow, 1840, New South Wales]</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/2568702 Companion index entry]</ref>\n\n== Research Notes ==\nIdentity hold. The two volume references may index one child. Do not identify him with John Bowling Glasgow: the 1849 entry names Mary A as mother.\n\n== Sources ==\n<references />\n",
+      "research_subject_url": "/people/ancestry-glasgow-e6-john-1840.html",
+      "assessment": "Record-defined child; no adult identity selected.",
+      "current_conclusion": "Identity held pending a fuller birth/baptism or later-life bridge.",
+      "current_questions": [
+        "What later record identifies this John and his Alexander/Helen parent household?"
+      ],
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "Glasgow-2699",
+          "name": "Alexander Glasgow",
+          "assessment": "indexed father household only",
+          "evidence": "Both birth rows name Alexander Glasgow and Helen Glasgow."
+        },
+        {
+          "profile_id": "Glasgow-2838",
+          "name": "John Bowling Glasgow",
+          "assessment": "ruled out as this child",
+          "evidence": "1849 birth names Mary A, not Helen."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Two same-year index rows, same parents, different volume references; consolidated as one held child.",
+        "candidates": []
+      },
+      "historical_basis": {
+        "latest_birth_year": 1840,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568701",
+        "basis_kind": "record",
+        "explanation": "Australian birth index, 1840"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: John Glasgow, 1840",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568701",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1840",
+          "filter_year": 1840,
+          "record_location": "New South Wales",
+          "region": "Australia",
+          "association": "John Glasgow — Australian birth index",
+          "note": "The index names John Glasgow, born 1840 in New South Wales. Father: Alexander Glasgow. Mother: Helen Glasgow. Volume Number: V18403504 45b. The two entries name the same parents and birth year but give different volume references; they may index the same child. The parents fit the Alexander and Helen household. The child is not identified with John Bowling Glasgow, whose birth index names Mary Ann as mother.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: John Glasgow, 1840",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568702",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1840",
+          "filter_year": 1840,
+          "record_location": "New South Wales",
+          "region": "Australia",
+          "association": "John Glasgow — Australian birth index",
+          "note": "The index names John Glasgow, born 1840 in New South Wales. Father: Alexander Glasgow. Mother: Helen Glasgow. Volume Number: V1840792 47. The two entries name the same parents and birth year but give different volume references; they may index the same child. The parents fit the Alexander and Helen household. The child is not identified with John Bowling Glasgow, whose birth index names Mary Ann as mother.",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e6-patrick-1847",
+      "subject_id": "ancestry-glasgow-e6-patrick-1847",
+      "name": "Patrick Glasgow",
+      "first_names": [
+        "Patrick"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "",
+      "birth": "c. 1847",
+      "birth_note": "Approximate year in the birth index.",
+      "birth_location": "Melbourne, Victoria, Australia",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113262",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-e6-australia-holds.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Australian birth index lists Patrick Glasgow, born about 1847 in Melbourne, Victoria, son of Thomas Glasgow and Mary Foley.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1113262 Ancestry birth index, Patrick Glasgow, about 1847, Melbourne]</ref><ref>[https://www.ancestry.co.uk/search/collections/1778/records/1113263 Companion index entry]</ref>\n\n== Research Notes ==\nIdentity hold. Four index references appear to represent the same child and parents; they are not independent identities.\n\n== Sources ==\n<references />\n* [https://www.ancestry.co.uk/search/collections/1778/records/1179663 Ancestry, Australia, Birth Index, 1788–1922: Patrick Glasgow, Abt 1847]\n* [https://www.ancestry.co.uk/search/collections/1778/records/1179664 Ancestry, Australia, Birth Index, 1788–1922: Patrick Glasgow, Abt 1847]\n",
+      "research_subject_url": "/people/ancestry-glasgow-e6-patrick-1847.html",
+      "assessment": "Record-defined child; no adult identity selected.",
+      "current_conclusion": "Identity held pending a fuller record.",
+      "current_questions": [
+        "Can the registration references be reconciled to one civil entry?"
+      ],
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Four companion rows share approximate year, place and parents; consolidated.",
+        "candidates": []
+      },
+      "historical_basis": {
+        "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113262",
+        "basis_kind": "record",
+        "explanation": "The birth index gives an approximate year in the 1840s."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Patrick Glasgow, Abt 1847",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113262",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1847",
+          "filter_year": 1847,
+          "record_location": "Melbourne, Victoria",
+          "region": "Australia",
+          "association": "Patrick Glasgow — Australian birth index",
+          "note": "The index names Patrick Glasgow, born Abt 1847 in Melbourne, Victoria. Father: Thomas Glasgow. Mother: Mary Foley. Registration Number: 2193. The entries share the approximate birth year, place and parents. Two registration references occur; these are not independent identifications.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Patrick Glasgow, Abt 1847",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113263",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1847",
+          "filter_year": 1847,
+          "record_location": "Melbourne, Victoria",
+          "region": "Australia",
+          "association": "Patrick Glasgow — Australian birth index",
+          "note": "The index names Patrick Glasgow, born Abt 1847 in Melbourne, Victoria. Father: Thomas Glasgow. Mother: Mary Foley. Registration Number: 39823. The entries share the approximate birth year, place and parents. Two registration references occur; these are not independent identifications.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Patrick Glasgow, Abt 1847",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179663",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1847",
+          "filter_year": 1847,
+          "record_location": "Melbourne, Victoria",
+          "region": "Australia",
+          "association": "Patrick Glasgow — Australian birth index",
+          "note": "The index names Patrick Glasgow, born Abt 1847 in Melbourne, Victoria. Father: Thomas Glasgow. Mother: Mary Foley. Registration Number: 2193. The entries share the approximate birth year, place and parents. Two registration references occur; these are not independent identifications.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Patrick Glasgow, Abt 1847",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179664",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1847",
+          "filter_year": 1847,
+          "record_location": "Melbourne, Victoria",
+          "region": "Australia",
+          "association": "Patrick Glasgow — Australian birth index",
+          "note": "The index names Patrick Glasgow, born Abt 1847 in Melbourne, Victoria. Father: Thomas Glasgow. Mother: Mary Foley. Registration Number: 39823. The entries share the approximate birth year, place and parents. Two registration references occur; these are not independent identifications.",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e6-elizabeth-bright-1848",
+      "subject_id": "ancestry-glasgow-e6-elizabeth-bright-1848",
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "",
+      "birth": "c. 1848",
+      "birth_note": "Approximate year in the birth index.",
+      "birth_location": "Bright, Victoria, Australia",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112799",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-e6-australia-holds.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Australian birth index lists Elizabeth Glasgow, born about 1848 at Bright, Victoria, daughter of Thomas Glasgow and Mary Glasgow.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1112799 Ancestry birth index, Elizabeth Glasgow, Bright, about 1848]</ref>\n\n== Research Notes ==\nIdentity hold. Registration 3433/Bright is kept separate from registration 42378/Brighton, whose mother is Mary Foley.\n\n== Sources ==\n<references />\n* [https://www.ancestry.co.uk/search/collections/1778/records/1179200 Ancestry, Australia, Birth Index, 1788–1922: Elizabeth Glasgow, Abt 1848]\n",
+      "research_subject_url": "/people/ancestry-glasgow-e6-elizabeth-bright-1848.html",
+      "assessment": "Record-defined child; Bright registration kept distinct.",
+      "current_conclusion": "Identity held; incompatible Bright/Brighton records are not merged.",
+      "current_questions": [
+        "Does the civil register clarify the Bright place and Mary Glasgow entry?"
+      ],
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "record-ancestry-glasgow-e6-elizabeth-brighton-1848",
+          "name": "Elizabeth Glasgow",
+          "assessment": "possible same child",
+          "evidence": "The year and father agree; the birthplace and registration references differ."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Rows 1112799 and 1179200 repeat registration 3433; distinct from Brighton registration 42378.",
+        "candidates": []
+      },
+      "historical_basis": {
+        "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112799",
+        "basis_kind": "record",
+        "explanation": "The birth index gives an approximate year in the 1840s."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Elizabeth Glasgow, Abt 1848",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112799",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1848",
+          "filter_year": 1848,
+          "record_location": "Bright, Victoria",
+          "region": "Australia",
+          "association": "Elizabeth Glasgow — Australian birth index",
+          "note": "The index names Elizabeth Glasgow, born Abt 1848 in Bright, Victoria. Father: Thomas Glasgow. Mother: Mary Glasgow. Registration Number: 3433. Both entries cite registration 3433 and give Bright as the birthplace. The same-named child in index registration 42378 has a Brighton place reading. The two registrations remain distinct.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Elizabeth Glasgow, Abt 1848",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179200",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1848",
+          "filter_year": 1848,
+          "record_location": "Bright, Victoria",
+          "region": "Australia",
+          "association": "Elizabeth Glasgow — Australian birth index",
+          "note": "The index names Elizabeth Glasgow, born Abt 1848 in Bright, Victoria. Father: Thomas Glasgow. Mother: Mary Glasgow. Registration Number: 3433. Both entries cite registration 3433 and give Bright as the birthplace. The same-named child in index registration 42378 has a Brighton place reading. The two registrations remain distinct.",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e6-elizabeth-brighton-1848",
+      "subject_id": "ancestry-glasgow-e6-elizabeth-brighton-1848",
+      "name": "Elizabeth Glasgow",
+      "first_names": [
+        "Elizabeth"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "",
+      "birth": "c. 1848",
+      "birth_note": "Approximate year in the birth index.",
+      "birth_location": "Brighton, Victoria, Australia",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112800",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-e6-australia-holds.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Australian birth index lists Elizabeth Glasgow, born about 1848 at Brighton, Victoria, daughter of Thomas Glasgow and Mary Foley.<ref>[https://www.ancestry.co.uk/search/collections/1778/records/1112800 Ancestry birth index, Elizabeth Glasgow, Brighton, about 1848]</ref>\n\n== Research Notes ==\nIdentity hold. Registration 42378/Brighton is kept separate from registration 3433/Bright, whose mother is Mary Glasgow.\n\n== Sources ==\n<references />\n* [https://www.ancestry.co.uk/search/collections/1778/records/1179201 Ancestry, Australia, Birth Index, 1788–1922: Elizabeth Glasgow, Abt 1848]\n",
+      "research_subject_url": "/people/ancestry-glasgow-e6-elizabeth-brighton-1848.html",
+      "assessment": "Record-defined child; Brighton registration kept distinct.",
+      "current_conclusion": "Identity held; incompatible Bright/Brighton records are not merged.",
+      "current_questions": [
+        "Does the civil register clarify the Brighton entry and Mary Foley parentage?"
+      ],
+      "reviewed_at": "2026-11-05",
+      "candidates": [
+        {
+          "profile_id": "record-ancestry-glasgow-e6-elizabeth-bright-1848",
+          "name": "Elizabeth Glasgow",
+          "assessment": "possible same child",
+          "evidence": "The year and father agree; the birthplace and registration references differ."
+        }
+      ],
+      "duplicate_audit": {
+        "scope": "Rows 1112800 and 1179201 repeat registration 42378; distinct from Bright registration 3433.",
+        "candidates": []
+      },
+      "historical_basis": {
+        "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112800",
+        "basis_kind": "record",
+        "explanation": "The birth index gives an approximate year in the 1840s."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Elizabeth Glasgow, Abt 1848",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1112800",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1848",
+          "filter_year": 1848,
+          "record_location": "Brighton, Victoria",
+          "region": "Australia",
+          "association": "Elizabeth Glasgow — Australian birth index",
+          "note": "The index names Elizabeth Glasgow, born Abt 1848 in Brighton, Victoria. Father: Thomas Glasgow. Mother: Mary Foley. Registration Number: 42378. Both entries cite registration 42378 and give Brighton as the birthplace. The same-named child in index registration 3433 has a Bright place reading. The two registrations remain distinct.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Elizabeth Glasgow, Abt 1848",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179201",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry birth index",
+          "year": "1848",
+          "filter_year": 1848,
+          "record_location": "Brighton, Victoria",
+          "region": "Australia",
+          "association": "Elizabeth Glasgow — Australian birth index",
+          "note": "The index names Elizabeth Glasgow, born Abt 1848 in Brighton, Victoria. Father: Thomas Glasgow. Mother: Mary Foley. Registration Number: 42378. Both entries cite registration 42378 and give Brighton as the birthplace. The same-named child in index registration 3433 has a Bright place reading. The two registrations remain distinct.",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e6-thomas-1846",
+      "subject_id": "ancestry-glasgow-e6-thomas-1846",
+      "name": "Thomas Glasgow",
+      "first_names": [
+        "Thomas"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "",
+      "birth": "",
+      "birth_note": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179891",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-e6-australia-holds.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Australian marriage index lists Thomas Glasgow and Mary Foley in Victoria in 1846.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/4179891 Ancestry marriage index, Thomas Glasgow and Mary Foley, 1846]</ref><ref>[https://www.ancestry.co.uk/search/collections/1780/records/4179892 Companion index entry]</ref>\n\n== Research Notes ==\nIdentity hold. Registrations 335 and 40053 may index one marriage; no adult catalogue identity is selected.\n\n== Sources ==\n<references />\n",
+      "research_subject_url": "/people/ancestry-glasgow-e6-thomas-1846.html",
+      "assessment": "Record-defined marriage party; no adult identity selected.",
+      "current_conclusion": "Identity held pending civil record review.",
+      "current_questions": [
+        "Do registrations 335 and 40053 represent one event, and what are the parties’ residences/ages?"
+      ],
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Two rows name the same couple and year with differing registration references; consolidated as one documentary marriage subject.",
+        "candidates": []
+      },
+      "historical_basis": {
+        "latest_birth_year": 1846,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179891",
+        "basis_kind": "record",
+        "explanation": "Named in the historical marriage index."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Thomas Glasgow, 1846",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179891",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry marriage index",
+          "year": "1846",
+          "filter_year": 1846,
+          "record_location": "Victoria",
+          "region": "Australia",
+          "association": "Thomas Glasgow — Australian marriage index",
+          "note": "The index lists Thomas Glasgow and Mary Foley under marriage in 1846 at Victoria. Registration Number: 335. The year and couple agree. The registration numbers differ; the entries may refer to one event.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Thomas Glasgow, 1846",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179892",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry marriage index",
+          "year": "1846",
+          "filter_year": 1846,
+          "record_location": "Victoria",
+          "region": "Australia",
+          "association": "Thomas Glasgow — Australian marriage index",
+          "note": "The index lists Thomas Glasgow and Mary Foley under marriage in 1846 at Victoria. Registration Number: 40053. The year and couple agree. The registration numbers differ; the entries may refer to one event.",
+          "evidence": "Provider index transcript"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-e6-mary-hary-1841",
+      "subject_id": "ancestry-glasgow-e6-mary-hary-1841",
+      "name": "Mary Glasgow",
+      "first_names": [
+        "Mary"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "",
+      "birth": "",
+      "birth_note": "Indexed name variants retained",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179887",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/reviewed-e6-australia-holds.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe Australian marriage index lists Mary/Hary Glasgow with John McNamara/Macnamara in Victoria in 1841.<ref>[https://www.ancestry.co.uk/search/collections/1780/records/4179887 Ancestry marriage index, Mary Glasgow and John McNamara, 1841]</ref><ref>[https://www.ancestry.co.uk/search/collections/1780/records/4179888 Companion Hary/Macnamara entry]</ref>\n\n== Research Notes ==\nIdentity hold. Mary/Hary and McNamara/Macnamara are preserved as indexed variants; records sharing registration 59 may be one event. No adult catalogue identity is selected.\n\n== Sources ==\n<references />\n* [https://www.ancestry.co.uk/search/collections/1780/records/4230215 Ancestry, Australia, Marriage Index, 1788–1950: Mary Glasgow, 1841]\n",
+      "research_subject_url": "/people/ancestry-glasgow-e6-mary-hary-1841.html",
+      "assessment": "Record-defined marriage party with unresolved indexed spelling variants.",
+      "current_conclusion": "Identity held pending civil register review; do not normalize Mary to Hary.",
+      "current_questions": [
+        "Are registration 59 and 35226a one event, and what exact names appear in the register?"
+      ],
+      "reviewed_at": "2026-11-05",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Three companion rows preserve Mary/Hary and McNamara/Macnamara variants; consolidated as one held marriage subject.",
+        "candidates": []
+      },
+      "historical_basis": {
+        "latest_birth_year": 1841,
+        "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179887",
+        "basis_kind": "record",
+        "explanation": "Named in the historical marriage index."
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Mary Glasgow, 1841",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179887",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry marriage index",
+          "year": "1841",
+          "filter_year": 1841,
+          "record_location": "Victoria",
+          "region": "Australia",
+          "association": "Mary Glasgow — Australian marriage index",
+          "note": "The index lists Mary Glasgow and John McNamara under marriage in 1841 at Victoria. Registration Number: 35226a. The index gives Mary and Hary as variants. Two entries share registration 59; the entry numbered 35226a may also refer to this couple.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Hary Glasgow, 1841",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179888",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry marriage index",
+          "year": "1841",
+          "filter_year": 1841,
+          "record_location": "Victoria",
+          "region": "Australia",
+          "association": "Hary Glasgow — Australian marriage index",
+          "note": "The index lists Hary Glasgow and John Macnamara under marriage in 1841 at Victoria. Registration Number: 59. The index gives Mary and Hary as variants. Two entries share registration 59; the entry numbered 35226a may also refer to this couple.",
+          "evidence": "Provider index transcript"
+        },
+        {
+          "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Mary Glasgow, 1841",
+          "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4230215",
+          "source_type": "Provider index transcript",
+          "source_status": "Ancestry marriage index",
+          "year": "1841",
+          "filter_year": 1841,
+          "record_location": "Victoria",
+          "region": "Australia",
+          "association": "Mary Glasgow — Australian marriage index",
+          "note": "The index lists Mary Glasgow and John Macnamara under marriage in 1841 at Victoria. Registration Number: 59. The index gives Mary and Hary as variants. Two entries share registration 59; the entry numbered 35226a may also refer to this couple.",
+          "evidence": "Provider index transcript"
+        }
+      ]
     }
   ]
 }
