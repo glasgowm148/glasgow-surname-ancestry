@@ -413896,5 +413896,847 @@
       "ancestry-60144-231057",
       "ancestry-60144-2415605"
     ]
+  },
+  {
+    "record_id": "ancestry-1778-1113265",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/1113265",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "Phillip Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113265",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Phillip Glasgow, record 1778/1113265",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Phillip Glasgow",
+      "Birth Date": "Abt 1861",
+      "Birth Place": "Ballarat East, Victoria",
+      "Registration Year": "1861",
+      "Registration Place": "Victoria, Australia",
+      "Father": "Thomas Glasgow",
+      "Mother": "Mary Foley",
+      "Registration Number": "19877"
+    },
+    "event_role": "indexed principal",
+    "association": "Phillip Glasgow — birth index",
+    "status": "Documentary source; identity held",
+    "date": "1861",
+    "year": 1861,
+    "place": "Ballarat East, Victoria",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-phillip-ballarat-east-1861": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index records Phillip Glasgow, born about 1861 at Ballarat East, Victoria, to Thomas Glasgow and Mary Foley. Both entries cite registration 19877.",
+    "provenance": "Ancestry, Australia, Birth Index, 1788–1922.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-1179666",
+      "ancestry-1780-4179891"
+    ]
+  },
+  {
+    "record_id": "ancestry-1778-1113270",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/1113270",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1113270",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: William Glasgow, record 1778/1113270",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Birth Date": "Abt 1858",
+      "Birth Place": "Purnim, Victoria",
+      "Registration Year": "1858",
+      "Registration Place": "Victoria, Australia",
+      "Father": "Robert Glasgow",
+      "Mother": "Ann McKinstry",
+      "Registration Number": "18036"
+    },
+    "event_role": "indexed principal",
+    "association": "William Glasgow — birth index",
+    "status": "Probable catalogue identities",
+    "date": "1858",
+    "year": 1858,
+    "place": "Purnim, Victoria",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2144": {
+        "role": "Probable child; Purnim, 1858 and both parents agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-1656": {
+        "role": "Probable indexed father; name, spouse and child agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "McKinstry-723": {
+        "role": "Probable indexed mother; name, spouse and child agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The birth index names William Glasgow, born about 1858 at Purnim, Victoria, to Robert Glasgow and Ann McKinstry. Both entries cite registration 18036.",
+    "provenance": "Ancestry, Australia, Birth Index, 1788–1922.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-1179671"
+    ]
+  },
+  {
+    "record_id": "ancestry-1778-1179666",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/1179666",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "Phillip Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179666",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Phillip Glasgow, record 1778/1179666",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Phillip Glasgow",
+      "Birth Date": "Abt 1861",
+      "Birth Place": "Ballarat East, Victoria",
+      "Registration Year": "1861",
+      "Registration Place": "Victoria, Australia",
+      "Father": "Thomas Glasgow",
+      "Mother": "Mary Foley",
+      "Registration Number": "19877"
+    },
+    "event_role": "indexed principal",
+    "association": "Phillip Glasgow — birth index",
+    "status": "Documentary source; identity held",
+    "date": "1861",
+    "year": 1861,
+    "place": "Ballarat East, Victoria",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-phillip-ballarat-east-1861": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index records Phillip Glasgow, born about 1861 at Ballarat East, Victoria, to Thomas Glasgow and Mary Foley. Both entries cite registration 19877.",
+    "provenance": "Ancestry, Australia, Birth Index, 1788–1922.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-1113265",
+      "ancestry-1780-4179891"
+    ]
+  },
+  {
+    "record_id": "ancestry-1778-1179671",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/1179671",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "William Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/1179671",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: William Glasgow, record 1778/1179671",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "William Glasgow",
+      "Birth Date": "Abt 1858",
+      "Birth Place": "Purnim, Victoria",
+      "Registration Year": "1858",
+      "Registration Place": "Victoria, Australia",
+      "Father": "Robert Glasgow",
+      "Mother": "Ann McKinstry",
+      "Registration Number": "18036"
+    },
+    "event_role": "indexed principal",
+    "association": "William Glasgow — birth index",
+    "status": "Probable catalogue identities",
+    "date": "1858",
+    "year": 1858,
+    "place": "Purnim, Victoria",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-2144": {
+        "role": "Probable child; same registration and both parents agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Glasgow-1656": {
+        "role": "Probable indexed father; name, spouse and child agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "McKinstry-723": {
+        "role": "Probable indexed mother; name, spouse and child agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The birth index names William Glasgow, born about 1858 at Purnim, Victoria, to Robert Glasgow and Ann McKinstry. Both entries cite registration 18036.",
+    "provenance": "Ancestry, Australia, Birth Index, 1788–1922.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-1113270"
+    ]
+  },
+  {
+    "record_id": "ancestry-1778-2568250",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/2568250",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "Charles H Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568250",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Charles H Glasgow, record 1778/2568250",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Charles H Glasgow",
+      "Birth Date": "1862",
+      "Birth Place": "New South Wales",
+      "Registration Year": "1862",
+      "Registration Place": "Tabulam, New South Wales, Australia",
+      "Father": "John E Glasgow",
+      "Mother": "Mary A Glasgow",
+      "Registration Number": "13194"
+    },
+    "event_role": "indexed principal",
+    "association": "Charles H Glasgow — birth index",
+    "status": "Documentary source; identity held",
+    "date": "1862",
+    "year": 1862,
+    "place": "New South Wales",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-charles-h-tabulam-1862": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names Charles H Glasgow, born in New South Wales in 1862, with John E Glasgow and Mary A Glasgow as parents. Tabulam is the registration place. The parents’ indexed names and registration district agree with the 1861 George E entry.",
+    "provenance": "Ancestry, Australia, Birth Index, 1788–1922.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1778-2568697"
+    ]
+  },
+  {
+    "record_id": "ancestry-1778-2568708",
+    "provider": "Ancestry",
+    "provider_record_id": "1778/2568708",
+    "collection": "Australia, Birth Index, 1788–1922",
+    "person": "Lydia Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1778/records/2568708",
+    "source_title": "Ancestry, Australia, Birth Index, 1788–1922: Lydia Glasgow, record 1778/2568708",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Lydia Glasgow",
+      "Birth Date": "1860",
+      "Birth Place": "New South Wales",
+      "Registration Year": "1860",
+      "Registration Place": "Glebe, New South Wales, Australia",
+      "Father": "Charles Glasgow",
+      "Mother": "Eliza Glasgow",
+      "Registration Number": "2535"
+    },
+    "event_role": "indexed principal",
+    "association": "Lydia Glasgow — birth index",
+    "status": "Documentary source; identity held",
+    "date": "1860",
+    "year": 1860,
+    "place": "New South Wales",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-lydia-glebe-1860": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The birth index names Lydia Glasgow, born in New South Wales in 1860, parents Charles Glasgow and Eliza Glasgow. The birth place field gives New South Wales; Glebe is the registration place.",
+    "provenance": "Ancestry, Australia, Birth Index, 1788–1922.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-1780-1764825",
+    "provider": "Ancestry",
+    "provider_record_id": "1780/1764825",
+    "collection": "Australia, Marriage Index, 1788–1950",
+    "person": "John Bowling Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/1764825",
+    "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: John Bowling Glasgow, record 1780/1764825",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "indexed_facts": {
+      "Name": "John Bowling Glasgow",
+      "Marriage Date": "1873",
+      "Marriage Place": "Sydney, New South Wales",
+      "Registration Date": "1873",
+      "Registration Place": "Sydney, New South Wales, Australia",
+      "Spouse": "Elizth Jane Macgregor",
+      "Registration Number": "374"
+    },
+    "event_role": "indexed principal",
+    "association": "John Bowling Glasgow — marriage index",
+    "status": "Documentary source; identity held",
+    "date": "1873",
+    "year": 1873,
+    "place": "Sydney, New South Wales",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-john-bowling-sydney-1873": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names John Bowling Glasgow and Elizth Jane Macgregor marrying at Sydney in 1873, registration 374. This groom cannot be the John Bowling Glasgow whose catalogue dossier records death in 1852.",
+    "provenance": "Ancestry, Australia, Marriage Index, 1788–1950.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-1780-4179682",
+    "provider": "Ancestry",
+    "provider_record_id": "1780/4179682",
+    "collection": "Australia, Marriage Index, 1788–1950",
+    "person": "Bridget Ellen Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/4179682",
+    "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Bridget Ellen Glasgow, record 1780/4179682",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "indexed_facts": {
+      "Name": "Bridget Ellen Glasgow",
+      "Marriage Date": "1870",
+      "Marriage Place": "Victoria",
+      "Registration Date": "1870",
+      "Registration Place": "Victoria, Australia",
+      "Spouse": "John Walsh",
+      "Registration Number": "463"
+    },
+    "event_role": "indexed principal",
+    "association": "Bridget Ellen Glasgow — marriage index",
+    "status": "Documentary source; identity held",
+    "date": "1870",
+    "year": 1870,
+    "place": "Victoria",
+    "country": "Australia",
+    "profiles": {
+      "record-ancestry-glasgow-bridget-ellen-walsh-1870": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index names Bridget Ellen Glasgow and John Walsh marrying in Victoria in 1870, registration 463. It does not give her parents or establish identity with the Bridget born about 1851.",
+    "provenance": "Ancestry, Australia, Marriage Index, 1788–1950.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-1780-5314466",
+    "provider": "Ancestry",
+    "provider_record_id": "1780/5314466",
+    "collection": "Australia, Marriage Index, 1788–1950",
+    "person": "Jemima Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/5314466",
+    "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Jemima Glasgow, record 1780/5314466",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "indexed_facts": {
+      "Name": "Jemima Glasgow",
+      "Marriage Date": "1 Jan 1869",
+      "Marriage Place": "Res of Minister Norwood, South Australia",
+      "Registration Place": "Adelaide, South Australia, Australia",
+      "Spouse": "Daniel Harrison",
+      "Father": "James Glasgow",
+      "Page number": "3",
+      "Volume Number": "78"
+    },
+    "event_role": "indexed principal",
+    "association": "Jemima Glasgow — marriage index",
+    "status": "Probable catalogue identities",
+    "date": "1 Jan 1869",
+    "year": 1869,
+    "place": "Res of Minister Norwood, South Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-1214": {
+        "role": "Probable bride; name and spouse agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Harrison-18777": {
+        "role": "Probable groom; exact couple agrees",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index lists Jemima Glasgow and Daniel Harrison marrying 1 January 1869 at the minister’s residence, Norwood, South Australia. It names James Glasgow as her father. The two entries share volume 78, page 3.",
+    "provenance": "Ancestry, Australia, Marriage Index, 1788–1950.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1780-95292601"
+    ]
+  },
+  {
+    "record_id": "ancestry-1780-95292601",
+    "provider": "Ancestry",
+    "provider_record_id": "1780/95292601",
+    "collection": "Australia, Marriage Index, 1788–1950",
+    "person": "Jemima Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/1780/records/95292601",
+    "source_title": "Ancestry, Australia, Marriage Index, 1788–1950: Jemima Glasgow, record 1780/95292601",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index",
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "indexed_facts": {
+      "Name": "Jemima Glasgow",
+      "Marriage Date": "1 Jan 1869",
+      "Marriage Place": "Res of Minister Norwood, South Australia",
+      "Registration Place": "Adelaide, South Australia, Australia",
+      "Spouse": "Daniel Harrison",
+      "Father": "James Glasgow",
+      "Page number": "3",
+      "Volume Number": "78"
+    },
+    "event_role": "indexed principal",
+    "association": "Jemima Glasgow — marriage index",
+    "status": "Probable catalogue identities",
+    "date": "1 Jan 1869",
+    "year": 1869,
+    "place": "Res of Minister Norwood, South Australia",
+    "country": "Australia",
+    "profiles": {
+      "Glasgow-1214": {
+        "role": "Probable bride; name and spouse agree",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      },
+      "Harrison-18777": {
+        "role": "Probable groom; exact couple agrees",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index lists Jemima Glasgow and Daniel Harrison marrying 1 January 1869 at the minister’s residence, Norwood, South Australia. It names James Glasgow as her father. The two entries share volume 78, page 3.",
+    "provenance": "Ancestry, Australia, Marriage Index, 1788–1950.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "related_evidence_ids": [
+      "ancestry-1780-5314466"
+    ]
+  },
+  {
+    "record_id": "ancestry-2193-242877",
+    "provider": "Ancestry",
+    "provider_record_id": "2193/242877",
+    "collection": "Belfast, Northern Ireland, The Belfast Newsletter, 1738–1925",
+    "person": "Jane Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/242877",
+    "source_title": "Ancestry, Belfast, Northern Ireland, The Belfast Newsletter, 1738–1925: Jane Glasgow, record 2193/242877",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry newspaper index",
+    "record_type": "Newspaper index",
+    "record_category": "Newspapers",
+    "indexed_facts": {
+      "Name": "Jane Glasgow",
+      "Residence Age": "90",
+      "Record Type": "Residence",
+      "Birth Date": "abt 1835",
+      "Residence Date": "17 Jun 1925",
+      "Residence Place": "Springhill, Killyeurragh, Cookstown",
+      "Publication Date": "19 Jan 1924"
+    },
+    "event_role": "indexed principal",
+    "association": "Jane Glasgow — newspaper index",
+    "status": "Documentary source; identity held",
+    "date": "Undated",
+    "year": null,
+    "place": "Springhill, Killyeurragh, Cookstown",
+    "country": "Ireland",
+    "profiles": {},
+    "note": "The index lists Jane Glasgow, age 90, at Springhill, Killyeurragh, Cookstown. It gives 19 January 1924 as publication date and 17 June 1925 as residence date. The difference leaves the event date unresolved.",
+    "provenance": "Ancestry, Belfast, Northern Ireland, The Belfast Newsletter, 1738–1925.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1836,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/242877",
+      "reason": "The index gives an age or approximate birth year for the named principal."
+    },
+    "date_status": "undated"
+  },
+  {
+    "record_id": "ancestry-2352-35945060",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/35945060",
+    "collection": "1911 England Census",
+    "person": "Isabella Edgar",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35945060",
+    "source_title": "Ancestry, 1911 England Census: Isabella Edgar, record 2352/35945060",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Isabella Edgar",
+      "Age in 1911": "42",
+      "Estimated Birth Year": "abt 1869",
+      "Relation to Head": "Wife",
+      "Gender": "Female",
+      "Birth Place": "County Tyrone, Ireland",
+      "Civil parish": "Medomsley",
+      "County/Island": "Durham",
+      "Country": "England",
+      "Street Address": "8 Derwent Cottage Medomsley Co Durham",
+      "Marital Status": "Married",
+      "Registration District Number": "550",
+      "Sub-registration district": "Consett",
+      "ED, institution, or vessel": "03",
+      "Piece": "29880",
+      "Alternate indexed names": "Isabella Glasgow"
+    },
+    "event_role": "indexed principal",
+    "association": "Isabella Edgar — census index",
+    "status": "Documentary source; identity held",
+    "date": "1911",
+    "year": 1911,
+    "place": "8 Derwent Cottage Medomsley Co Durham, Durham",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-isabella-edgar-medomsley-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Isabella Edgar, alternate Isabella Glasgow, was 42, born in County Tyrone and listed as wife in John Edgar’s household at 8 Derwent Cottage, Medomsley. The name variant does not establish a birth surname.",
+    "provenance": "Ancestry, 1911 England Census.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1870,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/35945060",
+      "reason": "The index gives an age or approximate birth year for the named principal."
+    }
+  },
+  {
+    "record_id": "ancestry-2352-40571229",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/40571229",
+    "collection": "1911 England Census",
+    "person": "Jessie Newson",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40571229",
+    "source_title": "Ancestry, 1911 England Census: Jessie Newson, record 2352/40571229",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Jessie Newson",
+      "Age in 1911": "39",
+      "Estimated Birth Year": "abt 1872",
+      "Relation to Head": "Daughter",
+      "Gender": "Female",
+      "Birth Place": "Chesham, Buckinghamshire, England",
+      "Civil parish": "Chesham",
+      "County/Island": "Buckinghamshire",
+      "Country": "England",
+      "Street Address": "108 Broad Street, Chesham, Bucks, Bucks",
+      "Marital Status": "Widow",
+      "Occupation": "Nurse",
+      "Registration District Number": "143",
+      "Sub-registration district": "Chesham",
+      "ED, institution, or vessel": "04",
+      "Piece": "7791",
+      "Alternate indexed names": "Jessie Glasgow"
+    },
+    "event_role": "indexed principal",
+    "association": "Jessie Newson — census index",
+    "status": "Documentary source; identity held",
+    "date": "1911",
+    "year": 1911,
+    "place": "108 Broad Street, Chesham, Bucks, Bucks, Buckinghamshire",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-jessie-newson-chesham-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "Jessie Newson, alternate Jessie Glasgow, was a widowed nurse, age 39, born at Chesham. She was listed as daughter in the household headed by Thomas Glasgow at 108 Broad Street, Chesham.",
+    "provenance": "Ancestry, 1911 England Census.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1873,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40571229",
+      "reason": "The index gives an age or approximate birth year for the named principal."
+    }
+  },
+  {
+    "record_id": "ancestry-2352-40574992",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/40574992",
+    "collection": "1911 England Census",
+    "person": "Joseph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40574992",
+    "source_title": "Ancestry, 1911 England Census: Joseph Glasgow, record 2352/40574992",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Joseph Slasgow",
+      "Age in 1911": "42",
+      "Estimated Birth Year": "abt 1869",
+      "Relation to Head": "Son in law (Son-in-law)",
+      "Gender": "Male",
+      "Birth Place": "Chesham, Buckinghamshire, England",
+      "Civil parish": "Chesham",
+      "County/Island": "Buckinghamshire",
+      "Country": "England",
+      "Street Address": "4 Vale Road, Chesham, Bucks",
+      "Marital Status": "Married",
+      "Occupation": "Shoe Maker",
+      "Registration District Number": "143",
+      "Sub-registration district": "Chesham",
+      "ED, institution, or vessel": "07",
+      "Piece": "7794",
+      "Alternate indexed names": "Joseph Glasgow"
+    },
+    "event_role": "indexed principal",
+    "association": "Joseph Glasgow — census index",
+    "status": "Documentary source; identity held",
+    "date": "1911",
+    "year": 1911,
+    "place": "4 Vale Road, Chesham, Bucks, Buckinghamshire",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-joseph-chesham-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives Joseph Slasgow with alternate Joseph Glasgow. A shoemaker born at Chesham, he was 42 and listed as son-in-law in Sarah Aitken’s household at 4 Vale Road, Chesham.",
+    "provenance": "Ancestry, 1911 England Census.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1870,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40574992",
+      "reason": "The index gives an age or approximate birth year for the named principal."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-40574993"
+    ]
+  },
+  {
+    "record_id": "ancestry-2352-40574993",
+    "provider": "Ancestry",
+    "provider_record_id": "2352/40574993",
+    "collection": "1911 England Census",
+    "person": "Emma Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40574993",
+    "source_title": "Ancestry, 1911 England Census: Emma Glasgow, record 2352/40574993",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry census index",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "indexed_facts": {
+      "Name": "Emma Slasgow",
+      "Age in 1911": "41",
+      "Estimated Birth Year": "abt 1870",
+      "Relation to Head": "Daughter",
+      "Gender": "Female",
+      "Birth Place": "Amersham, Buckinghamshire, England",
+      "Civil parish": "Chesham",
+      "County/Island": "Buckinghamshire",
+      "Country": "England",
+      "Street Address": "4 Vale Road, Chesham, Bucks",
+      "Marital Status": "Married",
+      "Years Married": "8",
+      "Estimated Marriage Year": "1903",
+      "Registration District Number": "143",
+      "Sub-registration district": "Chesham",
+      "ED, institution, or vessel": "07",
+      "Piece": "7794",
+      "Alternate indexed names": "Emma Glasgow"
+    },
+    "event_role": "indexed principal",
+    "association": "Emma Glasgow — census index",
+    "status": "Documentary source; identity held",
+    "date": "1911",
+    "year": 1911,
+    "place": "4 Vale Road, Chesham, Bucks, Buckinghamshire",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-emma-chesham-1911": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives Emma Slasgow with alternate Emma Glasgow and Emma Aitken. Born at Amersham, she was 41 and listed as daughter in Sarah Aitken’s household at 4 Vale Road, Chesham.",
+    "provenance": "Ancestry, 1911 England Census.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1871,
+      "source_url": "https://www.ancestry.co.uk/search/collections/2352/records/40574993",
+      "reason": "The index gives an age or approximate birth year for the named principal."
+    },
+    "related_evidence_ids": [
+      "ancestry-2352-40574992"
+    ]
+  },
+  {
+    "record_id": "ancestry-60143-21188049",
+    "provider": "Ancestry",
+    "provider_record_id": "60143/21188049",
+    "collection": "Scotland, Select Births and Baptisms, 1564–1950",
+    "person": "John Glasgow or Scott",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/21188049",
+    "source_title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: John Glasgow or Scott, record 60143/21188049",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry birth index",
+    "record_type": "Birth index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "John Glasgow Or Scott",
+      "Gender": "Male",
+      "Birth Date": "7 Jul 1864",
+      "Birth Place": "Leith,Midlothian,Scotland",
+      "Father": "John Glasgow",
+      "Mother": "Jessie Scott"
+    },
+    "event_role": "indexed principal",
+    "association": "John Glasgow or Scott — birth index",
+    "status": "Documentary source; identity held",
+    "date": "7 Jul 1864",
+    "year": 1864,
+    "place": "Leith,Midlothian,Scotland",
+    "country": "Scotland",
+    "profiles": {
+      "record-ancestry-glasgow-john-glasgow-or-scott-leith-1864": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives John Glasgow or Scott, born 7 July 1864 at Leith, Midlothian, to John Glasgow and Jessie Scott. It does not identify which John Glasgow and Jessie Scott these were.",
+    "provenance": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
+  },
+  {
+    "record_id": "ancestry-9841-67132824",
+    "provider": "Ancestry",
+    "provider_record_id": "9841/67132824",
+    "collection": "England, Select Births and Christenings, 1538–1975",
+    "person": "Ann Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/9841/records/67132824",
+    "source_title": "Ancestry, England, Select Births and Christenings, 1538–1975: Ann Glasgow, record 9841/67132824",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry baptism index",
+    "record_type": "Baptism index",
+    "record_category": "Births and baptisms",
+    "indexed_facts": {
+      "Name": "Ann",
+      "Gender": "Female",
+      "Baptism Date": "17 Feb 1856",
+      "Baptism Place": "All Saints, Newcastle Upon Tyne, Northumberland, England",
+      "Father": "John Glasgow",
+      "Mother": "Mary",
+      "FHL Film Number": "1068964",
+      "Reference ID": "2:1DHKDNX",
+      "Alternate indexed names": "Ann Glasgow"
+    },
+    "event_role": "indexed principal",
+    "association": "Ann Glasgow — baptism index",
+    "status": "Documentary source; identity held",
+    "date": "17 Feb 1856",
+    "year": 1856,
+    "place": "All Saints, Newcastle Upon Tyne, Northumberland, England",
+    "country": "England",
+    "profiles": {
+      "record-ancestry-glasgow-ann-newcastle-1856": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    },
+    "note": "The index gives Ann and alternate Ann Glasgow, baptized 17 February 1856 at All Saints, Newcastle upon Tyne. It names John Glasgow and Mary as parents. It gives no birth date or surname for Mary.",
+    "provenance": "Ancestry, England, Select Births and Christenings, 1538–1975.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true
   }
 ]
