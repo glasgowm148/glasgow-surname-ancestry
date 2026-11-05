@@ -434386,5 +434386,99 @@
     "supporting_source_quality": "derivative",
     "supporting_source_status": "corroborating directory entry",
     "supporting_source_reason": "The 1903 Kelly directory names Mrs Glasgow at 2 Townsend Road, Chesham."
+  },
+  {
+    "record_id": "ancestry-3145-24818046",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/24818046",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Robert Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/24818046",
+    "source_title": "Ancestry, UK, City and County Directories: Robert Glasgow, record 3145/24818046",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index transcript with independent directory corroboration",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Rbt Glasgow",
+      "Publication Year": "1825",
+      "Address": "Mount-grenan",
+      "Residence Place": "Scotland",
+      "Occupation": "Esq. Of"
+    },
+    "event_role": "directory subject",
+    "association": "Robert Glasgow — Pigot directory listing",
+    "date": "1825–1826",
+    "year": null,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1826,
+      "source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+      "reason": "Pigot’s directory is dated 1825–1826; the Ancestry index labels it 1825."
+    },
+    "place": "Mount Grenan, Kilwinning, Ayrshire, Scotland",
+    "country": "Scotland",
+    "status": "Matched existing catalogue person",
+    "note": "Under Kilwinning’s nobility and gentry, Pigot lists Robert Glasgow, Esq., of Mount Grenan. The estate and dates identify Robert Glasgow, who was also recorded at Mount Greenan in 1821.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborating directory entry",
+    "supporting_source_reason": "Under Kilwinning’s nobility and gentry, Pigot lists Robert Glasgow, Esq., of Mount Grenan. The estate and dates identify Robert Glasgow, who was also recorded at Mount Greenan in 1821.",
+    "profiles": {
+      "glasgow-1076": {
+        "role": "Listed subject, Robert Glasgow of Mount Grenan",
+        "assessment": "confirmed",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-3145-24819655",
+    "provider": "Ancestry",
+    "provider_record_id": "3145/24819655",
+    "collection": "UK, City and County Directories, 1766–1946",
+    "person": "Mrs John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/3145/records/24819655",
+    "source_title": "Ancestry, UK, City and County Directories: Mrs John Glasgow, record 3145/24819655",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry directory index transcript with independent directory corroboration",
+    "record_type": "Directory listing",
+    "record_category": "Directories and registers",
+    "indexed_facts": {
+      "Name": "Mrs Glasgow",
+      "Publication Year": "1825",
+      "Address": "John Buchanan street",
+      "Residence Place": "Scotland"
+    },
+    "event_role": "directory subject",
+    "association": "Mrs John Glasgow — Pigot directory listing",
+    "date": "1825–1826",
+    "year": null,
+    "date_status": "undated",
+    "historical_basis": {
+      "latest_event_year": 1826,
+      "source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+      "reason": "Pigot’s directory is dated 1825–1826; the Ancestry index labels it 1825."
+    },
+    "place": "Buchanan Street, Glasgow, Lanarkshire, Scotland",
+    "country": "Scotland",
+    "status": "Corroborated directory entry; identity unassigned",
+    "note": "The Glasgow directory lists Mrs John Glasgow on Buchanan Street. It gives neither her given name nor a street number.",
+    "provenance": "Ancestry, UK, City and County Directories, 1766–1946.",
+    "reviewed_on": "2026-11-05",
+    "publish_to_record_index": true,
+    "supporting_source_title": "Pigot & Co.’s New Commercial Directory of Scotland for 1825–6",
+    "supporting_source_url": "https://archive.org/details/pigotcosnewcomm182526dire",
+    "supporting_source_quality": "derivative",
+    "supporting_source_status": "corroborating directory entry",
+    "supporting_source_reason": "The Glasgow directory lists Mrs John Glasgow on Buchanan Street. It gives neither her given name nor a street number."
   }
 ]
