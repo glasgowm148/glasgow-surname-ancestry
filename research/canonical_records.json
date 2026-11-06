@@ -552322,5 +552322,82 @@
       "source_url": "https://www.ancestry.co.uk/search/collections/7579/records/43463330",
       "reason": "The death index gives birth as abt 1865 and age 93 at registration."
     }
+  },
+  {
+    "record_id": "fs-census-1850-davidson-tn-george-w-glassgow-household",
+    "source_title": "United States, Census, 1850: John N Glassgow in the household of George W Glassgow, Davidson County, Tennessee",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:MCDC-S3R",
+    "date": "1850",
+    "year": 1850,
+    "place": "Davidson, Tennessee, United States",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "association": "Indexed John N Glassgow, born 1840 Tennessee, in the household of George W Glassgow, 39, born Tennessee.",
+    "note": "FamilySearch 1850 census index (NARA M432), household 81, house 73, line 9, Davidson County, Tennessee. Household as indexed: George W Glassgow M39 Tennessee; Elizabeth Glassgow F41 North Carolina; Christiana Glassgow F18 Tennessee; Caroline Glassgow F16 Tennessee; Christiana Shelhorn F73 North Carolina; principal John N Glassgow b.1840 Tennessee. No relationship column in 1850. The indexed birth year 1840 is two years earlier than the tree's 1842 for John Nicholas Glasgow; identification with the tree profile rests on the first initials, the county and the surname variant. Derivative index; original image uninspected by this worker.",
+    "profiles": {
+      "Glasgow-1949": {
+        "role": "Indexed child John N; identification qualified (birth year differs by two years)",
+        "timeline_group": "Childhood household"
+      }
+    },
+    "country": "United States",
+    "source_type": "Inspected derivative index/transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; identity qualified",
+    "reviewed_on": "2026-11-06"
+  },
+  {
+    "record_id": "fs-census-1850-randolph-il-john-glasgow-household",
+    "source_title": "United States, Census, 1850: John A Glasgow in the household of John Glasgow, Randolph County, Illinois",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:M8P1-T9P",
+    "date": "1850",
+    "year": 1850,
+    "place": "Randolph, Randolph, Illinois, United States",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "association": "Indexed John A Glasgow, 3, born Illinois, in the household of John Glasgow, 35, born South Carolina (house 1667, household 1677, line 2).",
+    "note": "FamilySearch 1850 census index (NARA M432), schedule house 1667, household 1677, line 2, Randolph County, Illinois. Household as indexed: John Glasgow M35 South Carolina; Polly Glasgow F26 South Carolina; William H Glasgow M7 Illinois; Mary Ann Glasgow F6 Illinois; John A Glasgow M3 Illinois; Thomas Thompson M22 Illinois. The 1850 census gives no relationship column, so John A's relation to the head is inferred from surname, age and household position. FamilySearch tree person KPS2-RDN (John Alexander Glasgow, 1847-1922) has this record attached. Derivative index; original image uninspected by this worker.",
+    "profiles": {
+      "Glasgow-2662": {
+        "role": "Indexed child John A (age 3); identification with the tree profile qualified",
+        "timeline_group": "Childhood household"
+      }
+    },
+    "country": "United States",
+    "source_type": "Inspected derivative index/transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; identity qualified",
+    "reviewed_on": "2026-11-06"
+  },
+  {
+    "record_id": "fs-census-1850-white-il-lemuel-glasgow-household",
+    "source_title": "United States, Census, 1850: William E Glasgow in the household of Lemuel Glasgow, White County, Illinois",
+    "source_url": "https://www.familysearch.org/ark:/61903/1:1:M85W-WQP",
+    "date": "1850",
+    "year": 1850,
+    "place": "White, Illinois, United States",
+    "record_type": "Census index",
+    "record_category": "Census",
+    "association": "Indexed William E Glasgow, born 1843 Illinois, in the household of Lemuel Glasgow, 36, born Tennessee, with Malinda Glasgow, 2.",
+    "note": "FamilySearch 1850 census index (NARA M432), household 1321, house 1321, line 40, White County, Illinois. Household as indexed: Lemuel Glasgow M36 Tennessee; Polly L Glasgow F30 Massachusetts; James A Glasgow M11 Illinois; Jesse Y W Glasgow M9 Illinois; Frances M Glasgow M5 Illinois; Malinda Glasgow F2 Illinois; principal William E Glasgow b.1843 Illinois. No relationship column in 1850; relationships inferred from surname, ages and household position. The head matches the catalogue Lemuel Glascow (b. 1814 Tennessee, wife Mary L Hobson); the indexed Polly L, born Massachusetts, is assumed to be Mary L Hobson (name and birthplace unverified). Derivative index; original image uninspected by this worker.",
+    "profiles": {
+      "Glasco-103": {
+        "role": "Indexed child William E",
+        "timeline_group": "Childhood household"
+      },
+      "Glasco-102": {
+        "role": "Indexed child Malinda (age 2)",
+        "timeline_group": "Childhood household"
+      },
+      "Glascow-15": {
+        "role": "Indexed head of household",
+        "timeline_group": "Paternal evidence"
+      }
+    },
+    "country": "United States",
+    "source_type": "Inspected derivative index/transcript; original uninspected",
+    "source_quality": "derivative",
+    "status": "Transcript inspected; identity qualified",
+    "reviewed_on": "2026-11-06"
   }
 ]
