@@ -10,6 +10,7 @@ Standalone replay (including Sources collections): --reviewed --apply. Explicit
 from __future__ import annotations
 
 import argparse
+from collections import defaultdict
 from copy import deepcopy
 from datetime import date
 from hashlib import sha256
@@ -282,8 +283,18 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
     destinations = {str(key).casefold(): p for p in public
                     for key in [p['id'], *p.get('profile_ids', [])]}
     full = read(web / 'data/records-index.json')
+    # Index the existing entries once: a full release replays thousands of
+    # reviewed records against this unchanged input before merging any rows.
+    full_by_provider = defaultdict(list)
+    full_by_id = defaultdict(list)
+    for existing in full:
+        full_by_provider[provider_key(existing)].append(existing)
+        full_by_id[existing['record_id']].append(existing)
     compact = read(web / 'assets/research/record-index.json')
     sources = read(web / 'assets/v3/source-index.json')
+    first_source_by_id = {}
+    for source in sources:
+        first_source_by_id.setdefault(source['id'], source)
     # Provider lookup needs every source URL, but keeping every full source
     # document resident makes planning a large corpus unnecessarily costly.
     # Read each document for its URL, retain only lightweight lookup state,
@@ -324,7 +335,7 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
         if entry_key(row) in seen_providers:
             raise ValueError(f'{rid}: duplicate selected provider record')
         seen_providers.add(entry_key(row))
-        previous_rows = same_entry_rows(row, full)
+        previous_rows = same_entry_rows(row, full_by_provider.get(provider, ()))
         if len(previous_rows) > 1:
             raise ValueError(f'{rid}: multiple existing record IDs for this entry; review required')
         if previous_rows:
@@ -332,7 +343,7 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
             if not re.fullmatch(r'[a-zA-Z0-9_-]+', rid):
                 raise ValueError('Unsafe existing record ID')
             if rid != row['record_id']:
-                aliases = [r for r in full if r['record_id'] == row['record_id']]
+                aliases = full_by_id.get(row['record_id'], ())
                 if any(provider_key(r) != provider for r in aliases):
                     raise ValueError('Canonical record alias has a different source URL')
                 record_aliases.add(row['record_id'])
@@ -468,7 +479,7 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
             record['historical_basis'] = deepcopy(row['historical_basis'])
         elif year > 1900:
             record['historical_basis'] = deepcopy(row['historical_basis'])
-        previous = next((r for r in full if r['record_id'] == rid), None)
+        previous = next(iter(full_by_id.get(rid, ())), None)
         if previous and provider_key(previous) != provider:
             raise ValueError(f'{rid}: existing record has a different source URL')
         new_full.append(record)
@@ -534,7 +545,7 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
         has_undated = any(r.get('year') is None for r in doc['records'])
         doc['date_basis'] = ('reviewed record years with undated records' if has_undated and years else
                              'reviewed undated' if has_undated else 'reviewed record year')
-        old = next((r for r in sources if r['id'] == sid), {})
+        old = first_source_by_id.get(sid, {})
         # Preserve maintained bounds for ordinary dated sources. When an
         # undated record is present, only actual record years may bound it.
         bounds = years if has_undated else [*years, *([old['from']] if old.get('from') is not None else []),
