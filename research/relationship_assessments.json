@@ -113651,6 +113651,202 @@
     "display": "current"
   },
   {
+    "assertion_id": "clm-a1-glasgow-3220-father-20261106",
+    "people": [
+      "Glasgow-3220",
+      "record-ancestry-glasgow-f0004f5ceab0"
+    ],
+    "claim": "Abraham Glasgow (buried Birmingham 1818) is the tentative father of Robert Glasgow (Glasgow-3220); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3220": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-f0004f5ceab0": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9840-17545835",
+      "ancestry-9840-10086412"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-f0004f5ceab0",
+        "source_basis": "Before 6 November 2026 this person had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A1 round 2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a1_r2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Robert Glasgow was buried at St Mary's, Birmingham on 6 May 1827 aged 48 (ancestry-9840-10086412; born about 1779) and the only other adult Glasgow man of the previous generation held for Birmingham is Abraham Glasgow, buried at Birmingham on 16 Jul 1818 aged 89 (ancestry-9840-17545835; born about 1729; documentary record-ancestry-glasgow-f0004f5ceab0). Same town, same unusual surname, and an age gap of about 50 years that is possible but long. Offered as a low-probability tentative link only.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow was buried at St Mary's, Birmingham on 6 May 1827 aged 48 (ancestry-9840-10086412; born about 1779) and the only other adult Glasgow man of the previous generation held for Birmingham is Abraham Glasgow, buried at Birmingham on 16 Jul 1818 aged 89 (ancestry-9840-17545835; born about 1729; documentary record-ancestry-glasgow-f0004f5ceab0). Same town, same unusual surname, and an age gap of about 50 years that is possible but long. Offered as a low-probability tentative link only.",
+    "limitations": "Nothing names a relationship between the two men; the 50-year gap would need a late-born son or a second marriage, and Abraham could equally be an uncle or unrelated. Burial indexes give no residence, occupation or parents. The 1783 birth in the tree conflicts with the burial age (about 1779). A younger Abraham of the 1820s-40s is a different man.",
+    "probability": {
+      "value": 0.15,
+      "reviewed": "2026-11-06",
+      "basis": "Robert Glasgow was buried at St Mary's, Birmingham on 6 May 1827 aged 48 (ancestry-9840-10086412; born about 1779) and the only other adult Glasgow man of the previous generation held for Birmingham is Abraham Glasgow, buried at Birmingham on 16 Jul 1818 aged 89 (ancestry-9840-17545835; born about 1729; documentary record-ancestry-glasgow-f0004f5ceab0). Same town, same unusual surname, and an age gap of about 50 years that is possible but long. Offered as a low-probability tentative link only.",
+      "source_ids": [
+        "ancestry-9840-17545835",
+        "ancestry-9840-10086412"
+      ],
+      "scope": "Nothing names a relationship between the two men; the 50-year gap would need a late-born son or a second marriage, and Abraham could equally be an uncle or unrelated. Burial indexes give no residence, occupation or parents. The 1783 birth in the tree conflicts with the burial age (about 1779). A younger Abraham of the 1820s-40s is a different man."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3220.html#research-findings",
+        "label": "Father link review (A1 round 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3220": "Robert Glasgow",
+      "record-ancestry-glasgow-f0004f5ceab0": "Abraham Glasgow (buried Birmingham 1818)"
+    }
+  },
+  {
+    "assertion_id": "clm-a1-glasgow-3484-father-20261106",
+    "people": [
+      "Glasgow-3484",
+      "record-ancestry-glasgow-4e4e93033757"
+    ],
+    "claim": "James Glasgow (groom, Irvine 1728) is the tentative father of James Glasgow (Glasgow-3484); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3484": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-4e4e93033757": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60144-42033",
+      "ancestry-60143-14179874"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-4e4e93033757",
+        "source_basis": "Before 6 November 2026 this person had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A1 round 2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a1_r2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "James Glasgow of Irvine (b. c.1730 in the tree, an age inferred from his being father of Margaret Glasgow, baptised at Irvine 25 Aug 1751 to James Glasgow and Mary Barber: ancestry-60143-14179874) has no baptism in the held indexes. The one Irvine Glasgow marriage of the right date is James Glasgow to Jannet Jamphrey on 30 Aug 1728 (ancestry-60144-42033, documentary groom record-ancestry-glasgow-4e4e93033757); a first son named James would be born about 1729-31, which is what the tree age implies. Of the Irvine fathers with children baptised 1725-1745 (John and Agnes Ferguson; William and Margaret Montford; George and Margaret Martin; James and Rae), only this couple has no child recorded, so a son James is not contradicted. Offered as a low-probability link because the age is inferred and nothing names the child.",
+    "assessment_history": [],
+    "reason": "James Glasgow of Irvine (b. c.1730 in the tree, an age inferred from his being father of Margaret Glasgow, baptised at Irvine 25 Aug 1751 to James Glasgow and Mary Barber: ancestry-60143-14179874) has no baptism in the held indexes. The one Irvine Glasgow marriage of the right date is James Glasgow to Jannet Jamphrey on 30 Aug 1728 (ancestry-60144-42033, documentary groom record-ancestry-glasgow-4e4e93033757); a first son named James would be born about 1729-31, which is what the tree age implies. Of the Irvine fathers with children baptised 1725-1745 (John and Agnes Ferguson; William and Margaret Montford; George and Margaret Martin; James and Rae), only this couple has no child recorded, so a son James is not contradicted. Offered as a low-probability link because the age is inferred and nothing names the child.",
+    "limitations": "No record names James-b.-1730 as a son of anyone. The 1728 groom's children are not in the held index at all, so the link rests on name, parish and date. A second Irvine candidate exists: James Glasgow-4158 (before 1702, wives Margaret and Marion Rae), whose son James Glasgow-4129 was baptised at Irvine in April 1721; Glasgow-3484 may in fact be that James (b. 1721) rather than a man of 1730, in which case the father would be Glasgow-4158 (a duplicate/merge question for the owner). Index transcripts only.",
+    "probability": {
+      "value": 0.17,
+      "reviewed": "2026-11-06",
+      "basis": "James Glasgow of Irvine (b. c.1730 in the tree, an age inferred from his being father of Margaret Glasgow, baptised at Irvine 25 Aug 1751 to James Glasgow and Mary Barber: ancestry-60143-14179874) has no baptism in the held indexes. The one Irvine Glasgow marriage of the right date is James Glasgow to Jannet Jamphrey on 30 Aug 1728 (ancestry-60144-42033, documentary groom record-ancestry-glasgow-4e4e93033757); a first son named James would be born about 1729-31, which is what the tree age implies. Of the Irvine fathers with children baptised 1725-1745 (John and Agnes Ferguson; William and Margaret Montford; George and Margaret Martin; James and Rae), only this couple has no child recorded, so a son James is not contradicted. Offered as a low-probability link because the age is inferred and nothing names the child.",
+      "source_ids": [
+        "ancestry-60144-42033",
+        "ancestry-60143-14179874"
+      ],
+      "scope": "No record names James-b.-1730 as a son of anyone. The 1728 groom's children are not in the held index at all, so the link rests on name, parish and date. A second Irvine candidate exists: James Glasgow-4158 (before 1702, wives Margaret and Marion Rae), whose son James Glasgow-4129 was baptised at Irvine in April 1721; Glasgow-3484 may in fact be that James (b. 1721) rather than a man of 1730, in which case the father would be Glasgow-4158 (a duplicate/merge question for the owner). Index transcripts only."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3484.html#research-findings",
+        "label": "Father link review (A1 round 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3484": "James Glasgow",
+      "record-ancestry-glasgow-4e4e93033757": "James Glasgow (groom, Irvine 1728)"
+    }
+  },
+  {
+    "assertion_id": "clm-a1-glasgow-3647-father-20261106",
+    "people": [
+      "Glasgow-3647",
+      "Glasgow-1124"
+    ],
+    "claim": "William Glasgow is the tentative father of William Glasgow (Glasgow-3647); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3647": {
+        "relationship": "father"
+      },
+      "Glasgow-1124": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-18392837",
+      "ancestry-60143-22717013",
+      "ancestry-62497-519248",
+      "ancestry-60144-138744"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-1124",
+        "source_basis": "Before 6 November 2026 this person had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A1 round 2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a1_r2",
+      "source_newly_discovered": false
+    },
+    "status": "possible",
+    "assessment_date": "2026-11-06",
+    "basis": "The Symington (St John's Kirk) monument erected by James Glasgow of Wiston (ancestry-62497-519248, with the companion entry 62497-519250) commemorates his father William Glasgow, died at Broadlees, Symington, 25 Dec 1873 aged 89, and 'Thomas Glasgow his uncle', died 25 Jul 1866 aged 84, so William (born about 1784) and Thomas (born about 1782) were brothers. The Ancestry baptism index has exactly these two boys at Wandel and Lamington, the parish adjoining Symington: Thomas on 3 Nov 1782 (ancestry-60143-22717013) and William on 19 Sep 1784 (ancestry-60143-18392837), both to a William Glasgow with the mother blank. A William Glasgow married Agnes Fleck at Wandel and Lamington on 6 Apr 1781 (ancestry-60144-138744), and the tree's mother for both brothers is surnamed Affleck, which fits Fleck. This is the same hypothesis already recorded for Thomas Glasgow-3646 (clm-r1-thomas3646-father-20261105, possible 35%: the only catalogue candidate is William Glasgow-1124, baptised at neighbouring Covington in Nov 1747 to George Glasgow-1070 and Agnes Williamson), so William is linked to the same man at the same estimate rather than leaving the brothers split. Round 2 (A1), 6 Nov 2026.",
+    "assessment_history": [],
+    "reason": "The Symington (St John's Kirk) monument erected by James Glasgow of Wiston (ancestry-62497-519248, with the companion entry 62497-519250) commemorates his father William Glasgow, died at Broadlees, Symington, 25 Dec 1873 aged 89, and 'Thomas Glasgow his uncle', died 25 Jul 1866 aged 84, so William (born about 1784) and Thomas (born about 1782) were brothers. The Ancestry baptism index has exactly these two boys at Wandel and Lamington, the parish adjoining Symington: Thomas on 3 Nov 1782 (ancestry-60143-22717013) and William on 19 Sep 1784 (ancestry-60143-18392837), both to a William Glasgow with the mother blank. A William Glasgow married Agnes Fleck at Wandel and Lamington on 6 Apr 1781 (ancestry-60144-138744), and the tree's mother for both brothers is surnamed Affleck, which fits Fleck. This is the same hypothesis already recorded for Thomas Glasgow-3646 (clm-r1-thomas3646-father-20261105, possible 35%: the only catalogue candidate is William Glasgow-1124, baptised at neighbouring Covington in Nov 1747 to George Glasgow-1070 and Agnes Williamson), so William is linked to the same man at the same estimate rather than leaving the brothers split. Round 2 (A1), 6 Nov 2026.",
+    "limitations": "Neither baptism names the mother, so the link between the 1781 marriage and the two boys is by name, place and the Affleck/Fleck surname only. Glasgow-1124 is a candidate from age and neighbourhood, not named by any record as the Wandel William; the Wandel William may be an unrecorded man. The profile's own death (1865, Ayrshire) conflicts with the monument's William (d. 1873 aged 89, Lanarkshire Symington), so the identification of the profile with the monument's William is itself probable rather than proved. Index transcripts only; no register image inspected. If the Thomas estimate moves, this one should move with it.",
+    "probability": {
+      "value": 0.35,
+      "reviewed": "2026-11-06",
+      "basis": "The Symington (St John's Kirk) monument erected by James Glasgow of Wiston (ancestry-62497-519248, with the companion entry 62497-519250) commemorates his father William Glasgow, died at Broadlees, Symington, 25 Dec 1873 aged 89, and 'Thomas Glasgow his uncle', died 25 Jul 1866 aged 84, so William (born about 1784) and Thomas (born about 1782) were brothers. The Ancestry baptism index has exactly these two boys at Wandel and Lamington, the parish adjoining Symington: Thomas on 3 Nov 1782 (ancestry-60143-22717013) and William on 19 Sep 1784 (ancestry-60143-18392837), both to a William Glasgow with the mother blank. A William Glasgow married Agnes Fleck at Wandel and Lamington on 6 Apr 1781 (ancestry-60144-138744), and the tree's mother for both brothers is surnamed Affleck, which fits Fleck. This is the same hypothesis already recorded for Thomas Glasgow-3646 (clm-r1-thomas3646-father-20261105, possible 35%: the only catalogue candidate is William Glasgow-1124, baptised at neighbouring Covington in Nov 1747 to George Glasgow-1070 and Agnes Williamson), so William is linked to the same man at the same estimate rather than leaving the brothers split. Round 2 (A1), 6 Nov 2026.",
+      "source_ids": [
+        "ancestry-60143-18392837",
+        "ancestry-60143-22717013",
+        "ancestry-62497-519248",
+        "ancestry-60144-138744"
+      ],
+      "scope": "Neither baptism names the mother, so the link between the 1781 marriage and the two boys is by name, place and the Affleck/Fleck surname only. Glasgow-1124 is a candidate from age and neighbourhood, not named by any record as the Wandel William; the Wandel William may be an unrecorded man. The profile's own death (1865, Ayrshire) conflicts with the monument's William (d. 1873 aged 89, Lanarkshire Symington), so the identification of the profile with the monument's William is itself probable rather than proved. Index transcripts only; no register image inspected. If the Thomas estimate moves, this one should move with it."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3647.html#research-findings",
+        "label": "Father link review (A1 round 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1124": "William Glasgow",
+      "Glasgow-3647": "William Glasgow"
+    }
+  },
+  {
     "assertion_id": "C-maternal-20261026-robert2356-martha-stepmother",
     "people": [
       "Glasgow-2356",
