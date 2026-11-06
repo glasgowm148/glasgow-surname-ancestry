@@ -436786,11 +436786,23 @@
     "year": 1820,
     "place": "Glasgow, Lanarkshire, Scotland",
     "country": "Scotland",
-    "status": "Reviewed search index; identity unassigned",
-    "note": "The marriage index names John Glasgow and Elizabeth Campbell, 20 Feb 1820, Glasgow, Lanark, Scotland.",
+    "status": "Probable match to existing historical profile",
+    "note": "The marriage index names John Glasgow and Elizabeth Campbell at Glasgow on 20 February 1820. Glasgow birth indexes name the same couple for Mary (1824), Lillias (1828) and Elizabeth (1831). The 1836 baptism cited for Robert names the same parents and supports the probable match to this John. The marriage index gives neither John’s age nor his parents.",
     "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
     "reviewed_on": "2026-11-06",
-    "publish_to_record_index": true
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-2721": {
+        "role": "Probable groom: spouse and parish agree with the records of children attributed to this couple",
+        "assessment": "probable",
+        "timeline_group": "Life events"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60143-13839525",
+      "ancestry-60143-10876862",
+      "ancestry-60143-8036402"
+    ]
   },
   {
     "record_id": "ancestry-60144-577936",
@@ -436821,7 +436833,7 @@
     "year": 1818,
     "place": "Rothesay, Bute, Scotland",
     "country": "Scotland",
-    "status": "Companion marriage index; adult identity unassigned",
+    "status": "Companion index linked to existing held dossier",
     "note": "The marriage index names Margaret Glasgow and James Laurie, 9 Jun 1818, Rothesay, Bute, Scotland, United Kingdom. A companion Rothesay index entry names Margaret Glasgow, James Laurie and her father Andrew Glasgow.",
     "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
     "reviewed_on": "2026-11-06",
@@ -436829,7 +436841,14 @@
     "related_evidence_ids": [
       "ancestry-60144-4132486",
       "ancestry-60144-4132485"
-    ]
+    ],
+    "profiles": {
+      "record-ancestry-glasgow-83ec3fb0383d": {
+        "role": "Documentary subject: same bride, spouse, date and parish as the companion index",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
   },
   {
     "record_id": "ancestry-60143-786819",
