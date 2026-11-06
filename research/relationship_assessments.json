@@ -182746,28 +182746,27 @@
       "review_kind": "father_tentative_link_f1_r3",
       "source_newly_discovered": false
     },
-    "status": "uncertain",
+    "status": "superseded",
     "assessment_date": "2026-11-06",
-    "basis": "Tentative place-and-age inference, not a documented relationship. Charles Glasgow (b. c. 1800, County Kildare, Ireland) is a tree-listed Glasgow man 39 years older than Thomas Glasgow (b. 1839, South Leith, Midlothian, Scotland, United Kingdom) and tied to the same locality (south leith). The catalogue lists no children of his near that date. Nothing found names him as Thomas Glasgow's father or links the two. He ranks first among 13 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2695 Alexander Glasgow (b. c. 1803), Glasgow-1574 Alexander Glasgow (b. 1814-11-13), Glasgow-2699 Alexander Glasgow (b. 1813). The link is meant to be revisited.",
-    "assessment_history": [],
-    "reason": "Tentative place-and-age inference, not a documented relationship. Charles Glasgow (b. c. 1800, County Kildare, Ireland) is a tree-listed Glasgow man 39 years older than Thomas Glasgow (b. 1839, South Leith, Midlothian, Scotland, United Kingdom) and tied to the same locality (south leith). The catalogue lists no children of his near that date. Nothing found names him as Thomas Glasgow's father or links the two. He ranks first among 13 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2695 Alexander Glasgow (b. c. 1803), Glasgow-1574 Alexander Glasgow (b. 1814-11-13), Glasgow-2699 Alexander Glasgow (b. 1813). The link is meant to be revisited.",
+    "basis": "Superseded: the 1855+ civil marriage record names a different father (see clm-f1fs2-glasgow-3842-father-20261106). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. Charles Glasgow (b. c. 1800, County Kildare, Ireland) is a tree-listed Glasgow man 39 years older than Thomas Glasgow (b. 1839, South Leith, Midlothian, Scotland, United Kingdom) and tied to the same locality (south leith). The catalogue lists no children of his near that date. Nothing found names him as Thomas Glasgow's father or links the two. He ranks first among 13 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2695 Alexander Glasgow (b. c. 1803), Glasgow-1574 Alexander Glasgow (b. 1814-11-13), Glasgow-2699 Alexander Glasgow (b. 1813). The link is meant to be revisited.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 12,
+        "assessment_date": "2026-11-06",
+        "source_basis": "Tentative place-and-age inference, not a documented relationship. Charles Glasgow (b. c. 1800, County Kildare, Ireland) is a tree-listed Glasgow man 39 years older than Thomas Glasgow (b. 1839, South Leith, Midlothian, Scotland, United Kingdom) and tied to the same locality (south leith). The catalogue lists no children of his near that date. Nothing found names him as Thomas Glasgow's father or links the two. He ranks first among 13 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2695 Alexander Glasgow (b. c. 1803), Glasgow-1574 Alexander Glasgow (b. 1814-11-13), Glasgow-2699 Alexander Glasgow (b. 1813). The link is meant to be revisited."
+      }
+    ],
+    "reason": "Superseded: the 1855+ civil marriage record names a different father (see clm-f1fs2-glasgow-3842-father-20261106). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. Charles Glasgow (b. c. 1800, County Kildare, Ireland) is a tree-listed Glasgow man 39 years older than Thomas Glasgow (b. 1839, South Leith, Midlothian, Scotland, United Kingdom) and tied to the same locality (south leith). The catalogue lists no children of his near that date. Nothing found names him as Thomas Glasgow's father or links the two. He ranks first among 13 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2695 Alexander Glasgow (b. c. 1803), Glasgow-1574 Alexander Glasgow (b. 1814-11-13), Glasgow-2699 Alexander Glasgow (b. 1813). The link is meant to be revisited.",
     "limitations": "Place-and-age guess only; 12 other catalogue men fit equally or nearly (Glasgow-2695, Glasgow-1574, Glasgow-2699, Glasgow-427, Glasgow-3347). None of the cited canonical records (ancestry-60144-2942605, ancestry-60143-10339542, ancestry-60144-3150245) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked.",
-    "probability": {
-      "value": 0.12,
-      "reviewed": "2026-11-06",
-      "basis": "Tentative place-and-age inference, not a documented relationship. Charles Glasgow (b. c. 1800, County Kildare, Ireland) is a tree-listed Glasgow man 39 years older than Thomas Glasgow (b. 1839, South Leith, Midlothian, Scotland, United Kingdom) and tied to the same locality (south leith). The catalogue lists no children of his near that date. Nothing found names him as Thomas Glasgow's father or links the two. He ranks first among 13 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2695 Alexander Glasgow (b. c. 1803), Glasgow-1574 Alexander Glasgow (b. 1814-11-13), Glasgow-2699 Alexander Glasgow (b. 1813). The link is meant to be revisited.",
-      "source_ids": [
-        "ancestry-60144-2942605",
-        "ancestry-60143-10339542",
-        "ancestry-60144-3150245"
-      ],
-      "scope": "Place-and-age guess only; 12 other catalogue men fit equally or nearly (Glasgow-2695, Glasgow-1574, Glasgow-2699, Glasgow-427, Glasgow-3347). None of the cited canonical records (ancestry-60144-2942605, ancestry-60143-10339542, ancestry-60144-3150245) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked."
-    },
-    "working_selection": true,
+    "probability": null,
+    "working_selection": false,
     "attachment_status": "attached",
-    "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "allow_new_relationship": false,
+    "lifecycle": "superseded",
+    "display": "historical",
+    "hypothesis_status": "superseded",
+    "status_label": "Superseded proposal",
     "analysis_links": [
       {
         "href": "/people/glasgow-3842.html#research-findings",
@@ -182937,27 +182936,27 @@
       "review_kind": "father_tentative_link_f1_r3",
       "source_newly_discovered": false
     },
-    "status": "uncertain",
+    "status": "superseded",
     "assessment_date": "2026-11-06",
-    "basis": "Tentative place-and-age inference, not a documented relationship. Alexander Glasgow (b. c. 1803, Colinton, Midlothian, Scotland, United Kingdom) is a tree-listed Glasgow man 39 years older than Isabella (Glasgow) Brown (b. 1842, Edinburgh, Scotland, United Kingdom) and tied to the same locality (edinburgh). The catalogue lists 4 children of his born within 15 years of Isabella, so he was plausibly heading a household at the right time. Nothing found names him as Isabella's father or links the two. He ranks first among 10 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2723 John Glasgow (b. 1815), Glasgow-1461 Peter Glasgow (b. 1808-03-18), Glasgow-1464 John Glasgow (b. before 1810-04-10). The link is meant to be revisited.",
-    "assessment_history": [],
-    "reason": "Tentative place-and-age inference, not a documented relationship. Alexander Glasgow (b. c. 1803, Colinton, Midlothian, Scotland, United Kingdom) is a tree-listed Glasgow man 39 years older than Isabella (Glasgow) Brown (b. 1842, Edinburgh, Scotland, United Kingdom) and tied to the same locality (edinburgh). The catalogue lists 4 children of his born within 15 years of Isabella, so he was plausibly heading a household at the right time. Nothing found names him as Isabella's father or links the two. He ranks first among 10 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2723 John Glasgow (b. 1815), Glasgow-1461 Peter Glasgow (b. 1808-03-18), Glasgow-1464 John Glasgow (b. before 1810-04-10). The link is meant to be revisited.",
+    "basis": "Superseded: the 1855+ civil marriage record names a different father (see clm-f1fs2-glasgow-3852-father-20261106). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. Alexander Glasgow (b. c. 1803, Colinton, Midlothian, Scotland, United Kingdom) is a tree-listed Glasgow man 39 years older than Isabella (Glasgow) Brown (b. 1842, Edinburgh, Scotland, United Kingdom) and tied to the same locality (edinburgh). The catalogue lists 4 children of his born within 15 years of Isabella, so he was plausibly heading a household at the right time. Nothing found names him as Isabella's father or links the two. He ranks first among 10 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2723 John Glasgow (b. 1815), Glasgow-1461 Peter Glasgow (b. 1808-03-18), Glasgow-1464 John Glasgow (b. before 1810-04-10). The link is meant to be revisited.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 12,
+        "assessment_date": "2026-11-06",
+        "source_basis": "Tentative place-and-age inference, not a documented relationship. Alexander Glasgow (b. c. 1803, Colinton, Midlothian, Scotland, United Kingdom) is a tree-listed Glasgow man 39 years older than Isabella (Glasgow) Brown (b. 1842, Edinburgh, Scotland, United Kingdom) and tied to the same locality (edinburgh). The catalogue lists 4 children of his born within 15 years of Isabella, so he was plausibly heading a household at the right time. Nothing found names him as Isabella's father or links the two. He ranks first among 10 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2723 John Glasgow (b. 1815), Glasgow-1461 Peter Glasgow (b. 1808-03-18), Glasgow-1464 John Glasgow (b. before 1810-04-10). The link is meant to be revisited."
+      }
+    ],
+    "reason": "Superseded: the 1855+ civil marriage record names a different father (see clm-f1fs2-glasgow-3852-father-20261106). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. Alexander Glasgow (b. c. 1803, Colinton, Midlothian, Scotland, United Kingdom) is a tree-listed Glasgow man 39 years older than Isabella (Glasgow) Brown (b. 1842, Edinburgh, Scotland, United Kingdom) and tied to the same locality (edinburgh). The catalogue lists 4 children of his born within 15 years of Isabella, so he was plausibly heading a household at the right time. Nothing found names him as Isabella's father or links the two. He ranks first among 10 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2723 John Glasgow (b. 1815), Glasgow-1461 Peter Glasgow (b. 1808-03-18), Glasgow-1464 John Glasgow (b. before 1810-04-10). The link is meant to be revisited.",
     "limitations": "Place-and-age guess only; 9 other catalogue men fit equally or nearly (Glasgow-2723, Glasgow-1461, Glasgow-1464, Glasgow-1463, Glasgow-427). None of the cited canonical records (ancestry-60144-2009769, edinburgh-alexander-blacksmith-1827-identity-index) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked.",
-    "probability": {
-      "value": 0.12,
-      "reviewed": "2026-11-06",
-      "basis": "Tentative place-and-age inference, not a documented relationship. Alexander Glasgow (b. c. 1803, Colinton, Midlothian, Scotland, United Kingdom) is a tree-listed Glasgow man 39 years older than Isabella (Glasgow) Brown (b. 1842, Edinburgh, Scotland, United Kingdom) and tied to the same locality (edinburgh). The catalogue lists 4 children of his born within 15 years of Isabella, so he was plausibly heading a household at the right time. Nothing found names him as Isabella's father or links the two. He ranks first among 10 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-2723 John Glasgow (b. 1815), Glasgow-1461 Peter Glasgow (b. 1808-03-18), Glasgow-1464 John Glasgow (b. before 1810-04-10). The link is meant to be revisited.",
-      "source_ids": [
-        "ancestry-60144-2009769",
-        "edinburgh-alexander-blacksmith-1827-identity-index"
-      ],
-      "scope": "Place-and-age guess only; 9 other catalogue men fit equally or nearly (Glasgow-2723, Glasgow-1461, Glasgow-1464, Glasgow-1463, Glasgow-427). None of the cited canonical records (ancestry-60144-2009769, edinburgh-alexander-blacksmith-1827-identity-index) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked."
-    },
-    "working_selection": true,
+    "probability": null,
+    "working_selection": false,
     "attachment_status": "attached",
-    "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "allow_new_relationship": false,
+    "lifecycle": "superseded",
+    "display": "historical",
+    "hypothesis_status": "superseded",
+    "status_label": "Superseded proposal",
     "analysis_links": [
       {
         "href": "/people/glasgow-3852.html#research-findings",
@@ -183066,28 +183065,27 @@
       "review_kind": "father_tentative_link_f1_r3",
       "source_newly_discovered": false
     },
-    "status": "uncertain",
+    "status": "superseded",
     "assessment_date": "2026-11-06",
-    "basis": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1816-02-13, Airdrie, Lanarkshire, Scotland, United Kingdom) is a tree-listed Glasgow man 26 years older than John Glasgow (b. 1842, New Monkland, Lanarkshire, Scotland, United Kingdom) and tied to the same locality (new monkland). The catalogue lists 11 children of his born within 15 years of John Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as John Glasgow's father or links the two. He ranks first among 29 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-1471 Thomas Leishman Glasgow (b. before 1822-10-06), Glasgow-1470 William Clark Glasgow (b. 1824-12-04), Glasgow-951 Alexander Glasgow (b. c. 1811). The link is meant to be revisited.",
-    "assessment_history": [],
-    "reason": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1816-02-13, Airdrie, Lanarkshire, Scotland, United Kingdom) is a tree-listed Glasgow man 26 years older than John Glasgow (b. 1842, New Monkland, Lanarkshire, Scotland, United Kingdom) and tied to the same locality (new monkland). The catalogue lists 11 children of his born within 15 years of John Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as John Glasgow's father or links the two. He ranks first among 29 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-1471 Thomas Leishman Glasgow (b. before 1822-10-06), Glasgow-1470 William Clark Glasgow (b. 1824-12-04), Glasgow-951 Alexander Glasgow (b. c. 1811). The link is meant to be revisited.",
+    "basis": "Superseded: the claimed father is the same person as the child (duplicate of Glasgow-424). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1816-02-13, Airdrie, Lanarkshire, Scotland, United Kingdom) is a tree-listed Glasgow man 26 years older than John Glasgow (b. 1842, New Monkland, Lanarkshire, Scotland, United Kingdom) and tied to the same locality (new monkland). The catalogue lists 11 children of his born within 15 years of John Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as John Glasgow's father or links the two. He ranks first among 29 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-1471 Thomas Leishman Glasgow (b. before 1822-10-06), Glasgow-1470 William Clark Glasgow (b. 1824-12-04), Glasgow-951 Alexander Glasgow (b. c. 1811). The link is meant to be revisited.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 12,
+        "assessment_date": "2026-11-06",
+        "source_basis": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1816-02-13, Airdrie, Lanarkshire, Scotland, United Kingdom) is a tree-listed Glasgow man 26 years older than John Glasgow (b. 1842, New Monkland, Lanarkshire, Scotland, United Kingdom) and tied to the same locality (new monkland). The catalogue lists 11 children of his born within 15 years of John Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as John Glasgow's father or links the two. He ranks first among 29 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-1471 Thomas Leishman Glasgow (b. before 1822-10-06), Glasgow-1470 William Clark Glasgow (b. 1824-12-04), Glasgow-951 Alexander Glasgow (b. c. 1811). The link is meant to be revisited."
+      }
+    ],
+    "reason": "Superseded: the claimed father is the same person as the child (duplicate of Glasgow-424). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1816-02-13, Airdrie, Lanarkshire, Scotland, United Kingdom) is a tree-listed Glasgow man 26 years older than John Glasgow (b. 1842, New Monkland, Lanarkshire, Scotland, United Kingdom) and tied to the same locality (new monkland). The catalogue lists 11 children of his born within 15 years of John Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as John Glasgow's father or links the two. He ranks first among 29 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-1471 Thomas Leishman Glasgow (b. before 1822-10-06), Glasgow-1470 William Clark Glasgow (b. 1824-12-04), Glasgow-951 Alexander Glasgow (b. c. 1811). The link is meant to be revisited.",
     "limitations": "Place-and-age guess only; 28 other catalogue men fit equally or nearly (Glasgow-1471, Glasgow-1470, Glasgow-951, Glasgow-1537, Glasgow-2822). None of the cited canonical records (ancestry-60144-3034301, held-e-aa9a364086a0, ancestry-60144-3575959) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked.",
-    "probability": {
-      "value": 0.12,
-      "reviewed": "2026-11-06",
-      "basis": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1816-02-13, Airdrie, Lanarkshire, Scotland, United Kingdom) is a tree-listed Glasgow man 26 years older than John Glasgow (b. 1842, New Monkland, Lanarkshire, Scotland, United Kingdom) and tied to the same locality (new monkland). The catalogue lists 11 children of his born within 15 years of John Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as John Glasgow's father or links the two. He ranks first among 29 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-1471 Thomas Leishman Glasgow (b. before 1822-10-06), Glasgow-1470 William Clark Glasgow (b. 1824-12-04), Glasgow-951 Alexander Glasgow (b. c. 1811). The link is meant to be revisited.",
-      "source_ids": [
-        "ancestry-60144-3034301",
-        "held-e-aa9a364086a0",
-        "ancestry-60144-3575959"
-      ],
-      "scope": "Place-and-age guess only; 28 other catalogue men fit equally or nearly (Glasgow-1471, Glasgow-1470, Glasgow-951, Glasgow-1537, Glasgow-2822). None of the cited canonical records (ancestry-60144-3034301, held-e-aa9a364086a0, ancestry-60144-3575959) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked."
-    },
-    "working_selection": true,
+    "probability": null,
+    "working_selection": false,
     "attachment_status": "attached",
-    "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "allow_new_relationship": false,
+    "lifecycle": "superseded",
+    "display": "historical",
+    "hypothesis_status": "superseded",
+    "status_label": "Superseded proposal",
     "analysis_links": [
       {
         "href": "/people/glasgow-3859.html#research-findings",
@@ -183133,29 +183131,27 @@
       "review_kind": "father_tentative_link_f1_r3",
       "source_newly_discovered": false
     },
-    "status": "uncertain",
+    "status": "superseded",
     "assessment_date": "2026-11-06",
-    "basis": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1808, Ayrshire, Scotland, United Kingdom) is a tree-listed Glasgow man 32 years older than Jonathan Glasgow (b. 1840, Sorn, Ayrshire, Scotland, United Kingdom) and tied to the same locality (ayrshire). The catalogue lists 4 children of his born within 15 years of Jonathan Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as Jonathan Glasgow's father or links the two. He ranks first among 14 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-3051 John Glasgow (b. 1791-01-24), Glasgow-3415 Robert Glasgow (b. 1800-08-18), Glasgow-1573 James Glasgow (b. 1799-06-01). The link is meant to be revisited.",
-    "assessment_history": [],
-    "reason": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1808, Ayrshire, Scotland, United Kingdom) is a tree-listed Glasgow man 32 years older than Jonathan Glasgow (b. 1840, Sorn, Ayrshire, Scotland, United Kingdom) and tied to the same locality (ayrshire). The catalogue lists 4 children of his born within 15 years of Jonathan Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as Jonathan Glasgow's father or links the two. He ranks first among 14 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-3051 John Glasgow (b. 1791-01-24), Glasgow-3415 Robert Glasgow (b. 1800-08-18), Glasgow-1573 James Glasgow (b. 1799-06-01). The link is meant to be revisited.",
+    "basis": "Superseded: the 1855+ civil marriage record names a different father (see clm-f1fs2-glasgow-3861-father-20261106). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1808, Ayrshire, Scotland, United Kingdom) is a tree-listed Glasgow man 32 years older than Jonathan Glasgow (b. 1840, Sorn, Ayrshire, Scotland, United Kingdom) and tied to the same locality (ayrshire). The catalogue lists 4 children of his born within 15 years of Jonathan Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as Jonathan Glasgow's father or links the two. He ranks first among 14 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-3051 John Glasgow (b. 1791-01-24), Glasgow-3415 Robert Glasgow (b. 1800-08-18), Glasgow-1573 James Glasgow (b. 1799-06-01). The link is meant to be revisited.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 12,
+        "assessment_date": "2026-11-06",
+        "source_basis": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1808, Ayrshire, Scotland, United Kingdom) is a tree-listed Glasgow man 32 years older than Jonathan Glasgow (b. 1840, Sorn, Ayrshire, Scotland, United Kingdom) and tied to the same locality (ayrshire). The catalogue lists 4 children of his born within 15 years of Jonathan Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as Jonathan Glasgow's father or links the two. He ranks first among 14 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-3051 John Glasgow (b. 1791-01-24), Glasgow-3415 Robert Glasgow (b. 1800-08-18), Glasgow-1573 James Glasgow (b. 1799-06-01). The link is meant to be revisited."
+      }
+    ],
+    "reason": "Superseded: the 1855+ civil marriage record names a different father (see clm-f1fs2-glasgow-3861-father-20261106). Superseded 6 November 2026 (round-3 apply). Earlier reasoning: Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1808, Ayrshire, Scotland, United Kingdom) is a tree-listed Glasgow man 32 years older than Jonathan Glasgow (b. 1840, Sorn, Ayrshire, Scotland, United Kingdom) and tied to the same locality (ayrshire). The catalogue lists 4 children of his born within 15 years of Jonathan Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as Jonathan Glasgow's father or links the two. He ranks first among 14 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-3051 John Glasgow (b. 1791-01-24), Glasgow-3415 Robert Glasgow (b. 1800-08-18), Glasgow-1573 James Glasgow (b. 1799-06-01). The link is meant to be revisited.",
     "limitations": "Place-and-age guess only; 13 other catalogue men fit equally or nearly (Glasgow-3051, Glasgow-3415, Glasgow-1573, Glasgow-3428, Glasgow-2972). None of the cited canonical records (ancestry-60144-1395166, ancestry-60143-10045455, kilbirnie-john-robert-mcconnachy-baptism-1807, beith-john-glasgow-household-1851) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked.",
-    "probability": {
-      "value": 0.12,
-      "reviewed": "2026-11-06",
-      "basis": "Tentative place-and-age inference, not a documented relationship. John Glasgow (b. 1808, Ayrshire, Scotland, United Kingdom) is a tree-listed Glasgow man 32 years older than Jonathan Glasgow (b. 1840, Sorn, Ayrshire, Scotland, United Kingdom) and tied to the same locality (ayrshire). The catalogue lists 4 children of his born within 15 years of Jonathan Glasgow, so he was plausibly heading a household at the right time. Nothing found names him as Jonathan Glasgow's father or links the two. He ranks first among 14 fitting candidates by locality, age fit and household size; the nearest alternatives are Glasgow-3051 John Glasgow (b. 1791-01-24), Glasgow-3415 Robert Glasgow (b. 1800-08-18), Glasgow-1573 James Glasgow (b. 1799-06-01). The link is meant to be revisited.",
-      "source_ids": [
-        "ancestry-60144-1395166",
-        "ancestry-60143-10045455",
-        "kilbirnie-john-robert-mcconnachy-baptism-1807",
-        "beith-john-glasgow-household-1851"
-      ],
-      "scope": "Place-and-age guess only; 13 other catalogue men fit equally or nearly (Glasgow-3051, Glasgow-3415, Glasgow-1573, Glasgow-3428, Glasgow-2972). None of the cited canonical records (ancestry-60144-1395166, ancestry-60143-10045455, kilbirnie-john-robert-mcconnachy-baptism-1807, beith-john-glasgow-household-1851) names the father of this child. The child is a person with only the cited index records in the catalogue. FamilySearch record search was unavailable to this worker (sign-in page on the research Chrome); no census household was checked."
-    },
-    "working_selection": true,
+    "probability": null,
+    "working_selection": false,
     "attachment_status": "attached",
-    "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "allow_new_relationship": false,
+    "lifecycle": "superseded",
+    "display": "historical",
+    "hypothesis_status": "superseded",
+    "status_label": "Superseded proposal",
     "analysis_links": [
       {
         "href": "/people/glasgow-3861.html#research-findings",
@@ -183855,6 +183851,316 @@
     "profile_names": {
       "Glasgow-2662": "John Alexander Glasgow",
       "record-father-john-glasgow-randolph-il-1850": "John Glasgow (head, Randolph County, Illinois 1850)"
+    }
+  },
+  {
+    "assertion_id": "clm-f1fs2-glasgow-3836-father-20261106",
+    "people": [
+      "Glasgow-3836",
+      "Glasgow-2876"
+    ],
+    "claim": "William Glasgow (b. 1783, m. Margaret Graham) is named in a Scottish marriage entry as the father of William Glasgow (Kirkurd) (Glasgow-3836); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3836": {
+        "relationship": "father"
+      },
+      "Glasgow-2876": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "fs-scotland-civil-marriage-1859-william-glasgow-jean-watson"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-2876",
+        "source_basis": "Before 6 November 2026 this person had no father attached. This claim comes from a Scottish civil-registration marriage entry found on FamilySearch on 6 November 2026.",
+        "status": "unmarked"
+      },
+      "review_kind": "father_marriage_parents_f1fs2",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The marriage of William Glasgow and Jean Watson on 12 April 1859 at Kirkurd names his parents as Willm Glasgow and Margt Graham. The catalogue William Glasgow-2876 (b. 1783) has a wife Margaret Graham, and the age gap to the indexed 1811 birth is 28 years. The match of the parent pair rests on names alone; 2876 carries no birthplace, so the Kirkurd link is not shown.",
+    "assessment_history": [],
+    "reason": "The marriage of William Glasgow and Jean Watson on 12 April 1859 at Kirkurd names his parents as Willm Glasgow and Margt Graham. The catalogue William Glasgow-2876 (b. 1783) has a wife Margaret Graham, and the age gap to the indexed 1811 birth is 28 years. The match of the parent pair rests on names alone; 2876 carries no birthplace, so the Kirkurd link is not shown.",
+    "limitations": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The identification of the catalogue man rests on the parents' names. Supersedes: none (no claim in the main batch).",
+    "probability": {
+      "value": 0.7,
+      "reviewed": "2026-11-06",
+      "basis": "The marriage of William Glasgow and Jean Watson on 12 April 1859 at Kirkurd names his parents as Willm Glasgow and Margt Graham. The catalogue William Glasgow-2876 (b. 1783) has a wife Margaret Graham, and the age gap to the indexed 1811 birth is 28 years. The match of the parent pair rests on names alone; 2876 carries no birthplace, so the Kirkurd link is not shown.",
+      "source_ids": [
+        "fs-scotland-civil-marriage-1859-william-glasgow-jean-watson"
+      ],
+      "scope": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The identification of the catalogue man rests on the parents' names. Supersedes: none (no claim in the main batch)."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3836.html#research-findings",
+        "label": "Father link review (F1 FamilySearch part 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2876": "William Glasgow (b. 1783, m. Margaret Graham)",
+      "Glasgow-3836": "William Glasgow (Kirkurd)"
+    }
+  },
+  {
+    "assertion_id": "clm-f1fs2-glasgow-3842-father-20261106",
+    "people": [
+      "Glasgow-3842",
+      "record-father-thomas-glasgow-leith-lexey-cron"
+    ],
+    "claim": "Thomas Glasgow (m. Lexey Cron), father of Thos Glasgow, Leith 1857 is named in a Scottish marriage entry as the father of Thomas Glasgow (South Leith) (Glasgow-3842); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3842": {
+        "relationship": "father"
+      },
+      "record-father-thomas-glasgow-leith-lexey-cron": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "fs-scotland-civil-marriage-1857-thos-glasgow-agnes-craigie"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-thomas-glasgow-leith-lexey-cron",
+        "source_basis": "Before 6 November 2026 this person had no father attached. This claim comes from a Scottish civil-registration marriage entry found on FamilySearch on 6 November 2026.",
+        "status": "unmarked"
+      },
+      "review_kind": "father_marriage_parents_f1fs2",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The marriage of Thos Glasgow, porter, and Agnes Craigie on 20 February 1857 at Leith names his parents as Thomas Glasgow and Lexey Cron. The tree's Thomas Glasgow-3842 has a wife Agnes Craigie. The father is a documentary person not in the catalogue, defined by this entry. The indexed age (31) differs from the tree's estimated birth year by thirteen years.",
+    "assessment_history": [],
+    "reason": "The marriage of Thos Glasgow, porter, and Agnes Craigie on 20 February 1857 at Leith names his parents as Thomas Glasgow and Lexey Cron. The tree's Thomas Glasgow-3842 has a wife Agnes Craigie. The father is a documentary person not in the catalogue, defined by this entry. The indexed age (31) differs from the tree's estimated birth year by thirteen years.",
+    "limitations": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The father is a documentary person known only from this entry. Supersedes: clm-f1-glasgow-3842-father-20261106 (to the Kildare Charles Glasgow, 12%).",
+    "probability": {
+      "value": 0.85,
+      "reviewed": "2026-11-06",
+      "basis": "The marriage of Thos Glasgow, porter, and Agnes Craigie on 20 February 1857 at Leith names his parents as Thomas Glasgow and Lexey Cron. The tree's Thomas Glasgow-3842 has a wife Agnes Craigie. The father is a documentary person not in the catalogue, defined by this entry. The indexed age (31) differs from the tree's estimated birth year by thirteen years.",
+      "source_ids": [
+        "fs-scotland-civil-marriage-1857-thos-glasgow-agnes-craigie"
+      ],
+      "scope": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The father is a documentary person known only from this entry. Supersedes: clm-f1-glasgow-3842-father-20261106 (to the Kildare Charles Glasgow, 12%)."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3842.html#research-findings",
+        "label": "Father link review (F1 FamilySearch part 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3842": "Thomas Glasgow (South Leith)",
+      "record-father-thomas-glasgow-leith-lexey-cron": "Thomas Glasgow (m. Lexey Cron), father of Thos Glasgow, Leith 1857"
+    }
+  },
+  {
+    "assertion_id": "clm-f1fs2-glasgow-3852-father-20261106",
+    "people": [
+      "Glasgow-3852",
+      "record-father-thomas-glasgow-edinburgh-isabella-wilson"
+    ],
+    "claim": "Thomas Glasgow (m. Isabella Wilson), father of Isabella Glasgow, Edinburgh 1860 is named in a Scottish marriage entry as the father of Isabella (Glasgow) Brown (Glasgow-3852); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3852": {
+        "relationship": "father"
+      },
+      "record-father-thomas-glasgow-edinburgh-isabella-wilson": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "fs-scotland-civil-marriage-1860-isabella-glasgow-john-brown"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-thomas-glasgow-edinburgh-isabella-wilson",
+        "source_basis": "Before 6 November 2026 this person had no father attached. This claim comes from a Scottish civil-registration marriage entry found on FamilySearch on 6 November 2026.",
+        "status": "unmarked"
+      },
+      "review_kind": "father_marriage_parents_f1fs2",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The marriage of Isabella Glasgow and John Brown on 24 October 1860 at Edinburgh names her parents as Thomas Glasgow and Isabella Wilson. The tree's Isabella (Glasgow) Brown, b. 1842 Edinburgh, is the Brown bride. The father is a documentary person defined by this entry. The indexed birth year (1838) differs from the tree's 1842.",
+    "assessment_history": [],
+    "reason": "The marriage of Isabella Glasgow and John Brown on 24 October 1860 at Edinburgh names her parents as Thomas Glasgow and Isabella Wilson. The tree's Isabella (Glasgow) Brown, b. 1842 Edinburgh, is the Brown bride. The father is a documentary person defined by this entry. The indexed birth year (1838) differs from the tree's 1842.",
+    "limitations": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The father is a documentary person known only from this entry. Supersedes: clm-f1-glasgow-3852-father-20261106 (to Glasgow-2695, 12%; 2695 is Alexander, wife Margaret Murray).",
+    "probability": {
+      "value": 0.85,
+      "reviewed": "2026-11-06",
+      "basis": "The marriage of Isabella Glasgow and John Brown on 24 October 1860 at Edinburgh names her parents as Thomas Glasgow and Isabella Wilson. The tree's Isabella (Glasgow) Brown, b. 1842 Edinburgh, is the Brown bride. The father is a documentary person defined by this entry. The indexed birth year (1838) differs from the tree's 1842.",
+      "source_ids": [
+        "fs-scotland-civil-marriage-1860-isabella-glasgow-john-brown"
+      ],
+      "scope": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The father is a documentary person known only from this entry. Supersedes: clm-f1-glasgow-3852-father-20261106 (to Glasgow-2695, 12%; 2695 is Alexander, wife Margaret Murray)."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3852.html#research-findings",
+        "label": "Father link review (F1 FamilySearch part 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3852": "Isabella (Glasgow) Brown",
+      "record-father-thomas-glasgow-edinburgh-isabella-wilson": "Thomas Glasgow (m. Isabella Wilson), father of Isabella Glasgow, Edinburgh 1860"
+    }
+  },
+  {
+    "assertion_id": "clm-f1fs2-glasgow-3856-father-20261106",
+    "people": [
+      "Glasgow-3856",
+      "Glasgow-2695"
+    ],
+    "claim": "Alexander Glasgow (m. Margaret Murray) is named in a Scottish marriage entry as the father of John Glasgow (Ormiston) (Glasgow-3856); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3856": {
+        "relationship": "father"
+      },
+      "Glasgow-2695": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "fs-scotland-civil-marriage-1856-john-glasgow-elizabeth-horsburgh"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-2695",
+        "source_basis": "Before 6 November 2026 this person had no father attached. This claim comes from a Scottish civil-registration marriage entry found on FamilySearch on 6 November 2026.",
+        "status": "unmarked"
+      },
+      "review_kind": "father_marriage_parents_f1fs2",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The marriage names the groom's parents as Alexander Glasgow and Margaret Murray. Glasgow-2695 is Alexander Glasgow (b. c.1803, Colinton) whose wife is Margaret Murray; their listed children include John Glasgow-1575 (b. c.1829), whose age fits the indexed 1828 birth. Glasgow-3856 is therefore probably a duplicate of Glasgow-1575, and the identification of 2695 as the named Alexander rests on the matching wife's name.",
+    "assessment_history": [],
+    "reason": "The marriage names the groom's parents as Alexander Glasgow and Margaret Murray. Glasgow-2695 is Alexander Glasgow (b. c.1803, Colinton) whose wife is Margaret Murray; their listed children include John Glasgow-1575 (b. c.1829), whose age fits the indexed 1828 birth. Glasgow-3856 is therefore probably a duplicate of Glasgow-1575, and the identification of 2695 as the named Alexander rests on the matching wife's name.",
+    "limitations": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The identification of the catalogue man rests on the parents' names. Supersedes: clm-f1-glasgow-3856-father-20261106 (to Glasgow-1574, 12%).",
+    "probability": {
+      "value": 0.78,
+      "reviewed": "2026-11-06",
+      "basis": "The marriage names the groom's parents as Alexander Glasgow and Margaret Murray. Glasgow-2695 is Alexander Glasgow (b. c.1803, Colinton) whose wife is Margaret Murray; their listed children include John Glasgow-1575 (b. c.1829), whose age fits the indexed 1828 birth. Glasgow-3856 is therefore probably a duplicate of Glasgow-1575, and the identification of 2695 as the named Alexander rests on the matching wife's name.",
+      "source_ids": [
+        "fs-scotland-civil-marriage-1856-john-glasgow-elizabeth-horsburgh"
+      ],
+      "scope": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The identification of the catalogue man rests on the parents' names. Supersedes: clm-f1-glasgow-3856-father-20261106 (to Glasgow-1574, 12%)."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3856.html#research-findings",
+        "label": "Father link review (F1 FamilySearch part 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2695": "Alexander Glasgow (m. Margaret Murray)",
+      "Glasgow-3856": "John Glasgow (Ormiston)"
+    }
+  },
+  {
+    "assertion_id": "clm-f1fs2-glasgow-3861-father-20261106",
+    "people": [
+      "Glasgow-3861",
+      "record-father-john-glasgow-sorn-christina-jackson"
+    ],
+    "claim": "John Glasgow (m. Christina Jackson), father of Jonathan Glasgow, Sorn 1858 is named in a Scottish marriage entry as the father of Jonathan Glasgow (Sorn) (Glasgow-3861); see the assessment for the evidence and its limits.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3861": {
+        "relationship": "father"
+      },
+      "record-father-john-glasgow-sorn-christina-jackson": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "fs-scotland-civil-marriage-1858-jonathan-glasgow-hellen-murray"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-john-glasgow-sorn-christina-jackson",
+        "source_basis": "Before 6 November 2026 this person had no father attached. This claim comes from a Scottish civil-registration marriage entry found on FamilySearch on 6 November 2026.",
+        "status": "unmarked"
+      },
+      "review_kind": "father_marriage_parents_f1fs2",
+      "source_newly_discovered": true
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The marriage of Jonathan Glasgow and Hellen Murray on 15 October 1858 at Sorn names his parents as John Glasgow and Christina Jackson. The tree's Jonathan Glasgow-3861 has a wife Helen Murray. The father is a documentary person defined by this entry; the catalogue John Glasgow-3463 has a different wife and is not the man.",
+    "assessment_history": [],
+    "reason": "The marriage of Jonathan Glasgow and Hellen Murray on 15 October 1858 at Sorn names his parents as John Glasgow and Christina Jackson. The tree's Jonathan Glasgow-3861 has a wife Helen Murray. The father is a documentary person defined by this entry; the catalogue John Glasgow-3463 has a different wife and is not the man.",
+    "limitations": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The father is a documentary person known only from this entry. Supersedes: clm-f1-glasgow-3861-father-20261106 (to Glasgow-3463, 12%; 3463's wife is Mary Boyd, not Christina Jackson).",
+    "probability": {
+      "value": 0.85,
+      "reviewed": "2026-11-06",
+      "basis": "The marriage of Jonathan Glasgow and Hellen Murray on 15 October 1858 at Sorn names his parents as John Glasgow and Christina Jackson. The tree's Jonathan Glasgow-3861 has a wife Helen Murray. The father is a documentary person defined by this entry; the catalogue John Glasgow-3463 has a different wife and is not the man.",
+      "source_ids": [
+        "fs-scotland-civil-marriage-1858-jonathan-glasgow-hellen-murray"
+      ],
+      "scope": "A Scottish marriage index entry naming the parents; the original register entry was not inspected, and the match to the tree profile rests on spouse name, year and place (the indexed age differs from the tree's estimate). The father is a documentary person known only from this entry. Supersedes: clm-f1-glasgow-3861-father-20261106 (to Glasgow-3463, 12%; 3463's wife is Mary Boyd, not Christina Jackson)."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3861.html#research-findings",
+        "label": "Father link review (F1 FamilySearch part 2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3861": "Jonathan Glasgow (Sorn)",
+      "record-father-john-glasgow-sorn-christina-jackson": "John Glasgow (m. Christina Jackson), father of Jonathan Glasgow, Sorn 1858"
     }
   },
   {
