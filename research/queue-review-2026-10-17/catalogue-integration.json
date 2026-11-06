@@ -408999,6 +408999,53 @@
           "evidence": "Provider index search row"
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-glasgow-catharine-oswald-1827-465583",
+      "subject_id": "ancestry-glasgow-catharine-oswald-1827-465583",
+      "name": "Catharine Glasgow",
+      "first_names": [
+        "Catharine"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Female",
+      "birth": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/465583",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/catharine-oswald-1827.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe marriage index names Catharine Glasgow and Edward Oswald, 20 Oct 1827, Edinburgh, Edinburghshire, Scotland, United Kingdom.<ref>[https://www.ancestry.co.uk/search/collections/60144/records/465583 Ancestry, Scotland, Select Marriages, 1561–1910: Catharine Glasgow and Edward Oswald, 20 Oct 1827, record 60144/465583].</ref>\n\n== Research Notes ==\nThe Edinburgh marriage index names Catharine Glasgow and Edward Oswald. Catharine’s earlier identity is unresolved.\n\n== Sources ==\n<references />\n",
+      "assessment": "Documentary bride; wider identity unresolved.",
+      "current_conclusion": "The Edinburgh marriage index names Catharine Glasgow and Edward Oswald. Catharine’s earlier identity is unresolved.",
+      "reviewed_at": "2026-11-06",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Checked local catalogue and canonical records for the Edward Oswald marriage; no exact personal match established.",
+        "candidates": []
+      },
+      "records": [
+        {
+          "source_title": "Ancestry, Scotland, Select Marriages, 1561–1910: Catharine Glasgow and Edward Oswald, 20 Oct 1827, record 60144/465583",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/465583",
+          "source_type": "Provider index transcript",
+          "date": "20 Oct 1827",
+          "year": 1827,
+          "place": "Edinburgh, Edinburghshire, Scotland, United Kingdom",
+          "indexed_facts": {
+            "Name": "Catharine Glasgow",
+            "Gender": "Female",
+            "Marriage Date": "20 Oct 1827",
+            "Marriage Place": "Edinburgh, Edinburghshire, Scotland, United Kingdom",
+            "Spouse": "Edward Oswald"
+          },
+          "note": "The marriage index names Catharine Glasgow and Edward Oswald, 20 Oct 1827, Edinburgh, Edinburghshire, Scotland, United Kingdom."
+        }
+      ]
     }
   ]
 }

@@ -107143,20 +107143,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1232405",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Jean Glasgow, 28 Aug 1829, Glasgow, Lanark, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Jean Glasgow",
       "Marriage Date": "28 Aug 1829",
       "Marriage Place": "Glasgow, Lanark, Scotland",
-      "Spouse": "Alexander"
+      "Spouse": "Alexander Apperson",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Jean Glasgow married Alexander on 28 Aug 1829 at Glasgow, Lanark, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Jean Glasgow: new catalogue draft record-ancestry-glasgow-1f2c6c9f181f, held for identity review; compatible catalogue people remain (Glasgow-3066 Janet (Glasgow) Scott b. 1791 (place Glasgow recorded); Glasgow-1484 Jean Glasgow b. 1815-01-30 (place Glasgow recorded); Glasgow-1779 Jane Glasgow Armstrong b. c. 1799 d. 1837 (chronology fits); Glasgow-3541 Janet Glasgow b. 1797-11-13 (chronology fits); Glasgow-1305 Janet Glasgow b. 1796-10-21 (chronology fits); Glasgow-3310 Janet Glasgow b. before 1809-07-10 (chronology fits); Glasgow-1356 Jean Buchanan Glasgow b. c. 1809-06-08 (chronology fits); Glasgow-3396 Jean Glasgow b. 1807-02-02 (chronology fits)). Ruled out: Bell-32322 Jane (Bell) Glasgow b. c. 1844 d. 1919-11-13: dates conflict: catalogue birth c. 1844 too late for a marriage in 1829; different named spouse (John Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Bryden-65 Jane (Bryden) Glasgow b. c. 1824 d. c. 1888-07: dates conflict: catalogue birth c. 1824 too late for a marriage in 1829; different named spouse (Peter Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Curry-3099 Jane (Curry) Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (William Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Ferguson-26673 Jane (Ferguson) Glasgow b. 1887: dates conflict: catalogue birth 1887 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Niagara, New York, United States); different named spouse (John Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasco-162 Jane (Glasco) Mendenhall b. c. 1817 d. 1842-10: dates conflict: catalogue birth c. 1817 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States); Glasgow-1663 Jane (Glasgow) Adams b. c. 1850 d. 1930: dates conflict: catalogue birth c. 1850 too late for a marriage in 1829; Glasgow-3862 Jane (Glasgow) Aitchison b. 1842: dates conflict: catalogue birth 1842 too late for a marriage in 1829; Glasgow-1727 Jane (Glasgow) Ferguson b. c. 1828 d. 1901-11-24: dates conflict: catalogue birth c. 1828 too late for a marriage in 1829; different named spouse (James Ferguson; record names Alexander).",
+    "note": "The marriage index names Jean Glasgow and Alexander Apperson, 28 Aug 1829, Glasgow, Lanark, Scotland. bride Jean Glasgow: new catalogue draft record-ancestry-glasgow-1f2c6c9f181f, held for identity review; compatible catalogue people remain (Glasgow-3066 Janet (Glasgow) Scott b. 1791 (place Glasgow recorded); Glasgow-1484 Jean Glasgow b. 1815-01-30 (place Glasgow recorded); Glasgow-1779 Jane Glasgow Armstrong b. c. 1799 d. 1837 (chronology fits); Glasgow-3541 Janet Glasgow b. 1797-11-13 (chronology fits); Glasgow-1305 Janet Glasgow b. 1796-10-21 (chronology fits); Glasgow-3310 Janet Glasgow b. before 1809-07-10 (chronology fits); Glasgow-1356 Jean Buchanan Glasgow b. c. 1809-06-08 (chronology fits); Glasgow-3396 Jean Glasgow b. 1807-02-02 (chronology fits)). Ruled out: Bell-32322 Jane (Bell) Glasgow b. c. 1844 d. 1919-11-13: dates conflict: catalogue birth c. 1844 too late for a marriage in 1829; different named spouse (John Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Bryden-65 Jane (Bryden) Glasgow b. c. 1824 d. c. 1888-07: dates conflict: catalogue birth c. 1824 too late for a marriage in 1829; different named spouse (Peter Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Curry-3099 Jane (Curry) Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (William Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Ferguson-26673 Jane (Ferguson) Glasgow b. 1887: dates conflict: catalogue birth 1887 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Niagara, New York, United States); different named spouse (John Glasgow; record names Alexander); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasco-162 Jane (Glasco) Mendenhall b. c. 1817 d. 1842-10: dates conflict: catalogue birth c. 1817 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States); Glasgow-1663 Jane (Glasgow) Adams b. c. 1850 d. 1930: dates conflict: catalogue birth c. 1850 too late for a marriage in 1829; Glasgow-3862 Jane (Glasgow) Aitchison b. 1842: dates conflict: catalogue birth 1842 too late for a marriage in 1829; Glasgow-1727 Jane (Glasgow) Ferguson b. c. 1828 d. 1901-11-24: dates conflict: catalogue birth c. 1828 too late for a marriage in 1829; different named spouse (James Ferguson; record names Alexander).",
     "profiles": {
       "record-ancestry-glasgow-1f2c6c9f181f": {
         "role": "Documentary subject: bride",
@@ -107171,7 +107172,7 @@
       "explanation": "Marriage 28 Aug 1829"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -108787,20 +108788,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1480110",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Thomas Glasgow, 1 Nov 1828, Aberlady, East Lothian, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Thomas Glasgow",
       "Marriage Date": "1 Nov 1828",
       "Marriage Place": "Aberlady, East Lothian, Scotland",
-      "Spouse": "Euphemia"
+      "Spouse": "Euphemia Burns",
+      "Gender": "Male"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Thomas Glasgow married Euphemia on 1 Nov 1828 at Aberlady, East Lothian, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom Thomas Glasgow linked to Glasgow-160 (Thomas Glasgow) as a probable identity: spouse Euphemia (Burns) Glasgow matches indexed spouse given name Euphemia, place Aberlady recorded. Same-name candidates ruled out: Glasgow-2593 Thomas A Glasgow b. c. 1888: dates conflict: catalogue birth c. 1888 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3274 Thomas Alfred Glasgow b. 1921-11-15 d. 1982-07-04: dates conflict: catalogue birth 1921-11-15 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Weakley County, Tennessee, United States); different named spouse (Sammye Lee (Williams) Glasgow; record names Euphemia); Glasgow-2521 Thomas Brunton Glasgow b. 1869: dates conflict: catalogue birth 1869 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Wahgunyah, Victoria, Australia); Glasgow-2125 Thomas Courtlyn Glasgow b. 1918-11-01 d. 2000-10-22: dates conflict: catalogue birth 1918-11-01 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Howard, Arkansas, United States); different named spouse (Fern Carol (Rosik) Glasgow; record names Euphemia); Glasgow-344 Thomas Edward Glasgow b. 1873-04-19 d. 1952-01-29: dates conflict: catalogue birth 1873-04-19 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Rector, Clay Co., Arkansas, United States); Green-9205 Thomas Eugenia (Green) Glasco b. 1866-02-24 d. 1942-05-02: gender conflict (catalogue Female); dates conflict: catalogue birth 1866-02-24 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (North Carolina, United States); Glasgow-577 Thomas George Glasgow b. c. 1880 d. 1941-09-30: dates conflict: catalogue birth c. 1880 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Auckland, New Zealand); Glasco-144 Thomas Glasco b. 1753: different named spouse (Ann (Duffy) Glasco; record names Euphemia).",
+    "note": "The marriage index names Thomas Glasgow and Euphemia Burns, 1 Nov 1828, Aberlady, East Lothian, Scotland. groom Thomas Glasgow linked to Glasgow-160 (Thomas Glasgow) as a probable identity: spouse Euphemia (Burns) Glasgow matches indexed spouse given name Euphemia, place Aberlady recorded. Same-name candidates ruled out: Glasgow-2593 Thomas A Glasgow b. c. 1888: dates conflict: catalogue birth c. 1888 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-3274 Thomas Alfred Glasgow b. 1921-11-15 d. 1982-07-04: dates conflict: catalogue birth 1921-11-15 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Weakley County, Tennessee, United States); different named spouse (Sammye Lee (Williams) Glasgow; record names Euphemia); Glasgow-2521 Thomas Brunton Glasgow b. 1869: dates conflict: catalogue birth 1869 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Wahgunyah, Victoria, Australia); Glasgow-2125 Thomas Courtlyn Glasgow b. 1918-11-01 d. 2000-10-22: dates conflict: catalogue birth 1918-11-01 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Howard, Arkansas, United States); different named spouse (Fern Carol (Rosik) Glasgow; record names Euphemia); Glasgow-344 Thomas Edward Glasgow b. 1873-04-19 d. 1952-01-29: dates conflict: catalogue birth 1873-04-19 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Rector, Clay Co., Arkansas, United States); Green-9205 Thomas Eugenia (Green) Glasco b. 1866-02-24 d. 1942-05-02: gender conflict (catalogue Female); dates conflict: catalogue birth 1866-02-24 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (North Carolina, United States); Glasgow-577 Thomas George Glasgow b. c. 1880 d. 1941-09-30: dates conflict: catalogue birth c. 1880 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Auckland, New Zealand); Glasco-144 Thomas Glasco b. 1753: different named spouse (Ann (Duffy) Glasco; record names Euphemia).",
     "profiles": {
       "Glasgow-160": {
         "role": "Probable identity: groom; spouse Euphemia (Burns) Glasgow matches indexed spouse given name Euphemia, place Aberlady recorded",
@@ -108815,7 +108817,7 @@
       "explanation": "Marriage 1 Nov 1828"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -109259,20 +109261,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1513995",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Robert Glasgow, 8 Jan 1830, Port Glasgow, Renfrew, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Robert Glasgow",
       "Marriage Date": "8 Jan 1830",
       "Marriage Place": "Port Glasgow, Renfrew, Scotland",
-      "Spouse": "Margaret"
+      "Spouse": "Margaret Williamson",
+      "Gender": "Male"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Robert Glasgow married Margaret on 8 Jan 1830 at Port Glasgow, Renfrew, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom Robert Glasgow linked to Glasgow-3415 (Robert Glasgow) as a probable identity: chronology fits, spouse Margaret (Williamson) Glasgow matches indexed spouse given name Margaret, place Port Glasgow recorded. Same-name candidates ruled out: Glasgow-1076 Robert (Glasgow) Glasgow of Montgreenan b. before 1747-10-15 d. 1827-04-19: died 1827-04-19, before the 1830 marriage; different named spouse (Rachel (Dunlop) Glasgow; record names Margaret); Robertson-30564 Robert (Robertson) Glasgow b. 1775-11-06 d. 1845-01-27: different named spouse (Anne Glasgow; record names Margaret); Glasgow-2307 Robert A Glasgow b. c. 1888-03: dates conflict: catalogue birth c. 1888-03 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasgow-3728 Robert A. Glasgow b. 1910 d. 1977: dates conflict: catalogue birth 1910 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States); different named spouse (Estella Margaret (Steed) Glasgow; record names Margaret); Glasgow-721 Robert Adair Glasgow b. 1897-06-05 d. 1964-10-02: dates conflict: catalogue birth 1897-06-05 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Texas, United States); Glasgow-997 Robert Alexander Glasgow b. 1807-01-07 d. 1857-12-18: place cannot fit: catalogue life recorded only outside the British Isles (Bakerstown, Allegheny County, Pennsylvania, United States); different named spouse (Sarah (Taggart) Glasgow; record names Margaret); Glasgow-3562 Robert Alexander Glasgow b. 1882-02-13 d. 1930: dates conflict: catalogue birth 1882-02-13 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Page County, Iowa, United States); Glasgow-1625 Robert Anderson Glasgow b. 1813-09-19 d. 1887-12-18: place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); different named spouse (Dorcas A (Finley) Glasgow; Jane (Smiley) Glasgow; record names Margaret).",
+    "note": "The marriage index names Robert Glasgow and Margaret Williamson, 8 Jan 1830, Port Glasgow, Renfrew, Scotland. groom Robert Glasgow linked to Glasgow-3415 (Robert Glasgow) as a probable identity: chronology fits, spouse Margaret (Williamson) Glasgow matches indexed spouse given name Margaret, place Port Glasgow recorded. Same-name candidates ruled out: Glasgow-1076 Robert (Glasgow) Glasgow of Montgreenan b. before 1747-10-15 d. 1827-04-19: died 1827-04-19, before the 1830 marriage; different named spouse (Rachel (Dunlop) Glasgow; record names Margaret); Robertson-30564 Robert (Robertson) Glasgow b. 1775-11-06 d. 1845-01-27: different named spouse (Anne Glasgow; record names Margaret); Glasgow-2307 Robert A Glasgow b. c. 1888-03: dates conflict: catalogue birth c. 1888-03 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasgow-3728 Robert A. Glasgow b. 1910 d. 1977: dates conflict: catalogue birth 1910 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States); different named spouse (Estella Margaret (Steed) Glasgow; record names Margaret); Glasgow-721 Robert Adair Glasgow b. 1897-06-05 d. 1964-10-02: dates conflict: catalogue birth 1897-06-05 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Texas, United States); Glasgow-997 Robert Alexander Glasgow b. 1807-01-07 d. 1857-12-18: place cannot fit: catalogue life recorded only outside the British Isles (Bakerstown, Allegheny County, Pennsylvania, United States); different named spouse (Sarah (Taggart) Glasgow; record names Margaret); Glasgow-3562 Robert Alexander Glasgow b. 1882-02-13 d. 1930: dates conflict: catalogue birth 1882-02-13 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Page County, Iowa, United States); Glasgow-1625 Robert Anderson Glasgow b. 1813-09-19 d. 1887-12-18: place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); different named spouse (Dorcas A (Finley) Glasgow; Jane (Smiley) Glasgow; record names Margaret).",
     "profiles": {
       "Glasgow-3415": {
         "role": "Probable identity: groom; chronology fits, spouse Margaret (Williamson) Glasgow matches indexed spouse given name Margaret, place Port Glasgow recorded",
@@ -109287,7 +109290,7 @@
       "explanation": "Marriage 8 Jan 1830"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -109589,20 +109592,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/1558360",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Margaret Glasgow, 26 Jan 1829, Kilmarnock, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Margaret Glasgow",
       "Marriage Date": "26 Jan 1829",
       "Marriage Place": "Kilmarnock, Ayr, Scotland",
-      "Spouse": "John"
+      "Spouse": "John Reyburn",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Margaret Glasgow married John on 26 Jan 1829 at Kilmarnock, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Margaret Glasgow: new catalogue draft record-ancestry-glasgow-a115cc2086cb, held for identity review; compatible catalogue people remain (Glasgow-43 Margaret (Glasgow) Walkinshaw b. 1810-10-17 d. 1860-11-12 (chronology fits, spouse John Walkinshaw Jr. matches indexed spouse given name John); Glasgow-4015 Margaret Patton b. before 1787 d. 1884 (spouse John Patton matches indexed spouse given name John); Glasgow-3395 Margaret Glasgow b. 1805-02-09 (chronology fits, place Kilmarnock recorded); Glasgow-3390 Margaret Glasgow b. 1789-03-28 d. before 1805 (place Kilmarnock recorded); Glasgow-3068 Margaret Glasgow b. 1806 d. 1836-02-28 (chronology fits); Glasgow-3955 Unknown (Glasgow) Young b. c. 1801 d. c. 1879-08-27 (chronology fits); Glasgow-3510 Margaret (Glasgow) Scott b. 1813; Glasco-149 Margaret Glasco b. 1760). Ruled out: Hayes-21706 Maggie (Hayes) Glasco b. 1895-06-30 d. 1970-07-07: dates conflict: catalogue birth 1895-06-30 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Houston, Harris, Texas, United States); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2033 Maggie Emeline Glasgow b. 1903-11-22: dates conflict: catalogue birth 1903-11-22 too late for a marriage in 1829; Glasgow-2525 Maggie Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); Glasgow-4206 Maggie Glasgow b. 1885-01-03 d. 1893-07-05: dates conflict: catalogue birth 1885-01-03 too late for a marriage in 1829; Glasgow-307 Maggie Lou (Glasgow) Sullens b. 1895-12-28 d. 1917-01-01: dates conflict: catalogue birth 1895-12-28 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Kuttawa, Lyon, Kentucky, United States); different named spouse (Oswald A. Sullens; record names John); Glasgow-2021 Maggie Loughlin Glasgow b. c. 1861 d. 1887-06-22: dates conflict: catalogue birth c. 1861 too late for a marriage in 1829; Allan-4046 Margaret (Allan) Glasgow b. before 1708-11-18 d. 1790-07-11: dates conflict: catalogue birth before 1708-11-18 too early for a marriage in 1829; died 1790-07-11, before the 1829 marriage; different named spouse (Robert Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Anderson-57123 Margaret (Anderson) Glasgow b. 1804-01-11: different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride.",
+    "note": "The marriage index names Margaret Glasgow and John Reyburn, 26 Jan 1829, Kilmarnock, Ayr, Scotland. bride Margaret Glasgow: new catalogue draft record-ancestry-glasgow-a115cc2086cb, held for identity review; compatible catalogue people remain (Glasgow-43 Margaret (Glasgow) Walkinshaw b. 1810-10-17 d. 1860-11-12 (chronology fits, spouse John Walkinshaw Jr. matches indexed spouse given name John); Glasgow-4015 Margaret Patton b. before 1787 d. 1884 (spouse John Patton matches indexed spouse given name John); Glasgow-3395 Margaret Glasgow b. 1805-02-09 (chronology fits, place Kilmarnock recorded); Glasgow-3390 Margaret Glasgow b. 1789-03-28 d. before 1805 (place Kilmarnock recorded); Glasgow-3068 Margaret Glasgow b. 1806 d. 1836-02-28 (chronology fits); Glasgow-3955 Unknown (Glasgow) Young b. c. 1801 d. c. 1879-08-27 (chronology fits); Glasgow-3510 Margaret (Glasgow) Scott b. 1813; Glasco-149 Margaret Glasco b. 1760). Ruled out: Hayes-21706 Maggie (Hayes) Glasco b. 1895-06-30 d. 1970-07-07: dates conflict: catalogue birth 1895-06-30 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Houston, Harris, Texas, United States); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2033 Maggie Emeline Glasgow b. 1903-11-22: dates conflict: catalogue birth 1903-11-22 too late for a marriage in 1829; Glasgow-2525 Maggie Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); Glasgow-4206 Maggie Glasgow b. 1885-01-03 d. 1893-07-05: dates conflict: catalogue birth 1885-01-03 too late for a marriage in 1829; Glasgow-307 Maggie Lou (Glasgow) Sullens b. 1895-12-28 d. 1917-01-01: dates conflict: catalogue birth 1895-12-28 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Kuttawa, Lyon, Kentucky, United States); different named spouse (Oswald A. Sullens; record names John); Glasgow-2021 Maggie Loughlin Glasgow b. c. 1861 d. 1887-06-22: dates conflict: catalogue birth c. 1861 too late for a marriage in 1829; Allan-4046 Margaret (Allan) Glasgow b. before 1708-11-18 d. 1790-07-11: dates conflict: catalogue birth before 1708-11-18 too early for a marriage in 1829; died 1790-07-11, before the 1829 marriage; different named spouse (Robert Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Anderson-57123 Margaret (Anderson) Glasgow b. 1804-01-11: different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride.",
     "profiles": {
       "record-ancestry-glasgow-a115cc2086cb": {
         "role": "Documentary subject: bride",
@@ -109617,7 +109621,7 @@
       "explanation": "Marriage 26 Jan 1829"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -112311,20 +112315,22 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2020774",
     "source_title": "Scotland, Select Marriages, 1561-1910 — John Glasgow, 26 Nov 1827, Edinburgh, Edinburghshire, Scotland, United Kingdom",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
       "Marriage Date": "26 Nov 1827",
       "Marriage Place": "Edinburgh, Edinburghshire, Scotland, United Kingdom",
-      "Spouse": "Agnes"
+      "Spouse": "Agnes Hamilton",
+      "Gender": "Male",
+      "FHL Film Number": "1066694"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: John Glasgow married Agnes on 26 Nov 1827 at Edinburgh, Edinburghshire, Scotland, United Kingdom. Search-result row only: relatives are given names, surnames are not indexed in the row. groom John Glasgow: new catalogue draft record-ancestry-glasgow-6ecdc1382085, held for identity review; compatible catalogue people remain (Glasgow-2433 John Glasgow b. 1786-07-06 d. 1864-07-14 (spouse Nanny (Fairbairn) Glasgow matches indexed spouse given name Agnes); Glasgow-159 John Glasgow b. c. 1761 (spouse Agnes (Gray) Glasgow matches indexed spouse given name Agnes); Glasgow-3601 John Glasgow b. 1808-12-18 (chronology fits, place Edinburgh recorded); Glasgow-1306 John Glasgow b. before 1802-08-15 d. before 1808 (chronology fits, place Edinburgh recorded); Glasgow-2102 John Glasgow b. 1777-09-05 (place Edinburgh recorded); Glasgow-1464 John Glasgow b. before 1810-04-10 (place Edinburgh recorded); record-ancestry-glasgow-743d21d47c57 John Glasgow (place Edinburgh recorded); record-ancestry-glasgow-d5186404e233 John Glasgow (place Edinburgh recorded)). Ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a marriage in 1827; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1827 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Agnes); Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a marriage in 1827; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1827; different named spouse (Living person (details withheld); record names Agnes); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Agnes); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Agnes); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
+    "note": "The marriage index names John Glasgow and Agnes Hamilton, 26 Nov 1827, Edinburgh, Edinburghshire, Scotland, United Kingdom. groom John Glasgow: new catalogue draft record-ancestry-glasgow-6ecdc1382085, held for identity review; compatible catalogue people remain (Glasgow-2433 John Glasgow b. 1786-07-06 d. 1864-07-14 (spouse Nanny (Fairbairn) Glasgow matches indexed spouse given name Agnes); Glasgow-159 John Glasgow b. c. 1761 (spouse Agnes (Gray) Glasgow matches indexed spouse given name Agnes); Glasgow-3601 John Glasgow b. 1808-12-18 (chronology fits, place Edinburgh recorded); Glasgow-1306 John Glasgow b. before 1802-08-15 d. before 1808 (chronology fits, place Edinburgh recorded); Glasgow-2102 John Glasgow b. 1777-09-05 (place Edinburgh recorded); Glasgow-1464 John Glasgow b. before 1810-04-10 (place Edinburgh recorded); record-ancestry-glasgow-743d21d47c57 John Glasgow (place Edinburgh recorded); record-ancestry-glasgow-d5186404e233 John Glasgow (place Edinburgh recorded)). Ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a marriage in 1827; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1827 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Agnes); Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a marriage in 1827; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1827; different named spouse (Living person (details withheld); record names Agnes); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Agnes); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Agnes); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
     "profiles": {
       "record-ancestry-glasgow-6ecdc1382085": {
         "role": "Documentary subject: groom",
@@ -112339,7 +112345,7 @@
       "explanation": "Marriage 26 Nov 1827"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -112826,20 +112832,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2086101",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Marrion Glasgow, May 1830, New Monkland, Lanark, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Marrion Glasgow",
       "Marriage Date": "May 1830",
       "Marriage Place": "New Monkland, Lanark, Scotland",
-      "Spouse": "Alexander"
+      "Spouse": "Alexander Arthur",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Marrion Glasgow married Alexander on May 1830 at New Monkland, Lanark, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Marrion Glasgow: new catalogue draft record-ancestry-glasgow-d8f3ee0800d7, no compatible catalogue person. Ruled out: record-ancestry-glasgow-16da51a9dbb9 Marrion Glasgow: unlikely without further evidence: already linked to the 1816 marriage to John (ancestry-60144-3889192).",
+    "note": "The marriage index names Marrion Glasgow and Alexander Arthur, May 1830, New Monkland, Lanark, Scotland. bride Marrion Glasgow: new catalogue draft record-ancestry-glasgow-d8f3ee0800d7, no compatible catalogue person. Ruled out: record-ancestry-glasgow-16da51a9dbb9 Marrion Glasgow: unlikely without further evidence: already linked to the 1816 marriage to John (ancestry-60144-3889192).",
     "profiles": {
       "record-ancestry-glasgow-d8f3ee0800d7": {
         "role": "Documentary subject: bride",
@@ -112854,7 +112861,7 @@
       "explanation": "Marriage May 1830"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -113389,20 +113396,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2160621",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Helen Glasgow, 9 Nov 1828, Crichton, Midlothian, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Helen Glasgow",
       "Marriage Date": "9 Nov 1828",
       "Marriage Place": "Crichton, Midlothian, Scotland",
-      "Spouse": "John"
+      "Spouse": "John Fyfe",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Helen Glasgow married John on 9 Nov 1828 at Crichton, Midlothian, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Helen Glasgow linked to Glasgow-1352 (Helen Glasgow) as a possible identity: chronology fits. Same-name candidates ruled out: Glasgow-1819 Ellen (Glasgow) Faulkner b. 1898-02-26 d. 1986-02-14: dates conflict: catalogue birth 1898-02-26 too late for a marriage in 1828; unlikely: catalogue marriage to John George Faulkner is dated 1922-05-16, not 1828; Glasgow-2037 Ellen (Glasgow) Lamont b. 1874-10-20 d. 1936-04-30: dates conflict: catalogue birth 1874-10-20 too late for a marriage in 1828; different named spouse (Daniel Lamont; record names John); Glasgow-2619 Ellen (Glasgow) McGowan b. c. 1875: dates conflict: catalogue birth c. 1875 too late for a marriage in 1828; Glasgow-2266 Ellen (Glasgow) Trimble b. c. 1831 d. 1893-11-11: dates conflict: catalogue birth c. 1831 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Saint John, St. John, New Brunswick, Canada); different named spouse (Joseph Trimble; record names John); Page-21056 Ellen (Page) Glasgow b. c. 1842: dates conflict: catalogue birth c. 1842 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Rappahannock, Virginia, United States); different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Smith-228705 Ellen (Smith) Glasgow b. c. 1795: different named spouse (Alexander Glasgow Esq; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Hebbard-12 Ellen A (Hebbard) Glasgow b. 1843-02-28 d. 1912-05-20: dates conflict: catalogue birth 1843-02-28 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Zenas Twp, Jennings, Indiana, USA); different named spouse (William R Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-473 Ellen Anderson Gholson Glasgow b. 1873-04-22 d. 1945-11-21: dates conflict: catalogue birth 1873-04-22 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Richmond, Virginia, United States).",
+    "note": "The marriage index names Helen Glasgow and John Fyfe, 9 Nov 1828, Crichton, Midlothian, Scotland. bride Helen Glasgow linked to Glasgow-1352 (Helen Glasgow) as a possible identity: chronology fits. Same-name candidates ruled out: Glasgow-1819 Ellen (Glasgow) Faulkner b. 1898-02-26 d. 1986-02-14: dates conflict: catalogue birth 1898-02-26 too late for a marriage in 1828; unlikely: catalogue marriage to John George Faulkner is dated 1922-05-16, not 1828; Glasgow-2037 Ellen (Glasgow) Lamont b. 1874-10-20 d. 1936-04-30: dates conflict: catalogue birth 1874-10-20 too late for a marriage in 1828; different named spouse (Daniel Lamont; record names John); Glasgow-2619 Ellen (Glasgow) McGowan b. c. 1875: dates conflict: catalogue birth c. 1875 too late for a marriage in 1828; Glasgow-2266 Ellen (Glasgow) Trimble b. c. 1831 d. 1893-11-11: dates conflict: catalogue birth c. 1831 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Saint John, St. John, New Brunswick, Canada); different named spouse (Joseph Trimble; record names John); Page-21056 Ellen (Page) Glasgow b. c. 1842: dates conflict: catalogue birth c. 1842 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Rappahannock, Virginia, United States); different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Smith-228705 Ellen (Smith) Glasgow b. c. 1795: different named spouse (Alexander Glasgow Esq; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Hebbard-12 Ellen A (Hebbard) Glasgow b. 1843-02-28 d. 1912-05-20: dates conflict: catalogue birth 1843-02-28 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Zenas Twp, Jennings, Indiana, USA); different named spouse (William R Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-473 Ellen Anderson Gholson Glasgow b. 1873-04-22 d. 1945-11-21: dates conflict: catalogue birth 1873-04-22 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Richmond, Virginia, United States).",
     "profiles": {
       "Glasgow-1352": {
         "role": "Possible identity: bride; chronology fits",
@@ -113417,7 +113425,7 @@
       "explanation": "Marriage 9 Nov 1828"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -113669,20 +113677,22 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2209464",
     "source_title": "Scotland, Select Marriages, 1561-1910 — James Glasgow, 11 May 1829, , Kilwinning, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Glasgow",
       "Marriage Date": "11 May 1829",
       "Marriage Place": ", Kilwinning, Ayr, Scotland",
-      "Spouse": "Janet Shedden"
+      "Spouse": "Janet Shedden Barr",
+      "Gender": "Male",
+      "Reference ID": "2:g3tfqt"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: James Glasgow married Janet Shedden on 11 May 1829 at , Kilwinning, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom James Glasgow: new catalogue draft record-ancestry-glasgow-5203992ee1cc, held for identity review; compatible catalogue people remain (Glasgow-2877 James Glasgow b. 1810 d. 1895-04-21 (chronology fits); Glasgow-3129 James Glasgow b. 1810 (chronology fits); Glasgow-1534 James Glasgow b. 1797-08-22 (chronology fits); Glasgow-4145 James Glasgow b. before 1802 d. before 1836 (chronology fits); Glasgow-1325 James Glasgow b. before 1804-01-29 (chronology fits); James Glasgow Oritor gentleman 1826 probate occurrence James Glasgow b. before 1805 d. before 1826 (chronology fits); ballybogy-1825-james-glasgow James Glasgow b. before 1807 d. after 1825 (chronology fits); Glasgow-3196 James Glasgow b. c. 1805 d. c. 1875-02-09 (chronology fits)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Janet); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: different named spouse (Elizabeth (Groff) Glasgow; record names Janet); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (Ann (Andrews) Glasgow; record names Janet); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Janet); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a marriage in 1829; different named spouse (Mary Jane (Black) Glasgow; record names Janet).",
+    "note": "The marriage index names James Glasgow and Janet Shedden Barr, 11 May 1829, , Kilwinning, Ayr, Scotland. groom James Glasgow: new catalogue draft record-ancestry-glasgow-5203992ee1cc, held for identity review; compatible catalogue people remain (Glasgow-2877 James Glasgow b. 1810 d. 1895-04-21 (chronology fits); Glasgow-3129 James Glasgow b. 1810 (chronology fits); Glasgow-1534 James Glasgow b. 1797-08-22 (chronology fits); Glasgow-4145 James Glasgow b. before 1802 d. before 1836 (chronology fits); Glasgow-1325 James Glasgow b. before 1804-01-29 (chronology fits); James Glasgow Oritor gentleman 1826 probate occurrence James Glasgow b. before 1805 d. before 1826 (chronology fits); ballybogy-1825-james-glasgow James Glasgow b. before 1807 d. after 1825 (chronology fits); Glasgow-3196 James Glasgow b. c. 1805 d. c. 1875-02-09 (chronology fits)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Janet); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: different named spouse (Elizabeth (Groff) Glasgow; record names Janet); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (Ann (Andrews) Glasgow; record names Janet); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Janet); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a marriage in 1829; different named spouse (Mary Jane (Black) Glasgow; record names Janet).",
     "profiles": {
       "record-ancestry-glasgow-5203992ee1cc": {
         "role": "Documentary subject: groom",
@@ -113697,7 +113707,7 @@
       "explanation": "Marriage 11 May 1829"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -114797,21 +114807,22 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2331260",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Mary Glasgow, 14 Apr 1828, Saint Cuthberts, Edinburgh, Midlothian, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Mary Glasgow",
       "Marriage Date": "14 Apr 1828",
       "Marriage Place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
-      "Spouse": "James",
-      "Father": "David Glasgow"
+      "Spouse": "James Thom",
+      "Father": "David Glasgow",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Mary Glasgow married James on 14 Apr 1828 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; father David Glasgow. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Mary Glasgow: new catalogue draft record-ancestry-glasgow-567c172632b1, no compatible catalogue person. Ruled out: Glasgow-3090 Marie Glasgow b. 1688-07-29: dates conflict: catalogue birth 1688-07-29 too early for a marriage in 1828; chronology conflict: catalogue events are dated 1688-1688; different named father (George Glasgow; record names David); Glasgow-1310 Marie Glasgow b. before 1674-10-11: dates conflict: catalogue birth before 1674-10-11 too early for a marriage in 1828; chronology conflict: catalogue events are dated 1674-1674; different named father (Allexander Glasgow; record names David); Glasgow-568 Marie Louise (Glasgow) Beckles b. 1901-02-14 d. 1990-07-12: dates conflict: catalogue birth 1901-02-14 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Georgetown, Demerara, Guyana); different named spouse (Edward Beckles; record names James); different named father (Isaac Glasgow; record names David); Glasgow-2270 Marie M (Glasgow) Spindell b. 1903-05-27 d. 1991-12-08: dates conflict: catalogue birth 1903-05-27 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Oklahoma, United States); different named spouse (William Spindell; record names James); different named father (Edwin Lyle Glasgow; record names David); Brunner-2343 Marie Veronica (Brunner) Glasgow b. 1910-03-25 d. 2004-02-15: dates conflict: catalogue birth 1910-03-25 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Chicago, Cook, Illinois, United States); different named spouse (Arthur Joseph Glasgow; record names James); different named father (Louis Anthony Brunner; record names David); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2512 Marie Warden Glasgow b. c. 1896: dates conflict: catalogue birth c. 1896 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Rutherglen, Victoria, Australia); different named father (Charles Glasgow; record names David); Arnold-23449 Mary (Arnold) Glasgow b. 1860-05-05 d. 1914-06-19: dates conflict: catalogue birth 1860-05-05 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Tullahoma, Coffee, Tennessee, United States); different named father (Isaac; record names David); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Auld-1724 Mary (Auld) Glasgow b. before 1728: dates conflict: catalogue birth before 1728 too early for a marriage in 1828; different named spouse (John Glasgow; record names James); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride. father of Mary Glasgow David Glasgow: new catalogue draft record-ancestry-glasgow-38ab11213a0b, held for identity review; compatible catalogue people remain (Glasgow-3458 David Glasgow b. 1765-10-24 (chronology fits, place Saint Cuthberts recorded); record-ancestry-glasgow-f30dfde493ab David Glasgow (place Saint Cuthberts recorded); Glasgow-3456 David Glasgow b. 1744-07-20; Glasgow-2972 David Glasgow b. 1789; Glasgow-3348 David Glasgow b. 1798-06-22; Glasgow-1228 David Glasgow b. 1742-05-12; Glasgow-1218 David Glasgow b. before 1744-04-13; Glasgow-3593 David Glasgow b. before 1755). Ruled out: Glasgow-2076 David Alan Glasgow b. 1953-02-19 d. 1953-02-21: dates conflict: catalogue birth 1953-02-19 too late for a parent in 1828; chronology conflict: catalogue events are dated 1953-1953; place cannot fit: catalogue life recorded only outside the British Isles (Lawrence, Indiana, United States); Glasgow-2260 David Allen Glasgow b. 1890-05-09 d. 1953-12-17: dates conflict: catalogue birth 1890-05-09 too late for a parent in 1828; Glasgow-583 David Charles Glasgow b. 1889-02-12 d. 1975-04-25: dates conflict: catalogue birth 1889-02-12 too late for a parent in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Onehunga, Auckland, New Zealand); Glasgow-1021 David Clarkson Glasgow b. 1924-04-11 d. 1991-06-24: dates conflict: catalogue birth 1924-04-11 too late for a parent in 1828; Glasgow-558 David Crocket Glasgow b. 1840-09-08 d. 1918-09-07: dates conflict: catalogue birth 1840-09-08 too late for a parent in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Wythe County, Virginia, United States); Glasgow-980 David Drummond Glasgow b. 1855-05-02 d. 1929-01-01: dates conflict: catalogue birth 1855-05-02 too late for a parent in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Belmont County, Ohio, United States); Glasgow-866 David Ewen Glasgow b. c. 1933 d. 1934-10-15: dates conflict: catalogue birth c. 1933 too late for a parent in 1828; chronology conflict: catalogue events are dated 1933-1934; place cannot fit: catalogue life recorded only outside the British Isles (Queensland, Australia); Glasgow-145 David Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point).",
+    "note": "The marriage index names Mary Glasgow and James Thom, 14 Apr 1828, Saint Cuthberts, Edinburgh, Midlothian, Scotland. The father field names David Glasgow. bride Mary Glasgow: new catalogue draft record-ancestry-glasgow-567c172632b1, no compatible catalogue person. Ruled out: Glasgow-3090 Marie Glasgow b. 1688-07-29: dates conflict: catalogue birth 1688-07-29 too early for a marriage in 1828; chronology conflict: catalogue events are dated 1688-1688; different named father (George Glasgow; record names David); Glasgow-1310 Marie Glasgow b. before 1674-10-11: dates conflict: catalogue birth before 1674-10-11 too early for a marriage in 1828; chronology conflict: catalogue events are dated 1674-1674; different named father (Allexander Glasgow; record names David); Glasgow-568 Marie Louise (Glasgow) Beckles b. 1901-02-14 d. 1990-07-12: dates conflict: catalogue birth 1901-02-14 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Georgetown, Demerara, Guyana); different named spouse (Edward Beckles; record names James); different named father (Isaac Glasgow; record names David); Glasgow-2270 Marie M (Glasgow) Spindell b. 1903-05-27 d. 1991-12-08: dates conflict: catalogue birth 1903-05-27 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Oklahoma, United States); different named spouse (William Spindell; record names James); different named father (Edwin Lyle Glasgow; record names David); Brunner-2343 Marie Veronica (Brunner) Glasgow b. 1910-03-25 d. 2004-02-15: dates conflict: catalogue birth 1910-03-25 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Chicago, Cook, Illinois, United States); different named spouse (Arthur Joseph Glasgow; record names James); different named father (Louis Anthony Brunner; record names David); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2512 Marie Warden Glasgow b. c. 1896: dates conflict: catalogue birth c. 1896 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Rutherglen, Victoria, Australia); different named father (Charles Glasgow; record names David); Arnold-23449 Mary (Arnold) Glasgow b. 1860-05-05 d. 1914-06-19: dates conflict: catalogue birth 1860-05-05 too late for a marriage in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Tullahoma, Coffee, Tennessee, United States); different named father (Isaac; record names David); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Auld-1724 Mary (Auld) Glasgow b. before 1728: dates conflict: catalogue birth before 1728 too early for a marriage in 1828; different named spouse (John Glasgow; record names James); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride. father of Mary Glasgow David Glasgow: new catalogue draft record-ancestry-glasgow-38ab11213a0b, held for identity review; compatible catalogue people remain (Glasgow-3458 David Glasgow b. 1765-10-24 (chronology fits, place Saint Cuthberts recorded); record-ancestry-glasgow-f30dfde493ab David Glasgow (place Saint Cuthberts recorded); Glasgow-3456 David Glasgow b. 1744-07-20; Glasgow-2972 David Glasgow b. 1789; Glasgow-3348 David Glasgow b. 1798-06-22; Glasgow-1228 David Glasgow b. 1742-05-12; Glasgow-1218 David Glasgow b. before 1744-04-13; Glasgow-3593 David Glasgow b. before 1755). Ruled out: Glasgow-2076 David Alan Glasgow b. 1953-02-19 d. 1953-02-21: dates conflict: catalogue birth 1953-02-19 too late for a parent in 1828; chronology conflict: catalogue events are dated 1953-1953; place cannot fit: catalogue life recorded only outside the British Isles (Lawrence, Indiana, United States); Glasgow-2260 David Allen Glasgow b. 1890-05-09 d. 1953-12-17: dates conflict: catalogue birth 1890-05-09 too late for a parent in 1828; Glasgow-583 David Charles Glasgow b. 1889-02-12 d. 1975-04-25: dates conflict: catalogue birth 1889-02-12 too late for a parent in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Onehunga, Auckland, New Zealand); Glasgow-1021 David Clarkson Glasgow b. 1924-04-11 d. 1991-06-24: dates conflict: catalogue birth 1924-04-11 too late for a parent in 1828; Glasgow-558 David Crocket Glasgow b. 1840-09-08 d. 1918-09-07: dates conflict: catalogue birth 1840-09-08 too late for a parent in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Wythe County, Virginia, United States); Glasgow-980 David Drummond Glasgow b. 1855-05-02 d. 1929-01-01: dates conflict: catalogue birth 1855-05-02 too late for a parent in 1828; place cannot fit: catalogue life recorded only outside the British Isles (Belmont County, Ohio, United States); Glasgow-866 David Ewen Glasgow b. c. 1933 d. 1934-10-15: dates conflict: catalogue birth c. 1933 too late for a parent in 1828; chronology conflict: catalogue events are dated 1933-1934; place cannot fit: catalogue life recorded only outside the British Isles (Queensland, Australia); Glasgow-145 David Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point).",
     "profiles": {
       "record-ancestry-glasgow-567c172632b1": {
         "role": "Documentary subject: bride",
@@ -114831,7 +114842,7 @@
       "explanation": "Marriage 14 Apr 1828"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -115267,20 +115278,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2395334",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Hugh Glasgow, 1 Feb 1830, Kilmarnock, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Hugh Glasgow",
       "Marriage Date": "1 Feb 1830",
       "Marriage Place": "Kilmarnock, Ayr, Scotland",
-      "Spouse": "Jean"
+      "Spouse": "Jean Wyllie",
+      "Gender": "Male"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Hugh Glasgow married Jean on 1 Feb 1830 at Kilmarnock, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom Hugh Glasgow: new catalogue draft record-ancestry-glasgow-642f5fdad8a4, held for identity review; compatible catalogue people remain (Glasgow-4104 Hugh Glasgow b. 1742-08-16 (place Kilmarnock recorded); Glasgow-3956 Hugh Glasgow b. before 1802 (chronology fits); Glasgow-4012 Hugh Glasgow b. before 1807 (chronology fits); Glasgow-3470 Hugh Glasgow b. 1752-07-05 d. 1831; hugh-glasgow-tamlaght-o-crilly-1772-declaration Hugh Glasgow b. before 1754 d. after 1772-04-06; Glasgow-4180 Hugh Glasgow b. c. 1770 d. before 1843-02-14; fmp-glasgow-a0b809464cc9 Hugh Glasgow (unidentified 1751 source cluster)). Ruled out: Glasgow-1067 Hew Glasgow b. 1676-05-24: dates conflict: catalogue birth 1676-05-24 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1676-1676; different named spouse (Mary Dean; record names Jean); Glasgow-1066 Hew Glasgow b. before 1658: dates conflict: catalogue birth before 1658 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1658-1658; different named spouse (Margaret (Lachland) Glasgow; record names Jean); Glasgow-2545 Hugh Adam Glasgow b. c. 1834: dates conflict: catalogue birth c. 1834 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (St. John, New Brunswick); different named spouse (Mary Agnes (Coulter) Glasgow; record names Jean); Glasgow-928 Hugh Esdale Glasgow b. 1896 d. 1969: dates conflict: catalogue birth 1896 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (New Zealand); different named spouse (Alice Ada Winifred (Stephenson) Glasgow; Rebecca Jane (Leathem) Glasgow; record names Jean); Glasgow-3108 Hugh Glasgow b. 1696-01-01: dates conflict: catalogue birth 1696-01-01 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1696-1696; Glasgow-1929 Hugh Glasgow b. 1710-01-30: dates conflict: catalogue birth 1710-01-30 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1710-1710; different named spouse (Margaret (McEachin) Glasgow; Margaret Giffen; record names Jean); unlikely without further evidence: already linked to the 1732 marriage to Margaret (ancestry-60144-1746954); Glasgow-1071 Hugh Glasgow b. 1716-08-05: dates conflict: catalogue birth 1716-08-05 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1716-1716; Glasgow-3426 Hugh Glasgow b. 1736-03: dates conflict: catalogue birth 1736-03 too early for a marriage in 1830.",
+    "note": "The marriage index names Hugh Glasgow and Jean Wyllie, 1 Feb 1830, Kilmarnock, Ayr, Scotland. groom Hugh Glasgow: new catalogue draft record-ancestry-glasgow-642f5fdad8a4, held for identity review; compatible catalogue people remain (Glasgow-4104 Hugh Glasgow b. 1742-08-16 (place Kilmarnock recorded); Glasgow-3956 Hugh Glasgow b. before 1802 (chronology fits); Glasgow-4012 Hugh Glasgow b. before 1807 (chronology fits); Glasgow-3470 Hugh Glasgow b. 1752-07-05 d. 1831; hugh-glasgow-tamlaght-o-crilly-1772-declaration Hugh Glasgow b. before 1754 d. after 1772-04-06; Glasgow-4180 Hugh Glasgow b. c. 1770 d. before 1843-02-14; fmp-glasgow-a0b809464cc9 Hugh Glasgow (unidentified 1751 source cluster)). Ruled out: Glasgow-1067 Hew Glasgow b. 1676-05-24: dates conflict: catalogue birth 1676-05-24 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1676-1676; different named spouse (Mary Dean; record names Jean); Glasgow-1066 Hew Glasgow b. before 1658: dates conflict: catalogue birth before 1658 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1658-1658; different named spouse (Margaret (Lachland) Glasgow; record names Jean); Glasgow-2545 Hugh Adam Glasgow b. c. 1834: dates conflict: catalogue birth c. 1834 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (St. John, New Brunswick); different named spouse (Mary Agnes (Coulter) Glasgow; record names Jean); Glasgow-928 Hugh Esdale Glasgow b. 1896 d. 1969: dates conflict: catalogue birth 1896 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (New Zealand); different named spouse (Alice Ada Winifred (Stephenson) Glasgow; Rebecca Jane (Leathem) Glasgow; record names Jean); Glasgow-3108 Hugh Glasgow b. 1696-01-01: dates conflict: catalogue birth 1696-01-01 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1696-1696; Glasgow-1929 Hugh Glasgow b. 1710-01-30: dates conflict: catalogue birth 1710-01-30 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1710-1710; different named spouse (Margaret (McEachin) Glasgow; Margaret Giffen; record names Jean); unlikely without further evidence: already linked to the 1732 marriage to Margaret (ancestry-60144-1746954); Glasgow-1071 Hugh Glasgow b. 1716-08-05: dates conflict: catalogue birth 1716-08-05 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1716-1716; Glasgow-3426 Hugh Glasgow b. 1736-03: dates conflict: catalogue birth 1736-03 too early for a marriage in 1830.",
     "profiles": {
       "record-ancestry-glasgow-642f5fdad8a4": {
         "role": "Documentary subject: groom",
@@ -115295,7 +115307,7 @@
       "explanation": "Marriage 1 Feb 1830"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -116580,20 +116592,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2609380",
     "source_title": "Scotland, Select Marriages, 1561-1910 — William Glasgow, 8 Jan 1827, Saint Cuthberts, Edinburgh, Midlothian, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "William Glasgow",
       "Marriage Date": "8 Jan 1827",
       "Marriage Place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
-      "Spouse": "Margaret"
+      "Spouse": "Margaret Thomson",
+      "Gender": "Male"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: William Glasgow married Margaret on 8 Jan 1827 at Saint Cuthberts, Edinburgh, Midlothian, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom William Glasgow: new catalogue draft record-ancestry-glasgow-0d79f339ce4a, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-c615b38b160b William Glasgow (place Saint Cuthberts recorded); Glasgow-3392 William Glasgow b. 1795-07-16 (chronology fits); Glasgow-3814 William Glasgow b. c. 1796 d. 1883-07-04 (chronology fits); Glasgow-1231 William Augustus Glasgow b. before 1753-02-25; Glasgow-3647 William Glasgow b. 1784 d. 1865; Glasgow-3401 William Glasgow b. 1792-07-23; Glasgow-4101 William Glasgow b. before 1733-06-12; Glasgow-1320 William Glasgow b. before 1739-04-06). Ruled out: Glasgow-3156 Unknown Glasgow b. before 1860: dates conflict: catalogue birth before 1860 too late for a marriage in 1827; different named spouse (Helen Glasgow Hewitt; record names Margaret); Glasgow-3962 Unknown Glasgow b. c. 1725: dates conflict: catalogue birth c. 1725 too early for a marriage in 1827; Glasgow-3408 Will Glasgow b. 1706-04-16: dates conflict: catalogue birth 1706-04-16 too early for a marriage in 1827; chronology conflict: catalogue events are dated 1706-1706; different named spouse (Jane (Love) Glasgow; record names Margaret); Glasgow-2060 William (glasgow) Glasgow b. 1893-11-23 d. 1958: dates conflict: catalogue birth 1893-11-23 too late for a marriage in 1827; different named spouse (Constance Victoria Lester; record names Margaret); Glasgow-1220 William (Glasgow) Glass b. 1786-05-11 d. 1853-11-24: different named spouse (Maria Magdalena Leenders; record names Margaret); Glasgow-3455 William A Glasgow b. 1875 d. 1965: dates conflict: catalogue birth 1875 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Illinois, United States); different named spouse (Emma Bluhm; record names Margaret); Glasgow-899 William Adams Glasgow b. 1878-11-07 d. 1956-05-15: dates conflict: catalogue birth 1878-11-07 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Clinton, Huron, Ontario, Canada); different named spouse (Maud Ironside; record names Margaret); Glasgow-2182 William Allen Glasgow b. 1824-09-20 d. 1909-09-17: dates conflict: catalogue birth 1824-09-20 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Tranquility, Scott Township, Adams, Ohio, United States); different named spouse (Nancy Ann (Campbell) Glasgow; record names Margaret).",
+    "note": "The marriage index names William Glasgow and Margaret Thomson, 8 Jan 1827, Saint Cuthberts, Edinburgh, Midlothian, Scotland. groom William Glasgow: new catalogue draft record-ancestry-glasgow-0d79f339ce4a, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-c615b38b160b William Glasgow (place Saint Cuthberts recorded); Glasgow-3392 William Glasgow b. 1795-07-16 (chronology fits); Glasgow-3814 William Glasgow b. c. 1796 d. 1883-07-04 (chronology fits); Glasgow-1231 William Augustus Glasgow b. before 1753-02-25; Glasgow-3647 William Glasgow b. 1784 d. 1865; Glasgow-3401 William Glasgow b. 1792-07-23; Glasgow-4101 William Glasgow b. before 1733-06-12; Glasgow-1320 William Glasgow b. before 1739-04-06). Ruled out: Glasgow-3156 Unknown Glasgow b. before 1860: dates conflict: catalogue birth before 1860 too late for a marriage in 1827; different named spouse (Helen Glasgow Hewitt; record names Margaret); Glasgow-3962 Unknown Glasgow b. c. 1725: dates conflict: catalogue birth c. 1725 too early for a marriage in 1827; Glasgow-3408 Will Glasgow b. 1706-04-16: dates conflict: catalogue birth 1706-04-16 too early for a marriage in 1827; chronology conflict: catalogue events are dated 1706-1706; different named spouse (Jane (Love) Glasgow; record names Margaret); Glasgow-2060 William (glasgow) Glasgow b. 1893-11-23 d. 1958: dates conflict: catalogue birth 1893-11-23 too late for a marriage in 1827; different named spouse (Constance Victoria Lester; record names Margaret); Glasgow-1220 William (Glasgow) Glass b. 1786-05-11 d. 1853-11-24: different named spouse (Maria Magdalena Leenders; record names Margaret); Glasgow-3455 William A Glasgow b. 1875 d. 1965: dates conflict: catalogue birth 1875 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Illinois, United States); different named spouse (Emma Bluhm; record names Margaret); Glasgow-899 William Adams Glasgow b. 1878-11-07 d. 1956-05-15: dates conflict: catalogue birth 1878-11-07 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Clinton, Huron, Ontario, Canada); different named spouse (Maud Ironside; record names Margaret); Glasgow-2182 William Allen Glasgow b. 1824-09-20 d. 1909-09-17: dates conflict: catalogue birth 1824-09-20 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Tranquility, Scott Township, Adams, Ohio, United States); different named spouse (Nancy Ann (Campbell) Glasgow; record names Margaret).",
     "profiles": {
       "record-ancestry-glasgow-0d79f339ce4a": {
         "role": "Documentary subject: groom",
@@ -116608,7 +116621,7 @@
       "explanation": "Marriage 8 Jan 1827"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -118687,20 +118700,22 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2910426",
     "source_title": "Scotland, Select Marriages, 1561-1910 — John Glasgow, 30 Aug 1830, Beith, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
       "Marriage Date": "30 Aug 1830",
       "Marriage Place": "Beith, Ayr, Scotland",
-      "Spouse": "Mary"
+      "Spouse": "Mary Boyd",
+      "Gender": "Male",
+      "FHL Film Number": "1041335"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: John Glasgow married Mary on 30 Aug 1830 at Beith, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom John Glasgow linked to Glasgow-3463 (John Glasgow) as a probable identity: chronology fits, spouse Mary (Boyd) Glasgow matches indexed spouse given name Mary, place Beith recorded. Same-name candidates ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1830 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Mary); Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1830; different named spouse (Living person (details withheld); record names Mary); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Mary); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Mary); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
+    "note": "The marriage index names John Glasgow and Mary Boyd, 30 Aug 1830, Beith, Ayr, Scotland. groom John Glasgow linked to Glasgow-3463 (John Glasgow) as a probable identity: chronology fits, spouse Mary (Boyd) Glasgow matches indexed spouse given name Mary, place Beith recorded. Same-name candidates ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1830 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Mary); Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a marriage in 1830; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1830; different named spouse (Living person (details withheld); record names Mary); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Mary); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Mary); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1830; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
     "profiles": {
       "Glasgow-3463": {
         "role": "Probable identity: groom; chronology fits, spouse Mary (Boyd) Glasgow matches indexed spouse given name Mary, place Beith recorded",
@@ -118715,7 +118730,7 @@
       "explanation": "Marriage 30 Aug 1830"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -120573,21 +120588,22 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3183334",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Margaret Glasgow, 26 Jun 1827, Barony, Lanark, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Margaret Glasgow",
       "Marriage Date": "26 Jun 1827",
       "Marriage Place": "Barony, Lanark, Scotland",
-      "Spouse": "David",
-      "Father": "John Glasgow"
+      "Spouse": "David Pirrie",
+      "Father": "John Glasgow",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Margaret Glasgow married David on 26 Jun 1827 at Barony, Lanark, Scotland; father John Glasgow. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Margaret Glasgow: new catalogue draft record-ancestry-glasgow-602399daff87, held for identity review; compatible catalogue people remain (Glasgow-3395 Margaret Glasgow b. 1805-02-09 (chronology fits, father John Glasgow matches); Glasgow-2849 Margaret Glasgow b. 1745 (father John Glasgow matches); Glasgow-3405 Margaret Glasgow b. 1766-09-28 (father John Glasgow matches); Glasgow-3390 Margaret Glasgow b. 1789-03-28 d. before 1805 (father John Glasgow matches); Glasgow-1330 Margaret Glasgow b. before 1753-12-13 (father John Glasgow matches); Glasgow-3068 Margaret Glasgow b. 1806 d. 1836-02-28 (chronology fits); Glasgow-3510 Margaret (Glasgow) Scott b. 1813; Glasgow-3388 Margaret Glasgow b. 1783-05-16). Ruled out: Hayes-21706 Maggie (Hayes) Glasco b. 1895-06-30 d. 1970-07-07: dates conflict: catalogue birth 1895-06-30 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Houston, Harris, Texas, United States); different named father (Parent outside current One-Tree export; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2033 Maggie Emeline Glasgow b. 1903-11-22: dates conflict: catalogue birth 1903-11-22 too late for a marriage in 1827; Glasgow-2525 Maggie Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); Glasgow-4206 Maggie Glasgow b. 1885-01-03 d. 1893-07-05: dates conflict: catalogue birth 1885-01-03 too late for a marriage in 1827; Glasgow-307 Maggie Lou (Glasgow) Sullens b. 1895-12-28 d. 1917-01-01: dates conflict: catalogue birth 1895-12-28 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Kuttawa, Lyon, Kentucky, United States); different named spouse (Oswald A. Sullens; record names David); different named father (Parent outside current One-Tree export; record names John); Glasgow-2021 Maggie Loughlin Glasgow b. c. 1861 d. 1887-06-22: dates conflict: catalogue birth c. 1861 too late for a marriage in 1827; different named father (Silas Ebenezer Glasgow; record names John); Allan-4046 Margaret (Allan) Glasgow b. before 1708-11-18 d. 1790-07-11: dates conflict: catalogue birth before 1708-11-18 too early for a marriage in 1827; died 1790-07-11, before the 1827 marriage; different named spouse (Robert Glasgow; record names David); different named father (Parent outside current One-Tree export; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Anderson-57123 Margaret (Anderson) Glasgow b. 1804-01-11: different named spouse (James Glasgow; record names David); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride. father of Margaret Glasgow John Glasgow: new catalogue draft record-ancestry-glasgow-1fc44a963321, held for identity review; compatible catalogue people remain (Glasgow-822 John Glasgow b. 1767-04-10 d. 1851-12-23 (chronology fits, child Margaret matches a catalogue child); Glasgow-822|Glasgow-3927 John Glasgow b. 1767-04-10 / c. 1767 d. 1851-12-23 (chronology fits, child Margaret matches a catalogue child); Glasgow-822|Arthur-2480 John Glasgow and Mary Arthur b. 1767-04-10 / 1774-03-25 d. 1851-12-23 / 1859-05-17 (chronology fits, child Margaret matches a catalogue child); Glasgow-3314 John Glasgow b. 1740-03-28 (child Margaret matches a catalogue child); Glasgow-3051 John Glasgow b. 1791-01-24 (child Margaret matches a catalogue child); Glasgow-2721 John Glasgow b. 1795 (child Margaret matches a catalogue child); Glasgow-2847 John Glasgow b. before 1730 (child Margaret matches a catalogue child); Glasgow-3298 John Glasgow b. before 1755-04-19 (child Margaret matches a catalogue child)). Ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a parent in 1827; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1827 parent; Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a parent in 1827; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a parent in 1827; Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
+    "note": "The marriage index names Margaret Glasgow and David Pirrie, 26 Jun 1827, Barony, Lanark, Scotland. The father field names John Glasgow. bride Margaret Glasgow: new catalogue draft record-ancestry-glasgow-602399daff87, held for identity review; compatible catalogue people remain (Glasgow-3395 Margaret Glasgow b. 1805-02-09 (chronology fits, father John Glasgow matches); Glasgow-2849 Margaret Glasgow b. 1745 (father John Glasgow matches); Glasgow-3405 Margaret Glasgow b. 1766-09-28 (father John Glasgow matches); Glasgow-3390 Margaret Glasgow b. 1789-03-28 d. before 1805 (father John Glasgow matches); Glasgow-1330 Margaret Glasgow b. before 1753-12-13 (father John Glasgow matches); Glasgow-3068 Margaret Glasgow b. 1806 d. 1836-02-28 (chronology fits); Glasgow-3510 Margaret (Glasgow) Scott b. 1813; Glasgow-3388 Margaret Glasgow b. 1783-05-16). Ruled out: Hayes-21706 Maggie (Hayes) Glasco b. 1895-06-30 d. 1970-07-07: dates conflict: catalogue birth 1895-06-30 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Houston, Harris, Texas, United States); different named father (Parent outside current One-Tree export; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2033 Maggie Emeline Glasgow b. 1903-11-22: dates conflict: catalogue birth 1903-11-22 too late for a marriage in 1827; Glasgow-2525 Maggie Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); Glasgow-4206 Maggie Glasgow b. 1885-01-03 d. 1893-07-05: dates conflict: catalogue birth 1885-01-03 too late for a marriage in 1827; Glasgow-307 Maggie Lou (Glasgow) Sullens b. 1895-12-28 d. 1917-01-01: dates conflict: catalogue birth 1895-12-28 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Kuttawa, Lyon, Kentucky, United States); different named spouse (Oswald A. Sullens; record names David); different named father (Parent outside current One-Tree export; record names John); Glasgow-2021 Maggie Loughlin Glasgow b. c. 1861 d. 1887-06-22: dates conflict: catalogue birth c. 1861 too late for a marriage in 1827; different named father (Silas Ebenezer Glasgow; record names John); Allan-4046 Margaret (Allan) Glasgow b. before 1708-11-18 d. 1790-07-11: dates conflict: catalogue birth before 1708-11-18 too early for a marriage in 1827; died 1790-07-11, before the 1827 marriage; different named spouse (Robert Glasgow; record names David); different named father (Parent outside current One-Tree export; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Anderson-57123 Margaret (Anderson) Glasgow b. 1804-01-11: different named spouse (James Glasgow; record names David); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride. father of Margaret Glasgow John Glasgow: new catalogue draft record-ancestry-glasgow-1fc44a963321, held for identity review; compatible catalogue people remain (Glasgow-822 John Glasgow b. 1767-04-10 d. 1851-12-23 (chronology fits, child Margaret matches a catalogue child); Glasgow-822|Glasgow-3927 John Glasgow b. 1767-04-10 / c. 1767 d. 1851-12-23 (chronology fits, child Margaret matches a catalogue child); Glasgow-822|Arthur-2480 John Glasgow and Mary Arthur b. 1767-04-10 / 1774-03-25 d. 1851-12-23 / 1859-05-17 (chronology fits, child Margaret matches a catalogue child); Glasgow-3314 John Glasgow b. 1740-03-28 (child Margaret matches a catalogue child); Glasgow-3051 John Glasgow b. 1791-01-24 (child Margaret matches a catalogue child); Glasgow-2721 John Glasgow b. 1795 (child Margaret matches a catalogue child); Glasgow-2847 John Glasgow b. before 1730 (child Margaret matches a catalogue child); Glasgow-3298 John Glasgow b. before 1755-04-19 (child Margaret matches a catalogue child)). Ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a parent in 1827; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1827 parent; Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a parent in 1827; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a parent in 1827; Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a parent in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
     "profiles": {
       "record-ancestry-glasgow-602399daff87": {
         "role": "Documentary subject: bride",
@@ -120607,7 +120623,7 @@
       "explanation": "Marriage 26 Jun 1827"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -120669,20 +120685,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3183556",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Margaret Glasgow, 8 Apr 1827, Barony, Lanark, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Margaret Glasgow",
       "Marriage Date": "8 Apr 1827",
       "Marriage Place": "Barony, Lanark, Scotland",
-      "Spouse": "John"
+      "Spouse": "John Adams",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Margaret Glasgow married John on 8 Apr 1827 at Barony, Lanark, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Margaret Glasgow: new catalogue draft record-ancestry-glasgow-8fc46f5e49bb, held for identity review; compatible catalogue people remain (Glasgow-43 Margaret (Glasgow) Walkinshaw b. 1810-10-17 d. 1860-11-12 (spouse John Walkinshaw Jr. matches indexed spouse given name John); Glasgow-4015 Margaret Patton b. before 1787 d. 1884 (spouse John Patton matches indexed spouse given name John); Glasgow-2071 Margaret Glasgow b. 1793 d. 1873-06-24 (chronology fits); Glasgow-3395 Margaret Glasgow b. 1805-02-09 (chronology fits); Glasgow-3068 Margaret Glasgow b. 1806 d. 1836-02-28 (chronology fits); Glasgow-3955 Unknown (Glasgow) Young b. c. 1801 d. c. 1879-08-27 (chronology fits); Glasgow-3510 Margaret (Glasgow) Scott b. 1813; Glasco-149 Margaret Glasco b. 1760). Ruled out: Hayes-21706 Maggie (Hayes) Glasco b. 1895-06-30 d. 1970-07-07: dates conflict: catalogue birth 1895-06-30 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Houston, Harris, Texas, United States); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2033 Maggie Emeline Glasgow b. 1903-11-22: dates conflict: catalogue birth 1903-11-22 too late for a marriage in 1827; Glasgow-2525 Maggie Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); Glasgow-4206 Maggie Glasgow b. 1885-01-03 d. 1893-07-05: dates conflict: catalogue birth 1885-01-03 too late for a marriage in 1827; Glasgow-307 Maggie Lou (Glasgow) Sullens b. 1895-12-28 d. 1917-01-01: dates conflict: catalogue birth 1895-12-28 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Kuttawa, Lyon, Kentucky, United States); different named spouse (Oswald A. Sullens; record names John); Glasgow-2021 Maggie Loughlin Glasgow b. c. 1861 d. 1887-06-22: dates conflict: catalogue birth c. 1861 too late for a marriage in 1827; Allan-4046 Margaret (Allan) Glasgow b. before 1708-11-18 d. 1790-07-11: dates conflict: catalogue birth before 1708-11-18 too early for a marriage in 1827; died 1790-07-11, before the 1827 marriage; different named spouse (Robert Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Anderson-57123 Margaret (Anderson) Glasgow b. 1804-01-11: different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride.",
+    "note": "The marriage index names Margaret Glasgow and John Adams, 8 Apr 1827, Barony, Lanark, Scotland. bride Margaret Glasgow: new catalogue draft record-ancestry-glasgow-8fc46f5e49bb, held for identity review; compatible catalogue people remain (Glasgow-43 Margaret (Glasgow) Walkinshaw b. 1810-10-17 d. 1860-11-12 (spouse John Walkinshaw Jr. matches indexed spouse given name John); Glasgow-4015 Margaret Patton b. before 1787 d. 1884 (spouse John Patton matches indexed spouse given name John); Glasgow-2071 Margaret Glasgow b. 1793 d. 1873-06-24 (chronology fits); Glasgow-3395 Margaret Glasgow b. 1805-02-09 (chronology fits); Glasgow-3068 Margaret Glasgow b. 1806 d. 1836-02-28 (chronology fits); Glasgow-3955 Unknown (Glasgow) Young b. c. 1801 d. c. 1879-08-27 (chronology fits); Glasgow-3510 Margaret (Glasgow) Scott b. 1813; Glasco-149 Margaret Glasco b. 1760). Ruled out: Hayes-21706 Maggie (Hayes) Glasco b. 1895-06-30 d. 1970-07-07: dates conflict: catalogue birth 1895-06-30 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Houston, Harris, Texas, United States); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2033 Maggie Emeline Glasgow b. 1903-11-22: dates conflict: catalogue birth 1903-11-22 too late for a marriage in 1827; Glasgow-2525 Maggie Glasgow: place cannot fit: catalogue life recorded only outside the British Isles (Location not supplied — profile holding point); Glasgow-4206 Maggie Glasgow b. 1885-01-03 d. 1893-07-05: dates conflict: catalogue birth 1885-01-03 too late for a marriage in 1827; Glasgow-307 Maggie Lou (Glasgow) Sullens b. 1895-12-28 d. 1917-01-01: dates conflict: catalogue birth 1895-12-28 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Kuttawa, Lyon, Kentucky, United States); different named spouse (Oswald A. Sullens; record names John); Glasgow-2021 Maggie Loughlin Glasgow b. c. 1861 d. 1887-06-22: dates conflict: catalogue birth c. 1861 too late for a marriage in 1827; Allan-4046 Margaret (Allan) Glasgow b. before 1708-11-18 d. 1790-07-11: dates conflict: catalogue birth before 1708-11-18 too early for a marriage in 1827; died 1790-07-11, before the 1827 marriage; different named spouse (Robert Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Anderson-57123 Margaret (Anderson) Glasgow b. 1804-01-11: different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride.",
     "profiles": {
       "record-ancestry-glasgow-8fc46f5e49bb": {
         "role": "Documentary subject: bride",
@@ -120697,7 +120714,7 @@
       "explanation": "Marriage 8 Apr 1827"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -120813,20 +120830,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3185661",
     "source_title": "Scotland, Select Marriages, 1561-1910 — John Glasgow, 6 Mar 1829, Kilmarnock, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "John Glasgow",
       "Marriage Date": "6 Mar 1829",
       "Marriage Place": "Kilmarnock, Ayr, Scotland",
-      "Spouse": "Janet"
+      "Spouse": "Janet Gemmill",
+      "Gender": "Male"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: John Glasgow married Janet on 6 Mar 1829 at Kilmarnock, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom John Glasgow linked to Glasgow-3051 (John Glasgow) as a probable identity: spouse Janet (Gemmill) Glasgow matches indexed spouse given name Janet, place Kilmarnock recorded. Same-name candidates ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a marriage in 1829; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1829 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Janet); Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a marriage in 1829; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1829; different named spouse (Living person (details withheld); record names Janet); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Janet); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Janet); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
+    "note": "The marriage index names John Glasgow and Janet Gemmill, 6 Mar 1829, Kilmarnock, Ayr, Scotland. groom John Glasgow linked to Glasgow-3051 (John Glasgow) as a probable identity: spouse Janet (Gemmill) Glasgow matches indexed spouse given name Janet, place Kilmarnock recorded. Same-name candidates ruled out: Glasgow-1086 Jhone Glasgow b. 1608 d. c. 1685: dates conflict: catalogue birth 1608 too early for a marriage in 1829; chronology conflict: catalogue events are dated 1608-1685; died c. 1685, before the 1829 marriage; different named spouse (Isobel (Unknown) Glasgow; record names Janet); Glasgow-3913 John / Jo Glascho b. c. 1650 d. after 1700: dates conflict: catalogue birth c. 1650 too early for a marriage in 1829; chronology conflict: catalogue events are dated 1650-1700; Glasgow-3712 John A Glasgow b. 1853 d. after 1860: dates conflict: catalogue birth 1853 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Adams, Ohio, United States); Glasgow-738 John A. Glasgow b. 1871: dates conflict: catalogue birth 1871 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States); Glasgow-1281 John Airlie Glasgow b. c. 1923-12-17 d. c. 1977-12-29: dates conflict: catalogue birth c. 1923-12-17 too late for a marriage in 1829; different named spouse (Living person (details withheld); record names Janet); Glasgow-2446 John Albert Glasgow b. c. 1839 d. 1917-12-09: dates conflict: catalogue birth c. 1839 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Winchester, Ontario); different named spouse (Esther Jane (McConnell) Glasgow; record names Janet); Glasgow-2662 John Alexander Glasgow b. 1847-09-24 d. 1922-09-21: dates conflict: catalogue birth 1847-09-24 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Evansville, Randolph, Illinois, United States); different named spouse (Helena (Berthold) Glasgow; record names Janet); Glasgow-522 John Arthur Glasgow b. 1897-04-01: dates conflict: catalogue birth 1897-04-01 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Pennsylvania, United States).",
     "profiles": {
       "Glasgow-3051": {
         "role": "Probable identity: groom; spouse Janet (Gemmill) Glasgow matches indexed spouse given name Janet, place Kilmarnock recorded",
@@ -120841,7 +120859,7 @@
       "explanation": "Marriage 6 Mar 1829"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -122167,20 +122185,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3437269",
     "source_title": "Scotland, Select Marriages, 1561-1910 — James Glasgow, 11 May 1829, , Kilwinning, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Glasgow",
       "Marriage Date": "11 May 1829",
       "Marriage Place": ", Kilwinning, Ayr, Scotland",
-      "Spouse": "Janet Shedden"
+      "Spouse": "Janet Shedden Barr",
+      "Gender": "Male"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: James Glasgow married Janet Shedden on 11 May 1829 at , Kilwinning, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom James Glasgow linked to record-ancestry-glasgow-5203992ee1cc (James Glasgow) as a probable identity: spouse Janet matches indexed spouse given name Janet, catalogue marriage year 1829 equal. Same-name candidates ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Janet); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: different named spouse (Elizabeth (Groff) Glasgow; record names Janet); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (Ann (Andrews) Glasgow; record names Janet); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Janet); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a marriage in 1829; different named spouse (Mary Jane (Black) Glasgow; record names Janet).",
+    "note": "The marriage index names James Glasgow and Janet Shedden Barr, 11 May 1829, , Kilwinning, Ayr, Scotland. groom James Glasgow linked to record-ancestry-glasgow-5203992ee1cc (James Glasgow) as a probable identity: spouse Janet matches indexed spouse given name Janet, catalogue marriage year 1829 equal. Same-name candidates ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Janet); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: different named spouse (Elizabeth (Groff) Glasgow; record names Janet); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (Ann (Andrews) Glasgow; record names Janet); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Janet); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a marriage in 1829; different named spouse (Mary Jane (Black) Glasgow; record names Janet).",
     "profiles": {
       "record-ancestry-glasgow-5203992ee1cc": {
         "role": "Probable identity: groom; spouse Janet matches indexed spouse given name Janet, catalogue marriage year 1829 equal",
@@ -122195,7 +122214,7 @@
       "explanation": "Marriage 11 May 1829"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -122966,20 +122985,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3533588",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Helen Glasgow, 9 Nov 1827, Cranston, Midlothian, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; identity linked to catalogue profile",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Helen Glasgow",
       "Marriage Date": "9 Nov 1827",
       "Marriage Place": "Cranston, Midlothian, Scotland",
-      "Spouse": "John"
+      "Spouse": "John Fife",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Helen Glasgow married John on 9 Nov 1827 at Cranston, Midlothian, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Helen Glasgow linked to Glasgow-1352 (Helen Glasgow) as a possible identity: chronology fits. Same-name candidates ruled out: Glasgow-1819 Ellen (Glasgow) Faulkner b. 1898-02-26 d. 1986-02-14: dates conflict: catalogue birth 1898-02-26 too late for a marriage in 1827; unlikely: catalogue marriage to John George Faulkner is dated 1922-05-16, not 1827; Glasgow-2037 Ellen (Glasgow) Lamont b. 1874-10-20 d. 1936-04-30: dates conflict: catalogue birth 1874-10-20 too late for a marriage in 1827; different named spouse (Daniel Lamont; record names John); Glasgow-2619 Ellen (Glasgow) McGowan b. c. 1875: dates conflict: catalogue birth c. 1875 too late for a marriage in 1827; Glasgow-2266 Ellen (Glasgow) Trimble b. c. 1831 d. 1893-11-11: dates conflict: catalogue birth c. 1831 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Saint John, St. John, New Brunswick, Canada); different named spouse (Joseph Trimble; record names John); Page-21056 Ellen (Page) Glasgow b. c. 1842: dates conflict: catalogue birth c. 1842 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Rappahannock, Virginia, United States); different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Smith-228705 Ellen (Smith) Glasgow b. c. 1795: different named spouse (Alexander Glasgow Esq; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Hebbard-12 Ellen A (Hebbard) Glasgow b. 1843-02-28 d. 1912-05-20: dates conflict: catalogue birth 1843-02-28 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Zenas Twp, Jennings, Indiana, USA); different named spouse (William R Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-473 Ellen Anderson Gholson Glasgow b. 1873-04-22 d. 1945-11-21: dates conflict: catalogue birth 1873-04-22 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Richmond, Virginia, United States).",
+    "note": "The marriage index names Helen Glasgow and John Fife, 9 Nov 1827, Cranston, Midlothian, Scotland. bride Helen Glasgow linked to Glasgow-1352 (Helen Glasgow) as a possible identity: chronology fits. Same-name candidates ruled out: Glasgow-1819 Ellen (Glasgow) Faulkner b. 1898-02-26 d. 1986-02-14: dates conflict: catalogue birth 1898-02-26 too late for a marriage in 1827; unlikely: catalogue marriage to John George Faulkner is dated 1922-05-16, not 1827; Glasgow-2037 Ellen (Glasgow) Lamont b. 1874-10-20 d. 1936-04-30: dates conflict: catalogue birth 1874-10-20 too late for a marriage in 1827; different named spouse (Daniel Lamont; record names John); Glasgow-2619 Ellen (Glasgow) McGowan b. c. 1875: dates conflict: catalogue birth c. 1875 too late for a marriage in 1827; Glasgow-2266 Ellen (Glasgow) Trimble b. c. 1831 d. 1893-11-11: dates conflict: catalogue birth c. 1831 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Saint John, St. John, New Brunswick, Canada); different named spouse (Joseph Trimble; record names John); Page-21056 Ellen (Page) Glasgow b. c. 1842: dates conflict: catalogue birth c. 1842 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Rappahannock, Virginia, United States); different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Smith-228705 Ellen (Smith) Glasgow b. c. 1795: different named spouse (Alexander Glasgow Esq; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Hebbard-12 Ellen A (Hebbard) Glasgow b. 1843-02-28 d. 1912-05-20: dates conflict: catalogue birth 1843-02-28 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Zenas Twp, Jennings, Indiana, USA); different named spouse (William R Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-473 Ellen Anderson Gholson Glasgow b. 1873-04-22 d. 1945-11-21: dates conflict: catalogue birth 1873-04-22 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Richmond, Virginia, United States).",
     "profiles": {
       "Glasgow-1352": {
         "role": "Possible identity: bride; chronology fits",
@@ -122994,7 +123014,7 @@
       "explanation": "Marriage 9 Nov 1827"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -123012,21 +123032,22 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3538031",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Janet Glasgow, 11 Dec 1829, Saint Cuthberts, Edinburgh, Midlothian, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Janet Glasgow",
       "Marriage Date": "11 Dec 1829",
       "Marriage Place": "Saint Cuthberts, Edinburgh, Midlothian, Scotland",
-      "Spouse": "Thomas",
-      "Father": "William Glasgow"
+      "Spouse": "Thomas Dickson",
+      "Father": "William Glasgow",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Janet Glasgow married Thomas on 11 Dec 1829 at Saint Cuthberts, Edinburgh, Midlothian, Scotland; father William Glasgow. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Janet Glasgow: new catalogue draft record-ancestry-glasgow-471cb1aa77e9, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-f88a8a012d02 Jane Glasgow b. c. 1798 d. 1866 (chronology fits); record-ancestry-glasgow-25cfbf22f33a Janet Glasgow b. c. 1797 d. 1872 (chronology fits); Glasgow-3066 Janet (Glasgow) Scott b. 1791; Glasgow-4137 Janet Glasgow b. before 1748-07-17). Ruled out: Bell-32322 Jane (Bell) Glasgow b. c. 1844 d. 1919-11-13: dates conflict: catalogue birth c. 1844 too late for a marriage in 1829; different named spouse (John Glasgow; record names Thomas); different named father (Parent outside current One-Tree export; record names William); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Bryden-65 Jane (Bryden) Glasgow b. c. 1824 d. c. 1888-07: dates conflict: catalogue birth c. 1824 too late for a marriage in 1829; different named spouse (Peter Glasgow; record names Thomas); different named father (Parent outside current One-Tree export; record names William); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Curry-3099 Jane (Curry) Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (William Glasgow; record names Thomas); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Ferguson-26673 Jane (Ferguson) Glasgow b. 1887: dates conflict: catalogue birth 1887 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Niagara, New York, United States); different named spouse (John Glasgow; record names Thomas); different named father (Thomas Ferguson; record names William); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasco-162 Jane (Glasco) Mendenhall b. c. 1817 d. 1842-10: dates conflict: catalogue birth c. 1817 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States); Glasgow-1663 Jane (Glasgow) Adams b. c. 1850 d. 1930: dates conflict: catalogue birth c. 1850 too late for a marriage in 1829; different named spouse (Alexander Adams; record names Thomas); different named father (Robert Glasgow; record names William); Glasgow-3862 Jane (Glasgow) Aitchison b. 1842: dates conflict: catalogue birth 1842 too late for a marriage in 1829; Glasgow-1727 Jane (Glasgow) Ferguson b. c. 1828 d. 1901-11-24: dates conflict: catalogue birth c. 1828 too late for a marriage in 1829; different named spouse (James Ferguson; record names Thomas); different named father (David Glasgow; record names William). father of Janet Glasgow William Glasgow: new catalogue draft record-ancestry-glasgow-504f4cc0effd, held for identity review; compatible catalogue people remain (Glasgow-1675 William Glasgow b. 1799-03-28 d. 1855-01-21 (child Janet matches a catalogue child); record-ancestry-glasgow-c615b38b160b William Glasgow (place Saint Cuthberts recorded); record-ancestry-glasgow-0d79f339ce4a William Glasgow (place Saint Cuthberts recorded); Glasgow-2965 William Glasgow b. 1771 (chronology fits); Glasgow-563 William Glasgow b. 1778-03-22 d. 1853-01-13 (chronology fits); Glasgow-2130 William Glasgow b. c. 1772 d. c. 1862 (chronology fits); Glasgow-2715 William Glasgow b. c. 1779 (chronology fits); Glasgow-1552 William Glasgow b. c. 1781 d. c. 1853-02-07 (chronology fits)). Ruled out: Glasgow-3156 Unknown Glasgow b. before 1860: dates conflict: catalogue birth before 1860 too late for a parent in 1829; Glasgow-3962 Unknown Glasgow b. c. 1725: dates conflict: catalogue birth c. 1725 too early for a parent in 1829; Glasgow-3408 Will Glasgow b. 1706-04-16: dates conflict: catalogue birth 1706-04-16 too early for a parent in 1829; chronology conflict: catalogue events are dated 1706-1706; Glasgow-2060 William (glasgow) Glasgow b. 1893-11-23 d. 1958: dates conflict: catalogue birth 1893-11-23 too late for a parent in 1829; Glasgow-3455 William A Glasgow b. 1875 d. 1965: dates conflict: catalogue birth 1875 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Illinois, United States); Glasgow-899 William Adams Glasgow b. 1878-11-07 d. 1956-05-15: dates conflict: catalogue birth 1878-11-07 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Clinton, Huron, Ontario, Canada); Glasgow-2182 William Allen Glasgow b. 1824-09-20 d. 1909-09-17: dates conflict: catalogue birth 1824-09-20 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Tranquility, Scott Township, Adams, Ohio, United States); Glasgow-2208 William Allen Glasgow b. 1854-11-22 d. 1932-06-30: dates conflict: catalogue birth 1854-11-22 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Oskaloosa, Mahaska, Iowa, United States).",
+    "note": "The marriage index names Janet Glasgow and Thomas Dickson, 11 Dec 1829, Saint Cuthberts, Edinburgh, Midlothian, Scotland. The father field names William Glasgow. bride Janet Glasgow: new catalogue draft record-ancestry-glasgow-471cb1aa77e9, held for identity review; compatible catalogue people remain (record-ancestry-glasgow-f88a8a012d02 Jane Glasgow b. c. 1798 d. 1866 (chronology fits); record-ancestry-glasgow-25cfbf22f33a Janet Glasgow b. c. 1797 d. 1872 (chronology fits); Glasgow-3066 Janet (Glasgow) Scott b. 1791; Glasgow-4137 Janet Glasgow b. before 1748-07-17). Ruled out: Bell-32322 Jane (Bell) Glasgow b. c. 1844 d. 1919-11-13: dates conflict: catalogue birth c. 1844 too late for a marriage in 1829; different named spouse (John Glasgow; record names Thomas); different named father (Parent outside current One-Tree export; record names William); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Bryden-65 Jane (Bryden) Glasgow b. c. 1824 d. c. 1888-07: dates conflict: catalogue birth c. 1824 too late for a marriage in 1829; different named spouse (Peter Glasgow; record names Thomas); different named father (Parent outside current One-Tree export; record names William); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Curry-3099 Jane (Curry) Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1829; different named spouse (William Glasgow; record names Thomas); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Ferguson-26673 Jane (Ferguson) Glasgow b. 1887: dates conflict: catalogue birth 1887 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Niagara, New York, United States); different named spouse (John Glasgow; record names Thomas); different named father (Thomas Ferguson; record names William); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasco-162 Jane (Glasco) Mendenhall b. c. 1817 d. 1842-10: dates conflict: catalogue birth c. 1817 too late for a marriage in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Ohio, United States); Glasgow-1663 Jane (Glasgow) Adams b. c. 1850 d. 1930: dates conflict: catalogue birth c. 1850 too late for a marriage in 1829; different named spouse (Alexander Adams; record names Thomas); different named father (Robert Glasgow; record names William); Glasgow-3862 Jane (Glasgow) Aitchison b. 1842: dates conflict: catalogue birth 1842 too late for a marriage in 1829; Glasgow-1727 Jane (Glasgow) Ferguson b. c. 1828 d. 1901-11-24: dates conflict: catalogue birth c. 1828 too late for a marriage in 1829; different named spouse (James Ferguson; record names Thomas); different named father (David Glasgow; record names William). father of Janet Glasgow William Glasgow: new catalogue draft record-ancestry-glasgow-504f4cc0effd, held for identity review; compatible catalogue people remain (Glasgow-1675 William Glasgow b. 1799-03-28 d. 1855-01-21 (child Janet matches a catalogue child); record-ancestry-glasgow-c615b38b160b William Glasgow (place Saint Cuthberts recorded); record-ancestry-glasgow-0d79f339ce4a William Glasgow (place Saint Cuthberts recorded); Glasgow-2965 William Glasgow b. 1771 (chronology fits); Glasgow-563 William Glasgow b. 1778-03-22 d. 1853-01-13 (chronology fits); Glasgow-2130 William Glasgow b. c. 1772 d. c. 1862 (chronology fits); Glasgow-2715 William Glasgow b. c. 1779 (chronology fits); Glasgow-1552 William Glasgow b. c. 1781 d. c. 1853-02-07 (chronology fits)). Ruled out: Glasgow-3156 Unknown Glasgow b. before 1860: dates conflict: catalogue birth before 1860 too late for a parent in 1829; Glasgow-3962 Unknown Glasgow b. c. 1725: dates conflict: catalogue birth c. 1725 too early for a parent in 1829; Glasgow-3408 Will Glasgow b. 1706-04-16: dates conflict: catalogue birth 1706-04-16 too early for a parent in 1829; chronology conflict: catalogue events are dated 1706-1706; Glasgow-2060 William (glasgow) Glasgow b. 1893-11-23 d. 1958: dates conflict: catalogue birth 1893-11-23 too late for a parent in 1829; Glasgow-3455 William A Glasgow b. 1875 d. 1965: dates conflict: catalogue birth 1875 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Illinois, United States); Glasgow-899 William Adams Glasgow b. 1878-11-07 d. 1956-05-15: dates conflict: catalogue birth 1878-11-07 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Clinton, Huron, Ontario, Canada); Glasgow-2182 William Allen Glasgow b. 1824-09-20 d. 1909-09-17: dates conflict: catalogue birth 1824-09-20 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Tranquility, Scott Township, Adams, Ohio, United States); Glasgow-2208 William Allen Glasgow b. 1854-11-22 d. 1932-06-30: dates conflict: catalogue birth 1854-11-22 too late for a parent in 1829; place cannot fit: catalogue life recorded only outside the British Isles (Oskaloosa, Mahaska, Iowa, United States).",
     "profiles": {
       "record-ancestry-glasgow-471cb1aa77e9": {
         "role": "Documentary subject: bride",
@@ -123046,7 +123067,7 @@
       "explanation": "Marriage 11 Dec 1829"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -126851,20 +126872,21 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/3990226",
     "source_title": "Scotland, Select Marriages, 1561-1910 — Anne Glasgow, 25 Apr 1828, Gorbals, Lanark, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "Anne Glasgow",
       "Marriage Date": "25 Apr 1828",
       "Marriage Place": "Gorbals, Lanark, Scotland",
-      "Spouse": "John"
+      "Spouse": "John McMillan",
+      "Gender": "Female"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: Anne Glasgow married John on 25 Apr 1828 at Gorbals, Lanark, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. bride Anne Glasgow: new catalogue draft record-ancestry-glasgow-8395b559fd33, held for identity review; compatible catalogue people remain (Glasgow-832 Anna (Glasgow) DeVaughn b. c. 1795 d. c. 1854 (chronology fits); Glasgow-3468 Ann (Glasgow) Douglas b. 1749-08-25; Glasgow-3992 Ann Glasgow b. 1768 d. 1832-05-25; Glasgow-1233 Ann Glasgow b. before 1748-01-17). Ruled out: Andrews-25691 Ann (Andrews) Glasgow b. 1831 d. 1912-05-16: dates conflict: catalogue birth 1831 too late for a marriage in 1828; different named spouse (James Alexander Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Baigrie-43 Ann (Baigrie) Glasgow b. before 1810-12-06: different named spouse (Alexander Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Baigrie-28 Ann (Baigrie) Glasgow b. c. 1816: dates conflict: catalogue birth c. 1816 too late for a marriage in 1828; different named spouse (Alexander Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Denham-2159 Ann (Denham) Glasgow b. 1779-01-24: different named spouse (William Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Duffy-6026 Ann (Duffy) Glasco b. 1756: different named spouse (Thomas Glasco; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2608 Ann (Glasgow) Hogg b. c. 1839 d. 1904-09-10: dates conflict: catalogue birth c. 1839 too late for a marriage in 1828; Glasgow-3950 Ann (Glasgow) McCleery b. before 1838: dates conflict: catalogue birth before 1838 too late for a marriage in 1828; Hartshorne-320 Ann (Hartshorne) Glasgow b. Unknown d. 1784: died 1784, before the 1828 marriage; place cannot fit: catalogue life recorded only outside the British Isles (Cecil County, Maryland); different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride.",
+    "note": "The marriage index names Anne Glasgow and John McMillan, 25 Apr 1828, Gorbals, Lanark, Scotland. bride Anne Glasgow: new catalogue draft record-ancestry-glasgow-8395b559fd33, held for identity review; compatible catalogue people remain (Glasgow-832 Anna (Glasgow) DeVaughn b. c. 1795 d. c. 1854 (chronology fits); Glasgow-3468 Ann (Glasgow) Douglas b. 1749-08-25; Glasgow-3992 Ann Glasgow b. 1768 d. 1832-05-25; Glasgow-1233 Ann Glasgow b. before 1748-01-17). Ruled out: Andrews-25691 Ann (Andrews) Glasgow b. 1831 d. 1912-05-16: dates conflict: catalogue birth 1831 too late for a marriage in 1828; different named spouse (James Alexander Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Baigrie-43 Ann (Baigrie) Glasgow b. before 1810-12-06: different named spouse (Alexander Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Baigrie-28 Ann (Baigrie) Glasgow b. c. 1816: dates conflict: catalogue birth c. 1816 too late for a marriage in 1828; different named spouse (Alexander Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Denham-2159 Ann (Denham) Glasgow b. 1779-01-24: different named spouse (William Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Duffy-6026 Ann (Duffy) Glasco b. 1756: different named spouse (Thomas Glasco; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride; Glasgow-2608 Ann (Glasgow) Hogg b. c. 1839 d. 1904-09-10: dates conflict: catalogue birth c. 1839 too late for a marriage in 1828; Glasgow-3950 Ann (Glasgow) McCleery b. before 1838: dates conflict: catalogue birth before 1838 too late for a marriage in 1828; Hartshorne-320 Ann (Hartshorne) Glasgow b. Unknown d. 1784: died 1784, before the 1828 marriage; place cannot fit: catalogue life recorded only outside the British Isles (Cecil County, Maryland); different named spouse (James Glasgow; record names John); unlikely: catalogue woman is Glasgow by marriage, while this index names her as a Glasgow bride.",
     "profiles": {
       "record-ancestry-glasgow-8395b559fd33": {
         "role": "Documentary subject: bride",
@@ -126879,7 +126901,7 @@
       "explanation": "Marriage 25 Apr 1828"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -127312,20 +127334,22 @@
     "country": "Scotland",
     "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/4026805",
     "source_title": "Scotland, Select Marriages, 1561-1910 — James Glasgow, 28 May 1827, Beith, Ayr, Scotland",
-    "source_type": "Provider index search row",
+    "source_type": "Provider index transcript",
     "record_type": "Marriage index",
     "record_category": "Marriage",
     "status": "Provider index search row; new catalogue draft",
     "source_quality": "provider_derivative",
-    "source_status": "Ancestry search-result row read 2026-11-04; original register uninspected",
-    "source_level": "index",
+    "source_status": "Ancestry marriage index transcript",
+    "source_level": "inspected transcript",
     "indexed_facts": {
       "Name": "James Glasgow",
       "Marriage Date": "28 May 1827",
       "Marriage Place": "Beith, Ayr, Scotland",
-      "Spouse": "Janet Shedden"
+      "Spouse": "Janet Shedden Barr",
+      "Gender": "Male",
+      "FHL Film Number": "1041335"
     },
-    "note": "Ancestry Scotland, Select Marriages, 1561-1910 search-result row: James Glasgow married Janet Shedden on 28 May 1827 at Beith, Ayr, Scotland. Search-result row only: relatives are given names, surnames are not indexed in the row. groom James Glasgow: new catalogue draft record-ancestry-glasgow-b871b615dd49, held for identity review; compatible catalogue people remain (Glasgow-3095 James Glasgow b. 1793-05-11 (chronology fits); Glasgow-3903 James Glasgow b. 1794 d. 1878-12-12 (chronology fits); Glasgow-3346 James Glasgow b. 1794-08-10 (chronology fits); Glasgow-1350 James Glasgow b. before 1794-06-27 (chronology fits); Glasgow-1534 James Glasgow b. 1797-08-22 (chronology fits); Glasgow-4145 James Glasgow b. before 1802 d. before 1836 (chronology fits); Glasgow-1325 James Glasgow b. before 1804-01-29 (chronology fits); James Glasgow Oritor gentleman 1826 probate occurrence James Glasgow b. before 1805 d. before 1826 (chronology fits)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Janet); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: different named spouse (Elizabeth (Groff) Glasgow; record names Janet); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1827; different named spouse (Ann (Andrews) Glasgow; record names Janet); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Janet); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a marriage in 1827; different named spouse (Mary Jane (Black) Glasgow; record names Janet).",
+    "note": "The marriage index names James Glasgow and Janet Shedden Barr, 28 May 1827, Beith, Ayr, Scotland. groom James Glasgow: new catalogue draft record-ancestry-glasgow-b871b615dd49, held for identity review; compatible catalogue people remain (Glasgow-3095 James Glasgow b. 1793-05-11 (chronology fits); Glasgow-3903 James Glasgow b. 1794 d. 1878-12-12 (chronology fits); Glasgow-3346 James Glasgow b. 1794-08-10 (chronology fits); Glasgow-1350 James Glasgow b. before 1794-06-27 (chronology fits); Glasgow-1534 James Glasgow b. 1797-08-22 (chronology fits); Glasgow-4145 James Glasgow b. before 1802 d. before 1836 (chronology fits); Glasgow-1325 James Glasgow b. before 1804-01-29 (chronology fits); James Glasgow Oritor gentleman 1826 probate occurrence James Glasgow b. before 1805 d. before 1826 (chronology fits)). Ruled out: Glasgow-113 James A Glasgow b. 1884-08: dates conflict: catalogue birth 1884-08 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Arkansas, United States); Glasgow-2756 James A Glasgow b. 1893-12: dates conflict: catalogue birth 1893-12 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Alabama, United States); Glasko-22 James A Glasko b. 1860: dates conflict: catalogue birth 1860 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Connecticut, United States); Glasgow-3420 James Adam Glasgow b. 1874 d. 1945-08-27: dates conflict: catalogue birth 1874 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Westland, New Zealand); different named spouse (Ethel Marion (Redward) Glasgow; record names Janet); Glasgow-45 James Albert Glasgow b. c. 1796 d. c. 1878-03: different named spouse (Elizabeth (Groff) Glasgow; record names Janet); Glasgow-3265 James Alexander Glasgow b. 1835: dates conflict: catalogue birth 1835 too late for a marriage in 1827; different named spouse (Ann (Andrews) Glasgow; record names Janet); Glasgow-1673 James Alexander Glasgow b. 1867-01-11 d. 1949: dates conflict: catalogue birth 1867-01-11 too late for a marriage in 1827; place cannot fit: catalogue life recorded only outside the British Isles (Halifax, Halifax, Nova Scotia, Canada); different named spouse (Genette Mae (Grant) Glasgow; record names Janet); Glasgow-1724 James Alexander Glasgow b. c. 1863 d. 1935-05-24: dates conflict: catalogue birth c. 1863 too late for a marriage in 1827; different named spouse (Mary Jane (Black) Glasgow; record names Janet).",
     "profiles": {
       "record-ancestry-glasgow-b871b615dd49": {
         "role": "Documentary subject: groom",
@@ -127340,7 +127364,7 @@
       "explanation": "Marriage 28 May 1827"
     },
     "provenance": "private Ancestry capture glasgow-records/scotland-select-marriages-1561-1910-60144/results-AH.csv",
-    "reviewed_on": "2026-11-04",
+    "reviewed_on": "2026-11-06",
     "publish_to_record_index": true,
     "reference": "Original data: Scotland, Marriages, 1561-1910 (FamilySearch index of Scottish parish registers)"
   },
@@ -465411,5 +465435,144 @@
     "reviewed_on": "2026-11-06",
     "publish_to_record_index": false,
     "reference": "Ancestry image 085400457"
+  },
+  {
+    "record_id": "ancestry-60144-465583",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/465583",
+    "collection": "Scotland, Select Marriages, 1561–1910",
+    "person": "Catharine Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/465583",
+    "source_title": "Ancestry, Scotland, Select Marriages, 1561–1910: Catharine Glasgow and Edward Oswald, 20 Oct 1827, record 60144/465583",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index transcript",
+    "indexed_facts": {
+      "Name": "Catharine Glasgow",
+      "Gender": "Female",
+      "Marriage Date": "20 Oct 1827",
+      "Marriage Place": "Edinburgh, Edinburghshire, Scotland, United Kingdom",
+      "Spouse": "Edward Oswald"
+    },
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "date": "20 Oct 1827",
+    "year": 1827,
+    "date_status": "event_date",
+    "place": "Edinburgh, Edinburghshire, Scotland, United Kingdom",
+    "country": "Scotland",
+    "event_role": "bride",
+    "association": "Catharine Glasgow and Edward Oswald — marriage",
+    "note": "The marriage index names Catharine Glasgow and Edward Oswald, 20 Oct 1827, Edinburgh, Edinburghshire, Scotland, United Kingdom.",
+    "status": "Documentary source; identity held",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "profiles": {
+      "record-ancestry-glasgow-catharine-oswald-1827-465583": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-60144-646119",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/646119",
+    "collection": "Scotland, Select Marriages, 1561–1910",
+    "person": "John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/646119",
+    "source_title": "Ancestry, Scotland, Select Marriages, 1561–1910: John Glasgow and Janet Gemmell, 2 Mar 1829, record 60144/646119",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index transcript",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "2 Mar 1829",
+      "Marriage Place": "Riccarton, Ayr, Scotland",
+      "Spouse": "Janet Gemmell"
+    },
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "date": "2 Mar 1829",
+    "year": 1829,
+    "date_status": "event_date",
+    "place": "Riccarton, Ayr, Scotland",
+    "country": "Scotland",
+    "event_role": "groom",
+    "association": "John Glasgow and Janet Gemmell — marriage",
+    "note": "The marriage index names John Glasgow and Janet Gemmell, 2 Mar 1829, Riccarton, Ayr, Scotland. The Kilmarnock index gives 6 Mar 1829 and spells the surname Gemmill. The dates and places are retained separately.",
+    "status": "Matched existing historical dossiers",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-3051": {
+        "role": "Groom; same couple as the Kilmarnock entry",
+        "assessment": "confident",
+        "timeline_group": "Life events"
+      },
+      "Gemmill-363": {
+        "role": "Bride; same couple as the Kilmarnock entry",
+        "assessment": "confident",
+        "timeline_group": "Life events"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60144-3185661"
+    ]
+  },
+  {
+    "record_id": "ancestry-60144-840633",
+    "provider": "Ancestry",
+    "provider_record_id": "60144/840633",
+    "collection": "Scotland, Select Marriages, 1561–1910",
+    "person": "Ralph Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/840633",
+    "source_title": "Ancestry, Scotland, Select Marriages, 1561–1910: Ralph Glasgow and Ann McLean, 24 Aug 1828, record 60144/840633",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Ancestry marriage index transcript",
+    "indexed_facts": {
+      "Name": "Ralph Glasgow",
+      "Gender": "Male",
+      "Marriage Date": "24 Aug 1828",
+      "Marriage Place": "Barony, Lanark, Scotland",
+      "Spouse": "Ann McLean"
+    },
+    "record_type": "Marriage index",
+    "record_category": "Marriages",
+    "date": "24 Aug 1828",
+    "year": 1828,
+    "date_status": "event_date",
+    "place": "Barony, Lanark, Scotland",
+    "country": "Scotland",
+    "event_role": "groom",
+    "association": "Ralph Glasgow and Ann McLean — marriage",
+    "note": "The marriage index names Ralph Glasgow and Ann McLean, 24 Aug 1828, Barony, Lanark, Scotland.",
+    "status": "Matched existing historical dossiers",
+    "provenance": "Ancestry, Scotland, Select Marriages, 1561–1910.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "profiles": {
+      "Glasgow-1537": {
+        "role": "Groom; matches the Barony marriage and the couple’s child’s baptism",
+        "assessment": "confident",
+        "timeline_group": "Life events"
+      },
+      "McLean-13890": {
+        "role": "Bride; matches the Barony marriage and the couple’s child’s baptism",
+        "assessment": "confident",
+        "timeline_group": "Life events"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60143-23299031"
+    ]
   }
 ]
