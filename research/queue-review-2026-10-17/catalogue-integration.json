@@ -409757,6 +409757,187 @@
         "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1681100",
         "reason": "The index gives age 79 in 1932 and estimates birth as 14 Feb 1853."
       }
+    },
+    {
+      "catalogue_id": "record-father-john-glasgow-canongate-agnes-goodwin",
+      "subject_id": "father-john-glasgow-canongate-agnes-goodwin",
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Not recorded; born before 1805 (DERIVED from a daughter marrying in 1825).",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1805,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/715503",
+        "basis_kind": "record",
+        "explanation": "Daughter married 1825"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60144/records/715503",
+      "research_subject_url": "/people/record-father-john-glasgow-canongate-agnes-goodwin.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261106.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nJohn Glasgow is named as father of the bride in the marriage index entry for Agnes Glasgow and Alexander Goodwin, 8 Jul 1825, Canongate, Edinburgh. Agnes Glasgow and Alexander Goodwin, 8 Jul 1825, Canongate; father of the bride John Glasgow.<ref name=\"anc715503\">[https://www.ancestry.co.uk/search/collections/60144/records/715503 Ancestry Scotland, Select Marriages, 1561-1910: Agnes Glasgow and Alexander Goodwin, 8 Jul 1825, Canongate, Edinburgh]. Ancestry index entry; original register uninspected.</ref>\n\n== Research Notes ==\nA2 father review, 2026-11-06: Named only as John Glasgow, father of Agnes. The Greenlaw (Berwickshire) entry of 15 Jul 1825 records the same couple without a father.<ref name=\"anc2716168\">[https://www.ancestry.co.uk/search/collections/60144/records/2716168 Ancestry Scotland, Select Marriages, 1561-1910: Agnes Glasgow and Alexander Goodwin, 15 Jul 1825, Greenlaw]. Ancestry index entry; no father named; original register uninspected.</ref> Identity hold.\n\n== Sources ==\n<references />\n",
+      "assessment": "John Glasgow is known here only from the Canongate marriage index entry naming him as father of Agnes Glasgow, bride of Alexander Goodwin (1825). No compatible catalogue person was found.",
+      "current_conclusion": "John Glasgow is known here only as the father of the bride in the 8 Jul 1825 Canongate marriage entry for Agnes Glasgow and Alexander Goodwin. Identity hold: no residence, occupation or age is given.",
+      "current_questions": [
+        "Inspect the Canongate and Greenlaw original entries for residence and occupation.",
+        "Search for a baptism of Agnes Glasgow c. 1795-1805 naming a John Glasgow."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-06",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant, plus the family groups from the saved index",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry Scotland, Select Marriages, 1561-1910: Agnes Glasgow and Alexander Goodwin, 8 Jul 1825, Canongate, Edinburgh",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/715503",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (A2, read 2026-11-06)",
+          "year": "1825",
+          "filter_year": 1825,
+          "record_location": "Canongate, Edinburgh, Midlothian, Scotland",
+          "region": "Scotland",
+          "association": "Agnes Glasgow and Alexander Goodwin, 8 Jul 1825, Canongate; father of the bride John Glasgow",
+          "note": "",
+          "evidence": "Provider index entry"
+        },
+        {
+          "source_title": "Ancestry Scotland, Select Marriages, 1561-1910: Agnes Glasgow and Alexander Goodwin, 15 Jul 1825, Greenlaw",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60144/records/2716168",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (A2, read 2026-11-06)",
+          "year": "1825",
+          "filter_year": 1825,
+          "record_location": "Greenlaw, Berwick, Scotland",
+          "region": "Scotland",
+          "association": "Agnes Glasgow and Alexander Goodwin, 15 Jul 1825, Greenlaw (same couple; no father named)",
+          "note": "",
+          "evidence": "Provider index entry"
+        }
+      ]
+    },
+    {
+      "catalogue_id": "record-father-william-glasgow-bengal-amelia",
+      "subject_id": "father-william-glasgow-bengal-amelia",
+      "name": "William Glasgow",
+      "first_names": [
+        "William"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_note": "Not recorded; born before 1805 (DERIVED from a child born in 1825).",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "occupations": [],
+      "historical_basis": {
+        "latest_birth_year": 1805,
+        "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1271490",
+        "basis_kind": "record",
+        "explanation": "Child born 1825"
+      },
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/9899/records/1271490",
+      "research_subject_url": "/people/record-father-william-glasgow-bengal-amelia.html",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/tentative-fathers-20261106.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nWilliam Glasgow is named as father in five Bengal baptism index entries, four of them with a wife Amelia. William Glasgow born 6 Sep 1825 at Barrackpore, baptised 26 Jan 1826; father William, mother Amelia.<ref name=\"anc1271490\">[https://www.ancestry.co.uk/search/collections/9899/records/1271490 Ancestry India, Select Births and Baptisms, 1786-1947: William Glasgow, born 6 Sep 1825, Barrackpore, Bengal]. Ancestry index entry; original register uninspected.</ref> Amelia Magdalene Glasgow born 22 Nov 1830, baptised 27 Jul 1831 at Etawah; father William, mother Amelia.<ref name=\"anc362341\">[https://www.ancestry.co.uk/search/collections/9899/records/362341 Ancestry India, Select Births and Baptisms, 1786-1947: Amelia Magdalene Glasgow, born 22 Nov 1830, Etawah, Bengal]. Ancestry index entry; original register uninspected.</ref> Eliza Graves Glasgow born 5 Aug 1836, baptised 9 Oct 1836 at Serampore; father William, mother Amelia.<ref name=\"anc247030\">[https://www.ancestry.co.uk/search/collections/9899/records/247030 Ancestry India, Select Births and Baptisms, 1786-1947: Eliza Graves Glasgow, born 5 Aug 1836, Serampore, Bengal]. Ancestry index entry; original register uninspected.</ref> Harrietta Fordyce Glasgow born 11 Oct 1838 at Dehra; father William, mother Amelia.<ref name=\"anc794514\">[https://www.ancestry.co.uk/search/collections/9899/records/794514 Ancestry India, Select Births and Baptisms, 1786-1947: Harrietta Fordyce Glasgow, born 11 Oct 1838, Dehra, Bengal]. Ancestry index entry; original register uninspected.</ref> George Thomas James Dennis Glasgow born 6 Sep 1840, baptised 8 Oct 1842; father William (no mother named).<ref name=\"anc1390692\">[https://www.ancestry.co.uk/search/collections/9899/records/1390692 Ancestry India, Select Births and Baptisms, 1786-1947: George Thomas James Dennis Glasgow, born 6 Sep 1840, baptised 8 Oct 1842, Bengal]. Ancestry index entry; original register uninspected.</ref>\n\n== Research Notes ==\nA2 father review, 2026-11-06: Named only as William Glasgow, father, with a wife Amelia, in Bengal baptisms at Barrackpore (1825), Etawah (1830), Serampore (1836), Dehra (1838) and an unplaced Bengal entry (1840, no mother named). Station-to-station moves of one family are the likely reading, but identity across the entries is a name-and-wife match. Identity hold.\n\n== Sources ==\n<references />\n",
+      "assessment": "William Glasgow is known here from the Ancestry index entries that name him as a father (Bengal, India). No compatible catalogue person was found; a documentary draft is proposed as the father of the five children listed.",
+      "current_conclusion": "William Glasgow is known here from the Ancestry index entries that name him as a father. Named only as William Glasgow with a wife Amelia in baptisms at Barrackpore (1825), Etawah (1830), Serampore (1836), Dehra (1838) and Bengal (1840). Identity hold: no rank, regiment or occupation is given, and the stations are not shown to be one household beyond the shared names.",
+      "current_questions": [
+        "Inspect the original Bengal registers for rank, regiment, occupation and the marriage of William and Amelia.",
+        "Look for the marriage of William Glasgow and Amelia (probably before 1825) and for Amelia's surname."
+      ],
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-06",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "All catalogue people and SI2 drafts with a compatible given name and a Glasgow-surname variant, plus the family groups from the saved index",
+        "candidates": [],
+        "conclusion": "identity_hold"
+      },
+      "records": [
+        {
+          "source_title": "Ancestry India, Select Births and Baptisms, 1786-1947: William Glasgow, born 6 Sep 1825, Barrackpore, Bengal",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1271490",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (A2, read 2026-11-06)",
+          "year": "1826",
+          "filter_year": 1826,
+          "record_location": "Barrackpore, Bengal, India",
+          "region": "India",
+          "association": "William Glasgow born 6 Sep 1825 at Barrackpore, baptised 26 Jan 1826; father William, mother Amelia",
+          "note": "",
+          "evidence": "Provider index entry"
+        },
+        {
+          "source_title": "Ancestry India, Select Births and Baptisms, 1786-1947: Amelia Magdalene Glasgow, born 22 Nov 1830, Etawah, Bengal",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/362341",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (A2, read 2026-11-06)",
+          "year": "1831",
+          "filter_year": 1831,
+          "record_location": "Etawah, Bengal, India",
+          "region": "India",
+          "association": "Amelia Magdalene Glasgow born 22 Nov 1830, baptised 27 Jul 1831 at Etawah; father William, mother Amelia",
+          "note": "",
+          "evidence": "Provider index entry"
+        },
+        {
+          "source_title": "Ancestry India, Select Births and Baptisms, 1786-1947: Eliza Graves Glasgow, born 5 Aug 1836, Serampore, Bengal",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/247030",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (A2, read 2026-11-06)",
+          "year": "1836",
+          "filter_year": 1836,
+          "record_location": "Serampore, Bengal, India",
+          "region": "India",
+          "association": "Eliza Graves Glasgow born 5 Aug 1836, baptised 9 Oct 1836 at Serampore; father William, mother Amelia",
+          "note": "",
+          "evidence": "Provider index entry"
+        },
+        {
+          "source_title": "Ancestry India, Select Births and Baptisms, 1786-1947: Harrietta Fordyce Glasgow, born 11 Oct 1838, Dehra, Bengal",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/794514",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (A2, read 2026-11-06)",
+          "year": "1838",
+          "filter_year": 1838,
+          "record_location": "Dehra, Bengal, India",
+          "region": "India",
+          "association": "Harrietta Fordyce Glasgow born 11 Oct 1838 at Dehra; father William, mother Amelia",
+          "note": "",
+          "evidence": "Provider index entry"
+        },
+        {
+          "source_title": "Ancestry India, Select Births and Baptisms, 1786-1947: George Thomas James Dennis Glasgow, born 6 Sep 1840, baptised 8 Oct 1842, Bengal",
+          "source_url": "https://www.ancestry.co.uk/search/collections/9899/records/1390692",
+          "source_type": "Provider index entry",
+          "source_status": "Ancestry index entry; original register uninspected (A2, read 2026-11-06)",
+          "year": "1842",
+          "filter_year": 1842,
+          "record_location": "Bengal, India",
+          "region": "India",
+          "association": "George Thomas James Dennis Glasgow born 6 Sep 1840, baptised 8 Oct 1842; father William (no mother named)",
+          "note": "",
+          "evidence": "Provider index entry"
+        }
+      ]
     }
   ]
 }

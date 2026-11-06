@@ -113917,6 +113917,910 @@
     }
   },
   {
+    "assertion_id": "clm-a2-glasgow-3174-father-20261106",
+    "people": [
+      "Glasgow-3174",
+      "record-ancestry-glasgow-653f0fa6f237"
+    ],
+    "claim": "Benjamin Glasgow (east London, wife Mary) is recorded or proposed as the father of Eliza Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3174": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-653f0fa6f237": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-55107226"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-653f0fa6f237",
+        "source_basis": "Before 6 November 2026 Eliza Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Glasgow-3174 Eliza Glasgow is given a birth in 1816 at Aldgate, City of London, and a death on 12 Jan 1836 in Australia (Digital Panopticon convict record). The documentary Benjamin Glasgow and Mary of east London had an Eliza born 29 Mar 1818 and christened 13 Apr 1818 at Saint Leonards, Shoreditch (ancestry-9841-55107226). Same forename, same part of London, two years apart; the only dated Eliza Glasgow of that district in the held records.",
+    "assessment_history": [],
+    "reason": "Glasgow-3174 Eliza Glasgow is given a birth in 1816 at Aldgate, City of London, and a death on 12 Jan 1836 in Australia (Digital Panopticon convict record). The documentary Benjamin Glasgow and Mary of east London had an Eliza born 29 Mar 1818 and christened 13 Apr 1818 at Saint Leonards, Shoreditch (ancestry-9841-55107226). Same forename, same part of London, two years apart; the only dated Eliza Glasgow of that district in the held records.",
+    "limitations": "The year differs by two and the places (Aldgate and Shoreditch) are different parishes; no record joins the convict to the Shoreditch girl, and the held records are not exhaustive for London. The Old Bailey age would settle it.",
+    "probability": {
+      "value": 0.15,
+      "reviewed": "2026-11-06",
+      "basis": "Glasgow-3174 Eliza Glasgow is given a birth in 1816 at Aldgate, City of London, and a death on 12 Jan 1836 in Australia (Digital Panopticon convict record). The documentary Benjamin Glasgow and Mary of east London had an Eliza born 29 Mar 1818 and christened 13 Apr 1818 at Saint Leonards, Shoreditch (ancestry-9841-55107226). Same forename, same part of London, two years apart; the only dated Eliza Glasgow of that district in the held records.",
+      "source_ids": [
+        "ancestry-9841-55107226"
+      ],
+      "scope": "The year differs by two and the places (Aldgate and Shoreditch) are different parishes; no record joins the convict to the Shoreditch girl, and the held records are not exhaustive for London. The Old Bailey age would settle it."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3174.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3174": "Eliza Glasgow",
+      "record-ancestry-glasgow-653f0fa6f237": "Benjamin Glasgow (east London, wife Mary)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-glasgow-34-father-20261106",
+    "people": [
+      "Glasgow-34",
+      "record-ancestry-glasgow-841d3863dc62"
+    ],
+    "claim": "James Glasgow (St Cuthbert's, Edinburgh, wife Ann Brash) is recorded or proposed as the father of Thomas Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-34": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-841d3863dc62": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-11828538",
+      "ancestry-60143-16451127"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-841d3863dc62",
+        "source_basis": "Before 6 November 2026 Thomas Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Glasgow-34 Thomas Glasgow is given as born about 1832 at Edinburgh, died about 1884 at Edinburgh, married to Margaret Newlands. A Thomas Glasgow was born 7 Sep 1833 at St Cuthbert's, Edinburgh, to James Glasgow and Ann Brash (ancestry-60143-11828538 and /16451127). Same forename, Edinburgh, and a year within one of the profile's estimate; the record integration already treats the baptised Thomas as a separate documentary child (record-ancestry-glasgow-af6982256c3c).",
+    "assessment_history": [],
+    "reason": "Glasgow-34 Thomas Glasgow is given as born about 1832 at Edinburgh, died about 1884 at Edinburgh, married to Margaret Newlands. A Thomas Glasgow was born 7 Sep 1833 at St Cuthbert's, Edinburgh, to James Glasgow and Ann Brash (ancestry-60143-11828538 and /16451127). Same forename, Edinburgh, and a year within one of the profile's estimate; the record integration already treats the baptised Thomas as a separate documentary child (record-ancestry-glasgow-af6982256c3c).",
+    "limitations": "The profile's birth year is only an estimate and no record joins Glasgow-34 to the 1833 baptism; Thomas is among the commonest Edinburgh Glasgow forenames, and other Thomases of 1830-1835 may exist outside the held records. This is a possible identity, not a record of parentage; on that reading Glasgow-34 and the documentary child should be merged.",
+    "probability": {
+      "value": 0.18,
+      "reviewed": "2026-11-06",
+      "basis": "Glasgow-34 Thomas Glasgow is given as born about 1832 at Edinburgh, died about 1884 at Edinburgh, married to Margaret Newlands. A Thomas Glasgow was born 7 Sep 1833 at St Cuthbert's, Edinburgh, to James Glasgow and Ann Brash (ancestry-60143-11828538 and /16451127). Same forename, Edinburgh, and a year within one of the profile's estimate; the record integration already treats the baptised Thomas as a separate documentary child (record-ancestry-glasgow-af6982256c3c).",
+      "source_ids": [
+        "ancestry-60143-11828538",
+        "ancestry-60143-16451127"
+      ],
+      "scope": "The profile's birth year is only an estimate and no record joins Glasgow-34 to the 1833 baptism; Thomas is among the commonest Edinburgh Glasgow forenames, and other Thomases of 1830-1835 may exist outside the held records. This is a possible identity, not a record of parentage; on that reading Glasgow-34 and the documentary child should be merged."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-34.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-34": "Thomas Glasgow",
+      "record-ancestry-glasgow-841d3863dc62": "James Glasgow (St Cuthbert's, Edinburgh, wife Ann Brash)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-glasgow-482-father-20261106",
+    "people": [
+      "Glasgow-482",
+      "record-father-william-glasgow-bengal-amelia"
+    ],
+    "claim": "William Glasgow (Bengal, wife Amelia) is recorded or proposed as the father of Amelia Magdaline (Glasgow) Belson in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-482": {
+        "relationship": "father"
+      },
+      "record-father-william-glasgow-bengal-amelia": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9899-362341",
+      "ancestry-9899-4204",
+      "ancestry-9901-116006"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-william-glasgow-bengal-amelia",
+        "source_basis": "Before 6 November 2026 Amelia Magdaline (Glasgow) Belson had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry India, Select Births and Baptisms entries for Amelia Magdalene Glasgow, born 22 Nov 1830 and baptised 27 Jul 1831 at Etawah, Bengal (https://www.ancestry.co.uk/search/collections/9899/records/362341 and /4204), name father William Glasgow and mother Amelia. The catalogue's Glasgow-482 Amelia Magdaline (Glasgow) Belson, born 1830, married Henry Belson at Mussoorie on 7 Dec 1846 aged 16 (ancestry-9901-116006): the age and the forename fit the Etawah baby, who would have been 16 on that day. On that identification her father is the documentary William Glasgow (wife Amelia) of the Bengal entries.",
+    "assessment_history": [],
+    "reason": "The Ancestry India, Select Births and Baptisms entries for Amelia Magdalene Glasgow, born 22 Nov 1830 and baptised 27 Jul 1831 at Etawah, Bengal (https://www.ancestry.co.uk/search/collections/9899/records/362341 and /4204), name father William Glasgow and mother Amelia. The catalogue's Glasgow-482 Amelia Magdaline (Glasgow) Belson, born 1830, married Henry Belson at Mussoorie on 7 Dec 1846 aged 16 (ancestry-9901-116006): the age and the forename fit the Etawah baby, who would have been 16 on that day. On that identification her father is the documentary William Glasgow (wife Amelia) of the Bengal entries.",
+    "limitations": "The identification of the baptised Amelia with Glasgow-482 is held at 'identity_hold' by the record integration (forename, birth year and marriage age agree, no document joins them); this link is capped below the baptism-only figure for that reason. Father known only as a name in index entries. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.78,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry India, Select Births and Baptisms entries for Amelia Magdalene Glasgow, born 22 Nov 1830 and baptised 27 Jul 1831 at Etawah, Bengal (https://www.ancestry.co.uk/search/collections/9899/records/362341 and /4204), name father William Glasgow and mother Amelia. The catalogue's Glasgow-482 Amelia Magdaline (Glasgow) Belson, born 1830, married Henry Belson at Mussoorie on 7 Dec 1846 aged 16 (ancestry-9901-116006): the age and the forename fit the Etawah baby, who would have been 16 on that day. On that identification her father is the documentary William Glasgow (wife Amelia) of the Bengal entries.",
+      "source_ids": [
+        "ancestry-9899-362341",
+        "ancestry-9899-4204",
+        "ancestry-9901-116006"
+      ],
+      "scope": "The identification of the baptised Amelia with Glasgow-482 is held at 'identity_hold' by the record integration (forename, birth year and marriage age agree, no document joins them); this link is capped below the baptism-only figure for that reason. Father known only as a name in index entries. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-482.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-482": "Amelia Magdaline (Glasgow) Belson",
+      "record-father-william-glasgow-bengal-amelia": "William Glasgow (Bengal, wife Amelia)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-46a180d4aa36-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-46a180d4aa36",
+      "record-father-john-glasgow-canongate-agnes-goodwin"
+    ],
+    "claim": "John Glasgow (father of Agnes, m. Alexander Goodwin 1825) is recorded or proposed as the father of Agnes Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-46a180d4aa36": {
+        "relationship": "father"
+      },
+      "record-father-john-glasgow-canongate-agnes-goodwin": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60144-715503",
+      "ancestry-60144-2716168"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-john-glasgow-canongate-agnes-goodwin",
+        "source_basis": "Before 6 November 2026 Agnes Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry Scotland, Select Marriages entry for Agnes Glasgow and Alexander Goodwin, 8 Jul 1825 at Canongate, Edinburgh (https://www.ancestry.co.uk/search/collections/60144/records/715503), has the father field John Glasgow; the Greenlaw entry of 15 Jul 1825 (ancestry-60144-2716168) records the same couple. The father is the documentary John Glasgow named there.",
+    "assessment_history": [],
+    "reason": "The Ancestry Scotland, Select Marriages entry for Agnes Glasgow and Alexander Goodwin, 8 Jul 1825 at Canongate, Edinburgh (https://www.ancestry.co.uk/search/collections/60144/records/715503), has the father field John Glasgow; the Greenlaw entry of 15 Jul 1825 (ancestry-60144-2716168) records the same couple. The father is the documentary John Glasgow named there.",
+    "limitations": "The father is known only by name; the entry gives no residence, occupation or age. The bride is a documentary subject (identity_hold) and could be one of several catalogue Agnes Glasgows (Glasgow-3402, Glasgow-1349 among them); the link is to the father of the bride in the record. A marriage index records her father's name, not her baptism. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry Scotland, Select Marriages entry for Agnes Glasgow and Alexander Goodwin, 8 Jul 1825 at Canongate, Edinburgh (https://www.ancestry.co.uk/search/collections/60144/records/715503), has the father field John Glasgow; the Greenlaw entry of 15 Jul 1825 (ancestry-60144-2716168) records the same couple. The father is the documentary John Glasgow named there.",
+      "source_ids": [
+        "ancestry-60144-715503",
+        "ancestry-60144-2716168"
+      ],
+      "scope": "The father is known only by name; the entry gives no residence, occupation or age. The bride is a documentary subject (identity_hold) and could be one of several catalogue Agnes Glasgows (Glasgow-3402, Glasgow-1349 among them); the link is to the father of the bride in the record. A marriage index records her father's name, not her baptism. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-46a180d4aa36.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-46a180d4aa36": "Agnes Glasgow",
+      "record-father-john-glasgow-canongate-agnes-goodwin": "John Glasgow (father of Agnes, m. Alexander Goodwin 1825)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-8c092223efbe-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-8c092223efbe",
+      "record-ancestry-glasgow-edc054733b27"
+    ],
+    "claim": "John Glasgow (Bishopwearmouth, father of Charles Duffan Glasgow) is recorded or proposed as the father of John Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-8c092223efbe": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-edc054733b27": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-83276856",
+      "ancestry-9841-107915134"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-edc054733b27",
+        "source_basis": "Before 6 November 2026 John Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "possible",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry England, Select Births and Christenings entry for John Glasgow, christened 12 Sep 1824 at Bishop-Wearmouth, Durham (https://www.ancestry.co.uk/search/collections/9841/records/83276856), names father John Glasgow and mother Margaret Glasgow, the same couple as the James christened there in 1822. The same parish has the documentary John Glasgow, father of Charles Duffan Glasgow (christened 27 Dec 1830, mother Margaret Duffan; https://www.ancestry.co.uk/search/collections/9841/records/107915134). The automated 'probable' match to Glasgow-1304 (John of Kirknewton, spouse Margaret Muckle) rests on forenames only and conflicts with the place; it is not adopted.",
+    "assessment_history": [],
+    "reason": "The Ancestry England, Select Births and Christenings entry for John Glasgow, christened 12 Sep 1824 at Bishop-Wearmouth, Durham (https://www.ancestry.co.uk/search/collections/9841/records/83276856), names father John Glasgow and mother Margaret Glasgow, the same couple as the James christened there in 1822. The same parish has the documentary John Glasgow, father of Charles Duffan Glasgow (christened 27 Dec 1830, mother Margaret Duffan; https://www.ancestry.co.uk/search/collections/9841/records/107915134). The automated 'probable' match to Glasgow-1304 (John of Kirknewton, spouse Margaret Muckle) rests on forenames only and conflicts with the place; it is not adopted.",
+    "limitations": "Name and parish match only: common names, an Anglican baptism in 1824 against an Independent chapel in 1830, and the mother's surname differs (Glasgow as indexed, Duffan in 1830). Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.55,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry England, Select Births and Christenings entry for John Glasgow, christened 12 Sep 1824 at Bishop-Wearmouth, Durham (https://www.ancestry.co.uk/search/collections/9841/records/83276856), names father John Glasgow and mother Margaret Glasgow, the same couple as the James christened there in 1822. The same parish has the documentary John Glasgow, father of Charles Duffan Glasgow (christened 27 Dec 1830, mother Margaret Duffan; https://www.ancestry.co.uk/search/collections/9841/records/107915134). The automated 'probable' match to Glasgow-1304 (John of Kirknewton, spouse Margaret Muckle) rests on forenames only and conflicts with the place; it is not adopted.",
+      "source_ids": [
+        "ancestry-9841-83276856",
+        "ancestry-9841-107915134"
+      ],
+      "scope": "Name and parish match only: common names, an Anglican baptism in 1824 against an Independent chapel in 1830, and the mother's surname differs (Glasgow as indexed, Duffan in 1830). Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-8c092223efbe.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-8c092223efbe": "John Glasgow",
+      "record-ancestry-glasgow-edc054733b27": "John Glasgow (Bishopwearmouth, father of Charles Duffan Glasgow)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-8f0fbf00be9d-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-8f0fbf00be9d",
+      "record-ancestry-glasgow-edc054733b27"
+    ],
+    "claim": "John Glasgow (Bishopwearmouth, father of Charles Duffan Glasgow) is recorded or proposed as the father of James Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-8f0fbf00be9d": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-edc054733b27": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-161739791",
+      "ancestry-9841-161739790",
+      "ancestry-9841-107915134"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-edc054733b27",
+        "source_basis": "Before 6 November 2026 James Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "possible",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry England, Select Births and Christenings entry for James Glasgow, christened 21 Jul 1822 at Bishop-Wearmouth, Durham (https://www.ancestry.co.uk/search/collections/9841/records/161739791), names father John Glasgow and mother Margaret; the companion parent index repeats the same names. The same parish has the documentary John Glasgow, father of Charles Duffan Glasgow (christened 27 Dec 1830 at Bethel Chapel, Bishopwearmouth, mother Margaret Duffan; https://www.ancestry.co.uk/search/collections/9841/records/107915134). A John and Margaret with children christened at Bishopwearmouth in 1822, 1824 (John) and 1830 may be one couple. The workbench's earlier automated 'probable' match of this baptism to Glasgow-867 (an Antrim man) or Glasgow-1304 (Kirknewton) rests on forename and spouse forename only and fits neither the place nor the period; it is not adopted.",
+    "assessment_history": [],
+    "reason": "The Ancestry England, Select Births and Christenings entry for James Glasgow, christened 21 Jul 1822 at Bishop-Wearmouth, Durham (https://www.ancestry.co.uk/search/collections/9841/records/161739791), names father John Glasgow and mother Margaret; the companion parent index repeats the same names. The same parish has the documentary John Glasgow, father of Charles Duffan Glasgow (christened 27 Dec 1830 at Bethel Chapel, Bishopwearmouth, mother Margaret Duffan; https://www.ancestry.co.uk/search/collections/9841/records/107915134). A John and Margaret with children christened at Bishopwearmouth in 1822, 1824 (John) and 1830 may be one couple. The workbench's earlier automated 'probable' match of this baptism to Glasgow-867 (an Antrim man) or Glasgow-1304 (Kirknewton) rests on forename and spouse forename only and fits neither the place nor the period; it is not adopted.",
+    "limitations": "Name and parish match only: John and Margaret are common names, the 1822 and 1824 entries are Anglican parish baptisms while the 1830 one is at an Independent chapel, and the mother is 'Margaret Glasgow' in 1822 (surname supplied by the indexer) against Margaret Duffan in 1830. Not shown to be one household. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.55,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry England, Select Births and Christenings entry for James Glasgow, christened 21 Jul 1822 at Bishop-Wearmouth, Durham (https://www.ancestry.co.uk/search/collections/9841/records/161739791), names father John Glasgow and mother Margaret; the companion parent index repeats the same names. The same parish has the documentary John Glasgow, father of Charles Duffan Glasgow (christened 27 Dec 1830 at Bethel Chapel, Bishopwearmouth, mother Margaret Duffan; https://www.ancestry.co.uk/search/collections/9841/records/107915134). A John and Margaret with children christened at Bishopwearmouth in 1822, 1824 (John) and 1830 may be one couple. The workbench's earlier automated 'probable' match of this baptism to Glasgow-867 (an Antrim man) or Glasgow-1304 (Kirknewton) rests on forename and spouse forename only and fits neither the place nor the period; it is not adopted.",
+      "source_ids": [
+        "ancestry-9841-161739791",
+        "ancestry-9841-161739790",
+        "ancestry-9841-107915134"
+      ],
+      "scope": "Name and parish match only: John and Margaret are common names, the 1822 and 1824 entries are Anglican parish baptisms while the 1830 one is at an Independent chapel, and the mother is 'Margaret Glasgow' in 1822 (surname supplied by the indexer) against Margaret Duffan in 1830. Not shown to be one household. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-8f0fbf00be9d.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-8f0fbf00be9d": "James Glasgow",
+      "record-ancestry-glasgow-edc054733b27": "John Glasgow (Bishopwearmouth, father of Charles Duffan Glasgow)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-e6-elizabeth-bright-1848-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-e6-elizabeth-bright-1848",
+      "record-ancestry-glasgow-e6-thomas-1846"
+    ],
+    "claim": "Thomas Glasgow (m. Mary Foley, Victoria 1846) is recorded or proposed as the father of Elizabeth Glasgow (Bright) in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-e6-elizabeth-bright-1848": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-e6-thomas-1846": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-1778-1112799",
+      "ancestry-61648-1889732",
+      "ancestry-1780-4179891"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-e6-thomas-1846",
+        "source_basis": "Before 6 November 2026 Elizabeth Glasgow (Bright) had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The Victoria birth index entries for Elizabeth Glasgow, born about 1848 at 'Bright' (ancestry-1778-1112799; registration reference 3433, ancestry-61648-1889732), name father Thomas Glasgow and mother 'Mary Glasgow' (surname supplied by the indexer). Thomas Glasgow and Mary Foley married in Victoria in 1846 (ancestry-1780-4179891), and a Thomas Glasgow and Mary Foley had an Elizabeth at Brighton in the same year (record-ancestry-glasgow-e6-elizabeth-brighton-1848).",
+    "assessment_history": [],
+    "reason": "The Victoria birth index entries for Elizabeth Glasgow, born about 1848 at 'Bright' (ancestry-1778-1112799; registration reference 3433, ancestry-61648-1889732), name father Thomas Glasgow and mother 'Mary Glasgow' (surname supplied by the indexer). Thomas Glasgow and Mary Foley married in Victoria in 1846 (ancestry-1780-4179891), and a Thomas Glasgow and Mary Foley had an Elizabeth at Brighton in the same year (record-ancestry-glasgow-e6-elizabeth-brighton-1848).",
+    "limitations": "The place 'Bright' and the mother's surname differ from the Brighton entry; the two may be one registration indexed twice or two girls. Father identified with the 1846 groom by name, wife's forename and colony only. Index entries only.",
+    "probability": {
+      "value": 0.8,
+      "reviewed": "2026-11-06",
+      "basis": "The Victoria birth index entries for Elizabeth Glasgow, born about 1848 at 'Bright' (ancestry-1778-1112799; registration reference 3433, ancestry-61648-1889732), name father Thomas Glasgow and mother 'Mary Glasgow' (surname supplied by the indexer). Thomas Glasgow and Mary Foley married in Victoria in 1846 (ancestry-1780-4179891), and a Thomas Glasgow and Mary Foley had an Elizabeth at Brighton in the same year (record-ancestry-glasgow-e6-elizabeth-brighton-1848).",
+      "source_ids": [
+        "ancestry-1778-1112799",
+        "ancestry-61648-1889732",
+        "ancestry-1780-4179891"
+      ],
+      "scope": "The place 'Bright' and the mother's surname differ from the Brighton entry; the two may be one registration indexed twice or two girls. Father identified with the 1846 groom by name, wife's forename and colony only. Index entries only."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-e6-elizabeth-bright-1848.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-e6-elizabeth-bright-1848": "Elizabeth Glasgow (Bright)",
+      "record-ancestry-glasgow-e6-thomas-1846": "Thomas Glasgow (m. Mary Foley, Victoria 1846)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-e6-elizabeth-brighton-1848-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-e6-elizabeth-brighton-1848",
+      "record-ancestry-glasgow-e6-thomas-1846"
+    ],
+    "claim": "Thomas Glasgow (m. Mary Foley, Victoria 1846) is recorded or proposed as the father of Elizabeth Glasgow (Brighton) in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-e6-elizabeth-brighton-1848": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-e6-thomas-1846": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-1778-1112800",
+      "ancestry-61648-1887115",
+      "ancestry-1780-4179891"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-e6-thomas-1846",
+        "source_basis": "Before 6 November 2026 Elizabeth Glasgow (Brighton) had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The Victoria birth index entries for Elizabeth Glasgow, born about 1848 at Brighton (ancestry-1778-1112800; registration reference 42378, ancestry-61648-1887115), name father Thomas Glasgow and mother Mary Foley. Thomas Glasgow and Mary Foley are recorded as married in Victoria in 1846 (ancestry-1780-4179891), two years before. The father is that Thomas Glasgow, a documentary person in the catalogue.",
+    "assessment_history": [],
+    "reason": "The Victoria birth index entries for Elizabeth Glasgow, born about 1848 at Brighton (ancestry-1778-1112800; registration reference 42378, ancestry-61648-1887115), name father Thomas Glasgow and mother Mary Foley. Thomas Glasgow and Mary Foley are recorded as married in Victoria in 1846 (ancestry-1780-4179891), two years before. The father is that Thomas Glasgow, a documentary person in the catalogue.",
+    "limitations": "Identification of the father with the 1846 groom rests on name, wife's name, colony and interval; no age, origin or occupation is given. This Elizabeth and the Bright entry (record-ancestry-glasgow-e6-elizabeth-bright-1848) may be one girl indexed twice. Index entries only.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-06",
+      "basis": "The Victoria birth index entries for Elizabeth Glasgow, born about 1848 at Brighton (ancestry-1778-1112800; registration reference 42378, ancestry-61648-1887115), name father Thomas Glasgow and mother Mary Foley. Thomas Glasgow and Mary Foley are recorded as married in Victoria in 1846 (ancestry-1780-4179891), two years before. The father is that Thomas Glasgow, a documentary person in the catalogue.",
+      "source_ids": [
+        "ancestry-1778-1112800",
+        "ancestry-61648-1887115",
+        "ancestry-1780-4179891"
+      ],
+      "scope": "Identification of the father with the 1846 groom rests on name, wife's name, colony and interval; no age, origin or occupation is given. This Elizabeth and the Bright entry (record-ancestry-glasgow-e6-elizabeth-bright-1848) may be one girl indexed twice. Index entries only."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-e6-elizabeth-brighton-1848.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-e6-elizabeth-brighton-1848": "Elizabeth Glasgow (Brighton)",
+      "record-ancestry-glasgow-e6-thomas-1846": "Thomas Glasgow (m. Mary Foley, Victoria 1846)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-e6-john-1840-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-e6-john-1840",
+      "Glasgow-2699"
+    ],
+    "claim": "Alexander Glasgow (Glasgow-2699) is recorded or proposed as the father of John Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-e6-john-1840": {
+        "relationship": "father"
+      },
+      "Glasgow-2699": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9776-541273",
+      "ancestry-1778-2568701",
+      "ancestry-1778-2568702"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-2699",
+        "source_basis": "Before 6 November 2026 John Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The St Andrew's Church, Sydney baptism index (ancestry-9776-541273) names John Glasgow with parents Alexander Glasgow and Helen McDonald, and the New South Wales birth index for 1840 (ancestry-1778-2568701 and /2568702) gives John Glasgow, born 1840, father Alexander, mother Helen. The catalogue's Glasgow-2699 Alexander Glasgow (b. 1813 Midlothian, in New South Wales; spouses Helen McDonald and Mary Ann Bowling) is the only Alexander with a wife Helen McDonald there, and the record integration already marks him the probable father.",
+    "assessment_history": [],
+    "reason": "The St Andrew's Church, Sydney baptism index (ancestry-9776-541273) names John Glasgow with parents Alexander Glasgow and Helen McDonald, and the New South Wales birth index for 1840 (ancestry-1778-2568701 and /2568702) gives John Glasgow, born 1840, father Alexander, mother Helen. The catalogue's Glasgow-2699 Alexander Glasgow (b. 1813 Midlothian, in New South Wales; spouses Helen McDonald and Mary Ann Bowling) is the only Alexander with a wife Helen McDonald there, and the record integration already marks him the probable father.",
+    "limitations": "Identity rests on the father's name, his wife Helen McDonald and Sydney; no age, origin or occupation is given in the entries. The baptism index gives no date, and the two birth-index entries (different volume references) may be one child. This John is distinct from John Bowling Glasgow (mother Mary Ann). Index entries only.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-06",
+      "basis": "The St Andrew's Church, Sydney baptism index (ancestry-9776-541273) names John Glasgow with parents Alexander Glasgow and Helen McDonald, and the New South Wales birth index for 1840 (ancestry-1778-2568701 and /2568702) gives John Glasgow, born 1840, father Alexander, mother Helen. The catalogue's Glasgow-2699 Alexander Glasgow (b. 1813 Midlothian, in New South Wales; spouses Helen McDonald and Mary Ann Bowling) is the only Alexander with a wife Helen McDonald there, and the record integration already marks him the probable father.",
+      "source_ids": [
+        "ancestry-9776-541273",
+        "ancestry-1778-2568701",
+        "ancestry-1778-2568702"
+      ],
+      "scope": "Identity rests on the father's name, his wife Helen McDonald and Sydney; no age, origin or occupation is given in the entries. The baptism index gives no date, and the two birth-index entries (different volume references) may be one child. This John is distinct from John Bowling Glasgow (mother Mary Ann). Index entries only."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-e6-john-1840.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2699": "Alexander Glasgow (Glasgow-2699)",
+      "record-ancestry-glasgow-e6-john-1840": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-e6-patrick-1847-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-e6-patrick-1847",
+      "record-ancestry-glasgow-e6-thomas-1846"
+    ],
+    "claim": "Thomas Glasgow (m. Mary Foley, Victoria 1846) is recorded or proposed as the father of Patrick Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-e6-patrick-1847": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-e6-thomas-1846": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-1778-1113262",
+      "ancestry-61648-1892208",
+      "ancestry-1780-4179891",
+      "ancestry-61649-2049762"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-e6-thomas-1846",
+        "source_basis": "Before 6 November 2026 Patrick Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The Victoria birth index entries for Patrick Glasgow, born about 1847 at Melbourne (ancestry-1778-1113262; Victorian birth registration reference 39823, ancestry-61648-1892208), name father Thomas Glasgow and mother Mary Foley. The Victorian marriage index records Thomas Glasgow and Mary Foley in 1846 (reference 335, ancestry-1780-4179891 and ancestry-61649-2049762), the year before. The father is that Thomas Glasgow, the groom, who is a documentary person in the catalogue.",
+    "assessment_history": [],
+    "reason": "The Victoria birth index entries for Patrick Glasgow, born about 1847 at Melbourne (ancestry-1778-1113262; Victorian birth registration reference 39823, ancestry-61648-1892208), name father Thomas Glasgow and mother Mary Foley. The Victorian marriage index records Thomas Glasgow and Mary Foley in 1846 (reference 335, ancestry-1780-4179891 and ancestry-61649-2049762), the year before. The father is that Thomas Glasgow, the groom, who is a documentary person in the catalogue.",
+    "limitations": "The identification of the father with the 1846 groom rests on the name Thomas Glasgow, the wife's name Mary Foley, the colony and the interval; the index gives no age, origin or occupation for him. Index entries only. Patrick's own identity is the record's. Siblings: Elizabeth Glasgow (1848), entered twice as Bright and Brighton.",
+    "probability": {
+      "value": 0.88,
+      "reviewed": "2026-11-06",
+      "basis": "The Victoria birth index entries for Patrick Glasgow, born about 1847 at Melbourne (ancestry-1778-1113262; Victorian birth registration reference 39823, ancestry-61648-1892208), name father Thomas Glasgow and mother Mary Foley. The Victorian marriage index records Thomas Glasgow and Mary Foley in 1846 (reference 335, ancestry-1780-4179891 and ancestry-61649-2049762), the year before. The father is that Thomas Glasgow, the groom, who is a documentary person in the catalogue.",
+      "source_ids": [
+        "ancestry-1778-1113262",
+        "ancestry-61648-1892208",
+        "ancestry-1780-4179891",
+        "ancestry-61649-2049762"
+      ],
+      "scope": "The identification of the father with the 1846 groom rests on the name Thomas Glasgow, the wife's name Mary Foley, the colony and the interval; the index gives no age, origin or occupation for him. Index entries only. Patrick's own identity is the record's. Siblings: Elizabeth Glasgow (1848), entered twice as Bright and Brighton."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-e6-patrick-1847.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-e6-patrick-1847": "Patrick Glasgow",
+      "record-ancestry-glasgow-e6-thomas-1846": "Thomas Glasgow (m. Mary Foley, Victoria 1846)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-eliza-graves-serampore-1836-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-eliza-graves-serampore-1836",
+      "record-father-william-glasgow-bengal-amelia"
+    ],
+    "claim": "William Glasgow (Bengal, wife Amelia) is recorded or proposed as the father of Eliza Graves Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-eliza-graves-serampore-1836": {
+        "relationship": "father"
+      },
+      "record-father-william-glasgow-bengal-amelia": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9899-247030",
+      "ancestry-9899-834444"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-william-glasgow-bengal-amelia",
+        "source_basis": "Before 6 November 2026 Eliza Graves Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry India, Select Births and Baptisms entries for Eliza Graves Glasgow, born 5 Aug 1836 and baptised 9 Oct 1836 at Serampore, Bengal (https://www.ancestry.co.uk/search/collections/9899/records/247030 and /834444), name father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) of the Bengal family entries.",
+    "assessment_history": [],
+    "reason": "The Ancestry India, Select Births and Baptisms entries for Eliza Graves Glasgow, born 5 Aug 1836 and baptised 9 Oct 1836 at Serampore, Bengal (https://www.ancestry.co.uk/search/collections/9899/records/247030 and /834444), name father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) of the Bengal family entries.",
+    "limitations": "The father is known only as a name in index entries; that the Serampore William is the William of Barrackpore (1825), Etawah (1830) and Dehra (1838) is a name-and-wife match. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry India, Select Births and Baptisms entries for Eliza Graves Glasgow, born 5 Aug 1836 and baptised 9 Oct 1836 at Serampore, Bengal (https://www.ancestry.co.uk/search/collections/9899/records/247030 and /834444), name father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) of the Bengal family entries.",
+      "source_ids": [
+        "ancestry-9899-247030",
+        "ancestry-9899-834444"
+      ],
+      "scope": "The father is known only as a name in index entries; that the Serampore William is the William of Barrackpore (1825), Etawah (1830) and Dehra (1838) is a name-and-wife match. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-eliza-graves-serampore-1836.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-eliza-graves-serampore-1836": "Eliza Graves Glasgow",
+      "record-father-william-glasgow-bengal-amelia": "William Glasgow (Bengal, wife Amelia)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-george-thomas-james-dennis-bengal-1840-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-george-thomas-james-dennis-bengal-1840",
+      "record-father-william-glasgow-bengal-amelia"
+    ],
+    "claim": "William Glasgow (Bengal, wife Amelia) is recorded or proposed as the father of George Thomas James Dennis Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-george-thomas-james-dennis-bengal-1840": {
+        "relationship": "father"
+      },
+      "record-father-william-glasgow-bengal-amelia": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9899-1390692"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-william-glasgow-bengal-amelia",
+        "source_basis": "Before 6 November 2026 George Thomas James Dennis Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "probable",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry India, Select Births and Baptisms entry for George Thomas James Dennis Glasgow, born 6 Sep 1840 and baptised 8 Oct 1842 in Bengal (https://www.ancestry.co.uk/search/collections/9899/records/1390692), names father William Glasgow and no mother. A William Glasgow with a wife Amelia had children baptised in Bengal in 1826, 1831, 1836 and 1840, so he is probably the same man, but this entry does not say so.",
+    "assessment_history": [],
+    "reason": "The Ancestry India, Select Births and Baptisms entry for George Thomas James Dennis Glasgow, born 6 Sep 1840 and baptised 8 Oct 1842 in Bengal (https://www.ancestry.co.uk/search/collections/9899/records/1390692), names father William Glasgow and no mother. A William Glasgow with a wife Amelia had children baptised in Bengal in 1826, 1831, 1836 and 1840, so he is probably the same man, but this entry does not say so.",
+    "limitations": "No mother and no station are given, so the entry does not tie itself to the Amelia family beyond the father's name and the province; the stated birth date (6 Sep) is also that of the 1825 Barrackpore William, which may signal an indexing slip. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.78,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry India, Select Births and Baptisms entry for George Thomas James Dennis Glasgow, born 6 Sep 1840 and baptised 8 Oct 1842 in Bengal (https://www.ancestry.co.uk/search/collections/9899/records/1390692), names father William Glasgow and no mother. A William Glasgow with a wife Amelia had children baptised in Bengal in 1826, 1831, 1836 and 1840, so he is probably the same man, but this entry does not say so.",
+      "source_ids": [
+        "ancestry-9899-1390692"
+      ],
+      "scope": "No mother and no station are given, so the entry does not tie itself to the Amelia family beyond the father's name and the province; the stated birth date (6 Sep) is also that of the 1825 Barrackpore William, which may signal an indexing slip. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-george-thomas-james-dennis-bengal-1840.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-george-thomas-james-dennis-bengal-1840": "George Thomas James Dennis Glasgow",
+      "record-father-william-glasgow-bengal-amelia": "William Glasgow (Bengal, wife Amelia)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-harrietta-fordyce-dehra-1838-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-harrietta-fordyce-dehra-1838",
+      "record-father-william-glasgow-bengal-amelia"
+    ],
+    "claim": "William Glasgow (Bengal, wife Amelia) is recorded or proposed as the father of Harrietta Fordyce Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-harrietta-fordyce-dehra-1838": {
+        "relationship": "father"
+      },
+      "record-father-william-glasgow-bengal-amelia": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9899-794514",
+      "ancestry-9899-870786"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-william-glasgow-bengal-amelia",
+        "source_basis": "Before 6 November 2026 Harrietta Fordyce Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry India, Select Births and Baptisms entries for Harrietta Fordyce Glasgow, born 11 Oct 1838 at Dehra, Bengal, baptised 1 Apr 1840 (https://www.ancestry.co.uk/search/collections/9899/records/794514 and /870786), name father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) of the Bengal family entries.",
+    "assessment_history": [],
+    "reason": "The Ancestry India, Select Births and Baptisms entries for Harrietta Fordyce Glasgow, born 11 Oct 1838 at Dehra, Bengal, baptised 1 Apr 1840 (https://www.ancestry.co.uk/search/collections/9899/records/794514 and /870786), name father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) of the Bengal family entries.",
+    "limitations": "The father is known only as a name in index entries; identification with the Williams of the other stations is a name-and-wife match. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry India, Select Births and Baptisms entries for Harrietta Fordyce Glasgow, born 11 Oct 1838 at Dehra, Bengal, baptised 1 Apr 1840 (https://www.ancestry.co.uk/search/collections/9899/records/794514 and /870786), name father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) of the Bengal family entries.",
+      "source_ids": [
+        "ancestry-9899-794514",
+        "ancestry-9899-870786"
+      ],
+      "scope": "The father is known only as a name in index entries; identification with the Williams of the other stations is a name-and-wife match. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-harrietta-fordyce-dehra-1838.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-harrietta-fordyce-dehra-1838": "Harrietta Fordyce Glasgow",
+      "record-father-william-glasgow-bengal-amelia": "William Glasgow (Bengal, wife Amelia)"
+    }
+  },
+  {
+    "assertion_id": "clm-a2-record-ancestry-glasgow-william-barrackpore-1825-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-william-barrackpore-1825",
+      "record-father-william-glasgow-bengal-amelia"
+    ],
+    "claim": "William Glasgow (Bengal, wife Amelia) is recorded or proposed as the father of William Glasgow in the evidence cited in the assessment.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-william-barrackpore-1825": {
+        "relationship": "father"
+      },
+      "record-father-william-glasgow-bengal-amelia": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9899-1271490"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-william-glasgow-bengal-amelia",
+        "source_basis": "Before 6 November 2026 William Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative link (A2).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_a2",
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry India, Select Births and Baptisms entry for William Glasgow, born 6 Sep 1825 at Barrackpore, Bengal, baptised 26 Jan 1826 (https://www.ancestry.co.uk/search/collections/9899/records/1271490), names father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) named in the Bengal entries for this family: Amelia Magdalene 1830 (Etawah), Eliza Graves 1836 (Serampore), Harrietta Fordyce 1838 (Dehra) and George Thomas James Dennis 1840 (Bengal).",
+    "assessment_history": [],
+    "reason": "The Ancestry India, Select Births and Baptisms entry for William Glasgow, born 6 Sep 1825 at Barrackpore, Bengal, baptised 26 Jan 1826 (https://www.ancestry.co.uk/search/collections/9899/records/1271490), names father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) named in the Bengal entries for this family: Amelia Magdalene 1830 (Etawah), Eliza Graves 1836 (Serampore), Harrietta Fordyce 1838 (Dehra) and George Thomas James Dennis 1840 (Bengal).",
+    "limitations": "The father is known only as a name in index entries. That the Barrackpore, Etawah, Serampore and Dehra Williams with a wife Amelia are one man (probably a soldier or official moving between stations) is a name-and-wife match, not a proof. No occupation, rank or regiment is given. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected.",
+    "probability": {
+      "value": 0.9,
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry India, Select Births and Baptisms entry for William Glasgow, born 6 Sep 1825 at Barrackpore, Bengal, baptised 26 Jan 1826 (https://www.ancestry.co.uk/search/collections/9899/records/1271490), names father William Glasgow and mother Amelia. The father is the documentary William Glasgow (wife Amelia) named in the Bengal entries for this family: Amelia Magdalene 1830 (Etawah), Eliza Graves 1836 (Serampore), Harrietta Fordyce 1838 (Dehra) and George Thomas James Dennis 1840 (Bengal).",
+      "source_ids": [
+        "ancestry-9899-1271490"
+      ],
+      "scope": "The father is known only as a name in index entries. That the Barrackpore, Etawah, Serampore and Dehra Williams with a wife Amelia are one man (probably a soldier or official moving between stations) is a name-and-wife match, not a proof. No occupation, rank or regiment is given. Index transcript only (Ancestry's copy of the register index); the original register has not been inspected."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-william-barrackpore-1825.html#research-findings",
+        "label": "Father link review (A2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-william-barrackpore-1825": "William Glasgow",
+      "record-father-william-glasgow-bengal-amelia": "William Glasgow (Bengal, wife Amelia)"
+    }
+  },
+  {
     "assertion_id": "clm-abbeville-mary818-father-20261104",
     "people": [
       "Glasgow-818",
