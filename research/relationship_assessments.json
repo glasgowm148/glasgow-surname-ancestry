@@ -170345,6 +170345,2024 @@
     }
   },
   {
+    "assertion_id": "clm-d2-glasgow-3126-father-20261106",
+    "people": [
+      "Glasgow-3126",
+      "Glasgow-822"
+    ],
+    "claim": "John Glasgow (Glasgow-822) is proposed, on place and age alone, as the father of James Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-3126": {
+        "relationship": "father"
+      },
+      "Glasgow-822": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "inishrush-census-households-1831",
+      "inishrush-john-family-letter-1847",
+      "john-822-bible-household"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-822",
+        "source_basis": "Before 6 November 2026 James Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "James Glasgow (Glasgow-3126) is given in the catalogue at Ireland. John Glasgow (Glasgow-822, Inishrush, Tamlaght O'Crilly, County Londonderry, Ireland / Ireland; born 1767) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) ohio; 28 years older; his own records are held (inishrush-census-households-1831, inishrush-john-family-letter-1847). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "James Glasgow (Glasgow-3126) is given in the catalogue at Ireland. John Glasgow (Glasgow-822, Inishrush, Tamlaght O'Crilly, County Londonderry, Ireland / Ireland; born 1767) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) ohio; 28 years older; his own records are held (inishrush-census-households-1831, inishrush-john-family-letter-1847). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names James Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: Samuel Glasgow (Glasgow-1134, b. 1749), Robert Glasgow (Glasgow-12, b. 1749), John Glasgow (Glasgow-2600, b. 1774). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "James Glasgow (Glasgow-3126) is given in the catalogue at Ireland. John Glasgow (Glasgow-822, Inishrush, Tamlaght O'Crilly, County Londonderry, Ireland / Ireland; born 1767) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) ohio; 28 years older; his own records are held (inishrush-census-households-1831, inishrush-john-family-letter-1847). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "inishrush-census-households-1831",
+        "inishrush-john-family-letter-1847",
+        "john-822-bible-household"
+      ],
+      "scope": "None of the cited records names James Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: Samuel Glasgow (Glasgow-1134, b. 1749), Robert Glasgow (Glasgow-12, b. 1749), John Glasgow (Glasgow-2600, b. 1774). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-3126.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3126": "James Glasgow",
+      "Glasgow-822": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-glasgow-4187-father-20261106",
+    "people": [
+      "Glasgow-4187",
+      "Glasgow-3444"
+    ],
+    "claim": "James Glasgow (Glasgow-3444) is proposed, on place and age alone, as the father of Mattew Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "Glasgow-4187": {
+        "relationship": "father"
+      },
+      "Glasgow-3444": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "held-e-39a45eb3e81e"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-3444",
+        "source_basis": "Before 6 November 2026 Mattew Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Mattew Glasgow (Glasgow-4187) is recorded in GRONI civil death index (https://geni.nidirect.gov.uk/search, entry, . James Glasgow (Glasgow-3444, Cookstown, Tyrone, Ireland; born 1776) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) cookstown; 25 years older. He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Mattew Glasgow (Glasgow-4187) is recorded in GRONI civil death index (https://geni.nidirect.gov.uk/search, entry, . James Glasgow (Glasgow-3444, Cookstown, Tyrone, Ireland; born 1776) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) cookstown; 25 years older. He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Mattew Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: John Glasgow (Glasgow-1968, b. 1778), William Glasgow (Glasgow-2915, b. 1760), John Glasgow (Glasgow-2990, b. 1750). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Mattew Glasgow (Glasgow-4187) is recorded in GRONI civil death index (https://geni.nidirect.gov.uk/search, entry, . James Glasgow (Glasgow-3444, Cookstown, Tyrone, Ireland; born 1776) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) cookstown; 25 years older. He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "held-e-39a45eb3e81e"
+      ],
+      "scope": "None of the cited records names Mattew Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: John Glasgow (Glasgow-1968, b. 1778), William Glasgow (Glasgow-2915, b. 1760), John Glasgow (Glasgow-2990, b. 1750). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-4187.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-3444": "James Glasgow",
+      "Glasgow-4187": "Mattew Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-04d267d61354-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-04d267d61354",
+      "record-ancestry-glasgow-e5c3e5c5a55d"
+    ],
+    "claim": "Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d) is proposed, on place and age alone, as the father of William Alexander Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-04d267d61354": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-e5c3e5c5a55d": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-114661706",
+      "ancestry-60143-644437",
+      "ancestry-60143-644438"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-e5c3e5c5a55d",
+        "source_basis": "Before 6 November 2026 William Alexander Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "William Alexander Glasgow (record-ancestry-glasgow-04d267d61354) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 23 Jul 1815 Berwick-upon-Tweed, Northumberland, England. Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d, Polwarth, Berwick, Scotland; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwick; 36 years older; his own records are held (ancestry-60143-644437, ancestry-60143-644438). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "William Alexander Glasgow (record-ancestry-glasgow-04d267d61354) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 23 Jul 1815 Berwick-upon-Tweed, Northumberland, England. Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d, Polwarth, Berwick, Scotland; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwick; 36 years older; his own records are held (ancestry-60143-644437, ancestry-60143-644438). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names William Alexander Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Patrick Glasgow (record-ancestry-glasgow-0bda7341f20c, b. 1739). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "William Alexander Glasgow (record-ancestry-glasgow-04d267d61354) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 23 Jul 1815 Berwick-upon-Tweed, Northumberland, England. Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d, Polwarth, Berwick, Scotland; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwick; 36 years older; his own records are held (ancestry-60143-644437, ancestry-60143-644438). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-114661706",
+        "ancestry-60143-644437",
+        "ancestry-60143-644438"
+      ],
+      "scope": "None of the cited records names William Alexander Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Patrick Glasgow (record-ancestry-glasgow-0bda7341f20c, b. 1739). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-04d267d61354.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow",
+      "record-ancestry-glasgow-e5c3e5c5a55d": "Petter Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-0dccd2032506-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-0dccd2032506",
+      "record-ancestry-glasgow-440bb6bb9e42"
+    ],
+    "claim": "William Glasgow (record-ancestry-glasgow-440bb6bb9e42) is proposed, on place and age alone, as the father of John Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-0dccd2032506": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-440bb6bb9e42": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-150410797",
+      "ancestry-9841-183640583"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-440bb6bb9e42",
+        "source_basis": "Before 6 November 2026 John Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "John Glasgow (record-ancestry-glasgow-0dccd2032506) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 12 Dec 1848 St Matthew, Stretford, Lancashire, England. William Glasgow (record-ancestry-glasgow-440bb6bb9e42, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire; 32 years older; his own records are held (ancestry-9841-183640583). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "John Glasgow (record-ancestry-glasgow-0dccd2032506) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 12 Dec 1848 St Matthew, Stretford, Lancashire, England. William Glasgow (record-ancestry-glasgow-440bb6bb9e42, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire; 32 years older; his own records are held (ancestry-9841-183640583). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names John Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-30dc6133ca83, b. 1779), Robert Glasgow (record-ancestry-glasgow-c935a59e4dac, b. 1800). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "John Glasgow (record-ancestry-glasgow-0dccd2032506) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 12 Dec 1848 St Matthew, Stretford, Lancashire, England. William Glasgow (record-ancestry-glasgow-440bb6bb9e42, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire; 32 years older; his own records are held (ancestry-9841-183640583). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-150410797",
+        "ancestry-9841-183640583"
+      ],
+      "scope": "None of the cited records names John Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-30dc6133ca83, b. 1779), Robert Glasgow (record-ancestry-glasgow-c935a59e4dac, b. 1800). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-0dccd2032506.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-0dccd2032506": "John Glasgow",
+      "record-ancestry-glasgow-440bb6bb9e42": "William Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-0e7ff39c0d2a-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-0e7ff39c0d2a",
+      "record-ancestry-glasgow-deea91bf414e"
+    ],
+    "claim": "Hugh Glasgow (record-ancestry-glasgow-deea91bf414e) is proposed, on place and age alone, as the father of William Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-0e7ff39c0d2a": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-deea91bf414e": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-21263264",
+      "ancestry-60143-21263265",
+      "ancestry-60143-238895",
+      "ancestry-60143-238896",
+      "ancestry-60143-14304445",
+      "ancestry-60143-14304446",
+      "ancestry-60143-22647912"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-deea91bf414e",
+        "source_basis": "Before 6 November 2026 William Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "William Glasgow (record-ancestry-glasgow-0e7ff39c0d2a) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 31 Mar 1838 Covington and Thankerton, Lanark, Scotland. Hugh Glasgow (record-ancestry-glasgow-deea91bf414e, Glasgow, Lanark, Scotland; born 1780 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lanark; 28 years older; his own records are held (ancestry-60143-14304445, ancestry-60143-14304446). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "William Glasgow (record-ancestry-glasgow-0e7ff39c0d2a) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 31 Mar 1838 Covington and Thankerton, Lanark, Scotland. Hugh Glasgow (record-ancestry-glasgow-deea91bf414e, Glasgow, Lanark, Scotland; born 1780 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lanark; 28 years older; his own records are held (ancestry-60143-14304445, ancestry-60143-14304446). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names William Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Henry Glasgow (record-ancestry-glasgow-d079f4e165d1, b. 1782), Isaac Glasgow (record-ancestry-glasgow-32c1d54a67fc, b. 1786), John Glasgow (record-ancestry-glasgow-71969f15c9f6, b. 1789). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "William Glasgow (record-ancestry-glasgow-0e7ff39c0d2a) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 31 Mar 1838 Covington and Thankerton, Lanark, Scotland. Hugh Glasgow (record-ancestry-glasgow-deea91bf414e, Glasgow, Lanark, Scotland; born 1780 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lanark; 28 years older; his own records are held (ancestry-60143-14304445, ancestry-60143-14304446). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60143-21263264",
+        "ancestry-60143-21263265",
+        "ancestry-60143-238895",
+        "ancestry-60143-238896",
+        "ancestry-60143-14304445",
+        "ancestry-60143-14304446",
+        "ancestry-60143-22647912"
+      ],
+      "scope": "None of the cited records names William Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Henry Glasgow (record-ancestry-glasgow-d079f4e165d1, b. 1782), Isaac Glasgow (record-ancestry-glasgow-32c1d54a67fc, b. 1786), John Glasgow (record-ancestry-glasgow-71969f15c9f6, b. 1789). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-0e7ff39c0d2a.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-0e7ff39c0d2a": "William Glasgow",
+      "record-ancestry-glasgow-deea91bf414e": "Hugh Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-1f4b59e84ca9-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-1f4b59e84ca9",
+      "record-ancestry-glasgow-0d26c6e8a31f"
+    ],
+    "claim": "John Glasgow (record-ancestry-glasgow-0d26c6e8a31f) is proposed, on place and age alone, as the father of Edward George Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-1f4b59e84ca9": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-0d26c6e8a31f": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60931-362921",
+      "ancestry-9840-16353234",
+      "ancestry-9840-4611037",
+      "ancestry-9841-186441815"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-0d26c6e8a31f",
+        "source_basis": "Before 6 November 2026 Edward George Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Edward George Glasgow (record-ancestry-glasgow-1f4b59e84ca9) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, person who died, 11 Aug 1843 St. Botolph London. John Glasgow (record-ancestry-glasgow-0d26c6e8a31f, St. James', Westminister, Middlesex, England; born 1772 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) middlesex; 24 years older; his own records are held (ancestry-9841-186441815). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Edward George Glasgow (record-ancestry-glasgow-1f4b59e84ca9) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, person who died, 11 Aug 1843 St. Botolph London. John Glasgow (record-ancestry-glasgow-0d26c6e8a31f, St. James', Westminister, Middlesex, England; born 1772 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) middlesex; 24 years older; his own records are held (ancestry-9841-186441815). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Edward George Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: Isaac C Glasko (Glasko-4, b. 1776), Jacob Glasko (Glasko-5, b. 1750), Samuel Glasgow (record-ancestry-glasgow-d54b26479243, b. 1749). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Edward George Glasgow (record-ancestry-glasgow-1f4b59e84ca9) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, person who died, 11 Aug 1843 St. Botolph London. John Glasgow (record-ancestry-glasgow-0d26c6e8a31f, St. James', Westminister, Middlesex, England; born 1772 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) middlesex; 24 years older; his own records are held (ancestry-9841-186441815). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60931-362921",
+        "ancestry-9840-16353234",
+        "ancestry-9840-4611037",
+        "ancestry-9841-186441815"
+      ],
+      "scope": "None of the cited records names Edward George Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: Isaac C Glasko (Glasko-4, b. 1776), Jacob Glasko (Glasko-5, b. 1750), Samuel Glasgow (record-ancestry-glasgow-d54b26479243, b. 1749). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-1f4b59e84ca9.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-0d26c6e8a31f": "John Glasgow",
+      "record-ancestry-glasgow-1f4b59e84ca9": "Edward George Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-284418ab8379-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-284418ab8379",
+      "Glasgow-2263"
+    ],
+    "claim": "Walter Glasgow (Glasgow-2263) is proposed, on place and age alone, as the father of Cathe Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-284418ab8379": {
+        "relationship": "father"
+      },
+      "Glasgow-2263": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-1644-228500"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-2263",
+        "source_basis": "Before 6 November 2026 Cathe Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Cathe Glasgow (record-ancestry-glasgow-284418ab8379) is recorded in Nova Scotia, Canada, Marriages, 1763-1945, bride, 18 Mar 1806 Halifax, Halifax, Nova Scotia, Canada. Walter Glasgow (Glasgow-2263, Antigonish, Nova Scotia; born 1762) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) nova, scotia; 31 years older. He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Cathe Glasgow (record-ancestry-glasgow-284418ab8379) is recorded in Nova Scotia, Canada, Marriages, 1763-1945, bride, 18 Mar 1806 Halifax, Halifax, Nova Scotia, Canada. Walter Glasgow (Glasgow-2263, Antigonish, Nova Scotia; born 1762) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) nova, scotia; 31 years older. He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Cathe Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.15,
+      "reviewed": "2026-11-06",
+      "basis": "Cathe Glasgow (record-ancestry-glasgow-284418ab8379) is recorded in Nova Scotia, Canada, Marriages, 1763-1945, bride, 18 Mar 1806 Halifax, Halifax, Nova Scotia, Canada. Walter Glasgow (Glasgow-2263, Antigonish, Nova Scotia; born 1762) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) nova, scotia; 31 years older. He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-1644-228500"
+      ],
+      "scope": "None of the cited records names Cathe Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-284418ab8379.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2263": "Walter Glasgow",
+      "record-ancestry-glasgow-284418ab8379": "Cathe Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-288929e0c8d4-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-288929e0c8d4",
+      "record-ancestry-glasgow-fd84e4728b02"
+    ],
+    "claim": "James Glasgow (record-ancestry-glasgow-fd84e4728b02) is proposed, on place and age alone, as the father of Peter Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-288929e0c8d4": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-fd84e4728b02": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-135031141",
+      "ancestry-9841-135031142",
+      "ancestry-9841-189101254",
+      "ancestry-9841-189101255",
+      "ancestry-9841-46657939",
+      "ancestry-9852-11864960"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-fd84e4728b02",
+        "source_basis": "Before 6 November 2026 Peter Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Peter Glasgow (record-ancestry-glasgow-288929e0c8d4) is recorded in England, Select Births and Christenings, 1538-1975, father of Mary Glasgow, . James Glasgow (record-ancestry-glasgow-fd84e4728b02, Bishop-Wearmouth, Durham, England; born 1801 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bishop, durham, sunderland; 20 years older; his own records are held (ancestry-9841-46657939, ancestry-9852-11864960). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Peter Glasgow (record-ancestry-glasgow-288929e0c8d4) is recorded in England, Select Births and Christenings, 1538-1975, father of Mary Glasgow, . James Glasgow (record-ancestry-glasgow-fd84e4728b02, Bishop-Wearmouth, Durham, England; born 1801 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bishop, durham, sunderland; 20 years older; his own records are held (ancestry-9841-46657939, ancestry-9852-11864960). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Peter Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7, b. 1798), John Glasgow (record-ancestry-glasgow-edc054733b27, b. 1800). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Peter Glasgow (record-ancestry-glasgow-288929e0c8d4) is recorded in England, Select Births and Christenings, 1538-1975, father of Mary Glasgow, . James Glasgow (record-ancestry-glasgow-fd84e4728b02, Bishop-Wearmouth, Durham, England; born 1801 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bishop, durham, sunderland; 20 years older; his own records are held (ancestry-9841-46657939, ancestry-9852-11864960). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-135031141",
+        "ancestry-9841-135031142",
+        "ancestry-9841-189101254",
+        "ancestry-9841-189101255",
+        "ancestry-9841-46657939",
+        "ancestry-9852-11864960"
+      ],
+      "scope": "None of the cited records names Peter Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7, b. 1798), John Glasgow (record-ancestry-glasgow-edc054733b27, b. 1800). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-288929e0c8d4.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-288929e0c8d4": "Peter Glasgow",
+      "record-ancestry-glasgow-fd84e4728b02": "James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-32c6362f63d8-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-32c6362f63d8",
+      "Glasgow-4132"
+    ],
+    "claim": "John Glasgow (Glasgow-4132) is proposed, on place and age alone, as the father of James Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-32c6362f63d8": {
+        "relationship": "father"
+      },
+      "Glasgow-4132": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-27459991",
+      "ancestry-60143-27459992",
+      "edrom-john-indexed-entry-1738"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-4132",
+        "source_basis": "Before 6 November 2026 James Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "James Glasgow (record-ancestry-glasgow-32c6362f63d8) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 13 Jan 1805 Eccles, Berwickshire, Scotland, United Kingdom. John Glasgow (Glasgow-4132, Edrom, Berwickshire, Scotland; born 1738) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwickshire; 37 years older; his own records are held (edrom-john-indexed-entry-1738). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "James Glasgow (record-ancestry-glasgow-32c6362f63d8) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 13 Jan 1805 Eccles, Berwickshire, Scotland, United Kingdom. John Glasgow (Glasgow-4132, Edrom, Berwickshire, Scotland; born 1738) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwickshire; 37 years older; his own records are held (edrom-john-indexed-entry-1738). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Robert Glasgow (Glasgow-3706, b. 1745). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "James Glasgow (record-ancestry-glasgow-32c6362f63d8) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 13 Jan 1805 Eccles, Berwickshire, Scotland, United Kingdom. John Glasgow (Glasgow-4132, Edrom, Berwickshire, Scotland; born 1738) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwickshire; 37 years older; his own records are held (edrom-john-indexed-entry-1738). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60143-27459991",
+        "ancestry-60143-27459992",
+        "edrom-john-indexed-entry-1738"
+      ],
+      "scope": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Robert Glasgow (Glasgow-3706, b. 1745). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-32c6362f63d8.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-4132": "John Glasgow",
+      "record-ancestry-glasgow-32c6362f63d8": "James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-347300d0ea1b-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-347300d0ea1b",
+      "record-ancestry-glasgow-0d26c6e8a31f"
+    ],
+    "claim": "John Glasgow (record-ancestry-glasgow-0d26c6e8a31f) is proposed, on place and age alone, as the father of Emily Caroline Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-347300d0ea1b": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-0d26c6e8a31f": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9840-19230194",
+      "ancestry-9840-6514536",
+      "ancestry-9841-186441815"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-0d26c6e8a31f",
+        "source_basis": "Before 6 November 2026 Emily Caroline Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Emily Caroline Glasgow (record-ancestry-glasgow-347300d0ea1b) is recorded in England, Select Deaths and Burials, 1538-1991, person buried, 12 Dec 1849 Shoreditch, Middlesex, England. John Glasgow (record-ancestry-glasgow-0d26c6e8a31f, St. James', Westminister, Middlesex, England; born 1772 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) middlesex; 29 years older; his own records are held (ancestry-9841-186441815). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Emily Caroline Glasgow (record-ancestry-glasgow-347300d0ea1b) is recorded in England, Select Deaths and Burials, 1538-1991, person buried, 12 Dec 1849 Shoreditch, Middlesex, England. John Glasgow (record-ancestry-glasgow-0d26c6e8a31f, St. James', Westminister, Middlesex, England; born 1772 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) middlesex; 29 years older; his own records are held (ancestry-9841-186441815). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Emily Caroline Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: none. The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "Emily Caroline Glasgow (record-ancestry-glasgow-347300d0ea1b) is recorded in England, Select Deaths and Burials, 1538-1991, person buried, 12 Dec 1849 Shoreditch, Middlesex, England. John Glasgow (record-ancestry-glasgow-0d26c6e8a31f, St. James', Westminister, Middlesex, England; born 1772 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) middlesex; 29 years older; his own records are held (ancestry-9841-186441815). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9840-19230194",
+        "ancestry-9840-6514536",
+        "ancestry-9841-186441815"
+      ],
+      "scope": "None of the cited records names Emily Caroline Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: none. The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-347300d0ea1b.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-0d26c6e8a31f": "John Glasgow",
+      "record-ancestry-glasgow-347300d0ea1b": "Emily Caroline Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-382a6c08d982-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-382a6c08d982",
+      "record-ancestry-glasgow-c3cf06b7e0b7"
+    ],
+    "claim": "John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7) is proposed, on place and age alone, as the father of James Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-382a6c08d982": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-c3cf06b7e0b7": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-142714774",
+      "ancestry-9841-154916880",
+      "ancestry-9841-184114023",
+      "ancestry-9841-34022214"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-c3cf06b7e0b7",
+        "source_basis": "Before 6 November 2026 James Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "James Glasgow (record-ancestry-glasgow-382a6c08d982) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 4 Jun 1848 Bishop-Wearmouth, Durham, England. John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7, Lady Huntingdons,Ashford,Kent,England; born 1798) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) durham; 20 years older; his own records are held (ancestry-9841-184114023, ancestry-9841-34022214). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "James Glasgow (record-ancestry-glasgow-382a6c08d982) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 4 Jun 1848 Bishop-Wearmouth, Durham, England. John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7, Lady Huntingdons,Ashford,Kent,England; born 1798) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) durham; 20 years older; his own records are held (ancestry-9841-184114023, ancestry-9841-34022214). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-edc054733b27, b. 1800). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "James Glasgow (record-ancestry-glasgow-382a6c08d982) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 4 Jun 1848 Bishop-Wearmouth, Durham, England. John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7, Lady Huntingdons,Ashford,Kent,England; born 1798) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) durham; 20 years older; his own records are held (ancestry-9841-184114023, ancestry-9841-34022214). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-142714774",
+        "ancestry-9841-154916880",
+        "ancestry-9841-184114023",
+        "ancestry-9841-34022214"
+      ],
+      "scope": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-edc054733b27, b. 1800). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-382a6c08d982.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-382a6c08d982": "James Glasgow",
+      "record-ancestry-glasgow-c3cf06b7e0b7": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-4b1717b4df0d-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-4b1717b4df0d",
+      "record-ancestry-glasgow-ffa2d130ea6e"
+    ],
+    "claim": "Malcom Glasgow (record-ancestry-glasgow-ffa2d130ea6e) is proposed, on place and age alone, as the father of Pollock Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-4b1717b4df0d": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-ffa2d130ea6e": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-17299377",
+      "ancestry-60143-17299378",
+      "ancestry-60143-6963430",
+      "ancestry-60143-6963431"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-ffa2d130ea6e",
+        "source_basis": "Before 6 November 2026 Pollock Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Pollock Glasgow (record-ancestry-glasgow-4b1717b4df0d) is recorded in Scotland, Select Births and Baptisms, 1564-1950, parent of Jane Mcnicol Glasgow, 5 Sep 1828 North Bute,Bute,Scotland. Malcom Glasgow (record-ancestry-glasgow-ffa2d130ea6e, Rothesay,Bute,Scotland; born 1767 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bute; 31 years older; his own records are held (ancestry-60143-6963430, ancestry-60143-6963431). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Pollock Glasgow (record-ancestry-glasgow-4b1717b4df0d) is recorded in Scotland, Select Births and Baptisms, 1564-1950, parent of Jane Mcnicol Glasgow, 5 Sep 1828 North Bute,Bute,Scotland. Malcom Glasgow (record-ancestry-glasgow-ffa2d130ea6e, Rothesay,Bute,Scotland; born 1767 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bute; 31 years older; his own records are held (ancestry-60143-6963430, ancestry-60143-6963431). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Pollock Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "Pollock Glasgow (record-ancestry-glasgow-4b1717b4df0d) is recorded in Scotland, Select Births and Baptisms, 1564-1950, parent of Jane Mcnicol Glasgow, 5 Sep 1828 North Bute,Bute,Scotland. Malcom Glasgow (record-ancestry-glasgow-ffa2d130ea6e, Rothesay,Bute,Scotland; born 1767 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bute; 31 years older; his own records are held (ancestry-60143-6963430, ancestry-60143-6963431). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60143-17299377",
+        "ancestry-60143-17299378",
+        "ancestry-60143-6963430",
+        "ancestry-60143-6963431"
+      ],
+      "scope": "None of the cited records names Pollock Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-4b1717b4df0d.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-4b1717b4df0d": "Pollock Glasgow",
+      "record-ancestry-glasgow-ffa2d130ea6e": "Malcom Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-53e156065aa0-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-53e156065aa0",
+      "record-ancestry-glasgow-33381969b4dd"
+    ],
+    "claim": "John Glasgow (record-ancestry-glasgow-33381969b4dd) is proposed, on place and age alone, as the father of William Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-53e156065aa0": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-33381969b4dd": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-1351-155418175",
+      "ancestry-1351-5418175",
+      "ancestry-9841-29044920",
+      "ancestry-9841-29044921",
+      "ancestry-1351-154821322",
+      "ancestry-1351-154822731",
+      "ancestry-1351-4821322"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-33381969b4dd",
+        "source_basis": "Before 6 November 2026 William Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "William Glasgow (record-ancestry-glasgow-53e156065aa0) is recorded in England & Wales, Christening Index, 1530-1980, father named in the christening of Julia Glasgow, 25 Aug 1816 Westminster, London, England. John Glasgow (record-ancestry-glasgow-33381969b4dd, St James, Westminster, Middlesex, England; born 1740 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london, middlesex, westminster; 46 years older; his own records are held (ancestry-1351-154821322, ancestry-1351-154822731). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "William Glasgow (record-ancestry-glasgow-53e156065aa0) is recorded in England & Wales, Christening Index, 1530-1980, father named in the christening of Julia Glasgow, 25 Aug 1816 Westminster, London, England. John Glasgow (record-ancestry-glasgow-33381969b4dd, St James, Westminster, Middlesex, England; born 1740 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london, middlesex, westminster; 46 years older; his own records are held (ancestry-1351-154821322, ancestry-1351-154822731). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names William Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Jacob Glasko (Glasko-5, b. 1750), Samuel Glasgow (record-ancestry-glasgow-d54b26479243, b. 1749). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "William Glasgow (record-ancestry-glasgow-53e156065aa0) is recorded in England & Wales, Christening Index, 1530-1980, father named in the christening of Julia Glasgow, 25 Aug 1816 Westminster, London, England. John Glasgow (record-ancestry-glasgow-33381969b4dd, St James, Westminster, Middlesex, England; born 1740 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london, middlesex, westminster; 46 years older; his own records are held (ancestry-1351-154821322, ancestry-1351-154822731). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-1351-155418175",
+        "ancestry-1351-5418175",
+        "ancestry-9841-29044920",
+        "ancestry-9841-29044921",
+        "ancestry-1351-154821322",
+        "ancestry-1351-154822731",
+        "ancestry-1351-4821322"
+      ],
+      "scope": "None of the cited records names William Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Jacob Glasko (Glasko-5, b. 1750), Samuel Glasgow (record-ancestry-glasgow-d54b26479243, b. 1749). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-53e156065aa0.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-33381969b4dd": "John Glasgow",
+      "record-ancestry-glasgow-53e156065aa0": "William Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-5520cd88bcce-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-5520cd88bcce",
+      "record-ancestry-glasgow-75915677543d"
+    ],
+    "claim": "James Glasgow (record-ancestry-glasgow-75915677543d) is proposed, on place and age alone, as the father of James Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-5520cd88bcce": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-75915677543d": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-127639495",
+      "ancestry-60144-3493894",
+      "ancestry-9841-184114023"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-75915677543d",
+        "source_basis": "Before 6 November 2026 James Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "James Glasgow (record-ancestry-glasgow-5520cd88bcce) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 11 Dec 1844 Saint Mary Magdalene,Woolwich,Kent,England. James Glasgow (record-ancestry-glasgow-75915677543d, Eccles, Berwick, Scotland; born 1785 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) kent; 29 years older; same forename (James), as the naming pattern would suggest; his own records are held (ancestry-60144-3493894, ancestry-9841-184114023). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "James Glasgow (record-ancestry-glasgow-5520cd88bcce) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 11 Dec 1844 Saint Mary Magdalene,Woolwich,Kent,England. James Glasgow (record-ancestry-glasgow-75915677543d, Eccles, Berwick, Scotland; born 1785 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) kent; 29 years older; same forename (James), as the naming pattern would suggest; his own records are held (ancestry-60144-3493894, ancestry-9841-184114023). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Benjamin Glasgow (record-ancestry-glasgow-653f0fa6f237, b. 1788), James Glasgow (record-ancestry-glasgow-c2fbab779397, b. 1778), Edward Glasgow (record-ancestry-glasgow-d71b0ae3f539, b. 1795). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "James Glasgow (record-ancestry-glasgow-5520cd88bcce) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 11 Dec 1844 Saint Mary Magdalene,Woolwich,Kent,England. James Glasgow (record-ancestry-glasgow-75915677543d, Eccles, Berwick, Scotland; born 1785 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) kent; 29 years older; same forename (James), as the naming pattern would suggest; his own records are held (ancestry-60144-3493894, ancestry-9841-184114023). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-127639495",
+        "ancestry-60144-3493894",
+        "ancestry-9841-184114023"
+      ],
+      "scope": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Benjamin Glasgow (record-ancestry-glasgow-653f0fa6f237, b. 1788), James Glasgow (record-ancestry-glasgow-c2fbab779397, b. 1778), Edward Glasgow (record-ancestry-glasgow-d71b0ae3f539, b. 1795). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-5520cd88bcce.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-5520cd88bcce": "James Glasgow",
+      "record-ancestry-glasgow-75915677543d": "James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-55a5d4f379d9-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-55a5d4f379d9",
+      "record-ancestry-glasgow-30dc6133ca83"
+    ],
+    "claim": "William Glasgow (record-ancestry-glasgow-30dc6133ca83) is proposed, on place and age alone, as the father of John Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-55a5d4f379d9": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-30dc6133ca83": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-6565086",
+      "ancestry-9841-6565087",
+      "ancestry-9841-86820998",
+      "ancestry-9841-86820999"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-30dc6133ca83",
+        "source_basis": "Before 6 November 2026 John Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "John Glasgow (record-ancestry-glasgow-55a5d4f379d9) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 10 Jan 1836 Cathedral,Manchester,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 27 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "John Glasgow (record-ancestry-glasgow-55a5d4f379d9) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 10 Jan 1836 Cathedral,Manchester,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 27 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names John Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-440bb6bb9e42, b. 1786). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "John Glasgow (record-ancestry-glasgow-55a5d4f379d9) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 10 Jan 1836 Cathedral,Manchester,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 27 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-6565086",
+        "ancestry-9841-6565087",
+        "ancestry-9841-86820998",
+        "ancestry-9841-86820999"
+      ],
+      "scope": "None of the cited records names John Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-440bb6bb9e42, b. 1786). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-55a5d4f379d9.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-30dc6133ca83": "William Glasgow",
+      "record-ancestry-glasgow-55a5d4f379d9": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-59965775795d-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-59965775795d",
+      "record-ancestry-glasgow-30dc6133ca83"
+    ],
+    "claim": "William Glasgow (record-ancestry-glasgow-30dc6133ca83) is proposed, on place and age alone, as the father of Isabella Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-59965775795d": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-30dc6133ca83": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9852-38197329",
+      "ancestry-9841-86820998",
+      "ancestry-9841-86820999"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-30dc6133ca83",
+        "source_basis": "Before 6 November 2026 Isabella Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Isabella Glasgow (record-ancestry-glasgow-59965775795d) is recorded in England, Select Marriages, 1538-1973, bride, 11 Jun 1823 St. John, Manchester, Lancashire, England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 31 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Isabella Glasgow (record-ancestry-glasgow-59965775795d) is recorded in England, Select Marriages, 1538-1973, bride, 11 Jun 1823 St. John, Manchester, Lancashire, England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 31 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Isabella Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-440bb6bb9e42, b. 1786). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "Isabella Glasgow (record-ancestry-glasgow-59965775795d) is recorded in England, Select Marriages, 1538-1973, bride, 11 Jun 1823 St. John, Manchester, Lancashire, England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 31 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9852-38197329",
+        "ancestry-9841-86820998",
+        "ancestry-9841-86820999"
+      ],
+      "scope": "None of the cited records names Isabella Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-440bb6bb9e42, b. 1786). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-59965775795d.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-30dc6133ca83": "William Glasgow",
+      "record-ancestry-glasgow-59965775795d": "Isabella Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-75915677543d-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-75915677543d",
+      "record-ancestry-glasgow-e5c3e5c5a55d"
+    ],
+    "claim": "Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d) is proposed, on place and age alone, as the father of James Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-75915677543d": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-e5c3e5c5a55d": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60144-3493894",
+      "ancestry-9841-184114023",
+      "ancestry-60143-644437",
+      "ancestry-60143-644438"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-e5c3e5c5a55d",
+        "source_basis": "Before 6 November 2026 James Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "James Glasgow (record-ancestry-glasgow-75915677543d) is recorded in Scotland, Select Marriages, 1561-1910, groom, 28 Apr 1798 Eccles, Berwick, Scotland. Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d, Polwarth, Berwick, Scotland; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwick; 36 years older; his own records are held (ancestry-60143-644437, ancestry-60143-644438). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "James Glasgow (record-ancestry-glasgow-75915677543d) is recorded in Scotland, Select Marriages, 1561-1910, groom, 28 Apr 1798 Eccles, Berwick, Scotland. Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d, Polwarth, Berwick, Scotland; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwick; 36 years older; his own records are held (ancestry-60143-644437, ancestry-60143-644438). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Patrick Glasgow (record-ancestry-glasgow-0bda7341f20c, b. 1739). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "James Glasgow (record-ancestry-glasgow-75915677543d) is recorded in Scotland, Select Marriages, 1561-1910, groom, 28 Apr 1798 Eccles, Berwick, Scotland. Petter Glasgow (record-ancestry-glasgow-e5c3e5c5a55d, Polwarth, Berwick, Scotland; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwick; 36 years older; his own records are held (ancestry-60143-644437, ancestry-60143-644438). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60144-3493894",
+        "ancestry-9841-184114023",
+        "ancestry-60143-644437",
+        "ancestry-60143-644438"
+      ],
+      "scope": "None of the cited records names James Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Patrick Glasgow (record-ancestry-glasgow-0bda7341f20c, b. 1739). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-75915677543d.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-75915677543d": "James Glasgow",
+      "record-ancestry-glasgow-e5c3e5c5a55d": "Petter Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-75dab81ce9f0-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-75dab81ce9f0",
+      "record-ancestry-glasgow-7efd04bf141f"
+    ],
+    "claim": "Peter Glasgow (record-ancestry-glasgow-7efd04bf141f) is proposed, on place and age alone, as the father of Jane Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-75dab81ce9f0": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-7efd04bf141f": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-62497-41462",
+      "ancestry-60143-27459991"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-7efd04bf141f",
+        "source_basis": "Before 6 November 2026 Jane Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Jane Glasgow (record-ancestry-glasgow-75dab81ce9f0) is recorded in Scotland, Burial Monument Inscriptions, 1507-2024, commemorated person, 1916 Ayton Churchyard Cemetery, Berwickshire, Scotland. Peter Glasgow (record-ancestry-glasgow-7efd04bf141f, Eccles, Berwickshire, Scotland, United Kingdom; born 1805 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwickshire; 33 years older; his own records are held (ancestry-60143-27459991). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Jane Glasgow (record-ancestry-glasgow-75dab81ce9f0) is recorded in Scotland, Burial Monument Inscriptions, 1507-2024, commemorated person, 1916 Ayton Churchyard Cemetery, Berwickshire, Scotland. Peter Glasgow (record-ancestry-glasgow-7efd04bf141f, Eccles, Berwickshire, Scotland, United Kingdom; born 1805 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwickshire; 33 years older; his own records are held (ancestry-60143-27459991). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Jane Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: John Glasgow (Glasgow-2433, b. 1786), Thomas Glasgow (record-ancestry-glasgow-bfe4b7d9ef6a, b. 1791), William Glasgow (record-ancestry-glasgow-45cf47435a75, b. 1784). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Jane Glasgow (record-ancestry-glasgow-75dab81ce9f0) is recorded in Scotland, Burial Monument Inscriptions, 1507-2024, commemorated person, 1916 Ayton Churchyard Cemetery, Berwickshire, Scotland. Peter Glasgow (record-ancestry-glasgow-7efd04bf141f, Eccles, Berwickshire, Scotland, United Kingdom; born 1805 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) berwickshire; 33 years older; his own records are held (ancestry-60143-27459991). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-62497-41462",
+        "ancestry-60143-27459991"
+      ],
+      "scope": "None of the cited records names Jane Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: John Glasgow (Glasgow-2433, b. 1786), Thomas Glasgow (record-ancestry-glasgow-bfe4b7d9ef6a, b. 1791), William Glasgow (record-ancestry-glasgow-45cf47435a75, b. 1784). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-75dab81ce9f0.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-75dab81ce9f0": "Jane Glasgow",
+      "record-ancestry-glasgow-7efd04bf141f": "Peter Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-838be36fd9ad-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-838be36fd9ad",
+      "record-ancestry-glasgow-30dc6133ca83"
+    ],
+    "claim": "William Glasgow (record-ancestry-glasgow-30dc6133ca83) is proposed, on place and age alone, as the father of Robert Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-838be36fd9ad": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-30dc6133ca83": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-179016854",
+      "ancestry-9841-87334284",
+      "ancestry-9841-87334286",
+      "ancestry-9841-86820998",
+      "ancestry-9841-86820999"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-30dc6133ca83",
+        "source_basis": "Before 6 November 2026 Robert Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Robert Glasgow (record-ancestry-glasgow-838be36fd9ad) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 30 May 1833 Cathedral,Manchester,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 24 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow (record-ancestry-glasgow-838be36fd9ad) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 30 May 1833 Cathedral,Manchester,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 24 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.15,
+      "reviewed": "2026-11-06",
+      "basis": "Robert Glasgow (record-ancestry-glasgow-838be36fd9ad) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 30 May 1833 Cathedral,Manchester,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 24 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-179016854",
+        "ancestry-9841-87334284",
+        "ancestry-9841-87334286",
+        "ancestry-9841-86820998",
+        "ancestry-9841-86820999"
+      ],
+      "scope": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-838be36fd9ad.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-30dc6133ca83": "William Glasgow",
+      "record-ancestry-glasgow-838be36fd9ad": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-a675e379f29d-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-a675e379f29d",
+      "record-ancestry-glasgow-04d267d61354"
+    ],
+    "claim": "William Alexander Glasgow (record-ancestry-glasgow-04d267d61354) is proposed, on place and age alone, as the father of Robert Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-a675e379f29d": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-04d267d61354": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-131262447",
+      "ancestry-9841-114661706"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-04d267d61354",
+        "source_basis": "Before 6 November 2026 Robert Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Robert Glasgow (record-ancestry-glasgow-a675e379f29d) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 4 May 1845 Cornhill, Northumberland, England. William Alexander Glasgow (record-ancestry-glasgow-04d267d61354, Berwick-upon-Tweed, Northumberland, England; born 1785 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) northumberland; 30 years older; his own records are held (ancestry-9841-114661706). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow (record-ancestry-glasgow-a675e379f29d) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 4 May 1845 Cornhill, Northumberland, England. William Alexander Glasgow (record-ancestry-glasgow-04d267d61354, Berwick-upon-Tweed, Northumberland, England; born 1785 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) northumberland; 30 years older; his own records are held (ancestry-9841-114661706). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-ce807e57a0fe, b. 1794). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "Robert Glasgow (record-ancestry-glasgow-a675e379f29d) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 4 May 1845 Cornhill, Northumberland, England. William Alexander Glasgow (record-ancestry-glasgow-04d267d61354, Berwick-upon-Tweed, Northumberland, England; born 1785 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) northumberland; 30 years older; his own records are held (ancestry-9841-114661706). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-131262447",
+        "ancestry-9841-114661706"
+      ],
+      "scope": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-ce807e57a0fe, b. 1794). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-a675e379f29d.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-04d267d61354": "William Alexander Glasgow",
+      "record-ancestry-glasgow-a675e379f29d": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-c935a59e4dac-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-c935a59e4dac",
+      "record-ancestry-glasgow-30dc6133ca83"
+    ],
+    "claim": "William Glasgow (record-ancestry-glasgow-30dc6133ca83) is proposed, on place and age alone, as the father of Robert Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-c935a59e4dac": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-30dc6133ca83": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-11443545",
+      "ancestry-9841-11443547",
+      "ancestry-9841-86820998",
+      "ancestry-9841-86820999"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-30dc6133ca83",
+        "source_basis": "Before 6 November 2026 Robert Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Robert Glasgow (record-ancestry-glasgow-c935a59e4dac) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 11 Aug 1830 Gravel Lane Wesleyan Methodist,Salford,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire; 21 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow (record-ancestry-glasgow-c935a59e4dac) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 11 Aug 1830 Gravel Lane Wesleyan Methodist,Salford,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire; 21 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Robert Glasgow (record-ancestry-glasgow-c935a59e4dac) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 11 Aug 1830 Gravel Lane Wesleyan Methodist,Salford,Lancashire,England. William Glasgow (record-ancestry-glasgow-30dc6133ca83, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1779 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire; 21 years older; his own records are held (ancestry-9841-86820998, ancestry-9841-86820999). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-11443545",
+        "ancestry-9841-11443547",
+        "ancestry-9841-86820998",
+        "ancestry-9841-86820999"
+      ],
+      "scope": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-c935a59e4dac.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-30dc6133ca83": "William Glasgow",
+      "record-ancestry-glasgow-c935a59e4dac": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-ce3e0b881807-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-ce3e0b881807",
+      "Glasgow-1572"
+    ],
+    "claim": "James Glasgow (Glasgow-1572) is proposed, on place and age alone, as the father of Robert Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-ce3e0b881807": {
+        "relationship": "father"
+      },
+      "Glasgow-1572": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-12058912",
+      "held-e-8fb97fabc0de"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-1572",
+        "source_basis": "Before 6 November 2026 Robert Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Robert Glasgow (record-ancestry-glasgow-ce3e0b881807) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 6 Jul 1833 Kilbirnie, Ayr, Scotland. James Glasgow (Glasgow-1572, Kilbirnie, Ayrshire, Scotland; born 1774) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) kilbirnie; 29 years older; his own records are held (held-e-8fb97fabc0de). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow (record-ancestry-glasgow-ce3e0b881807) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 6 Jul 1833 Kilbirnie, Ayr, Scotland. James Glasgow (Glasgow-1572, Kilbirnie, Ayrshire, Scotland; born 1774) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) kilbirnie; 29 years older; his own records are held (held-e-8fb97fabc0de). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (Glasgow-4139, b. 1749). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "Robert Glasgow (record-ancestry-glasgow-ce3e0b881807) is recorded in Scotland, Select Births and Baptisms, 1564-1950, child christened, 6 Jul 1833 Kilbirnie, Ayr, Scotland. James Glasgow (Glasgow-1572, Kilbirnie, Ayrshire, Scotland; born 1774) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) kilbirnie; 29 years older; his own records are held (held-e-8fb97fabc0de). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60143-12058912",
+        "held-e-8fb97fabc0de"
+      ],
+      "scope": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (Glasgow-4139, b. 1749). The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-ce3e0b881807.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1572": "James Glasgow",
+      "record-ancestry-glasgow-ce3e0b881807": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-d71b0ae3f539-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-d71b0ae3f539",
+      "record-ancestry-glasgow-d54b26479243"
+    ],
+    "claim": "Samuel Glasgow (record-ancestry-glasgow-d54b26479243) is proposed, on place and age alone, as the father of Edward Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-d71b0ae3f539": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-d54b26479243": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60931-362920",
+      "ancestry-9841-122874989",
+      "ancestry-9841-145077996",
+      "ancestry-9841-145077998",
+      "ancestry-9841-148573462",
+      "ancestry-9841-159558065",
+      "ancestry-9841-169321940"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-d54b26479243",
+        "source_basis": "Before 6 November 2026 Edward Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Edward Glasgow (record-ancestry-glasgow-d71b0ae3f539) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, groom, 23 Sep 1823. Samuel Glasgow (record-ancestry-glasgow-d54b26479243, Saint Benet Pauls Wharf,London,London,England; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london; 46 years older; his own records are held (ancestry-9841-148573462, ancestry-9841-159558065). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Edward Glasgow (record-ancestry-glasgow-d71b0ae3f539) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, groom, 23 Sep 1823. Samuel Glasgow (record-ancestry-glasgow-d54b26479243, Saint Benet Pauls Wharf,London,London,England; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london; 46 years older; his own records are held (ancestry-9841-148573462, ancestry-9841-159558065). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Edward Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Isaac C Glasko (Glasko-4, b. 1776), Jacob Glasko (Glasko-5, b. 1750), John Glasgow (record-ancestry-glasgow-33381969b4dd, b. 1740). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Edward Glasgow (record-ancestry-glasgow-d71b0ae3f539) is recorded in UK, British Army and Navy Birth, Marriage and Death Records, 1730-1960, groom, 23 Sep 1823. Samuel Glasgow (record-ancestry-glasgow-d54b26479243, Saint Benet Pauls Wharf,London,London,England; born 1749 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) london; 46 years older; his own records are held (ancestry-9841-148573462, ancestry-9841-159558065). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60931-362920",
+        "ancestry-9841-122874989",
+        "ancestry-9841-145077996",
+        "ancestry-9841-145077998",
+        "ancestry-9841-148573462",
+        "ancestry-9841-159558065",
+        "ancestry-9841-169321940"
+      ],
+      "scope": "None of the cited records names Edward Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: Isaac C Glasko (Glasko-4, b. 1776), Jacob Glasko (Glasko-5, b. 1750), John Glasgow (record-ancestry-glasgow-33381969b4dd, b. 1740). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-d71b0ae3f539.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-d54b26479243": "Samuel Glasgow",
+      "record-ancestry-glasgow-d71b0ae3f539": "Edward Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-d8f3ee0800d7-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-d8f3ee0800d7",
+      "record-ancestry-glasgow-32c1d54a67fc"
+    ],
+    "claim": "Isaac Glasgow (record-ancestry-glasgow-32c1d54a67fc) is proposed, on place and age alone, as the father of Marrion Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-d8f3ee0800d7": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-32c1d54a67fc": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60144-2086101",
+      "ancestry-60143-18877184"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-32c1d54a67fc",
+        "source_basis": "Before 6 November 2026 Marrion Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Marrion Glasgow (record-ancestry-glasgow-d8f3ee0800d7) is recorded in Scotland, Select Marriages, 1561-1910, bride, May 1830 New Monkland, Lanark, Scotland. Isaac Glasgow (record-ancestry-glasgow-32c1d54a67fc, Glasgow, Lanark, Scotland; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lanark; 31 years older; his own records are held (ancestry-60143-18877184). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Marrion Glasgow (record-ancestry-glasgow-d8f3ee0800d7) is recorded in Scotland, Select Marriages, 1561-1910, bride, May 1830 New Monkland, Lanark, Scotland. Isaac Glasgow (record-ancestry-glasgow-32c1d54a67fc, Glasgow, Lanark, Scotland; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lanark; 31 years older; his own records are held (ancestry-60143-18877184). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Marrion Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-71969f15c9f6, b. 1789), Henry Glasgow (record-ancestry-glasgow-d079f4e165d1, b. 1782), Hugh Glasgow (record-ancestry-glasgow-deea91bf414e, b. 1780). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Marrion Glasgow (record-ancestry-glasgow-d8f3ee0800d7) is recorded in Scotland, Select Marriages, 1561-1910, bride, May 1830 New Monkland, Lanark, Scotland. Isaac Glasgow (record-ancestry-glasgow-32c1d54a67fc, Glasgow, Lanark, Scotland; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lanark; 31 years older; his own records are held (ancestry-60143-18877184). He ranks first on those grounds against 3 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-60144-2086101",
+        "ancestry-60143-18877184"
+      ],
+      "scope": "None of the cited records names Marrion Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-71969f15c9f6, b. 1789), Henry Glasgow (record-ancestry-glasgow-d079f4e165d1, b. 1782), Hugh Glasgow (record-ancestry-glasgow-deea91bf414e, b. 1780). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-d8f3ee0800d7.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-32c1d54a67fc": "Isaac Glasgow",
+      "record-ancestry-glasgow-d8f3ee0800d7": "Marrion Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-e6-mary-hary-1841-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-e6-mary-hary-1841",
+      "Glasgow-1656"
+    ],
+    "claim": "Robert Glasgow (Glasgow-1656) is proposed, on place and age alone, as the father of Mary Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-e6-mary-hary-1841": {
+        "relationship": "father"
+      },
+      "Glasgow-1656": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-1780-4179887",
+      "ancestry-1780-4179888",
+      "ancestry-1780-4230215",
+      "held-e-8efaa87edede",
+      "held-e-b10c058e1ee0",
+      "held-e-c822e0a525df"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-1656",
+        "source_basis": "Before 6 November 2026 Mary Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Mary Glasgow (record-ancestry-glasgow-e6-mary-hary-1841) is recorded in Australia, Marriage Index, 1788–1950, indexed subject, 1841 Victoria. Robert Glasgow (Glasgow-1656, Clough, County Antrim, Ireland, United Kingdom; born 1814) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) victoria; 27 years older; his own records are held (held-e-8efaa87edede, held-e-b10c058e1ee0). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Mary Glasgow (record-ancestry-glasgow-e6-mary-hary-1841) is recorded in Australia, Marriage Index, 1788–1950, indexed subject, 1841 Victoria. Robert Glasgow (Glasgow-1656, Clough, County Antrim, Ireland, United Kingdom; born 1814) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) victoria; 27 years older; his own records are held (held-e-8efaa87edede, held-e-b10c058e1ee0). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Mary Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Mary Glasgow (record-ancestry-glasgow-e6-mary-hary-1841) is recorded in Australia, Marriage Index, 1788–1950, indexed subject, 1841 Victoria. Robert Glasgow (Glasgow-1656, Clough, County Antrim, Ireland, United Kingdom; born 1814) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) victoria; 27 years older; his own records are held (held-e-8efaa87edede, held-e-b10c058e1ee0). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-1780-4179887",
+        "ancestry-1780-4179888",
+        "ancestry-1780-4230215",
+        "held-e-8efaa87edede",
+        "held-e-b10c058e1ee0",
+        "held-e-c822e0a525df"
+      ],
+      "scope": "None of the cited records names Mary Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-e6-mary-hary-1841.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1656": "Robert Glasgow",
+      "record-ancestry-glasgow-e6-mary-hary-1841": "Mary Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-e6-thomas-1846-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-e6-thomas-1846",
+      "Glasgow-1656"
+    ],
+    "claim": "Robert Glasgow (Glasgow-1656) is proposed, on place and age alone, as the father of Thomas Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-e6-thomas-1846": {
+        "relationship": "father"
+      },
+      "Glasgow-1656": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-1780-4179891",
+      "ancestry-1780-4179892",
+      "held-e-8efaa87edede",
+      "held-e-b10c058e1ee0",
+      "held-e-c822e0a525df"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "Glasgow-1656",
+        "source_basis": "Before 6 November 2026 Thomas Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Thomas Glasgow (record-ancestry-glasgow-e6-thomas-1846) is recorded in Australia, Marriage Index, 1788–1950, indexed subject, 1846 Victoria. Robert Glasgow (Glasgow-1656, Clough, County Antrim, Ireland, United Kingdom; born 1814) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) victoria; 32 years older; his own records are held (held-e-8efaa87edede, held-e-b10c058e1ee0). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Thomas Glasgow (record-ancestry-glasgow-e6-thomas-1846) is recorded in Australia, Marriage Index, 1788–1950, indexed subject, 1846 Victoria. Robert Glasgow (Glasgow-1656, Clough, County Antrim, Ireland, United Kingdom; born 1814) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) victoria; 32 years older; his own records are held (held-e-8efaa87edede, held-e-b10c058e1ee0). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Thomas Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Thomas Glasgow (record-ancestry-glasgow-e6-thomas-1846) is recorded in Australia, Marriage Index, 1788–1950, indexed subject, 1846 Victoria. Robert Glasgow (Glasgow-1656, Clough, County Antrim, Ireland, United Kingdom; born 1814) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) victoria; 32 years older; his own records are held (held-e-8efaa87edede, held-e-b10c058e1ee0). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-1780-4179891",
+        "ancestry-1780-4179892",
+        "held-e-8efaa87edede",
+        "held-e-b10c058e1ee0",
+        "held-e-c822e0a525df"
+      ],
+      "scope": "None of the cited records names Thomas Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: none. The candidate's own birth year and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-e6-thomas-1846.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-1656": "Robert Glasgow",
+      "record-ancestry-glasgow-e6-thomas-1846": "Thomas Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-f06797f1bda9-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-f06797f1bda9",
+      "record-ancestry-glasgow-fd84e4728b02"
+    ],
+    "claim": "James Glasgow (record-ancestry-glasgow-fd84e4728b02) is proposed, on place and age alone, as the father of Eliz'Th Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-f06797f1bda9": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-fd84e4728b02": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9852-37888641",
+      "ancestry-9841-46657939",
+      "ancestry-9852-11864960"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-fd84e4728b02",
+        "source_basis": "Before 6 November 2026 Eliz'Th Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Eliz'Th Glasgow (record-ancestry-glasgow-f06797f1bda9) is recorded in England, Select Marriages, 1538-1973, bride, 26 Oct 1835 Monk-Wearmouth, Durham, England. James Glasgow (record-ancestry-glasgow-fd84e4728b02, Bishop-Wearmouth, Durham, England; born 1801 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) durham, wearmouth; 21 years older; his own records are held (ancestry-9841-46657939, ancestry-9852-11864960). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Eliz'Th Glasgow (record-ancestry-glasgow-f06797f1bda9) is recorded in England, Select Marriages, 1538-1973, bride, 26 Oct 1835 Monk-Wearmouth, Durham, England. James Glasgow (record-ancestry-glasgow-fd84e4728b02, Bishop-Wearmouth, Durham, England; born 1801 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) durham, wearmouth; 21 years older; his own records are held (ancestry-9841-46657939, ancestry-9852-11864960). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Eliz'Th Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7, b. 1798), John Glasgow (record-ancestry-glasgow-edc054733b27, b. 1800). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.1,
+      "reviewed": "2026-11-06",
+      "basis": "Eliz'Th Glasgow (record-ancestry-glasgow-f06797f1bda9) is recorded in England, Select Marriages, 1538-1973, bride, 26 Oct 1835 Monk-Wearmouth, Durham, England. James Glasgow (record-ancestry-glasgow-fd84e4728b02, Bishop-Wearmouth, Durham, England; born 1801 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) durham, wearmouth; 21 years older; his own records are held (ancestry-9841-46657939, ancestry-9852-11864960). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9852-37888641",
+        "ancestry-9841-46657939",
+        "ancestry-9852-11864960"
+      ],
+      "scope": "None of the cited records names Eliz'Th Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: John Glasgow (record-ancestry-glasgow-c3cf06b7e0b7, b. 1798), John Glasgow (record-ancestry-glasgow-edc054733b27, b. 1800). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-f06797f1bda9.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-f06797f1bda9": "Eliz'Th Glasgow",
+      "record-ancestry-glasgow-fd84e4728b02": "James Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-ancestry-glasgow-f28c9caeac76-father-20261106",
+    "people": [
+      "record-ancestry-glasgow-f28c9caeac76",
+      "record-father-william-glasgow-bengal-amelia"
+    ],
+    "claim": "William Glasgow (record-father-william-glasgow-bengal-amelia) is proposed, on place and age alone, as the father of Charles Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-ancestry-glasgow-f28c9caeac76": {
+        "relationship": "father"
+      },
+      "record-father-william-glasgow-bengal-amelia": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9898-466991",
+      "ancestry-9899-1271490",
+      "ancestry-9899-1390692",
+      "ancestry-9899-247030"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-father-william-glasgow-bengal-amelia",
+        "source_basis": "Before 6 November 2026 Charles Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Charles Glasgow (record-ancestry-glasgow-f28c9caeac76) is recorded in India, Select Deaths and Burials, 1719-1948, person buried, 05 Jul 1865 Lahore, Bengal, India. William Glasgow (record-father-william-glasgow-bengal-amelia, Barrackpore, Bengal, India; born 1805 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bengal, india; 26 years older; his own records are held (ancestry-9899-1271490, ancestry-9899-1390692). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Charles Glasgow (record-ancestry-glasgow-f28c9caeac76) is recorded in India, Select Deaths and Burials, 1719-1948, person buried, 05 Jul 1865 Lahore, Bengal, India. William Glasgow (record-father-william-glasgow-bengal-amelia, Barrackpore, Bengal, India; born 1805 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bengal, india; 26 years older; his own records are held (ancestry-9899-1271490, ancestry-9899-1390692). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Charles Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: none. The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.15,
+      "reviewed": "2026-11-06",
+      "basis": "Charles Glasgow (record-ancestry-glasgow-f28c9caeac76) is recorded in India, Select Deaths and Burials, 1719-1948, person buried, 05 Jul 1865 Lahore, Bengal, India. William Glasgow (record-father-william-glasgow-bengal-amelia, Barrackpore, Bengal, India; born 1805 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) bengal, india; 26 years older; his own records are held (ancestry-9899-1271490, ancestry-9899-1390692). He ranks first on those grounds against 0 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9898-466991",
+        "ancestry-9899-1271490",
+        "ancestry-9899-1390692",
+        "ancestry-9899-247030"
+      ],
+      "scope": "None of the cited records names Charles Glasgow's father; the link rests on place and age alone. Other candidates of fitting age in the same area: none. The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-f28c9caeac76.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-f28c9caeac76": "Charles Glasgow",
+      "record-father-william-glasgow-bengal-amelia": "William Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-fa6-4c442fff8f7d-father-father-20261106",
+    "people": [
+      "record-fa6-4c442fff8f7d-father",
+      "record-ancestry-glasgow-ce807e57a0fe"
+    ],
+    "claim": "William Glasgow (record-ancestry-glasgow-ce807e57a0fe) is proposed, on place and age alone, as the father of John Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-fa6-4c442fff8f7d-father": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-ce807e57a0fe": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-67140322",
+      "ancestry-9841-13571356",
+      "ancestry-9841-13571358"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-ce807e57a0fe",
+        "source_basis": "Before 6 November 2026 John Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "John Glasgow (record-fa6-4c442fff8f7d-father) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 18 Aug 1850 All Saints, Newcastle-upon-Tyne, Northumberland, England. William Glasgow (record-ancestry-glasgow-ce807e57a0fe, St. John, Newcastle-upon-Tyne, Northumberland, England; born 1794 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) newcastle, northumberland, tyne; 26 years older; his own records are held (ancestry-9841-13571356, ancestry-9841-13571358). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "John Glasgow (record-fa6-4c442fff8f7d-father) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 18 Aug 1850 All Saints, Newcastle-upon-Tyne, Northumberland, England. William Glasgow (record-ancestry-glasgow-ce807e57a0fe, St. John, Newcastle-upon-Tyne, Northumberland, England; born 1794 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) newcastle, northumberland, tyne; 26 years older; his own records are held (ancestry-9841-13571356, ancestry-9841-13571358). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names John Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-1f2d698a1b23, b. 1800), William Alexander Glasgow (record-ancestry-glasgow-04d267d61354, b. 1785). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.15,
+      "reviewed": "2026-11-06",
+      "basis": "John Glasgow (record-fa6-4c442fff8f7d-father) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 18 Aug 1850 All Saints, Newcastle-upon-Tyne, Northumberland, England. William Glasgow (record-ancestry-glasgow-ce807e57a0fe, St. John, Newcastle-upon-Tyne, Northumberland, England; born 1794 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) newcastle, northumberland, tyne; 26 years older; his own records are held (ancestry-9841-13571356, ancestry-9841-13571358). He ranks first on those grounds against 1 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-67140322",
+        "ancestry-9841-13571356",
+        "ancestry-9841-13571358"
+      ],
+      "scope": "None of the cited records names John Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-1f2d698a1b23, b. 1800), William Alexander Glasgow (record-ancestry-glasgow-04d267d61354, b. 1785). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-fa6-4c442fff8f7d-father.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-ce807e57a0fe": "William Glasgow",
+      "record-fa6-4c442fff8f7d-father": "John Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-d2-record-fa6-88449ec1dbec-father-father-20261106",
+    "people": [
+      "record-fa6-88449ec1dbec-father",
+      "record-ancestry-glasgow-440bb6bb9e42"
+    ],
+    "claim": "William Glasgow (record-ancestry-glasgow-440bb6bb9e42) is proposed, on place and age alone, as the father of Robert Glasgow; no record names him.",
+    "relation_type": null,
+    "perspectives": {
+      "record-fa6-88449ec1dbec-father": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-440bb6bb9e42": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-9841-7689982",
+      "ancestry-9841-183640583"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "prior_assessment": {
+        "relationship": "father",
+        "relative_id": "record-ancestry-glasgow-440bb6bb9e42",
+        "source_basis": "Before 6 November 2026 Robert Glasgow had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D2, round 3).",
+        "status": "unmarked"
+      },
+      "review_kind": "father_tentative_link_d2",
+      "source_newly_discovered": false
+    },
+    "status": "uncertain",
+    "assessment_date": "2026-11-06",
+    "basis": "Robert Glasgow (record-fa6-88449ec1dbec-father) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 27 Sep 1846 Hulme (near Manchester), Lancashire, England. William Glasgow (record-ancestry-glasgow-440bb6bb9e42, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 30 years older; his own records are held (ancestry-9841-183640583). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow (record-fa6-88449ec1dbec-father) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 27 Sep 1846 Hulme (near Manchester), Lancashire, England. William Glasgow (record-ancestry-glasgow-440bb6bb9e42, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 30 years older; his own records are held (ancestry-9841-183640583). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+    "limitations": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-30dc6133ca83, b. 1779). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found.",
+    "probability": {
+      "value": 0.12,
+      "reviewed": "2026-11-06",
+      "basis": "Robert Glasgow (record-fa6-88449ec1dbec-father) is recorded in England, Select Births and Christenings, 1538-1975, child christened, 27 Sep 1846 Hulme (near Manchester), Lancashire, England. William Glasgow (record-ancestry-glasgow-440bb6bb9e42, Lloyd Street Presbyterian Chapel-NC,Manchester,Lancashire,England; born 1786 (estimated from a record date)) is the best place-and-age fit among the Glasgow men in the catalogue and documentary people: he shares the place term(s) lancashire, manchester; 30 years older; his own records are held (ancestry-9841-183640583). He ranks first on those grounds against 2 other equally placed man/men of fitting age. This is a tentative place-and-age inference, not a record of parentage.",
+      "source_ids": [
+        "ancestry-9841-7689982",
+        "ancestry-9841-183640583"
+      ],
+      "scope": "None of the cited records names Robert Glasgow's father; the link rests on place and age alone. The child's birth year is itself estimated from a record date. Other candidates of fitting age in the same area: William Glasgow (record-ancestry-glasgow-08f2af086131, b. 1782), William Glasgow (record-ancestry-glasgow-30dc6133ca83, b. 1779). The candidate's own birth year is estimated and identity are unproved. Meant to be revisited if a baptism, marriage or death record naming the father is found."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-fa6-88449ec1dbec-father.html#research-findings",
+        "label": "Father link review (D2)"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-440bb6bb9e42": "William Glasgow",
+      "record-fa6-88449ec1dbec-father": "Robert Glasgow"
+    }
+  },
+  {
     "assertion_id": "C-maternal-20261026-robert2356-mary-mother",
     "people": [
       "Glasgow-2356",
