@@ -409280,6 +409280,59 @@
           "note": "The baptism index gives James Alexander Glasgow’s birth as 27 Sep 1876 and baptism as 18 Jan 1877. It names James Glasgow and Mathilda Martin as the parents."
         }
       ]
+    },
+    {
+      "catalogue_id": "record-ancestry-john-glasgow-rangitikei-1911-46024049",
+      "subject_id": "ancestry-john-glasgow-rangitikei-1911-46024049",
+      "name": "John Glasgow",
+      "first_names": [
+        "John"
+      ],
+      "last_names_at_birth": [
+        "Glasgow"
+      ],
+      "last_names_current": [],
+      "gender": "Male",
+      "birth": "",
+      "birth_location": "",
+      "death": "",
+      "death_location": "",
+      "source_subject_url": "https://www.ancestry.co.uk/search/collections/60547/records/46024049",
+      "creation_status": "identity_hold",
+      "draft_path": "research/ancestry-glasgow-audit/drafts/john-rangitikei-1911.wiki",
+      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nThe cemetery index gives John Glasgow’s death as 10 Jul 1911, aged 83. The spouse field names Janet Glasgow. A Turakina entry names Janet Glasgow’s spouse as John Glasgow. The names and area agree; whether the entries describe the same couple remains open.<ref>[https://www.ancestry.co.uk/search/collections/60547/records/46024049 Ancestry, New Zealand, Cemetery Records, 1800–2007: John Glasgow, 10 Jul 1911, record 60547/46024049].</ref>\n\n== Research Notes ==\nThe cemetery index names John Glasgow and spouse Janet. His earlier identity remains unresolved.\n\n== Sources ==\n<references />\n",
+      "assessment": "Documentary cemetery subject; earlier identity unresolved.",
+      "current_conclusion": "The cemetery index names John Glasgow and spouse Janet. His earlier identity remains unresolved.",
+      "reviewed_at": "2026-11-06",
+      "candidates": [],
+      "duplicate_audit": {
+        "scope": "Compared local John Glasgow dossiers by spouse, death date and district; no exact personal match established.",
+        "candidates": []
+      },
+      "historical_basis": {
+        "latest_birth_year": 1829,
+        "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/46024049",
+        "reason": "The cemetery index records death on 10 Jul 1911 at age 83."
+      },
+      "records": [
+        {
+          "source_title": "New Zealand, Cemetery Records, 1800–2007: John Glasgow, record 60547/46024049",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/46024049",
+          "source_type": "Provider index transcript",
+          "date": "10 Jul 1911",
+          "year": 1911,
+          "place": "Wanganui, Rangitikei, New Zealand",
+          "indexed_facts": {
+            "Name": "John Glasgow",
+            "Death Age": "83",
+            "Birth Date": "abt 1828",
+            "Death Date": "10 Jul 1911",
+            "Burial Place": "Wanganui, Rangitikei",
+            "Spouse": "Janet Glasgow"
+          },
+          "note": "The cemetery index gives John Glasgow’s death as 10 Jul 1911, aged 83. The spouse field names Janet Glasgow. A Turakina entry names Janet Glasgow’s spouse as John Glasgow. The names and area agree; whether the entries describe the same couple remains open."
+        }
+      ]
     }
   ]
 }

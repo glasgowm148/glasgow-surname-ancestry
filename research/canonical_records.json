@@ -470354,5 +470354,305 @@
     "related_evidence_ids": [
       "ancestry-60547-199351"
     ]
+  },
+  {
+    "record_id": "ancestry-60547-1822947",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/1822947",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "James McClure Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1822947",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: James McClure Glasgow, record 60547/1822947",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "James McClure Glasgow",
+      "Death Age": "85",
+      "Birth Date": "abt 1849",
+      "Death Date": "12 Aug 1934",
+      "Cemetery": "Karori",
+      "Burial Place": "Karori, Wellington, Wellington",
+      "Spouse": "Annie Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "12 Aug 1934",
+    "year": 1934,
+    "date_status": "death_date",
+    "place": "Karori Cemetery, Wellington, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "James McClure Glasgow — cemetery index",
+    "note": "The cemetery index gives James McClure Glasgow’s death as 12 Aug 1934, aged 85. The spouse field names Annie Glasgow. The catalogue has 14 August; the cemetery index gives 12 August. The different dates are retained.",
+    "status": "Matched historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1850,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1822947",
+      "reason": "The cemetery index records death on 12 Aug 1934 at age 85."
+    },
+    "profiles": {
+      "Glasgow-2113": {
+        "role": "Full name, spouse Annie and Wellington burial agree",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-60547-375390",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/375390",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "James Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/375390",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: James Glasgow, record 60547/375390",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "James Glasgow",
+      "Death Age": "96",
+      "Birth Date": "abt 1845",
+      "Death Date": "3 Mar 1941",
+      "Cemetery": "Papakura",
+      "Burial Place": "Auckland",
+      "Spouse": "Margaret Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "3 Mar 1941",
+    "year": 1941,
+    "date_status": "death_date",
+    "place": "Papakura Cemetery, Auckland, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "James Glasgow — cemetery index",
+    "note": "The cemetery index gives James Glasgow’s death as 3 Mar 1941, aged 96. The spouse field names Margaret Glasgow. The companion Papakura entry repeats the age, death date and spouse.",
+    "status": "Matched historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1846,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/375390",
+      "reason": "The cemetery index records death on 3 Mar 1941 at age 96."
+    },
+    "profiles": {
+      "Glasgow-574": {
+        "role": "Exact death date, place and spouse Margaret",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-930815"
+    ]
+  },
+  {
+    "record_id": "ancestry-60547-46024049",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/46024049",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "John Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/46024049",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: John Glasgow, record 60547/46024049",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "John Glasgow",
+      "Death Age": "83",
+      "Birth Date": "abt 1828",
+      "Death Date": "10 Jul 1911",
+      "Burial Place": "Wanganui, Rangitikei",
+      "Spouse": "Janet Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "10 Jul 1911",
+    "year": 1911,
+    "date_status": "death_date",
+    "place": "Wanganui, Rangitikei, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "John Glasgow — cemetery index",
+    "note": "The cemetery index gives John Glasgow’s death as 10 Jul 1911, aged 83. The spouse field names Janet Glasgow. A Turakina entry names Janet Glasgow’s spouse as John Glasgow. The names and area agree; whether the entries describe the same couple remains open.",
+    "status": "Documentary source; identity held",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1829,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/46024049",
+      "reason": "The cemetery index records death on 10 Jul 1911 at age 83."
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-1024049"
+    ],
+    "profiles": {
+      "record-ancestry-john-glasgow-rangitikei-1911-46024049": {
+        "role": "Documentary subject: identity held",
+        "assessment": "identity_hold",
+        "timeline_group": "Life events"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-60547-680488",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/680488",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "William James Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/680488",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: William James Glasgow, record 60547/680488",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "William James Glasgow",
+      "Death Age": "55",
+      "Birth Date": "abt 1831",
+      "Death Date": "1 Dec 1886",
+      "Burial Date": "3 Dec 1886",
+      "Cemetery": "Wakapuaka",
+      "Burial Place": "Marlborough, Nelson",
+      "Spouse": "Dora Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "1 Dec 1886",
+    "year": 1886,
+    "date_status": "death_date",
+    "place": "Wakapuaka Cemetery, Nelson, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "William James Glasgow — cemetery index",
+    "note": "The cemetery index gives William James Glasgow’s death as 1 Dec 1886, aged 55. It gives burial on 3 Dec 1886. The spouse field names Dora Glasgow. A companion entry gives 1 December in the burial date field. Both readings are retained.",
+    "status": "Matched historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1832,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/680488",
+      "reason": "The cemetery index records death on 1 Dec 1886 at age 55."
+    },
+    "profiles": {
+      "Glasgow-969": {
+        "role": "Exact death date, cemetery and spouse Dora",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-1077546"
+    ]
+  },
+  {
+    "record_id": "ancestry-60547-804977",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/804977",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Thomas McNeill Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/804977",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Thomas McNeill Glasgow, record 60547/804977",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Thomas McNeill Glasgow",
+      "Death Age": "77",
+      "Birth Date": "abt 1836",
+      "Death Date": "2 May 1913",
+      "Cemetery": "Waikaraka",
+      "Burial Place": "Auckland"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "2 May 1913",
+    "year": 1913,
+    "date_status": "death_date",
+    "place": "Waikaraka Cemetery, Auckland, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Thomas McNeill Glasgow — cemetery index",
+    "note": "The cemetery index gives Thomas McNeill Glasgow’s death as 2 May 1913, aged 77. The Auckland catalogue candidate is named Thomas McNeice Glasgow and has a birth estimate of about 1832. The index’s McNeill spelling and estimated 1836 birth are retained.",
+    "status": "Matched historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1837,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/804977",
+      "reason": "The cemetery index records death on 2 May 1913 at age 77."
+    },
+    "profiles": {
+      "Glasgow-2538": {
+        "role": "Exact death date and Auckland location; middle name and age differ",
+        "assessment": "probable",
+        "timeline_group": "Birth and death"
+      }
+    }
+  },
+  {
+    "record_id": "ancestry-60547-930815",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/930815",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "James Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/930815",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: James Glasgow, record 60547/930815",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "James Glasgow",
+      "Death Age": "96",
+      "Birth Date": "abt 1845",
+      "Death Date": "3 Mar 1941",
+      "Burial Date": "5 Mar 1941",
+      "Cemetery": "Papakura",
+      "Burial Place": "Auckland",
+      "Spouse": "Margaret Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "3 Mar 1941",
+    "year": 1941,
+    "date_status": "death_date",
+    "place": "Papakura Cemetery, Auckland, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "James Glasgow — cemetery index",
+    "note": "The cemetery index gives James Glasgow’s death as 3 Mar 1941, aged 96. It gives burial on 5 Mar 1941. The spouse field names Margaret Glasgow. The companion Papakura entry repeats the age, death date and spouse.",
+    "status": "Matched historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1846,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/930815",
+      "reason": "The cemetery index records death on 3 Mar 1941 at age 96."
+    },
+    "profiles": {
+      "Glasgow-574": {
+        "role": "Exact death date, place and spouse Margaret",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-375390"
+    ]
   }
 ]
