@@ -155,6 +155,9 @@
   });
   function start(data) {
   const byId = id => document.getElementById(id);
+  // The builder escapes these sourced case cards before serializing them.
+  const cards = byId('early-connection-cards');
+  if (cards) cards.innerHTML = data.early_connection_cards || '';
   // In-page links stay on this page despite the site's <base href>.
   const here = location.pathname;
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -176,7 +179,7 @@
   ];
   const GRADES = ['confident','probable','possible','uncertain','unknown'];
   const defaultCutoff = String(data.default_cutoff ?? data.primary_cutoff);
-  const state = {cutoff:defaultCutoff, view:'working', parents:'both', range:'30', day:null, priorityLimit:20, findingsLimit:100, research:null};
+  const state = {cutoff:defaultCutoff, view:'working', parents:'father', range:'30', day:null, priorityLimit:20, findingsLimit:100, research:null};
 
   // ---------- Key measure tiles ----------
   function sparkline(points, label) {
@@ -267,10 +270,8 @@
     const included = BANDS_IN_VIEW[view] || [], countedShare = included.reduce((sum,key) => sum+(now.share[key] || 0), 0);
     const pts1 = v => v.toFixed(1)+' pts';
     const people = bands.population - bands.unavailable_count;
-    const seg = [['both','Both parents'],['father','Fathers'],['mother','Mothers']].map(([key,label]) =>
-      `<button type="button" data-parents="${key}" aria-pressed="${key === parents}">${label}</button>`).join('');
     const bar = PARENT_BANDS.map(b => now.counts[b.key] ? `<span class="g-${b.key}" style="flex:${now.counts[b.key]}" title="${esc(b.label)}: ${now.share[b.key].toFixed(1)}%"></span>` : '').join('');
-    const head = `<div class="pd-kpi-group" id="kpi-bands"><div class="pd-kpi-group-head"><h3>Parent links by confidence band</h3><div class="pd-seg pd-seg-parents" role="group" aria-label="Parent slots counted">${seg}</div></div>`
+    const head = `<div class="pd-kpi-group" id="kpi-bands"><div class="pd-kpi-group-head"><h3>Father links by confidence band</h3></div>`
       + `<p class="pd-kpi-sub">Share of the ${number(now.total)} ${slotWord} of ${number(people)} people born through ${esc(cutoff)}${parents === 'both' ? ' (two per person)' : ' (one per person)'}${bands.unavailable_count ? `; ${number(bands.unavailable_count)} without a public account are left out` : ''}. Each slot counts once, in the band of its retained parent.</p>`
       + `<div class="pd-stack" role="img" aria-label="${esc(PARENT_BANDS.map(b => `${b.label} ${(now.share[b.key] ?? 0).toFixed(1)}%`).join(', '))}">${bar}</div>`
       + `<p class="pd-kpi-note">Links counted, ${esc(data.views[view].label.toLowerCase())}: ${included.map(key => PARENT_BANDS.find(b => b.key === key).label.toLowerCase()).join(', ')} ${included.length === 1 ? 'band' : 'bands'}, ${countedShare.toFixed(1)}% of these slots. Other bands are dimmed.</p></div>`;
@@ -612,7 +613,7 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
   function saveParams() {
     const params = new URLSearchParams(location.search);
     params.set('through', state.cutoff); params.set('links', state.view);
-    if (state.parents === 'both') params.delete('parents'); else params.set('parents', state.parents);
+    params.delete('parents');
     const metric = byId('history-metric').value;
     if (metric === 'edge_count') params.delete('history'); else params.set('history', metric);
     if (byId('history-cohort').value === 'fixed') params.delete('historyCohort'); else params.set('historyCohort', 'selected');
@@ -635,7 +636,6 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
   // Set both explicitly so a browser's restored form state cannot override the default.
   byId('progress-cutoff').value = data.cohorts[params.get('through')] ? params.get('through') : defaultCutoff;
   byId('progress-view').value = Object.keys(data.views).includes(params.get('links')) ? params.get('links') : 'working';
-  if (['father','mother'].includes(params.get('parents'))) state.parents = params.get('parents');
   if (Object.hasOwn(historyMetrics, params.get('history'))) byId('history-metric').value = params.get('history');
   if (params.get('historyCohort') === 'selected') byId('history-cohort').value = 'selected';
   setRange(['14','30','all'].includes(params.get('range')) ? params.get('range') : '30', false);
@@ -649,12 +649,6 @@ ${row.reason ? `<details><summary>Reason and evidence</summary><p>${esc(row.reas
   ['priority-order','priority-early','priority-kind'].forEach(id => byId(id).addEventListener('change', () => { state.priorityLimit = 20; renderPriorities(); }));
   byId('priority-more').addEventListener('click', () => { state.priorityLimit += 20; renderPriorities(); });
   document.querySelectorAll('.pd-seg button[data-range]').forEach(button => button.addEventListener('click', () => setRange(button.dataset.range)));
-  byId('kpi-grid').addEventListener('click', event => {
-    const button = event.target.closest('[data-parents]');
-    if (!button) return;
-    state.parents = button.dataset.parents; renderKpis(); saveParams();
-    byId('kpi-grid').querySelector(`[data-parents="${state.parents}"]`)?.focus();
-  });
   document.addEventListener('click', event => {
     const link = event.target.closest('[data-day]');
     if (!link || link.classList.contains('pd-hit')) return;

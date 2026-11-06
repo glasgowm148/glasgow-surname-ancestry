@@ -69,7 +69,6 @@ step 0 research-access     $PY tools/publish_research_access.py
 step 0 reader-guidance     $PY tools/repair_reader_guidance.py
 step 0 clean-urls          $PY tools/publish_clean_urls.py
 step 0 work-status         $PY -c "import runpy; print(runpy.run_path('tools/build_research_catalog.py')['sync_generated_profile_work_status']())"
-step 0 ancestry-progress   $PY tools/build_ancestry_progress.py
 # 4. Finalize, then the checks. A check that fails is reported and the rest still run.
 # The release repairs (privacy and DNA withholding, licensed assets, merge
 # redirects, the newspaper review and others) and the publishers whose files the
@@ -80,9 +79,11 @@ step 0 opr-marriages       $PY tools/publish_opr_marriage_review.py
 step 1 familysearch-links  $PY tools/sync_familysearch_links.py   # tolerated: map.tsv lives outside the repository
 step 0 tree-links          $PY tools/profile_tree_links.py   # the check below expects every page's tree row
 step 0 group-places        $PY tools/study_place_links.py   # tree-group place lists link only existing place pages
+step 0 onetree             $PY tools/site_sources/onetree/build.py
 # Later steps rewrite the atlas models after the release's DNA repair; restore the
 # approved versions last, or the privacy check finds individual DNA annotations.
 step 0 dna-withhold        $PY -c "import runpy; print(runpy.run_path('tools/repair_public_dna.py')['repair']())"
+step 0 ancestry-progress   $PY tools/build_ancestry_progress.py   # restore the toolbar link after Atlas rendering
 step 0 finalize            $PY -c "from tools.finalize_site import finalize; print(finalize())"
 step 0 release-totals      $PY tools/check_release_consistency.py --fix --no-research   # totals after finalize's record ingest
 step 1 check-research      $PY tools/check_research_publication.py --baseline data/site/research-publication-baseline.json

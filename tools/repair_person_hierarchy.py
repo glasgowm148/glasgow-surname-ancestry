@@ -568,7 +568,7 @@ def cached_hierarchy_sources():
         _relationship_assessments = original_assessments
 
 
-def _canonical_record_rows(profile_id: str) -> list[dict]:
+def _canonical_record_rows(profile_id: str, *, excluded: set[str] | None = None) -> list[dict]:
     """Return explicitly shared record identities mapped to this profile."""
     wanted = profile_id.casefold()
     cited = {record_id for assessment in _relationship_assessments()
@@ -577,6 +577,10 @@ def _canonical_record_rows(profile_id: str) -> list[dict]:
              for record_id in assessment.get("source_ids", [])}
     rows = []
     for record in _canonical_records():
+        if any(str(key).casefold() == wanted for key in (record.get("excluded_profile_ids") or ())):
+            if excluded is not None:
+                excluded.add(_record_id(record))
+            continue
         profiles = record.get("profiles") or {}
         profile_key = next((key for key in profiles if str(key).casefold() == wanted), None)
         if profile_key or _record_id(record) in cited:
@@ -605,8 +609,10 @@ def _record_rows(profile_id: str) -> list[dict]:
                     rows.append(row)
     # Share the recorded facts AND the viewing person's role. A local copy
     # must not shadow a canonical correction or another person's context.
-    canonical = {_record_id(row): row for row in _canonical_record_rows(profile_id)}
-    merged = [{**row, **canonical.pop(_record_id(row), {})} for row in rows]
+    excluded: set[str] = set()
+    canonical = {_record_id(row): row for row in _canonical_record_rows(profile_id, excluded=excluded)}
+    merged = [{**row, **canonical.pop(_record_id(row), {})} for row in rows
+              if _record_id(row) not in excluded]
     return merged + list(canonical.values())
 
 

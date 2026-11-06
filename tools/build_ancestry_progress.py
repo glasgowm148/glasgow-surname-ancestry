@@ -434,7 +434,7 @@ def method_html(strategy, report, quality, baseline):
         '<h3>The key measures</h3><dl class="pd-defs">'
         '<dt>Joined to relatives</dt><dd>The share of the cohort who share a paternal branch with at least one other cohort person, through the father–child links counted. Someone with no counted father and no counted children stands alone. Higher is better.</dd>'
         f'<dt>Same-branch pairs (formerly “connected pairs”)</dt><dd>The chance that two cohort people picked at random belong to the same paternal branch: {escape(metrics["connected_pairs"])} It is small while the family is split into many branches, even when most people are in some branch, and reaches 100% only when everyone is in one branch. A join between two large branches can move it a lot. Higher is better.</dd>'
-        '<dt>Parent links by confidence band</dt><dd>Every cohort person has two parent slots, father and mother. Each slot takes the confidence band of the retained named parent in the public account: confident (proved, confident, strongly supported or DNA-confirmed), probable, possible, uncertain, or ungraded when a parent is named without a grade. Unknown means no named parent is retained. The tiles show each band’s share of all slots, or of the father or mother slots alone; people without a public account are left out of the denominator. This counts slots, not people, and covers fathers outside the surname graph as well as mothers, so it differs from the father-link grades below, which count only links in the paternal graph. The links-counted setting marks which bands that measure includes; it does not change the slots. Changes compare daily snapshots; the series starts with its first recorded day and earlier days are not reconstructed.</dd>'
+        '<dt>Father links by confidence band</dt><dd>Each cohort person has one father slot. It takes the confidence band of the retained named father in the public account: confident (proved, confident, strongly supported or DNA-confirmed), probable, possible, uncertain, or ungraded when a parent is named without a grade. Unknown means no named parent is retained. The tiles show each band’s share of the father slots; people without a public account are left out of the denominator. Mothers are graded separately and are not counted here. This covers fathers outside the surname graph, so it differs from the father-link grades below, which count only links in the paternal graph. The links-counted setting marks which bands that measure includes; it does not change the slots. Changes compare daily snapshots; the series starts with its first recorded day and earlier days are not reconstructed.</dd>'
         f'<dt>Separate branches</dt><dd>{escape(metrics["components"])} Lower is better.</dd>'
         f'<dt>People in the largest branch</dt><dd>{escape(metrics["largest_component"])} Higher is better.</dd>'
         f'<dt>Unknown fathers</dt><dd>{escape(report["unknown_father_method"])} Lower is better.</dd>'
@@ -708,14 +708,17 @@ def build(create_baseline=False):
             f'<a href="{escape(s["url"], quote=True)}">{escape(s["label"])}</a>' for s in case["sources"]
         )
         cards.append(
-            f'<article class="connection-case" id="{case["id"]}"><p class="eyebrow">{case["year"]} onwards · {escape(case["status"])}</p><h3>{escape(case["title"])}</h3><p>{people}</p><p>{escape(case["basis"])}</p><p><strong>Next discriminating record:</strong> {escape(case["next_test"])}</p><p class="source-line">{sources}<br>{escape("; ".join(case["record_references"]))}</p></article>'
+            f'<article class="connection-case" id="{escape(case["id"], quote=True)}"><p class="eyebrow">{case["year"]} onwards · {escape(case["status"])}</p><h3>{escape(case["title"])}</h3><p>{people}</p><p>{escape(case["basis"])}</p><p><strong>Next discriminating record:</strong> {escape(case["next_test"])}</p><p class="source-line">{sources}<br>{escape("; ".join(case["record_references"]))}</p></article>'
         )
+    card_anchors = "".join(f'<span id="{escape(case["id"], quote=True)}"></span>'
+                           for case in strategy["early_connections"])
     cohort_rows = "".join(
         f"<tr><th scope='row'>Through {cutoff}</th><td>{data['working']['population']:,}</td><td>{data['working']['component_count']:,}</td><td>{len(data['working']['unattached_multi_child_roots']):,}</td><td>{data['working']['joined_people_percent']:.1f}%</td><td>{data['working']['connected_pairs_percent']:.2f}%</td></tr>"
         for cutoff, data in cohorts.items()
     )
     client = dict(
         reviewed=report['reviewed'],
+        early_connection_cards="".join(cards),
         current_named_father_coverage=current_named_father_coverage,
         cohorts={
             cutoff: {view: {k: v for k, v in value.items() if k != "cohort_ids"} for view, value in pair.items()}
@@ -786,7 +789,8 @@ def build(create_baseline=False):
               f'{len(cards):,} source-backed hypotheses, oldest record first, each with the next record that would decide it.',
               '<h3 id="working-map-title">One family, with the missing joins visible</h3><div id="working-origin-map" class="working-origin-map"></div>'
               '<h3>Connections, oldest first</h3><p class="pd-lede">Resolve the missing identity, kinship or title-transfer step, then extend the connection to its supported siblings.</p>'
-              + "".join(cards)),
+              f'<div id="early-connection-cards">{card_anchors}</div>'
+              '<noscript><p>Enable JavaScript to read the full case list.</p></noscript>'),
         panel('family-heads', 'family-heads-title', 'Unattached family heads', 'sum-heads',
               f'{len(roots):,} early heads of families without a father in the selected pedigree.',
               f'<p class="pd-lede">Work upwards from families rather than isolated later records. Heads with one child but two or more surname descendants are included.</p>'

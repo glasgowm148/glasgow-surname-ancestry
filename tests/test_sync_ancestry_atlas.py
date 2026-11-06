@@ -9,6 +9,25 @@ from tools.sync_ancestry_atlas import overlay_model
 
 
 class AtlasWorkingTests(unittest.TestCase):
+    def test_new_public_people_and_catalogue_date_keep_approved_dna(self):
+        old = {'meta': {'date': '2026-09-07', 'dnaCoverage': 'Approved September snapshot'},
+               'landmarks': ['Old-1'], 'sections': [], 'dna': [{'id': 'Old-1'}],
+               'people': [{'id': 'Old-1', 'kind': 'person', 'name': 'Reviewed display'}]}
+        fresh = {'meta': {'date': '2026-11-05', 'catalogueGenerated': '2026-11-04',
+                          'coverage': 'Current catalogue', 'dnaCoverage': 'No DNA'},
+                 'landmarks': [], 'sections': [{'id': 'New-1'}], 'dna': [],
+                 'people': [{'id': 'Old-1', 'kind': 'person', 'name': 'Raw display'},
+                            {'id': 'New-1', 'kind': 'person', 'publicCatalogueProfile': True}]}
+        atlas = overlay_model(old, fresh)
+        self.assertEqual([p['id'] for p in atlas['people']], ['Old-1', 'New-1'])
+        self.assertEqual(atlas['people'][0]['name'], 'Reviewed display')
+        self.assertEqual(atlas['meta']['catalogueGenerated'], '2026-11-04')
+        self.assertEqual(atlas['meta']['coverage'], 'Current catalogue')
+        self.assertEqual(atlas['meta']['dnaCoverage'], old['meta']['dnaCoverage'])
+        self.assertEqual(atlas['dna'], old['dna'])
+        self.assertEqual(atlas['landmarks'], old['landmarks'])
+        self.assertEqual(overlay_model(atlas, fresh), atlas)
+
     def test_ungraded_mother_placeholder_needs_matching_recorded_public_dossier(self):
         placeholder = dict(id='', name='Parent outside current One-Tree export',
                            role='mother', status='unmarked', inModel=False)

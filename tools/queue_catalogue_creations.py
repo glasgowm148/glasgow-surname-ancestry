@@ -373,6 +373,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
             cases.publish_context(people, dossiers)
     combined["people"] = _merge(combined["people"], people, "catalogue_id")
     combined["count"] = len(combined["people"])
+    combined["generated"] = date.today().isoformat()
     _write(web / "data/people.json", combined)
     search = _merge(_read(web / "data/catalogue-search-index.json", []), searches, "id")
     _write(web / "data/catalogue-search-index.json", search)

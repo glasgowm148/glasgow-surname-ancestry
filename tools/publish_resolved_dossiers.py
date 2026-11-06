@@ -224,6 +224,23 @@ def resolve(dossier, assessments, shared_assessments=()):
                     claim.update(lifecycle='historical', status='superseded',
                                  status_label=previous['label'], superseded_by=aid,
                                  supersession_scope=previous['scope'])
+        if assessment.get('lifecycle') == 'superseded' and assessment.get('display') == 'historical':
+            # A retired research-only assertion can outlive its draft. Keep
+            # its evidence in history without requiring a current edge or URL.
+            others = [person for person in assessment['people'] if person.casefold() != dossier['id'].casefold()]
+            if len(others) != 1:
+                raise ValueError(f"Shared assertion {aid} must identify one relative")
+            other = others[0]
+            archived = shared_relationship(dossier['id'], {'id': other}, [assessment])
+            archived.update(id=other, name=assessment.get('profile_names', {}).get(other, other))
+            history.append(archived)
+            for rows in result.get('relationships', {}).values():
+                rows[:] = [row for row in rows if not (row.get('claim_id') == aid
+                                                       and row.get('tree_relationship') is False)]
+            for claim in claims:
+                if claim.get('id') == aid:
+                    claim.update(lifecycle='historical', status='superseded')
+            continue
         found = False
         for group, rows in result.get('relationships', {}).items():
             for index, row in enumerate(rows):

@@ -87,7 +87,7 @@ def _restore_recorded_mother_placeholders(existing: dict, incoming: dict,
 
 
 def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None) -> dict:
-    """Refresh working subjects without replacing the approved atlas publication."""
+    """Add current public people and refresh reviewed fields on retained subjects."""
     result = deepcopy(retained)
     incoming = {p['id']: p for p in fresh['people']}
     selected = {p['id'] for p in fresh['people'] if p.get('edge', {}).get('type') == 'hypothesis'}
@@ -111,6 +111,9 @@ def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None)
     for old, current in aliases.items():
         existing.setdefault(current, deepcopy(incoming[current]))
         existing.pop(old, None)
+    for ident, person in incoming.items():
+        if person.get('publicCatalogueProfile') and ident not in existing and ident not in aliases:
+            existing[ident] = deepcopy(person)
     for person in existing.values():
         for group in ('parents', 'partners', 'childrenRecorded'):
             rows = person.get(group, [])
@@ -282,7 +285,7 @@ def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None)
             raise ValueError('Working tree attachment missing: ' + parent)
     sections = {s['id']: s for s in result['sections']}
     for section in fresh['sections']:
-        if section['id'] in documentary | public_families:
+        if section['id'] not in sections or section['id'] in documentary | public_families:
             sections[section['id']] = deepcopy(section)
     result['sections'] = list(sections.values())
     result['landmarks'] = list(dict.fromkeys(result['landmarks'] + sorted(documentary)))
@@ -301,6 +304,8 @@ def overlay_model(retained: dict, fresh: dict, *, site_root: Path | None = None)
                           maternalHypotheses=fresh['meta'].get('maternalHypotheses', 0),
                           parentRelationships=sum(len(p.get('parents', [])) for p in people),
                           workingOverlayIds=sorted(selected),
+                          **{key: deepcopy(fresh['meta'][key]) for key in ('date', 'catalogueGenerated', 'coverage')
+                             if key in fresh['meta']},
                           **{k: deepcopy(v) for k, v in fresh['meta'].items() if k.startswith(('publicFamily', 'publicMotherGrade')) or k in {'publicFatherHoldIds', 'publicSiblingScopeIds', 'publicSpouseScopeIds'}},
                           workingUpdated=fresh['meta']['date'],
                           workingMethod='Selected uncertain connections, historical father fields and approved existing maternal grades are synchronized from current public dossiers. Approved atlas accounts are retained; publication reconciliation is not a new genealogical inference.')

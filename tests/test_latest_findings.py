@@ -14,6 +14,24 @@ from tools import publish_opr_marriage_review
 
 
 class LatestFindingsTests(unittest.TestCase):
+    def test_progress_sections_are_only_on_opening_page_and_can_be_reapplied(self):
+        with tempfile.TemporaryDirectory() as directory:
+            web = Path(directory)
+            sections = web / findings.PROGRESS_SECTIONS
+            sections.parent.mkdir()
+            sections.write_text(json.dumps({
+                'dashboard': '<section id="research-progress">Progress</section>',
+                'findings': '<details id="individual-findings"><summary>Individual findings</summary></details>',
+                'css': '/assets/research/ancestry-progress.css?v=1',
+                'js': '/assets/research/ancestry-progress.js?v=1',
+            }))
+            opening = findings.with_progress(findings.render_main([]), web)
+            self.assertLess(opening.index('id="research-progress"'), opening.index('id="lf-feed-title"'))
+            self.assertLess(opening.index('id="lf-feed-title"'), opening.index('id="individual-findings"'))
+            self.assertEqual(opening, findings.with_progress(opening, web))
+            archive = findings.render_main([], page_number=1)
+            self.assertEqual(archive, findings.with_progress(archive, web))
+
     def fixture(self, directory):
         web = Path(directory) / 'www'
         for filename in ('about/index.html', 'people/glasgow-1.html', 'changes/index.html', 'research/subjects/daniel/index.html'):

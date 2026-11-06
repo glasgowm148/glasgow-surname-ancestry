@@ -11,6 +11,22 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_superseded_draft_assertion_stays_in_history_without_public_link(self):
+        old = 'record-withdrawn'
+        original = {'id': 'Father-1', 'relationships': {'children': [
+            {'id': 'Child-1', 'name': 'Robert', 'relationship': 'child'}]}}
+        retired = {'assertion_id': 'retired-link', 'people': ['Father-1', old],
+                   'publication_status': 'approved', 'status': 'probable',
+                   'lifecycle': 'superseded', 'display': 'historical',
+                   'allow_new_relationship': False, 'source_ids': ['baptism'],
+                   'perspectives': {'Father-1': {'relationship': 'child', 'reason': 'Draft consolidated.'}}}
+        resolved = module.resolve(original, [], [retired])
+        self.assertEqual([r['id'] for r in resolved['relationships']['children']], ['Child-1'])
+        history, = resolved['relationship_history']
+        self.assertEqual((history['id'], history['source_ids']), (old, ['baptism']))
+        self.assertNotIn('url', history)
+        self.assertEqual(resolved, module.resolve(resolved, [], [retired]))
+
     def test_stepmother_correction_preserves_history_and_catalogue_biological_mother(self):
         original = {'id': 'Child-1', 'relationships': {'parents': [
             {'id': 'Martha-1', 'name': 'Martha', 'relationship': 'mother', 'claim_id': 'old-mother'}]},

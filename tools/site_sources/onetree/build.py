@@ -110,6 +110,15 @@ def external_relations(items: list[dict], role: str, catalogue_by_id: dict[str, 
     return result
 
 
+def selects_working_parent(assessment: dict) -> bool:
+    # The workbench may mark an existing attachment as selected. Its grade
+    # belongs on the recorded relationship, not on a new hypothesis edge.
+    return (assessment.get('working_selection') is True
+            and assessment.get('allow_new_relationship') is not False and (
+        assessment.get('attachment_status') != 'attached'
+        or bool(assessment.get('working_parent_replacement'))))
+
+
 def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent_aliases: dict | None = None) -> int:
     """Overlay explicitly selected tentative father links onto the local model."""
     by_id = {person["id"]: person for person in people}
@@ -121,7 +130,7 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
         roles = {p.get('relationship') for p in assessment.get('perspectives', {}).values()}
         if 'mother' in roles and 'father' not in roles:
             continue  # Maternal selections are validated separately below.
-        if not (assessment.get("working_selection") is True
+        if not (selects_working_parent(assessment)
                 and assessment.get("publication_status") == "approved"
                 and assessment.get("status") in {"uncertain", "possible", "probable"}
                 and assessment.get("allow_new_relationship") is True):
@@ -242,26 +251,48 @@ def apply_working_hypotheses(people: list[dict], assessments: list[dict], parent
     return len(selected)
 
 
-def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
+def apply_working_mothers(people: list[dict], assessments: list[dict], site_root: Path | None = None) -> int:
     """Carry independently selected maternal claims beside a working father."""
     by_id = {p['id']: p for p in people}
     approved = {a.get('assertion_id'): a for a in assessments if a.get('publication_status') == 'approved'}
     selected = []
     children = set()
+
+    def published_mothers(child):
+        path = site_root / 'people' / f'{child.lower()}.json' if site_root else None
+        if not path or not path.is_file():
+            return []
+        dossier = json.loads(path.read_text(encoding='utf-8'))
+        return [r for r in (dossier.get('relationships') or {}).get('parents', [])
+                if r.get('relationship') == 'mother' and not r.get('withheld')] if dossier.get('id') == child else []
+
     for a in assessments:
         pairs = [(child, mother) for child, view in a.get('perspectives', {}).items()
                  if view.get('relationship') == 'mother'
                  for mother in a.get('people', []) if mother != child]
-        if not pairs or not a.get('working_selection') or a.get('publication_status') != 'approved':
+        if not pairs or not selects_working_parent(a) or a.get('publication_status') != 'approved':
             continue
         if (len(pairs) != 1 or a.get('status') not in {'uncertain', 'possible', 'probable'} or not a.get('allow_new_relationship')
                 or not a.get('assertion_id') or not a.get('source_ids') or not a.get('basis')):
             raise ValueError('Working mother needs one approved tentative sourced claim')
         child, mother = pairs[0]
-        if child not in by_id or mother not in by_id or child in children:
-            raise ValueError('Working mother needs unique public family members')
-        parents = by_id[child].get('parents', [])
+        parents = by_id.get(child, {}).get('parents', [])
         existing = [r for r in parents if r.get('role') == 'mother']
+        projected = (len(existing) == 1 and existing[0].get('id') == mother
+                     and existing[0].get('assertion_id') == a['assertion_id']
+                     and existing[0].get('tree_relationship') is False)
+        if child not in by_id or child in children:
+            raise ValueError(f'Working mother needs unique public family members: {child}, {mother}')
+        if mother not in by_id:
+            if projected and not existing[0].get('inModel'):
+                children.add(child)
+                continue
+            if any(r.get('id') == mother and r.get('assertion_id') == a['assertion_id']
+                   for r in published_mothers(child)):
+                # Keep the claim in the dossier without inventing an Atlas node.
+                children.add(child)
+                continue
+            raise ValueError(f'Working mother needs unique public family members: {child}, {mother}')
         replacement = a.get('working_parent_replacement') or {}
         if replacement:
             prior = replacement.get('previous_parent')
@@ -288,8 +319,16 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
                     or alternative.get('status') != 'uncertain' or not alternative.get('source_ids')
                     or alternative.get('perspectives', {}).get(child, {}).get('relationship') != 'mother'):
                 raise ValueError('Working mother replacement requires the captured mother and a retained uncertain alternative')
-        if existing and not replacement:
-            raise ValueError('Working mother needs an empty maternal field or a reviewed replacement')
+        if existing and not replacement and not projected:
+            recorded = {r.get('id') for r in existing if not r.get('withheld') and r.get('id')}
+            public = published_mothers(child)
+            if (recorded and recorded <= {r.get('id') for r in public if r.get('tree_relationship') is True}
+                    and any(r.get('id') == mother and r.get('assertion_id') == a['assertion_id'] for r in public)):
+                # A dossier that presents both claims does not authorize
+                # replacing the recorded mother in the Atlas.
+                children.add(child)
+                continue
+            raise ValueError(f'Working mother needs an empty maternal field or a reviewed replacement: {child}, {mother}')
         children.add(child)
         selected.append((child, mother, a))
     proposed = {child: mother for child, mother, _ in selected}
@@ -320,7 +359,13 @@ def apply_working_mothers(people: list[dict], assessments: list[dict]) -> int:
                 history.extend(deepcopy(r) for r in previous if r.get('id') == child
                                and not any(h.get('id') == child for h in history))
                 by_id[prior]['childrenRecorded'] = [r for r in previous if r.get('id') != child]
-        by_id[child]['parents'].append(dict(id=mother, name=by_id[mother]['name'], role='mother', status=a['status'],
+        rows = by_id[child]['parents']
+        projected = next((r for r in rows if r.get('role') == 'mother' and r.get('id') == mother
+                          and r.get('assertion_id') == a['assertion_id']
+                          and r.get('tree_relationship') is False), {})
+        if projected:
+            rows.remove(projected)
+        rows.append(dict(projected, id=mother, name=by_id[mother]['name'], role='mother', status=a['status'],
             inModel=True, reason=a['basis'], source='local_working_hypothesis', assertion_id=a['assertion_id'],
             analysis_links=a.get('analysis_links') or [], hypothesis=True))
         rows = by_id[mother].setdefault('childrenRecorded', [])
@@ -555,7 +600,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
     reviewed = set()
     for assessment in assessments or []:
         if (assessment.get('publication_status') != 'approved'
-                or assessment.get('working_selection') or not assessment.get('source_ids')
+                or selects_working_parent(assessment) or not assessment.get('source_ids')
                 or assessment.get('status') not in {'proved', 'confident', 'strongly_supported', 'probable', 'possible', 'uncertain'}
                 or not (assessment.get('probability') or {}).get('value')
                 or assessment.get('display') in {'alternative', 'historical', 'superseded'}
@@ -571,7 +616,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
     ambiguous = set(quality['multiple_fathers'])
     record_scopes = {a['assertion_id']: a['record_scope'] for a in assessments or []
                      if a.get('publication_status') == 'approved'
-                     and not a.get('working_selection') and a.get('record_scope')}
+                     and not selects_working_parent(a) and a.get('record_scope')}
 
     def parent_row(row):
         if row.get('withheld'):
@@ -693,7 +738,7 @@ def apply_public_families(people: list[dict], site_root: Path, cutoff: int = 185
                     **reciprocal_scope(row)))
         person['publicFamilySource'] = nodes[ident]['url']
     approved = {a['assertion_id']: a for a in assessments or []
-                if a.get('publication_status') == 'approved' and not a.get('working_selection')}
+                if a.get('publication_status') == 'approved' and not selects_working_parent(a)}
     maternal_scope, maternal_changed = {}, []
     for ident, dossier in dossiers.items():
         person = by_id[ident]
@@ -899,12 +944,23 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     for row in sorted(rows, key=lambda item: (len(item.get("profile_ids", [])) != 1, item.get("catalogue_id", ""))):
         for profile_id in row.get("profile_ids", []):
             catalogue_by_id.setdefault(profile_id, row)
-    public_ids = set(catalogue_by_id) & set(profiles)
+    public_ids = set(catalogue_by_id)
 
     people = []
     for profile_id in sorted(public_ids, key=str.casefold):
-        raw = profiles[profile_id]
         row = catalogue_by_id[profile_id]
+        # The public catalogue includes historical profiles added since the
+        # map exports. Use its already filtered fields for those profiles.
+        raw = profiles.get(profile_id)
+        if raw is None:
+            raw = {
+                "Name": profile_id, "LongName": row.get("name"),
+                "BirthDate": str(row.get("birth_year") or ""),
+                "DeathDate": str(row.get("death_year") or ""),
+                "FirstName": (row.get("first_names") or [""])[0],
+                "LastNameAtBirth": (row.get("last_names_at_birth") or [""])[0],
+                "LastNameCurrent": (row.get("last_names_current") or [""])[0],
+            }
         fathers = relation(row, "father", raw, catalogue_by_id, public_ids)
         mothers = relation(row, "mother", raw, catalogue_by_id, public_ids)
         birth_date, death_date = raw.get("BirthDate") or "", raw.get("DeathDate") or ""
@@ -917,7 +973,8 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
             location_id = location_for(row.get("cluster") or "")
         location = LOCATION_BY_ID[location_id]
         people.append({
-            "id": profile_id, "name": profile_name(raw), "born": year_of(birth_date), "died": year_of(death_date),
+            "id": profile_id, "publicCatalogueProfile": True,
+            "name": profile_name(raw), "born": year_of(birth_date), "died": year_of(death_date),
             "birthDisplay": row.get("birth") or "", "deathDisplay": row.get("death") or "",
             "birthplace": birthplace, "deathplace": deathplace,
             "sex": raw.get("Gender") or row.get("gender") or "", "parents": fathers + mothers,
@@ -971,7 +1028,7 @@ def generate_model(catalogue_path: Path, prior: dict) -> dict:
     family_aliases = reviewed_family_aliases(assessments, parent_aliases, {p['id'] for p in people})
     reviewed_parent_ids = apply_reviewed_parent_replacements(people, assessments)
     hypotheses = apply_working_hypotheses(people, assessments, parent_aliases)
-    maternal_hypotheses = apply_working_mothers(people, assessments)
+    maternal_hypotheses = apply_working_mothers(people, assessments, ROOT / 'www')
     public_family_sync = apply_public_families(people, ROOT / 'www', assessments=assessments)
     public_family_sync['publicFamilyNewIds'] = sorted(set(
         seeded_public['publicFamilyNewIds'] + public_family_sync['publicFamilyNewIds']))
