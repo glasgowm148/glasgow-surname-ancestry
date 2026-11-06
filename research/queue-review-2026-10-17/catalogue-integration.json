@@ -49797,23 +49797,19 @@
     {
       "subject_id": "anc-daughter-glasgow-1873-90910",
       "catalogue_id": "record-anc-daughter-glasgow-1873-90910",
-      "name": "Daughter Glasgow",
+      "name": "Unnamed daughter of the Countess of Glasgow",
       "source_subject_url": "https://www.ancestry.co.uk/search/collections/2193/records/1090910",
       "research_subject_url": "/people/record-anc-daughter-glasgow-1873-90910.html",
       "draft_path": "research/ancestry-glasgow-audit/drafts/belfast-news-letter-notices.wiki",
-      "draft_wikitext": "[[Category:Glasgow Name Study]]\n== Biography ==\nDaughter Glasgow appears in Belfast News-Letter birth, marriage and death notices, 1738-1925: Event Type: Birth; Event Date: Nov 1873; Event Place: Edinburgh.<ref name=\"anc1\">[https://www.ancestry.co.uk/search/collections/2193/records/1090910 Belfast News-Letter birth, marriage and death notices, 1738-1925 — Daughter Glasgow]. Ancestry search-result index row, saved and reviewed 4 November 2026; Belfast News-Letter original not inspected.</ref>\n\n== Research Notes ==\nNo catalogue person is compatible with Daughter Glasgow; a new sourced draft is proposed. Birth: Year from the index; not an exact birth date. Publication bound: Birth notice dated Nov 1873.\n\n=== Identity comparisons ===\n* No same-name catalogue person with compatible dates.\n\n=== Next records ===\nSeek the original record images and a civil birth, marriage or death registration naming parents before any profile creation.\n\n== Sources ==\n<references />\n",
-      "assessment": "No catalogue person is compatible with Daughter Glasgow; a new sourced draft is proposed.",
-      "creation_status": "creation_ready",
-      "reviewed_at": "2026-11-04",
+      "draft_wikitext": "[[Category:Research Notes]]\n== Biography ==\nThe Belfast News-Letter index for 24 November 1873 records the birth of a daughter in Edinburgh. It names the mother as the Countess of Glasgow.<ref>[https://www.ancestry.co.uk/search/collections/2193/records/1090910 Ancestry, Belfast News-Letter Birth, Marriage and Death Notices, record 2193/1090910].</ref>\n\n== Research Notes ==\nThe Belfast News-Letter index names the mother as the Countess of Glasgow. Glasgow is the peerage title. The daughter is unnamed and the entry does not support creating a Glasgow surname profile.\n\n== Sources ==\n<references />\n",
+      "assessment": "The Belfast News-Letter index names the mother as the Countess of Glasgow. Glasgow is the peerage title. The daughter is unnamed and the entry does not support creating a Glasgow surname profile.",
+      "creation_status": "identity_hold",
+      "reviewed_at": "2026-11-06",
       "first_names": [
-        "Daughter"
+        "Unnamed daughter"
       ],
-      "last_names_at_birth": [
-        "Glasgow"
-      ],
-      "last_names_current": [
-        "Glasgow"
-      ],
+      "last_names_at_birth": [],
+      "last_names_current": [],
       "gender": "",
       "birth": "about 1873",
       "birth_note": "Year from the index; not an exact birth date.",
@@ -49825,12 +49821,12 @@
         {
           "year": "1873",
           "filter_year": 1873,
-          "association": "Daughter Glasgow — Belfast News-Letter birth, marriage and death notices, 1738-1925",
-          "note": "Ancestry search-result index row; Event Type: Birth; Event Date: Nov 1873; Event Place: Edinburgh.",
+          "association": "Unnamed daughter of the Countess of Glasgow — indexed birth notice",
+          "note": "The Belfast News-Letter index names the mother as the Countess of Glasgow. Glasgow is the peerage title. The daughter is unnamed and the entry does not support creating a Glasgow surname profile.",
           "source_title": "Belfast News-Letter birth, marriage and death notices, 1738-1925 — Daughter Glasgow",
           "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/1090910",
           "source_type": "Provider index",
-          "source_status": "Ancestry search-result index row, saved 4 November 2026; original uninspected",
+          "source_status": "Inspected Ancestry newspaper index",
           "record_location": "Edinburgh"
         }
       ],
@@ -49839,7 +49835,9 @@
         "source_url": "https://www.ancestry.co.uk/search/collections/2193/records/1090910",
         "explanation": "Birth notice dated Nov 1873"
       },
-      "candidates": []
+      "candidates": [],
+      "current_conclusion": "The Belfast News-Letter index names the mother as the Countess of Glasgow. Glasgow is the peerage title. The daughter is unnamed and the entry does not support creating a Glasgow surname profile.",
+      "current_questions": []
     },
     {
       "subject_id": "anc-daughter-robertson-glasgow-1879-66017",
