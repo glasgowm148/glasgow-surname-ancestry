@@ -469995,5 +469995,364 @@
     "reviewed_on": "2026-11-06",
     "publish_to_record_index": false,
     "reference": "Ancestry image SCPERa002_001Di18951896-00020"
+  },
+  {
+    "record_id": "ancestry-60547-1671924",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/1671924",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Adam Dickey Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1671924",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Adam Dickey Glasgow, record 60547/1671924",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Adam Dickey Glasgow",
+      "Death Age": "48",
+      "Birth Date": "abt 1815",
+      "Death Date": "18 Mar 1863",
+      "Cemetery": "Southern",
+      "Burial Place": "Otago"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "18 Mar 1863",
+    "year": 1863,
+    "date_status": "death_date",
+    "place": "Southern Cemetery, Dunedin, Otago, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Adam Dickey Glasgow — cemetery index",
+    "note": "The cemetery index gives Adam Dickey Glasgow’s death as 18 Mar 1863, aged 48.",
+    "status": "Matched existing historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1816,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1671924",
+      "reason": "The cemetery index records death on 18 Mar 1863 at age 48."
+    },
+    "profiles": {
+      "Glasgow-1781": {
+        "role": "Deceased; name, age, death date and cemetery match the minister’s record",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-1681099"
+    ]
+  },
+  {
+    "record_id": "ancestry-60547-1671925",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/1671925",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Janet Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1671925",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Janet Glasgow, record 60547/1671925",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Janet Glasgow",
+      "Death Age": "90",
+      "Birth Date": "abt 1822",
+      "Death Date": "28 Oct 1912",
+      "Cemetery": "Southern",
+      "Burial Place": "Otago"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "28 Oct 1912",
+    "year": 1912,
+    "date_status": "death_date",
+    "place": "Southern Cemetery, Dunedin, Otago, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Janet Glasgow — cemetery index",
+    "note": "The cemetery index gives Janet Glasgow’s death as 28 Oct 1912, aged 90. Two other entries give the same date and age but name Jane Glasgow. The forename difference is unresolved.",
+    "status": "Documentary source; identity held",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": false,
+    "related_evidence_ids": [
+      "ancestry-60547-199351",
+      "ancestry-60547-46681099"
+    ]
+  },
+  {
+    "record_id": "ancestry-60547-1681099",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/1681099",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Rev Adam Dickey Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1681099",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Rev Adam Dickey Glasgow, record 60547/1681099",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Rev Adam Dickey Glasgow",
+      "Death Age": "48",
+      "Birth Date": "abt 1815",
+      "Death Date": "18 Mar 1863",
+      "Cemetery": "Southern",
+      "Burial Place": "Otago",
+      "Spouse": "Jane Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "18 Mar 1863",
+    "year": 1863,
+    "date_status": "death_date",
+    "place": "Southern Cemetery, Dunedin, Otago, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Rev Adam Dickey Glasgow — cemetery index",
+    "note": "The cemetery index gives Rev Adam Dickey Glasgow’s death as 18 Mar 1863, aged 48. The index names Jane Glasgow as his spouse.",
+    "status": "Matched existing historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1816,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1681099",
+      "reason": "The cemetery index records death on 18 Mar 1863 at age 48."
+    },
+    "profiles": {
+      "Glasgow-1781": {
+        "role": "Deceased; name, age, death date and cemetery match the minister’s record",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-1671924"
+    ]
+  },
+  {
+    "record_id": "ancestry-60547-1686240",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/1686240",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Adam D Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/1686240",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Adam D Glasgow, record 60547/1686240",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Adam D Glasgow",
+      "Death Age": "48",
+      "Birth Date": "abt 1815",
+      "Death Date": "15 Mar 1863",
+      "Burial Date": "17 Mar 1863",
+      "Cemetery": "Southern",
+      "Burial Place": "Otago"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "15 Mar 1863",
+    "year": 1863,
+    "date_status": "death_date",
+    "place": "Southern Cemetery, Dunedin, Otago, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Adam D Glasgow — cemetery index",
+    "note": "The cemetery index gives Adam D Glasgow’s death as 15 Mar 1863, aged 48. Burial is indexed on 17 Mar 1863. Two possible companion entries give 18 March and name the deceased as Adam Dickey Glasgow. This entry gives earlier death and burial dates.",
+    "status": "Documentary source; identity held",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": false,
+    "related_evidence_ids": [
+      "ancestry-60547-1671924",
+      "ancestry-60547-1681099"
+    ]
+  },
+  {
+    "record_id": "ancestry-60547-199351",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/199351",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Jane Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/199351",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Jane Glasgow, record 60547/199351",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Jane Glasgow",
+      "Death Age": "90",
+      "Birth Date": "abt 1822",
+      "Death Date": "28 Oct 1912",
+      "Burial Date": "31 Oct 1912",
+      "Cemetery": "Southern",
+      "Burial Place": "Otago"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "28 Oct 1912",
+    "year": 1912,
+    "date_status": "death_date",
+    "place": "Southern Cemetery, Dunedin, Otago, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Jane Glasgow — cemetery index",
+    "note": "The cemetery index gives Jane Glasgow’s death as 28 Oct 1912, aged 90. Burial is indexed on 31 Oct 1912. The companion index names Adam Dickey Glasgow as her spouse.",
+    "status": "Matched existing historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1823,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/199351",
+      "reason": "The cemetery index records death on 28 Oct 1912 at age 90."
+    },
+    "profiles": {
+      "Thompson-100184": {
+        "role": "Deceased; companion entry names spouse Adam Dickey Glasgow and gives the same death date and age",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-46681099"
+    ]
+  },
+  {
+    "record_id": "ancestry-60547-350518",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/350518",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Jane Croom Webster",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/350518",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Jane Croom Webster, record 60547/350518",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Jane Croom Webster",
+      "Death Age": "80",
+      "Birth Date": "abt 1791",
+      "Death Date": "19 Jun 1871",
+      "Death Place": "Auckland",
+      "Cemetery": "Devonport",
+      "Burial Place": "Auckland, Auckland",
+      "Spouse": "Emily Webster",
+      "Alternate indexed name": "Jane Croom Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "19 Jun 1871",
+    "year": 1871,
+    "date_status": "death_date",
+    "place": "Devonport Cemetery, Auckland, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Jane Croom Webster — cemetery index",
+    "note": "The cemetery index gives Jane Croom Webster’s death as 19 Jun 1871, aged 80. The alternate indexed name is Jane Croom Glasgow. Emily Webster appears in the spouse field; that relationship is unresolved.",
+    "status": "Documentary source; identity held",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": false
+  },
+  {
+    "record_id": "ancestry-60547-45375390",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/45375390",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Margaret Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/45375390",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Margaret Glasgow, record 60547/45375390",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Margaret Glasgow",
+      "Death Age": "94",
+      "Birth Date": "abt 1820",
+      "Death Date": "7 Apr 1914",
+      "Burial Place": "Auckland",
+      "Spouse": "James Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "7 Apr 1914",
+    "year": 1914,
+    "date_status": "death_date",
+    "place": "Auckland, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Margaret Glasgow — cemetery index",
+    "note": "The cemetery index gives Margaret Glasgow’s death as 7 Apr 1914, aged 94. The index names James Glasgow as spouse. No wider identity is assigned.",
+    "status": "Documentary source; identity held",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1821,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/45375390",
+      "reason": "The cemetery index records death on 7 Apr 1914 at age 94."
+    }
+  },
+  {
+    "record_id": "ancestry-60547-46681099",
+    "provider": "Ancestry",
+    "provider_record_id": "60547/46681099",
+    "collection": "New Zealand, Cemetery Records, 1800–2007",
+    "person": "Jane Glasgow",
+    "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/46681099",
+    "source_title": "New Zealand, Cemetery Records, 1800–2007: Jane Glasgow, record 60547/46681099",
+    "source_type": "Provider index transcript",
+    "source_level": "inspected transcript",
+    "source_quality": "provider_derivative",
+    "source_status": "Inspected Ancestry index",
+    "indexed_facts": {
+      "Name": "Jane Glasgow",
+      "Death Age": "90",
+      "Birth Date": "abt 1822",
+      "Death Date": "28 Oct 1912",
+      "Burial Place": "Otago",
+      "Spouse": "Adam Dickey Glasgow"
+    },
+    "record_type": "Cemetery index",
+    "record_category": "Deaths and burials",
+    "date": "28 Oct 1912",
+    "year": 1912,
+    "date_status": "death_date",
+    "place": "Southern Cemetery, Dunedin, Otago, New Zealand",
+    "country": "New Zealand",
+    "event_role": "deceased",
+    "association": "Jane Glasgow — cemetery index",
+    "note": "The cemetery index gives Jane Glasgow’s death as 28 Oct 1912, aged 90. The companion index names Adam Dickey Glasgow as her spouse.",
+    "status": "Matched existing historical dossier",
+    "provenance": "Ancestry, New Zealand, Cemetery Records, 1800–2007.",
+    "reviewed_on": "2026-11-06",
+    "publish_to_record_index": true,
+    "historical_basis": {
+      "latest_birth_year": 1823,
+      "source_url": "https://www.ancestry.co.uk/search/collections/60547/records/46681099",
+      "reason": "The cemetery index records death on 28 Oct 1912 at age 90."
+    },
+    "profiles": {
+      "Thompson-100184": {
+        "role": "Deceased; companion entry names spouse Adam Dickey Glasgow and gives the same death date and age",
+        "assessment": "confident",
+        "timeline_group": "Birth and death"
+      }
+    },
+    "related_evidence_ids": [
+      "ancestry-60547-199351"
+    ]
   }
 ]
