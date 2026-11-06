@@ -25711,29 +25711,53 @@
       "subject_id": "Glasgow-2101",
       "relative_id": "Glasgow-1321",
       "relationship": "father",
-      "percent": 59,
-      "assessment_status": "possible",
+      "percent": 63,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-2101-father",
-      "basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
+      "basis": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96).",
       "source_ids": [
-        "held-e-2e451b726fa5"
+        "held-e-2e451b726fa5",
+        "fmp-record-scot-opr-bap-0738380",
+        "ancestry-60144-2039929"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-06",
+      "scope": "Derivative transcript and a marriage index row only; the original register images are uninspected. The father is identified by name, trade and residence, not by age or parentage, and Alexander Glasgow is a common Edinburgh name. The 1847 marriage row names the father but nothing else about him. Mother, upstream ancestry and the Agnes Cunningham identity are assessed separately.",
+      "assessment_history": [
+        {
+          "percent": 59,
+          "assessment_status": "possible",
+          "basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1321",
       "relative_id": "Glasgow-2101",
       "relationship": "child",
-      "percent": 59,
-      "assessment_status": "possible",
+      "percent": 63,
+      "assessment_status": "probable",
       "assertion_id": "C-coverage-20261022g-glasgow-2101-father",
-      "basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
+      "basis": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96).",
       "source_ids": [
-        "held-e-2e451b726fa5"
+        "held-e-2e451b726fa5",
+        "fmp-record-scot-opr-bap-0738380",
+        "ancestry-60144-2039929"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "reviewed": "2026-11-06",
+      "scope": "Derivative transcript and a marriage index row only; the original register images are uninspected. The father is identified by name, trade and residence, not by age or parentage, and Alexander Glasgow is a common Edinburgh name. The 1847 marriage row names the father but nothing else about him. Mother, upstream ancestry and the Agnes Cunningham identity are assessed separately.",
+      "assessment_history": [
+        {
+          "percent": 59,
+          "assessment_status": "possible",
+          "basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
+          "reviewed": "2026-10-22",
+          "note": "earlier value of this view; it now derives from the current assessment"
+        }
+      ],
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1453",
@@ -31922,12 +31946,14 @@
       "percent": 38,
       "assessment_status": "possible",
       "assertion_id": "C-coverage-20261022h-glasgow-1539-father",
-      "basis": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert.",
       "source_ids": [
-        "held-e-16c2a95440c1"
+        "held-e-16c2a95440c1",
+        "ancestry-60143-12184903"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-11-06",
+      "scope": "Index transcript only (Ancestry's copy of the Scottish baptism index); the original register is uninspected. The entry gives no age, occupation or residence for the parents. Mother (separately assessed at 88%) and the father's upstream ancestry are outside this assessment. The siblings Janet (1828), Elizabeth (c.1830) and Mary (c.1832) rest on the same Robert identity at greater paternal ages and are unchanged.",
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-1538",
@@ -31936,12 +31962,14 @@
       "percent": 38,
       "assessment_status": "possible",
       "assertion_id": "C-coverage-20261022h-glasgow-1539-father",
-      "basis": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert.",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert.",
       "source_ids": [
-        "held-e-16c2a95440c1"
+        "held-e-16c2a95440c1",
+        "ancestry-60143-12184903"
       ],
-      "reviewed": "2026-10-22",
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "reviewed": "2026-11-06",
+      "scope": "Index transcript only (Ancestry's copy of the Scottish baptism index); the original register is uninspected. The entry gives no age, occupation or residence for the parents. Mother (separately assessed at 88%) and the father's upstream ancestry are outside this assessment. The siblings Janet (1828), Elizabeth (c.1830) and Mary (c.1832) rest on the same Robert identity at greater paternal ages and are unchanged.",
+      "working_selection": false
     },
     {
       "subject_id": "Glasgow-208",

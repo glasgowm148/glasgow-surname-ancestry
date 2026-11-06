@@ -6819,14 +6819,14 @@
       "Glasgow-3902",
       "Glasgow-3931"
     ],
-    "status": "possible",
+    "status": "uncertain",
     "lifecycle": "alternative",
     "display": "alternative",
     "hypothesis_status": "open",
     "publication_status": "approved",
     "allow_new_relationship": true,
-    "assessment_date": "2026-10-16",
-    "basis": "Retain the existing father candidate at its prior grade as an open, unselected alternative. The named Larne family model is preferred provisionally; no disproof is claimed.",
+    "assessment_date": "2026-11-06",
+    "basis": "Hugh Glasgow-3931 (Tamlaght, birth before 1722) is the unselected alternative father of Adam Glasgow-3902 of Inishrush, who died on 30 Jun 1844 (monument age implying birth about 1758). The existing entry kept the prior 'possible' grade with no estimate while the selected James-1509 stands at 27%. The only support for Hugh is the local surname and a compatible generation among two Tamlaght Hugh households of about 1740; no record names Adam's father, and the 2007 descendant tradition and its 2020 copy are one source. A grade of 'possible' (35-60%) for an alternate that the same assessment text places behind a 27% selection is not coherent, so it is set explicitly lower.",
     "source_ids": [
       "larne-inishrush-monument-1844",
       "larne-inishrush-descendant-tradition-2007"
@@ -6834,13 +6834,11 @@
     "perspectives": {
       "Glasgow-3902": {
         "relationship": "father",
-        "status_label": "Possible father; unselected alternative",
-        "reason": "The selected local father is James-1509; this earlier candidate remains open."
+        "reason": "Hugh Glasgow-3931 (Tamlaght, birth before 1722) is the unselected alternative father of Adam Glasgow-3902 of Inishrush, who died on 30 Jun 1844 (monument age implying birth about 1758). The existing entry kept the prior 'possible' grade with no estimate while the selected James-1509 stands at 27%. The only support for Hugh is the local surname and a compatible generation among two Tamlaght Hugh households of about 1740; no record names Adam's father, and the 2007 descendant tradition and its 2020 copy are one source. A grade of 'possible' (35-60%) for an alternate that the same assessment text places behind a 27% selection is not coherent, so it is set explicitly lower."
       },
       "Glasgow-3931": {
         "relationship": "child",
-        "status_label": "Possible child; unselected alternative",
-        "reason": "Retained earlier candidate relationship; not selected by this batch."
+        "reason": "Hugh Glasgow-3931 (Tamlaght, birth before 1722) is the unselected alternative father of Adam Glasgow-3902 of Inishrush, who died on 30 Jun 1844 (monument age implying birth about 1758). The existing entry kept the prior 'possible' grade with no estimate while the selected James-1509 stands at 27%. The only support for Hugh is the local surname and a compatible generation among two Tamlaght Hugh households of about 1740; no record names Adam's father, and the 2007 descendant tradition and its 2020 copy are one source. A grade of 'possible' (35-60%) for an alternate that the same assessment text places behind a 27% selection is not coherent, so it is set explicitly lower."
       }
     },
     "provenance": {
@@ -6862,14 +6860,43 @@
         ],
         "claim_id": "C-fe75ee32624c"
       },
-      "selection_basis": "Existing September comparison; no new original or certainty upgrade."
+      "selection_basis": "Existing September comparison; no new original or certainty upgrade.",
+      "prior_assessment": {
+        "probability_percent": null,
+        "relationship": "father",
+        "relative_id": "Glasgow-3931",
+        "reviewed": null,
+        "source_basis": "Retain the existing father candidate at its prior grade as an open, unselected alternative. The named Larne family model is preferred provisionally; no disproof is claimed.",
+        "status": "possible"
+      },
+      "review_kind": "weak_father_review_b2"
     },
     "analysis_links": [
       {
         "label": "Larne and Inishrush working family",
         "href": "/branches/larne-kilwaughter/#larne-inishrush-working-family"
       }
-    ]
+    ],
+    "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": null,
+        "assessment_date": "2026-10-16",
+        "source_basis": "Retain the existing father candidate at its prior grade as an open, unselected alternative. The named Larne family model is preferred provisionally; no disproof is claimed."
+      }
+    ],
+    "reason": "Hugh Glasgow-3931 (Tamlaght, birth before 1722) is the unselected alternative father of Adam Glasgow-3902 of Inishrush, who died on 30 Jun 1844 (monument age implying birth about 1758). The existing entry kept the prior 'possible' grade with no estimate while the selected James-1509 stands at 27%. The only support for Hugh is the local surname and a compatible generation among two Tamlaght Hugh households of about 1740; no record names Adam's father, and the 2007 descendant tradition and its 2020 copy are one source. A grade of 'possible' (35-60%) for an alternate that the same assessment text places behind a 27% selection is not coherent, so it is set explicitly lower.",
+    "limitations": "The two 1740 Tamlaght Hugh households cannot be told apart, and an unrecorded father remains possible. No new record. The selected James-1509 claim (27%) and the placeholder Glasgow-3905 claim are unchanged.",
+    "probability": {
+      "value": 0.14,
+      "reviewed": "2026-11-06",
+      "basis": "Hugh Glasgow-3931 (Tamlaght, birth before 1722) is the unselected alternative father of Adam Glasgow-3902 of Inishrush, who died on 30 Jun 1844 (monument age implying birth about 1758). The existing entry kept the prior 'possible' grade with no estimate while the selected James-1509 stands at 27%. The only support for Hugh is the local surname and a compatible generation among two Tamlaght Hugh households of about 1740; no record names Adam's father, and the 2007 descendant tradition and its 2020 copy are one source. A grade of 'possible' (35-60%) for an alternate that the same assessment text places behind a 27% selection is not coherent, so it is set explicitly lower.",
+      "source_ids": [
+        "larne-inishrush-monument-1844",
+        "larne-inishrush-descendant-tradition-2007"
+      ],
+      "scope": "The two 1740 Tamlaght Hugh households cannot be told apart, and an unrecorded father remains possible. No new record. The selected James-1509 claim (27%) and the placeholder Glasgow-3905 claim are unchanged."
+    }
   },
   {
     "assertion_id": "C-alternative-20261016-larne-inishrush-working-family-alexander-adam",
@@ -6877,14 +6904,14 @@
       "Glasgow-3904",
       "Glasgow-3902"
     ],
-    "status": "possible",
+    "status": "uncertain",
     "lifecycle": "alternative",
     "display": "alternative",
     "hypothesis_status": "open",
     "publication_status": "approved",
     "allow_new_relationship": true,
-    "assessment_date": "2026-10-16",
-    "basis": "Retain the existing father candidate at its prior grade as an open, unselected alternative. The named Larne family model is preferred provisionally; no disproof is claimed.",
+    "assessment_date": "2026-11-06",
+    "basis": "Adam Glasgow-3902 (born about 1758, monument age at death in 1844) is the unselected alternative father of the reconstructed older Alexander Glasgow-3904 (born c.1770). The 17% selected claim for James-1509 already explains why: Adam as father gives a twelve-year interval, Adam's wife (born about 1766-67) cannot be the mother on that chronology, and Alexander's own sons Daniel and Thomas place him in a generation born by 1775-78, leaving two very short successive generations. The alternate had been left at the prior 'possible' grade with no estimate, which contradicts that reasoning; it is now graded explicitly as a near-exclusion by chronology.",
     "source_ids": [
       "larne-inishrush-monument-1844",
       "larne-inishrush-descendant-tradition-2007"
@@ -6892,13 +6919,11 @@
     "perspectives": {
       "Glasgow-3904": {
         "relationship": "father",
-        "status_label": "Possible father; unselected alternative",
-        "reason": "The selected local father is James-1509; this earlier candidate remains open."
+        "reason": "Adam Glasgow-3902 (born about 1758, monument age at death in 1844) is the unselected alternative father of the reconstructed older Alexander Glasgow-3904 (born c.1770). The 17% selected claim for James-1509 already explains why: Adam as father gives a twelve-year interval, Adam's wife (born about 1766-67) cannot be the mother on that chronology, and Alexander's own sons Daniel and Thomas place him in a generation born by 1775-78, leaving two very short successive generations. The alternate had been left at the prior 'possible' grade with no estimate, which contradicts that reasoning; it is now graded explicitly as a near-exclusion by chronology."
       },
       "Glasgow-3902": {
         "relationship": "child",
-        "status_label": "Possible child; unselected alternative",
-        "reason": "Retained earlier candidate relationship; not selected by this batch."
+        "reason": "Adam Glasgow-3902 (born about 1758, monument age at death in 1844) is the unselected alternative father of the reconstructed older Alexander Glasgow-3904 (born c.1770). The 17% selected claim for James-1509 already explains why: Adam as father gives a twelve-year interval, Adam's wife (born about 1766-67) cannot be the mother on that chronology, and Alexander's own sons Daniel and Thomas place him in a generation born by 1775-78, leaving two very short successive generations. The alternate had been left at the prior 'possible' grade with no estimate, which contradicts that reasoning; it is now graded explicitly as a near-exclusion by chronology."
       }
     },
     "provenance": {
@@ -6920,14 +6945,43 @@
         ],
         "claim_id": "C-ff03ac29ef3a"
       },
-      "selection_basis": "Existing September comparison; no new original or certainty upgrade."
+      "selection_basis": "Existing September comparison; no new original or certainty upgrade.",
+      "prior_assessment": {
+        "probability_percent": null,
+        "relationship": "father",
+        "relative_id": "Glasgow-3902",
+        "reviewed": null,
+        "source_basis": "Retain the existing father candidate at its prior grade as an open, unselected alternative. The named Larne family model is preferred provisionally; no disproof is claimed.",
+        "status": "possible"
+      },
+      "review_kind": "weak_father_review_b2"
     },
     "analysis_links": [
       {
         "label": "Larne and Inishrush working family",
         "href": "/branches/larne-kilwaughter/#larne-inishrush-working-family"
       }
-    ]
+    ],
+    "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": null,
+        "assessment_date": "2026-10-16",
+        "source_basis": "Retain the existing father candidate at its prior grade as an open, unselected alternative. The named Larne family model is preferred provisionally; no disproof is claimed."
+      }
+    ],
+    "reason": "Adam Glasgow-3902 (born about 1758, monument age at death in 1844) is the unselected alternative father of the reconstructed older Alexander Glasgow-3904 (born c.1770). The 17% selected claim for James-1509 already explains why: Adam as father gives a twelve-year interval, Adam's wife (born about 1766-67) cannot be the mother on that chronology, and Alexander's own sons Daniel and Thomas place him in a generation born by 1775-78, leaving two very short successive generations. The alternate had been left at the prior 'possible' grade with no estimate, which contradicts that reasoning; it is now graded explicitly as a near-exclusion by chronology.",
+    "limitations": "Alexander's c.1770 birth is an estimate from late descendant testimony, so a later birth is not impossible; at a birth around 1778 Adam would be 20. No record names Alexander's father. The selected James-1509 claim (17%) and the placeholder claim are unchanged.",
+    "probability": {
+      "value": 0.04,
+      "reviewed": "2026-11-06",
+      "basis": "Adam Glasgow-3902 (born about 1758, monument age at death in 1844) is the unselected alternative father of the reconstructed older Alexander Glasgow-3904 (born c.1770). The 17% selected claim for James-1509 already explains why: Adam as father gives a twelve-year interval, Adam's wife (born about 1766-67) cannot be the mother on that chronology, and Alexander's own sons Daniel and Thomas place him in a generation born by 1775-78, leaving two very short successive generations. The alternate had been left at the prior 'possible' grade with no estimate, which contradicts that reasoning; it is now graded explicitly as a near-exclusion by chronology.",
+      "source_ids": [
+        "larne-inishrush-monument-1844",
+        "larne-inishrush-descendant-tradition-2007"
+      ],
+      "scope": "Alexander's c.1770 birth is an estimate from late descendant testimony, so a later birth is not impossible; at a birth around 1778 Adam would be 20. No record names Alexander's father. The selected James-1509 claim (17%) and the placeholder claim are unchanged."
+    }
   },
   {
     "assertion_id": "C-working-20261016-west-kilbride-manokin-working-family-john-father",
@@ -7460,25 +7514,25 @@
       "Glasgow-1547": "James Glasgow, alternative 1702 childhood account"
     },
     "publication_status": "approved",
-    "status": "possible",
+    "status": "uncertain",
     "lifecycle": "alternative",
     "display": "alternative",
-    "assessment_date": "2026-10-16",
+    "assessment_date": "2026-11-06",
     "allow_new_relationship": true,
     "hypothesis_status": "possible",
-    "claim": "Unselected alternative James account for the possible 1717 child route",
-    "basis": "James Glasgow-3526 is the maintained account for the James named in the 1717 record. Its own circa-1688 birth and selected uncertain William Glasgow-1026 father remain prior hypotheses. The child’s earlier biography instead names James Glasgow-1547. That 1702 Kirknewton childhood, son of Andrew Glasgow-1546, remains an alternative identity for the adult James. If baptised near birth in September 1702, he would have been about fourteen at the March 1717 baptism, making that route less straightforward than the older James account. An older-child baptism or an incorrect age estimate remains possible; neither is asserted as fact. The named father James is distinct from the question of which modern James account represents him. The earlier child-parent grade is not upgraded, and neither James’s ancestry receives new certainty.",
+    "claim": "This is the unselected alternative route for the James named as father of John Glasgow, baptised 5 Apr 1717 at Templtand, Kirknewton and East Calder (kirknewton-john-james-1717), if that child is the adult John-2847, husband of Margaret Anderson and father of the West Calder children of 1745-1755. James Glasgow-1547 was himself baptised 9 Sep 1702, so he would have been about 14 at the 1717 baptism; fatherhood at that age is very unlikely, and the claim holds only if the 1717 baptism was long after birth or a different James is meant. The 16 Oct 2026 entry left this claim at the prior 'possible' grade with no estimate, which is higher than the selected James-3526 at 25% and than its own stated 'less straightforward' route allows. It is now given an explicit low estimate. No new record bears on it.",
+    "basis": "This is the unselected alternative route for the James named as father of John Glasgow, baptised 5 Apr 1717 at Templtand, Kirknewton and East Calder (kirknewton-john-james-1717), if that child is the adult John-2847, husband of Margaret Anderson and father of the West Calder children of 1745-1755. James Glasgow-1547 was himself baptised 9 Sep 1702, so he would have been about 14 at the 1717 baptism; fatherhood at that age is very unlikely, and the claim holds only if the 1717 baptism was long after birth or a different James is meant. The 16 Oct 2026 entry left this claim at the prior 'possible' grade with no estimate, which is higher than the selected James-3526 at 25% and than its own stated 'less straightforward' route allows. It is now given an explicit low estimate. No new record bears on it.",
     "source_ids": [
       "kirknewton-john-james-1717"
     ],
     "perspectives": {
       "Glasgow-2847": {
         "relationship": "father",
-        "reason": "James Glasgow-3526 is the maintained account for the James named in the 1717 record. Its own circa-1688 birth and selected uncertain William Glasgow-1026 father remain prior hypotheses. The child’s earlier biography instead names James Glasgow-1547. That 1702 Kirknewton childhood, son of Andrew Glasgow-1546, remains an alternative identity for the adult James. If baptised near birth in September 1702, he would have been about fourteen at the March 1717 baptism, making that route less straightforward than the older James account. An older-child baptism or an incorrect age estimate remains possible; neither is asserted as fact. The named father James is distinct from the question of which modern James account represents him. The earlier child-parent grade is not upgraded, and neither James’s ancestry receives new certainty."
+        "reason": "This is the unselected alternative route for the James named as father of John Glasgow, baptised 5 Apr 1717 at Templtand, Kirknewton and East Calder (kirknewton-john-james-1717), if that child is the adult John-2847, husband of Margaret Anderson and father of the West Calder children of 1745-1755. James Glasgow-1547 was himself baptised 9 Sep 1702, so he would have been about 14 at the 1717 baptism; fatherhood at that age is very unlikely, and the claim holds only if the 1717 baptism was long after birth or a different James is meant. The 16 Oct 2026 entry left this claim at the prior 'possible' grade with no estimate, which is higher than the selected James-3526 at 25% and than its own stated 'less straightforward' route allows. It is now given an explicit low estimate. No new record bears on it."
       },
       "Glasgow-1547": {
         "relationship": "son",
-        "reason": "James Glasgow-3526 is the maintained account for the James named in the 1717 record. Its own circa-1688 birth and selected uncertain William Glasgow-1026 father remain prior hypotheses. The child’s earlier biography instead names James Glasgow-1547. That 1702 Kirknewton childhood, son of Andrew Glasgow-1546, remains an alternative identity for the adult James. If baptised near birth in September 1702, he would have been about fourteen at the March 1717 baptism, making that route less straightforward than the older James account. An older-child baptism or an incorrect age estimate remains possible; neither is asserted as fact. The named father James is distinct from the question of which modern James account represents him. The earlier child-parent grade is not upgraded, and neither James’s ancestry receives new certainty."
+        "reason": "This is the unselected alternative route for the James named as father of John Glasgow, baptised 5 Apr 1717 at Templtand, Kirknewton and East Calder (kirknewton-john-james-1717), if that child is the adult John-2847, husband of Margaret Anderson and father of the West Calder children of 1745-1755. James Glasgow-1547 was himself baptised 9 Sep 1702, so he would have been about 14 at the 1717 baptism; fatherhood at that age is very unlikely, and the claim holds only if the 1717 baptism was long after birth or a different James is meant. The 16 Oct 2026 entry left this claim at the prior 'possible' grade with no estimate, which is higher than the selected James-3526 at 25% and than its own stated 'less straightforward' route allows. It is now given an explicit low estimate. No new record bears on it."
       }
     },
     "analysis_links": [
@@ -7488,7 +7542,34 @@
       }
     ],
     "provenance": {
-      "prior_assessment": "The 1717 child biography named 1547; the maintained father-name account 3526 and its older-James alternative were already documented. This extends the alternative to the proposed adult identity; it does not select a second father."
+      "prior_assessment": {
+        "probability_percent": null,
+        "relationship": "father",
+        "relative_id": "Glasgow-1547",
+        "reviewed": null,
+        "source_basis": "James Glasgow-3526 is the maintained account for the James named in the 1717 record. Its own circa-1688 birth and selected uncertain William Glasgow-1026 father remain prior hypotheses. The child’s earlier biography instead names James Glasgow-1547. That 1702 Kirknewton childhood, son of Andrew Glasgow-1546, remains an alternative identity for the adult James. If baptised near birth in September 1702, he would have been about fourteen at the March 1717 baptism, making that route less straightforward than the older James account. An older-child baptism or an incorrect age estimate remains possi",
+        "status": "possible"
+      },
+      "review_kind": "weak_father_review_b2"
+    },
+    "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": null,
+        "assessment_date": "2026-10-16",
+        "source_basis": "James Glasgow-3526 is the maintained account for the James named in the 1717 record. Its own circa-1688 birth and selected uncertain William Glasgow-1026 father remain prior hypotheses. The child’s earlier biography instead names James Glasgow-1547. That 1702 Kirknewton childhood, son of Andrew Glasgow-1546, remains an alternative identity for the adult James. If baptised near birth in September 1702, he would have been about fourteen at the March 1717 baptism, making that route less straightforward than the older James account. An older-child baptism or an incorrect age estimate remains possible; neither is asserted as fact. The named father James is distinct from the question of which modern James account represents him. The earlier child-parent grade is not upgraded, and neither James’s ancestry receives new certainty."
+      }
+    ],
+    "reason": "This is the unselected alternative route for the James named as father of John Glasgow, baptised 5 Apr 1717 at Templtand, Kirknewton and East Calder (kirknewton-john-james-1717), if that child is the adult John-2847, husband of Margaret Anderson and father of the West Calder children of 1745-1755. James Glasgow-1547 was himself baptised 9 Sep 1702, so he would have been about 14 at the 1717 baptism; fatherhood at that age is very unlikely, and the claim holds only if the 1717 baptism was long after birth or a different James is meant. The 16 Oct 2026 entry left this claim at the prior 'possible' grade with no estimate, which is higher than the selected James-3526 at 25% and than its own stated 'less straightforward' route allows. It is now given an explicit low estimate. No new record bears on it.",
+    "limitations": "The 1717 John is only a possible childhood comparison for the West Calder husband, so if he is not 2847 this alternate has no support either. The 1702 birth date of James-1547 is a baptism date, not a measured age. No change to the selected James-3526 claim (25%).",
+    "probability": {
+      "value": 0.06,
+      "reviewed": "2026-11-06",
+      "basis": "This is the unselected alternative route for the James named as father of John Glasgow, baptised 5 Apr 1717 at Templtand, Kirknewton and East Calder (kirknewton-john-james-1717), if that child is the adult John-2847, husband of Margaret Anderson and father of the West Calder children of 1745-1755. James Glasgow-1547 was himself baptised 9 Sep 1702, so he would have been about 14 at the 1717 baptism; fatherhood at that age is very unlikely, and the claim holds only if the 1717 baptism was long after birth or a different James is meant. The 16 Oct 2026 entry left this claim at the prior 'possible' grade with no estimate, which is higher than the selected James-3526 at 25% and than its own stated 'less straightforward' route allows. It is now given an explicit low estimate. No new record bears on it.",
+      "source_ids": [
+        "kirknewton-john-james-1717"
+      ],
+      "scope": "The 1717 John is only a possible childhood comparison for the West Calder husband, so if he is not 2847 this alternate has no support either. The 1702 birth date of James-1547 is a baptism date, not a measured age. No change to the selected James-3526 claim (25%)."
     }
   },
   {
@@ -7652,15 +7733,15 @@
       "Glasgow-830": "Caleb Glasgow, Pasquotank account"
     },
     "publication_status": "approved",
-    "status": "possible",
+    "status": "uncertain",
     "lifecycle": "alternative",
     "display": "alternative",
-    "assessment_date": "2026-10-16",
+    "assessment_date": "2026-11-06",
     "allow_new_relationship": true,
     "hypothesis_status": "possible",
-    "claim": "Unselected alternative Caleb account for Lemuel’s father",
-    "basis": "Glasgow-830 remains an explicit unselected alternative father account, especially if its approximate birth is wrong or it is a duplicate of Glasgow-363. No merge or second selected father is made. The 1746 son Caleb cannot yet be assigned uniquely between the two profiles from the will’s name alone. The existing Caleb children and the apparent duplicate Jesse accounts retain their current links and grades; this batch does not resolve their identities. The newly selected edge joins Lemuel’s two-child family to the existing working tree while retaining the uncertainty of the older Currituck pedigree. The preference for Glasgow-363 is generational: its circa 1726 birth allows a father aged about 27 in 1753; Glasgow-830’s circa 1740 birth would give about 13. Neither Caleb birth is established by a birth record here, and Lemuel himself said he had no age record and only believed he was born in 1753. The younger estimate therefore lowers the second account’s preference without excluding it. No baptism, guardianship, deed or pension statement names Caleb as Lemuel’s father. A collateral connection to Caleb, another local Glasgow father or an unrelated Glasgow immigrant remains possible. This is a low-confidence named-family hypothesis, not a documented father clause.",
-    "limitations": "The Caleb profiles may represent one man with conflicting dates rather than brothers. Both point to the same FamilySearch person K815-XBS and the same family-site account; those references are not independent corroboration. Glasgow-363 records 1781 as his death year but its biography transcribes a Pasquotank will dated 20 September 1803; Glasgow-830 places Caleb’s death in 1804 and probate in 1808. The 1803 transcription names children Barhnda (as transcribed), James, Dorcas and Nancy, and an unnamed wife, but not Lemuel. That omission weakens a father hypothesis if this is the relevant testator, without proving that an older, separately established son could not have been omitted. No reason for an omission is established. The will’s modern-profile identity remains unresolved and neither death estimate is changed.",
+    "claim": "This is the unselected second Caleb account (Glasgow-830) as father of Lemuel Glasgow-2581. The 22 Oct 2026 text prefers Glasgow-363 because Glasgow-830's c.1740 birth would make him about 13 at Lemuel's c.1753 birth, yet the claim was left at the prior 'possible' grade with no estimate, above the selected claim's 15%. It is now graded explicitly: the two Caleb accounts point to the same FamilySearch person and the same family-site account and may be one man with conflicting dates, so this is mostly a second spelling of the same weak hypothesis and carries the age penalty. No new record names Lemuel's father.",
+    "basis": "This is the unselected second Caleb account (Glasgow-830) as father of Lemuel Glasgow-2581. The 22 Oct 2026 text prefers Glasgow-363 because Glasgow-830's c.1740 birth would make him about 13 at Lemuel's c.1753 birth, yet the claim was left at the prior 'possible' grade with no estimate, above the selected claim's 15%. It is now graded explicitly: the two Caleb accounts point to the same FamilySearch person and the same family-site account and may be one man with conflicting dates, so this is mostly a second spelling of the same weak hypothesis and carries the age penalty. No new record names Lemuel's father.",
+    "limitations": "Neither Caleb birth is established by a record; Lemuel himself had no age record. If the two profiles are one man, the right estimate is the selected claim's 15%. No merge or second selected father is made. The selected Glasgow-363 claim is unchanged.",
     "source_ids": [
       "lemuel-glasgow-r4056-transcription",
       "currituck-william-will-1746-1747",
@@ -7669,11 +7750,11 @@
     "perspectives": {
       "Glasgow-2581": {
         "relationship": "father",
-        "reason": "Glasgow-830 remains an explicit unselected alternative father account, especially if its approximate birth is wrong or it is a duplicate of Glasgow-363. No merge or second selected father is made. The 1746 son Caleb cannot yet be assigned uniquely between the two profiles from the will’s name alone. The existing Caleb children and the apparent duplicate Jesse accounts retain their current links and grades; this batch does not resolve their identities. The newly selected edge joins Lemuel’s two-child family to the existing working tree while retaining the uncertainty of the older Currituck pedigree. The preference for Glasgow-363 is generational: its circa 1726 birth allows a father aged about 27 in 1753; Glasgow-830’s circa 1740 birth would give about 13. Neither Caleb birth is established by a birth record here, and Lemuel himself said he had no age record and only believed he was born in 1753. The younger estimate therefore lowers the second account’s preference without excluding it. No baptism, guardianship, deed or pension statement names Caleb as Lemuel’s father. A collateral connection to Caleb, another local Glasgow father or an unrelated Glasgow immigrant remains possible. This is a low-confidence named-family hypothesis, not a documented father clause."
+        "reason": "This is the unselected second Caleb account (Glasgow-830) as father of Lemuel Glasgow-2581. The 22 Oct 2026 text prefers Glasgow-363 because Glasgow-830's c.1740 birth would make him about 13 at Lemuel's c.1753 birth, yet the claim was left at the prior 'possible' grade with no estimate, above the selected claim's 15%. It is now graded explicitly: the two Caleb accounts point to the same FamilySearch person and the same family-site account and may be one man with conflicting dates, so this is mostly a second spelling of the same weak hypothesis and carries the age penalty. No new record names Lemuel's father."
       },
       "Glasgow-830": {
         "relationship": "son",
-        "reason": "Glasgow-830 remains an explicit unselected alternative father account, especially if its approximate birth is wrong or it is a duplicate of Glasgow-363. No merge or second selected father is made. The 1746 son Caleb cannot yet be assigned uniquely between the two profiles from the will’s name alone. The existing Caleb children and the apparent duplicate Jesse accounts retain their current links and grades; this batch does not resolve their identities. The newly selected edge joins Lemuel’s two-child family to the existing working tree while retaining the uncertainty of the older Currituck pedigree."
+        "reason": "This is the unselected second Caleb account (Glasgow-830) as father of Lemuel Glasgow-2581. The 22 Oct 2026 text prefers Glasgow-363 because Glasgow-830's c.1740 birth would make him about 13 at Lemuel's c.1753 birth, yet the claim was left at the prior 'possible' grade with no estimate, above the selected claim's 15%. It is now graded explicitly: the two Caleb accounts point to the same FamilySearch person and the same family-site account and may be one man with conflicting dates, so this is mostly a second spelling of the same weak hypothesis and carries the age penalty. No new record names Lemuel's father."
       }
     },
     "analysis_links": [
@@ -7683,7 +7764,35 @@
       }
     ],
     "provenance": {
-      "prior_assessment": "No parent attached to Lemuel; this modern Caleb account shares the older account’s will and FamilySearch citation. Alternative remains unselected and may resolve through duplicate identity."
+      "prior_assessment": {
+        "probability_percent": null,
+        "relationship": "father",
+        "relative_id": "Glasgow-830",
+        "reviewed": null,
+        "source_basis": "Glasgow-830 remains an explicit unselected alternative father account, especially if its approximate birth is wrong or it is a duplicate of Glasgow-363. No merge or second selected father is made. The 1746 son Caleb cannot yet be assigned uniquely between the two profiles from the will’s name alone. The existing Caleb children and the apparent duplicate Jesse accounts retain their current links and grades; this batch does not resolve their identities. The newly selected edge joins Lemuel’s two-child family to the existing working tree while retaining the uncertainty of the older Currituck pedi",
+        "status": "possible"
+      },
+      "review_kind": "weak_father_review_b2"
+    },
+    "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": null,
+        "assessment_date": "2026-10-16",
+        "source_basis": "Glasgow-830 remains an explicit unselected alternative father account, especially if its approximate birth is wrong or it is a duplicate of Glasgow-363. No merge or second selected father is made. The 1746 son Caleb cannot yet be assigned uniquely between the two profiles from the will’s name alone. The existing Caleb children and the apparent duplicate Jesse accounts retain their current links and grades; this batch does not resolve their identities. The newly selected edge joins Lemuel’s two-child family to the existing working tree while retaining the uncertainty of the older Currituck pedigree. The preference for Glasgow-363 is generational: its circa 1726 birth allows a father aged about 27 in 1753; Glasgow-830’s circa 1740 birth would give about 13. Neither Caleb birth is established by a birth record here, and Lemuel himself said he had no age record and only believed he was born in 1753. The younger estimate therefore lowers the second account’s preference without excluding it. No baptism, guardianship, deed or pension statement names Caleb as Lemuel’s father. A collateral connection to Caleb, another local Glasgow father or an unrelated Glasgow immigrant remains possible. This is a low-confidence named-family hypothesis, not a documented father clause."
+      }
+    ],
+    "reason": "This is the unselected second Caleb account (Glasgow-830) as father of Lemuel Glasgow-2581. The 22 Oct 2026 text prefers Glasgow-363 because Glasgow-830's c.1740 birth would make him about 13 at Lemuel's c.1753 birth, yet the claim was left at the prior 'possible' grade with no estimate, above the selected claim's 15%. It is now graded explicitly: the two Caleb accounts point to the same FamilySearch person and the same family-site account and may be one man with conflicting dates, so this is mostly a second spelling of the same weak hypothesis and carries the age penalty. No new record names Lemuel's father.",
+    "probability": {
+      "value": 0.08,
+      "reviewed": "2026-11-06",
+      "basis": "This is the unselected second Caleb account (Glasgow-830) as father of Lemuel Glasgow-2581. The 22 Oct 2026 text prefers Glasgow-363 because Glasgow-830's c.1740 birth would make him about 13 at Lemuel's c.1753 birth, yet the claim was left at the prior 'possible' grade with no estimate, above the selected claim's 15%. It is now graded explicitly: the two Caleb accounts point to the same FamilySearch person and the same family-site account and may be one man with conflicting dates, so this is mostly a second spelling of the same weak hypothesis and carries the age penalty. No new record names Lemuel's father.",
+      "source_ids": [
+        "lemuel-glasgow-r4056-transcription",
+        "currituck-william-will-1746-1747",
+        "pasquotank-caleb-will-1803-profile-transcription"
+      ],
+      "scope": "Neither Caleb birth is established by a record; Lemuel himself had no age record. If the two profiles are one man, the right estimate is the selected claim's 15%. No merge or second selected father is made. The selected Glasgow-363 claim is unchanged."
     }
   },
   {
@@ -64274,18 +64383,20 @@
       "Glasgow-2101",
       "Glasgow-1321"
     ],
-    "status": "possible",
+    "status": "probable",
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
-    "reason": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
-    "claim": "Glasgow-1321 remains the selected father of Glasgow-2101, individually assessed 59%.",
-    "record_scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
-    "limitations": "Complete selected father-profile proposition; recorded role and adult identification distinguished below.",
+    "assessment_date": "2026-11-06",
+    "basis": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96).",
+    "reason": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96).",
+    "claim": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96).",
+    "record_scope": "Derivative transcript and a marriage index row only; the original register images are uninspected. The father is identified by name, trade and residence, not by age or parentage, and Alexander Glasgow is a common Edinburgh name. The 1847 marriage row names the father but nothing else about him. Mother, upstream ancestry and the Agnes Cunningham identity are assessed separately.",
+    "limitations": "Derivative transcript and a marriage index row only; the original register images are uninspected. The father is identified by name, trade and residence, not by age or parentage, and Alexander Glasgow is a common Edinburgh name. The 1847 marriage row names the father but nothing else about him. Mother, upstream ancestry and the Agnes Cunningham identity are assessed separately.",
     "source_ids": [
-      "held-e-2e451b726fa5"
+      "held-e-2e451b726fa5",
+      "fmp-record-scot-opr-bap-0738380",
+      "ancestry-60144-2039929"
     ],
     "assessment_history": [
       {
@@ -64298,16 +64409,22 @@
         "claim_id": "C-a843c932e8c5",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 59,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty."
       }
     ],
     "perspectives": {
       "Glasgow-2101": {
         "relationship": "father",
-        "reason": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty."
+        "reason": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96)."
       },
       "Glasgow-1321": {
         "relationship": "daughter",
-        "reason": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty."
+        "reason": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96)."
       }
     },
     "analysis_links": [
@@ -64318,27 +64435,27 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-a843c932e8c5",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 59,
+        "relationship": "father",
+        "relative_id": "Glasgow-1321",
+        "reviewed": null,
+        "source_basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
+        "status": "possible"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "review_kind": "weak_father_review_b2"
     },
     "probability": {
-      "value": 0.59,
-      "basis": "Margaret’s 1783 St Cuthberts date is compatible with Alexander/Agnes’s 1774–1777 household; only generic OPR citation survives, so the longer gap and absent literal fields leave material uncertainty.",
-      "reviewed": "2026-10-22",
+      "value": 0.63,
+      "reviewed": "2026-11-06",
+      "basis": "The Findmypast Scotland OPR derivative transcript SCOT/OPR/BAP/0738380 (OPR 685_2/10 p347 item 2; record fmp-record-scot-opr-bap-0738380) gives Margaret Glasgow's birth on 9 Apr 1783 and baptism on 12 Apr 1783 at St Cuthberts, Edinburgh, to father Alexander Glasgow, a brewer's servant living at New Grange, and mother Agnes Cunningham. That is the catalogue couple: Alexander Glasgow-1321 and his tree spouse Agnes (Cunningham) Glasgow, whose other children belong to the same 1774-1777 Edinburgh household. The 22 Oct 2026 assessment (59%, possible) rested on the generic OPR citation and said the absent literal fields left material uncertainty; those fields are now read and name exactly this father and mother. A 5 Jul 1847 St Cuthberts marriage index entry (Margaret Glasgow and James Edgar; ancestry-60144-2039929) also gives the bride's father as Alexander Glasgow. The raise is modest, to 63% (probable, the lower edge), because a child's baptism cannot show that this Edinburgh Alexander is the Kirknewton-born Alexander-1321 (born before 1747) or choose between the two Agnes Cunningham profiles (Cunningham-20926 and the draft Cunninghame-96).",
       "source_ids": [
-        "held-e-2e451b726fa5"
+        "held-e-2e451b726fa5",
+        "fmp-record-scot-opr-bap-0738380",
+        "ancestry-60144-2039929"
       ],
-      "scope": "Complete selected father-profile proposition; recorded role and adult identification distinguished below."
+      "scope": "Derivative transcript and a marriage index row only; the original register images are uninspected. The father is identified by name, trade and residence, not by age or parentage, and Alexander Glasgow is a common Edinburgh name. The 1847 marriage row names the father but nothing else about him. Mother, upstream ancestry and the Agnes Cunningham identity are assessed separately."
     }
   },
   {
@@ -79007,14 +79124,15 @@
     "publication_status": "approved",
     "working_selection": false,
     "allow_new_relationship": false,
-    "assessment_date": "2026-10-22",
-    "basis": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert.",
-    "reason": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert.",
-    "claim": "Glasgow-1538 remains the selected father of Glasgow-1539, individually assessed 38%.",
-    "record_scope": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
-    "limitations": "Selected father-profile identity and paternal relationship; maternal identity is separate.",
+    "assessment_date": "2026-11-06",
+    "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert.",
+    "reason": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert.",
+    "claim": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert.",
+    "record_scope": "Index transcript only (Ancestry's copy of the Scottish baptism index); the original register is uninspected. The entry gives no age, occupation or residence for the parents. Mother (separately assessed at 88%) and the father's upstream ancestry are outside this assessment. The siblings Janet (1828), Elizabeth (c.1830) and Mary (c.1832) rest on the same Robert identity at greater paternal ages and are unchanged.",
+    "limitations": "Index transcript only (Ancestry's copy of the Scottish baptism index); the original register is uninspected. The entry gives no age, occupation or residence for the parents. Mother (separately assessed at 88%) and the father's upstream ancestry are outside this assessment. The siblings Janet (1828), Elizabeth (c.1830) and Mary (c.1832) rest on the same Robert identity at greater paternal ages and are unchanged.",
     "source_ids": [
-      "held-e-16c2a95440c1"
+      "held-e-16c2a95440c1",
+      "ancestry-60143-12184903"
     ],
     "assessment_history": [
       {
@@ -79027,16 +79145,22 @@
         "claim_id": "C-a6cd8b6123d9",
         "source_ids": [],
         "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+      },
+      {
+        "status": "possible",
+        "probability_percent": 38,
+        "assessment_date": "2026-10-22",
+        "source_basis": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert."
       }
     ],
     "perspectives": {
       "Glasgow-1539": {
         "relationship": "father",
-        "reason": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert."
+        "reason": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert."
       },
       "Glasgow-1538": {
         "relationship": "daughter",
-        "reason": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert."
+        "reason": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert."
       }
     },
     "analysis_links": [
@@ -79047,27 +79171,26 @@
     ],
     "provenance": {
       "prior_assessment": {
-        "status": "unmarked",
-        "assessment_status": "unknown",
-        "tree_status": "unmarked",
-        "probability_percent": null,
-        "basis": "tree",
-        "scope": null,
-        "claim_id": "C-a6cd8b6123d9",
-        "source_ids": [],
-        "source_basis": "Pre-batch public dossier and selected through1850 graph,22October2026; saved mark retained separately; no live edit."
+        "probability_percent": 38,
+        "relationship": "father",
+        "relative_id": "Glasgow-1538",
+        "reviewed": null,
+        "source_basis": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert.",
+        "status": "possible"
       },
       "original_inspected_in_batch": false,
-      "live_flag_changed": false
+      "live_flag_changed": false,
+      "review_kind": "weak_father_review_b2"
     },
     "probability": {
       "value": 0.38,
-      "basis": "Margaret’s c.1821 placement is an unsourced daughter statement for Robert Glasgow and Janet Gilmour. The 14 February 1819 Barony marriage is compatible, but no held record names Margaret or identifies that groom with the selected Brash-family Robert.",
-      "reviewed": "2026-10-22",
+      "reviewed": "2026-11-06",
+      "basis": "The Ancestry Scotland, Select Births and Baptisms index entry for Margaret Glasgow, born 10 Mar 1821 and christened 20 Apr 1821 at Barony, Lanarkshire (https://www.ancestry.co.uk/search/collections/60143/records/12184903), names father Robert Glasgow and mother Janet Gilmour. That turns the previously unsourced daughter statement into a named baptism for Robert and Janet Gilmour, the couple of the 14 Feb 1819 Barony marriage, so it is added to the basis. The 38% (possible) is kept, not raised: the entry cannot show that this Robert is Glasgow-1538, whose probable identity is the Robert baptised 17 Feb 1760 and widowed by Margaret Brash (marriage 1803; a weaver buried 1839 aged 79). On that birth bound he would have been about 61 at Margaret's birth, a strain the earlier assessment did not state, and a younger Barony Robert who married Janet Gilmour in 1819 is not excluded. Earlier reasoning retained: the 1819 marriage is compatible with the family but does not identify the groom with the Brash-family Robert.",
       "source_ids": [
-        "held-e-16c2a95440c1"
+        "held-e-16c2a95440c1",
+        "ancestry-60143-12184903"
       ],
-      "scope": "Selected father-profile identity and paternal relationship; maternal identity is separate."
+      "scope": "Index transcript only (Ancestry's copy of the Scottish baptism index); the original register is uninspected. The entry gives no age, occupation or residence for the parents. Mother (separately assessed at 88%) and the father's upstream ancestry are outside this assessment. The siblings Janet (1828), Elizabeth (c.1830) and Mary (c.1832) rest on the same Robert identity at greater paternal ages and are unchanged."
     }
   },
   {
