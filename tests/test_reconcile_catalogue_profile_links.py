@@ -110,7 +110,10 @@ class ProjectionTests(unittest.TestCase):
         prior = self.read(f'www/people/{self.ids[0]}.json')
         prior['relationships']['parents'] = [edge]
         self.put(f'www/people/{self.ids[0]}.json', prior)
-        self.put('www/assets/research/atlas-model.json', {'people': [
+        self.put('www/assets/research/atlas-model.json', {'meta': {
+            'publicFamilyScopeIds': [self.ids[0], 'Glasgow-1', 'Glasgow-99'],
+            'publicFamilyNewIds': [self.ids[0]],
+        }, 'people': [
             {'id': self.ids[0], 'parents': [edge]}, {'id': 'Glasgow-1'},
             {'id': 'Glasgow-99', 'childrenRecorded': [
                 {'id': 'Glasgow-1', 'role': 'child', 'claim_id': 'current-parent'},
@@ -126,6 +129,9 @@ class ProjectionTests(unittest.TestCase):
         people = self.read('www/assets/research/atlas-model.json')['people']
         self.assertEqual(['Glasgow-1', 'Glasgow-99'], [p['id'] for p in people])
         self.assertEqual([{'id': 'Glasgow-1', 'role': 'child', 'claim_id': 'current-parent'}], people[1]['childrenRecorded'])
+        meta = self.read('www/assets/research/atlas-model.json')['meta']
+        self.assertEqual(['Glasgow-1', 'Glasgow-99'], meta['publicFamilyScopeIds'])
+        self.assertEqual(['Glasgow-1'], meta['publicFamilyNewIds'])
 
     def test_active_duplicate_parent_still_blocks_native_merge_projection(self):
         self.native_retirement(retire=False)

@@ -583,6 +583,12 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
 
         if atlas is not None:
             atlas['people'] = [p for p in atlas['people'] if not exact_subject(p, old)]
+            for field in ('publicFamilySyncIds', 'publicFamilyRelatedIds',
+                          'publicFamilyNewIds', 'publicFamilyScopeIds'):
+                scope = atlas.get('meta', {}).get(field)
+                if isinstance(scope, list):
+                    atlas['meta'][field] = list(dict.fromkeys(
+                        profile if ident == old else ident for ident in scope))
             for person in atlas['people']:
                 for field in ('children', 'childrenRecorded'):
                     if isinstance(person.get(field), list):
