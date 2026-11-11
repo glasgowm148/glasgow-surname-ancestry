@@ -111,6 +111,77 @@ class Views:
         # silently choose one for a generated relationship view.
         self.local = {entity_id: values[0] for entity_id, values in local_values.items()
                       if len(set(values)) == 1}
+        self._merged_entities = self._active_merge_map()
+        self._merged_public = self._public_merge_map()
+
+    def _active_merge_map(self) -> dict[str, str]:
+        """Return retired entity -> survivor for merges not undone.
+
+        This deliberately reads merge records, rather than replacing strings in
+        legacy JSON.  A split whose reason names a merge is the workbench's
+        reversible undo marker; chained merges are resolved transitively.
+        """
+        rows = self.store.all("SELECT id,kind,survivor_id,retired_ids,reason FROM entity_merge ORDER BY id")
+        undone = {row["reason"].split("undo ", 1)[1].split(":", 1)[0]
+                  for row in rows if row.get("kind") == "split" and str(row.get("reason") or "").startswith("undo ")}
+        direct = {}
+        for row in rows:
+            if row.get("kind") != "merge" or row.get("id") in undone:
+                continue
+            for retired in json.loads(row.get("retired_ids") or "[]"):
+                direct[retired] = row["survivor_id"]
+        result = {}
+        for retired in direct:
+            seen = set()
+            current = retired
+            while current in direct and current not in seen:
+                seen.add(current)
+                current = direct[current]
+            if current == retired:
+                raise ValueError(f"cyclic active entity merge involving {retired}")
+            result[retired] = current
+        return result
+
+    def _public_merge_map(self) -> dict[str, str]:
+        if not self._merged_entities:
+            return {}
+        aliases = self.store.all("SELECT id,entity_id,system,value,status FROM external_id")
+        by_id = {row.get("id"): row for row in aliases}
+        result = {}
+        for retired, survivor in self._merged_entities.items():
+            target = self.wikitree.get(survivor)
+            if not target:
+                target = self.local.get(survivor)
+            if not target:
+                raise ValueError(f"merged survivor {survivor} has no canonical alias")
+            moved_aliases = []
+            for merge in self.store.all("SELECT moved_json FROM entity_merge WHERE kind='merge'"):
+                for item in json.loads(merge.get("moved_json") or "{}").get("rows", []):
+                    if item.get("table") != "external_id":
+                        continue
+                    key = item.get("key", {})
+                    alias = by_id.get(key.get("id"))
+                    if alias and alias.get("entity_id") == survivor and alias.get("value"):
+                        moved_aliases.append(alias["value"])
+            if not moved_aliases:
+                continue
+            for old in moved_aliases:
+                result[old] = target
+        return result
+
+    def _legacy_participants(self, row: dict[str, Any]) -> dict[str, Any]:
+        """Normalize only current participant fields; history/provenance untouched."""
+        if not self._merged_public:
+            return row
+        row = dict(row)
+        for key in ("subject_id", "relative_id"):
+            if row.get(key) in self._merged_public:
+                row[key] = self._merged_public[row[key]]
+        if isinstance(row.get("people"), list):
+            row["people"] = [self._merged_public.get(x, x) for x in row["people"]]
+        if isinstance(row.get("perspectives"), dict):
+            row["perspectives"] = {self._merged_public.get(k, k): v for k, v in row["perspectives"].items()}
+        return row
 
     def revisions(self, claim_id: str) -> list[dict[str, Any]]:
         return self.store.all(
@@ -128,6 +199,7 @@ class Views:
             "SELECT 1 FROM import_origin WHERE entity_id=? LIMIT 1", (claim["id"],))
 
     def person(self, person_id: str) -> str:
+        person_id = self._merged_entities.get(person_id, person_id)
         return self.wikitree.get(person_id, self.local.get(person_id, person_id))
 
     def claims(self) -> list[dict[str, Any]]:
@@ -144,6 +216,7 @@ class Views:
             current = revisions[-1] if revisions else None
             if "legacy" in extra:
                 row = dict(extra["legacy"])
+                row = self._legacy_participants(row)
                 if not self.migrated(current):
                     row.update(self.derived_assessment(revisions, row))
                 legacy.append((extra.get("legacy_index", 0), row))
@@ -248,9 +321,10 @@ class Views:
             percent = current["estimate_percent"] if current else None
             for index, row in extra.get("legacy_estimates", []):
                 if self.migrated(current) and row.get("percent") == percent:
-                    legacy.append((index, row))
+                    legacy.append((index, self._legacy_participants(row)))
                     continue
                 corrected = dict(row)
+                corrected = self._legacy_participants(corrected)
                 if row.get("percent") != percent:
                     history = list(row.get("assessment_history") or [])
                     history.append({"percent": row.get("percent"), "assessment_status": row.get("assessment_status"),
