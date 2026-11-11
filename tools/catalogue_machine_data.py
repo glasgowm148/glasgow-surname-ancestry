@@ -621,8 +621,9 @@ def _person_id(person: dict) -> str:
     return next(iter(person.get("profile_ids", [])), None) or person["catalogue_id"]
 
 
-def build_machine_models(public_people: list[dict]) -> tuple[dict[str, dict], list[dict]]:
-    """Return dossiers keyed by catalogue slug and a compact global index."""
+def build_machine_models(public_people: list[dict], *, catalogue_ids=None) -> tuple[dict[str, dict], list[dict]]:
+    """Build selected dossiers with the complete public family context available."""
+    requested = None if catalogue_ids is None else set(catalogue_ids)
     people_by_id = {profile_id: person for person in public_people for profile_id in person.get("profile_ids", [])}
     public_ids = set(people_by_id)
     assessments = [item for item in _relationship_assessments() if item["person_a"] in public_ids and item["person_b"] in public_ids]
@@ -635,6 +636,8 @@ def build_machine_models(public_people: list[dict]) -> tuple[dict[str, dict], li
     dossiers = {}
     compact_index = []
     for person in public_people:
+        if requested is not None and person['catalogue_id'] not in requested:
+            continue
         person_id = _person_id(person)
         slug = person["catalogue_id"]
         claims, evidence = [], _profile_source_evidence(person)
