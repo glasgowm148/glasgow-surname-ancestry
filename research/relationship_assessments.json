@@ -164844,6 +164844,258 @@
     }
   },
   {
+    "assertion_id": "clm-crawford-reid-02189aed2eb2-father-20261111",
+    "people": [
+      "record-ancestry-glasgow-02189aed2eb2",
+      "record-robert-glasgow-isabella-reid-1855"
+    ],
+    "claim": "Robert Glasgow is the named father of the record-defined Ralph Glasgow; identify the adult with the correct household at 95% subjective confidence.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-ancestry-glasgow-02189aed2eb2": {
+        "relationship": "father"
+      },
+      "record-robert-glasgow-isabella-reid-1855": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-14617644",
+      "ancestry-60143-14617643"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-11-11",
+      "original_inspected_in_batch": false,
+      "prior_assessment": {
+        "source_basis": "The record-defined child had no selected father in the local dossier before this review; the held index already named Robert. Canonical mentions alone did not attach a tree father.",
+        "status": "unknown"
+      },
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-11",
+    "basis": "Robert Glasgow is the named father of the record-defined Ralph Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow is the named father of the record-defined Ralph Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "limitations": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown.",
+    "probability": {
+      "value": 0.95,
+      "reviewed": "2026-11-11",
+      "basis": "Robert Glasgow is the named father of the record-defined Ralph Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+      "source_ids": [
+        "ancestry-60143-14617644",
+        "ancestry-60143-14617643"
+      ],
+      "scope": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-robert-glasgow-isabella-reid-1855.html#research-findings",
+        "label": "Separated household evidence"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-02189aed2eb2": "Ralph Glasgow",
+      "record-robert-glasgow-isabella-reid-1855": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-crawford-reid-7c14e5b39d53-father-20261111",
+    "people": [
+      "record-ancestry-glasgow-7c14e5b39d53",
+      "record-robert-glasgow-isabella-reid-1855"
+    ],
+    "claim": "Robert Glasgow is the named father of the record-defined Agnes Glasgow; identify the adult with the correct household at 95% subjective confidence.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-ancestry-glasgow-7c14e5b39d53": {
+        "relationship": "father"
+      },
+      "record-robert-glasgow-isabella-reid-1855": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-25256352",
+      "ancestry-60143-25256353"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-11-11",
+      "original_inspected_in_batch": false,
+      "prior_assessment": {
+        "source_basis": "The record-defined child had no selected father in the local dossier before this review; the held index already named Robert. Canonical mentions alone did not attach a tree father.",
+        "status": "unknown"
+      },
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-11",
+    "basis": "Robert Glasgow is the named father of the record-defined Agnes Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow is the named father of the record-defined Agnes Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "limitations": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown.",
+    "probability": {
+      "value": 0.95,
+      "reviewed": "2026-11-11",
+      "basis": "Robert Glasgow is the named father of the record-defined Agnes Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+      "source_ids": [
+        "ancestry-60143-25256352",
+        "ancestry-60143-25256353"
+      ],
+      "scope": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-robert-glasgow-isabella-reid-1855.html#research-findings",
+        "label": "Separated household evidence"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-7c14e5b39d53": "Agnes Glasgow",
+      "record-robert-glasgow-isabella-reid-1855": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-crawford-reid-7c6ead717adc-father-20261111",
+    "people": [
+      "record-ancestry-glasgow-7c6ead717adc",
+      "record-robert-glasgow-isabella-reid-1855"
+    ],
+    "claim": "Robert Glasgow is the named father of the record-defined Margaret Glasgow; identify the adult with the correct household at 95% subjective confidence.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-ancestry-glasgow-7c6ead717adc": {
+        "relationship": "father"
+      },
+      "record-robert-glasgow-isabella-reid-1855": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-15719158",
+      "ancestry-60143-15719157"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-11-11",
+      "original_inspected_in_batch": false,
+      "prior_assessment": {
+        "source_basis": "The record-defined child had no selected father in the local dossier before this review; the held index already named Robert. Canonical mentions alone did not attach a tree father.",
+        "status": "unknown"
+      },
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-11",
+    "basis": "Robert Glasgow is the named father of the record-defined Margaret Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow is the named father of the record-defined Margaret Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "limitations": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown.",
+    "probability": {
+      "value": 0.95,
+      "reviewed": "2026-11-11",
+      "basis": "Robert Glasgow is the named father of the record-defined Margaret Glasgow; identify the adult with the correct household at 95% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+      "source_ids": [
+        "ancestry-60143-15719158",
+        "ancestry-60143-15719157"
+      ],
+      "scope": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-robert-glasgow-isabella-reid-1855.html#research-findings",
+        "label": "Separated household evidence"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-7c6ead717adc": "Margaret Glasgow",
+      "record-robert-glasgow-isabella-reid-1855": "Robert Glasgow"
+    }
+  },
+  {
+    "assertion_id": "clm-crawford-reid-d6364177d654-father-20261111",
+    "people": [
+      "record-ancestry-glasgow-d6364177d654",
+      "record-ancestry-glasgow-262e36f70575"
+    ],
+    "claim": "Robert Glasgow is the named father of the record-defined George Glasgow; identify the adult with the correct household at 98% subjective confidence.",
+    "relation_type": "biological",
+    "perspectives": {
+      "record-ancestry-glasgow-d6364177d654": {
+        "relationship": "father"
+      },
+      "record-ancestry-glasgow-262e36f70575": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "ancestry-60143-9156907",
+      "ancestry-60143-9156906"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-11-11",
+      "original_inspected_in_batch": false,
+      "prior_assessment": {
+        "source_basis": "The record-defined child had no selected father in the local dossier before this review; the held index already named Robert. Canonical mentions alone did not attach a tree father.",
+        "status": "unknown"
+      },
+      "source_newly_discovered": false
+    },
+    "status": "proved",
+    "assessment_date": "2026-11-11",
+    "basis": "Robert Glasgow is the named father of the record-defined George Glasgow; identify the adult with the correct household at 98% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "assessment_history": [],
+    "reason": "Robert Glasgow is the named father of the record-defined George Glasgow; identify the adult with the correct household at 98% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+    "limitations": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown.",
+    "probability": {
+      "value": 0.98,
+      "reviewed": "2026-11-11",
+      "basis": "Robert Glasgow is the named father of the record-defined George Glasgow; identify the adult with the correct household at 98% subjective confidence. The full mother name, event and locality distinguish the household. No later adult identity of the child is claimed.",
+      "source_ids": [
+        "ancestry-60143-9156907",
+        "ancestry-60143-9156906"
+      ],
+      "scope": "Held derivative index transcripts, not newly inspected originals. Duplicate parent/child index rows represent one event. Own ancestry, occupation and marriage of the father remain unknown."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "analysis_links": [
+      {
+        "href": "/people/record-ancestry-glasgow-262e36f70575.html#research-findings",
+        "label": "Separated household evidence"
+      }
+    ],
+    "profile_names": {
+      "record-ancestry-glasgow-262e36f70575": "Robert Glasgow",
+      "record-ancestry-glasgow-d6364177d654": "George Glasgow"
+    }
+  },
+  {
     "assertion_id": "clm-d1-glasco-66-father-20261106",
     "people": [
       "Glasco-66",

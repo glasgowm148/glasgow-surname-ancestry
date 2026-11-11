@@ -83442,6 +83442,100 @@
           "previous_status_provenance": "No mother selected in the public Peter account before 11 November 2026. New native clm-stichill-peter-patrick-mother-20261111 revision 1, 45% possible."
         }
       ]
+    },
+    {
+      "id": "crawford-robert-reid-household-separation-20261111",
+      "found_on": "2026-11-11",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/record-ancestry-glasgow-262e36f70575.html#research-findings",
+      "finding": "The Crawford Robert Glasgow–Isabel Porteous household of 1767–1769 is separated from Robert Glasgow–Isabella Reid in 1855–1863. George, born 14 May 1769 atCrawford, now has Robert selected as confident father at 98%, connecting him to the Mary 1767 household. The three later Reid-family children have the correct record-defined father at 95% each.",
+      "significance": "One pre 1850 structural father connection; six chronologically conflicting canonical record assignments corrected. Three later-child connections are separate and must not count in the pre 1850 research cohort.",
+      "qualification": "Held index transcripts reassessed; no new originals or source discoveries. Parent/child index rows of an event are duplicates. Later adult identities and both Roberts’ own ancestries remain unknown. The existing William-2715 and James-3130 hypotheses retain their grades.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-262e36f70575",
+          "name": "Robert Glasgow, Crawford",
+          "url": "/people/record-ancestry-glasgow-262e36f70575.html",
+          "role": "Robert and Isabel Porteous, 1767–1769"
+        },
+        {
+          "id": "record-ancestry-glasgow-d6364177d654",
+          "name": "George Glasgow, Crawford 1769",
+          "url": "/people/record-ancestry-glasgow-d6364177d654.html",
+          "role": "New confident father Robert, 98%"
+        },
+        {
+          "id": "record-robert-glasgow-isabella-reid-1855",
+          "name": "Robert Glasgow, Isabella Reid household",
+          "url": "/people/record-robert-glasgow-isabella-reid-1855.html",
+          "role": "Distinct later father; six conflicting record assignments corrected"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: record 6989039",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6989039"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: record 9156907",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/9156907"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: record 25256352",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/25256352"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: record 15719158",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/15719158"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms, 1564–1950: record 14617644",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/14617644"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-d6364177d654",
+          "relative": "record-ancestry-glasgow-262e36f70575",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 98,
+          "explanation": "Held transcript names Robert and the full mother; attach the record-defined George to the correct household at 98%. No later adult identity is established.",
+          "previous_status_provenance": "Local dossier before 11 November 2026 had no selected father; canonical source associations already named Robert but did not create a structural parent edge."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-7c14e5b39d53",
+          "relative": "record-robert-glasgow-isabella-reid-1855",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 95,
+          "explanation": "Held transcript names Robert and the full mother; attach the record-defined Agnes to the correct household at 95%. No later adult identity is established.",
+          "previous_status_provenance": "Local dossier before 11 November 2026 had no selected father; canonical source associations already named Robert but did not create a structural parent edge."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-7c6ead717adc",
+          "relative": "record-robert-glasgow-isabella-reid-1855",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 95,
+          "explanation": "Held transcript names Robert and the full mother; attach the record-defined Margaret to the correct household at 95%. No later adult identity is established.",
+          "previous_status_provenance": "Local dossier before 11 November 2026 had no selected father; canonical source associations already named Robert but did not create a structural parent edge."
+        },
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-02189aed2eb2",
+          "relative": "record-robert-glasgow-isabella-reid-1855",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 95,
+          "explanation": "Held transcript names Robert and the full mother; attach the record-defined Ralph to the correct household at 95%. No later adult identity is established.",
+          "previous_status_provenance": "Local dossier before 11 November 2026 had no selected father; canonical source associations already named Robert but did not create a structural parent edge."
+        }
+      ]
     }
   ]
 }

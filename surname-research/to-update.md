@@ -1,5 +1,11 @@
 # WikiTree work queue
 
+## Crawford and Reid households separated — 11 November 2026
+
+| Subject | Status | Pending work and evidence |
+| --- | --- | --- |
+| [Robert Glasgow and Isabella Reid](new-people/1855_Scotland_New_Monkland_Robert_Glasgow.md) | HOLD | Separate 1855–1863family; do not attach to 1767 Crawford/Porteous Robert. Complete sourced draft; verify originals and repeat profile search before live creation. |
+
 ## Reviewed working families and Bessie identity HOLD — 17 October 2026
 
 These are local relationship assessments from previously checked readings, not fresh original inspections or live WikiTree changes. Earlier completed work remains completed; the dated account below controls these pending qualifications.
