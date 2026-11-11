@@ -136,6 +136,16 @@ def retired_parent_proof(root, old, profile, link):
                 raise ValueError(f'{old}: no current canonical counterpart for {aid}')
             proof = (views.person(claim['object_person_id']).casefold(), claim['predicate'])
             allowed[aid] = allowed[cid] = proof
+        # Older atlas caches omit claim IDs on reciprocal child references.
+        # Authorize that cache row only when every moved parent claim for its
+        # exact pair was reviewed above; an omitted active claim blocks it.
+        for parent, _ in list(allowed.values()):
+            pair_claims = {cid for cid in moved_claims
+                           if (claim := store.get('claim', cid))
+                           and claim['predicate'] in {'father', 'mother', 'parent'}
+                           and views.person(claim['object_person_id']).casefold() == parent}
+            if pair_claims and pair_claims <= allowed.keys():
+                allowed['inverse:' + parent] = (parent, 'child')
         return allowed
 
 
@@ -150,7 +160,8 @@ def _retired_parent(row, proofs):
 def _retired_child(row, proofs, old, parent):
     if not isinstance(row, dict):
         return False
-    proof = proofs.get(row.get('assertion_id') or row.get('claim_id'))
+    ident = row.get('assertion_id') or row.get('claim_id')
+    proof = proofs.get(ident) if ident else proofs.get('inverse:' + str(parent or '').casefold())
     return bool(proof and row.get('id') == old and str(parent or '').casefold() == proof[0]
                 and row.get('relationship', row.get('role')) in {'child', 'son', 'daughter'})
 

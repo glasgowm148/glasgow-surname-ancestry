@@ -68,7 +68,7 @@ class ProjectionTests(unittest.TestCase):
     def read(self,path):return json.loads((self.root/path).read_text())
     def snapshot(self):return {str(p.relative_to(self.root)):p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
 
-    def native_retirement(self, *, retire=True, undo=False):
+    def native_retirement(self, *, retire=True, undo=False, extra_parent=False):
         from genealogy.cli import initialize_project
         from genealogy.store import Research, open_project
         native = self.root / 'native'
@@ -85,6 +85,11 @@ class ProjectionTests(unittest.TestCase):
                     research.relationship_claim(tx, id=claim, child_id=child, relative_id='person-parent',
                                                 role='father', publication_status='approved')
                     research.assess(tx, claim, status='uncertain', estimate_percent=percent, estimate_kind='subjective')
+                if extra_parent:
+                    research.relationship_claim(tx, id='unreviewed-pair', child_id='person-old',
+                                                relative_id='person-parent', role='father', publication_status='approved')
+                    research.assess(tx, 'unreviewed-pair', status='uncertain', estimate_percent=12,
+                                    estimate_kind='subjective')
                 merge = research.merge_people(tx, survivor_id='person-current', retired_id='person-old', reason='same record')
                 if retire:
                     research.assess(tx, 'retired-parent', expected_revision=1, status='uncertain',
@@ -163,6 +168,23 @@ class ProjectionTests(unittest.TestCase):
         self.native_retirement()
         model = self.read('www/assets/research/atlas-model.json')
         model['people'][2]['childrenRecorded'][1]['claim_id'] = 'unreviewed-child'
+        self.put('www/assets/research/atlas-model.json', model)
+        with self.assertRaisesRegex(ValueError, 'unexplained genealogical'):
+            plan(self.root, [self.ids[0]])
+
+    def test_unlabelled_inverse_cache_requires_complete_pair_review(self):
+        self.native_retirement()
+        model = self.read('www/assets/research/atlas-model.json')
+        del model['people'][2]['childrenRecorded'][1]['claim_id']
+        self.put('www/assets/research/atlas-model.json', model)
+        apply(self.root, [self.ids[0]], refresh=False)
+        parent = self.read('www/assets/research/atlas-model.json')['people'][1]
+        self.assertEqual(['Glasgow-1'], [r['id'] for r in parent['childrenRecorded']])
+
+    def test_unlabelled_inverse_cache_cannot_hide_unreviewed_pair_claim(self):
+        self.native_retirement(extra_parent=True)
+        model = self.read('www/assets/research/atlas-model.json')
+        del model['people'][2]['childrenRecorded'][1]['claim_id']
         self.put('www/assets/research/atlas-model.json', model)
         with self.assertRaisesRegex(ValueError, 'unexplained genealogical'):
             plan(self.root, [self.ids[0]])
