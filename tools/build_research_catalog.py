@@ -3852,6 +3852,72 @@ def _unified_records_page(title: str, description: str, body: str) -> str:
     return with_analytics(records_assets(page, WEB_DIR))
 
 
+def write_csv_exports(public_people, public_records, generated, export_version):
+    """Refresh public CSV downloads without rebuilding person dossiers."""
+    csv_fields = ["catalogue_id", "name", "profile_ids", "wikitree_free_space_url", "profile_disposition", "has_wikitree_destination", "profile_work_status", "profile_work_candidate_count", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
+    with (DATA_DIR / "people.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=csv_fields)
+        writer.writeheader()
+        for person in public_people:
+            row = {field: person.get(field, "") for field in csv_fields}
+            for field in ("profile_ids", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "clusters", "evidence", "recorded_in", "regions"):
+                row[field] = " | ".join(person[field])
+            for field in ("spouses", "father", "mother", "children"):
+                row[field] = " | ".join(relation["name"] + (f" [{relation['id']}]" if relation["id"] else "") for relation in person[field])
+            row["record_count"] = len(person["records"])
+            row["relationship_warnings"] = " | ".join(person["relationship_warnings"])
+            row["profile_created"] = " | ".join(_unique(info["created"] for info in person["profile_information"]))
+            row["profile_last_updated"] = " | ".join(_unique(info["last_updated"] for info in person["profile_information"]))
+            row["profile_connected"] = "yes" if any(info["connected"] for info in person["profile_information"]) else "no"
+            row["reported_children_count"] = " | ".join(str(value) for value in _unique(info["reported_children_count"] for info in person["profile_information"]))
+            row["dna_flags"] = " | ".join(_unique(flag for info in person["profile_information"] for flag, present in (("Y-DNA", info["ydna"]), ("auDNA", info["audna"])) if present))
+            row["wikitree_evidence_profiles"] = " | ".join(capture.get("profile_id", "") for capture in person["wikitree_evidence"])
+            row["wikitree_evidence_captured"] = " | ".join(_unique(capture.get("captured_at", "") for capture in person["wikitree_evidence"]))
+            row["wikitree_record_passage_count"] = sum(len(capture.get("record_passages", [])) for capture in person["wikitree_evidence"])
+            row["wikitree_source_count"] = sum(len(capture.get("sources", [])) for capture in person["wikitree_evidence"])
+            row["wikitree_external_url_count"] = sum(len(capture.get("external_urls", [])) for capture in person["wikitree_evidence"])
+            row["wikitree_location_claims"] = " | ".join(_unique(claim.get("location", "") for capture in person["wikitree_evidence"] for claim in capture.get("location_claims", [])))
+            row["export_version"] = export_version
+            row["catalogue_generated"] = generated
+            row["catalogue_url"] = f"{SITE_URL}/people/{person['catalogue_id']}.html"
+            row["wikitree_urls"] = " | ".join(
+                [*(WIKITREE_URL + profile_id for profile_id in person["profile_ids"]),
+                 *([person["wikitree_free_space_url"]] if person.get("wikitree_free_space_url") else [])]
+            )
+            writer.writerow(row)
+
+    record_fields = [
+        "record_id", "catalogue_id", "person", "profile_ids", "year", "filter_year",
+        "region", "family_group", "subcluster", "evidence", "association", "note",
+        "location_id", "record_location", "record_precision", "location_basis",
+        "latitude", "longitude", "source_title", "source_url", "source_type",
+        "source_status", "record_category", "place_url", "supporting_source_title",
+        "supporting_source_url", "supporting_source_quality", "supporting_source_status",
+        "supporting_source_reason", "export_version", "catalogue_generated", "catalogue_url",
+    ]
+    with (DATA_DIR / "records.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=record_fields)
+        writer.writeheader()
+        writer.writerows({field: record.get(field, "") for field in record_fields} for record in public_records)
+    with (DATA_DIR / "source-gaps.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=record_fields)
+        writer.writeheader()
+        writer.writerows(
+            {field: record.get(field, "") for field in record_fields}
+            for record in public_records if record["source_type"] != "explicit"
+        )
+    with (DATA_DIR / "source-review.csv").open("w", encoding="utf-8-sig", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=record_fields)
+        writer.writeheader()
+        writer.writerows(
+            {field: record.get(field, "") for field in record_fields}
+            for record in public_records if record["supporting_source_status"] in {"candidate", "unresolved"}
+        )
+    for filename in ("people.csv", "records.csv", "source-gaps.csv", "source-review.csv"):
+        (DATA_DIR / f"{filename}.txt").write_bytes((DATA_DIR / filename).read_bytes())
+
+
+
 def _unified_data_page(body: str) -> str:
     """Keep the generated data guide in the site's maintained navigation shell."""
     css = WEB_DIR / "assets" / "data" / "site.css"
@@ -6996,67 +7062,7 @@ def build_research_catalog(records: list[dict], profiles: dict[str, dict], edges
         json.dumps(public_wikitree_evidence, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
-    csv_fields = ["catalogue_id", "name", "profile_ids", "wikitree_free_space_url", "profile_disposition", "has_wikitree_destination", "profile_work_status", "profile_work_candidate_count", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "has_suffix", "gender", "birth", "birth_note", "birth_location", "birth_location_note", "death", "death_location", "spouses", "father", "mother", "children", "cluster", "clusters", "descendants", "evidence", "recorded_in", "regions", "record_count", "derived_children_count", "outside_export_parent_references", "relationship_warnings", "profile_created", "profile_last_updated", "profile_connected", "reported_children_count", "dna_flags", "wikitree_evidence_profiles", "wikitree_evidence_captured", "wikitree_record_passage_count", "wikitree_source_count", "wikitree_external_url_count", "wikitree_location_claims", "export_version", "catalogue_generated", "catalogue_url", "wikitree_urls"]
-    with (DATA_DIR / "people.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=csv_fields)
-        writer.writeheader()
-        for person in public_people:
-            row = {field: person.get(field, "") for field in csv_fields}
-            for field in ("profile_ids", "first_names", "last_names_at_birth", "last_names_current", "suffixes", "clusters", "evidence", "recorded_in", "regions"):
-                row[field] = " | ".join(person[field])
-            for field in ("spouses", "father", "mother", "children"):
-                row[field] = " | ".join(relation["name"] + (f" [{relation['id']}]" if relation["id"] else "") for relation in person[field])
-            row["record_count"] = len(person["records"])
-            row["relationship_warnings"] = " | ".join(person["relationship_warnings"])
-            row["profile_created"] = " | ".join(_unique(info["created"] for info in person["profile_information"]))
-            row["profile_last_updated"] = " | ".join(_unique(info["last_updated"] for info in person["profile_information"]))
-            row["profile_connected"] = "yes" if any(info["connected"] for info in person["profile_information"]) else "no"
-            row["reported_children_count"] = " | ".join(str(value) for value in _unique(info["reported_children_count"] for info in person["profile_information"]))
-            row["dna_flags"] = " | ".join(_unique(flag for info in person["profile_information"] for flag, present in (("Y-DNA", info["ydna"]), ("auDNA", info["audna"])) if present))
-            row["wikitree_evidence_profiles"] = " | ".join(capture.get("profile_id", "") for capture in person["wikitree_evidence"])
-            row["wikitree_evidence_captured"] = " | ".join(_unique(capture.get("captured_at", "") for capture in person["wikitree_evidence"]))
-            row["wikitree_record_passage_count"] = sum(len(capture.get("record_passages", [])) for capture in person["wikitree_evidence"])
-            row["wikitree_source_count"] = sum(len(capture.get("sources", [])) for capture in person["wikitree_evidence"])
-            row["wikitree_external_url_count"] = sum(len(capture.get("external_urls", [])) for capture in person["wikitree_evidence"])
-            row["wikitree_location_claims"] = " | ".join(_unique(claim.get("location", "") for capture in person["wikitree_evidence"] for claim in capture.get("location_claims", [])))
-            row["export_version"] = export_version
-            row["catalogue_generated"] = generated
-            row["catalogue_url"] = f"{SITE_URL}/people/{person['catalogue_id']}.html"
-            row["wikitree_urls"] = " | ".join(
-                [*(WIKITREE_URL + profile_id for profile_id in person["profile_ids"]),
-                 *([person["wikitree_free_space_url"]] if person.get("wikitree_free_space_url") else [])]
-            )
-            writer.writerow(row)
-
-    record_fields = [
-        "record_id", "catalogue_id", "person", "profile_ids", "year", "filter_year",
-        "region", "family_group", "subcluster", "evidence", "association", "note",
-        "location_id", "record_location", "record_precision", "location_basis",
-        "latitude", "longitude", "source_title", "source_url", "source_type",
-        "source_status", "record_category", "place_url", "supporting_source_title",
-        "supporting_source_url", "supporting_source_quality", "supporting_source_status",
-        "supporting_source_reason", "export_version", "catalogue_generated", "catalogue_url",
-    ]
-    with (DATA_DIR / "records.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=record_fields)
-        writer.writeheader()
-        writer.writerows({field: record.get(field, "") for field in record_fields} for record in public_records)
-    with (DATA_DIR / "source-gaps.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=record_fields)
-        writer.writeheader()
-        writer.writerows(
-            {field: record.get(field, "") for field in record_fields}
-            for record in public_records if record["source_type"] != "explicit"
-        )
-    with (DATA_DIR / "source-review.csv").open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=record_fields)
-        writer.writeheader()
-        writer.writerows(
-            {field: record.get(field, "") for field in record_fields}
-            for record in public_records if record["supporting_source_status"] in {"candidate", "unresolved"}
-        )
-    for filename in ("people.csv", "records.csv", "source-gaps.csv", "source-review.csv"):
-        (DATA_DIR / f"{filename}.txt").write_bytes((DATA_DIR / filename).read_bytes())
+    write_csv_exports(public_people, public_records, generated, export_version)
 
     health = _write_support_pages(
         public_people, public_records, place_index, dossiers, profile_audit_entries, generated, export_version,

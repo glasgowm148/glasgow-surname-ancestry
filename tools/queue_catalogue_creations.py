@@ -54,6 +54,31 @@ def creation_routes(web, slugs):
     return prefix + json.dumps(routes, ensure_ascii=False, separators=(',', ':')) + text[len(prefix) + end:]
 
 
+def publish_creation_aliases(root, entries):
+    """Keep explicit source-subject URLs pointing to their canonical cases."""
+    from tools.publish_retired_record_redirects import redirect_page
+    web = Path(root) / 'www'
+    active = {row['catalogue_id'] for row in _read(web / 'data/people.json', {'people': []})['people']}
+    aliases = {}
+    for entry in entries:
+        old, current = str(entry.get('subject_id') or '').casefold(), entry['catalogue_id']
+        if (old == current or old in active or current not in active
+                or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', old)
+                or not (web / 'people' / (current + '.html')).is_file()):
+            continue
+        if old in aliases and aliases[old] != current:
+            raise ValueError('Conflicting source-subject alias: ' + old)
+        aliases[old] = current
+    changed = 0
+    for old, current in aliases.items():
+        path = web / 'people' / (old + '.html')
+        content = redirect_page(old, current)
+        if not path.exists() or path.read_text() != content:
+            path.write_text(content)
+            changed += 1
+    return changed
+
+
 def reviewed_people(root=ROOT, catalogue_ids=None):
     """Return validated public historical subjects; fail before any writes."""
     root = Path(root).resolve()
@@ -382,6 +407,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     (web / "data/people-index.js").write_text("window.glasgowPeopleIndex=" + json.dumps(search, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     if routes_content is not None:
         (web / 'assets/unified/routes.js').write_text(routes_content, encoding='utf-8')
+    publish_creation_aliases(root, entries)
     return {"integrated": [p["catalogue_id"] for p in people], "count": len(people)}
 
 

@@ -55,6 +55,20 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+    def test_source_subject_url_redirects_to_canonical_case(self):
+        module.apply_creations(self.root)
+        path=self.root/'www/people/jane-1775.html'
+        self.assertIn(self.slug+'.html',path.read_text())
+        self.assertEqual(0,module.publish_creation_aliases(self.root,[self.entry]))
+
+    def test_source_subject_alias_never_overwrites_an_active_person(self):
+        module.apply_creations(self.root)
+        path=self.root/'www/people/jane-1775.html';path.write_text('Different existing person')
+        data=self.read('data/people.json');data['people'].append({'catalogue_id':'jane-1775'})
+        (self.root/'www/data/people.json').write_text(json.dumps(data))
+        self.assertEqual(0,module.publish_creation_aliases(self.root,[self.entry]))
+        self.assertEqual('Different existing person',path.read_text())
+
     def test_batch_keeps_same_name_people_and_their_sources_distinct(self):
         other = deepcopy(self.entry)
         other.update(subject_id='jane-1785', catalogue_id='record-jane-glasgow-1785')
