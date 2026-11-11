@@ -61,14 +61,15 @@ def publish_creation_aliases(root, entries):
     active = {row['catalogue_id'] for row in _read(web / 'data/people.json', {'people': []})['people']}
     aliases = {}
     for entry in entries:
-        old, current = str(entry.get('subject_id') or '').casefold(), entry['catalogue_id']
-        if (old == current or old in active or current not in active
-                or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', old)
-                or not (web / 'people' / (current + '.html')).is_file()):
-            continue
-        if old in aliases and aliases[old] != current:
-            raise ValueError('Conflicting source-subject alias: ' + old)
-        aliases[old] = current
+        current = entry['catalogue_id']
+        for old in {str(entry.get('subject_id') or '').casefold(), current.removeprefix('record-')}:
+            if (old == current or old in active or current not in active
+                    or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', old)
+                    or not (web / 'people' / (current + '.html')).is_file()):
+                continue
+            if old in aliases and aliases[old] != current:
+                raise ValueError('Conflicting source-subject alias: ' + old)
+            aliases[old] = current
     changed = 0
     for old, current in aliases.items():
         path = web / 'people' / (old + '.html')

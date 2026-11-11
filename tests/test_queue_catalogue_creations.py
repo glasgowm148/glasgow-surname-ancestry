@@ -80,6 +80,8 @@ The deed does not give her birth date. No compatible profile survived the docume
         module.apply_creations(self.root)
         path=self.root/'www/people/jane-1775.html'
         self.assertIn(self.slug+'.html',path.read_text())
+        canonical_legacy=self.root/'www/people/jane-glasgow-1775.html'
+        self.assertIn(self.slug+'.html',canonical_legacy.read_text())
         self.assertEqual(0,module.publish_creation_aliases(self.root,[self.entry]))
 
     def test_source_subject_alias_never_overwrites_an_active_person(self):
