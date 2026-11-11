@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Peter/Patrick comparison — 11 November 2026:** This remains the record-defined Patrick baptised 20 June 1742, with existing father 95% and mother 90% assessments unchanged. [Peter Glasgow of Whitebank](https://www.wikitree.com/wiki/Glasgow-2878), whose memorial suggests birth around 1740, is now a possible adult identity at 45%; Peter’s selected parents are therefore James and Elizabath at 45%. Peter/Patrick can be a Scottish name variation, but there is no adult-household bridge. These are not two proved brothers; no merge, transferred spouse or changed birth date is selected.
+
 Current father assessment (1 November 2026): **95% (proved)** for [Glasgow-1238](https://www.wikitree.com/wiki/Glasgow-1238). Regraded from FamilySearch records read on 1 November 2026; see the review below. Other identity questions remain as qualified below.
 
 Patrick’s 1742 Stichill event follows the James/Tait marriage and agrees with the maintained adult family. The supplied child citation lacks literal parents; Margaret’s neighbouring 1740 record supports the family context. Named child to the specific adult family role represented by the selected father; independent earlier ancestry is outside this assessment.
@@ -38,3 +40,9 @@ Patrick Glasgow baptised 20 June 1742 at Stitchel, parents James Glasgow and Eli
 - [R_686742773](https://www.findmypast.co.uk/transcript?id=R_686742773&tab=this) — Matched documentary subject; adult parent identification and relationship grades unchanged.
 
 Next: inspect underlying originals where labels or family names conflict; a companion index does not by itself identify an adult or raise a relationship assessment.
+
+## Peter/Patrick comparison — 11 November 2026
+
+This remains the record-defined Patrick baptised 20 June 1742, with existing father 95% and mother 90% assessments unchanged. [Peter Glasgow of Whitebank](https://www.wikitree.com/wiki/Glasgow-2878), whose memorial suggests birth around 1740, is now a possible adult identity at 45%; Peter’s selected parents are therefore James and Elizabath at 45%. Peter/Patrick can be a Scottish name variation, but there is no adult-household bridge. These are not two proved brothers; no merge, transferred spouse or changed birth date is selected.
+
+Sources: [Ancestry 60143/12157281, Patrick Glasgow, baptism 20 June 1742, Stichill, parents James Glasgow and Elizabath Tait](https://www.ancestry.co.uk/search/collections/60143/records/12157281); [same-event Ancestry entry 25796551](https://www.ancestry.co.uk/search/collections/60143/records/25796551); [Findmypast R_690838710](https://www.findmypast.co.uk/transcript?id=R_690838710&tab=this) and [R_686742773](https://www.findmypast.co.uk/transcript?id=R_686742773&tab=this), same baptism; [shared memorial, Peter died 1812 aged 72](https://www.findagrave.com/memorial/198800998/peter_glasgow); [What’s in a Name, Peter: synonym Patrick, checked 11 November 2026](https://www.whatsinaname.net/male-names/Peter.html). The four baptism derivatives are one event, and the naming reference does not prove this personal identity. Original parish pages and stone were not newly inspected.

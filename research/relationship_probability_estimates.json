@@ -95026,7 +95026,7 @@
       "assessment_status": "uncertain",
       "assertion_id": "clm-d1-glasgow-2878-father-20261106",
       "basis": "Stitchill, Roxburghshire (b. c.1740): John Glasgow of Stitchill (b. c.1708, 32 years older) is the only man of the right age in the parish. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of Peter Glasgow (Glasgow-2878).",
-      "reviewed": "2026-11-06",
+      "reviewed": "2026-11-11",
       "source_ids": [
         "fmp-record-scot-opr-bap-4884249",
         "fmp-record-r-686575961",
@@ -95034,12 +95034,33 @@
         "held-e-7ca3729cc4ff",
         "ancestry-60143-13332541"
       ],
-      "scope": "None of the cited records (fmp-record-scot-opr-bap-4884249, fmp-record-r-686575961, fmp-record-r-692101975, held-e-7ca3729cc4ff, ancestry-60143-13332541) names John Glasgow as the father of Peter Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-1238 James (b.1712, Uphall; one Stichill record). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found.",
-      "working_selection": true,
-      "attachment_status": "attached",
+      "scope": "None of the cited records (fmp-record-scot-opr-bap-4884249, fmp-record-r-686575961, fmp-record-r-692101975, held-e-7ca3729cc4ff, ancestry-60143-13332541) names John Glasgow as the father of Peter Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-1238 James (b.1712, Uphall; one Stichill record). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found. Retained as an unselected alternative after the specific 1742 Patrick childhood comparison; no source disproves John.",
+      "working_selection": false,
+      "attachment_status": "alternative",
       "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
+      "lifecycle": "alternative",
+      "display": "alternative",
+      "previous_working_selection": {
+        "assertion_id": "clm-d1-glasgow-2878-father-20261106",
+        "assessment_revision": 1,
+        "basis": "Stitchill, Roxburghshire (b. c.1740): John Glasgow of Stitchill (b. c.1708, 32 years older) is the only man of the right age in the parish. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of Peter Glasgow (Glasgow-2878).",
+        "child": "Glasgow-2878",
+        "father": "Glasgow-1444",
+        "probability": {
+          "label": "Uncertain · 15%",
+          "value": 0.15
+        },
+        "publication_status": "approved",
+        "source_ids": [
+          "fmp-record-scot-opr-bap-4884249",
+          "fmp-record-r-686575961",
+          "fmp-record-r-692101975",
+          "held-e-7ca3729cc4ff",
+          "ancestry-60143-13332541"
+        ],
+        "status": "uncertain",
+        "working_selection": true
+      },
       "analysis_links": [
         {
           "href": "/people/glasgow-2878.html#research-findings",
@@ -95059,7 +95080,7 @@
       "assessment_status": "uncertain",
       "assertion_id": "clm-d1-glasgow-2878-father-20261106",
       "basis": "Stitchill, Roxburghshire (b. c.1740): John Glasgow of Stitchill (b. c.1708, 32 years older) is the only man of the right age in the parish. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of Peter Glasgow (Glasgow-2878).",
-      "reviewed": "2026-11-06",
+      "reviewed": "2026-11-11",
       "source_ids": [
         "fmp-record-scot-opr-bap-4884249",
         "fmp-record-r-686575961",
@@ -95067,12 +95088,33 @@
         "held-e-7ca3729cc4ff",
         "ancestry-60143-13332541"
       ],
-      "scope": "None of the cited records (fmp-record-scot-opr-bap-4884249, fmp-record-r-686575961, fmp-record-r-692101975, held-e-7ca3729cc4ff, ancestry-60143-13332541) names John Glasgow as the father of Peter Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-1238 James (b.1712, Uphall; one Stichill record). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found.",
-      "working_selection": true,
-      "attachment_status": "attached",
+      "scope": "None of the cited records (fmp-record-scot-opr-bap-4884249, fmp-record-r-686575961, fmp-record-r-692101975, held-e-7ca3729cc4ff, ancestry-60143-13332541) names John Glasgow as the father of Peter Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-1238 James (b.1712, Uphall; one Stichill record). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found. Retained as an unselected alternative after the specific 1742 Patrick childhood comparison; no source disproves John.",
+      "working_selection": false,
+      "attachment_status": "alternative",
       "allow_new_relationship": true,
-      "lifecycle": "current",
-      "display": "current",
+      "lifecycle": "alternative",
+      "display": "alternative",
+      "previous_working_selection": {
+        "assertion_id": "clm-d1-glasgow-2878-father-20261106",
+        "assessment_revision": 1,
+        "basis": "Stitchill, Roxburghshire (b. c.1740): John Glasgow of Stitchill (b. c.1708, 32 years older) is the only man of the right age in the parish. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of Peter Glasgow (Glasgow-2878).",
+        "child": "Glasgow-2878",
+        "father": "Glasgow-1444",
+        "probability": {
+          "label": "Uncertain · 15%",
+          "value": 0.15
+        },
+        "publication_status": "approved",
+        "source_ids": [
+          "fmp-record-scot-opr-bap-4884249",
+          "fmp-record-r-686575961",
+          "fmp-record-r-692101975",
+          "held-e-7ca3729cc4ff",
+          "ancestry-60143-13332541"
+        ],
+        "status": "uncertain",
+        "working_selection": true
+      },
       "analysis_links": [
         {
           "href": "/people/glasgow-2878.html#research-findings",
@@ -144098,6 +144140,166 @@
       "profile_names": {
         "Borland-1478": "Mary (Borland) Glasgow",
         "record-ancestry-glasgow-50d2a6072630": "Robert Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2878",
+      "relative_id": "Glasgow-1238",
+      "relationship": "father",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-stichill-peter-patrick-father-20261111",
+      "basis": "Prefer James Glasgow-1238 as Peter Glasgow-2878’s possible father at 45%, through the possible identification of Peter of Whitebank with Patrick Glasgow-1225, baptised 20 June 1742 at Stichill to James Glasgow and Elizabath Tait. Peter’s memorial age 72 in November 1812 suggests about 1740, close to this baptism; it is not proof of birth in 1742. Peter/Patrick are documented Scottish name alternatives, which opens the comparison but does not establish identity. This provides a specific recorded-child route rather than the former John-1444 place-and-age choice at 15%. No marriage, tenancy, occupation, signature or other adult household clause joins Patrick to Jean Anderson’s husband. The combined hypothesis remains possible, not probable.",
+      "reviewed": "2026-11-11",
+      "source_ids": [
+        "ancestry-60143-12157281",
+        "ancestry-60143-25796551",
+        "fmp-record-r-690838710",
+        "fmp-record-r-686742773",
+        "held-e-7ca3729cc4ff"
+      ],
+      "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "working_parent_replacement": {
+        "alternative_assertion_id": "clm-d1-glasgow-2878-father-20261106",
+        "previous_parent": "Glasgow-1444",
+        "previous_parent_source": "local_working_hypothesis",
+        "reason": "Prefer the specific 1742 child comparison over a place-and-age father; retain John at 15% as an alternative."
+      },
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2878.html#research-findings",
+          "label": "Possible Patrick childhood comparison"
+        },
+        {
+          "href": "/people/glasgow-1225.html#research-findings",
+          "label": "Record-defined 1742 Patrick"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1238": "James Glasgow",
+        "Glasgow-2878": "Peter Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-1238",
+      "relative_id": "Glasgow-2878",
+      "relationship": "child",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-stichill-peter-patrick-father-20261111",
+      "basis": "Prefer James Glasgow-1238 as Peter Glasgow-2878’s possible father at 45%, through the possible identification of Peter of Whitebank with Patrick Glasgow-1225, baptised 20 June 1742 at Stichill to James Glasgow and Elizabath Tait. Peter’s memorial age 72 in November 1812 suggests about 1740, close to this baptism; it is not proof of birth in 1742. Peter/Patrick are documented Scottish name alternatives, which opens the comparison but does not establish identity. This provides a specific recorded-child route rather than the former John-1444 place-and-age choice at 15%. No marriage, tenancy, occupation, signature or other adult household clause joins Patrick to Jean Anderson’s husband. The combined hypothesis remains possible, not probable.",
+      "reviewed": "2026-11-11",
+      "source_ids": [
+        "ancestry-60143-12157281",
+        "ancestry-60143-25796551",
+        "fmp-record-r-690838710",
+        "fmp-record-r-686742773",
+        "held-e-7ca3729cc4ff"
+      ],
+      "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "working_parent_replacement": {
+        "alternative_assertion_id": "clm-d1-glasgow-2878-father-20261106",
+        "previous_parent": "Glasgow-1444",
+        "previous_parent_source": "local_working_hypothesis",
+        "reason": "Prefer the specific 1742 child comparison over a place-and-age father; retain John at 15% as an alternative."
+      },
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2878.html#research-findings",
+          "label": "Possible Patrick childhood comparison"
+        },
+        {
+          "href": "/people/glasgow-1225.html#research-findings",
+          "label": "Record-defined 1742 Patrick"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-1238": "James Glasgow",
+        "Glasgow-2878": "Peter Glasgow"
+      }
+    },
+    {
+      "subject_id": "Glasgow-2878",
+      "relative_id": "Tait-2506",
+      "relationship": "mother",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-stichill-peter-patrick-mother-20261111",
+      "basis": "Prefer James Glasgow-1238 as Peter Glasgow-2878’s possible father at 45%, through the possible identification of Peter of Whitebank with Patrick Glasgow-1225, baptised 20 June 1742 at Stichill to James Glasgow and Elizabath Tait. Peter’s memorial age 72 in November 1812 suggests about 1740, close to this baptism; it is not proof of birth in 1742. Peter/Patrick are documented Scottish name alternatives, which opens the comparison but does not establish identity. This provides a specific recorded-child route rather than the former John-1444 place-and-age choice at 15%. No marriage, tenancy, occupation, signature or other adult household clause joins Patrick to Jean Anderson’s husband. The combined hypothesis remains possible, not probable. The indexed mother is Elizabath Tait; maternity is selected from her own literal role, not simply from her marriage to James.",
+      "reviewed": "2026-11-11",
+      "source_ids": [
+        "ancestry-60143-12157281",
+        "ancestry-60143-25796551",
+        "fmp-record-r-690838710",
+        "fmp-record-r-686742773",
+        "held-e-7ca3729cc4ff"
+      ],
+      "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2878.html#research-findings",
+          "label": "Possible Patrick childhood comparison"
+        },
+        {
+          "href": "/people/glasgow-1225.html#research-findings",
+          "label": "Record-defined 1742 Patrick"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2878": "Peter Glasgow",
+        "Tait-2506": "Elizabath Tait"
+      }
+    },
+    {
+      "subject_id": "Tait-2506",
+      "relative_id": "Glasgow-2878",
+      "relationship": "child",
+      "percent": 45,
+      "assessment_status": "possible",
+      "assertion_id": "clm-stichill-peter-patrick-mother-20261111",
+      "basis": "Prefer James Glasgow-1238 as Peter Glasgow-2878’s possible father at 45%, through the possible identification of Peter of Whitebank with Patrick Glasgow-1225, baptised 20 June 1742 at Stichill to James Glasgow and Elizabath Tait. Peter’s memorial age 72 in November 1812 suggests about 1740, close to this baptism; it is not proof of birth in 1742. Peter/Patrick are documented Scottish name alternatives, which opens the comparison but does not establish identity. This provides a specific recorded-child route rather than the former John-1444 place-and-age choice at 15%. No marriage, tenancy, occupation, signature or other adult household clause joins Patrick to Jean Anderson’s husband. The combined hypothesis remains possible, not probable. The indexed mother is Elizabath Tait; maternity is selected from her own literal role, not simply from her marriage to James.",
+      "reviewed": "2026-11-11",
+      "source_ids": [
+        "ancestry-60143-12157281",
+        "ancestry-60143-25796551",
+        "fmp-record-r-690838710",
+        "fmp-record-r-686742773",
+        "held-e-7ca3729cc4ff"
+      ],
+      "scope": "45% is a subjective comparative judgement for the whole parent-profile proposition, including the unproved Patrick-to-Peter identity. Baptism in 1742 does not establish a 1742 birth; delayed baptism or a two-year memorial-age error are possibilities, not established facts. The Scottish names reference is contextual, not a personal identity record. Original parish pages and stone were not newly inspected. The 1739 adult Peter in the court book is not identified with the later man, and its editorial Patrick index entry is not independent name or kinship proof. John-1444 remains an unselected 15% father alternative; an unrepresented Peter, another father or collateral relationship remain viable. No person merge, birth change or proved sibling relation is made.",
+      "working_selection": true,
+      "attachment_status": "attached",
+      "allow_new_relationship": true,
+      "lifecycle": "current",
+      "display": "current",
+      "analysis_links": [
+        {
+          "href": "/people/glasgow-2878.html#research-findings",
+          "label": "Possible Patrick childhood comparison"
+        },
+        {
+          "href": "/people/glasgow-1225.html#research-findings",
+          "label": "Record-defined 1742 Patrick"
+        }
+      ],
+      "profile_names": {
+        "Glasgow-2878": "Peter Glasgow",
+        "Tait-2506": "Elizabath Tait"
       }
     },
     {

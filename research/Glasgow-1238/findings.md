@@ -3,6 +3,8 @@
 
 ## Current conclusion
 
+**Peter/Patrick comparison — 11 November 2026:** [Peter Glasgow of Whitebank](https://www.wikitree.com/wiki/Glasgow-2878) is now a selected possible son at 45%, conditional on his being the Patrick baptised 20 June 1742. This is more specific than the former John-1444 place-and-age hypothesis, but lacks an adult household bridge. [Patrick-1225](https://www.wikitree.com/wiki/Glasgow-1225) remains the record-defined child with his existing parent grades; the two accounts may be one person, not two proved sons. No merge or new date is selected.
+
 Reviewed 30 October 2026: William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth Tait. Exact baptism and parental couple match Glasgow-1223 and held FamilySearch citation. No birthday or independent adult/childhood bridge; father 98% unchanged. Inspected provider derivative; original record/image uninspected. Companion entries are not independent witnesses. No new person, family attachment or relationship assessment change. Earlier search-only/deferred-field statements are superseded for these exact IDs; other holds and prior family assessments remain.
 
 
@@ -127,3 +129,9 @@ William baptised 4 August 1765 Swinton and Simprin, James Glasgow and Elizabeth 
 - [R_686574919](https://www.findmypast.co.uk/transcript?id=R_686574919) — Candidate named father James in existing Tait household; adult childhood linkage remains separate.
 
 Next: inspect originals and resolve the stated identity/date variants; two subscription holds remain. No new person or relationship change.
+
+## Peter/Patrick comparison — 11 November 2026
+
+[Peter Glasgow of Whitebank](https://www.wikitree.com/wiki/Glasgow-2878) is now a selected possible son at 45%, conditional on his being the Patrick baptised 20 June 1742. This is more specific than the former John-1444 place-and-age hypothesis, but lacks an adult household bridge. [Patrick-1225](https://www.wikitree.com/wiki/Glasgow-1225) remains the record-defined child with his existing parent grades; the two accounts may be one person, not two proved sons. No merge or new date is selected.
+
+Sources: [Ancestry 60143/12157281, Patrick Glasgow, baptism 20 June 1742, Stichill, parents James Glasgow and Elizabath Tait](https://www.ancestry.co.uk/search/collections/60143/records/12157281); [same-event Ancestry entry 25796551](https://www.ancestry.co.uk/search/collections/60143/records/25796551); [Findmypast R_690838710](https://www.findmypast.co.uk/transcript?id=R_690838710&tab=this) and [R_686742773](https://www.findmypast.co.uk/transcript?id=R_686742773&tab=this), same baptism; [shared memorial, Peter died 1812 aged 72](https://www.findagrave.com/memorial/198800998/peter_glasgow); [What’s in a Name, Peter: synonym Patrick, checked 11 November 2026](https://www.whatsinaname.net/male-names/Peter.html). The four baptism derivatives are one event, and the naming reference does not prove this personal identity. Original parish pages and stone were not newly inspected.

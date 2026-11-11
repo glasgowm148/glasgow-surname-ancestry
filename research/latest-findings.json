@@ -83358,6 +83358,90 @@
           "previous_status_provenance": "Public record-defined child account before 11 November 2026 had no selected parents; the source index wording was already held. New native assessment clm-polwarth-james1779-mother-20261111 revision 1."
         }
       ]
+    },
+    {
+      "id": "peter-whitebank-patrick-childhood-father-20261111",
+      "found_on": "2026-11-11",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-2878.html#research-findings",
+      "finding": "Peter Glasgow of Whitebank’s preferred father changes from John Glasgow-1444 at 15% uncertain to James Glasgow-1238 at 45% possible. The specific route is a possible identity with Patrick Glasgow, baptised at Stichill in 1742 to James and Elizabath Tait. Tait is separately selected as a possible mother at 45%.",
+      "significance": "Replaces a general place-and-age father hypothesis with a specific recorded-child comparison. The working branch was already connected: no new component, confidently connected branch, person merge or birth-date change is claimed.",
+      "qualification": "The memorial age suggests about 1740, while the candidate baptism is 20 June 1742. Name variation and a close age admit the comparison but do not establish identity; no adult spouse, holding, occupation or relative bridges the child to Jean Anderson’s husband. John remains an unselected 15% alternative. The existing Patrick child account is retained separately, not declared Peter’s brother. Held index and memorial evidence reassessed; no new original inspection.",
+      "people": [
+        {
+          "id": "Glasgow-2878",
+          "name": "Peter Glasgow of Whitebank",
+          "url": "/people/glasgow-2878.html",
+          "role": "Preferred father John 15% → James 45% possible"
+        },
+        {
+          "id": "Glasgow-1238",
+          "name": "James Glasgow",
+          "url": "/people/glasgow-1238.html",
+          "role": "Selected possible father, 45%"
+        },
+        {
+          "id": "Tait-2506",
+          "name": "Elizabath Tait",
+          "url": "https://www.wikitree.com/wiki/Tait-2506",
+          "role": "Selected possible mother, 45%"
+        },
+        {
+          "id": "Glasgow-1225",
+          "name": "Patrick Glasgow, baptised 1742",
+          "url": "/people/glasgow-1225.html",
+          "role": "Possible childhood identity; not merged"
+        },
+        {
+          "id": "Glasgow-1444",
+          "name": "John Glasgow",
+          "url": "/people/glasgow-1444.html",
+          "role": "Former selected father; retained 15% alternative"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Scotland Select Births and Baptisms, record 12157281: Patrick Glasgow, 20 June 1742, Stichill; James Glasgow and Elizabath Tait",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/12157281"
+        },
+        {
+          "title": "Findmypast R_690838710, same Stichill 1742 baptism; derivative transcript",
+          "url": "https://www.findmypast.co.uk/transcript?id=R_690838710&tab=this"
+        },
+        {
+          "title": "Peter Glasgow memorial 198800998, held reading: died 7 November 1812 aged 72, spouse Jean Anderson",
+          "url": "https://www.findagrave.com/memorial/198800998/peter_glasgow"
+        },
+        {
+          "title": "What’s in a Name, Peter/Patrick alternatives: general context, not personal identity proof",
+          "url": "https://www.whatsinaname.net/male-names/Peter.html"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2878",
+          "relative": "Glasgow-1238",
+          "previous_relative": "Glasgow-1444",
+          "before": "uncertain",
+          "after": "possible",
+          "previous_probability_percent": 15,
+          "probability_percent": 45,
+          "explanation": "The preferred father changes, rather than upgrading James from an earlier 15% assessment. The 1742 Patrick child offers a specific recorded family route; adult identity remains possible only.",
+          "previous_status_provenance": "Native clm-d1-glasgow-2878-father-20261106 revision 1, 6 November 2026 selected John-1444 at 15%; revision 2 retains him as an unselected alternative. New clm-stichill-peter-patrick-father-20261111 revision 1 selects James at 45%."
+        },
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-2878",
+          "relative": "Tait-2506",
+          "before": "unknown",
+          "after": "possible",
+          "probability_percent": 45,
+          "explanation": "The literal mother of the 1742 child is Elizabath Tait. Her maternity for the adult Peter depends on the same unproved childhood identity; it is not inferred solely from her marriage.",
+          "previous_status_provenance": "No mother selected in the public Peter account before 11 November 2026. New native clm-stichill-peter-patrick-mother-20261111 revision 1, 45% possible."
+        }
+      ]
     }
   ]
 }
