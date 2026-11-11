@@ -1,16 +1,27 @@
 {
   "case_id": "Glasgow-1657",
-  "findings": [],
+  "findings": [
+    {
+      "claim": "James Glasgow-1144 remains an unproved working father of John of Cross at 8% uncertain.",
+      "confidence": "high",
+      "reasoning": "The Newberry complaint and answer identify a documented son John; Mary’s 1822 will gives that son property-management and care duties. This favours a South Carolina household role but does not explicitly state his residence. The Cross/Bannside identity is unproved; reduce James-1144 father18% to8%. The Newberry John1756/Robert-oldest birth-order conflict remains separate and prevents a conclusive death-date exclusion.",
+      "sources": [
+        "held-e-6e5e1f129215",
+        "held-newberry-equity-family-1817",
+        "research/Glasgow-1146/findings.md"
+      ]
+    }
+  ],
   "objective": "Establish the identity and documented family of Glasgow-1657, separating sourced facts from tree assertions.",
   "questions": [
     {
-      "answer": "",
+      "answer": "The Cross/Broughshane death notice, Racavan memorial and PRONI’s Bannside-weaver account define this John. Identity with James-1144’s son in the Newberry papers remains unproved.",
       "id": "identity",
       "question": "Which records prove the subject's identity across events?",
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "The Newberry complaint and answer identify a documented son John; Mary’s 1822 will gives that son property-management and care duties. This favours a South Carolina household role but does not explicitly state his residence. The Cross/Bannside identity is unproved; reduce James-1144 father18% to8%. The Newberry John1756/Robert-oldest birth-order conflict remains separate and prevents a conclusive death-date exclusion. No mother is selected from this proposal.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
       "status": "open"
@@ -22,7 +33,7 @@
       "status": "open"
     },
     {
-      "answer": "",
+      "answer": "Newberry John-1146’s circa-1756 memorial age conflicts with Robert-1983’s oldest-son statement. His 1826 death and the Cross1836 death must not be used as a conclusive exclusion until their identities and age readings are reconciled.",
       "id": "conflicts",
       "question": "What conflicts or same-name conflations must be resolved?",
       "status": "open"
@@ -43,11 +54,11 @@
   "web_searches": [],
   "research_state": {
     "disposition": "awaiting_source",
-    "reviewed": "2026-10-24",
-    "last_test": "The23October Cross/Bannside review identified John as a weaver and kept Jean’s Drumack origin separate; the1858 Crawford/Doads payment trail names no grandfather.",
-    "next_test": "Locate the specific D2003 payment correspondence or an identifying earlier Bannside lease/kin record; another generic Antrim namesake does not select a father.",
-    "resume_when": "Locate the specific D2003 payment correspondence or an identifying earlier Bannside lease/kin record; another generic Antrim namesake does not select a father."
+    "reviewed": "2026-11-11",
+    "last_test": "The Newberry complaint and answer identify a documented son John; Mary’s 1822 will gives that son property-management and care duties. This favours a South Carolina household role but does not explicitly state his residence. The Cross/Bannside identity is unproved; reduce James-1144 father18% to8%. The Newberry John1756/Robert-oldest birth-order conflict remains separate and prevents a conclusive death-date exclusion.",
+    "next_test": "Inspect an original Newberry residence/kin statement or the D2003 family history/Bannside lease succession that distinguishes the Cross man from James’s documented son John.",
+    "resume_when": "Inspect an original Newberry residence/kin statement or the D2003 family history/Bannside lease succession that distinguishes the Cross man from James’s documented son John."
   },
-  "last_test": "The23October Cross/Bannside review identified John as a weaver and kept Jean’s Drumack origin separate; the1858 Crawford/Doads payment trail names no grandfather.",
-  "next_test": "Locate the specific D2003 payment correspondence or an identifying earlier Bannside lease/kin record; another generic Antrim namesake does not select a father."
+  "last_test": "The Newberry complaint and answer identify a documented son John; Mary’s 1822 will gives that son property-management and care duties. This favours a South Carolina household role but does not explicitly state his residence. The Cross/Bannside identity is unproved; reduce James-1144 father18% to8%. The Newberry John1756/Robert-oldest birth-order conflict remains separate and prevents a conclusive death-date exclusion.",
+  "next_test": "Inspect an original Newberry residence/kin statement or the D2003 family history/Bannside lease succession that distinguishes the Cross man from James’s documented son John."
 }

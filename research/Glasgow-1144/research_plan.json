@@ -45,6 +45,12 @@
       "id": "conflicts",
       "question": "What conflicts or same-name conflations must be resolved?",
       "status": "open"
+    },
+    {
+      "id": "death_year",
+      "question": "Does the original family pleading confirm James’s reported 1775 death, rather than a year inferred from 1793 probate?",
+      "status": "open",
+      "answer": "The archived complaint says James died in America in 1775; Robert’s 1817 answer accepts that he died as stated. They are related pleadings in one case. The will was proved 13 July 1793. Neither the original pleading nor probate packet was inspected in this review. Preserve the difference between reported 1775 death and the probate upper bound; do not present circa1793 as an established death year."
     }
   ],
   "schema_version": 1,

@@ -83235,6 +83235,63 @@
         }
       ],
       "detail_url": "/people/glasgow-1406.html#research-findings"
+    },
+    {
+      "id": "cross-kilwaughter-father-weakened-20261111",
+      "found_on": "2026-11-11",
+      "kind": "relationship",
+      "status": "qualified",
+      "significance": "Weakens the specific named-son argument for the Cross–Kilwaughter working connection.",
+      "detail_url": "/people/glasgow-1657.html#research-findings",
+      "finding": "John of Cross’s proposed father James Glasgow-1144 falls from 18% to 8% uncertain. James’s named son John belongs to the documented Newberry family account; Mary’s 1822 will gives her son John property-management and financial-provision duties, but no inspected record identifies him as the Bannside weaver.",
+      "qualification": "Reassessment of held transcriptions, not new original-record evidence. The Newberry son’s residence is implied rather than stated, and his memorial-derived birth conflicts with Robert’s oldest-son statement. The different death accounts therefore are not a conclusive exclusion. The working attachment is retained at a subjective 8%; no mother or descendant relationship changes.",
+      "people": [
+        {
+          "id": "Glasgow-1657",
+          "name": "John Glasgow of Cross",
+          "url": "/people/glasgow-1657.html",
+          "role": "Father confidence 18% → 8%"
+        },
+        {
+          "id": "Glasgow-1144",
+          "name": "James Glasgow of Kilwaughter and Newberry",
+          "url": "/people/glasgow-1144.html",
+          "role": "Unproved father candidate"
+        },
+        {
+          "id": "Glasgow-1146",
+          "name": "John Glasgow of the Newberry family",
+          "url": "/people/glasgow-1146.html",
+          "role": "Documented son-role; Cross identity unproved"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mary Glasgow, Newberry will, 5 April 1822, proved 14 October 1822, Will Book H pp. 489–490, box 43, package 96, estate 1043; transcription",
+          "url": "https://web.archive.org/web/20101104164512id_/http://lifesweaving.com/Glasgow/Paper_MaryWill.html"
+        },
+        {
+          "title": "Newberry Glasgow family equity complaint, held with the 1817 papers; transcription",
+          "url": "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Complaint.html"
+        },
+        {
+          "title": "Robert Glasgow’s sworn answer, 2 June 1817; transcription",
+          "url": "https://web.archive.org/web/20101124184247id_/http://www.lifesweaving.com/Glasgow/Paper_Reply.html"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-1657",
+          "relative": "Glasgow-1144",
+          "before": "uncertain",
+          "after": "uncertain",
+          "previous_probability_percent": 18,
+          "probability_percent": 8,
+          "explanation": "The named son John is not an established Cross identity match; the Newberry family papers weaken the proposed bridge.",
+          "previous_status_provenance": "Native claim clm-d1-glasgow-1657-father-20261106, assessment revision 1, 6 November 2026, 18% uncertain; revision 2, 11 November 2026, 8% uncertain."
+        }
+      ]
     }
   ]
 }

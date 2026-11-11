@@ -164926,36 +164926,50 @@
       "cross-john-rachel-marriage-1865",
       "cross-john-death-notice-1836",
       "cross-john-valuation-1862",
-      "deed-ballykeel-159661-1764"
+      "deed-ballykeel-159661-1764",
+      "held-e-6e5e1f129215",
+      "held-newberry-equity-family-1817",
+      "held-e-5cd43f2441a4"
     ],
     "provenance": {
       "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-11-06",
       "prior_assessment": {
         "relationship": "father",
         "relative_id": "Glasgow-1144",
         "source_basis": "Before 6 November 2026 this person had no father attached in the catalogue and no father claim; none is invented. This is a new tentative place-and-age link (D1 round 3).",
         "status": "unmarked"
       },
-      "review_kind": "father_tentative_link_d1_r3",
+      "review_kind": "cross_newberry_son_identity_comparison",
       "source_newly_discovered": false
     },
     "status": "uncertain",
-    "assessment_date": "2026-11-06",
-    "basis": "John of Ballyclug, Co. Antrim (b. c.1766): his son was James McClure Glasgow; James Glasgow of Kilwaughter, Co. Antrim (b. c.1731, 35 years older) is the Antrim man of the right age with a son John and the first-name James pattern. This is a tentative place-and-age inference at 18% (uncertain): no record held names the father of John Glasgow (Glasgow-1657).",
-    "assessment_history": [],
-    "reason": "John of Ballyclug, Co. Antrim (b. c.1766): his son was James McClure Glasgow; James Glasgow of Kilwaughter, Co. Antrim (b. c.1731, 35 years older) is the Antrim man of the right age with a son John and the first-name James pattern. This is a tentative place-and-age inference at 18% (uncertain): no record held names the father of John Glasgow (Glasgow-1657).",
-    "limitations": "None of the cited records (cross-john-rachel-marriage-1865, cross-john-death-notice-1836, cross-john-valuation-1862, deed-ballykeel-159661-1764) names James Glasgow as the father of John Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-1509 James (b.1737); Glasgow-4179. Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found.",
+    "assessment_date": "2026-11-11",
+    "basis": "The 18% proposal treated James Glasgow-1144’s named son John as positive support for John of Cross. The held South Carolina transcriptions identify a separate documented son-role: the 1817 complaint names John among James and Mary’s children, Robert’s sworn answer calls himself James’s oldest son, and Mary’s 5 April 1822 Newberry will puts her son John in charge of her property and care during her life. These records favour a John active in that South Carolina household; they do not identify the Bannside weaver married to Jean McClure. The current Newberry family account represents that son as Glasgow-1146. Its gravestone-derived circa-1756 birth conflicts with Robert’s oldest-son statement and must not be used as a conclusive exclusion of the Cross man. Reassess the complete Cross-to-James father hypothesis at 8% uncertain: compatible generation and broad Antrim origin remain, but the named-son match is not an established bridge. Keep the tentative working attachment for testing; no existing person is detached.",
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 18,
+        "assessment_date": "2026-11-06",
+        "source_basis": "John of Ballyclug, Co. Antrim (b. c.1766): his son was James McClure Glasgow; James Glasgow of Kilwaughter, Co. Antrim (b. c.1731, 35 years older) is the Antrim man of the right age with a son John and the first-name James pattern. This is a tentative place-and-age inference at 18% (uncertain): no record held names the father of John Glasgow (Glasgow-1657)."
+      }
+    ],
+    "reason": "The 18% proposal treated James Glasgow-1144’s named son John as positive support for John of Cross. The held South Carolina transcriptions identify a separate documented son-role: the 1817 complaint names John among James and Mary’s children, Robert’s sworn answer calls himself James’s oldest son, and Mary’s 5 April 1822 Newberry will puts her son John in charge of her property and care during her life. These records favour a John active in that South Carolina household; they do not identify the Bannside weaver married to Jean McClure. The current Newberry family account represents that son as Glasgow-1146. Its gravestone-derived circa-1756 birth conflicts with Robert’s oldest-son statement and must not be used as a conclusive exclusion of the Cross man. Reassess the complete Cross-to-James father hypothesis at 8% uncertain: compatible generation and broad Antrim origin remain, but the named-son match is not an established bridge. Keep the tentative working attachment for testing; no existing person is detached.",
+    "limitations": "8% is a subjective comparative assessment, not a calibrated probability. Transcriptions inspected, not the original wills, complaint, answer or memorial. Mary’s direction implies practical care but does not explicitly state John’s residence; an absent manager or return migration remains possible. No record calls the Cross John James’s son. The 1756/1762 birth-order conflict in the Newberry family remains open; this review neither resolves it nor changes John-1146’s recorded father assessment. A second living son John is possible but unsupported. James-1509, John-4179 and other fathers remain comparisons, without a new selection. The diary keyword pass found no relevant earlier kin clause and is not an exhaustive search of D2003.",
     "probability": {
-      "value": 0.18,
-      "reviewed": "2026-11-06",
-      "basis": "John of Ballyclug, Co. Antrim (b. c.1766): his son was James McClure Glasgow; James Glasgow of Kilwaughter, Co. Antrim (b. c.1731, 35 years older) is the Antrim man of the right age with a son John and the first-name James pattern. This is a tentative place-and-age inference at 18% (uncertain): no record held names the father of John Glasgow (Glasgow-1657).",
+      "value": 0.08,
+      "reviewed": "2026-11-11",
+      "basis": "The 18% proposal treated James Glasgow-1144’s named son John as positive support for John of Cross. The held South Carolina transcriptions identify a separate documented son-role: the 1817 complaint names John among James and Mary’s children, Robert’s sworn answer calls himself James’s oldest son, and Mary’s 5 April 1822 Newberry will puts her son John in charge of her property and care during her life. These records favour a John active in that South Carolina household; they do not identify the Bannside weaver married to Jean McClure. The current Newberry family account represents that son as Glasgow-1146. Its gravestone-derived circa-1756 birth conflicts with Robert’s oldest-son statement and must not be used as a conclusive exclusion of the Cross man. Reassess the complete Cross-to-James father hypothesis at 8% uncertain: compatible generation and broad Antrim origin remain, but the named-son match is not an established bridge. Keep the tentative working attachment for testing; no existing person is detached.",
       "source_ids": [
         "cross-john-rachel-marriage-1865",
         "cross-john-death-notice-1836",
         "cross-john-valuation-1862",
-        "deed-ballykeel-159661-1764"
+        "deed-ballykeel-159661-1764",
+        "held-e-6e5e1f129215",
+        "held-newberry-equity-family-1817",
+        "held-e-5cd43f2441a4"
       ],
-      "scope": "None of the cited records (cross-john-rachel-marriage-1865, cross-john-death-notice-1836, cross-john-valuation-1862, deed-ballykeel-159661-1764) names James Glasgow as the father of John Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-1509 James (b.1737); Glasgow-4179. Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found."
+      "scope": "8% is a subjective comparative assessment, not a calibrated probability. Transcriptions inspected, not the original wills, complaint, answer or memorial. Mary’s direction implies practical care but does not explicitly state John’s residence; an absent manager or return migration remains possible. No record calls the Cross John James’s son. The 1756/1762 birth-order conflict in the Newberry family remains open; this review neither resolves it nor changes John-1146’s recorded father assessment. A second living son John is possible but unsupported. James-1509, John-4179 and other fathers remain comparisons, without a new selection. The diary keyword pass found no relevant earlier kin clause and is not an exhaustive search of D2003."
     },
     "working_selection": true,
     "attachment_status": "attached",

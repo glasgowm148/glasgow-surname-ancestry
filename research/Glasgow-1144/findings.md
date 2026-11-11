@@ -228,7 +228,7 @@ James Glasgow and Andrew Doyle, styled chairmen, are named among persons examine
 <!-- larne-kilwaughter-audit-2026-10-06:vitals -->
 ## Recommended correction — death date and children's birthplaces, 6 October 2026
 
-**Death: before 13 July 1793**, when his will, dated 17 October 1775, was proved (Newberry, Will Book A, p. 194; known through a derivative transcription). No death date is recorded; the present "about 1793" should read "before 13 July 1793".
+**Death: before 13 July 1793**, when his will, dated 17 October 1775, was proved (Newberry, Will Book A, p. 194; known through a derivative transcription). That October proposal used the probate bound alone; the 1817 family pleading’s reported death year is addressed in the later comparison below. The proposed "before 13 July 1793" bound remains distinct from an established death year.
 
 **Children's birthplaces.** WikiTree gives Margaret (Glasgow-3977, born 1773) and Rachel (Glasgow-3978, born 1775) a County Antrim birthplace, marked uncertain. James is reported to have emigrated in late 1772 or 1773 and is recorded in South Carolina on 16 November 1774 (derivative chronology), so those birthplaces are unsupported and conflict with that chronology. They are the origin of the mistaken statement, now corrected in the newspaper notes above, that his children were still being born in County Antrim to 1775. Archibald (Glasgow-2304, born 1768/9) has the opposite problem: a South Carolina birthplace before the family emigrated.
 
@@ -286,3 +286,9 @@ James Glasgow and Andrew Doyle, styled chairmen, are named among persons examine
 
 This may concern [Glasgow-1144](https://www.wikitree.com/wiki/Glasgow-1144). Adult lifespan compatible; no London connection to the South Carolina family. The approximate death is not a precise boundary.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Cross comparison — 11 November 2026
+
+[John Glasgow of Cross and Bannside](https://www.wikitree.com/wiki/Glasgow-1657) remains a separate unproved identification with the son John in the Newberry family papers. His proposed James-1144 father is reduced from 18% to 8% uncertain after reading the 1817 complaint and answer and Mary’s 1822 will. That will gives her son John property-management and financial-provision duties; it does not expressly state his residence. The Newberry John’s circa-1756 memorial age conflicts with Robert’s oldest-son statement, so the 1826/1836 death accounts are not treated as a conclusive exclusion. No father assessment within this established Newberry family changes. [Full comparison](/people/glasgow-1657.html#research-findings).
+
+The 1817 complaint expressly says James died in America in **1775**, and Robert’s answer accepts that he died as stated. This contradicts the earlier note that no death year was recorded. It is reported death-year evidence in copied pleadings from one case, not two independent death records. The current circa-1793 field is an estimate and may reflect the probate date; the underlying death year remains open pending the original pleading and estate packet. The already proposed probate upper bound remains compatible with either interpretation.
