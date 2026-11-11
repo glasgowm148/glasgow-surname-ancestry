@@ -17,3 +17,4 @@ class SelectedDossierTests(unittest.TestCase):
         self.assertEqual(['fable-1'], [row['catalogue_id'] for row in index])
         relation = dossiers['fable-1']['relationships']['parents'][0]
         self.assertEqual(('Rowan Fable', '/people/fable-2.json'), (relation['name'], relation['json_url']))
+        self.assertEqual(index[0], machine.build_compact_person_index(child, dossiers['fable-1']))

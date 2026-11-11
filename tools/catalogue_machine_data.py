@@ -862,72 +862,79 @@ def build_machine_models(public_people: list[dict], *, catalogue_ids=None) -> tu
                            "relationship_assessments": "Controlled local relationship hypothesis register"},
         }
         dossiers[slug] = dossier
-        father_ids = [item.get("id") for item in dossier["relationships"]["parents"] if item["relationship"] == "father" and item.get("id")]
-        mother_ids = [item.get("id") for item in dossier["relationships"]["parents"] if item["relationship"] == "mother" and item.get("id")]
-        dated_records = []
-        for record in person.get("records", []):
-            record_year = record.get("filter_year")
-            if not isinstance(record_year, (int, float)) or not record.get("record_location"):
-                continue
-            dated_records.append({
-                "year": round(record_year),
-                "location": record.get("record_location"),
-                "association": record.get("association") or record.get("note") or "mapped occurrence",
-                "status": _canonical_status(record.get("evidence", "")),
-                "latitude": record.get("latitude"), "longitude": record.get("longitude"),
-                "precision": record.get("record_precision"),
-                "source_quality": _source_quality(
-                    record.get("source_title", ""),
-                    f'{record.get("source_type", "")} {record.get("source_status", "")}',
-                ),
-            })
-        compact_index.append({
-            "schema_version": SCHEMA_VERSION, "id": person_id,
-            "alternate_ids": dossier["alternate_ids"], "catalogue_id": slug, "name": person["name"],
-            "gender": person.get("gender") or None,
-            "birth_surnames": person.get("last_names_at_birth", []),
-            "research_clusters": person.get("clusters", []),
-            "birth_year": _year(person.get("birth", "")), "death_year": _year(person.get("death", "")),
-            "_birth_expression": person.get("birth", ""),
-            "birth_status": dossier["vitals"]["birth"].get("status"),
-            "death_status": dossier["vitals"]["death"].get("status"),
-            "birth_place": person.get("birth_location") or None, "death_place": person.get("death_location") or None,
-            "locations": locations, "father_id": father_ids[0] if father_ids else None,
-            "mother_id": mother_ids[0] if mother_ids else None,
-            "parent_ids": _unique(item.get("id") for item in dossier["relationships"]["parents"]),
-            "parent_names": _unique(item.get("name") for item in dossier["relationships"]["parents"]),
-            "_parent_links": [{
-                key: item.get(key) for key in (
-                    "id", "name", "relationship", "status", "status_label", "tree_status", "tree_status_label"
-                )
-            } for item in dossier["relationships"]["parents"] if item.get("id") or item.get("name")],
-            "spouse_ids": _unique(item.get("id") for item in dossier["relationships"]["spouses"]),
-            "spouse_names": _unique(item.get("name") for item in dossier["relationships"]["spouses"]),
-            "_spouse_links": [{
-                key: item.get(key) for key in ("id", "name", "status", "status_label", "tree_status", "tree_status_label")
-            } for item in dossier["relationships"]["spouses"] if item.get("id") or item.get("name")],
-            "child_ids": _unique(item.get("id") for item in dossier["relationships"]["children"]),
-            # Keep names parallel with child_ids; repeated given names can be genealogically significant.
-            "child_names": [item.get("name") for item in dossier["relationships"]["children"] if item.get("id")],
-            "_child_links": [{
-                key: item.get(key) for key in ("id", "name", "status", "status_label", "tree_status", "tree_status_label")
-            } for item in dossier["relationships"]["children"] if item.get("id") or item.get("name")],
-            # Internal build field removed before the compact public index is written.
-            "_sibling_ids": [item.get("id") for item in dossier["relationships"]["siblings"] if item.get("id")],
-            "_sibling_links": [{
-                key: item.get(key) for key in (
-                    "id", "name", "status", "status_label", "tree_status", "tree_status_label",
-                    "tree_relationship", "relationship_source",
-                )
-            } for item in dossier["relationships"]["siblings"] if item.get("id") or item.get("name")],
-            "_dated_records": dated_records,
-            "sibling_names": [item.get("name") for item in dossier["relationships"]["siblings"] if item.get("id")],
-            "occupations": dossier["identity"]["occupations"],
-            **_profile_assessment_flags(person),
-            "html_url": f"/people/{slug}.html", "json_url": f"/people/{slug}.json",
-            "network_url": f"/people/{slug}.network.json",
-        })
+        compact_index.append(build_compact_person_index(person, dossier))
     return dossiers, compact_index
+
+
+def build_compact_person_index(person: dict, dossier: dict) -> dict:
+    """Rebuild a resolver row from a current dossier without rebuilding its evidence."""
+    person_id, slug = dossier["id"], dossier["catalogue_id"]
+    locations = dossier["identity"]["locations"]
+    father_ids = [item.get("id") for item in dossier["relationships"]["parents"] if item["relationship"] == "father" and item.get("id")]
+    mother_ids = [item.get("id") for item in dossier["relationships"]["parents"] if item["relationship"] == "mother" and item.get("id")]
+    dated_records = []
+    for record in person.get("records", []):
+        record_year = record.get("filter_year")
+        if not isinstance(record_year, (int, float)) or not record.get("record_location"):
+            continue
+        dated_records.append({
+            "year": round(record_year),
+            "location": record.get("record_location"),
+            "association": record.get("association") or record.get("note") or "mapped occurrence",
+            "status": _canonical_status(record.get("evidence", "")),
+            "latitude": record.get("latitude"), "longitude": record.get("longitude"),
+            "precision": record.get("record_precision"),
+            "source_quality": _source_quality(
+                record.get("source_title", ""),
+                f'{record.get("source_type", "")} {record.get("source_status", "")}',
+            ),
+        })
+    return {
+        "schema_version": SCHEMA_VERSION, "id": person_id,
+        "alternate_ids": dossier["alternate_ids"], "catalogue_id": slug, "name": person["name"],
+        "gender": person.get("gender") or None,
+        "birth_surnames": person.get("last_names_at_birth", []),
+        "research_clusters": person.get("clusters", []),
+        "birth_year": _year(person.get("birth", "")), "death_year": _year(person.get("death", "")),
+        "_birth_expression": person.get("birth", ""),
+        "birth_status": dossier["vitals"]["birth"].get("status"),
+        "death_status": dossier["vitals"]["death"].get("status"),
+        "birth_place": person.get("birth_location") or None, "death_place": person.get("death_location") or None,
+        "locations": locations, "father_id": father_ids[0] if father_ids else None,
+        "mother_id": mother_ids[0] if mother_ids else None,
+        "parent_ids": _unique(item.get("id") for item in dossier["relationships"]["parents"]),
+        "parent_names": _unique(item.get("name") for item in dossier["relationships"]["parents"]),
+        "_parent_links": [{
+            key: item.get(key) for key in (
+                "id", "name", "relationship", "status", "status_label", "tree_status", "tree_status_label"
+            )
+        } for item in dossier["relationships"]["parents"] if item.get("id") or item.get("name")],
+        "spouse_ids": _unique(item.get("id") for item in dossier["relationships"]["spouses"]),
+        "spouse_names": _unique(item.get("name") for item in dossier["relationships"]["spouses"]),
+        "_spouse_links": [{
+            key: item.get(key) for key in ("id", "name", "status", "status_label", "tree_status", "tree_status_label")
+        } for item in dossier["relationships"]["spouses"] if item.get("id") or item.get("name")],
+        "child_ids": _unique(item.get("id") for item in dossier["relationships"]["children"]),
+        # Keep names parallel with child_ids; repeated given names can be genealogically significant.
+        "child_names": [item.get("name") for item in dossier["relationships"]["children"] if item.get("id")],
+        "_child_links": [{
+            key: item.get(key) for key in ("id", "name", "status", "status_label", "tree_status", "tree_status_label")
+        } for item in dossier["relationships"]["children"] if item.get("id") or item.get("name")],
+        # Internal build field removed before the compact public index is written.
+        "_sibling_ids": [item.get("id") for item in dossier["relationships"]["siblings"] if item.get("id")],
+        "_sibling_links": [{
+            key: item.get(key) for key in (
+                "id", "name", "status", "status_label", "tree_status", "tree_status_label",
+                "tree_relationship", "relationship_source",
+            )
+        } for item in dossier["relationships"]["siblings"] if item.get("id") or item.get("name")],
+        "_dated_records": dated_records,
+        "sibling_names": [item.get("name") for item in dossier["relationships"]["siblings"] if item.get("id")],
+        "occupations": dossier["identity"]["occupations"],
+        **_profile_assessment_flags(person),
+        "html_url": f"/people/{slug}.html", "json_url": f"/people/{slug}.json",
+        "network_url": f"/people/{slug}.network.json",
+    }
 
 
 def build_network(dossier: dict, dossiers_by_id: dict[str, dict]) -> dict:
