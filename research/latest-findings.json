@@ -83183,6 +83183,57 @@
         "research/Glasgow-1406/findings.md",
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "irvine-michael-mother-premise-correction-20261111",
+      "found_on": "2026-11-11",
+      "kind": "correction",
+      "status": "qualified",
+      "finding": "Michael Glasgow’s proposed mother Margaret Donald is reassessed from 43% possible to 15% uncertain. The earlier rating mistook the 1679 adult skinner occurrence for Michael’s birth and treated the 23% Robert father hypothesis as established. The Ayr Robert/Margaret household remains a tentative family identification.",
+      "qualification": "Reinterpretation of held index/transcript evidence, not a new original record. No mother clause names Michael, no person is detached, and the father remains 23% uncertain. The percentages are subjective assessments.",
+      "people": [
+        {
+          "id": "Glasgow-1406",
+          "name": "Michael Glasgow",
+          "role": "Irvine skinner and saddler; proposed child",
+          "url": "/people/glasgow-1406.html"
+        },
+        {
+          "id": "Donald-1722",
+          "name": "Margaret Donald",
+          "role": "Tentative mother, 15% uncertain",
+          "url": "/people/donald-1722.html"
+        },
+        {
+          "id": "Glasgow-1512",
+          "name": "Robert Glasgow",
+          "role": "Unchanged father hypothesis, 23% uncertain",
+          "url": "/people/glasgow-1512.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Findmypast, Scottish Covenanters: Michael Glasgow, Irvine skinner, September 1679, JC10/19",
+          "url": "https://www.findmypast.co.uk/transcript?id=GBPR%2FCOVENANT%2F028557&tab=this"
+        },
+        {
+          "title": "FamilySearch, Scotland Births and Baptisms: Robert Glasgow, Ayr, June 1670, parents Robert Glasgow and Margaret Donald",
+          "url": "https://familysearch.org/ark:/61903/1:1:XY8Z-L28"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "mother",
+          "subject": "Glasgow-1406",
+          "relative": "Donald-1722",
+          "before": "possible",
+          "after": "uncertain",
+          "before_percent": 43,
+          "after_percent": 15,
+          "explanation": "Corrected the false 1679 birth premise and the assumption that Robert was an established father.",
+          "previous_status_provenance": "Native claim clm-c2-glasgow-1406-mother-20261106 assessment revision 1, 6 November 2026, 43% possible; superseded by revision 2 on 11 November."
+        }
+      ]
     }
   ]
 }

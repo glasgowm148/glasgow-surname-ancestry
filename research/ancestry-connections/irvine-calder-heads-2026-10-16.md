@@ -1,6 +1,6 @@
 # Michael of Irvine and James of Kirknewton: two working fathers
 
-Reviewed: 2026-10-16
+Reviewed: 2026-10-16; current Irvine qualification added 2026-11-11
 
 Select Robert Glasgow-1512 as Michael Glasgow-1406’s uncertain working father. This activates a parent comparison already recorded in Michael’s profile. Robert is a record-defined Ayr father with Margaret Donald in 1670 and 1671; Michael is recorded as an Irvine skinner in 1679 and is already treated locally as the later saddler/councillor. Robert’s before 1652 birth is an upper-bound estimate from his later children, not evidence that he was born in 1652. Michael’s before 1679 boundary likewise does not date his birth. An older Robert and a Michael born well before the summons could fit a father/son generation; their ages are not recorded. The regional family setting and existing candidate justify a very low-confidence working choice. No record names Michael’s father, and no shared occupation, holding, witness or household identifies this Robert as his parent.
 
@@ -13,3 +13,7 @@ John-3525’s earlier biography links its father to James Glasgow-1547, whereas 
 Both are selected uncertain local father models using existing material. Neither adult receives a mother. No original newly inspected, source-record discovery, identity merge, live WikiTree edit or confidence upgrade is claimed. Existing dates, places and attached relatives are retained; connectivity counts profile accounts, including possible duplicates and older uncertain links.
 
 Public comparison: /branches/early-scottish-records/#irvine-calder-heads
+
+## Current Irvine qualification — 11 November 2026
+
+The duplicate Michael/Katharin Baird documentary accounts are consolidated into Glasgow-1406. Robert Glasgow-1512 remains 23% uncertain father. The later Margaret Donald-1722 mother proposal is reduced from 43% possible to 15% uncertain: the older reasoning mistook the 1679 adult skinner occurrence for a birth and treated Robert as established. Neither the Ayr couple’s child indexes nor Michael’s later household identifies his parents. These are separate uncertain hypotheses, not a new proved branch. See [Michael’s full findings](../Glasgow-1406/findings.md) for the records and retained alternatives.

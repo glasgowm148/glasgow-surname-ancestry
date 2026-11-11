@@ -4,7 +4,7 @@
     {
       "claim": "No reviewed record names Michael Glasgow’s parents. Robert Glasgow-1512 is retained as a selected uncertain working father at 23%, not as proved parentage.",
       "confidence": "high",
-      "reasoning": "The July instruction not to attach Robert was superseded by the qualified working selection of 16 October 2026. The current father assessment remains 23%: the Ayr Robert/Margaret Donald household and the Irvine Michael household have no parent-identifying bridge. The 1679 summons records an adult skinner; it is not Michael’s birth event. The separate 43% Margaret Donald mother hypothesis recorded on 6 November must not be treated as proof that Robert is Michael’s known father or that Michael was born in 1679.",
+      "reasoning": "The July instruction not to attach Robert was superseded by the qualified working selection of 16 October 2026. The current father assessment remains 23%: the Ayr Robert/Margaret Donald household and the Irvine Michael household have no parent-identifying bridge. The 1679 summons records an adult skinner; it is not Michael’s birth event. The separate Margaret Donald mother hypothesis was reduced from 43% possible to 15% uncertain on 11 November after correcting those false premises; the current father remains 23%.",
       "sources": [
         "captures/20260716T204652Z_Glasgow-1406.json",
         "captures/20260716T205030Z_Glasgow-1512.json"
@@ -37,7 +37,7 @@
       "status": "answered"
     },
     {
-      "answer": "Unresolved. Robert Glasgow-1512 remains the selected working father at 23%, with no newly inspected father clause. Margaret Donald-1722 has a separate 43% mother hypothesis, not a record-proved maternity; its reasoning uses 1679 as a birth year although that is an adult summons date. Preserve the hypotheses and their histories while checking those premises. Duplicate Michael/Katharine household accounts were reconciled on 11 November 2026. Next inspect the actual Irvine admission/guild or trades text for a father, master, residence or property bridge. Relevant archive references are Gr1/7/1, Gr1/5/1, Gr1/1/5-6 (NRS B37/12/4-5), and Gr1/23/3. Published council appearances and catalogue descriptions have already been checked and do not name a parent.",
+      "answer": "Unresolved. Robert Glasgow-1512 remains the selected working father at 23%. Margaret Donald-1722 remains a tentative mother at 15% uncertain, reduced from 43% on 11 November because the older reasoning mistook the 1679 adult skinner occurrence for a birth and treated Robert as established. Neither the Ayr household records nor Michael’s later marriage/children names his parents. Inspect actual Irvine admission/guild or trades text for a father, master, residence or property bridge: Gr1/7/1, Gr1/5/1, Gr1/1/5-6 (NRS B37/12/4-5), Gr1/23/3. Published council appearances and catalogue descriptions have already been checked and do not name a parent.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
       "status": "open"
