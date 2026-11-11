@@ -11,6 +11,8 @@ description: Research historical WikiTree people, assess exact father–child co
 
 ## Working in this project (read first)
 
+- FamilySearch parent-parity batches (owner correction, 11 November 2026): prioritise supported missing or replacement parent links and the people needed to connect them. Do not delay the requested parent batch for minor vital-date differences, source wording or biography polishing. Delegate independent local parent comparisons when requested, while retaining one sequential browser owner; distinguish saved-report matches from fresh live verification. Preserve identity holds and assess mothers independently.
+
 - **Source citations and notes (owner correction, 5 November 2026).** When adding a source, including on FamilySearch, cite the provider, collection, record reference or direct provider link, and the relevant person, date and place. Leave out the research catalogue name and URL. Write notes in plain language about what the record says. Name the source type (for example, “index entry”) and include a specific evidence limitation only where it affects the interpretation. Leave out process commentary about who read or re-read a source and phrases such as “cited second hand from the research catalogue.”
 
 **Where research is saved.** The research database `data/private/workbench/glasgow.sqlite` is the authority. Record changes through the workbench, never by editing the generated files:
