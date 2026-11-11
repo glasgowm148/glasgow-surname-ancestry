@@ -425,6 +425,31 @@ class T(unittest.TestCase):
         self.assertEqual(summarize(nodes, edges, 1650)['individual_confidence']['mean_percent'], 86)
         self.assertEqual(summarize(nodes, edges, 1650)['component_count'], 1)
 
+    def test_retired_merged_estimates_do_not_hide_current_rating(self):
+        self.add('A', 1600, extra={'relationships': {'parents': [dict(
+            id='F', relationship='father', status='uncertain',
+            assertion_id='current-claim', working_selection=True,
+            publication_status='approved')]}})
+        self.add('F', 1570)
+        assets = self.t / 'assets/research'
+        assets.mkdir(parents=True)
+        current = dict(subject_id='A', relative_id='F', relationship='father',
+                       percent=23, assessment_status='uncertain',
+                       basis='Current assessment', assertion_id='current-claim')
+        for retired in [dict(display='historical'), dict(display='alternative'),
+                        dict(display='superseded'), dict(lifecycle='superseded'),
+                        dict(publication_status='withheld')]:
+            with self.subTest(retired=retired):
+                old = dict(current, percent=12, assertion_id='merged-claim', **retired)
+                (assets / 'relationship-probabilities.json').write_text(
+                    json.dumps({'estimates': [current, old]}))
+                nodes, edges, _ = self.finish()
+                self.assertEqual(edges[0]['confidence_percent'], 23)
+                retained = []
+                load_public_nodes(self.t, {'example'}, retained_fathers=retained)
+                self.assertEqual(retained[0]['confidence_percent'], 23)
+                self.assertEqual(summarize(nodes, edges, 1650)['edge_count'], 1)
+
     def test_confidence_excludes_cycles_future_ancestors_and_unrated_edges(self):
         self.add('A', 1600)
         self.add('B', 1580)

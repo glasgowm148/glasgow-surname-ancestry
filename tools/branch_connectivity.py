@@ -306,7 +306,12 @@ def load_public_nodes(site_root: Path, variants: set[str], *, retained_fathers: 
     estimates = {}
     if estimate_path.exists():
         for estimate in json.loads(estimate_path.read_text()).get('estimates', []):
-            if estimate.get('relationship') == 'father':
+            # Merges retain retired estimates under the surviving pair's IDs.
+            # They must not replace that pair's current assessment below.
+            if (estimate.get('relationship') == 'father'
+                    and estimate.get('lifecycle') in (None, 'current')
+                    and estimate.get('display') not in {'alternative', 'historical', 'superseded'}
+                    and estimate.get('publication_status') not in {'withheld', 'blocked', 'rejected'}):
                 child = aliases.get(estimate['subject_id'], estimate['subject_id'])
                 father = aliases.get(estimate['relative_id'], estimate['relative_id'])
                 estimates[(child, father)] = estimate
