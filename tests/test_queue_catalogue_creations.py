@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from copy import deepcopy
+from unittest.mock import patch
 
 from bs4 import BeautifulSoup
 from tools.site_analytics import with_analytics
@@ -52,6 +54,25 @@ The deed does not give her birth date. No compatible profile survived the docume
 
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
+
+    def test_batch_keeps_same_name_people_and_their_sources_distinct(self):
+        other = deepcopy(self.entry)
+        other.update(subject_id='jane-1785', catalogue_id='record-jane-glasgow-1785')
+        other['source_subject_url'] = 'https://www.scotlandspeople.gov.uk/record/1785-jane'
+        other['draft_wikitext'] = other['draft_wikitext'].replace(self.url, other['source_subject_url'])
+        other['draft_path'] = 'research/drafts/jane-1785.wiki'
+        (self.root / other['draft_path']).write_text(other['draft_wikitext'])
+        other['records'][0].update(year='1785', filter_year=1785,
+                                   source_url='https://www.scotlandspeople.gov.uk/record/1785-jane')
+        (self.root / module.MANIFEST).write_text(json.dumps({'new_people': [self.entry, other]}))
+        with patch.object(module.catalogue, '_build_people', wraps=module.catalogue._build_people) as build:
+            result = module.apply_creations(self.root)
+        self.assertEqual(1, build.call_count)
+        self.assertEqual(2, result['count'])
+        people = {r['catalogue_id']: r for r in self.read('data/people.json')['people']}
+        for entry in (self.entry, other):
+            self.assertEqual([entry['records'][0]['source_url']],
+                             [r['source_url'] for r in people[entry['catalogue_id']]['records']])
 
     def test_plain_catalogue_main_can_supply_a_case_shell(self):
         template = self.root / 'www/people/glasgow-1521.html'

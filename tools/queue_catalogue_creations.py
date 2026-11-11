@@ -299,14 +299,15 @@ def apply_creations(root=ROOT, catalogue_ids=None):
     entries = reviewed_people(root, catalogue_ids)
     if not entries:
         return {"integrated": [], "count": 0}
-    people = []
     all_records = reviewed_records(root, catalogue_ids)
+    built = catalogue._build_people(all_records, {}, [], {}, {"profiles": {}})
+    by_id = {person['catalogue_id']: person for person in built}
+    expected = {entry['catalogue_id'] for entry in entries}
+    if len(built) != len(by_id) or set(by_id) != expected:
+        raise ValueError('Reviewed source rows did not consolidate to the selected canonical people')
+    people = []
     for entry in entries:
-        records = [row for row in all_records if row["supplement_id"] == entry["catalogue_id"].removeprefix("record-")]
-        built = catalogue._build_people(records, {}, [], {}, {"profiles": {}})
-        if len(built) != 1:
-            raise ValueError(f"{entry['catalogue_id']}: source rows did not consolidate to one person")
-        people.append(decorate_person(built[0], entry))
+        people.append(decorate_person(by_id[entry['catalogue_id']], entry))
     web = root / "www"
     routes_content = creation_routes(web, [p['catalogue_id'] for p in people])
     combined = _read(web / "data/people.json", {"people": []})
@@ -354,7 +355,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
                 dossier["historical_basis"] = deepcopy(person["creation_historical_basis"])
             _write(web / f"people/{slug}.json", dossier)
             _write(web / f"people/{slug}.network.json", build_network(dossier, {d["id"]: d for d in dossiers.values()}))
-            soup = BeautifulSoup(cases.page_shell(person, dossier, findings, links), "html.parser")
+            soup = BeautifulSoup(cases.page_shell(person, dossier, findings, links, resolved=True), "html.parser")
             soup.select_one("#research-tools").insert(0, BeautifulSoup(creation_panel(update), "html.parser"))
             destination = soup.select_one(".profile-wikitree-actions")
             if destination:

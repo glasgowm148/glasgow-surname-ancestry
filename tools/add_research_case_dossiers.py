@@ -98,7 +98,7 @@ def reviewed_inclusion_cases(cases, amendments, evidence, metadata):
     return included
 
 
-def page_shell(person, dossier, findings, links):
+def page_shell(person, dossier, findings, links, *, resolved=False):
     # A fresh record account starts without captured relatives. Render the same
     # approved relationships that the subsequent machine-data resolver applies.
     try:
@@ -107,9 +107,10 @@ def page_shell(person, dossier, findings, links):
         from tools.publish_resolved_dossiers import resolve
     shared = ROOT / "research/relationship_assessments.json"
     registry = WEB / "assets/research/assessments.json"
-    dossier = resolve(dossier,
-                      read_json(registry).get("assessments", []) if registry.exists() else [],
-                      read_json(shared) if shared.exists() else [])
+    if not resolved:
+        dossier = resolve(dossier,
+                          read_json(registry).get("assessments", []) if registry.exists() else [],
+                          read_json(shared) if shared.exists() else [])
     # Reuse only the current site's shared shell, removing all subject content.
     soup = BeautifulSoup((WEB / "people/glasgow-1521.html").read_text(), "html.parser")
     ident, slug, name = dossier["id"], person["catalogue_id"], person["name"]
