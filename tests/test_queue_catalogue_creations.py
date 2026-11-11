@@ -55,6 +55,27 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+    def test_external_relative_links_use_existing_accounts_without_new_people(self):
+        row={'id':'Example-2','url':'/people/example-2.html',
+             'wikitree_url':'https://www.wikitree.com/wiki/Example-2'}
+        dossier={'relationships':{'parents':[row]}}
+        with module._root_paths(self.root) as cases:
+            cases.resolve_relative_urls(dossier,{'Example-2':'example-2'})
+            self.assertEqual('/people/example-2.html',row['url'])
+            cases.resolve_relative_urls(dossier,{})
+            self.assertEqual(row['wikitree_url'],row['url'])
+            self.assertEqual('Example-2',row['id'])
+            account=self.root/'research/ancestry-connections/documentary-people.json'
+            account.parent.mkdir(parents=True,exist_ok=True)
+            account.write_text(json.dumps({'people':[{'id':'record-parent-1600','name':'Parent',
+                'publication_status':'approved','source_ids':['record-1600'],'first_record_year':1600,
+                'url':'/research/subjects/ancient/#parent'}]}))
+            page=self.root/'www/research/subjects/ancient/index.html'
+            page.parent.mkdir(parents=True);page.write_text('<h1 id="parent">Parent</h1>')
+            parent={'id':'record-parent-1600','url':'/people/record-parent-1600.html'}
+            cases.resolve_relative_urls({'relationships':{'parents':[parent]}},{})
+            self.assertEqual('/research/subjects/ancient/#parent',parent['url'])
+
     def test_source_subject_url_redirects_to_canonical_case(self):
         module.apply_creations(self.root)
         path=self.root/'www/people/jane-1775.html'

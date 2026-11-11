@@ -373,6 +373,7 @@ def apply_creations(root=ROOT, catalogue_ids=None):
                 {"title": "Source findings", "category": "sources", "markdown": "\n\n".join(
                     f"[{r['source_title']}]({r['source_url']}) — {r.get('year') or 'Undated'}; {r.get('record_location') or 'place not established'}. {r.get('association') or ''} {r.get('note') or ''}" for r in person["records"])}]}]
             finding_source = next((f.get("source_path") for f in findings if f.get("source_path")), str(MANIFEST))
+            cases.resolve_relative_urls(dossier, links)
             dossier.update(research_findings=findings, profile_work=audits[slug], pending_profile_creation=True,
                            creation_ready=person["creation_ready"], creation_status=person["creation_status"], wikitree_update=update, similar_people=[], potential_parentage={})
             dossier["provenance"]["research_findings"] = finding_source

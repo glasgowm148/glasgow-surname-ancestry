@@ -98,6 +98,31 @@ def reviewed_inclusion_cases(cases, amendments, evidence, metadata):
     return included
 
 
+def resolve_relative_urls(dossier, links):
+    """Use published accounts for relatives outside the local person index."""
+    accounts = None
+    for relatives in dossier.get('relationships', {}).values():
+        for relative in relatives:
+            ident, href = relative.get('id', ''), relative.get('url', '')
+            if ident in links or not href.startswith('/people/') or (WEB / href.lstrip('/')).is_file():
+                continue
+            if ident.startswith('record-'):
+                if accounts is None:
+                    from tools.documentary_ancestry import load_people
+                    accounts = {p['id']: p['url'] for p in load_people(
+                        ROOT / 'research/ancestry-connections/documentary-people.json')}
+                target = accounts.get(ident)
+                if target:
+                    path = WEB / target.split('#')[0].lstrip('/')
+                    if (path / 'index.html' if target.split('#')[0].endswith('/') else path).is_file():
+                        relative['url'] = target
+            elif re.fullmatch(r"[A-Z][A-Za-z'_-]*-\d+", ident):
+                target = 'https://www.wikitree.com/wiki/' + ident
+                if relative.get('wikitree_url') == target:
+                    relative['url'] = target
+    return dossier
+
+
 def page_shell(person, dossier, findings, links, *, resolved=False):
     # A fresh record account starts without captured relatives. Render the same
     # approved relationships that the subsequent machine-data resolver applies.
@@ -111,6 +136,7 @@ def page_shell(person, dossier, findings, links, *, resolved=False):
         dossier = resolve(dossier,
                           read_json(registry).get("assessments", []) if registry.exists() else [],
                           read_json(shared) if shared.exists() else [])
+    resolve_relative_urls(dossier, links)
     # Reuse only the current site's shared shell, removing all subject content.
     soup = BeautifulSoup((WEB / "people/glasgow-1521.html").read_text(), "html.parser")
     ident, slug, name = dossier["id"], person["catalogue_id"], person["name"]
