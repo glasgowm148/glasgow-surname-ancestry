@@ -5,7 +5,9 @@ Do not treat an unsourced tree or naming pattern as proof.
 
 ## Current conclusion
 
-Reviewed: 2026-10-29. Re-read against the later dated sections below; no change to this conclusion.
+**Cookstown–Gortin father comparison — 11 November 2026:** prefer [John Glasgow-2539](https://www.wikitree.com/wiki/Glasgow-2539) as the merchant [John Glasgow-2058](https://www.wikitree.com/wiki/Glasgow-2058)’s **possible father, 45%**. The former selected [John Glasgow-2990](https://www.wikitree.com/wiki/Glasgow-2990) remains an unselected 15% alternative. This is a transcript-based hypothesis, not proved fatherhood.
+
+Reviewed: 11 November 2026. The earlier source reviews below remain historical; the preferred possible father is now the Gortin John at 45%.
 
 The Cookstown merchant and tea/coffee agent documented in 1848–1850 is compatible with John Glasgow-2058; no notice names age, street address or relatives, and his parents remain unknown.
 
@@ -157,3 +159,11 @@ John Glasgow, expressly styled merchant at Cookstown, appears in John Cassell co
 
 The agency notices fit John’s name, Cookstown district and merchant occupation independently given in Benjamin’s 1856 marriage. They do not name Benjamin or Henry, so the household identification remains compatible rather than proved. [John Glasgow](https://www.wikitree.com/wiki/Glasgow-1968) is a weaker comparison because the reported move to Michigan in 1844 or 1848 conflicts with a continuing Irish agency; probate year alone does not establish his death.
 <!-- queue-record-integration-2026-10-17:end -->
+
+## Gortin and Cookstown assignment — 11 November 2026
+
+Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit.
+
+45% is a subjective assessment of the whole father-profile proposition, including both uncertain record identities. Only FamilySearch’s AI-generated transcript of images 36–37 was readable; the manuscript viewer remained blank, and image 38 was not read. No literal father/son clause was found in those transcript portions. The tithe source is a published index, not the original. Uncle, cousin, unrelated creditor or another namesake remain possible. John-1968 is a viable junior rival before his Michigan migration. This father hypothesis requires the older Gortin man to be distinct from John-1968 if the latter’s c1778 estimate is retained: a c1778 father cannot have the before-1788 merchant son. Existing birth bounds are not exact birth years. John-2990 remains a 15% unselected alternative and is not excluded by age. No mother, person merge, vital change or confident branch connection is claimed; the Gortin man’s own conditional father hypothesis is not independently strengthened.
+
+Sources: [Registry of Deeds, volume 815, assignment dated 31 May 1825, DGS 008091900, image 36](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-39P9-D) and [image 37](https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-39GG-7), AI-generated transcript only; [Derryloran tithe index, 1826, John Glasgow at Gortin](https://cotyrone.com/tithe/derryloran_A_L.html); [Benjamin Glasgow and Jane Little marriage, Cookstown, 15 April 1856, father John Glasgow, merchant](https://www.irishgenealogy.ie/files/civil/marriage_returns/marriages_1856/09507/5445820.pdf), original previously inspected. Repeated tithe/profile citations are one source, not independent witnesses.

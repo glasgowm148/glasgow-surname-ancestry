@@ -594718,5 +594718,71 @@
       "source_url": "https://www.ancestry.co.uk/search/collections/63303/records/2363029",
       "reason": "The Flexoline index gives birth as 1878."
     }
+  },
+  {
+    "record_id": "cookstown-gortin-johns-assignment-1825",
+    "record_type": "Registry of Deeds assignment memorial",
+    "date": "1825-05-31",
+    "place": "Gortin and Cookstown, County Tyrone, Ireland",
+    "association": "John Glasgow senior, farmer of Gortin, and John Glasgow junior, grocer of Cookstown, with John McCormick senior and William Aston",
+    "source_title": "Ireland Registry of Deeds, volume 815 (1826): assignment dated 31 May 1825; FamilySearch DGS 008091900, images 36–37 of 420",
+    "source_url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-39P9-D",
+    "source_type": "AI-generated transcript of a manuscript memorial; original image unverified",
+    "source_status": "Transcript read 11 November 2026; opening and continuation checked in machine text only; final attestation image 38 unread",
+    "status": "Recorded party descriptions provisionally read from machine transcription; kinship and profile identities inferred",
+    "profiles": {
+      "Glasgow-2539": {
+        "role": "Preferred candidate for senior Gortin farmer; not a proved record identity",
+        "assessment": "possible",
+        "timeline_group": "Family comparisons"
+      },
+      "Glasgow-2058": {
+        "role": "Preferred candidate for junior Cookstown grocer; possible son of Gortin senior, 45% combined hypothesis",
+        "assessment": "possible",
+        "timeline_group": "Family comparisons"
+      },
+      "Glasgow-1968": {
+        "role": "Surviving rival for junior; not excluded by later migration",
+        "assessment": "uncertain",
+        "timeline_group": "Family comparisons"
+      },
+      "Glasgow-2990": {
+        "role": "Former selected father of merchant; retained 15% alternative, not identified with a deed party",
+        "assessment": "uncertain",
+        "timeline_group": "Family comparisons"
+      }
+    },
+    "note": "The transcript recites a 7 December 1822 mortgage to John Harkness, a 16 March 1824 mortgage to senior and debt security, and a 24 April 1825 assignment to McCormick. It does not explicitly call the two Johns father and son. Exact memorial number, registration day and folio are unverified. 45% is a subjective assessment of the whole father-profile proposition, including both uncertain record identities. Only FamilySearch’s AI-generated transcript of images 36–37 was readable; the manuscript viewer remained blank, and image 38 was not read. No literal father/son clause was found in those transcript portions. The tithe source is a published index, not the original. Uncle, cousin, unrelated creditor or another namesake remain possible. John-1968 is a viable junior rival before his Michigan migration. This father hypothesis requires the older Gortin man to be distinct from John-1968 if the latter’s c1778 estimate is retained: a c1778 father cannot have the before-1788 merchant son. Existing birth bounds are not exact birth years. John-2990 remains a 15% unselected alternative and is not excluded by age. No mother, person merge, vital change or confident branch connection is claimed; the Gortin man’s own conditional father hypothesis is not independently strengthened.",
+    "provenance": "Known unopened hit in research/larne-proof-2026-09-21/search-hits-status-2026-10-06.tsv, K1; newly read on 11 November. No raw licensed transcript or image is published.",
+    "additional_source_urls": [
+      "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-39GG-7"
+    ],
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-11-11",
+    "year": 1825
+  },
+  {
+    "record_id": "derryloran-john-gortin-tithe-1826",
+    "record_type": "Tithe applotment index",
+    "date": "1826",
+    "place": "Gortin, Derryloran, County Tyrone, Ireland",
+    "association": "John Glasgow at Gortin; distinct indexed John entries also occur at Derryloran and Killycurragh",
+    "source_title": "Tithe Applotment Book, Derryloran Parish, 1826, A–L index: Glasgow, John, Gortin",
+    "source_url": "https://cotyrone.com/tithe/derryloran_A_L.html",
+    "source_type": "Published community transcription/index, original uninspected",
+    "source_status": "Existing profile citation independently checked 11 November 2026; not a newly discovered tithe record",
+    "status": "Holding and name in index; no kinship or exclusive residence inference",
+    "profiles": {
+      "Glasgow-2539": {
+        "role": "Existing Gortin profile; candidate for indexed payer and 1825 senior",
+        "assessment": "possible",
+        "timeline_group": "Family comparisons"
+      }
+    },
+    "note": "Near-contemporary exact holding supports comparison with the 1825 deed senior. This is not a father clause, nor proof that no other John lived in Gortin.",
+    "provenance": "Already cited in research/Glasgow-2539/Glasgow-2539.md; source index rechecked 11 November 2026.",
+    "publish_to_record_index": true,
+    "reviewed_on": "2026-11-11",
+    "year": 1826
   }
 ]

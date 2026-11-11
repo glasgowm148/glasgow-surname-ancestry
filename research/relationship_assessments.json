@@ -164776,6 +164776,87 @@
     }
   },
   {
+    "assertion_id": "clm-cookstown-gortin-john-father-20261111",
+    "people": [
+      "Glasgow-2058",
+      "Glasgow-2539"
+    ],
+    "claim": "Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit.",
+    "relation_type": "biological",
+    "perspectives": {
+      "Glasgow-2058": {
+        "relationship": "father"
+      },
+      "Glasgow-2539": {
+        "relationship": "child"
+      }
+    },
+    "publication_status": "approved",
+    "source_ids": [
+      "cookstown-gortin-johns-assignment-1825",
+      "derryloran-john-gortin-tithe-1826",
+      "held-e-b1f8f6cd49eb"
+    ],
+    "provenance": {
+      "new_father_attachment": true,
+      "new_father_attachment_reviewed": "2026-11-11",
+      "original_inspected_in_batch": false,
+      "prior_assessment": {
+        "probability_percent": 15,
+        "relative_id": "Glasgow-2990",
+        "source_basis": "clm-d1-glasgow-2058-father-20261106 revision 1, selected local father before this comparison; captured WikiTree father is absent.",
+        "status": "uncertain"
+      },
+      "review_kind": "newly_read_machine_transcript_plus_existing_tithe_comparison",
+      "source_newly_discovered": true
+    },
+    "status": "possible",
+    "assessment_date": "2026-11-11",
+    "basis": "Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit.",
+    "assessment_history": [
+      {
+        "status": "possible",
+        "probability_percent": 45,
+        "assessment_date": "2026-11-11",
+        "source_basis": "Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit."
+      }
+    ],
+    "reason": "Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit.",
+    "limitations": "45% is a subjective assessment of the whole father-profile proposition, including both uncertain record identities. Only FamilySearch’s AI-generated transcript of images 36–37 was readable; the manuscript viewer remained blank, and image 38 was not read. No literal father/son clause was found in those transcript portions. The tithe source is a published index, not the original. Uncle, cousin, unrelated creditor or another namesake remain possible. John-1968 is a viable junior rival before his Michigan migration. This father hypothesis requires the older Gortin man to be distinct from John-1968 if the latter’s c1778 estimate is retained: a c1778 father cannot have the before-1788 merchant son. Existing birth bounds are not exact birth years. John-2990 remains a 15% unselected alternative and is not excluded by age. No mother, person merge, vital change or confident branch connection is claimed; the Gortin man’s own conditional father hypothesis is not independently strengthened.",
+    "probability": {
+      "value": 0.45,
+      "reviewed": "2026-11-11",
+      "basis": "Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit.",
+      "source_ids": [
+        "cookstown-gortin-johns-assignment-1825",
+        "derryloran-john-gortin-tithe-1826",
+        "held-e-b1f8f6cd49eb"
+      ],
+      "scope": "45% is a subjective assessment of the whole father-profile proposition, including both uncertain record identities. Only FamilySearch’s AI-generated transcript of images 36–37 was readable; the manuscript viewer remained blank, and image 38 was not read. No literal father/son clause was found in those transcript portions. The tithe source is a published index, not the original. Uncle, cousin, unrelated creditor or another namesake remain possible. John-1968 is a viable junior rival before his Michigan migration. This father hypothesis requires the older Gortin man to be distinct from John-1968 if the latter’s c1778 estimate is retained: a c1778 father cannot have the before-1788 merchant son. Existing birth bounds are not exact birth years. John-2990 remains a 15% unselected alternative and is not excluded by age. No mother, person merge, vital change or confident branch connection is claimed; the Gortin man’s own conditional father hypothesis is not independently strengthened."
+    },
+    "working_selection": true,
+    "attachment_status": "attached",
+    "allow_new_relationship": true,
+    "lifecycle": "current",
+    "display": "current",
+    "working_parent_replacement": {
+      "alternative_assertion_id": "clm-d1-glasgow-2058-father-20261106",
+      "previous_parent": "Glasgow-2990",
+      "previous_parent_source": "local_working_hypothesis",
+      "reason": "Named Gortin/Cookstown pair and financial relationship are more discriminating than a generic local generation."
+    },
+    "analysis_links": [
+      {
+        "href": "/people/glasgow-2058.html#research-findings",
+        "label": "Gortin senior and Cookstown junior comparison"
+      }
+    ],
+    "profile_names": {
+      "Glasgow-2058": "John Glasgow, Cookstown merchant",
+      "Glasgow-2539": "John Glasgow of Gortin"
+    }
+  },
+  {
     "assertion_id": "clm-crawford-george-father-20261031",
     "people": [
       "Glasgow-638",
@@ -165335,29 +165416,61 @@
         "status": "unmarked"
       },
       "review_kind": "father_tentative_link_d1_r3",
+      "selection_superseded_on": "2026-11-11",
       "source_newly_discovered": false
     },
     "status": "uncertain",
-    "assessment_date": "2026-11-06",
+    "assessment_date": "2026-11-11",
     "basis": "Killycurragh, Derryloran, Co. Tyrone (b. c.1788): John Glasgow of Derryloran (b. c.1750, 38 years older) is the nearest man. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of John Glasgow (Glasgow-2058).",
-    "assessment_history": [],
+    "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 15,
+        "assessment_date": "2026-11-06",
+        "source_basis": "Killycurragh, Derryloran, Co. Tyrone (b. c.1788): John Glasgow of Derryloran (b. c.1750, 38 years older) is the nearest man. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of John Glasgow (Glasgow-2058)."
+      },
+      {
+        "status": "uncertain",
+        "probability_percent": 15,
+        "assessment_date": "2026-11-11",
+        "source_basis": "Killycurragh, Derryloran, Co. Tyrone (b. c.1788): John Glasgow of Derryloran (b. c.1750, 38 years older) is the nearest man. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of John Glasgow (Glasgow-2058)."
+      }
+    ],
     "reason": "Killycurragh, Derryloran, Co. Tyrone (b. c.1788): John Glasgow of Derryloran (b. c.1750, 38 years older) is the nearest man. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of John Glasgow (Glasgow-2058).",
-    "limitations": "None of the cited records (geneanet-mwells-martinsburg-parentage, derryloran-john-drumearn-1766) names John Glasgow as the father of John Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-2989 James (48 years older). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found.",
+    "limitations": "None of the cited records (geneanet-mwells-martinsburg-parentage, derryloran-john-drumearn-1766) names John Glasgow as the father of John Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-2989 James (48 years older). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found. Retained as an unselected alternative after the 1825 deed comparison; not disproved.",
     "probability": {
       "value": 0.15,
-      "reviewed": "2026-11-06",
+      "reviewed": "2026-11-11",
       "basis": "Killycurragh, Derryloran, Co. Tyrone (b. c.1788): John Glasgow of Derryloran (b. c.1750, 38 years older) is the nearest man. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of John Glasgow (Glasgow-2058).",
       "source_ids": [
         "geneanet-mwells-martinsburg-parentage",
         "derryloran-john-drumearn-1766"
       ],
-      "scope": "None of the cited records (geneanet-mwells-martinsburg-parentage, derryloran-john-drumearn-1766) names John Glasgow as the father of John Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-2989 James (48 years older). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found."
+      "scope": "None of the cited records (geneanet-mwells-martinsburg-parentage, derryloran-john-drumearn-1766) names John Glasgow as the father of John Glasgow; the link rests on place, generation and age only, and the catalogue ages are estimates. Other candidates: Glasgow-2989 James (48 years older). Meant to be revisited when a baptism, marriage, death entry or census household naming the father is found. Retained as an unselected alternative after the 1825 deed comparison; not disproved."
     },
-    "working_selection": true,
-    "attachment_status": "attached",
+    "working_selection": false,
+    "attachment_status": "alternative",
     "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "lifecycle": "alternative",
+    "display": "alternative",
+    "previous_working_selection": {
+      "assertion_id": "clm-d1-glasgow-2058-father-20261106",
+      "assessment_revision": 1,
+      "basis": "Killycurragh, Derryloran, Co. Tyrone (b. c.1788): John Glasgow of Derryloran (b. c.1750, 38 years older) is the nearest man. This is a tentative place-and-age inference at 15% (uncertain): no record held names the father of John Glasgow (Glasgow-2058).",
+      "child": "Glasgow-2058",
+      "father": "Glasgow-2990",
+      "probability": {
+        "label": "Uncertain · 15%",
+        "value": 0.15
+      },
+      "publication_status": "approved",
+      "source_ids": [
+        "geneanet-mwells-martinsburg-parentage",
+        "derryloran-john-drumearn-1766"
+      ],
+      "status": "uncertain",
+      "working_selection": true
+    },
     "analysis_links": [
       {
         "href": "/people/glasgow-2058.html#research-findings",

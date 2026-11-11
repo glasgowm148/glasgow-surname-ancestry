@@ -3269,9 +3269,9 @@
       "preservation_review_path": "research/ancestry-connections/father-coverage-preservation8-2026-10-22.json"
     },
     "Glasgow-2058": {
-      "draft_path": "research/Glasgow-2058/queue-review-2026-10-17.wiki",
-      "summary": "Add the original marriage’s direct father and merchant evidence; keep John’s parents unresolved and explain why the mill-family notice does not identify them.\n\nAdd the cited record accounts: John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850; John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850; John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850; and 4 other record accounts. Retain the stated identity and relationship limits.",
-      "work_queue_summary": "Add the original marriage’s direct father and merchant evidence; keep John’s parents unresolved and explain why the mill-family notice does not identify them.\n\nAdd the cited record accounts: John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850; John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850; John Glasgow, Cookstown merchant and tea/coffee agent, 1848–1850; and 4 other record accounts. Retain the stated identity and relationship limits.",
+      "draft_path": "research/Glasgow-2058/cookstown-gortin-2026-11-11.wiki",
+      "summary": "Add the possible Gortin father / Cookstown merchant son comparison, 45%; retain alternatives and machine-transcript limitation.",
+      "work_queue_summary": "Add the possible Gortin father / Cookstown merchant son comparison, 45%; retain alternatives and machine-transcript limitation.",
       "queued_at": "2026-10-17",
       "status": "OPEN",
       "pending": true,
@@ -3285,7 +3285,28 @@
         "subject-newspapers-irish-1800-1850-john-loughinsholin-freeholder"
       ],
       "private_comparison": false,
-      "prior_work_summary": "Add the original marriage’s direct father and merchant evidence; keep John’s parents unresolved and explain why the mill-family notice does not identify them."
+      "prior_work_summary": "Add the original marriage’s direct father and merchant evidence; keep John’s parents unresolved and explain why the mill-family notice does not identify them.",
+      "significance": 86,
+      "preservation_review_path": "research/ancestry-connections/cookstown-deed-preservation-2026-11-11.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": false,
+      "biography_rechecked_at": "2026-11-11",
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "action": "add",
+          "relative_id": "Glasgow-2539",
+          "relative_name": "John Glasgow of Gortin",
+          "status": "possible",
+          "probability_percent": 45,
+          "assertion_id": "clm-cookstown-gortin-john-father-20261111",
+          "before": "unknown",
+          "after": "possible",
+          "previous_status": "unknown",
+          "previous_status_provenance": "Captured WikiTree Father=0. Local selected John-2990 at 15% is replaced, not upgraded.",
+          "basis": "Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit."
+        }
+      ]
     },
     "Glasgow-2059": {
       "significance": 90,
@@ -43067,6 +43088,16 @@
       "queued_at": "2026-11-04",
       "summary": "Add qualified page 37 Findmypast comparison; preserve event roles and identity limits without changing vitals, relatives or grades.",
       "work_queue_summary": "Add qualified page 37 Findmypast comparison; preserve event roles and identity limits without changing vitals, relatives or grades."
+    },
+    "Glasgow-2539": {
+      "draft_path": "research/Glasgow-2539/cookstown-gortin-2026-11-11.wiki",
+      "summary": "Add the possible Gortin father / Cookstown merchant son comparison, 45%; retain alternatives and machine-transcript limitation.",
+      "significance": 86,
+      "preservation_review_path": "research/ancestry-connections/cookstown-deed-preservation-2026-11-11.json",
+      "preserve_captured_detail": false,
+      "reviewed_narrative_reduction": false,
+      "biography_rechecked_at": "2026-11-11",
+      "work_queue_summary": "Add the possible Gortin father / Cookstown merchant son comparison, 45%; retain alternatives and machine-transcript limitation."
     }
   },
   "reviewed_on": "2026-10-22",

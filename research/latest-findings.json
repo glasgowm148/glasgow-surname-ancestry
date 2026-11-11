@@ -83536,6 +83536,66 @@
           "previous_status_provenance": "Local dossier before 11 November 2026 had no selected father; canonical source associations already named Robert but did not create a structural parent edge."
         }
       ]
+    },
+    {
+      "id": "cookstown-gortin-john-deed-father-20261111",
+      "found_on": "2026-11-11",
+      "kind": "relationship",
+      "status": "qualified",
+      "detail_url": "/people/glasgow-2058.html#research-findings",
+      "finding": "Prefer John Glasgow-2539 of Gortin as John Glasgow-2058’s possible father at 45%, replacing the selected John-2990 locality-and-generation hypothesis at 15%. The 31 May 1825 assignment transcript places John Glasgow senior, Gortin farmer, with John Glasgow junior, Cookstown grocer; it recites junior’s mortgage to senior of 16 March 1824 and senior’s security for junior’s debts. The 1826 Derryloran tithe index independently lists John Glasgow at Gortin. The exact holding favors the older Gortin profile; Cookstown and grocery trade fit the merchant father named in Benjamin’s 1856 marriage. The coupled senior/junior names and financial support favor a family interpretation, but neither fatherhood nor the two profile identifications is explicit.",
+      "significance": "A newly read 1825 deed replaces a general local father guess with a named financial and holding comparison. No confident connection or new working component is claimed.",
+      "qualification": "45% is a subjective assessment of the whole father-profile proposition, including both uncertain record identities. Only FamilySearch’s AI-generated transcript of images 36–37 was readable; the manuscript viewer remained blank, and image 38 was not read. No literal father/son clause was found in those transcript portions. The tithe source is a published index, not the original. Uncle, cousin, unrelated creditor or another namesake remain possible. John-1968 is a viable junior rival before his Michigan migration. This father hypothesis requires the older Gortin man to be distinct from John-1968 if the latter’s c1778 estimate is retained: a c1778 father cannot have the before-1788 merchant son. Existing birth bounds are not exact birth years. John-2990 remains a 15% unselected alternative and is not excluded by age. No mother, person merge, vital change or confident branch connection is claimed; the Gortin man’s own conditional father hypothesis is not independently strengthened.",
+      "people": [
+        {
+          "id": "Glasgow-2058",
+          "name": "John Glasgow, Cookstown merchant",
+          "url": "/people/glasgow-2058.html",
+          "role": "Child; preferred father changes from John-2990 15% to Gortin John45%"
+        },
+        {
+          "id": "Glasgow-2539",
+          "name": "John Glasgow of Gortin",
+          "url": "/people/glasgow-2539.html",
+          "role": "Possible father45%"
+        },
+        {
+          "id": "Glasgow-2990",
+          "name": "John Glasgow of Drumearn",
+          "url": "/people/glasgow-2990.html",
+          "role": "Retained15% alternative"
+        },
+        {
+          "id": "Glasgow-1968",
+          "name": "John Glasgow of the Hillsdale family",
+          "url": "/people/glasgow-1968.html",
+          "role": "Surviving junior identity rival"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ireland Registry of Deeds, volume 815 (1826): assignment dated 31 May 1825; FamilySearch DGS 008091900, images 36–37 of 420",
+          "url": "https://www.familysearch.org/ark:/61903/3:1:3Q9M-CSJ7-39P9-D"
+        },
+        {
+          "title": "Tithe Applotment Book, Derryloran Parish, 1826, A–L index: Glasgow, John, Gortin",
+          "url": "https://cotyrone.com/tithe/derryloran_A_L.html"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "Glasgow-2058",
+          "relative": "Glasgow-2539",
+          "previous_relative": "Glasgow-2990",
+          "before": "uncertain",
+          "after": "possible",
+          "previous_probability_percent": 15,
+          "probability_percent": 45,
+          "explanation": "Father replacement, not a 15%→45% reassessment of the same man. Named holding and credit association support a possible family; kinship and profile identities remain unproved.",
+          "previous_status_provenance": "clm-d1-glasgow-2058-father-20261106 revision 1 selected John-2990 at15%. New clm-cookstown-gortin-john-father-20261111 revision1 selects John-2539 at45%."
+        }
+      ]
     }
   ]
 }
