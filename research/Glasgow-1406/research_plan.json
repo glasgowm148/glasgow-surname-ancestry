@@ -2,9 +2,9 @@
   "case_id": "Glasgow-1406",
   "findings": [
     {
-      "claim": "No reviewed source identifies either parent of Michael Glasgow, and Robert Glasgow (Glasgow-1512) must not be attached as his father.",
+      "claim": "No reviewed record names Michael Glasgow’s parents. Robert Glasgow-1512 is retained as a selected uncertain working father at 23%, not as proved parentage.",
       "confidence": "high",
-      "reasoning": "Michael's profile proposes Robert only from repeated names and compatible estimated dates. Robert's capture documents sons Robert and Ralph in Ayr but contains no record linking him to Michael. FamilySearch records were not accessible and remain unreviewed.",
+      "reasoning": "The July instruction not to attach Robert was superseded by the qualified working selection of 16 October 2026. The current father assessment remains 23%: the Ayr Robert/Margaret Donald household and the Irvine Michael household have no parent-identifying bridge. The 1679 summons records an adult skinner; it is not Michael’s birth event. The separate 43% Margaret Donald mother hypothesis recorded on 6 November must not be treated as proof that Robert is Michael’s known father or that Michael was born in 1679.",
       "sources": [
         "captures/20260716T204652Z_Glasgow-1406.json",
         "captures/20260716T205030Z_Glasgow-1512.json"
@@ -28,25 +28,25 @@
       ]
     }
   ],
-  "objective": "Establish the identity and documented family of Glasgow-1406, separating sourced facts from tree assertions.",
+  "objective": "Resolve Michael Glasgow’s duplicate documentary household accounts, then test his uncertain Ayrshire parentage using a discriminating original record; preserve the distinction between adult occurrence and birth date.",
   "questions": [
     {
-      "answer": "The uncommon-name, same-place sequence links the councillor recorded in 1686 and 1702 strongly but indirectly to Michael the Irvine saddler. The civic entries do not state his occupation until the broad 'for Trades' classification in 1702, so the council and Dean of Guild originals should be checked before treating the identity as proved.",
+      "answer": "Glasgow-4141 was merged into Glasgow-1406 on 27 September 2026. The 1679 Irvine skinner is treated as the later Irvine saddler/councillor, with the qualification preserved in the current account. Reconcile the documentary Michaell/Katharine Baird parent accounts with the already identified Irvine children before proposing another father or creating a person. Janet’s 30 January 1715 baptism (Ancestry 60143/17145386 and 60143/2667244) already matches Glasgow-1407; the named father is still represented separately as record-ancestry-glasgow-f6955358d5e4. Compare the full recorded couple and child group, including record-ancestry-glasgow-17b6fc36789d, rather than treating copied index parent entries as independent adults.",
       "id": "identity",
       "question": "Which records prove the subject's identity across events?",
-      "status": "answered"
+      "status": "open"
     },
     {
-      "answer": "No discovered source identifies either parent. Robert Glasgow (Glasgow-1512) is an unsupported tree hypothesis based on naming and estimated chronology; no reviewed record links the men. Do not attach him. The best next sources are Gr1/7/1, Gr1/5/1, Gr1/1/5-6 (NRS B37/12/4-5), and Gr1/23/3.",
+      "answer": "Unresolved. Robert Glasgow-1512 remains the selected working father at 23%, with no newly inspected father clause. Margaret Donald-1722 has a separate 43% mother hypothesis, not a record-proved maternity; its reasoning uses 1679 as a birth year although that is an adult summons date. Preserve the hypotheses and their histories while checking those premises. First reconcile duplicate Michael/Katharine household accounts; then inspect the actual Irvine admission/guild or trades text for a father, master, residence or property bridge. Relevant archive references are Gr1/7/1, Gr1/5/1, Gr1/1/5-6 (NRS B37/12/4-5), and Gr1/23/3. Published council appearances and catalogue descriptions have already been checked and do not name a parent.",
       "id": "parents",
       "question": "Which original or indexed records identify the parents?",
-      "status": "answered"
+      "status": "open"
     },
     {
-      "answer": "The WikiTree profile cites indexed marriage and baptism records for wives Elizabeth Garven and Catharine Baird and children, but this pass focused on parentage and did not independently inspect the inaccessible FamilySearch record images.",
+      "answer": "The existing account distinguishes the Elizabeth Garven and Catharine Baird child groups. Janet Glasgow-1407 is already matched to the 30 January 1715 Irvine child of Michaell Glasgow and Katharine Baird; consolidate the duplicate documentary parent account rather than recreating this household. The original register images remain uninspected. The explicit index parent roles do not identify Michael’s own parents.",
       "id": "family",
       "question": "Which spouses and children are directly supported by records?",
-      "status": "answered"
+      "status": "open"
     },
     {
       "answer": "The profile's 'before 1680' date is compatible with a same-name Irvine councillor already in office in 1686; the unresolved issue is whether that councillor was the saddler. A separate Michael Glasgow found in a 1559-60 Stevenston teind list is more than a century too early and is excluded.",
