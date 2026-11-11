@@ -77,23 +77,91 @@ def genealogy_references(value, old):
     return False
 
 
-def check_edges(value, old, owned=False):
+def retired_parent_proof(root, old, profile, link):
+    """Authorize only explicitly retired claims of this exact native merge."""
+    merge_id = link.get('native_merge_id')
+    aids = link.get('retired_assertion_ids') or []
+    if not merge_id or not aids:
+        return {}
+    from genealogy.store import Research, open_project
+    from tools.workbench_legacy_views import Views
+    with open_project(root, readonly=True) as project:
+        store, research = project.store, Research(project.store)
+        merge = store.get('entity_merge', merge_id)
+        if not merge or merge['kind'] != 'merge':
+            raise ValueError(f'{old}: native merge proof is missing')
+        if any(str(row.get('reason') or '').startswith(f'undo {merge_id}:')
+               for row in store.all("SELECT reason FROM entity_merge WHERE kind='split'")):
+            raise ValueError(f'{old}: native merge was undone')
+        views = Views(store)
+        survivor = views._merged_entities.get(merge['survivor_id'], merge['survivor_id'])
+        if views.person(survivor) != profile:
+            raise ValueError(f'{old}: native merge survivor differs from reviewed profile')
+        moved = json.loads(merge['moved_json'])['rows']
+        aliases = [store.get('external_id', row['key']['id']) for row in moved
+                   if row['table'] == 'external_id']
+        if not any(row and row['value'] == old and row['entity_id'] == survivor
+                   and row['system'] == 'glasgow-local' for row in aliases):
+            raise ValueError(f'{old}: merge did not move this catalogue identity')
+        moved_claims = {row['key']['id'] for row in moved
+                        if row['table'] == 'claim' and row['column'] == 'subject_person_id'}
+        allowed = {}
+        for aid in aids:
+            found = research.find_external('glasgow-assertion', aid)
+            cid = found[0] if len(found) == 1 else aid
+            claim = store.get('claim', cid)
+            current = research.current_assessment(cid) if claim else None
+            extra = (current or {}).get('extra') or {}
+            if (not claim or cid not in moved_claims or claim['subject_person_id'] != survivor
+                    or claim['predicate'] not in {'father', 'mother', 'parent'}
+                    or extra.get('lifecycle') != 'superseded' or extra.get('display') != 'historical'
+                    or current.get('working_selection')):
+                raise ValueError(f'{old}: {aid} is not an explicitly retired parent claim')
+            counterparts = store.all(
+                "SELECT id FROM claim WHERE kind='relationship' AND subject_person_id=? "
+                "AND object_person_id=? AND predicate=? AND publication_status='approved' AND id!=?",
+                (survivor, claim['object_person_id'], claim['predicate'], cid))
+            def active(row):
+                assessment = research.current_assessment(row['id'])
+                state = (assessment or {}).get('extra') or {}
+                return (assessment and state.get('lifecycle', 'current') == 'current'
+                        and state.get('display', 'current') == 'current'
+                        and assessment.get('status') not in {'rejected', 'disproved', 'superseded'})
+            if not any(active(row) for row in counterparts):
+                raise ValueError(f'{old}: no current canonical counterpart for {aid}')
+            proof = (views.person(claim['object_person_id']).casefold(), claim['predicate'])
+            allowed[aid] = allowed[cid] = proof
+        return allowed
+
+
+def _retired_parent(row, proofs):
+    if not isinstance(row, dict):
+        return False
+    proof = proofs.get(row.get('assertion_id') or row.get('claim_id'))
+    return bool(proof and str(row.get('id') or '').casefold() == proof[0]
+                and row.get('relationship', row.get('role', proof[1])) == proof[1])
+
+
+def check_edges(value, old, owned=False, *, retired_parents=None):
+    retired_parents = retired_parents or {}
     if isinstance(value, dict):
         owned = owned or exact_subject(value, old)
         for key, item in value.items():
             if key in {'imported', 'history', 'superseded_documentary_account'}:
                 continue
-            if key in GENEALOGY and (genealogy_references(item, old) or (owned and item)):
+            retired = (owned and key in {'parents', 'father', 'mother'} and isinstance(item, list)
+                       and all(_retired_parent(row, retired_parents) for row in item))
+            if key in GENEALOGY and not retired and (genealogy_references(item, old) or (owned and item)):
                 raise ValueError(f'{old}: unexplained genealogical edges in {key}; review required')
             if key in {'relationships', 'edges'} and isinstance(item, list):
                 for edge in item:
                     if isinstance(edge, dict) and any(edge.get(k) == old for k in ('source', 'target', 'from', 'to')):
                         if edge.get('type', edge.get('kind', '')) not in {'record', 'documentary', 'source_association'}:
                             raise ValueError(f'{old}: unexplained genealogical edge; review required')
-            check_edges(item, old, owned)
+            check_edges(item, old, owned, retired_parents=retired_parents)
     elif isinstance(value, list):
         for item in value:
-            check_edges(item, old, owned)
+            check_edges(item, old, owned, retired_parents=retired_parents)
 
 
 def rewire_documentary(value, old, slug, profile, *, participant=False, reviewed=''):
@@ -157,11 +225,12 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
                 raise ValueError(f'{old}: existing alias has conflicting target')
         elif not provider_keys(previous) & provider_keys(target):
             raise ValueError(f'{old}: missing shared provider-record proof')
+        retired_parents = retired_parent_proof(root, old, profile, link)
         for collection in [people, previous if previous.get('status') != 'superseded' else {}, atlas]:
-            check_edges(collection, old)
+            check_edges(collection, old, retired_parents=retired_parents)
         if not any(p.get('catalogue_id') == slug for p in people['people']):
             raise ValueError(f'{old}: canonical public person row missing')
-        selected.append((old, profile, slug, link, previous))
+        selected.append((old, profile, slug, link, previous, retired_parents))
 
     changes = {}
     def put(path, value):
@@ -176,7 +245,7 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
     def read(path):
         return json.loads(changes.get(str(path.relative_to(root)), path.read_bytes()))
 
-    for old, profile, slug, link, previous in selected:
+    for old, profile, slug, link, previous, retired_parents in selected:
         current = next(p for p in people['people'] if p.get('catalogue_id') == slug)
         old_rows = [p for p in people['people'] if exact_subject(p, old)]
         existing = {record_identity(r) for r in current.get('records', [])}
@@ -304,7 +373,7 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
         wrapper_path = web / f'assets/research/people/{old}.json'
         wrapper = read(wrapper_path) if wrapper_path.exists() else {}
         if wrapper and wrapper.get('status') != 'superseded':
-            check_edges(wrapper, old)
+            check_edges(wrapper, old, retired_parents=retired_parents)
             put(wrapper_path, {
                 'schema_version': wrapper.get('schema_version', '3.0'),
                 'id': profile, 'catalogue_id': slug, 'name': current['name'],
@@ -519,7 +588,7 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
     full = web / 'data/catalogue-search-index.json'
     if full.exists():
         search = read(full)
-        for _, _, slug, _, _ in selected:
+        for _, _, slug, _, _, _ in selected:
             current = next(p for p in people['people'] if p.get('catalogue_id') == slug)
             for row in search:
                 if row.get('id') == slug and 'record_count' in row:

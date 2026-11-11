@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+import shutil
 
 from tools.reconcile_catalogue_profile_links import apply, plan
 
@@ -52,6 +53,76 @@ class ProjectionTests(unittest.TestCase):
         target.write_text(value if isinstance(value,str) else json.dumps(value))
     def read(self,path):return json.loads((self.root/path).read_text())
     def snapshot(self):return {str(p.relative_to(self.root)):p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+
+    def native_retirement(self, *, retire=True, undo=False):
+        from genealogy.cli import initialize_project
+        from genealogy.store import Research, open_project
+        native = self.root / 'native'
+        initialize_project(native, 'Fictional identity reconciliation')
+        with open_project(native) as project:
+            research = Research(project.store)
+            with project.store.write(actor='test') as tx:
+                for ident in ('person-old', 'person-current', 'person-parent'):
+                    research.create_person(tx, id=ident)
+                research.map_external(tx, 'person-old', 'glasgow-local', self.ids[0])
+                research.map_external(tx, 'person-current', 'wikitree', 'Glasgow-1')
+                research.map_external(tx, 'person-parent', 'wikitree', 'Glasgow-99')
+                for claim, child, percent in (('retired-parent', 'person-old', 12), ('current-parent', 'person-current', 23)):
+                    research.relationship_claim(tx, id=claim, child_id=child, relative_id='person-parent',
+                                                role='father', publication_status='approved')
+                    research.assess(tx, claim, status='uncertain', estimate_percent=percent, estimate_kind='subjective')
+                merge = research.merge_people(tx, survivor_id='person-current', retired_id='person-old', reason='same record')
+                if retire:
+                    research.assess(tx, 'retired-parent', expected_revision=1, status='uncertain',
+                                    estimate_percent=12, estimate_kind='subjective', working_selection=False,
+                                    extra={'lifecycle': 'superseded', 'display': 'historical'})
+                if undo:
+                    research.undo_merge(tx, merge, reason='test reversal')
+            database = project.database_path
+            relative_database = project.settings.database
+        self.put('genealogy.toml', (native/'genealogy.toml').read_text())
+        target = self.root / relative_database
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(database, target)
+        links = self.read('data/wikitree/catalogue-profile-links.json')
+        links['entries'][self.ids[0]].update(native_merge_id=merge, retired_assertion_ids=['retired-parent'])
+        self.put('data/wikitree/catalogue-profile-links.json', links)
+        edge = {'id': 'Glasgow-99', 'relationship': 'father', 'claim_id': 'retired-parent'}
+        prior = self.read(f'www/people/{self.ids[0]}.json')
+        prior['relationships']['parents'] = [edge]
+        self.put(f'www/people/{self.ids[0]}.json', prior)
+        self.put('www/assets/research/atlas-model.json', {'people': [{'id': self.ids[0], 'parents': [edge]}, {'id': 'Glasgow-1'}]})
+
+    def test_native_merge_retires_only_explicit_historical_parent(self):
+        self.native_retirement()
+        before = self.read('www/people/glasgow-1.json')
+        apply(self.root, [self.ids[0]], refresh=False)
+        self.assertEqual(before, self.read('www/people/glasgow-1.json'))
+        alias = self.read(f'www/people/{self.ids[0]}.json')
+        self.assertEqual('retired-parent', alias['superseded_documentary_account']['relationships']['parents'][0]['claim_id'])
+        self.assertEqual(['Glasgow-1'], [p['id'] for p in self.read('www/assets/research/atlas-model.json')['people']])
+
+    def test_active_duplicate_parent_still_blocks_native_merge_projection(self):
+        self.native_retirement(retire=False)
+        # SQLite can create read-cache sidecars even for a readonly connection.
+        stable = lambda: {p: b for p, b in self.snapshot().items() if not p.endswith(('-wal', '-shm'))}
+        before = stable()
+        with self.assertRaisesRegex(ValueError, 'not an explicitly retired parent claim'):
+            apply(self.root, [self.ids[0]], refresh=False)
+        self.assertEqual(before, stable())
+
+    def test_undone_merge_cannot_authorize_genealogy_retirement(self):
+        self.native_retirement(undo=True)
+        with self.assertRaisesRegex(ValueError, 'merge was undone'):
+            plan(self.root, [self.ids[0]])
+
+    def test_unexplained_parent_stays_blocked_with_valid_native_merge(self):
+        self.native_retirement()
+        prior = self.read(f'www/people/{self.ids[0]}.json')
+        prior['relationships']['parents'][0]['claim_id'] = 'unreviewed-parent'
+        self.put(f'www/people/{self.ids[0]}.json', prior)
+        with self.assertRaisesRegex(ValueError, 'unexplained genealogical'):
+            plan(self.root, [self.ids[0]])
 
     def test_four_subjects_retire_without_adopting_genealogy(self):
         original=self.snapshot();proposed=plan(self.root,self.ids)
