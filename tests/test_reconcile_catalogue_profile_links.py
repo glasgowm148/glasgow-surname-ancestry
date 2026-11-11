@@ -6,7 +6,21 @@ import tempfile
 import unittest
 import shutil
 
-from tools.reconcile_catalogue_profile_links import apply, plan
+from tools.reconcile_catalogue_profile_links import apply, plan, provider_keys
+
+
+class ProviderRecordTests(unittest.TestCase):
+    def test_ancestry_record_anchor_includes_collection_and_normalizes_country(self):
+        url = 'https://www.ancestry.co.uk/search/collections/60143/records/17145386'
+        self.assertEqual(provider_keys({'source_url': url}),
+                         provider_keys({'source_url': url.replace('.co.uk', '.com')}))
+        self.assertNotEqual(provider_keys({'source_url': url}),
+                            provider_keys({'source_url': url.replace('60143', '60144')}))
+
+    def test_unrelated_paths_and_hosts_are_not_record_anchors(self):
+        for url in ('https://www.ancestry.co.uk.evil.test/search/collections/60143/records/17145386',
+                    'https://www.ancestry.co.uk/family-tree/person/tree/60143/person/17145386'):
+            self.assertEqual(set(), provider_keys({'source_url': url}))
 
 
 class ProjectionTests(unittest.TestCase):
@@ -91,7 +105,11 @@ class ProjectionTests(unittest.TestCase):
         prior = self.read(f'www/people/{self.ids[0]}.json')
         prior['relationships']['parents'] = [edge]
         self.put(f'www/people/{self.ids[0]}.json', prior)
-        self.put('www/assets/research/atlas-model.json', {'people': [{'id': self.ids[0], 'parents': [edge]}, {'id': 'Glasgow-1'}]})
+        self.put('www/assets/research/atlas-model.json', {'people': [
+            {'id': self.ids[0], 'parents': [edge]}, {'id': 'Glasgow-1'},
+            {'id': 'Glasgow-99', 'childrenRecorded': [
+                {'id': 'Glasgow-1', 'role': 'child', 'claim_id': 'current-parent'},
+                {'id': self.ids[0], 'role': 'child', 'claim_id': 'retired-parent'}]}]})
 
     def test_native_merge_retires_only_explicit_historical_parent(self):
         self.native_retirement()
@@ -100,7 +118,9 @@ class ProjectionTests(unittest.TestCase):
         self.assertEqual(before, self.read('www/people/glasgow-1.json'))
         alias = self.read(f'www/people/{self.ids[0]}.json')
         self.assertEqual('retired-parent', alias['superseded_documentary_account']['relationships']['parents'][0]['claim_id'])
-        self.assertEqual(['Glasgow-1'], [p['id'] for p in self.read('www/assets/research/atlas-model.json')['people']])
+        people = self.read('www/assets/research/atlas-model.json')['people']
+        self.assertEqual(['Glasgow-1', 'Glasgow-99'], [p['id'] for p in people])
+        self.assertEqual([{'id': 'Glasgow-1', 'role': 'child', 'claim_id': 'current-parent'}], people[1]['childrenRecorded'])
 
     def test_active_duplicate_parent_still_blocks_native_merge_projection(self):
         self.native_retirement(retire=False)
@@ -121,6 +141,29 @@ class ProjectionTests(unittest.TestCase):
         prior = self.read(f'www/people/{self.ids[0]}.json')
         prior['relationships']['parents'][0]['claim_id'] = 'unreviewed-parent'
         self.put(f'www/people/{self.ids[0]}.json', prior)
+        with self.assertRaisesRegex(ValueError, 'unexplained genealogical'):
+            plan(self.root, [self.ids[0]])
+
+    def test_native_merge_can_use_exact_canonical_record_binding(self):
+        self.native_retirement()
+        target = self.read('www/people/glasgow-1.json')
+        target['evidence'] = []
+        self.put('www/people/glasgow-1.json', target)
+        binding = dict(source_url='https://www.findmypast.co.uk/transcript?id=RECORD0',
+                       retired_catalogue_id=self.ids[0], canonical_profile_id='Glasgow-1',
+                       profiles={'Glasgow-1': {'role': 'father'}})
+        self.put('research/canonical_records.json', [binding])
+        self.assertTrue(plan(self.root, [self.ids[0]]))
+        binding['canonical_profile_id'] = 'Glasgow-2'
+        self.put('research/canonical_records.json', [binding])
+        with self.assertRaisesRegex(ValueError, 'missing shared provider-record proof'):
+            plan(self.root, [self.ids[0]])
+
+    def test_unexplained_inverse_child_is_not_removed(self):
+        self.native_retirement()
+        model = self.read('www/assets/research/atlas-model.json')
+        model['people'][2]['childrenRecorded'][1]['claim_id'] = 'unreviewed-child'
+        self.put('www/assets/research/atlas-model.json', model)
         with self.assertRaisesRegex(ValueError, 'unexplained genealogical'):
             plan(self.root, [self.ids[0]])
 

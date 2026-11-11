@@ -13,6 +13,7 @@ from collections import Counter
 from html import escape
 import io
 import json
+import re
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
@@ -34,6 +35,10 @@ def provider_keys(value):
                 if url.hostname and 'findmypast.' in url.hostname:
                     if record:
                         result.add(('findmypast', record[0]))
+                elif url.hostname in {'ancestry.co.uk', 'www.ancestry.co.uk', 'ancestry.com', 'www.ancestry.com'}:
+                    match = re.fullmatch(r'/search/collections/(\d+)/records/(\d+)/?', url.path)
+                    if match:
+                        result.add(('ancestry', '/'.join(match.groups())))
             elif key not in {'imported', 'history', 'superseded_documentary_account'}:
                 result.update(provider_keys(item))
     elif isinstance(value, list):
@@ -142,6 +147,14 @@ def _retired_parent(row, proofs):
                 and row.get('relationship', row.get('role', proof[1])) == proof[1])
 
 
+def _retired_child(row, proofs, old, parent):
+    if not isinstance(row, dict):
+        return False
+    proof = proofs.get(row.get('assertion_id') or row.get('claim_id'))
+    return bool(proof and row.get('id') == old and str(parent or '').casefold() == proof[0]
+                and row.get('relationship', row.get('role')) in {'child', 'son', 'daughter'})
+
+
 def check_edges(value, old, owned=False, *, retired_parents=None):
     retired_parents = retired_parents or {}
     if isinstance(value, dict):
@@ -151,6 +164,10 @@ def check_edges(value, old, owned=False, *, retired_parents=None):
                 continue
             retired = (owned and key in {'parents', 'father', 'mother'} and isinstance(item, list)
                        and all(_retired_parent(row, retired_parents) for row in item))
+            if not owned and key in {'children', 'childrenRecorded'} and isinstance(item, list):
+                relevant = [row for row in item if genealogy_references(row, old)]
+                retired = bool(relevant) and all(_retired_child(row, retired_parents, old, value.get('id'))
+                                                for row in relevant)
             if key in GENEALOGY and not retired and (genealogy_references(item, old) or (owned and item)):
                 raise ValueError(f'{old}: unexplained genealogical edges in {key}; review required')
             if key in {'relationships', 'edges'} and isinstance(item, list):
@@ -220,12 +237,24 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
         if target.get('id') != profile or target.get('status') == 'superseded':
             raise ValueError(f'{old}: invalid canonical target identity')
         previous = json.loads((web / f'people/{old}.json').read_text())
+        retired_parents = retired_parent_proof(root, old, profile, link)
         if previous.get('status') == 'superseded':
             if previous.get('id') != profile:
                 raise ValueError(f'{old}: existing alias has conflicting target')
-        elif not provider_keys(previous) & provider_keys(target):
-            raise ValueError(f'{old}: missing shared provider-record proof')
-        retired_parents = retired_parent_proof(root, old, profile, link)
+        else:
+            anchors = provider_keys(target)
+            # Canonical record bindings are published separately from dossiers.
+            # A native merge may therefore have a reviewed record anchor before
+            # the target dossier has been rendered with that source.
+            records_path = root / 'research/canonical_records.json'
+            if retired_parents and records_path.is_file():
+                records = json.loads(records_path.read_text())
+                anchors |= provider_keys([row for row in records
+                    if row.get('retired_catalogue_id') == old
+                    and row.get('canonical_profile_id') == profile
+                    and profile in row.get('profiles', {})])
+            if not provider_keys(previous) & anchors:
+                raise ValueError(f'{old}: missing shared provider-record proof')
         for collection in [people, previous if previous.get('status') != 'superseded' else {}, atlas]:
             check_edges(collection, old, retired_parents=retired_parents)
         if not any(p.get('catalogue_id') == slug for p in people['people']):
@@ -543,6 +572,11 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
 
         if atlas is not None:
             atlas['people'] = [p for p in atlas['people'] if not exact_subject(p, old)]
+            for person in atlas['people']:
+                for field in ('children', 'childrenRecorded'):
+                    if isinstance(person.get(field), list):
+                        person[field] = [row for row in person[field]
+                            if not _retired_child(row, retired_parents, old, person.get('id'))]
             atlas = rewire_documentary(atlas, old, slug, profile)
         if previous.get('status') == 'superseded':
             continue  # Existing public aliases and their history are authoritative.
