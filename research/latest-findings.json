@@ -83292,6 +83292,72 @@
           "previous_status_provenance": "Native claim clm-d1-glasgow-1657-father-20261106, assessment revision 1, 6 November 2026, 18% uncertain; revision 2, 11 November 2026, 8% uncertain."
         }
       ]
+    },
+    {
+      "id": "polwarth-james1779-parents-identified-20261111",
+      "found_on": "2026-11-11",
+      "kind": "relationship",
+      "status": "qualified",
+      "significance": "One new confident father edge. The largest pre-1850 working component grows from 1,536 to 1,551 people after the household identification and child attachment; the other adult links retain their uncertainty. One duplicate documentary account is removed, so the measured population falls by one.",
+      "detail_url": "/people/record-ancestry-glasgow-001344713cac.html#research-findings",
+      "finding": "James Glasgow, born 29 May 1779 and baptised 6 June at Polwarth, now has Peter Glasgow-2878 and Jean Anderson-83920 as his selected parents, each at 92% confident. The literal parental couple in the parish indexes matches the memorial household naming sons John and James, with compatible ages and Borders geography.",
+      "qualification": "New family interpretation of held derivative sources, not newly discovered or inspected originals. The 92% includes identifying the recorded parents with the memorial adults. The 1798 Eccles groom remains a separate possible later identity of the child; his 12% father hypothesis and the William Alexander hypothesis are not upgraded. Peter’s own ancestry and the earlier Polwarth family remain unchanged.",
+      "people": [
+        {
+          "id": "record-ancestry-glasgow-001344713cac",
+          "name": "James Glasgow, baptised Polwarth 1779",
+          "url": "/people/record-ancestry-glasgow-001344713cac.html",
+          "role": "New confident father and mother, each 92%; adult identity unresolved"
+        },
+        {
+          "id": "Glasgow-2878",
+          "name": "Peter Glasgow",
+          "url": "/people/glasgow-2878.html",
+          "role": "Identified father, 92%"
+        },
+        {
+          "id": "Anderson-83920",
+          "name": "Jean Anderson",
+          "url": "/people/anderson-83920.html",
+          "role": "Independently identified mother, 92%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Scotland Select Births and Baptisms, record 644438: James born 29 May and baptised 6 June 1779, Polwarth; Petter Glasgow and Jean Anderson",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/644438"
+        },
+        {
+          "title": "Findmypast, Swinton John birth/baptism 1772, OPR755/1 item8 p24, Peter Glasgow and Jean Anderson",
+          "url": "https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884269&tab=this"
+        },
+        {
+          "title": "Peter Glasgow memorial 198800998, held transcription: spouse Jean Anderson and sons John and James; shared stone",
+          "url": "https://www.findagrave.com/memorial/198800998/peter_glasgow"
+        }
+      ],
+      "relationship_changes": [
+        {
+          "relationship": "father",
+          "subject": "record-ancestry-glasgow-001344713cac",
+          "relative": "Glasgow-2878",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 92,
+          "explanation": "Explicit baptism parent names, identified with the existing memorial couple through the repeated couple, sons John/James, regional setting and compatible ages.",
+          "previous_status_provenance": "Public record-defined child account before 11 November 2026 had no selected parents; the source index wording was already held. New native assessment clm-polwarth-james1779-father-20261111 revision 1."
+        },
+        {
+          "relationship": "mother",
+          "subject": "record-ancestry-glasgow-001344713cac",
+          "relative": "Anderson-83920",
+          "before": "unknown",
+          "after": "certain",
+          "probability_percent": 92,
+          "explanation": "Explicit baptism parent names, identified with the existing memorial couple through the repeated couple, sons John/James, regional setting and compatible ages.",
+          "previous_status_provenance": "Public record-defined child account before 11 November 2026 had no selected parents; the source index wording was already held. New native assessment clm-polwarth-james1779-mother-20261111 revision 1."
+        }
+      ]
     }
   ]
 }

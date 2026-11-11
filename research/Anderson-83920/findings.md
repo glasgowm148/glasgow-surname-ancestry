@@ -2,6 +2,8 @@
 
 ## Current conclusion
 
+**Polwarth household identification — 11 November 2026:** identify the Peter/Petter Glasgow–Jean Anderson couple in the 1770 Swinton, 1772 Swinton and 1779 Polwarth child records with Peter Glasgow-2878 and Jean Anderson-83920 at **92% subjective confidence**. The complete parental names recur, the memorial names sons John and James, the parishes belong to the same Borders setting, and both adults’ memorial ages fit the child sequence. This is a combined household inference; the repeated indexes of each event are not independent evidence. No competing same-couple household is established in the reviewed material. Original registers and stone remain uninspected. The 1779 record-defined child James now has Peter and Jean selected as his confident parents at 92%; his later identity remains unresolved. [James’s sourced account](/people/record-ancestry-glasgow-001344713cac.html#research-findings).
+
 Reviewed 30 October 2026: Jean's matching memorial remains 198800999, and the live correction confirmed below supersedes the earlier pending correction language. Her shared stone calls Peter Glasgow “late Tenant Whitebank”; [Peter's current review](/people/glasgow-2878.html#research-findings) prefers him as the 1797 accused Peter of Whitebank at 94% subjective identity confidence. That identification supplies no new event for Jean, no proof of executed transportation and no child attachment. Her existing vital account is retained; this review uses held derivative text, not a new original-stone or court-paper reading.
 
 ## Earlier memorial summary — retained 30 October 2026
@@ -67,3 +69,11 @@ Next question: Compare the original entry and existing household sources for ide
 
 Birth, baptism, death and burial retain their distinct source roles. Comparison roles do not assign an event or parents to this profile. The approved birth refinements for Isabel-3482 and James-1573 are separate from unchanged relationship assessments; an additional index does not increase a percentage. [Shared current account](/branches/early-scottish-records/#chapter-findmypast-born-before-1800).
 <!-- END FMP-BIRTH-SCOPE-PAGES12-16-20261023 -->
+
+## Polwarth household and record-defined son — 11 November 2026
+
+The separate documentary Petter account is consolidated into the existing Peter profile. This identifies a recorded parent with an existing person; it does not prove Peter’s own ancestry. The existing 12% Eccles-groom and William Alexander father proposals stay separately uncertain after their parent identifier is reconciled. The James married at Eccles in 1798 is not identified with the 1779 child by this review.
+
+The baptism index gives James’s birth as 29 May 1779 and baptism as 6 June 1779 at Polwarth, naming Petter Glasgow and Jean Anderson. The independent 1772 Swinton child and the memorial sons supply family-pattern support. The resulting 92% concerns the whole parent-profile proposition, not doubt over the literal indexed names. Another unrepresented couple remains the residual alternative; there is no known conflicting spouse or chronology.
+
+Sources: [Ancestry child index 60143/644438](https://www.ancestry.co.uk/search/collections/60143/records/644438), [same-event parent entry 60143/644437](https://www.ancestry.co.uk/search/collections/60143/records/644437), [Findmypast 1779 companion transcript](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4883218&tab=this), [1772 Swinton John, OPR 755/1 item 8 p.24](https://www.findmypast.co.uk/transcript?id=SCOT%2FOPR%2FBAP%2F4884269&tab=this), [Peter’s memorial](https://www.findagrave.com/memorial/198800998/peter_glasgow) and [Jean’s companion memorial of the same stone](https://www.findagrave.com/memorial/198800999/jean-glasgow). Held derivative readings reassessed; no new original inspection or live WikiTree change.

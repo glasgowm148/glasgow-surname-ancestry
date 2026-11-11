@@ -2887,6 +2887,29 @@
         }
       },
       "relationships": []
+    },
+    {
+      "schema_version": 3,
+      "id": "polwarth-james1779-birth-index-20261111",
+      "subject": "record-ancestry-glasgow-001344713cac",
+      "status": "approved",
+      "reviewed": "2026-11-11",
+      "scope": "Record-defined 1779 child only; adult identity unresolved",
+      "basis": "Held Ancestry transcript 60143/644438 explicitly records birth 29 May 1779 and baptism 6 June 1779 at Polwarth, naming Petter Glasgow and Jean Anderson.",
+      "source": {
+        "url": "https://www.ancestry.co.uk/search/collections/60143/records/644438"
+      },
+      "summary": "Indexed birth date belongs to the record-defined child; Polwarth is the baptism parish, not a separately stated birthplace.",
+      "vitals": {
+        "birth": {
+          "date": "1779-05-29",
+          "place": null,
+          "status": "exact",
+          "label": "Indexed birth date",
+          "note": "Baptised 6 June 1779 at Polwarth. Original register uninspected; no adult-profile identification is implied.",
+          "source_url": "https://www.ancestry.co.uk/search/collections/60143/records/644438"
+        }
+      }
     }
   ]
 }
