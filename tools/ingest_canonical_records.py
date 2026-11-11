@@ -524,7 +524,11 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
             # occurrence, including its generated claims. Handwritten claims
             # and other entries on the source remain protected.
             retired_citations = [c for c in previous_citations
-                                 if (c.get('source') or {}).get('reference') in retired_ids]
+                                 if (c.get('source') or {}).get('reference') in retired_ids
+                                 or (isinstance(c.get('person'), str) and any(
+                                     c.get('evidence_id') == 'E-' + sha256(
+                                         (prior + '|' + c['person']).encode()).hexdigest()[:16]
+                                     for prior in retired_ids))]
             for citation in retired_citations:
                 if any(not isinstance(claim, dict) or claim.get('provenance') != 'mapped_record'
                        for claim in citation.get('claims', [])):

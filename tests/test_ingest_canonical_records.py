@@ -71,13 +71,19 @@ class CanonicalRecordIngestTest(unittest.TestCase):
 
     def test_explicit_replacement_archives_occurrence_and_keeps_old_lookup(self):
         citation, old_record = self.replacement_fixture()
+        generated = dict(evidence_id='E-' + sha256(b'stale-occurrence|glasgow-98').hexdigest()[:16],
+                         person='glasgow-98', source={'reference': 'provider/reference'}, claims=[])
+        self.source['citations'].append(generated)
+        self.source['members'].append('glasgow-98')
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
         apply(self.root, ['new-canonical-id'], refresh_sources=False)
         rows = json.loads((self.web / 'data/records-index.json').read_text())
         self.assertEqual([r['record_id'] for r in rows], ['unrelated', 'stable-record'])
         source = json.loads((self.web / 'assets/v3/sources' / (self.source['id'] + '.json')).read_text())
-        self.assertEqual(source['annotations']['superseded_citations'], [citation])
+        self.assertEqual(source['annotations']['superseded_citations'], [citation, generated])
         self.assertEqual(source['annotations']['superseded_records'], [old_record])
         self.assertNotIn('glasgow-99', source['members'])
+        self.assertNotIn('glasgow-98', source['members'])
         self.assertEqual(source['transcription'], 'Preserved original reading')
         alias = json.loads((self.web / 'assets/research/records/stale-occurrence.json').read_text())
         self.assertEqual(alias['canonical_record_id'], 'stable-record')
