@@ -335,7 +335,10 @@ class ResolvedDossierTests(unittest.TestCase):
             files = {
                 'people/person-1.json': first,
                 'people/person-2.json': second,
-                'assets/research/people/person-1.json': {**first, 'vitals': {'death': {'date': '1700'}}},
+                'assets/research/people/person-1.json': {
+                    **first, 'vitals': {'death': {'date': '1700'}},
+                    'relationships': {'children': [{'id': 'Former-child',
+                        'assertion_id': 'moved-claim', 'relationship': 'son'}]}},
                 'assets/research/people/person-2.json': second,
                 'people/person-1.network.json': {'person': {'id': 'Person-1'}, 'relationships': []},
                 'people/person-2.network.json': {'person': {'id': 'Person-2'}, 'relationships': [{'id': 'Reviewed'}],
@@ -371,11 +374,19 @@ class ResolvedDossierTests(unittest.TestCase):
             model = json.loads((root / 'assets/research/people/person-1.json').read_text())
             self.assertEqual(model['vitals']['birth']['date'], 'before 1601')
             self.assertEqual(model['vitals']['death'], {'date': '1700'})
+            self.assertEqual(model['relationships'], first['relationships'])
             (root / 'data/ancestry-documentary-people.json').write_text(json.dumps({'chronology': []}))
             module.publish(root, ['person-1'])
             restored = json.loads((root / 'assets/research/people/person-1.json').read_text())
             self.assertEqual(restored['vitals']['birth'], first['vitals']['birth'])
             self.assertEqual(restored['vitals']['death'], {'date': '1700'})
+            # Retiring the last claim also removes the dossier's review marker.
+            # That must not leave its old family assertion in a legacy panel.
+            restored['relationships'] = {'children': [{'id': 'Former-child'}]}
+            (root / 'assets/research/people/person-1.json').write_text(json.dumps(restored))
+            module.publish(root, ['person-1'])
+            self.assertEqual(json.loads((root / 'assets/research/people/person-1.json').read_text())[
+                'relationships'], first['relationships'])
 
     def test_targeted_publish_rejects_unknown_ids_before_writes(self):
         with tempfile.TemporaryDirectory() as temp:

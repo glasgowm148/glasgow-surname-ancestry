@@ -589,7 +589,7 @@ def publish(root=ROOT / 'www', profile_ids=None):
             path.write_text(json.dumps(resolved, ensure_ascii=False, separators=(',', ':')) + '\n')
             changed += 1
     # The atlas person panel reads this derived model, rather than the dossier.
-    # Project only explicitly reviewed vital kinds; retain other model fields.
+    # Project reviewed vitals and the resolved family; retain other model fields.
     for path in sorted((root / 'assets/research/people').glob('*.json')):
         model = json.loads(path.read_text())
         dossier = resolved_dossiers.get(str(model.get('id', path.stem)).casefold())
@@ -602,6 +602,10 @@ def publish(root=ROOT / 'www', profile_ids=None):
                      if isinstance(vital.get('provenance'), dict)
                      and vital['provenance'].get('assessment_id'))
         before = deepcopy(model)
+        if 'relationships' in dossier:
+            # A moved or withdrawn assertion must not survive in this cache
+            # after it has disappeared from the canonical person's account.
+            model['relationships'] = deepcopy(dossier['relationships'])
         for kind in kinds:
             if kind in dossier.get('vitals', {}):
                 model.setdefault('vitals', {})[kind] = deepcopy(dossier['vitals'][kind])
