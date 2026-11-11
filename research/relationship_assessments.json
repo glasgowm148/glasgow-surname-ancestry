@@ -184584,13 +184584,13 @@
   {
     "assertion_id": "clm-fa1-record-ancestry-glasgow-17b6fc36789d-father-20261105",
     "people": [
-      "record-ancestry-glasgow-17b6fc36789d",
+      "Glasgow-1406",
       "Glasgow-1512"
     ],
     "claim": "Robert Glasgow is proposed as the father of Michael Glasgow; this is a tentative link whose grade and limits are stated in the assessment.",
     "relation_type": null,
     "perspectives": {
-      "record-ancestry-glasgow-17b6fc36789d": {
+      "Glasgow-1406": {
         "relationship": "father"
       },
       "Glasgow-1512": {
@@ -184603,7 +184603,10 @@
       "ancestry-60143-6223645"
     ],
     "provenance": {
-      "new_father_attachment": true,
+      "canonical_subject_id": "Glasgow-1406",
+      "identity_reconciliation": true,
+      "new_documentary_account": true,
+      "new_father_attachment": false,
       "prior_assessment": {
         "relationship": "father",
         "relative_id": null,
@@ -184614,9 +184617,15 @@
       "source_newly_discovered": false
     },
     "status": "uncertain",
-    "assessment_date": "2026-11-05",
+    "assessment_date": "2026-11-11",
     "basis": "Michael Glasgow married Katharin Baird at Kilmarnock on 9 Jun 1703 (Scotland, Select Marriages 60144/3734966; the same couple baptise Elizabeth at Irvine in 1710, Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/6223645). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%.",
     "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 12,
+        "assessment_date": "2026-11-05",
+        "source_basis": "Michael Glasgow married Katharin Baird at Kilmarnock on 9 Jun 1703 (Scotland, Select Marriages 60144/3734966; the same couple baptise Elizabeth at Irvine in 1710, Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/6223645). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%."
+      },
       {
         "status": "uncertain",
         "probability_percent": 12,
@@ -184625,31 +184634,32 @@
       }
     ],
     "reason": "Michael Glasgow married Katharin Baird at Kilmarnock on 9 Jun 1703 (Scotland, Select Marriages 60144/3734966; the same couple baptise Elizabeth at Irvine in 1710, Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/6223645). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%.",
-    "limitations": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%.",
+    "limitations": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%. This separate documentary account is superseded by Glasgow-1406; do not treat it as a second son or a new father attachment.",
     "probability": {
       "value": 0.12,
-      "reviewed": "2026-11-05",
+      "reviewed": "2026-11-11",
       "basis": "Michael Glasgow married Katharin Baird at Kilmarnock on 9 Jun 1703 (Scotland, Select Marriages 60144/3734966; the same couple baptise Elizabeth at Irvine in 1710, Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/6223645). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%.",
       "source_ids": [
         "ancestry-60144-3734966",
         "ancestry-60143-6223645"
       ],
-      "scope": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%."
+      "scope": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%. This separate documentary account is superseded by Glasgow-1406; do not treat it as a second son or a new father attachment."
     },
-    "working_selection": true,
-    "attachment_status": "attached",
-    "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "working_selection": false,
+    "attachment_status": "historical",
+    "allow_new_relationship": false,
+    "lifecycle": "superseded",
+    "display": "historical",
+    "model_note": "Duplicate documentary father account consolidated into Glasgow-1406. Its 12% Robert hypothesis is historical; the existing 23% canonical father assessment remains current.",
     "analysis_links": [
       {
-        "href": "/people/record-ancestry-glasgow-17b6fc36789d.html#research-findings",
-        "label": "Father-link review (FA1, 5 Nov 2026)"
+        "href": "/people/glasgow-1406.html#research-findings",
+        "label": "Consolidated Irvine household"
       }
     ],
     "profile_names": {
-      "Glasgow-1512": "Robert Glasgow",
-      "record-ancestry-glasgow-17b6fc36789d": "Michael Glasgow"
+      "Glasgow-1406": "Michael Glasgow",
+      "Glasgow-1512": "Robert Glasgow"
     }
   },
   {
@@ -187178,13 +187188,13 @@
   {
     "assertion_id": "clm-fa1-record-ancestry-glasgow-f6955358d5e4-father-20261105",
     "people": [
-      "record-ancestry-glasgow-f6955358d5e4",
+      "Glasgow-1406",
       "Glasgow-1512"
     ],
     "claim": "Robert Glasgow is proposed as the father of Michaell Glasgow; this is a tentative link whose grade and limits are stated in the assessment.",
     "relation_type": null,
     "perspectives": {
-      "record-ancestry-glasgow-f6955358d5e4": {
+      "Glasgow-1406": {
         "relationship": "father"
       },
       "Glasgow-1512": {
@@ -187196,7 +187206,10 @@
       "ancestry-60143-17145386"
     ],
     "provenance": {
-      "new_father_attachment": true,
+      "canonical_subject_id": "Glasgow-1406",
+      "identity_reconciliation": true,
+      "new_documentary_account": true,
+      "new_father_attachment": false,
       "prior_assessment": {
         "relationship": "father",
         "relative_id": null,
@@ -187207,9 +187220,15 @@
       "source_newly_discovered": false
     },
     "status": "uncertain",
-    "assessment_date": "2026-11-05",
+    "assessment_date": "2026-11-11",
     "basis": "Michaell Glasgow is named as father of Janet Glasgow, baptised 30 Jan 1715 at Irvine, with mother Katharine Baird (Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/17145386). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%.",
     "assessment_history": [
+      {
+        "status": "uncertain",
+        "probability_percent": 12,
+        "assessment_date": "2026-11-05",
+        "source_basis": "Michaell Glasgow is named as father of Janet Glasgow, baptised 30 Jan 1715 at Irvine, with mother Katharine Baird (Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/17145386). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%."
+      },
       {
         "status": "uncertain",
         "probability_percent": 12,
@@ -187218,30 +187237,31 @@
       }
     ],
     "reason": "Michaell Glasgow is named as father of Janet Glasgow, baptised 30 Jan 1715 at Irvine, with mother Katharine Baird (Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/17145386). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%.",
-    "limitations": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%.",
+    "limitations": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%. This separate documentary account is superseded by Glasgow-1406; do not treat it as a second son or a new father attachment.",
     "probability": {
       "value": 0.12,
-      "reviewed": "2026-11-05",
+      "reviewed": "2026-11-11",
       "basis": "Michaell Glasgow is named as father of Janet Glasgow, baptised 30 Jan 1715 at Irvine, with mother Katharine Baird (Ancestry entry https://www.ancestry.co.uk/search/collections/60143/records/17145386). The catalogue's Michael Glasgow-1406 (Irvine, husband of Catharine Baird) has a working father Robert Glasgow-1512 (Ayr, before 1652) at 23% (uncertain, assessed 16 Oct 2026), based on a Covenanter record of 1679. Allowing about half the weight for the documentary person being the same man as the 1679 Michael (the 1679 man would have been about 24 years older than the 1703-1735 father), the link is 12%.",
       "source_ids": [
         "ancestry-60143-17145386"
       ],
-      "scope": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%."
+      "scope": "Index transcript only. The weak point is the identity of the Irvine and Kilmarnock father with the Covenanter Michael of 1679 on which 1406's father link rests; the father link itself is the catalogue's working hypothesis at 23%. This separate documentary account is superseded by Glasgow-1406; do not treat it as a second son or a new father attachment."
     },
-    "working_selection": true,
-    "attachment_status": "attached",
-    "allow_new_relationship": true,
-    "lifecycle": "current",
-    "display": "current",
+    "working_selection": false,
+    "attachment_status": "historical",
+    "allow_new_relationship": false,
+    "lifecycle": "superseded",
+    "display": "historical",
+    "model_note": "Duplicate documentary father account consolidated into Glasgow-1406. Its 12% Robert hypothesis is historical; the existing 23% canonical father assessment remains current.",
     "analysis_links": [
       {
-        "href": "/people/record-ancestry-glasgow-f6955358d5e4.html#research-findings",
-        "label": "Father-link review (FA1, 5 Nov 2026)"
+        "href": "/people/glasgow-1406.html#research-findings",
+        "label": "Consolidated Irvine household"
       }
     ],
     "profile_names": {
-      "Glasgow-1512": "Robert Glasgow",
-      "record-ancestry-glasgow-f6955358d5e4": "Michaell Glasgow"
+      "Glasgow-1406": "Michael Glasgow",
+      "Glasgow-1512": "Robert Glasgow"
     }
   },
   {

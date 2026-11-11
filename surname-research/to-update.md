@@ -4671,3 +4671,7 @@ HOLD: [complete sourced draft](new-people/1846_United_States_Ohio_Hamilton_Cinci
 | [Janet (Gilmour) Glasgow](https://www.wikitree.com/wiki/Gilmour-965) | OPEN | Correct 1843 Gilmour / 1840 Scott source attribution; retain date-label and natal-surname limits. |
 | [Janet (Glasgow) Scott](https://www.wikitree.com/wiki/Glasgow-3066) | OPEN | Correct 1843 Gilmour / 1840 Scott source attribution; retain date-label and natal-surname limits. |
 | [William Glasgow](https://www.wikitree.com/wiki/Glasgow-3545) | OPEN | Add qualified original-source estate-notice account; retain identity HOLD and all existing family assessments. |
+
+## 11 November 2026 — Irvine Michael household reconciliation
+
+| [Michael Glasgow, Irvine](https://www.wikitree.com/wiki/Glasgow-1406) | OPEN | Add the indexed 9 June 1703 Kilmarnock marriage to Katharin Baird and the correlated 1710/1715 child indexes; use the complete revised biography. Duplicate documentary fathers are one existing household; retain Robert’s 23% uncertain father assessment. |

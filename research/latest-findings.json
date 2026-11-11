@@ -83130,6 +83130,59 @@
       "provenance": [
         "research/canonical_records.json"
       ]
+    },
+    {
+      "id": "irvine-michael-household-reconciliation-20261111",
+      "found_on": "2026-11-11",
+      "kind": "correction",
+      "status": "qualified",
+      "finding": "The Michael/Katharin Baird marriage indexed at Kilmarnock on 9 June 1703 and the Irvine Elizabeth (1710) and Janet (1715) baptism households belong to Michael Glasgow-1406’s existing family. Two separate documentary father accounts are consolidated into that profile. Their 12% Robert-father proposals are historical duplicates; Michael’s canonical father remains 23% uncertain.",
+      "qualification": "Provider index transcripts; originals uninspected. This is an identity and catalogue correction, not two new sons, new father attachments or a confidence increase. The earlier 1679 skinner identification retains its existing locality/trade qualification; the summons is not a birth record.",
+      "people": [
+        {
+          "id": "Glasgow-1406",
+          "name": "Michael Glasgow",
+          "role": "Consolidated Irvine father and 1703 bridegroom",
+          "url": "/people/glasgow-1406.html"
+        },
+        {
+          "id": "Baird-5776",
+          "name": "Catharine Baird",
+          "role": "Recorded spouse and mother",
+          "url": "/people/baird-5776.html"
+        },
+        {
+          "id": "Glasgow-1409",
+          "name": "Elizabeth Glasgow",
+          "role": "Existing child, baptised 1710",
+          "url": "/people/glasgow-1409.html"
+        },
+        {
+          "id": "Glasgow-1407",
+          "name": "Janet Glasgow",
+          "role": "Existing child, baptised 1715",
+          "url": "/people/glasgow-1407.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ancestry, Scotland, Select Marriages: Michael Glasgow and Katharin Baird, Kilmarnock, 9 June 1703, 60144/3734966",
+          "url": "https://www.ancestry.co.uk/search/collections/60144/records/3734966"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms: Michael, parent of Elizabeth, Irvine, 12 November 1710, 60143/6223646",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/6223646"
+        },
+        {
+          "title": "Ancestry, Scotland, Select Births and Baptisms: Janet, Irvine, 30 January 1715, 60143/17145386",
+          "url": "https://www.ancestry.co.uk/search/collections/60143/records/17145386"
+        }
+      ],
+      "detail_url": "/people/glasgow-1406.html#research-findings",
+      "provenance": [
+        "research/Glasgow-1406/findings.md",
+        "research/canonical_records.json"
+      ]
     }
   ]
 }
