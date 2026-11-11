@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Refresh research-access interfaces after targeted or full site generation."""
 from pathlib import Path
+import argparse
 import runpy
 import sys
 
@@ -109,5 +110,12 @@ def publish(*, render_people=True, gate=True, refresh_index=True):
         raise RuntimeError('Website synchronized; local genealogy index refresh failed (see refresh state/logs).')
 
 
-if __name__ == '__main__':
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.parse_args(argv)
     publish()
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())
