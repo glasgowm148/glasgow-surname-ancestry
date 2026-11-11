@@ -51,6 +51,52 @@ class CanonicalRecordIngestTest(unittest.TestCase):
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(value if isinstance(value, str) else json.dumps(value))
 
+    def replacement_fixture(self):
+        self.canonical.update(supersedes_public_record_ids=['stale-occurrence'],
+                              public_record_replacement_reason='Reviewed participant conflation')
+        self.put('research/canonical_records.json', [self.canonical])
+        self.put('www/data/records-index.json', [self.unrelated,
+                 {'record_id': 'stable-record', 'source_url': self.url},
+                 {'record_id': 'stale-occurrence', 'source_url': self.url,
+                  'catalogue_id': 'glasgow-99'}])
+        self.put('www/assets/research/record-index.json',
+                 [{'id': 'unrelated'}, {'id': 'stable-record'}, {'id': 'stale-occurrence'}])
+        citation = dict(evidence_id='old-mapped-citation', person='glasgow-99',
+                        source={'reference': 'stale-occurrence', 'url': self.url},
+                        claims=[{'id': 'old-claim', 'provenance': 'mapped_record'}])
+        old_record = dict(id='stale-occurrence', person='glasgow-99', year=1784, date='1784')
+        self.source.update(members=['glasgow-99'], citations=[citation], records=[old_record])
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        return citation, old_record
+
+    def test_explicit_replacement_archives_occurrence_and_keeps_old_lookup(self):
+        citation, old_record = self.replacement_fixture()
+        apply(self.root, ['new-canonical-id'], refresh_sources=False)
+        rows = json.loads((self.web / 'data/records-index.json').read_text())
+        self.assertEqual([r['record_id'] for r in rows], ['unrelated', 'stable-record'])
+        source = json.loads((self.web / 'assets/v3/sources' / (self.source['id'] + '.json')).read_text())
+        self.assertEqual(source['annotations']['superseded_citations'], [citation])
+        self.assertEqual(source['annotations']['superseded_records'], [old_record])
+        self.assertNotIn('glasgow-99', source['members'])
+        self.assertEqual(source['transcription'], 'Preserved original reading')
+        alias = json.loads((self.web / 'assets/research/records/stale-occurrence.json').read_text())
+        self.assertEqual(alias['canonical_record_id'], 'stable-record')
+        self.assertEqual(alias['profile_ids'], 'Glasgow-32')
+        self.assertEqual(apply(self.root, ['new-canonical-id'], refresh_sources=False)['changed_files'], 0)
+
+    def test_explicit_replacement_refuses_another_source_or_manual_claim(self):
+        self.replacement_fixture()
+        self.canonical['supersedes_public_record_ids'] = ['unrelated']
+        self.put('research/canonical_records.json', [self.canonical])
+        with self.assertRaisesRegex(ValueError, 'different or missing source'):
+            plan(self.root, ['new-canonical-id'])
+        self.canonical['supersedes_public_record_ids'] = ['stale-occurrence']
+        self.put('research/canonical_records.json', [self.canonical])
+        self.source['citations'][0]['claims'][0]['provenance'] = 'manual'
+        self.put('www/assets/v3/sources/' + self.source['id'] + '.json', self.source)
+        with self.assertRaisesRegex(ValueError, 'non-generated claims'):
+            plan(self.root, ['new-canonical-id'])
+
     def test_preserves_stable_ids_unrelated_rows_and_candidate_qualification(self):
         writes = plan(self.root, ['new-canonical-id'])
         rows = writes[self.web / 'data/records-index.json']

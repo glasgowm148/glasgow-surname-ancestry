@@ -335,7 +335,23 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
         if entry_key(row) in seen_providers:
             raise ValueError(f'{rid}: duplicate selected provider record')
         seen_providers.add(entry_key(row))
-        previous_rows = same_entry_rows(row, full_by_provider.get(provider, ()))
+        retired_ids = row.get('supersedes_public_record_ids', [])
+        if (not isinstance(retired_ids, list)
+                or any(not isinstance(item, str) or not re.fullmatch(r'[a-zA-Z0-9_-]+', item)
+                       or item == rid for item in retired_ids)
+                or len(set(retired_ids)) != len(retired_ids)
+                or (retired_ids and not row.get('public_record_replacement_reason'))):
+            raise ValueError(f'{rid}: public record replacements need explicit IDs and a reason')
+        for retired in retired_ids:
+            originals = full_by_id.get(retired, ())
+            if not originals:
+                alias = web / f'assets/research/records/{retired}.json'
+                originals = [read(alias)] if alias.is_file() else []
+            if not originals or any(provider_key(item) != provider for item in originals):
+                raise ValueError(f'{rid}: replacement record {retired} has a different or missing source')
+            record_aliases.add(retired)
+        previous_rows = [item for item in same_entry_rows(row, full_by_provider.get(provider, ()))
+                         if item['record_id'] not in retired_ids]
         if len(previous_rows) > 1:
             raise ValueError(f'{rid}: multiple existing record IDs for this entry; review required')
         if previous_rows:
@@ -503,6 +519,29 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
         # Never infer ownership from another entry's citation or a manual ID.
         current_people = {p['id'] for p, _ in linked} if linked else {''}
         previous_citations = doc.get('citations', [])
+        if retired_ids:
+            # An explicit reviewed replacement can retire an old catalogue
+            # occurrence, including its generated claims. Handwritten claims
+            # and other entries on the source remain protected.
+            retired_citations = [c for c in previous_citations
+                                 if (c.get('source') or {}).get('reference') in retired_ids]
+            for citation in retired_citations:
+                if any(not isinstance(claim, dict) or claim.get('provenance') != 'mapped_record'
+                       for claim in citation.get('claims', [])):
+                    raise ValueError(f'{rid}: replacement citation has non-generated claims; review required')
+                history = doc.setdefault('annotations', {}).setdefault('superseded_citations', [])
+                if citation not in history:
+                    history.append(deepcopy(citation))
+                if citation.get('person'):
+                    retired_generated_members.setdefault(sid, set()).add(citation['person'])
+            previous_citations = [c for c in previous_citations if c not in retired_citations]
+            doc['citations'] = previous_citations
+            retired_records = [r for r in doc.get('records', []) if r.get('id') in retired_ids]
+            for prior in retired_records:
+                history = doc.setdefault('annotations', {}).setdefault('superseded_records', [])
+                if prior not in history:
+                    history.append(deepcopy(prior))
+            doc['records'] = [r for r in doc.get('records', []) if r.get('id') not in retired_ids]
         superseded = []
         for citation in previous_citations:
             person_id = citation.get('person')
@@ -525,6 +564,14 @@ def plan(root: Path, record_ids: list[str], *, defer_unpublished_profiles=False)
         doc['members'] = list(dict.fromkeys([*doc.get('members', []), *(p['id'] for p, _ in linked)]))
         selected_docs.add(sid)
         writes[web / f'assets/research/records/{rid}.json'] = record
+        for retired in retired_ids:
+            # Old record lookups remain usable and expose the corrected
+            # binding; original occurrence/citation context stays in history.
+            writes[web / f'assets/research/records/{retired}.json'] = {
+                **record, 'record_id': retired, 'canonical_record_id': rid,
+                'superseded_by': rid, 'superseded_on': row['reviewed_on'],
+                'superseded_reason': row['public_record_replacement_reason'],
+            }
     full = merge([r for r in full if r['record_id'] not in record_aliases], new_full, 'record_id')
     compact = merge([r for r in compact if r['id'] not in record_aliases], new_compact, 'id')
     source_rows = []
