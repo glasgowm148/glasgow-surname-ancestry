@@ -11,6 +11,20 @@ spec.loader.exec_module(module)
 
 
 class ResolvedDossierTests(unittest.TestCase):
+    def test_relative_without_local_page_uses_verified_wikitree_url(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'people').mkdir()
+            (root / 'people/father-1.html').write_text('Existing account')
+            def relative(pid):
+                return {'id': pid, 'url': f'/people/{pid.lower()}.html',
+                        'wikitree_url': f'https://www.wikitree.com/wiki/{pid}'}
+            dossier = {'relationships': {'parents': [relative('Father-1'), relative('Tait-2506')]}}
+            module.repair_external_family_links(dossier, root)
+            self.assertEqual(dossier['relationships']['parents'][0]['url'], '/people/father-1.html')
+            self.assertEqual(dossier['relationships']['parents'][1]['url'],
+                             'https://www.wikitree.com/wiki/Tait-2506')
+
     def test_superseded_draft_assertion_stays_in_history_without_public_link(self):
         old = 'record-withdrawn'
         original = {'id': 'Father-1', 'relationships': {'children': [

@@ -500,6 +500,20 @@ def merge_maintained_assessments(registry, maintained):
     return result
 
 
+def repair_external_family_links(dossier, root):
+    """Use the actual WikiTree account when a relative has no local page."""
+    for rows in dossier.get('relationships', {}).values():
+        for relative in rows:
+            pid = relative.get('id', '')
+            local = f'/people/{pid.lower()}.html'
+            external = f'https://www.wikitree.com/wiki/{pid}'
+            if (pid and not pid.startswith('record-')
+                    and relative.get('url') == local
+                    and relative.get('wikitree_url') == external
+                    and not (root / local.lstrip('/')).is_file()):
+                relative['url'] = external
+
+
 def publish(root=ROOT / 'www', profile_ids=None):
     """Resolve dossiers; with ``profile_ids``, restrict derived writes to them."""
     def aliases(row, *extra):
@@ -578,6 +592,7 @@ def publish(root=ROOT / 'www', profile_ids=None):
         if original.get('redirect_to'):
             continue
         resolved = resolve(original, assessments, shared)
+        repair_external_family_links(resolved, root)
         keys = aliases(original, path.stem) if requested is not None else {resolved['id'].casefold()}
         resolved_dossiers.update({key: resolved for key in keys})
         # A superseded record subject's redirect stub carries the id of the
