@@ -59,6 +59,12 @@ def publish_creation_aliases(root, entries):
     from tools.publish_retired_record_redirects import redirect_page
     web = Path(root) / 'www'
     active = {row['catalogue_id'] for row in _read(web / 'data/people.json', {'people': []})['people']}
+    entries = list(entries)
+    selected = {entry['catalogue_id'] for entry in entries}
+    # Other maintained builders also publish canonical record accounts.
+    # Their pre-prefix URL follows the same explicit catalogue-ID convention.
+    entries += [{'catalogue_id': ident, 'subject_id': ident.removeprefix('record-')}
+                for ident in sorted(active - selected) if ident.startswith('record-')]
     aliases = {}
     for entry in entries:
         current = entry['catalogue_id']

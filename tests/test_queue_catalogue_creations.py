@@ -92,6 +92,14 @@ The deed does not give her birth date. No compatible profile survived the docume
         self.assertEqual(0,module.publish_creation_aliases(self.root,[self.entry]))
         self.assertEqual('Different existing person',path.read_text())
 
+    def test_canonical_record_from_another_builder_keeps_its_legacy_url(self):
+        module.apply_creations(self.root)
+        data=self.read('data/people.json');data['people'].append({'catalogue_id':'record-other-case'})
+        (self.root/'www/data/people.json').write_text(json.dumps(data))
+        (self.root/'www/people/record-other-case.html').write_text('Existing complete account')
+        self.assertEqual(1,module.publish_creation_aliases(self.root,[]))
+        self.assertIn('record-other-case.html',(self.root/'www/people/other-case.html').read_text())
+
     def test_batch_keeps_same_name_people_and_their_sources_distinct(self):
         other = deepcopy(self.entry)
         other.update(subject_id='jane-1785', catalogue_id='record-jane-glasgow-1785')
