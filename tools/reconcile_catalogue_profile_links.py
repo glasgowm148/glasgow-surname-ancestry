@@ -275,13 +275,19 @@ def plan(root: Path, catalogue_ids: list[str]) -> dict[str, bytes]:
     changes = {}
     def put(path, value):
         path = Path(path)
-        if not isinstance(value, bytes) and path.exists():
-            latest = changes.get(str(path.relative_to(root)), path.read_bytes())
+        key = str(path.relative_to(root))
+        latest = changes.get(key)
+        if latest is None and path.exists():
+            latest = path.read_bytes()
+        if not isinstance(value, bytes) and latest is not None:
             if json.loads(latest) == value:
                 return  # Keep byte formatting and untouched unrelated shards.
-        raw = value if isinstance(value, bytes) else (json.dumps(value, ensure_ascii=False, indent=2) + '\n').encode()
-        if not path.exists() or path.read_bytes() != raw:
-            changes[str(path.relative_to(root))] = raw
+        pretty = latest is not None and b'\n' in latest[:128].strip()
+        raw = value if isinstance(value, bytes) else (json.dumps(
+            value, ensure_ascii=False, indent=2 if pretty else None,
+            separators=None if pretty else (',', ':')) + '\n').encode()
+        if latest != raw:
+            changes[key] = raw
     def read(path):
         return json.loads(changes.get(str(path.relative_to(root)), path.read_bytes()))
 

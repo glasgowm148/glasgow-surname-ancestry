@@ -200,6 +200,8 @@ class ProjectionTests(unittest.TestCase):
         self.assertEqual(original,self.snapshot())
         self.assertTrue(proposed)
         apply(self.root,self.ids,refresh=False)
+        for relative in ('www/data/people.json', 'www/assets/sources/collection-index.json'):
+            self.assertEqual(1, (self.root/relative).read_bytes().count(b'\n'))
         self.assertEqual((self.root/'www/data/resolve/unrelated.json').read_bytes(),original['www/data/resolve/unrelated.json'])
         people=self.read('www/data/people.json')['people']
         self.assertFalse(any(p['catalogue_id'] in self.ids for p in people))
