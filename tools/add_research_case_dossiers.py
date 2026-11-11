@@ -205,7 +205,12 @@ def page_shell(person, dossier, findings, links, *, resolved=False):
     update = dossier.get("wikitree_update")
     if update:
         update = {**update, "profile_url": update.get("profile_url") or catalogue.WIKITREE_URL + ident}
-    return refresh_person(soup, findings, update, links)
+    try:
+        from profile_tree_links import add_familysearch_link
+    except ModuleNotFoundError:
+        from tools.profile_tree_links import add_familysearch_link
+    return add_familysearch_link(
+        refresh_person(soup, findings, update, links), {"id": ident})
 
 
 def _upsert_selected(rows, supplied, key):

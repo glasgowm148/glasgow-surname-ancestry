@@ -5940,6 +5940,11 @@ def _person_page(
 <div id="potential-parentage" class="candidate-tab-panel" role="tabpanel" aria-labelledby="parentage-tab">{parentage_table}<details class="candidate-method-note"><summary>How parent leads are calculated</summary><p>{escape(parentage.get("method") or "Multiple independent clue types are compared.")}</p><p>{escape(parentage.get("warning") or "Naming patterns are clues, not evidence of parentage.")}</p></details></div>
 <div id="similar-people" class="candidate-tab-panel" role="tabpanel" aria-labelledby="duplicates-tab">{similar_candidates}<details class="candidate-method-note"><summary>How duplicate leads are calculated</summary><p>Dates are eligibility gates, not merely deductions: chronologically impossible people are excluded. Dates, places, spouses, parent certainty and children's profiles and names are then compared. A high score is a prompt to inspect records, not a merge recommendation.</p></details></div></div></section>
 {profile_update_panel}{profile_workbench}<section id="research-stack" class="research-stack"><div class="research-stack-heading"><p class="kicker">Open only what you need</p><h2>Research &amp; records</h2></div>{latest_research_disclosure}{timeline_disclosure}{finding_disclosure}{evidence_disclosure}{questions_disclosure}{sources_disclosure}{technical_disclosure}</section></article>"""
+    try:
+        from profile_tree_links import add_familysearch_link
+    except ModuleNotFoundError:
+        from tools.profile_tree_links import add_familysearch_link
+    body = add_familysearch_link(body, {"id": dossier["id"]})
     schema = {"@context": "https://schema.org", "@type": "Person", "name": person["name"], "url": f"{SITE_URL}/people/{slug}.html"}
     if dossier.get("wikitree_url"):
         schema["sameAs"] = dossier["wikitree_url"]

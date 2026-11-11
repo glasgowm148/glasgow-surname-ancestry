@@ -44,7 +44,7 @@ CSS = (".profile-tree-links{--ptl-fg:#315a43;--ptl-bd:#b8cbbd;--ptl-bg:#fffef9;-
        "--ptl-fs:11.52px;--ptl-rad:4px;--ptl-gold:#d1bb84}")
 STYLE = f'<style id="profile-tree-links-css">{CSS}</style>'
 
-_ACTIONS = re.compile(r'<div class="dossier-actions">(?:(?!</?div\b).)*?</div>', re.S)
+_ACTIONS = re.compile(r'<div class="(?:dossier-actions|profile-wikitree-actions|actions)">(?:(?!</?div\b).)*?</div>', re.S)
 # Later passes may reserialize the tag with its attributes in another order.
 _EXISTING_NAV = re.compile(r'<nav\b[^>]*\bid="profile-tree-links"[^>]*>.*?</nav>', re.S)
 _EXISTING_STYLE = re.compile(r'<style\b[^>]*\bid="profile-tree-links-css"[^>]*>.*?</style>', re.S)
@@ -124,11 +124,12 @@ def add_familysearch_link(page: str, person: dict | None, links: dict | None = N
         return page
     fs_id = escape(entry["id"], quote=True)
     title = "Matched FamilySearch profile" + ("" if entry.get("confidence") == "high" else " (probable match)")
-    link = (f'<a data-fs-link href="https://www.familysearch.org/tree/person/details/{fs_id}" '
+    button_class = ' class="button secondary"' if actions[0].startswith('<div class="actions">') else ""
+    link = (f'<a data-fs-link{button_class} href="https://www.familysearch.org/tree/person/details/{fs_id}" '
             f'rel="noopener noreferrer" target="_blank" title="{title}">View on FamilySearch</a>')
     block = actions[0]
     wiki = re.search(r'<a\b[^>]*wikitree\.com[^>]*>.*?</a>', block, re.S)
-    at = wiki.end() if wiki else len('<div class="dossier-actions">')
+    at = wiki.end() if wiki else block.index(">") + 1
     block = block[:at] + link + block[at:]
     return page[:actions.start()] + block + page[actions.end():]
 

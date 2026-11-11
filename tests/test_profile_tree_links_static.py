@@ -38,6 +38,34 @@ class StaticProfileTreeLinkTests(unittest.TestCase):
         self.assertEqual(links.add_to_page(html, {"Glasgow-1": [5, 1]}, fs), html)
         self.assertNotIn("data-fs-link", links.add_to_page(html, {"Glasgow-1": [5, 1]}, {}))
 
+    def test_familysearch_button_supports_legacy_research_header(self):
+        html = ('<header class="v3-person-header"><div class="profile-wikitree-actions">'
+                '<span>WikiTree destination</span><a href="https://www.wikitree.com/wiki/Hutcheson-1654">'
+                'View on WikiTree <small>Hutcheson-1654 ↗</small></a></div></header>')
+        fs = {"hutcheson-1654": {"id": "PJHW-VZ7", "confidence": "high"}}
+        once = links.add_familysearch_link(html, {"id": "Hutcheson-1654"}, fs)
+        soup = BeautifulSoup(once, "html.parser")
+        actions = soup.select_one(".profile-wikitree-actions")
+        self.assertEqual(actions.span.text, "WikiTree destination")
+        self.assertEqual(actions.select("a")[1]["href"],
+                         "https://www.familysearch.org/tree/person/details/PJHW-VZ7")
+        self.assertEqual(once, links.add_familysearch_link(once, {"id": "Hutcheson-1654"}, fs))
+        self.assertEqual(html, links.add_familysearch_link(once, {"id": "Hutcheson-1654"}, {}))
+
+    def test_familysearch_button_preserves_catalogue_actions(self):
+        html = ('<div class="actions"><a class="button secondary" '
+                'href="https://www.wikitree.com/wiki/Hutcheson-1654">Open WikiTree</a>'
+                '<a class="button secondary" href="/compare.html?a=Hutcheson-1654">Compare</a>'
+                '<a class="button secondary" href="/feedback.html?person=Hutcheson-1654">Report a correction</a></div>')
+        fs = {"hutcheson-1654": {"id": "PJHW-VZ7", "confidence": "high"}}
+        once = links.add_familysearch_link(html, {"id": "Hutcheson-1654"}, fs)
+        actions = BeautifulSoup(once, "html.parser").select(".actions a")
+        self.assertEqual([a.text for a in actions],
+                         ["Open WikiTree", "View on FamilySearch", "Compare", "Report a correction"])
+        self.assertEqual(actions[1]["class"], ["button", "secondary"])
+        self.assertEqual(once, links.add_familysearch_link(once, {"id": "Hutcheson-1654"}, fs))
+        self.assertEqual(html, links.add_familysearch_link(once, {"id": "Hutcheson-1654"}, {}))
+
     def views(self, html):
         return [a["data-view"] for a in BeautifulSoup(html, "html.parser").select("#profile-tree-links a")]
 
