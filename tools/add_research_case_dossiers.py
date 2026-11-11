@@ -130,7 +130,11 @@ def page_shell(person, dossier, findings, links):
     for node in soup.select('script[type="application/ld+json"]'):
         node.string = json.dumps({"@context":"https://schema.org", "@type":"Person", "name":name,
                                   "url":f"{catalogue.SITE_URL}/people/{slug}.html", "sameAs":destination})
-    main = soup.select_one("main.v3-dossier"); main.clear()
+    main = soup.select_one("main.v3-dossier") or soup.find("main")
+    if main is None:
+        raise ValueError('The public person-page template has no main content element')
+    main['class'] = list(dict.fromkeys([*main.get('class', []), 'v3-dossier']))
+    main.clear()
     for crumb in soup.select(".g-breadcrumb"):
         for child in crumb.find_all(["span", "strong"]):
             if "William Glasgow" in child.get_text():

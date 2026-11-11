@@ -53,6 +53,18 @@ The deed does not give her birth date. No compatible profile survived the docume
     def read(self, relative):
         return json.loads((self.root / "www" / relative).read_text())
 
+    def test_plain_catalogue_main_can_supply_a_case_shell(self):
+        template = self.root / 'www/people/glasgow-1521.html'
+        template.write_text('<html><head><title>Old subject</title></head><body>'
+                            '<aside>Shared navigation</aside><main id="main">Old subject body</main></body></html>')
+        result = module.apply_creations(self.root)
+        self.assertEqual(1, result['count'])
+        html = (self.root / 'www/people' / (self.slug + '.html')).read_text()
+        soup = BeautifulSoup(html, 'html.parser')
+        self.assertIsNotNone(soup.select_one('main.v3-dossier'))
+        self.assertIn('Shared navigation', soup.get_text())
+        self.assertNotIn('Old subject body', soup.get_text())
+
     def test_creation_search_uses_reviewed_father_and_keeps_unknown_mother(self):
         assessment = {
             "assertion_id": "C-reviewed-jane-father", "people": [self.slug, "Glasgow-9001"],
