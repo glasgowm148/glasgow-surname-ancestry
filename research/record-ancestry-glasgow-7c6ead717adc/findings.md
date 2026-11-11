@@ -7,4 +7,3 @@ Reviewed 11 November 2026: the correct record-defined father is [Robert Glasgow 
 ## Sources
 
 [Ancestry, Scotland, Select Births and Baptisms, 1564–1950: Margaret Glasgow, record 15719158](https://www.ancestry.co.uk/search/collections/60143/records/15719158). Held derivative transcript; original uninspected. Parent-only and child index rows repeat the same event.
-

@@ -13,4 +13,3 @@ The local dossier previously had no selected father. This is a new structural fa
 - [Ancestry Scotland, Select Births and Baptisms, 1564–1950, record 25256352](https://www.ancestry.co.uk/search/collections/60143/records/25256352). Held transcript; original register uninspected.
 - [Ancestry Scotland, Select Births and Baptisms, 1564–1950, record 15719158](https://www.ancestry.co.uk/search/collections/60143/records/15719158). Held transcript; original register uninspected.
 - [Ancestry Scotland, Select Births and Baptisms, 1564–1950, record 14617644](https://www.ancestry.co.uk/search/collections/60143/records/14617644). Held transcript; original register uninspected.
-
