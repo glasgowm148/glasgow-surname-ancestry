@@ -3,6 +3,16 @@ import unittest
 from tools.relationship_probability import BANDS, probability_for_relationship, confidence_band, index_reviewed_estimates
 
 
+class HistoricalEstimateTests(unittest.TestCase):
+    def test_retired_duplicate_does_not_override_current_pair(self):
+        current = dict(subject_id='Fable-1', relative_id='Fable-2', relationship='father',
+                       percent=23, basis='Current hypothesis', assertion_id='current')
+        retired = dict(current, percent=12, assertion_id='duplicate',
+                       lifecycle='superseded', display='historical')
+        for rows in ([current, retired], [retired, current]):
+            self.assertEqual({('fable-1', 'fable-2', 'father'): current}, index_reviewed_estimates(rows))
+        self.assertEqual(12, retired['percent'])
+
 class RelationshipProbabilityTests(unittest.TestCase):
     def test_explicit_reassessment_takes_precedence_over_same_pair_legacy_estimate(self):
         older = dict(subject_id='Child-1', relative_id='Father-1', relationship='father',

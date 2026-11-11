@@ -56,8 +56,9 @@ def index_reviewed_estimates(rows):
 
     result = {}
     for row in rows:
-        if row.get('percent') is None and row.get('lifecycle') == 'historical':
-            continue  # a retired assessment keeps its earlier estimate only as history
+        if row.get('lifecycle') in {'historical', 'superseded'} and (
+                row.get('percent') is None or row.get('display') == 'historical'):
+            continue  # retained claim history is not a current pair estimate
         key = (row['subject_id'].casefold(), row['relative_id'].casefold(), row['relationship'])
         if not 0 < row['percent'] < 100 or not row.get('basis'):
             raise ValueError(f'Invalid or duplicate relationship estimate: {key}')
